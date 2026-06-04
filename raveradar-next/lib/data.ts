@@ -59,6 +59,12 @@ export const EVENTS: RaveEvent[] = [
   { id: 60, title: "Neopop Festival", type: "Festival", genres: ["Techno", "House"], city: "Viana do Castelo", country: "Portugal", lat: 41.69, lng: -8.83, date: "2026-08-06", time: "18:00", price: 79, currency: "€", venue: "Forte de Santiago da Barra", trending: false, lineup: [], desc: "Le festival techno portugais dans le fort de Viana do Castelo (20 ans) : avant-garde au bord de l'océan." },
   { id: 61, title: "Glitch Festival", type: "Festival", genres: ["Techno", "House"], city: "Rabat", country: "Malta", lat: 35.88, lng: 14.40, date: "2026-08-12", time: "16:00", price: 99, currency: "€", venue: "Gianpula Fields", trending: false, lineup: [], desc: "House & techno sur l'île de Malte : main stage à Gianpula, boat parties et fortifications UNESCO." },
   { id: 62, title: "Zamna Tulum", type: "Festival", genres: ["House", "Techno"], city: "Tulum", country: "Mexico", lat: 20.21, lng: -87.46, date: "2026-12-28", time: "16:00", price: 120, currency: "$", venue: "Tulum Jungle", trending: false, lineup: [], desc: "Dans la jungle de Tulum : house et techno mélodique sous les étoiles, le rendez-vous hivernal du Mexique." },
+  { id: 63, title: "Let It Roll", type: "Festival", genres: ["Drum & Bass"], city: "Most", country: "Czech Republic", lat: 50.52, lng: 13.64, date: "2026-07-30", time: "16:00", price: 99, currency: "€", venue: "Lake Most", trending: true, lineup: ["Chase & Status"], desc: "Le plus grand festival drum & bass du monde, au bord du lac de Most en Tchéquie : trois nuits de breaks à 174." },
+  { id: 64, title: "UNUM Festival", type: "Festival", genres: ["House", "Techno"], city: "Shëngjin", country: "Albania", lat: 41.81, lng: 19.59, date: "2026-06-04", time: "16:00", price: 120, currency: "€", venue: "Rana e Hedhun Beach", trending: true, lineup: ["&ME", "Ricardo Villalobos", "Ben Klock", "Raresh", "Craig Richards", "DJ Tennis"], desc: "Cinq jours et cinq nuits de house, techno et minimal sur une plage albanaise sauvage." },
+  { id: 65, title: "No Sleep Festival", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Belgrade", country: "Serbia", lat: 44.83, lng: 20.43, date: "2026-11-28", time: "22:00", price: 55, currency: "€", venue: "New Hangar, Port of Belgrade", trending: false, lineup: [], desc: "Le petit frère hivernal d'EXIT : techno dans le hangar géant du port de Belgrade et 10 autres lieux." },
+  { id: 66, title: "SonneMondSterne", type: "Festival", genres: ["Techno", "House"], city: "Saalburg-Ebersdorf", country: "Germany", lat: 50.50, lng: 11.71, date: "2026-08-07", time: "12:00", price: 139, currency: "€", venue: "Bleilochtalsperre", trending: false, lineup: [], desc: "L'un des grands festivals électro d'Allemagne, du coucher au lever du soleil au bord du lac de Saalburg." },
+  { id: 67, title: "Polifonic", type: "Festival", genres: ["Techno", "House"], city: "Bari", country: "Italy", lat: 40.80, lng: 17.38, date: "2026-07-22", time: "16:00", price: 109, currency: "€", venue: "Valle d'Itria, Puglia", trending: false, lineup: [], desc: "Festival boutique des Pouilles : électro pointue entre oliveraies, masseria et plages de l'Adriatique." },
+  { id: 68, title: "Tauron Nowa Muzyka", type: "Festival", genres: ["Techno", "House"], city: "Katowice", country: "Poland", lat: 50.26, lng: 19.02, date: "2026-06-04", time: "16:00", price: 69, currency: "€", venue: "Strefa Kultury", trending: false, lineup: ["Apparat", "Modeselektor", "John Digweed", "Hania Rani"], desc: "Le festival électro/techno primé de Katowice, dans une friche industrielle réhabilitée de Silésie." },
 ];
 
 /* AI-generated key-art posters (Nano Banana Pro), served from CDN. */
@@ -112,6 +118,26 @@ export const IMAGES: Record<number, string> = {
   46: "hf_20260604_152920_39c95ac2-e86f-48f7-beb1-ac44b7e4d215.png",
   47: "hf_20260604_152947_03d3bc5b-8ad8-46dc-b250-feb48fff366f.png",
   48: "hf_20260604_152948_8a3edd1d-8662-45ee-8310-936245d615fe.png",
+  49: "hf_20260604_185741_44408ccc-8d6e-4a87-8ebb-6835b47d8b30.png",
+  50: "hf_20260604_185743_16fe4b07-0251-4606-9c21-41544bceb559.png",
+  51: "hf_20260604_185805_5080b41b-7ac1-4b9c-8ace-15abde5b5b72.png",
+  52: "hf_20260604_185744_aa550291-6a41-444c-8cd9-8983585c3291.png",
+  53: "hf_20260604_185845_73576712-4bb2-43ab-ac07-479032139768.png",
+  54: "hf_20260604_185846_de1443c1-89f2-4213-ad49-8aca1c4dda8a.png",
+  55: "hf_20260604_185920_b7280572-5930-44f2-a272-442ef6fabecf.png",
+  56: "hf_20260604_190116_7a2252c0-65c6-403b-8642-93d2f202caaf.png",
+  57: "hf_20260604_190117_bf48f8a6-b7a6-4f91-bdb3-700fec0050ee.png",
+  58: "hf_20260604_190134_4ae9304d-711a-48be-903a-28215fafeed0.png",
+  59: "hf_20260604_190151_5b88eee7-47dc-40ce-8779-5caf9dcb3706.png",
+  60: "hf_20260604_190222_386e8b13-8f31-416a-9973-d736916d72d4.png",
+  61: "hf_20260604_190224_532b7637-1fa6-4ef0-aca2-7abbaa86452e.png",
+  62: "hf_20260604_190254_67874e0b-b428-4deb-8237-25a521d88eaa.png",
+  63: "hf_20260604_190255_94318562-15f5-4cca-97eb-8a8aa9fef1d4.png",
+  64: "hf_20260604_190325_b85d5106-0ebc-4be8-9ca6-496ba51c0d1d.png",
+  65: "hf_20260604_190325_1f08b832-7222-4fa1-b137-f83375eafb91.png",
+  66: "hf_20260604_190432_c369f23a-f9cf-4e67-9782-f6cf28de2109.png",
+  67: "hf_20260604_190434_9abbe2f7-c70b-48c9-afa8-2f30976bdc14.png",
+  68: "hf_20260604_190503_d26a409f-e768-4b36-837e-3b349c07be1e.png",
 };
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
 /** composite CSS background: real poster on top, genre gradient as fallback */
@@ -173,6 +199,12 @@ const TICKETS: Record<number, string> = {
   60: "https://neopopfestival.com",
   61: "https://www.glitchfestival.com",
   62: "https://zamnafestival.com",
+  63: "https://letitroll.eu",
+  64: "https://unumfestival.com",
+  65: "https://www.nosleepfestival.com",
+  66: "https://www.sonnemondsterne.de",
+  67: "https://www.polifonic.it",
+  68: "https://festiwalnowamuzyka.pl",
 };
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>

@@ -35,6 +35,15 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
           </h1>
           <p className="lead">{t("cities.lead")}</p>
 
+          <div className="chips" style={{ justifyContent: "flex-start", marginTop: 24 }}>
+            <Link href={`${p}/rave-party/ce-week-end`} className="btn btn-primary">
+              🔥 {t("soon.title")}
+            </Link>
+            <Link href={`${p}/rave-party/autour-de-moi`} className="btn btn-ghost">
+              {t("near.btn")}
+            </Link>
+          </div>
+
           <h3 className="h-md" style={{ margin: "36px 0 16px" }}>
             {t("cities.bigcities")}
           </h3>

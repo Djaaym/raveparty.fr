@@ -27,6 +27,13 @@ export const PLACES: Place[] = [
   { slug: "strasbourg", label: "Strasbourg", kind: "ville", vol: 210, match: ["Strasbourg"] },
   { slug: "nice", label: "Nice", kind: "ville", vol: 210, match: ["Nice"] },
   { slug: "grenoble", label: "Grenoble", kind: "ville", vol: 260, match: ["Grenoble"] },
+  // Major European cities (target NL/DE/UK volumes; populated by our events)
+  { slug: "amsterdam", label: "Amsterdam", kind: "ville", vol: 1900, match: ["Amsterdam"] },
+  { slug: "rotterdam", label: "Rotterdam", kind: "ville", vol: 8100, match: ["Rotterdam"] },
+  { slug: "berlin", label: "Berlin", kind: "ville", vol: 2400, match: ["Berlin"] },
+  { slug: "london", label: "London", kind: "ville", vol: 1300, match: ["London"] },
+  { slug: "manchester", label: "Manchester", kind: "ville", vol: 720, match: ["Manchester"] },
+  { slug: "barcelona", label: "Barcelona", kind: "ville", vol: 880, match: ["Barcelona"] },
   { slug: "drome", label: "Drôme", kind: "departement", vol: 1000 },
   { slug: "lozere", label: "Lozère", kind: "departement", vol: 4400 },
   { slug: "aude", label: "Aude", kind: "departement", vol: 4400 },

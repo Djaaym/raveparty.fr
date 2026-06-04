@@ -7,7 +7,7 @@ import { VENUES } from "@/lib/venues";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = new Set<string>(["", "/explore", "/map", "/organizer", "/account", "/genres", "/villes", "/artistes", "/lieux"]);
+  const paths = new Set<string>(["", "/explore", "/map", "/organizer", "/account", "/genres", "/villes", "/artistes", "/lieux", "/rave-party/ce-week-end", "/rave-party/autour-de-moi"]);
   ALL_GENRES.forEach((g) => paths.add(`/genres/${genreSlug(g)}`));
   PLACES.forEach((p) => {
     paths.add(`/rave-party/${p.slug}`);
