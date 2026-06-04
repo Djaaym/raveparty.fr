@@ -435,10 +435,45 @@ function initAccount() {
   }));
 }
 
+/* ----------------------------- GENRES HUB ------------------------------ */
+function initGenresHub() {
+  const gt = $("#genre-tiles");
+  if (!gt) return;
+  gt.innerHTML = ALL_GENRES.map(g => {
+    const k = GENRES[g];
+    const n = EVENTS.filter(e => e.genres.includes(g)).length;
+    return `<a class="genre" href="${LP}/explore/?genre=${encodeURIComponent(g)}">
+      <span style="position:absolute;inset:0;background:linear-gradient(150deg,${k.c1},${k.c2});opacity:.85"></span>
+      <div style="position:relative;z-index:2">
+        <span>${g}</span><small>${genreDescL(g)}</small>
+        <small style="margin-top:8px;font-family:var(--f-mono)">${n} ${T("dyn.events")}</small>
+      </div></a>`;
+  }).join("");
+}
+
+/* ----------------------------- VILLES HUB ------------------------------ */
+const FR_PLACES = [
+  "Lyon","Paris","Rennes","Bordeaux","Nantes","Marseille","Toulouse",
+  "Drôme","Lozère","Aude","Lot","Isère","Ain","Hérault","Hautes-Alpes","Tarn","Aveyron","Bretagne","Loire-Atlantique"
+];
+function initVillesHub() {
+  const cc = $("#villes-countries");
+  if (cc) cc.innerHTML = COUNTRIES.map(c => {
+    const n = EVENTS.filter(e => e.country === c).length;
+    return `<a class="chip" style="font-size:.95rem;padding:12px 18px" href="${LP}/explore/?country=${encodeURIComponent(c)}">
+      ${COUNTRY_FLAG[c] || "🌍"} ${countryLabel(c)} <b style="opacity:.55;font-weight:600">${n}</b></a>`;
+  }).join("");
+  const ci = $("#villes-cities");
+  if (ci) ci.innerHTML = FR_PLACES.map(label =>
+    `<a class="chip" style="font-size:.95rem;padding:12px 18px" href="${LP}/explore/?q=${encodeURIComponent(label)}">📍 Rave party ${label}</a>`
+  ).join("");
+}
+
 /* ----------------------------- boot ------------------------------------ */
 document.addEventListener("DOMContentLoaded", () => {
   initChrome();
   const page = document.body.dataset.page;
   ({ home: initHome, explore: initExplore, map: initMap, event: initEvent,
-     organizer: initOrganizer, account: initAccount }[page] || (()=>{}))();
+     organizer: initOrganizer, account: initAccount,
+     genres: initGenresHub, villes: initVillesHub }[page] || (()=>{}))();
 });

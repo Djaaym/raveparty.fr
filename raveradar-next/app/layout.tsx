@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, Inter, Space_Mono } from "next/font/google";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-syne" });
@@ -7,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600"], variabl
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-space-mono" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "RaveRadar — Trouve ta prochaine rave",
   description:
     "Découvre les meilleurs événements de musique électronique d'Europe. Techno, hardstyle, DnB, psytrance, free parties & raves en entrepôt.",

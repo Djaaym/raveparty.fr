@@ -7,11 +7,17 @@ const I18N = {
   fr: {
     /* nav */
     "nav.explore": "Explorer",
+    "nav.genres": "Genres",
+    "nav.cities": "Villes",
     "nav.map": "Carte",
     "nav.organizers": "Organisateurs",
     "nav.favourites": "Favoris",
     "nav.signin": "Connexion",
     "nav.add": "Ajouter un événement",
+    "cities.title": "Rave parties & festivals par ville",
+    "cities.lead": "Trouve les soirées et festivals près de chez toi — par pays, ville ou département.",
+    "cities.bycountry": "Par pays",
+    "cities.bycity": "Villes & départements (France)",
 
     /* hero */
     "hero.badge": "2 400+ événements suivis dans 28 pays",
@@ -231,11 +237,17 @@ const I18N = {
 
   en: {
     "nav.explore": "Explore",
+    "nav.genres": "Genres",
+    "nav.cities": "Cities",
     "nav.map": "Map",
     "nav.organizers": "For Organizers",
     "nav.favourites": "Favourites",
     "nav.signin": "Sign in",
     "nav.add": "Add Event",
+    "cities.title": "Rave parties & festivals by city",
+    "cities.lead": "Find parties and festivals near you — by country, city or region.",
+    "cities.bycountry": "By country",
+    "cities.bycity": "Cities & departments (France)",
 
     "hero.badge": "2,400+ events tracked across 28 countries",
     "hero.title": 'Find Your <span class="gradient-text">Next Rave</span>',
