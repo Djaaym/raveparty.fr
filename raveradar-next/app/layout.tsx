@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, Inter, Space_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/site";
+import Analytics from "@/components/Analytics";
 import "./globals.css";
 
 const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-syne" });
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${syne.variable} ${inter.variable} ${spaceMono.variable}`}>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
