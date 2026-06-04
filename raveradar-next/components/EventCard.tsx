@@ -44,15 +44,17 @@ export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
           <div className="card-loc">
             📍 {e.city}, {countryLabel(e.country, lang)}
           </div>
-          <div className="card-meta">
-            {e.genres.slice(0, 3).map((g) => (
-              <span className="gpill" key={g}>
-                {g}
-              </span>
-            ))}
+          <div className="card-foot">
+            <div className="card-meta">
+              {e.genres.slice(0, 2).map((g) => (
+                <span className="gpill" key={g}>
+                  {g}
+                </span>
+              ))}
+            </div>
+            <div className="card-price">{priceLabel(e, lang)}</div>
           </div>
         </div>
-        <div className="card-price">{priceLabel(e, lang)}</div>
       </div>
     </motion.article>
   );
