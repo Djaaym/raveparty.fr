@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS, cardBg, countryLabel, eventSlug, ticketUrl, slugify } from "@/lib/data";
+import { EVENTS, cardBg, countryLabel, ticketUrl, slugify, eventPath } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
@@ -19,7 +19,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   const e = EVENTS.find((x) => x.id === show.eventId);
   if (!e) return notFound();
 
-  const eventHref = e.type === "Festival" ? `${p}/festival/${eventSlug(e)}` : `${p}/event?id=${e.id}`;
+  const eventHref = `${p}${eventPath(e)}`;
   const otherDates = showsForArtist(show.artistSlug).filter((s) => s.slug !== show.slug).slice(0, 6);
   const sameVenue = eventsForVenue(show.venueSlug).filter((x) => x.id !== e.id).slice(0, 4);
 

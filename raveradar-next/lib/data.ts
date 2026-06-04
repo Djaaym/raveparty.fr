@@ -94,6 +94,25 @@ export const IMAGES: Record<number, string> = {
   14: "hf_20260604_131815_abf356b0-6b32-4f96-8152-fa01195cf263.png",
   15: "hf_20260604_131834_ae5e830f-0ace-4943-b5d2-18a6d6ec71d0.png",
   16: "hf_20260604_131836_3c564a55-5d17-45e3-833b-7cf874f35e66.png",
+  17: "hf_20260604_151545_a3b11763-95c5-49ea-8edd-52f738c50b72.png",
+  18: "hf_20260604_151546_b2353ca8-1afe-4cf5-829f-2e25980336c7.png",
+  21: "hf_20260604_151548_7ab9b16d-d31c-4b8e-846b-0ce6e34db271.png",
+  22: "hf_20260604_151549_d05c714a-e34a-4641-a5e4-abc22248e479.png",
+  23: "hf_20260604_151652_ab109d96-7e8c-4015-ac40-2a287ce75bd6.png",
+  24: "hf_20260604_151652_12b8ba5f-9fce-41bb-a1b8-cb42be632335.png",
+  25: "hf_20260604_151654_f7d8e62b-82bd-4282-9dcf-9b81bdb619d5.png",
+  26: "hf_20260604_151747_6f2d10cc-8dac-4440-bacf-5833b8963ec5.png",
+  31: "hf_20260604_151749_1284b61c-1cda-4f82-b1a5-e2467624126b.png",
+  33: "hf_20260604_151750_c52dc4a8-aaeb-482c-a71e-ebd2dffd06c9.png",
+  34: "hf_20260604_151841_f932e4b1-008c-47b4-b787-cfb794a33c51.png",
+  35: "hf_20260604_151842_5285e560-7e93-4070-b507-38f49d118d4a.png",
+  36: "hf_20260604_151844_017801fc-d48d-4d32-a524-8265d8e4cf48.png",
+  37: "hf_20260604_151939_cdf1bb4a-5dc7-41ed-ba2d-4f1af0b66f13.png",
+  38: "hf_20260604_151940_f550f538-fad8-465f-9f2a-2c33155b9b39.png",
+  39: "hf_20260604_151941_e808ce07-3104-402c-a861-97875544f61c.png",
+  43: "hf_20260604_151942_aec345c8-c05c-41b9-8fa9-a91781ba3d21.png",
+  44: "hf_20260604_152029_9703324b-b9fb-42d4-9e34-bb3929ecb451.png",
+  45: "hf_20260604_152218_1dc3a2b2-c53d-4452-b80a-f57db6d95631.png",
 };
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
 /** composite CSS background: real poster on top, genre gradient as fallback */
@@ -159,6 +178,9 @@ export const slugify = (s: string): string =>
 export const eventSlug = (e: RaveEvent): string => slugify(e.title);
 export const eventFromSlug = (s: string): RaveEvent | undefined => EVENTS.find((e) => eventSlug(e) === s);
 export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival");
+/** SEO-friendly canonical path for an event (festivals live under /festival). */
+export const eventPath = (e: RaveEvent): string =>
+  e.type === "Festival" ? `/festival/${eventSlug(e)}` : `/event/${eventSlug(e)}`;
 
 export const COUNTRIES = [...new Set(EVENTS.map((e) => e.country))].sort();
 export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
