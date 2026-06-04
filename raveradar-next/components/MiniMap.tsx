@@ -12,7 +12,7 @@ export default function MiniMap({ lat, lng }: { lat: number; lng: number }) {
     let map: any;
     (async () => {
       const L = (await import("leaflet")).default;
-      map = L.map(ref.current!, { zoomControl: false, scrollWheelZoom: false, attributionControl: false }).setView(
+      map = L.map(ref.current!, { zoomControl: true, scrollWheelZoom: false, attributionControl: false }).setView(
         [lat, lng],
         11
       );
