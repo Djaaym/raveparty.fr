@@ -155,6 +155,17 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 
 /* ----------------------------- HERO ------------------------------------ */
 .hero { position: relative; padding-top: 80px; padding-bottom: 64px; overflow: hidden; }
+/* AI-generated key visual (served from CDN; degrades gracefully to the gradient bg) */
+.hero-photo {
+  position: absolute; inset: 0; z-index: -2; opacity: .42;
+  background-image:
+    linear-gradient(180deg, rgba(5,6,8,.35) 0%, rgba(5,6,8,.65) 60%, var(--black) 100%),
+    url("https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/hf_20260604_115823_221ae9a2-2422-4def-ae5a-a9a4d6b1ace9.png");
+  background-size: cover; background-position: center;
+  mask-image: radial-gradient(80% 80% at 50% 20%, #000 35%, transparent 80%);
+  animation: heroZoom 24s var(--ease) infinite alternate;
+}
+@keyframes heroZoom { to { transform: scale(1.08); } }
 .hero-grid {
   position: absolute; inset: 0; z-index: -1; opacity: .35;
   background-image:
