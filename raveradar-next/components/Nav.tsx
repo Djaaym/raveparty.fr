@@ -19,6 +19,7 @@ export default function Nav({ lang }: { lang: Lang }) {
     { href: `${p}/explore`, label: t("nav.explore"), key: "/explore" },
     { href: `${p}/genres`, label: t("nav.genres"), key: "/genres" },
     { href: `${p}/villes`, label: t("nav.cities"), key: "/villes" },
+    { href: `${p}/artistes`, label: t("nav.artists"), key: "/artistes" },
     { href: `${p}/map`, label: t("nav.map"), key: "/map" },
   ];
   const isActive = (key: string) => frPath.startsWith(key);

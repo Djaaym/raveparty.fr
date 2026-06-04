@@ -488,3 +488,17 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .row-card .thumb { width: 80px; height: 80px; }
   .section { padding-block: 64px; }
 }
+
+/* ----------------------------- ARTISTS --------------------------------- */
+.artist-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.artist-tile {
+  display: flex; align-items: center; gap: 12px; padding: 12px 14px;
+  border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite-2);
+  transition: transform .25s var(--ease), border-color .25s; color: inherit;
+}
+.artist-tile:hover { border-color: var(--violet); transform: translateY(-2px); box-shadow: var(--glow-violet); }
+.artist-tile .av { width: 42px; height: 42px; border-radius: 50%; background: var(--grad-main); display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; flex: none; }
+.artist-tile b { font-size: .92rem; display: block; line-height: 1.1; }
+.artist-tile span { font-size: .74rem; color: var(--grey); }
+@media (max-width: 1024px) { .artist-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .artist-grid { grid-template-columns: 1fr; } }
