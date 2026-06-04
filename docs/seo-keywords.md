@@ -56,3 +56,27 @@ Chaque page lieu = H1 « Rave party {Lieu} », intro éditoriale, liste filtrée
 2. 🔜 Pages programmatiques `/rave-party/{lieu}` & `/festival/{lieu}` (départements + grandes villes prioritaires ci-dessus).
 3. 🔜 Pages festival nommées.
 4. ⏳ Phase 2 : pages **artistes** (line-up croisé festivals ↔ artistes) pour démultiplier les pages et le maillage interne.
+
+---
+
+## 🌍 Expansion internationale — « rave party / rave » par pays (exports 04/06/2026)
+
+Sources : `raveparty_allkeywords_{nl,es,de,uk}`. À exploiter pour les futures villes / festivals / pages.
+
+### 🇳🇱 Pays-Bas (total ≈ 77 900/mois)
+- **rotterdam rave** (8 100) · rave (5 400) · **festival rotterdam** (1 600) · rotterdamse rave (880) · candy festival (720) · klangkuenstler ade (880).
+- ➜ **À ajouter** : ville **Rotterdam** (events + page), contenu **ADE** (Amsterdam Dance Event), Candy Festival.
+
+### 🇩🇪 Allemagne (total ≈ 222 700/mois — énorme)
+- **nature one** (33 100 ✅ ajouté) · **rave the planet** (12 100, parade techno de Berlin) · pydna / raketenbasis pydna (1 600, le lieu de Nature One) · festival techno (1 600).
+- ➜ **À ajouter** : **Rave the Planet** (Berlin), garder Nature One ; marché très orienté **festivals nommés**.
+
+### 🇪🇸 Espagne (total ≈ 63 300/mois)
+- Surtout **informationnel** : rave significado, que es una rave, fiesta rave… « techno music festival » (590).
+- ➜ **À faire** : page éducative **« ¿Qué es una rave? »** (intent informationnel) + festivals techno ES (Sónar ✅, ajouter Madrid/Valence).
+
+### 🇬🇧 Royaume-Uni
+- rave party near me · **upcoming raves** · raves in uk · rave events · rave tickets · uk rave.
+- ➜ **À ajouter** : pages **« near me » / « upcoming »**, villes UK (Manchester ✅, Bristol, Leeds, Birmingham, Glasgow), London ✅.
+
+> Idée transverse : la requête **« near me »** revient FR + UK → prévoir une page géolocalisée `/rave-party/autour-de-moi` (géoloc navigateur).
