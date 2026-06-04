@@ -54,9 +54,11 @@ function cardHTML(e) {
         <div class="card-date">${fmtDate(e.date)} · ${e.time}</div>
         <h3 class="card-title">${e.title}</h3>
         <div class="card-loc">📍 ${e.city}, ${countryLabel(e.country)}</div>
-        <div class="card-meta">${e.genres.slice(0,3).map(g => `<span class="gpill">${g}</span>`).join("")}</div>
+        <div class="card-foot">
+          <div class="card-meta">${e.genres.slice(0,2).map(g => `<span class="gpill">${g}</span>`).join("")}</div>
+          <div class="card-price">${priceLabel(e)}</div>
+        </div>
       </div>
-      <div class="card-price">${priceLabel(e)}</div>
     </div>
   </article>`;
 }
@@ -191,7 +193,7 @@ function initHome() {
     const g = $("#q-genre").value;
     if (q) p.set("q", q);
     if (c) p.set("country", c);
-    if (d) p.set("date", d);
+    if (d) p.set("month", d);
     if (g) p.set("genre", g);
     location.href = `${LP}/explore/?` + p.toString();
   });
@@ -211,12 +213,13 @@ function initHome() {
 }
 
 /* ----------------------------- EXPLORE --------------------------------- */
-let exState = { q: "", country: "", city: "", genres: new Set(), types: new Set(), maxPrice: 300, sort: "date", view: "grid" };
+let exState = { q: "", country: "", city: "", month: "", genres: new Set(), types: new Set(), maxPrice: 300, sort: "date", view: "grid" };
 
 function initExplore() {
   const u = new URLSearchParams(location.search);
   exState.q = u.get("q") || "";
   exState.country = u.get("country") || "";
+  exState.month = u.get("month") || "";
   if (u.get("genre")) exState.genres.add(u.get("genre"));
 
   const cf = $("#f-country");
@@ -256,7 +259,7 @@ function initExplore() {
   }));
 
   $("#clear-filters").addEventListener("click", () => {
-    exState = { q:"", country:"", city:"", genres:new Set(), types:new Set(), maxPrice:300, sort:"date", view: exState.view };
+    exState = { q:"", country:"", city:"", month:"", genres:new Set(), types:new Set(), maxPrice:300, sort:"date", view: exState.view };
     initExplore();
   });
 
@@ -266,6 +269,7 @@ function initExplore() {
 function filteredEvents() {
   let list = EVENTS.filter(e => {
     if (exState.country && e.country !== exState.country) return false;
+    if (exState.month && !e.date.startsWith(exState.month)) return false;
     if (exState.maxPrice < 300 && e.price > exState.maxPrice) return false;
     if (exState.types.size && !exState.types.has(e.type)) return false;
     if (exState.genres.size && !e.genres.some(g => exState.genres.has(g))) return false;
