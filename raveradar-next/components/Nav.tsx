@@ -37,6 +37,12 @@ export default function Nav({ lang }: { lang: Lang }) {
               {l.label}
             </Link>
           ))}
+          <Link href={`${p}/account`} className="nav-only-mobile">
+            {t("nav.signin")}
+          </Link>
+          <Link href={`${p}/organizer`} className="nav-only-mobile btn btn-primary btn-sm">
+            {t("nav.add")}
+          </Link>
         </div>
         <div className="nav-right">
           <div className="lang-switch">

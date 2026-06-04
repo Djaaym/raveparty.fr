@@ -16,7 +16,6 @@ export default function Home({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const trending = EVENTS.filter((e) => e.trending);
-  const upcoming = [...EVENTS].sort((a, b) => a.date.localeCompare(b.date)).slice(0, 8);
 
   return (
     <>
@@ -112,30 +111,6 @@ export default function Home({ lang }: { lang: Lang }) {
                 </Link>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* upcoming */}
-      <section className="section">
-        <div className="wrap">
-          <Reveal>
-            <div className="section-head">
-              <div>
-                <span className="eyebrow">{t("upcoming.eyebrow")}</span>
-                <h2 className="h-lg" style={{ marginTop: 14 }}>
-                  {t("upcoming.title")}
-                </h2>
-              </div>
-              <Link href={`${p}/map`} className="btn btn-ghost">
-                {t("upcoming.map")}
-              </Link>
-            </div>
-          </Reveal>
-          <div className="scroller">
-            {upcoming.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
-            ))}
           </div>
         </div>
       </section>

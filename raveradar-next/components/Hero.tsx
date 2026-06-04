@@ -16,7 +16,7 @@ export default function Hero({ lang }: { lang: Lang }) {
   const router = useRouter();
   const [city, setCity] = useState("");
   const [country, setCountry] = useState("");
-  const [date, setDate] = useState("");
+  const [month, setMonth] = useState("");
   const [genre, setGenre] = useState("");
 
   const submit = (ev: React.FormEvent) => {
@@ -24,7 +24,7 @@ export default function Hero({ lang }: { lang: Lang }) {
     const q = new URLSearchParams();
     if (city) q.set("q", city);
     if (country) q.set("country", country);
-    if (date) q.set("date", date);
+    if (month) q.set("month", month);
     if (genre) q.set("genre", genre);
     router.push(`${p}/explore?${q.toString()}`);
   };
@@ -83,8 +83,8 @@ export default function Hero({ lang }: { lang: Lang }) {
             </select>
           </div>
           <div className="search-field">
-            <label>{t("search.date")}</label>
-            <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+            <label>{t("search.month")}</label>
+            <input type="month" value={month} onChange={(e) => setMonth(e.target.value)} />
           </div>
           <div className="search-field">
             <label>{t("search.genre")}</label>

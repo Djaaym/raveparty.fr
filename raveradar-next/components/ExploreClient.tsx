@@ -43,15 +43,18 @@ export default function ExploreClient({
   initialGenre = "",
   initialCountry = "",
   initialQ = "",
+  initialMonth = "",
 }: {
   lang: Lang;
   initialGenre?: string;
   initialCountry?: string;
   initialQ?: string;
+  initialMonth?: string;
 }) {
   const t = getDict(lang);
   const [q, setQ] = useState(initialQ);
   const [country, setCountry] = useState(initialCountry);
+  const [month] = useState(initialMonth);
   const [genres, setGenres] = useState<Set<string>>(new Set(initialGenre ? [initialGenre] : []));
   const [types, setTypes] = useState<Set<string>>(new Set());
   const [maxPrice, setMaxPrice] = useState(300);
@@ -67,6 +70,7 @@ export default function ExploreClient({
   const list = useMemo(() => {
     let r = EVENTS.filter((e) => {
       if (country && e.country !== country) return false;
+      if (month && !e.date.startsWith(month)) return false;
       if (maxPrice < 300 && e.price > maxPrice) return false;
       if (types.size && !types.has(e.type)) return false;
       if (genres.size && !e.genres.some((g) => genres.has(g))) return false;
@@ -81,7 +85,7 @@ export default function ExploreClient({
     if (sort === "price-d") r = [...r].sort((a, b) => b.price - a.price);
     if (sort === "az") r = [...r].sort((a, b) => a.title.localeCompare(b.title));
     return r;
-  }, [q, country, genres, types, maxPrice, sort]);
+  }, [q, country, month, genres, types, maxPrice, sort]);
 
   const clear = () => {
     setQ("");

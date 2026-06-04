@@ -26,6 +26,7 @@ export default function ExploreView({ lang, searchParams }: { lang: Lang; search
             initialGenre={one(searchParams.genre)}
             initialCountry={one(searchParams.country)}
             initialQ={one(searchParams.q)}
+            initialMonth={one(searchParams.month)}
           />
         </div>
       </section>
