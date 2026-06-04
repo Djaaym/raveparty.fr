@@ -26,8 +26,17 @@ npm run dev   # http://localhost:3000  (FR)  ·  /en  (EN)
 | Composants : Nav, Footer, Hero, EventCard, Reveal, CountryBrowser, CtaForm | ✅ |
 | Page **Accueil** (FR + EN) | ✅ |
 | Page **Explorer** (filtres client, FR + EN) | ✅ |
+| Menu SEO/UX : Explorer · Genres · Villes · Carte | ✅ |
+| **Vrais visuels** (affiches IA sur les cartes) | ✅ |
+| Hub **Genres** + pages `/genres/{genre}` (SSG, FR + EN) | ✅ |
+| Hub **Villes** + pages **SEO** `/rave-party/{lieu}` (SSG, FR + EN) | ✅ |
 | Pages Carte / Événement / Organisateur / Compte | ⏳ à porter |
-| Pages SEO programmatiques `/rave-party/{lieu}`, `/festival/{lieu}` | ⏳ à venir |
+| Pages `/festival/{lieu}` & festival nommées | ⏳ à venir |
 | Pages **artistes** (phase 2) | ⏳ |
+
+## Pages SEO générées (au build)
+- `/rave-party/{lieu}` — 19 villes/départements prérendus (lyon, paris, rennes, bordeaux, drôme, lozère, aude, lot, isère, ain, hérault, hautes-alpes, tarn, aveyron, bretagne…), FR + EN → **38 pages**.
+- `/genres/{genre}` — 12 genres prérendus, FR + EN → **24 pages**.
+- Chaque page lieu : H1 « Rave party {Lieu} », intro éditoriale optimisée, événements locaux (ou alerte si aucun), events à proximité, **FAQ** (capte « People also ask »), `generateMetadata` (title/description). Liste des cibles dans `lib/places.ts`.
 
 > Le site **statique** à la racine du repo reste la version live ; ce dossier prépare la migration.

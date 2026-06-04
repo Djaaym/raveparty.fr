@@ -67,6 +67,13 @@ export const cardBg = (e: RaveEvent): string => {
 };
 
 export const ALL_GENRES = Object.keys(GENRES);
+export const genreSlug = (g: string): string =>
+  g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+export const genreFromSlug = (s: string): string | undefined =>
+  ALL_GENRES.find((g) => genreSlug(g) === s);
+export const eventsForGenre = (g: string): RaveEvent[] =>
+  EVENTS.filter((e) => e.genres.includes(g)).sort((a, b) => a.date.localeCompare(b.date));
+
 export const COUNTRIES = [...new Set(EVENTS.map((e) => e.country))].sort();
 export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
 
