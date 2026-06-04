@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Organizers — RaveRadar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E">
+</head>
+<body data-page="organizer">
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="/"><span class="dot"></span>RAVE<b>RADAR</b></a>
+  <div class="nav-links">
+    <a href="/explore/">Explore</a><a href="/map/">Map</a>
+    <a href="/organizer/">For Organizers</a><a href="/account/">Favourites</a>
+  </div>
+  <div class="nav-right">
+    <a href="/account/" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="/organizer/" class="btn btn-primary btn-sm">Add Event</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</div></nav>
+
+<section class="section" style="padding-top:48px">
+  <div class="wrap">
+    <span class="eyebrow">Organizer studio</span>
+    <h1 class="h-lg" style="margin:14px 0 8px">Put your party on the radar</h1>
+    <p class="lead">Reach 180,000+ ravers across Europe. Publish your event, manage the line-up and link your ticketing — all in minutes.</p>
+
+    <div class="steps" style="margin-top:36px">
+      <div class="step on"><span class="num">1</span> Details</div>
+      <div class="step on"><span class="num">2</span> Line-up</div>
+      <div class="step on"><span class="num">3</span> Media & tickets</div>
+      <div class="step"><span class="num">4</span> Publish</div>
+    </div>
+
+    <div class="explore-layout">
+      <!-- FORM -->
+      <form id="org-form" style="grid-column:1;order:2">
+        <div class="info-card">
+          <h3 class="h-md" style="margin-bottom:20px">Event details</h3>
+          <div class="form-grid">
+            <div class="field full"><label>Event title</label><input id="org-title" class="input" placeholder="e.g. Warehouse Project: Hard" required></div>
+            <div class="field"><label>Type</label><select id="org-type" class="input"></select></div>
+            <div class="field"><label>Primary genre</label><select id="org-genre" class="input"></select></div>
+            <div class="field"><label>City</label><input class="input" placeholder="Berlin" required></div>
+            <div class="field"><label>Country</label><input class="input" placeholder="Germany" required></div>
+            <div class="field"><label>Date</label><input class="input" type="date" required></div>
+            <div class="field"><label>Start time</label><input class="input" type="time" required></div>
+            <div class="field full"><label>Venue / location</label><input class="input" placeholder="Kraftwerk Halle (or 'secret — revealed 24h before')"></div>
+            <div class="field full"><label>Description</label><textarea class="input" placeholder="Describe the vibe, the sound system, the experience…"></textarea></div>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3 class="h-md" style="margin-bottom:20px">Line-up</h3>
+          <div class="field full">
+            <label>Add artists</label>
+            <div style="display:flex;gap:10px">
+              <input id="org-artist" class="input" placeholder="Type an artist & press Enter">
+              <button type="button" id="org-add" class="btn btn-ghost">Add</button>
+            </div>
+          </div>
+          <div id="org-lineup-list" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px"></div>
+        </div>
+
+        <div class="info-card">
+          <h3 class="h-md" style="margin-bottom:20px">Media & ticketing</h3>
+          <div class="field full"><label>Event poster</label>
+            <label class="upload">⬆ Drag your artwork here or click to upload<br><small>JPG / PNG · recommended 1080×1350</small>
+              <input type="file" accept="image/*" hidden>
+            </label>
+          </div>
+          <div class="form-grid" style="margin-top:18px">
+            <div class="field"><label>Ticket price (€)</label><input class="input" type="number" placeholder="0 for free"></div>
+            <div class="field"><label>External ticket link</label><input class="input" type="url" placeholder="https://tickets…"></div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" style="margin-top:8px">Submit event for review →</button>
+      </form>
+
+      <!-- LIVE PREVIEW -->
+      <aside style="grid-column:2;order:1">
+        <div class="filters" style="padding:18px">
+          <span class="eyebrow">Live preview</span>
+          <article class="card" style="margin-top:16px;cursor:default">
+            <span class="card-genre-bar"></span>
+            <div class="card-media">
+              <div id="preview-poster" class="poster" style="background-image:linear-gradient(150deg,#2F7BFF,#8B5CFF)"></div>
+              <div class="card-top"><span class="tag type">Your event</span></div>
+              <div class="card-body">
+                <div class="card-date">DATE · TIME</div>
+                <h3 id="preview-title" class="card-title">Your Event Title</h3>
+                <div class="card-loc">📍 City, Country</div>
+              </div>
+            </div>
+          </article>
+          <p style="color:var(--grey);font-size:.82rem;margin-top:16px">This is how your event appears in feeds and search. Premium promoters get featured placement &amp; a verified badge.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="wrap">
+  <div class="footer-bottom" style="border:0;margin:0;padding:0">
+    <a class="brand" href="/"><span class="dot"></span>RAVE<b>RADAR</b></a>
+    <span style="font-family:var(--f-mono)">Keep it underground 🔊</span>
+  </div>
+</div></footer>
+
+<script src="/assets/js/data.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>

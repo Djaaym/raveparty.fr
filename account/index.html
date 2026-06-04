@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Account — RaveRadar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E">
+</head>
+<body data-page="account">
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="/"><span class="dot"></span>RAVE<b>RADAR</b></a>
+  <div class="nav-links">
+    <a href="/explore/">Explore</a><a href="/map/">Map</a>
+    <a href="/organizer/">For Organizers</a><a href="/account/">Favourites</a>
+  </div>
+  <div class="nav-right">
+    <a href="/account/" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="/organizer/" class="btn btn-primary btn-sm">Add Event</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</div></nav>
+
+<section class="section" style="padding-top:48px">
+  <div class="wrap">
+    <div class="profile-head">
+      <div class="avatar">R</div>
+      <div>
+        <h1 class="h-md">Hey, Raver 👋</h1>
+        <p style="color:var(--grey)">Radar+ member · Based in Paris · 12 events saved</p>
+      </div>
+      <a href="#" class="btn btn-ghost btn-sm" style="margin-left:auto">Edit profile</a>
+    </div>
+
+    <div class="tabs">
+      <div class="tab on" data-tab="favs">♥ Favourites</div>
+      <div class="tab" data-tab="alerts">🔔 Alerts</div>
+      <div class="tab" data-tab="history">🕑 History</div>
+      <div class="tab" data-tab="settings">⚙ Settings</div>
+    </div>
+
+    <!-- FAVOURITES -->
+    <div id="pane-favs" class="tabpane on">
+      <div id="acc-favs" class="grid grid-4"></div>
+    </div>
+
+    <!-- ALERTS -->
+    <div id="pane-alerts" class="tabpane">
+      <p class="lead" style="margin-bottom:24px">Get notified the moment matching events drop or tickets go live.</p>
+      <div class="grid grid-2">
+        <div class="alert-card"><div><b>Charlotte de Witte</b><br><span style="color:var(--grey);font-size:.85rem">Artist alert</span></div><div class="switch on" style="margin-left:auto"></div></div>
+        <div class="alert-card"><div><b>Hard Techno in Berlin</b><br><span style="color:var(--grey);font-size:.85rem">Genre + city alert</span></div><div class="switch on" style="margin-left:auto"></div></div>
+        <div class="alert-card"><div><b>Free parties near me</b><br><span style="color:var(--grey);font-size:.85rem">Secret drops · 24h notice</span></div><div class="switch" style="margin-left:auto"></div></div>
+        <div class="alert-card"><div><b>Festivals this summer</b><br><span style="color:var(--grey);font-size:.85rem">Season alert</span></div><div class="switch on" style="margin-left:auto"></div></div>
+      </div>
+      <button class="btn btn-primary" style="margin-top:24px" onclick="toast('New alert created 🔔')">+ Create new alert</button>
+    </div>
+
+    <!-- HISTORY -->
+    <div id="pane-history" class="tabpane">
+      <p class="lead" style="margin-bottom:24px">Events you've attended. Rate them to improve your recommendations.</p>
+      <div id="acc-history" class="grid"></div>
+    </div>
+
+    <!-- SETTINGS -->
+    <div id="pane-settings" class="tabpane">
+      <div class="info-card" style="max-width:560px">
+        <h3 class="h-md" style="margin-bottom:20px">Preferences</h3>
+        <div class="field" style="margin-bottom:16px"><label>Display name</label><input class="input" value="Raver"></div>
+        <div class="field" style="margin-bottom:16px"><label>Home city</label><input class="input" value="Paris"></div>
+        <div class="field" style="margin-bottom:16px"><label>Email</label><input class="input" type="email" value="djaym.info@gmail.com"></div>
+        <div class="alert-card" style="margin-bottom:16px"><div><b>Email digest</b><br><span style="color:var(--grey);font-size:.85rem">Weekly picks every Thursday</span></div><div class="switch on" style="margin-left:auto"></div></div>
+        <button class="btn btn-primary" onclick="toast('Settings saved ✓')">Save changes</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="wrap">
+  <div class="footer-bottom" style="border:0;margin:0;padding:0">
+    <a class="brand" href="/"><span class="dot"></span>RAVE<b>RADAR</b></a>
+    <span style="font-family:var(--f-mono)">Keep it underground 🔊</span>
+  </div>
+</div></footer>
+
+<script src="/assets/js/data.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>
