@@ -43,6 +43,22 @@ export const EVENTS: RaveEvent[] = [
   { id: 24, title: "Hadra Trance Festival", type: "Festival", genres: ["Psytrance", "Trance"], city: "Vieure", country: "France", region: "Allier", lat: 46.55, lng: 2.95, date: "2026-08-27", time: "12:00", price: 75, currency: "€", venue: "Plan d'Eau de Vieure", trending: false, lineup: [], desc: "Le grand rassemblement psytrance français (17e édition), désormais dans l'Allier : 72h de musique sur quatre scènes." },
   { id: 25, title: "Positiv Festival", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Orange", country: "France", region: "Vaucluse", lat: 44.14, lng: 4.81, date: "2026-08-14", time: "19:00", price: 55, currency: "€", venue: "Théâtre Antique d'Orange", trending: true, lineup: ["Boris Brejcha", "Charlotte de Witte", "Fisher", "Macklemore", "Apashe"], desc: "Le festival électro au pied du Théâtre Antique d'Orange, monument classé à l'UNESCO." },
   { id: 31, title: "Insane Festival", type: "Festival", genres: ["Hardcore", "Hardstyle"], city: "Apt", country: "France", region: "Vaucluse", lat: 43.87, lng: 5.39, date: "2026-05-14", time: "16:00", price: 59, currency: "€", venue: "Plan d'Eau d'Apt", trending: false, lineup: ["IMANU", "Angerfist", "Lil Texas", "Reinier Zonneveld"], desc: "Le festival frenchcore et hardcore le plus dur de France (10e édition), cinq scènes en pleine Provence." },
+
+  /* ---------- More verified 2026 festivals (multi-country) ---------- */
+  { id: 49, title: "Rave The Planet Parade", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Berlin", country: "Germany", lat: 52.514, lng: 13.35, date: "2026-08-15", time: "14:00", price: 0, currency: "€", venue: "Straße des 17. Juni", trending: true, lineup: [], desc: "L'héritière de la Love Parade : la grande parade techno de Berlin sur la Straße des 17. Juni, gratuite et géante." },
+  { id: 50, title: "UNTOLD", type: "Festival", genres: ["EDM", "Trance"], city: "Cluj-Napoca", country: "Romania", lat: 46.77, lng: 23.62, date: "2026-08-06", time: "16:00", price: 165, currency: "€", venue: "Cluj Arena", trending: true, lineup: ["Martin Garrix", "Kygo", "Marshmello", "Steve Aoki", "Afrojack", "Lost Frequencies"], desc: "L'un des plus grands festivals d'Europe de l'Est, dans l'arène de Cluj : quatre nuits de mainstages spectaculaires." },
+  { id: 51, title: "Ultra Europe", type: "Festival", genres: ["EDM", "Techno"], city: "Split", country: "Croatia", lat: 43.51, lng: 16.44, date: "2026-07-10", time: "17:00", price: 159, currency: "€", venue: "Park Mladeži", trending: true, lineup: ["Calvin Harris", "Martin Garrix", "John Summit", "Fisher", "Dom Dolla", "Sara Landry"], desc: "La déclinaison européenne d'Ultra, dans le stade de Split au bord de l'Adriatique : trois jours de grosses têtes d'affiche." },
+  { id: 52, title: "Decibel Outdoor", type: "Festival", genres: ["Hardstyle", "Hardcore"], city: "Hilvarenbeek", country: "Netherlands", lat: 51.49, lng: 5.14, date: "2026-08-28", time: "11:00", price: 159, currency: "€", venue: "Safaripark Beekse Bergen", trending: true, lineup: [], desc: "Le rendez-vous hardstyle/hardcore géant des Pays-Bas à Beekse Bergen : 300+ artistes sur trois jours." },
+  { id: 53, title: "Parookaville", type: "Festival", genres: ["EDM", "Trance"], city: "Weeze", country: "Germany", lat: 51.61, lng: 6.14, date: "2026-07-17", time: "12:00", price: 199, currency: "€", venue: "Airport Weeze", trending: true, lineup: ["Armin van Buuren", "Charlotte de Witte", "Hardwell", "Fisher", "Steve Aoki", "Don Diablo"], desc: "La « ville de rêve » EDM construite sur l'aéroport de Weeze : visas, scènes démesurées et stars mondiales." },
+  { id: 54, title: "Dekmantel Festival", type: "Festival", genres: ["Techno", "House"], city: "Amsterdam", country: "Netherlands", lat: 52.31, lng: 4.84, date: "2026-07-31", time: "12:00", price: 109, currency: "€", venue: "Amsterdamse Bos", trending: true, lineup: ["Ricardo Villalobos", "Underground Resistance", "Sherelle", "DVS1"], desc: "Le festival underground de référence dans l'Amsterdamse Bos : techno, house et programmation pointue." },
+  { id: 55, title: "Creamfields", type: "Festival", genres: ["EDM", "Techno"], city: "Daresbury", country: "UK", lat: 53.34, lng: -2.64, date: "2026-08-27", time: "12:00", price: 99, currency: "£", venue: "Daresbury, Cheshire", trending: true, lineup: ["Calvin Harris", "Swedish House Mafia", "Carl Cox", "Amelie Lens", "Tiësto", "Disclosure"], desc: "L'institution dance britannique à Daresbury (20 ans) : house, techno, trance et DnB sur d'immenses scènes." },
+  { id: 56, title: "Monegros Desert Festival", type: "Festival", genres: ["Techno", "House"], city: "Fraga", country: "Spain", lat: 41.52, lng: 0.35, date: "2026-07-25", time: "18:00", price: 95, currency: "€", venue: "Monegros Desert", trending: false, lineup: [], desc: "La rave mythique en plein désert espagnol de Fraga : 22 heures non-stop sur dix scènes." },
+  { id: 57, title: "The Warehouse Project", type: "Festival", genres: ["Techno", "House"], city: "Manchester", country: "UK", lat: 53.47, lng: -2.23, date: "2026-09-18", time: "21:00", price: 45, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Solomun", "Overmono", "Tiësto", "Aphex Twin"], desc: "La saison clubbing culte de Manchester au Depot Mayfield, de septembre au Nouvel An." },
+  { id: 58, title: "Awakenings ADE", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.36, lng: 4.90, date: "2026-10-21", time: "22:00", price: 45, currency: "€", venue: "Amsterdam (ADE)", trending: true, lineup: ["Adam Beyer", "Charlotte de Witte", "Amelie Lens", "Reinier Zonneveld"], desc: "Les nuits techno d'Awakenings pendant l'Amsterdam Dance Event : la crème de la scène en clubs." },
+  { id: 59, title: "OZORA Festival", type: "Festival", genres: ["Psytrance", "Trance"], city: "Dádpuszta", country: "Hungary", lat: 46.99, lng: 18.55, date: "2026-07-27", time: "12:00", price: 230, currency: "€", venue: "Dádpuszta", trending: false, lineup: [], desc: "Le grand rassemblement psytrance mondial dans la vallée de Dádpuszta : art, transe et tribu." },
+  { id: 60, title: "Neopop Festival", type: "Festival", genres: ["Techno", "House"], city: "Viana do Castelo", country: "Portugal", lat: 41.69, lng: -8.83, date: "2026-08-06", time: "18:00", price: 79, currency: "€", venue: "Forte de Santiago da Barra", trending: false, lineup: [], desc: "Le festival techno portugais dans le fort de Viana do Castelo (20 ans) : avant-garde au bord de l'océan." },
+  { id: 61, title: "Glitch Festival", type: "Festival", genres: ["Techno", "House"], city: "Rabat", country: "Malta", lat: 35.88, lng: 14.40, date: "2026-08-12", time: "16:00", price: 99, currency: "€", venue: "Gianpula Fields", trending: false, lineup: [], desc: "House & techno sur l'île de Malte : main stage à Gianpula, boat parties et fortifications UNESCO." },
+  { id: 62, title: "Zamna Tulum", type: "Festival", genres: ["House", "Techno"], city: "Tulum", country: "Mexico", lat: 20.21, lng: -87.46, date: "2026-12-28", time: "16:00", price: 120, currency: "$", venue: "Tulum Jungle", trending: false, lineup: [], desc: "Dans la jungle de Tulum : house et techno mélodique sous les étoiles, le rendez-vous hivernal du Mexique." },
 ];
 
 /* AI-generated key-art posters (Nano Banana Pro), served from CDN. */
@@ -143,6 +159,20 @@ const TICKETS: Record<number, string> = {
   43: "https://www.exitfest.org",
   44: "https://capricesfestival.ch",
   45: "https://www.dourfestival.eu",
+  49: "https://www.ravetheplanet.com",
+  50: "https://untold.com",
+  51: "https://ultraeurope.com",
+  52: "https://www.decibeloutdoor.com",
+  53: "https://www.parookaville.com",
+  54: "https://dekmantelfestival.com",
+  55: "https://creamfields.com",
+  56: "https://monegrosfestival.com",
+  57: "https://thewarehouseproject.com",
+  58: "https://www.awakenings.com",
+  59: "https://ozorafestival.eu",
+  60: "https://neopopfestival.com",
+  61: "https://www.glitchfestival.com",
+  62: "https://zamnafestival.com",
 };
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
