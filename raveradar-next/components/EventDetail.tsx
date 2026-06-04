@@ -57,6 +57,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
               <div className="info-card">
                 <h3 className="h-md">{t("event.lineup")}</h3>
+                {e.lineup.length === 0 && (
+                  <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)" }}>
+                    {t("event.lineuptba")}
+                  </p>
+                )}
                 <div className="lineup">
                   {e.lineup.map((a, i) => (
                     <Link
