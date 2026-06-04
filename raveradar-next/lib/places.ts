@@ -15,12 +15,18 @@ export interface Place {
 /* Prioritised from the SEMrush keyword export (see /docs/seo-keywords.md). */
 export const PLACES: Place[] = [
   { slug: "lyon", label: "Lyon", kind: "ville", vol: 1000, match: ["Lyon"] },
-  { slug: "paris", label: "Paris", kind: "ville", vol: 390, match: ["Paris"] },
+  { slug: "paris", label: "Paris", kind: "ville", vol: 390, match: ["Paris", "Torcy"] },
   { slug: "rennes", label: "Rennes", kind: "ville", vol: 3600, match: ["Rennes"] },
   { slug: "bordeaux", label: "Bordeaux", kind: "ville", vol: 720, match: ["Bordeaux"] },
   { slug: "nantes", label: "Nantes", kind: "ville", vol: 320, match: ["Nantes"] },
   { slug: "marseille", label: "Marseille", kind: "ville", vol: 260, match: ["Marseille"] },
   { slug: "toulouse", label: "Toulouse", kind: "ville", vol: 210, match: ["Toulouse"] },
+  { slug: "montpellier", label: "Montpellier", kind: "ville", vol: 260, match: ["Montpellier"] },
+  { slug: "brest", label: "Brest", kind: "ville", vol: 210, match: ["Brest"] },
+  { slug: "lille", label: "Lille", kind: "ville", vol: 320, match: ["Lille"] },
+  { slug: "strasbourg", label: "Strasbourg", kind: "ville", vol: 210, match: ["Strasbourg"] },
+  { slug: "nice", label: "Nice", kind: "ville", vol: 210, match: ["Nice"] },
+  { slug: "grenoble", label: "Grenoble", kind: "ville", vol: 260, match: ["Grenoble"] },
   { slug: "drome", label: "Drôme", kind: "departement", vol: 1000 },
   { slug: "lozere", label: "Lozère", kind: "departement", vol: 4400 },
   { slug: "aude", label: "Aude", kind: "departement", vol: 4400 },
@@ -37,10 +43,11 @@ export const PLACES: Place[] = [
 
 export const placeBySlug = (slug: string): Place | undefined => PLACES.find((p) => p.slug === slug);
 
-/** Events located in a given place (by matching city names in our dataset). */
+/** Events located in a given place (matched by city name or French region/department). */
 export function eventsForPlace(p: Place): RaveEvent[] {
   const names = (p.match ?? [p.label]).map((s) => s.toLowerCase());
-  return EVENTS.filter((e) => names.some((n) => e.city.toLowerCase().includes(n))).sort((a, b) =>
-    a.date.localeCompare(b.date)
-  );
+  return EVENTS.filter((e) => {
+    const hay = [e.city, e.region ?? ""].map((s) => s.toLowerCase());
+    return names.some((n) => hay.some((h) => h.includes(n)));
+  }).sort((a, b) => a.date.localeCompare(b.date));
 }

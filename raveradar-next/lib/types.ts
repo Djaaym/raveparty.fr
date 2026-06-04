@@ -18,7 +18,8 @@ export interface RaveEvent {
   venue: string;
   trending: boolean;
   lineup: string[];
-  desc: string; // English base
+  desc: string; // base description
+  region?: string; // French department / region (for /rave-party/{dept} pages)
 }
 
 export interface GenreColor {

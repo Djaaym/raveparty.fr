@@ -145,7 +145,7 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .lang-switch a:hover { color: var(--white); }
 .lang-switch a.on { background: var(--grad-main); color: #fff; }
 .nav-toggle { display: none; background: none; border: 0; color: var(--white); font-size: 1.6rem; cursor: pointer; }
-.nav-only-mobile { display: none; }
+.nav-links .nav-only-mobile { display: none; }   /* hidden on desktop (beats .btn) */
 
 /* ----------------------------- BUTTONS --------------------------------- */
 .btn {
@@ -481,8 +481,8 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
   .nav-right .btn { display: none; }           /* moved into the burger menu on mobile */
-  .nav-only-mobile { display: block; }
-  .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
+  .nav-links.open .nav-only-mobile { display: block; }
+  .nav-links.open .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
   .search { grid-template-columns: 1fr 1fr; }
   .search-go { grid-column: span 2; }
   .stats { grid-template-columns: repeat(2,1fr); }

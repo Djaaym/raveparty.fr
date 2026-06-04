@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, GENRES, cardBg, countryLabel, eventDescL, slugify } from "@/lib/data";
+import { EVENTS, GENRES, cardBg, countryLabel, eventDescL, slugify, ticketUrl } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
@@ -113,9 +113,21 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     {e.city}, {countryLabel(e.country, lang)}
                   </b>
                 </div>
-                <a href="#" className="btn btn-primary btn-block" style={{ marginTop: 18 }}>
-                  {t("event.gettickets")}
-                </a>
+                {ticketUrl(e) ? (
+                  <a
+                    href={ticketUrl(e)!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary btn-block"
+                    style={{ marginTop: 18 }}
+                  >
+                    {t("event.gettickets")}
+                  </a>
+                ) : (
+                  <div className="btn btn-ghost btn-block" style={{ marginTop: 18, cursor: "default" }}>
+                    {t("event.freeentry")}
+                  </div>
+                )}
                 <Link href={`${p}/map`} className="btn btn-ghost btn-block" style={{ marginTop: 10 }}>
                   {t("event.viewmap")}
                 </Link>
