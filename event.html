@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event — RaveRadar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E">
+</head>
+<body data-page="event">
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+  <div class="nav-links">
+    <a href="explore.html">Explore</a><a href="map.html">Map</a>
+    <a href="organizer.html">For Organizers</a><a href="account.html">Favourites</a>
+  </div>
+  <div class="nav-right">
+    <a href="account.html" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="organizer.html" class="btn btn-primary btn-sm">Add Event</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</div></nav>
+
+<section class="section" style="padding-top:32px">
+  <div class="wrap">
+    <a href="explore.html" style="color:var(--grey);font-size:.9rem">← Back to explore</a>
+
+    <!-- HERO -->
+    <div class="event-hero" style="margin-top:16px">
+      <div id="ev-bg" class="bg"></div>
+      <div>
+        <div class="event-hero-meta">
+          <span id="ev-type" class="tag type"></span>
+          <span id="ev-genres" style="display:contents"></span>
+        </div>
+        <h1 id="ev-title" class="h-xl" style="font-size:clamp(2.2rem,6vw,4.5rem)"></h1>
+        <p id="ev-sub" class="lead" style="margin-top:10px;color:var(--white)"></p>
+      </div>
+    </div>
+
+    <!-- LAYOUT -->
+    <div class="event-layout">
+      <div>
+        <div class="info-card">
+          <h3 class="h-md">About this event</h3>
+          <p id="ev-desc" class="lead" style="font-size:1rem"></p>
+        </div>
+
+        <div class="info-card">
+          <h3 class="h-md">Line-up</h3>
+          <div id="ev-lineup" class="lineup"></div>
+        </div>
+
+        <div class="info-card">
+          <h3 class="h-md">Gallery</h3>
+          <div id="ev-gallery" class="gallery"></div>
+        </div>
+
+        <div class="info-card">
+          <h3 class="h-md">Location</h3>
+          <div id="ev-map" style="height:280px;border-radius:var(--r-md);overflow:hidden;border:1px solid var(--line)"></div>
+        </div>
+      </div>
+
+      <!-- TICKET SIDEBAR -->
+      <aside>
+        <div class="ticket-box">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <span class="eyebrow">Tickets</span>
+            <button id="ev-fav" class="fav" aria-label="Save">♥</button>
+          </div>
+          <div id="tk-price" class="h-lg" style="margin:14px 0 4px"></div>
+          <p style="color:var(--grey);font-size:.85rem;margin-bottom:18px">From price · taxes may apply</p>
+          <div class="ticket-row"><span>📅 Date</span><b id="tk-date"></b></div>
+          <div class="ticket-row"><span>🏛 Venue</span><b id="tk-venue"></b></div>
+          <div class="ticket-row"><span>🌍 City</span><b id="tk-city"></b></div>
+          <a href="#" class="btn btn-primary btn-block" style="margin-top:18px"
+             onclick="event.preventDefault();toast('Redirecting to ticket partner…')">Get tickets ↗</a>
+          <a href="map.html" class="btn btn-ghost btn-block" style="margin-top:10px">View on map</a>
+        </div>
+      </aside>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2 class="h-md" style="margin-bottom:24px">You might also like</h2>
+    <div id="ev-related" class="grid grid-4"></div>
+  </div>
+</section>
+
+<footer class="footer"><div class="wrap">
+  <div class="footer-bottom" style="border:0;margin:0;padding:0">
+    <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+    <span style="font-family:var(--f-mono)">Keep it underground 🔊</span>
+  </div>
+</div></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

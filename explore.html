@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Events — RaveRadar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E">
+</head>
+<body data-page="explore">
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+  <div class="nav-links">
+    <a href="explore.html">Explore</a><a href="map.html">Map</a>
+    <a href="organizer.html">For Organizers</a><a href="account.html">Favourites</a>
+  </div>
+  <div class="nav-right">
+    <a href="account.html" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="organizer.html" class="btn btn-primary btn-sm">Add Event</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</div></nav>
+
+<section class="section" style="padding-top:48px">
+  <div class="wrap">
+    <span class="eyebrow">The full directory</span>
+    <h1 class="h-lg" style="margin:14px 0 8px">Explore the rave map of Europe</h1>
+    <p class="lead">Filter by country, genre, type and price. Find the warehouse, the festival, or the free party that fits your weekend.</p>
+
+    <div class="explore-layout" style="margin-top:40px">
+      <!-- FILTERS -->
+      <aside class="filters">
+        <div class="filter-group">
+          <h4>Search</h4>
+          <input id="f-search" class="input" type="text" placeholder="Artist, venue, city…">
+        </div>
+        <div class="filter-group">
+          <h4>Country</h4>
+          <select id="f-country" class="input"></select>
+        </div>
+        <div class="filter-group">
+          <h4>Genre</h4>
+          <div id="f-genres"></div>
+        </div>
+        <div class="filter-group">
+          <h4>Type</h4>
+          <div id="f-types"></div>
+        </div>
+        <div class="filter-group">
+          <h4>Max price · <span id="price-val">€300+</span></h4>
+          <input id="f-price" class="range" type="range" min="0" max="300" value="300" step="5">
+        </div>
+        <button id="clear-filters" class="btn btn-ghost btn-block btn-sm" style="margin-top:8px">Clear filters</button>
+      </aside>
+
+      <!-- RESULTS -->
+      <div>
+        <div class="explore-toolbar">
+          <span class="result-count"><b id="result-n">0</b> events found</span>
+          <select id="f-sort" class="input" style="width:auto">
+            <option value="date">Soonest first</option>
+            <option value="price">Price: low → high</option>
+            <option value="price-d">Price: high → low</option>
+            <option value="az">A → Z</option>
+          </select>
+          <div class="seg">
+            <button class="on" data-view="grid">▦ Grid</button>
+            <button data-view="list">☰ List</button>
+          </div>
+        </div>
+        <div id="explore-results" class="grid grid-3"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="wrap">
+  <div class="footer-bottom" style="border:0;margin:0;padding:0">
+    <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+    <span style="font-family:var(--f-mono)">Keep it underground 🔊</span>
+  </div>
+</div></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

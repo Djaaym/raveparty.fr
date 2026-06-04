@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RaveRadar — Find Your Next Rave</title>
+<meta name="description" content="Discover Europe's best electronic music events. Techno, hardstyle, DnB, psytrance, free parties & warehouse raves — all in one place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E">
+</head>
+<body data-page="home">
+<div class="blob b1"></div><div class="blob b2"></div>
+
+<!-- NAV -->
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+  <div class="nav-links">
+    <a href="explore.html">Explore</a>
+    <a href="map.html">Map</a>
+    <a href="organizer.html">For Organizers</a>
+    <a href="account.html">Favourites</a>
+  </div>
+  <div class="nav-right">
+    <a href="account.html" class="btn btn-ghost btn-sm">Sign in</a>
+    <a href="organizer.html" class="btn btn-primary btn-sm">Add Event</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</div></nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-grid"></div>
+  <div class="wrap hero-center">
+    <div class="hero-badge"><span class="live"></span> 2,400+ events tracked across 28 countries</div>
+    <h1 class="h-xl">Find Your <span class="gradient-text">Next Rave</span></h1>
+    <p class="lead">Discover Europe's best electronic music events. From Berlin warehouses to Portuguese psytrance fields — your next all-nighter starts here.</p>
+
+    <form id="hero-search" class="search">
+      <div class="search-field">
+        <label>City</label>
+        <input id="q-city" type="text" placeholder="Berlin, Amsterdam…">
+      </div>
+      <div class="search-field">
+        <label>Country</label>
+        <select id="q-country"></select>
+      </div>
+      <div class="search-field">
+        <label>Date</label>
+        <input id="q-date" type="date">
+      </div>
+      <div class="search-field">
+        <label>Genre</label>
+        <select id="q-genre"></select>
+      </div>
+      <div class="search-go"><button type="submit" class="btn btn-primary">Search ↗</button></div>
+    </form>
+
+    <div id="hero-chips" class="chips"></div>
+  </div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee"><div class="marquee-track">
+  <span>TECHNO</span><span>HARDSTYLE</span><span>DRUM &amp; BASS</span><span>PSYTRANCE</span><span>FREE PARTY</span><span>ACID</span><span>WAREHOUSE</span>
+  <span>TECHNO</span><span>HARDSTYLE</span><span>DRUM &amp; BASS</span><span>PSYTRANCE</span><span>FREE PARTY</span><span>ACID</span><span>WAREHOUSE</span>
+</div></div>
+
+<!-- TRENDING -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Hot right now</span>
+        <h2 class="h-lg" style="margin-top:14px">Trending this week 🔥</h2>
+      </div>
+      <a href="explore.html" class="btn btn-ghost">See all events →</a>
+    </div>
+    <div id="trending" class="grid grid-4" data-reveal></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="section-sm">
+  <div class="wrap">
+    <div class="stats" data-reveal>
+      <div class="stat"><b>2,418</b><span>Events tracked</span></div>
+      <div class="stat"><b>28</b><span>European countries</span></div>
+      <div class="stat"><b>640+</b><span>Verified venues</span></div>
+      <div class="stat"><b>180K</b><span>Ravers onboard</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GENRES -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Pick your frequency</span>
+        <h2 class="h-lg" style="margin-top:14px">Browse by genre</h2>
+      </div>
+    </div>
+    <div id="genre-tiles" class="genres" data-reveal></div>
+  </div>
+</section>
+
+<!-- UPCOMING -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div>
+        <span class="eyebrow">Don't miss out</span>
+        <h2 class="h-lg" style="margin-top:14px">Upcoming across Europe</h2>
+      </div>
+      <a href="map.html" class="btn btn-ghost">Open the map 🗺</a>
+    </div>
+    <div id="upcoming" class="scroller" data-reveal></div>
+  </div>
+</section>
+
+<!-- HOW / VALUE -->
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-3" data-reveal>
+      <div class="info-card"><h3 class="h-md">Never miss a drop</h3><p class="lead" style="font-size:.95rem">Set alerts for your favourite artists, cities and genres. We ping you the moment tickets go live — before they sell out.</p></div>
+      <div class="info-card"><h3 class="h-md">Verified & underground</h3><p class="lead" style="font-size:.95rem">From mega-festivals to secret free parties with coordinates dropped 24h before. Real line-ups, real venues, real ratings from the crowd.</p></div>
+      <div class="info-card"><h3 class="h-md">Plan the whole weekend</h3><p class="lead" style="font-size:.95rem">Map view, travel-friendly filters and saved itineraries. Find an afterparty, a warehouse and a sunrise set in three taps.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREMIUM PLANS -->
+<section class="section" id="premium">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <div><span class="eyebrow">Go deeper</span><h2 class="h-lg" style="margin-top:14px">RaveRadar Premium</h2></div>
+    </div>
+    <div class="plans" data-reveal>
+      <div class="plan">
+        <h3 class="h-md">Raver</h3>
+        <div class="price">Free</div>
+        <ul><li>Unlimited browsing</li><li>Save favourites</li><li>Basic alerts</li><li>Interactive map</li></ul>
+        <a href="account.html" class="btn btn-ghost btn-block">Get started</a>
+      </div>
+      <div class="plan featured">
+        <span class="ribbon">Most popular</span>
+        <h3 class="h-md">Radar+</h3>
+        <div class="price">€6<small>/month</small></div>
+        <ul><li>Artist & city alerts</li><li>Ticket pre-sale access</li><li>Ad-free experience</li><li>Exclusive free-party drops</li><li>Group itineraries</li></ul>
+        <a href="account.html" class="btn btn-primary btn-block">Upgrade</a>
+      </div>
+      <div class="plan">
+        <h3 class="h-md">Promoter</h3>
+        <div class="price">€39<small>/month</small></div>
+        <ul><li>Unlimited listings</li><li>Featured placement</li><li>Audience analytics</li><li>Ticket integration</li><li>Verified badge</li></ul>
+        <a href="organizer.html" class="btn btn-ghost btn-block">Start promoting</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section-sm">
+  <div class="wrap">
+    <div class="cta" data-reveal>
+      <span class="eyebrow" style="justify-content:center">Join the underground</span>
+      <h2 class="h-lg" style="margin:16px 0 6px">Get the best raves in your inbox</h2>
+      <p class="lead" style="margin-inline:auto">Weekly picks, secret drops and early ticket access. No spam, just sound.</p>
+      <form class="newsletter" onsubmit="event.preventDefault();toast('Subscribed! Welcome to the rave 🔊');this.reset()">
+        <input class="input" type="email" placeholder="you@email.com" required>
+        <button class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer"><div class="wrap">
+  <div class="footer-grid">
+    <div>
+      <a class="brand" href="index.html"><span class="dot"></span>RAVE<b>RADAR</b></a>
+      <p class="lead" style="font-size:.9rem;margin-top:16px">The TripAdvisor of rave. Discover, save and never miss Europe's best electronic music events.</p>
+      <div class="socials" style="margin-top:20px">
+        <a href="#" aria-label="Instagram">◉</a><a href="#" aria-label="SoundCloud">☁</a><a href="#" aria-label="X">✕</a><a href="#" aria-label="Telegram">✈</a>
+      </div>
+    </div>
+    <div><h5>Discover</h5><a href="explore.html">All events</a><a href="map.html">Map</a><a href="explore.html?genre=Techno">Techno</a><a href="explore.html?genre=Free Party">Free parties</a></div>
+    <div><h5>Organizers</h5><a href="organizer.html">Add an event</a><a href="#premium">Promoter plans</a><a href="#">Analytics</a><a href="#">Ticketing</a></div>
+    <div><h5>Company</h5><a href="#">About</a><a href="#">Manifesto</a><a href="#">Careers</a><a href="#">Contact</a></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 RaveRadar. Keep it underground.</span>
+    <span style="font-family:var(--f-mono)">Made for the dancefloor 🔊</span>
+  </div>
+</div></footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
