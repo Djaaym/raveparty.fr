@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel } from "@/lib/data";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
@@ -12,7 +12,7 @@ function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const href = `${langPrefix(lang)}/event?id=${e.id}`;
   return (
     <article className="row-card" onClick={() => router.push(href)}>
-      <div className="thumb" style={{ backgroundImage: `linear-gradient(150deg,#2F7BFF,#8B5CFF)` }} />
+      <div className="thumb" style={{ backgroundImage: cardBg(e) }} />
       <div>
         <div className="card-date">
           {fmtDate(e.date, lang)} · {e.time}

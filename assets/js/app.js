@@ -44,7 +44,7 @@ function cardHTML(e) {
   <article class="card" data-id="${e.id}" onclick="goEvent(${e.id})">
     <span class="card-genre-bar"></span>
     <div class="card-media">
-      <div class="poster" style="background-image:${e.poster}"></div>
+      <div class="poster" style="background-image:${e.bg}"></div>
       <div class="card-top">
         <span class="tag type">${e.type}</span>
         <button class="fav ${isFav(e.id) ? "on" : ""}" data-fav="${e.id}"
@@ -64,7 +64,7 @@ function cardHTML(e) {
 function rowHTML(e) {
   return `
   <article class="row-card" data-id="${e.id}" onclick="goEvent(${e.id})">
-    <div class="thumb" style="background-image:${e.poster}"></div>
+    <div class="thumb" style="background-image:${e.bg}"></div>
     <div>
       <div class="card-date">${fmtDate(e.date)} · ${e.time}</div>
       <h3>${e.title}</h3>
@@ -312,7 +312,7 @@ function initMap() {
   if (ml) {
     ml.innerHTML = EVENTS.map(e => `
       <div class="mini" data-id="${e.id}">
-        <div class="mthumb" style="background-image:${e.poster}"></div>
+        <div class="mthumb" style="background-image:${e.bg}"></div>
         <div><h4>${e.title}</h4><span>${e.city} · ${fmtDate(e.date)}</span></div>
       </div>`).join("");
     $$(".mini").forEach(el => el.addEventListener("click", () => {
@@ -340,7 +340,7 @@ function initEvent() {
   const e = EVENTS.find(x => x.id === id) || EVENTS[0];
   document.title = `${e.title} — RaveRadar`;
 
-  $("#ev-bg").style.backgroundImage = e.poster;
+  $("#ev-bg").style.backgroundImage = e.bg;
   $("#ev-type").textContent = e.type;
   $("#ev-genres").innerHTML = e.genres.map(g => `<span class="tag type">${g}</span>`).join("");
   $("#ev-title").textContent = e.title;

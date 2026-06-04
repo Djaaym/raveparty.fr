@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { poster, countryLabel } from "@/lib/data";
+import { cardBg, countryLabel } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { langPrefix } from "@/lib/i18n";
 import { useFav } from "./useFavorites";
@@ -22,7 +22,7 @@ export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
     >
       <span className="card-genre-bar" />
       <div className="card-media">
-        <div className="poster" style={{ backgroundImage: poster(e.genres[0]) }} />
+        <div className="poster" style={{ backgroundImage: cardBg(e) }} />
         <div className="card-top">
           <span className="tag type">{e.type}</span>
           <button
