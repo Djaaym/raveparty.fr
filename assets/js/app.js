@@ -1,5 +1,6 @@
 /* =========================================================================
    RAVERADAR — App logic (vanilla JS, no framework)
+   Bilingual: French (default, /) + English (/en/). See lang.js.
    ========================================================================= */
 
 /* ----------------------------- helpers --------------------------------- */
@@ -8,13 +9,9 @@ const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 
 const fmtDate = (iso) => {
   const d = new Date(iso + "T00:00:00");
-  return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" }).toUpperCase();
+  return d.toLocaleDateString(T("locale"), { day: "2-digit", month: "short", year: "numeric" }).toUpperCase();
 };
-const fmtDay = (iso) => {
-  const d = new Date(iso + "T00:00:00");
-  return { day: d.getDate(), mon: d.toLocaleDateString("en-GB", { month: "short" }).toUpperCase() };
-};
-const priceLabel = (e) => (e.price === 0 ? "FREE" : `${e.currency}${e.price}`);
+const priceLabel = (e) => (e.price === 0 ? T("dyn.free") : `${e.currency}${e.price}`);
 
 /* favorites in localStorage */
 const FAV_KEY = "raveradar:favs";
@@ -23,8 +20,8 @@ const isFav   = (id) => getFavs().includes(id);
 const toggleFav = (id) => {
   const f = getFavs();
   const i = f.indexOf(id);
-  if (i === -1) { f.push(id); toast("Added to favourites ♥"); }
-  else { f.splice(i, 1); toast("Removed from favourites"); }
+  if (i === -1) { f.push(id); toast(T("dyn.fav.added")); }
+  else { f.splice(i, 1); toast(T("dyn.fav.removed")); }
   localStorage.setItem(FAV_KEY, JSON.stringify(f));
   $$(`.fav[data-fav="${id}"]`).forEach(b => b.classList.toggle("on", isFav(id)));
   return isFav(id);
@@ -56,7 +53,7 @@ function cardHTML(e) {
       <div class="card-body">
         <div class="card-date">${fmtDate(e.date)} · ${e.time}</div>
         <h3 class="card-title">${e.title}</h3>
-        <div class="card-loc">📍 ${e.city}, ${e.country}</div>
+        <div class="card-loc">📍 ${e.city}, ${countryLabel(e.country)}</div>
         <div class="card-meta">${e.genres.slice(0,3).map(g => `<span class="gpill">${g}</span>`).join("")}</div>
       </div>
       <div class="card-price">${priceLabel(e)}</div>
@@ -71,7 +68,7 @@ function rowHTML(e) {
     <div>
       <div class="card-date">${fmtDate(e.date)} · ${e.time}</div>
       <h3>${e.title}</h3>
-      <div class="card-loc">📍 ${e.venue} — ${e.city}, ${e.country}</div>
+      <div class="card-loc">📍 ${e.venue} — ${e.city}, ${countryLabel(e.country)}</div>
       <div class="card-meta">${e.genres.map(g => `<span class="gpill">${g}</span>`).join("")}</div>
     </div>
     <div class="row-right">
@@ -82,18 +79,50 @@ function rowHTML(e) {
   </article>`;
 }
 
-function goEvent(id) { location.href = `/event/?id=${id}`; }
+function goEvent(id) { location.href = `${LP}/event/?id=${id}`; }
 
-/* ----------------------------- nav + reveal ---------------------------- */
+/* ----------------------------- i18n + chrome --------------------------- */
+function applyI18n() {
+  document.documentElement.lang = LANG;
+  $$("[data-i18n]").forEach(el => { const v = T(el.dataset.i18n); if (v != null) el.textContent = v; });
+  $$("[data-i18n-html]").forEach(el => { const v = T(el.dataset.i18nHtml); if (v != null) el.innerHTML = v; });
+  $$("[data-i18n-ph]").forEach(el => { const v = T(el.dataset.i18nPh); if (v != null) el.placeholder = v; });
+}
+
+function prefixLinks() {
+  if (LANG !== "en") return;
+  $$('a[href^="/"]').forEach(a => {
+    if (a.hasAttribute("data-lang-link")) return;
+    const h = a.getAttribute("href");
+    if (h.startsWith("/assets") || h.startsWith("/en")) return;
+    a.setAttribute("href", h === "/" ? "/en/" : "/en" + h);
+  });
+}
+
+function initLangSwitch() {
+  const frPath = location.pathname.replace(/^\/en(\/|$)/, "/");
+  const enPath = "/en" + (frPath === "/" ? "/" : frPath);
+  const search = location.search;
+  $$("[data-lang-link]").forEach(a => {
+    const lang = a.dataset.langLink;
+    a.setAttribute("href", (lang === "en" ? enPath : frPath) + search);
+    a.classList.toggle("on", lang === LANG);
+  });
+}
+
 function initChrome() {
+  applyI18n();
+  prefixLinks();
+  initLangSwitch();
+
   const toggle = $(".nav-toggle");
   if (toggle) toggle.addEventListener("click", () => $(".nav-links").classList.toggle("open"));
 
-  // mark active link (folder-based routes, e.g. /explore/)
-  const path = location.pathname.replace(/index\.html$/, "");
+  // mark active nav link (folder routes, language-aware)
+  const path = location.pathname.replace(/^\/en/, "").replace(/index\.html$/, "") || "/";
   $$(".nav-links a").forEach(a => {
-    const href = a.getAttribute("href");
-    if (href && href !== "/" && path.startsWith(href)) a.classList.add("active");
+    const href = a.getAttribute("href").replace(/^\/en/, "") || "/";
+    if (href !== "/" && path.startsWith(href)) a.classList.add("active");
   });
 
   // scroll reveal
@@ -113,18 +142,40 @@ function initHome() {
   const up = $("#upcoming");
   if (up) up.innerHTML = upcoming.map(cardHTML).join("");
 
+  // by-country browser
+  const ctabs = $("#country-tabs"), cgrid = $("#country-events");
+  if (ctabs && cgrid) {
+    const byCountry = (c) => [...EVENTS]
+      .filter(e => c === "all" || e.country === c)
+      .sort((a,b) => a.date.localeCompare(b.date)).slice(0, 8);
+    ctabs.innerHTML = `<span class="chip on" data-c="all">🌍 ${T("country.all")}</span>` +
+      COUNTRIES.map(c => {
+        const n = EVENTS.filter(e => e.country === c).length;
+        return `<span class="chip" data-c="${c}">${COUNTRY_FLAG[c] || ""} ${countryLabel(c)} <b style="opacity:.55;font-weight:600">${n}</b></span>`;
+      }).join("");
+    const renderC = (c) => {
+      const list = byCountry(c);
+      cgrid.innerHTML = list.length ? list.map(cardHTML).join("")
+        : `<p style="color:var(--grey)">${T("country.empty")}</p>`;
+    };
+    $$("#country-tabs .chip").forEach(ch => ch.addEventListener("click", () => {
+      $$("#country-tabs .chip").forEach(x => x.classList.remove("on"));
+      ch.classList.add("on"); renderC(ch.dataset.c);
+    }));
+    renderC("all");
+  }
+
   // genre tiles
   const gt = $("#genre-tiles");
   if (gt) {
     gt.innerHTML = ALL_GENRES.map(g => {
       const k = GENRES[g];
       const n = EVENTS.filter(e => e.genres.includes(g)).length;
-      return `<a class="genre" href="/explore/?genre=${encodeURIComponent(g)}"
-        style="--g:linear-gradient(150deg,${k.c1},${k.c2})">
+      return `<a class="genre" href="${LP}/explore/?genre=${encodeURIComponent(g)}">
         <span style="position:absolute;inset:0;background:linear-gradient(150deg,${k.c1},${k.c2});opacity:.85"></span>
         <div style="position:relative;z-index:2">
-          <span>${g}</span><small>${GENRE_DESC[g] || ""}</small>
-          <small style="margin-top:8px;font-family:var(--f-mono)">${n} events</small>
+          <span>${g}</span><small>${genreDescL(g)}</small>
+          <small style="margin-top:8px;font-family:var(--f-mono)">${n} ${T("dyn.events")}</small>
         </div></a>`;
     }).join("");
   }
@@ -142,34 +193,35 @@ function initHome() {
     if (c) p.set("country", c);
     if (d) p.set("date", d);
     if (g) p.set("genre", g);
-    location.href = "/explore/?" + p.toString();
+    location.href = `${LP}/explore/?` + p.toString();
   });
 
   // populate hero selects
   const cs = $("#q-country");
-  if (cs) cs.innerHTML = `<option value="">Anywhere</option>` + COUNTRIES.map(c => `<option>${c}</option>`).join("");
+  if (cs) cs.innerHTML = `<option value="">${T("search.country.any")}</option>` +
+    COUNTRIES.map(c => `<option value="${c}">${countryLabel(c)}</option>`).join("");
   const gs = $("#q-genre");
-  if (gs) gs.innerHTML = `<option value="">Any genre</option>` + ALL_GENRES.map(g => `<option>${g}</option>`).join("");
+  if (gs) gs.innerHTML = `<option value="">${T("search.genre.any")}</option>` +
+    ALL_GENRES.map(g => `<option>${g}</option>`).join("");
 
   // genre chips quick links
   const chips = $("#hero-chips");
   if (chips) chips.innerHTML = ["Techno","Hard Techno","Drum & Bass","Psytrance","Free Party","House"]
-    .map(g => `<a class="chip" href="/explore/?genre=${encodeURIComponent(g)}">${g}</a>`).join("");
+    .map(g => `<a class="chip" href="${LP}/explore/?genre=${encodeURIComponent(g)}">${g}</a>`).join("");
 }
 
 /* ----------------------------- EXPLORE --------------------------------- */
 let exState = { q: "", country: "", city: "", genres: new Set(), types: new Set(), maxPrice: 300, sort: "date", view: "grid" };
 
 function initExplore() {
-  // hydrate from URL
   const u = new URLSearchParams(location.search);
   exState.q = u.get("q") || "";
   exState.country = u.get("country") || "";
   if (u.get("genre")) exState.genres.add(u.get("genre"));
 
-  // build filter UI
   const cf = $("#f-country");
-  cf.innerHTML = `<option value="">All countries</option>` + COUNTRIES.map(c => `<option ${c===exState.country?"selected":""}>${c}</option>`).join("");
+  cf.innerHTML = `<option value="">${T("explore.country.all")}</option>` +
+    COUNTRIES.map(c => `<option value="${c}" ${c===exState.country?"selected":""}>${countryLabel(c)}</option>`).join("");
   cf.addEventListener("change", () => { exState.country = cf.value; renderExplore(); });
 
   $("#f-search").value = exState.q;
@@ -205,7 +257,7 @@ function initExplore() {
 
   $("#clear-filters").addEventListener("click", () => {
     exState = { q:"", country:"", city:"", genres:new Set(), types:new Set(), maxPrice:300, sort:"date", view: exState.view };
-    initExplore(); // rebuild
+    initExplore();
   });
 
   renderExplore();
@@ -235,14 +287,9 @@ function renderExplore() {
   const list = filteredEvents();
   $("#result-n").textContent = list.length;
   const out = $("#explore-results");
-  if (!list.length) { out.innerHTML = `<p style="color:var(--grey);padding:40px 0">No events match your filters. Try widening your search.</p>`; out.className = ""; return; }
-  if (exState.view === "list") {
-    out.className = "grid";
-    out.innerHTML = list.map(rowHTML).join("");
-  } else {
-    out.className = "grid grid-3";
-    out.innerHTML = list.map(cardHTML).join("");
-  }
+  if (!list.length) { out.innerHTML = `<p style="color:var(--grey);padding:40px 0">${T("explore.empty")}</p>`; out.className = ""; return; }
+  if (exState.view === "list") { out.className = "grid"; out.innerHTML = list.map(rowHTML).join(""); }
+  else { out.className = "grid grid-3"; out.innerHTML = list.map(cardHTML).join(""); }
 }
 
 /* ----------------------------- MAP ------------------------------------- */
@@ -256,12 +303,11 @@ function initMap() {
   EVENTS.forEach(e => {
     const icon = L.divIcon({ className: "", html: `<div class="map-pin"></div>`, iconSize: [18,18] });
     const m = L.marker([e.lat, e.lng], { icon }).addTo(map);
-    m.bindPopup(`<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date)} · ${e.city}, ${e.country}</p>
-      <a href="/event/?id=${e.id}">View event →</a></div>`);
+    m.bindPopup(`<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date)} · ${e.city}, ${countryLabel(e.country)}</p>
+      <a href="${LP}/event/?id=${e.id}">${T("map.viewevent")}</a></div>`);
     markers[e.id] = m;
   });
 
-  // side list
   const ml = $("#map-list");
   if (ml) {
     ml.innerHTML = EVENTS.map(e => `
@@ -276,7 +322,6 @@ function initMap() {
     }));
   }
 
-  // genre filter buttons on map
   $$("#map-filters .chip").forEach(c => c.addEventListener("click", () => {
     $$("#map-filters .chip").forEach(x => x.classList.remove("on"));
     c.classList.add("on");
@@ -299,40 +344,36 @@ function initEvent() {
   $("#ev-type").textContent = e.type;
   $("#ev-genres").innerHTML = e.genres.map(g => `<span class="tag type">${g}</span>`).join("");
   $("#ev-title").textContent = e.title;
-  $("#ev-sub").innerHTML = `📍 ${e.venue} · ${e.city}, ${e.country}`;
+  $("#ev-sub").innerHTML = `📍 ${e.venue} · ${e.city}, ${countryLabel(e.country)}`;
   $("#ev-date").textContent = `${fmtDate(e.date)} · ${e.time}`;
-  $("#ev-desc").textContent = e.desc;
+  $("#ev-desc").textContent = eventDescL(e);
 
   $("#ev-lineup").innerHTML = e.lineup.map((a, i) => `
     <div class="artist ${i===0?"headliner":""}">
       <div class="av">${a.trim()[0]}</div>
-      <div><b>${a.trim()}</b><span>${i===0?"Headliner":"Live / DJ set"}</span></div>
+      <div><b>${a.trim()}</b><span>${i===0?T("event.headliner"):T("event.djset")}</span></div>
     </div>`).join("");
 
-  // gallery (procedural tiles)
   const g = GENRES[e.genres[0]];
   $("#ev-gallery").innerHTML = Array.from({length:8}).map((_,i) =>
     `<div style="background-image:linear-gradient(${130+i*25}deg, ${g.c1}, ${g.c2})"></div>`).join("");
 
-  // ticket box
   $("#tk-price").textContent = priceLabel(e);
   $("#tk-date").textContent = fmtDate(e.date);
   $("#tk-venue").textContent = e.venue;
-  $("#tk-city").textContent = `${e.city}, ${e.country}`;
+  $("#tk-city").textContent = `${e.city}, ${countryLabel(e.country)}`;
 
   const favBtn = $("#ev-fav");
   favBtn.classList.toggle("on", isFav(e.id));
   favBtn.dataset.fav = e.id;
   favBtn.addEventListener("click", () => toggleFav(e.id));
 
-  // mini map
   if (window.L && $("#ev-map")) {
     const m = L.map("ev-map", { zoomControl: false, scrollWheelZoom: false }).setView([e.lat, e.lng], 11);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { subdomains:"abcd" }).addTo(m);
     L.marker([e.lat, e.lng], { icon: L.divIcon({ html:`<div class="map-pin"></div>`, iconSize:[18,18] }) }).addTo(m);
   }
 
-  // related
   const rel = EVENTS.filter(x => x.id !== e.id && x.genres.some(g => e.genres.includes(g))).slice(0,4);
   if ($("#ev-related")) $("#ev-related").innerHTML = rel.map(cardHTML).join("");
 }
@@ -354,19 +395,17 @@ function initOrganizer() {
   $("#org-add").addEventListener("click", addArtist);
   $("#org-artist").addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); addArtist(); } });
 
-  // populate selects
   $("#org-genre").innerHTML = ALL_GENRES.map(g => `<option>${g}</option>`).join("");
   $("#org-type").innerHTML = TYPES.map(t => `<option>${t}</option>`).join("");
 
   $("#org-form").addEventListener("submit", (e) => {
     e.preventDefault();
-    toast("🎉 Event submitted for review!");
+    toast(T("org.toast"));
     $("#org-form").reset(); lineup = []; $("#org-lineup-list").innerHTML = "";
   });
 
-  // live preview of title
   $("#org-title").addEventListener("input", (e) => {
-    $("#preview-title").textContent = e.target.value || "Your Event Title";
+    $("#preview-title").textContent = e.target.value || T("org.preview.title");
   });
   $("#org-genre").addEventListener("change", (e) => {
     const g = GENRES[e.target.value];
@@ -376,7 +415,6 @@ function initOrganizer() {
 
 /* ----------------------------- ACCOUNT --------------------------------- */
 function initAccount() {
-  // tabs
   $$(".tab").forEach(t => t.addEventListener("click", () => {
     $$(".tab").forEach(x => x.classList.remove("on"));
     $$(".tabpane").forEach(x => x.classList.remove("on"));
@@ -384,19 +422,16 @@ function initAccount() {
     $("#pane-" + t.dataset.tab).classList.add("on");
   }));
 
-  // favourites
   const favs = EVENTS.filter(e => isFav(e.id));
   const fav = $("#acc-favs");
   fav.innerHTML = favs.length ? favs.map(cardHTML).join("")
-    : `<p style="color:var(--grey)">No favourites yet. Tap the ♥ on any event to save it here.</p>`;
+    : `<p style="color:var(--grey)">${T("acc.favs.empty")}</p>`;
 
-  // history (mock: random past)
   $("#acc-history").innerHTML = EVENTS.slice(8,12).map(rowHTML).join("");
 
-  // alert toggles
   $$(".switch").forEach(s => s.addEventListener("click", () => {
     s.classList.toggle("on");
-    toast(s.classList.contains("on") ? "Alert enabled 🔔" : "Alert disabled");
+    toast(s.classList.contains("on") ? T("acc.toast.alerton") : T("acc.toast.alertoff"));
   }));
 }
 

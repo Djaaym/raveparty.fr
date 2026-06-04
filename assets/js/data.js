@@ -160,3 +160,48 @@ const COUNTRIES = [...new Set(EVENTS.map(e => e.country))].sort();
 const CITIES    = [...new Set(EVENTS.map(e => e.city))].sort();
 const ALL_GENRES = Object.keys(GENRES);
 const TYPES = ["Festival","Club","Warehouse"];
+
+/* ---- i18n data: French translations (English is the base in the objects) ---- */
+const COUNTRY_FR = {
+  "Netherlands": "Pays-Bas", "Germany": "Allemagne", "France": "France",
+  "UK": "Royaume-Uni", "Portugal": "Portugal", "Belgium": "Belgique",
+  "Spain": "Espagne", "Austria": "Autriche", "Romania": "Roumanie",
+};
+const COUNTRY_FLAG = {
+  "Netherlands": "🇳🇱", "Germany": "🇩🇪", "France": "🇫🇷", "UK": "🇬🇧",
+  "Portugal": "🇵🇹", "Belgium": "🇧🇪", "Spain": "🇪🇸", "Austria": "🇦🇹", "Romania": "🇷🇴",
+};
+
+const GENRE_DESC_FR = {
+  "Techno": "Le battement 4/4 de Berlin et au-delà",
+  "Hard Techno": "Plus vite, plus dur, BPM implacable",
+  "Acid Techno": "Hypnose grésillante de la 303",
+  "Hardstyle": "Kicks euphoriques & reverse bass",
+  "Hardcore": "200 BPM d'adrénaline pure",
+  "EDM": "L'énergie des mainstages de festival",
+  "Drum & Bass": "Basslines roulantes à 174",
+  "Trance": "Voyages uplifting euphoriques",
+  "Psytrance": "Fréquences forest & goa",
+  "Free Party": "Sound systems hors-réseau",
+  "Warehouse": "Espaces industriels bruts",
+  "House": "Grooves soul toute la nuit",
+};
+
+const DESC_FR = {
+  1: "Le plus grand festival techno du monde revient dans la plaine néerlandaise. Douze heures de 4/4 implacable sur huit scènes industrielles, des lasers fendant la fumée de midi à minuit.",
+  2: "Un marathon de 14 heures dans une centrale électrique désaffectée. Pas de téléphone, pas de photo — juste du béton, de la fumée et du son. La salle la plus intransigeante de Berlin.",
+  3: "Verknipt investit un entrepôt de 6000 personnes pour un déferlement industriel. Stroboscopes, sub-bass et lignes acid jusqu'au lever du soleil pendant l'Amsterdam Dance Event.",
+  4: "Le collectif le plus dur de Paris sort son esthétique dystopique en plein air. Kicks brutaux, murs de fumée et une scène construite comme une usine à l'abandon.",
+  5: "De la techno underground pure dans un chantier naval au bord de l'eau. Fonctionnelle, sombre, hypnotique — le dancefloor comme il devrait être.",
+  6: "La session culte autour de la cabine passe en mode jungle. Breaks à 174 BPM, rewinds et la salle la plus moite de l'est londonien.",
+  7: "Quatre jours de pure euphorie hardstyle. La légendaire scène RED, des feux d'artifice et 100 000 warriors chantant à l'unisson.",
+  8: "Un rassemblement psychédélique d'une semaine au bord d'un lac portugais. Art visionnaire, son off-grid et le dancefloor psytrance le plus célèbre de la planète.",
+  9: "Une vraie free party — les coordonnées tombent la veille au soir. Plusieurs sound systems, groupes électrogènes, boue et liberté. Apporte ton eau. Aucun sponsor commercial, jamais.",
+  10: "La production scénique la plus spectaculaire au monde. Pyrotechnie, décor féérique et la famille EDM mondiale réunie dans une forêt belge.",
+  11: "De la techno dub épurée dans un loft intime. Plafonds bas, gros stacks Funktion-One et un public strictement tête baissée.",
+  12: "Carnage DnB d'Halloween dans un ancien dépôt ferroviaire caverneux. Rollers liquides en début de soirée, jump-up déchaîné dès 2h.",
+  13: "Coucher de soleil méditerranéen, brise marine et 303 qui grésillent. Un open-air boutique où la house fond dans l'acid quand la nuit prend le dessus.",
+  14: "Trance uplifting et progressive sur les rives du canal du Danube. Mains en l'air, lasers au-dessus, pure euphorie jusqu'à l'aube.",
+  15: "La programmation la plus dure de Belgique dans un hall de fret du XIXe siècle. Acier industriel, stroboscopes aveuglants et 150 BPM sans pitié.",
+  16: "Le marathon légendaire de la côte roumaine. Minimal & micro-house qui s'étire sur des jours — personne ne connaît l'heure, et personne ne s'en soucie.",
+};
