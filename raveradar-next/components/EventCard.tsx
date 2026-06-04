@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { cardBg, countryLabel } from "@/lib/data";
+import { cardBg, countryLabel, eventPath } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { langPrefix } from "@/lib/i18n";
 import { useFav } from "./useFavorites";
@@ -10,7 +10,7 @@ import { useFav } from "./useFavorites";
 export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const { on, toggle } = useFav(e.id);
   const router = useRouter();
-  const href = `${langPrefix(lang)}/event?id=${e.id}`;
+  const href = `${langPrefix(lang)}${eventPath(e)}`;
 
   return (
     <motion.article

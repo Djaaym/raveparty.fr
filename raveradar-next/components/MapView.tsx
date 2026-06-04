@@ -2,7 +2,7 @@
 import "leaflet/dist/leaflet.css";
 import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, countryLabel, cardBg } from "@/lib/data";
+import { EVENTS, countryLabel, cardBg, eventPath } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 
@@ -36,7 +36,7 @@ export default function MapView({ lang }: { lang: Lang }) {
           `<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date, lang)} · ${e.city}, ${countryLabel(
             e.country,
             lang
-          )}</p><a href="${p}/event?id=${e.id}">${t("map.viewevent")}</a></div>`
+          )}</p><a href="${p}${eventPath(e)}">${t("map.viewevent")}</a></div>`
         );
         markersRef.current[e.id] = m;
       });

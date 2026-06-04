@@ -2,14 +2,14 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg } from "@/lib/data";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
 
 function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const router = useRouter();
-  const href = `${langPrefix(lang)}/event?id=${e.id}`;
+  const href = `${langPrefix(lang)}${eventPath(e)}`;
   return (
     <article className="row-card" onClick={() => router.push(href)}>
       <div className="thumb" style={{ backgroundImage: cardBg(e) }} />

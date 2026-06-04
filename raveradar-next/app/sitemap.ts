@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { ALL_GENRES, genreSlug, FESTIVALS, eventSlug } from "@/lib/data";
+import { EVENTS, ALL_GENRES, genreSlug, FESTIVALS, eventSlug, eventPath } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
 import { SHOWS } from "@/lib/shows";
@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     paths.add(`/festival/${p.slug}`);
   });
   FESTIVALS.forEach((e) => paths.add(`/festival/${eventSlug(e)}`));
+  EVENTS.forEach((e) => paths.add(eventPath(e)));
   ARTISTS.forEach((a) => paths.add(`/artistes/${a.slug}`));
   VENUES.forEach((v) => paths.add(`/lieux/${v.slug}`));
   SHOWS.forEach((s) => paths.add(`/show/${s.slug}`));

@@ -159,6 +159,9 @@ export const slugify = (s: string): string =>
 export const eventSlug = (e: RaveEvent): string => slugify(e.title);
 export const eventFromSlug = (s: string): RaveEvent | undefined => EVENTS.find((e) => eventSlug(e) === s);
 export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival");
+/** SEO-friendly canonical path for an event (festivals live under /festival). */
+export const eventPath = (e: RaveEvent): string =>
+  e.type === "Festival" ? `/festival/${eventSlug(e)}` : `/event/${eventSlug(e)}`;
 
 export const COUNTRIES = [...new Set(EVENTS.map((e) => e.country))].sort();
 export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
