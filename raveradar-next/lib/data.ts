@@ -59,6 +59,12 @@ export const EVENTS: RaveEvent[] = [
   { id: 60, title: "Neopop Festival", type: "Festival", genres: ["Techno", "House"], city: "Viana do Castelo", country: "Portugal", lat: 41.69, lng: -8.83, date: "2026-08-06", time: "18:00", price: 79, currency: "€", venue: "Forte de Santiago da Barra", trending: false, lineup: [], desc: "Le festival techno portugais dans le fort de Viana do Castelo (20 ans) : avant-garde au bord de l'océan." },
   { id: 61, title: "Glitch Festival", type: "Festival", genres: ["Techno", "House"], city: "Rabat", country: "Malta", lat: 35.88, lng: 14.40, date: "2026-08-12", time: "16:00", price: 99, currency: "€", venue: "Gianpula Fields", trending: false, lineup: [], desc: "House & techno sur l'île de Malte : main stage à Gianpula, boat parties et fortifications UNESCO." },
   { id: 62, title: "Zamna Tulum", type: "Festival", genres: ["House", "Techno"], city: "Tulum", country: "Mexico", lat: 20.21, lng: -87.46, date: "2026-12-28", time: "16:00", price: 120, currency: "$", venue: "Tulum Jungle", trending: false, lineup: [], desc: "Dans la jungle de Tulum : house et techno mélodique sous les étoiles, le rendez-vous hivernal du Mexique." },
+  { id: 63, title: "Let It Roll", type: "Festival", genres: ["Drum & Bass"], city: "Most", country: "Czech Republic", lat: 50.52, lng: 13.64, date: "2026-07-30", time: "16:00", price: 99, currency: "€", venue: "Lake Most", trending: true, lineup: ["Chase & Status"], desc: "Le plus grand festival drum & bass du monde, au bord du lac de Most en Tchéquie : trois nuits de breaks à 174." },
+  { id: 64, title: "UNUM Festival", type: "Festival", genres: ["House", "Techno"], city: "Shëngjin", country: "Albania", lat: 41.81, lng: 19.59, date: "2026-06-04", time: "16:00", price: 120, currency: "€", venue: "Rana e Hedhun Beach", trending: true, lineup: ["&ME", "Ricardo Villalobos", "Ben Klock", "Raresh", "Craig Richards", "DJ Tennis"], desc: "Cinq jours et cinq nuits de house, techno et minimal sur une plage albanaise sauvage." },
+  { id: 65, title: "No Sleep Festival", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Belgrade", country: "Serbia", lat: 44.83, lng: 20.43, date: "2026-11-28", time: "22:00", price: 55, currency: "€", venue: "New Hangar, Port of Belgrade", trending: false, lineup: [], desc: "Le petit frère hivernal d'EXIT : techno dans le hangar géant du port de Belgrade et 10 autres lieux." },
+  { id: 66, title: "SonneMondSterne", type: "Festival", genres: ["Techno", "House"], city: "Saalburg-Ebersdorf", country: "Germany", lat: 50.50, lng: 11.71, date: "2026-08-07", time: "12:00", price: 139, currency: "€", venue: "Bleilochtalsperre", trending: false, lineup: [], desc: "L'un des grands festivals électro d'Allemagne, du coucher au lever du soleil au bord du lac de Saalburg." },
+  { id: 67, title: "Polifonic", type: "Festival", genres: ["Techno", "House"], city: "Bari", country: "Italy", lat: 40.80, lng: 17.38, date: "2026-07-22", time: "16:00", price: 109, currency: "€", venue: "Valle d'Itria, Puglia", trending: false, lineup: [], desc: "Festival boutique des Pouilles : électro pointue entre oliveraies, masseria et plages de l'Adriatique." },
+  { id: 68, title: "Tauron Nowa Muzyka", type: "Festival", genres: ["Techno", "House"], city: "Katowice", country: "Poland", lat: 50.26, lng: 19.02, date: "2026-06-04", time: "16:00", price: 69, currency: "€", venue: "Strefa Kultury", trending: false, lineup: ["Apparat", "Modeselektor", "John Digweed", "Hania Rani"], desc: "Le festival électro/techno primé de Katowice, dans une friche industrielle réhabilitée de Silésie." },
 ];
 
 /* AI-generated key-art posters (Nano Banana Pro), served from CDN. */
@@ -173,6 +179,12 @@ const TICKETS: Record<number, string> = {
   60: "https://neopopfestival.com",
   61: "https://www.glitchfestival.com",
   62: "https://zamnafestival.com",
+  63: "https://letitroll.eu",
+  64: "https://unumfestival.com",
+  65: "https://www.nosleepfestival.com",
+  66: "https://www.sonnemondsterne.de",
+  67: "https://www.polifonic.it",
+  68: "https://festiwalnowamuzyka.pl",
 };
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
