@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, GENRES, cardBg, countryLabel, eventDescL } from "@/lib/data";
+import { EVENTS, GENRES, cardBg, countryLabel, eventDescL, slugify } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
@@ -59,13 +59,17 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <h3 className="h-md">{t("event.lineup")}</h3>
                 <div className="lineup">
                   {e.lineup.map((a, i) => (
-                    <div className={`artist ${i === 0 ? "headliner" : ""}`} key={a}>
+                    <Link
+                      href={`${p}/artistes/${slugify(a.trim())}`}
+                      className={`artist ${i === 0 ? "headliner" : ""}`}
+                      key={a}
+                    >
                       <div className="av">{a.trim()[0]}</div>
                       <div>
                         <b>{a.trim()}</b>
                         <span>{i === 0 ? t("event.headliner") : t("event.djset")}</span>
                       </div>
-                    </div>
+                    </Link>
                   ))}
                 </div>
               </div>

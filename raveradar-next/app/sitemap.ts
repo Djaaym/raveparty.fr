@@ -1,16 +1,18 @@
 import type { MetadataRoute } from "next";
 import { ALL_GENRES, genreSlug, FESTIVALS, eventSlug } from "@/lib/data";
 import { PLACES } from "@/lib/places";
+import { ARTISTS } from "@/lib/artists";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = new Set<string>(["", "/explore", "/map", "/organizer", "/account", "/genres", "/villes"]);
+  const paths = new Set<string>(["", "/explore", "/map", "/organizer", "/account", "/genres", "/villes", "/artistes"]);
   ALL_GENRES.forEach((g) => paths.add(`/genres/${genreSlug(g)}`));
   PLACES.forEach((p) => {
     paths.add(`/rave-party/${p.slug}`);
     paths.add(`/festival/${p.slug}`);
   });
   FESTIVALS.forEach((e) => paths.add(`/festival/${eventSlug(e)}`));
+  ARTISTS.forEach((a) => paths.add(`/artistes/${a.slug}`));
 
   const now = new Date();
   const langs = ["", "/en"];
