@@ -136,6 +136,10 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .nav-links a:hover { color: var(--white); background: var(--line-soft); }
 .nav-links a.active { color: var(--white); background: var(--grad-soft); }
 .nav-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.lang-switch { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; padding: 3px; gap: 2px; font-family: var(--f-mono); }
+.lang-switch a { font-size: .72rem; font-weight: 700; letter-spacing: .05em; color: var(--grey-2); padding: 5px 10px; border-radius: 99px; transition: all .2s; }
+.lang-switch a:hover { color: var(--white); }
+.lang-switch a.on { background: var(--grad-main); color: #fff; }
 .nav-toggle { display: none; background: none; border: 0; color: var(--white); font-size: 1.6rem; cursor: pointer; }
 
 /* ----------------------------- BUTTONS --------------------------------- */
