@@ -11,10 +11,7 @@ A complete, production-quality concept + working website for an underground elec
 No tooling required — it's static.
 
 ```bash
-# Option 1: just open the file
-open index.html
-
-# Option 2: serve locally (recommended, so the map + ?id= links work cleanly)
+# Serve locally (required — links use clean /folder/ URLs)
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
@@ -25,14 +22,18 @@ python3 -m http.server 8000
 
 ## 🗂 Pages
 
-| File | Page | Highlights |
-|------|------|------------|
-| `index.html` | **Home** | Spectacular hero, instant search (city/country/date/genre), trending feed, genre tiles, stats, premium plans, newsletter |
-| `explore.html` | **Explore** | Full directory + advanced filters (country, genre, type, price, sort) and grid/list views |
-| `map.html` | **Map** | Interactive dark map of Europe (Leaflet) with genre filtering and a synced side list |
-| `event.html` | **Event detail** | Poster hero, description, line-up, gallery, mini-map, sticky ticket box, related events (`event.html?id=N`) |
-| `organizer.html` | **Organizer studio** | Multi-step publish form, line-up manager, media upload, ticketing, **live card preview** |
-| `account.html` | **User space** | Favourites, custom alerts, history, settings (tabs) |
+Each page lives in its own folder as `index.html`, giving clean URLs (`/explore/`, `/map/`, …).
+
+| URL | File | Highlights |
+|-----|------|------------|
+| `/` | `index.html` | Spectacular hero, instant search (city/country/date/genre), trending feed, genre tiles, stats, premium plans, newsletter |
+| `/explore/` | `explore/index.html` | Full directory + advanced filters (country, genre, type, price, sort) and grid/list views |
+| `/map/` | `map/index.html` | Interactive dark map of Europe (Leaflet) with genre filtering and a synced side list |
+| `/event/` | `event/index.html` | Poster hero, description, line-up, gallery, mini-map, sticky ticket box, related events (`/event/?id=N`) |
+| `/organizer/` | `organizer/index.html` | Multi-step publish form, line-up manager, media upload, ticketing, **live card preview** |
+| `/account/` | `account/index.html` | Favourites, custom alerts, history, settings (tabs) |
+
+> Links and asset paths are **root-absolute** (`/assets/…`, `/explore/`), so the site must be served from a web server (clean URLs won't resolve via `file://`).
 
 ---
 

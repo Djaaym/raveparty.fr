@@ -82,17 +82,18 @@ function rowHTML(e) {
   </article>`;
 }
 
-function goEvent(id) { location.href = `event.html?id=${id}`; }
+function goEvent(id) { location.href = `/event/?id=${id}`; }
 
 /* ----------------------------- nav + reveal ---------------------------- */
 function initChrome() {
   const toggle = $(".nav-toggle");
   if (toggle) toggle.addEventListener("click", () => $(".nav-links").classList.toggle("open"));
 
-  // mark active link
-  const here = location.pathname.split("/").pop() || "index.html";
+  // mark active link (folder-based routes, e.g. /explore/)
+  const path = location.pathname.replace(/index\.html$/, "");
   $$(".nav-links a").forEach(a => {
-    if (a.getAttribute("href") === here) a.classList.add("active");
+    const href = a.getAttribute("href");
+    if (href && href !== "/" && path.startsWith(href)) a.classList.add("active");
   });
 
   // scroll reveal
@@ -118,7 +119,7 @@ function initHome() {
     gt.innerHTML = ALL_GENRES.map(g => {
       const k = GENRES[g];
       const n = EVENTS.filter(e => e.genres.includes(g)).length;
-      return `<a class="genre" href="explore.html?genre=${encodeURIComponent(g)}"
+      return `<a class="genre" href="/explore/?genre=${encodeURIComponent(g)}"
         style="--g:linear-gradient(150deg,${k.c1},${k.c2})">
         <span style="position:absolute;inset:0;background:linear-gradient(150deg,${k.c1},${k.c2});opacity:.85"></span>
         <div style="position:relative;z-index:2">
@@ -141,7 +142,7 @@ function initHome() {
     if (c) p.set("country", c);
     if (d) p.set("date", d);
     if (g) p.set("genre", g);
-    location.href = "explore.html?" + p.toString();
+    location.href = "/explore/?" + p.toString();
   });
 
   // populate hero selects
@@ -153,7 +154,7 @@ function initHome() {
   // genre chips quick links
   const chips = $("#hero-chips");
   if (chips) chips.innerHTML = ["Techno","Hard Techno","Drum & Bass","Psytrance","Free Party","House"]
-    .map(g => `<a class="chip" href="explore.html?genre=${encodeURIComponent(g)}">${g}</a>`).join("");
+    .map(g => `<a class="chip" href="/explore/?genre=${encodeURIComponent(g)}">${g}</a>`).join("");
 }
 
 /* ----------------------------- EXPLORE --------------------------------- */
@@ -256,7 +257,7 @@ function initMap() {
     const icon = L.divIcon({ className: "", html: `<div class="map-pin"></div>`, iconSize: [18,18] });
     const m = L.marker([e.lat, e.lng], { icon }).addTo(map);
     m.bindPopup(`<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date)} · ${e.city}, ${e.country}</p>
-      <a href="event.html?id=${e.id}">View event →</a></div>`);
+      <a href="/event/?id=${e.id}">View event →</a></div>`);
     markers[e.id] = m;
   });
 
