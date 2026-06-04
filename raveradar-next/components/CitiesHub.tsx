@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { PLACES } from "@/lib/places";
+import { FESTIVALS, eventSlug } from "@/lib/data";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -49,6 +50,38 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
           <div className="chips" style={{ justifyContent: "flex-start" }}>
             {zones.map((v) => (
               <Tile key={v.slug} slug={v.slug} label={v.label} />
+            ))}
+          </div>
+
+          <h3 className="h-md" style={{ margin: "36px 0 16px" }}>
+            {t("cities.festbycity")}
+          </h3>
+          <div className="chips" style={{ justifyContent: "flex-start" }}>
+            {PLACES.filter((x) => x.kind === "ville").map((v) => (
+              <Link
+                key={v.slug}
+                href={`${p}/festival/${v.slug}`}
+                className="chip"
+                style={{ fontSize: ".95rem", padding: "12px 18px" }}
+              >
+                🎪 Festival {v.label}
+              </Link>
+            ))}
+          </div>
+
+          <h3 className="h-md" style={{ margin: "36px 0 16px" }}>
+            {t("cities.topfest")}
+          </h3>
+          <div className="chips" style={{ justifyContent: "flex-start" }}>
+            {FESTIVALS.map((e) => (
+              <Link
+                key={e.id}
+                href={`${p}/festival/${eventSlug(e)}`}
+                className="chip"
+                style={{ fontSize: ".95rem", padding: "12px 18px" }}
+              >
+                ✦ {e.title}
+              </Link>
             ))}
           </div>
         </div>

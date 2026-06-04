@@ -1,0 +1,122 @@
+"use client";
+import { useEffect, useState } from "react";
+import type { Lang } from "@/lib/types";
+import { EVENTS } from "@/lib/data";
+import { getDict } from "@/lib/i18n";
+import EventCard from "./EventCard";
+import { readFavs } from "./useFavorites";
+
+type Tab = "favs" | "alerts" | "history" | "settings";
+
+function Switch({ initial = false }: { initial?: boolean }) {
+  const [on, setOn] = useState(initial);
+  return <div className={`switch ${on ? "on" : ""}`} style={{ marginLeft: "auto" }} onClick={() => setOn((o) => !o)} />;
+}
+
+export default function AccountTabs({ lang }: { lang: Lang }) {
+  const t = getDict(lang);
+  const [tab, setTab] = useState<Tab>("favs");
+  const [favIds, setFavIds] = useState<number[]>([]);
+
+  useEffect(() => {
+    const sync = () => setFavIds(readFavs());
+    sync();
+    window.addEventListener("favs", sync);
+    return () => window.removeEventListener("favs", sync);
+  }, []);
+
+  const favs = EVENTS.filter((e) => favIds.includes(e.id));
+  const history = EVENTS.slice(8, 12);
+  const tabs: [Tab, string][] = [
+    ["favs", t("acc.tab.favs")],
+    ["alerts", t("acc.tab.alerts")],
+    ["history", t("acc.tab.history")],
+    ["settings", t("acc.tab.settings")],
+  ];
+  const alerts = [
+    ["Charlotte de Witte", t("acc.alert.artist"), true],
+    ["Hard Techno · Berlin", t("acc.alert.genrecity"), true],
+    [t("acc.alert.free"), t("acc.alert.freesub"), false],
+    [t("acc.alert.fest"), t("acc.alert.festsub"), true],
+  ] as const;
+
+  return (
+    <>
+      <div className="tabs">
+        {tabs.map(([k, label]) => (
+          <div key={k} className={`tab ${tab === k ? "on" : ""}`} onClick={() => setTab(k)}>
+            {label}
+          </div>
+        ))}
+      </div>
+
+      {tab === "favs" && (
+        <div>
+          {favs.length ? (
+            <div className="grid grid-4">
+              {favs.map((e) => (
+                <EventCard key={e.id} e={e} lang={lang} />
+              ))}
+            </div>
+          ) : (
+            <p style={{ color: "var(--grey)" }}>{t("acc.favs.empty")}</p>
+          )}
+        </div>
+      )}
+
+      {tab === "alerts" && (
+        <div>
+          <p className="lead" style={{ marginBottom: 24 }}>
+            {t("acc.alerts.lead")}
+          </p>
+          <div className="grid grid-2">
+            {alerts.map(([title, sub, on], i) => (
+              <div className="alert-card" key={i}>
+                <div>
+                  <b>{title}</b>
+                  <br />
+                  <span style={{ color: "var(--grey)", fontSize: ".85rem" }}>{sub}</span>
+                </div>
+                <Switch initial={on} />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {tab === "history" && (
+        <div>
+          <p className="lead" style={{ marginBottom: 24 }}>
+            {t("acc.history.lead")}
+          </p>
+          <div className="grid grid-4">
+            {history.map((e) => (
+              <EventCard key={e.id} e={e} lang={lang} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {tab === "settings" && (
+        <div className="info-card" style={{ maxWidth: 560 }}>
+          <h3 className="h-md" style={{ marginBottom: 20 }}>
+            {t("acc.prefs")}
+          </h3>
+          <div className="field" style={{ marginBottom: 16 }}>
+            <label>{t("acc.displayname")}</label>
+            <input className="input" defaultValue="Raver" />
+          </div>
+          <div className="field" style={{ marginBottom: 16 }}>
+            <label>{t("acc.homecity")}</label>
+            <input className="input" defaultValue="Paris" />
+          </div>
+          <div className="field" style={{ marginBottom: 16 }}>
+            <label>{t("acc.email")}</label>
+            <input className="input" type="email" defaultValue="djaym.info@gmail.com" />
+          </div>
+          <button className="btn btn-primary">{t("acc.save")}</button>
+        </div>
+      )}
+    </>
+  );
+}
