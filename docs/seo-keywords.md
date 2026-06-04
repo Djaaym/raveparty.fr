@@ -1,0 +1,58 @@
+# RaveRadar — Mémoire SEO & mots-clés
+
+> Source : exports SEMrush broad match FR (04/06/2026) — `raveparty` & `festival`.
+> À garder en tête pour toute la stratégie de contenu et l'architecture des pages.
+
+## Mots-clés de marque / piliers à mémoriser
+- **`rave party`** — 40 500 rech./mois (FR), intent informationnel + news. Total longue traîne ≈ **173 300 / mois**.
+- **`festival`** — 27 100 rech./mois sur le terme seul ; **volume total de la thématique ≈ 5,44 M / mois** (énorme).
+
+## Constat clé
+La demande est **massivement géolocalisée** (département / ville / région) et temporelle (« ce week-end », « autour de moi »). C'est un cas d'école de **SEO programmatique** : une page par lieu = des centaines de pages à fort potentiel.
+
+### Top « rave party {lieu} » (volume mensuel)
+| Vol | Lieu |
+|----:|------|
+| 5 400 | lot |
+| 4 400 | aude |
+| 4 400 | lozère |
+| 3 600 | rennes |
+| 2 900 | louargat |
+| 1 300 | fontjoncouse |
+| 1 000 | ain · drôme · hautes-alpes · isère · lyon · lozère |
+| 880 | hérault · la canourgue · innimond |
+| 720 | bordeaux · bretagne · larzac · rocamadour · rosporden |
+| 590 | carhaix · feyzin · flaux |
+| 480 | tarn · nizas · pénestin · chasserades · mont-lozère |
+| 390 | loire-atlantique · paris · tourtour |
+| 320 | aveyron · orne · charente-maritime |
+
+Termes transverses à forte intention : `rave party autour de moi` (1 900), `rave party ce week-end` (1 600), `rave party en cours` (2 900).
+
+### Côté « festival » (volume mensuel, extrait)
+festival de cannes (40 500) · delta festival (27 100) · rose festival (27 100) · festival d'avignon (14 800) · festival de nîmes (14 800) · main square festival (14 800) · dour festival (8 100) · festival de poupet · vieilles charrues · beauregard · aluna festival (9 900)…
+→ Forte demande sur les **festivals nommés** ET les **festivals par ville/région**.
+
+## Architecture d'URL recommandée (SEO programmatique)
+```
+/                                 Accueil
+/explore                          Annuaire + filtres (déjà en place ✅)
+/rave-party/{lieu}                ex. /rave-party/lyon, /rave-party/drome, /rave-party/lozere
+/festival/{lieu}                  ex. /festival/lyon, /festival/bretagne
+/festival/{slug}                  pages festival nommées (Awakenings, Dour…)
+/genres/{genre}                   ex. /genres/techno, /genres/hardstyle
+/rave-party/autour-de-moi         géoloc
+/rave-party/ce-week-end           filtre temporel
+/artistes/{slug}                  PHASE 2 — qui joue où (maillage interne massif)
+```
+Chaque page lieu = H1 « Rave party {Lieu} », intro éditoriale, liste filtrée des events, FAQ (intent « People also ask »), maillage vers départements/villes voisins, hreflang fr/en.
+
+## Notes d'intention
+- Beaucoup de requêtes « rave party » sont **news/illégal** (incendie, accident, agriculteurs) → ne PAS cibler ces angles ; capter plutôt l'intention « trouver/sortir » (autour de moi, ce week-end, {ville}).
+- « festival » est très **commercial/navigational** → pages festival riches (line-up, billetterie, dates, lieu, carte).
+
+## Roadmap de contenu
+1. ✅ Explorer + filtres.
+2. 🔜 Pages programmatiques `/rave-party/{lieu}` & `/festival/{lieu}` (départements + grandes villes prioritaires ci-dessus).
+3. 🔜 Pages festival nommées.
+4. ⏳ Phase 2 : pages **artistes** (line-up croisé festivals ↔ artistes) pour démultiplier les pages et le maillage interne.

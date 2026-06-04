@@ -153,8 +153,34 @@ const EVENTS = [
     desc: "The legendary marathon on the Romanian coast. Minimal & micro-house that stretches for days — nobody knows what time it is, and nobody cares." },
 ];
 
-// Apply procedural posters keyed to the primary genre.
-EVENTS.forEach(e => { e.poster = poster(e.genres[0]); e.img = poster(e.genres[0]); });
+// AI-generated key-art posters (Nano Banana Pro), served from CDN.
+const IMG_BASE = "https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/";
+const IMAGES = {
+  1:  "hf_20260604_131554_9c8e03e9-d794-41e2-b043-bdd13ade4098.png",
+  2:  "hf_20260604_131601_f965ecd6-a38e-4c2b-8dde-a783c300a924.jpeg",
+  3:  "hf_20260604_131605_ba41434c-1956-4d6a-a129-dae96ab6dda1.png",
+  4:  "hf_20260604_131610_ccbfb1b3-7ffd-439b-8080-8abf7092963d.png",
+  5:  "hf_20260604_131615_86df2774-6d5f-4b47-8847-ae8ea116a253.png",
+  6:  "hf_20260604_131620_c9d3cd38-4470-4e1f-91c7-d37adc6ff374.png",
+  7:  "hf_20260604_131624_b6e88fc5-d4e8-4ee9-b0b9-f1af57015856.png",
+  8:  "hf_20260604_131628_ae370ce7-af87-4995-834e-4c9c4c4e37c6.png",
+  9:  "hf_20260604_131730_03a01ed2-6705-4e1d-a790-f76ffea0d88f.png",
+  10: "hf_20260604_131732_aa86036b-ebb0-4085-b004-cb779f0cc590.png",
+  11: "hf_20260604_131733_d2a2ecfa-4328-4986-92cb-a4ee98a5a1fd.png",
+  12: "hf_20260604_131734_30f42580-c98c-4944-a122-fc70458da80d.png",
+  13: "hf_20260604_131814_d3d5f1e1-11d7-46d2-b856-af66f0c053cb.png",
+  14: "hf_20260604_131815_abf356b0-6b32-4f96-8152-fa01195cf263.png",
+  15: "hf_20260604_131834_ae5e830f-0ace-4943-b5d2-18a6d6ec71d0.png",
+  16: "hf_20260604_131836_3c564a55-5d17-45e3-833b-7cf874f35e66.png",
+};
+
+// Procedural gradient stays as a graceful fallback behind the real poster.
+EVENTS.forEach(e => {
+  e.poster = poster(e.genres[0]);
+  e.image = IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null;
+  // composite background: real image on top, gradient underneath (load/fallback)
+  e.bg = e.image ? `url('${e.image}'), ${e.poster}` : e.poster;
+});
 
 const COUNTRIES = [...new Set(EVENTS.map(e => e.country))].sort();
 const CITIES    = [...new Set(EVENTS.map(e => e.city))].sort();
