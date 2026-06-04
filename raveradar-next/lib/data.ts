@@ -113,6 +113,19 @@ export const IMAGES: Record<number, string> = {
   43: "hf_20260604_151942_aec345c8-c05c-41b9-8fa9-a91781ba3d21.png",
   44: "hf_20260604_152029_9703324b-b9fb-42d4-9e34-bb3929ecb451.png",
   45: "hf_20260604_152218_1dc3a2b2-c53d-4452-b80a-f57db6d95631.png",
+  19: "hf_20260604_152728_4e92c8ac-bb1f-492a-9fc6-9f57211bfc23.png",
+  20: "hf_20260604_152729_79bd6696-14e5-4ecf-be85-955f7cf0cfaf.png",
+  27: "hf_20260604_152730_d26babbf-52ad-4b73-a6f3-2e31d585f85c.png",
+  28: "hf_20260604_152731_7d6c2238-41bb-4ef7-bf82-8088cdd803bc.png",
+  29: "hf_20260604_152815_2f86892c-38b9-4eed-8aed-edc627597430.png",
+  30: "hf_20260604_152817_a652a0f5-c306-4723-91a1-7d057f0d3be5.png",
+  32: "hf_20260604_152818_07da0a3e-9fb7-4e73-98c9-f442dd4440ca.png",
+  40: "hf_20260604_152919_d547293f-742d-4c2c-8036-a325bc8b605e.png",
+  41: "hf_20260604_152853_cc160818-dc2a-4a0b-8e79-a434cf4e12e1.png",
+  42: "hf_20260604_152854_d802e872-d4ab-4c4b-b43e-f76379017277.png",
+  46: "hf_20260604_152920_39c95ac2-e86f-48f7-beb1-ac44b7e4d215.png",
+  47: "hf_20260604_152947_03d3bc5b-8ad8-46dc-b250-feb48fff366f.png",
+  48: "hf_20260604_152948_8a3edd1d-8662-45ee-8310-936245d615fe.png",
 };
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
 /** composite CSS background: real poster on top, genre gradient as fallback */
