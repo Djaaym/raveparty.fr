@@ -74,6 +74,12 @@ export const genreFromSlug = (s: string): string | undefined =>
 export const eventsForGenre = (g: string): RaveEvent[] =>
   EVENTS.filter((e) => e.genres.includes(g)).sort((a, b) => a.date.localeCompare(b.date));
 
+export const slugify = (s: string): string =>
+  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+export const eventSlug = (e: RaveEvent): string => slugify(e.title);
+export const eventFromSlug = (s: string): RaveEvent | undefined => EVENTS.find((e) => eventSlug(e) === s);
+export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival");
+
 export const COUNTRIES = [...new Set(EVENTS.map((e) => e.country))].sort();
 export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
 
