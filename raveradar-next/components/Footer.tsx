@@ -46,7 +46,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             <Link href={`${p}/explore`}>{t("footer.allevents")}</Link>
             <Link href={`${p}/artistes`}>{t("nav.artists")}</Link>
             <Link href={`${p}/villes`}>{t("nav.cities")}</Link>
-            <Link href={`${p}/explore?genre=Techno`}>Techno</Link>
+            <Link href={`${p}/lieux`}>{t("nav.venues")}</Link>
             <Link href={`${p}/explore?genre=Free Party`}>{t("footer.freeparties")}</Link>
           </div>
           <div>

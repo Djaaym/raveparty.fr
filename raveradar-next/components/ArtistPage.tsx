@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { countryLabel } from "@/lib/data";
+import { fmtDate } from "@/lib/format";
+import { showsForArtist } from "@/lib/shows";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -15,6 +17,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   if (!artist) return notFound();
 
   const events = eventsForArtist(slug);
+  const shows = showsForArtist(slug);
   const related = relatedArtists(artist);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
 
@@ -48,6 +51,27 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             {artist.genres.map((g) => (
               <Link key={g} href={`${p}/genres/${g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`} className="gpill">
                 {g}
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
+            {t("artist.dates")}
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {shows.map((s) => (
+              <Link key={s.slug} href={`${p}/show/${s.slug}`} className="mini">
+                <div style={{ minWidth: 92 }}>
+                  <h4 style={{ color: "var(--cyan)", fontFamily: "var(--f-mono)", fontSize: ".8rem" }}>
+                    {fmtDate(s.date, lang)}
+                  </h4>
+                </div>
+                <div>
+                  <h4>{s.venue}</h4>
+                  <span>
+                    {s.city}, {countryLabel(s.country, lang)}
+                  </span>
+                </div>
               </Link>
             ))}
           </div>

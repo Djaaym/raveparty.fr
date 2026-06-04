@@ -105,7 +105,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 </div>
                 <div className="ticket-row">
                   <span>{t("event.venue")}</span>
-                  <b>{e.venue}</b>
+                  <b>
+                    <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "var(--cyan)" }}>
+                      {e.venue}
+                    </Link>
+                  </b>
                 </div>
                 <div className="ticket-row">
                   <span>{t("event.city")}</span>
