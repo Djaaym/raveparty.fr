@@ -66,6 +66,27 @@ export const cardBg = (e: RaveEvent): string => {
   return url ? `url('${url}'), ${poster(e.genres[0])}` : poster(e.genres[0]);
 };
 
+/* Official ticketing / event URL per event (organizers provide this in prod). */
+const TICKETS: Record<number, string> = {
+  1: "https://www.awakenings.com",
+  2: "https://www.berghain.berlin",
+  3: "https://www.verknipt.com",
+  4: "https://www.possession.paris",
+  5: "https://ra.co",
+  6: "https://boilerroom.tv",
+  7: "https://www.defqon1.com",
+  8: "https://www.boomfestival.org",
+  // 9 = free party (no ticketing)
+  10: "https://www.tomorrowland.com",
+  11: "https://ra.co",
+  12: "https://www.bassrush.com",
+  13: "https://ra.co",
+  14: "https://ra.co",
+  15: "https://thewarehouseproject.com",
+  16: "https://www.sunwavesfestival.com",
+};
+export const ticketUrl = (e: RaveEvent): string | null => TICKETS[e.id] ?? null;
+
 export const ALL_GENRES = Object.keys(GENRES);
 export const genreSlug = (g: string): string =>
   g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
