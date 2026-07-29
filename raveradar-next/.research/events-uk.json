@@ -1,0 +1,1092 @@
+[
+  {
+    "title": "All Together Now",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Portlaw",
+    "country": "Ireland",
+    "lat": 52.2378,
+    "lng": -7.3819,
+    "date": "2026-07-30",
+    "endDate": "2026-08-02",
+    "time": "12:00",
+    "price": 259,
+    "currency": "€",
+    "venue": "Curraghmore Estate",
+    "trending": true,
+    "lineup": [
+      "Pulp",
+      "Disclosure",
+      "Underworld",
+      "Kneecap",
+      "Christy Moore",
+      "The Mary Wallopers"
+    ],
+    "desc": "Festival du week-end férié irlandais dans le parc du domaine de Curraghmore, à Portlaw (comté de Waterford), avec 18 scènes. L'arène électronique accueille la scène 360° IMMERSE du collectif nord-irlandais AVA.",
+    "descEn": "Irish bank holiday weekend festival in the parkland of Curraghmore Estate, Portlaw (County Waterford), with 18 stages. The electronic arena hosts the 360-degree IMMERSE stage from Northern Irish collective AVA.",
+    "ticketUrl": "https://www.alltogethernow.ie/",
+    "sources": [
+      "https://www.alltogethernow.ie/",
+      "https://www.transportforireland.ie/events/all-together-now-festival-curraghmore-estate-co-waterford/",
+      "https://avafestival.com/"
+    ],
+    "note": "Complet (sold out) pour 2026. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Teletech Festival",
+    "type": "Festival",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Manchester",
+    "country": "UK",
+    "lat": 53.468,
+    "lng": -2.314,
+    "date": "2026-08-01",
+    "time": "12:00",
+    "price": 66,
+    "currency": "£",
+    "venue": "Bowlers Exhibition Centre",
+    "trending": true,
+    "lineup": [
+      "A.N.I.",
+      "SaltySis",
+      "Cloudy",
+      "Aiden",
+      "Evissimax",
+      "Alba Franch"
+    ],
+    "desc": "Cinquième édition mancunienne du festival hard techno Teletech, dans le hall d'exposition Bowlers de Trafford Park : dix-huit heures de programmation en continu. Une pré-soirée a lieu la veille au club Hidden.",
+    "descEn": "Fifth Manchester edition of hard techno festival Teletech, in the Bowlers exhibition hall at Trafford Park: eighteen straight hours of programming. A pre-party runs the night before at Hidden.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events",
+      "https://www.skiddle.com/festivals/teletechfestival/",
+      "https://www.visitmanchester.com/event/teletech-festival-2026/103879101/"
+    ],
+    "note": "Complet (sold out), file de revente active."
+  },
+  {
+    "title": "FLY presents Chris Stussy Scotland",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "UK",
+    "lat": 55.8635,
+    "lng": -4.2915,
+    "date": "2026-08-08",
+    "time": "14:00",
+    "price": 55,
+    "currency": "£",
+    "venue": "SWG3 Galvanizers Yard",
+    "trending": true,
+    "lineup": [
+      "Chris Stussy",
+      "Theo Kottis",
+      "Hayley Zalassi",
+      "Groove FM",
+      "Strictly Different"
+    ],
+    "desc": "Open air « Lost, Found & Forgotten » du promoteur écossais FLY dans la Galvanizers Yard du SWG3, ancienne usine sidérurgique du quartier de Yorkhill à Glasgow. Réservé aux plus de 18 ans.",
+    "descEn": "FLY's 'Lost, Found & Forgotten' open air in SWG3's Galvanizers Yard, a former steelworks in Glasgow's Yorkhill district. Strictly 18+.",
+    "ticketUrl": "https://swg3.tv/events/2026/august/chris-stussy-scotland-lost-found-forgotten/",
+    "sources": [
+      "https://swg3.tv/events/2026/august/chris-stussy-scotland-lost-found-forgotten/",
+      "https://www.flyflyfly.co.uk/"
+    ],
+    "note": "Complet (sold out). Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "WYLD Summer Showcase",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Birmingham",
+    "country": "UK",
+    "lat": 52.477,
+    "lng": -1.8875,
+    "date": "2026-08-08",
+    "time": "15:00",
+    "price": 25,
+    "currency": "£",
+    "venue": "LAB11",
+    "trending": false,
+    "lineup": [
+      "Joss Dean",
+      "Tommy Phillips",
+      "Ryan Resso",
+      "Boss Priester",
+      "Stef Davidse",
+      "Chopper",
+      "Scott Steer"
+    ],
+    "desc": "All-dayer du collectif WYLD au LAB11, entrepôt indépendant du quartier de Digbeth à Birmingham : cinq espaces intérieurs, une terrasse et une cour sous les viaducs ferroviaires.",
+    "descEn": "All-dayer from the WYLD collective at LAB11, the independent warehouse venue in Birmingham's Digbeth: five indoor spaces, a rooftop terrace and a yard beneath the railway viaducts.",
+    "ticketUrl": "https://www.lab11.co.uk/events",
+    "sources": [
+      "https://www.lab11.co.uk/events",
+      "https://www.lab11.co.uk/"
+    ],
+    "note": "Complet (sold out). Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Marshall Jefferson at Concorde 2",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Brighton",
+    "country": "UK",
+    "lat": 50.818,
+    "lng": -0.129,
+    "date": "2026-08-14",
+    "time": "22:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "Concorde 2",
+    "trending": false,
+    "lineup": [
+      "Marshall Jefferson"
+    ],
+    "desc": "Le producteur de Chicago Marshall Jefferson, auteur de « Move Your Body », au Concorde 2, salle de 600 places installée sur le front de mer de Madeira Drive à Brighton.",
+    "descEn": "Chicago house producer Marshall Jefferson, author of 'Move Your Body', at Concorde 2, the 600-capacity venue on Brighton's Madeira Drive seafront.",
+    "ticketUrl": "https://www.concorde2.co.uk/",
+    "sources": [
+      "https://www.songkick.com/venues/7325-concorde-2/calendar"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Index: 808 State (DJ set)",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.3468,
+    "lng": -6.276,
+    "date": "2026-08-20",
+    "time": "22:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Index",
+    "trending": false,
+    "lineup": [
+      "808 State"
+    ],
+    "desc": "DJ set des Mancuniens de 808 State à l'Index, entrepôt d'environ 500 places d'Arran Quay équipé d'un système Void, principal club techno de Dublin.",
+    "descEn": "DJ set from Manchester's 808 State at Index, the roughly 500-capacity Arran Quay warehouse with a Void system, Dublin's main techno club.",
+    "ticketUrl": "https://www.indexdublin.com/events",
+    "sources": [
+      "https://www.indexdublin.com/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Marie Davidson at The White Hotel",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Manchester",
+    "country": "UK",
+    "lat": 53.4869,
+    "lng": -2.262,
+    "date": "2026-08-20",
+    "time": "20:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "The White Hotel",
+    "trending": false,
+    "lineup": [
+      "Marie Davidson"
+    ],
+    "desc": "La Québécoise Marie Davidson au White Hotel, ancien garage de Dickinson Street à Salford transformé en salle de 300 places, connue pour sa programmation électronique et expérimentale.",
+    "descEn": "Quebec's Marie Davidson at The White Hotel, a former garage on Dickinson Street in Salford turned 300-capacity room, known for its electronic and experimental programming.",
+    "ticketUrl": "https://www.songkick.com/venues/3112574-white-hotel/calendar",
+    "sources": [
+      "https://www.songkick.com/venues/3112574-white-hotel/calendar"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "We Out Here Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Wimborne St Giles",
+    "country": "UK",
+    "lat": 50.8886,
+    "lng": -1.955,
+    "date": "2026-08-20",
+    "endDate": "2026-08-23",
+    "time": "12:00",
+    "price": 270,
+    "currency": "£",
+    "venue": "Wimborne St Giles Estate",
+    "trending": true,
+    "lineup": [
+      "Thundercat",
+      "Arthur Verocai",
+      "Gary Bartz",
+      "Mulatu Astatke",
+      "Joy Crookes",
+      "Peven Everett",
+      "Stereolab"
+    ],
+    "desc": "Festival de quatre jours dans le Dorset, dirigé par Gilles Peterson (BBC 6 Music), qui croise jazz, soul, hip-hop, house et électronique. Camping, ateliers et programmation familiale sur le domaine de Wimborne St Giles.",
+    "descEn": "Four-day Dorset festival curated by Gilles Peterson (BBC 6 Music), crossing jazz, soul, hip-hop, house and electronica. Camping, workshops and family programming on the Wimborne St Giles estate.",
+    "ticketUrl": "https://weoutherefestival.com/",
+    "sources": [
+      "https://weoutherefestival.com/",
+      "https://www.skiddle.com/festivals/we-out-here/",
+      "https://ra.co/events/2313772"
+    ],
+    "note": "Complet (sold out), revente ouverte. Prix du dernier palier annoncé, 270 £ frais inclus."
+  },
+  {
+    "title": "Field Maneuvers",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Acid Techno"
+    ],
+    "city": "Norfolk",
+    "country": "UK",
+    "lat": 52.6,
+    "lng": 0.9,
+    "date": "2026-08-21",
+    "endDate": "2026-08-23",
+    "time": "12:00",
+    "price": 160,
+    "currency": "£",
+    "venue": "Lieu tenu secret, Norfolk",
+    "trending": false,
+    "lineup": [
+      "Jana Rush",
+      "Daniel Avery",
+      "CCL",
+      "D. Tiffany",
+      "Roza Terenzi",
+      "Call Super",
+      "Neil Landstrumm",
+      "Paranoid London",
+      "Kayla Painter"
+    ],
+    "desc": "Petit festival britannique à jauge réduite, dont le lieu exact n'est communiqué aux détenteurs de billets qu'avant l'événement. L'édition 2026 étend sa scène ambient sur tout le week-end.",
+    "descEn": "Small-capacity British festival whose exact location is only revealed to ticket holders shortly before the event. The 2026 edition extends its ambient stage across the whole weekend.",
+    "ticketUrl": "https://www.fieldmaneuvers.com/",
+    "sources": [
+      "https://www.fieldmaneuvers.com/",
+      "https://djmag.com/news/field-maneuvers-2026-full-line-announced",
+      "https://crackmagazine.net/2026/03/field-maneuvers-reveals-2026-line-up/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Coordonnées approximatives : lieu secret dans le Norfolk."
+  },
+  {
+    "title": "Lost Village",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Norton Disney",
+    "country": "UK",
+    "lat": 53.12,
+    "lng": -0.669,
+    "date": "2026-08-27",
+    "endDate": "2026-08-30",
+    "time": "12:00",
+    "price": 229,
+    "currency": "£",
+    "venue": "Norton Disney, Lincolnshire",
+    "trending": true,
+    "lineup": [
+      "Overmono",
+      "Soulwax",
+      "The Avalanches",
+      "Caribou",
+      "Solomun"
+    ],
+    "desc": "Festival de 15 000 personnes installé dans une forêt du Lincolnshire, le week-end férié de fin août, réservé aux plus de 18 ans. L'affiche 2026 compte 92 artistes, dont Overmono, Soulwax, Caribou et Solomun.",
+    "descEn": "15,000-capacity festival set in a Lincolnshire forest over the late August bank holiday, strictly 18+. The 2026 bill runs to 92 artists, including Overmono, Soulwax, Caribou and Solomun.",
+    "ticketUrl": "https://lostvillagefestival.com/",
+    "sources": [
+      "https://lostvillagefestival.com/",
+      "https://www.efestivals.co.uk/festivals/lostvillage/2026"
+    ],
+    "note": "Complet (sold out), revente officielle ouverte. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Forwards Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Bristol",
+    "country": "UK",
+    "lat": 51.4664,
+    "lng": -2.6216,
+    "date": "2026-08-29",
+    "endDate": "2026-08-30",
+    "time": "12:00",
+    "price": 79,
+    "currency": "£",
+    "venue": "Clifton Downs",
+    "trending": true,
+    "lineup": [
+      "Tems",
+      "Wet Leg",
+      "Dijon",
+      "Little Simz",
+      "Self Esteem",
+      "Maribou State",
+      "Goldie",
+      "Tricky",
+      "Oklou",
+      "Crazy P"
+    ],
+    "desc": "Cinquième édition du festival urbain bristolien sur les pelouses de Clifton Downs, le week-end férié de fin août. Programmation transversale où l'électronique côtoie le rap et le rock, avec Maribou State, Goldie et Crazy P.",
+    "descEn": "Fifth edition of Bristol's inner-city festival on the grass of Clifton Downs, over the late August bank holiday weekend. A cross-genre bill where electronic music sits alongside rap and rock, with Maribou State, Goldie and Crazy P.",
+    "ticketUrl": "https://www.forwardsbristol.co.uk/",
+    "sources": [
+      "https://www.forwardsbristol.co.uk/",
+      "https://365bristol.com/event/forwards-festival-bristol-2026",
+      "https://www.efestivals.co.uk/festivals/forwards/2026"
+    ],
+    "note": "Tarif indicatif, non vérifié (billet journée)."
+  },
+  {
+    "title": "Emerge Festival",
+    "type": "Festival",
+    "genres": [
+      "Hard Techno",
+      "Techno",
+      "House"
+    ],
+    "city": "Belfast",
+    "country": "UK",
+    "lat": 54.573,
+    "lng": -5.956,
+    "date": "2026-08-29",
+    "endDate": "2026-08-30",
+    "time": "13:00",
+    "price": 55,
+    "currency": "£",
+    "venue": "Boucher Road Playing Fields",
+    "trending": true,
+    "lineup": [
+      "Hannah Laing"
+    ],
+    "desc": "Festival en plein air du promoteur belfastois Shine sur les terrains de Boucher Road, le week-end férié d'août. Le samedi est confié à Hannah Laing et son projet doof, le dimanche au collectif blk. Une afterparty se tient au Telegraph Building.",
+    "descEn": "Open-air festival from Belfast promoter Shine on the Boucher Road playing fields over the August bank holiday. Saturday is given to Hannah Laing's doof project, Sunday to the blk. collective. An afterparty follows at The Telegraph Building.",
+    "ticketUrl": "https://shine.tickets/events/list",
+    "sources": [
+      "https://shine.tickets/events/list",
+      "https://www.shine.net/club-events"
+    ],
+    "note": "Tarif indicatif, non vérifié (billet journée). Afterparty blk. au Telegraph Building le 30 août, 30 £."
+  },
+  {
+    "title": "FOLD presents Bassiani (Extended)",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.518,
+    "lng": 0.004,
+    "date": "2026-09-05",
+    "time": "23:59",
+    "price": 30,
+    "currency": "£",
+    "venue": "FOLD",
+    "trending": true,
+    "lineup": [],
+    "desc": "Quinze heures sur deux salles au FOLD, en association avec Bassiani, le club techno de Tbilissi installé sous le stade Dinamo Arena. Programmation annoncée ultérieurement.",
+    "descEn": "Fifteen hours across two rooms at FOLD, in partnership with Bassiani, the Tbilisi techno club housed beneath the Dinamo Arena. Line-up announced closer to the date.",
+    "ticketUrl": "https://www.fold.london/tickets",
+    "sources": [
+      "https://www.fold.london/tickets"
+    ],
+    "note": "Programmation non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "FLY Open Air Edinburgh",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Edinburgh",
+    "country": "UK",
+    "lat": 55.9502,
+    "lng": -3.199,
+    "date": "2026-09-12",
+    "endDate": "2026-09-13",
+    "time": "13:00",
+    "price": 65,
+    "currency": "£",
+    "venue": "Ross Bandstand, Princes Street Gardens",
+    "trending": true,
+    "lineup": [
+      "Franky Rizardo",
+      "Sammy Virji"
+    ],
+    "desc": "Deux jours en plein air au Ross Bandstand, dans les jardins de Princes Street au pied du château d'Édimbourg. Ouverture à 13h, dernière entrée à 16h, réservé aux plus de 18 ans.",
+    "descEn": "Two open-air days at the Ross Bandstand in Princes Street Gardens, below Edinburgh Castle. Doors at 1pm, last entry 4pm, strictly 18+.",
+    "ticketUrl": "https://www.flyflyfly.co.uk/",
+    "sources": [
+      "https://www.flyflyfly.co.uk/",
+      "https://dice.fm/event/v3nbgg-fly-festival-edinburgh-2026-12th-sep-the-ross-bandstand-edinburgh-tickets",
+      "https://www.skiddle.com/festivals/fly-open-air-princes-street-gardens/"
+    ],
+    "note": "Tarif indicatif, non vérifié (billet journée)."
+  },
+  {
+    "title": "Waterworks Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.5065,
+    "lng": 0.027,
+    "date": "2026-09-12",
+    "endDate": "2026-09-13",
+    "time": "12:00",
+    "price": 85,
+    "currency": "£",
+    "venue": "The Cause",
+    "trending": true,
+    "lineup": [
+      "Daniel Avery",
+      "Midland",
+      "Leon Vynehall",
+      "Modeselektor",
+      "Eris Drew",
+      "Sofia Kourtesis",
+      "Octo Octa",
+      "Skee Mask",
+      "Erol Alkan",
+      "Bradley Zero",
+      "Anz",
+      "Tim Reaper"
+    ],
+    "desc": "Première édition sur deux jours du festival londonien, 36 heures de musique sur sept espaces. Faute d'autorisation d'exploitation à Gunnersbury Park en 2026, l'événement se replie sur The Cause, à Dock Road dans les Royal Docks.",
+    "descEn": "The London festival's first two-day edition, 36 hours of music across seven spaces. With Gunnersbury Park not licensed for its usual programme in 2026, the event moves to The Cause on Dock Road in the Royal Docks.",
+    "ticketUrl": "https://waterworksfestival.co.uk/",
+    "sources": [
+      "https://waterworksfestival.co.uk/",
+      "https://ra.co/news/84621",
+      "https://electronicgroove.com/waterworks-festival-unveils-full-2026-lineup-and-two-day-expansion/"
+    ],
+    "note": "Changement de lieu confirmé par les organisateurs. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Todd Terje at Concorde 2",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Brighton",
+    "country": "UK",
+    "lat": 50.818,
+    "lng": -0.129,
+    "date": "2026-09-12",
+    "time": "22:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "Concorde 2",
+    "trending": false,
+    "lineup": [
+      "Todd Terje"
+    ],
+    "desc": "Le Norvégien Todd Terje, producteur de « Inspector Norse », au Concorde 2 de Brighton, sur le front de mer de Madeira Drive.",
+    "descEn": "Norwegian producer Todd Terje, of 'Inspector Norse' fame, at Brighton's Concorde 2 on the Madeira Drive seafront.",
+    "ticketUrl": "https://www.concorde2.co.uk/",
+    "sources": [
+      "https://www.songkick.com/venues/7325-concorde-2/calendar"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "AVA London",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.5299,
+    "lng": -0.1276,
+    "date": "2026-09-24",
+    "endDate": "2026-09-26",
+    "time": "10:00",
+    "price": 151,
+    "currency": "£",
+    "venue": "The British Library",
+    "trending": true,
+    "lineup": [
+      "Moby",
+      "Richie Hawtin",
+      "Oklou",
+      "The Avalanches"
+    ],
+    "desc": "Déclinaison londonienne du festival-conférence nord-irlandais AVA : trois jours de conférences à la British Library, doublés de showcases en club et de shows audiovisuels dans d'autres salles de la ville.",
+    "descEn": "London edition of the Northern Irish festival-conference AVA: three days of talks at the British Library, paired with club showcases and audiovisual shows at other venues around the city.",
+    "ticketUrl": "https://avafestival.com/london/",
+    "sources": [
+      "https://avafestival.com/london/",
+      "https://avafestival.com/"
+    ],
+    "note": "Prix = Early Bird Pro Pass (151 £) valable jusqu'au 1er août 2026."
+  },
+  {
+    "title": "FLY House Heads Glasgow",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "UK",
+    "lat": 55.8635,
+    "lng": -4.2915,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 25,
+    "currency": "£",
+    "venue": "SWG3 Galvanizers",
+    "trending": false,
+    "lineup": [
+      "Luuk Van Dijk",
+      "Robbie Doherty",
+      "Prunk",
+      "Hannah Doc"
+    ],
+    "desc": "Nuit house du promoteur FLY dans la salle Galvanizers du SWG3, de 23h à la fermeture. Réservé aux plus de 18 ans.",
+    "descEn": "House night from promoter FLY in SWG3's Galvanizers room, from 11pm until close. Strictly 18+.",
+    "ticketUrl": "https://swg3.tv/events/",
+    "sources": [
+      "https://swg3.tv/events/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Shine: Nick Warren",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Belfast",
+    "country": "UK",
+    "lat": 54.593,
+    "lng": -5.933,
+    "date": "2026-10-02",
+    "time": "22:00",
+    "price": 16,
+    "currency": "£",
+    "venue": "The Limelight",
+    "trending": false,
+    "lineup": [
+      "Nick Warren",
+      "Simon"
+    ],
+    "desc": "Soirée de la série Shine au Limelight d'Ormeau Avenue, avec le Britannique Nick Warren, cofondateur de Way Out West, en tête d'affiche. Réservé aux plus de 18 ans.",
+    "descEn": "Shine club night at the Limelight on Ormeau Avenue, headlined by Britain's Nick Warren, co-founder of Way Out West. Strictly 18+.",
+    "ticketUrl": "https://shine.tickets/events/list",
+    "sources": [
+      "https://shine.tickets/events/list"
+    ],
+    "note": "Prix affiché hors frais de réservation (16 £ + 1,50 £)."
+  },
+  {
+    "title": "Teletech Leeds: Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Hardstyle",
+      "Techno"
+    ],
+    "city": "Leeds",
+    "country": "UK",
+    "lat": 53.7995,
+    "lng": -1.5525,
+    "date": "2026-10-03",
+    "time": "22:00",
+    "price": 25,
+    "currency": "£",
+    "venue": "The Warehouse",
+    "trending": false,
+    "lineup": [],
+    "desc": "Retour du promoteur mancunien Teletech au Warehouse de Leeds, club historique de Somers Street, pour une nuit hard house, bounce et hard techno.",
+    "descEn": "Manchester promoter Teletech returns to The Warehouse in Leeds, the long-running Somers Street club, for a night of hard house, bounce and hard techno.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events",
+      "https://www.skiddle.com/g/teletech/"
+    ],
+    "note": "Programmation détaillée non annoncée."
+  },
+  {
+    "title": "Teletech Liverpool",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Liverpool",
+    "country": "UK",
+    "lat": 53.4013,
+    "lng": -2.9797,
+    "date": "2026-10-09",
+    "time": "22:00",
+    "price": 10,
+    "currency": "£",
+    "venue": "Arts Club",
+    "trending": false,
+    "lineup": [],
+    "desc": "Date liverpuldienne du circuit Teletech, à l'Arts Club de Seel Street, dans le quartier de Ropewalks. Soirée hard techno.",
+    "descEn": "Liverpool date on the Teletech circuit, at the Arts Club on Seel Street in the Ropewalks quarter. A hard techno night.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée."
+  },
+  {
+    "title": "No Bounds Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Sheffield",
+    "country": "UK",
+    "lat": 53.3811,
+    "lng": -1.4701,
+    "date": "2026-10-09",
+    "endDate": "2026-10-11",
+    "time": "18:00",
+    "price": 75,
+    "currency": "£",
+    "venue": "Dix lieux à Sheffield et Rotherham",
+    "trending": false,
+    "lineup": [
+      "Mala",
+      "Max Cooper",
+      "KAVARI",
+      "gyrofield"
+    ],
+    "desc": "Festival nomade réparti sur une dizaine de lieux entre Sheffield et Rotherham, mêlant soirées en entrepôt, performances live, expositions et conférences. Édition qui précède les dix ans du festival en 2027.",
+    "descEn": "Nomadic festival spread across around ten venues between Sheffield and Rotherham, mixing warehouse parties, live performances, exhibitions and talks. The edition before the festival's tenth birthday in 2027.",
+    "ticketUrl": "https://noboundsfestival.co.uk/",
+    "sources": [
+      "https://noboundsfestival.co.uk/",
+      "https://hope-works.co.uk/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Index: Lane 8",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.3468,
+    "lng": -6.276,
+    "date": "2026-10-16",
+    "time": "18:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Index",
+    "trending": false,
+    "lineup": [
+      "Lane 8"
+    ],
+    "desc": "Set de l'Américain Lane 8, fondateur du label This Never Happened, à l'Index d'Arran Quay. Ouverture des portes à 18h.",
+    "descEn": "Set from American producer Lane 8, founder of the This Never Happened label, at Index on Arran Quay. Doors at 6pm.",
+    "ticketUrl": "https://www.indexdublin.com/events",
+    "sources": [
+      "https://www.indexdublin.com/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Teletech Glasgow",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "UK",
+    "lat": 55.8544,
+    "lng": -4.2543,
+    "date": "2026-10-24",
+    "time": "22:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "Room 2",
+    "trending": false,
+    "lineup": [],
+    "desc": "Escale glaswégienne du circuit hard techno Teletech, au Room 2, club de Carlton Court en bord de Clyde.",
+    "descEn": "Glasgow stop on the Teletech hard techno circuit, at Room 2, the Carlton Court club beside the Clyde.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Nathan Fake (live) at The White Hotel",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Manchester",
+    "country": "UK",
+    "lat": 53.4869,
+    "lng": -2.262,
+    "date": "2026-10-29",
+    "time": "20:00",
+    "price": 18,
+    "currency": "£",
+    "venue": "The White Hotel",
+    "trending": false,
+    "lineup": [
+      "Nathan Fake"
+    ],
+    "desc": "Concert live du producteur britannique Nathan Fake au White Hotel, salle de 300 places de Dickinson Street, à Salford.",
+    "descEn": "Live show from British producer Nathan Fake at The White Hotel, the 300-capacity Dickinson Street room in Salford.",
+    "ticketUrl": "https://www.songkick.com/venues/3112574-white-hotel/calendar",
+    "sources": [
+      "https://www.songkick.com/venues/3112574-white-hotel/calendar"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Elrow Horroween",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.613,
+    "lng": -0.062,
+    "date": "2026-10-31",
+    "time": "18:00",
+    "price": 45,
+    "currency": "£",
+    "venue": "Drumsheds",
+    "trending": true,
+    "lineup": [],
+    "desc": "Édition londonienne d'Horroween, la fête d'Halloween du collectif barcelonais Elrow, aux Drumsheds : décors, personnages costumés et confettis sur toute la nuit.",
+    "descEn": "London edition of Horroween, the Halloween party from Barcelona collective Elrow, at Drumsheds: sets, costumed performers and confetti through the night.",
+    "ticketUrl": "https://www.drumsheds.com/",
+    "sources": [
+      "https://www.songkick.com/venues/4348032-drumsheds/calendar"
+    ],
+    "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "SYNRG: Francesco Del Garda & DJ Masda",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "UK",
+    "lat": 55.8635,
+    "lng": -4.2915,
+    "date": "2026-11-13",
+    "time": "23:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "SWG3 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Francesco Del Garda",
+      "DJ Masda"
+    ],
+    "desc": "Nuit longue de la série SYNRG dans la salle Warehouse du SWG3, avec l'Italien Francesco Del Garda et le Japonais DJ Masda. Réservé aux plus de 18 ans.",
+    "descEn": "Long night from the SYNRG series in SWG3's Warehouse room, with Italy's Francesco Del Garda and Japan's DJ Masda. Strictly 18+.",
+    "ticketUrl": "https://swg3.tv/events/",
+    "sources": [
+      "https://swg3.tv/events/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Teletech Newcastle",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Newcastle",
+    "country": "UK",
+    "lat": 54.974,
+    "lng": -1.609,
+    "date": "2026-11-14",
+    "time": "22:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "World Headquarters",
+    "trending": false,
+    "lineup": [],
+    "desc": "Première date de Teletech à Newcastle, au World Headquarters de Carliol Square, club indépendant ouvert depuis 1993.",
+    "descEn": "Teletech's Newcastle date at World Headquarters on Carliol Square, the independent club running since 1993.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Armin van Buuren at Drumsheds",
+    "type": "Warehouse",
+    "genres": [
+      "Trance",
+      "EDM"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.613,
+    "lng": -0.062,
+    "date": "2026-11-14",
+    "time": "19:00",
+    "price": 45,
+    "currency": "£",
+    "venue": "Drumsheds",
+    "trending": true,
+    "lineup": [
+      "Armin van Buuren"
+    ],
+    "desc": "Le Néerlandais Armin van Buuren en tête d'affiche aux Drumsheds de Tottenham, pour une soirée trance dans l'ancien entrepôt IKEA de Glover Drive.",
+    "descEn": "Dutch trance figurehead Armin van Buuren headlines Drumsheds in Tottenham, in the former IKEA warehouse on Glover Drive.",
+    "ticketUrl": "https://www.drumsheds.com/",
+    "sources": [
+      "https://www.songkick.com/venues/4348032-drumsheds/calendar"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Duke Dumont at The Telegraph Building",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Belfast",
+    "country": "UK",
+    "lat": 54.599,
+    "lng": -5.9265,
+    "date": "2026-11-20",
+    "time": "21:00",
+    "price": 33,
+    "currency": "£",
+    "venue": "The Telegraph Building",
+    "trending": true,
+    "lineup": [
+      "Duke Dumont"
+    ],
+    "desc": "Le Britannique Duke Dumont au Telegraph Building, ancienne imprimerie du Belfast Telegraph reconvertie en salle dans le Cathedral Quarter. Soirée programmée par Shine.",
+    "descEn": "Britain's Duke Dumont at The Telegraph Building, the former Belfast Telegraph print works turned venue in the Cathedral Quarter. Programmed by Shine.",
+    "ticketUrl": "https://shine.tickets/events/list",
+    "sources": [
+      "https://shine.tickets/events/list"
+    ],
+    "note": "Complet (sold out). Prix affiché hors frais (33 £ + 3 £)."
+  },
+  {
+    "title": "Teletech Bristol",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Bristol",
+    "country": "UK",
+    "lat": 51.4508,
+    "lng": -2.5698,
+    "date": "2026-11-27",
+    "time": "22:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "The Prospect Building",
+    "trending": false,
+    "lineup": [],
+    "desc": "Nuit hard techno de Teletech au Prospect Building, entrepôt reconverti de Feeder Road, dans la zone industrielle de St Philips à Bristol.",
+    "descEn": "Teletech hard techno night at The Prospect Building, a converted warehouse on Feeder Road in Bristol's St Philips industrial estate.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée."
+  },
+  {
+    "title": "Shine: Dusky",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Belfast",
+    "country": "UK",
+    "lat": 54.6002,
+    "lng": -5.927,
+    "date": "2026-12-04",
+    "time": "22:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "Ulster Sports Club",
+    "trending": false,
+    "lineup": [
+      "Dusky"
+    ],
+    "desc": "Le duo londonien Dusky à l'Ulster Sports Club de High Street, salle rouverte en 2022 dans le centre de Belfast. Soirée de la série Shine, réservée aux plus de 18 ans.",
+    "descEn": "London duo Dusky at the Ulster Sports Club on High Street, the central Belfast venue reopened in 2022. A Shine club night, strictly 18+.",
+    "ticketUrl": "https://shine.tickets/events/list",
+    "sources": [
+      "https://shine.tickets/events/list"
+    ],
+    "note": "Prix affiché hors frais de réservation (20 £ + 2 £)."
+  },
+  {
+    "title": "Teletech Belfast",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Belfast",
+    "country": "UK",
+    "lat": 54.599,
+    "lng": -5.9265,
+    "date": "2026-12-26",
+    "time": "22:00",
+    "price": 25,
+    "currency": "£",
+    "venue": "The Telegraph Building",
+    "trending": false,
+    "lineup": [],
+    "desc": "Soirée du lendemain de Noël au Telegraph Building, l'ancienne imprimerie du Belfast Telegraph reconvertie en salle de concert dans le Cathedral Quarter.",
+    "descEn": "Boxing Day night at The Telegraph Building, the former Belfast Telegraph print works turned music venue in the Cathedral Quarter.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Teletech Cardiff",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Cardiff",
+    "country": "UK",
+    "lat": 51.4693,
+    "lng": -3.1668,
+    "date": "2027-03-12",
+    "time": "22:00",
+    "price": 20,
+    "currency": "£",
+    "venue": "The Vaults",
+    "trending": false,
+    "lineup": [],
+    "desc": "Date galloise du circuit Teletech, aux Vaults de Bute Street : un club installé dans les sous-sols d'une ancienne banque classée du quartier de Butetown.",
+    "descEn": "Welsh date on the Teletech circuit, at The Vaults on Bute Street: a club in the basement of a listed former bank in Butetown.",
+    "ticketUrl": "https://www.teletech.events/events",
+    "sources": [
+      "https://www.teletech.events/events"
+    ],
+    "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Gottwood Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Anglesey",
+    "country": "UK",
+    "lat": 53.3436,
+    "lng": -4.5306,
+    "date": "2027-06-10",
+    "endDate": "2027-06-13",
+    "time": "12:00",
+    "price": 195,
+    "currency": "£",
+    "venue": "Carreglwyd Estate",
+    "trending": false,
+    "lineup": [],
+    "desc": "Festival de musique électronique et d'arts à jauge limitée, installé dans les bois et autour du lac du domaine de Carreglwyd, sur l'île d'Anglesey au nord du pays de Galles. Les billets early bird de l'édition 2027 sont déjà épuisés.",
+    "descEn": "Small-capacity electronic music and arts festival set in the woodland and around the lake of the Carreglwyd Estate on Anglesey, north Wales. Early bird tickets for the 2027 edition have already sold out.",
+    "ticketUrl": "https://www.gottwood.co.uk/",
+    "sources": [
+      "https://www.gottwood.co.uk/",
+      "https://www.skiddle.com/festivals/gottwood/"
+    ],
+    "note": "Programmation 2027 non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Parklife",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Manchester",
+    "country": "UK",
+    "lat": 53.535,
+    "lng": -2.246,
+    "date": "2027-07-10",
+    "endDate": "2027-07-11",
+    "time": "12:00",
+    "price": 150,
+    "currency": "£",
+    "venue": "Heaton Park",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le plus gros festival urbain britannique, sur deux jours à Heaton Park, au nord de Manchester : 16 scènes, accès réservé aux plus de 17 ans. Les billets early bird 2027 sont déjà en vente.",
+    "descEn": "Britain's biggest metropolitan festival, two days in Heaton Park north of Manchester: 16 stages, 17+ only. Early bird tickets for 2027 are already on sale.",
+    "ticketUrl": "https://parklife.uk.com/pl27-tickets/",
+    "sources": [
+      "https://parklife.uk.com/pl27-tickets/",
+      "https://parklife.uk.com/information/"
+    ],
+    "note": "Programmation 2027 non annoncée. Tarif indicatif, non vérifié."
+  }
+]

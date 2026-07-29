@@ -1,0 +1,949 @@
+[
+  {
+    "title": "Flow Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "EDM"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1878,
+    "lng": 24.9789,
+    "date": "2026-08-14",
+    "endDate": "2026-08-16",
+    "time": "14:00",
+    "price": 270,
+    "currency": "EUR",
+    "venue": "Suvilahti",
+    "trending": true,
+    "lineup": [
+      "Disclosure",
+      "Honey Dijon",
+      "Kettama",
+      "Oklou",
+      "Florence + The Machine",
+      "Nick Cave & The Bad Seeds",
+      "Zara Larsson"
+    ],
+    "desc": "Festival urbain installe depuis 2004 dans l'ancienne centrale electrique de Suvilahti, a Helsinki, qui reunit environ 90 000 personnes sur trois jours. La programmation melange pop, indie et un volet club consequent (Disclosure en DJ set, Honey Dijon, Kettama). Reserve aux 18 ans et plus.",
+    "descEn": "Urban festival held since 2004 at the disused Suvilahti power plant in Helsinki, drawing around 90,000 people over three days. The bill mixes pop and indie with a substantial club strand (Disclosure DJ set, Honey Dijon, Kettama). Strictly 18+.",
+    "ticketUrl": "https://www.flowfestival.com/en/tickets/",
+    "sources": [
+      "https://www.flowfestival.com/en/",
+      "https://www.thefader.com/2025/12/02/flow-festival-helsinki-2026-lineup-tickets-dates",
+      "https://www.songkick.com/festivals/2826-flow/id/42916380-flow-festival-2026"
+    ],
+    "note": "Dates 14-16.8.2026 confirmees sur le site officiel. Tarif indicatif, non verifie (pass 3 jours)."
+  },
+  {
+    "title": "Way Out West 2026",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Göteborg",
+    "country": "Sweden",
+    "lat": 57.6857,
+    "lng": 11.9457,
+    "date": "2026-08-13",
+    "endDate": "2026-08-15",
+    "time": "12:00",
+    "price": 310,
+    "currency": "EUR",
+    "venue": "Slottsskogen",
+    "trending": true,
+    "lineup": [
+      "Four Tet",
+      "Honey Dijon",
+      "Ben UFO",
+      "Saoirse b2b Leon Vynehall",
+      "DJ Gigola",
+      "Kettama",
+      "Peder Mannerfelt",
+      "DJ Boring",
+      "Main Phase",
+      "Anish Kumar",
+      "HiTech"
+    ],
+    "desc": "Festival gothembourgeois cree en 2007, installe dans le parc de Slottsskogen, avec un volet electronique dense et le prolongement nocturne « Stay Out West » dans les salles du centre-ville. Four Tet, Honey Dijon et Ben UFO figurent a l'affiche 2026.",
+    "descEn": "Gothenburg festival founded in 2007 and staged in Slottsskogen park, with a dense electronic strand and the after-hours \"Stay Out West\" programme in city-centre venues. Four Tet, Honey Dijon and Ben UFO are on the 2026 bill.",
+    "ticketUrl": "https://www.wayoutwest.se/en/tickets/",
+    "sources": [
+      "https://www.wayoutwest.se/line-up/",
+      "https://www.wayoutwest.se/en/tickets/",
+      "https://www.songkick.com/festivals/44-way-out-west/id/42737805-way-out-west-festival-2026"
+    ],
+    "note": "Pass 3 jours 3 495 SEK (environ 310 EUR), tarif officiel releve sur wayoutwest.se ; pass 1 jour 1 895 SEK."
+  },
+  {
+    "title": "Weekend Festival Finland 2026",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House",
+      "Techno",
+      "Hardstyle"
+    ],
+    "city": "Espoo",
+    "country": "Finland",
+    "lat": 60.217,
+    "lng": 24.814,
+    "date": "2026-07-31",
+    "endDate": "2026-08-01",
+    "time": "15:00",
+    "price": 160,
+    "currency": "EUR",
+    "venue": "Vermo Arena",
+    "trending": false,
+    "lineup": [],
+    "desc": "Grand festival de musique electronique finlandais organise sur l'hippodrome de Vermo, a Espoo, en banlieue d'Helsinki. Le site ouvre de 15 h a minuit les deux jours ; entree reservee aux 18 ans et plus.",
+    "descEn": "Large Finnish electronic-music festival staged at Vermo racecourse in Espoo, on the edge of Helsinki. The site is open from 3pm to midnight on both days; entry is strictly 18+.",
+    "ticketUrl": "https://www.wknd.fi/en/tickets/",
+    "sources": [
+      "https://www.wknd.fi/en/info-2/",
+      "https://www.lippu.fi/event/weekend-festival-2026-vermon-ravirata-20514133/"
+    ],
+    "note": "Dates et horaires confirmes sur wknd.fi. Tarif indicatif, non verifie (pass 2 jours). Line-up non recoupee sur source officielle."
+  },
+  {
+    "title": "Insomnia Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tromsø",
+    "country": "Norway",
+    "lat": 69.6492,
+    "lng": 18.9553,
+    "date": "2026-10-14",
+    "endDate": "2026-10-17",
+    "time": "18:00",
+    "price": 110,
+    "currency": "EUR",
+    "venue": "Verdensteatret / Kulturhuset",
+    "trending": false,
+    "lineup": [],
+    "desc": "Principal festival norvegien de musique electronique, organise a Tromsø au-dela du cercle polaire depuis 2002. L'edition 2026, la 25e, se tient du 14 au 17 octobre et associe concerts, nuits club, seminaires et installations dans plusieurs lieux de la ville.",
+    "descEn": "Norway's leading electronic-music festival, held in Tromsø above the Arctic Circle since 2002. The 2026 edition, its 25th, runs 14-17 October and combines concerts, club nights, seminars and installations across several venues in town.",
+    "ticketUrl": "https://insomniafestival.no/tickets/",
+    "sources": [
+      "https://insomniafestival.no/",
+      "https://insomniafestival.no/about/",
+      "https://en.wikipedia.org/wiki/Insomnia_Festival"
+    ],
+    "note": "Dates 14-17 octobre 2026 confirmees sur insomniafestival.no. Tarif indicatif, non verifie (pass festival, environ 1 300 NOK). Line-up 2026 pas encore publiee."
+  },
+  {
+    "title": "Iceland Airwaves 2026",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "EDM"
+    ],
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "lat": 64.1466,
+    "lng": -21.9426,
+    "date": "2026-11-05",
+    "endDate": "2026-11-07",
+    "time": "18:00",
+    "price": 72,
+    "currency": "EUR",
+    "venue": "Salles du centre de Reykjavík",
+    "trending": false,
+    "lineup": [
+      "Shygirl",
+      "The Streets",
+      "Daði Freyr",
+      "Heartworms",
+      "Jamie Woon"
+    ],
+    "desc": "Festival de decouverte islandais fonde en 1999, reparti dans les salles du centre de Reykjavík du 5 au 7 novembre 2026, avec des soirees speciales les 4 et 8. La programmation melange scene locale et invites internationaux, dont Shygirl et The Streets.",
+    "descEn": "Icelandic discovery festival founded in 1999, spread across venues in downtown Reykjavík from 5 to 7 November 2026, with special shows on the 4th and 8th. The bill mixes the local scene with international guests including Shygirl and The Streets.",
+    "ticketUrl": "https://icelandairwaves.is/tickets/",
+    "sources": [
+      "https://www.brooklynvegan.com/iceland-airwaves-announce-initial-2026-lineup/",
+      "https://tix.is/en/event/20516/iceland-airwaves-2026",
+      "https://thetraveladdict.com/news/iceland-airwaves-announces-artists-for-november-2026/"
+    ],
+    "note": "Pass early bird annonce a partir de 10 900 ISK (environ 72 EUR). Tarif indicatif, non verifie a la hausse selon les paliers."
+  },
+  {
+    "title": "Culture Box : Timo Maas",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6853,
+    "lng": 12.5836,
+    "date": "2026-08-22",
+    "time": "22:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Culture Box",
+    "trending": false,
+    "lineup": [
+      "Timo Maas",
+      "Ryan Dank",
+      "Baltza",
+      "Karina Lin",
+      "Asli"
+    ],
+    "desc": "Nuit techno au Culture Box, club de reference de la scene electronique danoise ouvert en 2005 rue Kronprinsessegade. Timo Maas tient le Black Box, Karina Lin et Asli la petite salle Red Box ; ouverture 22 h, fermeture 8 h.",
+    "descEn": "Techno night at Culture Box, the reference club of the Danish electronic scene, open since 2005 on Kronprinsessegade. Timo Maas takes the Black Box while Karina Lin and Asli hold the smaller Red Box; doors 10pm, close 8am.",
+    "ticketUrl": "https://culture-box.com/",
+    "sources": [
+      "https://culture-box.com/",
+      "https://ra.co/clubs/3611"
+    ],
+    "note": "Entree 150 DKK jusqu'a 6 h puis 100 DKK (environ 20 EUR), tarif affiche sur culture-box.com."
+  },
+  {
+    "title": "Elevate Bass Rave : Taxman",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6853,
+    "lng": 12.5836,
+    "date": "2026-08-28",
+    "time": "22:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Culture Box",
+    "trending": false,
+    "lineup": [
+      "Taxman",
+      "Dwonji",
+      "Bobby 6 Killa",
+      "HDN",
+      "DJ Breakfast",
+      "Maxi Mo",
+      "D-Trich",
+      "Halvmåne",
+      "Delff"
+    ],
+    "desc": "Soiree drum & bass sur les deux salles du Culture Box, avec le producteur britannique Taxman en tete d'affiche du Black Box et le collectif Elevate qui programme la Red Box. De 22 h a 8 h.",
+    "descEn": "Drum & bass night across both rooms at Culture Box, with British producer Taxman headlining the Black Box and the Elevate collective programming the Red Box. Runs 10pm to 8am.",
+    "ticketUrl": "https://culture-box.com/",
+    "sources": [
+      "https://culture-box.com/",
+      "https://ra.co/clubs/3611"
+    ],
+    "note": "Entree 150 DKK jusqu'a 6 h puis 100 DKK (environ 20 EUR), tarif affiche sur culture-box.com."
+  },
+  {
+    "title": "Peccāvī : Alex Stein",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6853,
+    "lng": 12.5836,
+    "date": "2026-09-26",
+    "time": "22:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Culture Box",
+    "trending": false,
+    "lineup": [
+      "Alex Stein",
+      "Aja Gulris",
+      "Skarn",
+      "Cerj",
+      "DJ Farkas",
+      "Rós",
+      "Azadî",
+      "Deril"
+    ],
+    "desc": "Nuit techno du collectif Peccāvī au Culture Box, avec le Bresilien Alex Stein en Black Box et le crew Lactic Acid en Red Box. Ouverture 22 h, fermeture 8 h.",
+    "descEn": "Techno night by the Peccāvī collective at Culture Box, with Brazilian DJ Alex Stein in the Black Box and the Lactic Acid crew in the Red Box. Doors 10pm, close 8am.",
+    "ticketUrl": "https://culture-box.com/",
+    "sources": [
+      "https://culture-box.com/",
+      "https://ra.co/clubs/3611"
+    ],
+    "note": "Entree 150 DKK jusqu'a 6 h puis 100 DKK (environ 20 EUR), tarif affiche sur culture-box.com."
+  },
+  {
+    "title": "Culture Box : Xinobi",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6853,
+    "lng": 12.5836,
+    "date": "2026-10-23",
+    "time": "22:00",
+    "price": 21,
+    "currency": "EUR",
+    "venue": "Culture Box",
+    "trending": false,
+    "lineup": [
+      "Xinobi",
+      "Bow Miller",
+      "Anders HP",
+      "Max Finney",
+      "Qwenty",
+      "Roussakis"
+    ],
+    "desc": "Le producteur portugais Xinobi (label Discotexas) prend le Black Box du Culture Box, tandis que le crew Rhythm Vault occupe la Red Box. Nuit de 22 h a 8 h, dans le club de Kronprinsessegade.",
+    "descEn": "Portuguese producer Xinobi (Discotexas label) takes the Black Box at Culture Box while the Rhythm Vault crew hold the Red Box. The night runs 10pm to 8am at the Kronprinsessegade club.",
+    "ticketUrl": "https://culture-box.com/",
+    "sources": [
+      "https://culture-box.com/",
+      "https://ra.co/clubs/3611"
+    ],
+    "note": "Entree 160 DKK jusqu'a 6 h puis 100 DKK (environ 21 EUR), tarif affiche sur culture-box.com."
+  },
+  {
+    "title": "Frædag x Hubbas Klubb : Gerd Janson",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "lng": 10.7423,
+    "date": "2026-08-28",
+    "time": "22:00",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Jaeger",
+    "trending": false,
+    "lineup": [
+      "Gerd Janson",
+      "g-HA & Olanskii",
+      "Hubbabubbaklubb DJs",
+      "Von August"
+    ],
+    "desc": "Edition du Frædag, la soiree hebdomadaire du Jaeger a Oslo, en association avec Hubbas Klubb. Portes a 22 h dans le Sauna, Gerd Janson (Running Back) joue a partir de 1 h 15, Von August donne un live de sortie d'album au Basement des minuit. Reserve aux 20 ans et plus.",
+    "descEn": "An edition of Frædag, Jaeger Oslo's weekly party, in partnership with Hubbas Klubb. Doors 10pm in the Sauna, Gerd Janson (Running Back) on from 1.15am, and Von August playing a live album launch in the Basement from midnight. Strictly 20+.",
+    "ticketUrl": "https://jaegeroslo.no/events/friday-fraedag-x-hubbas-klubb-gerd-janson-2/",
+    "sources": [
+      "https://jaegeroslo.no/events/friday-fraedag-x-hubbas-klubb-gerd-janson-2/",
+      "https://jaegeroslo.no/events/"
+    ],
+    "note": "Tarif indicatif, non verifie (billets vendus via Tickster ; les samedis comparables au Jaeger sont a 180 NOK)."
+  },
+  {
+    "title": "Frædag : Tony Humphries",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "lng": 10.7423,
+    "date": "2026-09-25",
+    "time": "22:00",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Jaeger",
+    "trending": false,
+    "lineup": [
+      "Tony Humphries",
+      "g-HA & Olanskii",
+      "Finnebassen"
+    ],
+    "desc": "Le pionnier new-yorkais de la house Tony Humphries, ancien resident du Zanzibar, est invite au Frædag du Jaeger, sur les scenes Gården et Diskon. Reserve aux 20 ans et plus.",
+    "descEn": "New York house pioneer Tony Humphries, the former Zanzibar resident, guests at Jaeger's Frædag across the Gården and Diskon rooms. Strictly 20+.",
+    "ticketUrl": "https://jaegeroslo.no/events/",
+    "sources": [
+      "https://jaegeroslo.no/events/",
+      "https://www.tickster.com/no/en/events/by/d0k2baf546fwaxu/jaeger"
+    ],
+    "note": "Tarif indicatif, non verifie (billets vendus via Tickster)."
+  },
+  {
+    "title": "Frædag : Elli Acula",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "lng": 10.7423,
+    "date": "2026-09-18",
+    "time": "22:00",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Jaeger",
+    "trending": false,
+    "lineup": [
+      "Elli Acula",
+      "Olanskii",
+      "g-HA"
+    ],
+    "desc": "Nuit techno au Jaeger avec la Berlinoise Elli Acula (label Bassiani / Herrensauna), Olanskii en set « tekno » et g-HA, entre Gården et Basement. Reserve aux 20 ans et plus.",
+    "descEn": "Techno night at Jaeger with Berlin's Elli Acula, Olanskii playing a tekno set and g-HA, split between the Gården and Basement rooms. Strictly 20+.",
+    "ticketUrl": "https://jaegeroslo.no/events/",
+    "sources": [
+      "https://jaegeroslo.no/events/",
+      "https://www.tickster.com/no/en/events/by/d0k2baf546fwaxu/jaeger"
+    ],
+    "note": "Tarif indicatif, non verifie (billets vendus via Tickster)."
+  },
+  {
+    "title": "Copenhagen Distortion 2027",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Warehouse"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6928,
+    "lng": 12.612,
+    "date": "2027-06-02",
+    "endDate": "2027-06-06",
+    "time": "14:00",
+    "price": 141,
+    "currency": "EUR",
+    "venue": "Refshaleøen et rues de Copenhague",
+    "trending": true,
+    "lineup": [],
+    "desc": "Cinq jours de fetes de rue et de nuits club dans Copenhague, qui rassemblent plus de 100 000 personnes. Le programme enchaine les street parties gratuites de Nørrebro et Vesterbro, les Distortion X, les nuits Distortion Club puis le rave final Distortion Ø sur l'ile industrielle de Refshaleøen.",
+    "descEn": "Five days of street parties and club nights across Copenhagen, drawing more than 100,000 people. The programme runs from free street parties in Nørrebro and Vesterbro through the Distortion X stages and Distortion Club nights to the closing Distortion Ø rave on the industrial island of Refshaleøen.",
+    "ticketUrl": "https://www.cphdistortion.dk/tickets",
+    "sources": [
+      "https://www.cphdistortion.dk/tickets",
+      "https://www.cphdistortion.dk/about",
+      "https://en.wikipedia.org/wiki/Copenhagen_Distortion"
+    ],
+    "note": "Dates 2-6 juin 2027 confirmees sur cphdistortion.dk. Pass festival blind bird 1 050 DKK (environ 141 EUR) ; pass Ø weekend 850 DKK. Line-up non annoncee."
+  },
+  {
+    "title": "Kaiku : Isabel Soto",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1868,
+    "lng": 24.9573,
+    "date": "2026-07-31",
+    "time": "22:00",
+    "price": 16,
+    "currency": "EUR",
+    "venue": "Kaiku",
+    "trending": false,
+    "lineup": [
+      "Isabel Soto",
+      "Carlina Carpelan",
+      "Basit Soomro",
+      "LTDream",
+      "XP",
+      "Babybel"
+    ],
+    "desc": "Isabel Soto, residente venezuelienne du label berlinois Ostgut Ton, joue de 2 h a 4 h au Kaiku, club de 400 places installe dans une ancienne usine du quartier de Kallio. Deuxieme salle tenue par le collectif Club//Neurosis. Acces des 20 ans.",
+    "descEn": "Venezuelan Ostgut Ton resident Isabel Soto plays 2am-4am at Kaiku, a 400-capacity club in a former factory in Helsinki's Kallio district. The second room is run by the Club//Neurosis collective. Age limit 20.",
+    "ticketUrl": "https://clubkaiku.fi/",
+    "sources": [
+      "https://clubkaiku.fi/",
+      "https://ra.co/clubs/84949"
+    ],
+    "note": "Tarif officiel affiche sur clubkaiku.fi : 12 EUR en prevente, 16 EUR sur place, gratuit avant 23 h."
+  },
+  {
+    "title": "PEARL : Dasha Rush",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1868,
+    "lng": 24.9573,
+    "date": "2026-08-07",
+    "time": "22:00",
+    "price": 16,
+    "currency": "EUR",
+    "venue": "Kaiku",
+    "trending": false,
+    "lineup": [
+      "Dasha Rush",
+      "Ozan",
+      "Ronja"
+    ],
+    "desc": "La soiree PEARL invite Dasha Rush, productrice russo-allemande du label Fullpanda, au Kaiku a Helsinki. Nuit de 22 h a 4 h sur les deux salles du club, avec la fete It's Giving Feral en parallele.",
+    "descEn": "The PEARL night brings Russian-German producer Dasha Rush (Fullpanda) to Kaiku in Helsinki. The club runs 10pm to 4am across both rooms, with the It's Giving Feral party running alongside.",
+    "ticketUrl": "https://clubkaiku.fi/",
+    "sources": [
+      "https://clubkaiku.fi/",
+      "https://ra.co/clubs/84949"
+    ],
+    "note": "Tarif officiel affiche sur clubkaiku.fi : 12 EUR en prevente, 16 EUR sur place, gratuit avant 23 h."
+  },
+  {
+    "title": "Kaiku : Mike Servito",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1868,
+    "lng": 24.9573,
+    "date": "2026-08-22",
+    "time": "22:00",
+    "price": 16,
+    "currency": "EUR",
+    "venue": "Kaiku",
+    "trending": false,
+    "lineup": [
+      "Mike Servito",
+      "Hitoshi",
+      "Hanna Ojanen",
+      "Leila T",
+      "DJ Ottopus"
+    ],
+    "desc": "Le DJ americain Mike Servito, figure de la scene house de Detroit et New York, est invite au Kaiku. La soiree (un)stable occupe la seconde salle. Nuit de 22 h a 4 h, acces des 20 ans.",
+    "descEn": "American DJ Mike Servito, a fixture of the Detroit and New York house scenes, guests at Kaiku. The (un)stable party takes the second room. 10pm to 4am, age limit 20.",
+    "ticketUrl": "https://clubkaiku.fi/",
+    "sources": [
+      "https://clubkaiku.fi/",
+      "https://ra.co/clubs/84949"
+    ],
+    "note": "Tarif officiel affiche sur clubkaiku.fi : 12 EUR en prevente, 16 EUR sur place, gratuit avant 23 h."
+  },
+  {
+    "title": "Kaiku : Badsista",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1868,
+    "lng": 24.9573,
+    "date": "2026-08-28",
+    "time": "22:00",
+    "price": 16,
+    "currency": "EUR",
+    "venue": "Kaiku",
+    "trending": false,
+    "lineup": [
+      "Badsista",
+      "Kofu",
+      "Wekesa"
+    ],
+    "desc": "La DJ bresilienne Badsista, figure de la scene club de Sao Paulo, joue au Kaiku a Helsinki avec Kofu et Wekesa. La fete Nasha occupe la seconde salle. De 22 h a 4 h.",
+    "descEn": "Brazilian DJ Badsista, a key figure in the São Paulo club scene, plays Kaiku in Helsinki alongside Kofu and Wekesa. The Nasha party takes the second room. 10pm to 4am.",
+    "ticketUrl": "https://clubkaiku.fi/",
+    "sources": [
+      "https://clubkaiku.fi/",
+      "https://ra.co/clubs/84949"
+    ],
+    "note": "Tarif officiel affiche sur clubkaiku.fi : 12 EUR en prevente, 16 EUR sur place, gratuit avant 23 h."
+  },
+  {
+    "title": "Summer Sound 2026",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Liepāja",
+    "country": "Latvia",
+    "lat": 56.5138,
+    "lng": 20.995,
+    "date": "2026-07-31",
+    "endDate": "2026-08-01",
+    "time": "16:00",
+    "price": 90,
+    "currency": "EUR",
+    "venue": "Plage de Liepāja",
+    "trending": true,
+    "lineup": [
+      "Hardwell",
+      "Alan Walker",
+      "Sigma",
+      "Gogol Bordello",
+      "Tommy Cash",
+      "Tautumeitas"
+    ],
+    "desc": "Le plus gros festival de musique des pays baltes, organise chaque ete sur la plage de Liepāja, au bord de la Baltique. L'edition 2026 aligne Hardwell, Alan Walker et le duo drum & bass Sigma ; camping sur place, tous ages admis.",
+    "descEn": "The largest music festival in the Baltic states, staged each summer on the beach at Liepāja on the Baltic coast. The 2026 edition brings Hardwell, Alan Walker and drum & bass duo Sigma; on-site camping, all ages welcome.",
+    "ticketUrl": "https://summersound.lv/en/tickets",
+    "sources": [
+      "https://summersound.lv/en",
+      "https://www.latvia.travel/en/event/summer-sound-2026",
+      "https://liepaja.travel/en/festival-summer-sound-2026/"
+    ],
+    "note": "Dates 31 juillet - 1er aout 2026 confirmees sur summersound.lv. Tarif indicatif, non verifie (pass 2 jours)."
+  },
+  {
+    "title": "Trädgården Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Kristianstad",
+    "country": "Sweden",
+    "lat": 56.0301,
+    "lng": 14.1518,
+    "date": "2026-08-28",
+    "endDate": "2026-08-29",
+    "time": "14:30",
+    "price": 177,
+    "currency": "EUR",
+    "venue": "Tivoliparken",
+    "trending": false,
+    "lineup": [
+      "Steve Aoki",
+      "A*Teens",
+      "Agnes",
+      "Joakim Lundell"
+    ],
+    "desc": "Festival pop et EDM installe dans le Tivoliparken de Kristianstad, en Scanie, qui attend plus de 34 000 personnes sur deux jours et plus de 40 artistes. Steve Aoki tient la tete d'affiche 2026 ; ouverture de 14 h 30 a 1 h.",
+    "descEn": "Pop and EDM festival held in Tivoliparken in Kristianstad, southern Sweden, expecting more than 34,000 people over two days and over 40 acts. Steve Aoki headlines the 2026 edition; gates 2.30pm to 1am.",
+    "ticketUrl": "https://tradgardenfestival.se/biljetter",
+    "sources": [
+      "https://tradgardenfestival.se/",
+      "https://tradgardenfestival.se/biljetter"
+    ],
+    "note": "A ne pas confondre avec le club Trädgården de Stockholm. Pass 2 jours 1 995 SEK (environ 177 EUR), tarif releve sur tradgardenfestival.se ; 18 ans et plus."
+  },
+  {
+    "title": "Loftas Fest 2026",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Vilnius",
+    "country": "Lithuania",
+    "lat": 54.6739,
+    "lng": 25.2705,
+    "date": "2026-09-11",
+    "endDate": "2026-09-12",
+    "time": "17:00",
+    "price": 60,
+    "currency": "EUR",
+    "venue": "Menų fabrikas Loftas",
+    "trending": false,
+    "lineup": [],
+    "desc": "Festival urbain de Vilnius installe dans l'ancienne usine electrique Elfa transformee en fabrique d'arts, avec six scenes, plus de 40 groupes et DJ sur deux nuits et environ 20 000 visiteurs. Programmation entre electronique, indie et hip-hop.",
+    "descEn": "Vilnius urban festival held in the former Elfa electrical factory turned arts venue, with six stages, more than 40 bands and DJs over two nights and around 20,000 visitors. The programme spans electronic, indie and hip-hop.",
+    "ticketUrl": "https://loftasfest.com/",
+    "sources": [
+      "https://loftasfest.com/",
+      "https://www.vilnius-events.lt/en/event/loftas-fest-25/",
+      "https://www.songkick.com/festivals/416243-loftas"
+    ],
+    "note": "Dates 11-12 septembre 2026 (le festival se tient le deuxieme week-end de septembre). Tarif indicatif, non verifie (pass 2 jours). Line-up 2026 pas encore publiee."
+  },
+  {
+    "title": "Tallinn Music Week 2027",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tallinn",
+    "country": "Estonia",
+    "lat": 59.437,
+    "lng": 24.7536,
+    "date": "2027-04-08",
+    "endDate": "2027-04-11",
+    "time": "18:00",
+    "price": 85,
+    "currency": "EUR",
+    "venue": "Salles de Tallinn",
+    "trending": false,
+    "lineup": [],
+    "desc": "Plus grand festival de musique en salle des pays nordiques et baltes, reparti dans les clubs et salles de Tallinn avec pres de 200 artistes estoniens et etrangers. La 19e edition se tient du 8 au 11 avril 2027, avec une conference professionnelle les 9 et 10.",
+    "descEn": "The largest indoor music festival in the Nordic and Baltic region, spread across clubs and venues in Tallinn with close to 200 Estonian and international artists. The 19th edition runs 8-11 April 2027, with the industry conference on the 9th and 10th.",
+    "ticketUrl": "https://tmw.ee/",
+    "sources": [
+      "https://tmw.ee/",
+      "https://shiftworks.ee/en/projects/tallinn-music-week-2027/",
+      "https://www.theunsignedguide.com/news/3733-apply-to-play-tallinn-music-week-2027"
+    ],
+    "note": "Dates 8-11 avril 2027 annoncees. Tarif indicatif, non verifie (pass festival). Line-up pas encore publiee."
+  },
+  {
+    "title": "Bonfire Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House",
+      "Trance"
+    ],
+    "city": "Linköping",
+    "country": "Sweden",
+    "lat": 58.413,
+    "lng": 15.612,
+    "date": "2026-09-04",
+    "endDate": "2026-09-05",
+    "time": "16:00",
+    "price": 106,
+    "currency": "EUR",
+    "venue": "Stångebrofältet",
+    "trending": false,
+    "lineup": [
+      "DJ Snake",
+      "Darude",
+      "Molly Sandén",
+      "Bolaget",
+      "Hooja",
+      "Joakim Lundell",
+      "Greekazo",
+      "Von Disco"
+    ],
+    "desc": "Festival suedois de fin d'ete organise sur le Stångebrofältet, a cinq minutes a pied de la gare de Linköping, qui reunit plus de 10 000 personnes par soiree. DJ Snake et Darude menent l'affiche 2026 ; after-parties officielles reservees aux 18 ans et plus.",
+    "descEn": "Late-summer Swedish festival held on Stångebrofältet, a five-minute walk from Linköping station, drawing more than 10,000 people per evening. DJ Snake and Darude top the 2026 bill; the official after-parties are 18+.",
+    "ticketUrl": "https://www.bonfirefestival.se/biljetter/",
+    "sources": [
+      "https://www.bonfirefestival.se/",
+      "https://www.bonfirefestival.se/line-up/",
+      "https://www.tickster.com/se/sv/events/f0ndyltekjrmj3r/2026-09-04/bonfire-festival-2026"
+    ],
+    "note": "Dates 4-5 septembre 2026 confirmees sur bonfirefestival.se (certains agregateurs annoncent a tort 4-6). Tarif indicatif, non verifie (pass 2 jours, environ 1 200 SEK)."
+  },
+  {
+    "title": "Roskilde Festival 2027",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Roskilde",
+    "country": "Denmark",
+    "lat": 55.618,
+    "lng": 12.07,
+    "date": "2027-06-26",
+    "endDate": "2027-07-03",
+    "time": "12:00",
+    "price": 320,
+    "currency": "EUR",
+    "venue": "Dyrskuepladsen",
+    "trending": true,
+    "lineup": [],
+    "desc": "Plus grand festival d'Europe du Nord, organise a Roskilde depuis 1971 sur le champ de foire de Dyrskuepladsen et gere par une fondation a but non lucratif. Huit jours du 26 juin au 3 juillet 2027, avec quatre jours de camp warm-up et un volet electronique nourri sur les scenes Avalon et Apollo.",
+    "descEn": "Northern Europe's largest festival, staged in Roskilde since 1971 on the Dyrskuepladsen showground and run by a non-profit foundation. Eight days from 26 June to 3 July 2027, with four warm-up camping days and a substantial electronic programme on the Avalon and Apollo stages.",
+    "ticketUrl": "https://www.roskilde-festival.dk/en/tickets/",
+    "sources": [
+      "https://www.roskilde-festival.dk/en",
+      "https://en.wikipedia.org/wiki/Roskilde_Festival"
+    ],
+    "note": "Dates 26/6 - 3/7 2027 confirmees sur roskilde-festival.dk. Tarif indicatif, non verifie (billet 8 jours, environ 2 400 DKK). Line-up 2027 pas encore annoncee."
+  },
+  {
+    "title": "Iceland Eclipse 2026",
+    "type": "Festival",
+    "genres": [
+      "Trance",
+      "House",
+      "Techno"
+    ],
+    "city": "Hellissandur",
+    "country": "Iceland",
+    "lat": 64.9147,
+    "lng": -23.8961,
+    "date": "2026-08-12",
+    "endDate": "2026-08-15",
+    "time": "12:00",
+    "price": 330,
+    "currency": "EUR",
+    "venue": "Snæfellsnes, sous le Snæfellsjökull",
+    "trending": true,
+    "lineup": [
+      "Above & Beyond",
+      "Maribou State",
+      "GusGus",
+      "Emilíana Torrini",
+      "Ásgeir",
+      "Daði Freyr",
+      "Vök"
+    ],
+    "desc": "Rassemblement de quatre jours monte par les fondateurs de Secret Solstice sur la peninsule de Snæfellsnes, au pied du glacier Snæfellsjökull, autour de l'eclipse totale de Soleil du 12 aout 2026 a 17 h 45. Trois scenes, plus de 80 artistes et 3 333 billets seulement, a environ 190 km de Reykjavík.",
+    "descEn": "Four-day gathering staged by the founders of Secret Solstice on the Snæfellsnes peninsula beneath the Snæfellsjökull glacier, built around the total solar eclipse of 12 August 2026 at 17:45. Three stages, more than 80 artists and only 3,333 tickets, roughly 190 km west of Reykjavík.",
+    "ticketUrl": "https://eclipse.is/",
+    "sources": [
+      "https://eclipse.is/",
+      "https://secretsolstice.is/",
+      "https://www.facebook.com/secretsolstice/posts/1254616012695801/"
+    ],
+    "note": "Secret Solstice ne se tient pas en 2026 : ses fondateurs organisent Iceland Eclipse a la place. Billet 49 990 ISK annonce pour les residents islandais (environ 330 EUR) ; tarif visiteurs etrangers non verifie."
+  },
+  {
+    "title": "Extreme Chill Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "lat": 64.147,
+    "lng": -21.937,
+    "date": "2026-09-02",
+    "endDate": "2026-09-06",
+    "time": "20:00",
+    "price": 131,
+    "currency": "EUR",
+    "venue": "Gamla Bíó, Iðnó, Tjarnarbíó",
+    "trending": false,
+    "lineup": [
+      "DJ Krush",
+      "Abul Mogard",
+      "Ulla",
+      "Perila",
+      "Rafael Anton Irisarri",
+      "Mix Master Morris",
+      "Arovane",
+      "Martina Bertoni",
+      "YPY",
+      "Futuregrapher"
+    ],
+    "desc": "17e edition du festival islandais consacre a l'electronique experimentale et ambient, reparti sur cinq jours entre Gamla Bíó, Iðnó, Tjarnarbíó et Space Odyssey, au centre de Reykjavík. DJ Krush, Abul Mogard et Ulla figurent a l'affiche 2026.",
+    "descEn": "17th edition of the Icelandic festival devoted to experimental and ambient electronic music, spread over five days across Gamla Bíó, Iðnó, Tjarnarbíó and Space Odyssey in central Reykjavík. DJ Krush, Abul Mogard and Ulla are on the 2026 bill.",
+    "ticketUrl": "https://www.midix.is/en/extreme-chill-festival-2026-festival-pass/eid/1030",
+    "sources": [
+      "https://www.extremechill.org/tickets",
+      "https://www.extremechill.org/artists2026",
+      "https://www.midix.is/en/extreme-chill-festival-2026-festival-pass/eid/1030"
+    ],
+    "note": "Pass festival 19 900 ISK (environ 131 EUR), tarif officiel releve sur midix.is. Dates 2-6 septembre 2026."
+  },
+  {
+    "title": "Audra Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Kaunas",
+    "country": "Lithuania",
+    "lat": 54.8985,
+    "lng": 23.9036,
+    "date": "2026-09-03",
+    "endDate": "2026-09-06",
+    "time": "18:00",
+    "price": 70,
+    "currency": "EUR",
+    "venue": "Lieux industriels de Kaunas",
+    "trending": true,
+    "lineup": [
+      "Chloé Caillet",
+      "Francesco Del Garda",
+      "Shanti Celeste",
+      "Rey Colino",
+      "Brokenchord",
+      "Tikiman",
+      "Monika Seta",
+      "Pletnev",
+      "eioo"
+    ],
+    "desc": "Festival urbain de Kaunas dedie a l'electronique, monte par l'equipe du club Lizdas et installe dans des lieux industriels de la ville, dont l'ancienne usine Pergalė. Deuxieme edition automnale, du 3 au 6 septembre 2026.",
+    "descEn": "Kaunas city festival devoted to electronic music, run by the team behind the Lizdas club and staged in industrial spaces around town including the former Pergalė factory. Second autumn edition, 3-6 September 2026.",
+    "ticketUrl": "https://ra.co/events/2420148",
+    "sources": [
+      "https://audrafestival.lt/en/",
+      "https://ra.co/events/2420148",
+      "https://www.festivalabroad.com/festivals/audra-festival"
+    ],
+    "note": "Dates 3-6 septembre 2026 confirmees sur audrafestival.lt. Tarif indicatif, non verifie (pass festival)."
+  },
+  {
+    "title": "Station Narva 2026",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Narva",
+    "country": "Estonia",
+    "lat": 59.3775,
+    "lng": 28.1932,
+    "date": "2026-09-03",
+    "endDate": "2026-09-06",
+    "time": "18:00",
+    "price": 59,
+    "currency": "EUR",
+    "venue": "Musée de Narva (château Hermann) et club Ro-Ro",
+    "trending": false,
+    "lineup": [
+      "Tricky",
+      "GusGus",
+      "MALLA",
+      "SADU",
+      "boipepperoni",
+      "ALIKA",
+      "Skoone",
+      "La Fazani"
+    ],
+    "desc": "9e edition du festival de musique et de culture urbaine de Narva, ville frontaliere a l'est de l'Estonie. Le coeur du programme se tient au musee de Narva, dans le chateau Hermann, les 4 et 5 septembre, avec des after au club Ro-Ro en bord de fleuve.",
+    "descEn": "9th edition of Narva's music and city-culture festival, in Estonia's easternmost border town. The core programme runs at Narva Museum inside Hermann Castle on 4 and 5 September, with afterparties at the riverside Ro-Ro club.",
+    "ticketUrl": "https://shop.tmw.ee/",
+    "sources": [
+      "https://www.stationnarva.ee/en",
+      "https://www.piletilevi.ee/en/series/F3WNFTCFRE/station-narva-2026",
+      "https://shiftworks.ee/en/projects/station-narva-2026/"
+    ],
+    "note": "Pass festival 59 EUR en tarif reduit jusqu'au 10 aout, pass PLUS 100 EUR, billet a la journee 39 EUR — tarifs officiels releves sur stationnarva.ee."
+  },
+  {
+    "title": "Positivus 2026 : Calvin Harris",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Riga",
+    "country": "Latvia",
+    "lat": 57.008,
+    "lng": 24.145,
+    "date": "2026-08-06",
+    "time": "17:00",
+    "price": 69,
+    "currency": "EUR",
+    "venue": "Mežaparka Lielā estrāde",
+    "trending": true,
+    "lineup": [
+      "Calvin Harris",
+      "MK",
+      "Syn Cole"
+    ],
+    "desc": "Le festival letton Positivus adopte pour 2026 un format d'une seule journee en plein air a la grande estrade de Mežaparks, a Riga, avec Calvin Harris en cloture, le producteur house americain MK et l'Estonien Syn Cole. Unique date de Calvin Harris dans les pays baltes cet ete.",
+    "descEn": "Latvia's Positivus festival switches to a single open-air day at the Mežaparks Great Bandstand in Riga for 2026, closed by Calvin Harris with American house producer MK and Estonia's Syn Cole in support. Harris's only Baltic date of the summer.",
+    "ticketUrl": "https://www.bilesuserviss.lv/en/tickets/7JH332FZYQ/calvin-harris",
+    "sources": [
+      "https://www.eventpartner.lv/en/pasakums/calvin-harris-mezaparks",
+      "https://www.livenation.ee/en/event/calvin-harris-riga-tickets-edp1653479",
+      "https://estrade.riga.lv/en/events/koncerts-calvin-harris/"
+    ],
+    "note": "Billet debout annonce a partir de 69 EUR, places assises a partir de 86 EUR. Presente par les organisateurs comme l'edition 2026 de Positivus."
+  }
+]
