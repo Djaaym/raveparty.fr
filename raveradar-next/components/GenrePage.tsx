@@ -74,7 +74,10 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
           </p>
           <p className="lead">{intro}</p>
 
-          <div className="grid grid-4" style={{ marginTop: 36 }}>
+          <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
+            {t("hub.next")} · {genre}
+          </h2>
+          <div className="grid grid-4">
             {events.map((e) => (
               <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}

@@ -43,7 +43,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             </p>
           </div>
           <div>
-            <h5>{t("footer.discover")}</h5>
+            <h2>{t("footer.discover")}</h2>
             <Link href={`${p}/explore`}>{t("footer.allevents")}</Link>
             <Link href={`${p}/rave-party/ce-week-end`}>{t("soon.title")}</Link>
             <Link href={`${p}/rave-party/autour-de-moi`}>{t("near.title")}</Link>
@@ -53,7 +53,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             <Link href={`${p}/map`}>{t("nav.map")}</Link>
           </div>
           <div>
-            <h5>{t("footer.genres")}</h5>
+            <h2>{t("footer.genres")}</h2>
             {FOOTER_GENRES.map((g) => (
               <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
                 {g}
@@ -61,7 +61,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             ))}
           </div>
           <div>
-            <h5>{t("footer.cities")}</h5>
+            <h2>{t("footer.cities")}</h2>
             {FOOTER_PLACES.map((s) => {
               const place = placeBySlug(s);
               return place ? (
@@ -72,7 +72,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             })}
           </div>
           <div>
-            <h5>{t("footer.organizers")}</h5>
+            <h2>{t("footer.organizers")}</h2>
             <Link href={`${p}/organizer`}>{t("footer.addevent")}</Link>
             <Link href={`${p}/account`}>{t("nav.signin")}</Link>
             <Link href={`${p}/genres`}>{t("nav.genres")}</Link>
