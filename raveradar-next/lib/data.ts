@@ -220,6 +220,8 @@ export const IMAGES: Record<number, string> = {
   66: "hf_20260604_190432_c369f23a-f9cf-4e67-9782-f6cf28de2109.png",
   67: "hf_20260604_190434_9abbe2f7-c70b-48c9-afa8-2f30976bdc14.png",
   68: "hf_20260604_190503_d26a409f-e768-4b36-837e-3b349c07be1e.png",
+  69: "hf_20260729_105201_cf1f1269-2b3e-4701-aa4d-1de5a6278655.png",
+  70: "hf_20260729_105204_fa5e9017-b174-4338-ba75-8d1bb911153a.png",
 };
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
 /** composite CSS background: real poster on top, genre gradient as fallback */
