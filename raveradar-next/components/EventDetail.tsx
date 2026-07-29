@@ -180,7 +180,9 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <div className="h-lg" style={{ margin: "14px 0 4px" }}>
                   {priceLabel(e, lang)}
                 </div>
-                <p style={{ color: "var(--grey)", fontSize: ".85rem", marginBottom: 18 }}>{t("event.fromprice")}</p>
+                <p style={{ color: "var(--grey)", fontSize: ".85rem", marginBottom: 18 }}>
+                  {e.priceNote === "estimated" ? t("dyn.priceest") : t("event.fromprice")}
+                </p>
                 <div className="ticket-row">
                   <span>{t("event.date")}</span>
                   <b>

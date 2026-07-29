@@ -80,3 +80,25 @@ Sources : `raveparty_allkeywords_{nl,es,de,uk}`. À exploiter pour les futures v
 - ➜ **À ajouter** : pages **« near me » / « upcoming »**, villes UK (Manchester ✅, Bristol, Leeds, Birmingham, Glasgow), London ✅.
 
 > Idée transverse : la requête **« near me »** revient FR + UK → prévoir une page géolocalisée `/rave-party/autour-de-moi` (géoloc navigateur).
+
+## État de la couverture (revue du 29/07/2026)
+
+Le calendrier couvre **12 mois d'affilée** (août 2026 → juillet 2027), 88 dates à venir sur 116 événements référencés.
+
+### Départements FR couverts
+Vaucluse · Gironde · Nord · Bouches-du-Rhône · Ille-et-Vilaine · Seine-et-Marne · Seine-Saint-Denis · Yvelines · Haute-Savoie · Allier · Ardèche · Calvados · Orne · Rhône · Hérault · Isère · Drôme · Loire-Atlantique · Alpes-Maritimes · Paris · Bretagne.
+
+### Départements à fort volume encore vides
+| Vol | Lieu | Statut |
+|----:|------|--------|
+| 5 400 | Lot | page en ligne, aucun événement légal vérifiable trouvé |
+| 4 400 | Aude | idem |
+| 4 400 | Lozère | idem |
+| 1 000 | Ain · Hautes-Alpes | idem |
+| 480 | Tarn | idem |
+| 320 | Aveyron | idem |
+
+Ces requêtes sont massivement portées par des **free parties non déclarées** (intention news/illégal). On ne les référence pas ; la page reste utile en captation + alerte, mais il faudra un événement légal (festival, soirée club) pour la faire vivre.
+
+### Ce qui a été cherché sans succès
+Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, retour 2027 sans date) · Sonus Croatie (contradictoire) · EXIT Novi Sad 2027 · Tomorrowland Belgique 2027 (dates non officielles) · Macki Music Festival (dernière édition 2025) · Scopitone (biennal). Astropolis l'Hiver, Panoramas, Peacock Society, I Love Techno Europe, Ososphère : dates 2027 non annoncées au 29/07/2026 — **à re-vérifier**.
