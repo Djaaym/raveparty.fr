@@ -6,7 +6,8 @@ export const DICT: Record<Lang, Dict> = {
   fr: {
     "nav.explore": "Explorer", "nav.map": "Carte", "nav.organizers": "Organisateurs",
     "nav.favourites": "Favoris", "nav.signin": "Connexion", "nav.add": "Ajouter un événement",
-    "nav.genres": "Genres", "nav.cities": "Villes",
+    "nav.genres": "Genres", "nav.cities": "Villes", "nav.countries": "Pays",
+    "countries.eyebrow": "Toute l'Europe", "countries.title": "Festivals & rave parties par pays", "country.h1": "Rave party", "country.others": "Autres pays",
     "cities.eyebrow": "Près de chez toi", "cities.title": "Rave parties & festivals par ville",
     "cities.lead": "Trouve les soirées et festivals près de chez toi. Choisis ta ville ou ton département.",
     "cities.depts": "Départements & régions", "cities.bigcities": "Grandes villes",
@@ -86,7 +87,8 @@ export const DICT: Record<Lang, Dict> = {
   en: {
     "nav.explore": "Explore", "nav.map": "Map", "nav.organizers": "For Organizers",
     "nav.favourites": "Favourites", "nav.signin": "Sign in", "nav.add": "Add Event",
-    "nav.genres": "Genres", "nav.cities": "Cities",
+    "nav.genres": "Genres", "nav.cities": "Cities", "nav.countries": "Countries",
+    "countries.eyebrow": "All of Europe", "countries.title": "Festivals & rave parties by country", "country.h1": "Raves in", "country.others": "Other countries",
     "cities.eyebrow": "Near you", "cities.title": "Rave parties & festivals by city",
     "cities.lead": "Find parties and festivals near you. Pick your city or region.",
     "cities.depts": "Regions & counties", "cities.bigcities": "Major cities",
