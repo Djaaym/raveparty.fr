@@ -528,6 +528,21 @@ export const IMAGES: Record<number, string> = {
   288: "hf_20260729_154149_7a4fac51-3d07-410e-9bfc-925909f8eae5.png",
   289: "hf_20260729_154152_c0afd6b4-c36a-40fc-b871-a946f1bfbf0f.png",
   290: "hf_20260729_154232_180d78ec-0299-4474-b177-c405d33c54e5.png",
+  291: "hf_20260729_221128_145332e8-e782-4412-86c9-0140614c8981.png",
+  191: "hf_20260729_221130_381013de-3f21-4be6-9c70-2d9ea1c061ad.png",
+  192: "hf_20260729_221133_b7fb4ab3-4115-4e06-ab7a-b4ea83c9251b.png",
+  193: "hf_20260729_221136_0d97726d-8133-4e31-ae9f-ae96ebec5014.png",
+  292: "hf_20260729_221231_9109e96c-0cd5-463f-ac07-e4041f7967ef.png",
+  105: "hf_20260729_221251_3aa13301-c1d4-48eb-a6c0-4d1d82a46930.png",
+  194: "hf_20260729_221255_68ccb783-5512-4049-8a0a-1918c99aff0c.png",
+  195: "hf_20260729_221258_cf86c22d-3037-4fa3-9843-8d3f629faf7a.png",
+  293: "hf_20260729_221347_69982446-af47-4178-b996-5d70ad88c116.png",
+  294: "hf_20260729_221351_34542207-e667-4d26-a4fa-78dc59063b80.png",
+  295: "hf_20260729_221353_cab654e8-c18d-4fbc-9d06-709f8dceb19f.png",
+  296: "hf_20260729_221357_6669c633-5ce3-4823-ad88-bfe2b4e6fda8.png",
+  297: "hf_20260729_221435_db6266e7-041c-4bec-bad0-081df6e4833a.png",
+  196: "hf_20260729_221452_47d66949-0551-4042-95f0-fa09becf5ad7.png",
+  197: "hf_20260729_221803_f5db6002-1287-4091-b3cf-cfa4dcd77b28.png",
 };
 /** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine. */
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);

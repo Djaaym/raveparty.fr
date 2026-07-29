@@ -547,3 +547,22 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .linkcols a:hover { color: var(--cyan); }
 @media (max-width: 1024px) { .linkcols { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .linkcols { grid-template-columns: 1fr; } }
+
+/* ------------------------- EXPLORE · DATE FILTER ----------------------- */
+/* Month shortcuts, then an exact range. The two are mutually exclusive in the
+   component — combining them almost always yields an empty result set. */
+.monthpicker { display: flex; flex-wrap: wrap; gap: 6px; }
+.monthpicker button {
+  font-size: .78rem; padding: 6px 10px; border-radius: 8px; cursor: pointer;
+  background: rgba(255,255,255,.03); border: 1px solid var(--line); color: var(--grey);
+  font-family: var(--f-mono); text-transform: capitalize; transition: border-color .2s, color .2s, background .2s;
+}
+.monthpicker button:hover { border-color: var(--violet); color: var(--white); }
+.monthpicker button.on { background: var(--grad-soft); border-color: var(--violet); color: var(--white); }
+.monthpicker .count { margin-left: 5px; opacity: .55; }
+
+.daterange { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.daterange .or { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--grey-2); font-family: var(--f-mono); }
+.daterange label { display: flex; align-items: center; gap: 8px; font-size: .8rem; color: var(--grey); }
+.daterange label input { flex: 1; min-width: 0; }
+.daterange input[type="date"] { color-scheme: dark; font-size: .82rem; padding: 7px 9px; }
