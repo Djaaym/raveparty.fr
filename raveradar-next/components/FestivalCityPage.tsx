@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { FESTIVALS } from "@/lib/data";
+import { FESTIVALS, upcoming } from "@/lib/data";
 import { placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
@@ -15,7 +15,10 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
   if (!place) return notFound();
 
   const here = eventsForPlace(place).filter((e) => e.type === "Festival");
-  const nearby = [...FESTIVALS].sort((a, b) => a.date.localeCompare(b.date)).slice(0, 4);
+  const hereIds = new Set(here.map((e) => e.id));
+  const nearby = upcoming(FESTIVALS)
+    .filter((e) => !hereIds.has(e.id))
+    .slice(0, 4);
 
   const intro =
     lang === "fr"

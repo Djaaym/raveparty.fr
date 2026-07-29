@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS } from "@/lib/data";
-import { placeBySlug, eventsForPlace } from "@/lib/places";
+import { ALL_GENRES, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
 
 export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -14,39 +17,100 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
   const place = placeBySlug(slug);
   if (!place) return notFound();
 
+  const today = todayISO();
   const here = eventsForPlace(place);
-  const nearby = [...EVENTS].sort((a, b) => a.date.localeCompare(b.date)).slice(0, 4);
+  const hereIds = new Set(here.map((e) => e.id));
+  const nearby = upcoming()
+    .filter((e) => !hereIds.has(e.id))
+    .slice(0, 4);
+
+  // Sibling places of the same kind — the horizontal mesh between geo pages.
+  const siblings = PLACES.filter((x) => x.slug !== place.slug && x.kind === place.kind).slice(0, 12);
+  const otherKinds = PLACES.filter((x) => x.kind !== place.kind).slice(0, 12);
+  // Genres that actually have something on here, so the link always lands on content.
+  const localGenres = ALL_GENRES.filter((g) => here.some((e) => e.genres.includes(g)));
 
   const intro =
     lang === "fr"
       ? `Les meilleures rave parties, free parties et soirées techno à ${place.label} et aux alentours — dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
       : `The best rave parties, free parties and techno nights in and around ${place.label} — dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
 
-  const faq =
+  const faq: [string, string][] =
     lang === "fr"
       ? [
-          [`Y a-t-il une rave party à ${place.label} ce week-end ?`, `Consulte la liste ci-dessus : on référence les événements électro à ${place.label} et aux alentours, mis à jour en continu. Active une alerte pour être prévenu des nouvelles dates.`],
-          [`Comment trouver une free party à ${place.label} ?`, `Les free parties sont souvent annoncées à la dernière minute. Crée une alerte « Free party » sur ${place.label} et reçois les coordonnées dès qu'elles tombent.`],
+          [
+            `Y a-t-il une rave party à ${place.label} ce week-end ?`,
+            `Consulte la liste ci-dessus : on référence les événements électro à ${place.label} et aux alentours, mis à jour en continu. Active une alerte pour être prévenu des nouvelles dates.`,
+          ],
+          [
+            `Comment trouver une free party à ${place.label} ?`,
+            `Les free parties sont souvent annoncées à la dernière minute. Crée une alerte « Free party » sur ${place.label} et reçois les coordonnées dès qu'elles tombent.`,
+          ],
+          [
+            `Quels festivals de musique électronique près de ${place.label} ?`,
+            `Retrouve tous les festivals techno, house, hardstyle et psytrance de la zone sur la page Festival ${place.label}, avec les dates, les line-ups et la billetterie officielle.`,
+          ],
+          [
+            `Combien coûte une soirée techno à ${place.label} ?`,
+            `Les tarifs vont de l'entrée libre (free parties, parades) à 40-90 € pour un festival. Chaque fiche événement affiche le prix d'entrée le plus bas connu et le lien vers la billetterie officielle.`,
+          ],
         ]
       : [
-          [`Is there a rave party in ${place.label} this weekend?`, `Check the list above — we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`],
-          [`How do I find a free party in ${place.label}?`, `Free parties are often announced last minute. Create a "Free party" alert for ${place.label} and get the coordinates as soon as they drop.`],
+          [
+            `Is there a rave party in ${place.label} this weekend?`,
+            `Check the list above — we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`,
+          ],
+          [
+            `How do I find a free party in ${place.label}?`,
+            `Free parties are often announced last minute. Create a "Free party" alert for ${place.label} and get the coordinates as soon as they drop.`,
+          ],
+          [
+            `Which electronic music festivals are near ${place.label}?`,
+            `Every techno, house, hardstyle and psytrance festival in the area is listed on the Festival ${place.label} page, with dates, line-ups and official ticketing.`,
+          ],
+          [
+            `How much does a techno night in ${place.label} cost?`,
+            `Anywhere from free (free parties, parades) to €40-90 for a festival. Each event page shows the lowest known entry price and links to the official ticket shop.`,
+          ],
         ];
+
+  const trail: [string, string][] = [
+    [t("nav.cities"), "/villes"],
+    [place.label, `/rave-party/${place.slug}`],
+  ];
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(trail, lang),
+          faqJsonLd(faq),
+          ...(here.length ? [itemListJsonLd(here, lang, `Rave party ${place.label}`)] : []),
+        ]}
+      />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
       <section className="section" style={{ paddingTop: 48 }}>
         <div className="wrap">
-          <Link href={`${p}/villes`} style={{ color: "var(--grey)", fontSize: ".9rem" }}>
-            ← {t("nav.cities")}
-          </Link>
+          <Breadcrumbs lang={lang} trail={trail} />
           <h1 className="h-lg" style={{ margin: "14px 0 10px" }}>
             Rave party <span className="gradient-text">{place.label}</span>
           </h1>
           <p className="lead">{intro}</p>
+
+          <div className="linkfarm" style={{ marginTop: 20 }}>
+            <Link href={`${p}/festival/${place.slug}`}>
+              🎪 {lang === "fr" ? "Festivals" : "Festivals"} {place.label}
+            </Link>
+            <Link href={`${p}/rave-party/ce-week-end`}>📅 {lang === "fr" ? "Ce week-end" : "This weekend"}</Link>
+            <Link href={`${p}/rave-party/autour-de-moi`}>📍 {lang === "fr" ? "Autour de moi" : "Near me"}</Link>
+            {localGenres.map((g) => (
+              <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
+                {g} {place.label}
+              </Link>
+            ))}
+          </div>
 
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("city.events")} · {place.label}
@@ -54,7 +118,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           {here.length > 0 ? (
             <div className="grid grid-4">
               {here.map((e) => (
-                <EventCard key={e.id} e={e} lang={lang} />
+                <EventCard key={e.id} e={e} lang={lang} today={today} />
               ))}
             </div>
           ) : (
@@ -73,7 +137,18 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           </h2>
           <div className="grid grid-4">
             {nearby.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
+              <EventCard key={e.id} e={e} lang={lang} today={today} />
+            ))}
+          </div>
+
+          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+            {t("city.otherplaces")}
+          </h2>
+          <div className="linkcols">
+            {[...siblings, ...otherKinds].map((x) => (
+              <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
+                Rave party {x.label}
+              </Link>
             ))}
           </div>
 

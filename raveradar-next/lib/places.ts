@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS } from "./data";
+import { EVENTS, upcomingFirst } from "./data";
 
 export type PlaceKind = "ville" | "departement" | "region";
 
@@ -53,8 +53,10 @@ export const placeBySlug = (slug: string): Place | undefined => PLACES.find((p) 
 /** Events located in a given place (matched by city name or French region/department). */
 export function eventsForPlace(p: Place): RaveEvent[] {
   const names = (p.match ?? [p.label]).map((s) => s.toLowerCase());
-  return EVENTS.filter((e) => {
-    const hay = [e.city, e.region ?? ""].map((s) => s.toLowerCase());
-    return names.some((n) => hay.some((h) => h.includes(n)));
-  }).sort((a, b) => a.date.localeCompare(b.date));
+  return upcomingFirst(
+    EVENTS.filter((e) => {
+      const hay = [e.city, e.region ?? ""].map((s) => s.toLowerCase());
+      return names.some((n) => hay.some((h) => h.includes(n)));
+    }),
+  );
 }

@@ -1,16 +1,21 @@
 "use client";
 import "leaflet/dist/leaflet.css";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, countryLabel, cardBg, eventPath } from "@/lib/data";
+import { EVENTS, countryLabel, cardBg, eventPath, isPast } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 
 const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Free Party", "House"];
 
-export default function MapView({ lang }: { lang: Lang }) {
+export default function MapView({ lang, today }: { lang: Lang; today: string }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
+  // The map is a "where can I go" tool — finished editions have no place on it.
+  const events = useMemo(
+    () => EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
+    [today],
+  );
   const mapEl = useRef<HTMLDivElement>(null);
   const mapRef = useRef<any>(null);
   const markersRef = useRef<Record<number, any>>({});
@@ -28,15 +33,15 @@ export default function MapView({ lang }: { lang: Lang }) {
         attribution: "© OpenStreetMap · © CARTO",
         subdomains: "abcd",
       }).addTo(map);
-      EVENTS.forEach((e) => {
+      events.forEach((e) => {
         const m = L.marker([e.lat, e.lng], {
           icon: L.divIcon({ html: `<div class="map-pin"></div>`, className: "", iconSize: [18, 18] }),
         }).addTo(map);
         m.bindPopup(
           `<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date, lang)} · ${e.city}, ${countryLabel(
             e.country,
-            lang
-          )}</p><a href="${p}${eventPath(e)}">${t("map.viewevent")}</a></div>`
+            lang,
+          )}</p><a href="${p}${eventPath(e)}">${t("map.viewevent")}</a></div>`,
         );
         markersRef.current[e.id] = m;
       });
@@ -45,14 +50,14 @@ export default function MapView({ lang }: { lang: Lang }) {
       if (mapRef.current) mapRef.current.remove();
       inited.current = false;
     };
-  }, [lang, p, t]);
+  }, [lang, p, t, events]);
 
   const applyFilter = (g: string) => {
     setFilter(g);
     const map = mapRef.current;
     if (!map) return;
     Object.entries(markersRef.current).forEach(([id, m]) => {
-      const e = EVENTS.find((x) => x.id === +id)!;
+      const e = events.find((x) => x.id === +id)!;
       const show = g === "all" || e.genres.includes(g);
       if (show) m.addTo(map);
       else map.removeLayer(m);
@@ -60,7 +65,7 @@ export default function MapView({ lang }: { lang: Lang }) {
   };
 
   const focus = (id: number) => {
-    const e = EVENTS.find((x) => x.id === id)!;
+    const e = events.find((x) => x.id === id)!;
     mapRef.current?.flyTo([e.lat, e.lng], 9, { duration: 1.1 });
     markersRef.current[id]?.openPopup();
   };
@@ -76,7 +81,7 @@ export default function MapView({ lang }: { lang: Lang }) {
       </div>
       <div className="map-layout">
         <div className="map-list">
-          {EVENTS.map((e) => (
+          {events.map((e) => (
             <div className="mini" key={e.id} onClick={() => focus(e.id)}>
               <div className="mthumb" style={{ backgroundImage: cardBg(e) }} />
               <div>

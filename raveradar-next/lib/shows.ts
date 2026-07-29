@@ -1,4 +1,4 @@
-import { EVENTS, slugify } from "./data";
+import { EVENTS, slugify, todayISO } from "./data";
 
 export interface Show {
   slug: string; // {artist}-{venue}-{YYYYMMDD}
@@ -10,6 +10,7 @@ export interface Show {
   city: string;
   country: string;
   date: string;
+  endDate: string; // last day of the parent event (== date for one-nighters)
 }
 
 /* One "show" per artist appearance (artist × venue × date) — the JamBase model. */
@@ -26,7 +27,18 @@ function build(): Show[] {
       const slug = `${artistSlug}-${venueSlug}-${d}`;
       if (seen.has(slug)) continue;
       seen.add(slug);
-      shows.push({ slug, artistName, artistSlug, eventId: e.id, venue: e.venue, venueSlug, city: e.city, country: e.country, date: e.date });
+      shows.push({
+        slug,
+        artistName,
+        artistSlug,
+        eventId: e.id,
+        venue: e.venue,
+        venueSlug,
+        city: e.city,
+        country: e.country,
+        date: e.date,
+        endDate: e.endDate ?? e.date,
+      });
     }
   }
   return shows;
@@ -34,7 +46,16 @@ function build(): Show[] {
 
 export const SHOWS: Show[] = build();
 export const showBySlug = (s: string): Show | undefined => SHOWS.find((x) => x.slug === s);
+
+/** Upcoming shows first (soonest → latest), then past ones (most recent → oldest). */
+function byUpcomingFirst(list: Show[]): Show[] {
+  const ref = todayISO();
+  const soon = list.filter((s) => s.endDate >= ref).sort((a, b) => a.date.localeCompare(b.date));
+  const done = list.filter((s) => s.endDate < ref).sort((a, b) => b.date.localeCompare(a.date));
+  return [...soon, ...done];
+}
+
 export const showsForArtist = (artistSlug: string): Show[] =>
-  SHOWS.filter((x) => x.artistSlug === artistSlug).sort((a, b) => a.date.localeCompare(b.date));
+  byUpcomingFirst(SHOWS.filter((x) => x.artistSlug === artistSlug));
 export const showsForVenue = (venueSlug: string): Show[] =>
-  SHOWS.filter((x) => x.venueSlug === venueSlug).sort((a, b) => a.date.localeCompare(b.date));
+  byUpcomingFirst(SHOWS.filter((x) => x.venueSlug === venueSlug));

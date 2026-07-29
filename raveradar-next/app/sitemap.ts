@@ -1,36 +1,69 @@
 import type { MetadataRoute } from "next";
-import { EVENTS, ALL_GENRES, genreSlug, FESTIVALS, eventSlug, eventPath } from "@/lib/data";
+import { EVENTS, ALL_GENRES, genreSlug, eventPath, isPast, todayISO } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
 import { SHOWS } from "@/lib/shows";
 import { VENUES } from "@/lib/venues";
 import { SITE_URL } from "@/lib/site";
 
+type Entry = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
+
+/**
+ * One entry per language-agnostic path; both language variants are emitted, each
+ * declaring the other via `alternates.languages` so the FR and EN trees don't
+ * compete. Priority follows how much the page moves: dated listings change
+ * weekly, a finished edition never does.
+ */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths = new Set<string>(["", "/explore", "/map", "/organizer", "/account", "/genres", "/villes", "/artistes", "/lieux", "/rave-party/ce-week-end", "/rave-party/autour-de-moi"]);
-  ALL_GENRES.forEach((g) => paths.add(`/genres/${genreSlug(g)}`));
+  const entries: Entry[] = [
+    { path: "", priority: 1, changeFrequency: "daily" },
+    { path: "/explore", priority: 0.9, changeFrequency: "daily" },
+    { path: "/rave-party/ce-week-end", priority: 0.9, changeFrequency: "daily" },
+    { path: "/rave-party/autour-de-moi", priority: 0.8, changeFrequency: "daily" },
+    { path: "/villes", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/genres", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/artistes", priority: 0.7, changeFrequency: "weekly" },
+    { path: "/lieux", priority: 0.7, changeFrequency: "weekly" },
+    { path: "/map", priority: 0.6, changeFrequency: "weekly" },
+    { path: "/organizer", priority: 0.5, changeFrequency: "monthly" },
+    { path: "/account", priority: 0.3, changeFrequency: "monthly" },
+  ];
+
+  ALL_GENRES.forEach((g) => entries.push({ path: `/genres/${genreSlug(g)}`, priority: 0.8, changeFrequency: "weekly" }));
   PLACES.forEach((p) => {
-    paths.add(`/rave-party/${p.slug}`);
-    paths.add(`/festival/${p.slug}`);
+    entries.push({ path: `/rave-party/${p.slug}`, priority: 0.9, changeFrequency: "weekly" });
+    entries.push({ path: `/festival/${p.slug}`, priority: 0.8, changeFrequency: "weekly" });
   });
-  FESTIVALS.forEach((e) => paths.add(`/festival/${eventSlug(e)}`));
-  EVENTS.forEach((e) => paths.add(eventPath(e)));
-  ARTISTS.forEach((a) => paths.add(`/artistes/${a.slug}`));
-  VENUES.forEach((v) => paths.add(`/lieux/${v.slug}`));
-  SHOWS.forEach((s) => paths.add(`/show/${s.slug}`));
+  EVENTS.forEach((e) => {
+    const done = isPast(e);
+    entries.push({
+      path: eventPath(e),
+      priority: done ? 0.4 : e.type === "Festival" ? 0.9 : 0.7,
+      changeFrequency: done ? "yearly" : "weekly",
+    });
+  });
+  ARTISTS.forEach((a) => entries.push({ path: `/artistes/${a.slug}`, priority: 0.6, changeFrequency: "weekly" }));
+  VENUES.forEach((v) => entries.push({ path: `/lieux/${v.slug}`, priority: 0.6, changeFrequency: "weekly" }));
+  const today = todayISO();
+  SHOWS.forEach((s) =>
+    entries.push({
+      path: `/show/${s.slug}`,
+      priority: s.endDate < today ? 0.3 : 0.5,
+      changeFrequency: "monthly",
+    })
+  );
 
   const now = new Date();
-  const langs = ["", "/en"];
+  const seen = new Set<string>();
   const out: MetadataRoute.Sitemap = [];
-  for (const path of paths) {
-    for (const l of langs) {
-      out.push({
-        url: `${SITE_URL}${l}${path}` || SITE_URL,
-        lastModified: now,
-        changeFrequency: "weekly",
-        priority: path === "" ? 1 : path.includes("/") ? 0.7 : 0.8,
-      });
-    }
+  for (const { path, priority, changeFrequency } of entries) {
+    if (seen.has(path)) continue;
+    seen.add(path);
+    const fr = `${SITE_URL}${path}`;
+    const en = `${SITE_URL}/en${path}`;
+    const languages = { "fr-FR": fr, "en-GB": en, "x-default": fr };
+    out.push({ url: fr, lastModified: now, changeFrequency, priority, alternates: { languages } });
+    out.push({ url: en, lastModified: now, changeFrequency, priority: priority * 0.9, alternates: { languages } });
   }
   return out;
 }

@@ -2,13 +2,17 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
-import { countryLabel } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
+import { PLACES } from "@/lib/places";
 import { fmtDate } from "@/lib/format";
 import { showsForArtist } from "@/lib/shows";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { artistJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
 
 export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -16,28 +20,45 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const artist = artistBySlug(slug);
   if (!artist) return notFound();
 
+  const today = todayISO();
   const events = eventsForArtist(slug);
+  const live = events.filter((e) => !isPast(e, today));
   const shows = showsForArtist(slug);
-  const related = relatedArtists(artist);
+  const related = relatedArtists(artist, 12);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
+  // Cities the artist plays that we actually have a page for — links the artist mesh
+  // into the geographic mesh without pointing at routes that don't exist.
+  const cities = PLACES.filter((pl) =>
+    events.some((e) =>
+      (pl.match ?? [pl.label]).some((m) => slugify(m) === slugify(e.city) || slugify(m) === slugify(e.region ?? "")),
+    ),
+  );
 
   const intro =
     lang === "fr"
-      ? `${artist.name} est programmé sur ${events.length} événement${events.length > 1 ? "s" : ""} référencé${
-          events.length > 1 ? "s" : ""
-        } sur RaveRadar (${countries}). Découvre ses prochaines dates, line-ups et billetterie.`
-      : `${artist.name} is booked for ${events.length} event${events.length > 1 ? "s" : ""} listed on RaveRadar (${countries}). Discover upcoming dates, line-ups and tickets.`;
+      ? live.length > 0
+        ? `${artist.name} est programmé sur ${live.length} date${live.length > 1 ? "s" : ""} à venir référencée${
+            live.length > 1 ? "s" : ""
+          } sur RaveRadar (${countries}). Découvre les prochains festivals, line-ups et billetterie.`
+        : `${artist.name} n'a pas de date à venir référencée sur RaveRadar pour le moment (${countries}). Retrouve ci-dessous ses dernières apparitions et active une alerte pour être prévenu de la prochaine.`
+      : live.length > 0
+        ? `${artist.name} is booked for ${live.length} upcoming date${live.length > 1 ? "s" : ""} listed on RaveRadar (${countries}). Browse the festivals, line-ups and tickets.`
+        : `${artist.name} has no upcoming dates listed on RaveRadar right now (${countries}). Their latest appearances are below — set an alert to hear about the next one.`;
+
+  const trail: [string, string][] = [
+    [t("nav.artists"), "/artistes"],
+    [artist.name, `/artistes/${artist.slug}`],
+  ];
 
   return (
     <>
+      <JsonLd data={[artistJsonLd(artist.name, artist.slug, live, lang), breadcrumbJsonLd(trail, lang)]} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
       <section className="section" style={{ paddingTop: 48 }}>
         <div className="wrap">
-          <Link href={`${p}/artistes`} style={{ color: "var(--grey)", fontSize: ".9rem" }}>
-            ← {t("nav.artists")}
-          </Link>
+          <Breadcrumbs lang={lang} trail={trail} />
 
           <div style={{ display: "flex", alignItems: "center", gap: 20, margin: "16px 0 10px" }}>
             <div className="avatar">{artist.name.trim()[0]}</div>
@@ -49,7 +70,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
 
           <div className="card-meta" style={{ marginTop: 16 }}>
             {artist.genres.map((g) => (
-              <Link key={g} href={`${p}/genres/${g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}`} className="gpill">
+              <Link key={g} href={`${p}/genres/${genreSlug(g)}`} className="gpill">
                 {g}
               </Link>
             ))}
@@ -70,6 +91,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                   <h4>{s.venue}</h4>
                   <span>
                     {s.city}, {countryLabel(s.country, lang)}
+                    {s.endDate < today && ` · ${t("event.pastbadge")}`}
                   </span>
                 </div>
               </Link>
@@ -81,9 +103,24 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           </h2>
           <div className="grid grid-4">
             {events.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
+              <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}
           </div>
+
+          {cities.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("artist.wherecities")}
+              </h2>
+              <div className="linkfarm">
+                {cities.map((c) => (
+                  <Link key={c.slug} href={`${p}/rave-party/${c.slug}`}>
+                    {artist.name} {c.label}
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
 
           {related.length > 0 && (
             <>

@@ -443,7 +443,7 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 
 /* ----------------------------- FOOTER ---------------------------------- */
 .footer { border-top: 1px solid var(--line); padding-block: 60px 30px; margin-top: 60px; }
-.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
+.footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr; gap: 40px; }
 .footer h5 { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--grey-2); margin-bottom: 16px; }
 .footer a { display: block; color: var(--grey); font-size: .9rem; padding: 5px 0; transition: color .2s; }
 .footer a:hover { color: var(--white); }
@@ -511,3 +511,37 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .artist-tile span { font-size: .74rem; color: var(--grey); }
 @media (max-width: 1024px) { .artist-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .artist-grid { grid-template-columns: 1fr; } }
+
+/* ----------------------------- BREADCRUMBS ----------------------------- */
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .8rem; color: var(--grey); font-family: var(--f-mono); }
+.crumbs a { color: var(--grey); transition: color .2s; }
+.crumbs a:hover { color: var(--cyan); }
+.crumbs .sep { margin: 0 6px; opacity: .5; }
+.crumbs [aria-current="page"] { color: var(--white); }
+
+/* --------------------- PAST EDITIONS / LIVE STATUS --------------------- */
+.notice {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+  padding: 14px 18px; border-radius: var(--r-md); border: 1px solid var(--line);
+  background: var(--anthracite-2); font-size: .92rem; color: var(--grey);
+}
+.notice b { color: var(--white); }
+.notice.live { border-color: var(--cyan); box-shadow: var(--glow-cyan, none); }
+.tag.past { color: var(--grey); }
+.tag.live { color: var(--black); background: var(--cyan); border-color: var(--cyan); }
+.card.is-past .poster { filter: grayscale(.75) brightness(.7); }
+
+/* --------------------------- LINK CLUSTERS ----------------------------- */
+/* Dense internal-linking blocks: related cities, genres, artists, venues. */
+.linkfarm { display: flex; flex-wrap: wrap; gap: 8px; }
+.linkfarm a {
+  font-size: .82rem; padding: 7px 13px; border-radius: 99px;
+  border: 1px solid var(--line); color: var(--grey); background: rgba(255,255,255,.03);
+  transition: border-color .25s, color .25s, transform .25s;
+}
+.linkfarm a:hover { border-color: var(--violet); color: var(--white); transform: translateY(-2px); }
+.linkcols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 24px; }
+.linkcols a { color: var(--grey); font-size: .88rem; padding: 4px 0; display: block; transition: color .2s; }
+.linkcols a:hover { color: var(--cyan); }
+@media (max-width: 1024px) { .linkcols { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .linkcols { grid-template-columns: 1fr; } }

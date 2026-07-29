@@ -14,7 +14,7 @@ export default function MiniMap({ lat, lng }: { lat: number; lng: number }) {
       const L = (await import("leaflet")).default;
       map = L.map(ref.current!, { zoomControl: true, scrollWheelZoom: false, attributionControl: false }).setView(
         [lat, lng],
-        11
+        11,
       );
       L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { subdomains: "abcd" }).addTo(map);
       L.marker([lat, lng], {

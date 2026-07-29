@@ -1,22 +1,22 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, COUNTRIES, COUNTRY_FLAG, countryLabel } from "@/lib/data";
+import { EVENTS, COUNTRY_FLAG, countryLabel, isPast } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import EventCard from "./EventCard";
 
-export default function CountryBrowser({ lang }: { lang: Lang }) {
+export default function CountryBrowser({ lang, today }: { lang: Lang; today: string }) {
   const t = getDict(lang);
   const [active, setActive] = useState<string>("all");
 
-  const list = useMemo(
-    () =>
-      [...EVENTS]
-        .filter((e) => active === "all" || e.country === active)
-        .sort((a, b) => a.date.localeCompare(b.date))
-        .slice(0, 8),
-    [active]
+  /** Only countries that actually have something coming up get a chip. */
+  const live = useMemo(
+    () => EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
+    [today],
   );
+  const countries = useMemo(() => [...new Set(live.map((e) => e.country))].sort(), [live]);
+
+  const list = useMemo(() => live.filter((e) => active === "all" || e.country === active).slice(0, 8), [live, active]);
 
   return (
     <>
@@ -24,12 +24,11 @@ export default function CountryBrowser({ lang }: { lang: Lang }) {
         <span className={`chip ${active === "all" ? "on" : ""}`} onClick={() => setActive("all")}>
           🌍 {t("country.all")}
         </span>
-        {COUNTRIES.map((c) => {
-          const n = EVENTS.filter((e) => e.country === c).length;
+        {countries.map((c) => {
+          const n = live.filter((e) => e.country === c).length;
           return (
             <span key={c} className={`chip ${active === c ? "on" : ""}`} onClick={() => setActive(c)}>
-              {COUNTRY_FLAG[c]} {countryLabel(c, lang)}{" "}
-              <b style={{ opacity: 0.55, fontWeight: 600 }}>{n}</b>
+              {COUNTRY_FLAG[c]} {countryLabel(c, lang)} <b style={{ opacity: 0.55, fontWeight: 600 }}>{n}</b>
             </span>
           );
         })}

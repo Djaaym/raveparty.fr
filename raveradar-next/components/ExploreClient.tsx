@@ -2,7 +2,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath } from "@/lib/data";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, isPast } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
@@ -40,12 +40,15 @@ function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
 export default function ExploreClient({
   lang,
+  today,
   initialGenre = "",
   initialCountry = "",
   initialQ = "",
   initialMonth = "",
 }: {
   lang: Lang;
+  /** Reference date (yyyy-mm-dd) computed on the server so SSR and hydration agree. */
+  today: string;
   initialGenre?: string;
   initialCountry?: string;
   initialQ?: string;
@@ -60,6 +63,8 @@ export default function ExploreClient({
   const [maxPrice, setMaxPrice] = useState(300);
   const [sort, setSort] = useState("date");
   const [view, setView] = useState<"grid" | "list">("grid");
+  // A month filter is an explicit request for that month — don't hide its past dates.
+  const [showPast, setShowPast] = useState(Boolean(initialMonth));
 
   const toggle = (set: Set<string>, setter: (s: Set<string>) => void, v: string) => {
     const next = new Set(set);
@@ -67,8 +72,11 @@ export default function ExploreClient({
     setter(next);
   };
 
+  /** Everything currently in scope date-wise — drives both the results and the facet counts. */
+  const pool = useMemo(() => (showPast ? EVENTS : EVENTS.filter((e) => !isPast(e, today))), [showPast, today]);
+
   const list = useMemo(() => {
-    let r = EVENTS.filter((e) => {
+    let r = pool.filter((e) => {
       if (country && e.country !== country) return false;
       if (month && !e.date.startsWith(month)) return false;
       if (maxPrice < 300 && e.price > maxPrice) return false;
@@ -85,7 +93,7 @@ export default function ExploreClient({
     if (sort === "price-d") r = [...r].sort((a, b) => b.price - a.price);
     if (sort === "az") r = [...r].sort((a, b) => a.title.localeCompare(b.title));
     return r;
-  }, [q, country, month, genres, types, maxPrice, sort]);
+  }, [pool, q, country, month, genres, types, maxPrice, sort]);
 
   const clear = () => {
     setQ("");
@@ -93,6 +101,7 @@ export default function ExploreClient({
     setGenres(new Set());
     setTypes(new Set());
     setMaxPrice(300);
+    setShowPast(false);
   };
 
   return (
@@ -100,7 +109,12 @@ export default function ExploreClient({
       <aside className="filters">
         <div className="filter-group">
           <h4>{t("explore.search")}</h4>
-          <input className="input" value={q} onChange={(e) => setQ(e.target.value)} placeholder={t("explore.search.ph")} />
+          <input
+            className="input"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder={t("explore.search.ph")}
+          />
         </div>
         <div className="filter-group">
           <h4>{t("explore.country")}</h4>
@@ -116,7 +130,7 @@ export default function ExploreClient({
         <div className="filter-group">
           <h4>{t("explore.genre")}</h4>
           {ALL_GENRES.map((g) => {
-            const n = EVENTS.filter((e) => e.genres.includes(g)).length;
+            const n = pool.filter((e) => e.genres.includes(g)).length;
             return (
               <label className="filter-opt" key={g}>
                 <input type="checkbox" checked={genres.has(g)} onChange={() => toggle(genres, setGenres, g)} /> {g}
@@ -128,7 +142,7 @@ export default function ExploreClient({
         <div className="filter-group">
           <h4>{t("explore.type")}</h4>
           {TYPES.map((ty) => {
-            const n = EVENTS.filter((e) => e.type === ty).length;
+            const n = pool.filter((e) => e.type === ty).length;
             return (
               <label className="filter-opt" key={ty}>
                 <input type="checkbox" checked={types.has(ty)} onChange={() => toggle(types, setTypes, ty)} /> {ty}
@@ -150,6 +164,13 @@ export default function ExploreClient({
             value={maxPrice}
             onChange={(e) => setMaxPrice(+e.target.value)}
           />
+        </div>
+        <div className="filter-group">
+          <h4>{t("explore.when")}</h4>
+          <label className="filter-opt">
+            <input type="checkbox" checked={showPast} onChange={() => setShowPast((v) => !v)} /> {t("explore.showpast")}
+            <span className="count">{EVENTS.length - EVENTS.filter((e) => !isPast(e, today)).length}</span>
+          </label>
         </div>
         <button className="btn btn-ghost btn-block btn-sm" style={{ marginTop: 8 }} onClick={clear}>
           {t("explore.clear")}

@@ -11,14 +11,16 @@ export interface RaveEvent {
   country: string;
   lat: number;
   lng: number;
-  date: string; // ISO yyyy-mm-dd
+  date: string; // ISO yyyy-mm-dd — first day
+  endDate?: string; // ISO yyyy-mm-dd — last day (multi-day festivals); defaults to `date`
   time: string;
   price: number;
   currency: string;
   venue: string;
   trending: boolean;
   lineup: string[];
-  desc: string; // base description
+  desc: string; // French description (site is FR-first)
+  descEn?: string; // English description; falls back to `desc` when absent
   region?: string; // French department / region (for /rave-party/{dept} pages)
 }
 

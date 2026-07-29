@@ -13,11 +13,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   const zones = PLACES.filter((x) => x.kind !== "ville");
 
   const Tile = ({ slug, label }: { slug: string; label: string }) => (
-    <Link
-      href={`${p}/rave-party/${slug}`}
-      className="chip"
-      style={{ fontSize: ".95rem", padding: "12px 18px" }}
-    >
+    <Link href={`${p}/rave-party/${slug}`} className="chip" style={{ fontSize: ".95rem", padding: "12px 18px" }}>
       📍 Rave party {label}
     </Link>
   );

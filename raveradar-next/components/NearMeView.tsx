@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS } from "@/lib/data";
+import { EVENTS, isPast } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -12,13 +12,11 @@ const haversine = (lat1: number, lon1: number, lat2: number, lon2: number) => {
   const toRad = (d: number) => (d * Math.PI) / 180;
   const dLat = toRad(lat2 - lat1);
   const dLon = toRad(lon2 - lon1);
-  const a =
-    Math.sin(dLat / 2) ** 2 +
-    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
   return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 };
 
-export default function NearMeView({ lang }: { lang: Lang }) {
+export default function NearMeView({ lang, today }: { lang: Lang; today: string }) {
   const t = getDict(lang);
   const [pos, setPos] = useState<{ lat: number; lng: number } | null>(null);
   const [status, setStatus] = useState<"idle" | "loading" | "denied">("idle");
@@ -35,13 +33,14 @@ export default function NearMeView({ lang }: { lang: Lang }) {
         setStatus("idle");
       },
       () => setStatus("denied"),
-      { enableHighAccuracy: false, timeout: 8000 }
+      { enableHighAccuracy: false, timeout: 8000 },
     );
   };
 
+  const live = EVENTS.filter((e) => !isPast(e, today));
   const withDist: (RaveEvent & { dist?: number })[] = pos
-    ? [...EVENTS].map((e) => ({ ...e, dist: haversine(pos.lat, pos.lng, e.lat, e.lng) })).sort((a, b) => a.dist! - b.dist!)
-    : [...EVENTS].sort((a, b) => a.date.localeCompare(b.date));
+    ? live.map((e) => ({ ...e, dist: haversine(pos.lat, pos.lng, e.lat, e.lng) })).sort((a, b) => a.dist! - b.dist!)
+    : [...live].sort((a, b) => a.date.localeCompare(b.date));
 
   return (
     <>
@@ -62,7 +61,11 @@ export default function NearMeView({ lang }: { lang: Lang }) {
                 {status === "loading" ? t("near.loading") : t("near.btn")}
               </button>
             )}
-            {pos && <p style={{ color: "var(--cyan)", fontFamily: "var(--f-mono)", fontSize: ".85rem" }}>📍 {t("near.sorted")}</p>}
+            {pos && (
+              <p style={{ color: "var(--cyan)", fontFamily: "var(--f-mono)", fontSize: ".85rem" }}>
+                📍 {t("near.sorted")}
+              </p>
+            )}
             {status === "denied" && <p style={{ color: "var(--grey)" }}>{t("near.denied")}</p>}
           </div>
 

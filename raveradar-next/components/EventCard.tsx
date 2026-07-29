@@ -2,19 +2,24 @@
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { cardBg, countryLabel, eventPath } from "@/lib/data";
+import { cardBg, countryLabel, eventPath, isPast, lastDay } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
-import { langPrefix } from "@/lib/i18n";
+import { getDict, langPrefix } from "@/lib/i18n";
 import { useFav } from "./useFavorites";
 
-export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
+export default function EventCard({ e, lang, today }: { e: RaveEvent; lang: Lang; today?: string }) {
   const { on, toggle } = useFav(e.id);
   const router = useRouter();
+  const t = getDict(lang);
   const href = `${langPrefix(lang)}${eventPath(e)}`;
+  // `today` is passed down from the server where the distinction matters on screen;
+  // without it the card just renders neutrally.
+  const done = today ? isPast(e, today) : false;
+  const multiDay = lastDay(e) !== e.date;
 
   return (
     <motion.article
-      className="card"
+      className={`card${done ? " is-past" : ""}`}
       style={{ cursor: "pointer" }}
       onClick={() => router.push(href)}
       whileHover={{ y: -6 }}
@@ -24,7 +29,7 @@ export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
       <div className="card-media">
         <div className="poster" style={{ backgroundImage: cardBg(e) }} />
         <div className="card-top">
-          <span className="tag type">{e.type}</span>
+          <span className={`tag ${done ? "past" : "type"}`}>{done ? t("event.pastbadge") : e.type}</span>
           <button
             className={`fav ${on ? "on" : ""}`}
             onClick={(ev) => {
@@ -38,7 +43,9 @@ export default function EventCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
         </div>
         <div className="card-body">
           <div className="card-date">
-            {fmtDate(e.date, lang)} · {e.time}
+            {multiDay
+              ? `${fmtDate(e.date, lang)} → ${fmtDate(lastDay(e), lang)}`
+              : `${fmtDate(e.date, lang)} · ${e.time}`}
           </div>
           <h3 className="card-title">{e.title}</h3>
           <div className="card-loc">

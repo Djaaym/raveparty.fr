@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { EVENTS, ALL_GENRES, GENRES, genreDescL } from "@/lib/data";
+import { ALL_GENRES, COUNTRIES, GENRES, genreSlug, genreDescL, upcoming, todayISO } from "@/lib/data";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -9,20 +9,28 @@ import Reveal from "./Reveal";
 import EventCard from "./EventCard";
 import CountryBrowser from "./CountryBrowser";
 import CtaForm from "./CtaForm";
+import JsonLd from "./JsonLd";
+import { siteJsonLd } from "@/lib/seo";
+import { PLACES } from "@/lib/places";
 
 const MARQUEE = ["TECHNO", "HARDSTYLE", "DRUM & BASS", "PSYTRANCE", "FREE PARTY", "ACID", "WAREHOUSE"];
 
 export default function Home({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
-  const trending = EVENTS.filter((e) => e.trending);
+  const today = todayISO();
+  const live = upcoming();
+  // Highlight the trending events that are still ahead; top up with the next dates so the
+  // grid never thins out at the tail of a season.
+  const trending = [...live.filter((e) => e.trending), ...live.filter((e) => !e.trending)].slice(0, 8);
 
   return (
     <>
+      <JsonLd data={siteJsonLd(lang)} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
-      <Hero lang={lang} />
+      <Hero lang={lang} count={live.length} countries={COUNTRIES.length} />
 
       {/* marquee */}
       <div className="marquee">
@@ -51,7 +59,7 @@ export default function Home({ lang }: { lang: Lang }) {
           </Reveal>
           <div className="grid grid-4">
             {trending.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
+              <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}
           </div>
         </div>
@@ -70,7 +78,7 @@ export default function Home({ lang }: { lang: Lang }) {
               </div>
             </div>
           </Reveal>
-          <CountryBrowser lang={lang} />
+          <CountryBrowser lang={lang} today={today} />
         </div>
       </section>
 
@@ -90,9 +98,9 @@ export default function Home({ lang }: { lang: Lang }) {
           <div className="genres">
             {ALL_GENRES.map((g) => {
               const k = GENRES[g];
-              const n = EVENTS.filter((e) => e.genres.includes(g)).length;
+              const n = live.filter((e) => e.genres.includes(g)).length;
               return (
-                <Link className="genre" key={g} href={`${p}/explore?genre=${encodeURIComponent(g)}`}>
+                <Link className="genre" key={g} href={`${p}/genres/${genreSlug(g)}`}>
                   <span
                     style={{
                       position: "absolute",
@@ -193,6 +201,39 @@ export default function Home({ lang }: { lang: Lang }) {
                 {t("plan.promoter.cta")}
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* geo links — pushes authority from the home page down to the place pages */}
+      <section className="section">
+        <div className="wrap">
+          <Reveal>
+            <div className="section-head">
+              <div>
+                <span className="eyebrow">{t("cities.eyebrow")}</span>
+                <h2 className="h-lg" style={{ marginTop: 14 }}>
+                  {t("cities.title")}
+                </h2>
+              </div>
+              <Link href={`${p}/villes`} className="btn btn-ghost">
+                {t("trending.cta")}
+              </Link>
+            </div>
+          </Reveal>
+          <div className="linkcols">
+            {PLACES.map((x) => (
+              <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
+                Rave party {x.label}
+              </Link>
+            ))}
+          </div>
+          <div className="linkfarm" style={{ marginTop: 24 }}>
+            <Link href={`${p}/rave-party/ce-week-end`}>📅 {t("soon.title")}</Link>
+            <Link href={`${p}/rave-party/autour-de-moi`}>📍 {t("near.title")}</Link>
+            <Link href={`${p}/artistes`}>{t("nav.artists")}</Link>
+            <Link href={`${p}/lieux`}>{t("nav.venues")}</Link>
+            <Link href={`${p}/map`}>{t("nav.map")}</Link>
           </div>
         </div>
       </section>

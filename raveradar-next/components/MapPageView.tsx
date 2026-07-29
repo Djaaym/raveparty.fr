@@ -1,4 +1,5 @@
 import type { Lang } from "@/lib/types";
+import { todayISO } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -18,7 +19,7 @@ export default function MapPageView({ lang }: { lang: Lang }) {
             {t("map.title")}
           </h1>
           <p className="lead">{t("map.lead")}</p>
-          <MapView lang={lang} />
+          <MapView lang={lang} today={todayISO()} />
         </div>
       </section>
       <Footer lang={lang} />
