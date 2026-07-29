@@ -56,11 +56,15 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
             rejected.append((fn, e["title"], f"bad genre {bad}")); continue
         if (e.get("endDate") or e["date"]) < "2026-07-29":
             rejected.append((fn, e["title"], "already over")); continue
+        # Normalise BEFORE the dedup key: a title carrying its edition year
+        # ("Sziget Festival 2026") must match the stored "Sziget Festival",
+        # otherwise an already-merged event comes back as a duplicate.
+        e["title"] = re.sub(r"\s+20[0-9][0-9]$", "", e["title"])
+        e["city"] = CITY_FIX.get(e["city"], e["city"])
+        e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
         key = (norm(e["title"]), e["date"][:4])
         if key in existing or key in seen:
             skipped.append((fn, e["title"], e["date"])); continue
-        e["city"] = CITY_FIX.get(e["city"], e["city"])
-        e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
         seen.add(key); rows.append(e); kept += 1
     print(f"  {fn}: {len(data)} in, {kept} kept")
 

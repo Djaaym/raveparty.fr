@@ -1,5 +1,139 @@
 [
   {
+    "title": "Solar Weekend Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "EDM"
+    ],
+    "city": "Roermond",
+    "country": "Netherlands",
+    "lat": 51.2069,
+    "lng": 5.978,
+    "date": "2026-07-30",
+    "endDate": "2026-08-02",
+    "time": "12:00",
+    "price": 42.25,
+    "currency": "€",
+    "venue": "Maasplassen / De Weerd",
+    "trending": true,
+    "lineup": [
+      "Yellow Claw",
+      "Benny Rodrigues",
+      "Prunk",
+      "Kyle Starkey",
+      "Morgan Seatree",
+      "Tjade",
+      "Stef Davidse",
+      "Leyo",
+      "Yung Felix",
+      "Lil Kleine",
+      "Rocketman",
+      "Qlas"
+    ],
+    "desc": "Quatre jours et trois nuits au bord des Maasplassen à Roermond, avec camping : plusieurs areas (De Kern, De Pit, Avenida Desperados) partagées entre house, techno et rap néerlandais.",
+    "descEn": "Four days and three nights beside the Maasplassen lakes in Roermond, with camping: several arenas (De Kern, De Pit, Avenida Desperados) split between house, techno and Dutch rap.",
+    "ticketUrl": "https://solarweekend.com/",
+    "sources": [
+      "https://solarweekend.com/",
+      "https://www.songkick.com/festivals/268743-solar-weekend/id/43188024-solar-weekend-festival-2026"
+    ],
+    "note": "Le site officiel annonce un « retourtje Solar » à partir de 42,25 € par jour ; tarif d'entrée exact non vérifié."
+  },
+  {
+    "title": "Paradigm Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Groningen",
+    "country": "Netherlands",
+    "lat": 53.2103,
+    "lng": 6.5439,
+    "date": "2026-08-08",
+    "endDate": "2026-08-09",
+    "time": "13:00",
+    "price": 38,
+    "currency": "€",
+    "venue": "Terrain de l'ancienne Suikerunie, Suikerlaan 2",
+    "trending": true,
+    "lineup": [
+      "Ben Sims",
+      "Cassy",
+      "Carista",
+      "Roman Flügel",
+      "Roza Terenzi",
+      "Ryan Elliott",
+      "Mathew Jonson",
+      "Sandrien",
+      "Quelza",
+      "Phara",
+      "Virginia",
+      "Alex Kassian",
+      "Kerrie",
+      "Elias Mazian",
+      "Nathan Homan",
+      "Audrey Danza",
+      "Rey Colino",
+      "Plo Man",
+      "Tauceti",
+      "Tymon"
+    ],
+    "desc": "Le grand rendez-vous électronique du nord des Pays-Bas, sur le site industriel de l'ancienne sucrerie Suikerunie à Groningue : deux jours, neuf scènes et plus de 65 artistes, du samedi 13h au dimanche 23h.",
+    "descEn": "The main electronic music event in the north of the Netherlands, on the industrial grounds of the former Suikerunie sugar factory in Groningen: two days, nine stages and more than 65 artists, from Saturday 1pm to Sunday 11pm.",
+    "ticketUrl": "https://www.paradigmfestival.com/",
+    "sources": [
+      "https://www.paradigmfestival.com/",
+      "https://www.festivalinfo.nl/festival/36335/Paradigm-Festival/2026/",
+      "https://www.djguide.nl/party.p/536446/paradigm-festival-2026"
+    ],
+    "note": "Tarif indicatif, non vérifié (pass week-end annoncé autour de 38 € en prévente, hors frais). Le samedi est annoncé complet."
+  },
+  {
+    "title": "WECANDANCE",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Zeebrugge",
+    "country": "Belgium",
+    "lat": 51.3279,
+    "lng": 3.174,
+    "date": "2026-08-14",
+    "endDate": "2026-08-16",
+    "time": "12:00",
+    "price": 89,
+    "currency": "€",
+    "venue": "Plage de Zeebrugge, Zeedijk",
+    "trending": true,
+    "lineup": [
+      "Sara Landry",
+      "Marlon Hoffstadt",
+      "Damian Lazarus",
+      "Skream",
+      "Benga",
+      "Yung Singh",
+      "BASHKKA",
+      "BIIANCO",
+      "Emilija",
+      "RYOTA",
+      "Benwal"
+    ],
+    "desc": "Trois jours sur la plage de Zeebrugge, à Bruges : sept scènes, plus de 150 artistes et environ 60 000 festivaliers, avec camping. Le festival mêle électronique, mode et design.",
+    "descEn": "Three days on Zeebrugge beach, in Bruges: seven stages, more than 150 artists and around 60,000 festival-goers, with camping. The festival mixes electronic music, fashion and design.",
+    "ticketUrl": "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276",
+    "sources": [
+      "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276",
+      "https://www.visitbruges.be/en/whats-on/events-calendar/wecandance-1",
+      "https://ra.co/events/2318797"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
     "title": "XRDS – Crossroads Festival",
     "type": "Festival",
     "genres": [
@@ -51,6 +185,113 @@
     "note": "Billet journée à partir de 59 € (tarif communauté), combi deux jours 80 €."
   },
   {
+    "title": "C12 Nite w/ Sandrien",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-15",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": [
+      "Sandrien",
+      "Bored Bouddha",
+      "Amalie & Hank"
+    ],
+    "desc": "Nuit du samedi au dimanche au C12, club installé dans les sous-sols de la galerie Horta entre la Grand-Place et la gare Centrale de Bruxelles, avec la Néerlandaise Sandrien en tête d'affiche.",
+    "descEn": "A Saturday-into-Sunday night at C12, the club buried under Brussels' Horta gallery between the Grand-Place and Central Station, headlined by Dutch DJ Sandrien.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Pukkelpop",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "EDM"
+    ],
+    "city": "Hasselt",
+    "country": "Belgium",
+    "lat": 50.9545,
+    "lng": 5.3491,
+    "date": "2026-08-20",
+    "endDate": "2026-08-23",
+    "time": "12:00",
+    "price": 134,
+    "currency": "€",
+    "venue": "Festivalpark Kiewit",
+    "trending": true,
+    "lineup": [
+      "Underworld",
+      "Soulwax",
+      "Kölsch",
+      "John Summit",
+      "Adriatique",
+      "Dom Dolla",
+      "Chris Stussy",
+      "KETTAMA",
+      "Funk Tribu",
+      "Joy Orbison",
+      "Purple Disco Machine",
+      "BLOND:ISH",
+      "KI/KI",
+      "Maribou State",
+      "Apparat",
+      "Mala"
+    ],
+    "desc": "Quatre jours au Festivalpark Kiewit, à Hasselt. Au-delà de l'affiche rock et pop (Tyler, The Creator, Deftones, Florence + The Machine), le volet électronique réunit Underworld, Soulwax, Kölsch en live, John Summit, Adriatique et Dom Dolla. Billets journée à 134 €, combi à 287 €.",
+    "descEn": "Four days at Festivalpark Kiewit in Hasselt. Beyond the rock and pop bill (Tyler, The Creator, Deftones, Florence + The Machine), the electronic side gathers Underworld, Soulwax, Kölsch live, John Summit, Adriatique and Dom Dolla. Day tickets €134, four-day combi €287.",
+    "ticketUrl": "https://www.pukkelpop.be/en/",
+    "sources": [
+      "https://www.pukkelpop.be/en/",
+      "https://www.pukkelpop.be/en/news/ticket-prices",
+      "https://www.livenation.be/event/pukkelpop-2026-hasselt-tickets-edp1647005"
+    ],
+    "note": "Billets journée et combi annoncés complets sur le site officiel."
+  },
+  {
+    "title": "C12 Nite w/ Paramida",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-22",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": [
+      "Paramida",
+      "Kathleen C",
+      "Softy"
+    ],
+    "desc": "La Berlinoise Paramida, patronne du label Love On The Rocks, en tête d'affiche d'une nuit du C12, dans les sous-sols de la galerie Horta à Bruxelles.",
+    "descEn": "Berlin's Paramida, head of the Love On The Rocks label, headlines a night at C12, in the basements of Brussels' Horta gallery.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
     "title": "Fuse presents Dan Shake & Luke Alessi",
     "type": "Club",
     "genres": [
@@ -78,6 +319,38 @@
     "ticketUrl": "https://www.fuse.be/events",
     "sources": [
       "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "C12 x Gimic x Circle Park Open Air",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-29",
+    "time": "14:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Circle Park + C12",
+    "trending": false,
+    "lineup": [
+      "Ok Williams",
+      "Bitter Babe",
+      "NMSS",
+      "Audrey Danza",
+      "Sansibar"
+    ],
+    "desc": "Journée en plein air au Circle Park de Bruxelles montée par le C12 et le collectif Gimic, prolongée la nuit par une afterparty au club. Ok Williams et Bitter Babe en tête d'affiche.",
+    "descEn": "An open-air day at Brussels' Circle Park put together by C12 and the Gimic collective, continued that night with an afterparty at the club. Ok Williams and Bitter Babe headline.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
     ],
     "note": "Tarif indicatif, non vérifié."
   },
@@ -156,6 +429,49 @@
     "note": "Tarif indicatif, non vérifié."
   },
   {
+    "title": "Draaimolen Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "lat": 51.605,
+    "lng": 5.106,
+    "date": "2026-09-04",
+    "endDate": "2026-09-05",
+    "time": "13:00",
+    "price": 110,
+    "currency": "€",
+    "venue": "MOB Complex",
+    "trending": true,
+    "lineup": [
+      "Shygirl",
+      "Anthony Rother",
+      "Kangding Ray",
+      "The Necks",
+      "Fred P",
+      "DJ Firmeza",
+      "DJ Lycox",
+      "DJ Narciso",
+      "Kelman Duran",
+      "DJ Playero",
+      "K-LONE",
+      "OK EG",
+      "John T. Gast"
+    ],
+    "desc": "Festival indépendant et sans but lucratif dans un ancien complexe militaire boisé au nord de Tilburg. Édition 2026 complète, réservée aux plus de 18 ans, avec un camping et une programmation résolument expérimentale (Shygirl en live, Anthony Rother en DATAPUNK, la carte blanche TraTraTrax sur la scène The Pit).",
+    "descEn": "An independent, non-profit festival in a wooded former military complex north of Tilburg. The 2026 edition is sold out, strictly 18+, with camping and a deliberately experimental bill (Shygirl live, Anthony Rother as DATAPUNK, a TraTraTrax takeover of The Pit stage).",
+    "ticketUrl": "https://www.draaimolen.nu/",
+    "sources": [
+      "https://www.draaimolen.nu/events/camping-2026/",
+      "https://ra.co/news/85541",
+      "https://www.songkick.com/festivals/1110218-draaimolen"
+    ],
+    "note": "Complet (sold out). Tarif indicatif, non vérifié."
+  },
+  {
     "title": "Fuse presents Hadone curates: Nørbak & Tauceti",
     "type": "Club",
     "genres": [
@@ -216,6 +532,42 @@
     "ticketUrl": "https://maassilo.com/dance/agenda/",
     "sources": [
       "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Supremacy – State of Distortion",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "'s-Hertogenbosch",
+    "country": "Netherlands",
+    "lat": 51.7001,
+    "lng": 5.2903,
+    "date": "2026-09-26",
+    "time": "13:00",
+    "price": 65,
+    "currency": "€",
+    "venue": "Brabanthallen",
+    "trending": true,
+    "lineup": [
+      "Radical Redemption",
+      "Warface",
+      "Act of Rage",
+      "Dual Damage",
+      "The Saints",
+      "Adjuzt",
+      "Omnya"
+    ],
+    "desc": "Édition « State of Distortion » de Supremacy aux Brabanthallen de Bois-le-Duc, de 13h à 23h, réservée aux 18 ans et plus. Le rendez-vous raw hardstyle remet en avant Radical Redemption, Warface et Act of Rage aux côtés de la nouvelle génération du genre.",
+    "descEn": "Supremacy's \"State of Distortion\" edition at the Brabanthallen in 's-Hertogenbosch, 1pm to 11pm, strictly 18+. The raw hardstyle gathering brings back Radical Redemption, Warface and Act of Rage alongside the genre's new generation.",
+    "ticketUrl": "https://www.supremacy.nl/nl/tickets",
+    "sources": [
+      "https://www.supremacy.nl/nl",
+      "https://hardstyle.com/en/news/supremacy-s-2026-lineup-turns-heads",
+      "https://guestzone.nl/party-agenda/supremacy-2026-state-of-disortion-26-09-2026-brabanthallen-s-hertogenbosch"
     ],
     "note": "Tarif indicatif, non vérifié."
   },
@@ -545,6 +897,58 @@
     "note": "Dates confirmées sur le site officiel (26 + 27 février 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
   },
   {
+    "title": "Masters of Hardcore – The Masterplan",
+    "type": "Festival",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "'s-Hertogenbosch",
+    "country": "Netherlands",
+    "lat": 51.7001,
+    "lng": 5.2903,
+    "date": "2027-03-27",
+    "time": "13:00",
+    "price": 75,
+    "currency": "€",
+    "venue": "Brabanthallen",
+    "trending": true,
+    "lineup": [],
+    "desc": "Édition 2027 « The Masterplan » de Masters of Hardcore, la plus ancienne marque hardcore néerlandaise, aux Brabanthallen de Bois-le-Duc, de 13h à 23h. Capacité d'environ 15 000 personnes ; programmation non annoncée.",
+    "descEn": "The 2027 \"The Masterplan\" edition of Masters of Hardcore, the oldest Dutch hardcore brand, at the Brabanthallen in 's-Hertogenbosch, 1pm to 11pm. Capacity around 15,000; the line-up has not been announced.",
+    "ticketUrl": "https://www.mastersofhardcore.com/events",
+    "sources": [
+      "https://www.mastersofhardcore.com/events"
+    ],
+    "note": "Date, lieu et horaires confirmés sur le site officiel. Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Extrema Outdoor Belgium",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Houthalen-Helchteren",
+    "country": "Belgium",
+    "lat": 51.0327,
+    "lng": 5.4225,
+    "date": "2027-05-14",
+    "endDate": "2027-05-16",
+    "time": "12:00",
+    "price": 89,
+    "currency": "€",
+    "venue": "De Plas",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le plus ancien festival de musique électronique en plein air du Benelux revient trois jours au bord du lac De Plas, à Houthalen-Helchteren en Limbourg belge. Dates 2027 confirmées sur le site officiel ; programmation non annoncée.",
+    "descEn": "The Benelux's longest-running open-air electronic music festival returns for three days by the De Plas lake in Houthalen-Helchteren, Belgian Limburg. The 2027 dates are confirmed on the official site; the line-up has not been announced.",
+    "ticketUrl": "https://www.extrema.be/en/",
+    "sources": [
+      "https://www.extrema.be/en/"
+    ],
+    "note": "Dates confirmées sur le site officiel (14-15-16 mai 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
     "title": "Toffler Festival",
     "type": "Festival",
     "genres": [
@@ -570,5 +974,33 @@
       "https://festivalfans.nl/event/toffler-festival/"
     ],
     "note": "Date annoncée sur le site officiel (29.05.27). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Intents Festival",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Oisterwijk",
+    "country": "Netherlands",
+    "lat": 51.5711,
+    "lng": 5.1793,
+    "date": "2027-06-04",
+    "endDate": "2027-06-06",
+    "time": "12:00",
+    "price": 135,
+    "currency": "€",
+    "venue": "Festivalterrein Oisterwijk, Sportlaan 10",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le grand week-end hardstyle du Brabant-Septentrional, avec camping, sur le terrain de la Sportlaan à Oisterwijk. Trois jours et une dizaine de scènes ; la programmation 2027 n'est pas encore dévoilée.",
+    "descEn": "North Brabant's flagship hardstyle weekend, with camping, on the Sportlaan festival grounds in Oisterwijk. Three days and around ten stages; the 2027 line-up has not yet been revealed.",
+    "ticketUrl": "https://www.intentsfestival.nl/en/",
+    "sources": [
+      "https://www.intentsfestival.nl/en/festival-info/",
+      "https://www.visitbrabant.com/en/events/3121668560/intents-festival"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non annoncé."
   }
 ]
