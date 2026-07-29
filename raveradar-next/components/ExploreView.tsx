@@ -1,4 +1,5 @@
 import type { Lang } from "@/lib/types";
+import { todayISO } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -23,6 +24,7 @@ export default function ExploreView({ lang, searchParams }: { lang: Lang; search
           <p className="lead">{t("explore.lead")}</p>
           <ExploreClient
             lang={lang}
+            today={todayISO()}
             initialGenre={one(searchParams.genre)}
             initialCountry={one(searchParams.country)}
             initialQ={one(searchParams.q)}

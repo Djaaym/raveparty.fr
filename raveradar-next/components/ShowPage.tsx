@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS, cardBg, countryLabel, ticketUrl, slugify, eventPath } from "@/lib/data";
+import { EVENTS, cardBg, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
@@ -10,6 +10,9 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import MiniMap from "./MiniMap";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
+import { breadcrumbJsonLd, eventJsonLd } from "@/lib/seo";
 
 export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -20,28 +23,39 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   if (!e) return notFound();
 
   const eventHref = `${p}${eventPath(e)}`;
-  const otherDates = showsForArtist(show.artistSlug).filter((s) => s.slug !== show.slug).slice(0, 6);
-  const sameVenue = eventsForVenue(show.venueSlug).filter((x) => x.id !== e.id).slice(0, 4);
+  const today = todayISO();
+  const done = isPast(e, today);
+  const trail: [string, string][] = [
+    [t("nav.artists"), "/artistes"],
+    [show.artistName, `/artistes/${show.artistSlug}`],
+    [`${show.venue} · ${fmtDate(e.date, lang)}`, `/show/${show.slug}`],
+  ];
+  const otherDates = showsForArtist(show.artistSlug)
+    .filter((s) => s.slug !== show.slug)
+    .slice(0, 6);
+  const sameVenue = eventsForVenue(show.venueSlug)
+    .filter((x) => x.id !== e.id)
+    .slice(0, 4);
 
   return (
     <>
+      <JsonLd data={[eventJsonLd(e, lang), breadcrumbJsonLd(trail, lang)]} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
       <section className="section" style={{ paddingTop: 32 }}>
         <div className="wrap">
-          <Link href={`${p}/artistes/${show.artistSlug}`} style={{ color: "var(--grey)", fontSize: ".9rem" }}>
-            ← {show.artistName}
-          </Link>
+          <Breadcrumbs lang={lang} trail={trail} />
 
           <div className="event-hero" style={{ marginTop: 16, minHeight: "44vh" }}>
             <div className="bg" style={{ backgroundImage: cardBg(e) }} />
             <div>
               <div className="event-hero-meta">
+                {done && <span className="tag past">{t("event.pastbadge")}</span>}
                 {e.genres.map((g) => (
-                  <span className="tag type" key={g}>
+                  <Link className="tag type" key={g} href={`${p}/genres/${genreSlug(g)}`}>
                     {g}
-                  </span>
+                  </Link>
                 ))}
               </div>
               <h1 className="h-xl" style={{ fontSize: "clamp(2rem,5.5vw,4rem)" }}>
@@ -63,7 +77,11 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                 <h2 className="h-md">{t("show.fulllineup")}</h2>
                 <div className="lineup" style={{ marginTop: 14 }}>
                   {e.lineup.map((a, i) => (
-                    <Link href={`${p}/artistes/${slugify(a.trim())}`} className={`artist ${a.trim() === show.artistName ? "headliner" : ""}`} key={a}>
+                    <Link
+                      href={`${p}/artistes/${slugify(a.trim())}`}
+                      className={`artist ${a.trim() === show.artistName ? "headliner" : ""}`}
+                      key={a}
+                    >
                       <div className="av">{a.trim()[0]}</div>
                       <div>
                         <b>{a.trim()}</b>
@@ -120,8 +138,18 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                     {show.city}, {countryLabel(show.country, lang)}
                   </b>
                 </div>
-                {ticketUrl(e) ? (
-                  <a href={ticketUrl(e)!} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-block" style={{ marginTop: 18 }}>
+                {done ? (
+                  <div className="btn btn-ghost btn-block" style={{ marginTop: 18, cursor: "default" }}>
+                    {t("event.pastbadge")}
+                  </div>
+                ) : ticketUrl(e) ? (
+                  <a
+                    href={ticketUrl(e)!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary btn-block"
+                    style={{ marginTop: 18 }}
+                  >
                     {t("show.tickets")}
                   </a>
                 ) : (
@@ -129,7 +157,11 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                     {t("event.freeentry")}
                   </div>
                 )}
-                <Link href={`${p}/lieux/${show.venueSlug}`} className="btn btn-ghost btn-block" style={{ marginTop: 10 }}>
+                <Link
+                  href={`${p}/lieux/${show.venueSlug}`}
+                  className="btn btn-ghost btn-block"
+                  style={{ marginTop: 10 }}
+                >
                   {show.venue} →
                 </Link>
               </div>
@@ -144,7 +176,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
               </h2>
               <div className="grid grid-4">
                 {sameVenue.map((x) => (
-                  <EventCard key={x.id} e={x} lang={lang} />
+                  <EventCard key={x.id} e={x} lang={lang} today={today} />
                 ))}
               </div>
             </>

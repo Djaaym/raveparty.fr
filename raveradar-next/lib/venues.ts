@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS, slugify } from "./data";
+import { EVENTS, slugify, upcomingFirst } from "./data";
 
 export interface Venue {
   slug: string;
@@ -28,4 +28,4 @@ function build(): Venue[] {
 export const VENUES: Venue[] = build();
 export const venueBySlug = (s: string): Venue | undefined => VENUES.find((v) => v.slug === s);
 export const eventsForVenue = (slug: string): RaveEvent[] =>
-  EVENTS.filter((e) => slugify(e.venue) === slug).sort((a, b) => a.date.localeCompare(b.date));
+  upcomingFirst(EVENTS.filter((e) => slugify(e.venue) === slug));

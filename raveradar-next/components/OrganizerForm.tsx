@@ -155,7 +155,9 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
               <div className="card-body">
                 <div className="card-date">DATE · TIME</div>
                 <h3 className="card-title">{title || t("org.preview.title")}</h3>
-                <div className="card-loc">📍 {t("org.f.city")}, {t("org.f.country")}</div>
+                <div className="card-loc">
+                  📍 {t("org.f.city")}, {t("org.f.country")}
+                </div>
               </div>
             </div>
           </article>

@@ -10,7 +10,7 @@ import { COUNTRIES, ALL_GENRES, countryLabel } from "@/lib/data";
 const HERO_IMG =
   "https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/hf_20260604_115823_221ae9a2-2422-4def-ae5a-a9a4d6b1ace9.png";
 
-export default function Hero({ lang }: { lang: Lang }) {
+export default function Hero({ lang, count, countries }: { lang: Lang; count: number; countries: number }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const router = useRouter();
@@ -31,7 +31,12 @@ export default function Hero({ lang }: { lang: Lang }) {
 
   return (
     <header className="hero">
-      <div className="hero-photo" style={{ backgroundImage: `linear-gradient(180deg, rgba(5,6,8,.35) 0%, rgba(5,6,8,.65) 60%, var(--black) 100%), url(${HERO_IMG})` }} />
+      <div
+        className="hero-photo"
+        style={{
+          backgroundImage: `linear-gradient(180deg, rgba(5,6,8,.35) 0%, rgba(5,6,8,.65) 60%, var(--black) 100%), url(${HERO_IMG})`,
+        }}
+      />
       <div className="hero-grid" />
       <div className="wrap hero-center">
         <motion.div
@@ -40,7 +45,8 @@ export default function Hero({ lang }: { lang: Lang }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="live" /> {t("hero.badge")}
+          <span className="live" />{" "}
+          {t("hero.badge").replace("{n}", String(count)).replace("{c}", String(countries))}
         </motion.div>
         <motion.h1
           className="h-xl"

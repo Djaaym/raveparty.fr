@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS } from "./data";
+import { EVENTS, slugify, upcomingFirst } from "./data";
 
 export type PlaceKind = "ville" | "departement" | "region";
 
@@ -46,15 +46,35 @@ export const PLACES: Place[] = [
   { slug: "aveyron", label: "Aveyron", kind: "departement", vol: 320 },
   { slug: "bretagne", label: "Bretagne", kind: "region", vol: 720 },
   { slug: "loire-atlantique", label: "Loire-Atlantique", kind: "departement", vol: 390 },
+  // Departments the calendar now actually covers — each one has at least one dated event.
+  { slug: "vaucluse", label: "Vaucluse", kind: "departement", vol: 260 },
+  { slug: "bouches-du-rhone", label: "Bouches-du-Rhône", kind: "departement", vol: 320 },
+  { slug: "alpes-maritimes", label: "Alpes-Maritimes", kind: "departement", vol: 260 },
+  { slug: "gironde", label: "Gironde", kind: "departement", vol: 320 },
+  { slug: "nord", label: "Nord", kind: "departement", vol: 390 },
+  { slug: "ille-et-vilaine", label: "Ille-et-Vilaine", kind: "departement", vol: 260 },
+  { slug: "seine-et-marne", label: "Seine-et-Marne", kind: "departement", vol: 260 },
+  { slug: "seine-saint-denis", label: "Seine-Saint-Denis", kind: "departement", vol: 210 },
+  { slug: "yvelines", label: "Yvelines", kind: "departement", vol: 210 },
+  { slug: "haute-savoie", label: "Haute-Savoie", kind: "departement", vol: 260 },
+  { slug: "allier", label: "Allier", kind: "departement", vol: 210 },
+  { slug: "ardeche", label: "Ardèche", kind: "departement", vol: 260 },
+  { slug: "calvados", label: "Calvados", kind: "departement", vol: 210 },
+  { slug: "orne", label: "Orne", kind: "departement", vol: 320 },
+  { slug: "rhone", label: "Rhône", kind: "departement", vol: 320 },
 ];
 
 export const placeBySlug = (slug: string): Place | undefined => PLACES.find((p) => p.slug === slug);
 
-/** Events located in a given place (matched by city name or French region/department). */
+/** Events located in a given place (matched by city name or French region/department).
+ *  Matching is on whole slugs, not substrings — "Ain" is a substring of "Saintes",
+ *  and "Nord" of plenty of city names. */
 export function eventsForPlace(p: Place): RaveEvent[] {
-  const names = (p.match ?? [p.label]).map((s) => s.toLowerCase());
-  return EVENTS.filter((e) => {
-    const hay = [e.city, e.region ?? ""].map((s) => s.toLowerCase());
-    return names.some((n) => hay.some((h) => h.includes(n)));
-  }).sort((a, b) => a.date.localeCompare(b.date));
+  const names = (p.match ?? [p.label]).map(slugify);
+  return upcomingFirst(
+    EVENTS.filter((e) => {
+      const hay = [slugify(e.city), slugify(e.region ?? "")];
+      return names.some((n) => hay.includes(n));
+    }),
+  );
 }

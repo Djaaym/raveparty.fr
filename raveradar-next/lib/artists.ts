@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS, slugify } from "./data";
+import { EVENTS, slugify, upcomingFirst } from "./data";
 
 export interface Artist {
   slug: string;
@@ -37,7 +37,7 @@ export const ARTISTS: Artist[] = buildArtists();
 export const artistBySlug = (slug: string): Artist | undefined => ARTISTS.find((a) => a.slug === slug);
 
 export const eventsForArtist = (slug: string): RaveEvent[] =>
-  EVENTS.filter((e) => e.lineup.some((n) => slugify(n.trim()) === slug)).sort((a, b) => a.date.localeCompare(b.date));
+  upcomingFirst(EVENTS.filter((e) => e.lineup.some((n) => slugify(n.trim()) === slug)));
 
 /** Other artists that share at least one genre (for the internal-linking "discover" block). */
 export const relatedArtists = (a: Artist, limit = 6): Artist[] =>

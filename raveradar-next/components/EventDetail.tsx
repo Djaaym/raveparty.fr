@@ -1,62 +1,139 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, GENRES, cardBg, countryLabel, eventDescL, slugify, ticketUrl } from "@/lib/data";
+import {
+  EVENTS,
+  GENRES,
+  cardBg,
+  countryLabel,
+  eventDescL,
+  eventPath,
+  genreSlug,
+  isLive,
+  isPast,
+  lastDay,
+  nextEdition,
+  slugify,
+  ticketUrl,
+  upcoming,
+} from "@/lib/data";
+import { PLACES } from "@/lib/places";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { breadcrumbJsonLd, eventJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import FavButton from "./FavButton";
 import MiniMap from "./MiniMap";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
+
+/** The place page that best matches this event — its department first, then its city. */
+function placeFor(e: RaveEvent) {
+  const norm = (s: string) => slugify(s);
+  return (
+    PLACES.find((p) => e.region && norm(p.label) === norm(e.region)) ??
+    PLACES.find((p) => (p.match ?? [p.label]).some((m) => norm(m) === norm(e.city)))
+  );
+}
 
 export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const g = GENRES[e.genres[0]];
-  const related = EVENTS.filter((x) => x.id !== e.id && x.genres.some((gg) => e.genres.includes(gg))).slice(0, 4);
+  const done = isPast(e);
+  const live = isLive(e);
+  const next = done ? nextEdition(e) : undefined;
+  const place = placeFor(e);
+
+  // Related: same genre and still ahead — a finished event is a dead end for the reader.
+  const related = upcoming()
+    .filter((x) => x.id !== e.id && x.genres.some((gg) => e.genres.includes(gg)))
+    .slice(0, 4);
+  // Same country, so the page also feeds the geographic cluster.
+  const sameCountry = upcoming()
+    .filter((x) => x.id !== e.id && x.country === e.country && !related.some((r) => r.id === x.id))
+    .slice(0, 6);
+
+  const trail: [string, string][] = [
+    [t("nav.explore"), "/explore"],
+    [e.title, eventPath(e)],
+  ];
+
+  const multiDay = lastDay(e) !== e.date;
 
   return (
     <>
+      <JsonLd data={[eventJsonLd(e, lang), breadcrumbJsonLd(trail, lang)]} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
       <section className="section" style={{ paddingTop: 32 }}>
         <div className="wrap">
-          <Link href={`${p}/explore`} style={{ color: "var(--grey)", fontSize: ".9rem" }}>
-            {t("event.back")}
-          </Link>
+          <Breadcrumbs lang={lang} trail={trail} />
 
           <div className="event-hero" style={{ marginTop: 16 }}>
             <div className="bg" style={{ backgroundImage: cardBg(e) }} />
             <div>
               <div className="event-hero-meta">
                 <span className="tag type">{e.type}</span>
+                {live && <span className="tag live">{t("event.livenow")}</span>}
+                {done && <span className="tag past">{t("event.pastbadge")}</span>}
                 {e.genres.map((gg) => (
-                  <span className="tag type" key={gg}>
+                  <Link className="tag type" key={gg} href={`${p}/genres/${genreSlug(gg)}`}>
                     {gg}
-                  </span>
+                  </Link>
                 ))}
               </div>
               <h1 className="h-xl" style={{ fontSize: "clamp(2.2rem,6vw,4.5rem)" }}>
                 {e.title}
               </h1>
               <p className="lead" style={{ marginTop: 10, color: "var(--white)" }}>
-                📍 {e.venue} · {e.city}, {countryLabel(e.country, lang)}
+                📍{" "}
+                <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "inherit" }}>
+                  {e.venue}
+                </Link>{" "}
+                ·{" "}
+                {place ? (
+                  <Link href={`${p}/rave-party/${place.slug}`} style={{ color: "inherit" }}>
+                    {e.city}
+                  </Link>
+                ) : (
+                  e.city
+                )}
+                , {countryLabel(e.country, lang)}
               </p>
             </div>
           </div>
 
+          {done && (
+            <div className="notice" style={{ marginTop: 20 }}>
+              <span>
+                {t("event.pastnotice")} <b>{fmtDate(lastDay(e), lang)}</b>.
+              </span>
+              {next ? (
+                <Link href={`${p}${eventPath(next)}`} className="btn btn-primary btn-sm">
+                  {t("event.nextedition")} · {fmtDate(next.date, lang)}
+                </Link>
+              ) : (
+                <Link href={`${p}/explore`} className="btn btn-ghost btn-sm">
+                  {t("event.seeupcoming")}
+                </Link>
+              )}
+            </div>
+          )}
+
           <div className="event-layout">
             <div>
               <div className="info-card">
-                <h3 className="h-md">{t("event.about")}</h3>
+                <h2 className="h-md">{t("event.about")}</h2>
                 <p className="lead" style={{ fontSize: "1rem" }}>
                   {eventDescL(e, lang)}
                 </p>
               </div>
 
               <div className="info-card">
-                <h3 className="h-md">{t("event.lineup")}</h3>
+                <h2 className="h-md">{t("event.lineup")}</h2>
                 {e.lineup.length === 0 && (
                   <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)" }}>
                     {t("event.lineuptba")}
@@ -80,7 +157,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </div>
 
               <div className="info-card">
-                <h3 className="h-md">{t("event.gallery")}</h3>
+                <h2 className="h-md">{t("event.gallery")}</h2>
                 <div className="gallery">
                   {Array.from({ length: 8 }).map((_, i) => (
                     <div key={i} style={{ backgroundImage: `linear-gradient(${130 + i * 25}deg, ${g.c1}, ${g.c2})` }} />
@@ -89,7 +166,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </div>
 
               <div className="info-card">
-                <h3 className="h-md">{t("event.location")}</h3>
+                <h2 className="h-md">{t("event.location")}</h2>
                 <MiniMap lat={e.lat} lng={e.lng} />
               </div>
             </div>
@@ -103,10 +180,15 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <div className="h-lg" style={{ margin: "14px 0 4px" }}>
                   {priceLabel(e, lang)}
                 </div>
-                <p style={{ color: "var(--grey)", fontSize: ".85rem", marginBottom: 18 }}>{t("event.fromprice")}</p>
+                <p style={{ color: "var(--grey)", fontSize: ".85rem", marginBottom: 18 }}>
+                  {e.priceNote === "estimated" ? t("dyn.priceest") : t("event.fromprice")}
+                </p>
                 <div className="ticket-row">
                   <span>{t("event.date")}</span>
-                  <b>{fmtDate(e.date, lang)}</b>
+                  <b>
+                    {fmtDate(e.date, lang)}
+                    {multiDay && ` → ${fmtDate(lastDay(e), lang)}`}
+                  </b>
                 </div>
                 <div className="ticket-row">
                   <span>{t("event.venue")}</span>
@@ -122,7 +204,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     {e.city}, {countryLabel(e.country, lang)}
                   </b>
                 </div>
-                {ticketUrl(e) ? (
+                {done ? (
+                  <div className="btn btn-ghost btn-block" style={{ marginTop: 18, cursor: "default" }}>
+                    {t("event.pastbadge")}
+                  </div>
+                ) : ticketUrl(e) ? (
                   <a
                     href={ticketUrl(e)!}
                     target="_blank"
@@ -144,15 +230,34 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
             </aside>
           </div>
 
-          <div className="divider" />
-          <h2 className="h-md" style={{ marginBottom: 24 }}>
-            {t("event.related")}
-          </h2>
-          <div className="grid grid-4">
-            {related.map((r) => (
-              <EventCard key={r.id} e={r} lang={lang} />
-            ))}
-          </div>
+          {related.length > 0 && (
+            <>
+              <div className="divider" />
+              <h2 className="h-md" style={{ marginBottom: 24 }}>
+                {t("event.related")}
+              </h2>
+              <div className="grid grid-4">
+                {related.map((r) => (
+                  <EventCard key={r.id} e={r} lang={lang} />
+                ))}
+              </div>
+            </>
+          )}
+
+          {sameCountry.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("event.morein")} {countryLabel(e.country, lang)}
+              </h2>
+              <div className="linkfarm">
+                {sameCountry.map((x) => (
+                  <Link key={x.id} href={`${p}${eventPath(x)}`}>
+                    {x.title} · {x.city}
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </section>
       <Footer lang={lang} />
