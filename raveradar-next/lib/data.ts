@@ -467,11 +467,78 @@ export const IMAGES: Record<number, string> = {
   68: "hf_20260604_190503_d26a409f-e768-4b36-837e-3b349c07be1e.png",
   69: "hf_20260729_105201_cf1f1269-2b3e-4701-aa4d-1de5a6278655.png",
   70: "hf_20260729_105204_fa5e9017-b174-4338-ba75-8d1bb911153a.png",
+  71: "hf_20260729_153230_15f7a4b0-6a51-4780-8a95-f317bd30da44.png",
+  72: "hf_20260729_152612_87dbe14b-f640-4a5d-883d-df81968e3d79.png",
+  76: "hf_20260729_152413_43fae134-57f4-4ec3-aaa1-9bb47e69e102.png",
+  100: "hf_20260729_152136_7bf9cf69-0100-491a-96b1-ca51b27d6e18.png",
+  101: "hf_20260729_152523_25eae129-c928-4bff-998c-80b6ddf4bbb8.png",
+  102: "hf_20260729_152618_b95fa2e7-7f47-43c5-b4e6-1bfeb7522aa6.png",
+  103: "hf_20260729_154107_6410696b-d6b0-44a6-a285-5b083bcfc5da.png",
+  104: "hf_20260729_153626_94cc90f0-9e73-4304-90b5-5a90cf18c8bb.png",
+  167: "hf_20260729_150823_86543056-5e38-4096-8912-e9acab6948ee.png",
+  168: "hf_20260729_150838_2849a36c-e4d7-457d-8bdf-450575be574e.png",
+  169: "hf_20260729_152140_3a5c5b34-8e2d-45d7-8cb1-a72e0bcf3c03.png",
+  170: "hf_20260729_152144_6e95cf5f-fb7a-4057-97db-991f218a9cb1.png",
+  171: "hf_20260729_152258_efce6675-350a-4b2d-94dc-4f88f903473a.png",
+  172: "hf_20260729_152301_b638b8af-648c-4d22-a33e-622c9d8a5700.png",
+  173: "hf_20260729_152306_2d5b06ce-ac43-4f3d-875a-05c0db2a86ca.png",
+  174: "hf_20260729_152415_48e29fb8-c098-4fd7-9a8a-dc4cd09a4f69.png",
+  175: "hf_20260729_152543_b014f48a-acbb-4875-ada4-1f9b837b2be1.png",
+  176: "hf_20260729_152546_7904c8ce-01a7-4163-b71f-c846cbf5c22d.png",
+  177: "hf_20260729_152638_40fbba14-2d55-4e9b-b25a-c72812915f02.png",
+  178: "hf_20260729_152644_13a50bd9-8946-40a1-9b0b-8d9fadd4cd32.png",
+  179: "hf_20260729_152705_fea5325a-8cd6-4956-b27b-1733b1e7e2dc.png",
+  180: "hf_20260729_153255_9cb5ccdb-379c-443a-ae46-eb698658a2f2.png",
+  181: "hf_20260729_153314_c7837531-c298-4762-bdc0-a1dbb6efd535.png",
+  182: "hf_20260729_153537_18e725c7-31df-46b5-8beb-7cc12737d9a6.png",
+  183: "hf_20260729_153551_55a64a98-1648-4e4c-a702-fd3a6f926aeb.png",
+  184: "hf_20260729_153639_90a231e0-4cc3-4a02-9a5c-2e04e9b9c4b1.png",
+  185: "hf_20260729_153700_cae9ae2d-fd30-4c50-b4bf-09647c7bd56a.png",
+  186: "hf_20260729_153721_234fbd9c-cef4-4db1-b1e7-6213e3705793.png",
+  187: "hf_20260729_153827_9d8da8c2-dc3a-4583-b079-c2b2a300dde2.png",
+  188: "hf_20260729_153904_7acc228c-37bc-4dbe-9ae4-dcf8ef1df570.png",
+  189: "hf_20260729_153924_ff954245-2172-4c2b-8214-a6ab624e06b3.png",
+  190: "hf_20260729_153928_fe6e4bf2-f960-489e-875d-d1c3bbb7c4bc.png",
+  262: "hf_20260729_150819_c51eaca8-8534-4e45-98e4-a8db6f201d04.png",
+  263: "hf_20260729_150830_e8894ce2-7f53-45b3-9199-def865c51f48.png",
+  264: "hf_20260729_152116_c7b99272-33fa-4c40-8108-28c5143f4380.png",
+  265: "hf_20260729_152120_32615b50-18fa-4206-b49c-08d3367abec6.png",
+  266: "hf_20260729_152309_d7008d69-9d80-4b45-8df5-704a0ad1ba6f.png",
+  267: "hf_20260729_152351_11d676a1-c65f-4202-aa53-d9d0c78d3900.png",
+  268: "hf_20260729_152409_30bc43a3-c484-4702-88dd-f68aca527eb6.png",
+  269: "hf_20260729_152442_79393178-044a-4f97-93e0-f3e5b3ac68c3.png",
+  270: "hf_20260729_152502_29950339-da45-4839-9aa2-8628bba0f345.png",
+  271: "hf_20260729_152710_43b7f2ed-a254-4f89-bcd7-499a731b219e.png",
+  272: "hf_20260729_152729_644a3617-40f4-4e65-9f15-cb4abc829d8e.png",
+  273: "hf_20260729_153149_c2c9b261-361c-483f-b837-53a4a7492e8e.png",
+  274: "hf_20260729_153226_dd609f21-a04e-45bc-a5e1-329718658f56.png",
+  275: "hf_20260729_153341_004e38bf-2795-423e-b7c0-4d7e5888d7d2.png",
+  276: "hf_20260729_153359_2e51aa42-4c11-4994-9556-e81a088eb9aa.png",
+  277: "hf_20260729_153453_b10d2515-35cd-4d6d-8552-334a91c59d10.png",
+  278: "hf_20260729_153516_03c56e4a-1311-41e5-8f00-71a6fe48d4fe.png",
+  279: "hf_20260729_153728_7a2e0aec-8621-4a43-b9d2-bfdda410416e.png",
+  280: "hf_20260729_153752_cf619a16-f848-4d9b-a54b-d601cf45894c.png",
+  281: "hf_20260729_153758_4e72fd41-3e19-4eb0-a940-967f74d3d346.png",
+  282: "hf_20260729_153823_33ca44ad-c57f-413f-812a-a0525257e852.png",
+  283: "hf_20260729_153959_885cc141-407c-4192-bd7a-194520b2fca2.png",
+  284: "hf_20260729_154019_83f72183-953f-48f7-9040-26466731d8fa.png",
+  285: "hf_20260729_154028_22517e4f-527d-4fa2-9eac-a054deddc7cb.png",
+  286: "hf_20260729_154042_e744364e-c5e0-4536-bfec-4727dbe8a775.png",
+  287: "hf_20260729_154121_03843f3c-6f35-4f30-a10c-0d08d01be58d.png",
+  288: "hf_20260729_154149_7a4fac51-3d07-410e-9bfc-925909f8eae5.png",
+  289: "hf_20260729_154152_c0afd6b4-c36a-40fc-b871-a946f1bfbf0f.png",
+  290: "hf_20260729_154232_180d78ec-0299-4474-b177-c405d33c54e5.png",
 };
+/** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine. */
 export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
+/** Compressed variant the CDN generates alongside each render: ~100 KB of WebP
+ *  instead of ~2.5 MB of PNG. A listing renders 24 of these, so the full-size
+ *  file is never what a card should load. */
+export const imageThumb = (e: RaveEvent): string | null =>
+  IMAGES[e.id] ? IMG_BASE + IMAGES[e.id].replace(/\.(png|jpe?g)$/, "_min.webp") : null;
 /** composite CSS background: real poster on top, genre gradient as fallback */
 export const cardBg = (e: RaveEvent): string => {
-  const url = imageUrl(e);
+  const url = imageThumb(e);
   return url ? `url('${url}'), ${poster(e.genres[0])}` : poster(e.genres[0]);
 };
 
