@@ -400,6 +400,9 @@ export const COUNTRY_FR: Record<string, string> = {
   Poland: "Pologne", Malta: "Malte", Serbia: "Serbie", Albania: "Albanie", Mexico: "Mexique",
   Switzerland: "Suisse", Denmark: "Danemark", Sweden: "Suède", Ireland: "Irlande", Greece: "Grèce",
   Bulgaria: "Bulgarie", Slovenia: "Slovénie", Luxembourg: "Luxembourg", Estonia: "Estonie",
+  Norway: "Norvège", Finland: "Finlande", Iceland: "Islande", Latvia: "Lettonie", Lithuania: "Lituanie",
+  Slovakia: "Slovaquie", "Bosnia and Herzegovina": "Bosnie-Herzégovine", Montenegro: "Monténégro",
+  "North Macedonia": "Macédoine du Nord", Cyprus: "Chypre", Georgia: "Géorgie",
 };
 export const COUNTRY_FLAG: Record<string, string> = {
   Netherlands: "🇳🇱", Germany: "🇩🇪", France: "🇫🇷", UK: "🇬🇧", Portugal: "🇵🇹",
@@ -407,7 +410,9 @@ export const COUNTRY_FLAG: Record<string, string> = {
   Croatia: "🇭🇷", "Czech Republic": "🇨🇿", Hungary: "🇭🇺", Poland: "🇵🇱", Malta: "🇲🇹",
   Serbia: "🇷🇸", Albania: "🇦🇱", Mexico: "🇲🇽", Switzerland: "🇨🇭", Denmark: "🇩🇰",
   Sweden: "🇸🇪", Ireland: "🇮🇪", Greece: "🇬🇷", Bulgaria: "🇧🇬", Slovenia: "🇸🇮",
-  Luxembourg: "🇱🇺", Estonia: "🇪🇪",
+  Luxembourg: "🇱🇺", Estonia: "🇪🇪", Norway: "🇳🇴", Finland: "🇫🇮", Iceland: "🇮🇸",
+  Latvia: "🇱🇻", Lithuania: "🇱🇹", Slovakia: "🇸🇰", "Bosnia and Herzegovina": "🇧🇦",
+  Montenegro: "🇲🇪", "North Macedonia": "🇲🇰", Cyprus: "🇨🇾", Georgia: "🇬🇪",
 };
 
 export const GENRE_DESC_EN: Record<string, string> = {
