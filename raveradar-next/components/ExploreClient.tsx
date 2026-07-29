@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, isPast } from "@/lib/data";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, isPast, lastDay } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
@@ -59,14 +59,15 @@ export default function ExploreClient({
   const t = getDict(lang);
   const [q, setQ] = useState(initialQ);
   const [country, setCountry] = useState(initialCountry);
-  const [month] = useState(initialMonth);
+  const [months, setMonths] = useState<Set<string>>(new Set(initialMonth ? [initialMonth] : []));
+  const [from, setFrom] = useState("");
+  const [to, setTo] = useState("");
   const [genres, setGenres] = useState<Set<string>>(new Set(initialGenre ? [initialGenre] : []));
   const [types, setTypes] = useState<Set<string>>(new Set());
   const [maxPrice, setMaxPrice] = useState(300);
   const [sort, setSort] = useState("date");
   const [view, setView] = useState<"grid" | "list">("grid");
-  // A month filter is an explicit request for that month — don't hide its past dates.
-  const [showPast, setShowPast] = useState(Boolean(initialMonth));
+  const [showPast, setShowPast] = useState(false);
   // Render in pages: the full catalogue is several hundred cards, each with a poster.
   const [shown, setShown] = useState(PAGE);
 
@@ -76,13 +77,67 @@ export default function ExploreClient({
     setter(next);
   };
 
+  /* Months and an explicit range are two ways to say the same thing, so they're
+     mutually exclusive — combining them mostly produces empty result sets. */
+  const pickMonth = (m: string) => {
+    setFrom("");
+    setTo("");
+    toggle(months, setMonths, m);
+  };
+  const pickFrom = (v: string) => {
+    setMonths(new Set());
+    setFrom(v);
+  };
+  const pickTo = (v: string) => {
+    setMonths(new Set());
+    setTo(v);
+  };
+
+  /** Picking a date is an explicit request — don't silently hide past dates inside it. */
+  const dated = months.size > 0 || Boolean(from) || Boolean(to);
+
   /** Everything currently in scope date-wise — drives both the results and the facet counts. */
-  const pool = useMemo(() => (showPast ? EVENTS : EVENTS.filter((e) => !isPast(e, today))), [showPast, today]);
+  const pool = useMemo(
+    () => (showPast || dated ? EVENTS : EVENTS.filter((e) => !isPast(e, today))),
+    [showPast, dated, today]
+  );
+
+  /** Every month an event touches, so a 31 Jul → 2 Aug festival answers to both. */
+  const monthsOf = (e: RaveEvent): string[] => {
+    const out: string[] = [];
+    const end = lastDay(e);
+    for (let y = +e.date.slice(0, 4), m = +e.date.slice(5, 7); ; m++) {
+      if (m > 12) {
+        m = 1;
+        y++;
+      }
+      const key = `${y}-${String(m).padStart(2, "0")}`;
+      out.push(key);
+      if (key >= end.slice(0, 7)) break;
+    }
+    return out;
+  };
+
+  /** The months the catalogue actually has something in, with counts. */
+  const monthOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const e of EVENTS) for (const m of monthsOf(e)) counts.set(m, (counts.get(m) ?? 0) + 1);
+    return [...counts.entries()]
+      .filter(([m]) => showPast || dated || m >= today.slice(0, 7))
+      .sort(([a], [b]) => a.localeCompare(b));
+  }, [showPast, dated, today]);
+
+  const monthLabel = (m: string) =>
+    new Date(m + "-01T00:00:00").toLocaleDateString(t("locale"), { month: "short", year: "numeric" });
 
   const list = useMemo(() => {
     let r = pool.filter((e) => {
       if (country && e.country !== country) return false;
-      if (month && !e.date.startsWith(month)) return false;
+      if (months.size && !monthsOf(e).some((m) => months.has(m))) return false;
+      // Interval overlap, not just the start date: a multi-day festival counts as
+      // being "in" the range if any of its days fall inside it.
+      if (from && lastDay(e) < from) return false;
+      if (to && e.date > to) return false;
       if (maxPrice < 300 && e.price > maxPrice) return false;
       if (types.size && !types.has(e.type)) return false;
       if (genres.size && !e.genres.some((g) => genres.has(g))) return false;
@@ -97,7 +152,7 @@ export default function ExploreClient({
     if (sort === "price-d") r = [...r].sort((a, b) => b.price - a.price);
     if (sort === "az") r = [...r].sort((a, b) => a.title.localeCompare(b.title));
     return r;
-  }, [pool, q, country, month, genres, types, maxPrice, sort]);
+  }, [pool, q, country, months, from, to, genres, types, maxPrice, sort]);
 
   // Collapse back to the first page whenever the result set changes underneath us.
   useEffect(() => setShown(PAGE), [list]);
@@ -107,6 +162,9 @@ export default function ExploreClient({
     setShown(PAGE);
     setQ("");
     setCountry("");
+    setMonths(new Set());
+    setFrom("");
+    setTo("");
     setGenres(new Set());
     setTypes(new Set());
     setMaxPrice(300);
@@ -176,7 +234,33 @@ export default function ExploreClient({
         </div>
         <div className="filter-group">
           <h4>{t("explore.when")}</h4>
-          <label className="filter-opt">
+          <div className="monthpicker">
+            {monthOptions.map(([m, n]) => (
+              <button
+                key={m}
+                type="button"
+                className={months.has(m) ? "on" : ""}
+                aria-pressed={months.has(m)}
+                onClick={() => pickMonth(m)}
+              >
+                {monthLabel(m)} <span className="count">{n}</span>
+              </button>
+            ))}
+          </div>
+
+          <div className="daterange">
+            <span className="or">{t("explore.orrange")}</span>
+            <label>
+              {t("explore.from")}
+              <input className="input" type="date" value={from} max={to || undefined} onChange={(e) => pickFrom(e.target.value)} />
+            </label>
+            <label>
+              {t("explore.to")}
+              <input className="input" type="date" value={to} min={from || undefined} onChange={(e) => pickTo(e.target.value)} />
+            </label>
+          </div>
+
+          <label className="filter-opt" style={{ marginTop: 12 }}>
             <input type="checkbox" checked={showPast} onChange={() => setShowPast((v) => !v)} /> {t("explore.showpast")}
             <span className="count">{EVENTS.length - EVENTS.filter((e) => !isPast(e, today)).length}</span>
           </label>
