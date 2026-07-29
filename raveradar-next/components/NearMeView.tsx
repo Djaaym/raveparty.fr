@@ -1,11 +1,16 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, isPast } from "@/lib/data";
-import { getDict } from "@/lib/i18n";
+import { ALL_GENRES, EVENTS, genreSlug, isPast } from "@/lib/data";
+import { PLACES } from "@/lib/places";
+import { getDict, langPrefix } from "@/lib/i18n";
+import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
+import Breadcrumbs from "./Breadcrumbs";
+import JsonLd from "./JsonLd";
 
 const haversine = (lat1: number, lon1: number, lat2: number, lon2: number) => {
   const R = 6371;
@@ -18,6 +23,7 @@ const haversine = (lat1: number, lon1: number, lat2: number, lon2: number) => {
 
 export default function NearMeView({ lang, today }: { lang: Lang; today: string }) {
   const t = getDict(lang);
+  const p = langPrefix(lang);
   const [pos, setPos] = useState<{ lat: number; lng: number } | null>(null);
   const [status, setStatus] = useState<"idle" | "loading" | "denied">("idle");
 
@@ -28,8 +34,8 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
     }
     setStatus("loading");
     navigator.geolocation.getCurrentPosition(
-      (p) => {
-        setPos({ lat: p.coords.latitude, lng: p.coords.longitude });
+      (geo) => {
+        setPos({ lat: geo.coords.latitude, lng: geo.coords.longitude });
         setStatus("idle");
       },
       () => setStatus("denied"),
@@ -37,23 +43,40 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
     );
   };
 
-  const live = EVENTS.filter((e) => !isPast(e, today));
+  const live = EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date));
   const withDist: (RaveEvent & { dist?: number })[] = pos
     ? live.map((e) => ({ ...e, dist: haversine(pos.lat, pos.lng, e.lat, e.lng) })).sort((a, b) => a.dist! - b.dist!)
-    : [...live].sort((a, b) => a.date.localeCompare(b.date));
+    : live;
+
+  const intro =
+    lang === "fr"
+      ? `${live.length} événement${live.length > 1 ? "s" : ""} à venir en Europe. Autorise la géolocalisation et la liste se réordonne du plus proche au plus loin — pratique pour savoir quoi faire ce soir sans faire trois heures de route.`
+      : `${live.length} upcoming event${live.length > 1 ? "s" : ""} across Europe. Allow location access and the list reorders from closest to furthest — handy for finding something on tonight without a three-hour drive.`;
+
+  const trail: [string, string][] = [[t("near.crumb"), "/rave-party/autour-de-moi"]];
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(trail, lang),
+          ...(live.length ? [itemListJsonLd(live.slice(0, 30), lang, t("near.title"))] : []),
+        ]}
+      />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
       <section className="section" style={{ paddingTop: 48 }}>
         <div className="wrap">
-          <span className="eyebrow">{t("near.eyebrow")}</span>
+          <Breadcrumbs lang={lang} trail={trail} />
+          <span className="eyebrow" style={{ display: "block", marginTop: 14 }}>
+            {t("near.eyebrow")}
+          </span>
           <h1 className="h-lg" style={{ margin: "14px 0 8px" }}>
             {t("near.title")}
           </h1>
           <p className="lead">{t("near.lead")}</p>
+          <p className="lead">{intro}</p>
 
           <div style={{ marginTop: 22 }}>
             {!pos && status !== "denied" && (
@@ -69,6 +92,14 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
             {status === "denied" && <p style={{ color: "var(--grey)" }}>{t("near.denied")}</p>}
           </div>
 
+          <div className="linkfarm" style={{ marginTop: 20 }}>
+            <Link href={`${p}/rave-party/ce-week-end`}>🔥 {t("soon.crumb")}</Link>
+            <Link href={`${p}/villes`}>🌍 {t("nav.cities")}</Link>
+            <Link href={`${p}/genres`}>🎚 {t("nav.genres")}</Link>
+            <Link href={`${p}/lieux`}>🏛 {t("nav.venues")}</Link>
+            <Link href={`${p}/map`}>🗺 {t("nav.map")}</Link>
+          </div>
+
           <div className="grid grid-4" style={{ marginTop: 28 }}>
             {withDist.map((e) => (
               <div key={e.id}>
@@ -77,8 +108,30 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
                     📍 {e.dist} {t("near.km")}
                   </span>
                 )}
-                <EventCard e={e} lang={lang} />
+                <EventCard e={e} lang={lang} today={today} />
               </div>
+            ))}
+          </div>
+
+          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+            {t("hub.bycity")}
+          </h2>
+          <div className="linkcols">
+            {PLACES.map((x) => (
+              <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
+                Rave party {x.label}
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+            {t("hub.bygenre")}
+          </h2>
+          <div className="linkfarm">
+            {ALL_GENRES.map((g) => (
+              <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
+                {g}
+              </Link>
             ))}
           </div>
         </div>

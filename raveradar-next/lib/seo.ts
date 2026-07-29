@@ -99,13 +99,14 @@ export function eventJsonLd(e: RaveEvent, lang: Lang) {
     organizer: { "@type": "Organization", name: "RaveRadar", url: SITE_URL },
     offers: {
       "@type": "Offer",
-      price: e.price,
+      // An unconfirmed gate price is left out rather than published as fact.
+      ...(e.priceNote === "unknown" ? {} : { price: e.price }),
       priceCurrency: e.currency === "£" ? "GBP" : e.currency === "$" ? "USD" : "EUR",
       availability: isPast(e) ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: tickets ?? abs(lang, eventPath(e)),
       validFrom: `${e.date}T00:00:00`,
     },
-    isAccessibleForFree: e.price === 0,
+    isAccessibleForFree: e.price === 0 && !e.priceNote,
   };
 }
 

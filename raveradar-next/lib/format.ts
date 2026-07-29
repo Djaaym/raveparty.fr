@@ -7,5 +7,7 @@ export function fmtDate(iso: string, lang: Lang): string {
 }
 
 export function priceLabel(e: RaveEvent, lang: Lang): string {
-  return e.price === 0 ? DICT[lang]["dyn.free"] : `${e.currency}${e.price}`;
+  if (e.priceNote === "unknown") return DICT[lang]["dyn.priceunknown"];
+  if (e.price === 0) return DICT[lang]["dyn.free"];
+  return `${e.priceNote === "estimated" ? "≈ " : ""}${e.currency}${e.price}`;
 }

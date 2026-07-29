@@ -6,6 +6,7 @@ import {
   cardBg,
   countryLabel,
   eventDescL,
+  eventPath,
   genreSlug,
   isLive,
   isPast,
@@ -54,10 +55,9 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
     .filter((x) => x.id !== e.id && x.country === e.country && !related.some((r) => r.id === x.id))
     .slice(0, 6);
 
-  const kind = e.type === "Festival" ? "festival" : "event";
   const trail: [string, string][] = [
     [t("nav.explore"), "/explore"],
-    [e.title, kind === "festival" ? `/festival/${slugify(e.title)}` : `/event/${slugify(e.title)}`],
+    [e.title, eventPath(e)],
   ];
 
   const multiDay = lastDay(e) !== e.date;
@@ -112,10 +112,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 {t("event.pastnotice")} <b>{fmtDate(lastDay(e), lang)}</b>.
               </span>
               {next ? (
-                <Link
-                  href={`${p}${kind === "festival" ? "/festival/" : "/event/"}${slugify(next.title)}`}
-                  className="btn btn-primary btn-sm"
-                >
+                <Link href={`${p}${eventPath(next)}`} className="btn btn-primary btn-sm">
                   {t("event.nextedition")} · {fmtDate(next.date, lang)}
                 </Link>
               ) : (
@@ -252,7 +249,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </h2>
               <div className="linkfarm">
                 {sameCountry.map((x) => (
-                  <Link key={x.id} href={`${p}${x.type === "Festival" ? "/festival/" : "/event/"}${slugify(x.title)}`}>
+                  <Link key={x.id} href={`${p}${eventPath(x)}`}>
                     {x.title} · {x.city}
                   </Link>
                 ))}

@@ -15,6 +15,9 @@ export interface RaveEvent {
   endDate?: string; // ISO yyyy-mm-dd — last day (multi-day festivals); defaults to `date`
   time: string;
   price: number;
+  /** How much to trust `price`: absent = confirmed, "estimated" = indicative,
+   *  "unknown" = not published (never render it as free). */
+  priceNote?: "estimated" | "unknown";
   currency: string;
   venue: string;
   trending: boolean;
