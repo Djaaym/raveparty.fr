@@ -102,3 +102,26 @@ Ces requêtes sont massivement portées par des **free parties non déclarées**
 
 ### Ce qui a été cherché sans succès
 Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, retour 2027 sans date) · Sonus Croatie (contradictoire) · EXIT Novi Sad 2027 · Tomorrowland Belgique 2027 (dates non officielles) · Macki Music Festival (dernière édition 2025) · Scopitone (biennal). Astropolis l'Hiver, Panoramas, Peacock Society, I Love Techno Europe, Ososphère : dates 2027 non annoncées au 29/07/2026 — **à re-vérifier**.
+
+
+## Couverture paneuropéenne (revue du 29/07/2026, 2e passe)
+
+**349 événements, ~320 à venir, 38 pays, ~7 000 pages statiques, ~1 750 liens internes.**
+
+### Pays ouverts sur cette passe
+Danemark · Suède · Norvège · Finlande · Islande · Estonie · Lettonie · Lituanie · Irlande · Slovaquie · Bosnie-Herzégovine · Monténégro · Macédoine du Nord · Bulgarie · Slovénie · Géorgie · Grèce · Chypre · Luxembourg.
+
+### Villes à fort volume désormais servies
+**Rotterdam** (8 100 rech./mois) passe de 1 à 16 dates — c'était le plus gros mot-clé ville non couvert. Plus Copenhague, Helsinki, Oslo, Stockholm, Dublin, Belfast, Glasgow, Bristol, Leeds, Prague, Varsovie, Budapest, Bucarest, Zagreb, Belgrade, Sofia, Tbilissi.
+
+### Trous connus
+- **Baltes** : festivals seulement. Les sites de clubs (One One, HALL, Sveta, Opium, Lizdas) et RA/DICE renvoient 403 aux requêtes serveur.
+- **Départements FR à fort volume toujours vides** : Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain — aucun événement légal vérifiable, ces requêtes étant portées par des free parties non déclarées.
+- **Villes sans contenu vérifiable** : Bilbao, Séville, Naples, Maastricht, Nimègue, Nuremberg, Linz.
+- **Décembre-février 2027** reste maigre : la plupart des clubs ne publient qu'à 4-8 semaines.
+
+### Événements confirmés disparus (ne pas re-chercher)
+Qlimax · Melt · Fusion (pause jusqu'en 2028) · Secret Solstice · Summerburst · Into the Valley · The Qontinent · Ground Zero · Macki · DGTL Barcelona · Lost & Found Malta · Terraforma · Printworks London (réouverture annoncée, sans date) · Perron Rotterdam · Watergate · Institut für Zukunft · Club Zukunft Zurich · Café d'Anvers · Blitz Munich (ferme début août 2026).
+
+### Dates 2027 non annoncées au 29/07/2026 — à re-vérifier
+Tomorrowland · Dour · Astropolis l'Hiver · Panoramas · Peacock Society · I Love Techno Europe · Ososphère · Mysteryland · Caprices · Horst · Listen! · Verknipt Utrecht · A Summer Story · Medusa · Waking Life · Sónar Lisboa · Boomtown · Love Saves the Day · AVA Belfast · Terminal V (lieu à trouver).

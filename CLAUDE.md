@@ -24,12 +24,24 @@
 - **Lieux** : `lib/places.ts`. `eventsForPlace()` compare des **slugs entiers** (« Ain » est une sous-chaîne de « Saintes »). Ne jamais lier vers `/rave-party/{ville}` sans vérifier que le slug existe dans `PLACES` — même règle pour `VENUES` et `ARTISTS`.
 - **Images** : posters IA dans `lib/data.ts` (map `IMAGES`, fallback dégradé via `cardBg`). Billetterie : map `TICKETS` + `ticketUrl()` (fallback RA pour payant, `null` = entrée libre).
 - **SEO** : `lib/seo.ts` — `pageMeta()` (title/description/canonique/hreflang/OG), `alternates()`, et les JSON-LD `eventJsonLd` / `artistJsonLd` / `venueJsonLd` / `breadcrumbJsonLd` / `itemListJsonLd` / `faqJsonLd` / `siteJsonLd`, rendus par `<JsonLd>`. **Toute nouvelle route doit exporter `alternates`** et afficher un `<Breadcrumbs>`.
-- **Maillage interne** : classes `.linkfarm` (pilules) et `.linkcols` (colonnes) dans `globals.css`. Chaque page profonde relie lieu ↔ genre ↔ artiste ↔ salle ↔ show. ~790 liens internes uniques, 0 lien mort (à re-vérifier après tout ajout).
-- **Build** : `cd raveradar-next && npm run build` (doit rester vert ; ~2 600 pages statiques actuellement).
-- **Pages** : `/`, `/explore`, `/genres` + `/genres/{g}`, `/villes` + `/rave-party/{lieu}`, `/rave-party/ce-week-end`, `/rave-party/autour-de-moi`, `/festival/{slug}` (festival nommé OU lieu), `/artistes` + `/artistes/{slug}`, `/lieux` + `/lieux/{slug}`, `/show/{artiste-lieu-date}`, `/map`, `/organizer`, `/account`. Menu : Explorer · Genres · Villes · Artistes · Carte.
+- **Maillage interne** : classes `.linkfarm` (pilules) et `.linkcols` (colonnes) dans `globals.css`. Chaque page profonde relie lieu ↔ genre ↔ artiste ↔ salle ↔ pays ↔ show. ~1 750 liens internes uniques, 0 lien mort (à re-vérifier après tout ajout).
+- **Build** : `cd raveradar-next && npm run build` (doit rester vert ; ~7 000 pages statiques actuellement — comptez plusieurs minutes).
+- **Pages** : `/`, `/explore`, `/genres` + `/genres/{g}`, `/villes` + `/rave-party/{lieu}`, `/pays` + `/pays/{pays}`, `/rave-party/ce-week-end`, `/rave-party/autour-de-moi`, `/festival/{slug}` (festival nommé OU lieu), `/artistes` + `/artistes/{slug}`, `/lieux` + `/lieux/{slug}`, `/show/{artiste-lieu-date}`, `/map`, `/organizer`, `/account`. Menu : Explorer · Genres · Villes · Pays · Artistes · Carte.
+- **Pays** : `lib/countries.ts` dérive l'index des pays du calendrier — un pays sans événement n'a pas de page, donc pas de coquille vide au sitemap. Slug construit sur le libellé FR (`/pays/pays-bas`). Tout nouveau pays doit entrer dans `COUNTRY_FR` **et** `COUNTRY_FLAG`.
 
 ## Règle de contenu
-Aucune donnée inventée : dates, line-ups, lieux et prix doivent être vérifiés (site officiel, RA, Songkick, presse). Line-up non annoncé → `lineup: []` (« Programmation à venir »). Prix non confirmé → `priceNote`.
+Aucune donnée inventée : dates, line-ups, lieux et prix doivent être vérifiés (site officiel, RA, Songkick, presse). Line-up non annoncé → `lineup: []` (« Programmation à venir »). Prix non confirmé → `priceNote`. Coordonnées introuvables → on n'ajoute pas l'événement.
+
+**Le titre porte le festival, pas l'édition.** « Ultra Europe », jamais « Ultra Europe 2027 » : `nextEdition()` et le slug canonique regroupent les éditions par titre exact, et le gabarit de `<title>` ajoute déjà l'année.
+
+## Ajouter des événements en masse
+1. Un agent de recherche par région écrit un JSON dans **`raveradar-next/.research/`** (versionné : le répertoire temporaire de session a déjà été purgé en cours de route, emportant 120 événements). Lui demander d'**écrire dès les 5 premiers puis toutes les ~5 fiches**, jamais une seule écriture finale.
+2. `python3 .research/merge.py --dry` puis sans `--dry`. Le script déduplique sur (titre normalisé, année), valide schéma et genres, rejette les dates passées, et normalise titre/ville/devise **avant** la clé de dédup.
+3. Lancer l'audit d'intégrité (ids, slugs, genres, drapeaux, coordonnées, devise, `descEn`) — c'est lui qui a rattrapé 60 fiches en `currency: "EUR"` qui se seraient affichées « EUR55 ».
+4. Ajouter les nouvelles villes à `PLACES` et vérifier `COUNTRY_FR`/`COUNTRY_FLAG`.
+5. Recrawler les liens internes : aucun 404 toléré.
+
+**Ne pas croire un agent sur parole.** Vérifier les affirmations à faible source avant publication : une « correction » proposée sur Rampage 2027 (5-6 mars) était fausse, le site officiel confirme 5-7 mars.
 
 ## Mémoire SEO / mots-clés
 Voir **`docs/seo-keywords.md`** : volumes FR (« rave party » 40,5k, « festival » 5,4M) + longue traîne géo + expansion NL/DE/ES/UK (Rotterdam, Rave the Planet, etc.).
@@ -46,7 +58,8 @@ Voir **`docs/seo-keywords.md`** : volumes FR (« rave party » 40,5k, « festiva
 1. Bios + photos d'artistes (Higgsfield, avec nom de l'artiste/festival dans le prompt).
 2. ✅ Pages **« show » (artiste×lieu×date)** + pages **venues** (façon JamBase).
 3. ✅ Page **`/rave-party/autour-de-moi`** (géoloc) + **« ce week-end »**.
-4. Expansion : ✅ Rotterdam (NL), ✅ Rave the Planet (DE), ✅ villes UK ; reste la page éducative ES.
+4. ✅ Expansion paneuropéenne : 38 pays, ~320 dates à venir sur 12 mois. Baltes couverts **festivals uniquement** — les sites des clubs de Riga, Tallinn et Vilnius renvoient 403 côté serveur.
 5. Brancher une vraie source de données / le formulaire organisateur en base — **c'est le vrai prochain chantier** : le calendrier est aujourd'hui saisi à la main et devra être rafraîchi. Pistes : API Resident Advisor, Songkick, Bandsintown, ou scraping des billetteries.
 6. Départements à fort volume encore vides, faute d'événement légal vérifiable : **Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain**. Leurs pages existent mais affichent « pas encore d'événement ».
-7. Compléter les posters IA manquants et les `descEn` des futurs ajouts.
+7. Compléter les affiches IA : ~300 événements à venir tombent encore sur le dégradé de genre (2 crédits Higgsfield par image).
+8. Prix : une bonne moitié du catalogue porte `priceNote: "estimated"`. Les confirmer sur les billetteries officielles au fil de l'eau.
