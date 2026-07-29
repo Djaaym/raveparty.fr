@@ -266,14 +266,14 @@
     ],
     "city": "Norfolk",
     "country": "UK",
-    "lat": 52.6,
-    "lng": 0.9,
+    "lat": 52.53,
+    "lng": 1.19,
     "date": "2026-08-21",
     "endDate": "2026-08-23",
     "time": "12:00",
     "price": 160,
     "currency": "£",
-    "venue": "Lieu tenu secret, Norfolk",
+    "venue": "Lieu tenu secret, South Norfolk",
     "trending": false,
     "lineup": [
       "Jana Rush",
@@ -286,15 +286,16 @@
       "Paranoid London",
       "Kayla Painter"
     ],
-    "desc": "Petit festival britannique à jauge réduite, dont le lieu exact n'est communiqué aux détenteurs de billets qu'avant l'événement. L'édition 2026 étend sa scène ambient sur tout le week-end.",
-    "descEn": "Small-capacity British festival whose exact location is only revealed to ticket holders shortly before the event. The 2026 edition extends its ambient stage across the whole weekend.",
+    "desc": "Petit festival britannique à jauge réduite, de retour sur son site boisé du sud du Norfolk, dont l'adresse exacte n'est communiquée qu'aux détenteurs de billets. L'édition 2026 étend sa scène ambient sur tout le week-end.",
+    "descEn": "Small-capacity British festival, back at its wooded site in south Norfolk, with the exact address only given to ticket holders. The 2026 edition extends its ambient stage across the whole weekend.",
     "ticketUrl": "https://www.fieldmaneuvers.com/",
     "sources": [
       "https://www.fieldmaneuvers.com/",
       "https://djmag.com/news/field-maneuvers-2026-full-line-announced",
-      "https://crackmagazine.net/2026/03/field-maneuvers-reveals-2026-line-up/"
+      "https://crackmagazine.net/2026/03/field-maneuvers-reveals-2026-line-up/",
+      "https://crackmagazine.net/2025/10/tickets-field-maneuvers-2026/"
     ],
-    "note": "Tarif indicatif, non vérifié. Coordonnées approximatives : lieu secret dans le Norfolk."
+    "note": "Tarif indicatif, non vérifié. Coordonnées approximatives : lieu secret dans le sud du Norfolk."
   },
   {
     "title": "Lost Village",
@@ -594,35 +595,6 @@
     "note": "Tarif indicatif, non vérifié."
   },
   {
-    "title": "Shine: Nick Warren",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Belfast",
-    "country": "UK",
-    "lat": 54.593,
-    "lng": -5.933,
-    "date": "2026-10-02",
-    "time": "22:00",
-    "price": 16,
-    "currency": "£",
-    "venue": "The Limelight",
-    "trending": false,
-    "lineup": [
-      "Nick Warren",
-      "Simon"
-    ],
-    "desc": "Soirée de la série Shine au Limelight d'Ormeau Avenue, avec le Britannique Nick Warren, cofondateur de Way Out West, en tête d'affiche. Réservé aux plus de 18 ans.",
-    "descEn": "Shine club night at the Limelight on Ormeau Avenue, headlined by Britain's Nick Warren, co-founder of Way Out West. Strictly 18+.",
-    "ticketUrl": "https://shine.tickets/events/list",
-    "sources": [
-      "https://shine.tickets/events/list"
-    ],
-    "note": "Prix affiché hors frais de réservation (16 £ + 1,50 £)."
-  },
-  {
     "title": "Teletech Leeds: Warehouse",
     "type": "Warehouse",
     "genres": [
@@ -762,33 +734,6 @@
       "https://www.teletech.events/events"
     ],
     "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
-  },
-  {
-    "title": "Nathan Fake (live) at The White Hotel",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Manchester",
-    "country": "UK",
-    "lat": 53.4869,
-    "lng": -2.262,
-    "date": "2026-10-29",
-    "time": "20:00",
-    "price": 18,
-    "currency": "£",
-    "venue": "The White Hotel",
-    "trending": false,
-    "lineup": [
-      "Nathan Fake"
-    ],
-    "desc": "Concert live du producteur britannique Nathan Fake au White Hotel, salle de 300 places de Dickinson Street, à Salford.",
-    "descEn": "Live show from British producer Nathan Fake at The White Hotel, the 300-capacity Dickinson Street room in Salford.",
-    "ticketUrl": "https://www.songkick.com/venues/3112574-white-hotel/calendar",
-    "sources": [
-      "https://www.songkick.com/venues/3112574-white-hotel/calendar"
-    ],
-    "note": "Tarif indicatif, non vérifié."
   },
   {
     "title": "Elrow Horroween",
@@ -1031,6 +976,33 @@
       "https://www.teletech.events/events"
     ],
     "note": "Programmation détaillée non annoncée. Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Field Day",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "London",
+    "country": "UK",
+    "lat": 51.453,
+    "lng": -0.106,
+    "date": "2027-05-29",
+    "time": "12:00",
+    "price": 75,
+    "currency": "£",
+    "venue": "Brockwell Park",
+    "trending": true,
+    "lineup": [],
+    "desc": "Festival d'une journée à Brockwell Park, dans le sud de Londres, où l'événement est installé depuis 2025. Billets 2027 déjà en vente, programmation non annoncée.",
+    "descEn": "One-day festival in Brockwell Park, south London, where the event has been based since 2025. Tickets for 2027 are already on sale, with the line-up not yet announced.",
+    "ticketUrl": "https://www.fielddayfestivals.com/",
+    "sources": [
+      "https://www.fielddayfestivals.com/",
+      "https://www.skiddle.com/festivals/field-day/"
+    ],
+    "note": "Programmation 2027 non annoncée. Tarif indicatif, non vérifié."
   },
   {
     "title": "Gottwood Festival",

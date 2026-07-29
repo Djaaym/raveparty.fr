@@ -181,7 +181,7 @@
       "Techno",
       "House"
     ],
-    "city": "Copenhague",
+    "city": "Copenhagen",
     "country": "Denmark",
     "lat": 55.6853,
     "lng": 12.5836,
@@ -213,7 +213,7 @@
     "genres": [
       "Drum & Bass"
     ],
-    "city": "Copenhague",
+    "city": "Copenhagen",
     "country": "Denmark",
     "lat": 55.6853,
     "lng": 12.5836,
@@ -250,7 +250,7 @@
       "Techno",
       "Hard Techno"
     ],
-    "city": "Copenhague",
+    "city": "Copenhagen",
     "country": "Denmark",
     "lat": 55.6853,
     "lng": 12.5836,
@@ -286,7 +286,7 @@
       "House",
       "Techno"
     ],
-    "city": "Copenhague",
+    "city": "Copenhagen",
     "country": "Denmark",
     "lat": 55.6853,
     "lng": 12.5836,
@@ -413,7 +413,7 @@
       "House",
       "Warehouse"
     ],
-    "city": "Copenhague",
+    "city": "Copenhagen",
     "country": "Denmark",
     "lat": 55.6928,
     "lng": 12.612,
@@ -524,37 +524,6 @@
     ],
     "desc": "Le DJ americain Mike Servito, figure de la scene house de Detroit et New York, est invite au Kaiku. La soiree (un)stable occupe la seconde salle. Nuit de 22 h a 4 h, acces des 20 ans.",
     "descEn": "American DJ Mike Servito, a fixture of the Detroit and New York house scenes, guests at Kaiku. The (un)stable party takes the second room. 10pm to 4am, age limit 20.",
-    "ticketUrl": "https://clubkaiku.fi/",
-    "sources": [
-      "https://clubkaiku.fi/",
-      "https://ra.co/clubs/84949"
-    ],
-    "note": "Tarif officiel affiche sur clubkaiku.fi : 12 EUR en prevente, 16 EUR sur place, gratuit avant 23 h."
-  },
-  {
-    "title": "Kaiku : Badsista",
-    "type": "Club",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.1868,
-    "lng": 24.9573,
-    "date": "2026-08-28",
-    "time": "22:00",
-    "price": 16,
-    "currency": "EUR",
-    "venue": "Kaiku",
-    "trending": false,
-    "lineup": [
-      "Badsista",
-      "Kofu",
-      "Wekesa"
-    ],
-    "desc": "La DJ bresilienne Badsista, figure de la scene club de Sao Paulo, joue au Kaiku a Helsinki avec Kofu et Wekesa. La fete Nasha occupe la seconde salle. De 22 h a 4 h.",
-    "descEn": "Brazilian DJ Badsista, a key figure in the São Paulo club scene, plays Kaiku in Helsinki alongside Kofu and Wekesa. The Nasha party takes the second room. 10pm to 4am.",
     "ticketUrl": "https://clubkaiku.fi/",
     "sources": [
       "https://clubkaiku.fi/",
@@ -945,5 +914,266 @@
       "https://estrade.riga.lv/en/events/koncerts-calvin-harris/"
     ],
     "note": "Billet debout annonce a partir de 69 EUR, places assises a partir de 86 EUR. Presente par les organisateurs comme l'edition 2026 de Positivus."
+  },
+  {
+    "title": "Malmöfestivalen 2026",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Malmö",
+    "country": "Sweden",
+    "lat": 55.606,
+    "lng": 13.0007,
+    "date": "2026-08-07",
+    "endDate": "2026-08-14",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Places du centre de Malmö",
+    "trending": false,
+    "lineup": [
+      "Jeff Mills presents Tomorrow Comes The Harvest",
+      "Einstürzende Neubauten",
+      "Club Mermaid feat. Alaska Thunderfuck",
+      "Division 7"
+    ],
+    "desc": "Plus ancienne fete de ville de Scandinavie, creee en 1985, etalee sur huit jours et pres de 900 rendez-vous dans les places et parcs du centre de Malmö. Entree libre sur l'ensemble du programme ; Jeff Mills presente Tomorrow Comes The Harvest en 2026.",
+    "descEn": "Scandinavia's oldest city festival, founded in 1985, spread over eight days and close to 900 programme items across the squares and parks of central Malmö. Entry is free throughout; Jeff Mills brings Tomorrow Comes The Harvest in 2026.",
+    "ticketUrl": null,
+    "sources": [
+      "https://www.malmofestivalen.se/",
+      "https://www.malmofestivalen.se/program",
+      "https://malmocity.se/en/event/malmofestivalen-2026/"
+    ],
+    "note": "Entree libre confirmee : le festival est gratuit depuis 1985. Dates 7-14 aout 2026 affichees sur malmofestivalen.se."
+  },
+  {
+    "title": "Fury Open Air & Indoor",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1873,
+    "lng": 24.981,
+    "date": "2026-08-08",
+    "time": "16:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Ääniwalli",
+    "trending": false,
+    "lineup": [
+      "Afem Syko",
+      "Emilija",
+      "Luciid",
+      "Ueberrest"
+    ],
+    "desc": "Rave hard techno sur l'ensemble de l'Ääniwalli, ancienne halle industrielle de Suvilahti a Helsinki : terrasse en plein air l'apres-midi puis salles interieures. Afem Syko, Emilija, Luciid et Ueberrest a l'affiche.",
+    "descEn": "Hard techno rave taking over the whole of Ääniwalli, a former industrial hall in Helsinki's Suvilahti district: outdoor terrace in the afternoon, then the indoor rooms. Afem Syko, Emilija, Luciid and Ueberrest on the bill.",
+    "ticketUrl": "https://aaniwalli.fi/events/",
+    "sources": [
+      "https://aaniwalli.fi/",
+      "https://aaniwalli.fi/events/",
+      "https://ra.co/clubs/84384"
+    ],
+    "note": "Date et line-up confirmees sur aaniwalli.fi ; billetterie Tiketti. Tarif indicatif, non verifie."
+  },
+  {
+    "title": "Ääniwalli Weekender : Polygonia",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1873,
+    "lng": 24.981,
+    "date": "2026-08-14",
+    "endDate": "2026-08-16",
+    "time": "22:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Ääniwalli",
+    "trending": false,
+    "lineup": [
+      "Polygonia",
+      "MiNNA",
+      "TraTraTrax",
+      "VUM"
+    ],
+    "desc": "Trois jours d'affilee a l'Ääniwalli d'Helsinki : la Munichoise Polygonia et MiNNA le vendredi, le collectif colombien TraTraTrax le samedi, puis l'open air VUM le dimanche.",
+    "descEn": "Three consecutive days at Ääniwalli in Helsinki: Munich's Polygonia and MiNNA on the Friday, Colombian collective TraTraTrax on the Saturday, then the VUM open air on the Sunday.",
+    "ticketUrl": "https://aaniwalli.fi/events/",
+    "sources": [
+      "https://aaniwalli.fi/",
+      "https://aaniwalli.fi/events/",
+      "https://ra.co/clubs/84384"
+    ],
+    "note": "Dates et line-up confirmees sur aaniwalli.fi ; billetterie Eventual. Tarif indicatif, non verifie (billet a la journee)."
+  },
+  {
+    "title": "Adrenaline : Flymeon",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1873,
+    "lng": 24.981,
+    "date": "2026-08-28",
+    "time": "22:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Ääniwalli",
+    "trending": false,
+    "lineup": [
+      "Flymeon",
+      "Jovynn",
+      "Notmytype"
+    ],
+    "desc": "La soiree hard techno Adrenaline occupe l'integralite de l'Ääniwalli a Helsinki, avec le Francais Flymeon, la Malaisienne Jovynn et l'Allemande Notmytype.",
+    "descEn": "The Adrenaline hard techno party takes over the whole of Ääniwalli in Helsinki, with France's Flymeon, Malaysia's Jovynn and Germany's Notmytype.",
+    "ticketUrl": "https://aaniwalli.fi/events/",
+    "sources": [
+      "https://aaniwalli.fi/",
+      "https://aaniwalli.fi/events/",
+      "https://ra.co/clubs/84384"
+    ],
+    "note": "Date et line-up confirmees sur aaniwalli.fi ; billetterie Soundvault. Tarif indicatif, non verifie."
+  },
+  {
+    "title": "Culture Box : Dusky",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6853,
+    "lng": 12.5836,
+    "date": "2026-11-13",
+    "time": "22:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Culture Box",
+    "trending": false,
+    "lineup": [
+      "Dusky"
+    ],
+    "desc": "Le duo britannique Dusky joue au Culture Box, club de 350 places ouvert en 2005 rue Kronprinsessegade, la reference de la scene electronique danoise. Nuit de 22 h a 8 h sur les salles Black Box et Red Box.",
+    "descEn": "British duo Dusky play Culture Box, the 350-capacity club opened in 2005 on Kronprinsessegade and the reference point of the Danish electronic scene. The night runs 10pm to 8am across the Black Box and Red Box rooms.",
+    "ticketUrl": "https://culture-box.com/",
+    "sources": [
+      "https://www.songkick.com/venues/454306-culture-box",
+      "https://culture-box.com/",
+      "https://ra.co/clubs/3611"
+    ],
+    "note": "Date confirmee sur Songkick (vendredi 13 novembre 2026). Tarif indicatif, non verifie : les nuits du Culture Box sont a 150 DKK (environ 20 EUR)."
+  },
+  {
+    "title": "O Days Festival 2026",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6905,
+    "lng": 12.6135,
+    "date": "2026-07-30",
+    "endDate": "2026-08-01",
+    "time": "16:00",
+    "price": 140,
+    "currency": "EUR",
+    "venue": "Sønder Hoved, Refshaleøen",
+    "trending": true,
+    "lineup": [
+      "Disclosure",
+      "Overmono",
+      "Nia Archives",
+      "Joy Orbison",
+      "Mall Grab",
+      "Jayda G",
+      "PinkPantheress",
+      "Yaeji",
+      "Courtesy",
+      "Erika de Casier",
+      "The Dare",
+      "Buraka Som Sistema"
+    ],
+    "desc": "Festival de trois jours consacre a la musique de club, installe sur le site industriel de Sønder Hoved a Refshaleøen, dans le port de Copenhague. L'affiche 2026 aligne Disclosure en DJ set, Overmono, Nia Archives, Joy Orbison et Mall Grab. Reserve aux 18 ans et plus.",
+    "descEn": "Three-day festival devoted to club music, staged on the industrial Sønder Hoved site at Refshaleøen in Copenhagen harbour. The 2026 bill features a Disclosure DJ set, Overmono, Nia Archives, Joy Orbison and Mall Grab. Strictly 18+.",
+    "ticketUrl": "https://www.odaysfestival.dk/",
+    "sources": [
+      "https://www.odaysfestival.dk/",
+      "https://www.odaysfestival.dk/program",
+      "https://ra.co/events/2318730"
+    ],
+    "note": "Dates 30 juillet - 1er aout 2026 confirmees sur odaysfestival.dk. Tarif indicatif, non verifie (pass 3 jours)."
+  },
+  {
+    "title": "Sub Focus",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Copenhague",
+    "country": "Denmark",
+    "lat": 55.6935,
+    "lng": 12.612,
+    "date": "2026-11-21",
+    "time": "22:00",
+    "price": 56,
+    "currency": "EUR",
+    "venue": "Poolen",
+    "trending": false,
+    "lineup": [
+      "Sub Focus"
+    ],
+    "desc": "Le producteur britannique Sub Focus, figure de la drum & bass depuis plus de vingt ans, joue au Poolen, salle installee Refshalevej 189 a Refshaleøen. Portes a 22 h, debut du set a 22 h 30.",
+    "descEn": "British producer Sub Focus, a defining drum & bass figure for more than twenty years, plays Poolen at Refshalevej 189 on Refshaleøen. Doors 10pm, set from 10.30pm.",
+    "ticketUrl": "https://poolen.dk/en/koncerter/sub-focus/",
+    "sources": [
+      "https://poolen.dk/en/koncerter/sub-focus/",
+      "https://www.subfocus.com/gig/saturday-november-21st-2026-poolen/",
+      "https://www.songkick.com/concerts/43290994-sub-focus-at-poolen"
+    ],
+    "note": "Billet 415 DKK (environ 56 EUR), tarif officiel affiche sur poolen.dk."
+  },
+  {
+    "title": "Palmesus 2027",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Kristiansand",
+    "country": "Norway",
+    "lat": 58.1435,
+    "lng": 8.009,
+    "date": "2027-06-25",
+    "endDate": "2027-06-26",
+    "time": "13:00",
+    "price": 260,
+    "currency": "EUR",
+    "venue": "Bystranda",
+    "trending": false,
+    "lineup": [],
+    "desc": "La plus grosse fete de plage de Scandinavie, organisee chaque ete sur la Bystranda de Kristiansand, dans le sud de la Norvege. L'edition 2027 se tient les 25 et 26 juin ; les billets early bird sont deja epuises.",
+    "descEn": "Scandinavia's largest beach party, held each summer on Bystranda in Kristiansand, southern Norway. The 2027 edition runs 25-26 June; early bird tickets are already sold out.",
+    "ticketUrl": "https://www.palmesus.com/",
+    "sources": [
+      "https://www.palmesus.com/",
+      "https://www.konserterinorge.no/festivaler/palmesus/english/"
+    ],
+    "note": "Dates 25-26 juin 2027 confirmees sur palmesus.com. Tarif indicatif, non verifie (pass 2 jours, environ 3 000 NOK). Line-up 2027 pas encore annoncee."
   }
 ]

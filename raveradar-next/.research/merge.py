@@ -25,6 +25,13 @@ existing = {(norm(m.group(1)), m.group(2))
             for m in re.finditer(r'title: "([^"]+)".*?date: "(\d{4})-', src)}
 next_id = max(int(m) for m in re.findall(r"\{ id: (\d+),", src)) + 1
 
+# Researchers occasionally return a French exonym; the dataset uses English ones.
+CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$"}
+
+CITY_FIX = {"Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
+            "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
+            "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow"}
+
 REQUIRED = {"title","type","genres","city","country","lat","lng","date","time",
             "price","currency","venue","trending","lineup","desc","descEn"}
 GENRES = {"Techno","Hard Techno","Acid Techno","Hardstyle","Hardcore","EDM",
@@ -52,6 +59,8 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         key = (norm(e["title"]), e["date"][:4])
         if key in existing or key in seen:
             skipped.append((fn, e["title"], e["date"])); continue
+        e["city"] = CITY_FIX.get(e["city"], e["city"])
+        e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
         seen.add(key); rows.append(e); kept += 1
     print(f"  {fn}: {len(data)} in, {kept} kept")
 

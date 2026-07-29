@@ -1,0 +1,574 @@
+[
+  {
+    "title": "XRDS – Crossroads Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8244,
+    "lng": 4.2833,
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
+    "time": "14:00",
+    "price": 59,
+    "currency": "€",
+    "venue": "Parc des Étangs / Vijverspark, Anderlecht",
+    "trending": true,
+    "lineup": [
+      "Ben Klock",
+      "Ben UFO",
+      "Dax J",
+      "Donato Dozzy",
+      "Goldie",
+      "SHERELLE",
+      "Mall Grab",
+      "FJAAK",
+      "Freddy K",
+      "Batu",
+      "Wata Igarashi & DJ Nobu",
+      "Alarico",
+      "Chlär",
+      "Special Request & Sully",
+      "Roza Terenzi",
+      "Colin Benders",
+      "SECONDS (Setaoc Mass & Phara)",
+      "Sedef Adasï",
+      "Border One",
+      "Katatonic Silentio"
+    ],
+    "desc": "Festival organisé par le club Fuse dans le Parc des Étangs d'Anderlecht, sous les viaducs autoroutiers : deux jours, trois scènes et plus de 50 artistes, prolongés chaque nuit par une afterparty au Fuse.",
+    "descEn": "Festival curated by Brussels club Fuse in Anderlecht's Parc des Étangs, beneath the motorway viaducts: two days, three stages and more than 50 artists, each night extended by an afterparty at Fuse.",
+    "ticketUrl": "https://www.xrds.be/",
+    "sources": [
+      "https://www.xrds.be/",
+      "https://www.fuse.be/events",
+      "https://ket.brussels/2026/02/25/xrds-crossroads-festival-2026-two-nights-of-raw-rave-energy-under-the-bridges/"
+    ],
+    "note": "Billet journée à partir de 59 € (tarif communauté), combi deux jours 80 €."
+  },
+  {
+    "title": "Fuse presents Dan Shake & Luke Alessi",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-08-22",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Dan Shake",
+      "Luke Alessi",
+      "She The DJ",
+      "Arter"
+    ],
+    "desc": "Nuit house et techno au Fuse, le plus ancien club techno de Belgique, rue Blaes dans les Marolles. Dan Shake et l'Australien Luke Alessi en Room 01.",
+    "descEn": "A house and techno night at Fuse, Belgium's longest-running techno club, on Rue Blaes in the Marolles. Dan Shake and Australian Luke Alessi in Room 01.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Pearson Sound & Martyn",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-08-29",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Pearson Sound",
+      "Martyn",
+      "ojoo",
+      "Gaiko"
+    ],
+    "desc": "Soirée bass et techno au Fuse avec Pearson Sound (Hessle Audio) et le Néerlandais Martyn, deux figures du croisement entre UK bass et drum & bass.",
+    "descEn": "A bass and techno night at Fuse with Pearson Sound (Hessle Audio) and Dutch producer Martyn, two figures at the crossroads of UK bass and drum & bass.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Rotterdam Rave Festival Afterparty",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-08-29",
+    "time": "23:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Kobosil",
+      "Cynthia Spiering",
+      "Furcht b2b MIT",
+      "In Verruf",
+      "BØĘRY",
+      "BLNK",
+      "IOSIO",
+      "Jowi",
+      "Lieks",
+      "Nyra",
+      "Solyd",
+      "Thiso",
+      "TITI",
+      "Ueberrest",
+      "USH"
+    ],
+    "desc": "L'afterparty officielle du Rotterdam Rave Festival, de 23h à l'aube dans les silos à grain du Maassilo. Kobosil mène une affiche de quinze artistes hard techno répartie sur les salles de l'ancienne usine du Maashaven.",
+    "descEn": "The official Rotterdam Rave Festival afterparty, from 11pm until dawn inside the grain silos of Maassilo. Kobosil headlines a fifteen-artist hard techno bill spread across the rooms of the old Maashaven factory.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.rotterdamrave.com/events/rotterdam-rave-festival-2026"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Hadone curates: Nørbak & Tauceti",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-09-05",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Nørbak",
+      "Tauceti",
+      "LaDetail",
+      "Hadone"
+    ],
+    "desc": "Carte blanche du producteur français Hadone au Fuse : hard techno et rave avec le Portugais Nørbak et l'Italien Tauceti en Room 01.",
+    "descEn": "French producer Hadone curates a night at Fuse: hard techno and rave with Portugal's Nørbak and Italy's Tauceti in Room 01.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "De Interventie – Blackout II",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 28,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "SNTS",
+      "DT43 b2b Vino",
+      "Imperia",
+      "ØRGIE",
+      "Raxeller",
+      "Closing"
+    ],
+    "desc": "Deuxième volet du concept Blackout de De Interventie au Maassilo : hard techno et techno industrielle dans le noir, avec le producteur allemand SNTS en tête d'affiche et des mystery acts annoncés.",
+    "descEn": "The second Blackout edition of De Interventie at Maassilo: hard and industrial techno in the dark, headlined by German producer SNTS with mystery acts announced.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Gabber Resistance: Back at Maassilo",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-09",
+    "time": "22:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [],
+    "desc": "Retour de Gabber Resistance au Maassilo, berceau du gabber rotterdamois. Soirée hardcore old school dans l'ancien silo à grain du Maashaven ; programmation détaillée à venir.",
+    "descEn": "Gabber Resistance returns to Maassilo, the cradle of Rotterdam gabber. An old-school hardcore night in the former Maashaven grain silo; the full line-up is still to be announced.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "INFERI – Through Hell",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-17",
+    "time": "23:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "Industrix",
+      "Redbatun",
+      "Japau",
+      "Venator",
+      "N~E~O b2b ØRBENYX",
+      "Mortis b2b Outrage"
+    ],
+    "desc": "Nuit hard techno du collectif INFERI au Maassilo, sur le thème « Through Hell » : six sets et b2b de la scène néerlandaise émergente dans les salles de l'ancien silo.",
+    "descEn": "A hard techno night from the INFERI collective at Maassilo, themed \"Through Hell\": six sets and b2bs from the emerging Dutch scene across the old silo's rooms.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Megarave – The Millennium Edition",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-24",
+    "time": "13:00",
+    "price": 45,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Rotterdam Terror Corps",
+      "Neophyte",
+      "Endymion",
+      "Ophidian",
+      "Nosferatu",
+      "Art of Fighters",
+      "Buzzfuzz",
+      "Ruffneck",
+      "Headbanger",
+      "Dione",
+      "Furyan",
+      "Jappo",
+      "Unexist",
+      "The Wishmaster",
+      "Panic & MC Alee",
+      "Amada",
+      "Kasparov",
+      "Lunatic",
+      "Stanton",
+      "Noizer"
+    ],
+    "desc": "Édition « Millennium » de Megarave, en journée de 13h à 22h au Maassilo : près de trente artistes hardcore et gabber, dont Rotterdam Terror Corps en live, Neophyte, Endymion et un set de trois heures de Panic & MC Alee.",
+    "descEn": "Megarave's \"Millennium\" edition, a daytime event from 1pm to 10pm at Maassilo: nearly thirty hardcore and gabber artists including Rotterdam Terror Corps live, Neophyte, Endymion and a three-hour set from Panic & MC Alee.",
+    "ticketUrl": "https://www.megarave.com/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.megarave.com/",
+      "https://followthebeat.nl/events/megarave-the-milennium-edition/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Hospitality Halloween Rotterdam x Korsakov",
+    "type": "Warehouse",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-30",
+    "time": "23:00",
+    "price": 42,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Netsky",
+      "A.M.C",
+      "Metrik",
+      "Nu:Tone",
+      "[IVY]",
+      "Buunshin b2b Phace",
+      "Ayah Marar",
+      "Muzz",
+      "Multiplex",
+      "Circadian",
+      "Killbox",
+      "PVC"
+    ],
+    "desc": "Le label londonien Hospital Records et le collectif rotterdamois Korsakov s'associent pour deux areas de drum & bass au Maassilo la nuit d'Halloween. Netsky, A.M.C, Metrik et Nu:Tone en tête d'affiche, événement 18+.",
+    "descEn": "London label Hospital Records and Rotterdam collective Korsakov join forces for two drum & bass arenas at Maassilo on Halloween night. Netsky, A.M.C, Metrik and Nu:Tone headline; 18+ only.",
+    "ticketUrl": "https://www.hospitalitydnb.com/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.hospitalitydnb.com/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Silva Bumpa",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-10-31",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Silva Bumpa"
+    ],
+    "desc": "Nuit d'Halloween au Fuse avec le Britannique Silva Bumpa, figure de la UK garage et bass house. Trois autres noms restaient à annoncer au moment du référencement.",
+    "descEn": "Halloween night at Fuse with Britain's Silva Bumpa, a key name in UK garage and bass house. Three further artists were still to be announced at the time of listing.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up partiel (3 noms TBA)."
+  },
+  {
+    "title": "Pussy Lounge",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8833,
+    "lng": 4.4884,
+    "date": "2026-10-31",
+    "time": "14:00",
+    "price": 47.5,
+    "currency": "€",
+    "venue": "Rotterdam Ahoy",
+    "trending": true,
+    "lineup": [],
+    "desc": "L'indoor hardstyle et hardcore de B2S revient sur la RTM Stage du Rotterdam Ahoy, de 14h jusqu'à la nuit. Édition complète : les billets, mis en vente en mai à 47,50 €, sont épuisés.",
+    "descEn": "B2S's hardstyle and hardcore indoor event returns to the RTM Stage at Rotterdam Ahoy, from 2pm into the night. The edition is sold out: tickets went on sale in May at €47.50.",
+    "ticketUrl": "https://www.ahoy.nl/en/events",
+    "sources": [
+      "https://www.ahoy.nl/en/events",
+      "https://www.djguide.nl/party.p/557659/pussy-lounge-2026",
+      "https://festivalfans.nl/event/pussy-lounge-xxl/"
+    ],
+    "note": "Complet (sold out). Line-up non publié sur les sources consultées."
+  },
+  {
+    "title": "Paul Elstak presents 'Wanna Play?'",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-11-07",
+    "time": "22:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Paul Elstak",
+      "Partyraiser",
+      "Neophyte",
+      "AniMe",
+      "Deadly Guns",
+      "Noxa",
+      "Cynthia Spiering",
+      "Negitiv",
+      "Decode",
+      "Yoshiko",
+      "Hysta",
+      "Dither",
+      "Panic",
+      "MC Alee",
+      "MC Boogshe"
+    ],
+    "desc": "Soirée conçue par le pionnier rotterdamois DJ Paul Elstak au Maassilo, avec quinze artistes hardcore, uptempo et terror : Partyraiser, Neophyte, AniMe et Deadly Guns accompagnent l'hôte.",
+    "descEn": "A night curated by Rotterdam pioneer DJ Paul Elstak at Maassilo, with fifteen hardcore, uptempo and terror artists: Partyraiser, Neophyte, AniMe and Deadly Guns join the host.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Rotterdam Rave presents TITI",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-11-14",
+    "time": "23:00",
+    "price": 28,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "TITI"
+    ],
+    "desc": "Rotterdam Rave installe la DJ néerlandaise TITI au Maassilo pour une nuit hard techno, dans le prolongement de sa série de soirées indoor entre deux éditions du festival.",
+    "descEn": "Rotterdam Rave brings Dutch DJ TITI to Maassilo for a hard techno night, part of the crew's indoor series between festival editions.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.rotterdamrave.com/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Unresolved: Bloodline – Warbound Protocol",
+    "type": "Warehouse",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2027-01-09",
+    "time": "22:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "Unresolved"
+    ],
+    "desc": "Le producteur néerlandais Unresolved présente son concept Bloodline, chapitre « Warbound Protocol », au Maassilo. Soirée raw hardstyle et uptempo ; affiche complète encore à dévoiler.",
+    "descEn": "Dutch producer Unresolved brings his Bloodline concept, chapter \"Warbound Protocol\", to Maassilo. A raw hardstyle and uptempo night; the full bill is yet to be revealed.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Reverze",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle"
+    ],
+    "city": "Antwerp",
+    "country": "Belgium",
+    "lat": 51.2296,
+    "lng": 4.4361,
+    "date": "2027-02-26",
+    "endDate": "2027-02-27",
+    "time": "20:00",
+    "price": 75,
+    "currency": "€",
+    "venue": "AFAS Dome & Lotto Arena",
+    "trending": true,
+    "lineup": [],
+    "desc": "L'indoor hardstyle belge de référence revient sur deux jours dans l'AFAS Dome et la Lotto Arena d'Anvers, avec sa scénographie et son intro-act signature. Programmation 2027 non annoncée.",
+    "descEn": "Belgium's flagship indoor hardstyle event returns for two days across Antwerp's AFAS Dome and Lotto Arena, with its signature stage design and intro act. The 2027 line-up has not been announced.",
+    "ticketUrl": "https://www.reverze.be/",
+    "sources": [
+      "https://www.reverze.be/",
+      "https://www.djguide.nl/party.p/558248/reverze-2027"
+    ],
+    "note": "Dates confirmées sur le site officiel (26 + 27 février 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Toffler Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9255,
+    "lng": 4.4426,
+    "date": "2027-05-29",
+    "time": "12:00",
+    "price": 45,
+    "currency": "€",
+    "venue": "Roel Langerakpark",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le festival en plein air du club Toffler s'installe au Roel Langerakpark, dans le nord de Rotterdam, de midi à 23h. L'édition 2026 avait affiché complet ; la programmation 2027 n'est pas encore annoncée.",
+    "descEn": "The open-air festival from Rotterdam's Toffler club takes over Roel Langerakpark in the north of the city, from noon to 11pm. The 2026 edition sold out; the 2027 line-up has not been announced.",
+    "ticketUrl": "https://tofflerfestival.nl/",
+    "sources": [
+      "https://tofflerfestival.nl/",
+      "https://festivalfans.nl/event/toffler-festival/"
+    ],
+    "note": "Date annoncée sur le site officiel (29.05.27). Tarif indicatif, non vérifié. Line-up non annoncé."
+  }
+]
