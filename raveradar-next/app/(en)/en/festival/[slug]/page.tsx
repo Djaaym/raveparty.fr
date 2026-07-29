@@ -1,9 +1,9 @@
-import { alternates } from "@/lib/seo";
+import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
 import FestivalCityPage from "@/components/FestivalCityPage";
-import { FESTIVALS, eventSlug, eventFromSlug, eventDescL } from "@/lib/data";
+import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl } from "@/lib/data";
 import { PLACES, placeBySlug } from "@/lib/places";
 
 export function generateStaticParams() {
@@ -13,11 +13,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const fest = eventFromSlug(params.slug);
   if (fest && fest.type === "Festival") {
-    return {
-      alternates: alternates(`/festival/${params.slug}`, "en"),
+    return pageMeta({
+      lang: "en",
+      path: `/festival/${params.slug}`,
       title: `${fest.title} ${new Date(fest.date).getFullYear()} — dates, line-up, tickets | RaveRadar`,
       description: eventDescL(fest, "en").slice(0, 160),
-    };
+      image: imageUrl(fest),
+    });
   }
   const place = placeBySlug(params.slug);
   if (place)

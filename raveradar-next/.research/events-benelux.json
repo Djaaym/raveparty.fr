@@ -1,0 +1,1673 @@
+[
+  {
+    "title": "Congés Annulés – LusterClub sur le Parvis",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "lat": 49.6014,
+    "lng": 6.1365,
+    "date": "2026-07-29",
+    "endDate": "2026-08-20",
+    "time": "20:30",
+    "price": 0,
+    "currency": "€",
+    "venue": "Rotondes, place des Rotondes, Bonnevoie",
+    "trending": false,
+    "lineup": [
+      "LusterClub",
+      "Nicole Olenskaia"
+    ],
+    "desc": "Pendant le festival d'été des Rotondes, l'ancien dépôt ferroviaire de Bonnevoie à Luxembourg-Ville, le collectif LusterClub tient le parvis chaque soir de 20h30 à 23h30 avec des DJ sets et la radio en ligne D'Keess. L'accès au parvis est libre ; les concerts en salle sont payants.",
+    "descEn": "During the Rotondes summer festival, in the former Bonnevoie railway depot in Luxembourg City, the LusterClub collective runs the forecourt every evening from 8.30pm to 11.30pm with DJ sets and the D'Keess online radio. Access to the forecourt is free; the indoor concerts are ticketed.",
+    "ticketUrl": "https://www.rotondes.lu/fr/programmation/temps-forts/conges-annules",
+    "sources": [
+      "https://www.rotondes.lu/fr/programmation/temps-forts/conges-annules",
+      "https://www.info-lux.com/conges-annules-2026-rotondes-luxembourg/themes/evenements-traditions/festival/",
+      "https://paperjam.lu/article/le-retour-des-conges-annules-quatre-semaines-de-festival"
+    ],
+    "note": "Accès au parvis gratuit ; les concerts en salle des Congés Annulés (24 juillet – 20 août) sont payants, billet par concert."
+  },
+  {
+    "title": "Solar Weekend Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "EDM"
+    ],
+    "city": "Roermond",
+    "country": "Netherlands",
+    "lat": 51.2069,
+    "lng": 5.978,
+    "date": "2026-07-30",
+    "endDate": "2026-08-02",
+    "time": "12:00",
+    "price": 42.25,
+    "currency": "€",
+    "venue": "Maasplassen / De Weerd",
+    "trending": true,
+    "lineup": [
+      "Yellow Claw",
+      "Benny Rodrigues",
+      "Prunk",
+      "Kyle Starkey",
+      "Morgan Seatree",
+      "Tjade",
+      "Stef Davidse",
+      "Leyo",
+      "Yung Felix",
+      "Lil Kleine",
+      "Rocketman",
+      "Qlas"
+    ],
+    "desc": "Quatre jours et trois nuits au bord des Maasplassen à Roermond, avec camping : plusieurs areas (De Kern, De Pit, Avenida Desperados) partagées entre house, techno et rap néerlandais.",
+    "descEn": "Four days and three nights beside the Maasplassen lakes in Roermond, with camping: several arenas (De Kern, De Pit, Avenida Desperados) split between house, techno and Dutch rap.",
+    "ticketUrl": "https://solarweekend.com/",
+    "sources": [
+      "https://solarweekend.com/",
+      "https://www.songkick.com/festivals/268743-solar-weekend/id/43188024-solar-weekend-festival-2026"
+    ],
+    "note": "Le site officiel annonce un « retourtje Solar » à partir de 42,25 € par jour ; tarif d'entrée exact non vérifié."
+  },
+  {
+    "title": "BASIS Outdoor",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0762,
+    "lng": 5.1083,
+    "date": "2026-08-01",
+    "time": "13:00",
+    "price": 32,
+    "currency": "€",
+    "venue": "Beton-T",
+    "trending": true,
+    "lineup": [
+      "Alycia Bezgo",
+      "Aphøtic",
+      "Beau Didier",
+      "Dissolver"
+    ],
+    "desc": "Édition en plein air du club utrechtois BASIS, sur le site industriel de Beton-T à Kanaleneiland, de 13h à 23h. L'afterparty enchaîne au club, sur l'Oudegracht, de minuit à 6h.",
+    "descEn": "The open-air edition of Utrecht club BASIS, on the industrial Beton-T site in Kanaleneiland, from 1pm to 11pm. The afterparty carries on at the club on the Oudegracht from midnight to 6am.",
+    "ticketUrl": "https://clubbasis.nl/",
+    "sources": [
+      "https://clubbasis.nl/",
+      "https://www.vechtclub.nl/agenda/basis-outdoor-2026/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up partiel."
+  },
+  {
+    "title": "Aunt Records x BIRD Garden Blockparty",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9267,
+    "lng": 4.4789,
+    "date": "2026-08-07",
+    "time": "15:00",
+    "price": 12,
+    "currency": "€",
+    "venue": "BIRD",
+    "trending": false,
+    "lineup": [],
+    "desc": "Blockparty house et électronique dans le jardin extérieur du BIRD, salle et club installés sous les voies ferrées de la Raampoortstraat à Rotterdam-Nord. Départ à 15h ; artistes non détaillés par la salle.",
+    "descEn": "A house and electronic block party in the outdoor garden at BIRD, the venue and club tucked under the railway arches on Raampoortstraat in north Rotterdam. Starts at 3pm; the venue has not detailed the artists.",
+    "ticketUrl": "https://bird-rotterdam.nl/agenda/",
+    "sources": [
+      "https://bird-rotterdam.nl/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non détaillé par la salle."
+  },
+  {
+    "title": "Micro Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Liège",
+    "country": "Belgium",
+    "lat": 50.6531,
+    "lng": 5.5901,
+    "date": "2026-08-07",
+    "endDate": "2026-08-09",
+    "time": "17:00",
+    "price": 43,
+    "currency": "€",
+    "venue": "Rue des Haveurs, Saint-Léonard",
+    "trending": true,
+    "lineup": [
+      "Dopplereffekt",
+      "Peter Van Hoesen",
+      "aya",
+      "Atom TM",
+      "Use Knife",
+      "Domenique Dumont",
+      "Acid Talk",
+      "Muovipussi",
+      "Seasick",
+      "Fellatio"
+    ],
+    "desc": "Festival liégeois du quartier Saint-Léonard : 56 propositions sur trois scènes, dont 43 lives et 12 DJ sets. Le duo de Detroit Dopplereffekt y donne un live exclusif en Belgique et Atom TM une performance post-techno inédite en Europe.",
+    "descEn": "A Liège festival in the Saint-Léonard district: 56 acts across three stages, 43 of them live sets and 12 DJ sets. Detroit duo Dopplereffekt play an exclusive Belgian live show and Atom TM a European-exclusive post-techno performance.",
+    "ticketUrl": "https://microfestival.be/",
+    "sources": [
+      "https://microfestival.be/",
+      "https://www.songkick.com/festivals/93976-micro/id/43218375-micro-festival-2026",
+      "https://wbm.be/en/opportunities/micro-festival-2026"
+    ],
+    "note": "Billet journée à partir de 43 €, pass week-end 95 €. Heure d'ouverture indicative."
+  },
+  {
+    "title": "Paradigm Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Groningen",
+    "country": "Netherlands",
+    "lat": 53.2103,
+    "lng": 6.5439,
+    "date": "2026-08-08",
+    "endDate": "2026-08-09",
+    "time": "13:00",
+    "price": 38,
+    "currency": "€",
+    "venue": "Terrain de l'ancienne Suikerunie, Suikerlaan 2",
+    "trending": true,
+    "lineup": [
+      "Ben Sims",
+      "Cassy",
+      "Carista",
+      "Roman Flügel",
+      "Roza Terenzi",
+      "Ryan Elliott",
+      "Mathew Jonson",
+      "Sandrien",
+      "Quelza",
+      "Phara",
+      "Virginia",
+      "Alex Kassian",
+      "Kerrie",
+      "Elias Mazian",
+      "Nathan Homan",
+      "Audrey Danza",
+      "Rey Colino",
+      "Plo Man",
+      "Tauceti",
+      "Tymon"
+    ],
+    "desc": "Le grand rendez-vous électronique du nord des Pays-Bas, sur le site industriel de l'ancienne sucrerie Suikerunie à Groningue : deux jours, neuf scènes et plus de 65 artistes, du samedi 13h au dimanche 23h.",
+    "descEn": "The main electronic music event in the north of the Netherlands, on the industrial grounds of the former Suikerunie sugar factory in Groningen: two days, nine stages and more than 65 artists, from Saturday 1pm to Sunday 11pm.",
+    "ticketUrl": "https://www.paradigmfestival.com/",
+    "sources": [
+      "https://www.paradigmfestival.com/",
+      "https://www.festivalinfo.nl/festival/36335/Paradigm-Festival/2026/",
+      "https://www.djguide.nl/party.p/536446/paradigm-festival-2026"
+    ],
+    "note": "Tarif indicatif, non vérifié (pass week-end annoncé autour de 38 € en prévente, hors frais). Le samedi est annoncé complet."
+  },
+  {
+    "title": "WECANDANCE",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Zeebrugge",
+    "country": "Belgium",
+    "lat": 51.3279,
+    "lng": 3.174,
+    "date": "2026-08-14",
+    "endDate": "2026-08-16",
+    "time": "12:00",
+    "price": 89,
+    "currency": "€",
+    "venue": "Plage de Zeebrugge, Zeedijk",
+    "trending": true,
+    "lineup": [
+      "Sara Landry",
+      "Marlon Hoffstadt",
+      "Damian Lazarus",
+      "Skream",
+      "Benga",
+      "Yung Singh",
+      "BASHKKA",
+      "BIIANCO",
+      "Emilija",
+      "RYOTA",
+      "Benwal"
+    ],
+    "desc": "Trois jours sur la plage de Zeebrugge, à Bruges : sept scènes, plus de 150 artistes et environ 60 000 festivaliers, avec camping. Le festival mêle électronique, mode et design.",
+    "descEn": "Three days on Zeebrugge beach, in Bruges: seven stages, more than 150 artists and around 60,000 festival-goers, with camping. The festival mixes electronic music, fashion and design.",
+    "ticketUrl": "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276",
+    "sources": [
+      "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276",
+      "https://www.visitbruges.be/en/whats-on/events-calendar/wecandance-1",
+      "https://ra.co/events/2318797"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "XRDS – Crossroads Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8244,
+    "lng": 4.2833,
+    "date": "2026-08-14",
+    "endDate": "2026-08-15",
+    "time": "14:00",
+    "price": 59,
+    "currency": "€",
+    "venue": "Parc des Étangs / Vijverspark, Anderlecht",
+    "trending": true,
+    "lineup": [
+      "Ben Klock",
+      "Ben UFO",
+      "Dax J",
+      "Donato Dozzy",
+      "Goldie",
+      "SHERELLE",
+      "Mall Grab",
+      "FJAAK",
+      "Freddy K",
+      "Batu",
+      "Wata Igarashi & DJ Nobu",
+      "Alarico",
+      "Chlär",
+      "Special Request & Sully",
+      "Roza Terenzi",
+      "Colin Benders",
+      "SECONDS (Setaoc Mass & Phara)",
+      "Sedef Adasï",
+      "Border One",
+      "Katatonic Silentio"
+    ],
+    "desc": "Festival organisé par le club Fuse dans le Parc des Étangs d'Anderlecht, sous les viaducs autoroutiers : deux jours, trois scènes et plus de 50 artistes, prolongés chaque nuit par une afterparty au Fuse.",
+    "descEn": "Festival curated by Brussels club Fuse in Anderlecht's Parc des Étangs, beneath the motorway viaducts: two days, three stages and more than 50 artists, each night extended by an afterparty at Fuse.",
+    "ticketUrl": "https://www.xrds.be/",
+    "sources": [
+      "https://www.xrds.be/",
+      "https://www.fuse.be/events",
+      "https://ket.brussels/2026/02/25/xrds-crossroads-festival-2026-two-nights-of-raw-rave-energy-under-the-bridges/"
+    ],
+    "note": "Billet journée à partir de 59 € (tarif communauté), combi deux jours 80 €."
+  },
+  {
+    "title": "BASIS w/ Identified Patient & Schacke",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0873,
+    "lng": 5.1215,
+    "date": "2026-08-15",
+    "time": "23:59",
+    "price": 18,
+    "currency": "€",
+    "venue": "BASIS, Oudegracht aan de Werf 97",
+    "trending": false,
+    "lineup": [
+      "Identified Patient",
+      "Schacke",
+      "gioray"
+    ],
+    "desc": "Nuit de minuit à 6h au BASIS, club en béton installé dans les caves médiévales de l'Oudegracht à Utrecht et équipé d'un système VOID. Le Néerlandais Identified Patient et le Danois Schacke en tête d'affiche, avec un live de gioray.",
+    "descEn": "A midnight-to-6am night at BASIS, the concrete club built into the medieval cellars along Utrecht's Oudegracht and fitted with a VOID system. Dutch artist Identified Patient and Denmark's Schacke headline, with a live set from gioray.",
+    "ticketUrl": "https://clubbasis.nl/",
+    "sources": [
+      "https://clubbasis.nl/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "C12 Nite w/ Sandrien",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-15",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": [
+      "Sandrien",
+      "Bored Bouddha",
+      "Amalie & Hank"
+    ],
+    "desc": "Nuit du samedi au dimanche au C12, club installé dans les sous-sols de la galerie Horta entre la Grand-Place et la gare Centrale de Bruxelles, avec la Néerlandaise Sandrien en tête d'affiche.",
+    "descEn": "A Saturday-into-Sunday night at C12, the club buried under Brussels' Horta gallery between the Grand-Place and Central Station, headlined by Dutch DJ Sandrien.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Pukkelpop",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "EDM"
+    ],
+    "city": "Hasselt",
+    "country": "Belgium",
+    "lat": 50.9545,
+    "lng": 5.3491,
+    "date": "2026-08-20",
+    "endDate": "2026-08-23",
+    "time": "12:00",
+    "price": 134,
+    "currency": "€",
+    "venue": "Festivalpark Kiewit",
+    "trending": true,
+    "lineup": [
+      "Underworld",
+      "Soulwax",
+      "Kölsch",
+      "John Summit",
+      "Adriatique",
+      "Dom Dolla",
+      "Chris Stussy",
+      "KETTAMA",
+      "Funk Tribu",
+      "Joy Orbison",
+      "Purple Disco Machine",
+      "BLOND:ISH",
+      "KI/KI",
+      "Maribou State",
+      "Apparat",
+      "Mala"
+    ],
+    "desc": "Quatre jours au Festivalpark Kiewit, à Hasselt. Au-delà de l'affiche rock et pop (Tyler, The Creator, Deftones, Florence + The Machine), le volet électronique réunit Underworld, Soulwax, Kölsch en live, John Summit, Adriatique et Dom Dolla. Billets journée à 134 €, combi à 287 €.",
+    "descEn": "Four days at Festivalpark Kiewit in Hasselt. Beyond the rock and pop bill (Tyler, The Creator, Deftones, Florence + The Machine), the electronic side gathers Underworld, Soulwax, Kölsch live, John Summit, Adriatique and Dom Dolla. Day tickets €134, four-day combi €287.",
+    "ticketUrl": "https://www.pukkelpop.be/en/",
+    "sources": [
+      "https://www.pukkelpop.be/en/",
+      "https://www.pukkelpop.be/en/news/ticket-prices",
+      "https://www.livenation.be/event/pukkelpop-2026-hasselt-tickets-edp1647005"
+    ],
+    "note": "Billets journée et combi annoncés complets sur le site officiel."
+  },
+  {
+    "title": "Toffler presents LEYO and friends",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9236,
+    "lng": 4.4754,
+    "date": "2026-08-21",
+    "time": "23:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Toffler",
+    "trending": false,
+    "lineup": [
+      "LEYO",
+      "Ammé",
+      "DJORA",
+      "Robin Nicolas"
+    ],
+    "desc": "Nuit au Toffler, club souterrain aménagé dans un ancien passage piéton sous le Weena, à cinq minutes de Rotterdam Centraal. Ouverture 23h-5h, 18+ et politique stricte sans photo ni vidéo.",
+    "descEn": "A night at Toffler, the underground club built into a former pedestrian tunnel beneath the Weena, five minutes from Rotterdam Centraal. Open 11pm to 5am, 18+, with a strict no-photo, no-video policy.",
+    "ticketUrl": "https://www.toffler.nl/club/",
+    "sources": [
+      "https://www.toffler.nl/club/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "C12 Nite w/ Paramida",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-22",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": [
+      "Paramida",
+      "Kathleen C",
+      "Softy"
+    ],
+    "desc": "La Berlinoise Paramida, patronne du label Love On The Rocks, en tête d'affiche d'une nuit du C12, dans les sous-sols de la galerie Horta à Bruxelles.",
+    "descEn": "Berlin's Paramida, head of the Love On The Rocks label, headlines a night at C12, in the basements of Brussels' Horta gallery.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Dan Shake & Luke Alessi",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-08-22",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Dan Shake",
+      "Luke Alessi",
+      "She The DJ",
+      "Arter"
+    ],
+    "desc": "Nuit house et techno au Fuse, le plus ancien club techno de Belgique, rue Blaes dans les Marolles. Dan Shake et l'Australien Luke Alessi en Room 01.",
+    "descEn": "A house and techno night at Fuse, Belgium's longest-running techno club, on Rue Blaes in the Marolles. Dan Shake and Australian Luke Alessi in Room 01.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Toffler x Maas Afterparty",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9236,
+    "lng": 4.4754,
+    "date": "2026-08-22",
+    "time": "23:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Toffler",
+    "trending": false,
+    "lineup": [
+      "Davyboi",
+      "JÄMO",
+      "Besic",
+      "Lizzy"
+    ],
+    "desc": "Afterparty du festival Maas au club Toffler, sous le Weena à Rotterdam : de 23h à 5h, quatre DJ néerlandais, entrée réservée aux plus de 18 ans.",
+    "descEn": "The Maas festival afterparty at Toffler club, beneath the Weena in Rotterdam: 11pm to 5am, four Dutch DJs, 18+ only.",
+    "ticketUrl": "https://www.toffler.nl/club/",
+    "sources": [
+      "https://www.toffler.nl/club/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "C12 x Gimic x Circle Park Open Air",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8459,
+    "lng": 4.357,
+    "date": "2026-08-29",
+    "time": "14:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Circle Park + C12",
+    "trending": false,
+    "lineup": [
+      "Ok Williams",
+      "Bitter Babe",
+      "NMSS",
+      "Audrey Danza",
+      "Sansibar"
+    ],
+    "desc": "Journée en plein air au Circle Park de Bruxelles montée par le C12 et le collectif Gimic, prolongée la nuit par une afterparty au club. Ok Williams et Bitter Babe en tête d'affiche.",
+    "descEn": "An open-air day at Brussels' Circle Park put together by C12 and the Gimic collective, continued that night with an afterparty at the club. Ok Williams and Bitter Babe headline.",
+    "ticketUrl": "https://c12space.com/agenda/",
+    "sources": [
+      "https://c12space.com/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Pearson Sound & Martyn",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-08-29",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Pearson Sound",
+      "Martyn",
+      "ojoo",
+      "Gaiko"
+    ],
+    "desc": "Soirée bass et techno au Fuse avec Pearson Sound (Hessle Audio) et le Néerlandais Martyn, deux figures du croisement entre UK bass et drum & bass.",
+    "descEn": "A bass and techno night at Fuse with Pearson Sound (Hessle Audio) and Dutch producer Martyn, two figures at the crossroads of UK bass and drum & bass.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Rotterdam Rave Festival Afterparty",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-08-29",
+    "time": "23:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Kobosil",
+      "Cynthia Spiering",
+      "Furcht b2b MIT",
+      "In Verruf",
+      "BØĘRY",
+      "BLNK",
+      "IOSIO",
+      "Jowi",
+      "Lieks",
+      "Nyra",
+      "Solyd",
+      "Thiso",
+      "TITI",
+      "Ueberrest",
+      "USH"
+    ],
+    "desc": "L'afterparty officielle du Rotterdam Rave Festival, de 23h à l'aube dans les silos à grain du Maassilo. Kobosil mène une affiche de quinze artistes hard techno répartie sur les salles de l'ancienne usine du Maashaven.",
+    "descEn": "The official Rotterdam Rave Festival afterparty, from 11pm until dawn inside the grain silos of Maassilo. Kobosil headlines a fifteen-artist hard techno bill spread across the rooms of the old Maashaven factory.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.rotterdamrave.com/events/rotterdam-rave-festival-2026"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Draaimolen Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "lat": 51.605,
+    "lng": 5.106,
+    "date": "2026-09-04",
+    "endDate": "2026-09-05",
+    "time": "13:00",
+    "price": 110,
+    "currency": "€",
+    "venue": "MOB Complex",
+    "trending": true,
+    "lineup": [
+      "Shygirl",
+      "Anthony Rother",
+      "Kangding Ray",
+      "The Necks",
+      "Fred P",
+      "DJ Firmeza",
+      "DJ Lycox",
+      "DJ Narciso",
+      "Kelman Duran",
+      "DJ Playero",
+      "K-LONE",
+      "OK EG",
+      "John T. Gast"
+    ],
+    "desc": "Festival indépendant et sans but lucratif dans un ancien complexe militaire boisé au nord de Tilburg. Édition 2026 complète, réservée aux plus de 18 ans, avec un camping et une programmation résolument expérimentale (Shygirl en live, Anthony Rother en DATAPUNK, la carte blanche TraTraTrax sur la scène The Pit).",
+    "descEn": "An independent, non-profit festival in a wooded former military complex north of Tilburg. The 2026 edition is sold out, strictly 18+, with camping and a deliberately experimental bill (Shygirl live, Anthony Rother as DATAPUNK, a TraTraTrax takeover of The Pit stage).",
+    "ticketUrl": "https://www.draaimolen.nu/",
+    "sources": [
+      "https://www.draaimolen.nu/events/camping-2026/",
+      "https://ra.co/news/85541",
+      "https://www.songkick.com/festivals/1110218-draaimolen"
+    ],
+    "note": "Complet (sold out). Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Amelie Lens – Chaos in the City",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Antwerp",
+    "country": "Belgium",
+    "lat": 51.2091,
+    "lng": 4.3934,
+    "date": "2026-09-05",
+    "time": "14:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Leopold de Waelplaats, devant le KMSKA",
+    "trending": true,
+    "lineup": [
+      "Amelie Lens"
+    ],
+    "desc": "Premier événement électronique organisé devant le musée KMSKA d'Anvers : la Leopold de Waelplaats est transformée en dancefloor de 14 000 places, de 14h à 23h. Amelie Lens y joue un set de trois heures pour la sortie de son album AURA, avec projection vidéo sur la façade du musée à la tombée de la nuit.",
+    "descEn": "The first electronic music event ever staged in front of Antwerp's KMSKA museum: Leopold de Waelplaats becomes a 14,000-capacity dancefloor, from 2pm to 11pm. Amelie Lens plays a three-hour set marking the release of her album AURA, with a video projection onto the museum facade at dusk.",
+    "ticketUrl": "https://www.chaosinthecity.events/tickets",
+    "sources": [
+      "https://www.chaosinthecity.events/lineup",
+      "https://visitantwerp.com/antwerp/events/amelie-lens-in-front-of-the-kmska-chaos-in-the-city",
+      "https://ra.co/events/2453201"
+    ],
+    "note": "Complet (sold out). Billets partis de 39 € jusqu'à 59 € en dernière phase. Line-up support annoncé « TBA »."
+  },
+  {
+    "title": "Fuse presents Hadone curates: Nørbak & Tauceti",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-09-05",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Nørbak",
+      "Tauceti",
+      "LaDetail",
+      "Hadone"
+    ],
+    "desc": "Carte blanche du producteur français Hadone au Fuse : hard techno et rave avec le Portugais Nørbak et l'Italien Tauceti en Room 01.",
+    "descEn": "French producer Hadone curates a night at Fuse: hard techno and rave with Portugal's Nørbak and Italy's Tauceti in Room 01.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Rauwe Kicks",
+    "type": "Club",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Nijmegen",
+    "country": "Netherlands",
+    "lat": 51.8442,
+    "lng": 5.8539,
+    "date": "2026-09-05",
+    "time": "16:00",
+    "price": 27,
+    "currency": "€",
+    "venue": "Doornroosje",
+    "trending": false,
+    "lineup": [],
+    "desc": "Soirée raw hardstyle et uptempo de la série AT NIGHT du Doornroosje, la salle de Nijmegen accolée à la gare. Format en journée-soirée : ouverture 16h, portes fermées à 20h, fin à minuit.",
+    "descEn": "A raw hardstyle and uptempo night from Doornroosje's AT NIGHT series, at the Nijmegen venue next to the station. Daytime-into-evening format: doors 4pm, entry closes at 8pm, finish at midnight.",
+    "ticketUrl": "https://www.doornroosje.nl/event/rauwe-kicks-6/",
+    "sources": [
+      "https://www.doornroosje.nl/event/rauwe-kicks-6/",
+      "https://www.doornroosje.nl/special/at-night/"
+    ],
+    "note": "Tarif de 27 € confirmé sur le site de la salle. Line-up non publié."
+  },
+  {
+    "title": "BASIS x HARDLINE w/ Alarico",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0873,
+    "lng": 5.1215,
+    "date": "2026-09-11",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "BASIS, Oudegracht aan de Werf 97",
+    "trending": false,
+    "lineup": [
+      "Alarico pres. Kenji Hina",
+      "DJ Cosworth b2b Oldboy",
+      "Hannah Hannah"
+    ],
+    "desc": "Le collectif HARDLINE investit le BASIS d'Utrecht de 23h à 6h : l'Italien Alarico présente son projet Kenji Hina, accompagné d'un b2b DJ Cosworth / Oldboy.",
+    "descEn": "The HARDLINE collective takes over BASIS in Utrecht from 11pm to 6am: Italy's Alarico presents his Kenji Hina project, alongside a DJ Cosworth / Oldboy b2b.",
+    "ticketUrl": "https://clubbasis.nl/",
+    "sources": [
+      "https://clubbasis.nl/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Smeerboel Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Hard Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0491,
+    "lng": 5.1242,
+    "date": "2026-09-12",
+    "time": "12:00",
+    "price": 49,
+    "currency": "€",
+    "venue": "Recreatieplas Laagraven",
+    "trending": true,
+    "lineup": [
+      "SNTS",
+      "Trym",
+      "Luuk van Dijk",
+      "Benny Rodrigues",
+      "Alignment",
+      "A For Alpha",
+      "ANNASNEL",
+      "BØĘRY",
+      "DJ Chuckie"
+    ],
+    "desc": "Clôture de la saison des festivals utrechtois au bord de la Laagravenseplas, au sud de la ville : environ 16 000 personnes, cinq scènes thématiques et une programmation partagée entre techno, house et urban, de midi à 23h.",
+    "descEn": "The closing party of Utrecht's festival season beside the Laagravenseplas lake south of the city: around 16,000 people, five themed stages and a bill split between techno, house and urban, from noon to 11pm.",
+    "ticketUrl": "https://www.smeerboel.nl/",
+    "sources": [
+      "https://www.smeerboel.nl/",
+      "https://festivalfans.nl/event/smeerboel-festival/",
+      "https://guestzone.nl/party-agenda/smeerboel-festival-2026-12-09-2026-recreatieplas-laagraven-utrecht"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "BASIS x BCCO w/ Ignez",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0873,
+    "lng": 5.1215,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "BASIS, Oudegracht aan de Werf 97",
+    "trending": false,
+    "lineup": [
+      "Ignez",
+      "FENIM0RE",
+      "Locus Error"
+    ],
+    "desc": "Le label bruxellois BCCO s'installe au BASIS d'Utrecht de 23h à 6h, avec un set de trois heures de la Suédoise Ignez.",
+    "descEn": "Brussels label BCCO takes over BASIS in Utrecht from 11pm to 6am, with a three-hour set from Sweden's Ignez.",
+    "ticketUrl": "https://clubbasis.nl/",
+    "sources": [
+      "https://clubbasis.nl/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "360 Degrees: Jayda G",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9267,
+    "lng": 4.4789,
+    "date": "2026-09-25",
+    "time": "21:00",
+    "price": 22,
+    "currency": "€",
+    "venue": "BIRD",
+    "trending": true,
+    "lineup": [
+      "Jayda G",
+      "Danou P",
+      "Love Transmission"
+    ],
+    "desc": "Soirée house et disco au BIRD à Rotterdam, dans le format 360 Degrés où le DJ joue au centre de la salle. La Canadienne Jayda G est accompagnée de Danou P et du duo Love Transmission.",
+    "descEn": "A house and disco night at BIRD in Rotterdam, in the 360 Degrees format where the DJ plays in the middle of the room. Canada's Jayda G is joined by Danou P and the Love Transmission duo.",
+    "ticketUrl": "https://bird-rotterdam.nl/agenda/",
+    "sources": [
+      "https://bird-rotterdam.nl/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "De Interventie – Blackout II",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 28,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "SNTS",
+      "DT43 b2b Vino",
+      "Imperia",
+      "ØRGIE",
+      "Raxeller",
+      "Closing"
+    ],
+    "desc": "Deuxième volet du concept Blackout de De Interventie au Maassilo : hard techno et techno industrielle dans le noir, avec le producteur allemand SNTS en tête d'affiche et des mystery acts annoncés.",
+    "descEn": "The second Blackout edition of De Interventie at Maassilo: hard and industrial techno in the dark, headlined by German producer SNTS with mystery acts announced.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Supremacy – State of Distortion",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "'s-Hertogenbosch",
+    "country": "Netherlands",
+    "lat": 51.7001,
+    "lng": 5.2903,
+    "date": "2026-09-26",
+    "time": "13:00",
+    "price": 65,
+    "currency": "€",
+    "venue": "Brabanthallen",
+    "trending": true,
+    "lineup": [
+      "Radical Redemption",
+      "Warface",
+      "Act of Rage",
+      "Dual Damage",
+      "The Saints",
+      "Adjuzt",
+      "Omnya"
+    ],
+    "desc": "Édition « State of Distortion » de Supremacy aux Brabanthallen de Bois-le-Duc, de 13h à 23h, réservée aux 18 ans et plus. Le rendez-vous raw hardstyle remet en avant Radical Redemption, Warface et Act of Rage aux côtés de la nouvelle génération du genre.",
+    "descEn": "Supremacy's \"State of Distortion\" edition at the Brabanthallen in 's-Hertogenbosch, 1pm to 11pm, strictly 18+. The raw hardstyle gathering brings back Radical Redemption, Warface and Act of Rage alongside the genre's new generation.",
+    "ticketUrl": "https://www.supremacy.nl/nl/tickets",
+    "sources": [
+      "https://www.supremacy.nl/nl",
+      "https://hardstyle.com/en/news/supremacy-s-2026-lineup-turns-heads",
+      "https://guestzone.nl/party-agenda/supremacy-2026-state-of-disortion-26-09-2026-brabanthallen-s-hertogenbosch"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Gabber Resistance: Back at Maassilo",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-09",
+    "time": "22:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [],
+    "desc": "Retour de Gabber Resistance au Maassilo, berceau du gabber rotterdamois. Soirée hardcore old school dans l'ancien silo à grain du Maashaven ; programmation détaillée à venir.",
+    "descEn": "Gabber Resistance returns to Maassilo, the cradle of Rotterdam gabber. An old-school hardcore night in the former Maashaven grain silo; the full line-up is still to be announced.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "BASIS Vinyl Special w/ Narciss",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0873,
+    "lng": 5.1215,
+    "date": "2026-10-10",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "BASIS, Oudegracht aan de Werf 97",
+    "trending": false,
+    "lineup": [
+      "Narciss",
+      "36framez",
+      "Line-O b2b ROBOITH"
+    ],
+    "desc": "Soirée tout vinyle au BASIS d'Utrecht, de 23h à 6h, avec un set prolongé du Hongrois Narciss.",
+    "descEn": "An all-vinyl night at BASIS in Utrecht, 11pm to 6am, with an extended set from Hungary's Narciss.",
+    "ticketUrl": "https://clubbasis.nl/",
+    "sources": [
+      "https://clubbasis.nl/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "INFERI – Through Hell",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-17",
+    "time": "23:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "Industrix",
+      "Redbatun",
+      "Japau",
+      "Venator",
+      "N~E~O b2b ØRBENYX",
+      "Mortis b2b Outrage"
+    ],
+    "desc": "Nuit hard techno du collectif INFERI au Maassilo, sur le thème « Through Hell » : six sets et b2b de la scène néerlandaise émergente dans les salles de l'ancien silo.",
+    "descEn": "A hard techno night from the INFERI collective at Maassilo, themed \"Through Hell\": six sets and b2bs from the emerging Dutch scene across the old silo's rooms.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Megarave – The Millennium Edition",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-24",
+    "time": "13:00",
+    "price": 45,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Rotterdam Terror Corps",
+      "Neophyte",
+      "Endymion",
+      "Ophidian",
+      "Nosferatu",
+      "Art of Fighters",
+      "Buzzfuzz",
+      "Ruffneck",
+      "Headbanger",
+      "Dione",
+      "Furyan",
+      "Jappo",
+      "Unexist",
+      "The Wishmaster",
+      "Panic & MC Alee",
+      "Amada",
+      "Kasparov",
+      "Lunatic",
+      "Stanton",
+      "Noizer"
+    ],
+    "desc": "Édition « Millennium » de Megarave, en journée de 13h à 22h au Maassilo : près de trente artistes hardcore et gabber, dont Rotterdam Terror Corps en live, Neophyte, Endymion et un set de trois heures de Panic & MC Alee.",
+    "descEn": "Megarave's \"Millennium\" edition, a daytime event from 1pm to 10pm at Maassilo: nearly thirty hardcore and gabber artists including Rotterdam Terror Corps live, Neophyte, Endymion and a three-hour set from Panic & MC Alee.",
+    "ticketUrl": "https://www.megarave.com/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.megarave.com/",
+      "https://followthebeat.nl/events/megarave-the-milennium-edition/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Hospitality Halloween Rotterdam x Korsakov",
+    "type": "Warehouse",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-10-30",
+    "time": "23:00",
+    "price": 42,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Netsky",
+      "A.M.C",
+      "Metrik",
+      "Nu:Tone",
+      "[IVY]",
+      "Buunshin b2b Phace",
+      "Ayah Marar",
+      "Muzz",
+      "Multiplex",
+      "Circadian",
+      "Killbox",
+      "PVC"
+    ],
+    "desc": "Le label londonien Hospital Records et le collectif rotterdamois Korsakov s'associent pour deux areas de drum & bass au Maassilo la nuit d'Halloween. Netsky, A.M.C, Metrik et Nu:Tone en tête d'affiche, événement 18+.",
+    "descEn": "London label Hospital Records and Rotterdam collective Korsakov join forces for two drum & bass arenas at Maassilo on Halloween night. Netsky, A.M.C, Metrik and Nu:Tone headline; 18+ only.",
+    "ticketUrl": "https://www.hospitalitydnb.com/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.hospitalitydnb.com/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Fuse presents Silva Bumpa",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Drum & Bass"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8354,
+    "lng": 4.3448,
+    "date": "2026-10-31",
+    "time": "23:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Fuse",
+    "trending": false,
+    "lineup": [
+      "Silva Bumpa"
+    ],
+    "desc": "Nuit d'Halloween au Fuse avec le Britannique Silva Bumpa, figure de la UK garage et bass house. Trois autres noms restaient à annoncer au moment du référencement.",
+    "descEn": "Halloween night at Fuse with Britain's Silva Bumpa, a key name in UK garage and bass house. Three further artists were still to be announced at the time of listing.",
+    "ticketUrl": "https://www.fuse.be/events",
+    "sources": [
+      "https://www.fuse.be/events"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up partiel (3 noms TBA)."
+  },
+  {
+    "title": "Pussy Lounge",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8833,
+    "lng": 4.4884,
+    "date": "2026-10-31",
+    "time": "14:00",
+    "price": 47.5,
+    "currency": "€",
+    "venue": "Rotterdam Ahoy",
+    "trending": true,
+    "lineup": [],
+    "desc": "L'indoor hardstyle et hardcore de B2S revient sur la RTM Stage du Rotterdam Ahoy, de 14h jusqu'à la nuit. Édition complète : les billets, mis en vente en mai à 47,50 €, sont épuisés.",
+    "descEn": "B2S's hardstyle and hardcore indoor event returns to the RTM Stage at Rotterdam Ahoy, from 2pm into the night. The edition is sold out: tickets went on sale in May at €47.50.",
+    "ticketUrl": "https://www.ahoy.nl/en/events",
+    "sources": [
+      "https://www.ahoy.nl/en/events",
+      "https://www.djguide.nl/party.p/557659/pussy-lounge-2026",
+      "https://festivalfans.nl/event/pussy-lounge-xxl/"
+    ],
+    "note": "Complet (sold out). Line-up non publié sur les sources consultées."
+  },
+  {
+    "title": "Paul Elstak presents 'Wanna Play?'",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-11-07",
+    "time": "22:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": true,
+    "lineup": [
+      "Paul Elstak",
+      "Partyraiser",
+      "Neophyte",
+      "AniMe",
+      "Deadly Guns",
+      "Noxa",
+      "Cynthia Spiering",
+      "Negitiv",
+      "Decode",
+      "Yoshiko",
+      "Hysta",
+      "Dither",
+      "Panic",
+      "MC Alee",
+      "MC Boogshe"
+    ],
+    "desc": "Soirée conçue par le pionnier rotterdamois DJ Paul Elstak au Maassilo, avec quinze artistes hardcore, uptempo et terror : Partyraiser, Neophyte, AniMe et Deadly Guns accompagnent l'hôte.",
+    "descEn": "A night curated by Rotterdam pioneer DJ Paul Elstak at Maassilo, with fifteen hardcore, uptempo and terror artists: Partyraiser, Neophyte, AniMe and Deadly Guns join the host.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Rave Rebels XXL",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8989,
+    "lng": 4.3404,
+    "date": "2026-11-07",
+    "time": "18:00",
+    "price": 55,
+    "currency": "€",
+    "venue": "ING Arena (Palais 12), Heysel",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le plus grand rassemblement techno indoor de Belgique, organisé par le Kompass Klub de Gand : treize heures de programmation de 18h à 7h à l'ING Arena du Heysel (ex-Palais 12, environ 15 000 places). Line-up encore non publié en texte.",
+    "descEn": "Belgium's biggest indoor techno gathering, run by Ghent's Kompass Klub: thirteen hours of programming from 6pm to 7am at the ING Arena on the Heysel plateau (formerly Palais 12, around 15,000 capacity). The line-up has not yet been published in text form.",
+    "ticketUrl": "https://raverebels.com/",
+    "sources": [
+      "https://raverebels.com/",
+      "https://raverebels.com/line-up/",
+      "https://ra.co/events/2458195"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up affiché en images sur le site officiel, non repris ici."
+  },
+  {
+    "title": "Link x Midnight w/ Dave Clarke & DJ Hell",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Maastricht",
+    "country": "Netherlands",
+    "lat": 50.857,
+    "lng": 5.6907,
+    "date": "2026-11-14",
+    "time": "22:30",
+    "price": 25,
+    "currency": "€",
+    "venue": "Muziekgieterij",
+    "trending": true,
+    "lineup": [
+      "Dave Clarke",
+      "DJ Hell"
+    ],
+    "desc": "Nuit techno de la série Midnight à la Muziekgieterij de Maastricht, à partir de 22h30, avec le Britannique Dave Clarke et l'Allemand DJ Hell, fondateur du label International DeeJay Gigolo.",
+    "descEn": "A techno night from the Midnight series at Muziekgieterij in Maastricht, from 10.30pm, with Britain's Dave Clarke and Germany's DJ Hell, founder of the International DeeJay Gigolo label.",
+    "ticketUrl": "https://muziekgieterij.nl/",
+    "sources": [
+      "https://muziekgieterij.nl/",
+      "https://concerts.hypebot.com/artist/d/3858157-dave-clarke-official"
+    ],
+    "note": "Tarif indicatif, non vérifié. L'agenda de la salle indique samedi 14 novembre 22h30 ; une publication Facebook de la salle mentionne un vendredi 14 novembre, qui correspond à l'édition 2025."
+  },
+  {
+    "title": "Rotterdam Rave presents TITI",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-11-14",
+    "time": "23:00",
+    "price": 28,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "TITI"
+    ],
+    "desc": "Rotterdam Rave installe la DJ néerlandaise TITI au Maassilo pour une nuit hard techno, dans le prolongement de sa série de soirées indoor entre deux éditions du festival.",
+    "descEn": "Rotterdam Rave brings Dutch DJ TITI to Maassilo for a hard techno night, part of the crew's indoor series between festival editions.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/",
+      "https://www.rotterdamrave.com/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Liquicity Ghent",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Ghent",
+    "country": "Belgium",
+    "lat": 51.0476,
+    "lng": 3.728,
+    "date": "2026-11-27",
+    "time": "22:00",
+    "price": 32,
+    "currency": "€",
+    "venue": "Vooruit (VIERNULVIER), Sint-Pietersnieuwstraat 23",
+    "trending": false,
+    "lineup": [
+      "Fred V",
+      "Muzz",
+      "Technimatic",
+      "Artino",
+      "Natty Lou",
+      "Matt View & Hannelotta",
+      "Speedwagon",
+      "Fava",
+      "Mota"
+    ],
+    "desc": "Le label néerlandais Liquicity revient au Vooruit de Gand, de 22h à 6h, pour une nuit de liquid drum & bass. Événement 18+ dans la salle Art nouveau de la Sint-Pietersnieuwstraat.",
+    "descEn": "Dutch label Liquicity returns to Vooruit in Ghent, from 10pm to 6am, for a night of liquid drum & bass. An 18+ event in the Art Nouveau hall on Sint-Pietersnieuwstraat.",
+    "ticketUrl": "https://liquicity.com/events/liquicity-ghent-2026/",
+    "sources": [
+      "https://liquicity.com/events/liquicity-ghent-2026/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Toffler Indoor Festival – 15 Years",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8993,
+    "lng": 4.419,
+    "date": "2026-11-28",
+    "time": "15:00",
+    "price": 45,
+    "currency": "€",
+    "venue": "Onderzeebootloods, RDM-straat 1",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le club Toffler fête ses quinze ans dans l'Onderzeebootloods, l'ancienne halle de construction de sous-marins du chantier RDM à Rotterdam-Sud. Événement 18+, sans espèces, avec navettes depuis Rotterdam Centraal ; programmation encore à annoncer.",
+    "descEn": "Toffler club celebrates fifteen years inside the Onderzeebootloods, the former submarine assembly hall at Rotterdam's RDM shipyard. 18+, cashless, with shuttle buses from Rotterdam Centraal; the line-up has yet to be announced.",
+    "ticketUrl": "https://www.toffler.nl/indoor-festival/",
+    "sources": [
+      "https://www.toffler.nl/indoor-festival/",
+      "https://www.toffler.nl/"
+    ],
+    "note": "Date et lieu confirmés sur le site officiel. Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Liquicity Winterfestival",
+    "type": "Festival",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "lat": 51.4482,
+    "lng": 5.4575,
+    "date": "2026-12-27",
+    "time": "14:00",
+    "price": 49,
+    "currency": "€",
+    "venue": "Klokgebouw, Strijp-S",
+    "trending": true,
+    "lineup": [],
+    "desc": "Rendez-vous annuel d'hiver du label Liquicity au Klokgebouw d'Eindhoven, dans l'ancienne usine Philips de Strijp-S : une journée de drum & bass mélodique de 14h à minuit. Programmation encore à annoncer.",
+    "descEn": "Liquicity's annual winter gathering at the Klokgebouw in Eindhoven, inside the former Philips factory on Strijp-S: a day of melodic drum & bass from 2pm to midnight. The line-up is still to be announced.",
+    "ticketUrl": "https://liquicity.com/events/liquicity-winterfestival-2026/",
+    "sources": [
+      "https://liquicity.com/events/liquicity-winterfestival-2026/",
+      "https://liquicity.com/events/"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "FCKNYE Festival",
+    "type": "Festival",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.8989,
+    "lng": 4.3404,
+    "date": "2026-12-30",
+    "endDate": "2027-01-01",
+    "time": "20:00",
+    "price": 79,
+    "currency": "€",
+    "venue": "Brussels Expo / ING Arena, Heysel",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le rendez-vous du Nouvel An bruxellois, réparti sur les halls du Brussels Expo au Heysel : ouverture le 30 décembre à 20h et clôture le 1er janvier 2027. Programmation 2026-2027 non encore publiée.",
+    "descEn": "Brussels' New Year gathering, spread across the Brussels Expo halls on the Heysel plateau: doors on 30 December at 8pm, closing on 1 January 2027. The 2026-27 line-up has not yet been published.",
+    "ticketUrl": "https://ing.arena.brussels/en/show/fcknye-festival/",
+    "sources": [
+      "https://ing.arena.brussels/en/show/fcknye-festival/",
+      "https://www.belgiantrain.be/en/leisure/music-events/fcknye"
+    ],
+    "note": "Dates confirmées par la salle (30 décembre 2026 – 1er janvier 2027, 20h). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Unresolved: Bloodline – Warbound Protocol",
+    "type": "Warehouse",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2027-01-09",
+    "time": "22:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "Unresolved"
+    ],
+    "desc": "Le producteur néerlandais Unresolved présente son concept Bloodline, chapitre « Warbound Protocol », au Maassilo. Soirée raw hardstyle et uptempo ; affiche complète encore à dévoiler.",
+    "descEn": "Dutch producer Unresolved brings his Bloodline concept, chapter \"Warbound Protocol\", to Maassilo. A raw hardstyle and uptempo night; the full bill is yet to be revealed.",
+    "ticketUrl": "https://maassilo.com/dance/agenda/",
+    "sources": [
+      "https://maassilo.com/dance/agenda/"
+    ],
+    "note": "Tarif indicatif, non vérifié."
+  },
+  {
+    "title": "Reverze",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle"
+    ],
+    "city": "Antwerp",
+    "country": "Belgium",
+    "lat": 51.2296,
+    "lng": 4.4361,
+    "date": "2027-02-26",
+    "endDate": "2027-02-27",
+    "time": "20:00",
+    "price": 75,
+    "currency": "€",
+    "venue": "AFAS Dome & Lotto Arena",
+    "trending": true,
+    "lineup": [],
+    "desc": "L'indoor hardstyle belge de référence revient sur deux jours dans l'AFAS Dome et la Lotto Arena d'Anvers, avec sa scénographie et son intro-act signature. Programmation 2027 non annoncée.",
+    "descEn": "Belgium's flagship indoor hardstyle event returns for two days across Antwerp's AFAS Dome and Lotto Arena, with its signature stage design and intro act. The 2027 line-up has not been announced.",
+    "ticketUrl": "https://www.reverze.be/",
+    "sources": [
+      "https://www.reverze.be/",
+      "https://www.djguide.nl/party.p/558248/reverze-2027"
+    ],
+    "note": "Dates confirmées sur le site officiel (26 + 27 février 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Masters of Hardcore – The Masterplan",
+    "type": "Festival",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "'s-Hertogenbosch",
+    "country": "Netherlands",
+    "lat": 51.7001,
+    "lng": 5.2903,
+    "date": "2027-03-27",
+    "time": "13:00",
+    "price": 75,
+    "currency": "€",
+    "venue": "Brabanthallen",
+    "trending": true,
+    "lineup": [],
+    "desc": "Édition 2027 « The Masterplan » de Masters of Hardcore, la plus ancienne marque hardcore néerlandaise, aux Brabanthallen de Bois-le-Duc, de 13h à 23h. Capacité d'environ 15 000 personnes ; programmation non annoncée.",
+    "descEn": "The 2027 \"The Masterplan\" edition of Masters of Hardcore, the oldest Dutch hardcore brand, at the Brabanthallen in 's-Hertogenbosch, 1pm to 11pm. Capacity around 15,000; the line-up has not been announced.",
+    "ticketUrl": "https://www.mastersofhardcore.com/events",
+    "sources": [
+      "https://www.mastersofhardcore.com/events"
+    ],
+    "note": "Date, lieu et horaires confirmés sur le site officiel. Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Rewire",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "The Hague",
+    "country": "Netherlands",
+    "lat": 52.0747,
+    "lng": 4.3077,
+    "date": "2027-04-08",
+    "endDate": "2027-04-11",
+    "time": "18:00",
+    "price": 115,
+    "currency": "€",
+    "venue": "Plusieurs lieux du centre de La Haye",
+    "trending": true,
+    "lineup": [
+      "Diamanda Galás"
+    ],
+    "desc": "Seizième édition du festival de musiques aventureuses de La Haye, réparti sur quatre jours dans les salles de concert, théâtres, églises, clubs et galeries du centre-ville. Le volet nocturne programme des clubs nights électroniques. Diamanda Galás est le premier nom annoncé.",
+    "descEn": "The 16th edition of The Hague's festival for adventurous music, spread over four days across the city centre's concert halls, theatres, churches, night clubs and galleries. The late-night programme runs electronic club nights. Diamanda Galás is the first name announced.",
+    "ticketUrl": "https://www.rewirefestival.nl/tickets",
+    "sources": [
+      "https://www.rewirefestival.nl/event/rewire-2027",
+      "https://denhaag.com/en/calendar/rewire-2027"
+    ],
+    "note": "Dates confirmées sur le site officiel. Tarif indicatif, non vérifié. Line-up quasi complet à annoncer."
+  },
+  {
+    "title": "Extrema Outdoor Belgium",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Houthalen-Helchteren",
+    "country": "Belgium",
+    "lat": 51.0327,
+    "lng": 5.4225,
+    "date": "2027-05-14",
+    "endDate": "2027-05-16",
+    "time": "12:00",
+    "price": 89,
+    "currency": "€",
+    "venue": "De Plas",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le plus ancien festival de musique électronique en plein air du Benelux revient trois jours au bord du lac De Plas, à Houthalen-Helchteren en Limbourg belge. Dates 2027 confirmées sur le site officiel ; programmation non annoncée.",
+    "descEn": "The Benelux's longest-running open-air electronic music festival returns for three days by the De Plas lake in Houthalen-Helchteren, Belgian Limburg. The 2027 dates are confirmed on the official site; the line-up has not been announced.",
+    "ticketUrl": "https://www.extrema.be/en/",
+    "sources": [
+      "https://www.extrema.be/en/"
+    ],
+    "note": "Dates confirmées sur le site officiel (14-15-16 mai 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Toffler Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.9255,
+    "lng": 4.4426,
+    "date": "2027-05-29",
+    "time": "12:00",
+    "price": 45,
+    "currency": "€",
+    "venue": "Roel Langerakpark",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le festival en plein air du club Toffler s'installe au Roel Langerakpark, dans le nord de Rotterdam, de midi à 23h. L'édition 2026 avait affiché complet ; la programmation 2027 n'est pas encore annoncée.",
+    "descEn": "The open-air festival from Rotterdam's Toffler club takes over Roel Langerakpark in the north of the city, from noon to 11pm. The 2026 edition sold out; the 2027 line-up has not been announced.",
+    "ticketUrl": "https://tofflerfestival.nl/",
+    "sources": [
+      "https://tofflerfestival.nl/",
+      "https://festivalfans.nl/event/toffler-festival/"
+    ],
+    "note": "Date annoncée sur le site officiel (29.05.27). Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Intents Festival",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Oisterwijk",
+    "country": "Netherlands",
+    "lat": 51.5711,
+    "lng": 5.1793,
+    "date": "2027-06-04",
+    "endDate": "2027-06-06",
+    "time": "12:00",
+    "price": 135,
+    "currency": "€",
+    "venue": "Festivalterrein Oisterwijk, Sportlaan 10",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le grand week-end hardstyle du Brabant-Septentrional, avec camping, sur le terrain de la Sportlaan à Oisterwijk. Trois jours et une dizaine de scènes ; la programmation 2027 n'est pas encore dévoilée.",
+    "descEn": "North Brabant's flagship hardstyle weekend, with camping, on the Sportlaan festival grounds in Oisterwijk. Three days and around ten stages; the 2027 line-up has not yet been revealed.",
+    "ticketUrl": "https://www.intentsfestival.nl/en/",
+    "sources": [
+      "https://www.intentsfestival.nl/en/festival-info/",
+      "https://www.visitbrabant.com/en/events/3121668560/intents-festival"
+    ],
+    "note": "Tarif indicatif, non vérifié. Line-up non annoncé."
+  },
+  {
+    "title": "Ostend Beach Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Ostend",
+    "country": "Belgium",
+    "lat": 51.2364,
+    "lng": 2.9187,
+    "date": "2027-07-09",
+    "endDate": "2027-07-11",
+    "time": "12:00",
+    "price": 65,
+    "currency": "€",
+    "venue": "Plage d'Ostende",
+    "trending": true,
+    "lineup": [],
+    "desc": "Trois jours sur la plage d'Ostende, sur la côte belge : cinq scènes partagées entre techno, house et sons expérimentaux. Le festival existe depuis 2010 ; l'édition 2027 est annoncée sous le thème « Welcome to Paradise », programmation non dévoilée.",
+    "descEn": "Three days on Ostend beach on the Belgian coast: five stages split between techno, house and experimental sounds. Running since 2010, the 2027 edition is billed as \"Welcome to Paradise\"; the line-up has not been revealed.",
+    "ticketUrl": "https://www.ostendbeach.be/en/",
+    "sources": [
+      "https://www.ostendbeach.be/en/",
+      "https://www.festivalabroad.com/festivals/ostend-beach-festival"
+    ],
+    "note": "Dates confirmées sur le site officiel (9-10-11 juillet 2027). Tarif indicatif, non vérifié. Line-up non annoncé."
+  }
+]

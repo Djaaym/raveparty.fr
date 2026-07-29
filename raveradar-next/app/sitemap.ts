@@ -4,6 +4,7 @@ import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
 import { SHOWS } from "@/lib/shows";
 import { VENUES } from "@/lib/venues";
+import { COUNTRIES_INDEX } from "@/lib/countries";
 import { SITE_URL } from "@/lib/site";
 
 type Entry = { path: string; priority: number; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] };
@@ -21,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/rave-party/ce-week-end", priority: 0.9, changeFrequency: "daily" },
     { path: "/rave-party/autour-de-moi", priority: 0.8, changeFrequency: "daily" },
     { path: "/villes", priority: 0.8, changeFrequency: "weekly" },
+    { path: "/pays", priority: 0.8, changeFrequency: "weekly" },
     { path: "/genres", priority: 0.8, changeFrequency: "weekly" },
     { path: "/artistes", priority: 0.7, changeFrequency: "weekly" },
     { path: "/lieux", priority: 0.7, changeFrequency: "weekly" },
@@ -42,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: done ? "yearly" : "weekly",
     });
   });
+  COUNTRIES_INDEX.forEach((c) => entries.push({ path: `/pays/${c.slug}`, priority: 0.8, changeFrequency: "weekly" }));
   ARTISTS.forEach((a) => entries.push({ path: `/artistes/${a.slug}`, priority: 0.6, changeFrequency: "weekly" }));
   VENUES.forEach((v) => entries.push({ path: `/lieux/${v.slug}`, priority: 0.6, changeFrequency: "weekly" }));
   const today = todayISO();
