@@ -1,11 +1,13 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
 import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, isPast } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
+
+const PAGE = 24;
 
 function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const router = useRouter();
@@ -65,6 +67,8 @@ export default function ExploreClient({
   const [view, setView] = useState<"grid" | "list">("grid");
   // A month filter is an explicit request for that month — don't hide its past dates.
   const [showPast, setShowPast] = useState(Boolean(initialMonth));
+  // Render in pages: the full catalogue is several hundred cards, each with a poster.
+  const [shown, setShown] = useState(PAGE);
 
   const toggle = (set: Set<string>, setter: (s: Set<string>) => void, v: string) => {
     const next = new Set(set);
@@ -95,7 +99,12 @@ export default function ExploreClient({
     return r;
   }, [pool, q, country, month, genres, types, maxPrice, sort]);
 
+  // Collapse back to the first page whenever the result set changes underneath us.
+  useEffect(() => setShown(PAGE), [list]);
+  const visible = list.slice(0, shown);
+
   const clear = () => {
+    setShown(PAGE);
     setQ("");
     setCountry("");
     setGenres(new Set());
@@ -202,15 +211,23 @@ export default function ExploreClient({
           <p style={{ color: "var(--grey)", padding: "40px 0" }}>{t("explore.empty")}</p>
         ) : view === "grid" ? (
           <div className="grid grid-3">
-            {list.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
+            {visible.map((e) => (
+              <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}
           </div>
         ) : (
           <div className="grid">
-            {list.map((e) => (
+            {visible.map((e) => (
               <Row key={e.id} e={e} lang={lang} />
             ))}
+          </div>
+        )}
+
+        {shown < list.length && (
+          <div style={{ display: "flex", justifyContent: "center", marginTop: 32 }}>
+            <button className="btn btn-ghost" onClick={() => setShown((n) => n + PAGE)}>
+              {t("explore.more")} ({list.length - shown})
+            </button>
           </div>
         )}
       </div>

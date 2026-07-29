@@ -476,7 +476,9 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .map-list { flex-direction: row; max-height: none; overflow-x: auto; }
   .mini { min-width: 240px; }
 }
-@media (max-width: 760px) {
+/* Burger earlier than the general mobile breakpoint: brand + 6 links + language
+   switch + 2 buttons stop fitting on one row well before 760px. */
+@media (max-width: 960px) {
   .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; flex-direction: column; background: var(--black-2); border-bottom: 1px solid var(--line); padding: 16px; margin: 0; gap: 6px; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
