@@ -65,7 +65,8 @@ Sources : `raveparty_allkeywords_{nl,es,de,uk}`. À exploiter pour les futures v
 
 ### 🇳🇱 Pays-Bas (total ≈ 77 900/mois)
 - **rotterdam rave** (8 100) · rave (5 400) · **festival rotterdam** (1 600) · rotterdamse rave (880) · candy festival (720) · klangkuenstler ade (880).
-- ➜ **À ajouter** : ville **Rotterdam** (events + page), contenu **ADE** (Amsterdam Dance Event), Candy Festival.
+- ➜ **À ajouter** : ville **Rotterdam** (events + page), ~~contenu **ADE**~~ ✅ fait, Candy Festival.
+- **ADE (Amsterdam Dance Event)** ✅ : `/festival/amsterdam-dance-event-ade` est passée d'une fiche générique à un **guide complet** (voir `lib/guides.ts`). Intention couverte : « ade 2026 », « amsterdam dance event dates / programme / tickets / prix », « ade c'est quoi », « pass ADE ». L'angle qui différencie de la concurrence : expliquer que **l'ADE n'est pas un festival unique mais 1 200+ événements dans 300+ lieux, sans billet unique** — c'est la question que tout le monde se pose et à laquelle personne ne répond en haut de page. FAQ balisée `FAQPage`, programme jour par jour, `subEvent` schema.org vers les 5 dates ADE du catalogue.
 
 ### 🇩🇪 Allemagne (total ≈ 222 700/mois — énorme)
 - **nature one** (33 100 ✅ ajouté) · **rave the planet** (12 100, parade techno de Berlin) · pydna / raketenbasis pydna (1 600, le lieu de Nature One) · festival techno (1 600).

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL } from "@/lib/data";
 import { VENUES, venueBySlug, eventsForVenue } from "@/lib/venues";
 import { showsForVenue } from "@/lib/shows";
 import { PLACES } from "@/lib/places";
@@ -20,6 +20,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
   if (!venue) return notFound();
 
   const today = todayISO();
+  const name = venueLabelL(venue.name, venue.nameEn, lang);
   const events = eventsForVenue(slug);
   const live = events.filter((e) => !isPast(e, today));
   const genres = [...new Set(events.flatMap((e) => e.genres))];
@@ -34,17 +35,17 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
 
   const intro =
     lang === "fr"
-      ? `Tout l'agenda de ${venue.name} à ${venue.city} : ${live.length} date${live.length > 1 ? "s" : ""} à venir, line-ups, horaires et billetterie officielle.`
-      : `The full agenda for ${venue.name} in ${venue.city}: ${live.length} upcoming date${live.length > 1 ? "s" : ""}, line-ups, times and official ticketing.`;
+      ? `Tout l'agenda de ${name} à ${venue.city} : ${live.length} date${live.length > 1 ? "s" : ""} à venir, line-ups, horaires et billetterie officielle.`
+      : `The full agenda for ${name} in ${venue.city}: ${live.length} upcoming date${live.length > 1 ? "s" : ""}, line-ups, times and official ticketing.`;
 
   const trail: [string, string][] = [
     [t("nav.venues"), "/lieux"],
-    [venue.name, `/lieux/${venue.slug}`],
+    [name, `/lieux/${venue.slug}`],
   ];
 
   return (
     <>
-      <JsonLd data={[venueJsonLd(venue, live, lang), breadcrumbJsonLd(trail, lang)]} />
+      <JsonLd data={[venueJsonLd({ ...venue, name }, live, lang), breadcrumbJsonLd(trail, lang)]} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
@@ -55,7 +56,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
             {t("venue.eyebrow")} · {venue.city}, {countryLabel(venue.country, lang)}
           </span>
           <h1 className="h-lg" style={{ margin: "10px 0 8px" }}>
-            {venue.name}
+            {name}
           </h1>
           <p className="lead">{intro}</p>
 
@@ -100,7 +101,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
               <div className="linkfarm">
                 {sameCity.map((v) => (
                   <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
-                    {v.name}
+                    {venueLabelL(v.name, v.nameEn, lang)}
                   </Link>
                 ))}
               </div>

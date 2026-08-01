@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Lang, RaveEvent } from "./types";
 import { SITE_URL } from "./site";
-import { countryLabel, eventDescL, eventPath, imageUrl, isPast, lastDay, slugify, ticketUrl } from "./data";
+import { countryLabel, eventDescL, eventPath, eventVenueL, imageUrl, isPast, lastDay, slugify, ticketUrl } from "./data";
 
 /* ---------------------------------------------------------------------------
    Canonical URLs + hreflang.
@@ -61,13 +61,34 @@ export function pageMeta(opts: {
 
 const abs = (lang: Lang, path: string) => `${SITE_URL}${lang === "en" ? "/en" : ""}${path}`;
 
-/** schema.org MusicEvent — what makes an event eligible for Google's event rich results. */
-export function eventJsonLd(e: RaveEvent, lang: Lang) {
+/** A nested event reference — enough for `subEvent` / `superEvent` without repeating a full node. */
+const eventRef = (e: RaveEvent, lang: Lang) => ({
+  "@type": "MusicEvent",
+  name: e.title,
+  startDate: `${e.date}T${e.time}:00`,
+  endDate: `${lastDay(e)}T23:59:00`,
+  url: abs(lang, eventPath(e)),
+  location: {
+    "@type": "Place",
+    name: eventVenueL(e, lang),
+    address: { "@type": "PostalAddress", addressLocality: e.city, addressCountry: e.country },
+  },
+});
+
+/** schema.org MusicEvent — what makes an event eligible for Google's event rich results.
+ *  `subEvents` / `superEvent` tie a week-long programme to the parties inside it: the
+ *  umbrella is typed as a Festival, each night points back at it. */
+export function eventJsonLd(
+  e: RaveEvent,
+  lang: Lang,
+  opts: { subEvents?: RaveEvent[]; superEvent?: RaveEvent } = {},
+) {
   const img = imageUrl(e);
   const tickets = ticketUrl(e);
+  const { subEvents, superEvent } = opts;
   return {
     "@context": "https://schema.org",
-    "@type": "MusicEvent",
+    "@type": subEvents?.length ? ["MusicEvent", "Festival"] : "MusicEvent",
     name: e.title,
     description: eventDescL(e, lang),
     startDate: `${e.date}T${e.time}:00`,
@@ -76,9 +97,11 @@ export function eventJsonLd(e: RaveEvent, lang: Lang) {
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     url: abs(lang, eventPath(e)),
     ...(img ? { image: [img] } : {}),
+    ...(subEvents?.length ? { subEvent: subEvents.map((x) => eventRef(x, lang)) } : {}),
+    ...(superEvent ? { superEvent: eventRef(superEvent, lang) } : {}),
     location: {
       "@type": "Place",
-      name: e.venue,
+      name: eventVenueL(e, lang),
       address: {
         "@type": "PostalAddress",
         addressLocality: e.city,
@@ -197,7 +220,7 @@ export function artistJsonLd(name: string, slug: string, events: RaveEvent[], la
       url: abs(lang, eventPath(e)),
       location: {
         "@type": "Place",
-        name: e.venue,
+        name: eventVenueL(e, lang),
         address: { "@type": "PostalAddress", addressLocality: e.city, addressCountry: e.country },
       },
     })),

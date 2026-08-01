@@ -1,4 +1,5 @@
 import { EVENTS, slugify, todayISO } from "./data";
+import { guideFor } from "./guides";
 
 export interface Show {
   slug: string; // {artist}-{venue}-{YYYYMMDD}
@@ -6,6 +7,7 @@ export interface Show {
   artistSlug: string;
   eventId: number;
   venue: string;
+  venueEn?: string;
   venueSlug: string;
   city: string;
   country: string;
@@ -18,6 +20,9 @@ function build(): Show[] {
   const shows: Show[] = [];
   const seen = new Set<string>();
   for (const e of EVENTS) {
+    // A week-long, city-wide programme isn't an artist × venue × date booking —
+    // its own sub-events carry the real shows.
+    if (guideFor(e)) continue;
     const venueSlug = slugify(e.venue);
     const d = e.date.replace(/-/g, "");
     for (const raw of e.lineup) {
@@ -33,6 +38,7 @@ function build(): Show[] {
         artistSlug,
         eventId: e.id,
         venue: e.venue,
+        venueEn: e.venueEn,
         venueSlug,
         city: e.city,
         country: e.country,

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS, cardBg, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO } from "@/lib/data";
+import { EVENTS, cardBg, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO, venueLabelL } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { artistFromDeadShowSlug, showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
@@ -30,10 +30,11 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   const eventHref = `${p}${eventPath(e)}`;
   const today = todayISO();
   const done = isPast(e, today);
+  const venueName = venueLabelL(show.venue, show.venueEn, lang);
   const trail: [string, string][] = [
     [t("nav.artists"), "/artistes"],
     [show.artistName, `/artistes/${show.artistSlug}`],
-    [`${show.venue} · ${fmtDate(e.date, lang)}`, `/show/${show.slug}`],
+    [`${venueName} · ${fmtDate(e.date, lang)}`, `/show/${show.slug}`],
   ];
   const otherDates = showsForArtist(show.artistSlug)
     .filter((s) => s.slug !== show.slug)
@@ -68,7 +69,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                   {show.artistName}
                 </Link>{" "}
                 <span style={{ color: "var(--grey)" }}>{t("show.at")}</span>{" "}
-                <Link href={`${p}/lieux/${show.venueSlug}`}>{show.venue}</Link>
+                <Link href={`${p}/lieux/${show.venueSlug}`}>{venueName}</Link>
               </h1>
               <p className="lead" style={{ marginTop: 10, color: "var(--white)" }}>
                 📅 {fmtDate(e.date, lang)} · {e.time} · 📍 {show.city}, {countryLabel(show.country, lang)}
@@ -114,7 +115,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                     {otherDates.map((s) => (
                       <Link key={s.slug} href={`${p}/show/${s.slug}`} className="mini">
                         <div>
-                          <h4>{s.venue}</h4>
+                          <h4>{venueLabelL(s.venue, s.venueEn, lang)}</h4>
                           <span>
                             {s.city} · {fmtDate(s.date, lang)}
                           </span>
@@ -135,7 +136,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                 </div>
                 <div className="ticket-row">
                   <span>{t("event.venue")}</span>
-                  <b>{show.venue}</b>
+                  <b>{venueName}</b>
                 </div>
                 <div className="ticket-row">
                   <span>{t("event.city")}</span>
@@ -167,7 +168,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                   className="btn btn-ghost btn-block"
                   style={{ marginTop: 10 }}
                 >
-                  {show.venue} →
+                  {venueName} →
                 </Link>
               </div>
             </aside>
@@ -177,7 +178,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
             <>
               <div className="divider" />
               <h2 className="h-md" style={{ marginBottom: 24 }}>
-                {t("show.atvenue")} · {show.venue}
+                {t("show.atvenue")} · {venueName}
               </h2>
               <div className="grid grid-4">
                 {sameVenue.map((x) => (
