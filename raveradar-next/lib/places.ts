@@ -51,6 +51,7 @@ export const PLACES: Place[] = [
   { slug: "bouches-du-rhone", label: "Bouches-du-Rhône", kind: "departement", vol: 320 },
   { slug: "alpes-maritimes", label: "Alpes-Maritimes", kind: "departement", vol: 260 },
   { slug: "gironde", label: "Gironde", kind: "departement", vol: 320 },
+  { slug: "mayenne", label: "Mayenne", kind: "departement", vol: 210 },
   { slug: "nord", label: "Nord", kind: "departement", vol: 390 },
   { slug: "ille-et-vilaine", label: "Ille-et-Vilaine", kind: "departement", vol: 260 },
   { slug: "seine-et-marne", label: "Seine-et-Marne", kind: "departement", vol: 260 },
