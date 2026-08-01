@@ -31,6 +31,8 @@ export const PLACES: Place[] = [
   { slug: "amsterdam", label: "Amsterdam", kind: "ville", vol: 1900, match: ["Amsterdam"] },
   { slug: "rotterdam", label: "Rotterdam", kind: "ville", vol: 8100, match: ["Rotterdam"] },
   { slug: "berlin", label: "Berlin", kind: "ville", vol: 2400, match: ["Berlin"] },
+  /* Cologne : ouverte par la saison Bootshaus (20 dates). `vol` pas encore issu de l'export SEMrush. */
+  { slug: "cologne", label: "Cologne", kind: "ville", vol: 480, match: ["Cologne"] },
   { slug: "london", label: "London", kind: "ville", vol: 1300, match: ["London"] },
   { slug: "manchester", label: "Manchester", kind: "ville", vol: 720, match: ["Manchester"] },
   { slug: "barcelona", label: "Barcelona", kind: "ville", vol: 880, match: ["Barcelona"] },
