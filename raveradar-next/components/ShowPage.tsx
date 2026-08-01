@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { EVENTS, cardBg, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
-import { showBySlug, showsForArtist } from "@/lib/shows";
+import { artistFromDeadShowSlug, showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
@@ -18,7 +18,12 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const show = showBySlug(slug);
-  if (!show) return notFound();
+  if (!show) {
+    // Retired show URL (venue renamed, line-up corrected) → 301 to the artist.
+    const artistSlug = artistFromDeadShowSlug(slug);
+    if (artistSlug) permanentRedirect(`${p}/artistes/${artistSlug}`);
+    return notFound();
+  }
   const e = EVENTS.find((x) => x.id === show.eventId);
   if (!e) return notFound();
 
