@@ -50,7 +50,10 @@ Resident Advisor, Shotgun, agendaculturel.fr et infoconcert ; Chromium/Playwrigh
 réseau, donc les sites de clubs rendus en JS (Rex Club, Stereolux…) sont hors de portée. Ce qui
 marche : **`jds.fr`** (agenda `/agenda/electro-335_B`, paginé, fiches `…_A` avec date, salle, ville,
 horaire **et tarif** — la meilleure source FR), les sites officiels de festivals, `touslesfestivals.com`,
-`songkick.com`, `skiddle.com`. Conséquence : en août, les dates FR de janvier-mars suivant sont
+`songkick.com`, `skiddle.com`. Hors France, les **agendas de salles** sont server-rendered et donnent
+tout d'un coup : `thewarehouseproject.com/calendar/` (dates + horaires exacts), `drumshedslondon.com/whats-on/`
+et `thuishaven.nl` (line-up, horaires, prix). Quand une source ne donne pas l'année (Drumsheds affiche
+« SAT 19 SEP »), la **déduire en vérifiant le jour de semaine** plutôt que la supposer. Conséquence : en août, les dates FR de janvier-mars suivant sont
 majoritairement non annoncées — ne pas les inventer, la fenêtre réellement exploitable est J+1 à J+6 mois.
 
 **Ne pas croire un agent sur parole.** Vérifier les affirmations à faible source avant publication : une « correction » proposée sur Rampage 2027 (5-6 mars) était fausse, le site officiel confirme 5-7 mars.

@@ -1,0 +1,980 @@
+[
+ {
+  "title": "The Warehouse Project: Rampa + &ME",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-09-19",
+  "time": "14:00",
+  "price": 40,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Rampa",
+   "&ME"
+  ],
+  "desc": "Le duo Keinemusik, Rampa et &ME, tient un day-to-night de dix heures pour le week-end d'ouverture des vingt ans du Warehouse Project.",
+  "descEn": "Keinemusik's Rampa and &ME hold a ten-hour day-to-night party for the opening weekend of The Warehouse Project's twentieth year.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Homobloc",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-09-26",
+  "time": "17:00",
+  "price": 45,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": true,
+  "lineup": [
+   "Kim Petras",
+   "Honey Dijon",
+   "Derrick Carter",
+   "Job Jobse",
+   "Cobrah",
+   "Palms Trax",
+   "Horse Meat Disco",
+   "Erol Alkan",
+   "LSDXOXO",
+   "I. Jordan"
+  ],
+  "desc": "« A queer party for all » : la grande fête queer de Manchester réunit une centaine d'artistes sur toutes les salles du Depot Mayfield, de la house de Chicago au club le plus contemporain.",
+  "descEn": "\"A queer party for all\": Manchester's flagship queer party gathers around a hundred artists across every room at Depot Mayfield, from Chicago house to the sharpest contemporary club sound.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: You&Me – Friday",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-02",
+  "time": "20:00",
+  "price": 35,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Josh Baker",
+   "Prospa",
+   "Enzo Siragusa",
+   "Kolter",
+   "Carlita",
+   "Saoirse",
+   "Mella Dee",
+   "Sally C"
+  ],
+  "desc": "Josh Baker déploie son concept You&Me sur toutes les salles du Depot Mayfield, une trentaine de DJ entre house, minimale et tech house.",
+  "descEn": "Josh Baker spreads his You&Me concept across every room at Depot Mayfield, some thirty DJs moving between house, minimal and tech house.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: You&Me – Saturday",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-03",
+  "time": "16:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Josh Baker",
+   "Prospa",
+   "Enzo Siragusa",
+   "Chloé Caillet",
+   "Dennis Cruz",
+   "Seth Troxler",
+   "Sidney Charles",
+   "Traumer",
+   "Shanti Celeste"
+  ],
+  "desc": "Deuxième jour du week-end You&Me : douze heures de house et de minimale au Depot Mayfield, avec Seth Troxler et Dennis Cruz en back-to-back.",
+  "descEn": "Second day of the You&Me weekend: twelve hours of house and minimal at Depot Mayfield, with Seth Troxler and Dennis Cruz going back-to-back.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Worried About Henry",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-09",
+  "time": "20:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": true,
+  "lineup": [
+   "Andy C",
+   "Bou",
+   "Hedex",
+   "Hybrid Minds",
+   "Kings of the Rollers",
+   "Sigma",
+   "K Motionz",
+   "Break",
+   "S.P.Y",
+   "Koven",
+   "Camo & Krooked",
+   "Mozey"
+  ],
+  "desc": "La plus grosse nuit drum & bass de la saison au Depot Mayfield : Andy C et son show ALiVe en tête, sur trois salles et une vingtaine de noms.",
+  "descEn": "The season's biggest drum & bass night at Depot Mayfield: Andy C and his ALiVe show heading a bill of some twenty names across three rooms.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Interplanetary Criminal",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-10",
+  "time": "19:00",
+  "price": 35,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Interplanetary Criminal"
+  ],
+  "desc": "Le Mancunien Interplanetary Criminal, artisan du renouveau UK garage, prend les commandes du Depot Mayfield pour une carte blanche.",
+  "descEn": "Manchester's Interplanetary Criminal, an architect of the UK garage revival, takes over Depot Mayfield for a carte-blanche night.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: doof – Hannah Laing",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Trance"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-16",
+  "time": "20:00",
+  "price": 35,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Hannah Laing",
+   "Maddix"
+  ],
+  "desc": "Hannah Laing ramène son concept doof au Depot Mayfield, en association avec Teletech, avec un back-to-back exclusif face à Maddix.",
+  "descEn": "Hannah Laing brings her doof concept back to Depot Mayfield with Teletech, including an exclusive back-to-back with Maddix.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Alisha",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-23",
+  "time": "21:00",
+  "price": 25,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Alisha"
+  ],
+  "desc": "Soirée en configuration Concourse uniquement, menée par Alisha : format resserré, sept heures de house et de bass music.",
+  "descEn": "A Concourse-only night led by Alisha: a tighter format, seven hours of house and bass music.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Duke Dumont",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-24",
+  "time": "20:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Duke Dumont"
+  ],
+  "desc": "Duke Dumont revient au Depot Mayfield avec sa house taillée pour les grandes salles, entre classiques et productions récentes.",
+  "descEn": "Duke Dumont returns to Depot Mayfield with the arena-scaled house he built his name on, mixing classics and recent productions.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: NexUp",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-10-31",
+  "time": "20:00",
+  "price": 32,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [],
+  "desc": "Nuit d'Halloween drum & bass au Depot Mayfield, portée par le collectif NexUp et sa sélection de la nouvelle génération britannique.",
+  "descEn": "A drum & bass Halloween night at Depot Mayfield, run by the NexUp collective and its pick of the new British generation.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Kettama – Steel City Dance Discs",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-11-06",
+  "time": "20:00",
+  "price": 35,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "Kettama"
+  ],
+  "desc": "L'Irlandais Kettama déploie son label Steel City Dance Discs au Depot Mayfield : house rave, breaks et trance à l'ancienne.",
+  "descEn": "Ireland's Kettama unrolls his Steel City Dance Discs label at Depot Mayfield: rave house, breaks and old-school trance.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: La Discothèque",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-11-07",
+  "time": "18:00",
+  "price": 30,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [],
+  "desc": "La Discothèque pose son décor disco et house au Depot Mayfield, format soirée early de 18h à 2h30.",
+  "descEn": "La Discothèque brings its disco and house staging to Depot Mayfield, in an early 6pm-to-2.30am format.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: EastEnderz",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-11-20",
+  "time": "19:30",
+  "price": 35,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": false,
+  "lineup": [
+   "East End Dubs"
+  ],
+  "desc": "East End Dubs amène son label EastEnderz au Depot Mayfield : neuf heures de minimale et de tech house jusqu'à 4h30.",
+  "descEn": "East End Dubs brings his EastEnderz label to Depot Mayfield: nine hours of minimal and tech house running to 4.30am.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: FAC51 The Haçienda",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-12-05",
+  "time": "17:00",
+  "price": 40,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": true,
+  "lineup": [],
+  "desc": "Le Haçienda, club le plus mythique de Manchester, reprend la main sur le Depot Mayfield le temps d'une nuit : acid house et classiques de Madchester.",
+  "descEn": "The Haçienda, Manchester's most storied club, takes over Depot Mayfield for one night: acid house and Madchester classics.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "The Warehouse Project: Tiësto",
+  "type": "Warehouse",
+  "genres": [
+   "EDM",
+   "Trance"
+  ],
+  "city": "Manchester",
+  "country": "UK",
+  "lat": 53.4761,
+  "lng": -2.2295,
+  "date": "2026-12-11",
+  "time": "20:00",
+  "price": 55,
+  "currency": "£",
+  "venue": "Depot Mayfield",
+  "trending": true,
+  "lineup": [
+   "Tiësto"
+  ],
+  "desc": "Première apparition de Tiësto à Manchester depuis treize ans, au Depot Mayfield, pour l'une des plus grosses affiches de la saison.",
+  "descEn": "Tiësto's first Manchester appearance in thirteen years, at Depot Mayfield, and one of the season's biggest draws.",
+  "ticketUrl": "https://thewarehouseproject.com/calendar/",
+  "sources": [
+   "https://thewarehouseproject.com/calendar/"
+  ],
+  "note": "Date et horaires confirmés sur le calendrier officiel. Tarif indicatif (saison annoncée entre 30 et 70 £), non vérifié par date."
+ },
+ {
+  "title": "Defected London",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-09-19",
+  "time": "13:30",
+  "price": 40,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": true,
+  "lineup": [
+   "Armand Van Helden",
+   "Basement Jaxx",
+   "Eats Everything",
+   "Sam Divine",
+   "Groove Armada",
+   "Jonas Blue",
+   "Makèz",
+   "Roger Sanchez",
+   "The Shapeshifters",
+   "Melvo Baptiste"
+  ],
+  "desc": "Defected prend les 15 000 places du Drumsheds pour une journée house : le label pose ses trois enseignes, Defected, Glitterbox et DFTD, sur autant de salles de l'ancien entrepôt IKEA d'Edmonton.",
+  "descEn": "Defected takes over Drumsheds' 15,000 capacity for a day of house: the label spreads its three imprints — Defected, Glitterbox and DFTD — across as many rooms of the former IKEA warehouse in Edmonton.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif d'entrée à partir de 40 £."
+ },
+ {
+  "title": "Steppers at Drumsheds",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Drum & Bass"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-09-26",
+  "time": "13:00",
+  "price": 38.45,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le collectif Steppers investit le Drumsheds pour une journée bass music et UK garage ; la programmation complète est annoncée à l'approche de la date.",
+  "descEn": "The Steppers collective takes over Drumsheds for a day of bass music and UK garage; the full line-up is revealed closer to the date.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif d'entrée à partir de 38,45 £. Line-up non encore annoncé."
+ },
+ {
+  "title": "NexUp: The Return",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-10-03",
+  "time": "13:00",
+  "price": 38.45,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [
+   "Max Dean"
+  ],
+  "desc": "NexUp revient au Drumsheds avec sa sélection de la nouvelle génération drum & bass britannique, Max Dean en tête d'affiche annoncée.",
+  "descEn": "NexUp returns to Drumsheds with its pick of the new British drum & bass generation, Max Dean the first headliner announced.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif d'entrée à partir de 38,45 £."
+ },
+ {
+  "title": "Don't Let Daddy Know London",
+  "type": "Warehouse",
+  "genres": [
+   "EDM",
+   "House"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-10-09",
+  "time": "19:00",
+  "price": 45,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [
+   "R3HAB",
+   "Halō",
+   "P.O.U"
+  ],
+  "desc": "La franchise néerlandaise Don't Let Daddy Know pose son show EDM au Drumsheds, de 19h à 3h du matin, avec R3HAB en tête d'affiche.",
+  "descEn": "Dutch franchise Don't Let Daddy Know brings its EDM show to Drumsheds, 7pm to 3am, with R3HAB headlining.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif indicatif, non vérifié — billetterie officielle du Drumsheds."
+ },
+ {
+  "title": "Bugged Out: 2001&On…",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-10-10",
+  "time": "13:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [
+   "Meera"
+  ],
+  "desc": "Bugged Out, institution du clubbing britannique, rejoue l'esprit du début des années 2000 au Drumsheds : neuf heures de house et de techno, de 13h à 22h30.",
+  "descEn": "Bugged Out, a British clubbing institution, replays the spirit of the early 2000s at Drumsheds: nine hours of house and techno, 1pm to 10.30pm.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif indicatif, non vérifié — billetterie officielle du Drumsheds."
+ },
+ {
+  "title": "False Idols at Drumsheds",
+  "type": "Warehouse",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-10-24",
+  "time": "13:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [],
+  "desc": "Journée techno au Drumsheds signée False Idols, de 13h à 22h30 dans le plus grand espace clos de Londres.",
+  "descEn": "A techno day at Drumsheds curated by False Idols, 1pm to 10.30pm in London's largest indoor space.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif indicatif, non vérifié — billetterie officielle du Drumsheds."
+ },
+ {
+  "title": "Worried About Henry London",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-11-07",
+  "time": "13:00",
+  "price": 29.5,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": true,
+  "lineup": [
+   "Wilkinson"
+  ],
+  "desc": "Worried About Henry exporte sa nuit drum & bass de Manchester au Drumsheds, avec Wilkinson en tête d'affiche et le reste du plateau annoncé progressivement.",
+  "descEn": "Worried About Henry brings its Manchester drum & bass night to Drumsheds, with Wilkinson headlining and the rest of the bill revealed in stages.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif d'entrée à partir de 29,50 £."
+ },
+ {
+  "title": "La Discothèque 10th Anniversary",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-11-13",
+  "time": "19:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": true,
+  "lineup": [
+   "Folamour",
+   "Masters at Work",
+   "Jayda G",
+   "Dan Shake",
+   "Ron Trent",
+   "DJ Paulette",
+   "Jennifer Lovell"
+  ],
+  "desc": "Les dix ans de La Discothèque au Drumsheds : Masters at Work, Ron Trent, Folamour et Jayda G réunis pour une nuit house et disco à grande échelle.",
+  "descEn": "Ten years of La Discothèque at Drumsheds: Masters at Work, Ron Trent, Folamour and Jayda G brought together for a large-scale house and disco night.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif d'entrée à partir de 38 £."
+ },
+ {
+  "title": "FUSE 18th Birthday",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "London",
+  "country": "UK",
+  "lat": 51.6155,
+  "lng": -0.0592,
+  "date": "2026-11-28",
+  "time": "13:00",
+  "price": 38,
+  "currency": "£",
+  "venue": "Drumsheds",
+  "trending": false,
+  "lineup": [
+   "Enzo Siragusa"
+  ],
+  "desc": "Le label londonien FUSE fête ses dix-huit ans au Drumsheds : minimale, house dépouillée et sets longs, de 13h à 22h30.",
+  "descEn": "London label FUSE marks its eighteenth birthday at Drumsheds: minimal, stripped-back house and long sets, 1pm to 10.30pm.",
+  "ticketUrl": "https://drumshedslondon.com/whats-on/",
+  "sources": [
+   "https://drumshedslondon.com/whats-on/"
+  ],
+  "note": "Tarif indicatif, non vérifié — billetterie officielle du Drumsheds."
+ },
+ {
+  "title": "Eelke Kleijn 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-08-08",
+  "time": "13:00",
+  "price": 26.5,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Eelke Kleijn"
+  ],
+  "desc": "Eelke Kleijn tient seul les platines dix heures durant à Thuishaven, en house et techno mélodiques. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Eelke Kleijn holds the decks alone for ten hours at Thuishaven, playing melodic house and techno. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 26,50 € confirmé."
+ },
+ {
+  "title": "Bella Claxton, Club Angel & Milion à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-08-09",
+  "time": "13:00",
+  "price": 29.5,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Bella Claxton",
+   "Club Angel",
+   "Milion",
+   "Faster Horses",
+   "Gabriel Muñoz",
+   "Luis Ripa",
+   "Jolani Jhones",
+   "Ned Bennett"
+  ],
+  "desc": "Journée hard house et hard groove à Thuishaven, menée par Bella Claxton, Club Angel et Milion sur deux espaces. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "A hard house and hard groove day at Thuishaven, led by Bella Claxton, Club Angel and Milion across two spaces. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 29,50 € confirmé."
+ },
+ {
+  "title": "Benny Rodrigues 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-08-15",
+  "time": "13:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Benny Rodrigues",
+   "Aurelius",
+   "Eileen",
+   "Frits Wentink",
+   "Kevin Lo"
+  ],
+  "desc": "Dix heures de set pour Benny Rodrigues, figure de la scène néerlandaise, avec le Loods en second espace. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "A ten-hour set from Benny Rodrigues, a fixture of the Dutch scene, with the Loods as a second space. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif non communiqué à cette date."
+ },
+ {
+  "title": "Gaskin 5HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-08-16",
+  "time": "13:00",
+  "price": 31.5,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Gaskin",
+   "Ellia Jaya",
+   "Wildish",
+   "Gissa",
+   "Stef Davidse",
+   "Ben Horton"
+  ],
+  "desc": "Gaskin déroule cinq heures de house à Thuishaven, entouré d'une sélection de la scène néerlandaise émergente. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Gaskin plays a five-hour house set at Thuishaven, surrounded by a pick of the emerging Dutch scene. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 31,50 € confirmé."
+ },
+ {
+  "title": "Toman, Dean Turnley & AAT à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-08-30",
+  "time": "13:00",
+  "price": 21.5,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Toman",
+   "Dean Turnley",
+   "AAT",
+   "Easttown",
+   "Jordan Brando",
+   "William Kiss"
+  ],
+  "desc": "Toman, Dean Turnley et AAT partagent une journée house à Thuishaven, au tarif le plus bas de la saison. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Toman, Dean Turnley and AAT share a day of house at Thuishaven, at the season's lowest ticket price. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 21,50 € confirmé."
+ },
+ {
+  "title": "Kolter 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-09-06",
+  "time": "13:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Kolter"
+  ],
+  "desc": "Kolter en solo pour dix heures à Thuishaven : house minimale et groove, première date de septembre. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Kolter solo for ten hours at Thuishaven: minimal house and groove, the first September date. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Date affichée complète ; tarif non communiqué."
+ },
+ {
+  "title": "Menesix 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-09-13",
+  "time": "13:00",
+  "price": 29.5,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Menesix"
+  ],
+  "desc": "Menesix prend les commandes de Thuishaven pour un set fleuve de dix heures. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Menesix takes over Thuishaven for a ten-hour long-form set. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 29,50 € confirmé."
+ },
+ {
+  "title": "Zomerclosing à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-09-27",
+  "time": "13:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Benny Rodrigues",
+   "Carista",
+   "Marsolo",
+   "Michel de Hey",
+   "Boss Priester"
+  ],
+  "desc": "Clôture de la saison estivale de Thuishaven, avec Carista, Benny Rodrigues et Michel de Hey en back-to-back avec Boss Priester. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "Closing of Thuishaven's summer season, with Carista, Benny Rodrigues and Michel de Hey back-to-back with Boss Priester. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif non communiqué à cette date."
+ },
+ {
+  "title": "IOSIO 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "House"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.394,
+  "lng": 4.836,
+  "date": "2026-10-04",
+  "time": "13:00",
+  "price": 34.99,
+  "currency": "€",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "IOSIO"
+  ],
+  "desc": "IOSIO ouvre la saison couverte de Thuishaven avec dix heures de hard house et de hard groove. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.",
+  "descEn": "IOSIO opens Thuishaven's indoor season with ten hours of hard house and hard groove. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.",
+  "ticketUrl": "https://www.thuishaven.nl/",
+  "sources": [
+   "https://www.thuishaven.nl/"
+  ],
+  "note": "Tarif d'entrée 34,99 € confirmé."
+ }
+]
