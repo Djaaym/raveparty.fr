@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, countryLabel, genreSlug, todayISO, upcoming } from "@/lib/data";
 import { ARTISTS } from "@/lib/artists";
 import { PLACES } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
+import ArtistsBrowser, { type ArtistRow } from "./ArtistsBrowser";
 
 export default function ArtistsHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
@@ -24,6 +25,20 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
     (a, b) => b.eventIds.length - a.eventIds.length,
   );
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 14);
+
+  // Trimmed rows for the client filter — the raw eventIds arrays would triple the payload.
+  const rows: ArtistRow[] = ARTISTS.map((a) => ({
+    slug: a.slug,
+    name: a.name,
+    n: a.eventIds.length,
+    up: a.eventIds.some((id) => liveIds.has(id)),
+    genres: a.genres,
+    countries: a.countries,
+  }));
+  const artistGenres = ALL_GENRES.filter((g) => rows.some((r) => r.genres.includes(g)));
+  const artistCountries = [...new Set(rows.flatMap((r) => r.countries))].sort((a, b) =>
+    countryLabel(a, lang).localeCompare(countryLabel(b, lang)),
+  );
 
   const intro =
     lang === "fr"
@@ -99,19 +114,9 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("artists.az")}
           </h2>
-          <div className="artist-grid">
-            {ARTISTS.map((a) => (
-              <Link key={a.slug} href={`${p}/artistes/${a.slug}`} className="artist-tile">
-                <div className="av">{a.name.trim()[0]}</div>
-                <div>
-                  <b>{a.name}</b>
-                  <span>
-                    {a.eventIds.length} {t(a.eventIds.length > 1 ? "dyn.events" : "dyn.event")}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* Filtering runs client-side over the whole directory: with no filter active the
+              grid still renders all {ARTISTS.length} links, so the internal mesh is unchanged. */}
+          <ArtistsBrowser lang={lang} artists={rows} genres={artistGenres} countries={artistCountries} />
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("hub.bygenre")}

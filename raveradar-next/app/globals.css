@@ -501,6 +501,23 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 }
 
 /* ----------------------------- ARTISTS --------------------------------- */
+/* Filter bar over the artist directory (1 000+ entries) — horizontal, not a sidebar:
+   the artists hub has no two-column layout. */
+.artist-filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr auto; gap: 10px; align-items: center; margin-bottom: 14px; }
+.artist-filters-toggle { white-space: nowrap; padding: 0; }
+.artist-letters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.artist-letters button {
+  min-width: 30px; padding: 5px 8px; border: 1px solid var(--line); border-radius: var(--r-sm);
+  background: transparent; color: var(--grey); font-family: var(--f-mono); font-size: .74rem;
+  cursor: pointer; transition: border-color .2s, color .2s;
+}
+.artist-letters button:hover { color: #fff; border-color: var(--violet); }
+.artist-letters button.on { color: #fff; border-color: var(--magenta); background: rgba(255,45,155,.12); }
+.artist-count { font-family: var(--f-mono); font-size: .74rem; color: var(--grey-2); margin-bottom: 14px; display: flex; align-items: center; gap: 12px; }
+.artist-reset { background: none; border: 0; color: var(--magenta); font: inherit; cursor: pointer; text-decoration: underline; }
+@media (max-width: 900px) { .artist-filters { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .artist-filters { grid-template-columns: 1fr; } }
+
 .artist-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .artist-tile {
   display: flex; align-items: center; gap: 12px; padding: 12px 14px;
