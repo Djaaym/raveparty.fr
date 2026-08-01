@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne, Inter, Space_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/site";
 import Analytics from "@/components/Analytics";
+import ImpactAffiliate from "@/components/ImpactAffiliate";
 import "../globals.css";
 
 const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-syne" });
@@ -30,6 +31,7 @@ export default function EnLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${syne.variable} ${inter.variable} ${spaceMono.variable}`}>
       <body>
+        <ImpactAffiliate />
         {children}
         <Analytics />
       </body>
