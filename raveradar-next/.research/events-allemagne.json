@@ -1,0 +1,558 @@
+[
+ {
+  "title": "R3HAB au Bootshaus",
+  "type": "Club",
+  "genres": [
+   "EDM",
+   "House"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-04",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": true,
+  "lineup": [
+   "R3HAB",
+   "La Fuente",
+   "Oliver Magenta",
+   "Relova",
+   "Dave Replay"
+  ],
+  "desc": "Le Néerlandais R3HAB prend le Mainfloor du Bootshaus, entouré de La Fuente, Oliver Magenta, Relova et Dave Replay, de 22h à 5h.",
+  "descEn": "Dutch producer R3HAB takes the Bootshaus Mainfloor, joined by La Fuente, Oliver Magenta, Relova and Dave Replay, 10pm to 5am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/r3hab-pres-by-bootshaus"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Bootshaus Sommerfest",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Drum & Bass",
+   "EDM"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-05",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "La fête d'été du Bootshaus ouvre tous les étages du club de Cologne, du dubstep à la hard techno.",
+  "descEn": "The Bootshaus summer party opens every floor of the Cologne club, from dubstep through to hard techno.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/bootshaus-sommerfest"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Blacklist & Inurfase pres. Zaagstep by Dr Donk",
+  "type": "Club",
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-11",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Dr Donk"
+  ],
+  "desc": "Les collectifs Blacklist et Inurfase confient une nuit au Néerlandais Dr Donk, figure du zaagstep et de l'uptempo, au Bootshaus.",
+  "descEn": "Collectives Blacklist and Inurfase hand a night to Dutch producer Dr Donk, a figurehead of zaagstep and uptempo, at Bootshaus.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/blacklist-inurfase-pres-zaagstep-by-dr-donk"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Polyamor au Bootshaus",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-18",
+  "time": "23:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Davyboi",
+   "Prada2000",
+   "Mika Heggemann"
+  ],
+  "desc": "La soirée Polyamor investit le Bootshaus de 23h au matin, avec Davyboi, Prada2000 et Mika Heggemann.",
+  "descEn": "The Polyamor night takes over Bootshaus from 11pm until morning, with Davyboi, Prada2000 and Mika Heggemann.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/polyamor-bootshaus-w-davyboi-prada2000-mika-heggemann-many-more"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Bootshaus Sommerfest Closing",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-19",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Clôture de la saison estivale du Bootshaus : tous les floors ouverts pour la dernière nuit du Sommerfest.",
+  "descEn": "Closing night of the Bootshaus summer season: every floor open for the last Sommerfest party.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/bootshaus-sommerfest-closing-26"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Vertile pres. Everything Changes Live",
+  "type": "Club",
+  "genres": [
+   "Hardstyle",
+   "Hard Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-20",
+  "time": "18:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Vertile"
+  ],
+  "desc": "Vertile présente son live « Everything Changes » au Bootshaus, format early de 18h à 22h, après une première à l'Effenaar.",
+  "descEn": "Vertile brings his \"Everything Changes\" live show to Bootshaus in an early 6pm-to-10pm format, after a first outing at Effenaar.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/vertile-pres-everything-changes-live-at-bootshaus"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Unreal Weekender Night I",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-25",
+  "time": "22:30",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Afem Syko",
+   "Biianco",
+   "Johannes Schuster",
+   "Kotorri",
+   "Mad Dog",
+   "Nikolina",
+   "Pixie Dust",
+   "Will Atkinson"
+  ],
+  "desc": "Première des deux nuits du Unreal Weekender au Bootshaus : hard techno de 22h30 à 8h du matin.",
+  "descEn": "First of the two Unreal Weekender nights at Bootshaus: hard techno from 10.30pm through to 8am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/unreal-weekender-night-i-september-2026"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Unreal Weekender Night II",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-09-26",
+  "time": "22:30",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Annie",
+   "DJ Dreckisch",
+   "Dvaid",
+   "Glanz",
+   "Rosilicious",
+   "Karah",
+   "KUKO",
+   "Tassery",
+   "Triptykh",
+   "Golpe"
+  ],
+  "desc": "Seconde nuit du Unreal Weekender au Bootshaus, même format : hard techno jusqu'au petit matin.",
+  "descEn": "Second Unreal Weekender night at Bootshaus, same format: hard techno until the early hours.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/unreal-weekender-night-ii-september-2026"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "NIBIRII pres. Ely Oaks",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno",
+   "EDM"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-02",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [
+   "Ely Oaks"
+  ],
+  "desc": "Le collectif Nibirii, organisateur du festival de Düren, ramène Ely Oaks au Bootshaus pour une nuit house et techno.",
+  "descEn": "The Nibirii collective, organisers of the Düren festival, bring Ely Oaks back to Bootshaus for a house and techno night.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/nibirii-pres-ely-oaks"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Chrome Cologne",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-09",
+  "time": "22:30",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Chrome Cologne pose sa hard techno immersive au Bootshaus, de 22h30 à 8h du matin.",
+  "descEn": "Chrome Cologne brings its immersive hard techno to Bootshaus, 10.30pm to 8am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/9-10-26-chrome-cologne"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Chris Stussy au Bootshaus",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-16",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": true,
+  "lineup": [
+   "Chris Stussy"
+  ],
+  "desc": "Première apparition de Chris Stussy sur le Mainfloor du Bootshaus : sets fluides et house minimale, de 22h à 5h.",
+  "descEn": "Chris Stussy's first appearance on the Bootshaus Mainfloor: flowing sets and minimal house, 10pm to 5am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/16-10-26-chris-stussy-pres-by-bootshaus"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Affenkäfig Rules",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-23",
+  "time": "23:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Affenkäfig réunit sa meute au Bootshaus pour une nuit hard, de 23h à 7h du matin, club complet.",
+  "descEn": "Affenkäfig gathers its pack at Bootshaus for a hard night, 11pm to 7am, full club.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/affenkaefig-rules-bootshaus-koeln"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "KitKatClub au Bootshaus",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-24",
+  "time": "21:30",
+  "price": 35,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le KitKatClub exporte sa nuit au Bootshaus : dress code fantaisie stricte, entrée sous réserve, de 21h30 à 6h30.",
+  "descEn": "KitKatClub exports its night to Bootshaus: strict fantasy dress code, admission at the door's discretion, 9.30pm to 6.30am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/sa-24-10-2026-kitkatclub"
+  ],
+  "note": "Entrée 35 € annoncée par l'organisateur."
+ },
+ {
+  "title": "Bootshaus & Loonyland pres. Halloween",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Hardstyle"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-10-31",
+  "time": "21:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Loonyland reprend le Bootshaus pour son Halloween annuel : trois étages ouverts du début de nuit jusqu'au matin.",
+  "descEn": "Loonyland takes over Bootshaus for its annual Halloween party: three floors open from early night until morning.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/bootshaus-loonyland-pres-halloween-2026"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "Unreal x KUKO All Night Long",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-12-19",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": true,
+  "lineup": [
+   "KUKO"
+  ],
+  "desc": "Dernière date du All Night Long World Tour de KUKO : le Néerlandais tient seul le Mainfloor du Bootshaus de 22h à 7h.",
+  "descEn": "Final date of KUKO's All Night Long World Tour: the Dutch DJ holds the Bootshaus Mainfloor alone from 10pm to 7am.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/19-12-26unreal-x-kuko-all-night-long-world-tour-cologne"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "KitKatClub au Bootshaus – 30 décembre",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-12-30",
+  "time": "21:30",
+  "price": 35,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": false,
+  "lineup": [],
+  "desc": "Édition d'entre-deux-fêtes du KitKatClub au Bootshaus, avec le même dress code fantaisie stricte.",
+  "descEn": "A between-the-holidays KitKatClub edition at Bootshaus, with the same strict fantasy dress code.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/mi-30-12-2026-kitkatclub"
+  ],
+  "note": "Entrée 35 € annoncée par l'organisateur."
+ },
+ {
+  "title": "Bootshaus & Loonyland pres. NYE",
+  "type": "Club",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno"
+  ],
+  "city": "Cologne",
+  "country": "Germany",
+  "lat": 50.9497,
+  "lng": 6.988,
+  "date": "2026-12-31",
+  "time": "21:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Bootshaus",
+  "trending": true,
+  "lineup": [],
+  "desc": "Réveillon du Bootshaus : Mainfloor, Blckbx et Dreherei ouverts de 21h à 6h pour passer de 2026 à 2027.",
+  "descEn": "New Year's Eve at Bootshaus: Mainfloor, Blckbx and Dreherei open from 9pm to 6am to cross from 2026 into 2027.",
+  "ticketUrl": "https://bootshaus.tv/events/",
+  "sources": [
+   "https://bootshaus.tv/events/bootshaus-loonyland-pres-nye-2026"
+  ],
+  "note": "Tarif non communiqué sur la fiche officielle."
+ },
+ {
+  "title": "The Village Festival Berlin",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.503,
+  "lng": 13.456,
+  "date": "2026-08-21",
+  "endDate": "2026-08-22",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Wilde Renate",
+  "trending": false,
+  "lineup": [
+   "Madmotormiquel",
+   "Franz Scala",
+   "Alma Negrot",
+   "Ady Toledano",
+   "Mad Kate",
+   "Stephan Licha",
+   "Adam Munnings",
+   "Saskia"
+  ],
+  "desc": "Vingt-quatre heures d'art et de musique sur deux lieux — Club OST et Wilde Renate reliés en labyrinthe — portées par le collectif House of Lunacy : espaces sex-positifs, installations et une trentaine de DJ.",
+  "descEn": "Twenty-four hours of art and music across two venues — Club OST and Wilde Renate linked into a labyrinth — run by the House of Lunacy collective: sex-positive spaces, installations and some thirty DJs.",
+  "ticketUrl": "https://renate.cc/",
+  "sources": [
+   "https://renate.cc/"
+  ],
+  "note": "Tarif non communiqué sur la page officielle."
+ },
+ {
+  "title": "19 Years Renate",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.503,
+  "lng": 13.456,
+  "date": "2026-09-11",
+  "endDate": "2026-09-14",
+  "time": "22:00",
+  "price": 0,
+  "currency": "€",
+  "venue": "Wilde Renate",
+  "trending": true,
+  "lineup": [
+   "Dana Ruh",
+   "Amy Dabbs",
+   "Alison Swing",
+   "Frinda di Lanco",
+   "Hendrik Stein",
+   "Das Beat",
+   "Firtzi Ernst",
+   "Carly Zeng"
+  ],
+  "desc": "Soixante-six heures non-stop sur sept floors pour les dix-neuf ans de la Wilde Renate, avec un takeover du Mensch Meier dans le jardin et des ateliers electro dans la salle noire.",
+  "descEn": "Sixty-six non-stop hours across seven floors for Wilde Renate's nineteenth birthday, with a Mensch Meier takeover in the garden and electro workshops in the black room.",
+  "ticketUrl": "https://renate.cc/",
+  "sources": [
+   "https://renate.cc/"
+  ],
+  "note": "Tarif non communiqué sur la page officielle."
+ }
+]

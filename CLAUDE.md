@@ -52,7 +52,13 @@ marche : **`jds.fr`** (agenda `/agenda/electro-335_B`, paginé, fiches `…_A` a
 horaire **et tarif** — la meilleure source FR), les sites officiels de festivals, `touslesfestivals.com`,
 `songkick.com`, `skiddle.com`. Hors France, les **agendas de salles** sont server-rendered et donnent
 tout d'un coup : `thewarehouseproject.com/calendar/` (dates + horaires exacts), `drumshedslondon.com/whats-on/`
-et `thuishaven.nl` (line-up, horaires, prix). Quand une source ne donne pas l'année (Drumsheds affiche
+et `thuishaven.nl` (line-up, horaires, prix). **`bootshaus.tv/events/`** est le meilleur d'Allemagne :
+chaque fiche `/events/{slug}` porte un bloc structuré `Begin / End / Location / Line-Up / Genres` — mais
+le site liste aussi les marques partenaires ailleurs (122 à Palma, scènes de Nature One, Blacklist à
+Oberhausen, Nibirii à Düren), donc **toujours lire le champ `Location`** au lieu de supposer Cologne.
+Les clubs berlinois (Renate, Sisyphos, ://about blank) ne publient qu'à ~5 semaines, et leurs
+« Klubnacht » hebdomadaires quasi homonymes s'effondrent sur la clé de dédup (titre, année) : n'en
+retenir que les dates distinctives. Quand une source ne donne pas l'année (Drumsheds affiche
 « SAT 19 SEP »), la **déduire en vérifiant le jour de semaine** plutôt que la supposer. Conséquence : en août, les dates FR de janvier-mars suivant sont
 majoritairement non annoncées — ne pas les inventer, la fenêtre réellement exploitable est J+1 à J+6 mois.
 
