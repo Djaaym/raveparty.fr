@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, isPast, lastDay } from "@/lib/data";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, eventVenueL, isPast, lastDay } from "@/lib/data";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
@@ -21,7 +21,7 @@ function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
         </div>
         <h3>{e.title}</h3>
         <div className="card-loc">
-          📍 {e.venue} — {e.city}, {countryLabel(e.country, lang)}
+          📍 {eventVenueL(e, lang)} — {e.city}, {countryLabel(e.country, lang)}
         </div>
         <div className="card-meta">
           {e.genres.map((g) => (

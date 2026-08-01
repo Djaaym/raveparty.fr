@@ -19,7 +19,8 @@ export interface RaveEvent {
    *  "unknown" = not published (never render it as free). */
   priceNote?: "estimated" | "unknown";
   currency: string;
-  venue: string;
+  venue: string; // French venue label (source of truth — the /lieux slug is built from it)
+  venueEn?: string; // English venue label; only needed when `venue` isn't a proper noun
   trending: boolean;
   lineup: string[];
   desc: string; // French description (site is FR-first)

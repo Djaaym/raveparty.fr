@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
-import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { fmtDate } from "@/lib/format";
 import { showsForArtist } from "@/lib/shows";
@@ -88,7 +88,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                   </h4>
                 </div>
                 <div>
-                  <h4>{s.venue}</h4>
+                  <h4>{venueLabelL(s.venue, s.venueEn, lang)}</h4>
                   <span>
                     {s.city}, {countryLabel(s.country, lang)}
                     {s.endDate < today && ` · ${t("event.pastbadge")}`}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, countryLabel, genreSlug, slugify, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, countryLabel, genreSlug, slugify, todayISO, upcoming, venueLabelL } from "@/lib/data";
 import { VENUES } from "@/lib/venues";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -83,7 +83,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
                 <Link key={v.slug} href={`${p}/lieux/${v.slug}`} className="artist-tile">
                   <div className="av">🏛</div>
                   <div>
-                    <b>{v.name}</b>
+                    <b>{venueLabelL(v.name, v.nameEn, lang)}</b>
                     <span>
                       {v.city}, {countryLabel(v.country, lang)} ·{" "}
                       {n > 0 ? `${n} ${t(n > 1 ? "dyn.events" : "dyn.event")}` : t("hub.past")}

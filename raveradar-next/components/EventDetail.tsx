@@ -7,6 +7,7 @@ import {
   countryLabel,
   eventDescL,
   eventPath,
+  eventVenueL,
   genreSlug,
   isLive,
   isPast,
@@ -14,16 +15,19 @@ import {
   nextEdition,
   slugify,
   ticketUrl,
+  todayISO,
   upcoming,
 } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { fmtDate, priceLabel } from "@/lib/format";
+import { guideFor, guideParentOf, pick } from "@/lib/guides";
 import { getDict, langPrefix } from "@/lib/i18n";
-import { breadcrumbJsonLd, eventJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, eventJsonLd, faqJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import FavButton from "./FavButton";
+import FestivalGuide from "./FestivalGuide";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
@@ -45,6 +49,17 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const live = isLive(e);
   const next = done ? nextEdition(e) : undefined;
   const place = placeFor(e);
+  const today = todayISO();
+  const venue = eventVenueL(e, lang);
+
+  // A city-wide, week-long programme (ADE) gets a long-form guide; the parties
+  // inside it get a pointer back up to it.
+  const guide = guideFor(e);
+  const parent = guideParentOf(e);
+  const parentEvent = parent ? EVENTS.find((x) => x.title === parent.festival && x.date.startsWith(`${parent.year}`)) : undefined;
+  const subEvents = guide
+    ? guide.subEventIds.map((id) => EVENTS.find((x) => x.id === id)).filter((x): x is RaveEvent => !!x)
+    : undefined;
 
   // Related: same genre and still ahead — a finished event is a dead end for the reader.
   const related = upcoming()
@@ -64,7 +79,13 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
   return (
     <>
-      <JsonLd data={[eventJsonLd(e, lang), breadcrumbJsonLd(trail, lang)]} />
+      <JsonLd
+        data={[
+          eventJsonLd(e, lang, { subEvents, superEvent: parentEvent }),
+          breadcrumbJsonLd(trail, lang),
+          ...(guide ? [faqJsonLd(guide.faq.map((f) => [pick(f.q, lang), pick(f.a, lang)] as [string, string]))] : []),
+        ]}
+      />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
@@ -90,9 +111,14 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </h1>
               <p className="lead" style={{ marginTop: 10, color: "var(--white)" }}>
                 📍{" "}
-                <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "inherit" }}>
-                  {e.venue}
-                </Link>{" "}
+                {/* A city-wide programme has no venue page — its `venue` is a label, not an address. */}
+                {guide ? (
+                  venue
+                ) : (
+                  <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "inherit" }}>
+                    {venue}
+                  </Link>
+                )}{" "}
                 ·{" "}
                 {place ? (
                   <Link href={`${p}/rave-party/${place.slug}`} style={{ color: "inherit" }}>
@@ -123,13 +149,40 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
             </div>
           )}
 
+          {/* The single most useful sentence on a programme page: this is a week, not a night. */}
+          {guide && (
+            <div className="notice guide-hook" style={{ marginTop: 20 }}>
+              <span className="eyebrow">⚠ {t("guide.warning")}</span>
+              {pick(guide.hook, lang)}
+            </div>
+          )}
+
+          {parent && parentEvent && (
+            <div className="notice" style={{ marginTop: 20 }}>
+              <span>
+                {t("guide.partof")} <b>{parent.festival}</b> {parent.year}.
+              </span>
+              <Link href={`${p}${eventPath(parentEvent)}`} className="btn btn-primary btn-sm">
+                {t("guide.seeprogram")}
+              </Link>
+            </div>
+          )}
+
           <div className="event-layout">
             <div>
               <div className="info-card">
                 <h2 className="h-md">{t("event.about")}</h2>
-                <p className="lead" style={{ fontSize: "1rem" }}>
-                  {eventDescL(e, lang)}
-                </p>
+                {guide ? (
+                  <div className="guide-intro">
+                    {guide.intro.map((par) => (
+                      <p key={par.fr}>{pick(par, lang)}</p>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="lead" style={{ fontSize: "1rem" }}>
+                    {eventDescL(e, lang)}
+                  </p>
+                )}
               </div>
 
               <div className="info-card">
@@ -156,14 +209,21 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 </div>
               </div>
 
-              <div className="info-card">
-                <h2 className="h-md">{t("event.gallery")}</h2>
-                <div className="gallery">
-                  {Array.from({ length: 8 }).map((_, i) => (
-                    <div key={i} style={{ backgroundImage: `linear-gradient(${130 + i * 25}deg, ${g.c1}, ${g.c2})` }} />
-                  ))}
+              {/* Placeholder swatches only earn their place when there's nothing better;
+                  a guided page has real content to show instead. */}
+              {!guide && (
+                <div className="info-card">
+                  <h2 className="h-md">{t("event.gallery")}</h2>
+                  <div className="gallery">
+                    {Array.from({ length: 8 }).map((_, i) => (
+                      <div
+                        key={i}
+                        style={{ backgroundImage: `linear-gradient(${130 + i * 25}deg, ${g.c1}, ${g.c2})` }}
+                      />
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               <div className="info-card">
                 <h2 className="h-md">{t("event.location")}</h2>
@@ -193,9 +253,13 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <div className="ticket-row">
                   <span>{t("event.venue")}</span>
                   <b>
-                    <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "var(--cyan)" }}>
-                      {e.venue}
-                    </Link>
+                    {guide ? (
+                      venue
+                    ) : (
+                      <Link href={`${p}/lieux/${slugify(e.venue)}`} style={{ color: "var(--cyan)" }}>
+                        {venue}
+                      </Link>
+                    )}
                   </b>
                 </div>
                 <div className="ticket-row">
@@ -229,6 +293,8 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </div>
             </aside>
           </div>
+
+          {guide && <FestivalGuide guide={guide} e={e} lang={lang} today={today} />}
 
           {related.length > 0 && (
             <>
