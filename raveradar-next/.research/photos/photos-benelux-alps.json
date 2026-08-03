@@ -10,12 +10,12 @@
  },
  {
   "id": 142,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Afas-dome-donker.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Afas-dome-donker.jpg",
-  "credit": "Andries Schotte / Wikimedia Commons (CC BY 4.0)",
-  "kind": "venue",
-  "width": 1920,
-  "note": "AFAS Dome d'Anvers illumine de nuit, vue aerienne"
+  "image": "https://www.rampage.eu/content/img/1/1718-26237-home-rampage-3a2720cbb83832ed.jpg",
+  "sourcePage": "https://rampage.eu/",
+  "credit": "Rampage (site officiel)",
+  "kind": "festival",
+  "width": 1621,
+  "note": "booth DJ Rampage devant la foule du Sportpaleis/AFAS Dome, visuel officiel"
  },
  {
   "id": 380,
@@ -25,6 +25,51 @@
   "kind": "festival",
   "width": 1920,
   "note": "scene de Reverze a Anvers"
+ },
+ {
+  "id": 356,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Kappa_Futur_Festival_2025_-_Esibizione_di_Boris_Brejcha.jpg/1920px-Kappa_Futur_Festival_2025_-_Esibizione_di_Boris_Brejcha.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Kappa_Futur_Festival_2025_-_Esibizione_di_Boris_Brejcha.jpg",
+  "credit": "MadBob / Wikimedia Commons (CC BY 4.0)",
+  "kind": "event",
+  "width": 1920,
+  "note": "set de Boris Brejcha, ecran geant a son nom et foule"
+ },
+ {
+  "id": 323,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fuse_blaasstraat.jpg/1920px-Fuse_blaasstraat.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg",
+  "credit": "karmakolle / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "facade du club Fuse, Blaesstraat 208 a Bruxelles"
+ },
+ {
+  "id": 357,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fuse_blaasstraat.jpg/1920px-Fuse_blaasstraat.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg",
+  "credit": "karmakolle / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "facade du club Fuse, Blaesstraat 208 a Bruxelles"
+ },
+ {
+  "id": 322,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Amelie_Lens_06_2022.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Amelie_Lens_06_2022.jpg",
+  "credit": "Rayukk / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "event",
+  "width": 1765,
+  "note": "Amelie Lens aux platines devant la foule"
+ },
+ {
+  "id": 369,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Maduk_Liquicity_Festival_2015.jpg/1920px-Maduk_Liquicity_Festival_2015.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Maduk_Liquicity_Festival_2015.jpg",
+  "credit": "Aykevanlaethem / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "event",
+  "width": 1920,
+  "note": "Maduk en set Liquicity sous la lune-logo du label"
  },
  {
   "id": 395,
@@ -52,5 +97,14 @@
   "kind": "festival",
   "width": 1920,
   "note": "street party de Snowbombing dans les rues de Mayrhofen"
+ },
+ {
+  "id": 373,
+  "image": "https://raveonsnow.com/fileadmin/user_upload/DSC_5225.JPG",
+  "sourcePage": "https://raveonsnow.com/history",
+  "credit": "Rave on Snow (site officiel)",
+  "kind": "festival",
+  "width": 1600,
+  "note": "DJ et foule pendant Rave on Snow, galerie officielle du festival"
  }
 ]

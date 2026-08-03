@@ -70,5 +70,68 @@
   "kind": "festival",
   "width": 1920,
   "note": "installation lumineuse nocturne sur le site du Boom Festival a Idanha-a-Nova"
+ },
+ {
+  "id": 327,
+  "image": "https://sunandbass.net/site/wp-content/uploads/2026/04/EXPERIENCE-A_Week-1.jpg",
+  "sourcePage": "https://www.sunandbass.net/",
+  "credit": "SUNANDBASS",
+  "kind": "festival",
+  "width": 1600,
+  "note": "scene SUN AND BASS sur la plage de La Cinta a San Teodoro, foule en journee"
+ },
+ {
+  "id": 318,
+  "image": "https://www.decibelopenair.com/assets/home/lineup-background.jpg",
+  "sourcePage": "https://www.decibelopenair.com/",
+  "credit": "Decibel Open Air",
+  "kind": "festival",
+  "width": 1280,
+  "note": "mainstage du Decibel Open Air au Parco delle Cascine, pyrotechnie et foule"
+ },
+ {
+  "id": 342,
+  "image": "https://www.cavoparadiso.gr/assets/images/dsc08711-816x488.jpg",
+  "sourcePage": "https://www.cavoparadiso.gr/",
+  "credit": "Cavo Paradiso Mykonos",
+  "kind": "venue",
+  "width": 816,
+  "note": "dancefloor open air du Cavo Paradiso de nuit, enseigne neon et flammes"
+ },
+ {
+  "id": 335,
+  "image": "https://framerusercontent.com/images/JubrpYxtDtxGycv0P3eRhvCRzYE.jpg?width=5000&height=3571",
+  "sourcePage": "https://bloomfestival.pt/",
+  "credit": "Bloom Festival",
+  "kind": "festival",
+  "width": 5000,
+  "note": "mainstage du Bloom Festival de nuit, mur de faisceaux orange au-dessus de la foule"
+ },
+ {
+  "id": 136,
+  "image": "https://mirafestival.com/wp-content/uploads/2026/04/MIRA202026_WEB.webp",
+  "sourcePage": "https://www.mirafestival.com/",
+  "credit": "MIRA Digital Arts Festival",
+  "kind": "festival",
+  "width": 1600,
+  "note": "visuel officiel MIRA 2026 (6-7 nov, Fira Montjuic Barcelone)"
+ },
+ {
+  "id": 320,
+  "image": "https://images.squarespace-cdn.com/content/v1/676ef68880dd8b6ae0340c02/c467b93e-b467-4d9f-b1b7-8e92d2d2ed26/DSC06569.jpg?format=1500w",
+  "sourcePage": "https://eternalsunfestival.com/",
+  "credit": "Eternal Sun Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "dancefloor du Club Fortuna a Sougia, lumieres et foule"
+ },
+ {
+  "id": 371,
+  "image": "https://www.dalmafestival.com/wp-content/uploads/2024/05/thumbdalma24compressed-1.jpg",
+  "sourcePage": "https://dalmafestival.com/",
+  "credit": "Dalma Festival",
+  "kind": "festival",
+  "width": 1920,
+  "note": "visuel officiel du Dalma Festival (Malte)"
  }
 ]

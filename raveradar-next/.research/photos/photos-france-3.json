@@ -43,5 +43,68 @@
   "kind": "venue",
   "width": 1280,
   "note": "scène du Stereolux à Nantes (retours siglés Stereolux)"
+ },
+ {
+  "id": 452,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Darkside-Le-Bikini-Toulouse-June-11-2023.jpg/1280px-Darkside-Le-Bikini-Toulouse-June-11-2023.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Darkside-Le-Bikini-Toulouse-June-11-2023.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "scène du Bikini (Darkside, juin 2023) — fumée et lumières rouges"
+ },
+ {
+  "id": 455,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg/1280px-La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:La_Machine_du_Moulin_Rouge,_Paris_October_2011.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "façade de nuit de La Machine du Moulin Rouge"
+ },
+ {
+  "id": 449,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg/1280px-Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Parcels,_La_Laiterie_Club,_Strasbourg_(32881900007).jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "scène du club de La Laiterie à Strasbourg"
+ },
+ {
+  "id": 453,
+  "image": "https://www.cartonnerie.fr/wp-content/uploads/2024/10/danceodrome-lpochet-11.jpg",
+  "sourcePage": "https://www.cartonnerie.fr/",
+  "credit": "Lucie Pochet / La Cartonnerie",
+  "kind": "venue",
+  "width": 2048,
+  "note": "soirée Danceodrome à La Cartonnerie — dancefloor plein, lumières"
+ },
+ {
+  "id": 441,
+  "image": "https://www.lemem.fr/wp-content/uploads/2026/03/lm26-1920x1080-1.jpg",
+  "sourcePage": "https://www.lemem.fr/",
+  "credit": "Le MeM",
+  "kind": "venue",
+  "width": 1920,
+  "note": "grande salle du MeM à Rennes, foule et boules à facettes"
+ },
+ {
+  "id": 446,
+  "image": "https://www.lemem.fr/wp-content/uploads/2026/03/lm26-1920x1080-1.jpg",
+  "sourcePage": "https://www.lemem.fr/",
+  "credit": "Le MeM",
+  "kind": "venue",
+  "width": 1920,
+  "note": "grande salle du MeM à Rennes, foule et boules à facettes"
+ },
+ {
+  "id": 438,
+  "image": "https://sew-morlaix.com/media/pages/images/2d3b77689a-1697581450/banner-1200x630-crop.jpg",
+  "sourcePage": "https://www.sew-morlaix.com/",
+  "credit": "Sew - la Manu",
+  "kind": "venue",
+  "width": 1200,
+  "note": "cour de la Manu à Morlaix, façade « cinéma théâtre danse concerts »"
  }
 ]

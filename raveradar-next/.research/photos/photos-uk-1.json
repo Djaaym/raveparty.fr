@@ -88,5 +88,41 @@
   "kind": "venue",
   "width": 1920,
   "note": "meme lieu que la FLY House Heads : SWG3 Glasgow, photo officielle du lieu"
+ },
+ {
+  "id": 252,
+  "image": "https://images.squarespace-cdn.com/content/v1/67051a23819fad06240a1974/c924fc01-3db0-4b62-9539-f34c6018af69/FIELD+DAY+%40khaliphotography-55.jpg?format=1500w",
+  "sourcePage": "https://fielddayfestivals.com/",
+  "credit": "Khali Photography / Field Day",
+  "kind": "festival",
+  "width": 1500,
+  "note": "foule de Field Day en plein air, photo officielle du site du festival"
+ },
+ {
+  "id": 222,
+  "image": "https://avafestival.com/wp-content/uploads/2025/12/AVA-Friday-Eve-17.jpg",
+  "sourcePage": "https://avafestival.com/london/",
+  "credit": "AVA Festival",
+  "kind": "festival",
+  "width": 2048,
+  "note": "salle bondee devant le DJ lors d'une soiree AVA, photo officielle du festival"
+ },
+ {
+  "id": 216,
+  "image": "https://concorde-two.transforms.svdcdn.com/production/images/20221231-C2-FOREVERLAND-EDITS-29-of-132.jpg?w=1200&h=900&q=95&auto=format&fit=clip&dm=1721822859&s=ff5edd005988e54e05809eef436bc6d5",
+  "sourcePage": "https://www.concorde2.co.uk/",
+  "credit": "Concorde 2",
+  "kind": "venue",
+  "width": 1200,
+  "note": "cabine DJ et dancefloor du Concorde 2 a Brighton, photo officielle de la salle"
+ },
+ {
+  "id": 228,
+  "image": "https://wp3-fatsomasites.imgix.net/uploads/sites/1496/2025/07/image-1-1.jpg",
+  "sourcePage": "https://www.theleedswarehouse.com/",
+  "credit": "The Warehouse Leeds",
+  "kind": "venue",
+  "width": 2048,
+  "note": "dancefloor du Warehouse Leeds sous les lumieres rouges, photo d'accueil du club"
  }
 ]

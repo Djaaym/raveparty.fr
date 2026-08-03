@@ -1,12 +1,48 @@
 [
  {
-  "id": 421,
-  "image": "https://www.laluciole.org/wp-content/uploads/2025/06/IMG_7771-Edit-scaled.jpg",
-  "sourcePage": "https://www.laluciole.org/agenda/",
-  "credit": "Lise Daligaut / La Luciole",
+  "id": 404,
+  "image": "https://cdn.prod.website-files.com/5f2042d4b94d37519c34f8ae/6a26cb2d4a8d3d24f7e009e8_SITE.webp",
+  "sourcePage": "https://www.cabaretsauvage.com/work/folamour",
+  "credit": "Cabaret Sauvage",
   "kind": "event",
-  "width": 2560,
-  "note": "photo officielle de la soiree Onde de Choc a La Luciole - DJ et dancefloor"
+  "width": 1400,
+  "note": "visuel officiel de la date Folamour 6 hours set au Cabaret Sauvage"
+ },
+ {
+  "id": 407,
+  "image": "https://detonation-festival.com/wp-content/uploads/2025/03/ambiance-7415.jpg",
+  "sourcePage": "https://detonation-festival.com/",
+  "credit": "B. Faivre Chalon / Détonation Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "photo de foule du festival Détonation a La Rodia"
+ },
+ {
+  "id": 408,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/03/hilight-tribe.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/gauvain-sers-2/",
+  "credit": "Hilight Tribe / La Coopérative de Mai",
+  "kind": "event",
+  "width": 1920,
+  "note": "meme visuel officiel de tournee Hilight Tribe"
+ },
+ {
+  "id": 409,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/pact/",
+  "credit": "PACT / La Coopérative de Mai",
+  "kind": "event",
+  "width": 2000,
+  "note": "meme visuel officiel de tournee PACT"
+ },
+ {
+  "id": 414,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/pact/",
+  "credit": "PACT / La Coopérative de Mai",
+  "kind": "event",
+  "width": 2000,
+  "note": "meme visuel officiel de tournee PACT"
  },
  {
   "id": 420,
@@ -18,13 +54,22 @@
   "note": "visuel officiel de tournee Hilight Tribe publie par la salle"
  },
  {
-  "id": 408,
-  "image": "https://www.lacoope.org/wp-content/uploads/2026/03/hilight-tribe.jpg",
-  "sourcePage": "https://www.lacoope.org/concerts/gauvain-sers-2/",
-  "credit": "Hilight Tribe / La Coopérative de Mai",
+  "id": 421,
+  "image": "https://www.laluciole.org/wp-content/uploads/2025/06/IMG_7771-Edit-scaled.jpg",
+  "sourcePage": "https://www.laluciole.org/agenda/",
+  "credit": "Lise Daligaut / La Luciole",
   "kind": "event",
-  "width": 1920,
-  "note": "meme visuel officiel de tournee Hilight Tribe"
+  "width": 2560,
+  "note": "photo officielle de la soiree Onde de Choc a La Luciole - DJ et dancefloor"
+ },
+ {
+  "id": 423,
+  "image": "https://badaboum.paris/wp-content/uploads/2025/11/DSC_2268-1125x1500.jpeg",
+  "sourcePage": "https://badaboum.paris/",
+  "credit": "Badaboum",
+  "kind": "venue",
+  "width": 1125,
+  "note": "dancefloor du club Badaboum sous les lumieres bleues"
  },
  {
   "id": 425,
@@ -45,21 +90,12 @@
   "note": "visuel officiel PACT (Joris Delacroix, Joachim Pastor, Teho)"
  },
  {
-  "id": 409,
-  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
-  "sourcePage": "https://www.lacoope.org/concerts/pact/",
-  "credit": "PACT / La Coopérative de Mai",
-  "kind": "event",
-  "width": 2000,
-  "note": "meme visuel officiel de tournee PACT"
- },
- {
-  "id": 414,
-  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
-  "sourcePage": "https://www.lacoope.org/concerts/pact/",
-  "credit": "PACT / La Coopérative de Mai",
-  "kind": "event",
-  "width": 2000,
-  "note": "meme visuel officiel de tournee PACT"
+  "id": 428,
+  "image": "https://mamc.saint-etienne-metropole.fr/sites/default/files/upload/medias/images/20211113-GMB-positive-education-1500x1125.jpg",
+  "sourcePage": "https://mamc.saint-etienne-metropole.fr/fr/agenda/festival-positive-education",
+  "credit": "MAMC+ Saint-Étienne Métropole",
+  "kind": "festival",
+  "width": 1200,
+  "note": "DJ set et public lors du festival Positive Education a Saint-Etienne"
  }
 ]
