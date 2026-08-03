@@ -18,11 +18,20 @@
   "note": "visuel officiel du festival publie par l'organisateur"
  },
  {
+  "id": 143,
+  "image": "https://cdm0lfbn.cloudimg.io/v7/_images_base_/image_uploader/photos/2b/original/snowboxx-avoriaz.jpg",
+  "sourcePage": "https://www.seeavoriaz.com/events/snowboxx-festival-688251",
+  "credit": "Office de tourisme d'Avoriaz / Snowboxx",
+  "kind": "festival",
+  "width": 1600,
+  "note": "mainstage Snowboxx avec jets de flammes et foule, Avoriaz"
+ },
+ {
   "id": 113,
   "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2002_September_14%2C_Paris_techno_parade_23.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:2002_September_14,_Paris_techno_parade_23.jpg",
   "credit": "Syced / Wikimedia Commons (CC0)",
-  "kind": "event",
+  "kind": "festival",
   "width": 1280,
   "note": "char et foule de la Techno Parade dans les rues de Paris"
  },
@@ -33,34 +42,7 @@
   "credit": "Festival Maintenant / Electroni[k]",
   "kind": "festival",
   "width": 1600,
-  "note": "visuel officiel de l'edition 2026 du festival Maintenant"
- },
- {
-  "id": 150,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg/1920px-Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_(2).jpg",
-  "credit": "Sebleouf / Wikimedia Commons (CC BY-SA 4.0)",
-  "kind": "festival",
-  "width": 1920,
-  "note": "foule et lasers verts aux Nuits Sonores 2026, Lyon"
- },
- {
-  "id": 138,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Public_des_Trans_Musicales_2024%2C_1.jpg/1920px-Public_des_Trans_Musicales_2024%2C_1.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Public_des_Trans_Musicales_2024,_1.jpg",
-  "credit": "Plyd / Wikimedia Commons (CC BY-SA 4.0)",
-  "kind": "festival",
-  "width": 1920,
-  "note": "public des Trans Musicales 2024 au Parc Expo de Rennes"
- },
- {
-  "id": 134,
-  "image": "https://dreamnation.fr/wp-content/uploads/2026/04/DN26-GAL-SITE.jpg",
-  "sourcePage": "https://www.dreamnation.fr/",
-  "credit": "Dream Nation Festival",
-  "kind": "festival",
-  "width": 1200,
-  "note": "affiche officielle Dream Nation 2026, Paris Nord Villepinte"
+  "note": "visuel officiel de l'edition 2026 du festival Maintenant, Rennes"
  },
  {
   "id": 114,
@@ -81,13 +63,40 @@
   "note": "public du Festival Le Bon Air sur les toits de la Friche"
  },
  {
+  "id": 403,
+  "image": "https://www.jds.fr/medias/image/0-93270100-1780217598-969925-1200-0.webp",
+  "sourcePage": "https://www.jds.fr/saint-nazaire/concerts/electro/festival-resofest-1564752_A",
+  "credit": "Resonance 44 / Resofest",
+  "kind": "festival",
+  "width": 1200,
+  "note": "affiche officielle Resofest, 22 aout 2026 au Jardin Etoile de Paimboeuf"
+ },
+ {
   "id": 400,
   "image": "https://www.lafriche.org/app/uploads/2022/05/0C6A0227marin.driguezPUBLIC-1900x1267-1.jpg",
   "sourcePage": "https://www.lafriche.org/evenements/festival-le-bon-air-4/",
   "credit": "Marin Driguez / Friche la Belle de Mai",
   "kind": "venue",
   "width": 1900,
-  "note": "photo du dancefloor de la Friche la Belle de Mai"
+  "note": "dancefloor de la Friche la Belle de Mai (meme lieu, photo de salle)"
+ },
+ {
+  "id": 133,
+  "image": "https://www.thewalkingbass.fr/wp-content/uploads/2025/11/the-walking-bass-report-2025_8.jpg",
+  "sourcePage": "https://www.thewalkingbass.fr/",
+  "credit": "The Walking Bass Festival",
+  "kind": "festival",
+  "width": 1400,
+  "note": "scene cube et lumieres rouges du Walking Bass 2025, Marseille"
+ },
+ {
+  "id": 122,
+  "image": "https://ndkfestival.com/opengraph.jpg",
+  "sourcePage": "https://www.ndkfestival.com/",
+  "credit": "NDK Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "visuel officiel NDK Edition 6 avec dates, Caen"
  },
  {
   "id": 145,
@@ -99,13 +108,67 @@
   "note": "affiche officielle Reperkusound publiee par l'organisateur"
  },
  {
-  "id": 122,
-  "image": "https://ndkfestival.com/opengraph.jpg",
-  "sourcePage": "https://www.ndkfestival.com/",
-  "credit": "NDK Festival",
+  "id": 150,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg/1920px-Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_(2).jpg",
+  "credit": "Sebleouf / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "foule et lasers verts aux Nuits Sonores 2026, Lyon"
+ },
+ {
+  "id": 138,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Public_des_Trans_Musicales_2024%2C_1.jpg/1920px-Public_des_Trans_Musicales_2024%2C_1.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Public_des_Trans_Musicales_2024,_1.jpg",
+  "credit": "Plyd / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "public des Trans Musicales 2024 au Parc Expo de Rennes"
+ },
+ {
+  "id": 159,
+  "image": "https://www.festivalpleinair.fr/wp-content/uploads/2024/08/anaisbellanger-9.jpg",
+  "sourcePage": "https://www.festivalpleinair.fr/",
+  "credit": "Anais Bellanger / Festival Plein Air",
+  "kind": "festival",
+  "width": 1920,
+  "note": "mainstage de nuit et public du Festival Plein Air, parc Jacques Vernier a Douai"
+ },
+ {
+  "id": 111,
+  "image": "https://www.jardinelectronique.com/wp-content/uploads/2026/03/JE-2025-drop2-@arthur_ranzy_-99.jpg",
+  "sourcePage": "https://www.jardinelectronique.com/",
+  "credit": "Arthur Ranzy / Le Jardin Electronique",
+  "kind": "festival",
+  "width": 1920,
+  "note": "foule sous la canopee lumineuse du Jardin Electronique 2025, Lomme"
+ },
+ {
+  "id": 134,
+  "image": "https://dreamnation.fr/wp-content/uploads/2026/04/DN26-GAL-SITE.jpg",
+  "sourcePage": "https://www.dreamnation.fr/",
+  "credit": "Dream Nation Festival",
   "kind": "festival",
   "width": 1200,
-  "note": "visuel officiel NDK Edition 6, Caen"
+  "note": "affiche officielle Dream Nation 2026, Paris Nord Villepinte"
+ },
+ {
+  "id": 126,
+  "image": "https://bulletinbordelais.eu/marvoos/2025/11/MadameLoyal_geoh.jpg",
+  "sourcePage": "https://bulletinbordelais.eu/festival-sonora-la-techno-envahit-le-parc-des-expositions-bordelais/",
+  "credit": "(c) Sonora",
+  "kind": "festival",
+  "width": 1920,
+  "note": "hall du Parc des Expositions de Bordeaux rempli pour Sonora (photo officielle Sonora)"
+ },
+ {
+  "id": 110,
+  "image": "https://pharaonic.fr/wp-content/uploads/2026/05/PHARAONIC_@clubbingvision-146.jpg",
+  "sourcePage": "https://pharaonic.fr/",
+  "credit": "Clubbing Vision / Pharaonic",
+  "kind": "festival",
+  "width": 2250,
+  "note": "mainstage et foule du Pharaonic a Cluses, face aux montagnes"
  },
  {
   "id": 153,
@@ -117,13 +180,31 @@
   "note": "foule devant la mainstage du Marvellous Island, plage de Torcy"
  },
  {
-  "id": 110,
-  "image": "https://pharaonic.fr/wp-content/uploads/2026/05/PHARAONIC_@clubbingvision-146.jpg",
-  "sourcePage": "https://pharaonic.fr/",
-  "credit": "Clubbing Vision / Pharaonic",
+  "id": 151,
+  "image": "https://www.touslesfestivals.com/uploads/304eba530ae8e7341bc086f6e1e7355d24cfc6ff/8dadcdf3ebd678b5376a012d235a89d8a306f57f.jpg",
+  "sourcePage": "https://www.touslesfestivals.com/on-etait-a/insane-festival-2022-orages-et-tempete-de-basses-250822",
+  "credit": "Tous les Festivals",
   "kind": "festival",
-  "width": 2250,
-  "note": "mainstage et foule du Pharaonic a Cluses, face aux montagnes"
+  "width": 1040,
+  "note": "foule et scene sous voiles de l'Insane Festival au plan d'eau d'Apt"
+ },
+ {
+  "id": 402,
+  "image": "https://cdt34.media.tourinsoft.eu/upload/706719430-933358023068288-867911764664832870-n.jpg",
+  "sourcePage": "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/lgt-festival-fabregues-fr-6562849/",
+  "credit": "Arts & Groove / LGT Festival",
+  "kind": "festival",
+  "width": 1055,
+  "note": "affiche officielle LGT Festival #7, 14/08/26 au Plan des Fetes de Fabregues"
+ },
+ {
+  "id": 157,
+  "image": "https://aluna-festival.fr/wp-content/uploads/2024/05/Aluna-Festival-Teaser.jpg",
+  "sourcePage": "https://aluna-festival.fr/",
+  "credit": "Aluna Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "mainstage et public de l'Aluna Festival, Ruoms"
  },
  {
   "id": 124,
@@ -160,41 +241,5 @@
   "kind": "festival",
   "width": 1920,
   "note": "Red Stage et foule a l'Elektric Park 2023, ile des Impressionnistes"
- },
- {
-  "id": 111,
-  "image": "https://www.jardinelectronique.com/wp-content/uploads/2026/03/JE-2025-drop2-@arthur_ranzy_-99.jpg",
-  "sourcePage": "https://www.jardinelectronique.com/",
-  "credit": "Arthur Ranzy / Le Jardin Electronique",
-  "kind": "festival",
-  "width": 1920,
-  "note": "foule sous la canopee lumineuse du Jardin Electronique 2025, Lomme"
- },
- {
-  "id": 157,
-  "image": "https://aluna-festival.fr/wp-content/uploads/2024/05/Aluna-Festival-Teaser.jpg",
-  "sourcePage": "https://aluna-festival.fr/",
-  "credit": "Aluna Festival",
-  "kind": "festival",
-  "width": 1500,
-  "note": "mainstage et public de l'Aluna Festival, Ruoms"
- },
- {
-  "id": 133,
-  "image": "https://www.thewalkingbass.fr/wp-content/uploads/2025/11/the-walking-bass-report-2025_8.jpg",
-  "sourcePage": "https://www.thewalkingbass.fr/",
-  "credit": "The Walking Bass Festival",
-  "kind": "festival",
-  "width": 1400,
-  "note": "scene cube et lumieres rouges du Walking Bass 2025, Marseille"
- },
- {
-  "id": 159,
-  "image": "https://www.festivalpleinair.fr/wp-content/uploads/2024/08/anaisbellanger-9.jpg",
-  "sourcePage": "https://www.festivalpleinair.fr/",
-  "credit": "Anais Bellanger / Festival Plein Air",
-  "kind": "festival",
-  "width": 1920,
-  "note": "mainstage de nuit et public du Festival Plein Air, parc Jacques Vernier a Douai"
  }
 ]

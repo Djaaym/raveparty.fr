@@ -241,5 +241,23 @@
   "kind": "event",
   "width": 1024,
   "note": "affiche officielle Verknipt Poland du 9 octobre 2026 a SEKTOR6D, Varsovie"
+ },
+ {
+  "id": 213,
+  "image": "https://menufabrikas.lt/wp-content/uploads/2023/04/Menu-Fabrikas-LOFTAS-Vilnius-party-5-1024x683.jpeg",
+  "sourcePage": "https://menufabrikas.lt/",
+  "credit": "Menu fabrikas LOFTAS",
+  "kind": "venue",
+  "width": 1024,
+  "note": "foule et logo LOFTAS dans l'ancienne usine Elfa, Vilnius"
+ },
+ {
+  "id": 230,
+  "image": "https://www.clubguesthouse.ro/images/slideshow/gh-2024-165.jpg",
+  "sourcePage": "https://www.clubguesthouse.ro/",
+  "credit": "Club Guesthouse",
+  "kind": "venue",
+  "width": 1980,
+  "note": "dancefloor du Club Guesthouse a Bucarest sous la lumiere rouge"
  }
 ]

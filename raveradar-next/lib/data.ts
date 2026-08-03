@@ -706,24 +706,33 @@ const PHOTO_BASE = "/posters/";
 /* PHOTOS:start */
 export const PHOTOS: Record<number, string> = {};
 /* PHOTOS:end */
+
+/* Une édition sans visuel propre emprunte celui d'une autre édition du même festival
+ * (clé = id sans image, valeur = id qui en a une). Rien d'autre n'est mutualisé ici :
+ * deux soirées différentes d'une même salle partagent déjà un fichier via PHOTOS. */
+/* ALIAS:start */
+const IMAGE_ALIAS: Record<number, number> = {};
+/* ALIAS:end */
+const imgKey = (id: number): number => IMAGE_ALIAS[id] ?? id;
+
 /** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine.
  *  Absolute on purpose: a relative path in an og:image or a schema.org `image` is
  *  ignored by the crawlers that read them. */
-export const imageUrl = (e: RaveEvent): string | null =>
-  IMAGES[e.id]
-    ? IMG_BASE + IMAGES[e.id]
-    : PHOTOS[e.id]
-      ? SITE_URL + PHOTO_BASE + PHOTOS[e.id]
-      : null;
+export const imageUrl = (e: RaveEvent): string | null => {
+  const k = imgKey(e.id);
+  return IMAGES[k] ? IMG_BASE + IMAGES[k] : PHOTOS[k] ? SITE_URL + PHOTO_BASE + PHOTOS[k] : null;
+};
 /** Compressed variant served alongside each poster: ~60-100 KB of WebP instead of
  *  ~2.5 MB of PNG, cropped to the 4:5 of a card. A listing renders 24 of these, so
  *  the full-size file is never what a card should load. */
-export const imageThumb = (e: RaveEvent): string | null =>
-  IMAGES[e.id]
-    ? IMG_BASE + IMAGES[e.id].replace(/\.(png|jpe?g)$/, "_min.webp")
-    : PHOTOS[e.id]
-      ? PHOTO_BASE + PHOTOS[e.id].replace(/\.jpg$/, "_min.webp")
+export const imageThumb = (e: RaveEvent): string | null => {
+  const k = imgKey(e.id);
+  return IMAGES[k]
+    ? IMG_BASE + IMAGES[k].replace(/\.(png|jpe?g)$/, "_min.webp")
+    : PHOTOS[k]
+      ? PHOTO_BASE + PHOTOS[k].replace(/\.jpg$/, "_min.webp")
       : null;
+};
 /** composite CSS background: real poster on top, genre gradient as fallback */
 export const cardBg = (e: RaveEvent): string => {
   const url = imageThumb(e);
