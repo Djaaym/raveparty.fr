@@ -178,5 +178,50 @@
   "kind": "venue",
   "width": 819,
   "note": "coque de l'Auditorium Parco della Musica illuminee en rose la nuit"
+ },
+ {
+  "id": 77,
+  "image": "https://dc10ibiza.com/wp-content/uploads/2026/07/Mario_Pinta_DC10_Circoloco_22.06.2026-19.jpg",
+  "sourcePage": "https://www.dc10ibiza.com/",
+  "credit": "DC-10 Ibiza / Mario Pinta",
+  "kind": "event",
+  "width": 1365,
+  "note": "enseigne neon CIRCOLOCO au-dessus du dancefloor du DC-10"
+ },
+ {
+  "id": 334,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/TDK_Time_Warp_2006.jpg/1920px-TDK_Time_Warp_2006.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:TDK_Time_Warp_2006.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "foule et mainfloor du Time Warp, mains en l'air"
+ },
+ {
+  "id": 321,
+  "image": "https://www.komorebimusicfestival.org/wp-content/uploads/2026/03/D7A2179-2.jpg",
+  "sourcePage": "https://www.komorebimusicfestival.org/",
+  "credit": "Komorebi Music Festival",
+  "kind": "festival",
+  "width": 1120,
+  "note": "lasers de nuit sur la montagne au-dessus du Forte di Vinadio"
+ },
+ {
+  "id": 383,
+  "image": "https://cafedelmar.com.mt/wp-content/uploads/2026/01/Rong-Open-Air-Festival-Malta-2026.webp",
+  "sourcePage": "https://cafedelmar.com.mt/event/rong-open-air-festival-malta-2026/",
+  "credit": "Cafe del Mar Malta / RONG",
+  "kind": "festival",
+  "width": 1919,
+  "note": "open air RONG a St Paul's Bay, feux d'artifice au-dessus de la piscine"
+ },
+ {
+  "id": 118,
+  "image": "https://unvrs.b-cdn.net/images/brand/20250508_%40Intoptier_UNVRS_SetUp_Socials_4000px_1-1747205489.jpg",
+  "sourcePage": "https://unvrs.com/about",
+  "credit": "[UNVRS] Ibiza",
+  "kind": "venue",
+  "width": 4000,
+  "note": "patio du club [UNVRS] a Ibiza avec le dome, photo officielle du lieu"
  }
 ]

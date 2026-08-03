@@ -151,5 +151,86 @@
   "kind": "venue",
   "width": 1500,
   "note": "scene et machine a fumee dans l'ancienne savonnerie qui abrite Ankali, Prague"
+ },
+ {
+  "id": 235,
+  "image": "https://images.squarespace-cdn.com/content/v1/6697ca337cb4855009406c37/0959f9ab-c010-4f59-bf53-0d5b16dfba3b/DSCF0307-13.jpg?format=1500w",
+  "sourcePage": "https://www.indexdublin.com/",
+  "credit": "Index Dublin",
+  "kind": "venue",
+  "width": 1500,
+  "note": "booth DJ et foule sous les lasers au club Index, Dublin"
+ },
+ {
+  "id": 117,
+  "image": "https://doz6j2b6qf4k9.cloudfront.net/unsound-softpower-horizontal-3.jpg",
+  "sourcePage": "https://www.unsound.pl/",
+  "credit": "Unsound Festival",
+  "kind": "festival",
+  "width": 1773,
+  "note": "visuel officiel de l'edition Unsound Soft Power 2026 (Warszawa / Krakow)"
+ },
+ {
+  "id": 123,
+  "image": "https://doz6j2b6qf4k9.cloudfront.net/unsound-softpower-horizontal-3.jpg",
+  "sourcePage": "https://www.unsound.pl/",
+  "credit": "Unsound Festival",
+  "kind": "festival",
+  "width": 1773,
+  "note": "visuel officiel de l'edition Unsound Soft Power 2026 (Warszawa / Krakow)"
+ },
+ {
+  "id": 218,
+  "image": "https://www.klub-k4.si/wp-content/uploads/2026/01/front_page_cover_1080_min.jpg",
+  "sourcePage": "https://www.klub-k4.si/en/",
+  "credit": "Klub K4",
+  "kind": "venue",
+  "width": 1618,
+  "note": "file d'attente devant l'entree du Klub K4 a Ljubljana"
+ },
+ {
+  "id": 391,
+  "image": "https://cdn.prod.website-files.com/6710c6bea302410a46ece7b9/685ebdc340c82d82abcb5263_5f4e20e865599b487c5af420_20180629-1714_Marshmello_LR_2_DS_OG.avif",
+  "sourcePage": "https://www.palmesus.com/",
+  "credit": "Palmesus",
+  "kind": "festival",
+  "width": 1200,
+  "note": "mainstage de Palmesus sur la plage de Bystranda, feu d'artifice et foule"
+ },
+ {
+  "id": 368,
+  "image": "https://poolen.dk/wp-content/uploads/Future-Islands-salen-Fotograf-Mathias-Kristensen-Gonzales-Photo-1.jpg",
+  "sourcePage": "https://poolen.dk/en/",
+  "credit": "Poolen / Mathias Kristensen - Gonzales Photo",
+  "kind": "venue",
+  "width": 2000,
+  "note": "grande halle warehouse de Poolen a Refshaleoen, Copenhague, salle pleine"
+ },
+ {
+  "id": 257,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ING_Love_stage%2C_Beats_for_Love_2019_01.jpg/1920px-ING_Love_stage%2C_Beats_for_Love_2019_01.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:ING_Love_stage,_Beats_for_Love_2019_01.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "la Love Stage et la foule de Beats for Love, Dolni Vitkovice, Ostrava"
+ },
+ {
+  "id": 207,
+  "image": "https://images.squarespace-cdn.com/content/v1/645bee4ea2612621138215ca/0079e5f9-a5c8-4479-a068-7c72b9945423/547445030_1389862256053049_2973678403443697627_n.jpg?format=1500w",
+  "sourcePage": "https://www.extremechill.org/photos",
+  "credit": "Extreme Chill Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "live sous les lasers a l'Extreme Chill Festival, Reykjavik (galerie officielle)"
+ },
+ {
+  "id": 251,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Megan_Black%2C_Tallinn_Music_Week%2C_Estonia.jpg/1920px-Megan_Black%2C_Tallinn_Music_Week%2C_Estonia.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Megan_Black,_Tallinn_Music_Week,_Estonia.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "showcase live dans une salle de Tallinn pendant Tallinn Music Week"
  }
 ]

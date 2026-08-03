@@ -151,5 +151,68 @@
   "kind": "festival",
   "width": 2000,
   "note": "photo officielle FLY : cabine DJ en plein air et foule, site de l'organisateur de FLY Open Air"
+ },
+ {
+  "id": 232,
+  "image": "https://d31fr2pwly4c4s.cloudfront.net/3/a/c/2281152_2a36dfa4_teletech-jowi-all-night-long-liverpool_1024.jpg",
+  "sourcePage": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Teletech-JOWI-ALL-NIGHT-LONG---Liverpool/42488463/",
+  "credit": "Teletech",
+  "kind": "event",
+  "width": 1024,
+  "note": "affiche officielle Teletech JOWI All Night Long, 09/10/2026 Arts Club Liverpool"
+ },
+ {
+  "id": 237,
+  "image": "https://d31fr2pwly4c4s.cloudfront.net/a/b/3/2297697_22889273_Teletech--KIRSTY--All-Night-Long----Glasgow_1024.jpg",
+  "sourcePage": "https://www.skiddle.com/whats-on/Glasgow/Room-2/",
+  "credit": "Teletech",
+  "kind": "event",
+  "width": 1024,
+  "note": "affiche de la tournee Teletech x KIRSTY All Night Long, date Room 2 Glasgow 24/10/2026"
+ },
+ {
+  "id": 243,
+  "image": "https://site-whq.s3.amazonaws.com/media/X1/Teletech/2297688_6d621071_teletech-kirsty-all-night-long-bristol_1024.jpeg",
+  "sourcePage": "https://www.welovewhq.com/whats-on/teletech-kirsty-all-night-long-newcastle",
+  "credit": "Teletech / World Headquarters",
+  "kind": "event",
+  "width": 1024,
+  "note": "affiche de la tournee Teletech x KIRSTY, date World Headquarters Newcastle 14/11/2026"
+ },
+ {
+  "id": 249,
+  "image": "https://site-whq.s3.amazonaws.com/media/X1/Teletech/2297688_6d621071_teletech-kirsty-all-night-long-bristol_1024.jpeg",
+  "sourcePage": "https://www.welovewhq.com/whats-on/teletech-kirsty-all-night-long-newcastle",
+  "credit": "Teletech",
+  "kind": "event",
+  "width": 1024,
+  "note": "meme affiche de tournee Teletech x KIRSTY, qui liste la date Telegraph Building Belfast 26/12/2026"
+ },
+ {
+  "id": 250,
+  "image": "https://site-whq.s3.amazonaws.com/media/X1/Teletech/2297688_6d621071_teletech-kirsty-all-night-long-bristol_1024.jpeg",
+  "sourcePage": "https://www.welovewhq.com/whats-on/teletech-kirsty-all-night-long-newcastle",
+  "credit": "Teletech",
+  "kind": "event",
+  "width": 1024,
+  "note": "meme affiche de tournee Teletech x KIRSTY, qui liste la date Vaults Cardiff 12/03/2027"
+ },
+ {
+  "id": 211,
+  "image": "https://images.squarespace-cdn.com/content/v1/5e8e1101c3694c713fa1f513/1783013729751-7U822H3ZKOFI8KXNVD5C/small-RGB-FxBassiani.jpg?format=1500w",
+  "sourcePage": "https://www.fold.london/tickets",
+  "credit": "FOLD",
+  "kind": "event",
+  "width": 1240,
+  "note": "affiche officielle FOLD x Bassiani 2 rooms, 05/09/2026"
+ },
+ {
+  "id": 248,
+  "image": "https://shine.tickets/images/events/dec%2004%20Cropped%20(1).jpg",
+  "sourcePage": "https://shine.tickets/events/show/5498/shine-dusky-ulster-sports-club",
+  "credit": "Shine Belfast",
+  "kind": "event",
+  "width": 800,
+  "note": "visuel officiel Dusky Signals Tour, date Shine 04/12/2026 Ulster Sports Club"
  }
 ]

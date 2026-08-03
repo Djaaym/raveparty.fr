@@ -178,5 +178,50 @@
   "kind": "venue",
   "width": 1200,
   "note": "façade blanche perforée de La BAM (Boîte à Musiques) à Metz"
+ },
+ {
+  "id": 442,
+  "image": "https://www.warehouse-nantes.fr/media/cache/media_upload/assets/images/bg/bg-home-GOO_d3F.png",
+  "sourcePage": "https://www.warehouse-nantes.fr/",
+  "credit": "Warehouse Nantes",
+  "kind": "venue",
+  "width": 1920,
+  "note": "grande salle du Warehouse Nantes bondée, faisceaux lasers (PNG lourd ~9,8 Mo)"
+ },
+ {
+  "id": 436,
+  "image": "https://cdm0lfbn.cloudimg.io/v7/_images_base_/image_uploader/photos/fa/original/rise-festival-2019-les-deux-alpes-2-alpes.jpg",
+  "sourcePage": "https://www.see2alpes.com/events/calendar/rise-festival-676893",
+  "credit": "Les 2 Alpes / Rise Festival",
+  "kind": "festival",
+  "width": 2048,
+  "note": "scène d'altitude du Rise Festival aux 2 Alpes, foule sur la neige"
+ },
+ {
+  "id": 434,
+  "image": "https://www.leferrailleur.fr/uploads/images/177125e22d2fe548eb61feb8f56477ffcefb79a9.jpeg",
+  "sourcePage": "https://www.leferrailleur.fr/contact",
+  "credit": "Le Ferrailleur",
+  "kind": "venue",
+  "width": 1920,
+  "note": "terrasse du Ferrailleur bondée au bord de la Loire, Nantes"
+ },
+ {
+  "id": 437,
+  "image": "https://www.lescuizines.fr/wp-content/uploads/2025/04/SKATEROCKcSoriya-Thach-19-1536x1022.jpg",
+  "sourcePage": "https://www.lescuizines.fr/a-propos-des-cuizines/les-cuizines/",
+  "credit": "Soriya Thach / Les Cuizines",
+  "kind": "venue",
+  "width": 1536,
+  "note": "façade éclairée des Cuizines à Chelles à la tombée de la nuit"
+ },
+ {
+  "id": 443,
+  "image": "https://www.saint-quentin.fr/uploads/Image/c8/18456_046_Manufacture-Visu.jpg",
+  "sourcePage": "https://www.saint-quentin.fr/1674-la-manufacture.htm",
+  "credit": "Ville de Saint-Quentin",
+  "kind": "venue",
+  "width": 980,
+  "note": "salle de La Manufacture de Saint-Quentin en concert, fosse pleine"
  }
 ]

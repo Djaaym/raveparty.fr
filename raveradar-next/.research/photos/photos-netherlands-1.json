@@ -9,13 +9,85 @@
   "note": "nuit ADE dans un club d'Amsterdam (Escape), lasers verts et dancefloor plein"
  },
  {
-  "id": 146,
-  "image": "https://www.datocms-assets.com/146604/1740145522-dgtlhrsaturday2023-byinfo-kirstenvansanten-nl-179.jpg?auto=format&fit=max&w=1600",
-  "sourcePage": "https://www.dgtl.nl/",
-  "credit": "DGTL / Kirsten van Santen",
+  "id": 130,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/AFAS_Live_show.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:AFAS_Live_show.jpg",
+  "credit": "Alissa020 / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "venue",
+  "width": 1000,
+  "note": "grande salle de l'AFAS Live (Amsterdam) vue du balcon, foule et jeux de lumiere"
+ },
+ {
+  "id": 328,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-5-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-x-hardline-alarico-pres-kenji-hina-dj-cosworth-b2b-oldboy-hannah-hannah/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS du vendredi 11 septembre 2026 (Alarico pres. Kenji Hina, DJ Cosworth b2b Oldboy, Hannah Hannah)"
+ },
+ {
+  "id": 332,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/06/1920x1080-LINE-UP-6-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-x-bcco-fenim0re-ignez-3-hour-set-locus-error/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS x BCCO du vendredi 18 septembre 2026 (Fenimore, Ignez, Locus Error)"
+ },
+ {
+  "id": 346,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-3-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS Vinyl Special du samedi 10 octobre 2026 (36Framez, Line-O b2b Roboith, Narciss)"
+ },
+ {
+  "id": 337,
+  "image": "https://images.prismic.io/bird-rotterdam/ZvrwIbVsGrYSwK35_over-ons.jpeg?auto=format%2Ccompress&rect=0%2C182%2C2560%2C1344&w=2400&h=1260",
+  "sourcePage": "https://www.bird-rotterdam.nl/over-ons",
+  "credit": "BIRD Rotterdam",
+  "kind": "venue",
+  "width": 2400,
+  "note": "facade et entree du club BIRD sous les arches du Hofbogen, de nuit"
+ },
+ {
+  "id": 161,
+  "image": "https://assets.awakenings.com/images/blocks/20260712_2141_AWAKE_IANMOERINGS_7113.jpg",
+  "sourcePage": "https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344/",
+  "credit": "Awakenings / Ian Moerings",
+  "kind": "festival",
+  "width": 1365,
+  "note": "foule sous la structure d'une scene d'Awakenings Festival (Beekse Bergen)"
+ },
+ {
+  "id": 341,
+  "image": "https://www.datocms-assets.com/132435/1723122949-123-230930-213430-supremacy-delio-dn103767-enhanced-nr-lrwm-min.jpg?auto=format&fit=max&w=1600",
+  "sourcePage": "https://www.supremacy.nl/",
+  "credit": "Supremacy / Art of Dance",
   "kind": "festival",
   "width": 1600,
-  "note": "DJ face a la foule sous la halle NDSM Docklands, DGTL Amsterdam"
+  "note": "mainstage de Supremacy dans les Brabanthallen, lasers et jets de CO2"
+ },
+ {
+  "id": 324,
+  "image": "https://www.doornroosje.nl/app/uploads/2026/05/RK26_facebookomslag-2048x780.jpg",
+  "sourcePage": "https://www.doornroosje.nl/event/rauwe-kicks-6/",
+  "credit": "Rauwe Kicks / X-Factor Events",
+  "kind": "event",
+  "width": 2048,
+  "note": "visuel officiel Rauwe Kicks 2026, avec date 5 sept 2026 et Doornroosje Nijmegen"
+ },
+ {
+  "id": 73,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dominator_Festival_2018.jpg/1920px-Dominator_Festival_2018.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Dominator_Festival_2018.jpg",
+  "credit": "W. Swinkels / Wikimedia Commons (CC BY 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "vue aerienne du site du Dominator sur le E3 Strand a Eersel"
  },
  {
   "id": 131,
@@ -25,6 +97,24 @@
   "kind": "festival",
   "width": 1280,
   "note": "DJ derriere le booth siglee Dockyard, edition ADE 2025"
+ },
+ {
+  "id": 154,
+  "image": "https://assets.awakenings.com/images/blocks/20260516_2254_AWAKENINGS_BRADAMEDIA_6623.jpg",
+  "sourcePage": "https://www.awakenings.com/en/events/2027/05/awakenings-upclose-2027/396040/",
+  "credit": "Awakenings / Brada Media",
+  "kind": "festival",
+  "width": 2480,
+  "note": "scene de nuit et lasers a Awakenings Upclose, Houtrak Spaarnwoude"
+ },
+ {
+  "id": 316,
+  "image": "https://cdn.sanity.io/images/ow8hsen7/production/0a8ff0e6a183a74ee79768ea1555c294d5d6c97f-8192x5464.jpg?w=1600&auto=format",
+  "sourcePage": "https://www.draaimolen.nu/",
+  "credit": "Draaimolen Festival",
+  "kind": "festival",
+  "width": 1600,
+  "note": "scene doree de nuit et foule au Draaimolen Festival, MOB Complex Tilburg"
  },
  {
   "id": 340,
@@ -63,58 +153,13 @@
   "note": "grande salle du Maassilo, foule et fumee"
  },
  {
-  "id": 73,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dominator_Festival_2018.jpg/1920px-Dominator_Festival_2018.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Dominator_Festival_2018.jpg",
-  "credit": "W. Swinkels / Wikimedia Commons (CC BY 4.0)",
-  "kind": "festival",
-  "width": 1920,
-  "note": "vue aerienne du site du Dominator sur le E3 Strand a Eersel"
- },
- {
-  "id": 158,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Red_Stage_Defqon.1_Weekend_Festival_2022.jpg/1920px-Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
-  "credit": "Blyra92 / Wikimedia Commons (CC BY-SA 4.0)",
-  "kind": "festival",
-  "width": 1920,
-  "note": "RED stage de Defqon.1 et la foule, Biddinghuizen"
- },
- {
-  "id": 161,
-  "image": "https://assets.awakenings.com/images/blocks/20260712_2141_AWAKE_IANMOERINGS_7113.jpg",
-  "sourcePage": "https://www.awakenings.com/en/events/2027/07/awakenings-festival-2027/399344/",
-  "credit": "Awakenings / Ian Moerings",
-  "kind": "festival",
-  "width": 1365,
-  "note": "foule sous la structure d'une scene d'Awakenings Festival (Beekse Bergen)"
- },
- {
-  "id": 154,
-  "image": "https://assets.awakenings.com/images/blocks/20260516_2254_AWAKENINGS_BRADAMEDIA_6623.jpg",
-  "sourcePage": "https://www.awakenings.com/en/events/2027/05/awakenings-upclose-2027/396040/",
-  "credit": "Awakenings / Brada Media",
-  "kind": "festival",
-  "width": 2480,
-  "note": "scene de nuit et lasers a Awakenings Upclose, Houtrak Spaarnwoude"
- },
- {
-  "id": 341,
-  "image": "https://www.datocms-assets.com/132435/1723122949-123-230930-213430-supremacy-delio-dn103767-enhanced-nr-lrwm-min.jpg?auto=format&fit=max&w=1600",
-  "sourcePage": "https://www.supremacy.nl/",
-  "credit": "Supremacy / Art of Dance",
+  "id": 146,
+  "image": "https://www.datocms-assets.com/146604/1740145522-dgtlhrsaturday2023-byinfo-kirstenvansanten-nl-179.jpg?auto=format&fit=max&w=1600",
+  "sourcePage": "https://www.dgtl.nl/",
+  "credit": "DGTL / Kirsten van Santen",
   "kind": "festival",
   "width": 1600,
-  "note": "mainstage de Supremacy dans les Brabanthallen, lasers et CO2"
- },
- {
-  "id": 128,
-  "image": "https://sugarfactory.nl/app/uploads/2026/01/11.2-1-scaled.jpg",
-  "sourcePage": "https://www.sugarfactory.nl/",
-  "credit": "SugarFactory",
-  "kind": "venue",
-  "width": 2560,
-  "note": "halle industrielle de la SugarFactory (lieu d'Awakenings ADE 2026), boule a facettes et dancefloor"
+  "note": "DJ face a la foule sous la halle NDSM Docklands, DGTL Amsterdam"
  },
  {
   "id": 329,
@@ -126,30 +171,30 @@
   "note": "DJ et foule sur le site du Smeerboel Festival, Recreatieplas Laagraven"
  },
  {
-  "id": 328,
-  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-5-scaled.png",
-  "sourcePage": "https://clubbasis.nl/event/basis-x-hardline-alarico-pres-kenji-hina-dj-cosworth-b2b-oldboy-hannah-hannah/",
-  "credit": "BASIS Utrecht",
-  "kind": "event",
-  "width": 1200,
-  "note": "affiche officielle BASIS du vendredi 11 septembre 2026 (Alarico pres. Kenji Hina)"
+  "id": 128,
+  "image": "https://sugarfactory.nl/app/uploads/2026/01/11.2-1-scaled.jpg",
+  "sourcePage": "https://www.sugarfactory.nl/",
+  "credit": "SugarFactory",
+  "kind": "venue",
+  "width": 2560,
+  "note": "halle industrielle de la SugarFactory (lieu d'Awakenings ADE 2026), boule a facettes et dancefloor plein"
  },
  {
-  "id": 332,
-  "image": "https://clubbasis.nl/wp-content/uploads/2026/06/1920x1080-LINE-UP-6-scaled.png",
-  "sourcePage": "https://clubbasis.nl/event/basis-x-bcco-fenim0re-ignez-3-hour-set-locus-error/",
-  "credit": "BASIS Utrecht",
-  "kind": "event",
-  "width": 1200,
-  "note": "affiche officielle BASIS x BCCO du vendredi 18 septembre 2026 (Ignez, Fenimore)"
+  "id": 132,
+  "image": "https://loveland.nl/ade/wp-content/uploads/sites/4/2022/07/foto-Theater-Amsterdam-1-1920x680.jpg",
+  "sourcePage": "https://loveland.nl/ade/theater/",
+  "credit": "Loveland ADE",
+  "kind": "venue",
+  "width": 1920,
+  "note": "Theater Amsterdam illumine en rouge pendant une nuit Loveland ADE, faisceaux laser"
  },
  {
-  "id": 346,
-  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-3-scaled.png",
-  "sourcePage": "https://clubbasis.nl/event/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set/",
-  "credit": "BASIS Utrecht",
-  "kind": "event",
-  "width": 1200,
-  "note": "affiche officielle BASIS Vinyl Special du samedi 10 octobre 2026 (Narciss extended set)"
+  "id": 158,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Red_Stage_Defqon.1_Weekend_Festival_2022.jpg/1920px-Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
+  "credit": "Blyra92 / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "RED stage de Defqon.1 et la foule, Biddinghuizen"
  }
 ]
