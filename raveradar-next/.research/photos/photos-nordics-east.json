@@ -106,5 +106,50 @@
   "kind": "festival",
   "width": 1200,
   "note": "affiche officielle du Taksirat Festival de Skopje"
+ },
+ {
+  "id": 220,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg/1920px-Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Budapest,_Akv%C3%A1rium_Klub,_Wannabe_Party,_2022.10.30,_20.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "DJ et lasers sur la grande scene de l'Akvarium Klub, Budapest"
+ },
+ {
+  "id": 226,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tvornica_kulture_west_entrance%2C_Zagreb%2C_2025.jpg/1920px-Tvornica_kulture_west_entrance%2C_Zagreb%2C_2025.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Tvornica_kulture_west_entrance,_Zagreb,_2025.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "entree de la salle Tvornica Kulture a Zagreb"
+ },
+ {
+  "id": 239,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Gusgus_At_Airwaves_2012_%2825283669%29.jpeg/1920px-Gusgus_At_Airwaves_2012_%2825283669%29.jpeg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Gusgus_At_Airwaves_2012_(25283669).jpeg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "GusGus en live a Iceland Airwaves, Reykjavik"
+ },
+ {
+  "id": 241,
+  "image": "https://mayday.pl/wp-content/uploads/2025/12/mayday-2025-007.jpg",
+  "sourcePage": "https://mayday.pl/",
+  "credit": "MAYDAY Poland",
+  "kind": "festival",
+  "width": 1200,
+  "note": "le Spodek de Katowice illumine aux couleurs de MAYDAY (edition 2025)"
+ },
+ {
+  "id": 212,
+  "image": "https://anka.li/wp-content/uploads/2025/11/483752934-1407474157155132-5765223905620108103-n.jpg",
+  "sourcePage": "https://anka.li/",
+  "credit": "Ankali",
+  "kind": "venue",
+  "width": 1500,
+  "note": "scene et machine a fumee dans l'ancienne savonnerie qui abrite Ankali, Prague"
  }
 ]
