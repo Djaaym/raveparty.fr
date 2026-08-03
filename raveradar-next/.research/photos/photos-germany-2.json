@@ -1,5 +1,14 @@
 [
  {
+  "id": 489,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wilde_Renate_Open_Air.jpg/1920px-Wilde_Renate_Open_Air.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Open_Air.jpg",
+  "credit": "foldscheap / Wikimedia Commons (CC0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "open air organise par le Wilde Renate a Berlin, foule devant la scene en exterieur — Renate ne publie aucune photo (son site sert un pictogramme 'no photo')"
+ },
+ {
   "id": 490,
   "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/image-wall/1236334032236886687833953_2022178040407299522616261.jpeg",
   "sourcePage": "https://www.bootshaus.tv/",
@@ -25,6 +34,15 @@
   "kind": "event",
   "width": 1500,
   "note": "affiche officielle Zaagstep by Dr Donk, 11.09.2026 Bootshaus"
+ },
+ {
+  "id": 493,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Wilde_Renate_Berlin_Courtyard.jpg/1920px-Wilde_Renate_Berlin_Courtyard.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Berlin_Courtyard.jpg",
+  "credit": "Tim Gage / Wikimedia Commons (CC BY-SA 2.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "cour du Salon zur Wilden Renate de nuit, eclairages colores — panoramique 1920x589"
  },
  {
   "id": 494,

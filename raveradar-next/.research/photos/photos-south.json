@@ -133,5 +133,32 @@
   "kind": "festival",
   "width": 1920,
   "note": "visuel officiel du Dalma Festival (Malte)"
+ },
+ {
+  "id": 107,
+  "image": "https://sunwaves-fest.ro/wp-content/uploads/2025/06/Cover.jpg",
+  "sourcePage": "https://sunwaves-fest.ro/edition/sw38-roquetas-de-mar-spain/",
+  "credit": "Sunwaves Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "visuel officiel SW38 (3-7 septembre 2026, Roquetas de Mar)"
+ },
+ {
+  "id": 319,
+  "image": "https://zamnafestival.com/storage/events/featured/01KYJ224KNV6VTYYJAY159M3QX.png",
+  "sourcePage": "https://zamnafestival.com/events/zamna-x-primer-in-athens-Day1",
+  "credit": "Zamna Festival",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle ZAMNA x PRIMER Athens, Olympic Athletic Center of Athens"
+ },
+ {
+  "id": 354,
+  "image": "https://clubtoclub.it/wp-content/uploads/2025/06/C2C24-Day-1-Mirrorball-Ilaria-Ieie-scaled.jpg",
+  "sourcePage": "https://c2cfestival.it/",
+  "credit": "Club To Club / Ilaria Ieie",
+  "kind": "festival",
+  "width": 1280,
+  "note": "boule a facettes et faisceaux au C2C Festival de Turin (day 1)"
  }
 ]
