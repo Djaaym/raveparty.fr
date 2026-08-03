@@ -214,5 +214,23 @@
   "kind": "event",
   "width": 800,
   "note": "visuel officiel Dusky Signals Tour, date Shine 04/12/2026 Ulster Sports Club"
+ },
+ {
+  "id": 215,
+  "image": "https://static.designmynight.com/uploads/2026/02/250913_waterworks_Angelina_Nikolayeva-233-2-1-optimised.png",
+  "sourcePage": "https://www.designmynight.com/london/whats-on/festival/waterworks-festival-2026",
+  "credit": "Angelina Nikolayeva / Waterworks Festival",
+  "kind": "festival",
+  "width": 999,
+  "note": "foule de Waterworks devant la scene au coucher du soleil, photo officielle du festival"
+ },
+ {
+  "id": 245,
+  "image": "https://djmag.com/sites/default/files/styles/djm_23_1005x565/public/article/image/telegraph-building-belfast-main.jpg.webp?itok=jwfrvCyn",
+  "sourcePage": "https://djmag.com/news/step-inside-new-belfast-nightclub-telegraph-building",
+  "credit": "DJ Mag / The Telegraph Building",
+  "kind": "venue",
+  "width": 1005,
+  "note": "interieur industriel du Telegraph Building a Belfast (ancienne imprimerie du Belfast Telegraph)"
  }
 ]
