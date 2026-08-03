@@ -232,5 +232,14 @@
   "kind": "festival",
   "width": 1920,
   "note": "showcase live dans une salle de Tallinn pendant Tallinn Music Week"
+ },
+ {
+  "id": 231,
+  "image": "https://cdn.prod.website-files.com/6a0eefdf2fd54ad26fe37e49/6a3b88280f1f5d6397f9b95b_6a33f7469cb5784cf0a3783d_VERKNIPT_POLAND_4X5%20Large.jpeg",
+  "sourcePage": "https://www.exist.pl/events/verknipt-warsaw-bilety-2026",
+  "credit": "Verknipt / EXIST",
+  "kind": "event",
+  "width": 1024,
+  "note": "affiche officielle Verknipt Poland du 9 octobre 2026 a SEKTOR6D, Varsovie"
  }
 ]

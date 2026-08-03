@@ -223,5 +223,32 @@
   "kind": "venue",
   "width": 4000,
   "note": "patio du club [UNVRS] a Ibiza avec le dome, photo officielle du lieu"
+ },
+ {
+  "id": 336,
+  "image": "https://images.squarespace-cdn.com/content/v1/668f83b1434d1b695f80dde1/df4703cf-1246-4e8f-b11a-29403eceece1/ANYMA-AEDEN-MILAN0-_05_3456+x+2160.jpg?format=2500w",
+  "sourcePage": "https://www.anyma.com/milan",
+  "credit": "Anyma",
+  "kind": "event",
+  "width": 2500,
+  "note": "visuel officiel ANYMA presents AEDEN, 19 septembre 2026 Fiera Milano Live (Rho)"
+ },
+ {
+  "id": 384,
+  "image": "https://festt.io/posters/sunny-side-festival-hero.jpg",
+  "sourcePage": "https://festt.io/en/festivals/sunny-side-festival",
+  "credit": "Sunny Side Festival",
+  "kind": "festival",
+  "width": 1400,
+  "note": "scene Sunny Side Festival a Ta' Qali, foule mains en l'air"
+ },
+ {
+  "id": 331,
+  "image": "https://www.discovergreece.com/sites/default/files/2025-12/Reworks%202026.jpg",
+  "sourcePage": "https://www.discovergreece.com/event/reworks-2026",
+  "credit": "Discover Greece / Reworks Festival",
+  "kind": "festival",
+  "width": 730,
+  "note": "lasers et foule au Reworks Festival de Thessalonique"
  }
 ]
