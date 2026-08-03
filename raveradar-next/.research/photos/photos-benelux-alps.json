@@ -36,6 +36,24 @@
   "note": "set de Boris Brejcha, ecran geant a son nom et foule"
  },
  {
+  "id": 376,
+  "image": "https://images.squarespace-cdn.com/content/v1/6504384583b19936223db183/092b32e7-a267-4043-a940-a9ea6968d95d/Capture+d%E2%80%99e%CC%81cran+2026-04-02+a%CC%80+09.04.23.png?format=1500w",
+  "sourcePage": "https://www.fcknyefestival.com/",
+  "credit": "FCKNYE Festival (site officiel)",
+  "kind": "festival",
+  "width": 1500,
+  "note": "mainstage FCKNYE a Brussels Expo, pyro et foule (visuel officiel)"
+ },
+ {
+  "id": 361,
+  "image": "https://raverebels.com/wp-content/uploads/2026/07/RRNOV26-FIRST-NAMES-SQUARE-FINAL-1024x1024.webp",
+  "sourcePage": "https://www.raverebels.com/",
+  "credit": "Rave Rebels / Kompass (site officiel)",
+  "kind": "event",
+  "width": 1024,
+  "note": "affiche officielle Rave Rebels XXL du 7 novembre 2026 (first names)"
+ },
+ {
   "id": 323,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fuse_blaasstraat.jpg/1920px-Fuse_blaasstraat.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg",
@@ -61,6 +79,33 @@
   "kind": "event",
   "width": 1765,
   "note": "Amelie Lens aux platines devant la foule"
+ },
+ {
+  "id": 338,
+  "image": "https://dclub.ch/wp-content/uploads/2021/09/dclub-club-lausanne-ambiance.jpg",
+  "sourcePage": "https://www.dclub.ch/",
+  "credit": "D! Club Lausanne (site officiel)",
+  "kind": "venue",
+  "width": 1000,
+  "note": "interieur du D! Club de Lausanne, dancefloor bonde et lasers"
+ },
+ {
+  "id": 351,
+  "image": "https://dclub.ch/wp-content/uploads/2021/09/dclub-club-lausanne-ambiance.jpg",
+  "sourcePage": "https://www.dclub.ch/",
+  "credit": "D! Club Lausanne (site officiel)",
+  "kind": "venue",
+  "width": 1000,
+  "note": "interieur du D! Club de Lausanne, dancefloor bonde et lasers"
+ },
+ {
+  "id": 366,
+  "image": "https://dclub.ch/wp-content/uploads/2021/09/dclub-club-lausanne-ambiance.jpg",
+  "sourcePage": "https://www.dclub.ch/",
+  "credit": "D! Club Lausanne (site officiel)",
+  "kind": "venue",
+  "width": 1000,
+  "note": "interieur du D! Club de Lausanne, dancefloor bonde et lasers"
  },
  {
   "id": 369,

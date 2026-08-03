@@ -9,6 +9,15 @@
   "note": "visuel officiel de la date Folamour 6 hours set au Cabaret Sauvage"
  },
  {
+  "id": 405,
+  "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/facebook_partage/public/ged/import/680-field_illustration_id-1783343227.png?itok=2Q8Zzq_P",
+  "sourcePage": "http://www.lautrecanalnancy.fr/agenda/versus-3-last-round-pawlowski-jouissance-dory-katst-ti",
+  "credit": "L'Autre Canal Nancy",
+  "kind": "event",
+  "width": 1280,
+  "note": "visuel officiel Versus III - The Last Round publie par la salle"
+ },
+ {
   "id": 407,
   "image": "https://detonation-festival.com/wp-content/uploads/2025/03/ambiance-7415.jpg",
   "sourcePage": "https://detonation-festival.com/",
@@ -36,6 +45,15 @@
   "note": "meme visuel officiel de tournee PACT"
  },
  {
+  "id": 410,
+  "image": "https://www.warehouse-nantes.fr/media/cache/gallery_image_full/images/concept_image/club-de-jour/6a43cefb37d1c149990394.webp",
+  "sourcePage": "https://www.warehouse-nantes.fr/concept/club-de-jour",
+  "credit": "Warehouse Nantes",
+  "kind": "venue",
+  "width": 1920,
+  "note": "DJ set lors d'un Club de Jour au Warehouse Nantes"
+ },
+ {
   "id": 414,
   "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
   "sourcePage": "https://www.lacoope.org/concerts/pact/",
@@ -43,6 +61,24 @@
   "kind": "event",
   "width": 2000,
   "note": "meme visuel officiel de tournee PACT"
+ },
+ {
+  "id": 418,
+  "image": "https://www.lamaroquinerie.fr/files/event_thumbnail_2174.png",
+  "sourcePage": "https://www.lamaroquinerie.fr/fr/agenda/view/2174/il-est-vilaine-complet/",
+  "credit": "La Maroquinerie",
+  "kind": "event",
+  "width": 960,
+  "note": "affiche officielle Il Est Vilaine - Maroquinerie 13 oct 26"
+ },
+ {
+  "id": 419,
+  "image": "https://paloma-nimes.fr/wp-content/uploads/2026/05/il-est-vilain-douran-400.jpg",
+  "sourcePage": "https://paloma-nimes.fr/agenda/il-est-vilaine-douran-event-37162/",
+  "credit": "Paloma Nîmes",
+  "kind": "event",
+  "width": 833,
+  "note": "affiche officielle Il Est Vilaine + Douran a Paloma"
  },
  {
   "id": 420,
@@ -70,6 +106,15 @@
   "kind": "venue",
   "width": 1125,
   "note": "dancefloor du club Badaboum sous les lumieres bleues"
+ },
+ {
+  "id": 424,
+  "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/facebook_partage/public/ged/invasion_nancy_octobre_2026_lineup_story_copie.jpg?itok=GiKLVdld",
+  "sourcePage": "http://www.lautrecanalnancy.fr/agenda/road-invasion-halloween-edition",
+  "credit": "L'Autre Canal Nancy",
+  "kind": "event",
+  "width": 1280,
+  "note": "visuel officiel Road to Invasion Halloween Edition"
  },
  {
   "id": 425,

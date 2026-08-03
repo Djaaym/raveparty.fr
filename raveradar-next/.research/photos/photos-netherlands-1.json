@@ -1,5 +1,14 @@
 [
  {
+  "id": 127,
+  "image": "https://cdn.amsterdam-dance-event.nl/images/images/20121019_Escape_TomDoms-10.jpg",
+  "sourcePage": "https://www.amsterdam-dance-event.nl/en/",
+  "credit": "Amsterdam Dance Event / Tom Doms",
+  "kind": "festival",
+  "width": 1920,
+  "note": "nuit ADE dans un club d'Amsterdam (Escape), lasers verts et dancefloor plein"
+ },
+ {
   "id": 146,
   "image": "https://www.datocms-assets.com/146604/1740145522-dgtlhrsaturday2023-byinfo-kirstenvansanten-nl-179.jpg?auto=format&fit=max&w=1600",
   "sourcePage": "https://www.dgtl.nl/",
@@ -7,6 +16,15 @@
   "kind": "festival",
   "width": 1600,
   "note": "DJ face a la foule sous la halle NDSM Docklands, DGTL Amsterdam"
+ },
+ {
+  "id": 131,
+  "image": "https://www.dockyardfestival.com/assets/files/251025-dymg-ade-lr-219.1280x0.webp",
+  "sourcePage": "https://www.dockyardfestival.com/",
+  "credit": "Dockyard Festival",
+  "kind": "festival",
+  "width": 1280,
+  "note": "DJ derriere le booth siglee Dockyard, edition ADE 2025"
  },
  {
   "id": 340,
@@ -97,5 +115,41 @@
   "kind": "venue",
   "width": 2560,
   "note": "halle industrielle de la SugarFactory (lieu d'Awakenings ADE 2026), boule a facettes et dancefloor"
+ },
+ {
+  "id": 329,
+  "image": "https://www.smeerboel.nl/wp-content/uploads/2026/03/250913-SMEERBOEL-BramvBerg-92.jpg",
+  "sourcePage": "https://www.smeerboel.nl/",
+  "credit": "Smeerboel / Bram van Berg",
+  "kind": "festival",
+  "width": 5472,
+  "note": "DJ et foule sur le site du Smeerboel Festival, Recreatieplas Laagraven"
+ },
+ {
+  "id": 328,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-5-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-x-hardline-alarico-pres-kenji-hina-dj-cosworth-b2b-oldboy-hannah-hannah/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS du vendredi 11 septembre 2026 (Alarico pres. Kenji Hina)"
+ },
+ {
+  "id": 332,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/06/1920x1080-LINE-UP-6-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-x-bcco-fenim0re-ignez-3-hour-set-locus-error/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS x BCCO du vendredi 18 septembre 2026 (Ignez, Fenimore)"
+ },
+ {
+  "id": 346,
+  "image": "https://clubbasis.nl/wp-content/uploads/2026/07/1920x1080-LINE-UP-3-scaled.png",
+  "sourcePage": "https://clubbasis.nl/event/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set/",
+  "credit": "BASIS Utrecht",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle BASIS Vinyl Special du samedi 10 octobre 2026 (Narciss extended set)"
  }
 ]

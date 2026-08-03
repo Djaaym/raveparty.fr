@@ -132,7 +132,7 @@
   "credit": "Intents Festival",
   "kind": "festival",
   "width": 1500,
-  "note": "mainstage château d'Intents Festival à Oisterwijk vue de la foule au coucher du soleil"
+  "note": "mainstage château d'Intents Festival à Oisterwijk vue depuis la foule au coucher du soleil"
  },
  {
   "id": 370,
@@ -159,6 +159,33 @@
   "credit": "Muziekgieterij",
   "kind": "event",
   "width": 2560,
-  "note": "visuel officiel de la soirée LINK à la Muziekgieterij : foule en contre-jour bleu"
+  "note": "visuel officiel de la soirée LINK à la Muziekgieterij : dancefloor en contre-jour bleu"
+ },
+ {
+  "id": 382,
+  "image": "https://images.prismic.io/rewirefestival/IAyf5lq9qmaF28OT_REWIRE20260412_1625Algemeen%C2%A9SabinevanNistelrooij-2.jpg?auto=format,compress&w=1600",
+  "sourcePage": "https://www.rewirefestival.nl/news",
+  "credit": "Rewire / Sabine van Nistelrooij",
+  "kind": "festival",
+  "width": 1600,
+  "note": "bannières Rewire devant le Koninklijke Schouwburg de La Haye (Rewire 2026)"
+ },
+ {
+  "id": 375,
+  "image": "https://liquicity.com/wp-content/uploads/2025/08/20241228_067_Liquicity_Klokgebouw__LR-1.jpg",
+  "sourcePage": "https://liquicity.com/events/liquicity-winterfestival-2026/",
+  "credit": "Liquicity",
+  "kind": "festival",
+  "width": 2048,
+  "note": "Liquicity Winterfestival au Klokgebouw d'Eindhoven : lasers rouges et enseigne Liquicity au-dessus de la foule"
+ },
+ {
+  "id": 358,
+  "image": "https://www.ahoy.nl/files/images/events/2026/pussy-lounge.jpg",
+  "sourcePage": "https://www.ahoy.nl/agenda/dance-event/pussy-lounge",
+  "credit": "Rotterdam Ahoy / Pussy Lounge",
+  "kind": "festival",
+  "width": 1920,
+  "note": "mainstage Pussy Lounge (chalet géant) avec pyrotechnie et confettis au-dessus de la foule"
  }
 ]

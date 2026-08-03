@@ -124,5 +124,32 @@
   "kind": "venue",
   "width": 2048,
   "note": "dancefloor du Warehouse Leeds sous les lumieres rouges, photo d'accueil du club"
+ },
+ {
+  "id": 247,
+  "image": "https://firebasestorage.googleapis.com/v0/b/prospect-bristol.appspot.com/o/events%2Fr4lRNe9ncpphic8bTrmk86IsuaDMUh?alt=media&token=5a57e3b2-96ce-43c0-aff9-9c84364b7dcd",
+  "sourcePage": "https://www.theprospectbuilding.com/events/teletech-bristol",
+  "credit": "Teletech / The Prospect Building",
+  "kind": "event",
+  "width": 2160,
+  "note": "affiche officielle Teletech Bristol 27/11/2026 au Prospect Building (fichier PNG lourd, 11 Mo)"
+ },
+ {
+  "id": 233,
+  "image": "https://noboundsfestival.co.uk/images/poster-2026.webp",
+  "sourcePage": "https://noboundsfestival.co.uk/",
+  "credit": "No Bounds Festival",
+  "kind": "festival",
+  "width": 3508,
+  "note": "affiche officielle No Bounds 2026 (9-11 octobre, Sheffield & Rotherham) avec line-up"
+ },
+ {
+  "id": 214,
+  "image": "https://cdn.prod.website-files.com/5d5e5004cfc85e73bc70315e/6352b826b9c4e934efbfa209_odenfatzo-p-2000.jpg",
+  "sourcePage": "https://www.flyflyfly.co.uk/open-air",
+  "credit": "FLY / flyflyfly.co.uk",
+  "kind": "festival",
+  "width": 2000,
+  "note": "photo officielle FLY : cabine DJ en plein air et foule, site de l'organisateur de FLY Open Air"
  }
 ]
