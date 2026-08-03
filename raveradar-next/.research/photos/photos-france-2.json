@@ -6,7 +6,7 @@
   "credit": "Cabaret Sauvage",
   "kind": "event",
   "width": 1400,
-  "note": "visuel officiel de la date Folamour 6 hours set au Cabaret Sauvage"
+  "note": "visuel officiel de la date Folamour 6 hours set au Cabaret Sauvage (5 septembre)"
  },
  {
   "id": 405,
@@ -16,6 +16,15 @@
   "kind": "event",
   "width": 1280,
   "note": "visuel officiel Versus III - The Last Round publie par la salle"
+ },
+ {
+  "id": 406,
+  "image": "https://www.cartonnerie.fr/wp-content/uploads/2026/07/dsc0011-scaled.jpg",
+  "sourcePage": "https://www.cartonnerie.fr/galerie-photos/trym/",
+  "credit": "La Cartonnerie (Reims)",
+  "kind": "venue",
+  "width": 2560,
+  "note": "set techno (Trym) sur la grande scene de La Cartonnerie, salle principale d'Elektricity"
  },
  {
   "id": 407,
@@ -42,7 +51,7 @@
   "credit": "PACT / La Coopérative de Mai",
   "kind": "event",
   "width": 2000,
-  "note": "meme visuel officiel de tournee PACT"
+  "note": "meme visuel officiel de tournee PACT (Joris Delacroix, Joachim Pastor, Teho)"
  },
  {
   "id": 410,
@@ -52,6 +61,24 @@
   "kind": "venue",
   "width": 1920,
   "note": "DJ set lors d'un Club de Jour au Warehouse Nantes"
+ },
+ {
+  "id": 411,
+  "image": "https://osuny-1b4da.kxcdn.com/5kgsdnbsa35zn4bqdu487p6i1qdl?format=webp&width=1600&height=0&fit=inside&quality=85",
+  "sourcePage": "https://www.gaite-lyrique.net/agenda/2026/nathan-fake/",
+  "credit": "La Gaîté Lyrique",
+  "kind": "event",
+  "width": 1600,
+  "note": "photo officielle de Nathan Fake en studio publiee par la Gaite Lyrique pour la date"
+ },
+ {
+  "id": 412,
+  "image": "https://le-zenith.com/media/cache/show_cover/media/uploads/show-banner/68d55ee53855a197700351.png",
+  "sourcePage": "https://www.zenith-paris.com/shows/Synthony-21824",
+  "credit": "Synthony / Zénith Paris - La Villette",
+  "kind": "event",
+  "width": 1520,
+  "note": "visuel officiel Synthony No.2 (orchestre + public) publie par le Zenith"
  },
  {
   "id": 413,
@@ -70,6 +97,15 @@
   "kind": "event",
   "width": 1508,
   "note": "bandeau officiel PACT + Birrd, La Laiterie Strasbourg"
+ },
+ {
+  "id": 415,
+  "image": "https://centralchapelle.com/wp-content/uploads/2026/07/4-5-SAM.png",
+  "sourcePage": "https://centralchapelle.com/event/sam-feldt/",
+  "credit": "Central Chapelle",
+  "kind": "event",
+  "width": 1080,
+  "note": "photo officielle de Sam Feldt publiee par Central Chapelle pour la date"
  },
  {
   "id": 416,
@@ -126,6 +162,15 @@
   "note": "photo officielle de la soiree Onde de Choc a La Luciole - DJ et dancefloor"
  },
  {
+  "id": 422,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_006.jpg/1920px-Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_006.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_006.jpg",
+  "credit": "Thesupermat / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "event",
+  "width": 1920,
+  "note": "Yuksek en live aux Vieilles Charrues 2018 (photo d'artiste, pas de cette date)"
+ },
+ {
   "id": 423,
   "image": "https://badaboum.paris/wp-content/uploads/2025/11/DSC_2268-1125x1500.jpeg",
   "sourcePage": "https://badaboum.paris/",
@@ -153,6 +198,15 @@
   "note": "meme visuel officiel de tournee Hilight Tribe"
  },
  {
+  "id": 426,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Salle_Spectacle_Bataclan_-_Paris_XI_%28FR75%29_-_2026-01-18_-_1.jpg/1920px-Salle_Spectacle_Bataclan_-_Paris_XI_%28FR75%29_-_2026-01-18_-_1.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Salle_Spectacle_Bataclan_-_Paris_XI_(FR75)_-_2026-01-18_-_1.jpg",
+  "credit": "Chabe01 / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "facade emblematique du Bataclan, boulevard Voltaire"
+ },
+ {
   "id": 427,
   "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
   "sourcePage": "https://www.lacoope.org/concerts/pact/",
@@ -169,5 +223,23 @@
   "kind": "festival",
   "width": 1200,
   "note": "DJ set et public lors du festival Positive Education a Saint-Etienne"
+ },
+ {
+  "id": 429,
+  "image": "https://www.lanef-musiques.com/wp-content/uploads/2026/07/Joris-Delacroix-_SHOTBYWOZNIAK_9-1024x1536.jpg",
+  "sourcePage": "https://www.lanef-musiques.com/agenda/",
+  "credit": "Shot by Wozniak / La Nef",
+  "kind": "event",
+  "width": 1024,
+  "note": "Joris Delacroix aux platines, photo publiee par La Nef pour la date"
+ },
+ {
+  "id": 430,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Olympia_salle.jpg/1920px-Olympia_salle.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Olympia_salle.jpg",
+  "credit": "KoS / Wikimedia Commons (CC BY-SA 3.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "enseigne rouge de L'Olympia, boulevard des Capucines, de nuit"
  }
 ]
