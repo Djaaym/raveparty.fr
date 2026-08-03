@@ -160,5 +160,23 @@
   "kind": "festival",
   "width": 1280,
   "note": "boule a facettes et faisceaux au C2C Festival de Turin (day 1)"
+ },
+ {
+  "id": 343,
+  "image": "https://omana-festival.de/cdn/shop/files/1b44d95c6a0a80b213370c73cb84cabf69a4781f.jpg?v=1770649019&width=1400",
+  "sourcePage": "https://omana-festival.de/",
+  "credit": "Omana Festival",
+  "kind": "festival",
+  "width": 1400,
+  "note": "dancefloor de l'Omana Festival dans la baie de Kalamitsi, lumiere rouge"
+ },
+ {
+  "id": 330,
+  "image": "https://framerusercontent.com/images/RnouUB0rX3l3x33LamBAfcAXycQ.jpg?width=819&height=1024",
+  "sourcePage": "https://www.dissonanzefestival.it/location",
+  "credit": "Dissonanze Festival",
+  "kind": "venue",
+  "width": 819,
+  "note": "coque de l'Auditorium Parco della Musica illuminee en rose la nuit"
  }
 ]

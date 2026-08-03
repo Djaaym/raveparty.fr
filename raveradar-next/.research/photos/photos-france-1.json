@@ -151,5 +151,41 @@
   "kind": "venue",
   "width": 1920,
   "note": "booth techno du Warehouse Nantes, hangar a bananes"
+ },
+ {
+  "id": 109,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/La_Red_stage_lors_de_l%27%C3%A9dition_2023.jpg/1920px-La_Red_stage_lors_de_l%27%C3%A9dition_2023.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:La_Red_stage_lors_de_l%27%C3%A9dition_2023.jpg",
+  "credit": "Cm elektricpark / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "Red Stage et foule a l'Elektric Park 2023, ile des Impressionnistes"
+ },
+ {
+  "id": 111,
+  "image": "https://www.jardinelectronique.com/wp-content/uploads/2026/03/JE-2025-drop2-@arthur_ranzy_-99.jpg",
+  "sourcePage": "https://www.jardinelectronique.com/",
+  "credit": "Arthur Ranzy / Le Jardin Electronique",
+  "kind": "festival",
+  "width": 1920,
+  "note": "foule sous la canopee lumineuse du Jardin Electronique 2025, Lomme"
+ },
+ {
+  "id": 157,
+  "image": "https://aluna-festival.fr/wp-content/uploads/2024/05/Aluna-Festival-Teaser.jpg",
+  "sourcePage": "https://aluna-festival.fr/",
+  "credit": "Aluna Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "mainstage et public de l'Aluna Festival, Ruoms"
+ },
+ {
+  "id": 133,
+  "image": "https://www.thewalkingbass.fr/wp-content/uploads/2025/11/the-walking-bass-report-2025_8.jpg",
+  "sourcePage": "https://www.thewalkingbass.fr/",
+  "credit": "The Walking Bass Festival",
+  "kind": "festival",
+  "width": 1400,
+  "note": "scene cube et lumieres rouges du Walking Bass 2025, Marseille"
  }
 ]

@@ -133,5 +133,50 @@
   "kind": "festival",
   "width": 1080,
   "note": "affiche officielle Crazy New Year 31.12.26 à l'Ekinox, Bourg-en-Bresse"
+ },
+ {
+  "id": 431,
+  "image": "https://paloma-nimes.fr/wp-content/uploads/2018/01/palomaexterieur.jpg",
+  "sourcePage": "https://paloma-nimes.fr/paloma/lieu/",
+  "credit": "Paloma",
+  "kind": "venue",
+  "width": 1200,
+  "note": "architecture extérieure de Paloma, la SMAC de Nîmes"
+ },
+ {
+  "id": 433,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg/1280px-Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan,_Fance_(54509643284).jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "« Le Grenat », coque rouge emblématique de L'Archipel à Perpignan"
+ },
+ {
+  "id": 440,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg/1280px-Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_(FR92)_-_2025-01-11_-_17.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "salle comble en configuration concert à la Plenitude Arena (ex-Paris La Défense Arena), Nanterre"
+ },
+ {
+  "id": 450,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg/1280px-Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Z%C3%A9nith_Paris_-_Paris_XIX_(FR75)_-_2025-05-18_-_1.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1280,
+  "note": "entrée rouge et enseigne « Zénith Paris La Villette »"
+ },
+ {
+  "id": 454,
+  "image": "https://www.citemusicale-metz.fr/assets/q70-w1200/89907014/bam_c_ville_de_metz_rudy_ricciotti_architecte_photo_cyrille_guir_1_.jpg",
+  "sourcePage": "https://www.citemusicale-metz.fr/lieux/bam",
+  "credit": "Ville de Metz / Cyrille Guir - architecte Rudy Ricciotti",
+  "kind": "venue",
+  "width": 1200,
+  "note": "façade blanche perforée de La BAM (Boîte à Musiques) à Metz"
  }
 ]
