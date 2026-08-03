@@ -1,12 +1,12 @@
 [
  {
   "id": 164,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/ParookavilleMain23.jpg/1280px-ParookavilleMain23.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:ParookavilleMain23.jpg",
-  "credit": "Wikimedia Commons / CC BY-SA 4.0",
+  "image": "https://www.parookaville.com/files/_processed_/6/8/csm_Hero-Image_1920x1080px-2_bccd19fe4b.jpg",
+  "sourcePage": "https://www.parookaville.com/",
+  "credit": "Parookaville",
   "kind": "festival",
-  "note": "mainstage de Parookaville 2023 et la foule, aeroport de Weeze",
-  "width": 1280
+  "note": "mainstage de Parookaville, pyrotechnie et foule (visuel officiel du festival)",
+  "width": 1920
  },
  {
   "id": 390,
@@ -64,12 +64,12 @@
  },
  {
   "id": 393,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Airbeat_One_2019_Mainstage.png/1280px-Airbeat_One_2019_Mainstage.png",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Airbeat_One_2019_Mainstage.png",
-  "credit": "Wikimedia Commons / CC BY-SA 4.0",
+  "image": "https://airbeat-one.de/wp-content/uploads/2025/08/airbeat-one-2026-social-background.jpg",
+  "sourcePage": "https://www.airbeat-one.de/",
+  "credit": "Airbeat One",
   "kind": "festival",
-  "note": "mainstage Taj Mahal d'Airbeat One 2019 et la foule",
-  "width": 1280
+  "note": "mainstage cathedrale d'Airbeat One vue du ciel, pyros et foule sur le Flugplatz",
+  "width": 3077
  },
  {
   "id": 386,

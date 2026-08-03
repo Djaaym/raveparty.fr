@@ -106,5 +106,32 @@
   "kind": "venue",
   "width": 1200,
   "note": "cour de la Manu à Morlaix, façade « cinéma théâtre danse concerts »"
+ },
+ {
+  "id": 435,
+  "image": "https://dystopia-festival.com/wp-content/uploads/2026/07/DSE26_LU_1920x1080_v3-1-1536x864.jpg",
+  "sourcePage": "https://dystopia-festival.com/en/saint-etienne/",
+  "credit": "Dystopia Festival / Black Guards",
+  "kind": "festival",
+  "width": 1536,
+  "note": "affiche officielle line-up Dystopia Saint-Étienne 4 & 5 décembre 2026"
+ },
+ {
+  "id": 439,
+  "image": "https://diogene.fr/wp-content/uploads/2026/06/illusion2.jpg",
+  "sourcePage": "https://diogene.fr/artistes/illusion-bzh-edition/",
+  "credit": "Pandemic Events & Le Périscope",
+  "kind": "festival",
+  "width": 1920,
+  "note": "visuel officiel Illusion BZH Edition 12.12.26, Parc des Expositions de Lorient"
+ },
+ {
+  "id": 444,
+  "image": "https://ainterexpo.com/wp-content/uploads/Crazy-New-Year-carre.png",
+  "sourcePage": "https://ainterexpo.com/agenda/crazy-new-year-festival/",
+  "credit": "Ainterexpo / Crazy New Year",
+  "kind": "festival",
+  "width": 1080,
+  "note": "affiche officielle Crazy New Year 31.12.26 à l'Ekinox, Bourg-en-Bresse"
  }
 ]

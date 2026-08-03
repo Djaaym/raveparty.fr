@@ -61,5 +61,95 @@
   "kind": "festival",
   "width": 1200,
   "note": "affiche officielle Dream Nation 2026, Paris Nord Villepinte"
+ },
+ {
+  "id": 114,
+  "image": "https://www.lafriche.org/app/uploads/2024/06/Bubuphotographe-102web-scaled.jpg",
+  "sourcePage": "https://www.lafriche.org/evenements/utopia-festival-4/",
+  "credit": "Bubu Photographe / Friche la Belle de Mai",
+  "kind": "festival",
+  "width": 2560,
+  "note": "foule et lasers a l'Utopia Festival, Friche la Belle de Mai"
+ },
+ {
+  "id": 152,
+  "image": "https://www.lafriche.org/app/uploads/2022/05/0C6A0227marin.driguezPUBLIC-1900x1267-1.jpg",
+  "sourcePage": "https://www.lafriche.org/evenements/festival-le-bon-air-4/",
+  "credit": "Marin Driguez / Friche la Belle de Mai",
+  "kind": "festival",
+  "width": 1900,
+  "note": "public du Festival Le Bon Air sur les toits de la Friche"
+ },
+ {
+  "id": 400,
+  "image": "https://www.lafriche.org/app/uploads/2022/05/0C6A0227marin.driguezPUBLIC-1900x1267-1.jpg",
+  "sourcePage": "https://www.lafriche.org/evenements/festival-le-bon-air-4/",
+  "credit": "Marin Driguez / Friche la Belle de Mai",
+  "kind": "venue",
+  "width": 1900,
+  "note": "photo du dancefloor de la Friche la Belle de Mai"
+ },
+ {
+  "id": 145,
+  "image": "https://www.reperkusound.com/wp-content/uploads/2026/02/Reperkusound-festival-2026-WEB.jpg",
+  "sourcePage": "https://www.reperkusound.com/",
+  "credit": "Reperkusound",
+  "kind": "festival",
+  "width": 842,
+  "note": "affiche officielle Reperkusound publiee par l'organisateur"
+ },
+ {
+  "id": 122,
+  "image": "https://ndkfestival.com/opengraph.jpg",
+  "sourcePage": "https://www.ndkfestival.com/",
+  "credit": "NDK Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "visuel officiel NDK Edition 6, Caen"
+ },
+ {
+  "id": 153,
+  "image": "https://marvellous-island.fr/wp-content/uploads/2026/07/@bisbeoo_Marvellous26_ArthurBremond_AT2_0090-scaled.jpg",
+  "sourcePage": "https://marvellous-island.fr/",
+  "credit": "Arthur Bremond / Marvellous Island",
+  "kind": "festival",
+  "width": 1600,
+  "note": "foule devant la mainstage du Marvellous Island, plage de Torcy"
+ },
+ {
+  "id": 110,
+  "image": "https://pharaonic.fr/wp-content/uploads/2026/05/PHARAONIC_@clubbingvision-146.jpg",
+  "sourcePage": "https://pharaonic.fr/",
+  "credit": "Clubbing Vision / Pharaonic",
+  "kind": "festival",
+  "width": 2250,
+  "note": "mainstage et foule du Pharaonic a Cluses, face aux montagnes"
+ },
+ {
+  "id": 124,
+  "image": "https://www.warehouse-nantes.fr/media/cache/gallery_image_full/images/concept_image/ultimate-techno-club/6924405ca2468453943618.webp",
+  "sourcePage": "https://www.warehouse-nantes.fr/concept/ultimate-techno-club",
+  "credit": "Warehouse Nantes",
+  "kind": "venue",
+  "width": 1920,
+  "note": "cabine DJ et foule dans la cage Ultimate Techno Club du Warehouse"
+ },
+ {
+  "id": 125,
+  "image": "https://www.warehouse-nantes.fr/media/cache/gallery_image_full/images/concept_image/ultimate-techno-club/6924405e79934595748678.webp",
+  "sourcePage": "https://www.warehouse-nantes.fr/concept/ultimate-techno-club",
+  "credit": "Warehouse Nantes",
+  "kind": "venue",
+  "width": 1920,
+  "note": "dancefloor du Warehouse Nantes sous lumiere rouge"
+ },
+ {
+  "id": 401,
+  "image": "https://www.warehouse-nantes.fr/media/cache/gallery_image_full/images/concept_image/ultimate-techno-club/6924405d57db2453408727.webp",
+  "sourcePage": "https://www.warehouse-nantes.fr/concept/ultimate-techno-club",
+  "credit": "Warehouse Nantes",
+  "kind": "venue",
+  "width": 1920,
+  "note": "booth techno du Warehouse Nantes, hangar a bananes"
  }
 ]

@@ -51,11 +51,20 @@ def load_events():
     return events, have
 
 
-def normalize(url: str) -> str:
-    """Les vignettes Commons arrivent souvent en 220px : on demande la même en 1600."""
+def candidates(url: str):
+    """URLs à essayer dans l'ordre.
+
+    Les vignettes Commons arrivent souvent en 220px, trop petites pour une carte.
+    Attention : upload.wikimedia.org ne sert *que* des largeurs standard — 960,
+    1280 et 1920 répondent, 1024/1200/1600 renvoient un 400. D'où la cascade,
+    qui finit sur le fichier d'origine (hors /thumb/).
+    """
+    url = url.split("?")[0] if "upload.wikimedia.org" in url else url
     if "upload.wikimedia.org" in url and "/thumb/" in url:
-        return re.sub(r"/(\d+)px-", "/1600px-", url)
-    return url
+        out = [re.sub(r"/\d+px-", f"/{w}px-", url) for w in (1280, 1920, 960)]
+        original = re.sub(r"/thumb/(.+)/[^/]+$", r"/\1", url)
+        return out + [original]
+    return [url]
 
 
 def fetch(url: str):
@@ -174,7 +183,11 @@ def main():
 
     mapping, by_hash, rejected = {}, {}, []
     for i, (url, group) in enumerate(sorted(by_url.items()), 1):
-        raw = fetch(normalize(url))
+        raw = b""
+        for cand in candidates(url):
+            raw = fetch(cand)
+            if len(raw) >= MIN_BYTES:
+                break
         if not raw:
             rejected.append((url, "téléchargement échoué", [g["id"] for g in group]))
             print(f"  [{i}/{len(by_url)}] ✗ download  {url[:80]}")
