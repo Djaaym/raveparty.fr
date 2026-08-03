@@ -1,0 +1,270 @@
+[
+ {
+  "id": 490,
+  "title": "R3HAB au Bootshaus",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-04",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 491,
+  "title": "Bootshaus Sommerfest",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "id": 492,
+  "title": "Blacklist & Inurfase pres. Zaagstep by Dr Donk",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-11",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 494,
+  "title": "Polyamor au Bootshaus",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 495,
+  "title": "Bootshaus Sommerfest Closing",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-19",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 496,
+  "title": "Vertile pres. Everything Changes Live",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-20",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 497,
+  "title": "Unreal Weekender Night I",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 498,
+  "title": "Unreal Weekender Night II",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 499,
+  "title": "NIBIRII pres. Ely Oaks",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-02",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "id": 500,
+  "title": "Chrome Cologne",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 501,
+  "title": "Chris Stussy au Bootshaus",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 502,
+  "title": "Affenkäfig Rules",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 503,
+  "title": "KitKatClub au Bootshaus",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 504,
+  "title": "Bootshaus & Loonyland pres. Halloween",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 505,
+  "title": "Unreal x KUKO All Night Long",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-12-19",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 506,
+  "title": "KitKatClub au Bootshaus – 30 décembre",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-12-30",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 507,
+  "title": "Bootshaus & Loonyland pres. NYE",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-12-31",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 489,
+  "title": "The Village Festival Berlin",
+  "type": "Festival",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Wilde Renate",
+  "date": "2026-08-21",
+  "endDate": "2026-08-22",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 493,
+  "title": "19 Years Renate",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Wilde Renate",
+  "date": "2026-09-11",
+  "endDate": "2026-09-14",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ }
+]

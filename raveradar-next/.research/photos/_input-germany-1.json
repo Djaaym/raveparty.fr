@@ -1,0 +1,285 @@
+[
+ {
+  "id": 164,
+  "title": "Parookaville",
+  "type": "Festival",
+  "city": "Weeze",
+  "country": "Germany",
+  "venue": "Airport Weeze",
+  "date": "2027-07-16",
+  "endDate": "2027-07-18",
+  "genres": [
+   "EDM",
+   "House",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 390,
+  "title": "Ikarus Festival",
+  "type": "Festival",
+  "city": "Memmingen",
+  "country": "Germany",
+  "venue": "Allgäu Airport, Memmingerberg",
+  "date": "2027-06-25",
+  "endDate": "2027-06-27",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "House",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 350,
+  "title": "Chris Stussy à Cologne",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 359,
+  "title": "Bootshaus & Loonyland — Halloween",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "Hardstyle",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 377,
+  "title": "Bootshaus & Loonyland — NYE",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-12-31",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "Hardstyle",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 389,
+  "title": "World Club Dome",
+  "type": "Festival",
+  "city": "Frankfurt",
+  "country": "Germany",
+  "venue": "Deutsche Bank Park",
+  "date": "2027-06-04",
+  "endDate": "2027-06-06",
+  "genres": [
+   "EDM",
+   "Techno",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "id": 141,
+  "title": "CTM Festival",
+  "type": "Festival",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Divers lieux / various venues",
+  "date": "2027-01-22",
+  "endDate": "2027-01-31",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 393,
+  "title": "Airbeat One",
+  "type": "Festival",
+  "city": "Neustadt-Glewe",
+  "country": "Germany",
+  "venue": "Flugplatz Neustadt-Glewe",
+  "date": "2027-07-07",
+  "endDate": "2027-07-11",
+  "genres": [
+   "EDM",
+   "Techno",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "id": 386,
+  "title": "Sputnik Spring Break",
+  "type": "Festival",
+  "city": "Pouch",
+  "country": "Germany",
+  "venue": "Halbinsel Pouch, Goitzschesee",
+  "date": "2027-05-14",
+  "endDate": "2027-05-17",
+  "genres": [
+   "Techno",
+   "House",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 147,
+  "title": "Time Warp",
+  "type": "Festival",
+  "city": "Mannheim",
+  "country": "Germany",
+  "venue": "Maimarkthalle",
+  "date": "2027-04-03",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 372,
+  "title": "Toxicator",
+  "type": "Festival",
+  "city": "Mannheim",
+  "country": "Germany",
+  "venue": "Maimarkthalle",
+  "date": "2026-12-05",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 392,
+  "title": "Ruhr-in-Love",
+  "type": "Festival",
+  "city": "Oberhausen",
+  "country": "Germany",
+  "venue": "OLGA-Park",
+  "date": "2027-07-03",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Trance",
+   "House",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 347,
+  "title": "Ritter Butzke Jubiläum — NTO",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Ritter Butzke",
+  "date": "2026-10-10",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 362,
+  "title": "Stil vor Talent — Oliver Koletzki",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Ritter Butzke",
+  "date": "2026-11-07",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 367,
+  "title": "Alan Fitzpatrick à Berlin",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Ritter Butzke",
+  "date": "2026-11-21",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 378,
+  "title": "Hippie New Year",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Ritter Butzke",
+  "date": "2026-12-31",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 325,
+  "title": "Into The Madness",
+  "type": "Festival",
+  "city": "Zülpich",
+  "country": "Germany",
+  "venue": "Seepark Zülpich",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 119,
+  "title": "Syndicate",
+  "type": "Festival",
+  "city": "Dortmund",
+  "country": "Germany",
+  "venue": "Westfalenhallen",
+  "date": "2026-10-03",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 149,
+  "title": "Mayday",
+  "type": "Festival",
+  "city": "Dortmund",
+  "country": "Germany",
+  "venue": "Westfalenhallen",
+  "date": "2027-04-30",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Trance"
+  ]
+ }
+]

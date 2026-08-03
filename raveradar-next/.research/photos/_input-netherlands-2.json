@@ -1,0 +1,287 @@
+[
+ {
+  "id": 381,
+  "title": "Masters of Hardcore – The Masterplan",
+  "type": "Festival",
+  "city": "'s-Hertogenbosch",
+  "country": "Netherlands",
+  "venue": "Brabanthallen",
+  "date": "2027-03-27",
+  "endDate": null,
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 388,
+  "title": "Intents Festival",
+  "type": "Festival",
+  "city": "Oisterwijk",
+  "country": "Netherlands",
+  "venue": "Festivalterrein Oisterwijk, Sportlaan 10",
+  "date": "2027-06-04",
+  "endDate": "2027-06-06",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 375,
+  "title": "Liquicity Winterfestival",
+  "type": "Festival",
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "venue": "Klokgebouw, Strijp-S",
+  "date": "2026-12-27",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 355,
+  "title": "Hospitality Halloween Rotterdam x Korsakov",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-10-30",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 360,
+  "title": "Paul Elstak presents 'Wanna Play?'",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-11-07",
+  "endDate": null,
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 365,
+  "title": "Rotterdam Rave presents TITI",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 379,
+  "title": "Unresolved: Bloodline – Warbound Protocol",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2027-01-09",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 364,
+  "title": "Link x Midnight w/ Dave Clarke & DJ Hell",
+  "type": "Club",
+  "city": "Maastricht",
+  "country": "Netherlands",
+  "venue": "Muziekgieterij",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 370,
+  "title": "Toffler Indoor Festival – 15 Years",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Onderzeebootloods, RDM-straat 1",
+  "date": "2026-11-28",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 382,
+  "title": "Rewire",
+  "type": "Festival",
+  "city": "The Hague",
+  "country": "Netherlands",
+  "venue": "Plusieurs lieux du centre de La Haye",
+  "date": "2027-04-08",
+  "endDate": "2027-04-11",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 387,
+  "title": "Toffler Festival",
+  "type": "Festival",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Roel Langerakpark",
+  "date": "2027-05-29",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 358,
+  "title": "Pussy Lounge",
+  "type": "Festival",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Rotterdam Ahoy",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 456,
+  "title": "Eelke Kleijn 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-08-08",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 457,
+  "title": "Bella Claxton, Club Angel & Milion à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-08-09",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 458,
+  "title": "Benny Rodrigues 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-08-15",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 459,
+  "title": "Gaskin 5HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-08-16",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 460,
+  "title": "Toman, Dean Turnley & AAT à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-08-30",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 461,
+  "title": "Kolter 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-09-06",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 462,
+  "title": "Menesix 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-09-13",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 467,
+  "title": "Zomerclosing à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-09-27",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 471,
+  "title": "IOSIO 10HRS à Thuishaven",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-10-04",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "House"
+  ]
+ }
+]

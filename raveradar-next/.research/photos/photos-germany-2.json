@@ -1,0 +1,173 @@
+[
+ {
+  "id": 489,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wilde_Renate_Open_Air.jpg/1920px-Wilde_Renate_Open_Air.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Open_Air.jpg",
+  "credit": "foldscheap / Wikimedia Commons (CC0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "open air organise par le Wilde Renate a Berlin, foule devant la scene en exterieur — Renate ne publie aucune photo (son site sert un pictogramme 'no photo')"
+ },
+ {
+  "id": 490,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/image-wall/1236334032236886687833953_2022178040407299522616261.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "width": 1000,
+  "note": "Mainfloor du Bootshaus, flammes et foule (photo officielle du club) — le visuel propre de la soiree R3HAB affiche une date erronee (07 AUG) et a ete ecarte"
+ },
+ {
+  "id": 491,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/gallery/426909298872159_261790242741948.jpg",
+  "sourcePage": "https://www.bootshaus.tv/gallery/sommerfest-closing-20-09",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "width": 1000,
+  "note": "vue depuis le booth sur la foule et les flammes pendant une Sommerfest au Bootshaus (galerie officielle)"
+ },
+ {
+  "id": 492,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/8797178639641873553462974_5848136236055337948931789.png",
+  "sourcePage": "https://www.bootshaus.tv/events/blacklist-inurfase-pres-zaagstep-by-dr-donk",
+  "credit": "Bootshaus / Blacklist",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Zaagstep by Dr Donk, 11.09.2026 Bootshaus"
+ },
+ {
+  "id": 493,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Wilde_Renate_Berlin_Courtyard.jpg/1920px-Wilde_Renate_Berlin_Courtyard.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Berlin_Courtyard.jpg",
+  "credit": "Tim Gage / Wikimedia Commons (CC BY-SA 2.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "cour du Salon zur Wilden Renate de nuit, eclairages colores — panoramique 1920x589"
+ },
+ {
+  "id": 494,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/image-wall/3108856090264623929418680_2274650200495809049638127.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "width": 1500,
+  "note": "Mainfloor du Bootshaus vu de la mezzanine, lasers bleus — le visuel propre de Polyamor est une composition typographique sur fond blanc, ecartee"
+ },
+ {
+  "id": 495,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/gallery/353824850993605_943004917045471.jpg",
+  "sourcePage": "https://www.bootshaus.tv/gallery/sommerfest-closing-20-09",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "width": 1000,
+  "note": "Sommerfest Closing au Bootshaus, mainfloor et jets de flammes (galerie officielle) — le visuel propre de la date est un degrade bleu sans line-up"
+ },
+ {
+  "id": 496,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/0172024324658985582583473_5659234541463818286265735.png",
+  "sourcePage": "https://www.bootshaus.tv/events/vertile-pres-everything-changes-live-at-bootshaus",
+  "credit": "Bootshaus / Vertile",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel Vertile - Everything Changes Live, 20.09.2026 (banniere large)"
+ },
+ {
+  "id": 497,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/7572114598587918602110621_2877361043033547007838821.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/unreal-weekender-night-i-september-2026",
+  "credit": "Bootshaus / Unreal",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Unreal Weekender Night I avec line-up, 25.09.2026"
+ },
+ {
+  "id": 498,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/6545440122112161600489835_4102187427091406125812180.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/unreal-weekender-night-ii-september-2026",
+  "credit": "Bootshaus / Unreal",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Unreal Weekender Night II avec line-up, 26.09.2026"
+ },
+ {
+  "id": 499,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/6852973411467408254591581_7087467815676477537922828.png",
+  "sourcePage": "https://www.bootshaus.tv/events/nibirii-pres-ely-oaks",
+  "credit": "Bootshaus / Nibirii",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel NIBIRII pres. Ely Oaks, Mainfloor 02.10.2026"
+ },
+ {
+  "id": 500,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/7928634490493560351503764_7574647932272803674637142.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/9-10-26-chrome-cologne",
+  "credit": "Bootshaus / Chrome",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Chrome Cologne - Oguz all night long, 09.10.2026"
+ },
+ {
+  "id": 501,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/1208667081739855683831546_8054987023148389219298412.png",
+  "sourcePage": "https://www.bootshaus.tv/events/16-10-26-chris-stussy-pres-by-bootshaus",
+  "credit": "Bootshaus",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel Chris Stussy au Bootshaus, Mainfloor 16.10.2026"
+ },
+ {
+  "id": 502,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/image-wall/7036593394621036922133631_2907756072967245027972831.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "width": 999,
+  "note": "foule et jeux de lumiere au Bootshaus (photo officielle du club) — le visuel propre d'Affenkaefig Rules n'est qu'un logo avec la mention Early Bird"
+ },
+ {
+  "id": 503,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/5661772516122494432347632_1676272899454372541097967.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/sa-24-10-2026-kitkatclub",
+  "credit": "Bootshaus / KitKatClub",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle KitKatClub @ Bootshaus Koln, 24.10.2026"
+ },
+ {
+  "id": 504,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/4570697039360185939537632_9780776906963524975616115.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/bootshaus-loonyland-pres-halloween-2026",
+  "credit": "Bootshaus / Loonyland",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Loonyland Halloween, 31.10.2026 Bootshaus"
+ },
+ {
+  "id": 505,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/5361694252623420484114372_5195305988417543031457747.png",
+  "sourcePage": "https://www.bootshaus.tv/events/19-12-26unreal-x-kuko-all-night-long-world-tour-cologne",
+  "credit": "Bootshaus / Unreal",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Unreal x KUKO All Night Long World Tour, Cologne 19.12.2026"
+ },
+ {
+  "id": 506,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/8058054091304654528927563_3420038451690378061887075.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/mi-30-12-2026-kitkatclub",
+  "credit": "Bootshaus / KitKatClub",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle KitKatClub @ Bootshaus Koln, 30.12.2026"
+ },
+ {
+  "id": 507,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/events/5616035275419772183451960_7561256723362226899913166.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/bootshaus-loonyland-pres-nye-2026",
+  "credit": "Bootshaus / Loonyland",
+  "kind": "event",
+  "width": 1500,
+  "note": "affiche officielle Loonyland New Year's Eve au Bootshaus, 31.12.2026"
+ }
+]

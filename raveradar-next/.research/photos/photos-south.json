@@ -1,0 +1,182 @@
+[
+ {
+  "id": 156,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/S%C3%B3nar_by_Day_2016.jpg/1920px-S%C3%B3nar_by_Day_2016.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:S%C3%B3nar_by_Day_2016.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "vue aerienne de Sonar by Day a la Fira Montjuic, Palau Nacional en fond"
+ },
+ {
+  "id": 160,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kappa_Futur_Festival_2025_-_Futur_Stage.jpg/1920px-Kappa_Futur_Festival_2025_-_Futur_Stage.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Kappa_Futur_Festival_2025_-_Futur_Stage.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "Futur Stage sous la halle du Parco Dora, foule de face"
+ },
+ {
+  "id": 166,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Monegros_Desert_Festival_-_Vista_general.jpg/1920px-Monegros_Desert_Festival_-_Vista_general.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Monegros_Desert_Festival_-_Vista_general.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "vue generale du site en plein desert, scene et chapiteaux"
+ },
+ {
+  "id": 120,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Amnesia_Ibiza_Crowd_8.jpg/1920px-Amnesia_Ibiza_Crowd_8.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "main room d'Amnesia Ibiza bondee, lasers et fumee"
+ },
+ {
+  "id": 74,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Amnesia_Ibiza_Crowd_8.jpg/1920px-Amnesia_Ibiza_Crowd_8.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "main room d'Amnesia Ibiza bondee, lasers et fumee"
+ },
+ {
+  "id": 75,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Amnesia_Ibiza_Crowd_8.jpg/1920px-Amnesia_Ibiza_Crowd_8.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "main room d'Amnesia Ibiza bondee, lasers et fumee"
+ },
+ {
+  "id": 121,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pacha_Ibiza_Party.jpg/1920px-Pacha_Ibiza_Party.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Pacha_Ibiza_Party.jpg",
+  "credit": "Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "interieur du Pacha Ibiza pendant une soiree, dancefloor et performeuse"
+ },
+ {
+  "id": 396,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Boom_Flame_%28184154043%29.jpeg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Boom_Flame_(184154043).jpeg",
+  "credit": "Wikimedia Commons",
+  "kind": "festival",
+  "width": 1920,
+  "note": "installation lumineuse nocturne sur le site du Boom Festival a Idanha-a-Nova"
+ },
+ {
+  "id": 327,
+  "image": "https://sunandbass.net/site/wp-content/uploads/2026/04/EXPERIENCE-A_Week-1.jpg",
+  "sourcePage": "https://www.sunandbass.net/",
+  "credit": "SUNANDBASS",
+  "kind": "festival",
+  "width": 1600,
+  "note": "scene SUN AND BASS sur la plage de La Cinta a San Teodoro, foule en journee"
+ },
+ {
+  "id": 318,
+  "image": "https://www.decibelopenair.com/assets/home/lineup-background.jpg",
+  "sourcePage": "https://www.decibelopenair.com/",
+  "credit": "Decibel Open Air",
+  "kind": "festival",
+  "width": 1280,
+  "note": "mainstage du Decibel Open Air au Parco delle Cascine, pyrotechnie et foule"
+ },
+ {
+  "id": 342,
+  "image": "https://www.cavoparadiso.gr/assets/images/dsc08711-816x488.jpg",
+  "sourcePage": "https://www.cavoparadiso.gr/",
+  "credit": "Cavo Paradiso Mykonos",
+  "kind": "venue",
+  "width": 816,
+  "note": "dancefloor open air du Cavo Paradiso de nuit, enseigne neon et flammes"
+ },
+ {
+  "id": 335,
+  "image": "https://framerusercontent.com/images/JubrpYxtDtxGycv0P3eRhvCRzYE.jpg?width=5000&height=3571",
+  "sourcePage": "https://bloomfestival.pt/",
+  "credit": "Bloom Festival",
+  "kind": "festival",
+  "width": 5000,
+  "note": "mainstage du Bloom Festival de nuit, mur de faisceaux orange au-dessus de la foule"
+ },
+ {
+  "id": 136,
+  "image": "https://mirafestival.com/wp-content/uploads/2026/04/MIRA202026_WEB.webp",
+  "sourcePage": "https://www.mirafestival.com/",
+  "credit": "MIRA Digital Arts Festival",
+  "kind": "festival",
+  "width": 1600,
+  "note": "visuel officiel MIRA 2026 (6-7 nov, Fira Montjuic Barcelone)"
+ },
+ {
+  "id": 320,
+  "image": "https://images.squarespace-cdn.com/content/v1/676ef68880dd8b6ae0340c02/c467b93e-b467-4d9f-b1b7-8e92d2d2ed26/DSC06569.jpg?format=1500w",
+  "sourcePage": "https://eternalsunfestival.com/",
+  "credit": "Eternal Sun Festival",
+  "kind": "festival",
+  "width": 1500,
+  "note": "dancefloor du Club Fortuna a Sougia, lumieres et foule"
+ },
+ {
+  "id": 371,
+  "image": "https://www.dalmafestival.com/wp-content/uploads/2024/05/thumbdalma24compressed-1.jpg",
+  "sourcePage": "https://dalmafestival.com/",
+  "credit": "Dalma Festival",
+  "kind": "festival",
+  "width": 1920,
+  "note": "visuel officiel du Dalma Festival (Malte)"
+ },
+ {
+  "id": 107,
+  "image": "https://sunwaves-fest.ro/wp-content/uploads/2025/06/Cover.jpg",
+  "sourcePage": "https://sunwaves-fest.ro/edition/sw38-roquetas-de-mar-spain/",
+  "credit": "Sunwaves Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "visuel officiel SW38 (3-7 septembre 2026, Roquetas de Mar)"
+ },
+ {
+  "id": 319,
+  "image": "https://zamnafestival.com/storage/events/featured/01KYJ224KNV6VTYYJAY159M3QX.png",
+  "sourcePage": "https://zamnafestival.com/events/zamna-x-primer-in-athens-Day1",
+  "credit": "Zamna Festival",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle ZAMNA x PRIMER Athens, Olympic Athletic Center of Athens"
+ },
+ {
+  "id": 354,
+  "image": "https://clubtoclub.it/wp-content/uploads/2025/06/C2C24-Day-1-Mirrorball-Ilaria-Ieie-scaled.jpg",
+  "sourcePage": "https://c2cfestival.it/",
+  "credit": "Club To Club / Ilaria Ieie",
+  "kind": "festival",
+  "width": 1280,
+  "note": "boule a facettes et faisceaux au C2C Festival de Turin (day 1)"
+ },
+ {
+  "id": 343,
+  "image": "https://omana-festival.de/cdn/shop/files/1b44d95c6a0a80b213370c73cb84cabf69a4781f.jpg?v=1770649019&width=1400",
+  "sourcePage": "https://omana-festival.de/",
+  "credit": "Omana Festival",
+  "kind": "festival",
+  "width": 1400,
+  "note": "dancefloor de l'Omana Festival dans la baie de Kalamitsi, lumiere rouge"
+ },
+ {
+  "id": 330,
+  "image": "https://framerusercontent.com/images/RnouUB0rX3l3x33LamBAfcAXycQ.jpg?width=819&height=1024",
+  "sourcePage": "https://www.dissonanzefestival.it/location",
+  "credit": "Dissonanze Festival",
+  "kind": "venue",
+  "width": 819,
+  "note": "coque de l'Auditorium Parco della Musica illuminee en rose la nuit"
+ }
+]

@@ -1,0 +1,373 @@
+[
+ {
+  "id": 423,
+  "title": "Lane 8 - This Never Happened",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Badaboum",
+  "date": "2026-10-28",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 426,
+  "title": "Digitalism au Bataclan",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Bataclan",
+  "date": "2026-11-06",
+  "endDate": null,
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 404,
+  "title": "Folamour au Cabaret Sauvage",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Cabaret Sauvage",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 422,
+  "title": "Yuksek au Cargo de Nuit",
+  "type": "Club",
+  "city": "Arles",
+  "country": "France",
+  "venue": "Cargo de Nuit",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 415,
+  "title": "Sam Feldt au Central Chapelle",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Central Chapelle",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 413,
+  "title": "Folamour à l'Interférence",
+  "type": "Club",
+  "city": "Balma",
+  "country": "France",
+  "venue": "Interférence",
+  "date": "2026-10-03",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 405,
+  "title": "Versus III - The Last Round",
+  "type": "Club",
+  "city": "Nancy",
+  "country": "France",
+  "venue": "L'Autre Canal",
+  "date": "2026-09-19",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 424,
+  "title": "Road To Invasion",
+  "type": "Club",
+  "city": "Nancy",
+  "country": "France",
+  "venue": "L'Autre Canal",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 408,
+  "title": "Hilight Tribe à L'Echonova",
+  "type": "Club",
+  "city": "Saint-Avé",
+  "country": "France",
+  "venue": "L'Echonova",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 430,
+  "title": "Overmono à l'Olympia",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "L'Olympia",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 406,
+  "title": "Elektricity",
+  "type": "Festival",
+  "city": "Reims",
+  "country": "France",
+  "venue": "La Cartonnerie",
+  "date": "2026-09-23",
+  "endDate": "2026-09-28",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 409,
+  "title": "PACT à la Condition Publique",
+  "type": "Club",
+  "city": "Roubaix",
+  "country": "France",
+  "venue": "La Condition Publique",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 420,
+  "title": "Hilight Tribe à la Coopérative de Mai",
+  "type": "Club",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "venue": "La Coopérative de Mai",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 427,
+  "title": "PACT à la Coopérative de Mai",
+  "type": "Club",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "venue": "La Coopérative de Mai",
+  "date": "2026-11-06",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 411,
+  "title": "Nathan Fake AV Live",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "La Gaîté Lyrique",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 414,
+  "title": "PACT à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 416,
+  "title": "Folamour 5 Hours Set à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2026-10-10",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 421,
+  "title": "Onde de Choc #4",
+  "type": "Club",
+  "city": "Alençon",
+  "country": "France",
+  "venue": "La Luciole",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 418,
+  "title": "Il Est Vilaine à La Maroquinerie",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "La Maroquinerie",
+  "date": "2026-10-13",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 429,
+  "title": "Joris Delacroix à La Nef",
+  "type": "Club",
+  "city": "Angoulême",
+  "country": "France",
+  "venue": "La Nef",
+  "date": "2026-11-13",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 407,
+  "title": "Détonation Festival",
+  "type": "Festival",
+  "city": "Besançon",
+  "country": "France",
+  "venue": "La Rodia",
+  "date": "2026-09-25",
+  "endDate": "2026-09-26",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 417,
+  "title": "Folamour au Transbordeur",
+  "type": "Club",
+  "city": "Villeurbanne",
+  "country": "France",
+  "venue": "Le Transbordeur",
+  "date": "2026-10-11",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 425,
+  "title": "Hilight Tribe Instrumental Halloween",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "Les Halles de la Cartoucherie",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 419,
+  "title": "Il Est Vilaine à Paloma",
+  "type": "Club",
+  "city": "Nîmes",
+  "country": "France",
+  "venue": "Paloma",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 428,
+  "title": "Positive Education Festival",
+  "type": "Festival",
+  "city": "Saint-Étienne",
+  "country": "France",
+  "venue": "Parc Expo & Le Clapier",
+  "date": "2026-11-12",
+  "endDate": "2026-11-15",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 410,
+  "title": "Club de Jour invite Étienne de Crécy",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 412,
+  "title": "Synthony au Zénith de Paris",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Zénith Paris - La Villette",
+  "date": "2026-10-01",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ }
+]

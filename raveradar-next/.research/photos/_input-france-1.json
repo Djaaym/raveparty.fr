@@ -1,0 +1,411 @@
+[
+ {
+  "id": 144,
+  "title": "Tomorrowland Winter",
+  "type": "Festival",
+  "city": "Alpe d'Huez",
+  "country": "France",
+  "venue": "Alpe d'Huez",
+  "date": "2027-03-20",
+  "endDate": "2027-03-27",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 165,
+  "title": "Les Nuits Secrètes",
+  "type": "Festival",
+  "city": "Aulnoye-Aymeries",
+  "country": "France",
+  "venue": "Aulnoye-Aymeries",
+  "date": "2027-07-23",
+  "endDate": "2027-07-25",
+  "genres": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 143,
+  "title": "Snowboxx",
+  "type": "Festival",
+  "city": "Avoriaz",
+  "country": "France",
+  "venue": "Avoriaz, Portes du Soleil",
+  "date": "2027-03-13",
+  "endDate": "2027-03-20",
+  "genres": [
+   "House",
+   "Techno",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "id": 113,
+  "title": "Techno Parade",
+  "type": "Festival",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Bastille → Nation",
+  "date": "2026-09-19",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House",
+   "Hard Techno",
+   "Free Party"
+  ]
+ },
+ {
+  "id": 116,
+  "title": "Festival Maintenant",
+  "type": "Festival",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "Divers lieux, Rennes",
+  "date": "2026-10-01",
+  "endDate": "2026-10-11",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 114,
+  "title": "Utopia Festival",
+  "type": "Warehouse",
+  "city": "Marseille",
+  "country": "France",
+  "venue": "Friche la Belle de Mai",
+  "date": "2026-09-25",
+  "endDate": "2026-09-26",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 152,
+  "title": "Festival Le Bon Air",
+  "type": "Festival",
+  "city": "Marseille",
+  "country": "France",
+  "venue": "Friche la Belle de Mai",
+  "date": "2027-05-14",
+  "endDate": "2027-05-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 403,
+  "title": "Résofest",
+  "type": "Festival",
+  "city": "Paimboeuf",
+  "country": "France",
+  "venue": "Jardin Étoilé",
+  "date": "2026-08-22",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 400,
+  "title": "PACT à la Friche la Belle de Mai",
+  "type": "Club",
+  "city": "Marseille",
+  "country": "France",
+  "venue": "La Friche la Belle de Mai",
+  "date": "2026-08-06",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 133,
+  "title": "The Walking Bass Festival",
+  "type": "Festival",
+  "city": "Marseille",
+  "country": "France",
+  "venue": "La Plateforme / Parc Chanot",
+  "date": "2026-10-30",
+  "endDate": "2026-10-31",
+  "genres": [
+   "Hard Techno",
+   "Drum & Bass",
+   "Trance",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 122,
+  "title": "NDK Festival",
+  "type": "Festival",
+  "city": "Caen",
+  "country": "France",
+  "venue": "Le Cargö",
+  "date": "2026-10-07",
+  "endDate": "2026-10-11",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 145,
+  "title": "Reperkusound",
+  "type": "Festival",
+  "city": "Lyon",
+  "country": "France",
+  "venue": "Le Transbordeur / Halle Tony Garnier",
+  "date": "2027-03-26",
+  "endDate": "2027-03-28",
+  "genres": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 150,
+  "title": "Nuits Sonores",
+  "type": "Festival",
+  "city": "Lyon",
+  "country": "France",
+  "venue": "Les Grandes Locos (La Mulatière) et divers lieux",
+  "date": "2027-05-05",
+  "endDate": "2027-05-09",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 138,
+  "title": "Les Rencontres Trans Musicales",
+  "type": "Festival",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "Parc Expo Rennes Aéroport",
+  "date": "2026-12-02",
+  "endDate": "2026-12-06",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 159,
+  "title": "Festival Plein Air",
+  "type": "Festival",
+  "city": "Douai",
+  "country": "France",
+  "venue": "Parc Jacques Vernier",
+  "date": "2027-06-25",
+  "endDate": "2027-06-26",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 111,
+  "title": "Le Jardin Électronique",
+  "type": "Festival",
+  "city": "Lille",
+  "country": "France",
+  "venue": "Parc Naturel Urbain de Lomme",
+  "date": "2026-09-12",
+  "endDate": "2026-09-13",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Psytrance",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 134,
+  "title": "Dream Nation Festival",
+  "type": "Festival",
+  "city": "Villepinte",
+  "country": "France",
+  "venue": "Parc des Expositions Paris Nord Villepinte",
+  "date": "2026-10-30",
+  "endDate": "2026-10-31",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Trance",
+   "Drum & Bass",
+   "Hardcore",
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 126,
+  "title": "Sonora Bordeaux",
+  "type": "Warehouse",
+  "city": "Bordeaux",
+  "country": "France",
+  "venue": "Parc des Expositions de Bordeaux",
+  "date": "2026-10-16",
+  "endDate": "2026-10-17",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 110,
+  "title": "Pharaonic",
+  "type": "Festival",
+  "city": "Cluses",
+  "country": "France",
+  "venue": "Parvis des Esserts",
+  "date": "2026-09-12",
+  "endDate": null,
+  "genres": [
+   "House",
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "id": 153,
+  "title": "Marvellous Island Festival",
+  "type": "Festival",
+  "city": "Torcy",
+  "country": "France",
+  "venue": "Plage de Torcy",
+  "date": "2027-05-15",
+  "endDate": "2027-05-16",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 151,
+  "title": "Insane Festival",
+  "type": "Festival",
+  "city": "Apt",
+  "country": "France",
+  "venue": "Plan d'eau d'Apt",
+  "date": "2027-05-06",
+  "endDate": "2027-05-08",
+  "genres": [
+   "Hard Techno",
+   "Trance",
+   "Hardcore",
+   "Techno"
+  ]
+ },
+ {
+  "id": 402,
+  "title": "LGT Festival",
+  "type": "Festival",
+  "city": "Fabrègues",
+  "country": "France",
+  "venue": "Plan des Fêtes",
+  "date": "2026-08-14",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 157,
+  "title": "Aluna Festival",
+  "type": "Festival",
+  "city": "Ruoms",
+  "country": "France",
+  "venue": "Site de la Reine, Ruoms",
+  "date": "2027-06-24",
+  "endDate": "2027-06-26",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 124,
+  "title": "Nantes Rave Techno XXL",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "id": 125,
+  "title": "Pandemic",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 401,
+  "title": "SUBTERRA - Evil Grimace and More",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-08-07",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 109,
+  "title": "Elektric Park Festival",
+  "type": "Festival",
+  "city": "Chatou",
+  "country": "France",
+  "venue": "Île des Impressionnistes",
+  "date": "2026-09-05",
+  "endDate": "2026-09-06",
+  "genres": [
+   "House",
+   "Techno",
+   "Hardstyle",
+   "Hardcore",
+   "EDM"
+  ]
+ }
+]

@@ -1,0 +1,329 @@
+[
+ {
+  "id": 139,
+  "title": "Thunderdome",
+  "type": "Festival",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "AFAS Dome",
+  "date": "2026-12-11",
+  "endDate": "2026-12-12",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 142,
+  "title": "Rampage Weekend",
+  "type": "Festival",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "AFAS Dome",
+  "date": "2027-03-05",
+  "endDate": "2027-03-07",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 380,
+  "title": "Reverze",
+  "type": "Festival",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "AFAS Dome & Lotto Arena",
+  "date": "2027-02-26",
+  "endDate": "2027-02-27",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 356,
+  "title": "Boris Brejcha à Bernexpo",
+  "type": "Warehouse",
+  "city": "Bern",
+  "country": "Switzerland",
+  "venue": "Bernexpo",
+  "date": "2026-10-30",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 376,
+  "title": "FCKNYE Festival",
+  "type": "Festival",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Brussels Expo / ING Arena, Heysel",
+  "date": "2026-12-30",
+  "endDate": "2027-01-01",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 338,
+  "title": "Hard Bounce — Trym",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 351,
+  "title": "Ninja Warriors — Indira Paganotto",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 366,
+  "title": "Space Odyssey — NTO & Joachim Pastor",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-11-20",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 385,
+  "title": "Extrema Outdoor Belgium",
+  "type": "Festival",
+  "city": "Houthalen-Helchteren",
+  "country": "Belgium",
+  "venue": "De Plas",
+  "date": "2027-05-14",
+  "endDate": "2027-05-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 323,
+  "title": "Fuse presents Hadone curates: Nørbak & Tauceti",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 357,
+  "title": "Fuse presents Silva Bumpa",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 317,
+  "title": "Beatpatrol Festival",
+  "type": "Festival",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Galopprennbahn Freudenau",
+  "date": "2026-09-04",
+  "endDate": "2026-09-05",
+  "genres": [
+   "Techno",
+   "Hardstyle",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "id": 349,
+  "title": "Modeselektor — Classics Vol. 01",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-10-11",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 361,
+  "title": "Rave Rebels XXL",
+  "type": "Festival",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "ING Arena (Palais 12), Heysel",
+  "date": "2026-11-07",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 322,
+  "title": "Amelie Lens – Chaos in the City",
+  "type": "Festival",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "Leopold de Waelplaats, devant le KMSKA",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 148,
+  "title": "Snowbombing",
+  "type": "Festival",
+  "city": "Mayrhofen",
+  "country": "Austria",
+  "venue": "Mayrhofen (Zillertal)",
+  "date": "2027-04-05",
+  "endDate": "2027-04-10",
+  "genres": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 326,
+  "title": "Teletech x DAY|RAVE",
+  "type": "Club",
+  "city": "Basel",
+  "country": "Switzerland",
+  "venue": "Nordstern",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 374,
+  "title": "Azyr au Nordstern",
+  "type": "Club",
+  "city": "Basel",
+  "country": "Switzerland",
+  "venue": "Nordstern",
+  "date": "2026-12-11",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 395,
+  "title": "Ostend Beach Festival",
+  "type": "Festival",
+  "city": "Ostend",
+  "country": "Belgium",
+  "venue": "Plage d'Ostende",
+  "date": "2027-07-09",
+  "endDate": "2027-07-11",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 333,
+  "title": "NZNZ à la Postgarage",
+  "type": "Club",
+  "city": "Graz",
+  "country": "Austria",
+  "venue": "Postgarage",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 373,
+  "title": "Rave on Snow",
+  "type": "Festival",
+  "city": "Saalbach-Hinterglemm",
+  "country": "Austria",
+  "venue": "Saalbach-Hinterglemm (divers lieux)",
+  "date": "2026-12-10",
+  "endDate": "2026-12-13",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "id": 394,
+  "title": "Electric Love Festival",
+  "type": "Festival",
+  "city": "Salzburg",
+  "country": "Austria",
+  "venue": "Salzburgring",
+  "date": "2027-07-08",
+  "endDate": "2027-07-10",
+  "genres": [
+   "EDM",
+   "Techno",
+   "Hardstyle",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "id": 369,
+  "title": "Liquicity Ghent",
+  "type": "Club",
+  "city": "Ghent",
+  "country": "Belgium",
+  "venue": "Vooruit (VIERNULVIER), Sint-Pietersnieuwstraat 23",
+  "date": "2026-11-27",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ }
+]
