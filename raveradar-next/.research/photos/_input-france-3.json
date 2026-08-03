@@ -1,0 +1,346 @@
+[
+ {
+  "id": 444,
+  "title": "Crazy New Year",
+  "type": "Festival",
+  "city": "Bourg-en-Bresse",
+  "country": "France",
+  "venue": "Ainterexpo - EKINOX",
+  "date": "2026-12-31",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 433,
+  "title": "Pulse 2#",
+  "type": "Club",
+  "city": "Perpignan",
+  "country": "France",
+  "venue": "L'Archipel",
+  "date": "2026-11-20",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 451,
+  "title": "NTO Live à l'Olympia",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "L'Olympia",
+  "date": "2027-02-05",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 447,
+  "title": "PACT à l'Élysée Montmartre",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "L'Élysée Montmartre",
+  "date": "2027-01-16",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 454,
+  "title": "Acid Arab à La BAM",
+  "type": "Club",
+  "city": "Metz",
+  "country": "France",
+  "venue": "La BAM",
+  "date": "2027-03-25",
+  "endDate": null,
+  "genres": [
+   "Acid Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 453,
+  "title": "Acid Arab à La Cartonnerie",
+  "type": "Club",
+  "city": "Reims",
+  "country": "France",
+  "venue": "La Cartonnerie",
+  "date": "2027-03-13",
+  "endDate": null,
+  "genres": [
+   "Acid Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 432,
+  "title": "Hilight Tribe à La Cigale",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "La Cigale",
+  "date": "2026-11-18",
+  "endDate": null,
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 449,
+  "title": "NTO Live à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2027-01-30",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 455,
+  "title": "Il Est Vilaine à La Machine du Moulin Rouge",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "La Machine du Moulin Rouge",
+  "date": "2027-04-01",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 443,
+  "title": "Bass Impakt - Hard Is Coming #5",
+  "type": "Club",
+  "city": "Saint-Quentin",
+  "country": "France",
+  "venue": "La Manufacture",
+  "date": "2026-12-19",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 452,
+  "title": "NTO Live au Bikini",
+  "type": "Club",
+  "city": "Ramonville-Saint-Agne",
+  "country": "France",
+  "venue": "Le Bikini",
+  "date": "2027-02-12",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 434,
+  "title": "Scratch Massive au Ferrailleur",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Le Ferrailleur",
+  "date": "2026-11-21",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 441,
+  "title": "PACT au MeM",
+  "type": "Club",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "Le MeM",
+  "date": "2026-12-12",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 446,
+  "title": "NTO Live au MeM",
+  "type": "Club",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "Le MeM",
+  "date": "2027-01-15",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 448,
+  "title": "NTO Live au Transbordeur",
+  "type": "Club",
+  "city": "Villeurbanne",
+  "country": "France",
+  "venue": "Le Transbordeur",
+  "date": "2027-01-28",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 437,
+  "title": "Elisa Do Brasil aux Cuizines",
+  "type": "Club",
+  "city": "Chelles",
+  "country": "France",
+  "venue": "Les Cuizines",
+  "date": "2026-12-05",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 431,
+  "title": "PACT à Paloma",
+  "type": "Club",
+  "city": "Nîmes",
+  "country": "France",
+  "venue": "Paloma",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 435,
+  "title": "Dystopia Festival",
+  "type": "Festival",
+  "city": "Saint-Étienne",
+  "country": "France",
+  "venue": "Parc Expo Saint-Étienne",
+  "date": "2026-12-04",
+  "endDate": "2026-12-05",
+  "genres": [
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 439,
+  "title": "Illusion BZH Edition",
+  "type": "Festival",
+  "city": "Lanester",
+  "country": "France",
+  "venue": "Parc des Expositions de Lorient",
+  "date": "2026-12-12",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 440,
+  "title": "Anyma presents ÆDEN",
+  "type": "Club",
+  "city": "Nanterre",
+  "country": "France",
+  "venue": "Plenitude Arena",
+  "date": "2026-12-12",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 438,
+  "title": "PACT au Sew",
+  "type": "Club",
+  "city": "Morlaix",
+  "country": "France",
+  "venue": "Sew - la Manu",
+  "date": "2026-12-11",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 436,
+  "title": "Rise Festival",
+  "type": "Festival",
+  "city": "Les Deux Alpes",
+  "country": "France",
+  "venue": "Station des Deux Alpes",
+  "date": "2026-12-05",
+  "endDate": "2026-12-12",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 445,
+  "title": "NTO Live au Stereolux",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Stereolux",
+  "date": "2027-01-14",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 442,
+  "title": "The Avener au Warehouse",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-12-12",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 450,
+  "title": "Acid Arab au Zénith de Paris",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Zénith Paris - La Villette",
+  "date": "2027-01-30",
+  "endDate": null,
+  "genres": [
+   "Acid Techno",
+   "Techno"
+  ]
+ }
+]

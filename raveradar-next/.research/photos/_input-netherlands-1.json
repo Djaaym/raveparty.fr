@@ -1,0 +1,305 @@
+[
+ {
+  "id": 127,
+  "title": "Amsterdam Dance Event (ADE)",
+  "type": "Festival",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "300+ lieux dans Amsterdam",
+  "date": "2026-10-21",
+  "endDate": "2026-10-25",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "id": 130,
+  "title": "Verknipt ADE Special",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "AFAS Live",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 328,
+  "title": "BASIS x HARDLINE w/ Alarico",
+  "type": "Club",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "BASIS, Oudegracht aan de Werf 97",
+  "date": "2026-09-11",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 332,
+  "title": "BASIS x BCCO w/ Ignez",
+  "type": "Club",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "BASIS, Oudegracht aan de Werf 97",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 346,
+  "title": "BASIS Vinyl Special w/ Narciss",
+  "type": "Club",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "BASIS, Oudegracht aan de Werf 97",
+  "date": "2026-10-10",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 337,
+  "title": "360 Degrees: Jayda G",
+  "type": "Club",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "BIRD",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 161,
+  "title": "Awakenings Festival",
+  "type": "Festival",
+  "city": "Hilvarenbeek",
+  "country": "Netherlands",
+  "venue": "Beekse Bergen",
+  "date": "2027-07-09",
+  "endDate": "2027-07-11",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 341,
+  "title": "Supremacy – State of Distortion",
+  "type": "Festival",
+  "city": "'s-Hertogenbosch",
+  "country": "Netherlands",
+  "venue": "Brabanthallen",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 324,
+  "title": "Rauwe Kicks",
+  "type": "Club",
+  "city": "Nijmegen",
+  "country": "Netherlands",
+  "venue": "Doornroosje",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 73,
+  "title": "Dominator Festival",
+  "type": "Festival",
+  "city": "Eersel",
+  "country": "Netherlands",
+  "venue": "E3 Strand",
+  "date": "2026-07-17",
+  "endDate": null,
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 131,
+  "title": "Dockyard Festival ADE",
+  "type": "Festival",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Havenpark",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 154,
+  "title": "Awakenings Upclose",
+  "type": "Festival",
+  "city": "Spaarnwoude",
+  "country": "Netherlands",
+  "venue": "Houtrak, Spaarnwoude-Park",
+  "date": "2027-05-15",
+  "endDate": "2027-05-16",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 316,
+  "title": "Draaimolen Festival",
+  "type": "Festival",
+  "city": "Tilburg",
+  "country": "Netherlands",
+  "venue": "MOB Complex",
+  "date": "2026-09-04",
+  "endDate": "2026-09-05",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 340,
+  "title": "De Interventie – Blackout II",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 345,
+  "title": "Gabber Resistance: Back at Maassilo",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 352,
+  "title": "INFERI – Through Hell",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-10-17",
+  "endDate": null,
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 353,
+  "title": "Megarave – The Millennium Edition",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 146,
+  "title": "DGTL Amsterdam",
+  "type": "Festival",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "NDSM Docklands",
+  "date": "2027-03-26",
+  "endDate": "2027-03-28",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 329,
+  "title": "Smeerboel Festival",
+  "type": "Festival",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "Recreatieplas Laagraven",
+  "date": "2026-09-12",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 128,
+  "title": "Awakenings ADE – Drumcode",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Sugarfactory",
+  "date": "2026-10-22",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 132,
+  "title": "Boris Brejcha pres. FCKNG SERIOUS x Loveland",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Theater Amsterdam",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 158,
+  "title": "Defqon.1 Weekend Festival",
+  "type": "Festival",
+  "city": "Biddinghuizen",
+  "country": "Netherlands",
+  "venue": "Walibi Holland / Evenemententerrein Biddinghuizen",
+  "date": "2027-06-24",
+  "endDate": "2027-06-27",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ }
+]

@@ -1,0 +1,65 @@
+[
+ {
+  "id": 146,
+  "image": "https://www.datocms-assets.com/146604/1740145522-dgtlhrsaturday2023-byinfo-kirstenvansanten-nl-179.jpg?auto=format&fit=max&w=1600",
+  "sourcePage": "https://www.dgtl.nl/",
+  "credit": "DGTL / Kirsten van Santen",
+  "kind": "festival",
+  "width": 1600,
+  "note": "DJ face a la foule sous la halle NDSM Docklands, DGTL Amsterdam"
+ },
+ {
+  "id": 340,
+  "image": "https://maassilo.com/app/uploads/2026/04/20251115_2148_MODULAR_BRADAMEDIA_JORDYBRADA_3009-scaled.jpg",
+  "sourcePage": "https://www.maassilo.com/",
+  "credit": "Maassilo / Jordy Brada",
+  "kind": "venue",
+  "width": 2560,
+  "note": "grande salle du Maassilo, foule et fumee"
+ },
+ {
+  "id": 345,
+  "image": "https://maassilo.com/app/uploads/2026/04/20251115_2148_MODULAR_BRADAMEDIA_JORDYBRADA_3009-scaled.jpg",
+  "sourcePage": "https://www.maassilo.com/",
+  "credit": "Maassilo / Jordy Brada",
+  "kind": "venue",
+  "width": 2560,
+  "note": "grande salle du Maassilo, foule et fumee"
+ },
+ {
+  "id": 352,
+  "image": "https://maassilo.com/app/uploads/2026/04/20251115_2148_MODULAR_BRADAMEDIA_JORDYBRADA_3009-scaled.jpg",
+  "sourcePage": "https://www.maassilo.com/",
+  "credit": "Maassilo / Jordy Brada",
+  "kind": "venue",
+  "width": 2560,
+  "note": "grande salle du Maassilo, foule et fumee"
+ },
+ {
+  "id": 353,
+  "image": "https://maassilo.com/app/uploads/2026/04/20251115_2148_MODULAR_BRADAMEDIA_JORDYBRADA_3009-scaled.jpg",
+  "sourcePage": "https://www.maassilo.com/",
+  "credit": "Maassilo / Jordy Brada",
+  "kind": "venue",
+  "width": 2560,
+  "note": "grande salle du Maassilo, foule et fumee"
+ },
+ {
+  "id": 73,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dominator_Festival_2018.jpg/1920px-Dominator_Festival_2018.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Dominator_Festival_2018.jpg",
+  "credit": "W. Swinkels / Wikimedia Commons (CC BY 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "vue aerienne du site du Dominator sur le E3 Strand a Eersel"
+ },
+ {
+  "id": 158,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Red_Stage_Defqon.1_Weekend_Festival_2022.jpg/1920px-Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Stage_Defqon.1_Weekend_Festival_2022.jpg",
+  "credit": "Blyra92 / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "RED stage de Defqon.1 et la foule, Biddinghuizen"
+ }
+]

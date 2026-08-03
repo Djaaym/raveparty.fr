@@ -1,0 +1,92 @@
+[
+ {
+  "id": 112,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/04/ki-ki.jpg",
+  "sourcePage": "https://thewarehouseproject.com/events/ki-ki/",
+  "credit": "The Warehouse Project",
+  "kind": "event",
+  "width": 1000,
+  "note": "visuel officiel WHP 2026 pour la date KI/KI au Depot Mayfield"
+ },
+ {
+  "id": 115,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/05/Manchester_1X1-scaled-1000x1000c.jpg",
+  "sourcePage": "https://thewarehouseproject.com/events/solomun/",
+  "credit": "The Warehouse Project",
+  "kind": "event",
+  "width": 1000,
+  "note": "affiche officielle Solomun Manchester, WHP Depot Mayfield 25/09/2026"
+ },
+ {
+  "id": 135,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/05/Overmono_WHP26_1X1-1000x1000c.jpg",
+  "sourcePage": "https://thewarehouseproject.com/events/overmono/",
+  "credit": "The Warehouse Project",
+  "kind": "event",
+  "width": 1000,
+  "note": "affiche officielle Overmono Pure Devotion avec line-up complet"
+ },
+ {
+  "id": 137,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/06/2026-11-14-Teletech-Manchester-Klangkuenstler-Square-1000x1000c.png",
+  "sourcePage": "https://thewarehouseproject.com/events/klangkuenstler/",
+  "credit": "The Warehouse Project / Teletech",
+  "kind": "event",
+  "width": 1000,
+  "note": "affiche officielle Teletech Manchester x Klangkuenstler"
+ },
+ {
+  "id": 140,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/05/@sophiajcarey-24-4-scaled-1000x1000c.jpg",
+  "sourcePage": "https://thewarehouseproject.com/events/nye/",
+  "credit": "Sophia J Carey / The Warehouse Project",
+  "kind": "event",
+  "width": 1000,
+  "note": "photo booth DJ face a la foule au Depot Mayfield, visuel de la page NYE"
+ },
+ {
+  "id": 129,
+  "image": "https://drumshedslondon.com/app/uploads/2026/07/241115-drumsheds-domdolla-jakedavis-jakephilipadvis-6164-2048x1365.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/terminal-v-2/",
+  "credit": "Jake Davis / Drumsheds",
+  "kind": "event",
+  "width": 2048,
+  "note": "photo de la page Terminal V London sur le site de Drumsheds, foule devant le mur de LED"
+ },
+ {
+  "id": 238,
+  "image": "https://drumshedslondon.com/app/uploads/2023/07/drumsheds-elrow-28th-october-2023-by-luke-dyson-ld3-0404.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/elrow-horroween-festival/",
+  "credit": "Luke Dyson / Drumsheds",
+  "kind": "event",
+  "width": 2048,
+  "note": "photo d'une precedente elrow a Drumsheds, illustrant la page elrow Horroween Festival"
+ },
+ {
+  "id": 244,
+  "image": "https://drumshedslondon.com/app/uploads/2025/07/bugged-out-2048x1365.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/a-state-of-trance/",
+  "credit": "Drumsheds",
+  "kind": "event",
+  "width": 2048,
+  "note": "photo de la page A State Of Trance (Armin van Buuren, 14/11/2026) : hangar Drumsheds bonde sous les lasers"
+ },
+ {
+  "id": 224,
+  "image": "https://swg3.tv/media/ddvhqnrq/swg3-external-venue-shot-3.jpg",
+  "sourcePage": "https://swg3.tv/venue-hire/galvanizers",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 1920,
+  "note": "vue aerienne de l'entree SWG3 (neon SWG3 + fresque Dance + Resist), photo officielle du lieu"
+ },
+ {
+  "id": 242,
+  "image": "https://swg3.tv/media/ddvhqnrq/swg3-external-venue-shot-3.jpg",
+  "sourcePage": "https://swg3.tv/venue-hire/galvanizers",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 1920,
+  "note": "meme lieu que la FLY House Heads : SWG3 Glasgow, photo officielle du lieu"
+ }
+]

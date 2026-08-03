@@ -1,4 +1,5 @@
 import type { RaveEvent, GenreColor, Lang } from "./types";
+import { SITE_URL } from "./site";
 
 export const GENRES: Record<string, GenreColor> = {
   Techno: { c1: "#2F7BFF", c2: "#8B5CFF" },
@@ -696,13 +697,33 @@ export const IMAGES: Record<number, string> = {
   108: "hf_20260729_223536_b804d2ac-0043-4dc2-af3e-4aa19b9ecce5.png",
   210: "hf_20260729_223545_c87f63ce-2725-4f2b-ae63-2dd526c717fd.png",
 };
-/** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine. */
-export const imageUrl = (e: RaveEvent): string | null => (IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : null);
-/** Compressed variant the CDN generates alongside each render: ~100 KB of WebP
- *  instead of ~2.5 MB of PNG. A listing renders 24 of these, so the full-size
- *  file is never what a card should load. */
+
+/* Real event photography — organiser, venue and Wikimedia sources, downloaded and
+ * optimised into public/posters/ by .research/photos/ingest.py. Same convention as
+ * IMAGES: `{slug}.jpg` is the full frame, `{slug}_min.webp` the 4:5 card crop.
+ * Regenerate rather than hand-edit: the block between the two markers is rewritten. */
+const PHOTO_BASE = "/posters/";
+/* PHOTOS:start */
+export const PHOTOS: Record<number, string> = {};
+/* PHOTOS:end */
+/** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine.
+ *  Absolute on purpose: a relative path in an og:image or a schema.org `image` is
+ *  ignored by the crawlers that read them. */
+export const imageUrl = (e: RaveEvent): string | null =>
+  IMAGES[e.id]
+    ? IMG_BASE + IMAGES[e.id]
+    : PHOTOS[e.id]
+      ? SITE_URL + PHOTO_BASE + PHOTOS[e.id]
+      : null;
+/** Compressed variant served alongside each poster: ~60-100 KB of WebP instead of
+ *  ~2.5 MB of PNG, cropped to the 4:5 of a card. A listing renders 24 of these, so
+ *  the full-size file is never what a card should load. */
 export const imageThumb = (e: RaveEvent): string | null =>
-  IMAGES[e.id] ? IMG_BASE + IMAGES[e.id].replace(/\.(png|jpe?g)$/, "_min.webp") : null;
+  IMAGES[e.id]
+    ? IMG_BASE + IMAGES[e.id].replace(/\.(png|jpe?g)$/, "_min.webp")
+    : PHOTOS[e.id]
+      ? PHOTO_BASE + PHOTOS[e.id].replace(/\.jpg$/, "_min.webp")
+      : null;
 /** composite CSS background: real poster on top, genre gradient as fallback */
 export const cardBg = (e: RaveEvent): string => {
   const url = imageThumb(e);

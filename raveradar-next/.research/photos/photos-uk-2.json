@@ -1,0 +1,83 @@
+[
+ {
+  "id": 464,
+  "image": "https://drumshedslondon.com/app/uploads/2026/04/200925-defected-drumsheds-khaliphotography-fd-231-1-1.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/defected-london-aw26/",
+  "credit": "Drumsheds / Khali Photography",
+  "kind": "event",
+  "width": 2048,
+  "note": "Defected à Drumsheds (20/09/2025) : foule et mainstage dans le hangar"
+ },
+ {
+  "id": 466,
+  "image": "https://drumshedslondon.com/app/uploads/2025/09/ds-aw25-web-event-banner-spotify.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/steppers/",
+  "credit": "Drumsheds",
+  "kind": "venue",
+  "width": 1920,
+  "note": "foule de Drumsheds en mouvement (visuel de saison AW25)"
+ },
+ {
+  "id": 470,
+  "image": "https://drumshedslondon.com/app/uploads/2025/08/ds-aw25-web-event-banner-hydra-warp.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/nexup-the-return/",
+  "credit": "Drumsheds",
+  "kind": "venue",
+  "width": 1920,
+  "note": "silhouettes de la foule sous les lumières, Drumsheds"
+ },
+ {
+  "id": 473,
+  "image": "https://drumshedslondon.com/app/uploads/2025/06/231118-drumsheds-paradise-jakedavis-jakephilipdavis-0006-edit-1-1-1-2048x1365.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/dldk/",
+  "credit": "Drumsheds / Jake Philip Davis",
+  "kind": "venue",
+  "width": 2048,
+  "note": "mur de lumières rouge du hangar Drumsheds, vue sur la foule"
+ },
+ {
+  "id": 475,
+  "image": "https://drumshedslondon.com/app/uploads/2025/07/bugged-out-2048x1365.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/bugged-out-2001/",
+  "credit": "Drumsheds",
+  "kind": "event",
+  "width": 2048,
+  "note": "Bugged Out à Drumsheds : scène bleue et foule"
+ },
+ {
+  "id": 479,
+  "image": "https://drumshedslondon.com/app/uploads/2024/07/khaliphotography-drumsheds-false-idols-196.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/false-idols-2/",
+  "credit": "Drumsheds / Khali Photography",
+  "kind": "event",
+  "width": 2048,
+  "note": "False Idols à Drumsheds : hangar en rouge, écrans LED géants"
+ },
+ {
+  "id": 483,
+  "image": "https://drumshedslondon.com/app/uploads/2025/07/ds-aw25-web-event-banner-wah.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/worried-about-henry-wilkinson/",
+  "credit": "Drumsheds",
+  "kind": "event",
+  "width": 1920,
+  "note": "Worried About Henry à Drumsheds : foule et line array dans la brume"
+ },
+ {
+  "id": 484,
+  "image": "https://drumshedslondon.com/app/uploads/2025/07/copy-of-khaliphotography-drumsheds-discotheque40-1.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/la-discotheque-10th-anniversary/",
+  "credit": "Drumsheds / Khali Photography",
+  "kind": "event",
+  "width": 1365,
+  "note": "La Discothèque à Drumsheds : foule sous les lumières roses (format portrait)"
+ },
+ {
+  "id": 486,
+  "image": "https://drumshedslondon.com/app/uploads/2026/07/031025-nexup-recz-khaliphotography-99.jpg",
+  "sourcePage": "https://drumshedslondon.com/event/fuse-18th-brithday/",
+  "credit": "Drumsheds / Khali Photography",
+  "kind": "venue",
+  "width": 2000,
+  "note": "hangar Drumsheds baigné de faisceaux bleus au-dessus de la foule"
+ }
+]

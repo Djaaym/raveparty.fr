@@ -1,0 +1,511 @@
+[
+ {
+  "id": 258,
+  "title": "Pohoda Festival",
+  "type": "Festival",
+  "city": "Trencin",
+  "country": "Slovakia",
+  "venue": "Aeroport de Trencin",
+  "date": "2027-07-08",
+  "endDate": "2027-07-10",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 220,
+  "title": "AkvaWaves x IAM : Juliet Fox",
+  "type": "Club",
+  "city": "Budapest",
+  "country": "Hungary",
+  "venue": "Akvarium Klub",
+  "date": "2026-09-19",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 212,
+  "title": "Matrixsport : Club Hel 2",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Ankali",
+  "date": "2026-09-11",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 217,
+  "title": "Bassiani: SPANDAU20 Nacht",
+  "type": "Club",
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "venue": "Bassiani",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 391,
+  "title": "Palmesus",
+  "type": "Festival",
+  "city": "Kristiansand",
+  "country": "Norway",
+  "venue": "Bystranda",
+  "date": "2027-06-25",
+  "endDate": "2027-06-26",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 261,
+  "title": "Electric Castle",
+  "type": "Festival",
+  "city": "Cluj-Napoca",
+  "country": "Romania",
+  "venue": "Chateau Banffy, Bontida",
+  "date": "2027-07-14",
+  "endDate": "2027-07-18",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "id": 230,
+  "title": "Autechre au Club Guesthouse",
+  "type": "Club",
+  "city": "Bucharest",
+  "country": "Romania",
+  "venue": "Club Guesthouse",
+  "date": "2026-10-07",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 225,
+  "title": "Peccāvī : Alex Stein",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Culture Box",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 236,
+  "title": "Culture Box : Xinobi",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Culture Box",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 363,
+  "title": "Culture Box : Dusky",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Culture Box",
+  "date": "2026-11-13",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 123,
+  "title": "Unsound Kraków – Soft Power",
+  "type": "Festival",
+  "city": "Kraków",
+  "country": "Poland",
+  "venue": "Divers lieux / various venues",
+  "date": "2026-10-08",
+  "endDate": "2026-10-11",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 117,
+  "title": "Unsound Warsaw – Soft Power",
+  "type": "Festival",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "Divers lieux / various venues",
+  "date": "2026-10-02",
+  "endDate": "2026-10-06",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 257,
+  "title": "Beats for Love",
+  "type": "Festival",
+  "city": "Ostrava",
+  "country": "Czech Republic",
+  "venue": "Dolni Vitkovice",
+  "date": "2027-07-01",
+  "endDate": "2027-07-05",
+  "genres": [
+   "Drum & Bass",
+   "Techno",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "id": 255,
+  "title": "Roskilde Festival",
+  "type": "Festival",
+  "city": "Roskilde",
+  "country": "Denmark",
+  "venue": "Dyrskuepladsen",
+  "date": "2027-06-26",
+  "endDate": "2027-07-03",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 207,
+  "title": "Extreme Chill Festival",
+  "type": "Festival",
+  "city": "Reykjavík",
+  "country": "Iceland",
+  "venue": "Gamla Bíó, Iðnó, Tjarnarbíó",
+  "date": "2026-09-02",
+  "endDate": "2026-09-06",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 235,
+  "title": "Index: Lane 8",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Index",
+  "date": "2026-10-16",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 219,
+  "title": "Frædag : Elli Acula",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 223,
+  "title": "Frædag : Tony Humphries",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 227,
+  "title": "Jasna 1 : Donato Dozzy x Unsound",
+  "type": "Club",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "Jasna 1",
+  "date": "2026-10-02",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 240,
+  "title": "Jasna 1 : 999999999",
+  "type": "Club",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "Jasna 1",
+  "date": "2026-11-06",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Acid Techno"
+  ]
+ },
+ {
+  "id": 218,
+  "title": "Klub K4 : ouverture de saison",
+  "type": "Club",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "venue": "Klub K4",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 213,
+  "title": "Loftas Fest",
+  "type": "Festival",
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "venue": "Menų fabrikas Loftas",
+  "date": "2026-09-11",
+  "endDate": "2026-09-12",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 162,
+  "title": "Ultra Europe",
+  "type": "Festival",
+  "city": "Split",
+  "country": "Croatia",
+  "venue": "Park Mladeži",
+  "date": "2027-07-09",
+  "endDate": "2027-07-11",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 256,
+  "title": "Hideout Festival",
+  "type": "Festival",
+  "city": "Novalja",
+  "country": "Croatia",
+  "venue": "Plage de Zrce",
+  "date": "2027-06-29",
+  "endDate": "2027-07-02",
+  "genres": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 368,
+  "title": "Sub Focus",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Poolen",
+  "date": "2026-11-21",
+  "endDate": null,
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 253,
+  "title": "Copenhagen Distortion",
+  "type": "Festival",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Refshaleøen et rues de Copenhague",
+  "date": "2027-06-02",
+  "endDate": "2027-06-06",
+  "genres": [
+   "Techno",
+   "House",
+   "Warehouse"
+  ]
+ },
+ {
+  "id": 231,
+  "title": "Verknipt Poland - Warsaw",
+  "type": "Warehouse",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "SEKTOR6D",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 251,
+  "title": "Tallinn Music Week",
+  "type": "Festival",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "venue": "Salles de Tallinn",
+  "date": "2027-04-08",
+  "endDate": "2027-04-11",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 239,
+  "title": "Iceland Airwaves",
+  "type": "Festival",
+  "city": "Reykjavík",
+  "country": "Iceland",
+  "venue": "Salles du centre de Reykjavík",
+  "date": "2026-11-05",
+  "endDate": "2026-11-07",
+  "genres": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "id": 246,
+  "title": "Taksirat Festival",
+  "type": "Festival",
+  "city": "Skopje",
+  "country": "North Macedonia",
+  "venue": "Salles multiples, Skopje",
+  "date": "2026-11-26",
+  "endDate": "2026-12-07",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 241,
+  "title": "MAYDAY Poland 2026 : Iconic",
+  "type": "Festival",
+  "city": "Katowice",
+  "country": "Poland",
+  "venue": "Spodek",
+  "date": "2026-11-10",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hardstyle",
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "id": 163,
+  "title": "Terminal V Croatia",
+  "type": "Festival",
+  "city": "Tisno",
+  "country": "Croatia",
+  "venue": "The Garden Tisno",
+  "date": "2027-07-15",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 229,
+  "title": "Autechre a Toplocentrala",
+  "type": "Club",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "venue": "Toplocentrala",
+  "date": "2026-10-06",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 226,
+  "title": "Autechre a Tvornica Kulture",
+  "type": "Club",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "venue": "Tvornica Kulture",
+  "date": "2026-09-30",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 221,
+  "title": "Lunchmeat Festival",
+  "type": "Festival",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Veletrzni palac (Trade Fair Palace)",
+  "date": "2026-09-24",
+  "endDate": "2026-09-27",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 234,
+  "title": "Insomnia Festival",
+  "type": "Festival",
+  "city": "Tromsø",
+  "country": "Norway",
+  "venue": "Verdensteatret / Kulturhuset",
+  "date": "2026-10-14",
+  "endDate": "2026-10-17",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ }
+]

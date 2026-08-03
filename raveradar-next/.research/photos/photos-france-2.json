@@ -1,0 +1,65 @@
+[
+ {
+  "id": 421,
+  "image": "https://www.laluciole.org/wp-content/uploads/2025/06/IMG_7771-Edit-scaled.jpg",
+  "sourcePage": "https://www.laluciole.org/agenda/",
+  "credit": "Lise Daligaut / La Luciole",
+  "kind": "event",
+  "width": 2560,
+  "note": "photo officielle de la soiree Onde de Choc a La Luciole - DJ et dancefloor"
+ },
+ {
+  "id": 420,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/03/hilight-tribe.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/gauvain-sers-2/",
+  "credit": "Hilight Tribe / La Coopérative de Mai",
+  "kind": "event",
+  "width": 1920,
+  "note": "visuel officiel de tournee Hilight Tribe publie par la salle"
+ },
+ {
+  "id": 408,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/03/hilight-tribe.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/gauvain-sers-2/",
+  "credit": "Hilight Tribe / La Coopérative de Mai",
+  "kind": "event",
+  "width": 1920,
+  "note": "meme visuel officiel de tournee Hilight Tribe"
+ },
+ {
+  "id": 425,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/03/hilight-tribe.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/gauvain-sers-2/",
+  "credit": "Hilight Tribe / La Coopérative de Mai",
+  "kind": "event",
+  "width": 1920,
+  "note": "meme visuel officiel de tournee Hilight Tribe"
+ },
+ {
+  "id": 427,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/pact/",
+  "credit": "PACT / La Coopérative de Mai",
+  "kind": "event",
+  "width": 2000,
+  "note": "visuel officiel PACT (Joris Delacroix, Joachim Pastor, Teho)"
+ },
+ {
+  "id": 409,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/pact/",
+  "credit": "PACT / La Coopérative de Mai",
+  "kind": "event",
+  "width": 2000,
+  "note": "meme visuel officiel de tournee PACT"
+ },
+ {
+  "id": 414,
+  "image": "https://www.lacoope.org/wp-content/uploads/2026/05/pactcestmonochrome.jpg",
+  "sourcePage": "https://www.lacoope.org/concerts/pact/",
+  "credit": "PACT / La Coopérative de Mai",
+  "kind": "event",
+  "width": 2000,
+  "note": "meme visuel officiel de tournee PACT"
+ }
+]

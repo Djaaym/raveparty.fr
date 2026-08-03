@@ -1,0 +1,368 @@
+[
+ {
+  "id": 232,
+  "title": "Teletech Liverpool",
+  "type": "Club",
+  "city": "Liverpool",
+  "country": "UK",
+  "venue": "Arts Club",
+  "date": "2026-10-09",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 252,
+  "title": "Field Day",
+  "type": "Festival",
+  "city": "London",
+  "country": "UK",
+  "venue": "Brockwell Park",
+  "date": "2027-05-29",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 216,
+  "title": "Todd Terje at Concorde 2",
+  "type": "Club",
+  "city": "Brighton",
+  "country": "UK",
+  "venue": "Concorde 2",
+  "date": "2026-09-12",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 112,
+  "title": "The Warehouse Project: KI/KI",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-09-18",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Trance",
+   "Acid Techno"
+  ]
+ },
+ {
+  "id": 115,
+  "title": "The Warehouse Project: Solomun",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 135,
+  "title": "The Warehouse Project: Overmono – Pure Devotion",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-10-30",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 137,
+  "title": "The Warehouse Project: Klangkuenstler",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 140,
+  "title": "The Warehouse Project New Year's Eve",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-12-31",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 233,
+  "title": "No Bounds Festival",
+  "type": "Festival",
+  "city": "Sheffield",
+  "country": "UK",
+  "venue": "Dix lieux à Sheffield et Rotherham",
+  "date": "2026-10-09",
+  "endDate": "2026-10-11",
+  "genres": [
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 129,
+  "title": "Terminal V London",
+  "type": "Warehouse",
+  "city": "London",
+  "country": "UK",
+  "venue": "Drumsheds",
+  "date": "2026-10-23",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 238,
+  "title": "Elrow Horroween",
+  "type": "Warehouse",
+  "city": "London",
+  "country": "UK",
+  "venue": "Drumsheds",
+  "date": "2026-10-31",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 244,
+  "title": "Armin van Buuren at Drumsheds",
+  "type": "Warehouse",
+  "city": "London",
+  "country": "UK",
+  "venue": "Drumsheds",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Trance",
+   "EDM"
+  ]
+ },
+ {
+  "id": 211,
+  "title": "FOLD presents Bassiani (Extended)",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "FOLD",
+  "date": "2026-09-05",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 237,
+  "title": "Teletech Glasgow",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "Room 2",
+  "date": "2026-10-24",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 214,
+  "title": "FLY Open Air Edinburgh",
+  "type": "Festival",
+  "city": "Edinburgh",
+  "country": "UK",
+  "venue": "Ross Bandstand, Princes Street Gardens",
+  "date": "2026-09-12",
+  "endDate": "2026-09-13",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 224,
+  "title": "FLY House Heads Glasgow",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Galvanizers",
+  "date": "2026-09-25",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 242,
+  "title": "SYNRG: Francesco Del Garda & DJ Masda",
+  "type": "Warehouse",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Warehouse",
+  "date": "2026-11-13",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 222,
+  "title": "AVA London",
+  "type": "Festival",
+  "city": "London",
+  "country": "UK",
+  "venue": "The British Library",
+  "date": "2026-09-24",
+  "endDate": "2026-09-26",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 215,
+  "title": "Waterworks Festival",
+  "type": "Festival",
+  "city": "London",
+  "country": "UK",
+  "venue": "The Cause",
+  "date": "2026-09-12",
+  "endDate": "2026-09-13",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 247,
+  "title": "Teletech Bristol",
+  "type": "Warehouse",
+  "city": "Bristol",
+  "country": "UK",
+  "venue": "The Prospect Building",
+  "date": "2026-11-27",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 245,
+  "title": "Duke Dumont at The Telegraph Building",
+  "type": "Club",
+  "city": "Belfast",
+  "country": "UK",
+  "venue": "The Telegraph Building",
+  "date": "2026-11-20",
+  "endDate": null,
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 249,
+  "title": "Teletech Belfast",
+  "type": "Warehouse",
+  "city": "Belfast",
+  "country": "UK",
+  "venue": "The Telegraph Building",
+  "date": "2026-12-26",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 250,
+  "title": "Teletech Cardiff",
+  "type": "Club",
+  "city": "Cardiff",
+  "country": "UK",
+  "venue": "The Vaults",
+  "date": "2027-03-12",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 228,
+  "title": "Teletech Leeds: Warehouse",
+  "type": "Warehouse",
+  "city": "Leeds",
+  "country": "UK",
+  "venue": "The Warehouse",
+  "date": "2026-10-03",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "id": 248,
+  "title": "Shine: Dusky",
+  "type": "Club",
+  "city": "Belfast",
+  "country": "UK",
+  "venue": "Ulster Sports Club",
+  "date": "2026-12-04",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 243,
+  "title": "Teletech Newcastle",
+  "type": "Club",
+  "city": "Newcastle",
+  "country": "UK",
+  "venue": "World Headquarters",
+  "date": "2026-11-14",
+  "endDate": null,
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ }
+]

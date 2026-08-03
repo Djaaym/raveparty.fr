@@ -1,0 +1,65 @@
+[
+ {
+  "id": 144,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Alok_Tomorrowland_Winter_2025.jpg/1920px-Alok_Tomorrowland_Winter_2025.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Alok_Tomorrowland_Winter_2025.jpg",
+  "credit": "Lucas Gavi / Wikimedia Commons (CC BY 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "Alok en set a Tomorrowland Winter 2025, Alpe d'Huez"
+ },
+ {
+  "id": 165,
+  "image": "https://lesnuitssecretes.com/wp-content/uploads/2025/12/lns26-cover.png",
+  "sourcePage": "https://www.lesnuitssecretes.com/",
+  "credit": "Les Nuits Secretes",
+  "kind": "festival",
+  "width": 1400,
+  "note": "visuel officiel du festival publie par l'organisateur"
+ },
+ {
+  "id": 113,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2002_September_14%2C_Paris_techno_parade_23.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:2002_September_14,_Paris_techno_parade_23.jpg",
+  "credit": "Syced / Wikimedia Commons (CC0)",
+  "kind": "event",
+  "width": 1280,
+  "note": "char et foule de la Techno Parade dans les rues de Paris"
+ },
+ {
+  "id": 116,
+  "image": "https://www.maintenant-festival.fr/wp-content/uploads/2026/06/m26_banner-article.jpg",
+  "sourcePage": "https://www.maintenant-festival.fr/",
+  "credit": "Festival Maintenant / Electroni[k]",
+  "kind": "festival",
+  "width": 1600,
+  "note": "visuel officiel de l'edition 2026 du festival Maintenant"
+ },
+ {
+  "id": 150,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg/1920px-Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_%282%29.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_(2).jpg",
+  "credit": "Sebleouf / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "foule et lasers verts aux Nuits Sonores 2026, Lyon"
+ },
+ {
+  "id": 138,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Public_des_Trans_Musicales_2024%2C_1.jpg/1920px-Public_des_Trans_Musicales_2024%2C_1.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Public_des_Trans_Musicales_2024,_1.jpg",
+  "credit": "Plyd / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "public des Trans Musicales 2024 au Parc Expo de Rennes"
+ },
+ {
+  "id": 134,
+  "image": "https://dreamnation.fr/wp-content/uploads/2026/04/DN26-GAL-SITE.jpg",
+  "sourcePage": "https://www.dreamnation.fr/",
+  "credit": "Dream Nation Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "affiche officielle Dream Nation 2026, Paris Nord Villepinte"
+ }
+]

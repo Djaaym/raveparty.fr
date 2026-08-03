@@ -1,0 +1,487 @@
+[
+ {
+  "id": 335,
+  "title": "Bloom Festival",
+  "type": "Festival",
+  "city": "Porto",
+  "country": "Portugal",
+  "venue": "Aeródromo da Maia (Vilar de Luz)",
+  "date": "2026-09-18",
+  "endDate": "2026-09-19",
+  "genres": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 327,
+  "title": "SUNANDBASS",
+  "type": "Festival",
+  "city": "San Teodoro",
+  "country": "Italy",
+  "venue": "Ambra Night, plage de La Cinta et clubs de San Teodoro",
+  "date": "2026-09-05",
+  "endDate": "2026-09-12",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 120,
+  "title": "Amnesia Pyramid Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Amnesia",
+  "date": "2026-10-04",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 74,
+  "title": "Pyramid · Amnesia Ibiza",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Amnesia Ibiza",
+  "date": "2026-06-14",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 75,
+  "title": "Resistance · Amnesia Ibiza",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Amnesia Ibiza",
+  "date": "2026-07-22",
+  "endDate": null,
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 155,
+  "title": "Nameless Festival",
+  "type": "Festival",
+  "city": "Lecco",
+  "country": "Italy",
+  "venue": "Area Bione, Lecco",
+  "date": "2027-06-04",
+  "endDate": "2027-06-06",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 330,
+  "title": "Dissonanze",
+  "type": "Festival",
+  "city": "Rome",
+  "country": "Italy",
+  "venue": "Auditorium Parco della Musica Ennio Morricone",
+  "date": "2026-09-12",
+  "endDate": "2026-09-13",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 396,
+  "title": "Boom Festival",
+  "type": "Festival",
+  "city": "Idanha-a-Nova",
+  "country": "Portugal",
+  "venue": "Boomland, Herdade da Granja (lac d'Idanha / barrage Marechal Carmona)",
+  "date": "2027-07-18",
+  "endDate": "2027-07-25",
+  "genres": [
+   "Psytrance",
+   "Trance",
+   "Techno"
+  ]
+ },
+ {
+  "id": 342,
+  "title": "Cavo Paradiso Season Closing",
+  "type": "Club",
+  "city": "Mykonos",
+  "country": "Greece",
+  "venue": "Cavo Paradiso, Paradise Beach",
+  "date": "2026-09-26",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 319,
+  "title": "ZAMNA × PRIMER Athens",
+  "type": "Festival",
+  "city": "Athens",
+  "country": "Greece",
+  "venue": "Centre olympique d'Athènes (OAKA), Marousi",
+  "date": "2026-09-04",
+  "endDate": "2026-09-05",
+  "genres": [
+   "Techno",
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 320,
+  "title": "Eternal Sun Festival",
+  "type": "Festival",
+  "city": "Sougia",
+  "country": "Greece",
+  "venue": "Club Fortuna, Papaderou, Sougia (Crète)",
+  "date": "2026-09-04",
+  "endDate": "2026-09-06",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 77,
+  "title": "Circoloco · DC-10 Ibiza",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "DC-10",
+  "date": "2026-04-27",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 344,
+  "title": "Robot Festival",
+  "type": "Festival",
+  "city": "Bologna",
+  "country": "Italy",
+  "venue": "DumBO et Estragon Club (Via Stalingrado 83)",
+  "date": "2026-10-08",
+  "endDate": "2026-10-10",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 166,
+  "title": "Monegros Desert Festival",
+  "type": "Festival",
+  "city": "Fraga",
+  "country": "Spain",
+  "venue": "Désert des Monegros",
+  "date": "2027-07-31",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 339,
+  "title": "BEONIX Music Festival",
+  "type": "Festival",
+  "city": "Limassol",
+  "country": "Cyprus",
+  "venue": "ETKO, 31 Tsiflikoudia (zone portuaire industrielle)",
+  "date": "2026-09-25",
+  "endDate": "2026-09-27",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 348,
+  "title": "Duro Festival XXL",
+  "type": "Festival",
+  "city": "Montmeló",
+  "country": "Spain",
+  "venue": "Espai Can Guitet, Camí Mas Moreneta",
+  "date": "2026-10-10",
+  "endDate": "2026-10-11",
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Hardcore",
+   "Warehouse"
+  ]
+ },
+ {
+  "id": 336,
+  "title": "Anyma · ÆDEN Global Tour",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Fiera Milano Live, Rho",
+  "date": "2026-09-19",
+  "endDate": null,
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 136,
+  "title": "MIRA Digital Arts Festival",
+  "type": "Festival",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Fira Montjuïc",
+  "date": "2026-11-06",
+  "endDate": "2026-11-07",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 156,
+  "title": "Sónar",
+  "type": "Festival",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Fira Montjuïc / Fira Gran Via",
+  "date": "2027-06-17",
+  "endDate": "2027-06-19",
+  "genres": [
+   "Techno",
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 321,
+  "title": "Komorebi Music Festival",
+  "type": "Festival",
+  "city": "Vinadio",
+  "country": "Italy",
+  "venue": "Forte Albertino di Vinadio (Alpes du Cuneo)",
+  "date": "2026-09-04",
+  "endDate": "2026-09-06",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 334,
+  "title": "Time Warp Spain",
+  "type": "Festival",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "IFEMA Madrid, Avenida del Partenón 5",
+  "date": "2026-09-18",
+  "endDate": "2026-09-19",
+  "genres": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 107,
+  "title": "Sunwaves SW38",
+  "type": "Festival",
+  "city": "Roquetas de Mar",
+  "country": "Spain",
+  "venue": "Las Salinas",
+  "date": "2026-09-03",
+  "endDate": "2026-09-07",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 354,
+  "title": "C2C Festival",
+  "type": "Festival",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Lingotto Fiere, OGR Torino et Teatro Carignano",
+  "date": "2026-10-29",
+  "endDate": "2026-11-01",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 371,
+  "title": "Dalma Festival",
+  "type": "Festival",
+  "city": "Attard",
+  "country": "Malta",
+  "venue": "MFCC Arena, Ta' Qali (Attard)",
+  "date": "2026-12-04",
+  "endDate": "2026-12-05",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Acid Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 121,
+  "title": "Solomun Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Pacha Ibiza",
+  "date": "2026-10-04",
+  "endDate": null,
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 160,
+  "title": "Kappa FuturFestival",
+  "type": "Festival",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Parco Dora",
+  "date": "2027-07-02",
+  "endDate": "2027-07-04",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 318,
+  "title": "Decibel Open Air",
+  "type": "Festival",
+  "city": "Florence",
+  "country": "Italy",
+  "venue": "Parco delle Cascine",
+  "date": "2026-09-04",
+  "endDate": "2026-09-06",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 383,
+  "title": "Rong Open Air Festival Malta",
+  "type": "Festival",
+  "city": "St Paul's Bay",
+  "country": "Malta",
+  "venue": "Plusieurs lieux de St Paul's Bay (open air, plage, boat parties)",
+  "date": "2027-05-06",
+  "endDate": "2027-05-09",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 331,
+  "title": "reworks",
+  "type": "Festival",
+  "city": "Thessaloniki",
+  "country": "Greece",
+  "venue": "Plusieurs lieux de Thessalonique (dont The Met Hotel)",
+  "date": "2026-09-16",
+  "endDate": "2026-09-20",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 384,
+  "title": "Sunny Side Festival",
+  "type": "Festival",
+  "city": "Attard",
+  "country": "Malta",
+  "venue": "Ta' Qali Craft Village",
+  "date": "2027-05-13",
+  "endDate": "2027-05-17",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 399,
+  "title": "WOS Festival",
+  "type": "Festival",
+  "city": "Santiago de Compostela",
+  "country": "Spain",
+  "venue": "Teatro Principal et divers lieux patrimoniaux de Saint-Jacques-de-Compostelle",
+  "date": "2026-09-11",
+  "endDate": "2026-09-13",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 343,
+  "title": "Omana Festival",
+  "type": "Festival",
+  "city": "Kalamitsi",
+  "country": "Greece",
+  "venue": "Thalatta Camp, baie de Kalamitsi (Chalcidique)",
+  "date": "2026-09-30",
+  "endDate": "2026-10-06",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 118,
+  "title": "David Guetta presents Galactic Circus – Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "[UNVRS]",
+  "date": "2026-10-02",
+  "endDate": null,
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 397,
+  "title": "ortigia music",
+  "type": "Festival",
+  "city": "Syracuse",
+  "country": "Italy",
+  "venue": "Île d'Ortygie, Syracuse (Sicile)",
+  "date": "2027-07-30",
+  "endDate": "2027-08-01",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ }
+]
