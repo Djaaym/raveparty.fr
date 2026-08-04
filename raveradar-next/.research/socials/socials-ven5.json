@@ -1,0 +1,286 @@
+[
+  {
+    "kind": "venue",
+    "key": "Stereolux",
+    "instagram": "stereolux_scopitone",
+    "site": "https://stereolux.org",
+    "facebook": "https://www.facebook.com/stereolux.nantes",
+    "tiktok": "stereolux_scopitone",
+    "youtube": "https://www.youtube.com/user/stereoluxnantes",
+    "verified": "https://stereolux.org — le pied de page du site officiel de Stereolux (Nantes, Île de Nantes) renvoie vers instagram.com/stereolux_scopitone, facebook.com/stereolux.nantes, tiktok.com/@stereolux_scopitone et youtube.com/user/stereoluxnantes"
+  },
+  {
+    "kind": "venue",
+    "key": "La Gaîté Lyrique",
+    "instagram": "gaitelyrique",
+    "site": "https://gaite-lyrique.net",
+    "facebook": "https://www.facebook.com/gaitelyrique",
+    "tiktok": "gaitelyrique",
+    "verified": "https://gaite-lyrique.net — l'en-tête et le pied de page du site officiel renvoient vers instagram.com/gaitelyrique, facebook.com/gaitelyrique et tiktok.com/@gaitelyrique"
+  },
+  {
+    "kind": "venue",
+    "key": "Bataclan",
+    "instagram": "bataclanofficiel",
+    "site": "https://www.bataclan.fr",
+    "facebook": "https://www.facebook.com/bataclanFR",
+    "tiktok": "bataclan_officiel",
+    "x": "bataclan_",
+    "verified": "https://www.bataclan.fr — l'en-tête et le pied de page du site officiel du Bataclan (boulevard Voltaire, Paris 11e) renvoient vers instagram.com/bataclanofficiel, facebook.com/bataclanFR, tiktok.com/@bataclan_officiel et twitter.com/bataclan_"
+  },
+  {
+    "kind": "venue",
+    "key": "La Cigale",
+    "instagram": "lacigaleofficiel",
+    "site": "https://www.lacigale.fr",
+    "facebook": "https://www.facebook.com/lacigaleofficiel",
+    "tiktok": "lacigaleofficiel",
+    "verified": "https://www.lacigale.fr — l'en-tête et le pied de page du site officiel de La Cigale (boulevard Rochechouart, Paris 18e) renvoient vers instagram.com/lacigaleofficiel, facebook.com/lacigaleofficiel et tiktok.com/@lacigaleofficiel"
+  },
+  {
+    "kind": "venue",
+    "key": "La Maroquinerie",
+    "instagram": "lamaroquinerie",
+    "site": "https://www.lamaroquinerie.fr",
+    "facebook": "https://www.facebook.com/La-Maroquinerie-174356179294437/",
+    "x": "lamaroquinerie",
+    "verified": "https://www.lamaroquinerie.fr — l'en-tête et le pied de page du site officiel de La Maroquinerie (rue Boyer, Paris 20e) renvoient vers instagram.com/lamaroquinerie, twitter.com/lamaroquinerie et sa page Facebook"
+  },
+  {
+    "kind": "venue",
+    "key": "Cabaret Sauvage",
+    "instagram": "cabaret_sauvage_paris",
+    "site": "https://www.cabaretsauvage.com",
+    "facebook": "https://www.facebook.com/cabaretsauvageparis19",
+    "x": "CabaretSauvage",
+    "verified": "https://www.cabaretsauvage.com — le pied de page et le menu du site officiel du Cabaret Sauvage (parc de la Villette, Paris 19e) renvoient vers instagram.com/cabaret_sauvage_paris, facebook.com/cabaretsauvageparis19 et twitter.com/CabaretSauvage"
+  },
+  {
+    "kind": "venue",
+    "key": "Le Bikini",
+    "instagram": "le_bikini_toulouse",
+    "site": "https://lebikini.com",
+    "facebook": "https://www.facebook.com/le.bikini.toulouse",
+    "verified": "https://lebikini.com — le pied de page du site officiel du Bikini (Ramonville-Saint-Agne, agglomération toulousaine) renvoie vers instagram.com/le_bikini_toulouse et facebook.com/le.bikini.toulouse"
+  },
+  {
+    "kind": "venue",
+    "key": "La Machine du Moulin Rouge",
+    "instagram": "lamachineparis",
+    "site": "https://www.lamachinedumoulinrouge.com",
+    "facebook": "https://www.facebook.com/LaMachineParis/",
+    "verified": "https://www.lamachinedumoulinrouge.com — le pied de page du site officiel renvoie vers instagram.com/lamachineparis et facebook.com/LaMachineParis"
+  },
+  {
+    "kind": "venue",
+    "key": "Badaboum",
+    "instagram": "badaboum.paris",
+    "site": "https://badaboum.paris",
+    "facebook": "https://www.facebook.com/lebadaboum/",
+    "tiktok": "badaboum.paris",
+    "soundcloud": "badaboum_paris",
+    "verified": "https://badaboum.paris — le site officiel du Badaboum (2 rue des Taillandiers, Paris 11e) renvoie vers instagram.com/badaboum.paris, facebook.com/lebadaboum, tiktok.com/@badaboum.paris et soundcloud.com/badaboum_paris"
+  },
+  {
+    "kind": "venue",
+    "key": "L'Élysée Montmartre",
+    "instagram": "elyseemontmartre",
+    "site": "https://www.elyseemontmartre.com",
+    "facebook": "https://www.facebook.com/elyseemontmartreofficiel/",
+    "x": "elyseemofficiel",
+    "verified": "https://www.elyseemontmartre.com — le pied de page du site officiel renvoie vers instagram.com/elyseemontmartre, facebook.com/elyseemontmartreofficiel et twitter.com/elyseemofficiel"
+  },
+  {
+    "kind": "venue",
+    "key": "La Friche la Belle de Mai",
+    "instagram": "frichelabelledemai",
+    "site": "https://www.lafriche.org",
+    "facebook": "https://www.facebook.com/friche.labelledemai/",
+    "youtube": "https://www.youtube.com/channel/UC0bV_X2Zqncknv6SgVvLU0w",
+    "verified": "https://www.lafriche.org — le pied de page du site officiel de la Friche la Belle de Mai (Marseille 3e) renvoie vers instagram.com/frichelabelledemai, facebook.com/friche.labelledemai et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "La Rodia",
+    "instagram": "larodia",
+    "site": "https://www.larodia.com",
+    "facebook": "https://www.facebook.com/larodiasmac",
+    "youtube": "https://www.youtube.com/channel/UCyiZdyk2iBAjMB1IP1QsYuA",
+    "verified": "https://www.larodia.com — le site officiel (adresse en pied de page : 4 avenue de Chardonnet, 25000 Besançon) renvoie vers instagram.com/larodia, facebook.com/larodiasmac et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "L'Echonova",
+    "instagram": "lechonova",
+    "site": "https://www.lechonova.com",
+    "facebook": "https://www.facebook.com/lechonova/",
+    "youtube": "https://www.youtube.com/channel/UCpt5OhV-l9HFxS5ycq5uYJg",
+    "verified": "https://www.lechonova.com — le pied de page du site officiel de l'Echonova (SMAC du Golfe du Morbihan, Saint-Avé) renvoie vers instagram.com/lechonova, facebook.com/lechonova et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Cargo de Nuit",
+    "instagram": "cargodenuit",
+    "site": "https://www.cargodenuit.com",
+    "facebook": "https://www.facebook.com/cargo.de.nuit.arles/",
+    "x": "Cargo_de_Nuit",
+    "verified": "https://www.cargodenuit.com — le site officiel du Cargo de Nuit (Arles, « haut lieu de la vie culturelle arlésienne ») renvoie vers instagram.com/cargodenuit, facebook.com/cargo.de.nuit.arles et twitter.com/Cargo_de_Nuit"
+  },
+  {
+    "kind": "venue",
+    "key": "Les Halles de la Cartoucherie",
+    "instagram": "leshallesdelacartoucherie",
+    "site": "https://halles-cartoucherie.fr",
+    "facebook": "https://www.facebook.com/hallescartoucherietoulouse",
+    "verified": "https://halles-cartoucherie.fr — le site officiel (adresse : 10 place de la Charte des libertés communales, 31300 Toulouse) renvoie vers instagram.com/leshallesdelacartoucherie et facebook.com/hallescartoucherietoulouse"
+  },
+  {
+    "kind": "venue",
+    "key": "La Nef",
+    "instagram": "la_nef_angouleme",
+    "site": "https://www.lanef-musiques.com",
+    "facebook": "https://www.facebook.com/lanefangouleme/",
+    "verified": "https://www.lanef-musiques.com — le site officiel de La Nef (SMAC d'Angoulême) renvoie vers instagram.com/la_nef_angouleme et facebook.com/lanefangouleme"
+  },
+  {
+    "kind": "venue",
+    "key": "Le Ferrailleur",
+    "instagram": "leferrailleur",
+    "site": "https://www.leferrailleur.fr",
+    "facebook": "https://www.facebook.com/le.ferrailleur.nantes",
+    "x": "LeFerrailleur",
+    "youtube": "https://www.youtube.com/channel/UCNJxmuWe0uBhIQ-eqyB6hRg",
+    "verified": "https://www.leferrailleur.fr — le pied de page du site officiel (Quai des Antilles, 44200 Nantes) renvoie vers instagram.com/leferrailleur, facebook.com/le.ferrailleur.nantes et twitter.com/LeFerrailleur"
+  },
+  {
+    "kind": "venue",
+    "key": "La Luciole",
+    "instagram": "laluciole_alencon",
+    "site": "https://www.laluciole.org",
+    "facebook": "https://www.facebook.com/LaLucioleAlencon",
+    "tiktok": "laluciole_alencon",
+    "verified": "https://www.laluciole.org — le site officiel (171 rue de Bretagne, 61000 Alençon, « scène de musiques actuelles à Alençon ») renvoie vers instagram.com/laluciole_alencon, facebook.com/LaLucioleAlencon et tiktok.com/@laluciole_alencon"
+  },
+  {
+    "kind": "venue",
+    "key": "L'Archipel",
+    "instagram": "archipel_perpignan",
+    "site": "https://www.theatredelarchipel.org",
+    "facebook": "https://www.facebook.com/theatredelarchipel/",
+    "verified": "https://www.theatredelarchipel.org — le site officiel du Théâtre de l'Archipel, scène nationale de Perpignan, renvoie vers instagram.com/archipel_perpignan et facebook.com/theatredelarchipel"
+  },
+  {
+    "kind": "venue",
+    "key": "Les Cuizines",
+    "instagram": "lescuizines",
+    "site": "https://www.lescuizines.fr",
+    "facebook": "https://www.facebook.com/LesCuizines",
+    "youtube": "https://www.youtube.com/@lescuizines1933",
+    "verified": "https://www.lescuizines.fr — le pied de page du site officiel (« Les Cuizines, scène de musiques actuelles de la Ville de Chelles », 38 rue de la Haute Borne, 77500 Chelles) renvoie vers instagram.com/lescuizines, facebook.com/LesCuizines et youtube.com/@lescuizines1933"
+  },
+  {
+    "kind": "venue",
+    "key": "Muziekgieterij",
+    "instagram": "muziekgieterij.nl",
+    "site": "https://www.muziekgieterij.nl",
+    "facebook": "https://www.facebook.com/muziekgieterij",
+    "tiktok": "muziekgieterij",
+    "youtube": "https://www.youtube.com/@muziekgieterij_nl",
+    "x": "muziekgieterij",
+    "verified": "https://www.muziekgieterij.nl/contact — la page contact du site officiel (Muziekgieterij, Maastricht) renvoie vers instagram.com/muziekgieterij.nl, facebook.com/muziekgieterij, tiktok.com/@muziekgieterij, youtube.com/@muziekgieterij_nl et twitter.com/muziekgieterij"
+  },
+  {
+    "kind": "venue",
+    "key": "Vooruit (VIERNULVIER), Sint-Pietersnieuwstraat 23",
+    "instagram": "viernulvier.gent",
+    "site": "https://viernulvier.gent",
+    "facebook": "https://www.facebook.com/VIERNULVIER.gent/",
+    "tiktok": "viernulvier.gent",
+    "youtube": "https://www.youtube.com/channel/UCdRYlqUQcIm6pbLgHHobQcQ",
+    "verified": "https://viernulvier.gent — le site officiel de VIERNULVIER (ex-Vooruit, Sint-Pietersnieuwstraat 23, 9000 Gent, adresse identique à celle de notre fiche) renvoie vers instagram.com/viernulvier.gent, facebook.com/VIERNULVIER.gent, tiktok.com/@viernulvier.gent et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Klokgebouw, Strijp-S",
+    "instagram": "klokgebouw",
+    "site": "https://klokgebouw.nl",
+    "facebook": "https://www.facebook.com/klokgebouw",
+    "x": "klokgebouw",
+    "verified": "https://klokgebouw.nl — le site officiel (Klokgebouw 50, 5617 AB Eindhoven, quartier Strijp-S) renvoie vers instagram.com/klokgebouw, facebook.com/klokgebouw et twitter.com/klokgebouw"
+  },
+  {
+    "kind": "venue",
+    "key": "Salzburgring",
+    "instagram": "salzburgring_official",
+    "site": "https://www.salzburgring.com",
+    "facebook": "https://www.facebook.com/salzburgring/",
+    "youtube": "https://www.youtube.com/@salzburgring_official",
+    "verified": "https://www.salzburgring.com — le site officiel du circuit renvoie vers instagram.com/salzburgring_official, facebook.com/salzburgring et youtube.com/@salzburgring_official"
+  },
+  {
+    "kind": "venue",
+    "key": "MFCC Arena, Ta' Qali (Attard)",
+    "instagram": "mfccmalta",
+    "site": "https://mfcc.com.mt",
+    "facebook": "https://www.facebook.com/MFCC.Malta",
+    "x": "mfccmalta",
+    "verified": "https://mfcc.com.mt — le site officiel du Malta Fairs & Conventions Centre (Millennium Stand, National Stadium, Ta' Qali) renvoie vers instagram.com/mfccmalta, facebook.com/MFCC.Malta et twitter.com/mfccmalta"
+  },
+  {
+    "kind": "venue",
+    "key": "Deutsche Bank Park",
+    "instagram": "deutschebankpark",
+    "site": "https://www.deutschebankpark.de",
+    "facebook": "https://www.facebook.com/deutschebankpark/",
+    "x": "DeuBaPark",
+    "youtube": "https://www.youtube.com/deutschebankpark",
+    "verified": "https://www.deutschebankpark.de — le site officiel du stade de Francfort renvoie vers instagram.com/deutschebankpark, facebook.com/deutschebankpark, x.com/DeuBaPark et youtube.com/deutschebankpark"
+  },
+  {
+    "kind": "venue",
+    "key": "Ainterexpo - EKINOX",
+    "instagram": "ainterexpo_ekinox",
+    "site": "https://www.ainterexpo.com",
+    "facebook": "https://www.facebook.com/AinterexpoBourgenBresse",
+    "youtube": "https://www.youtube.com/channel/UC9NazPMMGOKaE22jLlyX-5A",
+    "verified": "https://www.ainterexpo.com — le site officiel d'Ainterexpo – Ekinox (Bourg-en-Bresse) renvoie vers instagram.com/ainterexpo_ekinox, facebook.com/AinterexpoBourgenBresse et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Poolen",
+    "instagram": "poolencopenhagen",
+    "site": "https://poolen.dk",
+    "facebook": "https://www.facebook.com/poolencopenhagen",
+    "tiktok": "poolencopenhagen",
+    "ra": "https://ra.co/clubs/235165",
+    "verified": "https://poolen.dk/en/ — le site officiel de Poolen (« Copenhagen's new warehouse venue », Refshalevej 189, 1432 København K, Refshaleøen) renvoie vers instagram.com/poolencopenhagen, facebook.com/poolencopenhagen et tiktok.com/@poolencopenhagen ; page RA ra.co/clubs/235165 (Poolen · Copenhagen)"
+  },
+  {
+    "kind": "venue",
+    "key": "La Condition Publique",
+    "instagram": "laconditionpublique",
+    "site": "https://www.laconditionpublique.com",
+    "facebook": "https://www.facebook.com/LaConditionPublique/",
+    "x": "laCPublique",
+    "youtube": "https://www.youtube.com/user/ConditionDeRoubaix",
+    "verified": "https://www.laconditionpublique.com/le-lieu/ — le site officiel de La Condition Publique (Roubaix, EPCC) renvoie vers instagram.com/laconditionpublique, facebook.com/LaConditionPublique, twitter.com/laCPublique et youtube.com/user/ConditionDeRoubaix"
+  },
+  {
+    "kind": "venue",
+    "key": "Central Chapelle",
+    "instagram": "central.chapelle",
+    "site": "https://centralchapelle.com",
+    "facebook": "https://www.facebook.com/central.chapelle/",
+    "tiktok": "central.chapelle",
+    "youtube": "https://www.youtube.com/@central.chapelle",
+    "verified": "https://centralchapelle.com — site officiel identifié depuis la fiche Songkick du lieu (songkick.com/venues/4614464-central-chapelle, Paris) ; son pied de page indique « 4 Esplanade Alice Milliat 75018 Paris » et renvoie vers instagram.com/central.chapelle, facebook.com/central.chapelle, tiktok.com/@central.chapelle et youtube.com/@central.chapelle"
+  },
+  {
+    "kind": "venue",
+    "key": "Sew - la Manu",
+    "instagram": "sewmorlaix",
+    "site": "https://www.sew-morlaix.com",
+    "facebook": "https://www.facebook.com/sewmorlaix",
+    "verified": "https://www.sew-morlaix.com — site officiel du SEW (ancienne Manufacture des tabacs, « la Manu »), confirmé par la fiche Songkick songkick.com/venues/4359407-le-sew-manufacture-des-tabacs ; le site indique 39 quai du Léon, 29600 Morlaix et renvoie vers instagram.com/sewmorlaix et facebook.com/sewmorlaix"
+  }
+]

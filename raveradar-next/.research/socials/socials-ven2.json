@@ -1,0 +1,153 @@
+[
+  {
+    "kind": "venue",
+    "key": "Hï Ibiza",
+    "instagram": "hiibizaofficial",
+    "site": "https://hiibiza.com",
+    "facebook": "https://www.facebook.com/hiibizaofficial",
+    "tiktok": "hiibiza",
+    "youtube": "https://www.youtube.com/channel/UC072CZUvhdCg6Dsdvc18NkQ",
+    "soundcloud": "hiibizaofficial",
+    "x": "hiibizaofficial",
+    "verified": "https://hiibiza.com — le pied de page du site officiel du club renvoie vers instagram.com/hiibizaofficial, facebook.com/hiibizaofficial, tiktok.com/@hiibiza, twitter.com/hiibizaofficial, soundcloud.com/hiibizaofficial et la chaîne YouTube UC072CZUvhdCg6Dsdvc18NkQ"
+  },
+  {
+    "kind": "venue",
+    "key": "Amnesia",
+    "instagram": "amnesiaibiza",
+    "site": "https://www.amnesia.es",
+    "facebook": "https://www.facebook.com/amnesiaibiza",
+    "youtube": "https://www.youtube.com/user/amnesiaibizatv",
+    "soundcloud": "amnesia-ibiza",
+    "spotify": "https://open.spotify.com/user/amnesiaibizadjcenter",
+    "x": "amnesia_ibiza",
+    "verified": "https://www.amnesia.es — le pied de page du site officiel du club d'Ibiza renvoie vers instagram.com/amnesiaibiza, facebook.com/amnesiaibiza, youtube.com/user/amnesiaibizatv, soundcloud.com/amnesia-ibiza, open.spotify.com/user/amnesiaibizadjcenter et twitter.com/amnesia_ibiza"
+  },
+  {
+    "kind": "venue",
+    "key": "[UNVRS]",
+    "instagram": "unvrsibiza",
+    "site": "https://www.unvrs.com",
+    "facebook": "https://www.facebook.com/unvrsibiza",
+    "tiktok": "unvrsibiza",
+    "youtube": "https://www.youtube.com/@unvrsibiza",
+    "x": "unvrsibiza",
+    "verified": "https://www.unvrs.com — le pied de page du site officiel du club renvoie vers instagram.com/unvrsibiza, facebook.com/unvrsibiza, tiktok.com/@unvrsibiza, x.com/unvrsibiza et youtube.com/@unvrsibiza"
+  },
+  {
+    "kind": "venue",
+    "key": "AFAS Live",
+    "instagram": "afaslive",
+    "site": "https://www.afaslive.nl",
+    "facebook": "https://www.facebook.com/AFASLiveOfficial",
+    "tiktok": "afaslive",
+    "youtube": "https://www.youtube.com/channel/UCnbJaTxDUBsCKaVqrprXKuQ",
+    "spotify": "https://open.spotify.com/user/afaslive",
+    "x": "AFASLive",
+    "verified": "https://www.afaslive.nl — le pied de page du site officiel de la salle (Amsterdam Zuidoost) renvoie vers instagram.com/afaslive, facebook.com/AFASLiveOfficial, tiktok.com/@afaslive, twitter.com/AFASLive, open.spotify.com/user/afaslive et la chaîne YouTube UCnbJaTxDUBsCKaVqrprXKuQ"
+  },
+  {
+    "kind": "venue",
+    "key": "Le Cargö",
+    "instagram": "cargocaen",
+    "site": "https://lecargo.fr",
+    "facebook": "https://www.facebook.com/LeCargo/",
+    "youtube": "https://www.youtube.com/channel/UCjjJMrKX0un3tfP6Yh7IbcA",
+    "verified": "https://lecargo.fr — le site officiel de la SMAC de Caen renvoie, en en-tête et en pied de page, vers instagram.com/cargocaen, facebook.com/LeCargo et la chaîne YouTube UCjjJMrKX0un3tfP6Yh7IbcA"
+  },
+  {
+    "kind": "venue",
+    "key": "Pacha Ibiza",
+    "instagram": "pachaofficial",
+    "site": "https://pacha.com",
+    "tiktok": "pachaibizaofficial",
+    "youtube": "https://www.youtube.com/c/pacha",
+    "spotify": "https://open.spotify.com/user/pacha",
+    "x": "pacha",
+    "verified": "https://pacha.com — site officiel du club (« Pacha Ibiza 2026 – The World's Most Iconic Nightclub », © Pacha Nightclub) ; l'en-tête et le pied de page renvoient vers instagram.com/pachaofficial, tiktok.com/@pachaibizaofficial, youtube.com/c/pacha, open.spotify.com/user/pacha et x.com/pacha"
+  },
+  {
+    "kind": "venue",
+    "key": "Theater Amsterdam",
+    "instagram": "theater.amsterdam",
+    "site": "https://www.theateramsterdam.nl",
+    "facebook": "https://www.facebook.com/theateramsterdam/",
+    "verified": "https://www.theateramsterdam.nl — le pied de page du site officiel (Danzigerkade 5, 1013 AP Amsterdam) renvoie vers instagram.com/theater.amsterdam et facebook.com/theateramsterdam"
+  },
+  {
+    "kind": "venue",
+    "key": "Cluj Arena",
+    "site": "https://www.clujarena.ro",
+    "facebook": "https://www.facebook.com/clujarena/",
+    "verified": "https://www.clujarena.ro/contact — la page contact du site officiel du stade (Aleea Stadionului 2, Cluj-Napoca 400375) renvoie vers facebook.com/clujarena ; aucun autre réseau n'y est publié"
+  },
+  {
+    "kind": "venue",
+    "key": "Safaripark Beekse Bergen",
+    "instagram": "beeksebergen",
+    "site": "https://www.beeksebergen.nl",
+    "facebook": "https://www.facebook.com/beeksebergen.nl/",
+    "tiktok": "beekse_bergen",
+    "youtube": "https://www.youtube.com/@Beekse-Bergen",
+    "verified": "https://www.beeksebergen.nl — le bloc « Volg ons op » du pied de page du site officiel du parc de Hilvarenbeek renvoie vers instagram.com/beeksebergen, facebook.com/beeksebergen.nl, tiktok.com/@beekse_bergen et youtube.com/@Beekse-Bergen"
+  },
+  {
+    "kind": "venue",
+    "key": "Beekse Bergen",
+    "instagram": "beeksebergen",
+    "site": "https://www.beeksebergen.nl",
+    "facebook": "https://www.facebook.com/beeksebergen.nl/",
+    "tiktok": "beekse_bergen",
+    "youtube": "https://www.youtube.com/@Beekse-Bergen",
+    "verified": "https://www.beeksebergen.nl — le bloc « Volg ons op » du pied de page du site officiel du parc de Hilvarenbeek renvoie vers instagram.com/beeksebergen, facebook.com/beeksebergen.nl, tiktok.com/@beekse_bergen et youtube.com/@Beekse-Bergen"
+  },
+  {
+    "kind": "venue",
+    "key": "Amsterdamse Bos",
+    "instagram": "amsterdamsebos",
+    "site": "https://www.amsterdamsebos.nl",
+    "facebook": "https://www.facebook.com/amsterdamsebos",
+    "verified": "https://www.amsterdamsebos.nl — le bloc « Volg ons » du pied de page du site officiel du parc renvoie vers instagram.com/amsterdamsebos et facebook.com/amsterdamsebos"
+  },
+  {
+    "kind": "venue",
+    "key": "Gianpula Fields",
+    "instagram": "gianpulavillage_malta",
+    "site": "https://www.gianpulavillage.com",
+    "facebook": "https://www.facebook.com/gianpulavillagemalta",
+    "tiktok": "gianpulavillage_malta",
+    "x": "GianpulaVillage",
+    "verified": "https://www.gianpulavillage.com — site officiel du complexe maltais dont les Gianpula Fields sont la zone plein air (« Malta's Nightlife Destination, Gianpula Village ») ; en-tête et pied de page renvoient vers instagram.com/gianpulavillage_malta, facebook.com/gianpulavillagemalta, tiktok.com/@gianpulavillage_malta et x.com/GianpulaVillage"
+  },
+  {
+    "kind": "venue",
+    "key": "Fira Montjuïc",
+    "instagram": "firadebarcelona",
+    "site": "https://www.firabarcelona.com",
+    "facebook": "https://es-es.facebook.com/FiradeBarcelona/",
+    "youtube": "https://www.youtube.com/channel/UCdmkZctSVGWuuEf5V3Yuhjw",
+    "x": "Fira_Barcelona",
+    "verified": "https://www.firabarcelona.com/en/ — site officiel de l'exploitant du site (« Montjuïc, Av. Reina María Cristina, 08004 Barcelona ») ; le pied de page renvoie vers instagram.com/firadebarcelona, facebook.com/FiradeBarcelona, twitter.com/Fira_Barcelona et la chaîne YouTube UCdmkZctSVGWuuEf5V3Yuhjw. Fira de Barcelona n'a pas de compte distinct par enceinte : c'est le compte de la maison qui exploite Montjuïc"
+  },
+  {
+    "kind": "venue",
+    "key": "Fira Montjuïc / Fira Gran Via",
+    "instagram": "firadebarcelona",
+    "site": "https://www.firabarcelona.com",
+    "facebook": "https://es-es.facebook.com/FiradeBarcelona/",
+    "youtube": "https://www.youtube.com/channel/UCdmkZctSVGWuuEf5V3Yuhjw",
+    "x": "Fira_Barcelona",
+    "verified": "https://www.firabarcelona.com/en/ — site officiel de l'exploitant des deux enceintes citées (Montjuïc, Av. Reina María Cristina 08004 Barcelona et Gran Via, Av. Joan Carles I 64, L'Hospitalet de Llobregat) ; le pied de page renvoie vers instagram.com/firadebarcelona, facebook.com/FiradeBarcelona, twitter.com/Fira_Barcelona et la chaîne YouTube UCdmkZctSVGWuuEf5V3Yuhjw"
+  },
+  {
+    "kind": "venue",
+    "key": "Walibi Holland / Evenemententerrein Biddinghuizen",
+    "instagram": "walibihollandofficial",
+    "site": "https://www.walibi.nl",
+    "facebook": "https://www.facebook.com/walibiholland/",
+    "tiktok": "walibihollandofficial",
+    "youtube": "https://www.youtube.com/user/WalibiVideos",
+    "x": "WalibiHolland",
+    "verified": "https://www.walibi.nl — site officiel du parc (Spijkweg 30, 8256 RJ Biddinghuizen, l'adresse même du terrain d'événements) ; le pied de page renvoie vers instagram.com/walibihollandofficial, facebook.com/walibiholland, tiktok.com/@walibihollandofficial, twitter.com/WalibiHolland et youtube.com/user/WalibiVideos. Le terrain d'événements n'a pas de compte distinct : c'est celui de l'exploitant du site"
+  }
+]

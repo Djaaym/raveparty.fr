@@ -1,0 +1,391 @@
+[
+  {
+    "kind": "event",
+    "key": "SUNANDBASS",
+    "instagram": "sunandbassofficial",
+    "site": "https://www.sunandbass.net",
+    "facebook": "https://www.facebook.com/sunandbass",
+    "soundcloud": "sunandbass",
+    "x": "sunandbass",
+    "verified": "https://www.sunandbass.net — le site officiel du festival (San Teodoro, 5-12 sept. 2026) renvoie dans ses liens sociaux vers instagram.com/sunandbassofficial, facebook.com/sunandbass, twitter.com/sunandbass et soundcloud.com/sunandbass"
+  },
+  {
+    "kind": "event",
+    "key": "Into The Madness",
+    "instagram": "intothemadnessfestival",
+    "site": "https://www.intothemadness.de",
+    "facebook": "https://www.facebook.com/intothemadnessfestival",
+    "verified": "https://www.intothemadness.de — le site officiel (Seepark Zülpich, 5 sept. 2026) renvoie vers instagram.com/intothemadnessfestival et facebook.com/intothemadnessfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Robot Festival",
+    "instagram": "robotfestival",
+    "site": "https://www.robotfestival.it",
+    "facebook": "https://www.facebook.com/festivalrobot/",
+    "spotify": "https://open.spotify.com/user/robotfestival",
+    "verified": "https://www.robotfestival.it — le site officiel (Bologne, dates 25.09.26 et 08-10.10.26) renvoie vers instagram.com/robotfestival, facebook.com/festivalrobot et open.spotify.com/user/robotfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Supremacy – State of Distortion",
+    "instagram": "supremacyevent",
+    "site": "https://www.supremacy.nl",
+    "facebook": "https://www.facebook.com/supremacyevents/",
+    "youtube": "https://www.youtube.com/@Supremacyevent",
+    "verified": "https://www.supremacy.nl — le site officiel de Supremacy 2026 (Brabanthallen, 26 sept. 2026) renvoie vers instagram.com/supremacyevent, facebook.com/supremacyevents et youtube.com/@Supremacyevent"
+  },
+  {
+    "kind": "event",
+    "key": "Intents Festival",
+    "instagram": "intentsfestival",
+    "site": "https://www.intentsfestival.nl",
+    "facebook": "https://www.facebook.com/intentsfestival",
+    "youtube": "https://youtube.com/intentsfestival",
+    "verified": "https://www.intentsfestival.nl — le site officiel (dates 4-6 juin 2027 annoncées) renvoie vers instagram.com/intentsfestival, facebook.com/intentsfestival et youtube.com/intentsfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Masters of Hardcore – The Masterplan",
+    "instagram": "mastersofhardcore",
+    "site": "https://www.mastersofhardcore.com",
+    "facebook": "https://www.facebook.com/officialMOH/",
+    "youtube": "https://www.youtube.com/user/mastersofhardcore",
+    "soundcloud": "mastersofhardcore",
+    "x": "official_MOH",
+    "verified": "https://www.mastersofhardcore.com — le site officiel, qui annonce « Masters of Hardcore 2027 – The Masterplan » le 27 mars 2027 aux Brabanthallen, renvoie vers instagram.com/mastersofhardcore, facebook.com/officialMOH, twitter.com/official_MOH, youtube.com/user/mastersofhardcore et soundcloud.com/mastersofhardcore"
+  },
+  {
+    "kind": "event",
+    "key": "Reverze",
+    "instagram": "reverze.be",
+    "site": "https://www.reverze.be",
+    "facebook": "https://www.facebook.com/reverzeofficial",
+    "tiktok": "reverze.be",
+    "verified": "https://www.reverze.be — le site officiel de Reverze 2027 (Anvers, 26-27 février 2027) renvoie vers instagram.com/reverze.be, tiktok.com/@reverze.be et facebook.com/reverzeofficial"
+  },
+  {
+    "kind": "event",
+    "key": "Rewire",
+    "instagram": "rewirefestival",
+    "site": "https://www.rewirefestival.nl",
+    "facebook": "https://www.facebook.com/rewirefestival",
+    "youtube": "https://www.youtube.com/channel/UCJF8DEI0B2_Zqlb_wwp-gcg",
+    "soundcloud": "rewirefestival",
+    "bandcamp": "https://rewirefestival.bandcamp.com",
+    "x": "rewirefestival",
+    "verified": "https://www.rewirefestival.nl — le site officiel (La Haye, 8-11 avril 2027) renvoie vers instagram.com/rewirefestival, facebook.com/rewirefestival, twitter.com/rewirefestival, soundcloud.com/rewirefestival et rewirefestival.bandcamp.com"
+  },
+  {
+    "kind": "event",
+    "key": "C2C Festival",
+    "instagram": "clubtoclub",
+    "site": "https://clubtoclub.it",
+    "facebook": "https://www.facebook.com/clubtoclub",
+    "tiktok": "clubtoclub",
+    "verified": "https://clubtoclub.it — le site officiel du C2C Festival (c2cfestival.it redirige en 301 vers clubtoclub.it ; page d'accueil annonçant Turin 29 oct.-1er nov. 2026) renvoie vers instagram.com/clubtoclub, facebook.com/clubtoclub et tiktok.com/@clubtoclub"
+  },
+  {
+    "kind": "event",
+    "key": "World Club Dome",
+    "instagram": "worldclubdome",
+    "site": "https://www.worldclubdome.com",
+    "facebook": "https://www.facebook.com/worldclubdome",
+    "tiktok": "worldclubdome",
+    "youtube": "https://www.youtube.com/@wcdmusic",
+    "verified": "https://www.worldclubdome.com — le site officiel (Francfort, 4-6 juin 2027) renvoie vers instagram.com/worldclubdome, facebook.com/worldclubdome, tiktok.com/@worldclubdome et youtube.com/@wcdmusic"
+  },
+  {
+    "kind": "event",
+    "key": "Ikarus Festival",
+    "instagram": "ikarus.festival",
+    "site": "https://www.ikarus-festival.de",
+    "facebook": "https://www.facebook.com/ikarusfestival/",
+    "tiktok": "ikarusfestival",
+    "youtube": "https://www.youtube.com/channel/UCeK89m0PIAJKHQ3ICEGvJdA",
+    "verified": "https://www.ikarus-festival.de — le site officiel (Allgäu Airport, Memmingen, 25-27 juin 2027) renvoie vers instagram.com/ikarus.festival, facebook.com/ikarusfestival, tiktok.com/@ikarusfestival et sa chaîne YouTube"
+  },
+  {
+    "kind": "event",
+    "key": "Palmesus",
+    "instagram": "palmesus",
+    "site": "https://www.palmesus.com",
+    "facebook": "https://www.facebook.com/Palmesus/",
+    "tiktok": "palmesus.com",
+    "youtube": "https://www.youtube.com/user/palmesusbeachparty",
+    "verified": "https://www.palmesus.com — le site officiel (Bystranda, Kristiansand) renvoie vers instagram.com/palmesus, facebook.com/Palmesus, tiktok.com/@palmesus.com et youtube.com/user/palmesusbeachparty"
+  },
+  {
+    "kind": "event",
+    "key": "Ruhr-in-Love",
+    "instagram": "ruhrinlove",
+    "site": "https://www.ruhr-in-love.de",
+    "facebook": "https://facebook.com/ruhrinlove",
+    "tiktok": "ruhrinlove",
+    "youtube": "https://www.youtube.com/ruhrinloveofficial",
+    "soundcloud": "ruhr-in-love",
+    "verified": "https://www.ruhr-in-love.de — le site officiel (OLGA-Park Oberhausen, 3 juillet 2027, 12-22h) renvoie vers instagram.com/ruhrinlove, facebook.com/ruhrinlove, tiktok.com/@ruhrinlove, youtube.com/ruhrinloveofficial et soundcloud.com/ruhr-in-love"
+  },
+  {
+    "kind": "event",
+    "key": "Airbeat One",
+    "instagram": "airbeatone",
+    "site": "https://www.airbeat-one.de",
+    "facebook": "https://www.facebook.com/airbeatone/",
+    "tiktok": "airbeatonefestival",
+    "youtube": "https://www.youtube.com/user/airbeatone00",
+    "verified": "https://www.airbeat-one.de — le site officiel (Flugplatz Neustadt-Glewe, 7-11 juillet 2027) renvoie vers instagram.com/airbeatone, facebook.com/airbeatone, tiktok.com/@airbeatonefestival et youtube.com/user/airbeatone00"
+  },
+  {
+    "kind": "event",
+    "key": "Electric Love Festival",
+    "instagram": "electricloveaut",
+    "site": "https://www.electriclove.at",
+    "facebook": "https://www.facebook.com/electriclovefestival",
+    "tiktok": "electriclovefestival",
+    "youtube": "https://www.youtube.com/c/electriclovetv",
+    "x": "ElectricLoveAut",
+    "verified": "https://www.electriclove.at — le site officiel (Salzburgring, 8-10 juillet 2027) renvoie vers instagram.com/electricloveaut, facebook.com/electriclovefestival, tiktok.com/@electriclovefestival, twitter.com/ElectricLoveAut et youtube.com/c/electriclovetv"
+  },
+  {
+    "kind": "event",
+    "key": "Ostend Beach Festival",
+    "instagram": "ostendbeach",
+    "site": "https://www.ostendbeach.be",
+    "facebook": "https://www.facebook.com/ostendbeach",
+    "tiktok": "ostendbeach",
+    "youtube": "https://www.youtube.com/OstendBeach",
+    "verified": "https://www.ostendbeach.be — le site officiel (plage d'Ostende, 9-11 juillet 2027) renvoie vers instagram.com/ostendbeach, facebook.com/ostendbeach, tiktok.com/@ostendbeach et youtube.com/OstendBeach"
+  },
+  {
+    "kind": "event",
+    "key": "Toxicator",
+    "instagram": "toxicator_mannheim",
+    "site": "https://www.toxicator.de",
+    "facebook": "https://facebook.com/toxicator",
+    "tiktok": "toxicator_mannheim",
+    "youtube": "https://www.youtube.com/TOXICATOROFFICIAL",
+    "soundcloud": "toxicator-official",
+    "verified": "https://www.toxicator.de — le site officiel (Maimarkthalle Mannheim, 5 déc. 2026, 20h-6h) renvoie vers instagram.com/toxicator_mannheim, facebook.com/toxicator, tiktok.com/@toxicator_mannheim, youtube.com/TOXICATOROFFICIAL et soundcloud.com/toxicator-official"
+  },
+  {
+    "kind": "event",
+    "key": "Rave on Snow",
+    "instagram": "raveonsnow_festival",
+    "site": "https://raveonsnow.com",
+    "facebook": "https://www.facebook.com/RaveOnSnowSaalbach",
+    "youtube": "https://www.youtube.com/raveonsnow",
+    "verified": "https://raveonsnow.com/en/ — le site officiel (Saalbach, 10-13 déc. 2026, dates identiques aux nôtres) renvoie vers instagram.com/raveonsnow_festival, facebook.com/RaveOnSnowSaalbach et youtube.com/raveonsnow"
+  },
+  {
+    "kind": "event",
+    "key": "Extrema Outdoor Belgium",
+    "instagram": "extrema.be",
+    "site": "https://www.extrema.be",
+    "facebook": "https://www.facebook.com/ExtremaOutdoor.Belgium/",
+    "tiktok": "extrema.be",
+    "youtube": "https://www.youtube.com/channel/UCb98bAT19io2A8H4n_omFHw",
+    "soundcloud": "extrema-outdoor-belgium",
+    "verified": "https://www.extrema.be/en/ — le site officiel (De Plas, Houthalen-Helchteren, 14-16 mai 2027) renvoie vers instagram.com/extrema.be, facebook.com/ExtremaOutdoor.Belgium, tiktok.com/@extrema.be, soundcloud.com/extrema-outdoor-belgium et sa chaîne YouTube"
+  },
+  {
+    "kind": "event",
+    "key": "Smeerboel Festival",
+    "instagram": "smeerboelfestival",
+    "site": "https://www.smeerboel.nl",
+    "facebook": "https://www.facebook.com/Smeerboel/",
+    "verified": "https://www.smeerboel.nl/info/ — la page Info du site officiel (12 sept. 2026, 12h-23h) renvoie en pied de page vers instagram.com/smeerboelfestival et facebook.com/Smeerboel"
+  },
+  {
+    "kind": "event",
+    "key": "Pussy Lounge",
+    "instagram": "officialpssylounge",
+    "site": "https://www.b2s.nl/pussylounge",
+    "facebook": "https://www.facebook.com/pussylounge/",
+    "verified": "https://www.id-t.com/brands/b2s/pussy-lounge — la page de marque Pussy Lounge sur le site corporate d'ID&T (maison mère de l'organisateur B2S) renvoie vers instagram.com/officialpssylounge et facebook.com/pussylounge ; la page Facebook s'intitule « Pussy lounge by B2S »"
+  },
+  {
+    "kind": "event",
+    "key": "FCKNYE Festival",
+    "instagram": "fcknyefestival",
+    "site": "https://www.fcknyefestival.com",
+    "facebook": "https://www.facebook.com/FcknyeFestival/",
+    "youtube": "https://www.youtube.com/@FCKNYEFestival",
+    "x": "fcknyefestival",
+    "verified": "https://ing.arena.brussels/en/show/fcknye-festival/ — la page officielle de la salle (ING Arena, Brussels Expo) pour les dates 30-31 déc. 2026 + 1er janv. 2027 renvoie vers fcknyefestival.com, instagram.com/fcknyefestival, facebook.com/FcknyeFestival, twitter.com/fcknyefestival et youtube.com/@FCKNYEFestival"
+  },
+  {
+    "kind": "event",
+    "key": "reworks",
+    "instagram": "reworksfestival",
+    "site": "https://reworks.gr",
+    "facebook": "https://www.facebook.com/reworksfestivalofficial/",
+    "x": "reworksfestival",
+    "ra": "https://ra.co/promoters/39101",
+    "verified": "reworks.gr affiche « 16 - 20 September 2026 — Thessaloniki », exactement nos dates ; la page Facebook « Reworks Festival · Θεσσαλονίκη » (facebook.com/reworksfestivalofficial) déclare reworks.gr comme site officiel, et le compte instagram.com/reworksfestival (41k abonnés) est celui repris par la fiche promoteur RA ra.co/promoters/39101"
+  },
+  {
+    "kind": "event",
+    "key": "Dystopia Festival",
+    "instagram": "dystopiafestival",
+    "site": "https://dystopia-festival.com/saint-etienne/",
+    "facebook": "https://www.facebook.com/festivaldystopia",
+    "tiktok": "dystopia.festival",
+    "youtube": "https://www.youtube.com/@dystopia.festival",
+    "verified": "https://dystopia-festival.com/en/saint-etienne/ — le site officiel de l'édition stéphanoise (Parc Expo, 4-5 déc. 2026) renvoie vers instagram.com/dystopiafestival, facebook.com/festivaldystopia, tiktok.com/@dystopia.festival et youtube.com/@dystopia.festival"
+  },
+  {
+    "kind": "event",
+    "key": "Détonation Festival",
+    "instagram": "detonationfestival",
+    "site": "https://detonation-festival.com",
+    "facebook": "https://www.facebook.com/festivaldetonation/",
+    "verified": "https://detonation-festival.com/infos-pratiques/ — la page Infos pratiques du site officiel (Besançon, 25 & 26 septembre 2026) renvoie vers instagram.com/detonationfestival et facebook.com/festivaldetonation"
+  },
+  {
+    "kind": "event",
+    "key": "BEONIX Music Festival",
+    "instagram": "beonix_festival",
+    "site": "https://beonix.art",
+    "facebook": "https://www.facebook.com/beonixfestival/",
+    "tiktok": "beonix_festival",
+    "youtube": "https://www.youtube.com/channel/UCRayZ21KY625V7tXczytwRA",
+    "verified": "https://beonix.art — le site officiel (ETKO, 31 Tsiflikoudia, Limassol, 25-27 sept. 2026) renvoie vers instagram.com/beonix_festival, facebook.com/beonixfestival, tiktok.com/@beonix_festival et sa chaîne YouTube"
+  },
+  {
+    "kind": "event",
+    "key": "Duro Festival XXL",
+    "instagram": "durofestival",
+    "site": "https://durofestival.com",
+    "facebook": "https://facebook.com/durofestival",
+    "verified": "https://durofestival.com — le site officiel (Montmeló, 10-11 octobre 2026) renvoie vers instagram.com/durofestival et facebook.com/durofestival"
+  },
+  {
+    "kind": "event",
+    "key": "Dalma Festival",
+    "instagram": "dalmafestival",
+    "site": "https://www.dalmafestival.com",
+    "facebook": "https://www.facebook.com/dalmafestival",
+    "verified": "https://www.dalmafestival.com — le site officiel (Malte, 4-5 décembre 2026) renvoie vers instagram.com/dalmafestival et facebook.com/dalmafestival"
+  },
+  {
+    "kind": "event",
+    "key": "Time Warp Spain",
+    "instagram": "time_warp_spain",
+    "site": "https://www.time-warp.de/spain/",
+    "facebook": "https://www.facebook.com/timewarpfestivalspain",
+    "verified": "Compte espagnol distinct de la marque globale @time_warp_official : instagram.com/time_warp_spain (51k abonnés) affiche « Haciéndote bailar desde 1994 », géolocalise @ifema_madrid et annonce la 3e édition madrilène des 18 et 19 septembre 2026, exactement nos dates ; la page facebook.com/timewarpfestivalspain publie le line-up « TIME WARP SPAIN 2026 ». Le site officiel de la marque est time-warp.de/spain"
+  },
+  {
+    "kind": "event",
+    "key": "ortigia music",
+    "instagram": "ortigiamusicfestival",
+    "site": "https://ortigiamusic.com",
+    "facebook": "https://www.facebook.com/ortigiamusic/",
+    "tiktok": "ortigiamusic",
+    "verified": "https://ortigiamusic.com — le site officiel (Ortigia, Sicile, 30 juillet-1er août 2027) renvoie vers instagram.com/ortigiamusicfestival, facebook.com/ortigiamusic et tiktok.com/@ortigiamusic"
+  },
+  {
+    "kind": "event",
+    "key": "Dantz Festival",
+    "instagram": "dantzmusik",
+    "site": "https://dantz.eu",
+    "facebook": "https://www.facebook.com/dantzmusik/",
+    "tiktok": "dantzmusik",
+    "youtube": "https://www.youtube.com/channel/UC8ErqRxdgwWhMmf5yuBYF5Q",
+    "soundcloud": "dantzmusik",
+    "verified": "https://dantz.eu — le site officiel du Dantz Festival 2026 (10e édition, Donostia/Saint-Sébastien, 28-29 août 2026) renvoie vers instagram.com/dantzmusik, facebook.com/dantzmusik, tiktok.com/@dantzmusik, soundcloud.com/dantzmusik et sa chaîne YouTube"
+  },
+  {
+    "kind": "event",
+    "key": "WOS Festival",
+    "instagram": "wosfestival",
+    "site": "https://wosfestival.es",
+    "verified": "https://wosfestival.es/home-en/ — le site officiel de WOS Festival x SON Estrella Galicia (Saint-Jacques-de-Compostelle, 11-13 septembre 2026) renvoie vers instagram.com/wosfestival ; aucun autre réseau n'y est publié"
+  },
+  {
+    "kind": "event",
+    "key": "Rong Open Air Festival Malta",
+    "instagram": "rongevents",
+    "site": "https://malta.rongevents.com",
+    "facebook": "https://facebook.com/rongevents",
+    "tiktok": "rongevents",
+    "verified": "Le site officiel du festival est malta.rongevents.com, sous-domaine de rongevents.com dont le pied de page renvoie vers instagram.com/rongevents, facebook.com/rongevents et tiktok.com/@rongevents. Compte de marque RONG (trance/progressive), l'édition maltaise n'ayant pas de compte séparé"
+  },
+  {
+    "kind": "event",
+    "key": "Sunny Side Festival",
+    "instagram": "sunnysidefestival.mt",
+    "site": "https://ssfestivalmalta.com",
+    "facebook": "https://www.facebook.com/SunnySideFestivalMT",
+    "tiktok": "ssfestivalmt",
+    "verified": "https://ssfestivalmalta.com — le code source du site officiel (Ta' Qali Craft Village, Malte) renvoie vers instagram.com/sunnysidefestival.mt, facebook.com/SunnySideFestivalMT et tiktok.com/@ssfestivalmt"
+  },
+  {
+    "kind": "event",
+    "key": "Omana Festival",
+    "instagram": "omanafestival",
+    "site": "https://omana-festival.de",
+    "verified": "https://omana-festival.de — le site officiel (baie de Kalamitsi, Chalcidique, 30 sept.-6 oct. 2026) renvoie vers instagram.com/omanafestival ; aucun autre réseau n'y est publié"
+  },
+  {
+    "kind": "event",
+    "key": "Bloom Festival",
+    "instagram": "bloomfest.pt",
+    "site": "https://www.bloomfestival.pt",
+    "facebook": "https://www.facebook.com/bloomfest.pt/",
+    "verified": "https://www.bloomfestival.pt — le site officiel (Aeródromo da Maia, Porto, 18-19 septembre 2026) renvoie vers instagram.com/bloomfest.pt et facebook.com/bloomfest.pt"
+  },
+  {
+    "kind": "event",
+    "key": "Rave Rebels XXL",
+    "instagram": "raverebels",
+    "site": "https://raverebels.com",
+    "facebook": "https://www.facebook.com/raverebelsfestival/",
+    "tiktok": "raverebels",
+    "youtube": "https://www.youtube.com/@raverebels",
+    "verified": "https://raverebels.com — le site officiel du festival (ING Arena, Bruxelles, monté par le Kompass Klub) renvoie vers instagram.com/raverebels, facebook.com/raverebelsfestival, tiktok.com/@raverebels et youtube.com/@raverebels ; ce sont bien les comptes du festival et non ceux du Kompass Klub, distincts"
+  },
+  {
+    "kind": "event",
+    "key": "Crazy New Year",
+    "instagram": "crazynewyearfestival",
+    "facebook": "https://www.facebook.com/crazynewyearfestival/",
+    "tiktok": "crazynewyear",
+    "verified": "https://ainterexpo.com/agenda/crazy-new-year-festival/ — la fiche de l'événement sur le site officiel de la salle (Ainterexpo - EKINOX, Bourg-en-Bresse) porte un bloc de liens sociaux propre au festival : instagram.com/crazynewyearfestival, tiktok.com/@crazynewyear et facebook.com/crazynewyearfestival, distincts des comptes de la salle (@ainterexpo_ekinox)"
+  },
+  {
+    "kind": "event",
+    "key": "Illusion BZH Edition",
+    "instagram": "pandemic_events_",
+    "site": "https://www.pandemic-events.com/illusion",
+    "facebook": "https://www.facebook.com/Pandemic.Events/",
+    "tiktok": "pandemic.events",
+    "youtube": "https://www.youtube.com/channel/UC8bXfHT9_AhGLvS5RALl5zA",
+    "verified": "https://www.pandemic-events.com/illusion — la page officielle Illusion de l'organisateur Pandemic Events y annonce « ILLUSION 2026 - LORIENT », samedi 12 déc. 2026, Parc des Expositions Lorient Bretagne Sud à Lanester, et renvoie vers instagram.com/pandemic_events_, facebook.com/Pandemic.Events et tiktok.com/@pandemic.events. La marque Illusion n'a pas de compte propre : ce sont les comptes du collectif organisateur"
+  },
+  {
+    "kind": "event",
+    "key": "Toffler Festival",
+    "instagram": "tofflerfestival",
+    "site": "https://tofflerfestival.nl",
+    "verified": "Le site officiel tofflerfestival.nl annonce « Next up 29.05.27 Toffler Festival @ Roel Langerakpark » (notre date et notre lieu) mais ne publie aucun lien social ; le compte instagram.com/tofflerfestival (23k abonnés, 399 publications) porte le nom exact du festival et couvre ces éditions au Roel Langerakpark. Compte distinct de celui du club Toffler"
+  },
+  {
+    "kind": "event",
+    "key": "Sputnik Spring Break",
+    "instagram": "sputnikspringbreak",
+    "site": "https://www.sputnik-springbreak.de",
+    "facebook": "https://www.facebook.com/Sputnik.SPRINGBREAK.Festival/",
+    "verified": "Le site officiel sputnik-springbreak.de redirige vers mdr.de/sputnik/springbreak (MDR Sputnik, l'organisateur). Le compte instagram.com/sputnikspringbreak est celui du festival — à ne pas confondre avec la déclinaison @sputnik.spring.break.tour — et la page facebook.com/Sputnik.SPRINGBREAK.Festival est géolocalisée à Pouch, le lieu du festival"
+  },
+  {
+    "kind": "event",
+    "key": "Boom Festival",
+    "instagram": "boomfestivalofficial",
+    "site": "https://www.boomfestival.org",
+    "facebook": "https://www.facebook.com/boomfestivalofficialpage/",
+    "soundcloud": "boomfestival",
+    "verified": "https://www.boomfestival.org/media — la page Media du site officiel renvoie vers soundcloud.com/boomfestival (preuve directe). Le site étant rendu en JS, ses liens sociaux ne sont pas dans le HTML : l'Instagram @boomfestivalofficial (520k abonnés, nom « Boom Festival Official ») et la page facebook.com/boomfestivalofficialpage (« Boom Festival Official ») sont les comptes homonymes du festival, cohérents avec le handle soundcloud officiel"
+  }
+]

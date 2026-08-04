@@ -1,0 +1,483 @@
+[
+  {
+    "kind": "event",
+    "key": "Parklife",
+    "instagram": "parklife_festival",
+    "site": "https://www.parklife.uk.com",
+    "facebook": "https://www.facebook.com/parklifefestival",
+    "tiktok": "parklifefestival",
+    "x": "Parklifefest",
+    "verified": "https://www.parklife.uk.com — le site officiel du festival de Manchester renvoie vers instagram.com/parklife_festival, facebook.com/parklifefestival, tiktok.com/@parklifefestival et twitter.com/Parklifefest"
+  },
+  {
+    "kind": "event",
+    "key": "Roskilde Festival",
+    "instagram": "roskildefestival",
+    "site": "https://www.roskilde-festival.dk",
+    "facebook": "https://www.facebook.com/orangefeeling",
+    "tiktok": "roskildefestival",
+    "youtube": "https://www.youtube.com/user/roskildefestival",
+    "verified": "https://www.roskilde-festival.dk/en/ — le pied de page du site officiel renvoie vers instagram.com/roskildefestival, tiktok.com/@roskildefestival et facebook.com/orangefeeling (page FB historique du festival)"
+  },
+  {
+    "kind": "event",
+    "key": "Pukkelpop",
+    "instagram": "pukkelpop",
+    "site": "https://www.pukkelpop.be",
+    "facebook": "https://www.facebook.com/pukkelpop",
+    "tiktok": "pukkelpop",
+    "youtube": "https://www.youtube.com/@pukkelpopfestival",
+    "verified": "https://www.pukkelpop.be/en — l'en-tête et le pied de page du site officiel renvoient vers instagram.com/pukkelpop, facebook.com/pukkelpop, youtube.com/@pukkelpopfestival et tiktok.com/@pukkelpop"
+  },
+  {
+    "kind": "event",
+    "key": "Hideout Festival",
+    "instagram": "hideoutfestival",
+    "site": "https://www.hideoutfestival.com",
+    "facebook": "https://www.facebook.com/hideoutfestival",
+    "tiktok": "hideoutfestival",
+    "x": "hideoutfestival",
+    "verified": "https://www.hideoutfestival.com — le pied de page du site officiel renvoie vers instagram.com/hideoutfestival, tiktok.com/@hideoutfestival, twitter.com/hideoutfestival et facebook.com/hideoutfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Electric Castle",
+    "instagram": "electriccastle",
+    "site": "https://www.electriccastle.ro",
+    "facebook": "https://www.facebook.com/ElectricCastle",
+    "tiktok": "electriccastle",
+    "youtube": "https://www.youtube.com/user/ElectricCastleCluj",
+    "x": "Electric_Castle",
+    "verified": "https://www.electriccastle.ro — le pied de page du site officiel renvoie vers instagram.com/electriccastle, facebook.com/ElectricCastle, tiktok.com/@electriccastle, youtube.com/user/ElectricCastleCluj et twitter.com/Electric_Castle"
+  },
+  {
+    "kind": "event",
+    "key": "Pohoda Festival",
+    "instagram": "pohodafestival",
+    "site": "https://www.pohodafestival.sk",
+    "facebook": "https://www.facebook.com/pohoda.festival",
+    "tiktok": "pohoda_festival",
+    "youtube": "https://www.youtube.com/user/FestivalPohoda",
+    "verified": "https://www.pohodafestival.sk/en — le pied de page du site officiel renvoie vers instagram.com/pohodafestival, facebook.com/pohoda.festival, tiktok.com/@pohoda_festival et youtube.com/user/FestivalPohoda"
+  },
+  {
+    "kind": "event",
+    "key": "Beats for Love",
+    "instagram": "beats.for.love.festival",
+    "site": "https://www.b4l.cz",
+    "facebook": "https://www.facebook.com/beats.for.love",
+    "tiktok": "beats.for.love",
+    "youtube": "https://www.youtube.com/user/BEATSFORLOVEFESTIVAL",
+    "verified": "https://www.b4l.cz/en/ — le site officiel du festival d'Ostrava renvoie vers instagram.com/beats.for.love.festival, facebook.com/beats.for.love, tiktok.com/@beats.for.love et youtube.com/user/BEATSFORLOVEFESTIVAL"
+  },
+  {
+    "kind": "event",
+    "key": "Copenhagen Distortion",
+    "instagram": "cphdistortion",
+    "site": "https://www.cphdistortion.dk",
+    "facebook": "https://www.facebook.com/cphdistortion",
+    "tiktok": "cphdistortion",
+    "verified": "https://www.cphdistortion.dk — le site officiel renvoie vers instagram.com/cphdistortion, facebook.com/cphdistortion et tiktok.com/@cphdistortion"
+  },
+  {
+    "kind": "event",
+    "key": "Gottwood Festival",
+    "instagram": "gottwood",
+    "site": "https://gottwood.co.uk",
+    "tiktok": "gottwood",
+    "soundcloud": "gottwax",
+    "verified": "https://gottwood.co.uk — le pied de page du site officiel renvoie vers instagram.com/gottwood, tiktok.com/@gottwood et soundcloud.com/gottwax (le label du festival)"
+  },
+  {
+    "kind": "event",
+    "key": "AVA London",
+    "instagram": "avafestival",
+    "site": "https://avafestival.com",
+    "facebook": "https://www.facebook.com/avafestival/",
+    "tiktok": "avafestival",
+    "youtube": "https://www.youtube.com/c/AVAFestival",
+    "soundcloud": "avafestival",
+    "x": "AVAFestival_",
+    "verified": "https://avafestival.com — le site officiel d'AVA (qui programme les éditions Belfast et Londres) renvoie vers instagram.com/avafestival, facebook.com/avafestival, tiktok.com/@avafestival, youtube.com/c/AVAFestival, soundcloud.com/avafestival et x.com/AVAFestival_ ; aucun compte distinct « AVA London » n'existe"
+  },
+  {
+    "kind": "event",
+    "key": "Insomnia Festival",
+    "instagram": "insomniatromso",
+    "site": "https://insomniafestival.no",
+    "facebook": "https://www.facebook.com/insomniatromso",
+    "verified": "https://insomniafestival.no — le site officiel du festival de Tromsø renvoie vers instagram.com/insomniatromso et facebook.com/insomniatromso"
+  },
+  {
+    "kind": "event",
+    "key": "No Bounds Festival",
+    "instagram": "noboundsfestivaluk",
+    "site": "https://noboundsfestival.co.uk",
+    "facebook": "https://www.facebook.com/noboundsfestival/",
+    "verified": "https://noboundsfestival.co.uk — le site officiel renvoie vers facebook.com/noboundsfestival ; le compte Instagram @noboundsfestivaluk est intitulé « No Bounds · Sheffield » et correspond au festival (les autres liens du site pointent vers Hope Works, la salle du promoteur, traitée à part)"
+  },
+  {
+    "kind": "event",
+    "key": "Iceland Airwaves",
+    "instagram": "icelandairwaves",
+    "site": "https://icelandairwaves.is",
+    "facebook": "https://www.facebook.com/icelandairwavesfestival/",
+    "verified": "icelandairwaves.is refuse nos requêtes (403) ; compte Instagram @icelandairwaves intitulé « Iceland Airwaves · Reykjavík » et page Facebook « Iceland Airwaves » (facebook.com/icelandairwavesfestival), tous deux repris comme comptes du festival dans les résultats de recherche pour icelandairwaves.is"
+  },
+  {
+    "kind": "event",
+    "key": "Solar Weekend Festival",
+    "instagram": "solarweekend",
+    "site": "https://www.solarweekend.com",
+    "facebook": "https://www.facebook.com/SolarWeekend/",
+    "tiktok": "solarweekend",
+    "verified": "https://www.solarweekend.com — le site officiel renvoie vers instagram.com/solarweekend, tiktok.com/@solarweekend et facebook.com/SolarWeekend"
+  },
+  {
+    "kind": "event",
+    "key": "Field Day",
+    "instagram": "fielddayfestivals",
+    "site": "https://www.fielddayfestivals.com",
+    "facebook": "https://www.facebook.com/fielddaylondon",
+    "tiktok": "fielddaylondon",
+    "youtube": "https://www.youtube.com/@fielddaylondon",
+    "verified": "https://www.fielddayfestivals.com — le pied de page du site officiel renvoie vers instagram.com/fielddayfestivals, facebook.com/fielddaylondon, tiktok.com/@fielddaylondon et youtube.com/@fielddaylondon"
+  },
+  {
+    "kind": "event",
+    "key": "Forwards Festival",
+    "instagram": "forwardsbristol",
+    "site": "https://www.forwardsbristol.co.uk",
+    "facebook": "https://www.facebook.com/forwardsbristol/",
+    "verified": "https://www.forwardsbristol.co.uk — le pied de page du site officiel renvoie vers instagram.com/forwardsbristol et facebook.com/forwardsbristol"
+  },
+  {
+    "kind": "event",
+    "key": "WECANDANCE",
+    "instagram": "wecandancefest",
+    "site": "https://www.wecandance.be",
+    "facebook": "https://www.facebook.com/WECANDANCEFEST/",
+    "tiktok": "wecandancefest",
+    "youtube": "https://www.youtube.com/@WECANDANCE",
+    "x": "WECANDANCEFEST",
+    "verified": "https://www.wecandance.be — le pied de page du site officiel renvoie vers instagram.com/wecandancefest, facebook.com/WECANDANCEFEST, tiktok.com/@wecandancefest, youtube.com/@WECANDANCE et x.com/WECANDANCEFEST"
+  },
+  {
+    "kind": "event",
+    "key": "Waterworks Festival",
+    "instagram": "waterworksldn",
+    "site": "https://waterworksfestival.co.uk",
+    "tiktok": "waterworksfestival",
+    "verified": "https://waterworksfestival.co.uk — le pied de page du site officiel renvoie vers instagram.com/waterworksldn et tiktok.com/@waterworksfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Dreambeach Costa del Sol",
+    "instagram": "dreambeachfest",
+    "site": "https://www.dreambeach.es",
+    "facebook": "https://www.facebook.com/DreambeachFest",
+    "youtube": "https://www.youtube.com/channel/UCirsb9ukXh4LWQwBllSJe3Q",
+    "verified": "https://www.dreambeach.es — le site officiel, qui annonce bien l'édition « Dreambeach Costa del Sol » à Vélez-Málaga, renvoie en pied de page vers instagram.com/dreambeachfest, facebook.com/DreambeachFest et sa chaîne YouTube"
+  },
+  {
+    "kind": "event",
+    "key": "Paradigm Festival",
+    "instagram": "paradigm050",
+    "site": "https://www.paradigmfestival.com",
+    "soundcloud": "paradigm050",
+    "verified": "https://www.paradigmfestival.com — le pied de page du site officiel du festival de Groningue renvoie vers instagram.com/paradigm050 et soundcloud.com/paradigm050 (le Facebook qu'il pointe est celui du club Paradigm, laissé de côté ici)"
+  },
+  {
+    "kind": "event",
+    "key": "Malmöfestivalen",
+    "instagram": "malmofestivalen",
+    "site": "https://www.malmofestivalen.se",
+    "facebook": "https://www.facebook.com/malmofestivalen/",
+    "tiktok": "malmofestivalen_official",
+    "youtube": "https://www.youtube.com/@malmofestivalen2011",
+    "verified": "https://www.malmofestivalen.se — le pied de page du site officiel renvoie vers instagram.com/malmofestivalen, facebook.com/malmofestivalen, tiktok.com/@malmofestivalen_official et youtube.com/@malmofestivalen2011"
+  },
+  {
+    "kind": "event",
+    "key": "Decibel Open Air",
+    "instagram": "decibelopenair",
+    "site": "https://www.decibelopenair.com",
+    "facebook": "https://www.facebook.com/decibelopenair/",
+    "youtube": "https://youtube.com/decibelopenair",
+    "verified": "https://www.decibelopenair.com — le pied de page du site officiel renvoie vers instagram.com/decibelopenair, facebook.com/decibelopenair et youtube.com/decibelopenair"
+  },
+  {
+    "kind": "event",
+    "key": "Beatpatrol Festival",
+    "instagram": "beatpatrol.festival",
+    "site": "https://www.beatpatrol.at",
+    "facebook": "https://www.facebook.com/beatpatrol.at",
+    "tiktok": "beatpatrol",
+    "verified": "https://www.beatpatrol.at/festival — le site officiel renvoie vers instagram.com/beatpatrol.festival, facebook.com/beatpatrol.at et tiktok.com/@beatpatrol"
+  },
+  {
+    "kind": "event",
+    "key": "Zug der Liebe",
+    "instagram": "zugderliebe",
+    "site": "https://zugderliebe.org",
+    "soundcloud": "zugderliebe",
+    "verified": "https://zugderliebe.org — le pied de page du site officiel renvoie vers soundcloud.com/zugderliebe ; le compte Instagram @zugderliebe est intitulé « Zug der Liebe e.V. · Berlin », l'association organisatrice nommée sur le site"
+  },
+  {
+    "kind": "event",
+    "key": "Lethargy Festival",
+    "instagram": "lethargyfestival",
+    "site": "https://www.lethargy.ch",
+    "facebook": "https://www.facebook.com/LethargyFestival/",
+    "soundcloud": "lethargyfestival",
+    "verified": "https://www.lethargy.ch — le pied de page du site officiel renvoie vers instagram.com/lethargyfestival, facebook.com/LethargyFestival et soundcloud.com/lethargyfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Micro Festival",
+    "instagram": "microfestival",
+    "site": "https://microfestival.be",
+    "facebook": "https://www.facebook.com/microfestival",
+    "verified": "https://microfestival.be — le site officiel du Micro Festival de Liège (Saint-Léonard) renvoie vers instagram.com/microfestival et facebook.com/microfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Panorama Festival",
+    "instagram": "panoramafestival_",
+    "site": "https://www.panorama-festival.it",
+    "facebook": "https://www.facebook.com/panoramafestivalpuglia/",
+    "tiktok": "panoramafestival_",
+    "verified": "https://www.panorama-festival.it/en/ — le pied de page du site officiel du festival des Cave del Duca (Lecce) renvoie vers instagram.com/panoramafestival_, facebook.com/panoramafestivalpuglia et tiktok.com/@panoramafestival_"
+  },
+  {
+    "kind": "event",
+    "key": "Free Earth Festival",
+    "instagram": "freeearthfestival",
+    "site": "https://freeearth-festival.com",
+    "facebook": "https://www.facebook.com/freeearthfestival",
+    "youtube": "https://www.youtube.com/@FreeEarthFest",
+    "soundcloud": "freeearthfestival",
+    "verified": "https://freeearth-festival.com — le pied de page du site officiel renvoie vers instagram.com/freeearthfestival, facebook.com/freeearthfestival, youtube.com/@FreeEarthFest et soundcloud.com/freeearthfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Nemora Festival",
+    "instagram": "nemorafest.eu",
+    "site": "https://www.nemorafest.eu",
+    "verified": "https://www.nemorafest.eu — le site officiel du festival de Torre Alfina renvoie vers instagram.com/nemorafest.eu (et son canal Telegram t.me/nemorafest)"
+  },
+  {
+    "kind": "event",
+    "key": "XRDS – Crossroads Festival",
+    "instagram": "xrds.be",
+    "site": "https://www.xrds.be",
+    "tiktok": "xrds.festival.be",
+    "youtube": "https://www.youtube.com/@XRDSfestival",
+    "verified": "https://www.xrds.be — le site officiel du festival bruxellois renvoie vers instagram.com/xrds.be, tiktok.com/@xrds.festival.be et youtube.com/@XRDSfestival (le SoundCloud qu'il pointe est celui de Fuse, le club curateur, laissé de côté ici)"
+  },
+  {
+    "kind": "event",
+    "key": "O Days Festival",
+    "instagram": "odaysfestival",
+    "site": "https://www.odaysfestival.dk",
+    "facebook": "https://www.facebook.com/ODaysFestival/",
+    "youtube": "https://www.youtube.com/@odaysfestival",
+    "verified": "https://www.odaysfestival.dk — le pied de page du site officiel renvoie vers instagram.com/odaysfestival, facebook.com/ODaysFestival et youtube.com/@odaysfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Loftas Fest",
+    "instagram": "loftasfest",
+    "site": "https://loftasfest.com",
+    "facebook": "https://www.facebook.com/loftasfest",
+    "verified": "https://loftasfest.com — le bloc « Follow us » du pied de page du site officiel renvoie vers instagram.com/loftasfest et facebook.com/loftasfest"
+  },
+  {
+    "kind": "event",
+    "key": "Station Narva",
+    "instagram": "stationnarva",
+    "site": "https://www.stationnarva.ee",
+    "facebook": "https://www.facebook.com/StationNarva/",
+    "tiktok": "stationnarva",
+    "verified": "https://www.stationnarva.ee/en/about — le pied de page du site officiel renvoie vers instagram.com/stationnarva, facebook.com/StationNarva et tiktok.com/@stationnarva"
+  },
+  {
+    "kind": "event",
+    "key": "Shapes Festival Zakynthos",
+    "instagram": "shapesfestival",
+    "site": "https://shapesfestival.gr",
+    "facebook": "https://www.facebook.com/shapesfestival/",
+    "verified": "https://shapesfestival.gr — le site officiel de l'édition Zakynthos renvoie vers instagram.com/shapesfestival et facebook.com/shapesfestival ; le Linktree officiel (linktr.ee/shapesfestival) confirme que ce compte unique couvre Zakynthos et Leysin"
+  },
+  {
+    "kind": "event",
+    "key": "Audra Festival",
+    "instagram": "audrafestival",
+    "site": "https://audrafestival.lt",
+    "verified": "audrafestival.lt (site officiel, dates 3-6 septembre 2026 identiques aux nôtres) ne publie aucun lien social ; le compte Instagram @audrafestival est intitulé « AUDRA · Kaunas » et annonce ces mêmes dates"
+  },
+  {
+    "kind": "event",
+    "key": "Extreme Chill Festival",
+    "instagram": "extremechill",
+    "site": "https://www.extremechill.org",
+    "facebook": "https://www.facebook.com/extremechillfestival",
+    "verified": "https://www.extremechill.org/info — la page Info du site officiel renvoie vers instagram.com/extremechill et facebook.com/extremechillfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Trädgården Festival",
+    "instagram": "tradgardenfestival",
+    "site": "https://tradgardenfestival.se",
+    "facebook": "https://www.facebook.com/tradgardenfestival",
+    "tiktok": "tradgardenfestival",
+    "youtube": "https://www.youtube.com/@tradgardenfestival",
+    "verified": "https://tradgardenfestival.se/om-oss — le pied de page du site officiel (festival de Kristianstad, 28-29 août) renvoie vers instagram.com/tradgardenfestival, facebook.com/tradgardenfestival, tiktok.com/@tradgardenfestival et youtube.com/@tradgardenfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Bonfire Festival",
+    "instagram": "bonfirefestival.se",
+    "site": "https://bonfirefestival.se",
+    "facebook": "https://www.facebook.com/bonfirefestival.se/",
+    "tiktok": "bonfirefestival.se",
+    "verified": "https://bonfirefestival.se — le pied de page du site officiel (Stångebrofältet, Linköping) renvoie vers instagram.com/bonfirefestival.se, facebook.com/bonfirefestival.se et tiktok.com/@bonfirefestival.se"
+  },
+  {
+    "kind": "event",
+    "key": "FLY Open Air Edinburgh",
+    "instagram": "openairfly",
+    "site": "https://www.flyflyfly.co.uk/open-air",
+    "tiktok": "stayflytv",
+    "x": "openairfly",
+    "verified": "https://www.flyflyfly.co.uk/open-air — le bloc « Follow us on socials » du site officiel de FLY renvoie vers instagram.com/openairfly, tiktok.com/@stayflytv et twitter.com/openairfly"
+  },
+  {
+    "kind": "event",
+    "key": "Emerge Festival",
+    "instagram": "emergebelfast",
+    "site": "https://www.emergebelfast.com",
+    "facebook": "https://www.facebook.com/emergebelfast",
+    "tiktok": "shinebelfast",
+    "x": "Emerge_Belfast",
+    "verified": "https://www.emergebelfast.com — l'en-tête et le pied de page du site officiel renvoient vers instagram.com/emergebelfast, facebook.com/emergebelfast, twitter.com/Emerge_Belfast et tiktok.com/@shinebelfast (le compte TikTok du promoteur Shine)"
+  },
+  {
+    "kind": "event",
+    "key": "MAYDAY Poland 2026 : Iconic",
+    "instagram": "mayday_poland",
+    "site": "https://mayday.pl",
+    "facebook": "https://www.facebook.com/MaydayPoland/",
+    "tiktok": "maydaypoland",
+    "youtube": "https://www.youtube.com/user/MaydayPolandOfficial",
+    "verified": "https://mayday.pl/en/home/ — le site officiel de l'édition polonaise (Spodek, Katowice) renvoie vers instagram.com/mayday_poland, facebook.com/MaydayPoland, tiktok.com/@maydaypoland et youtube.com/user/MaydayPolandOfficial ; à ne pas confondre avec le Mayday allemand"
+  },
+  {
+    "kind": "event",
+    "key": "Lunchmeat Festival",
+    "instagram": "lunchmeatfestival",
+    "site": "https://lunchmeatfestival.cz",
+    "facebook": "https://www.facebook.com/LunchmeatFestival/",
+    "verified": "https://lunchmeat.cz — le composant de pied de page du site officiel (lunchmeat.cz/FooterComponent.js) renvoie vers instagram.com/lunchmeatfestival, facebook.com/LunchmeatFestival et lunchmeatfestival.cz, distincts des comptes @lunchmeatstudio du même collectif"
+  },
+  {
+    "kind": "event",
+    "key": "Aquasella",
+    "instagram": "aquasellafest",
+    "site": "https://aquasella.com",
+    "facebook": "https://www.facebook.com/aquasellafest",
+    "tiktok": "aquasellafest",
+    "youtube": "https://www.youtube.com/user/AquasellaChannel",
+    "soundcloud": "aquasella-fest",
+    "verified": "https://aquasella.com — le pied de page du site officiel (bundle /assets/index-C8UfV0x-.js) renvoie vers instagram.com/aquasellafest, facebook.com/aquasellafest, tiktok.com/@aquasellafest, youtube.com/user/AquasellaChannel et soundcloud.com/aquasella-fest"
+  },
+  {
+    "kind": "event",
+    "key": "Medusa Sunbeach Festival",
+    "instagram": "medusa_festival",
+    "site": "https://www.medusasunbeach.com",
+    "facebook": "https://www.facebook.com/medusasunbeach",
+    "tiktok": "medusafestival",
+    "verified": "https://www.medusasunbeach.com — le site officiel renvoie vers instagram.com/medusa_festival, facebook.com/medusasunbeach et tiktok.com/@medusafestival"
+  },
+  {
+    "kind": "event",
+    "key": "Taksirat Festival",
+    "instagram": "taksiratfestival",
+    "site": "https://taksirat.mk",
+    "facebook": "https://www.facebook.com/TaksiratFestival",
+    "youtube": "https://www.youtube.com/user/TaksiratFestival",
+    "x": "TaksiratFest",
+    "verified": "https://taksirat.mk — le site officiel renvoie vers instagram.com/taksiratfestival, facebook.com/TaksiratFestival, youtube.com/user/TaksiratFestival et twitter.com/TaksiratFest (et non vers les comptes de l'organisateur Password Production)"
+  },
+  {
+    "kind": "event",
+    "key": "Nibirii Festival",
+    "instagram": "nibirii",
+    "site": "https://nibirii.com",
+    "facebook": "https://facebook.com/nibirii",
+    "tiktok": "nibirii",
+    "youtube": "https://www.youtube.com/@nibirii",
+    "verified": "nibirii.de redirige vers https://nibirii.com — le site officiel renvoie vers instagram.com/nibirii, facebook.com/nibirii, tiktok.com/@nibirii et youtube.com/@nibirii"
+  },
+  {
+    "kind": "event",
+    "key": "Eternal Sun Festival",
+    "instagram": "eternalsunfestival",
+    "site": "https://www.eternalsunfestival.com",
+    "facebook": "https://www.facebook.com/profile.php?id=61571564712205",
+    "verified": "https://www.eternalsunfestival.com — le site officiel (celui de notre lien billetterie) renvoie vers instagram.com/eternalsunfestival et vers sa page Facebook (profile.php?id=61571564712205)"
+  },
+  {
+    "kind": "event",
+    "key": "Draaimolen Festival",
+    "site": "https://www.draaimolen.nu",
+    "soundcloud": "draaimolen",
+    "verified": "https://www.draaimolen.nu — le site officiel n'affiche aucune icône de réseau, mais intègre des sets hébergés sur soundcloud.com/draaimolen ; ce profil s'intitule « DRAAIMOLEN » et sa bio annonce « DRAAIMOLEN FESTIVAL 2026, September 4 & 5, MOB-Complex, Tilburg », soit notre date. Aucun compte Instagram vérifiable n'a été trouvé, donc aucun n'est inscrit."
+  },
+  {
+    "kind": "event",
+    "key": "Brunch Electronik Lisboa #4 · Adam Beyer",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — le site officiel de Brunch Electronik Lisboa, qui annonce la date Adam Beyer, renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa (compte lisboète, distinct de @brunchelectronik Barcelone)"
+  },
+  {
+    "kind": "event",
+    "key": "Brunch Electronik Lisboa #5 · Charlotte de Witte",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — le site officiel de Brunch Electronik Lisboa, qui annonce la date Charlotte de Witte, renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa"
+  },
+  {
+    "kind": "event",
+    "key": "Solomun Lisboa · Brunch × Neopop",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — la date Solomun (co-produite avec Neopop) est annoncée et vendue sur le site officiel de Brunch Electronik Lisboa, dont le pied de page renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa ; ce sont donc les comptes de l'organisateur de cette date, pas ceux de Neopop"
+  },
+  {
+    "kind": "event",
+    "key": "VIVA! Festival",
+    "instagram": "viva_festival",
+    "site": "https://vivafestival.it",
+    "facebook": "https://www.facebook.com/VIVAfestivalIT/",
+    "verified": "vivafestival.it (site officiel) ne publie aucun lien social ; le compte Instagram @viva_festival s'intitule « VIVA! Festival », publie sur Locorotondo et la Valle d'Itria et annonce les 31 juillet - 2 août 2026, exactement nos dates ; la page Facebook « VIVA Festival · Locorotondo » (facebook.com/VIVAfestivalIT) porte le même contenu"
+  },
+  {
+    "kind": "event",
+    "key": "ZAMNA × PRIMER Athens",
+    "instagram": "primermusicfestival",
+    "site": "https://primermusicfestival.com",
+    "facebook": "https://www.facebook.com/primermusicfestival/",
+    "tiktok": "primermusicfestival",
+    "youtube": "https://www.youtube.com/@primermusicfestival",
+    "verified": "https://primermusicfestival.com (notre lien billetterie, et l'organisateur de cette édition athénienne montée avec Zamna) — son pied de page renvoie vers instagram.com/primermusicfestival, facebook.com/primermusicfestival, tiktok.com/@primermusicfestival et youtube.com/@primermusicfestival ; le compte @zamnafestival, marque mexicaine invitée, n'est volontairement pas inscrit ici"
+  }
+]

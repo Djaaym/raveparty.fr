@@ -1,0 +1,452 @@
+[
+  {
+    "kind": "event",
+    "key": "Time Warp",
+    "instagram": "time_warp_official",
+    "site": "https://www.time-warp.de",
+    "facebook": "https://www.facebook.com/timewarpofficial",
+    "tiktok": "time_warp_official",
+    "soundcloud": "timewarp_official",
+    "verified": "https://www.time-warp.de — le pied de page du site officiel renvoie vers instagram.com/time_warp_official, facebook.com/timewarpofficial, tiktok.com/@time_warp_official et soundcloud.com/timewarp_official"
+  },
+  {
+    "kind": "event",
+    "key": "Sónar",
+    "instagram": "sonarfestival",
+    "site": "https://sonar.es",
+    "facebook": "https://www.facebook.com/SonarFestival",
+    "tiktok": "sonar.festival",
+    "youtube": "https://www.youtube.com/SonarFestival",
+    "soundcloud": "sonarfestival",
+    "spotify": "https://open.spotify.com/user/sonarfestival",
+    "verified": "https://sonar.es — le pied de page du site officiel renvoie vers instagram.com/sonarfestival, facebook.com/SonarFestival, tiktok.com/@sonar.festival, youtube.com/SonarFestival, soundcloud.com/sonarfestival et open.spotify.com/user/sonarfestival"
+  },
+  {
+    "kind": "event",
+    "key": "DGTL Amsterdam",
+    "instagram": "dgtlfestival",
+    "site": "https://www.dgtl.nl",
+    "facebook": "https://www.facebook.com/dgtlfestival",
+    "tiktok": "dgtlfestival",
+    "youtube": "https://www.youtube.com/channel/UCXAuu4lli9oBgKZVGapNvBw",
+    "soundcloud": "dgtl-festival",
+    "verified": "https://www.dgtl.nl (site officiel de l'édition d'Amsterdam) — le pied de page renvoie vers instagram.com/dgtlfestival, facebook.com/dgtlfestival, tiktok.com/@dgtlfestival et soundcloud.com/dgtl-festival"
+  },
+  {
+    "kind": "event",
+    "key": "Kappa FuturFestival",
+    "instagram": "futur_festival",
+    "site": "https://www.kappafuturfestival.it",
+    "facebook": "https://www.facebook.com/FuturFestival",
+    "tiktok": "futurfestival",
+    "youtube": "https://www.youtube.com/@futur_festival",
+    "spotify": "https://open.spotify.com/user/futurfestival",
+    "x": "futurfestival",
+    "verified": "https://www.kappafuturfestival.it — le pied de page du site officiel renvoie vers instagram.com/futur_festival, facebook.com/FuturFestival, tiktok.com/@futurfestival, youtube.com/@futur_festival, twitter.com/futurfestival et open.spotify.com/user/futurfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Nature One",
+    "instagram": "natureonefestival",
+    "site": "https://www.nature-one.de",
+    "facebook": "https://www.facebook.com/natureone.festival",
+    "tiktok": "natureonefestival",
+    "youtube": "https://www.youtube.com/NatureOneChannel",
+    "soundcloud": "official-nature-one",
+    "spotify": "https://open.spotify.com/user/natureonefestival",
+    "verified": "https://www.nature-one.de — le pied de page du site officiel renvoie vers instagram.com/natureonefestival, facebook.com/natureone.festival, tiktok.com/@natureonefestival, youtube.com/NatureOneChannel, soundcloud.com/official-nature-one et open.spotify.com/user/natureonefestival"
+  },
+  {
+    "kind": "event",
+    "key": "Dour Festival",
+    "instagram": "dourfestival",
+    "site": "https://www.dourfestival.eu",
+    "facebook": "https://www.facebook.com/dourfestival",
+    "tiktok": "dourfestival",
+    "youtube": "https://www.youtube.com/@dourfestival",
+    "spotify": "https://open.spotify.com/user/dourfestival",
+    "verified": "https://www.dourfestival.eu — le pied de page du site officiel renvoie vers instagram.com/dourfestival, facebook.com/dourfestival, tiktok.com/@dourfestival, youtube.com/@dourfestival et open.spotify.com/user/dourfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Junction 2",
+    "instagram": "junction_2",
+    "site": "https://junction2.london",
+    "facebook": "https://www.facebook.com/Junction2London",
+    "tiktok": "junction_2",
+    "verified": "https://junction2.london — le site officiel renvoie vers instagram.com/junction_2, facebook.com/Junction2London et tiktok.com/@junction_2"
+  },
+  {
+    "kind": "event",
+    "key": "Nuits Sonores",
+    "instagram": "nuits_sonores",
+    "site": "https://www.nuits-sonores.com",
+    "facebook": "https://www.facebook.com/nuitssonores.festival",
+    "tiktok": "nuitssonoreslyon",
+    "verified": "https://www.nuits-sonores.com — le pied de page du site officiel renvoie vers instagram.com/nuits_sonores, facebook.com/nuitssonores.festival et tiktok.com/@nuitssonoreslyon"
+  },
+  {
+    "kind": "event",
+    "key": "Astropolis",
+    "instagram": "astropolis",
+    "site": "https://www.astropolis.org",
+    "facebook": "https://www.facebook.com/festival.astropolis",
+    "tiktok": "astropolisfestival",
+    "verified": "https://www.astropolis.org — le pied de page du site officiel renvoie vers instagram.com/astropolis, facebook.com/festival.astropolis et tiktok.com/@astropolisfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Ultra Europe",
+    "instagram": "ultraeurope",
+    "site": "https://ultraeurope.com",
+    "facebook": "https://www.facebook.com/ultraeurope",
+    "x": "ultraeurope",
+    "verified": "https://ultraeurope.com — le pied de page du site officiel renvoie vers instagram.com/ultraeurope, facebook.com/ultraeurope et twitter.com/ultraeurope (comptes propres a l'edition europeenne, distincts du compte global @ultra)"
+  },
+  {
+    "kind": "event",
+    "key": "Parookaville",
+    "instagram": "parookaville",
+    "site": "https://www.parookaville.com",
+    "facebook": "https://www.facebook.com/parookaville",
+    "tiktok": "parookaville",
+    "youtube": "https://www.youtube.com/channel/UCR5mwo9sMrF3y8Y2gN5pknw",
+    "verified": "https://www.parookaville.com — le pied de page du site officiel renvoie vers instagram.com/parookaville, facebook.com/parookaville, tiktok.com/@parookaville et la chaine YouTube UCR5mwo9sMrF3y8Y2gN5pknw"
+  },
+  {
+    "kind": "event",
+    "key": "Hadra Trance Festival",
+    "instagram": "hadratrancefestival",
+    "site": "https://hadra.net",
+    "facebook": "https://www.facebook.com/hadratrancefestivalofficial",
+    "tiktok": "hadratrancefestival",
+    "soundcloud": "hadratrancefestival",
+    "verified": "https://hadra.net (site officiel du collectif Hadra) — la page renvoie vers instagram.com/hadratrancefestival, facebook.com/hadratrancefestivalofficial, tiktok.com/@hadratrancefestival et soundcloud.com/hadratrancefestival, comptes propres au festival (distincts de @hadra.official et Hadra Records)"
+  },
+  {
+    "kind": "event",
+    "key": "UNTOLD",
+    "instagram": "untoldfestival",
+    "site": "https://untold.com",
+    "facebook": "https://www.facebook.com/UNTOLDFestival",
+    "tiktok": "untold.festival",
+    "youtube": "https://www.youtube.com/channel/UCeDqemm8j1o4u90IHkC0h0w",
+    "x": "UntoldFestival",
+    "verified": "https://untold.com — le pied de page du site officiel renvoie vers instagram.com/untoldfestival, facebook.com/UNTOLDFestival, tiktok.com/@untold.festival, twitter.com/UntoldFestival et la chaine YouTube UCeDqemm8j1o4u90IHkC0h0w"
+  },
+  {
+    "kind": "event",
+    "key": "Insane Festival",
+    "instagram": "insanefestival",
+    "site": "https://www.insanefestival.com",
+    "facebook": "https://www.facebook.com/insanefestival",
+    "tiktok": "insanefestival",
+    "youtube": "https://www.youtube.com/user/InsaneFestival",
+    "x": "insanefestival",
+    "verified": "https://www.insanefestival.com — le pied de page du site officiel renvoie vers instagram.com/insanefestival, facebook.com/insanefestival, tiktok.com/@insanefestival, youtube.com/user/InsaneFestival et x.com/insanefestival"
+  },
+  {
+    "kind": "event",
+    "key": "The Warehouse Project",
+    "instagram": "whp_mcr",
+    "site": "https://www.thewarehouseproject.com",
+    "facebook": "https://www.facebook.com/thewarehouseproject",
+    "tiktok": "thewarehouseproject",
+    "x": "WHP_Mcr",
+    "verified": "https://www.thewarehouseproject.com — le pied de page du site officiel renvoie vers instagram.com/whp_mcr, facebook.com/thewarehouseproject, tiktok.com/@thewarehouseproject et x.com/WHP_Mcr"
+  },
+  {
+    "kind": "event",
+    "key": "Let It Roll",
+    "instagram": "letitrollfestival",
+    "site": "https://letitroll.eu",
+    "facebook": "https://www.facebook.com/letitrollcz",
+    "tiktok": "letitrollfestival",
+    "youtube": "https://www.youtube.com/channel/UCEJCxoQ6Ck-BQfmoHbdXcEg",
+    "x": "letitroll_fest",
+    "verified": "https://letitroll.eu — le pied de page du site officiel renvoie vers instagram.com/letitrollfestival, facebook.com/letitrollcz, tiktok.com/@letitrollfestival, twitter.com/letitroll_fest et la chaine YouTube UCEJCxoQ6Ck-BQfmoHbdXcEg"
+  },
+  {
+    "kind": "event",
+    "key": "Neopop Festival",
+    "instagram": "neopopfestival",
+    "site": "https://neopopfestival.net",
+    "facebook": "https://www.facebook.com/neopopfestival",
+    "youtube": "https://www.youtube.com/user/neopopfestival",
+    "verified": "https://neopopfestival.net — le pied de page du site officiel renvoie vers instagram.com/neopopfestival, facebook.com/neopopfestival et youtube.com/user/neopopfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Creamfields",
+    "instagram": "creamfieldsofficial",
+    "site": "https://www.creamfields.com",
+    "facebook": "https://www.facebook.com/OfficialCreamfields",
+    "tiktok": "creamfieldsofficial",
+    "youtube": "https://www.youtube.com/channel/UC7RZ3YtxzlR61_3kfjdolAA",
+    "verified": "https://www.creamfields.com (site de l'edition UK de Daresbury) — le pied de page renvoie vers instagram.com/creamfieldsofficial, facebook.com/OfficialCreamfields, tiktok.com/@creamfieldsofficial et la chaine YouTube UC7RZ3YtxzlR61_3kfjdolAA"
+  },
+  {
+    "kind": "event",
+    "key": "Glitch Festival",
+    "instagram": "glitchfestival",
+    "site": "https://glitchfestival.com",
+    "facebook": "https://www.facebook.com/glitchfestival",
+    "soundcloud": "glitchfestival",
+    "verified": "https://glitchfestival.com — le pied de page du site officiel renvoie vers instagram.com/glitchfestival, facebook.com/glitchfestival et soundcloud.com/glitchfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Les Plages Électroniques",
+    "instagram": "plageselectro",
+    "site": "https://www.plages-electroniques.com",
+    "facebook": "https://www.facebook.com/lesplages",
+    "tiktok": "les_plages_electroniques",
+    "youtube": "https://www.youtube.com/@LesPlagesElectroniquesOfficiel",
+    "x": "plageselectro",
+    "verified": "https://www.plages-electroniques.com — le pied de page du site officiel renvoie vers instagram.com/plageselectro, facebook.com/lesplages, tiktok.com/@les_plages_electroniques, youtube.com/@LesPlagesElectroniquesOfficiel et twitter.com/plageselectro"
+  },
+  {
+    "kind": "event",
+    "key": "Tauron Nowa Muzyka",
+    "instagram": "nowa_muzyka_festiwal",
+    "site": "https://festiwalnowamuzyka.pl",
+    "facebook": "https://www.facebook.com/NowaMuzyka",
+    "tiktok": "tauronnowamuzykakatowice",
+    "youtube": "https://www.youtube.com/@festiwalnowamuzyka",
+    "verified": "https://festiwalnowamuzyka.pl — le pied de page du site officiel renvoie vers instagram.com/nowa_muzyka_festiwal, facebook.com/NowaMuzyka, tiktok.com/@tauronnowamuzykakatowice et youtube.com/@festiwalnowamuzyka"
+  },
+  {
+    "kind": "event",
+    "key": "Paradise City",
+    "instagram": "paradisecityofficial",
+    "site": "https://paradisecity.be",
+    "facebook": "https://www.facebook.com/paradisecityfestival",
+    "tiktok": "paradisecityfestival",
+    "verified": "https://paradisecity.be — le pied de page du site officiel renvoie vers instagram.com/paradisecityofficial, facebook.com/paradisecityfestival et tiktok.com/@paradisecityfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Loveland Festival",
+    "instagram": "lovelandnl",
+    "site": "https://www.loveland.nl",
+    "facebook": "https://www.facebook.com/lovelandevents",
+    "tiktok": "lovelandevents",
+    "youtube": "https://www.youtube.com/user/lovelandfestival",
+    "spotify": "https://open.spotify.com/user/lovelandfestival",
+    "verified": "https://www.loveland.nl — le pied de page du site officiel renvoie vers instagram.com/lovelandnl, facebook.com/lovelandevents, tiktok.com/@lovelandevents, youtube.com/user/lovelandfestival et open.spotify.com/user/lovelandfestival (les comptes @909_festival et @burst.amsterdam cites ailleurs sur la page sont d'autres marques de l'organisateur)"
+  },
+  {
+    "kind": "event",
+    "key": "Houghton Festival",
+    "instagram": "houghtonfestival",
+    "site": "https://houghtonfestival.co.uk",
+    "verified": "https://houghtonfestival.co.uk — le site officiel renvoie vers instagram.com/houghtonfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Polifonic",
+    "instagram": "polifonic_",
+    "site": "https://www.polifonic.it",
+    "facebook": "https://www.facebook.com/polifonicfestival",
+    "soundcloud": "polifonicfestival",
+    "verified": "https://www.polifonic.it — le pied de page du site officiel renvoie vers instagram.com/polifonic_, facebook.com/polifonicfestival et soundcloud.com/polifonicfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Dekmantel Festival",
+    "instagram": "dkmntl",
+    "site": "https://www.dekmantelfestival.com",
+    "soundcloud": "dkmntl",
+    "verified": "https://www.dekmantelfestival.com/info — le pied de page du site officiel renvoie vers instagram.com/dkmntl et soundcloud.com/dkmntl"
+  },
+  {
+    "kind": "event",
+    "key": "The Peacock Society",
+    "instagram": "peacocksociety",
+    "site": "https://peacocksociety.fr",
+    "facebook": "https://www.facebook.com/thepeacocksociety",
+    "tiktok": "peacocksociety",
+    "youtube": "https://www.youtube.com/user/thepeacocksociety",
+    "verified": "https://peacocksociety.fr — le pied de page du site officiel renvoie vers instagram.com/peacocksociety, facebook.com/thepeacocksociety, tiktok.com/@peacocksociety et youtube.com/user/thepeacocksociety"
+  },
+  {
+    "kind": "event",
+    "key": "Marvellous Island",
+    "instagram": "marvellousisland",
+    "site": "https://www.marvellous-island.fr",
+    "facebook": "https://www.facebook.com/marvellous.island.festival",
+    "soundcloud": "marvellous-island-00",
+    "youtube": "https://www.youtube.com/channel/UC8YrSeiFS_p3BO-Iuhq3lOg",
+    "verified": "https://www.marvellous-island.fr — le bloc JSON-LD sameAs et l'icone sociale du pied de page renvoient tous deux vers instagram.com/marvellousisland et facebook.com/marvellous.island.festival ; soundcloud.com/marvellous-island-00 et la chaine YouTube UC8YrSeiFS_p3BO-Iuhq3lOg sont liees depuis la meme page"
+  },
+  {
+    "kind": "event",
+    "key": "Family Piknik",
+    "instagram": "familypiknikofc",
+    "site": "https://www.familypiknikfestival.com",
+    "facebook": "https://www.facebook.com/familypiknik",
+    "verified": "https://www.familypiknikfestival.com — le pied de page du site officiel renvoie vers instagram.com/familypiknikofc et facebook.com/familypiknik"
+  },
+  {
+    "kind": "event",
+    "key": "Street Parade",
+    "instagram": "streetparadeofficial",
+    "site": "https://www.streetparade.com",
+    "facebook": "https://www.facebook.com/streetparade",
+    "tiktok": "streetparadeofficial",
+    "youtube": "https://www.youtube.com/user/streetparadeZuerich",
+    "x": "streetparadeZH",
+    "verified": "https://www.streetparade.com — le pied de page du site officiel renvoie vers instagram.com/streetparadeofficial, facebook.com/streetparade, tiktok.com/@streetparadeofficial, youtube.com/user/streetparadeZuerich et x.com/streetparadeZH"
+  },
+  {
+    "kind": "event",
+    "key": "No Sleep Festival",
+    "instagram": "nosleepfestival",
+    "site": "https://www.nosleepfestival.com",
+    "facebook": "https://www.facebook.com/NSNSexit",
+    "youtube": "https://www.youtube.com/c/NoSleepFestival",
+    "verified": "https://www.nosleepfestival.com — le pied de page du site officiel renvoie vers instagram.com/nosleepfestival, facebook.com/NSNSexit et youtube.com/c/NoSleepFestival (le compte X cite sur la meme page est celui d'Exit Festival, la maison mere, donc ecarte)"
+  },
+  {
+    "kind": "event",
+    "key": "Dominator Festival",
+    "instagram": "dominatorofficial",
+    "site": "https://www.dominatorfestival.nl",
+    "facebook": "https://www.facebook.com/dominatorfestival",
+    "tiktok": "dominator.festival",
+    "youtube": "https://www.youtube.com/user/dominatorfestival",
+    "soundcloud": "dominatorfestival",
+    "verified": "https://www.dominatorfestival.nl — le pied de page du site officiel renvoie vers instagram.com/dominatorofficial, facebook.com/dominatorfestival, tiktok.com/@dominator.festival, soundcloud.com/dominatorfestival et youtube.com/user/dominatorfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Rotterdam Rave Festival",
+    "instagram": "rotterdamrave",
+    "site": "https://www.rotterdamrave.com",
+    "facebook": "https://www.facebook.com/rotterdamrave.events",
+    "tiktok": "rotterdamrave",
+    "youtube": "https://www.youtube.com/rotterdamrave",
+    "soundcloud": "rotterdamse-rave",
+    "verified": "https://www.rotterdamrave.com/events — le pied de page du site officiel renvoie vers instagram.com/rotterdamrave, facebook.com/rotterdamrave.events, tiktok.com/@rotterdamrave, youtube.com/rotterdamrave et soundcloud.com/rotterdamse-rave"
+  },
+  {
+    "kind": "event",
+    "key": "Elektric Park Festival",
+    "instagram": "elektric_park",
+    "site": "https://elektricpark.com",
+    "facebook": "https://www.facebook.com/elektricparkfestival",
+    "youtube": "https://www.youtube.com/channel/UCPoSq9W97bOWhoFZb1h3IRw",
+    "verified": "https://elektricpark.com — site officiel (og:description : « Elektric Park Festival les 5 & 6 septembre 2026 [...] open air XXL a 20 minutes de Paris », soit nos dates a Chatou) ; son pied de page renvoie vers instagram.com/elektric_park, facebook.com/elektricparkfestival et la chaine YouTube UCPoSq9W97bOWhoFZb1h3IRw"
+  },
+  {
+    "kind": "event",
+    "key": "Awakenings Summer Festival",
+    "instagram": "awakenings",
+    "site": "https://www.awakenings.com",
+    "verified": "https://www.instagram.com/awakenings/ — la bio du compte (1 M d'abonnes) annonce elle-meme « Awakenings Festival 2026 July 10-12 », « Awakenings ADE 2026 Oct 21-25 » et « @awakenings.upclose 2027 May 15 & 16 », soit exactement les trois dates que nous listons ; le site awakenings.com ne publie pas ses liens sociaux en HTML"
+  },
+  {
+    "kind": "event",
+    "key": "Awakenings ADE",
+    "instagram": "awakenings",
+    "site": "https://www.awakenings.com",
+    "verified": "https://www.instagram.com/awakenings/ — la bio du compte annonce « Awakenings ADE 2026 Oct 21-25 », soit nos dates du 21 au 25 octobre 2026 a Amsterdam ; ADE n'a pas de compte distinct, il est porte par le compte principal"
+  },
+  {
+    "kind": "event",
+    "key": "Awakenings Upclose",
+    "instagram": "awakenings.upclose",
+    "site": "https://www.awakenings.com",
+    "verified": "https://www.instagram.com/awakenings.upclose/ — la bio du compte dit « An ode to the dance floor - an intimate festival experience by @awakenings May 15 & 16, 2027 », soit nos dates a Spaarnwoude ; declinaison qui a bien son propre compte, distinct de @awakenings"
+  },
+  {
+    "kind": "event",
+    "key": "Decibel Outdoor",
+    "instagram": "officialdecibeloutdoor",
+    "site": "https://www.decibeloutdoor.com",
+    "facebook": "https://www.facebook.com/decibeloutdoorfestival",
+    "verified": "https://www.instagram.com/officialdecibeloutdoor/ — compte de 124 k abonnes qui annonce « 28/29/30 Aug 2026, Beekse Bergen, Hilvarenbeek », exactement la date et le lieu que nous listons, et reprend le slogan du site officiel decibeloutdoor.com ; le site lui-meme ne publie que les comptes de l'organisateur B2S"
+  },
+  {
+    "kind": "event",
+    "key": "Rave The Planet Parade",
+    "instagram": "ravetheplanet",
+    "site": "https://www.ravetheplanet.com",
+    "facebook": "https://www.facebook.com/ravetheplanetggmbh",
+    "tiktok": "ravetheplanet",
+    "youtube": "https://www.youtube.com/ravetheplanet",
+    "soundcloud": "ravetheplanetggmbh",
+    "verified": "https://www.ravetheplanet.com/en/ — le pied de page du site officiel (celui qui annonce la parade du 15 aout 2026 a Berlin) renvoie vers instagram.com/ravetheplanet, facebook.com/ravetheplanetggmbh, tiktok.com/@ravetheplanet, youtube.com/ravetheplanet et soundcloud.com/ravetheplanetggmbh"
+  },
+  {
+    "kind": "event",
+    "key": "Verknipt Festival",
+    "instagram": "verkniptevents",
+    "site": "https://www.verknipt.org",
+    "facebook": "https://www.facebook.com/VerkniptEvents",
+    "tiktok": "verkniptevents",
+    "youtube": "https://www.youtube.com/@verkniptevents",
+    "soundcloud": "verknipt-events",
+    "verified": "https://linktr.ee/verkniptevents — Linktree officiel de Verknipt (il renvoie vers verknipt.org et shop.verknipt.org, et ses cartes annoncent « VERKNIPT FESTIVAL 2026 LIVE SET RELEASES ») ; il liste instagram.com/verkniptevents, facebook.com/VerkniptEvents, tiktok.com/@verkniptevents, youtube.com/@verkniptevents et soundcloud.com/verknipt-events. Le site verknipt.org charge ses icones en JS et ne les expose pas en HTML"
+  },
+  {
+    "kind": "event",
+    "key": "Defqon.1 Weekend",
+    "instagram": "defqon1",
+    "site": "https://www.q-dance.com/en/events/defqon-1",
+    "facebook": "https://www.facebook.com/defqon1",
+    "tiktok": "defqon1",
+    "verified": "https://www.q-dance.com/l/defqon1-ayntk-2026-online — la page officielle « all you need to know » de Q-dance ecrit « follow our socials: Instagram: @defqon1 / TikTok: @defqon1 / Facebook: @defqon1 / Youtube: Q-dance » (les comptes @q_dance sont ceux de l'organisateur, pas du festival)"
+  },
+  {
+    "kind": "event",
+    "key": "Tomorrowland",
+    "instagram": "tomorrowland",
+    "site": "https://www.tomorrowland.com",
+    "facebook": "https://www.facebook.com/tomorrowland",
+    "verified": "https://www.facebook.com/tomorrowland/ — la page Facebook est localisee a Boom (notre ville) et affiche TOMORROWLAND.COM comme site officiel, donc lien croise avec le domaine que nous connaissons ; https://www.instagram.com/tomorrowland/ est le compte homonyme de 11 M d'abonnes (og:title « Tomorrowland (@tomorrowland) »). Le site tomorrowland.com ne publie pas ses icones sociales en HTML"
+  },
+  {
+    "kind": "event",
+    "key": "Zamna Tulum",
+    "instagram": "zamna.music",
+    "site": "https://www.zamnafestival.com",
+    "facebook": "https://www.facebook.com/zamna.music",
+    "youtube": "https://www.youtube.com/channel/UCh07liXGiNazlEH6Xj6-S0w",
+    "verified": "https://www.zamnafestival.com — site officiel qui vend les dates « Zamna Tulum » (zamnafestival.com/events?venue=zamna-tulum) ; son pied de page renvoie vers instagram.com/zamna.music, facebook.com/zamna.music et la chaine YouTube UCh07liXGiNazlEH6Xj6-S0w. C'est le seul compte que l'edition de Tulum publie"
+  },
+  {
+    "kind": "event",
+    "key": "UNUM Festival",
+    "instagram": "unumfestival",
+    "site": "https://unumfestival.com",
+    "verified": "https://www.unumfestival.com/contact — la page contact du site officiel (titre « Contact - UNUM Festival 2026 ») renvoie vers instagram.com/unumfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Positiv Festival",
+    "instagram": "positiv_festival_official",
+    "site": "https://www.positivfestival.fr",
+    "facebook": "https://www.facebook.com/positivfestival",
+    "youtube": "https://www.youtube.com/channel/UCS5Qt35fYtHEbOJ73R_qWDg",
+    "verified": "https://www.positivfestival.fr — site officiel (titre « POSITIV Festival - Théâtre antique d'Orange - Juillet/Août 2026 », soit notre lieu et nos dates) ; son pied de page renvoie vers instagram.com/positiv_festival_official, facebook.com/positivfestival et la chaine YouTube UCS5Qt35fYtHEbOJ73R_qWDg"
+  },
+  {
+    "kind": "event",
+    "key": "Boomtown Chapter Five",
+    "instagram": "boomtownfairofficial",
+    "site": "https://www.boomtownfair.co.uk",
+    "facebook": "https://www.facebook.com/boomtownofficial",
+    "tiktok": "boomtownfair",
+    "youtube": "https://www.youtube.com/c/BoomtownFairOfficial",
+    "x": "boomtownfair",
+    "verified": "https://linktr.ee/boomtownfair — Linktree officiel de Boomtown (il renvoie vers www.boomtownfair.co.uk, shop.boomtownfair.co.uk, photos.boomtownfair.co.uk et la billetterie officielle) ; il liste instagram.com/boomtownfairofficial, facebook.com/boomtownofficial, tiktok.com/@boomtownfair, youtube.com/c/BoomtownFairOfficial et x.com/boomtownfair. Le site boomtownfair.co.uk charge ses icones en JS"
+  },
+  {
+    "kind": "event",
+    "key": "Eskape Festival",
+    "facebook": "https://www.facebook.com/eskapefestival",
+    "site": "https://www.eskapefestival.com",
+    "verified": "https://www.facebook.com/eskapefestival — la page porte le titre « Eskape Festival | Montilly-sur-Noireau », soit exactement notre commune ; elle est aussi liee depuis le Linktree officiel linktr.ee/eskapefestival, qui renvoie lui-meme vers www.eskapefestival.com. Aucun compte Instagram publie par ces deux sources"
+  }
+]

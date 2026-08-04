@@ -12,7 +12,9 @@ import EventCard from "./EventCard";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
 import HeroImage from "./HeroImage";
+import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
+import { artistSocials } from "@/lib/socials";
 import { breadcrumbJsonLd, eventJsonLd } from "@/lib/seo";
 
 export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -29,6 +31,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
   if (!e) return notFound();
 
   const eventHref = `${p}${eventPath(e)}`;
+  const artistSocial = artistSocials(show.artistSlug);
   const today = todayISO();
   const done = isPast(e, today);
   const venueName = venueLabelL(show.venue, show.venueEn, lang);
@@ -101,6 +104,10 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                   {t("show.fullevent")}
                 </Link>
               </div>
+
+              {/* La page parle de cet artiste-là : c'est son compte qui a sa place ici,
+                  pas celui de la salle (elle a le sien, sur sa propre fiche). */}
+              {artistSocial && <SocialsCard s={artistSocial} lang={lang} owner="artist" />}
 
               <div className="info-card">
                 <h2 className="h-md">{t("event.location")}</h2>

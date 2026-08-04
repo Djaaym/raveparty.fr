@@ -6,11 +6,13 @@ import { VENUES, venueBySlug, eventsForVenue } from "@/lib/venues";
 import { showsForVenue } from "@/lib/shows";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { sameAs, venueSocials } from "@/lib/socials";
 import { breadcrumbJsonLd, venueJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
 
 export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -21,6 +23,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
 
   const today = todayISO();
   const name = venueLabelL(venue.name, venue.nameEn, lang);
+  const social = venueSocials(slug);
   const events = eventsForVenue(slug);
   const live = events.filter((e) => !isPast(e, today));
   const genres = [...new Set(events.flatMap((e) => e.genres))];
@@ -45,7 +48,12 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
 
   return (
     <>
-      <JsonLd data={[venueJsonLd({ ...venue, name }, live, lang), breadcrumbJsonLd(trail, lang)]} />
+      <JsonLd
+        data={[
+          venueJsonLd({ ...venue, name }, live, lang, sameAs(social)),
+          breadcrumbJsonLd(trail, lang),
+        ]}
+      />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
@@ -68,6 +76,12 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
               </Link>
             ))}
           </div>
+
+          {social && (
+            <div style={{ marginTop: 28 }}>
+              <SocialsCard s={social} lang={lang} owner="event" />
+            </div>
+          )}
 
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("venue.agenda")}

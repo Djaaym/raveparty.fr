@@ -7,12 +7,14 @@ import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { showsForArtist } from "@/lib/shows";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { artistSocials, sameAs } from "@/lib/socials";
 import { artistJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import AlertForm from "./AlertForm";
+import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
 
 export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -21,6 +23,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const artist = artistBySlug(slug);
   if (!artist) return notFound();
   const bio = bioFor(slug);
+  const social = artistSocials(slug);
 
   const today = todayISO();
   const events = eventsForArtist(slug);
@@ -55,7 +58,12 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
 
   return (
     <>
-      <JsonLd data={[artistJsonLd(artist.name, artist.slug, live, lang), breadcrumbJsonLd(trail, lang)]} />
+      <JsonLd
+        data={[
+          artistJsonLd(artist.name, artist.slug, live, lang, sameAs(social)),
+          breadcrumbJsonLd(trail, lang),
+        ]}
+      />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
@@ -128,6 +136,15 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
               </Link>
             ))}
           </div>
+
+          {/* Le compte de l'artiste, quand la recherche a pu l'attribuer sans ambiguïté.
+              Un nom de scène peut cacher deux personnes — pas de compte plutôt qu'un
+              compte plausible. */}
+          {social && (
+            <div style={{ marginTop: 28 }}>
+              <SocialsCard s={social} lang={lang} owner="artist" />
+            </div>
+          )}
 
           {/* One section, not two. The text list of shows and the grid of events were
               the same dates twice over — but they pointed at different pages, and the
