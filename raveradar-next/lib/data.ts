@@ -775,24 +775,30 @@ export const PHOTOS: Record<number, string> = {
   214: "fly-open-air-edinburgh-20b6eb915b.jpg", // FLY Open Air Edinburgh — Edinburgh
   215: "waterworks-festival-823952cc8b.jpg", // Waterworks Festival — London
   216: "concorde-2-aab14c4a9e.jpg", // Todd Terje at Concorde 2 — Brighton
+  217: "bassiani-6775f5b573.jpg", // Bassiani: SPANDAU20 Nacht — Tbilisi
   218: "klub-k4-91abedea48.jpg", // Klub K4 : ouverture de saison — Ljubljana
+  219: "jaeger-ce91e352b4.jpg", // Frædag : Elli Acula — Oslo
   220: "akvarium-klub-fa15481963.jpg", // AkvaWaves x IAM : Juliet Fox — Budapest
   221: "lunchmeat-festival-10b246593c.jpg", // Lunchmeat Festival — Prague
   222: "ava-london-36444bbc1e.jpg", // AVA London — London
+  223: "jaeger-ce91e352b4.jpg", // Frædag : Tony Humphries — Oslo
   224: "swg3-galvanizers-c697ecaf88.jpg", // FLY House Heads Glasgow — Glasgow
   225: "peccavi-alex-stein-a38fb01b6d.jpg", // Peccāvī : Alex Stein — Copenhagen
   226: "tvornica-kulture-9dab5095e1.jpg", // Autechre a Tvornica Kulture — Zagreb
+  227: "jasna-1-1d9a582509.jpg", // Jasna 1 : Donato Dozzy x Unsound — Warsaw
   228: "the-warehouse-4b3dd2c7d1.jpg", // Teletech Leeds: Warehouse — Leeds
   229: "toplocentrala-c73f2deeb6.jpg", // Autechre a Toplocentrala — Sofia
   230: "club-guesthouse-96e5df8778.jpg", // Autechre au Club Guesthouse — Bucharest
   231: "verknipt-poland-warsaw-3b39542ab4.jpg", // Verknipt Poland - Warsaw — Warsaw
   232: "teletech-liverpool-442c8f97f0.jpg", // Teletech Liverpool — Liverpool
   233: "no-bounds-festival-23dc34a73d.jpg", // No Bounds Festival — Sheffield
+  234: "insomnia-festival-27ffc5f3f5.jpg", // Insomnia Festival — Tromsø
   235: "index-192b3fa955.jpg", // Index: Lane 8 — Dublin
   236: "culture-box-xinobi-492ef222cd.jpg", // Culture Box : Xinobi — Copenhagen
   237: "teletech-glasgow-02e9e6043b.jpg", // Teletech Glasgow — Glasgow
   238: "elrow-horroween-3dba1f8d0a.jpg", // Elrow Horroween — London
   239: "iceland-airwaves-60ce167aac.jpg", // Iceland Airwaves — Reykjavík
+  240: "jasna-1-1d9a582509.jpg", // Jasna 1 : 999999999 — Warsaw
   241: "mayday-poland-2026-iconic-5ef82cf916.jpg", // MAYDAY Poland 2026 : Iconic — Katowice
   242: "swg3-galvanizers-c697ecaf88.jpg", // SYNRG: Francesco Del Garda & DJ Masda — Glasgow
   243: "teletech-newcastle-b5e500d143.jpg", // Teletech Newcastle — Newcastle
@@ -814,6 +820,7 @@ export const PHOTOS: Record<number, string> = {
   260: "parklife-b75be4a009.jpg", // Parklife — Manchester
   261: "electric-castle-568b6a76fd.jpg", // Electric Castle — Cluj-Napoca
   316: "draaimolen-festival-72589b102e.jpg", // Draaimolen Festival — Tilburg
+  317: "galopprennbahn-freudenau-bf71692d7f.jpg", // Beatpatrol Festival — Vienna
   318: "decibel-open-air-2475b1384d.jpg", // Decibel Open Air — Florence
   319: "zamna-primer-athens-abe62a1382.jpg", // ZAMNA × PRIMER Athens — Athens
   320: "eternal-sun-festival-d9609ef61b.jpg", // Eternal Sun Festival — Sougia
@@ -827,7 +834,9 @@ export const PHOTOS: Record<number, string> = {
   328: "basis-x-hardline-w-alarico-d735c51ebb.jpg", // BASIS x HARDLINE w/ Alarico — Utrecht
   329: "smeerboel-festival-4b63355d2e.jpg", // Smeerboel Festival — Utrecht
   330: "auditorium-parco-della-musica-ennio-morricone-0a2512e872.jpg", // Dissonanze — Rome
+  331: "reworks-41d6ed9c05.jpg", // reworks — Thessaloniki
   332: "basis-x-bcco-w-ignez-ca2f6658b9.jpg", // BASIS x BCCO w/ Ignez — Utrecht
+  333: "postgarage-150601803c.jpg", // NZNZ à la Postgarage — Graz
   334: "time-warp-spain-28d22a97f2.jpg", // Time Warp Spain — Madrid
   335: "bloom-festival-26e6eba58c.jpg", // Bloom Festival — Porto
   336: "anyma-den-global-tour-ea88169b65.jpg", // Anyma · ÆDEN Global Tour — Milan
@@ -879,6 +888,7 @@ export const PHOTOS: Record<number, string> = {
   382: "rewire-b996d0ce28.jpg", // Rewire — The Hague
   383: "rong-open-air-festival-malta-51f70a9f21.jpg", // Rong Open Air Festival Malta — St Paul's Bay
   384: "sunny-side-festival-94e8f1370b.jpg", // Sunny Side Festival — Attard
+  385: "extrema-outdoor-belgium-3bf915ff53.jpg", // Extrema Outdoor Belgium — Houthalen-Helchteren
   386: "sputnik-spring-break-0c94964caa.jpg", // Sputnik Spring Break — Pouch
   387: "toffler-festival-342af6307c.jpg", // Toffler Festival — Rotterdam
   388: "intents-festival-f4d9d0610c.jpg", // Intents Festival — Oisterwijk
@@ -1003,32 +1013,24 @@ export const PHOTOS: Record<number, string> = {
 };
 /* PHOTOS:end */
 
-/* Une édition sans visuel propre emprunte celui d'une autre édition du même festival
- * (clé = id sans image, valeur = id qui en a une). Rien d'autre n'est mutualisé ici :
- * deux soirées différentes d'une même salle partagent déjà un fichier via PHOTOS. */
-/* ALIAS:start */
-const IMAGE_ALIAS: Record<number, number> = {};
-/* ALIAS:end */
-const imgKey = (id: number): number => IMAGE_ALIAS[id] ?? id;
-
 /** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine.
  *  Absolute on purpose: a relative path in an og:image or a schema.org `image` is
  *  ignored by the crawlers that read them. */
-export const imageUrl = (e: RaveEvent): string | null => {
-  const k = imgKey(e.id);
-  return IMAGES[k] ? IMG_BASE + IMAGES[k] : PHOTOS[k] ? SITE_URL + PHOTO_BASE + PHOTOS[k] : null;
-};
+export const imageUrl = (e: RaveEvent): string | null =>
+  IMAGES[e.id]
+    ? IMG_BASE + IMAGES[e.id]
+    : PHOTOS[e.id]
+      ? SITE_URL + PHOTO_BASE + PHOTOS[e.id]
+      : null;
 /** Compressed variant served alongside each poster: ~60-100 KB of WebP instead of
  *  ~2.5 MB of PNG, cropped to the 4:5 of a card. A listing renders 24 of these, so
  *  the full-size file is never what a card should load. */
-export const imageThumb = (e: RaveEvent): string | null => {
-  const k = imgKey(e.id);
-  return IMAGES[k]
-    ? IMG_BASE + IMAGES[k].replace(/\.(png|jpe?g)$/, "_min.webp")
-    : PHOTOS[k]
-      ? PHOTO_BASE + PHOTOS[k].replace(/\.jpg$/, "_min.webp")
+export const imageThumb = (e: RaveEvent): string | null =>
+  IMAGES[e.id]
+    ? IMG_BASE + IMAGES[e.id].replace(/\.(png|jpe?g)$/, "_min.webp")
+    : PHOTOS[e.id]
+      ? PHOTO_BASE + PHOTOS[e.id].replace(/\.jpg$/, "_min.webp")
       : null;
-};
 /** composite CSS background: real poster on top, genre gradient as fallback */
 export const cardBg = (e: RaveEvent): string => {
   const url = imageThumb(e);

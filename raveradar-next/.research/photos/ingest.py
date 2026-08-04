@@ -5,7 +5,7 @@
   python3 .research/photos/ingest.py           # télécharge, optimise, patche data.ts
 
 Pour chaque URL retenue on produit deux fichiers dans public/posters/ :
-  {slug}.jpg       ratio d'origine, ≤1600 px — Open Graph et JSON-LD
+  {slug}.jpg       ratio d'origine, ≤1200 px — Open Graph et JSON-LD
   {slug}_min.webp  crop 4:5 à 560×700       — le poster des cartes
 
 Deux événements qui pointent la même URL (une photo de salle partagée par toutes
@@ -23,7 +23,7 @@ DATA_TS = ROOT / "lib" / "data.ts"
 MIN_WIDTH = 500          # en dessous, la photo pixellise sur une carte 4:5
 MIN_BYTES = 15_000
 FLAT_STD = 18            # écart-type sous lequel l'image est probablement un logo sur fond uni
-FULL_MAX = 1600
+FULL_MAX = 1200          # largeur de référence Open Graph ; au-delà on alourdit le repo pour rien
 THUMB_W, THUMB_H = 560, 700
 
 from PIL import Image, ImageStat

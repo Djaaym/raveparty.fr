@@ -14,6 +14,8 @@
   "143": "snowboxx-8757abfa5f.jpg",
   "436": "rise-festival-4fedaab77a.jpg",
   "127": "amsterdam-dance-event-ade-d8ddc16dad.jpg",
+  "227": "jasna-1-1d9a582509.jpg",
+  "240": "jasna-1-1d9a582509.jpg",
   "339": "beonix-music-festival-05683f7696.jpg",
   "214": "fly-open-air-edinburgh-20b6eb915b.jpg",
   "404": "folamour-au-cabaret-sauvage-bbe5fbbe9f.jpg",
@@ -62,6 +64,10 @@
   "330": "auditorium-parco-della-musica-ennio-morricone-0a2512e872.jpg",
   "163": "terminal-v-croatia-50d7eb0964.jpg",
   "254": "gottwood-festival-651647b51a.jpg",
+  "219": "jaeger-ce91e352b4.jpg",
+  "223": "jaeger-ce91e352b4.jpg",
+  "331": "reworks-41d6ed9c05.jpg",
+  "217": "bassiani-6775f5b573.jpg",
   "386": "sputnik-spring-break-0c94964caa.jpg",
   "337": "bird-eebaaa0b9e.jpg",
   "382": "rewire-b996d0ce28.jpg",
@@ -72,6 +78,7 @@
   "235": "index-192b3fa955.jpg",
   "252": "field-day-2bf3e1d1a6.jpg",
   "320": "eternal-sun-festival-d9609ef61b.jpg",
+  "234": "insomnia-festival-27ffc5f3f5.jpg",
   "405": "versus-iii-the-last-round-bde901538f.jpg",
   "424": "road-to-invasion-fe0a7b70ed.jpg",
   "412": "synthony-au-zenith-de-paris-59f06bdf02.jpg",
@@ -211,6 +218,7 @@
   "119": "syndicate-fef07753a4.jpg",
   "395": "ostend-beach-festival-9877ebba94.jpg",
   "253": "copenhagen-distortion-d2c6cbcd61.jpg",
+  "333": "postgarage-150601803c.jpg",
   "149": "mayday-459bfe1098.jpg",
   "440": "plenitude-arena-d564654679.jpg",
   "349": "modeselektor-classics-vol-01-49d1e02ef7.jpg",
@@ -219,6 +227,7 @@
   "394": "electric-love-festival-b216f8cc64.jpg",
   "493": "wilde-renate-154c8292c0.jpg",
   "258": "pohoda-festival-07d6f3d7d0.jpg",
+  "317": "galopprennbahn-freudenau-bf71692d7f.jpg",
   "380": "reverze-2cde86f14b.jpg",
   "256": "hideout-festival-23837a66a8.jpg",
   "448": "le-transbordeur-0bfba97ac9.jpg",
@@ -250,6 +259,7 @@
   "318": "decibel-open-air-2475b1384d.jpg",
   "131": "dockyard-festival-ade-7daa27f1d3.jpg",
   "324": "rauwe-kicks-e7c6447976.jpg",
+  "385": "extrema-outdoor-belgium-3bf915ff53.jpg",
   "159": "festival-plein-air-284b478ce3.jpg",
   "388": "intents-festival-f4d9d0610c.jpg",
   "325": "into-the-madness-82507b6935.jpg",
@@ -296,25 +306,6 @@
   "319": "zamna-primer-athens-abe62a1382.jpg",
   "155": "nameless-festival-dfb638812b.jpg"
  },
- "still_missing": [
-  217,
-  219,
-  223,
-  227,
-  234,
-  240,
-  317,
-  331,
-  333,
-  385
- ],
- "rejected": [
-  {
-   "url": "https://www.discovergreece.com/sites/default/files/2025-12/Reworks%202026.jpg",
-   "why": "trop léger (4840 o)",
-   "ids": [
-    331
-   ]
-  }
- ]
+ "still_missing": [],
+ "rejected": []
 }

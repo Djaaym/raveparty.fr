@@ -1,0 +1,92 @@
+[
+ {
+  "id": 217,
+  "image": "https://images-prod.dazeddigital.com/1600/0-0-3000-2000/azure/dazed-prod/1240/8/1248810.JPG",
+  "sourcePage": "https://www.dazeddigital.com/music/article/41340/1/inside-bassiani-tbilisi-georgia-techno-protests",
+  "credit": "Dazed - \"How techno became the sound of protest in Georgia\"",
+  "kind": "venue",
+  "width": 1600,
+  "note": "dancefloor du Bassiani sous lumiere rouge, photo d'illustration du reportage Dazed tourne dans le club (l'ancienne piscine du stade Dinamo). Le site officiel bassiani.com est une SPA dont les seuls visuels sont des affiches typographiques sans photo."
+ },
+ {
+  "id": 219,
+  "image": "https://i.ytimg.com/vi/FTOceOVyfuo/maxresdefault.jpg",
+  "sourcePage": "https://www.youtube.com/watch?v=FTOceOVyfuo",
+  "credit": "Boiler Room - \"Telephones | Boiler Room Oslo: Jaeger X Fraedag\"",
+  "kind": "venue",
+  "width": 1280,
+  "note": "interieur du Jaeger (sous-sol lambrisse) pendant une soiree Fraedag, filmee par Boiler Room - exactement le concept de cet evenement. Chaine officielle Boiler Room verifiee via oEmbed. Le site jaegeroslo.no ne publie que des affiches (mediatheque WordPress passee en revue)."
+ },
+ {
+  "id": 223,
+  "image": "https://i.ytimg.com/vi/FTOceOVyfuo/maxresdefault.jpg",
+  "sourcePage": "https://www.youtube.com/watch?v=FTOceOVyfuo",
+  "credit": "Boiler Room - \"Telephones | Boiler Room Oslo: Jaeger X Fraedag\"",
+  "kind": "venue",
+  "width": 1280,
+  "note": "meme photo de salle que l'id 219 (meme lieu, meme soiree Fraedag)"
+ },
+ {
+  "id": 227,
+  "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/20250913-JAC_9544.jpg?fit=cover&width=2016&s=oA6s7duChnZOsPOG855ZtFKIDJPVjzuDKNtVnLhTbm8",
+  "sourcePage": "https://mixmag.com.pl/feature/jasna-1-nie-jeste%C5%9Bmy-graczem-business-techno-i-nie-b%C4%99dziemy-z-takimi-imprezami-konkurowa%C4%87",
+  "credit": "Karolina Jackowska / Mixmag Poland",
+  "kind": "venue",
+  "width": 2016,
+  "note": "salle principale de Jasna 1 pendant les 8 ans du club (13/09/2025), photo d'ouverture du reportage Mixmag Poland consacre au club. La mediatheque WordPress de jasna1.com ne contient que des affiches."
+ },
+ {
+  "id": 234,
+  "image": "https://insomniafestival.no/wp-content/uploads/2023/05/IMG_9744NataliaSzczerba-scaled.jpeg",
+  "sourcePage": "https://insomniafestival.no/",
+  "credit": "Natalia Szczerba / Insomnia Festival",
+  "kind": "festival",
+  "width": 2560,
+  "note": "photo live d'une edition precedente, tiree de la mediatheque officielle du festival (wp-json) : DJ sous lasers rouges. L'og:image du site n'est qu'un logo sur degrade."
+ },
+ {
+  "id": 240,
+  "image": "https://cdn.craft.cloud/0bfe5635-ac77-4d17-9f4e-811b54bed2f3/assets/images/20250913-JAC_9544.jpg?fit=cover&width=2016&s=oA6s7duChnZOsPOG855ZtFKIDJPVjzuDKNtVnLhTbm8",
+  "sourcePage": "https://mixmag.com.pl/feature/jasna-1-nie-jeste%C5%9Bmy-graczem-business-techno-i-nie-b%C4%99dziemy-z-takimi-imprezami-konkurowa%C4%87",
+  "credit": "Karolina Jackowska / Mixmag Poland",
+  "kind": "venue",
+  "width": 2016,
+  "note": "meme photo de salle que l'id 227 (Jasna 1, Varsovie)"
+ },
+ {
+  "id": 317,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Wien_-_Galopprennbahn_%281%29.JPG/1920px-Wien_-_Galopprennbahn_%281%29.JPG",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Wien_-_Galopprennbahn_(1).JPG",
+  "credit": "C. Stadler/Bwag, CC BY-SA 4.0 via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Hof-Tribune de la Galopprennbahn Freudenau a Vienne, le site du Beatpatrol Festival. Licence libre."
+ },
+ {
+  "id": 331,
+  "image": "https://i.ytimg.com/vi/ve4JgWx33Cs/maxresdefault.jpg",
+  "sourcePage": "https://www.youtube.com/watch?v=ve4JgWx33Cs",
+  "credit": "Reworks Festival - aftermovie \"reworks agora 2025\"",
+  "kind": "festival",
+  "width": 1280,
+  "note": "vue aerienne de nuit de la scene et de la foule du reworks agora 2025, visuel de l'aftermovie officiel (chaine Reworks Festival verifiee via oEmbed). reworks.gr renvoie un captcha (202) depuis le conteneur."
+ },
+ {
+  "id": 333,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Graz_Postgarage_L1090514.jpg/1920px-Graz_Postgarage_L1090514.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg",
+  "credit": "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Postgarage de Graz (ancienne ecole d'equitation d'artillerie), vue depuis l'Elisabethinergasse. Licence libre."
+ },
+ {
+  "id": 385,
+  "image": "https://www.extrema.be/upload/media/default/9b9f/f2/7c32ca93c58da935b7b0c427bd2a455f91761265.jpg",
+  "sourcePage": "https://www.extrema.be/en/impact",
+  "credit": "Extrema Outdoor Belgium",
+  "kind": "festival",
+  "width": 2048,
+  "note": "lasers au-dessus de la foule, photo hebergee par l'organisateur sur extrema.be (page Impact). L'og:image de la home n'est qu'un logo hippocampe sur fond violet."
+ }
+]
