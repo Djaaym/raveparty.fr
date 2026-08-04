@@ -41,23 +41,38 @@ function attributesFor(a: AlertInput) {
   };
 }
 
-async function brevo(a: AlertInput): Promise<SubscribeResult> {
-  const res = await fetch("https://api.brevo.com/v3/contacts", {
+function brevoPost(a: AlertInput, withAttributes: boolean) {
+  return fetch("https://api.brevo.com/v3/contacts", {
     method: "POST",
     headers: { "api-key": process.env.BREVO_API_KEY!, "content-type": "application/json", accept: "application/json" },
     body: JSON.stringify({
       email: a.email,
-      attributes: attributesFor(a),
+      ...(withAttributes ? { attributes: attributesFor(a) } : {}),
       listIds: [Number(process.env.BREVO_LIST_ID)],
       // Without this, re-subscribing an address Brevo already knows is a hard 400 —
       // and someone setting a second alert is the normal case, not an error.
       updateEnabled: true,
     }),
   });
-  if (res.ok) return { ok: true, alreadyKnown: false };
-  if (res.status === 204) return { ok: true, alreadyKnown: true };
-  const detail = await res.text().catch(() => "");
-  return { ok: false, status: res.status, reason: detail.slice(0, 300) || res.statusText };
+}
+
+async function brevo(a: AlertInput): Promise<SubscribeResult> {
+  let res = await brevoPost(a, true);
+  if (!res.ok && res.status !== 204) {
+    const detail = await res.text().catch(() => "");
+    // Brevo refuses an attribute that was never declared in the account, and the whole
+    // subscription dies with it. Losing the *detail* of an alert is recoverable; losing
+    // the address is not — so save the contact anyway and make the omission loud.
+    if (/attribute/i.test(detail)) {
+      console.error("[alerts] Brevo rejected the custom attributes — run scripts/brevo-setup.mjs. " + detail.slice(0, 200));
+      res = await brevoPost(a, false);
+      if (res.ok || res.status === 204) return { ok: true, alreadyKnown: res.status === 204 };
+      const second = await res.text().catch(() => "");
+      return { ok: false, status: res.status, reason: second.slice(0, 300) || res.statusText };
+    }
+    return { ok: false, status: res.status, reason: detail.slice(0, 300) || res.statusText };
+  }
+  return { ok: true, alreadyKnown: res.status === 204 };
 }
 
 async function resend(a: AlertInput): Promise<SubscribeResult> {
