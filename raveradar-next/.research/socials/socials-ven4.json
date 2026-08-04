@@ -1,0 +1,78 @@
+[
+  {
+    "kind": "venue",
+    "key": "Blitz Club",
+    "instagram": "blitz_music_club",
+    "site": "https://blitz.club",
+    "facebook": "https://www.facebook.com/blitzmusicclub/",
+    "x": "BLITZ_club_muc",
+    "verified": "https://blitz.club — le site officiel du club (Museumsinsel, Munich) renvoie vers instagram.com/blitz_music_club, facebook.com/blitzmusicclub et twitter.com/BLITZ_club_muc"
+  },
+  {
+    "kind": "venue",
+    "key": "Tanzhaus West",
+    "instagram": "tanzhaus.west",
+    "site": "https://www.tanzhaus-west.de",
+    "facebook": "https://www.facebook.com/TanzhausWest",
+    "verified": "https://www.tanzhaus-west.de — le pied de page du site officiel (Francfort) renvoie vers instagram.com/tanzhaus.west et facebook.com/TanzhausWest"
+  },
+  {
+    "kind": "venue",
+    "key": "Conne Island",
+    "site": "https://www.conne-island.de",
+    "facebook": "https://www.facebook.com/conneisland",
+    "verified": "https://www.conne-island.de — le site officiel du Conne Island (Leipzig-Connewitz) renvoie vers facebook.com/conneisland ; aucun Instagram officiel publié par la salle"
+  },
+  {
+    "kind": "venue",
+    "key": "La Gravière",
+    "instagram": "lagraviereliveclub",
+    "site": "https://lagraviere.ch",
+    "facebook": "https://www.facebook.com/lagraviereliveclub/",
+    "ra": "https://ra.co/clubs/60218",
+    "verified": "https://lagraviere.ch/infos — la page Infos pratiques du site officiel renvoie vers instagram.com/lagraviereliveclub, facebook.com/lagraviereliveclub et ra.co/clubs/60218 ; la même page confirme Genève (« depuis l'extérieur de Genève »)"
+  },
+  {
+    "kind": "venue",
+    "key": "Audio Club",
+    "instagram": "audio_club",
+    "site": "https://www.audio-club.ch",
+    "facebook": "https://www.facebook.com/audiogeneva",
+    "soundcloud": "audioclubgeneva",
+    "verified": "https://www.audio-club.ch/contact — la page contact du site officiel affiche l'adresse « Rue Boissonnas 20, 1227 Genève » et renvoie vers instagram.com/audio_club, facebook.com/audiogeneva et soundcloud.com/audioclubgeneva"
+  },
+  {
+    "kind": "venue",
+    "key": "Doornroosje",
+    "instagram": "doornroosjenl",
+    "site": "https://www.doornroosje.nl",
+    "facebook": "https://www.facebook.com/doornroosjenl/",
+    "youtube": "https://www.youtube.com/channel/UCMvmpoOGg0w6eVeLwXa4X5A",
+    "verified": "https://www.doornroosje.nl — le pied de page du site officiel (Nijmegen) renvoie vers instagram.com/doornroosjenl, facebook.com/doornroosjenl et youtube.com/channel/UCMvmpoOGg0w6eVeLwXa4X5A"
+  },
+  {
+    "kind": "venue",
+    "key": "Tresor / Globus",
+    "instagram": "tresorberlin",
+    "site": "https://www.tresorberlin.com",
+    "facebook": "https://www.facebook.com/tresorberlin",
+    "soundcloud": "tresorberlin",
+    "verified": "https://www.tresorberlin.com — le site officiel du Tresor (Köpenicker Str. 70, Berlin ; Globus est l'étage supérieur du même bâtiment) renvoie vers instagram.com/tresorberlin, facebook.com/tresorberlin et soundcloud.com/tresorberlin"
+  },
+  {
+    "kind": "venue",
+    "key": "Cocoricò, Via Chieti 44",
+    "instagram": "cocoricoriccione",
+    "site": "https://cocorico.it",
+    "facebook": "https://www.facebook.com/cocoricoofficial",
+    "tiktok": "cocoricoriccione",
+    "verified": "https://cocorico.it — le site officiel de la discoteca Cocoricò renvoie vers instagram.com/cocoricoriccione, facebook.com/cocoricoofficial et tiktok.com/@cocoricoriccione (le handle porte Riccione)"
+  },
+  {
+    "kind": "venue",
+    "key": "Postgarage",
+    "instagram": "postgarage",
+    "site": "https://www.postgarage.at",
+    "verified": "https://www.postgarage.at — le site officiel (« Veranstaltungshalle Graz-Gries », Dreihackengasse 42, 8020 Graz) renvoie vers instagram.com/postgarage"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "kind": "venue",
+    "key": "Control Club",
+    "instagram": "clubcontrol",
+    "site": "https://control-club.ro",
+    "facebook": "https://www.facebook.com/clubcontrol/",
+    "youtube": "https://www.youtube.com/c/ControlClub",
+    "soundcloud": "control-club",
+    "verified": "https://control-club.ro — le site officiel du Control Club (Bucarest) renvoie lui-meme vers instagram.com/clubcontrol, facebook.com/clubcontrol, youtube.com/c/ControlClub et soundcloud.com/control-club"
+  },
+  {
+    "kind": "venue",
+    "key": "SWG3 Galvanizers Yard",
+    "instagram": "swg3glasgow",
+    "site": "https://swg3.tv",
+    "facebook": "https://www.facebook.com/SWG3glasgow/",
+    "x": "SWG3glasgow",
+    "youtube": "https://www.youtube.com/channel/UCqab9G6vkN7ZrTzxAj69jLA",
+    "verified": "https://swg3.tv — le pied de page du site officiel de SWG3 (100 Eastvale Place, Glasgow G3 8QG) renvoie vers instagram.com/swg3glasgow, facebook.com/SWG3glasgow, twitter.com/SWG3glasgow et sa chaine YouTube. Le Galvanizers Yard est l'un des espaces de SWG3"
+  },
+  {
+    "kind": "venue",
+    "key": "SWG3 Galvanizers",
+    "instagram": "swg3glasgow",
+    "site": "https://swg3.tv",
+    "facebook": "https://www.facebook.com/SWG3glasgow/",
+    "x": "SWG3glasgow",
+    "youtube": "https://www.youtube.com/channel/UCqab9G6vkN7ZrTzxAj69jLA",
+    "verified": "https://swg3.tv — le pied de page du site officiel de SWG3 (Glasgow) renvoie vers instagram.com/swg3glasgow, facebook.com/SWG3glasgow, twitter.com/SWG3glasgow et sa chaine YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "SWG3 Warehouse",
+    "instagram": "swg3glasgow",
+    "site": "https://swg3.tv",
+    "facebook": "https://www.facebook.com/SWG3glasgow/",
+    "x": "SWG3glasgow",
+    "youtube": "https://www.youtube.com/channel/UCqab9G6vkN7ZrTzxAj69jLA",
+    "verified": "https://swg3.tv — le pied de page du site officiel de SWG3 (Glasgow) renvoie vers instagram.com/swg3glasgow, facebook.com/SWG3glasgow, twitter.com/SWG3glasgow et sa chaine YouTube. Le Warehouse est l'une des salles de SWG3"
+  },
+  {
+    "kind": "venue",
+    "key": "LAB11",
+    "instagram": "lab11warehouse",
+    "site": "https://www.lab11.co.uk",
+    "facebook": "https://www.facebook.com/LAB11venue",
+    "x": "Lab11Warehouse",
+    "verified": "https://www.lab11.co.uk — le site officiel de LAB11 (Trent Street, Digbeth, Birmingham B5 5NR) renvoie vers instagram.com/lab11warehouse, facebook.com/LAB11venue et twitter.com/Lab11Warehouse"
+  },
+  {
+    "kind": "venue",
+    "key": "FOLD",
+    "instagram": "fold.ldn",
+    "site": "https://fold.london",
+    "facebook": "https://www.facebook.com/fld.ldn",
+    "soundcloud": "foldldn",
+    "youtube": "https://www.youtube.com/foldlondon",
+    "verified": "https://fold.london — le site officiel de FOLD (Gillian House, Stephenson Street, London E16 4SA) renvoie en header et footer vers instagram.com/fold.ldn, facebook.com/fld.ldn, soundcloud.com/foldldn et youtube.com/foldlondon"
+  },
+  {
+    "kind": "venue",
+    "key": "Akvarium Klub",
+    "instagram": "akvariumklub",
+    "site": "https://www.akvariumklub.hu",
+    "facebook": "https://www.facebook.com/akvariumklub/",
+    "tiktok": "akvariumklub",
+    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw",
+    "verified": "https://www.akvariumklub.hu — le site officiel de l'Akvarium Klub (1051 Budapest, Erzsebet ter 12) renvoie vers instagram.com/akvariumklub, facebook.com/akvariumklub, tiktok.com/@akvariumklub et sa chaine YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Turbina",
+    "instagram": "turbinabudapest",
+    "site": "https://turbinabudapest.hu",
+    "facebook": "https://www.facebook.com/turbinabudapest/",
+    "verified": "https://turbinabudapest.hu/en — le site officiel de Turbina (1082 Budapest, Vajdahunyad utca 4) renvoie vers instagram.com/turbinabudapest et facebook.com/turbinabudapest"
+  }
+]

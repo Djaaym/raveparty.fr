@@ -1,0 +1,187 @@
+[
+  {
+    "kind": "artist",
+    "key": "Adam Beyer",
+    "instagram": "realadambeyer",
+    "site": "https://www.adambeyer.se",
+    "facebook": "https://www.facebook.com/realadambeyer",
+    "soundcloud": "adambeyer",
+    "x": "realAdamBeyer",
+    "verified": "https://www.drumcode.se/artists/adam-beyer — la page artiste du site officiel de Drumcode (son propre label) liste dans sa section « Links » adambeyer.se, facebook.com/realadambeyer, soundcloud.com/adambeyer, instagram.com/realadambeyer et twitter.com/realAdamBeyer"
+  },
+  {
+    "kind": "artist",
+    "key": "NTO",
+    "instagram": "ntomusic",
+    "facebook": "https://www.facebook.com/nto.music",
+    "soundcloud": "ntonto",
+    "spotify": "https://open.spotify.com/artist/7ry8L53T4oJtSIogGYuioq",
+    "verified": "https://wartiste.com/en/artists/nto — la fiche artiste de Wart Music, son agence de booking (contact joran@wartiste.com), liste instagram.com/ntomusic, facebook.com/nto.music, soundcloud.com/ntonto et le Spotify 7ry8L53T4oJtSIogGYuioq"
+  },
+  {
+    "kind": "artist",
+    "key": "Joris Delacroix",
+    "instagram": "joris_delacroix",
+    "site": "https://jorisdelacroix.fr",
+    "facebook": "https://www.facebook.com/jorisdelacroix/",
+    "soundcloud": "jorisdelacroix",
+    "spotify": "https://open.spotify.com/artist/3HRRzIZNQFus3xlUx2xKy1",
+    "youtube": "https://www.youtube.com/channel/UC_AlTNYYHf8v4zMgUZoSaMA",
+    "x": "jorisdelacroix",
+    "verified": "https://jorisdelacroix.fr — le site officiel renvoie lui-même vers soundcloud.com/jorisdelacroix, instagram.com/joris_delacroix, facebook.com/jorisdelacroix, twitter.com/jorisdelacroix, le Spotify 3HRRzIZNQFus3xlUx2xKy1 et sa chaîne YouTube"
+  },
+  {
+    "kind": "artist",
+    "key": "Angerfist",
+    "instagram": "angerfist_official",
+    "site": "https://angerfist.nl",
+    "facebook": "https://www.facebook.com/angerfistmusic/",
+    "soundcloud": "angerfistmusic",
+    "youtube": "https://www.youtube.com/user/TheAngerfistHardcore",
+    "x": "DJ_ANGERFIST",
+    "verified": "https://angerfist.nl — le site officiel (Danny Masseling, hardcore NL) renvoie vers facebook.com/angerfistmusic, instagram.com/angerfist_official, soundcloud.com/angerfistmusic, youtube.com/user/TheAngerfistHardcore et twitter.com/DJ_ANGERFIST"
+  },
+  {
+    "kind": "artist",
+    "key": "Jeff Mills",
+    "instagram": "jeff_mills_official",
+    "site": "https://www.axisrecords.com",
+    "x": "DJJeffMills",
+    "verified": "https://www.axisrecords.com — le pied de page du site d'Axis Records, le label qu'il a fondé en 1992, renvoie vers instagram.com/jeff_mills_official et twitter.com/DJJeffMills"
+  },
+  {
+    "kind": "artist",
+    "key": "I Hate Models",
+    "instagram": "ihatemodels1",
+    "soundcloud": "ihatemodels",
+    "verified": "https://www.apelago.com/artist-roster/i-hate-models — la fiche de son agence de booking mondiale Apelago (contact nina@apelago.com) renvoie vers instagram.com/ihatemodels1 et soundcloud.com/ihatemodels"
+  },
+  {
+    "kind": "artist",
+    "key": "Amelie Lens",
+    "instagram": "amelie_lens",
+    "site": "https://www.amelielens.com",
+    "facebook": "https://www.facebook.com/amelielensmusic/",
+    "soundcloud": "amelielens",
+    "spotify": "https://open.spotify.com/artist/5Ho1vKl1Uz8bJlk4vbmvmf",
+    "youtube": "https://www.youtube.com/channel/UCg2JFUP67ZdKzehy8TWMUmw",
+    "x": "amelielens",
+    "verified": "https://www.amelielens.com — le site officiel renvoie vers instagram.com/amelie_lens, facebook.com/amelielensmusic, soundcloud.com/amelielens, twitter.com/amelielens, sa chaîne YouTube et le Spotify 5Ho1vKl1Uz8bJlk4vbmvmf"
+  },
+  {
+    "kind": "artist",
+    "key": "Overmono",
+    "instagram": "overmono",
+    "site": "https://www.overmono.com",
+    "bandcamp": "https://overmono.bandcamp.com",
+    "verified": "https://www.xlrecordings.com/artists/overmono — la page artiste du site officiel de XL Recordings, leur label, renvoie vers overmono.com et instagram.com/overmono ; overmono.bandcamp.com héberge leurs albums XL (« Good Lies », « Pure Devotion »)"
+  },
+  {
+    "kind": "artist",
+    "key": "Teho",
+    "instagram": "teho_live",
+    "site": "https://www.labo-t.fr/teho",
+    "bandcamp": "https://teho.bandcamp.com",
+    "verified": "https://teho.bandcamp.com — le Bandcamp de Teho (Montpellier, melodic techno FR, fondateur du label Labo T.) donne labo-t.fr/teho comme site officiel ; https://www.backinthedayz.be/en/artist/teho, son agence de booking, renvoie vers instagram.com/teho_live. Homonymie levée : il s'agit bien du Français de Labo T./PACT, pas d'un autre « Teho »"
+  },
+  {
+    "kind": "artist",
+    "key": "Sara Landry",
+    "instagram": "saralandrydj",
+    "site": "https://saralandry.com",
+    "facebook": "https://www.facebook.com/sara-landry-dj",
+    "soundcloud": "sara-landry-dj",
+    "verified": "https://saralandry.com — le site officiel (hard techno, label HEKATE) renvoie vers instagram.com/saralandrydj, soundcloud.com/sara-landry-dj, facebook.com/sara-landry-dj et twitch.tv/saralandrydj"
+  },
+  {
+    "kind": "artist",
+    "key": "Charlotte de Witte",
+    "instagram": "charlottedewittemusic",
+    "site": "https://charlottedewittemusic.com",
+    "facebook": "https://www.facebook.com/charlottedewittemusic",
+    "soundcloud": "charlottedewittemusic",
+    "verified": "https://linktr.ee/charlottedewittemusic — le Linktree officiel (handle identique à son domaine) renvoie vers charlottedewittemusic.com/album et /tour, vers kntxt.be (son label) et liste les comptes @charlottedewittemusic sur Instagram, Facebook et Twitch ; soundcloud.com/charlottedewittemusic héberge ses sets KNTXT officiels"
+  },
+  {
+    "kind": "artist",
+    "key": "Solomun",
+    "instagram": "solomun",
+    "site": "https://solomun.org",
+    "facebook": "https://www.facebook.com/SolomunMusic/",
+    "spotify": "https://open.spotify.com/artist/5wJK4kQAkVGjqM9x46KQOC",
+    "youtube": "https://www.youtube.com/channel/UCN8v8tNOCmaZaN-t4ynDdEA",
+    "x": "solomunmusic",
+    "verified": "https://solomun.org — le site officiel (« Solomun | Official website ») renvoie vers instagram.com/solomun, facebook.com/SolomunMusic, twitter.com/solomunmusic, sa chaîne YouTube et le Spotify 5wJK4kQAkVGjqM9x46KQOC"
+  },
+  {
+    "kind": "artist",
+    "key": "Four Tet",
+    "instagram": "fourtetkieran",
+    "site": "https://www.fourtet.net",
+    "spotify": "https://open.spotify.com/artist/7Eu1txygG6nJttLHbZdQOh",
+    "youtube": "https://www.youtube.com/channel/UC3sZYInu3YYkyIXBif83ZCg",
+    "bandcamp": "https://fourtet.bandcamp.com",
+    "x": "fourtet",
+    "verified": "https://www.fourtet.net — le site officiel de Kieran Hebden renvoie vers instagram.com/fourtetkieran, twitter.com/fourtet, sa chaîne YouTube et le Spotify 7Eu1txygG6nJttLHbZdQOh ; fourtet.bandcamp.com est cité par sa page Wikipédia comme son Bandcamp"
+  },
+  {
+    "kind": "artist",
+    "key": "Seth Troxler",
+    "instagram": "stroxler",
+    "site": "https://sethtroxler.com",
+    "facebook": "https://www.facebook.com/sethtroxlerofficial/",
+    "soundcloud": "sethtroxler",
+    "spotify": "https://open.spotify.com/artist/3JkLFcTej6tdwZoQT6Nx4B",
+    "youtube": "https://www.youtube.com/channel/UCLomjWeo7aBxvrTKCn9zrTw",
+    "tiktok": "sethtroxler",
+    "verified": "https://sethtroxler.com — le site officiel renvoie vers instagram.com/stroxler, facebook.com/sethtroxlerofficial, soundcloud.com/sethtroxler, tiktok.com/@sethtroxler, sa chaîne YouTube et le Spotify 3JkLFcTej6tdwZoQT6Nx4B"
+  },
+  {
+    "kind": "artist",
+    "key": "Marcel Dettmann",
+    "instagram": "marceldettmann",
+    "facebook": "https://www.facebook.com/marceldettmannofficial",
+    "soundcloud": "marceldettmann",
+    "spotify": "https://open.spotify.com/artist/1sxHp39RqBEE01pgVqsdyP",
+    "youtube": "https://www.youtube.com/channel/UCXgX3zbGMvZTu5JTkTsO6cg",
+    "verified": "https://goodliveartists.com/artists/marcel-dettmann- — la fiche de son agence de booking Goodlive Artists renvoie vers instagram.com/marceldettmann, facebook.com/marceldettmannofficial, sa chaîne YouTube et le Spotify 1sxHp39RqBEE01pgVqsdyP ; soundcloud.com/marceldettmann est le compte qui publie les sets de son label MDR"
+  },
+  {
+    "kind": "artist",
+    "key": "Nina Kraviz",
+    "instagram": "ninakraviz",
+    "site": "https://triprecordings.com",
+    "facebook": "https://www.facebook.com/NinaKravizMusic/",
+    "soundcloud": "nina-kraviz",
+    "spotify": "https://open.spotify.com/artist/1oZmFNkGAT93yD1xX4vTRE",
+    "x": "NinaKraviz",
+    "verified": "https://primeentertainmentventures.com/artist/nina-kraviz/ — la fiche de son agence Prime Entertainment Ventures liste facebook.com/NinaKravizMusic, instagram.com/ninakraviz, twitter.com/NinaKraviz, soundcloud.com/nina-kraviz et le Spotify 1oZmFNkGAT93yD1xX4vTRE ; triprecordings.com est le site de son label трип"
+  },
+  {
+    "kind": "artist",
+    "key": "Armin van Buuren",
+    "instagram": "arminvanbuuren",
+    "site": "https://www.arminvanbuuren.com",
+    "facebook": "http://www.facebook.com/arminvanbuuren",
+    "spotify": "https://open.spotify.com/artist/0SfsnGyD8FpIN4U4WCkBZ5",
+    "youtube": "https://www.youtube.com/user/arminvanbuuren",
+    "tiktok": "arminvanbuuren",
+    "x": "arminvanbuuren",
+    "verified": "https://www.arminvanbuuren.com/home/ — le site officiel renvoie vers instagram.com/arminvanbuuren, tiktok.com/@arminvanbuuren, facebook.com/arminvanbuuren, twitter.com/arminvanbuuren, youtube.com/user/arminvanbuuren et le Spotify 0SfsnGyD8FpIN4U4WCkBZ5"
+  },
+  {
+    "kind": "artist",
+    "key": "Richie Hawtin",
+    "instagram": "richiehawtin",
+    "facebook": "https://www.facebook.com/richiehawtin",
+    "youtube": "https://www.youtube.com/@richiehawtin",
+    "tiktok": "richiehawtin",
+    "verified": "https://linktr.ee/richiehawtin — le Linktree officiel « richiehawtin Official » liste ses comptes @richiehawtin (Instagram, TikTok, Facebook, YouTube) et renvoie vers plastikman.com et playdifferently.org, ses propres projets"
+  },
+  {
+    "kind": "artist",
+    "key": "Kobosil",
+    "soundcloud": "kobosil",
+    "verified": "https://en.wikipedia.org/wiki/Kobosil — la section « External links » de sa page Wikipédia (Max Kobosil, techno, Berlin) donne soundcloud.com/kobosil. Instagram non retenu : aucune source officielle trouvée pour le confirmer"
+  }
+]

@@ -81,11 +81,11 @@ const eventRef = (e: RaveEvent, lang: Lang) => ({
 export function eventJsonLd(
   e: RaveEvent,
   lang: Lang,
-  opts: { subEvents?: RaveEvent[]; superEvent?: RaveEvent } = {},
+  opts: { subEvents?: RaveEvent[]; superEvent?: RaveEvent; sameAs?: string[] } = {},
 ) {
   const img = imageUrl(e);
   const tickets = ticketUrl(e);
-  const { subEvents, superEvent } = opts;
+  const { subEvents, superEvent, sameAs } = opts;
   return {
     "@context": "https://schema.org",
     "@type": subEvents?.length ? ["MusicEvent", "Festival"] : "MusicEvent",
@@ -97,6 +97,9 @@ export function eventJsonLd(
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     url: abs(lang, eventPath(e)),
     ...(img ? { image: [img] } : {}),
+    // Les profils officiels du festival, jamais ceux de la salle qui l'accueille :
+    // `sameAs` déclare que c'est la *même entité*, pas qu'elles se côtoient.
+    ...(sameAs?.length ? { sameAs } : {}),
     ...(subEvents?.length ? { subEvent: subEvents.map((x) => eventRef(x, lang)) } : {}),
     ...(superEvent ? { superEvent: eventRef(superEvent, lang) } : {}),
     location: {
@@ -206,12 +209,13 @@ export function siteJsonLd(lang: Lang) {
 }
 
 /** An artist as a schema.org MusicGroup, with the dates they're booked for. */
-export function artistJsonLd(name: string, slug: string, events: RaveEvent[], lang: Lang) {
+export function artistJsonLd(name: string, slug: string, events: RaveEvent[], lang: Lang, sameAs: string[] = []) {
   return {
     "@context": "https://schema.org",
     "@type": "MusicGroup",
     name,
     url: abs(lang, `/artistes/${slug}`),
+    ...(sameAs.length ? { sameAs } : {}),
     genre: [...new Set(events.flatMap((e) => e.genres))],
     event: events.map((e) => ({
       "@type": "MusicEvent",
@@ -232,6 +236,7 @@ export function venueJsonLd(
   venue: { name: string; slug: string; city: string; country: string },
   events: RaveEvent[],
   lang: Lang,
+  sameAs: string[] = [],
 ) {
   const first = events[0];
   return {
@@ -239,6 +244,7 @@ export function venueJsonLd(
     "@type": "MusicVenue",
     name: venue.name,
     url: abs(lang, `/lieux/${venue.slug}`),
+    ...(sameAs.length ? { sameAs } : {}),
     address: {
       "@type": "PostalAddress",
       addressLocality: venue.city,

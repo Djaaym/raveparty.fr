@@ -2,7 +2,6 @@ import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
 import {
   EVENTS,
-  GENRES,
   countryLabel,
   eventDescL,
   eventPath,
@@ -21,6 +20,7 @@ import { PLACES } from "@/lib/places";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { guideFor, guideParentOf, pick } from "@/lib/guides";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { eventSocials, sameAs } from "@/lib/socials";
 import { breadcrumbJsonLd, eventJsonLd, faqJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -30,6 +30,7 @@ import FestivalGuide from "./FestivalGuide";
 import HeroImage from "./HeroImage";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
+import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
 
 /** The place page that best matches this event — its department first, then its city. */
@@ -44,7 +45,6 @@ function placeFor(e: RaveEvent) {
 export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
-  const g = GENRES[e.genres[0]];
   const done = isPast(e);
   const live = isLive(e);
   const next = done ? nextEdition(e) : undefined;
@@ -60,6 +60,10 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const subEvents = guide
     ? guide.subEventIds.map((id) => EVENTS.find((x) => x.id === id)).filter((x): x is RaveEvent => !!x)
     : undefined;
+
+  // Un programme-ombrelle n'a pas de salle : son `venue` est un libellé, pas une adresse,
+  // donc pas de compte de club sur lequel retomber.
+  const social = eventSocials(e, !guide);
 
   // Related: same genre and still ahead — a finished event is a dead end for the reader.
   const related = upcoming()
@@ -81,7 +85,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
     <>
       <JsonLd
         data={[
-          eventJsonLd(e, lang, { subEvents, superEvent: parentEvent }),
+          eventJsonLd(e, lang, {
+            subEvents,
+            superEvent: parentEvent,
+            sameAs: social?.from === "event" ? sameAs(social.s) : undefined,
+          }),
           breadcrumbJsonLd(trail, lang),
           ...(guide ? [faqJsonLd(guide.faq.map((f) => [pick(f.q, lang), pick(f.a, lang)] as [string, string]))] : []),
         ]}
@@ -209,21 +217,10 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 </div>
               </div>
 
-              {/* Placeholder swatches only earn their place when there's nothing better;
-                  a guided page has real content to show instead. */}
-              {!guide && (
-                <div className="info-card">
-                  <h2 className="h-md">{t("event.gallery")}</h2>
-                  <div className="gallery">
-                    {Array.from({ length: 8 }).map((_, i) => (
-                      <div
-                        key={i}
-                        style={{ backgroundImage: `linear-gradient(${130 + i * 25}deg, ${g.c1}, ${g.c2})` }}
-                      />
-                    ))}
-                  </div>
-                </div>
-              )}
+              {/* Là où huit dégradés faisaient semblant d'être une galerie : les comptes
+                  de l'organisateur. C'est le seul endroit de la page où l'on peut voir
+                  l'affiche du jour et le line-up complet — et ça reste chez lui. */}
+              {social && <SocialsCard s={social.s} lang={lang} owner={social.from} ownerName={social.name} />}
 
               <div className="info-card">
                 <h2 className="h-md">{t("event.location")}</h2>
