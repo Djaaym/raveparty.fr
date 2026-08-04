@@ -4,13 +4,48 @@ import type { Lang } from "@/lib/types";
 import { ALL_GENRES, TYPES, GENRES } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 
+type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
+
 export default function OrganizerForm({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const [title, setTitle] = useState("");
   const [genre, setGenre] = useState(ALL_GENRES[0]);
   const [artist, setArtist] = useState("");
   const [lineup, setLineup] = useState<string[]>([]);
-  const [done, setDone] = useState(false);
+  const [state, setState] = useState<State>("idle");
+
+  const submit = async (ev: React.FormEvent<HTMLFormElement>) => {
+    ev.preventDefault();
+    if (state === "sending") return;
+    setState("sending");
+    const fd = new FormData(ev.currentTarget);
+    // The poster itself needs somewhere to live; until it has one, pass the file name
+    // through so the owner knows there is artwork to ask for.
+    const file = fd.get("poster");
+    try {
+      const res = await fetch("/api/organizer", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          title: fd.get("title"), email: fd.get("email"), type: fd.get("type"), genre: fd.get("genre"),
+          city: fd.get("city"), country: fd.get("country"), date: fd.get("date"), time: fd.get("time"),
+          venue: fd.get("venue"), desc: fd.get("desc"), company: fd.get("company"),
+          lineup, poster: file instanceof File && file.name ? file.name : "",
+        }),
+      });
+      if (res.ok) return setState("done");
+      setState(res.status === 400 ? "invalid" : res.status === 501 ? "unavailable" : "error");
+    } catch {
+      setState("error");
+    }
+  };
+
+  const message =
+    state === "invalid" ? t("org.err.invalid")
+    : state === "unavailable" ? t("org.err.soon")
+    : state === "error" ? t("org.err.retry")
+    : state === "done" ? t("org.sent")
+    : "";
 
   const k = GENRES[genre];
   const addArtist = () => {
@@ -22,13 +57,7 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
 
   return (
     <div className="explore-layout">
-      <form
-        style={{ gridColumn: 1, order: 2 }}
-        onSubmit={(e) => {
-          e.preventDefault();
-          setDone(true);
-        }}
-      >
+      <form style={{ gridColumn: 1, order: 2 }} onSubmit={submit}>
         <div className="info-card">
           <h3 className="h-md" style={{ marginBottom: 20 }}>
             {t("org.details")}
@@ -36,11 +65,11 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
           <div className="form-grid">
             <div className="field full">
               <label>{t("org.f.title")}</label>
-              <input className="input" value={title} onChange={(e) => setTitle(e.target.value)} required />
+              <input className="input" name="title" value={title} onChange={(e) => setTitle(e.target.value)} required />
             </div>
             <div className="field">
               <label>{t("org.f.type")}</label>
-              <select className="input">
+              <select className="input" name="type">
                 {TYPES.map((x) => (
                   <option key={x}>{x}</option>
                 ))}
@@ -48,7 +77,7 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
             </div>
             <div className="field">
               <label>{t("org.f.genre")}</label>
-              <select className="input" value={genre} onChange={(e) => setGenre(e.target.value)}>
+              <select className="input" name="genre" value={genre} onChange={(e) => setGenre(e.target.value)}>
                 {ALL_GENRES.map((g) => (
                   <option key={g}>{g}</option>
                 ))}
@@ -56,27 +85,31 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
             </div>
             <div className="field">
               <label>{t("org.f.city")}</label>
-              <input className="input" required />
+              <input className="input" name="city" required />
             </div>
             <div className="field">
               <label>{t("org.f.country")}</label>
-              <input className="input" required />
+              <input className="input" name="country" required />
             </div>
             <div className="field">
               <label>{t("org.f.date")}</label>
-              <input className="input" type="date" required />
+              <input className="input" name="date" type="date" required />
             </div>
             <div className="field">
               <label>{t("org.f.time")}</label>
-              <input className="input" type="time" required />
+              <input className="input" name="time" type="time" required />
             </div>
-            <div className="field full">
+            <div className="field">
+              <label>{t("org.f.email")}</label>
+              <input className="input" name="email" type="email" inputMode="email" autoComplete="email" required />
+            </div>
+            <div className="field">
               <label>{t("org.f.venue")}</label>
-              <input className="input" />
+              <input className="input" name="venue" />
             </div>
             <div className="field full">
               <label>{t("org.f.desc")}</label>
-              <textarea className="input" />
+              <textarea className="input" name="desc" />
             </div>
           </div>
         </div>
@@ -132,14 +165,20 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
             <label>{t("org.poster")}</label>
             <label className="upload">
               {t("org.upload")}
-              <input type="file" accept="image/*" hidden />
+              <input type="file" name="poster" accept="image/*" hidden />
             </label>
           </div>
         </div>
 
-        <button type="submit" className="btn btn-primary btn-block" style={{ marginTop: 8 }}>
-          {done ? t("org.toast") : t("org.submit")}
+        <input className="hp" name="company" tabIndex={-1} autoComplete="off" aria-hidden="true" defaultValue="" />
+        <button type="submit" className="btn btn-primary btn-block" style={{ marginTop: 8 }} disabled={state === "sending" || state === "done"}>
+          {state === "sending" ? t("alert.sending") : state === "done" ? t("org.toast") : t("org.submit")}
         </button>
+        {message && (
+          <p className="alert-msg" role="status" style={{ textAlign: "center" }}>
+            {message}
+          </p>
+        )}
       </form>
 
       <aside style={{ gridColumn: 2, order: 1 }}>

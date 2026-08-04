@@ -48,15 +48,15 @@ export default function Hero({ lang, count, countries }: { lang: Lang; count: nu
           <span className="live" />{" "}
           {t("hero.badge").replace("{n}", String(count)).replace("{c}", String(countries))}
         </motion.div>
-        <motion.h1
-          className="h-xl"
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.05 }}
-        >
+        {/* Plain h1, not motion.h1: this is the LCP element (largest text on the
+            homepage). framer-motion's initial={{opacity:0}} rendered it invisible
+            in the server HTML until React hydrated, so LCP was gated behind JS
+            boot + a full framework download. A pure-CSS entrance (see globals.css)
+            keeps the "slides into place" feel without ever painting at opacity 0. */}
+        <h1 className="h-xl hero-h1-in">
           {t("hero.title.a")}
           <span className="gradient-text">{t("hero.title.b")}</span>
-        </motion.h1>
+        </h1>
         <motion.p
           className="lead"
           initial={{ opacity: 0 }}

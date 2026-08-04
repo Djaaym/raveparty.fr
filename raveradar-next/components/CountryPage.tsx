@@ -11,6 +11,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
 
 export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -113,6 +114,8 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
             {flag} {t("country.h1")} <span className="gradient-text">{label}</span>
           </h1>
           <p className="lead">{intro}</p>
+
+          <AlertForm lang={lang} kind="country" value={country.slug} label={label} />
 
           <div className="linkfarm" style={{ marginTop: 20 }}>
             <Link href={`${p}/rave-party/ce-week-end`}>📅 {t("soon.crumb")}</Link>
