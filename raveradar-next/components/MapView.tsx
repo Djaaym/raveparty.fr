@@ -2,8 +2,8 @@
 import "leaflet/dist/leaflet.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, countryLabel, cardBg, eventPath, isPast } from "@/lib/data";
-import { fmtDate } from "@/lib/format";
+import { EVENTS, countryLabel, cardBg, imageThumb, eventPath, isPast } from "@/lib/data";
+import { fmtDate, imageAlt } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 
 const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Free Party", "House"];
@@ -82,8 +82,25 @@ export default function MapView({ lang, today }: { lang: Lang; today: string }) 
       <div className="map-layout">
         <div className="map-list">
           {events.map((e) => (
-            <div className="mini" key={e.id} onClick={() => focus(e.id)}>
-              <div className="mthumb" style={{ backgroundImage: cardBg(e) }} />
+            // Stays a button rather than a link: it pans the map, it doesn't navigate.
+            <div
+              className="mini"
+              key={e.id}
+              role="button"
+              tabIndex={0}
+              onClick={() => focus(e.id)}
+              onKeyDown={(ev) => {
+                if (ev.key === "Enter" || ev.key === " ") {
+                  ev.preventDefault();
+                  focus(e.id);
+                }
+              }}
+            >
+              {imageThumb(e) ? (
+                <img className="mthumb" src={imageThumb(e)!} alt={imageAlt(e, lang)} loading="lazy" decoding="async" />
+              ) : (
+                <div className="mthumb" style={{ backgroundImage: cardBg(e) }} />
+              )}
               <div>
                 <h4>{e.title}</h4>
                 <span>

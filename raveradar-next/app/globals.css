@@ -255,13 +255,16 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .card:hover { transform: translateY(-6px); border-color: rgba(139,92,255,.5); box-shadow: var(--shadow-card), var(--glow-violet); }
 .card-media { position: relative; aspect-ratio: 4/5; overflow: hidden; }
 .card-media .poster {
-  position: absolute; inset: 0; background-size: cover; background-position: center;
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  background-size: cover; background-position: center;
   transition: transform .6s var(--ease), filter .6s;
 }
 .card:hover .poster { transform: scale(1.07); filter: saturate(1.2); }
 .card-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 35%, rgba(5,6,8,.55) 70%, rgba(5,6,8,.96) 100%); }
 .card-genre-bar { position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--grad-main); z-index: 2; }
-.card-top { position: absolute; top: 12px; left: 12px; right: 12px; display: flex; justify-content: space-between; align-items: flex-start; z-index: 3; }
+/* Above the stretched card link, so the heart stays clickable. */
+.card-top { position: absolute; top: 12px; left: 12px; right: 12px; display: flex; justify-content: space-between; align-items: flex-start; z-index: 5; }
 .tag {
   font-family: var(--f-mono); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase;
   padding: 5px 10px; border-radius: 99px; background: rgba(5,6,8,.7); border: 1px solid var(--line); backdrop-filter: blur(6px);
@@ -277,6 +280,10 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .card-body { position: absolute; bottom: 0; left: 0; right: 0; padding: 18px; z-index: 3; }
 .card-date { font-family: var(--f-mono); font-size: .72rem; color: var(--cyan); letter-spacing: .08em; margin-bottom: 6px; }
 .card-title { font-family: var(--f-display); font-weight: 800; font-size: 1.2rem; line-height: 1.08; margin-bottom: 6px; }
+/* The whole card is one anchor, so the title doubles as the anchor text crawlers read
+   and the card keeps working with a keyboard, a middle click or "open in new tab". */
+.card-link { display: block; color: inherit; text-decoration: none; }
+.card-link:focus-visible { outline: 2px solid var(--cyan); outline-offset: -3px; border-radius: var(--r-lg); }
 .card-loc { color: var(--grey); font-size: .84rem; display: flex; align-items: center; gap: 6px; }
 .card-foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; margin-top: 12px; }
 .card-meta { display: flex; gap: 8px; flex-wrap: wrap; flex: 1 1 auto; min-width: 0; }
@@ -334,7 +341,13 @@ select.input option { background: var(--anthracite); }
   transition: border-color .3s, transform .3s; cursor: pointer;
 }
 .row-card:hover { border-color: rgba(139,92,255,.5); transform: translateX(4px); }
-.row-card .thumb { width: 120px; height: 120px; border-radius: var(--r-md); background-size: cover; background-position: center; }
+.row-card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+.row-card, .row-card:hover { color: inherit; text-decoration: none; }
+.row-card .thumb {
+  width: 120px; height: 120px; border-radius: var(--r-md);
+  object-fit: cover; object-position: center;
+  background-size: cover; background-position: center;
+}
 .row-card h3 { font-size: 1.25rem; margin-bottom: 4px; }
 .row-card .row-right { text-align: right; }
 
@@ -355,7 +368,7 @@ select.input option { background: var(--anthracite); }
   border-radius: var(--r-md); cursor: pointer; transition: all .25s; background: var(--anthracite-2);
 }
 .mini:hover { border-color: var(--violet); transform: translateY(-2px); }
-.mini .mthumb { width: 56px; height: 56px; border-radius: 10px; background-size: cover; background-position: center; flex: none; }
+.mini .mthumb { width: 56px; height: 56px; border-radius: 10px; object-fit: cover; object-position: center; background-size: cover; background-position: center; flex: none; }
 .mini h4 { font-size: .95rem; font-family: var(--f-display); }
 .mini span { font-size: .78rem; color: var(--grey); }
 
@@ -366,7 +379,11 @@ select.input option { background: var(--anthracite); }
 
 /* ----------------------------- EVENT PAGE ------------------------------ */
 .event-hero { position: relative; min-height: 60vh; border-radius: var(--r-xl); overflow: hidden; display: flex; align-items: flex-end; padding: 40px; border: 1px solid var(--line); }
-.event-hero .bg { position: absolute; inset: 0; background-size: cover; background-position: center; z-index: -2; }
+.event-hero .bg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+  background-size: cover; background-position: center; z-index: -2;
+}
 .event-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,6,8,.2) 0%, rgba(5,6,8,.85) 100%); z-index: -1; }
 .event-hero-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
 .event-layout { display: grid; grid-template-columns: 1fr 360px; gap: 40px; margin-top: 48px; align-items: start; }

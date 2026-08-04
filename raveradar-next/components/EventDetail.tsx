@@ -3,7 +3,6 @@ import type { Lang, RaveEvent } from "@/lib/types";
 import {
   EVENTS,
   GENRES,
-  cardBg,
   countryLabel,
   eventDescL,
   eventPath,
@@ -28,6 +27,7 @@ import Footer from "./Footer";
 import EventCard from "./EventCard";
 import FavButton from "./FavButton";
 import FestivalGuide from "./FestivalGuide";
+import HeroImage from "./HeroImage";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
@@ -94,7 +94,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           <Breadcrumbs lang={lang} trail={trail} />
 
           <div className="event-hero" style={{ marginTop: 16 }}>
-            <div className="bg" style={{ backgroundImage: cardBg(e) }} />
+            <HeroImage e={e} lang={lang} />
             <div>
               <div className="event-hero-meta">
                 <span className="tag type">{e.type}</span>

@@ -1,20 +1,26 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, eventPath, eventVenueL, isPast, lastDay } from "@/lib/data";
-import { fmtDate, priceLabel } from "@/lib/format";
+import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, imageThumb, eventPath, eventVenueL, isPast, lastDay } from "@/lib/data";
+import { fmtDate, imageAlt, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
 
 const PAGE = 24;
 
 function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
-  const router = useRouter();
   const href = `${langPrefix(lang)}${eventPath(e)}`;
+  const thumb = imageThumb(e);
   return (
-    <article className="row-card" onClick={() => router.push(href)}>
-      <div className="thumb" style={{ backgroundImage: cardBg(e) }} />
+    // A real anchor, not a router.push on a div: the list view has to survive a keyboard,
+    // a middle click and a crawler just like the card grid does.
+    <Link className="row-card" href={href}>
+      {thumb ? (
+        <img className="thumb" src={thumb} alt={imageAlt(e, lang)} width={560} height={700} loading="lazy" decoding="async" />
+      ) : (
+        <div className="thumb" style={{ backgroundImage: cardBg(e) }} />
+      )}
       <div>
         <div className="card-date">
           {fmtDate(e.date, lang)} · {e.time}
@@ -36,7 +42,7 @@ function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
           {priceLabel(e, lang)}
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 
