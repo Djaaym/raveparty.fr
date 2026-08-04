@@ -29,9 +29,199 @@
   "since": 1995,
   "labels": ["Kompakt"],
   "sources": ["https://en.wikipedia.org/wiki/K%C3%B6lsch_(musician)", "https://en.wikipedia.org/wiki/Calabria_(song)"],
-  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/K%C3%B6lsch-SMS-2018-1.jpg",
-  "photo_page": "https://commons.wikimedia.org/wiki/File:K%C3%B6lsch-SMS-2018-1.jpg",
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/2015-07-19_6748_K%C3%B6lsch_%28Sea_You%29.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:2015-07-19_6748_K%C3%B6lsch_(Sea_You).jpg",
   "photo_license": "CC BY-SA 4.0",
-  "photo_author": "Sven Volkens"
+  "photo_author": "Robin Krahl"
+ },
+ {
+  "name": "Jazzy",
+  "bio_fr": "",
+  "bio_en": "",
+  "sources": []
+ },
+ {
+  "name": "Vortek's",
+  "bio_fr": "Vortek's est un DJ et producteur français originaire de Cherbourg, issu de la scène free party et des styles tribe, acidcore et hardtek. Son signe distinctif : des rythmiques massives, des textures acid et des nappes immersives, sur des morceaux comme « Darkness ». Il collabore régulièrement avec Felckin, Venom, Teksa ou D-Frek, et ses disques paraissent notamment sur Omny Lab, Acid Pirate et Underground Tekno.",
+  "bio_en": "Vortek's is a French DJ and producer from Cherbourg who came up through the free party scene and its tribe, acidcore and hardtek strands. His trademark is heavy rhythm work, acid textures and immersive pads, heard on tracks such as \"Darkness\". He works regularly with Felckin, Venom, Teksa and D-Frek, and releases on labels including Omny Lab, Acid Pirate and Underground Tekno.",
+  "origin": "Cherbourg, France",
+  "labels": ["Omny Lab", "Acid Pirate", "Underground Tekno"],
+  "sources": ["https://dreamnation.fr/en/artiste/vorteks/", "https://download.undergroundtekno.com/en/artists/vorteks/tracks"]
+ },
+ {
+  "name": "Dr Donk",
+  "bio_fr": "Dr Donk est un DJ et producteur allemand basé à Cologne, actif dans les registres uptempo, rawstyle et hardcore. Il a construit son personnage autour d'un décor de clinique médicale, jusqu'au nom d'artiste et au titre de ses sets. Ses morceaux paraissent sur les labels du circuit hard dance — Greazy Recordz, Snakepit Music, Defqon.1 Records, Q-dance Records ou Basscon — et il joue au Bootshaus de Cologne comme à Parookaville.",
+  "bio_en": "Dr Donk is a German DJ and producer based in Cologne, working in the uptempo, rawstyle and hardcore end of hard dance. He built his persona around a medical-clinic conceit, from the stage name down to the framing of his sets. His tracks come out on hard dance labels including Greazy Recordz, Snakepit Music, Defqon.1 Records, Q-dance Records and Basscon, and he plays Cologne's Bootshaus as well as Parookaville.",
+  "origin": "Cologne, Allemagne",
+  "labels": ["Greazy Recordz", "Snakepit Music", "Q-dance Records"],
+  "sources": ["https://hardstyle.com/en/artists/dr-donk", "https://www.parookaville.com/de/artist/dr-donk"]
+ },
+ {
+  "name": "Anetha",
+  "bio_fr": "Anetha est une DJ et productrice française née en 1989 à Bordeaux et installée à Paris. Passée par des études d'architecture et initiée aux platines à seize ans, elle défend une techno acide et hypnotique dont « Acid Train » (2017) reste le morceau signature. Elle a fondé en 2019 le label et collectif Mama Told Ya, et a mixé à la cérémonie de clôture des Jeux paralympiques de Paris en 2024.",
+  "bio_en": "Anetha is a French DJ and producer born in Bordeaux in 1989 and based in Paris. Trained as an architect and behind the decks since she was sixteen, she plays acid-leaning, hypnotic techno, with \"Acid Train\" (2017) still her signature track. She founded the label and collective Mama Told Ya in 2019, and played the closing ceremony of the 2024 Paris Paralympic Games.",
+  "origin": "Bordeaux, France",
+  "since": 2013,
+  "labels": ["Mama Told Ya"],
+  "sources": ["https://fr.wikipedia.org/wiki/Anetha"]
+ },
+ {
+  "name": "DJ Gigola",
+  "bio_fr": "DJ Gigola est une DJ et productrice berlinoise, membre du collectif et label Live From Earth. Elle a terminé des études de médecine avant de vivre de la musique, et revendique un jeu sans frontières de genre : trance techno des années 2000, tech house et son high energy d'aujourd'hui, plus quelques détours par le rap et la pop. Son EP Bigroom Sensual (Live From Earth, 2024) met en scène cette réconciliation entre générations de dancefloor.",
+  "bio_en": "DJ Gigola is a Berlin DJ and producer and a member of the Live From Earth collective and label. She finished a medical degree before turning to music full time, and plays deliberately across genre lines: early-2000s trance techno, tech house and today's high-energy sound, with detours through rap and pop. Her EP Bigroom Sensual (Live From Earth, 2024) frames that as a reconciliation between dancefloor generations.",
+  "origin": "Berlin, Allemagne",
+  "labels": ["Live From Earth"],
+  "sources": ["https://www.exitfest.org/en/dj-gigola-the-creative-mind-of-the-new-techno-generation-from-berlin", "https://livefromearth.bandcamp.com/album/bigroom-sensual"]
+ },
+ {
+  "name": "Holy Priest",
+  "bio_fr": "Holy Priest est un producteur et DJ allemand installé à Oberhausen, en Rhénanie-du-Nord-Westphalie, où il tient son studio. Il joue masqué et garde son identité secrète, sur une hard techno industrielle faite de kicks saturés, de basses distordues et de lignes acid. Il publie des EP depuis 2020, chez Revised Records, CodeX Recordings et Chlore Records, dont une série aux titres latins (Unus, Duo, Tres) et le morceau « Rave Penetrator ».",
+  "bio_en": "Holy Priest is a German producer and DJ based in Oberhausen, North Rhine-Westphalia, where he keeps his studio. He performs masked and keeps his identity private, playing industrial-edged hard techno built on saturated kicks, distorted bass and acid lines. He has been putting out EPs since 2020 on Revised Records, CodeX Recordings and Chlore Records, including a run of Latin-titled releases (Unus, Duo, Tres) and the track \"Rave Penetrator\".",
+  "origin": "Oberhausen, Allemagne",
+  "since": 2020,
+  "labels": ["Revised Records", "CodeX Recordings", "Chlore Records"],
+  "sources": ["https://fr.wikipedia.org/wiki/Holy_Priest"]
+ },
+ {
+  "name": "Yoshiko",
+  "bio_fr": "Yoshiko, de son vrai nom Giada Morone, est une DJ de hardcore née en Italie d'une famille aux racines japonaises et brésiliennes — son nom de scène est un hommage à sa tante. Venue à la hardstyle puis au hardcore à l'adolescence, elle s'installe à Amsterdam à vingt-deux ans pour en faire son métier. Elle joue depuis sur les grandes scènes hard dance, de Defqon.1 à Harmony of Hardcore.",
+  "bio_en": "Yoshiko, real name Giada Morone, is a hardcore DJ born in Italy to a family with Japanese and Brazilian roots — her stage name is a tribute to her aunt. She came to hardstyle and then hardcore as a teenager and moved to Amsterdam at twenty-two to make it her career. She has since played the major hard dance stages, from Defqon.1 to Harmony of Hardcore.",
+  "origin": "Italie, installée à Amsterdam",
+  "sources": ["https://www.hardcoreitalia.it/en/artists/yoshiko"]
+ },
+ {
+  "name": "Lil Texas",
+  "bio_fr": "Lil Texas est un producteur et DJ américain né à Dallas et installé à Los Angeles, formé au Berklee College of Music. Il pousse le hardcore au-delà de 200 BPM et a baptisé son style « texcore » : influence gabber old school, mélodies et breakdowns hérités du hardcore des débuts, stabs de synthé et samples d'horreur. Son esthétique de cow-boy à strass va de pair avec ses EP Texcore.",
+  "bio_en": "Lil Texas is an American producer and DJ, born in Dallas and based in Los Angeles, who trained at Berklee College of Music. He pushes hardcore past 200 BPM and coined the name \"texcore\" for his style: old-school gabber influence, melodies and breakdowns inherited from early hardcore, synth stabs and horror samples. The rhinestone-cowboy look is part of the package, as are his Texcore EPs.",
+  "origin": "Dallas, États-Unis",
+  "sources": ["https://www.thefader.com/2019/11/26/lil-texas-interview"]
+ },
+ {
+  "name": "Planetary Assault Systems",
+  "bio_fr": "Planetary Assault Systems est le principal alias de Luke Slater, musicien et producteur anglais né en 1968 à Reading, qui se consacre à la techno depuis le début des années 1990. Sous ce nom, il défend une techno de club dépouillée et physique, notamment sur l'album The Messenger (2011) publié par Ostgut Ton. Il dirige aussi son propre label, Mote-Evolver, lancé en 2006, et enregistre par ailleurs sous les noms The 7th Plain et L.B. Dub Corp.",
+  "bio_en": "Planetary Assault Systems is the main alias of Luke Slater, an English musician and producer born in Reading in 1968 who has focused on techno since the early 1990s. Under that name he makes stripped-back, physical club techno, notably on the album The Messenger (2011), released by Ostgut Ton. He also runs his own label, Mote-Evolver, launched in 2006, and records as The 7th Plain and L.B. Dub Corp.",
+  "origin": "Reading, Royaume-Uni",
+  "since": 1993,
+  "labels": ["Mote-Evolver", "Ostgut Ton", "Peacefrog Records"],
+  "sources": ["https://en.wikipedia.org/wiki/Luke_Slater"],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Luke_Slater_1_24.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:Luke_Slater_1_24.jpg",
+  "photo_license": "CC BY-SA 4.0",
+  "photo_author": "PASLBDUB"
+ },
+ {
+  "name": "Da Tweekaz",
+  "bio_fr": "Da Tweekaz est un duo hardstyle norvégien formé par Kenth Kvien et Marcus Nordli, actif depuis la fin des années 2000 et installé en Belgique depuis 2012 pour se rapprocher des festivals du Benelux. Leurs disques paraissent chez Dirty Workz, et le premier album Time 2 Shine date de 2012. Le duo mène en parallèle le projet happy hardcore Tweekacore et le trio The Elite avec Coone et Hard Driver.",
+  "bio_en": "Da Tweekaz are a Norwegian hardstyle duo made up of Kenth Kvien and Marcus Nordli, active since the late 2000s and based in Belgium since 2012 to be closer to the Benelux festival circuit. Their records come out on Dirty Workz, starting with the album Time 2 Shine in 2012. Alongside it they run the happy hardcore project Tweekacore and the trio The Elite with Coone and Hard Driver.",
+  "origin": "Norvège",
+  "since": 2007,
+  "labels": ["Dirty Workz"],
+  "sources": ["https://nl.wikipedia.org/wiki/Da_Tweekaz", "https://no.wikipedia.org/wiki/Da_Tweekaz"],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/2016_Open_Beatz_-_Da_Tweekaz_-_by_2eight_-DSC_4580.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:2016_Open_Beatz_-_Da_Tweekaz_-_by_2eight_-DSC_4580.jpg",
+  "photo_license": "CC BY-SA 3.0",
+  "photo_author": "Stefan Brending (2eight)"
+ },
+ {
+  "name": "GusGus",
+  "bio_fr": "GusGus est un groupe islandais de musique électronique fondé à Reykjavík en 1995, au départ comme un collectif de cinéma et de théâtre. Sa production navigue entre techno, house, downtempo et ambient, du premier album Polydistortion (1997) à Arabian Horse (2011), son disque le mieux classé. Le groupe a publié chez 4AD puis Kompakt et son propre label Oroom, et a remixé Björk, Depeche Mode et Sigur Rós.",
+  "bio_en": "GusGus are an Icelandic electronic group founded in Reykjavík in 1995, initially as a film and acting collective. Their output moves between techno, house, downtempo and ambient, from the first album Polydistortion (1997) to Arabian Horse (2011), their highest-charting record. They have released on 4AD, then Kompakt and their own Oroom label, and have remixed Björk, Depeche Mode and Sigur Rós.",
+  "origin": "Reykjavík, Islande",
+  "since": 1995,
+  "labels": ["Oroom", "Kompakt", "4AD"],
+  "sources": ["https://en.wikipedia.org/wiki/GusGus"]
+ },
+ {
+  "name": "Joy Orbison",
+  "bio_fr": "Joy Orbison, de son vrai nom Peter O'Grady, est un producteur et DJ anglais né en 1986 à Croydon, au sud de Londres. Sa musique croise house, dubstep, UK funky, UK garage et jungle, une combinaison qui a explosé avec « Hyph Mngo », paru chez Hotflush Recordings en 2009. Il a cofondé le label Hinge Finger en 2012 avec Will Bankhead et publié l'album Still Slipping Vol. 1 en 2021.",
+  "bio_en": "Joy Orbison, real name Peter O'Grady, is an English producer and DJ born in 1986 in Croydon, south London. His music crosses house, dubstep, UK funky, UK garage and jungle, a mix that broke wide open with \"Hyph Mngo\", released on Hotflush Recordings in 2009. He co-founded the label Hinge Finger with Will Bankhead in 2012 and put out the album Still Slipping Vol. 1 in 2021.",
+  "origin": "Croydon, Royaume-Uni",
+  "since": 2009,
+  "labels": ["Hinge Finger", "Hotflush Recordings"],
+  "sources": ["https://en.wikipedia.org/wiki/Joy_Orbison"]
+ },
+ {
+  "name": "Vini Vici",
+  "bio_fr": "Vini Vici est un duo israélien de psytrance formé par Matan Kadosh et Aviram Saharai, basé à Afula. Les deux producteurs travaillaient ensemble depuis 2001 sous le nom Sesto Sento avant d'adopter Vini Vici en 2013. Leur remix de « Free Tibet » de Hilight Tribe puis « Great Spirit » (2016), avec Armin van Buuren, ont fait passer la psytrance sur les grandes scènes ; ils ont lancé le label Alteza Records en 2018.",
+  "bio_en": "Vini Vici are an Israeli psytrance duo made up of Matan Kadosh and Aviram Saharai, based in Afula. The pair had worked together since 2001 as Sesto Sento before taking the Vini Vici name in 2013. Their remix of Hilight Tribe's \"Free Tibet\" and then \"Great Spirit\" (2016) with Armin van Buuren carried psytrance onto festival main stages; they launched the label Alteza Records in 2018.",
+  "origin": "Afula, Israël",
+  "since": 2013,
+  "labels": ["Alteza Records"],
+  "sources": ["https://en.wikipedia.org/wiki/Vini_Vici"]
+ },
+ {
+  "name": "Serafina",
+  "bio_fr": "Serafina est une DJ allemande basée à Hambourg, où elle a commencé à mixer en 2023. Elle a d'abord joué une techno industrielle très frontale, portée par des basses lourdes, avant d'élargir ses sets à un versant plus rapide et mélodique. Elle tourne depuis sur le circuit européen, notamment pour Awakenings.",
+  "bio_en": "Serafina is a German DJ based in Hamburg, where she started playing out in 2023. She built her sets on blunt, bass-heavy industrial techno before widening them towards a faster, more melodic register. She now works the European circuit, including for Awakenings.",
+  "origin": "Hambourg, Allemagne",
+  "since": 2023,
+  "sources": ["https://framedagency.au/artists/serafina", "https://www.awakenings.com/en/artists/serafina/386088/"]
+ },
+ {
+  "name": "Jennifer Cardini",
+  "bio_fr": "Jennifer Cardini est une DJ et productrice française installée à Berlin, derrière les platines depuis une trentaine d'années. Formée dans les clubs parisiens, où elle tient une résidence au Pulp, elle sort le mix Feeling Strange chez Kompakt avant de fonder en 2011 le label Correspondant, prolongement de sa résidence au Rex Club. Elle dirige aussi Dischi Autunno et, depuis 2023, Færies Records, monté avec l'artiste et cinéaste Lou Fauroux.",
+  "bio_en": "Jennifer Cardini is a French DJ and producer based in Berlin who has been behind the decks for some thirty years. She came up in Paris clubs, with a residency at Le Pulp, released the mix Feeling Strange on Kompakt, and in 2011 founded the label Correspondant as an extension of her Rex Club residency. She also runs Dischi Autunno and, since 2023, Færies Records, set up with the artist and filmmaker Lou Fauroux.",
+  "origin": "France, installée à Berlin",
+  "labels": ["Correspondant", "Dischi Autunno", "Færies Records"],
+  "sources": ["https://djmag.com/news/jennifer-cardini-celebrates-30-years-djing-new-label-faeries-records", "https://correspondantmusic.com/jennifer-cardini/biography/"]
+ },
+ {
+  "name": "Space 92",
+  "bio_fr": "Space 92 est le projet techno de Mathieu Mourareau, producteur français qui a grandi à Carcassonne. Après une dizaine d'années sous le nom Matt Minimal, il lance Space 92 en 2019 avec « Another Galaxy » : une techno mélodique et trancey, percussions saturées et nappes de synthé nourries de science-fiction des années 1980. « Planet X », avec The YellowHeads, est resté sept semaines en tête du classement techno de Beatport, où il fut l'artiste techno le plus vendu de 2020.",
+  "bio_en": "Space 92 is the techno project of Mathieu Mourareau, a French producer who grew up in Carcassonne. After roughly a decade as Matt Minimal, he launched Space 92 in 2019 with \"Another Galaxy\": melodic, trance-leaning techno with distorted percussion and synth pads fed by 1980s science fiction. \"Planet X\", with The YellowHeads, spent seven weeks at number one on Beatport's techno chart, where he was the best-selling techno artist of 2020.",
+  "origin": "Carcassonne, France",
+  "since": 2019,
+  "labels": ["Perfekt Groove Recordings", "Filth On Acid", "1605"],
+  "sources": ["https://www.beatportal.com/articles/12120-introducing-space-92-technos-new-cosmic-champion"]
+ },
+ {
+  "name": "Onlynumbers",
+  "bio_fr": "Onlynumbers, de son vrai nom Tom Cillio Bosgiraud, est un producteur et DJ français originaire de Lyon, aujourd'hui installé en Tchéquie. Il joue une hard techno rapide et très travaillée en sound design, qu'il décrit lui-même comme « euphorique, profonde et chaotique, avec des sous-textes cinématographiques ». Il compose entièrement sur ordinateur, sous FL Studio, et s'est imposé sur le circuit européen des festivals à partir de fin 2023.",
+  "bio_en": "Onlynumbers, real name Tom Cillio Bosgiraud, is a French producer and DJ from Lyon, now based in Czechia. He plays fast, sound-design-heavy hard techno that he describes himself as \"euphoric, deep and chaotic with cinematic undertones\". He produces entirely in the box, in FL Studio, and broke onto the European festival circuit from late 2023.",
+  "origin": "Lyon, France",
+  "sources": ["https://technomusicworld.com/artist/onlynumbers/about", "https://www.trueunderground.one/chaos-beauty-cinematic-techno-the-mind-of-onlynumbers-unveiled/"]
+ },
+ {
+  "name": "Jowi",
+  "bio_fr": "Jowi est une DJ et productrice suisse basée à Lugano, qui joue une hard techno industrielle teintée de gabber. En octobre 2025, elle cofonde avec Jazzy et Zatox le label KRAWALL Records, conçu comme un point de chute pour les artistes qui poussent la dance music vers le plus dur, quel que soit le genre. C'est là qu'est paru son single « Submerged » en juin 2026.",
+  "bio_en": "Jowi is a Swiss DJ and producer based in Lugano who plays industrial hard techno with a gabber edge. In October 2025 she co-founded the label KRAWALL Records with Jazzy and Zatox, meant as a home for artists pushing dance music in a harder direction whatever the genre. Her single \"Submerged\" came out there in June 2026.",
+  "origin": "Lugano, Suisse",
+  "since": 2025,
+  "labels": ["KRAWALL Records"],
+  "sources": ["https://www.musicnews.com/news/2026-06-14-jowi-releases-hard-techno-single-submerged-on-new-label-krawall-records"]
+ },
+ {
+  "name": "Dasha Rush",
+  "bio_fr": "Dasha Rush est une productrice et DJ née en Russie, de nationalité française et installée à Berlin. Sa techno se déploie sur plusieurs plans, du club au terrain expérimental et ambient — l'album Sleepstep en est l'illustration la plus connue — et s'accompagne de collaborations avec des plasticiens et des danseurs. Elle dirige son label Fullpanda Records et sa sous-division plus exploratoire, Hunger to Create.",
+  "bio_en": "Dasha Rush is a Russian-born, French-national producer and DJ based in Berlin. Her techno works on several levels at once, from the club to experimental and ambient territory — the album Sleepstep being the best-known example — alongside collaborations with visual artists and dancers. She runs the label Fullpanda Records and its more exploratory sub-label, Hunger to Create.",
+  "origin": "Russie, installée à Berlin",
+  "labels": ["Fullpanda Records", "Hunger to Create"],
+  "sources": ["https://grayarea.co/artists/dasha-rush"]
+ },
+ {
+  "name": "Boss Priester",
+  "bio_fr": "Boss Priester est un producteur et DJ néerlandais installé à La Haye, qui joue un mélange de minimal, de house et de techno. Ses disques sont parus sur Ba Dum Tish, Dungeon Meat, Locus et Interweaved Records, et il gère en parallèle son propre label de dubplates, BPDUBS. Son travail est relayé par Enzo Siragusa, Alec Falconer ou Dr. Banana.",
+  "bio_en": "Boss Priester is a Dutch producer and DJ based in The Hague who plays a mix of minimal, house and techno. His records have come out on Ba Dum Tish, Dungeon Meat, Locus and Interweaved Records, and he runs his own dubplate label, BPDUBS. His work is championed by the likes of Enzo Siragusa, Alec Falconer and Dr. Banana.",
+  "origin": "La Haye, Pays-Bas",
+  "labels": ["BPDUBS", "Locus", "Ba Dum Tish"],
+  "sources": ["https://bosspriester.bandcamp.com/", "https://events.musicofourdesire.com/artist/boss-priester"]
+ },
+ {
+  "name": "Stef Davidse",
+  "bio_fr": "Stef Davidse est un DJ et producteur néerlandais basé à Rotterdam, venu du hip-hop avant de découvrir la house en 2018. Sa musique garde cet héritage : basses roulantes, groove tech house et voix soul. Il publie sur No Art, WYLD Records, Micro Hertz et Eastenderz, le label d'East End Dubs, et sa collaboration « Burnin » avec ANOTR dépasse les deux millions d'écoutes sur Spotify.",
+  "bio_en": "Stef Davidse is a Dutch DJ and producer based in Rotterdam who came from hip-hop before discovering house in 2018. That background still shows: rolling basslines, tech house groove and soulful vocals. He releases on No Art, WYLD Records, Micro Hertz and Eastenderz, East End Dubs' label, and his collaboration \"Burnin\" with ANOTR has passed two million Spotify streams.",
+  "origin": "Rotterdam, Pays-Bas",
+  "since": 2018,
+  "labels": ["No Art", "WYLD Records", "Eastenderz"],
+  "sources": ["https://grayarea.co/magazine/press-play-on-stef-davidse-rotterdam-s-rising-house-star"]
+ },
+ {
+  "name": "Luca Agnelli",
+  "bio_fr": "Luca Agnelli est un DJ et producteur italien originaire de Toscane. Sa techno dure et physique garde des racines house, et se teinte volontiers d'industriel et de neo rave. Il a fondé en 2010 le label Etruria Beat, devenu l'une des références italiennes du genre, et signé en 2016 un remix de « Porcelain » de Moby paru sur Drumcode. Il joue régulièrement à l'Amnesia d'Ibiza, à la Fabrique de Milan, à l'Egg de Londres ou au Movement Festival de Turin.",
+  "bio_en": "Luca Agnelli is an Italian DJ and producer from Tuscany. His hard, physical techno keeps its house roots while leaning into industrial and neo-rave textures. He founded the label Etruria Beat in 2010, now one of Italy's reference imprints for the style, and in 2016 delivered a remix of Moby's \"Porcelain\" released on Drumcode. He plays regularly at Amnesia in Ibiza, Fabrique in Milan, Egg in London and Turin's Movement Festival.",
+  "origin": "Toscane, Italie",
+  "since": 2010,
+  "labels": ["Etruria Beat"],
+  "sources": ["https://electronicgroove.com/eg-artists/eg-techno-020-luca-agnelli/"]
  }
 ]
