@@ -3,9 +3,8 @@ import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
-import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
 import { PLACES } from "@/lib/places";
-import { fmtDate } from "@/lib/format";
 import { showsForArtist } from "@/lib/shows";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { artistJsonLd, breadcrumbJsonLd } from "@/lib/seo";
@@ -27,6 +26,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const events = eventsForArtist(slug);
   const live = events.filter((e) => !isPast(e, today));
   const shows = showsForArtist(slug);
+  const showHref = new Map(shows.map((sh) => [sh.eventId, `${p}/show/${sh.slug}`]));
   const related = relatedArtists(artist, 12);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
   // Cities the artist plays that we actually have a page for — links the artist mesh
@@ -129,34 +129,17 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             ))}
           </div>
 
+          {/* One section, not two. The text list of shows and the grid of events were
+              the same dates twice over — but they pointed at different pages, and the
+              `/show/` pages are only ever linked from here and from a venue page. So the
+              grid survives and inherits the show link: on an artist page, "Amelie Lens at
+              Hilvarenbeek" is a better destination than the festival's general page. */}
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("artist.dates")}
           </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-            {shows.map((s) => (
-              <Link key={s.slug} href={`${p}/show/${s.slug}`} className="mini">
-                <div style={{ minWidth: 92 }}>
-                  <h4 style={{ color: "var(--cyan)", fontFamily: "var(--f-mono)", fontSize: ".8rem" }}>
-                    {fmtDate(s.date, lang)}
-                  </h4>
-                </div>
-                <div>
-                  <h4>{venueLabelL(s.venue, s.venueEn, lang)}</h4>
-                  <span>
-                    {s.city}, {countryLabel(s.country, lang)}
-                    {s.endDate < today && ` · ${t("event.pastbadge")}`}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
-            {t("artist.playsat")}
-          </h2>
           <div className="grid grid-4">
             {events.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={e} lang={lang} today={today} href={showHref.get(e.id)} />
             ))}
           </div>
 
