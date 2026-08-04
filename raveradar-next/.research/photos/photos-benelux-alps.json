@@ -108,6 +108,33 @@
   "note": "interieur du D! Club de Lausanne, dancefloor bonde et lasers"
  },
  {
+  "id": 349,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Press_Pic_0125asw_modeselektor_2018_photo_birgit_kaulfuss.jpg/1920px-Press_Pic_0125asw_modeselektor_2018_photo_birgit_kaulfuss.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Press_Pic_0125asw_modeselektor_2018_photo_birgit_kaulfuss.jpg",
+  "credit": "Birgit Kaulfuss / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "event",
+  "width": 1920,
+  "note": "photo de presse officielle du duo Modeselektor"
+ },
+ {
+  "id": 326,
+  "image": "https://tickets.nordstern.com/static/media/img/cguSTN6tl6Dp07uA/5d49043811c136ec.jpg",
+  "sourcePage": "https://tickets.nordstern.com/en/c/teletech-x-dayrave-2088",
+  "credit": "Nordstern Basel / Teletech (visuel officiel)",
+  "kind": "event",
+  "width": 800,
+  "note": "affiche officielle Teletech x DAY|RAVE, 05.09.2026 au Nordstern Basel"
+ },
+ {
+  "id": 374,
+  "image": "https://tickets.nordstern.com/static/media/img/G6jQolXqbv2LqmKD/5d49043811c136ec.jpg",
+  "sourcePage": "https://tickets.nordstern.com/en/c/azyr-2067",
+  "credit": "Nordstern Basel (visuel officiel de l'evenement)",
+  "kind": "event",
+  "width": 800,
+  "note": "photo presse d'Azyr utilisee par le Nordstern pour la date du 11.12.2026"
+ },
+ {
   "id": 369,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Maduk_Liquicity_Festival_2015.jpg/1920px-Maduk_Liquicity_Festival_2015.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:Maduk_Liquicity_Festival_2015.jpg",

@@ -5,14 +5,14 @@
   python3 .research/photos/ingest.py           # télécharge, optimise, patche data.ts
 
 Pour chaque URL retenue on produit deux fichiers dans public/posters/ :
-  {slug}.jpg       ratio d'origine, ≤1600 px — Open Graph et JSON-LD
+  {slug}.jpg       ratio d'origine, ≤1200 px — Open Graph et JSON-LD
   {slug}_min.webp  crop 4:5 à 560×700       — le poster des cartes
 
 Deux événements qui pointent la même URL (une photo de salle partagée par toutes
 ses dates) partagent le même fichier : la dédup se fait sur l'URL *et* sur le
 hash du contenu téléchargé.
 """
-import argparse, hashlib, io, json, re, subprocess, sys, unicodedata
+import argparse, hashlib, io, json, re, subprocess, sys, time, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,7 +23,7 @@ DATA_TS = ROOT / "lib" / "data.ts"
 MIN_WIDTH = 500          # en dessous, la photo pixellise sur une carte 4:5
 MIN_BYTES = 15_000
 FLAT_STD = 18            # écart-type sous lequel l'image est probablement un logo sur fond uni
-FULL_MAX = 1600
+FULL_MAX = 1200          # largeur de référence Open Graph ; au-delà on alourdit le repo pour rien
 THUMB_W, THUMB_H = 560, 700
 
 from PIL import Image, ImageStat
@@ -67,15 +67,61 @@ def candidates(url: str):
     return [url]
 
 
-def fetch(url: str):
-    """curl plutôt que urllib : le proxy sortant est déjà configuré pour lui."""
-    p = subprocess.run(
-        ["curl", "-sL", "-m", "45", "--retry", "2", "-A",
-         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
-         url],
-        capture_output=True,
+BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126 Safari/537.36")
+# Wikimedia demande un agent identifiable et coupe les rafales anonymes : sur 272
+# téléchargements d'affilée, plusieurs fichiers Commons revenaient tronqués alors
+# qu'ils se téléchargeaient sans problème un par un.
+WIKI_UA = "RaveRadarBot/1.0 (https://raveparty.fr; event poster fetch) curl"
+
+
+CACHE = PHOTOS_DIR / ".cache"
+
+
+def looks_like_image(raw: bytes) -> bool:
+    """Signature de fichier. Un site qui répond une page d'erreur en 200 renvoie
+    souvent 20-40 Ko de HTML : sans ce garde-fou elle finit dans le cache, et
+    l'échec devient définitif au lieu d'être retenté."""
+    return (
+        raw[:3] == b"\xff\xd8\xff"                            # JPEG
+        or raw[:4] == b"\x89PNG"                              # PNG
+        or raw[:4] == b"GIF8"                                 # GIF
+        or (raw[:4] == b"RIFF" and raw[8:12] == b"WEBP")      # WebP
+        or raw[4:8] == b"ftyp"                                # AVIF / HEIF
     )
-    return p.stdout if p.returncode == 0 else b""
+
+
+def fetch(url: str, tries: int = 3):
+    """curl plutôt que urllib : le proxy sortant est déjà configuré pour lui.
+
+    Les octets réussis sont mis en cache sur disque : relancer le script ne
+    retente alors que les URLs encore en échec, au lieu de re-solliciter les
+    ~270 hôtes (c'est ce matraquage qui faisait tomber des fichiers Commons
+    au hasard d'un run à l'autre).
+    """
+    CACHE.mkdir(exist_ok=True)
+    blob = CACHE / hashlib.sha1(url.encode()).hexdigest()
+    if blob.exists() and blob.stat().st_size >= MIN_BYTES:
+        cached = blob.read_bytes()
+        if looks_like_image(cached):
+            return cached
+        blob.unlink()                         # page d'erreur mise en cache par erreur
+
+    wiki = "wikimedia.org" in url
+    ua = WIKI_UA if wiki else BROWSER_UA
+    p = None
+    for attempt in range(tries):
+        if wiki:
+            time.sleep(0.4)                   # on reste poli avec Commons
+        p = subprocess.run(
+            ["curl", "-sL", "-m", "60", "--retry", "2", "--retry-delay", "2", "-A", ua, url],
+            capture_output=True,
+        )
+        if p.returncode == 0 and len(p.stdout) >= MIN_BYTES and looks_like_image(p.stdout):
+            blob.write_bytes(p.stdout)
+            return p.stdout
+        time.sleep(1.5 * (attempt + 1))
+    return p.stdout if p and p.returncode == 0 else b""
 
 
 def quality_check(raw: bytes):

@@ -1,0 +1,92 @@
+[
+ {
+  "id": 217,
+  "title": "Bassiani: SPANDAU20 Nacht",
+  "type": "Club",
+  "city": "Tbilisi",
+  "country": "Georgia",
+  "venue": "Bassiani",
+  "date": "2026-09-18"
+ },
+ {
+  "id": 219,
+  "title": "Frædag : Elli Acula",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-09-18"
+ },
+ {
+  "id": 223,
+  "title": "Frædag : Tony Humphries",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-09-25"
+ },
+ {
+  "id": 227,
+  "title": "Jasna 1 : Donato Dozzy x Unsound",
+  "type": "Club",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "Jasna 1",
+  "date": "2026-10-02"
+ },
+ {
+  "id": 234,
+  "title": "Insomnia Festival",
+  "type": "Festival",
+  "city": "Tromsø",
+  "country": "Norway",
+  "venue": "Verdensteatret / Kulturhuset",
+  "date": "2026-10-14"
+ },
+ {
+  "id": 240,
+  "title": "Jasna 1 : 999999999",
+  "type": "Club",
+  "city": "Warsaw",
+  "country": "Poland",
+  "venue": "Jasna 1",
+  "date": "2026-11-06"
+ },
+ {
+  "id": 317,
+  "title": "Beatpatrol Festival",
+  "type": "Festival",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Galopprennbahn Freudenau",
+  "date": "2026-09-04"
+ },
+ {
+  "id": 331,
+  "title": "reworks",
+  "type": "Festival",
+  "city": "Thessaloniki",
+  "country": "Greece",
+  "venue": "Plusieurs lieux de Thessalonique (dont The Met Hotel)",
+  "date": "2026-09-16"
+ },
+ {
+  "id": 333,
+  "title": "NZNZ à la Postgarage",
+  "type": "Club",
+  "city": "Graz",
+  "country": "Austria",
+  "venue": "Postgarage",
+  "date": "2026-09-18"
+ },
+ {
+  "id": 385,
+  "title": "Extrema Outdoor Belgium",
+  "type": "Festival",
+  "city": "Houthalen-Helchteren",
+  "country": "Belgium",
+  "venue": "De Plas",
+  "date": "2027-05-14"
+ }
+]
