@@ -63,8 +63,24 @@ const ARTIST_SLUGS: string[] = [...new Set(SHOWS.map((x) => x.artistSlug))].sort
  * artist ({artist}-{venue}-{YYYYMMDD}), so recover it and let the route send a
  * 301 to that artist rather than serving a 404 to traffic we already earned.
  */
+/**
+ * Shows whose artist was renamed after publication, keyed by the dead slug's
+ * `{artist}-{venue}` head.
+ *
+ * "Jazzy" was two different people — Jasmin Fumagalli on the Utopia bill, Yasmine
+ * Byrne on Rise — collapsed onto one artist page by `slugify(name)`. Splitting them
+ * into "Jazzy (CH)" and "Jazzy (IE)" fixed the page and killed both show URLs, and
+ * no lookup on the artist alone can tell them apart: that is the whole point. The
+ * venue still in the dead slug can.
+ */
+const RENAMED_SHOWS: Record<string, string> = {
+  "jazzy-friche-la-belle-de-mai": "jazzy-ch",
+  "jazzy-station-des-deux-alpes": "jazzy-ie",
+};
+
 export function artistFromDeadShowSlug(slug: string): string | null {
   const head = /^(.+)-\d{8}$/.exec(slug)?.[1] ?? slug;
+  if (RENAMED_SHOWS[head]) return RENAMED_SHOWS[head];
   // Longest match first: "amelie-lens" must win over a hypothetical "amelie".
   return ARTIST_SLUGS.find((a) => head === a || head.startsWith(`${a}-`)) ?? null;
 }
