@@ -52,12 +52,36 @@ async function probeBrevo() {
       ),
     );
     const missing = ["ALERT_KIND", "ALERT_VALUE", "ALERT_LABEL", "ALERT_SUMMARY", "LANG"].filter((a) => !known.has(a));
+
+    // Brevo accepts POST /v3/smtp/email and answers 201 even when the sender is not a
+    // validated one — the message is only dropped later, so a 201 is not proof of
+    // delivery. Checking the sender list is the only way to catch that from here.
+    // Verdicts only: ALERTS_NOTIFY_FROM is the owner's address, not something a public
+    // endpoint should echo back.
+    let expediteur = "non_configure";
+    const from = process.env.ALERTS_NOTIFY_FROM?.toLowerCase();
+    if (from) {
+      const senders = await get("/senders");
+      if (!senders.ok) expediteur = `illisible (HTTP ${senders.status})`;
+      else {
+        const list = ((await senders.json().catch(() => ({}))) as { senders?: { email: string; active?: boolean }[] })
+          .senders ?? [];
+        const match = list.find((s) => s.email?.toLowerCase() === from);
+        expediteur = match
+          ? match.active === false
+            ? "declare_mais_inactif"
+            : "valide"
+          : `absent_de_la_liste (${list.length} expediteur(s) declare(s)) — ajoute-le dans Expediteurs, domaine, IP, ou mets l'adresse de ton compte Brevo`;
+      }
+    }
+
     return {
       reachable: true,
       verdict: "ok",
       // Not fatal — subscribers.ts retries without them — but it silently loses the
       // detail of every alert, so it is worth surfacing.
       attributsManquants: missing,
+      expediteur,
     };
   } catch (err) {
     return { reachable: false, verdict: err instanceof Error ? err.message.slice(0, 120) : "reseau" };
