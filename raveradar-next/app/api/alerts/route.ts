@@ -7,6 +7,35 @@ import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 export const dynamic = "force-dynamic";
 
 /**
+ * Health check for the alerts subsystem. Reports which configuration keys the running
+ * function can actually see — names only, never values — because "the endpoint answers
+ * 501" gives an operator no way to tell a missing variable from one scoped to the wrong
+ * environment or saved after the last deploy. Knowing the site uses Brevo is inferable
+ * from a subscription mail anyway, so this leaks nothing a secret depends on.
+ */
+export async function GET() {
+  const present = (k: string) => Boolean(process.env[k]);
+  const brevo = ["BREVO_API_KEY", "BREVO_LIST_ID"];
+  const resend = ["RESEND_API_KEY", "RESEND_AUDIENCE_ID"];
+  const notify = ["ALERTS_NOTIFY_TO", "ALERTS_NOTIFY_FROM"];
+  const provider = providerName();
+
+  return NextResponse.json({
+    configured: Boolean(provider),
+    provider,
+    // Only the incomplete sets are worth reporting: a fully-set provider needs no advice.
+    missing: provider
+      ? []
+      : brevo.some(present)
+        ? brevo.filter((k) => !present(k))
+        : resend.some(present)
+          ? resend.filter((k) => !present(k))
+          : ["BREVO_API_KEY", "BREVO_LIST_ID (ou RESEND_API_KEY + RESEND_AUDIENCE_ID)"],
+    organizerMail: notify.every(present) ? "ok" : `manque ${notify.filter((k) => !present(k)).join(", ")}`,
+  });
+}
+
+/**
  * Creates one alert subscription. The response codes are what the form renders:
  * 200 subscribed · 400 bad address · 429 slow down · 501 no provider configured ·
  * 502 the provider refused. `501` matters — it is the difference between telling
