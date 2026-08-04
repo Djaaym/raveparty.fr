@@ -9,6 +9,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
 
 export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -98,6 +99,8 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
             Rave party <span className="gradient-text">{place.label}</span>
           </h1>
           <p className="lead">{intro}</p>
+
+          <AlertForm lang={lang} kind="city" value={place.slug} label={place.label} />
 
           <div className="linkfarm" style={{ marginTop: 20 }}>
             <Link href={`${p}/festival/${place.slug}`}>

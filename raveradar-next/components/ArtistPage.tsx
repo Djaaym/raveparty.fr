@@ -12,6 +12,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
 
 export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -67,6 +68,8 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             </h1>
           </div>
           <p className="lead">{intro}</p>
+
+          <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />
 
           <div className="card-meta" style={{ marginTop: 16 }}>
             {artist.genres.map((g) => (

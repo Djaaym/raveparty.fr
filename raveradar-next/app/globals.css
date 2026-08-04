@@ -632,3 +632,48 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .guide-stats { grid-template-columns: repeat(2, 1fr); }
   .guide-strands, .guide-passes { grid-template-columns: 1fr; }
 }
+
+/* --- Hero h1 LCP fix -------------------------------------------------------
+   The hero h1 is the largest text on the homepage and therefore the LCP
+   element. It used to be a framer-motion node with initial={{opacity:0}},
+   so it painted invisible in the server HTML and only became visible once
+   React hydrated and ran the animation — LCP was effectively gated behind
+   JS. This keyframe animation starts at opacity: 1 (text is on-screen at
+   first paint, no JS required) and only moves a transform, so the headline
+   keeps a bit of entrance motion without ever being invisible. */
+@keyframes hero-h1-in {
+  from { transform: translateY(18px); }
+  to { transform: translateY(0); }
+}
+.hero-h1-in { animation: hero-h1-in .7s cubic-bezier(.22, 1, .36, 1) both; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-h1-in { animation: none; }
+}
+
+/* ----------------------------- ALERTS ---------------------------------- */
+/* The block a visitor hands an address to. Sits on artist, city, genre and
+   country pages — everywhere the surrounding copy already promised an alert. */
+.alert-form {
+  margin-top: 26px; padding: 22px 24px;
+  border: 1px solid var(--violet); border-radius: var(--r-lg);
+  background: linear-gradient(165deg, rgba(139,92,255,.12), rgba(255,45,155,.04));
+  box-shadow: var(--glow-violet);
+}
+.alert-form.bare { margin-top: 0; padding: 0; border: 0; background: none; box-shadow: none; }
+.alert-title { font-family: var(--f-display); font-weight: 800; font-size: 1.15rem; letter-spacing: -.01em; }
+.alert-lead { color: var(--grey); font-size: .9rem; margin-top: 6px; }
+.alert-row { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+.alert-row .input { flex: 1 1 240px; min-width: 0; }
+.alert-msg { color: var(--magenta); font-size: .86rem; margin-top: 12px; }
+.alert-fine { color: var(--grey-2); font-size: .78rem; margin-top: 10px; }
+.alert-done { color: var(--acid); font-family: var(--f-display); font-weight: 700; font-size: 1.05rem; }
+.alert-form.is-done { border-color: var(--acid); box-shadow: 0 0 40px rgba(198,255,61,.18); }
+.alert-card .btn { flex: none; }
+
+/* Honeypot: off-screen rather than display:none, which some bots skip outright. */
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+/* Visually hidden but still announced — used for the inputs whose only label is a placeholder. */
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}

@@ -42,5 +42,14 @@ export function imageAlt(e: RaveEvent, lang: Lang): string {
 export function priceLabel(e: RaveEvent, lang: Lang): string {
   if (e.priceNote === "unknown") return DICT[lang]["dyn.priceunknown"];
   if (e.price === 0) return DICT[lang]["dyn.free"];
-  return `${e.priceNote === "estimated" ? "≈ " : ""}${e.currency}${e.price}`;
+  // e.currency is a symbol ("€"/"£"/"$"), not an ISO code, so Intl's style:"currency"
+  // (which requires ISO codes like "EUR") can't place it for us — format the number in
+  // decimal style and place the symbol by hand per locale: "41,80 €" in fr, "€41.80" in en.
+  const hasCents = e.price % 1 !== 0;
+  const amount = new Intl.NumberFormat(DICT[lang].locale, {
+    minimumFractionDigits: hasCents ? 2 : 0,
+    maximumFractionDigits: 2,
+  }).format(e.price);
+  const formatted = lang === "fr" ? `${amount} ${e.currency}` : `${e.currency}${amount}`;
+  return `${e.priceNote === "estimated" ? "≈ " : ""}${formatted}`;
 }

@@ -5,18 +5,17 @@ import { EVENTS } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import EventCard from "./EventCard";
 import { readFavs } from "./useFavorites";
+import { removeAlert, useAlerts } from "./useAlerts";
+import { alertKey } from "@/lib/alerts";
+import { fmtDate } from "@/lib/format";
 
 type Tab = "favs" | "alerts" | "history" | "settings";
-
-function Switch({ initial = false }: { initial?: boolean }) {
-  const [on, setOn] = useState(initial);
-  return <div className={`switch ${on ? "on" : ""}`} style={{ marginLeft: "auto" }} onClick={() => setOn((o) => !o)} />;
-}
 
 export default function AccountTabs({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const [tab, setTab] = useState<Tab>("favs");
   const [favIds, setFavIds] = useState<number[]>([]);
+  const alerts = useAlerts();
 
   useEffect(() => {
     const sync = () => setFavIds(readFavs());
@@ -33,12 +32,6 @@ export default function AccountTabs({ lang }: { lang: Lang }) {
     ["history", t("acc.tab.history")],
     ["settings", t("acc.tab.settings")],
   ];
-  const alerts = [
-    ["Charlotte de Witte", t("acc.alert.artist"), true],
-    ["Hard Techno · Berlin", t("acc.alert.genrecity"), true],
-    [t("acc.alert.free"), t("acc.alert.freesub"), false],
-    [t("acc.alert.fest"), t("acc.alert.festsub"), true],
-  ] as const;
 
   return (
     <>
@@ -69,18 +62,33 @@ export default function AccountTabs({ lang }: { lang: Lang }) {
           <p className="lead" style={{ marginBottom: 24 }}>
             {t("acc.alerts.lead")}
           </p>
-          <div className="grid grid-2">
-            {alerts.map(([title, sub, on], i) => (
-              <div className="alert-card" key={i}>
-                <div>
-                  <b>{title}</b>
-                  <br />
-                  <span style={{ color: "var(--grey)", fontSize: ".85rem" }}>{sub}</span>
-                </div>
-                <Switch initial={on} />
+          {alerts.length ? (
+            <>
+              <div className="grid grid-2">
+                {alerts.map((a) => (
+                  <div className="alert-card" key={alertKey(a.kind, a.value)}>
+                    <div>
+                      <b>{a.label}</b>
+                      <br />
+                      <span style={{ color: "var(--grey)", fontSize: ".85rem" }}>
+                        {t(`alert.kind.${a.kind}`)} · {t("acc.alerts.since").replace("{date}", fmtDate(a.at.slice(0, 10), lang))}
+                      </span>
+                    </div>
+                    <button
+                      className="btn btn-ghost btn-sm"
+                      style={{ marginLeft: "auto" }}
+                      onClick={() => removeAlert(a.kind, a.value)}
+                    >
+                      {t("acc.alerts.remove")}
+                    </button>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+              <p style={{ color: "var(--grey-2)", fontSize: ".85rem", marginTop: 18 }}>{t("acc.alerts.browser")}</p>
+            </>
+          ) : (
+            <p style={{ color: "var(--grey)" }}>{t("acc.alerts.empty")}</p>
+          )}
         </div>
       )}
 

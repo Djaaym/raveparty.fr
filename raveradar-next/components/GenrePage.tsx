@@ -19,6 +19,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
 
 export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) {
@@ -73,6 +74,8 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
             {genreDescL(genre, lang)}
           </p>
           <p className="lead">{intro}</p>
+
+          <AlertForm lang={lang} kind="genre" value={slug} label={genre} />
 
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("hub.next")} · {genre}
