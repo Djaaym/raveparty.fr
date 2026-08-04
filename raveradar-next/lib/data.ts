@@ -1013,15 +1013,18 @@ export const PHOTOS: Record<number, string> = {
 };
 /* PHOTOS:end */
 
-/** Full-resolution poster — for Open Graph and JSON-LD, where one big image is fine.
- *  Absolute on purpose: a relative path in an og:image or a schema.org `image` is
- *  ignored by the crawlers that read them. */
-export const imageUrl = (e: RaveEvent): string | null =>
-  IMAGES[e.id]
-    ? IMG_BASE + IMAGES[e.id]
-    : PHOTOS[e.id]
-      ? SITE_URL + PHOTO_BASE + PHOTOS[e.id]
-      : null;
+/** Full-resolution poster, host-relative for the files we serve ourselves — this is what
+ *  an `<img>` on the page should load. Relative on purpose: an absolute URL would make a
+ *  preview deploy fetch its own images from production and miss the local CDN cache. */
+export const imageFull = (e: RaveEvent): string | null =>
+  IMAGES[e.id] ? IMG_BASE + IMAGES[e.id] : PHOTOS[e.id] ? PHOTO_BASE + PHOTOS[e.id] : null;
+
+/** Same poster, absolute — for Open Graph and JSON-LD, where a relative path in an
+ *  og:image or a schema.org `image` is ignored by the crawlers that read them. */
+export const imageUrl = (e: RaveEvent): string | null => {
+  const u = imageFull(e);
+  return u ? (u.startsWith("http") ? u : SITE_URL + u) : null;
+};
 /** Compressed variant served alongside each poster: ~60-100 KB of WebP instead of
  *  ~2.5 MB of PNG, cropped to the 4:5 of a card. A listing renders 24 of these, so
  *  the full-size file is never what a card should load. */

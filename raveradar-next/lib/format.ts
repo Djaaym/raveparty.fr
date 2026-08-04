@@ -1,5 +1,6 @@
 import type { Lang, RaveEvent } from "./types";
 import { DICT } from "./i18n";
+import { PHOTOS, countryLabel, eventVenueL } from "./data";
 
 export function fmtDate(iso: string, lang: Lang): string {
   const d = new Date(iso + "T00:00:00");
@@ -11,6 +12,31 @@ export function fmtDayLong(iso: string, lang: Lang): string {
   const d = new Date(iso + "T00:00:00");
   const s = d.toLocaleDateString(DICT[lang].locale, { weekday: "long", day: "numeric", month: "long" });
   return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+/**
+ * Alt text for an event poster. Every visual on the site used to be a CSS background,
+ * so none of them carried one — no accessible name, and nothing for image search to
+ * index. Wording stays honest about the source: `PHOTOS` are real photographs of the
+ * event or the room, everything else is an AI-generated key visual and says so.
+ */
+export function imageAlt(e: RaveEvent, lang: Lang): string {
+  const where = `${eventVenueL(e, lang)}, ${e.city}, ${countryLabel(e.country, lang)}`;
+  // Not fmtDate(): its uppercased "05 SEPT. 2026" reads as shouting inside a sentence,
+  // and the spelled-out month is what image search actually matches on.
+  const when = new Date(e.date + "T00:00:00").toLocaleDateString(DICT[lang].locale, {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+  if (PHOTOS[e.id]) {
+    return lang === "fr"
+      ? `Photo de ${e.title} — ${where}, ${when}`
+      : `Photo of ${e.title} — ${where}, ${when}`;
+  }
+  return lang === "fr"
+    ? `Visuel d'illustration de ${e.title} — ${where}, ${when}`
+    : `Illustrative key visual for ${e.title} — ${where}, ${when}`;
 }
 
 export function priceLabel(e: RaveEvent, lang: Lang): string {

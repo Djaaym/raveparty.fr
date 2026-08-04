@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS, cardBg, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO, venueLabelL } from "@/lib/data";
+import { EVENTS, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO, venueLabelL } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { artistFromDeadShowSlug, showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import EventCard from "./EventCard";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
+import HeroImage from "./HeroImage";
 import JsonLd from "./JsonLd";
 import { breadcrumbJsonLd, eventJsonLd } from "@/lib/seo";
 
@@ -54,7 +55,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
           <Breadcrumbs lang={lang} trail={trail} />
 
           <div className="event-hero" style={{ marginTop: 16, minHeight: "44vh" }}>
-            <div className="bg" style={{ backgroundImage: cardBg(e) }} />
+            <HeroImage e={e} lang={lang} />
             <div>
               <div className="event-hero-meta">
                 {done && <span className="tag past">{t("event.pastbadge")}</span>}
