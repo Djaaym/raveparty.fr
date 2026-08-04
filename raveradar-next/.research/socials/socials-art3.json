@@ -266,5 +266,52 @@
     "soundcloud": "luke-slater",
     "bandcamp": "https://planetaryassaultsystemsplanet.bandcamp.com",
     "verified": "https://www.lukeslater.com — le site officiel de Luke Slater (Planetary Assault Systems est son alias techno, page dédiée lukeslater.com/planetary-assault-systems) renvoie vers instagram.com/lukeslater_planetary, soundcloud.com/luke-slater et planetaryassaultsystemsplanet.bandcamp.com"
+  },
+  {
+    "kind": "artist",
+    "key": "Oscar Mulero",
+    "instagram": "oscarmulerooficial",
+    "site": "https://www.oscarmulero.com",
+    "facebook": "https://www.facebook.com/dj.oscarmulero",
+    "x": "oscarmulero",
+    "youtube": "https://www.youtube.com/user/OfficialOscarMulero",
+    "soundcloud": "oscarmulero",
+    "ra": "https://ra.co/dj/oscarmulero",
+    "verified": "http://sourceartists.net/oscar-mulero — la fiche de son agence de booking (Source Artists, l'agence indiquée sur polegroup.net, son propre label) renvoie vers instagram.com/oscarmulerooficial, facebook.com/dj.oscarmulero, twitter.com/oscarmulero, youtube.com/user/OfficialOscarMulero, soundcloud.com/oscarmulero et ra.co/dj/oscarmulero"
+  },
+  {
+    "kind": "artist",
+    "key": "Apparat",
+    "instagram": "apparat3000",
+    "facebook": "https://www.facebook.com/apparat.official",
+    "x": "apparatofficial",
+    "youtube": "https://www.youtube.com/@apparat2548",
+    "soundcloud": "apparat",
+    "spotify": "https://open.spotify.com/artist/40Ojab0UtVQFjA76qXr8Ot",
+    "verified": "https://mute.com/artists/apparat — la fiche artiste de son label Mute Records renvoie vers instagram.com/apparat3000, soundcloud.com/apparat, facebook.com/apparat.official, twitter.com/apparatofficial, youtube.com/@apparat2548 et l'artiste Spotify 40Ojab0UtVQFjA76qXr8Ot"
+  },
+  {
+    "kind": "artist",
+    "key": "ARTBAT",
+    "instagram": "artbatmusic",
+    "facebook": "https://www.facebook.com/artbatmusic/",
+    "tiktok": "artbat_ofc",
+    "soundcloud": "artbatmusic",
+    "verified": "https://upperground.art — le site officiel de leur propre label Upperground renvoie vers instagram.com/artbatmusic, facebook.com/artbatmusic et tiktok.com/@artbat_ofc ; soundcloud.com/artbatmusic est le compte qui publie leurs mixes (Essential Mix BBC Radio 1)"
+  },
+  {
+    "kind": "artist",
+    "key": "Raresh",
+    "facebook": "https://www.facebook.com/RareshArpiar/",
+    "soundcloud": "rareshofficial",
+    "verified": "soundcloud.com/rareshofficial s'affiche « Raresh [a:rpia:r] » et facebook.com/RareshArpiar porte le même marqueur : [a:rpia:r] est le label vinyle que Raresh a cofondé avec Rhadoo et Petre Inspirescu (arpiar.ro), ce qui lève l'ambiguïté avec tout homonyme. Instagram non retenu faute de preuve directe."
+  },
+  {
+    "kind": "artist",
+    "key": "Alok",
+    "instagram": "alok",
+    "facebook": "https://www.facebook.com/livealok/",
+    "soundcloud": "livealok",
+    "verified": "soundcloud.com/livealok est le compte officiel « Alok » et facebook.com/livealok porte le même identifiant livealok ; le DJ brésilien est explicitement désigné « Brazilian DJ @alok » dans le post Instagram instagram.com/p/DIviOedSykg/ consacré à son passage sur la Sahara Stage de Coachella"
   }
 ]

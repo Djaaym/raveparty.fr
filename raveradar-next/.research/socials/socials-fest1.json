@@ -397,5 +397,56 @@
     "facebook": "https://www.facebook.com/defqon1",
     "tiktok": "defqon1",
     "verified": "https://www.q-dance.com/l/defqon1-ayntk-2026-online — la page officielle « all you need to know » de Q-dance ecrit « follow our socials: Instagram: @defqon1 / TikTok: @defqon1 / Facebook: @defqon1 / Youtube: Q-dance » (les comptes @q_dance sont ceux de l'organisateur, pas du festival)"
+  },
+  {
+    "kind": "event",
+    "key": "Tomorrowland",
+    "instagram": "tomorrowland",
+    "site": "https://www.tomorrowland.com",
+    "facebook": "https://www.facebook.com/tomorrowland",
+    "verified": "https://www.facebook.com/tomorrowland/ — la page Facebook est localisee a Boom (notre ville) et affiche TOMORROWLAND.COM comme site officiel, donc lien croise avec le domaine que nous connaissons ; https://www.instagram.com/tomorrowland/ est le compte homonyme de 11 M d'abonnes (og:title « Tomorrowland (@tomorrowland) »). Le site tomorrowland.com ne publie pas ses icones sociales en HTML"
+  },
+  {
+    "kind": "event",
+    "key": "Zamna Tulum",
+    "instagram": "zamna.music",
+    "site": "https://www.zamnafestival.com",
+    "facebook": "https://www.facebook.com/zamna.music",
+    "youtube": "https://www.youtube.com/channel/UCh07liXGiNazlEH6Xj6-S0w",
+    "verified": "https://www.zamnafestival.com — site officiel qui vend les dates « Zamna Tulum » (zamnafestival.com/events?venue=zamna-tulum) ; son pied de page renvoie vers instagram.com/zamna.music, facebook.com/zamna.music et la chaine YouTube UCh07liXGiNazlEH6Xj6-S0w. C'est le seul compte que l'edition de Tulum publie"
+  },
+  {
+    "kind": "event",
+    "key": "UNUM Festival",
+    "instagram": "unumfestival",
+    "site": "https://unumfestival.com",
+    "verified": "https://www.unumfestival.com/contact — la page contact du site officiel (titre « Contact - UNUM Festival 2026 ») renvoie vers instagram.com/unumfestival"
+  },
+  {
+    "kind": "event",
+    "key": "Positiv Festival",
+    "instagram": "positiv_festival_official",
+    "site": "https://www.positivfestival.fr",
+    "facebook": "https://www.facebook.com/positivfestival",
+    "youtube": "https://www.youtube.com/channel/UCS5Qt35fYtHEbOJ73R_qWDg",
+    "verified": "https://www.positivfestival.fr — site officiel (titre « POSITIV Festival - Théâtre antique d'Orange - Juillet/Août 2026 », soit notre lieu et nos dates) ; son pied de page renvoie vers instagram.com/positiv_festival_official, facebook.com/positivfestival et la chaine YouTube UCS5Qt35fYtHEbOJ73R_qWDg"
+  },
+  {
+    "kind": "event",
+    "key": "Boomtown Chapter Five",
+    "instagram": "boomtownfairofficial",
+    "site": "https://www.boomtownfair.co.uk",
+    "facebook": "https://www.facebook.com/boomtownofficial",
+    "tiktok": "boomtownfair",
+    "youtube": "https://www.youtube.com/c/BoomtownFairOfficial",
+    "x": "boomtownfair",
+    "verified": "https://linktr.ee/boomtownfair — Linktree officiel de Boomtown (il renvoie vers www.boomtownfair.co.uk, shop.boomtownfair.co.uk, photos.boomtownfair.co.uk et la billetterie officielle) ; il liste instagram.com/boomtownfairofficial, facebook.com/boomtownofficial, tiktok.com/@boomtownfair, youtube.com/c/BoomtownFairOfficial et x.com/boomtownfair. Le site boomtownfair.co.uk charge ses icones en JS"
+  },
+  {
+    "kind": "event",
+    "key": "Eskape Festival",
+    "facebook": "https://www.facebook.com/eskapefestival",
+    "site": "https://www.eskapefestival.com",
+    "verified": "https://www.facebook.com/eskapefestival — la page porte le titre « Eskape Festival | Montilly-sur-Noireau », soit exactement notre commune ; elle est aussi liee depuis le Linktree officiel linktr.ee/eskapefestival, qui renvoie lui-meme vers www.eskapefestival.com. Aucun compte Instagram publie par ces deux sources"
   }
 ]

@@ -427,5 +427,57 @@
     "site": "https://www.eternalsunfestival.com",
     "facebook": "https://www.facebook.com/profile.php?id=61571564712205",
     "verified": "https://www.eternalsunfestival.com — le site officiel (celui de notre lien billetterie) renvoie vers instagram.com/eternalsunfestival et vers sa page Facebook (profile.php?id=61571564712205)"
+  },
+  {
+    "kind": "event",
+    "key": "Draaimolen Festival",
+    "site": "https://www.draaimolen.nu",
+    "soundcloud": "draaimolen",
+    "verified": "https://www.draaimolen.nu — le site officiel n'affiche aucune icône de réseau, mais intègre des sets hébergés sur soundcloud.com/draaimolen ; ce profil s'intitule « DRAAIMOLEN » et sa bio annonce « DRAAIMOLEN FESTIVAL 2026, September 4 & 5, MOB-Complex, Tilburg », soit notre date. Aucun compte Instagram vérifiable n'a été trouvé, donc aucun n'est inscrit."
+  },
+  {
+    "kind": "event",
+    "key": "Brunch Electronik Lisboa #4 · Adam Beyer",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — le site officiel de Brunch Electronik Lisboa, qui annonce la date Adam Beyer, renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa (compte lisboète, distinct de @brunchelectronik Barcelone)"
+  },
+  {
+    "kind": "event",
+    "key": "Brunch Electronik Lisboa #5 · Charlotte de Witte",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — le site officiel de Brunch Electronik Lisboa, qui annonce la date Charlotte de Witte, renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa"
+  },
+  {
+    "kind": "event",
+    "key": "Solomun Lisboa · Brunch × Neopop",
+    "instagram": "brunchlisboa",
+    "site": "https://lisboa.brunchelectronik.com",
+    "facebook": "https://www.facebook.com/brunchlisboa/",
+    "tiktok": "brunchlisboa",
+    "verified": "https://lisboa.brunchelectronik.com — la date Solomun (co-produite avec Neopop) est annoncée et vendue sur le site officiel de Brunch Electronik Lisboa, dont le pied de page renvoie vers instagram.com/brunchlisboa, facebook.com/brunchlisboa et tiktok.com/@brunchlisboa ; ce sont donc les comptes de l'organisateur de cette date, pas ceux de Neopop"
+  },
+  {
+    "kind": "event",
+    "key": "VIVA! Festival",
+    "instagram": "viva_festival",
+    "site": "https://vivafestival.it",
+    "facebook": "https://www.facebook.com/VIVAfestivalIT/",
+    "verified": "vivafestival.it (site officiel) ne publie aucun lien social ; le compte Instagram @viva_festival s'intitule « VIVA! Festival », publie sur Locorotondo et la Valle d'Itria et annonce les 31 juillet - 2 août 2026, exactement nos dates ; la page Facebook « VIVA Festival · Locorotondo » (facebook.com/VIVAfestivalIT) porte le même contenu"
+  },
+  {
+    "kind": "event",
+    "key": "ZAMNA × PRIMER Athens",
+    "instagram": "primermusicfestival",
+    "site": "https://primermusicfestival.com",
+    "facebook": "https://www.facebook.com/primermusicfestival/",
+    "tiktok": "primermusicfestival",
+    "youtube": "https://www.youtube.com/@primermusicfestival",
+    "verified": "https://primermusicfestival.com (notre lien billetterie, et l'organisateur de cette édition athénienne montée avec Zamna) — son pied de page renvoie vers instagram.com/primermusicfestival, facebook.com/primermusicfestival, tiktok.com/@primermusicfestival et youtube.com/@primermusicfestival ; le compte @zamnafestival, marque mexicaine invitée, n'est volontairement pas inscrit ici"
   }
 ]

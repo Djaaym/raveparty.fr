@@ -74,5 +74,75 @@
     "instagram": "postgarage",
     "site": "https://www.postgarage.at",
     "verified": "https://www.postgarage.at — le site officiel (« Veranstaltungshalle Graz-Gries », Dreihackengasse 42, 8020 Graz) renvoie vers instagram.com/postgarage"
+  },
+  {
+    "kind": "venue",
+    "key": "Lehmann Club",
+    "instagram": "lehmannclubstuttgart",
+    "site": "https://lehmannclub.de",
+    "facebook": "https://www.facebook.com/LehmannClub",
+    "verified": "https://lehmannclub.de — le site officiel du club renvoie vers instagram.com/lehmannclubstuttgart (le handle porte Stuttgart) et facebook.com/LehmannClub"
+  },
+  {
+    "kind": "venue",
+    "key": "Bernexpo",
+    "instagram": "bernexpo",
+    "site": "https://www.bernexpo.ch",
+    "youtube": "https://www.youtube.com/user/BERNEXPO",
+    "verified": "https://www.bernexpo.ch — le site officiel de BERNEXPO AG (« Messen, Konzerte, Veranstaltungen in Bern ») renvoie vers instagram.com/bernexpo et youtube.com/user/BERNEXPO"
+  },
+  {
+    "kind": "venue",
+    "key": "IFEMA Madrid, Avenida del Partenón 5",
+    "instagram": "ifema_madrid",
+    "site": "https://www.ifema.es",
+    "facebook": "https://www.facebook.com/IFEMA",
+    "tiktok": "ifemadrid",
+    "youtube": "https://www.youtube.com/channel/UCeEnAhiS3oUvbXvVwGDBJtw",
+    "verified": "https://www.ifema.es — le pied de page du site officiel d'IFEMA MADRID renvoie vers instagram.com/ifema_madrid, facebook.com/IFEMA, tiktok.com/@ifemadrid et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Auditorium Parco della Musica Ennio Morricone",
+    "instagram": "auditoriumparcodellamusica",
+    "site": "https://www.auditorium.com",
+    "facebook": "https://www.facebook.com/AuditoriumParcodellaMusica",
+    "verified": "https://www.auditorium.com — le site officiel de l'Auditorium Parco della Musica Ennio Morricone (Rome) renvoie vers instagram.com/auditoriumparcodellamusica et facebook.com/AuditoriumParcodellaMusica"
+  },
+  {
+    "kind": "venue",
+    "key": "Dolni Vitkovice",
+    "instagram": "dolnivitkovice",
+    "site": "https://www.dolnivitkovice.cz",
+    "facebook": "https://www.facebook.com/DolniVitkovice/",
+    "youtube": "https://www.youtube.com/channel/UCBSc-DIiUwJDif9oj3btAXA",
+    "verified": "https://www.dolnivitkovice.cz — le site officiel de l'areál Dolní Vítkovice (Ostrava) renvoie vers instagram.com/dolnivitkovice, facebook.com/DolniVitkovice et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Seepark Zülpich",
+    "instagram": "seeparkzuelpich",
+    "site": "https://www.seepark-zuelpich.de",
+    "facebook": "https://www.facebook.com/seeparkzuelpich",
+    "verified": "https://www.seepark-zuelpich.de — le site officiel du Seepark Zülpich renvoie vers instagram.com/seeparkzuelpich et facebook.com/seeparkzuelpich"
+  },
+  {
+    "kind": "venue",
+    "key": "ING Arena (Palais 12), Heysel",
+    "instagram": "ing.arena.brussels",
+    "site": "https://ing.arena.brussels",
+    "facebook": "https://www.facebook.com/ing.arena.brussels/",
+    "tiktok": "ing.arena.brussels",
+    "verified": "https://ing.arena.brussels (palais12.com redirige vers ce site officiel) — le pied de page renvoie vers instagram.com/ing.arena.brussels, facebook.com/ing.arena.brussels et tiktok.com/@ing.arena.brussels"
+  },
+  {
+    "kind": "venue",
+    "key": "Rotterdam Ahoy",
+    "instagram": "rotterdam.ahoy",
+    "site": "https://www.ahoy.nl",
+    "facebook": "https://www.facebook.com/ahoyrotterdam",
+    "tiktok": "rotterdam.ahoy",
+    "youtube": "https://www.youtube.com/channel/UCWvcxV4CYqQk8krJwFf2R0A",
+    "verified": "https://www.ahoy.nl — les liens sociaux du pied de page (ahoy.nl/instagram, /facebook, /tiktok, /youtube) redirigent vers instagram.com/rotterdam.ahoy, facebook.com/ahoyrotterdam, tiktok.com/@rotterdam.ahoy et youtube.com/channel/UCWvcxV4CYqQk8krJwFf2R0A"
   }
 ]

@@ -244,5 +244,43 @@
     "facebook": "https://www.facebook.com/AinterexpoBourgenBresse",
     "youtube": "https://www.youtube.com/channel/UC9NazPMMGOKaE22jLlyX-5A",
     "verified": "https://www.ainterexpo.com — le site officiel d'Ainterexpo – Ekinox (Bourg-en-Bresse) renvoie vers instagram.com/ainterexpo_ekinox, facebook.com/AinterexpoBourgenBresse et sa chaîne YouTube"
+  },
+  {
+    "kind": "venue",
+    "key": "Poolen",
+    "instagram": "poolencopenhagen",
+    "site": "https://poolen.dk",
+    "facebook": "https://www.facebook.com/poolencopenhagen",
+    "tiktok": "poolencopenhagen",
+    "ra": "https://ra.co/clubs/235165",
+    "verified": "https://poolen.dk/en/ — le site officiel de Poolen (« Copenhagen's new warehouse venue », Refshalevej 189, 1432 København K, Refshaleøen) renvoie vers instagram.com/poolencopenhagen, facebook.com/poolencopenhagen et tiktok.com/@poolencopenhagen ; page RA ra.co/clubs/235165 (Poolen · Copenhagen)"
+  },
+  {
+    "kind": "venue",
+    "key": "La Condition Publique",
+    "instagram": "laconditionpublique",
+    "site": "https://www.laconditionpublique.com",
+    "facebook": "https://www.facebook.com/LaConditionPublique/",
+    "x": "laCPublique",
+    "youtube": "https://www.youtube.com/user/ConditionDeRoubaix",
+    "verified": "https://www.laconditionpublique.com/le-lieu/ — le site officiel de La Condition Publique (Roubaix, EPCC) renvoie vers instagram.com/laconditionpublique, facebook.com/LaConditionPublique, twitter.com/laCPublique et youtube.com/user/ConditionDeRoubaix"
+  },
+  {
+    "kind": "venue",
+    "key": "Central Chapelle",
+    "instagram": "central.chapelle",
+    "site": "https://centralchapelle.com",
+    "facebook": "https://www.facebook.com/central.chapelle/",
+    "tiktok": "central.chapelle",
+    "youtube": "https://www.youtube.com/@central.chapelle",
+    "verified": "https://centralchapelle.com — site officiel identifié depuis la fiche Songkick du lieu (songkick.com/venues/4614464-central-chapelle, Paris) ; son pied de page indique « 4 Esplanade Alice Milliat 75018 Paris » et renvoie vers instagram.com/central.chapelle, facebook.com/central.chapelle, tiktok.com/@central.chapelle et youtube.com/@central.chapelle"
+  },
+  {
+    "kind": "venue",
+    "key": "Sew - la Manu",
+    "instagram": "sewmorlaix",
+    "site": "https://www.sew-morlaix.com",
+    "facebook": "https://www.facebook.com/sewmorlaix",
+    "verified": "https://www.sew-morlaix.com — site officiel du SEW (ancienne Manufacture des tabacs, « la Manu »), confirmé par la fiche Songkick songkick.com/venues/4359407-le-sew-manufacture-des-tabacs ; le site indique 39 quai du Léon, 29600 Morlaix et renvoie vers instagram.com/sewmorlaix et facebook.com/sewmorlaix"
   }
 ]

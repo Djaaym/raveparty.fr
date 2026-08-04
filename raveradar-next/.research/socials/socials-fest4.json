@@ -311,5 +311,81 @@
     "facebook": "https://facebook.com/rongevents",
     "tiktok": "rongevents",
     "verified": "Le site officiel du festival est malta.rongevents.com, sous-domaine de rongevents.com dont le pied de page renvoie vers instagram.com/rongevents, facebook.com/rongevents et tiktok.com/@rongevents. Compte de marque RONG (trance/progressive), l'édition maltaise n'ayant pas de compte séparé"
+  },
+  {
+    "kind": "event",
+    "key": "Sunny Side Festival",
+    "instagram": "sunnysidefestival.mt",
+    "site": "https://ssfestivalmalta.com",
+    "facebook": "https://www.facebook.com/SunnySideFestivalMT",
+    "tiktok": "ssfestivalmt",
+    "verified": "https://ssfestivalmalta.com — le code source du site officiel (Ta' Qali Craft Village, Malte) renvoie vers instagram.com/sunnysidefestival.mt, facebook.com/SunnySideFestivalMT et tiktok.com/@ssfestivalmt"
+  },
+  {
+    "kind": "event",
+    "key": "Omana Festival",
+    "instagram": "omanafestival",
+    "site": "https://omana-festival.de",
+    "verified": "https://omana-festival.de — le site officiel (baie de Kalamitsi, Chalcidique, 30 sept.-6 oct. 2026) renvoie vers instagram.com/omanafestival ; aucun autre réseau n'y est publié"
+  },
+  {
+    "kind": "event",
+    "key": "Bloom Festival",
+    "instagram": "bloomfest.pt",
+    "site": "https://www.bloomfestival.pt",
+    "facebook": "https://www.facebook.com/bloomfest.pt/",
+    "verified": "https://www.bloomfestival.pt — le site officiel (Aeródromo da Maia, Porto, 18-19 septembre 2026) renvoie vers instagram.com/bloomfest.pt et facebook.com/bloomfest.pt"
+  },
+  {
+    "kind": "event",
+    "key": "Rave Rebels XXL",
+    "instagram": "raverebels",
+    "site": "https://raverebels.com",
+    "facebook": "https://www.facebook.com/raverebelsfestival/",
+    "tiktok": "raverebels",
+    "youtube": "https://www.youtube.com/@raverebels",
+    "verified": "https://raverebels.com — le site officiel du festival (ING Arena, Bruxelles, monté par le Kompass Klub) renvoie vers instagram.com/raverebels, facebook.com/raverebelsfestival, tiktok.com/@raverebels et youtube.com/@raverebels ; ce sont bien les comptes du festival et non ceux du Kompass Klub, distincts"
+  },
+  {
+    "kind": "event",
+    "key": "Crazy New Year",
+    "instagram": "crazynewyearfestival",
+    "facebook": "https://www.facebook.com/crazynewyearfestival/",
+    "tiktok": "crazynewyear",
+    "verified": "https://ainterexpo.com/agenda/crazy-new-year-festival/ — la fiche de l'événement sur le site officiel de la salle (Ainterexpo - EKINOX, Bourg-en-Bresse) porte un bloc de liens sociaux propre au festival : instagram.com/crazynewyearfestival, tiktok.com/@crazynewyear et facebook.com/crazynewyearfestival, distincts des comptes de la salle (@ainterexpo_ekinox)"
+  },
+  {
+    "kind": "event",
+    "key": "Illusion BZH Edition",
+    "instagram": "pandemic_events_",
+    "site": "https://www.pandemic-events.com/illusion",
+    "facebook": "https://www.facebook.com/Pandemic.Events/",
+    "tiktok": "pandemic.events",
+    "youtube": "https://www.youtube.com/channel/UC8bXfHT9_AhGLvS5RALl5zA",
+    "verified": "https://www.pandemic-events.com/illusion — la page officielle Illusion de l'organisateur Pandemic Events y annonce « ILLUSION 2026 - LORIENT », samedi 12 déc. 2026, Parc des Expositions Lorient Bretagne Sud à Lanester, et renvoie vers instagram.com/pandemic_events_, facebook.com/Pandemic.Events et tiktok.com/@pandemic.events. La marque Illusion n'a pas de compte propre : ce sont les comptes du collectif organisateur"
+  },
+  {
+    "kind": "event",
+    "key": "Toffler Festival",
+    "instagram": "tofflerfestival",
+    "site": "https://tofflerfestival.nl",
+    "verified": "Le site officiel tofflerfestival.nl annonce « Next up 29.05.27 Toffler Festival @ Roel Langerakpark » (notre date et notre lieu) mais ne publie aucun lien social ; le compte instagram.com/tofflerfestival (23k abonnés, 399 publications) porte le nom exact du festival et couvre ces éditions au Roel Langerakpark. Compte distinct de celui du club Toffler"
+  },
+  {
+    "kind": "event",
+    "key": "Sputnik Spring Break",
+    "instagram": "sputnikspringbreak",
+    "site": "https://www.sputnik-springbreak.de",
+    "facebook": "https://www.facebook.com/Sputnik.SPRINGBREAK.Festival/",
+    "verified": "Le site officiel sputnik-springbreak.de redirige vers mdr.de/sputnik/springbreak (MDR Sputnik, l'organisateur). Le compte instagram.com/sputnikspringbreak est celui du festival — à ne pas confondre avec la déclinaison @sputnik.spring.break.tour — et la page facebook.com/Sputnik.SPRINGBREAK.Festival est géolocalisée à Pouch, le lieu du festival"
+  },
+  {
+    "kind": "event",
+    "key": "Boom Festival",
+    "instagram": "boomfestivalofficial",
+    "site": "https://www.boomfestival.org",
+    "facebook": "https://www.facebook.com/boomfestivalofficialpage/",
+    "soundcloud": "boomfestival",
+    "verified": "https://www.boomfestival.org/media — la page Media du site officiel renvoie vers soundcloud.com/boomfestival (preuve directe). Le site étant rendu en JS, ses liens sociaux ne sont pas dans le HTML : l'Instagram @boomfestivalofficial (520k abonnés, nom « Boom Festival Official ») et la page facebook.com/boomfestivalofficialpage (« Boom Festival Official ») sont les comptes homonymes du festival, cohérents avec le handle soundcloud officiel"
   }
 ]

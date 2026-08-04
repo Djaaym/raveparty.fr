@@ -75,5 +75,152 @@
     "site": "https://turbinabudapest.hu",
     "facebook": "https://www.facebook.com/turbinabudapest/",
     "verified": "https://turbinabudapest.hu/en — le site officiel de Turbina (1082 Budapest, Vajdahunyad utca 4) renvoie vers instagram.com/turbinabudapest et facebook.com/turbinabudapest"
+  },
+  {
+    "kind": "venue",
+    "key": "Bassiani",
+    "instagram": "basssiani",
+    "site": "https://bassiani.com",
+    "facebook": "https://www.facebook.com/bassiani",
+    "verified": "https://bassiani.com (application React, liens dans le bundle /static/js/main.f3a6b2f9.js) — le site officiel de Bassiani/Horoom (Dinamo Arena, Tbilissi) renvoie vers instagram.com/basssiani et facebook.com/bassiani"
+  },
+  {
+    "kind": "venue",
+    "key": "Klub K4",
+    "instagram": "klub_k4",
+    "site": "https://www.klub-k4.si",
+    "facebook": "https://www.facebook.com/klubk4",
+    "verified": "https://www.klub-k4.si/en/ — le site officiel du Klub K4 (Kersnikova 4, 1000 Ljubljana) renvoie vers instagram.com/klub_k4 et facebook.com/klubk4"
+  },
+  {
+    "kind": "venue",
+    "key": "The Cause",
+    "instagram": "thecauselondon",
+    "site": "https://supportthecause.co.uk",
+    "facebook": "https://www.facebook.com/thecauselondon/",
+    "soundcloud": "thecauselondon",
+    "verified": "https://supportthecause.co.uk — le pied de page du site officiel de The Cause (60 Dock Road, London E16 1YZ) renvoie vers instagram.com/thecauselondon, facebook.com/thecauselondon et soundcloud.com/thecauselondon"
+  },
+  {
+    "kind": "venue",
+    "key": "Tvornica Kulture",
+    "instagram": "tvornicakulture",
+    "site": "https://www.tvornicakulture.com",
+    "facebook": "https://www.facebook.com/tvornicakulture/",
+    "verified": "https://www.tvornicakulture.com/kontakt/ — le site officiel de Tvornica Kulture (Ulica Pavla Subica 2, 10000 Zagreb) renvoie vers instagram.com/tvornicakulture et facebook.com/tvornicakulture"
+  },
+  {
+    "kind": "venue",
+    "key": "The Warehouse",
+    "instagram": "thewarehouseleeds",
+    "site": "https://www.theleedswarehouse.com",
+    "facebook": "https://www.facebook.com/TheWarehouseLeeds/",
+    "tiktok": "thewarehouseleeds",
+    "verified": "https://www.theleedswarehouse.com (ex-warehouseleeds.com, redirection) — le site officiel du Warehouse de Leeds renvoie vers instagram.com/thewarehouseleeds, facebook.com/TheWarehouseLeeds et tiktok.com/@thewarehouseleeds. Verifie Leeds et non Nantes/Manchester"
+  },
+  {
+    "kind": "venue",
+    "key": "Toplocentrala",
+    "instagram": "toplocentrala",
+    "site": "https://toplocentrala.bg",
+    "facebook": "https://www.facebook.com/toplocentralata/",
+    "verified": "https://toplocentrala.bg — le site officiel de Toplocentrala (centre regional d'art contemporain, Sofia) renvoie vers instagram.com/toplocentrala et facebook.com/toplocentralata"
+  },
+  {
+    "kind": "venue",
+    "key": "Spodek",
+    "instagram": "spodekkatowice",
+    "site": "https://www.spodekkatowice.pl",
+    "facebook": "https://www.facebook.com/halaspodek",
+    "verified": "https://www.spodekkatowice.pl — le site officiel de la Hala Widowiskowo-Sportowa Spodek (Katowice) renvoie vers instagram.com/spodekkatowice et facebook.com/halaspodek"
+  },
+  {
+    "kind": "venue",
+    "key": "World Headquarters",
+    "instagram": "worldheadquartersclub",
+    "site": "https://www.welovewhq.com",
+    "facebook": "https://www.facebook.com/WorldHQ/",
+    "x": "welovewhq",
+    "verified": "https://www.welovewhq.com — le pied de page du site officiel de World Headquarters (Newcastle) renvoie vers instagram.com/worldheadquartersclub, facebook.com/WorldHQ et twitter.com/welovewhq (le second couple @worldhqandnatlive / WHQNatTurnerliveevents est la branche live events, ecarte)"
+  },
+  {
+    "kind": "venue",
+    "key": "Menų fabrikas Loftas",
+    "instagram": "menufabrikas",
+    "site": "https://menufabrikas.lt",
+    "facebook": "https://www.facebook.com/loftasvilnius",
+    "verified": "https://menufabrikas.lt — le site officiel de Menu Fabrikas LOFTAS (Vilnius) renvoie vers instagram.com/menufabrikas et facebook.com/loftasvilnius"
+  },
+  {
+    "kind": "venue",
+    "key": "Suvilahti",
+    "instagram": "suvilahtihelsinki",
+    "site": "https://www.suvilahti.fi",
+    "facebook": "https://www.facebook.com/suvilahdenkulttuurikeskus",
+    "verified": "https://www.suvilahti.fi — le site officiel du site culturel de Suvilahti (Helsinki) renvoie vers instagram.com/suvilahtihelsinki et facebook.com/suvilahdenkulttuurikeskus"
+  },
+  {
+    "kind": "venue",
+    "key": "Vermo Arena",
+    "instagram": "vermoareena",
+    "site": "https://vermo.fi",
+    "facebook": "https://www.facebook.com/vermoareena",
+    "x": "vermoareena",
+    "verified": "https://vermo.fi — le site officiel de Vermo Areena (Espoo) renvoie vers instagram.com/vermoareena, facebook.com/vermoareena et twitter.com/vermoareena"
+  },
+  {
+    "kind": "venue",
+    "key": "SEKTOR6D",
+    "instagram": "sektor6d",
+    "site": "https://www.sektor6d.pl",
+    "facebook": "https://www.facebook.com/sektor6d",
+    "verified": "https://www.sektor6d.pl — le site officiel de SEKTOR6D (Warsaw's Largest Indoor Concert & Event Venue) renvoie vers instagram.com/sektor6d et facebook.com/sektor6d"
+  },
+  {
+    "kind": "venue",
+    "key": "Ankali",
+    "instagram": "ankali2.0",
+    "site": "https://anka.li",
+    "facebook": "https://www.facebook.com/ankaliclub/",
+    "soundcloud": "ankali",
+    "tiktok": "ankali.club",
+    "verified": "http://ankali.cz redirige vers https://anka.li, site officiel du club Ankali (Prague), qui renvoie vers instagram.com/ankali2.0, facebook.com/ankaliclub, soundcloud.com/ankali et tiktok.com/@ankali.club"
+  },
+  {
+    "kind": "venue",
+    "key": "Ankali & Planeta Za",
+    "instagram": "ankali2.0",
+    "site": "https://anka.li",
+    "facebook": "https://www.facebook.com/ankaliclub/",
+    "soundcloud": "ankali",
+    "tiktok": "ankali.club",
+    "verified": "https://anka.li — le site officiel s'intitule exactement « Ankali & Planeta Za » (Prague) et renvoie vers instagram.com/ankali2.0, facebook.com/ankaliclub, soundcloud.com/ankali et tiktok.com/@ankali.club"
+  },
+  {
+    "kind": "venue",
+    "key": "Club Guesthouse",
+    "instagram": "club_guesthouse",
+    "site": "https://www.clubguesthouse.ro",
+    "facebook": "https://www.facebook.com/clubguesthouse/",
+    "verified": "https://www.clubguesthouse.ro/contact — le site officiel du Club Guesthouse (160 Splaiul Unirii, Bucarest 024078) renvoie vers instagram.com/club_guesthouse et facebook.com/clubguesthouse"
+  },
+  {
+    "kind": "venue",
+    "key": "The Prospect Building",
+    "instagram": "theprospectbuilding",
+    "site": "https://www.theprospectbuilding.com",
+    "facebook": "https://www.facebook.com/theprospectbuilding",
+    "tiktok": "theprospectbuilding",
+    "verified": "https://www.theprospectbuilding.com — le site officiel (meta description : « a new culture space curated in collaboration with Bristol's best-loved creative collectives », backend firebase « prospect-bristol ») renvoie vers instagram.com/theprospectbuilding, facebook.com/theprospectbuilding et tiktok.com/@theprospectbuilding"
+  },
+  {
+    "kind": "venue",
+    "key": "The British Library",
+    "instagram": "britishlibrary",
+    "site": "https://www.bl.uk",
+    "facebook": "https://www.facebook.com/britishlibrary/",
+    "x": "britishlibrary",
+    "tiktok": "britishlibrary",
+    "verified": "https://www.bl.uk — le pied de page du site officiel de la British Library (Londres) renvoie vers instagram.com/britishlibrary, facebook.com/britishlibrary, twitter.com/britishlibrary et tiktok.com/@britishlibrary"
   }
 ]

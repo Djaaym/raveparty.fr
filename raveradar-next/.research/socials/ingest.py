@@ -13,7 +13,7 @@ Le second garde-fou est `verified` : pas de preuve, pas d'entrée. C'est la mêm
 règle que `sources` dans lib/bios.ts, pour la même raison — un lien social faux
 envoie le lecteur chez quelqu'un d'autre, et nous fait mentir en public.
 """
-import argparse, json, re, sys, unicodedata
+import argparse, json, re, subprocess, sys, unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -84,8 +84,13 @@ def norm_value(net: str, raw: str, reject) -> str | None:
         return v
     if not v.startswith("http"):
         v = "https://" + v.lstrip("/")
-    if not v.startswith("https://"):
-        return reject(f"{net} n'est pas en https : {v}")
+    if v.startswith("http://"):
+        # Les plateformes servent toutes en https et redirigent : l'agent a simplement
+        # recopié un vieux lien. Le site officiel d'un festival, lui, peut réellement
+        # n'exister qu'en http — on ne devine pas à sa place, on écarte le champ.
+        if net == "site":
+            return reject(f"site en http, non corrigeable sans vérification : {v}")
+        v = "https://" + v[len("http://"):]
     return v
 
 
@@ -190,14 +195,66 @@ def render(maps) -> str:
     return "\n\n".join(chunks) + "\n"
 
 
+BROWSER_UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+
+
+def post_renders(code: str) -> bool:
+    """Le lecteur officiel rend-il vraiment ce post ?
+
+    Instagram répond 200 quel que soit le code : une page inexistante renvoie la même
+    coquille que la bonne, en plus court. Le seul signal exploitable est la présence d'une
+    URL média `scontent` — l'image du post.
+    """
+    try:
+        out = subprocess.run(
+            ["curl", "-s", "-m", "25", "-A", BROWSER_UA,
+             f"https://www.instagram.com/p/{code}/embed/captioned/"],
+            capture_output=True, timeout=35,
+        )
+        return b"scontent" in out.stdout
+    except (subprocess.TimeoutExpired, OSError):
+        return False
+
+
+def check_posts(maps) -> list[str]:
+    """Signale les permaliens que le lecteur officiel ne rend pas. **Ne supprime rien.**
+
+    La tentation serait de retirer d'office les posts qui ne répondent pas. Ce serait un
+    piège : Instagram sert son mur de connexion dès qu'un serveur enchaîne les requêtes,
+    et cette page-là répond 200, pèse 600 Ko et ne contient aucun média — exactement la
+    signature d'un post mort. Un validateur qui supprime effacerait donc des données
+    parfaitement bonnes le jour où Instagram décide de nous limiter, sans que personne
+    ne s'en aperçoive. On rapporte, un humain tranche. Quand *tous* les posts échouent,
+    c'est le mur, pas le catalogue.
+    """
+    bad, total, seen = [], 0, {}
+    for kind, entries in maps.items():
+        for slug, entry in entries.items():
+            for c in entry.get("posts") or []:
+                total += 1
+                if c not in seen:
+                    seen[c] = post_renders(c)
+                if not seen[c]:
+                    bad.append(f"{kind}/{slug} : post non rendu par le lecteur officiel ({c})")
+    if bad and len(bad) == total:
+        return [f"aucun des {total} posts n'a été rendu : Instagram sert son mur de "
+                f"connexion, vérification non concluante — rien à conclure sur les données"]
+    return bad
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="rapport seul, n'écrit pas")
+    ap.add_argument("--check-posts", action="store_true",
+                    help="interroge Instagram et signale les permaliens non rendus")
     args = ap.parse_args()
 
     rows, problems = load()
     maps, stats, more = merge(rows, known_keys())
     problems += more
+    if args.check_posts:
+        problems += check_posts(maps)
 
     total = sum(len(m) for m in maps.values())
     print(f"{len(rows)} entrées lues → {total} retenues "

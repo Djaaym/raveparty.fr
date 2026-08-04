@@ -85,7 +85,7 @@ export default function SocialsCard({
           {others.map((l) => (
             <a key={l.net} href={l.url} target="_blank" rel="noopener noreferrer nofollow">
               {labels[l.net]}
-              {l.net !== "site" && l.net !== "ra" && ` · ${l.handle}`}
+              {l.handle && ` · ${l.handle}`}
             </a>
           ))}
         </div>

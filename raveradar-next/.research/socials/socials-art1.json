@@ -183,5 +183,109 @@
     "key": "Kobosil",
     "soundcloud": "kobosil",
     "verified": "https://en.wikipedia.org/wiki/Kobosil — la section « External links » de sa page Wikipédia (Max Kobosil, techno, Berlin) donne soundcloud.com/kobosil. Instagram non retenu : aucune source officielle trouvée pour le confirmer"
+  },
+  {
+    "kind": "artist",
+    "key": "Ben Klock",
+    "instagram": "ben_klock",
+    "facebook": "https://facebook.com/Ben-Klock-60928281674",
+    "soundcloud": "ben-klock",
+    "spotify": "https://open.spotify.com/artist/1vJHfCreWAS46V8RZ67ojo",
+    "x": "benklock",
+    "verified": "https://primeentertainmentventures.com/artist/ben-klock/ — la fiche de son agence de booking Prime Entertainment Ventures liste instagram.com/ben_klock, soundcloud.com/ben-klock, twitter.com/benklock, sa page Facebook et le Spotify 1vJHfCreWAS46V8RZ67ojo ; soundcloud.com/ben-klock est aussi le lien externe de sa page Wikipédia"
+  },
+  {
+    "kind": "artist",
+    "key": "Adriatique",
+    "instagram": "adriatique",
+    "facebook": "https://facebook.com/adriatiqueofficial",
+    "soundcloud": "adriatique",
+    "spotify": "https://open.spotify.com/artist/02DWGcShQivFepRvGJ7xhB",
+    "youtube": "https://www.youtube.com/user/adriatiquemusic",
+    "x": "adriatiquemusic",
+    "verified": "https://primeentertainmentventures.com/artist/adriatique/ — la fiche de leur agence Prime Entertainment Ventures liste instagram.com/adriatique, facebook.com/adriatiqueofficial, soundcloud.com/adriatique, twitter.com/adriatiquemusic, youtube.com/user/adriatiquemusic et le Spotify 02DWGcShQivFepRvGJ7xhB"
+  },
+  {
+    "kind": "artist",
+    "key": "Dom Dolla",
+    "instagram": "domdolla",
+    "facebook": "https://facebook.com/domdollamusic",
+    "soundcloud": "domdolla",
+    "spotify": "https://open.spotify.com/artist/205i7E8fNVfojowcQSfK9m",
+    "tiktok": "domdolla",
+    "verified": "https://primeentertainmentventures.com/artist/dom-dolla/ — la fiche de son agence Prime Entertainment Ventures liste instagram.com/domdolla, facebook.com/domdollamusic, soundcloud.com/domdolla, tiktok.com/@domdolla et le Spotify 205i7E8fNVfojowcQSfK9m"
+  },
+  {
+    "kind": "artist",
+    "key": "Enrico Sangiuliano",
+    "instagram": "enricosangiuliano",
+    "site": "https://enricosangiuliano.com",
+    "facebook": "https://www.facebook.com/enricosangiuliano",
+    "soundcloud": "enricosangiuliano",
+    "spotify": "https://open.spotify.com/artist/1u7DsNFbakULvxnDGtMm90",
+    "youtube": "https://www.youtube.com/channel/UC_z-XE-y8Dzzz2VlMBr3DOQ",
+    "x": "esangiuliano",
+    "verified": "https://primeentertainmentventures.com/artist/enrico-sangiuliano/ — la fiche de son agence Prime Entertainment Ventures liste instagram.com/enricosangiuliano, facebook.com/enricosangiuliano, soundcloud.com/enricosangiuliano, twitter.com/esangiuliano, sa chaîne YouTube et le Spotify 1u7DsNFbakULvxnDGtMm90"
+  },
+  {
+    "kind": "artist",
+    "key": "Fatima Hajji",
+    "instagram": "fatimahajji",
+    "facebook": "https://www.facebook.com/fatimahajjidj",
+    "soundcloud": "fatimahajji",
+    "spotify": "https://open.spotify.com/artist/6jZSXmTCxZhFfYELtp78Ci",
+    "youtube": "https://www.youtube.com/@djfatimahajji",
+    "x": "fatimahajji",
+    "verified": "https://primeentertainmentventures.com/artist/fatima-hajji/ — la fiche de son agence Prime Entertainment Ventures liste instagram.com/fatimahajji, facebook.com/fatimahajjidj, soundcloud.com/fatimahajji, twitter.com/fatimahajji, youtube.com/@djfatimahajji et le Spotify 6jZSXmTCxZhFfYELtp78Ci"
+  },
+  {
+    "kind": "artist",
+    "key": "Maceo Plex",
+    "instagram": "maceoplex",
+    "site": "https://maceoplex.net",
+    "facebook": "https://www.facebook.com/MaceoPlex/",
+    "soundcloud": "maceoplex",
+    "spotify": "https://open.spotify.com/artist/3TXQ1ddouwQAI78hV4hXDj",
+    "youtube": "https://www.youtube.com/channel/UC9SIHJ9kGwd40SVJ3Gmj2Dg",
+    "bandcamp": "https://maceoplex.bandcamp.com",
+    "x": "MaceoPlex",
+    "verified": "https://primeentertainmentventures.com/artist/maceo-plex/ — la fiche de son agence Prime Entertainment Ventures liste instagram.com/maceoplex, facebook.com/MaceoPlex, soundcloud.com/maceoplex, twitter.com/MaceoPlex, sa chaîne YouTube et le Spotify 3TXQ1ddouwQAI78hV4hXDj ; maceoplex.bandcamp.com donne maceoplex.net comme site officiel"
+  },
+  {
+    "kind": "artist",
+    "key": "Honey Dijon",
+    "instagram": "honeydijon",
+    "site": "https://honeyfuckingdijon.com",
+    "facebook": "https://www.facebook.com/HoneyDijon",
+    "spotify": "https://open.spotify.com/artist/0XfQBWgzisaS9ltDV9bXAS",
+    "youtube": "https://www.youtube.com/channel/UCoZ8tyMeD5aTKqE4F4yb2OA",
+    "tiktok": "djhoneydijon",
+    "verified": "https://honeyfuckingdijon.com — le site officiel renvoie vers instagram.com/honeydijon, facebook.com/HoneyDijon, tiktok.com/@djhoneydijon, sa chaîne YouTube et le Spotify 0XfQBWgzisaS9ltDV9bXAS"
+  },
+  {
+    "kind": "artist",
+    "key": "Joris Voorn",
+    "instagram": "jorisvoorn",
+    "site": "https://jorisvoorn.com",
+    "facebook": "http://www.facebook.com/jorisvoorndj",
+    "soundcloud": "joris-voorn",
+    "spotify": "https://open.spotify.com/artist/4jGpKAmwvU263l0tUh4xKU",
+    "youtube": "https://www.youtube.com/channel/UCXn-jxml9VfSPdnuPfjwRtg",
+    "tiktok": "jorisvoorn",
+    "x": "jorisvoorn",
+    "verified": "https://jorisvoorn.com — le site officiel renvoie vers instagram.com/jorisvoorn, facebook.com/jorisvoorndj, soundcloud.com/joris-voorn, twitter.com/jorisvoorn, tiktok.com/@jorisvoorn, sa chaîne YouTube et le Spotify 4jGpKAmwvU263l0tUh4xKU"
+  },
+  {
+    "kind": "artist",
+    "key": "Eric Prydz",
+    "instagram": "ericprydz",
+    "site": "https://www.ericprydz.com",
+    "facebook": "https://www.facebook.com/EricPrydzOfficial/",
+    "soundcloud": "eric-prydz",
+    "spotify": "https://open.spotify.com/artist/5sm0jQ1mq0dusiLtDJ2b4R",
+    "youtube": "https://www.youtube.com/channel/UCOjTxt7xBAjh1NraToYYlog",
+    "tiktok": "ericprydz",
+    "x": "ericprydz",
+    "verified": "https://www.ericprydz.com — le pied de page du site officiel renvoie vers instagram.com/ericprydz, x.com/ericprydz, facebook.com/EricPrydzOfficial, soundcloud.com/eric-prydz, tiktok.com/@ericprydz, sa chaîne YouTube et le Spotify 5sm0jQ1mq0dusiLtDJ2b4R"
   }
 ]

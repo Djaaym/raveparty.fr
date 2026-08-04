@@ -317,5 +317,13 @@
     "key": "Berghain / Panorama Bar",
     "site": "https://www.berghain.berlin",
     "verified": "https://www.berghain.berlin — site officiel du club (Am Wriezener Bahnhof, 10243 Berlin). Le club ne publie aucun compte social sur son site : aucun réseau n'est ajouté ici, seul le site officiel est repris."
+  },
+  {
+    "kind": "venue",
+    "key": "Depot Mayfield",
+    "instagram": "depotmayfield",
+    "site": "https://depotmayfield.com",
+    "x": "depotmayfield",
+    "verified": "https://depotmayfield.com — le site officiel de la salle (« a 10,000 capacity venue in Manchester's historic former railway station », Depot Mayfield, A Broadwick Space) renvoie vers instagram.com/depotmayfield et twitter.com/depotmayfield"
   }
 ]
