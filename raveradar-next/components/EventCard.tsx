@@ -14,9 +14,21 @@ import FavButton from "./FavButton";
  * the link, and neither did a keyboard or a middle click. The title now carries a real
  * `<a href>` and `.card-link::after` stretches it back over the whole card.
  */
-export default function EventCard({ e, lang, today }: { e: RaveEvent; lang: Lang; today?: string }) {
+export default function EventCard({
+  e,
+  lang,
+  today,
+  href,
+}: {
+  e: RaveEvent;
+  lang: Lang;
+  today?: string;
+  /** Overrides the destination — an artist page sends its cards to that artist's
+   *  `/show/` page, which is the more specific answer to "when do they play". */
+  href?: string;
+}) {
   const t = getDict(lang);
-  const href = `${langPrefix(lang)}${eventPath(e)}`;
+  const to = href ?? `${langPrefix(lang)}${eventPath(e)}`;
   // `today` is passed down from the server where the distinction matters on screen;
   // without it the card just renders neutrally.
   const done = today ? isPast(e, today) : false;
@@ -32,7 +44,7 @@ export default function EventCard({ e, lang, today }: { e: RaveEvent; lang: Lang
         <span className={`tag ${done ? "past" : "type"}`}>{done ? t("event.pastbadge") : e.type}</span>
         <FavButton id={e.id} />
       </div>
-      <Link className="card-link" href={href}>
+      <Link className="card-link" href={to}>
         <div className="card-media">
           {thumb ? (
           // 560×700 is exactly what the crop is encoded at — declaring it keeps the 4:5
