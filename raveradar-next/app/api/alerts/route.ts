@@ -13,7 +13,58 @@ export const dynamic = "force-dynamic";
  * environment or saved after the last deploy. Knowing the site uses Brevo is inferable
  * from a subscription mail anyway, so this leaks nothing a secret depends on.
  */
-export async function GET() {
+/**
+ * Asks Brevo what it thinks of our credentials, from inside the deployed function —
+ * the only vantage point that matters, since Vercel's egress IP is not ours to predict.
+ * Returns a classification, never Brevo's raw message: that message quotes the calling
+ * IP address, and a public endpoint has no business publishing it.
+ */
+async function probeBrevo() {
+  const key = process.env.BREVO_API_KEY;
+  const listId = process.env.BREVO_LIST_ID;
+  if (!key || !listId) return { reachable: false, verdict: "variables_absentes" };
+
+  const get = (path: string) =>
+    fetch(`https://api.brevo.com/v3${path}`, { headers: { "api-key": key, accept: "application/json" } });
+
+  try {
+    const account = await get("/account");
+    if (!account.ok) {
+      const body = await account.text().catch(() => "");
+      // Brevo answers 401 both for a bad key and for a key called from an IP the account
+      // has not authorised. Only the message distinguishes them, and the fix is different.
+      const verdict =
+        account.status === 401 && /IP address/i.test(body)
+          ? "ip_non_autorisee — passe le compte Brevo en « No IP review » : app.brevo.com/security/authorised_ips"
+          : account.status === 401
+            ? "cle_refusee — BREVO_API_KEY n'est pas reconnue"
+            : `compte_http_${account.status}`;
+      return { reachable: true, verdict };
+    }
+
+    const list = await get(`/contacts/lists/${listId}`);
+    if (!list.ok) return { reachable: true, verdict: `liste_${listId}_introuvable (HTTP ${list.status})` };
+
+    const attrs = await get("/contacts/attributes");
+    const known = new Set(
+      (((await attrs.json().catch(() => ({}))) as { attributes?: { name: string }[] }).attributes ?? []).map(
+        (a) => a.name,
+      ),
+    );
+    const missing = ["ALERT_KIND", "ALERT_VALUE", "ALERT_LABEL", "ALERT_SUMMARY", "LANG"].filter((a) => !known.has(a));
+    return {
+      reachable: true,
+      verdict: "ok",
+      // Not fatal — subscribers.ts retries without them — but it silently loses the
+      // detail of every alert, so it is worth surfacing.
+      attributsManquants: missing,
+    };
+  } catch (err) {
+    return { reachable: false, verdict: err instanceof Error ? err.message.slice(0, 120) : "reseau" };
+  }
+}
+
+export async function GET(req: Request) {
   const present = (k: string) => Boolean(process.env[k]);
   const brevo = ["BREVO_API_KEY", "BREVO_LIST_ID"];
   const resend = ["RESEND_API_KEY", "RESEND_AUDIENCE_ID"];
@@ -32,6 +83,9 @@ export async function GET() {
           ? resend.filter((k) => !present(k))
           : ["BREVO_API_KEY", "BREVO_LIST_ID (ou RESEND_API_KEY + RESEND_AUDIENCE_ID)"],
     organizerMail: notify.every(present) ? "ok" : `manque ${notify.filter((k) => !present(k)).join(", ")}`,
+    // Opt-in: the plain check stays a free local read, the probe costs two round-trips
+    // to Brevo and shouldn't fire on every curl.
+    ...(new URL(req.url).searchParams.has("probe") && provider === "brevo" ? { brevo: await probeBrevo() } : {}),
   });
 }
 
