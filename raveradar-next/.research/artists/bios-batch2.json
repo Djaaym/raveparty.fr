@@ -1,0 +1,35 @@
+[
+ {
+  "name": "Enrico Sangiuliano",
+  "bio_fr": "Producteur et DJ italien originaire d'Émilie-Romagne, Enrico Sangiuliano perce en 2015 avec son remix de « Can You Hear Me » de DJ Boris, puis avec l'EP « Moon Rocks » qui fait de lui l'artiste techno le plus vendu sur Beatport en 2016. Il publie en juin 2018 son premier album, « Biomorph », sur le label Drumcode d'Adam Beyer. En 2022, il lance NINETOZERO, un label conçu pour ne compter que dix sorties avant de s'arrêter, accompagné de la série de soirées SOLO en all-night-long.",
+  "bio_en": "An Italian producer and DJ from the Emilia region, Enrico Sangiuliano broke through in 2015 with his remix of DJ Boris's \"Can You Hear Me\", then with the \"Moon Rocks\" EP that made him Beatport's best-selling techno artist of 2016. In June 2018 he released his first album, \"Biomorph\", on Adam Beyer's Drumcode label. In 2022 he launched NINETOZERO, a label designed to run for exactly ten releases before ending, paired with his SOLO all-night-long party series.",
+  "origin": "Émilie-Romagne, Italie",
+  "labels": ["Drumcode", "NINETOZERO"],
+  "sources": [
+   "https://www.drumcode.se/artists/enrico-sangiuliano",
+   "https://electronicgroove.com/interview-enrico-sangiuliano-2022/"
+  ]
+ },
+ {
+  "name": "Prospa",
+  "bio_fr": "Duo britannique formé par Harvey Blumler et Gosha Smith, amis d'enfance originaires de Leeds, Prospa produit ensemble depuis 2013 une house nourrie de rave et de breakbeat. Leur morceau « Prayer » (2018) est choisi par Annie Mac comme Hottest Record in the World sur BBC Radio 1. Après des sorties sur Circoloco Records, le duo a lancé son propre label, Rave Science, distribué par Polydor.",
+  "bio_en": "A British duo made up of Harvey Blumler and Gosha Smith, childhood friends from Leeds, Prospa have been producing together since 2013, blending house with rave and breakbeat. Their track \"Prayer\" (2018) was picked by Annie Mac as Hottest Record in the World on BBC Radio 1. After releasing on Circoloco Records, the pair launched their own label, Rave Science, through Polydor.",
+  "origin": "Leeds, Angleterre",
+  "since": 2013,
+  "labels": ["Rave Science", "Circoloco Records"],
+  "sources": ["https://en.wikipedia.org/wiki/Prospa"]
+ },
+ {
+  "name": "Kobosil",
+  "bio_fr": "Max Kobosil, né en 1991 à Berlin-Neukölln, produit une techno rapide et abrasive nourrie d'EBM, de noise et d'industriel. Résident du Berghain de décembre 2014 à 2019, il fonde en 2013 son label RK, devenu R Label Group, et sort l'album « We Grow, You Decline » en 2016. En octobre 2023, il cofonde avec le DJ Klangkuenstler la structure Tote Sonne, à la fois label et agence d'artistes.",
+  "bio_en": "Born in 1991 in Berlin's Neukölln district, Max Kobosil makes fast, abrasive techno drawing on EBM, noise and industrial. A resident at Berghain from December 2014 through 2019, he founded his RK label in 2013 — later R Label Group — and released the album \"We Grow, You Decline\" in 2016. In October 2023 he co-founded Tote Sonne, a label and artist agency, with fellow DJ Klangkuenstler.",
+  "origin": "Berlin, Allemagne",
+  "since": 2013,
+  "labels": ["R Label Group", "Tote Sonne"],
+  "sources": ["https://en.wikipedia.org/wiki/Kobosil"],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kobosil_Kamehameha_Festival_15_Juni_2019.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:Kobosil_Kamehameha_Festival_15_Juni_2019.jpg",
+  "photo_license": "CC BY-SA 4.0",
+  "photo_author": "Rayukk"
+ }
+]

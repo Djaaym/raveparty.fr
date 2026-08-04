@@ -1,0 +1,37 @@
+[
+ {
+  "name": "Petit Biscuit",
+  "bio_fr": "Mehdi Benjelloun, alias Petit Biscuit, est un producteur et multi-instrumentiste français né en 1999 à Rouen. Il se fait connaître à seize ans avec le single « Sunset Lover » (2015), qui mêle guitare acoustique, textures électroniques et voix retravaillées, entre deep house et downtempo. Pour rester indépendant, il monte son propre label, Petit Biscuit Music, sur lequel paraissent les albums Presence (2017), Parachute (2020) et Discipline (2024).",
+  "bio_en": "Mehdi Benjelloun, who records as Petit Biscuit, is a French producer and multi-instrumentalist born in Rouen in 1999. He broke through at sixteen with the single \"Sunset Lover\" (2015), layering acoustic guitar, electronic textures and treated vocals somewhere between deep house and downtempo. To stay independent he set up his own label, Petit Biscuit Music, home to the albums Presence (2017), Parachute (2020) and Discipline (2024).",
+  "origin": "Rouen, France",
+  "since": 2015,
+  "labels": ["Petit Biscuit Music"],
+  "sources": ["https://en.wikipedia.org/wiki/Petit_Biscuit", "https://fr.wikipedia.org/wiki/Petit_Biscuit"]
+ },
+ {
+  "name": "Miss K8",
+  "bio_fr": "Kateryna Kremko, connue sous le nom de Miss K8, est une DJ et productrice ukrainienne née à Kiev. Elle joue du hardcore et du gabber, et signe dès 2012 sur le label néerlandais Masters of Hardcore, où paraît son premier single « Unforgettable ». Elle est depuis une habituée des grandes scènes hard dance européennes, de Masters of Hardcore à Defqon.1.",
+  "bio_en": "Kateryna Kremko, better known as Miss K8, is a Ukrainian DJ and producer born in Kyiv. She plays hardcore and gabber, and signed in 2012 to the Dutch label Masters of Hardcore, which put out her first single \"Unforgettable\". She has been a regular on Europe's main hard dance stages ever since, from Masters of Hardcore to Defqon.1.",
+  "origin": "Kiev, Ukraine",
+  "since": 2012,
+  "labels": ["Masters of Hardcore"],
+  "sources": ["https://en.wikipedia.org/wiki/Miss_K8"],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Miss_K8_at_Summerburst_2016.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:Miss_K8_at_Summerburst_2016.jpg",
+  "photo_license": "CC BY-SA 4.0",
+  "photo_author": "Caesar"
+ },
+ {
+  "name": "Kölsch",
+  "bio_fr": "Rune Reilly Kölsch, né en 1977 dans le quartier libre de Christiania à Copenhague, est un producteur et DJ danois. Sa house mélodique et sa techno paraissent principalement chez Kompakt, le label de Cologne, depuis son premier album en 2013. Avant d'adopter ce nom, il avait signé « Calabria » (2003) sous l'alias Rune, un morceau au riff de saxophone synthétique devenu un standard des clubs.",
+  "bio_en": "Rune Reilly Kölsch, born in 1977 in Copenhagen's free town of Christiania, is a Danish producer and DJ. His melodic house and techno appear mainly on the Cologne label Kompakt, where he has released albums since 2013. Before adopting that name he cut \"Calabria\" (2003) as Rune, a track built on a synthetic saxophone riff that became a club standard.",
+  "origin": "Copenhague, Danemark",
+  "since": 1995,
+  "labels": ["Kompakt"],
+  "sources": ["https://en.wikipedia.org/wiki/K%C3%B6lsch_(musician)", "https://en.wikipedia.org/wiki/Calabria_(song)"],
+  "photo_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/K%C3%B6lsch-SMS-2018-1.jpg",
+  "photo_page": "https://commons.wikimedia.org/wiki/File:K%C3%B6lsch-SMS-2018-1.jpg",
+  "photo_license": "CC BY-SA 4.0",
+  "photo_author": "Sven Volkens"
+ }
+]

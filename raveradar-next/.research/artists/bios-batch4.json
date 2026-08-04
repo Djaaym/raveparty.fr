@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Donato Dozzy",
+    "bio_fr": "Donato Dozzy, de son vrai nom Donato Scaramuzzi, est un DJ et producteur italien né à Rome, actif derrière les platines depuis le début des années 1980. Il s'est fait connaître pour une techno hypnotique et lentement évolutive, forgée lors de ses résidences au Brancaleone de Rome puis au Panorama Bar de Berlin, où il tenait les after de 2004 à 2006. Il a cofondé le label Aquaplano avec Nuel en 2008, puis Spazio Disponibile avec Neel, et publié son premier album solo, « K », sur Further Records en 2010. Son projet Voices from the Lake, avec Neel, a sorti en 2012 un album homonyme salué par la critique.",
+    "bio_en": "Donato Dozzy, born Donato Scaramuzzi, is an Italian DJ and producer from Rome who has been playing records since the early 1980s. He is known for a hypnotic, slowly unfolding strain of techno shaped by residencies at Rome's Brancaleone and Berlin's Panorama Bar, where he handled the after-hours from 2004 to 2006. He co-founded the Aquaplano label with Nuel in 2008 and later Spazio Disponibile with Neel, and released his first solo album, \"K\", on Further Records in 2010. His Voices from the Lake project with Neel put out a widely praised self-titled album in 2012.",
+    "origin": "Rome, Italie",
+    "since": 1983,
+    "labels": ["Aquaplano", "Spazio Disponibile", "Further Records"],
+    "sources": [
+      "https://www.innerspaces.it/artists/donato-dozzy/"
+    ]
+  },
+  {
+    "name": "Mala",
+    "bio_fr": "Mala, de son vrai nom Mark Lawrence, est un producteur et DJ britannique originaire de South Norwood, dans le sud de Londres. Il est l'une des deux moitiés du duo dubstep Digital Mystikz avec Coki, et cofondateur du label et de la soirée DMZ à Brixton aux côtés de Coki, Loefah et Sgt. Pokes. Il dirige aussi son propre label, Deep Medi Musik. Son album « Mala in Cuba », enregistré à La Havane avec Gilles Peterson, est paru en 2012.",
+    "bio_en": "Mala, real name Mark Lawrence, is a British producer and DJ from South Norwood in south London. He is one half of the dubstep duo Digital Mystikz alongside Coki, and co-founder of the DMZ label and club night in Brixton with Coki, Loefah and Sgt. Pokes. He also runs his own imprint, Deep Medi Musik. His album \"Mala in Cuba\", recorded in Havana with Gilles Peterson, came out in 2012.",
+    "origin": "Londres, Royaume-Uni",
+    "since": 2004,
+    "labels": ["Deep Medi Musik", "DMZ"],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mala_(musician)"
+    ]
+  },
+  {
+    "name": "Carista",
+    "bio_fr": "Carista, de son vrai nom Carista Eendragt, est une DJ, productrice et curatrice néerlandaise née à Utrecht de parents surinamais. Ses sets circulent entre house italienne, broken beat, garage et techno, avec des racines revendiquées dans le hip-hop et la soul funk. Elle a fondé en 2017 United Identities, à la fois label, série de soirées et émission mensuelle sur NTS Radio, consacrée aux artistes basés aux Pays-Bas. Résidente de Red Light Radio puis de De School, elle a livré un Essential Mix sur BBC Radio 1 en février 2020 et reçu le Gieskes-Strijbis Podiumprijs en 2021.",
+    "bio_en": "Carista, born Carista Eendragt, is a Dutch DJ, producer and curator from Utrecht, born to Surinamese parents. Her sets move between Italo house, broken beat, garage and techno, rooted in hip-hop and soul funk. In 2017 she founded United Identities, at once a label, a club night and a monthly NTS Radio show dedicated to Netherlands-based artists. A resident at Red Light Radio and then De School, she delivered a BBC Radio 1 Essential Mix in February 2020 and won the Gieskes-Strijbis Podiumprijs in 2021.",
+    "origin": "Utrecht, Pays-Bas",
+    "since": 2012,
+    "labels": ["United Identities"],
+    "sources": [
+      "https://djmag.com/features/carista-unifying-dancefloor-interview-united-identities"
+    ]
+  }
+]
