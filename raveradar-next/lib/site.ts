@@ -1,5 +1,14 @@
-/** Production base URL — change this to your real domain before deploying. */
-export const SITE_URL = "https://raveparty.fr";
+/**
+ * Production base URL. Governs every canonical, hreflang, sitemap entry, og:image and
+ * schema.org `image` on the site, so it has to be the host that actually serves them.
+ *
+ * `www` on purpose: Vercel treats it as the primary domain and 308-redirects the apex
+ * to it. Declaring the apex here pointed all ~8 100 canonicals at a URL that redirects —
+ * harmless in the sense that crawlers follow it, but every canonical then disagreed with
+ * the address the page was really served from. If the apex ever becomes the primary
+ * domain in Vercel, flip this line back rather than leaving the two out of step.
+ */
+export const SITE_URL = "https://www.raveparty.fr";
 
 /**
  * Google Analytics 4 Measurement ID (looks like "G-XXXXXXXXXX").

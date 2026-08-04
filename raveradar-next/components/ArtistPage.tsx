@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
+import { bioFor, bioText } from "@/lib/bios";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { fmtDate } from "@/lib/format";
@@ -20,6 +21,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const p = langPrefix(lang);
   const artist = artistBySlug(slug);
   if (!artist) return notFound();
+  const bio = bioFor(slug);
 
   const today = todayISO();
   const events = eventsForArtist(slug);
@@ -62,11 +64,59 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           <Breadcrumbs lang={lang} trail={trail} />
 
           <div style={{ display: "flex", alignItems: "center", gap: 20, margin: "16px 0 10px" }}>
-            <div className="avatar">{artist.name.trim()[0]}</div>
-            <h1 className="h-lg" style={{ margin: 0 }}>
-              {artist.name}
-            </h1>
+            {bio?.photo ? (
+              // Duotone-normalised in avatars.py, so a studio headshot and an
+              // underexposed booth shot still sit together on the artists grid.
+              <img
+                className="avatar avatar-photo"
+                src={`/artists/${bio.photo.file}`}
+                alt={t("artist.photoalt").replace("{name}", artist.name)}
+                width={400}
+                height={400}
+                loading="eager"
+                decoding="async"
+              />
+            ) : (
+              <div className="avatar">{artist.name.trim()[0]}</div>
+            )}
+            <div>
+              <h1 className="h-lg" style={{ margin: 0 }}>
+                {artist.name}
+              </h1>
+              {bio?.origin && <span className="artist-origin">{bio.origin}</span>}
+            </div>
           </div>
+
+          {/* The researched bio when we have one; the generated sentence is a
+              fallback, not a substitute — it says nothing a reader can't already
+              see from the dates below. */}
+          {bio ? (
+            <>
+              <p className="lead artist-bio">{bioText(bio, lang)}</p>
+              <p className="artist-credits">
+                {t("artist.sources")}{" "}
+                {bio.sources.map((u, i) => (
+                  <span key={u}>
+                    {i > 0 && " · "}
+                    <a href={u} target="_blank" rel="noopener noreferrer nofollow">
+                      {new URL(u).hostname.replace(/^www\./, "")}
+                    </a>
+                  </span>
+                ))}
+                {bio.photo && (
+                  <>
+                    {" — "}
+                    {t("artist.photocredit")
+                      .replace("{author}", bio.photo.author)
+                      .replace("{license}", bio.photo.license)}{" "}
+                    <a href={bio.photo.page} target="_blank" rel="noopener noreferrer nofollow">
+                      Wikimedia Commons
+                    </a>
+                  </>
+                )}
+              </p>
+            </>
+          ) : null}
           <p className="lead">{intro}</p>
 
           <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />

@@ -677,3 +677,17 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
+
+/* ----------------------------- ARTIST BIO ------------------------------ */
+/* Portraits come from Wikimedia Commons, so the sources are wildly uneven —
+   avatars.py normalises crop, size and duotone; this only sets the frame. */
+/* Plus grand que l'avatar-initiale : une vraie photo mérite d'exister face au titre. */
+.avatar-photo { width: 116px; height: 116px; object-fit: cover; object-position: center; padding: 0; border: 1px solid var(--line); box-shadow: var(--shadow-card); }
+@media (max-width: 720px) { .avatar-photo { width: 84px; height: 84px; } }
+.artist-origin { display: block; margin-top: 6px; font-family: var(--f-mono); font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; color: var(--cyan); }
+.artist-bio { margin-top: 6px; max-width: 68ch; color: var(--white); }
+/* Attribution is the condition of a CC BY / CC BY-SA reuse, not a footnote we
+   may drop when it looks busy — hence always rendered, just quietly. */
+.artist-credits { margin-top: 10px; font-size: .78rem; color: var(--grey-2); max-width: 68ch; }
+.artist-credits a { color: var(--grey); text-decoration: underline; text-underline-offset: 2px; }
+.artist-credits a:hover { color: var(--cyan); }
