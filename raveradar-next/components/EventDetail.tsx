@@ -276,6 +276,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     rel="noopener noreferrer"
                     className="btn btn-primary btn-block"
                     style={{ marginTop: 18 }}
+                    // The one click on this page that is worth money. The tracker already
+                    // logs it as an outbound click; `data-goal` also promotes it to a
+                    // counted objective on /suivi, so it has its own line rather than
+                    // being one row among every Instagram link on the site.
+                    data-goal="billetterie"
                   >
                     {t("event.gettickets")}
                   </a>

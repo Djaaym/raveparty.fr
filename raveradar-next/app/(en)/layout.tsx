@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne, Inter, Space_Mono } from "next/font/google";
 import { SITE_URL } from "@/lib/site";
 import Analytics from "@/components/Analytics";
+import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
 import "../globals.css";
 
@@ -34,6 +35,8 @@ export default function EnLayout({ children }: { children: React.ReactNode }) {
         <ImpactAffiliate />
         {children}
         <Analytics />
+        {/* Same collector as the French tree — /suivi reports on both, split by `lang`. */}
+        <Tracker />
       </body>
     </html>
   );
