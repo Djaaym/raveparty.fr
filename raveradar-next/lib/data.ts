@@ -1066,7 +1066,7 @@ const TICKETS: Record<number, string> = {
   22: "https://www.marvellousisland.com",
   23: "https://familypiknik.com",
   24: "https://hadra.net",
-  25: "https://www.positivfestival.com",
+  25: "https://www.ticketmaster.fr/fr/manifestation/positiv-electronic-festival-1-jour-billet/idmanif/649260", // sponsorisé
   31: "https://www.insane-festival.com",
   33: "https://www.kappafuturfestival.it",
   34: "https://sonar.es",
@@ -1453,9 +1453,25 @@ const TICKETS: Record<number, string> = {
   506: "https://bootshaus.tv/events/",
   507: "https://bootshaus.tv/events/",
 };
+/* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
+   partenariat payant). Google demande que ces liens sortants portent
+   rel="sponsored" : sans ça, c'est un lien payant non déclaré, donc une
+   infraction aux règles sur les liens — précisément ce qu'un site dont toute la
+   valeur est le SEO ne peut pas se permettre. */
+const SPONSORED_TICKETS = new Set<number>([
+  25, // Positiv Festival → Ticketmaster
+]);
+
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
   TICKETS[e.id] ?? (e.price === 0 ? null : "https://ra.co");
+
+/** `rel` du lien billetterie : "sponsored" en plus quand le lien est rémunéré. */
+export const ticketRel = (e: RaveEvent): string =>
+  SPONSORED_TICKETS.has(e.id) ? "sponsored noopener noreferrer" : "noopener noreferrer";
+
+/** Vrai quand le lien billetterie de cet événement est un partenariat payant. */
+export const isSponsoredTicket = (e: RaveEvent): boolean => SPONSORED_TICKETS.has(e.id);
 
 export const ALL_GENRES = Object.keys(GENRES);
 export const genreSlug = (g: string): string =>

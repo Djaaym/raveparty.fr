@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { EVENTS, countryLabel, genreSlug, isPast, ticketUrl, slugify, eventPath, todayISO, venueLabelL } from "@/lib/data";
+import { EVENTS, countryLabel, genreSlug, isPast, ticketRel, ticketUrl, slugify, eventPath, todayISO, venueLabelL } from "@/lib/data";
 import { fmtDate } from "@/lib/format";
 import { artistFromDeadShowSlug, showBySlug, showsForArtist } from "@/lib/shows";
 import { eventsForVenue } from "@/lib/venues";
@@ -160,7 +160,7 @@ export default function ShowPage({ lang, slug }: { lang: Lang; slug: string }) {
                   <a
                     href={ticketUrl(e)!}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel={ticketRel(e)}
                     className="btn btn-primary btn-block"
                     style={{ marginTop: 18 }}
                   >

@@ -12,6 +12,7 @@ import {
   lastDay,
   nextEdition,
   slugify,
+  ticketRel,
   ticketUrl,
   todayISO,
   upcoming,
@@ -273,7 +274,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                   <a
                     href={ticketUrl(e)!}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel={ticketRel(e)}
                     className="btn btn-primary btn-block"
                     style={{ marginTop: 18 }}
                   >
