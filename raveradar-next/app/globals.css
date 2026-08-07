@@ -722,3 +722,174 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .artist-credits { margin-top: 10px; font-size: .78rem; color: var(--grey-2); max-width: 68ch; }
 .artist-credits a { color: var(--grey); text-decoration: underline; text-underline-offset: 2px; }
 .artist-credits a:hover { color: var(--cyan); }
+
+/* ========================================================================
+   SUIVI D'AUDIENCE (/suivi) — private dashboard
+   Deliberately denser than the rest of the site: this is a tool, read at a
+   desk, where a screenful of numbers beats a screenful of air. Everything is
+   namespaced `.trk-` so it can never leak into a public page.
+   ======================================================================== */
+.trk-page { padding-block: 40px 80px; min-height: 100vh; }
+.trk-back { margin-top: 40px; font-size: .85rem; color: var(--grey-2); }
+.trk-back a:hover { color: var(--cyan); }
+
+/* ---- Gate (login / not configured) ---- */
+.trk-gate {
+  max-width: 420px; margin: 12vh auto; padding: 32px;
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: linear-gradient(160deg, rgba(255,255,255,.04), transparent);
+  display: flex; flex-direction: column; gap: 14px;
+}
+.trk-gate p { color: var(--grey); font-size: .9rem; }
+.trk-gate code { font-family: var(--f-mono); font-size: .82rem; color: var(--cyan); }
+
+/* ---- Header ---- */
+.trk-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 22px; }
+.trk-sub { color: var(--grey); font-size: .88rem; margin-top: 4px; }
+.trk-live { color: var(--acid); }
+.trk-head-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.trk-toggle { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; color: var(--grey); cursor: pointer; white-space: nowrap; }
+.trk-toggle input { accent-color: var(--magenta); }
+
+.trk-warn, .trk-error {
+  padding: 12px 16px; border-radius: var(--r-sm); font-size: .85rem; margin-bottom: 16px;
+  border: 1px solid rgba(255,45,155,.35); background: rgba(255,45,155,.08); color: var(--white);
+}
+.trk-warn { border-color: rgba(198,255,61,.3); background: rgba(198,255,61,.07); }
+.trk-warn code { font-family: var(--f-mono); font-size: .8rem; color: var(--acid); }
+
+/* ---- Controls ---- */
+.trk-controls { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+.trk-presets, .trk-segments, .trk-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.trk-segments { margin-bottom: 22px; }
+.trk-tabs { margin: 30px 0 16px; }
+.trk-dates { display: flex; align-items: center; gap: 8px; color: var(--grey-2); }
+.trk-dates .input, .trk-search .input { padding: 8px 12px; font-size: .85rem; width: auto; }
+.trk-search { display: flex; gap: 8px; flex: 1 1 240px; }
+.trk-search .input { flex: 1; min-width: 0; }
+
+/* ---- Active filters ---- */
+.trk-chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.trk-chip {
+  display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+  padding: 6px 12px; border-radius: 99px; font-size: .8rem;
+  border: 1px solid rgba(139,92,255,.5); background: rgba(139,92,255,.14); color: var(--white);
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.trk-chip b { font-family: var(--f-mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--cyan); font-weight: 400; }
+.trk-chip:hover { border-color: var(--magenta); background: rgba(255,45,155,.16); }
+.trk-chip.is-clear { border-color: var(--line); background: transparent; color: var(--grey); }
+
+/* ---- KPIs ---- */
+.trk-kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 12px; margin-bottom: 30px; }
+.trk-kpi { border: 1px solid var(--line); border-radius: var(--r-md); padding: 14px 16px; background: linear-gradient(160deg, rgba(255,255,255,.035), transparent); }
+.trk-kpi-label { font-family: var(--f-mono); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-2); }
+.trk-kpi-value { font-family: var(--f-display); font-weight: 800; font-size: 1.75rem; line-height: 1.1; margin-top: 6px; }
+.trk-kpi-hint { font-size: .74rem; color: var(--grey-2); margin-top: 3px; }
+
+/* ---- Blocks & charts ---- */
+.trk-block { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 18px 20px 14px; margin-bottom: 20px; background: rgba(255,255,255,.015); }
+.trk-block-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.trk-block-head h2 { font-size: 1rem; font-family: var(--f-display); }
+.trk-legend { font-size: .74rem; color: var(--grey-2); display: inline-flex; align-items: center; gap: 6px; }
+.trk-swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.trk-swatch.is-views { background: var(--violet); }
+.trk-swatch.is-sessions { background: var(--cyan); }
+.trk-duo { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+@media (max-width: 860px) { .trk-duo { grid-template-columns: 1fr; } }
+
+.trk-bars { display: flex; align-items: flex-end; gap: 2px; height: 190px; }
+.trk-bar { flex: 1 1 0; min-width: 3px; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; position: relative; }
+.trk-bar.is-pick { cursor: pointer; }
+.trk-bar-stack { position: relative; height: 100%; display: flex; align-items: flex-end; }
+.trk-bar-fill { width: 100%; background: linear-gradient(180deg, var(--violet), rgba(47,123,255,.55)); border-radius: 2px 2px 0 0; min-height: 1px; transition: filter .15s; }
+/* Sessions sit *inside* the pageview bar rather than beside it: the relationship
+   worth seeing is "how many of these views were first views", not two rankings. */
+.trk-bar-sub { position: absolute; bottom: 0; left: 25%; width: 50%; background: var(--cyan); opacity: .85; border-radius: 2px 2px 0 0; min-height: 1px; }
+.trk-bar:hover .trk-bar-fill { filter: brightness(1.35); }
+.trk-bar-label { position: absolute; bottom: -18px; left: 0; font-family: var(--f-mono); font-size: .6rem; color: var(--grey-3); white-space: nowrap; }
+/* Labels hang below the bars, so the chart reserves the room itself rather than
+   relying on a sibling that may not exist. */
+.trk-bars { margin-bottom: 22px; }
+
+/* ---- Breakdown panels ---- */
+.trk-panels { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
+.trk-panel { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 16px 18px; background: rgba(255,255,255,.015); }
+.trk-panel-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line-soft); margin-bottom: 6px; }
+/* min-width:0 or the fixed numeric columns squeeze the title until it wraps mid-word. */
+.trk-panel-head h3 { font-size: .9rem; font-family: var(--f-display); flex: 1 1 auto; min-width: 0; }
+/* Same gap as .trk-row, so a header label sits exactly above its column. */
+.trk-panel-cols { display: flex; gap: 8px; flex: none; }
+.trk-panel-cols span, .trk-row .trk-col-count, .trk-row .trk-col-uniq, .trk-row .trk-col-extra {
+  font-family: var(--f-mono); font-size: .64rem; letter-spacing: .04em; color: var(--grey-2); text-align: right; flex: none;
+}
+/* Wide enough for the longest header label each column can carry ("Visiteurs",
+   "Visites", "Temps lu") — a header that overflows its box eats the gap and the
+   two labels run together. */
+.trk-col-count { width: 52px; }
+.trk-col-uniq { width: 62px; }
+.trk-col-extra { width: 62px; }
+.trk-panel-cols span { white-space: nowrap; }
+.trk-row .trk-col-count { color: var(--white); font-size: .82rem; }
+
+.trk-rows { display: flex; flex-direction: column; }
+.trk-row {
+  position: relative; display: flex; align-items: center; gap: 8px; width: 100%;
+  padding: 7px 8px; border-radius: var(--r-sm); text-align: left;
+  background: transparent; border: 0; font-size: .84rem; color: var(--white);
+}
+.trk-row.is-pick { cursor: pointer; }
+.trk-row.is-pick:hover { background: rgba(139,92,255,.1); }
+.trk-row-bar { position: absolute; left: 0; top: 0; bottom: 0; background: rgba(47,123,255,.16); border-radius: var(--r-sm); z-index: 0; }
+.trk-row-key { position: relative; z-index: 1; flex: 1 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.trk-row-note { display: block; font-style: normal; font-size: .72rem; color: var(--grey-2); overflow: hidden; text-overflow: ellipsis; }
+.trk-row .trk-col-count, .trk-row .trk-col-uniq, .trk-row .trk-col-extra { position: relative; z-index: 1; }
+.trk-more { margin-top: 6px; background: none; border: 0; cursor: pointer; font-size: .76rem; color: var(--cyan); font-family: var(--f-mono); }
+.trk-empty { color: var(--grey-2); font-size: .84rem; padding: 10px 0; }
+
+/* ---- Visits ---- */
+.trk-visits { display: flex; flex-direction: column; gap: 6px; }
+.trk-visit { border: 1px solid var(--line-soft); border-radius: var(--r-md); overflow: hidden; background: rgba(255,255,255,.02); }
+.trk-visit.is-open { border-color: rgba(139,92,255,.45); }
+.trk-visit-head {
+  width: 100%; display: grid; gap: 12px; align-items: center; cursor: pointer; text-align: left;
+  grid-template-columns: 150px 1.1fr 1fr 110px 1.2fr 20px;
+  padding: 10px 14px; background: none; border: 0; font-size: .82rem; color: var(--white);
+}
+.trk-visit-head:hover { background: rgba(139,92,255,.07); }
+.trk-visit-head > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.trk-visit-head em { display: block; font-style: normal; font-size: .7rem; color: var(--grey-2); overflow: hidden; text-overflow: ellipsis; }
+.trk-visit-chev { color: var(--grey-3); font-size: .6rem; text-align: right; }
+@media (max-width: 900px) { .trk-visit-head { grid-template-columns: 1fr 1fr; } .trk-visit-chev { display: none; } }
+
+.trk-tag { font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 99px; border: 1px solid var(--line); color: var(--grey-2); margin-right: 5px; display: inline-block; }
+.trk-tag.is-new { border-color: rgba(25,231,255,.45); color: var(--cyan); }
+.trk-tag.is-bounce { border-color: rgba(255,45,155,.45); color: var(--magenta); }
+.trk-tag.is-out { border-color: rgba(198,255,61,.4); color: var(--acid); }
+.trk-tag.is-goal { border-color: rgba(139,92,255,.55); color: var(--violet); }
+
+.trk-visit-body { padding: 4px 16px 18px; border-top: 1px solid var(--line-soft); }
+.trk-visit-meta { display: flex; gap: 16px; flex-wrap: wrap; font-size: .76rem; color: var(--grey-2); padding: 12px 0; }
+.trk-visit-meta b { color: var(--white); font-weight: 500; }
+.trk-visit-meta button { background: none; border: 1px solid var(--line); border-radius: 99px; padding: 3px 10px; font-size: .72rem; color: var(--cyan); cursor: pointer; }
+.trk-visit-meta button:hover { border-color: var(--cyan); }
+.trk-visit-ref { flex-basis: 100%; word-break: break-all; }
+
+.trk-journey { display: flex; flex-direction: column; border-left: 1px solid var(--line); margin-left: 6px; }
+.trk-journey > li { display: grid; grid-template-columns: 74px 1fr; gap: 12px; padding: 8px 0 8px 14px; position: relative; }
+.trk-journey > li::before { content: ""; position: absolute; left: -4px; top: 15px; width: 7px; height: 7px; border-radius: 50%; background: var(--violet); }
+.trk-journey-time { font-family: var(--f-mono); font-size: .7rem; color: var(--grey-3); }
+.trk-journey-path { font-size: .86rem; color: var(--white); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--grey-3); word-break: break-all; }
+.trk-journey-path:hover { color: var(--cyan); }
+.trk-journey-stats { display: flex; gap: 14px; flex-wrap: wrap; font-family: var(--f-mono); font-size: .7rem; color: var(--grey-2); margin-top: 3px; }
+.trk-unknown { color: var(--grey-3); font-style: italic; }
+.trk-journey-clicks { margin-top: 6px; display: flex; flex-direction: column; gap: 3px; }
+.trk-click { font-size: .76rem; color: var(--grey); display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.trk-click.is-out { color: var(--acid); }
+.trk-click.is-goal { color: var(--violet); }
+.trk-click-href { word-break: break-all; }
+.trk-click em { font-style: normal; color: var(--grey-2); }
+.trk-visit-end { margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line); font-size: .8rem; color: var(--grey); word-break: break-all; }
+.trk-visit-end a { color: var(--acid); text-decoration: underline; text-underline-offset: 2px; }
+
+.trk-foot { margin-top: 30px; font-family: var(--f-mono); font-size: .7rem; color: var(--grey-3); letter-spacing: .04em; }

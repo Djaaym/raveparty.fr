@@ -20,13 +20,19 @@ function sweep(now: number) {
   }
 }
 
-export function tooManyRequests(key: string): boolean {
+/**
+ * `max` overrides the default budget for callers with a different rhythm. A form post is
+ * a deliberate act a handful of times a minute; the analytics beacon fires on every page
+ * of every visit, so the same ceiling would throttle a normal reader. Namespace the key
+ * when you raise it (`track:${ip}`) so the two budgets don't share a bucket.
+ */
+export function tooManyRequests(key: string, max = MAX_PER_WINDOW): boolean {
   const now = Date.now();
   sweep(now);
   const times = (HITS.get(key) ?? []).filter((t) => now - t < WINDOW_MS);
   times.push(now);
   HITS.set(key, times);
-  return times.length > MAX_PER_WINDOW;
+  return times.length > max;
 }
 
 /** Vercel puts the real client address first in x-forwarded-for. */
