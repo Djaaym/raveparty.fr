@@ -38,19 +38,31 @@ qui est le comportement attendu d'un changement de mot de passe.
 Un hit est append-only, lu par plage de dates, sans valeur après quelques mois : c'est
 une **liste Redis**, pas un schéma — d'où le refus d'introduire une vraie base ici.
 
-Le plus simple sur Vercel : **Storage → Create Database → KV**. Vercel injecte alors
-`KV_REST_API_URL` et `KV_REST_API_TOKEN` tout seul, il n'y a rien à écrire. L'intégration
-Upstash du marketplace fait pareil. Les deux ont une offre gratuite qui couvre largement
-le trafic actuel.
+Sur Vercel : **Storage → Browse Storage → Upstash → Redis** (pas Vector, ni Queue, ni
+Search). Choisis une seule région, la plus proche de celle de tes fonctions
+(Settings → Functions → Region ; le défaut Vercel est `us-east-1`) — l'écriture est
+attendue avant de répondre au beacon. Connecte la base au projet, **puis redéploie** :
+les variables ne sont lues qu'au démarrage de la fonction.
+
+> ⚠️ **Pas l'entrée « Redis — Official Redis for Vercel »** du même écran. Redis Cloud ne
+> fournit qu'une connexion TCP (`redis://…`) ; `track-store.ts` parle **HTTP REST** avec un
+> simple `fetch`, sans dépendance npm. Les deux noms se ressemblent, les protocoles non.
+> Même raison pour les bases SQL de la liste (Neon, Supabase, Prisma, Turso, Nile) : un
+> hit est append-only et périmé après 90 jours, c'est une liste, pas une table — et un
+> schéma + un driver, c'est précisément ce que cette conception évite.
+>
+> *(Cette section disait « Storage → Create Database → KV » : Vercel a depuis basculé son
+> KV vers le marketplace, le bouton n'existe plus.)*
 
 N'importe quel Redis parlant le protocole REST Upstash convient. Le code teste trois
-paires, dans cet ordre :
+paires, dans cet ordre — Upstash pose les siennes tout seul, **il n'y a rien à écrire à
+la main** :
 
 | Variables | D'où elles viennent |
 |---|---|
 | `TRACK_KV_REST_API_URL` + `TRACK_KV_REST_API_TOKEN` | posées à la main, prioritaires |
-| `KV_REST_API_URL` + `KV_REST_API_TOKEN` | Vercel KV |
-| `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN` | Upstash direct |
+| `KV_REST_API_URL` + `KV_REST_API_TOKEN` | ce que l'intégration Vercel injecte aussi |
+| `UPSTASH_REDIS_REST_URL` + `UPSTASH_REDIS_REST_TOKEN` | ce qu'Upstash injecte |
 
 **Sans aucune des trois**, le stockage retombe sur la mémoire du processus. Utile en
 `next dev`, inutile en production : chaque lambda a la sienne et elles disparaissent. Le
