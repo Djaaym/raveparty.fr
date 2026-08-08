@@ -1126,5 +1126,648 @@
       "https://www.indexdublin.com/events/"
     ],
     "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Jesse Maas Curates",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-08-28",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Jesse Maas"
+    ],
+    "desc": "Le Shelter, le club en sous-sol de la tour A'DAM sur la rive nord de l'IJ, laisse une nuit entière à Jesse Maas. Sept heures de house et de techno jusqu'à 6h.",
+    "descEn": "Shelter, the basement club under the A'DAM Tower on the north bank of the IJ, hands a full night to Jesse Maas. Seven hours of house and techno until 06:00.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Tins All Night",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-08-29",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Tins"
+    ],
+    "desc": "Format all night long au Shelter : un seul DJ, sept heures de set. Tins tient la cabine du club amstellodamois de 23h à 6h.",
+    "descEn": "All-night-long format at Shelter: one DJ, a seven-hour set. Tins holds the booth of the Amsterdam club from 23:00 to 06:00.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Ryan Elliott b2b Pancratio",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-09-05",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Ryan Elliott",
+      "Pancratio",
+      "Naomi"
+    ],
+    "desc": "L'Américain Ryan Elliott, résident de longue date du Berghain, joue en b2b avec Pancratio au Shelter. Techno et house lentes sous la tour A'DAM jusqu'au matin.",
+    "descEn": "American Ryan Elliott, a long-time Berghain resident, plays b2b with Pancratio at Shelter. Slow techno and house under the A'DAM Tower until morning.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Traumer b2b Janeret",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-09-12",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Traumer",
+      "Janeret",
+      "Andrew Azara"
+    ],
+    "desc": "Deux figures de la house minimale française, Traumer et Janeret, en b2b au Shelter d'Amsterdam. Sept heures de groove sec dans le sous-sol de la tour A'DAM.",
+    "descEn": "Two figures of French minimal house, Traumer and Janeret, go b2b at Amsterdam's Shelter. Seven hours of dry groove in the A'DAM Tower basement.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: PIV with Prunk",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-09-18",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Prunk"
+    ],
+    "desc": "Le label amstellodamois PIV occupe le Shelter et confie la nuit entière à son fondateur Prunk. House ronde et lourde de 23h à 6h.",
+    "descEn": "Amsterdam label PIV takes over Shelter and hands the whole night to founder Prunk. Round, heavy house from 23:00 to 06:00.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Signal NYC with Benny Rodrigues",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-09-19",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Benny Rodrigues",
+      "Doudou MD"
+    ],
+    "desc": "La marque new-yorkaise Signal pose sa techno au Shelter, avec le Néerlandais Benny Rodrigues en invité principal. Sept heures sous la tour A'DAM.",
+    "descEn": "New York brand Signal brings its techno to Shelter, with Dutchman Benny Rodrigues as lead guest. Seven hours under the A'DAM Tower.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter: Archie Hamilton",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-09-26",
+    "time": "23:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [
+      "Archie Hamilton",
+      "DXNBY",
+      "Jhobei"
+    ],
+    "desc": "Le Britannique Archie Hamilton, patron du label Moscow Records, ferme le mois de septembre au Shelter avec DXNBY et Jhobei. House minimale jusqu'à 6h.",
+    "descEn": "Britain's Archie Hamilton, head of Moscow Records, closes September at Shelter with DXNBY and Jhobei. Minimal house until 06:00.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter ADE: 20 Years of The Warehouse Project",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-10-22",
+    "time": "14:00 - 21:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le Warehouse Project de Manchester fête ses vingt ans à Amsterdam pendant l'Amsterdam Dance Event, en journée au Shelter. Programmation annoncée à l'approche de l'ADE.",
+    "descEn": "Manchester's Warehouse Project celebrates twenty years in Amsterdam during Amsterdam Dance Event, a daytime session at Shelter. Line-up announced closer to ADE.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter ADE: Slapfunk",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-10-23",
+    "time": "23:00 - 08:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le label néerlandais Slapfunk prend le Shelter pour neuf heures pendant l'ADE, de 23h à 8h du matin. House brute et techno, dans la meilleure tradition de la maison.",
+    "descEn": "Dutch label Slapfunk takes Shelter for nine hours during ADE, 23:00 to 08:00. Raw house and techno, in the house's best tradition.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Shelter ADE: Brighter Days x Life and Death",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3841,
+    "lng": 4.9022,
+    "date": "2026-10-24",
+    "time": "23:30 - 07:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Shelter",
+    "trending": false,
+    "lineup": [],
+    "desc": "Deux marques cultes, la néerlandaise Brighter Days et l'italienne Life and Death, s'associent au Shelter pour le samedi de l'Amsterdam Dance Event. Sept heures et demie jusqu'au lever du jour.",
+    "descEn": "Two cult brands, Dutch Brighter Days and Italian Life and Death, join forces at Shelter for the Saturday of Amsterdam Dance Event. Seven and a half hours until daybreak.",
+    "ticketUrl": "https://www.shelteramsterdam.nl/",
+    "sources": [
+      "https://www.shelteramsterdam.nl/"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Extrema Outdoor Belgium",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Hard Techno"
+    ],
+    "city": "Houthalen-Helchteren",
+    "country": "Belgium",
+    "lat": 51.0342,
+    "lng": 5.4211,
+    "date": "2027-05-14",
+    "endDate": "2027-05-16",
+    "time": "12:00 - 00:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "De Plas",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le plus ancien festival électronique de Belgique revient pour trois jours au bord du lac de De Plas, dans le Limbourg. Techno, house et hard techno sur plusieurs scènes ; la programmation est annoncée en hiver.",
+    "descEn": "Belgium's oldest electronic festival returns for three days on the shore of the De Plas lake in Limburg. Techno, house and hard techno across several stages; the line-up is announced in winter.",
+    "ticketUrl": "https://www.extrema.be/en/",
+    "sources": [
+      "https://www.extrema.be/en/"
+    ],
+    "note": "tarif non communiqué, ne signifie pas gratuit"
+  },
+  {
+    "title": "SWG3: Joshwa",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-08-28",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Joshwa"
+    ],
+    "desc": "Le Britannique Joshwa, l'un des noms les plus joués de la tech house actuelle, prend le grand hangar du SWG3 à Glasgow. Quatre heures sur les quais de la Clyde.",
+    "descEn": "Britain's Joshwa, one of the most played names in today's tech house, takes the big SWG3 warehouse in Glasgow. Four hours on the banks of the Clyde.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "SWG3: 2Passo & Hidde Van Wee",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-09-19",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Hidde Van Wee"
+    ],
+    "desc": "Le collectif glaswégien 2Passo confie une nuit entière au Néerlandais Hidde Van Wee, all night long dans le hangar du SWG3.",
+    "descEn": "Glasgow collective 2Passo hands a full night to Dutchman Hidde Van Wee, all night long in the SWG3 warehouse.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "FLY House Heads Glasgow",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-09-25",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Galvanizers",
+    "trending": false,
+    "lineup": [
+      "Luuk Van Dijk",
+      "Robbie Doherty",
+      "Prunk",
+      "Hannah Doc"
+    ],
+    "desc": "La marque écossaise FLY réunit quatre pointures de la house dans la salle Galvanizers du SWG3 : Luuk Van Dijk, Robbie Doherty, Prunk et Hannah Doc.",
+    "descEn": "Scottish brand FLY brings four house heavyweights to SWG3's Galvanizers room: Luuk Van Dijk, Robbie Doherty, Prunk and Hannah Doc.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "SWG3 Elevate: Paco Osuna",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-09-27",
+    "time": "21:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Galvanizers",
+    "trending": false,
+    "lineup": [
+      "Paco Osuna"
+    ],
+    "desc": "L'Espagnol Paco Osuna, pilier du label Mindshake et résident historique de Music On à Ibiza, joue six heures au SWG3 de Glasgow.",
+    "descEn": "Spain's Paco Osuna, a Mindshake label pillar and long-standing Music On resident in Ibiza, plays six hours at Glasgow's SWG3.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "SWG3: The Rocketman All Night Long",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-10-09",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Warehouse",
+    "trending": false,
+    "lineup": [
+      "The Rocketman"
+    ],
+    "desc": "L'Écossais The Rocketman tient seul les platines toute la nuit dans le hangar du SWG3. Trance et hard dance, le son qui a fait les raves de la vallée de la Clyde.",
+    "descEn": "Scotland's The Rocketman holds the decks alone all night in the SWG3 warehouse. Trance and hard dance, the sound that built Clyde valley raves.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "FLY: Silva Bumpa Glasgow",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-10-10",
+    "time": "22:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Galvanizers",
+    "trending": false,
+    "lineup": [
+      "Silva Bumpa"
+    ],
+    "desc": "FLY reçoit Silva Bumpa dans la salle Galvanizers du SWG3. UK garage, bassline et house rapide pour cinq heures.",
+    "descEn": "FLY hosts Silva Bumpa in SWG3's Galvanizers room. UK garage, bassline and fast house across five hours.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "SWG3 SYNRG: Francesco Del Garda & DJ Masda",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-11-13",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "SWG3 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Francesco Del Garda",
+      "DJ Masda"
+    ],
+    "desc": "La série SYNRG réunit l'Italien Francesco Del Garda et le Japonais DJ Masda, deux maîtres du digging minimal, dans le hangar du SWG3.",
+    "descEn": "The SYNRG series brings together Italy's Francesco Del Garda and Japan's DJ Masda, two masters of minimal digging, in the SWG3 warehouse.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Lucid Dreams: Acid Techno",
+    "type": "Club",
+    "genres": [
+      "Acid Techno",
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-11-20",
+    "time": "23:00 - 03:00",
+    "price": 22,
+    "currency": "£",
+    "venue": "The Poetry Club",
+    "trending": false,
+    "lineup": [],
+    "desc": "Soirée entièrement acid techno au Poetry Club, la petite salle du SWG3 à Glasgow. Programmation annoncée à l'automne.",
+    "descEn": "An all-acid-techno night at The Poetry Club, SWG3's small room in Glasgow. Line-up announced in the autumn.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "SWG3: Sasha",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.8637,
+    "lng": -4.2951,
+    "date": "2026-11-27",
+    "time": "23:00 - 03:00",
+    "price": 25,
+    "currency": "£",
+    "venue": "SWG3 TV Studio",
+    "trending": false,
+    "lineup": [
+      "Sasha"
+    ],
+    "desc": "Sasha, l'un des architectes de la house progressive britannique, joue dans le TV Studio du SWG3. Quatre heures de montées longues à Glasgow.",
+    "descEn": "Sasha, one of the architects of British progressive house, plays SWG3's TV Studio. Four hours of long build-ups in Glasgow.",
+    "ticketUrl": "https://swg3.tv/events",
+    "sources": [
+      "https://swg3.tv/events"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Timmy Trumpet at Rockhal",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "Hardstyle"
+    ],
+    "city": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "lat": 49.4996,
+    "lng": 5.9457,
+    "date": "2026-10-23",
+    "time": "21:30 - 02:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Rockhal",
+    "trending": false,
+    "lineup": [
+      "Timmy Trumpet"
+    ],
+    "desc": "L'Australien Timmy Trumpet, qui joue de la trompette par-dessus ses propres drops, remplit le Main Hall de la Rockhal à Esch-sur-Alzette. Le seul grand rendez-vous électro de la saison luxembourgeoise, réservé aux plus de 18 ans.",
+    "descEn": "Australian Timmy Trumpet, who plays trumpet over his own drops, fills the Rockhal Main Hall in Esch-sur-Alzette. The only major electronic date of the Luxembourg season, 18+ only.",
+    "ticketUrl": "https://rockhal.lu/shows/timmy-trumpet/",
+    "sources": [
+      "https://rockhal.lu/shows/timmy-trumpet/",
+      "https://rockhal.lu/agenda-en/"
+    ],
+    "note": "tarif non communiqué, ne signifie pas gratuit"
+  },
+  {
+    "title": "Rotterdam Rave Festival Afterparty",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8967,
+    "lng": 4.4855,
+    "date": "2026-08-29",
+    "time": "23:00 - 08:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "BØĘRY",
+      "Cynthia Spiering",
+      "IOSIO",
+      "BLNK",
+      "In Verruf",
+      "In Furcht"
+    ],
+    "desc": "L'afterparty du Rotterdam Rave Festival prolonge la nuit dans les silos à grain du Maassilo, sur la rive sud de la Meuse. Hard techno jusqu'au petit matin avec BØĘRY, Cynthia Spiering et IOSIO.",
+    "descEn": "The Rotterdam Rave Festival afterparty carries the night into the Maassilo grain silos on the south bank of the Maas. Hard techno until dawn with BØĘRY, Cynthia Spiering and IOSIO.",
+    "ticketUrl": "https://www.rotterdamrave.com/events/rotterdam-rave-festival-afterparty-2026",
+    "sources": [
+      "https://www.rotterdamrave.com/events/rotterdam-rave-festival-afterparty-2026",
+      "https://ra.co/events/2479794"
+    ],
+    "note": "tarif indicatif"
+  },
+  {
+    "title": "Rotterdam Rave Winter Special",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8967,
+    "lng": 4.4855,
+    "date": "2026-12-12",
+    "time": "14:00 - 23:00",
+    "price": 40,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [],
+    "desc": "L'édition hivernale de Rotterdam Rave occupe les six salles du Maassilo, l'ancien silo à grain reconverti du port de Rotterdam. Hard techno et techno rapide ; la programmation est annoncée à l'automne.",
+    "descEn": "The winter edition of Rotterdam Rave takes over the six rooms of Maassilo, the converted grain silo in Rotterdam's port. Hard techno and fast techno; the line-up is announced in the autumn.",
+    "ticketUrl": "https://www.rotterdamrave.com/events/rotterdam-rave-winter-special-2026",
+    "sources": [
+      "https://www.rotterdamrave.com/events/rotterdam-rave-winter-special-2026"
+    ],
+    "note": "tarif indicatif"
   }
 ]
