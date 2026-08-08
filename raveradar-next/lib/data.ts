@@ -1711,20 +1711,6 @@ export const eventSlug = (e: RaveEvent): string => {
   const base = slugify(e.title);
   return canonicalEditionId(e.title) === e.id ? base : `${base}-${e.date.slice(0, 4)}`;
 };
-/**
- * Slugs d'événements abandonnés → slug actuel.
- *
- * Le slug dérive du titre : corriger un titre casse l'URL déjà indexée. « The
- * Warehouse Project » était un titre générique posé sur la seule date du 18/09,
- * alors que les 21 autres dates de la saison suivent la convention « The Warehouse
- * Project: {artiste} » — mais `/festival/the-warehouse-project` existe et est
- * indexée. Même règle que pour les anciennes pages `/show/` : on renvoie un 301,
- * jamais un 404.
- */
-export const RENAMED_EVENT_SLUGS: Record<string, string> = {
-  "the-warehouse-project": "the-warehouse-project-ki-ki",
-};
-
 export const eventFromSlug = (s: string): RaveEvent | undefined => EVENTS.find((e) => eventSlug(e) === s);
 export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival");
 /** SEO-friendly canonical path for an event (festivals live under /festival). */

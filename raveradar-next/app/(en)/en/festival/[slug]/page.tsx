@@ -1,9 +1,9 @@
 import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
 import FestivalCityPage from "@/components/FestivalCityPage";
-import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl, RENAMED_EVENT_SLUGS } from "@/lib/data";
+import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl} from "@/lib/data";
 import { guideFor, pick } from "@/lib/guides";
 import { PLACES, placeBySlug } from "@/lib/places";
 
@@ -44,8 +44,5 @@ export default function Page({ params }: { params: { slug: string } }) {
   const fest = eventFromSlug(params.slug);
   if (fest && fest.type === "Festival") return <EventDetail e={fest} lang="en" />;
   if (placeBySlug(params.slug)) return <FestivalCityPage lang="en" slug={params.slug} />;
-  // Slug renommé : 301 vers le nouveau, jamais un 404 sur une URL indexée.
-  const renamed = RENAMED_EVENT_SLUGS[params.slug];
-  if (renamed) permanentRedirect(`/en/festival/${renamed}`);
   return notFound();
 }
