@@ -28,5 +28,11 @@
     "city": "Toulouse",
     "date": "2026-09-26",
     "ticketUrl": "https://www.ticketmaster.fr/"
+  },
+  {
+    "title": "Acid Arab à La BAM",
+    "city": "Metz",
+    "date": "2027-03-25",
+    "ticketUrl": "https://www.ticketmaster.fr/"
   }
 ]
