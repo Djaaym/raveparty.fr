@@ -26,7 +26,22 @@ existing = {(norm(m.group(1)), m.group(2))
 next_id = max(int(m) for m in re.findall(r"\{ id: (\d+),", src)) + 1
 
 # Researchers occasionally return a French exonym; the dataset uses English ones.
-CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$"}
+# Les chercheurs rendent tantôt un code ISO, tantôt le symbole local. On stocke le
+# symbole : le montant affiché est celui que le lecteur paiera à l'entrée, pas une
+# conversion en euros que personne n'a publiée (et qui bougerait tous les jours).
+CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$",
+                "CZK": "Kč", "PLN": "zł", "CHF": "CHF", "HUF": "Ft", "RON": "lei",
+                "DKK": "kr", "SEK": "kr", "NOK": "kr", "ISK": "kr",
+                # "дин" en cyrillique sur un site FR/EN ne dit rien à personne.
+                "дин": "RSD", "RSD": "RSD", "BGN": "BGN", "лв": "BGN"}
+
+# Le libellé de pays est une clé, pas un affichage : COUNTRY_FR / COUNTRY_FLAG sont
+# indexés dessus et `/pays/{slug}` en dérive. Un agent qui rend "United Kingdom" là où
+# le catalogue dit "UK" crée une deuxième page pays, moitié moins fournie, en
+# concurrence avec la première — le doublon qu'on passe justement notre temps à éviter.
+COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
+               "Scotland": "UK", "Wales": "UK", "Czechia": "Czech Republic",
+               "Holland": "Netherlands", "The Netherlands": "Netherlands"}
 
 CITY_FIX = {"Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
@@ -61,6 +76,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         # otherwise an already-merged event comes back as a duplicate.
         e["title"] = re.sub(r"\s+20[0-9][0-9]$", "", e["title"])
         e["city"] = CITY_FIX.get(e["city"], e["city"])
+        e["country"] = COUNTRY_FIX.get(e["country"], e["country"])
         e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
         key = (norm(e["title"]), e["date"][:4])
         if key in existing or key in seen:
@@ -113,8 +129,11 @@ src = src.replace(marker,
     "     Skiddle/Dice and local press. `priceNote` flags unconfirmed gate prices. */\n"
     + "\n".join(out) + "\n" + marker, 1)
 
-tmarker = "};\n/** Ticketing link: explicit URL"
-assert tmarker in src, "tickets map end marker not found"
-src = src.replace(tmarker, "\n".join(tickets) + "\n" + tmarker, 1)
+# On ne cherche plus un commentaire précis après la map : celui-ci a déjà changé une
+# fois (SPONSORED_TICKETS s'est intercalé) et le merge est mort dessus. On repart de
+# la déclaration de TICKETS et on insère juste avant l'accolade qui la ferme.
+tstart = src.index("const TICKETS: Record<number, string> = {")
+tend = src.index("\n};", tstart)
+src = src[:tend] + "\n" + "\n".join(tickets) + src[tend:]
 open(DATA, "w").write(src)
 print(f"\nwritten to lib/data.ts")
