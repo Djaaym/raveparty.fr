@@ -12,7 +12,8 @@ Deux événements qui pointent la même URL (une photo de salle partagée par to
 ses dates) partagent le même fichier : la dédup se fait sur l'URL *et* sur le
 hash du contenu téléchargé.
 """
-import argparse, hashlib, io, json, re, subprocess, sys, time, unicodedata
+import argparse
+import re, hashlib, io, json, subprocess, sys, time, unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -179,6 +180,11 @@ def patch_data_ts(mapping, events, dry):
     src = DATA_TS.read_text()
     lines = []
     for eid in sorted(mapping):
+        # Un id peut avoir disparu du catalogue depuis le dernier passage (fusion de
+        # deux fiches doublons, par exemple). Le laisser dans la map la rendrait
+        # menteuse, et ferait planter le prochain ingest sur `events[eid]`.
+        if eid not in events:
+            continue
         e = events[eid]
         title = e["title"].replace("*/", "")
         lines.append(f'  {eid}: "{mapping[eid]}", // {title} — {e["city"]}')
@@ -193,9 +199,22 @@ def patch_data_ts(mapping, events, dry):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--prune", action="store_true",
+                    help="retire de la map PHOTOS les ids absents du catalogue, sans rien télécharger")
     args = ap.parse_args()
 
     events, already = load_events()
+
+    if args.prune:
+        src = DATA_TS.read_text()
+        i, j = src.index(START) + len(START), src.index(END)
+        cur = {int(m.group(1)): m.group(2)
+               for m in re.finditer(r'^\s*(\d+): "([^"]+)"', src[i:j], re.M)}
+        dead = [k for k in cur if k not in events]
+        print(f"map PHOTOS : {len(cur)} entrées, {len(dead)} orpheline(s) → {dead}")
+        n = patch_data_ts(cur, events, args.dry)
+        print(f"{n} entrées conservées" + (" (--dry : rien écrit)" if args.dry else ""))
+        return
     entries, seen_ids, dupes = [], set(), 0
     for f in sorted(PHOTOS_DIR.glob("photos-*.json")):
         try:

@@ -42,7 +42,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 22, title: "Marvellous Island", type: "Festival", genres: ["House", "Techno"], city: "Torcy", country: "France", region: "Seine-et-Marne", lat: 48.85, lng: 2.65, date: "2026-05-23", time: "13:00", price: 49, currency: "€", venue: "Plage de Torcy", trending: true, lineup: ["Ben Hemsley", "Dennis Cruz", "Korolova", "Mathame", "Nic Fanciulli", "Reinier Zonneveld", "Fatima Hajji", "Ilario Alicante", "Wade", "Oxia"], desc: "Un festival house et techno les pieds dans l'eau à l'est de Paris : lac, plage et cinq scènes.", descEn: "A house and techno festival with your feet in the water east of Paris: lake, beach and five stages." },
   { id: 23, title: "Family Piknik", type: "Festival", genres: ["House", "Techno"], city: "Montpellier", country: "France", region: "Hérault", lat: 43.57, lng: 3.96, date: "2026-07-31", endDate: "2026-08-02", time: "12:00", price: 45, currency: "€", venue: "Parc des Expositions de Montpellier", trending: true, lineup: ["Armand van Helden", "Kevin de Vries", "Blond:ish", "Etienne de Crécy", "Space 92", "Korolova", "Oliver Huntemann", "Brina Knauss", "Chus & Ceballos", "HVOB"], desc: "Le pique-nique électronique géant de Montpellier fête ses 15 ans à Pérols : 60+ artistes sur trois scènes (El Row Stage, Hard Stage by Organik, Nomad Stage), de midi à 2h du matin.", descEn: "Montpellier's giant electronic picnic turns 15 in Pérols: 60+ artists across three stages (El Row Stage, Hard Stage by Organik, Nomad Stage), from noon to 2am." },
   { id: 24, title: "Hadra Trance Festival", type: "Festival", genres: ["Psytrance", "Trance"], city: "Vieure", country: "France", region: "Allier", lat: 46.55, lng: 2.95, date: "2026-08-27", endDate: "2026-08-30", time: "12:00", price: 75, currency: "€", venue: "Plan d'Eau de Vieure", trending: false, lineup: [], desc: "Le grand rassemblement psytrance français (17e édition, « Chroniques Solarpunk ») sur 25 hectares au bord du lac de Vieure : 72h de musique sur quatre scènes (Main, Paradoxe, La Bulle, Cocoon), plus ateliers, conférences et art numérique.", descEn: "France's big psytrance gathering (17th edition, \"Chroniques Solarpunk\") on 25 hectares by the lake at Vieure: 72 hours of music across four stages (Main, Paradoxe, La Bulle, Cocoon), plus workshops, talks and digital art." },
-  { id: 25, title: "Positiv Festival", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Orange", country: "France", region: "Vaucluse", lat: 44.14, lng: 4.81, date: "2026-08-14", endDate: "2026-08-16", time: "19:00", price: 55, currency: "€", venue: "Théâtre Antique d'Orange", trending: true, lineup: ["Boris Brejcha", "Charlotte de Witte", "Fisher", "Marlon Hoffstadt", "Novah", "Biianco", "Carla Schmitt", "Nicolas Cuer", "Venga"], desc: "Trois soirs d'électro dans le Théâtre Antique d'Orange, monument classé à l'UNESCO : Boris Brejcha vendredi, Charlotte de Witte samedi, Fisher dimanche — plus les pre-parties gratuites sur le parvis et les afters au Parc des Expositions.", descEn: "Three nights of electronic music inside the Roman Theatre of Orange, a UNESCO World Heritage site: Boris Brejcha on Friday, Charlotte de Witte on Saturday, Fisher on Sunday — plus free pre-parties on the forecourt and afters at the Parc des Expositions." },
+  { id: 25, title: "Positiv Festival", type: "Festival", genres: ["Techno", "Hard Techno", "House", "EDM"], city: "Orange", country: "France", region: "Vaucluse", lat: 44.14, lng: 4.81, date: "2026-08-14", endDate: "2026-08-16", time: "14:00 - 06:00", price: 55, currency: "€", venue: "Théâtre Antique d'Orange", trending: true, lineup: ["Boris Brejcha", "Charlotte de Witte", "Fisher", "Marlon Hoffstadt", "Novah", "Biianco", "Carla Schmitt", "Nicolas Cuer", "Venga"], desc: "Trois jours de musique électronique dans le Théâtre Antique d'Orange, classé au patrimoine mondial, transformé en cathédrale de son et de mapping vidéo. Boris Brejcha, Charlotte de Witte et Fisher se partagent les têtes d'affiche, avec des before sur l'esplanade dès 14h et des after au parc expo jusqu'à 6h.", descEn: "Three nights of electronic music inside the Roman Theatre of Orange, a UNESCO World Heritage site: Boris Brejcha on Friday, Charlotte de Witte on Saturday, Fisher on Sunday — plus free pre-parties on the forecourt and afters at the Parc des Expositions." },
   { id: 31, title: "Insane Festival", type: "Festival", genres: ["Hardcore", "Hardstyle"], city: "Apt", country: "France", region: "Vaucluse", lat: 43.87, lng: 5.39, date: "2026-05-14", time: "16:00", price: 59, currency: "€", venue: "Plan d'Eau d'Apt", trending: false, lineup: ["IMANU", "Angerfist", "Lil Texas", "Reinier Zonneveld", "Daria Kolosova", "Rooler", "Krowdexx", "GPF", "Restricted", "Vortek's"], desc: "Le festival frenchcore et hardcore le plus dur de France (10e édition), cinq scènes en pleine Provence.", descEn: "France's hardest frenchcore and hardcore festival (10th edition), five stages in the heart of Provence." },
 
   /* ---------- More verified 2026 festivals (multi-country) ---------- */
@@ -54,7 +54,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 54, title: "Dekmantel Festival", type: "Festival", genres: ["Techno", "House"], city: "Amsterdam", country: "Netherlands", lat: 52.31, lng: 4.84, date: "2026-07-29", endDate: "2026-08-02", time: "12:00", price: 109, currency: "€", venue: "Amsterdamse Bos", trending: true, lineup: ["Skrillex", "Ricardo Villalobos", "Underground Resistance", "Helena Hauff", "Marcel Dettmann", "Sherelle", "Kode9", "DVS1", "DARKSIDE", "Eris Drew", "Octo Octa", "A Guy Called Gerald"], desc: "La 12e édition du festival underground de référence : cinq jours et 160+ artistes dans l'Amsterdamse Bos, prolongés en ville au Melkweg et au Paradiso.", descEn: "The 12th edition of the definitive underground festival: five days and 160+ artists in the Amsterdamse Bos, extended into the city at Melkweg and Paradiso." },
   { id: 55, title: "Creamfields", type: "Festival", genres: ["EDM", "Techno"], city: "Daresbury", country: "UK", lat: 53.34, lng: -2.64, date: "2026-08-27", endDate: "2026-08-30", time: "12:00", price: 99, currency: "£", venue: "Daresbury, Cheshire", trending: true, lineup: ["Calvin Harris", "Swedish House Mafia", "Armin van Buuren", "Disclosure", "Underworld", "Amelie Lens", "Sonny Fodera", "Ewan McVicar"], desc: "L'institution dance britannique fête ses 20 ans à Daresbury sur le week-end du August Bank Holiday : house, techno, trance, UKG et drum & bass sur d'immenses scènes.", descEn: "Britain's dance institution turns 20 at Daresbury over the August Bank Holiday weekend: house, techno, trance, UKG and drum & bass on vast stages." },
   { id: 56, title: "Monegros Desert Festival", type: "Festival", genres: ["Techno", "House"], city: "Fraga", country: "Spain", lat: 41.52, lng: 0.35, date: "2026-07-25", time: "18:00", price: 95, currency: "€", venue: "Monegros Desert", trending: false, lineup: ["Richie Hawtin", "Amelie Lens", "Seth Troxler", "Paco Osuna", "Joseph Capriati", "Len Faki", "Klangkuenstler", "Indira Paganotto", "Héctor Oaks", "Fatima Hajji", "Kobosil", "Ben Klock"], desc: "La rave mythique en plein désert espagnol de Fraga : 22 heures non-stop sur dix scènes.", descEn: "The legendary rave in Spain's Fraga desert: 22 hours non-stop across ten stages." },
-  { id: 57, title: "The Warehouse Project", type: "Festival", genres: ["Techno", "House"], city: "Manchester", country: "UK", lat: 53.47, lng: -2.23, date: "2026-09-18", endDate: "2027-01-01", time: "21:00", price: 45, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["KI/KI", "Solomun", "Overmono", "Tiësto", "Aphex Twin", "Peggy Gou", "Four Tet", "Dixon", "Âme", "Interplanetary Criminal", "Duke Dumont", "Rampa"], desc: "WHP26 fête les 20 ans de la saison clubbing de Manchester : plus de 30 dates de mi-septembre au Nouvel An au Depot Mayfield, avec une quatrième salle, le Vault, qui rejoint Depot, Concourse et Archive.", descEn: "WHP26 marks 20 years of Manchester's clubbing season: more than 30 dates from mid-September to New Year at Depot Mayfield, with a fourth room, the Vault, joining Depot, Concourse and Archive." },
+  { id: 57, title: "The Warehouse Project: KI/KI", type: "Festival", genres: ["Techno", "House", "Trance", "Acid Techno"], city: "Manchester", country: "UK", lat: 53.47, lng: -2.23, date: "2026-09-18", endDate: "2027-01-01", time: "21:00", price: 45, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["KI/KI", "Solomun", "Overmono", "Tiësto", "Aphex Twin", "Peggy Gou", "Four Tet", "Dixon", "Âme", "Interplanetary Criminal", "Duke Dumont", "Rampa"], desc: "WHP26 fête les 20 ans de la saison clubbing de Manchester : plus de 30 dates de mi-septembre au Nouvel An au Depot Mayfield, avec une quatrième salle, le Vault, qui rejoint Depot, Concourse et Archive.", descEn: "WHP26 marks 20 years of Manchester's clubbing season: more than 30 dates from mid-September to New Year at Depot Mayfield, with a fourth room, the Vault, joining Depot, Concourse and Archive." },
   { id: 58, title: "Awakenings ADE", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.36, lng: 4.90, date: "2026-10-21", endDate: "2026-10-25", time: "22:00", price: 45, currency: "€", venue: "SugarFactory", trending: true, lineup: ["Adam Beyer", "999999999", "Ben Klock", "Jeff Mills", "Enrico Sangiuliano", "Ilario Alicante", "Kevin de Vries", "Konstantin Sibold", "Victor Ruiz", "Prospa", "Novah", "Adrián Mills"], desc: "Huit soirées sur cinq jours au SugarFactory pendant l'Amsterdam Dance Event : ouverture avec 999999999, showcase Drumcode mené par Adam Beyer, clôture signée Prospa.", descEn: "Eight parties over five days at SugarFactory during Amsterdam Dance Event: 999999999 opens, Adam Beyer leads a Drumcode showcase, Prospa closes." },
   { id: 59, title: "OZORA Festival", type: "Festival", genres: ["Psytrance", "Trance"], city: "Dádpuszta", country: "Hungary", lat: 46.99, lng: 18.55, date: "2026-07-27", time: "12:00", price: 230, currency: "€", venue: "Dádpuszta", trending: false, lineup: [], desc: "Le grand rassemblement psytrance mondial dans la vallée de Dádpuszta : art, transe et tribu.", descEn: "The global psytrance gathering in the Dádpuszta valley: art, trance and tribe." },
   { id: 60, title: "Neopop Festival", type: "Festival", genres: ["Techno", "House"], city: "Viana do Castelo", country: "Portugal", lat: 41.69, lng: -8.83, date: "2026-08-06", endDate: "2026-08-08", time: "18:00", price: 79, currency: "€", venue: "Forte de Santiago da Barra", trending: false, lineup: ["Jeff Mills", "Rødhåd", "Joseph Capriati", "Ben Klock", "Nina Kraviz", "Richie Hawtin", "Ellen Allien", "Helena Hauff", "Goldie"], desc: "Le festival techno portugais fête ses 20 ans sous le nom « ANTIPOP » : 60 artistes dans le fort de Viana do Castelo, avant-garde au bord de l'océan.", descEn: "Portugal's techno festival turns 20 under the name \"ANTIPOP\": 60 artists inside the fort at Viana do Castelo, avant-garde at the ocean's edge." },
@@ -89,11 +89,10 @@ export const EVENTS: RaveEvent[] = [
   { id: 105, title: "Electrolapse Festival", type: "Festival", genres: ["Techno", "Hard Techno", "House", "Hardcore"], city: "Saint-Sorlin-en-Valloire", country: "France", region: "Drôme", lat: 45.2564, lng: 4.9425, date: "2026-08-21", endDate: "2026-08-22", time: "16:00", price: 44.99, currency: "€", venue: "Saint-Sorlin-en-Valloire", trending: false, lineup: ["NTO", "Dr. Peacock", "Aaron Hibell", "Creeds", "Krimska", "Lunaa", "Marie Vaunt", "Alexandre Billard", "Bomel"], desc: "Deux jours et trois scènes (Main Stage, The Gate en underground, Oasis solaire) dans la plaine de Valloire, au nord de la Drôme. Plus de 50 artistes, de la techno mélodique à la hard techno en passant par la house et le disco ; l'Oasis ouvre dès midi le vendredi.", descEn: "Two days and three stages (Main Stage, the underground The Gate and the sun-facing Oasis) in the Valloire plain in northern Drôme. Over 50 artists spanning melodic techno, hard techno, house and disco; the Oasis stage opens at noon on the Friday." },
   { id: 106, title: "Rotterdam Rave Festival", type: "Festival", genres: ["Techno", "Hard Techno", "Acid Techno"], city: "Rotterdam", country: "Netherlands", lat: 51.885, lng: 4.488, date: "2026-08-29", time: "13:00", price: 55, currency: "€", venue: "Ahoy Rotterdam", trending: true, lineup: ["I Hate Models", "Kobosil", "Dyen", "Fantasm", "Jessie Dols"], desc: "L'édition estivale de Rotterdam Rave s'installe au complexe Ahoy, de 13h à 23h, réservée aux plus de 18 ans. Dix-huit artistes annoncés sur une programmation techno, industrial techno et acid.", descEn: "Rotterdam Rave's summer edition moves to the Ahoy complex, running 1pm to 11pm and strictly 18+. Eighteen announced artists across techno, industrial techno and acid.", priceNote: "estimated" },
   { id: 107, title: "Sunwaves SW38", type: "Festival", genres: ["Techno", "House"], city: "Roquetas de Mar", country: "Spain", lat: 36.764, lng: -2.614, date: "2026-09-03", endDate: "2026-09-07", time: "16:00", price: 120, currency: "€", venue: "Las Salinas", trending: false, lineup: [], desc: "Édition de fin d'été du festival roumain Sunwaves, délocalisée sur la plage de Las Salinas à Roquetas de Mar, en Andalousie. Cinq jours et cinq nuits en continu, dans la tradition des marathons minimal/techno de Sunwaves.", descEn: "The late-summer edition of Romania's Sunwaves festival, relocated to Las Salinas beach in Roquetas de Mar, Andalusia. Five continuous days and nights in the Sunwaves minimal/techno marathon tradition.", priceNote: "estimated" },
-  { id: 108, title: "Rave in da Club x Wolf City", type: "Club", genres: ["Hardcore", "Hardstyle", "Hard Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-09-04", time: "23:59", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Ophidian", "Hysta", "Lekkerfaces", "RDØ"], desc: "Nuit gabber et uptempo au Warehouse, plus grand club de Nantes et de l'Ouest (environ 3 500 m² de dancefloor dans le Hangar à Bananes). Soirée portée par le collectif Wolf City, de minuit à l'aube.", descEn: "A gabber and uptempo night at Warehouse, the largest club in Nantes and western France (roughly 3,500 m² of dancefloor in the Hangar à Bananes). The night is hosted by the Wolf City collective and runs from midnight until dawn." },
+  { id: 108, title: "Rave in da Club x Wolf City", type: "Club", genres: ["Hardcore", "Hardstyle", "Hard Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-09-04", time: "23:55 - 06:00", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Ophidian", "Hysta", "Lekkerfaces", "RDØ", "La Bringue", "Damien RK", "Marmotek Sound System"], desc: "Une nuit entièrement consacrée au hardcore et à l'uptempo au Warehouse de Nantes, sous le label Wolf City. Hysta, figure incontournable de la nouvelle génération hard, mène la main room pendant que Marmotek Sound System tient la room 2. Interdit aux moins de 18 ans.", descEn: "A gabber and uptempo night at Warehouse, the largest club in Nantes and western France (roughly 3,500 m² of dancefloor in the Hangar à Bananes). The night is hosted by the Wolf City collective and runs from midnight until dawn." },
   { id: 109, title: "Elektric Park Festival", type: "Festival", genres: ["House", "Techno", "Hardstyle", "Hardcore", "EDM"], city: "Chatou", country: "France", region: "Yvelines", lat: 48.8931, lng: 2.155, date: "2026-09-05", endDate: "2026-09-06", time: "12:00", price: 43, currency: "€", venue: "Île des Impressionnistes", trending: false, lineup: ["Bob Sinclar", "Kavinsky", "Petit Biscuit", "Joachim Garraud", "Hannah Laing", "Miss K8", "Skream & Benga", "Damien RK"], desc: "16e édition de l'open air des Yvelines, sur l'Île des Impressionnistes à Chatou, à vingt minutes de Paris. Format XXL sur deux jours en association avec Madame Loyal : 4 scènes, plus de 60 artistes et des attractions foraines au bord de la Seine.", descEn: "16th edition of the Yvelines open-air, held on the Île des Impressionnistes in Chatou, twenty minutes from Paris. The XXL two-day format is co-produced with Madame Loyal: four stages, over 60 artists and fairground rides on the banks of the Seine." },
   { id: 110, title: "Pharaonic", type: "Festival", genres: ["House", "EDM", "Techno"], city: "Cluses", country: "France", region: "Haute-Savoie", lat: 46.0611, lng: 6.5806, date: "2026-09-12", time: "14:30", price: 45, currency: "€", venue: "Parvis des Esserts", trending: false, lineup: ["Bob Sinclar", "R3HAB", "Morten", "Petit Biscuit", "Amor", "Upsilone", "Paloma"], desc: "Open air alpin né en 2015, qui installe le plus grand dancefloor de Haute-Savoie sur le Parvis des Esserts à Cluses. Ouverture des portes à 14h30, premiers sets à 15h et musique jusqu'à 2h, avec un village festif attenant.", descEn: "An Alpine open-air launched in 2015 that sets up Haute-Savoie's largest dancefloor on the Parvis des Esserts in Cluses. Doors at 2:30pm, first sets at 3pm and music until 2am, with an adjoining festival village." },
   { id: 111, title: "Le Jardin Électronique", type: "Festival", genres: ["Techno", "Hard Techno", "Psytrance", "Drum & Bass"], city: "Lille", country: "France", region: "Nord", lat: 50.6414, lng: 2.9847, date: "2026-09-12", endDate: "2026-09-13", time: "14:00", price: 35, currency: "€", venue: "Parc Naturel Urbain de Lomme", trending: false, lineup: ["Joris Voorn", "Kölsch", "Mind Against", "Agoria", "Andhim", "Vladimir Cauchemar", "A*S*Y*S", "Ivory", "Marie Vaunt", "Missnoa", "Isa Roos"], desc: "Open air de deux jours dans le Parc Naturel Urbain de Lomme, aux portes de Lille, avec quatre scènes aux couleurs distinctes (Tech, Hard, Bass, Psy) et une quarantaine d'artistes. Samedi de 14h à minuit, dimanche de 13h à 23h.", descEn: "A two-day open-air in the Parc Naturel Urbain de Lomme on the edge of Lille, with four distinctly programmed stages (Tech, Hard, Bass, Psy) and around forty artists. Saturday runs 2pm to midnight, Sunday 1pm to 11pm." },
-  { id: 112, title: "The Warehouse Project: KI/KI", type: "Warehouse", genres: ["Techno", "Trance", "Acid Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-09-18", time: "21:30", price: 40, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["KI/KI"], desc: "Soirée d'ouverture de la saison WHP26, qui marque les 20 ans du Warehouse Project. La Néerlandaise KI/KI ouvre la saison au Depot Mayfield, ancien dépôt ferroviaire à deux minutes de Manchester Piccadilly.", descEn: "Opening night of the WHP26 season, marking 20 years of The Warehouse Project. Dutch DJ KI/KI opens the season at Depot Mayfield, a former rail depot two minutes from Manchester Piccadilly.", priceNote: "estimated" },
   { id: 113, title: "Techno Parade", type: "Festival", genres: ["Techno", "House", "Hard Techno", "Free Party"], city: "Paris", country: "France", region: "Paris", lat: 48.8532, lng: 2.3692, date: "2026-09-19", time: "12:00", price: 0, currency: "€", venue: "Bastille → Nation", trending: true, lineup: [], desc: "Retour de la Techno Parade après deux années d'annulation : une centaine de chars et environ 200 DJ descendent de la place de la Bastille à la place de la Nation par les boulevards de l'est parisien. Défilé gratuit et sans billet, édition dédiée à Detroit, 400 000 participants attendus.", descEn: "The Techno Parade returns after two cancelled years: dozens of floats and around 200 DJs travel from Place de la Bastille to Place de la Nation along the boulevards of eastern Paris. The parade is free with no ticket required, this edition honours Detroit and 400,000 people are expected." },
   { id: 114, title: "Utopia Festival", type: "Warehouse", genres: ["Techno", "Hard Techno", "House", "Drum & Bass"], city: "Marseille", country: "France", region: "Bouches-du-Rhône", lat: 43.3072, lng: 5.3861, date: "2026-09-25", endDate: "2026-09-26", time: "21:30", price: 37.45, currency: "€", venue: "Friche la Belle de Mai", trending: false, lineup: ["Leo Pol", "Jazzy (CH)", "Hysta", "Matrakk", "Kloud", "KX CHR", "Paralich", "Roüge", "Alycia Bezgo", "Läuff", "Lisa Korver", "Urumi"], desc: "Sixième tome de ce festival marseillais qui investit les halles de la Friche la Belle de Mai pendant deux nuits, de 21h30 à 6h. Programmation partagée entre techno mélodique et groovy, hard techno, house solaire, bass music et ambient.", descEn: "Sixth instalment of this Marseille festival, which takes over the halls of the Friche la Belle de Mai for two nights from 9:30pm to 6am. The programme spans melodic and groovy techno, hard techno, sunlit house, bass music and ambient." },
   { id: 115, title: "The Warehouse Project: Solomun", type: "Warehouse", genres: ["House", "Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-09-25", time: "20:00", price: 40, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Solomun"], desc: "Première tête d'affiche de Solomun à Manchester depuis cinq ans, dans le cadre de la saison anniversaire du Warehouse Project. Le Depot Mayfield compte quatre salles cette saison : Depot, Concourse, Archive et la nouvelle Vault.", descEn: "Solomun's first Manchester headline show in five years, part of The Warehouse Project's anniversary season. Depot Mayfield has four rooms this season: Depot, Concourse, Archive and the new Vault.", priceNote: "estimated" },
@@ -101,12 +100,12 @@ export const EVENTS: RaveEvent[] = [
   { id: 117, title: "Unsound Warsaw – Soft Power", type: "Festival", genres: ["Techno"], city: "Warsaw", country: "Poland", lat: 52.2297, lng: 21.0122, date: "2026-10-02", endDate: "2026-10-06", time: "19:00", price: 90, currency: "€", venue: "Divers lieux / various venues", trending: false, lineup: [], desc: "Pour la première fois de son histoire, Unsound se déploie sur deux villes polonaises sous le thème « Soft Power » : Varsovie du 2 au 6 octobre, puis Cracovie du 8 au 11. Aucune performance n'est répétée entre les deux volets.", descEn: "For the first time in its history Unsound runs across two Polish cities under the theme 'Soft Power': Warsaw 2–6 October, then Kraków 8–11 October. No performance is repeated between the two chapters.", priceNote: "estimated" },
   { id: 118, title: "David Guetta presents Galactic Circus – Closing Party", type: "Club", genres: ["EDM", "House"], city: "Ibiza", country: "Spain", lat: 38.8845, lng: 1.4083, date: "2026-10-02", time: "23:00", price: 115, currency: "€", venue: "[UNVRS]", trending: true, lineup: ["David Guetta"], desc: "Closing de la résidence Galactic Circus de David Guetta au [UNVRS], le club-arène ouvert en 2025 à Ibiza. L'un des rendez-vous majeurs de la semaine de clôture de la saison ibicenca.", descEn: "Closing party of David Guetta's Galactic Circus residency at [UNVRS], the arena-scale Ibiza club that opened in 2025. One of the headline dates of the island's closing week.", priceNote: "estimated" },
   { id: 119, title: "Syndicate", type: "Festival", genres: ["Hardstyle", "Hardcore"], city: "Dortmund", country: "Germany", lat: 51.4906, lng: 7.4497, date: "2026-10-03", time: "18:00", price: 59, currency: "€", venue: "Westfalenhallen", trending: false, lineup: ["Angerfist", "Dr. Peacock", "Mad Dog"], desc: "Plus grand événement indoor des styles durs en Allemagne : quatre floors (Mainstage, Hardstyle, Uptempo, Early Hardcore), plus de 40 artistes et jusqu'à 20 000 personnes, de 18h à 4h dans les Westfalenhallen.", descEn: "Germany's biggest indoor harder-styles event: four floors (Mainstage, Hardstyle, Uptempo, Early Hardcore), over 40 acts and up to 20,000 people, 6pm to 4am inside the Westfalenhallen." },
-  { id: 120, title: "Amnesia Pyramid Closing Party", type: "Club", genres: ["Techno", "House"], city: "Ibiza", country: "Spain", lat: 38.9598, lng: 1.4102, date: "2026-10-04", time: "23:59", price: 50, currency: "€", venue: "Amnesia", trending: true, lineup: [], desc: "Closing de la soirée Pyramid, la nuit techno historique d'Amnesia, à Sant Rafel de sa Creu. Amnesia enchaîne plusieurs closings début octobre (You&Me le 1er, Glitterbox le 2, Pyramid le 4).", descEn: "Closing party of Pyramid, Amnesia's long-running techno night, at Sant Rafel de sa Creu. Amnesia runs several closings in early October (You&Me on the 1st, Glitterbox on the 2nd, Pyramid on the 4th).", priceNote: "estimated" },
+  { id: 120, title: "Amnesia Pyramid Closing Party", type: "Club", genres: ["Techno", "House"], city: "Ibiza", country: "Spain", lat: 38.9598, lng: 1.4102, date: "2026-10-04", time: "23:00 - 06:00", price: 50, priceNote: "estimated", currency: "€", venue: "Amnesia", trending: true, lineup: ["Ricardo Villalobos", "Raresh", "Franco Cinelli", "Seth Troxler", "Shanti Celeste", "Nina Kraviz", "Mar-T", "Adrián Mills"], desc: "La closing de Pyramid, la soirée maison d'Amnesia, aligne un back-to-back Villalobos / Raresh / Franco Cinelli et fait tourner Seth Troxler, Shanti Celeste et Nina Kraviz dans les deux salles. Le minimal roumain et la techno de club jusqu'au matin dans le club de San Rafael.", descEn: "Pyramid's closing, Amnesia's own night, lines up a Villalobos / Raresh / Franco Cinelli back-to-back and puts Seth Troxler, Shanti Celeste and Nina Kraviz across both rooms. Romanian minimal and club techno until morning in the San Rafael club." },
   { id: 121, title: "Solomun Closing Party", type: "Club", genres: ["House", "Techno"], city: "Ibiza", country: "Spain", lat: 38.9175, lng: 1.4412, date: "2026-10-04", time: "23:59", price: 50, currency: "€", venue: "Pacha Ibiza", trending: true, lineup: ["Solomun"], desc: "Closing de la résidence de Solomun au Pacha Ibiza, l'un des rituels de fin de saison sur l'île. Le Pacha clôture également Taraka (29 sept.), Pure Pacha (1er oct.) et Robin Schulz (3 oct.).", descEn: "Closing of Solomun's residency at Pacha Ibiza, one of the island's end-of-season rituals. Pacha also closes Taraka (29 Sep), Pure Pacha (1 Oct) and Robin Schulz (3 Oct).", priceNote: "estimated" },
   { id: 122, title: "NDK Festival", type: "Festival", genres: ["Techno", "House", "Drum & Bass"], city: "Caen", country: "France", region: "Calvados", lat: 49.1852, lng: -0.355, date: "2026-10-07", endDate: "2026-10-11", time: "20:00", price: 56, currency: "€", venue: "Le Cargö", trending: false, lineup: [], desc: "Héritier du Nördik Impakt fondé à Caen en 1999, le NDK fête sa 6e édition sous ce nom : dix jours de cultures électroniques, avec deux nuits de clubbing au Cargö (Grande Salle, Club et Magic Mirrors sur l'esplanade) autour d'une vingtaine d'artistes. Réservé aux 18 ans et plus ; certains rendez-vous de journée sont gratuits.", descEn: "Successor to Nördik Impakt, founded in Caen in 1999, NDK celebrates its 6th edition under this name: ten days of electronic culture, with two clubbing nights at Le Cargö (main room, club and a Magic Mirrors tent on the esplanade) featuring around twenty artists. Strictly 18+, with some daytime events free." },
   { id: 123, title: "Unsound Kraków – Soft Power", type: "Festival", genres: ["Techno"], city: "Kraków", country: "Poland", lat: 50.0647, lng: 19.945, date: "2026-10-08", endDate: "2026-10-11", time: "19:00", price: 90, currency: "€", venue: "Divers lieux / various venues", trending: false, lineup: [], desc: "Volet cracovien d'Unsound 2026, thème « Soft Power ». Le festival, référence européenne des musiques électroniques expérimentales, propose une programmation entièrement distincte de celle de Varsovie.", descEn: "The Kraków chapter of Unsound 2026, themed 'Soft Power'. A European reference for experimental electronic music, the festival presents a programme entirely distinct from Warsaw's.", priceNote: "estimated" },
-  { id: 124, title: "Nantes Rave Techno XXL", type: "Club", genres: ["Hard Techno", "Techno", "Trance", "House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-10-09", time: "23:59", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Novah", "Matrakk", "Maudux", "DJ Caline", "Mosmoz"], desc: "Édition XXL de Nantes Rave Techno, la série de soirées techno du Warehouse lancée en 2022, avec sa scène 360° façon Boiler Room. La série associe têtes d'affiche internationales et collectifs nantais.", descEn: "XXL edition of Nantes Rave Techno, the Warehouse's techno night series launched in 2022, built around a Boiler Room-style 360° stage. The series pairs international headliners with Nantes collectives." },
-  { id: 125, title: "Pandemic", type: "Club", genres: ["Hardcore", "Hard Techno", "Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-10-16", time: "23:59", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Vortek's", "Dr Donk", "Noiseflow", "Kruella", "Pa//ra", "Nemesys"], desc: "Nuit hardcore et uptempo du collectif Pandemic au Warehouse de Nantes, dans le Hangar à Bananes sur l'île de Nantes. Ouverture à minuit jusqu'au petit matin.", descEn: "A hardcore and uptempo night from the Pandemic collective at Warehouse Nantes, in the Hangar à Bananes on the Île de Nantes. Doors at midnight, running through to early morning." },
+  { id: 124, title: "Nantes Rave Techno XXL", type: "Club", genres: ["Hard Techno", "Techno", "Trance", "House", "Hardstyle"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-10-09", time: "23:55 - 06:00", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Novah", "Matrakk", "Maudux", "DJ Caline", "Mosmoz", "Oxmoze", "Bibi", "A.N.Z", "Lossia", "Vaï", "Nemesys", "Venehing", "Lez", "Azuur", "März"], desc: "Trois salles de hard dance au Warehouse, menées par la Belge Novah, révélation portée par le succès de « Papi » sur Tomorrowland Music. Hard house, rave, bounce et trance s'enchaînent en B2B jusqu'au petit matin. Interdit aux moins de 18 ans.", descEn: "XXL edition of Nantes Rave Techno, the Warehouse's techno night series launched in 2022, built around a Boiler Room-style 360° stage. The series pairs international headliners with Nantes collectives." },
+  { id: 125, title: "Pandemic", type: "Club", genres: ["Hardcore", "Hard Techno", "Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2004, lng: -1.5749, date: "2026-10-16", time: "23:55 - 06:00", price: 25.99, currency: "€", venue: "Warehouse", trending: false, lineup: ["Vortek's", "Dr Donk", "Noiseflow", "Kruella", "Pa//ra", "Nemesys"], desc: "Pandemic revient au Warehouse de Nantes avec un line-up survolté mené par Vortek's, pendant que le collectif Track Night tient la room 2. Hardcore et hard techno du début à la fin. Interdit aux moins de 18 ans.", descEn: "A hardcore and uptempo night from the Pandemic collective at Warehouse Nantes, in the Hangar à Bananes on the Île de Nantes. Doors at midnight, running through to early morning." },
   { id: 126, title: "Sonora Bordeaux", type: "Warehouse", genres: ["Techno", "Hard Techno"], city: "Bordeaux", country: "France", region: "Gironde", lat: 44.8836, lng: -0.5697, date: "2026-10-16", endDate: "2026-10-17", time: "17:00", price: 59.5, currency: "€", venue: "Parc des Expositions de Bordeaux", trending: true, lineup: ["Nina Kraviz", "Ben Klock", "I Hate Models", "Anetha", "Klangkuenstler", "Alignment", "Clara Cuvé", "DJ Gigola", "Hysta", "Vladimir Cauchemar", "Panteros666", "Serafina"], desc: "Deux nuits de techno et hard techno dans deux halls du Parc des Expositions de Bordeaux (12 000 et 8 000 m²), de 17h à 4h. Plus de 400 m² d'écrans LED, scénographie exclusive et gros système son.", descEn: "Two nights of techno and hard techno inside two halls of the Bordeaux exhibition park (12,000 and 8,000 m²), running 5pm to 4am. Over 400 m² of LED screens, bespoke staging and a large sound system." },
   { id: 127, title: "Amsterdam Dance Event (ADE)", type: "Festival", genres: ["Techno", "House", "Drum & Bass", "EDM"], city: "Amsterdam", country: "Netherlands", lat: 52.3676, lng: 4.9041, date: "2026-10-21", endDate: "2026-10-25", time: "12:00", price: 25, currency: "€", venue: "300+ lieux dans Amsterdam", venueEn: "300+ venues across Amsterdam", trending: true, lineup: ["Jean-Michel Jarre", "Adam Beyer", "Boris Brejcha", "Dax J", "Oscar Mulero", "Enrico Sangiuliano", "Joris Voorn", "Adriatique", "999999999", "Ben Klock", "Jeff Mills", "Ilario Alicante", "Kevin de Vries", "Victor Ruiz", "Jennifer Cardini", "Space 92", "Planetary Assault Systems", "Prospa", "Konstantin Sibold"], desc: "L'ADE n'est pas une soirée mais tout un programme : cinq jours, plus de 1 200 événements dans plus de 300 lieux d'Amsterdam, du 21 au 25 octobre 2026. Édition des 30 ans, ouverte par Jean-Michel Jarre à l'AFAS Live, avec la conférence ADE Pro à Felix Meritis le jour et les clubs la nuit. Chaque soirée a sa propre billetterie : il n'existe aucun billet unique.", descEn: "ADE isn't one party but an entire programme: five days, over 1,200 events across more than 300 Amsterdam venues, from 21 to 25 October 2026. The 30th-anniversary edition opens with Jean-Michel Jarre at AFAS Live, pairing the ADE Pro conference at Felix Meritis by day with the clubs by night. Every party is ticketed separately — there is no single pass.", priceNote: "estimated" },
   { id: 128, title: "Awakenings ADE – Drumcode", type: "Club", genres: ["Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.364, lng: 4.8815, date: "2026-10-22", time: "23:00", price: 64, currency: "€", venue: "Sugarfactory", trending: true, lineup: ["Adam Beyer", "Enrico Sangiuliano", "Ilario Alicante", "Kevin de Vries", "Konstantin Sibold", "Victor Ruiz", "Kaufmann"], desc: "Nuit Drumcode d'Awakenings pendant l'ADE, au Sugarfactory. Awakenings programme huit soirées du 21 au 25 octobre dans ce même lieu (Opening Night, Drumcode, Metamorfosi, Friday Sessions, Joris Voorn, Adriatique, Sunday Sessions, Prophecy).", descEn: "Awakenings' Drumcode night during ADE, at Sugarfactory. Awakenings programmes eight parties there from 21 to 25 October (Opening Night, Drumcode, Metamorfosi, Friday Sessions, Joris Voorn, Adriatique, Sunday Sessions, Prophecy).", priceNote: "estimated" },
@@ -116,12 +115,12 @@ export const EVENTS: RaveEvent[] = [
   { id: 132, title: "Boris Brejcha pres. FCKNG SERIOUS x Loveland", type: "Club", genres: ["Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.402, lng: 4.872, date: "2026-10-24", time: "15:30", price: 55, currency: "€", venue: "Theater Amsterdam", trending: true, lineup: ["Boris Brejcha"], desc: "Boris Brejcha et sa famille FCKNG SERIOUS au Theater Amsterdam, de 15h30 à 21h30, dans le programme ADE de Loveland. Loveland occupe deux sites du 21 au 25 octobre : Mediahaven et Theater Amsterdam.", descEn: "Boris Brejcha and the FCKNG SERIOUS family at Theater Amsterdam, 3.30pm to 9.30pm, as part of Loveland's ADE programme. Loveland runs two sites from 21 to 25 October: Mediahaven and Theater Amsterdam.", priceNote: "estimated" },
   { id: 133, title: "The Walking Bass Festival", type: "Festival", genres: ["Hard Techno", "Drum & Bass", "Trance", "Hardcore"], city: "Marseille", country: "France", region: "Bouches-du-Rhône", lat: 43.2703, lng: 5.3931, date: "2026-10-30", endDate: "2026-10-31", time: "18:00", price: 47.5, currency: "€", venue: "La Plateforme / Parc Chanot", trending: false, lineup: ["Lil Texas", "Mandragora", "Vladimir Cauchemar", "Vortek's", "Omaks", "Ajja", "Dual Damage", "Gonzi", "Mara", "Medusa", "Samuel Moriero", "Yoshiko"], desc: "Édition « The Last Raver » : deux nuits marseillaises sur un scénario post-apocalyptique, le vendredi à la Salle des Sucres de La Plateforme puis le samedi au Parc Chanot. Programmation hard techno, hard music, drum & bass, trance et tekno avec des affrontements entre collectifs.", descEn: "The \"The Last Raver\" edition: two Marseille nights built on a post-apocalyptic storyline, first at La Plateforme's Salle des Sucres on Friday, then at Parc Chanot on Saturday. The bill covers hard techno, hard music, drum & bass, trance and tekno, staged as clashes between collectives." },
   { id: 134, title: "Dream Nation Festival", type: "Festival", genres: ["Techno", "Hard Techno", "Trance", "Drum & Bass", "Hardcore", "Psytrance"], city: "Villepinte", country: "France", region: "Seine-Saint-Denis", lat: 48.9722, lng: 2.5153, date: "2026-10-30", endDate: "2026-10-31", time: "20:00", price: 40, currency: "€", venue: "Parc des Expositions Paris Nord Villepinte", trending: true, lineup: ["Pendulum", "The Bloody Beetroots", "Vini Vici", "Da Tweekaz", "Technoboy & Tuneboy", "Korsakoff", "Alignment", "Novah", "Creeds", "Flux Pavilion", "Lil Texas", "Warface"], desc: "13e édition du plus gros rendez-vous Halloween d'Europe, en intérieur au Parc des Expositions Paris Nord Villepinte. Deux nuits, une soixantaine d'artistes et plusieurs scènes couvrant electro, techno, trance, dubstep, drum & bass, hardtechno et hardcore.", descEn: "13th edition of Europe's biggest Halloween event, held indoors at the Paris Nord Villepinte exhibition centre. Two nights, around sixty artists and several stages covering electro, techno, trance, dubstep, drum & bass, hard techno and hardcore." },
-  { id: 135, title: "The Warehouse Project: Overmono – Pure Devotion", type: "Warehouse", genres: ["Techno", "House", "Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-30", time: "20:00", price: 45, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Overmono", "James Blake", "Joy Orbison", "Moodymann", "Blawan", "Helena Hauff", "DJ Bone", "Aurora Halal"], desc: "Carte blanche « Pure Devotion » d'Overmono au Depot Mayfield, avec James Blake b2b Joy Orbison, Moodymann, Blawan et Helena Hauff b2b DJ Bone. L'une des dates les plus attendues de la saison WHP26.", descEn: "Overmono's 'Pure Devotion' takeover at Depot Mayfield, with James Blake b2b Joy Orbison, Moodymann, Blawan and Helena Hauff b2b DJ Bone. One of the most anticipated dates of the WHP26 season.", priceNote: "estimated" },
+  { id: 135, title: "The Warehouse Project: Overmono – Pure Devotion", type: "Warehouse", genres: ["Techno", "House", "Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-30", time: "20:00 - 04:00", price: 45, priceNote: "estimated", currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Overmono", "James Blake", "Joy Orbison", "Moodymann", "Blawan", "Helena Hauff", "DJ Bone", "Aurora Halal", "Andy C", "Ash Lauryn", "Lee Gamble", "Nkisi", "Space Afrika", "Blackhaine"], desc: "Carte blanche « Pure Devotion » d'Overmono au Depot Mayfield, avec James Blake b2b Joy Orbison, Moodymann, Blawan et Helena Hauff b2b DJ Bone. L'une des dates les plus attendues de la saison WHP26.", descEn: "Overmono's 'Pure Devotion' takeover at Depot Mayfield, with James Blake b2b Joy Orbison, Moodymann, Blawan and Helena Hauff b2b DJ Bone. One of the most anticipated dates of the WHP26 season." },
   { id: 136, title: "MIRA Digital Arts Festival", type: "Festival", genres: ["Techno", "House"], city: "Barcelona", country: "Spain", lat: 41.373, lng: 2.149, date: "2026-11-06", endDate: "2026-11-07", time: "18:00", price: 83, currency: "€", venue: "Fira Montjuïc", trending: false, lineup: [], desc: "Quinzième édition du MIRA à la Fira Montjuïc : festival international d'arts numériques mêlant spectacles audiovisuels, expériences fulldome 360°, installations et DJ sets.", descEn: "The 15th MIRA at Fira Montjuïc: an international digital arts festival combining audiovisual shows, 360° fulldome experiences, installations and DJ sets.", priceNote: "estimated" },
   { id: 137, title: "The Warehouse Project: Klangkuenstler", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-11-14", time: "21:00", price: 40, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Klangkuenstler"], desc: "Le producteur allemand Klangkuenstler en tête d'affiche au Depot Mayfield, dans la saison anniversaire du Warehouse Project. Soirée orientée hard techno.", descEn: "German producer Klangkuenstler headlines Depot Mayfield during The Warehouse Project's anniversary season. A hard techno-leaning night.", priceNote: "estimated" },
   { id: 138, title: "Les Rencontres Trans Musicales", type: "Festival", genres: ["Techno", "House", "Drum & Bass"], city: "Rennes", country: "France", region: "Ille-et-Vilaine", lat: 48.0703, lng: -1.7328, date: "2026-12-02", endDate: "2026-12-06", time: "19:00", price: 39, currency: "€", venue: "Parc Expo Rennes Aéroport", trending: true, lineup: [], desc: "48e édition du festival de découverte créé à Rennes en 1979, principalement au Parc Expo (halls transformés en salles de concert et dancefloors jusqu'au petit matin), complété par des concerts gratuits en journée au centre-ville, notamment à L'Étage et aux Champs Libres.", descEn: "48th edition of the discovery festival founded in Rennes in 1979, based mainly at the Parc Expo, whose halls become concert rooms and dancefloors until dawn, with free daytime concerts in the city centre at venues such as L'Étage and Les Champs Libres." },
   { id: 139, title: "Thunderdome", type: "Festival", genres: ["Hardcore", "Hardstyle"], city: "Antwerp", country: "Belgium", lat: 51.2296, lng: 4.4361, date: "2026-12-11", endDate: "2026-12-12", time: "20:00", price: 79, currency: "€", venue: "AFAS Dome", trending: true, lineup: [], desc: "Institution du hardcore néerlandais, Thunderdome s'installe pour deux nuits à l'AFAS Dome d'Anvers. Le vendredi est consacré au « golden era » du son hardcore, le samedi réunit passé, présent et futur du genre. Ouverture des portes à 20h, fin estimée vers 7h.", descEn: "Dutch hardcore institution Thunderdome takes over Antwerp's AFAS Dome for two nights. Friday is devoted to hardcore's 'golden era', Saturday brings together the genre's past, present and future. Doors 8pm, estimated finish around 7am.", priceNote: "estimated" },
-  { id: 140, title: "The Warehouse Project New Year's Eve", type: "Warehouse", genres: ["Techno", "House", "Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-12-31", time: "20:00", price: 60, currency: "£", venue: "Depot Mayfield", trending: true, lineup: [], desc: "Réveillon du Warehouse Project au Depot Mayfield, pour clore la saison des 20 ans. Quatre salles : Depot, Concourse, Archive et Vault.", descEn: "The Warehouse Project's New Year's Eve at Depot Mayfield, closing the 20th-anniversary season. Four rooms: Depot, Concourse, Archive and Vault.", priceNote: "estimated" },
+  { id: 140, title: "The Warehouse Project New Year's Eve", type: "Warehouse", genres: ["Techno", "House", "Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-12-31", time: "20:00 - 04:00", price: 60, priceNote: "estimated", currency: "£", venue: "Depot Mayfield", trending: true, lineup: [], desc: "Le réveillon du Warehouse Project, tradition mancunienne depuis vingt ans : huit heures de techno et de house pour passer minuit sous les voûtes de Depot Mayfield. Programmation annoncée à l'automne.", descEn: "The Warehouse Project's New Year's Eve, a Manchester tradition for twenty years: eight hours of techno and house to see in midnight under the Depot Mayfield vaults. Line-up announced in the autumn." },
   { id: 141, title: "CTM Festival", type: "Festival", genres: ["Techno"], city: "Berlin", country: "Germany", lat: 52.52, lng: 13.405, date: "2027-01-22", endDate: "2027-01-31", time: "19:00", price: 25, currency: "€", venue: "Divers lieux / various venues", trending: false, lineup: [], desc: "Vingt-huitième édition du CTM, festival berlinois des musiques aventureuses, réparti sur dix jours dans plusieurs lieux de la ville (dont le Berghain et le HAU). Le thème de l'édition et les pass early-bird sont annoncés en amont.", descEn: "The 28th CTM, Berlin's festival for adventurous music, spread over ten days across several city venues (including Berghain and HAU). The edition theme and early-bird passes are announced ahead of time.", priceNote: "estimated" },
   { id: 142, title: "Rampage Weekend", type: "Festival", genres: ["Drum & Bass"], city: "Antwerp", country: "Belgium", lat: 51.2296, lng: 4.4361, date: "2027-03-05", endDate: "2027-03-07", time: "19:00", price: 89, currency: "€", venue: "AFAS Dome", trending: true, lineup: [], desc: "Plus grande soirée drum & bass et dubstep d'Europe, désormais au format week-end, à l'AFAS Dome d'Anvers (ex-Sportpaleis). Line-up 2027 non encore dévoilé.", descEn: "Europe's biggest drum & bass and dubstep event, now in a full weekend format, at Antwerp's AFAS Dome (formerly Sportpaleis). The 2027 line-up has not been revealed.", priceNote: "estimated" },
   { id: 143, title: "Snowboxx", type: "Festival", genres: ["House", "Techno", "Drum & Bass", "EDM"], city: "Avoriaz", country: "France", region: "Haute-Savoie", lat: 46.1917, lng: 6.7736, date: "2027-03-13", endDate: "2027-03-20", time: "14:00", price: 379, currency: "£", venue: "Avoriaz, Portes du Soleil", trending: false, lineup: [], desc: "Semaine de festival électronique sur les pistes d'Avoriaz, station la plus haute des Portes du Soleil. Arène open air au pied des pistes, après-ski à la Folie Douce et soirées en altitude tout au long de la semaine.", descEn: "A week-long electronic festival on the slopes of Avoriaz, the highest resort in the Portes du Soleil. An open-air arena sits beside the pistes, with après-ski at La Folie Douce and mountain-side parties across the week." },
@@ -176,7 +175,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 188, title: "Turbina : KAKAO 014", type: "Club", genres: ["Techno", "House"], city: "Budapest", country: "Hungary", lat: 47.488, lng: 19.0755, date: "2026-08-14", endDate: "2026-08-15", time: "23:00", price: 15, currency: "€", venue: "Turbina", trending: false, lineup: ["Adene", "Kamafaka", "Spiritbear", "U999"], desc: "Deux nuits de la serie KAKAO dans la grande salle de Turbina, espace artistique underground du 8e arrondissement de Budapest programmant techno, house et concerts.", descEn: "Two nights of the KAKAO series in Turbina's main hall, the underground art space in Budapest's 8th district programming techno, house and live shows.", priceNote: "estimated" },
   { id: 189, title: "Flow Festival", type: "Festival", genres: ["House", "Techno", "EDM"], city: "Helsinki", country: "Finland", lat: 60.1878, lng: 24.9789, date: "2026-08-14", endDate: "2026-08-16", time: "14:00", price: 270, currency: "€", venue: "Suvilahti", trending: true, lineup: ["Disclosure", "Honey Dijon", "Kettama", "Oklou", "Florence + The Machine", "Nick Cave & The Bad Seeds", "Zara Larsson"], desc: "Festival urbain installe depuis 2004 dans l'ancienne centrale electrique de Suvilahti, a Helsinki, qui reunit environ 90 000 personnes sur trois jours. La programmation melange pop, indie et un volet club consequent (Disclosure en DJ set, Honey Dijon, Kettama). Reserve aux 18 ans et plus.", descEn: "Urban festival held since 2004 at the disused Suvilahti power plant in Helsinki, drawing around 90,000 people over three days. The bill mixes pop and indie with a substantial club strand (Disclosure DJ set, Honey Dijon, Kettama). Strictly 18+.", priceNote: "estimated" },
   { id: 190, title: "Marshall Jefferson at Concorde 2", type: "Club", genres: ["House"], city: "Brighton", country: "UK", lat: 50.818, lng: -0.129, date: "2026-08-14", time: "22:00", price: 20, currency: "£", venue: "Concorde 2", trending: false, lineup: ["Marshall Jefferson"], desc: "Le producteur de Chicago Marshall Jefferson, auteur de « Move Your Body », au Concorde 2, salle de 600 places installée sur le front de mer de Madeira Drive à Brighton.", descEn: "Chicago house producer Marshall Jefferson, author of 'Move Your Body', at Concorde 2, the 600-capacity venue on Brighton's Madeira Drive seafront.", priceNote: "estimated" },
-  { id: 191, title: "Index: 808 State (DJ set)", type: "Club", genres: ["Techno", "House"], city: "Dublin", country: "Ireland", lat: 53.3468, lng: -6.276, date: "2026-08-20", time: "22:00", price: 25, currency: "€", venue: "Index", trending: false, lineup: ["808 State"], desc: "DJ set des Mancuniens de 808 State à l'Index, entrepôt d'environ 500 places d'Arran Quay équipé d'un système Void, principal club techno de Dublin.", descEn: "DJ set from Manchester's 808 State at Index, the roughly 500-capacity Arran Quay warehouse with a Void system, Dublin's main techno club.", priceNote: "estimated" },
+  { id: 191, title: "Index: 808 State (DJ set)", type: "Club", genres: ["Techno", "House", "Acid Techno"], city: "Dublin", country: "Ireland", lat: 53.3468, lng: -6.276, date: "2026-08-20", time: "22:00 - 02:30", price: 25, priceNote: "estimated", currency: "€", venue: "Index", trending: false, lineup: ["808 State"], desc: "DJ set des Mancuniens de 808 State à l'Index, entrepôt d'environ 500 places d'Arran Quay équipé d'un système Void, principal club techno de Dublin.", descEn: "DJ set from Manchester's 808 State at Index, the roughly 500-capacity Arran Quay warehouse with a Void system, Dublin's main techno club." },
   { id: 192, title: "Marie Davidson at The White Hotel", type: "Club", genres: ["Techno"], city: "Manchester", country: "UK", lat: 53.4869, lng: -2.262, date: "2026-08-20", time: "20:00", price: 20, currency: "£", venue: "The White Hotel", trending: false, lineup: ["Marie Davidson"], desc: "La Québécoise Marie Davidson au White Hotel, ancien garage de Dickinson Street à Salford transformé en salle de 300 places, connue pour sa programmation électronique et expérimentale.", descEn: "Quebec's Marie Davidson at The White Hotel, a former garage on Dickinson Street in Salford turned 300-capacity room, known for its electronic and experimental programming.", priceNote: "estimated" },
   { id: 193, title: "We Out Here Festival", type: "Festival", genres: ["House", "Drum & Bass"], city: "Wimborne St Giles", country: "UK", lat: 50.8886, lng: -1.955, date: "2026-08-20", endDate: "2026-08-23", time: "12:00", price: 270, currency: "£", venue: "Wimborne St Giles Estate", trending: true, lineup: ["Thundercat", "Arthur Verocai", "Gary Bartz", "Mulatu Astatke", "Joy Crookes", "Peven Everett", "Stereolab"], desc: "Festival de quatre jours dans le Dorset, dirigé par Gilles Peterson (BBC 6 Music), qui croise jazz, soul, hip-hop, house et électronique. Camping, ateliers et programmation familiale sur le domaine de Wimborne St Giles.", descEn: "Four-day Dorset festival curated by Gilles Peterson (BBC 6 Music), crossing jazz, soul, hip-hop, house and electronica. Camping, workshops and family programming on the Wimborne St Giles estate." },
   { id: 194, title: "SAGA Festival", type: "Festival", genres: ["EDM", "Techno", "House"], city: "Bucharest", country: "Romania", lat: 44.5019, lng: 26.0742, date: "2026-08-21", endDate: "2026-08-23", time: "16:00", price: 125, currency: "€", venue: "Romaero Baneasa", trending: true, lineup: [], desc: "Grand festival electronique de Bucarest installe sur le site aeronautique Romaero de Baneasa, ou hangars et pistes servent de scenes. L'edition 2026 est annoncee sur trois jours en aout ; la programmation n'est pas encore publiee.", descEn: "Bucharest's big electronic festival, staged on the Romaero aviation site at Baneasa where hangars and runways serve as stages. The 2026 edition is announced across three days in August; the line-up has not yet been published.", priceNote: "estimated" },
@@ -186,7 +185,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 198, title: "Dimensions Festival", type: "Festival", genres: ["Techno", "House"], city: "Tisno", country: "Croatia", lat: 43.789, lng: 15.6564, date: "2026-08-27", endDate: "2026-08-31", time: "12:00", price: 235, currency: "€", venue: "The Garden Resort", trending: true, lineup: [], desc: "Festival house, techno, electro et breaks installe au Garden Resort de Tisno depuis son depart du Fort Punta Christo de Pula. Cinq jours et plus de 150 artistes, avec boat parties le long de la cote et after au Barbarella's Discotheque.", descEn: "House, techno, electro and breaks festival based at The Garden Resort in Tisno since leaving Fort Punta Christo in Pula. Five days and over 150 artists, with boat parties along the coast and afters at Barbarella's Discotheque.", priceNote: "estimated" },
   { id: 199, title: "Lost Village", type: "Festival", genres: ["Techno", "House", "Drum & Bass"], city: "Norton Disney", country: "UK", lat: 53.12, lng: -0.669, date: "2026-08-27", endDate: "2026-08-30", time: "12:00", price: 229, currency: "£", venue: "Norton Disney, Lincolnshire", trending: true, lineup: ["Overmono", "Soulwax", "The Avalanches", "Caribou", "Solomun"], desc: "Festival de 15 000 personnes installé dans une forêt du Lincolnshire, le week-end férié de fin août, réservé aux plus de 18 ans. L'affiche 2026 compte 92 artistes, dont Overmono, Soulwax, Caribou et Solomun.", descEn: "15,000-capacity festival set in a Lincolnshire forest over the late August bank holiday, strictly 18+. The 2026 bill runs to 92 artists, including Overmono, Soulwax, Caribou and Solomun.", priceNote: "estimated" },
   { id: 200, title: "Elevate Bass Rave : Taxman", type: "Club", genres: ["Drum & Bass"], city: "Copenhagen", country: "Denmark", lat: 55.6853, lng: 12.5836, date: "2026-08-28", time: "22:00", price: 20, currency: "€", venue: "Culture Box", trending: false, lineup: ["Taxman", "Dwonji", "Bobby 6 Killa", "HDN", "DJ Breakfast", "Maxi Mo", "D-Trich", "Halvmåne", "Delff"], desc: "Soiree drum & bass sur les deux salles du Culture Box, avec le producteur britannique Taxman en tete d'affiche du Black Box et le collectif Elevate qui programme la Red Box. De 22 h a 8 h.", descEn: "Drum & bass night across both rooms at Culture Box, with British producer Taxman headlining the Black Box and the Elevate collective programming the Red Box. Runs 10pm to 8am." },
-  { id: 201, title: "Frædag x Hubbas Klubb : Gerd Janson", type: "Club", genres: ["House", "Techno"], city: "Oslo", country: "Norway", lat: 59.9139, lng: 10.7423, date: "2026-08-28", time: "22:00", price: 22, currency: "€", venue: "Jaeger", trending: false, lineup: ["Gerd Janson", "g-HA & Olanskii", "Hubbabubbaklubb DJs", "Von August"], desc: "Edition du Frædag, la soiree hebdomadaire du Jaeger a Oslo, en association avec Hubbas Klubb. Portes a 22 h dans le Sauna, Gerd Janson (Running Back) joue a partir de 1 h 15, Von August donne un live de sortie d'album au Basement des minuit. Reserve aux 20 ans et plus.", descEn: "An edition of Frædag, Jaeger Oslo's weekly party, in partnership with Hubbas Klubb. Doors 10pm in the Sauna, Gerd Janson (Running Back) on from 1.15am, and Von August playing a live album launch in the Basement from midnight. Strictly 20+.", priceNote: "estimated" },
+  { id: 201, title: "Frædag x Hubbas Klubb : Gerd Janson", type: "Club", genres: ["House", "Techno"], city: "Oslo", country: "Norway", lat: 59.9139, lng: 10.7423, date: "2026-08-28", time: "23:00 - 03:30", price: 22, priceNote: "estimated", currency: "€", venue: "Jaeger", trending: false, lineup: ["Gerd Janson", "g-HA & Olanskii", "Hubbabubbaklubb DJs", "Von August", "Øyvind Morken"], desc: "Edition du Frædag, la soiree hebdomadaire du Jaeger a Oslo, en association avec Hubbas Klubb. Portes a 22 h dans le Sauna, Gerd Janson (Running Back) joue a partir de 1 h 15, Von August donne un live de sortie d'album au Basement des minuit. Reserve aux 20 ans et plus.", descEn: "An edition of Frædag, Jaeger Oslo's weekly party, in partnership with Hubbas Klubb. Doors 10pm in the Sauna, Gerd Janson (Running Back) on from 1.15am, and Von August playing a live album launch in the Basement from midnight. Strictly 20+." },
   { id: 202, title: "Kaiku : Badsista", type: "Club", genres: ["Techno", "House"], city: "Helsinki", country: "Finland", lat: 60.1868, lng: 24.9573, date: "2026-08-28", time: "22:00", price: 16, currency: "€", venue: "Kaiku", trending: false, lineup: ["Badsista", "Kofu", "Wekesa"], desc: "La DJ bresilienne Badsista, figure de la scene club de Sao Paulo, joue au Kaiku a Helsinki avec Kofu et Wekesa. La fete Nasha occupe la seconde salle. De 22 h a 4 h.", descEn: "Brazilian DJ Badsista, a key figure in the São Paulo club scene, plays Kaiku in Helsinki alongside Kofu and Wekesa. The Nasha party takes the second room. 10pm to 4am." },
   { id: 203, title: "Trädgården Festival", type: "Festival", genres: ["EDM", "House"], city: "Kristianstad", country: "Sweden", lat: 56.0301, lng: 14.1518, date: "2026-08-28", endDate: "2026-08-29", time: "14:30", price: 177, currency: "€", venue: "Tivoliparken", trending: false, lineup: ["Steve Aoki", "A*Teens", "Agnes", "Joakim Lundell"], desc: "Festival pop et EDM installe dans le Tivoliparken de Kristianstad, en Scanie, qui attend plus de 34 000 personnes sur deux jours et plus de 40 artistes. Steve Aoki tient la tete d'affiche 2026 ; ouverture de 14 h 30 a 1 h.", descEn: "Pop and EDM festival held in Tivoliparken in Kristianstad, southern Sweden, expecting more than 34,000 people over two days and over 40 acts. Steve Aoki headlines the 2026 edition; gates 2.30pm to 1am." },
   { id: 204, title: "FEMXCORE x REJUV", type: "Club", genres: ["Techno", "Hard Techno"], city: "Prague", country: "Czech Republic", lat: 50.0453, lng: 14.4437, date: "2026-08-29", time: "23:00", price: 16, currency: "€", venue: "Ankali & Planeta Za", trending: false, lineup: [], desc: "Nuit collaborative des collectifs FEMXCORE et REJUV sur les deux salles d'Ankali et Planeta Za, club techno de reference de Prague installe dans un ancien local industriel de Krc. Huit artistes annonces au programme.", descEn: "Collaborative night from the FEMXCORE and REJUV collectives across both rooms of Ankali and Planeta Za, Prague's reference techno club housed in a former industrial space in Krc. Eight artists announced on the bill.", priceNote: "estimated" },
@@ -223,13 +222,13 @@ export const EVENTS: RaveEvent[] = [
   { id: 235, title: "Index: Lane 8", type: "Club", genres: ["House", "Techno"], city: "Dublin", country: "Ireland", lat: 53.3468, lng: -6.276, date: "2026-10-16", time: "18:00", price: 35, currency: "€", venue: "Index", trending: false, lineup: ["Lane 8"], desc: "Set de l'Américain Lane 8, fondateur du label This Never Happened, à l'Index d'Arran Quay. Ouverture des portes à 18h.", descEn: "Set from American producer Lane 8, founder of the This Never Happened label, at Index on Arran Quay. Doors at 6pm.", priceNote: "estimated" },
   { id: 236, title: "Culture Box : Xinobi", type: "Club", genres: ["House", "Techno"], city: "Copenhagen", country: "Denmark", lat: 55.6853, lng: 12.5836, date: "2026-10-23", time: "22:00", price: 21, currency: "€", venue: "Culture Box", trending: false, lineup: ["Xinobi", "Bow Miller", "Anders HP", "Max Finney", "Qwenty", "Roussakis"], desc: "Le producteur portugais Xinobi (label Discotexas) prend le Black Box du Culture Box, tandis que le crew Rhythm Vault occupe la Red Box. Nuit de 22 h a 8 h, dans le club de Kronprinsessegade.", descEn: "Portuguese producer Xinobi (Discotexas label) takes the Black Box at Culture Box while the Rhythm Vault crew hold the Red Box. The night runs 10pm to 8am at the Kronprinsessegade club." },
   { id: 237, title: "Teletech Glasgow", type: "Club", genres: ["Hard Techno", "Techno"], city: "Glasgow", country: "UK", lat: 55.8544, lng: -4.2543, date: "2026-10-24", time: "22:00", price: 22, currency: "£", venue: "Room 2", trending: false, lineup: [], desc: "Escale glaswégienne du circuit hard techno Teletech, au Room 2, club de Carlton Court en bord de Clyde.", descEn: "Glasgow stop on the Teletech hard techno circuit, at Room 2, the Carlton Court club beside the Clyde.", priceNote: "estimated" },
-  { id: 238, title: "Elrow Horroween", type: "Warehouse", genres: ["House", "Techno"], city: "London", country: "UK", lat: 51.613, lng: -0.062, date: "2026-10-31", time: "18:00", price: 45, currency: "£", venue: "Drumsheds", trending: true, lineup: [], desc: "Édition londonienne d'Horroween, la fête d'Halloween du collectif barcelonais Elrow, aux Drumsheds : décors, personnages costumés et confettis sur toute la nuit.", descEn: "London edition of Horroween, the Halloween party from Barcelona collective Elrow, at Drumsheds: sets, costumed performers and confetti through the night.", priceNote: "estimated" },
+  { id: 238, title: "Elrow Horroween", type: "Warehouse", genres: ["House", "Techno", "EDM"], city: "London", country: "UK", lat: 51.613, lng: -0.062, date: "2026-10-31", time: "14:00 - 23:00", price: 45, priceNote: "estimated", currency: "£", venue: "Drumsheds", trending: true, lineup: [], desc: "L'édition Halloween d'elrow, la fête barcelonaise la plus décorée d'Europe, prend les quatre halls de Drumsheds. Confettis, personnages et house tech sur un format festival indoor. Programmation annoncée à l'automne.", descEn: "The Halloween edition of elrow, Europe's most heavily decorated party brand, takes over all four Drumsheds halls. Confetti, characters and tech house in an indoor festival format. Line-up announced in the autumn." },
   { id: 239, title: "Iceland Airwaves", type: "Festival", genres: ["House", "Techno", "EDM"], city: "Reykjavík", country: "Iceland", lat: 64.1466, lng: -21.9426, date: "2026-11-05", endDate: "2026-11-07", time: "18:00", price: 72, currency: "€", venue: "Salles du centre de Reykjavík", trending: false, lineup: ["Shygirl", "The Streets", "Daði Freyr", "Heartworms", "Jamie Woon"], desc: "Festival de decouverte islandais fonde en 1999, reparti dans les salles du centre de Reykjavík du 5 au 7 novembre 2026, avec des soirees speciales les 4 et 8. La programmation melange scene locale et invites internationaux, dont Shygirl et The Streets.", descEn: "Icelandic discovery festival founded in 1999, spread across venues in downtown Reykjavík from 5 to 7 November 2026, with special shows on the 4th and 8th. The bill mixes the local scene with international guests including Shygirl and The Streets.", priceNote: "estimated" },
   { id: 240, title: "Jasna 1 : 999999999", type: "Club", genres: ["Hard Techno", "Acid Techno"], city: "Warsaw", country: "Poland", lat: 52.2364, lng: 21.0121, date: "2026-11-06", time: "23:00", price: 20, currency: "€", venue: "Jasna 1", trending: false, lineup: ["999999999"], desc: "Le duo acid techno italien 999999999 joue au Jasna 1, club varsovien a deux pistes de danse installe en plein centre, dont la residence compte VTSS et Blazej Malinowski.", descEn: "Italian acid techno duo 999999999 play Jasna 1, the two-floor Warsaw club in the city centre whose residents include VTSS and Blazej Malinowski.", priceNote: "estimated" },
   { id: 241, title: "MAYDAY Poland 2026 : Iconic", type: "Festival", genres: ["Techno", "Hardstyle", "Trance", "House"], city: "Katowice", country: "Poland", lat: 50.2664, lng: 19.0257, date: "2026-11-10", time: "17:00", price: 55, currency: "€", venue: "Spodek", trending: true, lineup: [], desc: "27e edition polonaise de MAYDAY, seize heures de musique de 17h a 9h sur deux scenes dans la salle Spodek de Katowice. Environ 20 artistes et 15 000 personnes attendues, entre tech house, hardstyle, trance et techno.", descEn: "27th Polish edition of MAYDAY, sixteen hours of music from 17:00 to 09:00 across two stages inside Katowice's Spodek arena. Around 20 artists and 15,000 people expected, spanning tech house, hardstyle, trance and techno.", priceNote: "estimated" },
-  { id: 242, title: "SYNRG: Francesco Del Garda & DJ Masda", type: "Warehouse", genres: ["House", "Techno"], city: "Glasgow", country: "UK", lat: 55.8635, lng: -4.2915, date: "2026-11-13", time: "23:00", price: 20, currency: "£", venue: "SWG3 Warehouse", trending: false, lineup: ["Francesco Del Garda", "DJ Masda"], desc: "Nuit longue de la série SYNRG dans la salle Warehouse du SWG3, avec l'Italien Francesco Del Garda et le Japonais DJ Masda. Réservé aux plus de 18 ans.", descEn: "Long night from the SYNRG series in SWG3's Warehouse room, with Italy's Francesco Del Garda and Japan's DJ Masda. Strictly 18+.", priceNote: "estimated" },
+  { id: 242, title: "SYNRG: Francesco Del Garda & DJ Masda", type: "Warehouse", genres: ["House", "Techno"], city: "Glasgow", country: "UK", lat: 55.8635, lng: -4.2915, date: "2026-11-13", time: "23:00 - 03:00", price: 20, priceNote: "estimated", currency: "£", venue: "SWG3 Warehouse", trending: false, lineup: ["Francesco Del Garda", "DJ Masda"], desc: "Nuit longue de la série SYNRG dans la salle Warehouse du SWG3, avec l'Italien Francesco Del Garda et le Japonais DJ Masda. Réservé aux plus de 18 ans.", descEn: "Long night from the SYNRG series in SWG3's Warehouse room, with Italy's Francesco Del Garda and Japan's DJ Masda. Strictly 18+." },
   { id: 243, title: "Teletech Newcastle", type: "Club", genres: ["Hard Techno", "Techno"], city: "Newcastle", country: "UK", lat: 54.974, lng: -1.609, date: "2026-11-14", time: "22:00", price: 20, currency: "£", venue: "World Headquarters", trending: false, lineup: [], desc: "Première date de Teletech à Newcastle, au World Headquarters de Carliol Square, club indépendant ouvert depuis 1993.", descEn: "Teletech's Newcastle date at World Headquarters on Carliol Square, the independent club running since 1993.", priceNote: "estimated" },
-  { id: 244, title: "Armin van Buuren at Drumsheds", type: "Warehouse", genres: ["Trance", "EDM"], city: "London", country: "UK", lat: 51.613, lng: -0.062, date: "2026-11-14", time: "19:00", price: 45, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Armin van Buuren"], desc: "Le Néerlandais Armin van Buuren en tête d'affiche aux Drumsheds de Tottenham, pour une soirée trance dans l'ancien entrepôt IKEA de Glover Drive.", descEn: "Dutch trance figurehead Armin van Buuren headlines Drumsheds in Tottenham, in the former IKEA warehouse on Glover Drive.", priceNote: "estimated" },
+  { id: 244, title: "Armin van Buuren at Drumsheds", type: "Warehouse", genres: ["Trance", "EDM"], city: "London", country: "UK", lat: 51.613, lng: -0.062, date: "2026-11-14", time: "13:00 - 22:30", price: 41, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Armin van Buuren", "Giuseppe Ottaviani", "Cosmic Gate", "Ferry Corsten", "Ruben de Ronde", "Andrew Rayel", "Sarah de Warren", "Will Atkinson", "Ben Hemsley", "Amber Broos", "Funk Tribu", "Sophie Sugar", "Thick as Thieves"], desc: "Premier festival ASOT indoor de l'histoire au Royaume-Uni : Armin van Buuren célèbre les vingt-cinq ans de A State of Trance dans les halls de Drumsheds, avec Cosmic Gate, Ferry Corsten et une vingtaine d'autres.", descEn: "The first ever indoor ASOT festival in the UK: Armin van Buuren celebrates twenty-five years of A State of Trance across the Drumsheds halls, with Cosmic Gate, Ferry Corsten and twenty more." },
   { id: 245, title: "Duke Dumont at The Telegraph Building", type: "Club", genres: ["House"], city: "Belfast", country: "UK", lat: 54.599, lng: -5.9265, date: "2026-11-20", time: "21:00", price: 33, currency: "£", venue: "The Telegraph Building", trending: true, lineup: ["Duke Dumont"], desc: "Le Britannique Duke Dumont au Telegraph Building, ancienne imprimerie du Belfast Telegraph reconvertie en salle dans le Cathedral Quarter. Soirée programmée par Shine.", descEn: "Britain's Duke Dumont at The Telegraph Building, the former Belfast Telegraph print works turned venue in the Cathedral Quarter. Programmed by Shine." },
   { id: 246, title: "Taksirat Festival", type: "Festival", genres: ["Techno", "House", "Drum & Bass"], city: "Skopje", country: "North Macedonia", lat: 41.9973, lng: 21.428, date: "2026-11-26", endDate: "2026-12-07", time: "20:00", price: 20, currency: "€", venue: "Salles multiples, Skopje", trending: false, lineup: [], desc: "Plus ancien festival de musiques actuelles de Macedoine du Nord, cree en 1998 et etale sur une dizaine de jours dans plusieurs salles de Skopje. La 28e edition melange rock, hip-hop et une programmation electronique en club.", descEn: "North Macedonia's longest-running contemporary music festival, founded in 1998 and spread over about ten days across several Skopje venues. The 28th edition mixes rock, hip-hop and a club-based electronic programme.", priceNote: "estimated" },
   { id: 247, title: "Teletech Bristol", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Bristol", country: "UK", lat: 51.4508, lng: -2.5698, date: "2026-11-27", time: "22:00", price: 20, currency: "£", venue: "The Prospect Building", trending: false, lineup: [], desc: "Nuit hard techno de Teletech au Prospect Building, entrepôt reconverti de Feeder Road, dans la zone industrielle de St Philips à Bristol.", descEn: "Teletech hard techno night at The Prospect Building, a converted warehouse on Feeder Road in Bristol's St Philips industrial estate." },
@@ -311,7 +310,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 320, title: "Eternal Sun Festival", type: "Festival", genres: ["House", "Techno"], city: "Sougia", country: "Greece", lat: 35.2456, lng: 23.8114, date: "2026-09-04", endDate: "2026-09-06", time: "22:30", price: 90, currency: "€", venue: "Club Fortuna, Papaderou, Sougia (Crète)", trending: false, lineup: ["Optimo (Espacio)", "Nosedrip", "Bufiman", "babyschön", "OKO DJ", "Amelia Holt"], desc: "Petit festival indépendant dans le village de Sougia, sur la côte sud-ouest de la Crète : trois nuits au Club Fortuna, de 22h30 à 9h du matin, autour d'une programmation resserrée entre house, disco et électronique de recherche.", descEn: "A small independent festival in the village of Sougia, on Crete's south-west coast: three nights at Club Fortuna, running 10.30pm to 9am, built around a tight bill of house, disco and left-field electronics.", priceNote: "estimated" },
   { id: 321, title: "Komorebi Music Festival", type: "Festival", genres: ["Techno", "House"], city: "Vinadio", country: "Italy", lat: 44.3081, lng: 7.1739, date: "2026-09-04", endDate: "2026-09-06", time: "16:00", price: 75, currency: "€", venue: "Forte Albertino di Vinadio (Alpes du Cuneo)", trending: false, lineup: ["Mathew Jonson", "Eric Cloutier", "Paquita Gordon", "Ness", "Feral", "Pianeti Sintetici", "Kasei P", "Globular Waves", "Christine Benz", "Lb Honne"], desc: "Septième édition de ce festival piémontais installé dans les remparts du Forte Albertino de Vinadio, dans les Alpes du Cuneo : trois jours en plein air, avec plusieurs lives électroniques dont Mathew Jonson et Ness.", descEn: "Seventh edition of this Piedmont festival set inside the ramparts of the Forte Albertino in Vinadio, in the Cuneo Alps: three open-air days with several live electronic sets including Mathew Jonson and Ness.", priceNote: "estimated" },
   { id: 322, title: "Amelie Lens – Chaos in the City", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Antwerp", country: "Belgium", lat: 51.2091, lng: 4.3934, date: "2026-09-05", time: "14:00", price: 39, currency: "€", venue: "Leopold de Waelplaats, devant le KMSKA", trending: true, lineup: ["Amelie Lens"], desc: "Premier événement électronique organisé devant le musée KMSKA d'Anvers : la Leopold de Waelplaats est transformée en dancefloor de 14 000 places, de 14h à 23h. Amelie Lens y joue un set de trois heures pour la sortie de son album AURA, avec projection vidéo sur la façade du musée à la tombée de la nuit.", descEn: "The first electronic music event ever staged in front of Antwerp's KMSKA museum: Leopold de Waelplaats becomes a 14,000-capacity dancefloor, from 2pm to 11pm. Amelie Lens plays a three-hour set marking the release of her album AURA, with a video projection onto the museum facade at dusk." },
-  { id: 323, title: "Fuse presents Hadone curates: Nørbak & Tauceti", type: "Club", genres: ["Hard Techno", "Techno"], city: "Brussels", country: "Belgium", lat: 50.8354, lng: 4.3448, date: "2026-09-05", time: "23:00", price: 18, currency: "€", venue: "Fuse", trending: false, lineup: ["Nørbak", "Tauceti", "LaDetail", "Hadone"], desc: "Carte blanche du producteur français Hadone au Fuse : hard techno et rave avec le Portugais Nørbak et l'Italien Tauceti en Room 01.", descEn: "French producer Hadone curates a night at Fuse: hard techno and rave with Portugal's Nørbak and Italy's Tauceti in Room 01.", priceNote: "estimated" },
+  { id: 323, title: "Fuse presents Hadone curates: Nørbak & Tauceti", type: "Club", genres: ["Hard Techno", "Techno"], city: "Brussels", country: "Belgium", lat: 50.8354, lng: 4.3448, date: "2026-09-05", time: "23:00 - 07:00", price: 18, priceNote: "estimated", currency: "€", venue: "Fuse", trending: false, lineup: ["Nørbak", "Tauceti", "LaDetail", "Hadone"], desc: "Carte blanche du producteur français Hadone au Fuse : hard techno et rave avec le Portugais Nørbak et l'Italien Tauceti en Room 01.", descEn: "French producer Hadone curates a night at Fuse: hard techno and rave with Portugal's Nørbak and Italy's Tauceti in Room 01." },
   { id: 324, title: "Rauwe Kicks", type: "Club", genres: ["Hardstyle", "Hardcore"], city: "Nijmegen", country: "Netherlands", lat: 51.8442, lng: 5.8539, date: "2026-09-05", time: "16:00", price: 27, currency: "€", venue: "Doornroosje", trending: false, lineup: [], desc: "Soirée raw hardstyle et uptempo de la série AT NIGHT du Doornroosje, la salle de Nijmegen accolée à la gare. Format en journée-soirée : ouverture 16h, portes fermées à 20h, fin à minuit.", descEn: "A raw hardstyle and uptempo night from Doornroosje's AT NIGHT series, at the Nijmegen venue next to the station. Daytime-into-evening format: doors 4pm, entry closes at 8pm, finish at midnight." },
   { id: 325, title: "Into The Madness", type: "Festival", genres: ["Hardstyle", "Hardcore", "Hard Techno"], city: "Zülpich", country: "Germany", lat: 50.6975, lng: 6.6493, date: "2026-09-05", time: "12:00", price: 75, currency: "€", venue: "Seepark Zülpich", trending: true, lineup: ["Brennan Heart", "D-Block & S-te-Fan", "Ran-D", "Rebelion", "Coone", "Da Tweekaz", "Radical Redemption", "Warface", "Act of Rage", "Miss K8", "N-Vitral", "Digital Punk", "Wolv"], desc: "Cinquième édition du plus grand festival de styles durs d'Allemagne, en plein air au Seepark de Zülpich, à environ 40 minutes de Cologne : cinq scènes (Main, Raw, Xtra Raw, Core, Classics) et plus de 75 artistes hardstyle, rawstyle, uptempo et hardcore.", descEn: "The fifth edition of Germany's biggest harder-styles festival, outdoors at Seepark Zülpich around 40 minutes from Cologne: five stages (Main, Raw, Xtra Raw, Core, Classics) and more than 75 hardstyle, rawstyle, uptempo and hardcore artists." },
   { id: 326, title: "Teletech x DAY|RAVE", type: "Club", genres: ["Hard Techno", "Techno"], city: "Basel", country: "Switzerland", lat: 47.5836, lng: 7.5876, date: "2026-09-05", time: "23:00", price: 38, currency: "€", venue: "Nordstern", trending: false, lineup: [], desc: "Le label britannique Teletech, référence de la hard techno, s'associe à la série DAY|RAVE du Nordstern, club installé dans une ancienne centrale électrique au bord du Rhin à Bâle.", descEn: "British hard techno label Teletech teams up with Nordstern's DAY|RAVE series at the Basel club housed in a former power plant on the Rhine.", priceNote: "estimated" },
@@ -351,7 +350,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 360, title: "Paul Elstak presents 'Wanna Play?'", type: "Warehouse", genres: ["Hardcore"], city: "Rotterdam", country: "Netherlands", lat: 51.8977, lng: 4.4945, date: "2026-11-07", time: "22:00", price: 35, currency: "€", venue: "Maassilo", trending: true, lineup: ["Paul Elstak", "Partyraiser", "Neophyte", "AniMe", "Deadly Guns", "Noxa", "Cynthia Spiering", "Negitiv", "Decode", "Yoshiko", "Hysta", "Dither", "Panic", "MC Alee", "MC Boogshe"], desc: "Soirée conçue par le pionnier rotterdamois DJ Paul Elstak au Maassilo, avec quinze artistes hardcore, uptempo et terror : Partyraiser, Neophyte, AniMe et Deadly Guns accompagnent l'hôte.", descEn: "A night curated by Rotterdam pioneer DJ Paul Elstak at Maassilo, with fifteen hardcore, uptempo and terror artists: Partyraiser, Neophyte, AniMe and Deadly Guns join the host.", priceNote: "estimated" },
   { id: 361, title: "Rave Rebels XXL", type: "Festival", genres: ["Techno", "Hard Techno"], city: "Brussels", country: "Belgium", lat: 50.8989, lng: 4.3404, date: "2026-11-07", time: "18:00", price: 55, currency: "€", venue: "ING Arena (Palais 12), Heysel", trending: true, lineup: [], desc: "Le plus grand rassemblement techno indoor de Belgique, organisé par le Kompass Klub de Gand : treize heures de programmation de 18h à 7h à l'ING Arena du Heysel (ex-Palais 12, environ 15 000 places). Line-up encore non publié en texte.", descEn: "Belgium's biggest indoor techno gathering, run by Ghent's Kompass Klub: thirteen hours of programming from 6pm to 7am at the ING Arena on the Heysel plateau (formerly Palais 12, around 15,000 capacity). The line-up has not yet been published in text form.", priceNote: "estimated" },
   { id: 362, title: "Stil vor Talent — Oliver Koletzki", type: "Club", genres: ["Techno", "House"], city: "Berlin", country: "Germany", lat: 52.5017, lng: 13.4048, date: "2026-11-07", time: "22:00", price: 28, currency: "€", venue: "Ritter Butzke", trending: false, lineup: ["Oliver Koletzki"], desc: "Nuit du label berlinois Stil vor Talent au Ritter Butzke, menée par son fondateur Oliver Koletzki. House et techno mélodique sur les floors de l'ancienne usine de Kreuzberg.", descEn: "A night from Berlin label Stil vor Talent at Ritter Butzke, led by founder Oliver Koletzki. House and melodic techno across the floors of the old Kreuzberg factory.", priceNote: "estimated" },
-  { id: 363, title: "Culture Box : Dusky", type: "Club", genres: ["House", "Techno"], city: "Copenhagen", country: "Denmark", lat: 55.6853, lng: 12.5836, date: "2026-11-13", time: "22:00", price: 20, currency: "€", venue: "Culture Box", trending: false, lineup: ["Dusky"], desc: "Le duo britannique Dusky joue au Culture Box, club de 350 places ouvert en 2005 rue Kronprinsessegade, la référence de la scène électronique danoise. Nuit de 22 h à 8 h sur les salles Black Box et Red Box.", descEn: "British duo Dusky play Culture Box, the 350-capacity club opened in 2005 on Kronprinsessegade and the reference point of the Danish electronic scene. The night runs 10pm to 8am across the Black Box and Red Box rooms.", priceNote: "estimated" },
+  { id: 363, title: "Culture Box : Dusky", type: "Club", genres: ["House", "Techno"], city: "Copenhagen", country: "Denmark", lat: 55.6853, lng: 12.5836, date: "2026-11-13", time: "23:00 - 05:00", price: 20, priceNote: "estimated", currency: "€", venue: "Culture Box", trending: false, lineup: ["Dusky"], desc: "Le duo londonien Dusky pose ses machines au Culture Box, le club de référence de la musique électronique au Danemark depuis 2005. Une salle de Kronprinsessegade taillée pour la house et la techno, avec un système son que la scène copenhaguoise cite en exemple.", descEn: "British duo Dusky play Culture Box, the 350-capacity club opened in 2005 on Kronprinsessegade and the reference point of the Danish electronic scene. The night runs 10pm to 8am across the Black Box and Red Box rooms." },
   { id: 364, title: "Link x Midnight w/ Dave Clarke & DJ Hell", type: "Club", genres: ["Techno"], city: "Maastricht", country: "Netherlands", lat: 50.857, lng: 5.6907, date: "2026-11-14", time: "22:30", price: 25, currency: "€", venue: "Muziekgieterij", trending: true, lineup: ["Dave Clarke", "DJ Hell"], desc: "Nuit techno de la série Midnight à la Muziekgieterij de Maastricht, à partir de 22h30, avec le Britannique Dave Clarke et l'Allemand DJ Hell, fondateur du label International DeeJay Gigolo.", descEn: "A techno night from the Midnight series at Muziekgieterij in Maastricht, from 10.30pm, with Britain's Dave Clarke and Germany's DJ Hell, founder of the International DeeJay Gigolo label.", priceNote: "estimated" },
   { id: 365, title: "Rotterdam Rave presents TITI", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Rotterdam", country: "Netherlands", lat: 51.8977, lng: 4.4945, date: "2026-11-14", time: "23:00", price: 28, currency: "€", venue: "Maassilo", trending: false, lineup: ["TITI"], desc: "Rotterdam Rave installe la DJ néerlandaise TITI au Maassilo pour une nuit hard techno, dans le prolongement de sa série de soirées indoor entre deux éditions du festival.", descEn: "Rotterdam Rave brings Dutch DJ TITI to Maassilo for a hard techno night, part of the crew's indoor series between festival editions.", priceNote: "estimated" },
   { id: 366, title: "Space Odyssey — NTO & Joachim Pastor", type: "Club", genres: ["Techno", "House"], city: "Lausanne", country: "Switzerland", lat: 46.5215, lng: 6.6296, date: "2026-11-20", time: "23:00", price: 37, currency: "€", venue: "D! Club", trending: false, lineup: ["NTO", "Joachim Pastor", "Djerry C"], desc: "Soirée Space Odyssey au D! Club de Lausanne avec deux figures de la techno mélodique française, NTO et Joachim Pastor. Portes à 23h, 18 ans et plus.", descEn: "Space Odyssey night at Lausanne's D! Club with two names from French melodic techno, NTO and Joachim Pastor. Doors at 11pm, 18+.", priceNote: "estimated" },
@@ -365,7 +364,7 @@ export const EVENTS: RaveEvent[] = [
   { id: 374, title: "Azyr au Nordstern", type: "Club", genres: ["Hard Techno", "Techno"], city: "Basel", country: "Switzerland", lat: 47.5836, lng: 7.5876, date: "2026-12-11", time: "23:00", price: 38, currency: "€", venue: "Nordstern", trending: false, lineup: ["Azyr"], desc: "Le Belge Azyr, l'un des noms les plus demandés de la hard techno actuelle, en tête d'affiche au Nordstern de Bâle pour une nuit qui court jusqu'au matin.", descEn: "Belgium's Azyr, one of the most in-demand names in current hard techno, headlines Basel's Nordstern for a night running until morning.", priceNote: "estimated" },
   { id: 375, title: "Liquicity Winterfestival", type: "Festival", genres: ["Drum & Bass"], city: "Eindhoven", country: "Netherlands", lat: 51.4482, lng: 5.4575, date: "2026-12-27", time: "14:00", price: 49, currency: "€", venue: "Klokgebouw, Strijp-S", trending: true, lineup: [], desc: "Rendez-vous annuel d'hiver du label Liquicity au Klokgebouw d'Eindhoven, dans l'ancienne usine Philips de Strijp-S : une journée de drum & bass mélodique de 14h à minuit. Programmation encore à annoncer.", descEn: "Liquicity's annual winter gathering at the Klokgebouw in Eindhoven, inside the former Philips factory on Strijp-S: a day of melodic drum & bass from 2pm to midnight. The line-up is still to be announced.", priceNote: "estimated" },
   { id: 376, title: "FCKNYE Festival", type: "Festival", genres: ["Hard Techno", "Techno"], city: "Brussels", country: "Belgium", lat: 50.8989, lng: 4.3404, date: "2026-12-30", endDate: "2027-01-01", time: "20:00", price: 79, currency: "€", venue: "Brussels Expo / ING Arena, Heysel", trending: true, lineup: [], desc: "Le rendez-vous du Nouvel An bruxellois, réparti sur les halls du Brussels Expo au Heysel : ouverture le 30 décembre à 20h et clôture le 1er janvier 2027. Programmation 2026-2027 non encore publiée.", descEn: "Brussels' New Year gathering, spread across the Brussels Expo halls on the Heysel plateau: doors on 30 December at 8pm, closing on 1 January 2027. The 2026-27 line-up has not yet been published.", priceNote: "estimated" },
-  { id: 377, title: "Bootshaus & Loonyland — NYE", type: "Club", genres: ["EDM", "Hardstyle", "Hard Techno", "House"], city: "Cologne", country: "Germany", lat: 50.9494, lng: 6.9866, date: "2026-12-31", time: "21:00", price: 29, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Réveillon du Nouvel An au Bootshaus de Cologne, régulièrement classé parmi les meilleurs clubs du monde : trois floors ouverts de 21h jusqu'au matin, entrée à partir de 18 ans.", descEn: "New Year's Eve at Cologne's Bootshaus, a regular fixture in world club rankings: three floors open from 9pm until morning, 18+." },
+  { id: 377, title: "Bootshaus & Loonyland — NYE", type: "Club", genres: ["EDM", "Hardstyle", "Hard Techno", "House", "Techno"], city: "Cologne", country: "Germany", lat: 50.9494, lng: 6.9866, date: "2026-12-31", time: "21:00", price: 29, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Réveillon du Nouvel An au Bootshaus de Cologne, régulièrement classé parmi les meilleurs clubs du monde : trois floors ouverts de 21h jusqu'au matin, entrée à partir de 18 ans.", descEn: "New Year's Eve at Cologne's Bootshaus, a regular fixture in world club rankings: three floors open from 9pm until morning, 18+." },
   { id: 378, title: "Hippie New Year", type: "Club", genres: ["Techno", "House"], city: "Berlin", country: "Germany", lat: 52.5017, lng: 13.4048, date: "2026-12-31", time: "22:00", price: 45, currency: "€", venue: "Ritter Butzke", trending: false, lineup: [], desc: "Réveillon « Hippie New Year » du Ritter Butzke : les trois floors de l'ancienne fabrique de Kreuzberg ouverts toute la nuit du 31 décembre au 1er janvier.", descEn: "Ritter Butzke's \"Hippie New Year\": all three floors of the old Kreuzberg factory open through the night from 31 December into 1 January.", priceNote: "estimated" },
   { id: 379, title: "Unresolved: Bloodline – Warbound Protocol", type: "Warehouse", genres: ["Hardstyle", "Hardcore"], city: "Rotterdam", country: "Netherlands", lat: 51.8977, lng: 4.4945, date: "2027-01-09", time: "22:00", price: 35, currency: "€", venue: "Maassilo", trending: false, lineup: ["Unresolved"], desc: "Le producteur néerlandais Unresolved présente son concept Bloodline, chapitre « Warbound Protocol », au Maassilo. Soirée raw hardstyle et uptempo ; affiche complète encore à dévoiler.", descEn: "Dutch producer Unresolved brings his Bloodline concept, chapter \"Warbound Protocol\", to Maassilo. A raw hardstyle and uptempo night; the full bill is yet to be revealed.", priceNote: "estimated" },
   { id: 380, title: "Reverze", type: "Festival", genres: ["Hardstyle"], city: "Antwerp", country: "Belgium", lat: 51.2296, lng: 4.4361, date: "2027-02-26", endDate: "2027-02-27", time: "20:00", price: 75, currency: "€", venue: "AFAS Dome & Lotto Arena", trending: true, lineup: [], desc: "L'indoor hardstyle belge de référence revient sur deux jours dans l'AFAS Dome et la Lotto Arena d'Anvers, avec sa scénographie et son intro-act signature. Programmation 2027 non annoncée.", descEn: "Belgium's flagship indoor hardstyle event returns for two days across Antwerp's AFAS Dome and Lotto Arena, with its signature stage design and intro act. The 2027 line-up has not been announced.", priceNote: "estimated" },
@@ -406,10 +405,10 @@ export const EVENTS: RaveEvent[] = [
   { id: 407, title: "Détonation Festival", type: "Festival", genres: ["Techno", "House"], city: "Besançon", country: "France", region: "Doubs", lat: 47.2378, lng: 6.0241, date: "2026-09-25", endDate: "2026-09-26", time: "18:00", price: 32, currency: "€", venue: "La Rodia", trending: false, lineup: [], desc: "Deux nuits de fin septembre sur les friches de la Rodia, au bord du Doubs : le rendez-vous bisontin monté par la scène de musiques actuelles mêle électro, club et hip-hop dans une programmation défricheuse.", descEn: "Two late-September nights on the industrial grounds of La Rodia, on the banks of the Doubs: Besançon's contemporary-music venue mixes electronica, club sounds and hip-hop in a scene-scouting line-up.", priceNote: "estimated" },
   { id: 408, title: "Hilight Tribe à L'Echonova", type: "Club", genres: ["Psytrance", "Trance"], city: "Saint-Avé", country: "France", region: "Morbihan", lat: 47.6939, lng: -2.7369, date: "2026-09-25", time: "20:00", price: 29.2, currency: "€", venue: "L'Echonova", trending: false, lineup: ["Hilight Tribe"], desc: "Les ambassadeurs de la natural trance : percussions ethniques jouées live, didgeridoo et transe psytrance sans machines, un format qui remplit les salles françaises depuis vingt ans.", descEn: "The ambassadors of natural trance: ethnic percussion played live, didgeridoo and psytrance-grade momentum with no machines — a format that has filled French venues for twenty years." },
   { id: 409, title: "PACT à la Condition Publique", type: "Club", genres: ["Techno", "House"], city: "Roubaix", country: "France", region: "Nord", lat: 50.6942, lng: 3.1746, date: "2026-09-26", time: "20:00", price: 35, currency: "€", venue: "La Condition Publique", trending: false, lineup: ["Joachim Pastor", "Joris Delacroix", "Teho"], desc: "Joachim Pastor, Joris Delacroix et Teho réunissent leurs trois univers sous le nom PACT : un live de techno mélodique où le public pilote une partie de la performance en temps réel.", descEn: "Joachim Pastor, Joris Delacroix and Teho merge their three worlds under the name PACT: a melodic techno live show where the crowd steers part of the performance in real time." },
-  { id: 410, title: "Club de Jour invite Étienne de Crécy", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2184, lng: -1.5536, date: "2026-09-26", time: "16:00", price: 25, currency: "€", venue: "Warehouse", trending: false, lineup: ["Étienne de Crécy"], desc: "Le Warehouse ouvre son Club de Jour à Étienne de Crécy : le producteur emblématique de la French Touch déroule un DJ set en plein après-midi sur l'île de Nantes.", descEn: "Warehouse opens its daytime Club de Jour to Étienne de Crécy: the emblematic French Touch producer plays a DJ set in the middle of the afternoon on the Île de Nantes." },
+  { id: 410, title: "Club de Jour invite Guts", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2184, lng: -1.5536, date: "2026-09-26", time: "19:00 - 00:00", price: 25, currency: "€", venue: "Warehouse", trending: false, lineup: ["Étienne de Crécy", "Guts"], desc: "Le Club de Jour du Warehouse déplace la fête avant la nuit : de 19h à minuit dans le Hangar à Bananes, avec le producteur Guts aux platines pour un set house et électro. Une formule pour danser sans y laisser le lendemain.", descEn: "Warehouse's Club de Jour moves the party ahead of the night: 7pm to midnight in the Hangar à Bananes, with producer Guts behind the decks for a house and electronic set. A format for dancing without losing the next day." },
   { id: 411, title: "Nathan Fake AV Live", type: "Club", genres: ["Techno"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2026-09-26", time: "19:30", price: 26.8, currency: "€", venue: "La Gaîté Lyrique", trending: false, lineup: ["Nathan Fake"], desc: "Nathan Fake présente sa version audiovisuelle à la Gaîté Lyrique : quinze ans de techno mélodique britannique rejoués avec une scénographie image et son taillée pour la salle.", descEn: "Nathan Fake brings his audiovisual show to La Gaîté Lyrique: fifteen years of British melodic techno replayed with an image-and-sound staging built for the room." },
   { id: 412, title: "Synthony au Zénith de Paris", type: "Club", genres: ["EDM", "House"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2026-10-01", time: "20:00", price: 45, currency: "€", venue: "Zénith Paris - La Villette", trending: true, lineup: [], desc: "Trente ans de classiques EDM rejoués par un orchestre symphonique, des DJ en live et un show visuel : après l'Australie, l'Asie et les États-Unis, Synthony débarque pour la première fois en Europe.", descEn: "Thirty years of EDM classics replayed by a symphony orchestra, live DJs and a full visual show: after Australia, Asia and the United States, Synthony lands in Europe for the first time." },
-  { id: 413, title: "Folamour à l'Interférence", type: "Club", genres: ["House"], city: "Balma", country: "France", region: "Haute-Garonne", lat: 43.6099, lng: 1.4995, date: "2026-10-03", time: "17:00", price: 26.5, currency: "€", venue: "Interférence", trending: false, lineup: ["Folamour"], desc: "Sets fleuves, house solaire, disco et samples jazz-funk : le Lyonnais Folamour est l'un des rares DJ français à tenir la piste plusieurs heures d'affilée sans jamais lâcher le fil.", descEn: "Long-form sets, sunlit house, disco and jazz-funk samples: Lyon's Folamour is one of the few French DJs who can hold a floor for hours on end without ever losing the thread." },
+  { id: 413, title: "Folamour à l'Interférence", type: "Club", genres: ["House"], city: "Balma", country: "France", region: "Haute-Garonne", lat: 43.6099, lng: 1.4995, date: "2026-10-03", time: "17:00 - 23:00", price: 26.5, currency: "€", venue: "Interférence", trending: false, lineup: ["Folamour"], desc: "Le producteur lyonnais Folamour apporte sa house solaire et disco à Interférence, la salle de Balma desservie par le métro A. Son dernier album explore la guérison par la danse, entre morceaux introspectifs et montées de dancefloor.", descEn: "Lyon producer Folamour brings his sunlit house and disco to Interférence, the Balma venue served by metro line A. His latest album explores healing through dance, moving between introspective cuts and full dancefloor lifts." },
   { id: 414, title: "PACT à La Laiterie", type: "Club", genres: ["Techno", "House"], city: "Strasbourg", country: "France", region: "Bas-Rhin", lat: 48.5734, lng: 7.7521, date: "2026-10-09", time: "20:00", price: 31.2, currency: "€", venue: "La Laiterie", trending: false, lineup: ["Joachim Pastor", "Joris Delacroix", "Teho"], desc: "Joachim Pastor, Joris Delacroix et Teho réunissent leurs trois univers sous le nom PACT : un live de techno mélodique où le public pilote une partie de la performance en temps réel.", descEn: "Joachim Pastor, Joris Delacroix and Teho merge their three worlds under the name PACT: a melodic techno live show where the crowd steers part of the performance in real time." },
   { id: 415, title: "Sam Feldt au Central Chapelle", type: "Club", genres: ["EDM", "House"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2026-10-09", time: "20:00", price: 27.9, currency: "€", venue: "Central Chapelle", trending: false, lineup: ["Sam Feldt"], desc: "Le Néerlandais Sam Feldt pose sa house tropicale et ses tubes taillés pour le dancefloor au Central Chapelle, dans le nord de Paris.", descEn: "Dutch producer Sam Feldt brings his tropical house and dancefloor-built hits to Central Chapelle in northern Paris." },
   { id: 416, title: "Folamour 5 Hours Set à La Laiterie", type: "Club", genres: ["House"], city: "Strasbourg", country: "France", region: "Bas-Rhin", lat: 48.5734, lng: 7.7521, date: "2026-10-10", time: "19:00", price: 34, currency: "€", venue: "La Laiterie", trending: false, lineup: ["Folamour"], desc: "Format marathon à La Laiterie : cinq heures de set pour Folamour, entre house solaire, disco et samples jazz-funk, dans la grande salle strasbourgeoise.", descEn: "Marathon format at La Laiterie: five hours of Folamour, moving between sunlit house, disco and jazz-funk samples, in Strasbourg's main room." },
@@ -438,17 +437,17 @@ export const EVENTS: RaveEvent[] = [
   { id: 439, title: "Illusion BZH Edition", type: "Festival", genres: ["Hard Techno", "Techno", "Hardstyle"], city: "Lanester", country: "France", region: "Morbihan", lat: 47.7628, lng: -3.3417, date: "2026-12-12", time: "19:00", price: 44, currency: "€", venue: "Parc des Expositions de Lorient", trending: false, lineup: [], desc: "Le collectif Illusion pose son édition bretonne au Parc des Expositions de Lorient, à Lanester : deux scènes hard techno et hard music, show light & FX, portes à 19h.", descEn: "The Illusion collective brings its Breton edition to the Lorient exhibition centre in Lanester: two hard techno and hard music stages, a light & FX show, doors at 7pm." },
   { id: 440, title: "Anyma presents ÆDEN", type: "Club", genres: ["Techno"], city: "Nanterre", country: "France", region: "Hauts-de-Seine", lat: 48.892, lng: 2.207, date: "2026-12-12", time: "18:00", price: 56.5, currency: "€", venue: "Plenitude Arena", trending: true, lineup: ["Anyma"], desc: "Anyma pose son ÆDEN World Tour à la Plenitude Arena de Nanterre, la plus grande salle d'Europe : 40 000 personnes pour un show mêlant techno mélodique, art visuel et scénographie XXL.", descEn: "Anyma brings his ÆDEN World Tour to the Plenitude Arena in Nanterre, Europe's largest indoor venue: 40,000 people for a show blending melodic techno, visual art and outsized staging." },
   { id: 441, title: "PACT au MeM", type: "Club", genres: ["Techno", "House"], city: "Rennes", country: "France", region: "Ille-et-Vilaine", lat: 48.1173, lng: -1.6778, date: "2026-12-12", time: "20:00", price: 35, currency: "€", venue: "Le MeM", trending: false, lineup: ["Joachim Pastor", "Joris Delacroix", "Teho"], desc: "Joachim Pastor, Joris Delacroix et Teho réunissent leurs trois univers sous le nom PACT : un live de techno mélodique où le public pilote une partie de la performance en temps réel.", descEn: "Joachim Pastor, Joris Delacroix and Teho merge their three worlds under the name PACT: a melodic techno live show where the crowd steers part of the performance in real time." },
-  { id: 442, title: "The Avener au Warehouse", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2184, lng: -1.5536, date: "2026-12-12", time: "19:00", price: 27, currency: "€", venue: "Warehouse", trending: false, lineup: ["The Avener"], desc: "Le Niçois pose sa deep house mélancolique au Warehouse, sur l'île de Nantes — l'un des clubs les plus suivis de l'ouest.", descEn: "The Nice-born producer brings his wistful deep house to Warehouse on the Île de Nantes — one of western France's most closely watched clubs." },
+  { id: 442, title: "The Avener au Warehouse", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2184, lng: -1.5536, date: "2026-12-12", time: "19:00 - 00:00", price: 27, currency: "€", venue: "Warehouse", trending: false, lineup: ["The Avener"], desc: "Le Niçois pose sa deep house mélancolique au Warehouse, sur l'île de Nantes — l'un des clubs les plus suivis de l'ouest.", descEn: "The Nice-born producer brings his wistful deep house to Warehouse on the Île de Nantes — one of western France's most closely watched clubs." },
   { id: 443, title: "Bass Impakt - Hard Is Coming #5", type: "Club", genres: ["Hardcore", "Hard Techno", "Hardstyle"], city: "Saint-Quentin", country: "France", region: "Aisne", lat: 49.8489, lng: 3.2876, date: "2026-12-19", time: "16:00", price: 27.2, currency: "€", venue: "La Manufacture", trending: false, lineup: [], desc: "Cinquième édition de « Hard Is Coming », la soirée du collectif Bass Impakt à La Manufacture : douze heures de hard music à partir de 16h en plein centre de Saint-Quentin.", descEn: "Fifth edition of \"Hard Is Coming\", the Bass Impakt collective's night at La Manufacture: twelve hours of hard music from 4pm in the centre of Saint-Quentin." },
   { id: 444, title: "Crazy New Year", type: "Festival", genres: ["Techno", "Hard Techno", "Hardstyle"], city: "Bourg-en-Bresse", country: "France", region: "Ain", lat: 46.2051, lng: 5.2256, date: "2026-12-31", time: "20:00", price: 47.9, currency: "€", venue: "Ainterexpo - EKINOX", trending: true, lineup: [], desc: "Deuxième édition du réveillon techno et hard music de Bourg-en-Bresse : plus de dix heures de son au complexe Ainterexpo - EKINOX, scénographie monumentale et show lumière pour passer l'année.", descEn: "Second edition of Bourg-en-Bresse's techno and hard music New Year's Eve: over ten hours of sound at the Ainterexpo - EKINOX complex, with monumental staging and a full light show to see the year out." },
   { id: 445, title: "NTO Live au Stereolux", type: "Club", genres: ["Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2184, lng: -1.5536, date: "2027-01-14", time: "20:00", price: 29.9, currency: "€", venue: "Stereolux", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
   { id: 446, title: "NTO Live au MeM", type: "Club", genres: ["Techno"], city: "Rennes", country: "France", region: "Ille-et-Vilaine", lat: 48.1173, lng: -1.6778, date: "2027-01-15", time: "20:00", price: 30, currency: "€", venue: "Le MeM", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
   { id: 447, title: "PACT à l'Élysée Montmartre", type: "Club", genres: ["Techno", "House"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2027-01-16", time: "20:00", price: 34.5, currency: "€", venue: "L'Élysée Montmartre", trending: false, lineup: ["Joachim Pastor", "Joris Delacroix", "Teho"], desc: "Joachim Pastor, Joris Delacroix et Teho réunissent leurs trois univers sous le nom PACT : un live de techno mélodique où le public pilote une partie de la performance en temps réel.", descEn: "Joachim Pastor, Joris Delacroix and Teho merge their three worlds under the name PACT: a melodic techno live show where the crowd steers part of the performance in real time." },
-  { id: 448, title: "NTO Live au Transbordeur", type: "Club", genres: ["Techno"], city: "Villeurbanne", country: "France", region: "Rhône", lat: 45.7719, lng: 4.8902, date: "2027-01-28", time: "20:00", price: 30.8, currency: "€", venue: "Le Transbordeur", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
-  { id: 449, title: "NTO Live à La Laiterie", type: "Club", genres: ["Techno"], city: "Strasbourg", country: "France", region: "Bas-Rhin", lat: 48.5734, lng: 7.7521, date: "2027-01-30", time: "20:00", price: 31.2, currency: "€", venue: "La Laiterie", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
+  { id: 448, title: "NTO Live au Transbordeur", type: "Club", genres: ["Techno"], city: "Villeurbanne", country: "France", region: "Rhône", lat: 45.7719, lng: 4.8902, date: "2027-01-28", time: "20:00 - 23:30", price: 30.8, currency: "€", venue: "Le Transbordeur", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique au Transbordeur : des structures répétitives et hypnotiques sur lesquelles s'enroulent des mélodies en perpétuelle évolution. Le Français a collaboré avec Paul Kalkbrenner, Meute et Sofiane Pamart.", descEn: "NTO unfolds his melodic techno live show at Le Transbordeur: hypnotic repeating structures with ever-evolving melodies wound around them. The French artist has worked with Paul Kalkbrenner, Meute and Sofiane Pamart." },
+  { id: 449, title: "NTO Live à La Laiterie", type: "Club", genres: ["Techno"], city: "Strasbourg", country: "France", region: "Bas-Rhin", lat: 48.5734, lng: 7.7521, date: "2027-01-30", time: "20:00 - 23:30", price: 31.2, currency: "€", venue: "La Laiterie", trending: false, lineup: ["NTO"], desc: "NTO porte son live de techno mélodique à La Laiterie, la salle historique des musiques actuelles strasbourgeoises. Rythmiques structurées et mélodies atmosphériques, dans la veine de ses collaborations avec Paul Kalkbrenner et Sofiane Pamart.", descEn: "NTO brings his melodic techno live show to La Laiterie, Strasbourg's long-standing contemporary music venue. Structured rhythms and atmospheric melodies, in the vein of his work with Paul Kalkbrenner and Sofiane Pamart." },
   { id: 450, title: "Acid Arab au Zénith de Paris", type: "Club", genres: ["Acid Techno", "Techno"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2027-01-30", time: "20:00", price: 44.8, currency: "€", venue: "Zénith Paris - La Villette", trending: true, lineup: ["Acid Arab"], desc: "Le collectif franco-algérien fait tourner l'acid 303 sur des voix et des rythmes du Maghreb et du Moyen-Orient : un live de club qui a fini par déborder très largement du club.", descEn: "The French-Algerian collective runs the acid 303 over voices and rhythms from the Maghreb and the Middle East: a club live show that long ago outgrew the club." },
   { id: 451, title: "NTO Live à l'Olympia", type: "Club", genres: ["Techno"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2027-02-05", time: "20:00", price: 36, currency: "€", venue: "L'Olympia", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
-  { id: 452, title: "NTO Live au Bikini", type: "Club", genres: ["Techno"], city: "Ramonville-Saint-Agne", country: "France", region: "Haute-Garonne", lat: 43.5486, lng: 1.4739, date: "2027-02-12", time: "20:00", price: 31.4, currency: "€", venue: "Le Bikini", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique — nappes de piano, montées longues et basses profondes — l'une des signatures les plus repérables de la scène électronique française.", descEn: "NTO unfolds his melodic techno live set — piano layers, long builds and deep bass — one of the most recognisable signatures on the French electronic scene." },
+  { id: 452, title: "NTO Live au Bikini", type: "Club", genres: ["Techno"], city: "Ramonville-Saint-Agne", country: "France", region: "Haute-Garonne", lat: 43.5486, lng: 1.4739, date: "2027-02-12", time: "19:30 - 23:30", price: 31.4, currency: "€", venue: "Le Bikini", trending: false, lineup: ["NTO"], desc: "Le Bikini, club-salle de la banlieue toulousaine, accueille le live de NTO : structures rythmiques et lignes mélodiques enveloppantes. L'artiste a sorti l'album Forever Friends avec le pianiste Sofiane Pamart et collaboré avec Paul Kalkbrenner et Monolink.", descEn: "Le Bikini, the club-venue on the edge of Toulouse, hosts NTO's live show: rhythmic structures and enveloping melodic lines. He released the album Forever Friends with pianist Sofiane Pamart and has worked with Paul Kalkbrenner and Monolink." },
   { id: 453, title: "Acid Arab à La Cartonnerie", type: "Club", genres: ["Acid Techno", "Techno"], city: "Reims", country: "France", region: "Marne", lat: 49.2583, lng: 4.0317, date: "2027-03-13", time: "20:00", price: 0, currency: "€", venue: "La Cartonnerie", trending: false, lineup: ["Acid Arab"], desc: "Le collectif franco-algérien fait tourner l'acid 303 sur des voix et des rythmes du Maghreb et du Moyen-Orient : un live de club qui a fini par déborder très largement du club.", descEn: "The French-Algerian collective runs the acid 303 over voices and rhythms from the Maghreb and the Middle East: a club live show that long ago outgrew the club.", priceNote: "unknown" },
   { id: 454, title: "Acid Arab à La BAM", type: "Club", genres: ["Acid Techno", "Techno"], city: "Metz", country: "France", region: "Moselle", lat: 49.1193, lng: 6.1757, date: "2027-03-25", time: "20:00", price: 0, currency: "€", venue: "La BAM", trending: false, lineup: ["Acid Arab"], desc: "Le collectif franco-algérien fait tourner l'acid 303 sur des voix et des rythmes du Maghreb et du Moyen-Orient : un live de club qui a fini par déborder très largement du club.", descEn: "The French-Algerian collective runs the acid 303 over voices and rhythms from the Maghreb and the Middle East: a club live show that long ago outgrew the club.", priceNote: "unknown" },
   { id: 455, title: "Il Est Vilaine à La Machine du Moulin Rouge", type: "Club", genres: ["House"], city: "Paris", country: "France", region: "Paris", lat: 48.8566, lng: 2.3522, date: "2027-04-01", time: "20:00", price: 25, currency: "€", venue: "La Machine du Moulin Rouge", trending: false, lineup: ["Il Est Vilaine"], desc: "Le duo français d'Il Est Vilaine tire sa house vers le disco et la pop de club : machines, basse jouée et refrains, un format live qui remplit les salles depuis deux albums.", descEn: "French duo Il Est Vilaine pull their house towards disco and club pop: machines, played bass and hooks — a live format that has been filling venues for two albums." },
@@ -460,9 +459,9 @@ export const EVENTS: RaveEvent[] = [
   { id: 457, title: "Bella Claxton, Club Angel & Milion à Thuishaven", type: "Warehouse", genres: ["Hard Techno", "House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-08-09", time: "13:00", price: 29.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Bella Claxton", "Club Angel", "Milion", "Faster Horses", "Gabriel Muñoz", "Luis Ripa", "Jolani Jhones", "Ned Bennett"], desc: "Journée hard house et hard groove à Thuishaven, menée par Bella Claxton, Club Angel et Milion sur deux espaces. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "A hard house and hard groove day at Thuishaven, led by Bella Claxton, Club Angel and Milion across two spaces. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
   { id: 458, title: "Benny Rodrigues 10HRS à Thuishaven", type: "Warehouse", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-08-15", time: "13:00", price: 0, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Benny Rodrigues", "Aurelius", "Eileen", "Frits Wentink", "Kevin Lo"], desc: "Dix heures de set pour Benny Rodrigues, figure de la scène néerlandaise, avec le Loods en second espace. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "A ten-hour set from Benny Rodrigues, a fixture of the Dutch scene, with the Loods as a second space. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.", priceNote: "unknown" },
   { id: 459, title: "Gaskin 5HRS à Thuishaven", type: "Warehouse", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-08-16", time: "13:00", price: 31.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Gaskin", "Ellia Jaya", "Wildish", "Gissa", "Stef Davidse", "Ben Horton"], desc: "Gaskin déroule cinq heures de house à Thuishaven, entouré d'une sélection de la scène néerlandaise émergente. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Gaskin plays a five-hour house set at Thuishaven, surrounded by a pick of the emerging Dutch scene. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
-  { id: 460, title: "Toman, Dean Turnley & AAT à Thuishaven", type: "Warehouse", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-08-30", time: "13:00", price: 21.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Toman", "Dean Turnley", "AAT", "Easttown", "Jordan Brando", "William Kiss"], desc: "Toman, Dean Turnley et AAT partagent une journée house à Thuishaven, au tarif le plus bas de la saison. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Toman, Dean Turnley and AAT share a day of house at Thuishaven, at the season's lowest ticket price. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
+  { id: 460, title: "Toman, Dean Turnley & AAT à Thuishaven", type: "Warehouse", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-08-30", time: "13:00 - 23:00", price: 21.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Toman", "Dean Turnley", "AAT", "Easttown", "Jordan Brando", "William Kiss", "Saar Kuus"], desc: "Toman, Dean Turnley et AAT partagent une journée house à Thuishaven, au tarif le plus bas de la saison. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Toman, Dean Turnley and AAT share a day of house at Thuishaven, at the season's lowest ticket price. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
   { id: 461, title: "Kolter 10HRS à Thuishaven", type: "Warehouse", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-09-06", time: "13:00", price: 0, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Kolter"], desc: "Kolter en solo pour dix heures à Thuishaven : house minimale et groove, première date de septembre. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Kolter solo for ten hours at Thuishaven: minimal house and groove, the first September date. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm.", priceNote: "unknown" },
-  { id: 462, title: "Menesix 10HRS à Thuishaven", type: "Warehouse", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-09-13", time: "13:00", price: 29.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Menesix"], desc: "Menesix prend les commandes de Thuishaven pour un set fleuve de dix heures. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Menesix takes over Thuishaven for a ten-hour long-form set. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
+  { id: 462, title: "Menesix 10HRS à Thuishaven", type: "Warehouse", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.394, lng: 4.836, date: "2026-09-13", time: "13:00 - 23:00", price: 29.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Menesix"], desc: "Menesix prend les commandes de Thuishaven pour un set fleuve de dix heures. Thuishaven, ancien terrain industriel de l'ouest d'Amsterdam reconverti en club à ciel ouvert, déroule ses journées de dix heures de 13h à 23h.", descEn: "Menesix takes over Thuishaven for a ten-hour long-form set. Thuishaven, a former industrial site in west Amsterdam turned open-air club, runs its ten-hour day parties from 1pm to 11pm." },
   { id: 463, title: "The Warehouse Project: Rampa + &ME", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-09-19", time: "14:00", price: 40, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Rampa", "&ME"], desc: "Le duo Keinemusik, Rampa et &ME, tient un day-to-night de dix heures pour le week-end d'ouverture des vingt ans du Warehouse Project.", descEn: "Keinemusik's Rampa and &ME hold a ten-hour day-to-night party for the opening weekend of The Warehouse Project's twentieth year.", priceNote: "estimated" },
   { id: 464, title: "Defected London", type: "Warehouse", genres: ["House"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-09-19", time: "13:30", price: 40, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Armand Van Helden", "Basement Jaxx", "Eats Everything", "Sam Divine", "Groove Armada", "Jonas Blue", "Makèz", "Roger Sanchez", "The Shapeshifters", "Melvo Baptiste"], desc: "Defected prend les 15 000 places du Drumsheds pour une journée house : le label pose ses trois enseignes, Defected, Glitterbox et DFTD, sur autant de salles de l'ancien entrepôt IKEA d'Edmonton.", descEn: "Defected takes over Drumsheds' 15,000 capacity for a day of house: the label spreads its three imprints — Defected, Glitterbox and DFTD — across as many rooms of the former IKEA warehouse in Edmonton." },
   { id: 465, title: "The Warehouse Project: Homobloc", type: "Warehouse", genres: ["House", "Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-09-26", time: "17:00", price: 45, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Kim Petras", "Honey Dijon", "Derrick Carter", "Job Jobse", "Cobrah", "Palms Trax", "Horse Meat Disco", "Erol Alkan", "LSDXOXO", "I. Jordan"], desc: "« A queer party for all » : la grande fête queer de Manchester réunit une centaine d'artistes sur toutes les salles du Depot Mayfield, de la house de Chicago au club le plus contemporain.", descEn: "\"A queer party for all\": Manchester's flagship queer party gathers around a hundred artists across every room at Depot Mayfield, from Chicago house to the sharpest contemporary club sound.", priceNote: "estimated" },
@@ -476,17 +475,17 @@ export const EVENTS: RaveEvent[] = [
   { id: 473, title: "Don't Let Daddy Know London", type: "Warehouse", genres: ["EDM", "House"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-10-09", time: "19:00", price: 45, currency: "£", venue: "Drumsheds", trending: false, lineup: ["R3HAB", "Halō", "P.O.U"], desc: "La franchise néerlandaise Don't Let Daddy Know pose son show EDM au Drumsheds, de 19h à 3h du matin, avec R3HAB en tête d'affiche.", descEn: "Dutch franchise Don't Let Daddy Know brings its EDM show to Drumsheds, 7pm to 3am, with R3HAB headlining.", priceNote: "estimated" },
   { id: 474, title: "The Warehouse Project: Interplanetary Criminal", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-10", time: "19:00", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Interplanetary Criminal"], desc: "Le Mancunien Interplanetary Criminal, artisan du renouveau UK garage, prend les commandes du Depot Mayfield pour une carte blanche.", descEn: "Manchester's Interplanetary Criminal, an architect of the UK garage revival, takes over Depot Mayfield for a carte-blanche night.", priceNote: "estimated" },
   { id: 475, title: "Bugged Out: 2001&On…", type: "Warehouse", genres: ["House", "Techno"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-10-10", time: "13:00", price: 38, currency: "£", venue: "Drumsheds", trending: false, lineup: ["Meera"], desc: "Bugged Out, institution du clubbing britannique, rejoue l'esprit du début des années 2000 au Drumsheds : neuf heures de house et de techno, de 13h à 22h30.", descEn: "Bugged Out, a British clubbing institution, replays the spirit of the early 2000s at Drumsheds: nine hours of house and techno, 1pm to 10.30pm.", priceNote: "estimated" },
-  { id: 476, title: "The Warehouse Project: doof – Hannah Laing", type: "Warehouse", genres: ["Hard Techno", "Techno", "Trance"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-16", time: "20:00", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Hannah Laing", "Maddix"], desc: "Hannah Laing ramène son concept doof au Depot Mayfield, en association avec Teletech, avec un back-to-back exclusif face à Maddix.", descEn: "Hannah Laing brings her doof concept back to Depot Mayfield with Teletech, including an exclusive back-to-back with Maddix.", priceNote: "estimated" },
+  { id: 476, title: "The Warehouse Project: doof – Hannah Laing", type: "Warehouse", genres: ["Hard Techno", "Techno", "Trance"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-16", time: "20:00 - 04:00", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Hannah Laing", "Maddix"], desc: "Le label doof de l'Écossaise Hannah Laing s'associe à Teletech pour une nuit de hard techno au Warehouse Project. Huit heures dans le hangar de Depot Mayfield, de 20h à 4h.", descEn: "Scottish DJ Hannah Laing brings her doof label together with Teletech for a night of hard techno at The Warehouse Project. Eight hours inside the Depot Mayfield shed, 20:00 to 04:00." },
   { id: 477, title: "The Warehouse Project: Alisha", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-23", time: "21:00", price: 25, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Alisha"], desc: "Soirée en configuration Concourse uniquement, menée par Alisha : format resserré, sept heures de house et de bass music.", descEn: "A Concourse-only night led by Alisha: a tighter format, seven hours of house and bass music.", priceNote: "estimated" },
   { id: 478, title: "The Warehouse Project: Duke Dumont", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-24", time: "20:00", price: 38, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Duke Dumont"], desc: "Duke Dumont revient au Depot Mayfield avec sa house taillée pour les grandes salles, entre classiques et productions récentes.", descEn: "Duke Dumont returns to Depot Mayfield with the arena-scaled house he built his name on, mixing classics and recent productions.", priceNote: "estimated" },
   { id: 479, title: "False Idols at Drumsheds", type: "Warehouse", genres: ["Techno", "Hard Techno"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-10-24", time: "13:00", price: 38, currency: "£", venue: "Drumsheds", trending: false, lineup: [], desc: "Journée techno au Drumsheds signée False Idols, de 13h à 22h30 dans le plus grand espace clos de Londres.", descEn: "A techno day at Drumsheds curated by False Idols, 1pm to 10.30pm in London's largest indoor space.", priceNote: "estimated" },
   { id: 480, title: "The Warehouse Project: NexUp", type: "Warehouse", genres: ["Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-10-31", time: "20:00", price: 32, currency: "£", venue: "Depot Mayfield", trending: false, lineup: [], desc: "Nuit d'Halloween drum & bass au Depot Mayfield, portée par le collectif NexUp et sa sélection de la nouvelle génération britannique.", descEn: "A drum & bass Halloween night at Depot Mayfield, run by the NexUp collective and its pick of the new British generation.", priceNote: "estimated" },
   { id: 481, title: "The Warehouse Project: Kettama – Steel City Dance Discs", type: "Warehouse", genres: ["House", "Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-11-06", time: "20:00", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Kettama"], desc: "L'Irlandais Kettama déploie son label Steel City Dance Discs au Depot Mayfield : house rave, breaks et trance à l'ancienne.", descEn: "Ireland's Kettama unrolls his Steel City Dance Discs label at Depot Mayfield: rave house, breaks and old-school trance.", priceNote: "estimated" },
   { id: 482, title: "The Warehouse Project: La Discothèque", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-11-07", time: "18:00", price: 30, currency: "£", venue: "Depot Mayfield", trending: false, lineup: [], desc: "La Discothèque pose son décor disco et house au Depot Mayfield, format soirée early de 18h à 2h30.", descEn: "La Discothèque brings its disco and house staging to Depot Mayfield, in an early 6pm-to-2.30am format.", priceNote: "estimated" },
-  { id: 483, title: "Worried About Henry London", type: "Warehouse", genres: ["Drum & Bass"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-07", time: "13:00", price: 29.5, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Wilkinson"], desc: "Worried About Henry exporte sa nuit drum & bass de Manchester au Drumsheds, avec Wilkinson en tête d'affiche et le reste du plateau annoncé progressivement.", descEn: "Worried About Henry brings its Manchester drum & bass night to Drumsheds, with Wilkinson headlining and the rest of the bill revealed in stages." },
-  { id: 484, title: "La Discothèque 10th Anniversary", type: "Warehouse", genres: ["House"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-13", time: "19:00", price: 38, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Folamour", "Masters at Work", "Jayda G", "Dan Shake", "Ron Trent", "DJ Paulette", "Jennifer Lovell"], desc: "Les dix ans de La Discothèque au Drumsheds : Masters at Work, Ron Trent, Folamour et Jayda G réunis pour une nuit house et disco à grande échelle.", descEn: "Ten years of La Discothèque at Drumsheds: Masters at Work, Ron Trent, Folamour and Jayda G brought together for a large-scale house and disco night." },
+  { id: 483, title: "Worried About Henry London", type: "Warehouse", genres: ["Drum & Bass"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-07", time: "19:00 - 03:00", price: 29.5, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Wilkinson"], desc: "Worried About Henry exporte sa nuit drum & bass de Manchester au Drumsheds, avec Wilkinson en tête d'affiche et le reste du plateau annoncé progressivement.", descEn: "Worried About Henry brings its Manchester drum & bass night to Drumsheds, with Wilkinson headlining and the rest of the bill revealed in stages." },
+  { id: 484, title: "La Discothèque 10th Anniversary", type: "Warehouse", genres: ["House"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-13", time: "19:00 - 03:00", price: 38, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Folamour", "Masters at Work", "Jayda G", "Dan Shake", "Ron Trent", "DJ Paulette", "Jennifer Lovell"], desc: "Les dix ans de La Discothèque au Drumsheds : Masters at Work, Ron Trent, Folamour et Jayda G réunis pour une nuit house et disco à grande échelle.", descEn: "Ten years of La Discothèque at Drumsheds: Masters at Work, Ron Trent, Folamour and Jayda G brought together for a large-scale house and disco night." },
   { id: 485, title: "The Warehouse Project: EastEnderz", type: "Warehouse", genres: ["House", "Techno"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-11-20", time: "19:30", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["East End Dubs"], desc: "East End Dubs amène son label EastEnderz au Depot Mayfield : neuf heures de minimale et de tech house jusqu'à 4h30.", descEn: "East End Dubs brings his EastEnderz label to Depot Mayfield: nine hours of minimal and tech house running to 4.30am.", priceNote: "estimated" },
-  { id: 486, title: "FUSE 18th Birthday", type: "Warehouse", genres: ["House", "Techno"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-28", time: "13:00", price: 38, currency: "£", venue: "Drumsheds", trending: false, lineup: ["Enzo Siragusa"], desc: "Le label londonien FUSE fête ses dix-huit ans au Drumsheds : minimale, house dépouillée et sets longs, de 13h à 22h30.", descEn: "London label FUSE marks its eighteenth birthday at Drumsheds: minimal, stripped-back house and long sets, 1pm to 10.30pm.", priceNote: "estimated" },
+  { id: 486, title: "FUSE 18th Birthday", type: "Warehouse", genres: ["House", "Techno"], city: "London", country: "UK", lat: 51.6155, lng: -0.0592, date: "2026-11-28", time: "19:00 - 03:00", price: 38, priceNote: "estimated", currency: "£", venue: "Drumsheds", trending: false, lineup: ["Enzo Siragusa", "Luciano", "Traumer"], desc: "Le label londonien FUSE fête ses dix-huit ans à Drumsheds avec vingt-quatre artistes, dont Luciano, le fondateur Enzo Siragusa et Traumer. House minimale et techno hypnotique jusqu'au bout de la nuit.", descEn: "London label FUSE turns eighteen at Drumsheds with a twenty-four artist bill including Luciano, founder Enzo Siragusa and Traumer. Minimal house and hypnotic techno through the night." },
   { id: 487, title: "The Warehouse Project: FAC51 The Haçienda", type: "Warehouse", genres: ["House"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-12-05", time: "17:00", price: 40, currency: "£", venue: "Depot Mayfield", trending: true, lineup: [], desc: "Le Haçienda, club le plus mythique de Manchester, reprend la main sur le Depot Mayfield le temps d'une nuit : acid house et classiques de Madchester.", descEn: "The Haçienda, Manchester's most storied club, takes over Depot Mayfield for one night: acid house and Madchester classics.", priceNote: "estimated" },
   { id: 488, title: "The Warehouse Project: Tiësto", type: "Warehouse", genres: ["EDM", "Trance"], city: "Manchester", country: "UK", lat: 53.4761, lng: -2.2295, date: "2026-12-11", time: "20:00", price: 55, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Tiësto"], desc: "Première apparition de Tiësto à Manchester depuis treize ans, au Depot Mayfield, pour l'une des plus grosses affiches de la saison.", descEn: "Tiësto's first Manchester appearance in thirteen years, at Depot Mayfield, and one of the season's biggest draws.", priceNote: "estimated" },
 
@@ -505,22 +504,17 @@ export const EVENTS: RaveEvent[] = [
   { id: 498, title: "Unreal Weekender Night II", type: "Club", genres: ["Hard Techno", "Techno"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-09-26", time: "22:30", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: ["Annie", "DJ Dreckisch", "Dvaid", "Glanz", "Rosilicious", "Karah", "KUKO", "Tassery", "Triptykh", "Golpe"], desc: "Seconde nuit du Unreal Weekender au Bootshaus, même format : hard techno jusqu'au petit matin.", descEn: "Second Unreal Weekender night at Bootshaus, same format: hard techno until the early hours.", priceNote: "unknown" },
   { id: 499, title: "NIBIRII pres. Ely Oaks", type: "Club", genres: ["House", "Techno", "EDM"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-02", time: "22:00", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: ["Ely Oaks"], desc: "Le collectif Nibirii, organisateur du festival de Düren, ramène Ely Oaks au Bootshaus pour une nuit house et techno.", descEn: "The Nibirii collective, organisers of the Düren festival, bring Ely Oaks back to Bootshaus for a house and techno night.", priceNote: "unknown" },
   { id: 500, title: "Chrome Cologne", type: "Club", genres: ["Hard Techno", "Techno"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-09", time: "22:30", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Chrome Cologne pose sa hard techno immersive au Bootshaus, de 22h30 à 8h du matin.", descEn: "Chrome Cologne brings its immersive hard techno to Bootshaus, 10.30pm to 8am.", priceNote: "unknown" },
-  { id: 501, title: "Chris Stussy au Bootshaus", type: "Club", genres: ["House"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-16", time: "22:00", price: 0, currency: "€", venue: "Bootshaus", trending: true, lineup: ["Chris Stussy"], desc: "Première apparition de Chris Stussy sur le Mainfloor du Bootshaus : sets fluides et house minimale, de 22h à 5h.", descEn: "Chris Stussy's first appearance on the Bootshaus Mainfloor: flowing sets and minimal house, 10pm to 5am.", priceNote: "unknown" },
   { id: 502, title: "Affenkäfig Rules", type: "Club", genres: ["Hard Techno", "Hardcore"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-23", time: "23:00", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Affenkäfig réunit sa meute au Bootshaus pour une nuit hard, de 23h à 7h du matin, club complet.", descEn: "Affenkäfig gathers its pack at Bootshaus for a hard night, 11pm to 7am, full club.", priceNote: "unknown" },
   { id: 503, title: "KitKatClub au Bootshaus", type: "Club", genres: ["Techno", "House"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-24", time: "21:30", price: 35, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Le KitKatClub exporte sa nuit au Bootshaus : dress code fantaisie stricte, entrée sous réserve, de 21h30 à 6h30.", descEn: "KitKatClub exports its night to Bootshaus: strict fantasy dress code, admission at the door's discretion, 9.30pm to 6.30am." },
-  { id: 504, title: "Bootshaus & Loonyland pres. Halloween", type: "Club", genres: ["Hard Techno", "Hardstyle"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-10-31", time: "21:00", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Loonyland reprend le Bootshaus pour son Halloween annuel : trois étages ouverts du début de nuit jusqu'au matin.", descEn: "Loonyland takes over Bootshaus for its annual Halloween party: three floors open from early night until morning.", priceNote: "unknown" },
   { id: 505, title: "Unreal x KUKO All Night Long", type: "Club", genres: ["Hard Techno", "Techno"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-12-19", time: "22:00", price: 0, currency: "€", venue: "Bootshaus", trending: true, lineup: ["KUKO"], desc: "Dernière date du All Night Long World Tour de KUKO : le Néerlandais tient seul le Mainfloor du Bootshaus de 22h à 7h.", descEn: "Final date of KUKO's All Night Long World Tour: the Dutch DJ holds the Bootshaus Mainfloor alone from 10pm to 7am.", priceNote: "unknown" },
   { id: 506, title: "KitKatClub au Bootshaus – 30 décembre", type: "Club", genres: ["Techno", "House"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-12-30", time: "21:30", price: 35, currency: "€", venue: "Bootshaus", trending: false, lineup: [], desc: "Édition d'entre-deux-fêtes du KitKatClub au Bootshaus, avec le même dress code fantaisie stricte.", descEn: "A between-the-holidays KitKatClub edition at Bootshaus, with the same strict fantasy dress code." },
-  { id: 507, title: "Bootshaus & Loonyland pres. NYE", type: "Club", genres: ["EDM", "House", "Techno"], city: "Cologne", country: "Germany", lat: 50.9497, lng: 6.988, date: "2026-12-31", time: "21:00", price: 0, currency: "€", venue: "Bootshaus", trending: true, lineup: [], desc: "Réveillon du Bootshaus : Mainfloor, Blckbx et Dreherei ouverts de 21h à 6h pour passer de 2026 à 2027.", descEn: "New Year's Eve at Bootshaus: Mainfloor, Blckbx and Dreherei open from 9pm to 6am to cross from 2026 into 2027.", priceNote: "unknown" },
 
   /* ---------- Pan-European expansion: verified events ----------
      Researched per region, cross-checked against official sites, RA, Songkick,
      Skiddle/Dice and local press. `priceNote` flags unconfirmed gate prices. */
-  { id: 508, title: "POSITIV Electronic Festival", type: "Festival", genres: ["Techno", "House", "EDM"], city: "Orange", country: "France", region: "Vaucluse", lat: 44.1358, lng: 4.8085, date: "2026-08-14", endDate: "2026-08-16", time: "14:00 - 06:00", price: 49.5, currency: "€", venue: "Théâtre Antique d'Orange", trending: true, lineup: ["Boris Brejcha", "Charlotte de Witte", "Fisher", "Marlon Hoffstadt", "Carla Schmitt", "Nicolas Cuer", "Novah", "Biianco", "Venga"], desc: "Trois jours de musique électronique dans le Théâtre Antique d'Orange, classé au patrimoine mondial, transformé en cathédrale de son et de mapping vidéo. Boris Brejcha, Charlotte de Witte et Fisher se partagent les têtes d'affiche, avec des before sur l'esplanade dès 14h et des after au parc expo jusqu'à 6h.", descEn: "Three days of electronic music inside Orange's UNESCO-listed Roman theatre, turned into a cathedral of sound and video mapping. Boris Brejcha, Charlotte de Witte and Fisher headline, with warm-ups on the esplanade from 2pm and after-parties at the expo park until 6am." },
   { id: 509, title: "Into The Madness Pre-Party Weekender", type: "Club", genres: ["Hardstyle"], city: "Cologne", country: "Germany", lat: 50.9517, lng: 6.982, date: "2026-08-15", time: "23:00 - 05:00", price: 0, currency: "€", venue: "Bootshaus", trending: false, lineup: ["Ran-D", "Devin Wild", "Aversion", "Kili", "Complex", "Zelecter", "Restrictless"], desc: "Avant-première d'Into The Madness au Bootshaus de Cologne : une nuit hardstyle menée par Ran-D, avec des sets exclusifs de Devin Wild et Aversion annoncés uniquement pour cette pre-party. Le mainfloor tourne de 23h à 5h du matin.", descEn: "The Into The Madness pre-party lands at Cologne's Bootshaus for a hardstyle night headlined by Ran-D, with Devin Wild and Aversion playing sets billed as exclusive to this warm-up. The mainfloor runs from 11pm to 5am.", priceNote: "unknown" },
   { id: 510, title: "James Hype at Cavo Paradiso", type: "Club", genres: ["House", "EDM"], city: "Mykonos", country: "Greece", lat: 37.4098, lng: 25.3487, date: "2026-08-17", time: "23:59 - 07:00", price: 0, currency: "€", venue: "Cavo Paradiso", trending: false, lineup: ["James Hype"], desc: "James Hype joue au Cavo Paradiso, le club perché sur la falaise au-dessus de Paradise Beach à Mykonos. Le Britannique y déroule sa tech house de gros festival jusqu'au lever du soleil sur la mer Égée.", descEn: "James Hype plays Cavo Paradiso, the club perched on the cliff above Paradise Beach in Mykonos. The Briton runs his festival-scale tech house until sunrise over the Aegean.", priceNote: "unknown" },
   { id: 511, title: "Ladies First", type: "Club", genres: ["Drum & Bass"], city: "Oslo", country: "Norway", lat: 59.9134, lng: 10.7425, date: "2026-08-19", time: "23:00 - 03:00", price: 0, currency: "kr", venue: "Jaeger", trending: false, lineup: ["Sol", "Haidama", "Mira Mark"], desc: "Ladies First met les DJ femmes de la scène bass norvégienne aux commandes du Jaeger, un mercredi soir et sans entrée payante. Drum & bass, dubstep et bass music jusqu'à trois heures du matin.", descEn: "Ladies First puts women DJs from Norway's bass scene behind Jaeger's decks on a Wednesday night, free entry. Drum & bass, dubstep and bass music until three in the morning." },
-  { id: 512, title: "Index: 808 State", type: "Club", genres: ["Acid Techno", "House"], city: "Dublin", country: "Ireland", lat: 53.3487, lng: -6.262, date: "2026-08-20", time: "22:00 - 02:30", price: 20, currency: "€", venue: "Index", trending: false, lineup: ["808 State"], desc: "Les pionniers mancuniens de l'acid house 808 State viennent poser un DJ set à l'Index, le club techno de Middle Abbey Street à Dublin. Quatre heures et demie de son bleep et acid.", descEn: "Manchester acid house pioneers 808 State bring a DJ set to Index, the techno club on Dublin's Middle Abbey Street. Four and a half hours of bleep and acid.", priceNote: "estimated" },
   { id: 513, title: "David Morales at Cavo Paradiso", type: "Club", genres: ["House"], city: "Mykonos", country: "Greece", lat: 37.4098, lng: 25.3487, date: "2026-08-21", time: "23:59 - 07:00", price: 0, currency: "€", venue: "Cavo Paradiso", trending: false, lineup: ["David Morales"], desc: "David Morales, pilier de la house new-yorkaise et remixeur des années Def Mix, revient au Cavo Paradiso. House vocale et garage sur la terrasse en surplomb de Paradise Beach, jusqu'au petit matin.", descEn: "David Morales, a pillar of New York house and remixer of the Def Mix years, returns to Cavo Paradiso. Vocal house and garage on the terrace overhanging Paradise Beach, until dawn.", priceNote: "unknown" },
   { id: 514, title: "Echoes", type: "Club", genres: ["House", "Techno", "Trance"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-08-22", time: "23:59 - 06:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: [], desc: "Nuit house, techno et trance au Warehouse, le club nantais installé dans le Hangar à Bananes et classé 53e mondial par DJ Mag. Portes à minuit, dancefloor jusqu'au petit matin.", descEn: "A house, techno and trance night at Warehouse, the Nantes club housed in the Hangar à Bananes and ranked 53rd worldwide by DJ Mag. Doors at midnight, dancefloor until dawn.", priceNote: "unknown" },
   { id: 515, title: "Nightflight x Futoria", type: "Club", genres: ["House", "Techno"], city: "Oslo", country: "Norway", lat: 59.9134, lng: 10.7425, date: "2026-08-22", time: "22:00 - 03:30", price: 180, currency: "kr", venue: "Jaeger", trending: false, lineup: ["Nordiks", "GUI", "Johannes Berggren", "Rosa", "MC Kaman"], desc: "Nightflight, le samedi du Jaeger, s'associe au collectif Futoria pour une nuit de tech house et de techno portée par les DJ d'Oslo. Entrée libre avant 22 h, 180 couronnes ensuite.", descEn: "Nightflight, Jaeger's Saturday, teams up with the Futoria collective for a night of tech house and techno carried by Oslo DJs. Free entry before 10pm, 180 kroner after." },
@@ -528,20 +522,16 @@ export const EVENTS: RaveEvent[] = [
   { id: 517, title: "Uprising Festival", type: "Festival", genres: ["Drum & Bass"], city: "Bratislava", country: "Slovakia", lat: 48.1848, lng: 17.1902, date: "2026-08-28", endDate: "2026-08-29", time: "14:00 - 04:00", price: 0, currency: "€", venue: "Zlaté piesky", trending: false, lineup: ["Andy C", "Bou", "Protoje", "Dub Inc", "Tiken Jah Fakoly", "Orishas", "Gogol Bordello", "Masta Ace"], desc: "Dix-neuvième édition d'Uprising, au bord du lac de Zlaté piesky à Bratislava : sept scènes, près de cent artistes, du reggae au hip-hop. La scène drum & bass est tenue par Andy C et Bou, ce qui en fait le plus gros rendez-vous dnb de Slovaquie.", descEn: "The 19th Uprising takes over the Zlaté piesky lakeside in Bratislava: seven stages, close to a hundred acts, reggae through hip-hop. Andy C and Bou headline the drum & bass stage, making it Slovakia's biggest dnb gathering.", priceNote: "unknown" },
   { id: 518, title: "Playhard — Luca Agnelli", type: "Club", genres: ["Hard Techno"], city: "Lausanne", country: "Switzerland", lat: 46.5209, lng: 6.6311, date: "2026-08-28", time: "23:00 - 05:00", price: 0, currency: "CHF", venue: "D! Club", trending: false, lineup: ["Luca Agnelli", "Djerry C", "Ricciø", "Deb McCormick"], desc: "La soirée Playhard du D! Club accueille l'Italien Luca Agnelli, épaulé par Djerry C, Ricciø et la Suissesse Deb McCormick. Hard techno à partir de 23h, entrée réservée aux 18 ans et plus.", descEn: "D! Club's Playhard night hosts Italy's Luca Agnelli, backed by Djerry C, Ricciø and Swiss DJ Deb McCormick. Hard techno from 11pm, 18+ only.", priceNote: "unknown" },
   { id: 519, title: "NRT w/ Nikolina", type: "Club", genres: ["Hard Techno", "Hardcore", "House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-08-28", time: "23:55 - 06:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["Nikolina", "25emeheure", "Medusa", "Paradigm", "TKZ", "Gow Fast", "Apocalipse", "Ghostface", "CHZ", "Demol", "Manchek", "Gandoolf", "Xokin", "Bibi", "Vai", "See Rose", "Ptass"], desc: "Closing d'été XXL au Warehouse, dans le Hangar à Bananes sur l'île de Nantes : trois salles, la schranz de Nikolina en main room, une hard stage entière en B2B et une Solar Stage house. Une soirée pensée comme un remerciement aux collectifs électro nantais. Interdit aux moins de 18 ans.", descEn: "XXL summer closing at Warehouse, in the Hangar à Bananes on Nantes' island: three rooms, Nikolina's schranz in the main room, a full hard stage of back-to-backs and a house-leaning Solar Stage. Built as a thank-you night for the city's electronic collectives. Strictly 18+.", priceNote: "unknown" },
-  { id: 520, title: "Frædag: Gerd Janson", type: "Club", genres: ["House"], city: "Oslo", country: "Norway", lat: 59.9134, lng: 10.7425, date: "2026-08-28", time: "23:00 - 03:30", price: 0, currency: "kr", venue: "Jaeger", trending: false, lineup: ["Gerd Janson", "g-HA & Olanskii", "Øyvind Morken"], desc: "Frædag, la soirée du vendredi du Jaeger, reçoit Gerd Janson, patron du label Running Back et l'un des meilleurs sélecteurs house et disco d'Allemagne. Le club de Grensen tient deux étages et une cour avec licence tardive, au centre d'Oslo.", descEn: "Frædag, Jaeger's Friday night, hosts Gerd Janson, head of the Running Back label and one of Germany's finest house and disco selectors. The Grensen club runs two floors and a late-licence courtyard in central Oslo.", priceNote: "unknown" },
   { id: 521, title: "Fuse: The Third Room with Verraco", type: "Club", genres: ["Techno"], city: "Brussels", country: "Belgium", lat: 50.8362, lng: 4.3436, date: "2026-08-28", time: "23:00 - 07:00", price: 20, currency: "€", venue: "Fuse", trending: false, lineup: ["Verraco", "Felix Fleer", "Maōh", "Marie-Julie"], desc: "La série The Third Room du Fuse invite le Colombien Verraco, figure du label TraTraTrax, aux côtés de Felix Fleer et Maōh. Techno déviante et rythmes latins jusqu'à 7h.", descEn: "Fuse's The Third Room series invites Colombia's Verraco, a TraTraTrax figurehead, alongside Felix Fleer and Maōh. Off-kilter techno and Latin rhythms until 07:00.", priceNote: "estimated" },
   { id: 522, title: "Shelter: Jesse Maas Curates", type: "Club", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-08-28", time: "23:00 - 06:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: ["Jesse Maas"], desc: "Le Shelter, le club en sous-sol de la tour A'DAM sur la rive nord de l'IJ, laisse une nuit entière à Jesse Maas. Sept heures de house et de techno jusqu'à 6h.", descEn: "Shelter, the basement club under the A'DAM Tower on the north bank of the IJ, hands a full night to Jesse Maas. Seven hours of house and techno until 06:00.", priceNote: "estimated" },
   { id: 523, title: "SWG3: Joshwa", type: "Club", genres: ["House"], city: "Glasgow", country: "UK", lat: 55.8637, lng: -4.2951, date: "2026-08-28", time: "23:00 - 03:00", price: 22, currency: "£", venue: "SWG3 Warehouse", trending: false, lineup: ["Joshwa"], desc: "Le Britannique Joshwa, l'un des noms les plus joués de la tech house actuelle, prend le grand hangar du SWG3 à Glasgow. Quatre heures sur les quais de la Clyde.", descEn: "Britain's Joshwa, one of the most played names in today's tech house, takes the big SWG3 warehouse in Glasgow. Four hours on the banks of the Clyde.", priceNote: "estimated" },
   { id: 524, title: "Flashback Techno Classics — Summer Edition", type: "Club", genres: ["Techno"], city: "Vienna", country: "Austria", lat: 48.2344, lng: 16.3611, date: "2026-08-29", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Grelle Forelle", trending: false, lineup: ["Joro & Joabo", "Tom Snow", "Rokis", "Martin Oelz", "Peter Pan", "MC Mars", "MC Spot", "Pa Olo", "Tolaris", "Hanneken", "Gugu", "Romen Est Omen"], desc: "La Grelle Forelle rejoue les classiques techno des années 90 et 2000 sur son mainfloor, avec MC Mars et MC Spot au micro, tandis que le collectif Sorry Mom tient la Kitchen. Portes à 23h au bord du canal du Danube.", descEn: "Grelle Forelle rewinds to 90s and 2000s techno classics on the mainfloor, with MC Mars and MC Spot on the mic while the Sorry Mom crew run the Kitchen room. Doors at 11pm on the Danube canal.", priceNote: "unknown" },
   { id: 525, title: "Shelter: Tins All Night", type: "Club", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-08-29", time: "23:00 - 06:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: ["Tins"], desc: "Format all night long au Shelter : un seul DJ, sept heures de set. Tins tient la cabine du club amstellodamois de 23h à 6h.", descEn: "All-night-long format at Shelter: one DJ, a seven-hour set. Tins holds the booth of the Amsterdam club from 23:00 to 06:00.", priceNote: "estimated" },
-  { id: 526, title: "Thuishaven: Toman & Dean Turnley", type: "Club", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.4008, lng: 4.8395, date: "2026-08-30", time: "13:00 - 23:00", price: 21.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Toman", "Dean Turnley", "AAT", "Easttown", "Jordan Brando", "William Kiss", "Saar Kuus"], desc: "Dix heures en plein air au Thuishaven, le terrain de jeu du port ouest d'Amsterdam, avec ses feux de camp et ses cabanes de bois. Toman et Dean Turnley mènent une journée de house de 13h à 23h.", descEn: "Ten open-air hours at Thuishaven, the Amsterdam western harbour playground with its campfires and wooden huts. Toman and Dean Turnley lead a day of house from 13:00 to 23:00." },
   { id: 527, title: "Hard Cœur — Creeds", type: "Club", genres: ["Hardcore", "Hardstyle"], city: "Lausanne", country: "Switzerland", lat: 46.5209, lng: 6.6311, date: "2026-09-04", time: "23:00 - 05:00", price: 0, currency: "CHF", venue: "D! Club", trending: false, lineup: ["Creeds", "D-Frek", "Rōse"], desc: "Hard Cœur ramène le hardcore au D! Club de Lausanne avec le Français Creeds, D-Frek et la Suissesse Rōse. Portes à 23h, soirée réservée aux 18 ans et plus.", descEn: "Hard Cœur brings hardcore back to Lausanne's D! Club with France's Creeds, D-Frek and Swiss DJ Rōse. Doors at 11pm, 18+.", priceNote: "unknown" },
-  { id: 528, title: "Rave in da Club x Wolf City w/ Hysta", type: "Club", genres: ["Hardcore", "Hard Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-09-04", time: "23:55 - 06:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["Hysta", "Lekkerfaces", "Ophidian", "RDØ", "La Bringue", "Damien RK", "Marmotek Sound System"], desc: "Une nuit entièrement consacrée au hardcore et à l'uptempo au Warehouse de Nantes, sous le label Wolf City. Hysta, figure incontournable de la nouvelle génération hard, mène la main room pendant que Marmotek Sound System tient la room 2. Interdit aux moins de 18 ans.", descEn: "A night given over entirely to hardcore and uptempo at Nantes' Warehouse, under the Wolf City banner. Hysta, a leading figure of the new hard generation, runs the main room while Marmotek Sound System holds room 2. Strictly 18+.", priceNote: "unknown" },
   { id: 529, title: "Zamna x Primer", type: "Festival", genres: ["Techno", "House"], city: "Athens", country: "Greece", lat: 38.0361, lng: 23.7876, date: "2026-09-04", endDate: "2026-09-05", time: "18:00 - 04:00", price: 0, currency: "€", venue: "Olympic Arena", trending: false, lineup: ["Armand Van Helden", "Axwell", "Stephan Bodzin", "Bedouin", "Adam Ten", "MRAK"], desc: "La marque mexicaine Zamna s'associe au festival grec Primer pour deux nuits dans l'enceinte olympique d'Athènes. Stephan Bodzin en live, Bedouin et Adam Ten côté techno mélodique, Armand Van Helden et Axwell pour la partie house.", descEn: "Mexican brand Zamna teams up with Greek festival Primer for two nights inside the Athens Olympic complex. Stephan Bodzin live, Bedouin and Adam Ten on the melodic techno side, Armand Van Helden and Axwell on house duty.", priceNote: "unknown" },
   { id: 530, title: "Fuse presents NIKOLINA & Ornella", type: "Club", genres: ["Techno", "Hard Techno"], city: "Brussels", country: "Belgium", lat: 50.8362, lng: 4.3436, date: "2026-09-04", time: "23:00 - 07:00", price: 20, currency: "€", venue: "Fuse", trending: false, lineup: ["NIKOLINA", "Ornella", "Gaiveu", "Osmos"], desc: "Nuit techno rapide au Fuse avec la Croate NIKOLINA et la Belge Ornella. Le club des Marolles ouvre sa saison de rentrée sur huit heures.", descEn: "A fast techno night at Fuse with Croatia's NIKOLINA and Belgium's Ornella. The Marolles club opens its autumn season across eight hours.", priceNote: "estimated" },
   { id: 531, title: "Eric Prydz — OpenAir Corner", type: "Warehouse", genres: ["House", "Techno"], city: "Belgrade", country: "Serbia", lat: 44.8271, lng: 20.473, date: "2026-09-05", time: "21:00 - 02:00", price: 0, currency: "€", venue: "Luka Beograd", trending: true, lineup: ["Eric Prydz"], desc: "Les collectifs Topljenje et BLNDR installent leur OpenAir Corner sur les quais du port de Belgrade et y font venir Eric Prydz. Cinq heures de house progressive entre les grues, de 21h à 2h du matin.", descEn: "Promoters Topljenje and BLNDR set up their OpenAir Corner on the docks of the Port of Belgrade and bring in Eric Prydz. Five hours of progressive house among the cranes, 9pm to 2am.", priceNote: "unknown" },
   { id: 532, title: "Vision Open Air", type: "Warehouse", genres: ["Techno", "Hard Techno"], city: "Milan", country: "Italy", lat: 45.4525, lng: 9.2261, date: "2026-09-05", time: "18:00 - 00:00", price: 0, currency: "€", venue: "Spazio Ex-Macello", trending: true, lineup: ["Charlotte de Witte"], desc: "Vision Open Air rouvre la saison électronique milanaise dans les anciens abattoirs du viale Molise, avec Charlotte de Witte en tête d'affiche. Six heures de techno en plein air dans une friche industrielle du sud-est de la ville.", descEn: "Vision Open Air reopens Milan's electronic season inside the former slaughterhouse on Viale Molise, with Charlotte de Witte headlining. Six hours of open-air techno in an industrial wasteland southeast of the city.", priceNote: "unknown" },
-  { id: 533, title: "Fuse: Hadone curates with Nørbak & Tauceti", type: "Club", genres: ["Hard Techno", "Techno"], city: "Brussels", country: "Belgium", lat: 50.8362, lng: 4.3436, date: "2026-09-05", time: "23:00 - 07:00", price: 20, currency: "€", venue: "Fuse", trending: false, lineup: ["Hadone", "Nørbak", "Tauceti", "LaDetail"], desc: "Le Français Hadone compose sa propre soirée au Fuse et invite le Portugais Nørbak et l'Italien Tauceti. Techno dure et rapide dans l'ancien cinéma bruxellois.", descEn: "France's Hadone curates his own night at Fuse and invites Portugal's Nørbak and Italy's Tauceti. Hard, fast techno in the old Brussels cinema.", priceNote: "estimated" },
   { id: 534, title: "Index: HorsegiirL", type: "Club", genres: ["House", "Techno"], city: "Dublin", country: "Ireland", lat: 53.3487, lng: -6.262, date: "2026-09-05", time: "22:00 - 03:00", price: 20, currency: "€", venue: "Index", trending: false, lineup: ["HorsegiirL"], desc: "HorsegiirL, la DJ masquée berlinoise devenue phénomène en deux ans, débarque à l'Index Dublin. Cinq heures de house rapide et de rave joyeuse au cœur de la ville.", descEn: "HorsegiirL, the masked Berlin DJ who became a phenomenon in two years, lands at Index Dublin. Five hours of fast house and joyful rave in the heart of the city.", priceNote: "estimated" },
   { id: 535, title: "Shelter: Ryan Elliott b2b Pancratio", type: "Club", genres: ["Techno", "House"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-09-05", time: "23:00 - 06:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: ["Ryan Elliott", "Pancratio", "Naomi"], desc: "L'Américain Ryan Elliott, résident de longue date du Berghain, joue en b2b avec Pancratio au Shelter. Techno et house lentes sous la tour A'DAM jusqu'au matin.", descEn: "American Ryan Elliott, a long-time Berghain resident, plays b2b with Pancratio at Shelter. Slow techno and house under the A'DAM Tower until morning.", priceNote: "estimated" },
   { id: 536, title: "I-Days Milano: David Guetta", type: "Festival", genres: ["EDM", "House"], city: "Milan", country: "Italy", lat: 45.4787, lng: 9.1258, date: "2026-09-06", time: "18:00 - 00:00", price: 0, currency: "€", venue: "Ippodromo Snai San Siro", trending: false, lineup: ["David Guetta"], desc: "Unique date italienne du Monolith Tour de David Guetta, sur la pelouse de l'hippodrome SNAI San Siro dans le cadre des I-Days Milano. Un format grand public — house festive, EDM et gros écrans — sur l'un des rares sites milanais capables d'accueillir des dizaines de milliers de personnes.", descEn: "The only Italian date of David Guetta's Monolith Tour, on the lawn of the SNAI San Siro racecourse as part of I-Days Milano. A mainstream format — party house, EDM and big screens — on one of the few Milan sites able to hold tens of thousands.", priceNote: "unknown" },
@@ -555,7 +545,6 @@ export const EVENTS: RaveEvent[] = [
   { id: 544, title: "Actress M b2b Moodfino + Kendal + Malago", type: "Club", genres: ["Trance", "House"], city: "Grenoble", country: "France", region: "Isère", lat: 45.1913, lng: 5.7135, date: "2026-09-12", time: "23:55 - 05:30", price: 13, currency: "€", venue: "La Belle Électrique", trending: false, lineup: ["Actress M", "Moodfino", "Kendal", "Malago"], desc: "Ouverture de saison des Nuits de La Belle Électrique avec Kendal, fondateur du label Ritmo Fatale, dont les sets oscillent entre italo-disco, EBM et trance. Il joue aux côtés d'artistes grenoblois, de minuit à 5h30. Interdit aux moins de 18 ans.", descEn: "Season opener for La Belle Électrique's club nights with Kendal, founder of the Ritmo Fatale label, whose sets swing between italo-disco, EBM and trance. He plays alongside Grenoble artists, from midnight to 5:30am. Strictly 18+." },
   { id: 545, title: "Faithless", type: "Club", genres: ["House", "Trance"], city: "Helsinki", country: "Finland", lat: 60.162, lng: 24.8975, date: "2026-09-12", time: "20:00 - 01:00", price: 0, currency: "€", venue: "Merikaapelihalli", trending: false, lineup: ["Faithless", "Chicane", "Orkidea"], desc: "Faithless joue au Merikaapelihalli d'Helsinki, avec Chicane et le Finlandais Orkidea en première partie. « Insomnia », « God Is a DJ » et trente ans de house britannique dans la halle de la Kaapelitehdas.", descEn: "Faithless play Helsinki's Merikaapelihalli, with Chicane and Finland's Orkidea opening. Insomnia, God Is a DJ and thirty years of British house inside the Cable Factory hall.", priceNote: "unknown" },
   { id: 546, title: "Shelter: Traumer b2b Janeret", type: "Club", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-09-12", time: "23:00 - 06:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: ["Traumer", "Janeret", "Andrew Azara"], desc: "Deux figures de la house minimale française, Traumer et Janeret, en b2b au Shelter d'Amsterdam. Sept heures de groove sec dans le sous-sol de la tour A'DAM.", descEn: "Two figures of French minimal house, Traumer and Janeret, go b2b at Amsterdam's Shelter. Seven hours of dry groove in the A'DAM Tower basement.", priceNote: "estimated" },
-  { id: 547, title: "Thuishaven: Menesix 10HRS", type: "Club", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.4008, lng: 4.8395, date: "2026-09-13", time: "13:00 - 23:00", price: 29.5, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Menesix"], desc: "Format signature du Thuishaven : un seul artiste, dix heures de set. Menesix tient les platines de 13h à 23h sur le terrain du port ouest d'Amsterdam.", descEn: "Thuishaven's signature format: one artist, a ten-hour set. Menesix holds the decks from 13:00 to 23:00 on the Amsterdam western harbour site." },
   { id: 548, title: "Tama Season Opening", type: "Club", genres: ["Techno"], city: "Poznań", country: "Poland", lat: 52.4025, lng: 16.9223, date: "2026-09-18", time: "23:00 - 06:00", price: 0, currency: "zł", venue: "Tama", trending: false, lineup: ["Genesi", "Plus2", "Sick"], desc: "Le Tama rouvre sa saison après l'été open air : Genesi, Plus2 et Sick lancent la rentrée techno dans l'ancienne salle de bal de la chambre des métiers de Poznań. Portes à 23h.", descEn: "Tama reopens its indoor season after a summer of open airs: Genesi, Plus2 and Sick launch the techno term inside the old ballroom of Poznań's chamber of crafts. Doors at 11pm.", priceNote: "unknown" },
   { id: 549, title: "Infected Mushroom", type: "Club", genres: ["Psytrance"], city: "Oslo", country: "Norway", lat: 59.9169, lng: 10.7477, date: "2026-09-18", time: "20:00 - 23:30", price: 0, currency: "kr", venue: "Sentrum Scene", trending: false, lineup: ["Infected Mushroom"], desc: "Le duo israélien Infected Mushroom, référence mondiale de la psytrance depuis la fin des années 1990, joue à la Sentrum Scene d'Oslo. Un set qui mélange psytrance, breaks et guitares, dans la plus grande salle de concert du centre-ville.", descEn: "Israeli duo Infected Mushroom, a global psytrance reference since the late 1990s, play Oslo's Sentrum Scene. A set that mixes psytrance, breaks and guitars in the city centre's largest concert hall.", priceNote: "unknown" },
   { id: 550, title: "Fuse: SESH with Clara Cuvé & PETERBLUE", type: "Club", genres: ["Techno", "Hard Techno"], city: "Brussels", country: "Belgium", lat: 50.8362, lng: 4.3436, date: "2026-09-18", time: "23:00 - 07:00", price: 20, currency: "€", venue: "Fuse", trending: false, lineup: ["Clara Cuvé", "PETERBLUE", "JEKKAMAÏ", "Holiness"], desc: "La série SESH du Fuse réunit la Berlinoise Clara Cuvé et le Belge PETERBLUE pour une nuit de techno tendue. Le club des Marolles tourne jusqu'à 7h.", descEn: "Fuse's SESH series brings together Berlin's Clara Cuvé and Belgium's PETERBLUE for a night of taut techno. The Marolles club runs until 07:00.", priceNote: "estimated" },
@@ -570,7 +559,6 @@ export const EVENTS: RaveEvent[] = [
   { id: 559, title: "Andy C & MC Tonn Piper au Roxy", type: "Club", genres: ["Drum & Bass"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-09-26", time: "22:00 - 06:00", price: 550, currency: "Kč", venue: "Roxy", trending: false, lineup: ["Andy C", "MC Tonn Piper"], desc: "Andy C revient à Prague après deux ans d'absence, accompagné de MC Tonn Piper : dubplates, hymnes et transitions à triple deck sur la sono du Roxy. Portes à 22h, premiers billets à 550 Kč.", descEn: "Andy C returns to Prague after a two-year gap, joined by MC Tonn Piper: dubplates, anthems and triple-deck mixing on the Roxy system. Doors at 10pm, first tickets 550 CZK." },
   { id: 560, title: "YN x BCCO Club Night", type: "Club", genres: ["Hard Techno", "Techno"], city: "Vienna", country: "Austria", lat: 48.2344, lng: 16.3611, date: "2026-09-26", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Grelle Forelle", trending: false, lineup: ["A-Z", "Fenimore", "Future.666", "FX-31", "Juan Caballo", "Karolina", "Mia Mia", "Sarica", "Static Bloom", "Groove Raiderz"], desc: "Le collectif viennois YN s'associe au label barcelonais BCCO pour une nuit de techno rapide à la Grelle Forelle, avec un live de Static Bloom. La Kitchen est confiée aux Munichois de Groove Raiderz.", descEn: "Vienna's YN crew team up with Barcelona label BCCO for a night of fast techno at Grelle Forelle, including a live set from Static Bloom. Munich's Groove Raiderz take over the Kitchen.", priceNote: "unknown" },
   { id: 561, title: "Boston Bun au Stockfish", type: "Club", genres: ["House"], city: "Nice", country: "France", region: "Alpes-Maritimes", lat: 43.7102, lng: 7.262, date: "2026-09-26", time: "20:00 - 02:00", price: 0, currency: "€", venue: "Stockfish", trending: false, lineup: ["Boston Bun"], desc: "Le producteur français Boston Bun pose son set house au Stockfish, la salle de musiques actuelles du quartier Vauban à Nice. Un rendez-vous électro de haute volée dans une programmation d'automne qui alterne électro, rock et métal.", descEn: "French producer Boston Bun brings his house set to Stockfish, the live music venue in Nice's Vauban district. A high-calibre electronic night within an autumn programme that alternates electronic music, rock and metal.", priceNote: "unknown" },
-  { id: 562, title: "Club de Jour invite Guts", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-09-26", time: "19:00 - 00:00", price: 25, currency: "€", venue: "Warehouse", trending: false, lineup: ["Guts"], desc: "Le Club de Jour du Warehouse déplace la fête avant la nuit : de 19h à minuit dans le Hangar à Bananes, avec le producteur Guts aux platines pour un set house et électro. Une formule pour danser sans y laisser le lendemain.", descEn: "Warehouse's Club de Jour moves the party ahead of the night: 7pm to midnight in the Hangar à Bananes, with producer Guts behind the decks for a house and electronic set. A format for dancing without losing the next day.", priceNote: "estimated" },
   { id: 563, title: "Lee Burridge à La Cabane", type: "Club", genres: ["House"], city: "Toulouse", country: "France", region: "Haute-Garonne", lat: 43.6006, lng: 1.4082, date: "2026-09-26", time: "21:30 - 04:00", price: 0, currency: "€", venue: "La Cabane - Les Halles de la Cartoucherie", trending: false, lineup: ["Lee Burridge"], desc: "Le Britannique Lee Burridge, fondateur du label All Day I Dream, mène une soirée house organique et mélodique à La Cabane des Halles de la Cartoucherie. C'est l'une des cinq dates 2026 co-produites avec le collectif After Now, qui soigne autant le son que la lumière.", descEn: "Britain's Lee Burridge, founder of the All Day I Dream label, leads a night of organic, melodic house at La Cabane inside Les Halles de la Cartoucherie. One of five 2026 dates co-produced with the After Now collective, which puts as much care into the lighting as the sound.", priceNote: "unknown" },
   { id: 564, title: "Guy Gerber", type: "Club", genres: ["House", "Techno"], city: "Barcelona", country: "Spain", lat: 41.369, lng: 2.1478, date: "2026-09-26", time: "00:00 - 06:00", price: 0, currency: "€", venue: "La Terrrazza", trending: false, lineup: ["Guy Gerber"], desc: "Guy Gerber joue à La Terrrazza, le club en plein air du Poble Espanyol sur les flancs de Montjuïc. L'Israélien y déroule sa house hypnotique sous les arcades, dans l'un des rares lieux de Barcelone où l'on danse à ciel ouvert jusqu'au lever du jour.", descEn: "Guy Gerber plays La Terrrazza, the open-air club inside Poble Espanyol on the slopes of Montjuïc. The Israeli producer runs his hypnotic house under the arcades, in one of the few Barcelona spots where you dance under open sky until daybreak.", priceNote: "unknown" },
   { id: 565, title: "Shelter: Archie Hamilton", type: "Club", genres: ["House"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-09-26", time: "23:00 - 06:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: ["Archie Hamilton", "DXNBY", "Jhobei"], desc: "Le Britannique Archie Hamilton, patron du label Moscow Records, ferme le mois de septembre au Shelter avec DXNBY et Jhobei. House minimale jusqu'à 6h.", descEn: "Britain's Archie Hamilton, head of Moscow Records, closes September at Shelter with DXNBY and Jhobei. Minimal house until 06:00.", priceNote: "estimated" },
@@ -584,19 +572,16 @@ export const EVENTS: RaveEvent[] = [
   { id: 573, title: "Warehouse 9 ans avec Bob Sinclar", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-10-02", time: "23:59 - 06:30", price: 25.99, currency: "€", venue: "Warehouse", trending: true, lineup: ["Bob Sinclar", "Quentin Schneider", "Dan Bono", "Colette", "Corentin Mab", "Eliasz", "Verdun", "Kaa", "DJ Mass", "Tony Moya", "Mate", "Noless", "Mykana"], desc: "Le Warehouse fête ses neuf ans avec Bob Sinclar, co-fondateur du label Yellow Productions et fidèle du club depuis 2018. Deux salles : house et afro house en room 1, résidence Solea en room 2. Le club est classé 53e mondial et 2e français par DJ Mag 2026.", descEn: "Warehouse turns nine with Bob Sinclar, co-founder of Yellow Productions and a regular at the club since 2018. Two rooms: house and afro house in room 1, the Solea residency in room 2. DJ Mag 2026 ranks the club 53rd worldwide and 2nd in France." },
   { id: 574, title: "Calvin Harris Closing Party", type: "Club", genres: ["EDM", "House"], city: "Ibiza", country: "Spain", lat: 38.8843, lng: 1.4082, date: "2026-10-02", time: "17:00 - 23:00", price: 0, currency: "€", venue: "Ushuaïa Ibiza", trending: false, lineup: ["Calvin Harris", "MK", "Tyson O'Brien"], desc: "Calvin Harris termine la plus longue résidence de sa carrière sur la scène en plein air de l'Ushuaïa, face à la piscine de Platja d'en Bossa. Format jour-coucher de soleil, avec MK en invité pour la dernière du vendredi.", descEn: "Calvin Harris ends the longest residency of his career on Ushuaïa's open-air stage, facing the Platja d'en Bossa pool. A daytime-into-sunset format, with MK guesting for the final Friday.", priceNote: "unknown" },
   { id: 575, title: "Music On", type: "Club", genres: ["Techno", "House"], city: "Ibiza", country: "Spain", lat: 38.9152, lng: 1.4457, date: "2026-10-02", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Pacha", trending: false, lineup: ["Marco Carola", "Adriatique", "Mita Gami", "II Faces"], desc: "Music On, la soirée de Marco Carola, occupe le vendredi du Pacha. Le Napolitain y déroule sa tech house en sets très longs, avec Adriatique en invité pour cette date de fin de saison.", descEn: "Music On, Marco Carola's party, takes Pacha's Friday. The Neapolitan runs his tech house in very long sets, with Adriatique guesting for this end-of-season date.", priceNote: "unknown" },
-  { id: 576, title: "Folamour à Interférence", type: "Club", genres: ["House"], city: "Balma", country: "France", region: "Haute-Garonne", lat: 43.6108, lng: 1.4986, date: "2026-10-03", time: "17:00 - 23:00", price: 26.5, currency: "€", venue: "Interférence", trending: false, lineup: ["Folamour"], desc: "Le producteur lyonnais Folamour apporte sa house solaire et disco à Interférence, la salle de Balma desservie par le métro A. Son dernier album explore la guérison par la danse, entre morceaux introspectifs et montées de dancefloor.", descEn: "Lyon producer Folamour brings his sunlit house and disco to Interférence, the Balma venue served by metro line A. His latest album explores healing through dance, moving between introspective cuts and full dancefloor lifts." },
   { id: 577, title: "Bruno Bazzetti + Phase Fatale + The Hacker", type: "Club", genres: ["Techno"], city: "Grenoble", country: "France", region: "Isère", lat: 45.1913, lng: 5.7135, date: "2026-10-03", time: "23:55 - 05:30", price: 13, currency: "€", venue: "La Belle Électrique", trending: false, lineup: ["Bruno Bazzetti", "Phase Fatale", "The Hacker"], desc: "Trois générations de techno à La Belle Électrique : The Hacker, père fondateur de l'electroclash et complice de Miss Kittin ; Phase Fatale, résident du Berghain et de KHIDI ; et le Grenoblois d'adoption Bruno Bazzetti, fondateur du projet Cinétique. Interdit aux moins de 18 ans.", descEn: "Three generations of techno at La Belle Électrique: The Hacker, founding father of electroclash and Miss Kittin's long-time partner; Phase Fatale, resident at Berghain and KHIDI; and Grenoble-based Bruno Bazzetti, founder of the Cinétique project. Strictly 18+." },
   { id: 578, title: "Black Coffee Closing Party", type: "Club", genres: ["House"], city: "Ibiza", country: "Spain", lat: 38.8837, lng: 1.4093, date: "2026-10-03", time: "23:30 - 06:00", price: 0, currency: "€", venue: "Hï Ibiza", trending: false, lineup: ["Black Coffee", "Skepta", "DJeff", "Dorian Craft", "Shae Reid"], desc: "Black Coffee referme sa résidence du samedi au Hï Ibiza, à Platja d'en Bossa. Le producteur sud-africain déroule sa house profonde et afro dans la Theatre Room, avec un DJ set de Skepta en invité pour la dernière.", descEn: "Black Coffee closes his Saturday residency at Hï Ibiza on Platja d'en Bossa. The South African producer runs his deep, Afro-leaning house in the Theatre Room, with a Skepta DJ set as guest for the finale.", priceNote: "unknown" },
   { id: 579, title: "elrow Ibiza Closing Party", type: "Club", genres: ["Techno", "House"], city: "Ibiza", country: "Spain", lat: 38.9578, lng: 1.4318, date: "2026-10-03", time: "23:30 - 06:00", price: 0, currency: "€", venue: "UNVRS", trending: false, lineup: ["Paco Osuna", "Ilario Alicante", "Chelina Manuhutu", "Tini Gessler", "AAT"], desc: "elrow clôt sa saison à UNVRS sur le thème « Dance With The Serpent », avec la scénographie carnavalesque et les confettis qui font sa signature. Paco Osuna et Ilario Alicante tiennent la partie techno, Chelina Manuhutu et Tini Gessler la partie house.", descEn: "elrow closes its season at UNVRS under the Dance With The Serpent theme, with the carnival staging and confetti that are its signature. Paco Osuna and Ilario Alicante hold down the techno side, Chelina Manuhutu and Tini Gessler the house one.", priceNote: "unknown" },
   { id: 580, title: "ANTS", type: "Club", genres: ["House", "Techno"], city: "Ibiza", country: "Spain", lat: 38.8843, lng: 1.4082, date: "2026-10-03", time: "15:00 - 23:00", price: 0, currency: "€", venue: "Ushuaïa Ibiza", trending: false, lineup: ["Franky Rizardo", "Nic Fanciulli", "Sosa", "Bontan", "Ranger Trucco", "Robbie Doherty"], desc: "ANTS, la colonie du samedi après-midi à l'Ushuaïa, aligne huit heures de house et de techno en plein jour autour de la piscine. Franky Rizardo et un back-to-back Nic Fanciulli / Sosa pour cette date d'octobre.", descEn: "ANTS, the Saturday afternoon colony at Ushuaïa, runs eight hours of house and techno in broad daylight around the pool. Franky Rizardo and a Nic Fanciulli / Sosa back-to-back headline this October date.", priceNote: "unknown" },
   { id: 581, title: "Carl Cox Closing Party", type: "Club", genres: ["Techno"], city: "Ibiza", country: "Spain", lat: 38.9578, lng: 1.4318, date: "2026-10-04", time: "23:30 - 06:00", price: 0, currency: "€", venue: "UNVRS", trending: true, lineup: ["Carl Cox", "Wild Comet", "Melon Bomb"], desc: "Carl Cox referme sa saison à UNVRS, l'immense club ouvert en 2025 sur l'ancien site du Privilege à San Rafael. Un set « all night long » du vétéran de la techno, précédé par Wild Comet et Melon Bomb — le genre de nuit qui clôt l'été ibicenco.", descEn: "Carl Cox closes out his season at UNVRS, the huge club that opened in 2025 on the old Privilege site in San Rafael. An all-night-long set from the techno veteran, with Wild Comet and Melon Bomb before him — the kind of night that ends an Ibiza summer.", priceNote: "unknown" },
-  { id: 582, title: "Pyramid Closing Party", type: "Club", genres: ["Techno", "House"], city: "Ibiza", country: "Spain", lat: 38.9553, lng: 1.4363, date: "2026-10-04", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Amnesia", trending: true, lineup: ["Ricardo Villalobos", "Raresh", "Franco Cinelli", "Seth Troxler", "Shanti Celeste", "Nina Kraviz", "Mar-T", "Adrián Mills"], desc: "La closing de Pyramid, la soirée maison d'Amnesia, aligne un back-to-back Villalobos / Raresh / Franco Cinelli et fait tourner Seth Troxler, Shanti Celeste et Nina Kraviz dans les deux salles. Le minimal roumain et la techno de club jusqu'au matin dans le club de San Rafael.", descEn: "Pyramid's closing, Amnesia's own night, lines up a Villalobos / Raresh / Franco Cinelli back-to-back and puts Seth Troxler, Shanti Celeste and Nina Kraviz across both rooms. Romanian minimal and club techno until morning in the San Rafael club.", priceNote: "unknown" },
   { id: 583, title: "Mecanik Paradize", type: "Festival", genres: ["Techno", "House"], city: "Toulouse", country: "France", region: "Haute-Garonne", lat: 43.5773, lng: 1.4847, date: "2026-10-08", endDate: "2026-10-11", time: "18:00 - 23:00", price: 0, currency: "€", venue: "La Halle de la Machine", trending: true, lineup: ["Paul Kalkbrenner", "Christoph", "DeLaurentis", "Purple Disco Machine", "Selah Sue"], desc: "Clôture du Pink Paradize dans la Halle de la Machine de Toulouse, où la scénographie de François Delarozière — Minotaure, araignées géantes, tempête de neige et effets de feu — sert de décor aux têtes d'affiche. Paul Kalkbrenner y joue le vendredi 9 octobre, Purple Disco Machine la veille.", descEn: "The closing act of Pink Paradize inside Toulouse's Halle de la Machine, where François Delarozière's stagecraft — a Minotaur, giant spiders, a snowstorm and fire effects — frames the headliners. Paul Kalkbrenner plays Friday 9 October, Purple Disco Machine the night before.", priceNote: "unknown" },
   { id: 584, title: "Kosheen", type: "Club", genres: ["Drum & Bass"], city: "Zagreb", country: "Croatia", lat: 45.8145, lng: 15.9905, date: "2026-10-08", time: "21:00 - 01:00", price: 0, currency: "€", venue: "Tvornica Kulture", trending: false, lineup: ["Kosheen"], desc: "Kosheen ramène sa drum & bass chantée à la Tvornica Kulture de Zagreb. Le groupe de Bristol, formé à la fin des années 1990, reste l'un des rares à avoir fait passer le genre en format chanson sans le vider de sa basse.", descEn: "Kosheen bring their sung drum & bass back to Zagreb's Tvornica Kulture. The Bristol group, formed in the late 1990s, remains one of the few to have carried the genre into song format without draining its bass.", priceNote: "unknown" },
   { id: 585, title: "Blacklist Festival", type: "Festival", genres: ["Drum & Bass"], city: "Oberhausen", country: "Germany", lat: 51.4836, lng: 6.8669, date: "2026-10-09", endDate: "2026-10-10", time: "18:00 - 06:00", price: 0, currency: "€", venue: "Turbinenhalle Oberhausen", trending: false, lineup: ["A.M.C", "Akirah", "Autodrive", "Autopski", "Blanke", "Burr Oak", "DJ Mii"], desc: "Le Blacklist Festival occupe la Turbinenhalle d'Oberhausen une nuit entière, de 18h à 6h du matin, pour un marathon drum & bass et dubstep. A.M.C, Blanke et Burr Oak figurent parmi les premiers noms annoncés, la programmation restant complétée jusqu'au dernier moment.", descEn: "Blacklist Festival takes over Oberhausen's Turbinenhalle for a full night, 6pm to 6am, of drum & bass and dubstep. A.M.C, Blanke and Burr Oak are among the first names confirmed, with more still to be announced.", priceNote: "unknown" },
   { id: 586, title: "Chris Avantgarde au Tama", type: "Club", genres: ["Techno"], city: "Poznań", country: "Poland", lat: 52.4025, lng: 16.9223, date: "2026-10-09", time: "23:00 - 06:00", price: 0, currency: "zł", venue: "Tama", trending: false, lineup: ["Chris Avantgarde"], desc: "L'Allemand Chris Avantgarde apporte son techno mélodique et ses productions pour Afterlife au club Tama de Poznań. Une nuit à partir de 23h dans la grande salle parquetée.", descEn: "Germany's Chris Avantgarde brings his melodic techno and Afterlife-era productions to Poznań's Tama. The night starts at 11pm in the club's big parquet hall.", priceNote: "unknown" },
   { id: 587, title: "Autechre à Cukrarna", type: "Club", genres: ["Techno"], city: "Ljubljana", country: "Slovenia", lat: 46.05, lng: 14.5198, date: "2026-10-09", time: "20:00 - 00:00", price: 0, currency: "€", venue: "Cukrarna", trending: false, lineup: ["Autechre"], desc: "Autechre pose sa tournée 2026 à Cukrarna, l'ancienne raffinerie de sucre de Ljubljana reconvertie en centre d'art. Un concert joué dans l'obscurité totale, comme le veut le protocole du duo de Warp.", descEn: "Autechre bring their 2026 tour to Cukrarna, Ljubljana's former sugar refinery turned art centre. The show is played in complete darkness, as the Warp duo always insist.", priceNote: "unknown" },
-  { id: 588, title: "Nantes Rave Techno XXL w/ Novah", type: "Club", genres: ["Hardstyle", "Hard Techno", "Trance"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-10-09", time: "23:55 - 06:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["Novah", "Matrakk", "Maudux", "DJ Caline", "Mosmoz", "Oxmoze", "Bibi", "A.N.Z", "Lossia", "Vaï", "Nemesys", "Venehing", "Lez", "Azuur", "März"], desc: "Trois salles de hard dance au Warehouse, menées par la Belge Novah, révélation portée par le succès de « Papi » sur Tomorrowland Music. Hard house, rave, bounce et trance s'enchaînent en B2B jusqu'au petit matin. Interdit aux moins de 18 ans.", descEn: "Three rooms of hard dance at Warehouse, led by Belgian breakout Novah, carried by the success of \"Papi\" on Tomorrowland Music. Hard house, rave, bounce and trance run back-to-back until dawn. Strictly 18+.", priceNote: "unknown" },
   { id: 589, title: "Glitterbox Closing Party", type: "Club", genres: ["House"], city: "Ibiza", country: "Spain", lat: 38.9553, lng: 1.4363, date: "2026-10-09", time: "23:00 - 06:00", price: 70, currency: "€", venue: "Amnesia", trending: false, lineup: ["Dimitri From Paris", "Masters At Work", "HoneyLuv", "Jorja Smith", "Natasha Diggs", "Melvo Baptiste"], desc: "Glitterbox pose sa closing à Amnesia, où la soirée disco-house a déménagé en 2026. Masters At Work, Dimitri From Paris et un live de Jorja Smith pour une nuit de house vocale, de disco et de performances — la version la plus festive de la fin de saison ibicenque.", descEn: "Glitterbox holds its closing at Amnesia, the party's new home since 2026. Masters At Work, Dimitri From Paris and a live set from Jorja Smith for a night of vocal house, disco and performance — the most joyful reading of the Ibiza season's end." },
   { id: 590, title: "Frædag: Octave One", type: "Club", genres: ["Techno"], city: "Oslo", country: "Norway", lat: 59.9134, lng: 10.7425, date: "2026-10-09", time: "23:00 - 03:30", price: 0, currency: "kr", venue: "Jaeger", trending: false, lineup: ["Octave One", "g-HA & Olanskii"], desc: "Les frères Burden, alias Octave One, montent leur live au Jaeger : machines empilées, séquences jouées en direct et techno de Detroit dans sa version la plus organique. Une des rares dates live du calendrier électronique d'Oslo.", descEn: "The Burden brothers, aka Octave One, bring their live rig to Jaeger: stacked machines, sequences played in real time and Detroit techno at its most organic. One of the few live dates on Oslo's electronic calendar.", priceNote: "unknown" },
   { id: 591, title: "SWG3: The Rocketman All Night Long", type: "Club", genres: ["Trance"], city: "Glasgow", country: "UK", lat: 55.8637, lng: -4.2951, date: "2026-10-09", time: "23:00 - 03:00", price: 22, currency: "£", venue: "SWG3 Warehouse", trending: false, lineup: ["The Rocketman"], desc: "L'Écossais The Rocketman tient seul les platines toute la nuit dans le hangar du SWG3. Trance et hard dance, le son qui a fait les raves de la vallée de la Clyde.", descEn: "Scotland's The Rocketman holds the decks alone all night in the SWG3 warehouse. Trance and hard dance, the sound that built Clyde valley raves.", priceNote: "estimated" },
@@ -607,10 +592,8 @@ export const EVENTS: RaveEvent[] = [
   { id: 596, title: "CamelPhat au Roxy", type: "Club", genres: ["House", "Techno"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-10-16", time: "23:00 - 06:00", price: 790, currency: "Kč", venue: "Roxy", trending: false, lineup: ["CamelPhat"], desc: "Le duo de Liverpool CamelPhat pose son concept Experience au Roxy : house progressive, techno mélodique et incursions afro house. Ouverture à 23h, early birds à 790 Kč.", descEn: "Liverpool duo CamelPhat bring their Experience show to Roxy: progressive house, melodic techno and afro house detours. Doors 11pm, early birds 790 CZK." },
   { id: 597, title: "Pegassi au Tama", type: "Club", genres: ["Hard Techno"], city: "Poznań", country: "Poland", lat: 52.4025, lng: 16.9223, date: "2026-10-16", time: "23:30 - 06:00", price: 0, currency: "zł", venue: "Tama", trending: false, lineup: ["Pegassi"], desc: "Le Belge Pegassi passe par Poznań le lendemain de sa date pragoise, avec le même hard techno frontal. Portes à 23h30 au Tama.", descEn: "Belgium's Pegassi stops in Poznań the day before his Prague date, with the same head-on hard techno. Doors at 11:30pm at Tama.", priceNote: "unknown" },
   { id: 598, title: "AkvaWaves invite Ely Oaks", type: "Club", genres: ["Hard Techno", "Techno"], city: "Budapest", country: "Hungary", lat: 47.4987, lng: 19.0542, date: "2026-10-16", time: "23:00 - 05:00", price: 0, currency: "€", venue: "Akvárium Klub", trending: false, lineup: ["Ely Oaks"], desc: "La série AkvaWaves invite Ely Oaks pour un set 360° dans la grande salle de l'Akvárium Klub, sous la place Deák à Budapest. Une nuit de hard techno au centre exact de la ville.", descEn: "The AkvaWaves series brings Ely Oaks in for a 360° set in the main hall of Akvárium Klub, under Deák Square in Budapest. A hard techno night at the dead centre of the city.", priceNote: "unknown" },
-  { id: 599, title: "Pandemic w/ Vortek's", type: "Club", genres: ["Hardcore", "Hard Techno"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-10-16", time: "23:55 - 06:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["Vortek's", "Dr Donk", "Noiseflow", "Kruella", "Pa//ra", "Nemesys"], desc: "Pandemic revient au Warehouse de Nantes avec un line-up survolté mené par Vortek's, pendant que le collectif Track Night tient la room 2. Hardcore et hard techno du début à la fin. Interdit aux moins de 18 ans.", descEn: "Pandemic returns to Nantes' Warehouse with a high-voltage line-up led by Vortek's, while the Track Night collective runs room 2. Hardcore and hard techno from start to finish. Strictly 18+.", priceNote: "unknown" },
   { id: 600, title: "La P'tite Fumée à la Rock School Barbey", type: "Club", genres: ["Psytrance", "Trance"], city: "Bordeaux", country: "France", region: "Gironde", lat: 44.8288, lng: -0.5595, date: "2026-10-16", time: "20:30 - 23:30", price: 29.2, currency: "€", venue: "Rock School Barbey", trending: false, lineup: ["La P'tite Fumée"], desc: "Didgeridoo, flûte et percussions branchés sur l'électronique : le groupe formé en Ariège en 2013 défend à la Rock School Barbey un live entièrement réinventé, où les lignes de chant rejoignent les rythmiques incisives de leur natural trance.", descEn: "Didgeridoo, flute and percussion plugged into electronics: the band formed in Ariège in 2013 bring a fully reinvented live show to Rock School Barbey, where vocal lines join the incisive rhythms of their natural trance." },
   { id: 601, title: "Laidback Luke", type: "Club", genres: ["House", "EDM"], city: "Oslo", country: "Norway", lat: 59.9235, lng: 10.7513, date: "2026-10-16", time: "22:00 - 03:00", price: 0, currency: "kr", venue: "Vulkan Arena", trending: false, lineup: ["Laidback Luke"], desc: "Laidback Luke, pilier néerlandais de la house et de l'électro depuis vingt-cinq ans, passe par la Vulkan Arena. Un set nerveux, entre house festive et grosse électro, dans une salle d'un millier de places au bord de l'Akerselva.", descEn: "Laidback Luke, a Dutch mainstay of house and electro for twenty-five years, stops at Vulkan Arena. A high-energy set between party house and big-room electro in a thousand-capacity room by the Akerselva.", priceNote: "unknown" },
-  { id: 602, title: "The Warehouse Project x Teletech: doof – Hannah Laing", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Manchester", country: "UK", lat: 53.4766, lng: -2.229, date: "2026-10-16", time: "20:00 - 04:00", price: 35, currency: "£", venue: "Depot Mayfield", trending: false, lineup: ["Hannah Laing"], desc: "Le label doof de l'Écossaise Hannah Laing s'associe à Teletech pour une nuit de hard techno au Warehouse Project. Huit heures dans le hangar de Depot Mayfield, de 20h à 4h.", descEn: "Scottish DJ Hannah Laing brings her doof label together with Teletech for a night of hard techno at The Warehouse Project. Eight hours inside the Depot Mayfield shed, 20:00 to 04:00." },
   { id: 603, title: "Pegassi au Roxy", type: "Club", genres: ["Hard Techno"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-10-17", time: "23:00 - 06:00", price: 390, currency: "Kč", venue: "Roxy", trending: false, lineup: ["Pegassi", "Paul Krist", "Dan Haward"], desc: "Le Belge Pegassi amène son hard techno au Roxy, épaulé par Paul Krist et Dan Haward. Une nuit à tempo élevé qui démarre à 23h, avec des billets à partir de 390 Kč.", descEn: "Belgium's Pegassi brings his hard techno to Roxy, backed by Paul Krist and Dan Haward. A high-tempo night starting at 11pm, tickets from 390 CZK." },
   { id: 604, title: "Sub Zero Project au Tama", type: "Club", genres: ["Hardstyle"], city: "Poznań", country: "Poland", lat: 52.4025, lng: 16.9223, date: "2026-10-17", time: "23:00 - 06:00", price: 0, currency: "zł", venue: "Tama", trending: false, lineup: ["Sub Zero Project"], desc: "Le duo néerlandais Sub Zero Project amène son raw hardstyle au Tama de Poznań, rare passage en club pour un projet habitué aux grandes scènes de festival. Ouverture à 23h.", descEn: "Dutch duo Sub Zero Project bring their raw hardstyle to Poznań's Tama, a rare club date for an act more used to festival main stages. Doors at 11pm.", priceNote: "unknown" },
   { id: 605, title: "Marcel Dettmann", type: "Warehouse", genres: ["Techno"], city: "Barcelona", country: "Spain", lat: 41.399, lng: 2.181, date: "2026-10-17", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Plaza de Toros la Monumental", trending: true, lineup: ["Marcel Dettmann"], desc: "Marcel Dettmann, résident historique du Berghain, joue dans les arènes de la Monumental à Barcelone — une plaza de toros désaffectée reconvertie en salle d'événements. Techno de Berlin, sèche et métallique, sous les gradins de brique.", descEn: "Marcel Dettmann, a long-standing Berghain resident, plays inside Barcelona's Monumental — a disused bullring turned event space. Dry, metallic Berlin techno under the brick tiers.", priceNote: "unknown" },
@@ -628,39 +611,26 @@ export const EVENTS: RaveEvent[] = [
   { id: 617, title: "Shelter ADE: Brighter Days x Life and Death", type: "Club", genres: ["House", "Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.3841, lng: 4.9022, date: "2026-10-24", time: "23:30 - 07:00", price: 20, currency: "€", venue: "Shelter", trending: false, lineup: [], desc: "Deux marques cultes, la néerlandaise Brighter Days et l'italienne Life and Death, s'associent au Shelter pour le samedi de l'Amsterdam Dance Event. Sept heures et demie jusqu'au lever du jour.", descEn: "Two cult brands, Dutch Brighter Days and Italian Life and Death, join forces at Shelter for the Saturday of Amsterdam Dance Event. Seven and a half hours until daybreak.", priceNote: "estimated" },
   { id: 618, title: "Adrián Mills au Roxy", type: "Club", genres: ["Hard Techno"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-10-27", time: "23:00 - 06:00", price: 550, currency: "Kč", venue: "Roxy", trending: false, lineup: ["Adrián Mills"], desc: "L'Espagnol Adrián Mills, l'un des noms montants du hard dance, tient le Roxy un mardi soir : drops massifs, tempos extrêmes et montées euphoriques. Billets dès 550 Kč.", descEn: "Spain's Adrián Mills, one of the rising names in hard dance, takes Roxy on a Tuesday night: heavy drops, extreme tempos and euphoric build-ups. Tickets from 550 CZK." },
   { id: 619, title: "La P'tite Fumée à La Belle Électrique", type: "Club", genres: ["Psytrance", "Trance"], city: "Grenoble", country: "France", region: "Isère", lat: 45.1913, lng: 5.7135, date: "2026-10-30", time: "20:00 - 23:30", price: 0, currency: "€", venue: "La Belle Électrique", trending: false, lineup: ["La P'tite Fumée"], desc: "La P'tite Fumée dans la grande salle de La Belle Électrique, la veille d'Halloween : trance instrumentale et psytrance jouées sur instruments acoustiques et machines, dans une salle grenobloise taillée pour les basses.", descEn: "La P'tite Fumée in La Belle Électrique's main room, the night before Halloween: instrumental trance and psytrance played on acoustic instruments and machines, in a Grenoble venue built for bass.", priceNote: "unknown" },
-  { id: 620, title: "The Warehouse Project: Overmono", type: "Warehouse", genres: ["Techno", "House", "Drum & Bass"], city: "Manchester", country: "UK", lat: 53.4766, lng: -2.229, date: "2026-10-30", time: "20:00 - 04:00", price: 40, currency: "£", venue: "Depot Mayfield", trending: true, lineup: ["Overmono", "James Blake", "Joy Orbison", "Andy C", "Moodymann", "Blawan", "Helena Hauff", "DJ Bone", "Aurora Halal", "Ash Lauryn", "Lee Gamble", "Nkisi", "Space Afrika", "Blackhaine"], desc: "Le duo gallois Overmono investit les trois salles de Depot Mayfield avec l'un des plus gros plateaux de la saison : un b2b James Blake / Joy Orbison, Moodymann, Blawan, Helena Hauff b2b DJ Bone et un set surprise d'Andy C.", descEn: "Welsh duo Overmono take over all three Depot Mayfield rooms for one of the season's biggest bills: a James Blake b2b Joy Orbison set, Moodymann, Blawan, Helena Hauff b2b DJ Bone and a special guest set from Andy C.", priceNote: "estimated" },
   { id: 621, title: "Hilight Tribe - Halloween Instrumental", type: "Club", genres: ["Psytrance", "Trance"], city: "Toulouse", country: "France", region: "Haute-Garonne", lat: 43.6006, lng: 1.4082, date: "2026-10-31", endDate: "2026-11-01", time: "20:30 - 04:00", price: 29, currency: "€", venue: "La Cabane - Les Halles de la Cartoucherie", trending: false, lineup: ["Hilight Tribe", "I Roots", "Bandi!", "Spoink", "Roots Zombie", "Luneris", "Scientyfreaks"], desc: "Deux soirées Halloween aux Halles de la Cartoucherie avec Hilight Tribe, inventeurs de la « natural trance » jouée uniquement sur instruments acoustiques et traditionnels — didgeridoo, sitar, percussions tribales. Le 31 octobre avec I Roots, Bandi! et Spoink ; le 1er novembre avec Roots Zombie, Luneris et Scientyfreaks.", descEn: "Two Halloween nights at Les Halles de la Cartoucherie with Hilight Tribe, inventors of \"natural trance\" played entirely on acoustic and traditional instruments — didgeridoo, sitar, tribal percussion. 31 October with I Roots, Bandi! and Spoink; 1 November with Roots Zombie, Luneris and Scientyfreaks." },
-  { id: 622, title: "elrow Horroween Festival", type: "Warehouse", genres: ["House", "EDM"], city: "London", country: "UK", lat: 51.6152, lng: -0.0576, date: "2026-10-31", time: "14:00 - 23:00", price: 45, currency: "£", venue: "Drumsheds", trending: false, lineup: [], desc: "L'édition Halloween d'elrow, la fête barcelonaise la plus décorée d'Europe, prend les quatre halls de Drumsheds. Confettis, personnages et house tech sur un format festival indoor. Programmation annoncée à l'automne.", descEn: "The Halloween edition of elrow, Europe's most heavily decorated party brand, takes over all four Drumsheds halls. Confetti, characters and tech house in an indoor festival format. Line-up announced in the autumn.", priceNote: "estimated" },
   { id: 623, title: "Max Cooper", type: "Club", genres: ["Techno"], city: "Lisbon", country: "Portugal", lat: 38.7027, lng: -9.1786, date: "2026-11-05", time: "21:00 - 00:00", price: 0, currency: "€", venue: "LAV - Lisboa ao Vivo", trending: false, lineup: ["Max Cooper"], desc: "Max Cooper, docteur en génétique devenu producteur, présente son spectacle audiovisuel au LAV, la salle d'Alcântara. Techno mélodique et projections calées à la note près : le format qui a fait sa réputation en salle assise comme debout.", descEn: "Max Cooper, a geneticist turned producer, brings his audiovisual show to LAV in Alcântara. Melodic techno and projections cued to the note — the format that made his name in both seated and standing rooms.", priceNote: "unknown" },
   { id: 624, title: "Modestep au FOMO", type: "Club", genres: ["Drum & Bass"], city: "Sofia", country: "Bulgaria", lat: 42.6955, lng: 23.3231, date: "2026-11-06", time: "22:00 - 04:00", price: 30, currency: "€", venue: "FOMO the club", trending: false, lineup: ["Modestep"], desc: "Josh Friend ramène Modestep à Sofia pour un show de club annoncé comme le plus intense du projet, dubstep et drum & bass en tête. Billets à partir de 30 €.", descEn: "Josh Friend brings Modestep back to Sofia for what is billed as the project's most intense club show yet, dubstep and drum & bass to the fore. Tickets from €30." },
   { id: 625, title: "La P'tite Fumée au Transbordeur", type: "Club", genres: ["Psytrance", "Trance"], city: "Villeurbanne", country: "France", region: "Rhône", lat: 45.7862, lng: 4.8556, date: "2026-11-06", time: "20:00 - 23:30", price: 28.2, currency: "€", venue: "Le Transbordeur", trending: false, lineup: ["La P'tite Fumée"], desc: "Formé en Ariège en 2013 et révélé par un Golden Buzzer à La France a un incroyable talent, le trio de trance instrumentale revient au Transbordeur avec un live entièrement repensé : rythmiques incisives, mélodies envoûtantes, instruments atypiques et lignes de chant plus présentes.", descEn: "Formed in Ariège in 2013 and propelled by a Golden Buzzer on France's Got Talent, the instrumental trance trio return to Le Transbordeur with a fully reworked live show: incisive rhythms, spellbinding melodies, unusual instruments and more prominent vocals." },
   { id: 626, title: "Club de Jour invite Bellaire & Dimitri", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-11-07", time: "19:00 - 00:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["Bellaire", "Dimitri"], desc: "Le Club de Jour du Warehouse invite Bellaire et Dimitri pour une soirée house et électro de 19h à minuit, dans le Hangar à Bananes.", descEn: "Warehouse's Club de Jour invites Bellaire and Dimitri for a house and electronic evening from 7pm to midnight, in the Hangar à Bananes.", priceNote: "unknown" },
-  { id: 627, title: "Worried About Henry", type: "Warehouse", genres: ["Drum & Bass"], city: "London", country: "UK", lat: 51.6152, lng: -0.0576, date: "2026-11-07", time: "19:00 - 03:00", price: 40, currency: "£", venue: "Drumsheds", trending: false, lineup: ["Wilkinson"], desc: "La marque drum & bass Worried About Henry investit Drumsheds avec Wilkinson en tête d'affiche. Le reste du plateau est annoncé au fil de l'automne.", descEn: "Drum & bass brand Worried About Henry takes over Drumsheds with Wilkinson headlining. The rest of the bill is announced through the autumn.", priceNote: "estimated" },
   { id: 628, title: "Agents Of Time au Roxy", type: "Club", genres: ["Techno", "House"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-11-13", time: "23:00 - 06:00", price: 790, currency: "Kč", venue: "Roxy", trending: false, lineup: ["Agents Of Time"], desc: "Le duo italien Agents Of Time joue son techno mélodique au Roxy, entre house, acid et nappes cinématographiques. Portes à 23h, early birds à 790 Kč.", descEn: "Italian duo Agents Of Time bring their melodic techno to Roxy, weaving house, acid and cinematic pads. Doors 11pm, early birds 790 CZK." },
   { id: 629, title: "Zuckerwatt w/ Mija", type: "Club", genres: ["Hard Techno", "House"], city: "Vienna", country: "Austria", lat: 48.2344, lng: 16.3611, date: "2026-11-13", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Grelle Forelle", trending: false, lineup: ["Mija"], desc: "Zuckerwatt invite Mija à la Grelle Forelle pour une nuit entre eurodance et hardgroove : disco et house classique poussés à des BPM de rave. Portes à 23h, reste du plateau à annoncer.", descEn: "Zuckerwatt bring Mija to Grelle Forelle for a night between eurodance and hardgroove: disco and classic house pushed to rave tempos. Doors at 11pm, the rest of the bill still to be announced.", priceNote: "unknown" },
-  { id: 630, title: "Dusky", type: "Club", genres: ["House", "Techno"], city: "Copenhagen", country: "Denmark", lat: 55.6858, lng: 12.5836, date: "2026-11-13", time: "23:00 - 05:00", price: 0, currency: "kr", venue: "Culture Box", trending: false, lineup: ["Dusky"], desc: "Le duo londonien Dusky pose ses machines au Culture Box, le club de référence de la musique électronique au Danemark depuis 2005. Une salle de Kronprinsessegade taillée pour la house et la techno, avec un système son que la scène copenhaguoise cite en exemple.", descEn: "London duo Dusky bring their machines to Culture Box, Denmark's reference venue for electronic music since 2005. A Kronprinsessegade room built for house and techno, with a sound system Copenhagen's scene holds up as a benchmark.", priceNote: "unknown" },
-  { id: 631, title: "La Discothèque London", type: "Warehouse", genres: ["House"], city: "London", country: "UK", lat: 51.6152, lng: -0.0576, date: "2026-11-13", time: "19:00 - 03:00", price: 40, currency: "£", venue: "Drumsheds", trending: false, lineup: ["Folamour", "Masters at Work", "Jayda G", "Dan Shake", "Ron Trent"], desc: "La Discothèque déploie sa house disco à Drumsheds avec Folamour, Masters at Work, Jayda G et Ron Trent. Un plateau de quatorze artistes dans l'ancien entrepôt de Meridian Water.", descEn: "La Discothèque brings its disco house to Drumsheds with Folamour, Masters at Work, Jayda G and Ron Trent. A fourteen-artist bill inside the old Meridian Water warehouse.", priceNote: "estimated" },
-  { id: 632, title: "SWG3 SYNRG: Francesco Del Garda & DJ Masda", type: "Club", genres: ["House", "Techno"], city: "Glasgow", country: "UK", lat: 55.8637, lng: -4.2951, date: "2026-11-13", time: "23:00 - 03:00", price: 22, currency: "£", venue: "SWG3 Warehouse", trending: false, lineup: ["Francesco Del Garda", "DJ Masda"], desc: "La série SYNRG réunit l'Italien Francesco Del Garda et le Japonais DJ Masda, deux maîtres du digging minimal, dans le hangar du SWG3.", descEn: "The SYNRG series brings together Italy's Francesco Del Garda and Japan's DJ Masda, two masters of minimal digging, in the SWG3 warehouse.", priceNote: "estimated" },
-  { id: 633, title: "A State of Trance London", type: "Warehouse", genres: ["Trance"], city: "London", country: "UK", lat: 51.6152, lng: -0.0576, date: "2026-11-14", time: "13:00 - 22:30", price: 41, currency: "£", venue: "Drumsheds", trending: true, lineup: ["Armin van Buuren", "Giuseppe Ottaviani", "Cosmic Gate", "Ferry Corsten", "Ruben de Ronde", "Andrew Rayel", "Sarah de Warren", "Will Atkinson", "Ben Hemsley", "Amber Broos", "Funk Tribu", "Sophie Sugar", "Thick as Thieves"], desc: "Premier festival ASOT indoor de l'histoire au Royaume-Uni : Armin van Buuren célèbre les vingt-cinq ans de A State of Trance dans les halls de Drumsheds, avec Cosmic Gate, Ferry Corsten et une vingtaine d'autres.", descEn: "The first ever indoor ASOT festival in the UK: Armin van Buuren celebrates twenty-five years of A State of Trance across the Drumsheds halls, with Cosmic Gate, Ferry Corsten and twenty more." },
   { id: 634, title: "Lucid Dreams: Acid Techno", type: "Club", genres: ["Acid Techno", "Techno"], city: "Glasgow", country: "UK", lat: 55.8637, lng: -4.2951, date: "2026-11-20", time: "23:00 - 03:00", price: 22, currency: "£", venue: "The Poetry Club", trending: false, lineup: [], desc: "Soirée entièrement acid techno au Poetry Club, la petite salle du SWG3 à Glasgow. Programmation annoncée à l'automne.", descEn: "An all-acid-techno night at The Poetry Club, SWG3's small room in Glasgow. Line-up announced in the autumn.", priceNote: "estimated" },
   { id: 635, title: "Tinlicker au Roxy", type: "Club", genres: ["House", "Trance"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-11-21", time: "23:00 - 06:00", price: 750, currency: "Kč", venue: "Roxy", trending: false, lineup: ["Tinlicker"], desc: "Tinlicker, devenu trio en 2025, joue un DJ set au Roxy : house, indie-electronic et techno de club, avec le sound design soigné qui fait leur signature. Early birds à 750 Kč.", descEn: "Tinlicker, a trio since 2025, play a DJ set at Roxy: house, indie-electronic and club techno, with the careful sound design that is their signature. Early birds 750 CZK." },
   { id: 636, title: "MCR-T au Roxy", type: "Club", genres: ["Hard Techno"], city: "Prague", country: "Czech Republic", lat: 50.0907, lng: 14.4259, date: "2026-11-27", time: "23:00 - 06:00", price: 400, currency: "Kč", venue: "Roxy", trending: false, lineup: ["MCR-T"], desc: "MCR-T, moitié du label live from earth klub, mélange miami bass, booty house et hard techno au Roxy de Prague. Un set braillard et volontairement brut, à partir de 23h, billets dès 400 Kč.", descEn: "MCR-T mixes Miami bass, booty house and hard techno at Prague's Roxy, in the raw, shouty rave register he is known for. From 11pm, tickets from 400 CZK." },
   { id: 637, title: "Paul van Dyk", type: "Club", genres: ["Trance"], city: "Stockholm", country: "Sweden", lat: 59.332, lng: 18.0755, date: "2026-11-27", time: "22:00 - 03:00", price: 0, currency: "kr", venue: "Berns", trending: false, lineup: ["Paul van Dyk"], desc: "Paul van Dyk joue au Berns, la salle historique de Berzelii Park à Stockholm. Trente ans de trance berlinoise condensés en un set, dans un décor de velours et de lustres qui tranche avec le genre.", descEn: "Paul van Dyk plays Berns, the historic room in Stockholm's Berzelii Park. Thirty years of Berlin trance condensed into one set, in a velvet-and-chandeliers setting that cuts against the genre.", priceNote: "unknown" },
   { id: 638, title: "Project One", type: "Club", genres: ["Hardstyle"], city: "Helsinki", country: "Finland", lat: 60.162, lng: 24.8975, date: "2026-11-27", time: "20:00 - 03:00", price: 0, currency: "€", venue: "Merikaapelihalli", trending: false, lineup: ["Project One", "Code Black", "DJ Isaac"], desc: "Project One, le projet commun de Headhunterz et Wildstylez, remonte sur scène au Merikaapelihalli d'Helsinki. Code Black et DJ Isaac complètent une soirée entièrement hardstyle dans l'ancienne câblerie.", descEn: "Project One, the joint project of Headhunterz and Wildstylez, take the stage at Helsinki's Merikaapelihalli. Code Black and DJ Isaac round out an all-hardstyle night in the former cable factory.", priceNote: "unknown" },
   { id: 639, title: "SWG3: Sasha", type: "Club", genres: ["House", "Techno"], city: "Glasgow", country: "UK", lat: 55.8637, lng: -4.2951, date: "2026-11-27", time: "23:00 - 03:00", price: 25, currency: "£", venue: "SWG3 TV Studio", trending: false, lineup: ["Sasha"], desc: "Sasha, l'un des architectes de la house progressive britannique, joue dans le TV Studio du SWG3. Quatre heures de montées longues à Glasgow.", descEn: "Sasha, one of the architects of British progressive house, plays SWG3's TV Studio. Four hours of long build-ups in Glasgow.", priceNote: "estimated" },
-  { id: 640, title: "FUSE 18th Birthday London", type: "Warehouse", genres: ["House", "Techno"], city: "London", country: "UK", lat: 51.6152, lng: -0.0576, date: "2026-11-28", time: "19:00 - 03:00", price: 40, currency: "£", venue: "Drumsheds", trending: false, lineup: ["Luciano", "Enzo Siragusa", "Traumer"], desc: "Le label londonien FUSE fête ses dix-huit ans à Drumsheds avec vingt-quatre artistes, dont Luciano, le fondateur Enzo Siragusa et Traumer. House minimale et techno hypnotique jusqu'au bout de la nuit.", descEn: "London label FUSE turns eighteen at Drumsheds with a twenty-four artist bill including Luciano, founder Enzo Siragusa and Traumer. Minimal house and hypnotic techno through the night.", priceNote: "estimated" },
   { id: 641, title: "La P'tite Fumée au Rockstore", type: "Club", genres: ["Psytrance", "Trance"], city: "Montpellier", country: "France", region: "Hérault", lat: 43.6082, lng: 3.8814, date: "2026-12-03", time: "19:30 - 23:30", price: 28, currency: "€", venue: "Rockstore", trending: false, lineup: ["La P'tite Fumée"], desc: "Le Rockstore, salle historique de Montpellier reconnaissable à sa Cadillac plantée en façade, accueille le live repensé de La P'tite Fumée : rythmiques incisives, mélodies envoûtantes et instruments atypiques.", descEn: "Le Rockstore, Montpellier's historic venue with the Cadillac embedded in its facade, hosts La P'tite Fumée's reworked live show: incisive rhythms, spellbinding melodies and unusual instruments." },
   { id: 642, title: "Thuishaven: Bart Skils 5HRS", type: "Club", genres: ["Techno"], city: "Amsterdam", country: "Netherlands", lat: 52.4008, lng: 4.8395, date: "2026-12-05", time: "13:00 - 23:00", price: 0, currency: "€", venue: "Thuishaven", trending: false, lineup: ["Bart Skils"], desc: "Le Néerlandais Bart Skils, patron du label Drumcode-adjacent Voltage, tient un set de cinq heures au Thuishaven. Le reste de la programmation est annoncé plus tard.", descEn: "Dutchman Bart Skils, head of the Voltage label, plays a five-hour set at Thuishaven. The rest of the line-up is announced later.", priceNote: "unknown" },
   { id: 643, title: "Zuckerwatt w/ Ellen Allien", type: "Club", genres: ["Techno"], city: "Vienna", country: "Austria", lat: 48.2344, lng: 16.3611, date: "2026-12-11", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Grelle Forelle", trending: false, lineup: ["Ellen Allien"], desc: "La série Zuckerwatt invite Ellen Allien à la Grelle Forelle : la Berlinoise, patronne du label BPitch, tient le mainfloor entourée de deux invités encore à annoncer. Ouverture à 23h.", descEn: "The Zuckerwatt series brings Ellen Allien to Grelle Forelle: the Berliner behind BPitch takes the mainfloor alongside two guests still to be announced. Doors at 11pm.", priceNote: "unknown" },
-  { id: 644, title: "Club de Jour invite The Avener", type: "Club", genres: ["House"], city: "Nantes", country: "France", region: "Loire-Atlantique", lat: 47.2027, lng: -1.5722, date: "2026-12-12", time: "19:00 - 00:00", price: 0, currency: "€", venue: "Warehouse", trending: false, lineup: ["The Avener"], desc: "The Avener referme l'année du Club de Jour au Warehouse : deep house mélancolique et électro de 19h à minuit, dans le Hangar à Bananes sur l'île de Nantes.", descEn: "The Avener closes out the Club de Jour year at Warehouse: melancholic deep house and electronic music from 7pm to midnight, in the Hangar à Bananes on Nantes' island.", priceNote: "unknown" },
   { id: 645, title: "Rotterdam Rave Winter Special", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Rotterdam", country: "Netherlands", lat: 51.8967, lng: 4.4855, date: "2026-12-12", time: "14:00 - 23:00", price: 40, currency: "€", venue: "Maassilo", trending: false, lineup: [], desc: "L'édition hivernale de Rotterdam Rave occupe les six salles du Maassilo, l'ancien silo à grain reconverti du port de Rotterdam. Hard techno et techno rapide ; la programmation est annoncée à l'automne.", descEn: "The winter edition of Rotterdam Rave takes over the six rooms of Maassilo, the converted grain silo in Rotterdam's port. Hard techno and fast techno; the line-up is announced in the autumn.", priceNote: "estimated" },
   { id: 646, title: "Hercules & Love Affair", type: "Club", genres: ["House"], city: "Barcelona", country: "Spain", lat: 41.374, lng: 2.1682, date: "2026-12-15", time: "21:00 - 02:00", price: 0, currency: "€", venue: "Sala Apolo", trending: false, lineup: ["Hercules & Love Affair"], desc: "Hercules & Love Affair ramène sa house disco chantée à la Sala Apolo, l'ancienne salle de bal du Paral·lel. Andy Butler et ses vocalistes en formation live, entre nu-disco, house de Chicago et soul.", descEn: "Hercules & Love Affair bring their sung disco house to Sala Apolo, the old ballroom on Paral·lel. Andy Butler and his vocalists in live formation, between nu-disco, Chicago house and soul.", priceNote: "unknown" },
   { id: 647, title: "Azyr & Fatima Hajji", type: "Warehouse", genres: ["Hard Techno", "Techno"], city: "Lisbon", country: "Portugal", lat: 38.729, lng: -9.152, date: "2026-12-19", time: "23:00 - 06:00", price: 0, currency: "€", venue: "Pavilhão Carlos Lopes", trending: false, lineup: ["Azyr", "Fatima Hajji", "Ornella", "Zapravka"], desc: "Le Pavilhão Carlos Lopes, halle d'exposition de 1932 au bord du parc Eduardo VII, accueille une nuit de hard techno menée par le Belge Azyr et l'Espagnole Fatima Hajji. Un format rave dans un bâtiment classé, à deux pas du centre de Lisbonne.", descEn: "The Pavilhão Carlos Lopes, a 1932 exhibition hall on the edge of Parque Eduardo VII, hosts a night of hard techno led by Belgium's Azyr and Spain's Fatima Hajji. A rave format inside a listed building, minutes from central Lisbon.", priceNote: "unknown" },
-  { id: 648, title: "New Year's Eve at The Warehouse Project", type: "Warehouse", genres: ["Techno", "House"], city: "Manchester", country: "UK", lat: 53.4766, lng: -2.229, date: "2026-12-31", time: "20:00 - 04:00", price: 50, currency: "£", venue: "Depot Mayfield", trending: false, lineup: [], desc: "Le réveillon du Warehouse Project, tradition mancunienne depuis vingt ans : huit heures de techno et de house pour passer minuit sous les voûtes de Depot Mayfield. Programmation annoncée à l'automne.", descEn: "The Warehouse Project's New Year's Eve, a Manchester tradition for twenty years: eight hours of techno and house to see in midnight under the Depot Mayfield vaults. Line-up announced in the autumn.", priceNote: "estimated" },
   { id: 649, title: "Let It Roll Winter", type: "Festival", genres: ["Drum & Bass"], city: "Prague", country: "Czech Republic", lat: 50.1091, lng: 14.4264, date: "2027-01-22", endDate: "2027-01-23", time: "20:00 - 06:00", price: 1000, currency: "Kč", venue: "Křižíkovy pavilony", trending: true, lineup: [], desc: "L'édition hivernale de Let It Roll fête les 25 ans de la marque tchèque : deux nuits, trois scènes et plus de 40 DJ drum & bass dans les pavillons Křižík du parc des expositions de Prague. Le pass deux jours démarre à 1 800 Kč, la journée à 1 000 Kč.", descEn: "Let It Roll's winter edition marks 25 years of the Czech brand: two nights, three stages and 40+ drum & bass DJs inside the Křižík pavilions at Prague's exhibition grounds. Two-day passes start at 1,800 CZK, single days at 1,000 CZK." },
-  { id: 650, title: "NTO au Transbordeur", type: "Club", genres: ["Techno"], city: "Villeurbanne", country: "France", region: "Rhône", lat: 45.7862, lng: 4.8556, date: "2027-01-28", time: "20:00 - 23:30", price: 30.8, currency: "€", venue: "Le Transbordeur", trending: false, lineup: ["NTO"], desc: "NTO déroule son live de techno mélodique au Transbordeur : des structures répétitives et hypnotiques sur lesquelles s'enroulent des mélodies en perpétuelle évolution. Le Français a collaboré avec Paul Kalkbrenner, Meute et Sofiane Pamart.", descEn: "NTO unfolds his melodic techno live show at Le Transbordeur: hypnotic repeating structures with ever-evolving melodies wound around them. The French artist has worked with Paul Kalkbrenner, Meute and Sofiane Pamart." },
-  { id: 651, title: "NTO à La Laiterie", type: "Club", genres: ["Techno"], city: "Strasbourg", country: "France", region: "Bas-Rhin", lat: 48.5763, lng: 7.7292, date: "2027-01-30", time: "20:00 - 23:30", price: 31.2, currency: "€", venue: "La Laiterie", trending: false, lineup: ["NTO"], desc: "NTO porte son live de techno mélodique à La Laiterie, la salle historique des musiques actuelles strasbourgeoises. Rythmiques structurées et mélodies atmosphériques, dans la veine de ses collaborations avec Paul Kalkbrenner et Sofiane Pamart.", descEn: "NTO brings his melodic techno live show to La Laiterie, Strasbourg's long-standing contemporary music venue. Structured rhythms and atmospheric melodies, in the vein of his work with Paul Kalkbrenner and Sofiane Pamart." },
-  { id: 652, title: "NTO au Bikini", type: "Club", genres: ["Techno"], city: "Ramonville-Saint-Agne", country: "France", region: "Haute-Garonne", lat: 43.5507, lng: 1.4715, date: "2027-02-12", time: "19:30 - 23:30", price: 31.4, currency: "€", venue: "Le Bikini", trending: false, lineup: ["NTO"], desc: "Le Bikini, club-salle de la banlieue toulousaine, accueille le live de NTO : structures rythmiques et lignes mélodiques enveloppantes. L'artiste a sorti l'album Forever Friends avec le pianiste Sofiane Pamart et collaboré avec Paul Kalkbrenner et Monolink.", descEn: "Le Bikini, the club-venue on the edge of Toulouse, hosts NTO's live show: rhythmic structures and enveloping melodic lines. He released the album Forever Friends with pianist Sofiane Pamart and has worked with Paul Kalkbrenner and Monolink." },
   { id: 653, title: "Lewis OfMan au Sucre", type: "Club", genres: ["House"], city: "Lyon", country: "France", region: "Rhône", lat: 45.7401, lng: 4.8155, date: "2027-02-19", time: "19:00 - 23:00", price: 0, currency: "€", venue: "Le Sucre", trending: false, lineup: ["Lewis OfMan"], desc: "Le producteur et multi-instrumentiste français Lewis OfMan joue sur le toit-terrasse du Sucre, le club installé au sommet de La Sucrière sur les quais de Lyon. House colorée et pop électronique.", descEn: "French producer and multi-instrumentalist Lewis OfMan plays Le Sucre, the club perched on the roof of La Sucrière on Lyon's docks. Colourful house and electronic pop.", priceNote: "unknown" },
   { id: 654, title: "NTO", type: "Club", genres: ["Techno"], city: "Barcelona", country: "Spain", lat: 41.3975, lng: 2.1911, date: "2027-02-19", time: "23:00 - 05:00", price: 0, currency: "€", venue: "Razzmatazz", trending: false, lineup: ["NTO"], desc: "Le Français NTO présente sa techno mélodique au Razzmatazz, le complexe de cinq salles du Poblenou. Un live construit autour de nappes de synthé et de piano, à mi-chemin entre le club et le concert.", descEn: "France's NTO brings his melodic techno to Razzmatazz, the five-room complex in Poblenou. A live show built on synth pads and piano, halfway between club night and concert.", priceNote: "unknown" },
   { id: 655, title: "TMF — Trier Music Festival", type: "Festival", genres: ["Hardstyle", "EDM", "Hard Techno"], city: "Trier", country: "Germany", lat: 49.7413, lng: 6.6226, date: "2027-03-20", time: "17:30 - 04:00", price: 38.99, currency: "€", venue: "Messehalle Trier", trending: false, lineup: [], desc: "Le Trier Music Festival remplit la halle du Messepark pour une nuit d'EDM, de hardstyle et de bigroom, portes à 17h30. Billet standard à 38,99 €, festival sans espèces, accès dès 16 ans ; le line-up 2027 n'est pas encore annoncé.", descEn: "Trier Music Festival fills the Messepark hall for a night of EDM, hardstyle and bigroom, doors at 5:30pm. Standard tickets are €38.99, the site is cashless and entry is 16+; the 2027 line-up has not been announced yet." },
@@ -673,21 +643,9 @@ export const EVENTS: RaveEvent[] = [
 const IMG_BASE = "https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/";
 export const IMAGES: Record<number, string> = {
   1: "hf_20260604_131554_9c8e03e9-d794-41e2-b043-bdd13ade4098.png",
-  2: "hf_20260604_131601_f965ecd6-a38e-4c2b-8dde-a783c300a924.jpeg",
   3: "hf_20260604_131605_ba41434c-1956-4d6a-a129-dae96ab6dda1.png",
-  4: "hf_20260604_131610_ccbfb1b3-7ffd-439b-8080-8abf7092963d.png",
-  5: "hf_20260604_131615_86df2774-6d5f-4b47-8847-ae8ea116a253.png",
-  6: "hf_20260604_131620_c9d3cd38-4470-4e1f-91c7-d37adc6ff374.png",
   7: "hf_20260604_131624_b6e88fc5-d4e8-4ee9-b0b9-f1af57015856.png",
-  8: "hf_20260604_131628_ae370ce7-af87-4995-834e-4c9c4c4e37c6.png",
-  9: "hf_20260604_131730_03a01ed2-6705-4e1d-a790-f76ffea0d88f.png",
   10: "hf_20260604_131732_aa86036b-ebb0-4085-b004-cb779f0cc590.png",
-  11: "hf_20260604_131733_d2a2ecfa-4328-4986-92cb-a4ee98a5a1fd.png",
-  12: "hf_20260604_131734_30f42580-c98c-4944-a122-fc70458da80d.png",
-  13: "hf_20260604_131814_d3d5f1e1-11d7-46d2-b856-af66f0c053cb.png",
-  14: "hf_20260604_131815_abf356b0-6b32-4f96-8152-fa01195cf263.png",
-  15: "hf_20260604_131834_ae5e830f-0ace-4943-b5d2-18a6d6ec71d0.png",
-  16: "hf_20260604_131836_3c564a55-5d17-45e3-833b-7cf874f35e66.png",
   17: "hf_20260604_151545_a3b11763-95c5-49ea-8edd-52f738c50b72.png",
   18: "hf_20260604_151546_b2353ca8-1afe-4cf5-829f-2e25980336c7.png",
   21: "hf_20260604_151548_7ab9b16d-d31c-4b8e-846b-0ce6e34db271.png",
@@ -695,31 +653,15 @@ export const IMAGES: Record<number, string> = {
   23: "hf_20260604_151652_ab109d96-7e8c-4015-ac40-2a287ce75bd6.png",
   24: "hf_20260604_151652_12b8ba5f-9fce-41bb-a1b8-cb42be632335.png",
   25: "hf_20260604_151654_f7d8e62b-82bd-4282-9dcf-9b81bdb619d5.png",
-  26: "hf_20260604_151747_6f2d10cc-8dac-4440-bacf-5833b8963ec5.png",
   31: "hf_20260604_151749_1284b61c-1cda-4f82-b1a5-e2467624126b.png",
   33: "hf_20260604_151750_c52dc4a8-aaeb-482c-a71e-ebd2dffd06c9.png",
   34: "hf_20260604_151841_f932e4b1-008c-47b4-b787-cfb794a33c51.png",
   35: "hf_20260604_151842_5285e560-7e93-4070-b507-38f49d118d4a.png",
   36: "hf_20260604_151844_017801fc-d48d-4d32-a524-8265d8e4cf48.png",
   37: "hf_20260604_151939_cdf1bb4a-5dc7-41ed-ba2d-4f1af0b66f13.png",
-  38: "hf_20260604_151940_f550f538-fad8-465f-9f2a-2c33155b9b39.png",
   39: "hf_20260604_151941_e808ce07-3104-402c-a861-97875544f61c.png",
-  43: "hf_20260604_151942_aec345c8-c05c-41b9-8fa9-a91781ba3d21.png",
-  44: "hf_20260604_152029_9703324b-b9fb-42d4-9e34-bb3929ecb451.png",
   45: "hf_20260604_152218_1dc3a2b2-c53d-4452-b80a-f57db6d95631.png",
-  19: "hf_20260604_152728_4e92c8ac-bb1f-492a-9fc6-9f57211bfc23.png",
-  20: "hf_20260604_152729_79bd6696-14e5-4ecf-be85-955f7cf0cfaf.png",
-  27: "hf_20260604_152730_d26babbf-52ad-4b73-a6f3-2e31d585f85c.png",
-  28: "hf_20260604_152731_7d6c2238-41bb-4ef7-bf82-8088cdd803bc.png",
-  29: "hf_20260604_152815_2f86892c-38b9-4eed-8aed-edc627597430.png",
-  30: "hf_20260604_152817_a652a0f5-c306-4723-91a1-7d057f0d3be5.png",
-  32: "hf_20260604_152818_07da0a3e-9fb7-4e73-98c9-f442dd4440ca.png",
-  40: "hf_20260604_152919_d547293f-742d-4c2c-8036-a325bc8b605e.png",
-  41: "hf_20260604_152853_cc160818-dc2a-4a0b-8e79-a434cf4e12e1.png",
-  42: "hf_20260604_152854_d802e872-d4ab-4c4b-b43e-f76379017277.png",
   46: "hf_20260604_152920_39c95ac2-e86f-48f7-beb1-ac44b7e4d215.png",
-  47: "hf_20260604_152947_03d3bc5b-8ad8-46dc-b250-feb48fff366f.png",
-  48: "hf_20260604_152948_8a3edd1d-8662-45ee-8310-936245d615fe.png",
   49: "hf_20260604_185741_44408ccc-8d6e-4a87-8ebb-6835b47d8b30.png",
   50: "hf_20260604_185743_16fe4b07-0251-4606-9c21-41544bceb559.png",
   51: "hf_20260604_185805_5080b41b-7ac1-4b9c-8ace-15abde5b5b72.png",
@@ -868,7 +810,6 @@ export const PHOTOS: Record<number, string> = {
   109: "elektric-park-festival-dc0fa42234.jpg", // Elektric Park Festival — Chatou
   110: "pharaonic-57b51527ad.jpg", // Pharaonic — Cluses
   111: "le-jardin-electronique-7e88c6a75b.jpg", // Le Jardin Électronique — Lille
-  112: "the-warehouse-project-ki-ki-38ef10c3d0.jpg", // The Warehouse Project: KI/KI — Manchester
   113: "techno-parade-60f18b11a2.jpg", // Techno Parade — Paris
   114: "utopia-festival-a6f2d68062.jpg", // Utopia Festival — Marseille
   115: "the-warehouse-project-solomun-e58ba2f279.jpg", // The Warehouse Project: Solomun — Manchester
@@ -1067,7 +1008,7 @@ export const PHOTOS: Record<number, string> = {
   407: "detonation-festival-05ab208005.jpg", // Détonation Festival — Besançon
   408: "hilight-tribe-a-l-echonova-07903497bf.jpg", // Hilight Tribe à L'Echonova — Saint-Avé
   409: "pact-a-la-condition-publique-dd51c74180.jpg", // PACT à la Condition Publique — Roubaix
-  410: "warehouse-ff1c526c7c.jpg", // Club de Jour invite Étienne de Crécy — Nantes
+  410: "warehouse-ff1c526c7c.jpg", // Club de Jour invite Guts — Nantes
   411: "nathan-fake-av-live-d6d31af973.jpg", // Nathan Fake AV Live — Paris
   412: "synthony-au-zenith-de-paris-59f06bdf02.jpg", // Synthony au Zénith de Paris — Paris
   413: "folamour-a-l-interference-35fb5d85cf.jpg", // Folamour à l'Interférence — Balma
@@ -1158,13 +1099,10 @@ export const PHOTOS: Record<number, string> = {
   498: "unreal-weekender-night-ii-ff7e182c0c.jpg", // Unreal Weekender Night II — Cologne
   499: "nibirii-pres-ely-oaks-b9d0a3ab3f.jpg", // NIBIRII pres. Ely Oaks — Cologne
   500: "chrome-cologne-82c1bc7cc4.jpg", // Chrome Cologne — Cologne
-  501: "chris-stussy-au-bootshaus-dc0f85698d.jpg", // Chris Stussy au Bootshaus — Cologne
   502: "bootshaus-55d63f6143.jpg", // Affenkäfig Rules — Cologne
   503: "kitkatclub-au-bootshaus-1e67ac754e.jpg", // KitKatClub au Bootshaus — Cologne
-  504: "bootshaus-loonyland-pres-halloween-2b495e0fae.jpg", // Bootshaus & Loonyland pres. Halloween — Cologne
   505: "unreal-x-kuko-all-night-long-6f10f4d4b4.jpg", // Unreal x KUKO All Night Long — Cologne
   506: "kitkatclub-au-bootshaus-30-decembre-61107b46fe.jpg", // KitKatClub au Bootshaus – 30 décembre — Cologne
-  507: "bootshaus-loonyland-pres-nye-70dc8f4a3c.jpg", // Bootshaus & Loonyland pres. NYE — Cologne
 };
 /* PHOTOS:end */
 
@@ -1197,567 +1135,525 @@ export const cardBg = (e: RaveEvent): string => {
 
 /* Official ticketing / event URL per event (organizers provide this in prod). */
 const TICKETS: Record<number, string> = {
-  1: "https://www.awakenings.com",
-  2: "https://www.berghain.berlin",
-  3: "https://www.verknipt.com",
-  4: "https://www.possession.paris",
-  5: "https://ra.co",
-  6: "https://boilerroom.tv",
-  7: "https://www.defqon1.com",
-  8: "https://www.boomfestival.org",
-  // 9 = free party (no ticketing)
-  10: "https://www.tomorrowland.com",
-  11: "https://ra.co",
-  12: "https://www.bassrush.com",
-  13: "https://ra.co",
-  14: "https://ra.co",
-  15: "https://thewarehouseproject.com",
-  16: "https://www.sunwavesfestival.com",
-  17: "https://www.nuits-sonores.com",
-  18: "https://www.astropolis.org",
-  19: "https://www.le-sucre.eu",
-  20: "https://www.rexclub.com",
-  21: "https://www.thepeacocksociety.fr",
-  22: "https://www.marvellousisland.com",
-  23: "https://familypiknik.com",
-  24: "https://hadra.net",
-  25: "https://www.ticketmaster.fr/fr/manifestation/positiv-electronic-festival-1-jour-billet/idmanif/649260", // sponsorisé
-  31: "https://www.insane-festival.com",
-  33: "https://www.kappafuturfestival.it",
-  34: "https://sonar.es",
-  35: "https://www.time-warp.de",
-  36: "https://amsterdam.dgtl.nl",
-  37: "https://www.nature-one.de",
-  38: "https://www.mysteryland.com",
-  39: "https://junction2.london",
-  40: "https://www.fabriclondon.com",
-  43: "https://www.exitfest.org",
-  44: "https://capricesfestival.ch",
-  45: "https://www.dourfestival.eu",
-  49: "https://www.ravetheplanet.com",
-  50: "https://untold.com",
-  51: "https://ultraeurope.com",
-  52: "https://www.decibeloutdoor.com",
-  53: "https://www.parookaville.com",
-  54: "https://dekmantelfestival.com",
-  55: "https://creamfields.com",
-  56: "https://monegrosfestival.com",
-  57: "https://thewarehouseproject.com",
-  58: "https://www.awakenings.com",
-  59: "https://ozorafestival.eu",
-  60: "https://neopopfestival.com",
-  61: "https://www.glitchfestival.com",
-  62: "https://zamnafestival.com",
-  63: "https://letitroll.eu",
-  64: "https://unumfestival.com",
-  65: "https://www.nosleepfestival.com",
-  66: "https://www.sonnemondsterne.de",
-  67: "https://www.polifonic.it",
-  68: "https://festiwalnowamuzyka.pl",
-  100: "https://www.eskapefestival.com/billetterie/",
-  101: "https://www.houghtonfestival.co.uk/",
-  102: "https://fortdecibelfestival.com/",
-  103: "https://www.streetparade.com/en",
-  104: "https://www.boomtownfair.co.uk/info",
-  105: "https://electrolapse.fr/billetterie",
-  106: "https://www.rotterdamrave.com/events/rotterdam-rave-festival-2026",
-  107: "https://sunwaves-fest.ro/sunwaves-2026/",
-  108: "https://www.warehouse-nantes.fr/event",
-  109: "https://www.elektricpark.com/",
-  110: "https://pharaonic.fr/",
-  111: "https://shotgun.live/fr/festivals/le-jardin-electronique-2026",
-  112: "https://thewarehouseproject.com/events/",
-  113: "https://parisjetaime.com/eng/event/techno-parade-e006",
-  114: "https://shotgun.live/fr/festivals/utopia-festival-tome-vi",
-  115: "https://thewarehouseproject.com/events/",
-  116: "https://www.maintenant-festival.fr/",
-  117: "https://www.unsound.pl/en/unsound-2026",
-  118: "https://www.ibiza-spotlight.com/night/events/2026/10",
-  119: "https://www.syndicate-festival.de/",
-  120: "https://www.ibiza-spotlight.com/night/events/2026/10",
-  121: "https://www.ibiza-spotlight.com/night/events/2026/10",
-  122: "https://billetterie.ndkfestival.com/",
-  123: "https://www.unsound.pl/en/unsound-2026",
-  124: "https://www.warehouse-nantes.fr/event",
-  125: "https://www.warehouse-nantes.fr/event",
-  126: "https://shotgun.live/fr/events/sonora-bordeaux",
-  127: "https://www.amsterdam-dance-event.nl/en/program/filter/?section=events&type=8262%2C8263&from=2026-10-21&to=2026-10-25",
-  128: "https://shop.awakenings.com/en/awakenings-ade-2026",
-  129: "https://dice.fm/event/6d8lmq-terminal-v-23rd-oct-drumsheds-london-tickets",
-  130: "https://www.afaslive.nl/en/agenda/verknipt-ade-special",
-  131: "https://www.dockyardfestival.com/",
-  132: "https://loveland.nl/ade/tickets/",
-  133: "https://www.thewalkingbass.fr/billetterie/",
-  134: "https://dreamnation.fr/",
-  135: "https://thewarehouseproject.com/events/",
-  136: "https://mirafestival.com/en/",
-  137: "https://thewarehouseproject.com/events/",
-  138: "https://www.lestrans.com/le-festival/billetterie_trans/",
-  139: "https://www.afas-dome.be/en/event/thunderdome-2026-552e132d",
-  140: "https://thewarehouseproject.com/events/",
-  141: "https://www.ctm-festival.de/",
-  142: "https://www.rampage.eu/events/rampage-weekend-2027",
-  143: "https://www.snowboxx.com/",
-  144: "https://winter.tomorrowland.com/fr/",
-  145: "https://www.reperkusound.com/billetterie/",
-  146: "https://dgtl-festival.com/en/dgtl-amsterdam/",
-  147: "https://www.time-warp.de/tickets/",
-  148: "https://snowbombing.com/",
-  149: "https://www.mayday.de/en/tickets",
-  150: "https://nuits-sonores.com/en/tickets/",
-  151: "https://insanefestival.com/billetterie/",
-  152: "https://shotgun.live/fr/festivals/festival-le-bon-air-2027",
-  153: "https://marvellous-island.fr/billetterie/",
-  154: "https://www.awakenings.com/en/",
-  155: "https://www.namelessfestival.it/en/festival-2027",
-  156: "https://sonar.es/en/tickets",
-  157: "https://aluna-festival.fr/",
-  158: "https://www.q-dance.com/en/events/defqon-1/defqon-1-2027/",
-  159: "https://www.festivalpleinair.fr/billetterie/",
-  160: "https://www.kappafuturfestival.it/en",
-  161: "https://www.awakenings.com/en/",
-  162: "https://ultraeurope.com/tickets/festival/",
-  163: "https://terminalv.co.uk/terminal-v-all-events",
-  164: "https://www.parookaville.com/en/tickets",
-  165: "https://lesnuitssecretes.com/",
-  166: "https://monegrosfestival.com/en",
-  167: "https://croatia.defected.com/",
-  168: "https://www.alltogethernow.ie/",
-  169: "https://sunrisefestival.pl/",
-  170: "https://www.control-club.ro/",
-  171: "https://www.wknd.fi/en/tickets/",
-  172: "https://clubkaiku.fi/",
-  173: "https://summersound.lv/en/tickets",
-  174: "https://www.teletech.events/events",
-  175: "https://freshwavefestival.com/",
-  176: "https://www.bilesuserviss.lv/en/tickets/7JH332FZYQ/calvin-harris",
-  177: "https://lovefest.rs/lovefest-2026/",
-  178: "https://lake-fest.me/en/",
-  179: "https://clubkaiku.fi/",
-  180: "https://swg3.tv/events/2026/august/chris-stussy-scotland-lost-found-forgotten/",
-  181: "https://www.lab11.co.uk/events",
-  182: "https://zrce.com/events/barrakud-festival-2026",
-  183: "https://szigetfestival.com/en/",
-  184: "https://eclipse.is/",
-  185: "https://ulaznica.org/tickets/297/the-prodigy",
-  186: "https://www.wayoutwest.se/en/tickets/",
-  187: "https://www.grapefestival.sk/en",
-  188: "https://turbinabudapest.hu/en",
-  189: "https://www.flowfestival.com/en/tickets/",
-  190: "https://www.concorde2.co.uk/",
-  191: "https://www.indexdublin.com/events",
-  192: "https://www.songkick.com/venues/3112574-white-hotel/calendar",
-  193: "https://weoutherefestival.com/",
-  194: "https://www.sagafestival.com/",
-  195: "https://www.fieldmaneuvers.com/",
-  196: "https://culture-box.com/",
-  197: "https://clubkaiku.fi/",
-  198: "https://ra.co/events/2259478",
-  199: "https://lostvillagefestival.com/",
-  200: "https://culture-box.com/",
-  201: "https://jaegeroslo.no/events/friday-fraedag-x-hubbas-klubb-gerd-janson-2/",
-  202: "https://clubkaiku.fi/",
-  203: "https://tradgardenfestival.se/biljetter",
-  204: "https://anka.li/upcoming-events/",
-  205: "https://www.forwardsbristol.co.uk/",
-  206: "https://shine.tickets/events/list",
-  207: "https://www.midix.is/en/extreme-chill-festival-2026-festival-pass/eid/1030",
-  208: "https://ra.co/events/2420148",
-  209: "https://shop.tmw.ee/",
-  210: "https://www.bonfirefestival.se/biljetter/",
-  211: "https://www.fold.london/tickets",
-  212: "https://anka.li/upcoming-events/",
-  213: "https://loftasfest.com/",
-  214: "https://www.flyflyfly.co.uk/",
-  215: "https://waterworksfestival.co.uk/",
-  216: "https://www.concorde2.co.uk/",
-  217: "https://ra.co/clubs/109137",
-  218: "https://www.klub-k4.si/en/",
-  219: "https://jaegeroslo.no/events/",
-  220: "https://akvariumklub.hu/en/events/akvawaves-iam-productions-pres-juliet-fox/",
-  221: "https://lunchmeatfestival.cz/2026/",
-  222: "https://avafestival.com/london/",
-  223: "https://jaegeroslo.no/events/",
-  224: "https://swg3.tv/events/",
-  225: "https://culture-box.com/",
-  226: "https://www.entrio.hr/en",
-  227: "https://jasna1.com/events/",
-  228: "https://www.teletech.events/events",
-  229: "https://bilet.bg/en/events/autechre-at-toplocentrala-06-october-2026-7255",
-  230: "https://www.clubguesthouse.ro/",
-  231: "https://www.exist.pl/events/verknipt-warsaw-bilety-2026",
-  232: "https://www.teletech.events/events",
-  233: "https://noboundsfestival.co.uk/",
-  234: "https://insomniafestival.no/tickets/",
-  235: "https://www.indexdublin.com/events",
-  236: "https://culture-box.com/",
-  237: "https://www.teletech.events/events",
-  238: "https://www.drumsheds.com/",
-  239: "https://icelandairwaves.is/tickets/",
-  240: "https://jasna1.com/events/",
-  241: "https://biletomat.pl/wydarzenia/mayday-poland-29850",
-  242: "https://swg3.tv/events/",
-  243: "https://www.teletech.events/events",
-  244: "https://www.drumsheds.com/",
-  245: "https://shine.tickets/events/list",
-  246: "https://taksirat.mk/bileti/",
-  247: "https://www.teletech.events/events",
-  248: "https://shine.tickets/events/list",
-  249: "https://www.teletech.events/events",
-  250: "https://www.teletech.events/events",
-  251: "https://tmw.ee/",
-  252: "https://www.fielddayfestivals.com/",
-  253: "https://www.cphdistortion.dk/tickets",
-  254: "https://www.gottwood.co.uk/",
-  255: "https://www.roskilde-festival.dk/en/tickets/",
-  256: "https://hideoutfestival.com/",
-  257: "https://www.b4l.cz/en/",
-  258: "https://www.pohodafestival.sk/en",
-  260: "https://parklife.uk.com/pl27-tickets/",
-  261: "https://electriccastle.ro/",
-  262: "https://linktr.ee/shapesfestival",
-  263: "https://www.rotondes.lu/fr/programmation/temps-forts/conges-annules",
-  264: "https://solarweekend.com/",
-  265: "https://www.odaysfestival.dk/",
-  266: "https://www.blitz.club/",
-  267: "https://www.dreambeach.es/",
-  268: "https://vivafestival.it/",
-  269: "https://clubbasis.nl/",
-  270: "https://lehmannclub.ticket.io/?lang=en",
-  271: "https://bird-rotterdam.nl/agenda/",
-  272: "https://microfestival.be/",
-  273: "https://lethargy.ch/",
-  275: "https://www.paradigmfestival.com/",
-  276: "https://www.berghain.berlin/en/program/",
-  277: "https://www.katermukke.com/events",
-  278: "https://aaniwalli.fi/events/",
-  279: "https://www.medusasunbeach.com/",
-  280: "https://www.cavoparadiso.gr/",
-  281: "https://aquasella.com/",
-  282: "https://www.cocorico.it/",
-  283: "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276",
-  284: "https://www.xrds.be/",
-  285: "https://aaniwalli.fi/events/",
-  286: "https://www.panorama-festival.it/",
-  287: "https://clubbasis.nl/",
-  288: "https://c12space.com/agenda/",
-  289: "https://tresorberlin.com/club/events/",
-  290: "https://club.ritterbutzke.com/events",
-  291: "https://lisboa.brunchelectronik.com/",
-  292: "https://www.pukkelpop.be/en/",
-  293: "https://www.toffler.nl/club/",
-  294: "https://www.berghain.berlin/en/program/",
-  295: "https://dclub.ch/agenda/",
-  296: "https://www.audio-club.ch/",
-  297: "https://lagraviere.ch/",
-  298: "https://c12space.com/agenda/",
-  299: "https://www.fuse.be/events",
-  300: "https://www.toffler.nl/club/",
-  301: "https://tanzhaus-west.de/",
-  302: "https://conne-island.de/tickets.html",
-  303: "https://lisboa.brunchelectronik.com/",
-  304: "https://freeearth-festival.com/",
-  305: "https://linktr.ee/nemorafest",
-  306: "https://nibirii.com/",
-  307: "https://aaniwalli.fi/events/",
-  308: "https://c12space.com/agenda/",
-  309: "https://www.fuse.be/events",
-  310: "https://maassilo.com/dance/agenda/",
-  311: "https://www.rote-sonne.com/club",
-  312: "https://tickets.nordstern.com/en",
-  314: "https://www.cavoparadiso.gr/",
-  315: "https://lisboa.brunchelectronik.com/",
-  316: "https://www.draaimolen.nu/",
-  317: "https://www.beatpatrol.at/",
-  318: "https://www.decibel.world/",
-  319: "https://primermusicfestival.com/",
-  320: "https://www.eternalsunfestival.com/",
-  321: "https://linktr.ee/komorebimusicfestival",
-  322: "https://www.chaosinthecity.events/tickets",
-  323: "https://www.fuse.be/events",
-  324: "https://www.doornroosje.nl/event/rauwe-kicks-6/",
-  325: "https://www.intothemadness.de/tickets/",
-  326: "https://tickets.nordstern.com/en",
-  327: "https://sunandbass.net/",
-  328: "https://clubbasis.nl/",
-  329: "https://www.smeerboel.nl/",
-  330: "https://www.dissonanzefestival.it/",
-  331: "https://reworks.gr/",
-  332: "https://clubbasis.nl/",
-  333: "https://www.postgarage.at/program/",
-  334: "https://www.time-warp.de/spain/",
-  335: "https://www.bloomfestival.pt/",
-  336: "https://www.vivoconcerti.com/",
-  337: "https://bird-rotterdam.nl/agenda/",
-  338: "https://dclub.ch/agenda/",
-  339: "https://beonix.art/",
-  340: "https://maassilo.com/dance/agenda/",
-  341: "https://www.supremacy.nl/nl/tickets",
-  342: "https://www.cavoparadiso.gr/",
-  343: "https://omana-festival.de/",
-  344: "https://robotfestival.it/",
-  345: "https://maassilo.com/dance/agenda/",
-  346: "https://clubbasis.nl/",
-  347: "https://club.ritterbutzke.com/events",
-  348: "https://www.rebeltickets.es/en/montmelo/event/entradas-duro-festival-xxl-2026",
-  349: "https://www.grelleforelle.com/programm/",
-  350: "https://bootshaus-club.ticket.io/",
-  351: "https://dclub.ch/agenda/",
-  352: "https://maassilo.com/dance/agenda/",
-  353: "https://www.megarave.com/",
-  354: "https://clubtoclub.it/",
-  355: "https://www.hospitalitydnb.com/",
-  356: "https://tickets.nordstern.com/en/c/boris-brejcha-bernexpo-2094",
-  357: "https://www.fuse.be/events",
-  358: "https://www.ahoy.nl/en/events",
-  359: "https://bootshaus.tv/events/bootshaus-loonyland-pres-halloween-2026/",
-  360: "https://maassilo.com/dance/agenda/",
-  361: "https://raverebels.com/",
-  362: "https://club.ritterbutzke.com/events",
-  363: "https://culture-box.com/",
-  364: "https://muziekgieterij.nl/",
-  365: "https://maassilo.com/dance/agenda/",
-  366: "https://dclub.ch/agenda/",
-  367: "https://club.ritterbutzke.com/events",
-  368: "https://poolen.dk/en/koncerter/sub-focus/",
-  369: "https://liquicity.com/events/liquicity-ghent-2026/",
-  370: "https://www.toffler.nl/indoor-festival/",
-  371: "https://www.dalmafestival.com/",
-  372: "https://www.toxicator.de/tickets",
-  373: "https://raveonsnow.ticket.io/",
-  374: "https://tickets.nordstern.com/en",
-  375: "https://liquicity.com/events/liquicity-winterfestival-2026/",
-  376: "https://ing.arena.brussels/en/show/fcknye-festival/",
-  377: "https://bootshaus-club.ticket.io/",
-  378: "https://club.ritterbutzke.com/events",
-  379: "https://maassilo.com/dance/agenda/",
-  380: "https://www.reverze.be/",
-  381: "https://www.mastersofhardcore.com/events",
-  382: "https://www.rewirefestival.nl/tickets",
-  383: "https://malta.rongevents.com/",
-  384: "https://ssfestivalmalta.com/",
-  385: "https://www.extrema.be/en/",
-  386: "https://www.sputnik-springbreak-shop.de/tickets/sputnik_springbreak_festival_2027",
-  387: "https://tofflerfestival.nl/",
-  388: "https://www.intentsfestival.nl/en/",
-  389: "https://www.worldclubdome.com/en/tickets",
-  390: "https://www.ikarus-festival.de/tickets/",
-  391: "https://www.palmesus.com/",
-  392: "https://www.ruhr-in-love.de/tickets",
-  393: "https://airbeat-one.de/tickets/",
-  394: "https://www.electriclove.at/en/ticket/",
-  395: "https://www.ostendbeach.be/en/",
-  396: "https://www.boomfestival.org/",
-  397: "https://ortigiamusic.com/",
-  398: "https://dantz.eu/festival/",
-  399: "https://wosfestival.es/",
-  407: "https://detonation-festival.com/billetterie/",
-  428: "https://www.positiveeducation.fr/",
-  435: "https://dystopia-festival.com/en/saint-etienne/",
-  436: "https://www.rise-festival.com/",
-  456: "https://www.thuishaven.nl/",
-  457: "https://www.thuishaven.nl/",
-  458: "https://www.thuishaven.nl/",
-  459: "https://www.thuishaven.nl/",
-  460: "https://www.thuishaven.nl/",
-  461: "https://www.thuishaven.nl/",
-  462: "https://www.thuishaven.nl/",
-  463: "https://thewarehouseproject.com/calendar/",
-  464: "https://drumshedslondon.com/whats-on/",
-  465: "https://thewarehouseproject.com/calendar/",
-  466: "https://drumshedslondon.com/whats-on/",
-  467: "https://www.thuishaven.nl/",
-  468: "https://thewarehouseproject.com/calendar/",
-  469: "https://thewarehouseproject.com/calendar/",
-  470: "https://drumshedslondon.com/whats-on/",
-  471: "https://www.thuishaven.nl/",
-  472: "https://thewarehouseproject.com/calendar/",
-  473: "https://drumshedslondon.com/whats-on/",
-  474: "https://thewarehouseproject.com/calendar/",
-  475: "https://drumshedslondon.com/whats-on/",
-  476: "https://thewarehouseproject.com/calendar/",
-  477: "https://thewarehouseproject.com/calendar/",
-  478: "https://thewarehouseproject.com/calendar/",
-  479: "https://drumshedslondon.com/whats-on/",
-  480: "https://thewarehouseproject.com/calendar/",
-  481: "https://thewarehouseproject.com/calendar/",
-  482: "https://thewarehouseproject.com/calendar/",
-  483: "https://drumshedslondon.com/whats-on/",
-  484: "https://drumshedslondon.com/whats-on/",
-  485: "https://thewarehouseproject.com/calendar/",
-  486: "https://drumshedslondon.com/whats-on/",
-  487: "https://thewarehouseproject.com/calendar/",
-  488: "https://thewarehouseproject.com/calendar/",
-  489: "https://renate.cc/",
-  490: "https://bootshaus.tv/events/",
-  491: "https://bootshaus.tv/events/",
-  492: "https://bootshaus.tv/events/",
-  493: "https://renate.cc/",
-  494: "https://bootshaus.tv/events/",
-  495: "https://bootshaus.tv/events/",
-  496: "https://bootshaus.tv/events/",
-  497: "https://bootshaus.tv/events/",
-  498: "https://bootshaus.tv/events/",
-  499: "https://bootshaus.tv/events/",
-  500: "https://bootshaus.tv/events/",
-  501: "https://bootshaus.tv/events/",
-  502: "https://bootshaus.tv/events/",
-  503: "https://bootshaus.tv/events/",
-  504: "https://bootshaus.tv/events/",
-  505: "https://bootshaus.tv/events/",
-  506: "https://bootshaus.tv/events/",
-  507: "https://bootshaus.tv/events/",
-  508: "https://positivfestival.fr/billetterie-pef/",
-  509: "http://bootshaus.tv/events/into-the-madness-pre-party-weekender-w-ran-d-and-more/",
-  510: "https://cavoparadiso.gr/",
-  511: "https://jaegeroslo.no/events/",
-  512: "https://www.indexdublin.com/events/",
-  513: "https://cavoparadiso.gr/",
-  514: "https://www.warehouse-nantes.fr/event",
-  515: "https://jaegeroslo.no/events/",
-  516: "https://www.karrusel.dk/tickets",
-  517: "https://www.uprising.sk/en/",
-  518: "https://dclub.ch/agenda/",
-  519: "https://www.ticketmaster.fr/",
-  520: "https://jaegeroslo.no/events/",
-  521: "https://www.fuse.be/",
-  522: "https://www.shelteramsterdam.nl/",
-  523: "https://swg3.tv/events",
-  524: "https://www.grelleforelle.com/project/2908-flashback-techno-classics-summer-edition/",
-  525: "https://www.shelteramsterdam.nl/",
-  526: "https://www.thuishaven.nl/",
-  527: "https://dclub.ch/agenda/",
-  528: "https://www.ticketmaster.fr/fr/manifestation/rave-in-da-club-x-wolf-city-w-hysta-billet/idmanif/660295",
-  529: "https://www.songkick.com/metro-areas/28976-greece-athens/genre/electronic",
-  530: "https://www.fuse.be/",
-  531: "https://cooltix.rs/event/6a294ad82519089e6f98dc3e",
-  532: "https://www.ticketnation.it/milano/vision-open-air-w-charlotte-de-witte-ex-macello.8421",
-  533: "https://www.fuse.be/",
-  534: "https://www.indexdublin.com/events/",
-  535: "https://www.shelteramsterdam.nl/",
-  536: "https://www.ticketmaster.it/",
-  537: "https://www.songkick.com/metro-areas/29037-croatia-zagreb/genre/electronic",
-  538: "https://www.roxy.cz/en/events/detail/5043/clara-cuve",
-  539: "https://www.grelleforelle.com/project/1109-schranz-is-back-w-felix-krocher/",
-  540: "https://dclub.ch/agenda/",
-  541: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic",
-  542: "https://www.fuse.be/",
-  543: "https://www.grelleforelle.com/project/1209-mahlwerk-w-justin-jay-brent-honey-canelle-doublekick/",
-  544: "https://billetterie.la-belle-electrique.com/share/event/791-ACTRESS-M-b2b-MOODFINO-KENDAL-MALAGO",
-  545: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic",
-  546: "https://www.shelteramsterdam.nl/",
-  547: "https://www.thuishaven.nl/",
-  548: "https://zalogarave.pl/kluby/poznan/tama",
-  549: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic",
-  550: "https://www.fuse.be/",
-  551: "https://www.shelteramsterdam.nl/",
-  552: "https://billetterie.la-belle-electrique.com/share/event/795-BABOUSH-KARLFROYE-VON-BIKRAV",
-  553: "https://www.shelteramsterdam.nl/",
-  554: "https://swg3.tv/events",
-  555: "https://www.roxy.cz/en/events/detail/5033/lilly-palmer",
-  556: "https://www.grelleforelle.com/project/2509-trancemaster-krause-all-night-long/",
-  557: "https://zalogarave.pl/kluby/poznan/tama",
-  558: "https://www.ticketmaster.it/artist/tomorrowland-symphony-of-unity-tickets/1422024",
-  559: "https://www.roxy.cz/en/events/detail/4967/andy-c-mc-tonn-piper",
-  560: "https://www.grelleforelle.com/project/2609-yn-x-bcco-club-night/",
-  561: "https://stockfish.nice.fr",
-  562: "https://www.warehouse-nantes.fr/event",
-  563: "https://www.ticketmaster.fr/",
-  564: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic",
-  565: "https://www.shelteramsterdam.nl/",
-  566: "https://www.roxy.cz/en/events/detail/5095/james-hype",
-  567: "https://swg3.tv/events",
-  568: "https://www.unvrs.com/",
-  569: "https://www.amnesia.es/",
-  570: "https://www.unvrs.com/",
-  571: "https://tickets.rs/event/autechre_live_prvi_put_ikada_u_srbiji_23817",
-  572: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic",
-  573: "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar",
-  574: "https://www.theushuaiaexperience.com/",
-  575: "https://pacha.com/en/ibiza/",
-  576: "https://www.fnacspectacles.com/",
-  577: "https://billetterie.la-belle-electrique.com/share/event/797-BRUNO-BAZZETTI-PHASE-FATALE-THE-HACKER",
-  578: "https://hiibiza.com/",
-  579: "https://www.unvrs.com/",
-  580: "https://www.theushuaiaexperience.com/",
-  581: "https://www.unvrs.com/",
-  582: "https://www.amnesia.es/",
-  583: "https://www.halledelamachine.fr/",
-  584: "https://www.songkick.com/metro-areas/29037-croatia-zagreb/genre/electronic",
-  585: "http://bootshaus.tv/events/10-2026-blacklist-festival-2026/",
-  586: "https://zalogarave.pl/kluby/poznan/tama",
-  587: "https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic",
-  588: "https://www.ticketmaster.fr/fr/manifestation/nantes-rave-techno-xxl-w-novah-billet/idmanif/662145",
-  589: "https://ticketsibiza.com/event/glitterbox-closing-party-amnesia-2026-10-09/",
-  590: "https://jaegeroslo.no/events/",
-  591: "https://swg3.tv/events",
-  592: "https://www.warehouse-nantes.fr/event",
-  593: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic",
-  594: "https://swg3.tv/events",
-  595: "https://www.fnacspectacles.com/",
-  596: "https://www.roxy.cz/en/events/detail/5089/camelphat",
-  597: "https://zalogarave.pl/kluby/poznan/tama",
-  598: "https://akvariumklub.hu/en/events/",
-  599: "https://www.ticketmaster.fr/fr/manifestation/pandemic-w-vortek-and-more-billet/idmanif/666180",
-  600: "https://www.fnacspectacles.com/",
-  601: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic",
-  602: "https://thewarehouseproject.com/calendar/",
-  603: "https://www.roxy.cz/en/events/detail/5093/pegassi",
-  604: "https://zalogarave.pl/kluby/poznan/tama",
-  605: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic",
-  606: "https://www.thuishaven.nl/",
-  607: "https://dclub.ch/agenda/",
-  608: "https://www.thuishaven.nl/",
-  609: "https://www.shelteramsterdam.nl/",
-  610: "https://zalogarave.pl/kluby/poznan/tama",
-  611: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic",
-  612: "https://www.songkick.com/metro-areas/28617-denmark-copenhagen/genre/electronic",
-  613: "https://www.shelteramsterdam.nl/",
-  614: "https://rockhal.lu/shows/timmy-trumpet/",
-  615: "https://zalogarave.pl/kluby/poznan/tama",
-  616: "https://www.thuishaven.nl/",
-  617: "https://www.shelteramsterdam.nl/",
-  618: "https://www.roxy.cz/en/events/detail/5059/adrian-mills",
-  619: "https://www.la-belle-electrique.com/fr/programmation",
-  620: "https://thewarehouseproject.com/events/overmono/",
-  621: "https://www.fnacspectacles.com/",
-  622: "https://www.drumshedslondon.com/whats-on/",
-  623: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic",
-  624: "https://ticketstation.bg/bg/e24453-modestep-fomo-the-club",
-  625: "https://www.transbordeur.fr/",
-  626: "https://www.warehouse-nantes.fr/event",
-  627: "https://www.drumshedslondon.com/whats-on/",
-  628: "https://www.roxy.cz/en/events/detail/4999/agents-of-time",
-  629: "https://www.grelleforelle.com/project/1311-zuckerwatt-w-mija/",
-  630: "https://culture-box.com/",
-  631: "https://www.drumshedslondon.com/whats-on/",
-  632: "https://swg3.tv/events",
-  633: "https://drumshedslondon.com/event/a-state-of-trance/",
-  634: "https://swg3.tv/events",
-  635: "https://www.roxy.cz/en/events/detail/5077/tinlicker",
-  636: "https://www.roxy.cz/en/events/detail/5023/mcr-t",
-  637: "https://www.songkick.com/metro-areas/32252-sweden-stockholm/genre/electronic",
-  638: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic",
-  639: "https://swg3.tv/events",
-  640: "https://www.drumshedslondon.com/whats-on/",
-  641: "https://www.fnacspectacles.com/",
-  642: "https://www.thuishaven.nl/",
-  643: "https://www.grelleforelle.com/project/1112-zuckerwatt-w-ellen-allien/",
-  644: "https://www.warehouse-nantes.fr/event",
-  645: "https://www.rotterdamrave.com/events/rotterdam-rave-winter-special-2026",
-  646: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic",
-  647: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic",
-  648: "https://thewarehouseproject.com/calendar/",
-  649: "https://letitroll.eu/event/let-it-roll-winter-2027/",
-  650: "https://www.transbordeur.fr/",
-  651: "https://www.fnacspectacles.com/",
-  652: "https://www.fnacspectacles.com/",
-  653: "https://www.jds.fr/lyon/salle-de-concert-spectacle/le-sucre-16829_L",
-  654: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic",
-  655: "https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039",
-  656: "https://www.iabilet.ro/bilete-kapital-festival-124238/",
-  657: "https://openbeatz.de/en/tickets/",
-  658: "https://www.nature-one.de/en/tickets",
+  1: "https://www.awakenings.com", // Awakenings Summer Festival — Hilvarenbeek
+  3: "https://www.verknipt.com", // Verknipt Festival — Utrecht
+  7: "https://www.defqon1.com", // Defqon.1 Weekend — Biddinghuizen
+  10: "https://www.tomorrowland.com", // Tomorrowland — Boom
+  17: "https://www.nuits-sonores.com", // Nuits Sonores — Lyon
+  18: "https://www.astropolis.org", // Astropolis — Brest
+  21: "https://www.thepeacocksociety.fr", // The Peacock Society — Paris
+  22: "https://www.marvellousisland.com", // Marvellous Island — Torcy
+  23: "https://familypiknik.com", // Family Piknik — Montpellier
+  24: "https://hadra.net", // Hadra Trance Festival — Vieure
+  25: "https://www.ticketmaster.fr/fr/manifestation/positiv-electronic-festival-1-jour-billet/idmanif/649260", // Positiv Festival — Orange
+  31: "https://www.insane-festival.com", // Insane Festival — Apt
+  33: "https://www.kappafuturfestival.it", // Kappa FuturFestival — Turin
+  34: "https://sonar.es", // Sónar — Barcelona
+  35: "https://www.time-warp.de", // Time Warp — Mannheim
+  36: "https://amsterdam.dgtl.nl", // DGTL Amsterdam — Amsterdam
+  37: "https://www.nature-one.de", // Nature One — Kastellaun
+  39: "https://junction2.london", // Junction 2 — London
+  45: "https://www.dourfestival.eu", // Dour Festival — Dour
+  49: "https://www.ravetheplanet.com", // Rave The Planet Parade — Berlin
+  50: "https://untold.com", // UNTOLD — Cluj-Napoca
+  51: "https://ultraeurope.com", // Ultra Europe — Split
+  52: "https://www.decibeloutdoor.com", // Decibel Outdoor — Hilvarenbeek
+  53: "https://www.parookaville.com", // Parookaville — Weeze
+  54: "https://dekmantelfestival.com", // Dekmantel Festival — Amsterdam
+  55: "https://creamfields.com", // Creamfields — Daresbury
+  56: "https://monegrosfestival.com", // Monegros Desert Festival — Fraga
+  57: "https://ticketmaster.evyy.net/c/7550075/1965662/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fkiki-manchester-manchester-18-09-2026%2Fevent%2F35006494E6FC49D2", // The Warehouse Project — Manchester
+  58: "https://www.awakenings.com", // Awakenings ADE — Amsterdam
+  59: "https://ozorafestival.eu", // OZORA Festival — Dádpuszta
+  60: "https://neopopfestival.com", // Neopop Festival — Viana do Castelo
+  61: "https://www.glitchfestival.com", // Glitch Festival — Ħaż-Żebbuġ
+  62: "https://zamnafestival.com", // Zamna Tulum — Tulum
+  63: "https://letitroll.eu", // Let It Roll — Most
+  64: "https://unumfestival.com", // UNUM Festival — Shëngjin
+  65: "https://www.nosleepfestival.com", // No Sleep Festival — Belgrade
+  66: "https://www.sonnemondsterne.de", // SonneMondSterne — Saalburg-Ebersdorf
+  67: "https://www.polifonic.it", // Polifonic — Bari
+  68: "https://festiwalnowamuzyka.pl", // Tauron Nowa Muzyka — Katowice
+  100: "https://www.eskapefestival.com/billetterie/", // Eskape Festival — Montilly-sur-Noireau
+  101: "https://www.houghtonfestival.co.uk/", // Houghton Festival — King's Lynn
+  102: "https://fortdecibelfestival.com/", // Fort Décibel Festival — Cussac-Fort-Médoc
+  103: "https://www.streetparade.com/en", // Street Parade — Zurich
+  104: "https://www.boomtownfair.co.uk/info", // Boomtown Chapter Five — Winchester
+  105: "https://electrolapse.fr/billetterie", // Electrolapse Festival — Saint-Sorlin-en-Valloire
+  106: "https://www.rotterdamrave.com/events/rotterdam-rave-festival-2026", // Rotterdam Rave Festival — Rotterdam
+  107: "https://sunwaves-fest.ro/sunwaves-2026/", // Sunwaves SW38 — Roquetas de Mar
+  108: "https://www.ticketmaster.fr/fr/manifestation/rave-in-da-club-x-wolf-city-w-hysta-billet/idmanif/660295/idseance/4342807", // Rave in da Club x Wolf City — Nantes
+  109: "https://www.elektricpark.com/", // Elektric Park Festival — Chatou
+  110: "https://pharaonic.fr/", // Pharaonic — Cluses
+  111: "https://shotgun.live/fr/festivals/le-jardin-electronique-2026", // Le Jardin Électronique — Lille
+  113: "https://parisjetaime.com/eng/event/techno-parade-e006", // Techno Parade — Paris
+  114: "https://shotgun.live/fr/festivals/utopia-festival-tome-vi", // Utopia Festival — Marseille
+  115: "https://thewarehouseproject.com/events/", // The Warehouse Project: Solomun — Manchester
+  116: "https://www.maintenant-festival.fr/", // Festival Maintenant — Rennes
+  117: "https://www.unsound.pl/en/unsound-2026", // Unsound Warsaw – Soft Power — Warsaw
+  118: "https://www.ibiza-spotlight.com/night/events/2026/10", // David Guetta presents Galactic Circus – Closing Party — Ibiza
+  119: "https://www.syndicate-festival.de/", // Syndicate — Dortmund
+  120: "https://www.ibiza-spotlight.com/night/events/2026/10", // Amnesia Pyramid Closing Party — Ibiza
+  121: "https://www.ibiza-spotlight.com/night/events/2026/10", // Solomun Closing Party — Ibiza
+  122: "https://billetterie.ndkfestival.com/", // NDK Festival — Caen
+  123: "https://www.unsound.pl/en/unsound-2026", // Unsound Kraków – Soft Power — Kraków
+  124: "https://www.warehouse-nantes.fr/event", // Nantes Rave Techno XXL — Nantes
+  125: "https://www.ticketmaster.fr/fr/manifestation/pandemic-w-vortek-and-more-billet/idmanif/666180/idseance/4375635", // Pandemic — Nantes
+  126: "https://shotgun.live/fr/events/sonora-bordeaux", // Sonora Bordeaux — Bordeaux
+  127: "https://www.amsterdam-dance-event.nl/en/program/filter/?section=events&type=8262%2C8263&from=2026-10-21&to=2026-10-25", // Amsterdam Dance Event (ADE) — Amsterdam
+  128: "https://shop.awakenings.com/en/awakenings-ade-2026", // Awakenings ADE – Drumcode — Amsterdam
+  129: "https://dice.fm/event/6d8lmq-terminal-v-23rd-oct-drumsheds-london-tickets", // Terminal V London — London
+  130: "https://www.afaslive.nl/en/agenda/verknipt-ade-special", // Verknipt ADE Special — Amsterdam
+  131: "https://www.dockyardfestival.com/", // Dockyard Festival ADE — Amsterdam
+  132: "https://loveland.nl/ade/tickets/", // Boris Brejcha pres. FCKNG SERIOUS x Loveland — Amsterdam
+  133: "https://www.thewalkingbass.fr/billetterie/", // The Walking Bass Festival — Marseille
+  134: "https://dreamnation.fr/", // Dream Nation Festival — Villepinte
+  135: "https://thewarehouseproject.com/events/", // The Warehouse Project: Overmono – Pure Devotion — Manchester
+  136: "https://mirafestival.com/en/", // MIRA Digital Arts Festival — Barcelona
+  137: "https://thewarehouseproject.com/events/", // The Warehouse Project: Klangkuenstler — Manchester
+  138: "https://www.lestrans.com/le-festival/billetterie_trans/", // Les Rencontres Trans Musicales — Rennes
+  139: "https://www.afas-dome.be/en/event/thunderdome-2026-552e132d", // Thunderdome — Antwerp
+  140: "https://thewarehouseproject.com/events/", // The Warehouse Project New Year's Eve — Manchester
+  141: "https://www.ctm-festival.de/", // CTM Festival — Berlin
+  142: "https://www.rampage.eu/events/rampage-weekend-2027", // Rampage Weekend — Antwerp
+  143: "https://www.snowboxx.com/", // Snowboxx — Avoriaz
+  144: "https://winter.tomorrowland.com/fr/", // Tomorrowland Winter — Alpe d'Huez
+  145: "https://www.reperkusound.com/billetterie/", // Reperkusound — Lyon
+  146: "https://dgtl-festival.com/en/dgtl-amsterdam/", // DGTL Amsterdam — Amsterdam
+  147: "https://www.time-warp.de/tickets/", // Time Warp — Mannheim
+  148: "https://snowbombing.com/", // Snowbombing — Mayrhofen
+  149: "https://www.mayday.de/en/tickets", // Mayday — Dortmund
+  150: "https://nuits-sonores.com/en/tickets/", // Nuits Sonores — Lyon
+  151: "https://insanefestival.com/billetterie/", // Insane Festival — Apt
+  152: "https://shotgun.live/fr/festivals/festival-le-bon-air-2027", // Festival Le Bon Air — Marseille
+  153: "https://marvellous-island.fr/billetterie/", // Marvellous Island Festival — Torcy
+  154: "https://www.awakenings.com/en/", // Awakenings Upclose — Spaarnwoude
+  155: "https://www.namelessfestival.it/en/festival-2027", // Nameless Festival — Lecco
+  156: "https://sonar.es/en/tickets", // Sónar — Barcelona
+  157: "https://aluna-festival.fr/", // Aluna Festival — Ruoms
+  158: "https://www.q-dance.com/en/events/defqon-1/defqon-1-2027/", // Defqon.1 Weekend Festival — Biddinghuizen
+  159: "https://www.festivalpleinair.fr/billetterie/", // Festival Plein Air — Douai
+  160: "https://www.kappafuturfestival.it/en", // Kappa FuturFestival — Turin
+  161: "https://www.awakenings.com/en/", // Awakenings Festival — Hilvarenbeek
+  162: "https://ultraeurope.com/tickets/festival/", // Ultra Europe — Split
+  163: "https://terminalv.co.uk/terminal-v-all-events", // Terminal V Croatia — Tisno
+  164: "https://www.parookaville.com/en/tickets", // Parookaville — Weeze
+  165: "https://lesnuitssecretes.com/", // Les Nuits Secrètes — Aulnoye-Aymeries
+  166: "https://monegrosfestival.com/en", // Monegros Desert Festival — Fraga
+  167: "https://croatia.defected.com/", // Defected Croatia — Tisno
+  168: "https://www.alltogethernow.ie/", // All Together Now — Portlaw
+  169: "https://sunrisefestival.pl/", // Sunrise Festival — Kolobrzeg
+  170: "https://www.control-club.ro/", // Stray Lights Festival — Bucharest
+  171: "https://www.wknd.fi/en/tickets/", // Weekend Festival Finland — Espoo
+  172: "https://clubkaiku.fi/", // Kaiku : Isabel Soto — Helsinki
+  173: "https://summersound.lv/en/tickets", // Summer Sound — Liepāja
+  174: "https://www.teletech.events/events", // Teletech Festival — Manchester
+  175: "https://freshwavefestival.com/", // Freshwave Festival — Banja Luka
+  176: "https://www.bilesuserviss.lv/en/tickets/7JH332FZYQ/calvin-harris", // Positivus 2026 : Calvin Harris — Riga
+  177: "https://lovefest.rs/lovefest-2026/", // Lovefest — Vrnjacka Banja
+  178: "https://lake-fest.me/en/", // Lake Fest — Niksic
+  179: "https://clubkaiku.fi/", // PEARL : Dasha Rush — Helsinki
+  180: "https://swg3.tv/events/2026/august/chris-stussy-scotland-lost-found-forgotten/", // FLY presents Chris Stussy Scotland — Glasgow
+  181: "https://www.lab11.co.uk/events", // WYLD Summer Showcase — Birmingham
+  182: "https://zrce.com/events/barrakud-festival-2026", // Barrakud Festival — Novalja
+  183: "https://szigetfestival.com/en/", // Sziget Festival — Budapest
+  184: "https://eclipse.is/", // Iceland Eclipse — Hellissandur
+  185: "https://ulaznica.org/tickets/297/the-prodigy", // The Prodigy a Sarajevo — Sarajevo
+  186: "https://www.wayoutwest.se/en/tickets/", // Way Out West — Göteborg
+  187: "https://www.grapefestival.sk/en", // Grape Festival — Trencin
+  188: "https://turbinabudapest.hu/en", // Turbina : KAKAO 014 — Budapest
+  189: "https://www.flowfestival.com/en/tickets/", // Flow Festival — Helsinki
+  190: "https://www.concorde2.co.uk/", // Marshall Jefferson at Concorde 2 — Brighton
+  191: "https://www.indexdublin.com/events", // Index: 808 State (DJ set) — Dublin
+  192: "https://www.songkick.com/venues/3112574-white-hotel/calendar", // Marie Davidson at The White Hotel — Manchester
+  193: "https://weoutherefestival.com/", // We Out Here Festival — Wimborne St Giles
+  194: "https://www.sagafestival.com/", // SAGA Festival — Bucharest
+  195: "https://www.fieldmaneuvers.com/", // Field Maneuvers — Norfolk
+  196: "https://culture-box.com/", // Culture Box : Timo Maas — Copenhagen
+  197: "https://clubkaiku.fi/", // Kaiku : Mike Servito — Helsinki
+  198: "https://ra.co/events/2259478", // Dimensions Festival — Tisno
+  199: "https://lostvillagefestival.com/", // Lost Village — Norton Disney
+  200: "https://culture-box.com/", // Elevate Bass Rave : Taxman — Copenhagen
+  201: "https://jaegeroslo.no/events/friday-fraedag-x-hubbas-klubb-gerd-janson-2/", // Frædag x Hubbas Klubb : Gerd Janson — Oslo
+  202: "https://clubkaiku.fi/", // Kaiku : Badsista — Helsinki
+  203: "https://tradgardenfestival.se/biljetter", // Trädgården Festival — Kristianstad
+  204: "https://anka.li/upcoming-events/", // FEMXCORE x REJUV — Prague
+  205: "https://www.forwardsbristol.co.uk/", // Forwards Festival — Bristol
+  206: "https://shine.tickets/events/list", // Emerge Festival — Belfast
+  207: "https://www.midix.is/en/extreme-chill-festival-2026-festival-pass/eid/1030", // Extreme Chill Festival — Reykjavík
+  208: "https://ra.co/events/2420148", // Audra Festival — Kaunas
+  209: "https://shop.tmw.ee/", // Station Narva — Narva
+  210: "https://www.bonfirefestival.se/biljetter/", // Bonfire Festival — Linköping
+  211: "https://www.fold.london/tickets", // FOLD presents Bassiani (Extended) — London
+  212: "https://anka.li/upcoming-events/", // Matrixsport : Club Hel 2 — Prague
+  213: "https://loftasfest.com/", // Loftas Fest — Vilnius
+  214: "https://www.flyflyfly.co.uk/", // FLY Open Air Edinburgh — Edinburgh
+  215: "https://waterworksfestival.co.uk/", // Waterworks Festival — London
+  216: "https://www.concorde2.co.uk/", // Todd Terje at Concorde 2 — Brighton
+  217: "https://ra.co/clubs/109137", // Bassiani: SPANDAU20 Nacht — Tbilisi
+  218: "https://www.klub-k4.si/en/", // Klub K4 : ouverture de saison — Ljubljana
+  219: "https://jaegeroslo.no/events/", // Frædag : Elli Acula — Oslo
+  220: "https://akvariumklub.hu/en/events/akvawaves-iam-productions-pres-juliet-fox/", // AkvaWaves x IAM : Juliet Fox — Budapest
+  221: "https://lunchmeatfestival.cz/2026/", // Lunchmeat Festival — Prague
+  222: "https://avafestival.com/london/", // AVA London — London
+  223: "https://jaegeroslo.no/events/", // Frædag : Tony Humphries — Oslo
+  224: "https://swg3.tv/events/", // FLY House Heads Glasgow — Glasgow
+  225: "https://culture-box.com/", // Peccāvī : Alex Stein — Copenhagen
+  226: "https://www.entrio.hr/en", // Autechre a Tvornica Kulture — Zagreb
+  227: "https://jasna1.com/events/", // Jasna 1 : Donato Dozzy x Unsound — Warsaw
+  228: "https://www.teletech.events/events", // Teletech Leeds: Warehouse — Leeds
+  229: "https://bilet.bg/en/events/autechre-at-toplocentrala-06-october-2026-7255", // Autechre a Toplocentrala — Sofia
+  230: "https://www.clubguesthouse.ro/", // Autechre au Club Guesthouse — Bucharest
+  231: "https://www.exist.pl/events/verknipt-warsaw-bilety-2026", // Verknipt Poland - Warsaw — Warsaw
+  232: "https://www.teletech.events/events", // Teletech Liverpool — Liverpool
+  233: "https://noboundsfestival.co.uk/", // No Bounds Festival — Sheffield
+  234: "https://insomniafestival.no/tickets/", // Insomnia Festival — Tromsø
+  235: "https://www.indexdublin.com/events", // Index: Lane 8 — Dublin
+  236: "https://culture-box.com/", // Culture Box : Xinobi — Copenhagen
+  237: "https://www.teletech.events/events", // Teletech Glasgow — Glasgow
+  238: "https://www.drumshedslondon.com/whats-on/", // Elrow Horroween — London
+  239: "https://icelandairwaves.is/tickets/", // Iceland Airwaves — Reykjavík
+  240: "https://jasna1.com/events/", // Jasna 1 : 999999999 — Warsaw
+  241: "https://biletomat.pl/wydarzenia/mayday-poland-29850", // MAYDAY Poland 2026 : Iconic — Katowice
+  242: "https://swg3.tv/events/", // SYNRG: Francesco Del Garda & DJ Masda — Glasgow
+  243: "https://www.teletech.events/events", // Teletech Newcastle — Newcastle
+  244: "https://drumshedslondon.com/event/a-state-of-trance/", // Armin van Buuren at Drumsheds — London
+  245: "https://shine.tickets/events/list", // Duke Dumont at The Telegraph Building — Belfast
+  246: "https://taksirat.mk/bileti/", // Taksirat Festival — Skopje
+  247: "https://www.teletech.events/events", // Teletech Bristol — Bristol
+  248: "https://shine.tickets/events/list", // Shine: Dusky — Belfast
+  249: "https://www.teletech.events/events", // Teletech Belfast — Belfast
+  250: "https://www.teletech.events/events", // Teletech Cardiff — Cardiff
+  251: "https://tmw.ee/", // Tallinn Music Week — Tallinn
+  252: "https://www.fielddayfestivals.com/", // Field Day — London
+  253: "https://www.cphdistortion.dk/tickets", // Copenhagen Distortion — Copenhagen
+  254: "https://www.gottwood.co.uk/", // Gottwood Festival — Anglesey
+  255: "https://www.roskilde-festival.dk/en/tickets/", // Roskilde Festival — Roskilde
+  256: "https://hideoutfestival.com/", // Hideout Festival — Novalja
+  257: "https://www.b4l.cz/en/", // Beats for Love — Ostrava
+  258: "https://www.pohodafestival.sk/en", // Pohoda Festival — Trencin
+  260: "https://ticketmaster.evyy.net/c/7550075/1965662/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fpepsi-max-presents-parklife-2027-tickets%2Fartist%2F1061343", // Parklife — Manchester
+  261: "https://electriccastle.ro/", // Electric Castle — Cluj-Napoca
+  262: "https://linktr.ee/shapesfestival", // Shapes Festival Zakynthos — Zakynthos
+  263: "https://www.rotondes.lu/fr/programmation/temps-forts/conges-annules", // Congés Annulés – LusterClub sur le Parvis — Luxembourg
+  264: "https://solarweekend.com/", // Solar Weekend Festival — Roermond
+  265: "https://www.odaysfestival.dk/", // O Days Festival — Copenhagen
+  266: "https://www.blitz.club/", // BLITZ Closing Weekend — That's All Folks — Munich
+  267: "https://www.dreambeach.es/", // Dreambeach Costa del Sol — Málaga
+  268: "https://vivafestival.it/", // VIVA! Festival — Locorotondo
+  269: "https://clubbasis.nl/", // BASIS Outdoor — Utrecht
+  270: "https://lehmannclub.ticket.io/?lang=en", // Lehmann Clubnacht — Len Faki & FJAAK — Stuttgart
+  271: "https://bird-rotterdam.nl/agenda/", // Aunt Records x BIRD Garden Blockparty — Rotterdam
+  272: "https://microfestival.be/", // Micro Festival — Liège
+  273: "https://lethargy.ch/", // Lethargy Festival — Zurich
+  275: "https://www.paradigmfestival.com/", // Paradigm Festival — Groningen
+  276: "https://www.berghain.berlin/en/program/", // Berghain — Ostgut Ton Klubnacht — Berlin
+  277: "https://www.katermukke.com/events", // Katermukke Open Air — Hamburg
+  278: "https://aaniwalli.fi/events/", // Fury Open Air & Indoor — Helsinki
+  279: "https://www.medusasunbeach.com/", // Medusa Sunbeach Festival — Valencia
+  280: "https://www.cavoparadiso.gr/", // Nina Kraviz · Cavo Paradiso — Mykonos
+  281: "https://aquasella.com/", // Aquasella — Arriondas
+  282: "https://www.cocorico.it/", // Galactica Festival · Cocoricò — Riccione
+  283: "https://www.livenation.be/event/wecandance-2026-brugge-tickets-edp1644276", // WECANDANCE — Zeebrugge
+  284: "https://www.xrds.be/", // XRDS – Crossroads Festival — Brussels
+  285: "https://aaniwalli.fi/events/", // Ääniwalli Weekender : Polygonia — Helsinki
+  286: "https://www.panorama-festival.it/", // Panorama Festival — Lecce
+  287: "https://clubbasis.nl/", // BASIS w/ Identified Patient & Schacke — Utrecht
+  288: "https://c12space.com/agenda/", // C12 Nite w/ Sandrien — Brussels
+  289: "https://tresorberlin.com/club/events/", // Tresor Klubnacht — Berlin
+  290: "https://club.ritterbutzke.com/events", // House of Rave — Maceo Plex & Nicole Moudaber — Berlin
+  291: "https://lisboa.brunchelectronik.com/", // Brunch Electronik Lisboa #4 · Adam Beyer — Lisbon
+  292: "https://www.pukkelpop.be/en/", // Pukkelpop — Hasselt
+  293: "https://www.toffler.nl/club/", // Toffler presents LEYO and friends — Rotterdam
+  294: "https://www.berghain.berlin/en/program/", // Berghain — REEF (drum & bass) — Berlin
+  295: "https://dclub.ch/agenda/", // Play Hard — Mad Dog — Lausanne
+  296: "https://www.audio-club.ch/", // Ian Pooley à l'Audio Club — Geneva
+  297: "https://lagraviere.ch/", // Black Rave Culture à La Gravière — Geneva
+  298: "https://c12space.com/agenda/", // C12 Nite w/ Paramida — Brussels
+  299: "https://www.fuse.be/events", // Fuse presents Dan Shake & Luke Alessi — Brussels
+  300: "https://www.toffler.nl/club/", // Toffler x Maas Afterparty — Rotterdam
+  301: "https://tanzhaus-west.de/", // Frankfurt Technoclassics — Frankfurt
+  302: "https://conne-island.de/tickets.html", // Electric Weekender — Leipzig
+  303: "https://lisboa.brunchelectronik.com/", // Solomun Lisboa · Brunch × Neopop — Lisbon
+  304: "https://freeearth-festival.com/", // Free Earth Festival — Neos Marmaras
+  305: "https://linktr.ee/nemorafest", // Nemora Festival — Torre Alfina
+  306: "https://nibirii.com/", // Nibirii Festival — Düren
+  307: "https://aaniwalli.fi/events/", // Adrenaline : Flymeon — Helsinki
+  308: "https://c12space.com/agenda/", // C12 x Gimic x Circle Park Open Air — Brussels
+  309: "https://www.fuse.be/events", // Fuse presents Pearson Sound & Martyn — Brussels
+  310: "https://maassilo.com/dance/agenda/", // Rotterdam Rave Festival Afterparty — Rotterdam
+  311: "https://www.rote-sonne.com/club", // Rote Sonne x Bahnwärter Thiel — Open Air & Club — Munich
+  312: "https://tickets.nordstern.com/en", // Alix Perez au Nordstern — Basel
+  314: "https://www.cavoparadiso.gr/", // Deborah De Luca · Cavo Paradiso — Mykonos
+  315: "https://lisboa.brunchelectronik.com/", // Brunch Electronik Lisboa #5 · Charlotte de Witte — Lisbon
+  316: "https://www.draaimolen.nu/", // Draaimolen Festival — Tilburg
+  317: "https://www.beatpatrol.at/", // Beatpatrol Festival — Vienna
+  318: "https://ticketmaster.evyy.net/c/7550075/1958975/23899?u=https%3A%2F%2Fwww.ticketmaster.it%2Fartist%2Fdecibel-open-air-tickets%2F1044582", // Decibel Open Air — Florence
+  319: "https://primermusicfestival.com/", // ZAMNA × PRIMER Athens — Athens
+  320: "https://www.eternalsunfestival.com/", // Eternal Sun Festival — Sougia
+  321: "https://linktr.ee/komorebimusicfestival", // Komorebi Music Festival — Vinadio
+  322: "https://www.chaosinthecity.events/tickets", // Amelie Lens – Chaos in the City — Antwerp
+  323: "https://www.fuse.be/events", // Fuse presents Hadone curates: Nørbak & Tauceti — Brussels
+  324: "https://www.doornroosje.nl/event/rauwe-kicks-6/", // Rauwe Kicks — Nijmegen
+  325: "https://www.intothemadness.de/tickets/", // Into The Madness — Zülpich
+  326: "https://tickets.nordstern.com/en", // Teletech x DAY|RAVE — Basel
+  327: "https://sunandbass.net/", // SUNANDBASS — San Teodoro
+  328: "https://clubbasis.nl/", // BASIS x HARDLINE w/ Alarico — Utrecht
+  329: "https://www.smeerboel.nl/", // Smeerboel Festival — Utrecht
+  330: "https://www.dissonanzefestival.it/", // Dissonanze — Rome
+  331: "https://reworks.gr/", // reworks — Thessaloniki
+  332: "https://clubbasis.nl/", // BASIS x BCCO w/ Ignez — Utrecht
+  333: "https://www.postgarage.at/program/", // NZNZ à la Postgarage — Graz
+  334: "https://www.time-warp.de/spain/", // Time Warp Spain — Madrid
+  335: "https://www.bloomfestival.pt/", // Bloom Festival — Porto
+  336: "https://www.vivoconcerti.com/", // Anyma · ÆDEN Global Tour — Milan
+  337: "https://bird-rotterdam.nl/agenda/", // 360 Degrees: Jayda G — Rotterdam
+  338: "https://dclub.ch/agenda/", // Hard Bounce — Trym — Lausanne
+  339: "https://beonix.art/", // BEONIX Music Festival — Limassol
+  340: "https://maassilo.com/dance/agenda/", // De Interventie – Blackout II — Rotterdam
+  341: "https://www.supremacy.nl/nl/tickets", // Supremacy – State of Distortion — 's-Hertogenbosch
+  342: "https://www.cavoparadiso.gr/", // Cavo Paradiso Season Closing — Mykonos
+  343: "https://omana-festival.de/", // Omana Festival — Kalamitsi
+  344: "https://robotfestival.it/", // Robot Festival — Bologna
+  345: "https://maassilo.com/dance/agenda/", // Gabber Resistance: Back at Maassilo — Rotterdam
+  346: "https://clubbasis.nl/", // BASIS Vinyl Special w/ Narciss — Utrecht
+  347: "https://club.ritterbutzke.com/events", // Ritter Butzke Jubiläum — NTO — Berlin
+  348: "https://www.rebeltickets.es/en/montmelo/event/entradas-duro-festival-xxl-2026", // Duro Festival XXL — Montmeló
+  349: "https://www.grelleforelle.com/programm/", // Modeselektor — Classics Vol. 01 — Vienna
+  350: "https://bootshaus-club.ticket.io/", // Chris Stussy à Cologne — Cologne
+  351: "https://dclub.ch/agenda/", // Ninja Warriors — Indira Paganotto — Lausanne
+  352: "https://maassilo.com/dance/agenda/", // INFERI – Through Hell — Rotterdam
+  353: "https://www.megarave.com/", // Megarave – The Millennium Edition — Rotterdam
+  354: "https://clubtoclub.it/", // C2C Festival — Turin
+  355: "https://www.hospitalitydnb.com/", // Hospitality Halloween Rotterdam x Korsakov — Rotterdam
+  356: "https://tickets.nordstern.com/en/c/boris-brejcha-bernexpo-2094", // Boris Brejcha à Bernexpo — Bern
+  357: "https://www.fuse.be/events", // Fuse presents Silva Bumpa — Brussels
+  358: "https://www.ahoy.nl/en/events", // Pussy Lounge — Rotterdam
+  359: "https://bootshaus.tv/events/bootshaus-loonyland-pres-halloween-2026/", // Bootshaus & Loonyland — Halloween — Cologne
+  360: "https://maassilo.com/dance/agenda/", // Paul Elstak presents 'Wanna Play?' — Rotterdam
+  361: "https://raverebels.com/", // Rave Rebels XXL — Brussels
+  362: "https://club.ritterbutzke.com/events", // Stil vor Talent — Oliver Koletzki — Berlin
+  363: "https://culture-box.com/", // Culture Box : Dusky — Copenhagen
+  364: "https://muziekgieterij.nl/", // Link x Midnight w/ Dave Clarke & DJ Hell — Maastricht
+  365: "https://maassilo.com/dance/agenda/", // Rotterdam Rave presents TITI — Rotterdam
+  366: "https://dclub.ch/agenda/", // Space Odyssey — NTO & Joachim Pastor — Lausanne
+  367: "https://club.ritterbutzke.com/events", // Alan Fitzpatrick à Berlin — Berlin
+  368: "https://poolen.dk/en/koncerter/sub-focus/", // Sub Focus — Copenhagen
+  369: "https://liquicity.com/events/liquicity-ghent-2026/", // Liquicity Ghent — Ghent
+  370: "https://www.toffler.nl/indoor-festival/", // Toffler Indoor Festival – 15 Years — Rotterdam
+  371: "https://www.dalmafestival.com/", // Dalma Festival — Attard
+  372: "https://www.toxicator.de/tickets", // Toxicator — Mannheim
+  373: "https://raveonsnow.ticket.io/", // Rave on Snow — Saalbach-Hinterglemm
+  374: "https://tickets.nordstern.com/en", // Azyr au Nordstern — Basel
+  375: "https://liquicity.com/events/liquicity-winterfestival-2026/", // Liquicity Winterfestival — Eindhoven
+  376: "https://ing.arena.brussels/en/show/fcknye-festival/", // FCKNYE Festival — Brussels
+  377: "https://bootshaus-club.ticket.io/", // Bootshaus & Loonyland — NYE — Cologne
+  378: "https://club.ritterbutzke.com/events", // Hippie New Year — Berlin
+  379: "https://maassilo.com/dance/agenda/", // Unresolved: Bloodline – Warbound Protocol — Rotterdam
+  380: "https://www.reverze.be/", // Reverze — Antwerp
+  381: "https://www.mastersofhardcore.com/events", // Masters of Hardcore – The Masterplan — 's-Hertogenbosch
+  382: "https://www.rewirefestival.nl/tickets", // Rewire — The Hague
+  383: "https://malta.rongevents.com/", // Rong Open Air Festival Malta — St Paul's Bay
+  384: "https://ssfestivalmalta.com/", // Sunny Side Festival — Attard
+  385: "https://www.extrema.be/en/", // Extrema Outdoor Belgium — Houthalen-Helchteren
+  386: "https://www.sputnik-springbreak-shop.de/tickets/sputnik_springbreak_festival_2027", // Sputnik Spring Break — Pouch
+  387: "https://tofflerfestival.nl/", // Toffler Festival — Rotterdam
+  388: "https://www.intentsfestival.nl/en/", // Intents Festival — Oisterwijk
+  389: "https://www.worldclubdome.com/en/tickets", // World Club Dome — Frankfurt
+  390: "https://www.ikarus-festival.de/tickets/", // Ikarus Festival — Memmingen
+  391: "https://www.palmesus.com/", // Palmesus — Kristiansand
+  392: "https://www.ruhr-in-love.de/tickets", // Ruhr-in-Love — Oberhausen
+  393: "https://airbeat-one.de/tickets/", // Airbeat One — Neustadt-Glewe
+  394: "https://www.electriclove.at/en/ticket/", // Electric Love Festival — Salzburg
+  395: "https://www.ostendbeach.be/en/", // Ostend Beach Festival — Ostend
+  396: "https://www.boomfestival.org/", // Boom Festival — Idanha-a-Nova
+  397: "https://ortigiamusic.com/", // ortigia music — Syracuse
+  398: "https://dantz.eu/festival/", // Dantz Festival — San Sebastián
+  399: "https://wosfestival.es/", // WOS Festival — Santiago de Compostela
+  407: "https://detonation-festival.com/billetterie/", // Détonation Festival — Besançon
+  410: "https://www.warehouse-nantes.fr/event", // Club de Jour invite Guts — Nantes
+  413: "https://www.fnacspectacles.com/", // Folamour à l'Interférence — Balma
+  428: "https://www.positiveeducation.fr/", // Positive Education Festival — Saint-Étienne
+  435: "https://dystopia-festival.com/en/saint-etienne/", // Dystopia Festival — Saint-Étienne
+  436: "https://www.rise-festival.com/", // Rise Festival — Les Deux Alpes
+  442: "https://www.warehouse-nantes.fr/event", // The Avener au Warehouse — Nantes
+  448: "https://www.transbordeur.fr/", // NTO Live au Transbordeur — Villeurbanne
+  449: "https://www.fnacspectacles.com/", // NTO Live à La Laiterie — Strasbourg
+  452: "https://www.fnacspectacles.com/", // NTO Live au Bikini — Ramonville-Saint-Agne
+  456: "https://www.thuishaven.nl/", // Eelke Kleijn 10HRS à Thuishaven — Amsterdam
+  457: "https://www.thuishaven.nl/", // Bella Claxton, Club Angel & Milion à Thuishaven — Amsterdam
+  458: "https://www.thuishaven.nl/", // Benny Rodrigues 10HRS à Thuishaven — Amsterdam
+  459: "https://www.thuishaven.nl/", // Gaskin 5HRS à Thuishaven — Amsterdam
+  460: "https://www.thuishaven.nl/", // Toman, Dean Turnley & AAT à Thuishaven — Amsterdam
+  461: "https://www.thuishaven.nl/", // Kolter 10HRS à Thuishaven — Amsterdam
+  462: "https://www.thuishaven.nl/", // Menesix 10HRS à Thuishaven — Amsterdam
+  463: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Rampa + &ME — Manchester
+  464: "https://drumshedslondon.com/whats-on/", // Defected London — London
+  465: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Homobloc — Manchester
+  466: "https://drumshedslondon.com/whats-on/", // Steppers at Drumsheds — London
+  467: "https://www.thuishaven.nl/", // Zomerclosing à Thuishaven — Amsterdam
+  468: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: You&Me – Friday — Manchester
+  469: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: You&Me – Saturday — Manchester
+  470: "https://drumshedslondon.com/whats-on/", // NexUp: The Return — London
+  471: "https://www.thuishaven.nl/", // IOSIO 10HRS à Thuishaven — Amsterdam
+  472: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Worried About Henry — Manchester
+  473: "https://drumshedslondon.com/whats-on/", // Don't Let Daddy Know London — London
+  474: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Interplanetary Criminal — Manchester
+  475: "https://drumshedslondon.com/whats-on/", // Bugged Out: 2001&On… — London
+  476: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: doof – Hannah Laing — Manchester
+  477: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Alisha — Manchester
+  478: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Duke Dumont — Manchester
+  479: "https://drumshedslondon.com/whats-on/", // False Idols at Drumsheds — London
+  480: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: NexUp — Manchester
+  481: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Kettama – Steel City Dance Discs — Manchester
+  482: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: La Discothèque — Manchester
+  483: "https://drumshedslondon.com/whats-on/", // Worried About Henry London — London
+  484: "https://drumshedslondon.com/whats-on/", // La Discothèque 10th Anniversary — London
+  485: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: EastEnderz — Manchester
+  486: "https://drumshedslondon.com/whats-on/", // FUSE 18th Birthday — London
+  487: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: FAC51 The Haçienda — Manchester
+  488: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Tiësto — Manchester
+  489: "https://renate.cc/", // The Village Festival Berlin — Berlin
+  490: "https://bootshaus.tv/events/", // R3HAB au Bootshaus — Cologne
+  491: "https://bootshaus.tv/events/", // Bootshaus Sommerfest — Cologne
+  492: "https://bootshaus.tv/events/", // Blacklist & Inurfase pres. Zaagstep by Dr Donk — Cologne
+  493: "https://renate.cc/", // 19 Years Renate — Berlin
+  494: "https://bootshaus.tv/events/", // Polyamor au Bootshaus — Cologne
+  495: "https://bootshaus.tv/events/", // Bootshaus Sommerfest Closing — Cologne
+  496: "https://bootshaus.tv/events/", // Vertile pres. Everything Changes Live — Cologne
+  497: "https://bootshaus.tv/events/", // Unreal Weekender Night I — Cologne
+  498: "https://bootshaus.tv/events/", // Unreal Weekender Night II — Cologne
+  499: "https://bootshaus.tv/events/", // NIBIRII pres. Ely Oaks — Cologne
+  500: "https://bootshaus.tv/events/", // Chrome Cologne — Cologne
+  502: "https://bootshaus.tv/events/", // Affenkäfig Rules — Cologne
+  503: "https://bootshaus.tv/events/", // KitKatClub au Bootshaus — Cologne
+  505: "https://bootshaus.tv/events/", // Unreal x KUKO All Night Long — Cologne
+  506: "https://bootshaus.tv/events/", // KitKatClub au Bootshaus – 30 décembre — Cologne
+  509: "http://bootshaus.tv/events/into-the-madness-pre-party-weekender-w-ran-d-and-more/", // Into The Madness Pre-Party Weekender — Cologne
+  510: "https://cavoparadiso.gr/", // James Hype at Cavo Paradiso — Mykonos
+  511: "https://jaegeroslo.no/events/", // Ladies First — Oslo
+  513: "https://cavoparadiso.gr/", // David Morales at Cavo Paradiso — Mykonos
+  514: "https://www.warehouse-nantes.fr/event", // Echoes — Nantes
+  515: "https://jaegeroslo.no/events/", // Nightflight x Futoria — Oslo
+  516: "https://www.karrusel.dk/tickets", // Karrusel — Copenhagen
+  517: "https://www.uprising.sk/en/", // Uprising Festival — Bratislava
+  518: "https://dclub.ch/agenda/", // Playhard — Luca Agnelli — Lausanne
+  519: "https://www.warehouse-nantes.fr/event", // NRT w/ Nikolina — Nantes
+  521: "https://www.fuse.be/", // Fuse: The Third Room with Verraco — Brussels
+  522: "https://www.shelteramsterdam.nl/", // Shelter: Jesse Maas Curates — Amsterdam
+  523: "https://swg3.tv/events", // SWG3: Joshwa — Glasgow
+  524: "https://www.grelleforelle.com/project/2908-flashback-techno-classics-summer-edition/", // Flashback Techno Classics — Summer Edition — Vienna
+  525: "https://www.shelteramsterdam.nl/", // Shelter: Tins All Night — Amsterdam
+  527: "https://dclub.ch/agenda/", // Hard Cœur — Creeds — Lausanne
+  529: "https://www.songkick.com/metro-areas/28976-greece-athens/genre/electronic", // Zamna x Primer — Athens
+  530: "https://www.fuse.be/", // Fuse presents NIKOLINA & Ornella — Brussels
+  531: "https://cooltix.rs/event/6a294ad82519089e6f98dc3e", // Eric Prydz — OpenAir Corner — Belgrade
+  532: "https://www.ticketnation.it/milano/vision-open-air-w-charlotte-de-witte-ex-macello.8421", // Vision Open Air — Milan
+  534: "https://www.indexdublin.com/events/", // Index: HorsegiirL — Dublin
+  535: "https://www.shelteramsterdam.nl/", // Shelter: Ryan Elliott b2b Pancratio — Amsterdam
+  536: "https://www.idays.it/tickets", // I-Days Milano: David Guetta — Milan
+  537: "https://www.songkick.com/metro-areas/29037-croatia-zagreb/genre/electronic", // GusGus — Zagreb
+  538: "https://www.roxy.cz/en/events/detail/5043/clara-cuve", // Clara Cuvé au Roxy — Prague
+  539: "https://www.grelleforelle.com/project/1109-schranz-is-back-w-felix-krocher/", // Schranz is Back w/ Felix Kröcher — Vienna
+  540: "https://dclub.ch/agenda/", // Subset — Wilkinson — Lausanne
+  541: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic", // Helzinki Hardstyle Festival — Helsinki
+  542: "https://www.fuse.be/", // Fuse presents 2HOT2PLAY & ALT8 — Brussels
+  543: "https://www.grelleforelle.com/project/1209-mahlwerk-w-justin-jay-brent-honey-canelle-doublekick/", // Mahlwerk w/ Justin Jay — Vienna
+  544: "https://billetterie.la-belle-electrique.com/share/event/791-ACTRESS-M-b2b-MOODFINO-KENDAL-MALAGO", // Actress M b2b Moodfino + Kendal + Malago — Grenoble
+  545: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic", // Faithless — Helsinki
+  546: "https://www.shelteramsterdam.nl/", // Shelter: Traumer b2b Janeret — Amsterdam
+  548: "https://zalogarave.pl/kluby/poznan/tama", // Tama Season Opening — Poznań
+  549: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic", // Infected Mushroom — Oslo
+  550: "https://www.fuse.be/", // Fuse: SESH with Clara Cuvé & PETERBLUE — Brussels
+  551: "https://www.shelteramsterdam.nl/", // Shelter: PIV with Prunk — Amsterdam
+  552: "https://billetterie.la-belle-electrique.com/share/event/795-BABOUSH-KARLFROYE-VON-BIKRAV", // Baboush + Karlfroye + Von Bikräv — Grenoble
+  553: "https://www.shelteramsterdam.nl/", // Shelter: Signal NYC with Benny Rodrigues — Amsterdam
+  554: "https://swg3.tv/events", // SWG3: 2Passo & Hidde Van Wee — Glasgow
+  555: "https://www.roxy.cz/en/events/detail/5033/lilly-palmer", // Lilly Palmer au Roxy — Prague
+  556: "https://www.grelleforelle.com/project/2509-trancemaster-krause-all-night-long/", // Trancemaster Krause All Night Long — Vienna
+  557: "https://zalogarave.pl/kluby/poznan/tama", // Obsession — Kozlov, Luciid & Vendex — Poznań
+  558: "https://ticketmaster.evyy.net/c/7550075/1958975/23899?u=https%3A%2F%2Fwww.ticketmaster.it%2Fartist%2Ftomorrowland-symphony-of-unity-tickets%2F1422024", // Tomorrowland - Symphony of Unity — Verona
+  559: "https://www.roxy.cz/en/events/detail/4967/andy-c-mc-tonn-piper", // Andy C & MC Tonn Piper au Roxy — Prague
+  560: "https://www.grelleforelle.com/project/2609-yn-x-bcco-club-night/", // YN x BCCO Club Night — Vienna
+  561: "https://stockfish.nice.fr", // Boston Bun au Stockfish — Nice
+  563: "https://www.ticketmaster.fr/", // Lee Burridge à La Cabane — Toulouse
+  564: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Guy Gerber — Barcelona
+  565: "https://www.shelteramsterdam.nl/", // Shelter: Archie Hamilton — Amsterdam
+  566: "https://www.roxy.cz/en/events/detail/5095/james-hype", // James Hype au Roxy — Prague
+  567: "https://swg3.tv/events", // SWG3 Elevate: Paco Osuna — Glasgow
+  568: "https://www.unvrs.com/", // Armin van Buuren presents A State of Trance — Ibiza
+  569: "https://www.amnesia.es/", // Joseph Capriati presents Metamorfosi Closing Party — Ibiza
+  570: "https://www.unvrs.com/", // Paradise — Ibiza
+  571: "https://tickets.rs/event/autechre_live_prvi_put_ikada_u_srbiji_23817", // Autechre à Ložionica — Belgrade
+  572: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic", // Tiësto — Lisbon
+  573: "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar", // Warehouse 9 ans avec Bob Sinclar — Nantes
+  574: "https://www.theushuaiaexperience.com/", // Calvin Harris Closing Party — Ibiza
+  575: "https://pacha.com/en/ibiza/", // Music On — Ibiza
+  577: "https://billetterie.la-belle-electrique.com/share/event/797-BRUNO-BAZZETTI-PHASE-FATALE-THE-HACKER", // Bruno Bazzetti + Phase Fatale + The Hacker — Grenoble
+  578: "https://hiibiza.com/", // Black Coffee Closing Party — Ibiza
+  579: "https://www.unvrs.com/", // elrow Ibiza Closing Party — Ibiza
+  580: "https://www.theushuaiaexperience.com/", // ANTS — Ibiza
+  581: "https://www.unvrs.com/", // Carl Cox Closing Party — Ibiza
+  583: "https://www.halledelamachine.fr/", // Mecanik Paradize — Toulouse
+  584: "https://www.songkick.com/metro-areas/29037-croatia-zagreb/genre/electronic", // Kosheen — Zagreb
+  585: "http://bootshaus.tv/events/10-2026-blacklist-festival-2026/", // Blacklist Festival — Oberhausen
+  586: "https://zalogarave.pl/kluby/poznan/tama", // Chris Avantgarde au Tama — Poznań
+  587: "https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic", // Autechre à Cukrarna — Ljubljana
+  589: "https://ticketsibiza.com/event/glitterbox-closing-party-amnesia-2026-10-09/", // Glitterbox Closing Party — Ibiza
+  590: "https://jaegeroslo.no/events/", // Frædag: Octave One — Oslo
+  591: "https://swg3.tv/events", // SWG3: The Rocketman All Night Long — Glasgow
+  592: "https://www.warehouse-nantes.fr/event", // The Ring x Club de Jour — Nantes
+  593: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Kerri Chandler — Barcelona
+  594: "https://swg3.tv/events", // FLY: Silva Bumpa Glasgow — Glasgow
+  595: "https://www.fnacspectacles.com/", // La P'tite Fumée au Warehouse — Nantes
+  596: "https://www.roxy.cz/en/events/detail/5089/camelphat", // CamelPhat au Roxy — Prague
+  597: "https://zalogarave.pl/kluby/poznan/tama", // Pegassi au Tama — Poznań
+  598: "https://akvariumklub.hu/en/events/", // AkvaWaves invite Ely Oaks — Budapest
+  600: "https://www.fnacspectacles.com/", // La P'tite Fumée à la Rock School Barbey — Bordeaux
+  601: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic", // Laidback Luke — Oslo
+  603: "https://www.roxy.cz/en/events/detail/5093/pegassi", // Pegassi au Roxy — Prague
+  604: "https://zalogarave.pl/kluby/poznan/tama", // Sub Zero Project au Tama — Poznań
+  605: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Marcel Dettmann — Barcelona
+  606: "https://www.thuishaven.nl/", // Thuishaven ADE: In Trance We Trust — Amsterdam
+  607: "https://dclub.ch/agenda/", // Thylacine en concert — Lausanne
+  608: "https://www.thuishaven.nl/", // Thuishaven ADE: Glitterbox — Amsterdam
+  609: "https://www.shelteramsterdam.nl/", // Shelter ADE: 20 Years of The Warehouse Project — Amsterdam
+  610: "https://zalogarave.pl/kluby/poznan/tama", // Worakls au Tama — Poznań
+  611: "https://www.songkick.com/metro-areas/31422-norway-oslo/genre/electronic", // Markus Schulz — Oslo
+  612: "https://www.songkick.com/metro-areas/28617-denmark-copenhagen/genre/electronic", // Eric Prydz — Copenhagen
+  613: "https://www.shelteramsterdam.nl/", // Shelter ADE: Slapfunk — Amsterdam
+  614: "https://rockhal.lu/shows/timmy-trumpet/", // Timmy Trumpet at Rockhal — Esch-sur-Alzette
+  615: "https://zalogarave.pl/kluby/poznan/tama", // Psy Clan — Juno Reactor — Poznań
+  616: "https://www.thuishaven.nl/", // Thuishaven ADE: Michel de Hey & Philou Louzolo — Amsterdam
+  617: "https://www.shelteramsterdam.nl/", // Shelter ADE: Brighter Days x Life and Death — Amsterdam
+  618: "https://www.roxy.cz/en/events/detail/5059/adrian-mills", // Adrián Mills au Roxy — Prague
+  619: "https://www.la-belle-electrique.com/fr/programmation", // La P'tite Fumée à La Belle Électrique — Grenoble
+  621: "https://www.fnacspectacles.com/", // Hilight Tribe - Halloween Instrumental — Toulouse
+  623: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic", // Max Cooper — Lisbon
+  624: "https://ticketstation.bg/bg/e24453-modestep-fomo-the-club", // Modestep au FOMO — Sofia
+  625: "https://www.transbordeur.fr/", // La P'tite Fumée au Transbordeur — Villeurbanne
+  626: "https://www.warehouse-nantes.fr/event", // Club de Jour invite Bellaire & Dimitri — Nantes
+  628: "https://www.roxy.cz/en/events/detail/4999/agents-of-time", // Agents Of Time au Roxy — Prague
+  629: "https://www.grelleforelle.com/project/1311-zuckerwatt-w-mija/", // Zuckerwatt w/ Mija — Vienna
+  634: "https://swg3.tv/events", // Lucid Dreams: Acid Techno — Glasgow
+  635: "https://www.roxy.cz/en/events/detail/5077/tinlicker", // Tinlicker au Roxy — Prague
+  636: "https://www.roxy.cz/en/events/detail/5023/mcr-t", // MCR-T au Roxy — Prague
+  637: "https://www.songkick.com/metro-areas/32252-sweden-stockholm/genre/electronic", // Paul van Dyk — Stockholm
+  638: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic", // Project One — Helsinki
+  639: "https://swg3.tv/events", // SWG3: Sasha — Glasgow
+  641: "https://www.fnacspectacles.com/", // La P'tite Fumée au Rockstore — Montpellier
+  642: "https://www.thuishaven.nl/", // Thuishaven: Bart Skils 5HRS — Amsterdam
+  643: "https://www.grelleforelle.com/project/1112-zuckerwatt-w-ellen-allien/", // Zuckerwatt w/ Ellen Allien — Vienna
+  645: "https://www.rotterdamrave.com/events/rotterdam-rave-winter-special-2026", // Rotterdam Rave Winter Special — Rotterdam
+  646: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Hercules & Love Affair — Barcelona
+  647: "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic", // Azyr & Fatima Hajji — Lisbon
+  649: "https://letitroll.eu/event/let-it-roll-winter-2027/", // Let It Roll Winter — Prague
+  653: "https://www.jds.fr/lyon/salle-de-concert-spectacle/le-sucre-16829_L", // Lewis OfMan au Sucre — Lyon
+  654: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // NTO — Barcelona
+  655: "https://ticketmaster.evyy.net/c/7550075/1958958/23890?u=https%3A%2F%2Fwww.ticketmaster.de%2Fevent%2Ftmf-trier-music-festival-2027-tickets%2F1792096039", // TMF — Trier Music Festival — Trier
+  656: "https://www.iabilet.ro/bilete-kapital-festival-124238/", // Kapital Festival — Bucharest
+  657: "https://openbeatz.de/en/tickets/", // Open Beatz Festival — Herzogenaurach
+  658: "https://www.nature-one.de/en/tickets", // Nature One — Kastellaun
 };
 /* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
    partenariat payant). Google demande que ces liens sortants portent
@@ -1775,7 +1671,7 @@ const SPONSORED_TICKETS = new Set<number>([
    et un lien payant non déclaré est une infraction aux règles de Google sur les
    liens. La liste explicite ci-dessus reste utile pour les partenariats négociés
    ailleurs (un lien direct organisateur, par exemple). */
-const AFFILIATE_HOSTS = ["ticketmaster.", "livenation.", "ticketweb."];
+const AFFILIATE_HOSTS = ["ticketmaster.", "livenation.", "ticketweb.", "evyy.net"];
 
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
@@ -1815,6 +1711,20 @@ export const eventSlug = (e: RaveEvent): string => {
   const base = slugify(e.title);
   return canonicalEditionId(e.title) === e.id ? base : `${base}-${e.date.slice(0, 4)}`;
 };
+/**
+ * Slugs d'événements abandonnés → slug actuel.
+ *
+ * Le slug dérive du titre : corriger un titre casse l'URL déjà indexée. « The
+ * Warehouse Project » était un titre générique posé sur la seule date du 18/09,
+ * alors que les 21 autres dates de la saison suivent la convention « The Warehouse
+ * Project: {artiste} » — mais `/festival/the-warehouse-project` existe et est
+ * indexée. Même règle que pour les anciennes pages `/show/` : on renvoie un 301,
+ * jamais un 404.
+ */
+export const RENAMED_EVENT_SLUGS: Record<string, string> = {
+  "the-warehouse-project": "the-warehouse-project-ki-ki",
+};
+
 export const eventFromSlug = (s: string): RaveEvent | undefined => EVENTS.find((e) => eventSlug(e) === s);
 export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival");
 /** SEO-friendly canonical path for an event (festivals live under /festival). */

@@ -23,6 +23,20 @@ def norm(s):
 src = open(DATA).read()
 existing = {(norm(m.group(1)), m.group(2))
             for m in re.finditer(r'title: "([^"]+)".*?date: "(\d{4})-', src)}
+# La clé (titre, année) ne voit pas que « Pandemic » et « Pandemic w/ Vortek's »,
+# même salle et même nuit, sont le même événement : 30 doublons sont passés comme ça,
+# soit 30 pages en concurrence l'une avec l'autre. Ce qui identifie réellement une
+# date, c'est (ville, salle, jour) — un club ne tient pas deux soirées billetées le
+# même soir dans la même salle.
+# Une fiche = une ligne, et l'ordre des champs y est city … date … venue : on lit
+# donc ligne par ligne plutôt qu'avec un motif unique, qui n'aurait jamais matché.
+booked = set()
+for _line in src.split("\n"):
+    if not re.match(r'\s*\{ id: \d+,', _line): continue
+    _c = re.search(r'city: "([^"]+)"', _line)
+    _v = re.search(r'venue: "((?:[^"\\]|\\.)*)"', _line)
+    _d = re.search(r'date: "([\d-]+)"', _line)
+    if _c and _v and _d: booked.add((norm(_c.group(1)), norm(_v.group(1)), _d.group(1)))
 next_id = max(int(m) for m in re.findall(r"\{ id: (\d+),", src)) + 1
 
 # Researchers occasionally return a French exonym; the dataset uses English ones.
@@ -79,9 +93,12 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["country"] = COUNTRY_FIX.get(e["country"], e["country"])
         e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
         key = (norm(e["title"]), e["date"][:4])
+        bkey = (norm(e["city"]), norm(e["venue"]), e["date"])
         if key in existing or key in seen:
             skipped.append((fn, e["title"], e["date"])); continue
-        seen.add(key); rows.append(e); kept += 1
+        if bkey in booked:
+            skipped.append((fn, e["title"], e["date"] + " (même salle, même soir)")); continue
+        seen.add(key); booked.add(bkey); rows.append(e); kept += 1
     print(f"  {fn}: {len(data)} in, {kept} kept")
 
 rows.sort(key=lambda e: e["date"])
