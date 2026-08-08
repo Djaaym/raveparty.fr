@@ -1,0 +1,86 @@
+[
+  {
+    "title": "TMF — Trier Music Festival 2027",
+    "city": "Trier",
+    "date": "2027-03-20",
+    "ticketUrl": "https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039",
+    "note": "hardstyle / bigroom / electro, Messepark Trier — ajouté au catalogue"
+  },
+  {
+    "title": "TMF — Trier Music Festival (page artiste, toutes éditions)",
+    "city": "Trier",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.de/artist/tmf-trier-music-festival-tickets/1244593",
+    "note": "page récurrente de la marque sur Ticketmaster.de"
+  },
+  {
+    "title": "TMF — Trier Music Festival 2026",
+    "city": "Trier",
+    "date": "2026-03-14",
+    "ticketUrl": "https://www.ticketmaster.de/event/tmf-trier-music-festival-2026-tickets/1570392420",
+    "note": "édition passée, conservée pour la cartographie du catalogue Ticketmaster"
+  },
+  {
+    "title": "MAGMA Festival",
+    "city": "Berlin",
+    "date": "2026-08-08",
+    "ticketUrl": "https://www.ticketmaster.de/artist/magma-festival-tickets/1315024",
+    "note": "open air club culture au RSO.Berlin, 8-9 août 2026, 39,99-69,99 € — hors fenêtre de recherche (avant le 15/08)"
+  },
+  {
+    "title": "LAVA Festival",
+    "city": "Berlin",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.de/artist/lava-festival-tickets/1315034",
+    "note": "city festival de l'équipe Melt au RSO.Berlin (hyperpop / trance / hard groove) ; aucune date 2027 publiée à ce jour"
+  },
+  {
+    "title": "Habitat Festival",
+    "city": "Hamburg",
+    "date": "2026-07-18",
+    "ticketUrl": "https://www.ticketmaster.de/artist/habitat-festival-tickets/970219",
+    "note": "32 h de rave à Hambourg-Wilhelmsburg (techno / house / trance), 18-19 juillet 2026 — édition passée"
+  },
+  {
+    "title": "Most Wanted Festival — Electronic Dance Day",
+    "city": "Kaltenkirchen",
+    "date": "2026-07-24",
+    "ticketUrl": "https://www.ticketmaster.de/artist/most-wanted-festival-tickets/1382914",
+    "note": "open air EDM au Festplatz Kaltenkirchen (Showtek, Jebroer, DJ Quicksilver), 24-25 juillet 2026 — édition passée"
+  },
+  {
+    "title": "Spektrum Festival",
+    "city": "Hamburg",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.de/artist/spektrum-festival-tickets/895133",
+    "note": "rap + scène beat/électronique à Hambourg-Wilhelmsburg ; édition 2026 en pause, aucune date 2027 annoncée"
+  },
+  {
+    "title": "Target One Festival",
+    "city": "Wrocław",
+    "date": "2026-05-29",
+    "ticketUrl": "https://www.ticketmaster.pl/artist/target-one-festival-bilety/1444103",
+    "note": "trance / techno / hard techno / hardstyle, aéroport de Szymanów, 29-30 mai 2026 — édition passée, marque récurrente à surveiller pour 2027"
+  },
+  {
+    "title": "Grelle Forelle (salle) — programme Ticketmaster.at",
+    "city": "Vienna",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.at/venue/grelle-forelle-wien-tickets/wingrellef/101",
+    "note": "page de salle, pas un événement : le club vend surtout via ticket.io / eventim / stager, mais certaines dates remontent sur Ticketmaster.at"
+  },
+  {
+    "title": "Catalogue Dance & Elektro Ticketmaster.de (index)",
+    "city": "",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.de/konzerte/dance-elektro/201/events",
+    "note": "index à repasser régulièrement — bloqué (403) depuis le conteneur, à ouvrir depuis un navigateur"
+  },
+  {
+    "title": "Catalogue Dance/Electronic Ticketmaster.pl (index)",
+    "city": "",
+    "date": "",
+    "ticketUrl": "https://www.ticketmaster.pl/muzyka/dance-electronic/201/events",
+    "note": "index à repasser régulièrement — bloqué (403) depuis le conteneur"
+  }
+]
