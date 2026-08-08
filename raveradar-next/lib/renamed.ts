@@ -19,6 +19,6 @@
  * traite bien moins sûrement qu'une vraie redirection. Le middleware, lui, répond
  * avant tout rendu et pose un `Location` en bonne et due forme.
  */
-export const RENAMED_EVENT_SLUGS: Record<string, string> = {
-  "the-warehouse-project": "the-warehouse-project-ki-ki",
+export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; slug: string }> = {
+  "the-warehouse-project": { base: "festival", slug: "the-warehouse-project-ki-ki" },
 };

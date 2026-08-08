@@ -20,9 +20,11 @@ export function middleware(req: NextRequest) {
   const m = /^(\/en)?\/(event|festival)\/([^/]+)\/?$/.exec(pathname);
   if (m) {
     const to = RENAMED_EVENT_SLUGS[m[3]];
-    if (to) {
+    // Seulement sous l'arborescence où l'ancienne URL vivait vraiment : rediriger
+    // `/event/{slug}` d'un festival mènerait à un 404, ce qui vaut moins qu'un 404 direct.
+    if (to && to.base === m[2]) {
       const url = req.nextUrl.clone();
-      url.pathname = `${m[1] ?? ""}/${m[2]}/${to}`;
+      url.pathname = `${m[1] ?? ""}/${to.base}/${to.slug}`;
       return NextResponse.redirect(url, 301);
     }
   }
