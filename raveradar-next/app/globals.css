@@ -582,6 +582,21 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .card.is-past .poster { filter: grayscale(.75) brightness(.7); }
 
 /* --------------------------- LINK CLUSTERS ----------------------------- */
+/* A directory of 90 places or 1 185 artists is unreadable as a wall of pills:
+   the box filters it in place. Everything stays in the HTML — the input hides
+   rows client-side, it never fetches. */
+.filterbox { margin-top: 22px; }
+.filterbox-bar { display: flex; align-items: center; gap: 10px; position: relative; max-width: 520px; }
+.filterbox-icon { position: absolute; left: 13px; font-size: .9rem; pointer-events: none; opacity: .6; }
+.filterbox-bar .input { padding-left: 38px; }
+.filterbox-bar .input::-webkit-search-cancel-button { display: none; }
+.filterbox-clear {
+  flex: none; font-size: .78rem; padding: 8px 14px; border-radius: 99px; cursor: pointer;
+  border: 1px solid var(--line); background: rgba(255,255,255,.03); color: var(--grey);
+  transition: border-color .25s, color .25s;
+}
+.filterbox-clear:hover { border-color: var(--violet); color: var(--white); }
+
 /* Dense internal-linking blocks: related cities, genres, artists, venues. */
 .linkfarm { display: flex; flex-wrap: wrap; gap: 8px; }
 .linkfarm a {

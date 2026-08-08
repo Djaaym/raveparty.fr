@@ -18,17 +18,15 @@ export default function EventCard({
   e,
   lang,
   today,
-  href,
 }: {
   e: RaveEvent;
   lang: Lang;
   today?: string;
-  /** Overrides the destination — an artist page sends its cards to that artist's
-   *  `/show/` page, which is the more specific answer to "when do they play". */
-  href?: string;
 }) {
   const t = getDict(lang);
-  const to = href ?? `${langPrefix(lang)}${eventPath(e)}`;
+  // Always the event itself. The artist page used to override this with a
+  // `/show/{artist}-{venue}-{date}` URL; those pages are gone (301 → the event).
+  const to = `${langPrefix(lang)}${eventPath(e)}`;
   // `today` is passed down from the server where the distinction matters on screen;
   // without it the card just renders neutrally.
   const done = today ? isPast(e, today) : false;

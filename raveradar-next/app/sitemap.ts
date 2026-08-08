@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
-import { EVENTS, ALL_GENRES, genreSlug, eventPath, isPast, todayISO } from "@/lib/data";
+import { EVENTS, ALL_GENRES, genreSlug, eventPath, isPast } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
-import { SHOWS } from "@/lib/shows";
 import { VENUES } from "@/lib/venues";
 import { COUNTRIES_INDEX } from "@/lib/countries";
 import { SITE_URL } from "@/lib/site";
@@ -47,14 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   COUNTRIES_INDEX.forEach((c) => entries.push({ path: `/pays/${c.slug}`, priority: 0.8, changeFrequency: "weekly" }));
   ARTISTS.forEach((a) => entries.push({ path: `/artistes/${a.slug}`, priority: 0.6, changeFrequency: "weekly" }));
   VENUES.forEach((v) => entries.push({ path: `/lieux/${v.slug}`, priority: 0.6, changeFrequency: "weekly" }));
-  const today = todayISO();
-  SHOWS.forEach((s) =>
-    entries.push({
-      path: `/show/${s.slug}`,
-      priority: s.endDate < today ? 0.3 : 0.5,
-      changeFrequency: "monthly",
-    })
-  );
+  // No `/show/` entries: those URLs are 301 forwarders now, not pages.
 
   const now = new Date();
   const seen = new Set<string>();

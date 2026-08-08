@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, genreSlug, isPast, todayISO, upcoming } from "@/lib/data";
 import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -20,6 +20,10 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
 
   const today = todayISO();
   const here = eventsForPlace(place);
+  // Upcoming and finished as two lists: `eventsForPlace` returns upcoming-first, but
+  // run together the archive just trails off the end of the grid with no boundary.
+  const liveHere = here.filter((e) => !isPast(e, today));
+  const pastHere = here.filter((e) => isPast(e, today));
   const hereIds = new Set(here.map((e) => e.id));
   const nearby = upcoming()
     .filter((e) => !hereIds.has(e.id))
@@ -118,9 +122,9 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("city.events")} · {place.label}
           </h2>
-          {here.length > 0 ? (
+          {liveHere.length > 0 ? (
             <div className="grid grid-4">
-              {here.map((e) => (
+              {liveHere.map((e) => (
                 <EventCard key={e.id} e={e} lang={lang} today={today} />
               ))}
             </div>
@@ -133,6 +137,19 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
                 🔔 {t("city.alert")}
               </Link>
             </div>
+          )}
+
+          {pastHere.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("fest.past")} · {place.label}
+              </h2>
+              <div className="grid grid-4">
+                {pastHere.slice(0, 8).map((e) => (
+                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                ))}
+              </div>
+            </>
           )}
 
           <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
