@@ -645,5 +645,26 @@
     "descEn": "Josh Friend brings Modestep back to Sofia for what is billed as the project's most intense club show yet, dubstep and drum & bass to the fore. Tickets from €30.",
     "ticketUrl": "https://ticketstation.bg/bg/e24453-modestep-fomo-the-club",
     "sources": ["https://www.sofialive.bg/arts/music/modestep-objavi-goljamo-klubno-shou-v-bylgarija-2598819.html", "https://www.songkick.com/metro-areas/26892-bulgaria-sofia/genre/electronic"]
+  },
+  {
+    "title": "TMF — Trier Music Festival",
+    "type": "Festival",
+    "genres": ["Hardstyle", "EDM", "Hard Techno"],
+    "city": "Trier",
+    "country": "Germany",
+    "lat": 49.7413,
+    "lng": 6.6226,
+    "date": "2027-03-20",
+    "time": "17:30 - 04:00",
+    "price": 38.99,
+    "currency": "€",
+    "venue": "Messehalle Trier",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le Trier Music Festival remplit la halle du Messepark pour une nuit d'EDM, de hardstyle et de bigroom, portes à 17h30. Billet standard à 38,99 €, festival sans espèces, accès dès 16 ans ; le line-up 2027 n'est pas encore annoncé.",
+    "descEn": "Trier Music Festival fills the Messepark hall for a night of EDM, hardstyle and bigroom, doors at 5:30pm. Standard tickets are €38.99, the site is cashless and entry is 16+; the 2027 line-up has not been announced yet.",
+    "ticketUrl": "https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039",
+    "ticketmaster": true,
+    "sources": ["https://tmf-festival.de/en/", "https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039"]
   }
 ]
