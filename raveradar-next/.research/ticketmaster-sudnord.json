@@ -4,5 +4,35 @@
     "city": "Florence",
     "date": "2026-09-04",
     "ticketUrl": "https://www.ticketmaster.it/artist/decibel-open-air-tickets/1044582"
+  },
+  {
+    "title": "I-Days Milano: David Guetta (Monolith Tour)",
+    "city": "Milan",
+    "date": "2026-09-06",
+    "ticketUrl": "https://www.ticketmaster.it/"
+  },
+  {
+    "title": "Tomorrowland - Symphony of Unity",
+    "city": "Verona",
+    "date": "2026-09-25",
+    "ticketUrl": "https://www.ticketmaster.it/artist/tomorrowland-symphony-of-unity-tickets/1422024"
+  },
+  {
+    "title": "Flow Festival",
+    "city": "Helsinki",
+    "date": "2026-08-14",
+    "ticketUrl": "https://www.ticketmaster.fi/artist/flow-festival-tickets/938344"
+  },
+  {
+    "title": "EEG: CRYO (SE) + NEONSOL (DK) + NEOTEK (DK)",
+    "city": "Copenhagen",
+    "date": "2026-09-25",
+    "ticketUrl": "https://www.ticketmaster.dk/musik/dance-elektronic/201/events"
+  },
+  {
+    "title": "O Days Festival",
+    "city": "Copenhagen",
+    "date": "2026-07-30",
+    "ticketUrl": "https://www.ticketmaster.dk/artist/o-days-tickets/1311003"
   }
 ]
