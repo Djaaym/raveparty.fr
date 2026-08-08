@@ -31,6 +31,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
   const today = todayISO();
   const events = eventsForGenre(genre);
   const live = events.filter((e) => !isPast(e, today));
+  const done = events.filter((e) => isPast(e, today));
   const countries = [...new Set(live.map((e) => e.country))];
   // Artists who actually play this genre — turns the genre page into an artist hub.
   const artists = ARTISTS.filter((a) => a.genres.includes(genre))
@@ -81,10 +82,23 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
             {t("hub.next")} · {genre}
           </h2>
           <div className="grid grid-4">
-            {events.map((e) => (
+            {live.map((e) => (
               <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}
           </div>
+
+          {done.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("fest.past")} · {genre}
+              </h2>
+              <div className="grid grid-4">
+                {done.slice(0, 8).map((e) => (
+                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                ))}
+              </div>
+            </>
+          )}
 
           {artists.length > 0 && (
             <>

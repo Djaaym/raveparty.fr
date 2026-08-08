@@ -5,7 +5,6 @@ import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
 import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
 import { PLACES } from "@/lib/places";
-import { showsForArtist } from "@/lib/shows";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { artistSocials, sameAs } from "@/lib/socials";
 import { artistJsonLd, breadcrumbJsonLd } from "@/lib/seo";
@@ -28,8 +27,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const today = todayISO();
   const events = eventsForArtist(slug);
   const live = events.filter((e) => !isPast(e, today));
-  const shows = showsForArtist(slug);
-  const showHref = new Map(shows.map((sh) => [sh.eventId, `${p}/show/${sh.slug}`]));
+  const done = events.filter((e) => isPast(e, today));
   const related = relatedArtists(artist, 12);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
   // Cities the artist plays that we actually have a page for — links the artist mesh
@@ -146,19 +144,40 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             </div>
           )}
 
-          {/* One section, not two. The text list of shows and the grid of events were
-              the same dates twice over — but they pointed at different pages, and the
-              `/show/` pages are only ever linked from here and from a venue page. So the
-              grid survives and inherits the show link: on an artist page, "Amelie Lens at
-              Hilvarenbeek" is a better destination than the festival's general page. */}
+          {/* Straight to the event. These cards used to point at `/show/{artist}-{venue}-{date}`,
+              a page per booking that restated the event's own line-up and ticket link — ~1 850
+              near-duplicates whose only inbound links were here and on a venue page. The event
+              page is the destination; `/show/` URLs now 301 onto it.
+
+              Upcoming and finished are two lists, not one run: a reader scanning for the next
+              date shouldn't have to read past last winter's. */}
           <h2 className="h-md" style={{ margin: "40px 0 18px" }}>
             {t("artist.dates")}
           </h2>
-          <div className="grid grid-4">
-            {events.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} href={showHref.get(e.id)} />
-            ))}
-          </div>
+          {live.length > 0 ? (
+            <div className="grid grid-4">
+              {live.map((e) => (
+                <EventCard key={e.id} e={e} lang={lang} today={today} />
+              ))}
+            </div>
+          ) : (
+            <p className="lead" style={{ fontSize: ".95rem" }}>
+              {t("artist.nodates")}
+            </p>
+          )}
+
+          {done.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("fest.past")}
+              </h2>
+              <div className="grid grid-4">
+                {done.map((e) => (
+                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                ))}
+              </div>
+            </>
+          )}
 
           {cities.length > 0 && (
             <>

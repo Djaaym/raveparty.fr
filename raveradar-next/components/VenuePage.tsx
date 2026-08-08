@@ -26,6 +26,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
   const social = venueSocials(slug);
   const events = eventsForVenue(slug);
   const live = events.filter((e) => !isPast(e, today));
+  const done = events.filter((e) => isPast(e, today));
   const genres = [...new Set(events.flatMap((e) => e.genres))];
   // Every artist who has played or will play here — the venue↔artist mesh.
   const artists = [...new Map(showsForVenue(slug).map((s) => [s.artistSlug, s])).values()].slice(0, 30);
@@ -87,10 +88,23 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
             {t("venue.agenda")}
           </h2>
           <div className="grid grid-4">
-            {events.map((e) => (
+            {live.map((e) => (
               <EventCard key={e.id} e={e} lang={lang} today={today} />
             ))}
           </div>
+
+          {done.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("fest.past")}
+              </h2>
+              <div className="grid grid-4">
+                {done.map((e) => (
+                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                ))}
+              </div>
+            </>
+          )}
 
           {artists.length > 0 && (
             <>
@@ -98,8 +112,10 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
                 {t("venue.artists")}
               </h2>
               <div className="linkfarm">
+                {/* Vers la fiche artiste, pas vers une page `/show/` : celles-ci ne sont
+                    plus que des redirections 301 (cf. `lib/shows.ts`). */}
                 {artists.map((s) => (
-                  <Link key={s.artistSlug} href={`${p}/show/${s.slug}`}>
+                  <Link key={s.artistSlug} href={`${p}/artistes/${s.artistSlug}`}>
                     {s.artistName}
                   </Link>
                 ))}

@@ -9,6 +9,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import SearchableLinks from "./SearchableLinks";
 import JsonLd from "./JsonLd";
 
 export default function CitiesHub({ lang }: { lang: Lang }) {
@@ -24,6 +25,9 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   const fests = (liveFest.length ? liveFest : FESTIVALS).slice(0, 24);
   // Venues carry the club-name intent ("Berghain", "Rex Club") that a city page can't rank for.
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 16);
+  // Slug + bare name only: the "📍 Rave party" prefix is decoration the pill adds,
+  // not something a reader typing "lyon" should have to match.
+  const placeItems = (list: typeof PLACES) => list.map((v) => ({ slug: v.slug, term: v.label }));
 
   const intro =
     lang === "fr"
@@ -122,27 +126,21 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
             </>
           )}
 
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("cities.bigcities")}
-          </h2>
-          <div className="linkfarm">
-            {villes.map((v) => (
-              <Link key={v.slug} href={`${p}/rave-party/${v.slug}`}>
-                📍 Rave party {v.label}
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("cities.depts")}
-          </h2>
-          <div className="linkfarm">
-            {zones.map((v) => (
-              <Link key={v.slug} href={`${p}/rave-party/${v.slug}`}>
-                📍 Rave party {v.label}
-              </Link>
-            ))}
-          </div>
+          {/* 90 places is past the point where a reader scans a wall of pills for their
+              own town. The box filters both lists at once, and every link stays in the
+              server-rendered HTML — the crawler still sees the whole mesh. */}
+          <SearchableLinks
+            groups={[
+              { title: t("cities.bigcities"), items: placeItems(villes) },
+              { title: t("cities.depts"), items: placeItems(zones) },
+            ]}
+            hrefBase={`${p}/rave-party/`}
+            labelPrefix="📍 Rave party "
+            placeholder={t("filter.cities")}
+            countLabel={t("filter.count")}
+            emptyLabel={t("filter.none")}
+            clearLabel={t("filter.clear")}
+          />
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("cities.festbycity")}

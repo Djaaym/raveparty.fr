@@ -10,6 +10,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
+import SearchableLinks from "./SearchableLinks";
 import JsonLd from "./JsonLd";
 
 export default function ArtistsHub({ lang }: { lang: Lang }) {
@@ -24,6 +25,11 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
     (a, b) => b.eventIds.length - a.eventIds.length,
   );
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 14);
+  const artistItems = ARTISTS.map((a) => ({
+    slug: a.slug,
+    term: a.name,
+    hint: `${a.eventIds.length} ${t(a.eventIds.length > 1 ? "dyn.events" : "dyn.event")}`,
+  }));
 
   const intro =
     lang === "fr"
@@ -68,21 +74,6 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             <Link href={`${p}/explore`}>▦ {t("nav.explore")}</Link>
           </div>
 
-          {headliners.length > 0 && (
-            <>
-              <h2 className="h-md" style={{ margin: "44px 0 16px" }}>
-                {t("artists.headliners")}
-              </h2>
-              <div className="linkfarm">
-                {headliners.slice(0, 40).map((a) => (
-                  <Link key={a.slug} href={`${p}/artistes/${a.slug}`}>
-                    {a.name}
-                  </Link>
-                ))}
-              </div>
-            </>
-          )}
-
           {next.length > 0 && (
             <>
               <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
@@ -96,22 +87,18 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             </>
           )}
 
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("artists.az")}
-          </h2>
-          <div className="artist-grid">
-            {ARTISTS.map((a) => (
-              <Link key={a.slug} href={`${p}/artistes/${a.slug}`} className="artist-tile">
-                <div className="av">{a.name.trim()[0]}</div>
-                <div>
-                  <b>{a.name}</b>
-                  <span>
-                    {a.eventIds.length} {t(a.eventIds.length > 1 ? "dyn.events" : "dyn.event")}
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          {/* One list, searchable — the "upcoming headliners" block above it was the
+              same names a second time, and 1 185 tiles are only browsable by name.
+              Every artist link still ships in the HTML: the box filters, it never fetches. */}
+          <SearchableLinks
+            variant="tile"
+            groups={[{ title: t("artists.az"), items: artistItems }]}
+            hrefBase={`${p}/artistes/`}
+            placeholder={t("filter.artists")}
+            countLabel={t("filter.count")}
+            emptyLabel={t("filter.none")}
+            clearLabel={t("filter.clear")}
+          />
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("hub.bygenre")}

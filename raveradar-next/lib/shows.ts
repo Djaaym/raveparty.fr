@@ -1,4 +1,4 @@
-import { EVENTS, slugify, todayISO } from "./data";
+import { EVENTS, eventPath, slugify, todayISO } from "./data";
 import { guideFor } from "./guides";
 
 export interface Show {
@@ -83,6 +83,26 @@ export function artistFromDeadShowSlug(slug: string): string | null {
   if (RENAMED_SHOWS[head]) return RENAMED_SHOWS[head];
   // Longest match first: "amelie-lens" must win over a hypothetical "amelie".
   return ARTIST_SLUGS.find((a) => head === a || head.startsWith(`${a}-`)) ?? null;
+}
+
+/**
+ * Where a `/show/{artist}-{venue}-{date}` URL now sends its traffic.
+ *
+ * These pages were the JamBase model taken literally: one page per artist × venue
+ * × date, ~1 850 of them, each restating a line-up and a ticket link the event page
+ * already carries. Near-duplicate pages at that ratio read as doorway content, so
+ * the route survives only as a 301 — the event is the page that answers "when do
+ * they play", and the artist page is the fallback when the slug no longer resolves
+ * to a booking we still hold (venue renamed, line-up corrected).
+ */
+export function showRedirect(slug: string): string {
+  const s = showBySlug(slug);
+  if (s) {
+    const e = EVENTS.find((x) => x.id === s.eventId);
+    if (e) return eventPath(e);
+  }
+  const artistSlug = artistFromDeadShowSlug(slug);
+  return artistSlug ? `/artistes/${artistSlug}` : "/artistes";
 }
 
 /** Upcoming shows first (soonest → latest), then past ones (most recent → oldest). */

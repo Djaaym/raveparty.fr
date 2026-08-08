@@ -50,6 +50,11 @@ export function priceLabel(e: RaveEvent, lang: Lang): string {
     minimumFractionDigits: hasCents ? 2 : 0,
     maximumFractionDigits: 2,
   }).format(e.price);
-  const formatted = lang === "fr" ? `${amount} ${e.currency}` : `${e.currency}${amount}`;
+  // Prague et Varsovie sont arrivées avec l'expansion à l'est, et elles ne
+  // facturent pas en euros. Seules les trois devises que l'anglais écrit avant le
+  // nombre sont préfixées : « Kč490 » ou « zł120 » n'est la convention de personne,
+  // et aucune des deux langues ne les écrit ainsi.
+  const prefixed = lang === "en" && ["€", "£", "$"].includes(e.currency);
+  const formatted = prefixed ? `${e.currency}${amount}` : `${amount} ${e.currency}`;
   return `${e.priceNote === "estimated" ? "≈ " : ""}${formatted}`;
 }
