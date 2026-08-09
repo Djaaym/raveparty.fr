@@ -59,7 +59,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          ...(events.length ? [itemListJsonLd(events, lang, `${genre} — RaveRadar`)] : []),
+          itemListJsonLd(events, lang, `${genre} — RaveRadar`, today),
         ]}
       />
       <div className="blob b1" />

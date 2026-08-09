@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, countryLabel, genreSlug, slugify, todayISO, upcoming, venueLabelL } from "@/lib/data";
+import { ALL_GENRES, countryLabel, genreSlug, nextUp, slugify, todayISO, upcoming, venueLabelL } from "@/lib/data";
 import { VENUES } from "@/lib/venues";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -15,9 +15,9 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const today = todayISO();
-  const live = upcoming();
+  const live = upcoming(undefined, today);
   const liveIds = new Set(live.map((e) => e.id));
-  const next = live.slice(0, 4);
+  const next = nextUp(4, undefined, today);
   const liveCount = (ids: number[]) => ids.filter((id) => liveIds.has(id)).length;
   // Venues with something still to come first; the rest stay listed alphabetically for the archive.
   const venues = [...VENUES].sort(
@@ -46,7 +46,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          ...(next.length ? [itemListJsonLd(next, lang, t("venues.title"))] : []),
+          itemListJsonLd(next, lang, t("venues.title"), today),
         ]}
       />
       <div className="blob b1" />

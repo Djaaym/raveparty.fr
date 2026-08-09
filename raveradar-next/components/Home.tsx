@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, COUNTRIES, GENRES, genreSlug, genreDescL, upcoming, todayISO } from "@/lib/data";
+import { ALL_GENRES, COUNTRIES, GENRES, genreSlug, genreDescL, featured, upcoming, todayISO } from "@/lib/data";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -19,10 +19,8 @@ export default function Home({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const today = todayISO();
-  const live = upcoming();
-  // Highlight the trending events that are still ahead; top up with the next dates so the
-  // grid never thins out at the tail of a season.
-  const trending = [...live.filter((e) => e.trending), ...live.filter((e) => !e.trending)].slice(0, 8);
+  const live = upcoming(undefined, today);
+  const trending = featured(8, undefined, today);
 
   return (
     <>

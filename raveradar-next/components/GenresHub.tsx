@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, GENRES, FESTIVALS, eventSlug, genreSlug, genreDescL, upcoming } from "@/lib/data";
+import { ALL_GENRES, GENRES, FESTIVALS, eventSlug, genreSlug, genreDescL, liveEditions, todayISO, upcoming } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
 import { VENUES } from "@/lib/venues";
@@ -14,14 +14,17 @@ import JsonLd from "./JsonLd";
 export default function GenresHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
-  const live = upcoming();
+  const today = todayISO();
+  const live = upcoming(undefined, today);
   const liveIds = new Set(live.map((e) => e.id));
   // Artists with a date still to come — the ones worth sending link equity to.
   const artists = ARTISTS.filter((a) => a.eventIds.some((id) => liveIds.has(id)))
     .sort((a, b) => b.eventIds.length - a.eventIds.length)
     .slice(0, 30);
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 14);
-  const fests = (upcoming(FESTIVALS).length ? upcoming(FESTIVALS) : FESTIVALS).slice(0, 16);
+  // Finished editions swapped for their next one instead of falling back to the archive:
+  // a shortlist that links a page stamped "édition terminée" is worse than a short one.
+  const fests = liveEditions(FESTIVALS, today).slice(0, 16);
 
   const intro =
     lang === "fr"
@@ -120,16 +123,20 @@ export default function GenresHub({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("cities.topfest")}
-          </h2>
-          <div className="linkcols">
-            {fests.map((e) => (
-              <Link key={e.id} href={`${p}/festival/${eventSlug(e)}`}>
-                ✦ {e.title}
-              </Link>
-            ))}
-          </div>
+          {fests.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+                {t("cities.topfest")}
+              </h2>
+              <div className="linkcols">
+                {fests.map((e) => (
+                  <Link key={e.id} href={`${p}/festival/${eventSlug(e)}`}>
+                    ✦ {e.title}
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </section>
       <Footer lang={lang} />

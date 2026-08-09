@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming } from "@/lib/data";
 import { ARTISTS } from "@/lib/artists";
 import { PLACES } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
@@ -17,9 +17,9 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const today = todayISO();
-  const live = upcoming();
+  const live = upcoming(undefined, today);
   const liveIds = new Set(live.map((e) => e.id));
-  const next = live.slice(0, 4);
+  const next = nextUp(4, undefined, today);
   // Artists booked on a date that hasn't happened yet — the useful half of the directory.
   const headliners = ARTISTS.filter((a) => a.eventIds.some((id) => liveIds.has(id))).sort(
     (a, b) => b.eventIds.length - a.eventIds.length,
@@ -47,7 +47,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          ...(next.length ? [itemListJsonLd(next, lang, t("artists.title"))] : []),
+          itemListJsonLd(next, lang, t("artists.title"), today),
         ]}
       />
       <div className="blob b1" />

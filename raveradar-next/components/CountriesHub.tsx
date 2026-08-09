@@ -34,7 +34,7 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
   return (
     <>
       <JsonLd
-        data={[breadcrumbJsonLd(trail, lang), ...(next.length ? [itemListJsonLd(next.slice(0, 30), lang, t("countries.title"))] : [])]}
+        data={[breadcrumbJsonLd(trail, lang), itemListJsonLd(next.slice(0, 30), lang, t("countries.title"), today)]}
       />
       <div className="blob b1" />
       <div className="blob b2" />

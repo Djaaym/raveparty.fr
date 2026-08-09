@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS } from "@/lib/data";
+import { EVENTS, past } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import EventCard from "./EventCard";
 import { readFavs } from "./useFavorites";
@@ -25,7 +25,9 @@ export default function AccountTabs({ lang }: { lang: Lang }) {
   }, []);
 
   const favs = EVENTS.filter((e) => favIds.includes(e.id));
-  const history = EVENTS.slice(8, 12);
+  // "Historique" is the one tab where a finished event is the point. Four fixed positions
+  // in the catalogue were neither history nor current — they drifted into upcoming dates.
+  const history = past().slice(0, 4);
   const tabs: [Tab, string][] = [
     ["favs", t("acc.tab.favs")],
     ["alerts", t("acc.tab.alerts")],

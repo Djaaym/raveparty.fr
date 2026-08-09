@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, FESTIVALS, genreSlug, isPast, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, FESTIVALS, genreSlug, isPast, nextUp, todayISO } from "@/lib/data";
 import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -24,9 +24,7 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
   const hereIds = new Set(here.map((e) => e.id));
   const liveHere = here.filter((e) => !isPast(e, today));
   const pastHere = here.filter((e) => isPast(e, today));
-  const nearby = upcoming(FESTIVALS)
-    .filter((e) => !hereIds.has(e.id))
-    .slice(0, 4);
+  const nearby = nextUp(4, FESTIVALS.filter((e) => !hereIds.has(e.id)), today);
 
   // Only link genres and venues that this place actually has content for.
   const localGenres = ALL_GENRES.filter((g) => here.some((e) => e.genres.includes(g)));
@@ -99,7 +97,7 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
         data={[
           breadcrumbJsonLd(trail, lang),
           faqJsonLd(faq),
-          ...(here.length ? [itemListJsonLd(here, lang, `Festival ${place.label}`)] : []),
+          itemListJsonLd(here, lang, `Festival ${place.label}`, today),
         ]}
       />
       <div className="blob b1" />

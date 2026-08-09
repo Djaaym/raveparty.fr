@@ -104,6 +104,8 @@ export default function ExploreClient({
 
   /** Everything currently in scope date-wise — drives both the results and the facet counts. */
   const pool = useMemo(
+    // fresh-ok: /explore is a search, not a highlight — the archive only appears when the
+    // reader ticks "éditions passées" or names a month, and both are explicit requests.
     () => (showPast || dated ? EVENTS : EVENTS.filter((e) => !isPast(e, today))),
     [showPast, dated, today]
   );

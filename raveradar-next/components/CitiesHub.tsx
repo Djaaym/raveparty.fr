@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { PLACES } from "@/lib/places";
-import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -18,11 +18,12 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   const today = todayISO();
   const villes = PLACES.filter((x) => x.kind === "ville");
   const zones = PLACES.filter((x) => x.kind !== "ville");
-  const live = upcoming();
-  const next = live.slice(0, 4);
-  // Lead with festivals still to come; fall back to the archive so the block is never empty.
-  const liveFest = upcoming(FESTIVALS);
-  const fests = (liveFest.length ? liveFest : FESTIVALS).slice(0, 24);
+  const live = upcoming(undefined, today);
+  const next = nextUp(4, undefined, today);
+  // "Top festivals" is a shortlist of names, so each finished edition is swapped for the
+  // next one rather than dropped — the block keeps its famous entries and none of them
+  // lands on a page stamped "édition terminée". Empty stays empty: no archive fallback.
+  const fests = liveEditions(FESTIVALS, today).slice(0, 24);
   // Venues carry the club-name intent ("Berghain", "Rex Club") that a city page can't rank for.
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 16);
   // Slug + bare name only: the "📍 Rave party" prefix is decoration the pill adds,
@@ -85,7 +86,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
         data={[
           breadcrumbJsonLd(trail, lang),
           faqJsonLd(faq),
-          ...(next.length ? [itemListJsonLd(next, lang, t("cities.title"))] : []),
+          itemListJsonLd(next, lang, t("cities.title"), today),
         ]}
       />
       <div className="blob b1" />
@@ -153,16 +154,20 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("cities.topfest")}
-          </h2>
-          <div className="linkcols">
-            {fests.map((e) => (
-              <Link key={e.id} href={`${p}/festival/${eventSlug(e)}`}>
-                ✦ {e.title}
-              </Link>
-            ))}
-          </div>
+          {fests.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+                {t("cities.topfest")}
+              </h2>
+              <div className="linkcols">
+                {fests.map((e) => (
+                  <Link key={e.id} href={`${p}/festival/${eventSlug(e)}`}>
+                    ✦ {e.title}
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("hub.venues")}
