@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
 import FestivalCityPage from "@/components/FestivalCityPage";
-import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl } from "@/lib/data";
+import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl} from "@/lib/data";
 import { guideFor, pick } from "@/lib/guides";
 import { PLACES, placeBySlug } from "@/lib/places";
 

@@ -2,7 +2,7 @@ import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
-import { EVENTS, eventSlug, eventDescL, imageUrl } from "@/lib/data";
+import { EVENTS, eventSlug, eventDescL, imageUrl} from "@/lib/data";
 
 export function generateStaticParams() {
   return EVENTS.filter((e) => e.type !== "Festival").map((e) => ({ slug: eventSlug(e) }));
