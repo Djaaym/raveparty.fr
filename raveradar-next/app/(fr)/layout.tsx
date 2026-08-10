@@ -11,10 +11,14 @@ const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600"], variabl
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-space-mono" });
 
 /**
- * Pages are prerendered, and most of them branch on "is this event still ahead?".
- * Rebuild each page at most once a day so the calendar can't go stale between deploys.
+ * Pages are prerendered, and most of them branch on "is this event still ahead?" — a
+ * question whose answer changes at midnight Paris with no deploy and no data edit.
+ * The window is what a finished event can still be highlighted for: at 86400 a party
+ * that ended last night stayed on the home page most of the following day. Hourly
+ * bounds that to the hour, and costs nothing extra on quiet pages — a stale page is
+ * only regenerated when someone actually asks for it.
  */
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

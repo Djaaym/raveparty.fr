@@ -101,7 +101,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
         data={[
           breadcrumbJsonLd(trail, lang),
           faqJsonLd(faq),
-          ...(events.length ? [itemListJsonLd(events, lang, `${t("country.h1")} ${label}`)] : []),
+          itemListJsonLd(events, lang, `${t("country.h1")} ${label}`, today),
         ]}
       />
       <div className="blob b1" />

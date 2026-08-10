@@ -13,6 +13,16 @@ const fmtDate = (iso) => {
 };
 const priceLabel = (e) => (e.price === 0 ? T("dyn.free") : `${e.currency}${e.price}`);
 
+/* ---- upcoming vs. past ----
+   Same rule as the Next app (raveradar-next/lib/data.ts): a highlight promises "go to
+   this one", so it may only carry events whose last day hasn't passed. Evaluated on each
+   render against the browser's clock, so an open tab left overnight is right by morning. */
+const TODAY = () => new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Paris" });
+const lastDay = (e) => e.endDate || e.date;                       // multi-day fests run to the end
+const isPast  = (e, ref = TODAY()) => lastDay(e) < ref;
+const upcomingEvents = (list = EVENTS, ref = TODAY()) =>
+  list.filter(e => !isPast(e, ref)).sort((a, b) => a.date.localeCompare(b.date));
+
 /* favorites in localStorage */
 const FAV_KEY = "raveradar:favs";
 const getFavs = () => JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
@@ -136,23 +146,24 @@ function initChrome() {
 
 /* ----------------------------- HOME ------------------------------------ */
 function initHome() {
-  const trend = EVENTS.filter(e => e.trending);
+  // `trending` is curation, not a date: pairing it with the date filter is what makes the
+  // flag expire on its own the day after the event, with nothing to un-flag by hand.
+  const live = upcomingEvents();
+  const trend = live.filter(e => e.trending);
   const grid = $("#trending");
   if (grid) grid.innerHTML = trend.map(cardHTML).join("");
 
-  const upcoming = [...EVENTS].sort((a,b) => a.date.localeCompare(b.date)).slice(0, 8);
   const up = $("#upcoming");
-  if (up) up.innerHTML = upcoming.map(cardHTML).join("");
+  if (up) up.innerHTML = live.slice(0, 8).map(cardHTML).join("");
 
   // by-country browser
   const ctabs = $("#country-tabs"), cgrid = $("#country-events");
   if (ctabs && cgrid) {
-    const byCountry = (c) => [...EVENTS]
-      .filter(e => c === "all" || e.country === c)
-      .sort((a,b) => a.date.localeCompare(b.date)).slice(0, 8);
+    const byCountry = (c) => upcomingEvents()
+      .filter(e => c === "all" || e.country === c).slice(0, 8);
     ctabs.innerHTML = `<span class="chip on" data-c="all">🌍 ${T("country.all")}</span>` +
       COUNTRIES.map(c => {
-        const n = EVENTS.filter(e => e.country === c).length;
+        const n = upcomingEvents().filter(e => e.country === c).length;
         return `<span class="chip" data-c="${c}">${COUNTRY_FLAG[c] || ""} ${countryLabel(c)} <b style="opacity:.55;font-weight:600">${n}</b></span>`;
       }).join("");
     const renderC = (c) => {
@@ -172,7 +183,7 @@ function initHome() {
   if (gt) {
     gt.innerHTML = ALL_GENRES.map(g => {
       const k = GENRES[g];
-      const n = EVENTS.filter(e => e.genres.includes(g)).length;
+      const n = upcomingEvents().filter(e => e.genres.includes(g)).length;
       return `<a class="genre" href="${LP}/explore/?genre=${encodeURIComponent(g)}">
         <span style="position:absolute;inset:0;background:linear-gradient(150deg,${k.c1},${k.c2});opacity:.85"></span>
         <div style="position:relative;z-index:2">
@@ -231,7 +242,7 @@ function initExplore() {
   $("#f-search").addEventListener("input", (e) => { exState.q = e.target.value; renderExplore(); });
 
   $("#f-genres").innerHTML = ALL_GENRES.map(g => {
-    const n = EVENTS.filter(e => e.genres.includes(g)).length;
+    const n = upcomingEvents().filter(e => e.genres.includes(g)).length;
     return `<label class="filter-opt"><input type="checkbox" value="${g}" ${exState.genres.has(g)?"checked":""}> ${g}<span class="count">${n}</span></label>`;
   }).join("");
   $$("#f-genres input").forEach(cb => cb.addEventListener("change", () => {
@@ -240,7 +251,7 @@ function initExplore() {
   }));
 
   $("#f-types").innerHTML = TYPES.map(t => {
-    const n = EVENTS.filter(e => e.type === t).length;
+    const n = upcomingEvents().filter(e => e.type === t).length;
     return `<label class="filter-opt"><input type="checkbox" value="${t}"> ${t}<span class="count">${n}</span></label>`;
   }).join("");
   $$("#f-types input").forEach(cb => cb.addEventListener("change", () => {
@@ -267,7 +278,8 @@ function initExplore() {
 }
 
 function filteredEvents() {
-  let list = EVENTS.filter(e => {
+  // Picking a month is an explicit request — don't silently hide past dates inside it.
+  let list = (exState.month ? EVENTS : upcomingEvents()).filter(e => {
     if (exState.country && e.country !== exState.country) return false;
     if (exState.month && !e.date.startsWith(exState.month)) return false;
     if (exState.maxPrice < 300 && e.price > exState.maxPrice) return false;
@@ -378,7 +390,8 @@ function initEvent() {
     L.marker([e.lat, e.lng], { icon: L.divIcon({ html:`<div class="map-pin"></div>`, iconSize:[18,18] }) }).addTo(m);
   }
 
-  const rel = EVENTS.filter(x => x.id !== e.id && x.genres.some(g => e.genres.includes(g))).slice(0,4);
+  // "À voir aussi" on a finished listing must still point forward, never sideways into the archive.
+  const rel = upcomingEvents().filter(x => x.id !== e.id && x.genres.some(g => e.genres.includes(g))).slice(0,4);
   if ($("#ev-related")) $("#ev-related").innerHTML = rel.map(cardHTML).join("");
 }
 
@@ -445,7 +458,7 @@ function initGenresHub() {
   if (!gt) return;
   gt.innerHTML = ALL_GENRES.map(g => {
     const k = GENRES[g];
-    const n = EVENTS.filter(e => e.genres.includes(g)).length;
+    const n = upcomingEvents().filter(e => e.genres.includes(g)).length;
     return `<a class="genre" href="${LP}/explore/?genre=${encodeURIComponent(g)}">
       <span style="position:absolute;inset:0;background:linear-gradient(150deg,${k.c1},${k.c2});opacity:.85"></span>
       <div style="position:relative;z-index:2">
@@ -463,7 +476,7 @@ const FR_PLACES = [
 function initVillesHub() {
   const cc = $("#villes-countries");
   if (cc) cc.innerHTML = COUNTRIES.map(c => {
-    const n = EVENTS.filter(e => e.country === c).length;
+    const n = upcomingEvents().filter(e => e.country === c).length;
     return `<a class="chip" style="font-size:.95rem;padding:12px 18px" href="${LP}/explore/?country=${encodeURIComponent(c)}">
       ${COUNTRY_FLAG[c] || "🌍"} ${countryLabel(c)} <b style="opacity:.55;font-weight:600">${n}</b></a>`;
   }).join("");

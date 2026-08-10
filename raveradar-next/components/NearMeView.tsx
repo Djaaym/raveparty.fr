@@ -60,7 +60,7 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          ...(live.length ? [itemListJsonLd(live.slice(0, 30), lang, t("near.title"))] : []),
+          itemListJsonLd(live.slice(0, 30), lang, t("near.title"), today),
         ]}
       />
       <div className="blob b1" />

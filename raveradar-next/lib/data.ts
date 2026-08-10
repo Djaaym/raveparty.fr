@@ -1786,14 +1786,59 @@ export const isPast = (e: RaveEvent, ref = todayISO()): boolean => lastDay(e) < 
 /** True while the event is running right now. */
 export const isLive = (e: RaveEvent, ref = todayISO()): boolean => e.date <= ref && lastDay(e) >= ref;
 /** Upcoming + currently running events, soonest first — what every listing shows. */
-export const upcoming = (list: RaveEvent[] = EVENTS): RaveEvent[] =>
-  list.filter((e) => !isPast(e)).sort((a, b) => a.date.localeCompare(b.date));
+export const upcoming = (list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] =>
+  list.filter((e) => !isPast(e, ref)).sort((a, b) => a.date.localeCompare(b.date));
 /** Finished events, most recent first — kept online for SEO, flagged as past editions. */
-export const past = (list: RaveEvent[] = EVENTS): RaveEvent[] =>
-  list.filter((e) => isPast(e)).sort((a, b) => b.date.localeCompare(a.date));
+export const past = (list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] =>
+  list.filter((e) => isPast(e, ref)).sort((a, b) => b.date.localeCompare(a.date));
 /** Upcoming first, then past: a listing is never empty but always leads with what's live. */
-export const upcomingFirst = (list: RaveEvent[] = EVENTS): RaveEvent[] => [...upcoming(list), ...past(list)];
+export const upcomingFirst = (list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] => [
+  ...upcoming(list, ref),
+  ...past(list, ref),
+];
 /** Next edition of the same festival (same title, later date) — used on past-event pages. */
 export const nextEdition = (e: RaveEvent): RaveEvent | undefined =>
   EVENTS.filter((x) => x.title === e.title && x.date > lastDay(e)).sort((a, b) => a.date.localeCompare(b.date))[0];
+
+/* ---------------- Highlight blocks ----------------
+   A listing and a highlight are not the same promise. A listing may carry the archive —
+   a past edition still deserves its page, and the section header says so. A highlight
+   ("Tendances", "Prochaines dates", "Top festivals") asserts *go to this one*, so a
+   finished edition there is simply wrong, and it goes wrong on its own: the data doesn't
+   change, the date does. Every highlight block therefore goes through one of the two
+   functions below and never slices a raw array — see `npm run check:fresh`, which fails
+   the moment a component reaches around them. Both take the reference day explicitly so
+   a page computes `todayISO()` once and every block on it agrees. */
+
+/** The next `n` events, soonest first, finished editions removed. For "what's on next". */
+export const nextUp = (n: number, list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] =>
+  upcoming(list, ref).slice(0, n);
+
+/** The `n` events to put forward: hand-picked `trending` ones first, then the soonest
+ *  dates so the grid never thins out at the tail of a season — past always excluded.
+ *  `trending` is a curation flag, not a date: an event flagged years ago drops out of
+ *  here by itself the day after it ends, with nothing to un-flag by hand. */
+export const featured = (n: number, list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] => {
+  const live = upcoming(list, ref);
+  return [...live.filter((e) => e.trending), ...live.filter((e) => !e.trending)].slice(0, n);
+};
+
+/** Same festivals, but each finished edition swapped for its next one (and dropped when
+ *  there is none). Lets a "top festivals" block stay a list of famous names without ever
+ *  linking a page stamped "édition terminée". */
+export const liveEditions = (list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] => {
+  const seen = new Set<number>();
+  const out: RaveEvent[] = [];
+  for (const e of list) {
+    // Not `nextEdition()`: that returns the edition immediately after this one, which on a
+    // festival left un-updated for two years is itself finished. Take the soonest live one.
+    const live = isPast(e, ref)
+      ? upcoming(EVENTS.filter((x) => x.title === e.title), ref)[0]
+      : e;
+    if (!live || seen.has(live.id)) continue;
+    seen.add(live.id);
+    out.push(live);
+  }
+  return out.sort((a, b) => a.date.localeCompare(b.date));
+};
 

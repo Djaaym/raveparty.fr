@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, genreSlug, isPast, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, EVENTS, genreSlug, isPast, nextUp, todayISO } from "@/lib/data";
 import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -25,9 +25,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
   const liveHere = here.filter((e) => !isPast(e, today));
   const pastHere = here.filter((e) => isPast(e, today));
   const hereIds = new Set(here.map((e) => e.id));
-  const nearby = upcoming()
-    .filter((e) => !hereIds.has(e.id))
-    .slice(0, 4);
+  const nearby = nextUp(4, EVENTS.filter((e) => !hereIds.has(e.id)), today);
 
   // Sibling places of the same kind — the horizontal mesh between geo pages.
   const siblings = PLACES.filter((x) => x.slug !== place.slug && x.kind === place.kind).slice(0, 12);
@@ -90,7 +88,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
         data={[
           breadcrumbJsonLd(trail, lang),
           faqJsonLd(faq),
-          ...(here.length ? [itemListJsonLd(here, lang, `Rave party ${place.label}`)] : []),
+          itemListJsonLd(here, lang, `Rave party ${place.label}`, today),
         ]}
       />
       <div className="blob b1" />

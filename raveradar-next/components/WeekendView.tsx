@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -19,11 +19,11 @@ export default function WeekendView({ lang, days = 12 }: { lang: Lang; days?: nu
   // site's reference timezone instead of drifting with the server's local time.
   const horizon = new Date(`${today}T00:00:00Z`).getTime() + days * 86400000;
   const horizonISO = new Date(horizon).toISOString().slice(0, 10);
-  const live = upcoming();
+  const live = upcoming(undefined, today);
   // `upcoming()` keeps multi-day festivals that already started, so they stay in the window.
   const soon = live.filter((e) => e.date <= horizonISO);
-  const later = live.filter((e) => e.date > horizonISO).slice(0, 8);
-  const fests = upcoming(FESTIVALS).slice(0, 16);
+  const later = nextUp(8, live.filter((e) => e.date > horizonISO), today);
+  const fests = liveEditions(FESTIVALS, today).slice(0, 16);
 
   // Long-form date ("29 juillet") reads better in a sentence than the uppercase card format.
   const day = (iso: string) =>
@@ -50,7 +50,7 @@ export default function WeekendView({ lang, days = 12 }: { lang: Lang; days?: nu
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          ...(listed.length ? [itemListJsonLd(listed, lang, t("soon.title"))] : []),
+          itemListJsonLd(listed, lang, t("soon.title"), today),
         ]}
       />
       <div className="blob b1" />

@@ -152,13 +152,19 @@ export function breadcrumbJsonLd(trail: [string, string][], lang: Lang) {
 }
 
 /** An ordered list of events — helps hub pages (city, genre, venue) get parsed as listings. */
-export function itemListJsonLd(events: RaveEvent[], lang: Lang, name: string) {
+/** An ItemList of events is carousel-eligible, so it is a highlight in Google's eyes:
+ *  finished editions are filtered out here rather than at each call site, because the
+ *  page below may legitimately list its archive while the carousel must not. Returns
+ *  `null` when nothing is left — `<JsonLd>` skips it, so no empty ItemList is emitted. */
+export function itemListJsonLd(events: RaveEvent[], lang: Lang, name: string, ref?: string) {
+  const live = events.filter((e) => !isPast(e, ref));
+  if (!live.length) return null;
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name,
-    numberOfItems: events.length,
-    itemListElement: events.map((e, i) => ({
+    numberOfItems: live.length,
+    itemListElement: live.map((e, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: e.title,

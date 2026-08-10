@@ -10,8 +10,8 @@ const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable:
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-inter" });
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-space-mono" });
 
-/** Same daily refresh as the French tree — see app/(fr)/layout.tsx. */
-export const revalidate = 86400;
+/** Same hourly refresh as the French tree — see app/(fr)/layout.tsx. */
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
