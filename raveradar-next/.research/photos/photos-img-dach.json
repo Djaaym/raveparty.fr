@@ -241,5 +241,23 @@
     "kind": "event",
     "width": 851,
     "note": "banniere officielle Army of Hardcore — 25.12.2026 Turbinenhalle Oberhausen"
+  },
+  {
+    "id": 669,
+    "image": "https://liquicity.com/wp-content/uploads/2026/01/NOTBlurred_Banner_FB.jpg",
+    "sourcePage": "https://liquicity.com/events/liquicity-vienna-2026/",
+    "credit": "Liquicity",
+    "kind": "event",
+    "width": 3750,
+    "note": "affiche officielle Liquicity Vienna — 03.10.2026, Exil (Fox Stevenson, Maduk, Technimatic...)"
+  },
+  {
+    "id": 845,
+    "image": "https://elevate.at/fileadmin/user_upload/2023_03_04_MUSIC_DOM_c_PhilippeGerlach_013.jpg",
+    "sourcePage": "https://elevate.at/en/media/photos/",
+    "credit": "Elevate Festival / Philippe Gerlach",
+    "kind": "festival",
+    "width": 5315,
+    "note": "photo officielle du festival au Dom im Berg (Graz)"
   }
 ]
