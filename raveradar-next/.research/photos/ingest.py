@@ -264,6 +264,8 @@ def main():
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--prune", action="store_true",
                     help="retire de la map PHOTOS les ids absents du catalogue, sans rien télécharger")
+    ap.add_argument("--refetch", action="store_true",
+                    help="retélécharge aussi les images déjà ingérées (par défaut on les saute)")
     args = ap.parse_args()
 
     events, already = load_events()
@@ -307,6 +309,24 @@ def main():
     by_url = {}
     for e in entries:
         by_url.setdefault(e["url"], []).append(e)
+
+    # Les lots s'accumulent, et chaque passage retéléchargeait l'intégralité de
+    # l'historique — 513 URLs pour 290 nouveautés. Ce n'est pas seulement lent : les
+    # hôtes finissent par nous limiter, et un run a passé deux heures à s'acharner sur
+    # les fichiers Commons des anciens lots, tous déjà sur le disque, sans en obtenir
+    # un seul. On saute donc ce qui est déjà ingéré et dont le fichier est là — le
+    # résultat est identique, `patch_data_ts()` réinjectant ces entrées de toute façon.
+    src_now = DATA_TS.read_text()
+    i0, j0 = src_now.index(START) + len(START), src_now.index(END)
+    done = {int(m.group(1)): m.group(2)
+            for m in re.finditer(r'^\s*(\d+): "([^"]+)"', src_now[i0:j0], re.M)}
+    skipped_urls = [u for u, grp in by_url.items()
+                    if all(g["id"] in done and (OUT_DIR / done[g["id"]]).exists() for g in grp)]
+    if not args.refetch:
+        for u in skipped_urls:
+            del by_url[u]
+        print(f"{len(skipped_urls)} URL(s) déjà ingérées et présentes sur disque — ignorées "
+              f"(--refetch pour les reprendre)")
     print(f"{len(by_url)} URLs distinctes à télécharger\n")
 
     mapping, by_hash, rejected = {}, {}, []
