@@ -83,7 +83,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         bad = [g for g in e["genres"] if g not in GENRES]
         if bad:
             rejected.append((fn, e["title"], f"bad genre {bad}")); continue
-        if (e.get("endDate") or e["date"]) < "2026-08-08":
+        if (e.get("endDate") or e["date"]) < "2026-08-13":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",
