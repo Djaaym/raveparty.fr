@@ -78,3 +78,21 @@ sont pas exploitables.
 D'où la règle : **re-vérifiez chaque URL retenue avec un `curl` nu**, sans `-e` / `--referer`,
 et méfiez-vous de deux images de poids strictement identique — c'est la signature d'un
 placeholder servi à la place du vrai fichier.
+
+## Limite connue : les bannières s'agrandissent au crop
+
+`quality_check()` ne regarde que la **largeur** (≥ 500 px) et la platitude. Il laisse donc
+passer les bannières très larges, alors que la vignette de carte est un crop **4:5** : sur une
+image de 851×315, la colonne conservée ne fait que 252 px de large et doit être agrandie
+**2,2×** pour atteindre 560×700. Le résultat est mou.
+
+Relevé au 13/08/2026 : **142 fichiers sur 440 dépassent 1,6:1**, une douzaine demandant plus de
+1,5× d'agrandissement — surtout des couvertures Facebook (851×315) et des bandeaux de site
+(1200×370). Aucun n'est faux, ils sont juste peu nets sur une carte.
+
+À l'usage, **préférez toujours un visuel portrait ou carré** : une affiche de soirée est
+presque toujours en 4:5 ou 1:1, c'est le format que ce pipeline attend. Une bannière ne se
+prend qu'à défaut de mieux. Si le sujet est repris un jour, le garde-fou naturel est une
+contrainte sur la **hauteur** (`h ≥ 700` pour les images larges), pas sur la largeur — mais
+l'appliquer rétroactivement retirerait des images actuellement en ligne, donc c'est un
+arbitrage à poser, pas un correctif à glisser.
