@@ -219,8 +219,28 @@ def patch_credits_ts(credits, events, dry):
 
 
 def patch_data_ts(mapping, events, dry):
-    """Réécrit la map PHOTOS entre les deux marqueurs de lib/data.ts."""
+    """Réécrit la map PHOTOS entre les deux marqueurs de lib/data.ts.
+
+    La map est reconstruite intégralement à chaque passage, ce qui a un effet de bord
+    dangereux : une URL qui échoue *ce jour-là* disparaît de `mapping`, donc de la map,
+    et l'événement repasse au dégradé de genre — alors que son fichier est toujours dans
+    `public/posters/`. Il suffit d'un 429 de Commons ou d'un site momentanément à terre
+    pour retirer d'un coup des dizaines d'images en production, sans que rien ne
+    l'annonce. On réinjecte donc l'entrée précédente quand son fichier existe encore :
+    le seul cas où l'on retire vraiment une image, c'est quand son fichier a disparu.
+    """
     src = DATA_TS.read_text()
+    i0, j0 = src.index(START) + len(START), src.index(END)
+    previous = {int(m.group(1)): m.group(2)
+                for m in re.finditer(r'^\s*(\d+): "([^"]+)"', src[i0:j0], re.M)}
+    kept_back = [eid for eid, f in previous.items()
+                 if eid not in mapping and eid in events and (OUT_DIR / f).exists()]
+    for eid in kept_back:
+        mapping[eid] = previous[eid]
+    if kept_back:
+        print(f"  ↩ {len(kept_back)} entrée(s) conservée(s) : téléchargement en échec "
+              f"aujourd'hui, mais le fichier est toujours là → {sorted(kept_back)[:12]}"
+              + (" …" if len(kept_back) > 12 else ""))
     lines = []
     for eid in sorted(mapping):
         # Un id peut avoir disparu du catalogue depuis le dernier passage (fusion de
