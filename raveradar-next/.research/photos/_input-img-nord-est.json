@@ -1,0 +1,642 @@
+[
+ {
+  "id": 624,
+  "title": "Modestep au FOMO",
+  "type": "Club",
+  "city": "Sofia",
+  "country": "Bulgaria",
+  "venue": "FOMO the club",
+  "date": "2026-11-06",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 538,
+  "title": "Clara Cuvé au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-09-11",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 555,
+  "title": "Lilly Palmer au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-09-25",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 559,
+  "title": "Andy C & MC Tonn Piper au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-09-26",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 566,
+  "title": "James Hype au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-09-27",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 596,
+  "title": "CamelPhat au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-10-16",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 603,
+  "title": "Pegassi au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-10-17",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 618,
+  "title": "Adrián Mills au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-10-27",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 628,
+  "title": "Agents Of Time au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-11-13",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 635,
+  "title": "Tinlicker au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-11-21",
+  "genres": [
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "id": 636,
+  "title": "MCR-T au Roxy",
+  "type": "Club",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Roxy",
+  "date": "2026-11-27",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 649,
+  "title": "Let It Roll Winter",
+  "type": "Festival",
+  "city": "Prague",
+  "country": "Czech Republic",
+  "venue": "Křižíkovy pavilony",
+  "date": "2027-01-22",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 516,
+  "title": "Karrusel",
+  "type": "Festival",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Refshaleøen",
+  "date": "2026-08-27",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 681,
+  "title": "DJ Aligator: The Final Reptile Rave – Heaven",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Store VEGA",
+  "date": "2026-10-16",
+  "genres": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "id": 694,
+  "title": "DJ Aligator: The Final Reptile Rave – Hell",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Store VEGA",
+  "date": "2026-10-17",
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 695,
+  "title": "Silva Bumpa at Pumpehuset",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Pumpehuset",
+  "date": "2026-10-17",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 612,
+  "title": "Eric Prydz",
+  "type": "Warehouse",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "TAP1",
+  "date": "2026-10-23",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 726,
+  "title": "Cassius CLUB 360°",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Pumpehuset",
+  "date": "2026-10-30",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 732,
+  "title": "Kenton Slash Demon at Store VEGA",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Store VEGA",
+  "date": "2026-10-31",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 764,
+  "title": "Trinix at Pumpehuset",
+  "type": "Club",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Pumpehuset",
+  "date": "2026-11-21",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 809,
+  "title": "Protoned Christmas Rave",
+  "type": "Warehouse",
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "venue": "Pumpehuset",
+  "date": "2026-12-25",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 541,
+  "title": "Helzinki Hardstyle Festival",
+  "type": "Festival",
+  "city": "Helsinki",
+  "country": "Finland",
+  "venue": "Merikaapelihalli",
+  "date": "2026-09-11",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 545,
+  "title": "Faithless",
+  "type": "Club",
+  "city": "Helsinki",
+  "country": "Finland",
+  "venue": "Merikaapelihalli",
+  "date": "2026-09-12",
+  "genres": [
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "id": 680,
+  "title": "FURY: Cara Elizabeth, Johannes Schuster & Mika Heggemann",
+  "type": "Club",
+  "city": "Helsinki",
+  "country": "Finland",
+  "venue": "Ääniwalli",
+  "date": "2026-10-16",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 738,
+  "title": "Teletech x CNNCT Helsinki",
+  "type": "Club",
+  "city": "Helsinki",
+  "country": "Finland",
+  "venue": "Ääniwalli",
+  "date": "2026-11-06",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 638,
+  "title": "Project One",
+  "type": "Club",
+  "city": "Helsinki",
+  "country": "Finland",
+  "venue": "Merikaapelihalli",
+  "date": "2026-11-27",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 598,
+  "title": "AkvaWaves invite Ely Oaks",
+  "type": "Club",
+  "city": "Budapest",
+  "country": "Hungary",
+  "venue": "Akvárium Klub",
+  "date": "2026-10-16",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 753,
+  "title": "The Prodigy at Unity Arena",
+  "type": "Club",
+  "city": "Fornebu",
+  "country": "Norway",
+  "venue": "Unity Arena",
+  "date": "2026-11-14",
+  "genres": [
+   "EDM"
+  ]
+ },
+ {
+  "id": 833,
+  "title": "Broiler: Ingen Skal Hjem",
+  "type": "Club",
+  "city": "Fornebu",
+  "country": "Norway",
+  "venue": "Unity Arena",
+  "date": "2027-02-13",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 511,
+  "title": "Ladies First",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-08-19",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 515,
+  "title": "Nightflight x Futoria",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-08-22",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 549,
+  "title": "Infected Mushroom",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Sentrum Scene",
+  "date": "2026-09-18",
+  "genres": [
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 590,
+  "title": "Frædag: Octave One",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-10-09",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 601,
+  "title": "Laidback Luke",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Vulkan Arena",
+  "date": "2026-10-16",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 682,
+  "title": "Frædag: Einmusik",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Jaeger",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 611,
+  "title": "Markus Schulz",
+  "type": "Club",
+  "city": "Oslo",
+  "country": "Norway",
+  "venue": "Vulkan Arena",
+  "date": "2026-10-23",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 548,
+  "title": "Tama Season Opening",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-09-18",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 557,
+  "title": "Obsession — Kozlov, Luciid & Vendex",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-09-25",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 586,
+  "title": "Chris Avantgarde au Tama",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-10-09",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 597,
+  "title": "Pegassi au Tama",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-10-16",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 604,
+  "title": "Sub Zero Project au Tama",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-10-17",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 610,
+  "title": "Worakls au Tama",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-10-23",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 615,
+  "title": "Psy Clan — Juno Reactor",
+  "type": "Club",
+  "city": "Poznań",
+  "country": "Poland",
+  "venue": "Tama",
+  "date": "2026-10-24",
+  "genres": [
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 656,
+  "title": "Kapital Festival",
+  "type": "Festival",
+  "city": "Bucharest",
+  "country": "Romania",
+  "venue": "Arena Națională",
+  "date": "2027-07-02",
+  "genres": [
+   "EDM",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 517,
+  "title": "Uprising Festival",
+  "type": "Festival",
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "venue": "Zlaté piesky",
+  "date": "2026-08-28",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 659,
+  "title": "Swedish House Mafia at Ullevi",
+  "type": "Festival",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "venue": "Ullevi",
+  "date": "2026-08-28",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 693,
+  "title": "KREAM at Trädgår'n",
+  "type": "Club",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "venue": "Trädgår'n",
+  "date": "2026-10-17",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 739,
+  "title": "STVW Punk Rave",
+  "type": "Club",
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "venue": "Trädgår'n",
+  "date": "2026-11-06",
+  "genres": [
+   "EDM"
+  ]
+ },
+ {
+  "id": 731,
+  "title": "Technostate BIGBANG Halloween",
+  "type": "Warehouse",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "venue": "Annexet",
+  "date": "2026-10-31",
+  "genres": [
+   "Psytrance",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 761,
+  "title": "The Prodigy at Avicii Arena",
+  "type": "Club",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "venue": "Avicii Arena",
+  "date": "2026-11-15",
+  "genres": [
+   "EDM"
+  ]
+ },
+ {
+  "id": 637,
+  "title": "Paul van Dyk",
+  "type": "Club",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "venue": "Berns",
+  "date": "2026-11-27",
+  "genres": [
+   "Trance"
+  ]
+ }
+]

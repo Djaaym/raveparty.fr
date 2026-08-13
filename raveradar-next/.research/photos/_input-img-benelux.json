@@ -1,0 +1,501 @@
+[
+ {
+  "id": 801,
+  "title": "Pat B Birthday Bash XXL",
+  "type": "Festival",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "Lotto Arena",
+  "date": "2026-12-19",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 812,
+  "title": "Verknipt NYE Specials Antwerp",
+  "type": "Warehouse",
+  "city": "Antwerp",
+  "country": "Belgium",
+  "venue": "Garage Klub",
+  "date": "2026-12-31",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 521,
+  "title": "Fuse: The Third Room with Verraco",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-08-28",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 530,
+  "title": "Fuse presents NIKOLINA & Ornella",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-09-04",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 542,
+  "title": "Fuse presents 2HOT2PLAY & ALT8",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-09-11",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 550,
+  "title": "Fuse: SESH with Clara Cuvé & PETERBLUE",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "Fuse",
+  "date": "2026-09-18",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 679,
+  "title": "Los Ninos: Queer Berlin",
+  "type": "Club",
+  "city": "Brussels",
+  "country": "Belgium",
+  "venue": "C12",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 692,
+  "title": "30 Years of Kozzmozz",
+  "type": "Club",
+  "city": "Ghent",
+  "country": "Belgium",
+  "venue": "Vooruit (VIERNULVIER)",
+  "date": "2026-10-17",
+  "genres": [
+   "Techno",
+   "Acid Techno"
+  ]
+ },
+ {
+  "id": 787,
+  "title": "Space Rave: Dacru & Kuf Kuf",
+  "type": "Warehouse",
+  "city": "Ghent",
+  "country": "Belgium",
+  "venue": "De Chinastraat",
+  "date": "2026-12-05",
+  "genres": [
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 808,
+  "title": "Full Circle: BYORN Invites",
+  "type": "Club",
+  "city": "Ghent",
+  "country": "Belgium",
+  "venue": "Kompass Klub",
+  "date": "2026-12-20",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 614,
+  "title": "Timmy Trumpet at Rockhal",
+  "type": "Club",
+  "city": "Esch-sur-Alzette",
+  "country": "Luxembourg",
+  "venue": "Rockhal",
+  "date": "2026-10-23",
+  "genres": [
+   "EDM",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 522,
+  "title": "Shelter: Jesse Maas Curates",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-08-28",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 525,
+  "title": "Shelter: Tins All Night",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-08-29",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 535,
+  "title": "Shelter: Ryan Elliott b2b Pancratio",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-09-05",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 546,
+  "title": "Shelter: Traumer b2b Janeret",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-09-12",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 551,
+  "title": "Shelter: PIV with Prunk",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-09-18",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 553,
+  "title": "Shelter: Signal NYC with Benny Rodrigues",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-09-19",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 565,
+  "title": "Shelter: Archie Hamilton",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-09-26",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 606,
+  "title": "Thuishaven ADE: In Trance We Trust",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-10-21",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 608,
+  "title": "Thuishaven ADE: Glitterbox",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-10-22",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 609,
+  "title": "Shelter ADE: 20 Years of The Warehouse Project",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-10-22",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 613,
+  "title": "Shelter ADE: Slapfunk",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-10-23",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 710,
+  "title": "Thuishaven ADE: Salute & Bella Claxton",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-10-23",
+  "genres": [
+   "Hard Techno",
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "id": 711,
+  "title": "elrow ADE – Dance with the Serpent",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Kromhouthal",
+  "date": "2026-10-23",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 616,
+  "title": "Thuishaven ADE: Michel de Hey & Philou Louzolo",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-10-24",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 617,
+  "title": "Shelter ADE: Brighter Days x Life and Death",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Shelter",
+  "date": "2026-10-24",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 767,
+  "title": "Thuishaven: X Club. & DART",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-11-22",
+  "genres": [
+   "Hard Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 642,
+  "title": "Thuishaven: Bart Skils 5HRS",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-12-05",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 788,
+  "title": "Vieze Asbak b2b Kruelty All Day Long",
+  "type": "Warehouse",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "AFAS Live",
+  "date": "2026-12-05",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 792,
+  "title": "Winter of Love Festival",
+  "type": "Festival",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2026-12-12",
+  "genres": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 802,
+  "title": "Luminosity 19 Years Anniversary",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Melkweg",
+  "date": "2026-12-19",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 814,
+  "title": "De Nieuwjaarsborrel",
+  "type": "Festival",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Thuishaven",
+  "date": "2027-01-09",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 824,
+  "title": "PACT: Joachim Pastor, Joris Delacroix & Teho",
+  "type": "Club",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "venue": "Het Sieraad",
+  "date": "2027-01-23",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 672,
+  "title": "Hard Bass",
+  "type": "Festival",
+  "city": "Arnhem",
+  "country": "Netherlands",
+  "venue": "GelreDome",
+  "date": "2026-10-10",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 811,
+  "title": "Verknipt NYE Eindhoven",
+  "type": "Warehouse",
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "venue": "Klokgebouw, Strijp-S",
+  "date": "2026-12-31",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 776,
+  "title": "Loudness",
+  "type": "Festival",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-11-28",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 645,
+  "title": "Rotterdam Rave Winter Special",
+  "type": "Warehouse",
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "venue": "Maassilo",
+  "date": "2026-12-12",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 815,
+  "title": "Ghosttown",
+  "type": "Warehouse",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "TivoliVredenburg",
+  "date": "2027-01-09",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 820,
+  "title": "Supremacy – Return To The Classics",
+  "type": "Festival",
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "venue": "Jaarbeurs",
+  "date": "2027-01-16",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ }
+]

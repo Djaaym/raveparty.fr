@@ -1,0 +1,599 @@
+[
+ {
+  "id": 845,
+  "title": "Elevate Festival",
+  "type": "Festival",
+  "city": "Graz",
+  "country": "Austria",
+  "venue": "Dom im Berg et divers lieux",
+  "date": "2027-03-04",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 714,
+  "title": "Nukranox",
+  "type": "Festival",
+  "city": "Salzburg",
+  "country": "Austria",
+  "venue": "Messezentrum Salzburg",
+  "date": "2026-10-24",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 834,
+  "title": "Masters of Hardcore Austria",
+  "type": "Festival",
+  "city": "St. Pölten",
+  "country": "Austria",
+  "venue": "VAZ St. Pölten",
+  "date": "2027-02-13",
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 524,
+  "title": "Flashback Techno Classics — Summer Edition",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-08-29",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 539,
+  "title": "Schranz is Back w/ Felix Kröcher",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-09-11",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 543,
+  "title": "Mahlwerk w/ Justin Jay",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-09-12",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 556,
+  "title": "Trancemaster Krause All Night Long",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-09-25",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 560,
+  "title": "YN x BCCO Club Night",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-09-26",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 629,
+  "title": "Zuckerwatt w/ Mija",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-11-13",
+  "genres": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 755,
+  "title": "NTO à O der Klub",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "O der Klub",
+  "date": "2026-11-14",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 643,
+  "title": "Zuckerwatt w/ Ellen Allien",
+  "type": "Club",
+  "city": "Vienna",
+  "country": "Austria",
+  "venue": "Grelle Forelle",
+  "date": "2026-12-11",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 669,
+  "title": "Liquicity Vienna",
+  "type": "Festival",
+  "city": "Vösendorf",
+  "country": "Austria",
+  "venue": "Exil Club",
+  "date": "2026-10-03",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 733,
+  "title": "HARDLINE: Purge Night",
+  "type": "Warehouse",
+  "city": "Vösendorf",
+  "country": "Austria",
+  "venue": "Event Arena Vösendorf",
+  "date": "2026-10-31",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 670,
+  "title": "Verknipt Berlin",
+  "type": "Club",
+  "city": "Berlin",
+  "country": "Germany",
+  "venue": "Club OST",
+  "date": "2026-10-09",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 509,
+  "title": "Into The Madness Pre-Party Weekender",
+  "type": "Club",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-08-15",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 756,
+  "title": "Wonderful Days Cologne",
+  "type": "Warehouse",
+  "city": "Cologne",
+  "country": "Germany",
+  "venue": "Bootshaus",
+  "date": "2026-11-14",
+  "genres": [
+   "Trance",
+   "Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 765,
+  "title": "The AR Gang Show",
+  "type": "Festival",
+  "city": "Düsseldorf",
+  "country": "Germany",
+  "venue": "Mitsubishi Electric Halle",
+  "date": "2026-11-21",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 683,
+  "title": "Paul van Dyk au Docks",
+  "type": "Club",
+  "city": "Hamburg",
+  "country": "Germany",
+  "venue": "Docks",
+  "date": "2026-10-16",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 793,
+  "title": "INSANE Strictly Hard",
+  "type": "Club",
+  "city": "Hamburg",
+  "country": "Germany",
+  "venue": "Docks",
+  "date": "2026-12-12",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 803,
+  "title": "Psy-Spirits",
+  "type": "Warehouse",
+  "city": "Hamburg",
+  "country": "Germany",
+  "venue": "Edelfettwerk",
+  "date": "2026-12-19",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 777,
+  "title": "FAIRGROUND Festival",
+  "type": "Festival",
+  "city": "Hanover",
+  "country": "Germany",
+  "venue": "Messegelände Hannover",
+  "date": "2026-11-28",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 657,
+  "title": "Open Beatz Festival",
+  "type": "Festival",
+  "city": "Herzogenaurach",
+  "country": "Germany",
+  "venue": "Festivalgelände Herzogenaurach",
+  "date": "2027-07-23",
+  "genres": [
+   "EDM",
+   "House",
+   "Techno",
+   "Hardstyle",
+   "Psytrance",
+   "Drum & Bass",
+   "Trance"
+  ]
+ },
+ {
+  "id": 658,
+  "title": "Nature One",
+  "type": "Festival",
+  "city": "Kastellaun",
+  "country": "Germany",
+  "venue": "Raketenbasis Pydna",
+  "date": "2027-07-29",
+  "genres": [
+   "Techno",
+   "Hardstyle",
+   "Trance",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 728,
+  "title": "Sky Club Halloween",
+  "type": "Club",
+  "city": "Leipzig",
+  "country": "Germany",
+  "venue": "Sky Club Leipzig",
+  "date": "2026-10-30",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 743,
+  "title": "Seltsamer Herbst",
+  "type": "Club",
+  "city": "Leipzig",
+  "country": "Germany",
+  "venue": "Sky Club Leipzig",
+  "date": "2026-11-07",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 839,
+  "title": "Arena Rave",
+  "type": "Warehouse",
+  "city": "Leipzig",
+  "country": "Germany",
+  "venue": "Messe Leipzig",
+  "date": "2027-02-20",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 830,
+  "title": "APEX",
+  "type": "Festival",
+  "city": "Mannheim",
+  "country": "Germany",
+  "venue": "Maimarkthalle",
+  "date": "2027-01-30",
+  "genres": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 783,
+  "title": "Hardshift Festival",
+  "type": "Festival",
+  "city": "Munich",
+  "country": "Germany",
+  "venue": "Zenith München",
+  "date": "2026-12-04",
+  "genres": [
+   "Hardstyle",
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 696,
+  "title": "Harder Force Indoor Festival",
+  "type": "Festival",
+  "city": "Neumünster",
+  "country": "Germany",
+  "venue": "Holstenhallen",
+  "date": "2026-10-17",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 816,
+  "title": "Between The Seas Winter Indoor Festival",
+  "type": "Festival",
+  "city": "Neumünster",
+  "country": "Germany",
+  "venue": "Holstenhallen",
+  "date": "2027-01-09",
+  "genres": [
+   "EDM",
+   "Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 585,
+  "title": "Blacklist Festival",
+  "type": "Festival",
+  "city": "Oberhausen",
+  "country": "Germany",
+  "venue": "Turbinenhalle Oberhausen",
+  "date": "2026-10-09",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 727,
+  "title": "Faceless Psycho City",
+  "type": "Festival",
+  "city": "Oberhausen",
+  "country": "Germany",
+  "venue": "Turbinenhalle Oberhausen",
+  "date": "2026-10-30",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 754,
+  "title": "Verknipt Oberhausen",
+  "type": "Festival",
+  "city": "Oberhausen",
+  "country": "Germany",
+  "venue": "Turbinenhalle Oberhausen",
+  "date": "2026-11-14",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 810,
+  "title": "Army of Hardcore",
+  "type": "Festival",
+  "city": "Oberhausen",
+  "country": "Germany",
+  "venue": "Turbinenhalle Oberhausen",
+  "date": "2026-12-25",
+  "genres": [
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 715,
+  "title": "Wonderful Days Stuttgart",
+  "type": "Warehouse",
+  "city": "Stuttgart",
+  "country": "Germany",
+  "venue": "Perkins Park",
+  "date": "2026-10-24",
+  "genres": [
+   "Trance",
+   "Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "id": 655,
+  "title": "TMF — Trier Music Festival",
+  "type": "Festival",
+  "city": "Trier",
+  "country": "Germany",
+  "venue": "Messehalle Trier",
+  "date": "2027-03-20",
+  "genres": [
+   "Hardstyle",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 663,
+  "title": "FOG Festival",
+  "type": "Festival",
+  "city": "Basel",
+  "country": "Switzerland",
+  "venue": "Kaserne Basel, Tanzhaus et CONTAINER Club",
+  "date": "2026-09-17",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 518,
+  "title": "Playhard — Luca Agnelli",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-08-28",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 527,
+  "title": "Hard Cœur — Creeds",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-09-04",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 540,
+  "title": "Subset — Wilkinson",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-09-11",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 607,
+  "title": "Thylacine en concert",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "D! Club",
+  "date": "2026-10-22",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 842,
+  "title": "Acid Arab aux Docks",
+  "type": "Club",
+  "city": "Lausanne",
+  "country": "Switzerland",
+  "venue": "Les Docks",
+  "date": "2027-02-27",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 763,
+  "title": "Polaris Festival",
+  "type": "Festival",
+  "city": "Verbier",
+  "country": "Switzerland",
+  "venue": "Verbier (divers lieux)",
+  "date": "2026-11-20",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 666,
+  "title": "Masters of Hardcore Switzerland",
+  "type": "Warehouse",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "venue": "Halle 622",
+  "date": "2026-09-26",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 668,
+  "title": "Hive Air pres. Shimza & Friends",
+  "type": "Warehouse",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "venue": "Halle 622",
+  "date": "2026-10-03",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 804,
+  "title": "Verknipt Stadion",
+  "type": "Warehouse",
+  "city": "Zurich",
+  "country": "Switzerland",
+  "venue": "Hallenstadion",
+  "date": "2026-12-19",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ }
+]

@@ -1,0 +1,651 @@
+[
+ {
+  "id": 665,
+  "title": "Paul Oakenfold at Cyprus Avenue",
+  "type": "Club",
+  "city": "Cork",
+  "country": "Ireland",
+  "venue": "Cyprus Avenue",
+  "date": "2026-09-25",
+  "genres": [
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "id": 760,
+  "title": "DJ Jean at Cyprus Avenue",
+  "type": "Club",
+  "city": "Cork",
+  "country": "Ireland",
+  "venue": "Cyprus Avenue",
+  "date": "2026-11-14",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 660,
+  "title": "S.P.Y at Racket Space",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Racket Space",
+  "date": "2026-09-04",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 661,
+  "title": "Index: Indira Paganotto",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Index",
+  "date": "2026-09-04",
+  "genres": [
+   "Hard Techno",
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 662,
+  "title": "Étienne de Crécy at The Workman's Club",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "The Workman's Club",
+  "date": "2026-09-04",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 534,
+  "title": "Index: HorsegiirL",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Index",
+  "date": "2026-09-05",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 664,
+  "title": "Index: SG Lewis",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Index",
+  "date": "2026-09-19",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 667,
+  "title": "Main Phase at Wigwam",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Wigwam",
+  "date": "2026-10-02",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 691,
+  "title": "Cassius at Button Factory",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Button Factory",
+  "date": "2026-10-16",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 721,
+  "title": "Duke Dumont at 3Arena",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "3Arena",
+  "date": "2026-10-25",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 722,
+  "title": "2manydjs at Vicar Street",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Vicar Street",
+  "date": "2026-10-25",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 752,
+  "title": "Photek at Racket Space",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Racket Space",
+  "date": "2026-11-13",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 774,
+  "title": "Mietze Conte at Wigwam",
+  "type": "Club",
+  "city": "Dublin",
+  "country": "Ireland",
+  "venue": "Wigwam",
+  "date": "2026-11-26",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 703,
+  "title": "Lane 8 at The Telegraph Building",
+  "type": "Club",
+  "city": "Belfast",
+  "country": "UK",
+  "venue": "The Telegraph Building",
+  "date": "2026-10-17",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 759,
+  "title": "Shine: Jazzy",
+  "type": "Club",
+  "city": "Belfast",
+  "country": "UK",
+  "venue": "The Telegraph Building",
+  "date": "2026-11-14",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 689,
+  "title": "Eric Prydz at GASWRX",
+  "type": "Warehouse",
+  "city": "Birmingham",
+  "country": "UK",
+  "venue": "GASWRX",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 717,
+  "title": "Above & Beyond at GASWRX",
+  "type": "Warehouse",
+  "city": "Birmingham",
+  "country": "UK",
+  "venue": "GASWRX",
+  "date": "2026-10-24",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 781,
+  "title": "Adam F at Castle & Falcon",
+  "type": "Club",
+  "city": "Birmingham",
+  "country": "UK",
+  "venue": "Castle & Falcon",
+  "date": "2026-11-28",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 705,
+  "title": "Eats Everything & Groove Armada at The Prospect Building",
+  "type": "Warehouse",
+  "city": "Bristol",
+  "country": "UK",
+  "venue": "The Prospect Building",
+  "date": "2026-10-17",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 775,
+  "title": "Ivy Lab at Thekla",
+  "type": "Club",
+  "city": "Bristol",
+  "country": "UK",
+  "venue": "Thekla",
+  "date": "2026-11-27",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 780,
+  "title": "Interplanetary Criminal at The Prospect Building",
+  "type": "Warehouse",
+  "city": "Bristol",
+  "country": "UK",
+  "venue": "The Prospect Building",
+  "date": "2026-11-28",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 786,
+  "title": "Sven Väth at DOCUMENT",
+  "type": "Warehouse",
+  "city": "Bristol",
+  "country": "UK",
+  "venue": "DOCUMENT",
+  "date": "2026-12-04",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 708,
+  "title": "Free Time: Romare",
+  "type": "Club",
+  "city": "Edinburgh",
+  "country": "UK",
+  "venue": "Sneaky Pete's",
+  "date": "2026-10-18",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 719,
+  "title": "Cowgate Block Party",
+  "type": "Festival",
+  "city": "Edinburgh",
+  "country": "UK",
+  "venue": "Sneaky Pete's",
+  "date": "2026-10-24",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 747,
+  "title": "Free Time: Dusky",
+  "type": "Club",
+  "city": "Edinburgh",
+  "country": "UK",
+  "venue": "Sneaky Pete's",
+  "date": "2026-11-08",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 813,
+  "title": "Underworld at Princes Street Gardens",
+  "type": "Festival",
+  "city": "Edinburgh",
+  "country": "UK",
+  "venue": "Princes Street Gardens West",
+  "date": "2026-12-31",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 523,
+  "title": "SWG3: Joshwa",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Warehouse",
+  "date": "2026-08-28",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 554,
+  "title": "SWG3: 2Passo & Hidde Van Wee",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Warehouse",
+  "date": "2026-09-19",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 567,
+  "title": "SWG3 Elevate: Paco Osuna",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Galvanizers",
+  "date": "2026-09-27",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 591,
+  "title": "SWG3: The Rocketman All Night Long",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Warehouse",
+  "date": "2026-10-09",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 671,
+  "title": "SWG3: Notion",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 TV Studio",
+  "date": "2026-10-09",
+  "genres": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "id": 594,
+  "title": "FLY: Silva Bumpa Glasgow",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 Galvanizers",
+  "date": "2026-10-10",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 716,
+  "title": "SWG3: Kimmic",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 TV Studio",
+  "date": "2026-10-24",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 634,
+  "title": "Lucid Dreams: Acid Techno",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "The Poetry Club",
+  "date": "2026-11-20",
+  "genres": [
+   "Acid Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 639,
+  "title": "SWG3: Sasha",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 TV Studio",
+  "date": "2026-11-27",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 795,
+  "title": "Sub Club: Mr Scruff",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "Sub Club",
+  "date": "2026-12-12",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 798,
+  "title": "FLY: sim0ne",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "Sub Club",
+  "date": "2026-12-17",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 807,
+  "title": "SWG3: Jazzy",
+  "type": "Club",
+  "city": "Glasgow",
+  "country": "UK",
+  "venue": "SWG3 TV Studio",
+  "date": "2026-12-19",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 725,
+  "title": "Romare at Belgrave Music Hall",
+  "type": "Club",
+  "city": "Leeds",
+  "country": "UK",
+  "venue": "Belgrave Music Hall & Canteen",
+  "date": "2026-10-29",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 690,
+  "title": "Annie Mac at Invisible Wind Factory",
+  "type": "Club",
+  "city": "Liverpool",
+  "country": "UK",
+  "venue": "Invisible Wind Factory",
+  "date": "2026-10-16",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 706,
+  "title": "Above & Beyond at Blackstone Street Warehouse",
+  "type": "Warehouse",
+  "city": "Liverpool",
+  "country": "UK",
+  "venue": "Blackstone Street Warehouse",
+  "date": "2026-10-17",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 707,
+  "title": "Dusky at Hangar 34",
+  "type": "Club",
+  "city": "Liverpool",
+  "country": "UK",
+  "venue": "Hangar 34",
+  "date": "2026-10-17",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 796,
+  "title": "Tiësto at Blackstone Street Warehouse",
+  "type": "Warehouse",
+  "city": "Liverpool",
+  "country": "UK",
+  "venue": "Blackstone Street Warehouse",
+  "date": "2026-12-12",
+  "genres": [
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "id": 704,
+  "title": "Paul van Dyk at Studio 338",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "Studio 338",
+  "date": "2026-10-17",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 709,
+  "title": "Romare at Village Underground",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "Village Underground",
+  "date": "2026-10-22",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 745,
+  "title": "Vini Vici & Blastoyz at Studio 338",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "Studio 338",
+  "date": "2026-11-07",
+  "genres": [
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 748,
+  "title": "Marshmello & Alison Wonderland at The O2",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "The O2",
+  "date": "2026-11-10",
+  "genres": [
+   "EDM"
+  ]
+ },
+ {
+  "id": 766,
+  "title": "Dusky at Phonox",
+  "type": "Club",
+  "city": "London",
+  "country": "UK",
+  "venue": "Phonox",
+  "date": "2026-11-21",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 674,
+  "title": "Cristoph at Joshua Brooks",
+  "type": "Club",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Joshua Brooks",
+  "date": "2026-10-10",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 678,
+  "title": "Lane 8 at New Century",
+  "type": "Club",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "New Century",
+  "date": "2026-10-15",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 702,
+  "title": "The Warehouse Project: Eric Prydz",
+  "type": "Warehouse",
+  "city": "Manchester",
+  "country": "UK",
+  "venue": "Depot Mayfield",
+  "date": "2026-10-17",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 718,
+  "title": "Chicane at The Palais",
+  "type": "Club",
+  "city": "Nottingham",
+  "country": "UK",
+  "venue": "The Palais",
+  "date": "2026-10-24",
+  "genres": [
+   "Trance"
+  ]
+ }
+]
