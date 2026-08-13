@@ -385,5 +385,14 @@
   "kind": "venue",
   "width": 2560,
   "note": "photo de la salle publiee par le lieu (facade - a remplacer si une photo de club apparait)"
+ },
+ {
+  "id": 775,
+  "image": "https://www.dhpfamily.com/wp-content/uploads/2019/10/Thekla-pic-1.jpg",
+  "sourcePage": "https://dhpfamily.com/venues/thekla/",
+  "credit": "Thekla / DHP Family",
+  "kind": "venue",
+  "width": 2048,
+  "note": "photo d'un DJ set a bord de la Thekla, publiee par l'exploitant du lieu"
  }
 ]
