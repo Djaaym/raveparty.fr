@@ -65,6 +65,15 @@ REQUIRED = {"title","type","genres","city","country","lat","lng","date","time",
             "price","currency","venue","trending","lineup","desc","descEn"}
 GENRES = {"Techno","Hard Techno","Acid Techno","Hardstyle","Hardcore","EDM",
           "Drum & Bass","House","Trance","Psytrance","Free Party","Warehouse"}
+# `type` était validé sur sa seule présence, alors que EventType (lib/types.ts) n'admet
+# que ces trois valeurs : un lot rendant "Rave" ou "Open Air" passait le merge et cassait
+# le build 7 000 pages plus loin, sur une erreur de typage au milieu de data.ts. Le coût
+# se paie au build, pas ici — d'où le rejet en amont. TYPE_FIX rattrape les deux
+# synonymes déjà vus plutôt que de perdre une fiche par ailleurs vérifiée : une grande
+# salle couverte est un "Warehouse", un plein air est un "Festival".
+TYPES = {"Festival","Club","Warehouse"}
+TYPE_FIX = {"Rave": "Warehouse", "Open Air": "Festival", "Open-Air": "Festival",
+            "Openair": "Festival", "Concert": "Club", "Party": "Club"}
 
 rows, skipped, rejected = [], [], []
 seen = set()
@@ -83,7 +92,10 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         bad = [g for g in e["genres"] if g not in GENRES]
         if bad:
             rejected.append((fn, e["title"], f"bad genre {bad}")); continue
-        if (e.get("endDate") or e["date"]) < "2026-08-08":
+        e["type"] = TYPE_FIX.get(e["type"], e["type"])
+        if e["type"] not in TYPES:
+            rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
+        if (e.get("endDate") or e["date"]) < "2026-08-13":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",

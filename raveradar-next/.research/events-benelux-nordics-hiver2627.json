@@ -1,0 +1,1044 @@
+[
+  {
+    "title": "Hard Bass",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "lat": 51.9631,
+    "lng": 5.8925,
+    "date": "2026-10-10",
+    "time": "21:00 - 07:00",
+    "price": 79.95,
+    "currency": "€",
+    "venue": "GelreDome",
+    "trending": true,
+    "lineup": [],
+    "desc": "Sept ans après sa dernière édition, Hard Bass revient dans le GelreDome d'Arnhem pour les 25 ans de l'organisateur b2s. Le principe reste le concept des quatre équipes de couleur qui se relaient dans le stade couvert, de 21h à 7h du matin. Le line-up n'est pas encore annoncé ; le billet regular est à 79,95 €.",
+    "descEn": "Seven years after its last edition, Hard Bass returns to the GelreDome in Arnhem for promoter b2s's 25th anniversary. The four colour-coded teams take turns inside the covered stadium from 21:00 to 07:00. The line-up has not been announced yet; regular tickets are 79.95 EUR.",
+    "sources": [
+      "https://festivalfans.nl/event/hard-bass/",
+      "https://festivalfans.nl/events/hardstyle/"
+    ]
+  },
+  {
+    "title": "Loudness",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "lat": 51.8977,
+    "lng": 4.4945,
+    "date": "2026-11-28",
+    "time": "14:00 - 23:00",
+    "price": 44.95,
+    "currency": "€",
+    "venue": "Maassilo",
+    "trending": false,
+    "lineup": [
+      "Adaro",
+      "Artifact",
+      "B-Front",
+      "Blackburn & Aeros",
+      "Chain Reaction",
+      "Crypsis",
+      "Deetox",
+      "Degos & Re-Done",
+      "Digital Punk",
+      "DJ Thera",
+      "E-Force",
+      "Element",
+      "Hardstyle Mafia",
+      "Jason Payne",
+      "Mind Dimension",
+      "Prefix & Density",
+      "Regain",
+      "Rejecta",
+      "Sub Sonik",
+      "The Purge",
+      "Titan"
+    ],
+    "desc": "Loudness ressort du placard pour les 25 ans de b2s : une journée raw hardstyle dans les silos du Maassilo à Rotterdam, de 14h à 23h. Le plateau complet est annoncé, avec B-Front, Adaro, Rejecta, Sub Sonik, Digital Punk et une vingtaine d'autres, hébergés par MC Da Syndrome, Fló et MC Livid. Billet regular à 44,95 €, réservé aux 18 ans et plus.",
+    "descEn": "Loudness is dusted off for b2s's 25th anniversary: a full day of raw hardstyle inside Rotterdam's Maassilo grain silos, from 14:00 to 23:00. The complete line-up is out, with B-Front, Adaro, Rejecta, Sub Sonik, Digital Punk and twenty more, hosted by MC Da Syndrome, Fló and MC Livid. Regular tickets 44.95 EUR, 18+.",
+    "sources": [
+      "https://festivalfans.nl/event/loudness/",
+      "https://www.maassilo.com/agenda/"
+    ]
+  },
+  {
+    "title": "Thuishaven: X Club. & DART",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2026-11-22",
+    "time": "13:00 - 23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [
+      "X Club.",
+      "DART",
+      "NewTone",
+      "Freddi B2B Sophia Violet",
+      "Schwesta P B2B Olivia Lensen",
+      "S3PPA"
+    ],
+    "desc": "Première date de novembre au Thuishaven, sur le terrain industriel du port ouest d'Amsterdam : dix heures de hard house et de hard trance, de 13h à 23h. Le duo australien X Club. mène le plateau avec DART, NewTone, Freddi b2b Sophia Violet, Schwesta P b2b Olivia Lensen et S3PPA. Le tarif n'était pas encore publié à l'annonce.",
+    "descEn": "Thuishaven's first November date, on the industrial grounds of Amsterdam's western harbour: ten hours of hard house and hard trance, 13:00 to 23:00. Australian duo X Club. head the bill alongside DART, NewTone, Freddi b2b Sophia Violet, Schwesta P b2b Olivia Lensen and S3PPA. The ticket price had not been published at announcement.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "Thuishaven ADE: Salute & Bella Claxton",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Trance",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2026-10-23",
+    "time": "16:00 - 23:00",
+    "price": 39.5,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [
+      "Salute",
+      "Diffrent",
+      "Bella Claxton"
+    ],
+    "desc": "Journée ADE au Thuishaven, répartie sur trois espaces : Salute présente Infinite Passion sous le Tempel, Diffrent invite ses proches au Circus et Bella Claxton déroule son projet Cadence dans le Loods. De 16h à 23h, dans un registre hard house / hard trance. Billet à 39,50 € ; une Nightshow séparée avec Daria Kolosova enchaîne à 23h.",
+    "descEn": "ADE daytime session at Thuishaven, spread over three spaces: Salute presents Infinite Passion in the Tempel, Diffrent invites friends to the Circus and Bella Claxton runs her Cadence project in the Loods. From 16:00 to 23:00, in a hard house / hard trance register. Tickets 39.50 EUR; a separate Nightshow with Daria Kolosova follows at 23:00.",
+    "sources": [
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "elrow ADE – Dance with the Serpent",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3909,
+    "lng": 4.9245,
+    "date": "2026-10-23",
+    "time": "23:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Kromhouthal",
+    "trending": false,
+    "lineup": [],
+    "desc": "elrow installe sa scénographie carnavalesque dans la Kromhouthal, l'ancienne halle de chantier naval du Nord d'Amsterdam, pour la nuit du vendredi de l'ADE. Le thème annoncé est Dance with the Serpent, de 23h à 6h du matin. Le line-up n'est pas encore publié.",
+    "descEn": "elrow brings its carnival staging to the Kromhouthal, a former shipyard hall in Amsterdam Noord, for the Friday night of ADE. The announced theme is Dance with the Serpent, running 23:00 to 06:00. The line-up has not been published yet.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://elrow.com/en/events/1307/amsterdam-dance-with-the-serpent-10232026",
+      "https://festivalfans.nl/events/ade/"
+    ]
+  },
+  {
+    "title": "30 Years of Kozzmozz",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "city": "Ghent",
+    "country": "Belgium",
+    "lat": 51.0476,
+    "lng": 3.728,
+    "date": "2026-10-17",
+    "time": "22:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Vooruit (VIERNULVIER)",
+    "trending": true,
+    "lineup": [
+      "Len Faki",
+      "Speedy J",
+      "Spacid",
+      "T-Quest"
+    ],
+    "desc": "Kozzmozz, la plus ancienne soirée techno de Belgique, fête ses trente ans dans la grande salle du Vooruit à Gand. Len Faki (Figure, Hard Wax) et Speedy J (Electric Deluxe) partagent l'affiche avec les résidents historiques Spacid et T-Quest. De 22h à 6h, jauge limitée à 1 250 personnes.",
+    "descEn": "Kozzmozz, Belgium's longest-running techno night, turns thirty in the main hall of Ghent's Vooruit. Len Faki (Figure, Hard Wax) and Speedy J (Electric Deluxe) share the bill with long-time residents Spacid and T-Quest. From 22:00 to 06:00, capacity capped at 1,250.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/569039/30-years-of-kozzmozz?language=en",
+      "https://www.kozzmozz.com/"
+    ]
+  },
+  {
+    "title": "Los Ninos: Queer Berlin",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brussels",
+    "country": "Belgium",
+    "lat": 50.848,
+    "lng": 4.3565,
+    "date": "2026-10-16",
+    "time": "23:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": [],
+    "desc": "Los Ninos, collectif queer bruxellois, ramène au C12 sa nuit consacrée aux clubs berlinois : techno et house sous la gare Centrale, à partir de 23h. Le line-up est encore en cours de confirmation. Soirée 18+, tarifs dégressifs en early bird.",
+    "descEn": "Brussels queer collective Los Ninos brings its Berlin-club night back to C12: techno and house under Brussels Central Station, from 23:00. The line-up is still being confirmed. 18+, with early-bird pricing.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/571871/los-ninos-queer-berlin?language=en",
+      "https://www.losninos.be/"
+    ]
+  },
+  {
+    "title": "Space Rave: Dacru & Kuf Kuf",
+    "type": "Rave",
+    "genres": [
+      "Hardstyle",
+      "Hard Techno"
+    ],
+    "city": "Ghent",
+    "country": "Belgium",
+    "lat": 51.0669,
+    "lng": 3.725,
+    "date": "2026-12-05",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "De Chinastraat",
+    "trending": false,
+    "lineup": [],
+    "desc": "Space Rave réunit les écuries Dacru Records et Kuf Kuf dans l'entrepôt de la Chinastraat, au nord de Gand, pour une nuit hard dance de 22h à 7h. La jauge est de 800 personnes. Le line-up détaillé n'est pas encore publié.",
+    "descEn": "Space Rave brings the Dacru Records and Kuf Kuf crews together in the Chinastraat warehouse in northern Ghent for a hard dance night from 22:00 to 07:00. Capacity is 800. The detailed line-up has not been published yet.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/566025/space-rave-dacru-kuf-kuf?language=en",
+      "https://chinastraat.be/"
+    ]
+  },
+  {
+    "title": "Pat B Birthday Bash XXL",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Antwerp",
+    "country": "Belgium",
+    "lat": 51.2296,
+    "lng": 4.4361,
+    "date": "2026-12-19",
+    "time": "21:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Lotto Arena",
+    "trending": false,
+    "lineup": [
+      "Pat B"
+    ],
+    "desc": "Après une édition à guichets fermés, Bass Events replace l'anniversaire de Pat B dans la Lotto Arena d'Anvers, 12 000 places, de 21h à 6h. Le hardstyle jaune du DJ belge occupe toute la nuit ; le reste du plateau sera annoncé plus tard.",
+    "descEn": "After a sold-out edition, Bass Events returns Pat B's birthday party to Antwerp's 12,000-capacity Lotto Arena, from 21:00 to 06:00. The Belgian DJ's yellow hardstyle carries the night; the rest of the bill is to be announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/551430/pat-b-birthday-bash-xxl-2026?language=en",
+      "https://www.bassevents.be/"
+    ]
+  },
+  {
+    "title": "Full Circle: BYORN Invites",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Ghent",
+    "country": "Belgium",
+    "lat": 51.0592,
+    "lng": 3.735,
+    "date": "2026-12-20",
+    "time": "23:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Kompass Klub",
+    "trending": false,
+    "lineup": [
+      "BYORN"
+    ],
+    "desc": "Nuit du dimanche au lundi au Kompass Klub, l'entrepôt techno de Gand : le résident BYORN invite ses proches pour huit heures de sets, de 23h à 7h. Soirée réservée aux 18 ans et plus. Le reste du line-up n'est pas encore annoncé.",
+    "descEn": "Sunday-into-Monday night at Kompass Klub, Ghent's techno warehouse: resident BYORN invites his circle for eight hours of music, 23:00 to 07:00. 18+. The rest of the line-up has not been announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/555316/full-circle-byorn-invites?language=en",
+      "https://kompassklub.com/"
+    ]
+  },
+  {
+    "title": "Verknipt NYE Eindhoven",
+    "type": "Rave",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "lat": 51.4482,
+    "lng": 5.4575,
+    "date": "2026-12-31",
+    "time": "20:00 - 08:00",
+    "price": 66,
+    "currency": "€",
+    "venue": "Klokgebouw, Strijp-S",
+    "trending": true,
+    "lineup": [
+      "Amara b2b Thiso",
+      "Aphøtic b2b Tassery",
+      "Ben Techy b2b Luciid",
+      "Bøęry b2b Cynthia Spiering",
+      "Callush b2b Ornella",
+      "Cleo Grooves b2b Zuke",
+      "Iosio",
+      "Karah",
+      "Klofama",
+      "Kruelty",
+      "Natte Visstick",
+      "Raxeller",
+      "Restricted",
+      "Toxic Machinery",
+      "Ush",
+      "Vendex"
+    ],
+    "desc": "Verknipt délocalise son réveillon à Eindhoven, dans le Klokgebouw de Strijp-S : douze heures de hard techno, de 20h le 31 décembre à 8h le 1er janvier, pour 5 000 personnes. Le plateau est presque intégralement en b2b — Bøęry b2b Cynthia Spiering, Callush b2b Ornella, Ben Techy b2b Luciid — avec Kruelty, Vendex, Iosio et Raxeller. Préventes à 66 €, 18+.",
+    "descEn": "Verknipt moves its New Year's Eve party to Eindhoven's Klokgebouw on the Strijp-S site: twelve hours of hard techno, from 20:00 on 31 December to 08:00 on 1 January, for 5,000 people. The bill is almost entirely b2b — Bøęry b2b Cynthia Spiering, Callush b2b Ornella, Ben Techy b2b Luciid — plus Kruelty, Vendex, Iosio and Raxeller. Presale 66 EUR, 18+.",
+    "endDate": "2027-01-01",
+    "sources": [
+      "https://www.djguide.nl/party.p/573343/verknipt-nye-eindhoven?language=en",
+      "https://www.verknipt.org/"
+    ]
+  },
+  {
+    "title": "Verknipt NYE Specials Antwerp",
+    "type": "Rave",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Antwerp",
+    "country": "Belgium",
+    "lat": 51.2404,
+    "lng": 4.4189,
+    "date": "2026-12-31",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Garage Klub",
+    "trending": false,
+    "lineup": [
+      "Ben Techy",
+      "Bøęry",
+      "Charlotte Preckler",
+      "Kruelty",
+      "Myu:sa",
+      "Raxeller",
+      "Santøs",
+      "Slvl"
+    ],
+    "desc": "Le pendant belge du réveillon Verknipt se tient au Garage Klub, sur le Noorderlaan dans la zone portuaire d'Anvers, de 22h à 7h. Huit noms de hard techno se relaient, dont Charlotte Preckler, Kruelty, Bøęry et Ben Techy. Soirée 18+.",
+    "descEn": "The Belgian half of Verknipt's New Year's Eve runs at Garage Klub on Noorderlaan, in Antwerp's port area, from 22:00 to 07:00. Eight hard techno names take turns, including Charlotte Preckler, Kruelty, Bøęry and Ben Techy. 18+.",
+    "endDate": "2027-01-01",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/573344/verknipt-nye-specials-antwerp?language=en",
+      "https://garageklub.be/"
+    ]
+  },
+  {
+    "title": "FURY: Cara Elizabeth, Johannes Schuster & Mika Heggemann",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1873,
+    "lng": 24.981,
+    "date": "2026-10-16",
+    "time": "23:00 - 05:00",
+    "price": 35,
+    "currency": "€",
+    "venue": "Ääniwalli",
+    "trending": false,
+    "lineup": [
+      "Cara Elizabeth",
+      "Johannes Schuster",
+      "Mika Heggemann"
+    ],
+    "desc": "Le club Fury ouvre sa saison d'automne dans tout l'Ääniwalli, l'ancienne usine de Vallila à Helsinki, avec trois débuts finlandais : Cara Elizabeth, Johannes Schuster et Mika Heggemann, tous venus d'Allemagne. Ouverture à 23h, soirée réservée aux 18 ans et plus. Billet phase 1 à 35 € (early bird 29 €), d'autres artistes seront annoncés.",
+    "descEn": "Club Fury opens its autumn season across the whole of Ääniwalli, the former factory in Helsinki's Vallila district, with three Finnish debuts: Cara Elizabeth, Johannes Schuster and Mika Heggemann, all from Germany. Doors at 23:00, 18+. Phase 1 tickets 35 EUR (early bird 29 EUR), more artists to be announced.",
+    "ticketUrl": "https://www.tiketti.fi/fury-cara-elizabeth-johannes-schuster-mika-heggemann-lippuja/119761",
+    "sources": [
+      "https://aaniwalli.fi/events/2026-10-16-fury_cara_elizabeth_de_johannes_schuster_de_mika_heggemann_de",
+      "https://aaniwalli.fi/"
+    ]
+  },
+  {
+    "title": "Teletech x CNNCT Helsinki",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Helsinki",
+    "country": "Finland",
+    "lat": 60.1873,
+    "lng": 24.981,
+    "date": "2026-11-06",
+    "time": "23:00 - 05:00",
+    "price": 36,
+    "currency": "€",
+    "venue": "Ääniwalli",
+    "trending": false,
+    "lineup": [
+      "Galrav",
+      "Kirsty",
+      "Onlynumbers",
+      "Kruelty"
+    ],
+    "desc": "La marque britannique Teletech revient à Helsinki avec le collectif finlandais CNNCT et prend la Room 1 de l'Ääniwalli pour une des grosses nuits hard techno de la saison. Galrav, Kirsty, Onlynumbers et Kruelty se relaient à partir de 23h. Billet regular à 36 €, late à 49 €, 18+.",
+    "descEn": "UK brand Teletech returns to Helsinki with Finnish collective CNNCT, taking over Ääniwalli's Room 1 for one of the season's biggest hard techno nights. Galrav, Kirsty, Onlynumbers and Kruelty take turns from 23:00. Regular tickets 36 EUR, late 49 EUR, 18+.",
+    "ticketUrl": "https://www.kickets.com/event/184/teletech-x-cnnct-6112026-2026",
+    "sources": [
+      "https://aaniwalli.fi/events/2026-06-11-teletech_x_cnnct",
+      "https://aaniwalli.fi/"
+    ]
+  },
+  {
+    "title": "Technostate BIGBANG Halloween",
+    "type": "Rave",
+    "genres": [
+      "Psytrance",
+      "Techno",
+      "Trance"
+    ],
+    "city": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.2929,
+    "lng": 18.081,
+    "date": "2026-10-31",
+    "time": "22:00 - 05:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Annexet",
+    "trending": true,
+    "lineup": [
+      "Ummet Ozcan",
+      "Astral Projection",
+      "Blastoyz",
+      "EverTwo"
+    ],
+    "desc": "Technostate transforme l'Annexet, la salle de 4 000 places accolée à l'Avicii Arena, en rave d'Halloween : c'est la plus grosse soirée électronique d'Halloween de Suède, montée par un organisateur actif depuis 2003. Ummet Ozcan, Astral Projection, Blastoyz et EverTwo mènent un plateau psytrance, techno et progressive, d'autres noms à venir. Portes à 22h, 18+, costumes bienvenus mais pas obligatoires.",
+    "descEn": "Technostate turns Annexet, the 4,000-capacity hall next to the Avicii Arena, into a Halloween rave: Sweden's biggest Halloween electronic event, run by a promoter active since 2003. Ummet Ozcan, Astral Projection, Blastoyz and EverTwo head a psytrance, techno and progressive bill, with more names to come. Doors 22:00, 18+, costumes welcome but not required.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://annexet.se/en/events/music-show/extreme-2/",
+      "https://technostate.se/"
+    ]
+  },
+  {
+    "title": "KREAM at Trädgår'n",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7013,
+    "lng": 11.977,
+    "date": "2026-10-17",
+    "time": "23:00 - 04:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Trädgår'n",
+    "trending": false,
+    "lineup": [
+      "KREAM"
+    ],
+    "desc": "Le duo norvégien KREAM, deux frères de Bergen passés par Spinnin' et Musical Freedom, joue à Göteborg dans la boîte du Trädgår'n, sur la Nya Allén. Soirée montée par AIZ Project, de 23h à 4h, réservée aux 18 ans et plus.",
+    "descEn": "Norwegian duo KREAM, two brothers from Bergen with releases on Spinnin' and Musical Freedom, play Gothenburg in the Trädgår'n nightclub on Nya Allén. Promoted by AIZ Project, 23:00 to 04:00, 18+.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.tradgarn.se/kalender/kream-17-oktober-tradgar-n/"
+    ]
+  },
+  {
+    "title": "STVW Punk Rave",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7013,
+    "lng": 11.977,
+    "date": "2026-11-06",
+    "time": "23:00 - 04:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Trädgår'n",
+    "trending": false,
+    "lineup": [
+      "STVW"
+    ],
+    "desc": "Premier passage en Suède du producteur allemand STVW (Steve Witzlsperger), qui transpose l'emo et le pop-punk en musique de club sous le nom de PUNK RAVE — guitare électrique sur scène comprise. La soirée est portée par High 5ive Music, à l'origine du concept Emo Club. Au Trädgår'n de Göteborg, 18+ ; l'horaire précis n'est pas encore annoncé.",
+    "descEn": "First Swedish date for German producer STVW (Steve Witzlsperger), who turns emo and pop-punk into club music under the PUNK RAVE banner — electric guitar on stage included. The night is promoted by High 5ive Music, behind the Emo Club concept. At Trädgår'n in Gothenburg, 18+; exact set times not yet announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.tradgarn.se/kalender/stvw-punk-rave/"
+    ]
+  },
+  {
+    "title": "DJ Aligator: The Final Reptile Rave – Heaven",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "Trance"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6667,
+    "lng": 12.5455,
+    "date": "2026-10-16",
+    "time": "20:00 - 02:00",
+    "price": 295,
+    "currency": "kr",
+    "venue": "Store VEGA",
+    "trending": false,
+    "lineup": [
+      "DJ Aligator"
+    ],
+    "desc": "Premier des deux soirs du grand adieu de DJ Aligator au Store VEGA de Copenhague. Le chapitre « Heaven » est la version lumineuse : hits nostalgiques, dance euphorique et tubes qui ont fait sa carrière — « The Whistle Song », « Lollipop », « Stomp! ». Billet à 295 DKK, frais compris.",
+    "descEn": "The first of two farewell nights from DJ Aligator at Store VEGA in Copenhagen. The 'Heaven' chapter is the bright one: nostalgic hits, euphoric dance and the tracks that made his career — 'The Whistle Song', 'Lollipop', 'Stomp!'. Tickets 295 DKK including fees.",
+    "ticketUrl": "https://vega.dk/en/event/dj-aligator-2026-10-16",
+    "sources": [
+      "https://vega.dk/en/event/dj-aligator-2026-10-16"
+    ]
+  },
+  {
+    "title": "DJ Aligator: The Final Reptile Rave – Hell",
+    "type": "Club",
+    "genres": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6667,
+    "lng": 12.5455,
+    "date": "2026-10-17",
+    "time": "20:00 - 02:00",
+    "price": 295,
+    "currency": "kr",
+    "venue": "Store VEGA",
+    "trending": false,
+    "lineup": [
+      "DJ Aligator"
+    ],
+    "desc": "Deuxième soir du même adieu, à l'opposé du premier : le chapitre « Hell » sort la face brute de DJ Aligator — hardcore, basses lourdes et rave en sueur au Store VEGA. Les deux dates closent vingt-cinq ans de carrière du DJ danois d'origine iranienne. Billet à 295 DKK, frais compris.",
+    "descEn": "The second night of the same farewell, and its opposite: the 'Hell' chapter unleashes DJ Aligator's raw side — hardcore, heavy bass and a sweaty rave at Store VEGA. The two dates close twenty-five years of the Iranian-born Danish DJ's career. Tickets 295 DKK including fees.",
+    "ticketUrl": "https://vega.dk/en/event/dj-aligator-2026-10-16",
+    "sources": [
+      "https://vega.dk/en/event/dj-aligator-2026-10-16",
+      "https://allthingslive.dk/event/dj-aligator"
+    ]
+  },
+  {
+    "title": "Silva Bumpa at Pumpehuset",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6772,
+    "lng": 12.5637,
+    "date": "2026-10-17",
+    "time": "20:00 - 01:00",
+    "price": 280,
+    "currency": "kr",
+    "venue": "Pumpehuset",
+    "trending": false,
+    "lineup": [
+      "Silva Bumpa"
+    ],
+    "desc": "Harry Eagle, alias Silva Bumpa, apporte au Pumpehuset le UK garage, la bassline et le speed garage de Sheffield qui lui ont valu une tournée à guichets fermés et un Boiler Room remarqué. Portes à 20h, concert à 21h. Billet à 280 DKK, frais compris.",
+    "descEn": "Harry Eagle, aka Silva Bumpa, brings the Sheffield UK garage, bassline and speed garage that earned him a sold-out tour and a well-received Boiler Room set to Pumpehuset. Doors 20:00, show 21:00. Tickets 280 DKK including fees.",
+    "ticketUrl": "https://pumpehuset.dk/en/koncerter/silva-bumpa/",
+    "sources": [
+      "https://pumpehuset.dk/en/koncerter/silva-bumpa/"
+    ]
+  },
+  {
+    "title": "Cassius CLUB 360°",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6772,
+    "lng": 12.5637,
+    "date": "2026-10-30",
+    "time": "21:00 - 02:00",
+    "price": 225,
+    "currency": "kr",
+    "venue": "Pumpehuset",
+    "trending": false,
+    "lineup": [
+      "Cassius"
+    ],
+    "desc": "Cassius revient au Danemark pour la première fois depuis Roskilde 1999, dans une scénographie à 360° où le public entoure la scène du Pumpehuset. Boombass poursuit seul l'héritage French Touch depuis la disparition de Philippe Zdar en 2019 ; c'est la dernière tournée du projet. Portes à 21h, concert à 21h30, à partir de 225 DKK. Un invité surprise sera annoncé.",
+    "descEn": "Cassius return to Denmark for the first time since Roskilde 1999, in a 360° staging with the audience surrounding the stage at Pumpehuset. Boombass has carried the French Touch legacy alone since Philippe Zdar's death in 2019; this is the project's final tour. Doors 21:00, show 21:30, from 225 DKK. A special guest is to be announced.",
+    "ticketUrl": "https://pumpehuset.dk/en/koncerter/cassius-club-360-special-guest/",
+    "sources": [
+      "https://pumpehuset.dk/en/koncerter/cassius-club-360-special-guest/"
+    ]
+  },
+  {
+    "title": "Trinix at Pumpehuset",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6772,
+    "lng": 12.5637,
+    "date": "2026-11-21",
+    "time": "20:00 - 01:00",
+    "price": 320,
+    "currency": "kr",
+    "venue": "Pumpehuset",
+    "trending": false,
+    "lineup": [
+      "Trinix"
+    ],
+    "desc": "Premier concert danois du duo lyonnais Trinix, un des plus gros noms de l'électronique française du moment, venu défendre l'album « Origin » au Pumpehuset. Josh Chergui et Lois Serre produisent une house chaude et mélodique qui leur vaut des remixes pour Lost Frequencies, Armin van Buuren ou Steve Aoki. Portes à 20h, concert à 21h, 320 DKK.",
+    "descEn": "First Danish show for Lyon duo Trinix, one of French electronic music's biggest current names, presenting the album 'Origin' at Pumpehuset. Josh Chergui and Lois Serre make warm, melodic house that has earned them remixes for Lost Frequencies, Armin van Buuren and Steve Aoki. Doors 20:00, show 21:00, 320 DKK.",
+    "ticketUrl": "https://pumpehuset.dk/en/koncerter/trinix/",
+    "sources": [
+      "https://pumpehuset.dk/en/koncerter/trinix/"
+    ]
+  },
+  {
+    "title": "Protoned Christmas Rave",
+    "type": "Rave",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6772,
+    "lng": 12.5637,
+    "date": "2026-12-25",
+    "time": "21:30 - 06:00",
+    "price": 380,
+    "currency": "kr",
+    "venue": "Pumpehuset",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le collectif Protoned reconduit son rave du soir de Noël au Pumpehuset : psytrance toute la nuit à partir de 21h30, le 25 décembre. C'est un rendez-vous installé du calendrier copenhaguois, réservé aux 18 ans et plus. Le line-up sera annoncé plus tard ; billets à partir de 380 DKK.",
+    "descEn": "The Protoned collective brings back its Christmas-night rave at Pumpehuset: psytrance all night from 21:30 on 25 December. It is a fixture of the Copenhagen calendar, 18+. The line-up is to be announced; tickets from 380 DKK.",
+    "ticketUrl": "https://pumpehuset.dk/en/koncerter/protoned-christmas-rave-5/",
+    "sources": [
+      "https://pumpehuset.dk/en/koncerter/protoned-christmas-rave-5/"
+    ]
+  },
+  {
+    "title": "Vieze Asbak b2b Kruelty All Day Long",
+    "type": "Rave",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3128,
+    "lng": 4.9448,
+    "date": "2026-12-05",
+    "time": "17:00 - 00:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "AFAS Live",
+    "trending": false,
+    "lineup": [
+      "Vieze Asbak",
+      "Kruelty"
+    ],
+    "desc": "Hagen Festivals (Free Your Mind) offre l'AFAS Live entier — 7 000 places — à un seul b2b : Vieze Asbak et Kruelty enchaînent sept heures de hard techno, de 17h à minuit. Aucune première partie, aucun autre nom : les deux Néerlandais tiennent la salle du début à la fin. La date est complète.",
+    "descEn": "Hagen Festivals (Free Your Mind) hands the whole 7,000-capacity AFAS Live to a single b2b: Vieze Asbak and Kruelty play seven straight hours of hard techno, 17:00 to midnight. No support, no other names — the two Dutch DJs hold the room from start to finish. The date is sold out.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/567101/vieze-asbak-b2b-kruelty-all-day-long?language=en",
+      "https://www.afaslive.nl/"
+    ]
+  },
+  {
+    "title": "Winter of Love Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Trance"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2026-12-12",
+    "time": "13:00 - 23:00",
+    "price": 35.95,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [
+      "Darren Emerson",
+      "Jam el Mar",
+      "Sander Kleinenberg",
+      "Alexander Koning"
+    ],
+    "desc": "Édition hivernale du Winter of Love sur le terrain du Thuishaven, à Contactweg : dix heures de 13h à 23h, jauge 1 200 personnes. Le plateau est bâti sur des figures des années 90 — Darren Emerson (Underworld), Jam el Mar (Jam & Spoon) et Sander Kleinenberg, avec Alexander Koning. Prévente à 35,95 €, d'autres noms à venir.",
+    "descEn": "Winter edition of Winter of Love on the Thuishaven grounds at Contactweg: ten hours from 13:00 to 23:00, capacity 1,200. The bill is built on 90s figures — Darren Emerson (Underworld), Jam el Mar (Jam & Spoon) and Sander Kleinenberg, plus Alexander Koning. Presale 35.95 EUR, more names to come.",
+    "sources": [
+      "https://www.djguide.nl/party.p/569927/winter-of-love-festival-2026?language=en",
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "Luminosity 19 Years Anniversary",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3648,
+    "lng": 4.8813,
+    "date": "2026-12-19",
+    "time": "23:59 - 06:00",
+    "price": 29.9,
+    "currency": "€",
+    "venue": "Melkweg",
+    "trending": false,
+    "lineup": [],
+    "desc": "Luminosity, l'organisateur trance néerlandais du Beach Festival de Bloemendaal, fête ses dix-neuf ans par une journée puis une nuit. Le volet nocturne se tient au Melkweg, de minuit à 6h. Le line-up sera confirmé plus tard ; prévente à 29,90 €.",
+    "descEn": "Luminosity, the Dutch trance promoter behind the Bloemendaal Beach Festival, marks nineteen years with a day session and then a night one. The night half runs at Melkweg, from midnight to 06:00. The line-up is to be confirmed; presale 29.90 EUR.",
+    "sources": [
+      "https://www.djguide.nl/party.p/561510/luminosity-19-year-anniversary?language=en",
+      "https://luminosity-events.nl/"
+    ]
+  },
+  {
+    "title": "De Nieuwjaarsborrel",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2027-01-09",
+    "time": "13:00 - 23:00",
+    "price": 33.45,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [],
+    "desc": "The Promised Land ouvre l'année sur le terrain du Thuishaven avec son « apéro du Nouvel An » : dix heures en plein hiver, de 13h à 23h, pour 1 200 personnes. Prévente à 33,45 €, réservé aux 18 ans et plus. Le line-up n'est pas encore publié.",
+    "descEn": "The Promised Land opens the year on the Thuishaven grounds with its 'New Year's drink': ten hours in midwinter, 13:00 to 23:00, for 1,200 people. Presale 33.45 EUR, 18+. The line-up has not been published yet.",
+    "sources": [
+      "https://www.djguide.nl/party.p/553490/de-nieuwjaarsborrel-2027?language=en",
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "Ghosttown",
+    "type": "Rave",
+    "genres": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0924,
+    "lng": 5.1128,
+    "date": "2027-01-09",
+    "time": "22:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "TivoliVredenburg",
+    "trending": false,
+    "lineup": [],
+    "desc": "Dance 2 Eden ramène Ghosttown dans les salles empilées du TivoliVredenburg, en plein centre d'Utrecht : une nuit hardcore à partir de 22h. Le line-up sera annoncé, le tarif n'est pas encore publié.",
+    "descEn": "Dance 2 Eden brings Ghosttown back to the stacked halls of TivoliVredenburg in central Utrecht: a hardcore night from 22:00. The line-up is to be announced and the price is not yet published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/554426/ghosttown-2027?language=en",
+      "https://www.ghosttown.nl/"
+    ]
+  },
+  {
+    "title": "Supremacy – Return To The Classics",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0894,
+    "lng": 5.1066,
+    "date": "2027-01-16",
+    "time": "13:00 - 23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Jaarbeurs",
+    "trending": true,
+    "lineup": [],
+    "desc": "Art of Dance replie Supremacy sur son répertoire d'origine : des sets live exclusifs consacrés à l'époque qui a façonné la marque, dans les halls de la Jaarbeurs d'Utrecht à partir de 13h. Réservé aux 18 ans et plus ; line-up et tarif à venir.",
+    "descEn": "Art of Dance turns Supremacy back on its own history: exclusive live sets devoted to the era that shaped the brand, in the Jaarbeurs halls in Utrecht from 13:00. 18+; line-up and pricing still to come.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/556114/supremacy-2027-return-to-the-classics?language=en",
+      "https://www.supremacy.nl/"
+    ]
+  },
+  {
+    "title": "PACT: Joachim Pastor, Joris Delacroix & Teho",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3672,
+    "lng": 4.8548,
+    "date": "2027-01-23",
+    "time": "16:00 - 00:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Het Sieraad",
+    "trending": false,
+    "lineup": [
+      "Joachim Pastor",
+      "Joris Delacroix",
+      "Teho"
+    ],
+    "desc": "PACT réunit trois producteurs français de melodic techno — Joachim Pastor, Joris Delacroix et Teho — pour un live commun dans l'ancienne école d'Het Sieraad, à Amsterdam-Ouest. De 16h à minuit, jauge 1 400 places. Le tarif n'est pas encore publié.",
+    "descEn": "PACT brings three French melodic techno producers together — Joachim Pastor, Joris Delacroix and Teho — for a joint live show in the former school building of Het Sieraad in Amsterdam West. From 16:00 to midnight, capacity 1,400. Pricing is not yet published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/567333/joachim-pastor-joris-delacroix-teho-present-pact?language=en",
+      "https://www.het-sieraad.nl/"
+    ]
+  },
+  {
+    "title": "Swedish House Mafia at Ullevi",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7069,
+    "lng": 11.9878,
+    "date": "2026-08-28",
+    "endDate": "2026-08-29",
+    "time": "19:30 - 23:30",
+    "price": 1195,
+    "currency": "kr",
+    "venue": "Ullevi",
+    "trending": true,
+    "lineup": [
+      "Swedish House Mafia",
+      "Axwell",
+      "Steve Angello",
+      "Sebastian Ingrosso"
+    ],
+    "desc": "Axwell, Steve Angello et Sebastian Ingrosso jouent deux soirs de suite dans le stade d'Ullevi, à Göteborg — les plus gros concerts de l'histoire du trio, chez eux. Portes et show à 19h30 les 28 et 29 août. Billets à partir de 1 195 SEK ; 13 ans minimum en tribune, 18 ans en fosse et en Premium.",
+    "descEn": "Axwell, Steve Angello and Sebastian Ingrosso play two nights in a row at the Ullevi stadium in Gothenburg — the trio's biggest shows ever, on home ground. Doors and show at 19:30 on 28 and 29 August. Tickets from 1,195 SEK; 13+ in the stands, 18+ on the floor and in Premium.",
+    "sources": [
+      "https://gotevent.se/evenemang/swedish-house-mafia/",
+      "https://www.livenation.se/event/swedish-house-mafia-g%C3%B6teborg-tickets-edp1620345"
+    ]
+  },
+  {
+    "title": "The Prodigy at Avicii Arena",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.2934,
+    "lng": 18.0811,
+    "date": "2026-11-15",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Avicii Arena",
+    "trending": false,
+    "lineup": [
+      "The Prodigy"
+    ],
+    "desc": "Étape suédoise de la tournée européenne de novembre 2026 de The Prodigy, dans l'Avicii Arena — l'ancien Globen, la salle ronde de Johanneshov. Le groupe d'Essex continue sans Keith Flint, mort en 2019, avec Liam Howlett et Maxim aux commandes du répertoire rave qui a fait « Firestarter » et « Smack My Bitch Up ». Le tarif n'est pas publié sur la page de la salle.",
+    "descEn": "Swedish stop on The Prodigy's November 2026 European tour, at the Avicii Arena — the former Globen, the round hall in Johanneshov. The Essex band carries on without Keith Flint, who died in 2019, with Liam Howlett and Maxim running the rave repertoire behind 'Firestarter' and 'Smack My Bitch Up'. No price is published on the venue page.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://aviciiarena.se/en/events/music-show/the-prodigy/",
+      "https://theprodigy.com/2026/04/07/european-tour-announced-november-2026/"
+    ]
+  },
+  {
+    "title": "The Prodigy at Unity Arena",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Fornebu",
+    "country": "Norway",
+    "lat": 59.8956,
+    "lng": 10.6247,
+    "date": "2026-11-14",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Unity Arena",
+    "trending": false,
+    "lineup": [
+      "The Prodigy"
+    ],
+    "desc": "Plus grosse date norvégienne de The Prodigy à ce jour : l'Unity Arena de Fornebu, la salle couverte de 23 000 places à la sortie ouest d'Oslo, la veille du concert de Stockholm. La tournée européenne de novembre 2026 passe aussi par Copenhague, Berlin, Bruxelles et Amsterdam. Billetterie via Ticketmaster.no ; tarif non publié.",
+    "descEn": "The Prodigy's biggest Norwegian date to date: Unity Arena in Fornebu, the 23,000-capacity indoor arena on Oslo's western edge, the night before the Stockholm show. The November 2026 European tour also stops in Copenhagen, Berlin, Brussels and Amsterdam. Ticketing via Ticketmaster.no; price not published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://theprodigy.com/2026/04/07/european-tour-announced-november-2026/",
+      "https://www.theprodigyontour.com/upcoming/2026-11-14-unity-arena-oslo-norway/"
+    ]
+  },
+  {
+    "title": "Frædag: Einmusik",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "lng": 10.7423,
+    "date": "2026-10-16",
+    "time": "22:00 - 03:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Jaeger",
+    "trending": false,
+    "lineup": [
+      "Einmusik",
+      "g-HA & Olanskii"
+    ],
+    "desc": "Le vendredi du Jaeger, sur Grensen, accueille l'Allemand Einmusik dans le sous-sol pour ses nappes mélodiques et ses grooves profonds. Les résidents g-HA & Olanskii tiennent la cour intérieure, comme chaque Frædag. Entrée à partir de 20 ans, tarif non publié.",
+    "descEn": "Jaeger's Friday night on Grensen brings Germany's Einmusik to the basement for his melodic pads and deep grooves. Residents g-HA & Olanskii hold the backyard, as they do every Frædag. 20+, price not published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://jaegeroslo.no/events/friday-fraedag-einmusik/",
+      "https://jaegeroslo.no/events/"
+    ]
+  },
+  {
+    "title": "Broiler: Ingen Skal Hjem",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Fornebu",
+    "country": "Norway",
+    "lat": 59.8956,
+    "lng": 10.6247,
+    "date": "2027-02-13",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Unity Arena",
+    "trending": false,
+    "lineup": [
+      "Broiler"
+    ],
+    "desc": "Le duo norvégien Broiler clôt sa tournée « Ingen skal hjem » par sa plus grande date, à l'Unity Arena de Fornebu. Show à 19h. Le tarif n'est pas publié sur la page de la salle.",
+    "descEn": "Norwegian duo Broiler close their 'Ingen skal hjem' tour with their biggest date yet, at Unity Arena in Fornebu. Show at 19:00. No price is published on the venue page.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://unityarena.no/en/arrangementer/broiler/",
+      "https://kommunikasjon.ntb.no/pressemelding/18776961/broiler-avslutter-sin-ingen-skal-hjem-tour-pa-unity-arena-13-februar-2027"
+    ]
+  },
+  {
+    "title": "Kenton Slash Demon at Store VEGA",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6667,
+    "lng": 12.5455,
+    "date": "2026-10-31",
+    "time": "20:00 - 01:00",
+    "price": 360,
+    "currency": "kr",
+    "venue": "Store VEGA",
+    "trending": false,
+    "lineup": [
+      "Kenton Slash Demon"
+    ],
+    "desc": "Jonas Kenton et Silas Moldenhawer, deux tiers de When Saints Go Machine, donnent au Store VEGA le plus grand concert du projet Kenton Slash Demon, avec une production live entièrement neuve. Le duo danois y déroule la house glitchée de ses derniers singles, « Go », « Cookie / Janni » et « Max / Red ». Billet à 360 DKK, frais compris.",
+    "descEn": "Jonas Kenton and Silas Moldenhawer, two thirds of When Saints Go Machine, play the biggest Kenton Slash Demon show to date at Store VEGA, with an entirely new live production. The Danish duo run through the glitchy house of their recent singles, 'Go', 'Cookie / Janni' and 'Max / Red'. Tickets 360 DKK including fees.",
+    "ticketUrl": "https://vega.dk/en/event/kenton-slash-demon-2026-10-31",
+    "sources": [
+      "https://vega.dk/en/event/kenton-slash-demon-2026-10-31"
+    ]
+  }
+]

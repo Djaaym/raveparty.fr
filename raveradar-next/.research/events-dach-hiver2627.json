@@ -1,0 +1,975 @@
+[
+  {
+    "title": "FOG Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5634,
+    "lng": 7.5901,
+    "date": "2026-09-17",
+    "endDate": "2026-09-20",
+    "time": "19:00 - 04:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "Kaserne Basel, Tanzhaus et CONTAINER Club",
+    "trending": false,
+    "lineup": [
+      "William Basinski",
+      "Loscil",
+      "Thomas Ankersmit",
+      "Franck Vigroux",
+      "Hüma Utku",
+      "Dasha Rush"
+    ],
+    "desc": "Quatre jours entre concerts, performances audiovisuelles, exposition d'art sonore et nuits de club, répartis entre le Tanzhaus, la Kaserne et le CONTAINER Club de Bâle. L'ouverture à la Kaserne rend hommage à Éliane Radigue avec le studio électronique de Bâle ; les formats club, eux, tiennent le lien avec la scène techno de la ville, Dasha Rush en tête.",
+    "descEn": "Four days of concerts, audiovisual performances, a sound art exhibition and club nights spread across Basel's Tanzhaus, Kaserne and CONTAINER Club. The opening at Kaserne pays tribute to Éliane Radigue alongside Basel's electronic studio, while the club formats keep the link with the city's techno scene, Dasha Rush among them.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.fogstudio.ch/",
+    "sources": [
+      "https://www.fogstudio.ch/",
+      "https://www.basel.com/en/events-calendar/fog-festival-348c7dcc1e",
+      "https://www.festivalfinder.eu/festivals/fog-festival-2026"
+    ]
+  },
+  {
+    "title": "Masters of Hardcore Switzerland",
+    "type": "Rave",
+    "genres": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.4137,
+    "lng": 8.5436,
+    "date": "2026-09-26",
+    "time": "21:00 - 06:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "Halle 622",
+    "trending": false,
+    "lineup": [
+      "Angerfist",
+      "Miss K8",
+      "Mad Dog",
+      "D-Fence",
+      "Noize Suppressor",
+      "Furyan",
+      "Chaos Project",
+      "Akimbo",
+      "Samynator",
+      "Tharken",
+      "Tha Watcher",
+      "E.X.E.C.U.T.E",
+      "Dark Headz"
+    ],
+    "desc": "L'étape suisse du World Club Tour de Masters of Hardcore, à la Halle 622 de Zurich-Oerlikon, de 21h à 6h du matin. Angerfist, Miss K8 et Mad Dog mènent une affiche entièrement hardcore, complétée par Noize Suppressor, Furyan et D-Fence. La salle est collée à la gare d'Oerlikon.",
+    "descEn": "The Swiss leg of the Masters of Hardcore World Club Tour, at Halle 622 in Zurich-Oerlikon, 9pm to 6am. Angerfist, Miss K8 and Mad Dog lead an all-hardcore bill filled out by Noize Suppressor, Furyan and D-Fence. The hall sits right beside Oerlikon station.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.oeticket.com/en/event/masters-of-hardcore-switzerland-2026-halle-622-20716703/",
+    "sources": [
+      "https://www.myswitzerland.com/en-ch/experiences/events/masters-of-hardcore-switzerland-2026/",
+      "https://www.eventim.de/en/eventseries/masters-of-hardcore-switzerland-2026-3991027/",
+      "https://www.halle622.ch/622/de/events.html"
+    ]
+  },
+  {
+    "title": "Hive Air pres. Shimza & Friends",
+    "type": "Rave",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.4137,
+    "lng": 8.5436,
+    "date": "2026-10-03",
+    "time": "22:00 - 06:00",
+    "price": 71.7,
+    "currency": "CHF",
+    "venue": "Halle 622",
+    "trending": false,
+    "lineup": [
+      "Shimza"
+    ],
+    "desc": "Le Hive, club zurichois de la Geroldstrasse, sort de ses murs et prend la Halle 622 d'Oerlikon pour la première date suisse de sa série Hive Air. Le Sud-Africain Shimza y apporte son afro house, entouré d'invités, à partir de 22h.",
+    "descEn": "Hive, the Zurich club on Geroldstrasse, steps outside its own walls and takes over Halle 622 in Oerlikon for the Swiss debut of its Hive Air series. South Africa's Shimza brings his afro house, with guests alongside, from 10pm.",
+    "ticketUrl": "https://www.ticketcorner.ch/artist/hive-air/",
+    "sources": [
+      "https://www.ticketcorner.ch/artist/hive-air/",
+      "https://www.halle622.ch/622/de/events.html",
+      "https://www.myswitzerland.com/en-ca/experiences/events/hive-air"
+    ]
+  },
+  {
+    "title": "Liquicity Vienna",
+    "type": "Festival",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Vösendorf",
+    "country": "Austria",
+    "lat": 48.1275,
+    "lng": 16.3229,
+    "date": "2026-10-03",
+    "time": "21:00 - 04:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Exil Club",
+    "trending": false,
+    "lineup": [
+      "Fox Stevenson",
+      "Maduk",
+      "Technimatic",
+      "Eskei83",
+      "Whiney",
+      "Anaïs",
+      "Low:r",
+      "Paul SG",
+      "Clank & Maider",
+      "Disorder",
+      "Didz & Mina",
+      "Vibrant"
+    ],
+    "desc": "Première date viennoise du label néerlandais Liquicity, à l'Exil Club de Vösendorf, en bordure sud de Vienne. Une nuit entière de drum & bass mélodique de 21h à 4h : Fox Stevenson en DJ set, Maduk, Technimatic et Whiney en tête d'affiche, avec quatre MCs à l'animation.",
+    "descEn": "The first Vienna date for Dutch label Liquicity, at the Exil Club in Vösendorf on the city's southern edge. A full night of melodic drum & bass from 9pm to 4am: Fox Stevenson on a DJ set, plus Maduk, Technimatic and Whiney heading the bill, with four MCs hosting.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://liquicity.com/events/liquicity-vienna-2026/",
+    "sources": [
+      "https://liquicity.com/events/liquicity-vienna-2026/",
+      "https://de.ra.co/events/2406001"
+    ]
+  },
+  {
+    "title": "Verknipt Berlin",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Berlin",
+    "country": "Germany",
+    "lat": 52.5087,
+    "lng": 13.4363,
+    "date": "2026-10-09",
+    "endDate": "2026-10-10",
+    "time": "23:00 - 09:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Club OST",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le collectif hard techno néerlandais Verknipt occupe le Club OST, près de la gare de l'Est, deux nuits d'affilée de 23h à 9h du matin. Chaque soirée a sa propre affiche et son propre billet. Réservé aux plus de 18 ans, paiement au bar par jetons uniquement.",
+    "descEn": "Dutch hard techno collective Verknipt takes over Club OST, near Berlin Ostbahnhof, for two consecutive nights running 11pm to 9am. Each night has its own line-up and its own ticket. Strictly 18+, and the bar runs on tokens only.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.verknipt.org/berlin/",
+    "sources": [
+      "https://www.verknipt.org/berlin/",
+      "https://www.verknipt.org/berlin/info/"
+    ]
+  },
+  {
+    "title": "Paul van Dyk au Docks",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.5493,
+    "lng": 9.9646,
+    "date": "2026-10-16",
+    "time": "23:00 - 05:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Docks",
+    "trending": false,
+    "lineup": [
+      "Paul van Dyk"
+    ],
+    "desc": "Paul van Dyk revient au Docks de Hambourg, sur le Spielbudenplatz, pour un set trance de 23h à 5h du matin. Le Berlinois, l'un des DJ allemands les plus exportés depuis les années 1990, y joue en tête d'affiche. Accès dès 16 ans avec autorisation parentale.",
+    "descEn": "Paul van Dyk returns to Docks on Hamburg's Spielbudenplatz for a trance set running 11pm to 5am. The Berliner, one of Germany's most exported DJs since the 1990s, headlines. 16+ with parental consent.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.eventim.de/en/event/paul-van-dyk-live-2026-docks-hamburg-21011862/",
+    "sources": [
+      "https://www.universal-music.de/paul-van-dyk/termine/16-10-2026-docks-hamburg-hamburg-23-00-1163165",
+      "https://www.eventim.de/en/event/paul-van-dyk-live-2026-docks-hamburg-21011862/"
+    ]
+  },
+  {
+    "title": "Harder Force Indoor Festival",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Neumünster",
+    "country": "Germany",
+    "lat": 54.0923,
+    "lng": 9.9775,
+    "date": "2026-10-17",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Holstenhallen",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le rendez-vous indoor de Harder Force revient dans les Holstenhallen de Neumünster, au nord de Hambourg, pour neuf heures de hardstyle et de hardcore. Parking gratuit sur le site du parc des expositions, accès dès 16 ans avec autorisation parentale. La programmation est annoncée au fil des semaines.",
+    "descEn": "Harder Force brings its indoor edition back to the Holstenhallen in Neumünster, north of Hamburg, for nine hours of hardstyle and hardcore. Free parking on the exhibition grounds, 16+ with parental consent. The line-up is revealed in stages.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://ticketticker.de/events/harder-force-indoor-festival-2026-a3408f/tickets",
+    "sources": [
+      "https://www.harderforce.de/",
+      "https://ticketticker.de/events/harder-force-indoor-festival-2026-a3408f"
+    ]
+  },
+  {
+    "title": "Nukranox",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Salzburg",
+    "country": "Austria",
+    "lat": 47.8236,
+    "lng": 13.0297,
+    "date": "2026-10-24",
+    "time": "17:00 - 03:00",
+    "price": 74,
+    "currency": "€",
+    "venue": "Messezentrum Salzburg",
+    "trending": false,
+    "lineup": [
+      "Project One",
+      "Big K",
+      "Elasy",
+      "Klofama",
+      "Lekkerfaces",
+      "MC Novy",
+      "Mish",
+      "Outlined",
+      "Van Hella",
+      "Vieze Asbak",
+      "Zelecter"
+    ],
+    "desc": "Le plus gros rendez-vous hard dance d'Autriche occupe le parc des expositions de Salzbourg de 17h à 3h du matin, du hardstyle mélodique au raw, au frenchcore et à l'uptempo. Headhunterz et Wildstylez y reforment Project One, l'un des duos les plus mythiques du hardstyle. Accès dès 16 ans.",
+    "descEn": "Austria's biggest hard dance gathering takes over the Salzburg exhibition centre from 5pm to 3am, running from melodic hardstyle through raw, frenchcore and uptempo. Headhunterz and Wildstylez reunite as Project One, one of hardstyle's most storied pairings. 16+.",
+    "ticketUrl": "https://www.nukranox.at/en/home/",
+    "sources": [
+      "https://www.nukranox.at/en/home/",
+      "https://www.nukranox.at/en/line-up/",
+      "https://www.volume.at/events/nukranox-2026-2026-10-24/",
+      "https://www.mzs.at/de/termine/nukranox-2025-1166/"
+    ]
+  },
+  {
+    "title": "Wonderful Days Stuttgart",
+    "type": "Rave",
+    "genres": [
+      "Trance",
+      "Techno",
+      "Hardcore"
+    ],
+    "city": "Stuttgart",
+    "country": "Germany",
+    "lat": 48.8052,
+    "lng": 9.1745,
+    "date": "2026-10-24",
+    "time": "22:00 - 05:00",
+    "price": 39.5,
+    "currency": "€",
+    "venue": "Perkins Park",
+    "trending": false,
+    "lineup": [
+      "Charly Lownoise",
+      "DJ Quicksilver",
+      "Talla 2XLC",
+      "Dumonde",
+      "Aquagen",
+      "Ayla",
+      "Paffendorf",
+      "Andre Visior",
+      "Bonzai All Stars",
+      "Marco Zaffarano",
+      "Andreas Kraemer",
+      "Michael Cores",
+      "Marco Marino",
+      "Marc Jerome",
+      "Robin Hirte",
+      "DJ Cruse",
+      "Harry Nash"
+    ],
+    "desc": "Nuit consacrée aux classiques rave des années 1990 et 2000 au Perkins Park, sur la colline du Killesberg à Stuttgart, de 22h à 5h du matin. Charly Lownoise, DJ Quicksilver, Talla 2XLC et Ayla déroulent la trance, la techno et la happy hardcore de l'époque.",
+    "descEn": "A night given over to 1990s and 2000s rave classics at Perkins Park, up on Stuttgart's Killesberg hill, running 10pm to 5am. Charly Lownoise, DJ Quicksilver, Talla 2XLC and Ayla work through the trance, techno and happy hardcore of the era.",
+    "ticketUrl": "https://lehmann-discotronic.ticket.io/pM4bsHHs/",
+    "sources": [
+      "https://rausgegangen.de/en/events/wonderful-days-the-classic-rave-festival-stuttgart-vol-ii-0/",
+      "https://www.reflect.de/event/zurueck-in-die-rave-aera-wonderful-days-the-classic-rave-festival/"
+    ]
+  },
+  {
+    "title": "Faceless Psycho City",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Oberhausen",
+    "country": "Germany",
+    "lat": 51.4836,
+    "lng": 6.8669,
+    "date": "2026-10-30",
+    "endDate": "2026-10-31",
+    "time": "19:30 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Turbinenhalle Oberhausen",
+    "trending": false,
+    "lineup": [],
+    "desc": "L'édition Halloween de Faceless investit la Turbinenhalle d'Oberhausen deux nuits de suite, de 19h30 à 6h du matin, sur le thème Psycho City. Plus de 120 sets hardstyle répartis sur quatre scènes dans l'ancienne halle des turbines de la Ruhr, pour 3 000 personnes par nuit. Accès dès 16 ans.",
+    "descEn": "Faceless brings its Halloween edition to Oberhausen's Turbinenhalle for two consecutive nights, 7.30pm to 6am, under the Psycho City banner. More than 120 hardstyle sets across four stages inside the Ruhr's old turbine hall, for 3,000 people a night. 16+.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://faceless.ticket.io/N7Go85t0/",
+    "sources": [
+      "https://turbinenhalle.de/programm/",
+      "https://www.harderdates.de/event/faceless-presents-psycho-city/2026-10-30/",
+      "https://www.hardtours.de/faceless/halloween"
+    ]
+  },
+  {
+    "title": "Sky Club Halloween",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Leipzig",
+    "country": "Germany",
+    "lat": 51.3453,
+    "lng": 12.4493,
+    "date": "2026-10-30",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Sky Club Leipzig",
+    "trending": false,
+    "lineup": [],
+    "desc": "Nuit d'Halloween au Sky Club de Leipzig, installé depuis 2009 dans les halles d'une ancienne fabrique de lampes du quartier de Paunsdorf. Dix-huit DJs répartis sur les floors techno, tekk et house, portes à 22h.",
+    "descEn": "Halloween night at Leipzig's Sky Club, housed since 2009 in the halls of a former lamp factory in the Paunsdorf district. Eighteen DJs across the techno, tekk and house floors, doors at 10pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.skyclub-leipzig.de/event/list",
+    "sources": [
+      "https://www.skyclub-leipzig.de/event/list"
+    ]
+  },
+  {
+    "title": "HARDLINE: Purge Night",
+    "type": "Rave",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Vösendorf",
+    "country": "Austria",
+    "lat": 48.1275,
+    "lng": 16.3229,
+    "date": "2026-10-31",
+    "time": "20:00 - 05:00",
+    "price": 34.9,
+    "currency": "€",
+    "venue": "Event Arena Vösendorf",
+    "trending": false,
+    "lineup": [
+      "The Dark Horror",
+      "Pinotello"
+    ],
+    "desc": "L'édition Halloween de Hardline occupe l'Event Arena de Vösendorf, aux portes sud de Vienne, avec trois zones consacrées au rawstyle, au hardcore, à l'uptempo et à l'early hardcore. Portes à 20h, The Dark Horror et Pinotello parmi les premiers noms annoncés.",
+    "descEn": "Hardline's Halloween edition takes over the Event Arena in Vösendorf, on Vienna's southern edge, with three areas given over to rawstyle, hardcore, uptempo and early hardcore. Doors at 8pm, with The Dark Horror and Pinotello among the first names confirmed.",
+    "ticketUrl": "https://www.volume.at/events/hardline-purge-night-2026-10-31/",
+    "sources": [
+      "https://www.volume.at/events/hardline-purge-night-2026-10-31/",
+      "https://www.volume.at/hardstyle-hardcore-in-oesterreich/"
+    ]
+  },
+  {
+    "title": "Seltsamer Herbst",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Leipzig",
+    "country": "Germany",
+    "lat": 51.3453,
+    "lng": 12.4493,
+    "date": "2026-11-07",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Sky Club Leipzig",
+    "trending": false,
+    "lineup": [
+      "Mark Hawkins",
+      "Cannibal Cooking Club",
+      "Superzandy",
+      "Nick D-lite",
+      "Marc Zocher",
+      "Hanson & Schrempf",
+      "Siebenschlaefer",
+      "Chris Rinox"
+    ],
+    "desc": "Soirée de retrouvailles autour du 10/40, club techno culte de Leipzig ouvert en 1998 sur la Brandenburger Straße et connu bien au-delà de la Saxe pour son néon jaune et son bonhomme filiforme. Dix-sept DJs sur trois espaces au Sky Club — Rumpelkammer et Waschküche en techno, Wohnzimmer en oldschool et disco house. Portes à 22h.",
+    "descEn": "A reunion night built around 10/40, the cult Leipzig techno club that opened on Brandenburger Straße in 1998 and was known well beyond Saxony for its yellow neon and stick-figure logo. Seventeen DJs across three rooms at Sky Club — Rumpelkammer and Waschküche for techno, Wohnzimmer for oldschool and disco house. Doors at 10pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.skyclub-leipzig.de/event/details/2026-11-07-seltsamer-herbst",
+    "sources": [
+      "https://www.skyclub-leipzig.de/event/details/2026-11-07-seltsamer-herbst",
+      "https://leipzigartig.de/events/seltsamer-herbst-1040-revival/"
+    ]
+  },
+  {
+    "title": "Verknipt Oberhausen",
+    "type": "Festival",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Oberhausen",
+    "country": "Germany",
+    "lat": 51.4836,
+    "lng": 6.8669,
+    "date": "2026-11-14",
+    "time": "22:00 - 07:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Turbinenhalle Oberhausen",
+    "trending": false,
+    "lineup": [
+      "Alignment",
+      "Nico Moreno",
+      "NYRA",
+      "KRUELTY",
+      "Gina Beldam",
+      "BLNK.",
+      "BOVSKI",
+      "CHLOE",
+      "IOSIO",
+      "Ixakt",
+      "LIEKS",
+      "Maudux",
+      "Natte Visstick",
+      "Nia",
+      "Niotech",
+      "O.B.I.",
+      "Tassery"
+    ],
+    "desc": "Le collectif néerlandais Verknipt pose sa tournée allemande à la Turbinenhalle d'Oberhausen, de 22h à 7h du matin. Hard techno sans compromis avec Alignment, Nico Moreno, NYRA et KRUELTY parmi une vingtaine de noms répartis sur plusieurs floors.",
+    "descEn": "Dutch collective Verknipt lands its German tour at Oberhausen's Turbinenhalle, running 10pm to 7am. Uncompromising hard techno with Alignment, Nico Moreno, NYRA and KRUELTY among some twenty names across several floors.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.verknipt.org/oberhausen/",
+    "sources": [
+      "https://www.verknipt.org/oberhausen/",
+      "https://www.hardtours.de/festivals/styles"
+    ]
+  },
+  {
+    "title": "NTO à O der Klub",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.2029,
+    "lng": 16.3683,
+    "date": "2026-11-14",
+    "time": "23:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "O der Klub",
+    "trending": false,
+    "lineup": [
+      "NTO"
+    ],
+    "desc": "Le Français NTO, figure de la techno mélodique passée par le piano classique, joue à O der Klub, sous l'Opernring, en plein centre de Vienne. Une nuit de club à partir de 23h.",
+    "descEn": "France's NTO, a melodic techno figure who came up through classical piano, plays O der Klub, tucked under the Opernring in central Vienna. A club night from 11pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/venues/4412478-o-der-klub",
+      "https://ra.co/dj/nto/tour-dates"
+    ]
+  },
+  {
+    "title": "Wonderful Days Cologne",
+    "type": "Rave",
+    "genres": [
+      "Trance",
+      "Techno",
+      "Hardcore"
+    ],
+    "city": "Cologne",
+    "country": "Germany",
+    "lat": 50.9639,
+    "lng": 6.9942,
+    "date": "2026-11-14",
+    "endDate": "2026-11-15",
+    "time": "22:00 - 06:00",
+    "price": 29.5,
+    "currency": "€",
+    "venue": "Bootshaus",
+    "trending": false,
+    "lineup": [],
+    "desc": "Dixième édition du Classic Rave Festival au Bootshaus de Cologne, à partir de 22h : les tubes dance des années 90 et 2000 sur le gros système du club, avec installations lumineuses. La programmation est annoncée par vagues.",
+    "descEn": "The tenth edition of the Classic Rave Festival at Cologne's Bootshaus, from 10pm: 1990s and 2000s dance anthems on the club's big rig, with light installations. The line-up is announced in waves.",
+    "ticketUrl": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
+    "sources": [
+      "https://wonderfuldays-festival.com/event-item/wonderful-days-the-classic-rave-festival-vol-x/",
+      "https://wonderfuldays-festival.com/"
+    ]
+  },
+  {
+    "title": "Polaris Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Verbier",
+    "country": "Switzerland",
+    "lat": 46.0961,
+    "lng": 7.2287,
+    "date": "2026-11-20",
+    "endDate": "2026-11-28",
+    "time": "16:00 - 04:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "Verbier (divers lieux)",
+    "trending": true,
+    "lineup": [],
+    "desc": "Le festival alpin de Verbier étale sa onzième édition sur deux week-ends de novembre — les 20 et 21, puis les 27 et 28 — entre scènes d'altitude et salles du village valaisan. Son de haut vol, installations lumineuses et art immersif à plus de 1 500 mètres. Capacité limitée, la programmation est encore à annoncer.",
+    "descEn": "Verbier's alpine festival spreads its eleventh edition across two November weekends — the 20th and 21st, then the 27th and 28th — between mountain stages and venues down in the Valais village. High-end sound, light installations and immersive art above 1,500 metres. Capacity is limited and the line-up is still to be announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://polarisfestival.ch/",
+    "sources": [
+      "https://polarisfestival.ch/",
+      "https://www.seeverbier.com/events/polaris-festival-centre-688363"
+    ]
+  },
+  {
+    "title": "The AR Gang Show",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle"
+    ],
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "lat": 51.2062,
+    "lng": 6.8085,
+    "date": "2026-11-21",
+    "time": "14:00 - 23:00",
+    "price": 59.9,
+    "currency": "€",
+    "venue": "Mitsubishi Electric Halle",
+    "trending": false,
+    "lineup": [
+      "AR Gang",
+      "Noiseflow",
+      "Da Tweeka",
+      "Holy Priest",
+      "Krowdexx",
+      "Lekkerfaces",
+      "Mind Compressor",
+      "Malice",
+      "Riot Shift",
+      "Rooler",
+      "Zelecter",
+      "Sickmode",
+      "Levenkhan",
+      "The Straikerz",
+      "Vertile",
+      "MC Livid"
+    ],
+    "desc": "Journée hardstyle de 14h à 23h dans la Mitsubishi Electric Halle de Düsseldorf, construite autour du collectif AR Gang. Quatorze artistes, trois B2B exclusifs et quatre sets créés pour l'occasion, le tout animé par MC Livid. Accès dès 16 ans.",
+    "descEn": "A daytime hardstyle show, 2pm to 11pm, at Düsseldorf's Mitsubishi Electric Halle, built around the AR Gang collective. Fourteen artists, three exclusive B2Bs and four sets made for this show alone, hosted by MC Livid. 16+.",
+    "ticketUrl": "https://madness.dj/argang-presale",
+    "sources": [
+      "https://ar-gang.de/",
+      "https://www.hardtours.de/festivals/styles"
+    ]
+  },
+  {
+    "title": "FAIRGROUND Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Hard Techno",
+      "Hardstyle"
+    ],
+    "city": "Hanover",
+    "country": "Germany",
+    "lat": 52.3246,
+    "lng": 9.8056,
+    "date": "2026-11-28",
+    "time": "17:00 - 05:00",
+    "price": 60,
+    "currency": "€",
+    "venue": "Messegelände Hannover",
+    "trending": true,
+    "lineup": [
+      "Amelie Lens",
+      "Charlotte de Witte",
+      "Kyanu",
+      "Maddix",
+      "Medusa",
+      "Nova"
+    ],
+    "desc": "Le plus grand festival indoor du nord de l'Allemagne occupe trois halls du parc des expositions de Hanovre, de 17h à 5h du matin : cinq scènes, plus de cinquante artistes et près de 20 000 personnes. Amelie Lens et Charlotte de Witte tiennent la main stage, avec des scènes séparées pour la techno, les harder styles et le club. Réservé aux plus de 18 ans.",
+    "descEn": "Northern Germany's biggest indoor festival fills three halls of the Hannover exhibition grounds from 5pm to 5am: five stages, more than fifty acts and close to 20,000 people. Amelie Lens and Charlotte de Witte headline the main stage, with separate stages for techno, harder styles and club sounds. Strictly 18+.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://www.hardtours.de/fairground-festival",
+      "https://www.hannover.de/Veranstaltungskalender/Feste-Festivals/Fairground-Festival-2026",
+      "https://www.visit-hannover.com/en/Event-Highlights,-Kultur-Freizeit/Top-Events-und-Veranstaltungen/Feste-und-Spezial/Fairground-Festival-2026"
+    ]
+  },
+  {
+    "title": "Hardshift Festival",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "city": "Munich",
+    "country": "Germany",
+    "lat": 48.1947,
+    "lng": 11.6079,
+    "date": "2026-12-04",
+    "time": "18:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Zenith München",
+    "trending": false,
+    "lineup": [
+      "Angerfist",
+      "D-Block & S-te-Fan",
+      "Evil Activities",
+      "Marc Acardipane",
+      "Phuture Noize",
+      "Rebelion",
+      "Sound Rush",
+      "Sub Zero Project"
+    ],
+    "desc": "Festival indoor d'une journée dans la Zenith de Munich, sur quatre scènes et le thème « Pendulum ». Plus de trente artistes couvrant hardstyle, rawstyle, hard techno, uptempo et hardcore old-school, d'Angerfist à Sub Zero Project en passant par Marc Acardipane.",
+    "descEn": "A one-day indoor festival at Munich's Zenith hall, four stages under the theme \"Pendulum\". More than thirty acts spanning hardstyle, rawstyle, hard techno, uptempo and old-school hardcore, from Angerfist to Sub Zero Project by way of Marc Acardipane.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://tickets.permanent-entertainment.com/event/hardshift-2026-j21nmh",
+    "sources": [
+      "https://www.hardshift.de/",
+      "https://www.hardtours.de/festivals/styles"
+    ]
+  },
+  {
+    "title": "INSANE Strictly Hard",
+    "type": "Club",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.5493,
+    "lng": 9.9646,
+    "date": "2026-12-12",
+    "time": "22:00 - 06:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Docks",
+    "trending": false,
+    "lineup": [],
+    "desc": "La plus grosse soirée hardstyle du nord de l'Allemagne s'installe au Docks, sur le Spielbudenplatz de la Reeperbahn, à partir de 22h. Rawstyle, uptempo et frenchcore jusqu'au matin. Programmation annoncée par vagues.",
+    "descEn": "Northern Germany's biggest hardstyle night sets up at Docks, on the Reeperbahn's Spielbudenplatz, from 10pm. Rawstyle, uptempo and frenchcore until morning. The line-up is announced in waves.",
+    "ticketUrl": "https://insane-festival.de/events/",
+    "sources": [
+      "https://insane-festival.de/events/",
+      "https://www.harderdates.de/veranstaltungsort/docks-hamburg/"
+    ]
+  },
+  {
+    "title": "Psy-Spirits",
+    "type": "Rave",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.595,
+    "lng": 9.9055,
+    "date": "2026-12-19",
+    "time": "22:00 - 08:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Edelfettwerk",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le grand rendez-vous psytrance de Hambourg, une fois par an depuis seize ans, dans l'ancienne usine de graisses d'Eidelstedt. Quatre floors décorés en fluo, dont un beach floor, à partir de 22h.",
+    "descEn": "Hamburg's big annual psytrance gathering, running once a year for sixteen years, inside the old fat-rendering works in Eidelstedt. Four fluorescent-decorated floors, including a beach floor, from 10pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://psy-spirits.de/",
+    "sources": [
+      "https://psy-spirits.de/",
+      "https://edelfettwerk.de/events/"
+    ]
+  },
+  {
+    "title": "Verknipt Stadion",
+    "type": "Rave",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.4114,
+    "lng": 8.5517,
+    "date": "2026-12-19",
+    "time": "21:00 - 06:00",
+    "price": 67.65,
+    "currency": "CHF",
+    "venue": "Hallenstadion",
+    "trending": true,
+    "lineup": [],
+    "desc": "Verknipt sort du club et remplit le Hallenstadion de Zurich : 15 000 personnes dans la plus grande salle couverte de Suisse pour ce que les organisateurs présentent comme la plus grosse rave indoor jamais montée dans le pays. Ouverture des portes à 21h, production démesurée et hard techno jusqu'au petit matin. Des formules VIP donnent accès à un espace privé jusqu'au lever du soleil.",
+    "descEn": "Verknipt steps out of the club and fills Zurich's Hallenstadion: 15,000 people in Switzerland's largest indoor arena for what the promoters bill as the biggest indoor rave the country has staged. Doors at 9pm, outsized production and hard techno until dawn. VIP packages add a private rave area open until sunrise.",
+    "ticketUrl": "https://www.eventim-light.com/ch/a/68adb55e572e56653be9295c/e/6926ffc605140e72aab44c1c",
+    "sources": [
+      "https://hallenstadion.ch/events/verknipt/",
+      "https://ubwg.ch/event/verknipt-stadion-switzerlands-biggest-indoor-rave-hallenstadion-zuerich-19-12-2026/"
+    ]
+  },
+  {
+    "title": "Army of Hardcore",
+    "type": "Festival",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "Oberhausen",
+    "country": "Germany",
+    "lat": 51.4836,
+    "lng": 6.8669,
+    "date": "2026-12-25",
+    "time": "18:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Turbinenhalle Oberhausen",
+    "trending": false,
+    "lineup": [
+      "Angerfist",
+      "Neophyte",
+      "Partyraiser",
+      "Evil Activities",
+      "Marc Acardipane",
+      "Re-Style",
+      "Barber",
+      "Bass-D",
+      "Bulletproof",
+      "Chaotic Brothers",
+      "Darkcontroller",
+      "D-Razor",
+      "Brainrape"
+    ],
+    "desc": "Le festival indoor hardcore du jour de Noël fête ses vingt ans à la Turbinenhalle d'Oberhausen, portes à 18h. Angerfist, Neophyte, Partyraiser, Marc Acardipane et Evil Activities figurent parmi une affiche entièrement hardcore. Accès dès 16 ans, autorisation parentale exigée pour les mineurs.",
+    "descEn": "The Christmas Day hardcore indoor festival marks twenty years at Oberhausen's Turbinenhalle, doors at 6pm. Angerfist, Neophyte, Partyraiser, Marc Acardipane and Evil Activities are among an all-hardcore bill. 16+, with parental consent required for minors.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://www.armyofhardcore.net/tickets/",
+    "sources": [
+      "https://www.armyofhardcore.net/",
+      "https://turbinenhalle.de/events/army-of-hardcore/",
+      "https://www.hardtours.de/army-of-hardcore"
+    ]
+  },
+  {
+    "title": "Between The Seas Winter Indoor Festival",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "Techno",
+      "Hardstyle"
+    ],
+    "city": "Neumünster",
+    "country": "Germany",
+    "lat": 54.0923,
+    "lng": 9.9775,
+    "date": "2027-01-09",
+    "time": "18:00 - 05:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Holstenhallen",
+    "trending": false,
+    "lineup": [
+      "Axmo",
+      "Harris & Ford",
+      "HBz",
+      "Obs",
+      "le Shuuk",
+      "Liquidfive",
+      "Anastasia Rose",
+      "2 Engel & Charlie",
+      "KXXMA",
+      "Lunax",
+      "Anstandslos & Durchgeknallt",
+      "Flaek",
+      "Special D",
+      "Brooklyn Bounce",
+      "Pulsedriver"
+    ],
+    "desc": "Version hivernale du festival Between The Seas, dans les Holstenhallen de Neumünster : plusieurs scènes entre EDM, techno et hands up, avec Harris & Ford, HBz et le Shuuk sur la main stage et une Classic Stage confiée aux vétérans Brooklyn Bounce, Special D et Pulsedriver.",
+    "descEn": "The winter edition of Between The Seas, inside the Holstenhallen in Neumünster: several stages spanning EDM, techno and hands up, with Harris & Ford, HBz and le Shuuk on the main stage and a Classic Stage handed to veterans Brooklyn Bounce, Special D and Pulsedriver.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://vivenu.com/event/between-the-seas-winter-indoor-festival-2027-jk9f8a",
+    "sources": [
+      "https://www.festival-sh.de/bts-winter"
+    ]
+  },
+  {
+    "title": "APEX",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle"
+    ],
+    "city": "Mannheim",
+    "country": "Germany",
+    "lat": 49.4642,
+    "lng": 8.5175,
+    "date": "2027-01-30",
+    "time": "20:00 - 06:00",
+    "price": 69.9,
+    "currency": "€",
+    "venue": "Maimarkthalle",
+    "trending": false,
+    "lineup": [],
+    "desc": "La plus grosse rave hardstyle indoor d'Allemagne revient à la Maimarkthalle de Mannheim, sur deux scènes, pour les vingt ans du promoteur Musical Madness. Le billet inclut la navette depuis la gare centrale de Mannheim. Programmation à annoncer.",
+    "descEn": "Germany's biggest indoor hardstyle rave returns to Mannheim's Maimarkthalle across two stages, marking twenty years of promoter Musical Madness. The ticket includes the shuttle from Mannheim main station. Line-up still to be announced.",
+    "ticketUrl": "https://apexfest.de/",
+    "sources": [
+      "https://apexfest.de/",
+      "https://www.hardtours.de/festivals/styles"
+    ]
+  },
+  {
+    "title": "Masters of Hardcore Austria",
+    "type": "Festival",
+    "genres": [
+      "Hardcore"
+    ],
+    "city": "St. Pölten",
+    "country": "Austria",
+    "lat": 48.179,
+    "lng": 15.6234,
+    "date": "2027-02-13",
+    "time": "19:00 - 06:00",
+    "price": 54.9,
+    "currency": "€",
+    "venue": "VAZ St. Pölten",
+    "trending": false,
+    "lineup": [],
+    "desc": "La déclinaison autrichienne du plus vieux concept hardcore néerlandais s'installe au VAZ de Sankt Pölten, de 19h à 6h du matin. Onze heures de hardcore et d'uptempo dans le plus grand centre événementiel de Basse-Autriche. Programmation encore à annoncer.",
+    "descEn": "The Austrian edition of the oldest Dutch hardcore concept sets up at the VAZ in Sankt Pölten, 7pm to 6am. Eleven hours of hardcore and uptempo inside Lower Austria's largest events centre. Line-up still to be announced.",
+    "ticketUrl": "https://www.mastersofhardcore.at/en/",
+    "sources": [
+      "https://www.mastersofhardcore.at/en/",
+      "https://www.vaz.at/events/event.php?name=masters-of-hardcore-&id=5492",
+      "https://www.volume.at/events/masters-of-hardcore-austria-2027-2027-02-13/"
+    ]
+  },
+  {
+    "title": "Arena Rave",
+    "type": "Rave",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Leipzig",
+    "country": "Germany",
+    "lat": 51.3929,
+    "lng": 12.4015,
+    "date": "2027-02-20",
+    "time": "19:00 - 05:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Messe Leipzig",
+    "trending": false,
+    "lineup": [],
+    "desc": "Première du format Arena Rave dans le hall 1 de la Messe Leipzig, de 19h à 5h du matin : un hall d'exposition converti en arène techno, avec système son haut de gamme et show laser calé sur la musique. Accès dès 16 ans avec autorisation parentale. Programmation à annoncer.",
+    "descEn": "The Arena Rave format's debut in Hall 1 of Messe Leipzig, 7pm to 5am: an exhibition hall converted into a techno arena, with a high-end sound system and a laser show cued to the music. 16+ with parental consent. Line-up still to be announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://tickets.arena-rave.de/62559a7926834b0b9cf2867f1db33cd4/tickets",
+    "sources": [
+      "https://www.leipziginfo.de/aktuelles/artikel/techno-premiere-der-superlative-arena-rave-erobert-die-messe-leipzig",
+      "https://arena-rave.de"
+    ]
+  },
+  {
+    "title": "Acid Arab aux Docks",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.5224,
+    "lng": 6.6193,
+    "date": "2027-02-27",
+    "time": "20:30 - 23:30",
+    "price": 35,
+    "currency": "CHF",
+    "venue": "Les Docks",
+    "trending": false,
+    "lineup": [
+      "Acid Arab"
+    ],
+    "desc": "Unique date suisse de la tournée d'Acid Arab, aux Docks de Lausanne. Le collectif parisien fait tenir ensemble des machines acid et les répertoires du Maghreb, du Moyen-Orient et de la Méditerranée, en live. Portes à 19h30, concert à 20h30.",
+    "descEn": "Acid Arab's only Swiss date of the tour, at Les Docks in Lausanne. The Paris collective holds acid machines and the repertoires of the Maghreb, the Middle East and the Mediterranean together in one live set. Doors 7.30pm, show 8.30pm.",
+    "ticketUrl": "https://www.docks.ch/evenement/concerts/20270227/acid-arab/",
+    "sources": [
+      "https://www.docks.ch/evenement/concerts/20270227/acid-arab/",
+      "https://www.lesdocks.ch/programme"
+    ]
+  },
+  {
+    "title": "Elevate Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.0735,
+    "lng": 15.4381,
+    "date": "2027-03-04",
+    "endDate": "2027-03-07",
+    "time": "18:00 - 04:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Dom im Berg et divers lieux",
+    "trending": false,
+    "lineup": [],
+    "desc": "Festival interdisciplinaire de Graz, réparti sur quatre jours dans plusieurs lieux de la ville dont le Dom im Berg, la salle creusée dans la colline du Schlossberg. Concerts, DJ sets et installations croisent conférences, projections et débats politiques — le programme discussions et films est gratuit. Programmation musicale à annoncer.",
+    "descEn": "Graz's interdisciplinary festival runs four days across several venues in the city, including Dom im Berg, the hall carved into the Schlossberg hill. Concerts, DJ sets and installations sit alongside talks, film screenings and political debate — the discussion and film programme is free. The music line-up is still to be announced.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "ticketUrl": "https://elevate.at/en/",
+    "sources": [
+      "https://elevate.at/en/",
+      "https://www.steiermark.com/en/Region-Graz/Vacation-planning/Events/Elevate-Festival_ed_54351425"
+    ]
+  }
+]

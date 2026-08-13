@@ -1,0 +1,983 @@
+[
+  {
+    "title": "Autechre au Lieu Unique",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "region": "Loire-Atlantique",
+    "lat": 47.2153,
+    "lng": -1.5456,
+    "date": "2026-10-15",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Grand Atelier - Lieu Unique",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Le duo de Sheffield Autechre joue dans le Grand Atelier du Lieu Unique, l'ancienne biscuiterie LU de Nantes. Trente ans d'électronique abstraite sur Warp, jouée dans le noir complet comme à leur habitude. Concert à 20h.",
+    "descEn": "Sheffield duo Autechre play the Grand Atelier of Le Lieu Unique, Nantes' former LU biscuit factory. Thirty years of abstract electronics on Warp, performed in total darkness as is their habit. 8pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/autechre-1469360_A"
+    ]
+  },
+  {
+    "title": "Fakear au Bikini",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5479,
+    "lng": 1.4857,
+    "date": "2026-10-15",
+    "time": "19:30",
+    "price": 32,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear pose son live au Bikini, la salle du parc technologique du Canal à Ramonville : les titres d'« a nice place to be » et la mixtape « open world », nourrie d'imaginaire vidéoludique. Portes à 19h30, à partir de 32 €.",
+    "descEn": "Fakear brings his live show to Le Bikini, the venue in Ramonville's Parc du Canal: tracks from 'a nice place to be' plus the video-game-inspired 'open world' mixtape. Doors 7.30pm, from €32.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/fakear-1541657_A"
+    ]
+  },
+  {
+    "title": "Ouest Park Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Le Havre",
+    "country": "France",
+    "region": "Seine-Maritime",
+    "lat": 49.504,
+    "lng": 0.1224,
+    "date": "2026-10-16",
+    "endDate": "2026-10-17",
+    "time": "18:00",
+    "price": 38,
+    "currency": "€",
+    "venue": "Fort de Tourneville",
+    "trending": false,
+    "lineup": [
+      "Daniel Avery",
+      "Jennifer Cardini",
+      "2ManyDJs",
+      "Acid Arab",
+      "Hypnosis Therapy",
+      "Babyshambles",
+      "Temples",
+      "Médine",
+      "Suzane",
+      "Fishbach",
+      "Kery James",
+      "BCUC"
+    ],
+    "desc": "Deux soirées dans les casemates du Fort de Tourneville, au-dessus du Havre : le vendredi Daniel Avery et Jennifer Cardini, le samedi 2ManyDJs et Acid Arab, au milieu d'une programmation qui déborde sur le rock et le rap. Journée à 38 € en tarif réduit et 42 € plein, pass deux jours à partir de 60 € en early bird.",
+    "descEn": "Two nights inside the casemates of Fort de Tourneville, above Le Havre: Daniel Avery and Jennifer Cardini on Friday, 2ManyDJs and Acid Arab on Saturday, inside a bill that also spills into rock and rap. Day tickets €38 concession, €42 full, two-day passes from €60 early bird.",
+    "ticketUrl": "https://letetris.fr/agenda/ouest-park-festival-2",
+    "sources": [
+      "https://letetris.fr/agenda/ouest-park-festival-2",
+      "https://www.songkick.com/fr/festivals/129606-ouest-park/id/43185812-ouest-park-2026"
+    ]
+  },
+  {
+    "title": "Autechre à l'Aéronef",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.6368,
+    "lng": 3.0739,
+    "date": "2026-10-16",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "L'Aéronef",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Au lendemain de leur date nantaise, Sean Booth et Rob Brown posent leur live à l'Aéronef, la salle perchée sur le centre commercial d'Euralille. Électronique abstraite de Warp, jouée dans le noir.",
+    "descEn": "The day after their Nantes date, Sean Booth and Rob Brown bring their live show to L'Aéronef, the venue perched on top of the Euralille shopping centre. Abstract Warp electronics, played in the dark.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/metro-areas/28886-france-lille/genre/electronic"
+    ]
+  },
+  {
+    "title": "Frankey & Sandrino à La Cabane",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5997,
+    "lng": 1.4073,
+    "date": "2026-10-16",
+    "time": "21:30",
+    "price": 0,
+    "currency": "€",
+    "venue": "La Cabane - Les Halles de la Cartoucherie",
+    "trending": false,
+    "lineup": [
+      "Frankey & Sandrino"
+    ],
+    "desc": "Le duo allemand Frankey & Sandrino, habitué d'Innervisions et de Diynamic, joue à La Cabane des Halles de la Cartoucherie, avenue Raymond Badiou. House mélodique et techno lente, portes à 21h30.",
+    "descEn": "German duo Frankey & Sandrino, regulars on Innervisions and Diynamic, play La Cabane at Les Halles de la Cartoucherie on avenue Raymond Badiou. Melodic house and slow techno, doors 9.30pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/concerts/43307040-frankey-and-sandrino-at-la-cabane-les-halles-de-la-cartoucherie"
+    ]
+  },
+  {
+    "title": "Mosimann au Zénith de Paris",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.8935,
+    "lng": 2.3934,
+    "date": "2026-10-17",
+    "endDate": "2026-10-18",
+    "time": "20:00",
+    "price": 49.5,
+    "currency": "€",
+    "venue": "Zénith Paris - La Villette",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Le DJ et producteur français Mosimann joue deux soirs de suite au Zénith de la Villette : la première date a été sold out assez vite pour qu'une seconde soit ajoutée. Set house et EDM en grande salle, à 20h, de 49,50 € à 65 €.",
+    "descEn": "French DJ and producer Mosimann plays two nights in a row at the Zénith de la Villette: the first date sold out fast enough for a second to be added. A house and EDM set in a full-size arena, 8pm, €49.50 to €65.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/mosimann-1194909_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à La Cigale",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.8825,
+    "lng": 2.3401,
+    "date": "2026-10-23",
+    "time": "20:00",
+    "price": 29.7,
+    "currency": "€",
+    "venue": "La Cigale",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "Le trio de trance instrumentale né en Ariège en 2013 pose son live à La Cigale, boulevard de Rochechouart. Natural trance, instruments atypiques et lignes de chant féminines depuis la dernière refonte du show. Portes à 20h, à partir de 29,70 €.",
+    "descEn": "The instrumental trance trio formed in Ariège in 2013 bring their live show to La Cigale on boulevard de Rochechouart. Natural trance, unusual instruments and female vocal lines since the show's latest overhaul. Doors 8pm, from €29.70.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/la-p-tite-fumee-1289788_A"
+    ]
+  },
+  {
+    "title": "Fakear à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "region": "Bas-Rhin",
+    "lat": 48.5759,
+    "lng": 7.7291,
+    "date": "2026-10-29",
+    "time": "19:30",
+    "price": 30.2,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear déroule à La Laiterie les morceaux d'« a nice place to be » et la mixtape « Open World », qu'il décrit lui-même comme sa face la plus club. Portes à 19h30, 13 rue du Hohwald, à partir de 30,20 €.",
+    "descEn": "Fakear unfolds tracks from 'a nice place to be' and the 'Open World' mixtape — which he describes as his most club-facing material — at La Laiterie. Doors 7.30pm, 13 rue du Hohwald, from €30.20.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/fakear-1541659_A"
+    ]
+  },
+  {
+    "title": "Fakear au Splendid",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.6234,
+    "lng": 3.0907,
+    "date": "2026-11-04",
+    "time": "20:30",
+    "price": 29,
+    "currency": "€",
+    "venue": "Le Splendid",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear joue au Splendid, la salle de 900 places du quartier de Fives à Lille, les morceaux de son album « a nice place to be » et de la mixtape « Open World ». Concert à 20h30, à partir de 29 €.",
+    "descEn": "Fakear plays Le Splendid, the 900-capacity room in Lille's Fives district, with material from his album 'a nice place to be' and the 'Open World' mixtape. 8.30pm, from €29.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/fakear-1541655_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à L'Étage",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Rennes",
+    "country": "France",
+    "region": "Ille-et-Vilaine",
+    "lat": 48.1069,
+    "lng": -1.6769,
+    "date": "2026-11-13",
+    "time": "20:00",
+    "price": 27,
+    "currency": "€",
+    "venue": "L'Étage",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "La P'tite Fumée à L'Étage, la petite salle du Liberté à Rennes : didgeridoo, flûte et instruments traditionnels branchés sur des machines, dans un live de trance instrumentale. À 20h, à partir de 27 €.",
+    "descEn": "La P'tite Fumée at L'Étage, the smaller room of Rennes' Le Liberté: didgeridoo, flute and traditional instruments plugged into machines, in an instrumental trance live show. 8pm, from €27.",
+    "sources": [
+      "https://www.jds.fr/rennes/concerts/electro/la-p-tite-fumee-1454820_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée au Family",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Landerneau",
+    "country": "France",
+    "region": "Finistère",
+    "lat": 48.4489,
+    "lng": -4.255,
+    "date": "2026-11-14",
+    "time": "19:30",
+    "price": 25,
+    "currency": "€",
+    "venue": "Le Family",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "Escale finistérienne de la tournée : La P'tite Fumée joue au Family, rue de la Petite Palud à Landerneau, un live de trance instrumentale entièrement repensé avec de nouvelles lignes de chant. À 19h30, à partir de 25 €.",
+    "descEn": "The tour's Finistère stop: La P'tite Fumée play Le Family on rue de la Petite Palud in Landerneau, a fully reworked instrumental trance live show with new vocal lines. 7.30pm, from €25.",
+    "sources": [
+      "https://www.jds.fr/brest/concerts/electro/la-p-tite-fumee-1482004_A"
+    ]
+  },
+  {
+    "title": "Chloé b2b Ivan Smagghe à La Cabane",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5997,
+    "lng": 1.4073,
+    "date": "2026-11-22",
+    "time": "18:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "La Cabane - Les Halles de la Cartoucherie",
+    "trending": false,
+    "lineup": [
+      "Chloé",
+      "Ivan Smagghe",
+      "Leiris"
+    ],
+    "desc": "Deux figures de la scène électronique française depuis les années Kill the DJ, Chloé et Ivan Smagghe, se retrouvent en b2b à La Cabane des Halles de la Cartoucherie, avec Leiris en ouverture. Portes à 18h.",
+    "descEn": "Two figures of the French electronic scene since the Kill the DJ years, Chloé and Ivan Smagghe, reunite back to back at La Cabane, Les Halles de la Cartoucherie, with Leiris opening. Doors 6pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/concerts/43307035-chloe-at-la-cabane-les-halles-de-la-cartoucherie"
+    ]
+  },
+  {
+    "title": "PACT au Rocher de Palmer",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Cenon",
+    "country": "France",
+    "region": "Gironde",
+    "lat": 44.8623,
+    "lng": -0.5244,
+    "date": "2026-12-03",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le Rocher de Palmer",
+    "trending": false,
+    "lineup": [
+      "Joachim Pastor",
+      "Joris Delacroix",
+      "Teho"
+    ],
+    "desc": "Joachim Pastor, Joris Delacroix et Teho réunissent leurs trois univers sous le nom PACT au Rocher de Palmer, sur les hauteurs de Cenon face à Bordeaux : un live de techno mélodique dont le public pilote une partie en temps réel.",
+    "descEn": "Joachim Pastor, Joris Delacroix and Teho merge their three worlds as PACT at Le Rocher de Palmer, on the Cenon heights facing Bordeaux: a melodic techno live show partly steered by the crowd in real time.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/artists/4804983-joachim-pastor/calendar",
+      "https://www.songkick.com/metro-areas/28851-france-bordeaux/genre/electronic"
+    ]
+  },
+  {
+    "title": "Joachim Pastor à l'Interférence",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Balma",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.6315,
+    "lng": 1.4897,
+    "date": "2026-12-04",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Interférence",
+    "trending": false,
+    "lineup": [
+      "Joachim Pastor"
+    ],
+    "desc": "Au lendemain de la date bordelaise de PACT, Joachim Pastor joue seul à l'Interférence, la salle de la route de Lavaur à Balma, en périphérie est de Toulouse. Techno mélodique et house, en live.",
+    "descEn": "The day after PACT's Bordeaux date, Joachim Pastor plays solo at Interférence, the venue on route de Lavaur in Balma, on Toulouse's eastern edge. Melodic techno and house, live.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/artists/4804983-joachim-pastor/calendar",
+      "https://www.songkick.com/metro-areas/28930-france-toulouse/genre/electronic"
+    ]
+  },
+  {
+    "title": "Acid Pauli au 109",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Nice",
+    "country": "France",
+    "region": "Alpes-Maritimes",
+    "lat": 43.7174,
+    "lng": 7.2841,
+    "date": "2026-12-04",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le 109",
+    "trending": false,
+    "lineup": [
+      "Acid Pauli"
+    ],
+    "desc": "Première date niçoise d'Acid Pauli, l'Allemand Martin Gretschmann, dans les anciens abattoirs frigorifiques du 109, au 89 route de Turin. Un set lent et psychédélique, entre house organique et textures dub. Portes à 20h.",
+    "descEn": "Acid Pauli's first ever Nice date — Germany's Martin Gretschmann — inside Le 109, the former refrigerated slaughterhouses at 89 route de Turin. A slow, psychedelic set between organic house and dub textures. Doors 8pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/concerts/43315218-acid-pauli-at-le-109",
+      "https://www.songkick.com/venues/3550044-le-109"
+    ]
+  },
+  {
+    "title": "Dawn To Dusk",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Clermont-Ferrand",
+    "country": "France",
+    "region": "Puy-de-Dôme",
+    "lat": 45.7881,
+    "lng": 3.1002,
+    "date": "2026-12-05",
+    "time": "22:30",
+    "price": 25.1,
+    "currency": "€",
+    "venue": "La Coopérative de Mai",
+    "trending": false,
+    "lineup": [
+      "Acidpach",
+      "Ind",
+      "l'Art Cène",
+      "Loko",
+      "Six ou Sept",
+      "JUDA"
+    ],
+    "desc": "Cinq artistes s'affrontent puis jouent ensemble dans la fosse de la Coopérative de Mai, sur une scénographie signée 512 Factory. JUDA, du collectif clermontois TechnoDome, ouvre la nuit à 22h30. À partir de 25,10 €.",
+    "descEn": "Five artists face off, then play together, down in the pit of La Coopérative de Mai, on a stage design by 512 Factory. JUDA, from Clermont's TechnoDome collective, opens at 10.30pm. From €25.10.",
+    "sources": [
+      "https://www.jds.fr/clermont-ferrand/concerts/electro/dawn-to-dusk-acidpach-ind-l-art-cene-loko-six-ou-sept-1390923_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "region": "Bas-Rhin",
+    "lat": 48.5759,
+    "lng": 7.7291,
+    "date": "2026-12-11",
+    "time": "19:30",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "Le trio ariégeois amène sa natural trance à La Laiterie, rue du Hohwald : rythmiques incisives, mélodies planantes et nouvelles lignes de chant dans une version du live entièrement repensée. Portes à 19h30, à partir de 27,20 €.",
+    "descEn": "The Ariège trio bring their natural trance to La Laiterie on rue du Hohwald: incisive rhythms, soaring melodies and new vocal lines in a fully reworked version of the live show. Doors 7.30pm, from €27.20.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/la-p-tite-fumee-1448574_A"
+    ]
+  },
+  {
+    "title": "Yan Wagner à la Coopérative de Mai",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass",
+      "Techno"
+    ],
+    "city": "Clermont-Ferrand",
+    "country": "France",
+    "region": "Puy-de-Dôme",
+    "lat": 45.7881,
+    "lng": 3.1002,
+    "date": "2026-12-18",
+    "time": "20:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "La Coopérative de Mai",
+    "trending": false,
+    "lineup": [
+      "Yan Wagner"
+    ],
+    "desc": "Le Franco-Américain Yan Wagner joue rue Serge Gainsbourg une soirée électro-rock traversée de jungle et de drum'n'bass, dans la filiation des Chemical Brothers et de Massive Attack. À 20h, à partir de 18 €.",
+    "descEn": "Franco-American Yan Wagner plays an electro-rock night shot through with jungle and drum'n'bass on rue Serge Gainsbourg, in the lineage of The Chemical Brothers and Massive Attack. 8pm, from €18.",
+    "sources": [
+      "https://www.jds.fr/clermont-ferrand/concerts/electro/yan-wagner-1547616_A"
+    ]
+  },
+  {
+    "title": "Andhim à La Cabane",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5997,
+    "lng": 1.4073,
+    "date": "2026-12-19",
+    "time": "21:30",
+    "price": 0,
+    "currency": "€",
+    "venue": "La Cabane - Les Halles de la Cartoucherie",
+    "trending": false,
+    "lineup": [
+      "Andhim"
+    ],
+    "desc": "Première venue à Toulouse du duo colonais Andhim, inventeurs autoproclamés de la « super house », pour clôturer leur tournée à La Cabane des Halles de la Cartoucherie. Portes à 21h30.",
+    "descEn": "Cologne duo Andhim, self-declared inventors of 'super house', come to Toulouse for the first time to close their tour at La Cabane, Les Halles de la Cartoucherie. Doors 9.30pm.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/concerts/43307038-andhim-at-la-cabane-les-halles-de-la-cartoucherie",
+      "https://www.songkick.com/artists/4217321-andhim/calendar"
+    ]
+  },
+  {
+    "title": "Robot Rock Alive au Zénith de Dijon",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Dijon",
+    "country": "France",
+    "region": "Côte-d'Or",
+    "lat": 47.3553,
+    "lng": 5.0581,
+    "date": "2027-01-14",
+    "time": "20:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Zénith de Dijon",
+    "trending": false,
+    "lineup": [
+      "Robot Rock Alive"
+    ],
+    "desc": "Reconstitution scénique de la tournée Alive 2007 de Daft Punk : la pyramide, les casques, les enchaînements du live original rejoués sur scène. Au Zénith de Dijon à 20h, de 39 € en fosse à 59 € en carré or.",
+    "descEn": "A staged reconstruction of Daft Punk's Alive 2007 tour: the pyramid, the helmets, the original live segues replayed on stage. At the Zénith de Dijon, 8pm, €39 standing to €59 for the front block.",
+    "sources": [
+      "https://www.jds.fr/dijon/concerts/electro/robot-rock-alive-daft-punk-tribute-1625147_A"
+    ]
+  },
+  {
+    "title": "Robot Rock Alive au Summum",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Grenoble",
+    "country": "France",
+    "region": "Isère",
+    "lat": 45.1553,
+    "lng": 5.7363,
+    "date": "2027-01-15",
+    "time": "20:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Summum",
+    "trending": false,
+    "lineup": [
+      "Robot Rock Alive"
+    ],
+    "desc": "Le spectacle hommage à Daft Punk s'installe au Summum, la grande salle du parc Alpexpo au sud de Grenoble : pyramide lumineuse, deux robots sur scène et la setlist d'Alive 2007. À 20h, de 39 € à 59 €.",
+    "descEn": "The Daft Punk tribute show lands at Le Summum, the big hall of the Alpexpo park south of Grenoble: lit pyramid, two robots on stage and the Alive 2007 setlist. 8pm, €39 to €59.",
+    "sources": [
+      "https://www.jds.fr/grenoble/concerts/electro/robot-rock-alive-daft-punk-tribute-1575178_A"
+    ]
+  },
+  {
+    "title": "NTO Live au Rocher de Palmer",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Cenon",
+    "country": "France",
+    "region": "Gironde",
+    "lat": 44.8623,
+    "lng": -0.5244,
+    "date": "2027-01-16",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le Rocher de Palmer",
+    "trending": false,
+    "lineup": [
+      "NTO"
+    ],
+    "desc": "Troisième date de la tournée française de NTO, au Rocher de Palmer à Cenon : techno mélodique jouée en live, nappes de piano, montées longues et basses profondes.",
+    "descEn": "The third date of NTO's French tour, at Le Rocher de Palmer in Cenon: melodic techno played live, piano layers, long builds and deep bass.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.songkick.com/artists/826201-nto/calendar"
+    ]
+  },
+  {
+    "title": "Robot Rock Alive à l'Arena Stade Couvert",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Liévin",
+    "country": "France",
+    "region": "Pas-de-Calais",
+    "lat": 50.4109,
+    "lng": 2.7658,
+    "date": "2027-01-21",
+    "time": "20:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Arena Stade Couvert",
+    "trending": false,
+    "lineup": [
+      "Robot Rock Alive"
+    ],
+    "desc": "L'hommage à Daft Punk passe par l'Arena Stade Couvert de Liévin, dans le bassin minier : la tournée Alive 2007 rejouée point par point, casques, instruments live et mur de vidéo. À 20h, de 39 € à 59 €.",
+    "descEn": "The Daft Punk tribute stops at Liévin's Arena Stade Couvert, in the old mining basin: the Alive 2007 tour replayed point by point, helmets, live instruments and a video wall. 8pm, €39 to €59.",
+    "sources": [
+      "https://www.jds.fr/lens/concerts/electro/robot-rock-alive-daft-punk-tribute-1632290_A"
+    ]
+  },
+  {
+    "title": "Thylacine au MeM",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Rennes",
+    "country": "France",
+    "region": "Ille-et-Vilaine",
+    "lat": 48.1032,
+    "lng": -1.7196,
+    "date": "2027-01-21",
+    "time": "20:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Le MeM",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine joue « Roads Vol. 3 » sous la structure de toile du MeM, au bord de l'eau à la Prévalaye : parquet de danse, boule à facettes et techno progressive rapportée de Namibie. À 20h, à partir de 39 €.",
+    "descEn": "Thylacine plays 'Roads Vol. 3' under the canvas structure of Le MeM, by the water at La Prévalaye: wooden dance floor, mirror ball and progressive techno brought back from Namibia. 8pm, from €39.",
+    "sources": [
+      "https://www.jds.fr/rennes/concerts/electro/thylacine-tournee-1575169_A"
+    ]
+  },
+  {
+    "title": "Thylacine au 106",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Rouen",
+    "country": "France",
+    "region": "Seine-Maritime",
+    "lat": 49.4405,
+    "lng": 1.0752,
+    "date": "2027-01-23",
+    "time": "20:00",
+    "price": 33.7,
+    "currency": "€",
+    "venue": "Le 106",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine sur les quais de Seine, au 106 : « Roads Vol. 3 » joué en live, field recordings namibiens, instruments acoustiques et techno progressive. À 20h, à partir de 33,70 €.",
+    "descEn": "Thylacine on the Seine quayside at Le 106: 'Roads Vol. 3' played live, Namibian field recordings, acoustic instruments and progressive techno. 8pm, from €33.70.",
+    "sources": [
+      "https://www.jds.fr/rouen/concerts/electro/thylacine-tournee-1569945_A"
+    ]
+  },
+  {
+    "title": "Robot Rock Alive au Zénith de Nantes",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Saint-Herblain",
+    "country": "France",
+    "region": "Loire-Atlantique",
+    "lat": 47.2287,
+    "lng": -1.628,
+    "date": "2027-01-27",
+    "time": "20:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Zénith de Nantes",
+    "trending": false,
+    "lineup": [
+      "Robot Rock Alive"
+    ],
+    "desc": "Le spectacle qui rejoue la tournée Alive 2007 de Daft Punk s'arrête au Zénith de Nantes, à Saint-Herblain : pyramide, casques et instruments joués en direct. À 20h, de 39 € à 59 €.",
+    "descEn": "The show that replays Daft Punk's Alive 2007 tour stops at the Zénith de Nantes in Saint-Herblain: pyramid, helmets and instruments played live. 8pm, €39 to €59.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/robot-rock-alive-daft-punk-tribute-1585202_A"
+    ]
+  },
+  {
+    "title": "Thylacine au Bikini",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5479,
+    "lng": 1.4857,
+    "date": "2027-01-28",
+    "time": "19:30",
+    "price": 37.2,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "William Rezé, alias Thylacine, présente au Bikini « Roads Vol. 3 », enregistré en Namibie depuis un studio mobile installé dans une Airstream. Techno progressive, field recordings et voix locales. Portes à 19h30, à partir de 37,20 €.",
+    "descEn": "William Rezé, aka Thylacine, presents 'Roads Vol. 3' at Le Bikini, recorded in Namibia from a mobile studio built into an Airstream. Progressive techno, field recordings and local voices. Doors 7.30pm, from €37.20.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/thylacine-tournee-1569946_A"
+    ]
+  },
+  {
+    "title": "NTO Live à La BAM",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Metz",
+    "country": "France",
+    "region": "Moselle",
+    "lat": 49.1163,
+    "lng": 6.2265,
+    "date": "2027-01-29",
+    "time": "20:00",
+    "price": 32,
+    "currency": "€",
+    "venue": "La BAM",
+    "trending": false,
+    "lineup": [
+      "NTO"
+    ],
+    "desc": "NTO déroule son live de techno mélodique à la Boîte à Musiques, boulevard d'Alsace à Metz : structures répétitives, nappes de piano et basses profondes. À 20h, à partir de 32 €.",
+    "descEn": "NTO unfolds his melodic techno live set at La Boîte à Musiques on boulevard d'Alsace in Metz: repeating structures, piano layers and deep bass. 8pm, from €32.",
+    "sources": [
+      "https://www.songkick.com/artists/826201-nto/calendar",
+      "https://www.seetickets.com/fr/tg/tour/nto/19591"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à la Coopérative de Mai",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Clermont-Ferrand",
+    "country": "France",
+    "region": "Puy-de-Dôme",
+    "lat": 45.7881,
+    "lng": 3.1002,
+    "date": "2027-01-30",
+    "time": "20:00",
+    "price": 27.3,
+    "currency": "€",
+    "venue": "La Coopérative de Mai",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "La P'tite Fumée à la Coopérative de Mai : trance instrumentale, instruments atypiques et voix, dans la version du live entièrement repensée que le groupe promène depuis un an. À 20h, à partir de 27,30 €.",
+    "descEn": "La P'tite Fumée at La Coopérative de Mai: instrumental trance, unusual instruments and vocals, in the fully reworked live show the band has been touring for a year. 8pm, from €27.30.",
+    "sources": [
+      "https://www.jds.fr/clermont-ferrand/concerts/electro/la-p-tite-fumee-1448573_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée au Splendid",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.6234,
+    "lng": 3.0907,
+    "date": "2027-02-05",
+    "time": "20:00",
+    "price": 29.2,
+    "currency": "€",
+    "venue": "Le Splendid",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "Escale lilloise de la tournée de La P'tite Fumée : électro instrumentale, rythmiques tranchantes et nouvelles lignes de chant, dans la salle du Splendid. À 20h, à partir de 29,20 €.",
+    "descEn": "La P'tite Fumée's Lille stop: instrumental electronica, sharp rhythms and new vocal lines, in the Splendid's room. 8pm, from €29.20.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/la-p-tite-fumee-1448762_A"
+    ]
+  },
+  {
+    "title": "Club de Jour invite Daft Funk Live",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "region": "Loire-Atlantique",
+    "lat": 47.2027,
+    "lng": -1.5722,
+    "date": "2027-02-13",
+    "time": "19:00 - 00:00",
+    "price": 19.99,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [
+      "Daft Funk Live",
+      "Lee Parkinson"
+    ],
+    "desc": "Le Club de Jour du Warehouse, dans le Hangar à Bananes, invite Daft Funk Live pour un hommage à Daft Punk joué aux instruments, avec le DJ britannique Lee Parkinson. De 19h à minuit, early bird à 19,99 € sur l'appli.",
+    "descEn": "Warehouse's Club de Jour, in the Hangar à Bananes, invites Daft Funk Live for a Daft Punk tribute played on instruments, with British DJ Lee Parkinson. 7pm to midnight, early birds at €19.99 on the app.",
+    "ticketUrl": "https://www.warehouse-nantes.fr/event/club-de-jour-invite-daft-funk-live",
+    "sources": [
+      "https://www.warehouse-nantes.fr/event/club-de-jour-invite-daft-funk-live"
+    ]
+  },
+  {
+    "title": "Thylacine à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "region": "Bas-Rhin",
+    "lat": 48.5759,
+    "lng": 7.7291,
+    "date": "2027-02-19",
+    "time": "19:30",
+    "price": 40.3,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine présente « Roads Vol. 3 » à La Laiterie, un album rapporté de trois mois de voyage en Namibie. Techno progressive jouée en live, field recordings et voix enregistrées sur place. Portes à 19h30, à partir de 40,30 €.",
+    "descEn": "Thylacine brings 'Roads Vol. 3' to La Laiterie, an album made over three months travelling through Namibia. Progressive techno played live, field recordings and voices captured on site. Doors 7.30pm, from €40.30.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/thylacine-tournee-1569947_A"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à La Vapeur",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Dijon",
+    "country": "France",
+    "region": "Côte-d'Or",
+    "lat": 47.3463,
+    "lng": 5.0594,
+    "date": "2027-02-25",
+    "time": "20:00",
+    "price": 29,
+    "currency": "€",
+    "venue": "La Vapeur",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "La P'tite Fumée à La Vapeur, avenue de Stalingrad à Dijon : 1 200 places debout, électro instrumentale, rythmiques ariégeoises et voix. À 20h, à partir de 29 €.",
+    "descEn": "La P'tite Fumée at La Vapeur on avenue de Stalingrad in Dijon: 1,200 standing, instrumental electronica, Ariège rhythms and vocals. 8pm, from €29.",
+    "sources": [
+      "https://www.jds.fr/dijon/concerts/electro/la-p-tite-fumee-1448571_A"
+    ]
+  },
+  {
+    "title": "Joris Delacroix au Boeuf sur le Toit",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Bordeaux",
+    "country": "France",
+    "region": "Gironde",
+    "lat": 44.8319,
+    "lng": -0.5721,
+    "date": "2027-02-26",
+    "time": "20:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le Boeuf sur le Toit",
+    "trending": false,
+    "lineup": [
+      "Joris Delacroix",
+      "Upper",
+      "Ka:Ost"
+    ],
+    "desc": "Le collectif Insolitum invite Joris Delacroix au Boeuf sur le Toit, rue de Candale à Bordeaux, avec Upper et Ka:Ost en soutien. House mélodique et deep, dans une salle de 1921 restée dans son décor années folles.",
+    "descEn": "The Insolitum collective brings Joris Delacroix to Le Boeuf sur le Toit on rue de Candale in Bordeaux, with Upper and Ka:Ost in support. Melodic, deep house in a 1921 room still dressed in its roaring-twenties decor.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://leboeufsurletoit.fr/evenements/joris-delacroix-electro/",
+      "https://www.songkick.com/metro-areas/28851-france-bordeaux/genre/electronic"
+    ]
+  },
+  {
+    "title": "La P'tite Fumée à L'Autre Canal",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Nancy",
+    "country": "France",
+    "region": "Meurthe-et-Moselle",
+    "lat": 48.6943,
+    "lng": 6.1986,
+    "date": "2027-02-27",
+    "time": "22:00",
+    "price": 30,
+    "currency": "€",
+    "venue": "L'Autre Canal",
+    "trending": false,
+    "lineup": [
+      "La P'tite Fumée"
+    ],
+    "desc": "Format tardif à L'Autre Canal, sur les Rives de Meurthe : La P'tite Fumée démarre à 22h avec son live repensé, rythmiques tranchantes, mélodies hypnotiques et chant intégré au projet pour la première fois. À partir de 30 €.",
+    "descEn": "A late slot at L'Autre Canal, on the Rives de Meurthe: La P'tite Fumée start at 10pm with their reworked live show — sharp rhythms, hypnotic melodies and, for the first time, vocals folded into the project. From €30.",
+    "sources": [
+      "https://www.jds.fr/nancy/concerts/electro/la-p-tite-fumee-1448570_A"
+    ]
+  }
+]
