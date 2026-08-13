@@ -578,7 +578,7 @@
     ]
   },
   {
-    "title": "Silva Bumpa in Copenhagen",
+    "title": "Silva Bumpa at Pumpehuset",
     "type": "Club",
     "genres": [
       "House"
@@ -630,7 +630,7 @@
     ]
   },
   {
-    "title": "Trinix in Copenhagen",
+    "title": "Trinix at Pumpehuset",
     "type": "Club",
     "genres": [
       "House",
@@ -870,6 +870,175 @@
     "sources": [
       "https://www.djguide.nl/party.p/567333/joachim-pastor-joris-delacroix-teho-present-pact?language=en",
       "https://www.het-sieraad.nl/"
+    ]
+  },
+  {
+    "title": "Swedish House Mafia at Ullevi",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "lat": 57.7069,
+    "lng": 11.9878,
+    "date": "2026-08-28",
+    "endDate": "2026-08-29",
+    "time": "19:30 - 23:30",
+    "price": 1195,
+    "currency": "kr",
+    "venue": "Ullevi",
+    "trending": true,
+    "lineup": [
+      "Swedish House Mafia",
+      "Axwell",
+      "Steve Angello",
+      "Sebastian Ingrosso"
+    ],
+    "desc": "Axwell, Steve Angello et Sebastian Ingrosso jouent deux soirs de suite dans le stade d'Ullevi, à Göteborg — les plus gros concerts de l'histoire du trio, chez eux. Portes et show à 19h30 les 28 et 29 août. Billets à partir de 1 195 SEK ; 13 ans minimum en tribune, 18 ans en fosse et en Premium.",
+    "descEn": "Axwell, Steve Angello and Sebastian Ingrosso play two nights in a row at the Ullevi stadium in Gothenburg — the trio's biggest shows ever, on home ground. Doors and show at 19:30 on 28 and 29 August. Tickets from 1,195 SEK; 13+ in the stands, 18+ on the floor and in Premium.",
+    "sources": [
+      "https://gotevent.se/evenemang/swedish-house-mafia/",
+      "https://www.livenation.se/event/swedish-house-mafia-g%C3%B6teborg-tickets-edp1620345"
+    ]
+  },
+  {
+    "title": "The Prodigy at Avicii Arena",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Stockholm",
+    "country": "Sweden",
+    "lat": 59.2934,
+    "lng": 18.0811,
+    "date": "2026-11-15",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Avicii Arena",
+    "trending": false,
+    "lineup": [
+      "The Prodigy"
+    ],
+    "desc": "Étape suédoise de la tournée européenne de novembre 2026 de The Prodigy, dans l'Avicii Arena — l'ancien Globen, la salle ronde de Johanneshov. Le groupe d'Essex continue sans Keith Flint, mort en 2019, avec Liam Howlett et Maxim aux commandes du répertoire rave qui a fait « Firestarter » et « Smack My Bitch Up ». Le tarif n'est pas publié sur la page de la salle.",
+    "descEn": "Swedish stop on The Prodigy's November 2026 European tour, at the Avicii Arena — the former Globen, the round hall in Johanneshov. The Essex band carries on without Keith Flint, who died in 2019, with Liam Howlett and Maxim running the rave repertoire behind 'Firestarter' and 'Smack My Bitch Up'. No price is published on the venue page.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://aviciiarena.se/en/events/music-show/the-prodigy/",
+      "https://theprodigy.com/2026/04/07/european-tour-announced-november-2026/"
+    ]
+  },
+  {
+    "title": "The Prodigy at Unity Arena",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Fornebu",
+    "country": "Norway",
+    "lat": 59.8956,
+    "lng": 10.6247,
+    "date": "2026-11-14",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Unity Arena",
+    "trending": false,
+    "lineup": [
+      "The Prodigy"
+    ],
+    "desc": "Plus grosse date norvégienne de The Prodigy à ce jour : l'Unity Arena de Fornebu, la salle couverte de 23 000 places à la sortie ouest d'Oslo, la veille du concert de Stockholm. La tournée européenne de novembre 2026 passe aussi par Copenhague, Berlin, Bruxelles et Amsterdam. Billetterie via Ticketmaster.no ; tarif non publié.",
+    "descEn": "The Prodigy's biggest Norwegian date to date: Unity Arena in Fornebu, the 23,000-capacity indoor arena on Oslo's western edge, the night before the Stockholm show. The November 2026 European tour also stops in Copenhagen, Berlin, Brussels and Amsterdam. Ticketing via Ticketmaster.no; price not published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://theprodigy.com/2026/04/07/european-tour-announced-november-2026/",
+      "https://www.theprodigyontour.com/upcoming/2026-11-14-unity-arena-oslo-norway/"
+    ]
+  },
+  {
+    "title": "Frædag: Einmusik",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9139,
+    "lng": 10.7423,
+    "date": "2026-10-16",
+    "time": "22:00 - 03:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Jaeger",
+    "trending": false,
+    "lineup": [
+      "Einmusik",
+      "g-HA & Olanskii"
+    ],
+    "desc": "Le vendredi du Jaeger, sur Grensen, accueille l'Allemand Einmusik dans le sous-sol pour ses nappes mélodiques et ses grooves profonds. Les résidents g-HA & Olanskii tiennent la cour intérieure, comme chaque Frædag. Entrée à partir de 20 ans, tarif non publié.",
+    "descEn": "Jaeger's Friday night on Grensen brings Germany's Einmusik to the basement for his melodic pads and deep grooves. Residents g-HA & Olanskii hold the backyard, as they do every Frædag. 20+, price not published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://jaegeroslo.no/events/friday-fraedag-einmusik/",
+      "https://jaegeroslo.no/events/"
+    ]
+  },
+  {
+    "title": "Broiler: Ingen Skal Hjem",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Fornebu",
+    "country": "Norway",
+    "lat": 59.8956,
+    "lng": 10.6247,
+    "date": "2027-02-13",
+    "time": "19:00 - 23:00",
+    "price": 0,
+    "currency": "kr",
+    "venue": "Unity Arena",
+    "trending": false,
+    "lineup": [
+      "Broiler"
+    ],
+    "desc": "Le duo norvégien Broiler clôt sa tournée « Ingen skal hjem » par sa plus grande date, à l'Unity Arena de Fornebu. Show à 19h. Le tarif n'est pas publié sur la page de la salle.",
+    "descEn": "Norwegian duo Broiler close their 'Ingen skal hjem' tour with their biggest date yet, at Unity Arena in Fornebu. Show at 19:00. No price is published on the venue page.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://unityarena.no/en/arrangementer/broiler/",
+      "https://kommunikasjon.ntb.no/pressemelding/18776961/broiler-avslutter-sin-ingen-skal-hjem-tour-pa-unity-arena-13-februar-2027"
+    ]
+  },
+  {
+    "title": "Kenton Slash Demon at Store VEGA",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6667,
+    "lng": 12.5455,
+    "date": "2026-10-31",
+    "time": "20:00 - 01:00",
+    "price": 360,
+    "currency": "kr",
+    "venue": "Store VEGA",
+    "trending": false,
+    "lineup": [
+      "Kenton Slash Demon"
+    ],
+    "desc": "Jonas Kenton et Silas Moldenhawer, deux tiers de When Saints Go Machine, donnent au Store VEGA le plus grand concert du projet Kenton Slash Demon, avec une production live entièrement neuve. Le duo danois y déroule la house glitchée de ses derniers singles, « Go », « Cookie / Janni » et « Max / Red ». Billet à 360 DKK, frais compris.",
+    "descEn": "Jonas Kenton and Silas Moldenhawer, two thirds of When Saints Go Machine, play the biggest Kenton Slash Demon show to date at Store VEGA, with an entirely new live production. The Danish duo run through the glitchy house of their recent singles, 'Go', 'Cookie / Janni' and 'Max / Red'. Tickets 360 DKK including fees.",
+    "ticketUrl": "https://vega.dk/en/event/kenton-slash-demon-2026-10-31",
+    "sources": [
+      "https://vega.dk/en/event/kenton-slash-demon-2026-10-31"
     ]
   }
 ]
