@@ -385,6 +385,17 @@ select.input option { background: var(--anthracite); }
   background-size: cover; background-position: center; z-index: -2;
 }
 .event-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,6,8,.2) 0%, rgba(5,6,8,.85) 100%); z-index: -1; }
+/* Crédit d'une photo sous licence Commons. Posé en absolu et non en frère de flux :
+   `.event-hero` est un flex aligné en bas, un `<p>` y deviendrait une colonne à côté
+   du titre. Discret mais lisible — l'attribution est la condition de la licence, la
+   masquer reviendrait à ne pas l'avoir. */
+.event-hero .photo-credit {
+  position: absolute; right: 14px; bottom: 10px; margin: 0; z-index: 1;
+  font-size: .68rem; line-height: 1.3; color: var(--grey-2);
+  text-shadow: 0 1px 3px rgba(0,0,0,.75); max-width: 60%; text-align: right;
+}
+.event-hero .photo-credit a { color: var(--grey); text-decoration: underline; text-underline-offset: 2px; }
+.event-hero .photo-credit a:hover { color: var(--cyan); }
 .event-hero-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
 .event-layout { display: grid; grid-template-columns: 1fr 360px; gap: 40px; margin-top: 48px; align-items: start; }
 .lineup { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }

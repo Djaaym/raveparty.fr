@@ -173,6 +173,49 @@ def derivatives(im: Image.Image, slug: str, dry: bool):
 
 
 START, END = "/* PHOTOS:start */\n", "/* PHOTOS:end */"
+CRED_START, CRED_END = "/* PHOTO_CREDITS:start */\n", "/* PHOTO_CREDITS:end */"
+
+
+def commons_credit(row):
+    """(auteur, licence, page) pour une image Commons — sinon None.
+
+    Une affiche d'organisateur se reprend telle quelle : c'est lui qui la diffuse pour
+    annoncer sa soirée. Un fichier Commons n'est réutilisable **qu'à la condition** de
+    citer l'auteur et la licence, et de renvoyer vers la page du fichier ; c'est le
+    texte du CC BY / CC BY-SA. On ne devine donc rien : sans auteur ET licence
+    lisibles dans le `credit` du lot, l'entrée est refusée plutôt que publiée nue.
+
+    Les agents écrivent le crédit en clair, sous l'une ou l'autre de ces formes :
+        "Wayne 1313 / Wikimedia Commons, CC BY-SA 4.0"
+        "KaiKnight2 / Wikimedia Commons (CC BY-SA 4.0)"
+    """
+    if "upload.wikimedia.org" not in (row.get("url") or ""):
+        return None
+    credit = (row.get("credit") or "").strip()
+    lic = re.search(r"(CC[ -]BY(?:[ -]SA)?(?:[ -]\d(?:\.\d)?)?|CC0|public domain)", credit, re.I)
+    author = credit.split("/")[0].strip(" ,;")
+    if not lic or not author:
+        return None
+    page = (row.get("sourcePage") or "").strip()
+    return author, lic.group(1).upper().replace(" ", "-").replace("CC-BY", "CC BY"), page
+
+
+def patch_credits_ts(credits, events, dry):
+    """Réécrit la map PHOTO_CREDITS entre ses marqueurs."""
+    src = DATA_TS.read_text()
+    def esc(s): return (s or "").replace("\\", "\\\\").replace('"', '\\"')
+    lines = []
+    for eid in sorted(credits):
+        if eid not in events:
+            continue
+        a, l, p = credits[eid]
+        lines.append(f'  {eid}: {{ author: "{esc(a)}", license: "{esc(l)}", page: "{esc(p)}" }},')
+    body = ("export const PHOTO_CREDITS: Record<number, PhotoCredit> = {"
+            + ("\n" + "\n".join(lines) + "\n" if lines else "") + "};\n")
+    i, j = src.index(CRED_START) + len(CRED_START), src.index(CRED_END)
+    if not dry:
+        DATA_TS.write_text(src[:i] + body + src[j:])
+    return len(lines)
 
 
 def patch_data_ts(mapping, events, dry):
@@ -247,6 +290,7 @@ def main():
     print(f"{len(by_url)} URLs distinctes à télécharger\n")
 
     mapping, by_hash, rejected = {}, {}, []
+    credits, unattributed = {}, []
     for i, (url, group) in enumerate(sorted(by_url.items()), 1):
         raw = b""
         for cand in candidates(url):
@@ -275,11 +319,28 @@ def main():
             print(f"  [{i}/{len(by_url)}] ✓ {slug}.jpg {size[0]}×{size[1]} → {len(group)} event(s)")
         for g in group:
             mapping[g["id"]] = f"{slug}.jpg"
+            # L'attribution suit le fichier, pas le lot : elle est donc recalculée à
+            # chaque passage, ce qui rattrape aussi les entrées Commons ingérées avant
+            # que la map existe.
+            c = commons_credit(g)
+            if c:
+                credits[g["id"]] = c
+            elif "upload.wikimedia.org" in g["url"]:
+                unattributed.append((g["id"], g["src"], g.get("credit")))
+
+    # Un fichier Commons sans auteur ni licence lisibles ne peut pas être publié : le
+    # crédit est la condition de la licence. On le retire plutôt que de le servir nu.
+    for eid, src_file, raw_credit in unattributed:
+        mapping.pop(eid, None)
+        rejected.append((f"(id {eid})", "Commons sans attribution", [eid]))
+        print(f"  ✗ attribution absente  id={eid} ({src_file}) credit={raw_credit!r}")
 
     n = patch_data_ts(mapping, events, args.dry) if mapping else 0
+    nc = patch_credits_ts(credits, events, args.dry)
     still = [i for i in events if i not in already and i not in mapping]
     print(f"\n{'—' * 60}")
     print(f"photos retenues        : {len(mapping)} événements / {len(by_hash)} fichiers")
+    print(f"crédits Commons        : {nc} (auteur + licence affichés sous l'image)")
     print(f"rejets                 : {len(rejected)} URLs")
     print(f"déjà illustrés (IA)    : {len(already)}")
     print(f"toujours sans image    : {len(still)}")

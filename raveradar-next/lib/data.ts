@@ -1301,6 +1301,36 @@ export const PHOTOS: Record<number, string> = {
 };
 /* PHOTOS:end */
 
+/**
+ * Auteur et licence des photos qui en exigent une, indexés par id d'événement.
+ *
+ * Une affiche publiée par l'organisateur est reprise telle quelle : c'est lui qui la
+ * diffuse pour annoncer sa soirée. Une image de Wikimedia Commons, elle, n'est
+ * réutilisable **qu'à la condition** de citer l'auteur et la licence — c'est le texte
+ * même du CC BY / CC BY-SA, pas une politesse. Les portraits d'artistes respectaient
+ * déjà cette règle (`lib/bios.ts`, affichée par `ArtistPage`) ; les photos
+ * d'événements, non — 66 fichiers Commons étaient publiés sans un mot d'attribution.
+ *
+ * La map est écrite par `.research/photos/ingest.py`, qui la remplit dès qu'une entrée
+ * pointe vers `upload.wikimedia.org`. **Ne pas l'éditer à la main** : elle est réécrite
+ * entre ses marqueurs à chaque ingestion, comme `PHOTOS`.
+ */
+export interface PhotoCredit {
+  /** Auteur, tel que Commons le nomme. */
+  author: string;
+  /** Libellé de licence, ex. « CC BY-SA 4.0 ». */
+  license: string;
+  /** Page de description du fichier — le lien de retour qu'exige l'attribution. */
+  page: string;
+}
+/* PHOTO_CREDITS:start */
+export const PHOTO_CREDITS: Record<number, PhotoCredit> = {};
+/* PHOTO_CREDITS:end */
+
+/** Le crédit à afficher sous la photo d'un événement, s'il y en a un à afficher. */
+export const photoCredit = (e: RaveEvent): PhotoCredit | null =>
+  (!IMAGES[e.id] && PHOTO_CREDITS[e.id]) || null;
+
 /** Full-resolution poster, host-relative for the files we serve ourselves — this is what
  *  an `<img>` on the page should load. Relative on purpose: an absolute URL would make a
  *  preview deploy fetch its own images from production and miss the local CDN cache. */
