@@ -2,7 +2,10 @@
   {
     "title": "Digitalism · Hiroshima Mon Amour",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Turin",
     "country": "Italy",
     "lat": 45.0285,
@@ -13,7 +16,9 @@
     "currency": "€",
     "venue": "Hiroshima Mon Amour",
     "trending": false,
-    "lineup": ["Digitalism"],
+    "lineup": [
+      "Digitalism"
+    ],
     "desc": "Le duo électro allemand Digitalism passe par l'Hiroshima Mon Amour, la salle historique du quartier Lingotto, dans le cadre de sa tournée Optimism. Set live avec les classiques electro-house du groupe (« Pogo », « Zdarlight ») et les titres du dernier album. Première date italienne d'une série qui enchaîne ensuite Rome, Madrid et Barcelone.",
     "descEn": "German electro duo Digitalism play Hiroshima Mon Amour, the long-standing venue in Turin's Lingotto district, on their Optimism tour. A live set mixing the band's electro-house classics (\"Pogo\", \"Zdarlight\") with newer material. The first Italian date of a run that continues to Rome, Madrid and Barcelona.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -25,7 +30,10 @@
   {
     "title": "Digitalism · Hacienda Roma",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Rome",
     "country": "Italy",
     "lat": 41.907,
@@ -36,7 +44,9 @@
     "currency": "€",
     "venue": "Hacienda",
     "trending": false,
-    "lineup": ["Digitalism"],
+    "lineup": [
+      "Digitalism"
+    ],
     "desc": "Digitalism installe son Optimism Tour à l'Hacienda, club romain à quelques centaines de mètres de la gare Tiburtina. Le duo de Hambourg y joue en format live, entre electro-house et rock synthétique. La salle enchaîne ensuite avec sa programmation clubbing habituelle jusqu'à l'aube.",
     "descEn": "Digitalism bring their Optimism Tour to Hacienda, the Rome club a few hundred metres from Tiburtina station. The Hamburg duo play a live set spanning electro-house and synth-driven rock, with the venue's usual club programming running through to dawn.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -48,7 +58,10 @@
   {
     "title": "Digitalism · Sala Wagon",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.4713,
@@ -59,7 +72,9 @@
     "currency": "€",
     "venue": "Sala Wagon",
     "trending": false,
-    "lineup": ["Digitalism"],
+    "lineup": [
+      "Digitalism"
+    ],
     "desc": "Étape madrilène de l'Optimism Tour de Digitalism, à la Sala Wagon (quartier de Chamartín). Le duo allemand y présente son live electro-house, deux décennies après « Idealism ». Soirée de veille de Toussaint, la salle prolonge en DJ set après le concert.",
     "descEn": "The Madrid stop of Digitalism's Optimism Tour, at Sala Wagon in the Chamartín district. The German duo bring their electro-house live show, two decades on from \"Idealism\", with a DJ set carrying the night on after the performance.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -70,7 +85,9 @@
   {
     "title": "Sunnery James & Ryan Marciano · Teatro Kapital",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.4098,
@@ -81,7 +98,9 @@
     "currency": "€",
     "venue": "Teatro Kapital",
     "trending": false,
-    "lineup": ["Sunnery James & Ryan Marciano"],
+    "lineup": [
+      "Sunnery James & Ryan Marciano"
+    ],
     "desc": "Le duo house néerlandais Sunnery James & Ryan Marciano prend les platines du Teatro Kapital, l'ancien théâtre de la calle Atocha reconverti en club sur sept étages. Set house et afro-house sur le dancefloor principal, le reste du bâtiment gardant sa programmation habituelle. Nuit de veille de Toussaint.",
     "descEn": "Dutch house duo Sunnery James & Ryan Marciano take over Teatro Kapital, the former Calle Atocha theatre turned seven-floor club. A house and afro-house set on the main floor while the rest of the building keeps its regular programming, on the eve of the All Saints holiday.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -93,7 +112,10 @@
   {
     "title": "Digitalism · La [2] de Apolo",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Barcelona",
     "country": "Spain",
     "lat": 41.3744,
@@ -104,7 +126,9 @@
     "currency": "€",
     "venue": "La [2] de Apolo",
     "trending": false,
-    "lineup": ["Digitalism"],
+    "lineup": [
+      "Digitalism"
+    ],
     "desc": "Digitalism clôt le volet ibérique de son Optimism Tour à La [2] de Apolo, la petite salle de la Sala Apolo, le soir d'Halloween. Format live, electro-house et basses saturées dans une salle de 400 places. La soirée se poursuit ensuite avec le club de l'Apolo.",
     "descEn": "Digitalism close the Iberian leg of their Optimism Tour at La [2] de Apolo, Sala Apolo's smaller room, on Halloween night. A live electro-house set with saturated bass in a 400-capacity space, followed by Apolo's regular club night.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -116,7 +140,12 @@
   {
     "title": "Horrorland Halloween Festival",
     "type": "Festival",
-    "genres": ["Techno", "Hardstyle", "Hardcore", "Psytrance"],
+    "genres": [
+      "Techno",
+      "Hardstyle",
+      "Hardcore",
+      "Psytrance"
+    ],
     "city": "Ferrara",
     "country": "Italy",
     "lat": 44.8133,
@@ -127,62 +156,49 @@
     "currency": "€",
     "venue": "Ferrara Fiere",
     "trending": true,
-    "lineup": [
-      "Len Faki",
-      "Pan-Pot",
-      "Sam Paganini",
-      "Victoria Engel",
-      "Tatanka",
-      "DJ AniMe",
-      "Liquid Soul",
-      "MRPHN"
-    ],
-    "desc": "La plus grosse nuit d'Halloween d'Italie : 25 000 m² couverts au parc des expositions de Ferrare, une dizaine de scènes et un parc d'attractions horrifique, de 20 h à 6 h. Le Hypnosis Gate concentre la techno avec Len Faki, Pan-Pot, Sam Paganini et l'Argentine Victoria Engel ; le Fabula Stage revient à la hardstyle avec Tatanka, l'Orbital Stage à la hardcore avec DJ AniMe, le Psychedelic Stage au psytrance avec Liquid Soul. Les autres scènes couvrent rap, dance et garage.",
-    "descEn": "Italy's biggest Halloween night: 25,000 covered square metres at the Ferrara exhibition centre, around ten stages and a horror funfair, running 8pm to 6am. The Hypnosis Gate handles techno with Len Faki, Pan-Pot, Sam Paganini and Argentina's Victoria Engel; the Fabula Stage goes hardstyle with Tatanka, the Orbital Stage hardcore with DJ AniMe and the Psychedelic Stage psytrance with Liquid Soul, while other stages cover rap, dance and garage.",
-    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "lineup": [],
+    "desc": "Le plus grand festival d'Halloween d'Europe investit le parc des expositions de Ferrare pour une nuit de dix heures, de 20h à 6h : une dizaine de scènes, un Horror Adrenalin Luna Park, des spectacles de magie et une zone maquillage et transformation. La programmation 2026 n'est pas encore publiée — l'organisateur n'a pas mis à jour sa page artistes depuis l'édition précédente.",
+    "descEn": "Europe's largest Halloween festival takes over Ferrara's exhibition park for a ten-hour night, 8pm to 6am: around ten stages, an Horror Adrenalin funfair, magic shows and a make-up and transformation area. The 2026 line-up has not been published yet — the organiser's artist page still carries the previous edition.",
+    "note": "tarif non communiqué, ne signifie pas gratuit | line-up 2025 retiré : la page /ospiti/ n'a pas été mise à jour",
     "ticketUrl": "https://horrorland.it/",
     "sources": [
       "https://horrorland.it/",
-      "https://horrorland.it/ospiti/",
       "https://www.ticketone.it/en/event/horrorland-halloween-festival-ferrara-fiere-e-congressi-21612699/"
     ]
   },
   {
     "title": "Fury Festival · Razzmatazz",
     "type": "Warehouse",
-    "genres": ["Hardcore", "Hard Techno", "Hardstyle"],
+    "genres": [
+      "Hardcore",
+      "Hard Techno",
+      "Hardstyle"
+    ],
     "city": "Barcelona",
     "country": "Spain",
     "lat": 41.3976,
     "lng": 2.1912,
     "date": "2026-11-01",
-    "time": "23:00 - 06:00",
-    "price": 0,
+    "time": "17:00",
+    "price": 21.45,
     "currency": "€",
     "venue": "Razzmatazz",
-    "trending": true,
-    "lineup": [
-      "Miss K8",
-      "Art of Fighters",
-      "Vortek's",
-      "Lady Dammage",
-      "Samuel Moriero",
-      "Revenja",
-      "Pinotello"
-    ],
-    "desc": "Deuxième édition du Fury Festival, qui réunit quatre collectifs de l'underground barcelonais — FURY, Mad House, KINYXX et Hardcore Maniaks — dans les cinq salles du Razzmatazz. Room 1 en hard techno avec Vortek's, Samuel Moriero et Revenja ; Room 2 confiée à Mad House pour le hardcore et la gabber, avec Miss K8, Art of Fighters et Lady Dammage. Nuit du 1er novembre, veille de jour férié.",
-    "descEn": "The second edition of Fury Festival brings four Barcelona underground crews — FURY, Mad House, KINYXX and Hardcore Maniaks — together across Razzmatazz's five rooms. Room 1 runs hard techno with Vortek's, Samuel Moriero and Revenja; Room 2 is handed to Mad House for hardcore and gabber with Miss K8, Art of Fighters and Lady Dammage. A November 1st night, on the eve of a public holiday.",
-    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "trending": false,
+    "lineup": [],
+    "desc": "Quatre marques de la scène dure barcelonaise — Fury, Mad House, Kinyxx et Hardcore Maniaks — réunies pour la première fois sous le même toit au Razzmatazz, sur quatre salles de hard techno et de hardcore. Ouverture des portes à 17h le dimanche de la Toussaint. La programmation sera dévoilée dans les mois qui viennent ; première release à 21,45 €.",
+    "descEn": "Four brands from Barcelona's hard scene — Fury, Mad House, Kinyxx and Hardcore Maniaks — under one roof at Razzmatazz for the first time, across four rooms of hard techno and hardcore. Doors at 5pm on the Sunday of All Saints. The line-up will be revealed in the coming months; first release at €21.45.",
+    "note": "tarif 1re release confirmé par la salle ; line-up non annoncé (la salle écrit « serán desvelados en los próximos meses »)",
     "sources": [
-      "https://es.ra.co/events/2377563",
-      "https://www.songkick.com/venues/35835-razzmatazz/calendar",
-      "https://festexplorers.com/festival/fury-hard-techno-festival/"
+      "https://www.salarazzmatazz.com/agenda/01-11-2026-fury4/"
     ]
   },
   {
     "title": "Max Cooper · La Riviera",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.413,
@@ -193,7 +209,9 @@
     "currency": "€",
     "venue": "La Riviera",
     "trending": false,
-    "lineup": ["Max Cooper"],
+    "lineup": [
+      "Max Cooper"
+    ],
     "desc": "Le Nord-Irlandais Max Cooper amène son spectacle audiovisuel à La Riviera, la salle des bords du Manzanares. Techno mélodique et électronique générative accompagnées d'une projection synchronisée conçue avec ses collaborateurs vidéo. Format concert assis-debout, une seule date à Madrid.",
     "descEn": "Northern Irish producer Max Cooper brings his audiovisual show to La Riviera, the venue on the banks of the Manzanares. Melodic techno and generative electronics paired with a synchronised projection built with his long-time visual collaborators. A single seated-standing concert date in Madrid.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -205,7 +223,9 @@
   {
     "title": "Andy Stott · Auditorium San Fedele",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Milan",
     "country": "Italy",
     "lat": 45.4664,
@@ -216,7 +236,9 @@
     "currency": "€",
     "venue": "Auditorium San Fedele",
     "trending": false,
-    "lineup": ["Andy Stott"],
+    "lineup": [
+      "Andy Stott"
+    ],
     "desc": "Le producteur de Manchester Andy Stott joue en live à l'Auditorium San Fedele, la salle du centre de Milan qui accueille chaque saison le cycle Innerspaces consacré aux musiques électroniques de recherche. Dub techno ralentie, textures saturées et voix traitées, dans une salle pensée pour l'écoute. Concert assis, une seule date italienne.",
     "descEn": "Manchester producer Andy Stott plays live at Auditorium San Fedele, the central Milan hall that hosts the Innerspaces series devoted to experimental electronic music each season. Slowed dub techno, saturated textures and processed vocals in a room built for listening. A seated concert and his only Italian date.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -227,7 +249,10 @@
   {
     "title": "Christian Löffler · Teatre Coliseum",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Barcelona",
     "country": "Spain",
     "lat": 41.3883,
@@ -238,7 +263,10 @@
     "currency": "€",
     "venue": "Teatre Coliseum",
     "trending": false,
-    "lineup": ["Christian Löffler", "Adna"],
+    "lineup": [
+      "Christian Löffler",
+      "Adna"
+    ],
     "desc": "Christian Löffler porte son live band au Teatre Coliseum, sur la Gran Via. House mélancolique et électronique organique du producteur allemand, avec la Suédoise Adna en première partie. Concert assis dans une salle de théâtre de 1 600 places.",
     "descEn": "Christian Löffler brings his live band to Teatre Coliseum on Gran Via. Melancholic house and organic electronics from the German producer, with Sweden's Adna opening. A seated concert in a 1,600-capacity theatre.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -249,7 +277,9 @@
   {
     "title": "Trinix · Razzmatazz",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Barcelona",
     "country": "Spain",
     "lat": 41.3976,
@@ -260,7 +290,9 @@
     "currency": "€",
     "venue": "Razzmatazz 2",
     "trending": false,
-    "lineup": ["Trinix"],
+    "lineup": [
+      "Trinix"
+    ],
     "desc": "Le duo français Trinix joue dans la salle Razzmatazz 2, à Poblenou. House et edits pop-électro, format live avec claviers et machines. Concert en semaine, la salle bascule ensuite sur sa programmation club.",
     "descEn": "French duo Trinix play Razzmatazz 2 in Poblenou. House and pop-electro edits in a live format with keys and machines, on a weeknight, before the venue switches to its regular club programming.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -271,7 +303,10 @@
   {
     "title": "Christian Löffler · Centro Cultural de Belém",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Lisbon",
     "country": "Portugal",
     "lat": 38.6953,
@@ -282,7 +317,10 @@
     "currency": "€",
     "venue": "Centro Cultural de Belém",
     "trending": false,
-    "lineup": ["Christian Löffler", "Adna"],
+    "lineup": [
+      "Christian Löffler",
+      "Adna"
+    ],
     "desc": "Christian Löffler joue au Centro Cultural de Belém, le grand équipement culturel du bord du Tage, avec Adna en ouverture. House mélodique jouée en formation live, entre piano, voix traitées et rythmiques feutrées. Étape lisboète d'une tournée européenne qui passe aussi par Barcelone.",
     "descEn": "Christian Löffler plays Centro Cultural de Belém, the large arts complex on the Tagus waterfront, with Adna opening. Melodic house performed live, built on piano, processed vocals and muted rhythms. The Lisbon stop of a European tour that also passes through Barcelona.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -294,7 +332,9 @@
   {
     "title": "Pole & Luigi Tozzi · Auditorium San Fedele",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Milan",
     "country": "Italy",
     "lat": 45.4664,
@@ -305,7 +345,10 @@
     "currency": "€",
     "venue": "Auditorium San Fedele",
     "trending": false,
-    "lineup": ["Pole", "Luigi Tozzi"],
+    "lineup": [
+      "Pole",
+      "Luigi Tozzi"
+    ],
     "desc": "Double plateau dub techno à l'Auditorium San Fedele : le Berlinois Pole, pionnier du genre sur ~scape et Kiff SM, partage la soirée avec l'Italien Luigi Tozzi, figure de la techno hypnotique romaine. Deux lives dans le cycle Innerspaces, en salle d'écoute. Concert assis.",
     "descEn": "A dub techno double bill at Auditorium San Fedele: Berlin's Pole, a founding figure of the genre through ~scape and Kiff SM, shares the night with Italy's Luigi Tozzi, a key name in Rome's hypnotic techno. Two live sets in the Innerspaces series, in a seated listening room.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -316,7 +359,10 @@
   {
     "title": "Jonas Blue · Las Ventas",
     "type": "Club",
-    "genres": ["House", "EDM"],
+    "genres": [
+      "House",
+      "EDM"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.4323,
@@ -327,7 +373,9 @@
     "currency": "€",
     "venue": "Live Las Ventas",
     "trending": false,
-    "lineup": ["Jonas Blue"],
+    "lineup": [
+      "Jonas Blue"
+    ],
     "desc": "Le producteur britannique Jonas Blue joue à Live Las Ventas, l'espace événementiel installé dans les arènes de Madrid. Set house et dance grand public, entre reprises tropicales et productions récentes. Date unique à Madrid, en plein mois de décembre.",
     "descEn": "British producer Jonas Blue plays Live Las Ventas, the events space inside Madrid's bullring. A mainstream house and dance set spanning his tropical covers and newer productions, on a single December date in Madrid.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -338,7 +386,11 @@
   {
     "title": "Nameless Winter",
     "type": "Festival",
-    "genres": ["EDM", "Techno", "House"],
+    "genres": [
+      "EDM",
+      "Techno",
+      "House"
+    ],
     "city": "Barzio",
     "country": "Italy",
     "lat": 45.9461,
@@ -349,7 +401,7 @@
     "price": 59,
     "currency": "€",
     "venue": "Barzio, Valsassina",
-    "trending": true,
+    "trending": false,
     "lineup": [],
     "desc": "L'édition hivernale du Nameless Festival revient à Barzio, dans la Valsassina au-dessus de Lecco, où le festival est né entre 2015 et 2019. Deux jours de scènes électroniques en montagne, sur la neige, avec pass 2 jours à partir de 59 € en Super Early Bird (199 € en VIP). Programmation non encore annoncée à ce stade.",
     "descEn": "The winter edition of Nameless Festival returns to Barzio, in the Valsassina above Lecco, where the festival grew up between 2015 and 2019. Two days of electronic stages in the mountains on the snow, with two-day passes from €59 Super Early Bird (€199 VIP). The line-up has not been announced yet.",
@@ -362,7 +414,10 @@
   {
     "title": "NTO · Sala But",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.427,
@@ -373,7 +428,9 @@
     "currency": "€",
     "venue": "Sala But",
     "trending": false,
-    "lineup": ["NTO"],
+    "lineup": [
+      "NTO"
+    ],
     "desc": "Le producteur français NTO joue à la Sala But, calle Barceló, la veille de sa date barcelonaise au Razzmatazz. Techno mélodique et piano, en live avec la scénographie lumineuse qui accompagne sa tournée. Une seule date à Madrid.",
     "descEn": "French producer NTO plays Sala But on Calle Barceló, the night before his Barcelona date at Razzmatazz. Melodic techno and piano performed live with the lighting design that travels with his tour. A single Madrid date.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -382,9 +439,64 @@
     ]
   },
   {
+    "title": "Happy Techno · La Terrrazza",
+    "type": "Open Air",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3696,
+    "lng": 2.1468,
+    "date": "2026-10-17",
+    "time": "19:00 - 01:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "La Terrrazza",
+    "trending": false,
+    "lineup": [],
+    "desc": "Édition d'automne de Happy Techno sur la terrasse en plein air du Poble Espanyol, à flanc de Montjuïc. Format daytime prolongé en soirée, sous les arbres de La Terrrazza, une des dernières dates open air de la saison barcelonaise. Programmation détaillée non encore publiée.",
+    "descEn": "The autumn edition of Happy Techno on the open-air terrace of Poble Espanyol, on the Montjuïc hillside. A daytime format running into the evening under La Terrrazza's trees, one of the last open-air dates of Barcelona's season. The detailed line-up has not been published yet.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/barcelona/events"
+    ]
+  },
+  {
+    "title": "Héctor Oaks · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0749,
+    "lng": 7.6985,
+    "date": "2026-10-17",
+    "time": "23:00 - 05:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Héctor Oaks"
+    ],
+    "desc": "L'Espagnol Héctor Oaks, patron des labels Oaks et Kaos et résident du Bassiani, joue au Q35 Warehouse, l'entrepôt de Lungo Dora Firenze équipé d'un système L-Acoustics K3. Techno hardgroove jouée en vinyle, à 10 € l'entrée. Ouverture de la saison hivernale du club.",
+    "descEn": "Spain's Héctor Oaks — head of the Oaks and Kaos labels and a Bassiani resident — plays Q35 Warehouse, the Lungo Dora Firenze warehouse fitted with an L-Acoustics K3 rig. Hardgroove techno played on vinyl, €10 on the door, opening the club's winter season.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/torino/events",
+      "https://it.ra.co/clubs/150338"
+    ]
+  },
+  {
     "title": "Kolter · Input Barcelona",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Barcelona",
     "country": "Spain",
     "lat": 41.3696,
@@ -395,16 +507,22 @@
     "currency": "€",
     "venue": "Input High Fidelity Dance Club",
     "trending": false,
-    "lineup": ["Kolter"],
+    "lineup": [
+      "Kolter"
+    ],
     "desc": "L'Allemand Kolter tient la nuit à l'Input, le club techno du Poble Espanyol équipé en Funktion-One et écrans LED à 360°. Set long, breakbeat et techno rapide, de minuit à six heures du matin. Une des rares dates d'octobre déjà annoncées par le club.",
     "descEn": "Germany's Kolter takes the night at Input, the techno club inside Poble Espanyol with its Funktion-One rig and 360-degree LED screens. A long set of breakbeat and fast techno, running midnight to 6am — one of the few October dates the club has already announced.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://inputbcn.com/events"]
+    "sources": [
+      "https://inputbcn.com/events"
+    ]
   },
   {
     "title": "Autechre · Alcatraz Milano",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Milan",
     "country": "Italy",
     "lat": 45.4945,
@@ -415,16 +533,22 @@
     "currency": "€",
     "venue": "Alcatraz Milano",
     "trending": false,
-    "lineup": ["Autechre"],
+    "lineup": [
+      "Autechre"
+    ],
     "desc": "Autechre joue à l'Alcatraz, la grande salle du quartier Isola, dans le cadre de la tournée européenne du duo de Sheffield. Live intégralement improvisé, joué dans le noir complet comme le veut leur protocole depuis vingt ans. Étape milanaise d'un parcours qui passe aussi par Bologne, Zagreb, Athènes et Ljubljana.",
     "descEn": "Autechre play Alcatraz, the large room in Milan's Isola district, on the Sheffield duo's European tour. A fully improvised live set performed in total darkness, as their shows have been for twenty years. The Milan stop on a run that also takes in Bologna, Zagreb, Athens and Ljubljana.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://www.songkick.com/metro-areas/30338-italy-milan/genre/electronic"]
+    "sources": [
+      "https://www.songkick.com/metro-areas/30338-italy-milan/genre/electronic"
+    ]
   },
   {
     "title": "Jackies House Music Festival Lisboa",
     "type": "Festival",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Lisbon",
     "country": "Portugal",
     "lat": 38.729,
@@ -434,8 +558,12 @@
     "price": 36,
     "currency": "€",
     "venue": "Pavilhão Carlos Lopes",
-    "trending": true,
-    "lineup": ["Chris Stussy", "Desiree", "PIEM"],
+    "trending": false,
+    "lineup": [
+      "Chris Stussy",
+      "Desiree",
+      "PIEM"
+    ],
     "desc": "La marque house barcelonaise Jackies monte le premier festival portugais entièrement consacré à la house, au Pavilhão Carlos Lopes, en plein Parc Eduardo VII. Huit heures de programmation, de 20 h à 4 h, menées par le Néerlandais Chris Stussy, la Sud-Africaine Desiree (afro house) et le résident Jackies PIEM. D'autres noms restent à annoncer.",
     "descEn": "Barcelona house brand Jackies stages Portugal's first festival devoted entirely to house music, at Pavilhão Carlos Lopes in the middle of Parque Eduardo VII. Eight hours from 8pm to 4am led by Dutch producer Chris Stussy, South Africa's Desiree on afro house and Jackies resident PIEM, with more names still to be announced.",
     "note": "tarif indicatif",
@@ -449,7 +577,9 @@
   {
     "title": "Cassius · Duel Club",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Naples",
     "country": "Italy",
     "lat": 40.8282,
@@ -460,16 +590,22 @@
     "currency": "€",
     "venue": "Duel Club",
     "trending": false,
-    "lineup": ["Cassius"],
+    "lineup": [
+      "Cassius"
+    ],
     "desc": "Cassius au Duel Club, la salle de Pozzuoli sur les Champs Phlégréens, à l'ouest de Naples. French touch et house filtrée, dans une des rares dates électroniques annoncées à Naples cet automne. Ouverture des portes en soirée, la nuit se prolonge en club.",
     "descEn": "Cassius at Duel Club, the venue in Pozzuoli on the Phlegraean Fields west of Naples. French touch and filtered house, in one of the few electronic dates announced in Naples this autumn, with the night carrying on as a club session.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://www.songkick.com/metro-areas/30345-italy-naples/genre/electronic"]
+    "sources": [
+      "https://www.songkick.com/metro-areas/30345-italy-naples/genre/electronic"
+    ]
   },
   {
     "title": "Stereo MCs · Kino Šiška",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Ljubljana",
     "country": "Slovenia",
     "lat": 46.0689,
@@ -480,16 +616,130 @@
     "currency": "€",
     "venue": "Kino Šiška",
     "trending": false,
-    "lineup": ["Stereo MCs"],
+    "lineup": [
+      "Stereo MCs"
+    ],
     "desc": "Les Britanniques Stereo MCs jouent au Kino Šiška, l'ancien cinéma de Ljubljana converti en centre de culture urbaine. Set live entre house, breakbeat et hip-hop, vingt-cinq ans après « Connected ». Une des rares dates électroniques slovènes annoncées pour l'automne.",
     "descEn": "Britain's Stereo MCs play Kino Šiška, the former Ljubljana cinema turned centre for urban culture. A live set spanning house, breakbeat and hip-hop, twenty-five years on from \"Connected\", and one of the few Slovenian electronic dates announced for the autumn.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic"]
+    "sources": [
+      "https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic"
+    ]
+  },
+  {
+    "title": "Nikolina & Kntrlvrlst · Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.4944,
+    "lng": 9.1819,
+    "date": "2026-10-16",
+    "time": "23:00 - 05:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Nikolina",
+      "Kntrlvrlst"
+    ],
+    "desc": "Nuit techno au Gate, l'ancien hangar de la Via Valtellina transformé en club sur deux niveaux (575 places, Funktion-One et d&b). Nikolina et Kntrlvrlst partagent l'affiche, entre techno rapide et hardgroove. Entrée à partir de 15 €.",
+    "descEn": "A techno night at Gate, the former Via Valtellina hangar turned two-floor club (575 capacity, Funktion-One and d&b rigs). Nikolina and Kntrlvrlst share the bill across fast techno and hardgroove, with entry from €15.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/milano/events",
+      "https://www.gatemilano.it/en"
+    ]
+  },
+  {
+    "title": "Ueberrest & In Verruf · Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.4944,
+    "lng": 9.1819,
+    "date": "2026-10-23",
+    "time": "23:00 - 05:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Ueberrest",
+      "In Verruf"
+    ],
+    "desc": "Le duo allemand Ueberrest et In Verruf tiennent la nuit au Gate Milano. Hard techno et trance mutante à haut BPM, dans une salle de 600 m² pensée pour le volume. Même tandem qu'à l'Input Barcelona en août, cette fois sur une nuit complète.",
+    "descEn": "German duo Ueberrest and In Verruf take the night at Gate Milano. High-BPM hard techno and mutant trance in a 600 m² room built for volume — the same pairing that played Input Barcelona in August, here across a full night.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/milano/events"
+    ]
+  },
+  {
+    "title": "PRTY · Samuel Moriero · Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Hard Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.4944,
+    "lng": 9.1819,
+    "date": "2026-11-06",
+    "time": "23:00 - 05:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Samuel Moriero"
+    ],
+    "desc": "Le collectif PRTY invite l'Italien Samuel Moriero au Gate Milano. Hard techno et hardgroove sur le système Funktion-One du club de la Via Valtellina, de 23 h à l'aube. Entrée à partir de 15 €.",
+    "descEn": "The PRTY crew invite Italy's Samuel Moriero to Gate Milano. Hard techno and hardgroove on the Via Valtellina club's Funktion-One rig, from 11pm to dawn, with entry from €15.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/milano/events"
+    ]
+  },
+  {
+    "title": "Basic Club · NEUHM 15 ans",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Naples",
+    "country": "Italy",
+    "lat": 40.8537,
+    "lng": 14.3647,
+    "date": "2026-11-07",
+    "time": "22:00 - 05:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Basic Club",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le collectif napolitain NEUHM fête ses quinze ans au Basic Club, à Cercola, dans la banlieue est de Naples. Nuit techno complète pour l'anniversaire d'un des plus anciens crews électroniques de Campanie. Line-up détaillé encore à annoncer.",
+    "descEn": "Naples crew NEUHM mark fifteen years at Basic Club in Cercola, on the eastern edge of the city. A full techno night for the anniversary of one of Campania's longest-running electronic collectives, with the detailed line-up still to be announced.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/napoli/events"
+    ]
   },
   {
     "title": "Max Cooper · Hard Club",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Porto",
     "country": "Portugal",
     "lat": 41.142,
@@ -500,7 +750,9 @@
     "currency": "€",
     "venue": "Hard Club",
     "trending": false,
-    "lineup": ["Max Cooper"],
+    "lineup": [
+      "Max Cooper"
+    ],
     "desc": "Max Cooper installe son live audiovisuel au Hard Club, salle installée dans le Mercado Ferreira Borges, en bas de Porto près de la Ribeira. Techno mélodique et visuels génératifs synchronisés, la veille de sa date lisboète du même mois. Une seule date à Porto.",
     "descEn": "Max Cooper brings his audiovisual live show to Hard Club, the venue housed in the Mercado Ferreira Borges near Porto's Ribeira. Melodic techno with synchronised generative visuals, days before his Lisbon date the same month. A single Porto show.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -512,7 +764,10 @@
   {
     "title": "Curses! · Sala Nazca",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Madrid",
     "country": "Spain",
     "lat": 40.4514,
@@ -523,16 +778,182 @@
     "currency": "€",
     "venue": "Sala Nazca",
     "trending": false,
-    "lineup": ["Curses!"],
+    "lineup": [
+      "Curses!"
+    ],
     "desc": "L'Américain installé à Berlin Curses! joue à la Sala Nazca, calle Orense. Dark disco, EBM et techno mid-tempo, avec chant et machines en live. Soirée de vendredi dans une salle du nord de Madrid habituée aux musiques sombres.",
     "descEn": "Berlin-based American producer Curses! plays Sala Nazca on Calle Orense. Dark disco, EBM and mid-tempo techno with live vocals and machines, on a Friday night in a northern Madrid venue known for darker sounds.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://www.songkick.com/metro-areas/28755-spain-madrid/genre/electronic"]
+    "sources": [
+      "https://www.songkick.com/metro-areas/28755-spain-madrid/genre/electronic"
+    ]
+  },
+  {
+    "title": "Funk Tribu · Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Hard Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.4944,
+    "lng": 9.1819,
+    "date": "2026-11-13",
+    "time": "23:00 - 05:00",
+    "price": 18,
+    "currency": "€",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Funk Tribu"
+    ],
+    "desc": "Funk Tribu, figure de la scène hard groove argentine installée en Europe, joue au Gate Milano. Kicks saturés et rythmiques tribales à 150 BPM, dans l'ancien hangar de la Via Valtellina. Entrée à partir de 18 €.",
+    "descEn": "Funk Tribu, a leading name in the Europe-based Argentine hard groove scene, plays Gate Milano. Saturated kicks and tribal rhythms around 150 BPM inside the old Via Valtellina hangar, with entry from €18.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/milano/events"
+    ]
+  },
+  {
+    "title": "Maribou State · Hacienda Roma",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.907,
+    "lng": 12.545,
+    "date": "2026-11-13",
+    "time": "22:00 - 04:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Hacienda",
+    "trending": false,
+    "lineup": [
+      "Maribou State"
+    ],
+    "desc": "Le duo britannique Maribou State joue à l'Hacienda, près de la gare Tiburtina. House organique et downtempo, entre instruments live et machines, à partir de 22 h. Entrée à partir de 15 €.",
+    "descEn": "British duo Maribou State play Hacienda, near Tiburtina station. Organic house and downtempo built from live instruments and machines, from 10pm, with entry from €15.",
+    "note": "tarif indicatif",
+    "ticketUrl": "https://xceed.me/en/roma/events",
+    "sources": [
+      "https://xceed.me/en/roma/events"
+    ]
+  },
+  {
+    "title": "Gabber Eleganza · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0749,
+    "lng": 7.6985,
+    "date": "2026-11-14",
+    "time": "23:00 - 05:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Gabber Eleganza"
+    ],
+    "desc": "Gabber Eleganza (Never Sleep) tient un all night long au Q35 Warehouse de Turin. Relecture de l'héritage gabber et hardcore italien des années 90, entre archives, hardcore contemporain et techno rapide, sur le K3 du club. Entrée à 10 €.",
+    "descEn": "Gabber Eleganza (Never Sleep) plays an all-night-long set at Turin's Q35 Warehouse. A reading of Italy's 1990s gabber and hardcore legacy through archive material, contemporary hardcore and fast techno on the club's K3 rig. €10 entry.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/torino/events"
+    ]
+  },
+  {
+    "title": "EDEN · Nicole Moudaber & Grace Dahl",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Athens",
+    "country": "Greece",
+    "lat": 37.9735,
+    "lng": 23.7434,
+    "date": "2026-11-22",
+    "time": "17:30 - 23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Athens Conservatoire",
+    "trending": false,
+    "lineup": [
+      "Nicole Moudaber",
+      "Grace Dahl"
+    ],
+    "desc": "La série EDEN investit l'Odéon d'Athènes, le conservatoire moderniste de la rue Rigillis, pour une soirée techno en format day-to-night. Nicole Moudaber et l'Allemande Grace Dahl y jouent à partir de 17 h 30, dans un bâtiment inhabituel pour ce type d'événement.",
+    "descEn": "The EDEN series takes over the Athens Conservatoire, the modernist building on Rigillis Street, for a day-to-night techno event. Nicole Moudaber and Germany's Grace Dahl play from 5.30pm in a venue rarely used for this kind of night.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://allevents.in/athens/raves"
+    ]
+  },
+  {
+    "title": "OUTWORLD · Klangkuenstler",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Porto",
+    "country": "Portugal",
+    "lat": 41.1468,
+    "lng": -8.6259,
+    "date": "2026-11-28",
+    "time": "22:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Super Bock Arena - Pavilhão Rosa Mota",
+    "trending": false,
+    "lineup": [
+      "Klangkuenstler"
+    ],
+    "desc": "La marque OUTWORLD confie toute une nuit au Berlinois Klangkuenstler, en all night long, sous la coupole du Pavilhão Rosa Mota (Super Bock Arena), dans les Jardins du Palais de Cristal. Hard techno et trance accélérée dans une salle de 8 000 places. Billetterie déjà épuisée.",
+    "descEn": "The OUTWORLD brand hands a full night to Berlin's Klangkuenstler, playing all night long under the dome of Pavilhão Rosa Mota (Super Bock Arena) in the Palácio de Cristal gardens. Hard techno and accelerated trance in an 8,000-capacity room — already sold out.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://xceed.me/en/porto/events"
+    ]
+  },
+  {
+    "title": "INVADERS · Trip to Japan",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.4106,
+    "lng": -0.3352,
+    "date": "2026-11-28",
+    "time": "20:00 - 06:00",
+    "price": 25,
+    "currency": "€",
+    "venue": "Spook Club",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le collectif INVADERS monte une édition « Trip to Japan » au Spook, le club historique de Pinedo au sud de Valence. Nuit techno complète avec scénographie dédiée, entrée à partir de 25 €. Programmation encore à annoncer.",
+    "descEn": "The INVADERS crew stage a \"Trip to Japan\" edition at Spook, the long-standing club in Pinedo south of Valencia. A full techno night with dedicated staging, entry from €25, line-up still to be announced.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/valencia/events"
+    ]
   },
   {
     "title": "Christian Löffler · Casa da Música",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Porto",
     "country": "Portugal",
     "lat": 41.1589,
@@ -543,16 +964,162 @@
     "currency": "€",
     "venue": "Casa da Música",
     "trending": false,
-    "lineup": ["Christian Löffler", "Adna"],
+    "lineup": [
+      "Christian Löffler",
+      "Adna"
+    ],
     "desc": "Christian Löffler ouvre sa tournée ibérique à la Casa da Música, le bâtiment de Rem Koolhaas sur la Boavista. House mélodique jouée en live band, avec la Suédoise Adna en première partie. La tournée enchaîne ensuite Barcelone et Lisbonne.",
     "descEn": "Christian Löffler opens his Iberian tour at Casa da Música, Rem Koolhaas's building on Boavista. Melodic house performed as a live band, with Sweden's Adna opening. The tour then moves on to Barcelona and Lisbon.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
-    "sources": ["https://www.songkick.com/metro-areas/31805-portugal-porto/genre/electronic"]
+    "sources": [
+      "https://www.songkick.com/metro-areas/31805-portugal-porto/genre/electronic"
+    ]
+  },
+  {
+    "title": "Techniques · Charlotte de Witte à Athènes",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Athens",
+    "country": "Greece",
+    "lat": 38.0379,
+    "lng": 23.7848,
+    "date": "2026-12-05",
+    "time": "23:00 - 08:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Telekom Center Athens",
+    "trending": true,
+    "lineup": [
+      "Charlotte de Witte"
+    ],
+    "desc": "Techniques revient au Telekom Center Athens, la salle indoor du complexe olympique de Marousi, avec Charlotte de Witte en tête d'affiche. Neuf heures de techno, de 23 h à 8 h du matin, avec la production son et lumière que la série met en avant depuis ses débuts. La plus grosse date techno indoor annoncée en Grèce pour l'hiver.",
+    "descEn": "Techniques returns to Telekom Center Athens, the indoor arena in the Marousi Olympic complex, with Charlotte de Witte headlining. Nine hours of techno from 11pm to 8am, with the sound and lighting production the series is built around — the largest indoor techno date announced in Greece for the winter.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://allevents.in/athens/raves",
+      "https://www.athens24.gr/agenda/techniques-2026-charlotte-de-witte-stin-athina.html"
+    ]
+  },
+  {
+    "title": "Ellen Allien · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0749,
+    "lng": 7.6985,
+    "date": "2026-12-12",
+    "time": "23:00 - 05:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Ellen Allien",
+      "Madwoman"
+    ],
+    "desc": "Ellen Allien, patronne du label berlinois BPitch Control, joue au Q35 Warehouse de Turin avec la Suédoise Madwoman, également signée sur BPitch. Techno, électro et breaks sur le système L-Acoustics K3 de l'entrepôt de Lungo Dora Firenze. Entrée à 10 €.",
+    "descEn": "Ellen Allien, head of Berlin label BPitch Control, plays Turin's Q35 Warehouse alongside Sweden's Madwoman, also on BPitch. Techno, electro and breaks on the Lungo Dora Firenze warehouse's L-Acoustics K3 rig. €10 entry.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/torino/events"
+    ]
+  },
+  {
+    "title": "INVADERS · Ogalla All Night Long",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.4106,
+    "lng": -0.3352,
+    "date": "2026-12-18",
+    "time": "23:00 - 07:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "Spook Club",
+    "trending": false,
+    "lineup": [
+      "Ogalla"
+    ],
+    "desc": "INVADERS confie toute la nuit à l'Espagnol Ogalla, en all night long, au Spook Club de Pinedo. Un seul DJ de 23 h à 7 h, format qui laisse le temps de dérouler un set complet. Entrée à partir de 20 €.",
+    "descEn": "INVADERS hand the whole night to Spain's Ogalla, all night long, at Spook Club in Pinedo. A single DJ from 11pm to 7am — a format that leaves room for a full arc. Entry from €20.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/valencia/events"
+    ]
+  },
+  {
+    "title": "Blawan & Setaoc Mass · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0749,
+    "lng": 7.6985,
+    "date": "2027-01-09",
+    "time": "23:00 - 05:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Blawan",
+      "Setaoc Mass",
+      "The Lady Machine",
+      "Roll Dann"
+    ],
+    "desc": "Le club Laster invite Blawan et Setaoc Mass au Q35 Warehouse, avec The Lady Machine et Roll Dann en soutien. Quatre artistes pour une nuit de techno brute et de modulaire, dans l'entrepôt du Lungo Dora Firenze. Entrée à 10 €.",
+    "descEn": "Laster Club bring Blawan and Setaoc Mass to Q35 Warehouse, with The Lady Machine and Roll Dann in support. Four artists across a night of raw techno and modular hardware in the Lungo Dora Firenze warehouse. €10 entry.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/torino/events"
+    ]
+  },
+  {
+    "title": "Alarico · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.0749,
+    "lng": 7.6985,
+    "date": "2027-01-23",
+    "time": "23:00 - 05:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Alarico"
+    ],
+    "desc": "Première italienne du all night long d'Alarico (Flirt, Mutual Rytm, Key Vinyl) au Q35 Warehouse. Le Romain y déroule seul toute la nuit, entre techno rapide, breaks et hardgroove. Entrée à 10 €.",
+    "descEn": "The Italian premiere of Alarico's all-night-long set (Flirt, Mutual Rytm, Key Vinyl) at Q35 Warehouse. The Rome producer plays alone across the night, moving between fast techno, breaks and hardgroove. €10 entry.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/torino/events"
+    ]
   },
   {
     "title": "Gabry Ponte · Unipol Arena",
     "type": "Club",
-    "genres": ["EDM", "House"],
+    "genres": [
+      "EDM",
+      "House"
+    ],
     "city": "Bologna",
     "country": "Italy",
     "lat": 44.486,
@@ -562,8 +1129,10 @@
     "price": 0,
     "currency": "€",
     "venue": "Unipol Arena",
-    "trending": true,
-    "lineup": ["Gabry Ponte"],
+    "trending": false,
+    "lineup": [
+      "Gabry Ponte"
+    ],
     "desc": "Coup d'envoi de « CIRCOTRON – The Dance Show », la première tournée de Gabry Ponte dans les palais des sports italiens, à l'Unipol Arena de Casalecchio di Reno. Le DJ turinois y croise son set dance avec un cirque futuriste, acrobates et performeurs sur scène. Trois autres dates suivent à Turin, Rome et Milan.",
     "descEn": "The opening night of \"CIRCOTRON – The Dance Show\", Gabry Ponte's first arena tour, at Unipol Arena in Casalecchio di Reno. The Turin DJ crosses his dance set with a futuristic circus of acrobats and performers, before three further dates in Turin, Rome and Milan.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -575,7 +1144,10 @@
   {
     "title": "Gabry Ponte · Inalpi Arena",
     "type": "Club",
-    "genres": ["EDM", "House"],
+    "genres": [
+      "EDM",
+      "House"
+    ],
     "city": "Turin",
     "country": "Italy",
     "lat": 45.0417,
@@ -586,7 +1158,9 @@
     "currency": "€",
     "venue": "Inalpi Arena",
     "trending": false,
-    "lineup": ["Gabry Ponte"],
+    "lineup": [
+      "Gabry Ponte"
+    ],
     "desc": "Deuxième date de « CIRCOTRON – The Dance Show » à l'Inalpi Arena, l'ancien Palasport Olimpico, dans la ville natale de Gabry Ponte. DJ set dance et eurodance mis en scène comme un cirque contemporain, avec acrobates et scénographie mobile.",
     "descEn": "The second date of \"CIRCOTRON – The Dance Show\" at Inalpi Arena, the former Palasport Olimpico, in Gabry Ponte's home city. A dance and eurodance DJ set staged as a contemporary circus, with acrobats and moving set design.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -598,7 +1172,10 @@
   {
     "title": "Gabry Ponte · Palazzo dello Sport",
     "type": "Club",
-    "genres": ["EDM", "House"],
+    "genres": [
+      "EDM",
+      "House"
+    ],
     "city": "Rome",
     "country": "Italy",
     "lat": 41.8253,
@@ -609,7 +1186,9 @@
     "currency": "€",
     "venue": "Palazzo dello Sport",
     "trending": false,
-    "lineup": ["Gabry Ponte"],
+    "lineup": [
+      "Gabry Ponte"
+    ],
     "desc": "Étape romaine de « CIRCOTRON – The Dance Show », au Palazzo dello Sport de l'EUR. Set dance de Gabry Ponte enrichi d'un dispositif de cirque futuriste — acrobates, machinerie et écrans — dans une salle de 11 000 places.",
     "descEn": "The Rome stop of \"CIRCOTRON – The Dance Show\", at the Palazzo dello Sport in EUR. Gabry Ponte's dance set wrapped in a futuristic circus production of acrobats, rigging and screens, in an 11,000-capacity arena.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
@@ -619,9 +1198,40 @@
     ]
   },
   {
+    "title": "Neopop Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Hard Techno",
+      "House"
+    ],
+    "city": "Viana do Castelo",
+    "country": "Portugal",
+    "lat": 41.6891,
+    "lng": -8.8382,
+    "date": "2027-08-05",
+    "time": "19:00 - 06:00",
+    "price": 95,
+    "currency": "€",
+    "venue": "Forte de Santiago da Barra",
+    "trending": false,
+    "lineup": [],
+    "desc": "L'édition 2027 du Neopop, le plus grand festival de musique électronique du Portugal, revient au Forte de Santiago da Barra, la forteresse du XVIe siècle en bord d'estuaire à Viana do Castelo. Les pass sont déjà en vente à partir de 95 €, un an à l'avance ; la programmation reste à annoncer. Ouverture le jeudi 5 août.",
+    "descEn": "The 2027 edition of Neopop, Portugal's largest electronic music festival, returns to Forte de Santiago da Barra, the 16th-century fort on the estuary in Viana do Castelo. Passes are already on sale from €95, a year ahead; the line-up is still to be announced. Doors open on Thursday 5 August.",
+    "note": "tarif indicatif",
+    "sources": [
+      "https://xceed.me/en/porto/events",
+      "https://neopopfestival.com/"
+    ]
+  },
+  {
     "title": "Zrce Spring Break",
     "type": "Festival",
-    "genres": ["Techno", "House", "EDM"],
+    "genres": [
+      "Techno",
+      "House",
+      "EDM"
+    ],
     "city": "Novalja",
     "country": "Croatia",
     "lat": 44.5392,

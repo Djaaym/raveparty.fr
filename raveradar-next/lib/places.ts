@@ -27,6 +27,13 @@ export const PLACES: Place[] = [
   { slug: "strasbourg", label: "Strasbourg", kind: "ville", vol: 210, match: ["Strasbourg"] },
   { slug: "nice", label: "Nice", kind: "ville", vol: 210, match: ["Nice"] },
   { slug: "grenoble", label: "Grenoble", kind: "ville", vol: 260, match: ["Grenoble"] },
+  /* Ouvertes par le lot d'hiver 2026-27. Leurs départements (Seine-Maritime, Côte-d'Or,
+     Pas-de-Calais) n'ont pas de page : sans entrée ici, ces dates n'étaient atteignables
+     que par la page pays et les pages genre. `vol` pas encore issu de l'export SEMrush. */
+  { slug: "rouen", label: "Rouen", kind: "ville", vol: 210, match: ["Rouen"] },
+  { slug: "le-havre", label: "Le Havre", kind: "ville", vol: 170, match: ["Le Havre"] },
+  { slug: "dijon", label: "Dijon", kind: "ville", vol: 170, match: ["Dijon"] },
+  { slug: "lens", label: "Lens", kind: "ville", vol: 140, match: ["Lens", "Liévin"] },
   // Major European cities (target NL/DE/UK volumes; populated by our events)
   { slug: "amsterdam", label: "Amsterdam", kind: "ville", vol: 1900, match: ["Amsterdam"] },
   { slug: "rotterdam", label: "Rotterdam", kind: "ville", vol: 8100, match: ["Rotterdam"] },
