@@ -21,4 +21,8 @@
  */
 export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; slug: string }> = {
   "the-warehouse-project": { base: "festival", slug: "the-warehouse-project-ki-ki" },
+  // « Tiësto » décrivait la date du 01/10 à la MEO Arena comme un concert ordinaire. C'est
+  // en fait INFINITY Lisbon, la soirée de clôture du SBC Summit, réservée aux détenteurs
+  // d'un pass du salon : le titre le dit maintenant, et l'ancien slug pointe ici.
+  tiesto: { base: "event", slug: "tiesto-infinity-lisbon" },
 };

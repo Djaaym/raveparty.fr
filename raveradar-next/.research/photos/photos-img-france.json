@@ -1,0 +1,353 @@
+[
+  {
+    "id": 514,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a71ecc8085d3990858549.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/echoes",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle de la soirée (sam 22 août, Room 2)"
+  },
+  {
+    "id": 519,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a15b8c882cce381362577.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/nantes-rave-techno-xxl-w-nikolina-25emeheure-medusa-more",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle Nantes Rave Techno XXL w/ Nikolina, ven 28 août 2026"
+  },
+  {
+    "id": 573,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a672012da636773353535.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle Warehouse 9' birthday party avec Bob Sinclar"
+  },
+  {
+    "id": 592,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a54dd902a8b9346326458.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/the-ring-x-club-de-jour-w-yann-muller-trio-cover-more",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle The Ring x Club de Jour (Yann Muller trio cover)"
+  },
+  {
+    "id": 595,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/69f36f98ae618064164500.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/la-p-tite-fumee-en-concert-a-nantes",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle La P'tite Fumée à Nantes"
+  },
+  {
+    "id": 626,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a26dbe3974e5559308702.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/club-de-jour-invite-bellaire-dimitri-from-paris",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle Club de Jour invite Bellaire & Dimitri From Paris"
+  },
+  {
+    "id": 835,
+    "image": "https://www.warehouse-nantes.fr/media/cache/cover_mobile/images/event_flyer/6a2141a32f24b914987921.webp",
+    "sourcePage": "https://www.warehouse-nantes.fr/event/club-de-jour-invite-daft-funk-live",
+    "credit": "Warehouse Nantes",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle Club de Jour invite Daft Funk Live"
+  },
+  {
+    "id": 563,
+    "image": "https://halles-cartoucherie.fr/wp-content/uploads/2026/07/20260926_155706_AFTER_NOW_-_LEE_BURRIDGE-3cWK1m.png",
+    "sourcePage": "https://halles-cartoucherie.fr/la-cabane/",
+    "credit": "After Now / Les Halles de la Cartoucherie",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle AFTERNOW — Lee Burridge, sam 26.09 @ La Cabane"
+  },
+  {
+    "id": 686,
+    "image": "https://halles-cartoucherie.fr/wp-content/uploads/2026/07/20261016_155712_AFTER_NOW_-_FRANKEY__SANDRINO-zPh7Gv.png",
+    "sourcePage": "https://halles-cartoucherie.fr/la-cabane/",
+    "credit": "After Now / Les Halles de la Cartoucherie",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle AFTERNOW — Frankey & Sandrino, ven 16.10 @ La Cabane"
+  },
+  {
+    "id": 621,
+    "image": "https://halles-cartoucherie.fr/wp-content/uploads/2024/09/Cabane-1-2800x2370-1.jpg",
+    "sourcePage": "https://halles-cartoucherie.fr/la-cabane/",
+    "credit": "Les Halles de la Cartoucherie",
+    "kind": "venue",
+    "width": 2800,
+    "note": "entrée de La Cabane de nuit, file d'attente — photo officielle de la salle, partagée par les dates sans visuel propre"
+  },
+  {
+    "id": 768,
+    "image": "https://halles-cartoucherie.fr/wp-content/uploads/2024/09/Cabane-1-2800x2370-1.jpg",
+    "sourcePage": "https://halles-cartoucherie.fr/la-cabane/",
+    "credit": "Les Halles de la Cartoucherie",
+    "kind": "venue",
+    "width": 2800,
+    "note": "entrée de La Cabane de nuit — photo officielle de la salle"
+  },
+  {
+    "id": 805,
+    "image": "https://halles-cartoucherie.fr/wp-content/uploads/2024/09/Cabane-1-2800x2370-1.jpg",
+    "sourcePage": "https://halles-cartoucherie.fr/la-cabane/",
+    "credit": "Les Halles de la Cartoucherie",
+    "kind": "venue",
+    "width": 2800,
+    "note": "entrée de La Cabane de nuit — photo officielle de la salle"
+  },
+  {
+    "id": 677,
+    "image": "https://cdn.sanity.io/images/rf3cqo3h/production/0296069a9987f3ad0ff66a52b7891af1668ffb4f-1320x900.png",
+    "sourcePage": "https://lebikini.com/2026/10/15/fakear",
+    "credit": "Le Bikini / Bleu Citron",
+    "kind": "event",
+    "width": 1320,
+    "note": "visuel officiel de la date — Fakear tour « a nice place to be », 15/10 Le Bikini"
+  },
+  {
+    "id": 828,
+    "image": "https://cdn.sanity.io/images/rf3cqo3h/production/3c9ecea325342fc80f9812fdbd3e9e9151627441-1920x1005.jpg",
+    "sourcePage": "https://lebikini.com/2027/01/28/thylacine",
+    "credit": "Le Bikini",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la date — Thylacine, 28 jan, Le Bikini"
+  },
+  {
+    "id": 818,
+    "image": "https://www.zenith-dijon.fr/wp/wp-content/uploads/sites/11/2026/06/Robot-Rock-Alive_40x60_originale.jpg",
+    "sourcePage": "https://www.zenith-dijon.fr/evenement/robot-rock-alive/",
+    "credit": "Robot Rock Alive / Zénith de Dijon",
+    "kind": "event",
+    "width": 1134,
+    "note": "affiche officielle de la tournée Robot Rock Alive (tribute to Daft Punk)"
+  },
+  {
+    "id": 819,
+    "image": "https://www.zenith-dijon.fr/wp/wp-content/uploads/sites/11/2026/06/Robot-Rock-Alive_40x60_originale.jpg",
+    "sourcePage": "https://www.zenith-dijon.fr/evenement/robot-rock-alive/",
+    "credit": "Robot Rock Alive / Zénith de Dijon",
+    "kind": "event",
+    "width": 1134,
+    "note": "affiche officielle de la tournée Robot Rock Alive (même visuel pour toutes les dates)"
+  },
+  {
+    "id": 822,
+    "image": "https://www.zenith-dijon.fr/wp/wp-content/uploads/sites/11/2026/06/Robot-Rock-Alive_40x60_originale.jpg",
+    "sourcePage": "https://www.zenith-dijon.fr/evenement/robot-rock-alive/",
+    "credit": "Robot Rock Alive / Zénith de Dijon",
+    "kind": "event",
+    "width": 1134,
+    "note": "affiche officielle de la tournée Robot Rock Alive (même visuel pour toutes les dates)"
+  },
+  {
+    "id": 827,
+    "image": "https://www.zenith-dijon.fr/wp/wp-content/uploads/sites/11/2026/06/Robot-Rock-Alive_40x60_originale.jpg",
+    "sourcePage": "https://www.zenith-dijon.fr/evenement/robot-rock-alive/",
+    "credit": "Robot Rock Alive / Zénith de Dijon",
+    "kind": "event",
+    "width": 1134,
+    "note": "affiche officielle de la tournée Robot Rock Alive (même visuel pour toutes les dates)"
+  },
+  {
+    "id": 600,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée (sans date, partagé par toutes les dates de la tournée)"
+  },
+  {
+    "id": 619,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 625,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 641,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 712,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 749,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 757,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 791,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 831,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 832,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 840,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée"
+  },
+  {
+    "id": 843,
+    "image": "https://lautrecanalnancy.fr/sites/default/files/lautrecanal/styles/1x1_1280/public/ged/import/694-illustration_id-1774451250.png?itok=t6KVsi_D",
+    "sourcePage": "https://lautrecanalnancy.fr/agenda/la-p-tite-fumee",
+    "credit": "La P'tite Fumée / L'Autre Canal (Nancy)",
+    "kind": "event",
+    "width": 1280,
+    "note": "visuel officiel de la tournée La P'tite Fumée — date de Nancy"
+  },
+  {
+    "id": 789,
+    "image": "https://www.lacoope.org/wp-content/uploads/2024/07/raeverie-1920-avril26.jpg",
+    "sourcePage": "https://www.lacoope.org/concerts/raeverie-invite-dawn-to-dusk-2/",
+    "credit": "La Coopérative de Mai",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel « Ræverie invite Dawn To Dusk »"
+  },
+  {
+    "id": 799,
+    "image": "https://www.lacoope.org/wp-content/uploads/2026/05/yann-wagner-il-est-vilaine.jpg",
+    "sourcePage": "https://www.lacoope.org/concerts/yan-wagner-il-est-vilaine/",
+    "credit": "La Coopérative de Mai",
+    "kind": "event",
+    "width": 2000,
+    "note": "visuel officiel « Yan Wagner + Il est Vilaine »"
+  },
+  {
+    "id": 724,
+    "image": "https://www.artefact.org/wp-content/uploads/2026/05/FAKEAR-FOCUS.jpg",
+    "sourcePage": "https://www.artefact.org/la-laiterie/evenements/fakear2027/",
+    "credit": "La Laiterie / Artefact",
+    "kind": "event",
+    "width": 965,
+    "note": "visuel officiel de la date — Fakear tour, 29/10 Strasbourg La Laiterie"
+  },
+  {
+    "id": 782,
+    "image": "https://lerocherdepalmer.fr/sites/lerocherdepalmer/files/styles/auto_1920/public/import_billetterie/2024-field_illustration_id-1779108171.jpg?itok=uiB34l9I",
+    "sourcePage": "https://lerocherdepalmer.fr/agenda/pact",
+    "credit": "Le Rocher de Palmer",
+    "kind": "event",
+    "width": 1920,
+    "note": "photo officielle du trio PACT (Joachim Pastor, Joris Delacroix, Teho) publiée par la salle"
+  },
+  {
+    "id": 821,
+    "image": "https://lerocherdepalmer.fr/sites/lerocherdepalmer/files/styles/auto_1920/public/import_billetterie/2067-field_illustration_id-1782212234.jpg",
+    "sourcePage": "https://lerocherdepalmer.fr/agenda/nto",
+    "credit": "Le Rocher de Palmer",
+    "kind": "event",
+    "width": 1920,
+    "note": "photo officielle de NTO publiée par la salle"
+  },
+  {
+    "id": 829,
+    "image": "https://lerocherdepalmer.fr/sites/lerocherdepalmer/files/styles/auto_1920/public/import_billetterie/2067-field_illustration_id-1782212234.jpg",
+    "sourcePage": "https://lerocherdepalmer.fr/agenda/nto",
+    "credit": "Le Rocher de Palmer",
+    "kind": "event",
+    "width": 1920,
+    "note": "photo officielle de NTO (même tournée NTO Live)"
+  },
+  {
+    "id": 823,
+    "image": "https://www.lemem.fr/wp-content/uploads/2026/05/thylacine-1600x800-1.jpg",
+    "sourcePage": "https://www.lemem.fr/programmation/thylacine/",
+    "credit": "Le MeM (Rennes)",
+    "kind": "event",
+    "width": 1600,
+    "note": "photo live officielle du show Thylacine publiée par la salle"
+  },
+  {
+    "id": 825,
+    "image": "https://www.lemem.fr/wp-content/uploads/2026/05/thylacine-1600x800-1.jpg",
+    "sourcePage": "https://www.lemem.fr/programmation/thylacine/",
+    "credit": "Le MeM (Rennes)",
+    "kind": "event",
+    "width": 1600,
+    "note": "photo live officielle du show Thylacine (même tournée)"
+  },
+  {
+    "id": 838,
+    "image": "https://www.lemem.fr/wp-content/uploads/2026/05/thylacine-1600x800-1.jpg",
+    "sourcePage": "https://www.lemem.fr/programmation/thylacine/",
+    "credit": "Le MeM (Rennes)",
+    "kind": "event",
+    "width": 1600,
+    "note": "photo live officielle du show Thylacine (même tournée)"
+  }
+]

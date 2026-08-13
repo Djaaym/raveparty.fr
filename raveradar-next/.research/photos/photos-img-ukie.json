@@ -1,0 +1,335 @@
+[
+ {
+  "id": 523,
+  "image": "https://swg3.tv/media/t0anf4nr/screenshot-2026-06-23-at-164222.png",
+  "sourcePage": "https://swg3.tv/events/2026/august/joshwa/",
+  "credit": "SWG3",
+  "kind": "event",
+  "width": 1970,
+  "note": "visuel officiel de la date (portrait promo de Joshwa publie par SWG3)"
+ },
+ {
+  "id": 554,
+  "image": "https://swg3.tv/media/x2slxecn/hidde-van-wee.jpg",
+  "sourcePage": "https://swg3.tv/events/2026/september/2passo-hidde-van-wee-all-night-long/",
+  "credit": "SWG3",
+  "kind": "event",
+  "width": 1440,
+  "note": "visuel officiel de la soiree 2Passo & Hidde van Wee All Night Long"
+ },
+ {
+  "id": 567,
+  "image": "https://swg3.tv/media/famp10ke/swg3-external-venue-shot-1.jpg",
+  "sourcePage": "https://swg3.tv/events/2026/september/elevate-paco-osuna/",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 1920,
+  "note": "photo du site SWG3 (le visuel de la date ne fait que 300 px)"
+ },
+ {
+  "id": 591,
+  "image": "https://swg3.tv/media/huphnyhs/swg3-warehouse-venue-hire.jpg",
+  "sourcePage": "https://swg3.tv/explore/venue-hire-spaces/swg3-warehouse/",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 700,
+  "note": "photo de la salle SWG3 Warehouse (le visuel de la date ne fait que 447 px)"
+ },
+ {
+  "id": 671,
+  "image": "https://swg3.tv/media/dhyj311w/notion.jpg",
+  "sourcePage": "https://swg3.tv/events/2026/october/notion/",
+  "credit": "SWG3",
+  "kind": "event",
+  "width": 1000,
+  "note": "visuel officiel de la date Notion"
+ },
+ {
+  "id": 594,
+  "image": "https://swg3.tv/media/wy5jrrv0/silva-bumpa.jpg",
+  "sourcePage": "https://swg3.tv/events/2026/october/fly-silva-bumpa-glasgow/",
+  "credit": "SWG3 / FLY",
+  "kind": "event",
+  "width": 1080,
+  "note": "visuel officiel de la date FLY x Silva Bumpa"
+ },
+ {
+  "id": 716,
+  "image": "https://swg3.tv/media/uuvnpseh/kimmic.jpeg",
+  "sourcePage": "https://swg3.tv/events/2026/march/kimmic/",
+  "credit": "SWG3",
+  "kind": "event",
+  "width": 1268,
+  "note": "visuel officiel de la date Kimmic (page SWG3, samedi 24 octobre 2026, TV Studio)"
+ },
+ {
+  "id": 634,
+  "image": "https://swg3.tv/media/k3gh5lwg/swg3-the-poetry-club-venue-hire.jpg",
+  "sourcePage": "https://swg3.tv/events/2026/november/lucid-dreams-acid-techno/",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 700,
+  "note": "photo de la salle The Poetry Club (og:image de la page de la soiree)"
+ },
+ {
+  "id": 639,
+  "image": "https://swg3.tv/media/jejll1sm/swg3-tv-studio-venue-hire.jpg",
+  "sourcePage": "https://swg3.tv/explore/venue-hire-spaces/swg3-tv-studio/",
+  "credit": "SWG3",
+  "kind": "venue",
+  "width": 560,
+  "note": "photo de la salle SWG3 TV Studio (le visuel de la date ne fait que 320 px)"
+ },
+ {
+  "id": 807,
+  "image": "https://shine.tickets/images/events/image002%20Cropped%20(1).jpg",
+  "sourcePage": "https://shine.tickets/events/show/5502/shine-jazzy-telegraph-building",
+  "credit": "Jazzy / Peace & Patience Tour",
+  "kind": "event",
+  "width": 800,
+  "note": "artwork officiel de la tournee Peace & Patience 2026 (sans date ni lieu), meilleure resolution que le visuel 554 px de la page SWG3"
+ },
+ {
+  "id": 703,
+  "image": "https://shine.tickets/images/events/Lane%208_EU%20TOUR_17.10%20Cropped%20(1).jpg",
+  "sourcePage": "https://shine.tickets/events/show/5508/lane-8-europe-tour-telegraph-building",
+  "credit": "Shine Belfast / Lane 8",
+  "kind": "event",
+  "width": 800,
+  "note": "artwork officiel de la date (Telegraph Building, 17 oct.)"
+ },
+ {
+  "id": 759,
+  "image": "https://shine.tickets/images/events/image002%20Cropped%20(1).jpg",
+  "sourcePage": "https://shine.tickets/events/show/5502/shine-jazzy-telegraph-building",
+  "credit": "Shine Belfast / Jazzy",
+  "kind": "event",
+  "width": 800,
+  "note": "artwork officiel de la date Shine x Jazzy"
+ },
+ {
+  "id": 795,
+  "image": "https://subclub.co.uk/wp-content/uploads/2026/06/mr_scruff_poster_compressed.jpg",
+  "sourcePage": "https://subclub.co.uk/events/mr-scruff-free-time-glasgow/",
+  "credit": "Sub Club / Free Time",
+  "kind": "event",
+  "width": 1443,
+  "note": "affiche officielle de la soiree (sam. 12 decembre)"
+ },
+ {
+  "id": 798,
+  "image": "https://subclub.co.uk/wp-content/uploads/2026/07/simone_web.jpg",
+  "sourcePage": "https://subclub.co.uk/events/fly-sim0ne/",
+  "credit": "Sub Club / FLY",
+  "kind": "event",
+  "width": 1127,
+  "note": "affiche officielle de la soiree FLY x sim0ne (jeu. 17 decembre)"
+ },
+ {
+  "id": 708,
+  "image": "https://www.sneakypetes.co.uk/wp-content/uploads/2026/06/Romare-5x4-1-scaled.jpg",
+  "sourcePage": "https://www.sneakypetes.co.uk/2026/10/18/romarefree-time/",
+  "credit": "Sneaky Pete's / Free Time",
+  "kind": "event",
+  "width": 2048,
+  "note": "affiche officielle de la date Free Time x Romare"
+ },
+ {
+  "id": 747,
+  "image": "https://www.sneakypetes.co.uk/wp-content/uploads/2026/06/Dusky-5x4-1-scaled.jpg",
+  "sourcePage": "https://www.sneakypetes.co.uk/2026/11/08/duskyfree-time/",
+  "credit": "Sneaky Pete's / Free Time",
+  "kind": "event",
+  "width": 2048,
+  "note": "affiche officielle de la date Free Time x Dusky"
+ },
+ {
+  "id": 702,
+  "image": "https://thewarehouseproject.com/wp-content/uploads/2026/08/PRYDZ-SQ.png",
+  "sourcePage": "https://thewarehouseproject.com/events/eric-prydz/",
+  "credit": "The Warehouse Project",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle WHP26 - Eric Prydz, Depot Mayfield, sam. 17 oct."
+ },
+ {
+  "id": 661,
+  "image": "https://images.squarespace-cdn.com/content/v1/6697ca337cb4855009406c37/1786385755128-ASV869NC6YOQV0QE3XET/INDEX+Dublin_Indira_Eventbrite.png",
+  "sourcePage": "https://indexdublin.com/events",
+  "credit": "Index Dublin",
+  "kind": "event",
+  "width": 2160,
+  "note": "artwork officiel de la date (04.09.26 marque sur le visuel)"
+ },
+ {
+  "id": 534,
+  "image": "https://images.squarespace-cdn.com/content/v1/6697ca337cb4855009406c37/1785886220544-MTG42MRAIFG0UD1WBE2H/INDEX_Dublin_Horsegiirl_Eventbrite.png",
+  "sourcePage": "https://indexdublin.com/events",
+  "credit": "Index Dublin",
+  "kind": "event",
+  "width": 2160,
+  "note": "artwork officiel de la date HorsegiirL (5 sept.)"
+ },
+ {
+  "id": 664,
+  "image": "https://images.squarespace-cdn.com/content/v1/6697ca337cb4855009406c37/1786459867576-7IG72607S8QBFI7FJCYP/INDEX_SG+Lewis_AW_Eventbrite.png",
+  "sourcePage": "https://indexdublin.com/events",
+  "credit": "Index Dublin",
+  "kind": "event",
+  "width": 2160,
+  "note": "artwork officiel de la date SG Lewis (19 sept.)"
+ },
+ {
+  "id": 691,
+  "image": "https://images.squarespace-cdn.com/content/v1/58f4d0faff7c50cdc04d38d3/1784036551680-ZS339G4LFBFAXCAS103C/Cassius-InstaNEW-SIZE.jpg",
+  "sourcePage": "https://www.buttonfactory.ie/shows/2026/10/16/cassius",
+  "credit": "Button Factory / Selective Memory",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle de la date (Button Factory Dublin, 16 oct.)"
+ },
+ {
+  "id": 774,
+  "image": "https://images.squarespace-cdn.com/content/v1/67e3124c88393f0267cecf4a/64eae5e1-ba78-4b7f-a7f2-c6066967b20c/insta+dimensions+%2819%29+%281%29.jpg",
+  "sourcePage": "https://www.wigwamdublin.com/wigwampresents#mietzeconte",
+  "credit": "Wigwam Dublin",
+  "kind": "event",
+  "width": 1114,
+  "note": "visuel officiel de la date Wigwam Presents: Mietze Conte (jeu. 26 nov.)"
+ },
+ {
+  "id": 667,
+  "image": "https://images.squarespace-cdn.com/content/v1/67e3124c88393f0267cecf4a/c95a3162-e657-4609-8c9a-5ba891b5d30d/WW+BASEMENT.jpg",
+  "sourcePage": "https://www.wigwamdublin.com/venue",
+  "credit": "Wigwam Dublin",
+  "kind": "venue",
+  "width": 2500,
+  "note": "photo du basement de Wigwam (la salle de club), publiee par le lieu"
+ },
+ {
+  "id": 662,
+  "image": "https://theworkmansclub.com/wp-content/uploads/2015/05/Main-Room.jpg",
+  "sourcePage": "https://theworkmansclub.com/media-gallery/",
+  "credit": "The Workman's Club",
+  "kind": "venue",
+  "width": 1280,
+  "note": "photo de la Main Room (le visuel de la date ne fait que 450 px)"
+ },
+ {
+  "id": 660,
+  "image": "https://djmag.com/sites/default/files/styles/djm_23_1005x565/public/2022-09/LowresWeb72_RacketSpace_interior091322-11.jpg.webp?itok=AXxZusn02116293052",
+  "sourcePage": "https://djmag.com/news/new-dublin-venue-racket-space-announces-autumnwinter-programme",
+  "credit": "The Racket Space / DJ Mag",
+  "kind": "venue",
+  "width": 1005,
+  "note": "photo de l'interieur du Racket Space (site officiel protege par captcha)"
+ },
+ {
+  "id": 752,
+  "image": "https://djmag.com/sites/default/files/styles/djm_23_1005x565/public/2022-09/LowresWeb72_RacketSpace_interior091322-11.jpg.webp?itok=AXxZusn02116293052",
+  "sourcePage": "https://djmag.com/news/new-dublin-venue-racket-space-announces-autumnwinter-programme",
+  "credit": "The Racket Space / DJ Mag",
+  "kind": "venue",
+  "width": 1005,
+  "note": "photo de l'interieur du Racket Space (meme salle que l'id 660)"
+ },
+ {
+  "id": 665,
+  "image": "https://www.peoplesrepublicofcork.com/eventguide/uploads/orig/2026jun_3664803.jpg",
+  "sourcePage": "https://www.cyprusavenue.ie/gigs/paul-oakenfold-11199448",
+  "credit": "Cyprus Avenue",
+  "kind": "event",
+  "width": 600,
+  "note": "visuel officiel de la date publie par Cyprus Avenue (ven. 25 sept.)"
+ },
+ {
+  "id": 760,
+  "image": "https://www.peoplesrepublicofcork.com/eventguide/uploads/orig/2026apr_6515116.jpg",
+  "sourcePage": "https://www.cyprusavenue.ie/gigs/dj-jean-11195791",
+  "credit": "Cyprus Avenue",
+  "kind": "event",
+  "width": 600,
+  "note": "visuel officiel de la date publie par Cyprus Avenue (sam. 14 nov.)"
+ },
+ {
+  "id": 721,
+  "image": "https://3arena.ie/images/uploads/events/DUKE_DUMONT_720x720.jpg",
+  "sourcePage": "https://3arena.ie/events/duke-dumont",
+  "credit": "3Arena Dublin",
+  "kind": "event",
+  "width": 720,
+  "note": "visuel officiel de la date sur le site du 3Arena (dim. 25 oct.)"
+ },
+ {
+  "id": 705,
+  "image": "https://firebasestorage.googleapis.com/v0/b/prospect-bristol.appspot.com/o/events%2F8Ou4cpEPaMjyMf5bbKRuWYCh1frEyt?alt=media&token=a9e0f425-13fb-41a3-894b-44f473618309",
+  "sourcePage": "https://www.theprospectbuilding.com/events/history-of-rave",
+  "credit": "The Prospect Building",
+  "kind": "event",
+  "width": 1800,
+  "note": "visuel officiel de la date Eats Everything & Groove Armada: History Of Rave (17 oct. 2026)"
+ },
+ {
+  "id": 780,
+  "image": "https://firebasestorage.googleapis.com/v0/b/prospect-bristol.appspot.com/o/events%2FUBleszyLqGGkwCrUeAIP4stV3fWC4L?alt=media&token=0499ea33-5904-40a8-a2c7-2a93e30ef0c2",
+  "sourcePage": "https://www.theprospectbuilding.com/events/ipc-atw",
+  "credit": "The Prospect Building",
+  "kind": "event",
+  "width": 1193,
+  "note": "visuel officiel de la date Interplanetary Criminal (28 nov. 2026)"
+ },
+ {
+  "id": 689,
+  "image": "https://www.gaswrx.co.uk/wp-content/uploads/2026/08/EricPrydz_GSWRX26_1x1.jpg",
+  "sourcePage": "https://www.gaswrx.co.uk/whats-on/",
+  "credit": "GASWRX Birmingham",
+  "kind": "event",
+  "width": 550,
+  "note": "affiche officielle de la date (16.10.2026 imprime sur le visuel)"
+ },
+ {
+  "id": 717,
+  "image": "https://www.gaswrx.co.uk/wp-content/uploads/2026/07/DE_GASWRX_MAIN_24.10.26_1080x1080.jpg",
+  "sourcePage": "https://www.gaswrx.co.uk/whats-on/",
+  "credit": "GASWRX Birmingham / Anjunabeats",
+  "kind": "event",
+  "width": 550,
+  "note": "affiche officielle Above & Beyond presents Anjunabeats Warehouse, 24 oct., GASWRX"
+ },
+ {
+  "id": 786,
+  "image": "https://document-bristol.com/wp-content/uploads/2025/06/@calchaplin-KoLABStudios_Document-Glitterbox_2024_003-2395x1600.jpg",
+  "sourcePage": "https://document-bristol.com/",
+  "credit": "Cal Chaplin / KoLAB Studios / Document Bristol",
+  "kind": "venue",
+  "width": 2395,
+  "note": "photo de la salle en soiree (Glitterbox 2024) publiee par Document"
+ },
+ {
+  "id": 690,
+  "image": "https://wp3-fatsomasites.imgix.net/uploads/sites/1532/2023/02/ef8268_a79935c6d0be463ab7c798a319595622_mv2-1.jpg?auto=format%2Ccompress",
+  "sourcePage": "https://www.invisiblewindfactory.com/",
+  "credit": "Invisible Wind Factory",
+  "kind": "venue",
+  "width": 1647,
+  "note": "photo de la salle en soiree publiee par l'Invisible Wind Factory"
+ },
+ {
+  "id": 706,
+  "image": "https://worriedabouthenry.com/wp-content/uploads/2021/10/blacksone-1.jpg",
+  "sourcePage": "https://worriedabouthenry.com/event-venue/blackstone-st-warehouse/",
+  "credit": "Worried About Henry / Blackstone St. Warehouse",
+  "kind": "venue",
+  "width": 1366,
+  "note": "photo de la salle en soiree publiee par le promoteur resident"
+ },
+ {
+  "id": 796,
+  "image": "https://worriedabouthenry.com/wp-content/uploads/2021/10/blacksone-1.jpg",
+  "sourcePage": "https://worriedabouthenry.com/event-venue/blackstone-st-warehouse/",
+  "credit": "Worried About Henry / Blackstone St. Warehouse",
+  "kind": "venue",
+  "width": 1366,
+  "note": "meme salle que l'id 706"
+ }
+]
