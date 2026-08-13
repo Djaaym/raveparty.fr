@@ -349,5 +349,14 @@
   "kind": "venue",
   "width": 1920,
   "note": "photo de la salle principale du Studio 338 en soiree"
+ },
+ {
+  "id": 766,
+  "image": "https://phonox.co.uk/wp-content/uploads/2023/09/02a5adb5a20fd45f8f02850ded59a5c6bb25ff92.jpeg",
+  "sourcePage": "https://phonox.co.uk/whats-on/dusky-originals-2010-2025-set/",
+  "credit": "Phonox London",
+  "kind": "venue",
+  "width": 983,
+  "note": "photo du dancefloor de Phonox, illustrant la page de la date (sam. 21 nov.)"
  }
 ]

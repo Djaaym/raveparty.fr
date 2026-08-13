@@ -313,5 +313,23 @@
   "kind": "venue",
   "width": 1000,
   "note": "photo de la salle du Basic Club (dancefloor sous les lumieres rouges) ; le club n'a plus de site en ligne"
+ },
+ {
+  "image": "https://www.innerspaces.it/wp-content/uploads/2022/07/auditorium-new-2048x1365.jpg",
+  "sourcePage": "https://www.innerspaces.it/auditorium/",
+  "credit": "INNER_SPACES / Auditorium San Fedele",
+  "kind": "venue",
+  "width": 2048,
+  "id": 762,
+  "note": "photo de la salle de l'Auditorium San Fedele publiee par INNER_SPACES, le cycle qui programme la date"
+ },
+ {
+  "image": "https://www.innerspaces.it/wp-content/uploads/2022/07/auditorium-new-2048x1365.jpg",
+  "sourcePage": "https://www.innerspaces.it/auditorium/",
+  "credit": "INNER_SPACES / Auditorium San Fedele",
+  "kind": "venue",
+  "width": 2048,
+  "id": 797,
+  "note": "photo de la salle de l'Auditorium San Fedele publiee par INNER_SPACES, le cycle qui programme la date"
  }
 ]

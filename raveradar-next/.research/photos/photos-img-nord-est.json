@@ -268,5 +268,77 @@
   "kind": "event",
   "width": 4000,
   "note": "affiche officielle Technostate BIGBANG Halloween, 31 octobre 2026 Annexet"
+ },
+ {
+  "id": 693,
+  "image": "https://www.tradgarn.se/content/files/kream_poster.png",
+  "sourcePage": "https://www.tradgarn.se/kalender/kream-17-oktober-tradgar-n/",
+  "credit": "Trädgår'n Göteborg",
+  "kind": "event",
+  "width": 960,
+  "note": "affiche officielle KREAM au Trädgår'n, 17 octobre 2026"
+ },
+ {
+  "id": 739,
+  "image": "https://www.tradgarn.se/content/files/1920x1080_goteborg.png",
+  "sourcePage": "https://www.tradgarn.se/kalender/stvw-punk-rave/",
+  "credit": "STVW / Trädgår'n Göteborg",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle STVW Punk Rave, vendredi 06.11.2026 Trädgår'n Göteborg"
+ },
+ {
+  "id": 548,
+  "image": "https://biletomat.pl/api/images/019f8959-6641-7e4c-a314-9a7546a443c7",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Tama Season Opening (Genesi, Plus2, Sick) du 18.09.2026"
+ },
+ {
+  "id": 557,
+  "image": "https://biletomat.pl/api/images/019fa3c8-bccf-7cea-a8f7-bb140285500f",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Obsession (Kozlov, Luciid, Vendex) du 25.09.2026"
+ },
+ {
+  "id": 586,
+  "image": "https://biletomat.pl/api/images/019fd0cd-17de-79df-8896-2ce642d4b7d7",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle Chris Avantgarde au Tama, 09.10.2026"
+ },
+ {
+  "id": 597,
+  "image": "https://biletomat.pl/api/images/019ef35b-7b98-766c-aee4-d0adf31575cb",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Pegassi au Tama, 16.10.2026"
+ },
+ {
+  "id": 604,
+  "image": "https://biletomat.pl/api/images/019ef359-b5fa-76ac-bbf6-a4d75c052ae3",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Sub Zero Project au Tama, 17.10.2026"
+ },
+ {
+  "id": 610,
+  "image": "https://biletomat.pl/api/images/019fa3c1-ac60-7d85-9f84-2a52cd4bd12c",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Worakls au Tama, 23.10.2026"
  }
 ]
