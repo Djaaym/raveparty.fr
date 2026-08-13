@@ -1113,7 +1113,7 @@ export const PHOTOS: Record<number, string> = {
   316: "draaimolen-festival-72589b102e.jpg", // Draaimolen Festival — Tilburg
   317: "galopprennbahn-freudenau-bf71692d7f.jpg", // Beatpatrol Festival — Vienna
   318: "decibel-open-air-2475b1384d.jpg", // Decibel Open Air — Florence
-  319: "zamna-primer-athens-abe62a1382.jpg", // ZAMNA × PRIMER Athens — Athens
+  319: "zamna-x-primer-abe62a1382.jpg", // ZAMNA × PRIMER Athens — Athens
   320: "eternal-sun-festival-d9609ef61b.jpg", // Eternal Sun Festival — Sougia
   321: "komorebi-music-festival-c775778f8e.jpg", // Komorebi Music Festival — Vinadio
   322: "amelie-lens-chaos-in-the-city-47ad0fa45c.jpg", // Amelie Lens – Chaos in the City — Antwerp
@@ -1298,6 +1298,287 @@ export const PHOTOS: Record<number, string> = {
   503: "kitkatclub-au-bootshaus-1e67ac754e.jpg", // KitKatClub au Bootshaus — Cologne
   505: "unreal-x-kuko-all-night-long-6f10f4d4b4.jpg", // Unreal x KUKO All Night Long — Cologne
   506: "kitkatclub-au-bootshaus-30-decembre-61107b46fe.jpg", // KitKatClub au Bootshaus – 30 décembre — Cologne
+  509: "into-the-madness-pre-party-weekender-2a716600b5.jpg", // Into The Madness Pre-Party Weekender — Cologne
+  510: "james-hype-at-cavo-paradiso-ef7ba7082e.jpg", // James Hype at Cavo Paradiso — Mykonos
+  511: "ladies-first-283c8be410.jpg", // Ladies First — Oslo
+  513: "david-morales-at-cavo-paradiso-a55a9e80d6.jpg", // David Morales at Cavo Paradiso — Mykonos
+  514: "echoes-8be8b2c1fd.jpg", // Echoes — Nantes
+  516: "karrusel-0c7efca1cf.jpg", // Karrusel — Copenhagen
+  517: "uprising-festival-63019b81f2.jpg", // Uprising Festival — Bratislava
+  518: "playhard-luca-agnelli-097a0056cb.jpg", // Playhard — Luca Agnelli — Lausanne
+  519: "nrt-w-nikolina-f983885c10.jpg", // NRT w/ Nikolina — Nantes
+  521: "fuse-the-third-room-with-verraco-37404bed57.jpg", // Fuse: The Third Room with Verraco — Brussels
+  522: "shelter-jesse-maas-curates-dd39449071.jpg", // Shelter: Jesse Maas Curates — Amsterdam
+  523: "swg3-joshwa-5e433d77c8.jpg", // SWG3: Joshwa — Glasgow
+  525: "shelter-tins-all-night-0b680a90ad.jpg", // Shelter: Tins All Night — Amsterdam
+  527: "hard-cur-creeds-d0d3a83d24.jpg", // Hard Cœur — Creeds — Lausanne
+  529: "zamna-x-primer-abe62a1382.jpg", // Zamna x Primer — Athens
+  530: "fuse-presents-nikolina-ornella-cc5522167a.jpg", // Fuse presents NIKOLINA & Ornella — Brussels
+  531: "eric-prydz-openair-corner-df1ccadffa.jpg", // Eric Prydz — OpenAir Corner — Belgrade
+  532: "vision-open-air-c81950b600.jpg", // Vision Open Air — Milan
+  534: "index-horsegiirl-1058bce79f.jpg", // Index: HorsegiirL — Dublin
+  535: "shelter-ryan-elliott-b2b-pancratio-b466538131.jpg", // Shelter: Ryan Elliott b2b Pancratio — Amsterdam
+  536: "i-days-milano-david-guetta-ef0f6b196f.jpg", // I-Days Milano: David Guetta — Milan
+  537: "gusgus-cab75cab28.jpg", // GusGus — Zagreb
+  538: "roxy-8905d8f43d.jpg", // Clara Cuvé au Roxy — Prague
+  540: "subset-wilkinson-ca7556812b.jpg", // Subset — Wilkinson — Lausanne
+  541: "helzinki-hardstyle-festival-2049cb67b6.jpg", // Helzinki Hardstyle Festival — Helsinki
+  542: "fuse-presents-2hot2play-alt8-6f1c9e6b76.jpg", // Fuse presents 2HOT2PLAY & ALT8 — Brussels
+  543: "mahlwerk-w-justin-jay-f967d448d3.jpg", // Mahlwerk w/ Justin Jay — Vienna
+  544: "la-belle-electrique-62367d2bd3.jpg", // Actress M b2b Moodfino + Kendal + Malago — Grenoble
+  545: "faithless-5f4e078db5.jpg", // Faithless — Helsinki
+  546: "shelter-traumer-b2b-janeret-10a1248635.jpg", // Shelter: Traumer b2b Janeret — Amsterdam
+  548: "tama-season-opening-2fdbd613d0.jpg", // Tama Season Opening — Poznań
+  549: "infected-mushroom-b246052a12.jpg", // Infected Mushroom — Oslo
+  550: "fuse-sesh-with-clara-cuve-peterblue-004197466f.jpg", // Fuse: SESH with Clara Cuvé & PETERBLUE — Brussels
+  551: "shelter-piv-with-prunk-92ddbeb00e.jpg", // Shelter: PIV with Prunk — Amsterdam
+  552: "la-belle-electrique-62367d2bd3.jpg", // Baboush + Karlfroye + Von Bikräv — Grenoble
+  553: "shelter-signal-nyc-with-benny-rodrigues-57f563d317.jpg", // Shelter: Signal NYC with Benny Rodrigues — Amsterdam
+  554: "swg3-2passo-hidde-van-wee-58dcba6e3c.jpg", // SWG3: 2Passo & Hidde Van Wee — Glasgow
+  555: "roxy-8905d8f43d.jpg", // Lilly Palmer au Roxy — Prague
+  557: "obsession-kozlov-luciid-vendex-8448b959ef.jpg", // Obsession — Kozlov, Luciid & Vendex — Poznań
+  558: "tomorrowland-symphony-of-unity-eb225dbdba.jpg", // Tomorrowland - Symphony of Unity — Verona
+  559: "roxy-8905d8f43d.jpg", // Andy C & MC Tonn Piper au Roxy — Prague
+  563: "lee-burridge-a-la-cabane-e25c1627b7.jpg", // Lee Burridge à La Cabane — Toulouse
+  564: "la-terrrazza-102e58262c.jpg", // Guy Gerber — Barcelona
+  565: "shelter-archie-hamilton-e044abfe22.jpg", // Shelter: Archie Hamilton — Amsterdam
+  566: "roxy-8905d8f43d.jpg", // James Hype au Roxy — Prague
+  567: "swg3-galvanizers-74914c833f.jpg", // SWG3 Elevate: Paco Osuna — Glasgow
+  568: "armin-van-buuren-presents-a-state-of-trance-168e373624.jpg", // Armin van Buuren presents A State of Trance — Ibiza
+  569: "joseph-capriati-presents-metamorfosi-closing-par-30fd1d16fd.jpg", // Joseph Capriati presents Metamorfosi Closing Party — Ibiza
+  570: "paradise-48956751ea.jpg", // Paradise — Ibiza
+  571: "autechre-alcatraz-milano-62c8252a6c.jpg", // Autechre à Ložionica — Belgrade
+  573: "warehouse-9-ans-avec-bob-sinclar-9c16580980.jpg", // Warehouse 9 ans avec Bob Sinclar — Nantes
+  574: "calvin-harris-closing-party-35787c86ec.jpg", // Calvin Harris Closing Party — Ibiza
+  577: "la-belle-electrique-62367d2bd3.jpg", // Bruno Bazzetti + Phase Fatale + The Hacker — Grenoble
+  578: "hi-ibiza-bdeb3137dc.jpg", // Black Coffee Closing Party — Ibiza
+  579: "elrow-ibiza-closing-party-438ea80b7c.jpg", // elrow Ibiza Closing Party — Ibiza
+  580: "ants-b870f4fc6f.jpg", // ANTS — Ibiza
+  581: "carl-cox-closing-party-7fcb932bae.jpg", // Carl Cox Closing Party — Ibiza
+  583: "mecanik-paradize-68e752564a.jpg", // Mecanik Paradize — Toulouse
+  584: "kosheen-cc1ed2683b.jpg", // Kosheen — Zagreb
+  585: "blacklist-festival-0b21238469.jpg", // Blacklist Festival — Oberhausen
+  586: "chris-avantgarde-au-tama-968e8fd791.jpg", // Chris Avantgarde au Tama — Poznań
+  587: "autechre-alcatraz-milano-62c8252a6c.jpg", // Autechre à Cukrarna — Ljubljana
+  589: "glitterbox-closing-party-14053c31ba.jpg", // Glitterbox Closing Party — Ibiza
+  590: "frdag-octave-one-58626afe65.jpg", // Frædag: Octave One — Oslo
+  591: "swg3-warehouse-8a31b45a9f.jpg", // SWG3: The Rocketman All Night Long — Glasgow
+  592: "the-ring-x-club-de-jour-f37e67874c.jpg", // The Ring x Club de Jour — Nantes
+  593: "la-terrrazza-102e58262c.jpg", // Kerri Chandler — Barcelona
+  594: "fly-silva-bumpa-glasgow-c65f850b59.jpg", // FLY: Silva Bumpa Glasgow — Glasgow
+  595: "la-p-tite-fumee-au-warehouse-8d4d19e9f8.jpg", // La P'tite Fumée au Warehouse — Nantes
+  596: "roxy-8905d8f43d.jpg", // CamelPhat au Roxy — Prague
+  597: "pegassi-au-tama-e57374df85.jpg", // Pegassi au Tama — Poznań
+  598: "akvawaves-invite-ely-oaks-ab06721732.jpg", // AkvaWaves invite Ely Oaks — Budapest
+  600: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à la Rock School Barbey — Bordeaux
+  601: "laidback-luke-4116157b41.jpg", // Laidback Luke — Oslo
+  603: "roxy-8905d8f43d.jpg", // Pegassi au Roxy — Prague
+  604: "sub-zero-project-au-tama-b8fc567272.jpg", // Sub Zero Project au Tama — Poznań
+  606: "thuishaven-ade-in-trance-we-trust-95ff3135fc.jpg", // Thuishaven ADE: In Trance We Trust — Amsterdam
+  607: "thylacine-en-concert-56f984302f.jpg", // Thylacine en concert — Lausanne
+  608: "thuishaven-ade-glitterbox-d0108d9651.jpg", // Thuishaven ADE: Glitterbox — Amsterdam
+  609: "shelter-ade-20-years-of-the-warehouse-project-12cdaa9ca6.jpg", // Shelter ADE: 20 Years of The Warehouse Project — Amsterdam
+  610: "worakls-au-tama-5c625dcffd.jpg", // Worakls au Tama — Poznań
+  611: "markus-schulz-0f474e2712.jpg", // Markus Schulz — Oslo
+  612: "eric-prydz-93f13eead4.jpg", // Eric Prydz — Copenhagen
+  613: "shelter-ade-slapfunk-bb459d9891.jpg", // Shelter ADE: Slapfunk — Amsterdam
+  614: "timmy-trumpet-at-rockhal-1ff8ae916e.jpg", // Timmy Trumpet at Rockhal — Esch-sur-Alzette
+  615: "psy-clan-juno-reactor-1b134f9e79.jpg", // Psy Clan — Juno Reactor — Poznań
+  616: "thuishaven-ade-michel-de-hey-philou-louzolo-14341fb2af.jpg", // Thuishaven ADE: Michel de Hey & Philou Louzolo — Amsterdam
+  617: "shelter-ade-brighter-days-x-life-and-death-de8ca65461.jpg", // Shelter ADE: Brighter Days x Life and Death — Amsterdam
+  618: "roxy-8905d8f43d.jpg", // Adrián Mills au Roxy — Prague
+  619: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à La Belle Électrique — Grenoble
+  621: "la-cabane-les-halles-de-la-cartoucherie-1d41c9587c.jpg", // Hilight Tribe - Halloween Instrumental — Toulouse
+  624: "modestep-au-fomo-2325c176f4.jpg", // Modestep au FOMO — Sofia
+  625: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée au Transbordeur — Villeurbanne
+  626: "club-de-jour-invite-bellaire-dimitri-0f27ec74e5.jpg", // Club de Jour invite Bellaire & Dimitri — Nantes
+  628: "roxy-8905d8f43d.jpg", // Agents Of Time au Roxy — Prague
+  634: "the-poetry-club-72c5910d1c.jpg", // Lucid Dreams: Acid Techno — Glasgow
+  635: "roxy-8905d8f43d.jpg", // Tinlicker au Roxy — Prague
+  636: "roxy-8905d8f43d.jpg", // MCR-T au Roxy — Prague
+  637: "berns-4aacdd9731.jpg", // Paul van Dyk — Stockholm
+  639: "swg3-tv-studio-e8c62abbe3.jpg", // SWG3: Sasha — Glasgow
+  641: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée au Rockstore — Montpellier
+  642: "thuishaven-bart-skils-5hrs-e915ee938c.jpg", // Thuishaven: Bart Skils 5HRS — Amsterdam
+  645: "rotterdam-rave-winter-special-bc03bbf0c9.jpg", // Rotterdam Rave Winter Special — Rotterdam
+  646: "hercules-love-affair-9485d1510a.jpg", // Hercules & Love Affair — Barcelona
+  649: "let-it-roll-winter-2947f94b31.jpg", // Let It Roll Winter — Prague
+  654: "nto-ab508ac56b.jpg", // NTO — Barcelona
+  656: "kapital-festival-a4a882362e.jpg", // Kapital Festival — Bucharest
+  657: "open-beatz-festival-283fdc32af.jpg", // Open Beatz Festival — Herzogenaurach
+  658: "nature-one-d487a4c13f.jpg", // Nature One — Kastellaun
+  659: "swedish-house-mafia-at-ullevi-24847ff6f8.jpg", // Swedish House Mafia at Ullevi — Gothenburg
+  660: "racket-space-2cf31ce85a.jpg", // S.P.Y at Racket Space — Dublin
+  661: "index-indira-paganotto-0fe9b6d44e.jpg", // Index: Indira Paganotto — Dublin
+  662: "the-workman-s-club-2a4786f77a.jpg", // Étienne de Crécy at The Workman's Club — Dublin
+  663: "fog-festival-9b1de935f5.jpg", // FOG Festival — Basel
+  664: "index-sg-lewis-ae88a90a90.jpg", // Index: SG Lewis — Dublin
+  665: "paul-oakenfold-at-cyprus-avenue-d91a7f48b5.jpg", // Paul Oakenfold at Cyprus Avenue — Cork
+  666: "masters-of-hardcore-switzerland-938d94dbf6.jpg", // Masters of Hardcore Switzerland — Zurich
+  667: "wigwam-3ae33b1329.jpg", // Main Phase at Wigwam — Dublin
+  668: "hive-air-pres-shimza-friends-dbd19b4d5f.jpg", // Hive Air pres. Shimza & Friends — Zurich
+  669: "liquicity-vienna-d968da2167.jpg", // Liquicity Vienna — Vösendorf
+  670: "verknipt-berlin-8d4529cd74.jpg", // Verknipt Berlin — Berlin
+  671: "swg3-notion-0e2280324f.jpg", // SWG3: Notion — Glasgow
+  672: "hard-bass-944c994d4b.jpg", // Hard Bass — Arnhem
+  673: "input-high-fidelity-dance-club-14579e6dff.jpg", // Kolter · Input Barcelona — Barcelona
+  674: "joshua-brooks-106f2b6610.jpg", // Cristoph at Joshua Brooks — Manchester
+  675: "autechre-alcatraz-milano-62c8252a6c.jpg", // Autechre · Alcatraz Milano — Milan
+  676: "autechre-a-l-aeronef-c0df69ae48.jpg", // Autechre au Lieu Unique — Nantes
+  677: "fakear-au-bikini-9c65049635.jpg", // Fakear au Bikini — Ramonville-Saint-Agne
+  679: "los-ninos-queer-berlin-894a788222.jpg", // Los Ninos: Queer Berlin — Brussels
+  680: "fury-cara-elizabeth-johannes-schuster-mika-hegge-9ace5f4d30.jpg", // FURY: Cara Elizabeth, Johannes Schuster & Mika Heggemann — Helsinki
+  681: "dj-aligator-the-final-reptile-rave-heaven-ec9142fce7.jpg", // DJ Aligator: The Final Reptile Rave – Heaven — Copenhagen
+  683: "paul-van-dyk-au-docks-4e2e345cdd.jpg", // Paul van Dyk au Docks — Hamburg
+  684: "ouest-park-festival-a7ff1f00da.jpg", // Ouest Park Festival — Le Havre
+  685: "autechre-a-l-aeronef-c0df69ae48.jpg", // Autechre à l'Aéronef — Lille
+  686: "frankey-sandrino-a-la-cabane-600de71ae9.jpg", // Frankey & Sandrino à La Cabane — Toulouse
+  687: "digitalism-hiroshima-mon-amour-de12a4e1da.jpg", // Digitalism · Hiroshima Mon Amour — Turin
+  688: "nikolina-kntrlvrlst-gate-milano-dc25667787.jpg", // Nikolina & Kntrlvrlst · Gate Milano — Milan
+  689: "eric-prydz-at-gaswrx-b3d2767a6f.jpg", // Eric Prydz at GASWRX — Birmingham
+  690: "invisible-wind-factory-1c76f29ecb.jpg", // Annie Mac at Invisible Wind Factory — Liverpool
+  691: "cassius-at-button-factory-e38dc458da.jpg", // Cassius at Button Factory — Dublin
+  692: "30-years-of-kozzmozz-ec0960afe8.jpg", // 30 Years of Kozzmozz — Ghent
+  693: "kream-at-tradgar-n-750ffe7660.jpg", // KREAM at Trädgår'n — Gothenburg
+  694: "dj-aligator-the-final-reptile-rave-heaven-ec9142fce7.jpg", // DJ Aligator: The Final Reptile Rave – Hell — Copenhagen
+  695: "silva-bumpa-at-pumpehuset-1158cd506b.jpg", // Silva Bumpa at Pumpehuset — Copenhagen
+  696: "harder-force-indoor-festival-4127d1333a.jpg", // Harder Force Indoor Festival — Neumünster
+  697: "mosimann-au-zenith-de-paris-cd7f109f24.jpg", // Mosimann au Zénith de Paris — Paris
+  698: "digitalism-hacienda-roma-9d7c6c416b.jpg", // Digitalism · Hacienda Roma — Rome
+  699: "happy-techno-la-terrrazza-41a3e7737e.jpg", // Happy Techno · La Terrrazza — Barcelona
+  700: "hector-oaks-q35-warehouse-b49081c9ec.jpg", // Héctor Oaks · Q35 Warehouse — Turin
+  702: "the-warehouse-project-eric-prydz-ed873d3663.jpg", // The Warehouse Project: Eric Prydz — Manchester
+  703: "lane-8-at-the-telegraph-building-97c4d2d6e5.jpg", // Lane 8 at The Telegraph Building — Belfast
+  704: "studio-338-d8a3b398b6.jpg", // Paul van Dyk at Studio 338 — London
+  705: "eats-everything-groove-armada-at-the-prospect-bu-9d9ac28fd4.jpg", // Eats Everything & Groove Armada at The Prospect Building — Bristol
+  706: "blackstone-street-warehouse-a71dd0339c.jpg", // Above & Beyond at Blackstone Street Warehouse — Liverpool
+  708: "free-time-romare-cf3b321a10.jpg", // Free Time: Romare — Edinburgh
+  710: "thuishaven-ade-salute-bella-claxton-6d1c212e25.jpg", // Thuishaven ADE: Salute & Bella Claxton — Amsterdam
+  711: "elrow-ade-dance-with-the-serpent-02aa9b2182.jpg", // elrow ADE – Dance with the Serpent — Amsterdam
+  712: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à La Cigale — Paris
+  713: "ueberrest-in-verruf-gate-milano-2916fc35b8.jpg", // Ueberrest & In Verruf · Gate Milano — Milan
+  714: "nukranox-d75a6a8f8e.jpg", // Nukranox — Salzburg
+  715: "wonderful-days-stuttgart-8701dd91c6.jpg", // Wonderful Days Stuttgart — Reutlingen
+  716: "swg3-kimmic-49a7b3f3e4.jpg", // SWG3: Kimmic — Glasgow
+  717: "above-beyond-at-gaswrx-d42047e53d.jpg", // Above & Beyond at GASWRX — Birmingham
+  718: "chicane-at-the-palais-8eaed97c88.jpg", // Chicane at The Palais — Nottingham
+  720: "duel-club-57ec745753.jpg", // Cassius · Duel Club — Naples
+  721: "duke-dumont-at-3arena-bec430e8b5.jpg", // Duke Dumont at 3Arena — Dublin
+  723: "stereo-mcs-kino-siska-858ce4c932.jpg", // Stereo MCs · Kino Šiška — Ljubljana
+  724: "fakear-a-la-laiterie-ea2d6b599f.jpg", // Fakear à La Laiterie — Strasbourg
+  726: "cassius-club-360-5dad8235ac.jpg", // Cassius CLUB 360° — Copenhagen
+  727: "faceless-psycho-city-8d16b85908.jpg", // Faceless Psycho City — Oberhausen
+  728: "sky-club-halloween-1581337f15.jpg", // Sky Club Halloween — Leipzig
+  729: "digitalism-sala-wagon-0a2a3b9f6c.jpg", // Digitalism · Sala Wagon — Madrid
+  730: "teatro-kapital-7836db576d.jpg", // Sunnery James & Ryan Marciano · Teatro Kapital — Madrid
+  731: "technostate-bigbang-halloween-67ac4e2aaf.jpg", // Technostate BIGBANG Halloween — Stockholm
+  732: "kenton-slash-demon-at-store-vega-8b29431ff6.jpg", // Kenton Slash Demon at Store VEGA — Copenhagen
+  733: "hardline-purge-night-f59632cc1a.jpg", // HARDLINE: Purge Night — Vösendorf
+  734: "digitalism-la-2-de-apolo-0816e48f94.jpg", // Digitalism · La [2] de Apolo — Barcelona
+  735: "horrorland-halloween-festival-7348b2f52d.jpg", // Horrorland Halloween Festival — Ferrara
+  736: "fury-festival-razzmatazz-9d8b614a52.jpg", // Fury Festival · Razzmatazz — Barcelona
+  737: "fakear-au-splendid-c61bb6bcad.jpg", // Fakear au Splendid — Lille
+  738: "teletech-x-cnnct-helsinki-fb483be7fb.jpg", // Teletech x CNNCT Helsinki — Helsinki
+  739: "stvw-punk-rave-251b69ccdb.jpg", // STVW Punk Rave — Gothenburg
+  740: "prty-samuel-moriero-gate-milano-8ecdb716b3.jpg", // PRTY · Samuel Moriero · Gate Milano — Milan
+  743: "seltsamer-herbst-b5ac6f12b2.jpg", // Seltsamer Herbst — Leipzig
+  744: "basic-club-99af68086b.jpg", // Basic Club · NEUHM 15 ans — Naples
+  745: "studio-338-d8a3b398b6.jpg", // Vini Vici & Blastoyz at Studio 338 — London
+  746: "la-riviera-a3694dcd95.jpg", // Max Cooper · La Riviera — Madrid
+  747: "free-time-dusky-ff878dadfb.jpg", // Free Time: Dusky — Edinburgh
+  749: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à L'Étage — Rennes
+  750: "funk-tribu-gate-milano-764fa892ff.jpg", // Funk Tribu · Gate Milano — Milan
+  751: "maribou-state-hacienda-roma-5347f96632.jpg", // Maribou State · Hacienda Roma — Rome
+  752: "racket-space-2cf31ce85a.jpg", // Photek at Racket Space — Dublin
+  753: "the-prodigy-at-unity-arena-4d46123564.jpg", // The Prodigy at Unity Arena — Fornebu
+  754: "verknipt-oberhausen-a4cb2ac808.jpg", // Verknipt Oberhausen — Oberhausen
+  755: "o-der-klub-58b721f042.jpg", // NTO à O der Klub — Vienna
+  756: "wonderful-days-cologne-7943e7979e.jpg", // Wonderful Days Cologne — Cologne
+  757: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée au Family — Landerneau
+  758: "gabber-eleganza-q35-warehouse-aaebd8e7d2.jpg", // Gabber Eleganza · Q35 Warehouse — Turin
+  759: "swg3-jazzy-4db8085e0d.jpg", // Shine: Jazzy — Belfast
+  760: "dj-jean-at-cyprus-avenue-0871de6cfe.jpg", // DJ Jean at Cyprus Avenue — Cork
+  761: "the-prodigy-at-avicii-arena-dfd3688042.jpg", // The Prodigy at Avicii Arena — Stockholm
+  762: "auditorium-san-fedele-e884a2fd45.jpg", // Andy Stott · Auditorium San Fedele — Milan
+  763: "polaris-festival-fb01ca4c89.jpg", // Polaris Festival — Verbier
+  764: "trinix-at-pumpehuset-eb23db578c.jpg", // Trinix at Pumpehuset — Copenhagen
+  765: "the-ar-gang-show-b0378f256d.jpg", // The AR Gang Show — Düsseldorf
+  766: "phonox-a396663800.jpg", // Dusky at Phonox — London
+  767: "thuishaven-x-club-dart-87cfd298d8.jpg", // Thuishaven: X Club. & DART — Amsterdam
+  768: "la-cabane-les-halles-de-la-cartoucherie-1d41c9587c.jpg", // Chloé b2b Ivan Smagghe à La Cabane — Toulouse
+  769: "eden-nicole-moudaber-grace-dahl-fb292eb180.jpg", // EDEN · Nicole Moudaber & Grace Dahl — Athens
+  771: "razzmatazz-2-ec1f16aa6e.jpg", // Trinix · Razzmatazz — Barcelona
+  774: "mietze-conte-at-wigwam-1277f7df8c.jpg", // Mietze Conte at Wigwam — Dublin
+  775: "thekla-f31eb31e4a.jpg", // Ivy Lab at Thekla — Bristol
+  776: "maassilo-b139649497.jpg", // Loudness — Rotterdam
+  777: "fairground-festival-fe43f545e8.jpg", // FAIRGROUND Festival — Hanover
+  778: "outworld-klangkuenstler-92120c8e8c.jpg", // OUTWORLD · Klangkuenstler — Porto
+  779: "invaders-trip-to-japan-e10b3a7c0e.jpg", // INVADERS · Trip to Japan — Valencia
+  780: "interplanetary-criminal-at-the-prospect-building-041922c108.jpg", // Interplanetary Criminal at The Prospect Building — Bristol
+  782: "pact-au-rocher-de-palmer-80b79b4d8c.jpg", // PACT au Rocher de Palmer — Cenon
+  783: "hardshift-festival-ba2d704664.jpg", // Hardshift Festival — Munich
+  784: "interference-67cd28799e.jpg", // Joachim Pastor à l'Interférence — Balma
+  785: "le-109-ce85bfb204.jpg", // Acid Pauli au 109 — Nice
+  786: "document-5e0d57c204.jpg", // Sven Väth at DOCUMENT — Bristol
+  787: "space-rave-dacru-kuf-kuf-22ae592280.jpg", // Space Rave: Dacru & Kuf Kuf — Ghent
+  788: "vieze-asbak-b2b-kruelty-all-day-long-374fcbbdfd.jpg", // Vieze Asbak b2b Kruelty All Day Long — Amsterdam
+  789: "dawn-to-dusk-d9c8916e23.jpg", // Dawn To Dusk — Clermont-Ferrand
+  790: "techniques-charlotte-de-witte-a-athenes-b6f95f491e.jpg", // Techniques · Charlotte de Witte à Athènes — Athens
+  791: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à La Laiterie — Strasbourg
+  792: "thuishaven-42da57c8ff.jpg", // Winter of Love Festival — Amsterdam
+  793: "insane-strictly-hard-e1e2a0d3a3.jpg", // INSANE Strictly Hard — Hamburg
+  794: "ellen-allien-q35-warehouse-d831fc4695.jpg", // Ellen Allien · Q35 Warehouse — Turin
+  795: "sub-club-mr-scruff-81a326b0d4.jpg", // Sub Club: Mr Scruff — Glasgow
+  796: "blackstone-street-warehouse-a71dd0339c.jpg", // Tiësto at Blackstone Street Warehouse — Liverpool
+  797: "auditorium-san-fedele-e884a2fd45.jpg", // Pole & Luigi Tozzi · Auditorium San Fedele — Milan
+  798: "fly-sim0ne-2095547424.jpg", // FLY: sim0ne — Glasgow
+  799: "yan-wagner-a-la-cooperative-de-mai-60aabe9d91.jpg", // Yan Wagner à la Coopérative de Mai — Clermont-Ferrand
+  800: "invaders-ogalla-all-night-long-2457c1c51c.jpg", // INVADERS · Ogalla All Night Long — Valencia
+  801: "pat-b-birthday-bash-xxl-6cd10e96a4.jpg", // Pat B Birthday Bash XXL — Antwerp
+  802: "luminosity-19-years-anniversary-e0b58e8d42.jpg", // Luminosity 19 Years Anniversary — Amsterdam
+  803: "psy-spirits-042e531300.jpg", // Psy-Spirits — Hamburg
+  804: "verknipt-stadion-083b586282.jpg", // Verknipt Stadion — Zurich
+  805: "la-cabane-les-halles-de-la-cartoucherie-1d41c9587c.jpg", // Andhim à La Cabane — Toulouse
+  806: "live-las-ventas-3d12e57a01.jpg", // Jonas Blue · Las Ventas — Madrid
+  807: "swg3-jazzy-4db8085e0d.jpg", // SWG3: Jazzy — Glasgow
+  808: "kompass-klub-c5248c6751.jpg", // Full Circle: BYORN Invites — Ghent
+  809: "protoned-christmas-rave-daa7f3bd03.jpg", // Protoned Christmas Rave — Copenhagen
+  810: "army-of-hardcore-11b1606fad.jpg", // Army of Hardcore — Oberhausen
+  813: "underworld-at-princes-street-gardens-ff65c882bf.jpg", // Underworld at Princes Street Gardens — Edinburgh
+  814: "thuishaven-2d1ed8d666.jpg", // De Nieuwjaarsborrel — Amsterdam
+  815: "ghosttown-b5574808ac.jpg", // Ghosttown — Utrecht
+  816: "between-the-seas-winter-indoor-festival-c72a1ac4a2.jpg", // Between The Seas Winter Indoor Festival — Neumünster
+  817: "blawan-setaoc-mass-q35-warehouse-e92867b8f5.jpg", // Blawan & Setaoc Mass · Q35 Warehouse — Turin
+  818: "robot-rock-alive-au-zenith-de-dijon-ef1a03c93c.jpg", // Robot Rock Alive au Zénith de Dijon — Dijon
+  819: "robot-rock-alive-au-zenith-de-dijon-ef1a03c93c.jpg", // Robot Rock Alive au Summum — Grenoble
+  820: "supremacy-return-to-the-classics-6ea96f1a6d.jpg", // Supremacy – Return To The Classics — Utrecht
+  821: "nto-live-au-rocher-de-palmer-26db682f16.jpg", // NTO Live au Rocher de Palmer — Cenon
+  822: "robot-rock-alive-au-zenith-de-dijon-ef1a03c93c.jpg", // Robot Rock Alive à l'Arena Stade Couvert — Liévin
+  823: "thylacine-au-mem-8a3db85f88.jpg", // Thylacine au MeM — Rennes
+  825: "thylacine-au-mem-8a3db85f88.jpg", // Thylacine au 106 — Rouen
+  826: "alarico-q35-warehouse-ace998067b.jpg", // Alarico · Q35 Warehouse — Turin
+  827: "robot-rock-alive-au-zenith-de-dijon-ef1a03c93c.jpg", // Robot Rock Alive au Zénith de Nantes — Saint-Herblain
+  828: "thylacine-au-bikini-43ef0d7941.jpg", // Thylacine au Bikini — Ramonville-Saint-Agne
+  829: "nto-live-au-rocher-de-palmer-26db682f16.jpg", // NTO Live à La BAM — Metz
+  830: "apex-b79955d067.jpg", // APEX — Mannheim
+  831: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à la Coopérative de Mai — Clermont-Ferrand
+  832: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée au Splendid — Lille
+  833: "broiler-ingen-skal-hjem-55bd4d7e9f.jpg", // Broiler: Ingen Skal Hjem — Fornebu
+  834: "masters-of-hardcore-austria-95ca41cc6a.jpg", // Masters of Hardcore Austria — St. Pölten
+  835: "club-de-jour-invite-daft-funk-live-5033d5c17f.jpg", // Club de Jour invite Daft Funk Live — Nantes
+  836: "nameless-winter-06d98ec04f.jpg", // Nameless Winter — Barzio
+  837: "sala-but-895d1149d4.jpg", // NTO · Sala But — Madrid
+  838: "thylacine-au-mem-8a3db85f88.jpg", // Thylacine à La Laiterie — Strasbourg
+  839: "arena-rave-879046f099.jpg", // Arena Rave — Leipzig
+  840: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à La Vapeur — Dijon
+  842: "acid-arab-aux-docks-11cdf71911.jpg", // Acid Arab aux Docks — Lausanne
+  843: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à L'Autre Canal — Nancy
+  844: "gabry-ponte-unipol-arena-96beb020d7.jpg", // Gabry Ponte · Unipol Arena — Bologna
+  845: "elevate-festival-c5276c4620.jpg", // Elevate Festival — Graz
+  846: "gabry-ponte-unipol-arena-96beb020d7.jpg", // Gabry Ponte · Inalpi Arena — Turin
+  847: "gabry-ponte-unipol-arena-96beb020d7.jpg", // Gabry Ponte · Palazzo dello Sport — Rome
+  848: "zrce-spring-break-611bbfdd3b.jpg", // Zrce Spring Break — Novalja
+  849: "neopop-festival-d9050e48fc.jpg", // Neopop Festival — Viana do Castelo
 };
 /* PHOTOS:end */
 
@@ -1324,7 +1605,75 @@ export interface PhotoCredit {
   page: string;
 }
 /* PHOTO_CREDITS:start */
-export const PHOTO_CREDITS: Record<number, PhotoCredit> = {};
+export const PHOTO_CREDITS: Record<number, PhotoCredit> = {
+  73: { author: "W. Swinkels", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Dominator_Festival_2018.jpg" },
+  74: { author: "Amnesia Ibiza", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg" },
+  75: { author: "Amnesia Ibiza", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg" },
+  109: { author: "Cm elektricpark", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:La_Red_stage_lors_de_l%27%C3%A9dition_2023.jpg" },
+  113: { author: "Syced", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:2002_September_14,_Paris_techno_parade_23.jpg" },
+  119: { author: "KaiKnight2", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Syndicate_2022.jpg" },
+  120: { author: "Amnesia Ibiza", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Amnesia_Ibiza_Crowd_8.jpg" },
+  121: { author: "BOMBMAN", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Pacha_Ibiza_Party.jpg" },
+  130: { author: "Alissa020", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:AFAS_Live_show.jpg" },
+  138: { author: "Plyd", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Public_des_Trans_Musicales_2024,_1.jpg" },
+  139: { author: "KaiKnight2", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Thunderdome_2017_Hauptb%C3%BChne.jpg" },
+  141: { author: "Udo Siegfriedt", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Amnesia_Scanner_%26_Freeka_Tet.jpg" },
+  144: { author: "Lucas Gavi", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Alok_Tomorrowland_Winter_2025.jpg" },
+  148: { author: "Snowbombing (compte officiel)", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Snowbombing_Street_Party.jpg" },
+  149: { author: "Wikimedia Commons", license: "CC BY-SA", page: "https://commons.wikimedia.org/wiki/File:Mayday_2009_dortmund_halle_1.jpg" },
+  150: { author: "Sebleouf", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Nuits_Sonores_2026_%C3%A0_La_Sucri%C3%A8re_(2).jpg" },
+  156: { author: "Nachetere", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:S%C3%B3nar_by_Day_2016.jpg" },
+  158: { author: "Blyra92", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Red_Stage_Defqon.1_Weekend_Festival_2022.jpg" },
+  160: { author: "MadBob", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Kappa_Futur_Festival_2025_-_Futur_Stage.jpg" },
+  162: { author: "Rudgrcom", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Dutch_DJ_Dash_Berlin_performing_at_the_Ultra_Europe_mainstage_in_2026.jpg" },
+  166: { author: "BigSus", license: "CC BY 2.5", page: "https://commons.wikimedia.org/wiki/File:Monegros_Desert_Festival_-_Vista_general.jpg" },
+  220: { author: "Random photos 1989", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg" },
+  226: { author: "Runolist", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Tvornica_kulture_west_entrance%2C_Zagreb%2C_2025.jpg" },
+  239: { author: "Roman G", license: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:Gusgus_At_Airwaves_2012_%2825283669%29.jpeg" },
+  251: { author: "Drew de F Fawkes", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Megan_Black%2C_Tallinn_Music_Week%2C_Estonia.jpg" },
+  253: { author: "Krists Luhaers", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Copenhagen_Distortion_2016_IMG_0186_%2827382172611%29.jpg" },
+  256: { author: "Gary Brown (photograph) Hideout Festival (sculpture of logo)", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Hideout_Festival%2C_Zr%C4%87e_Beach.jpg" },
+  257: { author: "Tadeáš Bednarz", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:ING_Love_stage%2C_Beats_for_Love_2019_01.jpg" },
+  258: { author: "UAME Music Saves Ukraine", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Pohoda_Festival_Mainstage_opening_2022.jpg" },
+  261: { author: "Andivanca", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Electric_Castle_-_Castle_Shot.jpg" },
+  317: { author: "C. Stadler", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Wien_-_Galopprennbahn_(1).JPG" },
+  322: { author: "Rayukk", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Amelie_Lens_06_2022.jpg" },
+  323: { author: "karmakolle", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg" },
+  333: { author: "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg" },
+  334: { author: "ftf", license: "CC BY-SA 2.5", page: "https://commons.wikimedia.org/wiki/File:TDK_Time_Warp_2006.jpg" },
+  347: { author: "Diego Castro", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Hinterhof_Floor.jpg" },
+  349: { author: "Birgit Kaulfuss", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Press_Pic_0125asw_modeselektor_2018_photo_birgit_kaulfuss.jpg" },
+  356: { author: "MadBob", license: "CC BY 4.0", page: "https://commons.wikimedia.org/wiki/File:Kappa_Futur_Festival_2025_-_Esibizione_di_Boris_Brejcha.jpg" },
+  357: { author: "karmakolle", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg" },
+  362: { author: "Wikimedia Commons", license: "CC BY-SA", page: "https://commons.wikimedia.org/wiki/File:Ritter_Butzke_Nightclub_Berlin_DJs_1.jpg" },
+  367: { author: "Wikimedia Commons", license: "CC BY-SA", page: "https://commons.wikimedia.org/wiki/File:Ritter_Butzke_Nightclub_Berlin_DJ_Booth.jpg" },
+  369: { author: "Aykevanlaethem", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Maduk_Liquicity_Festival_2015.jpg" },
+  378: { author: "Diego Castro", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Hinterhof_Floor.jpg" },
+  380: { author: "Stefan Steinmetz", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Reverze_-_Stefan_Steinmetz.jpg" },
+  389: { author: "Tobias Franz", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:World_Club_Dome_2013.jpg" },
+  390: { author: "Robert Adrian Sepp", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Monika_Kruse_Ikarus_Festival_2017.jpg" },
+  392: { author: "roger architect", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Ruhr_in_Love_2007_Oberhausen.jpg" },
+  394: { author: "Ss279", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Electric_Love_2021_Main.jpg" },
+  395: { author: "Getfitvi", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Ostend_beach_festival.jpg" },
+  396: { author: "Artem Kavalerov", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Boom_Flame_%28184154043%29.jpeg" },
+  422: { author: "Thesupermat", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_006.jpg" },
+  426: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Salle_Spectacle_Bataclan_-_Paris_XI_(FR75)_-_2026-01-18_-_1.jpg" },
+  430: { author: "KoS", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Olympia_salle.jpg" },
+  432: { author: "Maxime Gruss", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:La_Cigale._Photography_Maxime_Gruss.jpg" },
+  433: { author: "Winniepix", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg" },
+  440: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg" },
+  445: { author: "Llann Wé²", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:W4943_Nantes_Stereolux_UltraVomit_Scene_25851XA2.jpg" },
+  447: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_%C3%89lys%C3%A9e_Montmartre_Paris_2.jpg" },
+  448: { author: "Noé", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Trivium_8_f%C3%A9vrier_2023_%C3%A0_Villeurbanne.jpg" },
+  449: { author: "Drew de F Fawkes", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg" },
+  450: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg" },
+  451: { author: "Arthur Weidmann from Paris, France", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Olympia%2C_Paris_2_April_2018.jpg" },
+  452: { author: "Annielogue", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Darkside-Le-Bikini-Toulouse-June-11-2023.jpg" },
+  455: { author: "Simon Q from United Kingdom", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg" },
+  489: { author: "foldscheap", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Open_Air.jpg" },
+  493: { author: "Tim Gage", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:Wilde_Renate_Berlin_Courtyard.jpg" },
+  657: { author: "Wayne 1313", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Open_Beatz_Herzogenaurach_Feuerwerk_Closing_Show_Fotografie.jpg" },
+};
 /* PHOTO_CREDITS:end */
 
 /** Le crédit à afficher sous la photo d'un événement, s'il y en a un à afficher. */

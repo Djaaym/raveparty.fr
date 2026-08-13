@@ -197,7 +197,10 @@ def commons_credit(row):
     if not lic or not author:
         return None
     page = (row.get("sourcePage") or "").strip()
-    return author, lic.group(1).upper().replace(" ", "-").replace("CC-BY", "CC BY"), page
+    # « CC BY-SA 4.0 », quelle que soit la ponctuation d'entrée : on ramène tout à des
+    # espaces puis on recolle le seul trait d'union qui compte, celui de BY-SA.
+    label = re.sub(r"[-\s]+", " ", lic.group(1).upper()).replace("BY SA", "BY-SA")
+    return author, label, page
 
 
 def patch_credits_ts(credits, events, dry):
@@ -218,7 +221,7 @@ def patch_credits_ts(credits, events, dry):
     return len(lines)
 
 
-def patch_data_ts(mapping, events, dry):
+def patch_data_ts(mapping, events, dry, drop=()):
     """Réécrit la map PHOTOS entre les deux marqueurs de lib/data.ts.
 
     La map est reconstruite intégralement à chaque passage, ce qui a un effet de bord
@@ -233,8 +236,11 @@ def patch_data_ts(mapping, events, dry):
     i0, j0 = src.index(START) + len(START), src.index(END)
     previous = {int(m.group(1)): m.group(2)
                 for m in re.finditer(r'^\s*(\d+): "([^"]+)"', src[i0:j0], re.M)}
+    # `drop` prime sur la reprise : une entrée retirée volontairement (fichier Commons
+    # sans attribution) ne doit pas revenir par la porte du garde-fou.
     kept_back = [eid for eid, f in previous.items()
-                 if eid not in mapping and eid in events and (OUT_DIR / f).exists()]
+                 if eid not in mapping and eid not in drop
+                 and eid in events and (OUT_DIR / f).exists()]
     for eid in kept_back:
         mapping[eid] = previous[eid]
     if kept_back:
@@ -316,6 +322,7 @@ def main():
     # les fichiers Commons des anciens lots, tous déjà sur le disque, sans en obtenir
     # un seul. On saute donc ce qui est déjà ingéré et dont le fichier est là — le
     # résultat est identique, `patch_data_ts()` réinjectant ces entrées de toute façon.
+    mapping, by_hash, rejected = {}, {}, []
     src_now = DATA_TS.read_text()
     i0, j0 = src_now.index(START) + len(START), src_now.index(END)
     done = {int(m.group(1)): m.group(2)
@@ -324,13 +331,26 @@ def main():
                     if all(g["id"] in done and (OUT_DIR / done[g["id"]]).exists() for g in grp)]
     if not args.refetch:
         for u in skipped_urls:
+            # On reporte le fichier déjà connu dans `mapping` au lieu d'oublier l'entrée :
+            # sauter un téléchargement ne doit pas revenir à sauter l'événement. Sans ça,
+            # un run où tout est déjà ingéré finit avec un `mapping` vide — et la map
+            # n'est alors pas réécrite du tout, donc aucun retrait volontaire ne s'applique.
+            for g in by_url[u]:
+                mapping[g["id"]] = done[g["id"]]
             del by_url[u]
         print(f"{len(skipped_urls)} URL(s) déjà ingérées et présentes sur disque — ignorées "
               f"(--refetch pour les reprendre)")
     print(f"{len(by_url)} URLs distinctes à télécharger\n")
 
-    mapping, by_hash, rejected = {}, {}, []
+    # Calculé sur *toutes* les entrées, y compris celles dont l'URL est sautée : une
+    # attribution dépend du lot de recherche, pas d'un téléchargement du jour.
     credits, unattributed = {}, []
+    for e in entries:
+        c = commons_credit(e)
+        if c:
+            credits[e["id"]] = c
+        elif "upload.wikimedia.org" in e["url"]:
+            unattributed.append((e["id"], e["src"], e.get("credit")))
     for i, (url, group) in enumerate(sorted(by_url.items()), 1):
         raw = b""
         for cand in candidates(url):
@@ -362,11 +382,6 @@ def main():
             # L'attribution suit le fichier, pas le lot : elle est donc recalculée à
             # chaque passage, ce qui rattrape aussi les entrées Commons ingérées avant
             # que la map existe.
-            c = commons_credit(g)
-            if c:
-                credits[g["id"]] = c
-            elif "upload.wikimedia.org" in g["url"]:
-                unattributed.append((g["id"], g["src"], g.get("credit")))
 
     # Un fichier Commons sans auteur ni licence lisibles ne peut pas être publié : le
     # crédit est la condition de la licence. On le retire plutôt que de le servir nu.
@@ -375,7 +390,7 @@ def main():
         rejected.append((f"(id {eid})", "Commons sans attribution", [eid]))
         print(f"  ✗ attribution absente  id={eid} ({src_file}) credit={raw_credit!r}")
 
-    n = patch_data_ts(mapping, events, args.dry) if mapping else 0
+    n = patch_data_ts(mapping, events, args.dry, {e[0] for e in unattributed})
     nc = patch_credits_ts(credits, events, args.dry)
     still = [i for i in events if i not in already and i not in mapping]
     print(f"\n{'—' * 60}")

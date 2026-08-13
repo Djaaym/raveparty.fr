@@ -2,8 +2,8 @@
  {
   "id": 451,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Olympia%2C_Paris_2_April_2018.jpg/1280px-Olympia%2C_Paris_2_April_2018.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Olympia,_Paris_2_April_2018.jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Olympia%2C_Paris_2_April_2018.jpg",
+  "credit": "Arthur Weidmann from Paris, France / Wikimedia Commons, CC BY-SA 2.0",
   "kind": "venue",
   "width": 1280,
   "note": "façade et enseigne rouge de l'Olympia, Paris"
@@ -12,7 +12,7 @@
   "id": 447,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Th%C3%A9%C3%A2tre_%C3%89lys%C3%A9e_Montmartre_Paris_2.jpg/1280px-Th%C3%A9%C3%A2tre_%C3%89lys%C3%A9e_Montmartre_Paris_2.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_%C3%89lys%C3%A9e_Montmartre_Paris_2.jpg",
-  "credit": "Wikimedia Commons",
+  "credit": "Chabe01 / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "façade de l'Élysée Montmartre, boulevard de Rochechouart"
@@ -21,7 +21,7 @@
   "id": 432,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/La_Cigale._Photography_Maxime_Gruss.jpg/1280px-La_Cigale._Photography_Maxime_Gruss.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:La_Cigale._Photography_Maxime_Gruss.jpg",
-  "credit": "Maxime Gruss / Wikimedia Commons",
+  "credit": "Maxime Gruss / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "entrée et enseigne lumineuse de La Cigale de nuit"
@@ -30,7 +30,7 @@
   "id": 448,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Trivium_8_f%C3%A9vrier_2023_%C3%A0_Villeurbanne.jpg/1280px-Trivium_8_f%C3%A9vrier_2023_%C3%A0_Villeurbanne.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:Trivium_8_f%C3%A9vrier_2023_%C3%A0_Villeurbanne.jpg",
-  "credit": "Wikimedia Commons",
+  "credit": "Noé / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "salle du Transbordeur en concert (fosse pleine, lumières)"
@@ -39,7 +39,7 @@
   "id": 445,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/W4943_Nantes_Stereolux_UltraVomit_Scene_25851XA2.jpg/1280px-W4943_Nantes_Stereolux_UltraVomit_Scene_25851XA2.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:W4943_Nantes_Stereolux_UltraVomit_Scene_25851XA2.jpg",
-  "credit": "Wikimedia Commons",
+  "credit": "Llann Wé² / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "scène du Stereolux à Nantes (retours siglés Stereolux)"
@@ -48,7 +48,7 @@
   "id": 452,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Darkside-Le-Bikini-Toulouse-June-11-2023.jpg/1280px-Darkside-Le-Bikini-Toulouse-June-11-2023.jpg",
   "sourcePage": "https://commons.wikimedia.org/wiki/File:Darkside-Le-Bikini-Toulouse-June-11-2023.jpg",
-  "credit": "Wikimedia Commons",
+  "credit": "Annielogue / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "scène du Bikini (Darkside, juin 2023) — fumée et lumières rouges"
@@ -56,8 +56,8 @@
  {
   "id": 455,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg/1280px-La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:La_Machine_du_Moulin_Rouge,_Paris_October_2011.jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:La_Machine_du_Moulin_Rouge%2C_Paris_October_2011.jpg",
+  "credit": "Simon Q from United Kingdom / Wikimedia Commons, CC BY 2.0",
   "kind": "venue",
   "width": 1280,
   "note": "façade de nuit de La Machine du Moulin Rouge"
@@ -65,8 +65,8 @@
  {
   "id": 449,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg/1280px-Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Parcels,_La_Laiterie_Club,_Strasbourg_(32881900007).jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Parcels%2C_La_Laiterie_Club%2C_Strasbourg_%2832881900007%29.jpg",
+  "credit": "Drew de F Fawkes / Wikimedia Commons, CC BY 2.0",
   "kind": "venue",
   "width": 1280,
   "note": "scène du club de La Laiterie à Strasbourg"
@@ -146,8 +146,8 @@
  {
   "id": 433,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg/1280px-Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan,_Fance_(54509643284).jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Le_Grenat_-_the_auditorium_section_of_the_Th%C3%A9%C3%A2tre_Archipel_in_Perpignan%2C_Fance_%2854509643284%29.jpg",
+  "credit": "Winniepix / Wikimedia Commons, CC BY 2.0",
   "kind": "venue",
   "width": 1280,
   "note": "« Le Grenat », coque rouge emblématique de L'Archipel à Perpignan"
@@ -155,8 +155,8 @@
  {
   "id": 440,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg/1280px-Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_(FR92)_-_2025-01-11_-_17.jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Concert_Kaaris_Or_Noir_Paris_D%C3%A9fense_Arena_-_Nanterre_%28FR92%29_-_2025-01-11_-_17.jpg",
+  "credit": "Chabe01 / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "salle comble en configuration concert à la Plenitude Arena (ex-Paris La Défense Arena), Nanterre"
@@ -164,8 +164,8 @@
  {
   "id": 450,
   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg/1280px-Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Z%C3%A9nith_Paris_-_Paris_XIX_(FR75)_-_2025-05-18_-_1.jpg",
-  "credit": "Wikimedia Commons",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Z%C3%A9nith_Paris_-_Paris_XIX_%28FR75%29_-_2025-05-18_-_1.jpg",
+  "credit": "Chabe01 / Wikimedia Commons, CC BY-SA 4.0",
   "kind": "venue",
   "width": 1280,
   "note": "entrée rouge et enseigne « Zénith Paris La Villette »"
