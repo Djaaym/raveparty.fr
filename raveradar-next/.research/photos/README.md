@@ -62,3 +62,19 @@ publiée par l'organisateur.
 **Bloqué par le proxy (403/429), ne pas insister** : Resident Advisor (`ra.co`), Shotgun,
 `agendaculturel.fr`, infoconcert. Chromium/Playwright n'a aucun accès réseau : les sites rendus
 uniquement en JS sont hors de portée, passez au suivant.
+
+## Vérifier avec les en-têtes de l'ingest, pas avec les vôtres
+
+`ingest.py` télécharge **sans `Referer`**. Une image qui n'apparaît que parce que votre `curl`
+en envoyait un n'arrivera donc jamais dans `public/posters/` — ou pire, arrivera transformée.
+
+Le cas est réel : `static.djguide.nl` sert un **placeholder 500×500 identique pour tous les
+événements** (79 912 octets) dès que le `Referer` manque. Une entrée par événement, toutes
+« valides » au sens du content-type, toutes la même image — et `ingest.py` les aurait dédupliquées
+par hash en n'en gardant qu'une, posée au hasard sur une fiche. `djguide.nl` reste un très bon
+**annuaire** d'événements NL/BE (avec un User-Agent navigateur, sinon 403), mais ses images ne
+sont pas exploitables.
+
+D'où la règle : **re-vérifiez chaque URL retenue avec un `curl` nu**, sans `-e` / `--referer`,
+et méfiez-vous de deux images de poids strictement identique — c'est la signature d'un
+placeholder servi à la place du vrai fichier.

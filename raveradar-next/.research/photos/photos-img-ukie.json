@@ -358,5 +358,32 @@
   "kind": "venue",
   "width": 983,
   "note": "photo du dancefloor de Phonox, illustrant la page de la date (sam. 21 nov.)"
+ },
+ {
+  "id": 813,
+  "image": "https://s3.eu-west-2.amazonaws.com/cdn2.edwinterfest.com/Concert%20in%20the%20Gardens%2C%20Fireworks.jpg",
+  "sourcePage": "https://www.edinburghshogmanay.com/hogmanay/whats-on",
+  "credit": "Edinburgh's Hogmanay",
+  "kind": "festival",
+  "width": 2048,
+  "note": "photo officielle du Concert in the Gardens (Princes Street Gardens, feu d'artifice sur le chateau)"
+ },
+ {
+  "id": 718,
+  "image": "https://thepalais.s3.eu-north-1.amazonaws.com/1779444988329_Chicane-ThePalais-October2026-SQ%20%281%29.jpg",
+  "sourcePage": "https://www.thepalais.co.uk/events/an-evening-with-chicane-24-10-2026",
+  "credit": "The Palais Nottingham / New Vision & Goodgreef",
+  "kind": "event",
+  "width": 2048,
+  "note": "affiche officielle de la date (sam. 24 oct. 2026, The Palais Nottingham)"
+ },
+ {
+  "id": 674,
+  "image": "https://joshuabrooks.co.uk/wp-content/uploads/2024/10/JB_BG_49.jpg",
+  "sourcePage": "https://joshuabrooks.co.uk/about/",
+  "credit": "Joshua Brooks Manchester",
+  "kind": "venue",
+  "width": 2560,
+  "note": "photo de la salle publiee par le lieu (facade - a remplacer si une photo de club apparait)"
  }
 ]

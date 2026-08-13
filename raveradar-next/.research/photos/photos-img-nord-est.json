@@ -340,5 +340,50 @@
   "kind": "event",
   "width": 1430,
   "note": "affiche officielle Worakls au Tama, 23.10.2026"
+ },
+ {
+  "id": 598,
+  "image": "https://akvariumklub.hu/wp-content/uploads/2026/06/FlX40.jpg",
+  "sourcePage": "https://akvariumklub.hu/programok/akvawaves-invites-ely-oaks-360-nagyhall/",
+  "credit": "Akvárium Klub Budapest",
+  "kind": "event",
+  "width": 1280,
+  "note": "visuel officiel de la date AkvaWaves invites Ely Oaks (16 octobre 2026)"
+ },
+ {
+  "id": 624,
+  "image": "https://d3u845fx6txnqz.cloudfront.net/events/N451-concerts-MODESTEP.jpg",
+  "sourcePage": "https://ticketstation.bg/bg/e24453-modestep-fomo-the-club",
+  "credit": "Modestep / FOMO the club Sofia",
+  "kind": "event",
+  "width": 573,
+  "note": "affiche officielle Modestep, FOMO Sofia, 06 novembre 2026"
+ },
+ {
+  "id": 637,
+  "image": "https://berns.se/wp-content/uploads/2023/10/Nuet-Black-Coffe-2022DSC01215.webp",
+  "sourcePage": "https://berns.se/nightlife/",
+  "credit": "Berns Stockholm",
+  "kind": "venue",
+  "width": 1500,
+  "note": "grande salle de Berns en soiree, photo officielle du club"
+ },
+ {
+  "id": 833,
+  "image": "https://img.broadcastapp.no/venues/event_iyVkDGzwJ/tr:w-1600",
+  "sourcePage": "https://www.broadcast.events/events/broiler-ingen-skal-hjem-tour/vD2XhnE7b8",
+  "credit": "Broiler / Sky Agency",
+  "kind": "event",
+  "width": 1600,
+  "note": "affiche officielle Broiler Ingen Skal Hjem Tour, Unity Arena 13 fevrier 2027"
+ },
+ {
+  "id": 659,
+  "image": "https://dynamicmedia.livenationinternational.com/t/j/z/0ab5bf47-5da8-403c-a099-e2cdad82b9fc.jpg",
+  "sourcePage": "https://www.livenation.com/event/intl_1623230/swedish-house-mafia",
+  "credit": "Swedish House Mafia / Live Nation",
+  "kind": "event",
+  "width": 2447,
+  "note": "visuel officiel de la date Ullevi du 28.08.2026"
  }
 ]

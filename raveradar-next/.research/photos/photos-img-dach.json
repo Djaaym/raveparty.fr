@@ -99,15 +99,6 @@
     "note": "photo officielle de la mainstage Masters of Hardcore"
   },
   {
-    "id": 666,
-    "image": "https://www.mastersofhardcore.com/wp-content/uploads/2019/07/180325_043544_moh_delio_highres-1280x720.jpg",
-    "sourcePage": "https://www.mastersofhardcore.com/",
-    "credit": "Masters of Hardcore",
-    "kind": "festival",
-    "width": 1280,
-    "note": "photo officielle de la mainstage Masters of Hardcore"
-  },
-  {
     "id": 727,
     "image": "https://www.harderdates.de/wp-content/uploads/2026/04/658203826_18097819241006191_1675336361126550135_n.jpg",
     "sourcePage": "https://www.harderdates.de/event/faceless-presents-psycho-city/2026-10-30/",
@@ -259,5 +250,68 @@
     "kind": "festival",
     "width": 5315,
     "note": "photo officielle du festival au Dom im Berg (Graz)"
+  },
+  {
+    "id": 733,
+    "image": "https://www.volume.at/cdn/event/PhotoshopExtension_Image-6-1280x720__photo_x2.jpeg",
+    "sourcePage": "https://www.volume.at/events/hardline-purge-night-2026-10-31/",
+    "credit": "Hardline",
+    "kind": "event",
+    "width": 1280,
+    "note": "affiche officielle Hardline pres. Purge Night — 31 October 2026, Eventarena Voesendorf"
+  },
+  {
+    "id": 765,
+    "image": "https://ar-gang.de/wp-content/uploads/21NOV26-ARGANG-1920x1080-Header.jpg",
+    "sourcePage": "https://ar-gang.de/",
+    "credit": "AR Gang / Musical Madness",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel The AR Gang Show — November 21st, Mitsubishi Electric Halle Duesseldorf"
+  },
+  {
+    "id": 816,
+    "image": "https://cdn.prod.website-files.com/67f8faf1cb756dd8707b9729%2F6881f4a4ec18392a6ff5b7a4_website%20video%20bts%20indoor-poster-00001.jpg",
+    "sourcePage": "https://www.festival-sh.de/bts-winter",
+    "credit": "Between The Seas Festival",
+    "kind": "festival",
+    "width": 1280,
+    "note": "photo officielle du Winter Indoor Festival (booth Between The Seas, Holstenhallen)"
+  },
+  {
+    "id": 839,
+    "image": "https://arena-rave.de/wp-content/uploads/2025/12/20251108-KB-Media-ArenaRave-Preview-7.jpg",
+    "sourcePage": "https://arena-rave.de/",
+    "credit": "Arena Rave / KB Media",
+    "kind": "festival",
+    "width": 1620,
+    "note": "photo officielle de la mainstage Arena Rave (l'affiche datee 20-02-2027 existe aussi: https://www.leipziginfo.de/fileadmin/content/aktuelles/2026/04/arena-rave-leipzig-messe.jpg, 800px)"
+  },
+  {
+    "id": 663,
+    "image": "https://www.fogstudio.ch/wp-content/uploads/2025/01/DSCF1289.jpg",
+    "sourcePage": "https://www.fogstudio.ch/",
+    "credit": "FOG Festival (Festival offener Genres), Basel",
+    "kind": "festival",
+    "width": 1365,
+    "note": "photo officielle d'une performance du festival, publiee par l'organisateur"
+  },
+  {
+    "id": 666,
+    "image": "https://www.halle622.ch/.imaging/mte/maag-theme/large/dam/event/Drittevents/2026/09_September/Masters-of-Hardcore/Screenshot-2026-06-29-121838.jpg/jcr:content/Screenshot%202026-06-29%20121838.jpg",
+    "sourcePage": "https://www.halle622.ch/622/de/events.html",
+    "credit": "Masters of Hardcore / Halle 622",
+    "kind": "event",
+    "width": 1200,
+    "note": "affiche officielle Masters of Hardcore World Club Tour — 26.09.26, Halle 622 Zurich, line-up complet"
+  },
+  {
+    "id": 668,
+    "image": "https://www.halle622.ch/.imaging/mte/maag-theme/large/dam/event/Drittevents/2026/10_Okt./Hive-Air/HA_klein.jpg/jcr:content/HA_klein.jpg",
+    "sourcePage": "https://www.halle622.ch/622/de/events.html",
+    "credit": "Hive Air / Halle 622",
+    "kind": "event",
+    "width": 1200,
+    "note": "affiche officielle Hive Air presents Shimza & Co — october 3rd 2026, Halle 622 Zurich"
   }
 ]

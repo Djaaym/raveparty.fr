@@ -304,5 +304,23 @@
     "kind": "event",
     "width": 2160,
     "note": "affiche officielle de la date (05 December 2026 · AFAS Live, Amsterdam)"
+  },
+  {
+    "id": 787,
+    "image": "https://cdn-az.allevents.in/events2/banners/02eb650ca26af4bea1fb9bd6fc63d09f1fbbd92a2fe6518ee185054fcd75718c-rimg-w1200-h600-dc281818-gmir?v=1786433608",
+    "sourcePage": "https://allevents.in/gent/%E2%97%89%E2%97%8E-space-rave-%E2%97%8E%E2%97%89-dacru-and-kuf-kuf/200026877487826",
+    "credit": "Dacru Records & KUF KUF",
+    "kind": "event",
+    "width": 1200,
+    "note": "affiche officielle de la soirée (line-up KUF KUF ROOM / DACRU ROOM) ; la page confirme startDate 2026-12-05 à De Chinastraat. chinastraat.be n'a pas d'agenda et ra.co est bloqué"
+  },
+  {
+    "id": 679,
+    "image": "https://static.wixstatic.com/media/0675e9_07b7022ec01f4089872fa643c7c168b8~mv2.jpg",
+    "sourcePage": "https://www.losninos.be/los-ninos-183",
+    "credit": "Los Niños",
+    "kind": "festival",
+    "width": 1800,
+    "note": "photo de soirée Los Niños publiée par l'organisateur sur la page de cette date (FRI 16 OCT 2026 — QUEER BERLIN, C12) ; c12.brussels est bloqué depuis le conteneur"
   }
 ]
