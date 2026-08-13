@@ -680,5 +680,196 @@
     "sources": [
       "https://pumpehuset.dk/en/koncerter/protoned-christmas-rave-5/"
     ]
+  },
+  {
+    "title": "Vieze Asbak b2b Kruelty All Day Long",
+    "type": "Rave",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3128,
+    "lng": 4.9448,
+    "date": "2026-12-05",
+    "time": "17:00 - 00:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "AFAS Live",
+    "trending": false,
+    "lineup": [
+      "Vieze Asbak",
+      "Kruelty"
+    ],
+    "desc": "Hagen Festivals (Free Your Mind) offre l'AFAS Live entier — 7 000 places — à un seul b2b : Vieze Asbak et Kruelty enchaînent sept heures de hard techno, de 17h à minuit. Aucune première partie, aucun autre nom : les deux Néerlandais tiennent la salle du début à la fin. La date est complète.",
+    "descEn": "Hagen Festivals (Free Your Mind) hands the whole 7,000-capacity AFAS Live to a single b2b: Vieze Asbak and Kruelty play seven straight hours of hard techno, 17:00 to midnight. No support, no other names — the two Dutch DJs hold the room from start to finish. The date is sold out.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/567101/vieze-asbak-b2b-kruelty-all-day-long?language=en",
+      "https://www.afaslive.nl/"
+    ]
+  },
+  {
+    "title": "Winter of Love Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno",
+      "Trance"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2026-12-12",
+    "time": "13:00 - 23:00",
+    "price": 35.95,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [
+      "Darren Emerson",
+      "Jam el Mar",
+      "Sander Kleinenberg",
+      "Alexander Koning"
+    ],
+    "desc": "Édition hivernale du Winter of Love sur le terrain du Thuishaven, à Contactweg : dix heures de 13h à 23h, jauge 1 200 personnes. Le plateau est bâti sur des figures des années 90 — Darren Emerson (Underworld), Jam el Mar (Jam & Spoon) et Sander Kleinenberg, avec Alexander Koning. Prévente à 35,95 €, d'autres noms à venir.",
+    "descEn": "Winter edition of Winter of Love on the Thuishaven grounds at Contactweg: ten hours from 13:00 to 23:00, capacity 1,200. The bill is built on 90s figures — Darren Emerson (Underworld), Jam el Mar (Jam & Spoon) and Sander Kleinenberg, plus Alexander Koning. Presale 35.95 EUR, more names to come.",
+    "sources": [
+      "https://www.djguide.nl/party.p/569927/winter-of-love-festival-2026?language=en",
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "Luminosity 19 Years Anniversary",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3648,
+    "lng": 4.8813,
+    "date": "2026-12-19",
+    "time": "23:59 - 06:00",
+    "price": 29.9,
+    "currency": "€",
+    "venue": "Melkweg",
+    "trending": false,
+    "lineup": [],
+    "desc": "Luminosity, l'organisateur trance néerlandais du Beach Festival de Bloemendaal, fête ses dix-neuf ans par une journée puis une nuit. Le volet nocturne se tient au Melkweg, de minuit à 6h. Le line-up sera confirmé plus tard ; prévente à 29,90 €.",
+    "descEn": "Luminosity, the Dutch trance promoter behind the Bloemendaal Beach Festival, marks nineteen years with a day session and then a night one. The night half runs at Melkweg, from midnight to 06:00. The line-up is to be confirmed; presale 29.90 EUR.",
+    "sources": [
+      "https://www.djguide.nl/party.p/561510/luminosity-19-year-anniversary?language=en",
+      "https://luminosity-events.nl/"
+    ]
+  },
+  {
+    "title": "De Nieuwjaarsborrel",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.394,
+    "lng": 4.836,
+    "date": "2027-01-09",
+    "time": "13:00 - 23:00",
+    "price": 33.45,
+    "currency": "€",
+    "venue": "Thuishaven",
+    "trending": false,
+    "lineup": [],
+    "desc": "The Promised Land ouvre l'année sur le terrain du Thuishaven avec son « apéro du Nouvel An » : dix heures en plein hiver, de 13h à 23h, pour 1 200 personnes. Prévente à 33,45 €, réservé aux 18 ans et plus. Le line-up n'est pas encore publié.",
+    "descEn": "The Promised Land opens the year on the Thuishaven grounds with its 'New Year's drink': ten hours in midwinter, 13:00 to 23:00, for 1,200 people. Presale 33.45 EUR, 18+. The line-up has not been published yet.",
+    "sources": [
+      "https://www.djguide.nl/party.p/553490/de-nieuwjaarsborrel-2027?language=en",
+      "https://thuishaven.nl/"
+    ]
+  },
+  {
+    "title": "Ghosttown",
+    "type": "Rave",
+    "genres": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0924,
+    "lng": 5.1128,
+    "date": "2027-01-09",
+    "time": "22:00 - 06:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "TivoliVredenburg",
+    "trending": false,
+    "lineup": [],
+    "desc": "Dance 2 Eden ramène Ghosttown dans les salles empilées du TivoliVredenburg, en plein centre d'Utrecht : une nuit hardcore à partir de 22h. Le line-up sera annoncé, le tarif n'est pas encore publié.",
+    "descEn": "Dance 2 Eden brings Ghosttown back to the stacked halls of TivoliVredenburg in central Utrecht: a hardcore night from 22:00. The line-up is to be announced and the price is not yet published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/554426/ghosttown-2027?language=en",
+      "https://www.ghosttown.nl/"
+    ]
+  },
+  {
+    "title": "Supremacy – Return To The Classics",
+    "type": "Festival",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "lat": 52.0894,
+    "lng": 5.1066,
+    "date": "2027-01-16",
+    "time": "13:00 - 23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Jaarbeurs",
+    "trending": true,
+    "lineup": [],
+    "desc": "Art of Dance replie Supremacy sur son répertoire d'origine : des sets live exclusifs consacrés à l'époque qui a façonné la marque, dans les halls de la Jaarbeurs d'Utrecht à partir de 13h. Réservé aux 18 ans et plus ; line-up et tarif à venir.",
+    "descEn": "Art of Dance turns Supremacy back on its own history: exclusive live sets devoted to the era that shaped the brand, in the Jaarbeurs halls in Utrecht from 13:00. 18+; line-up and pricing still to come.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/556114/supremacy-2027-return-to-the-classics?language=en",
+      "https://www.supremacy.nl/"
+    ]
+  },
+  {
+    "title": "PACT: Joachim Pastor, Joris Delacroix & Teho",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.3672,
+    "lng": 4.8548,
+    "date": "2027-01-23",
+    "time": "16:00 - 00:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Het Sieraad",
+    "trending": false,
+    "lineup": [
+      "Joachim Pastor",
+      "Joris Delacroix",
+      "Teho"
+    ],
+    "desc": "PACT réunit trois producteurs français de melodic techno — Joachim Pastor, Joris Delacroix et Teho — pour un live commun dans l'ancienne école d'Het Sieraad, à Amsterdam-Ouest. De 16h à minuit, jauge 1 400 places. Le tarif n'est pas encore publié.",
+    "descEn": "PACT brings three French melodic techno producers together — Joachim Pastor, Joris Delacroix and Teho — for a joint live show in the former school building of Het Sieraad in Amsterdam West. From 16:00 to midnight, capacity 1,400. Pricing is not yet published.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.djguide.nl/party.p/567333/joachim-pastor-joris-delacroix-teho-present-pact?language=en",
+      "https://www.het-sieraad.nl/"
+    ]
   }
 ]
