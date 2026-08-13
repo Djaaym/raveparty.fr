@@ -1,0 +1,472 @@
+[
+ {
+  "id": 848,
+  "title": "Zrce Spring Break",
+  "type": "Festival",
+  "city": "Novalja",
+  "country": "Croatia",
+  "venue": "Plage de Zrće",
+  "date": "2027-05-27",
+  "genres": [
+   "Techno",
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 537,
+  "title": "GusGus",
+  "type": "Club",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "venue": "Tvornica Kulture",
+  "date": "2026-09-08",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 584,
+  "title": "Kosheen",
+  "type": "Club",
+  "city": "Zagreb",
+  "country": "Croatia",
+  "venue": "Tvornica Kulture",
+  "date": "2026-10-08",
+  "genres": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "id": 529,
+  "title": "Zamna x Primer",
+  "type": "Festival",
+  "city": "Athens",
+  "country": "Greece",
+  "venue": "Olympic Arena",
+  "date": "2026-09-04",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 769,
+  "title": "EDEN · Nicole Moudaber & Grace Dahl",
+  "type": "Club",
+  "city": "Athens",
+  "country": "Greece",
+  "venue": "Athens Conservatoire",
+  "date": "2026-11-22",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 790,
+  "title": "Techniques · Charlotte de Witte à Athènes",
+  "type": "Warehouse",
+  "city": "Athens",
+  "country": "Greece",
+  "venue": "Telekom Center Athens",
+  "date": "2026-12-05",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 510,
+  "title": "James Hype at Cavo Paradiso",
+  "type": "Club",
+  "city": "Mykonos",
+  "country": "Greece",
+  "venue": "Cavo Paradiso",
+  "date": "2026-08-17",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 513,
+  "title": "David Morales at Cavo Paradiso",
+  "type": "Club",
+  "city": "Mykonos",
+  "country": "Greece",
+  "venue": "Cavo Paradiso",
+  "date": "2026-08-21",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 836,
+  "title": "Nameless Winter",
+  "type": "Festival",
+  "city": "Barzio",
+  "country": "Italy",
+  "venue": "Barzio, Valsassina",
+  "date": "2027-02-13",
+  "genres": [
+   "EDM",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 844,
+  "title": "Gabry Ponte · Unipol Arena",
+  "type": "Club",
+  "city": "Bologna",
+  "country": "Italy",
+  "venue": "Unipol Arena",
+  "date": "2027-02-27",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 735,
+  "title": "Horrorland Halloween Festival",
+  "type": "Festival",
+  "city": "Ferrara",
+  "country": "Italy",
+  "venue": "Ferrara Fiere",
+  "date": "2026-10-31",
+  "genres": [
+   "Techno",
+   "Hardstyle",
+   "Hardcore",
+   "Psytrance"
+  ]
+ },
+ {
+  "id": 532,
+  "title": "Vision Open Air",
+  "type": "Warehouse",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Spazio Ex-Macello",
+  "date": "2026-09-05",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 536,
+  "title": "I-Days Milano: David Guetta",
+  "type": "Festival",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Ippodromo Snai San Siro",
+  "date": "2026-09-06",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 675,
+  "title": "Autechre · Alcatraz Milano",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Alcatraz Milano",
+  "date": "2026-10-11",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 688,
+  "title": "Nikolina & Kntrlvrlst · Gate Milano",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Gate Milano",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 713,
+  "title": "Ueberrest & In Verruf · Gate Milano",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Gate Milano",
+  "date": "2026-10-23",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 740,
+  "title": "PRTY · Samuel Moriero · Gate Milano",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Gate Milano",
+  "date": "2026-11-06",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 750,
+  "title": "Funk Tribu · Gate Milano",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Gate Milano",
+  "date": "2026-11-13",
+  "genres": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 762,
+  "title": "Andy Stott · Auditorium San Fedele",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Auditorium San Fedele",
+  "date": "2026-11-16",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 797,
+  "title": "Pole & Luigi Tozzi · Auditorium San Fedele",
+  "type": "Club",
+  "city": "Milan",
+  "country": "Italy",
+  "venue": "Auditorium San Fedele",
+  "date": "2026-12-14",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 720,
+  "title": "Cassius · Duel Club",
+  "type": "Club",
+  "city": "Naples",
+  "country": "Italy",
+  "venue": "Duel Club",
+  "date": "2026-10-25",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 744,
+  "title": "Basic Club · NEUHM 15 ans",
+  "type": "Club",
+  "city": "Naples",
+  "country": "Italy",
+  "venue": "Basic Club",
+  "date": "2026-11-07",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 698,
+  "title": "Digitalism · Hacienda Roma",
+  "type": "Club",
+  "city": "Rome",
+  "country": "Italy",
+  "venue": "Hacienda",
+  "date": "2026-10-17",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 751,
+  "title": "Maribou State · Hacienda Roma",
+  "type": "Club",
+  "city": "Rome",
+  "country": "Italy",
+  "venue": "Hacienda",
+  "date": "2026-11-13",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 847,
+  "title": "Gabry Ponte · Palazzo dello Sport",
+  "type": "Club",
+  "city": "Rome",
+  "country": "Italy",
+  "venue": "Palazzo dello Sport",
+  "date": "2027-03-13",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 687,
+  "title": "Digitalism · Hiroshima Mon Amour",
+  "type": "Club",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Hiroshima Mon Amour",
+  "date": "2026-10-16",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 700,
+  "title": "Héctor Oaks · Q35 Warehouse",
+  "type": "Warehouse",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Q35 Warehouse",
+  "date": "2026-10-17",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 758,
+  "title": "Gabber Eleganza · Q35 Warehouse",
+  "type": "Warehouse",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Q35 Warehouse",
+  "date": "2026-11-14",
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 794,
+  "title": "Ellen Allien · Q35 Warehouse",
+  "type": "Warehouse",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Q35 Warehouse",
+  "date": "2026-12-12",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 817,
+  "title": "Blawan & Setaoc Mass · Q35 Warehouse",
+  "type": "Warehouse",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Q35 Warehouse",
+  "date": "2027-01-09",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 826,
+  "title": "Alarico · Q35 Warehouse",
+  "type": "Warehouse",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Q35 Warehouse",
+  "date": "2027-01-23",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 846,
+  "title": "Gabry Ponte · Inalpi Arena",
+  "type": "Club",
+  "city": "Turin",
+  "country": "Italy",
+  "venue": "Inalpi Arena",
+  "date": "2027-03-06",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 558,
+  "title": "Tomorrowland - Symphony of Unity",
+  "type": "Festival",
+  "city": "Verona",
+  "country": "Italy",
+  "venue": "Arena di Verona",
+  "date": "2026-09-25",
+  "genres": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "id": 531,
+  "title": "Eric Prydz — OpenAir Corner",
+  "type": "Warehouse",
+  "city": "Belgrade",
+  "country": "Serbia",
+  "venue": "Luka Beograd",
+  "date": "2026-09-05",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 571,
+  "title": "Autechre à Ložionica",
+  "type": "Club",
+  "city": "Belgrade",
+  "country": "Serbia",
+  "venue": "Ložionica",
+  "date": "2026-10-01",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 587,
+  "title": "Autechre à Cukrarna",
+  "type": "Club",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "venue": "Cukrarna",
+  "date": "2026-10-09",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 723,
+  "title": "Stereo MCs · Kino Šiška",
+  "type": "Club",
+  "city": "Ljubljana",
+  "country": "Slovenia",
+  "venue": "Kino Šiška",
+  "date": "2026-10-28",
+  "genres": [
+   "House"
+  ]
+ }
+]

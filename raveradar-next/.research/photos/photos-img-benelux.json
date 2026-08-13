@@ -1,0 +1,326 @@
+[
+  {
+    "id": 522,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/28.08-Square.png",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/28-08-jesse-maas-curates/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (28.08, Jesse Maas curates)"
+  },
+  {
+    "id": 525,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/29.08-Square-2.png",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/29-08-tins-all-night/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (29.08, Tins all night)"
+  },
+  {
+    "id": 535,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-05.09-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/05-09-ryan-elliott-b2b-pancratio-naomi-more/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (05.09, Ryan Elliott b2b Pancratio)"
+  },
+  {
+    "id": 546,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-12.09-square-1.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/12-09-andrew-azara-traumer-b2b-janeret-more/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (12.09, Traumer b2b Janeret)"
+  },
+  {
+    "id": 551,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-18.09-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/18-09-piv-w-prunk-all-night/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (18.09, PIV w/ Prunk all night)"
+  },
+  {
+    "id": 553,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-19.09-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/19-09-signal-nyc-benny-rodrigues-doudou-md-more/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée (19.09, Signal NYC w/ Benny Rodrigues)"
+  },
+  {
+    "id": 565,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-26.09-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/19-09-archie-hamilton-dxnby-jhobei-more/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle de la soirée ; le slug de la page dit 19-09 mais la page et le fichier annoncent bien le 26.09.2026"
+  },
+  {
+    "id": 609,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-22.10-WHP-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/22-10-20-years-of-the-warehouse-project/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle ADE (22.10, 20 Years of The Warehouse Project)"
+  },
+  {
+    "id": 613,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-23.10-SLAPFUNK-square.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/23-10-slapfunk-ade/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle ADE (23.10, Slapfunk)"
+  },
+  {
+    "id": 617,
+    "image": "https://www.shelteramsterdam.nl/wp-content/uploads/SHELTER-BANNER-24.10-BRIGHTER-DAYS-LIFE-AND-DEATH-TBA-SQUARE.jpg",
+    "sourcePage": "https://www.shelteramsterdam.nl/event/24-10-brighter-days-x-life-and-death-ade/",
+    "credit": "Shelter Amsterdam",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle ADE (24.10, Brighter Days x Life and Death)"
+  },
+  {
+    "id": 606,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/07/ADE-WOENSDAG-POST-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle Thuishaven ADE, mercredi 21 octobre — Nightshow w/ In Trance We Trust"
+  },
+  {
+    "id": 608,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/07/ADE-DONDERDAG-ADE-DONDERDAG-NACHT_ADE-DONDERDAG-DAG-03-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle Thuishaven ADE, jeudi 22 octobre jour — Glitterbox"
+  },
+  {
+    "id": 710,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/07/ADE-VRIJDAG_POST-1-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle Thuishaven ADE, vendredi 23 octobre — Salute / Diffrent & Bella Claxton"
+  },
+  {
+    "id": 616,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/07/ADE-ZATERDAG_ADE-ZATERDAG-DAG-POST-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle Thuishaven ADE, samedi 24 octobre jour — Michel de Hey / Philou Louzolo"
+  },
+  {
+    "id": 767,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/08/22-NOV-2026_POST-1-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle du 22 novembre 2026 — X Club. / DART / NewTone / Freddi"
+  },
+  {
+    "id": 642,
+    "image": "https://thuishaven.nl/wp-content/uploads/2026/08/5-DEC-2026_POST-1-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "event",
+    "width": 2048,
+    "note": "affiche officielle du 5 décembre 2026 — Bart Skils 5HRS"
+  },
+  {
+    "id": 521,
+    "image": "https://www.fuse.be/uploads/events/28_08.jpg",
+    "sourcePage": "https://www.fuse.be/events/fuse-presents-the-third-room-w-verraco-felix-fleer-ma%C5%8Dh",
+    "credit": "Fuse Brussels",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la soirée (28.08.26, The Third Room w/ Verraco)"
+  },
+  {
+    "id": 530,
+    "image": "https://www.fuse.be/uploads/events/04_09.jpg",
+    "sourcePage": "https://www.fuse.be/events/fuse-presents-nikolina-ornella",
+    "credit": "Fuse Brussels",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la soirée (04.09.26, NIKOLINA & Ornella)"
+  },
+  {
+    "id": 542,
+    "image": "https://www.fuse.be/uploads/events/11_09.jpg",
+    "sourcePage": "https://www.fuse.be/events/fuse-presents-2hot2play-alt8",
+    "credit": "Fuse Brussels",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la soirée (11.09.26, 2HOT2PLAY & ALT8)"
+  },
+  {
+    "id": 550,
+    "image": "https://www.fuse.be/uploads/events/18_09.jpg",
+    "sourcePage": "https://www.fuse.be/events/fuse-presents-sesh-w-clara-cuv%C3%A9-peterblue",
+    "credit": "Fuse Brussels",
+    "kind": "event",
+    "width": 4000,
+    "note": "visuel officiel de la soirée (18.09.26, SESH w/ Clara Cuvé & PETERBLUE)"
+  },
+  {
+    "id": 614,
+    "image": "https://rockhal.lu/wp-content/uploads/2026/06/ONLINE_RS_MH-with-4_55-1.jpg",
+    "sourcePage": "https://rockhal.lu/shows/timmy-trumpet-2026/",
+    "credit": "Rockhal",
+    "kind": "event",
+    "width": 1707,
+    "note": "visuel officiel publié par la Rockhal pour la date (portrait presse de Timmy Trumpet)"
+  },
+  {
+    "id": 802,
+    "image": "https://assets.melkweg.nl/eventpages/d69fe3f1-4956-4ee5-9e84-6f02c6eb3137/Luminosity19_Banner.jpg",
+    "sourcePage": "https://www.melkweg.nl/en/agenda/luminosity-19-year-anniversary-19-12-2026/",
+    "credit": "Melkweg / Luminosity Events",
+    "kind": "event",
+    "width": 1920,
+    "note": "bannière officielle de l'événement sur la page Melkweg — photo de scène Luminosity"
+  },
+  {
+    "id": 672,
+    "image": "https://festivalfans.nl/wp-content/uploads/2014/12/hard-bass-2026.jpg",
+    "sourcePage": "https://festivalfans.nl/event/hard-bass/",
+    "credit": "Hard Bass / b2s",
+    "kind": "festival",
+    "width": 530,
+    "note": "affiche officielle de l'édition — logo Hard Bass sur photo de salle, date et lieu inscrits (10.10.2026 GelreDome Arnhem)"
+  },
+  {
+    "id": 820,
+    "image": "https://www.supremacy.nl/132435/1723122949-123-230930-213430-supremacy-delio-dn103767-enhanced-nr-lrwm-min.jpg",
+    "sourcePage": "https://www.supremacy.nl/",
+    "credit": "Supremacy / Art of Dance",
+    "kind": "festival",
+    "width": 2048,
+    "note": "photo officielle de la mainstage Supremacy publiée par l'organisateur"
+  },
+  {
+    "id": 645,
+    "image": "https://cdn.sanity.io/images/6epsemdp/production/18f4d566d652a3b49e2d8ee1058093bca977f2d2-4000x4265.jpg?w=1600",
+    "sourcePage": "https://www.rotterdamrave.nl/",
+    "credit": "Rotterdam Rave",
+    "kind": "festival",
+    "width": 1600,
+    "note": "photo officielle de la foule Rotterdam Rave publiée par l'organisateur"
+  },
+  {
+    "id": 776,
+    "image": "https://maassilo.com/app/uploads/2026/04/20251115_2148_MODULAR_BRADAMEDIA_JORDYBRADA_3009-1024x682.jpg",
+    "sourcePage": "https://www.maassilo.com/",
+    "credit": "Maassilo / Jordy Brada (Bradamedia)",
+    "kind": "venue",
+    "width": 1024,
+    "note": "photo de la grande salle du Maassilo publiée par la salle ; pas de visuel propre trouvé pour Loudness 2026"
+  },
+  {
+    "id": 711,
+    "image": "https://assets.elrow.com/elrow-vapor/production/illustration/7d698ff3-1858-44f0-9926-3cf28c06917c",
+    "sourcePage": "https://elrow.com/en/events/1307/amsterdam-dance-with-the-serpent-10232026",
+    "credit": "elrow",
+    "kind": "event",
+    "width": 1080,
+    "note": "bannière officielle elrow de la date (Friday October 23rd, De Kromhouthal Amsterdam)"
+  },
+  {
+    "id": 815,
+    "image": "https://www.dance2eden.nl/uploads/images/events/gt27.jpg",
+    "sourcePage": "https://www.dance2eden.nl/events/ghosttown-09-01-2027",
+    "credit": "Dance 2 Eden / Ghosttown",
+    "kind": "event",
+    "width": 2048,
+    "note": "visuel officiel de l'édition (Saturday 9 January 2027, TivoliVredenburg Utrecht)"
+  },
+  {
+    "id": 792,
+    "image": "https://thuishaven.nl/wp-content/uploads/2024/10/12-November-23_ThuishavenSIZMA-DSC08917-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven",
+    "kind": "venue",
+    "width": 2560,
+    "note": "photo de la grande salle du Thuishaven publiée par le lieu ; l'agenda officiel ne va pas encore jusqu'au 12 décembre"
+  },
+  {
+    "id": 814,
+    "image": "https://thuishaven.nl/wp-content/uploads/2025/12/20250831_THUISHAVEN_JESSEWENSING_117-2-3-scaled.jpg",
+    "sourcePage": "https://thuishaven.nl/",
+    "credit": "Thuishaven / Jesse Wensing",
+    "kind": "venue",
+    "width": 2560,
+    "note": "photo de la salle du Thuishaven publiée par le lieu ; l'agenda officiel ne va pas encore jusqu'à janvier 2027"
+  },
+  {
+    "id": 801,
+    "image": "https://www.bassevents.be/content/img/1612-39030-1-f3ccdd27d298593f.jpg",
+    "sourcePage": "https://www.bassevents.be/media/pat-b-birthday-bash-xxl-2025",
+    "credit": "Bass Events",
+    "kind": "festival",
+    "width": 2560,
+    "note": "photo officielle de la mainstage du Pat B Birthday Bash XXL au Lotto Arena publiée par l'organisateur (galerie de l'édition précédente) ; le teaser 2026 existe mais n'est qu'une bannière très large"
+  },
+  {
+    "id": 692,
+    "image": "https://www.kozzmozz.com/assets/uploads/event_images/picture_large/16192.jpg",
+    "sourcePage": "https://www.kozzmozz.com/events/30-years-of-kozzmozz",
+    "credit": "Kozzmozz",
+    "kind": "event",
+    "width": 1600,
+    "note": "visuel officiel de l'édition, la date 17-10-2026 est inscrite dessus"
+  },
+  {
+    "id": 808,
+    "image": "https://full-circle.be/ghent/wp-content/uploads/sites/7/2025/01/DSC04172.jpg",
+    "sourcePage": "https://full-circle.be/ghent/venue/kompass/",
+    "credit": "Full Circle Ghent",
+    "kind": "venue",
+    "width": 2000,
+    "note": "photo de la salle du Kompass Klub publiée par Full Circle (l'organisateur de la soirée) ; kompassklub.be est inaccessible depuis le conteneur"
+  },
+  {
+    "id": 788,
+    "image": "https://freeyourmindfestival.nl/preview/wp-content/uploads/2026/05/2026-05-12-Teletech-Amsterdam-Square.jpg",
+    "sourcePage": "https://freeyourmindfestival.nl/events/vieze-asbak-b2b-kruelty-all-day-long/",
+    "credit": "Free Your Mind / Teletech",
+    "kind": "event",
+    "width": 2160,
+    "note": "affiche officielle de la date (05 December 2026 · AFAS Live, Amsterdam)"
+  },
+  {
+    "id": 787,
+    "image": "https://cdn-az.allevents.in/events2/banners/02eb650ca26af4bea1fb9bd6fc63d09f1fbbd92a2fe6518ee185054fcd75718c-rimg-w1200-h600-dc281818-gmir?v=1786433608",
+    "sourcePage": "https://allevents.in/gent/%E2%97%89%E2%97%8E-space-rave-%E2%97%8E%E2%97%89-dacru-and-kuf-kuf/200026877487826",
+    "credit": "Dacru Records & KUF KUF",
+    "kind": "event",
+    "width": 1200,
+    "note": "affiche officielle de la soirée (line-up KUF KUF ROOM / DACRU ROOM) ; la page confirme startDate 2026-12-05 à De Chinastraat. chinastraat.be n'a pas d'agenda et ra.co est bloqué"
+  },
+  {
+    "id": 679,
+    "image": "https://static.wixstatic.com/media/0675e9_07b7022ec01f4089872fa643c7c168b8~mv2.jpg",
+    "sourcePage": "https://www.losninos.be/los-ninos-183",
+    "credit": "Los Niños",
+    "kind": "festival",
+    "width": 1800,
+    "note": "photo de soirée Los Niños publiée par l'organisateur sur la page de cette date (FRI 16 OCT 2026 — QUEER BERLIN, C12) ; c12.brussels est bloqué depuis le conteneur"
+  }
+]

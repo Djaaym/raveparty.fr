@@ -1,0 +1,483 @@
+[
+ {
+  "id": 572,
+  "title": "Tiësto",
+  "type": "Club",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "venue": "MEO Arena",
+  "date": "2026-10-01",
+  "genres": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "id": 701,
+  "title": "Jackies House Music Festival Lisboa",
+  "type": "Festival",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "venue": "Pavilhão Carlos Lopes",
+  "date": "2026-10-17",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 623,
+  "title": "Max Cooper",
+  "type": "Club",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "venue": "LAV - Lisboa ao Vivo",
+  "date": "2026-11-05",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 773,
+  "title": "Christian Löffler · Centro Cultural de Belém",
+  "type": "Club",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "venue": "Centro Cultural de Belém",
+  "date": "2026-11-26",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 647,
+  "title": "Azyr & Fatima Hajji",
+  "type": "Warehouse",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "venue": "Pavilhão Carlos Lopes",
+  "date": "2026-12-19",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 741,
+  "title": "Max Cooper · Hard Club",
+  "type": "Club",
+  "city": "Porto",
+  "country": "Portugal",
+  "venue": "Hard Club",
+  "date": "2026-11-06",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 772,
+  "title": "Christian Löffler · Casa da Música",
+  "type": "Club",
+  "city": "Porto",
+  "country": "Portugal",
+  "venue": "Casa da Música",
+  "date": "2026-11-25",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 778,
+  "title": "OUTWORLD · Klangkuenstler",
+  "type": "Club",
+  "city": "Porto",
+  "country": "Portugal",
+  "venue": "Super Bock Arena - Pavilhão Rosa Mota",
+  "date": "2026-11-28",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "id": 849,
+  "title": "Neopop Festival",
+  "type": "Festival",
+  "city": "Viana do Castelo",
+  "country": "Portugal",
+  "venue": "Forte de Santiago da Barra",
+  "date": "2027-08-05",
+  "genres": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 564,
+  "title": "Guy Gerber",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "La Terrrazza",
+  "date": "2026-09-26",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 593,
+  "title": "Kerri Chandler",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "La Terrrazza",
+  "date": "2026-10-10",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 673,
+  "title": "Kolter · Input Barcelona",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Input High Fidelity Dance Club",
+  "date": "2026-10-10",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 605,
+  "title": "Marcel Dettmann",
+  "type": "Warehouse",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Plaza de Toros la Monumental",
+  "date": "2026-10-17",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 699,
+  "title": "Happy Techno · La Terrrazza",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "La Terrrazza",
+  "date": "2026-10-17",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 734,
+  "title": "Digitalism · La [2] de Apolo",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "La [2] de Apolo",
+  "date": "2026-10-31",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 736,
+  "title": "Fury Festival · Razzmatazz",
+  "type": "Warehouse",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Razzmatazz",
+  "date": "2026-11-01",
+  "genres": [
+   "Hardcore",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "id": 770,
+  "title": "Christian Löffler · Teatre Coliseum",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Teatre Coliseum",
+  "date": "2026-11-24",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 771,
+  "title": "Trinix · Razzmatazz",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Razzmatazz 2",
+  "date": "2026-11-25",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 646,
+  "title": "Hercules & Love Affair",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Sala Apolo",
+  "date": "2026-12-15",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 654,
+  "title": "NTO",
+  "type": "Club",
+  "city": "Barcelona",
+  "country": "Spain",
+  "venue": "Razzmatazz",
+  "date": "2027-02-19",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 568,
+  "title": "Armin van Buuren presents A State of Trance",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "UNVRS",
+  "date": "2026-09-28",
+  "genres": [
+   "Trance"
+  ]
+ },
+ {
+  "id": 569,
+  "title": "Joseph Capriati presents Metamorfosi Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Amnesia",
+  "date": "2026-09-29",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 570,
+  "title": "Paradise",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "UNVRS",
+  "date": "2026-09-30",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 574,
+  "title": "Calvin Harris Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Ushuaïa Ibiza",
+  "date": "2026-10-02",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 575,
+  "title": "Music On",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Pacha",
+  "date": "2026-10-02",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 578,
+  "title": "Black Coffee Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Hï Ibiza",
+  "date": "2026-10-03",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 579,
+  "title": "elrow Ibiza Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "UNVRS",
+  "date": "2026-10-03",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 580,
+  "title": "ANTS",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Ushuaïa Ibiza",
+  "date": "2026-10-03",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 581,
+  "title": "Carl Cox Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "UNVRS",
+  "date": "2026-10-04",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 589,
+  "title": "Glitterbox Closing Party",
+  "type": "Club",
+  "city": "Ibiza",
+  "country": "Spain",
+  "venue": "Amnesia",
+  "date": "2026-10-09",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 729,
+  "title": "Digitalism · Sala Wagon",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "Sala Wagon",
+  "date": "2026-10-30",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 730,
+  "title": "Sunnery James & Ryan Marciano · Teatro Kapital",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "Teatro Kapital",
+  "date": "2026-10-30",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 742,
+  "title": "Curses! · Sala Nazca",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "Sala Nazca",
+  "date": "2026-11-06",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 746,
+  "title": "Max Cooper · La Riviera",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "La Riviera",
+  "date": "2026-11-08",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 806,
+  "title": "Jonas Blue · Las Ventas",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "Live Las Ventas",
+  "date": "2026-12-19",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 837,
+  "title": "NTO · Sala But",
+  "type": "Club",
+  "city": "Madrid",
+  "country": "Spain",
+  "venue": "Sala But",
+  "date": "2027-02-18",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 779,
+  "title": "INVADERS · Trip to Japan",
+  "type": "Club",
+  "city": "Valencia",
+  "country": "Spain",
+  "venue": "Spook Club",
+  "date": "2026-11-28",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 800,
+  "title": "INVADERS · Ogalla All Night Long",
+  "type": "Club",
+  "city": "Valencia",
+  "country": "Spain",
+  "venue": "Spook Club",
+  "date": "2026-12-18",
+  "genres": [
+   "Techno"
+  ]
+ }
+]

@@ -1,0 +1,678 @@
+[
+ {
+  "id": 784,
+  "title": "Joachim Pastor à l'Interférence",
+  "type": "Club",
+  "city": "Balma",
+  "country": "France",
+  "venue": "Interférence",
+  "date": "2026-12-04",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 600,
+  "title": "La P'tite Fumée à la Rock School Barbey",
+  "type": "Club",
+  "city": "Bordeaux",
+  "country": "France",
+  "venue": "Rock School Barbey",
+  "date": "2026-10-16",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 841,
+  "title": "Joris Delacroix au Boeuf sur le Toit",
+  "type": "Club",
+  "city": "Bordeaux",
+  "country": "France",
+  "venue": "Le Boeuf sur le Toit",
+  "date": "2027-02-26",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 782,
+  "title": "PACT au Rocher de Palmer",
+  "type": "Club",
+  "city": "Cenon",
+  "country": "France",
+  "venue": "Le Rocher de Palmer",
+  "date": "2026-12-03",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 821,
+  "title": "NTO Live au Rocher de Palmer",
+  "type": "Club",
+  "city": "Cenon",
+  "country": "France",
+  "venue": "Le Rocher de Palmer",
+  "date": "2027-01-16",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 789,
+  "title": "Dawn To Dusk",
+  "type": "Club",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "venue": "La Coopérative de Mai",
+  "date": "2026-12-05",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 799,
+  "title": "Yan Wagner à la Coopérative de Mai",
+  "type": "Club",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "venue": "La Coopérative de Mai",
+  "date": "2026-12-18",
+  "genres": [
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "id": 831,
+  "title": "La P'tite Fumée à la Coopérative de Mai",
+  "type": "Club",
+  "city": "Clermont-Ferrand",
+  "country": "France",
+  "venue": "La Coopérative de Mai",
+  "date": "2027-01-30",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 818,
+  "title": "Robot Rock Alive au Zénith de Dijon",
+  "type": "Club",
+  "city": "Dijon",
+  "country": "France",
+  "venue": "Zénith de Dijon",
+  "date": "2027-01-14",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 840,
+  "title": "La P'tite Fumée à La Vapeur",
+  "type": "Club",
+  "city": "Dijon",
+  "country": "France",
+  "venue": "La Vapeur",
+  "date": "2027-02-25",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 544,
+  "title": "Actress M b2b Moodfino + Kendal + Malago",
+  "type": "Club",
+  "city": "Grenoble",
+  "country": "France",
+  "venue": "La Belle Électrique",
+  "date": "2026-09-12",
+  "genres": [
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "id": 552,
+  "title": "Baboush + Karlfroye + Von Bikräv",
+  "type": "Club",
+  "city": "Grenoble",
+  "country": "France",
+  "venue": "La Belle Électrique",
+  "date": "2026-09-19",
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "id": 577,
+  "title": "Bruno Bazzetti + Phase Fatale + The Hacker",
+  "type": "Club",
+  "city": "Grenoble",
+  "country": "France",
+  "venue": "La Belle Électrique",
+  "date": "2026-10-03",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 619,
+  "title": "La P'tite Fumée à La Belle Électrique",
+  "type": "Club",
+  "city": "Grenoble",
+  "country": "France",
+  "venue": "La Belle Électrique",
+  "date": "2026-10-30",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 819,
+  "title": "Robot Rock Alive au Summum",
+  "type": "Club",
+  "city": "Grenoble",
+  "country": "France",
+  "venue": "Summum",
+  "date": "2027-01-15",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 757,
+  "title": "La P'tite Fumée au Family",
+  "type": "Club",
+  "city": "Landerneau",
+  "country": "France",
+  "venue": "Le Family",
+  "date": "2026-11-14",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 684,
+  "title": "Ouest Park Festival",
+  "type": "Festival",
+  "city": "Le Havre",
+  "country": "France",
+  "venue": "Fort de Tourneville",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 685,
+  "title": "Autechre à l'Aéronef",
+  "type": "Club",
+  "city": "Lille",
+  "country": "France",
+  "venue": "L'Aéronef",
+  "date": "2026-10-16",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 737,
+  "title": "Fakear au Splendid",
+  "type": "Club",
+  "city": "Lille",
+  "country": "France",
+  "venue": "Le Splendid",
+  "date": "2026-11-04",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 832,
+  "title": "La P'tite Fumée au Splendid",
+  "type": "Club",
+  "city": "Lille",
+  "country": "France",
+  "venue": "Le Splendid",
+  "date": "2027-02-05",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 822,
+  "title": "Robot Rock Alive à l'Arena Stade Couvert",
+  "type": "Club",
+  "city": "Liévin",
+  "country": "France",
+  "venue": "Arena Stade Couvert",
+  "date": "2027-01-21",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 653,
+  "title": "Lewis OfMan au Sucre",
+  "type": "Club",
+  "city": "Lyon",
+  "country": "France",
+  "venue": "Le Sucre",
+  "date": "2027-02-19",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 829,
+  "title": "NTO Live à La BAM",
+  "type": "Club",
+  "city": "Metz",
+  "country": "France",
+  "venue": "La BAM",
+  "date": "2027-01-29",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 641,
+  "title": "La P'tite Fumée au Rockstore",
+  "type": "Club",
+  "city": "Montpellier",
+  "country": "France",
+  "venue": "Rockstore",
+  "date": "2026-12-03",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 843,
+  "title": "La P'tite Fumée à L'Autre Canal",
+  "type": "Club",
+  "city": "Nancy",
+  "country": "France",
+  "venue": "L'Autre Canal",
+  "date": "2027-02-27",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 514,
+  "title": "Echoes",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-08-22",
+  "genres": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "id": 519,
+  "title": "NRT w/ Nikolina",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-08-28",
+  "genres": [
+   "Hard Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "id": 573,
+  "title": "Warehouse 9 ans avec Bob Sinclar",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-10-02",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 592,
+  "title": "The Ring x Club de Jour",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-10-10",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 595,
+  "title": "La P'tite Fumée au Warehouse",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-10-15",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 676,
+  "title": "Autechre au Lieu Unique",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Grand Atelier - Lieu Unique",
+  "date": "2026-10-15",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 626,
+  "title": "Club de Jour invite Bellaire & Dimitri",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2026-11-07",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 835,
+  "title": "Club de Jour invite Daft Funk Live",
+  "type": "Club",
+  "city": "Nantes",
+  "country": "France",
+  "venue": "Warehouse",
+  "date": "2027-02-13",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 561,
+  "title": "Boston Bun au Stockfish",
+  "type": "Club",
+  "city": "Nice",
+  "country": "France",
+  "venue": "Stockfish",
+  "date": "2026-09-26",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 785,
+  "title": "Acid Pauli au 109",
+  "type": "Club",
+  "city": "Nice",
+  "country": "France",
+  "venue": "Le 109",
+  "date": "2026-12-04",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 697,
+  "title": "Mosimann au Zénith de Paris",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "Zénith Paris - La Villette",
+  "date": "2026-10-17",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 712,
+  "title": "La P'tite Fumée à La Cigale",
+  "type": "Club",
+  "city": "Paris",
+  "country": "France",
+  "venue": "La Cigale",
+  "date": "2026-10-23",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 677,
+  "title": "Fakear au Bikini",
+  "type": "Club",
+  "city": "Ramonville-Saint-Agne",
+  "country": "France",
+  "venue": "Le Bikini",
+  "date": "2026-10-15",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 828,
+  "title": "Thylacine au Bikini",
+  "type": "Club",
+  "city": "Ramonville-Saint-Agne",
+  "country": "France",
+  "venue": "Le Bikini",
+  "date": "2027-01-28",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 749,
+  "title": "La P'tite Fumée à L'Étage",
+  "type": "Club",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "L'Étage",
+  "date": "2026-11-13",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 823,
+  "title": "Thylacine au MeM",
+  "type": "Club",
+  "city": "Rennes",
+  "country": "France",
+  "venue": "Le MeM",
+  "date": "2027-01-21",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 825,
+  "title": "Thylacine au 106",
+  "type": "Club",
+  "city": "Rouen",
+  "country": "France",
+  "venue": "Le 106",
+  "date": "2027-01-23",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 827,
+  "title": "Robot Rock Alive au Zénith de Nantes",
+  "type": "Club",
+  "city": "Saint-Herblain",
+  "country": "France",
+  "venue": "Zénith de Nantes",
+  "date": "2027-01-27",
+  "genres": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "id": 724,
+  "title": "Fakear à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2026-10-29",
+  "genres": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "id": 791,
+  "title": "La P'tite Fumée à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2026-12-11",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 838,
+  "title": "Thylacine à La Laiterie",
+  "type": "Club",
+  "city": "Strasbourg",
+  "country": "France",
+  "venue": "La Laiterie",
+  "date": "2027-02-19",
+  "genres": [
+   "Techno"
+  ]
+ },
+ {
+  "id": 563,
+  "title": "Lee Burridge à La Cabane",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Cabane - Les Halles de la Cartoucherie",
+  "date": "2026-09-26",
+  "genres": [
+   "House"
+  ]
+ },
+ {
+  "id": 583,
+  "title": "Mecanik Paradize",
+  "type": "Festival",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Halle de la Machine",
+  "date": "2026-10-08",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 686,
+  "title": "Frankey & Sandrino à La Cabane",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Cabane - Les Halles de la Cartoucherie",
+  "date": "2026-10-16",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 621,
+  "title": "Hilight Tribe - Halloween Instrumental",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Cabane - Les Halles de la Cartoucherie",
+  "date": "2026-10-31",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "id": 768,
+  "title": "Chloé b2b Ivan Smagghe à La Cabane",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Cabane - Les Halles de la Cartoucherie",
+  "date": "2026-11-22",
+  "genres": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "id": 805,
+  "title": "Andhim à La Cabane",
+  "type": "Club",
+  "city": "Toulouse",
+  "country": "France",
+  "venue": "La Cabane - Les Halles de la Cartoucherie",
+  "date": "2026-12-19",
+  "genres": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "id": 625,
+  "title": "La P'tite Fumée au Transbordeur",
+  "type": "Club",
+  "city": "Villeurbanne",
+  "country": "France",
+  "venue": "Le Transbordeur",
+  "date": "2026-11-06",
+  "genres": [
+   "Psytrance",
+   "Trance"
+  ]
+ }
+]

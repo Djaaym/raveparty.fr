@@ -1,0 +1,434 @@
+[
+ {
+  "id": 511,
+  "image": "https://jaegeroslo.no/wp-content/uploads/2026/05/766985412_122312738876214887_9048681016566774698_n-e1786356888834.jpg",
+  "sourcePage": "https://jaegeroslo.no/events/wednesday-ladies-first-mira-mark/",
+  "credit": "Jaeger Oslo",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle Ladies First du 19.08.26 (Haidama, Sol, Mira Mark)"
+ },
+ {
+  "id": 516,
+  "image": "https://static1.squarespace.com/static/5cdacfd7d2fa40000195a355/t/69d7baf49954197a6af03a07/1775745780183/final-wave-16x9.jpg?format=1500w",
+  "sourcePage": "https://www.karrusel.dk/",
+  "credit": "Karrusel Festival",
+  "kind": "festival",
+  "width": 2500,
+  "note": "affiche officielle du line-up Karrusel 27-29 aout 2026"
+ },
+ {
+  "id": 517,
+  "image": "https://www.uprising.sk/wp-content/uploads/2018/05/0003_134.jpg",
+  "sourcePage": "https://www.uprising.sk/o-nas/",
+  "credit": "Uprising Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "foule devant la mainstage, photo officielle du festival"
+ },
+ {
+  "id": 538,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 541,
+  "image": "https://dynamicmedia.livenationinternational.com/j/d/g/b154edf3-1396-4f36-aad5-fc368e061b5d.jpg",
+  "sourcePage": "https://www.livenation.fi/event/helzinki-hardstyle-festival-2026-helsinki-tickets-edp1677168",
+  "credit": "Helzinki Hardstyle Festival",
+  "kind": "festival",
+  "width": 1980,
+  "note": "affiche officielle du festival, Showtek hardstyle set, 11.9.2026 Kaapelitehdas"
+ },
+ {
+  "id": 545,
+  "image": "https://dynamicmedia.livenationinternational.com/f/w/d/9eed166d-bc88-4bec-bc97-5d09aad2031c.jpg",
+  "sourcePage": "https://www.livenation.fi/en/event/faithless-live-uk-orkidea-helsinki-tickets-edp1669382",
+  "credit": "Faithless / Live Nation Finland",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle Faithless Live + Orkidea, 12.9.2026 Kaapelitehdas Helsinki"
+ },
+ {
+  "id": 548,
+  "image": "https://biletomat.pl/api/images/019f8959-6641-7e4c-a314-9a7546a443c7",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Tama Season Opening (Genesi, Plus2, Sick) du 18.09.2026"
+ },
+ {
+  "id": 549,
+  "image": "https://ik.imagekit.io/mfgbmrqfuvo/venues/event_s4MboZaA2/tr:w-1600",
+  "sourcePage": "https://www.rockefeller.no/en/events/infected-mushroom/MVK0t4S58m",
+  "credit": "Sentrum Scene / Rockefeller Oslo",
+  "kind": "event",
+  "width": 1600,
+  "note": "visuel officiel de la date Infected Mushroom du 18.09.2026"
+ },
+ {
+  "id": 555,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 557,
+  "image": "https://biletomat.pl/api/images/019fa3c8-bccf-7cea-a8f7-bb140285500f",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Obsession (Kozlov, Luciid, Vendex) du 25.09.2026"
+ },
+ {
+  "id": 559,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 566,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 586,
+  "image": "https://biletomat.pl/api/images/019fd0cd-17de-79df-8896-2ce642d4b7d7",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle Chris Avantgarde au Tama, 09.10.2026"
+ },
+ {
+  "id": 590,
+  "image": "https://jaegeroslo.no/wp-content/uploads/2026/08/OO-85-by-Marie-Staggat-scaled-e1785841958630.jpg",
+  "sourcePage": "https://jaegeroslo.no/events/friday-fraedag-octave-one-live/",
+  "credit": "Jaeger Oslo / photo Marie Staggat",
+  "kind": "event",
+  "width": 2560,
+  "note": "visuel officiel de la date Fraedag Octave One live"
+ },
+ {
+  "id": 596,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 597,
+  "image": "https://biletomat.pl/api/images/019ef35b-7b98-766c-aee4-d0adf31575cb",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Pegassi au Tama, 16.10.2026"
+ },
+ {
+  "id": 598,
+  "image": "https://akvariumklub.hu/wp-content/uploads/2026/06/FlX40.jpg",
+  "sourcePage": "https://akvariumklub.hu/programok/akvawaves-invites-ely-oaks-360-nagyhall/",
+  "credit": "Akvárium Klub Budapest",
+  "kind": "event",
+  "width": 1280,
+  "note": "visuel officiel de la date AkvaWaves invites Ely Oaks (16 octobre 2026)"
+ },
+ {
+  "id": 601,
+  "image": "https://clubbing.no/wp-content/uploads/2026/06/Untitled-1.jpg",
+  "sourcePage": "https://clubbing.no/event/laidback-luke/",
+  "credit": "Laidback Luke / Vulkan Arena Oslo",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle Laidback Luke, Vulkan Arena Oslo 16 octobre 2026"
+ },
+ {
+  "id": 603,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 604,
+  "image": "https://biletomat.pl/api/images/019ef359-b5fa-76ac-bbf6-a4d75c052ae3",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Sub Zero Project au Tama, 17.10.2026"
+ },
+ {
+  "id": 610,
+  "image": "https://biletomat.pl/api/images/019fa3c1-ac60-7d85-9f84-2a52cd4bd12c",
+  "sourcePage": "https://kicket.com/wydarzenia/w/poznan/w/klub-tama",
+  "credit": "Klub Tama Poznań",
+  "kind": "event",
+  "width": 1430,
+  "note": "affiche officielle Worakls au Tama, 23.10.2026"
+ },
+ {
+  "id": 611,
+  "image": "https://clubbing.no/wp-content/uploads/2026/06/719190077_1487930229799367_3982243622362572800_n.jpg",
+  "sourcePage": "https://clubbing.no/event/markus-schulz-orjan-nilsen/",
+  "credit": "Markus Schulz / Vulkan Arena Oslo",
+  "kind": "event",
+  "width": 960,
+  "note": "affiche officielle Markus Schulz + Orjan Nilsen, Vulkan Arena Oslo 23 octobre 2026"
+ },
+ {
+  "id": 612,
+  "image": "https://gravitycph.dk/wp-content/uploads/2026/07/IMG_3673.png",
+  "sourcePage": "https://gravitycph.dk/eric-prydz-copenhagen/",
+  "credit": "Gravity Copenhagen",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle Eric Prydz, 23.10 TAP1 Copenhague"
+ },
+ {
+  "id": 615,
+  "image": "https://feellifemusic.com/events/images/1920x1005.jpg",
+  "sourcePage": "https://feellifemusic.com/events/?view=psy-clan-juno-reactor",
+  "credit": "Feel Life Music / Psy Clan",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle Psy Clan: Juno Reactor, 24.10.2026 Tama Poznan"
+ },
+ {
+  "id": 618,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 624,
+  "image": "https://d3u845fx6txnqz.cloudfront.net/events/N451-concerts-MODESTEP.jpg",
+  "sourcePage": "https://ticketstation.bg/bg/e24453-modestep-fomo-the-club",
+  "credit": "Modestep / FOMO the club Sofia",
+  "kind": "event",
+  "width": 573,
+  "note": "affiche officielle Modestep, FOMO Sofia, 06 novembre 2026"
+ },
+ {
+  "id": 628,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 635,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 636,
+  "image": "https://www.roxy.cz/upload/pages/756e67e7801ec5bc55fbb72795f96da3.jpg",
+  "sourcePage": "https://www.roxy.cz/club/",
+  "credit": "Roxy Prague",
+  "kind": "venue",
+  "width": 1400,
+  "note": "grande salle du Roxy vue depuis la scene (galerie officielle du club)"
+ },
+ {
+  "id": 637,
+  "image": "https://berns.se/wp-content/uploads/2023/10/Nuet-Black-Coffe-2022DSC01215.webp",
+  "sourcePage": "https://berns.se/nightlife/",
+  "credit": "Berns Stockholm",
+  "kind": "venue",
+  "width": 1500,
+  "note": "grande salle de Berns en soiree, photo officielle du club"
+ },
+ {
+  "id": 649,
+  "image": "https://letitroll.eu/wp-content/uploads/2026/08/@matussafranka-lr25w-day1-_-340-2.jpg",
+  "sourcePage": "https://letitroll.eu/",
+  "credit": "Let It Roll / photo Matus Safranka",
+  "kind": "festival",
+  "width": 2048,
+  "note": "scene principale de Let It Roll Winter, photo officielle du festival"
+ },
+ {
+  "id": 656,
+  "image": "https://untold-universe-public-resources-prod.s3.eu-west-1.amazonaws.com/47f2d48f-4663-43db-86ac-0451d424c05c/b6c089c9-a010-4151-b458-cf2e461e7ba0.png",
+  "sourcePage": "https://kapitalfestival.com/",
+  "credit": "Kapital Festival",
+  "kind": "festival",
+  "width": 890,
+  "note": "mainstage du festival a l'Arena Nationala, image du site officiel"
+ },
+ {
+  "id": 659,
+  "image": "https://dynamicmedia.livenationinternational.com/t/j/z/0ab5bf47-5da8-403c-a099-e2cdad82b9fc.jpg",
+  "sourcePage": "https://www.livenation.com/event/intl_1623230/swedish-house-mafia",
+  "credit": "Swedish House Mafia / Live Nation",
+  "kind": "event",
+  "width": 2447,
+  "note": "visuel officiel de la date Ullevi du 28.08.2026"
+ },
+ {
+  "id": 680,
+  "image": "https://aaniwalli.fi/_astro/furyoct26.DkVpOpQe_Z2hVMSt.jpeg",
+  "sourcePage": "https://aaniwalli.fi/events/2026-10-16-fury_cara_elizabeth_de_johannes_schuster_de_mika_heggemann_de",
+  "credit": "Ääniwalli Helsinki",
+  "kind": "event",
+  "width": 1000,
+  "note": "affiche officielle FURY du 16.10.2026 (Cara Elizabeth, Johannes Schuster, Mika Heggemann)"
+ },
+ {
+  "id": 681,
+  "image": "https://payload.vega.dk/media/Vega-Kalender-DjAligator.jpg",
+  "sourcePage": "https://vega.dk/event/dj-aligator-2026-10-16",
+  "credit": "VEGA Copenhagen",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel VEGA de The Final Reptile Rave (Heaven, 16.10.2026)"
+ },
+ {
+  "id": 693,
+  "image": "https://www.tradgarn.se/content/files/kream_poster.png",
+  "sourcePage": "https://www.tradgarn.se/kalender/kream-17-oktober-tradgar-n/",
+  "credit": "Trädgår'n Göteborg",
+  "kind": "event",
+  "width": 960,
+  "note": "affiche officielle KREAM au Trädgår'n, 17 octobre 2026"
+ },
+ {
+  "id": 694,
+  "image": "https://payload.vega.dk/media/Vega-Kalender-DjAligator.jpg",
+  "sourcePage": "https://vega.dk/event/dj-aligator-2026-10-16-1",
+  "credit": "VEGA Copenhagen",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel VEGA de The Final Reptile Rave (Hell, 17.10.2026)"
+ },
+ {
+  "id": 695,
+  "image": "https://pumpehuset.dk/wp-content/uploads/SILVA-BUMPA-PRESS-2-e1785235309770.jpg",
+  "sourcePage": "https://pumpehuset.dk/en/koncerter/silva-bumpa/",
+  "credit": "Pumpehuset",
+  "kind": "event",
+  "width": 960,
+  "note": "visuel officiel de la date du 17.10.2026 publie par Pumpehuset"
+ },
+ {
+  "id": 726,
+  "image": "https://pumpehuset.dk/wp-content/uploads/Cassius.jpg",
+  "sourcePage": "https://pumpehuset.dk/en/koncerter/cassius/",
+  "credit": "Pumpehuset",
+  "kind": "event",
+  "width": 1900,
+  "note": "visuel officiel de la date Cassius CLUB 360 du 30.10.2026"
+ },
+ {
+  "id": 731,
+  "image": "https://eventadmin.stockholmlive.com/uploads/img/697c85d4a46e9_4000.jpg",
+  "sourcePage": "https://annexet.se/en/evenemang/music-show/technostate/",
+  "credit": "Technostate / Annexet (Stockholm Live)",
+  "kind": "event",
+  "width": 4000,
+  "note": "affiche officielle Technostate BIGBANG Halloween, 31 octobre 2026 Annexet"
+ },
+ {
+  "id": 732,
+  "image": "https://payload.vega.dk/media/VEGA_Kalender_KentonSlashDemon_2026.jpg",
+  "sourcePage": "https://vega.dk/event/kenton-slash-demon-2026-10-31",
+  "credit": "VEGA Copenhagen",
+  "kind": "event",
+  "width": 1500,
+  "note": "visuel officiel VEGA de la date Kenton Slash Demon du 31.10.2026"
+ },
+ {
+  "id": 738,
+  "image": "https://aaniwalli.fi/_astro/2026-11-06-Teletech-Helsinki-Cover.C1QKtf5m_efPWl.jpeg",
+  "sourcePage": "https://aaniwalli.fi/events/2026-06-11-teletech_x_cnnct",
+  "credit": "Ääniwalli Helsinki / Teletech",
+  "kind": "event",
+  "width": 1000,
+  "note": "affiche officielle Teletech x CNNCT Helsinki du 06.11.2026"
+ },
+ {
+  "id": 739,
+  "image": "https://www.tradgarn.se/content/files/1920x1080_goteborg.png",
+  "sourcePage": "https://www.tradgarn.se/kalender/stvw-punk-rave/",
+  "credit": "STVW / Trädgår'n Göteborg",
+  "kind": "event",
+  "width": 1920,
+  "note": "affiche officielle STVW Punk Rave, vendredi 06.11.2026 Trädgår'n Göteborg"
+ },
+ {
+  "id": 753,
+  "image": "https://www.theprodigyontour.com/wp-content/uploads/2026/04/2026.11-poster-1.jpg",
+  "sourcePage": "https://www.theprodigyontour.com/upcoming/2026-11-14-unity-arena-oslo-norway/",
+  "credit": "The Prodigy",
+  "kind": "event",
+  "width": 629,
+  "note": "affiche officielle de la tournee europeenne 2026, date Unity Arena Oslo du 14.11"
+ },
+ {
+  "id": 761,
+  "image": "https://eventadmin.stockholmlive.com/uploads/img/69d3e535b8a98_4000.jpg",
+  "sourcePage": "https://aviciiarena.se/en/events/music-show/the-prodigy/",
+  "credit": "The Prodigy / Avicii Arena (Stockholm Live)",
+  "kind": "event",
+  "width": 4000,
+  "note": "affiche officielle The Prodigy 15 novembre 2026 Avicii Arena"
+ },
+ {
+  "id": 764,
+  "image": "https://pumpehuset.dk/wp-content/uploads/trinix-scaled-e1770811665272.jpg",
+  "sourcePage": "https://pumpehuset.dk/en/koncerter/trinix/",
+  "credit": "Pumpehuset",
+  "kind": "event",
+  "width": 960,
+  "note": "visuel officiel de la date Trinix du 21.11.2026"
+ },
+ {
+  "id": 809,
+  "image": "https://pumpehuset.dk/wp-content/uploads/c279267c-2169-4f6d-8017-cc93eeec936d.jpeg",
+  "sourcePage": "https://pumpehuset.dk/program/",
+  "credit": "Protoned / Pumpehuset",
+  "kind": "event",
+  "width": 1600,
+  "note": "affiche officielle Protoned Christmas Rave 25-12-2026"
+ },
+ {
+  "id": 833,
+  "image": "https://img.broadcastapp.no/venues/event_iyVkDGzwJ/tr:w-1600",
+  "sourcePage": "https://www.broadcast.events/events/broiler-ingen-skal-hjem-tour/vD2XhnE7b8",
+  "credit": "Broiler / Sky Agency",
+  "kind": "event",
+  "width": 1600,
+  "note": "affiche officielle Broiler Ingen Skal Hjem Tour, Unity Arena 13 fevrier 2027"
+ }
+]
