@@ -385,5 +385,41 @@
   "kind": "event",
   "width": 2447,
   "note": "visuel officiel de la date Ullevi du 28.08.2026"
+ },
+ {
+  "id": 549,
+  "image": "https://ik.imagekit.io/mfgbmrqfuvo/venues/event_s4MboZaA2/tr:w-1600",
+  "sourcePage": "https://www.rockefeller.no/en/events/infected-mushroom/MVK0t4S58m",
+  "credit": "Sentrum Scene / Rockefeller Oslo",
+  "kind": "event",
+  "width": 1600,
+  "note": "visuel officiel de la date Infected Mushroom du 18.09.2026"
+ },
+ {
+  "id": 612,
+  "image": "https://gravitycph.dk/wp-content/uploads/2026/07/IMG_3673.png",
+  "sourcePage": "https://gravitycph.dk/eric-prydz-copenhagen/",
+  "credit": "Gravity Copenhagen",
+  "kind": "event",
+  "width": 1080,
+  "note": "affiche officielle Eric Prydz, 23.10 TAP1 Copenhague"
+ },
+ {
+  "id": 601,
+  "image": "https://clubbing.no/wp-content/uploads/2026/06/Untitled-1.jpg",
+  "sourcePage": "https://clubbing.no/event/laidback-luke/",
+  "credit": "Laidback Luke / Vulkan Arena Oslo",
+  "kind": "event",
+  "width": 1200,
+  "note": "affiche officielle Laidback Luke, Vulkan Arena Oslo 16 octobre 2026"
+ },
+ {
+  "id": 611,
+  "image": "https://clubbing.no/wp-content/uploads/2026/06/719190077_1487930229799367_3982243622362572800_n.jpg",
+  "sourcePage": "https://clubbing.no/event/markus-schulz-orjan-nilsen/",
+  "credit": "Markus Schulz / Vulkan Arena Oslo",
+  "kind": "event",
+  "width": 960,
+  "note": "affiche officielle Markus Schulz + Orjan Nilsen, Vulkan Arena Oslo 23 octobre 2026"
  }
 ]
