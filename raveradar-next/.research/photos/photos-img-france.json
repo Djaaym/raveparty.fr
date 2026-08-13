@@ -349,5 +349,41 @@
     "kind": "event",
     "width": 1600,
     "note": "photo live officielle du show Thylacine (même tournée)"
+  },
+  {
+    "id": 685,
+    "image": "https://aeronef.fr/sites/aeronef/files/2025-11/autechre_-_laeronef_2026_-_4x5.jpg",
+    "sourcePage": "https://aeronef.fr/agenda/autechre",
+    "credit": "L'Aéronef (Lille)",
+    "kind": "event",
+    "width": 1080,
+    "note": "visuel officiel « autechre. twentytwentysix. » de la date à l'Aéronef"
+  },
+  {
+    "id": 676,
+    "image": "https://aeronef.fr/sites/aeronef/files/2025-11/autechre_-_laeronef_2026_-_4x5.jpg",
+    "sourcePage": "https://aeronef.fr/agenda/autechre",
+    "credit": "L'Aéronef (Lille)",
+    "kind": "event",
+    "width": 1080,
+    "note": "visuel officiel de la tournée « autechre. twentytwentysix. » (même tournée que la date de Nantes)"
+  },
+  {
+    "id": 684,
+    "image": "https://ouestpark.com/sites/letetris/files/styles/auto_1920/public/2026-04/op2025-vendredi-mickael_liblin_172a7780.jpg?itok=zyQWzgDP",
+    "sourcePage": "https://ouestpark.com/acces-et-infos-pratiques-ouest-park",
+    "credit": "Mickaël Liblin / Ouest Park Festival",
+    "kind": "festival",
+    "width": 1500,
+    "note": "photo officielle de la scène et du public au Fort de Tourneville (édition 2025)"
+  },
+  {
+    "id": 583,
+    "image": "https://www.halledelamachine.fr/wp-content/uploads/2025/12/BANDEAU_EVENT_1920x1080px_AFFICHE-MP-26.jpg",
+    "sourcePage": "https://www.halledelamachine.fr/evenements/mecanik-paradize/",
+    "credit": "Halle de la Machine / Les Productions du Possible",
+    "kind": "festival",
+    "width": 1920,
+    "note": "affiche officielle Mecanik Paradize 2026"
   }
 ]

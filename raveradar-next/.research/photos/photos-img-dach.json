@@ -187,5 +187,59 @@
     "kind": "event",
     "width": 1440,
     "note": "photo officielle de la serie Psy-Spirits (public sous lumiere UV) publiee par l'organisateur"
+  },
+  {
+    "id": 657,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Open_Beatz_Herzogenaurach_Feuerwerk_Closing_Show_Fotografie.jpg/1920px-Open_Beatz_Herzogenaurach_Feuerwerk_Closing_Show_Fotografie.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Open_Beatz_Herzogenaurach_Feuerwerk_Closing_Show_Fotografie.jpg",
+    "credit": "Wayne 1313 / Wikimedia Commons, CC BY-SA 4.0",
+    "kind": "festival",
+    "width": 1920,
+    "note": "mainstage Open Beatz Herzogenaurach, closing show avec feux d'artifice"
+  },
+  {
+    "id": 658,
+    "image": "https://www.nature-one.de/build/assets/location-DlbRZDIx.jpg",
+    "sourcePage": "https://www.nature-one.de/en/info/location",
+    "credit": "Nature One",
+    "kind": "festival",
+    "width": 2500,
+    "note": "vue aerienne officielle du site (Raketenbasis Pydna, Kastellaun) publiee par l'organisateur"
+  },
+  {
+    "id": 670,
+    "image": "https://images.ra.co/b8d03530cc9aeed69e0e2e9eb46ee6a1b935d388.png",
+    "sourcePage": "https://www.konzertsuche.de/konzert/verknipt-germany-berlin-october-9-10-club-ost-renate-berlin-9-oktober",
+    "credit": "Verknipt",
+    "kind": "event",
+    "width": 1920,
+    "note": "artwork officiel Verknipt Berlin Germany Tour — 9 & 10 Oct, Club OST Berlin, line-up complet"
+  },
+  {
+    "id": 754,
+    "image": "https://images.ra.co/6900ffea452d311db04f7c53210ac22491fc5269.png",
+    "sourcePage": "https://www.konzertsuche.de/konzert/verknipt-germany-tour-oberhausen-14-november-turbinenhalle-14-november",
+    "credit": "Verknipt",
+    "kind": "event",
+    "width": 1920,
+    "note": "artwork officiel Verknipt Oberhausen — 14 Nov 22:00-07:00, Turbinenhalle, line-up complet"
+  },
+  {
+    "id": 804,
+    "image": "https://hallenstadion.ch/wp-content/uploads/2025/12/SQ-Hallenstadion.png",
+    "sourcePage": "https://hallenstadion.ch/events/verknipt/",
+    "credit": "Verknipt / We Love Techno Switzerland",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle Verknipt Stadion — 19 December 2026, Hallenstadion Zurich"
+  },
+  {
+    "id": 810,
+    "image": "https://turbinenhalle.de/wp-content/uploads/2022/01/army26.jpg",
+    "sourcePage": "https://turbinenhalle.de/programm/",
+    "credit": "Army of Hardcore / Turbinenhalle Oberhausen",
+    "kind": "event",
+    "width": 851,
+    "note": "banniere officielle Army of Hardcore — 25.12.2026 Turbinenhalle Oberhausen"
   }
 ]

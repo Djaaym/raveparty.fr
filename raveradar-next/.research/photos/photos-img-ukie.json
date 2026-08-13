@@ -331,5 +331,23 @@
   "kind": "venue",
   "width": 1366,
   "note": "meme salle que l'id 706"
+ },
+ {
+  "id": 704,
+  "image": "https://www.studio338.co.uk/uploads/images/_1920xAUTO_crop_center-center_70_none/VISIONSEVEN-45.jpg",
+  "sourcePage": "https://www.studio338.co.uk/the-venue",
+  "credit": "Studio 338",
+  "kind": "venue",
+  "width": 1920,
+  "note": "photo de la salle principale du Studio 338 en soiree"
+ },
+ {
+  "id": 745,
+  "image": "https://www.studio338.co.uk/uploads/images/_1920xAUTO_crop_center-center_70_none/VISIONSEVEN-45.jpg",
+  "sourcePage": "https://www.studio338.co.uk/the-venue",
+  "credit": "Studio 338",
+  "kind": "venue",
+  "width": 1920,
+  "note": "photo de la salle principale du Studio 338 en soiree"
  }
 ]
