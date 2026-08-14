@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "RaveRadar — Find your next rave",
   description:
-    "Discover Europe's best electronic music events. Techno, hardstyle, DnB, psytrance, free parties & warehouse raves.",
+    "Discover Europe's best electronic music events. Techno, hardstyle, DnB, psytrance, trance & warehouse raves.",
   icons: {
     icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E",
   },

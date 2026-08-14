@@ -34,21 +34,21 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
     lang === "fr"
       ? `${PLACES.length} villes, départements et régions couverts, ${live.length} événement${
           live.length > 1 ? "s" : ""
-        } à venir. Choisis ta zone : chaque page réunit les rave parties, free parties et festivals du coin, avec les dates, les line-ups et la billetterie officielle.`
+        } à venir. Choisis ta zone : chaque page réunit les festivals et les soirées électro du coin, avec les dates, les line-ups et la billetterie officielle.`
       : `${PLACES.length} cities, counties and regions covered, ${live.length} upcoming event${
           live.length > 1 ? "s" : ""
-        }. Pick your area: each page gathers the local rave parties, free parties and festivals with dates, line-ups and official ticketing.`;
+        }. Pick your area: each page gathers the local festivals and electronic events with dates, line-ups and official ticketing.`;
 
   const faq: [string, string][] =
     lang === "fr"
       ? [
           [
             "Comment trouver une rave party près de chez moi ?",
-            "Choisis ta ville ou ton département dans les listes ci-dessus : chaque page regroupe les soirées, free parties et festivals de la zone. Pour aller plus vite, la page « Autour de moi » utilise ta position et trie les événements par distance.",
+            "Choisis ta ville ou ton département dans les listes ci-dessus : chaque page regroupe les festivals et les soirées de la zone. Pour aller plus vite, la page « Autour de moi » utilise ta position et trie les événements par distance.",
           ],
           [
             "Quelles villes et quels départements sont couverts ?",
-            "Les grandes villes françaises (Lyon, Paris, Rennes, Bordeaux, Nantes, Marseille, Toulouse…), les départements où la scène free party est la plus active (Drôme, Lozère, Aude, Lot, Isère, Hérault…) et les capitales européennes de la techno : Berlin, Amsterdam, Rotterdam, Londres, Barcelone.",
+            "Les grandes villes françaises (Lyon, Paris, Rennes, Bordeaux, Nantes, Marseille, Toulouse…), les départements qui accueillent des festivals en plein air (Drôme, Lozère, Aude, Lot, Isère, Hérault…) et les capitales européennes de la techno : Berlin, Amsterdam, Rotterdam, Londres, Barcelone.",
           ],
           [
             "Y a-t-il des soirées ce week-end ?",
@@ -62,11 +62,11 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
       : [
           [
             "How do I find a rave party near me?",
-            "Pick your city or region from the lists above: each page gathers the local parties, free parties and festivals. The \"Near me\" page uses your location and sorts events by distance.",
+            "Pick your city or region from the lists above: each page gathers the local festivals and club nights. The \"Near me\" page uses your location and sorts events by distance.",
           ],
           [
             "Which cities and regions are covered?",
-            "Major French cities (Lyon, Paris, Rennes, Bordeaux, Nantes, Marseille, Toulouse…), the French counties where the free-party scene is most active (Drôme, Lozère, Aude, Lot, Isère, Hérault…) and Europe's techno capitals: Berlin, Amsterdam, Rotterdam, London, Barcelona.",
+            "Major French cities (Lyon, Paris, Rennes, Bordeaux, Nantes, Marseille, Toulouse…), the French counties that host open-air festivals (Drôme, Lozère, Aude, Lot, Isère, Hérault…) and Europe's techno capitals: Berlin, Amsterdam, Rotterdam, London, Barcelona.",
           ],
           [
             "Is anything on this weekend?",

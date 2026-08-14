@@ -57,8 +57,8 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
             `Chaque fiche festival renvoie vers la billetterie officielle de l'organisateur. On n'affiche pas de revente : le prix indiqué est le tarif d'entrée le plus bas connu.`,
           ],
           [
-            `Y a-t-il des festivals gratuits ou des free parties à ${place.label} ?`,
-            `Oui, certaines parades et free parties sont à entrée libre — elles sont signalées « Gratuit » sur leur fiche. Pour les free parties, dont les coordonnées tombent souvent 24 h avant, suis la page Rave party ${place.label}.`,
+            `Y a-t-il des festivals gratuits à ${place.label} ?`,
+            `Oui, certaines parades et scènes ouvertes sont à entrée libre — elles sont signalées « Gratuit » sur leur fiche. Pour les soirées club et les autres dates de la zone, voir la page Rave party ${place.label}.`,
           ],
         ]
       : [
@@ -80,8 +80,8 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
             `Every festival listing links to the promoter's official ticket shop. We don't list resale: the price shown is the lowest known entry price.`,
           ],
           [
-            `Are there free festivals or free parties in ${place.label}?`,
-            `Yes — some parades and free parties have free entry and are flagged "Free" on their listing. For free parties, whose coordinates often drop 24h before, follow the Rave party ${place.label} page.`,
+            `Are there free festivals in ${place.label}?`,
+            `Yes — some parades and open stages have free entry and are flagged "Free" on their listing. For club nights and the other dates in the area, see the Rave party ${place.label} page.`,
           ],
         ];
 

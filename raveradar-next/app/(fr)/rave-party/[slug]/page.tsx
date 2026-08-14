@@ -16,8 +16,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     };
   return {
     alternates: alternates(`/rave-party/${params.slug}`, "fr"),
-    title: `Rave party ${place.label} — soirées techno & free parties | RaveRadar`,
-    description: `Toutes les rave parties, free parties et soirées techno à ${place.label} et aux alentours. Dates, line-ups, billetterie. Active une alerte pour ne rien rater.`,
+    title: `Rave party ${place.label} — festivals & soirées techno | RaveRadar`,
+    description: `Tous les festivals électro et soirées techno à ${place.label} et aux alentours. Dates, line-ups, billetterie. Active une alerte pour ne rien rater.`,
   };
 }
 

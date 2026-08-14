@@ -6,7 +6,7 @@ import { EVENTS, countryLabel, cardBg, imageThumb, eventPath, isPast } from "@/l
 import { fmtDate, imageAlt } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 
-const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Free Party", "House"];
+const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Trance", "House"];
 
 export default function MapView({ lang, today }: { lang: Lang; today: string }) {
   const t = getDict(lang);

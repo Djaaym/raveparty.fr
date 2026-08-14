@@ -35,8 +35,8 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
 
   const intro =
     lang === "fr"
-      ? `Les meilleures rave parties, free parties et soirées techno à ${place.label} et aux alentours — dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
-      : `The best rave parties, free parties and techno nights in and around ${place.label} — dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
+      ? `Les meilleurs festivals électro et soirées techno à ${place.label} et aux alentours — dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
+      : `The best electronic festivals and techno nights in and around ${place.label} — dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
 
   const faq: [string, string][] =
     lang === "fr"
@@ -46,8 +46,8 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
             `Consulte la liste ci-dessus : on référence les événements électro à ${place.label} et aux alentours, mis à jour en continu. Active une alerte pour être prévenu des nouvelles dates.`,
           ],
           [
-            `Comment trouver une free party à ${place.label} ?`,
-            `Les free parties sont souvent annoncées à la dernière minute. Crée une alerte « Free party » sur ${place.label} et reçois les coordonnées dès qu'elles tombent.`,
+            `Comment être prévenu des nouvelles dates à ${place.label} ?`,
+            `Crée une alerte sur ${place.label} : dès qu'un festival ou une soirée est confirmé dans la zone, tu reçois la date, le line-up et le lien billetterie par mail.`,
           ],
           [
             `Quels festivals de musique électronique près de ${place.label} ?`,
@@ -55,7 +55,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           ],
           [
             `Combien coûte une soirée techno à ${place.label} ?`,
-            `Les tarifs vont de l'entrée libre (free parties, parades) à 40-90 € pour un festival. Chaque fiche événement affiche le prix d'entrée le plus bas connu et le lien vers la billetterie officielle.`,
+            `Les tarifs vont de l'entrée libre (parades, scènes ouvertes) à 40-90 € pour un festival. Chaque fiche événement affiche le prix d'entrée le plus bas connu et le lien vers la billetterie officielle.`,
           ],
         ]
       : [
@@ -64,8 +64,8 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
             `Check the list above — we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`,
           ],
           [
-            `How do I find a free party in ${place.label}?`,
-            `Free parties are often announced last minute. Create a "Free party" alert for ${place.label} and get the coordinates as soon as they drop.`,
+            `How do I hear about new dates in ${place.label}?`,
+            `Set an alert for ${place.label}: as soon as a festival or a club night is confirmed in the area, you get the date, the line-up and the ticket link by email.`,
           ],
           [
             `Which electronic music festivals are near ${place.label}?`,
@@ -73,7 +73,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           ],
           [
             `How much does a techno night in ${place.label} cost?`,
-            `Anywhere from free (free parties, parades) to €40-90 for a festival. Each event page shows the lowest known entry price and links to the official ticket shop.`,
+            `Anywhere from free (parades, open stages) to €40-90 for a festival. Each event page shows the lowest known entry price and links to the official ticket shop.`,
           ],
         ];
 
