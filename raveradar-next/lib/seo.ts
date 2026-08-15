@@ -208,8 +208,8 @@ export function siteJsonLd(lang: Lang) {
       url: SITE_URL,
       description:
         lang === "en"
-          ? "Directory of electronic music events across Europe: festivals, clubs, warehouses and free parties."
-          : "L'annuaire des événements de musique électronique en Europe : festivals, clubs, warehouses et free parties.",
+          ? "Directory of electronic music events across Europe: festivals, clubs and warehouses."
+          : "L'annuaire des événements de musique électronique en Europe : festivals, clubs et warehouses.",
     },
   ];
 }

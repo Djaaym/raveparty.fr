@@ -1,6 +1,6 @@
 # 🔊 RaveRadar — *The TripAdvisor of rave*
 
-> Discover Europe's best electronic music events — techno, hardstyle, DnB, psytrance, free parties & warehouse raves, all in one immersive place.
+> Discover Europe's best electronic music events — techno, hardstyle, DnB, psytrance, trance & warehouse raves, all in one immersive place.
 
 A complete, production-quality concept + working website for an underground electronic-music event directory. Built in **vanilla HTML / CSS / JS** (zero build step) so it runs by just opening `index.html`.
 
@@ -52,7 +52,7 @@ Warehouses, neon, lasers, strobes, festival smoke, clandestine raves — deliber
 | Neon violet | `#8B5CFF` | Glows, gradients |
 | Neon magenta | `#FF2D9B` | CTAs, highlights |
 | Laser cyan | `#19E7FF` | Eyebrows, meta |
-| Acid green | `#C6FF3D` | Free-party / live signals |
+| Acid green | `#C6FF3D` | Live / "on now" signals |
 | Off-white | `#F3F3F8` | Text |
 
 Signature gradient: `blue → violet → magenta`.
@@ -89,14 +89,14 @@ assets/
 
 `Land on hero → feel the energy → search or tap a genre → scan trending → open an event → see the line-up & price → save ♥ or get tickets → set an alert so you never miss the next one.`
 
-FOMO levers: a **live counter** in the hero, "Trending this week 🔥", soonest-first sorting, **free-party "location revealed 24h before"**, alerts, and sold-out-style urgency.
+FOMO levers: a **live counter** in the hero, "Trending this week 🔥", soonest-first sorting, line-up announcements, alerts, and sold-out-style urgency.
 
 Inspiration blend: **Spotify** (genre discovery), **Resident Advisor** (depth), **Boiler Room** (culture), **Airbnb Experiences** (cards + map + booking flow).
 
 ---
 
 ## 💎 Premium features & monetisation
-- **Radar+ (€6/mo)** — artist/city alerts, ticket pre-sale access, ad-free, exclusive free-party drops, group itineraries.
+- **Radar+ (€6/mo)** — artist/city alerts, ticket pre-sale access, ad-free, in-depth festival guides, group itineraries.
 - **Promoter (€39/mo)** — unlimited listings, featured placement, audience analytics, ticket integration, verified badge.
 - Other rails: ticketing affiliate commissions, sponsored/boosted events, festival brand takeovers, data insights for promoters.
 

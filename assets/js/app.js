@@ -219,7 +219,7 @@ function initHome() {
 
   // genre chips quick links
   const chips = $("#hero-chips");
-  if (chips) chips.innerHTML = ["Techno","Hard Techno","Drum & Bass","Psytrance","Free Party","House"]
+  if (chips) chips.innerHTML = ["Techno","Hard Techno","Drum & Bass","Psytrance","Trance","House"]
     .map(g => `<a class="chip" href="${LP}/explore/?genre=${encodeURIComponent(g)}">${g}</a>`).join("");
 }
 

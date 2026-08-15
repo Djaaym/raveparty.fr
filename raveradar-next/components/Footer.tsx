@@ -6,7 +6,7 @@ import { getDict, langPrefix } from "@/lib/i18n";
 
 /* Sitewide footer links: the highest-volume genres and places from docs/seo-keywords.md.
    Every page carries them, so they're the backbone of the internal-link graph. */
-const FOOTER_GENRES = ["Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Free Party", "House"];
+const FOOTER_GENRES = ["Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Trance", "House"];
 const FOOTER_PLACES = ["lot", "aude", "lozere", "rennes", "lyon", "paris", "bordeaux", "bretagne"];
 
 export default function Footer({ lang, simple = false }: { lang: Lang; simple?: boolean }) {

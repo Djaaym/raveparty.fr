@@ -15,7 +15,6 @@ const GENRES = {
   "House":        { c1: "#FF6A3D", c2: "#FF2D9B" },
   "Trance":       { c1: "#19E7FF", c2: "#8B5CFF" },
   "Psytrance":    { c1: "#C6FF3D", c2: "#8B5CFF" },
-  "Free Party":   { c1: "#C6FF3D", c2: "#FF2D9B" },
   "Warehouse":    { c1: "#6E7081", c2: "#2F7BFF" },
 };
 
@@ -29,7 +28,6 @@ const GENRE_DESC = {
   "Drum & Bass": "Rolling 174 basslines",
   "Trance": "Euphoric uplifting journeys",
   "Psytrance": "Forest & goa frequencies",
-  "Free Party": "Off-grid sound systems",
   "Warehouse": "Raw industrial spaces",
   "House": "Soulful grooves all night",
 };
@@ -95,13 +93,6 @@ const EVENTS = [
     venue: "Lake Idanha", trending: true,
     lineup: ["Vini Vici","Captain Hook","Ace Ventura","Liquid Soul","Astrix"],
     desc: "A week-long psychedelic gathering by a Portuguese lake. Visionary art, off-grid sound and the most famous psytrance dancefloor on Earth." },
-
-  { id: 9, title: "Teknival Free Party", type: "Warehouse", genres: ["Free Party","Acid Techno"],
-    city: "Secret Location", country: "France", lat: 45.76, lng: 4.83,
-    date: "2026-08-15", time: "20:00", price: 0, currency: "€",
-    venue: "Location revealed 24h before", trending: true,
-    lineup: ["Spiral Tribe","Heretik System","OQP","Nostromo Sound"],
-    desc: "A true free party — coordinates dropped the night before. Multiple rigs, generators, mud and freedom. Bring your own water. No commercial sponsors, ever." },
 
   { id: 10, title: "Tomorrowland Mainstage", type: "Festival", genres: ["EDM","Trance"],
     city: "Boom", country: "Belgium", lat: 51.09, lng: 4.37,
@@ -208,7 +199,6 @@ const GENRE_DESC_FR = {
   "Drum & Bass": "Basslines roulantes à 174",
   "Trance": "Voyages uplifting euphoriques",
   "Psytrance": "Fréquences forest & goa",
-  "Free Party": "Sound systems hors-réseau",
   "Warehouse": "Espaces industriels bruts",
   "House": "Grooves soul toute la nuit",
 };
@@ -222,7 +212,6 @@ const DESC_FR = {
   6: "La session culte autour de la cabine passe en mode jungle. Breaks à 174 BPM, rewinds et la salle la plus moite de l'est londonien.",
   7: "Quatre jours de pure euphorie hardstyle. La légendaire scène RED, des feux d'artifice et 100 000 warriors chantant à l'unisson.",
   8: "Un rassemblement psychédélique d'une semaine au bord d'un lac portugais. Art visionnaire, son off-grid et le dancefloor psytrance le plus célèbre de la planète.",
-  9: "Une vraie free party — les coordonnées tombent la veille au soir. Plusieurs sound systems, groupes électrogènes, boue et liberté. Apporte ton eau. Aucun sponsor commercial, jamais.",
   10: "La production scénique la plus spectaculaire au monde. Pyrotechnie, décor féérique et la famille EDM mondiale réunie dans une forêt belge.",
   11: "De la techno dub épurée dans un loft intime. Plafonds bas, gros stacks Funktion-One et un public strictement tête baissée.",
   12: "Carnage DnB d'Halloween dans un ancien dépôt ferroviaire caverneux. Rollers liquides en début de soirée, jump-up déchaîné dès 2h.",

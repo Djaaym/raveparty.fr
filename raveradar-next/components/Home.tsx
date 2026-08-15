@@ -13,7 +13,7 @@ import JsonLd from "./JsonLd";
 import { siteJsonLd } from "@/lib/seo";
 import { PLACES } from "@/lib/places";
 
-const MARQUEE = ["TECHNO", "HARDSTYLE", "DRUM & BASS", "PSYTRANCE", "FREE PARTY", "ACID", "WAREHOUSE"];
+const MARQUEE = ["TECHNO", "HARDSTYLE", "DRUM & BASS", "PSYTRANCE", "TRANCE", "ACID", "WAREHOUSE"];
 
 export default function Home({ lang }: { lang: Lang }) {
   const t = getDict(lang);

@@ -99,7 +99,7 @@ Vaucluse · Gironde · Nord · Bouches-du-Rhône · Ille-et-Vilaine · Seine-et-
 | 480 | Tarn | idem |
 | 320 | Aveyron | idem |
 
-Ces requêtes sont massivement portées par des **free parties non déclarées** (intention news/illégal). On ne les référence pas ; la page reste utile en captation + alerte, mais il faudra un événement légal (festival, soirée club) pour la faire vivre.
+Ces requêtes sont massivement portées par des événements non déclarés (intention news). **Le site ne les couvre pas** — c'est une ligne éditoriale, pas un trou à combler : RaveRadar est un annuaire de festivals et de soirées déclarées. La page reste utile en captation + alerte, mais elle n'aura de contenu que le jour où un festival ou une soirée club s'y tient.
 
 ### Ce qui a été cherché sans succès
 Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, retour 2027 sans date) · Sonus Croatie (contradictoire) · EXIT Novi Sad 2027 · Tomorrowland Belgique 2027 (dates non officielles) · Macki Music Festival (dernière édition 2025) · Scopitone (biennal). Astropolis l'Hiver, Panoramas, Peacock Society, I Love Techno Europe, Ososphère : dates 2027 non annoncées au 29/07/2026 — **à re-vérifier**.
@@ -117,7 +117,7 @@ Danemark · Suède · Norvège · Finlande · Islande · Estonie · Lettonie · 
 
 ### Trous connus
 - **Baltes** : festivals seulement. Les sites de clubs (One One, HALL, Sveta, Opium, Lizdas) et RA/DICE renvoient 403 aux requêtes serveur.
-- **Départements FR à fort volume toujours vides** : Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain — aucun événement légal vérifiable, ces requêtes étant portées par des free parties non déclarées.
+- **Départements FR à fort volume toujours vides** : Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain — aucun festival ni soirée déclarée à y référencer. Volume porté par des événements non déclarés, hors périmètre éditorial.
 - **Villes sans contenu vérifiable** : Bilbao, Séville, Naples, Maastricht, Nimègue, Nuremberg, Linz.
 - **Décembre-février 2027** reste maigre : la plupart des clubs ne publient qu'à 4-8 semaines.
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: alternates("/rave-party/autour-de-moi", "en"),
   title: "Raves near me — electronic events close to you | RaveRadar",
   description:
-    "Find the rave parties, free parties and electronic festivals closest to your location. Geolocation, sorted by distance.",
+    "Find the electronic festivals and rave parties closest to your location. Geolocation, sorted by distance.",
 };
 
 export default function Page() {

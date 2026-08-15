@@ -7,7 +7,7 @@ export const metadata: Metadata = pageMeta({
   path: "",
   title: "RaveRadar — Rave parties, festivals & techno nights across Europe",
   description:
-    "The directory of electronic music events in Europe: rave parties, techno festivals, free parties and clubs. Dates, line-ups and tickets, updated continuously.",
+    "The directory of electronic music events in Europe: techno festivals, rave parties and clubs. Dates, line-ups and tickets, updated continuously.",
 });
 
 export default function Page() {

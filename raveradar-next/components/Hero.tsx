@@ -109,7 +109,7 @@ export default function Hero({ lang, count, countries }: { lang: Lang; count: nu
         </motion.form>
 
         <div className="chips">
-          {["Techno", "Hard Techno", "Drum & Bass", "Psytrance", "Free Party", "House"].map((g) => (
+          {["Techno", "Hard Techno", "Drum & Bass", "Psytrance", "Trance", "House"].map((g) => (
             <Link className="chip" key={g} href={`${p}/explore?genre=${encodeURIComponent(g)}`}>
               {g}
             </Link>
