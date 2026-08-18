@@ -88,6 +88,15 @@ export const PLACES: Place[] = [
   { slug: "doubs", label: "Doubs", kind: "departement", vol: 210 },
   { slug: "charente", label: "Charente", kind: "departement", vol: 210 },
   { slug: "aisne", label: "Aisne", kind: "departement", vol: 210 },
+  /* Ouverts par le lot d'août 2026 : Fréjus et Puget-sur-Argens (Var), Bergerac
+     (Dordogne), Biarritz (Pyrénées-Atlantiques), Limoges (Haute-Vienne), Oigny
+     (Côte-d'Or). Sans entrée ici ces dates n'étaient atteignables que par la page
+     pays et les pages genre. `vol` pas encore issu de l'export SEMrush. */
+  { slug: "var", label: "Var", kind: "departement", vol: 260 },
+  { slug: "dordogne", label: "Dordogne", kind: "departement", vol: 210 },
+  { slug: "pyrenees-atlantiques", label: "Pyrénées-Atlantiques", kind: "departement", vol: 210 },
+  { slug: "haute-vienne", label: "Haute-Vienne", kind: "departement", vol: 210 },
+  { slug: "cote-d-or", label: "Côte-d'Or", kind: "departement", vol: 210 },
   // European cities the calendar now covers — each has at least one dated event.
   { slug: "copenhague", label: "Copenhague", kind: "ville", vol: 1300, match: ["Copenhagen", "Roskilde"] },
   { slug: "stockholm", label: "Stockholm", kind: "ville", vol: 1000, match: ["Stockholm", "Linköping", "Kristianstad"] },

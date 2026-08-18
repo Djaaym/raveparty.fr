@@ -1,0 +1,286 @@
+[
+  {
+    "title": "PULSE: Surgeon",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Edinburgh",
+    "country": "UK",
+    "lat": 55.9487,
+    "lng": -3.1888,
+    "date": "2026-09-05",
+    "time": "23:00",
+    "price": 15,
+    "currency": "£",
+    "venue": "The Bongo Club",
+    "trending": false,
+    "lineup": [
+      "Surgeon",
+      "Darrell Pulse",
+      "Sean Laird"
+    ],
+    "desc": "Pulse, la soirée techno lancée en 2009 par Darrell Pulse, invite Surgeon dans la cave du Bongo Club, sur Cowgate. Le Britannique, figure de la techno industrielle depuis 1994 (Downwards, Tresor), joue aux côtés des résidents Darrell Pulse et Sean Laird. De 23 h à 3 h, 15 £ + frais, billets aussi à la porte si la soirée n'est pas complète.",
+    "descEn": "Pulse, the techno night started in 2009 by Darrell Pulse, brings Surgeon to the Bongo Club basement on Cowgate. The British artist, a fixture of industrial techno since 1994 (Downwards, Tresor), plays alongside residents Darrell Pulse and Sean Laird. 23:00 to 03:00, £15 + booking fee, tickets also on the door unless sold out.",
+    "ticketUrl": "https://ra.co/events/2404245",
+    "sources": [
+      "https://www.thebongoclub.co.uk/event/pulse-surgeon-darrell-pulse-sean-laird/",
+      "https://www.thebongoclub.co.uk/events"
+    ]
+  },
+  {
+    "title": "RTM: FJAAK & Slam & Nightwave",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Glasgow",
+    "country": "UK",
+    "lat": 55.8574,
+    "lng": -4.2586,
+    "date": "2026-09-11",
+    "time": "23:00",
+    "price": 0,
+    "currency": "£",
+    "venue": "Sub Club",
+    "trending": false,
+    "lineup": [
+      "FJAAK",
+      "Slam",
+      "Nightwave"
+    ],
+    "desc": "Return to Mono, la soirée des Écossais de Slam au Sub Club de Jamaica Street, accueille le duo berlinois FJAAK. Felix Wagner et Aaron Röbig produisent en analogique intégral et enchaînent techno de warehouse, garage UK et breakbeat ; Nightwave complète l'affiche. Tarif non communiqué par la salle, billetterie via Resident Advisor.",
+    "descEn": "Return to Mono, the Sub Club night run by Scottish duo Slam on Jamaica Street, hosts Berlin pair FJAAK. Felix Wagner and Aaron Röbig produce entirely on analogue hardware, moving between warehouse techno, UK garage and breakbeat; Nightwave completes the bill. Price not published by the venue, tickets via Resident Advisor.",
+    "note": "tarif non communiqué",
+    "ticketUrl": "https://ra.co/events/2437425",
+    "sources": [
+      "https://subclub.co.uk/events/rtm-fjaak-slam-nightwave/",
+      "https://subclub.co.uk/"
+    ]
+  },
+  {
+    "title": "PULSE: SPFDJ",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Edinburgh",
+    "country": "UK",
+    "lat": 55.9487,
+    "lng": -3.1888,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 15,
+    "currency": "£",
+    "venue": "The Bongo Club",
+    "trending": false,
+    "lineup": [
+      "SPFDJ",
+      "Darrell Pulse",
+      "Shaun Johnston"
+    ],
+    "desc": "SPFDJ revient à Édimbourg pour la première fois depuis son passage complet de 2021, invitée par le collectif Pulse au Bongo Club. La Suédoise installée à Amsterdam, résidente de Herrensauna et fondatrice du label Intrepid Skin, joue avec les résidents Darrell Pulse et Shaun Johnston. De 23 h à 3 h, billets de 15 à 20 £ + frais selon la catégorie.",
+    "descEn": "SPFDJ returns to Edinburgh for the first time since her sold-out 2021 date, invited by the Pulse crew at the Bongo Club. The Amsterdam-based Swedish DJ, a Herrensauna resident and founder of the Intrepid Skin label, plays alongside residents Darrell Pulse and Shaun Johnston. 23:00 to 03:00, tickets £15-£20 + booking fee depending on tier.",
+    "ticketUrl": "https://ra.co/events/2457035",
+    "sources": [
+      "https://www.thebongoclub.co.uk/event/pulse-6-2026-09-25/",
+      "https://www.thebongoclub.co.uk/events"
+    ]
+  },
+  {
+    "title": "VISSA XL",
+    "type": "Club",
+    "genres": [
+      "Hardcore",
+      "EDM"
+    ],
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "lat": 51.5605,
+    "lng": 5.079,
+    "date": "2026-09-25",
+    "time": "22:00",
+    "price": 20.8,
+    "currency": "€",
+    "venue": "Poppodium 013",
+    "trending": false,
+    "lineup": [
+      "gladde paling",
+      "Borgore",
+      "Dr. Donk presents Zaagstep",
+      "Revenge of the Nerds",
+      "Explorers of the Internet",
+      "JayJay",
+      "SANO",
+      "Kabouter Plop",
+      "Ernst, Bobbie & de rest",
+      "Kaboutertje Putlucht"
+    ],
+    "desc": "Le DJ néerlandais gladde paling ramène sa soirée VISSA au Poppodium 013 de Tilburg dans sa plus grande version : sets hardcore et donk, musique live et numéros de cirque dans la Main. Borgore, Dr. Donk (avec son projet Zaagstep et le collectif Revenge of the Nerds) et Explorers of the Internet complètent l'affiche. De 22 h à 6 h, 18 ans minimum, billets de 20,80 € à 28,30 € selon la vague, frais de service compris.",
+    "descEn": "Dutch DJ gladde paling brings his VISSA night back to Poppodium 013 in Tilburg in its biggest form yet: hardcore and donk sets, live music and circus acts in the Main room. Borgore, Dr. Donk (with his Zaagstep project and the Revenge of the Nerds crew) and Explorers of the Internet round out the bill. 22:00 to 06:00, strictly 18+, tickets EUR 20.80 to EUR 28.30 depending on tier, service fees included.",
+    "ticketUrl": "https://www.013.nl/programma/138003/vissa-xl",
+    "sources": [
+      "https://www.013.nl/programma/138003/vissa-xl",
+      "https://www.013.nl/programma"
+    ]
+  },
+  {
+    "title": "Melodic Madness",
+    "type": "Club",
+    "genres": [
+      "Hardstyle"
+    ],
+    "city": "Tilburg",
+    "country": "Netherlands",
+    "lat": 51.5605,
+    "lng": 5.079,
+    "date": "2026-09-26",
+    "time": "13:00",
+    "price": 50,
+    "currency": "€",
+    "venue": "Poppodium 013",
+    "trending": false,
+    "lineup": [
+      "Jay Reeve",
+      "Adrenalize",
+      "Refuzion",
+      "Atmozfears",
+      "Demi Kanon",
+      "Audiotricz",
+      "Ecstatic",
+      "Avi8",
+      "Cyber",
+      "Noiseshock",
+      "Sylence",
+      "EMS",
+      "Solstice",
+      "Wasted Penguinz",
+      "MC DL"
+    ],
+    "desc": "Melodic Madness, lancé par Jay Reeve, revient dans la grande salle du Poppodium 013 à Tilburg après trois éditions complètes : une journée entière de hardstyle euphorique, portes à 13 h. L'affiche réunit Adrenalize b2b Refuzion, Atmozfears b2b Demi Kanon, Wasted Penguinz, Audiotricz & Ecstatic et Jay Reeve, avec MC DL au micro. Billet unique à 50 €, frais de service compris.",
+    "descEn": "Melodic Madness, founded by Jay Reeve, returns to the main hall of Poppodium 013 in Tilburg after three sold-out editions: a full day of euphoric hardstyle, doors at 13:00. The bill brings together Adrenalize b2b Refuzion, Atmozfears b2b Demi Kanon, Wasted Penguinz, Audiotricz & Ecstatic and Jay Reeve, with MC DL hosting. Single ticket at EUR 50, service fees included.",
+    "ticketUrl": "https://www.013.nl/programma/125987/melodic-madness",
+    "sources": [
+      "https://www.013.nl/programma/125987/melodic-madness",
+      "https://www.013.nl/programma"
+    ]
+  },
+  {
+    "title": "STACKED x LOST: KiNK b2b Raredub & Nikki Nair",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.348,
+    "lng": -6.262,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Wigwam",
+    "trending": false,
+    "lineup": [
+      "KiNK",
+      "Raredub",
+      "Nikki Nair",
+      "Tolentechno",
+      "Truly Moore",
+      "Lana Hayes"
+    ],
+    "desc": "Stacked occupe les trois étages du Wigwam, sur Middle Abbey Street, en collaboration avec le collectif LOST. Au sous-sol, le Bulgare KiNK joue pour la première fois à Dublin en b2b avec Raredub (Mutual Rytm, Steel City Dance Discs), avec Tolentechno b2b Truly Moore en ouverture ; à l'étage principal, l'Américain Nikki Nair (bass, électro, breaks) avec Lana Hayes en support. De 23 h à 3 h, tarif non communiqué, billetterie Resident Advisor.",
+    "descEn": "Stacked takes over all three floors of Wigwam on Middle Abbey Street, in collaboration with the LOST crew. In the basement, Bulgarian hardware icon KiNK plays his first Dublin back-to-back with Raredub (Mutual Rytm, Steel City Dance Discs), with Tolentechno b2b Truly Moore warming up; upstairs, US bass and electro producer Nikki Nair headlines with Lana Hayes in support. 23:00 to 03:00, price not published, tickets via Resident Advisor.",
+    "note": "tarif non communiqué",
+    "ticketUrl": "https://ra.co/events/2510470",
+    "sources": [
+      "https://www.wigwamdublin.com/stacked"
+    ]
+  },
+  {
+    "title": "Yanamaste at Kompass (All Night Long)",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Ghent",
+    "country": "Belgium",
+    "lat": 51.063,
+    "lng": 3.742,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Kompass Klub",
+    "trending": false,
+    "lineup": [
+      "Yanamaste"
+    ],
+    "desc": "Yanamaste tient seule les platines toute la nuit au Kompass Klub, l'entrepôt techno de la Nieuwevaart à Gand. Le club ouvre uniquement les soirs d'événement et ses nuits courent de 23 h à 7 h, sans réadmission une fois sorti. Tarif non communiqué au moment de la publication, billetterie Paylogic et vente à la porte tant que la soirée n'est pas complète.",
+    "descEn": "Yanamaste plays an all-night-long set at Kompass Klub, the techno warehouse on Nieuwevaart in Ghent. The club only opens on event nights and its parties run from 23:00 to 07:00, with a strict no re-entry policy. Price not published at the time of writing; tickets via Paylogic, with door sales while the night is not sold out.",
+    "note": "tarif non communiqué",
+    "ticketUrl": "https://agenda.paylogic.com/c76c61c16c26467fbb0e6177d07c25e0",
+    "sources": [
+      "https://kompassklub.com/line-up/yanamaste-at-kompass-all-night-long/",
+      "https://kompassklub.com/faq/"
+    ]
+  },
+  {
+    "title": "NAFT at Effenaar",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "lat": 51.439,
+    "lng": 5.48,
+    "date": "2026-12-04",
+    "time": "20:15",
+    "price": 29,
+    "currency": "€",
+    "venue": "Effenaar",
+    "trending": false,
+    "lineup": [
+      "NAFT"
+    ],
+    "desc": "NAFT joue dans la Grote Zaal de l'Effenaar, à Eindhoven. Le sextuor belge — quatre cuivres et deux batteurs, acoustiques et électroniques mêlés — rejoue la tech house et la techno en live, dans la veine de Bicep ou Fred again... Après une Kleine Zaal pleine l'an dernier, le groupe passe à la grande salle : ouverture des portes à 19 h 30, concert à 20 h 15, billet à 29 €.",
+    "descEn": "NAFT play the Grote Zaal at Effenaar in Eindhoven. The Belgian six-piece — four horns and two drummers, acoustic and electronic kits combined — rebuild tech house and techno as a live show, in the vein of Bicep or Fred again... After filling the Kleine Zaal last year, the band moves up to the main room: doors 19:30, on stage 20:15, tickets EUR 29.",
+    "ticketUrl": "https://www.effenaar.nl/agenda/naft-0",
+    "sources": [
+      "https://www.effenaar.nl/agenda/naft-0",
+      "https://www.effenaar.nl/agenda"
+    ]
+  },
+  {
+    "title": "Paradise City Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Steenokkerzeel",
+    "country": "Belgium",
+    "lat": 50.9089,
+    "lng": 4.506,
+    "date": "2027-07-02",
+    "endDate": "2027-07-04",
+    "time": "12:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Kasteel van Ribaucourt, Kasteelhoekstraat 1",
+    "trending": false,
+    "lineup": [],
+    "desc": "Paradise City revient pour trois jours dans les jardins du château de Ribaucourt, Kasteelhoekstraat 1 à Steenokkerzeel, au nord-est de Bruxelles. Le festival flamand est entièrement consacré à la musique électronique — house et techno sur des scènes en plein air — et revendique une organisation à faible impact. Programmation et tarifs pas encore annoncés à ce jour, préventes annoncées via la newsletter officielle.",
+    "descEn": "Paradise City returns for three days in the gardens of Ribaucourt Castle, Kasteelhoekstraat 1 in Steenokkerzeel, north-east of Brussels. The Flemish festival is dedicated entirely to electronic music — house and techno across open-air stages — and is run on a low-impact model. Lineup and prices not yet announced; presales flagged through the official newsletter.",
+    "note": "tarif non communiqué",
+    "ticketUrl": "https://www.paradisecity.be/",
+    "sources": [
+      "https://www.paradisecity.be/"
+    ]
+  }
+]
