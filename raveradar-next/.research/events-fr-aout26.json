@@ -1,0 +1,362 @@
+[
+  {
+    "title": "S Xpress",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "Hard Techno"
+    ],
+    "city": "Fréjus",
+    "country": "France",
+    "region": "Var",
+    "lat": 43.43367,
+    "lng": 6.73018,
+    "date": "2026-08-21",
+    "endDate": "2026-08-22",
+    "time": "18:00",
+    "price": 39,
+    "currency": "€",
+    "venue": "Les Arènes de Fréjus",
+    "trending": true,
+    "lineup": [
+      "Bob Sinclar",
+      "Malaa",
+      "Trym",
+      "Lilly Palmer",
+      "Tony Romera",
+      "Amor",
+      "Piazza",
+      "Adam Trigger",
+      "Venga",
+      "Casa Mata",
+      "Sébastien Drums",
+      "Carl Dutt",
+      "Montaigne",
+      "May-Li",
+      "DAMM"
+    ],
+    "desc": "Première édition de S Xpress dans l'amphithéâtre antique des Arènes de Fréjus, les 21 et 22 août 2026 de 18h à 2h, avec une jauge de 4 500 personnes par jour. Le vendredi réunit Trym, Lilly Palmer, Amor, Tony Romera, Adam Trigger, Montaigne et May-Li ; le samedi Bob Sinclar, Malaa, Piazza, Venga, Casa Mata, Sébastien Drums, Carl Dutt et DAMM. Festival 100 % cashless : pass 1 jour à 39 € le vendredi, 48 € le samedi, 70 € les deux jours.",
+    "descEn": "First edition of S Xpress inside the Roman amphitheatre of Fréjus, on 21 and 22 August 2026 from 6pm to 2am, capped at 4,500 people per day. Friday brings Trym, Lilly Palmer, Amor, Tony Romera, Adam Trigger, Montaigne and May-Li; Saturday has Bob Sinclar, Malaa, Piazza, Venga, Casa Mata, Sébastien Drums, Carl Dutt and DAMM. Fully cashless: one-day pass €39 on Friday, €48 on Saturday, €70 for both days.",
+    "ticketUrl": "https://www.sxpress.fr/",
+    "sources": [
+      "https://www.sxpress.fr/",
+      "https://www.jds.fr/frejus/concerts/electro/s-xpress-1555248_A"
+    ]
+  },
+  {
+    "title": "Eciton Gathering",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "Psytrance",
+      "Hard Techno"
+    ],
+    "city": "Oigny",
+    "country": "France",
+    "region": "Côte-d'Or",
+    "lat": 47.5846,
+    "lng": 4.7269,
+    "date": "2026-08-20",
+    "endDate": "2026-08-23",
+    "price": 108,
+    "currency": "€",
+    "venue": "Site outdoor d'Oigny",
+    "trending": false,
+    "lineup": [],
+    "desc": "Après une année de pause, Eciton Gathering revient du 20 au 23 août 2026 sur un terrain nature à une heure de Dijon, en Côte-d'Or, et passe pour la première fois à quatre jours. Trois scènes immersives construites en bois se partagent la tekno, la psytrance et les musiques alternatives, entre arts visuels et temps d'échange. Pass complet de 108 à 135 € via HelloAsso.",
+    "descEn": "After a year off, Eciton Gathering returns from 20 to 23 August 2026 on an outdoor site an hour from Dijon, in the Côte-d'Or, running four days for the first time. Three immersive wooden-built stages split tekno, psytrance and alternative music, alongside visual art and discussion sessions. Full passes run €108 to €135 through HelloAsso.",
+    "ticketUrl": "https://plusbilletterie.helloasso.com/fr/evenements/eciton-gathering-2026",
+    "sources": [
+      "https://www.jds.fr/concerts/electro/eciton-gathering-1442041_A"
+    ],
+    "time": "12:00",
+    "venueEn": "Outdoor site, Oigny"
+  },
+  {
+    "title": "The Avener au Mas des Escaravatiers",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Puget-sur-Argens",
+    "country": "France",
+    "region": "Var",
+    "lat": 43.44054,
+    "lng": 6.69021,
+    "date": "2026-08-28",
+    "time": "19:30",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le Mas des Escaravatiers",
+    "trending": false,
+    "lineup": [
+      "The Avener"
+    ],
+    "desc": "The Avener joue en plein air au Mas des Escaravatiers, à Puget-sur-Argens dans le Var, le 28 août 2026. Ouverture des portes à 19h30, première partie à 20h30 et set principal à 21h30, concert debout jusqu'à 0h30. Soirée présentée par Le Mas Production.",
+    "descEn": "The Avener plays open air at Le Mas des Escaravatiers in Puget-sur-Argens, Var, on 28 August 2026. Doors at 7:30pm, support at 8:30pm and the main set at 9:30pm, standing only until 12:30am. Presented by Le Mas Production.",
+    "note": "tarif non communiqué, ne signifie pas gratuit",
+    "sources": [
+      "https://www.jds.fr/frejus/concerts/electro/the-avener-1469494_A"
+    ]
+  },
+  {
+    "title": "Bon Entendeur au Toit Terrasse de la Friche",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "region": "Bouches-du-Rhône",
+    "lat": 43.31048,
+    "lng": 5.39019,
+    "date": "2026-09-06",
+    "time": "19:00",
+    "price": 33,
+    "currency": "€",
+    "venue": "Toit Terrasse - La Friche la Belle de Mai",
+    "trending": false,
+    "lineup": [
+      "Bon Entendeur"
+    ],
+    "desc": "Bon Entendeur pose ses platines sur le Toit Terrasse de la Friche la Belle de Mai à Marseille le 6 septembre 2026, en plein air et à jauge réduite. Le collectif déroule ses sets longs et progressifs entre French touch, disco et voix samplées. Billets à 33 €.",
+    "descEn": "Bon Entendeur takes over the rooftop terrace of Friche la Belle de Mai in Marseille on 6 September 2026, open air and to a small crowd. The collective plays its long, slow-building sets of French touch, disco and sampled vocals. Tickets €33.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/bon-entendeur-toit-terrasse-1582873_A"
+    ]
+  },
+  {
+    "title": "Fakear à l'Atabal",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Biarritz",
+    "country": "France",
+    "region": "Pyrénées-Atlantiques",
+    "lat": 43.46045,
+    "lng": -1.53982,
+    "date": "2026-09-24",
+    "time": "19:30",
+    "price": 31,
+    "currency": "€",
+    "venue": "Atabal",
+    "trending": false,
+    "lineup": [
+      "Fakear",
+      "A Nice Place To Be"
+    ],
+    "desc": "Fakear est à l'Atabal de Biarritz le 24 septembre 2026 à 19h30, avec A Nice Place To Be en première partie. Le producteur caennais y défend son nouvel album et sa mixtape Open World dans la salle de musiques actuelles de la côte basque. Places à 31 €.",
+    "descEn": "Fakear plays Atabal in Biarritz on 24 September 2026 at 7:30pm, with A Nice Place To Be opening. The Caen producer brings his new album and the Open World mixtape to the Basque coast's contemporary music venue. Tickets €31.",
+    "ticketUrl": "https://www.atabal-biarritz.fr/",
+    "sources": [
+      "https://www.atabal-biarritz.fr/",
+      "https://www.jds.fr/bayonne/concerts/electro/fakear-1541656_A"
+    ]
+  },
+  {
+    "title": "Fakear au Centre Culturel John Lennon",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Limoges",
+    "country": "France",
+    "region": "Haute-Vienne",
+    "lat": 45.82245,
+    "lng": 1.28491,
+    "date": "2026-09-25",
+    "time": "20:00",
+    "price": 32,
+    "currency": "€",
+    "venue": "Centre Culturel John Lennon",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear joue au Centre Culturel John Lennon de Limoges le 25 septembre 2026 à 20h. Le producteur français y présente son nouvel album et sa mixtape Open World, dans la principale salle de musiques actuelles de la Haute-Vienne. Billets à 32 €.",
+    "descEn": "Fakear plays the Centre Culturel John Lennon in Limoges on 25 September 2026 at 8pm. The French producer brings his new album and the Open World mixtape to the Haute-Vienne's main contemporary music venue. Tickets €32.",
+    "sources": [
+      "https://www.jds.fr/limoges/concerts/electro/fakear-1544148_A"
+    ]
+  },
+  {
+    "title": "Bourbourg Électro Night",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Bourbourg",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.9422,
+    "lng": 2.2034,
+    "date": "2026-10-10",
+    "time": "21:00",
+    "price": 10,
+    "currency": "€",
+    "venue": "Espace Jean Monnet",
+    "trending": false,
+    "lineup": [
+      "Vanesa Wolf",
+      "Laurent Wolf",
+      "DJ L-Bee"
+    ],
+    "desc": "Bourbourg Électro Night se tient à l'Espace Jean Monnet de Bourbourg, près de Dunkerque, le 10 octobre 2026, dans le cadre du festival Allure Folle. Vanesa Wolf ouvre de 21h à 23h, Laurent Wolf enchaîne jusqu'à 1h et DJ L-Bee ferme jusqu'à 3h. Entrée à 10 €, mineurs accompagnés obligatoirement d'un majeur.",
+    "descEn": "Bourbourg Électro Night runs at Espace Jean Monnet in Bourbourg, near Dunkirk, on 10 October 2026, as part of the Allure Folle festival. Vanesa Wolf opens from 9pm to 11pm, Laurent Wolf takes over until 1am and DJ L-Bee closes until 3am. Entry €10; minors must be accompanied by an adult.",
+    "sources": [
+      "https://www.jds.fr/dunkerque/concerts/electro/bourbourg-electro-night-avec-laurent-wolf-1632144_A"
+    ]
+  },
+  {
+    "title": "Apparat au Transbordeur",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "EDM"
+    ],
+    "city": "Villeurbanne",
+    "country": "France",
+    "region": "Rhône",
+    "lat": 45.78394,
+    "lng": 4.86084,
+    "date": "2026-10-10",
+    "time": "19:00",
+    "price": 42,
+    "currency": "€",
+    "venue": "Le Transbordeur",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Apparat joue en formation live dans la grande salle du Transbordeur, à Villeurbanne, le 10 octobre 2026 : portes à 19h, début du concert à 20h, debout et placement libre. Sascha Ring y défend son sixième album A Hum Of Maybe, entre électronique glitch, accents techno et textures acoustiques. Billet à 42 €, concert proposé par Transmission en accord avec AEG Presents France.",
+    "descEn": "Apparat plays a full-band live set in the main room of Le Transbordeur, Villeurbanne, on 10 October 2026: doors at 7pm, show at 8pm, standing and unreserved. Sascha Ring is touring his sixth album A Hum Of Maybe, moving between glitchy electronics, techno edges and acoustic texture. Tickets €42, promoted by Transmission with AEG Presents France.",
+    "ticketUrl": "https://www.transbordeur.fr/evenement/apparat-10102026/",
+    "sources": [
+      "https://www.transbordeur.fr/evenement/apparat-10102026/",
+      "https://www.jds.fr/lyon/concerts/electro/apparat-1490583_A"
+    ]
+  },
+  {
+    "title": "Autechre au Cabaret Aléatoire",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "region": "Bouches-du-Rhône",
+    "lat": 43.3113,
+    "lng": 5.39066,
+    "date": "2026-10-13",
+    "time": "19:30",
+    "price": 36.7,
+    "currency": "€",
+    "venue": "Cabaret Aléatoire",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Le duo britannique Autechre est au Cabaret Aléatoire, à la Friche la Belle de Mai de Marseille, le 13 octobre 2026 à 19h30. Sean Booth et Rob Brown y jouent leur électronique abstraite dans le noir complet, comme sur le reste de cette tournée européenne, leur premier retour en France depuis plusieurs années. Places à 36,70 €.",
+    "descEn": "British duo Autechre play Cabaret Aléatoire, inside Marseille's Friche la Belle de Mai, on 13 October 2026 at 7:30pm. Sean Booth and Rob Brown perform their abstract electronics in total darkness, as on the rest of this European tour — their first French dates in several years. Tickets €36.70.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/autechre-1269240_A"
+    ]
+  },
+  {
+    "title": "Obsimo à La Bulle-Café",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "EDM"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.62281,
+    "lng": 3.06808,
+    "date": "2026-10-13",
+    "time": "20:30",
+    "price": 22,
+    "currency": "€",
+    "venue": "La Bulle-Café",
+    "trending": false,
+    "lineup": [
+      "Obsimo"
+    ],
+    "desc": "Obsimo joue à La Bulle-Café, rue d'Arras à Lille, le 13 octobre 2026 à 20h30, dans une soirée proposée par A Gauche de la Lune. Le live déroule des spirales sonores dansantes et percussives dans une salle de petite jauge. Places à 22 €.",
+    "descEn": "Obsimo plays La Bulle-Café on rue d'Arras in Lille on 13 October 2026 at 8:30pm, on a night presented by A Gauche de la Lune. The live set builds danceable, percussive spirals of sound in a small room. Tickets €22.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/obsimo-1581600_A",
+      "https://59.agendaculturel.fr/concert/lille/obsimo.html"
+    ]
+  },
+  {
+    "title": "La Nuit Étincelle",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Bergerac",
+    "country": "France",
+    "region": "Dordogne",
+    "lat": 44.84619,
+    "lng": 0.49841,
+    "date": "2026-10-31",
+    "time": "20:00",
+    "price": 39.5,
+    "currency": "€",
+    "venue": "Espace Étincelle",
+    "trending": false,
+    "lineup": [
+      "Kazajak",
+      "Klingande",
+      "Petit Biscuit"
+    ],
+    "desc": "La Nuit Étincelle réunit Kazajak en warm-up, puis Klingande et Petit Biscuit au Centre Événementiel Espace Étincelle de Bergerac, le 31 octobre 2026 à 20h. La salle peut accueillir 2 800 personnes ; Klingande y déroule ses sets mêlant harmonica, saxophone et violon, Petit Biscuit son live électronique. Billets à partir de 39,50 €.",
+    "descEn": "La Nuit Étincelle brings Kazajak on warm-up duty, then Klingande and Petit Biscuit to the Espace Étincelle events centre in Bergerac on 31 October 2026 at 8pm. The room holds 2,800; Klingande plays his sets laced with harmonica, saxophone and violin, Petit Biscuit his electronic live show. Tickets from €39.50.",
+    "sources": [
+      "https://www.jds.fr/bergerac/concerts/electro/la-nuit-etincelle-klingande-et-petit-biscuit-1568166_A"
+    ]
+  },
+  {
+    "title": "Under The Rave",
+    "type": "Club",
+    "genres": [
+      "Hardcore",
+      "Hardstyle",
+      "Hard Techno"
+    ],
+    "city": "Audincourt",
+    "country": "France",
+    "region": "Doubs",
+    "lat": 47.47875,
+    "lng": 6.84304,
+    "date": "2026-11-27",
+    "time": "22:00",
+    "price": 15,
+    "currency": "€",
+    "venue": "Le Moloco",
+    "trending": false,
+    "lineup": [
+      "Creeds",
+      "Bardix le Gaulois",
+      "Floxytek",
+      "Jasmine Not Jafar"
+    ],
+    "desc": "Quatrième édition d'Under The Rave au Moloco d'Audincourt, le 27 novembre 2026 à partir de 22h : sept heures de son non-stop avec Creeds, Bardix le Gaulois, Floxytek et Jasmine Not Jafar. La salle de musiques actuelles du Pays de Montbéliard, 600 places debout, passe en configuration dancefloor pour la nuit. Places de 15 à 20 €.",
+    "descEn": "Fourth edition of Under The Rave at Le Moloco in Audincourt on 27 November 2026 from 10pm: seven hours of non-stop sound with Creeds, Bardix le Gaulois, Floxytek and Jasmine Not Jafar. The 600-capacity Pays de Montbéliard venue switches to full dancefloor mode for the night. Tickets €15 to €20.",
+    "ticketUrl": "https://www.lemoloco.com/",
+    "sources": [
+      "https://www.jds.fr/montbeliard/concerts/electro/under-the-rave-4-creeds-bardix-le-gaulois-floxytek-jasmine-not-jafar-1658192_A",
+      "https://25.agendaculturel.fr/concert/audincourt/under-the-rave-4-creeds-bardix-le-gaulois-floxytek.html"
+    ]
+  }
+]

@@ -95,7 +95,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["type"] = TYPE_FIX.get(e["type"], e["type"])
         if e["type"] not in TYPES:
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
-        if (e.get("endDate") or e["date"]) < "2026-08-13":
+        if (e.get("endDate") or e["date"]) < "2026-08-18":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",
@@ -134,7 +134,11 @@ for e in rows:
     f += [f'lat: {e["lat"]}', f'lng: {e["lng"]}', f'date: "{e["date"]}"']
     if e.get("endDate") and e["endDate"] != e["date"]: f.append(f'endDate: "{e["endDate"]}"')
     f += [f'time: "{e["time"]}"', f'price: {e["price"]}', f'currency: "{e["currency"]}"',
-          f'venue: "{esc(e["venue"])}"', f'trending: {"true" if e["trending"] else "false"}',
+          f'venue: "{esc(e["venue"])}"']
+    # Un `venue` descriptif en français ("Site outdoor d'Oigny") fuiterait tel quel
+    # sur /en : `venueLabelL()` ne bascule que s'il trouve `venueEn`.
+    if e.get("venueEn"): f.append(f'venueEn: "{esc(e["venueEn"])}"')
+    f += [f'trending: {"true" if e["trending"] else "false"}',
           f'lineup: {arr(e["lineup"])}', f'desc: "{esc(e["desc"])}"', f'descEn: "{esc(e["descEn"])}"']
     out.append("  { " + ", ".join(f) + pn + " },")
     if e.get("ticketUrl"): tickets.append(f'  {nid}: "{e["ticketUrl"]}",')

@@ -25,4 +25,10 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   // en fait INFINITY Lisbon, la soirée de clôture du SBC Summit, réservée aux détenteurs
   // d'un pass du salon : le titre le dit maintenant, et l'ancien slug pointe ici.
   tiesto: { base: "event", slug: "tiesto-infinity-lisbon" },
+  // Time Warp Spain 2026 (Madrid, 18-19/09) a été **annulé par l'organisateur** —
+  // communiqué officiel sur time-warp.de. Une date annulée laissée « à venir »
+  // envoie nos lecteurs à un festival qui n'aura pas lieu, donc la fiche a été
+  // retirée ; mais son URL était indexée, et une URL gagnée ne retombe jamais en
+  // 404 : elle pointe vers la fiche allemande de la même marque.
+  "time-warp-spain": { base: "festival", slug: "time-warp" },
 };
