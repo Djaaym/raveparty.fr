@@ -17,6 +17,7 @@ export const DICT: Record<Lang, Dict> = {
     "artists.eyebrow": "L'annuaire des artistes", "artists.title": "Tous les artistes",
     "artists.lead": "Techno, hardstyle, trance, DnB… retrouve tes artistes préférés et tous les festivals où ils jouent.",
     "artists.az": "Tous les artistes A → Z",
+    "artists.jump": "Aller à une lettre", "artists.credits": "Crédits des {n} portraits",
     "filter.artists": "Chercher un artiste…", "filter.cities": "Chercher une ville ou un département…",
     "filter.clear": "Effacer", "filter.count": "{n} résultat(s) sur {total}", "filter.none": "Aucun résultat pour « {q} ».",
     "artist.photoalt": "Portrait de {name}", "artist.sources": "Sources :", "artist.photocredit": "portrait par {author}, {license}, via",
@@ -99,7 +100,7 @@ export const DICT: Record<Lang, Dict> = {
     "alert.done": "C'est noté — tu seras prévenu pour {label}.", "alert.donefine": "Un mail de confirmation vient de partir : clique dessus pour activer l'alerte.", "alert.alreadyset": "Tu as déjà créé cette alerte depuis ce navigateur.",
     "alert.consent": "Ton adresse ne sert qu'à cette alerte. Désinscription en un clic dans chaque mail.", "alert.err.email": "Cette adresse e-mail n'a pas l'air valide.", "alert.err.soon": "Les alertes ne sont pas encore ouvertes — reviens très vite.", "alert.err.retry": "Ça n'a pas marché. Réessaie dans un instant.",
     "acc.history.lead": "Les événements auxquels tu as assisté. Note-les pour améliorer tes recommandations.", "acc.prefs": "Préférences", "acc.displayname": "Nom affiché", "acc.homecity": "Ville d'origine", "acc.email": "Email", "acc.save": "Enregistrer",
-    "dyn.event": "événement", "dyn.events": "événements", "dyn.free": "GRATUIT", "dyn.priceunknown": "Tarif à venir", "dyn.priceest": "Tarif indicatif — vérifie sur la billetterie officielle.", "locale": "fr-FR",
+    "dyn.event": "événement", "dyn.events": "événements", "dyn.artist": "artiste", "dyn.artists": "artistes", "dyn.free": "GRATUIT", "dyn.priceunknown": "Tarif à venir", "dyn.priceest": "Tarif indicatif — vérifie sur la billetterie officielle.", "locale": "fr-FR",
   },
   en: {
     "nav.explore": "Explore", "nav.map": "Map", "nav.organizers": "For Organizers",
@@ -115,6 +116,7 @@ export const DICT: Record<Lang, Dict> = {
     "artists.eyebrow": "The artist directory", "artists.title": "All artists",
     "artists.lead": "Techno, hardstyle, trance, DnB… find your favourite artists and every festival they play.",
     "artists.az": "All artists A → Z",
+    "artists.jump": "Jump to a letter", "artists.credits": "Credits for the {n} portraits",
     "filter.artists": "Search for an artist…", "filter.cities": "Search for a city or region…",
     "filter.clear": "Clear", "filter.count": "{n} of {total}", "filter.none": "Nothing matches \u201c{q}\u201d.",
     "artist.photoalt": "Portrait of {name}", "artist.sources": "Sources:", "artist.photocredit": "portrait by {author}, {license}, via",
@@ -197,7 +199,7 @@ export const DICT: Record<Lang, Dict> = {
     "alert.done": "Done — you'll hear about {label}.", "alert.donefine": "A confirmation email is on its way: click it to activate the alert.", "alert.alreadyset": "You already created this alert from this browser.",
     "alert.consent": "Your address is only used for this alert. One-click unsubscribe in every email.", "alert.err.email": "That email address doesn't look valid.", "alert.err.soon": "Alerts aren't open yet — check back very soon.", "alert.err.retry": "That didn't work. Try again in a moment.",
     "acc.history.lead": "Events you've attended. Rate them to improve your recommendations.", "acc.prefs": "Preferences", "acc.displayname": "Display name", "acc.homecity": "Home city", "acc.email": "Email", "acc.save": "Save changes",
-    "dyn.event": "event", "dyn.events": "events", "dyn.free": "FREE", "dyn.priceunknown": "Price TBA", "dyn.priceest": "Indicative price — check the official ticket shop.", "locale": "en-GB",
+    "dyn.event": "event", "dyn.events": "events", "dyn.artist": "artist", "dyn.artists": "artists", "dyn.free": "FREE", "dyn.priceunknown": "Price TBA", "dyn.priceest": "Indicative price — check the official ticket shop.", "locale": "en-GB",
   },
 };
 
