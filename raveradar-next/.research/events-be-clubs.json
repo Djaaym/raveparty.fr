@@ -2,7 +2,9 @@
   {
     "title": "Fuse presents Andy C",
     "type": "Club",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.8354,
@@ -13,16 +15,29 @@
     "currency": "€",
     "venue": "Fuse",
     "trending": false,
-    "lineup": ["Andy C", "FarFlow", "Cedex & Higher Underground", "Bredren", "Boycot", "Sassy Girl"],
+    "lineup": [
+      "Andy C",
+      "FarFlow",
+      "Cedex & Higher Underground",
+      "Bredren",
+      "Boycot",
+      "Sassy Girl"
+    ],
     "desc": "Nuit drum & bass au Fuse, rue Blaes dans les Marolles, avec le Britannique Andy C (Ram Records) en tête d'affiche et les Belges FarFlow, Bredren, Boycot et Sassy Girl en Room 01. Portes à 23h, fin à 7h. 20 € en prévente, 25 € sur place.",
     "descEn": "A drum & bass night at Fuse, on Rue Blaes in the Marolles, headlined by Britain's Andy C (Ram Records) with Belgians FarFlow, Bredren, Boycot and Sassy Girl in Room 01. Doors 23:00, close 07:00. EUR 20 presale, EUR 25 on the door.",
     "ticketUrl": "https://tickets.fuse.be/a7000f36c0cc4d5880f272c2d52b833a",
-    "sources": ["https://www.fuse.be/events/fuse-presents-andy-c", "https://www.fuse.be/events"]
+    "sources": [
+      "https://www.fuse.be/events/fuse-presents-andy-c",
+      "https://www.fuse.be/events"
+    ]
   },
   {
     "title": "Fuse presents PACT",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.8354,
@@ -33,16 +48,24 @@
     "currency": "€",
     "venue": "Fuse",
     "trending": false,
-    "lineup": ["PACT (Joachim Pastor + Joris Delacroix + Teho)", "Romain Garcia"],
+    "lineup": [
+      "PACT (Joachim Pastor + Joris Delacroix + Teho)",
+      "Romain Garcia"
+    ],
     "desc": "Le trio français PACT — Joachim Pastor, Joris Delacroix et Teho — joue en live au Fuse, suivi du live de Romain Garcia. Deux noms restent à annoncer. Portes à 23h, fin à 7h ; 20 € en prévente, 25 € à l'entrée.",
     "descEn": "French trio PACT — Joachim Pastor, Joris Delacroix and Teho — play live at Fuse, followed by a live set from Romain Garcia. Two more names are still to be announced. Doors 23:00, close 07:00; EUR 20 presale, EUR 25 on the door.",
     "ticketUrl": "https://tickets.fuse.be/05512a81069e41449ba7c5ce4bbc362b",
-    "sources": ["https://www.fuse.be/events/fuse-presents-pact-joachim-pastor-joris-delacroix-teho", "https://www.fuse.be/events"]
+    "sources": [
+      "https://www.fuse.be/events/fuse-presents-pact-joachim-pastor-joris-delacroix-teho",
+      "https://www.fuse.be/events"
+    ]
   },
   {
     "title": "Fuse presents Polar Inertia & Luigi Tozzi",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.8354,
@@ -53,16 +76,27 @@
     "currency": "€",
     "venue": "Fuse",
     "trending": false,
-    "lineup": ["Polar Inertia", "Luigi Tozzi", "Zara", "Yogg", "T.A.M.22"],
+    "lineup": [
+      "Polar Inertia",
+      "Luigi Tozzi",
+      "Zara",
+      "Yogg",
+      "T.A.M.22"
+    ],
     "desc": "Soirée techno hypnotique au Fuse : deux lives, celui du duo masqué français Polar Inertia et celui de l'Italien Luigi Tozzi (Hypnus Records), entourés de Zara, Yogg et T.A.M.22. Portes à 23h, fin à 7h ; 15 € en prévente, 20 € sur place.",
     "descEn": "A hypnotic techno night at Fuse: two live sets, from masked French duo Polar Inertia and Italy's Luigi Tozzi (Hypnus Records), alongside Zara, Yogg and T.A.M.22. Doors 23:00, close 07:00; EUR 15 presale, EUR 20 on the door.",
     "ticketUrl": "https://tickets.fuse.be/4f115a92bcea406391780260036911e6",
-    "sources": ["https://www.fuse.be/events/fuse-presents-polar-inertia-live-luigi-tozzi-live", "https://www.fuse.be/events"]
+    "sources": [
+      "https://www.fuse.be/events/fuse-presents-polar-inertia-live-luigi-tozzi-live",
+      "https://www.fuse.be/events"
+    ]
   },
   {
     "title": "Star Warz: Final Edition",
     "type": "Club",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Ghent",
     "country": "Belgium",
     "lat": 51.0476,
@@ -73,16 +107,34 @@
     "currency": "€",
     "venue": "Vooruit (VIERNULVIER)",
     "trending": false,
-    "lineup": ["Battery", "Blanko", "Bredren", "Cedex & Higher Underground", "Drumslave", "Istoria", "Lavance", "MC Nice", "MC Tasty", "One87", "Phase", "Sisly & BenOneShot"],
+    "lineup": [
+      "Battery",
+      "Blanko",
+      "Bredren",
+      "Cedex & Higher Underground",
+      "Drumslave",
+      "Istoria",
+      "Lavance",
+      "MC Nice",
+      "MC Tasty",
+      "One87",
+      "Phase",
+      "Sisly & BenOneShot"
+    ],
     "desc": "Après vingt-cinq ans, la soirée drum & bass Star Warz tire sa révérence dans la Concertzaal du Vooruit à Gand, avec une affiche 100 % belge : Battery, Blanko, Bredren, Cedex & Higher Underground, Drumslave, Istoria, Lavance, One87, Phase et les MC Nice et Tasty. De 23h à 6h ; 12 € en early bird, 16 € en prévente, 20 € à l'entrée.",
     "descEn": "After twenty-five years, drum & bass institution Star Warz bows out in the Concertzaal of Ghent's Vooruit with an all-Belgian bill: Battery, Blanko, Bredren, Cedex & Higher Underground, Drumslave, Istoria, Lavance, One87, Phase and MCs Nice and Tasty. 23:00 to 06:00; EUR 12 early bird, EUR 16 presale, EUR 20 on the door.",
     "ticketUrl": "https://www.viernulvier.gent/en/agenda/star-warz-921m",
-    "sources": ["https://www.viernulvier.gent/en/agenda/star-warz-921m"]
+    "sources": [
+      "https://www.viernulvier.gent/en/agenda/star-warz-921m"
+    ]
   },
   {
     "title": "Mo' Juice x Curfew",
     "type": "Club",
-    "genres": ["House", "Techno"],
+    "genres": [
+      "House",
+      "Techno"
+    ],
     "city": "Ghent",
     "country": "Belgium",
     "lat": 51.0487,
@@ -93,16 +145,25 @@
     "currency": "€",
     "venue": "Club Wintercircus",
     "trending": false,
-    "lineup": ["Kamma b2b Masalo", "Forbidden Fruit", "Mo Disko b2b Nico Juice"],
+    "lineup": [
+      "Kamma b2b Masalo",
+      "Forbidden Fruit",
+      "Mo Disko b2b Nico Juice"
+    ],
     "desc": "Les collectifs gantois Mo' Juice et Curfew s'associent au Club Wintercircus, l'ancien cirque d'hiver reconverti près de la Waalse Krook. Les Néerlandais Kamma et Masalo jouent en b2b, Forbidden Fruit en live, et Mo Disko passe en b2b avec Nico Juice. De 23h à 5h ; 18 € en early bird, 21 € en prévente, 24 € sur place.",
     "descEn": "Ghent collectives Mo' Juice and Curfew join forces at Club Wintercircus, the converted winter circus building near the Waalse Krook. Dutch pair Kamma and Masalo play back to back, Forbidden Fruit performs live, and Mo Disko goes b2b with Nico Juice. 23:00 to 05:00; EUR 18 early bird, EUR 21 presale, EUR 24 on the door.",
     "ticketUrl": "https://www.viernulvier.gent/en/agenda/mo-juice-x-curfew-yxpk",
-    "sources": ["https://www.viernulvier.gent/en/agenda/mo-juice-x-curfew-yxpk"]
+    "sources": [
+      "https://www.viernulvier.gent/en/agenda/mo-juice-x-curfew-yxpk"
+    ]
   },
   {
     "title": "Max Cooper at Club Wintercircus",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Ghent",
     "country": "Belgium",
     "lat": 51.0487,
@@ -113,16 +174,23 @@
     "currency": "€",
     "venue": "Club Wintercircus",
     "trending": false,
-    "lineup": ["Max Cooper"],
+    "lineup": [
+      "Max Cooper"
+    ],
     "desc": "Le producteur nord-irlandais Max Cooper enchaîne sur son spectacle audiovisuel de la veille par un DJ set long format au Club Wintercircus de Gand. De 23h à 5h ; 22 € en early bird, 27 € en prévente, 29 € à l'entrée.",
     "descEn": "Northern Irish producer Max Cooper follows his audiovisual show of the previous evening with an extended DJ set at Ghent's Club Wintercircus. 23:00 to 05:00; EUR 22 early bird, EUR 27 presale, EUR 29 on the door.",
     "ticketUrl": "https://www.viernulvier.gent/en/agenda/max-cooper-sk3m",
-    "sources": ["https://www.viernulvier.gent/en/agenda/max-cooper-sk3m"]
+    "sources": [
+      "https://www.viernulvier.gent/en/agenda/max-cooper-sk3m"
+    ]
   },
   {
     "title": "Primate presents Sticks & Stones",
     "type": "Club",
-    "genres": ["Drum & Bass", "Hardcore"],
+    "genres": [
+      "Drum & Bass",
+      "Hardcore"
+    ],
     "city": "Ghent",
     "country": "Belgium",
     "lat": 51.0487,
@@ -133,16 +201,23 @@
     "currency": "€",
     "venue": "Club Wintercircus",
     "trending": false,
-    "lineup": ["Primate"],
+    "lineup": [
+      "Primate"
+    ],
     "desc": "Le DJ et producteur gantois Primate présente Sticks & Stones, un show audiovisuel à 360° au Club Wintercircus : titres et edits exclusifs de drum & bass et de hardcore accompagnés de visuels conçus pour la salle. De 19h30 à 22h30 ; 18 € en tarif réduit, 21 € en prévente, 24 € sur place.",
     "descEn": "Ghent DJ and producer Primate presents Sticks & Stones, a 360-degree audiovisual show at Club Wintercircus: exclusive drum & bass and hardcore tracks and edits paired with visuals built for the room. 19:30 to 22:30; EUR 18 reduced, EUR 21 presale, EUR 24 on the door.",
     "ticketUrl": "https://www.viernulvier.gent/en/agenda/primate-presents-sticks-and-stones-455p",
-    "sources": ["https://www.viernulvier.gent/en/agenda/primate-presents-sticks-and-stones-455p"]
+    "sources": [
+      "https://www.viernulvier.gent/en/agenda/primate-presents-sticks-and-stones-455p"
+    ]
   },
   {
     "title": "Flashforward: Nicole Moudaber",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Charleroi",
     "country": "Belgium",
     "lat": 50.4132,
@@ -153,16 +228,25 @@
     "currency": "€",
     "venue": "Rockerill",
     "trending": false,
-    "lineup": ["Nicole Moudaber", "EMJIE", "Cédric"],
+    "lineup": [
+      "Nicole Moudaber",
+      "EMJIE",
+      "Cédric"
+    ],
     "desc": "Soirée Flashforward dans les anciennes forges de la Providence à Marchienne-au-Pont, à Charleroi : la Britanno-libanaise Nicole Moudaber (MOOD Records) est accompagnée des Belges EMJIE et Cédric. Ouverture des portes à 22h, 20 € en prévente.",
     "descEn": "A Flashforward night in the old Providence ironworks at Marchienne-au-Pont, Charleroi: British-Lebanese DJ Nicole Moudaber (MOOD Records) is joined by Belgians EMJIE and Cédric. Doors 22:00, EUR 20 presale.",
     "ticketUrl": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=47972C7A-88EE-614F-5374-96B7A52EBB80",
-    "sources": ["https://www.rockerill.com/agenda/flashforward-nicole-moudaber/51496/", "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"]
+    "sources": [
+      "https://www.rockerill.com/agenda/flashforward-nicole-moudaber/51496/",
+      "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"
+    ]
   },
   {
     "title": "Flashforward: KAS:ST",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Charleroi",
     "country": "Belgium",
     "lat": 50.4132,
@@ -173,16 +257,27 @@
     "currency": "€",
     "venue": "Rockerill",
     "trending": false,
-    "lineup": ["KAS:ST", "Cédric", "Hausgardian", "Globul"],
+    "lineup": [
+      "KAS:ST",
+      "Cédric",
+      "Hausgardian",
+      "Globul"
+    ],
     "desc": "Le duo français KAS:ST, connu pour sa techno mélodique et cinématographique, joue au Rockerill à Charleroi, avec Cédric, Globul et Hausgardian en warm-up. Ouverture à 22h, 20 € en prévente.",
     "descEn": "French duo KAS:ST, known for cinematic melodic techno, play Rockerill in Charleroi, with Cédric, Globul and Hausgardian warming up. Doors 22:00, EUR 20 presale.",
     "ticketUrl": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=9A482329-8997-E44E-D35A-38BBA13A185F",
-    "sources": ["https://www.rockerill.com/agenda/flashforward-kas-st/51498/", "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"]
+    "sources": [
+      "https://www.rockerill.com/agenda/flashforward-kas-st/51498/",
+      "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"
+    ]
   },
   {
     "title": "Flashforward: Jonathan Kaspar",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Charleroi",
     "country": "Belgium",
     "lat": 50.4132,
@@ -193,16 +288,25 @@
     "currency": "€",
     "venue": "Rockerill",
     "trending": false,
-    "lineup": ["Jonathan Kaspar", "Cédric", "Houpie"], 
+    "lineup": [
+      "Jonathan Kaspar",
+      "Cédric",
+      "Houpie"
+    ],
     "desc": "Long set du Colonais Jonathan Kaspar (Kompakt, résident du Gewölbe) au Rockerill à Charleroi, avec Cédric et Houpie. Ouverture à 22h ; 15 € en prévente, 20 € sur place.",
     "descEn": "An extended set from Cologne's Jonathan Kaspar (Kompakt, Gewölbe resident) at Rockerill in Charleroi, with Cédric and Houpie. Doors 22:00; EUR 15 presale, EUR 20 on the door.",
     "ticketUrl": "https://shop.utick.net/?pos=ROCKERILL&module=ACTIVITYSERIEDETAILS&s=A8CF496D-4D1D-69FB-4EEF-F39C37A74E6F",
-    "sources": ["https://www.rockerill.com/agenda/flashforward-jonathan-kaspar-long-set/51503/", "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"]
+    "sources": [
+      "https://www.rockerill.com/agenda/flashforward-jonathan-kaspar-long-set/51503/",
+      "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL"
+    ]
   },
   {
     "title": "Flashforward: Dave Clarke",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Charleroi",
     "country": "Belgium",
     "lat": 50.4132,
@@ -213,16 +317,26 @@
     "currency": "€",
     "venue": "Rockerill",
     "trending": false,
-    "lineup": ["Dave Clarke", "Madben", "Megane Brescich"],
+    "lineup": [
+      "Dave Clarke",
+      "Madben",
+      "Megane Brescich"
+    ],
     "desc": "Le Britannique Dave Clarke, surnommé le baron de la techno, revient au Rockerill à Charleroi avec le Français Madben et la Belge Megane Brescich. Ouverture à 22h, billet unique à 25 €.",
     "descEn": "Britain's Dave Clarke, the self-styled Baron of Techno, returns to Rockerill in Charleroi with France's Madben and Belgian DJ Megane Brescich. Doors 22:00, single ticket at EUR 25.",
     "ticketUrl": "https://shop.utick.be/?module=ACTIVITYSERIEDETAILS&pos=ROCKERILL&s=945D55A0-2729-BC59-B52B-92577D1C04E3",
-    "sources": ["https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL", "https://www.rockerill.com/agenda/"]
+    "sources": [
+      "https://shop.utick.be/?module=CATALOGUE&pos=ROCKERILL",
+      "https://www.rockerill.com/agenda/"
+    ]
   },
   {
     "title": "Lena Willikens + Rick Shiver + Donia",
     "type": "Club",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.8485,
@@ -233,16 +347,24 @@
     "currency": "€",
     "venue": "Beursschouwburg",
     "trending": false,
-    "lineup": ["Rick Shiver", "Lena Willikens", "Donia"],
+    "lineup": [
+      "Rick Shiver",
+      "Lena Willikens",
+      "Donia"
+    ],
     "desc": "Nuit club sur le rooftop du Beursschouwburg, rue Auguste Orts à Bruxelles. Rick Shiver ouvre à 22h, l'Allemande Lena Willikens (Dekmantel, Salon des Amateurs) prend le relais à minuit et la Bruxelloise Donia (Sketchy Lines Records) ferme à 3h. Fin à 5h ; 12 € en prévente avec entrée avant minuit, 15 € sur place.",
     "descEn": "A club night on the Beursschouwburg rooftop on Rue Auguste Orts in Brussels. Rick Shiver opens at 22:00, Germany's Lena Willikens (Dekmantel, Salon des Amateurs) takes over at midnight and Brussels DJ Donia (Sketchy Lines Records) closes from 03:00. Ends 05:00; EUR 12 presale for entry before midnight, EUR 15 on the door.",
     "ticketUrl": "https://beursschouwburg.be/en/events/lena-willikens-rick-shiver-donia/",
-    "sources": ["https://beursschouwburg.be/en/events/lena-willikens-rick-shiver-donia/"]
+    "sources": [
+      "https://beursschouwburg.be/en/events/lena-willikens-rick-shiver-donia/"
+    ]
   },
   {
     "title": "Deux Chevaux: Front de Cadeaux",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.8485,
@@ -253,16 +375,24 @@
     "currency": "€",
     "venue": "Beursschouwburg",
     "trending": false,
-    "lineup": ["DJ Bisou", "Toirabat", "Front de Cadeaux"],
+    "lineup": [
+      "DJ Bisou",
+      "Toirabat",
+      "Front de Cadeaux"
+    ],
     "desc": "Soirée à tempo lent sur le rooftop du Beursschouwburg : les fondateurs de Deux Chevaux, DJ Bisou et Toirabat, ouvrent à 23h, puis le duo bruxellois Front de Cadeaux joue un set long à partir de 1h. Portes à 22h, fin à 5h ; 12 € en prévente avec entrée avant minuit, 15 € sur place.",
     "descEn": "A slow-tempo night on the Beursschouwburg rooftop: Deux Chevaux founders DJ Bisou and Toirabat open at 23:00, then Brussels duo Front de Cadeaux play an extended set from 01:00. Doors 22:00, ends 05:00; EUR 12 presale for entry before midnight, EUR 15 on the door.",
     "ticketUrl": "https://beursschouwburg.be/en/events/deux-chevaux-front-de-cadeaux-dj-bisou-toirabat/",
-    "sources": ["https://beursschouwburg.be/en/events/deux-chevaux-front-de-cadeaux-dj-bisou-toirabat/"]
+    "sources": [
+      "https://beursschouwburg.be/en/events/deux-chevaux-front-de-cadeaux-dj-bisou-toirabat/"
+    ]
   },
   {
-    "title": "Lane 8: This Never Happened",
+    "title": "Lane 8: This Never Happened at Ancienne Belgique",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.847,
@@ -273,16 +403,22 @@
     "currency": "€",
     "venue": "Ancienne Belgique (AB)",
     "trending": false,
-    "lineup": ["Lane 8"],
+    "lineup": [
+      "Lane 8"
+    ],
     "desc": "L'Américain Lane 8 amène sa tournée This Never Happened à l'AB Ballroom de l'Ancienne Belgique, boulevard Anspach. Le concept impose une salle sans téléphone : appareils photo et smartphones sont neutralisés à l'entrée. Portes à 19h, fin vers 22h30 ; 31 € frais compris, 24,80 € en tarif étudiant.",
     "descEn": "US producer Lane 8 brings his This Never Happened tour to the AB Ballroom at Ancienne Belgique on Boulevard Anspach. The concept enforces a phone-free room: cameras and phones are secured on entry. Doors 19:00, ends around 22:30; EUR 31 including fees, EUR 24.80 student rate.",
     "ticketUrl": "https://www.abconcerts.be/en/agenda/lane-8/a10Qw00000IzS53IAF",
-    "sources": ["https://www.abconcerts.be/en/agenda/lane-8/a10Qw00000IzS53IAF"]
+    "sources": [
+      "https://www.abconcerts.be/en/agenda/lane-8/a10Qw00000IzS53IAF"
+    ]
   },
   {
     "title": "Bellaire at Ancienne Belgique",
     "type": "Club",
-    "genres": ["House"],
+    "genres": [
+      "House"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.847,
@@ -293,16 +429,22 @@
     "currency": "€",
     "venue": "Ancienne Belgique (AB)",
     "trending": false,
-    "lineup": ["Bellaire"],
+    "lineup": [
+      "Bellaire"
+    ],
     "desc": "Le Français Bellaire, qui bâtit sa house soulful sur des samples de jazz et de funk des années 90, joue debout dans l'AB Club de l'Ancienne Belgique à Bruxelles. Portes à 19h ; 17 € frais compris, 13,60 € en tarif étudiant.",
     "descEn": "French producer Bellaire, who builds his soulful house on 1990s jazz and funk samples, plays the standing AB Club room at Ancienne Belgique in Brussels. Doors 19:00; EUR 17 including fees, EUR 13.60 student rate.",
     "ticketUrl": "https://www.abconcerts.be/en/agenda/bellaire/a10Qw00000HoT6fIAF",
-    "sources": ["https://www.abconcerts.be/en/agenda/bellaire/a10Qw00000HoT6fIAF"]
+    "sources": [
+      "https://www.abconcerts.be/en/agenda/bellaire/a10Qw00000HoT6fIAF"
+    ]
   },
   {
     "title": "NTO at Ancienne Belgique",
     "type": "Club",
-    "genres": ["Techno"],
+    "genres": [
+      "Techno"
+    ],
     "city": "Brussels",
     "country": "Belgium",
     "lat": 50.847,
@@ -313,10 +455,14 @@
     "currency": "€",
     "venue": "Ancienne Belgique (AB)",
     "trending": false,
-    "lineup": ["NTO"],
+    "lineup": [
+      "NTO"
+    ],
     "desc": "Le Français NTO, l'un des noms les plus en vue de la techno mélodique, joue dans la grande salle de l'Ancienne Belgique à Bruxelles. Portes à 19h, fin vers 22h30 ; 32 € frais compris en prévente, 33 € à l'entrée.",
     "descEn": "France's NTO, one of the most visible names in melodic techno, plays the main hall of Ancienne Belgique in Brussels. Doors 19:00, ends around 22:30; EUR 32 including fees in presale, EUR 33 on the door.",
     "ticketUrl": "https://www.abconcerts.be/en/agenda/nto/a10Qw00000HyV3xIAF",
-    "sources": ["https://www.abconcerts.be/en/agenda/nto/a10Qw00000HyV3xIAF"]
+    "sources": [
+      "https://www.abconcerts.be/en/agenda/nto/a10Qw00000HyV3xIAF"
+    ]
   }
 ]

@@ -17,13 +17,13 @@ export const PLACES: Place[] = [
   { slug: "lyon", label: "Lyon", kind: "ville", vol: 1000, match: ["Lyon", "Villeurbanne"] },
   { slug: "paris", label: "Paris", kind: "ville", vol: 390, match: ["Paris", "Torcy", "Nanterre", "Villepinte", "Chelles"] },
   { slug: "rennes", label: "Rennes", kind: "ville", vol: 3600, match: ["Rennes"] },
-  { slug: "bordeaux", label: "Bordeaux", kind: "ville", vol: 720, match: ["Bordeaux"] },
+  { slug: "bordeaux", label: "Bordeaux", kind: "ville", vol: 720, match: ["Bordeaux", "Cenon", "Mérignac"] },
   { slug: "nantes", label: "Nantes", kind: "ville", vol: 320, match: ["Nantes"] },
   { slug: "marseille", label: "Marseille", kind: "ville", vol: 260, match: ["Marseille"] },
   { slug: "toulouse", label: "Toulouse", kind: "ville", vol: 210, match: ["Toulouse", "Ramonville-Saint-Agne", "Balma"] },
   { slug: "montpellier", label: "Montpellier", kind: "ville", vol: 260, match: ["Montpellier"] },
   { slug: "brest", label: "Brest", kind: "ville", vol: 210, match: ["Brest"] },
-  { slug: "lille", label: "Lille", kind: "ville", vol: 320, match: ["Lille", "Roubaix"] },
+  { slug: "lille", label: "Lille", kind: "ville", vol: 320, match: ["Lille", "Roubaix", "Tourcoing"] },
   { slug: "strasbourg", label: "Strasbourg", kind: "ville", vol: 210, match: ["Strasbourg"] },
   { slug: "nice", label: "Nice", kind: "ville", vol: 210, match: ["Nice"] },
   { slug: "grenoble", label: "Grenoble", kind: "ville", vol: 260, match: ["Grenoble"] },
@@ -34,6 +34,14 @@ export const PLACES: Place[] = [
   { slug: "le-havre", label: "Le Havre", kind: "ville", vol: 170, match: ["Le Havre"] },
   { slug: "dijon", label: "Dijon", kind: "ville", vol: 170, match: ["Dijon"] },
   { slug: "lens", label: "Lens", kind: "ville", vol: 140, match: ["Lens", "Liévin"] },
+  /* Ouvertes par le lot BE/FR d'août 2026. Leurs départements (Somme, Loiret,
+     Indre-et-Loire) n'ont pas de page : sans entrée ici, ces dates n'étaient
+     atteignables que par la page pays et les pages genre — c'est exactement ce que
+     signale l'avertissement « dates FR hors de toute page lieu » d'audit.py.
+     `vol` pas encore issu de l'export SEMrush : valeur plancher en attendant. */
+  { slug: "amiens", label: "Amiens", kind: "ville", vol: 170, match: ["Amiens"] },
+  { slug: "orleans", label: "Orléans", kind: "ville", vol: 170, match: ["Orléans"] },
+  { slug: "tours", label: "Tours", kind: "ville", vol: 170, match: ["Tours", "Joué-lès-Tours"] },
   // Major European cities (target NL/DE/UK volumes; populated by our events)
   { slug: "amsterdam", label: "Amsterdam", kind: "ville", vol: 1900, match: ["Amsterdam"] },
   { slug: "rotterdam", label: "Rotterdam", kind: "ville", vol: 8100, match: ["Rotterdam"] },
@@ -43,6 +51,17 @@ export const PLACES: Place[] = [
   { slug: "london", label: "London", kind: "ville", vol: 1300, match: ["London"] },
   { slug: "manchester", label: "Manchester", kind: "ville", vol: 720, match: ["Manchester"] },
   { slug: "barcelona", label: "Barcelona", kind: "ville", vol: 880, match: ["Barcelona"] },
+  /* Belgique : 66 dates au catalogue et pas une seule page ville jusqu'ici — elles
+     n'étaient atteignables que par /pays/belgique. Les communes rattachées sont celles
+     de l'agglomération (Grimbergen et Steenokkerzeel pour Bruxelles, Brasschaat et Boom
+     pour Anvers, Seraing pour Liège) : un lecteur qui cherche « rave party Anvers »
+     attend Tomorrowland, à quinze kilomètres, dans la même province.
+     `vol` pas encore issu de l'export SEMrush : valeur plancher en attendant. */
+  { slug: "bruxelles", label: "Bruxelles", kind: "ville", vol: 880, match: ["Brussels", "Grimbergen", "Steenokkerzeel"] },
+  { slug: "gand", label: "Gand", kind: "ville", vol: 320, match: ["Ghent"] },
+  { slug: "anvers", label: "Anvers", kind: "ville", vol: 320, match: ["Antwerp", "Brasschaat", "Boom"] },
+  { slug: "charleroi", label: "Charleroi", kind: "ville", vol: 210, match: ["Charleroi"] },
+  { slug: "liege", label: "Liège", kind: "ville", vol: 260, match: ["Liège", "Seraing"] },
   { slug: "drome", label: "Drôme", kind: "departement", vol: 1000 },
   { slug: "lozere", label: "Lozère", kind: "departement", vol: 4400 },
   { slug: "aude", label: "Aude", kind: "departement", vol: 4400 },

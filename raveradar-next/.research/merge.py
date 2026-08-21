@@ -57,6 +57,15 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
                "Scotland": "UK", "Wales": "UK", "Czechia": "Czech Republic",
                "Holland": "Netherlands", "The Netherlands": "Netherlands"}
 
+# Un événement retiré du catalogue ne doit jamais y revenir par une refusion.
+# La clé de dédup se lit dans lib/data.ts : dès qu'une fiche en est retirée, la clé
+# disparaît avec elle et le JSON de recherche qui l'avait apportée la réinjecte au
+# merge suivant. C'est arrivé à Time Warp Spain — supprimé parce que time-warp.de
+# porte un communiqué d'annulation, et candidat au retour à chaque exécution depuis.
+# Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
+# dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
+REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)"}
+
 CITY_FIX = {"Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
             "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow"}
@@ -101,6 +110,9 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",
         # otherwise an already-merged event comes back as a duplicate.
         e["title"] = re.sub(r"\s+20[0-9][0-9]$", "", e["title"])
+        gone = REMOVED.get((norm(e["title"]), e["date"][:4]))
+        if gone:
+            rejected.append((fn, e["title"], f"retiré du catalogue : {gone}")); continue
         e["city"] = CITY_FIX.get(e["city"], e["city"])
         e["country"] = COUNTRY_FIX.get(e["country"], e["country"])
         e["currency"] = CURRENCY_FIX.get(e["currency"], e["currency"])
