@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Unfaced w/ Jacidorex",
+    "type": "Club",
+    "genres": ["Techno", "Hard Techno"],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-09-04",
+    "time": "23:55",
+    "price": 17,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": ["Jacidorex", "Part Time Killer", "DJ Cringey", "Danke Al"],
+    "desc": "Le label Unfaced, fondé par Jacidorex, pose sa nuit techno et hard techno au Bikini de Ramonville, aux portes de Toulouse, le vendredi 4 septembre. Portes à 23h55, réservé aux plus de 18 ans, avec Part Time Killer, DJ Cringey et Danke Al aux côtés du patron. Prévente à partir de 17 €, 25 € sur place.",
+    "descEn": "Unfaced, the label run by Jacidorex, brings its techno and hard techno night to Le Bikini in Ramonville, just outside Toulouse, on Friday 4 September. Doors 23:55, over-18s only, with Part Time Killer, DJ Cringey and Danke Al alongside the label boss. Advance tickets from 17 EUR, 25 EUR on the door.",
+    "ticketUrl": "https://www.lebikini.com/2026/09/04/unfaced-jacidorex-part-time-killer-dj-cringey-danke-al",
+    "sources": [
+      "https://www.lebikini.com/2026/09/04/unfaced-jacidorex-part-time-killer-dj-cringey-danke-al",
+      "https://www.lebikini.com/programmation"
+    ]
+  },
+  {
+    "title": "Reevolt w/ Überkikz",
+    "type": "Club",
+    "genres": ["Techno", "Hard Techno"],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-09-12",
+    "time": "23:55",
+    "price": 16.7,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": ["Überkikz", "Caiva", "Kandelissa"],
+    "desc": "Nuit techno Reevolt au Bikini de Ramonville le samedi 12 septembre, avec Überkikz, Caiva et Kandelissa. Ouverture des portes à 23h55, entrée réservée aux plus de 18 ans. Prévente à partir de 16,70 €, 30 € sur place.",
+    "descEn": "Reevolt techno night at Le Bikini in Ramonville on Saturday 12 September, with Überkikz, Caiva and Kandelissa. Doors at 23:55, over-18s only. Advance tickets from 16.70 EUR, 30 EUR on the door.",
+    "ticketUrl": "https://www.lebikini.com/2026/09/12/reevolt-uberkikz-caiva-kandelissa",
+    "sources": [
+      "https://www.lebikini.com/2026/09/12/reevolt-uberkikz-caiva-kandelissa",
+      "https://www.lebikini.com/programmation"
+    ]
+  },
+  {
+    "title": "Meet The Beat w/ Avalon & Major7",
+    "type": "Club",
+    "genres": ["Psytrance", "Trance"],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-09-18",
+    "time": "23:55",
+    "price": 18,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": ["Avalon", "Major7", "Djantrix", "X-Noize", "Hu Bee"],
+    "desc": "TED Records et Regarts2Nuit réunissent Avalon, Major7, Djantrix, X-Noize et Hu Bee pour une nuit psytrance au Bikini de Ramonville, le vendredi 18 septembre. Portes à 23h55, plus de 18 ans, scénographie immersive et performances. Prévente à partir de 18 €, 27 € sur place.",
+    "descEn": "TED Records and Regarts2Nuit line up Avalon, Major7, Djantrix, X-Noize and Hu Bee for a psytrance night at Le Bikini in Ramonville on Friday 18 September. Doors 23:55, over-18s only, with immersive staging and live performances. Advance tickets from 18 EUR, 27 EUR on the door.",
+    "ticketUrl": "https://www.lebikini.com/2026/09/18/meet-the-beat-avalon-major7-djantrix-x-noize-hu-bee",
+    "sources": [
+      "https://www.lebikini.com/2026/09/18/meet-the-beat-avalon-major7-djantrix-x-noize-hu-bee",
+      "https://www.lebikini.com/programmation"
+    ]
+  },
+  {
+    "title": "Karnage Grand Opening",
+    "type": "Club",
+    "genres": ["Hardcore", "Hardstyle"],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-09-19",
+    "time": "23:55",
+    "price": 16.7,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": ["Udow", "Sakyra", "Complex", "STV", "Pigminds", "Athenalys"],
+    "desc": "Le collectif Karnage ouvre sa saison au Bikini de Ramonville le samedi 19 septembre, sur un programme uptempo, rawstyle et hardcore : Udow, Sakyra, Complex, STV, Pigminds et Athenalys. Portes à 23h55, plus de 18 ans. Prévente à partir de 16,70 €, 26 € sur place.",
+    "descEn": "The Karnage crew opens its season at Le Bikini in Ramonville on Saturday 19 September with an uptempo, rawstyle and hardcore bill: Udow, Sakyra, Complex, STV, Pigminds and Athenalys. Doors 23:55, over-18s only. Advance tickets from 16.70 EUR, 26 EUR on the door.",
+    "ticketUrl": "https://www.lebikini.com/2026/09/19/karnage-grand-opening",
+    "sources": [
+      "https://www.lebikini.com/2026/09/19/karnage-grand-opening",
+      "https://www.lebikini.com/programmation"
+    ]
+  },
+  {
+    "title": "Dirty History w/ Ed Rush & Optical",
+    "type": "Club",
+    "genres": ["Drum & Bass"],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "region": "Haute-Garonne",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-10-02",
+    "time": "23:55",
+    "price": 20.5,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": ["Ed Rush & Optical", "Dillinja", "DJ Hype", "Phace", "Cross The Fingers"],
+    "desc": "Nuit drum & bass Dirty History au Bikini de Ramonville le vendredi 2 octobre, avec Ed Rush & Optical, Dillinja, DJ Hype, Phace et Cross The Fingers. Portes à 23h55, plus de 18 ans. Prévente à partir de 20,50 €, 25 € sur place.",
+    "descEn": "Dirty History drum & bass night at Le Bikini in Ramonville on Friday 2 October, with Ed Rush & Optical, Dillinja, DJ Hype, Phace and Cross The Fingers. Doors 23:55, over-18s only. Advance tickets from 20.50 EUR, 25 EUR on the door.",
+    "ticketUrl": "https://www.lebikini.com/2026/10/02/dirty-history-ed-rush-and-optical-dillinja-dj-hype-phace",
+    "sources": [
+      "https://www.lebikini.com/2026/10/02/dirty-history-ed-rush-and-optical-dillinja-dj-hype-phace",
+      "https://www.lebikini.com/programmation"
+    ]
+  }
+]
