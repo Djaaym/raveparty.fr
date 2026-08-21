@@ -60,6 +60,12 @@
 
 /* ----------------------------- RESET ----------------------------------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+/* `overflow-x: hidden` reste sur <html> et **pas** sur <body>. Le poser sur body en
+   fait un conteneur de défilement : `overflow-y` calculé passe à `auto`, et tout
+   `position: sticky` à l'intérieur se cale sur ce conteneur au lieu du viewport —
+   donc ne colle plus du tout. La nav du site est sticky depuis toujours et ne
+   tenait pas ; mesuré au navigateur, elle partait à -2202 px après défilement.
+   Sur <html> seul, le débordement horizontal est clippé de la même façon. */
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
 body {
   font-family: var(--f-body);
@@ -67,7 +73,6 @@ body {
   color: var(--white);
   line-height: 1.55;
   font-size: 16px;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 a { color: inherit; text-decoration: none; }
@@ -542,6 +547,14 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .nav-links.open { display: flex; }
   .nav-toggle { display: block; }
   .nav-right .btn { display: none; }           /* moved into the burger menu on mobile */
+  /* Le burger tombait hors de l'écran : à 390 px de large il restait 342 px utiles
+     pour un logo de 243, le sélecteur de langue, le bouton et deux gouttières de
+     28 — soit 451 nécessaires. Le bouton se retrouvait à x=404 et le menu mobile
+     était tout simplement inatteignable. On ne le voyait pas parce que
+     `overflow-x: hidden` sur <body> le clippait au lieu de le montrer ; ce clip est
+     parti (il tuait `position: sticky`), donc le défaut se corrige ici, à la source. */
+  .nav-inner { gap: 14px; }
+  .brand { font-size: 1.05rem; min-width: 0; }
   .nav-links.open .nav-only-mobile { display: block; }
   .nav-links.open .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
   .search { grid-template-columns: 1fr 1fr; }
@@ -572,6 +585,50 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .artist-tile span { font-size: .74rem; color: var(--grey); }
 @media (max-width: 1024px) { .artist-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .artist-grid { grid-template-columns: 1fr; } }
+
+/* ------------------------- A→Z ARTIST DIRECTORY ------------------------ */
+/* 1 860 tiles in one flat block were alphabetical without ever looking it:
+   nothing marked where the A's stopped. Sections with an oversized letter make
+   the order visible, and the bar that carries the filter sticks under the nav so
+   the search box is still reachable from the middle of the Z's. */
+.az-bar {
+  position: sticky; top: 70px; z-index: 20; display: flex; flex-wrap: wrap;
+  align-items: center; gap: 12px 18px; padding: 14px 0 12px; margin-top: 8px;
+  background: var(--black); border-bottom: 1px solid var(--line);
+}
+.az-bar .filterbox-bar { flex: 1 1 300px; }
+.az-jump { display: flex; flex-wrap: wrap; gap: 2px; font-family: var(--f-mono); font-size: .72rem; }
+.az-jump a {
+  min-width: 21px; padding: 3px 4px; text-align: center; border-radius: 5px;
+  color: var(--grey); transition: color .2s, background .2s;
+}
+.az-jump a:hover { color: var(--white); background: var(--line-soft); }
+/* A letter whose section the filter emptied: kept in place so the row does not
+   reflow under the cursor, but visibly out of play and not a link to nowhere. */
+.az-jump a.is-off { opacity: .25; pointer-events: none; }
+.az-count { margin-top: 12px; }
+.az-section { scroll-margin-top: 150px; }
+.az-head { display: flex; align-items: baseline; gap: 16px; margin: 44px 0 18px; }
+.az-letter {
+  font-family: var(--f-display); font-weight: 800; font-size: clamp(3rem, 7vw, 5rem);
+  line-height: .9; background: var(--grad-main); -webkit-background-clip: text;
+  background-clip: text; color: transparent; letter-spacing: -.02em;
+}
+.az-meta { font-family: var(--f-mono); font-size: .74rem; color: var(--grey); }
+.artist-tile-txt { min-width: 0; }
+.artist-tile-txt b { overflow-wrap: anywhere; }
+.av-photo { object-fit: cover; }
+.az-credits { margin-top: 40px; font-size: .8rem; color: var(--grey); }
+.az-credits summary { cursor: pointer; font-family: var(--f-mono); }
+.az-credits ul { margin: 12px 0 0; padding-left: 18px; display: grid; gap: 4px; }
+.az-credits a { color: var(--grey); text-decoration: underline; }
+.az-credits a:hover { color: var(--cyan); }
+/* La nav garde ses 70 px à tous les points de rupture (seuls les liens passent en
+   menu déroulant), donc `top` ne bouge pas. En revanche l'index A→Z ferait deux
+   lignes de plus sous la barre collante : sur mobile on garde le champ, qui est
+   ce qu'on vient chercher, et on rend l'alphabet au fil de la page. */
+@media (max-width: 720px) { .az-jump { display: none; } }
+@media (max-width: 420px) { .nav-inner { gap: 10px; } .brand { font-size: .95rem; } .brand .dot { width: 10px; height: 10px; } }
 
 /* ----------------------------- BREADCRUMBS ----------------------------- */
 .crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .8rem; color: var(--grey); font-family: var(--f-mono); }
