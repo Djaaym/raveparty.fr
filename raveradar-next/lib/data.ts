@@ -1143,6 +1143,72 @@ export const IMAGES: Record<number, string> = {
   935: "hf_20260821_232509_8dbfcb5f-b19a-4ce4-82e3-75849f6fac05.png", // MODUL'AIR Festival — Ghent
   936: "hf_20260821_232509_7ff986cb-f817-41c7-a347-73f460513444.png", // Sunrise Festival — Gierle
   937: "hf_20260821_232509_bf28ec9e-491f-4a1e-9dd1-6c78731317a5.png", // Dour Festival — Dour
+
+  /* Dernier lot sans visuel — le catalogue est désormais illustré en entier. */
+  515: "hf_20260822_092230_da4b692f-7e46-464f-8e17-1d23029b0199.png", // Nightflight x Futoria — Oslo
+  524: "hf_20260822_092230_4df899f8-94fa-40f4-8368-69c3b6622cd9.png", // Flashback Techno Classics — Summer Edition — Vienna
+  539: "hf_20260822_092231_56759dc0-a53f-498a-b935-8ede709a4aa1.png", // Schranz is Back w/ Felix Kröcher — Vienna
+  556: "hf_20260822_092413_d50da93d-58bf-4d46-b2b8-b3c24b4bbd9c.png", // Trancemaster Krause All Night Long — Vienna
+  560: "hf_20260822_092231_dceeb8be-abc5-445f-8e61-2d78e5b94261.png", // YN x BCCO Club Night — Vienna
+  561: "hf_20260822_092231_45517a77-e0eb-4132-9581-2eb53f1b2753.png", // Boston Bun au Stockfish — Nice
+  572: "hf_20260822_092231_ce9ffde1-c58b-4bee-ab32-11737cf8d562.png", // Tiësto · INFINITY Lisbon — Lisbon
+  575: "hf_20260822_092231_b8a49b64-c050-4f4b-b80d-27b4aff2506a.png", // Music On — Ibiza
+  605: "hf_20260822_092413_da2bc445-c4e5-47e0-ad57-158059f9263f.png", // Marcel Dettmann — Barcelona
+  623: "hf_20260822_092231_e801d776-9140-4094-961a-8bb11235e520.png", // Max Cooper — Lisbon
+  629: "hf_20260822_092230_5cd1d180-fe3a-49b5-8a22-a575fbd1f800.png", // Zuckerwatt w/ Mija — Vienna
+  638: "hf_20260822_092413_88c55dd6-829a-48cb-97be-4228e514921e.png", // Project One — Helsinki
+  643: "hf_20260822_092413_790f3f5c-9d36-4492-b2e1-43ce88c9f98f.png", // Zuckerwatt w/ Ellen Allien — Vienna
+  647: "hf_20260822_092413_03cff26f-15d0-415c-a0c9-ccbc722e52d2.png", // Azyr & Fatima Hajji — Lisbon
+  653: "hf_20260822_092413_559f0133-6eda-4517-be82-ee9a3cbd51b4.png", // Lewis OfMan au Sucre — Lyon
+  655: "hf_20260822_092413_fe0e9b87-b461-49b6-8aef-a62590834dfc.png", // TMF — Trier Music Festival — Trier
+  678: "hf_20260822_092413_25266f58-64ad-4a07-aa5d-2e9f9cab039d.png", // Lane 8 at New Century — Manchester
+  682: "hf_20260822_092413_ee59dc55-37f6-411f-9073-6b4f53989a40.png", // Frædag: Einmusik — Oslo
+  701: "hf_20260822_092413_ef388a26-56a1-486a-ae1d-f40ab882e0dd.png", // Jackies House Music Festival Lisboa — Lisbon
+  707: "hf_20260822_092413_724def5e-1563-4fe4-8692-f57e7b89bc7a.png", // Dusky at Hangar 34 — Liverpool
+  709: "hf_20260822_092413_71b7d459-2ae3-4e0d-bb52-eeb496771a58.png", // Romare at Village Underground — London
+  719: "hf_20260822_092539_520aa3c3-06ad-4f98-80e4-160e86f25a26.png", // Cowgate Block Party — Edinburgh
+  722: "hf_20260822_092539_bbf765be-2994-4428-84bd-d690df477375.png", // 2manydjs at Vicar Street — Dublin
+  725: "hf_20260822_092539_43929e1a-1e44-430c-948b-aa80550b4a2c.png", // Romare at Belgrave Music Hall — Leeds
+  741: "hf_20260822_092834_2229679c-09bf-4443-aff3-e9e5369c2fcc.png", // Max Cooper · Hard Club — Porto
+  742: "hf_20260822_092539_efa36118-5eb8-4e50-9ad9-9789eecde403.png", // Curses! · Sala Nazca — Madrid
+  748: "hf_20260822_092539_90dd5576-f371-49d1-95d3-a93f15ef1739.png", // Marshmello & Alison Wonderland at The O2 — London
+  770: "hf_20260822_092539_58d4244f-5891-4d49-b6a5-1e10943ae846.png", // Christian Löffler · Teatre Coliseum — Barcelona
+  772: "hf_20260822_092539_c02f4581-2006-4559-9e7c-09981347d309.png", // Christian Löffler · Casa da Música — Porto
+  773: "hf_20260822_092539_d854e336-ba05-4da9-84e2-e65ec9e9c721.png", // Christian Löffler · Centro Cultural de Belém — Lisbon
+  781: "hf_20260822_092539_2ef7a0f1-94ef-4b7a-a330-b89382c2ef89.png", // Adam F at Castle & Falcon — Birmingham
+  811: "hf_20260822_092539_3ae638e1-c4eb-4beb-a454-c596dae70c61.png", // Verknipt NYE Eindhoven — Eindhoven
+  812: "hf_20260822_092539_47e08830-2ad4-4528-9be8-5ca8e42ba51b.png", // Verknipt NYE Specials Antwerp — Antwerp
+  824: "hf_20260822_092705_dfe958fb-5af8-4e96-bfba-4720932e7d91.png", // PACT: Joachim Pastor, Joris Delacroix & Teho — Amsterdam
+  841: "hf_20260822_092705_7c122abc-3b58-4cde-a3f4-c75a2c9c8c6d.png", // Joris Delacroix au Boeuf sur le Toit — Bordeaux
+  850: "hf_20260822_092705_65fe1ec4-9c0b-461d-965c-eba37fd044a4.png", // Eciton Gathering — Oigny
+  851: "hf_20260822_092705_0664f92a-0b94-48fb-81a6-1ff83aec65d5.png", // S Xpress — Fréjus
+  852: "hf_20260822_092705_a58c362d-1f42-4776-8b1a-7bcf17c52bac.png", // KitKatClub au Bootshaus – 22 août — Cologne
+  853: "hf_20260822_092705_778dc593-7be7-4505-a909-5a86123c7ada.png", // The Avener au Mas des Escaravatiers — Puget-sur-Argens
+  854: "hf_20260822_092944_48aaff1a-1f9f-4a18-9424-55a1476b05c6.png", // RazzClub : Wata Igarashi & Alienata — Barcelona
+  855: "hf_20260822_092834_a8e48cdf-4047-4943-8434-b85e73d664ec.png", // PULSE: Surgeon — Edinburgh
+  856: "hf_20260822_092705_a95631ab-8412-455c-ade6-ba158707fdcf.png", // Bon Entendeur au Toit Terrasse de la Friche — Marseille
+  857: "hf_20260822_092834_e184bfe5-45bc-469a-afa3-c3114e6029ef.png", // IAM Productions : Eli Brown à l'Akvárium — Budapest
+  858: "hf_20260822_092705_5d001391-b3b4-4ead-91f9-5172571c7bf2.png", // RTM: FJAAK & Slam & Nightwave — Glasgow
+  859: "hf_20260822_092705_2b9b1d7f-d657-480e-8e36-2d3e386db5a3.png", // Bootshaus on a Ship Vol. IV — Cologne
+  860: "hf_20260822_092833_3c199108-1a5b-4a9e-b7c5-51f274544047.png", // Fakear à l'Atabal — Biarritz
+  861: "hf_20260822_092833_de1cf4f9-3201-444f-82d0-df9562ed057a.png", // Fakear au Centre Culturel John Lennon — Limoges
+  862: "hf_20260822_092834_7e06edb8-0538-4f80-9b34-ad62c7e9444a.png", // PULSE: SPFDJ — Edinburgh
+  863: "hf_20260822_092834_810a0a4e-5bda-4ea9-b1a0-b7c07d2f1483.png", // VISSA XL — Tilburg
+  864: "hf_20260822_092834_254ecb1b-e408-4791-8080-d9a8c6568c8f.png", // Melodic Madness — Tilburg
+  865: "hf_20260822_092834_4e805523-8a58-4760-8d2e-cbaf6917aa8b.png", // IAM Productions : Kobosil à l'Akvárium — Budapest
+  866: "hf_20260822_092833_dea511aa-9c35-4bd8-96e7-70533443e72a.png", // STACKED x LOST: KiNK b2b Raredub & Nikki Nair — Dublin
+  867: "hf_20260822_092834_6b2871f8-a22c-49fe-b8b1-bd215f404842.png", // Yanamaste at Kompass (All Night Long) — Ghent
+  868: "hf_20260822_092944_b707f971-3d97-4786-9f6b-e8b7b2401a83.png", // Bourbourg Électro Night — Bourbourg
+  869: "hf_20260822_092944_5f785831-daa0-4612-ad70-931a96404a52.png", // Apparat au Transbordeur — Villeurbanne
+  870: "hf_20260822_092944_5555275f-1792-4682-a5e0-16db953db9d5.png", // Autechre au Cabaret Aléatoire — Marseille
+  871: "hf_20260822_093037_6fd94398-6cc8-4b22-8ee3-5c81e30c8772.png", // Obsimo à La Bulle-Café — Lille
+  872: "hf_20260822_092944_d2cf5b68-ff8f-4e50-8ac6-73a358be7937.png", // Cosmic Gate au Bootshaus — Cologne
+  873: "hf_20260822_092944_a4a50129-2c8b-4455-b424-9d8f96407375.png", // La Nuit Étincelle — Bergerac
+  874: "hf_20260822_092944_40e8b151-c3c0-4e4d-b0b3-4c284fa4c161.png", // Under The Rave — Audincourt
+  875: "hf_20260822_092944_d60fd89b-bb47-4aff-ba28-d9e353e3f82e.png", // NAFT at Effenaar — Eindhoven
+  876: "hf_20260822_092944_f61447aa-c727-40ba-92c4-af712071e97b.png", // Paradise City Festival — Steenokkerzeel
+  877: "hf_20260822_092944_af6d62b9-492c-4408-9919-b18672991540.png", // UNTOLD — Cluj-Napoca
+  878: "hf_20260822_092944_e17559ff-e7ec-4694-a4a0-509a17280462.png", // Glitch Festival — Rabat
 };
 
 /* Real event photography — organiser, venue and Wikimedia sources, downloaded and
