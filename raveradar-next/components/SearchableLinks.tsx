@@ -8,8 +8,6 @@ export interface FilterItem {
   slug: string;
   /** The bare name — what the box matches on and what the row displays. */
   term: string;
-  /** Second line, tiles only ("3 événements"). */
-  hint?: string;
 }
 
 export interface FilterGroup {
@@ -26,21 +24,22 @@ const norm = (s: string) =>
 /**
  * A search box over a list of internal links.
  *
- * Both directories it serves — 90 places, 1 185 artists — were walls of pills a
- * reader had to scan by eye; the artists hub even opened with a "headliners"
- * block that was just the same names a second time. The filter is client-side on
- * purpose: **every link stays in the server-rendered HTML** (the input only hides
- * rows), so the internal mesh a crawler follows is exactly what it was before.
+ * The places directory was a wall of 90 pills a reader had to scan by eye. The
+ * filter is client-side on purpose: **every link stays in the server-rendered
+ * HTML** (the input only hides rows), so the internal mesh a crawler follows is
+ * exactly what it was before.
  *
- * Items carry a slug and a name, nothing else: the href and any pill decoration
- * are rebuilt here from `hrefBase`/`labelPrefix`. On 1 185 artists, shipping a
- * per-item href and label would have doubled the flight payload for no gain.
+ * Items carry a slug and a name, nothing else: the href and the pill decoration
+ * are rebuilt here from `hrefBase`/`labelPrefix` rather than shipped per row.
+ *
+ * The artists hub used to share this component through a `variant="tile"` branch;
+ * it now has its own — `ArtistDirectory`, which adds A→Z sections and portraits —
+ * so what is left here is the pill list, and only that.
  */
 export default function SearchableLinks({
   groups,
   hrefBase,
   labelPrefix = "",
-  variant = "pill",
   placeholder,
   emptyLabel,
   countLabel,
@@ -51,7 +50,6 @@ export default function SearchableLinks({
   hrefBase: string;
   /** Prepended to the displayed name only — never to what the box matches. */
   labelPrefix?: string;
-  variant?: "pill" | "tile";
   placeholder: string;
   /** "Aucun résultat pour « {q} »." */
   emptyLabel: string;
@@ -110,28 +108,14 @@ export default function SearchableLinks({
               <h2 className="h-md" style={{ margin: "34px 0 16px" }}>
                 {g.title}
               </h2>
-              {variant === "tile" ? (
-                <div className="artist-grid">
-                  {g.items.map((i) => (
-                    <Link key={i.slug} href={`${hrefBase}${i.slug}`} className="artist-tile">
-                      <div className="av">{i.term.trim()[0]}</div>
-                      <div>
-                        <b>{i.term}</b>
-                        {i.hint && <span>{i.hint}</span>}
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              ) : (
-                <div className="linkfarm">
-                  {g.items.map((i) => (
-                    <Link key={i.slug} href={`${hrefBase}${i.slug}`}>
-                      {labelPrefix}
-                      {i.term}
-                    </Link>
-                  ))}
-                </div>
-              )}
+              <div className="linkfarm">
+                {g.items.map((i) => (
+                  <Link key={i.slug} href={`${hrefBase}${i.slug}`}>
+                    {labelPrefix}
+                    {i.term}
+                  </Link>
+                ))}
+              </div>
             </div>
           ),
         )

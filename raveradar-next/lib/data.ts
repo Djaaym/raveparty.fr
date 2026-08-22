@@ -1082,6 +1082,67 @@ export const IMAGES: Record<number, string> = {
   209: "hf_20260729_223447_2692f085-1832-49ed-9c5a-438829744b28.png",
   108: "hf_20260729_223536_b804d2ac-0043-4dc2-af3e-4aa19b9ecce5.png",
   210: "hf_20260729_223545_c87f63ce-2725-4f2b-ae63-2dd526c717fd.png",
+
+  /* Lot BE/FR d'août 2026 — 59 fiches qui tombaient sur le dégradé de genre. */
+  879: "hf_20260821_231523_92c31366-492e-48f0-a891-b92d2b7ec982.png", // Liège Electronic Music Festival — Seraing
+  880: "hf_20260821_231523_f0892849-7d6e-4b39-bcac-eddb371424b0.png", // Kamping Kitsch Club — Kortrijk
+  881: "hf_20260821_231524_468ca480-793f-4f8e-872e-428afced8b61.png", // Illusion at the Beach — Blankenberge
+  882: "hf_20260821_231523_57cc77e1-8b27-426e-b2fd-73d87abd99bd.png", // The Day Before Tomorrow — Brasschaat
+  883: "hf_20260821_231524_9d3b9f59-7454-4000-8961-c6a1cb0ad644.png", // EZ! w/ Habstrakt — Villeurbanne
+  884: "hf_20260821_231856_d3a8287a-1a41-4097-a484-2cd6891c02de.png", // Meakusma Festival — Eupen
+  885: "hf_20260821_231524_37b1a42e-9039-4c15-9f79-6f24c65a4078.png", // Legends of Retro — Mons
+  886: "hf_20260821_231524_9b5d9d72-c4ed-4a71-aa90-72b98638d580.png", // Highlight Festival — Ieper
+  887: "hf_20260821_231524_59db12bf-4c8e-4189-95cf-6217e51e2726.png", // Space Safari — Hastière
+  888: "hf_20260821_231524_fe5c7481-595b-4ace-99de-4ae3f2a8547e.png", // Unfaced w/ Jacidorex — Ramonville-Saint-Agne
+  889: "hf_20260821_231523_f610b5e0-a78c-4f41-950d-e9ad70e4670e.png", // Djedjotronic x Trio Xenakis — Strates — Cenon
+  890: "hf_20260821_231524_79221b45-d07b-45f8-b2de-14575ffeb015.png", // Voodoo Village — Grimbergen
+  891: "hf_20260821_231649_af640140-49fe-417e-b76d-f8e9f49d0716.png", // Hypercore 3 : Welcome to the Hyperverse — Paris
+  892: "hf_20260821_231649_566bf7c8-7b30-4a1a-a808-b0226aadb536.png", // Fuse presents Andy C — Brussels
+  893: "hf_20260821_231856_cbbc2ac6-661d-4f15-a138-eb4d9dd06c5c.png", // Tech Noire ft. B1980 — Paris
+  894: "hf_20260821_231649_9aeccaca-b495-4be3-9cef-7650c1a3482d.png", // Reevolt w/ Überkikz — Ramonville-Saint-Agne
+  895: "hf_20260821_231649_0811cb09-b13b-4418-a98b-05bff6c9ba1f.png", // Meet The Beat w/ Avalon & Major7 — Ramonville-Saint-Agne
+  896: "hf_20260821_231649_13ca3395-6787-4a1b-9850-529069774e46.png", // Fuse presents PACT — Brussels
+  897: "hf_20260821_231649_05a6bee1-7a91-49ed-b39a-0587e1bdab8c.png", // Flashforward: Nicole Moudaber — Charleroi
+  898: "hf_20260821_231649_261e39b6-8536-4562-bd4f-773969604b94.png", // Sunset Festival — Gierle
+  899: "hf_20260821_231649_a2d971e4-5766-4f6b-8d13-bb758edc7ddd.png", // Tatie Dee + Barbara Butch + Austher — Amiens
+  900: "hf_20260821_231649_1a2d05f0-0e81-4e6d-ab21-bd6763cb243e.png", // Karnage Grand Opening — Ramonville-Saint-Agne
+  901: "hf_20260821_231649_53b9a50a-b036-4968-a88e-a1d05a1447d6.png", // Turtle Open Air — Rennes
+  902: "hf_20260821_231649_51cf8b2f-c7aa-46dd-8dca-f2514409b1a5.png", // Fuse presents Polar Inertia & Luigi Tozzi — Brussels
+  903: "hf_20260821_231856_7c098e44-0c82-474b-a1a3-a8d4141e26a0.png", // Il Est Vilaine + Radical Cute — Tourcoing
+  904: "hf_20260821_231856_e6985ee6-9da1-4a2a-97fd-576a42d8f2f3.png", // Onda Mix w/ Paloma Colombe — Toulouse
+  905: "hf_20260821_231857_081d3ca5-4de3-4ea4-94d8-8e5e99200c94.png", // LESSSS All Night Long — Villeurbanne
+  906: "hf_20260821_231856_bcb6a4ca-4457-4284-adf8-2c1303c95173.png", // Dirty History w/ Ed Rush & Optical — Ramonville-Saint-Agne
+  907: "hf_20260821_231856_6cd7d013-b8bf-4f17-9300-efddc615db07.png", // Star Warz: Final Edition — Ghent
+  908: "hf_20260821_231856_79376c27-8d1c-47e0-836d-7529d8313ffe.png", // Paul Kalkbrenner + Machines Vivantes — Toulouse
+  909: "hf_20260821_231856_2ee73254-111f-4fb8-896b-b6a4d452cba9.png", // Jasmine Not Jafar + Lavomatic + DJ Stronger — Orléans
+  910: "hf_20260821_231856_70ad6727-22a4-490f-8029-e34f1a4e95cb.png", // Deux Chevaux: Front de Cadeaux — Brussels
+  911: "hf_20260821_231856_b02afff9-0fff-4585-91b9-2783f32ad6fe.png", // Bunker Brestois — Brest
+  912: "hf_20260821_232122_a2262ade-e26c-43ed-aa9f-5d22fb4c7cdb.png", // Les Eurockéennes en Résidence Secondaire : Ofenbach — Montbéliard
+  913: "hf_20260821_232122_2e17f64b-775b-42f2-a5a0-71ff28abae67.png", // Busy P au Bikini — Ramonville-Saint-Agne
+  914: "hf_20260821_232122_e5080991-629a-45e1-a4ee-d2c9e39ba76f.png", // Flashforward: KAS:ST — Charleroi
+  915: "hf_20260821_232122_3c8547b7-57d6-4ff3-bd8f-2e362e88bef8.png", // Les Eurockéennes en Résidence Secondaire : I Hate Models — Montbéliard
+  916: "hf_20260821_232122_c56eaf2a-de95-4bfb-9373-2f9dbc23981f.png", // Baby Berserk + Jasmine Not Jafar — Mérignac
+  917: "hf_20260821_232122_0ceb6e68-4ce5-4705-b74b-61d4c660af46.png", // Instrumental w/ Hilight Tribe & Manudigital — Villeurbanne
+  918: "hf_20260821_232122_2934f92c-fe36-45ff-86df-02bd91a202a5.png", // Lane 8: This Never Happened at Ancienne Belgique — Brussels
+  919: "hf_20260821_232122_2cae641f-6d97-4dad-8198-599dc84b60b2.png", // La P'tite Fumée au Temps Machine — Joué-lès-Tours
+  920: "hf_20260821_232329_ba7ba90c-a827-458d-a818-f551cc489e8a.png", // Hilight Tribe Instrumental Halloween Edition — Toulouse
+  921: "hf_20260821_232122_575b2cb0-0e83-4310-9c57-0b11b019dd96.png", // Lena Willikens + Rick Shiver + Donia — Brussels
+  922: "hf_20260821_232122_95c851a7-3be7-4f5f-ae3c-cfa1216fb2a8.png", // Mo' Juice x Curfew — Ghent
+  923: "hf_20260821_232122_a31d39bb-de80-47f8-9cf5-076fff8d5c3a.png", // Flashforward: Jonathan Kaspar — Charleroi
+  924: "hf_20260821_232328_13ed68a8-ae93-4af3-a9d4-b4a5bbfc68f9.png", // Full Circle Antwerp — Antwerp
+  925: "hf_20260821_232329_552fab0d-e151-4ac3-ab03-69a6df5e80e3.png", // Max Cooper at Club Wintercircus — Ghent
+  926: "hf_20260821_232329_be83cb0f-fa86-484e-a1ec-09618fa13614.png", // Nuit Électro Cosmic Edition — Ploeren
+  927: "hf_20260821_232329_72cc687a-6575-43ef-9d16-2d0b64bc9986.png", // Fulgurances Électroniques — Orléans
+  928: "hf_20260821_232329_602c8f73-8c2c-440b-9e99-9a936f305ff3.png", // Dombrance & Fuzzy — Saint-Quentin
+  929: "hf_20260821_232329_517ac81d-b962-4177-bfc3-ed5761b99f6e.png", // La P'tite Fumée au 6MIC — Aix-en-Provence
+  930: "hf_20260821_232329_359c3d20-bff3-4c39-a4dc-8afdce2d4816.png", // Primate presents Sticks & Stones — Ghent
+  931: "hf_20260821_232543_5b219d96-3899-4cd9-9518-51967cd1c266.png", // Flashforward: Dave Clarke — Charleroi
+  932: "hf_20260821_232329_4067859f-c76d-4b12-96d0-761b6905159d.png", // Bellaire at Ancienne Belgique — Brussels
+  933: "hf_20260821_232328_dcc6a4e4-1c05-46f2-b6f2-f66cf78f08af.png", // Full Circle Ghent — Ghent
+  934: "hf_20260821_232329_36b3ced6-7ace-4c0f-872b-79502fb71595.png", // NTO at Ancienne Belgique — Brussels
+  935: "hf_20260821_232509_8dbfcb5f-b19a-4ce4-82e3-75849f6fac05.png", // MODUL'AIR Festival — Ghent
+  936: "hf_20260821_232509_7ff986cb-f817-41c7-a347-73f460513444.png", // Sunrise Festival — Gierle
+  937: "hf_20260821_232509_bf28ec9e-491f-4a1e-9dd1-6c78731317a5.png", // Dour Festival — Dour
 };
 
 /* Real event photography — organiser, venue and Wikimedia sources, downloaded and

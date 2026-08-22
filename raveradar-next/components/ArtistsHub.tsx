@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming } from "@/lib/data";
 import { ARTISTS } from "@/lib/artists";
+import { BIOS } from "@/lib/bios";
 import { PLACES } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -10,7 +11,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
-import SearchableLinks from "./SearchableLinks";
+import ArtistDirectory from "./ArtistDirectory";
 import JsonLd from "./JsonLd";
 
 export default function ArtistsHub({ lang }: { lang: Lang }) {
@@ -27,9 +28,16 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 14);
   const artistItems = ARTISTS.map((a) => ({
     slug: a.slug,
-    term: a.name,
-    hint: `${a.eventIds.length} ${t(a.eventIds.length > 1 ? "dyn.events" : "dyn.event")}`,
+    name: a.name,
+    n: a.eventIds.length,
+    photo: BIOS[a.slug]?.photo?.file,
   }));
+  /* A CC BY photo may be reused *provided* the author and licence travel with it —
+     that is the condition, not a footnote. A 42 px avatar has no room for a credit
+     line, so the page carries them all here, once, for the portraits it shows. */
+  const credits = ARTISTS.map((a) => BIOS[a.slug]?.photo && { name: a.name, ...BIOS[a.slug]!.photo! })
+    .filter((c): c is { name: string; file: string; author: string; license: string; page: string } => Boolean(c))
+    .sort((x, y) => x.name.localeCompare(y.name));
 
   const intro =
     lang === "fr"
@@ -65,7 +73,44 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           <p className="lead">{t("artists.lead")}</p>
           <p className="lead">{intro}</p>
 
-          <div className="linkfarm" style={{ marginTop: 20 }}>
+          {/* The directory is what this page is for, so it comes first — filter
+              included. It used to sit below the "next dates" grid, four screens
+              down, which is where search boxes go to be never used. */}
+          <h2 className="h-md" style={{ margin: "40px 0 0" }}>
+            {t("artists.az")}
+          </h2>
+          <ArtistDirectory
+            items={artistItems}
+            hrefBase={`${p}/artistes/`}
+            placeholder={t("filter.artists")}
+            countLabel={t("filter.count")}
+            emptyLabel={t("filter.none")}
+            clearLabel={t("filter.clear")}
+            dateLabel={t("dyn.event")}
+            datesLabel={t("dyn.events")}
+            artistLabel={t("dyn.artist")}
+            artistsLabel={t("dyn.artists")}
+            jumpLabel={t("artists.jump")}
+          />
+
+          {credits.length > 0 && (
+            <details className="az-credits">
+              <summary>{t("artists.credits").replace("{n}", String(credits.length))}</summary>
+              <ul>
+                {credits.map((c) => (
+                  <li key={c.file}>
+                    {c.name} — {c.author}, {c.license} (
+                    <a href={c.page} target="_blank" rel="noopener noreferrer nofollow">
+                      Wikimedia Commons
+                    </a>
+                    )
+                  </li>
+                ))}
+              </ul>
+            </details>
+          )}
+
+          <div className="linkfarm" style={{ marginTop: 44 }}>
             <Link href={`${p}/rave-party/ce-week-end`}>🔥 {t("soon.crumb")}</Link>
             <Link href={`${p}/rave-party/autour-de-moi`}>📍 {t("near.crumb")}</Link>
             <Link href={`${p}/genres`}>🎚 {t("nav.genres")}</Link>
@@ -87,18 +132,6 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             </>
           )}
 
-          {/* One list, searchable — the "upcoming headliners" block above it was the
-              same names a second time, and 1 185 tiles are only browsable by name.
-              Every artist link still ships in the HTML: the box filters, it never fetches. */}
-          <SearchableLinks
-            variant="tile"
-            groups={[{ title: t("artists.az"), items: artistItems }]}
-            hrefBase={`${p}/artistes/`}
-            placeholder={t("filter.artists")}
-            countLabel={t("filter.count")}
-            emptyLabel={t("filter.none")}
-            clearLabel={t("filter.clear")}
-          />
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("hub.bygenre")}
