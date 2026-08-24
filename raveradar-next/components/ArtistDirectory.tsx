@@ -10,6 +10,8 @@ export interface DirectoryArtist {
   n: number;
   /** Portrait filename under /artists/, when one exists under a licence that allows it. */
   photo?: string;
+  /** Genres, as indices into the `genres` prop — see the note on the component. */
+  g?: number[];
 }
 
 const norm = (s: string) =>
@@ -48,6 +50,13 @@ const anchorOf = (letter: string) => `az-${letter === "#" ? "num" : letter.toLow
  * reason the old component gave, and it still holds. Items carry a slug, a name
  * and a *count*: the href and the "3 dates" label are rebuilt here. On 1 860
  * artists, shipping a formatted label per row is pure duplication of one template.
+ *
+ * Same reasoning for the genres each row now shows: they arrive as **indices** into
+ * a `genres` array sent once, not as strings repeated row after row. "Hard Techno"
+ * spelled out on every tile that plays it would be a few kilobytes of the same two
+ * words. And since the labels are here anyway, the filter matches them too — typing
+ * "hardstyle" narrows the directory to the artists who play it, which is the second
+ * thing anyone wants from a list of 1 860 names after looking for one they know.
  */
 export default function ArtistDirectory({
   items,
@@ -61,6 +70,7 @@ export default function ArtistDirectory({
   artistLabel,
   artistsLabel,
   jumpLabel,
+  genres,
 }: {
   items: DirectoryArtist[];
   /** Prefixed to every slug: `/artistes/`, `/en/artistes/`. */
@@ -77,6 +87,8 @@ export default function ArtistDirectory({
   artistLabel: string;
   artistsLabel: string;
   jumpLabel: string;
+  /** Genre labels, indexed by `DirectoryArtist.g`. */
+  genres: string[];
 }) {
   const [q, setQ] = useState("");
   const needle = norm(q.trim());
@@ -84,22 +96,23 @@ export default function ArtistDirectory({
   /* Normalising 1 860 names on every keystroke is wasteful and the list never
      changes: fold the sections once, then filter over the pre-normalised copy. */
   const sections = useMemo(() => {
-    const m = new Map<string, (DirectoryArtist & { _n: string })[]>();
+    const m = new Map<string, (DirectoryArtist & { _n: string; _g: string })[]>();
     for (const a of items) {
       const l = initialOf(a.name);
       if (!m.has(l)) m.set(l, []);
-      m.get(l)!.push({ ...a, _n: norm(a.name) });
+      const labels = (a.g ?? []).map((i) => genres[i]).filter(Boolean);
+      m.get(l)!.push({ ...a, _n: norm(a.name), _g: labels.join(" · ") });
     }
     return [...m.entries()]
       .sort(([a], [b]) => (a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)))
       .map(([letter, rows]) => ({ letter, rows }));
-  }, [items]);
+  }, [items, genres]);
 
   const shown = useMemo(
     () =>
       needle
         ? sections
-            .map((s) => ({ ...s, rows: s.rows.filter((a) => a._n.includes(needle)) }))
+            .map((s) => ({ ...s, rows: s.rows.filter((a) => a._n.includes(needle) || norm(a._g).includes(needle)) }))
             .filter((s) => s.rows.length > 0)
         : sections,
     [sections, needle],
@@ -192,6 +205,7 @@ export default function ArtistDirectory({
                     <b>{a.name}</b>
                     <span>
                       {a.n} {a.n > 1 ? datesLabel : dateLabel}
+                      {a._g && <em>{a._g}</em>}
                     </span>
                   </span>
                 </Link>
