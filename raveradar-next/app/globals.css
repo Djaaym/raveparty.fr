@@ -666,6 +666,24 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .filterbox-clear:hover { border-color: var(--violet); color: var(--white); }
 
 /* Dense internal-linking blocks: related cities, genres, artists, venues. */
+/* ------------------------- HOME · WAYS IN ------------------------------ */
+/* Three doors into the calendar, in place of the ninety-town column dump the home
+   page used to end on. Geolocation gets the wide card because it is the one answer
+   a stranger can act on without knowing a single place name. */
+.ways { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 18px; }
+.way {
+  display: flex; flex-direction: column; gap: 10px; padding: 26px;
+  border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--anthracite);
+  transition: transform .35s var(--ease), border-color .35s, box-shadow .35s;
+}
+.way:hover { transform: translateY(-4px); border-color: var(--violet); box-shadow: var(--glow-violet); }
+.way-hero { background: linear-gradient(150deg, rgba(139,92,255,.16), rgba(25,231,255,.04)); border-color: rgba(139,92,255,.42); }
+.way-ico { font-size: 1.6rem; line-height: 1; }
+.way h3 { font-family: var(--f-display); font-size: 1.15rem; letter-spacing: -.01em; }
+.way p { color: var(--grey); font-size: .92rem; line-height: 1.6; flex: 1; }
+.way-go { font-family: var(--f-mono); font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+@media (max-width: 900px) { .ways { grid-template-columns: 1fr; } }
+
 .linkfarm { display: flex; flex-wrap: wrap; gap: 8px; }
 .linkfarm a {
   font-size: .82rem; padding: 7px 13px; border-radius: 99px;
@@ -673,6 +691,10 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   transition: border-color .25s, color .25s, transform .25s;
 }
 .linkfarm a:hover { border-color: var(--violet); color: var(--white); transform: translateY(-2px); }
+/* The count is the pill's honesty: a city link that promises nothing on is worse than no link. */
+.linkfarm a b { font-family: var(--f-mono); font-weight: 600; font-size: .74rem; color: var(--grey-3); margin-left: 3px; }
+.linkfarm a:hover b { color: var(--cyan); }
+.linkfarm a.more { border-color: rgba(139,92,255,.45); color: var(--white); background: var(--grad-soft); }
 .linkcols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 24px; }
 .linkcols a { color: var(--grey); font-size: .88rem; padding: 4px 0; display: block; transition: color .2s; }
 .linkcols a:hover { color: var(--cyan); }

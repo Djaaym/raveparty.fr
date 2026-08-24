@@ -15,11 +15,15 @@ export default function Nav({ lang }: { lang: Lang }) {
   const frPath = pathname.replace(/^\/en(?=\/|$)/, "") || "/";
   const enPath = "/en" + (frPath === "/" ? "" : frPath);
 
+  /* "Pays" sat right next to "Villes" and read as the same promise twice — and a
+     stranger's first question is a date, not a geography. It gives up its slot to
+     "Ce week-end"; /pays keeps its links from /villes and from every footer, so no
+     page loses its way in. */
   const links = [
     { href: `${p}/explore`, label: t("nav.explore"), key: "/explore" },
+    { href: `${p}/rave-party/ce-week-end`, label: t("soon.crumb"), key: "/rave-party/ce-week-end" },
     { href: `${p}/genres`, label: t("nav.genres"), key: "/genres" },
     { href: `${p}/villes`, label: t("nav.cities"), key: "/villes" },
-    { href: `${p}/pays`, label: t("nav.countries"), key: "/pays" },
     { href: `${p}/artistes`, label: t("nav.artists"), key: "/artistes" },
     { href: `${p}/map`, label: t("nav.map"), key: "/map" },
   ];
