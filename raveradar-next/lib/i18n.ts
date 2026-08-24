@@ -33,6 +33,8 @@ export const DICT: Record<Lang, Dict> = {
     "nav.venues": "Lieux",
     "venue.eyebrow": "Le lieu", "venues.eyebrow": "Tous les lieux", "venues.title": "Clubs, entrepôts & sites de festival", "venues.lead": "Retrouve l'agenda complet de chaque lieu : clubs, entrepôts et plaines de festival.", "venues.all": "Tous les lieux", "venues.bycity": "Lieux par ville", "venue.agenda": "À l'affiche", "venue.artists": "Artistes passés & à venir", "venue.samecity": "Autres lieux à",
     "genrehub.eyebrow": "Tous les styles", "genrehub.title": "Genres de musique électronique",
+    "genre.bpm": "Tempo", "genre.origin": "Origine", "genre.tell": "Ce que tu entends", "genre.upcoming": "à venir", "genre.nodates": "Pas de date à venir",
+    "genre.see": "Voir le genre →", "genre.wherecities": "Où ça se joue", "genrehub.faq": "Questions fréquentes sur les genres",
     "genrehub.lead": "Techno, hardstyle, drum & bass, psytrance… explore par style et trouve ta fréquence.",
     "genre.artists": "Artistes", "genre.bycity": "Par ville & département", "genre.othergenres": "Autres genres",
     "city.events": "Événements", "city.nearby": "Ailleurs en Europe",
@@ -107,7 +109,7 @@ export const DICT: Record<Lang, Dict> = {
     "alert.done": "C'est noté — tu seras prévenu pour {label}.", "alert.donefine": "Un mail de confirmation vient de partir : clique dessus pour activer l'alerte.", "alert.alreadyset": "Tu as déjà créé cette alerte depuis ce navigateur.",
     "alert.consent": "Ton adresse ne sert qu'à cette alerte. Désinscription en un clic dans chaque mail.", "alert.err.email": "Cette adresse e-mail n'a pas l'air valide.", "alert.err.soon": "Les alertes ne sont pas encore ouvertes — reviens très vite.", "alert.err.retry": "Ça n'a pas marché. Réessaie dans un instant.",
     "acc.history.lead": "Les événements auxquels tu as assisté. Note-les pour améliorer tes recommandations.", "acc.prefs": "Préférences", "acc.displayname": "Nom affiché", "acc.homecity": "Ville d'origine", "acc.email": "Email", "acc.save": "Enregistrer",
-    "dyn.event": "événement", "dyn.events": "événements", "dyn.artist": "artiste", "dyn.artists": "artistes", "dyn.free": "GRATUIT", "dyn.priceunknown": "Tarif à venir", "dyn.priceest": "Tarif indicatif — vérifie sur la billetterie officielle.", "locale": "fr-FR",
+    "dyn.event": "événement", "dyn.events": "événements", "dyn.date": "date", "dyn.dates": "dates", "dyn.artist": "artiste", "dyn.artists": "artistes", "dyn.free": "GRATUIT", "dyn.priceunknown": "Tarif à venir", "dyn.priceest": "Tarif indicatif — vérifie sur la billetterie officielle.", "locale": "fr-FR",
   },
   en: {
     "nav.explore": "Explore", "nav.map": "Map", "nav.organizers": "For Organizers",
@@ -139,6 +141,8 @@ export const DICT: Record<Lang, Dict> = {
     "nav.venues": "Venues",
     "venue.eyebrow": "The venue", "venues.eyebrow": "All venues", "venues.title": "Clubs, warehouses & festival sites", "venues.lead": "Find each venue's full agenda: clubs, warehouses and festival grounds.", "venues.all": "All venues", "venues.bycity": "Venues by city", "venue.agenda": "On the bill", "venue.artists": "Artists past & upcoming", "venue.samecity": "Other venues in",
     "genrehub.eyebrow": "Every style", "genrehub.title": "Electronic music genres",
+    "genre.bpm": "Tempo", "genre.origin": "Origin", "genre.tell": "What you hear", "genre.upcoming": "upcoming", "genre.nodates": "No upcoming date",
+    "genre.see": "See the genre →", "genre.wherecities": "Where it plays", "genrehub.faq": "Frequently asked questions about genres",
     "genrehub.lead": "Techno, hardstyle, drum & bass, psytrance… browse by style and find your frequency.",
     "genre.artists": "Artists", "genre.bycity": "By city & region", "genre.othergenres": "Other genres",
     "city.events": "Events", "city.nearby": "Elsewhere in Europe",
@@ -213,7 +217,7 @@ export const DICT: Record<Lang, Dict> = {
     "alert.done": "Done — you'll hear about {label}.", "alert.donefine": "A confirmation email is on its way: click it to activate the alert.", "alert.alreadyset": "You already created this alert from this browser.",
     "alert.consent": "Your address is only used for this alert. One-click unsubscribe in every email.", "alert.err.email": "That email address doesn't look valid.", "alert.err.soon": "Alerts aren't open yet — check back very soon.", "alert.err.retry": "That didn't work. Try again in a moment.",
     "acc.history.lead": "Events you've attended. Rate them to improve your recommendations.", "acc.prefs": "Preferences", "acc.displayname": "Display name", "acc.homecity": "Home city", "acc.email": "Email", "acc.save": "Save changes",
-    "dyn.event": "event", "dyn.events": "events", "dyn.artist": "artist", "dyn.artists": "artists", "dyn.free": "FREE", "dyn.priceunknown": "Price TBA", "dyn.priceest": "Indicative price — check the official ticket shop.", "locale": "en-GB",
+    "dyn.event": "event", "dyn.events": "events", "dyn.date": "date", "dyn.dates": "dates", "dyn.artist": "artist", "dyn.artists": "artists", "dyn.free": "FREE", "dyn.priceunknown": "Price TBA", "dyn.priceest": "Indicative price — check the official ticket shop.", "locale": "en-GB",
   },
 };
 
