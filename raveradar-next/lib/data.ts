@@ -2693,6 +2693,35 @@ export const GENRE_DESC_FR: Record<string, string> = {
 /* localized accessors */
 export const countryLabel = (c: string, lang: Lang) =>
   lang === "fr" ? COUNTRY_FR[c] ?? c : c;
+/**
+ * Les genres d'un ensemble de dates, classés par un score pondéré.
+ *
+ * L'union brute des genres ne veut rien dire dès qu'un festival est étiqueté sur
+ * plusieurs styles : il étiquette du même coup les cinquante noms de son affiche et
+ * la salle qui l'accueille. Le jeu brut affirmait ainsi qu'I Hate Models joue de la
+ * psytrance — exactement la donnée inventée que la règle de contenu interdit.
+ *
+ * Compter les occurrences ne suffit pas non plus : les gros festivals sont nombreux
+ * *et* multi-genres, donc « House » et « EDM » remontent partout par le seul volume.
+ * Chaque date vaut donc 1 point à répartir entre ses genres — une soirée étiquetée
+ * « Hard Techno » seule donne 1 à Hard Techno, un festival à huit styles 0,125 à
+ * chacun. Le signal fort est celui de l'affiche mono-genre, ce qui est la réalité :
+ * c'est là qu'on est booké *pour* ce style.
+ *
+ * Coupe sous 20 % du meilleur score : mieux vaut deux genres justes que cinq dont
+ * trois sont du bruit d'étiquetage.
+ */
+export function rankGenres(list: RaveEvent[]): string[] {
+  const score = new Map<string, number>();
+  for (const e of list) {
+    if (!e.genres.length) continue;
+    for (const g of e.genres) score.set(g, (score.get(g) ?? 0) + 1 / e.genres.length);
+  }
+  const ranked = [...score.entries()].sort((x, y) => y[1] - x[1] || x[0].localeCompare(y[0]));
+  const floor = (ranked[0]?.[1] ?? 0) * 0.2;
+  return ranked.filter(([, v]) => v >= floor).map(([g]) => g);
+}
+
 export const genreDescL = (g: string, lang: Lang) =>
   (lang === "fr" ? GENRE_DESC_FR[g] : GENRE_DESC_EN[g]) ?? "";
 /** `desc` is the French source of truth; `descEn` overrides it on /en when present. */

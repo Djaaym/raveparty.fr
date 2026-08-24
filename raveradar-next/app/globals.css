@@ -678,6 +678,44 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .filterbox-clear:hover { border-color: var(--violet); color: var(--white); }
 
 /* Dense internal-linking blocks: related cities, genres, artists, venues. */
+/* ------------------------- VENUE CARDS (/lieux) ------------------------ */
+/* Le hub listait 515 lignes « ville, pays · N événements » : 515 lignes qui se
+   ressemblent, alors qu'une fiche de salle promet un agenda, une programmation et
+   des habitués. Les salles les plus actives passent en carte, avec ce qui distingue
+   réellement un club d'un autre — et une vraie photo quand on en a une, jamais une
+   affiche générée : ce serait une image de l'événement, pas du lieu. */
+.venuecards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.venuecard {
+  display: flex; gap: 18px; padding: 20px 22px;
+  border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--anthracite);
+  transition: border-color .35s, box-shadow .35s, transform .35s var(--ease);
+}
+.venuecard:hover { border-color: var(--violet); box-shadow: var(--shadow-card); transform: translateY(-3px); }
+.venuecard-shot { width: 96px; height: 120px; border-radius: var(--r-md); object-fit: cover; flex: none; }
+.venuecard-noshot { display: grid; place-items: center; font-size: 2rem; background: var(--grad-soft); border: 1px solid var(--line-soft); }
+.venuecard-body { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+.venuecard-name { font-family: var(--f-display); font-size: 1.2rem; letter-spacing: -.02em; line-height: 1.15; overflow-wrap: anywhere; }
+.venuecard-name a { color: var(--white); }
+.venuecard-name a:hover { color: var(--cyan); }
+.venuecard-facts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-family: var(--f-mono); font-size: .74rem; color: var(--grey-2); }
+.venuecard-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.venuecard-line em, .venuecard-next em {
+  font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--grey-3); flex: none;
+}
+.venuecard-line .linkfarm a { font-size: .72rem; padding: 4px 9px; }
+.venuecard-next { margin-top: auto; font-size: .82rem; color: var(--grey); }
+.venuecard-next em { display: block; margin-bottom: 3px; }
+.venuecard-next a { color: var(--white); }
+.venuecard-next a:hover { color: var(--cyan); }
+.venuecard-go { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+.venuecard-go:hover { color: var(--white); }
+@media (max-width: 1024px) { .venuecards { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .venuecard { padding: 18px 16px; gap: 14px; }
+  .venuecard-shot { width: 72px; height: 90px; }
+}
+
 /* ------------------------- ARTIST CARDS (/artistes) -------------------- */
 /* On ne peut pas écrire 1 860 biographies, mais 147 existent : les plus programmées
    passent en carte développée en tête de page, le reste de l'annuaire garde sa
