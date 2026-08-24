@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { PLACES } from "@/lib/places";
-import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, COUNTRY_FLAG, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
+import { COUNTRIES_INDEX, countryName, eventsForCountry } from "@/lib/countries";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -29,6 +30,11 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   // Slug + bare name only: the "📍 Rave party" prefix is decoration the pill adds,
   // not something a reader typing "lyon" should have to match.
   const placeItems = (list: typeof PLACES) => list.map((v) => ({ slug: v.slug, term: v.label }));
+  // Countries that actually have dates on, busiest first — a flag pointing at an empty
+  // page is the same broken promise as a city pill with nothing behind it.
+  const countries = COUNTRIES_INDEX.map((c) => ({ ...c, live: upcoming(eventsForCountry(c.name), today).length }))
+    .filter((c) => c.live > 0)
+    .sort((a, b) => b.live - a.live || a.name.localeCompare(b.name));
 
   const intro =
     lang === "fr"
@@ -168,6 +174,23 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
               </div>
             </>
           )}
+
+          {/* "Pays" left the nav because it read as "Villes" said twice; this is where
+              it gets its way in from — country pages are the parent of every city page
+              here, so the hub that lists the cities is the honest place to hand them up. */}
+          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+            {t("cities.bycountry")}
+          </h2>
+          <div className="linkfarm">
+            {countries.map((c) => (
+              <Link key={c.slug} href={`${p}/pays/${c.slug}`}>
+                {COUNTRY_FLAG[c.name]} {countryName(c.name, lang)} <b>{c.live}</b>
+              </Link>
+            ))}
+            <Link href={`${p}/pays`} className="more">
+              {t("cities.allcountries")}
+            </Link>
+          </div>
 
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("hub.venues")}

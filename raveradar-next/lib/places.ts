@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS, slugify, upcomingFirst } from "./data";
+import { EVENTS, slugify, upcoming, upcomingFirst } from "./data";
 
 export type PlaceKind = "ville" | "departement" | "region";
 
@@ -160,4 +160,40 @@ export function eventsForPlace(p: Place): RaveEvent[] {
       return names.some((n) => hay.includes(n));
     }),
   );
+}
+
+/** The shortlist the home page shows instead of dumping all 90 places in columns.
+ *
+ *  Sorted by how many dates are actually coming up — a link that promises a town and
+ *  lands on "pas encore d'événement" is worse than no link at all — then by search
+ *  volume when counts tie. Overlapping places are collapsed: "Rhône" holds exactly the
+ *  events "Lyon" already showed, so listing both says the same thing twice. Whoever
+ *  wants the exhaustive list follows the link to /villes, which still carries all 90.
+ *
+ *  `country` is the majority country of the place's own upcoming dates, not a field on
+ *  Place: it exists so the home page can lead with France (the priority market) instead
+ *  of handing a French reader Amsterdam, Manchester and Cologne — which is what a plain
+ *  count ranking does, the calendar being what it is. */
+export function topPlaces(n: number, today?: string): { place: Place; count: number; country: string }[] {
+  const live = upcoming(EVENTS, today);
+  const ranked = PLACES.map((place) => {
+    const names = (place.match ?? [place.label]).map(slugify);
+    const events = live.filter((e) => names.some((x) => [slugify(e.city), slugify(e.region ?? "")].includes(x)));
+    const tally = new Map<string, number>();
+    events.forEach((e) => tally.set(e.country, (tally.get(e.country) ?? 0) + 1));
+    const country = [...tally.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "";
+    return { place, events, country };
+  })
+    .filter((x) => x.events.length > 0)
+    .sort((a, b) => b.events.length - a.events.length || b.place.vol - a.place.vol);
+
+  const seen = new Set<number>();
+  const out: { place: Place; count: number; country: string }[] = [];
+  for (const { place, events, country } of ranked) {
+    if (out.length >= n) break;
+    if (events.every((e) => seen.has(e.id))) continue; // fully covered by a place already listed
+    events.forEach((e) => seen.add(e.id));
+    out.push({ place, count: events.length, country });
+  }
+  return out;
 }

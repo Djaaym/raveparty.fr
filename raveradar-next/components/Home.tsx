@@ -11,7 +11,7 @@ import CountryBrowser from "./CountryBrowser";
 import CtaForm from "./CtaForm";
 import JsonLd from "./JsonLd";
 import { siteJsonLd } from "@/lib/seo";
-import { PLACES } from "@/lib/places";
+import { topPlaces } from "@/lib/places";
 
 const MARQUEE = ["TECHNO", "HARDSTYLE", "DRUM & BASS", "PSYTRANCE", "TRANCE", "ACID", "WAREHOUSE"];
 
@@ -21,6 +21,12 @@ export default function Home({ lang }: { lang: Lang }) {
   const today = todayISO();
   const live = upcoming(undefined, today);
   const trending = featured(8, undefined, today);
+  /* Only places with dates on, most-loaded first — see topPlaces() for why 12 and not 90.
+     Split in two because a plain count ranking is all Amsterdam, Manchester and Cologne:
+     true to the calendar, useless to the French reader this site is built for. */
+  const cities = topPlaces(48, today);
+  const citiesFr = cities.filter((c) => c.country === "France").slice(0, 10);
+  const citiesEu = cities.filter((c) => c.country !== "France").slice(0, 10);
 
   return (
     <>
@@ -203,7 +209,11 @@ export default function Home({ lang }: { lang: Lang }) {
         </div>
       </section>
 
-      {/* geo links — pushes authority from the home page down to the place pages */}
+      {/* ways in — the 90-link column dump this replaces was a link farm on a home
+          page: ninety towns listed flat, most of them with nothing on. It still lives
+          on /villes, one click away, where a reader who wants the exhaustive list goes.
+          Here: the three ways someone actually enters the calendar, then the cities
+          that genuinely have dates, each with its count so no link lies. */}
       <section className="section">
         <div className="wrap">
           <Reveal>
@@ -211,28 +221,75 @@ export default function Home({ lang }: { lang: Lang }) {
               <div>
                 <span className="eyebrow">{t("cities.eyebrow")}</span>
                 <h2 className="h-lg" style={{ marginTop: 14 }}>
-                  {t("cities.title")}
+                  {t("home.ways.title")}
                 </h2>
               </div>
               <Link href={`${p}/villes`} className="btn btn-ghost">
-                {t("trending.cta")}
+                {t("home.ways.all")}
               </Link>
             </div>
           </Reveal>
-          <div className="linkcols">
-            {PLACES.map((x) => (
-              <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
-                Rave party {x.label}
+          <Reveal>
+            <div className="ways">
+              <Link className="way way-hero" href={`${p}/rave-party/autour-de-moi`}>
+                <span className="way-ico">📍</span>
+                <h3>{t("near.title")}</h3>
+                <p>{t("home.way.near")}</p>
+                <span className="way-go">{t("home.way.near.cta")}</span>
               </Link>
-            ))}
-          </div>
-          <div className="linkfarm" style={{ marginTop: 24 }}>
-            <Link href={`${p}/rave-party/ce-week-end`}>📅 {t("soon.title")}</Link>
-            <Link href={`${p}/rave-party/autour-de-moi`}>📍 {t("near.title")}</Link>
-            <Link href={`${p}/artistes`}>{t("nav.artists")}</Link>
-            <Link href={`${p}/lieux`}>{t("nav.venues")}</Link>
-            <Link href={`${p}/map`}>{t("nav.map")}</Link>
-          </div>
+              <Link className="way" href={`${p}/rave-party/ce-week-end`}>
+                <span className="way-ico">📅</span>
+                <h3>{t("soon.crumb")}</h3>
+                <p>{t("home.way.weekend")}</p>
+                <span className="way-go">{t("home.way.weekend.cta")}</span>
+              </Link>
+              <Link className="way" href={`${p}/map`}>
+                <span className="way-ico">🗺</span>
+                <h3>{t("nav.map")}</h3>
+                <p>{t("home.way.map")}</p>
+                <span className="way-go">{t("home.way.map.cta")}</span>
+              </Link>
+            </div>
+          </Reveal>
+
+          {cities.length > 0 && (
+            <>
+              <h3 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("home.cities.title")}
+              </h3>
+              {[
+                { label: t("home.cities.fr"), rows: citiesFr },
+                { label: t("home.cities.eu"), rows: citiesEu },
+              ]
+                .filter((g) => g.rows.length > 0)
+                .map((g) => (
+                  <div key={g.label} style={{ marginBottom: 22 }}>
+                    <span className="eyebrow" style={{ display: "block", marginBottom: 12 }}>
+                      {g.label}
+                    </span>
+                    <div className="linkfarm">
+                      {g.rows.map(({ place, count }) => (
+                        <Link key={place.slug} href={`${p}/rave-party/${place.slug}`}>
+                          Rave party {place.label} <b>{count}</b>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              <div className="linkfarm" style={{ marginTop: 20 }}>
+                {/* Two pages that lost their only home-page link elsewhere in this change:
+                    /lieux went out with the column dump (it carries the club-name intent —
+                    "Berghain", "Rex Club" — that no city page can rank for), and /pays gave
+                    up its nav slot. "Toutes les villes" is already the section's own CTA. */}
+                <Link href={`${p}/lieux`} className="more">
+                  {t("home.cities.venues")}
+                </Link>
+                <Link href={`${p}/pays`} className="more">
+                  🌍 {t("nav.countries")}
+                </Link>
+              </div>
+            </>
+          )}
         </div>
       </section>
 
