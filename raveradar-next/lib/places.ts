@@ -42,6 +42,11 @@ export const PLACES: Place[] = [
   { slug: "amiens", label: "Amiens", kind: "ville", vol: 170, match: ["Amiens"] },
   { slug: "orleans", label: "Orléans", kind: "ville", vol: 170, match: ["Orléans"] },
   { slug: "tours", label: "Tours", kind: "ville", vol: 170, match: ["Tours", "Joué-lès-Tours"] },
+  /* Nevers : ouverte par la soirée Yann YL au Centre Gérard Philipe de Varennes-Vauzelles,
+     commune limitrophe au nord de l'agglomération. La Nièvre n'a pas de page département :
+     sans cette entrée, la date n'était atteignable que par /pays/france et les pages genre.
+     `vol` pas encore issu de l'export SEMrush : valeur plancher en attendant. */
+  { slug: "nevers", label: "Nevers", kind: "ville", vol: 170, match: ["Nevers", "Varennes-Vauzelles"] },
   // Major European cities (target NL/DE/UK volumes; populated by our events)
   { slug: "amsterdam", label: "Amsterdam", kind: "ville", vol: 1900, match: ["Amsterdam"] },
   { slug: "rotterdam", label: "Rotterdam", kind: "ville", vol: 8100, match: ["Rotterdam"] },

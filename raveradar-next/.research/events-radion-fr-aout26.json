@@ -1,0 +1,455 @@
+[
+  {
+    "title": "RADION Season Opener",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-05",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "Hashashin",
+      "The Advent",
+      "Hedemann",
+      "SHE/HER",
+      "Lobster",
+      "Flits",
+      "Isaiah",
+      "Malou",
+      "Vuur"
+    ],
+    "desc": "RADION ouvre sa saison de club le samedi 5 septembre 2026 à 23h dans l'ancien bâtiment ACTA d'Amsterdam-Nieuw-West, et en profite pour inaugurer une nouvelle circulation dans la salle. Sur le main : Hashashin b2b The Advent, Hedemann, puis SHE/HER b2b Lobster. Au café, Flits b2b Isaiah en set house, Malou et Vuur. La nuit court jusqu'à 7h.",
+    "descEn": "RADION opens its club season on Saturday 5 September 2026 at 11pm inside Amsterdam's former ACTA building in Nieuw-West, unveiling a reworked room layout for the occasion. Main room: Hashashin b2b The Advent, Hedemann, then SHE/HER b2b Lobster. In the café, Flits b2b Isaiah play a house set, alongside Malou and Vuur. The night runs until 7am.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/radion-season-opener",
+    "sources": [
+      "https://radion.amsterdam/program/radion-season-opener",
+      "https://radion.amsterdam/program-new",
+      "https://djguide.nl/events.p?language=en&q=radion"
+    ]
+  },
+  {
+    "title": "RADION: DJ Assault",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-11",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "DJ Assault"
+    ],
+    "desc": "Le vendredi 11 septembre 2026, RADION fait revenir DJ Assault pour un deuxième round. Pionnier du ghettotech à Detroit, il croise techno de Detroit, ghetto house de Chicago, electro et Miami bass — un répertoire pensé pour le bas du corps plus que pour la contemplation.",
+    "descEn": "On Friday 11 September 2026, RADION welcomes DJ Assault back for round two. A Detroit ghettotech pioneer, he splices Detroit techno, Chicago ghetto house, electro and Miami bass — a record bag built for hips rather than for chin-stroking.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/radion-presents-dj-assault",
+    "sources": [
+      "https://radion.amsterdam/program/radion-presents-dj-assault",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "RADION: Cleric & Pink Concrete",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-12",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "Cleric",
+      "Pink Concrete",
+      "Pooja B",
+      "LINDS",
+      "Ken-Ming"
+    ],
+    "desc": "Nuit de techno à haute intensité au RADION le samedi 12 septembre 2026. LINDS ouvre entre techno hypnotique et industriel de la première école — dur ne veut pas dire rapide —, Pooja B enchaîne sur une techno futuriste, Pink Concrete assume la mélancolie autant que la légèreté, et Cleric ferme le main sur ses kicks massifs. Ken-Ming joue toute la nuit dans le nouvel espace café.",
+    "descEn": "A high-energy techno night at RADION on Saturday 12 September 2026. LINDS opens between hypnotic techno and old-school industrial — hard need not mean fast — Pooja B follows with futurist techno, Pink Concrete lets melancholy and levity coexist, and Cleric closes the main room on his trademark heavy kicks. Ken-Ming plays all night long in the new café space.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/12-09-radion-w-pink-concrete-cleric-pooja-b-linds-ken-ming",
+    "sources": [
+      "https://radion.amsterdam/program/12-09-radion-w-pink-concrete-cleric-pooja-b-linds-ken-ming",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "RADION x WAXXX Society & RIOT",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "Bloody Mary",
+      "Mila Haj Kasem",
+      "Selene",
+      "Shaleen",
+      "EVI",
+      "Maria Louisa"
+    ],
+    "desc": "Le vendredi 18 septembre 2026, RADION invite les collectifs WAXXX Society et RIOT pour une nuit intégralement en vinyle, avec un plateau 100 % FLINTA. Bloody Mary est en tête d'affiche du main, où Selene (cofondatrice de RIOT) et Mila Haj Kasem font leurs débuts en vinyle aux côtés de Shaleen. EVI et Maria Louisa tiennent le café.",
+    "descEn": "On Friday 18 September 2026, RADION invites collectives WAXXX Society and RIOT for an all-vinyl night with a full FLINTA line-up. Bloody Mary headlines the main room, where RIOT co-founder Selene and Mila Haj Kasem make their vinyl debuts alongside Shaleen. EVI and Maria Louisa hold the café.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/radion-invites-waxxx-x-riot",
+    "sources": [
+      "https://radion.amsterdam/program/radion-invites-waxxx-x-riot",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "Vault Sessions x RADION: Chlär",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "Chlär"
+    ],
+    "desc": "Le samedi 19 septembre 2026, le Suisse Chlär tient les platines du RADION du premier au dernier disque, dans le cadre de la série All Night Long menée avec Vault Sessions. Patron du label Primal Instinct, il défend une techno de caractère, tenue par le groove plutôt que par la vitesse. Pas de relais, pas de raccourci.",
+    "descEn": "On Saturday 19 September 2026, Switzerland's Chlär holds the RADION decks from the first record to the last, as part of the All Night Long series run with Vault Sessions. Head of the Primal Instinct label, he pushes a techno built on character and groove rather than speed. No handover, no shortcuts.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/vault-sessions-radion-chlar-anl",
+    "sources": [
+      "https://radion.amsterdam/program/vault-sessions-radion-chlar-anl",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "GRÜV à RADION",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "NASTIA",
+      "KUSS",
+      "KALTBLUME",
+      "SHE/HER"
+    ],
+    "desc": "GRÜV revient au RADION le vendredi 25 septembre 2026, après une première nuit commune restée dans les mémoires. Quatre artistes, quatre lectures distinctes de la techno : l'Ukrainienne NASTIA, KUSS, KALTBLUME et la résidente SHE/HER.",
+    "descEn": "GRÜV returns to RADION on Friday 25 September 2026 after a memorable first night together. Four artists, four distinct readings of techno: Ukraine's NASTIA, KUSS, KALTBLUME and resident SHE/HER.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/gruv",
+    "sources": [
+      "https://radion.amsterdam/program/gruv",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "FRENZY x SHOCKWERK",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "lat": 52.34563,
+    "lng": 4.82554,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "RADION",
+    "trending": false,
+    "lineup": [
+      "Beau Didier",
+      "Comrade Winston",
+      "Diachi Wada",
+      "Hermetica",
+      "Laure Croft",
+      "Spikey Lee",
+      "Slin",
+      "The Lady Machine",
+      "Tino Machauer"
+    ],
+    "desc": "Après des années d'amitié et de soirées partagées, Frenzy et Shockwerk unissent leurs forces au RADION le samedi 26 septembre 2026. Le plateau est pioché dans les cercles qui ont façonné les deux collectifs : Beau Didier, Comrade Winston b2b Diachi Wada, Hermetica, Laure Croft b2b Spikey Lee, Slin, The Lady Machine et Tino Machauer en live.",
+    "descEn": "After years of friendship and shared nights, Frenzy and Shockwerk join forces at RADION on Saturday 26 September 2026. The bill is drawn from the circles that shaped both collectives: Beau Didier, Comrade Winston b2b Diachi Wada, Hermetica, Laure Croft b2b Spikey Lee, Slin, The Lady Machine and Tino Machauer live.",
+    "note": "tarif non communiqué sur le site du club",
+    "ticketUrl": "https://radion.amsterdam/program/frenzy-x-shockwerk",
+    "sources": [
+      "https://radion.amsterdam/program/frenzy-x-shockwerk",
+      "https://radion.amsterdam/program-new"
+    ]
+  },
+  {
+    "title": "Apparat à l'Élysée Montmartre",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "EDM"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.88279,
+    "lng": 2.34433,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 53.2,
+    "currency": "€",
+    "venue": "L'Élysée Montmartre",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Date supplémentaire ajoutée après le complet du Trabendo : le Berlinois Sascha Ring défend « A Hum Of Maybe », son sixième album, à L'Élysée Montmartre le vendredi 9 octobre 2026 à 20h. Un live en formation complète, entre textures modulaires et voix, six ans après le LP5 nommé aux Grammy. Billets à partir de 53,20 €.",
+    "descEn": "An extra date added after the Trabendo sold out: Berlin's Sascha Ring brings \"A Hum Of Maybe\", his sixth album, to L'Élysée Montmartre on Friday 9 October 2026 at 8pm. A full-band live show of modular textures and vocals, six years on from the Grammy-nominated LP5. Tickets from EUR 53.20.",
+    "ticketUrl": "https://www.jds.fr/paris/concerts/electro/apparat-1356136_A",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/apparat-1356136_A"
+    ]
+  },
+  {
+    "title": "Autechre au Bataclan",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.86302,
+    "lng": 2.37062,
+    "date": "2026-10-14",
+    "time": "19:30",
+    "price": 40,
+    "currency": "€",
+    "venue": "Bataclan",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Deuxième des quatre dates françaises d'Autechre : le duo de Sean Booth et Rob Brown investit le Bataclan le mercredi 14 octobre 2026 à 19h30, entre Marseille la veille et Nantes le lendemain. Billets à partir de 40 €.",
+    "descEn": "The second of Autechre's four French dates: Sean Booth and Rob Brown take over the Bataclan on Wednesday 14 October 2026 at 7.30pm, between Marseille the night before and Nantes the night after. Tickets from EUR 40.",
+    "ticketUrl": "https://www.jds.fr/paris/concerts/electro/autechre-1269239_A",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/autechre-1269239_A"
+    ]
+  },
+  {
+    "title": "Ely Oaks au Central Chapelle",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.89885,
+    "lng": 2.3606,
+    "date": "2026-10-28",
+    "time": "20:00",
+    "price": 27.9,
+    "currency": "€",
+    "venue": "Central Chapelle",
+    "trending": false,
+    "lineup": [
+      "Ely Oaks"
+    ],
+    "desc": "Le producteur autrichien installé à Berlin Ely Oaks joue au Central Chapelle, la salle adossée à l'Adidas Arena dans le 18e, le mercredi 28 octobre 2026 à 20h. Un set entre house, tech-house et mélodies grand public, porté par « Running Around » (disque d'or, plus de 100 millions d'écoutes) et « Borderline » avec LAVINIA. Billets à 27,90 €.",
+    "descEn": "Austrian-born, Berlin-based producer Ely Oaks plays Central Chapelle, the venue attached to the Adidas Arena in the 18th arrondissement, on Wednesday 28 October 2026 at 8pm. A set spanning house, underground tech-house and pop-leaning melodies, built around \"Running Around\" (certified gold, over 100 million streams) and \"Borderline\" with LAVINIA. Tickets EUR 27.90.",
+    "ticketUrl": "https://www.jds.fr/paris/concerts/electro/ely-oaks-1567626_A",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/ely-oaks-1567626_A"
+    ]
+  },
+  {
+    "title": "Wolfgang Voigt presents GAS Live",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.86669,
+    "lng": 2.35361,
+    "date": "2026-09-23",
+    "time": "19:30",
+    "price": 37.8,
+    "currency": "€",
+    "venue": "La Gaîté Lyrique",
+    "trending": false,
+    "lineup": [
+      "Wolfgang Voigt"
+    ],
+    "desc": "Reporté du 15 mai, le live GAS de Wolfgang Voigt se tient finalement le mercredi 23 septembre 2026 à 19h30 dans la Grande Salle de la Gaîté Lyrique. Le fondateur de Kompakt y déroule son projet le plus ambient — nappes de forêt, boucles et images —, un voyage audiovisuel psychédélique sans interruption. Billets à 37,80 €.",
+    "descEn": "Postponed from 15 May, Wolfgang Voigt's GAS live show now lands on Wednesday 23 September 2026 at 7.30pm in the Gaîté Lyrique's main hall. The Kompakt founder unfolds his most ambient project — forest drones, loops and visuals — as an uninterrupted psychedelic audiovisual journey. Tickets EUR 37.80.",
+    "ticketUrl": "https://www.gaite-lyrique.net/agenda/2026/wolfang-voigt/",
+    "sources": [
+      "https://www.gaite-lyrique.net/agenda/2026/wolfang-voigt/",
+      "https://www.jds.fr/paris/concerts/electro/wolfgang-voigt-presents-gas-live-1457460_A"
+    ]
+  },
+  {
+    "title": "Apparat au Nouveau Siècle",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "EDM"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "region": "Nord",
+    "lat": 50.63748,
+    "lng": 3.06021,
+    "date": "2026-10-11",
+    "time": "19:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Le Nouveau Siècle",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Le dimanche 11 octobre 2026 à 19h, Apparat pose sa tournée full-band « A Hum of Maybe » au Nouveau Siècle, l'auditorium de 2 000 places du centre de Lille. Sascha Ring y défend son sixième album, coproduit avec Philipp Johann Thimm : textures modulaires, nappes granuleuses et collaborations vocales.",
+    "descEn": "On Sunday 11 October 2026 at 7pm, Apparat brings his full-band \"A Hum of Maybe\" tour to Le Nouveau Siècle, the 2,000-seat auditorium in central Lille. Sascha Ring plays his sixth album, co-produced with Philipp Johann Thimm: modular textures, grainy pads and guest vocals.",
+    "note": "tarif non communiqué",
+    "ticketUrl": "https://www.jds.fr/lille/concerts/electro/apparat-1514613_A",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/apparat-1514613_A"
+    ]
+  },
+  {
+    "title": "Yann YL Dance Music & Electro",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Varennes-Vauzelles",
+    "country": "France",
+    "region": "Nièvre",
+    "lat": 47.01484,
+    "lng": 3.14481,
+    "date": "2026-10-24",
+    "time": "20:30",
+    "price": 25,
+    "currency": "€",
+    "venue": "Centre Gérard Philipe",
+    "trending": false,
+    "lineup": [
+      "Yann YL"
+    ],
+    "desc": "Le samedi 24 octobre 2026 à 20h30, le Centre Gérard Philipe de Varennes-Vauzelles, au nord de Nevers, accueille Yann YL pour une soirée Dance Music & Electro : mix continu, machines à étincelles et show lumière. Billets à 25 €.",
+    "descEn": "On Saturday 24 October 2026 at 8.30pm, the Centre Gérard Philipe in Varennes-Vauzelles, just north of Nevers, hosts Yann YL for a Dance Music & Electro night: a continuous mix, spark machines and an immersive light show. Tickets EUR 25.",
+    "ticketUrl": "https://www.jds.fr/nevers/concerts/electro/yann-yl-dance-music-et-electro-1604848_A",
+    "sources": [
+      "https://www.jds.fr/nevers/concerts/electro/yann-yl-dance-music-et-electro-1604848_A"
+    ]
+  },
+  {
+    "title": "Loukeman au Badaboum",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.85344,
+    "lng": 2.37577,
+    "date": "2026-10-30",
+    "time": "20:00",
+    "price": 28.5,
+    "currency": "€",
+    "venue": "Badaboum",
+    "trending": false,
+    "lineup": [
+      "Loukeman"
+    ],
+    "desc": "Le Canadien Luke Fenton, alias Loukeman, joue au Badaboum le vendredi 30 octobre 2026 à 20h, dans une soirée présentée par AEG Presents France. Il y déroule l'esthétique de sa trilogie Star Dog : samples saturés, textures dégradées, house lo-fi frottée au R&B et au rap. Billets à 28,50 €.",
+    "descEn": "Canadian producer Luke Fenton, aka Loukeman, plays Badaboum on Friday 30 October 2026 at 8pm, in a night presented by AEG Presents France. He unpacks the aesthetic of his Star Dog trilogy: saturated samples, degraded textures, lo-fi house rubbed against R&B and rap. Tickets EUR 28.50.",
+    "ticketUrl": "https://www.jds.fr/paris/concerts/electro/loukeman-1541689_A",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/loukeman-1541689_A"
+    ]
+  },
+  {
+    "title": "Gold Panda au Hasard Ludique",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "region": "Paris",
+    "lat": 48.89568,
+    "lng": 2.32859,
+    "date": "2026-11-05",
+    "time": "20:00",
+    "price": 24.2,
+    "currency": "€",
+    "venue": "Le Hasard Ludique",
+    "trending": false,
+    "lineup": [
+      "Gold Panda"
+    ],
+    "desc": "Le producteur britannique Gold Panda défend « TON UP », sorti en juin 2026, au Hasard Ludique le jeudi 5 novembre 2026 à 20h. Dix titres — huit morceaux dance bruts et deux interludes — assumés à 140 bpm, sans sophistication superflue. Billets à 24,20 €.",
+    "descEn": "British producer Gold Panda plays \"TON UP\", released in June 2026, at Le Hasard Ludique on Thursday 5 November 2026 at 8pm. Ten tracks — eight raw dance cuts and two interludes — pinned unapologetically at 140bpm, with no surplus polish. Tickets EUR 24.20.",
+    "ticketUrl": "https://www.jds.fr/paris/concerts/electro/gold-panda-1636668_A",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/gold-panda-1636668_A"
+    ]
+  }
+]
