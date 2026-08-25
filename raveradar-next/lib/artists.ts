@@ -1,5 +1,5 @@
 import type { RaveEvent } from "./types";
-import { EVENTS, slugify, upcomingFirst } from "./data";
+import { EVENTS, rankGenres, slugify, upcomingFirst } from "./data";
 
 export interface Artist {
   slug: string;
@@ -33,6 +33,22 @@ function buildArtists(): Artist[] {
 }
 
 export const ARTISTS: Artist[] = buildArtists();
+
+/* Index par id, monté une fois : artistGenres() est appelé pour les 1 860 artistes
+   au build, et reconstruire la table à chaque appel coûterait 1,6 million de lectures. */
+const BY_ID = new Map(EVENTS.map((e) => [e.id, e]));
+
+/**
+ * Les genres de l'artiste, classés par le score pondéré de `rankGenres()`.
+ *
+ * `Artist.genres` est une *union* et ne doit jamais être affichée telle quelle : un
+ * festival étiqueté sur huit styles étiquette du même coup les cinquante noms de son
+ * affiche. Le détail du calcul, et pourquoi un simple comptage ne suffit pas, sont
+ * documentés sur `rankGenres` dans lib/data.ts.
+ */
+export function artistGenres(a: Artist): string[] {
+  return rankGenres(a.eventIds.map((id) => BY_ID.get(id)).filter((e): e is RaveEvent => Boolean(e)));
+}
 
 export const artistBySlug = (slug: string): Artist | undefined => ARTISTS.find((a) => a.slug === slug);
 

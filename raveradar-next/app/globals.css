@@ -578,6 +578,10 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   display: flex; align-items: center; gap: 12px; padding: 12px 14px;
   border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite-2);
   transition: transform .25s var(--ease), border-color .25s; color: inherit;
+  /* Une piste `1fr` vaut minmax(auto, 1fr) : sans ce min-width, la ligne de genres en
+     `nowrap` élargit la colonne au lieu d'être tronquée, et les quatre colonnes de
+     l'annuaire poussent la page à 960 px de débordement horizontal. */
+  min-width: 0;
 }
 .artist-tile:hover { border-color: var(--violet); transform: translateY(-2px); box-shadow: var(--glow-violet); }
 .artist-tile .av { width: 42px; height: 42px; border-radius: 50%; background: var(--grad-main); display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; flex: none; }
@@ -617,6 +621,14 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .az-meta { font-family: var(--f-mono); font-size: .74rem; color: var(--grey); }
 .artist-tile-txt { min-width: 0; }
 .artist-tile-txt b { overflow-wrap: anywhere; }
+/* Les genres de l'artiste, sous le compte de dates : c'est ce qui distingue deux noms
+   inconnus l'un de l'autre dans une liste de 1 860. Une seule ligne, tronquée — la
+   fiche porte la liste complète, la vignette n'a qu'à situer. */
+.artist-tile-txt em {
+  display: block; font-style: normal; font-size: .68rem; color: var(--grey-3);
+  font-family: var(--f-mono); margin-top: 2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 .av-photo { object-fit: cover; }
 .az-credits { margin-top: 40px; font-size: .8rem; color: var(--grey); }
 .az-credits summary { cursor: pointer; font-family: var(--f-mono); }
@@ -666,6 +678,123 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .filterbox-clear:hover { border-color: var(--violet); color: var(--white); }
 
 /* Dense internal-linking blocks: related cities, genres, artists, venues. */
+/* ------------------------- VENUE CARDS (/lieux) ------------------------ */
+/* Le hub listait 515 lignes « ville, pays · N événements » : 515 lignes qui se
+   ressemblent, alors qu'une fiche de salle promet un agenda, une programmation et
+   des habitués. Les salles les plus actives passent en carte, avec ce qui distingue
+   réellement un club d'un autre — et une vraie photo quand on en a une, jamais une
+   affiche générée : ce serait une image de l'événement, pas du lieu. */
+.venuecards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.venuecard {
+  display: flex; gap: 18px; padding: 20px 22px;
+  border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--anthracite);
+  transition: border-color .35s, box-shadow .35s, transform .35s var(--ease);
+}
+.venuecard:hover { border-color: var(--violet); box-shadow: var(--shadow-card); transform: translateY(-3px); }
+.venuecard-shot { width: 96px; height: 120px; border-radius: var(--r-md); object-fit: cover; flex: none; }
+.venuecard-noshot { display: grid; place-items: center; font-size: 2rem; background: var(--grad-soft); border: 1px solid var(--line-soft); }
+.venuecard-body { display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+.venuecard-name { font-family: var(--f-display); font-size: 1.2rem; letter-spacing: -.02em; line-height: 1.15; overflow-wrap: anywhere; }
+.venuecard-name a { color: var(--white); }
+.venuecard-name a:hover { color: var(--cyan); }
+.venuecard-facts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-family: var(--f-mono); font-size: .74rem; color: var(--grey-2); }
+.venuecard-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.venuecard-line em, .venuecard-next em {
+  font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--grey-3); flex: none;
+}
+.venuecard-line .linkfarm a { font-size: .72rem; padding: 4px 9px; }
+.venuecard-next { margin-top: auto; font-size: .82rem; color: var(--grey); }
+.venuecard-next em { display: block; margin-bottom: 3px; }
+.venuecard-next a { color: var(--white); }
+.venuecard-next a:hover { color: var(--cyan); }
+.venuecard-go { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+.venuecard-go:hover { color: var(--white); }
+@media (max-width: 1024px) { .venuecards { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .venuecard { padding: 18px 16px; gap: 14px; }
+  .venuecard-shot { width: 72px; height: 90px; }
+}
+
+/* ------------------------- ARTIST CARDS (/artistes) -------------------- */
+/* On ne peut pas écrire 1 860 biographies, mais 147 existent : les plus programmées
+   passent en carte développée en tête de page, le reste de l'annuaire garde sa
+   vignette. Même parti pris que les cartes de genre — une fiche qui respire, avec
+   les faits (origine, labels) rendus lisibles d'un coup d'œil. */
+.artcards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.artcard {
+  display: flex; gap: 18px; padding: 22px 24px;
+  border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--anthracite);
+  transition: border-color .35s, box-shadow .35s, transform .35s var(--ease);
+}
+.artcard:hover { border-color: var(--violet); box-shadow: var(--shadow-card); transform: translateY(-3px); }
+.artcard-photo { width: 64px; height: 64px; border-radius: 50%; flex: none; object-fit: cover; }
+.artcard-initial {
+  background: var(--grad-main); display: grid; place-items: center;
+  font-family: var(--f-display); font-weight: 800; font-size: 1.5rem;
+}
+.artcard-body { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.artcard-name { font-family: var(--f-display); font-size: 1.25rem; letter-spacing: -.02em; line-height: 1.15; overflow-wrap: anywhere; }
+.artcard-name a { color: var(--white); }
+.artcard-name a:hover { color: var(--cyan); }
+.artcard-facts { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--f-mono); font-size: .76rem; color: var(--grey); }
+.artcard-facts em { font-style: normal; font-size: .64rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-3); margin-right: 5px; }
+.artcard-bio { color: var(--grey); font-size: .92rem; line-height: 1.65; }
+.artcard-genres { margin-top: 2px; }
+.artcard-genres a { font-size: .74rem; padding: 5px 10px; }
+.artcard-next { margin-top: auto; font-size: .84rem; color: var(--grey); }
+.artcard-next em { font-style: normal; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-3); display: block; margin-bottom: 3px; }
+.artcard-next a { color: var(--white); }
+.artcard-next a:hover { color: var(--cyan); }
+.artcard-go { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+.artcard-go:hover { color: var(--white); }
+@media (max-width: 900px) { .artcards { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .artcard { padding: 20px 18px; gap: 14px; }
+  .artcard-photo { width: 52px; height: 52px; }
+  .artcard-facts em { display: block; margin-bottom: 2px; }
+}
+
+/* ------------------------- GENRE CARDS (/genres) ----------------------- */
+/* La tuile carrée (.genre, toujours utilisée sur la home) dit un style en cinq mots.
+   Ici la page EST la présentation des styles : elle a besoin de la fiche entière —
+   tempo, origine, ce qu'on entend — donc d'une carte qui respire, pas d'un carré. */
+.genrecards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 36px; }
+.genrecard {
+  display: flex; overflow: hidden; border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: var(--anthracite); transition: border-color .35s, box-shadow .35s, transform .35s var(--ease);
+}
+.genrecard:hover { border-color: var(--violet); box-shadow: var(--shadow-card); transform: translateY(-3px); }
+/* Le dégradé du genre n'est plus un fond derrière du texte (illisible dès qu'on écrit
+   trois phrases) : il devient l'arête colorée qui identifie la carte d'un coup d'œil. */
+.genrecard-bar { flex: 0 0 6px; }
+.genrecard-body { padding: 24px 26px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.genrecard-title { font-family: var(--f-display); font-size: 1.5rem; letter-spacing: -.02em; line-height: 1.1; }
+.genrecard-title a { color: var(--white); }
+.genrecard-title a:hover { color: var(--cyan); }
+.genrecard-tag { color: var(--grey-2); font-size: .9rem; margin-top: -6px; }
+.genrecard-facts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .8rem; color: var(--grey); font-family: var(--f-mono); }
+.genrecard-facts em { font-style: normal; font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-3); display: block; }
+.genrecard-text { color: var(--grey); font-size: .95rem; line-height: 1.7; }
+/* Le signe qui ne trompe pas : la ligne la plus utile de la carte, donc l'accent. */
+.genrecard-tell {
+  border-left: 2px solid var(--violet); padding-left: 14px; color: var(--white);
+  font-size: .92rem; line-height: 1.6;
+}
+.genrecard-tell em { font-style: normal; display: block; font-family: var(--f-mono); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-3); margin-bottom: 4px; }
+.genrecard-cities { margin-top: auto; padding-top: 4px; }
+.genrecard-go { font-family: var(--f-mono); font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+.genrecard-go:hover { color: var(--white); }
+@media (max-width: 900px) { .genrecards { grid-template-columns: 1fr; } }
+/* Sur un écran étroit, trois faits en étiquette-au-dessus-de-valeur mangent six lignes
+   avant la première phrase. Le libellé repasse en ligne : même information, moitié moins
+   de hauteur, et le texte du genre remonte au-dessus de la ligne de flottaison. */
+@media (max-width: 560px) {
+  .genrecard-body { padding: 20px 18px; }
+  .genrecard-facts { gap: 4px 14px; font-size: .76rem; }
+  .genrecard-facts em { display: inline; margin-right: 5px; }
+}
+
 /* ------------------------- HOME · WAYS IN ------------------------------ */
 /* Three doors into the calendar, in place of the ninety-town column dump the home
    page used to end on. Geolocation gets the wide card because it is the one answer
