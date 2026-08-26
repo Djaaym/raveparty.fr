@@ -795,6 +795,170 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .genrecard-facts em { display: inline; margin-right: 5px; }
 }
 
+/* ------------------------- GENRE PAGE (/genres/{style}) ---------------- */
+/* Le hub /genres présente onze styles côte à côte ; ici la page ne parle que d'un seul,
+   et c'est là qu'arrive quelqu'un qui cherche « c'est quoi la hard techno ». La tête de
+   page lui répond avant toute grille de dates : le nom du style dans ses propres
+   couleurs — celles de GENRES, les mêmes que ses cartes partout ailleurs, posées en
+   variables par le composant — l'accroche, le tempo, l'origine.
+
+   Les variables --g1/--g2 sont portées par .gpage : le dégradé du style sert au titre,
+   à la lueur de fond, à la lettrine et aux arêtes, donc il doit être hérité, pas répété
+   sur chaque élément. Les cartes « autres styles » redéclarent les leurs et gagnent. */
+.gpage { display: contents; }
+
+.ghero {
+  position: relative; isolation: isolate; overflow: hidden;
+  display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, .65fr);
+  gap: 40px; align-items: center;
+  margin-top: 18px; padding: clamp(26px, 4vw, 54px);
+  border: 1px solid var(--line); border-radius: var(--r-xl); background: var(--anthracite);
+}
+/* Le dégradé du style reste une lueur derrière le texte : en aplat saturé, trois
+   paragraphes par-dessus ne se lisent tout simplement pas (c'est ce qui avait déjà
+   fait passer le dégradé du fond à l'arête sur les cartes du hub). */
+.ghero::before {
+  content: ""; position: absolute; inset: -55% -20% auto -20%; height: 135%; z-index: -2;
+  background:
+    radial-gradient(46% 70% at 18% 6%, var(--g1), transparent 68%),
+    radial-gradient(44% 66% at 82% 0%, var(--g2), transparent 70%);
+  opacity: .34; filter: blur(10px);
+}
+.ghero::after {
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: .5;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: radial-gradient(72% 80% at 25% 0%, #000 15%, transparent 76%);
+}
+/* `container-type` pour que le titre se dimensionne sur SA colonne et pas sur le
+   viewport : « Warehouse » en 5,2rem débordait de 75 px à 1280 et de 100 px à 320,
+   et se faisait couper par l'`overflow: hidden` de la carte — un h1 tronqué. Un mot
+   de neuf caractères ne peut pas revenir à la ligne, donc c'est la taille qui doit
+   céder, mesurée là où le texte vit. */
+.ghero-main { min-width: 0; container-type: inline-size; }
+.ghero-kicker {
+  display: inline-flex; align-items: center; gap: 9px; font-family: var(--f-mono);
+  font-size: .7rem; letter-spacing: .22em; text-transform: uppercase; color: var(--grey);
+}
+/* Le point bat au tempo réel du style : la durée d'animation est posée en ligne à partir
+   de `bpm`, donc la drum & bass (174) clignote deux fois plus vite que la house (125).
+   C'est la seule décoration de la page qui dise quelque chose de vrai. */
+.ghero-beat {
+  width: 9px; height: 9px; border-radius: 50%; flex: none;
+  background: var(--g1); box-shadow: 0 0 12px var(--g1); animation: pulse 1s infinite;
+}
+@media (prefers-reduced-motion: reduce) { .ghero-beat { animation: none; } }
+.ghero-title {
+  font-family: var(--f-display); font-weight: 800; letter-spacing: -.03em; line-height: .95;
+  /* Repli d'abord (unités cqi ignorées par un navigateur qui ne les connaît pas), */
+  font-size: clamp(1.4rem, 5.4vw, 4.4rem);
+  /* puis la vraie règle : 10,5 % de la largeur de la colonne. */
+  font-size: clamp(1.4rem, 10.5cqi, 4.4rem); margin: 12px 0 0;
+  background: linear-gradient(100deg, #fff 8%, var(--g1) 52%, var(--g2) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.ghero-hook {
+  margin-top: 14px; max-width: 32ch; color: var(--white);
+  font-family: var(--f-display); font-weight: 500;
+  font-size: clamp(1.05rem, 2vw, 1.4rem); line-height: 1.45;
+}
+.ghero-specs { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+.ghero-specs span {
+  padding: 10px 16px; border: 1px solid var(--line); border-radius: var(--r-md);
+  background: rgba(255,255,255,.03); min-width: 0;
+}
+.ghero-specs em { display: block; font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; color: var(--grey-3); }
+.ghero-specs b { display: block; margin-top: 4px; font-family: var(--f-display); font-size: 1.02rem; color: var(--white); }
+.ghero-cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+
+/* Les trois prochaines affiches, en éventail. De vraies <img> avec leur `alt` et un lien
+   vers l'événement — pas un décor : c'est la première chose cliquable de la page. */
+/* Flex et pas trois pistes de grille : un style qui n'a que deux dates illustrées
+   laissait une colonne vide à droite. Là, les affiches présentes se partagent la
+   place et restent centrées. */
+.ghero-stack { display: flex; justify-content: center; gap: 10px; min-width: 0; }
+.ghero-poster {
+  display: block; overflow: hidden; color: inherit; background: var(--anthracite-2);
+  flex: 1 1 0; min-width: 0; max-width: 33%;
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  transition: transform .4s var(--ease), border-color .3s, box-shadow .3s;
+}
+.ghero-poster img { display: block; width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; }
+/* Une seule ligne par libellé, tronquée : sinon une ville au nom long fait une carte
+   plus haute que ses voisines et l'éventail se décale. */
+.ghero-poster span { display: block; padding: 9px 10px 11px; font-family: var(--f-mono); font-size: .68rem; line-height: 1.35; color: var(--grey-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ghero-poster b { display: block; margin-bottom: 3px; font-family: var(--f-display); font-size: .8rem; color: var(--white); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ghero-poster.p1 { transform: rotate(-2.5deg); }
+.ghero-poster.p2 { transform: translateY(-12px); }
+.ghero-poster.p3 { transform: rotate(2.5deg); }
+.ghero-poster:hover { transform: translateY(-6px); border-color: var(--g2); box-shadow: var(--shadow-card); }
+
+/* L'article : deux paragraphes à gauche, la fiche signalétique à droite. */
+.gstory { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 40px; align-items: start; margin-top: 44px; }
+.gstory-text p { max-width: 68ch; margin-bottom: 16px; color: var(--grey); font-size: 1.02rem; line-height: 1.85; }
+.gstory-text p:last-child { margin-bottom: 0; }
+/* La lettrine reprend le dégradé du style : elle marque le début de l'article sans
+   ajouter un titre de plus au-dessus de trois paragraphes. */
+.gstory-text p:first-child::first-letter {
+  float: left; padding: 6px 12px 0 0;
+  font-family: var(--f-display); font-weight: 800; font-size: 3.4em; line-height: .82;
+  background: linear-gradient(140deg, var(--g1), var(--g2));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.gmarks { display: grid; gap: 10px; }
+.gmark {
+  display: flex; flex-direction: column; gap: 3px; padding: 14px 16px;
+  border: 1px solid var(--line); border-left: 3px solid var(--g1); border-radius: var(--r-md);
+  background: linear-gradient(120deg, rgba(255,255,255,.035), transparent);
+}
+.gmark em { font-style: normal; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .16em; text-transform: uppercase; color: var(--grey-3); }
+.gmark b { font-family: var(--f-display); font-weight: 600; font-size: 1rem; line-height: 1.3; color: var(--white); }
+/* « Ce que tu entends » : la ligne la plus utile de la fiche, donc l'accent — même
+   traitement que sur les cartes du hub, où elle a déjà cette place. */
+.gtell {
+  margin-top: 14px; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: linear-gradient(150deg, rgba(139,92,255,.14), rgba(25,231,255,.03));
+}
+.gtell em { display: block; font-style: normal; margin-bottom: 7px; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .16em; text-transform: uppercase; color: var(--cyan); }
+.gtell p { color: var(--white); font-size: 1rem; line-height: 1.55; }
+.gstats { margin-top: 44px; }
+
+/* Les autres styles : une carte qui dit ce qu'on va trouver et combien de dates y sont
+   annoncées, au lieu d'une rangée de pilules nues. Chacune porte ses propres couleurs. */
+.ghops { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+.ghop {
+  position: relative; overflow: hidden; display: flex; flex-direction: column; gap: 5px;
+  padding: 16px 16px 14px; color: inherit; background: var(--anthracite);
+  border: 1px solid var(--line); border-radius: var(--r-md);
+  transition: transform .3s var(--ease), border-color .3s, box-shadow .3s;
+}
+.ghop-bar { position: absolute; inset: 0 0 auto 0; height: 4px; background: linear-gradient(90deg, var(--g1), var(--g2)); }
+.ghop b { margin-top: 6px; font-family: var(--f-display); font-size: 1rem; color: var(--white); }
+.ghop span { font-size: .78rem; line-height: 1.4; color: var(--grey-2); }
+.ghop em { margin-top: auto; padding-top: 8px; font-style: normal; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .1em; color: var(--grey-3); }
+.ghop:hover { transform: translateY(-4px); border-color: var(--g2); box-shadow: var(--shadow-card); }
+
+@media (max-width: 1100px) { .ghops { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 1024px) {
+  .ghero { grid-template-columns: 1fr; gap: 28px; }
+  .gstory { grid-template-columns: 1fr; gap: 26px; }
+}
+@media (max-width: 620px) {
+  .ghops { grid-template-columns: repeat(2, 1fr); }
+  .ghero-specs span { flex: 1 1 140px; }
+  /* `.btn` est en `nowrap` : sans ce retour à la ligne, un libellé un peu long
+     dépasse les 220 px utiles d'un écran de 320 et se fait clipper hors de vue. */
+  .ghero-cta .btn { flex: 1 1 auto; justify-content: center; white-space: normal; }
+  /* L'éventail ne tient plus quand chaque affiche fait 90 px de large : les trois
+     redeviennent droites plutôt que de se chevaucher. */
+  .ghero-poster.p1, .ghero-poster.p2, .ghero-poster.p3 { transform: none; }
+  .ghero-poster span { display: none; }
+  /* La lettrine occupe un quart de la colonne sur un écran de 390 px. */
+  .gstory-text p:first-child::first-letter { font-size: 2.8em; padding-right: 9px; }
+}
+
 /* ------------------------- HOME · WAYS IN ------------------------------ */
 /* Three doors into the calendar, in place of the ninety-town column dump the home
    page used to end on. Geolocation gets the wide card because it is the one answer
