@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { embedUrl, postUrl } from "@/lib/socials";
+import { embedUrl, postUrl } from "@/lib/instagram";
 
 /**
  * Les posts Instagram d'un compte, rendus par le lecteur officiel d'Instagram.

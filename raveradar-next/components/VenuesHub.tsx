@@ -4,16 +4,13 @@ import {
   ALL_GENRES,
   EVENTS,
   PHOTOS,
-  countryLabel,
-  eventPath,
-  genreSlug,
+  countryLabel, genreSlug,
   imageThumb,
   nextUp,
   slugify,
   todayISO,
   upcoming,
-  venueLabelL,
-} from "@/lib/data";
+  venueLabelL, cardEvent, eventPath, isPhotoOf } from "@/lib/data";
 import { VENUES, venueGenres, venueKind, venueRegulars } from "@/lib/venues";
 import { VENUE_SHOTS } from "@/lib/venue-photos";
 
@@ -185,7 +182,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
                       <img
                         className="venuecard-shot"
                         src={shot.src}
-                        alt={imageAlt(shot.e, lang)}
+                        alt={imageAlt(shot.e, lang, isPhotoOf(shot.e))}
                         width={96}
                         height={120}
                         loading="lazy"
@@ -281,7 +278,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
               </h2>
               <div className="grid grid-4">
                 {next.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

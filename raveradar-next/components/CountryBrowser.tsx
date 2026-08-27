@@ -1,18 +1,24 @@
 "use client";
 import { useMemo, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, COUNTRY_FLAG, countryLabel, isPast } from "@/lib/data";
+import type { CardEvent } from "@/lib/types";
+import { COUNTRY_FLAG, countryLabel, isPast } from "@/lib/display";
 import { getDict } from "@/lib/i18n";
 import EventCard from "./EventCard";
 
-export default function CountryBrowser({ lang, today }: { lang: Lang; today: string }) {
+/**
+ * Le catalogue arrive en prop (`cardEvents()`, voir lib/data.ts) et n'est plus importé :
+ * importer le catalogue depuis un composant client embarque tout `lib/data.ts` — ici
+ * 218 Ko compressés dans le JavaScript de la page d'accueil pour afficher huit cartes.
+ */
+export default function CountryBrowser({ lang, today, events }: { lang: Lang; today: string; events: CardEvent[] }) {
   const t = getDict(lang);
   const [active, setActive] = useState<string>("all");
 
   /** Only countries that actually have something coming up get a chip. */
   const live = useMemo(
-    () => EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
-    [today],
+    () => events.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
+    [events, today],
   );
   const countries = useMemo(() => [...new Set(live.map((e) => e.country))].sort(), [live]);
 

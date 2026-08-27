@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, EVENTS, genreSlug, isPast, nextUp, todayISO } from "@/lib/data";
+import { ALL_GENRES, EVENTS, genreSlug, isPast, nextUp, todayISO, cardEvent } from "@/lib/data";
 import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -123,7 +123,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           {liveHere.length > 0 ? (
             <div className="grid grid-4">
               {liveHere.map((e) => (
-                <EventCard key={e.id} e={e} lang={lang} today={today} />
+                <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
               ))}
             </div>
           ) : (
@@ -144,7 +144,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
               </h2>
               <div className="grid grid-4">
                 {pastHere.slice(0, 8).map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>
@@ -155,7 +155,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
           </h2>
           <div className="grid grid-4">
             {nearby.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
 

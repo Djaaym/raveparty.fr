@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
+import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, slugify, todayISO, cardEvent } from "@/lib/data";
 import { COUNTRIES_INDEX, countryBySlug, countryName, eventsForCountry } from "@/lib/countries";
 import { PLACES } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
@@ -134,7 +134,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
           {live.length > 0 ? (
             <div className="grid grid-4">
               {live.map((e) => (
-                <EventCard key={e.id} e={e} lang={lang} today={today} />
+                <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
               ))}
             </div>
           ) : (
@@ -185,7 +185,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
               </h2>
               <div className="grid grid-4">
                 {past.slice(0, 8).map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

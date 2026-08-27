@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, past } from "@/lib/data";
+import type { CardEvent } from "@/lib/types";
 import { getDict } from "@/lib/i18n";
 import EventCard from "./EventCard";
 import { readFavs } from "./useFavorites";
@@ -11,7 +11,22 @@ import { fmtDate } from "@/lib/format";
 
 type Tab = "favs" | "alerts" | "history" | "settings";
 
-export default function AccountTabs({ lang }: { lang: Lang }) {
+/**
+ * Le catalogue et l'historique arrivent en props, allégés par `cardEvents()`.
+ *
+ * Les favoris sont des ids en localStorage : la résolution id → événement se fait donc
+ * forcément côté client, mais elle n'a besoin que de ce qu'une carte affiche. L'import
+ * direct faisait entrer tout `lib/data.ts` — descriptions comprises — dans le bundle.
+ */
+export default function AccountTabs({
+  lang,
+  events,
+  history,
+}: {
+  lang: Lang;
+  events: CardEvent[];
+  history: CardEvent[];
+}) {
   const t = getDict(lang);
   const [tab, setTab] = useState<Tab>("favs");
   const [favIds, setFavIds] = useState<number[]>([]);
@@ -24,10 +39,10 @@ export default function AccountTabs({ lang }: { lang: Lang }) {
     return () => window.removeEventListener("favs", sync);
   }, []);
 
-  const favs = EVENTS.filter((e) => favIds.includes(e.id));
+  const favs = events.filter((e) => favIds.includes(e.id));
   // "Historique" is the one tab where a finished event is the point. Four fixed positions
   // in the catalogue were neither history nor current — they drifted into upcoming dates.
-  const history = past().slice(0, 4);
+  
   const tabs: [Tab, string][] = [
     ["favs", t("acc.tab.favs")],
     ["alerts", t("acc.tab.alerts")],
@@ -113,16 +128,16 @@ export default function AccountTabs({ lang }: { lang: Lang }) {
             {t("acc.prefs")}
           </h3>
           <div className="field" style={{ marginBottom: 16 }}>
-            <label>{t("acc.displayname")}</label>
-            <input className="input" defaultValue="Raver" />
+            <label htmlFor="acc-name">{t("acc.displayname")}</label>
+            <input id="acc-name" className="input" defaultValue="Raver" />
           </div>
           <div className="field" style={{ marginBottom: 16 }}>
-            <label>{t("acc.homecity")}</label>
-            <input className="input" defaultValue="Paris" />
+            <label htmlFor="acc-city">{t("acc.homecity")}</label>
+            <input id="acc-city" className="input" defaultValue="Paris" />
           </div>
           <div className="field" style={{ marginBottom: 16 }}>
-            <label>{t("acc.email")}</label>
-            <input className="input" type="email" defaultValue="djaym.info@gmail.com" />
+            <label htmlFor="acc-email">{t("acc.email")}</label>
+            <input id="acc-email" className="input" type="email" defaultValue="djaym.info@gmail.com" />
           </div>
           <button className="btn btn-primary">{t("acc.save")}</button>
         </div>

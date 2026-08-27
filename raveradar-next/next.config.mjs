@@ -1,10 +1,39 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: {
-    // Allow the AI-generated key visual + any remote posters.
-    remotePatterns: [{ protocol: "https", hostname: "**" }],
+  /* Plus de `images.remotePatterns` : il n'existe plus une seule image distante.
+     Les affiches IA ont quitté le CDN du générateur pour public/posters/, et le
+     site n'utilise pas <Image> — que des <img> avec width/height déclarés. */
+  /**
+   * Cache long pour les fichiers qu'on sert nous-mêmes.
+   *
+   * Vercel rend `public/` avec `cache-control: public, max-age=0, must-revalidate` :
+   * chaque poster déjà en cache coûtait donc un aller-retour réseau à chaque visite,
+   * pour s'entendre répondre 304. Sur une grille de 24 cartes, c'est 24 requêtes
+   * conditionnelles avant la première image peinte.
+   *
+   * On peut passer à `immutable` **parce que les noms portent le hash du contenu** —
+   * `ai-tomorrowland-932547b7da.jpg`, `rave-707891b510-1280.webp` : un fichier
+   * modifié change de nom, donc d'URL, et l'ancien cache ne peut pas mentir.
+   *
+   * Les portraits d'artistes, eux, sont nommés d'après l'artiste (`adam-beyer.webp`) :
+   * remplacer une photo garde l'URL, `immutable` la figerait un an chez le lecteur.
+   * D'où une journée ferme, puis une semaine de `stale-while-revalidate` — le visiteur
+   * voit la version en cache tout de suite et la mise à jour arrive en arrière-plan.
+   */
+  async headers() {
+    return [
+      {
+        source: "/:dir(posters|hero)/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
+      {
+        source: "/artists/:file*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" }],
+      },
+    ];
   },
+
   /**
    * Genres retirés du catalogue → redirection permanente vers le hub des genres.
    *

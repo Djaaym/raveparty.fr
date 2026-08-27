@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
-import { COUNTRY_FR, EVENTS, eventPath, genreSlug, slugify } from "@/lib/data";
+import { COUNTRY_FR, EVENTS, genreSlug, slugify, cardEvent, eventPath } from "@/lib/data";
 import { countryName } from "@/lib/countries";
 import { fmtDayLong } from "@/lib/format";
 import { pick, type FestivalGuide as Guide } from "@/lib/guides";
@@ -106,7 +106,7 @@ export default function FestivalGuide({
           </p>
           <div className="grid grid-4">
             {subEvents.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
         </section>

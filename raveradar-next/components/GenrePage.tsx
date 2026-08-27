@@ -7,9 +7,7 @@ import {
   EVENTS,
   GENRES,
   PHOTOS,
-  countryLabel,
-  eventPath,
-  eventsForGenre,
+  countryLabel, eventsForGenre,
   genreDescL,
   genreFromSlug,
   genreSlug,
@@ -17,8 +15,7 @@ import {
   isPast,
   todayISO,
   upcoming,
-  venueLabelL,
-} from "@/lib/data";
+  venueLabelL, cardEvent, eventPath, isPhotoOf } from "@/lib/data";
 import { rankPlaces } from "@/lib/places";
 import { ARTISTS, artistGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
@@ -246,7 +243,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                 {stack.map((e, i) => (
                   <Link className={`ghero-poster p${i + 1}`} key={e.id} href={`${p}${eventPath(e)}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={imageThumb(e)!} alt={imageAlt(e, lang)} width={240} height={300} loading="lazy" decoding="async" />
+                    <img src={imageThumb(e)!} alt={imageAlt(e, lang, isPhotoOf(e))} width={240} height={300} loading="lazy" decoding="async" />
                     <span>
                       <b>{e.title}</b>
                       {fmtDate(e.date, lang)} · {e.city}
@@ -314,7 +311,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
               </h2>
               <div className="grid grid-4">
                 {live.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>
@@ -351,7 +348,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                       <img
                         className="venuecard-shot"
                         src={shot.src}
-                        alt={imageAlt(shot.e, lang)}
+                        alt={imageAlt(shot.e, lang, isPhotoOf(shot.e))}
                         width={96}
                         height={120}
                         loading="lazy"
@@ -481,7 +478,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
               </h2>
               <div className="grid grid-4">
                 {done.slice(0, 8).map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

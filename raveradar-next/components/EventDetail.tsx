@@ -3,9 +3,7 @@ import type { Lang, RaveEvent } from "@/lib/types";
 import {
   EVENTS,
   countryLabel,
-  eventDescL,
-  eventPath,
-  eventVenueL,
+  eventDescL, eventVenueL,
   genreSlug,
   isLive,
   isPast,
@@ -15,8 +13,7 @@ import {
   ticketRel,
   ticketUrl,
   todayISO,
-  upcoming,
-} from "@/lib/data";
+  upcoming, cardEvent, eventPath } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { fmtDate, priceLabel } from "@/lib/format";
 import { guideFor, guideParentOf, pick } from "@/lib/guides";
@@ -307,7 +304,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </h2>
               <div className="grid grid-4">
                 {related.map((r) => (
-                  <EventCard key={r.id} e={r} lang={lang} />
+                  <EventCard key={r.id} e={cardEvent(r)} lang={lang} />
                 ))}
               </div>
             </>

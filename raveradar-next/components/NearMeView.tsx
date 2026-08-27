@@ -1,11 +1,9 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import type { Lang, RaveEvent } from "@/lib/types";
-import { ALL_GENRES, EVENTS, genreSlug, isPast } from "@/lib/data";
-import { PLACES } from "@/lib/places";
+import type { CardEvent, Lang } from "@/lib/types";
+import { ALL_GENRES, genreSlug, isPast } from "@/lib/display";
 import { getDict, langPrefix } from "@/lib/i18n";
-import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -21,7 +19,30 @@ const haversine = (lat1: number, lon1: number, lat2: number, lon2: number) => {
   return Math.round(R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a)));
 };
 
-export default function NearMeView({ lang, today }: { lang: Lang; today: string }) {
+/** Les dates arrivent en prop, allégées par `cardEvents()` : importer le catalogue
+ *  depuis un composant client embarque tout `lib/data.ts` dans le bundle de la page. */
+/**
+ * Le JSON-LD et la liste des villes arrivent tout faits du serveur.
+ *
+ * Les construire ici obligeait à importer `lib/seo` et `lib/places`, qui lisent tous
+ * deux le catalogue : 218 Ko compressés de JavaScript sur cette page, pour un bloc de
+ * balisage et une colonne de liens qui ne bougent jamais après le rendu. Ce composant
+ * n'est client que pour une chose — demander la position du visiteur et retrier la
+ * liste — et c'est la seule chose qui doit lui coûter du JavaScript.
+ */
+export default function NearMeView({
+  lang,
+  today,
+  events,
+  places,
+  jsonLd,
+}: {
+  lang: Lang;
+  today: string;
+  events: CardEvent[];
+  places: { slug: string; label: string }[];
+  jsonLd: object[];
+}) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const [pos, setPos] = useState<{ lat: number; lng: number } | null>(null);
@@ -43,8 +64,8 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
     );
   };
 
-  const live = EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date));
-  const withDist: (RaveEvent & { dist?: number })[] = pos
+  const live = events.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date));
+  const withDist: (CardEvent & { dist?: number })[] = pos
     ? live.map((e) => ({ ...e, dist: haversine(pos.lat, pos.lng, e.lat, e.lng) })).sort((a, b) => a.dist! - b.dist!)
     : live;
 
@@ -57,12 +78,7 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
 
   return (
     <>
-      <JsonLd
-        data={[
-          breadcrumbJsonLd(trail, lang),
-          itemListJsonLd(live.slice(0, 30), lang, t("near.title"), today),
-        ]}
-      />
+      <JsonLd data={jsonLd} />
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
@@ -117,7 +133,7 @@ export default function NearMeView({ lang, today }: { lang: Lang; today: string 
             {t("hub.bycity")}
           </h2>
           <div className="linkcols">
-            {PLACES.map((x) => (
+            {places.map((x) => (
               <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
                 Rave party {x.label}
               </Link>

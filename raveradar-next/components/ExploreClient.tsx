@@ -1,25 +1,24 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import type { Lang, RaveEvent } from "@/lib/types";
-import { EVENTS, COUNTRIES, ALL_GENRES, TYPES, countryLabel, cardBg, imageThumb, eventPath, eventVenueL, isPast, lastDay } from "@/lib/data";
+import type { CardEvent, Lang, RaveEvent } from "@/lib/types";
+import { countryLabel, eventVenueL, isPast, lastDay } from "@/lib/display";
 import { fmtDate, imageAlt, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
 
 const PAGE = 24;
 
-function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
-  const href = `${langPrefix(lang)}${eventPath(e)}`;
-  const thumb = imageThumb(e);
+function Row({ e, lang }: { e: CardEvent; lang: Lang }) {
+  const href = `${langPrefix(lang)}${e.path}`;
   return (
     // A real anchor, not a router.push on a div: the list view has to survive a keyboard,
     // a middle click and a crawler just like the card grid does.
     <Link className="row-card" href={href}>
-      {thumb ? (
-        <img className="thumb" src={thumb} alt={imageAlt(e, lang)} width={560} height={700} loading="lazy" decoding="async" />
+      {e.thumb ? (
+        <img className="thumb" src={e.thumb} alt={imageAlt(e, lang, e.isPhoto)} width={560} height={700} loading="lazy" decoding="async" />
       ) : (
-        <div className="thumb" style={{ backgroundImage: cardBg(e) }} />
+        <div className="thumb" style={{ backgroundImage: e.bg }} />
       )}
       <div>
         <div className="card-date">
@@ -46,9 +45,22 @@ function Row({ e, lang }: { e: RaveEvent; lang: Lang }) {
   );
 }
 
+/**
+ * Le catalogue et les listes de facettes arrivent en props.
+ *
+ * Ce composant importait `EVENTS` : le bundler embarquait alors tout `lib/data.ts` dans
+ * le JavaScript de /explore — 218 Ko compressés, dont les descriptions françaises et
+ * anglaises des 870 fiches, qu'aucun filtre ni aucune carte ne lit. `cardEvents(EVENTS,
+ * true)` rend la même liste sans les descriptions ; le `true` garde `lineup`, que la
+ * recherche plein texte parcourt.
+ */
 export default function ExploreClient({
   lang,
   today,
+  catalogue,
+  countries,
+  allGenres,
+  allTypes,
   initialGenre = "",
   initialCountry = "",
   initialQ = "",
@@ -57,6 +69,10 @@ export default function ExploreClient({
   lang: Lang;
   /** Reference date (yyyy-mm-dd) computed on the server so SSR and hydration agree. */
   today: string;
+  catalogue: CardEvent[];
+  countries: { v: string; l: string }[];
+  allGenres: string[];
+  allTypes: string[];
   initialGenre?: string;
   initialCountry?: string;
   initialQ?: string;
@@ -106,8 +122,8 @@ export default function ExploreClient({
   const pool = useMemo(
     // fresh-ok: /explore is a search, not a highlight — the archive only appears when the
     // reader ticks "éditions passées" or names a month, and both are explicit requests.
-    () => (showPast || dated ? EVENTS : EVENTS.filter((e) => !isPast(e, today))),
-    [showPast, dated, today]
+    () => (showPast || dated ? catalogue : catalogue.filter((e) => !isPast(e, today))),
+    [catalogue, showPast, dated, today]
   );
 
   /** Every month an event touches, so a 31 Jul → 2 Aug festival answers to both. */
@@ -129,11 +145,11 @@ export default function ExploreClient({
   /** The months the catalogue actually has something in, with counts. */
   const monthOptions = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const e of EVENTS) for (const m of monthsOf(e)) counts.set(m, (counts.get(m) ?? 0) + 1);
+    for (const e of catalogue) for (const m of monthsOf(e)) counts.set(m, (counts.get(m) ?? 0) + 1);
     return [...counts.entries()]
       .filter(([m]) => showPast || dated || m >= today.slice(0, 7))
       .sort(([a], [b]) => a.localeCompare(b));
-  }, [showPast, dated, today]);
+  }, [catalogue, showPast, dated, today]);
 
   const monthLabel = (m: string) =>
     new Date(m + "-01T00:00:00").toLocaleDateString(t("locale"), { month: "short", year: "numeric" });
@@ -183,28 +199,31 @@ export default function ExploreClient({
     <div className="explore-layout" style={{ marginTop: 40 }}>
       <aside className="filters">
         <div className="filter-group">
-          <h4>{t("explore.search")}</h4>
+          <h4 id="f-search">{t("explore.search")}</h4>
+          {/* Le <h4> titre le groupe de filtres, il n'étiquette pas le contrôle :
+              `aria-labelledby` fait les deux d'une pierre, sans doubler le texte. */}
           <input
             className="input"
+            aria-labelledby="f-search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder={t("explore.search.ph")}
           />
         </div>
         <div className="filter-group">
-          <h4>{t("explore.country")}</h4>
-          <select className="input" value={country} onChange={(e) => setCountry(e.target.value)}>
+          <h4 id="f-country">{t("explore.country")}</h4>
+          <select className="input" aria-labelledby="f-country" value={country} onChange={(e) => setCountry(e.target.value)}>
             <option value="">{t("explore.country.all")}</option>
-            {COUNTRIES.map((c) => (
-              <option key={c} value={c}>
-                {countryLabel(c, lang)}
+            {countries.map((c) => (
+              <option key={c.v} value={c.v}>
+                {c.l}
               </option>
             ))}
           </select>
         </div>
         <div className="filter-group">
           <h4>{t("explore.genre")}</h4>
-          {ALL_GENRES.map((g) => {
+          {allGenres.map((g) => {
             const n = pool.filter((e) => e.genres.includes(g)).length;
             return (
               <label className="filter-opt" key={g}>
@@ -216,7 +235,7 @@ export default function ExploreClient({
         </div>
         <div className="filter-group">
           <h4>{t("explore.type")}</h4>
-          {TYPES.map((ty) => {
+          {allTypes.map((ty) => {
             const n = pool.filter((e) => e.type === ty).length;
             return (
               <label className="filter-opt" key={ty}>
@@ -227,11 +246,12 @@ export default function ExploreClient({
           })}
         </div>
         <div className="filter-group">
-          <h4>
+          <h4 id="f-price">
             {t("explore.maxprice")} · {maxPrice === 300 ? "€300+" : "€" + maxPrice}
           </h4>
           <input
             className="range"
+            aria-labelledby="f-price"
             type="range"
             min={0}
             max={300}
@@ -270,7 +290,7 @@ export default function ExploreClient({
 
           <label className="filter-opt" style={{ marginTop: 12 }}>
             <input type="checkbox" checked={showPast} onChange={() => setShowPast((v) => !v)} /> {t("explore.showpast")}
-            <span className="count">{EVENTS.length - EVENTS.filter((e) => !isPast(e, today)).length}</span>
+            <span className="count">{catalogue.length - catalogue.filter((e) => !isPast(e, today)).length}</span>
           </label>
         </div>
         <button className="btn btn-ghost btn-block btn-sm" style={{ marginTop: 8 }} onClick={clear}>
@@ -283,7 +303,15 @@ export default function ExploreClient({
           <span className="result-count">
             <b>{list.length}</b> {t("explore.found")}
           </span>
-          <select className="input" style={{ width: "auto" }} value={sort} onChange={(e) => setSort(e.target.value)}>
+          <select
+            className="input"
+            style={{ width: "auto" }}
+            /* Pas de <label> visible : la liste est déjà comprise par sa position dans
+               la barre d'outils. Sans nom accessible, elle est annoncée « liste ». */
+            aria-label={t("explore.sortlabel")}
+            value={sort}
+            onChange={(e) => setSort(e.target.value)}
+          >
             <option value="date">{t("explore.sort.date")}</option>
             <option value="price">{t("explore.sort.price")}</option>
             <option value="price-d">{t("explore.sort.priced")}</option>

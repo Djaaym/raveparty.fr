@@ -1,5 +1,5 @@
 import type { Lang } from "@/lib/types";
-import { todayISO } from "@/lib/data";
+import { todayISO, cardEvents, upcoming } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -7,6 +7,7 @@ import MapView from "./MapView";
 
 export default function MapPageView({ lang }: { lang: Lang }) {
   const t = getDict(lang);
+  const today = todayISO();
   return (
     <>
       <div className="blob b1" />
@@ -19,7 +20,9 @@ export default function MapPageView({ lang }: { lang: Lang }) {
             {t("map.title")}
           </h1>
           <p className="lead">{t("map.lead")}</p>
-          <MapView lang={lang} today={todayISO()} />
+          {/* Allégé côté serveur — voir `cardEvents()` : la carte n'a besoin que de
+              coordonnées, d'un titre et d'une vignette. */}
+          <MapView lang={lang} today={today} catalogue={cardEvents(upcoming(undefined, today))} />
         </div>
       </section>
       <Footer lang={lang} />

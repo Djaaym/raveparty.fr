@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL, cardEvent } from "@/lib/data";
 import { VENUES, venueBySlug, eventsForVenue } from "@/lib/venues";
 import { showsForVenue } from "@/lib/shows";
 import { PLACES } from "@/lib/places";
@@ -89,7 +89,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
           </h2>
           <div className="grid grid-4">
             {live.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
 
@@ -100,7 +100,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
               </h2>
               <div className="grid grid-4">
                 {done.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

@@ -1,15 +1,28 @@
 "use client";
 import { useState } from "react";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, TYPES, GENRES } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
 
 type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
 
-export default function OrganizerForm({ lang }: { lang: Lang }) {
+/**
+ * Les genres et les types arrivent en props plutôt que de `lib/data.ts` : ce formulaire
+ * est un composant client, et l'import tirait tout le catalogue dans le bundle de
+ * /organizer. Même raison que pour `<Hero>` — le client ne reçoit que ce qu'il affiche.
+ */
+export default function OrganizerForm({
+  lang,
+  genres,
+  types,
+}: {
+  lang: Lang;
+  /** Nom du genre + son dégradé, ce qui sert à peindre l'aperçu de l'affiche. */
+  genres: { name: string; c1: string; c2: string }[];
+  types: string[];
+}) {
   const t = getDict(lang);
   const [title, setTitle] = useState("");
-  const [genre, setGenre] = useState(ALL_GENRES[0]);
+  const [genre, setGenre] = useState(genres[0].name);
   const [artist, setArtist] = useState("");
   const [lineup, setLineup] = useState<string[]>([]);
   const [state, setState] = useState<State>("idle");
@@ -47,7 +60,7 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
     : state === "done" ? t("org.sent")
     : "";
 
-  const k = GENRES[genre];
+  const k = genres.find((g) => g.name === genre) ?? genres[0];
   const addArtist = () => {
     const v = artist.trim();
     if (!v) return;
@@ -57,59 +70,63 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
 
   return (
     <div className="explore-layout">
-      <form style={{ gridColumn: 1, order: 2 }} onSubmit={submit}>
+      {/* Le placement en colonnes vit en CSS et non en style inline : sous 1024 px
+          `.explore-layout` repasse à une seule colonne, et un `gridColumn: 2` codé en
+          dur y créait une deuxième colonne implicite — 142 px de débordement horizontal
+          sur mobile, le seul du site. */}
+      <form className="org-form" onSubmit={submit}>
         <div className="info-card">
           <h3 className="h-md" style={{ marginBottom: 20 }}>
             {t("org.details")}
           </h3>
           <div className="form-grid">
             <div className="field full">
-              <label>{t("org.f.title")}</label>
-              <input className="input" name="title" value={title} onChange={(e) => setTitle(e.target.value)} required />
+              <label htmlFor="org-title">{t("org.f.title")}</label>
+              <input className="input" name="title" id="org-title" value={title} onChange={(e) => setTitle(e.target.value)} required />
             </div>
             <div className="field">
-              <label>{t("org.f.type")}</label>
-              <select className="input" name="type">
-                {TYPES.map((x) => (
+              <label htmlFor="org-type">{t("org.f.type")}</label>
+              <select className="input" name="type" id="org-type">
+                {types.map((x) => (
                   <option key={x}>{x}</option>
                 ))}
               </select>
             </div>
             <div className="field">
-              <label>{t("org.f.genre")}</label>
-              <select className="input" name="genre" value={genre} onChange={(e) => setGenre(e.target.value)}>
-                {ALL_GENRES.map((g) => (
-                  <option key={g}>{g}</option>
+              <label htmlFor="org-genre">{t("org.f.genre")}</label>
+              <select className="input" name="genre" id="org-genre" value={genre} onChange={(e) => setGenre(e.target.value)}>
+                {genres.map((g) => (
+                  <option key={g.name}>{g.name}</option>
                 ))}
               </select>
             </div>
             <div className="field">
-              <label>{t("org.f.city")}</label>
-              <input className="input" name="city" required />
+              <label htmlFor="org-city">{t("org.f.city")}</label>
+              <input className="input" name="city" id="org-city" required />
             </div>
             <div className="field">
-              <label>{t("org.f.country")}</label>
-              <input className="input" name="country" required />
+              <label htmlFor="org-country">{t("org.f.country")}</label>
+              <input className="input" name="country" id="org-country" required />
             </div>
             <div className="field">
-              <label>{t("org.f.date")}</label>
-              <input className="input" name="date" type="date" required />
+              <label htmlFor="org-date">{t("org.f.date")}</label>
+              <input className="input" name="date" id="org-date" type="date" required />
             </div>
             <div className="field">
-              <label>{t("org.f.time")}</label>
-              <input className="input" name="time" type="time" required />
+              <label htmlFor="org-time">{t("org.f.time")}</label>
+              <input className="input" name="time" id="org-time" type="time" required />
             </div>
             <div className="field">
-              <label>{t("org.f.email")}</label>
-              <input className="input" name="email" type="email" inputMode="email" autoComplete="email" required />
+              <label htmlFor="org-email">{t("org.f.email")}</label>
+              <input className="input" name="email" id="org-email" type="email" inputMode="email" autoComplete="email" required />
             </div>
             <div className="field">
-              <label>{t("org.f.venue")}</label>
-              <input className="input" name="venue" />
+              <label htmlFor="org-venue">{t("org.f.venue")}</label>
+              <input className="input" name="venue" id="org-venue" />
             </div>
             <div className="field full">
-              <label>{t("org.f.desc")}</label>
-              <textarea className="input" name="desc" />
+              <label htmlFor="org-desc">{t("org.f.desc")}</label>
+              <textarea className="input" name="desc" id="org-desc" />
             </div>
           </div>
         </div>
@@ -119,9 +136,10 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
             {t("org.lineup")}
           </h3>
           <div className="field full">
-            <label>{t("org.addartists")}</label>
+            <label htmlFor="org-artist">{t("org.addartists")}</label>
             <div style={{ display: "flex", gap: 10 }}>
               <input
+                id="org-artist"
                 className="input"
                 value={artist}
                 onChange={(e) => setArtist(e.target.value)}
@@ -162,7 +180,7 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
             {t("org.media")}
           </h3>
           <div className="field full">
-            <label>{t("org.poster")}</label>
+            <span className="field-label">{t("org.poster")}</span>
             <label className="upload">
               {t("org.upload")}
               <input type="file" name="poster" accept="image/*" hidden />
@@ -181,7 +199,7 @@ export default function OrganizerForm({ lang }: { lang: Lang }) {
         )}
       </form>
 
-      <aside style={{ gridColumn: 2, order: 1 }}>
+      <aside className="org-preview">
         <div className="filters" style={{ padding: 18 }}>
           <span className="eyebrow">{t("org.preview")}</span>
           <article className="card" style={{ marginTop: 16, cursor: "default" }}>

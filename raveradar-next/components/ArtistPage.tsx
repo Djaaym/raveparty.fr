@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
-import { countryLabel, genreSlug, isPast, slugify, todayISO } from "@/lib/data";
+import { countryLabel, genreSlug, isPast, slugify, todayISO, cardEvent } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { artistSocials, sameAs } from "@/lib/socials";
@@ -157,7 +157,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           {live.length > 0 ? (
             <div className="grid grid-4">
               {live.map((e) => (
-                <EventCard key={e.id} e={e} lang={lang} today={today} />
+                <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
               ))}
             </div>
           ) : (
@@ -173,7 +173,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
               </h2>
               <div className="grid grid-4">
                 {done.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

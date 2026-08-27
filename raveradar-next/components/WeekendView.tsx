@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming, cardEvent } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
@@ -80,7 +80,7 @@ export default function WeekendView({ lang, days = 12 }: { lang: Lang; days?: nu
           {soon.length > 0 ? (
             <div className="grid grid-4" style={{ marginTop: 36 }}>
               {soon.map((e) => (
-                <EventCard key={e.id} e={e} lang={lang} today={today} />
+                <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
               ))}
             </div>
           ) : (
@@ -101,7 +101,7 @@ export default function WeekendView({ lang, days = 12 }: { lang: Lang; days?: nu
               </h2>
               <div className="grid grid-4">
                 {later.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>
