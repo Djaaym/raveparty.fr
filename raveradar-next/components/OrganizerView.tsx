@@ -2,6 +2,7 @@ import type { Lang } from "@/lib/types";
 import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
+import { ALL_GENRES, GENRES, TYPES } from "@/lib/data";
 import OrganizerForm from "./OrganizerForm";
 
 export default function OrganizerView({ lang }: { lang: Lang }) {
@@ -26,7 +27,11 @@ export default function OrganizerView({ lang }: { lang: Lang }) {
               </div>
             ))}
           </div>
-          <OrganizerForm lang={lang} />
+          <OrganizerForm
+            lang={lang}
+            genres={ALL_GENRES.map((g) => ({ name: g, c1: GENRES[g].c1, c2: GENRES[g].c2 }))}
+            types={TYPES}
+          />
         </div>
       </section>
       <Footer lang={lang} />

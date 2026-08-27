@@ -6,8 +6,17 @@ import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
 import "../globals.css";
 
-const syne = Syne({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-syne" });
-const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-inter" });
+/**
+ * Syne et Inter sans liste de graisses : ce sont des fontes **variables**, et énumérer
+ * `["600","700","800"]` demandait à next/font d'en découper trois instances statiques.
+ * Six fichiers woff2 là où deux suffisent — six `<link rel="preload">` en tête de page,
+ * tous en concurrence avec l'image LCP pour la bande passante des premières secondes.
+ * Un seul fichier variable couvre 400→800 et rend exactement les mêmes graisses.
+ *
+ * Space Mono n'existe qu'en statique chez Google : ses deux graisses restent listées.
+ */
+const syne = Syne({ subsets: ["latin"], variable: "--font-syne" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-space-mono" });
 
 /**
@@ -33,6 +42,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${syne.variable} ${inter.variable} ${spaceMono.variable}`}>
+      <head>
+        {/* Filet du scroll-reveal : `.reveal` part en animation pause (voir globals.css),
+            donc invisible tant que l'IntersectionObserver de <Reveal> ne l'a pas armé.
+            Sans JavaScript, cette règle rend la page entière plutôt qu'une page blanche. */}
+        <noscript>
+          <style>{`.reveal{animation:none}`}</style>
+        </noscript>
+      </head>
       <body>
         <ImpactAffiliate />
         {children}

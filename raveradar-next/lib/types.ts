@@ -28,6 +28,27 @@ export interface RaveEvent {
   region?: string; // French department / region (for /rave-party/{dept} pages)
 }
 
+/**
+ * Un événement dont l'URL est déjà résolue.
+ *
+ * `eventPath()` doit consulter tout le catalogue — c'est lui qui sait si une édition
+ * est la canonique (slug nu) ou une autre (slug suffixé de l'année). Tant que
+ * `<EventCard>` l'appelait lui-même, la moindre carte rendue dans un composant client
+ * traînait `lib/data.ts` entier dans le bundle : 218 Ko compressés sur la page
+ * d'accueil, /explore, /map et /account. Le chemin est donc résolu côté serveur, une
+ * fois, et voyage avec l'événement.
+ */
+export interface CardEvent extends RaveEvent {
+  /** `eventPath(e)`. */
+  path: string;
+  /** `imageThumb(e)` — le crop 4:5 d'une carte, ou `null` si aucun fichier. */
+  thumb: string | null;
+  /** `cardBg(e)` — le repli en dégradé de genre quand il n'y a pas de fichier. */
+  bg: string;
+  /** Vraie photo (`PHOTOS`) plutôt que visuel généré : ça change le texte de l'`alt`. */
+  isPhoto: boolean;
+}
+
 export interface GenreColor {
   c1: string;
   c2: string;

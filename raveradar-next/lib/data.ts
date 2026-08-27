@@ -1,24 +1,17 @@
-import type { RaveEvent, GenreColor, Lang } from "./types";
+import type { RaveEvent, CardEvent, Lang } from "./types";
 import { SITE_URL } from "./site";
-
-export const GENRES: Record<string, GenreColor> = {
-  Techno: { c1: "#2F7BFF", c2: "#8B5CFF" },
-  "Hard Techno": { c1: "#FF2D9B", c2: "#FF6A3D" },
-  "Acid Techno": { c1: "#C6FF3D", c2: "#19E7FF" },
-  Hardstyle: { c1: "#FF2D9B", c2: "#FFC23D" },
-  Hardcore: { c1: "#FF3D3D", c2: "#8B5CFF" },
-  EDM: { c1: "#19E7FF", c2: "#2F7BFF" },
-  "Drum & Bass": { c1: "#8B5CFF", c2: "#19E7FF" },
-  House: { c1: "#FF6A3D", c2: "#FF2D9B" },
-  Trance: { c1: "#19E7FF", c2: "#8B5CFF" },
-  Psytrance: { c1: "#C6FF3D", c2: "#8B5CFF" },
-  Warehouse: { c1: "#6E7081", c2: "#2F7BFF" },
-};
-
-export const poster = (g: string): string => {
-  const k = GENRES[g] ?? GENRES.Techno;
-  return `linear-gradient(150deg, ${k.c1} 0%, ${k.c2} 55%, #0A0B11 110%)`;
-};
+/**
+ * Les briques d'affichage — couleurs de genre, libellés de pays, comparaisons de
+ * dates — vivent dans `lib/display.ts`, un module feuille sans aucune dépendance.
+ * Elles sont ré-exportées ici pour que rien ne change côté serveur : ce fichier reste
+ * l'unique import de la plupart des pages. Un composant **client**, lui, doit taper
+ * `lib/display` directement — importer quoi que ce soit d'ici embarque le catalogue.
+ */
+import {
+  ALL_GENRES, COUNTRY_FR, GENRES, countryLabel, eventVenueL, genreSlug, isPast, lastDay,
+  poster, slugify, todayISO,
+} from "./display";
+export * from "./display";
 
 export const EVENTS: RaveEvent[] = [
   // Verified real 2026 festivals — dates/venues checked online (see git history).
@@ -948,286 +941,282 @@ export const EVENTS: RaveEvent[] = [
 ];
 
 /* AI-generated key-art posters (Nano Banana Pro), served from CDN. */
-const IMG_BASE = "https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/";
+const IMG_BASE = "/posters/";
 export const IMAGES: Record<number, string> = {
-  1: "hf_20260604_131554_9c8e03e9-d794-41e2-b043-bdd13ade4098.png",
-  3: "hf_20260604_131605_ba41434c-1956-4d6a-a129-dae96ab6dda1.png",
-  7: "hf_20260604_131624_b6e88fc5-d4e8-4ee9-b0b9-f1af57015856.png",
-  10: "hf_20260604_131732_aa86036b-ebb0-4085-b004-cb779f0cc590.png",
-  17: "hf_20260604_151545_a3b11763-95c5-49ea-8edd-52f738c50b72.png",
-  18: "hf_20260604_151546_b2353ca8-1afe-4cf5-829f-2e25980336c7.png",
-  21: "hf_20260604_151548_7ab9b16d-d31c-4b8e-846b-0ce6e34db271.png",
-  22: "hf_20260604_151549_d05c714a-e34a-4641-a5e4-abc22248e479.png",
-  23: "hf_20260604_151652_ab109d96-7e8c-4015-ac40-2a287ce75bd6.png",
-  24: "hf_20260604_151652_12b8ba5f-9fce-41bb-a1b8-cb42be632335.png",
-  25: "hf_20260604_151654_f7d8e62b-82bd-4282-9dcf-9b81bdb619d5.png",
-  31: "hf_20260604_151749_1284b61c-1cda-4f82-b1a5-e2467624126b.png",
-  33: "hf_20260604_151750_c52dc4a8-aaeb-482c-a71e-ebd2dffd06c9.png",
-  34: "hf_20260604_151841_f932e4b1-008c-47b4-b787-cfb794a33c51.png",
-  35: "hf_20260604_151842_5285e560-7e93-4070-b507-38f49d118d4a.png",
-  36: "hf_20260604_151844_017801fc-d48d-4d32-a524-8265d8e4cf48.png",
-  37: "hf_20260604_151939_cdf1bb4a-5dc7-41ed-ba2d-4f1af0b66f13.png",
-  39: "hf_20260604_151941_e808ce07-3104-402c-a861-97875544f61c.png",
-  45: "hf_20260604_152218_1dc3a2b2-c53d-4452-b80a-f57db6d95631.png",
-  46: "hf_20260604_152920_39c95ac2-e86f-48f7-beb1-ac44b7e4d215.png",
-  49: "hf_20260604_185741_44408ccc-8d6e-4a87-8ebb-6835b47d8b30.png",
-  50: "hf_20260604_185743_16fe4b07-0251-4606-9c21-41544bceb559.png",
-  51: "hf_20260604_185805_5080b41b-7ac1-4b9c-8ace-15abde5b5b72.png",
-  52: "hf_20260604_185744_aa550291-6a41-444c-8cd9-8983585c3291.png",
-  53: "hf_20260604_185845_73576712-4bb2-43ab-ac07-479032139768.png",
-  54: "hf_20260604_185846_de1443c1-89f2-4213-ad49-8aca1c4dda8a.png",
-  55: "hf_20260604_185920_b7280572-5930-44f2-a272-442ef6fabecf.png",
-  56: "hf_20260604_190116_7a2252c0-65c6-403b-8642-93d2f202caaf.png",
-  57: "hf_20260604_190117_bf48f8a6-b7a6-4f91-bdb3-700fec0050ee.png",
-  58: "hf_20260604_190134_4ae9304d-711a-48be-903a-28215fafeed0.png",
-  59: "hf_20260604_190151_5b88eee7-47dc-40ce-8779-5caf9dcb3706.png",
-  60: "hf_20260604_190222_386e8b13-8f31-416a-9973-d736916d72d4.png",
-  61: "hf_20260604_190224_532b7637-1fa6-4ef0-aca2-7abbaa86452e.png",
-  62: "hf_20260604_190254_67874e0b-b428-4deb-8237-25a521d88eaa.png",
-  63: "hf_20260604_190255_94318562-15f5-4cca-97eb-8a8aa9fef1d4.png",
-  64: "hf_20260604_190325_b85d5106-0ebc-4be8-9ca6-496ba51c0d1d.png",
-  65: "hf_20260604_190325_1f08b832-7222-4fa1-b137-f83375eafb91.png",
-  66: "hf_20260604_190432_c369f23a-f9cf-4e67-9782-f6cf28de2109.png",
-  67: "hf_20260604_190434_9abbe2f7-c70b-48c9-afa8-2f30976bdc14.png",
-  68: "hf_20260604_190503_d26a409f-e768-4b36-837e-3b349c07be1e.png",
-  69: "hf_20260729_105201_cf1f1269-2b3e-4701-aa4d-1de5a6278655.png",
-  70: "hf_20260729_105204_fa5e9017-b174-4338-ba75-8d1bb911153a.png",
-  71: "hf_20260729_153230_15f7a4b0-6a51-4780-8a95-f317bd30da44.png",
-  72: "hf_20260729_152612_87dbe14b-f640-4a5d-883d-df81968e3d79.png",
-  76: "hf_20260729_152413_43fae134-57f4-4ec3-aaa1-9bb47e69e102.png",
-  100: "hf_20260729_152136_7bf9cf69-0100-491a-96b1-ca51b27d6e18.png",
-  101: "hf_20260729_152523_25eae129-c928-4bff-998c-80b6ddf4bbb8.png",
-  102: "hf_20260729_152618_b95fa2e7-7f47-43c5-b4e6-1bfeb7522aa6.png",
-  103: "hf_20260729_154107_6410696b-d6b0-44a6-a285-5b083bcfc5da.png",
-  104: "hf_20260729_153626_94cc90f0-9e73-4304-90b5-5a90cf18c8bb.png",
-  167: "hf_20260729_150823_86543056-5e38-4096-8912-e9acab6948ee.png",
-  168: "hf_20260729_150838_2849a36c-e4d7-457d-8bdf-450575be574e.png",
-  169: "hf_20260729_152140_3a5c5b34-8e2d-45d7-8cb1-a72e0bcf3c03.png",
-  170: "hf_20260729_152144_6e95cf5f-fb7a-4057-97db-991f218a9cb1.png",
-  171: "hf_20260729_152258_efce6675-350a-4b2d-94dc-4f88f903473a.png",
-  172: "hf_20260729_152301_b638b8af-648c-4d22-a33e-622c9d8a5700.png",
-  173: "hf_20260729_152306_2d5b06ce-ac43-4f3d-875a-05c0db2a86ca.png",
-  174: "hf_20260729_152415_48e29fb8-c098-4fd7-9a8a-dc4cd09a4f69.png",
-  175: "hf_20260729_152543_b014f48a-acbb-4875-ada4-1f9b837b2be1.png",
-  176: "hf_20260729_152546_7904c8ce-01a7-4163-b71f-c846cbf5c22d.png",
-  177: "hf_20260729_152638_40fbba14-2d55-4e9b-b25a-c72812915f02.png",
-  178: "hf_20260729_152644_13a50bd9-8946-40a1-9b0b-8d9fadd4cd32.png",
-  179: "hf_20260729_152705_fea5325a-8cd6-4956-b27b-1733b1e7e2dc.png",
-  180: "hf_20260729_153255_9cb5ccdb-379c-443a-ae46-eb698658a2f2.png",
-  181: "hf_20260729_153314_c7837531-c298-4762-bdc0-a1dbb6efd535.png",
-  182: "hf_20260729_153537_18e725c7-31df-46b5-8beb-7cc12737d9a6.png",
-  183: "hf_20260729_153551_55a64a98-1648-4e4c-a702-fd3a6f926aeb.png",
-  184: "hf_20260729_153639_90a231e0-4cc3-4a02-9a5c-2e04e9b9c4b1.png",
-  185: "hf_20260729_153700_cae9ae2d-fd30-4c50-b4bf-09647c7bd56a.png",
-  186: "hf_20260729_153721_234fbd9c-cef4-4db1-b1e7-6213e3705793.png",
-  187: "hf_20260729_153827_9d8da8c2-dc3a-4583-b079-c2b2a300dde2.png",
-  188: "hf_20260729_153904_7acc228c-37bc-4dbe-9ae4-dcf8ef1df570.png",
-  189: "hf_20260729_153924_ff954245-2172-4c2b-8214-a6ab624e06b3.png",
-  190: "hf_20260729_153928_fe6e4bf2-f960-489e-875d-d1c3bbb7c4bc.png",
-  262: "hf_20260729_150819_c51eaca8-8534-4e45-98e4-a8db6f201d04.png",
-  263: "hf_20260729_150830_e8894ce2-7f53-45b3-9199-def865c51f48.png",
-  264: "hf_20260729_152116_c7b99272-33fa-4c40-8108-28c5143f4380.png",
-  265: "hf_20260729_152120_32615b50-18fa-4206-b49c-08d3367abec6.png",
-  266: "hf_20260729_152309_d7008d69-9d80-4b45-8df5-704a0ad1ba6f.png",
-  267: "hf_20260729_152351_11d676a1-c65f-4202-aa53-d9d0c78d3900.png",
-  268: "hf_20260729_152409_30bc43a3-c484-4702-88dd-f68aca527eb6.png",
-  269: "hf_20260729_152442_79393178-044a-4f97-93e0-f3e5b3ac68c3.png",
-  270: "hf_20260729_152502_29950339-da45-4839-9aa2-8628bba0f345.png",
-  271: "hf_20260729_152710_43b7f2ed-a254-4f89-bcd7-499a731b219e.png",
-  272: "hf_20260729_152729_644a3617-40f4-4e65-9f15-cb4abc829d8e.png",
-  273: "hf_20260729_153149_c2c9b261-361c-483f-b837-53a4a7492e8e.png",
-  274: "hf_20260729_153226_dd609f21-a04e-45bc-a5e1-329718658f56.png",
-  275: "hf_20260729_153341_004e38bf-2795-423e-b7c0-4d7e5888d7d2.png",
-  276: "hf_20260729_153359_2e51aa42-4c11-4994-9556-e81a088eb9aa.png",
-  277: "hf_20260729_153453_b10d2515-35cd-4d6d-8552-334a91c59d10.png",
-  278: "hf_20260729_153516_03c56e4a-1311-41e5-8f00-71a6fe48d4fe.png",
-  279: "hf_20260729_153728_7a2e0aec-8621-4a43-b9d2-bfdda410416e.png",
-  280: "hf_20260729_153752_cf619a16-f848-4d9b-a54b-d601cf45894c.png",
-  281: "hf_20260729_153758_4e72fd41-3e19-4eb0-a940-967f74d3d346.png",
-  282: "hf_20260729_153823_33ca44ad-c57f-413f-812a-a0525257e852.png",
-  283: "hf_20260729_153959_885cc141-407c-4192-bd7a-194520b2fca2.png",
-  284: "hf_20260729_154019_83f72183-953f-48f7-9040-26466731d8fa.png",
-  285: "hf_20260729_154028_22517e4f-527d-4fa2-9eac-a054deddc7cb.png",
-  286: "hf_20260729_154042_e744364e-c5e0-4536-bfec-4727dbe8a775.png",
-  287: "hf_20260729_154121_03843f3c-6f35-4f30-a10c-0d08d01be58d.png",
-  288: "hf_20260729_154149_7a4fac51-3d07-410e-9bfc-925909f8eae5.png",
-  289: "hf_20260729_154152_c0afd6b4-c36a-40fc-b871-a946f1bfbf0f.png",
-  290: "hf_20260729_154232_180d78ec-0299-4474-b177-c405d33c54e5.png",
-  291: "hf_20260729_221128_145332e8-e782-4412-86c9-0140614c8981.png",
-  191: "hf_20260729_221130_381013de-3f21-4be6-9c70-2d9ea1c061ad.png",
-  192: "hf_20260729_221133_b7fb4ab3-4115-4e06-ab7a-b4ea83c9251b.png",
-  193: "hf_20260729_221136_0d97726d-8133-4e31-ae9f-ae96ebec5014.png",
-  292: "hf_20260729_221231_9109e96c-0cd5-463f-ac07-e4041f7967ef.png",
-  105: "hf_20260729_221251_3aa13301-c1d4-48eb-a6c0-4d1d82a46930.png",
-  194: "hf_20260729_221255_68ccb783-5512-4049-8a0a-1918c99aff0c.png",
-  195: "hf_20260729_221258_cf86c22d-3037-4fa3-9843-8d3f629faf7a.png",
-  293: "hf_20260729_221347_69982446-af47-4178-b996-5d70ad88c116.png",
-  294: "hf_20260729_221351_34542207-e667-4d26-a4fa-78dc59063b80.png",
-  295: "hf_20260729_221353_cab654e8-c18d-4fbc-9d06-709f8dceb19f.png",
-  296: "hf_20260729_221357_6669c633-5ce3-4823-ad88-bfe2b4e6fda8.png",
-  297: "hf_20260729_221435_db6266e7-041c-4bec-bad0-081df6e4833a.png",
-  196: "hf_20260729_221452_47d66949-0551-4042-95f0-fa09becf5ad7.png",
-  197: "hf_20260729_221803_f5db6002-1287-4091-b3cf-cfa4dcd77b28.png",
-  298: "hf_20260729_222009_673982f8-9790-4666-a8e3-7be2bcfb1d9c.png",
-  299: "hf_20260729_222120_7d66ff6b-d349-48c8-bfb7-093200b9f5f0.png",
-  300: "hf_20260729_222123_ad4c9b44-db93-420e-ac24-bba3dce11667.png",
-  301: "hf_20260729_222502_398d08aa-acbe-4091-8bf9-5e26bc2e4739.png",
-  302: "hf_20260729_222532_7ecec0f1-f4fe-4c5b-8658-8aa6491016f8.png",
-  303: "hf_20260729_222541_5c5fb310-90c8-4d45-a1a2-3802eef3238c.png",
-  304: "hf_20260729_222545_0d7ecb65-d5d3-4321-953d-37c60c20e17d.png",
-  198: "hf_20260729_222613_8cf6231e-9a67-4ac1-9cf3-3717544cb7c2.png",
-  199: "hf_20260729_222657_b21fab43-762d-4671-a46c-395efb7738ef.png",
-  305: "hf_20260729_222700_b909a2bc-9c9a-404d-bc1e-ee602fedc97e.png",
-  200: "hf_20260729_222703_ca36d3a8-6a2c-4fa5-bba0-1888b2664d6e.png",
-  201: "hf_20260729_222730_d727a3b2-02c8-4b1b-953b-3c7fbfa6d0ec.png",
-  202: "hf_20260729_222759_cb0b6cfc-5955-46f0-853b-8d9ffa238110.png",
-  306: "hf_20260729_222805_bd65ee1c-0eb0-4887-97bf-e6ca4be2fcfd.png",
-  398: "hf_20260729_222842_3825be8c-3862-4d38-a83f-db6e9a3a668e.png",
-  203: "hf_20260729_222802_a7409504-9bb0-41b9-bb8a-93b3c2acd6fb.png",
-  307: "hf_20260729_222827_a253331c-daa0-451d-9c14-0d79c71957a0.png",
-  106: "hf_20260729_222957_0c16bb88-4b10-4b7d-b428-6aefe8f2d482.png",
-  204: "hf_20260729_223037_3ee10a5a-fc0c-465c-986f-86c12a7c764f.png",
-  205: "hf_20260729_223059_165ce036-6cc3-4dbf-aab7-0939d4a7366b.png",
-  308: "hf_20260729_223220_ec85dfaa-9044-4d69-96d7-b83318284aea.png",
-  309: "hf_20260729_223223_431b2067-a127-4ca3-a34c-56e0961edb69.png",
-  310: "hf_20260729_223248_ca132b52-f120-4e64-a09b-0aa5b924e7de.png",
-  311: "hf_20260729_223251_82a31960-5a66-47b2-81e4-f782fa4d7866.png",
-  206: "hf_20260729_223150_cbe9862f-6df2-42d3-a46d-d499a4b26ccb.png",
-  312: "hf_20260729_223317_7a85435d-6ded-4671-9bb8-672b221edf4d.png",
-  313: "hf_20260729_223320_2c1e94db-8ce0-4777-9ef7-0b63100c8a84.png",
-  314: "hf_20260729_223345_5725d973-779f-403c-82ea-50a421b2a99c.png",
-  315: "hf_20260729_223350_91b5eb35-e9da-4556-8792-b771e6160642.png",
-  208: "hf_20260729_223444_1fbbd869-b60c-48c6-be79-ee1570b73052.png",
-  209: "hf_20260729_223447_2692f085-1832-49ed-9c5a-438829744b28.png",
-  108: "hf_20260729_223536_b804d2ac-0043-4dc2-af3e-4aa19b9ecce5.png",
-  210: "hf_20260729_223545_c87f63ce-2725-4f2b-ae63-2dd526c717fd.png",
-
-  /* Lot BE/FR d'août 2026 — 59 fiches qui tombaient sur le dégradé de genre. */
-  879: "hf_20260821_231523_92c31366-492e-48f0-a891-b92d2b7ec982.png", // Liège Electronic Music Festival — Seraing
-  880: "hf_20260821_231523_f0892849-7d6e-4b39-bcac-eddb371424b0.png", // Kamping Kitsch Club — Kortrijk
-  881: "hf_20260821_231524_468ca480-793f-4f8e-872e-428afced8b61.png", // Illusion at the Beach — Blankenberge
-  882: "hf_20260821_231523_57cc77e1-8b27-426e-b2fd-73d87abd99bd.png", // The Day Before Tomorrow — Brasschaat
-  883: "hf_20260821_231524_9d3b9f59-7454-4000-8961-c6a1cb0ad644.png", // EZ! w/ Habstrakt — Villeurbanne
-  884: "hf_20260821_231856_d3a8287a-1a41-4097-a484-2cd6891c02de.png", // Meakusma Festival — Eupen
-  885: "hf_20260821_231524_37b1a42e-9039-4c15-9f79-6f24c65a4078.png", // Legends of Retro — Mons
-  886: "hf_20260821_231524_9b5d9d72-c4ed-4a71-aa90-72b98638d580.png", // Highlight Festival — Ieper
-  887: "hf_20260821_231524_59db12bf-4c8e-4189-95cf-6217e51e2726.png", // Space Safari — Hastière
-  888: "hf_20260821_231524_fe5c7481-595b-4ace-99de-4ae3f2a8547e.png", // Unfaced w/ Jacidorex — Ramonville-Saint-Agne
-  889: "hf_20260821_231523_f610b5e0-a78c-4f41-950d-e9ad70e4670e.png", // Djedjotronic x Trio Xenakis — Strates — Cenon
-  890: "hf_20260821_231524_79221b45-d07b-45f8-b2de-14575ffeb015.png", // Voodoo Village — Grimbergen
-  891: "hf_20260821_231649_af640140-49fe-417e-b76d-f8e9f49d0716.png", // Hypercore 3 : Welcome to the Hyperverse — Paris
-  892: "hf_20260821_231649_566bf7c8-7b30-4a1a-a808-b0226aadb536.png", // Fuse presents Andy C — Brussels
-  893: "hf_20260821_231856_cbbc2ac6-661d-4f15-a138-eb4d9dd06c5c.png", // Tech Noire ft. B1980 — Paris
-  894: "hf_20260821_231649_9aeccaca-b495-4be3-9cef-7650c1a3482d.png", // Reevolt w/ Überkikz — Ramonville-Saint-Agne
-  895: "hf_20260821_231649_0811cb09-b13b-4418-a98b-05bff6c9ba1f.png", // Meet The Beat w/ Avalon & Major7 — Ramonville-Saint-Agne
-  896: "hf_20260821_231649_13ca3395-6787-4a1b-9850-529069774e46.png", // Fuse presents PACT — Brussels
-  897: "hf_20260821_231649_05a6bee1-7a91-49ed-b39a-0587e1bdab8c.png", // Flashforward: Nicole Moudaber — Charleroi
-  898: "hf_20260821_231649_261e39b6-8536-4562-bd4f-773969604b94.png", // Sunset Festival — Gierle
-  899: "hf_20260821_231649_a2d971e4-5766-4f6b-8d13-bb758edc7ddd.png", // Tatie Dee + Barbara Butch + Austher — Amiens
-  900: "hf_20260821_231649_1a2d05f0-0e81-4e6d-ab21-bd6763cb243e.png", // Karnage Grand Opening — Ramonville-Saint-Agne
-  901: "hf_20260821_231649_53b9a50a-b036-4968-a88e-a1d05a1447d6.png", // Turtle Open Air — Rennes
-  902: "hf_20260821_231649_51cf8b2f-c7aa-46dd-8dca-f2514409b1a5.png", // Fuse presents Polar Inertia & Luigi Tozzi — Brussels
-  903: "hf_20260821_231856_7c098e44-0c82-474b-a1a3-a8d4141e26a0.png", // Il Est Vilaine + Radical Cute — Tourcoing
-  904: "hf_20260821_231856_e6985ee6-9da1-4a2a-97fd-576a42d8f2f3.png", // Onda Mix w/ Paloma Colombe — Toulouse
-  905: "hf_20260821_231857_081d3ca5-4de3-4ea4-94d8-8e5e99200c94.png", // LESSSS All Night Long — Villeurbanne
-  906: "hf_20260821_231856_bcb6a4ca-4457-4284-adf8-2c1303c95173.png", // Dirty History w/ Ed Rush & Optical — Ramonville-Saint-Agne
-  907: "hf_20260821_231856_6cd7d013-b8bf-4f17-9300-efddc615db07.png", // Star Warz: Final Edition — Ghent
-  908: "hf_20260821_231856_79376c27-8d1c-47e0-836d-7529d8313ffe.png", // Paul Kalkbrenner + Machines Vivantes — Toulouse
-  909: "hf_20260821_231856_2ee73254-111f-4fb8-896b-b6a4d452cba9.png", // Jasmine Not Jafar + Lavomatic + DJ Stronger — Orléans
-  910: "hf_20260821_231856_70ad6727-22a4-490f-8029-e34f1a4e95cb.png", // Deux Chevaux: Front de Cadeaux — Brussels
-  911: "hf_20260821_231856_b02afff9-0fff-4585-91b9-2783f32ad6fe.png", // Bunker Brestois — Brest
-  912: "hf_20260821_232122_a2262ade-e26c-43ed-aa9f-5d22fb4c7cdb.png", // Les Eurockéennes en Résidence Secondaire : Ofenbach — Montbéliard
-  913: "hf_20260821_232122_2e17f64b-775b-42f2-a5a0-71ff28abae67.png", // Busy P au Bikini — Ramonville-Saint-Agne
-  914: "hf_20260821_232122_e5080991-629a-45e1-a4ee-d2c9e39ba76f.png", // Flashforward: KAS:ST — Charleroi
-  915: "hf_20260821_232122_3c8547b7-57d6-4ff3-bd8f-2e362e88bef8.png", // Les Eurockéennes en Résidence Secondaire : I Hate Models — Montbéliard
-  916: "hf_20260821_232122_c56eaf2a-de95-4bfb-9373-2f9dbc23981f.png", // Baby Berserk + Jasmine Not Jafar — Mérignac
-  917: "hf_20260821_232122_0ceb6e68-4ce5-4705-b74b-61d4c660af46.png", // Instrumental w/ Hilight Tribe & Manudigital — Villeurbanne
-  918: "hf_20260821_232122_2934f92c-fe36-45ff-86df-02bd91a202a5.png", // Lane 8: This Never Happened at Ancienne Belgique — Brussels
-  919: "hf_20260821_232122_2cae641f-6d97-4dad-8198-599dc84b60b2.png", // La P'tite Fumée au Temps Machine — Joué-lès-Tours
-  920: "hf_20260821_232329_ba7ba90c-a827-458d-a818-f551cc489e8a.png", // Hilight Tribe Instrumental Halloween Edition — Toulouse
-  921: "hf_20260821_232122_575b2cb0-0e83-4310-9c57-0b11b019dd96.png", // Lena Willikens + Rick Shiver + Donia — Brussels
-  922: "hf_20260821_232122_95c851a7-3be7-4f5f-ae3c-cfa1216fb2a8.png", // Mo' Juice x Curfew — Ghent
-  923: "hf_20260821_232122_a31d39bb-de80-47f8-9cf5-076fff8d5c3a.png", // Flashforward: Jonathan Kaspar — Charleroi
-  924: "hf_20260821_232328_13ed68a8-ae93-4af3-a9d4-b4a5bbfc68f9.png", // Full Circle Antwerp — Antwerp
-  925: "hf_20260821_232329_552fab0d-e151-4ac3-ab03-69a6df5e80e3.png", // Max Cooper at Club Wintercircus — Ghent
-  926: "hf_20260821_232329_be83cb0f-fa86-484e-a1ec-09618fa13614.png", // Nuit Électro Cosmic Edition — Ploeren
-  927: "hf_20260821_232329_72cc687a-6575-43ef-9d16-2d0b64bc9986.png", // Fulgurances Électroniques — Orléans
-  928: "hf_20260821_232329_602c8f73-8c2c-440b-9e99-9a936f305ff3.png", // Dombrance & Fuzzy — Saint-Quentin
-  929: "hf_20260821_232329_517ac81d-b962-4177-bfc3-ed5761b99f6e.png", // La P'tite Fumée au 6MIC — Aix-en-Provence
-  930: "hf_20260821_232329_359c3d20-bff3-4c39-a4dc-8afdce2d4816.png", // Primate presents Sticks & Stones — Ghent
-  931: "hf_20260821_232543_5b219d96-3899-4cd9-9518-51967cd1c266.png", // Flashforward: Dave Clarke — Charleroi
-  932: "hf_20260821_232329_4067859f-c76d-4b12-96d0-761b6905159d.png", // Bellaire at Ancienne Belgique — Brussels
-  933: "hf_20260821_232328_dcc6a4e4-1c05-46f2-b6f2-f66cf78f08af.png", // Full Circle Ghent — Ghent
-  934: "hf_20260821_232329_36b3ced6-7ace-4c0f-872b-79502fb71595.png", // NTO at Ancienne Belgique — Brussels
-  935: "hf_20260821_232509_8dbfcb5f-b19a-4ce4-82e3-75849f6fac05.png", // MODUL'AIR Festival — Ghent
-  936: "hf_20260821_232509_7ff986cb-f817-41c7-a347-73f460513444.png", // Sunrise Festival — Gierle
-  937: "hf_20260821_232509_bf28ec9e-491f-4a1e-9dd1-6c78731317a5.png", // Dour Festival — Dour
-
-  /* Dernier lot sans visuel — le catalogue est désormais illustré en entier. */
-  515: "hf_20260822_092230_da4b692f-7e46-464f-8e17-1d23029b0199.png", // Nightflight x Futoria — Oslo
-  524: "hf_20260822_092230_4df899f8-94fa-40f4-8368-69c3b6622cd9.png", // Flashback Techno Classics — Summer Edition — Vienna
-  539: "hf_20260822_092231_56759dc0-a53f-498a-b935-8ede709a4aa1.png", // Schranz is Back w/ Felix Kröcher — Vienna
-  556: "hf_20260822_092413_d50da93d-58bf-4d46-b2b8-b3c24b4bbd9c.png", // Trancemaster Krause All Night Long — Vienna
-  560: "hf_20260822_092231_dceeb8be-abc5-445f-8e61-2d78e5b94261.png", // YN x BCCO Club Night — Vienna
-  561: "hf_20260822_092231_45517a77-e0eb-4132-9581-2eb53f1b2753.png", // Boston Bun au Stockfish — Nice
-  572: "hf_20260822_092231_ce9ffde1-c58b-4bee-ab32-11737cf8d562.png", // Tiësto · INFINITY Lisbon — Lisbon
-  575: "hf_20260822_092231_b8a49b64-c050-4f4b-b80d-27b4aff2506a.png", // Music On — Ibiza
-  605: "hf_20260822_092413_da2bc445-c4e5-47e0-ad57-158059f9263f.png", // Marcel Dettmann — Barcelona
-  623: "hf_20260822_092231_e801d776-9140-4094-961a-8bb11235e520.png", // Max Cooper — Lisbon
-  629: "hf_20260822_092230_5cd1d180-fe3a-49b5-8a22-a575fbd1f800.png", // Zuckerwatt w/ Mija — Vienna
-  638: "hf_20260822_092413_88c55dd6-829a-48cb-97be-4228e514921e.png", // Project One — Helsinki
-  643: "hf_20260822_092413_790f3f5c-9d36-4492-b2e1-43ce88c9f98f.png", // Zuckerwatt w/ Ellen Allien — Vienna
-  647: "hf_20260822_092413_03cff26f-15d0-415c-a0c9-ccbc722e52d2.png", // Azyr & Fatima Hajji — Lisbon
-  653: "hf_20260822_092413_559f0133-6eda-4517-be82-ee9a3cbd51b4.png", // Lewis OfMan au Sucre — Lyon
-  655: "hf_20260822_092413_fe0e9b87-b461-49b6-8aef-a62590834dfc.png", // TMF — Trier Music Festival — Trier
-  678: "hf_20260822_092413_25266f58-64ad-4a07-aa5d-2e9f9cab039d.png", // Lane 8 at New Century — Manchester
-  682: "hf_20260822_092413_ee59dc55-37f6-411f-9073-6b4f53989a40.png", // Frædag: Einmusik — Oslo
-  701: "hf_20260822_092413_ef388a26-56a1-486a-ae1d-f40ab882e0dd.png", // Jackies House Music Festival Lisboa — Lisbon
-  707: "hf_20260822_092413_724def5e-1563-4fe4-8692-f57e7b89bc7a.png", // Dusky at Hangar 34 — Liverpool
-  709: "hf_20260822_092413_71b7d459-2ae3-4e0d-bb52-eeb496771a58.png", // Romare at Village Underground — London
-  719: "hf_20260822_092539_520aa3c3-06ad-4f98-80e4-160e86f25a26.png", // Cowgate Block Party — Edinburgh
-  722: "hf_20260822_092539_bbf765be-2994-4428-84bd-d690df477375.png", // 2manydjs at Vicar Street — Dublin
-  725: "hf_20260822_092539_43929e1a-1e44-430c-948b-aa80550b4a2c.png", // Romare at Belgrave Music Hall — Leeds
-  741: "hf_20260822_092834_2229679c-09bf-4443-aff3-e9e5369c2fcc.png", // Max Cooper · Hard Club — Porto
-  742: "hf_20260822_092539_efa36118-5eb8-4e50-9ad9-9789eecde403.png", // Curses! · Sala Nazca — Madrid
-  748: "hf_20260822_092539_90dd5576-f371-49d1-95d3-a93f15ef1739.png", // Marshmello & Alison Wonderland at The O2 — London
-  770: "hf_20260822_092539_58d4244f-5891-4d49-b6a5-1e10943ae846.png", // Christian Löffler · Teatre Coliseum — Barcelona
-  772: "hf_20260822_092539_c02f4581-2006-4559-9e7c-09981347d309.png", // Christian Löffler · Casa da Música — Porto
-  773: "hf_20260822_092539_d854e336-ba05-4da9-84e2-e65ec9e9c721.png", // Christian Löffler · Centro Cultural de Belém — Lisbon
-  781: "hf_20260822_092539_2ef7a0f1-94ef-4b7a-a330-b89382c2ef89.png", // Adam F at Castle & Falcon — Birmingham
-  811: "hf_20260822_092539_3ae638e1-c4eb-4beb-a454-c596dae70c61.png", // Verknipt NYE Eindhoven — Eindhoven
-  812: "hf_20260822_092539_47e08830-2ad4-4528-9be8-5ca8e42ba51b.png", // Verknipt NYE Specials Antwerp — Antwerp
-  824: "hf_20260822_092705_dfe958fb-5af8-4e96-bfba-4720932e7d91.png", // PACT: Joachim Pastor, Joris Delacroix & Teho — Amsterdam
-  841: "hf_20260822_092705_7c122abc-3b58-4cde-a3f4-c75a2c9c8c6d.png", // Joris Delacroix au Boeuf sur le Toit — Bordeaux
-  850: "hf_20260822_092705_65fe1ec4-9c0b-461d-965c-eba37fd044a4.png", // Eciton Gathering — Oigny
-  851: "hf_20260822_092705_0664f92a-0b94-48fb-81a6-1ff83aec65d5.png", // S Xpress — Fréjus
-  852: "hf_20260822_092705_a58c362d-1f42-4776-8b1a-7bcf17c52bac.png", // KitKatClub au Bootshaus – 22 août — Cologne
-  853: "hf_20260822_092705_778dc593-7be7-4505-a909-5a86123c7ada.png", // The Avener au Mas des Escaravatiers — Puget-sur-Argens
-  854: "hf_20260822_092944_48aaff1a-1f9f-4a18-9424-55a1476b05c6.png", // RazzClub : Wata Igarashi & Alienata — Barcelona
-  855: "hf_20260822_092834_a8e48cdf-4047-4943-8434-b85e73d664ec.png", // PULSE: Surgeon — Edinburgh
-  856: "hf_20260822_092705_a95631ab-8412-455c-ade6-ba158707fdcf.png", // Bon Entendeur au Toit Terrasse de la Friche — Marseille
-  857: "hf_20260822_092834_e184bfe5-45bc-469a-afa3-c3114e6029ef.png", // IAM Productions : Eli Brown à l'Akvárium — Budapest
-  858: "hf_20260822_092705_5d001391-b3b4-4ead-91f9-5172571c7bf2.png", // RTM: FJAAK & Slam & Nightwave — Glasgow
-  859: "hf_20260822_092705_2b9b1d7f-d657-480e-8e36-2d3e386db5a3.png", // Bootshaus on a Ship Vol. IV — Cologne
-  860: "hf_20260822_092833_3c199108-1a5b-4a9e-b7c5-51f274544047.png", // Fakear à l'Atabal — Biarritz
-  861: "hf_20260822_092833_de1cf4f9-3201-444f-82d0-df9562ed057a.png", // Fakear au Centre Culturel John Lennon — Limoges
-  862: "hf_20260822_092834_7e06edb8-0538-4f80-9b34-ad62c7e9444a.png", // PULSE: SPFDJ — Edinburgh
-  863: "hf_20260822_092834_810a0a4e-5bda-4ea9-b1a0-b7c07d2f1483.png", // VISSA XL — Tilburg
-  864: "hf_20260822_092834_254ecb1b-e408-4791-8080-d9a8c6568c8f.png", // Melodic Madness — Tilburg
-  865: "hf_20260822_092834_4e805523-8a58-4760-8d2e-cbaf6917aa8b.png", // IAM Productions : Kobosil à l'Akvárium — Budapest
-  866: "hf_20260822_092833_dea511aa-9c35-4bd8-96e7-70533443e72a.png", // STACKED x LOST: KiNK b2b Raredub & Nikki Nair — Dublin
-  867: "hf_20260822_092834_6b2871f8-a22c-49fe-b8b1-bd215f404842.png", // Yanamaste at Kompass (All Night Long) — Ghent
-  868: "hf_20260822_092944_b707f971-3d97-4786-9f6b-e8b7b2401a83.png", // Bourbourg Électro Night — Bourbourg
-  869: "hf_20260822_092944_5f785831-daa0-4612-ad70-931a96404a52.png", // Apparat au Transbordeur — Villeurbanne
-  870: "hf_20260822_092944_5555275f-1792-4682-a5e0-16db953db9d5.png", // Autechre au Cabaret Aléatoire — Marseille
-  871: "hf_20260822_093037_6fd94398-6cc8-4b22-8ee3-5c81e30c8772.png", // Obsimo à La Bulle-Café — Lille
-  872: "hf_20260822_092944_d2cf5b68-ff8f-4e50-8ac6-73a358be7937.png", // Cosmic Gate au Bootshaus — Cologne
-  873: "hf_20260822_092944_a4a50129-2c8b-4455-b424-9d8f96407375.png", // La Nuit Étincelle — Bergerac
-  874: "hf_20260822_092944_40e8b151-c3c0-4e4d-b0b3-4c284fa4c161.png", // Under The Rave — Audincourt
-  875: "hf_20260822_092944_d60fd89b-bb47-4aff-ba28-d9e353e3f82e.png", // NAFT at Effenaar — Eindhoven
-  876: "hf_20260822_092944_f61447aa-c727-40ba-92c4-af712071e97b.png", // Paradise City Festival — Steenokkerzeel
-  877: "hf_20260822_092944_af6d62b9-492c-4408-9919-b18672991540.png", // UNTOLD — Cluj-Napoca
-  878: "hf_20260822_092944_e17559ff-e7ec-4694-a4a0-509a17280462.png", // Glitch Festival — Rabat
+  1: "ai-awakenings-summer-festival-fd5c464ea7.jpg", // Awakenings Summer Festival
+  3: "ai-verknipt-festival-dc5197f77f.jpg", // Verknipt Festival
+  7: "ai-defqon-1-weekend-39f73ba208.jpg", // Defqon.1 Weekend
+  10: "ai-tomorrowland-932547b7da.jpg", // Tomorrowland
+  17: "ai-nuits-sonores-f9744d4049.jpg", // Nuits Sonores
+  18: "ai-astropolis-6a6e1a0220.jpg", // Astropolis
+  21: "ai-the-peacock-society-0baab2056b.jpg", // The Peacock Society
+  22: "ai-marvellous-island-bfe6621d98.jpg", // Marvellous Island
+  23: "ai-family-piknik-ef08170b6f.jpg", // Family Piknik
+  24: "ai-hadra-trance-festival-3c852e04b5.jpg", // Hadra Trance Festival
+  25: "ai-positiv-festival-527b19538b.jpg", // Positiv Festival
+  31: "ai-insane-festival-bee89520c0.jpg", // Insane Festival
+  33: "ai-kappa-futurfestival-8e44705150.jpg", // Kappa FuturFestival
+  34: "ai-sonar-bcc7ec8bdd.jpg", // Sónar
+  35: "ai-time-warp-c54a446403.jpg", // Time Warp
+  36: "ai-dgtl-amsterdam-c476311f34.jpg", // DGTL Amsterdam
+  37: "ai-nature-one-0bc5849cdb.jpg", // Nature One
+  39: "ai-junction-2-f34d0d4aae.jpg", // Junction 2
+  45: "ai-dour-festival-37fd50991a.jpg", // Dour Festival
+  46: "ai-awakenings-upclose-d33a2de9e2.jpg", // Awakenings Upclose
+  49: "ai-rave-the-planet-parade-af6977d3ab.jpg", // Rave The Planet Parade
+  50: "ai-untold-b40ac26a68.jpg", // UNTOLD
+  51: "ai-ultra-europe-0733a684fa.jpg", // Ultra Europe
+  52: "ai-decibel-outdoor-c6696b239c.jpg", // Decibel Outdoor
+  53: "ai-parookaville-ce60012f84.jpg", // Parookaville
+  54: "ai-dekmantel-festival-c44880d181.jpg", // Dekmantel Festival
+  55: "ai-creamfields-28bd4db5bb.jpg", // Creamfields
+  56: "ai-monegros-desert-festival-aa5da0eed0.jpg", // Monegros Desert Festival
+  57: "ai-the-warehouse-project-ki-ki-e12262c385.jpg", // The Warehouse Project: KI/KI
+  58: "ai-awakenings-ade-b89d4e587a.jpg", // Awakenings ADE
+  59: "ai-ozora-festival-fa423fe668.jpg", // OZORA Festival
+  60: "ai-neopop-festival-258523c486.jpg", // Neopop Festival
+  61: "ai-glitch-festival-e83ad0fa86.jpg", // Glitch Festival
+  62: "ai-zamna-tulum-16e167622b.jpg", // Zamna Tulum
+  63: "ai-let-it-roll-e969a5e22d.jpg", // Let It Roll
+  64: "ai-unum-festival-b5dbe046e8.jpg", // UNUM Festival
+  65: "ai-no-sleep-festival-91305d51fb.jpg", // No Sleep Festival
+  66: "ai-sonnemondsterne-ebf341ed9d.jpg", // SonneMondSterne
+  67: "ai-polifonic-65670b003e.jpg", // Polifonic
+  68: "ai-tauron-nowa-muzyka-d53fe8aac8.jpg", // Tauron Nowa Muzyka
+  69: "ai-les-plages-electroniques-3ff0c7c8b3.jpg", // Les Plages Électroniques
+  70: "ai-paradise-city-2bf24ac496.jpg", // Paradise City
+  71: "ai-loveland-festival-16fe00872a.jpg", // Loveland Festival
+  72: "ai-brunch-electronik-festival-a5641cec18.jpg", // Brunch Electronik Festival
+  76: "ai-black-coffee-hi-ibiza-cf7d2b242b.jpg", // Black Coffee · Hï Ibiza
+  100: "ai-eskape-festival-3c7ebf7713.jpg", // Eskape Festival
+  101: "ai-houghton-festival-7023a3caf8.jpg", // Houghton Festival
+  102: "ai-fort-decibel-festival-f0442e8333.jpg", // Fort Décibel Festival
+  103: "ai-street-parade-71fca21120.jpg", // Street Parade
+  104: "ai-boomtown-chapter-five-dad5a4d4b4.jpg", // Boomtown Chapter Five
+  105: "ai-electrolapse-festival-b6f4abb6fe.jpg", // Electrolapse Festival
+  106: "ai-rotterdam-rave-festival-7950a97e5e.jpg", // Rotterdam Rave Festival
+  108: "ai-rave-in-da-club-x-wolf-city-5dc5b0d508.jpg", // Rave in da Club x Wolf City
+  167: "ai-defected-croatia-1e1e227a03.jpg", // Defected Croatia
+  168: "ai-all-together-now-19d231cd41.jpg", // All Together Now
+  169: "ai-sunrise-festival-efae2a160d.jpg", // Sunrise Festival
+  170: "ai-stray-lights-festival-918c60de50.jpg", // Stray Lights Festival
+  171: "ai-weekend-festival-finland-3cf6dfd4ed.jpg", // Weekend Festival Finland
+  172: "ai-kaiku-isabel-soto-cdb28d7b80.jpg", // Kaiku : Isabel Soto
+  173: "ai-summer-sound-df012493ea.jpg", // Summer Sound
+  174: "ai-teletech-festival-75c89a6068.jpg", // Teletech Festival
+  175: "ai-freshwave-festival-d40a8dd244.jpg", // Freshwave Festival
+  176: "ai-positivus-2026-calvin-harris-353aa4460e.jpg", // Positivus 2026 : Calvin Harris
+  177: "ai-lovefest-a30e76126a.jpg", // Lovefest
+  178: "ai-lake-fest-f6a6cca62c.jpg", // Lake Fest
+  179: "ai-pearl-dasha-rush-e08bcf11bc.jpg", // PEARL : Dasha Rush
+  180: "ai-fly-presents-chris-stussy-scotland-3d44066dbc.jpg", // FLY presents Chris Stussy Scotland
+  181: "ai-wyld-summer-showcase-225ea79ece.jpg", // WYLD Summer Showcase
+  182: "ai-barrakud-festival-bda03df0fa.jpg", // Barrakud Festival
+  183: "ai-sziget-festival-2e9de9a4df.jpg", // Sziget Festival
+  184: "ai-iceland-eclipse-59cdd9c03e.jpg", // Iceland Eclipse
+  185: "ai-the-prodigy-a-sarajevo-96ffc5c74e.jpg", // The Prodigy a Sarajevo
+  186: "ai-way-out-west-020549cf3e.jpg", // Way Out West
+  187: "ai-grape-festival-1a508159a1.jpg", // Grape Festival
+  188: "ai-turbina-kakao-014-d5ad8d0616.jpg", // Turbina : KAKAO 014
+  189: "ai-flow-festival-b10dc2bd4c.jpg", // Flow Festival
+  190: "ai-marshall-jefferson-at-concorde-2-357d075bbd.jpg", // Marshall Jefferson at Concorde 2
+  191: "ai-index-808-state-dj-set-1b683f5698.jpg", // Index: 808 State (DJ set)
+  192: "ai-marie-davidson-at-the-white-hotel-9aebd14eb1.jpg", // Marie Davidson at The White Hotel
+  193: "ai-we-out-here-festival-b00d933736.jpg", // We Out Here Festival
+  194: "ai-saga-festival-5dbd31eaf8.jpg", // SAGA Festival
+  195: "ai-field-maneuvers-60b452f461.jpg", // Field Maneuvers
+  196: "ai-culture-box-timo-maas-0c9edd11a9.jpg", // Culture Box : Timo Maas
+  197: "ai-kaiku-mike-servito-34d96366ec.jpg", // Kaiku : Mike Servito
+  198: "ai-dimensions-festival-3741f1882a.jpg", // Dimensions Festival
+  199: "ai-lost-village-13073e5a8f.jpg", // Lost Village
+  200: "ai-elevate-bass-rave-taxman-df001d4b0e.jpg", // Elevate Bass Rave : Taxman
+  201: "ai-frdag-x-hubbas-klubb-gerd-janson-23bc88946e.jpg", // Frædag x Hubbas Klubb : Gerd Janson
+  202: "ai-kaiku-badsista-2c44093250.jpg", // Kaiku : Badsista
+  203: "ai-tradgarden-festival-f806ef828d.jpg", // Trädgården Festival
+  204: "ai-femxcore-x-rejuv-f374f46873.jpg", // FEMXCORE x REJUV
+  205: "ai-forwards-festival-78652dfe56.jpg", // Forwards Festival
+  206: "ai-emerge-festival-4723763e43.jpg", // Emerge Festival
+  208: "ai-audra-festival-aed9b06a80.jpg", // Audra Festival
+  209: "ai-station-narva-b07da66c75.jpg", // Station Narva
+  210: "ai-bonfire-festival-e1c11083a1.jpg", // Bonfire Festival
+  262: "ai-shapes-festival-zakynthos-363f5f6ef7.jpg", // Shapes Festival Zakynthos
+  263: "ai-conges-annules-lusterclub-sur-le-parvis-e1999f4cb0.jpg", // Congés Annulés – LusterClub sur le Parvis
+  264: "ai-solar-weekend-festival-6f359813be.jpg", // Solar Weekend Festival
+  265: "ai-o-days-festival-854c7de192.jpg", // O Days Festival
+  266: "ai-blitz-closing-weekend-that-s-all-folks-dd4c002244.jpg", // BLITZ Closing Weekend — That's All Folks
+  267: "ai-dreambeach-costa-del-sol-bf255f6422.jpg", // Dreambeach Costa del Sol
+  268: "ai-viva-festival-0facf8f6d2.jpg", // VIVA! Festival
+  269: "ai-basis-outdoor-1181a4ed06.jpg", // BASIS Outdoor
+  270: "ai-lehmann-clubnacht-len-faki-fjaak-8de162959e.jpg", // Lehmann Clubnacht — Len Faki & FJAAK
+  271: "ai-aunt-records-x-bird-garden-blockparty-e0e93c49bb.jpg", // Aunt Records x BIRD Garden Blockparty
+  272: "ai-micro-festival-5414567dcb.jpg", // Micro Festival
+  273: "ai-lethargy-festival-e87f75be54.jpg", // Lethargy Festival
+  274: "ai-malmofestivalen-acb77e6789.jpg", // Malmöfestivalen
+  275: "ai-paradigm-festival-8f57914250.jpg", // Paradigm Festival
+  276: "ai-berghain-ostgut-ton-klubnacht-1452c4add8.jpg", // Berghain — Ostgut Ton Klubnacht
+  277: "ai-katermukke-open-air-142993e6fb.jpg", // Katermukke Open Air
+  278: "ai-fury-open-air-indoor-d343e32e94.jpg", // Fury Open Air & Indoor
+  279: "ai-medusa-sunbeach-festival-42dd45fc67.jpg", // Medusa Sunbeach Festival
+  280: "ai-nina-kraviz-cavo-paradiso-237cc23daf.jpg", // Nina Kraviz · Cavo Paradiso
+  281: "ai-aquasella-372c2ec425.jpg", // Aquasella
+  282: "ai-galactica-festival-cocorico-bc49bcdafd.jpg", // Galactica Festival · Cocoricò
+  283: "ai-wecandance-26c1123dc0.jpg", // WECANDANCE
+  284: "ai-xrds-crossroads-festival-7f3e8a4d7b.jpg", // XRDS – Crossroads Festival
+  285: "ai-aaniwalli-weekender-polygonia-a5d76c7e1b.jpg", // Ääniwalli Weekender : Polygonia
+  286: "ai-panorama-festival-ec53cf0ce5.jpg", // Panorama Festival
+  287: "ai-basis-w-identified-patient-schacke-b6cc1661f1.jpg", // BASIS w/ Identified Patient & Schacke
+  288: "ai-c12-nite-w-sandrien-4a9964543c.jpg", // C12 Nite w/ Sandrien
+  289: "ai-tresor-klubnacht-865d33edbc.jpg", // Tresor Klubnacht
+  290: "ai-house-of-rave-maceo-plex-nicole-moudaber-827c21d95d.jpg", // House of Rave — Maceo Plex & Nicole Moudaber
+  291: "ai-brunch-electronik-lisboa-4-adam-beyer-18b06531d5.jpg", // Brunch Electronik Lisboa #4 · Adam Beyer
+  292: "ai-pukkelpop-e319ddda12.jpg", // Pukkelpop
+  293: "ai-toffler-presents-leyo-and-friends-1dd05a58af.jpg", // Toffler presents LEYO and friends
+  294: "ai-berghain-reef-drum-bass-9f9473ae96.jpg", // Berghain — REEF (drum & bass)
+  295: "ai-play-hard-mad-dog-382e9b595d.jpg", // Play Hard — Mad Dog
+  296: "ai-ian-pooley-a-l-audio-club-01b5014e9c.jpg", // Ian Pooley à l'Audio Club
+  297: "ai-black-rave-culture-a-la-graviere-4fa23ddab5.jpg", // Black Rave Culture à La Gravière
+  298: "ai-c12-nite-w-paramida-54ad0c47b8.jpg", // C12 Nite w/ Paramida
+  299: "ai-fuse-presents-dan-shake-luke-alessi-c54ae93593.jpg", // Fuse presents Dan Shake & Luke Alessi
+  300: "ai-toffler-x-maas-afterparty-cd9cd4394c.jpg", // Toffler x Maas Afterparty
+  301: "ai-frankfurt-technoclassics-41d790926c.jpg", // Frankfurt Technoclassics
+  302: "ai-electric-weekender-ea6bc55c07.jpg", // Electric Weekender
+  303: "ai-solomun-lisboa-brunch-neopop-ae2e7e8233.jpg", // Solomun Lisboa · Brunch × Neopop
+  304: "ai-free-earth-festival-f2bb7899ea.jpg", // Free Earth Festival
+  305: "ai-nemora-festival-df5b7793bc.jpg", // Nemora Festival
+  306: "ai-nibirii-festival-e6377fcc5f.jpg", // Nibirii Festival
+  307: "ai-adrenaline-flymeon-85c5cb78a4.jpg", // Adrenaline : Flymeon
+  308: "ai-c12-x-gimic-x-circle-park-open-air-37fb82d105.jpg", // C12 x Gimic x Circle Park Open Air
+  309: "ai-fuse-presents-pearson-sound-martyn-bc2f8a7033.jpg", // Fuse presents Pearson Sound & Martyn
+  310: "ai-rotterdam-rave-festival-afterparty-7205a16f86.jpg", // Rotterdam Rave Festival Afterparty
+  311: "ai-rote-sonne-x-bahnwarter-thiel-open-air-club-3092c836ce.jpg", // Rote Sonne x Bahnwärter Thiel — Open Air & Club
+  312: "ai-alix-perez-au-nordstern-c1a6b4ee67.jpg", // Alix Perez au Nordstern
+  313: "ai-zug-der-liebe-e052d66d2e.jpg", // Zug der Liebe
+  314: "ai-deborah-de-luca-cavo-paradiso-2f57a62ea6.jpg", // Deborah De Luca · Cavo Paradiso
+  315: "ai-brunch-electronik-lisboa-5-charlotte-de-witte-3e70bf6d60.jpg", // Brunch Electronik Lisboa #5 · Charlotte de Witte
+  398: "ai-dantz-festival-00e0171670.jpg", // Dantz Festival
+  515: "ai-nightflight-x-futoria-1eb1b89f2a.jpg", // Nightflight x Futoria
+  524: "ai-flashback-techno-classics-summer-edition-e69ae718cd.jpg", // Flashback Techno Classics — Summer Edition
+  539: "ai-schranz-is-back-w-felix-krocher-e5a80f6496.jpg", // Schranz is Back w/ Felix Kröcher
+  556: "ai-trancemaster-krause-all-night-long-af8b87ff00.jpg", // Trancemaster Krause All Night Long
+  560: "ai-yn-x-bcco-club-night-5f17c8dabf.jpg", // YN x BCCO Club Night
+  561: "ai-boston-bun-au-stockfish-a55299e4d1.jpg", // Boston Bun au Stockfish
+  572: "ai-tiesto-infinity-lisbon-eddaefd3a2.jpg", // Tiësto · INFINITY Lisbon
+  575: "ai-music-on-b69c6d8e12.jpg", // Music On
+  605: "ai-marcel-dettmann-948a07fe18.jpg", // Marcel Dettmann
+  623: "ai-max-cooper-28ab6a4a16.jpg", // Max Cooper
+  629: "ai-zuckerwatt-w-mija-4fbe59dcc5.jpg", // Zuckerwatt w/ Mija
+  638: "ai-project-one-319ae02e52.jpg", // Project One
+  643: "ai-zuckerwatt-w-ellen-allien-f7a767efaa.jpg", // Zuckerwatt w/ Ellen Allien
+  647: "ai-azyr-fatima-hajji-b3e376ee64.jpg", // Azyr & Fatima Hajji
+  653: "ai-lewis-ofman-au-sucre-3716e391fc.jpg", // Lewis OfMan au Sucre
+  655: "ai-tmf-trier-music-festival-66db7009a2.jpg", // TMF — Trier Music Festival
+  678: "ai-lane-8-at-new-century-306ac46478.jpg", // Lane 8 at New Century
+  682: "ai-frdag-einmusik-27b51303be.jpg", // Frædag: Einmusik
+  701: "ai-jackies-house-music-festival-lisboa-1a45a5e48c.jpg", // Jackies House Music Festival Lisboa
+  707: "ai-dusky-at-hangar-34-aa1d08ed5f.jpg", // Dusky at Hangar 34
+  709: "ai-romare-at-village-underground-a02178e04f.jpg", // Romare at Village Underground
+  719: "ai-cowgate-block-party-01dcf2d1d0.jpg", // Cowgate Block Party
+  722: "ai-2manydjs-at-vicar-street-d145c8f3b2.jpg", // 2manydjs at Vicar Street
+  725: "ai-romare-at-belgrave-music-hall-4a79ecbaa3.jpg", // Romare at Belgrave Music Hall
+  741: "ai-max-cooper-hard-club-b9f511fa46.jpg", // Max Cooper · Hard Club
+  742: "ai-curses-sala-nazca-aec50d2859.jpg", // Curses! · Sala Nazca
+  748: "ai-marshmello-alison-wonderland-at-the-o2-6fdd360e38.jpg", // Marshmello & Alison Wonderland at The O2
+  770: "ai-christian-loffler-teatre-coliseum-32b77ee563.jpg", // Christian Löffler · Teatre Coliseum
+  772: "ai-christian-loffler-casa-da-musica-13cac76649.jpg", // Christian Löffler · Casa da Música
+  773: "ai-christian-loffler-centro-cultural-de-belem-b32bddc8c8.jpg", // Christian Löffler · Centro Cultural de Belém
+  781: "ai-adam-f-at-castle-falcon-49824b426e.jpg", // Adam F at Castle & Falcon
+  811: "ai-verknipt-nye-eindhoven-dcab18e7bb.jpg", // Verknipt NYE Eindhoven
+  812: "ai-verknipt-nye-specials-antwerp-5a70cbfe6a.jpg", // Verknipt NYE Specials Antwerp
+  824: "ai-pact-joachim-pastor-joris-delacroix-teho-071851edb0.jpg", // PACT: Joachim Pastor, Joris Delacroix & Teho
+  841: "ai-joris-delacroix-au-boeuf-sur-le-toit-f8a4065269.jpg", // Joris Delacroix au Boeuf sur le Toit
+  850: "ai-eciton-gathering-5789e2bac6.jpg", // Eciton Gathering
+  851: "ai-s-xpress-92c2510b0b.jpg", // S Xpress
+  852: "ai-kitkatclub-au-bootshaus-22-aout-4f152ff422.jpg", // KitKatClub au Bootshaus – 22 août
+  853: "ai-the-avener-au-mas-des-escaravatiers-2c66503770.jpg", // The Avener au Mas des Escaravatiers
+  854: "ai-razzclub-wata-igarashi-alienata-be3f36c2e5.jpg", // RazzClub : Wata Igarashi & Alienata
+  855: "ai-pulse-surgeon-922559d953.jpg", // PULSE: Surgeon
+  856: "ai-bon-entendeur-au-toit-terrasse-de-la-friche-4c2de633cf.jpg", // Bon Entendeur au Toit Terrasse de la Friche
+  857: "ai-iam-productions-eli-brown-a-l-akvarium-3636508071.jpg", // IAM Productions : Eli Brown à l'Akvárium
+  858: "ai-rtm-fjaak-slam-nightwave-f151a56f93.jpg", // RTM: FJAAK & Slam & Nightwave
+  859: "ai-bootshaus-on-a-ship-vol-iv-dd1468c7cc.jpg", // Bootshaus on a Ship Vol. IV
+  860: "ai-fakear-a-l-atabal-12622b95c8.jpg", // Fakear à l'Atabal
+  861: "ai-fakear-au-centre-culturel-john-lennon-78e174b607.jpg", // Fakear au Centre Culturel John Lennon
+  862: "ai-pulse-spfdj-7a0c299a50.jpg", // PULSE: SPFDJ
+  863: "ai-vissa-xl-dee1043b2c.jpg", // VISSA XL
+  864: "ai-melodic-madness-e659e1e1db.jpg", // Melodic Madness
+  865: "ai-iam-productions-kobosil-a-l-akvarium-163562c3a3.jpg", // IAM Productions : Kobosil à l'Akvárium
+  866: "ai-stacked-x-lost-kink-b2b-raredub-nikki-nair-0d778fec28.jpg", // STACKED x LOST: KiNK b2b Raredub & Nikki Nair
+  867: "ai-yanamaste-at-kompass-all-night-long-e4db7a2b11.jpg", // Yanamaste at Kompass (All Night Long)
+  868: "ai-bourbourg-electro-night-b9c5bcb08c.jpg", // Bourbourg Électro Night
+  869: "ai-apparat-au-transbordeur-aedb78dadf.jpg", // Apparat au Transbordeur
+  870: "ai-autechre-au-cabaret-aleatoire-d335090e5b.jpg", // Autechre au Cabaret Aléatoire
+  871: "ai-obsimo-a-la-bulle-cafe-8872b77af4.jpg", // Obsimo à La Bulle-Café
+  872: "ai-cosmic-gate-au-bootshaus-53a8894e29.jpg", // Cosmic Gate au Bootshaus
+  873: "ai-la-nuit-etincelle-fdc2e5e87a.jpg", // La Nuit Étincelle
+  874: "ai-under-the-rave-bd8426b565.jpg", // Under The Rave
+  875: "ai-naft-at-effenaar-cff49498d6.jpg", // NAFT at Effenaar
+  876: "ai-paradise-city-festival-4d705069f0.jpg", // Paradise City Festival
+  877: "ai-untold-d70fcfdad4.jpg", // UNTOLD
+  878: "ai-glitch-festival-23c7273ca2.jpg", // Glitch Festival
+  879: "ai-liege-electronic-music-festival-907d8b9319.jpg", // Liège Electronic Music Festival
+  880: "ai-kamping-kitsch-club-ad46a348b8.jpg", // Kamping Kitsch Club
+  881: "ai-illusion-at-the-beach-feed95ca23.jpg", // Illusion at the Beach
+  882: "ai-the-day-before-tomorrow-f0882c7b6d.jpg", // The Day Before Tomorrow
+  883: "ai-ez-w-habstrakt-8e9385d806.jpg", // EZ! w/ Habstrakt
+  884: "ai-meakusma-festival-26bb1065e6.jpg", // Meakusma Festival
+  885: "ai-legends-of-retro-1cf671bd86.jpg", // Legends of Retro
+  886: "ai-highlight-festival-78eabd6836.jpg", // Highlight Festival
+  887: "ai-space-safari-692629bea7.jpg", // Space Safari
+  888: "ai-unfaced-w-jacidorex-07169c774f.jpg", // Unfaced w/ Jacidorex
+  889: "ai-djedjotronic-x-trio-xenakis-strates-ce1d742637.jpg", // Djedjotronic x Trio Xenakis — Strates
+  890: "ai-voodoo-village-e3119590d6.jpg", // Voodoo Village
+  891: "ai-hypercore-3-welcome-to-the-hyperverse-d371bd4165.jpg", // Hypercore 3 : Welcome to the Hyperverse
+  892: "ai-fuse-presents-andy-c-72808987d3.jpg", // Fuse presents Andy C
+  893: "ai-tech-noire-ft-b1980-fcda030042.jpg", // Tech Noire ft. B1980
+  894: "ai-reevolt-w-uberkikz-6be8fa3472.jpg", // Reevolt w/ Überkikz
+  895: "ai-meet-the-beat-w-avalon-major7-64d09052c2.jpg", // Meet The Beat w/ Avalon & Major7
+  896: "ai-fuse-presents-pact-b22b230b82.jpg", // Fuse presents PACT
+  897: "ai-flashforward-nicole-moudaber-7bf839b9ec.jpg", // Flashforward: Nicole Moudaber
+  898: "ai-sunset-festival-bbb958f9b4.jpg", // Sunset Festival
+  899: "ai-tatie-dee-barbara-butch-austher-dc76551d07.jpg", // Tatie Dee + Barbara Butch + Austher
+  900: "ai-karnage-grand-opening-b88d1b80fc.jpg", // Karnage Grand Opening
+  901: "ai-turtle-open-air-49fe255c77.jpg", // Turtle Open Air
+  902: "ai-fuse-presents-polar-inertia-luigi-tozzi-2026bfa120.jpg", // Fuse presents Polar Inertia & Luigi Tozzi
+  903: "ai-il-est-vilaine-radical-cute-d416982a4d.jpg", // Il Est Vilaine + Radical Cute
+  904: "ai-onda-mix-w-paloma-colombe-939ab0844a.jpg", // Onda Mix w/ Paloma Colombe
+  905: "ai-lessss-all-night-long-28ac2f6905.jpg", // LESSSS All Night Long
+  906: "ai-dirty-history-w-ed-rush-optical-a9ce25d843.jpg", // Dirty History w/ Ed Rush & Optical
+  907: "ai-star-warz-final-edition-0901f89265.jpg", // Star Warz: Final Edition
+  908: "ai-paul-kalkbrenner-machines-vivantes-b5c0bb047a.jpg", // Paul Kalkbrenner + Machines Vivantes
+  909: "ai-jasmine-not-jafar-lavomatic-dj-stronger-7060631d23.jpg", // Jasmine Not Jafar + Lavomatic + DJ Stronger
+  910: "ai-deux-chevaux-front-de-cadeaux-6c8ee91cc0.jpg", // Deux Chevaux: Front de Cadeaux
+  911: "ai-bunker-brestois-59b28a44e5.jpg", // Bunker Brestois
+  912: "ai-les-eurockeennes-en-residence-secondaire-ofenbac-75041724ab.jpg", // Les Eurockéennes en Résidence Secondaire : Ofenbach
+  913: "ai-busy-p-au-bikini-ca145ec9dd.jpg", // Busy P au Bikini
+  914: "ai-flashforward-kas-st-30843bf0eb.jpg", // Flashforward: KAS:ST
+  915: "ai-les-eurockeennes-en-residence-secondaire-i-hate--1d6aa6ae21.jpg", // Les Eurockéennes en Résidence Secondaire : I Hate Models
+  916: "ai-baby-berserk-jasmine-not-jafar-7ba47ae0cc.jpg", // Baby Berserk + Jasmine Not Jafar
+  917: "ai-instrumental-w-hilight-tribe-manudigital-8111b77aaf.jpg", // Instrumental w/ Hilight Tribe & Manudigital
+  918: "ai-lane-8-this-never-happened-at-ancienne-belgique-77c8a8ece4.jpg", // Lane 8: This Never Happened at Ancienne Belgique
+  919: "ai-la-p-tite-fumee-au-temps-machine-8ead4c5e32.jpg", // La P'tite Fumée au Temps Machine
+  920: "ai-hilight-tribe-instrumental-halloween-edition-3e9b792c0f.jpg", // Hilight Tribe Instrumental Halloween Edition
+  921: "ai-lena-willikens-rick-shiver-donia-bd2d121c00.jpg", // Lena Willikens + Rick Shiver + Donia
+  922: "ai-mo-juice-x-curfew-49e9061c28.jpg", // Mo' Juice x Curfew
+  923: "ai-flashforward-jonathan-kaspar-a9d87823da.jpg", // Flashforward: Jonathan Kaspar
+  924: "ai-full-circle-antwerp-a9757d894e.jpg", // Full Circle Antwerp
+  925: "ai-max-cooper-at-club-wintercircus-c12dcb55a4.jpg", // Max Cooper at Club Wintercircus
+  926: "ai-nuit-electro-cosmic-edition-bc6aa857b4.jpg", // Nuit Électro Cosmic Edition
+  927: "ai-fulgurances-electroniques-1f55345b58.jpg", // Fulgurances Électroniques
+  928: "ai-dombrance-fuzzy-4c908e52db.jpg", // Dombrance & Fuzzy
+  929: "ai-la-p-tite-fumee-au-6mic-c3a4fbbe51.jpg", // La P'tite Fumée au 6MIC
+  930: "ai-primate-presents-sticks-stones-8714dff2ab.jpg", // Primate presents Sticks & Stones
+  931: "ai-flashforward-dave-clarke-31b36285d5.jpg", // Flashforward: Dave Clarke
+  932: "ai-bellaire-at-ancienne-belgique-f66ba604d2.jpg", // Bellaire at Ancienne Belgique
+  933: "ai-full-circle-ghent-aff6185082.jpg", // Full Circle Ghent
+  934: "ai-nto-at-ancienne-belgique-f71b202b64.jpg", // NTO at Ancienne Belgique
+  935: "ai-modul-air-festival-5719707c9a.jpg", // MODUL'AIR Festival
+  936: "ai-sunrise-festival-e43ab52e64.jpg", // Sunrise Festival
+  937: "ai-dour-festival-c21a961425.jpg", // Dour Festival
 };
 
 /* Real event photography — organiser, venue and Wikimedia sources, downloaded and
@@ -1931,6 +1920,9 @@ export const PHOTO_CREDITS: Record<number, PhotoCredit> = {
   948: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Salle_Spectacle_Bataclan_-_Paris_XI_(FR75)_-_2026-01-18_-_1.jpg" },
 };
 /* PHOTO_CREDITS:end */
+
+/** Vraie photo plutôt que visuel généré — ce que `imageAlt()` doit dire au lecteur. */
+export const isPhotoOf = (e: RaveEvent): boolean => Boolean(PHOTOS[e.id]);
 
 /** Le crédit à afficher sous la photo d'un événement, s'il y en a un à afficher. */
 export const photoCredit = (e: RaveEvent): PhotoCredit | null =>
@@ -2671,16 +2663,9 @@ export const isSponsoredTicket = (e: RaveEvent): boolean => {
 export const ticketRel = (e: RaveEvent): string =>
   isSponsoredTicket(e) ? "sponsored noopener noreferrer" : "noopener noreferrer";
 
-export const ALL_GENRES = Object.keys(GENRES);
-export const genreSlug = (g: string): string =>
-  g.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
-export const genreFromSlug = (s: string): string | undefined =>
-  ALL_GENRES.find((g) => genreSlug(g) === s);
 export const eventsForGenre = (g: string): RaveEvent[] =>
   upcomingFirst(EVENTS.filter((e) => e.genres.includes(g)));
 
-export const slugify = (s: string): string =>
-  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
 /* A recurring festival has one entry per edition. The bare slug (/festival/sonar)
    belongs to the edition worth landing on — the next one if there is one, otherwise
@@ -2700,31 +2685,61 @@ export const FESTIVALS: RaveEvent[] = EVENTS.filter((e) => e.type === "Festival"
 export const eventPath = (e: RaveEvent): string =>
   e.type === "Festival" ? `/festival/${eventSlug(e)}` : `/event/${eventSlug(e)}`;
 
+/**
+ * Le catalogue tel qu'un composant **client** a le droit de le recevoir.
+ *
+ * `ExploreClient`, `MapView`, `CountryBrowser`, `NearMeView` et `AccountTabs` importaient
+ * `EVENTS` directement. Or importer quoi que ce soit de `lib/data.ts` depuis un composant
+ * client fait entrer le module entier dans le bundle : 870 événements, leurs descriptions
+ * françaises **et** anglaises, les maps d'affiches, de photos et de billetterie — 218 Ko
+ * compressés de JavaScript, sur la page d'accueil, /explore, /map et /account, pour des
+ * champs qu'aucune carte n'affiche jamais.
+ *
+ * Le serveur passe donc ce que ces écrans lisent réellement. Les champs sont **listés un
+ * par un et pas copiés en bloc** : un `{ ...e }` réintroduirait silencieusement le
+ * prochain champ volumineux ajouté à `RaveEvent`.
+ *
+ * `lineup` n'est gardé que pour /explore, dont la recherche plein texte le parcourt.
+ * Ailleurs il vaut 47 Ko pour rien.
+ */
+/** Un seul événement, prêt pour `<EventCard>` — la version unitaire de `cardEvents()`. */
+export const cardEvent = (e: RaveEvent): CardEvent => cardEvents([e], true)[0];
+
+export const cardEvents = (events: RaveEvent[] = EVENTS, keepLineup = false): CardEvent[] =>
+  events.map((e) => ({
+    id: e.id,
+    /* Les quatre champs dérivés du catalogue et des maps d'images. Ils sont résolus
+       ici, une fois, parce que `eventPath()`, `imageThumb()` et `PHOTOS` vivent tous
+       dans ce fichier : les lire depuis une carte rendue côté client y ferait entrer
+       les 870 événements. Voir le type `CardEvent` et l'en-tête de lib/display.ts. */
+    path: eventPath(e),
+    thumb: imageThumb(e),
+    bg: cardBg(e),
+    isPhoto: isPhotoOf(e),
+    title: e.title,
+    type: e.type,
+    genres: e.genres,
+    city: e.city,
+    country: e.country,
+    lat: e.lat,
+    lng: e.lng,
+    date: e.date,
+    ...(e.endDate ? { endDate: e.endDate } : {}),
+    time: e.time,
+    price: e.price,
+    ...(e.priceNote ? { priceNote: e.priceNote } : {}),
+    currency: e.currency,
+    venue: e.venue,
+    ...(e.venueEn ? { venueEn: e.venueEn } : {}),
+    trending: e.trending,
+    lineup: keepLineup ? e.lineup : [],
+    /* `desc` est obligatoire dans le type et n'est lu par aucune carte : la chaîne vide
+       coûte deux octets, la vraie description en coûte 230 en moyenne. */
+    desc: "",
+    ...(e.region ? { region: e.region } : {}),
+  }));
+
 export const COUNTRIES = [...new Set(EVENTS.map((e) => e.country))].sort();
-export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
-
-export const COUNTRY_FR: Record<string, string> = {
-  Netherlands: "Pays-Bas", Germany: "Allemagne", France: "France", UK: "Royaume-Uni",
-  Portugal: "Portugal", Belgium: "Belgique", Spain: "Espagne", Austria: "Autriche", Romania: "Roumanie",
-  Italy: "Italie", Croatia: "Croatie", "Czech Republic": "République tchèque", Hungary: "Hongrie",
-  Poland: "Pologne", Malta: "Malte", Serbia: "Serbie", Albania: "Albanie", Mexico: "Mexique",
-  Switzerland: "Suisse", Denmark: "Danemark", Sweden: "Suède", Ireland: "Irlande", Greece: "Grèce",
-  Bulgaria: "Bulgarie", Slovenia: "Slovénie", Luxembourg: "Luxembourg", Estonia: "Estonie",
-  Norway: "Norvège", Finland: "Finlande", Iceland: "Islande", Latvia: "Lettonie", Lithuania: "Lituanie",
-  Slovakia: "Slovaquie", "Bosnia and Herzegovina": "Bosnie-Herzégovine", Montenegro: "Monténégro",
-  "North Macedonia": "Macédoine du Nord", Cyprus: "Chypre", Georgia: "Géorgie",
-};
-export const COUNTRY_FLAG: Record<string, string> = {
-  Netherlands: "🇳🇱", Germany: "🇩🇪", France: "🇫🇷", UK: "🇬🇧", Portugal: "🇵🇹",
-  Belgium: "🇧🇪", Spain: "🇪🇸", Austria: "🇦🇹", Romania: "🇷🇴", Italy: "🇮🇹",
-  Croatia: "🇭🇷", "Czech Republic": "🇨🇿", Hungary: "🇭🇺", Poland: "🇵🇱", Malta: "🇲🇹",
-  Serbia: "🇷🇸", Albania: "🇦🇱", Mexico: "🇲🇽", Switzerland: "🇨🇭", Denmark: "🇩🇰",
-  Sweden: "🇸🇪", Ireland: "🇮🇪", Greece: "🇬🇷", Bulgaria: "🇧🇬", Slovenia: "🇸🇮",
-  Luxembourg: "🇱🇺", Estonia: "🇪🇪", Norway: "🇳🇴", Finland: "🇫🇮", Iceland: "🇮🇸",
-  Latvia: "🇱🇻", Lithuania: "🇱🇹", Slovakia: "🇸🇰", "Bosnia and Herzegovina": "🇧🇦",
-  Montenegro: "🇲🇪", "North Macedonia": "🇲🇰", Cyprus: "🇨🇾", Georgia: "🇬🇪",
-};
-
 export const GENRE_DESC_EN: Record<string, string> = {
   Techno: "The 4/4 heartbeat of Berlin & beyond", "Hard Techno": "Faster, harder, relentless BPM",
   "Acid Techno": "Squelching 303 hypnosis", Hardstyle: "Euphoric kicks & reverse bass",
@@ -2742,9 +2757,7 @@ export const GENRE_DESC_FR: Record<string, string> = {
   Warehouse: "Espaces industriels bruts", House: "Grooves soul toute la nuit",
 };
 
-/* localized accessors */
-export const countryLabel = (c: string, lang: Lang) =>
-  lang === "fr" ? COUNTRY_FR[c] ?? c : c;
+
 /**
  * Les genres d'un ensemble de dates, classés par un score pondéré.
  *
@@ -2779,24 +2792,11 @@ export const genreDescL = (g: string, lang: Lang) =>
 /** `desc` is the French source of truth; `descEn` overrides it on /en when present. */
 export const eventDescL = (e: RaveEvent, lang: Lang) =>
   lang === "en" ? e.descEn ?? e.desc : e.desc;
-/** Same for the venue: proper nouns need no translation, descriptive labels do
- *  ("300+ lieux dans Amsterdam" must not survive onto /en). */
-export const venueLabelL = (name: string, nameEn: string | undefined, lang: Lang) =>
-  lang === "en" ? nameEn ?? name : name;
-export const eventVenueL = (e: RaveEvent, lang: Lang) => venueLabelL(e.venue, e.venueEn, lang);
 
 /* ---------------- Upcoming vs. past ----------------
    Pages are statically generated, so "today" is frozen at build time; the root layout
    sets `revalidate` so the calendar is refreshed at least once a day. */
 
-/** Today as `yyyy-mm-dd` in Europe/Paris — the site's reference timezone. */
-export const todayISO = (): string => new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Paris" });
-/** Last day of an event (multi-day festivals stay live until their final day). */
-export const lastDay = (e: RaveEvent): string => e.endDate ?? e.date;
-/** True once the event's final day is behind us. */
-export const isPast = (e: RaveEvent, ref = todayISO()): boolean => lastDay(e) < ref;
-/** True while the event is running right now. */
-export const isLive = (e: RaveEvent, ref = todayISO()): boolean => e.date <= ref && lastDay(e) >= ref;
 /** Upcoming + currently running events, soonest first — what every listing shows. */
 export const upcoming = (list: RaveEvent[] = EVENTS, ref = todayISO()): RaveEvent[] =>
   list.filter((e) => !isPast(e, ref)).sort((a, b) => a.date.localeCompare(b.date));

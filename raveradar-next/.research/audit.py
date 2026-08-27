@@ -19,14 +19,25 @@ import os, re, sys, unicodedata
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 src = open(os.path.join(ROOT, "lib/data.ts")).read()
-places_src = open(os.path.join(ROOT, "lib/places.ts")).read()
+# Les couleurs de genre et les libellés de pays ont quitté data.ts pour `lib/display.ts`,
+# un module feuille : un composant client qui importe le catalogue embarque ses 830 Ko
+# dans le bundle du navigateur (voir l'en-tête de display.ts). Même chose pour `PLACES`,
+# passé dans `lib/places-list.ts`. L'audit lit donc les deux fichiers, concaténés — il
+# ne cherche que des déclarations, l'ordre n'a pas d'importance.
+src += "\n" + open(os.path.join(ROOT, "lib/display.ts")).read()
+places_src = (open(os.path.join(ROOT, "lib/places.ts")).read()
+              + "\n" + open(os.path.join(ROOT, "lib/places-list.ts")).read())
 
 GENRES = set(re.findall(r'^  "?([A-Za-z &]+?)"?: \{ c1:', src, re.M))
 # Les maps sont en format compact (plusieurs paires par ligne), clé nue ou entre
 # guillemets quand elle contient un espace.
 PAIR = re.compile(r'(?:"([^"]+)"|([A-Za-z][\w]*))\s*:\s*"([^"]+)"')
 def parse_map(name):
-    body = re.search(rf'{name}[^{{]*\{{(.*?)\n\}};', src, re.S).group(1)
+    # Ancré sur la déclaration : depuis que ces maps vivent dans `lib/display.ts`,
+    # `data.ts` en contient aussi le *nom*, dans sa ligne d'import — la chercher sans
+    # `export const` tombait dessus et rendait une map vide, donc tout le catalogue
+    # « absent de COUNTRY_FR ».
+    body = re.search(rf'export const {name}[^{{]*\{{(.*?)\n\}};', src, re.S).group(1)
     return {(a or b): v for a, b, v in PAIR.findall(body)}
 CFR, CFLAG = parse_map("COUNTRY_FR"), parse_map("COUNTRY_FLAG")
 

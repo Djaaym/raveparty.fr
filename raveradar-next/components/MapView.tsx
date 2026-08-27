@@ -2,19 +2,23 @@
 import "leaflet/dist/leaflet.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lang } from "@/lib/types";
-import { EVENTS, countryLabel, cardBg, imageThumb, eventPath, isPast } from "@/lib/data";
+import type { CardEvent } from "@/lib/types";
+import { countryLabel, isPast } from "@/lib/display";
 import { fmtDate, imageAlt } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 
 const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Trance", "House"];
 
-export default function MapView({ lang, today }: { lang: Lang; today: string }) {
+/** Le calendrier arrive en prop, allégé par `cardEvents()` : importer le catalogue
+ *  depuis un composant client embarquait 218 Ko compressés dans le bundle de /map,
+ *  descriptions FR et EN comprises, alors qu'un marqueur lit une latitude et un titre. */
+export default function MapView({ lang, today, catalogue }: { lang: Lang; today: string; catalogue: CardEvent[] }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   // The map is a "where can I go" tool — finished editions have no place on it.
   const events = useMemo(
-    () => EVENTS.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
-    [today],
+    () => catalogue.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
+    [catalogue, today],
   );
   const mapEl = useRef<HTMLDivElement>(null);
   const mapRef = useRef<any>(null);
@@ -50,7 +54,7 @@ export default function MapView({ lang, today }: { lang: Lang; today: string }) 
           `<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date, lang)} · ${e.city}, ${countryLabel(
             e.country,
             lang,
-          )}</p><a href="${p}${eventPath(e)}">${t("map.viewevent")}</a></div>`,
+          )}</p><a href="${p}${e.path}">${t("map.viewevent")}</a></div>`,
         );
         markersRef.current[e.id] = m;
       });
@@ -111,10 +115,10 @@ export default function MapView({ lang, today }: { lang: Lang; today: string }) 
                 }
               }}
             >
-              {imageThumb(e) ? (
-                <img className="mthumb" src={imageThumb(e)!} alt={imageAlt(e, lang)} loading="lazy" decoding="async" />
+              {e.thumb ? (
+                <img className="mthumb" src={e.thumb} alt={imageAlt(e, lang, e.isPhoto)} loading="lazy" decoding="async" />
               ) : (
-                <div className="mthumb" style={{ backgroundImage: cardBg(e) }} />
+                <div className="mthumb" style={{ backgroundImage: e.bg }} />
               )}
               <div>
                 <h4>{e.title}</h4>

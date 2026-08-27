@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { PLACES } from "@/lib/places";
-import { ALL_GENRES, COUNTRY_FLAG, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, COUNTRY_FLAG, FESTIVALS, eventSlug, genreSlug, liveEditions, nextUp, todayISO, upcoming, cardEvent } from "@/lib/data";
 import { COUNTRIES_INDEX, countryName, eventsForCountry } from "@/lib/countries";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -127,7 +127,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
               </h2>
               <div className="grid grid-4">
                 {next.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

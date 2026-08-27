@@ -169,15 +169,21 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 
 /* ----------------------------- HERO ------------------------------------ */
 .hero { position: relative; padding-top: 80px; padding-bottom: 64px; overflow: hidden; }
-/* AI-generated key visual (served from CDN; degrades gracefully to the gradient bg) */
+/* Le visuel lui-même est un <img> dans Hero.tsx — une URL enterrée ici n'était
+   trouvable ni par le preload scanner, ni par Google Images, et sans `alt`. Ce
+   conteneur ne porte plus que ce qui relève bien du style : le masque radial,
+   l'opacité et le lent zoom. */
 .hero-photo {
   position: absolute; inset: 0; z-index: -2; opacity: .42;
-  background-image:
-    linear-gradient(180deg, rgba(5,6,8,.35) 0%, rgba(5,6,8,.65) 60%, var(--black) 100%),
-    url("https://d8j0ntlcm91z4.cloudfront.net/user_3EfATp4Hvlogg4NEZfgyJXfo5Sh/hf_20260604_115823_221ae9a2-2422-4def-ae5a-a9a4d6b1ace9.png");
-  background-size: cover; background-position: center;
   mask-image: radial-gradient(80% 80% at 50% 20%, #000 35%, transparent 80%);
   animation: heroZoom 24s var(--ease) infinite alternate;
+}
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
+/* Le dégradé qui fond l'image dans le noir de la page, tel qu'il était empilé sur
+   le background-image — donc à l'intérieur du masque et de l'opacité, comme avant. */
+.hero-photo::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(5,6,8,.35) 0%, rgba(5,6,8,.65) 60%, var(--black) 100%);
 }
 @keyframes heroZoom { to { transform: scale(1.08); } }
 .hero-grid {
@@ -316,6 +322,11 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 
 /* ----------------------------- FILTER LAYOUT --------------------------- */
 .explore-layout { display: grid; grid-template-columns: 280px 1fr; gap: 32px; align-items: start; }
+/* /organizer réutilise `.explore-layout` mais inverse ses colonnes : le formulaire à
+   droite, l'aperçu de l'affiche à gauche. En classes et non en style inline, pour que
+   le repli à une colonne du breakpoint ci-dessous puisse les annuler. */
+.org-form { grid-column: 1; order: 2; }
+.org-preview { grid-column: 2; order: 1; }
 .filters { position: sticky; top: 90px; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 22px; background: linear-gradient(160deg, rgba(255,255,255,.03), transparent); }
 .filter-group { padding-block: 18px; border-bottom: 1px solid var(--line-soft); }
 .filter-group:last-child { border-bottom: 0; }
@@ -459,7 +470,11 @@ select.input option { background: var(--anthracite); }
 /* ----------------------------- FORMS / ORGANIZER ----------------------- */
 .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 .field { display: flex; flex-direction: column; gap: 8px; }
-.field label { font-size: .82rem; color: var(--grey); font-weight: 500; }
+/* `.field-label` : le même rendu, sans la promesse d'un <label>. Un titre de bloc
+   qui ne pointe sur aucun contrôle (« Affiche », au-dessus d'un bouton de dépôt de
+   fichier) est annoncé comme une étiquette orpheline par les lecteurs d'écran. */
+.field label, .field .field-label { font-size: .82rem; color: var(--grey); font-weight: 500; }
+.field .field-label { display: block; }
 .field.full { grid-column: span 2; }
 textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .upload { border: 2px dashed var(--line); border-radius: var(--r-lg); padding: 40px; text-align: center; color: var(--grey); cursor: pointer; transition: all .3s; }
@@ -536,6 +551,10 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .grid-4 { grid-template-columns: repeat(3,1fr); }
   .genres { grid-template-columns: repeat(4,1fr); }
   .explore-layout, .map-layout, .event-layout { grid-template-columns: 1fr; }
+  /* Sans ça, l'aperçu de /organizer reste assigné à une colonne 2 qui n'existe plus :
+     la grille en crée une implicite et la page déborde de 142 px. L'aperçu passe en
+     tête, comme sur la version deux colonnes. */
+  .org-form, .org-preview { grid-column: 1; }
   .filters, .ticket-box, .map-list { position: static; }
   .map-list { flex-direction: row; max-height: none; overflow-x: auto; }
   .mini { min-width: 240px; }
@@ -1075,8 +1094,35 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   to { transform: translateY(0); }
 }
 .hero-h1-in { animation: hero-h1-in .7s cubic-bezier(.22, 1, .36, 1) both; }
+
+/* Les entrées du hero et les révélations au défilement, en CSS.
+ *
+ * Elles étaient rendues par framer-motion — 35 Ko de JavaScript compressé, chargés et
+ * hydratés sur la page d'accueil pour faire monter trois blocs de vingt pixels. Le
+ * même argument que pour le h1 juste au-dessus, et que pour `EventCard` avant lui : ce
+ * qu'un navigateur sait faire seul en trois lignes de keyframes n'a pas à passer par
+ * une bibliothèque d'animation. Le délai se règle par `--d` sur l'élément.
+ *
+ * `both` retient l'état initial avant le départ ET l'état final après : sans lui, un
+ * bloc en `opacity: 0` réapparaîtrait brutalement à la fin de l'animation.
+ */
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(var(--rise, 22px)); }
+  to   { opacity: 1; transform: none; }
+}
+.rise-in { animation: rise-in .7s cubic-bezier(.22, 1, .36, 1) var(--d, 0s) both; }
+.fade-in { --rise: 0px; animation: rise-in .7s ease var(--d, 0s) both; }
+
+/* Le scroll-reveal : l'élément attend `.is-in`, posé par l'IntersectionObserver de
+   components/Reveal.tsx. L'animation part en pause, donc le bloc est invisible tant
+   que rien ne l'a déclenché — exactement ce que faisait framer-motion, qui sérialisait
+   son `initial={{opacity: 0}}` en style inline dans le HTML du serveur. La différence
+   est le filet : le `<noscript>` des deux layouts racines annule `.reveal`, si bien
+   qu'un lecteur sans JavaScript voit la page entière au lieu d'une page blanche. */
+.reveal { animation: rise-in .7s cubic-bezier(.22, 1, .36, 1) var(--d, 0s) both; animation-play-state: paused; }
+.reveal.is-in { animation-play-state: running; }
 @media (prefers-reduced-motion: reduce) {
-  .hero-h1-in { animation: none; }
+  .hero-h1-in, .rise-in, .fade-in, .reveal { animation: none; }
 }
 
 /* ----------------------------- ALERTS ---------------------------------- */

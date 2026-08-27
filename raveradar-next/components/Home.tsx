@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, COUNTRIES, GENRES, genreSlug, genreDescL, featured, upcoming, todayISO } from "@/lib/data";
+import { ALL_GENRES, COUNTRIES, GENRES, cardEvents, countryLabel, genreSlug, genreDescL, featured, upcoming, todayISO, cardEvent } from "@/lib/data";
 import { getDict, langPrefix } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -34,7 +34,16 @@ export default function Home({ lang }: { lang: Lang }) {
       <div className="blob b1" />
       <div className="blob b2" />
       <Nav lang={lang} />
-      <Hero lang={lang} count={live.length} countries={COUNTRIES.length} />
+      {/* Les deux listes du formulaire, aplaties ici : <Hero> est un composant client,
+          et lui laisser importer `COUNTRIES`/`ALL_GENRES` embarquait tout `lib/data.ts`
+          dans le bundle de la page d'accueil. Voir le commentaire de Hero.tsx. */}
+      <Hero
+        lang={lang}
+        count={live.length}
+        countries={COUNTRIES.length}
+        countryOptions={COUNTRIES.map((c) => ({ v: c, l: countryLabel(c, lang) }))}
+        genreOptions={ALL_GENRES}
+      />
 
       {/* marquee */}
       <div className="marquee">
@@ -63,7 +72,7 @@ export default function Home({ lang }: { lang: Lang }) {
           </Reveal>
           <div className="grid grid-4">
             {trending.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
         </div>
@@ -82,7 +91,10 @@ export default function Home({ lang }: { lang: Lang }) {
               </div>
             </div>
           </Reveal>
-          <CountryBrowser lang={lang} today={today} />
+          {/* Les dates à venir seulement, et sans les champs qu'une carte n'affiche pas :
+              le composant est client, lui laisser importer le catalogue chargeait
+              218 Ko de JS sur la page d'accueil. Voir `cardEvents()`. */}
+          <CountryBrowser lang={lang} today={today} events={cardEvents(live)} />
         </div>
       </section>
 

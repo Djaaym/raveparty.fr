@@ -141,10 +141,11 @@ export const sameAs = (s: Socials | undefined): string[] =>
   s ? socialLinks(s).map((l) => l.url) : [];
 
 /** Permalien du lecteur officiel Instagram pour un code de post. */
-export const embedUrl = (code: string): string =>
-  `https://www.instagram.com/p/${code}/embed/captioned/`;
-
-export const postUrl = (code: string): string => `https://www.instagram.com/p/${code}/`;
+/* Définies dans `lib/instagram.ts`, un module sans aucun import, et ré-exportées ici
+   pour les appelants serveur. `<InstagramFeed>` doit taper le module feuille : passer
+   par ce fichier-ci embarquerait les trois maps ci-dessous, et `slugify` avec elles
+   tout le catalogue, dans le bundle client de chaque fiche. */
+export { embedUrl, postUrl } from "./instagram";
 
 /* Les maps sont générées — voir .research/socials/ingest.py. */
 /* SOCIALS:start */

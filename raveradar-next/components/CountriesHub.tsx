@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, todayISO } from "@/lib/data";
+import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, todayISO, cardEvent } from "@/lib/data";
 import { COUNTRIES_INDEX, countryName, eventsForCountry } from "@/lib/countries";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -81,7 +81,7 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
           </h2>
           <div className="grid grid-4">
             {next.slice(0, 8).map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} today={today} />
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
 

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { genreSlug } from "@/lib/data";
-import { placeBySlug } from "@/lib/places";
+/* Les deux modules feuilles, pas `lib/data` ni `lib/places` : le pied de page est rendu
+   à l'intérieur de composants client (la carte, la géoloc), et un import du catalogue
+   depuis là embarque les 870 événements dans le bundle de ces pages. */
+import { genreSlug } from "@/lib/display";
+import { placeBySlug } from "@/lib/places-list";
 import { getDict, langPrefix } from "@/lib/i18n";
 
 /* Sitewide footer links: the highest-volume genres and places from docs/seo-keywords.md.

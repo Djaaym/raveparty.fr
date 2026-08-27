@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, eventPath, genreSlug, nextUp, todayISO, upcoming } from "@/lib/data";
+import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming, cardEvent, eventPath } from "@/lib/data";
 import { ARTISTS, artistGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
 
@@ -279,7 +279,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
               </h2>
               <div className="grid grid-4">
                 {next.map((e) => (
-                  <EventCard key={e.id} e={e} lang={lang} today={today} />
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
                 ))}
               </div>
             </>

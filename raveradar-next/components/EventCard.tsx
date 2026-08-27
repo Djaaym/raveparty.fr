@@ -1,6 +1,11 @@
 import Link from "next/link";
-import type { Lang, RaveEvent } from "@/lib/types";
-import { cardBg, countryLabel, eventPath, imageThumb, isPast, lastDay } from "@/lib/data";
+import type { CardEvent, Lang } from "@/lib/types";
+/* `@/lib/display` et pas `@/lib/data` : cette carte est rendue aussi bien depuis un
+   composant serveur que depuis /explore, /map ou la page d'accueil, qui sont clients.
+   Le moindre import de `lib/data.ts` y ferait entrer les 870 événements du catalogue —
+   218 Ko compressés de JavaScript pour afficher une vignette. Tout ce qui vient du
+   catalogue (chemin, vignette, dégradé) est donc résolu en amont : voir `cardEvents()`. */
+import { countryLabel, isPast, lastDay } from "@/lib/display";
 import { fmtDate, imageAlt, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import FavButton from "./FavButton";
@@ -19,19 +24,20 @@ export default function EventCard({
   lang,
   today,
 }: {
-  e: RaveEvent;
+  /** Un événement déjà préparé — `cardEvent(e)` côté serveur, `cardEvents()` pour une
+   *  liste. C'est ce qui porte le chemin de la fiche, la vignette et le dégradé. */
+  e: CardEvent;
   lang: Lang;
   today?: string;
 }) {
   const t = getDict(lang);
   // Always the event itself. The artist page used to override this with a
   // `/show/{artist}-{venue}-{date}` URL; those pages are gone (301 → the event).
-  const to = `${langPrefix(lang)}${eventPath(e)}`;
+  const to = `${langPrefix(lang)}${e.path}`;
   // `today` is passed down from the server where the distinction matters on screen;
   // without it the card just renders neutrally.
   const done = today ? isPast(e, today) : false;
   const multiDay = lastDay(e) !== e.date;
-  const thumb = imageThumb(e);
 
   return (
     <article className={`card${done ? " is-past" : ""}`}>
@@ -44,20 +50,20 @@ export default function EventCard({
       </div>
       <Link className="card-link" href={to}>
         <div className="card-media">
-          {thumb ? (
+          {e.thumb ? (
           // 560×700 is exactly what the crop is encoded at — declaring it keeps the 4:5
           // box reserved before the file lands, so a grid never reflows as it fills in.
             <img
               className="poster"
-              src={thumb}
-              alt={imageAlt(e, lang)}
+              src={e.thumb}
+              alt={imageAlt(e, lang, e.isPhoto)}
               width={560}
               height={700}
               loading="lazy"
               decoding="async"
             />
           ) : (
-            <div className="poster" style={{ backgroundImage: cardBg(e) }} />
+            <div className="poster" style={{ backgroundImage: e.bg }} />
           )}
           <div className="card-body">
             <div className="card-date">

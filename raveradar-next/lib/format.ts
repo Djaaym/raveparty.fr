@@ -1,6 +1,8 @@
 import type { Lang, RaveEvent } from "./types";
 import { DICT } from "./i18n";
-import { PHOTOS, countryLabel, eventVenueL } from "./data";
+/* `./display` et pas `./data` : ce module est importé par des composants client, et
+   `lib/data.ts` embarque tout le catalogue avec lui. Voir l'en-tête de display.ts. */
+import { countryLabel, eventVenueL } from "./display";
 
 export function fmtDate(iso: string, lang: Lang): string {
   const d = new Date(iso + "T00:00:00");
@@ -19,8 +21,13 @@ export function fmtDayLong(iso: string, lang: Lang): string {
  * so none of them carried one — no accessible name, and nothing for image search to
  * index. Wording stays honest about the source: `PHOTOS` are real photographs of the
  * event or the room, everything else is an AI-generated key visual and says so.
+ *
+ * `isPhoto` arrive en paramètre au lieu d'être lu dans `PHOTOS` : cette map vit dans
+ * `lib/data.ts`, et la lire ici ferait entrer le catalogue entier dans le bundle de
+ * chaque composant client qui affiche une carte. Côté serveur, `isPhotoOf(e)` répond ;
+ * côté client, le champ voyage sur le `CardEvent`.
  */
-export function imageAlt(e: RaveEvent, lang: Lang): string {
+export function imageAlt(e: RaveEvent, lang: Lang, isPhoto: boolean): string {
   const where = `${eventVenueL(e, lang)}, ${e.city}, ${countryLabel(e.country, lang)}`;
   // Not fmtDate(): its uppercased "05 SEPT. 2026" reads as shouting inside a sentence,
   // and the spelled-out month is what image search actually matches on.
@@ -29,7 +36,7 @@ export function imageAlt(e: RaveEvent, lang: Lang): string {
     month: "long",
     year: "numeric",
   });
-  if (PHOTOS[e.id]) {
+  if (isPhoto) {
     return lang === "fr"
       ? `Photo de ${e.title} — ${where}, ${when}`
       : `Photo of ${e.title} — ${where}, ${when}`;
