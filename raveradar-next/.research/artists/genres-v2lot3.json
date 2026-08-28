@@ -1,0 +1,574 @@
+[
+ {
+  "name": "Mad Dog",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_Mad_Dog",
+   "https://www.djguide.nl/djinfo.p?djid=5164&language=en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bloody Mary",
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://djmag.com/longreads/bloody-mary-keeping-fire-burning",
+   "https://partyflock.nl/en/artist/56703/biography"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aurora Halal",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Ambient"
+  ],
+  "sources": [
+   "https://montreal.mutek.org/en/artists/aurora-halal",
+   "https://nowadays.nyc/resident/aurora-halal/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "gyrofield",
+  "main": [
+   "Drum & Bass",
+   "Techno"
+  ],
+  "sub": [
+   "Jungle",
+   "Breakbeat",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://montreal.mutek.org/en/artists/gyrofield",
+   "https://www.rollingstone.com/music/music-features/gyrofield-electronic-producer-interview-1235289268/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "KREAM",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Melodic House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kream",
+   "https://www.insomniac.com/music/artists/kream/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alison Wonderland",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Trap",
+   "Future Bass",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alison_Wonderland",
+   "https://www.allmusic.com/artist/alison-wonderland-mn0001868950"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "La Fuente",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Electro House"
+  ],
+  "sources": [
+   "https://www.djguide.nl/djinfo.p?djid=4850&language=en",
+   "https://partyflock.nl/artist/40210/biography"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jane Fitz",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Acid",
+   "Ambient"
+  ],
+  "sources": [
+   "https://tokyo.mutek.org/en/artists/jane-fitz",
+   "https://mixmag.net/feature/in-session-jane-fitz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Curses!",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Italo Disco",
+   "New Beat",
+   "EBM"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/462438-cover-story-curses-new-wave-acid-love-from-outer-space",
+   "https://djmag.com/features/curses-interview-passion-and-attitude-eskimo-recordings"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Feral",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Deep Techno",
+   "Dub Techno",
+   "Tribal"
+  ],
+  "sources": [
+   "https://hypnusrecords.com/feral",
+   "https://mnmt.no/magazine/2020/12/02/an-interview-with-feral-about-his-new-label-laube-rouge-and-his-interest-in-old-amusement-parks/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Grace Dahl",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Peak Time Techno",
+   "Hypnotic Techno"
+  ],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/grace-dahl/20716/",
+   "https://909originals.com/2025/03/26/the-most-exciting-part-of-this-journey-is-that-nothing-is-ever-static-grace-dahl-chats-to-909originals/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaufmann",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://electronicgroove.com/eg-artists/eg-techno153-kaufmann/",
+   "https://www.amsterdam-dance-event.nl/en/program/2026/awakenings-ade-drumcode/2806492/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Isaiah",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/isaiah/197658/",
+   "https://wearesoundspace.com/radion-amsterdam-record-label-decennial-revelry/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jordan Brando",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://clubsweat.bandcamp.com/album/rockin",
+   "https://themusic.com.au/features/meet-sweat-it-out-s-new-signing-jordan-brando-and-his-steamy-new-thumper-rockin/vvF80NPS1dQ/13-09-18"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Laure Croft",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Acid"
+  ],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/laure-croft/2050849/",
+   "https://mixmagnl.com/read/laure-croft-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aja Gulris",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://backyard-sessions.se/aja-gulris",
+   "https://soundcloud.com/ajagulris"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hedemann",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://www.bevrijdingsfestivalfryslan.nl/artiest/hedemann/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Galrav",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://soundcloud.com/galrav",
+   "https://hardtechnolivesets.com/hard-techno-djs-list/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Anders HP",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://soundcloud.com/anders_hp",
+   "https://soundcloud.com/anders_hp/culture-box-debut-1"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bow Miller",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Slow House",
+   "Deep House",
+   "Organic House"
+  ],
+  "sources": [
+   "https://mixmag.net/read/new-nightclub-kat-4-opens-in-copenhagen-news",
+   "https://bandcamp.com/bowmiller"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DJ Breakfast",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://ra.co/events/2154919",
+   "https://www.facebook.com/DrumAndBassKlubben/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kofu",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Hard House",
+   "Gqom",
+   "Bass"
+  ],
+  "sources": [
+   "https://ra.co/dj/kofu/biography",
+   "https://clubkaiku.fi/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Vaï",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/vai"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Azuur",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/azuur",
+   "https://soundcloud.com/azuur-music"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dan Bono",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/dan-bono"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bardix le Gaulois",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Celtic Techno"
+  ],
+  "sources": [
+   "https://wartiste.com/en/artists/bardix-le-gaulois",
+   "https://bardixlegaulois.bandcamp.com/track/tape-du-pied-gaulois"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Apocalipse",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/lossa"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kendal",
+  "main": [
+   "Trance",
+   "House"
+  ],
+  "sub": [
+   "Italo Disco",
+   "EBM",
+   "Synthwave"
+  ],
+  "sources": [
+   "https://www.undrtone.co.uk/post/kendal-on-nostalgia-futurism-and-the-rise-of-ritmo-fatale",
+   "https://www.phonographecorp.com/chroniques/interviews/ritmo-fatale-kendal-mulla-amp-paul-guglielmi/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Karakals",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Open Format"
+  ],
+  "sources": [
+   "https://karakals.be/",
+   "https://nl.wikipedia.org/wiki/Karakals"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "5NAPBACK",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Electro House",
+   "Progressive House",
+   "Hardstyle"
+  ],
+  "sources": [
+   "https://cnrrecords.be/en/portfolio/5napback/",
+   "https://5napback.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "EMS",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/melodic-madness-returns-with-exclusive-shows-and-special-reunions/",
+   "https://www.1001tracklists.com/tracklist/qvlgjq1/ems-the-hardstyle-family-jay-reeve-presents-melodic-madness-013-poppodium-tilburg-netherlands-2024-02-03.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Charlotte Preckler",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Bounce"
+  ],
+  "sources": [
+   "https://soundcloud.com/charlotte-preckler/hard-bounce-bday-mix",
+   "https://soundcloud.com/blackteethrecords/black-teeth-radio-charlotte-preckler-dox-takeover-charlotte-preckler-30032023"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dave Replay",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Electro House",
+   "Big Room"
+  ],
+  "sources": [
+   "https://bootshaus.tv/artists/dave-replay/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Drea",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Vocal House",
+   "Afro House",
+   "Bass House"
+  ],
+  "sources": [
+   "https://hoer.live/artist/drea/",
+   "https://ra.co/dj/drea-es/biography"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Hypnosis Therapy",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Experimental"
+  ],
+  "sources": [
+   "https://www.roskilde-festival.dk/en/line-up/music/hypnosis-therapy",
+   "https://www.reeperbahnfestival.com/en/act/hypnosis-therapy"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jennifer Lovell",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Electro",
+   "Deep House"
+  ],
+  "sources": [
+   "https://drumshedslondon.com/event/la-discotheque-10th-anniversary/",
+   "https://djmag.com/features/recognise-075-jennifer-loveless-interview-mix"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Flora",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hypnotic Techno"
+  ],
+  "sources": [
+   "https://domainelemezo.fr/typologie/techno/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Harry Nash",
+  "main": [
+   "Trance",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://rausgegangen.de/en/events/wonderful-days-the-classic-rave-festival-stuttgart-vol-ii-0/",
+   "https://ra.co/dj/harrynash/biography"
+  ],
+  "confidence": "medium"
+ }
+]

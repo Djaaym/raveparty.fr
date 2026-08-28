@@ -1,0 +1,587 @@
+[
+ {
+  "name": "Seth Troxler",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seth_Troxler",
+   "https://musicbrainz.org/artist/d701634c-95a1-4244-92d6-903113bd79d3"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Carl Craig",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Detroit Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carl_Craig",
+   "https://musicbrainz.org/artist/6732e9f3-5f24-4ba4-aef1-a2a49442b96b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dave Clarke",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dave_Clarke_(DJ)",
+   "https://musicbrainz.org/artist/0d7fffb1-c282-4995-96a9-f6f2ea3c86e0"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Octo Octa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Octo_Octa",
+   "https://musicbrainz.org/artist/3fa65334-e3c4-4e83-b24f-5af5535ba462"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Axwell",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Progressive House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Axwell",
+   "https://musicbrainz.org/artist/4539050e-e355-4c39-bdfa-e74cb67ce365"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Etienne de Crécy",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "French House",
+   "Electro House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/%C3%89tienne_de_Cr%C3%A9cy",
+   "https://musicbrainz.org/artist/f174152d-da33-46bd-8cb4-c8d24b834bf7"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Radical Redemption",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Radical_Redemption",
+   "https://musicbrainz.org/artist/4cdd32b8-9889-46cd-8b86-6cf9311965b9"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sherelle",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Footwork"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sherelle",
+   "https://musicbrainz.org/artist/f05d8710-bc94-4c83-a027-fa7b9744ab4d"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Busy P",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Electro",
+   "French House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pedro_Winter",
+   "https://musicbrainz.org/artist/03ba9e7e-0452-4f39-bd3d-c29671155122"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ Isaac",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://nl.wikipedia.org/wiki/DJ_Isaac",
+   "https://musicbrainz.org/artist/c46d3fa5-83a7-4a07-b2c4-428946bf84d9"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fox Stevenson",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Melodic Dubstep"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fox_Stevenson",
+   "https://musicbrainz.org/artist/0328349c-0d97-406b-9182-2be9025f7504"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Laurent Garnier",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Acid Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Laurent_Garnier",
+   "https://musicbrainz.org/artist/ec477866-bfaa-48e0-affd-1c151ef61b7b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Robert Hood",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Robert_Hood",
+   "https://musicbrainz.org/artist/e8a61400-baf7-4fb3-a3e3-c9e7b665547f"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Swedish House Mafia",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Progressive House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swedish_House_Mafia",
+   "https://musicbrainz.org/artist/99075985-0d80-4692-a15e-b16f78831792"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Muzz",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Neurofunk"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Muzz_(musician)",
+   "https://musicbrainz.org/artist/6cfdec30-4730-4513-bfb4-5db3ff566900"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Vertile",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/7233886-Vertile",
+   "https://musicbrainz.org/artist/83cb5a5e-d5c9-4d63-9917-a02e2e7d4e7b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Phuture Noize",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [],
+  "sources": [
+   "https://nl.wikipedia.org/wiki/Phuture_Noize",
+   "https://musicbrainz.org/artist/5347c7dc-a8bd-4a05-8ae1-a17fb1e6a388"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Partyraiser",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo",
+   "Gabber"
+  ],
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Wesley_van_Swol",
+   "https://nl.wikipedia.org/wiki/Partyraiser"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Timmy Trumpet",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Electro House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Timmy_Trumpet",
+   "https://musicbrainz.org/artist/07aceecf-0fa2-4d51-865f-273313cba931"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lane 8",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Melodic House",
+   "Progressive House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://anjunadeep.com/artists/57317-lane-8",
+   "https://musicbrainz.org/artist/bd052b81-353a-4bce-8cd8-72ba9d4ce414"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Argy",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://grayarea.co/artists/argy",
+   "https://xceed.me/blog/en/interview-with-argy/",
+   "https://musicbrainz.org/artist/ace06a49-c395-40f6-acaf-3964a8e06431"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "g-HA & Olanskii",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco"
+  ],
+  "sources": [
+   "https://jaegeroslo.no/residents/g-ha-olanskii/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "LIEKS",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://mach9agency.com/artists/lieks/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Darrell Pulse",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.thebongoclub.co.uk/event/pulse-slam/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alycia Bezgo",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Trance"
+  ],
+  "sources": [
+   "https://paramountartists.com/artist/alycia-bezgo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Samuel Moriero",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/samuel-moriero"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Noiseflow",
+  "main": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.hdrr.info/new-deutscher-krach-releases"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "2HOT2PLAY",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hard House",
+   "Trance"
+  ],
+  "sources": [
+   "https://www.dourfestival.eu/en/artiste/266-2hot2play/",
+   "https://musicbrainz.org/artist/193398c0-9db2-48d8-b7a0-0e71096389a1"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Luuk Van Dijk",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/luuk-van-dijk/904/",
+   "https://musicbrainz.org/artist/ad509d02-14ec-4a8e-8350-ff1dc4f163b6"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Melvo Baptiste",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://djmag.com/features/home-melvo-baptiste-interview-glitterbox-remedy-project"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cinthie",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://toolroomrecords.com/news/qa-cinthie/",
+   "https://musicbrainz.org/artist/846f980d-246b-4087-840b-ce8d21dd574b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Isabel Soto",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Ambient",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/isabel-soto/386520/",
+   "https://ostgut.bandcamp.com/album/morphosis"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cédric",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic House",
+   "Afro House"
+  ],
+  "sources": [
+   "https://www.rockerill.com/agenda/flashforward-onyvaa/49497/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jasmine Not Jafar",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://www.printemps-bourges.com/artiste/jasmine-not-jafar/",
+   "https://musicbrainz.org/artist/ca3bbd82-3f3c-4036-86e7-bcd72ddd86db"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MRAK",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://electronicgroove.com/tale-of-us-carmine-conte-debuts-solo-project-mrak/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Adam Ten",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Indie Dance"
+  ],
+  "sources": [
+   "https://strangetalent.agency/adam-ten"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kamafaka",
+  "main": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Frenchcore"
+  ],
+  "sources": [
+   "https://xceed.me/en/artist/kamafaka"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SLVL",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.nxnewcastle.com/events/slush/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Sabres of Paradise",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Dub Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://nuits-sonores.com/en/artiste/the-sabres-of-paradise-live-2/",
+   "https://en.wikipedia.org/wiki/The_Sabres_of_Paradise"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Benga",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Benga_(musician)",
+   "https://en.wikipedia.org/wiki/Magnetic_Man",
+   "https://musicbrainz.org/artist/d3ba1c50-d403-40df-8eac-80d74551a7e3"
+  ],
+  "confidence": "medium"
+ }
+]

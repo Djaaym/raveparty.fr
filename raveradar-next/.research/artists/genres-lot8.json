@@ -1,0 +1,580 @@
+[
+ {
+  "name": "Apparat",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Ambient",
+   "IDM",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Apparat_(musician)",
+   "https://api.discogs.com/database/search?artist=Apparat&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Indira Paganotto",
+  "main": [
+   "Psytrance",
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Psy-Trance Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Indira_Paganotto",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Indira%20Paganotto&fmt=json",
+   "https://api.discogs.com/database/search?artist=Indira+Paganotto&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Christian Löffler",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Ambient",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Christian_L%C3%B6ffler",
+   "https://api.discogs.com/database/search?artist=Christian+L%C3%B6ffler&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "FJAAK",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Electro",
+   "Acid"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:FJAAK&fmt=json",
+   "https://api.discogs.com/database/search?artist=FJAAK&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mathame",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Mathame&fmt=json",
+   "https://api.discogs.com/database/search?artist=Mathame&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sub Zero Project",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Sub%20Zero%20Project&fmt=json",
+   "https://api.discogs.com/database/search?artist=Sub+Zero+Project&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Call Super",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Minimal Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Call%20Super&fmt=json",
+   "https://api.discogs.com/database/search?artist=Call+Super&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Horse Meat Disco",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Nu-Disco"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Horse%20Meat%20Disco&fmt=json",
+   "https://api.discogs.com/database/search?artist=Horse+Meat+Disco&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Marco Carola",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marco_Carola",
+   "https://api.discogs.com/database/search?artist=Marco+Carola&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paco Osuna",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Paco%20Osuna&fmt=json",
+   "https://api.discogs.com/database/search?artist=Paco+Osuna&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Purple Disco Machine",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Nu-Disco",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Purple_Disco_Machine",
+   "https://api.discogs.com/database/search?artist=Purple+Disco+Machine&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sammy Virji",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Bassline",
+   "Speed Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sammy_Virji",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Sammy%20Virji&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Wilkinson",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wilkinson_(musician)",
+   "https://api.discogs.com/database/search?artist=Wilkinson&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Acid Pauli",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Downtempo",
+   "Minimal Techno",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Acid%20Pauli&fmt=json",
+   "https://api.discogs.com/database/search?artist=Acid+Pauli&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Alix Perez",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass",
+   "Halftime",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Alix%20Perez&fmt=json",
+   "https://api.discogs.com/database/search?artist=Alix+Perez&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Anthony Rother",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Ambient"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Anthony_Rother",
+   "https://api.discogs.com/database/search?artist=Anthony+Rother&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bellaire",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Bellaire&fmt=json",
+   "https://api.discogs.com/database/search?artist=Bellaire&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bredren",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Bredren&fmt=json",
+   "https://api.discogs.com/database/search?artist=Bredren&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Danth",
+  "main": [
+   "House",
+   "EDM",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Future House",
+   "Big Room"
+  ],
+  "sources": [
+   "https://bootshaus.tv/artists/danth/",
+   "https://api.discogs.com/database/search?artist=Danth&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DJ Cringey",
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Hypertechno",
+   "Hard House",
+   "EBM"
+  ],
+  "sources": [
+   "http://www.spinartistagency.com/dod-copy",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:DJ%20Cringey&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Felix Jaehn",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Tropical House",
+   "Dance-pop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Felix_Jaehn",
+   "https://api.discogs.com/database/search?artist=Felix+Jaehn&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Justin Jay",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.grammy.com/news/justin-jay-joy-djing-expanding-his-horizons-and-how-fans-think-hes-still-college/",
+   "https://eclecticartists.com/justin-jay/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Korolova",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Korolova&fmt=json",
+   "https://api.discogs.com/database/search?artist=Korolova&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kuko",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://technomusicworld.com/artist/kukocologne/about",
+   "https://44labelgroup.bandcamp.com/album/44004",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Kuko&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Luciid",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Dark Techno"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Luciid&fmt=json",
+   "https://api.discogs.com/database/search?artist=Luciid&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Masters at Work",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Garage House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Masters%20at%20Work&fmt=json",
+   "https://api.discogs.com/database/search?artist=Masters+at+Work&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Monolink",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Progressive House",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Monolink",
+   "https://api.discogs.com/database/search?artist=Monolink&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nia Archives",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nia_Archives",
+   "https://api.discogs.com/database/search?artist=Nia+Archives&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pawsa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Pawsa&fmt=json",
+   "https://api.discogs.com/database/search?artist=Pawsa&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Rey Colino",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Progressive House",
+   "Electro",
+   "Acid"
+  ],
+  "sources": [
+   "https://www.electricsoul.com/artist/rey-colino",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Rey%20Colino&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "S.P.Y",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass",
+   "Neurofunk",
+   "Jungle"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:S.P.Y&fmt=json",
+   "https://api.discogs.com/database/search?artist=S.P.Y&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Blaze",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "French House",
+   "Electro"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Blaze_(band)",
+   "https://api.discogs.com/database/search?artist=The+Blaze&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Yves Deruyter",
+  "main": [
+   "Trance",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Acid"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Yves_Deruyter",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Yves%20Deruyter&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ely Oaks",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Tech House",
+   "Dance-pop"
+  ],
+  "sources": [
+   "https://de.wikipedia.org/wiki/Ely_Oaks",
+   "https://www.jinx-music.com/elyoaksepk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hedex",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jump Up"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-hedex/",
+   "https://api.discogs.com/database/search?artist=Hedex&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Skepta",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Grime"
+  ],
+  "sources": [
+   "https://mixmag.net/read/skepta-jammer-house-label-mas-tiempo-mas-murder-ep-news",
+   "https://en.wikipedia.org/wiki/Skepta",
+   "https://www.hiibiza.com/artists/2026/skepta"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Spoink",
+  "main": [
+   "Techno",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Acid Techno"
+  ],
+  "sources": [
+   "https://spoinkmusic.fr/",
+   "https://electro-news.eu/spoink-le-groupe-francais-qui-casse-les-codes-en-melangeant-le-rock-et-la-techno/"
+  ],
+  "confidence": "high"
+ }
+]

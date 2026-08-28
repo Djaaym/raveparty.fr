@@ -1,0 +1,712 @@
+{
+ "acid-arab": {
+  "area": "Paris",
+  "begin": "2012-08",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f32e763e-be49-44e2-bde0-27c8e5686992",
+  "name": "Acid Arab",
+  "tags": [
+   [
+    "electronic",
+    4
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "dabke",
+    2
+   ],
+   [
+    "arabic",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "international",
+    1
+   ],
+   [
+    "international fusion",
+    1
+   ],
+   [
+    "électronique",
+    1
+   ],
+   [
+    "middle eastern traditions",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "adaro": {
+  "area": "Netherlands",
+  "begin": "1980-07-29",
+  "country": "NL",
+  "disambiguation": "Dutch DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "ef9e239e-b957-4321-b709-db232ca4ab30",
+  "name": "Adaro",
+  "tags": [
+   [
+    "hardstyle",
+    3
+   ],
+   [
+    "gunz for hire",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "adaro",
+    1
+   ],
+   [
+    "dj adaro",
+    1
+   ],
+   [
+    "g4h",
+    1
+   ],
+   [
+    "raw hardstyle",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "ame": {
+  "area": "Germany",
+  "begin": "2001",
+  "country": "DE",
+  "disambiguation": "German house/techno duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "3bbdd45f-5654-47f3-b6c0-d806752b9fcf",
+  "name": "Âme",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "hip hop",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "indie dance",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "tech-house",
+    1
+   ],
+   [
+    "afro house",
+    1
+   ],
+   [
+    "trap",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "future bass",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "b-ery": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": "Bram Steermann",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "84da497c-9662-47c3-b65a-ce1cd8a9318b",
+  "name": "BØĘRY",
+  "tags": [],
+  "type": null
+ },
+ "g-ha-olanskii": {
+  "found": false
+ },
+ "joachim-pastor": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "d5e6dad5-b01b-4f4e-8642-ea79a69a6ebc",
+  "name": "Joachim Pastor",
+  "tags": [
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "deep tech",
+    1
+   ],
+   [
+    "organic house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "mau-p": {
+  "area": "Netherlands",
+  "begin": "1996-10-26",
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "429ea265-e9d0-40fc-b193-e1e4b6b7fbdf",
+  "name": "Mau P",
+  "tags": [],
+  "type": "Person"
+ },
+ "modeselektor": {
+  "area": "Germany",
+  "begin": "1996",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8a7a4e72-a099-425f-8238-80706fc1c746",
+  "name": "Modeselektor",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "european",
+    1
+   ],
+   [
+    "german",
+    1
+   ],
+   [
+    "idm",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "rock and indie",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "novah": {
+  "area": "Köln",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Electronic music by Daniel Schmitz",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "6062f6e9-b592-4cbb-bbda-23028df5f0ec",
+  "name": "NOVAH",
+  "tags": [],
+  "type": "Person"
+ },
+ "oklou": {
+  "area": "Paris",
+  "begin": "1993-04-23",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "13e2db47-3010-48b8-a8b9-667551f37119",
+  "name": "Oklou",
+  "tags": [
+   [
+    "indietronica",
+    4
+   ],
+   [
+    "ambient pop",
+    4
+   ],
+   [
+    "art pop",
+    4
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "ambient",
+    2
+   ],
+   [
+    "alternative pop",
+    2
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "lo-fi",
+    1
+   ],
+   [
+    "ambient trance",
+    1
+   ],
+   [
+    "dream pop",
+    1
+   ],
+   [
+    "alternative rnb",
+    1
+   ],
+   [
+    "chillwave",
+    1
+   ],
+   [
+    "2010s",
+    1
+   ],
+   [
+    "alternative r&b",
+    1
+   ],
+   [
+    "2020s",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "peggy-gou": {
+  "area": "Berlin",
+  "begin": "1991-07-03",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "4c41d78d-9dd5-430d-81ea-286052158293",
+  "name": "Peggy Gou",
+  "tags": [
+   [
+    "dance",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "raresh": {
+  "area": "Romania",
+  "begin": null,
+  "country": "RO",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "956abcde-09f7-4983-acbc-ceb5d166fcf8",
+  "name": "Raresh",
+  "tags": [],
+  "type": "Person"
+ },
+ "robot-rock-alive": {
+  "area": null,
+  "begin": "2021",
+  "country": null,
+  "disambiguation": "Daft Punk tribute band",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "bc2ebbe9-6765-4f96-9385-9ebc3a757b0a",
+  "name": "Robot Rock Alive",
+  "tags": [],
+  "type": "Group"
+ },
+ "sigma": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": "UK drum & bass production duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "89ec6f82-1ad7-42d5-983e-ebf90f6868c8",
+  "name": "Sigma",
+  "tags": [
+   [
+    "drum and bass",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "stephan-bodzin": {
+  "area": "Germany",
+  "begin": "1969-08-04",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6f027cd7-c2e8-4569-8922-aa2c9a503e65",
+  "name": "Stephan Bodzin",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "sub-zero-project": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": "hardstyle group",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "a4c4ba39-14e7-44a3-a121-e86244c13f95",
+  "name": "Sub Zero Project",
+  "tags": [
+   [
+    "hardstyle",
+    3
+   ]
+  ],
+  "type": "Group"
+ },
+ "tiesto": {
+  "area": "Netherlands",
+  "begin": "1969-01-17",
+  "country": "NL",
+  "disambiguation": "Dutch DJ and record producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "aabb1d9f-be12-45b3-a84d-a1fc3e8181fd",
+  "name": "Tiësto",
+  "tags": [
+   [
+    "trance",
+    9
+   ],
+   [
+    "electronic",
+    6
+   ],
+   [
+    "dance",
+    4
+   ],
+   [
+    "house",
+    4
+   ],
+   [
+    "electro house",
+    4
+   ],
+   [
+    "dutch",
+    2
+   ],
+   [
+    "dance-pop",
+    1
+   ],
+   [
+    "progressive trance",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "vinyl",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "uplifting trance",
+    1
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "remixes",
+    0
+   ],
+   [
+    "english",
+    0
+   ],
+   [
+    "dance and electronica",
+    0
+   ],
+   [
+    "dutch trance",
+    0
+   ],
+   [
+    "tiësto traffic",
+    0
+   ],
+   [
+    "big room house",
+    0
+   ],
+   [
+    "big room trance",
+    0
+   ],
+   [
+    "dutch house",
+    -1
+   ]
+  ],
+  "type": "Person"
+ },
+ "timmy-trumpet": {
+  "area": "Australia",
+  "begin": "1982-06-09",
+  "country": "AU",
+  "disambiguation": "Australian DJ and producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "07aceecf-0fa2-4d51-865f-273313cba931",
+  "name": "Timmy Trumpet",
+  "tags": [
+   [
+    "house",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "trym": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": "dance producer from France",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "101c6e44-1f68-41d7-bc70-b9ddba411e90",
+  "name": "Trym",
+  "tags": [],
+  "type": "Person"
+ },
+ "vieze-asbak": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "99a996a9-57d3-49bb-a763-816ea4002127",
+  "name": "Vieze Asbak",
+  "tags": [],
+  "type": null
+ }
+}

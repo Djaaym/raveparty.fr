@@ -1,0 +1,10 @@
+[
+ {
+  "name": "Fused",
+  "reason": "« Fused » au Cavo Paradiso (Mykonos) est le nom d'une soirée/marque de l'établissement, pas d'un artiste : les deux dates du catalogue sont les soirées Fused du club. MusicBrainz ne connaît sous ce nom que trois projets sans rapport (électropop UK, trio techno suédois, punk brésilien) et Discogs agrège des styles incohérents. Aucune page ne rattache un DJ « Fused » à ces dates — dans le doute, on n'écrit pas.",
+  "sources": [
+   "https://www.cavoparadiso.gr/events.asp",
+   "https://musicbrainz.org/ws/2/artist/?query=Fused&fmt=json"
+  ]
+ }
+]

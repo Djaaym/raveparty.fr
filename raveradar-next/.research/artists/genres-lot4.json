@@ -1,0 +1,614 @@
+[
+ {
+  "name": "Marcel Dettmann",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Electro"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcel_Dettmann",
+   "https://musicbrainz.org/artist/6d7238a1-f0bc-4408-93fc-8ec64c06f7af",
+   "https://api.discogs.com/database/search?artist=Marcel+Dettmann&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Digitalism",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Electro House",
+   "Electroclash"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Digitalism_(band)",
+   "https://musicbrainz.org/artist/7b52603c-a84c-4a76-8dc8-899bb4dd9fa7",
+   "https://api.discogs.com/database/search?artist=Digitalism&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Thylacine",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Ambient",
+   "Downtempo",
+   "Deep House"
+  ],
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Thylacine_(musicien)",
+   "https://musicbrainz.org/artist/e095407c-4103-4c66-b616-0dab1db05106",
+   "https://api.discogs.com/database/search?artist=Thylacine&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dom Dolla",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/9b8548a9-5991-42a9-ba96-fe83bd238b7a",
+   "https://api.discogs.com/database/search?artist=Dom+Dolla&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hardwell",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room",
+   "Progressive House",
+   "Electro House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/170d6637-36e0-49dd-a225-c4fd5b77a285",
+   "https://api.discogs.com/database/search?artist=Hardwell&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Raresh",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/956abcde-09f7-4983-acbc-ceb5d166fcf8",
+   "https://api.discogs.com/database/search?artist=Raresh&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Trym",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Hard House",
+   "Acid"
+  ],
+  "sources": [
+   "https://www.connectedartists.com/artists/trym",
+   "https://api.discogs.com/database/search?artist=Trym&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bedouin",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Melodic House",
+   "Deep House",
+   "Organic House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bedouin_(DJs)",
+   "https://musicbrainz.org/artist/c9b34ac9-83ab-44f4-8358-348d8ea8d6c2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Damian Lazarus",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Damian_Lazarus",
+   "https://musicbrainz.org/artist/aee558d0-034f-4ef6-a530-76280723656b",
+   "https://api.discogs.com/database/search?artist=Damian+Lazarus&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Franky Rizardo",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/a9b88c14-4191-43bf-9895-bd5c7c6a38a8",
+   "https://api.discogs.com/database/search?artist=Franky+Rizardo&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "John Summit",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Tech House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/2547c5e3-314c-4332-981d-f18c902a4086",
+   "https://api.discogs.com/database/search?artist=John+Summit&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Luciano",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luciano_(DJ)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "NEGITIV",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://negitiv.com/",
+   "https://yap-agency.com/roster/negitiv/",
+   "https://api.discogs.com/database/search?artist=NEGITIV&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pawlowski",
+  "main": [
+   "Hard Techno",
+   "Acid Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Hard House"
+  ],
+  "sources": [
+   "https://thesource.com/2024/02/05/mystery-dj-pawlowski-entrances-global-dance-scene/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Raxeller",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.fazemag.de/raxeller-industrial-hardtechno-breakout-without-the-social-media-hype/",
+   "https://magneticmag.com/2025/07/interview-industrial-techno-artist-raxeller-sacred-court-revised-records-falsive-records/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sound Rush",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/72d65c02-1b1f-4458-9ab8-6544eea4bdf0",
+   "https://api.discogs.com/database/search?artist=Sound+Rush&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "808 State",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Acid House",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/808_State",
+   "https://api.discogs.com/database/search?artist=808+State&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Adrenalize",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/183b3df1-9ded-4277-ab11-a6fcb9a7cf44",
+   "https://api.discogs.com/database/search?artist=Adrenalize&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Amor",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Afro House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.sxpress.fr/artiste/amor/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Audrey Danza",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://www.omni-artists.co.uk/artists/audrey-danza",
+   "https://api.discogs.com/database/search?artist=Audrey+Danza&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Black Coffee",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Afro House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Black_Coffee_(DJ)",
+   "https://musicbrainz.org/artist/7fa03932-cd68-498f-aa4f-d4a6a2ce6071"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Carl Cox",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carl_Cox",
+   "https://api.discogs.com/database/search?artist=Carl+Cox&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cynthia Spiering",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Acid",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/cynthia-spiering/60216/",
+   "https://www.djguide.nl/djinfo.p?djid=9891&language=en"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dennis Cruz",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dennis_Cruz",
+   "https://api.discogs.com/database/search?artist=Dennis+Cruz&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "East End Dubs",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/f78155b6-3f84-45f5-a017-f59dab33a2e7",
+   "https://api.discogs.com/database/search?artist=East+End+Dubs&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "John Digweed",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Progressive House",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Digweed",
+   "https://api.discogs.com/database/search?artist=John+Digweed&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kloud",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://wearekloud.bandcamp.com/",
+   "https://www.insomniac.com/music/artists/kloud/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Liquidfive",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Electro House"
+  ],
+  "sources": [
+   "https://rickyleepotts.com/2024/05/liquidfive-interview.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Main Phase",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Speed Garage",
+   "Jungle"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-main-phase/",
+   "https://musicbrainz.org/artist/463134ce-d510-4f9d-a84a-19fb3d706ff5",
+   "https://api.discogs.com/database/search?artist=Main+Phase&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Michael Amani",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.armadamusicpublishing.com/roster/michael-amani",
+   "https://musicbrainz.org/artist/f2ca2713-b1b3-4279-addb-abbb66093586"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nastia",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://www.raw-people.com/artists/nastia",
+   "https://api.discogs.com/database/search?artist=Nastia&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Octave One",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Detroit Techno",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/db856b35-33f2-4cf9-87cc-9e4e33772d40",
+   "https://api.discogs.com/database/search?artist=Octave+One&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Project One",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Project_One",
+   "https://musicbrainz.org/artist/a31c42d5-ca7d-4ecf-a324-d04ad09ea0d2",
+   "https://api.discogs.com/database/search?artist=Project+One&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roots Zombie",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dub",
+   "Jungle",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://rootszombie.bandcamp.com/",
+   "https://musicbrainz.org/artist/04f94a42-8a15-4769-95ae-5a679c8534a8",
+   "https://api.discogs.com/database/search?artist=Roots+Zombie&type=release&per_page=50"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sasha",
+  "main": [
+   "House",
+   "Trance"
+  ],
+  "sub": [
+   "Progressive House",
+   "Progressive Trance",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sasha_(DJ)",
+   "https://musicbrainz.org/artist/68be8273-cb12-4053-964d-157b7e5cf265",
+   "https://api.discogs.com/database/search?artist=Sasha&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sofia Kourtesis",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Microhouse"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sofia_Kourtesis",
+   "https://musicbrainz.org/artist/2f8d2007-7666-45af-89d4-dec4921dce04",
+   "https://api.discogs.com/database/search?artist=Sofia+Kourtesis&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tauceti",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.cyclicdefrost.com/2025/11/listen-to-a-premiere-of-lyon-based-taucetis-debut-album/",
+   "https://musicbrainz.org/artist/a84e60b1-0508-4c70-92f2-d6b6b29f0119",
+   "https://api.discogs.com/database/search?artist=Tauceti&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "TITI",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.technoairlines.com/festival/rotterdam-rave-festival-rotterdam-netherlands-2026",
+   "https://musicbrainz.org/artist/90bb4363-a769-45b7-9a65-5fd889439cd1"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Wata Igarashi",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Ambient",
+   "Dub Techno"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/4088c783-576a-47dc-9434-1cd787589654",
+   "https://api.discogs.com/database/search?artist=Wata+Igarashi&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ }
+]

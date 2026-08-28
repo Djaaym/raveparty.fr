@@ -1,0 +1,545 @@
+[
+ {
+  "name": "KRUELTY",
+  "main": [
+   "Hard Techno",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Industrial Hardcore"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/kruelty-becomes-part-of-theracords-mainlabel-extremely-dark-lugubrious/",
+   "https://limitless-agency.com/kruelty/",
+   "https://musicbrainz.org/artist/10154cd1-3622-41c3-8f1b-d2d7dad2855b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Coone",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Jumpstyle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Coone",
+   "https://musicbrainz.org/artist/8ec5439a-ff50-4b0f-9e75-fc3e517e75ff"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Len Faki",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Len_Faki",
+   "https://www.last.fm/music/Len+Faki/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "David Guetta",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Electro House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/David_Guetta",
+   "https://musicbrainz.org/artist/302bd7b9-d012-4360-897a-93b00c855680"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gerd Janson",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/gerd-janson/538/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paul van Dyk",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Progressive Trance",
+   "Uplifting Trance"
+  ],
+  "sources": [
+   "https://de.wikipedia.org/wiki/Paul_van_Dyk",
+   "https://musicbrainz.org/artist/092ca127-2e07-4cbd-9cba-e412b4ddddd9"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Traumer",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Deep House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/319c89bc-c7a3-4139-8386-a2a5b48b4ed7",
+   "https://xlr8r.com/features/20-questions-traumer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "BØĘRY",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Bochka"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/159515/biography",
+   "https://www.djguide.nl/djinfo.p?djid=9985&language=en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cosmic Gate",
+  "main": [
+   "Trance"
+  ],
+  "sub": [],
+  "sources": [
+   "https://de.wikipedia.org/wiki/Cosmic_Gate",
+   "https://fr.wikipedia.org/wiki/Cosmic_Gate"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fadi Mohem",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Dub Techno"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/fadi-mohem/33902/",
+   "https://spandau20.bandcamp.com/album/spnd20-008"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Johannes Schuster",
+  "main": [
+   "Hard Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://electronicgroove.com/artist-profile-johannes-schuster/",
+   "https://soma-records.bandcamp.com/album/panic-ep"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lilly Palmer",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lilly_Palmer",
+   "https://djmag.com/cover-features/lilly-palmer-strength-through-techno"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Natte Visstick",
+  "main": [
+   "Hard Techno",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Memetechno"
+  ],
+  "sources": [
+   "https://nl.wikipedia.org/wiki/Natte_Visstick",
+   "https://esns.nl/nl/festival/artists/natte-visstick/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pat B",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Jumpstyle"
+  ],
+  "sources": [
+   "https://www.hardcultr.com/culture/jumpstyle-revival-2026/",
+   "https://shop.dirtyworkz.com/artists/pat-b/",
+   "https://edm.fandom.com/wiki/Pat_B"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ran-D",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ran-D",
+   "https://musicbrainz.org/artist/aa901f16-b91a-476f-ad41-ad09348c2244"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Silva Bumpa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Bassline",
+   "Speed Garage"
+  ],
+  "sources": [
+   "https://djmag.com/features/fresh-kicks-209-silva-bumpa",
+   "https://www.nts.live/artists/117959-silva-bumpa"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "2ManyDJs",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Soulwax",
+   "https://musicbrainz.org/artist/82dc508a-dbda-4954-aedc-28895edfa42e"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Adjuzt",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://hardstyle.com/en/artists/adjuzt",
+   "https://musicbrainz.org/artist/7851e487-87a7-42ca-8fb6-c6a1d62754c5"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Amber Broos",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Amber_Broos",
+   "https://www.awakenings.com/en/artists/amber-broos/285599/",
+   "https://www.vrt.be/vrtnws/nl/2023/07/22/leuvense-amber-broos-20-is-jongste-vrouwelijke-dj-op-mainstage/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "ARTBAT",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Artbat",
+   "https://www.globalbrandsmagazine.com/who-is-artbat-meet-arthur-and-bash-the-ukrainian-electronic-music-duo/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cara Elizabeth",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://hoer.live/artist/cara-elizabeth-2/",
+   "https://blade-festival.de/en/2024/artists/cara-elizabeth/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Complex",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [],
+  "sources": [
+   "https://bootshaus.tv/events/into-the-madness-pre-party-weekender-w-ran-d-and-more/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Davyboi",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Hard Dance",
+   "Eurodance"
+  ],
+  "sources": [
+   "https://davyboi.de/",
+   "https://www.electriclove.at/en/artist/davyboi/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Djerry C",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/djerry-c/16056/",
+   "https://www.superstardeejay.com/mix008-djerry-c/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Furyan",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/53657/biography",
+   "https://musicbrainz.org/artist/f14806bf-30d8-4080-8e4a-a97be84c4a99"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joakim Lundell",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Dance Pop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joakim_Lundell",
+   "https://www.viberate.com/artist/joakim-lundell/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kangding Ray",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kangding_Ray",
+   "https://musicbrainz.org/artist/db9ee7c8-d0b7-4004-972b-62d99dcd2d15"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Maddix",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Big Room",
+   "Acid"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Maddix_(DJ)",
+   "https://edmtrain.com/news/interview-maddix-reveals-his-journey-becoming-a-big-room-techno-pioneer-214"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Metrik",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass",
+   "Neurofunk"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Metrik",
+   "https://www.allmusic.com/artist/metrik-mn0001448740",
+   "https://www.last.fm/music/Metrik/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "N-Vitral",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Industrial Hardcore",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://edm.fandom.com/wiki/N-Vitral",
+   "https://musicbrainz.org/artist/853fe829-eeb0-4163-a84c-76a0899c7395"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nyra",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Bounce"
+  ],
+  "sources": [
+   "https://scandal.events/lineup"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ron Trent",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Chicago House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ron_Trent",
+   "https://musicbrainz.org/artist/3af43a8a-f0b0-4dda-8cd8-ff4941c05316"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sandrien",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Acid Techno",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/sandrien/1364/",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/sandrien/7090/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SNTS",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://djmag.com/news/snts-drops-dark-dusty-techno-figures-mist-premiere"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tassery",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://6amgroup.com/articles/music-interviews/whats-in-your-toolbox-tassery"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Saints",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/the-saints-from-the-bar-to-ultra-miami/",
+   "https://edmhousenetwork.com/the-saints-hard-dances-fastest-rising-duo-set-their-sights-on-global-domination/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Virginia",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://old.ostgut.de/booking/artist/virginia",
+   "https://www.thevinylfactory.com/news/steffi-and-virginia-new-double-ep-ostgut-ton-work-a-change-vinyl"
+  ],
+  "confidence": "high"
+ }
+]

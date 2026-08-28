@@ -1,8 +1,9 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming, cardEvent, eventPath } from "@/lib/data";
-import { ARTISTS, artistGenres } from "@/lib/artists";
+import { ARTISTS, artistGenres, artistSubGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
+import { ARTIST_PHOTOS, artistPhoto } from "@/lib/artist-photos";
 
 import { VENUES } from "@/lib/venues";
 import { fmtDate } from "@/lib/format";
@@ -32,15 +33,27 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
      des libellés : "Hard Techno" écrit sur chaque ligne qui le joue, c'est le même
      kilo-octet répété des centaines de fois pour deux mots. */
   const gi = new Map(ALL_GENRES.map((g, i) => [g, i]));
+  /* Les sous-genres sont internés de la même façon, mais dans leur propre table : ils
+     ne sont pas des clés de GENRES (ils n'ont pas de page), et ils ne sont connus qu'à
+     l'exécution — d'où la table construite ici plutôt qu'une constante. */
+  const subLabels: string[] = [];
+  const si = new Map<string, number>();
+  const subIndex = (label: string): number => {
+    const hit = si.get(label);
+    if (hit !== undefined) return hit;
+    si.set(label, subLabels.push(label) - 1);
+    return subLabels.length - 1;
+  };
   const artistItems = ARTISTS.map((a) => ({
     slug: a.slug,
     name: a.name,
     n: a.eventIds.length,
-    photo: BIOS[a.slug]?.photo?.file,
+    photo: artistPhoto(a.slug)?.file,
     g: artistGenres(a)
       .slice(0, 3)
       .map((g) => gi.get(g))
       .filter((i): i is number => i !== undefined),
+    sg: artistSubGenres(a).slice(0, 2).map(subIndex),
   }));
 
   /* La vraie « présentation » d'un artiste, c'est sa bio sourcée : on ne peut pas en
@@ -56,12 +69,12 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       const next = live
         .filter((e) => a.eventIds.includes(e.id))
         .sort((x, y) => x.date.localeCompare(y.date))[0];
-      return { a, bio, next, genres: artistGenres(a).slice(0, 4) };
+      return { a, bio, photo: artistPhoto(a.slug), next, genres: artistGenres(a).slice(0, 3), subs: artistSubGenres(a).slice(0, 2) };
     });
   /* A CC BY photo may be reused *provided* the author and licence travel with it —
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
      line, so the page carries them all here, once, for the portraits it shows. */
-  const credits = ARTISTS.map((a) => BIOS[a.slug]?.photo && { name: a.name, ...BIOS[a.slug]!.photo! })
+  const credits = ARTISTS.map((a) => ARTIST_PHOTOS[a.slug] && { name: a.name, ...ARTIST_PHOTOS[a.slug]! })
     .filter((c): c is { name: string; file: string; author: string; license: string; page: string } => Boolean(c))
     .sort((x, y) => x.name.localeCompare(y.name));
 
@@ -160,13 +173,13 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                 {t("artists.detaillead").replace("{n}", String(detailed.length))}
               </p>
               <div className="artcards">
-                {featured.map(({ a, bio, next: nextDate, genres }) => (
+                {featured.map(({ a, bio, photo, next: nextDate, genres, subs }) => (
                   <article className="artcard" key={a.slug}>
-                    {bio.photo ? (
+                    {photo ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
                       <img
                         className="artcard-photo"
-                        src={`/artists/${bio.photo.file}`}
+                        src={`/artists/${photo.file}`}
                         alt=""
                         width={64}
                         height={64}
@@ -206,6 +219,12 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                             {g}
                           </Link>
                         ))}
+                        {/* Les sous-genres ne sont pas des liens : « Industrial Techno »
+                            n'a pas de page, et lui en donner une reviendrait à publier
+                            des centaines d'URLs vides. */}
+                        {subs.map((g) => (
+                          <span key={g}>{g}</span>
+                        ))}
                       </div>
                       {nextDate && (
                         <p className="artcard-next">
@@ -244,6 +263,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             artistsLabel={t("dyn.artists")}
             jumpLabel={t("artists.jump")}
             genres={ALL_GENRES}
+            subs={subLabels}
           />
 
           {credits.length > 0 && (

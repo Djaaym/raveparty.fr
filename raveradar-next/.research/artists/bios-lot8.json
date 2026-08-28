@@ -1,0 +1,519 @@
+[
+ {
+  "name": "Apparat",
+  "bio_fr": "Apparat est le nom de scène de Sascha Ring, musicien électronique allemand né le 27 juin 1978 à Quedlinburg. Ancien copropriétaire du label Shitkatapult, il a commencé par une techno de dancefloor avant de se tourner vers des formes ambient et un travail centré sur le design sonore plutôt que sur le rythme. Il forme aussi le duo Moderat avec Modeselektor.",
+  "bio_en": "Apparat is the stage name of Sascha Ring, a German electronic musician born on 27 June 1978 in Quedlinburg. Formerly co-owner of the Shitkatapult label, he started out with dancefloor-oriented techno before shifting towards ambient work, more interested in designing sounds than beats. He also records as Moderat together with Modeselektor.",
+  "origin": "Quedlinburg, Allemagne",
+  "labels": [
+   "Shitkatapult",
+   "Mute"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Apparat_(musician)",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Apparat&fmt=json"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Apparat_(musician)_in_2009.jpg"
+ },
+ {
+  "name": "Indira Paganotto",
+  "bio_fr": "Indira Paganotto, née le 30 mai 1992, est une DJ et productrice espagnole de techno. Sa discographie mêle techno et psytrance, un croisement qu'elle a porté sur des labels comme KNTXT et Second State avant de fonder son propre label, ARTCORE.",
+  "bio_en": "Indira Paganotto, born 30 May 1992, is a Spanish techno DJ and record producer. Her discography sits between techno and psy-trance, a crossover she released on labels such as KNTXT and Second State before founding her own label, ARTCORE.",
+  "origin": "Espagne",
+  "labels": [
+   "ARTCORE",
+   "KNTXT",
+   "Second State"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Indira_Paganotto",
+   "https://api.discogs.com/database/search?artist=Indira+Paganotto&type=release"
+  ]
+ },
+ {
+  "name": "Christian Löffler",
+  "bio_fr": "Christian Löffler est un musicien allemand né à Greifswald, sur la côte balte. Il mêle techno, deep house, ambient et électronique, et a publié six albums studio, majoritairement sur le label Ki Records.",
+  "bio_en": "Christian Löffler is a German musician born in Greifswald, on the Baltic coast. He plays a mix of techno, deep house, ambient and electronic music, and has released six studio albums, mostly on Ki Records.",
+  "origin": "Greifswald, Allemagne",
+  "labels": [
+   "Ki Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Christian_L%C3%B6ffler",
+   "https://api.discogs.com/database/search?artist=Christian+L%C3%B6ffler&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:20230922_MarvinContessi_@ctssi_Freitag_ChristianLoeffler_GrosseFreiheit36_MCR62553_(1).jpg"
+ },
+ {
+  "name": "FJAAK",
+  "bio_fr": "FJAAK est un projet techno berlinois formé en 2009. Ses disques sont parus sur 50Weapons puis sur son propre label FJAAK, et sa production croise la techno avec des rythmes breakbeat et electro.",
+  "bio_en": "FJAAK is a Berlin techno project formed in 2009. Its records came out on 50Weapons and then on its own FJAAK label, crossing techno with breakbeat and electro rhythms.",
+  "origin": "Berlin, Allemagne",
+  "since": 2009,
+  "labels": [
+   "FJAAK",
+   "50Weapons"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:FJAAK&fmt=json",
+   "https://api.discogs.com/database/search?artist=FJAAK&type=release"
+  ]
+ },
+ {
+  "name": "Sub Zero Project",
+  "bio_fr": "Sub Zero Project est un duo hardstyle néerlandais. Ses sorties paraissent sur Dirty Workz et sur son label Anarchy, avec un son classé raw hardstyle.",
+  "bio_en": "Sub Zero Project is a Dutch hardstyle duo. Their releases come out on Dirty Workz and on their own Anarchy label, in a raw hardstyle vein.",
+  "origin": "Pays-Bas",
+  "labels": [
+   "Dirty Workz",
+   "Anarchy"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Sub%20Zero%20Project&fmt=json",
+   "https://api.discogs.com/database/search?artist=Sub+Zero+Project&type=release"
+  ]
+ },
+ {
+  "name": "Horse Meat Disco",
+  "bio_fr": "Horse Meat Disco est un collectif de DJs britannique fondé en 2003 à Londres, né d'une soirée du même nom. Sa sélection tourne autour du disco, du nu-disco et de la house, et ses compilations paraissent notamment sur Glitterbox Recordings.",
+  "bio_en": "Horse Meat Disco is a British DJ collective founded in London in 2003, out of the club night of the same name. Their selection revolves around disco, nu-disco and house, and their compilations appear on labels such as Glitterbox Recordings.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2003,
+  "labels": [
+   "Glitterbox Recordings"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Horse%20Meat%20Disco&fmt=json",
+   "https://api.discogs.com/database/search?artist=Horse+Meat+Disco&type=release"
+  ]
+ },
+ {
+  "name": "Marco Carola",
+  "bio_fr": "Marco Carola est un DJ et producteur italien né le 7 février 1975 à Naples. Il a commencé à mixer à quinze ans, après l'achat de ses premières platines, et a publié sur Design Music puis sur M_nus. Sa production tourne autour d'une techno minimale et de la tech house.",
+  "bio_en": "Marco Carola is an Italian DJ and producer born on 7 February 1975 in Naples. He started DJing at fifteen, after buying his first set of turntables, and has released on Design Music and later M_nus. His output revolves around minimal techno and tech house.",
+  "origin": "Naples, Italie",
+  "labels": [
+   "M_nus",
+   "Design Music"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marco_Carola",
+   "https://api.discogs.com/database/search?artist=Marco+Carola&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Marco_Carola.jpg"
+ },
+ {
+  "name": "Paco Osuna",
+  "bio_fr": "Paco Osuna est un DJ et producteur espagnol installé à Barcelone. Ses disques paraissent sur Plus 8 Records et M_nus, dans un registre de techno minimale et de tech house.",
+  "bio_en": "Paco Osuna is a Spanish DJ and producer based in Barcelona. His records come out on Plus 8 Records and M_nus, in a minimal techno and tech house vein.",
+  "origin": "Barcelone, Espagne",
+  "labels": [
+   "Plus 8 Records",
+   "M_nus"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Paco%20Osuna&fmt=json",
+   "https://api.discogs.com/database/search?artist=Paco+Osuna&type=release"
+  ]
+ },
+ {
+  "name": "Purple Disco Machine",
+  "bio_fr": "Purple Disco Machine est le nom de scène de Tino Piontek, producteur et DJ allemand né le 12 février 1980 à Dresde. Il travaille la nu-disco et la house, et publie notamment sur Sweat It Out! et Columbia.",
+  "bio_en": "Purple Disco Machine is the stage name of Tino Piontek, a German record producer and DJ born on 12 February 1980 in Dresden. He works in nu-disco and house, releasing on labels including Sweat It Out! and Columbia.",
+  "origin": "Dresde, Allemagne",
+  "labels": [
+   "Sweat It Out!",
+   "Columbia"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Purple_Disco_Machine",
+   "https://api.discogs.com/database/search?artist=Purple+Disco+Machine&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Purple_Disco_Machine_2018.jpg"
+ },
+ {
+  "name": "Sammy Virji",
+  "bio_fr": "Sammy Virji, de son nom complet Samuel Bashir Virji, est un DJ et producteur britannique né le 30 septembre 1996. Né à Londres et élevé à Witney, il a quitté l'université de Newcastle pour la musique. Son album Spice Up My Life (2020) s'est classé 7e au UK Dance Albums Chart ; ses premiers morceaux relevaient de la bassline, les suivants de l'UK garage.",
+  "bio_en": "Sammy Virji, full name Samuel Bashir Virji, is a British DJ and record producer born on 30 September 1996. Born in London and raised in Witney, he dropped out of Newcastle University to pursue music. His 2020 album Spice Up My Life reached No. 7 on the UK Dance Albums Chart; his earlier work belonged to bassline, his later work to UK garage.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2017,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sammy_Virji",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Sammy%20Virji&fmt=json"
+  ]
+ },
+ {
+  "name": "Wilkinson",
+  "bio_fr": "Wilkinson est le nom de scène de Mark Wilkinson, producteur et DJ anglais né le 18 avril 1989 à Hammersmith. Il publie sur RAM Records et Hospital Records, ainsi que sur Virgin EMI. Son single « Afterglow » (2013), chanté par Becky Hill, a atteint la 8e place des charts britanniques.",
+  "bio_en": "Wilkinson is the stage name of Mark Wilkinson, an English producer and DJ born on 18 April 1989 in Hammersmith. He releases on RAM Records and Hospital Records, as well as Virgin EMI. His 2013 single \"Afterglow\", with vocals by Becky Hill, reached number eight on the UK Singles Chart.",
+  "origin": "Hammersmith, Royaume-Uni",
+  "labels": [
+   "RAM Records",
+   "Hospital Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wilkinson_(musician)",
+   "https://api.discogs.com/database/search?artist=Wilkinson&type=release"
+  ]
+ },
+ {
+  "name": "Acid Pauli",
+  "bio_fr": "Acid Pauli est l'un des noms de scène de Martin Gretschmann, musicien électronique allemand né le 8 septembre 1973 en Bavière. Ancien programmeur du groupe The Notwist, il enregistre aussi sous le nom Console depuis 1995. Sous Acid Pauli, il publie une électronique lente et texturée sur Ouïe et Crosstown Rebels.",
+  "bio_en": "Acid Pauli is one of the stage names of Martin Gretschmann, a German electronic musician born on 8 September 1973 in Bavaria. Formerly the programmer of the band The Notwist, he has also recorded as Console since 1995. As Acid Pauli he releases slow, textured electronic music on Ouïe and Crosstown Rebels.",
+  "origin": "Bavière, Allemagne",
+  "labels": [
+   "Ouïe",
+   "Crosstown Rebels"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Console_(musician)",
+   "https://api.discogs.com/database/search?artist=Acid+Pauli&type=release"
+  ]
+ },
+ {
+  "name": "Alix Perez",
+  "bio_fr": "Alix Perez est le nom de scène d'Alix Depauw, producteur et DJ de drum & bass originaire de Charleroi, en Belgique, aujourd'hui installé en Nouvelle-Zélande. Sa musique est souvent rangée du côté du liquid funk. Il a fondé en 2016 le label et la marque de vêtements 1985 Music, après des sorties sur Shogun Audio et Exit Records.",
+  "bio_en": "Alix Perez is the stage name of Alix Depauw, a drum & bass producer and DJ originally from Charleroi, Belgium, now based in New Zealand. His music is often described as liquid funk. In 2016 he founded the label and clothing imprint 1985 Music, after releases on Shogun Audio and Exit Records.",
+  "origin": "Charleroi, Belgique",
+  "labels": [
+   "1985 Music",
+   "Shogun Audio",
+   "Exit Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alix_Perez",
+   "https://api.discogs.com/database/search?artist=Alix+Perez&type=release"
+  ]
+ },
+ {
+  "name": "Anthony Rother",
+  "bio_fr": "Anthony Rother est un compositeur, producteur et patron de label allemand né le 29 avril 1972, installé à Offenbach-sur-le-Main. Il publie depuis la fin des années 1990 sur ses propres structures Psi49net et Datapunk, dans un registre electro et techno.",
+  "bio_en": "Anthony Rother is a German electronic music composer, producer and label owner born on 29 April 1972, based in Offenbach am Main. Since the late 1990s he has released on his own Psi49net and Datapunk imprints, in an electro and techno vein.",
+  "origin": "Offenbach-sur-le-Main, Allemagne",
+  "since": 1997,
+  "labels": [
+   "Psi49net",
+   "Datapunk"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Anthony_Rother",
+   "https://api.discogs.com/database/search?artist=Anthony+Rother&type=release"
+  ]
+ },
+ {
+  "name": "Felix Jaehn",
+  "bio_fr": "Felix Jaehn est un DJ et producteur allemand né le 28 août 1994 à Hambourg. Son remix de « Cheerleader » d'OMI, numéro un du Billboard Hot 100 en 2015, l'a fait connaître à l'international. Sa production relève de la house, de la tropical house et de la dance-pop.",
+  "bio_en": "Felix Jaehn is a German DJ and record producer born on 28 August 1994 in Hamburg. Their remix of OMI's \"Cheerleader\" topped the Billboard Hot 100 in 2015 and brought them international attention. Their output sits in house, tropical house and dance-pop.",
+  "origin": "Hambourg, Allemagne",
+  "since": 2013,
+  "labels": [
+   "Virgin"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Felix_Jaehn",
+   "https://api.discogs.com/database/search?artist=Felix+Jaehn&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Felix_Jaehn_summer_2022_Germany_(cropped).jpg"
+ },
+ {
+  "name": "Nia Archives",
+  "bio_fr": "Nia Archives est le nom de scène de Dehaney Nia Lishahn Hunt, productrice, DJ et chanteuse anglaise née en septembre 1999 à Bradford. Après les EP autoproduits Headz Gone West (2021) et Forbidden Feelingz (2022), Sunrise Bang Ur Head Against the Wall (2023) a pris la tête du UK Dance Albums Chart. Son premier album, Silence Is Loud (2024, Island), est monté à la 16e place du classement britannique. Elle joue de la jungle et de la drum & bass.",
+  "bio_en": "Nia Archives is the stage name of Dehaney Nia Lishahn Hunt, an English producer, DJ and singer born in September 1999 in Bradford. After the self-released EPs Headz Gone West (2021) and Forbidden Feelingz (2022), Sunrise Bang Ur Head Against the Wall (2023) topped the UK Dance Albums Chart. Her debut album Silence Is Loud (2024, Island) peaked at No. 16 on the UK Albums Chart. She plays jungle and drum & bass.",
+  "origin": "Bradford, Royaume-Uni",
+  "since": 2021,
+  "labels": [
+   "Island Records",
+   "Hijinxx"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nia_Archives",
+   "https://api.discogs.com/database/search?artist=Nia+Archives&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Nia_Archives_2024-11-16_Amsterdam.jpg"
+ },
+ {
+  "name": "Masters at Work",
+  "bio_fr": "Masters at Work est le duo américain de production et de remix formé par « Little » Louie Vega et Kenny « Dope » Gonzalez, réuni à New York en 1990. Le duo a aussi enregistré sous les noms MAW, KenLou, Hardrive et Nuyorican Soul, et fait paraître ses disques sur MAW Records et Strictly Rhythm. Son terrain est la garage house.",
+  "bio_en": "Masters at Work is the American production and remix duo of \"Little\" Louie Vega and Kenny \"Dope\" Gonzalez, formed in New York in 1990. The pair have also recorded as MAW, KenLou, Hardrive and Nuyorican Soul, releasing on MAW Records and Strictly Rhythm. Their ground is garage house.",
+  "origin": "New York, États-Unis",
+  "since": 1990,
+  "labels": [
+   "MAW Records",
+   "Strictly Rhythm"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Masters_at_Work",
+   "https://api.discogs.com/database/search?artist=Masters+at+Work&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Masters_At_Work,_2013.png"
+ },
+ {
+  "name": "Monolink",
+  "bio_fr": "Monolink est le nom de scène de Steffen Linck, auteur-compositeur et producteur allemand né en 1989. Il chante et joue de la guitare sur ses propres productions, entre ambient, house et techno, et publie sur Embassy One.",
+  "bio_en": "Monolink is the stage name of Steffen Linck, a German singer-songwriter and electronic dance music producer born in 1989. He sings and plays guitar over his own productions, between ambient, house and techno, and releases on Embassy One.",
+  "origin": "Allemagne",
+  "labels": [
+   "Embassy One"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Monolink",
+   "https://api.discogs.com/database/search?artist=Monolink&type=release"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Monolink_byHailleyHoward-8613.jpg"
+ },
+ {
+  "name": "Yves Deruyter",
+  "bio_fr": "Yves Deruyter est un DJ et producteur belge né le 4 mai 1970 à Anvers. Il s'est fait connaître par son travail pour le label Bonzai Records, dans un registre de trance, de hard trance et de techno rave des années 1990.",
+  "bio_en": "Yves Deruyter is a Belgian DJ and producer born on 4 May 1970 in Antwerp. He is known for his work on Bonzai Records, in a 1990s trance, hard trance and rave techno vein.",
+  "origin": "Anvers, Belgique",
+  "since": 1993,
+  "labels": [
+   "Bonzai Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Yves_Deruyter",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Yves%20Deruyter&fmt=json"
+  ]
+ },
+ {
+  "name": "S.P.Y",
+  "bio_fr": "S.P.Y est le nom de scène de Carlos Lima, producteur de drum & bass né le 30 décembre 1976 à São Paulo et installé à Londres. Ses disques paraissent principalement sur Hospital Records, entre liquid funk, neurofunk et jungle.",
+  "bio_en": "S.P.Y is the stage name of Carlos Lima, a drum & bass producer born on 30 December 1976 in São Paulo and based in London. His records come out mainly on Hospital Records, between liquid funk, neurofunk and jungle.",
+  "origin": "São Paulo, Brésil",
+  "labels": [
+   "Hospital Records"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:S.P.Y&fmt=json",
+   "https://api.discogs.com/database/search?artist=S.P.Y&type=release"
+  ]
+ },
+ {
+  "name": "Korolova",
+  "bio_fr": "Korolova est le nom de scène d'Olga Korolova, DJ et productrice ukrainienne née en 1988. Elle joue une techno mélodique et de la progressive house, et publie sur Tomorrowland Music et Armada Electronic Elements.",
+  "bio_en": "Korolova is the stage name of Olga Korolova, a Ukrainian DJ and record producer born in 1988. She plays melodic techno and progressive house, releasing on Tomorrowland Music and Armada Electronic Elements.",
+  "origin": "Ukraine",
+  "since": 2021,
+  "labels": [
+   "Tomorrowland Music",
+   "Armada Electronic Elements"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Korolov",
+   "https://api.discogs.com/database/search?artist=Korolova&type=release"
+  ]
+ },
+ {
+  "name": "Hedex",
+  "bio_fr": "Hedex est le nom de scène de Jack Hedges, DJ et producteur de drum & bass britannique originaire de Cambridge. Il sort ses premiers morceaux à seize ans, signe chez Dubz Audio l'année suivante, puis devient une figure du label Crucast. Son registre est le jump-up.",
+  "bio_en": "Hedex is the stage name of Jack Hedges, a British drum & bass DJ and producer from Cambridge. He released his first tracks at sixteen, signed to Dubz Audio a year later, and went on to become a fixture of the Crucast label. His register is jump-up.",
+  "origin": "Cambridge, Royaume-Uni",
+  "labels": [
+   "Dubz Audio",
+   "Crucast"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-hedex/",
+   "https://api.discogs.com/database/search?artist=Hedex&type=release"
+  ]
+ },
+ {
+  "name": "Skepta",
+  "bio_fr": "Skepta, de son vrai nom Joseph Junior Adenuga, est un rappeur, MC et producteur anglais né le 19 septembre 1982 à Tottenham, membre du collectif Boy Better Know et venu du grime. Avec Jammer, il a lancé Más Tiempo, un label et une marque de soirées consacrés à la house, prolongés par une résidence estivale au Hï Ibiza.",
+  "bio_en": "Skepta, born Joseph Junior Adenuga on 19 September 1982 in Tottenham, is an English rapper, MC and producer, a member of the Boy Better Know collective who came up through grime. With Jammer he launched Más Tiempo, a house-focused label and party brand, extended by a summer residency at Hï Ibiza.",
+  "origin": "Tottenham, Londres, Royaume-Uni",
+  "labels": [
+   "Boy Better Know",
+   "Más Tiempo"
+  ],
+  "sources": [
+   "https://mixmag.net/read/skepta-jammer-house-label-mas-tiempo-mas-murder-ep-news",
+   "https://www.hiibiza.com/artists/2026/skepta",
+   "https://en.wikipedia.org/wiki/Skepta"
+  ]
+ },
+ {
+  "name": "Ely Oaks",
+  "bio_fr": "Ely Oaks est un DJ et producteur né à Kitzbühel, en Autriche, et installé à Berlin. Il croise la pop électronique commerciale avec la tech house et la techno, et enregistre pour le label berlinois Jinx Music. Son single « Running Around » s'est classé 32e au Royaume-Uni et 33e en Allemagne.",
+  "bio_en": "Ely Oaks is a DJ and producer born in Kitzbühel, Austria, and based in Berlin. He crosses commercial electronic pop with tech house and techno, and records for the Berlin label Jinx Music. His single \"Running Around\" charted at No. 32 in the UK and No. 33 in Germany.",
+  "origin": "Kitzbühel, Autriche",
+  "since": 2021,
+  "labels": [
+   "Jinx Music"
+  ],
+  "sources": [
+   "https://de.wikipedia.org/wiki/Ely_Oaks",
+   "https://www.jinx-music.com/elyoaksepk"
+  ]
+ },
+ {
+  "name": "Rey Colino",
+  "bio_fr": "Rey Colino est le nom de scène de Colin Volvert, DJ et producteur belge né à Bruxelles. Il dirige le label Kalahari Oyster Cult et la structure de distribution vinyle One Eye Witness. Ses sets mêlent progressive house des années 1990, techno ambient, electro et acid.",
+  "bio_en": "Rey Colino is the stage name of Colin Volvert, a Belgian DJ and producer born in Brussels. He runs the Kalahari Oyster Cult label and the vinyl distribution outfit One Eye Witness. His sets mix 1990s-leaning progressive house, ambient techno, electro and acid.",
+  "origin": "Bruxelles, Belgique",
+  "labels": [
+   "Kalahari Oyster Cult"
+  ],
+  "sources": [
+   "https://www.electricsoul.com/artist/rey-colino",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Rey%20Colino&fmt=json"
+  ]
+ },
+ {
+  "name": "Justin Jay",
+  "bio_fr": "Justin Jay est un producteur et DJ américain installé à Los Angeles. Il signe sa première sortie sur le label Dirtybird de Claude VonStroke en 2011, alors qu'il est encore étudiant à l'USC, puis publie sur Culprit, Southern Fried Records et Pets Recordings avant de fonder son propre label, Fantastic Voyage. Sa house emprunte à la soul, au funk et au jazz, souvent avec des instruments joués.",
+  "bio_en": "Justin Jay is an American producer and DJ based in Los Angeles. His first release came out on Claude VonStroke's Dirtybird label in 2011, while he was still a student at USC; he went on to release on Culprit, Southern Fried Records and Pets Recordings before founding his own label, Fantastic Voyage. His house music draws on soul, funk and jazz, often with live instruments.",
+  "origin": "Los Angeles, États-Unis",
+  "since": 2011,
+  "labels": [
+   "Dirtybird",
+   "Fantastic Voyage"
+  ],
+  "sources": [
+   "https://www.grammy.com/news/justin-jay-joy-djing-expanding-his-horizons-and-how-fans-think-hes-still-college/",
+   "https://eclecticartists.com/justin-jay/"
+  ]
+ },
+ {
+  "name": "Danth",
+  "bio_fr": "Danth est le nom de scène de Daniel Busenthür, DJ et producteur allemand originaire de Cologne. Il commence à mixer en 2018 au Bootshaus, la salle de sa ville, et joue un répertoire qui va de la house aux sons de festival et au hardstyle.",
+  "bio_en": "Danth is the stage name of Daniel Busenthür, a German DJ and producer from Cologne. He started DJing in 2018 at Bootshaus, his home town's club, and plays a repertoire running from house to festival sounds and hardstyle.",
+  "origin": "Cologne, Allemagne",
+  "since": 2018,
+  "sources": [
+   "https://bootshaus.tv/artists/danth/"
+  ]
+ },
+ {
+  "name": "Kuko",
+  "bio_fr": "Kuko est un DJ et producteur de techno allemand basé à Cologne. Il s'est fait remarquer par un EP vinyle paru sur le 44 Label Group, dans un registre de hard techno et de techno industrielle mêlée de mélodies de synthétiseur.",
+  "bio_en": "Kuko is a German techno DJ and producer based in Cologne. He drew attention with a vinyl EP on 44 Label Group, in a hard and industrial techno vein laced with synth melodies.",
+  "origin": "Cologne, Allemagne",
+  "labels": [
+   "44 Label Group"
+  ],
+  "sources": [
+   "https://technomusicworld.com/artist/kukocologne/about",
+   "https://44labelgroup.bandcamp.com/album/44004"
+  ]
+ },
+ {
+  "name": "DJ Cringey",
+  "bio_fr": "DJ Cringey est une DJ et productrice néo-zélandaise installée à Berlin. Ses sets croisent techno, acid, EBM et house, et elle a joué au Hive Festival, à WECANDANCE, à l'Amnesia Ibiza et sur les soirées Teletech. Son album Cringey Core est paru sur le label Bamboo.",
+  "bio_en": "DJ Cringey is a New Zealand DJ and producer based in Berlin. Her sets cross techno, acid, EBM and house, and she has played Hive Festival, WECANDANCE, Amnesia Ibiza and Teletech events. Her album Cringey Core came out on the Bamboo label.",
+  "origin": "Berlin, Allemagne",
+  "labels": [
+   "Bamboo"
+  ],
+  "sources": [
+   "http://www.spinartistagency.com/dod-copy"
+  ]
+ },
+ {
+  "name": "Bellaire",
+  "bio_fr": "Bellaire est un producteur français de house et de disco né en 1998. Ses disques paraissent sur AOC Records, entre house, deep house et sonorités disco.",
+  "bio_en": "Bellaire is a French house and disco producer born in 1998. His records come out on AOC Records, between house, deep house and disco.",
+  "origin": "France",
+  "labels": [
+   "AOC Records"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Bellaire&fmt=json",
+   "https://api.discogs.com/database/search?artist=Bellaire&type=release"
+  ]
+ },
+ {
+  "name": "Bredren",
+  "bio_fr": "Bredren est un trio de drum & bass belge formé en 2011 à Lennik. Le groupe publie sur Flexout Audio, 1985 Music et Proximity Recordings.",
+  "bio_en": "Bredren is a Belgian drum & bass trio formed in 2011 in Lennik. The group releases on Flexout Audio, 1985 Music and Proximity Recordings.",
+  "origin": "Lennik, Belgique",
+  "since": 2011,
+  "labels": [
+   "Flexout Audio",
+   "1985 Music"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Bredren&fmt=json",
+   "https://api.discogs.com/database/search?artist=Bredren&type=release"
+  ]
+ },
+ {
+  "name": "Spoink",
+  "bio_fr": "Spoink est un quartet de musique électronique improvisée né à l'été 2019 dans l'est parisien. Son live est intégralement improvisé, joué sur instruments, et traverse techno, drum & bass, dubstep et touches rock. Le groupe a publié l'album Sharp en janvier 2023 et compte plus de 160 concerts en France et en Europe.",
+  "bio_en": "Spoink is an improvised electronic music quartet formed in summer 2019 in eastern Paris. Their live show is fully improvised and played on instruments, moving through techno, drum & bass, dubstep and rock touches. The group released the album Sharp in January 2023 and has played over 160 shows across France and Europe.",
+  "origin": "Paris, France",
+  "since": 2019,
+  "sources": [
+   "https://spoinkmusic.fr/",
+   "https://electro-news.eu/spoink-le-groupe-francais-qui-casse-les-codes-en-melangeant-le-rock-et-la-techno/"
+  ]
+ },
+ {
+  "name": "The Blaze",
+  "bio_fr": "The Blaze est un duo électronique parisien formé par les cousins Guillaume et Jonathan Alric. Ils produisent musique et images en même temps, et ont publié l'EP Territory (2017) puis les albums Dancehall (2018) et Jungle (2023) sur Animal63.",
+  "bio_en": "The Blaze is a Paris-based electronic duo made up of cousins Guillaume and Jonathan Alric. They produce sound and visuals at the same time, and have released the EP Territory (2017) and the albums Dancehall (2018) and Jungle (2023) on Animal63.",
+  "origin": "Paris, France",
+  "since": 2017,
+  "labels": [
+   "Animal63"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Blaze_(band)",
+   "https://api.discogs.com/database/search?artist=The+Blaze&type=release"
+  ]
+ },
+ {
+  "name": "Mathame",
+  "bio_fr": "Mathame est un duo italien de techno. Ses disques paraissent sur Afterlife, le label de Tale of Us, ainsi que sur Columbia, dans un registre de techno mélodique et de progressive house.",
+  "bio_en": "Mathame is an Italian techno duo. Their records come out on Afterlife, Tale of Us's label, as well as on Columbia, in a melodic techno and progressive house vein.",
+  "origin": "Italie",
+  "labels": [
+   "Afterlife"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Mathame&fmt=json",
+   "https://api.discogs.com/database/search?artist=Mathame&type=release"
+  ]
+ },
+ {
+  "name": "Call Super",
+  "bio_fr": "Call Super est un DJ et producteur qui publie depuis 2011, principalement sur Houndstooth et Dekmantel. Sa production croise techno, house et ambient, et intègre des instruments acoustiques comme la clarinette.",
+  "bio_en": "Call Super is a DJ and producer who has been releasing since 2011, mainly on Houndstooth and Dekmantel. His output crosses techno, house and ambient, and takes in acoustic instruments such as the clarinet.",
+  "since": 2011,
+  "labels": [
+   "Houndstooth",
+   "Dekmantel"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Call%20Super&fmt=json",
+   "https://api.discogs.com/database/search?artist=Call+Super&type=release"
+  ]
+ },
+ {
+  "name": "Luciid",
+  "bio_fr": "Luciid est un projet de techno dont les sorties paraissent depuis 2019 sur Kneaded Pains, Suara et Autektone Records. Son registre relève de la hard techno et d'une techno sombre.",
+  "bio_en": "Luciid is a techno project whose releases have appeared since 2019 on Kneaded Pains, Suara and Autektone Records, in a hard techno and dark techno vein.",
+  "since": 2019,
+  "labels": [
+   "Kneaded Pains",
+   "Autektone Records"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Luciid&fmt=json",
+   "https://api.discogs.com/database/search?artist=Luciid&type=release"
+  ]
+ },
+ {
+  "name": "Pawsa",
+  "bio_fr": "Pawsa est le nom de scène de David Esekhile, DJ et producteur britannique. Il dirige le label PAWZ et publie également sur Solid Grooves Records, dans un registre de tech house et de house minimale.",
+  "bio_en": "Pawsa is the stage name of David Esekhile, a British DJ and producer. He runs the PAWZ label and also releases on Solid Grooves Records, in a tech house and minimal house vein.",
+  "since": 2017,
+  "labels": [
+   "PAWZ",
+   "Solid Grooves Records"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:Pawsa&fmt=json",
+   "https://api.discogs.com/database/search?artist=Pawsa&type=release"
+  ]
+ }
+]

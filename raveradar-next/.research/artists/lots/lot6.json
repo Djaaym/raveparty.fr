@@ -1,0 +1,392 @@
+[
+ {
+  "slug": "adrian-mills",
+  "name": "Adrián Mills",
+  "dates": 5,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House",
+   "Acid Techno"
+  ]
+ },
+ {
+  "slug": "fakear",
+  "name": "Fakear",
+  "dates": 5,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "boys-noize",
+  "name": "Boys Noize",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "eris-drew",
+  "name": "Eris Drew",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "iosio",
+  "name": "IOSIO",
+  "dates": 4,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "robot-rock-alive",
+  "name": "Robot Rock Alive",
+  "dates": 4,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "above-beyond",
+  "name": "Above & Beyond",
+  "dates": 3,
+  "genres_evenements": [
+   "Trance",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "blond-ish",
+  "name": "Blond:ish",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "dvs1",
+  "name": "DVS1",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "gabry-ponte",
+  "name": "Gabry Ponte",
+  "dates": 3,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "klofama",
+  "name": "KLOFAMA",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "mall-grab",
+  "name": "Mall Grab",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "nicole-moudaber",
+  "name": "Nicole Moudaber",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "peterblue",
+  "name": "Peterblue",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "romare",
+  "name": "Romare",
+  "dates": 3,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "ueberrest",
+  "name": "Ueberrest",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "a-m-c",
+  "name": "A.M.C",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "agents-of-time",
+  "name": "Agents Of Time",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "anika-kunst",
+  "name": "Anika Kunst",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "beau-didier",
+  "name": "Beau Didier",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "blastoyz",
+  "name": "Blastoyz",
+  "dates": 2,
+  "genres_evenements": [
+   "Psytrance",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "cedex-higher-underground",
+  "name": "Cedex & Higher Underground",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "damien-rk",
+  "name": "Damien RK",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "dixon",
+  "name": "Dixon",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Acid Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "evil-activities",
+  "name": "Evil Activities",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "gpf",
+  "name": "GPF",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "jorja-smith",
+  "name": "Jorja Smith",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kneecap",
+  "name": "Kneecap",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "lost-frequencies",
+  "name": "Lost Frequencies",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "marc-acardipane",
+  "name": "Marc Acardipane",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "mika-heggemann",
+  "name": "Mika Heggemann",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nemesys",
+  "name": "Nemesys",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "outsiders",
+  "name": "Outsiders",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "regi",
+  "name": "Regi",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "royksopp",
+  "name": "Röyksopp",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "she-her",
+  "name": "SHE/HER",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "speedy-j",
+  "name": "Speedy J",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Acid Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "teknoclash",
+  "name": "Teknoclash",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "trinix",
+  "name": "Trinix",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "young-marco",
+  "name": "Young Marco",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Trance"
+  ]
+ }
+]

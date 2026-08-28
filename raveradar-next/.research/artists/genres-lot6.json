@@ -1,0 +1,583 @@
+[
+  {
+    "name": "Boys Noize",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Electro",
+      "Acid Techno"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boys_Noize",
+      "https://www.last.fm/music/Boys+Noize/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Above & Beyond",
+    "main": [
+      "Trance"
+    ],
+    "sub": [
+      "Progressive Trance",
+      "Uplifting Trance"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Above_%26_Beyond_(band)",
+      "https://www.last.fm/music/Above+&+Beyond/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "DVS1",
+    "main": [
+      "Techno"
+    ],
+    "sub": [
+      "Minimal Techno",
+      "Hardgroove"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/DVS1",
+      "https://www.last.fm/music/DVS1/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mall Grab",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Lo-Fi House",
+      "Breakbeat"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mall_Grab",
+      "https://www.last.fm/music/Mall+Grab/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Nicole Moudaber",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Tech House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nicole_Moudaber",
+      "https://www.last.fm/music/Nicole+Moudaber/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Dixon",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Deep House",
+      "Melodic House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dixon_(DJ)",
+      "https://www.last.fm/music/Dixon/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Speedy J",
+    "main": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "sub": [
+      "Minimal Techno",
+      "Industrial Techno"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Speedy_J"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Marc Acardipane",
+    "main": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "sub": [
+      "Gabber",
+      "Doomcore"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marc_Acardipane",
+      "https://www.last.fm/music/Marc+Acardipane/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Evil Activities",
+    "main": [
+      "Hardcore"
+    ],
+    "sub": [
+      "Gabber",
+      "Mainstream Hardcore"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Evil_Activities",
+      "https://www.last.fm/music/Evil+Activities/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Röyksopp",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "Ambient",
+      "Synth-Pop",
+      "Downtempo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/R%C3%B6yksopp"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Adrián Mills",
+    "main": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "sub": [
+      "Makina",
+      "Hard Bounce"
+    ],
+    "sources": [
+      "https://technobeatscloud.com/escena/deejays/adrian-mills",
+      "https://www.last.fm/music/Adrian+Mills/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "IOSIO",
+    "main": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "sub": [
+      "Bouncy Techno",
+      "Hard Bounce"
+    ],
+    "sources": [
+      "https://soundcloud.com/club-turn/iosio-dj-set",
+      "https://scandal.events/lineup"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Robot Rock Alive",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "French Touch",
+      "Electro"
+    ],
+    "sources": [
+      "https://robotrock.live/",
+      "https://www.laseinemusicale.com/spectacles-concerts/robot-rock-alive-daft-punk-tribute/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Ueberrest",
+    "main": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "sub": [
+      "Hard Bounce",
+      "Industrial Techno"
+    ],
+    "sources": [
+      "https://openbeatz.de/artist/ueberrest/",
+      "https://www.last.fm/music/Ueberrest/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Eris Drew",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "Breakbeat",
+      "Rave",
+      "Acid House"
+    ],
+    "sources": [
+      "https://erisdrew.bandcamp.com/album/dj-kicks-eris-drew",
+      "https://www.last.fm/music/Eris+Drew/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "KLOFAMA",
+    "main": [
+      "Hard Techno"
+    ],
+    "sub": [
+      "Industrial Techno",
+      "Rave"
+    ],
+    "sources": [
+      "https://hardtechnolivesets.com/klofama-profile/",
+      "https://www.last.fm/music/KLOFAMA/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Anika Kunst",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Peak Time Techno"
+    ],
+    "sources": [
+      "https://hoer.live/artist/anika-kunst-2/",
+      "https://www.last.fm/music/Anika+Kunst/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Beau Didier",
+    "main": [
+      "Techno"
+    ],
+    "sub": [
+      "Hardgroove"
+    ],
+    "sources": [
+      "https://www.awakenings.com/en/artists/beau-didier/197641/",
+      "https://www.last.fm/music/Beau+Didier/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mika Heggemann",
+    "main": [
+      "Trance",
+      "Hard Techno"
+    ],
+    "sub": [
+      "Nu Trance",
+      "Hard House"
+    ],
+    "sources": [
+      "https://openbeatz.de/artist/mika-heggemann-2/",
+      "https://www.last.fm/music/Mika+Heggemann/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Agents Of Time",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Melodic Techno",
+      "Acid Techno"
+    ],
+    "sources": [
+      "https://kompakt.fm/artists/agents_of_time",
+      "https://www.last.fm/music/Agents+Of+Time/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Fakear",
+    "main": [
+      "EDM"
+    ],
+    "sub": [
+      "Downtempo",
+      "Trip-Hop"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fakear",
+      "https://www.last.fm/music/Fakear/+tags"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Trinix",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Electro House"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Trinix",
+      "https://www.last.fm/music/Trinix/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Gabry Ponte",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Eurodance",
+      "Italo Dance"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gabry_Ponte",
+      "https://www.last.fm/music/Gabry+Ponte/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Lost Frequencies",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "Deep House",
+      "Tropical House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lost_Frequencies",
+      "https://fr.wikipedia.org/wiki/Lost_Frequencies",
+      "https://www.last.fm/music/Lost+Frequencies/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Blond:ish",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Melodic House",
+      "Afro House",
+      "Organic House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blond:ish"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Kneecap",
+    "main": [
+      "EDM"
+    ],
+    "sub": [
+      "Hardcore Hip-Hop",
+      "Political Hip-Hop"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kneecap_(band)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Regi",
+    "main": [
+      "Trance",
+      "EDM"
+    ],
+    "sub": [
+      "Eurodance"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regi_Penxten"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Damien RK",
+    "main": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "sub": [
+      "Rawstyle",
+      "Frenchcore",
+      "Hard Trance"
+    ],
+    "sources": [
+      "https://www.damienrk.com/",
+      "https://www.myfestival.fr/artistes/damien-rk"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "GPF",
+    "main": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "sub": [
+      "Uptempo"
+    ],
+    "sources": [
+      "https://hardstyle.com/en/artists/gpf",
+      "https://edm.fandom.com/wiki/GPF"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Outsiders",
+    "main": [
+      "Hardstyle"
+    ],
+    "sub": [],
+    "sources": [
+      "https://www.djguide.nl/djinfo.p?djid=5944&language=en",
+      "https://edm.fandom.com/wiki/Outsiders_(NL)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Cedex & Higher Underground",
+    "main": [
+      "Drum & Bass"
+    ],
+    "sub": [],
+    "sources": [
+      "https://jungledrumandbass.co.uk/news/cedex-higher-underground-being-you",
+      "https://soundcloud.com/cedexhigherunderground"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Peterblue",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Hardgroove",
+      "Latin Club",
+      "Guaracha"
+    ],
+    "sources": [
+      "https://mixmagcaribbean.com/read/peterblue-car-2025-02-digital-magazine"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Romare",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "UK Garage",
+      "Downtempo"
+    ],
+    "sources": [
+      "https://ninjatune.net/artist/romare",
+      "https://www.last.fm/music/Romare/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "A.M.C",
+    "main": [
+      "Drum & Bass"
+    ],
+    "sub": [
+      "Neurofunk",
+      "Jump Up"
+    ],
+    "sources": [
+      "https://www.featherstonemusic.co.uk/artists/a-m-c",
+      "https://www.last.fm/music/A.M.C/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Blastoyz",
+    "main": [
+      "Psytrance",
+      "Trance"
+    ],
+    "sub": [
+      "Full-On",
+      "Progressive Trance"
+    ],
+    "sources": [
+      "https://blastoyz.com/about/",
+      "https://welvrave.com/artists/blastoyz/",
+      "https://www.last.fm/music/Blastoyz/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Young Marco",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Ambient",
+      "Balearic",
+      "Deep House"
+    ],
+    "sources": [
+      "https://dgtl-festival.com/en/artists/young-marco/",
+      "https://www.last.fm/music/Young+Marco/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "SHE/HER",
+    "main": [
+      "Techno"
+    ],
+    "sub": [],
+    "sources": [
+      "https://www.awakenings.com/en/artists/she-her/386449/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Teknoclash",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Future House",
+      "Electro House",
+      "Bass House"
+    ],
+    "sources": [
+      "https://www.amsterdam-dance-event.nl/en/artists-speakers/teknoclash/15788/",
+      "https://www.last.fm/music/Teknoclash/+tags"
+    ],
+    "confidence": "high"
+  }
+]

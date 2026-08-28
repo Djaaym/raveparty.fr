@@ -28,9 +28,20 @@ Le script refuse tout ce qui n'est pas vérifiable ou pas rattachable :
 La dédup se fait sur le slug ; en cas de doublon, l'entrée qui cite le plus de
 sources gagne. La map est réécrite entre les marqueurs BIOS:start / BIOS:end —
 ne pas l'éditer à la main.
+
+Le **portrait ne passe plus par ici** : il vit dans lib/artist-photos.ts, écrit par
+avatars.py. Il était rattaché à la bio, ce qui rendait la photo conditionnée au texte —
+un artiste dont on trouvait le portrait sur Commons sans savoir écrire deux phrases
+sourcées restait affiché avec son initiale.
 """
 import argparse, json, re, sys, unicodedata
 from pathlib import Path
+
+# Un artiste du catalogue s'appelle littéralement « [IVY] ». Un `\[(.*?)\]` non gourmand
+# s'arrête donc sur SON crochet et tronque le line-up : les noms qui suivent
+# disparaissent de l'index, sans erreur ni message. On ne reconnaît que des chaînes
+# entre guillemets, ce qu'un crochet ne peut pas interrompre.
+LINEUP = re.compile(r'lineup: \[((?:"(?:[^"\\]|\\.)*"(?:, )?)*)\]')
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -59,7 +70,7 @@ def lineup_slugs() -> dict:
     src = DATA_TS.read_text()
     out = {}
     for line in re.findall(r"^  \{ id: \d+,.*$", src, re.M):
-        m = re.search(r"lineup: \[(.*?)\]", line)
+        m = LINEUP.search(line)
         if not m:
             continue
         for name in re.findall(r'"([^"]+)"', m.group(1)):
@@ -77,11 +88,6 @@ def main() -> int:
     args = ap.parse_args()
 
     known = lineup_slugs()
-    # Portraits déjà téléchargés et uniformisés par avatars.py ; absent = pas de photo.
-    avatars = {}
-    av_file = HERE / "avatars.json"
-    if av_file.exists():
-        avatars = json.loads(av_file.read_text())
     files = sorted(HERE.glob("bios-*.json"))
     if not files:
         print("Aucun fichier bios-*.json dans .research/artists/")
@@ -144,14 +150,9 @@ def main() -> int:
         if e["labels"]:
             extra += ", labels: [" + ", ".join(f'"{esc(l)}"' for l in e["labels"]) + "]"
         srcs = ", ".join(f'"{esc(s)}"' for s in e["srcs"])
-        av = avatars.get(slug)
-        photo = ""
-        if av:
-            photo = (f', photo: {{ file: "{esc(av["file"])}", author: "{esc(av["author"])}"'
-                     f', license: "{esc(av["license"])}", page: "{esc(av["page"])}" }}')
         lines.append(
             f'  "{slug}": {{ slug: "{slug}", bio: {{ fr: "{esc(e["fr"])}", en: "{esc(e["en"])}" }}'
-            f'{extra}, sources: [{srcs}]{photo} }}, // {e["name"]}'
+            f'{extra}, sources: [{srcs}] }}, // {e["name"]}'
         )
 
     block = "export const BIOS: Record<string, ArtistBio> = {\n" + "\n".join(lines) + "\n};"
@@ -164,8 +165,7 @@ def main() -> int:
         print(f"\n--dry : {len(kept)} entrées prêtes, lib/bios.ts inchangé.")
         return 0
     BIOS_TS.write_text(new)
-    withphoto = sum(1 for k in kept if k in avatars)
-    print(f"\n✓ lib/bios.ts réécrit — {len(kept)} bios, dont {withphoto} avec portrait.")
+    print(f"\n✓ lib/bios.ts réécrit — {len(kept)} bios.")
     return 0
 
 

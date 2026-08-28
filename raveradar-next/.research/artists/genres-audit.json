@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Benga",
+    "main": [
+      "Drum & Bass",
+      "House"
+    ],
+    "sub": [
+      "Dubstep",
+      "UK Garage"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Benga_(musician)",
+      "https://musicbrainz.org/ws/2/artist/d3ba1c50-d403-40df-8eac-80d74551a7e3?inc=tags&fmt=json",
+      "https://api.discogs.com/database/search?artist=Benga&type=release&per_page=100",
+      "https://en.wikipedia.org/wiki/Magnetic_Man"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Benwal",
+    "main": [
+      "Trance",
+      "House"
+    ],
+    "sub": [
+      "Hard Trance",
+      "Rave"
+    ],
+    "sources": [
+      "https://nl.wikipedia.org/wiki/Benwal",
+      "https://www.awakenings.com/en/artists/benwal/354229/",
+      "https://www.abc.net.au/triplej/programs/mix-up/benwal-djset-2025/105122576",
+      "https://api.discogs.com/database/search?artist=Benwal&type=release&per_page=50"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Borgore",
+    "main": [
+      "EDM"
+    ],
+    "sub": [
+      "Dubstep",
+      "Trap"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Borgore",
+      "https://api.discogs.com/database/search?artist=Borgore&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Borgore%22&fmt=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Brooklyn Bounce",
+    "main": [
+      "Trance",
+      "House",
+      "Hardstyle"
+    ],
+    "sub": [
+      "Hard Trance",
+      "Hands Up",
+      "Euro House"
+    ],
+    "sources": [
+      "https://de.wikipedia.org/wiki/Brooklyn_Bounce",
+      "https://en.wikipedia.org/wiki/Brooklyn_Bounce",
+      "https://api.discogs.com/database/search?artist=Brooklyn+Bounce&type=release&per_page=100"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Davyboi",
+    "main": [
+      "Trance"
+    ],
+    "sub": [
+      "Hard Dance",
+      "Eurodance",
+      "Hard House"
+    ],
+    "sources": [
+      "https://davyboi.de/",
+      "https://complexfestival.com/artists/davyboi",
+      "https://www.paradiesgartenfestival.at/en/bands/davyboy"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Don Diablo",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "Future House",
+      "Electro House",
+      "Progressive House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Don_Diablo",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Don%20Diablo%22&fmt=json",
+      "https://api.discogs.com/database/search?artist=Don+Diablo&type=release&per_page=100"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "horsegiirL",
+    "main": [
+      "Hardcore",
+      "Techno"
+    ],
+    "sub": [
+      "Happy Hardcore",
+      "Eurodance",
+      "Gabber"
+    ],
+    "sources": [
+      "https://www.dazeddigital.com/fashion/article/60659/1/horsegiirl-mcr-t-style-my-barn-my-rules-techno-berlin-maiden-voyage-dj-tiktok",
+      "https://www.nme.com/features/music-interviews/horsegiirl-interview-vip-ep-take-it-offff-radar-3812567",
+      "https://en.wikipedia.org/wiki/HorsegiirL",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22horsegiirL%22&fmt=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Juno Reactor",
+    "main": [
+      "Psytrance",
+      "Trance"
+    ],
+    "sub": [
+      "Goa Trance",
+      "Tribal"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juno_Reactor",
+      "https://api.discogs.com/database/search?artist=Juno+Reactor&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Juno%20Reactor%22&fmt=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Kode9",
+    "main": [
+      "Drum & Bass",
+      "House"
+    ],
+    "sub": [
+      "Dubstep",
+      "Footwork",
+      "UK Garage"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kode9",
+      "https://api.discogs.com/database/search?artist=Kode9&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Kode9%22&fmt=json"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Kygo",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "Tropical House",
+      "Deep House",
+      "Progressive House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kygo",
+      "https://api.discogs.com/database/search?artist=Kygo&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Kygo%22&fmt=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Roots Zombie",
+    "main": [
+      "Drum & Bass"
+    ],
+    "sub": [
+      "Dub",
+      "Jungle",
+      "Bass Music"
+    ],
+    "sources": [
+      "https://rootszombie.bandcamp.com/",
+      "https://culturedub.bandcamp.com/album/roots-zombie-dub-highway",
+      "https://musicbrainz.org/ws/2/artist/04f94a42-8a15-4769-95ae-5a679c8534a8?inc=tags&fmt=json",
+      "https://api.discogs.com/database/search?artist=Roots+Zombie&type=release&per_page=50"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Sasha & John Digweed",
+    "main": [
+      "House",
+      "Trance"
+    ],
+    "sub": [
+      "Progressive House",
+      "Progressive Trance"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Northern_Exposure_(album)",
+      "https://en.wikipedia.org/wiki/Sasha_(DJ)",
+      "https://en.wikipedia.org/wiki/John_Digweed"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Showtek",
+    "main": [
+      "Hardstyle",
+      "EDM"
+    ],
+    "sub": [
+      "Electro House",
+      "Big Room",
+      "Jumpstyle"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Showtek",
+      "https://api.discogs.com/database/search?artist=Showtek&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Showtek%22&fmt=json"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Spoink",
+    "main": [
+      "Techno",
+      "Drum & Bass"
+    ],
+    "sub": [
+      "Dubstep",
+      "Live Electronic"
+    ],
+    "sources": [
+      "https://spoinkmusic.fr/",
+      "https://electro-news.eu/spoink-le-groupe-francais-qui-casse-les-codes-en-melangeant-le-rock-et-la-techno/",
+      "https://www.infoconcert.com/concerts/concert-hilight-tribe-purrsuit-roots-zombie-spoink-bandi-i-roots-vitry-sur-seine-1860587"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Stereo MCs",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "Trip-Hop",
+      "Breakbeat",
+      "Acid Jazz"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stereo_MCs",
+      "https://api.discogs.com/database/search?artist=Stereo+MCs&type=release&per_page=100",
+      "https://www.kinosiska.si/en/dogodek/stereo-mcs/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Yellow Claw",
+    "main": [
+      "EDM",
+      "Hardstyle"
+    ],
+    "sub": [
+      "Trap",
+      "Moombahton"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yellow_Claw_(DJs)",
+      "https://api.discogs.com/database/search?artist=Yellow+Claw&type=release&per_page=100",
+      "https://musicbrainz.org/ws/2/artist/?query=artist:%22Yellow%20Claw%22&fmt=json"
+    ],
+    "confidence": "high"
+  }
+]

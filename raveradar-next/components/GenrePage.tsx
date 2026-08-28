@@ -19,6 +19,7 @@ import {
 import { rankPlaces } from "@/lib/places";
 import { ARTISTS, artistGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
+import { artistPhoto } from "@/lib/artist-photos";
 import { VENUES } from "@/lib/venues";
 import { VENUE_SHOTS } from "@/lib/venue-photos";
 import { genreProfile, pickL } from "@/lib/genres";
@@ -73,7 +74,11 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
 
   /* `Artist.genres` est une union : un festival étiqueté sur huit styles étiquette les
      cinquante noms de son affiche, et la page « Psytrance » se retrouvait à présenter
-     des artistes techno. `artistGenres()` pondère (voir rankGenres dans lib/data.ts). */
+     des artistes techno. `artistGenres()` rend l'attribution quand une source la donne
+     (lib/artist-genres.ts), la pondération de `rankGenres()` sinon. Les deux conditions
+     comptent : `x.n > 0` veut dire « il a une date à venir dans ce style », et le test
+     de genre « c'est bien ce qu'il joue » — sans le second, une affiche multi-genres
+     remplissait la page ; sans le premier, on afficherait un artiste sans date. */
   const artists = ARTISTS.map((a) => ({ a, n: a.eventIds.filter((id) => liveById.has(id)).length }))
     .filter((x) => x.n > 0 && artistGenres(x.a).includes(genre))
     .sort((x, y) => y.n - x.n || y.a.eventIds.length - x.a.eventIds.length || x.a.name.localeCompare(y.a.name));
@@ -396,17 +401,18 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                 <div className="artcards" style={{ marginBottom: 18 }}>
                   {featured.map(({ a, n }) => {
                     const bio = BIOS[a.slug]!;
+                    const photo = artistPhoto(a.slug);
                     const nextDate = a.eventIds
                       .map((id) => liveById.get(id))
                       .filter((e): e is NonNullable<typeof e> => Boolean(e))
                       .sort((x, y) => x.date.localeCompare(y.date))[0];
                     return (
                       <article className="artcard" key={a.slug}>
-                        {bio.photo ? (
+                        {photo ? (
                           /* eslint-disable-next-line @next/next/no-img-element */
                           <img
                             className="artcard-photo"
-                            src={`/artists/${bio.photo.file}`}
+                            src={`/artists/${photo.file}`}
                             alt=""
                             width={64}
                             height={64}

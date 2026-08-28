@@ -1,0 +1,452 @@
+[
+ {
+  "name": "Jan Blomqvist",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.armadamusic.com/artists/jan-blomqvist",
+   "https://www.grammy.com/news/jan-blomqvist-talks-playing-coachella-berlin-techno-covering-rolling-stones/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bon Entendeur",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Nu-Disco",
+   "French Touch"
+  ],
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Bon_Entendeur",
+   "https://whatthefrance.org/fr/bon-entendeur-le-trio-electronique-qui-diffuse-la-culture-francaise-a-letranger/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Amy Dabbs",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Breakbeat",
+   "Jungle"
+  ],
+  "sources": [
+   "https://shallnotfade.bandcamp.com/album/green-room-ep",
+   "https://www.originssound.com/os-tapes/amy-dabbs-mix"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "g-HA",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco",
+   "Micro House"
+  ],
+  "sources": [
+   "https://jaegeroslo.no/residents/g-ha-olanskii/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eskei83",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Turntablism"
+  ],
+  "sources": [
+   "https://www.monstercat.com/artist/eskei83",
+   "https://openbeatz.de/en/artist/eskei83/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Koven",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/ad110705-cbe6-4c47-9b99-8526e6db0f41",
+   "https://api.discogs.com/database/search?artist=Koven&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nikolina",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/10-essential-schranz-tracks-selected-by-nikolina",
+   "https://www.tba-management.com/nikolina"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rōse",
+  "main": [
+   "Hard Techno",
+   "Techno",
+   "Psytrance"
+  ],
+  "sub": [
+   "Tekno"
+  ],
+  "sources": [
+   "https://dclub.ch/artist/rose/",
+   "https://www.blick.ch/fr/pop-culture/rose-dj-survoltee-a-paleo-jaime-lidee-detre-une-rose-qui-envoie-du-sale-id17658123.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Headbanger",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/d9d13b3d-1dbb-4258-9809-e2def9cff128",
+   "https://www.discogs.com/release/107357-The-Headbanger-The-Headbanger-EP"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Barbara Butch",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Funk"
+  ],
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Leslie_Barbara_Butch",
+   "https://www.paris.fr/pages/barbara-butch-dj-parisienne-militante-de-l-amour-19363"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Anstandslos & Durchgeknallt",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Deep House",
+   "Hands Up",
+   "Dance-Pop"
+  ],
+  "sources": [
+   "https://de.wikipedia.org/wiki/Anstandslos_%26_Durchgeknallt",
+   "https://www.festival-sh.de/kuenstler/anstandslos-durchgeknallt"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kamma b2b Masalo",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Afro House"
+  ],
+  "sources": [
+   "https://www.rushhour.nl/record/vinyl/brighter-days-5",
+   "https://djmag.com/longreads/positive-vibrations-kamma"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bizzey",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Trap",
+   "Dancehall",
+   "Hip Hop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bizzey",
+   "https://www.errday.nl/artiest/bizzey/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Axmo",
+  "main": [
+   "EDM",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Electro House",
+   "Happy Hardcore",
+   "Hands Up"
+  ],
+  "sources": [
+   "https://www.beatport.com/artist/axmo/770975/releases",
+   "https://www.viberate.com/artist/axmo/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Da Tweeka",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle",
+   "Happy Hardcore"
+  ],
+  "sources": [
+   "https://www.intothemadness.de/lineup/",
+   "https://www.djmag.de/einzelnews/into-the-madness-2026"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Chain Reaction",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://mostwanted.dj/artists/chain-reaction/",
+   "https://hardstyle.com/en/news/b2s-brings-back-hard-bass-loudness-en-pussy-lounge-in-2026"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Läuff",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://hardestsoft.bandcamp.com/track/lightning",
+   "https://h33records.bandcamp.com/track/l-uff-x-hnas-ap-h33r030"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Didz & Mina",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass",
+   "Neurofunk"
+  ],
+  "sources": [
+   "https://liquicity.com/events/liquicity-vienna-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kimmic",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://swg3.tv/events/2026/march/kimmic/",
+   "https://www.whatsonglasgow.co.uk/event/134701-kimmic/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Emilaki",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Bass Music"
+  ],
+  "sources": [
+   "https://lacommune.co/event/residence-physical-tool-5/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Canelle Doublekick",
+  "main": [
+   "Trance",
+   "Techno"
+  ],
+  "sub": [
+   "Hard House",
+   "Makina",
+   "Ghettotech"
+  ],
+  "sources": [
+   "https://mixmag.fr/read/canelle-doublekick-revient-avec-give-it-to-me-news",
+   "https://yeah.paleo.ch/en/artist/2023/canelle-doublekick"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Human Safari",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Tribal Techno",
+   "Acid"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/1284730-human-safari-on-charting-new-currents-in-electronic-music-with-r-s-records",
+   "https://humansafari.bandcamp.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Doudou MD",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://djmag.com/features/recognise-078-doudou-md",
+   "https://dekmantelfestival.com/artists/doudou-md"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "E.X.E.C.U.T.E",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.discogs.com/artist/13607083-EXECUTE",
+   "https://api.discogs.com/database/search?artist=E.X.E.C.U.T.E&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Delff",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Trap"
+  ],
+  "sources": [
+   "https://subhive.dk/",
+   "https://somo.social/en/e/drum-bass-klubben-taxman-drum-828"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "25emeheure",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Hardgroove",
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/25emeheure",
+   "https://djobooking.com/article/25emeheure-letoile-montante-du-hard-techno-qui-electrise-leurope"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "La Bringue",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.collectif-la-bringue.fr/",
+   "https://www.warehouse-nantes.fr/event/la-bringue-shifter-2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "FENIM0RE",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.discogs.com/release/34140304-Fenim0re-Invasive-Thoughts",
+   "https://soundcloud.com/hate_music/fenimore-hate-podcast-478"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Brent Honey",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Hard House"
+  ],
+  "sources": [
+   "https://www.plusbitsagency.com/artists/brent-honey",
+   "https://brenthoney.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ben Techy b2b Luciid",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://mixmagnl.com/read/verknipt-expands-its-hard-techno-empire-with-verknipt-records-news",
+   "https://neonowl.co/verknipt-records/"
+  ],
+  "confidence": "medium"
+ }
+]
