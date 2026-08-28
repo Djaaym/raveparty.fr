@@ -273,6 +273,8 @@ OFF_GENRE = {
     "black metal", "heavy metal", "metalcore", "deathcore", "hardcore punk", "punk",
     "post-hardcore", "thrash metal", "doom metal", "grindcore", "emo", "screamo",
     "hip-hop", "hip hop", "rap", "trap", "r&b", "soul", "funk", "jazz", "blues",
+    "hardcore hip-hop", "political hip-hop", "conscious hip-hop", "cloud rap", "drill",
+    "gypsy punk", "reggaeton", "afrobeats", "amapiano vocals", "spoken word",
     "country", "folk", "classical", "opera", "reggae", "ska", "dancehall", "pop punk",
     "k-pop", "j-pop", "anime", "soundtrack", "christian", "gospel", "worship",
     "singer songwriter", "acoustic", "grunge", "shoegaze", "post-rock", "darkwave",

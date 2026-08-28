@@ -128,6 +128,19 @@ def main() -> int:
                 bad.append((r.get("name"), f.name, "aucun genre principal valide")); continue
             if not srcs:
                 bad.append((r.get("name"), f.name, "aucune source http(s)")); continue
+            # Les sous-genres hors périmètre se retirent ; mais si l'artiste n'en a
+            # *que* de ceux-là, c'est qu'aucune des onze cases ne le décrit — Kneecap
+            # est un groupe de rap, et le ranger en « EDM » pour le faire entrer dans le
+            # moule est faux. Le brief demande de sauter ces cas, ce test les rattrape.
+            # La nuance compte : Cassius fait de la French house avec une teinte
+            # synthpop, ce n'est pas la même chose qu'un groupe de rap.
+            raw_subs = [x for x in (r.get("sub") or []) if isinstance(x, str) and x.strip()]
+            off = [x for x in raw_subs if norm_tag(x) in OFF_GENRE]
+            if raw_subs and len(off) == len(raw_subs):
+                bad.append((r.get("name"), f.name,
+                            f"hors périmètre ({', '.join(off)}) — aucune des onze "
+                            f"catégories ne le décrit")); continue
+            r = {**r, "sub": [x for x in raw_subs if x not in off]}
             prev = research.get(slug)
             if prev and len(prev["srcs"]) >= len(srcs):
                 continue
@@ -201,6 +214,22 @@ def main() -> int:
         ranked = sorted(scores.items(), key=lambda kv: (-kv[1], MAIN_KEYS.index(kv[0])))
         floor = ranked[0][1] * 0.35
         mains = [g for g, v in ranked if v >= floor][:3]
+
+        # Corroboration. Le calendrier ne sait pas ce qu'un artiste joue — c'est toute
+        # la raison de ce module — mais il n'est pas aléatoire pour autant. Qu'une
+        # attribution ne partage *aucun* genre avec *aucune* des soirées où l'artiste
+        # est programmé est un signal fort : soit la source décrit un homonyme, soit
+        # elle est périmée. Wikidata seul donnait ainsi « Techno » à Basement Jaxx et à
+        # Don Diablo, « Trance » à Yousuke Yukimatsu.
+        #
+        # Une seule source dans ce cas ne suffit pas : on n'écrit rien et `artistGenres()`
+        # retombe sur la déduction, qui au moins ne contredit pas le calendrier. Deux
+        # sources indépendantes qui disent la même chose, en revanche, ont le droit de
+        # contredire l'affiche — c'est même précisément ce qu'on leur demande.
+        ev = set(cat[slug]["genres"])
+        if ev and not (ev & set(mains)) and len(set(used)) < 2:
+            stats["contredit le calendrier, source unique"] += 1
+            continue
         sranked = sorted(subs.items(), key=lambda kv: (-kv[1], kv[0]))
         sfloor = (sranked[0][1] * 0.3) if sranked else 0
         keep_s = [s for s, v in sranked if v >= sfloor and s not in mains][:3]
