@@ -3345,6 +3345,335 @@
    ]
   ]
  },
+ "globular-waves": {
+  "found": false
+ },
+ "gow-fast": {
+  "found": false
+ },
+ "groove-raiderz": {
+  "found": false
+ },
+ "guts": {
+  "found": false
+ },
+ "halo": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    28
+   ],
+   [
+    "electronic",
+    21
+   ],
+   [
+    "pop",
+    3
+   ],
+   [
+    "funk / soul",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "indie rock",
+    7
+   ],
+   [
+    "house",
+    7
+   ],
+   [
+    "industrial",
+    6
+   ],
+   [
+    "doom metal",
+    5
+   ],
+   [
+    "alternative rock",
+    5
+   ],
+   [
+    "minimal",
+    5
+   ],
+   [
+    "modern classical",
+    4
+   ],
+   [
+    "ambient",
+    4
+   ],
+   [
+    "art rock",
+    3
+   ],
+   [
+    "trance",
+    3
+   ],
+   [
+    "garage house",
+    3
+   ],
+   [
+    "tech house",
+    3
+   ]
+  ]
+ },
+ "hannah-hannah": {
+  "found": false
+ },
+ "harris-ford": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "pop",
+    4
+   ],
+   [
+    "hip hop",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    23
+   ],
+   [
+    "hands up",
+    17
+   ],
+   [
+    "electro house",
+    9
+   ],
+   [
+    "psy-trance",
+    5
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "hardcore",
+    3
+   ],
+   [
+    "dance-pop",
+    3
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "hard trance",
+    2
+   ],
+   [
+    "trance",
+    2
+   ],
+   [
+    "hard techno",
+    2
+   ],
+   [
+    "acid",
+    2
+   ]
+  ]
+ },
+ "hdn": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ],
+   [
+    "pop",
+    4
+   ]
+  ],
+  "n": 9,
+  "styles": [
+   [
+    "electro house",
+    3
+   ],
+   [
+    "europop",
+    3
+   ],
+   [
+    "schlager",
+    2
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "easy listening",
+    1
+   ]
+  ]
+ },
+ "hendrik-stein": {
+  "found": false
+ },
+ "hiraku": {
+  "found": true,
+  "genres": [
+   [
+    "pop",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ]
+  ],
+  "n": 2,
+  "styles": [
+   [
+    "idm",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ]
+  ]
+ },
+ "hot-since-82": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "tech house",
+    30
+   ],
+   [
+    "deep house",
+    25
+   ],
+   [
+    "house",
+    11
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "dance-pop",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ]
+ },
+ "human-safari": {
+  "found": false
+ },
+ "ian-pooley": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "stage & screen",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    42
+   ],
+   [
+    "deep house",
+    22
+   ],
+   [
+    "tech house",
+    12
+   ],
+   [
+    "latin",
+    7
+   ],
+   [
+    "techno",
+    7
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "music video",
+    1
+   ],
+   [
+    "minimal",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "acid",
+    1
+   ],
+   [
+    "future jazz",
+    1
+   ]
+  ]
+ },
  "in-verruf": {
   "found": true,
   "genres": [
@@ -3380,6 +3709,275 @@
     1
    ]
   ]
+ },
+ "ind": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    32
+   ],
+   [
+    "funk / soul",
+    8
+   ],
+   [
+    "rock",
+    5
+   ],
+   [
+    "jazz",
+    5
+   ],
+   [
+    "pop",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "freetekno",
+    20
+   ],
+   [
+    "tribal",
+    19
+   ],
+   [
+    "hardcore",
+    10
+   ],
+   [
+    "techno",
+    8
+   ],
+   [
+    "funk",
+    5
+   ],
+   [
+    "experimental",
+    4
+   ],
+   [
+    "acid",
+    4
+   ],
+   [
+    "soul",
+    4
+   ],
+   [
+    "disco",
+    3
+   ],
+   [
+    "hard techno",
+    3
+   ],
+   [
+    "electroacoustic",
+    3
+   ],
+   [
+    "industrial",
+    3
+   ]
+  ]
+ },
+ "isis-cloudt": {
+  "found": false
+ },
+ "jacidorex": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    28
+   ]
+  ],
+  "n": 28,
+  "styles": [
+   [
+    "techno",
+    27
+   ],
+   [
+    "acid",
+    22
+   ],
+   [
+    "tribal",
+    6
+   ],
+   [
+    "freetekno",
+    4
+   ],
+   [
+    "hardcore",
+    2
+   ],
+   [
+    "tech trance",
+    2
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "hip hop",
+    1
+   ],
+   [
+    "gabber",
+    1
+   ]
+  ]
+ },
+ "james-holden": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "rock",
+    3
+   ],
+   [
+    "non-music",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    22
+   ],
+   [
+    "progressive house",
+    19
+   ],
+   [
+    "experimental",
+    19
+   ],
+   [
+    "progressive trance",
+    15
+   ],
+   [
+    "idm",
+    15
+   ],
+   [
+    "minimal",
+    9
+   ],
+   [
+    "tech house",
+    9
+   ],
+   [
+    "downtempo",
+    7
+   ],
+   [
+    "ambient",
+    7
+   ],
+   [
+    "trance",
+    6
+   ],
+   [
+    "minimal techno",
+    5
+   ],
+   [
+    "electro",
+    4
+   ]
+  ]
+ },
+ "jan-vervloet": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    27
+   ]
+  ],
+  "n": 27,
+  "styles": [
+   [
+    "trance",
+    16
+   ],
+   [
+    "techno",
+    7
+   ],
+   [
+    "progressive house",
+    6
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "hardstyle",
+    2
+   ],
+   [
+    "hard trance",
+    2
+   ],
+   [
+    "hard house",
+    1
+   ],
+   [
+    "psy-trance",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "happy hardcore",
+    1
+   ],
+   [
+    "jumpstyle",
+    1
+   ]
+  ]
+ },
+ "jason-payne": {
+  "found": false
+ },
+ "jekkamai": {
+  "found": false
  },
  "joss-dean": {
   "found": false
