@@ -15,9 +15,29 @@ export interface Artist {
   countries: string[];
 }
 
+/**
+ * Le nom affiché, quand le catalogue en écrit plusieurs.
+ *
+ * Trente-six artistes apparaissent sous deux orthographes dans les line-ups —
+ * « Étienne de Crécy » et « Etienne de Crécy », « KRUELTY » et « Kruelty ». Le slug
+ * les réunit (c'est voulu : une page par artiste), mais le nom retenu était celui de
+ * la *première* date rencontrée, c'est-à-dire un hasard de l'ordre du fichier.
+ *
+ * Deux règles, dans cet ordre : **l'accent gagne** — le perdre est une faute de
+ * saisie, jamais un choix typographique — puis **la graphie la plus fréquente**. Les
+ * capitales, elles, sont souvent le vrai nom de scène (KETTAMA, NASTIA) : on ne les
+ * corrige pas.
+ */
+function pickName(counts: Map<string, number>): string {
+  const forms = [...counts.entries()];
+  const accented = forms.filter(([n]) => /[^\u0000-\u007f]/.test(n));
+  const pool = accented.length ? accented : forms;
+  return pool.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0][0];
+}
+
 /* Build the artist index from every event line-up (the artist ↔ festival mesh). */
 function buildArtists(): Artist[] {
-  const map = new Map<string, Artist & { _g: Set<string>; _c: Set<string> }>();
+  const map = new Map<string, Artist & { _g: Set<string>; _c: Set<string>; _n: Map<string, number> }>();
   for (const e of EVENTS) {
     for (const raw of e.lineup) {
       const name = raw.trim();
@@ -25,16 +45,17 @@ function buildArtists(): Artist[] {
       if (!slug) continue;
       let a = map.get(slug);
       if (!a) {
-        a = { slug, name, eventIds: [], genres: [], countries: [], _g: new Set(), _c: new Set() };
+        a = { slug, name, eventIds: [], genres: [], countries: [], _g: new Set(), _c: new Set(), _n: new Map() };
         map.set(slug, a);
       }
       a.eventIds.push(e.id);
+      a._n.set(name, (a._n.get(name) ?? 0) + 1);
       e.genres.forEach((g) => a!._g.add(g));
       a._c.add(e.country);
     }
   }
   return [...map.values()]
-    .map((a) => ({ slug: a.slug, name: a.name, eventIds: a.eventIds, genres: [...a._g], countries: [...a._c] }))
+    .map((a) => ({ slug: a.slug, name: pickName(a._n), eventIds: a.eventIds, genres: [...a._g], countries: [...a._c] }))
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 

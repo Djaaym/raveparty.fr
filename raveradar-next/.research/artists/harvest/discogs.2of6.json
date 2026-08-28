@@ -1,4 +1,206 @@
 {
+ "36framez": {
+  "found": false
+ },
+ "a-n-z": {
+  "found": false
+ },
+ "aaron-hibell": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    8
+   ],
+   [
+    "pop",
+    3
+   ]
+  ],
+  "n": 8,
+  "styles": [
+   [
+    "house",
+    4
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "progressive trance",
+    2
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "modern classical",
+    2
+   ],
+   [
+    "dance-pop",
+    1
+   ],
+   [
+    "hard trance",
+    1
+   ]
+  ]
+ },
+ "adam-f": {
+  "found": false
+ },
+ "aerea": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    22
+   ],
+   [
+    "brass & military",
+    18
+   ],
+   [
+    "latin",
+    8
+   ],
+   [
+    "pop",
+    7
+   ],
+   [
+    "stage & screen",
+    6
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    15
+   ],
+   [
+    "minimal",
+    8
+   ],
+   [
+    "disco",
+    5
+   ],
+   [
+    "techno",
+    4
+   ],
+   [
+    "ambient",
+    4
+   ],
+   [
+    "tech house",
+    4
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "brass band",
+    3
+   ],
+   [
+    "military",
+    3
+   ],
+   [
+    "fusion",
+    2
+   ],
+   [
+    "ballad",
+    2
+   ],
+   [
+    "vocal",
+    1
+   ]
+  ]
+ },
+ "aja-gulris": {
+  "found": false
+ },
+ "alarico-pres-kenji-hina": {
+  "found": false
+ },
+ "alexandre-billard": {
+  "found": false
+ },
+ "alle-farben": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "pop",
+    28
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    31
+   ],
+   [
+    "deep house",
+    10
+   ],
+   [
+    "tech house",
+    8
+   ],
+   [
+    "dance-pop",
+    3
+   ],
+   [
+    "electro house",
+    3
+   ],
+   [
+    "tropical house",
+    2
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "indie pop",
+    1
+   ],
+   [
+    "hardstyle",
+    1
+   ],
+   [
+    "minimal",
+    1
+   ],
+   [
+    "nu-disco",
+    1
+   ]
+  ]
+ },
  "anyma": {
   "found": true,
   "genres": [
@@ -892,6 +1094,646 @@
    [
     "industrial",
     3
+   ]
+  ]
+ },
+ "paramida": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ]
+  ],
+  "n": 6,
+  "styles": [
+   [
+    "house",
+    5
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "tech house",
+    2
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "italo house",
+    1
+   ],
+   [
+    "acid",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "rebelion": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    40
+   ],
+   [
+    "rock",
+    8
+   ],
+   [
+    "reggae",
+    2
+   ],
+   [
+    "latin",
+    1
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    38
+   ],
+   [
+    "hardcore",
+    13
+   ],
+   [
+    "punk",
+    6
+   ],
+   [
+    "roots reggae",
+    1
+   ],
+   [
+    "oi",
+    1
+   ],
+   [
+    "pop rock",
+    1
+   ],
+   [
+    "heavy metal",
+    1
+   ],
+   [
+    "power metal",
+    1
+   ]
+  ]
+ },
+ "ron-trent": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "funk / soul",
+    2
+   ],
+   [
+    "non-music",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "deep house",
+    41
+   ],
+   [
+    "house",
+    31
+   ],
+   [
+    "techno",
+    7
+   ],
+   [
+    "downtempo",
+    4
+   ],
+   [
+    "garage house",
+    3
+   ],
+   [
+    "hard house",
+    1
+   ],
+   [
+    "hard trance",
+    1
+   ],
+   [
+    "tribal house",
+    1
+   ],
+   [
+    "boogie",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "funk",
+    1
+   ],
+   [
+    "future jazz",
+    1
+   ]
+  ]
+ },
+ "sama-abdulhadi": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    3
+   ]
+  ],
+  "n": 3,
+  "styles": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "progressive house",
+    1
+   ]
+  ]
+ },
+ "she-her": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    15
+   ],
+   [
+    "electronic",
+    13
+   ],
+   [
+    "pop",
+    9
+   ],
+   [
+    "folk, world, & country",
+    2
+   ],
+   [
+    "hip hop",
+    1
+   ]
+  ],
+  "n": 34,
+  "styles": [
+   [
+    "noise",
+    7
+   ],
+   [
+    "shoegaze",
+    6
+   ],
+   [
+    "europop",
+    5
+   ],
+   [
+    "euro house",
+    4
+   ],
+   [
+    "harsh noise wall",
+    4
+   ],
+   [
+    "vocal",
+    3
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "dream pop",
+    2
+   ],
+   [
+    "post rock",
+    2
+   ],
+   [
+    "punk",
+    2
+   ],
+   [
+    "depressive black metal",
+    2
+   ],
+   [
+    "dark ambient",
+    2
+   ]
+  ]
+ },
+ "sofia-kourtesis": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    21
+   ],
+   [
+    "latin",
+    1
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 21,
+  "styles": [
+   [
+    "house",
+    14
+   ],
+   [
+    "deep house",
+    8
+   ],
+   [
+    "tech house",
+    6
+   ],
+   [
+    "microhouse",
+    2
+   ],
+   [
+    "latin",
+    1
+   ],
+   [
+    "future pop",
+    1
+   ],
+   [
+    "alt-pop",
+    1
+   ],
+   [
+    "latin pop",
+    1
+   ],
+   [
+    "cumbia",
+    1
+   ],
+   [
+    "progressive breaks",
+    1
+   ]
+  ]
+ },
+ "sub-focus": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    48
+   ],
+   [
+    "dubstep",
+    9
+   ],
+   [
+    "electro house",
+    6
+   ],
+   [
+    "breaks",
+    3
+   ],
+   [
+    "breakbeat",
+    3
+   ],
+   [
+    "happy hardcore",
+    2
+   ],
+   [
+    "electro",
+    2
+   ],
+   [
+    "jungle",
+    2
+   ],
+   [
+    "hardcore",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "glitch",
+    1
+   ]
+  ]
+ },
+ "the-avener": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    47
+   ],
+   [
+    "pop",
+    18
+   ],
+   [
+    "folk, world, & country",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "electro house",
+    19
+   ],
+   [
+    "house",
+    16
+   ],
+   [
+    "deep house",
+    15
+   ],
+   [
+    "dance-pop",
+    6
+   ],
+   [
+    "chillwave",
+    4
+   ],
+   [
+    "electro",
+    4
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "french house",
+    1
+   ],
+   [
+    "indie pop",
+    1
+   ]
+  ]
+ },
+ "tricky": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    47
+   ],
+   [
+    "hip hop",
+    11
+   ],
+   [
+    "rock",
+    3
+   ],
+   [
+    "reggae",
+    3
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "trip hop",
+    46
+   ],
+   [
+    "downtempo",
+    23
+   ],
+   [
+    "abstract",
+    4
+   ],
+   [
+    "leftfield",
+    3
+   ],
+   [
+    "broken beat",
+    3
+   ],
+   [
+    "experimental",
+    2
+   ],
+   [
+    "alternative rock",
+    2
+   ],
+   [
+    "ragga",
+    2
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "juke",
+    1
+   ],
+   [
+    "dub techno",
+    1
+   ],
+   [
+    "italo-disco",
+    1
+   ]
+  ]
+ },
+ "virginia": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    23
+   ],
+   [
+    "pop",
+    13
+   ],
+   [
+    "folk, world, & country",
+    8
+   ],
+   [
+    "rock",
+    8
+   ],
+   [
+    "blues",
+    4
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    11
+   ],
+   [
+    "techno",
+    6
+   ],
+   [
+    "deep house",
+    3
+   ],
+   [
+    "folk",
+    3
+   ],
+   [
+    "electro",
+    2
+   ],
+   [
+    "freestyle",
+    2
+   ],
+   [
+    "nu-disco",
+    2
+   ],
+   [
+    "italo-disco",
+    2
+   ],
+   [
+    "country rock",
+    2
+   ],
+   [
+    "chanson",
+    2
+   ],
+   [
+    "dub",
+    2
+   ],
+   [
+    "jungle",
+    2
+   ]
+  ]
+ },
+ "yves-deruyter": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "trance",
+    42
+   ],
+   [
+    "hard trance",
+    17
+   ],
+   [
+    "techno",
+    9
+   ],
+   [
+    "progressive trance",
+    4
+   ],
+   [
+    "tech trance",
+    3
+   ],
+   [
+    "acid",
+    1
+   ],
+   [
+    "hardcore",
+    1
    ]
   ]
  }

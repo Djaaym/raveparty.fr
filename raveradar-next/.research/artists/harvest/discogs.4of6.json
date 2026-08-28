@@ -1,4 +1,321 @@
 {
+ "6ejou": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ]
+  ],
+  "n": 6,
+  "styles": [
+   [
+    "hard techno",
+    5
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "hardcore",
+    2
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "industrial",
+    1
+   ]
+  ]
+ },
+ "a-s-y-s": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "acid",
+    36
+   ],
+   [
+    "hard trance",
+    29
+   ],
+   [
+    "techno",
+    21
+   ],
+   [
+    "hardstyle",
+    7
+   ],
+   [
+    "electro",
+    5
+   ],
+   [
+    "electro house",
+    5
+   ],
+   [
+    "tech trance",
+    4
+   ],
+   [
+    "drum n bass",
+    3
+   ],
+   [
+    "hard techno",
+    3
+   ],
+   [
+    "progressive trance",
+    2
+   ],
+   [
+    "tech house",
+    2
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "abul-mogard": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "stage & screen",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "ambient",
+    48
+   ],
+   [
+    "drone",
+    29
+   ],
+   [
+    "experimental",
+    19
+   ],
+   [
+    "dark ambient",
+    11
+   ],
+   [
+    "abstract",
+    4
+   ],
+   [
+    "modern classical",
+    4
+   ],
+   [
+    "soundtrack",
+    1
+   ]
+  ]
+ },
+ "adam-trigger": {
+  "found": false
+ },
+ "afterlife-collective": {
+  "found": false
+ },
+ "akimbo": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    23
+   ],
+   [
+    "electronic",
+    22
+   ],
+   [
+    "funk / soul",
+    4
+   ],
+   [
+    "pop",
+    4
+   ],
+   [
+    "hip hop",
+    3
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardcore",
+    32
+   ],
+   [
+    "stoner rock",
+    11
+   ],
+   [
+    "acid jazz",
+    6
+   ],
+   [
+    "noise",
+    4
+   ],
+   [
+    "downtempo",
+    3
+   ],
+   [
+    "funk",
+    3
+   ],
+   [
+    "grindcore",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "punk",
+    2
+   ],
+   [
+    "sludge metal",
+    2
+   ],
+   [
+    "post rock",
+    2
+   ],
+   [
+    "industrial",
+    1
+   ]
+  ]
+ },
+ "alex-kassian": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    13
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "reggae",
+    1
+   ]
+  ],
+  "n": 13,
+  "styles": [
+   [
+    "balearic",
+    7
+   ],
+   [
+    "house",
+    5
+   ],
+   [
+    "ambient",
+    5
+   ],
+   [
+    "deep house",
+    3
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "trance",
+    2
+   ],
+   [
+    "dub",
+    2
+   ],
+   [
+    "breakbeat",
+    2
+   ],
+   [
+    "ambient house",
+    2
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "krautrock",
+    1
+   ],
+   [
+    "neo trance",
+    1
+   ]
+  ]
+ },
+ "alika": {
+  "found": false
+ },
+ "alt8": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    10
+   ]
+  ],
+  "n": 10,
+  "styles": [
+   [
+    "techno",
+    7
+   ],
+   [
+    "electro",
+    5
+   ],
+   [
+    "hard techno",
+    2
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
  "artbat": {
   "found": true,
   "genres": [
@@ -925,6 +1242,521 @@
    ],
    [
     "gothic metal",
+    1
+   ]
+  ]
+ },
+ "pegassi": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    5
+   ]
+  ],
+  "n": 5,
+  "styles": [
+   [
+    "trance",
+    3
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ]
+ },
+ "reinier-zonneveld": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    45
+   ],
+   [
+    "tech house",
+    15
+   ],
+   [
+    "minimal",
+    10
+   ],
+   [
+    "electro",
+    10
+   ],
+   [
+    "minimal techno",
+    6
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "deep house",
+    3
+   ],
+   [
+    "acid",
+    3
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "hardcore",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "rose": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    43
+   ],
+   [
+    "pop",
+    6
+   ],
+   [
+    "electronic",
+    5
+   ],
+   [
+    "funk / soul",
+    3
+   ],
+   [
+    "classical",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardcore",
+    35
+   ],
+   [
+    "thrash",
+    31
+   ],
+   [
+    "punk",
+    19
+   ],
+   [
+    "grindcore",
+    11
+   ],
+   [
+    "death metal",
+    6
+   ],
+   [
+    "disco",
+    4
+   ],
+   [
+    "indie pop",
+    3
+   ],
+   [
+    "crossover thrash",
+    2
+   ],
+   [
+    "alternative rock",
+    1
+   ],
+   [
+    "post-hardcore",
+    1
+   ],
+   [
+    "post-metal",
+    1
+   ],
+   [
+    "k-pop",
+    1
+   ]
+  ]
+ },
+ "sandrien": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    7
+   ]
+  ],
+  "n": 7,
+  "styles": [
+   [
+    "techno",
+    5
+   ],
+   [
+    "tech house",
+    2
+   ],
+   [
+    "minimal",
+    2
+   ],
+   [
+    "deep techno",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "dub techno",
+    1
+   ]
+  ]
+ },
+ "skepta": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    37
+   ],
+   [
+    "hip hop",
+    26
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "grime",
+    39
+   ],
+   [
+    "dubstep",
+    9
+   ],
+   [
+    "house",
+    8
+   ],
+   [
+    "drum n bass",
+    8
+   ],
+   [
+    "breaks",
+    4
+   ],
+   [
+    "breakbeat",
+    3
+   ],
+   [
+    "uk garage",
+    3
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "uk funky",
+    3
+   ],
+   [
+    "bassline",
+    3
+   ],
+   [
+    "instrumental",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ]
+  ]
+ },
+ "soulwax": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    32
+   ],
+   [
+    "electronic",
+    32
+   ],
+   [
+    "hip hop",
+    3
+   ],
+   [
+    "jazz",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "alternative rock",
+    23
+   ],
+   [
+    "electro",
+    20
+   ],
+   [
+    "indie rock",
+    15
+   ],
+   [
+    "disco",
+    7
+   ],
+   [
+    "house",
+    7
+   ],
+   [
+    "synth-pop",
+    7
+   ],
+   [
+    "electro house",
+    5
+   ],
+   [
+    "leftfield",
+    4
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "punk",
+    2
+   ],
+   [
+    "post-punk",
+    1
+   ],
+   [
+    "pop rock",
+    1
+   ]
+  ]
+ },
+ "tassery": {
+  "found": false
+ },
+ "the-lady-machine": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ]
+  ],
+  "n": 6,
+  "styles": [
+   [
+    "techno",
+    5
+   ],
+   [
+    "ambient house",
+    1
+   ]
+  ]
+ },
+ "ush": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    7
+   ]
+  ],
+  "n": 7,
+  "styles": [
+   [
+    "hard techno",
+    3
+   ],
+   [
+    "hardstyle",
+    2
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ]
+  ]
+ },
+ "will-atkinson": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "folk, world, & country",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "trance",
+    34
+   ],
+   [
+    "tech trance",
+    18
+   ],
+   [
+    "hard trance",
+    7
+   ],
+   [
+    "progressive trance",
+    4
+   ],
+   [
+    "psy-trance",
+    3
+   ],
+   [
+    "progressive house",
+    2
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "drum n bass",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ]
+ },
+ "zara-larsson": {
+  "found": true,
+  "genres": [
+   [
+    "pop",
+    49
+   ],
+   [
+    "electronic",
+    26
+   ],
+   [
+    "funk / soul",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "europop",
+    23
+   ],
+   [
+    "dance-pop",
+    17
+   ],
+   [
+    "synth-pop",
+    9
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "tropical house",
+    3
+   ],
+   [
+    "baltimore club",
+    3
+   ],
+   [
+    "electro house",
+    2
+   ],
+   [
+    "trap",
+    2
+   ],
+   [
+    "euro house",
+    2
+   ],
+   [
+    "holiday",
+    2
+   ],
+   [
+    "ballad",
+    1
+   ],
+   [
+    "electro",
     1
    ]
   ]
