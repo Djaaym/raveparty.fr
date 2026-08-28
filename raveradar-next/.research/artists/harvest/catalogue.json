@@ -1685,13 +1685,6 @@
   "n": 1,
   "name": "Basit Soomro"
  },
- "bass-d": {
-  "genres": {
-   "Hardcore": 1
-  },
-  "n": 1,
-  "name": "Bass-D"
- },
  "battery": {
   "genres": {
    "Drum & Bass": 1
@@ -3938,18 +3931,11 @@
   "n": 3,
   "name": "Dimension"
  },
- "dimitri": {
-  "genres": {
-   "House": 1
-  },
-  "n": 1,
-  "name": "Dimitri"
- },
  "dimitri-from-paris": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Dimitri From Paris"
  },
  "dimitri-vegas": {
@@ -7823,17 +7809,6 @@
   },
   "n": 1,
   "name": "KAVARI"
- },
- "kavinsky": {
-  "genres": {
-   "EDM": 1,
-   "Hardcore": 1,
-   "Hardstyle": 1,
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Kavinsky"
  },
  "kayla-painter": {
   "genres": {

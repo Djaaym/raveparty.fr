@@ -31,6 +31,9 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   // retirée ; mais son URL était indexée, et une URL gagnée ne retombe jamais en
   // 404 : elle pointe vers la fiche allemande de la même marque.
   "time-warp-spain": { base: "festival", slug: "time-warp" },
+  // Le titre était tronqué à « … Bellaire & Dimitri » — l'affiche du Warehouse de
+  // Nantes porte « Dimitri from Paris ». Corriger le titre déplace le slug.
+  "club-de-jour-invite-bellaire-dimitri": { base: "event", slug: "club-de-jour-invite-bellaire-dimitri-from-paris" },
 };
 
 /**
@@ -61,6 +64,12 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   "u-uk-uk1mat-u": "yousuke-yukimatsu",
   furcht: "in-furcht",
   christoph: "cristoph",
+  dimitri: "dimitri-from-paris",
+  // Vincent Belorgey (Kavinsky) est mort le 28 juillet 2026 et Eugenio Dorwart
+  // (Bass-D) le 2 janvier 2026 : tous deux figuraient encore au line-up d'une date
+  // à venir. Leurs fiches disparaissent avec le nom, mais l'URL reste.
+  kavinsky: null,
+  "bass-d": null,
   // N'étaient pas des artistes : un nom de soirée de club, un titre de tournée.
   fused: null,
   "a-nice-place-to-be": null,
