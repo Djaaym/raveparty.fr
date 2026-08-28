@@ -53,7 +53,13 @@ DENY = re.compile(r"\b(nc|nd|noncommercial|noderiv)\b", re.I)
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
 MIN_SRC = 320       # en dessous, l'upscale se voit
 CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est pas au centre)
-FACE_MODEL = Path("/tmp/claude-0/-home-user-raveparty-fr/6b60d075-55de-5423-9bd7-18eadc001735/scratchpad/yunet.onnx")
+# Le détecteur de visages. Il vivait dans un répertoire temporaire de session — donc
+# absent au passage suivant, et `FaceDetectorYN_create` lève sur un fichier manquant :
+# la détection s'effondrait en silence et *tous* les portraits partaient en « aucun
+# visage détecté ». Il se télécharge maintenant à la demande, à côté du script.
+FACE_MODEL = Path(__file__).resolve().parent / "yunet.onnx"
+FACE_MODEL_URL = ("https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/"
+                  "face_detection_yunet_2023mar.onnx")
 FACE_MIN_RATIO = 0.055  # un visage plus petit que ça = photo de scène, pas un portrait
 HEAD_ROOM = 1.9         # largeur du carré en multiples de la largeur du visage
 # Artistes qui jouent masqués : le détecteur ne trouve rien, et pourtant la photo
@@ -175,6 +181,19 @@ def duotone(img: Image.Image) -> Image.Image:
     toned = grey.convert("RGB")
     toned = toned.point(ramp)
     return Image.blend(grey.convert("RGB"), toned, MIX)
+
+
+def ensure_face_model() -> bool:
+    """Télécharge YuNet si besoin. Faux si on doit se passer de détection."""
+    if FACE_MODEL.exists() and FACE_MODEL.stat().st_size > 10_000:
+        return True
+    try:
+        FACE_MODEL.write_bytes(fetch(FACE_MODEL_URL))
+        print(f"  ↓ détecteur de visages téléchargé ({FACE_MODEL.stat().st_size // 1024} Ko)")
+        return True
+    except Exception as e:
+        print(f"  ⚠ détecteur indisponible ({str(e)[:60]}) — cadrage géométrique seul")
+        return False
 
 
 def biggest_face(img: Image.Image):
@@ -308,6 +327,9 @@ def main() -> int:
         print(f"  ✗ {name:32} licence non réutilisable : {lic}")
 
     OUT.mkdir(parents=True, exist_ok=True)
+    global cv2
+    if cv2 is not None and not ensure_face_model():
+        cv2 = None  # sans modèle, on ne peut ni centrer ni filtrer : on ne prétend pas le faire
     seen_hash, out_map, skipped = {}, {}, []
 
     for slug, (name, url, author, lic, page) in cands.items():

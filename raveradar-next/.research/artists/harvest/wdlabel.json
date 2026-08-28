@@ -5486,6 +5486,27 @@
  "lis-sarroca": {
   "found": false
  },
+ "lisa-korver": {
+  "found": false
+ },
+ "little-simz": {
+  "born": "1994-02-23",
+  "citizenship": "United Kingdom",
+  "desc": "British rapper",
+  "found": true,
+  "genres": [
+   "UK rap"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SimbiAjikawo-TIFF2025-01-Cropped.png",
+  "mbid": "2485abe7-ea0a-4cd2-9a6f-0795cc228be6",
+  "qid": "Q6547427"
+ },
+ "lizzy": {
+  "found": false
+ },
+ "lobster": {
+  "found": false
+ },
  "loco-dice": {
   "born": "1974-08-10",
   "citizenship": "Tunisia",
@@ -5495,6 +5516,33 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Loco%20Dice%20on%20the%20decks%21.jpg",
   "mbid": "1292906d-cd67-4158-a3d6-19c7c9df3e8f",
   "qid": "Q1867690"
+ },
+ "locus-error": {
+  "found": false
+ },
+ "locus-solus": {
+  "found": false
+ },
+ "loko": {
+  "found": false
+ },
+ "lola-palmer": {
+  "found": false
+ },
+ "loscil": {
+  "born": null,
+  "citizenship": "Canada",
+  "desc": "Canadian musician",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Loscil-LiveMutek.jpg",
+  "mbid": "4f2c565b-ac40-4678-ba61-4fcf3b97edbc",
+  "qid": "Q4043193"
+ },
+ "lossia": {
+  "found": false
  },
  "lost-frequencies": {
   "born": "1993-11-30",
@@ -5508,6 +5556,34 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Open%20Beatz%20-%20Lost%20Frequencies%20-%20by%202eight%20-DSC%205232.jpg",
   "mbid": "b5dc6ea6-5f8b-4c66-a1ba-3e3f18d1e3b3",
   "qid": "Q18857432"
+ },
+ "louie-vega": {
+  "found": false
+ },
+ "loukeman": {
+  "found": false
+ },
+ "love-transmission": {
+  "found": false
+ },
+ "low-r": {
+  "found": false
+ },
+ "lowriderz": {
+  "found": false
+ },
+ "lsdxoxo": {
+  "born": "1991-06-04",
+  "citizenship": "United States",
+  "desc": "musical artist",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "c2710100-a9e9-46e9-bae7-4677333cd0eb",
+  "qid": "Q107092612"
+ },
+ "ltdream": {
+  "found": false
  },
  "ltj-bukem": {
   "born": "1967-01-01",
@@ -5524,6 +5600,9 @@
  "luca-agnelli": {
   "found": false
  },
+ "luca-hemmers": {
+  "found": false
+ },
  "luciano": {
   "ambiguous": [
    "Q630076",
@@ -5537,10 +5616,46 @@
  "luigi-tozzi": {
   "found": false
  },
+ "luis-ripa": {
+  "found": false
+ },
+ "luke-alessi": {
+  "found": false
+ },
+ "luke-slater": {
+  "born": "1968-06-12",
+  "citizenship": "United Kingdom",
+  "desc": "British musician",
+  "found": true,
+  "genres": [
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/LUKE%202.jpg",
+  "mbid": "c2e96142-3c3b-4eb8-979b-390bfb90e9d6",
+  "qid": "Q1877065"
+ },
+ "lunaa": {
+  "found": false
+ },
+ "lunatic": {
+  "found": false
+ },
+ "lunax": {
+  "found": false
+ },
  "luneris": {
   "found": false
  },
+ "lusterclub": {
+  "found": false
+ },
  "luuk-van-dijk": {
+  "found": false
+ },
+ "m-deozen": {
+  "found": false
+ },
+ "m-high": {
   "found": false
  },
  "maceo-plex": {
@@ -5570,6 +5685,12 @@
   "mbid": "2ec1fa08-b832-43ca-bf3f-e210f16d00e4",
   "qid": "Q4273693"
  },
+ "mad-kate": {
+  "found": false
+ },
+ "madben": {
+  "found": false
+ },
  "maddix": {
   "born": "1990-12-03",
   "citizenship": "Kingdom of the Netherlands",
@@ -5583,7 +5704,53 @@
   "mbid": "0ae6eb0e-f5b4-48b0-98ab-2158ccd6f5c8",
   "qid": "Q55765564"
  },
+ "madmotormiquel": {
+  "found": false
+ },
+ "madness": {
+  "ambiguous": [
+   "Q745741",
+   "Q10575153"
+  ],
+  "found": false
+ },
+ "maduk": {
+  "born": "1990-10-04",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ and music producer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maduk%20Liquicity%20Festival%202015.jpg",
+  "mbid": "eb01febc-e2ba-45ef-b873-2ccbef4b64cb",
+  "qid": "Q21076641"
+ },
+ "madwoman": {
+  "found": false
+ },
+ "maelle": {
+  "born": "2001-01-04",
+  "citizenship": "France",
+  "desc": "French singer",
+  "found": true,
+  "genres": [
+   "synth-pop",
+   "electropop",
+   "pop music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ma%C3%ABlle%202019.jpg",
+  "mbid": "53e4eef6-7959-4d5f-896e-8c005326a91e",
+  "qid": "Q72326804"
+ },
+ "maike-depas": {
+  "found": false
+ },
  "main-phase": {
+  "found": false
+ },
+ "major7": {
+  "found": false
+ },
+ "makez": {
   "found": false
  },
  "mala": {
@@ -5598,6 +5765,30 @@
   "mbid": null,
   "qid": "Q112954612"
  },
+ "malaa": {
+  "born": null,
+  "citizenship": "France",
+  "desc": "French DJ and record producer",
+  "found": true,
+  "genres": [
+   "g-house",
+   "bass house",
+   "tech house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/RIE2023Malaa%2003.jpg",
+  "mbid": "a0d47559-6ffc-464a-a4d6-30777e5c76f7",
+  "qid": "Q48976227"
+ },
+ "malago": {
+  "found": false
+ },
+ "malice": {
+  "ambiguous": [
+   "Q1700753",
+   "Q48781362"
+  ],
+  "found": false
+ },
  "mall-grab": {
   "born": "1994-01-01",
   "citizenship": null,
@@ -5607,6 +5798,43 @@
   "img": null,
   "mbid": "845ddc8b-36ba-4d7b-9c6f-bd7623cd3cac",
   "qid": "Q87800198"
+ },
+ "malla": {
+  "found": false
+ },
+ "malou": {
+  "found": false
+ },
+ "manchek": {
+  "found": false
+ },
+ "mandragora": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English space rock/world dance music band",
+  "found": true,
+  "genres": [
+   "space rock",
+   "psychedelic rock"
+  ],
+  "img": null,
+  "mbid": "9e45e2d7-bc9b-4dad-ade6-f507478180d0",
+  "qid": "Q6748176"
+ },
+ "manudigital": {
+  "born": null,
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [
+   "rapping"
+  ],
+  "img": null,
+  "mbid": "e4d4bf5a-e200-4844-9745-d806b58cf827",
+  "qid": "Q99674697"
+ },
+ "maoh": {
+  "found": false
  },
  "mar-t": {
   "found": false
@@ -5624,6 +5852,12 @@
   "qid": "Q4281018"
  },
  "marc-acardipane": {
+  "found": false
+ },
+ "marc-jerome": {
+  "found": false
+ },
+ "marc-zocher": {
   "found": false
  },
  "marcel-dettmann": {
@@ -5653,11 +5887,92 @@
   "mbid": "daa683bc-1a8d-48da-be35-864526c444a6",
   "qid": "Q1498245"
  },
+ "marco-marino": {
+  "found": false
+ },
+ "marco-zaffarano": {
+  "born": "1970-08-16",
+  "citizenship": "Germany",
+  "desc": "German disc jockey",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "920aa70e-d8a0-4dee-80d7-8d878be1a901",
+  "qid": "Q1893974"
+ },
+ "marhu": {
+  "found": false
+ },
+ "maria-healy": {
+  "born": null,
+  "citizenship": null,
+  "desc": "dj & producer",
+  "found": true,
+  "genres": [
+   "trance"
+  ],
+  "img": null,
+  "mbid": "f2b32ddb-6ee4-4a16-bc8f-c59dde66d5ef",
+  "qid": "Q132666612"
+ },
+ "maria-louisa": {
+  "found": false
+ },
  "maribou-state": {
+  "found": false
+ },
+ "marie-davidson": {
+  "born": "1987-01-01",
+  "citizenship": "Canada",
+  "desc": "Canadian musician",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Davidson%20in%202017.jpg",
+  "mbid": "5e864744-89b6-4da8-b463-3ed601c22d8c",
+  "qid": "Q28363465"
+ },
+ "marie-julie": {
   "found": false
  },
  "marie-vaunt": {
   "found": false
+ },
+ "mark-broom": {
+  "born": "1971-05-06",
+  "citizenship": "United Kingdom",
+  "desc": "British techno musician and DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "94fe7c3b-0bb0-47a9-b0cd-6b46a8b1c7b2",
+  "qid": "Q323101"
+ },
+ "mark-hawkins": {
+  "found": false
+ },
+ "mark-with-a-k": {
+  "born": "1973-02-10",
+  "citizenship": "Belgium",
+  "desc": "Belgian DJ and record producer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20with%20a%20k-1687339145.jpeg",
+  "mbid": "9dbb7013-fe35-4d7e-80ff-e7663fe5e8d2",
+  "qid": "Q22906045"
+ },
+ "markus-schulz": {
+  "born": "1975-02-03",
+  "citizenship": "Germany",
+  "desc": "German DJ and music producer",
+  "found": true,
+  "genres": [
+   "progressive trance",
+   "trance",
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Markus-shulz%20at%20mysteryland.jpg",
+  "mbid": "62558a6c-cbb1-4bee-a843-d07d187ddf55",
+  "qid": "Q57784"
  },
  "marlon-hoffstadt": {
   "born": "1994-01-01",
@@ -5674,7 +5989,48 @@
   "mbid": "7377ee25-9240-4b50-a824-20c202e96da9",
   "qid": "Q136433410"
  },
+ "marmotek-sound-system": {
+  "found": false
+ },
+ "maro": {
+  "born": "1994-10-30",
+  "citizenship": "Portugal",
+  "desc": "Portuguese singer (1994-)",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maro%20interviewed%20at%20Festival%20da%20Can%C3%A7%C3%A3o%202022.png",
+  "mbid": "7c908b36-6ae2-45d2-b0bd-7b58fa5708a1",
+  "qid": "Q111212936"
+ },
+ "marr-n": {
+  "found": false
+ },
+ "marsh": {
+  "ambiguous": [
+   "Q138641360",
+   "Q28439965"
+  ],
+  "found": false
+ },
+ "marshall-jefferson": {
+  "born": "1959-09-19",
+  "citizenship": "United States",
+  "desc": "American DJ and record producer",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marshall-jefferson-cropped-2013.jpg",
+  "mbid": "c7eaea5b-9ebf-4de7-893f-569f56eca993",
+  "qid": "Q1351604"
+ },
  "marshmello": {
+  "found": false
+ },
+ "marsolo": {
+  "found": false
+ },
+ "marti-cros": {
   "found": false
  },
  "martin-garrix": {
@@ -5695,7 +6051,66 @@
   "mbid": "3e1f2ee4-16be-4406-bf18-6173840cf2b1",
   "qid": "Q14544318"
  },
+ "martin-oelz": {
+  "found": false
+ },
+ "martina-bertoni": {
+  "found": false
+ },
+ "martyn": {
+  "born": "1975-01-01",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch dubstep DJ and producer",
+  "found": true,
+  "genres": [
+   "dubstep"
+  ],
+  "img": null,
+  "mbid": "329a39e5-1a9f-4a6a-8e68-49fc8b400a63",
+  "qid": "Q6777587"
+ },
+ "marz": {
+  "born": null,
+  "citizenship": null,
+  "desc": "German band",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q1957507"
+ },
+ "masta-ace": {
+  "born": "1966-12-04",
+  "citizenship": "United States",
+  "desc": "American rapper",
+  "found": true,
+  "genres": [
+   "hardcore hip-hop",
+   "East Coast hip-hop",
+   "jazz rap",
+   "funk",
+   "hip-hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Masta%20Ace.jpg",
+  "mbid": "ceef10f5-324d-4a04-8db7-1a4181e19ab3",
+  "qid": "Q592381"
+ },
  "masters-at-work": {
+  "found": false
+ },
+ "mate": {
+  "born": null,
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [
+   "modern rock"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q12595084"
+ },
+ "mateo-spirit": {
   "found": false
  },
  "mathame": {
@@ -5723,6 +6138,12 @@
   "qid": "Q99610114"
  },
  "matrakk": {
+  "found": false
+ },
+ "matt-view-hannelotta": {
+  "found": false
+ },
+ "matthias-geerts": {
   "found": false
  },
  "mau-p": {
@@ -5754,7 +6175,82 @@
   "mbid": "2d68f237-4e00-424a-a03e-d16993d1da15",
   "qid": "Q6794665"
  },
+ "max-dean": {
+  "found": false
+ },
+ "max-finney": {
+  "found": false
+ },
+ "max-wagner": {
+  "ambiguous": [
+   "Q21034877",
+   "Q94872704",
+   "Q6795343"
+  ],
+  "found": false
+ },
+ "maxi-mo": {
+  "found": false
+ },
+ "may-li": {
+  "found": false
+ },
+ "maz": {
+  "born": null,
+  "citizenship": "Brazil",
+  "desc": "musician",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "6c62cbc3-d7a8-42a6-a113-790849fd1c50",
+  "qid": "Q140383534"
+ },
+ "mc-alee": {
+  "found": false
+ },
+ "mc-boogshe": {
+  "found": false
+ },
+ "mc-chucky": {
+  "found": false
+ },
+ "mc-dl": {
+  "found": false
+ },
+ "mc-kaman": {
+  "found": false
+ },
+ "mc-livid": {
+  "found": false
+ },
+ "mc-mars": {
+  "found": false
+ },
+ "mc-nice": {
+  "found": false
+ },
+ "mc-novy": {
+  "found": false
+ },
+ "mc-spot": {
+  "found": false
+ },
+ "mc-tasty": {
+  "found": false
+ },
+ "mc-tonn-piper": {
+  "found": false
+ },
+ "mcde": {
+  "found": false
+ },
+ "mcr-t": {
+  "found": false
+ },
  "me": {
+  "found": false
+ },
+ "medine": {
   "found": false
  },
  "medusa": {
@@ -5769,8 +6265,64 @@
   "mbid": "f12c0b95-ce69-46bb-87d1-b2cc376115e9",
   "qid": "Q25172022"
  },
+ "meduza": {
+  "ambiguous": [
+   "Q56513335",
+   "Q56513406",
+   "Q64877768"
+  ],
+  "found": false
+ },
+ "meera": {
+  "found": false
+ },
+ "megane-brescich": {
+  "found": false
+ },
+ "melanie-c": {
+  "born": "1974-01-12",
+  "citizenship": "United Kingdom",
+  "desc": "British pop singer",
+  "found": true,
+  "genres": [
+   "pop rock",
+   "Britpop",
+   "pop music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Melanie%20Chisholm%202019.jpg",
+  "mbid": "25b509ef-48ad-461b-a0bc-94cdddb8c919",
+  "qid": "Q151830"
+ },
+ "mella-dee": {
+  "born": null,
+  "citizenship": null,
+  "desc": "musical artist",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q64746220"
+ },
+ "melon-bomb": {
+  "found": false
+ },
  "melvo-baptiste": {
   "found": false
+ },
+ "menesix": {
+  "found": false
+ },
+ "mestiza": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Spanish musical duo",
+  "found": true,
+  "genres": [
+   "Afro house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%8BSTIZA.png",
+  "mbid": "787549fa-293c-4e4e-8e5f-e94f87d63ae8",
+  "qid": "Q132976053"
  },
  "metrik": {
   "born": "1986-12-27",
@@ -5784,7 +6336,16 @@
   "mbid": "2744b622-aaaf-467a-8641-d0deffbe43ac",
   "qid": "Q13427115"
  },
+ "mia-mia": {
+  "found": false
+ },
  "michael-amani": {
+  "found": false
+ },
+ "michael-bibi": {
+  "found": false
+ },
+ "michael-cores": {
   "found": false
  },
  "michel-de-hey": {
@@ -5797,7 +6358,35 @@
   "mbid": "304fd4d8-c905-43a1-a3c9-910ebcfc9481",
   "qid": "Q1870258"
  },
+ "midland": {
+  "ambiguous": [
+   "Q30603462",
+   "Q42887456"
+  ],
+  "found": false
+ },
+ "mietze-conte": {
+  "found": false
+ },
+ "mija": {
+  "found": false
+ },
  "mika-heggemann": {
+  "found": false
+ },
+ "mike-servito": {
+  "found": false
+ },
+ "mikee": {
+  "found": false
+ },
+ "mila-haj-kasem": {
+  "found": false
+ },
+ "milion": {
+  "found": false
+ },
+ "millad": {
   "found": false
  },
  "mind-against": {
@@ -5809,6 +6398,21 @@
   "img": null,
   "mbid": "7e9826df-af21-4b16-9f5a-0523b2e3f4a0",
   "qid": "Q61679307"
+ },
+ "mind-compressor": {
+  "found": false
+ },
+ "mind-dimension": {
+  "found": false
+ },
+ "minna": {
+  "found": false
+ },
+ "mira-mark": {
+  "found": false
+ },
+ "mish": {
+  "found": false
  },
  "miss-k8": {
   "born": "2000-01-01",
@@ -5835,6 +6439,18 @@
   "mbid": "167f05d9-c9d2-48b5-977d-98d7c78834f8",
   "qid": "Q111208579"
  },
+ "missnoa": {
+  "found": false
+ },
+ "mita-gami": {
+  "found": false
+ },
+ "mix-master-morris": {
+  "found": false
+ },
+ "miyagi": {
+  "found": false
+ },
  "mk": {
   "born": "1972-08-03",
   "citizenship": "United States",
@@ -5847,7 +6463,79 @@
   "mbid": "4545675e-4006-4271-8e82-703cae7e1748",
   "qid": "Q6755665"
  },
+ "mo-disko-b2b-nico-juice": {
+  "found": false
+ },
+ "moa": {
+  "found": false
+ },
+ "moby": {
+  "born": "1965-09-11",
+  "citizenship": "United States",
+  "desc": "American musician, DJ and record producer",
+  "found": true,
+  "genres": [
+   "ambient music",
+   "techno",
+   "house music",
+   "alternative rock",
+   "electronic music",
+   "punk rock",
+   "electronica",
+   "chill-out music",
+   "electronic rock",
+   "downtempo",
+   "trip hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Moby%2012%2017%202018%20-16%20%2831743191557%29.jpg",
+  "mbid": "8970d868-0723-483b-a75b-51088913d3d4",
+  "qid": "Q14045"
+ },
+ "mochakk": {
+  "born": "1999-09-22",
+  "citizenship": "Brazil",
+  "desc": "musical artist",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "35321b91-98ca-4a78-b34f-cb113722eab9",
+  "qid": "Q124125060"
+ },
  "modeselektor": {
+  "found": false
+ },
+ "modestep": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English dubstep duo",
+  "found": true,
+  "genres": [
+   "electronic rock",
+   "dubstep"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Modestep%20%40%20Wellington%20Square%20%281%2010%202012%29%20%288076818490%29.jpg",
+  "mbid": "04ef7efd-f54e-49b2-a367-bc4ed6c172f0",
+  "qid": "Q1860033"
+ },
+ "molly-sanden": {
+  "found": false
+ },
+ "monika-kruse": {
+  "born": "1971-07-23",
+  "citizenship": "Germany",
+  "desc": "German techno DJ and music producer",
+  "found": true,
+  "genres": [
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Monika-Kruse-Dj.jpg",
+  "mbid": "52718ad6-dbf9-422e-889e-e251589ffa26",
+  "qid": "Q71376"
+ },
+ "monika-seta": {
+  "found": false
+ },
+ "monkey-safari": {
   "found": false
  },
  "monolink": {
@@ -5861,6 +6549,12 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Monolink%20byHailleyHoward-8613.jpg",
   "mbid": "b0c9303d-e660-4c5f-938d-14c17bd6d1d6",
   "qid": "Q55623638"
+ },
+ "montaigne": {
+  "found": false
+ },
+ "moodfino": {
+  "found": false
  },
  "moodymann": {
   "born": "1950-01-01",
@@ -5876,10 +6570,72 @@
   "mbid": "17d69e72-9cf2-496f-aa64-ba238de2087e",
   "qid": "Q369822"
  },
+ "morgan-seatree": {
+  "found": false
+ },
+ "moritz-worpenberg": {
+  "found": false
+ },
+ "morten": {
+  "found": false
+ },
+ "mortis-b2b-outrage": {
+  "found": false
+ },
  "mosimann": {
   "found": false
  },
+ "mosmoz": {
+  "found": false
+ },
+ "mota": {
+  "found": false
+ },
+ "mousse-t": {
+  "born": "1966-10-02",
+  "citizenship": "Germany",
+  "desc": "Turkish-German musician (born 1966)",
+  "found": true,
+  "genres": [
+   "soul",
+   "disco",
+   "pop music",
+   "house music",
+   "jazz"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mousse%20T%20%28crop%29.jpg",
+  "mbid": "d4c6ae95-497b-42f7-bdec-41cf76d1a39c",
+  "qid": "Q521051"
+ },
+ "mozey": {
+  "found": false
+ },
+ "mr-bassmeister": {
+  "found": false
+ },
+ "mr-scruff": {
+  "found": false
+ },
  "mrak": {
+  "found": false
+ },
+ "mulatu-astatke": {
+  "born": "1943-12-19",
+  "citizenship": "Ethiopia",
+  "desc": "Ethiopian musician",
+  "found": true,
+  "genres": [
+   "Ethio-jazz",
+   "music of Africa"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mulatu%20Astatke%20Cosmopolite%202017%20%28221840%29.jpg",
+  "mbid": "67f0c7ca-14e8-47a3-be0e-bd2f2ffe25bb",
+  "qid": "Q382901"
+ },
+ "muovipussi": {
+  "found": false
+ },
+ "musclecars": {
   "found": false
  },
  "muzz": {
@@ -5889,7 +6645,38 @@
   ],
   "found": false
  },
+ "mv-funk": {
+  "found": false
+ },
+ "mykana": {
+  "found": false
+ },
+ "mykki-blanco": {
+  "found": false
+ },
+ "myu-sa": {
+  "found": false
+ },
+ "n-e-o-b2b-rbenyx": {
+  "found": false
+ },
+ "n-rbak": {
+  "found": false
+ },
  "n-vitral": {
+  "found": false
+ },
+ "naft": {
+  "found": false
+ },
+ "naomi": {
+  "ambiguous": [
+   "Q6964610",
+   "Q16954872"
+  ],
+  "found": false
+ },
+ "narciss": {
   "found": false
  },
  "nastia": {
@@ -5901,6 +6688,9 @@
   "img": null,
   "mbid": null,
   "qid": "Q28701384"
+ },
+ "natasha-diggs": {
+  "found": false
  },
  "nathan-fake": {
   "born": "1983-03-01",
@@ -5915,6 +6705,12 @@
   "mbid": "a77f6f2f-19a2-4648-9018-3ad3aa4c1b9b",
   "qid": "Q1966560"
  },
+ "nathan-homan": {
+  "found": false
+ },
+ "nativesun": {
+  "found": false
+ },
  "natte-visstick": {
   "born": null,
   "citizenship": "Kingdom of the Netherlands",
@@ -5927,8 +6723,37 @@
   "mbid": "174b89b6-01a1-4a2c-8dca-63707a82f68b",
   "qid": "Q116250254"
  },
+ "natty-lou": {
+  "found": false
+ },
+ "nd-baumecker": {
+  "found": false
+ },
+ "ned-bennett": {
+  "found": false
+ },
+ "neelix": {
+  "born": "1975-09-11",
+  "citizenship": "Germany",
+  "desc": "German record producer and disc jockey",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Neelix%20%28DJ%29%20-%2001%20Jun%202007.jpg",
+  "mbid": "86acb593-2bd8-41cb-8edc-fc8ba3620b15",
+  "qid": "Q103258"
+ },
  "negitiv": {
   "found": false
+ },
+ "neil-landstrumm": {
+  "born": "2000-01-01",
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "1805915b-0120-419e-926f-9d117ff67c39",
+  "qid": "Q1749212"
  },
  "nemesys": {
   "found": false
@@ -5945,6 +6770,12 @@
   "mbid": "ba474cdb-fd06-4a49-988d-819a6bbd2077",
   "qid": "Q1448889"
  },
+ "nervo": {
+  "found": false
+ },
+ "ness": {
+  "found": false
+ },
  "netsky": {
   "born": "1989-03-22",
   "citizenship": "Belgium",
@@ -5957,6 +6788,9 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Netsky%20%28DJ%29.jpg",
   "mbid": "587fd8ec-2e9d-4ce6-8bc5-97d0a9334883",
   "qid": "Q44399"
+ },
+ "newtone": {
+  "found": false
  },
  "nghtmre": {
   "born": "1990-10-11",
@@ -5971,6 +6805,12 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/NGHTMRE.jpg",
   "mbid": "f72e0c57-94fd-447d-afdb-868e70d356d7",
   "qid": "Q28056193"
+ },
+ "nhu": {
+  "found": false
+ },
+ "nia": {
+  "found": false
  },
  "nia-archives": {
   "born": "1999-01-01",
@@ -5992,6 +6832,37 @@
   "mbid": "fc8c55a1-06b9-470e-ab2f-285ab676cc38",
   "qid": "Q12328597"
  },
+ "nick-cave-the-bad-seeds": {
+  "found": false
+ },
+ "nick-d-lite": {
+  "found": false
+ },
+ "nick-hoppner": {
+  "found": false
+ },
+ "nick-warren": {
+  "born": "1960-10-24",
+  "citizenship": "United Kingdom",
+  "desc": "English DJ and record producer",
+  "found": true,
+  "genres": [
+   "electronica"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nick%20Warren%20Wiki.jpeg",
+  "mbid": "a433a331-d643-468e-a0aa-afc7386a678c",
+  "qid": "Q1738428"
+ },
+ "nickodemus": {
+  "born": "1980-01-01",
+  "citizenship": "United States",
+  "desc": "American disc jockey, composer and music producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "ec475fb8-d454-406e-b473-7f0b0d815f9d",
+  "qid": "Q1336126"
+ },
  "nico-moreno": {
   "born": "1994-08-20",
   "citizenship": "France",
@@ -6001,6 +6872,24 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nico%20Moreno.%20Photo%20de%20Nico%20Moreno%20par%20Samuel%20Nogues.jpg",
   "mbid": "82f2714c-f532-482a-859a-5b170901f9e9",
   "qid": "Q135474848"
+ },
+ "nicolas-cuer": {
+  "found": false
+ },
+ "nicolas-julian": {
+  "born": "1997-07-29",
+  "citizenship": "Germany",
+  "desc": null,
+  "found": true,
+  "genres": [
+   "hard techno"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q130624094"
+ },
+ "nicolas-lutz": {
+  "found": false
  },
  "nicole-moudaber": {
   "born": "1977-01-19",
@@ -6013,6 +6902,28 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicole%20Moudaber%2003.jpg",
   "mbid": "daf952d5-b5fa-4d58-91a3-3ca23956ee58",
   "qid": "Q16732919"
+ },
+ "nicole-olenskaia": {
+  "found": false
+ },
+ "nicone": {
+  "found": false
+ },
+ "nightwave": {
+  "found": false
+ },
+ "nikki-nair": {
+  "found": false
+ },
+ "niklas-dee": {
+  "born": "2002-01-01",
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "05269b45-29ae-4492-bb83-c6cff20d4d25",
+  "qid": "Q119735897"
  },
  "nikolina": {
   "found": false
@@ -6030,11 +6941,86 @@
   "mbid": "5dd3cf5b-474d-465a-a539-456d7e125ebc",
   "qid": "Q14829032"
  },
+ "niotech": {
+  "found": false
+ },
+ "nkisi": {
+  "found": false
+ },
+ "nmss": {
+  "found": false
+ },
  "noiseflow": {
+  "found": false
+ },
+ "noiseshock": {
+  "found": false
+ },
+ "noize-suppressor": {
+  "found": false
+ },
+ "noizer": {
+  "found": false
+ },
+ "noless": {
+  "found": false
+ },
+ "norbak": {
+  "found": false
+ },
+ "nordiks": {
+  "found": false
+ },
+ "nosedrip": {
+  "found": false
+ },
+ "nosferatu": {
+  "ambiguous": [
+   "Q2001593",
+   "Q6045399"
+  ],
+  "found": false
+ },
+ "notion": {
+  "found": false
+ },
+ "notmytype": {
+  "found": false
+ },
+ "nova": {
+  "ambiguous": [
+   "Q10603816",
+   "Q3398778",
+   "Q3878983",
+   "Q15112305",
+   "Q18690048"
+  ],
   "found": false
  },
  "novah": {
   "found": false
+ },
+ "nox": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch occult death metal band",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q107031109"
+ },
+ "noxa": {
+  "born": null,
+  "citizenship": null,
+  "desc": "band",
+  "found": true,
+  "genres": [
+   "grindcore"
+  ],
+  "img": null,
+  "mbid": "73d71e19-832b-4bd3-9c6b-71e9a5c10bbb",
+  "qid": "Q1629257"
  },
  "nto": {
   "born": "1984-01-01",
@@ -6046,7 +7032,29 @@
   "mbid": "619f53fa-0f28-4f02-a313-9078979fd04c",
   "qid": "Q121539052"
  },
+ "nu-tone": {
+  "born": "1976-01-01",
+  "citizenship": "United Kingdom",
+  "desc": "British musician",
+  "found": true,
+  "genres": [
+   "electronica",
+   "drum and bass"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nutone2.jpg",
+  "mbid": "380e2880-567d-4991-a9b5-93a07e428652",
+  "qid": "Q1983879"
+ },
  "nyra": {
+  "found": false
+ },
+ "o-b-i": {
+  "found": false
+ },
+ "obs": {
+  "found": false
+ },
+ "obsimo": {
   "found": false
  },
  "octave-one": {
@@ -6064,6 +7072,39 @@
   "mbid": "3fa65334-e3c4-4e83-b24f-5af5535ba462",
   "qid": "Q29452434"
  },
+ "odyssee": {
+  "found": false
+ },
+ "ofenbach": {
+  "born": null,
+  "citizenship": null,
+  "desc": "French house music duo",
+  "found": true,
+  "genres": [
+   "electropop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ofenbach%20-%202018111193820%202018-04-21%2030%20Jahre%20Radio%20Regenbogen%20-%20Sven%20-%201D%20X%20MK%20II%20-%200052%20-%20B70I4230.jpg",
+  "mbid": "1d81a1be-1b66-427d-9335-c777a259eadb",
+  "qid": "Q29380907"
+ },
+ "ogalla": {
+  "found": false
+ },
+ "ogazon": {
+  "found": false
+ },
+ "oguz": {
+  "found": false
+ },
+ "ojoo": {
+  "found": false
+ },
+ "ok-eg": {
+  "found": false
+ },
+ "ok-williams": {
+  "found": false
+ },
  "oklou": {
   "born": "1993-04-23",
   "citizenship": "France",
@@ -6074,7 +7115,73 @@
   "mbid": "397aad6e-2b6b-422e-9c40-c187f1a1c318",
   "qid": "Q64746371"
  },
+ "oko-dj": {
+  "found": false
+ },
+ "olanskii": {
+  "found": false
+ },
+ "oliver-heldens": {
+  "born": "1995-02-01",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ and record producer",
+  "found": true,
+  "genres": [
+   "future house",
+   "electro house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Airbeat%20One%202015%20Oliver%20Heldens%20by%20Denis%20Apel-1666.jpg",
+  "mbid": "df679f1d-2bab-442b-bc67-02a44f9b2adf",
+  "qid": "Q16667903"
+ },
+ "oliver-huntemann": {
+  "born": "1968-06-19",
+  "citizenship": "Germany",
+  "desc": "German musician",
+  "found": true,
+  "genres": [
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oliver%20Huntemann.jpg",
+  "mbid": "2ac9c835-e573-47a0-b495-876fd0cc7ecc",
+  "qid": "Q2020310"
+ },
+ "oliver-koletzki": {
+  "born": "1974-10-05",
+  "citizenship": "Germany",
+  "desc": "German DJ",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/2014-08-23%20Oliver%20Koletzki%20at%20Echelon%202014%200317.JPG",
+  "mbid": "45b22870-0b5c-40a3-8110-dac5b6d48b13",
+  "qid": "Q2020350"
+ },
+ "oliver-lieb": {
+  "born": "1969-12-31",
+  "citizenship": "Germany",
+  "desc": "German musician",
+  "found": true,
+  "genres": [
+   "ambient music",
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oliver%20lieb%20%28cropped%29.jpg",
+  "mbid": "c13ee751-a89a-4c3e-bce6-256e76e57262",
+  "qid": "Q69903"
+ },
  "oliver-magenta": {
+  "found": false
+ },
+ "omaks": {
+  "found": false
+ },
+ "omiki": {
+  "found": false
+ },
+ "omnya": {
+  "found": false
+ },
+ "one87": {
   "found": false
  },
  "onlynumbers": {
@@ -6093,6 +7200,31 @@
   "mbid": "dae93723-8362-4cdb-8906-d468807a2a2e",
   "qid": "Q449323"
  },
+ "optimo-espacio": {
+  "found": false
+ },
+ "orishas": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Cuban musical group; hip hop",
+  "found": true,
+  "genres": [
+   "hip-hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/2020%20Orishas%20-%20by%202eight%20-%20ZSC8467.jpg",
+  "mbid": "cbf11f81-f98d-458d-89e1-194b40ba5b60",
+  "qid": "Q646036"
+ },
+ "orkidea": {
+  "born": "1977-01-01",
+  "citizenship": "Finland",
+  "desc": "Finnish DJ",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/DJ%20Orkidea.jpg",
+  "mbid": "17294d99-11ea-4fb3-af2f-33e607a8c079",
+  "qid": "Q505081"
+ },
  "ornella": {
   "found": false
  },
@@ -6108,6 +7240,15 @@
   "mbid": "fefc8328-4ec3-4616-9303-862e8d4de4c4",
   "qid": "Q7106144"
  },
+ "osmos": {
+  "found": false
+ },
+ "ouai-stephane": {
+  "found": false
+ },
+ "outlined": {
+  "found": false
+ },
  "outsiders": {
   "ambiguous": [
    "Q105756415",
@@ -6116,6 +7257,31 @@
   "found": false
  },
  "overmono": {
+  "found": false
+ },
+ "oxia": {
+  "born": null,
+  "citizenship": "France",
+  "desc": null,
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q125678013"
+ },
+ "oxmoze": {
+  "found": false
+ },
+ "ozan": {
+  "found": false
+ },
+ "p-o-u": {
+  "found": false
+ },
+ "pa-olo": {
+  "found": false
+ },
+ "pa-ra": {
   "found": false
  },
  "paco-osuna": {
@@ -6128,10 +7294,56 @@
   "mbid": "bf6335a3-9dc3-46bf-844a-fdb432ddefd5",
   "qid": "Q2045748"
  },
+ "pact-joachim-pastor-joris-delacroix-teho": {
+  "found": false
+ },
+ "paffendorf": {
+  "born": null,
+  "citizenship": null,
+  "desc": "German dance project",
+  "found": true,
+  "genres": [
+   "trance"
+  ],
+  "img": null,
+  "mbid": "3f2e4c21-aa25-4f47-9b27-5f34de04aa0f",
+  "qid": "Q552044"
+ },
  "palms-trax": {
   "found": false
  },
+ "paloma": {
+  "found": false
+ },
+ "paloma-colombe": {
+  "found": false
+ },
  "pan-pot": {
+  "found": false
+ },
+ "pancratio": {
+  "found": false
+ },
+ "panic": {
+  "ambiguous": [
+   "Q2372601",
+   "Q16097844"
+  ],
+  "found": false
+ },
+ "panic-mc-alee": {
+  "found": false
+ },
+ "panteros666": {
+  "found": false
+ },
+ "paquita-gordon": {
+  "found": false
+ },
+ "paradigm": {
+  "found": false
+ },
+ "paralich": {
   "found": false
  },
  "paramida": {
@@ -6144,10 +7356,35 @@
   "mbid": null,
   "qid": "Q123509799"
  },
+ "paranoid-london": {
+  "found": false
+ },
+ "parcels": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Australian electropop band",
+  "found": true,
+  "genres": [
+   "synth-pop",
+   "electropop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Parcels%20-%20Kosmonaut%20Festival%202017%2010.jpg",
+  "mbid": "5318e774-f5b6-4ee0-82cb-4dcf398c3ff8",
+  "qid": "Q47293799"
+ },
+ "parents-in-denial": {
+  "found": false
+ },
+ "part-time-killer": {
+  "found": false
+ },
  "partyraiser": {
   "found": false
  },
  "pat-b": {
+  "found": false
+ },
+ "patrick-mason": {
   "found": false
  },
  "paul-elstak": {
@@ -6180,6 +7417,24 @@
   "mbid": "43b39d78-d541-413a-8c74-45144d067deb",
   "qid": "Q48613"
  },
+ "paul-krist": {
+  "found": false
+ },
+ "paul-oakenfold": {
+  "born": "1963-08-30",
+  "citizenship": "United Kingdom",
+  "desc": "British DJ and electronic music producer (born 1963)",
+  "found": true,
+  "genres": [
+   "trance"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Oakenfold%203%202009.jpg",
+  "mbid": "7bf1f441-ccf1-4258-9797-07c8d16eb44c",
+  "qid": "Q321339"
+ },
+ "paul-sg": {
+  "found": false
+ },
  "paul-van-dyk": {
   "born": "1971-12-16",
   "citizenship": "Germany",
@@ -6199,10 +7454,29 @@
   "mbid": "092ca127-2e07-4cbd-9cba-e412b4ddddd9",
   "qid": "Q77034"
  },
+ "paul-van-dyk-b2b-aly-fila": {
+  "found": false
+ },
+ "paul-wolf": {
+  "found": false
+ },
  "pawlowski": {
   "found": false
  },
  "pawsa": {
+  "found": false
+ },
+ "pearson-sound": {
+  "born": "1988-01-01",
+  "citizenship": "United Kingdom",
+  "desc": "British producer and DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "6857206a-c96e-4fc9-93b5-3b3c5c567e45",
+  "qid": "Q28967465"
+ },
+ "peder-mannerfelt": {
   "found": false
  },
  "pegassi": {
@@ -6225,6 +7499,39 @@
   ],
   "found": false
  },
+ "perc": {
+  "born": null,
+  "citizenship": "United Kingdom",
+  "desc": "techno producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "d670aa53-5200-4ff2-a9fe-e8964a3552fb",
+  "qid": "Q69403120"
+ },
+ "perila": {
+  "found": false
+ },
+ "peter-pan": {
+  "born": null,
+  "citizenship": "France",
+  "desc": "French DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q123511948"
+ },
+ "peter-van-hoesen": {
+  "born": "1970-07-19",
+  "citizenship": "Belgium",
+  "desc": "Belgian musician",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Press%20Photo%202.jpg",
+  "mbid": "34617448-c35a-4894-a41b-1848c95967a5",
+  "qid": "Q28402934"
+ },
  "peterblue": {
   "found": false
  },
@@ -6245,6 +7552,56 @@
   "mbid": "30ae6581-15ec-407b-b192-5f7b7ea214b2",
   "qid": "Q25094096"
  },
+ "peven-everett": {
+  "found": false
+ },
+ "phace": {
+  "born": "2000-01-01",
+  "citizenship": "Germany",
+  "desc": "German disc jockey and record producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "f43f6c18-2ac0-45c9-ad2e-cacc06f25187",
+  "qid": "Q498541"
+ },
+ "phara": {
+  "found": false
+ },
+ "phase": {
+  "born": null,
+  "citizenship": null,
+  "desc": "UK-based rock band formed in Larissa, Greece",
+  "found": true,
+  "genres": [
+   "space rock",
+   "alternative rock",
+   "punk rock"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Phase%20Jan2011.jpg",
+  "mbid": "043d2959-1e90-458e-b804-dbba0e1d8742",
+  "qid": "Q3556951"
+ },
+ "phase-fatale": {
+  "found": false
+ },
+ "philou-louzolo": {
+  "found": false
+ },
+ "photek": {
+  "born": "1972-05-13",
+  "citizenship": "United Kingdom",
+  "desc": "English composer, producer, and DJ",
+  "found": true,
+  "genres": [
+   "deep house",
+   "downtempo",
+   "drum and bass"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Photek%20photo%20by%20Faria%20Raji.jpg",
+  "mbid": "7bd2a6eb-11fd-4ad5-ba4e-7f6aba15b277",
+  "qid": "Q1349876"
+ },
  "phuture-noize": {
   "born": "1994-01-01",
   "citizenship": "Kingdom of the Netherlands",
@@ -6257,7 +7614,56 @@
   "mbid": "5347c7dc-a8bd-4a05-8ae1-a17fb1e6a388",
   "qid": "Q99658436"
  },
+ "pianeti-sintetici": {
+  "found": false
+ },
+ "piazza": {
+  "found": false
+ },
+ "piem": {
+  "found": false
+ },
+ "pigminds": {
+  "found": false
+ },
+ "pink-concrete": {
+  "found": false
+ },
+ "pinkpantheress": {
+  "born": "2001-04-19",
+  "citizenship": "United Kingdom",
+  "desc": "British singer-songwriter",
+  "found": true,
+  "genres": [
+   "hyperpop",
+   "alternative pop",
+   "bedroom pop",
+   "2-step garage",
+   "jungle",
+   "dance music",
+   "drum and bass",
+   "pop music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PinkPantheress%20at%202026%20Montreux%20Jazz%20Festival-9.jpg",
+  "mbid": "7441014f-f8f5-494f-81db-ff166fbc078d",
+  "qid": "Q107570416"
+ },
+ "pinotello": {
+  "found": false
+ },
+ "pixie-dust": {
+  "found": false
+ },
  "planetary-assault-systems": {
+  "found": false
+ },
+ "pletnev": {
+  "found": false
+ },
+ "plo-man": {
+  "found": false
+ },
+ "plus2": {
   "found": false
  },
  "polar": {
@@ -6267,6 +7673,61 @@
    "Q7208996",
    "Q16855729"
   ],
+  "found": false
+ },
+ "polar-inertia": {
+  "found": false
+ },
+ "pole": {
+  "born": "1967-02-18",
+  "citizenship": "Germany",
+  "desc": "German electronic musician",
+  "found": true,
+  "genres": [
+   "electronica"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pole%20-%20Mute%20Short%20Circuit%2C%20Roundhouse%2C%20London%20May%2013%202011.jpg",
+  "mbid": "ad957b43-9dc0-42e1-940c-19b21ec77f3a",
+  "qid": "Q2819621"
+ },
+ "polo-pan": {
+  "born": null,
+  "citizenship": null,
+  "desc": "French electronic music band",
+  "found": true,
+  "genres": [
+   "electro"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Polo%20Pan%20Rockhal.png",
+  "mbid": "1d9ec7ea-0fa4-41d9-917b-723c735ebbfe",
+  "qid": "Q28495756"
+ },
+ "polygonia": {
+  "found": false
+ },
+ "pooja-b": {
+  "found": false
+ },
+ "popof": {
+  "born": "2000-01-01",
+  "citizenship": "France",
+  "desc": "French disc jockey",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "8843506e-5cdb-4daa-856b-3613762e31bd",
+  "qid": "Q3397958"
+ },
+ "povoa": {
+  "found": false
+ },
+ "prada2000": {
+  "found": false
+ },
+ "prefix-density": {
+  "found": false
+ },
+ "primate": {
   "found": false
  },
  "project-one": {
@@ -6291,8 +7752,43 @@
   "mbid": null,
   "qid": "Q106969501"
  },
+ "protoje": {
+  "found": false
+ },
+ "provence98": {
+  "found": false
+ },
  "prunk": {
   "found": false
+ },
+ "ptass": {
+  "found": false
+ },
+ "pulp": {
+  "born": null,
+  "citizenship": null,
+  "desc": "UK rock band",
+  "found": true,
+  "genres": [
+   "Britpop",
+   "indie rock",
+   "alternative rock"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pulp%202012%20cropped.jpg",
+  "mbid": "76b2e842-5e85-4c97-ab62-d5bc315595b5",
+  "qid": "Q504464"
+ },
+ "pulsedriver": {
+  "born": "1974-02-22",
+  "citizenship": "Germany",
+  "desc": "Yugoslav-German musician",
+  "found": true,
+  "genres": [
+   "Eurodance"
+  ],
+  "img": null,
+  "mbid": "11adc1aa-0063-4b11-baab-db280169ea03",
+  "qid": "Q66737"
  },
  "purple-disco-machine": {
   "born": "1980-01-01",
@@ -6304,7 +7800,16 @@
   "mbid": "dc71939a-416f-4804-b031-5749287943f9",
   "qid": "Q61746813"
  },
+ "qlas": {
+  "found": false
+ },
  "quelza": {
+  "found": false
+ },
+ "quentin-schneider": {
+  "found": false
+ },
+ "qwenty": {
   "found": false
  },
  "r-dhad": {
@@ -6320,6 +7825,9 @@
  "r3hab": {
   "found": false
  },
+ "radical-cute": {
+  "found": false
+ },
  "radical-redemption": {
   "born": "1990-09-17",
   "citizenship": "Kingdom of the Netherlands",
@@ -6331,6 +7839,9 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Radical%20Redemption%20%2811%29.JPG",
   "mbid": "4cdd32b8-9889-46cd-8b86-6cf9311965b9",
   "qid": "Q33692845"
+ },
+ "rafael-anton-irisarri": {
+  "found": false
  },
  "rampa": {
   "born": null,
@@ -6345,10 +7856,28 @@
  "ran-d": {
   "found": false
  },
+ "randali": {
+  "found": false
+ },
+ "ranger-trucco": {
+  "found": false
+ },
+ "raredub": {
+  "found": false
+ },
  "raresh": {
   "found": false
  },
+ "rawb": {
+  "found": false
+ },
  "raxeller": {
+  "found": false
+ },
+ "rd": {
+  "found": false
+ },
+ "re-style": {
   "found": false
  },
  "rebelion": {
@@ -6357,6 +7886,36 @@
    "Q140370551"
   ],
   "found": false
+ },
+ "rebko": {
+  "found": false
+ },
+ "redbatun": {
+  "found": false
+ },
+ "refuzion": {
+  "born": "1996-09-22",
+  "citizenship": "Norway",
+  "desc": "Norwegian hardstyle musician and DJ",
+  "found": true,
+  "genres": [
+   "hardstyle"
+  ],
+  "img": null,
+  "mbid": "858b3a91-2f3c-40ee-a60b-a7f5b2162220",
+  "qid": "Q63845191"
+ },
+ "regain": {
+  "born": "1994-06-22",
+  "citizenship": "Poland",
+  "desc": "Polish hardstyle producer and DJ",
+  "found": true,
+  "genres": [
+   "hardstyle"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q67536922"
  },
  "regi": {
   "found": false
@@ -6371,6 +7930,18 @@
   "mbid": "41653834-5629-4cf3-b3d7-a0f689f99f42",
   "qid": "Q109450915"
  },
+ "rejecta": {
+  "found": false
+ },
+ "rekkt": {
+  "found": false
+ },
+ "relova": {
+  "found": false
+ },
+ "remzcore": {
+  "found": false
+ },
  "restricted": {
   "born": "1999-12-11",
   "citizenship": null,
@@ -6381,7 +7952,19 @@
   "mbid": null,
   "qid": "Q138543899"
  },
+ "restrictless": {
+  "found": false
+ },
+ "revenge-of-the-nerds": {
+  "found": false
+ },
  "rey-colino": {
+  "found": false
+ },
+ "rey-kjavik": {
+  "found": false
+ },
+ "rgie": {
   "found": false
  },
  "ricardo-villalobos": {
@@ -6397,6 +7980,9 @@
   "mbid": "bbd79854-df54-4c1b-b7d6-cf7eea2d0afb",
   "qid": "Q132415"
  },
+ "ricci": {
+  "found": false
+ },
  "richie-hawtin": {
   "born": "1970-06-04",
   "citizenship": "Canada",
@@ -6409,6 +7995,24 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Richie%20Hawtin-SMS-2018-4.jpg",
   "mbid": "76da816f-ea05-4172-ad9e-ffb69c32199f",
   "qid": "Q378876"
+ },
+ "rick-shiver": {
+  "found": false
+ },
+ "riot-shift": {
+  "found": false
+ },
+ "rob-gee": {
+  "born": "1971-05-26",
+  "citizenship": "United States",
+  "desc": "American record producer and disc jockey",
+  "found": true,
+  "genres": [
+   "gabber"
+  ],
+  "img": null,
+  "mbid": "268be9ed-c3ab-465d-8d78-b817e208f471",
+  "qid": "Q687083"
  },
  "robbie-doherty": {
   "found": false
@@ -6425,8 +8029,74 @@
   "mbid": "e8a61400-baf7-4fb3-a3e3-c9e7b665547f",
   "qid": "Q582813"
  },
+ "robin-hirte": {
+  "found": false
+ },
+ "robin-nicolas": {
+  "found": false
+ },
  "robot-rock-alive": {
   "found": false
+ },
+ "robyn": {
+  "born": "1979-06-12",
+  "citizenship": "Sweden",
+  "desc": "Swedish singer (born 1979)",
+  "found": true,
+  "genres": [
+   "synth-pop",
+   "contemporary R&B",
+   "electropop",
+   "rhythm and blues",
+   "pop music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Robyn%20face.jpg",
+  "mbid": "5a8e07d5-d932-4484-a7f7-e700793a9c94",
+  "qid": "Q229445"
+ },
+ "rocketman": {
+  "found": false
+ },
+ "roger-sanchez": {
+  "born": "1967-06-01",
+  "citizenship": "United States",
+  "desc": "American DJ, remixer and record producer of Dominican descent",
+  "found": true,
+  "genres": [
+   "dance music",
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Sanchez%2C%20July%202018.jpg",
+  "mbid": "1c513fb9-e6b7-4915-b4d3-026681c83065",
+  "qid": "Q714423"
+ },
+ "rokis": {
+  "found": false
+ },
+ "roll-dann": {
+  "found": false
+ },
+ "romain-garcia": {
+  "born": null,
+  "citizenship": "France",
+  "desc": "French DJ and electronic music composer",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q111134318"
+ },
+ "roman-flugel": {
+  "born": "1970-05-05",
+  "citizenship": "Germany",
+  "desc": "German DJ and record producer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%C2%A9StefanFreund%20RomanFluegel%202012%20001.jpg",
+  "mbid": "5286b91c-5d42-4cab-933a-77e30eb74ddc",
+  "qid": "Q2164562"
  },
  "romare": {
   "born": null,
@@ -6439,6 +8109,9 @@
   "img": null,
   "mbid": "b014d579-b549-4b21-b90d-5264e0433988",
   "qid": "Q99672261"
+ },
+ "romen-est-omen": {
+  "found": false
  },
  "ron-trent": {
   "born": "1973-05-23",
@@ -6453,6 +8126,15 @@
   "mbid": "3af43a8a-f0b0-4dda-8cd8-ff4941c05316",
   "qid": "Q1670319"
  },
+ "ronja": {
+  "found": false
+ },
+ "ronny-retro": {
+  "found": false
+ },
+ "rooleh": {
+  "found": false
+ },
  "rooler": {
   "born": "1994-11-21",
   "citizenship": "Italy",
@@ -6466,7 +8148,48 @@
  "roots-zombie": {
   "found": false
  },
+ "ros": {
+  "found": false
+ },
+ "rosa": {
+  "ambiguous": [
+   "Q10656827",
+   "Q11891226",
+   "Q54588907"
+  ],
+  "found": false
+ },
+ "rosa-pagano": {
+  "found": false
+ },
  "rose": {
+  "found": false
+ },
+ "rosilicious": {
+  "found": false
+ },
+ "rotterdam-terror-corps": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch gabber act",
+  "found": true,
+  "genres": [
+   "gabber"
+  ],
+  "img": null,
+  "mbid": "bf4143da-9b14-4ae8-8787-2a1dfe610a76",
+  "qid": "Q2164548"
+ },
+ "rouge": {
+  "found": false
+ },
+ "roussakis": {
+  "found": false
+ },
+ "row1": {
+  "found": false
+ },
+ "royalistiq": {
   "found": false
  },
  "royksopp": {
@@ -6503,10 +8226,147 @@
   "mbid": "29c2b372-b02c-4bb9-b0a7-5741f0b48b3b",
   "qid": "Q105903789"
  },
+ "rp-boo": {
+  "born": "1972-03-11",
+  "citizenship": null,
+  "desc": "Electronic musician, producer, and DJ",
+  "found": true,
+  "genres": [
+   "footwork"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/RP%20Boo%20%40%20Pitchfork%2C%20Chicago%207-16-2016%20%2828135851444%29.jpg",
+  "mbid": "55ccebaa-109c-437d-a533-44cbef54a08d",
+  "qid": "Q41556490"
+ },
+ "ruben-de-ronde": {
+  "found": false
+ },
+ "rudimental": {
+  "born": null,
+  "citizenship": null,
+  "desc": "British drum and bass band",
+  "found": true,
+  "genres": [
+   "drum and bass"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kylie%20Speer%20interviewing%20Rudimental%20in%202013.JPG",
+  "mbid": "b09ced80-aa65-43c1-9aa7-58b1e982eada",
+  "qid": "Q50971"
+ },
+ "ruffneck": {
+  "born": null,
+  "citizenship": null,
+  "desc": "house music group from New Jersey",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "d6acbf85-0dbe-4cef-aa24-b3aaa44dba75",
+  "qid": "Q7377932"
+ },
+ "ruffy": {
+  "found": false
+ },
+ "rusko": {
+  "born": "1985-01-26",
+  "citizenship": "United Kingdom",
+  "desc": "English musician",
+  "found": true,
+  "genres": [
+   "dubstep"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/DJRusko.jpg",
+  "mbid": "54db0d25-2aea-4630-b9ce-4e6c8dcae3db",
+  "qid": "Q974298"
+ },
+ "ruthless": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Californian metal band",
+  "found": true,
+  "genres": [
+   "power metal",
+   "heavy metal music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ruthless%20%E2%80%93%20Headbangers%20Open%20Air%202015%2011.jpg",
+  "mbid": "15cdfb12-5c70-47df-9018-ff40dffbe61d",
+  "qid": "Q16856459"
+ },
+ "ry-x": {
+  "born": "1988-01-01",
+  "citizenship": "Australia",
+  "desc": "Australian musician",
+  "found": true,
+  "genres": [
+   "ambient music",
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ry%20X%20%28ZMF%202017%29%20jm43562.jpg",
+  "mbid": "3b4cd16e-3a25-4c7b-ada6-33f5ea91e1b1",
+  "qid": "Q7383773"
+ },
+ "ryan-dank": {
+  "found": false
+ },
  "ryan-elliott": {
   "found": false
  },
+ "ryan-resso": {
+  "found": false
+ },
+ "ryota": {
+  "found": false
+ },
  "s-p-y": {
+  "found": false
+ },
+ "s3ppa": {
+  "found": false
+ },
+ "saar-kuus": {
+  "found": false
+ },
+ "sadu": {
+  "found": false
+ },
+ "sakyra": {
+  "found": false
+ },
+ "salamita": {
+  "found": false
+ },
+ "sally-c": {
+  "found": false
+ },
+ "saltysis": {
+  "found": false
+ },
+ "salute": {
+  "found": false
+ },
+ "sam-divine": {
+  "born": null,
+  "citizenship": "United Kingdom",
+  "desc": "British disc jockey and record producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "7cc66999-ad7f-40ce-81d9-2d99bb7386c1",
+  "qid": "Q131607500"
+ },
+ "sam-feldt": {
+  "born": "1993-08-01",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ, record producer and entrepreneur",
+  "found": true,
+  "genres": [
+   "tropical house",
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SamFeldt2020%202%20srgb%20crop.jpg",
+  "mbid": "46a6ca47-43b3-4ac4-82ee-189cc5ad549b",
+  "qid": "Q20972330"
+ },
+ "sam-ruffillo": {
   "found": false
  },
  "sama-abdulhadi": {
@@ -6525,7 +8385,40 @@
  "samuel-moriero": {
   "found": false
  },
+ "samynator": {
+  "found": false
+ },
+ "sander-kleinenberg": {
+  "born": "1971-12-29",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ and electronic music producer",
+  "found": true,
+  "genres": [
+   "electronica"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sander%20Kleinenberg%20press%20photo.jpg",
+  "mbid": "96ca75af-d011-4cf0-aa92-3d48521ff615",
+  "qid": "Q572036"
+ },
  "sandrien": {
+  "found": false
+ },
+ "sanem": {
+  "found": false
+ },
+ "sano": {
+  "found": false
+ },
+ "sansibar": {
+  "found": false
+ },
+ "sant-s": {
+  "found": false
+ },
+ "saoirse": {
+  "found": false
+ },
+ "saoirse-b2b-leon-vynehall": {
   "found": false
  },
  "sara-landry": {
@@ -6540,6 +8433,19 @@
   "mbid": "e7891efe-8326-4b04-bbc4-1271da101932",
   "qid": "Q123146576"
  },
+ "sarah-de-warren": {
+  "born": "1994-04-19",
+  "citizenship": "United Kingdom",
+  "desc": "British singer/songwriter",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q134469819"
+ },
+ "sarica": {
+  "found": false
+ },
  "sasha": {
   "ambiguous": [
    "Q63317",
@@ -6547,8 +8453,60 @@
   ],
   "found": false
  },
+ "sasha-john-digweed": {
+  "born": null,
+  "citizenship": null,
+  "desc": "British DJs",
+  "found": true,
+  "genres": [
+   "progressive house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SashaDiggers%20001.jpg",
+  "mbid": "95162abf-5128-4c88-ae79-5cd6f5f81a9f",
+  "qid": "Q7425068"
+ },
+ "saskia": {
+  "found": false
+ },
+ "sassy-girl": {
+  "found": false
+ },
+ "satoshi-tomiie": {
+  "born": "1966-11-22",
+  "citizenship": "Japan",
+  "desc": "Japanese DJ",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Satoshi%20Tomiie%20%28crop%29.jpg",
+  "mbid": "97b07d48-eada-45ce-950d-f7140ea2b4f9",
+  "qid": "Q2528827"
+ },
+ "schacke": {
+  "found": false
+ },
+ "schwesta-p-b2b-olivia-lensen": {
+  "found": false
+ },
  "scientyfreaks": {
   "found": false
+ },
+ "scissor-sisters": {
+  "born": null,
+  "citizenship": null,
+  "desc": "American pop/rock band",
+  "found": true,
+  "genres": [
+   "nu-disco",
+   "electroclash",
+   "glam rock",
+   "pop music",
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Scissor%20Sisters%202025.jpg",
+  "mbid": "4236d929-9a81-4c8e-97c3-8d3306780f50",
+  "qid": "Q464109"
  },
  "scooter": {
   "ambiguous": [
@@ -6557,7 +8515,96 @@
   ],
   "found": false
  },
+ "scott-steer": {
+  "found": false
+ },
+ "scratch-massive": {
+  "born": null,
+  "citizenship": null,
+  "desc": "French DJ duo",
+  "found": true,
+  "genres": [
+   "synthwave"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Scratch%20Massive%40La%20Laiterie%28SXB%29.jpg",
+  "mbid": "6188b61f-c07c-4764-a9d8-52add8c92636",
+  "qid": "Q3476424"
+ },
+ "sean-laird": {
+  "found": false
+ },
+ "seasick": {
+  "found": false
+ },
+ "sebastian": {
+  "found": false
+ },
+ "sebastian-ingrosso": {
+  "born": "1983-04-20",
+  "citizenship": "Sweden",
+  "desc": "Swedish disc jockey and record producer of Italian descent",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sebastian%20Ingrosso%20%28cropped%29.jpg",
+  "mbid": "dbf9177d-6b5f-4de8-b457-61fc73fbe543",
+  "qid": "Q20717"
+ },
+ "sebastien-drums": {
+  "found": false
+ },
+ "sebastien-leger": {
+  "found": false
+ },
+ "seconds-setaoc-mass-phara": {
+  "found": false
+ },
+ "sedef-adasi": {
+  "found": false
+ },
+ "see-rose": {
+  "found": false
+ },
+ "seelen": {
+  "found": false
+ },
+ "sefa": {
+  "found": false
+ },
+ "selah-sue": {
+  "born": "1989-05-03",
+  "citizenship": "Belgium",
+  "desc": "Belgian musician and songwriter",
+  "found": true,
+  "genres": [
+   "soul",
+   "rhythm and blues"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/SelahSue%200.jpg",
+  "mbid": "2c844a7e-da0d-4e89-a6cf-48770c4e5bb6",
+  "qid": "Q271679"
+ },
+ "selene": {
+  "found": false
+ },
+ "self-esteem": {
+  "born": "1986-10-15",
+  "citizenship": "United Kingdom",
+  "desc": "British musician",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/AllPointsEastAug2022%20%2837%20of%20385%29%20%2852327391249%29%20%28cropped%29.jpg",
+  "mbid": "6a467281-0a76-4df5-a5e5-eed3b0716cc4",
+  "qid": "Q65029061"
+ },
  "serafina": {
+  "found": false
+ },
+ "serum": {
+  "found": false
+ },
+ "setaoc-mass": {
   "found": false
  },
  "seth-troxler": {
@@ -6572,6 +8619,56 @@
   "mbid": "d701634c-95a1-4244-92d6-903113bd79d3",
   "qid": "Q3891908"
  },
+ "sg-lewis": {
+  "born": "1994-07-09",
+  "citizenship": "United Kingdom",
+  "desc": "British musician",
+  "found": true,
+  "genres": [
+   "synth-pop",
+   "electronic dance music",
+   "contemporary R&B",
+   "funk",
+   "pop music",
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Boardmasters2023%20%2836%20of%20171%29%20%2853120651533%29.jpg",
+  "mbid": "ab413f29-71af-4f7f-8ca8-5ece68beeaf3",
+  "qid": "Q60426261"
+ },
+ "shackleton": {
+  "born": null,
+  "citizenship": "United Kingdom",
+  "desc": "British musician",
+  "found": true,
+  "genres": [
+   "dubstep"
+  ],
+  "img": null,
+  "mbid": "6b9b48d9-e409-41a2-b007-e58521e17fc5",
+  "qid": "Q18162802"
+ },
+ "shae-reid": {
+  "found": false
+ },
+ "shaggy": {
+  "born": "1968-10-22",
+  "citizenship": "Jamaica",
+  "desc": "Jamaican reggae musician",
+  "found": true,
+  "genres": [
+   "reggae"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shaggy.jpg",
+  "mbid": "fc63d806-ca89-4ea3-a404-ee6de695743f",
+  "qid": "Q310763"
+ },
+ "shahzen-xxx": {
+  "found": false
+ },
+ "shaleen": {
+  "found": false
+ },
  "shanti-celeste": {
   "born": "1988-01-01",
   "citizenship": "Chile",
@@ -6582,11 +8679,46 @@
   "mbid": "e8542954-79b9-4af3-b97a-bdc12d98db77",
   "qid": "Q39087096"
  },
+ "shaun-johnston": {
+  "found": false
+ },
  "she-her": {
+  "found": false
+ },
+ "she-the-dj": {
   "found": false
  },
  "sherelle": {
   "found": false
+ },
+ "shimza": {
+  "born": "1984-01-01",
+  "citizenship": "South Africa",
+  "desc": "South African DJ and music producer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dj%20Shimza%20with%20Black%20Coffee%20Dj.jpg",
+  "mbid": "f632cf5a-422c-4cda-861d-59045ae59a8b",
+  "qid": "Q126415337"
+ },
+ "shl-mo": {
+  "found": false
+ },
+ "showtek": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch electronic dance band",
+  "found": true,
+  "genres": [
+   "Dutch house",
+   "progressive house",
+   "electronic dance music",
+   "electro house",
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Showtek%20Perform1.PNG",
+  "mbid": "5663c716-c38f-4454-99ce-5afb3c5af567",
+  "qid": "Q1067714"
  },
  "shygirl": {
   "born": "1993-05-04",
@@ -6597,6 +8729,35 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shygirl.jpg",
   "mbid": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
   "qid": "Q104072891"
+ },
+ "sick": {
+  "found": false
+ },
+ "sickmode": {
+  "born": null,
+  "citizenship": "Italy",
+  "desc": "Italian Hardstyle DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "33678c4e-efb3-475a-8110-7799d91d26f1",
+  "qid": "Q140370629"
+ },
+ "sidney-charles": {
+  "found": false
+ },
+ "siebenschlaefer": {
+  "found": false
+ },
+ "sigala": {
+  "born": "1993-11-01",
+  "citizenship": "United Kingdom",
+  "desc": "English DJ and record producer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/2016%20Open%20Beatz%20-%20Sigala%20-%20by%202eight%20-DSC%202748.jpg",
+  "mbid": "f7d2cc2f-549d-44e2-ae67-331df212cb50",
+  "qid": "Q20973111"
  },
  "sigma": {
   "ambiguous": [
@@ -6615,6 +8776,24 @@
   "mbid": null,
   "qid": "Q140923274"
  },
+ "silvie-loto": {
+  "found": false
+ },
+ "sim0ne": {
+  "found": false
+ },
+ "sisly-benoneshot": {
+  "found": false
+ },
+ "six-ou-sept": {
+  "found": false
+ },
+ "skarn": {
+  "found": false
+ },
+ "skee-mask": {
+  "found": false
+ },
  "skepta": {
   "born": "1982-09-19",
   "citizenship": "Nigeria",
@@ -6628,6 +8807,9 @@
   "mbid": "38474d18-9204-4f60-a137-1fcc6750b869",
   "qid": "Q164446"
  },
+ "skoone": {
+  "found": false
+ },
  "skream": {
   "born": "1986-06-01",
   "citizenship": "United Kingdom",
@@ -6640,10 +8822,31 @@
   "mbid": "fb5ee67e-e31a-40cf-8b06-5f1a0f53529a",
   "qid": "Q734062"
  },
+ "skream-benga": {
+  "found": false
+ },
  "skrillex": {
   "found": false
  },
+ "slam": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Malaysian rock band",
+  "found": true,
+  "genres": [
+   "Malaysian rock"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q12709488"
+ },
+ "slin": {
+  "found": false
+ },
  "slvl": {
+  "found": false
+ },
+ "sneijder": {
   "found": false
  },
  "snts": {
@@ -6662,6 +8865,21 @@
   "mbid": "2f8d2007-7666-45af-89d4-dec4921dce04",
   "qid": "Q106409111"
  },
+ "softy": {
+  "found": false
+ },
+ "sol": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Canadian indie rock band",
+  "found": true,
+  "genres": [
+   "alternative rock"
+  ],
+  "img": null,
+  "mbid": null,
+  "qid": "Q7555479"
+ },
  "solomun": {
   "born": "1975-12-27",
   "citizenship": "Bosnia and Herzegovina",
@@ -6674,6 +8892,17 @@
   "mbid": "dff718ca-db66-4ce5-98b3-9585935b3dd1",
   "qid": "Q1941178"
  },
+ "solstice": {
+  "ambiguous": [
+   "Q108621184",
+   "Q109312907",
+   "Q2299381"
+  ],
+  "found": false
+ },
+ "solyd": {
+  "found": false
+ },
  "sonny-fodera": {
   "born": "1985-11-10",
   "citizenship": "Australia",
@@ -6683,6 +8912,21 @@
   "img": null,
   "mbid": "bd804804-588f-423f-9f62-66ba93b4a5a4",
   "qid": "Q113291055"
+ },
+ "sophie-sugar": {
+  "born": null,
+  "citizenship": null,
+  "desc": "British DJ",
+  "found": true,
+  "genres": [
+   "trance"
+  ],
+  "img": null,
+  "mbid": "b1240d55-4b9e-4f82-8183-d6a43b0d23a0",
+  "qid": "Q7563071"
+ },
+ "sosa": {
+  "found": false
  },
  "soulwax": {
   "born": null,
@@ -6700,6 +8944,21 @@
   "found": false
  },
  "space-92": {
+  "found": false
+ },
+ "space-afrika": {
+  "found": false
+ },
+ "spacid": {
+  "found": false
+ },
+ "special-d": {
+  "found": false
+ },
+ "special-request-sully": {
+  "found": false
+ },
+ "speedwagon": {
   "found": false
  },
  "speedy-j": {
@@ -6730,11 +8989,39 @@
   "mbid": null,
   "qid": "Q106782650"
  },
+ "spikey-lee": {
+  "found": false
+ },
+ "spiritbear": {
+  "found": false
+ },
  "spoink": {
+  "found": false
+ },
+ "stan-christ": {
+  "found": false
+ },
+ "stanton": {
+  "found": false
+ },
+ "stanton-warriors": {
+  "found": false
+ },
+ "static-bloom": {
   "found": false
  },
  "stef-davidse": {
   "found": false
+ },
+ "steffi": {
+  "born": null,
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "9d292624-12f0-46b0-a46d-58ab912d11d8",
+  "qid": "Q61058402"
  },
  "stephan-bodzin": {
   "born": "1969-08-04",
@@ -6748,6 +9035,49 @@
   "mbid": "6f027cd7-c2e8-4569-8922-aa2c9a503e65",
   "qid": "Q75361"
  },
+ "stephan-licha": {
+  "found": false
+ },
+ "stereo-mcs": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English hip hop/electronic dance group",
+  "found": true,
+  "genres": [
+   "alternative dance",
+   "electronica",
+   "alternative hip-hop",
+   "house music",
+   "hip-hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stereo%20MCs%20Orange%20Music%20Haifa%202005%2003.jpg",
+  "mbid": "5e0ca89b-f5a6-4034-af31-17f10ff5a7d2",
+  "qid": "Q942532"
+ },
+ "stereolab": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English musical group",
+  "found": true,
+  "genres": [
+   "indie rock"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stereolab%20%281994%29.jpg",
+  "mbid": "f1df0431-9250-4ec8-95d8-f19ce7cf7fb6",
+  "qid": "Q334652"
+ },
+ "steve-angello": {
+  "born": "1982-11-22",
+  "citizenship": "Greece",
+  "desc": "Greek-Swedish DJ and record producer",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Angello%202015.jpg",
+  "mbid": "4069600e-55c1-46dd-814f-4166d5b5dbba",
+  "qid": "Q20715"
+ },
  "steve-aoki": {
   "born": "1977-11-30",
   "citizenship": "United States",
@@ -6759,6 +9089,36 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Steve%20HiFi%202.JPG",
   "mbid": "a39acc4a-985e-4173-a9ed-f325f2d3bc1c",
   "qid": "Q459955"
+ },
+ "stijn-vm": {
+  "found": false
+ },
+ "sting": {
+  "born": "1951-10-02",
+  "citizenship": "United Kingdom",
+  "desc": "British musician (born 1951)",
+  "found": true,
+  "genres": [
+   "blue-eyed soul",
+   "new age music",
+   "new wave",
+   "pop music",
+   "rock music",
+   "reggae",
+   "jazz"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sting%20in%20April%202018.jpg",
+  "mbid": "7944ed53-2a58-4035-9b93-140a71e41c34",
+  "qid": "Q483203"
+ },
+ "strictly-different": {
+  "found": false
+ },
+ "stv": {
+  "found": false
+ },
+ "stvw": {
+  "found": false
  },
  "sub-focus": {
   "born": "1982-04-13",
@@ -6772,7 +9132,53 @@
   "mbid": "8cf49f40-b8fe-4a63-b4ea-f922d6145bb4",
   "qid": "Q1848854"
  },
+ "sub-sonik": {
+  "found": false
+ },
  "sub-zero-project": {
+  "found": false
+ },
+ "sunnery-james-ryan-marciano": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch DJ and record producer duo",
+  "found": true,
+  "genres": [
+   "progressive house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/F-003%20roll%20out-3.jpg",
+  "mbid": "8f00dc2d-a2d6-4573-95a0-c63e2c01e82f",
+  "qid": "Q20824772"
+ },
+ "superzandy": {
+  "found": false
+ },
+ "surgeon": {
+  "born": "1971-05-01",
+  "citizenship": "United Kingdom",
+  "desc": "English electronic musician and DJ",
+  "found": true,
+  "genres": [
+   "techno"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Surgeon%20%28Anthony%20Child%29%20%28cropped%29.jpg",
+  "mbid": "82b6f868-75c8-4014-b86c-d67472b8b384",
+  "qid": "Q2368531"
+ },
+ "suzane": {
+  "born": "1990-12-29",
+  "citizenship": "France",
+  "desc": "French singer",
+  "found": true,
+  "genres": [
+   "chanson à texte",
+   "electro"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/P2NSuzane%203.jpg",
+  "mbid": "d0fd9aec-0483-46ef-8126-4fcbb7dc5ab0",
+  "qid": "Q83610427"
+ },
+ "suze": {
   "found": false
  },
  "sven-vath": {
@@ -6787,6 +9193,22 @@
   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4th%200047.jpg",
   "mbid": "14008378-5900-4370-831e-3d17f9749caf",
   "qid": "Q61011"
+ },
+ "swae-lee": {
+  "born": "1993-06-07",
+  "citizenship": "United States",
+  "desc": "American rapper and singer-songwriter (born 1993)",
+  "found": true,
+  "genres": [
+   "trap music",
+   "hip-hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Swae%20Lee%20%282019%29.png",
+  "mbid": "a17ce9c3-8f6f-4dcc-a1b7-2a04ab9e31f0",
+  "qid": "Q30103025"
+ },
+ "swagalicious": {
+  "found": false
  },
  "swedish-house-mafia": {
   "born": null,
@@ -6804,13 +9226,110 @@
   "mbid": "99075985-0d80-4692-a15e-b16f78831792",
   "qid": "Q20709"
  },
+ "swen-baez": {
+  "found": false
+ },
+ "sydney-ayven": {
+  "found": false
+ },
+ "sylence": {
+  "found": false
+ },
+ "syn-cole": {
+  "born": "1988-03-25",
+  "citizenship": "Estonia",
+  "desc": "Estonian DJ and music producer (born 1988)",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": null,
+  "mbid": "74c8d750-b1b8-4d59-93b6-8916b60d9b06",
+  "qid": "Q19278655"
+ },
+ "syntetriks": {
+  "found": false
+ },
+ "syreeta": {
+  "found": false
+ },
+ "t-a-m-22": {
+  "found": false
+ },
+ "t-quest": {
+  "found": false
+ },
+ "talla-2xlc": {
+  "born": "1963-03-13",
+  "citizenship": "Germany",
+  "desc": "German DJ and record producer from Frankfurt",
+  "found": true,
+  "genres": [
+   "electronic body music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20Summer%20Rave%202015%20Talla%202XLC%20Denis%20Apel%20P2.jpg",
+  "mbid": "4c72f54b-6651-4d7d-b55e-7e8f4de57dd7",
+  "qid": "Q78252"
+ },
+ "tama-sumo": {
+  "born": "2000-01-01",
+  "citizenship": "Germany",
+  "desc": "German DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "a945218d-dc66-4854-9c4d-0bc7924a9144",
+  "qid": "Q16942587"
+ },
+ "tania-vulcano": {
+  "found": false
+ },
+ "tasha": {
+  "born": "1993-08-26",
+  "citizenship": "United States",
+  "desc": "American musician",
+  "found": true,
+  "genres": [
+   "pop rock",
+   "folk music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tasha%20bryantop2025%2002.jpg",
+  "mbid": "62e1e3a2-9534-4aca-a937-700f3f4993f5",
+  "qid": "Q104879508"
+ },
  "tassery": {
+  "found": false
+ },
+ "tatie-dee": {
+  "found": false
+ },
+ "tatyana-jane": {
   "found": false
  },
  "tauceti": {
   "found": false
  },
+ "tautumeitas": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Latvian folk music group",
+  "found": true,
+  "genres": [
+   "world music",
+   "polyphony",
+   "folk music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/PrepartyES%202025%20-%20Tautumeitas%2002.jpg",
+  "mbid": "3a3b9876-a3a7-4689-bcbc-bba79f86f910",
+  "qid": "Q42371833"
+ },
+ "taxman": {
+  "found": false
+ },
  "technimatic": {
+  "found": false
+ },
+ "technoboy-tuneboy": {
   "found": false
  },
  "teho": {
@@ -6818,6 +9337,52 @@
  },
  "teknoclash": {
   "found": false
+ },
+ "temples": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English rock band",
+  "found": true,
+  "genres": [
+   "psychedelic rock"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Temples%20band.jpg",
+  "mbid": "1916fc94-bf9c-4ba2-90b0-22ebb5444d57",
+  "qid": "Q14832136"
+ },
+ "tems": {
+  "born": "1995-06-11",
+  "citizenship": "Nigeria",
+  "desc": "Nigerian singer-songwriter (born 1995)",
+  "found": true,
+  "genres": [
+   "Afrobeats",
+   "alternative R&B"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tems%20on%20NdaniTV%20Sessions%20-cropped.png",
+  "mbid": "5b2a8faa-ffee-4706-a1a8-58f109bc8ca2",
+  "qid": "Q72759173"
+ },
+ "tenzent": {
+  "found": false
+ },
+ "tha-watcher": {
+  "found": false
+ },
+ "tharken": {
+  "found": false
+ },
+ "the-advent": {
+  "born": "2000-01-01",
+  "citizenship": "United Kingdom",
+  "desc": "British composer and disc jockey",
+  "found": true,
+  "genres": [
+   "techno"
+  ],
+  "img": null,
+  "mbid": "b3a35974-4703-4423-92bf-a1b5ac6cac3b",
+  "qid": "Q1718696"
  },
  "the-avalanches": {
   "born": null,
@@ -6851,11 +9416,87 @@
  "the-blaze": {
   "found": false
  },
+ "the-bloody-beetroots": {
+  "born": "1977-12-18",
+  "citizenship": "Italy",
+  "desc": "Italian musician",
+  "found": true,
+  "genres": [
+   "dance-punk",
+   "electro house",
+   "synth-punk"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bob%20Rifo.jpg",
+  "mbid": "30d639db-5c8f-494e-a937-460a4b67f3b4",
+  "qid": "Q1517721"
+ },
  "the-chainsmokers": {
   "found": false
  },
+ "the-dare": {
+  "born": "1996-03-19",
+  "citizenship": "United States",
+  "desc": "American musical artist",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "d49fd8ea-4efd-486a-83c2-201a7b89157b",
+  "qid": "Q118918072"
+ },
+ "the-dark-horror": {
+  "found": false
+ },
+ "the-egyptian-lover": {
+  "found": false
+ },
+ "the-hacker": {
+  "born": "1973-01-01",
+  "citizenship": "France",
+  "desc": "French musician",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Hacker.jpg",
+  "mbid": "e044fb9c-7c2e-48f7-81f6-ea2ae99d2ef0",
+  "qid": "Q279213"
+ },
  "the-lady-machine": {
   "found": false
+ },
+ "the-martinez-brothers": {
+  "born": null,
+  "citizenship": null,
+  "desc": "American duo of disc jockeys, music producers, and remixers",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Martinez%20Brothers%20on%20the%20decks.jpg",
+  "mbid": "c9c65c94-27b4-4eca-82f0-80055ac4f8a7",
+  "qid": "Q20687342"
+ },
+ "the-mary-wallopers": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Irish musical group; folk band",
+  "found": true,
+  "genres": [
+   "Irish folk music"
+  ],
+  "img": null,
+  "mbid": "d9b2b9f5-9deb-46f0-a023-a5a6e2a294d8",
+  "qid": "Q113484942"
+ },
+ "the-necks": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Australian ambient jazz trio based in Sydney",
+  "found": true,
+  "genres": [
+   "jazz"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Necks%202016.jpg",
+  "mbid": "51f8d454-f4a8-41e6-8bd7-a35921eeedd0",
+  "qid": "Q1531070"
  },
  "the-prodigy": {
   "born": null,
@@ -6877,6 +9518,19 @@
   "mbid": "4a4ee089-93b1-4470-af9a-6ff575d32704",
   "qid": "Q7256860"
  },
+ "the-purge": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Italian hardstyle DJ",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "153a5841-4464-49be-99ce-fff0bd0ec413",
+  "qid": "Q140370668"
+ },
+ "the-rocketman": {
+  "found": false
+ },
  "the-sabres-of-paradise": {
   "born": null,
   "citizenship": null,
@@ -6897,6 +9551,103 @@
   ],
   "found": false
  },
+ "the-shapeshifters": {
+  "born": null,
+  "citizenship": null,
+  "desc": "English-Swedish house music band",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Shapeshifters%20%28300%29.jpg",
+  "mbid": "f43b00ef-66cd-4c60-9c81-2c55236b5006",
+  "qid": "Q664467"
+ },
+ "the-straikerz": {
+  "found": false
+ },
+ "the-streets": {
+  "ambiguous": [
+   "Q11897325",
+   "Q316029"
+  ],
+  "found": false
+ },
+ "the-tunegirl": {
+  "found": false
+ },
+ "the-upbeats": {
+  "born": null,
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [
+   "drum and bass"
+  ],
+  "img": null,
+  "mbid": "63630fb9-5d2b-43a5-8e98-b85bb773b258",
+  "qid": "Q7771774"
+ },
+ "the-wishmaster": {
+  "found": false
+ },
+ "the-wombats": {
+  "born": null,
+  "citizenship": null,
+  "desc": "British band",
+  "found": true,
+  "genres": [
+   "indie rock"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20Wombats%202007%20%281%29.jpg",
+  "mbid": "e105c272-b5d7-4135-82ef-d60bded54345",
+  "qid": "Q1347289"
+ },
+ "theo-kottis": {
+  "found": false
+ },
+ "theo-parrish": {
+  "born": "1972-01-01",
+  "citizenship": "United States",
+  "desc": "American musician",
+  "found": true,
+  "genres": [
+   "jazz house",
+   "techno",
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Theo%20Parrish.jpg",
+  "mbid": "15388d42-9197-4ca1-9ffe-240f763b84cb",
+  "qid": "Q1500673"
+ },
+ "thick-as-thieves": {
+  "found": false
+ },
+ "thiso": {
+  "found": false
+ },
+ "thomas-ankersmit": {
+  "born": "1979-06-28",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch musician",
+  "found": true,
+  "genres": [
+   "experimental music"
+  ],
+  "img": null,
+  "mbid": "8b8f2640-7d8a-4d51-8b07-dbafdc2f2c71",
+  "qid": "Q7787086"
+ },
+ "thomas-reiner": {
+  "ambiguous": [
+   "Q93100524",
+   "Q2426732"
+  ],
+  "found": false
+ },
+ "thundercat": {
+  "found": false
+ },
  "thylacine": {
   "ambiguous": [
    "Q7799596",
@@ -6906,6 +9657,36 @@
   "found": false
  },
  "tiesto": {
+  "found": false
+ },
+ "tiga": {
+  "born": "1974-09-18",
+  "citizenship": "Canada",
+  "desc": "Canadian DJ and musician",
+  "found": true,
+  "genres": [
+   "electro"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tiga%20%283%29.jpg",
+  "mbid": "58e5332d-383e-414c-9917-776d7b1493a2",
+  "qid": "Q725341"
+ },
+ "tiken-jah-fakoly": {
+  "born": "1968-06-23",
+  "citizenship": "Ivory Coast",
+  "desc": "Ivorian reggae singer",
+  "found": true,
+  "genres": [
+   "reggae"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tiken%20Jah%20Fakoly.jpg",
+  "mbid": "edef3cfa-4e5e-4d64-8bd8-20f9dc1d8cad",
+  "qid": "Q263170"
+ },
+ "tikiman": {
+  "found": false
+ },
+ "tim-reaper": {
   "found": false
  },
  "timmy-trumpet": {
@@ -6922,7 +9703,166 @@
   "mbid": "0bf34855-ec5b-4768-9a87-971e4208873d",
   "qid": "Q7806850"
  },
+ "timo-maas": {
+  "born": "1969-07-27",
+  "citizenship": "Germany",
+  "desc": "German DJ",
+  "found": true,
+  "genres": [
+   "progressive house"
+  ],
+  "img": null,
+  "mbid": "71348eeb-0c15-4718-b0ca-5775f78ad5f8",
+  "qid": "Q66085"
+ },
+ "tini-gessler": {
+  "found": false
+ },
+ "tinlicker": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch electronic music group",
+  "found": true,
+  "genres": [
+   "progressive house",
+   "deep house"
+  ],
+  "img": null,
+  "mbid": "2d098124-cb9d-4e80-992f-47e47c405452",
+  "qid": "Q107452045"
+ },
+ "tino-machauer": {
+  "found": false
+ },
+ "tins": {
+  "found": false
+ },
+ "titan": {
+  "found": false
+ },
  "titi": {
+  "found": false
+ },
+ "tjade": {
+  "born": null,
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Onder%20de%20Radar%202025%20-%20Tjade%20%40%20Het%20Veld.jpg",
+  "mbid": "5aaf623c-8920-4726-8c01-53e11df46130",
+  "qid": "Q124170563"
+ },
+ "tkz": {
+  "found": false
+ },
+ "todd-edwards": {
+  "born": "1972-12-09",
+  "citizenship": "United States",
+  "desc": "American record producer",
+  "found": true,
+  "genres": [
+   "jazz house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Toddedwardstogether2012%20%28cropped%29.jpg",
+  "mbid": "fa0e2024-95ff-44b6-9a86-f0ab120b6a72",
+  "qid": "Q7812349"
+ },
+ "todd-terje": {
+  "born": "1981-05-11",
+  "citizenship": "Norway",
+  "desc": "Norwegian DJ, songwriter, and record producer",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": null,
+  "mbid": "a0cded3a-4ca3-4ddb-8e46-ed9037f30aea",
+  "qid": "Q16056085"
+ },
+ "toirabat": {
+  "found": false
+ },
+ "tolaris": {
+  "found": false
+ },
+ "tolentechno": {
+  "found": false
+ },
+ "tom-snow": {
+  "born": "1947-10-25",
+  "citizenship": "United States",
+  "desc": "American composer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "9b06c296-fd9b-47dc-81bb-1209f544e68d",
+  "qid": "Q7817640"
+ },
+ "toman": {
+  "born": null,
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch DJ and music producer",
+  "found": true,
+  "genres": [
+   "minimal techno",
+   "deep house",
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Toman%20performing%20at%20Solid%20Grooves%20in%20DC10%20in%20Ibiza%20%282024%29.jpg",
+  "mbid": "5871a0e8-b938-4d70-838a-ad0291d443cf",
+  "qid": "Q134367438"
+ },
+ "tommy-cash": {
+  "born": "1940-04-05",
+  "citizenship": "United States",
+  "desc": "American country singer (1940–2024)",
+  "found": true,
+  "genres": [
+   "country music",
+   "folk music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tommy%20Cash.jpg",
+  "mbid": "d8c5c228-0dff-4236-beae-3e2982714a72",
+  "qid": "Q556745"
+ },
+ "tommy-phillips": {
+  "found": false
+ },
+ "tony-humphries": {
+  "born": "1957-01-01",
+  "citizenship": "United States",
+  "desc": "American disc jockey",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tony%20Humphries.jpg",
+  "mbid": "4a1a5ea8-5ca2-4a9e-8cae-123f12f6db96",
+  "qid": "Q3993250"
+ },
+ "tony-moya": {
+  "found": false
+ },
+ "tony-romera": {
+  "born": "1991-09-26",
+  "citizenship": "France",
+  "desc": "French DJ and record producer",
+  "found": true,
+  "genres": [
+   "bass house",
+   "French house",
+   "electro house"
+  ],
+  "img": null,
+  "mbid": "fa9dc2ea-f390-4f2e-a789-fac53d2171b5",
+  "qid": "Q108526574"
+ },
+ "toxic-machinery": {
+  "found": false
+ },
+ "trancemaster-krause": {
+  "found": false
+ },
+ "tratratrax": {
   "found": false
  },
  "traumer": {
@@ -6953,11 +9893,126 @@
   "mbid": "5a691568-a34e-4fd8-b031-01e4c9e36070",
   "qid": "Q39072435"
  },
+ "trio-xenakis": {
+  "found": false
+ },
+ "triptykh": {
+  "found": false
+ },
+ "tristan": {
+  "born": "1970-01-01",
+  "citizenship": null,
+  "desc": "British Psytrance and GOA trance DJ and producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q61829076"
+ },
+ "truly-moore": {
+  "found": false
+ },
  "trym": {
+  "found": false
+ },
+ "tsha": {
+  "born": null,
+  "citizenship": null,
+  "desc": "musical artist",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q130425411"
+ },
+ "twisted-sibling": {
+  "found": false
+ },
+ "twonot": {
+  "found": false
+ },
+ "tymon": {
+  "found": false
+ },
+ "tyson-o-brien": {
+  "found": false
+ },
+ "u-uk-uk1mat-u": {
+  "found": false
+ },
+ "u999": {
+  "found": false
+ },
+ "uberkikz": {
+  "found": false
+ },
+ "udow": {
   "found": false
  },
  "ueberrest": {
   "found": false
+ },
+ "ulla": {
+  "found": false
+ },
+ "ultranouk": {
+  "found": false
+ },
+ "ummet-ozcan": {
+  "born": "1982-08-16",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Turkish-Dutch disc jockey and record producer (born 1982)",
+  "found": true,
+  "genres": [
+   "big room house",
+   "tech trance",
+   "progressive house",
+   "electro house",
+   "trance",
+   "house music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ummet%20Ozcan.jpg",
+  "mbid": "9f1560de-9a9d-482b-afa0-99938e688330",
+  "qid": "Q15636208"
+ },
+ "umru": {
+  "born": null,
+  "citizenship": "United States",
+  "desc": "American music producer of Estonian origin (fl. 2018-)",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "5d2157f8-c542-4e17-a154-025925ae225d",
+  "qid": "Q133760058"
+ },
+ "unai-trotti": {
+  "found": false
+ },
+ "underground-resistance": {
+  "born": null,
+  "citizenship": null,
+  "desc": "American musical group",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "8dcd24c7-bf87-4f32-8e3f-7a79b3f25a85",
+  "qid": "Q110808631"
+ },
+ "underscores": {
+  "born": "2000-04-21",
+  "citizenship": "United States",
+  "desc": "American musician",
+  "found": true,
+  "genres": [
+   "hyperpop",
+   "bedroom pop",
+   "ambient music",
+   "indie rock",
+   "electronic music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Underscores%20in%20Los%20Angeles%2C%2015%20April%202026%20%28cropped%29.jpg",
+  "mbid": "ab1a3f85-e0ea-470a-af5c-175447ae774c",
+  "qid": "Q110852201"
  },
  "underworld": {
   "born": null,
@@ -6973,16 +10028,77 @@
   "mbid": "ba2f4f3b-0293-4bc8-bb94-2f73b5207343",
   "qid": "Q849429"
  },
+ "unexist": {
+  "born": "1977-07-20",
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [
+   "hardcore"
+  ],
+  "img": null,
+  "mbid": "599123c4-4286-40a9-8846-66565fbac303",
+  "qid": "Q3096459"
+ },
+ "unresolved": {
+  "found": false
+ },
+ "upper": {
+  "found": false
+ },
+ "upsammy": {
+  "found": false
+ },
+ "upsilone": {
+  "found": false
+ },
+ "urumi": {
+  "found": false
+ },
+ "use-knife": {
+  "found": false
+ },
  "ush": {
+  "found": false
+ },
+ "vabu": {
   "found": false
  },
  "vai": {
   "found": false
  },
+ "valentina-magaletti": {
+  "born": null,
+  "citizenship": null,
+  "desc": "drummer, percussionist and composer",
+  "found": true,
+  "genres": [],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Queer-percussionist.jpg",
+  "mbid": "a1290ce3-d716-4ab5-890f-50eb335b726e",
+  "qid": "Q75732944"
+ },
+ "van-hella": {
+  "found": false
+ },
+ "vanesa-wolf": {
+  "found": false
+ },
+ "venator": {
+  "found": false
+ },
  "vendex": {
   "found": false
  },
+ "venehing": {
+  "found": false
+ },
  "venga": {
+  "found": false
+ },
+ "verdun": {
+  "found": false
+ },
+ "verraco": {
   "found": false
  },
  "vertile": {
@@ -6994,6 +10110,9 @@
   "img": null,
   "mbid": "83cb5a5e-d5c9-4d63-9917-a02e2e7d4e7b",
   "qid": "Q140370690"
+ },
+ "vibrant": {
+  "found": false
  },
  "victor-ruiz": {
   "found": false
@@ -7011,6 +10130,9 @@
   "mbid": "99a996a9-57d3-49bb-a763-816ea4002127",
   "qid": "Q124337632"
  },
+ "villain": {
+  "found": false
+ },
  "vini-vici": {
   "born": null,
   "citizenship": null,
@@ -7023,7 +10145,22 @@
   "mbid": "14276a83-d21d-41ab-b809-09b494645645",
   "qid": "Q34398202"
  },
+ "vintage-culture": {
+  "born": "1993-07-07",
+  "citizenship": "Brazil",
+  "desc": "Brazilian DJ and record producer",
+  "found": true,
+  "genres": [
+   "house music"
+  ],
+  "img": null,
+  "mbid": "17978ff5-140c-43b7-85c6-d602a88af6c4",
+  "qid": "Q27306126"
+ },
  "virginia": {
+  "found": false
+ },
+ "virtual-vault": {
   "found": false
  },
  "vladimir-cauchemar": {
@@ -7040,7 +10177,82 @@
   "mbid": "fb5b5da8-61f3-445e-8e2d-f9873b330b13",
   "qid": "Q57259286"
  },
+ "voigtmann": {
+  "found": false
+ },
+ "vojko-v": {
+  "born": "1985-01-19",
+  "citizenship": "Croatia",
+  "desc": "Croatian rapper and composer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "789eb460-82fb-4ecc-b73f-7ecb36bb02d4",
+  "qid": "Q61129483"
+ },
+ "vok": {
+  "born": null,
+  "citizenship": null,
+  "desc": "dream-pop/indie-electronica band formed in Reykjavík, Iceland",
+  "found": true,
+  "genres": [
+   "trip hop"
+  ],
+  "img": null,
+  "mbid": "7981e88e-b5f2-435c-a70e-2df69399213e",
+  "qid": "Q16875004"
+ },
+ "voltage": {
+  "found": false
+ },
+ "von-august": {
+  "found": false
+ },
+ "von-bikrav": {
+  "found": false
+ },
+ "von-disco": {
+  "found": false
+ },
  "vortek-s": {
+  "found": false
+ },
+ "vtss": {
+  "found": false
+ },
+ "vum": {
+  "found": false
+ },
+ "vuur": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch progressive metal band",
+  "found": true,
+  "genres": [
+   "progressive metal"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anneke%20van%20Giersbergen%20May%202014.jpg",
+  "mbid": "9a879e3f-a952-4625-aa47-ef197964f951",
+  "qid": "Q42574842"
+ },
+ "w-w": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch musical group; progressive house producer duo",
+  "found": true,
+  "genres": [
+   "big room house",
+   "Dutch house",
+   "electro house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/W%26W%20%40%20Airbeat%20One%202016.jpg",
+  "mbid": "5df88386-32bb-48b2-8eff-47a450079075",
+  "qid": "Q1891477"
+ },
+ "wade": {
+  "found": false
+ },
+ "wal-halla": {
   "found": false
  },
  "warface": {
@@ -7053,8 +10265,69 @@
   "mbid": "9fae3758-c9e7-4645-8680-4247ef467401",
   "qid": "Q140393557"
  },
+ "wasted-penguinz": {
+  "born": null,
+  "citizenship": null,
+  "desc": "duo from Helsingborg, Sweden",
+  "found": true,
+  "genres": [
+   "hardstyle"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/WP-PRESS.tif",
+  "mbid": "27fdb917-a773-4c35-afae-a375572155bc",
+  "qid": "Q2547746"
+ },
  "wata-igarashi": {
   "found": false
+ },
+ "wata-igarashi-dj-nobu": {
+  "found": false
+ },
+ "wekesa": {
+  "found": false
+ },
+ "wet-leg": {
+  "found": false
+ },
+ "whiney": {
+  "born": "1994-09-16",
+  "citizenship": "United Kingdom",
+  "desc": "English DJ and Drum and Bass producer",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": "aff2bdbe-6fd6-43be-a6de-f1cc5cab8261",
+  "qid": "Q108647690"
+ },
+ "whomadewho": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Danish experimental pop band",
+  "found": true,
+  "genres": [
+   "dance-punk"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/15-07-31%20Rocken%20am%20Brocken%20Whomadewho%2013.jpg",
+  "mbid": "e731ab08-45c4-4e98-a1e4-7a16462c9cfb",
+  "qid": "Q1545212"
+ },
+ "wild-comet": {
+  "found": false
+ },
+ "wildish": {
+  "found": false
+ },
+ "wildstylez": {
+  "born": "1983-01-07",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch hardstyle DJ and record producer",
+  "found": true,
+  "genres": [
+   "hardstyle"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Airbeat%20One%202015%20Wildstylez%20Joram%20Metekohy%20by%20Denis%20Apel-1064.jpg",
+  "mbid": "43fca023-da2f-4cc8-baaa-648cac5323bd",
+  "qid": "Q1395589"
  },
  "wilkinson": {
   "born": "1989-04-18",
@@ -7075,7 +10348,146 @@
   ],
   "found": false
  },
+ "william-basinski": {
+  "born": "1958-06-25",
+  "citizenship": "United States",
+  "desc": "American composer",
+  "found": true,
+  "genres": [
+   "ambient music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20Basinski%20%28cropped%29.jpg",
+  "mbid": "3b731282-d7f4-41a5-af0a-d0c1c3319802",
+  "qid": "Q505747"
+ },
+ "william-kiss": {
+  "found": false
+ },
+ "wo-izzy": {
+  "found": false
+ },
+ "woesum": {
+  "found": false
+ },
+ "wolfgang-voigt": {
+  "born": "1961-01-01",
+  "citizenship": "Germany",
+  "desc": "German electronic musician and label owner (1961-)",
+  "found": true,
+  "genres": [
+   "ambient music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Wolfgang%20Voigt%202012.jpg",
+  "mbid": "f788142e-878e-48b8-83f8-b1c5e63669e7",
+  "qid": "Q85367"
+ },
+ "wolv": {
+  "found": false
+ },
+ "worakls": {
+  "born": "1988-09-28",
+  "citizenship": "France",
+  "desc": "French electronic musician",
+  "found": true,
+  "genres": [
+   "minimal techno",
+   "house music",
+   "classical music"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Festival%20des%20Vieilles%20Charrues%202018%20-%20Hungry%205%20-%20008.jpg",
+  "mbid": "272deaa4-4699-46ee-abe8-c63f495142d7",
+  "qid": "Q18638056"
+ },
+ "worship": {
+  "born": null,
+  "citizenship": null,
+  "desc": "German band",
+  "found": true,
+  "genres": [
+   "funeral doom metal"
+  ],
+  "img": null,
+  "mbid": "899e3112-d0e4-4876-a65f-8ea9134e343b",
+  "qid": "Q1434826"
+ },
+ "x-club": {
+  "found": false
+ },
+ "x-noize": {
+  "found": false
+ },
+ "x-tof": {
+  "found": false
+ },
+ "xdb": {
+  "found": false
+ },
+ "xijaro-pitch": {
+  "born": null,
+  "citizenship": null,
+  "desc": "musical duo",
+  "found": true,
+  "genres": [],
+  "img": null,
+  "mbid": null,
+  "qid": "Q111028915"
+ },
+ "xinobi": {
+  "found": false
+ },
+ "xokin": {
+  "found": false
+ },
+ "xp": {
+  "found": false
+ },
+ "yaeji": {
+  "born": "1993-08-06",
+  "citizenship": "United States",
+  "desc": "American singer and songwriter",
+  "found": true,
+  "genres": [
+   "electronic music"
+  ],
+  "img": null,
+  "mbid": "2d781050-032a-4a4f-b0a9-7b4bc99449e1",
+  "qid": "Q44279160"
+ },
+ "yan-wagner": {
+  "born": null,
+  "citizenship": null,
+  "desc": null,
+  "found": true,
+  "genres": [
+   "pop music"
+  ],
+  "img": null,
+  "mbid": "cb8d39fc-e180-4263-ab54-2c6c98676eab",
+  "qid": "Q99697817"
+ },
  "yanamaste": {
+  "found": false
+ },
+ "yann-yl": {
+  "found": false
+ },
+ "yellow-claw": {
+  "born": null,
+  "citizenship": null,
+  "desc": "Dutch electronic music band",
+  "found": true,
+  "genres": [
+   "trap music",
+   "hardstyle",
+   "moombahton",
+   "dubstep",
+   "hip-hop"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yellow%20Claw%202015.jpg",
+  "mbid": "759abafc-c4eb-4018-8554-f29a9d842779",
+  "qid": "Q15613707"
+ },
+ "yogg": {
   "found": false
  },
  "yoshiko": {
@@ -7088,10 +10500,65 @@
   "mbid": null,
   "qid": "Q140361693"
  },
+ "yotto": {
+  "born": "1986-10-08",
+  "citizenship": "Finland",
+  "desc": "Finnish disc jockey",
+  "found": true,
+  "genres": [
+   "deep house"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yotto-studio-1%20%284%29.jpg",
+  "mbid": "7355a02a-b14a-4719-aa09-477b1964b2a3",
+  "qid": "Q23664961"
+ },
  "young-marco": {
   "found": false
  },
+ "yousuke-yukimatsu": {
+  "born": "1979-01-01",
+  "citizenship": "Japan",
+  "desc": "Japanese DJ and producer (1979-)",
+  "found": true,
+  "genres": [
+   "trance"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yousuke%20Yukimatsu%2C%202026%20%28cropped%29.jpg",
+  "mbid": "317ddb49-97db-4382-86e9-5c51519f23ac",
+  "qid": "Q125789914"
+ },
+ "ypy": {
+  "found": false
+ },
+ "yuksek": {
+  "born": "1977-06-03",
+  "citizenship": "France",
+  "desc": "French musician",
+  "found": true,
+  "genres": [
+   "nu-disco",
+   "electronica"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Festival%20des%20Vieilles%20Charrues%202018%20-%20Yuksek%20-%20004%20%28cropped%29.jpg",
+  "mbid": "d6285d95-8ee1-4de2-8ceb-ff90098ab1d1",
+  "qid": "Q2735379"
+ },
+ "yung-felix": {
+  "born": "1991-12-02",
+  "citizenship": "Kingdom of the Netherlands",
+  "desc": "Dutch hip-hop artist, DJ and producer",
+  "found": true,
+  "genres": [
+   "hip-hop"
+  ],
+  "img": null,
+  "mbid": "bf699c7d-da31-4583-8087-ca3fa27f0957",
+  "qid": "Q55823691"
+ },
  "yung-lean-bladee": {
+  "found": false
+ },
+ "yung-singh": {
   "found": false
  },
  "yves-deruyter": {
@@ -7106,7 +10573,13 @@
   "mbid": "2c028a5b-f873-4638-80fc-002b2c9b484f",
   "qid": "Q717434"
  },
+ "yvind-morken": {
+  "found": false
+ },
  "zapravka": {
+  "found": false
+ },
+ "zara": {
   "found": false
  },
  "zara-larsson": {
@@ -7121,5 +10594,20 @@
   "img": null,
   "mbid": null,
   "qid": "Q140361811"
+ },
+ "zora-jones": {
+  "found": false
+ },
+ "zoster": {
+  "born": null,
+  "citizenship": null,
+  "desc": "musical group from Bosnia and Herzegovina",
+  "found": true,
+  "genres": [
+   "pop reggae"
+  ],
+  "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zoster%20Vidikovac%20Fest.jpg",
+  "mbid": "5a49a121-e336-4a97-99e9-9f2c63543a8c",
+  "qid": "Q20558748"
  }
 }
