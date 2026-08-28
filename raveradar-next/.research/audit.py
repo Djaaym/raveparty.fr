@@ -17,6 +17,12 @@ Sort en 1 dès qu'une anomalie est trouvée.
 """
 import os, re, sys, unicodedata
 
+# Un artiste du catalogue s'appelle littéralement « [IVY] ». Un `\[(.*?)\]` non gourmand
+# s'arrête donc sur SON crochet et tronque le line-up : les noms qui suivent
+# disparaissent de l'index, sans erreur ni message. On ne reconnaît que des chaînes
+# entre guillemets, ce qu'un crochet ne peut pas interrompre.
+LINEUP = re.compile(r'lineup: \[((?:"(?:[^"\\]|\\.)*"(?:, )?)*)\]')
+
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 src = open(os.path.join(ROOT, "lib/data.ts")).read()
 # Les couleurs de genre et les libellés de pays ont quitté data.ts pour `lib/display.ts`,
@@ -56,7 +62,7 @@ for line in src.split("\n"):
         if m: d[k] = float(m.group(1))
     g = re.search(r'genres: \[([^\]]*)\]', line)
     d["genres"] = re.findall(r'"([^"]+)"', g.group(1)) if g else []
-    l = re.search(r'lineup: \[([^\]]*)\]', line)
+    l = LINEUP.search(line)
     d["lineup"] = re.findall(r'"([^"]+)"', l.group(1)) if l else []
     ev.append(d)
 

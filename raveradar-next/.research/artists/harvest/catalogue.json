@@ -142,14 +142,6 @@
   "n": 1,
   "name": "A.N.Z"
  },
- "a-nice-place-to-be": {
-  "genres": {
-   "EDM": 1,
-   "House": 1
-  },
-  "n": 1,
-  "name": "A Nice Place To Be"
- },
  "a-s-y-s": {
   "genres": {
    "Drum & Bass": 1,
@@ -692,6 +684,16 @@
   "n": 1,
   "name": "Altinbas"
  },
+ "aly-fila": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1,
+   "Trance": 1
+  },
+  "n": 1,
+  "name": "Aly & Fila"
+ },
  "alycia-bezgo": {
   "genres": {
    "Drum & Bass": 1,
@@ -733,13 +735,13 @@
   "n": 1,
   "name": "Amanita"
  },
- "amara-b2b-thiso": {
+ "amara": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Amara b2b Thiso"
+  "name": "Amara"
  },
  "amber-broos": {
   "genres": {
@@ -1103,19 +1105,11 @@
  },
  "aph-tic": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "Hard Techno": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Aphøtic"
- },
- "aph-tic-b2b-tassery": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Aphøtic b2b Tassery"
  },
  "aphex-twin": {
   "genres": {
@@ -1475,22 +1469,13 @@
  },
  "axwell": {
   "genres": {
-   "EDM": 2,
-   "House": 3,
-   "Techno": 2
-  },
-  "n": 3,
-  "name": "Axwell"
- },
- "axwell-b2b-sebastian-ingrosso": {
-  "genres": {
-   "EDM": 1,
-   "House": 1,
-   "Techno": 1,
+   "EDM": 3,
+   "House": 4,
+   "Techno": 3,
    "Trance": 1
   },
-  "n": 1,
-  "name": "Axwell b2b Sebastian Ingrosso"
+  "n": 4,
+  "name": "Axwell"
  },
  "aya": {
   "genres": {
@@ -1499,6 +1484,13 @@
   },
   "n": 1,
   "name": "aya"
+ },
+ "ayah-marar": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Ayah Marar"
  },
  "ayla": {
   "genres": {
@@ -1538,20 +1530,12 @@
  },
  "b-ery": {
   "genres": {
-   "Hard Techno": 3,
+   "Hard Techno": 4,
    "House": 1,
-   "Techno": 3
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "BØĘRY"
- },
- "b-ery-b2b-cynthia-spiering": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Bøęry b2b Cynthia Spiering"
  },
  "b-front": {
   "genres": {
@@ -1810,19 +1794,11 @@
  },
  "ben-techy": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "Hard Techno": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Ben Techy"
- },
- "ben-techy-b2b-luciid": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Ben Techy b2b Luciid"
  },
  "ben-tenner": {
   "genres": {
@@ -2441,6 +2417,13 @@
   "n": 2,
   "name": "Busy P"
  },
+ "buunshin": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Buunshin"
+ },
  "buzzfuzz": {
   "genres": {
    "Hardcore": 1
@@ -2474,13 +2457,13 @@
   "n": 3,
   "name": "Call Super"
  },
- "callush-b2b-ornella": {
+ "callush": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Callush b2b Ornella"
+  "name": "Callush"
  },
  "calvin-clarke": {
   "genres": {
@@ -2976,6 +2959,13 @@
   "n": 2,
   "name": "Cinthie"
  },
+ "circadian": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Circadian"
+ },
  "clank-maider": {
   "genres": {
    "Drum & Bass": 1
@@ -3018,13 +3008,13 @@
   "n": 1,
   "name": "Cleo Chaos"
  },
- "cleo-grooves-b2b-zuke": {
+ "cleo-grooves": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Cleo Grooves b2b Zuke"
+  "name": "Cleo Grooves"
  },
  "cleric": {
   "genres": {
@@ -3282,11 +3272,11 @@
  },
  "cynthia-spiering": {
   "genres": {
-   "Hard Techno": 1,
+   "Hard Techno": 2,
    "Hardcore": 1,
-   "Techno": 1
+   "Techno": 2
   },
-  "n": 2,
+  "n": 3,
   "name": "Cynthia Spiering"
  },
  "d-block-s-te-fan": {
@@ -3356,24 +3346,17 @@
   "n": 2,
   "name": "Daði Freyr"
  },
- "da-tweeka": {
-  "genres": {
-   "Hardstyle": 1
-  },
-  "n": 1,
-  "name": "Da Tweeka"
- },
  "da-tweekaz": {
   "genres": {
    "Drum & Bass": 1,
    "Hard Techno": 2,
    "Hardcore": 2,
-   "Hardstyle": 1,
+   "Hardstyle": 2,
    "Psytrance": 1,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "Da Tweekaz"
  },
  "daft-funk-live": {
@@ -4146,13 +4129,13 @@
   "n": 1,
   "name": "DJ Chuckie"
  },
- "dj-cosworth-b2b-oldboy": {
+ "dj-cosworth": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "DJ Cosworth b2b Oldboy"
+  "name": "DJ Cosworth"
  },
  "dj-cringey": {
   "genres": {
@@ -4632,13 +4615,13 @@
   "n": 1,
   "name": "Drumslave"
  },
- "dt43-b2b-vino": {
+ "dt43": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "DT43 b2b Vino"
+  "name": "DT43"
  },
  "dual-damage": {
   "genres": {
@@ -5656,13 +5639,13 @@
   "n": 1,
   "name": "Fred V"
  },
- "freddi-b2b-sophia-violet": {
+ "freddi": {
   "genres": {
    "Hard Techno": 1,
    "Trance": 1
   },
   "n": 1,
-  "name": "Freddi B2B Sophia Violet"
+  "name": "Freddi"
  },
  "freddy-k": {
   "genres": {
@@ -5754,13 +5737,13 @@
   "n": 1,
   "name": "Furax"
  },
- "furcht-b2b-mit": {
+ "furcht": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Furcht b2b MIT"
+  "name": "Furcht"
  },
  "furyan": {
   "genres": {
@@ -6956,6 +6939,13 @@
   "n": 1,
   "name": "Ivory"
  },
+ "ivy": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "[IVY]"
+ },
  "ivy-lab": {
   "genres": {
    "Drum & Bass": 1
@@ -7248,12 +7238,12 @@
   "n": 3,
   "name": "Jennifer Cardini"
  },
- "jennifer-lovell": {
+ "jennifer-loveless": {
   "genres": {
    "House": 1
   },
   "n": 1,
-  "name": "Jennifer Lovell"
+  "name": "Jennifer Loveless"
  },
  "jerome": {
   "genres": {
@@ -7698,13 +7688,13 @@
   "n": 2,
   "name": "Kamafaka"
  },
- "kamma-b2b-masalo": {
+ "kamma": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Kamma b2b Masalo"
+  "name": "Kamma"
  },
  "kandelissa": {
   "genres": {
@@ -8013,6 +8003,13 @@
   },
   "n": 1,
   "name": "Kili"
+ },
+ "killbox": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Killbox"
  },
  "kim-petras": {
   "genres": {
@@ -8669,11 +8666,11 @@
  },
  "leon-vynehall": {
   "genres": {
-   "Drum & Bass": 1,
-   "House": 1,
-   "Techno": 1
+   "Drum & Bass": 2,
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Leon Vynehall"
  },
  "les-potes-au-feu": {
@@ -8790,12 +8787,12 @@
   "n": 1,
   "name": "LINDS"
  },
- "line-o-b2b-roboith": {
+ "line-o": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
-  "name": "Line-O b2b ROBOITH"
+  "name": "Line-O"
  },
  "liquidfive": {
   "genres": {
@@ -9007,10 +9004,10 @@
  },
  "luciid": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 1
+   "Hard Techno": 3,
+   "Techno": 2
   },
-  "n": 2,
+  "n": 3,
   "name": "Luciid"
  },
  "luigi-tozzi": {
@@ -9621,6 +9618,14 @@
   "n": 1,
   "name": "März"
  },
+ "masalo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Masalo"
+ },
  "masta-ace": {
   "genres": {
    "Drum & Bass": 1
@@ -10186,6 +10191,14 @@
   "n": 1,
   "name": "Missnoa"
  },
+ "mit": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "MIT"
+ },
  "mita-gami": {
   "genres": {
    "House": 1,
@@ -10218,13 +10231,13 @@
   "n": 2,
   "name": "MK"
  },
- "mo-disko-b2b-nico-juice": {
+ "mo-disko": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Mo Disko b2b Nico Juice"
+  "name": "Mo Disko"
  },
  "moa": {
   "genres": {
@@ -10359,12 +10372,12 @@
   "n": 1,
   "name": "Morten"
  },
- "mortis-b2b-outrage": {
+ "mortis": {
   "genres": {
    "Hard Techno": 1
   },
   "n": 1,
-  "name": "Mortis b2b Outrage"
+  "name": "Mortis"
  },
  "mosimann": {
   "genres": {
@@ -10439,6 +10452,13 @@
   "n": 1,
   "name": "Mulatu Astatke"
  },
+ "multiplex": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Multiplex"
+ },
  "muovipussi": {
   "genres": {
    "House": 1,
@@ -10457,13 +10477,13 @@
  },
  "muzz": {
   "genres": {
-   "Drum & Bass": 2,
+   "Drum & Bass": 3,
    "Hard Techno": 1,
    "Psytrance": 1,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "Muzz"
  },
  "mv-funk": {
@@ -10497,12 +10517,12 @@
   "n": 1,
   "name": "Myu:sa"
  },
- "n-e-o-b2b-rbenyx": {
+ "n-e-o": {
   "genres": {
    "Hard Techno": 1
   },
   "n": 1,
-  "name": "N~E~O b2b ØRBENYX"
+  "name": "N~E~O"
  },
  "n-rbak": {
   "genres": {
@@ -10782,6 +10802,14 @@
   },
   "n": 1,
   "name": "Nickodemus"
+ },
+ "nico-juice": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nico Juice"
  },
  "nico-moreno": {
   "genres": {
@@ -11193,6 +11221,14 @@
   "n": 1,
   "name": "Olanskii"
  },
+ "oldboy": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Oldboy"
+ },
  "oliver-heldens": {
   "genres": {
    "EDM": 1,
@@ -11238,6 +11274,14 @@
   },
   "n": 3,
   "name": "Oliver Magenta"
+ },
+ "olivia-lensen": {
+  "genres": {
+   "Hard Techno": 1,
+   "Trance": 1
+  },
+  "n": 1,
+  "name": "Olivia Lensen"
  },
  "omaks": {
   "genres": {
@@ -11316,10 +11360,10 @@
  },
  "ornella": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Ornella"
  },
  "oscar-mulero": {
@@ -11355,6 +11399,13 @@
   },
   "n": 1,
   "name": "Outlined"
+ },
+ "outrage": {
+  "genres": {
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Outrage"
  },
  "outsiders": {
   "genres": {
@@ -11652,22 +11703,14 @@
  },
  "paul-van-dyk": {
   "genres": {
-   "Hardstyle": 1,
-   "Techno": 1,
-   "Trance": 3
-  },
-  "n": 4,
-  "name": "Paul van Dyk"
- },
- "paul-van-dyk-b2b-aly-fila": {
-  "genres": {
    "EDM": 1,
+   "Hardstyle": 1,
    "House": 1,
-   "Techno": 1,
-   "Trance": 1
+   "Techno": 2,
+   "Trance": 4
   },
-  "n": 1,
-  "name": "Paul van Dyk b2b Aly & Fila"
+  "n": 5,
+  "name": "Paul van Dyk"
  },
  "paul-wolf": {
   "genres": {
@@ -11804,9 +11847,9 @@
  },
  "phace": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Phace"
  },
  "phara": {
@@ -12119,6 +12162,13 @@
   "n": 3,
   "name": "Purple Disco Machine"
  },
+ "pvc": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "PVC"
+ },
  "qlas": {
   "genres": {
    "EDM": 1,
@@ -12261,6 +12311,13 @@
   },
   "n": 3,
   "name": "Raxeller"
+ },
+ "rbenyx": {
+  "genres": {
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "ØRBENYX"
  },
  "rd": {
   "genres": {
@@ -12502,6 +12559,13 @@
   },
   "n": 1,
   "name": "Robin Nicolas"
+ },
+ "roboith": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "ROBOITH"
  },
  "robot-rock-alive": {
   "genres": {
@@ -13003,20 +13067,12 @@
  },
  "saoirse": {
   "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Saoirse"
- },
- "saoirse-b2b-leon-vynehall": {
-  "genres": {
    "Drum & Bass": 1,
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
-  "name": "Saoirse b2b Leon Vynehall"
+  "n": 2,
+  "name": "Saoirse"
  },
  "sara-landry": {
   "genres": {
@@ -13095,13 +13151,13 @@
   "n": 1,
   "name": "Schacke"
  },
- "schwesta-p-b2b-olivia-lensen": {
+ "schwesta-p": {
   "genres": {
    "Hard Techno": 1,
    "Trance": 1
   },
   "n": 1,
-  "name": "Schwesta P B2B Olivia Lensen"
+  "name": "Schwesta P"
  },
  "scientyfreaks": {
   "genres": {
@@ -13173,10 +13229,12 @@
  },
  "sebastian-ingrosso": {
   "genres": {
-   "EDM": 1,
-   "House": 1
+   "EDM": 2,
+   "House": 2,
+   "Techno": 1,
+   "Trance": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Sebastian Ingrosso"
  },
  "sebastien-drums": {
@@ -13669,6 +13727,14 @@
   "n": 2,
   "name": "Sonny Fodera"
  },
+ "sophia-violet": {
+  "genres": {
+   "Hard Techno": 1,
+   "Trance": 1
+  },
+  "n": 1,
+  "name": "Sophia Violet"
+ },
  "sophie-sugar": {
   "genres": {
    "EDM": 1,
@@ -14141,10 +14207,10 @@
  },
  "tassery": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Tassery"
  },
  "tatie-dee": {
@@ -14508,10 +14574,10 @@
  },
  "thiso": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "Hard Techno": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Thiso"
  },
  "thomas-ankersmit": {
@@ -15212,6 +15278,14 @@
   "n": 3,
   "name": "Vini Vici"
  },
+ "vino": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vino"
+ },
  "vintage-culture": {
   "genres": {
    "House": 1,
@@ -15811,5 +15885,13 @@
   },
   "n": 1,
   "name": "Zoster"
+ },
+ "zuke": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Zuke"
  }
 }

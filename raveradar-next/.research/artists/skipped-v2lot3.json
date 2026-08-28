@@ -1,0 +1,19 @@
+[
+ {"name":"Gogol Bordello","reason":"Groupe de gypsy punk (Casa Gogol / SideOneDummy, styles Discogs : Punk, Folk Rock). Aucun genre de la liste fermée ne s'applique : ce n'est pas un artiste électronique. Programmé à Summer Sound et Uprising, festivals multi-genres."},
+ {"name":"Babyshambles","reason":"Groupe d'indie rock britannique (Rough Trade / Parlophone, styles Discogs : Indie Rock, Garage Rock). Programmé à Ouest Park, festival rock+électro. Aucun genre de la liste fermée."},
+ {"name":"Dijon","reason":"Dijon Duenas, chanteur R&B / alt-pop signé chez Warner Records (styles Discogs : Contemporary R&B, Soul, Alt-Pop). Programmé à Forwards Festival, Bristol. Aucun genre de la liste fermée ne le décrit honnêtement."},
+ {"name":"DJ Playero","reason":"Pionnier portoricain du reggaeton (Playground Productions ; styles Discogs : Reggaeton). Booké à Draaimolen, mais le reggaeton n'est pas dans la liste fermée et aucune source ne lui attribue un genre de cette liste."},
+ {"name":"Carla dal Forno","reason":"Artiste bien documentée (bio écrite) mais aucun genre de la liste fermée ne convient : post-punk, dub, minimal synth, wave (Blackest Ever Black / Kallista Records). Lui attribuer Techno ou House serait faux."},
+ {"name":"A-Z","reason":"Nom de deux caractères, non résoluble : la recherche ne renvoie que le groupe de heavy metal A-Z (Metal Blade). Aucune fiche pour le/la DJ programmé(e) au YN x BCCO Club Night du Grelle Forelle."},
+ {"name":"Furcht b2b MIT","reason":"Ce n'est pas un artiste mais un créneau b2b entre deux artistes (Furcht et MIT), tous deux vus sur des line-ups Rotterdam Rave. À scinder dans le catalogue plutôt qu'à documenter comme une seule fiche."},
+ {"name":"Benjamin R","reason":"Aucune fiche trouvée. La page artiste du Bootshaus existe mais ne porte aucune biographie, et la soirée (Cosmic Gate / Senses) ne dit rien de l'artiste lui-même."},
+ {"name":"Bruno Bazzetti","reason":"Homonymie non tranchée : la seule fiche documentée est un producteur péruvien de Lima (Beatport / Ninefont / Empro Music). Rien ne confirme qu'il s'agit du Bruno Bazzetti programmé avec Phase Fatale et The Hacker à La Belle Électrique de Grenoble."},
+ {"name":"Cleo Chaos","reason":"Aucune source. La recherche ne renvoie que des homonymes (DJ Cleo, Chaos Project) et le site de La Station - Gare des Mines ne documente pas l'artiste."},
+ {"name":"Deril","reason":"Membre du collectif copenhaguois LACTIC ACID (avec DJ Farkas, Rós, Azadî) d'après le programme du Culture Box, mais aucune source ne décrit son style. Nom trop court pour être recoupé."},
+ {"name":"DJ Farkas","reason":"Identifié (SoundCloud /robfarkas, collectifs LACTIC ACID et KRYPTA au Culture Box de Copenhague) mais aucune source ne donne son style. Le programme du club ne mentionne pas de genre."},
+ {"name":"eioo","reason":"Aucune fiche. Présent sur les line-ups lituaniens (Audra Festival, Kaunas) mais rien qui décrive le style ; ra.co, seule source visible, est bloqué depuis ce conteneur."},
+ {"name":"EVI","reason":"Aucune fiche. Le nom est trop court : la recherche ne renvoie que des homonymes (Evi Vine, schlager). Seule trace = le line-up RADION x WAXXX du 18/09, qui ne dit rien de l'artiste."},
+ {"name":"Globular Waves","reason":"Identifié (live analogique, duo de l'association Peakbeat, résident du Komorebi Music Festival) mais aucune source ne nomme un genre : « ritmi incalzanti del live analogico » ne suffit pas à trancher."},
+ {"name":"Houpie","reason":"Aucune source. Le site du Rockerill ne détaille pas le line-up de Flashforward: Jonathan Kaspar et la recherche ne renvoie rien sur ce nom."},
+ {"name":"Ka:Ost","reason":"Aucune source. La ponctuation du nom casse toutes les recherches et rien ne remonte sur la soirée Joris Delacroix au Boeuf sur le Toit (Bordeaux)."}
+]

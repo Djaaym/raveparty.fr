@@ -1,0 +1,282 @@
+[
+ {
+  "name": "Clara Cuvé",
+  "bio_fr": "Clara Cuvé est une DJ et productrice allemande née à Munich et installée à Berlin. Formée au piano classique dès l'âge de quatre ans, elle commence à produire à quinze ans, devient résidente du Rote Sonne à Munich et rejoint le label et collectif munichois Stock5, avant de s'installer à Berlin et de devenir résidente de la série MESS à l'OHM. Ses sets mêlent une techno rapide et groovy à des éléments de breakbeat, de jungle et de hardcore.",
+  "bio_en": "Clara Cuvé is a German DJ and producer, born in Munich and based in Berlin. Classically trained on piano from the age of four, she started producing at fifteen, became a resident at Munich's Rote Sonne and joined the Munich label and collective Stock5, before moving to Berlin and taking up a residency at the MESS series at OHM. Her sets combine fast, groovy techno with breakbeat, jungle and hardcore.",
+  "origin": "Munich, Allemagne",
+  "labels": [
+   "Stock5"
+  ],
+  "sources": [
+   "https://www.unvrs.com/artists/clara-cuv",
+   "https://api.discogs.com/artists/7909185"
+  ]
+ },
+ {
+  "name": "Ed Rush & Optical",
+  "bio_fr": "Ed Rush & Optical est un duo britannique de drum & bass formé par Ben Settle (Ed Rush) et Matt Quinn (Optical), associés depuis le milieu des années 1990. Ils fondent le label Virus Recordings en 1998 et publient la même année l'album Wormhole, considéré comme un disque pivot dans la formation du neurofunk. Suivront The Creeps (2000), The Original Doctor Shade (2003), Chameleon (2006) et Travel the Galaxy (2009).",
+  "bio_en": "Ed Rush & Optical are a British drum & bass duo made up of Ben Settle (Ed Rush) and Matt Quinn (Optical), partners since the mid-1990s. They founded the Virus Recordings label in 1998 and released the album Wormhole the same year, a record widely described as pivotal in the development of neurofunk. It was followed by The Creeps (2000), The Original Doctor Shade (2003), Chameleon (2006) and Travel the Galaxy (2009).",
+  "origin": "Londres, Royaume-Uni",
+  "since": 1997,
+  "labels": [
+   "Virus Recordings",
+   "Prototype",
+   "Metalheadz"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Optical_(musician)",
+   "https://en.wikipedia.org/wiki/Wormhole_(album)"
+  ]
+ },
+ {
+  "name": "Jonathan Kaspar",
+  "bio_fr": "Jonathan Kaspar est un DJ et producteur allemand basé à Cologne, résident du club Gewölbe. Il fait partie des artistes du label colonais Kompakt et a publié sur Crosstown Rebels, Objektivity, Pets Recordings, Poker Flat et l'antenne KX de Kompakt. Ses sets, décrits comme mélodiques et groovy, tiennent aussi bien la place de warm-up que celle de tête d'affiche.",
+  "bio_en": "Jonathan Kaspar is a German DJ and producer based in Cologne, where he holds a residency at the Gewölbe club. He is one of the artists on the Cologne label Kompakt and has released on Crosstown Rebels, Objektivity, Pets Recordings, Poker Flat and Kompakt's KX imprint. His sets, described as melodic and groovy, work as warm-ups as well as headline slots.",
+  "origin": "Cologne, Allemagne",
+  "labels": [
+   "Kompakt",
+   "Crosstown Rebels",
+   "Poker Flat",
+   "Pets Recordings"
+  ],
+  "sources": [
+   "https://kompakt.fm/artists/jonathankaspar"
+  ]
+ },
+ {
+  "name": "K-LONE",
+  "bio_fr": "K-LONE est le nom de scène de Josiah Gladwell, producteur et DJ britannique. Il codirige avec Facta le label Wisdom Teeth, fondé en 2014, et gère deux autres structures, Sweet N Tasty et Wych. Son premier album Cape Cira paraît en 2020, suivi de Swells en juillet 2023, un disque tourné vers la deep house et la pop électronique avec une participation vocale d'Eliza Rose.",
+  "bio_en": "K-LONE is the stage name of Josiah Gladwell, a British producer and DJ. With Facta he co-runs the Wisdom Teeth label, founded in 2014, and he also runs two further imprints, Sweet N Tasty and Wych. His first album, Cape Cira, came out in 2020, followed by Swells in July 2023, a record leaning towards deep house and electronic pop with guest vocals from Eliza Rose.",
+  "origin": "Royaume-Uni",
+  "since": 2014,
+  "labels": [
+   "Wisdom Teeth",
+   "Sweet N Tasty",
+   "Wych"
+  ],
+  "sources": [
+   "https://wisdomteethuk.bandcamp.com/artists",
+   "https://djmag.com/news/k-lone-announces-new-album-swells-wisdom-teeth"
+  ]
+ },
+ {
+  "name": "KiNK",
+  "bio_fr": "KiNK est le nom de scène de Strahil Velchev, producteur et DJ bulgare originaire de Sofia. Actif depuis 2005, il publie sur Ovum Recordings, Rush Hour, Macro et Running Back, et lance en 2018 son propre label, Sofia. Ses albums Under Destruction (2014) et Playground (2017) prolongent une pratique du live entièrement jouée sur machines, pour laquelle les lecteurs de Resident Advisor l'ont élu meilleur live électronique en 2015 et 2016.",
+  "bio_en": "KiNK is the stage name of Strahil Velchev, a Bulgarian producer and DJ from Sofia. Active since 2005, he has released on Ovum Recordings, Rush Hour, Macro and Running Back, and launched his own label, Sofia, in 2018. His albums Under Destruction (2014) and Playground (2017) extend a hardware-driven live practice for which Resident Advisor readers voted him best live electronic act in 2015 and 2016.",
+  "origin": "Sofia, Bulgarie",
+  "since": 2005,
+  "labels": [
+   "Sofia",
+   "Rush Hour",
+   "Running Back",
+   "Ovum Recordings"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/KiNK"
+  ]
+ },
+ {
+  "name": "Alison Swing",
+  "bio_fr": "Alison Swing est une DJ née à Los Angeles et installée à Berlin depuis 2017, où elle est devenue résidente du club Renate dès son arrivée. Elle y a lancé sa propre soirée, Uforia, et codirige à Los Angeles la série de warehouse parties Dig Deeper avec la DJ Masha. Elle joue en vinyle et se définit d'abord comme sélectrice, entre house et disco.",
+  "bio_en": "Alison Swing is a Los Angeles-born DJ who moved to Berlin in 2017 and became a resident at the Renate club almost immediately. She launched her own party there, Uforia, and co-runs the Los Angeles warehouse series Dig Deeper with DJ Masha. She plays vinyl and describes herself first of all as a selector, working between house and disco.",
+  "origin": "Los Angeles, États-Unis",
+  "since": 2017,
+  "sources": [
+   "https://djmag.com/content/get-know-alison-swing",
+   "https://www.theransomnote.com/music/news/renate-resident-alison-swing-launches-new-party/"
+  ]
+ },
+ {
+  "name": "Dave Lambert",
+  "bio_fr": "Dave Lambert est un DJ et producteur belge actif depuis les années 1990, où il lance son propre concept de soirée au Paradox d'Anvers. Il a été résident du Versuz, de La Rocca et du Zillion, et a joué à toutes les éditions de Tomorrowland, dont la mainstage en 2010 et 2012. Sa discographie compte plus de quarante compilations et des remixes pour Fedde Le Grand ou Benny Benassi ; il joue une house deep, mélodique et tech, ainsi que des sets rétro et classics.",
+  "bio_en": "Dave Lambert is a Belgian DJ and producer active since the 1990s, when he started his own party concept at Paradox in Antwerp. He has been a resident at Versuz, La Rocca and Zillion, and has played every edition of Tomorrowland, including the mainstage in 2010 and 2012. His discography includes more than forty compilations and remixes for the likes of Fedde Le Grand and Benny Benassi; he plays deep, melodic and tech house alongside retro and classics sets.",
+  "origin": "Anvers, Belgique",
+  "since": 1990,
+  "sources": [
+   "https://www.groundcontrolagency.be/artist/dave-lambert"
+  ]
+ },
+ {
+  "name": "Isa Roos",
+  "bio_fr": "Isa Roos est une DJ et productrice néerlandaise, active depuis 2021. Partie de l'afrobeats et des musiques urbaines, elle s'est orientée vers l'afro house, l'afro tech et la deep house, qu'elle mêle dans ses sets et dans ses propres productions.",
+  "bio_en": "Isa Roos is a Dutch DJ and producer, active since 2021. Starting out with afrobeats and urban music, she moved towards afro house, afro tech and deep house, which she blends in her sets and in her own productions.",
+  "origin": "Pays-Bas",
+  "since": 2021,
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/isa-roos/2695348/"
+  ]
+ },
+ {
+  "name": "Kozlov",
+  "bio_fr": "Kozlov, de son vrai nom Florian Kozlowski, est un DJ et producteur français né en 1995 près de Paris, d'origine polonaise. Il lance le projet KØZLØV à 22 ans et se fait connaître avec les titres « Tchernobyl », « She Wants You to Go Harder » et « Never Come Back ». Sa hard techno emprunte à l'industriel, au schranz et au hardcore, et il a publié sur ARTS, NineTimesNine, Green Fetish Records et OMEN Recordings.",
+  "bio_en": "Kozlov, real name Florian Kozlowski, is a French DJ and producer born in 1995 near Paris, of Polish descent. He launched the KØZLØV project at 22 and became known for the tracks \"Tchernobyl\", \"She Wants You to Go Harder\" and \"Never Come Back\". His hard techno borrows from industrial, schranz and hardcore, and he has released on ARTS, NineTimesNine, Green Fetish Records and OMEN Recordings.",
+  "origin": "Paris, France",
+  "labels": [
+   "ARTS",
+   "NineTimesNine",
+   "Green Fetish Records",
+   "OMEN Recordings"
+  ],
+  "sources": [
+   "https://6amgroup.com/articles/all/kozlov-reflecting-on-2023-and-the-future-of-hard-techno"
+  ]
+ },
+ {
+  "name": "Ken-Ming",
+  "bio_fr": "Ken-Ming est un DJ néerlandais installé à Amsterdam, qui puise dans ses origines hongkongaises pour faire dialoguer les deux villes. Il joue une techno tribale mêlée de breakbeat, entre groove et expérimentation.",
+  "bio_en": "Ken-Ming is a Dutch DJ based in Amsterdam who draws on his Hong Kong roots to bridge the two cities. He plays tribal techno laced with breakbeat, between groove and experimentation.",
+  "origin": "Amsterdam, Pays-Bas",
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/ken-ming/2622939/"
+  ]
+ },
+ {
+  "name": "A*Teens",
+  "bio_fr": "A*Teens est un groupe pop suédois formé à Stockholm en 1998 sous le nom ABBA Teens, d'abord consacré aux reprises d'ABBA. Ses disques, publiés par Stockholm Records, relèvent de l'europop et de l'euro house et se sont vendus à plus de neuf millions d'albums. Le groupe s'est séparé en 2004 avant de se reformer en 2024.",
+  "bio_en": "A*Teens are a Swedish pop group formed in Stockholm in 1998 as ABBA Teens, initially devoted to ABBA covers. Their records, released by Stockholm Records, sit in europop and euro house and sold more than nine million albums. The group split in 2004 and reunited in 2024.",
+  "origin": "Stockholm, Suède",
+  "since": 1998,
+  "labels": [
+   "Stockholm Records"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/81566",
+   "https://en.wikipedia.org/wiki/A-Teens"
+  ]
+ },
+ {
+  "name": "Jan Vervloet",
+  "bio_fr": "Jan Vervloet est un producteur et DJ belge actif depuis 1991. Connu pour ses projets dance grand public — Fiocco, Scoop, D.H.T. —, il a publié plus d'une centaine de titres sous différents alias, entre rave, hardcore, techno, progressive house, trance et electro. Fiocco, formé à Anvers, a placé « Afflitto » neuf semaines en tête des charts dance belges avant de se diffuser dans le reste de l'Europe.",
+  "bio_en": "Jan Vervloet is a Belgian producer and DJ active since 1991. Known for mainstream dance projects such as Fiocco, Scoop and D.H.T., he has released more than a hundred tracks under various aliases, spanning rave, hardcore, techno, progressive house, trance and electro. Fiocco, formed in Antwerp, held the Belgian dance charts' number one spot for nine weeks with \"Afflitto\" before breaking through the rest of Europe.",
+  "origin": "Anvers, Belgique",
+  "since": 1991,
+  "labels": [
+   "Bonzai",
+   "High Contrast Recordings",
+   "The Hype Records"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/69449",
+   "https://en.wikipedia.org/wiki/Fiocco_(group)"
+  ]
+ },
+ {
+  "name": "JEKKAMAÏ",
+  "bio_fr": "JEKKAMAÏ est un DJ installé à Bruxelles, qui mêle techno, ghettotech et musiques bass dans des sets tournés vers les club sounds internationaux. Il co-fonde et programme SIZZLEPROOF, un collectif et une plateforme consacrés à la visibilité des personnes racisées dans la musique électronique, et tient une résidence sur GIMIC Radio.",
+  "bio_en": "JEKKAMAÏ is a Brussels-based DJ mixing techno, ghettotech and bass music in sets built on global club sounds. He co-founded and curates SIZZLEPROOF, a collective and platform dedicated to highlighting people of colour in electronic music, and holds a residency on GIMIC Radio.",
+  "origin": "Bruxelles, Belgique",
+  "sources": [
+   "https://www.kurious.be/artists/jekkamai/"
+  ]
+ },
+ {
+  "name": "BOVSKI",
+  "bio_fr": "BOVSKI est un producteur et DJ allemand, apparu en 2023 avec un masque de cagoule blanche pour signature visuelle. Il croise UK garage, house et techno : son titre « Low Again » a dépassé vingt millions d'écoutes en deux mois, et « Do It Again » est paru en février 2026 sur GOTTA MOVE, le label d'Insomniac Music Group.",
+  "bio_en": "BOVSKI is a German producer and DJ who emerged in 2023 with a white balaclava as his visual signature. He crosses UK garage, house and techno: his track \"Low Again\" passed twenty million streams in two months, and \"Do It Again\" was released in February 2026 on GOTTA MOVE, the Insomniac Music Group label.",
+  "origin": "Allemagne",
+  "since": 2023,
+  "labels": [
+   "GOTTA MOVE"
+  ],
+  "sources": [
+   "https://findyoursounds.com/bovski-releases-vocal-ukg-single-do-it-again-for-his-debut-release-on-insomniacs-gotta-move-imprint/"
+  ]
+ },
+ {
+  "name": "Kandelissa",
+  "bio_fr": "Kandelissa est une DJ et productrice française basée à Paris. Ses sets mêlent techno groovy, hardgroove, hard house et techno tribale.",
+  "bio_en": "Kandelissa is a French DJ and producer based in Paris. Her sets mix groovy techno, hardgroove, hard house and tribal techno.",
+  "origin": "Paris, France",
+  "sources": [
+   "https://soundcloud.com/lethimcookradio/kendelissa-let-him-cook-radio-groovy-techno-hardgroove-hard-house-tribal-techno"
+  ]
+ },
+ {
+  "name": "Barber",
+  "bio_fr": "Barber, de son vrai nom Jordi Blok, est un producteur et DJ néerlandais d'uptempo hardcore. Il publie sa première sortie officielle en 2017 et dirige le label Barbaric Records, consacré à ce style. Il joue sur les grandes affiches hardcore néerlandaises — Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore — et se produit aussi au sein du live Barbaric Records LIVE.",
+  "bio_en": "Barber, real name Jordi Blok, is a Dutch uptempo hardcore producer and DJ. His first official release came out in 2017 and he runs Barbaric Records, a label devoted to the style. He plays the major Dutch hardcore bills — Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore — and also performs as part of the Barbaric Records LIVE act.",
+  "origin": "Pays-Bas",
+  "since": 2017,
+  "labels": [
+   "Barbaric Records"
+  ],
+  "sources": [
+   "https://mostwanted.dj/en/artists/barber"
+  ]
+ },
+ {
+  "name": "Globul",
+  "bio_fr": "Globul est un DJ et organisateur belge, résident du Rockerill à Charleroi. Organisateur depuis la fin des années 1990 et DJ depuis plus de vingt ans, il commence à mixer sérieusement en 1992 dans une veine techno de Detroit et acid, après un parcours d'auditeur passé par Kraftwerk, la new wave et l'industriel (Front 242, Nitzer Ebb). Ses sets mêlent disco, acid, tech, Detroit, deep-tech et rythmes tribaux ; il co-organise les soirées Always Underground et Sound Memory.",
+  "bio_en": "Globul is a Belgian DJ and promoter, a resident at Rockerill in Charleroi. A promoter since the late 1990s and a DJ for more than twenty years, he started mixing seriously in 1992 in a Detroit techno and acid vein, after a listening path that ran from Kraftwerk through new wave and industrial (Front 242, Nitzer Ebb). His sets mix disco, acid, tech, Detroit, deep-tech and tribal rhythms, and he co-runs the Always Underground and Sound Memory nights.",
+  "origin": "Charleroi, Belgique",
+  "since": 1992,
+  "sources": [
+   "https://www.rockerill.com/agenda/les-aperos-industriels-fetent-globul/2660/"
+  ]
+ },
+ {
+  "name": "Laura Meester",
+  "bio_fr": "Laura Meester est une DJ néerlandaise basée à Amsterdam. Elle puise dans les sons des années 1970 à 1990 et enchaîne disco, house old-school et disco africaine, avec une place particulière pour les breaks de percussions et les samples vocaux.",
+  "bio_en": "Laura Meester is a Dutch DJ based in Amsterdam. She draws on sounds from the 1970s to the 1990s, moving between disco, old-school house and African disco, with a particular taste for percussion breaks and vocal samples.",
+  "origin": "Amsterdam, Pays-Bas",
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/laura-meester/2165171/"
+  ]
+ },
+ {
+  "name": "Anaïs",
+  "bio_fr": "Anaïs est une productrice et DJ de drum & bass originaire de Bristol. Ses disques sont parus sur Hospital Records, Invicta Audio et Deep In The Jungle, et sa production mêle basses lourdes et rythmiques marquées par la jungle.",
+  "bio_en": "Anaïs is a drum & bass producer and DJ from Bristol. Her records have come out on Hospital Records, Invicta Audio and Deep In The Jungle, and her productions combine heavy basslines with jungle-influenced rhythms.",
+  "origin": "Bristol, Royaume-Uni",
+  "labels": [
+   "Hospital Records",
+   "Invicta Audio",
+   "Deep In The Jungle"
+  ],
+  "sources": [
+   "https://www.monstercat.com/artist/anais"
+  ]
+ },
+ {
+  "name": "babyschön",
+  "bio_fr": "babyschön est une DJ installée à Londres, qui relie new wave, new beat, synth pop et house dans des sets tournés vers les sons percussifs. Elle anime chaque semaine l'émission Soup to Nuts sur NTS Radio.",
+  "bio_en": "babyschön is a London-based DJ who connects new wave, new beat, synth pop and house in sets built on percussive sounds. She hosts the weekly Soup to Nuts show on NTS Radio.",
+  "origin": "Londres, Royaume-Uni",
+  "sources": [
+   "https://rallyrallyrally.co.uk/artist/babyschon"
+  ]
+ },
+ {
+  "name": "Dr. Donk presents Zaagstep",
+  "bio_fr": "Dr. Donk est un producteur et DJ de la scène hard dance, connu pour le ZAAGSTEP, un format qu'il a lui-même nommé et qui croise le zaag et l'uptempo avec le dubstep et la drum & bass. Il l'a présenté à Rampage Open Air et à Parookaville, et son album ZAAGSTEP paraît en novembre 2026 sur le label bass Disciple.",
+  "bio_en": "Dr. Donk is a hard dance producer and DJ known for ZAAGSTEP, a format he named himself, crossing zaag and uptempo with dubstep and drum & bass. He previewed it at Rampage Open Air and Parookaville, and his ZAAGSTEP album is due in November 2026 on the bass label Disciple.",
+  "labels": [
+   "Disciple"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/dr-donk-brings-zaagstep-to-bootshaus-with-exclusive-album-showcase/"
+  ]
+ },
+ {
+  "name": "Daft Funk Live",
+  "bio_fr": "Daft Funk Live est un groupe hommage à Daft Punk, qui rejoue la discographie du duo français en concert plutôt qu'en DJ set : instruments joués sur scène, casques et costumes reconstitués, scénographie et show lumière synchronisé. Le répertoire couvre la house, la techno et l'electro qui ont fait la carrière de Daft Punk, séparé en 2021.",
+  "bio_en": "Daft Funk Live is a Daft Punk tribute act that replays the French duo's discography as a live show rather than a DJ set: instruments played on stage, reconstructed helmets and costumes, staging and a synchronised light show. The repertoire covers the house, techno and electro that made Daft Punk's career, the duo having split in 2021.",
+  "sources": [
+   "https://www.warehouse-nantes.fr/event/club-de-jour-invite-daft-funk-live"
+  ]
+ },
+ {
+  "name": "Agnes",
+  "bio_fr": "Agnes Carlsson est une chanteuse suédoise. Après un long retrait, elle revient en 2020 avec le single « Fingers Crossed », puis l'album Magic Still Exists (2021, Universal Music Sweden), produit par Vargas & Lagola et tourné vers le disco. Sa discographie relève de l'europop et de l'euro house.",
+  "bio_en": "Agnes Carlsson is a Swedish singer. After a long break she returned in 2020 with the single \"Fingers Crossed\", followed by the album Magic Still Exists (2021, Universal Music Sweden), produced by Vargas & Lagola and turned towards disco. Her discography sits in europop and euro house.",
+  "origin": "Suède",
+  "labels": [
+   "Universal Music Sweden",
+   "Roxy Recordings"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Magic_Still_Exists",
+   "https://api.discogs.com/database/search?artist=Agnes&type=release"
+  ]
+ }
+]

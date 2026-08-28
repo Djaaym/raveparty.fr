@@ -37,6 +37,12 @@ sourcées restait affiché avec son initiale.
 import argparse, json, re, sys, unicodedata
 from pathlib import Path
 
+# Un artiste du catalogue s'appelle littéralement « [IVY] ». Un `\[(.*?)\]` non gourmand
+# s'arrête donc sur SON crochet et tronque le line-up : les noms qui suivent
+# disparaissent de l'index, sans erreur ni message. On ne reconnaît que des chaînes
+# entre guillemets, ce qu'un crochet ne peut pas interrompre.
+LINEUP = re.compile(r'lineup: \[((?:"(?:[^"\\]|\\.)*"(?:, )?)*)\]')
+
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 DATA_TS = ROOT / "lib" / "data.ts"
@@ -64,7 +70,7 @@ def lineup_slugs() -> dict:
     src = DATA_TS.read_text()
     out = {}
     for line in re.findall(r"^  \{ id: \d+,.*$", src, re.M):
-        m = re.search(r"lineup: \[(.*?)\]", line)
+        m = LINEUP.search(line)
         if not m:
             continue
         for name in re.findall(r'"([^"]+)"', m.group(1)):
