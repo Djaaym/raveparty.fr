@@ -1,0 +1,42 @@
+[
+ {
+  "name": "Ernst, Bobbie & de rest",
+  "reason": "Ce n'est pas un artiste électronique : c'est le duo télé néerlandais pour enfants Ernst, Bobbie en de rest, programmé au VISSA XL du 013 (Tilburg) au titre du « jeugdsentiment » aux côtés de Kabouter Plop, la soirée mêlant nostalgie enfantine, live et sets DJ. Aucun genre de la liste fermée ne s'applique. Source : https://www.013.nl/programma/138003/vissa-xl"
+ },
+ {
+  "name": "Big K",
+  "reason": "Seule trace : la line-up de Nukranox 2026 (Messezentrum Salzburg), qui étiquette par genre plusieurs de ses artistes (Klofama « Raw », Vieze Asbak « Frenchcore », Zelecter « Melodic Raw ») mais laisse Big K sans étiquette. Aucune fiche Discogs, harderstylemap ou presse ne le documente ; entre hardstyle, frenchcore et uptempo, impossible de trancher. Sources : https://www.nukranox.at/en/home/ , https://harderstylemap.com/artist/big-k/ (404)"
+ },
+ {
+  "name": "Kormac",
+  "reason": "Cormac O'Halloran, producteur et DJ dublinois, est un turntablist de formation qui mêle samples de jazz, hip-hop et orchestre (Scribble Records, Kormac's Big Band, album Equivalent Exchange avec l'Irish Chamber Orchestra). Styles Discogs dominants : Downtempo, Swingbeat, Cut-up/DJ, Hip Hop. Le classer en House ou Drum & Bass sur la foi de quelques disques serait le ranger sur des pages de genre qui ne le décrivent pas. Sources : https://en.wikipedia.org/wiki/Kormac , https://api.discogs.com/database/search?artist=Kormac&type=release"
+ },
+ {
+  "name": "Grouper",
+  "reason": "Grouper est le projet de Liz Harris : ambient, drone et folk lo-fi (« Dragging a Dead Deer Up a Hill », « Ruins », « Shade »). Programmée au C2C Festival de Turin, un festival d'avant-garde qui n'est pas une soirée club. Aucun genre de la liste fermée ne la décrit — ni techno, ni house, ni aucun autre. Sources : https://en.wikipedia.org/wiki/Grouper_(musician) , https://clubtoclub.it/event/c2c-festival-2026/"
+ },
+ {
+  "name": "LaDetail",
+  "reason": "Aucune source trouvée : zéro sortie Discogs, aucune fiche de presse ou de collectif, et le profil SoundCloud homonyme ne porte pas de description. Le seul contexte est la line-up de « Fuse presents Hadone curates: Nørbak & Tauceti » à Bruxelles, une soirée hard techno — mais le nom n'apparaît pas dans l'équipe de résidents de fuse.be. Attribuer un genre reviendrait à recopier l'étiquette de la soirée. Sources consultées : https://www.fuse.be/resident-team , https://soundcloud.com/ladetail , https://api.discogs.com/database/search?artist=LaDetail&type=release (0 résultat)"
+ },
+ {
+  "name": "Kasei P",
+  "reason": "Live act italien du collectif Cumulonembi (Verone / Venise / Berlin), programmé au Komorebi Music Festival de Vinadio. Sa poignée de sorties sur le label Cumulonembi est étiquetée par Discogs en IDM, Electro, House, Jungle, Hip Hop et Bass Music — trois disques, six styles, aucun dominant. Bandcamp répond 403 depuis le conteneur. Aucun genre de la liste fermée ne le décrit sans forcer. Sources : https://www.komorebimusicfestival.org/ , https://api.discogs.com/database/search?artist=Kasei+P&type=release"
+ },
+ {
+  "name": "Amanita",
+  "reason": "Homonymie non levée : la recherche Discogs sur « Amanita » ne rend que du rock, du punk et de l'ambient sans lien avec la programmation. La seule trace de cet Amanita est la line-up du Nemora Festival (Torre Alfina, Italie) ; le festival annonce house, techno, melodic house et melodic techno au niveau de l'affiche, pas de l'artiste. Rien de nominatif. Sources : https://www.festivalabroad.com/festivals/nemora , https://orixa.fm/event/nemora-festival/22123"
+ },
+ {
+  "name": "Eathan",
+  "reason": "Même cas qu'Amanita : présent uniquement dans la line-up du Nemora Festival 2026, aucune sortie Discogs, aucun profil SoundCloud décrit, aucune page de label ou de presse. Le genre ne pourrait venir que de l'étiquetage du festival. Sources : https://www.festivalabroad.com/festivals/nemora , https://soundcloud.com/eathan"
+ },
+ {
+  "name": "DJ Stronger",
+  "reason": "Seule source : la fiche de L'Astrolabe (Orléans) pour la soirée du 10/10/2026, qui décrit Lavomatic en « rock garage », Jasmine Not Jafar en « techno/electro » et DJ Stronger uniquement en « DJ set », sans style. Le compte SoundCloud homonyme appartient à un artiste vocal anglophone, pas au même. Sources : https://www.lastrolabe.org/agenda/jasmine-not-jafar/ , https://soundcloud.com/dj-stronger"
+ },
+ {
+  "name": "DJ L-Bee",
+  "reason": "DJ local du Nord, programmé de 1h à 3h à la Bourbourg Électro Night (espace Jean Monnet) derrière Laurent Wolf. Aucune source ne décrit son style : ni fiche d'artiste, ni sortie, ni bio. L'affiche « Electro Sound » ne dit rien de lui en particulier. Sources : https://www.placeminute.com/event/electro/electro-sound-avec-dj-laurent-wolf,47822.html , https://api.discogs.com/database/search?artist=DJ+L-Bee&type=release (0 résultat)"
+ }
+]

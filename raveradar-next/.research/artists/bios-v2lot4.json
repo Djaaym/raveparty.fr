@@ -4,27 +4,172 @@
   "bio_fr": "DJ originaire de Carnac et basé à Nantes, Gandoolf est le fondateur et résident du collectif La Nouvelle. Il joue du hardgroove, de la schranz et de la hard music, entre les registres de Charlotte de Witte, Klangkuenstler et Svetec. Il s'est produit aux Plages Électroniques et à l'Écume Festival, et fait partie des résidents réguliers du Warehouse à Nantes.",
   "bio_en": "A DJ from Carnac and based in Nantes, Gandoolf founded and resides at the La Nouvelle collective. He plays hardgroove, schranz and hard music, in the register of Charlotte de Witte, Klangkuenstler and Svetec. He has played Plages Électroniques and Écume Festival, and is a regular at Nantes club Warehouse.",
   "origin": "Carnac, France",
-  "sources": ["https://warehouse-nantes.fr/artist/gandoolf"]
+  "sources": [
+   "https://warehouse-nantes.fr/artist/gandoolf"
+  ]
  },
  {
   "name": "Corentin Mab",
   "bio_fr": "DJ et producteur nantais, Corentin Mab est résident du club Warehouse à Nantes. Ses sets mêlent la deep house des années passées et la house actuelle, et il joue dans l'Ouest de la France et à Paris depuis plus de cinq ans. Il a partagé l'affiche avec Kerri Chandler, Detroit Swindle, Folamour, Jeremy Underground et Chez Damier.",
   "bio_en": "A DJ and producer from Nantes, Corentin Mab is a resident at the city's Warehouse club. His sets combine older deep house with present-day house, and he has been playing western France and Paris for over five years. He has shared bills with Kerri Chandler, Detroit Swindle, Folamour, Jeremy Underground and Chez Damier.",
   "origin": "Nantes, France",
-  "sources": ["https://warehouse-nantes.fr/artist/corentin-mab"]
+  "sources": [
+   "https://warehouse-nantes.fr/artist/corentin-mab"
+  ]
  },
  {
   "name": "Carly Zeng",
   "bio_fr": "Née en Chine, Carly Zeng a commencé à collectionner les disques et à organiser des warehouse parties à Brooklyn avant de s'installer à Berlin. Elle y anime sa propre soirée, Dissident, et joue régulièrement pour Cocktail d'Amore et Body Language, deux rendez-vous de la scène queer berlinoise. Ses sets, construits au disque, passent de la house au tribal et à la trance progressive.",
   "bio_en": "Born in China, Carly Zeng started collecting records and throwing warehouse parties in Brooklyn before moving to Berlin. There she runs her own party, Dissident, and plays regularly for Cocktail d'Amore and Body Language, two fixtures of the city's queer scene. Her vinyl-led sets move between house, tribal and proggy material.",
   "origin": "Berlin, Allemagne",
-  "sources": ["https://ra.co/dj/carlyzeng/biography", "https://refugeworldwide.com/artists/carly-zeng"]
+  "sources": [
+   "https://ra.co/dj/carlyzeng/biography",
+   "https://refugeworldwide.com/artists/carly-zeng"
+  ]
  },
  {
   "name": "Karlfroye",
   "bio_fr": "Productrice et DJ hardcore du sud de la France, Karlfroye construit des sets narratifs où se croisent gabber, jumpstyle, hardcore et musique de jeu vidéo. Elle est résidente de la radio OLA et a joué au Petit Bain, à La Machine du Moulin Rouge et à La Station - Gare des Mines à Paris, au Recyclart à Bruxelles et à la Rote Fabrik de Zurich.",
   "bio_en": "A hardcore producer and DJ from the south of France, Karlfroye builds narrative sets that run gabber, jumpstyle, hardcore and video-game music together. She is a resident at OLA Radio and has played Petit Bain, La Machine du Moulin Rouge and La Station - Gare des Mines in Paris, Recyclart in Brussels and Rote Fabrik in Zurich.",
   "origin": "France",
-  "sources": ["https://ra.co/dj/karlfroye/biography", "https://www.disversive.com/karlfroye"]
+  "sources": [
+   "https://ra.co/dj/karlfroye/biography",
+   "https://www.disversive.com/karlfroye"
+  ]
+ },
+ {
+  "name": "Bradley Zero",
+  "bio_fr": "Originaire de Leeds et installé à Peckham depuis 2006, Bradley Zero lance l'émission de radio Rhythm Section en 2009, devenue en 2012 une soirée bimensuelle au Canavan's Peckham Pool Club puis le label Rhythm Section International. Programmateur et présentateur pour Boiler Room, il tient une émission sur NTS depuis les débuts de la station et des résidences à Londres, au Public Records de New York et au Circoloco à Ibiza.",
+  "bio_en": "From Leeds and based in Peckham since 2006, Bradley Zero started the Rhythm Section radio show in 2009; it became a fortnightly party at Canavan's Peckham Pool Club in 2012 and then the label Rhythm Section International. A programmer and host for Boiler Room, he has held a slot on NTS since the station's founding and residencies in London, at Public Records in New York and at Circoloco in Ibiza.",
+  "origin": "Peckham, Londres, Royaume-Uni",
+  "since": 2009,
+  "labels": [
+   "Rhythm Section International"
+  ],
+  "sources": [
+   "https://ra.co/dj/bradleyzero/biography",
+   "https://djmag.com/longreads/bradley-zero-state-rhythm",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/bradley-zero/17539/"
+  ]
+ },
+ {
+  "name": "Avalon",
+  "bio_fr": "Leon Faridi, alias Avalon, est un producteur et DJ psytrance londonien. D'abord organisateur de warehouse parties et de free parties en plein air au Royaume-Uni, il commence à mixer en 2003, produit à partir de 2006 au sein du duo Reality Grid avec E.V.P., puis se consacre à son projet solo. Signé chez Nano Records après l'EP « Avalanche » en 2009, il sort son premier album « Distant Futures » en 2010 et mène en parallèle le projet Killerwatts avec Tristan.",
+  "bio_en": "Leon Faridi, aka Avalon, is a London psytrance producer and DJ. First a promoter of warehouse and outdoor parties in the UK, he started DJing in 2003, began producing in 2006 in the duo Reality Grid with E.V.P., then focused on his solo project. Signed to Nano Records after the 2009 EP \"Avalanche\", he released his first album \"Distant Futures\" in 2010 and also runs the Killerwatts project with Tristan.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2003,
+  "labels": [
+   "Nano Records"
+  ],
+  "sources": [
+   "https://nanomusic.net/artist/avalon/",
+   "https://psymedia.co.za/avalon-uk-nano-interview/"
+  ]
+ },
+ {
+  "name": "KAVARI",
+  "bio_fr": "Née à Birkenhead près de Liverpool et installée à Glasgow, KAVARI est productrice et DJ. Elle se fait connaître au début des années 2020 par ses bootlegs et ses packs d'edits « Lost Cuts » diffusés sur Bandcamp, puis par « Attachment Style (VIP) ». Son travail croise drum & bass, dubstep et noise, avec la distorsion et la rupture de structure pour matière première. Son EP « Plague Music » paraît en février 2026 chez XL Recordings.",
+  "bio_en": "Born in Birkenhead near Liverpool and based in Glasgow, KAVARI is a producer and DJ. She emerged in the early 2020s through bootlegs and the \"Lost Cuts\" edit packs on Bandcamp, then through \"Attachment Style (VIP)\". Her work crosses drum & bass, dubstep and noise, built on distortion and structural disruption. Her EP \"Plague Music\" came out on XL Recordings in February 2026.",
+  "origin": "Glasgow, Écosse",
+  "labels": [
+   "XL Recordings"
+  ],
+  "sources": [
+   "https://djmag.com/news/kavari-announces-new-ep-plague-music-xl-shares-iron-veins-listen",
+   "https://www.thefader.com/2026/02/09/kavari-plague-music-ep-interview",
+   "https://www.xlrecordings.com/artists/kavari"
+  ]
+ },
+ {
+  "name": "Hashashin",
+  "bio_fr": "DJ et producteur techno d'Amsterdam, actif depuis 2006 d'abord sous l'alias Ici Sans Merci. Il est un pilier des collectifs AURA Amsterdam, Bastion Techno et RADION Amsterdam. Quand RADION fête ses dix ans en janvier 2026 en lançant son label, il figure sur la compilation inaugurale « Decennial Revelry », un double vinyle de dix titres réunissant des artistes néerlandais.",
+  "bio_en": "An Amsterdam techno DJ and producer, active since 2006, originally under the alias Ici Sans Merci. He is a fixture of the AURA Amsterdam, Bastion Techno and RADION Amsterdam collectives. When RADION marked ten years in January 2026 by launching its label, he featured on the inaugural compilation \"Decennial Revelry\", a ten-track double vinyl of Dutch artists.",
+  "origin": "Amsterdam, Pays-Bas",
+  "since": 2006,
+  "sources": [
+   "https://evl.one/radion-amsterdam-launches-record-label",
+   "https://radionamsterdam.bandcamp.com/album/rad001-decennial-revelry"
+  ]
+ },
+ {
+  "name": "Fava",
+  "bio_fr": "MC et DJ drum & bass allemand, Fava commence en 2001 en organisant les soirées Jungle Club à Fribourg. Il tient le micro sur les scènes de Hospitality et de Liquicity avant de passer aux platines en 2019, à l'invitation du Liquicity Festival pour un b2b avec MC Mota. Il publie sur SUNANDBASS Recordings, V Recordings et son propre label Beatalistics.",
+  "bio_en": "German drum & bass MC and DJ Fava started out in 2001 running the Jungle Club nights in his home town of Freiburg. He hosted stages for Hospitality and Liquicity before moving to the decks in 2019, when Liquicity Festival invited him to play back-to-back with MC Mota. He releases on SUNANDBASS Recordings, V Recordings and his own label Beatalistics.",
+  "origin": "Fribourg, Allemagne",
+  "since": 2001,
+  "labels": [
+   "Beatalistics",
+   "V Recordings"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-fava/"
+  ]
+ },
+ {
+  "name": "Halō",
+  "bio_fr": "Halō est un projet commun des Néerlandais DubVision et Third Party, associés au duo russe Matisse & Sadko. La formation a fait ses débuts en DJ set le 7 mars 2026 à la Ziggo Dome d'Amsterdam pour Don't Let Daddy Know, et joue sa première date britannique le 9 octobre 2026 aux Drumsheds de Londres.",
+  "bio_en": "Halō is a joint project by Dutch acts DubVision and Third Party together with Russian duo Matisse & Sadko. The group made its DJ-set debut on 7 March 2026 at Amsterdam's Ziggo Dome for Don't Let Daddy Know, and plays its first UK date on 9 October 2026 at Drumsheds in London.",
+  "since": 2026,
+  "sources": [
+   "https://edm.com/news/dubvision-third-party-matisse-sadko-new-supergroup-halo/",
+   "https://drumshedslondon.com/event/dldk/",
+   "https://www.1001tracklists.com/tracklist/m6z3k5t/halo-dont-let-daddy-know-ziggo-dome-amsterdam-netherlands-2026-03-07.html"
+  ]
+ },
+ {
+  "name": "Future.666",
+  "bio_fr": "DJ et producteur techno, Viktor alias future.666 s'installe à Berlin après ses premiers sets et y joue pour BCCO dès 2017, dont il devient résident. Il dirige le label et le collectif BCCO, qui organise des soirées dans plusieurs pays. Son mixage repose sur trois à quatre CDJ superposés, pour des sets rapides et tournoyants.",
+  "bio_en": "Techno DJ and producer Viktor, aka future.666, moved to Berlin after his first sets and played for BCCO from 2017, later becoming a resident. He runs the BCCO label and collective, which throws parties in several countries. He mixes on three to four layered CDJs, for fast, spiralling sets.",
+  "origin": "Berlin, Allemagne",
+  "labels": [
+   "BCCO"
+  ],
+  "sources": [
+   "https://ra.co/dj/future666/biography",
+   "https://bcco.bandcamp.com/album/bccova18-curated-by-future-666"
+  ]
+ },
+ {
+  "name": "Amara",
+  "bio_fr": "DJ et productrice néerlandaise de hard techno, Amara construit son son depuis plus de trois ans : partie de la schranz, elle passe par un registre industriel lourd avant d'évoluer vers quelque chose de plus rebondissant. Elle a joué à Verknipt, dont le festival 2024 à Utrecht, ainsi qu'à Nachtwacht, Dagcollege et Teletech.",
+  "bio_en": "Dutch hard techno DJ and producer Amara has been shaping her sound for more than three years: she started in schranz, moved through heavy industrial territory and is now heading somewhere bouncier. She has played Verknipt, including the 2024 festival in Utrecht, as well as Nachtwacht, Dagcollege and Teletech.",
+  "origin": "Pays-Bas",
+  "sources": [
+   "https://soundcloud.com/verknipt-events/amara-verknipt-festival-2024-day-1",
+   "https://ra.co/events/1724305"
+  ]
+ },
+ {
+  "name": "chouhal",
+  "bio_fr": "Sarah, alias chouhal, est une DJ maltaise. Elle construit sa place dans la scène électronique de l'île depuis trois ans et dirige le label Mama Told Ya, qu'elle a monté comme plateforme de collaboration. Elle joue une techno directe et joueuse, et figure à l'affiche du Dalma Festival 2026 aux côtés de Jeff Mills, Anetha, Freddy K et Clara Cuvé.",
+  "bio_en": "Sarah, aka chouhal, is a Maltese DJ. She has spent three years building her place in the island's electronic scene and runs the Mama Told Ya label, set up as a platform for collaboration. She plays direct, playful techno, and is billed at Dalma Festival 2026 alongside Jeff Mills, Anetha, Freddy K and Clara Cuvé.",
+  "origin": "Malte",
+  "labels": [
+   "Mama Told Ya"
+  ],
+  "sources": [
+   "https://localsmalta.com/artist/chouhal",
+   "https://www.dalmafestival.com/"
+  ]
+ },
+ {
+  "name": "Helena Lauwaert",
+  "bio_fr": "DJ belge apparue en 2022 dans la scène gantoise, où elle joue notamment au Contrast et au Charlatan. Ses sets font se croiser house, techno, hard dance, hard trance et speed house. En septembre 2026, elle signe son premier plateau en festival avec « Helena Lauwaert & Friends » au Voodoo Village, à Grimbergen.",
+  "bio_en": "A Belgian DJ who came up in 2022 in the Ghent scene, playing venues such as Contrast and Charlatan. Her sets run house, techno, hard dance, hard trance and speed house together. In September 2026 she hosts her first festival stage, \"Helena Lauwaert & Friends\", at Voodoo Village in Grimbergen.",
+  "origin": "Gand, Belgique",
+  "since": 2022,
+  "sources": [
+   "https://www.voodoovillage.be/artists/helena-lauwaert",
+   "https://www.ravejungle.com/2026/06/24/voodoo-village-2026-lineup-stages/"
+  ]
+ },
+ {
+  "name": "Thiso",
+  "bio_fr": "DJ et producteur néerlandais, Thiso joue une hard techno décrite comme brute et hypnotique, construite autour de son propre sound design et de sets fortement thématisés. Il s'est produit à Berlin, notamment au Lokschuppen, et à Paris.",
+  "bio_en": "Dutch DJ and producer Thiso plays hard techno described as raw and hypnotic, built around his own sound design and strongly themed sets. He has played Berlin, notably Lokschuppen, and Paris.",
+  "origin": "Pays-Bas",
+  "sources": [
+   "https://ra.co/dj/thiso"
+  ]
  }
 ]

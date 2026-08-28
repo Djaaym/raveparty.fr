@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { RENAMED_EVENT_SLUGS } from "@/lib/renamed";
+import { RENAMED_ARTIST_SLUGS, RENAMED_EVENT_SLUGS } from "@/lib/renamed";
 
 /**
- * Redirections 301 des slugs d'événements renommés.
+ * Redirections 301 des slugs d'événements **et d'artistes** renommés.
  *
  * Le slug d'un événement dérive de son titre : corriger un titre casse l'URL déjà
  * indexée, et une URL gagnée ne doit jamais retomber en 404 (même principe que les
@@ -28,10 +28,22 @@ export function middleware(req: NextRequest) {
       return NextResponse.redirect(url, 301);
     }
   }
+  const a = /^(\/en)?\/artistes\/([^/]+)\/?$/.exec(pathname);
+  if (a && a[2] in RENAMED_ARTIST_SLUGS) {
+    const to = RENAMED_ARTIST_SLUGS[a[2]];
+    const url = req.nextUrl.clone();
+    // `null` = personne ne succède (un créneau b2b scindé en deux artistes, un nom de
+    // soirée pris pour un artiste) : l'annuaire est la réponse honnête.
+    url.pathname = `${a[1] ?? ""}/artistes${to ? `/${to}` : ""}`;
+    return NextResponse.redirect(url, 301);
+  }
   return NextResponse.next();
 }
 
 /* Ne réveiller le middleware que sur les deux arborescences concernées. */
 export const config = {
-  matcher: ["/event/:path*", "/festival/:path*", "/en/event/:path*", "/en/festival/:path*"],
+  matcher: [
+    "/event/:path*", "/festival/:path*", "/artistes/:path*",
+    "/en/event/:path*", "/en/festival/:path*", "/en/artistes/:path*",
+  ],
 };

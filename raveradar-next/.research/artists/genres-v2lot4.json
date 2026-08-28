@@ -438,5 +438,178 @@
    "https://hoer.live/artist/daichi-wada/"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "Helena Lauwaert",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Speed House",
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://www.voodoovillage.be/artists/helena-lauwaert",
+   "https://www.ravejungle.com/2026/06/24/voodoo-village-2026-lineup-stages/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hashashin",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://evl.one/radion-amsterdam-launches-record-label",
+   "https://radionamsterdam.bandcamp.com/album/rad001-decennial-revelry",
+   "https://ra.co/events/2231643"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DART",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Hard House",
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/173487:DART",
+   "https://thuishaven.nl/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "chouhal",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hard Techno"
+  ],
+  "sources": [
+   "https://localsmalta.com/artist/chouhal",
+   "https://www.dalmafestival.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gold Panda",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Downtempo",
+   "IDM",
+   "Trip Hop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gold_Panda",
+   "https://api.discogs.com/database/search?artist=Gold+Panda&type=release",
+   "https://www.theskinny.co.uk/music/reviews/albums/gold-panda-the-work"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Halō",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://edm.com/news/dubvision-third-party-matisse-sadko-new-supergroup-halo/",
+   "https://drumshedslondon.com/event/dldk/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Arjuna",
+  "main": [
+   "Psytrance"
+  ],
+  "sub": [
+   "Forest Psytrance",
+   "Goa Trance"
+  ],
+  "sources": [
+   "https://psymedia.co.za/festival/free-earth-festival/",
+   "https://www.goabase.net/festival/free-earth-festival/117260"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Future.666",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Schranz"
+  ],
+  "sources": [
+   "https://ra.co/dj/future666/biography",
+   "https://bcco.bandcamp.com/album/bccova18-curated-by-future-666",
+   "https://hoer.live/artist/future-666/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ CAMSLUT",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Breakcore",
+   "Uptempo",
+   "Speedcore"
+  ],
+  "sources": [
+   "https://shotgun.live/en/events/hypercore-x-brutal-slap",
+   "https://lastation.paris/stationgdm/rendez-vous/2025-04-15-hypercore"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "A.C.Killer",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Breakcore"
+  ],
+  "sources": [
+   "https://shotgun.live/en/events/hypercore-x-brutal-slap"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Isis Cloudt",
+  "main": [
+   "House",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Bass House",
+   "Dubstep",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://bootshaus.tv/artists/isis-cloudt/",
+   "https://www.facebook.com/isiscloudt/",
+   "https://soundcloud.com/isis-cloudt/isis-cloudt-bootshaus-dj-contest-winner-set-2020"
+  ],
+  "confidence": "medium"
  }
 ]

@@ -323,5 +323,322 @@
    "https://www.discogs.com/artist/433179-Kavinsky"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "Freddi",
+  "main": [
+   "Trance",
+   "House"
+  ],
+  "sub": [
+   "Hard House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://fundamentalceg.nl/lineup.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kevin Arnold",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://bootshaus.tv/artists/kevin-arnold/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hendrik Stein",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House"
+  ],
+  "sources": [
+   "https://ra.co/dj/hendrikstein",
+   "https://www.renate.cc/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Autodrive",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.undrtone.co.uk/post/blacklist-festival-unveils-full-lineup-for-2025-edition-at-turbinenhalle-oberhausen",
+   "https://www.drumandbass.nl/event/blacklist-festival-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dwonji",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://somo.social/en/e/drum-bass-klubben-taxman-drum-828",
+   "https://ra.co/events/2235293"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Halvmåne",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "UK Garage",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://somo.social/en/e/drum-bass-klubben-taxman-drum-828"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Desiree",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Afro House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://ra.co/events/2375157",
+   "https://xceed.me/en/lisboa/event/jackies-house-festival-lisboa/221847"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kokoprisci",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "UK Garage",
+   "Jungle"
+  ],
+  "sources": [
+   "https://www.rinse.fm/shows/kokoprisci",
+   "https://talentboutique.fr/roster/kokoprisci/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hausgardian",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.rockerill.com/agenda/les-aperos-industriels/13594/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "KUSS",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hypnotic Techno",
+   "Ambient",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://hoer.live/artist/kuss/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "JUDA",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.lacoope.org/concerts/raeverie-invite-dawn-to-dusk-2/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Goldi",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Trance"
+  ],
+  "sources": [
+   "https://www.tausendaugen.at/mahlwerk",
+   "https://ra.co/dj/goldi-at"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jowi",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://events.musicofourdesire.com/events/Rotterdam/genre/techno",
+   "https://set79.com/tracklist/soundcloud.com/user-105919562/jazzy-b2b-jowi-fury-hard"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "ANNASNEL",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Acid",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://www.smeerboel.nl/line-up-stages/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dan Haward",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://sweet-nothing.bandcamp.com/track/tuff"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Georg",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.dalmafestival.com/",
+   "https://ra.co/events/mt/all/techno"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DJ Cosworth",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Speed Garage",
+   "Tech House"
+  ],
+  "sources": [
+   "https://constellatetalent.com/artist/dj-cosworth/",
+   "https://hardlinesounds.bandcamp.com/album/hard30-2",
+   "https://www.discogs.com/artist/8193199-DJ-Cosworth"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "I Roots",
+  "main": [
+   "Trance",
+   "Psytrance"
+  ],
+  "sub": [
+   "Dub"
+  ],
+  "sources": [
+   "https://www.pozzo-live.com/live-reports/soiree-trance-hilight-tribe-toulouse/",
+   "https://interference-toulouse.fr/event/hilight-tribe-instrumental"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jazzy (IE)",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Dance-Pop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jazzy_(singer)",
+   "https://djmag.com/cover-features/jazzy-new-dance-pop-sensation"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "CC:DISCO!",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Nu-Disco",
+   "Balearic"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/9302284-CCDISCO"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bitter Babe",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Guaracha",
+   "Breakbeat",
+   "Reggaeton"
+  ],
+  "sources": [
+   "https://crackmagazine.net/article/profiles/bitter-babe-interview-speed-of-life/",
+   "https://tratratrax.bandcamp.com/album/fuego-clandestino"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Flupke",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Synthwave",
+   "Electro House",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/8722630-Flupke",
+   "https://www.transbordeur.fr/artiste/hilight-tribe/"
+  ],
+  "confidence": "medium"
  }
 ]
