@@ -1,0 +1,505 @@
+[
+ {
+  "slug": "nikolina",
+  "name": "Nikolina",
+  "dates": 6,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "da-i-freyr",
+  "name": "Daði Freyr",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "rose",
+  "name": "Rōse",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "25emeheure",
+  "name": "25emeheure",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "slug": "a-nice-place-to-be",
+  "name": "A Nice Place To Be",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "afterlife-collective",
+  "name": "Afterlife Collective",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "alika",
+  "name": "ALIKA",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "amy-dabbs",
+  "name": "Amy Dabbs",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "anstandslos-durchgeknallt",
+  "name": "Anstandslos & Durchgeknallt",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ash-taka",
+  "name": "Ash Taka",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "axmo",
+  "name": "Axmo",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "baby-berserk",
+  "name": "Baby Berserk",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "barbara-butch",
+  "name": "Barbara Butch",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "ben-techy-b2b-luciid",
+  "name": "Ben Techy b2b Luciid",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "bizzey",
+  "name": "Bizzey",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "bon-entendeur",
+  "name": "Bon Entendeur",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "brent-honey",
+  "name": "Brent Honey",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "canelle-doublekick",
+  "name": "Canelle Doublekick",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "chain-reaction",
+  "name": "Chain Reaction",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "chuquimamani-condori",
+  "name": "Chuquimamani-Condori",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "crete-moustache",
+  "name": "Crête & Moustache",
+  "dates": 1,
+  "genres_evenements": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "da-tweeka",
+  "name": "Da Tweeka",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "das-beat",
+  "name": "Das Beat",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "delff",
+  "name": "Delff",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "didz-mina",
+  "name": "Didz & Mina",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "disorder",
+  "name": "Disorder",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "dj-dreckisch",
+  "name": "DJ Dreckisch",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "dj-parkverbot",
+  "name": "DJ Parkverbot",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "doudou-md",
+  "name": "Doudou MD",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "e-x-e-c-u-t-e",
+  "name": "E.X.E.C.U.T.E",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "emilaki",
+  "name": "Emilaki",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "eskei83",
+  "name": "Eskei83",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "fenim0re",
+  "name": "FENIM0RE",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fishbach",
+  "name": "Fishbach",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "freddi-b2b-sophia-violet",
+  "name": "Freddi B2B Sophia Violet",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "g-ha",
+  "name": "g-HA",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "glanz",
+  "name": "Glanz",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "gonzi",
+  "name": "Gonzi",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Hardcore",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "gugu",
+  "name": "Gugu",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "hannah-hannah",
+  "name": "Hannah Hannah",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "headbanger",
+  "name": "Headbanger",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "hi-ki",
+  "name": "Hi-Ki",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "human-safari",
+  "name": "Human Safari",
+  "dates": 1,
+  "genres_evenements": [
+   "Acid Techno",
+   "Hard Techno",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "industrix",
+  "name": "Industrix",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "jan-blomqvist",
+  "name": "Jan Blomqvist",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jazzy-ch",
+  "name": "Jazzy (CH)",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "john-t-gast",
+  "name": "John T. Gast",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jvrdy",
+  "name": "Jvrdy",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hard Techno",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "slug": "kamma-b2b-masalo",
+  "name": "Kamma b2b Masalo",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kat-ze",
+  "name": "Kat Zé",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kelela",
+  "name": "Kelela",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kimmic",
+  "name": "Kimmic",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "koven",
+  "name": "Koven",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "la-bringue",
+  "name": "La Bringue",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "lauff",
+  "name": "Läuff",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ }
+]

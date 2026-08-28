@@ -422,6 +422,10 @@ def main() -> int:
 
         try:
             raw = fetch(url)
+            # La temporisation ne portait que sur l'API : les *images* partaient à la
+            # chaîne, et upload.wikimedia.org a fini par répondre 429 sur la moitié du
+            # lot. Le même service, la même règle — on n'enchaîne pas.
+            time.sleep(THROTTLE)
             img = Image.open(io.BytesIO(raw))
             img = ImageOps.exif_transpose(img).convert("RGB")
         except Exception as e:
