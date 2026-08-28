@@ -510,5 +510,44 @@
    "https://en.wikipedia.org/wiki/Magic_Still_Exists"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "36framez",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.zeezout.info/event/zeezout-festival"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Blanko",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://api.discogs.com/artists/35559",
+   "https://www.starwarz.be/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "EverTwo",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://technostaterecords.com/?s=EverTwo",
+   "https://annexet.se/en/events/music-show/extreme-2/"
+  ],
+  "confidence": "medium"
  }
 ]

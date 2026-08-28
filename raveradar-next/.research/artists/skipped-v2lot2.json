@@ -1,0 +1,74 @@
+[
+ {
+  "name": "Aphøtic b2b Tassery",
+  "reason": "Ce n'est pas un artiste mais une affiche b2b (deux DJs). Aucune fiche à écrire sous ce nom."
+ },
+ {
+  "name": "ATARAXY",
+  "reason": "Aucune source biographique. Le seul résultat Discogs sous ce nom est un projet harsh noise / death metal espagnol, sans rapport avec la date au Fuse. La page événement du Fuse ne donne aucun genre."
+ },
+ {
+  "name": "Azadî",
+  "reason": "Aucune source. Seulement des mentions de line-up au Culture Box (Copenhague), sans description ni genre. Homonymes multiples sur Discogs (artistes folk/jazz iraniens et kurdes)."
+ },
+ {
+  "name": "Ben Tenner",
+  "reason": "Uniquement listé sur le line-up du Bootshaus (floor « Bus », b2b avec Jvrdy et DJ Fäbs). Le champ Genres de la fiche Bootshaus est vide et aucune autre source ne le documente."
+ },
+ {
+  "name": "Bridge",
+  "reason": "Nom trop générique. Aucune correspondance exploitable ; l'entrée Discogs la plus proche est un groupe pop japonais. Impossible d'identifier le DJ de Thuishaven ADE."
+ },
+ {
+  "name": "Cardona",
+  "reason": "Aucune source pour le DJ programmé au Razzmatazz. Les résultats Discogs sous ce nom sont des musiciens latino (Milton Cardona, salsa/afro-cubain)."
+ },
+ {
+  "name": "Chaotic Brothers",
+  "reason": "Aucune source biographique. Seule trace : une playlist Spotify « Hardcore x Uptempo » sous un nom voisin (Chaotic Brotherz), ce qui ne suffit pas à attester l'identité."
+ },
+ {
+  "name": "Claude-Emmanuelle",
+  "reason": "Aucune source. Les résultats Discogs sous ce nom sont des disques de diction et de chanson française des années 60."
+ },
+ {
+  "name": "DJ Bisou",
+  "reason": "La seule description trouvée (fondatrice de Deux Chevaux, « slow-mo techno ») vient de ra.co, bloqué depuis ce conteneur ; aucune page ouvrable ne la confirme."
+ },
+ {
+  "name": "DJ Fäbs",
+  "reason": "Uniquement listé sur le line-up du Bootshaus (floor « Bus »). Aucun genre publié, aucune fiche artiste."
+ },
+ {
+  "name": "Emin",
+  "reason": "Homonyme non tranché. Le seul « EMIN » documenté (Discogs, 127 sorties) est un chanteur pop azerbaïdjanais, ce qui ne correspond pas à une nuit Loonyland au Bootshaus. La fiche Bootshaus ne donne aucun genre."
+ },
+ {
+  "name": "Flaek",
+  "reason": "Aucune source ouvrable. La page artiste du festival Between The Seas ne contient qu'un nom et une image, sans description ni genre."
+ },
+ {
+  "name": "Guts",
+  "reason": "Beatmaker français (Alliance Ethnik, label Heavenly Sweetness, compilations Beach Diggin'), hip-hop / soul / funk / afro. Aucun genre de la liste fermée ne s'applique honnêtement."
+ },
+ {
+  "name": "Hanneken",
+  "reason": "Aucune source biographique ; seulement une mention de line-up sur le Kitchen Floor du Grelle Forelle. Les entrées Discogs sous ce nom sont des homonymes (blues rock, musicologie)."
+ },
+ {
+  "name": "Heartworms",
+  "reason": "Projet post-punk britannique (Jojo Orme, label Speedy Wunderground), programmé à Iceland Airwaves qui est un festival multi-genres. Ce n'est pas de la musique électronique de club."
+ },
+ {
+  "name": "Holiness",
+  "reason": "Aucune source. Uniquement une ligne de line-up au Fuse ; le club ne publie pas de genre par artiste et ne le liste pas parmi ses résidents."
+ },
+ {
+  "name": "Hypercore Collective",
+  "reason": "Collectif parisien, pas un artiste. La seule page ouvrable (La Station – Gare des Mines) décrit une soirée Hypercore aux styles très hétérogènes (punk, gabber, breakcore, trap metal) : rien qui permette d'attribuer un genre au collectif lui-même."
+ },
+ {
+  "name": "La Fazani",
+  "reason": "Artiste kosovar de Pristina décrit comme mêlant flows hip-hop, refrains autotunés et synthés lo-fi. Aucun genre de la liste fermée ne s'applique."
+ }
+]

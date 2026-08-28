@@ -278,5 +278,14 @@
    "https://en.wikipedia.org/wiki/Magic_Still_Exists",
    "https://api.discogs.com/database/search?artist=Agnes&type=release"
   ]
+ },
+ {
+  "name": "36framez",
+  "bio_fr": "36framez est une DJ néerlandaise installée à Utrecht, également photographe de nuit. Elle joue en vinyle et son bac est entièrement house — rythmiques nerveuses portées par des voix queer, grooves deep et soul, et quelques disques à contre-emploi. Elle a joué à IsBurning, au Radion, à BRET et au festival ZeeZout.",
+  "bio_en": "36framez is a Dutch DJ based in Utrecht who also works as a nightlife photographer. She plays vinyl and her record bag is all house — punchy rhythms carried by queer vocals, deep and soulful grooves, and the odd curveball. She has played IsBurning, Radion, BRET and the ZeeZout festival.",
+  "origin": "Utrecht, Pays-Bas",
+  "sources": [
+   "https://www.zeezout.info/event/zeezout-festival"
+  ]
  }
 ]
