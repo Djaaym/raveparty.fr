@@ -321,9 +321,95 @@ def discogs(artists: dict, limit: int) -> None:
     print("discogs terminé", flush=True)
 
 
+# ---------------------------------------------------------------- Wikidata par nom
+def wdlabel(artists: dict, limit: int) -> None:
+    """Wikidata interrogé directement par le nom, sans passer par MusicBrainz.
+
+    La route prévue au départ était MusicBrainz → P434 → Wikidata. Elle est correcte
+    mais impraticable ici : MusicBrainz limite à une requête par seconde **par IP**, et
+    l'IP est celle du proxy, partagée — on encaissait 40 % de 503 et un débit d'environ
+    une fiche par minute, soit dix-huit heures pour le catalogue.
+
+    Wikidata accepte au contraire **soixante noms par requête** en SPARQL : trente-deux
+    requêtes couvrent les 1 887 artistes. Le prix à payer est l'homonymie, puisqu'on
+    interroge une chaîne de caractères et non un identifiant. Trois garde-fous :
+
+    - le libellé doit correspondre **exactement** (`rdfs:label`, pas une recherche floue) ;
+    - l'entité doit être un musicien, un DJ, un producteur ou un groupe (P106 / P31) ;
+    - **deux entités pour un même nom = on n'écrit rien.** C'est la règle « Jazzy » : sans
+      moyen de trancher, une fiche vide vaut mieux qu'une fiche fausse — et ici l'enjeu
+      n'est pas qu'une étiquette de genre, c'est le visage affiché sur la page de
+      quelqu'un.
+    """
+    data = load("wdlabel")
+    todo = order(artists, data)[:limit]
+    print(f"wikidata (par nom) : {len(todo)} à faire ({len(data)} déjà)", flush=True)
+    B = 60
+    for k in range(0, len(todo), B):
+        chunk = todo[k : k + B]
+        # Le libellé Wikidata est sensible à la casse et aux accents : on envoie la
+        # graphie du catalogue, échappée pour SPARQL.
+        vals = " ".join('"%s"@en' % artists[s]["name"].replace("\\", "").replace('"', '\\"') for s in chunk)
+        query = f"""
+SELECT ?name ?item ?genreLabel ?img ?citLabel ?born ?mb ?desc WHERE {{
+  VALUES ?name {{ {vals} }}
+  ?item rdfs:label ?name .
+  {{ ?item wdt:P106 ?occ . VALUES ?occ {{ wd:Q130857 wd:Q183945 wd:Q639669 wd:Q36834 wd:Q488205 }} }}
+  UNION {{ ?item wdt:P31 wd:Q215380 }}
+  OPTIONAL {{ ?item wdt:P136 ?genre . }}
+  OPTIONAL {{ ?item wdt:P18 ?img . }}
+  OPTIONAL {{ ?item wdt:P27 ?cit . }}
+  OPTIONAL {{ ?item wdt:P569 ?born . }}
+  OPTIONAL {{ ?item wdt:P434 ?mb . }}
+  OPTIONAL {{ ?item schema:description ?desc . FILTER(LANG(?desc) = "en") }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,fr". }}
+}}"""
+        url = "https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(query)
+        code, body = fetch(url, UA_API, timeout=120)
+        rows = []
+        if code == 200:
+            try:
+                rows = json.loads(body)["results"]["bindings"]
+            except Exception:
+                rows = []
+        if code != 200:
+            print(f"  ✗ lot {k // B} : HTTP {code}", flush=True)
+            time.sleep(10)
+            continue
+        by_name: dict = {}
+        for r in rows:
+            n = r["name"]["value"]
+            qid = r["item"]["value"].rsplit("/", 1)[-1]
+            e = by_name.setdefault(n, {})
+            it = e.setdefault(qid, {"qid": qid, "genres": [], "img": None, "citizenship": None,
+                                    "born": None, "mbid": None, "desc": None})
+            if "genreLabel" in r and r["genreLabel"]["value"] not in it["genres"]:
+                it["genres"].append(r["genreLabel"]["value"])
+            for key, prop in (("img", "img"), ("citizenship", "citLabel"), ("born", "born"),
+                              ("mbid", "mb"), ("desc", "desc")):
+                if prop in r and not it[key]:
+                    it[key] = r[prop]["value"]
+        for slug in chunk:
+            items = by_name.get(artists[slug]["name"], {})
+            if len(items) > 1:
+                data[slug] = {"found": False, "ambiguous": [i["qid"] for i in items.values()]}
+            elif items:
+                it = next(iter(items.values()))
+                it["found"] = True
+                if it["born"]:
+                    it["born"] = it["born"][:10]
+                data[slug] = it
+            else:
+                data[slug] = {"found": False}
+        save("wdlabel", data)
+        print(f"  {min(k + B, len(todo))}/{len(todo)}", flush=True)
+        time.sleep(2)
+    print("wikidata (par nom) terminé", flush=True)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "discogs", "list"])
+    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "wdlabel", "discogs", "list"])
     ap.add_argument("--limit", type=int, default=10**6)
     ap.add_argument("--shard", default="", help="k/n — ce lot traite un artiste sur n")
     a = ap.parse_args()
@@ -338,7 +424,7 @@ def main() -> int:
         save("catalogue", artists)
         print(f"{len(artists)} artistes -> harvest/catalogue.json")
         return 0
-    {"lastfm": lastfm, "mb": mb, "wd": wd, "discogs": discogs}[a.source](artists, a.limit)
+    {"lastfm": lastfm, "mb": mb, "wd": wd, "wdlabel": wdlabel, "discogs": discogs}[a.source](artists, a.limit)
     return 0
 
 

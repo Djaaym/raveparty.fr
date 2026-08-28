@@ -757,6 +757,32 @@
   ],
   "type": "Group"
  },
+ "bedouin": {
+  "area": "Brooklyn",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Brooklyn dance duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "c9b34ac9-83ab-44f4-8358-348d8ea8d6c2",
+  "name": "Bedouin",
+  "tags": [
+   [
+    "deep house",
+    2
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "organic house",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
  "ben-klock": {
   "area": "Germany",
   "begin": "1972",
@@ -838,6 +864,143 @@
    ]
   ],
   "type": "Person"
+ },
+ "biianco": {
+  "area": "Los Angeles",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "91f36e5d-fb98-489c-9d64-170557dba52c",
+  "name": "BIIANCO",
+  "tags": [],
+  "type": null
+ },
+ "blawan": {
+  "area": "United Kingdom",
+  "begin": "1987",
+  "country": "GB",
+  "disambiguation": "British techno producer & DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c27d4389-390e-497c-9a41-dd446ace742c",
+  "name": "Blawan",
+  "tags": [
+   [
+    "techno",
+    4
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "industrial techno",
+    2
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "idm",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "bass",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "garage",
+    1
+   ],
+   [
+    "experimental techno",
+    1
+   ],
+   [
+    "techno.",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "blond-ish": {
+  "area": "Europe",
+  "begin": "2008",
+  "country": "XE",
+  "disambiguation": "Vivie‐Ann Bakos, formerly a duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "598ded27-65cd-481b-b1d1-173f03e459de",
+  "name": "BLOND:ISH",
+  "tags": [
+   [
+    "house",
+    3
+   ],
+   [
+    "deep house",
+    3
+   ],
+   [
+    "dance",
+    1
+   ]
+  ],
+  "type": "Group"
  },
  "bob-sinclar": {
   "area": "France",
@@ -927,6 +1090,24 @@
   ],
   "type": "Person"
  },
+ "bou": {
+  "area": "Manchester",
+  "begin": "1996-11-16",
+  "country": null,
+  "disambiguation": "Algerian; UK based drum & bass artist; Amine Bouguenna",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "b3c31c2b-f9ec-4c94-b045-119ac0994da3",
+  "name": "Bou",
+  "tags": [
+   [
+    "drum and bass",
+    2
+   ]
+  ],
+  "type": "Person"
+ },
  "boys-noize": {
   "area": "Germany",
   "begin": "1982-08-22",
@@ -989,6 +1170,64 @@
    [
     "edm",
     0
+   ]
+  ],
+  "type": "Person"
+ },
+ "call-super": {
+  "area": "London",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c5d98aa8-5f6b-4910-b4a0-dfcca6694e52",
+  "name": "Call Super",
+  "tags": [
+   [
+    "electronic",
+    3
+   ],
+   [
+    "ambient",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "idm",
+    2
+   ],
+   [
+    "experimental electronic",
+    2
+   ],
+   [
+    "jazz",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "clarinet",
+    1
+   ],
+   [
+    "outsider house",
+    1
+   ],
+   [
+    "wonky techno",
+    1
    ]
   ],
   "type": "Person"
@@ -1204,6 +1443,79 @@
   ],
   "type": "Person"
  },
+ "cassius": {
+  "area": "France",
+  "begin": "1996",
+  "country": "FR",
+  "disambiguation": "French electro dance duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "256160e8-37fd-4f8c-a3ef-530ebbaa4b3d",
+  "name": "Cassius",
+  "tags": [
+   [
+    "electronic",
+    3
+   ],
+   [
+    "french house",
+    3
+   ],
+   [
+    "nu disco",
+    3
+   ],
+   [
+    "funky house",
+    2
+   ],
+   [
+    "electro house",
+    2
+   ],
+   [
+    "french electro",
+    2
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "electropop",
+    1
+   ],
+   [
+    "french",
+    0
+   ],
+   [
+    "dance",
+    0
+   ],
+   [
+    "electronica",
+    0
+   ],
+   [
+    "dance and electronica",
+    0
+   ],
+   [
+    "edm",
+    -1
+   ]
+  ],
+  "type": "Group"
+ },
+ "cedric": {
+  "found": false
+ },
  "charlotte-de-witte": {
   "area": "Belgium",
   "begin": "1992-07-21",
@@ -1372,6 +1684,32 @@
   ],
   "type": "Person"
  },
+ "cosmic-gate": {
+  "area": "Germany",
+  "begin": "1998-11",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "5f3b32e5-efb5-4096-9260-587c155e50b7",
+  "name": "Cosmic Gate",
+  "tags": [
+   [
+    "trance",
+    4
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
  "creeds": {
   "area": "Nantes",
   "begin": "1992-05-30",
@@ -1418,6 +1756,36 @@
    ]
   ],
   "type": "Group"
+ },
+ "damian-lazarus": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "aee558d0-034f-4ef6-a530-76280723656b",
+  "name": "Damian Lazarus",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "edm",
+    -1
+   ]
+  ],
+  "type": "Person"
  },
  "daniel-avery": {
   "area": "London",
@@ -1535,6 +1903,19 @@
     1
    ]
   ],
+  "type": "Person"
+ },
+ "dasha-rush": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8e403355-9a8f-4e9e-80cc-002b22fcb3a2",
+  "name": "Dasha Rush",
+  "tags": [],
   "type": "Person"
  },
  "dave-clarke": {
@@ -1707,6 +2088,36 @@
   ],
   "type": "Person"
  },
+ "deborah-de-luca": {
+  "area": "Napoli",
+  "begin": "1980-07-23",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6ee8d1b6-3e6b-4d4c-85c6-45d8b1428399",
+  "name": "Deborah De Luca",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "peak time techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "digitalism": {
   "area": "Germany",
   "begin": "2004",
@@ -1781,6 +2192,28 @@
    [
     "rock and indie",
     0
+   ]
+  ],
+  "type": "Group"
+ },
+ "dimension": {
+  "area": "Japan",
+  "begin": "1992",
+  "country": "JP",
+  "disambiguation": "Japanese electric jazz group",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "8314efe8-43e4-432e-a84d-f71450eb55ba",
+  "name": "DIMENSION",
+  "tags": [
+   [
+    "jazz fusion",
+    2
+   ],
+   [
+    "contemporary jazz",
+    2
    ]
   ],
   "type": "Group"
@@ -1915,6 +2348,32 @@
   ],
   "type": "Group"
  },
+ "dj-gigola": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "53b773c0-7e1d-4874-aa13-e4db166c7092",
+  "name": "DJ Gigola",
+  "tags": [],
+  "type": "Person"
+ },
+ "dj-tennis": {
+  "area": "Italy",
+  "begin": null,
+  "country": "IT",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "e3f7dc2c-40d3-41ee-b120-3b4cd9fe90bd",
+  "name": "DJ Tennis",
+  "tags": [],
+  "type": "Person"
+ },
  "dom-dolla": {
   "area": "Australia",
   "begin": null,
@@ -2048,6 +2507,71 @@
   ],
   "type": "Group"
  },
+ "dvs1": {
+  "area": null,
+  "begin": "1976",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "09a28356-b096-4d7e-8aed-03e2199bf924",
+  "name": "DVS1",
+  "tags": [],
+  "type": "Person"
+ },
+ "dyen": {
+  "area": "Rotterdam",
+  "begin": null,
+  "country": null,
+  "disambiguation": "techno producer from Rotterdam",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "3a46e5d7-042d-46c3-82ea-b999fe556426",
+  "name": "DYEN",
+  "tags": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "industrial techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "eats-everything": {
+  "area": "United Kingdom",
+  "begin": "1980-05-12",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "dd64ccdc-8087-47ab-8774-a40a4c37a3d9",
+  "name": "Eats Everything",
+  "tags": [
+   [
+    "house",
+    2
+   ],
+   [
+    "uk bass",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "ellen-allien": {
   "area": "Germany",
   "begin": "1969",
@@ -2082,6 +2606,24 @@
    [
     "european",
     2
+   ]
+  ],
+  "type": "Person"
+ },
+ "ely-oaks": {
+  "area": "Austria",
+  "begin": null,
+  "country": "AT",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "7ed85dd7-124e-477b-9bdf-81f4b3237042",
+  "name": "Ely Oaks",
+  "tags": [
+   [
+    "edm",
+    1
    ]
   ],
   "type": "Person"
@@ -2133,6 +2675,19 @@
     1
    ]
   ],
+  "type": "Person"
+ },
+ "erol-alkan": {
+  "area": "United Kingdom",
+  "begin": "1974-05-30",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "80cb9f52-04b5-4084-a2eb-6098c91cb48a",
+  "name": "Erol Alkan",
+  "tags": [],
   "type": "Person"
  },
  "fakear": {

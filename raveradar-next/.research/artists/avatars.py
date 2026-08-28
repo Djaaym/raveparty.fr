@@ -106,6 +106,24 @@ def fetch(url: str) -> bytes:
     raise RuntimeError("unreachable")
 
 
+# La route Wikidata par libellé interroge une chaîne de caractères, pas un identifiant :
+# elle peut tomber sur un homonyme. Pour une étiquette de genre, le risque est supportable
+# (la table de correspondance ignore ce qu'elle ne reconnaît pas) ; pour un **portrait**,
+# non — publier le visage de quelqu'un d'autre sur la fiche d'un artiste est une autre
+# classe d'erreur. On ne retient donc une photo que si l'entité se décrit elle-même comme
+# venant de la musique électronique.
+ELECTRONIC = re.compile(
+    r"\b(dj|disc jockey|electronic|electronica|techno|house|trance|hardcore|hardstyle|"
+    r"gabber|drum and bass|drum'n'bass|dnb|jungle|dubstep|edm|acid|rave|psytrance|"
+    r"record producer|music producer|producer)\b", re.I)
+
+
+def is_our_artist(entity: dict) -> bool:
+    """Vrai si les genres ou la description Wikidata parlent de musique électronique."""
+    hay = " ".join(entity.get("genres") or []) + " " + (entity.get("desc") or "")
+    return bool(ELECTRONIC.search(hay))
+
+
 def commons_title(ref: str) -> str:
     """Accepte une URL de page Commons, une URL upload.wikimedia, ou un titre nu."""
     ref = (ref or "").strip()
@@ -261,13 +279,18 @@ def main() -> int:
     # Wikidata P18 : le gisement le plus large, et le seul qui couvre les artistes sans
     # bio. Le rattachement passe par l'identifiant MusicBrainz, pas par le nom — c'est
     # ce qui évite de coller le portrait d'un homonyme sur une fiche.
-    wd_file = HARVEST / "wd.json"
     cat_file = HARVEST / "catalogue.json"
-    if wd_file.exists() and cat_file.exists():
-        wd = json.loads(wd_file.read_text())
+    wd = {}
+    for name in ("wd", "wdlabel"):
+        f = HARVEST / f"{name}.json"
+        if f.exists():
+            for k, v in json.loads(f.read_text()).items():
+                if v.get("img"):
+                    wd.setdefault(k, v)
+    if wd and cat_file.exists():
         cat = json.loads(cat_file.read_text())
         todo = [(s, v) for s, v in sorted(wd.items(), key=lambda kv: -cat.get(kv[0], {}).get("n", 0))
-                if v.get("img") and s not in cands and s in cat]
+                if v.get("img") and s not in cands and s in cat and is_our_artist(v)]
         if args.limit:
             todo = todo[: args.limit]
         for slug, v in todo:

@@ -1,0 +1,391 @@
+[
+ {
+  "name": "Marcel Dettmann",
+  "bio_fr": "Marcel Dettmann est un DJ, producteur et patron de label allemand, né en 1977 à Pößneck et installé à Berlin. Il est résident du Berghain et a travaillé au disquaire berlinois Hard Wax entre 2002 et 2012. Sa discographie relève de la techno, avec des incursions minimal et electro.",
+  "bio_en": "Marcel Dettmann is a German DJ, producer and record label owner, born in 1977 in Pößneck and based in Berlin. He is a resident DJ at Berghain and worked at the Berlin record shop Hard Wax between 2002 and 2012. His catalogue is techno, with minimal and electro excursions.",
+  "origin": "Berlin, Allemagne",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcel_Dettmann",
+   "https://musicbrainz.org/artist/6d7238a1-f0bc-4408-93fc-8ec64c06f7af",
+   "https://api.discogs.com/database/search?artist=Marcel+Dettmann&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Hardwell",
+  "bio_fr": "Robbert van de Corput, connu sous le nom de Hardwell, est un DJ et producteur néerlandais né le 7 janvier 1988 à Breda. Sa discographie se répartit surtout entre progressive house et electro house, avec des incursions trance et hardstyle.",
+  "bio_en": "Robbert van de Corput, known as Hardwell, is a Dutch DJ and producer born on 7 January 1988 in Breda. His catalogue sits mostly in progressive house and electro house, with trance and hardstyle excursions.",
+  "origin": "Breda, Pays-Bas",
+  "commons": "https://commons.wikimedia.org/wiki/File:Hardwell_2018_(cropped).jpg",
+  "sources": [
+   "https://musicbrainz.org/artist/170d6637-36e0-49dd-a225-c4fd5b77a285",
+   "https://api.discogs.com/database/search?artist=Hardwell&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Dom Dolla",
+  "bio_fr": "Louis Matheson, connu sous le nom de Dom Dolla, est un producteur, DJ, auteur-compositeur et remixeur australien né le 18 janvier 1992. Wikipédia le décrit comme un producteur de tech house ; ses sorties relèvent aussi de la house et de la progressive house.",
+  "bio_en": "Louis Matheson, known as Dom Dolla, is an Australian producer, DJ, songwriter and remixer born on 18 January 1992. Wikipedia describes him as a tech house producer; his releases also cover house and progressive house.",
+  "origin": "Australie",
+  "commons": "https://commons.wikimedia.org/wiki/File:Dom_Dolla_-_@shevindphoto_(cropped).jpg",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dom_Dolla",
+   "https://api.discogs.com/database/search?artist=Dom+Dolla&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Sound Rush",
+  "bio_fr": "Sound Rush est un duo hardstyle néerlandais formé par les frères Jeroen et Martijn Boeren. Leur discographie est presque entièrement hardstyle, avec quelques titres happy hardcore et hardcore.",
+  "bio_en": "Sound Rush are a Dutch hardstyle duo made up of brothers Jeroen and Martijn Boeren. Their catalogue is almost entirely hardstyle, with a few happy hardcore and hardcore tracks.",
+  "origin": "Pays-Bas",
+  "sources": [
+   "https://musicbrainz.org/artist/72d65c02-1b1f-4458-9ab8-6544eea4bdf0",
+   "https://api.discogs.com/database/search?artist=Sound+Rush&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "808 State",
+  "bio_fr": "808 State est un groupe de musique électronique anglais formé en 1987 à Manchester par Graham Massey, Martin Price et Gerald Simpson. Son nom vient de la boîte à rythmes Roland TR-808. Le premier album, Newbuild, paraît en septembre 1988 ; le succès arrive en 1989 avec le titre « Pacific State ».",
+  "bio_en": "808 State are an English electronic group formed in 1987 in Manchester by Graham Massey, Martin Price and Gerald Simpson. The name comes from the Roland TR-808 drum machine. Their debut album Newbuild came out in September 1988; commercial success followed in 1989 with \"Pacific State\".",
+  "origin": "Manchester, Royaume-Uni",
+  "since": 1987,
+  "sources": [
+   "https://en.wikipedia.org/wiki/808_State",
+   "https://api.discogs.com/database/search?artist=808+State&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Adrenalize",
+  "bio_fr": "Adrenalize est le nom de scène de Malthe Mehlskov, DJ et producteur hardstyle danois né le 21 octobre 1996. Sa discographie est presque entièrement hardstyle.",
+  "bio_en": "Adrenalize is the stage name of Malthe Mehlskov, a Danish hardstyle DJ and producer born on 21 October 1996. His catalogue is almost entirely hardstyle.",
+  "origin": "Danemark",
+  "sources": [
+   "https://musicbrainz.org/artist/183b3df1-9ded-4277-ab11-a6fcb9a7cf44",
+   "https://api.discogs.com/database/search?artist=Adrenalize&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Carl Cox",
+  "bio_fr": "Carl Andrew Cox est un DJ de club et de radio, propriétaire d'écurie de sport automobile et producteur britannique, né le 29 juillet 1962. Il joue de la house et de la techno et vit aujourd'hui à Frankston, dans l'État de Victoria en Australie.",
+  "bio_en": "Carl Andrew Cox is a British house and techno club DJ, radio DJ, motorsport team owner and record producer, born on 29 July 1962. He lives in Frankston, Victoria, Australia.",
+  "origin": "Royaume-Uni",
+  "commons": "https://commons.wikimedia.org/wiki/File:Carl_Cox_@_ADE_2012.jpg",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carl_Cox",
+   "https://api.discogs.com/database/search?artist=Carl+Cox&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "John Digweed",
+  "bio_fr": "John Digweed est un DJ et producteur britannique né en 1967 à Hastings. Il forme avec Sasha le duo Sasha & John Digweed, et le projet Bedrock avec Nick Muir. Il a été élu numéro un du classement DJ Mag en 2001. Sa discographie relève surtout de la progressive house et de la tech house.",
+  "bio_en": "John Digweed is a British DJ and producer born in 1967 in Hastings. He forms the duo Sasha & John Digweed with Sasha, and Bedrock with Nick Muir. He was voted No. 1 DJ in DJ Mag in 2001. His catalogue is mostly progressive house and tech house.",
+  "origin": "Hastings, Royaume-Uni",
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Digweed",
+   "https://api.discogs.com/database/search?artist=John+Digweed&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Octave One",
+  "bio_fr": "Octave One est un duo de producteurs américains de Detroit formé par les frères Burden. Leur catalogue relève de la techno de Detroit, avec des incursions house et deep house.",
+  "bio_en": "Octave One are an American production duo from Detroit made up of the Burden brothers. Their catalogue is Detroit techno, with house and deep house excursions.",
+  "origin": "Detroit, États-Unis",
+  "sources": [
+   "https://musicbrainz.org/artist/db856b35-33f2-4cf9-87cc-9e4e33772d40",
+   "https://api.discogs.com/database/search?artist=Octave+One&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Project One",
+  "bio_fr": "Project One est un projet hardstyle néerlandais réunissant Willem Rebergen (Headhunterz) et Joram Metekohy (Wildstylez), formé en 2008. Le duo a publié un album, un EP et plusieurs singles.",
+  "bio_en": "Project One is a Dutch hardstyle project pairing Willem Rebergen (Headhunterz) and Joram Metekohy (Wildstylez), formed in 2008. The duo has released an album, an EP and several singles.",
+  "origin": "Pays-Bas",
+  "since": 2008,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Project_One",
+   "https://musicbrainz.org/artist/a31c42d5-ca7d-4ecf-a324-d04ad09ea0d2"
+  ]
+ },
+ {
+  "name": "Pawlowski",
+  "bio_fr": "Pawlowski est un DJ et producteur français, représenté par l'agence parisienne Vesuve. Il commence à produire en 2017 avec le producteur VCL et publie son premier EP complet, Final Outsider, le 21 décembre 2023 sur KNTXT RPM. Sa musique puise dans la trance des années 1990, l'acid et la techno rapide.",
+  "bio_en": "Pawlowski is a French DJ and producer, represented by the Paris agency Vesuve. He started producing in 2017 with producer VCL and released his first full EP, Final Outsider, on 21 December 2023 on KNTXT RPM. His music draws on 1990s trance, acid and fast techno.",
+  "origin": "France",
+  "since": 2017,
+  "labels": [
+   "KNTXT RPM"
+  ],
+  "sources": [
+   "https://thesource.com/2024/02/05/mystery-dj-pawlowski-entrances-global-dance-scene/"
+  ]
+ },
+ {
+  "name": "Amor",
+  "bio_fr": "Amor est un duo français de DJs et producteurs formé par Julien Geloën (auparavant Blanc) et Darko. Le projet démarre en juin 2023 et signe chez Polydor (Universal Music France) en juillet 2025. Sa discographie tourne autour de l'afro house, avec le titre « Hasta Siempre » paru en juillet 2025, puis « Obsesion ».",
+  "bio_en": "Amor are a French DJ and production duo made up of Julien Geloën (previously Blanc) and Darko. The project started in June 2023 and signed to Polydor (Universal Music France) in July 2025. Their catalogue centres on afro house, with \"Hasta Siempre\" released in July 2025, then \"Obsesion\".",
+  "origin": "France",
+  "since": 2023,
+  "labels": [
+   "Polydor"
+  ],
+  "sources": [
+   "https://www.sxpress.fr/artiste/amor/"
+  ]
+ },
+ {
+  "name": "Liquidfive",
+  "bio_fr": "liquidfive est le nom de scène de Martin Maximilian Kotzur, DJ, producteur et auteur-compositeur allemand installé à Mülheim. Batteur d'un groupe formé en 2011 puis dissous en 2015, il poursuit seul depuis 2017 une musique qu'il décrit comme un mélange de house, d'electro et de pop.",
+  "bio_en": "liquidfive is the stage name of Martin Maximilian Kotzur, a German DJ, producer and songwriter based in Mülheim. Drummer in a band formed in 2011 and disbanded in 2015, he has worked solo since 2017 on what he describes as a mix of house, electro and pop.",
+  "origin": "Mülheim, Allemagne",
+  "since": 2017,
+  "sources": [
+   "https://rickyleepotts.com/2024/05/liquidfive-interview.html"
+  ]
+ },
+ {
+  "name": "Kloud",
+  "bio_fr": "KLOUD est un producteur et artiste électronique installé à Los Angeles. Il décrit sa musique comme un croisement entre sonorités électroniques classiques et production contemporaine, inspiré par la techno et la house sombres, l'electro et les synthétiseurs analogiques.",
+  "bio_en": "KLOUD is an electronic producer and artist based in Los Angeles. He describes his music as merging timeless electronic sounds with modern production, drawing on darker techno and house, electro and analogue synthesizers.",
+  "origin": "Los Angeles, États-Unis",
+  "sources": [
+   "https://wearekloud.bandcamp.com/"
+  ]
+ },
+ {
+  "name": "Michael Amani",
+  "bio_fr": "Michael Amani est un DJ, producteur et vidéaste belge. Son premier single, « Feels Like I Do », paraît en 2018 et fait de lui le premier artiste belge signé sur STMPD RCRDS, le label de Martin Garrix. Il s'est produit à Tomorrowland, Balaton Sound, Paaspop et Intents.",
+  "bio_en": "Michael Amani is a Belgian DJ, producer and video maker. His debut single \"Feels Like I Do\" came out in 2018 and made him the first Belgian artist signed to STMPD RCRDS, Martin Garrix's label. He has played Tomorrowland, Balaton Sound, Paaspop and Intents.",
+  "origin": "Belgique",
+  "since": 2018,
+  "labels": [
+   "STMPD RCRDS"
+  ],
+  "sources": [
+   "https://www.armadamusicpublishing.com/roster/michael-amani",
+   "https://musicbrainz.org/artist/f2ca2713-b1b3-4279-addb-abbb66093586"
+  ]
+ },
+ {
+  "name": "Audrey Danza",
+  "bio_fr": "Audrey Danza est une DJ, productrice et curatrice suisse, à la tête du label Proxima et résidente du Motel Campo à Genève. Son premier EP, Flora Formulas, pose une approche fondée sur la narration et l'exploration sonore. Elle a joué au Panorama Bar, au Robert Johnson, à Fabric et à Circoloco, ainsi qu'aux Nuits sonores et à Pitch Music & Arts.",
+  "bio_en": "Audrey Danza is a Swiss DJ, producer and curator, head of the Proxima label and a resident at Motel Campo in Geneva. Her debut EP, Flora Formulas, set out an approach built on storytelling and sonic exploration. She has played Panorama Bar, Robert Johnson, Fabric and Circoloco, as well as Nuits sonores and Pitch Music & Arts.",
+  "origin": "Genève, Suisse",
+  "labels": [
+   "Proxima"
+  ],
+  "sources": [
+   "https://www.omni-artists.co.uk/artists/audrey-danza",
+   "https://musicbrainz.org/artist/18f31cd0-631d-47a7-82b8-23488bececf6"
+  ]
+ },
+ {
+  "name": "Trym",
+  "bio_fr": "Trym, de son vrai nom Martin Drack, est un DJ et producteur français né en 1997 et formé à Paris. Sa percée date de 2019, avec un Boiler Room pour le collectif parisien Possession, dont il devient résident. Il dirige le label COLOR et joue une techno rapide à la lisière de la hard dance et de la hard trance.",
+  "bio_en": "Trym, real name Martin Drack, is a French DJ and producer born in 1997 and trained in Paris. His breakthrough came in 2019 with a Boiler Room for the Paris collective Possession, where he became a resident. He runs the COLOR label and plays fast techno on the edge of hard dance and hard trance.",
+  "origin": "Paris, France",
+  "since": 2019,
+  "labels": [
+   "COLOR"
+  ],
+  "sources": [
+   "https://www.connectedartists.com/artists/trym"
+  ]
+ },
+ {
+  "name": "Tauceti",
+  "bio_fr": "Tauceti est l'alias de Lilou Chelal, DJ, productrice et compositrice installée à Lyon et résidente du club Le Sucre. Batteuse avant de passer à l'électronique, elle produit une techno sombre, percussive et texturée doublée d'un versant ambient. Son EP Facing Herself in the Bathroom Mirror paraît sur Semantica, son premier album ambient sur Denovali, et elle publie aussi sur la série Weapons du label Raise.",
+  "bio_en": "Tauceti is the alias of Lilou Chelal, a DJ, producer and composer based in Lyon and a resident at Le Sucre. A drummer before moving to electronic music, she makes dark, percussive, textured techno alongside an ambient strand. Her EP Facing Herself in the Bathroom Mirror came out on Semantica, her first ambient album on Denovali, and she also appears on the Weapons series from the Raise label.",
+  "origin": "Lyon, France",
+  "labels": [
+   "Semantica",
+   "Denovali",
+   "Raise"
+  ],
+  "sources": [
+   "https://www.cyclicdefrost.com/2025/11/listen-to-a-premiere-of-lyon-based-taucetis-debut-album/",
+   "https://tribunedelyon.fr/culture/electro-lyon-tauceti/"
+  ]
+ },
+ {
+  "name": "NEGITIV",
+  "bio_fr": "NEGITIV est le nom de scène de Negir Paknia, DJ et productrice germano-iranienne installée à Cologne. Autodidacte, elle passe de la techno industrielle à un mélange de hard techno, de schranz et de groove. Elle tient une résidence au Kiesgrube et a joué à Tomorrowland, Blackworks et Verknipt.",
+  "bio_en": "NEGITIV is the stage name of Negir Paknia, a Persian-German DJ and producer based in Cologne. Self-taught, she moved from industrial techno to a mix of hard techno, schranz and groove. She holds a residency at Kiesgrube and has played Tomorrowland, Blackworks and Verknipt.",
+  "origin": "Cologne, Allemagne",
+  "sources": [
+   "https://negitiv.com/",
+   "https://yap-agency.com/roster/negitiv/"
+  ]
+ },
+ {
+  "name": "Raxeller",
+  "bio_fr": "Raxeller est un producteur néerlandais né à Alkmaar. Il produit ses premiers morceaux en 2010 en parallèle d'un emploi salarié, puis commence sa carrière de DJ en 2022. Sa musique relève de la techno industrielle rapide, aux atmosphères dystopiques et cinématographiques. Il a joué en tête d'affiche de Free Your Mind, Rotterdam Rave et Verknipt.",
+  "bio_en": "Raxeller is a Dutch producer born in Alkmaar. He made his first tracks in 2010 alongside a day job, then started DJing in 2022. His music is fast industrial techno with dystopian, cinematic atmospheres. He has headlined Free Your Mind, Rotterdam Rave and Verknipt.",
+  "origin": "Alkmaar, Pays-Bas",
+  "since": 2010,
+  "sources": [
+   "https://www.fazemag.de/raxeller-industrial-hardtechno-breakout-without-the-social-media-hype/",
+   "https://magneticmag.com/2025/07/interview-industrial-techno-artist-raxeller-sacred-court-revised-records-falsive-records/"
+  ]
+ },
+ {
+  "name": "Cynthia Spiering",
+  "bio_fr": "Cynthia Spiering est une DJ et productrice néerlandaise. Employée du Cultuurpodium Perron à Rotterdam, elle y découvre l'envers du décor et joue son premier set en 2016, à 18 ans. Ses sets tiennent des kicks durs et des sonorités rave et acid des années 1990. Elle fonde le label Courtoisy Records en 2019 et publie aussi sur Everyone On Acid et ERADYS.",
+  "bio_en": "Cynthia Spiering is a Dutch DJ and producer. Working at Rotterdam's Cultuurpodium Perron showed her the inner workings of the scene, and she played her first gig in 2016 at 18. Her sets pair hard kicks with 1990s rave and acid sounds. She founded the label Courtoisy Records in 2019 and also releases on Everyone On Acid and ERADYS.",
+  "origin": "Rotterdam, Pays-Bas",
+  "since": 2016,
+  "labels": [
+   "Courtoisy Records"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/cynthia-spiering/60216/"
+  ]
+ },
+ {
+  "name": "Nastia",
+  "bio_fr": "Nastia est le nom de scène d'Anastasia Topolska, DJ ukrainienne née en 1987 dans la région de Louhansk et installée à Amsterdam. Elle débute en 2005, devient résidente du festival Kazantip puis du club Arma17 à Moscou en 2010, cofonde le festival Strichka à Kyiv en 2014, et lance les labels Propaganda Records puis, en 2019, NECHTO.",
+  "bio_en": "Nastia is the stage name of Anastasia Topolska, a Ukrainian DJ born in 1987 in the Luhansk region and based in Amsterdam. She started in 2005, became a resident of the Kazantip festival and then of Moscow's Arma17 in 2010, co-founded the Strichka festival in Kyiv in 2014, and launched the labels Propaganda Records and, in 2019, NECHTO.",
+  "origin": "Ukraine",
+  "since": 2005,
+  "labels": [
+   "Propaganda Records",
+   "NECHTO"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Nastia_(Anastasia_Topolskaia)_Ukrainian_DJ.png",
+  "sources": [
+   "https://www.raw-people.com/artists/nastia"
+  ]
+ },
+ {
+  "name": "Main Phase",
+  "bio_fr": "Main Phase est le nom de scène d'Adam Emil Schierbeck, DJ et producteur danois de Copenhague. Il a appris le UK garage en écoutant Rinse FM, station où il anime aujourd'hui sa propre émission. Il codirige le label ATW Records avec Interplanetary Criminal et compte parmi les artistes de la deuxième vague de speed garage.",
+  "bio_en": "Main Phase is the stage name of Adam Emil Schierbeck, a Danish DJ and producer from Copenhagen. He learned UK garage listening to Rinse FM, the station he now broadcasts on himself. He co-owns the label ATW Records with Interplanetary Criminal and is one of the artists of the second wave of speed garage.",
+  "origin": "Copenhague, Danemark",
+  "labels": [
+   "ATW Records"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-main-phase/",
+   "https://www.rinse.fm/shows/main-phase"
+  ]
+ },
+ {
+  "name": "Roots Zombie",
+  "bio_fr": "Roots Zombie est un projet français né entre Paris et Bordeaux en 2009. Venu du punk, le duo qualifie sa musique d'« electro voodoo dub » : dub, bass music et jungle, avec des influences reggae, hip-hop et musiques traditionnelles. Il joue aussi bien en live sur scène qu'en sound system.",
+  "bio_en": "Roots Zombie is a French project started between Paris and Bordeaux in 2009. Coming from punk, the duo calls its music \"electro voodoo dub\": dub, bass music and jungle, with reggae, hip hop and traditional music influences. They play live on stage as well as on sound systems.",
+  "origin": "Bordeaux, France",
+  "since": 2009,
+  "sources": [
+   "https://rootszombie.bandcamp.com/",
+   "https://musicbrainz.org/artist/04f94a42-8a15-4769-95ae-5a679c8534a8"
+  ]
+ },
+ {
+  "name": "Luciano",
+  "bio_fr": "Lucien Nicolet, connu sous le nom de Luciano, est un DJ et producteur suisse et chilien né en 1978 à Montcherand. Ses sets sont marqués par les musiques latino-américaines. Parti du minimal techno, son style a évolué vers un mélange de house et de techno. Il a reçu une vingtaine de récompenses, dont les Ibiza DJ Awards.",
+  "bio_en": "Lucien Nicolet, known as Luciano, is a Swiss and Chilean DJ and producer born in 1978 in Montcherand. His DJ sets are strongly influenced by Latin American music. Starting from minimal techno, his style has evolved into a blend of house and techno. He has won around twenty awards, including the Ibiza DJ Awards.",
+  "origin": "Suisse / Chili",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Luciano_(DJ)"
+  ]
+ },
+ {
+  "name": "Black Coffee",
+  "bio_fr": "Nkosinathi Innocent Maphumulo, connu sous le nom de Black Coffee, est un DJ, producteur et auteur-compositeur sud-africain né le 11 mars 1976 à Durban. Il joue de la house, avec un versant afro house et deep house. Il a reçu huit South African Music Awards, quatre DJ Awards, deux Metro FM Awards et un Grammy Award du meilleur album dance/électronique.",
+  "bio_en": "Nkosinathi Innocent Maphumulo, known as Black Coffee, is a South African DJ, record producer and songwriter born on 11 March 1976 in Durban. He plays house, with an afro house and deep house strand. His accolades include eight South African Music Awards, four DJ Awards, two Metro FM Awards and a Grammy Award for Best Dance/Electronic Album.",
+  "origin": "Durban, Afrique du Sud",
+  "commons": "https://commons.wikimedia.org/wiki/File:Black_Coffee_perfoming_at_H%C3%AF_Ibiza_in_June_2018.jpg",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Black_Coffee_(DJ)",
+   "https://musicbrainz.org/artist/7fa03932-cd68-498f-aa4f-d4a6a2ce6071"
+  ]
+ },
+ {
+  "name": "Digitalism",
+  "bio_fr": "Digitalism est un duo électronique allemand formé à Hambourg en 2004 par Jens Moelle et İsmail Tüfekçi. Il est signé sur le label français Kitsuné, ainsi que sur Virgin Records et Astralwerks selon les territoires. Sa discographie relève surtout de l'electro et de la house, avec des incursions electroclash.",
+  "bio_en": "Digitalism are a German electronic duo formed in Hamburg in 2004 by Jens Moelle and İsmail Tüfekçi. They are signed to the French label Kitsuné, as well as Virgin Records and Astralwerks elsewhere. Their catalogue is mostly electro and house, with electroclash excursions.",
+  "origin": "Hambourg, Allemagne",
+  "since": 2004,
+  "labels": [
+   "Kitsuné"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Digitalism_(band)",
+   "https://api.discogs.com/database/search?artist=Digitalism&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Thylacine",
+  "bio_fr": "Thylacine est le nom de scène de William Rezé, musicien et compositeur français né le 13 août 1992 à Angers. Formé au conservatoire puis aux beaux-arts, saxophoniste, il compose de la musique électronique depuis 2012. Son premier album, Transsiberian (2015), a été enregistré à bord du Transsibérien entre Moscou et Vladivostok ; le suivant a été composé lors d'un voyage en Argentine.",
+  "bio_en": "Thylacine is the stage name of William Rezé, a French musician and composer born on 13 August 1992 in Angers. Trained at a conservatory then at art school, and a saxophonist, he has been making electronic music since 2012. His first album, Transsiberian (2015), was recorded aboard the Trans-Siberian railway between Moscow and Vladivostok; the follow-up was composed on a journey through Argentina.",
+  "origin": "Angers, France",
+  "since": 2012,
+  "commons": "https://commons.wikimedia.org/wiki/File:LesEscales2019Thylacine_02.jpg",
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Thylacine_(musicien)",
+   "https://musicbrainz.org/artist/e095407c-4103-4c66-b616-0dab1db05106"
+  ]
+ },
+ {
+  "name": "Sofia Kourtesis",
+  "bio_fr": "Sofia Kourtesis est une DJ et productrice péruvienne née le 18 août 1985 à Lima et installée à Berlin. Sa musique relève de la house, de la deep house et de la microhouse, avec des éléments latino-américains.",
+  "bio_en": "Sofia Kourtesis is a Peruvian DJ and producer born on 18 August 1985 in Lima and based in Berlin. Her music is house, deep house and microhouse, with Latin American elements.",
+  "origin": "Lima, Pérou",
+  "commons": "https://commons.wikimedia.org/wiki/File:Sofia_Kourtesis_en_vivo_en_el_Glastonbury_Festival,_Reino_Unido.jpg",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sofia_Kourtesis",
+   "https://musicbrainz.org/artist/2f8d2007-7666-45af-89d4-dec4921dce04",
+   "https://api.discogs.com/database/search?artist=Sofia+Kourtesis&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Damian Lazarus",
+  "bio_fr": "Damian Lazarus est un DJ et producteur britannique originaire de Londres. Son premier album, Smoke the Monster Out, paraît en mai 2009 après deux ans d'écriture. Sa discographie relève surtout de la tech house, de la house et de la deep house.",
+  "bio_en": "Damian Lazarus is a British DJ and electronic music producer from London. His first album, Smoke the Monster Out, came out in May 2009 after two years of writing. His catalogue is mostly tech house, house and deep house.",
+  "origin": "Londres, Royaume-Uni",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Damian_Lazarus",
+   "https://api.discogs.com/database/search?artist=Damian+Lazarus&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Dennis Cruz",
+  "bio_fr": "Denis de Galdo Troyano, connu sous le nom de Dennis Cruz, est un DJ et producteur espagnol né en 1983. Il produit depuis 2010 et travaille la tech house et la techno, avec des influences funk, dub et latines. Il a publié sur Saved, Deeperfect et Moon Harbour, et a créé ses propres labels.",
+  "bio_en": "Denis de Galdo Troyano, known as Dennis Cruz, is a Spanish DJ and record producer born in 1983. He has been producing since 2010, working in tech house and techno with funk, dub and Latin influences. He has released on Saved, Deeperfect and Moon Harbour, and founded his own labels.",
+  "origin": "Espagne",
+  "since": 2010,
+  "labels": [
+   "Saved",
+   "Deeperfect",
+   "Moon Harbour"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dennis_Cruz",
+   "https://api.discogs.com/database/search?artist=Dennis+Cruz&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Sasha",
+  "bio_fr": "Alexander Paul Coe, connu sous le nom de Sasha, est un DJ et producteur gallois né le 4 septembre 1969 à Bangor. Il forme avec John Digweed le duo Sasha & John Digweed. Sa discographie relève surtout de la progressive house et de la progressive trance.",
+  "bio_en": "Alexander Paul Coe, known as Sasha, is a Welsh DJ and record producer born on 4 September 1969 in Bangor. He forms the duo Sasha & John Digweed with John Digweed. His catalogue is mostly progressive house and progressive trance.",
+  "origin": "Bangor, Pays de Galles",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sasha_(DJ)",
+   "https://musicbrainz.org/artist/68be8273-cb12-4053-964d-157b7e5cf265",
+   "https://api.discogs.com/database/search?artist=Sasha&type=release&per_page=50"
+  ]
+ },
+ {
+  "name": "Bedouin",
+  "bio_fr": "Bedouin est un duo américain de Brooklyn formé en 2012 par Tamer Malki et Rami Abousabe. Il joue de la house, de la deep house et de la melodic house, et publie sur Crosstown Rebels, All Day I Dream, Circoloco Records et son propre label Human by Default. Le duo a signé deux Essential Mix sur BBC Radio 1, en 2016 et 2020.",
+  "bio_en": "Bedouin are an American duo from Brooklyn formed in 2012 by Tamer Malki and Rami Abousabe. They play house, deep house and melodic house, and release on Crosstown Rebels, All Day I Dream, Circoloco Records and their own imprint Human by Default. The duo recorded two BBC Radio 1 Essential Mixes, in 2016 and 2020.",
+  "origin": "Brooklyn, États-Unis",
+  "since": 2012,
+  "labels": [
+   "Human by Default",
+   "Crosstown Rebels",
+   "All Day I Dream"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bedouin_(DJs)"
+  ]
+ }
+]

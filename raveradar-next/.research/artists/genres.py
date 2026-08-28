@@ -14,8 +14,11 @@ Quatre entrées, par ordre d'autorité décroissante :
 
 1. `genres-*.json` — les lots des agents de recherche. Une source citée, lue par
    quelqu'un. Elle gagne toujours : c'est la seule qui ait pu trancher un homonyme.
-2. `harvest/wd.json` — Wikidata P136, rattaché par l'identifiant MusicBrainz (pas par
-   le nom : c'est ce qui évite l'homonyme).
+2. `harvest/wdlabel.json` et `harvest/wd.json` — Wikidata P136. Deux routes : par
+   libellé exact (soixante noms par requête, ce qui rend le catalogue faisable) et par
+   identifiant MusicBrainz (à l'abri de l'homonyme, mais MB étrangle à une requête par
+   seconde et par IP — dix-huit heures pour le catalogue, donc inutilisable seule).
+   La route par libellé refuse d'écrire quand deux entités portent le même nom.
 3. `harvest/mb.json` — les tags MusicBrainz, avec leur nombre de votes.
 3bis. `harvest/discogs.json` — les styles agrégés de la discographie, pondérés par
    leur part. C'est la source la plus fine sur le *sous-genre* : Discogs étiquette
@@ -100,7 +103,11 @@ def main() -> int:
     a = ap.parse_args()
 
     cat = load("catalogue")
-    lfm, mb, wd, dg = load("lastfm"), load("mb"), load("wd"), load("discogs")
+    lfm, mb, dg = load("lastfm"), load("mb"), load("discogs")
+    # Deux routes vers Wikidata : par identifiant MusicBrainz (sûre mais lente — MB
+    # étrangle) et par libellé (soixante noms par requête, tout le catalogue en une
+    # demi-heure). La seconde porte l'essentiel ; la première complète.
+    wd = {**load("wdlabel"), **{k: v for k, v in load("wd").items() if v.get("genres")}}
     by_name = {slugify(v["name"]): s for s, v in cat.items()}
 
     # --- 1. les lots des agents -------------------------------------------------
