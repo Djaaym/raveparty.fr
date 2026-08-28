@@ -1,0 +1,394 @@
+[
+ {
+  "slug": "andy-c",
+  "name": "Andy C",
+  "dates": 5,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fisher",
+  "name": "Fisher",
+  "dates": 5,
+  "genres_evenements": [
+   "EDM",
+   "Techno",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "camelphat",
+  "name": "CamelPhat",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fatima-hajji",
+  "name": "Fatima Hajji",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "joseph-capriati",
+  "name": "Joseph Capriati",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "stephan-bodzin",
+  "name": "Stephan Bodzin",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "EDM",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "adaro",
+  "name": "Adaro",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "bou",
+  "name": "Bou",
+  "dates": 3,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "eats-everything",
+  "name": "Eats Everything",
+  "dates": 3,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "hector-oaks",
+  "name": "Héctor Oaks",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "kolter",
+  "name": "Kolter",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mara",
+  "name": "Mara",
+  "dates": 3,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "slug": "oliver-magenta",
+  "name": "Oliver Magenta",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "prunk",
+  "name": "Prunk",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "rooler",
+  "name": "Rooler",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "vendex",
+  "name": "Vendex",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "aat",
+  "name": "AAT",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "alarico",
+  "name": "Alarico",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "anime",
+  "name": "AniMe",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "bella-claxton",
+  "name": "Bella Claxton",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "blnk",
+  "name": "BLNK",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "chicane",
+  "name": "Chicane",
+  "dates": 2,
+  "genres_evenements": [
+   "Trance",
+   "House"
+  ]
+ },
+ {
+  "slug": "dan-shake",
+  "name": "Dan Shake",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "dj-aligator",
+  "name": "DJ Aligator",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "Hard Techno",
+   "Hardcore",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "faithless",
+  "name": "Faithless",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Drum & Bass",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "groove-armada",
+  "name": "Groove Armada",
+  "dates": 2,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "joss-dean",
+  "name": "Joss Dean",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kode9",
+  "name": "Kode9",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ltj-bukem",
+  "name": "LTJ Bukem",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "marcellus-pittman",
+  "name": "Marcellus Pittman",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mk",
+  "name": "MK",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "nghtmre",
+  "name": "NGHTMRE",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "paramida",
+  "name": "Paramida",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "reinier-zonneveld",
+  "name": "Reinier Zonneveld",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ryan-elliott",
+  "name": "Ryan Elliott",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "shygirl",
+  "name": "Shygirl",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "spfdj",
+  "name": "SPFDJ",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "the-avener",
+  "name": "The Avener",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "ush",
+  "name": "USH",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "yung-lean-bladee",
+  "name": "Yung Lean & Bladee",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ }
+]

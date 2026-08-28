@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming, cardEvent, eventPath } from "@/lib/data";
-import { ARTISTS, artistGenres } from "@/lib/artists";
+import { ARTISTS, artistGenres, artistSubGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
 
 import { VENUES } from "@/lib/venues";
@@ -32,6 +32,17 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
      des libellés : "Hard Techno" écrit sur chaque ligne qui le joue, c'est le même
      kilo-octet répété des centaines de fois pour deux mots. */
   const gi = new Map(ALL_GENRES.map((g, i) => [g, i]));
+  /* Les sous-genres sont internés de la même façon, mais dans leur propre table : ils
+     ne sont pas des clés de GENRES (ils n'ont pas de page), et ils ne sont connus qu'à
+     l'exécution — d'où la table construite ici plutôt qu'une constante. */
+  const subLabels: string[] = [];
+  const si = new Map<string, number>();
+  const subIndex = (label: string): number => {
+    const hit = si.get(label);
+    if (hit !== undefined) return hit;
+    si.set(label, subLabels.push(label) - 1);
+    return subLabels.length - 1;
+  };
   const artistItems = ARTISTS.map((a) => ({
     slug: a.slug,
     name: a.name,
@@ -41,6 +52,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       .slice(0, 3)
       .map((g) => gi.get(g))
       .filter((i): i is number => i !== undefined),
+    sg: artistSubGenres(a).slice(0, 2).map(subIndex),
   }));
 
   /* La vraie « présentation » d'un artiste, c'est sa bio sourcée : on ne peut pas en
@@ -56,7 +68,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       const next = live
         .filter((e) => a.eventIds.includes(e.id))
         .sort((x, y) => x.date.localeCompare(y.date))[0];
-      return { a, bio, next, genres: artistGenres(a).slice(0, 4) };
+      return { a, bio, next, genres: [...artistGenres(a), ...artistSubGenres(a)].slice(0, 4) };
     });
   /* A CC BY photo may be reused *provided* the author and licence travel with it —
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
@@ -244,6 +256,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             artistsLabel={t("dyn.artists")}
             jumpLabel={t("artists.jump")}
             genres={ALL_GENRES}
+            subs={subLabels}
           />
 
           {credits.length > 0 && (

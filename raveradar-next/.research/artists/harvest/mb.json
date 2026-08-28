@@ -1,0 +1,2683 @@
+{
+ "999999999": {
+  "area": "Italy",
+  "begin": "2016",
+  "country": "IT",
+  "disambiguation": "minimalistic acid techno",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "fee18f64-e35c-4ca6-be78-605d73d0cefa",
+  "name": "999999999",
+  "tags": [],
+  "type": "Group"
+ },
+ "acid-arab": {
+  "found": false
+ },
+ "adam-beyer": {
+  "area": "Sweden",
+  "begin": "1976-05-15",
+  "country": "SE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "0d6daf47-0be9-44ee-a9e8-fb5a7b718538",
+  "name": "Adam Beyer",
+  "tags": [
+   [
+    "techno",
+    5
+   ],
+   [
+    "electronic",
+    3
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "tech-house",
+    1
+   ],
+   [
+    "acid techno",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "swedish techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "adrian-mills": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "24b97924-39eb-4e1d-a817-b2622fdeb339",
+  "name": "Adrian Mills",
+  "tags": [],
+  "type": "Person"
+ },
+ "adriatique": {
+  "found": false
+ },
+ "alignment": {
+  "area": "Berlin",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Berlin based Italian techno DJ/producer Francesco Pierfelici",
+  "ended": null,
+  "found": true,
+  "homonyms": 4,
+  "mbid": "9e5b7051-27ea-4e16-aef0-71dd40d044b5",
+  "name": "Alignment",
+  "tags": [
+   [
+    "techno",
+    3
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "rave",
+    1
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "dark techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "amelie-lens": {
+  "area": "Belgium",
+  "begin": "1990-05-31",
+  "country": "BE",
+  "disambiguation": "Belgian techno DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "67db280d-c3e4-49d9-978e-4050f4e209ef",
+  "name": "Amelie Lens",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "dance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "andy-c": {
+  "area": "Hornchurch",
+  "begin": "1976-04-07",
+  "country": null,
+  "disambiguation": "UK drum & bass DJ/producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 4,
+  "mbid": "ec853694-30a1-4c7e-84e6-4ca87ee3c314",
+  "name": "Andy C",
+  "tags": [
+   [
+    "drum and bass",
+    6
+   ],
+   [
+    "jungle",
+    3
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "afro house",
+    1
+   ],
+   [
+    "trap",
+    1
+   ],
+   [
+    "future bass",
+    1
+   ],
+   [
+    "dj tools",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "anetha": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": "French DJ/producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "152b8c1c-da0a-4175-8914-7e824fc8dc10",
+  "name": "Anetha",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "industrial techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "angerfist": {
+  "area": "Netherlands",
+  "begin": "1981-06-20",
+  "country": "NL",
+  "disambiguation": "Dutch hardcore techno producer and DJ Danny Masseling",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "91d8e441-73a6-48a6-aed1-2bef4da87799",
+  "name": "Angerfist",
+  "tags": [
+   [
+    "hardcore",
+    7
+   ],
+   [
+    "hardcore techno",
+    6
+   ],
+   [
+    "gabber",
+    6
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "nu style gabber",
+    1
+   ],
+   [
+    "edm",
+    -1
+   ]
+  ],
+  "type": "Person"
+ },
+ "apparat": {
+  "area": "Germany",
+  "begin": "1978-06-27",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "dc3dbfc1-f1f1-49c6-9d7c-425fabf3ae12",
+  "name": "Apparat",
+  "tags": [
+   [
+    "electronic",
+    4
+   ],
+   [
+    "idm",
+    4
+   ],
+   [
+    "ambient",
+    2
+   ],
+   [
+    "experimental",
+    2
+   ],
+   [
+    "soundtrack",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "hardcore",
+    1
+   ],
+   [
+    "german",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "glitch",
+    1
+   ],
+   [
+    "european",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "soundtracks",
+    1
+   ],
+   [
+    "album",
+    1
+   ],
+   [
+    "ambient electronic",
+    1
+   ],
+   [
+    "indie electronic",
+    1
+   ],
+   [
+    "experimental techno",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "stage & screen",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "songwriting",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "armand-van-helden": {
+  "area": "Manhattan",
+  "begin": "1970-02-16",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "b09b5127-c62e-4bb2-b790-1e4aa18749ed",
+  "name": "Armand van Helden",
+  "tags": [
+   [
+    "house",
+    7
+   ],
+   [
+    "electronic",
+    3
+   ],
+   [
+    "disco house",
+    2
+   ],
+   [
+    "dance and electronica",
+    2
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "bass",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "funky house",
+    1
+   ],
+   [
+    "uk garage",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "garage",
+    1
+   ],
+   [
+    "garage house",
+    1
+   ],
+   [
+    "speed garage",
+    1
+   ],
+   [
+    "bassline",
+    1
+   ],
+   [
+    "house music",
+    1
+   ],
+   [
+    "akai s1000 timestretch",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "armin-van-buuren": {
+  "area": "Netherlands",
+  "begin": "1976-12-25",
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "477b8c0c-c5fc-4ad2-b5b2-191f0bf2a9df",
+  "name": "Armin van Buuren",
+  "tags": [
+   [
+    "trance",
+    16
+   ],
+   [
+    "progressive trance",
+    8
+   ],
+   [
+    "uplifting trance",
+    7
+   ],
+   [
+    "dance",
+    6
+   ],
+   [
+    "vocal trance",
+    4
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "dance-pop",
+    2
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "psytrance",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "serenity",
+    1
+   ],
+   [
+    "afro house",
+    1
+   ],
+   [
+    "melodic trance",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "dj tools",
+    1
+   ],
+   [
+    "hardcore",
+    0
+   ],
+   [
+    "seen live",
+    0
+   ],
+   [
+    "dutch",
+    0
+   ],
+   [
+    "dance and electronica",
+    0
+   ],
+   [
+    "best of",
+    0
+   ],
+   [
+    "dutch trance",
+    0
+   ],
+   [
+    "many names",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "autechre": {
+  "area": "England",
+  "begin": "1991",
+  "country": null,
+  "disambiguation": "electronic music duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "410c9baf-5469-44f6-9852-826524b80c61",
+  "name": "Autechre",
+  "tags": [
+   [
+    "idm",
+    21
+   ],
+   [
+    "electronic",
+    18
+   ],
+   [
+    "experimental",
+    15
+   ],
+   [
+    "glitch",
+    10
+   ],
+   [
+    "ambient techno",
+    7
+   ],
+   [
+    "abstract",
+    6
+   ],
+   [
+    "warp",
+    5
+   ],
+   [
+    "generative music",
+    4
+   ],
+   [
+    "experimental electronic",
+    3
+   ],
+   [
+    "electronica",
+    2
+   ],
+   [
+    "instrumental",
+    1
+   ],
+   [
+    "avant-garde",
+    1
+   ],
+   [
+    "drill and bass",
+    1
+   ],
+   [
+    "british",
+    0
+   ],
+   [
+    "uk",
+    0
+   ],
+   [
+    "english",
+    0
+   ],
+   [
+    "dance and electronica",
+    0
+   ],
+   [
+    "glitch hop",
+    0
+   ],
+   [
+    "mutachre",
+    0
+   ]
+  ],
+  "type": "Group"
+ },
+ "ben-klock": {
+  "area": "Germany",
+  "begin": "1972",
+  "country": "DE",
+  "disambiguation": "German techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c5af0c3f-e401-43ed-a096-b504606a05cb",
+  "name": "Ben Klock",
+  "tags": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "ben-sims": {
+  "area": "London",
+  "begin": "1974-05-31",
+  "country": null,
+  "disambiguation": "UK techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "bfdd55cf-82e6-4fad-95f6-135136da25d6",
+  "name": "Ben Sims",
+  "tags": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "hardgroove techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "ben-ufo": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "d355730f-895c-4a9a-951b-d36c3b16a8a2",
+  "name": "Ben UFO",
+  "tags": [
+   [
+    "house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "dj",
+    1
+   ],
+   [
+    "uk bass",
+    1
+   ],
+   [
+    "post-dubstep",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "benny-rodrigues": {
+  "found": false
+ },
+ "bob-sinclar": {
+  "area": "France",
+  "begin": "1969-05-10",
+  "country": "FR",
+  "disambiguation": "French record producer, house music DJ & remixer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f9ab44f1-7b19-4ecb-830c-403abcf36cd1",
+  "name": "Bob Sinclar",
+  "tags": [
+   [
+    "house",
+    2
+   ],
+   [
+    "electro house",
+    2
+   ],
+   [
+    "french house",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "dance-pop",
+    1
+   ],
+   [
+    "hip house",
+    1
+   ],
+   [
+    "dance and electronica",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "boris-brejcha": {
+  "area": "Germany",
+  "begin": "1981-11-26",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "ae0d1794-c9d3-4436-94fc-ceff6130da2c",
+  "name": "Boris Brejcha",
+  "tags": [
+   [
+    "minimal techno",
+    6
+   ],
+   [
+    "tech house",
+    3
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "techno",
+    2
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "calvin-harris": {
+  "area": "Scotland",
+  "begin": "1984-01-17",
+  "country": null,
+  "disambiguation": "Scottish DJ and producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+  "name": "Calvin Harris",
+  "tags": [
+   [
+    "dance-pop",
+    7
+   ],
+   [
+    "electronic",
+    6
+   ],
+   [
+    "edm",
+    6
+   ],
+   [
+    "electropop",
+    5
+   ],
+   [
+    "electro house",
+    4
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "nu disco",
+    3
+   ],
+   [
+    "nu-disco",
+    3
+   ],
+   [
+    "pop",
+    2
+   ],
+   [
+    "dance",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "synth-pop",
+    2
+   ],
+   [
+    "uk garage",
+    2
+   ],
+   [
+    "club",
+    2
+   ],
+   [
+    "funktronica",
+    2
+   ],
+   [
+    "uk hip hop",
+    2
+   ],
+   [
+    "2010s",
+    2
+   ],
+   [
+    "melodic techno",
+    2
+   ],
+   [
+    "melodic house",
+    2
+   ],
+   [
+    "festival progressive house",
+    2
+   ],
+   [
+    "late 2000s",
+    2
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "hip house",
+    1
+   ],
+   [
+    "dance and electronica",
+    1
+   ],
+   [
+    "electronic pop",
+    1
+   ],
+   [
+    "contemporary r&b",
+    1
+   ],
+   [
+    "complextro",
+    1
+   ],
+   [
+    "electro-disco",
+    1
+   ],
+   [
+    "ibiza trance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "carl-craig": {
+  "area": "United States",
+  "begin": "1969-05-22",
+  "country": "US",
+  "disambiguation": "Detroit‐based techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "6732e9f3-5f24-4ba4-aef1-a2a49442b96b",
+  "name": "Carl Craig",
+  "tags": [
+   [
+    "detroit techno",
+    2
+   ],
+   [
+    "techno",
+    2
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "remix",
+    1
+   ],
+   [
+    "jazz",
+    0
+   ],
+   [
+    "classical",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "charlotte-de-witte": {
+  "area": "Belgium",
+  "begin": "1992-07-21",
+  "country": "BE",
+  "disambiguation": "formerly Raving George",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "1de4e373-e597-4087-bf3d-256ec597749e",
+  "name": "Charlotte de Witte",
+  "tags": [
+   [
+    "techno",
+    4
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "peak time techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "chris-stussy": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": "NL | electronic",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "5b7f4511-1764-4d80-83b5-8c150f4636c5",
+  "name": "Chris Stussy",
+  "tags": [],
+  "type": "Person"
+ },
+ "clara-cuve": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f82c97fb-0c5b-4ed7-8c4d-57648b8e5045",
+  "name": "Clara Cuvé",
+  "tags": [],
+  "type": "Person"
+ },
+ "coone": {
+  "area": "Belgium",
+  "begin": "1983-05-30",
+  "country": "BE",
+  "disambiguation": "Belgian hardstyle & jumpstyle DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8ec5439a-ff50-4b0f-9e75-fc3e517e75ff",
+  "name": "Coone",
+  "tags": [
+   [
+    "hardstyle",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "jumpstyle",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "d-block-s-te-fan": {
+  "area": "Netherlands",
+  "begin": "2004-09",
+  "country": "NL",
+  "disambiguation": "Dutch duo, aka DBSTF",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c81fd471-e2bd-4c7e-9b0a-fd893e74e523",
+  "name": "D‐Block & S‐te‐Fan",
+  "tags": [
+   [
+    "hardstyle",
+    4
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "happy hardcore",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "dax-j": {
+  "area": "Berlin",
+  "begin": "1990",
+  "country": null,
+  "disambiguation": "Electronic music DJ and producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8a860182-6587-4bc3-b578-88e56424b6dc",
+  "name": "Dax J",
+  "tags": [
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "digitalism": {
+  "area": "Germany",
+  "begin": "2004",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "7b52603c-a84c-4a76-8dc8-899bb4dd9fa7",
+  "name": "Digitalism",
+  "tags": [
+   [
+    "electro house",
+    3
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "germany",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "electroclash",
+    1
+   ],
+   [
+    "french house",
+    1
+   ],
+   [
+    "new rave",
+    1
+   ],
+   [
+    "synthwave",
+    1
+   ],
+   [
+    "nate dogg",
+    1
+   ],
+   [
+    "techno.",
+    1
+   ],
+   [
+    "electronicrock",
+    1
+   ],
+   [
+    "electronichouse",
+    1
+   ],
+   [
+    "alternativedance",
+    1
+   ],
+   [
+    "indie",
+    0
+   ],
+   [
+    "rock and indie",
+    0
+   ]
+  ],
+  "type": "Group"
+ },
+ "disclosure": {
+  "area": "United Kingdom",
+  "begin": "2010",
+  "country": "GB",
+  "disambiguation": "UK electronic duo Guy & Howard Lawrence",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "ae65c507-d9a0-4d42-9a6c-2b1f82158b9f",
+  "name": "Disclosure",
+  "tags": [
+   [
+    "house",
+    4
+   ],
+   [
+    "uk garage",
+    4
+   ],
+   [
+    "electronic",
+    3
+   ],
+   [
+    "future garage",
+    3
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "bass",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "dance-pop",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "garage",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "bassline",
+    1
+   ],
+   [
+    "uk funky",
+    1
+   ],
+   [
+    "house music",
+    1
+   ],
+   [
+    "afro house",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "bass house",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "synthpop",
+    0
+   ]
+  ],
+  "type": "Group"
+ },
+ "dual-damage": {
+  "area": "Netherlands",
+  "begin": "2016-01-01",
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "5d1f84d4-d0d5-4a4f-ada2-97be757628d4",
+  "name": "Dual Damage",
+  "tags": [],
+  "type": "Group"
+ },
+ "dusky": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "9feea1d6-3e4e-4d3c-b84a-87a12f7cbf94",
+  "name": "Dusky",
+  "tags": [
+   [
+    "deep house",
+    1
+   ],
+   [
+    "electronic music",
+    1
+   ],
+   [
+    "=",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "ellen-allien": {
+  "area": "Germany",
+  "begin": "1969",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "2ff63f00-0954-4b14-9007-e19b822fc8b2",
+  "name": "Ellen Allien",
+  "tags": [
+   [
+    "techno",
+    4
+   ],
+   [
+    "minimal techno",
+    4
+   ],
+   [
+    "acid techno",
+    4
+   ],
+   [
+    "electronic",
+    3
+   ],
+   [
+    "german",
+    2
+   ],
+   [
+    "european",
+    2
+   ]
+  ],
+  "type": "Person"
+ },
+ "enzo-siragusa": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c4f8d8b1-253f-4852-b797-72514b545067",
+  "name": "Enzo Siragusa",
+  "tags": [],
+  "type": "Person"
+ },
+ "eric-prydz": {
+  "found": false
+ },
+ "fakear": {
+  "area": "France",
+  "begin": "1991-05-13",
+  "country": "FR",
+  "disambiguation": "French DJ/producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "7c707d22-1c9c-4e72-bc8d-640baa5e2ba5",
+  "name": "Fakear",
+  "tags": [
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "wonky",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "indietronica",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "abstract hip-hop",
+    0
+   ],
+   [
+    "nu-jazz",
+    0
+   ],
+   [
+    "ambient",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "fisher": {
+  "area": "United States",
+  "begin": null,
+  "country": "US",
+  "disambiguation": "trance/EDM singer/songwriter Kathy Fisher",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "cd60bab0-e08b-4bda-9f49-785450f955e9",
+  "name": "Fisher",
+  "tags": [
+   [
+    "vocal trance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "folamour": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": "French DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6aa08af3-d00b-4de9-afa0-96aa1decad9e",
+  "name": "Folamour",
+  "tags": [],
+  "type": "Person"
+ },
+ "four-tet": {
+  "area": "United Kingdom",
+  "begin": "1977-09",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "3bcff06f-675a-451f-9075-99e8657047e8",
+  "name": "Four Tet",
+  "tags": [
+   [
+    "electronic",
+    9
+   ],
+   [
+    "downtempo",
+    4
+   ],
+   [
+    "idm",
+    4
+   ],
+   [
+    "folktronica",
+    3
+   ],
+   [
+    "british",
+    2
+   ],
+   [
+    "english",
+    2
+   ],
+   [
+    "microhouse",
+    2
+   ],
+   [
+    "post-rock",
+    1
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "uk",
+    1
+   ],
+   [
+    "indie rock",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "trip hop",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "indietronica",
+    1
+   ],
+   [
+    "future garage",
+    1
+   ],
+   [
+    "post-dubstep",
+    1
+   ],
+   [
+    "rock and indie",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "hilight-tribe": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "1c8f8ab5-ba03-4aa6-9eab-850e1d3a2ff7",
+  "name": "Hilight Tribe",
+  "tags": [
+   [
+    "trance",
+    3
+   ],
+   [
+    "electronic",
+    2
+   ],
+   [
+    "french",
+    2
+   ],
+   [
+    "live",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "honey-dijon": {
+  "area": "Chicago",
+  "begin": null,
+  "country": null,
+  "disambiguation": "house producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "740c6238-3f5d-4e63-8836-826ad6c611ab",
+  "name": "Honey Dijon",
+  "tags": [
+   [
+    "house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "i-hate-models": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": "techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f9a4de7f-d3c6-4de8-8892-7aca52610edd",
+  "name": "I Hate Models",
+  "tags": [
+   [
+    "techno",
+    3
+   ]
+  ],
+  "type": "Person"
+ },
+ "ilario-alicante": {
+  "area": "Italy",
+  "begin": "1988",
+  "country": "IT",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f1ea7840-95a4-4798-945f-140b8af5b208",
+  "name": "Ilario Alicante",
+  "tags": [],
+  "type": "Person"
+ },
+ "indira-paganotto": {
+  "area": "Spain",
+  "begin": "1992-05-30",
+  "country": "ES",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f42c4a7a-f582-4dd2-aa73-819e09f578a1",
+  "name": "Indira Paganotto",
+  "tags": [
+   [
+    "psytrance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "jamie-jones": {
+  "area": "United Kingdom",
+  "begin": "1980",
+  "country": "GB",
+  "disambiguation": "UK techno/house DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "06f4a88c-72d1-480b-a786-fd41e534a876",
+  "name": "Jamie Jones",
+  "tags": [
+   [
+    "tech house",
+    3
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "indie dance",
+    1
+   ],
+   [
+    "uk garage",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "tech-house",
+    1
+   ],
+   [
+    "bassline",
+    1
+   ],
+   [
+    "afro house",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "deep tech",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "jayda-g": {
+  "area": "London",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Canadian producer and DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "b6ba12ae-1304-46b3-b96b-9be22dbdab4a",
+  "name": "Jayda G",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "dance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "jeff-mills": {
+  "area": "United States",
+  "begin": "1963-06-18",
+  "country": "US",
+  "disambiguation": "Detroit based DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "470a4ced-1323-4c91-8fd5-0bb3fb4c932a",
+  "name": "Jeff Mills",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "detroit techno",
+    2
+   ],
+   [
+    "dance and electronica",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "joachim-pastor": {
+  "found": false
+ },
+ "joris-delacroix": {
+  "area": "France",
+  "begin": "1987",
+  "country": "FR",
+  "disambiguation": "French house DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f2c454ec-69a2-49a7-a79c-eaabef25ba44",
+  "name": "Joris Delacroix",
+  "tags": [],
+  "type": "Person"
+ },
+ "joris-voorn": {
+  "area": "Netherlands",
+  "begin": "1977-02-25",
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "df3f8407-f82b-4cf6-9145-6e09f9e79b85",
+  "name": "Joris Voorn",
+  "tags": [
+   [
+    "house",
+    2
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "detroit techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "kettama": {
+  "area": "Ireland",
+  "begin": "1997-05-30",
+  "country": "IE",
+  "disambiguation": "IE | electronic",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "e457531c-4add-45f0-9998-f65ec53a305c",
+  "name": "KETTAMA",
+  "tags": [],
+  "type": "Person"
+ },
+ "klangkuenstler": {
+  "area": "Berlin",
+  "begin": "1990",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "dc60d275-d4d1-4bf2-b32c-4aa2332d7459",
+  "name": "Klangkuenstler",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "dark techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "kobosil": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "c6b2c2c3-e771-4228-9401-b263369d5b48",
+  "name": "Kobosil",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "industrial techno",
+    2
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "kruelty": {
+  "area": "Japan",
+  "begin": "2017",
+  "country": "JP",
+  "disambiguation": "Japanese metal band",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "b2f912bf-2991-4798-94a9-fa7074c4ff01",
+  "name": "Kruelty",
+  "tags": [
+   [
+    "death doom metal",
+    1
+   ],
+   [
+    "death metal",
+    1
+   ],
+   [
+    "doom metal",
+    1
+   ],
+   [
+    "hardcore punk",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "la-p-tite-fumee": {
+  "found": false
+ },
+ "lane-8": {
+  "area": "United States",
+  "begin": "1990-10-27",
+  "country": "US",
+  "disambiguation": "US | DJ, electronic music",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "bd052b81-353a-4bce-8cd8-72ba9d4ce414",
+  "name": "Lane 8",
+  "tags": [
+   [
+    "deep house",
+    2
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "disco",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "len-faki": {
+  "area": "Berlin",
+  "begin": "1975-06-22",
+  "country": null,
+  "disambiguation": "Levent Faki",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "220f98db-2c1a-4c0c-a2d6-eebcc139d53c",
+  "name": "Len Faki",
+  "tags": [],
+  "type": "Person"
+ },
+ "marcel-dettmann": {
+  "area": "Berlin",
+  "begin": "1977-10-28",
+  "country": null,
+  "disambiguation": "German techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6d7238a1-f0bc-4408-93fc-8ec64c06f7af",
+  "name": "Marcel Dettmann",
+  "tags": [
+   [
+    "minimal techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "max-cooper": {
+  "area": "United Kingdom",
+  "begin": "1980-05-19",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "2d68f237-4e00-424a-a03e-d16993d1da15",
+  "name": "Max Cooper",
+  "tags": [
+   [
+    "techno",
+    3
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "miss-k8": {
+  "area": "Kyïv",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "897be100-4719-4b8b-8e17-d373ae728e9b",
+  "name": "Miss K8",
+  "tags": [],
+  "type": "Person"
+ },
+ "miss-monique": {
+  "area": "Kyïv",
+  "begin": "1992-05-05",
+  "country": null,
+  "disambiguation": "Ukrainian trance artist Alesia Arkusha",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "167f05d9-c9d2-48b5-977d-98d7c78834f8",
+  "name": "Miss Monique",
+  "tags": [
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "trance",
+    2
+   ],
+   [
+    "melodic techno",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "melodic trance",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "moodymann": {
+  "found": false
+ },
+ "nico-moreno": {
+  "area": "France",
+  "begin": null,
+  "country": "FR",
+  "disambiguation": "French DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "82f2714c-f532-482a-859a-5b170901f9e9",
+  "name": "Nico Moreno",
+  "tags": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "industrial techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "nikolina": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "71b44377-7e79-4461-850c-660f409bd047",
+  "name": "Nikolina",
+  "tags": [],
+  "type": null
+ },
+ "nina-kraviz": {
+  "area": "Russia",
+  "begin": "1989-09-15",
+  "country": "RU",
+  "disambiguation": "Russian DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "5dd3cf5b-474d-465a-a539-456d7e125ebc",
+  "name": "Nina Kraviz",
+  "tags": [],
+  "type": "Person"
+ },
+ "novah": {
+  "found": false
+ },
+ "nto": {
+  "area": "France",
+  "begin": "1985",
+  "country": "FR",
+  "disambiguation": "French producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "619f53fa-0f28-4f02-a313-9078979fd04c",
+  "name": "NTO",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "producer",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "overmono": {
+  "area": "London",
+  "begin": "2015",
+  "country": null,
+  "disambiguation": "brothers Tom & Ed Russell (Truss & Tessela)",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "b841d0f2-0a2a-4cb2-a2d8-9895b7f90bfa",
+  "name": "Overmono",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "uk garage",
+    1
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "paul-kalkbrenner": {
+  "area": "Germany",
+  "begin": "1977-06-12",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "a5f92d47-b562-4582-b267-71963a515f4c",
+  "name": "Paul Kalkbrenner",
+  "tags": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "electronica",
+    2
+   ],
+   [
+    "downbeat",
+    2
+   ],
+   [
+    "minimal techno",
+    2
+   ],
+   [
+    "germany",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "prospa": {
+  "area": "Leeds",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Leeds-based electronic duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "4c3cffca-37b7-4ecd-9320-e6dcc2cb837a",
+  "name": "Prospa",
+  "tags": [],
+  "type": "Group"
+ },
+ "richie-hawtin": {
+  "area": "Canada",
+  "begin": "1970-06-04",
+  "country": "CA",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "76da816f-ea05-4172-ad9e-ffb69c32199f",
+  "name": "Richie Hawtin",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "techno",
+    2
+   ],
+   [
+    "minimal techno",
+    2
+   ],
+   [
+    "british",
+    1
+   ],
+   [
+    "canadian",
+    1
+   ],
+   [
+    "uk",
+    1
+   ],
+   [
+    "english",
+    1
+   ],
+   [
+    "dance and electronica",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "sara-landry": {
+  "area": "United States",
+  "begin": null,
+  "country": "US",
+  "disambiguation": "techno DJ and producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "e7891efe-8326-4b04-bbc4-1271da101932",
+  "name": "Sara Landry",
+  "tags": [
+   [
+    "techno",
+    3
+   ],
+   [
+    "psytrance",
+    3
+   ],
+   [
+    "acid techno",
+    3
+   ],
+   [
+    "hard techno",
+    3
+   ],
+   [
+    "industrial techno",
+    3
+   ]
+  ],
+  "type": "Person"
+ },
+ "seth-troxler": {
+  "area": "United States",
+  "begin": "1986",
+  "country": "US",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "d701634c-95a1-4244-92d6-903113bd79d3",
+  "name": "Seth Troxler",
+  "tags": [
+   [
+    "house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "minimal",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "solomun": {
+  "area": "Bosnia and Herzegovina",
+  "begin": "1975",
+  "country": "BA",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "dff718ca-db66-4ce5-98b3-9585935b3dd1",
+  "name": "Solomun",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "edm",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "sven-vath": {
+  "area": "Germany",
+  "begin": "1964-10-26",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "14008378-5900-4370-831e-3d17f9749caf",
+  "name": "Sven Väth",
+  "tags": [
+   [
+    "trance",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "teho": {
+  "area": "Montpellier",
+  "begin": null,
+  "country": null,
+  "disambiguation": "Electronic Music Producer \"Theo Vicente\" from Montpellier, France.",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "aba439cf-cc1a-412e-bb46-a5e57a24d880",
+  "name": "Teho",
+  "tags": [],
+  "type": "Person"
+ },
+ "thylacine": {
+  "area": "France",
+  "begin": "1992-08-13",
+  "country": "FR",
+  "disambiguation": "French musician William Rezé",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "e095407c-4103-4c66-b616-0dab1db05106",
+  "name": "Thylacine",
+  "tags": [
+   [
+    "genius",
+    1
+   ],
+   [
+    "génie",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "tiesto": {
+  "found": false
+ },
+ "vladimir-cauchemar": {
+  "area": "France",
+  "begin": "1978-12-17",
+  "country": "FR",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "fb5b5da8-61f3-445e-8e2d-f9873b330b13",
+  "name": "Vladimir Cauchemar",
+  "tags": [
+   [
+    "hip hop",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "warface": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": "hardstyle duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "9fae3758-c9e7-4645-8680-4247ef467401",
+  "name": "Warface",
+  "tags": [
+   [
+    "hardstyle",
+    2
+   ]
+  ],
+  "type": "Group"
+ }
+}

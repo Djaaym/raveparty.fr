@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { artistBySlug, eventsForArtist, relatedArtists } from "@/lib/artists";
+import { artistBySlug, artistGenres, artistSubGenres, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, cardEvent } from "@/lib/data";
 import { PLACES } from "@/lib/places";
@@ -29,6 +29,12 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const live = events.filter((e) => !isPast(e, today));
   const done = events.filter((e) => isPast(e, today));
   const related = relatedArtists(artist, 12);
+  /* Les genres attribués, pas l'union brute de `Artist.genres` : cette page affichait
+     tous les styles de toutes les affiches où l'artiste apparaît, ce qui mettait de la
+     psytrance sur une fiche de techno industrielle. Les sous-genres viennent d'à côté
+     et ne sont pas des liens — ils n'ont pas de page. */
+  const genres = artistGenres(artist);
+  const subs = artistSubGenres(artist);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
   // Cities the artist plays that we actually have a page for — links the artist mesh
   // into the geographic mesh without pointing at routes that don't exist.
@@ -58,7 +64,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
     <>
       <JsonLd
         data={[
-          artistJsonLd(artist.name, artist.slug, live, lang, sameAs(social)),
+          artistJsonLd(artist.name, artist.slug, live, lang, sameAs(social), [...genres, ...subs]),
           breadcrumbJsonLd(trail, lang),
         ]}
       />
@@ -128,10 +134,15 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />
 
           <div className="card-meta" style={{ marginTop: 16 }}>
-            {artist.genres.map((g) => (
+            {genres.map((g) => (
               <Link key={g} href={`${p}/genres/${genreSlug(g)}`} className="gpill">
                 {g}
               </Link>
+            ))}
+            {subs.map((g) => (
+              <span key={g} className="gpill gpill-sub">
+                {g}
+              </span>
             ))}
           </div>
 

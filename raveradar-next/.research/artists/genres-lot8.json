@@ -1,0 +1,58 @@
+[
+ {
+  "name": "Apparat",
+  "main": ["Techno"],
+  "sub": ["Ambient", "IDM", "Downtempo"],
+  "sources": ["https://en.wikipedia.org/wiki/Apparat_(musician)", "https://api.discogs.com/database/search?artist=Apparat&type=release"],
+  "confidence": "high"
+ },
+ {
+  "name": "Indira Paganotto",
+  "main": ["Psytrance", "Techno", "Hard Techno"],
+  "sub": ["Psy-Trance Techno"],
+  "sources": ["https://en.wikipedia.org/wiki/Indira_Paganotto", "https://musicbrainz.org/ws/2/artist/?query=artist:Indira%20Paganotto&fmt=json", "https://api.discogs.com/database/search?artist=Indira+Paganotto&type=release"],
+  "confidence": "high"
+ },
+ {
+  "name": "Christian Löffler",
+  "main": ["House", "Techno"],
+  "sub": ["Deep House", "Ambient", "Downtempo"],
+  "sources": ["https://en.wikipedia.org/wiki/Christian_L%C3%B6ffler", "https://api.discogs.com/database/search?artist=Christian+L%C3%B6ffler&type=release"],
+  "confidence": "high"
+ },
+ {
+  "name": "FJAAK",
+  "main": ["Techno"],
+  "sub": ["Breakbeat", "Electro", "Acid"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:FJAAK&fmt=json", "https://api.discogs.com/database/search?artist=FJAAK&type=release"],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mathame",
+  "main": ["Techno"],
+  "sub": ["Melodic Techno", "Progressive House"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Mathame&fmt=json", "https://api.discogs.com/database/search?artist=Mathame&type=release"],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sub Zero Project",
+  "main": ["Hardstyle"],
+  "sub": ["Rawstyle"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Sub%20Zero%20Project&fmt=json", "https://api.discogs.com/database/search?artist=Sub+Zero+Project&type=release"],
+  "confidence": "high"
+ },
+ {
+  "name": "Call Super",
+  "main": ["Techno", "House"],
+  "sub": ["Deep House", "Minimal Techno", "Ambient"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Call%20Super&fmt=json", "https://api.discogs.com/database/search?artist=Call+Super&type=release"],
+  "confidence": "medium"
+ },
+ {
+  "name": "Horse Meat Disco",
+  "main": ["House"],
+  "sub": ["Disco", "Nu-Disco"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Horse%20Meat%20Disco&fmt=json", "https://api.discogs.com/database/search?artist=Horse+Meat+Disco&type=release"],
+  "confidence": "high"
+ }
+]

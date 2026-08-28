@@ -1,0 +1,395 @@
+[
+ {
+  "slug": "seth-troxler",
+  "name": "Seth Troxler",
+  "dates": 7,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "carl-craig",
+  "name": "Carl Craig",
+  "dates": 5,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "lane-8",
+  "name": "Lane 8",
+  "dates": 5,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "dave-clarke",
+  "name": "Dave Clarke",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "g-ha-olanskii",
+  "name": "g-HA & Olanskii",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "octo-octa",
+  "name": "Octo Octa",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "timmy-trumpet",
+  "name": "Timmy Trumpet",
+  "dates": 4,
+  "genres_evenements": [
+   "EDM",
+   "Hardstyle",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "axwell",
+  "name": "Axwell",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "cedric",
+  "name": "Cédric",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "etienne-de-crecy",
+  "name": "Etienne de Crécy",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jasmine-not-jafar",
+  "name": "Jasmine Not Jafar",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "lieks",
+  "name": "LIEKS",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mrak",
+  "name": "MRAK",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "partyraiser",
+  "name": "Partyraiser",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "radical-redemption",
+  "name": "Radical Redemption",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sherelle",
+  "name": "Sherelle",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "2hot2play",
+  "name": "2HOT2PLAY",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "adam-ten",
+  "name": "Adam Ten",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "alycia-bezgo",
+  "name": "Alycia Bezgo",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "argy",
+  "name": "Argy",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "benga",
+  "name": "Benga",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "busy-p",
+  "name": "Busy P",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "cinthie",
+  "name": "Cinthie",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "darrell-pulse",
+  "name": "Darrell Pulse",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "dj-isaac",
+  "name": "DJ Isaac",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "fox-stevenson",
+  "name": "Fox Stevenson",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Psytrance",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "isabel-soto",
+  "name": "Isabel Soto",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "kamafaka",
+  "name": "Kamafaka",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "laurent-garnier",
+  "name": "Laurent Garnier",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "luuk-van-dijk",
+  "name": "Luuk Van Dijk",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "melvo-baptiste",
+  "name": "Melvo Baptiste",
+  "dates": 2,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "muzz",
+  "name": "Muzz",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Psytrance",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "noiseflow",
+  "name": "Noiseflow",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "phuture-noize",
+  "name": "Phuture Noize",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "robert-hood",
+  "name": "Robert Hood",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "samuel-moriero",
+  "name": "Samuel Moriero",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Drum & Bass",
+   "Hardcore",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "slvl",
+  "name": "SLVL",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "swedish-house-mafia",
+  "name": "Swedish House Mafia",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "the-sabres-of-paradise",
+  "name": "The Sabres of Paradise",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vertile",
+  "name": "Vertile",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ }
+]

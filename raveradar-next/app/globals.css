@@ -299,6 +299,9 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .card-foot { display: flex; align-items: flex-end; justify-content: space-between; gap: 10px; margin-top: 12px; }
 .card-meta { display: flex; gap: 8px; flex-wrap: wrap; flex: 1 1 auto; min-width: 0; }
 .gpill { font-size: .7rem; padding: 3px 9px; border-radius: 99px; border: 1px solid var(--line); color: var(--grey); background: rgba(255,255,255,.03); white-space: nowrap; }
+/* Un sous-genre n'a pas de page : il ne doit donc pas ressembler à un lien. Bordure
+   pointillée et pas d'état de survol — la différence se voit avant le clic. */
+.gpill-sub { border-style: dashed; opacity: .85; cursor: default; }
 .card-price { font-family: var(--f-display); font-weight: 800; font-size: 1.05rem; color: #fff; flex: none; white-space: nowrap; align-self: flex-end; }
 
 /* horizontal scroller */

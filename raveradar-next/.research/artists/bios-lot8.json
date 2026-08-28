@@ -1,0 +1,54 @@
+[
+ {
+  "name": "Apparat",
+  "bio_fr": "Apparat est le nom de scène de Sascha Ring, musicien électronique allemand né le 27 juin 1978 à Quedlinburg. Ancien copropriétaire du label Shitkatapult, il a commencé par une techno de dancefloor avant de se tourner vers des formes ambient et un travail centré sur le design sonore plutôt que sur le rythme. Il forme aussi le duo Moderat avec Modeselektor.",
+  "bio_en": "Apparat is the stage name of Sascha Ring, a German electronic musician born on 27 June 1978 in Quedlinburg. Formerly co-owner of the Shitkatapult label, he started out with dancefloor-oriented techno before shifting towards ambient work, more interested in designing sounds than beats. He also records as Moderat together with Modeselektor.",
+  "origin": "Quedlinburg, Allemagne",
+  "labels": ["Shitkatapult", "Mute"],
+  "sources": ["https://en.wikipedia.org/wiki/Apparat_(musician)", "https://musicbrainz.org/ws/2/artist/?query=artist:Apparat&fmt=json"],
+  "commons": "https://commons.wikimedia.org/wiki/File:Apparat_(musician)_in_2009.jpg"
+ },
+ {
+  "name": "Indira Paganotto",
+  "bio_fr": "Indira Paganotto, née le 30 mai 1992, est une DJ et productrice espagnole de techno. Sa discographie mêle techno et psytrance, un croisement qu'elle a porté sur des labels comme KNTXT et Second State avant de fonder son propre label, ARTCORE.",
+  "bio_en": "Indira Paganotto, born 30 May 1992, is a Spanish techno DJ and record producer. Her discography sits between techno and psy-trance, a crossover she released on labels such as KNTXT and Second State before founding her own label, ARTCORE.",
+  "origin": "Espagne",
+  "labels": ["ARTCORE", "KNTXT", "Second State"],
+  "sources": ["https://en.wikipedia.org/wiki/Indira_Paganotto", "https://api.discogs.com/database/search?artist=Indira+Paganotto&type=release"]
+ },
+ {
+  "name": "Christian Löffler",
+  "bio_fr": "Christian Löffler est un musicien allemand né à Greifswald, sur la côte balte. Il mêle techno, deep house, ambient et électronique, et a publié six albums studio, majoritairement sur le label Ki Records.",
+  "bio_en": "Christian Löffler is a German musician born in Greifswald, on the Baltic coast. He plays a mix of techno, deep house, ambient and electronic music, and has released six studio albums, mostly on Ki Records.",
+  "origin": "Greifswald, Allemagne",
+  "labels": ["Ki Records"],
+  "sources": ["https://en.wikipedia.org/wiki/Christian_L%C3%B6ffler", "https://api.discogs.com/database/search?artist=Christian+L%C3%B6ffler&type=release"],
+  "commons": "https://commons.wikimedia.org/wiki/File:20230922_MarvinContessi_@ctssi_Freitag_ChristianLoeffler_GrosseFreiheit36_MCR62553_(1).jpg"
+ },
+ {
+  "name": "FJAAK",
+  "bio_fr": "FJAAK est un projet techno berlinois formé en 2009. Ses disques sont parus sur 50Weapons puis sur son propre label FJAAK, et sa production croise la techno avec des rythmes breakbeat et electro.",
+  "bio_en": "FJAAK is a Berlin techno project formed in 2009. Its records came out on 50Weapons and then on its own FJAAK label, crossing techno with breakbeat and electro rhythms.",
+  "origin": "Berlin, Allemagne",
+  "since": 2009,
+  "labels": ["FJAAK", "50Weapons"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:FJAAK&fmt=json", "https://api.discogs.com/database/search?artist=FJAAK&type=release"]
+ },
+ {
+  "name": "Sub Zero Project",
+  "bio_fr": "Sub Zero Project est un duo hardstyle néerlandais. Ses sorties paraissent sur Dirty Workz et sur son label Anarchy, avec un son classé raw hardstyle.",
+  "bio_en": "Sub Zero Project is a Dutch hardstyle duo. Their releases come out on Dirty Workz and on their own Anarchy label, in a raw hardstyle vein.",
+  "origin": "Pays-Bas",
+  "labels": ["Dirty Workz", "Anarchy"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Sub%20Zero%20Project&fmt=json", "https://api.discogs.com/database/search?artist=Sub+Zero+Project&type=release"]
+ },
+ {
+  "name": "Horse Meat Disco",
+  "bio_fr": "Horse Meat Disco est un collectif de DJs britannique fondé en 2003 à Londres, né d'une soirée du même nom. Sa sélection tourne autour du disco, du nu-disco et de la house, et ses compilations paraissent notamment sur Glitterbox Recordings.",
+  "bio_en": "Horse Meat Disco is a British DJ collective founded in London in 2003, out of the club night of the same name. Their selection revolves around disco, nu-disco and house, and their compilations appear on labels such as Glitterbox Recordings.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2003,
+  "labels": ["Glitterbox Recordings"],
+  "sources": ["https://musicbrainz.org/ws/2/artist/?query=artist:Horse%20Meat%20Disco&fmt=json", "https://api.discogs.com/database/search?artist=Horse+Meat+Disco&type=release"]
+ }
+]

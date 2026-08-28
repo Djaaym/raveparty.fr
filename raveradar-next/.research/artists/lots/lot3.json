@@ -1,0 +1,394 @@
+[
+ {
+  "slug": "kruelty",
+  "name": "KRUELTY",
+  "dates": 6,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "coone",
+  "name": "Coone",
+  "dates": 5,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore",
+   "Hard Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "len-faki",
+  "name": "Len Faki",
+  "dates": 5,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House",
+   "Acid Techno"
+  ]
+ },
+ {
+  "slug": "david-guetta",
+  "name": "David Guetta",
+  "dates": 4,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "gerd-janson",
+  "name": "Gerd Janson",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "paul-van-dyk",
+  "name": "Paul van Dyk",
+  "dates": 4,
+  "genres_evenements": [
+   "Trance",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "traumer",
+  "name": "Traumer",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "b-ery",
+  "name": "BØĘRY",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "cosmic-gate",
+  "name": "Cosmic Gate",
+  "dates": 3,
+  "genres_evenements": [
+   "Trance",
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fadi-mohem",
+  "name": "Fadi Mohem",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "johannes-schuster",
+  "name": "Johannes Schuster",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lilly-palmer",
+  "name": "Lilly Palmer",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "slug": "natte-visstick",
+  "name": "Natte Visstick",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "pat-b",
+  "name": "Pat B",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "ran-d",
+  "name": "Ran-D",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "silva-bumpa",
+  "name": "Silva Bumpa",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "2manydjs",
+  "name": "2ManyDJs",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "adjuzt",
+  "name": "Adjuzt",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "amber-broos",
+  "name": "Amber Broos",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "artbat",
+  "name": "ARTBAT",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "bibi",
+  "name": "Bibi",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "cara-elizabeth",
+  "name": "Cara Elizabeth",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "complex",
+  "name": "Complex",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "davyboi",
+  "name": "Davyboi",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "djerry-c",
+  "name": "Djerry C",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "furyan",
+  "name": "Furyan",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "joakim-lundell",
+  "name": "Joakim Lundell",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "kangding-ray",
+  "name": "Kangding Ray",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "leyo",
+  "name": "Leyo",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "EDM",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "maddix",
+  "name": "Maddix",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Hardstyle",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "metrik",
+  "name": "Metrik",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "n-vitral",
+  "name": "N-Vitral",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "nyra",
+  "name": "Nyra",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "polar",
+  "name": "Polar",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "ron-trent",
+  "name": "Ron Trent",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sandrien",
+  "name": "Sandrien",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "snts",
+  "name": "SNTS",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "tassery",
+  "name": "Tassery",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "the-saints",
+  "name": "The Saints",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "virginia",
+  "name": "Virginia",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ }
+]

@@ -73,7 +73,11 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
 
   /* `Artist.genres` est une union : un festival étiqueté sur huit styles étiquette les
      cinquante noms de son affiche, et la page « Psytrance » se retrouvait à présenter
-     des artistes techno. `artistGenres()` pondère (voir rankGenres dans lib/data.ts). */
+     des artistes techno. `artistGenres()` rend l'attribution quand une source la donne
+     (lib/artist-genres.ts), la pondération de `rankGenres()` sinon. Les deux conditions
+     comptent : `x.n > 0` veut dire « il a une date à venir dans ce style », et le test
+     de genre « c'est bien ce qu'il joue » — sans le second, une affiche multi-genres
+     remplissait la page ; sans le premier, on afficherait un artiste sans date. */
   const artists = ARTISTS.map((a) => ({ a, n: a.eventIds.filter((id) => liveById.has(id)).length }))
     .filter((x) => x.n > 0 && artistGenres(x.a).includes(genre))
     .sort((x, y) => y.n - x.n || y.a.eventIds.length - x.a.eventIds.length || x.a.name.localeCompare(y.a.name));

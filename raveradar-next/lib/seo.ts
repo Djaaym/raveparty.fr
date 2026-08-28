@@ -215,14 +215,29 @@ export function siteJsonLd(lang: Lang) {
 }
 
 /** An artist as a schema.org MusicGroup, with the dates they're booked for. */
-export function artistJsonLd(name: string, slug: string, events: RaveEvent[], lang: Lang, sameAs: string[] = []) {
+/**
+ * `genre` est passé par l'appelant, et ce n'est pas un détail : il valait
+ * `events.flatMap(e => e.genres)`, c'est-à-dire l'union des styles de toutes les
+ * affiches où l'artiste apparaît. Déclarer à Google qu'un producteur de techno
+ * industrielle fait de la psytrance parce qu'il a joué un festival multi-genres est
+ * une affirmation sur une personne réelle, pas une approximation d'affichage. La page
+ * envoie donc `artistGenres()` + `artistSubGenres()` — l'attribution, pas la déduction.
+ */
+export function artistJsonLd(
+  name: string,
+  slug: string,
+  events: RaveEvent[],
+  lang: Lang,
+  sameAs: string[] = [],
+  genre: string[] = [],
+) {
   return {
     "@context": "https://schema.org",
     "@type": "MusicGroup",
     name,
     url: abs(lang, `/artistes/${slug}`),
     ...(sameAs.length ? { sameAs } : {}),
-    genre: [...new Set(events.flatMap((e) => e.genres))],
+    ...(genre.length ? { genre } : {}),
     event: events.map((e) => ({
       "@type": "MusicEvent",
       name: e.title,

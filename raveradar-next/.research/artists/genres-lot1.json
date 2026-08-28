@@ -1,0 +1,63 @@
+[
+ {
+  "name": "La P'tite Fumée",
+  "main": ["Psytrance", "Trance"],
+  "sub": ["Organic Trance", "Tribal"],
+  "sources": [
+   "https://www.discogs.com/artist/5444465-La-Ptite-Fumée",
+   "https://www.durevie.paris/article/le-groupe-phare-de-live-psytrance-la-ptite-fumee-annonce-une-nouvelle-tournee-partout-en-france"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Armand van Helden",
+  "main": ["House"],
+  "sub": ["Speed Garage", "Tech House", "Disco"],
+  "sources": ["https://www.discogs.com/artist/3352-Armand-Van-Helden"],
+  "confidence": "high"
+ },
+ {
+  "name": "Jayda G",
+  "main": ["House"],
+  "sub": ["Deep House", "Disco"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jayda_G",
+   "https://www.discogs.com/artist/4430477-Jayda-G"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Daniel Avery",
+  "main": ["Techno", "Acid Techno"],
+  "sub": ["Industrial Techno", "Ambient"],
+  "sources": ["https://www.discogs.com/artist/2519485-Daniel-Avery"],
+  "confidence": "medium"
+ },
+ {
+  "name": "Funk Tribu",
+  "main": ["Hard Techno", "Techno"],
+  "sub": ["Hard Trance", "Hardgroove"],
+  "sources": [
+   "https://www.discogs.com/artist/8301698-Funk-Tribu",
+   "https://www.insomniac.com/music/artists/funk-tribu/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "&ME",
+  "main": ["House", "Techno"],
+  "sub": ["Melodic House", "Deep House"],
+  "sources": ["https://www.discogs.com/artist/645861-Me"],
+  "confidence": "medium"
+ },
+ {
+  "name": "The Prodigy",
+  "main": ["EDM", "Hardcore"],
+  "sub": ["Big Beat", "Breakbeat", "Rave"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Prodigy",
+   "https://www.discogs.com/artist/66852-The-Prodigy"
+  ],
+  "confidence": "high"
+ }
+]

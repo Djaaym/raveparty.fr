@@ -1,0 +1,395 @@
+[
+ {
+  "slug": "marcel-dettmann",
+  "name": "Marcel Dettmann",
+  "dates": 6,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "digitalism",
+  "name": "Digitalism",
+  "dates": 5,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "thylacine",
+  "name": "Thylacine",
+  "dates": 5,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "dom-dolla",
+  "name": "Dom Dolla",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "hardwell",
+  "name": "Hardwell",
+  "dates": 4,
+  "genres_evenements": [
+   "EDM",
+   "Trance",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "raresh",
+  "name": "Raresh",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "trym",
+  "name": "Trym",
+  "dates": 4,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "bedouin",
+  "name": "Bedouin",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "damian-lazarus",
+  "name": "Damian Lazarus",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "franky-rizardo",
+  "name": "Franky Rizardo",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "john-summit",
+  "name": "John Summit",
+  "dates": 3,
+  "genres_evenements": [
+   "EDM",
+   "Techno",
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "luciano",
+  "name": "Luciano",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "negitiv",
+  "name": "NEGITIV",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "slug": "pawlowski",
+  "name": "Pawlowski",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "raxeller",
+  "name": "Raxeller",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sound-rush",
+  "name": "Sound Rush",
+  "dates": 3,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hard Techno",
+   "Hardcore",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "808-state",
+  "name": "808 State",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Acid Techno"
+  ]
+ },
+ {
+  "slug": "adrenalize",
+  "name": "Adrenalize",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "amor",
+  "name": "Amor",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "audrey-danza",
+  "name": "Audrey Danza",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "black-coffee",
+  "name": "Black Coffee",
+  "dates": 2,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "carl-cox",
+  "name": "Carl Cox",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "EDM",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "slug": "cynthia-spiering",
+  "name": "Cynthia Spiering",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "dennis-cruz",
+  "name": "Dennis Cruz",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "east-end-dubs",
+  "name": "East End Dubs",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "fused",
+  "name": "Fused",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "john-digweed",
+  "name": "John Digweed",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kloud",
+  "name": "Kloud",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "liquidfive",
+  "name": "Liquidfive",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "Hardstyle",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "main-phase",
+  "name": "Main Phase",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "michael-amani",
+  "name": "Michael Amani",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Drum & Bass",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "nastia",
+  "name": "Nastia",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "octave-one",
+  "name": "Octave One",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "project-one",
+  "name": "Project One",
+  "dates": 2,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "roots-zombie",
+  "name": "Roots Zombie",
+  "dates": 2,
+  "genres_evenements": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "sasha",
+  "name": "Sasha",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sofia-kourtesis",
+  "name": "Sofia Kourtesis",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "tauceti",
+  "name": "Tauceti",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "titi",
+  "name": "TITI",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "wata-igarashi",
+  "name": "Wata Igarashi",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ }
+]

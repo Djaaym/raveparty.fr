@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Boys Noize",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Electro",
+      "Acid Techno"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boys_Noize",
+      "https://www.last.fm/music/Boys+Noize/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Above & Beyond",
+    "main": [
+      "Trance"
+    ],
+    "sub": [
+      "Progressive Trance",
+      "Uplifting Trance"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Above_%26_Beyond_(band)",
+      "https://www.last.fm/music/Above+&+Beyond/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "DVS1",
+    "main": [
+      "Techno"
+    ],
+    "sub": [
+      "Minimal Techno",
+      "Hardgroove"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/DVS1",
+      "https://www.last.fm/music/DVS1/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mall Grab",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Lo-Fi House",
+      "Breakbeat"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mall_Grab",
+      "https://www.last.fm/music/Mall+Grab/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Nicole Moudaber",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Tech House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nicole_Moudaber",
+      "https://www.last.fm/music/Nicole+Moudaber/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Dixon",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Deep House",
+      "Melodic House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dixon_(DJ)",
+      "https://www.last.fm/music/Dixon/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Speedy J",
+    "main": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "sub": [
+      "Minimal Techno",
+      "Industrial Techno"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Speedy_J"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Marc Acardipane",
+    "main": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "sub": [
+      "Gabber",
+      "Doomcore"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marc_Acardipane",
+      "https://www.last.fm/music/Marc+Acardipane/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Evil Activities",
+    "main": [
+      "Hardcore"
+    ],
+    "sub": [
+      "Gabber",
+      "Mainstream Hardcore"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Evil_Activities",
+      "https://www.last.fm/music/Evil+Activities/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Röyksopp",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "Ambient",
+      "Synth-Pop",
+      "Downtempo"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/R%C3%B6yksopp"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Adrián Mills",
+    "main": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "sub": [
+      "Makina",
+      "Hard Bounce"
+    ],
+    "sources": [
+      "https://technobeatscloud.com/escena/deejays/adrian-mills",
+      "https://www.last.fm/music/Adrian+Mills/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "IOSIO",
+    "main": [
+      "Hard Techno",
+      "Trance"
+    ],
+    "sub": [
+      "Bouncy Techno",
+      "Hard Bounce"
+    ],
+    "sources": [
+      "https://soundcloud.com/club-turn/iosio-dj-set",
+      "https://scandal.events/lineup"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Robot Rock Alive",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "French Touch",
+      "Electro"
+    ],
+    "sources": [
+      "https://robotrock.live/",
+      "https://www.laseinemusicale.com/spectacles-concerts/robot-rock-alive-daft-punk-tribute/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Ueberrest",
+    "main": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "sub": [
+      "Hard Bounce",
+      "Industrial Techno"
+    ],
+    "sources": [
+      "https://openbeatz.de/artist/ueberrest/",
+      "https://www.last.fm/music/Ueberrest/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Eris Drew",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "Breakbeat",
+      "Rave",
+      "Acid House"
+    ],
+    "sources": [
+      "https://erisdrew.bandcamp.com/album/dj-kicks-eris-drew",
+      "https://www.last.fm/music/Eris+Drew/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "KLOFAMA",
+    "main": [
+      "Hard Techno"
+    ],
+    "sub": [
+      "Industrial Techno",
+      "Rave"
+    ],
+    "sources": [
+      "https://hardtechnolivesets.com/klofama-profile/",
+      "https://www.last.fm/music/KLOFAMA/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Anika Kunst",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Peak Time Techno"
+    ],
+    "sources": [
+      "https://hoer.live/artist/anika-kunst-2/",
+      "https://www.last.fm/music/Anika+Kunst/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Beau Didier",
+    "main": [
+      "Techno"
+    ],
+    "sub": [
+      "Hardgroove"
+    ],
+    "sources": [
+      "https://www.awakenings.com/en/artists/beau-didier/197641/",
+      "https://www.last.fm/music/Beau+Didier/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Mika Heggemann",
+    "main": [
+      "Trance",
+      "Hard Techno"
+    ],
+    "sub": [
+      "Nu Trance",
+      "Hard House"
+    ],
+    "sources": [
+      "https://openbeatz.de/artist/mika-heggemann-2/",
+      "https://www.last.fm/music/Mika+Heggemann/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Agents Of Time",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Melodic Techno",
+      "Acid Techno"
+    ],
+    "sources": [
+      "https://kompakt.fm/artists/agents_of_time",
+      "https://www.last.fm/music/Agents+Of+Time/+tags"
+    ],
+    "confidence": "high"
+  }
+]

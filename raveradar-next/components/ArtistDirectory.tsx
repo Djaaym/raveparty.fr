@@ -12,6 +12,8 @@ export interface DirectoryArtist {
   photo?: string;
   /** Genres, as indices into the `genres` prop — see the note on the component. */
   g?: number[];
+  /** Sous-genres, en indices dans la prop `subs`. Même raison que `g`. */
+  sg?: number[];
 }
 
 const norm = (s: string) =>
@@ -57,6 +59,12 @@ const anchorOf = (letter: string) => `az-${letter === "#" ? "num" : letter.toLow
  * words. And since the labels are here anyway, the filter matches them too — typing
  * "hardstyle" narrows the directory to the artists who play it, which is the second
  * thing anyone wants from a list of 1 860 names after looking for one they know.
+ *
+ * Les sous-genres suivent la même mécanique et pour la même raison : envoyés en indices
+ * dans un second tableau, affichés à la suite des genres, cherchés par le même filtre.
+ * C'est ce qui permet de taper « neurofunk », « tech house » ou « rawstyle » — des mots
+ * que les onze cases du site ne contiennent pas, et qui sont pourtant ce qu'on cherche
+ * quand on connaît un peu le style.
  */
 export default function ArtistDirectory({
   items,
@@ -71,6 +79,7 @@ export default function ArtistDirectory({
   artistsLabel,
   jumpLabel,
   genres,
+  subs,
 }: {
   items: DirectoryArtist[];
   /** Prefixed to every slug: `/artistes/`, `/en/artistes/`. */
@@ -89,6 +98,8 @@ export default function ArtistDirectory({
   jumpLabel: string;
   /** Genre labels, indexed by `DirectoryArtist.g`. */
   genres: string[];
+  /** Sub-genre labels, indexed by `DirectoryArtist.sg`. */
+  subs: string[];
 }) {
   const [q, setQ] = useState("");
   const needle = norm(q.trim());
@@ -100,13 +111,16 @@ export default function ArtistDirectory({
     for (const a of items) {
       const l = initialOf(a.name);
       if (!m.has(l)) m.set(l, []);
-      const labels = (a.g ?? []).map((i) => genres[i]).filter(Boolean);
+      const labels = [
+        ...(a.g ?? []).map((i) => genres[i]),
+        ...(a.sg ?? []).map((i) => subs[i]),
+      ].filter(Boolean);
       m.get(l)!.push({ ...a, _n: norm(a.name), _g: labels.join(" · ") });
     }
     return [...m.entries()]
       .sort(([a], [b]) => (a === "#" ? 1 : b === "#" ? -1 : a.localeCompare(b)))
       .map(([letter, rows]) => ({ letter, rows }));
-  }, [items, genres]);
+  }, [items, genres, subs]);
 
   const shown = useMemo(
     () =>

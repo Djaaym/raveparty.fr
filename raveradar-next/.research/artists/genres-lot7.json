@@ -1,0 +1,12 @@
+[
+ {"name":"Andy C","main":["Drum & Bass"],"sub":["Jungle"],"sources":["https://en.wikipedia.org/wiki/Andy_C"],"confidence":"high"},
+ {"name":"Fisher","main":["House"],"sub":["Tech House"],"sources":["https://en.wikipedia.org/wiki/Fisher_(musician)"],"confidence":"high"},
+ {"name":"CamelPhat","main":["House"],"sub":["Tech House","Melodic House"],"sources":["https://en.wikipedia.org/wiki/CamelPhat"],"confidence":"high"},
+ {"name":"Joseph Capriati","main":["Techno","House"],"sub":[],"sources":["https://en.wikipedia.org/wiki/Joseph_Capriati"],"confidence":"high"},
+ {"name":"Stephan Bodzin","main":["Techno"],"sub":["Minimal Techno","Tech House"],"sources":["https://en.wikipedia.org/wiki/Stephan_Bodzin","https://musicbrainz.org/artist/6f027cd7-c2e8-4569-8922-aa2c9a503e65"],"confidence":"high"},
+ {"name":"Adaro","main":["Hardstyle"],"sub":["Rawstyle"],"sources":["https://en.wikipedia.org/wiki/Adaro_(DJ)"],"confidence":"high"},
+ {"name":"Eats Everything","main":["House"],"sub":["Tech House","UK Garage"],"sources":["https://en.wikipedia.org/wiki/Eats_Everything"],"confidence":"high"},
+ {"name":"Chicane","main":["Trance","House"],"sub":["Ambient","Downtempo"],"sources":["https://en.wikipedia.org/wiki/Chicane_(musician)"],"confidence":"high"},
+ {"name":"Faithless","main":["House","Trance"],"sub":["Trip Hop"],"sources":["https://en.wikipedia.org/wiki/Faithless"],"confidence":"high"},
+ {"name":"Groove Armada","main":["House"],"sub":["Big Beat","Downtempo","Trip Hop"],"sources":["https://en.wikipedia.org/wiki/Groove_Armada"],"confidence":"high"}
+]

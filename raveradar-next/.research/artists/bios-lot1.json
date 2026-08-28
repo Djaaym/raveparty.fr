@@ -1,0 +1,62 @@
+[
+ {
+  "name": "La P'tite Fumée",
+  "bio_fr": "La P'tite Fumée est un groupe français formé en 2013 en Ariège, dont le projet mêle psytrance et instruments acoustiques joués en direct : didgeridoo, flûte traversière, guitare, basse, batterie et percussions. Le collectif est basé dans la région toulousaine et tourne principalement en France, en salle comme en festival.",
+  "bio_en": "La P'tite Fumée is a French band formed in 2013 in Ariège, blending psytrance with acoustic instruments played live: didgeridoo, transverse flute, guitar, bass, drums and percussion. Based in the Toulouse area, the collective tours mainly in France, in venues and at festivals.",
+  "origin": "Ariège / Toulouse, France",
+  "since": 2013,
+  "sources": [
+   "https://www.discogs.com/artist/5444465-La-Ptite-Fumée",
+   "https://www.durevie.paris/article/le-groupe-phare-de-live-psytrance-la-ptite-fumee-annonce-une-nouvelle-tournee-partout-en-france"
+  ]
+ },
+ {
+  "name": "Armand van Helden",
+  "bio_fr": "Armand van Helden est un DJ, producteur et remixeur américain né le 16 février 1970 à Boston. Il commence à mixer à Boston en 1988 et sort ses premiers disques en 1992 ; son remix de « Professional Widow » de Tori Amos puis « You Don't Know Me » l'installent dans la house des années 1990. Il forme plus tard le duo Duck Sauce avec A-Trak.",
+  "bio_en": "Armand van Helden is an American DJ, producer and remixer born on 16 February 1970 in Boston. He started DJing in Boston in 1988 and released his first records in 1992; his remix of Tori Amos's \"Professional Widow\" and then \"You Don't Know Me\" established him in 1990s house music. He later formed the duo Duck Sauce with A-Trak.",
+  "origin": "Boston, États-Unis",
+  "since": 1992,
+  "sources": ["https://www.discogs.com/artist/3352-Armand-Van-Helden"]
+ },
+ {
+  "name": "Jayda G",
+  "bio_fr": "Jayda G, de son vrai nom Jayda Guy, est une productrice et DJ canadienne originaire de Grand Forks, en Colombie-Britannique. Titulaire d'un master en toxicologie environnementale, elle a vécu à Vancouver, Berlin puis Londres, et a cogéré le label Freakout Cult de 2015 à 2018. Elle a été nommée aux Grammy Awards 2021 dans la catégorie meilleur enregistrement électronique pour « Both of Us ».",
+  "bio_en": "Jayda G, born Jayda Guy, is a Canadian producer and DJ from Grand Forks, British Columbia. Holder of a master's degree in environmental toxicology, she has lived in Vancouver, Berlin and London, and co-ran the Freakout Cult label between 2015 and 2018. She was nominated at the 2021 Grammy Awards in the best dance recording category for \"Both of Us\".",
+  "origin": "Grand Forks, Canada",
+  "since": 2016,
+  "labels": ["!K7 Records", "Freakout Cult"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Jayda_G",
+   "https://www.discogs.com/artist/4430477-Jayda-G"
+  ]
+ },
+ {
+  "name": "Funk Tribu",
+  "bio_fr": "Funk Tribu est un DJ et producteur colombien né à Bogotá et installé à Berlin. Il travaille une techno rapide nourrie de hard trance et de hard groove, avec des lignes de basse funk. Le titre « Phonky Tribu », sorti en 2021, l'a fait connaître au-delà de la Colombie et lui a ouvert les grands festivals européens.",
+  "bio_en": "Funk Tribu is a Colombian DJ and producer born in Bogotá and based in Berlin. He works a fast techno fed by hard trance and hard groove, with funk-leaning basslines. His 2021 track \"Phonky Tribu\" brought him attention beyond Colombia and opened the doors of major European festivals.",
+  "origin": "Bogotá, Colombie",
+  "sources": [
+   "https://www.discogs.com/artist/8301698-Funk-Tribu",
+   "https://www.insomniac.com/music/artists/funk-tribu/"
+  ]
+ },
+ {
+  "name": "&ME",
+  "bio_fr": "&ME est un DJ et producteur allemand basé à Berlin. Il est l'un des membres du collectif et label berlinois Keinemusik, aux côtés de Rampa, Adam Port et Reznik, et y publie l'essentiel de ses disques.",
+  "bio_en": "&ME is a German DJ and producer based in Berlin. He is one of the members of the Berlin collective and label Keinemusik, alongside Rampa, Adam Port and Reznik, where he releases most of his records.",
+  "origin": "Berlin, Allemagne",
+  "labels": ["Keinemusik"],
+  "sources": ["https://www.discogs.com/artist/645861-Me"]
+ },
+ {
+  "name": "The Prodigy",
+  "bio_fr": "The Prodigy est un groupe électronique anglais formé en 1990 à Braintree, dans l'Essex, autour du producteur et claviériste Liam Howlett, rejoint par les danseurs Keith Flint et Leeroy Thornhill. Parti du breakbeat hardcore et de la scène rave avec l'EP « What Evil Lurks » (1991), le groupe bascule vers le big beat et les guitares avec « The Fat of the Land » (1997). Il compte sept albums numéro un consécutifs au Royaume-Uni.",
+  "bio_en": "The Prodigy are an English electronic band formed in 1990 in Braintree, Essex, around producer and keyboardist Liam Howlett, joined by dancers Keith Flint and Leeroy Thornhill. Starting out in breakbeat hardcore and the rave scene with the \"What Evil Lurks\" EP (1991), the band moved towards big beat and guitars with \"The Fat of the Land\" (1997). They have scored seven consecutive UK number one albums.",
+  "origin": "Braintree, Essex, Royaume-Uni",
+  "since": 1990,
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Prodigy",
+   "https://www.discogs.com/artist/66852-The-Prodigy"
+  ]
+ }
+]

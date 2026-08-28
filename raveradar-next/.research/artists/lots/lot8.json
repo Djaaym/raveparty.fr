@@ -1,0 +1,393 @@
+[
+ {
+  "slug": "apparat",
+  "name": "Apparat",
+  "dates": 5,
+  "genres_evenements": [
+   "Techno",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "indira-paganotto",
+  "name": "Indira Paganotto",
+  "dates": 5,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House",
+   "Psytrance"
+  ]
+ },
+ {
+  "slug": "christian-loffler",
+  "name": "Christian Löffler",
+  "dates": 4,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fjaak",
+  "name": "FJAAK",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Drum & Bass",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "mathame",
+  "name": "Mathame",
+  "dates": 4,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "EDM",
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "sub-zero-project",
+  "name": "Sub Zero Project",
+  "dates": 4,
+  "genres_evenements": [
+   "Hardstyle",
+   "Hard Techno",
+   "Hardcore",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "adna",
+  "name": "Adna",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "call-super",
+  "name": "Call Super",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "Acid Techno",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "ely-oaks",
+  "name": "Ely Oaks",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "House",
+   "EDM",
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "horse-meat-disco",
+  "name": "Horse Meat Disco",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kuko",
+  "name": "Kuko",
+  "dates": 3,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "marco-carola",
+  "name": "Marco Carola",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "paco-osuna",
+  "name": "Paco Osuna",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "purple-disco-machine",
+  "name": "Purple Disco Machine",
+  "dates": 3,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "EDM"
+  ]
+ },
+ {
+  "slug": "sammy-virji",
+  "name": "Sammy Virji",
+  "dates": 3,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "wilkinson",
+  "name": "Wilkinson",
+  "dates": 3,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Psytrance",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "acid-pauli",
+  "name": "Acid Pauli",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "alix-perez",
+  "name": "Alix Perez",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "anthony-rother",
+  "name": "Anthony Rother",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "bellaire",
+  "name": "Bellaire",
+  "dates": 2,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "bredren",
+  "name": "Bredren",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "chloe",
+  "name": "CHLOE",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "danth",
+  "name": "Danth",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "EDM",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "dj-cringey",
+  "name": "DJ Cringey",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "felix-jaehn",
+  "name": "Felix Jaehn",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "Hardstyle",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "hedex",
+  "name": "Hedex",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "justin-jay",
+  "name": "Justin Jay",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "korolova",
+  "name": "Korolova",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "luciid",
+  "name": "Luciid",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "masters-at-work",
+  "name": "Masters at Work",
+  "dates": 2,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "monolink",
+  "name": "Monolink",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nia-archives",
+  "name": "Nia Archives",
+  "dates": 2,
+  "genres_evenements": [
+   "Techno",
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "pawsa",
+  "name": "Pawsa",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "rey-colino",
+  "name": "Rey Colino",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "s-p-y",
+  "name": "S.P.Y",
+  "dates": 2,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "skepta",
+  "name": "Skepta",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "spoink",
+  "name": "Spoink",
+  "dates": 2,
+  "genres_evenements": [
+   "Psytrance",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "the-blaze",
+  "name": "The Blaze",
+  "dates": 2,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vai",
+  "name": "Vaï",
+  "dates": 2,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "yves-deruyter",
+  "name": "Yves Deruyter",
+  "dates": 2,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Hardstyle",
+   "Techno"
+  ]
+ }
+]
