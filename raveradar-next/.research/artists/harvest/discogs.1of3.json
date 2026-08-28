@@ -1,4 +1,148 @@
 {
+ "808-state": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    42
+   ],
+   [
+    "house",
+    11
+   ],
+   [
+    "breakbeat",
+    5
+   ],
+   [
+    "acid house",
+    4
+   ],
+   [
+    "downtempo",
+    4
+   ],
+   [
+    "tech house",
+    3
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "leftfield",
+    3
+   ],
+   [
+    "idm",
+    2
+   ],
+   [
+    "future jazz",
+    2
+   ],
+   [
+    "big beat",
+    2
+   ],
+   [
+    "acid",
+    2
+   ]
+  ]
+ },
+ "aat": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "stage & screen",
+    2
+   ],
+   [
+    "children's",
+    1
+   ]
+  ],
+  "n": 4,
+  "styles": [
+   [
+    "house",
+    1
+   ],
+   [
+    "dark ambient",
+    1
+   ],
+   [
+    "industrial",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "musical",
+    1
+   ],
+   [
+    "educational",
+    1
+   ]
+  ]
+ },
+ "adam-ten": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    17
+   ]
+  ],
+  "n": 17,
+  "styles": [
+   [
+    "house",
+    9
+   ],
+   [
+    "nu-disco",
+    2
+   ],
+   [
+    "progressive house",
+    2
+   ],
+   [
+    "tech house",
+    2
+   ],
+   [
+    "progressive breaks",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ]
+ },
  "adaro": {
   "found": true,
   "genres": [
@@ -59,6 +203,138 @@
    ],
    [
     "ethereal",
+    1
+   ]
+  ]
+ },
+ "afem-syko": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    3
+   ]
+  ],
+  "n": 3,
+  "styles": [
+   [
+    "techno",
+    2
+   ],
+   [
+    "hard trance",
+    1
+   ]
+  ]
+ },
+ "alix-perez": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    43
+   ],
+   [
+    "dubstep",
+    9
+   ],
+   [
+    "uk garage",
+    4
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "halftime",
+    3
+   ],
+   [
+    "juke",
+    2
+   ],
+   [
+    "ghetto house",
+    2
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "ambient",
+    2
+   ],
+   [
+    "speed garage",
+    1
+   ]
+  ]
+ },
+ "amber-broos": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    9
+   ]
+  ],
+  "n": 9,
+  "styles": [
+   [
+    "techno",
+    8
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "andres-campo": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    36
+   ]
+  ],
+  "n": 36,
+  "styles": [
+   [
+    "techno",
+    33
+   ],
+   [
+    "tech house",
+    8
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "hard house",
     1
    ]
   ]
@@ -1866,6 +2142,122 @@
    ]
   ]
  },
+ "partyraiser": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardcore",
+    50
+   ],
+   [
+    "gabber",
+    16
+   ],
+   [
+    "interview",
+    1
+   ],
+   [
+    "field recording",
+    1
+   ],
+   [
+    "hardstyle",
+    1
+   ],
+   [
+    "speedcore",
+    1
+   ],
+   [
+    "industrial",
+    1
+   ]
+  ]
+ },
+ "pawlowski": {
+  "found": true,
+  "genres": [
+   [
+    "rock",
+    37
+   ],
+   [
+    "pop",
+    14
+   ],
+   [
+    "electronic",
+    11
+   ],
+   [
+    "folk, world, & country",
+    5
+   ],
+   [
+    "stage & screen",
+    4
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "alternative rock",
+    15
+   ],
+   [
+    "avantgarde",
+    10
+   ],
+   [
+    "indie rock",
+    5
+   ],
+   [
+    "experimental",
+    5
+   ],
+   [
+    "pop rock",
+    4
+   ],
+   [
+    "folk rock",
+    4
+   ],
+   [
+    "indie pop",
+    3
+   ],
+   [
+    "noise",
+    2
+   ],
+   [
+    "art rock",
+    2
+   ],
+   [
+    "no wave",
+    2
+   ],
+   [
+    "hard trance",
+    1
+   ],
+   [
+    "acid",
+    1
+   ]
+  ]
+ },
  "peggy-gou": {
   "found": true,
   "genres": [
@@ -1910,6 +2302,166 @@
    ],
    [
     "euro house",
+    1
+   ]
+  ]
+ },
+ "petit-biscuit": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    24
+   ],
+   [
+    "pop",
+    6
+   ],
+   [
+    "hip hop",
+    2
+   ]
+  ],
+  "n": 25,
+  "styles": [
+   [
+    "downtempo",
+    13
+   ],
+   [
+    "synth-pop",
+    9
+   ],
+   [
+    "electro",
+    6
+   ],
+   [
+    "experimental",
+    6
+   ],
+   [
+    "idm",
+    4
+   ],
+   [
+    "deep house",
+    4
+   ],
+   [
+    "electro house",
+    2
+   ],
+   [
+    "future bass",
+    2
+   ],
+   [
+    "dance-pop",
+    2
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "chillwave",
+    1
+   ],
+   [
+    "nu-disco",
+    1
+   ]
+  ]
+ },
+ "purple-disco-machine": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "pop",
+    7
+   ],
+   [
+    "funk / soul",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    36
+   ],
+   [
+    "nu-disco",
+    26
+   ],
+   [
+    "disco",
+    8
+   ],
+   [
+    "tech house",
+    5
+   ],
+   [
+    "deep house",
+    2
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "downtempo",
+    1
+   ]
+  ]
+ },
+ "radical-redemption": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    49
+   ],
+   [
+    "hardcore",
+    13
+   ],
+   [
+    "gabber",
+    3
+   ]
+  ]
+ },
+ "raxeller": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    2
+   ]
+  ],
+  "n": 2,
+  "styles": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "hard techno",
     1
    ]
   ]
@@ -1962,6 +2514,106 @@
    ],
    [
     "electro",
+    1
+   ]
+  ]
+ },
+ "rooler": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    47
+   ],
+   [
+    "hardcore",
+    8
+   ],
+   [
+    "schranz",
+    1
+   ]
+  ]
+ },
+ "shanti-celeste": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    31
+   ],
+   [
+    "funk / soul",
+    3
+   ],
+   [
+    "jazz",
+    1
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "reggae",
+    1
+   ]
+  ],
+  "n": 31,
+  "styles": [
+   [
+    "house",
+    28
+   ],
+   [
+    "deep house",
+    15
+   ],
+   [
+    "techno",
+    12
+   ],
+   [
+    "electro",
+    6
+   ],
+   [
+    "downtempo",
+    4
+   ],
+   [
+    "ambient",
+    4
+   ],
+   [
+    "tech house",
+    4
+   ],
+   [
+    "uk garage",
+    2
+   ],
+   [
+    "leftfield",
+    2
+   ],
+   [
+    "garage house",
+    2
+   ],
+   [
+    "footwork",
+    1
+   ],
+   [
+    "acid house",
     1
    ]
   ]
@@ -2042,6 +2694,34 @@
    ]
   ]
  },
+ "sound-rush": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    47
+   ],
+   [
+    "happy hardcore",
+    5
+   ],
+   [
+    "hardcore",
+    4
+   ],
+   [
+    "breakbeat",
+    1
+   ]
+  ]
+ },
  "steve-aoki": {
   "found": true,
   "genres": [
@@ -2115,6 +2795,82 @@
    [
     "reggaeton",
     3
+   ]
+  ]
+ },
+ "the-avalanches": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    45
+   ],
+   [
+    "hip hop",
+    18
+   ],
+   [
+    "rock",
+    8
+   ],
+   [
+    "funk / soul",
+    6
+   ],
+   [
+    "pop",
+    5
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "abstract",
+    25
+   ],
+   [
+    "leftfield",
+    16
+   ],
+   [
+    "downtempo",
+    12
+   ],
+   [
+    "disco",
+    11
+   ],
+   [
+    "experimental",
+    11
+   ],
+   [
+    "house",
+    10
+   ],
+   [
+    "breaks",
+    6
+   ],
+   [
+    "hip hop",
+    5
+   ],
+   [
+    "trip hop",
+    3
+   ],
+   [
+    "surf",
+    3
+   ],
+   [
+    "big beat",
+    3
+   ],
+   [
+    "alternative rock",
+    2
    ]
   ]
  },
@@ -2247,6 +3003,118 @@
    [
     "progressive trance",
     3
+   ]
+  ]
+ },
+ "vendex": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    30
+   ]
+  ],
+  "n": 30,
+  "styles": [
+   [
+    "techno",
+    16
+   ],
+   [
+    "hard techno",
+    12
+   ],
+   [
+    "trance",
+    3
+   ],
+   [
+    "industrial",
+    2
+   ],
+   [
+    "hard trance",
+    2
+   ],
+   [
+    "deep techno",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "minimal",
+    1
+   ]
+  ]
+ },
+ "vortek-s": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardcore",
+    20
+   ],
+   [
+    "tribal",
+    18
+   ],
+   [
+    "freetekno",
+    17
+   ],
+   [
+    "hard techno",
+    14
+   ],
+   [
+    "acid",
+    10
+   ],
+   [
+    "techno",
+    6
+   ],
+   [
+    "psy-trance",
+    3
+   ],
+   [
+    "hard trance",
+    3
+   ],
+   [
+    "goa trance",
+    2
+   ],
+   [
+    "hardstyle",
+    1
+   ]
+  ]
+ },
+ "zelecter": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    1
+   ]
+  ],
+  "n": 1,
+  "styles": [
+   [
+    "hardstyle",
+    1
    ]
   ]
  }

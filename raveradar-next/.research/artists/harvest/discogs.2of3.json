@@ -1,4 +1,180 @@
 {
+ "2hot2play": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    1
+   ]
+  ],
+  "n": 1,
+  "styles": [
+   [
+    "house",
+    1
+   ]
+  ]
+ },
+ "a-guy-called-gerald": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "funk / soul",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    25
+   ],
+   [
+    "house",
+    18
+   ],
+   [
+    "acid house",
+    13
+   ],
+   [
+    "jungle",
+    10
+   ],
+   [
+    "drum n bass",
+    8
+   ],
+   [
+    "deep house",
+    8
+   ],
+   [
+    "electro",
+    6
+   ],
+   [
+    "hardcore",
+    6
+   ],
+   [
+    "breakbeat",
+    5
+   ],
+   [
+    "acid",
+    3
+   ],
+   [
+    "idm",
+    3
+   ],
+   [
+    "downtempo",
+    2
+   ]
+  ]
+ },
+ "acid-pauli": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "jazz",
+    1
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "folk, world, & country",
+    1
+   ],
+   [
+    "funk / soul",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "minimal",
+    22
+   ],
+   [
+    "tech house",
+    21
+   ],
+   [
+    "house",
+    15
+   ],
+   [
+    "deep house",
+    14
+   ],
+   [
+    "techno",
+    14
+   ],
+   [
+    "electro",
+    10
+   ],
+   [
+    "ambient",
+    8
+   ],
+   [
+    "downtempo",
+    8
+   ],
+   [
+    "synth-pop",
+    6
+   ],
+   [
+    "experimental",
+    6
+   ],
+   [
+    "deep techno",
+    2
+   ],
+   [
+    "progressive trance",
+    2
+   ]
+  ]
+ },
+ "adjuzt": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    46
+   ],
+   [
+    "hardcore",
+    4
+   ]
+  ]
+ },
  "adna": {
   "found": true,
   "genres": [
@@ -55,6 +231,230 @@
    ],
    [
     "minimal",
+    1
+   ]
+  ]
+ },
+ "agents-of-time": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    40
+   ]
+  ],
+  "n": 40,
+  "styles": [
+   [
+    "progressive house",
+    15
+   ],
+   [
+    "tech house",
+    14
+   ],
+   [
+    "neo trance",
+    13
+   ],
+   [
+    "deep house",
+    13
+   ],
+   [
+    "techno",
+    7
+   ],
+   [
+    "deep techno",
+    3
+   ],
+   [
+    "progressive trance",
+    2
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "house",
+    1
+   ]
+  ]
+ },
+ "alok": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    47
+   ],
+   [
+    "pop",
+    9
+   ],
+   [
+    "rock",
+    3
+   ],
+   [
+    "classical",
+    2
+   ],
+   [
+    "stage & screen",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "house",
+    23
+   ],
+   [
+    "experimental",
+    6
+   ],
+   [
+    "dance-pop",
+    6
+   ],
+   [
+    "future house",
+    4
+   ],
+   [
+    "abstract",
+    3
+   ],
+   [
+    "bassline",
+    3
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "electro house",
+    3
+   ],
+   [
+    "tech house",
+    3
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "soundtrack",
+    2
+   ],
+   [
+    "deep house",
+    2
+   ]
+  ]
+ },
+ "amor": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    37
+   ],
+   [
+    "rock",
+    11
+   ],
+   [
+    "blues",
+    5
+   ],
+   [
+    "latin",
+    3
+   ],
+   [
+    "folk, world, & country",
+    3
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    10
+   ],
+   [
+    "leftfield",
+    9
+   ],
+   [
+    "industrial",
+    6
+   ],
+   [
+    "disco",
+    4
+   ],
+   [
+    "blues rock",
+    4
+   ],
+   [
+    "experimental",
+    4
+   ],
+   [
+    "minimal",
+    4
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "cumbia",
+    2
+   ],
+   [
+    "latin",
+    2
+   ],
+   [
+    "mambo",
+    2
+   ],
+   [
+    "tribal",
+    2
+   ]
+  ]
+ },
+ "anika-kunst": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ]
+  ],
+  "n": 6,
+  "styles": [
+   [
+    "techno",
+    5
+   ],
+   [
+    "deep techno",
     1
    ]
   ]
@@ -1779,6 +2179,210 @@
    ]
   ]
  },
+ "pat-b": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "non-music",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "jumpstyle",
+    43
+   ],
+   [
+    "hardstyle",
+    13
+   ],
+   [
+    "hard house",
+    5
+   ],
+   [
+    "hard trance",
+    4
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "trance",
+    2
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "freestyle",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "happy hardcore",
+    1
+   ]
+  ]
+ },
+ "pendulum": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    41
+   ],
+   [
+    "rock",
+    17
+   ],
+   [
+    "pop",
+    3
+   ],
+   [
+    "jazz",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    34
+   ],
+   [
+    "breakbeat",
+    8
+   ],
+   [
+    "alternative rock",
+    5
+   ],
+   [
+    "dubstep",
+    5
+   ],
+   [
+    "house",
+    5
+   ],
+   [
+    "trance",
+    5
+   ],
+   [
+    "electro",
+    4
+   ],
+   [
+    "breaks",
+    3
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "disco",
+    3
+   ],
+   [
+    "vocal",
+    3
+   ],
+   [
+    "industrial",
+    2
+   ]
+  ]
+ },
+ "planetary-assault-systems": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    50
+   ],
+   [
+    "ambient",
+    6
+   ],
+   [
+    "minimal",
+    6
+   ],
+   [
+    "acid",
+    4
+   ],
+   [
+    "broken beat",
+    2
+   ]
+  ]
+ },
+ "quelza": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    27
+   ],
+   [
+    "classical",
+    1
+   ]
+  ],
+  "n": 27,
+  "styles": [
+   [
+    "techno",
+    27
+   ],
+   [
+    "idm",
+    4
+   ],
+   [
+    "industrial",
+    4
+   ],
+   [
+    "breakbeat",
+    2
+   ],
+   [
+    "drum n bass",
+    1
+   ],
+   [
+    "modern classical",
+    1
+   ],
+   [
+    "electro",
+    1
+   ]
+  ]
+ },
  "r3hab": {
   "found": true,
   "genres": [
@@ -1847,8 +2451,272 @@
    ]
   ]
  },
+ "rampa": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    38
+   ],
+   [
+    "rock",
+    6
+   ],
+   [
+    "reggae",
+    5
+   ],
+   [
+    "non-music",
+    4
+   ],
+   [
+    "pop",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "tech house",
+    25
+   ],
+   [
+    "deep house",
+    13
+   ],
+   [
+    "house",
+    11
+   ],
+   [
+    "techno",
+    7
+   ],
+   [
+    "monolog",
+    3
+   ],
+   [
+    "spoken word",
+    3
+   ],
+   [
+    "minimal",
+    2
+   ],
+   [
+    "electro",
+    2
+   ],
+   [
+    "tribal",
+    2
+   ],
+   [
+    "deep techno",
+    2
+   ],
+   [
+    "latin",
+    2
+   ],
+   [
+    "pop rock",
+    2
+   ]
+  ]
+ },
+ "restricted": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    40
+   ],
+   [
+    "rock",
+    10
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "ebm",
+    10
+   ],
+   [
+    "hard techno",
+    8
+   ],
+   [
+    "synthwave",
+    6
+   ],
+   [
+    "techno",
+    6
+   ],
+   [
+    "synth-pop",
+    6
+   ],
+   [
+    "ambient",
+    5
+   ],
+   [
+    "electro",
+    5
+   ],
+   [
+    "hardcore",
+    4
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "punk",
+    3
+   ],
+   [
+    "folk",
+    3
+   ],
+   [
+    "hard trance",
+    2
+   ]
+  ]
+ },
  "robot-rock-alive": {
   "found": false
+ },
+ "roza-terenzi": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    25
+   ]
+  ],
+  "n": 25,
+  "styles": [
+   [
+    "house",
+    19
+   ],
+   [
+    "breakbeat",
+    12
+   ],
+   [
+    "techno",
+    12
+   ],
+   [
+    "electro",
+    8
+   ],
+   [
+    "downtempo",
+    7
+   ],
+   [
+    "drum n bass",
+    5
+   ],
+   [
+    "progressive house",
+    4
+   ],
+   [
+    "deep house",
+    2
+   ],
+   [
+    "tech house",
+    2
+   ],
+   [
+    "breaks",
+    2
+   ],
+   [
+    "jungle",
+    2
+   ],
+   [
+    "ambient",
+    2
+   ]
+  ]
+ },
+ "sherelle": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    19
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 20,
+  "styles": [
+   [
+    "hardcore",
+    11
+   ],
+   [
+    "jungle",
+    10
+   ],
+   [
+    "breakbeat",
+    7
+   ],
+   [
+    "drum n bass",
+    6
+   ],
+   [
+    "techno",
+    4
+   ],
+   [
+    "trance",
+    4
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "footwork",
+    2
+   ],
+   [
+    "breaks",
+    2
+   ],
+   [
+    "dub",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "electro",
+    1
+   ]
+  ]
  },
  "skrillex": {
   "found": true,
@@ -1918,6 +2786,34 @@
    ]
   ]
  },
+ "space-92": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    43
+   ]
+  ],
+  "n": 43,
+  "styles": [
+   [
+    "techno",
+    42
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
  "sub-zero-project": {
   "found": true,
   "genres": [
@@ -1931,6 +2827,66 @@
    [
     "hardstyle",
     50
+   ]
+  ]
+ },
+ "the-chainsmokers": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "pop",
+    43
+   ],
+   [
+    "rock",
+    3
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "dance-pop",
+    38
+   ],
+   [
+    "synth-pop",
+    38
+   ],
+   [
+    "future bass",
+    30
+   ],
+   [
+    "trap",
+    17
+   ],
+   [
+    "electro house",
+    15
+   ],
+   [
+    "electro",
+    10
+   ],
+   [
+    "dubstep",
+    6
+   ],
+   [
+    "house",
+    5
+   ],
+   [
+    "progressive house",
+    4
+   ],
+   [
+    "pop rock",
+    3
    ]
   ]
  },
@@ -2002,6 +2958,62 @@
    ]
   ]
  },
+ "victor-ruiz": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    44
+   ],
+   [
+    "latin",
+    5
+   ],
+   [
+    "jazz",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    35
+   ],
+   [
+    "tech house",
+    6
+   ],
+   [
+    "progressive trance",
+    2
+   ],
+   [
+    "psy-trance",
+    2
+   ],
+   [
+    "progressive house",
+    2
+   ],
+   [
+    "cumbia",
+    2
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
  "vieze-asbak": {
   "found": true,
   "genres": [
@@ -2050,6 +3062,54 @@
    ],
    [
     "ballad",
+    1
+   ]
+  ]
+ },
+ "wilkinson": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    49
+   ],
+   [
+    "house",
+    6
+   ],
+   [
+    "dubstep",
+    4
+   ],
+   [
+    "deep house",
+    3
+   ],
+   [
+    "progressive house",
+    2
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "electro house",
+    1
+   ],
+   [
+    "trap",
     1
    ]
   ]

@@ -402,5 +402,69 @@
    "https://en.wikipedia.org/wiki/Timmy_Trumpet",
    "https://musicbrainz.org/artist/07aceecf-0fa2-4d51-865f-273313cba931"
   ]
+ },
+ {
+  "name": "DJ Isaac",
+  "bio_fr": "DJ Isaac est le nom de scène de Roel Schutrups, DJ et producteur néerlandais né en 1974 à Winschoten. Il compte parmi les fondateurs du hardstyle, se fait connaître en 1995 avec « Bad Dreams » et fonde son label X-Rate Records en 2003. Il a également publié sur Scantraxx et Dirty Workz, et joué à Defqon.1, Qlimax et EDC Las Vegas.",
+  "bio_en": "DJ Isaac is the stage name of Roel Schutrups, a Dutch DJ and producer born in 1974 in Winschoten. He is one of the founders of hardstyle, broke through in 1995 with \"Bad Dreams\" and started his X-Rate Records label in 2003. He has also released on Scantraxx and Dirty Workz, and played Defqon.1, Qlimax and EDC Las Vegas.",
+  "origin": "Winschoten, Pays-Bas",
+  "since": 1995,
+  "labels": [
+   "X-Rate Records"
+  ],
+  "sources": [
+   "https://nl.wikipedia.org/wiki/DJ_Isaac"
+  ]
+ },
+ {
+  "name": "Partyraiser",
+  "bio_fr": "Partyraiser est le nom de scène de Wesley van Swol, DJ et producteur néerlandais né en 1977 à Delft. Il joue du hardcore, du terrorcore et de l'uptempo, a démarré en 1993 et publié son premier EP, A New World Order, en 1997 sur Dutch Gabber Network Records. Il a tenu le label Megarave Records puis fondé Partyraiser Records en 2013, et joue à Defqon.1, Dominator et Decibel.",
+  "bio_en": "Partyraiser is the stage name of Wesley van Swol, a Dutch DJ and producer born in 1977 in Delft. He plays hardcore, terrorcore and uptempo, started in 1993 and released his first EP, A New World Order, in 1997 on Dutch Gabber Network Records. He ran Megarave Records, then founded Partyraiser Records in 2013, and plays Defqon.1, Dominator and Decibel.",
+  "origin": "Delft, Pays-Bas",
+  "since": 1993,
+  "labels": [
+   "Partyraiser Records"
+  ],
+  "sources": [
+   "https://fr.wikipedia.org/wiki/Wesley_van_Swol",
+   "https://nl.wikipedia.org/wiki/Partyraiser"
+  ]
+ },
+ {
+  "name": "Phuture Noize",
+  "bio_fr": "Phuture Noize est le nom de scène de Marco Spronk, DJ et producteur de hardstyle néerlandais né le 11 septembre 1994 à Giessen. Le projet démarre en duo en 2009 avec Antoine Kraaij, qui le quitte en 2015. Spronk signe l'hymne du Qapital 2018, publie l'album Silver Bullet en juillet 2020 sur son label Black Mirror Society, et joue au Defqon.1, au Qlimax et au Decibel Outdoor.",
+  "bio_en": "Phuture Noize is the stage name of Marco Spronk, a Dutch hardstyle DJ and producer born on 11 September 1994 in Giessen. The project started as a duo in 2009 with Antoine Kraaij, who left in 2015. Spronk wrote the 2018 Qapital anthem, released the album Silver Bullet in July 2020 on his Black Mirror Society label, and plays Defqon.1, Qlimax and Decibel Outdoor.",
+  "origin": "Giessen, Pays-Bas",
+  "since": 2009,
+  "labels": [
+   "Mirror Society"
+  ],
+  "sources": [
+   "https://nl.wikipedia.org/wiki/Phuture_Noize"
+  ]
+ },
+ {
+  "name": "Vertile",
+  "bio_fr": "Vertile est le nom de scène de Mees van den Berg, DJ et producteur de hardstyle néerlandais. Il sort ses premiers titres en 2019 dans la série Q-Dance Presents NEXT, puis publie sur Nightbreed Records, Roughstate et Art Of Creation. Il a signé en 2022 l'hymne officiel du festival Shockerz, « Complex Aftermath ».",
+  "bio_en": "Vertile is the stage name of Mees van den Berg, a Dutch hardstyle DJ and producer. He put out his first tracks in 2019 in the Q-Dance Presents NEXT series, then released on Nightbreed Records, Roughstate and Art Of Creation. In 2022 he wrote the official anthem of the Shockerz festival, \"Complex Aftermath\".",
+  "origin": "Pays-Bas",
+  "since": 2019,
+  "labels": [
+   "Nightbreed Records",
+   "Roughstate"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/7233886-Vertile",
+   "https://api.discogs.com/artists/7233886/releases"
+  ]
+ },
+ {
+  "name": "Darrell Pulse",
+  "bio_fr": "Darrell Pulse est un DJ écossais, résident de la soirée techno Pulse au Bongo Club d'Édimbourg, où il joue aux côtés des autres résidents Sean Laird et Shaun Johnston. La soirée y reçoit régulièrement des invités techno comme Slam, Surgeon ou SPFDJ.",
+  "bio_en": "Darrell Pulse is a Scottish DJ and a resident of the Pulse techno night at Edinburgh's Bongo Club, where he plays alongside fellow residents Sean Laird and Shaun Johnston. The night regularly hosts techno guests such as Slam, Surgeon and SPFDJ.",
+  "origin": "Édimbourg, Écosse",
+  "sources": [
+   "https://www.thebongoclub.co.uk/event/pulse-slam/"
+  ]
  }
 ]

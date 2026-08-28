@@ -1,4 +1,79 @@
 {
+ "2manydjs": {
+  "found": false
+ },
+ "a-m-c": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    43
+   ],
+   [
+    "rock",
+    5
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "jazz",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "drum n bass",
+    34
+   ],
+   [
+    "thrash",
+    3
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "progressive house",
+    2
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "euro house",
+    2
+   ],
+   [
+    "halftime",
+    1
+   ],
+   [
+    "abstract",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "musique concrète",
+    1
+   ],
+   [
+    "sound collage",
+    1
+   ],
+   [
+    "progressive trance",
+    1
+   ]
+  ]
+ },
  "above-beyond": {
   "found": true,
   "genres": [
@@ -75,6 +150,97 @@
    ]
   ]
  },
+ "act-of-rage": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "rock",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    44
+   ],
+   [
+    "hardcore",
+    10
+   ],
+   [
+    "doom metal",
+    1
+   ],
+   [
+    "black metal",
+    1
+   ],
+   [
+    "death metal",
+    1
+   ]
+  ]
+ },
+ "adrenalize": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    46
+   ],
+   [
+    "rock",
+    4
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    46
+   ],
+   [
+    "hard rock",
+    4
+   ],
+   [
+    "classic rock",
+    1
+   ],
+   [
+    "rock & roll",
+    1
+   ]
+  ]
+ },
+ "alarico": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    27
+   ]
+  ],
+  "n": 27,
+  "styles": [
+   [
+    "techno",
+    27
+   ],
+   [
+    "tribal",
+    4
+   ]
+  ]
+ },
+ "alycia-bezgo": {
+  "found": false
+ },
  "ame": {
   "found": true,
   "genres": [
@@ -135,6 +301,58 @@
    ],
    [
     "ambient",
+    1
+   ]
+  ]
+ },
+ "andhim": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "tech house",
+    34
+   ],
+   [
+    "deep house",
+    16
+   ],
+   [
+    "house",
+    10
+   ],
+   [
+    "minimal",
+    4
+   ],
+   [
+    "progressive house",
+    3
+   ],
+   [
+    "electro house",
+    3
+   ],
+   [
+    "neo trance",
+    3
+   ],
+   [
+    "techno",
+    2
+   ],
+   [
+    "downtempo",
+    2
+   ],
+   [
+    "nu-disco",
     1
    ]
   ]
@@ -1851,6 +2069,110 @@
    ]
   ]
  },
+ "pan-pot": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    41
+   ],
+   [
+    "tech house",
+    16
+   ],
+   [
+    "minimal",
+    13
+   ],
+   [
+    "minimal techno",
+    2
+   ],
+   [
+    "deep house",
+    2
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "pop rock",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ]
+  ]
+ },
+ "paul-elstak": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    49
+   ],
+   [
+    "hip hop",
+    1
+   ],
+   [
+    "non-music",
+    1
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardcore",
+    40
+   ],
+   [
+    "gabber",
+    28
+   ],
+   [
+    "happy hardcore",
+    24
+   ],
+   [
+    "eurodance",
+    3
+   ],
+   [
+    "hard techno",
+    1
+   ],
+   [
+    "interview",
+    1
+   ],
+   [
+    "hard trance",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ]
+ },
  "paul-van-dyk": {
   "found": true,
   "genres": [
@@ -1923,6 +2245,141 @@
    ]
   ]
  },
+ "peterblue": {
+  "found": false
+ },
+ "prunk": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    27
+   ],
+   [
+    "pop",
+    5
+   ]
+  ],
+  "n": 32,
+  "styles": [
+   [
+    "house",
+    19
+   ],
+   [
+    "deep house",
+    11
+   ],
+   [
+    "novelty",
+    5
+   ],
+   [
+    "tech house",
+    3
+   ],
+   [
+    "ambient",
+    3
+   ],
+   [
+    "techno",
+    3
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "parody",
+    1
+   ]
+  ]
+ },
+ "r-dhad": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    45
+   ],
+   [
+    "ambient",
+    9
+   ],
+   [
+    "abstract",
+    4
+   ],
+   [
+    "dub techno",
+    4
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "drone",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ]
+  ]
+ },
+ "ran-d": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    48
+   ],
+   [
+    "hip hop",
+    2
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "hardstyle",
+    39
+   ],
+   [
+    "hardcore",
+    6
+   ],
+   [
+    "house",
+    4
+   ],
+   [
+    "electro",
+    4
+   ],
+   [
+    "breaks",
+    2
+   ],
+   [
+    "hands up",
+    1
+   ],
+   [
+    "happy hardcore",
+    1
+   ]
+  ]
+ },
  "raresh": {
   "found": true,
   "genres": [
@@ -1960,6 +2417,134 @@
    [
     "dub techno",
     2
+   ]
+  ]
+ },
+ "romare": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    43
+   ],
+   [
+    "funk / soul",
+    4
+   ],
+   [
+    "hip hop",
+    3
+   ],
+   [
+    "pop",
+    3
+   ],
+   [
+    "folk, world, & country",
+    1
+   ]
+  ],
+  "n": 43,
+  "styles": [
+   [
+    "house",
+    31
+   ],
+   [
+    "downtempo",
+    15
+   ],
+   [
+    "deep house",
+    6
+   ],
+   [
+    "future jazz",
+    6
+   ],
+   [
+    "breakbeat",
+    6
+   ],
+   [
+    "hip hop",
+    4
+   ],
+   [
+    "bass music",
+    3
+   ],
+   [
+    "dance-pop",
+    3
+   ],
+   [
+    "dubstep",
+    2
+   ],
+   [
+    "disco",
+    2
+   ],
+   [
+    "ghetto",
+    1
+   ],
+   [
+    "footwork",
+    1
+   ]
+  ]
+ },
+ "sammy-virji": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    41
+   ],
+   [
+    "hip hop",
+    3
+   ],
+   [
+    "pop",
+    1
+   ]
+  ],
+  "n": 42,
+  "styles": [
+   [
+    "uk garage",
+    33
+   ],
+   [
+    "house",
+    5
+   ],
+   [
+    "speed garage",
+    5
+   ],
+   [
+    "bassline",
+    4
+   ],
+   [
+    "tech house",
+    3
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "drill",
+    1
+   ],
+   [
+    "bass music",
+    1
    ]
   ]
  },
@@ -2032,6 +2617,62 @@
    [
     "eurodance",
     3
+   ]
+  ]
+ },
+ "silva-bumpa": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    14
+   ]
+  ],
+  "n": 14,
+  "styles": [
+   [
+    "uk garage",
+    9
+   ],
+   [
+    "speed garage",
+    5
+   ],
+   [
+    "bassline",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "garage house",
+    1
+   ]
+  ]
+ },
+ "stef-davidse": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    3
+   ]
+  ],
+  "n": 3,
+  "styles": [
+   [
+    "deep house",
+    2
+   ],
+   [
+    "house",
+    2
+   ],
+   [
+    "tech house",
+    1
    ]
   ]
  },
@@ -2223,6 +2864,118 @@
    ],
    [
     "choral",
+    1
+   ]
+  ]
+ },
+ "ueberrest": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    8
+   ]
+  ],
+  "n": 8,
+  "styles": [
+   [
+    "hard techno",
+    7
+   ],
+   [
+    "techno",
+    6
+   ],
+   [
+    "schranz",
+    1
+   ],
+   [
+    "hard house",
+    1
+   ],
+   [
+    "bouncy techno",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "vini-vici": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ],
+   [
+    "rock",
+    3
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "psy-trance",
+    39
+   ],
+   [
+    "progressive trance",
+    23
+   ],
+   [
+    "experimental",
+    3
+   ],
+   [
+    "house",
+    3
+   ],
+   [
+    "electro",
+    3
+   ],
+   [
+    "downtempo",
+    3
+   ],
+   [
+    "no wave",
+    3
+   ],
+   [
+    "darkwave",
+    3
+   ],
+   [
+    "trance",
+    1
+   ]
+  ]
+ },
+ "yanamaste": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    6
+   ]
+  ],
+  "n": 6,
+  "styles": [
+   [
+    "techno",
+    6
+   ],
+   [
+    "bass music",
+    1
+   ],
+   [
+    "industrial",
     1
    ]
   ]

@@ -136,16 +136,17 @@
  {
   "name": "DJ Isaac",
   "main": [
-   "Hardcore",
-   "Hardstyle"
+   "Hardstyle",
+   "Hardcore"
   ],
   "sub": [
    "Gabber"
   ],
   "sources": [
+   "https://nl.wikipedia.org/wiki/DJ_Isaac",
    "https://musicbrainz.org/artist/c46d3fa5-83a7-4a07-b2c4-428946bf84d9"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "Fox Stevenson",
@@ -229,9 +230,10 @@
    "Rawstyle"
   ],
   "sources": [
+   "https://www.discogs.com/artist/7233886-Vertile",
    "https://musicbrainz.org/artist/83cb5a5e-d5c9-4d63-9917-a02e2e7d4e7b"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "Phuture Noize",
@@ -240,9 +242,10 @@
   ],
   "sub": [],
   "sources": [
+   "https://nl.wikipedia.org/wiki/Phuture_Noize",
    "https://musicbrainz.org/artist/5347c7dc-a8bd-4a05-8ae1-a17fb1e6a388"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "Partyraiser",
@@ -250,12 +253,14 @@
    "Hardcore"
   ],
   "sub": [
+   "Uptempo",
    "Gabber"
   ],
   "sources": [
-   "https://musicbrainz.org/artist/9c6a8a2d-918a-47b6-aa20-3e8b4c2aad2b"
+   "https://fr.wikipedia.org/wiki/Wesley_van_Swol",
+   "https://nl.wikipedia.org/wiki/Partyraiser"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "Timmy Trumpet",
