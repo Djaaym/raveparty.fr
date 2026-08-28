@@ -2903,14 +2903,6 @@
   "n": 1,
   "name": "Christine Benz"
  },
- "christoph": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Christoph"
- },
  "christy-moore": {
   "genres": {
    "House": 1,
@@ -3204,10 +3196,10 @@
  },
  "cristoph": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Cristoph"
  },
  "crooked-minds": {
@@ -3366,6 +3358,14 @@
   },
   "n": 1,
   "name": "Daft Funk Live"
+ },
+ "daichi-wada": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Daichi Wada"
  },
  "daisy": {
   "genres": {
@@ -3866,14 +3866,6 @@
   },
   "n": 1,
   "name": "Devin Wild"
- },
- "diachi-wada": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Diachi Wada"
  },
  "diamanda-galas": {
   "genres": {
@@ -5737,14 +5729,6 @@
   "n": 1,
   "name": "Furax"
  },
- "furcht": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Furcht"
- },
  "furyan": {
   "genres": {
    "Hardcore": 2,
@@ -6810,6 +6794,14 @@
   },
   "n": 1,
   "name": "Imperia"
+ },
+ "in-furcht": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "In Furcht"
  },
  "in-verruf": {
   "genres": {

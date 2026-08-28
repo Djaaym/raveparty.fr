@@ -47,15 +47,20 @@ export interface ArtistStyle {
 /* STYLES:start — généré par .research/artists/genres.py, ne pas éditer à la main */
 export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "1200-micrograms": { m: ["Psytrance"], s: [], src: "wikidata" }, // 1200 Micrograms
+  "2-engel-charlie": { m: ["EDM", "Hardstyle"], s: ["Hands Up"], src: "research" }, // 2 Engel & Charlie
   "25emeheure": { m: ["Hard Techno", "Techno"], s: ["Schranz", "Hardgroove", "Hard Trance"], src: "research" }, // 25emeheure
   "2hot2play": { m: ["Hard Techno", "Techno", "Trance"], s: ["Hard House"], src: "research" }, // 2HOT2PLAY
   "2manydjs": { m: ["House", "Techno"], s: ["Breakbeat", "Disco"], src: "research" }, // 2ManyDJs
+  "36framez": { m: ["House"], s: ["Deep House"], src: "research" }, // 36framez
   "5napback": { m: ["House", "EDM", "Hardstyle"], s: ["Electro House", "Progressive House"], src: "research" }, // 5NAPBACK
   "6ejou": { m: ["Hard Techno", "Techno", "Hardcore"], s: ["Downtempo", "Industrial"], src: "discogs" }, // 6Ejou
   "808-state": { m: ["Techno", "House"], s: ["Acid House", "Breakbeat"], src: "research" }, // 808 State
   "999999999": { m: ["Acid Techno", "Techno"], s: [], src: "discogs+last.fm" }, // 999999999
+  "a-c-killer": { m: ["Hardcore"], s: ["Breakcore"], src: "research" }, // A.C.Killer
+  "a-for-alpha": { m: ["House", "Techno"], s: ["UK Garage", "Tech House", "Breakbeat"], src: "research" }, // A For Alpha
   "a-guy-called-gerald": { m: ["House", "Drum & Bass"], s: ["Acid House", "Jungle"], src: "research" }, // A Guy Called Gerald
   "a-m-c": { m: ["Drum & Bass"], s: ["Neurofunk", "Jump Up"], src: "research" }, // A.M.C
+  "a-n-z": { m: ["House", "Techno", "Trance"], s: ["Eurodance"], src: "research" }, // A.N.Z
   "a-s-y-s": { m: ["Acid Techno", "Trance", "Techno"], s: ["Hard Trance"], src: "discogs" }, // A*S*Y*S
   "a-teens": { m: ["House"], s: ["Europop", "Eurodance", "Euro House"], src: "research" }, // A*Teens
   "aaron-hibell": { m: ["House", "Techno", "Trance"], s: ["Progressive House", "Ambient", "Downtempo"], src: "discogs" }, // Aaron Hibell
@@ -65,8 +70,11 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "abul-mogard": { m: ["Techno"], s: ["Ambient"], src: "discogs" }, // Abul Mogard
   "acid-arab": { m: ["House", "Techno"], s: ["Acid House"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Acid Arab
   "acid-pauli": { m: ["House", "Techno"], s: ["Downtempo", "Minimal Techno", "Deep House"], src: "research" }, // Acid Pauli
+  "acidpach": { m: ["Acid Techno", "Hard Techno", "Techno"], s: ["Freetekno", "Tribal Techno"], src: "research" }, // Acidpach
   "act-of-rage": { m: ["Hardstyle"], s: ["Rawstyle"], src: "research" }, // Act of Rage
+  "actress-m": { m: ["House"], s: ["Italo Disco", "Dark Disco", "EBM"], src: "research" }, // Actress M
   "adam-beyer": { m: ["Techno"], s: ["Minimal Techno", "Tech House", "Breakbeat"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Adam Beyer
+  "adam-f": { m: ["Drum & Bass"], s: ["Jungle", "Breakbeat"], src: "research" }, // Adam F
   "adam-ten": { m: ["House", "Techno"], s: ["Melodic House", "Indie Dance"], src: "research" }, // Adam Ten
   "adaro": { m: ["Hardstyle"], s: ["Rawstyle"], src: "research" }, // Adaro
   "adene": { m: ["Techno"], s: [], src: "discogs" }, // Adene
@@ -80,9 +88,12 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "agnes": { m: ["House"], s: ["Disco", "Dance-pop", "Europop"], src: "research" }, // Agnes
   "agoria": { m: ["Techno", "House"], s: ["Tech House", "Electro", "Deep House"], src: "discogs" }, // Agoria
   "aja-gulris": { m: ["Techno"], s: ["Melodic Techno"], src: "research" }, // Aja Gulris
+  "ajja": { m: ["Psytrance"], s: ["Downtempo", "Progressive Trance"], src: "research" }, // Ajja
+  "akimbo": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Akimbo
   "akirah": { m: ["Drum & Bass"], s: ["Dubstep"], src: "discogs" }, // Akirah
   "alan-fitzpatrick": { m: ["Techno"], s: ["Tech House", "Progressive House", "Minimal Techno"], src: "discogs" }, // Alan Fitzpatrick
   "alarico": { m: ["Techno"], s: ["Hardgroove", "Industrial Techno"], src: "research" }, // Alarico
+  "alarico-pres-kenji-hina": { m: ["Techno", "Hard Techno"], s: ["Hardgroove", "Tribal Techno"], src: "research" }, // Alarico pres. Kenji Hina
   "alex-kassian": { m: ["House", "Techno"], s: ["Balearic", "Ambient", "Deep House"], src: "discogs" }, // Alex Kassian
   "alex-stein": { m: ["Techno"], s: ["Tech House", "Euro House", "Progressive Trance"], src: "discogs" }, // Alex Stein
   "alex-wann": { m: ["House"], s: ["Progressive House", "Deep House", "Tribal House"], src: "discogs" }, // Alex Wann
@@ -94,8 +105,11 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "alison-wonderland": { m: ["EDM"], s: ["Future Bass", "Dubstep"], src: "research" }, // Alison Wonderland
   "alix-perez": { m: ["Drum & Bass"], s: ["Liquid Drum & Bass", "Halftime", "Dubstep"], src: "research" }, // Alix Perez
   "alok": { m: ["EDM", "House"], s: ["Bass House", "Deep House", "Brazilian Bass"], src: "research" }, // Alok
+  "alt8": { m: ["Hard Techno", "Techno"], s: ["Electro"], src: "research" }, // ALT8
   "altinbas": { m: ["Techno"], s: ["Experimental"], src: "discogs" }, // Altinbas
   "alycia-bezgo": { m: ["Techno", "Hard Techno", "Trance"], s: ["Hardgroove"], src: "research" }, // Alycia Bezgo
+  "amada": { m: ["Hardcore"], s: [], src: "research" }, // Amada
+  "amara": { m: ["Hard Techno"], s: ["Schranz", "Industrial Techno"], src: "research" }, // Amara
   "amber-broos": { m: ["Techno", "House"], s: ["Tech House"], src: "research" }, // Amber Broos
   "ame": { m: ["House", "Techno"], s: ["Deep House", "Melodic House", "Melodic Techno"], src: "research" }, // Âme
   "amelia-holt": { m: ["Techno"], s: ["Downtempo", "Experimental", "Trip-Hop"], src: "discogs" }, // Amelia Holt
@@ -107,6 +121,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "anastasia-rose": { m: ["EDM"], s: ["Electro House"], src: "discogs" }, // Anastasia Rose
   "anders-hp": { m: ["House", "Techno"], s: ["Melodic House", "Progressive House"], src: "research" }, // Anders HP
   "andhim": { m: ["House"], s: ["Tech House"], src: "research" }, // Andhim
+  "andre-visior": { m: ["Trance"], s: ["Hard Trance", "Progressive Trance"], src: "research" }, // Andre Visior
   "andreas-kraemer": { m: ["Techno"], s: [], src: "discogs" }, // Andreas Kraemer
   "andres-campo": { m: ["Techno"], s: ["Tech House"], src: "discogs" }, // Andrés Campo
   "andrew-azara": { m: ["House"], s: ["Tech House", "Deep House", "Minimal Techno"], src: "discogs" }, // Andrew Azara
@@ -118,6 +133,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "anika-kunst": { m: ["Techno", "House"], s: ["Peak Time Techno"], src: "research" }, // Anika Kunst
   "anime": { m: ["Hardcore", "Hardstyle"], s: ["Gabber", "Uptempo"], src: "research" }, // AniMe
   "anna-reusch": { m: ["Techno"], s: ["Tech House"], src: "discogs" }, // Anna Reusch
+  "annasnel": { m: ["House", "Acid Techno"], s: ["Progressive House"], src: "research" }, // ANNASNEL
   "annie": { m: ["Techno", "House"], s: ["Electro"], src: "discogs" }, // Annie
   "annie-mac": { m: ["House", "Techno", "Drum & Bass"], s: ["Electro", "Electro House"], src: "discogs" }, // Annie Mac
   "anstandslos-durchgeknallt": { m: ["House", "EDM"], s: ["Deep House", "Hands Up", "Dance-Pop"], src: "research" }, // Anstandslos & Durchgeknallt
@@ -127,22 +143,27 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "antonym": { m: ["Techno"], s: ["Experimental", "Industrial", "Ambient"], src: "discogs" }, // Antonym
   "anyma": { m: ["Techno", "House"], s: ["Melodic Techno", "Melodic House", "Progressive House"], src: "research" }, // Anyma
   "anz": { m: ["Drum & Bass", "House"], s: ["Grime", "Bass Music", "Dubstep"], src: "discogs" }, // Anz
+  "aph-tic": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // Aphøtic
   "aphex-twin": { m: ["Techno", "Acid Techno"], s: ["Ambient Techno", "IDM", "Experimental"], src: "discogs+wikidata" }, // Aphex Twin
   "aphrodite": { m: ["Drum & Bass"], s: ["Jungle"], src: "discogs" }, // Aphrodite
   "apocalipse": { m: ["Hard Techno"], s: ["Industrial Techno"], src: "research" }, // Apocalipse
   "apparat": { m: ["Techno"], s: ["Ambient", "IDM", "Downtempo"], src: "research" }, // Apparat
   "aquagen": { m: ["Trance"], s: ["Hard Trance", "Hard House"], src: "discogs" }, // Aquagen
+  "ar-gang": { m: ["Hardstyle"], s: ["Rawstyle", "Uptempo"], src: "research" }, // AR Gang
   "arca": { m: ["Techno"], s: ["Experimental", "Leftfield", "Bass Music"], src: "discogs" }, // Arca
   "archie-hamilton": { m: ["House", "Techno"], s: ["Tech House", "Minimal Techno", "Deep House"], src: "discogs" }, // Archie Hamilton
   "argy": { m: ["House", "Techno"], s: ["Tech House", "Melodic Techno"], src: "research" }, // Argy
+  "arjuna": { m: ["Psytrance"], s: ["Forest", "Goa Trance"], src: "research" }, // Arjuna
   "armand-van-helden": { m: ["House"], s: ["Speed Garage", "Nu-Disco", "Big Beat"], src: "research" }, // Armand van Helden
   "armin-van-buuren": { m: ["Trance"], s: ["Progressive Trance", "Vocal Trance", "Uplifting Trance"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Armin van Buuren
   "arovane": { m: ["Techno"], s: ["Ambient", "IDM", "Experimental"], src: "discogs" }, // Arovane
   "art-of-fighters": { m: ["Hardcore"], s: ["Gabber"], src: "discogs+wikidata" }, // Art of Fighters
   "artbat": { m: ["Techno", "House"], s: ["Melodic Techno", "Melodic House"], src: "research" }, // ARTBAT
+  "artifact": { m: ["Hardstyle"], s: [], src: "research" }, // Artifact
   "artino": { m: ["Drum & Bass"], s: [], src: "discogs" }, // Artino
   "asco": { m: ["EDM", "House", "Trance"], s: ["Electro House", "Progressive House", "Progressive Trance"], src: "discogs" }, // Asco
   "asdek": { m: ["House", "EDM"], s: ["Electro House"], src: "discogs" }, // Asdek
+  "ash-lauryn": { m: ["House"], s: ["Deep House"], src: "research" }, // Ash Lauryn
   "astral-projection": { m: ["Psytrance"], s: ["Goa Trance"], src: "discogs+wikidata" }, // Astral Projection
   "athenalys": { m: ["Hardcore", "Hard Techno"], s: [], src: "discogs" }, // Athenalys
   "atmozfears": { m: ["Hardstyle"], s: ["Happy Hardcore"], src: "discogs+wikidata" }, // Atmozfears
@@ -151,16 +172,23 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "aurora-halal": { m: ["Techno"], s: ["Electro", "Ambient"], src: "research" }, // Aurora Halal
   "austher": { m: ["Techno", "House"], s: ["EBM", "Italo Disco"], src: "discogs" }, // Austher
   "autechre": { m: ["Techno"], s: ["Experimental", "IDM", "Ambient Techno"], src: "discogs+musicbrainz" }, // Autechre
+  "autodrive": { m: ["Drum & Bass"], s: [], src: "research" }, // Autodrive
+  "autopski": { m: ["Drum & Bass"], s: [], src: "research" }, // Autopski
+  "avalon": { m: ["Psytrance"], s: ["Goa Trance", "Progressive Trance"], src: "research" }, // Avalon
   "aversion": { m: ["Hardstyle", "Hardcore"], s: [], src: "discogs" }, // Aversion
   "avi8": { m: ["Hardstyle"], s: ["Happy Hardcore"], src: "discogs" }, // Avi8
   "axmo": { m: ["EDM", "Hardstyle"], s: ["Electro House", "Happy Hardcore", "Hands Up"], src: "research" }, // Axmo
   "axwell": { m: ["House", "EDM"], s: ["Progressive House"], src: "research" }, // Axwell
+  "ayah-marar": { m: ["Drum & Bass", "House"], s: ["Dubstep", "Electro House"], src: "research" }, // Ayah Marar
   "ayla": { m: ["Trance"], s: ["Downtempo", "Ambient", "Progressive Trance"], src: "discogs+wikidata" }, // Ayla
   "azuur": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // Azuur
   "azyr": { m: ["Hard Techno", "Techno"], s: ["Hard Dance"], src: "research" }, // Azyr
   "b-ery": { m: ["Hard Techno"], s: ["Industrial Techno", "Bochka"], src: "research" }, // BØĘRY
   "b-front": { m: ["Hardstyle"], s: [], src: "discogs+wikidata" }, // B-Front
+  "b1980": { m: ["Techno"], s: ["EBM", "Industrial Techno", "Electro"], src: "research" }, // B1980
+  "baboush": { m: ["Hardcore", "Hard Techno"], s: ["Hard Dance", "Neo Rave"], src: "research" }, // Baboush
   "babyschon": { m: ["House"], s: ["New Beat", "Synth-pop", "Electro"], src: "research" }, // babyschön
+  "badsista": { m: ["Techno", "House"], s: ["Baile Funk", "Bass House", "Breakbeat"], src: "research" }, // Badsista
   "bapari": { m: ["Techno", "Drum & Bass"], s: [], src: "discogs" }, // Bapari
   "barbara-butch": { m: ["House"], s: ["Disco"], src: "research" }, // Barbara Butch
   "barber": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Barber
@@ -168,6 +196,8 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "bart-skils": { m: ["Techno", "House"], s: ["Tech House"], src: "discogs" }, // Bart Skils
   "basement-jaxx": { m: ["Techno", "House"], s: ["Electronica"], src: "discogs+wikidata" }, // Basement Jaxx
   "bashkka": { m: ["Techno", "House"], s: ["Breakbeat", "Tech House"], src: "discogs" }, // BASHKKA
+  "bass-d": { m: ["Hardcore"], s: ["Gabber"], src: "research" }, // Bass-D
+  "battery": { m: ["Drum & Bass"], s: [], src: "research" }, // Battery
   "batu": { m: ["Techno"], s: ["Experimental", "Ambient", "Bass Music"], src: "discogs" }, // Batu
   "beau-didier": { m: ["Techno"], s: ["Hardgroove"], src: "research" }, // Beau Didier
   "bedouin": { m: ["House"], s: ["Melodic House", "Deep House", "Organic House"], src: "research" }, // Bedouin
@@ -186,6 +216,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "biia": { m: ["Techno"], s: [], src: "discogs" }, // Biia
   "biianco": { m: ["House"], s: [], src: "discogs" }, // Biianco
   "biocym": { m: ["Techno"], s: ["Deep Techno"], src: "discogs" }, // Biocym
+  "bitter-babe": { m: ["Techno", "House"], s: ["Guaracha", "Breakbeat"], src: "research" }, // Bitter Babe
   "bjork": { m: ["Techno"], s: ["Experimental", "IDM", "Leftfield"], src: "discogs" }, // Björk
   "bjorn-mulik": { m: ["House", "Techno"], s: ["Tech House", "Deep House", "Progressive House"], src: "discogs" }, // Björn Mulik
   "black-coffee": { m: ["House"], s: ["Afro House", "Deep House"], src: "research" }, // Black Coffee
@@ -193,6 +224,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "blackburn-aeros": { m: ["Hardstyle"], s: [], src: "discogs" }, // Blackburn & Aeros
   "blackhaine": { m: ["Techno"], s: ["Experimental", "Grime", "Industrial"], src: "discogs" }, // Blackhaine
   "blanke": { m: ["Drum & Bass", "Techno", "EDM"], s: ["Dubstep", "Ambient"], src: "discogs" }, // Blanke
+  "blanko": { m: ["Drum & Bass"], s: [], src: "research" }, // Blanko
   "blasterjaxx": { m: ["EDM", "House"], s: ["Big Room", "Electro House"], src: "research" }, // Blasterjaxx
   "blastoyz": { m: ["Psytrance", "Trance"], s: ["Full-On", "Progressive Trance"], src: "research" }, // Blastoyz
   "blawan": { m: ["Techno"], s: ["Industrial Techno"], src: "research" }, // Blawan
@@ -200,6 +232,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "blond-ish": { m: ["House", "Techno"], s: ["Melodic House", "Afro House", "Organic House"], src: "research" }, // Blond:ish
   "bloody-mary": { m: ["Techno", "Acid Techno"], s: ["Minimal Techno"], src: "research" }, // Bloody Mary
   "bob-sinclar": { m: ["House", "EDM"], s: ["Electro House", "French House", "Hip House"], src: "discogs+last.fm+musicbrainz" }, // Bob Sinclar
+  "bobby-6-killa": { m: ["Drum & Bass"], s: [], src: "research" }, // Bobby 6 Killa
   "bon-entendeur": { m: ["House"], s: ["Disco", "Nu-Disco", "French Touch"], src: "research" }, // Bon Entendeur
   "bontan": { m: ["House"], s: ["Tech House", "Deep House", "Tribal House"], src: "discogs" }, // Bontan
   "bonzai-all-stars": { m: ["Trance", "Techno"], s: ["Electro", "Hard Trance", "Tech Trance"], src: "discogs" }, // Bonzai All Stars
@@ -211,9 +244,12 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "bou": { m: ["Drum & Bass"], s: ["Jump-Up"], src: "research" }, // Bou
   "bovski": { m: ["House", "Techno"], s: ["UK Garage", "Hypertechno", "Eurodance"], src: "research" }, // BOVSKI
   "bow-miller": { m: ["House"], s: ["Slow House", "Deep House", "Organic House"], src: "research" }, // Bow Miller
+  "boycot": { m: ["Drum & Bass"], s: [], src: "research" }, // Boycot
   "boys-noize": { m: ["Techno", "House", "Acid Techno"], s: ["Electro"], src: "research" }, // Boys Noize
+  "bradley-zero": { m: ["House"], s: ["Deep House", "Disco", "Broken Beat"], src: "research" }, // Bradley Zero
   "brainrape": { m: ["Hardcore"], s: ["Industrial"], src: "discogs" }, // Brainrape
   "break": { m: ["Drum & Bass"], s: ["Disco"], src: "discogs" }, // Break
+  "breaze": { m: ["EDM"], s: ["Hypertechno"], src: "research" }, // Breaze
   "bredren": { m: ["Drum & Bass"], s: [], src: "research" }, // Bredren
   "brennan-heart": { m: ["Hardstyle"], s: ["Euphoric Hardstyle"], src: "research" }, // Brennan Heart
   "brent-honey": { m: ["Techno", "Trance"], s: ["Hardgroove", "Hard House"], src: "research" }, // Brent Honey
@@ -223,12 +259,16 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "brooklyn-bounce": { m: ["Trance", "House", "Hardstyle"], s: ["Hard Trance", "Hands Up", "Euro House"], src: "research" }, // Brooklyn Bounce
   "bt": { m: ["Techno", "Trance", "House"], s: ["Progressive House", "Breakbeat", "Electronica"], src: "discogs+wikidata" }, // BT
   "bufiman": { m: ["House", "Techno"], s: ["Breakbeat", "Disco", "Leftfield"], src: "discogs" }, // Bufiman
+  "bulletproof": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Bulletproof
   "buraka-som-sistema": { m: ["Techno"], s: ["Breakbeat"], src: "discogs+wikidata" }, // Buraka Som Sistema
   "burr-oak": { m: ["Drum & Bass"], s: ["Bassline", "Downtempo", "Halftime"], src: "discogs" }, // Burr Oak
   "busy-p": { m: ["House"], s: ["Electro", "French House"], src: "research" }, // Busy P
+  "buunshin": { m: ["Drum & Bass"], s: ["Halftime", "Dubstep"], src: "research" }, // Buunshin
+  "buzzfuzz": { m: ["Hardcore"], s: ["Gabber", "Happy Hardcore"], src: "research" }, // Buzzfuzz
   "byorn": { m: ["Hard Techno"], s: [], src: "discogs" }, // BYORN
   "caiva": { m: ["Techno", "Trance"], s: [], src: "discogs" }, // Caiva
   "call-super": { m: ["Techno", "House"], s: ["Deep House", "Minimal Techno", "Ambient"], src: "research" }, // Call Super
+  "callush": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno", "Schranz", "Hardgroove"], src: "research" }, // Callush
   "calvin-clarke": { m: ["House"], s: ["Tech House"], src: "discogs" }, // Calvin Clarke
   "calvin-harris": { m: ["House", "EDM"], s: ["Nu-Disco", "Disco", "Electro House"], src: "discogs+last.fm+musicbrainz" }, // Calvin Harris
   "camelphat": { m: ["House"], s: ["Tech House", "Melodic House"], src: "research" }, // CamelPhat
@@ -245,13 +285,16 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "carl-stone": { m: ["Techno"], s: ["Experimental"], src: "discogs" }, // Carl Stone
   "carla-schmitt": { m: ["Techno"], s: [], src: "discogs" }, // Carla Schmitt
   "carlita": { m: ["House", "Techno"], s: [], src: "research" }, // Carlita
+  "carly-zeng": { m: ["House", "Techno"], s: ["Tribal House", "Progressive House", "Minimal Techno"], src: "research" }, // Carly Zeng
   "cassie-raptor": { m: ["Techno", "Trance"], s: ["Hard Trance", "Breakbeat", "IDM"], src: "discogs" }, // Cassie Raptor
   "cassius": { m: ["House"], s: ["French House", "Disco"], src: "research" }, // Cassius
   "cassy": { m: ["House", "Techno"], s: ["Minimal Techno", "Tech House", "Deep House"], src: "discogs" }, // Cassy
+  "cc-disco": { m: ["House"], s: ["Disco", "Nu-Disco", "Balearic"], src: "research" }, // CC:DISCO!
   "ccl": { m: ["Techno", "Drum & Bass"], s: ["Bass Music", "Breakbeat", "Dubstep"], src: "discogs" }, // CCL
   "cedex-higher-underground": { m: ["Drum & Bass"], s: [], src: "research" }, // Cedex & Higher Underground
   "cedric": { m: ["Techno", "House"], s: ["Melodic House", "Afro House"], src: "research" }, // Cédric
   "cera-khin": { m: ["Techno"], s: ["Ambient", "Experimental", "Electro"], src: "discogs" }, // Cera Khin
+  "cerj": { m: ["Techno", "House"], s: ["Melodic Techno", "Melodic House"], src: "research" }, // Cerj
   "chain-reaction": { m: ["Hardstyle"], s: ["Rawstyle"], src: "research" }, // Chain Reaction
   "chaos-project": { m: ["Hardcore"], s: [], src: "discogs" }, // Chaos Project
   "charlie-sparks": { m: ["Techno", "Hard Techno"], s: ["Hard Trance"], src: "discogs" }, // Charlie Sparks
@@ -264,8 +307,10 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "chlar": { m: ["Techno"], s: ["Minimal Techno", "Tech Trance"], src: "discogs+musicbrainz" }, // Chlär
   "chloe": { m: ["House", "Techno"], s: ["Tech House", "Deep House", "Minimal Techno"], src: "discogs" }, // CHLOE
   "chloe-caillet": { m: ["House"], s: ["Bassline", "Breakbeat", "Deep House"], src: "discogs+musicbrainz" }, // Chloé Caillet
+  "chouhal": { m: ["Techno", "Hard Techno"], s: [], src: "research" }, // chouhal
   "chris-avantgarde": { m: ["House", "Techno"], s: ["Progressive House", "Electro", "Tech House"], src: "discogs" }, // Chris Avantgarde
   "chris-liebing": { m: ["Techno", "Hard Techno"], s: ["Schranz", "Minimal Techno", "Tech House"], src: "research" }, // Chris Liebing
+  "chris-rinox": { m: ["Hard Techno", "Techno"], s: ["Minimal Techno"], src: "research" }, // Chris Rinox
   "chris-stussy": { m: ["House"], s: ["Deep House"], src: "discogs+last.fm" }, // Chris Stussy
   "christian-loffler": { m: ["House", "Techno"], s: ["Deep House", "Ambient", "Downtempo"], src: "research" }, // Christian Löffler
   "christine-benz": { m: ["Techno", "House"], s: ["Minimal Techno", "Dub Techno", "Tech House"], src: "discogs" }, // Christine Benz
@@ -273,6 +318,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "chz": { m: ["Techno", "Hardcore"], s: ["Breakbeat"], src: "discogs" }, // CHZ
   "ciaran-mcauley": { m: ["Trance"], s: ["Progressive Trance"], src: "discogs" }, // Ciaran McAuley
   "cinthie": { m: ["House", "Techno"], s: ["Deep House", "UK Garage"], src: "research" }, // Cinthie
+  "circadian": { m: ["Drum & Bass"], s: [], src: "research" }, // Circadian
   "clank-maider": { m: ["Drum & Bass"], s: [], src: "discogs" }, // Clank & Maider
   "clara-cuve": { m: ["Techno"], s: ["Breakbeat", "Jungle", "Hardgroove"], src: "research" }, // Clara Cuvé
   "claudio-prc": { m: ["Techno"], s: ["Ambient", "Deep Techno", "Experimental"], src: "discogs" }, // Claudio PRC
@@ -281,15 +327,17 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "cloudy": { m: ["Techno"], s: ["Dub Techno", "Ambient"], src: "discogs" }, // Cloudy
   "cobrah": { m: ["EDM", "House"], s: ["Electropop", "Hip House"], src: "wikidata" }, // Cobrah
   "code-black": { m: ["Hardstyle"], s: [], src: "wikidata" }, // Code Black
+  "colette": { m: ["House"], s: ["Deep House", "Electro"], src: "research" }, // Colette
   "complex": { m: ["Hardstyle"], s: [], src: "research" }, // Complex
   "comrade-winston": { m: ["Techno"], s: [], src: "discogs" }, // Comrade Winston
   "coone": { m: ["Hardstyle"], s: ["Jumpstyle"], src: "research" }, // Coone
+  "corentin-mab": { m: ["House"], s: ["Deep House", "Tech House", "Disco"], src: "research" }, // Corentin Mab
   "cosmic-gate": { m: ["Trance"], s: [], src: "research" }, // Cosmic Gate
   "craig-connelly": { m: ["Trance"], s: ["Progressive Trance"], src: "discogs" }, // Craig Connelly
   "craig-richards": { m: ["Techno", "House"], s: ["Tech House", "Electro", "Minimal Techno"], src: "discogs" }, // Craig Richards
   "crazy-p": { m: ["House", "Techno"], s: ["Deep House", "Disco", "Downtempo"], src: "wikidata" }, // Crazy P
   "creeds": { m: ["Hardcore", "Techno", "Hardstyle"], s: ["Electro", "Frenchcore"], src: "discogs+wikidata" }, // Creeds
-  "cristoph": { m: ["House"], s: ["Tech House", "Progressive House", "Deep House"], src: "discogs" }, // Cristoph
+  "cristoph": { m: ["House"], s: ["Progressive House", "Melodic House", "Tech House"], src: "research" }, // Cristoph
   "cross-the-fingers": { m: ["Drum & Bass"], s: [], src: "research" }, // Cross The Fingers
   "crypsis": { m: ["Hardstyle"], s: [], src: "discogs" }, // Crypsis
   "crystallmess": { m: ["Techno", "Drum & Bass"], s: ["Bass Music", "IDM", "Footwork"], src: "discogs" }, // Crystallmess
@@ -300,16 +348,21 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "cynthia-spiering": { m: ["Hard Techno", "Techno", "Acid Techno"], s: ["Hardgroove"], src: "research" }, // Cynthia Spiering
   "d-block-s-te-fan": { m: ["Hardstyle", "EDM"], s: ["Electro House", "Happy Hardcore"], src: "discogs+musicbrainz" }, // D-Block & S-te-Fan
   "d-fence": { m: ["Hardcore"], s: ["Euro House", "Jumpstyle"], src: "discogs" }, // D-Fence
+  "d-frek": { m: ["Hardcore"], s: ["Frenchcore"], src: "research" }, // D-Frek
+  "d-razor": { m: ["Hardcore"], s: [], src: "research" }, // D-Razor
   "d-sturb": { m: ["Hardstyle"], s: [], src: "discogs" }, // D-Sturb
   "d-tiffany": { m: ["Techno"], s: ["Deep House", "Breakbeat", "Ambient"], src: "discogs+wikidata" }, // D. Tiffany
+  "d-trich": { m: ["Drum & Bass"], s: ["Jungle", "UK Garage", "Dubstep"], src: "research" }, // D-Trich
   "da-tweekaz": { m: ["Hardstyle"], s: ["Happy Hardcore"], src: "discogs+wikidata" }, // Da Tweekaz
   "daft-funk-live": { m: ["House"], s: ["French House", "Electro", "Disco"], src: "research" }, // Daft Funk Live
   "damian-lazarus": { m: ["House", "Techno"], s: ["Tech House", "Deep House", "Melodic House"], src: "research" }, // Damian Lazarus
   "damien-rk": { m: ["Hardstyle", "Hardcore"], s: ["Rawstyle", "Frenchcore", "Hard Trance"], src: "research" }, // Damien RK
   "dan-bono": { m: ["House"], s: ["Tech House", "Deep House"], src: "research" }, // Dan Bono
+  "dan-haward": { m: ["Techno"], s: ["Hardgroove"], src: "research" }, // Dan Haward
   "dan-shake": { m: ["House"], s: ["Disco", "Deep House"], src: "research" }, // Dan Shake
   "dana-ruh": { m: ["House", "Techno"], s: ["Minimal Techno", "Deep House", "Tech House"], src: "discogs" }, // Dana Ruh
   "daniel-avery": { m: ["Techno", "Acid Techno"], s: ["Industrial Techno", "Ambient"], src: "research" }, // Daniel Avery
+  "danke-al": { m: ["Techno", "Acid Techno"], s: ["Hard Trance", "Rave"], src: "research" }, // Danke Al
   "danou-p": { m: ["House"], s: ["Deep House"], src: "discogs" }, // Danou P
   "danth": { m: ["House", "EDM", "Hardstyle"], s: ["Future House", "Big Room"], src: "research" }, // Danth
   "daphni": { m: ["House", "Techno"], s: ["Leftfield", "Disco", "Experimental"], src: "discogs" }, // Daphni
@@ -320,6 +373,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "darkside": { m: ["House"], s: ["Downtempo", "Left-field House", "Neo-psychedelia"], src: "research" }, // DARKSIDE
   "darrell-pulse": { m: ["Techno"], s: [], src: "research" }, // Darrell Pulse
   "darren-emerson": { m: ["Techno", "House"], s: ["Tech House", "Progressive House"], src: "discogs+wikidata" }, // Darren Emerson
+  "dart": { m: ["House"], s: ["Hard House", "Hard Trance"], src: "research" }, // DART
   "darude": { m: ["Trance"], s: ["Hard Trance"], src: "discogs+wikidata" }, // Darude
   "dasha-rush": { m: ["Techno"], s: ["Experimental", "Ambient", "Minimal Techno"], src: "discogs" }, // Dasha Rush
   "dave-clarke": { m: ["Techno"], s: ["Electro"], src: "research" }, // Dave Clarke
@@ -333,6 +387,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "dean-turnley": { m: ["Techno", "House"], s: ["Bass Music", "Deep House", "Deep Techno"], src: "discogs" }, // Dean Turnley
   "debit": { m: ["Techno"], s: ["Experimental", "Ambient"], src: "discogs" }, // Debit
   "deborah-de-luca": { m: ["Techno"], s: ["Peak Time Techno"], src: "discogs+musicbrainz" }, // Deborah De Luca
+  "decode": { m: ["Hardcore"], s: ["Gabber"], src: "research" }, // Decode
   "deena-abdelwahed": { m: ["Techno"], s: ["Experimental", "IDM", "Electro"], src: "discogs" }, // Deena Abdelwahed
   "deetox": { m: ["Hardstyle"], s: [], src: "discogs" }, // Deetox
   "degos-re-done": { m: ["Hardstyle"], s: [], src: "discogs" }, // Degos & Re-Done
@@ -343,7 +398,9 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "dennis-cruz": { m: ["House", "Techno"], s: ["Tech House", "Deep House"], src: "research" }, // Dennis Cruz
   "dennis-ferrer": { m: ["House"], s: ["Deep House"], src: "discogs+wikidata" }, // Dennis Ferrer
   "derrick-carter": { m: ["House"], s: ["Deep House", "Tech House", "Disco"], src: "discogs" }, // Derrick Carter
+  "desiree": { m: ["House"], s: ["Afro House", "Deep House"], src: "research" }, // Desiree
   "desiree-falessi": { m: ["Techno"], s: ["EBM", "Electro", "Leftfield"], src: "discogs" }, // Desirée Falessi
+  "desolate-discotheque": { m: ["Techno"], s: ["EBM", "Electro", "Disco"], src: "research" }, // Desolate Discotheque
   "devin-wild": { m: ["Hardstyle"], s: [], src: "discogs" }, // Devin Wild
   "diamanda-galas": { m: ["Techno"], s: ["Experimental"], src: "discogs" }, // Diamanda Galás
   "didz-mina": { m: ["Drum & Bass"], s: ["Liquid Drum & Bass", "Neurofunk"], src: "research" }, // Didz & Mina
@@ -352,7 +409,9 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "digitalism": { m: ["House", "Techno"], s: ["Electro", "Electro House", "Electroclash"], src: "research" }, // Digitalism
   "dillinja": { m: ["Drum & Bass"], s: ["Jungle"], src: "discogs+wikidata" }, // Dillinja
   "dimension": { m: ["Trance", "Drum & Bass"], s: ["Progressive Trance"], src: "discogs" }, // Dimension
+  "dimitri-from-paris": { m: ["House"], s: ["Disco", "Deep House"], src: "research" }, // Dimitri From Paris
   "dimitri-vegas": { m: ["House", "EDM"], s: ["Electro House", "Progressive House"], src: "discogs" }, // Dimitri Vegas
+  "dione": { m: ["Hardcore"], s: ["Gabber", "Uptempo"], src: "research" }, // Dione
   "dirty-doering": { m: ["House"], s: ["Tech House", "Deep House", "Progressive House"], src: "discogs" }, // Dirty Doering
   "disclosure": { m: ["House"], s: ["UK Garage", "Breakbeat", "Deep House"], src: "discogs+musicbrainz" }, // Disclosure
   "dissolver": { m: ["Techno"], s: ["Experimental"], src: "discogs" }, // Dissolver
@@ -364,7 +423,10 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "dj-bone": { m: ["Techno"], s: ["Detroit Techno"], src: "discogs+wikidata" }, // DJ Bone
   "dj-boring": { m: ["House"], s: ["Deep House", "Breakbeat"], src: "discogs" }, // DJ Boring
   "dj-breakfast": { m: ["Drum & Bass"], s: ["Jungle", "Breakbeat"], src: "research" }, // DJ Breakfast
+  "dj-caline": { m: ["Trance", "Hard Techno"], s: ["Hard Trance", "Bounce"], src: "research" }, // DJ Caline
+  "dj-camslut": { m: ["Hardcore"], s: ["Breakcore", "Uptempo", "Speedcore"], src: "research" }, // DJ CAMSLUT
   "dj-chuckie": { m: ["House", "EDM"], s: ["Electro House", "Tech House", "Electro"], src: "discogs" }, // DJ Chuckie
+  "dj-cosworth": { m: ["House"], s: ["UK Garage", "Speed Garage", "Tech House"], src: "research" }, // DJ Cosworth
   "dj-cringey": { m: ["Techno", "Acid Techno"], s: ["Hypertechno", "Hard House", "EBM"], src: "research" }, // DJ Cringey
   "dj-cruse": { m: ["Techno", "House"], s: ["Electro", "Tech House"], src: "discogs" }, // DJ Cruse
   "dj-dag": { m: ["Trance"], s: ["Progressive Trance", "Progressive House", "Hard Trance"], src: "discogs" }, // DJ Dag
@@ -380,6 +442,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "dj-krush": { m: ["Techno"], s: ["Trip-Hop", "Experimental", "Downtempo"], src: "discogs" }, // DJ Krush
   "dj-lycox": { m: ["Techno", "House"], s: ["Breakbeat"], src: "discogs" }, // DJ Lycox
   "dj-masda": { m: ["Techno", "House"], s: ["Breakbeat", "Electro", "Minimal Techno"], src: "discogs" }, // DJ Masda
+  "dj-mass": { m: ["House"], s: ["Tech House", "Disco", "Electro"], src: "research" }, // DJ Mass
   "dj-narciso": { m: ["House"], s: [], src: "discogs" }, // DJ Narciso
   "dj-nobu": { m: ["Techno"], s: ["Experimental", "Deep House", "Minimal Techno"], src: "discogs" }, // DJ Nobu
   "dj-paulette": { m: ["House"], s: ["Progressive House", "Garage House"], src: "discogs" }, // DJ Paulette
@@ -400,6 +463,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "donato-dozzy": { m: ["Techno"], s: ["Ambient", "Experimental"], src: "discogs" }, // Donato Dozzy
   "donis": { m: ["Techno"], s: ["Ambient", "Experimental"], src: "discogs" }, // Donis
   "dopplereffekt": { m: ["Techno"], s: ["Electro", "Experimental", "Ambient"], src: "discogs+wikidata" }, // Dopplereffekt
+  "dorian-craft": { m: ["House"], s: ["Tech House", "Deep House", "Progressive House"], src: "research" }, // Dorian Craft
   "doudou-md": { m: ["House", "Techno"], s: ["Deep House"], src: "research" }, // Doudou MD
   "dr-banana": { m: ["House", "Techno"], s: ["Breakbeat", "UK Garage", "Electro"], src: "discogs" }, // Dr Banana
   "dr-donk": { m: ["Hardcore"], s: ["Hard House", "Jumpstyle"], src: "discogs" }, // Dr Donk
@@ -407,13 +471,16 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "dr-peacock": { m: ["Hardcore"], s: ["Frenchcore"], src: "discogs+musicbrainz+wikidata" }, // Dr. Peacock
   "drea": { m: ["House"], s: ["Vocal House", "Afro House", "Bass House"], src: "research" }, // Drea
   "drumslave": { m: ["Drum & Bass"], s: [], src: "discogs" }, // Drumslave
+  "dt43": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // DT43
   "dual-damage": { m: ["Hardstyle"], s: ["Jumpstyle"], src: "discogs" }, // Dual Damage
   "dub-inc": { m: ["Drum & Bass", "House"], s: ["UK Garage"], src: "discogs" }, // Dub Inc
   "dubrunner": { m: ["Techno"], s: ["Breakbeat", "Dubstep"], src: "discogs" }, // Dubrunner
   "duke-dumont": { m: ["House", "EDM"], s: ["Deep House", "Tech House"], src: "research" }, // Duke Dumont
   "dumonde": { m: ["Trance"], s: ["Hard Trance"], src: "discogs" }, // Dumonde
   "dusky": { m: ["House", "Techno"], s: ["Deep House", "Tech House", "Breakbeat"], src: "research" }, // Dusky
+  "dvaid": { m: ["Hard Techno"], s: [], src: "research" }, // Dvaid
   "dvs1": { m: ["Techno"], s: ["Minimal Techno", "Hardgroove"], src: "research" }, // DVS1
+  "dwonji": { m: ["Drum & Bass"], s: [], src: "research" }, // Dwonji
   "dxnby": { m: ["House"], s: ["Tech House", "Deep House", "Speed Garage"], src: "discogs" }, // DXNBY
   "dyen": { m: ["Techno", "Hard Techno"], s: ["Industrial Techno"], src: "discogs+musicbrainz" }, // DYEN
   "e-force": { m: ["Hardstyle"], s: [], src: "discogs" }, // E-Force
@@ -427,9 +494,11 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "efdemin": { m: ["Techno", "House"], s: ["Deep House", "Minimal Techno", "Tech House"], src: "discogs" }, // Efdemin
   "einmusik": { m: ["House", "Techno"], s: ["Tech House", "Minimal Techno", "Deep House"], src: "discogs" }, // Einmusik
   "einsturzende-neubauten": { m: ["Techno"], s: ["Industrial", "Experimental"], src: "discogs" }, // Einstürzende Neubauten
+  "element": { m: ["Hardstyle"], s: ["Rawstyle"], src: "research" }, // Element
   "elemental": { m: ["Techno", "Drum & Bass"], s: ["Dubstep", "Ambient", "Downtempo"], src: "discogs" }, // Elemental
   "eli-brown": { m: ["House", "Techno"], s: ["Tech House"], src: "discogs" }, // Eli Brown
   "elias-mazian": { m: ["Techno", "House"], s: ["Electro", "Deep House", "Downtempo"], src: "discogs" }, // Elias Mazian
+  "eliasz": { m: ["House", "Techno"], s: ["Tech House", "Melodic Techno"], src: "research" }, // Eliasz
   "elisa-do-brasil": { m: ["Drum & Bass"], s: ["Dubstep", "Jungle"], src: "discogs" }, // Elisa Do Brasil
   "eliza-rose": { m: ["House"], s: ["UK Garage"], src: "discogs" }, // Eliza Rose
   "ellen-allien": { m: ["Techno"], s: ["Minimal Techno"], src: "discogs+musicbrainz+wikidata" }, // Ellen Allien
@@ -446,15 +515,20 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "enrico-sangiuliano": { m: ["Techno"], s: ["Experimental", "Ambient", "Breakbeat"], src: "discogs+musicbrainz" }, // Enrico Sangiuliano
   "enzo-siragusa": { m: ["House"], s: ["Tech House"], src: "discogs+last.fm" }, // Enzo Siragusa
   "eptic": { m: ["Drum & Bass"], s: ["Dubstep", "Electro House"], src: "discogs" }, // Eptic
+  "eric-cloutier": { m: ["Techno", "House"], s: ["Dub Techno", "Deep House", "Ambient"], src: "research" }, // Eric Cloutier
   "eric-prydz": { m: ["House"], s: ["Progressive House", "Tech House"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Eric Prydz
   "eris-drew": { m: ["House"], s: ["Breakbeat", "Rave", "Acid House"], src: "research" }, // Eris Drew
   "erol-alkan": { m: ["House", "Techno"], s: ["Acid House", "Electro", "Indie Dance"], src: "research" }, // Erol Alkan
   "eskei83": { m: ["Drum & Bass"], s: ["Dubstep", "Turntablism"], src: "research" }, // Eskei83
   "etienne-de-crecy": { m: ["House"], s: ["French House", "Electro House"], src: "research" }, // Etienne de Crécy
+  "evertwo": { m: ["Techno"], s: ["Melodic Techno"], src: "research" }, // EverTwo
   "evil-activities": { m: ["Hardcore"], s: ["Gabber", "Mainstream Hardcore"], src: "research" }, // Evil Activities
   "evil-grimace": { m: ["Hardcore", "Hard Techno"], s: ["Gabber"], src: "discogs" }, // Evil Grimace
+  "ewan-mcvicar": { m: ["House"], s: ["Tech House", "Breakbeat", "Speed Garage"], src: "research" }, // Ewan McVicar
+  "ex-echo": { m: ["Psytrance", "Trance"], s: ["Progressive Trance", "Dub"], src: "research" }, // Ex-Echo
   "explorers-of-the-internet": { m: ["Drum & Bass", "Hardcore"], s: ["Dubstep", "Ambient", "Bass Music"], src: "discogs" }, // Explorers of the Internet
   "extrawelt": { m: ["Techno"], s: ["Minimal Techno", "Tech House"], src: "discogs" }, // Extrawelt
+  "fabian-farell": { m: ["EDM", "House"], s: ["Future House", "Deep House", "Electro"], src: "research" }, // Fabian Farell
   "fadi-mohem": { m: ["Techno"], s: ["Dub Techno"], src: "research" }, // Fadi Mohem
   "faithless": { m: ["House", "Trance"], s: ["Trip-Hop"], src: "research" }, // Faithless
   "fakear": { m: ["EDM"], s: ["Downtempo", "Trip-Hop"], src: "research" }, // Fakear
@@ -462,13 +536,16 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "farflow": { m: ["Drum & Bass"], s: [], src: "discogs" }, // FarFlow
   "fatboy-slim": { m: ["Techno"], s: ["Big Beat", "Breakbeat"], src: "discogs+wikidata" }, // Fatboy Slim
   "fatima-hajji": { m: ["Hard Techno", "Techno"], s: ["Schranz"], src: "research" }, // Fatima Hajji
+  "fava": { m: ["Drum & Bass"], s: ["Liquid Drum & Bass", "Jungle"], src: "research" }, // Fava
   "felix-fleer": { m: ["Techno", "House"], s: ["Breakbeat", "Tech House", "Electro"], src: "discogs" }, // Felix Fleer
   "felix-jaehn": { m: ["House", "EDM"], s: ["Tropical House", "Dance-pop"], src: "research" }, // Felix Jaehn
   "felix-krocher": { m: ["Hard Techno", "Techno"], s: ["Schranz", "Peak Time Techno"], src: "research" }, // Felix Kröcher
   "fenim0re": { m: ["Techno", "Hard Techno"], s: [], src: "research" }, // FENIM0RE
   "fenimore": { m: ["Techno"], s: ["Hardgroove"], src: "research" }, // Fenimore
   "feral": { m: ["Techno"], s: ["Deep Techno", "Dub Techno", "Tribal"], src: "research" }, // Feral
+  "ferry-corsten": { m: ["Trance"], s: ["Progressive Trance", "Uplifting Trance"], src: "research" }, // Ferry Corsten
   "fiedel": { m: ["Techno"], s: ["Ambient", "Experimental", "Industrial"], src: "discogs" }, // Fiedel
+  "finnebassen": { m: ["House"], s: ["Deep House", "Nu-Disco", "Tech House"], src: "research" }, // Finnebassen
   "fisher": { m: ["House"], s: ["Tech House"], src: "research" }, // Fisher
   "fjaak": { m: ["Techno", "Acid Techno"], s: ["Breakbeat", "Electro"], src: "research" }, // FJAAK
   "fleur-shore": { m: ["House"], s: ["Tech House"], src: "discogs" }, // Fleur Shore
@@ -476,7 +553,9 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "floating-points": { m: ["House"], s: ["Dubstep", "Microhouse", "Progressive House"], src: "discogs+musicbrainz" }, // Floating Points
   "flora": { m: ["Techno"], s: ["Hypnotic Techno"], src: "research" }, // Flora
   "floxytek": { m: ["Hardcore"], s: ["Gabber", "Schranz"], src: "discogs" }, // Floxytek
+  "flupke": { m: ["House", "Techno"], s: ["Synthwave", "Electro House", "Downtempo"], src: "research" }, // Flupke
   "flux-pavilion": { m: ["Drum & Bass"], s: ["Dubstep"], src: "discogs" }, // Flux Pavilion
+  "flymeon": { m: ["Hard Techno", "Acid Techno"], s: ["Rave"], src: "research" }, // Flymeon
   "folamour": { m: ["House"], s: ["Deep House", "Disco", "Nu-Disco"], src: "discogs" }, // Folamour
   "forbidden-fruit": { m: ["House"], s: ["Disco", "Electro", "Balearic"], src: "discogs" }, // Forbidden Fruit
   "four-tet": { m: ["Techno"], s: ["Electronica", "Downtempo", "IDM"], src: "discogs+musicbrainz+wikidata" }, // Four Tet
@@ -485,11 +564,13 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "franck-vigroux": { m: ["Techno"], s: ["Experimental", "Ambient"], src: "discogs" }, // Franck Vigroux
   "franco-cinelli": { m: ["House", "Techno"], s: ["Minimal Techno", "Tech House", "Deep House"], src: "discogs" }, // Franco Cinelli
   "frank-maurel": { m: ["House", "Techno"], s: ["Tech House", "Tribal House", "Deep House"], src: "discogs" }, // Frank Maurel
+  "frankey-sandrino": { m: ["House", "Techno"], s: ["Deep House", "Tech House", "Progressive House"], src: "research" }, // Frankey & Sandrino
   "franky-rizardo": { m: ["House"], s: ["Tech House", "Deep House"], src: "research" }, // Franky Rizardo
   "franky-wah": { m: ["House", "Techno"], s: ["Progressive House", "Breakbeat", "Tech House"], src: "discogs" }, // Franky Wah
   "franz-scala": { m: ["House", "Techno"], s: ["Italo Disco", "Electro", "Nu-Disco"], src: "discogs" }, // Franz Scala
   "fred-p": { m: ["Techno", "House"], s: ["Deep House", "Ambient"], src: "discogs" }, // Fred P
   "fred-v": { m: ["Drum & Bass"], s: ["Progressive House"], src: "discogs+wikidata" }, // Fred V
+  "freddi": { m: ["Trance", "House"], s: ["Hard House", "Progressive House"], src: "research" }, // Freddi
   "freddy-k": { m: ["Techno", "Acid Techno"], s: ["Industrial Techno"], src: "research" }, // Freddy K
   "freedom-fighters": { m: ["Psytrance", "Trance"], s: ["Progressive Trance"], src: "discogs" }, // Freedom Fighters
   "frinda-di-lanco": { m: ["House"], s: ["Disco", "Balearic", "Downtempo"], src: "research" }, // Frinda di Lanco
@@ -498,7 +579,9 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "funk-tribu": { m: ["Hard Techno", "Techno"], s: ["Hard Trance", "Hardgroove"], src: "research" }, // Funk Tribu
   "furax": { m: ["Hardstyle", "Techno"], s: ["Jumpstyle"], src: "discogs" }, // Furax
   "furyan": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Furyan
+  "future-666": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno", "Schranz"], src: "research" }, // Future.666
   "futuregrapher": { m: ["Techno"], s: ["Ambient", "IDM"], src: "discogs" }, // Futuregrapher
+  "fx-31": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // FX-31
   "g-ha": { m: ["House", "Techno"], s: ["Disco", "Micro House"], src: "research" }, // g-HA
   "g-ha-olanskii": { m: ["House", "Techno"], s: ["Disco"], src: "research" }, // g-HA & Olanskii
   "gabber-eleganza": { m: ["Techno", "Hardcore"], s: ["Experimental", "Gabber", "Ambient"], src: "discogs" }, // Gabber Eleganza
@@ -507,9 +590,12 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "gaiko": { m: ["Techno"], s: ["Ambient", "Downtempo", "IDM"], src: "discogs" }, // Gaiko
   "gaiveu": { m: ["Hard Techno", "Techno"], s: [], src: "research" }, // Gaiveu
   "galrav": { m: ["Hard Techno"], s: ["Hard Dance"], src: "research" }, // Galrav
+  "gandoolf": { m: ["Hard Techno", "Hardcore"], s: ["Hardgroove", "Schranz", "Uptempo"], src: "research" }, // Gandoolf
   "genesi": { m: ["House", "Techno"], s: ["Tech House"], src: "discogs" }, // Genesi
+  "georg": { m: ["Techno"], s: [], src: "research" }, // Georg
   "gerd-janson": { m: ["House", "Techno"], s: ["Disco"], src: "research" }, // Gerd Janson
   "gezellige-uptempo": { m: ["Hardcore"], s: [], src: "discogs" }, // Gezellige Uptempo
+  "ghostface": { m: ["Hard Techno", "Hardcore"], s: ["Schranz", "Uptempo"], src: "research" }, // Ghostface
   "gigi-fm": { m: ["Techno"], s: ["Ambient", "Deep Techno", "Experimental"], src: "discogs" }, // GiGi FM
   "gina-beldam": { m: ["Techno"], s: [], src: "discogs" }, // Gina Beldam
   "gioray": { m: ["Techno"], s: ["Breakbeat", "Deep Techno", "IDM"], src: "discogs" }, // gioray
@@ -517,18 +603,25 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "gladde-paling": { m: ["Hardcore", "Drum & Bass"], s: ["Bassline", "Gabber", "Happy Hardcore"], src: "discogs" }, // gladde paling
   "globul": { m: ["Techno", "Acid Techno"], s: ["Detroit Techno", "Tribal Techno"], src: "research" }, // Globul
   "gms": { m: ["Psytrance"], s: ["Goa Trance"], src: "discogs+wikidata" }, // GMS
+  "gold-panda": { m: ["House"], s: ["Downtempo", "IDM", "Trip-Hop"], src: "research" }, // Gold Panda
+  "goldi": { m: ["Techno", "Hard Techno", "Trance"], s: ["Hardgroove"], src: "research" }, // Goldi
   "goldie": { m: ["Drum & Bass", "Techno"], s: ["Downtempo", "Electronica", "Jungle"], src: "discogs+musicbrainz" }, // Goldie
+  "golpe": { m: ["Hard Techno", "Techno"], s: ["Schranz"], src: "research" }, // Golpe
   "gow-fast": { m: ["Hard Techno", "Techno"], s: ["Hardgroove"], src: "research" }, // Gow Fast
   "gpf": { m: ["Hardcore", "Hardstyle"], s: ["Uptempo"], src: "research" }, // GPF
   "grace-dahl": { m: ["Techno"], s: ["Peak Time Techno", "Hypnotic Techno"], src: "research" }, // Grace Dahl
   "groove-armada": { m: ["House"], s: ["Big Beat", "Downtempo", "Trip-Hop"], src: "research" }, // Groove Armada
   "groove-fm": { m: ["House"], s: ["Garage House", "Deep House", "Tech House"], src: "discogs" }, // Groove FM
+  "groove-raiderz": { m: ["Techno"], s: [], src: "research" }, // Groove Raiderz
   "gui-boratto": { m: ["Techno"], s: ["Minimal Techno"], src: "wikidata" }, // Gui Boratto
   "gusgus": { m: ["Techno", "House"], s: ["Electronica"], src: "discogs+wikidata" }, // GusGus
   "guy-gerber": { m: ["Techno"], s: [], src: "wikidata" }, // Guy Gerber
   "gyrofield": { m: ["Drum & Bass", "Techno"], s: ["Jungle", "Breakbeat", "Dubstep"], src: "research" }, // gyrofield
   "habstrakt": { m: ["Drum & Bass", "House"], s: ["Bass House", "Dubstep"], src: "wikidata" }, // Habstrakt
   "hadone": { m: ["Techno"], s: ["Breakbeat", "IDM", "Industrial"], src: "discogs" }, // Hadone
+  "halo": { m: ["EDM", "House"], s: ["Big Room", "Progressive House"], src: "research" }, // Halō
+  "halvmane": { m: ["Drum & Bass"], s: ["Jungle", "UK Garage", "Dubstep"], src: "research" }, // Halvmåne
+  "hannah-doc": { m: ["House"], s: ["Tech House"], src: "research" }, // Hannah Doc
   "hannah-laing": { m: ["Trance", "House", "Techno"], s: ["Hard House"], src: "discogs+wikidata" }, // Hannah Laing
   "hanson-schrempf": { m: ["Techno", "Hard Techno"], s: ["Schranz"], src: "discogs" }, // Hanson & Schrempf
   "hard-driver": { m: ["Hardstyle"], s: [], src: "discogs" }, // Hard Driver
@@ -536,14 +629,20 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "hardwell": { m: ["EDM", "House"], s: ["Big Room", "Progressive House", "Electro House"], src: "research" }, // Hardwell
   "harris-ford": { m: ["Hardstyle", "EDM"], s: ["Electro House", "Electro"], src: "discogs" }, // Harris & Ford
   "harry-nash": { m: ["Trance", "Techno"], s: ["Hard Trance"], src: "research" }, // Harry Nash
+  "hashashin": { m: ["Techno"], s: ["Industrial Techno"], src: "research" }, // Hashashin
+  "hausgardian": { m: ["Techno", "House"], s: ["Tech House", "Deep House"], src: "research" }, // Hausgardian
   "hbz": { m: ["Hardstyle", "Psytrance", "Trance"], s: ["Hard Trance"], src: "discogs+wikidata" }, // HBz
+  "hdn": { m: ["Drum & Bass"], s: [], src: "research" }, // HDN
   "headbanger": { m: ["Hardcore"], s: ["Gabber"], src: "research" }, // Headbanger
   "hector-oaks": { m: ["Techno"], s: ["Hardgroove"], src: "research" }, // Héctor Oaks
   "hedemann": { m: ["Techno"], s: ["Hardgroove", "Peak Time Techno"], src: "research" }, // Hedemann
   "hedex": { m: ["Drum & Bass"], s: ["Jump Up"], src: "research" }, // Hedex
   "helena-hauff": { m: ["Techno"], s: ["Ambient", "Electro"], src: "discogs+musicbrainz" }, // Helena Hauff
+  "helena-lauwaert": { m: ["House", "Techno"], s: ["Hard Trance", "Speed House", "Hard Dance"], src: "research" }, // Helena Lauwaert
+  "hendrik-stein": { m: ["House", "Techno"], s: ["Melodic House"], src: "research" }, // Hendrik Stein
   "henning-baer": { m: ["Techno"], s: ["Electro", "Ambient", "EBM"], src: "discogs" }, // Henning Baer
   "hercules-love-affair": { m: ["House"], s: ["Disco"], src: "wikidata" }, // Hercules & Love Affair
+  "hermetica": { m: ["Techno"], s: ["Detroit Techno", "Electro"], src: "research" }, // Hermetica
   "hidde-van-wee": { m: ["House"], s: ["Tech House", "Deep House", "Minimal Techno"], src: "discogs" }, // Hidde Van Wee
   "hilight-tribe": { m: ["Trance"], s: ["Goa Trance"], src: "discogs+musicbrainz" }, // Hilight Tribe
   "hiraku": { m: ["Techno"], s: ["Ambient", "Experimental", "IDM"], src: "discogs" }, // Hiraku
@@ -555,19 +654,26 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "horse-meat-disco": { m: ["House"], s: ["Disco", "Nu-Disco"], src: "research" }, // Horse Meat Disco
   "horsegiirl": { m: ["Hardcore", "Techno"], s: ["Happy Hardcore", "Eurodance", "Gabber"], src: "research" }, // horsegiirL
   "hot-since-82": { m: ["House"], s: ["Tech House", "Deep House"], src: "discogs" }, // Hot Since 82
+  "hu-bee": { m: ["Psytrance"], s: ["Progressive Trance"], src: "research" }, // Hu Bee
+  "hubbabubbaklubb-djs": { m: ["House"], s: ["Disco", "Balearic", "Downtempo"], src: "research" }, // Hubbabubbaklubb DJs
   "hugo-lx": { m: ["House", "Techno"], s: ["Deep House", "Ambient"], src: "discogs" }, // Hugo LX
+  "huma-utku": { m: ["Techno"], s: ["Industrial Techno", "Ambient"], src: "research" }, // Hüma Utku
   "human-safari": { m: ["Techno", "Acid Techno"], s: ["Hardgroove", "Tribal Techno"], src: "research" }, // Human Safari
   "hvob": { m: ["House", "Techno"], s: ["Deep House", "Downtempo", "Tech House"], src: "discogs" }, // HVOB
   "hybrid-minds": { m: ["Drum & Bass"], s: ["Jungle", "UK Garage"], src: "discogs" }, // Hybrid Minds
   "hypnosis-therapy": { m: ["Techno"], s: ["Breakbeat", "Experimental"], src: "research" }, // Hypnosis Therapy
   "hysta": { m: ["Hardcore"], s: ["Frenchcore", "Gabber", "Uptempo"], src: "discogs+musicbrainz" }, // Hysta
   "i-hate-models": { m: ["Techno"], s: ["Industrial Techno", "Dark Techno", "EBM"], src: "discogs+last.fm+musicbrainz+wikidata" }, // I Hate Models
+  "i-jordan": { m: ["House", "Techno", "Trance"], s: ["Breakbeat", "Bass Music"], src: "research" }, // I. Jordan
+  "i-roots": { m: ["Trance", "Psytrance"], s: ["Dub"], src: "research" }, // I Roots
   "ian-pooley": { m: ["House"], s: ["Deep House", "Tech House"], src: "discogs" }, // Ian Pooley
   "identified-patient": { m: ["Techno"], s: ["Electro", "Downtempo", "Leftfield"], src: "discogs" }, // Identified Patient
   "ignez": { m: ["Techno"], s: ["Ambient"], src: "discogs" }, // Ignez
   "ii-faces": { m: ["House"], s: ["Tech House", "Deep House"], src: "discogs" }, // II Faces
   "il-est-vilaine": { m: ["Techno", "House"], s: ["EBM", "Electro"], src: "discogs+last.fm" }, // Il Est Vilaine
   "ilario-alicante": { m: ["Techno", "House"], s: ["Tech House", "Minimal Techno"], src: "discogs" }, // Ilario Alicante
+  "imperia": { m: ["Hard Techno", "Techno"], s: [], src: "research" }, // Imperia
+  "in-furcht": { m: ["Techno", "Hard Techno"], s: ["Schranz", "Hardgroove"], src: "research" }, // In Furcht
   "in-verruf": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno", "Hard Trance"], src: "research" }, // In Verruf
   "ind": { m: ["Techno", "Hardcore"], s: ["Experimental", "Disco", "Industrial"], src: "discogs" }, // Ind
   "indira-paganotto": { m: ["Psytrance", "Techno", "Hard Techno"], s: ["Psy-Trance Techno"], src: "research" }, // Indira Paganotto
@@ -578,8 +684,11 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "isa-roos": { m: ["House"], s: ["Afro House", "Afro Tech", "Deep House"], src: "research" }, // Isa Roos
   "isabel-soto": { m: ["Techno"], s: ["Ambient", "Industrial Techno"], src: "research" }, // Isabel Soto
   "isaiah": { m: ["Techno", "Hard Techno"], s: ["Hardgroove"], src: "research" }, // Isaiah
+  "isis-cloudt": { m: ["House", "Drum & Bass"], s: ["Bass House", "Dubstep", "UK Garage"], src: "research" }, // Isis Cloudt
   "istoria": { m: ["Drum & Bass"], s: ["Experimental"], src: "discogs" }, // Istoria
   "ivan-smagghe": { m: ["Techno", "House"], s: ["Electro", "Leftfield"], src: "discogs" }, // Ivan Smagghe
+  "ivory": { m: ["Techno", "House"], s: ["Melodic Techno", "Progressive House"], src: "research" }, // Ivory
+  "ivy": { m: ["Drum & Bass"], s: ["Rave", "Jungle"], src: "research" }, // [IVY]
   "ivy-lab": { m: ["Drum & Bass"], s: ["Halftime"], src: "discogs" }, // Ivy Lab
   "ixakt": { m: ["Hard Techno", "Techno"], s: [], src: "discogs" }, // Ixakt
   "jacidorex": { m: ["Techno", "Acid Techno"], s: ["Tech Trance", "Acid House", "Gabber"], src: "discogs" }, // Jacidorex
@@ -595,16 +704,22 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "jan-vervloet": { m: ["Trance", "House"], s: ["Hard Trance", "Progressive House", "Eurodance"], src: "research" }, // Jan Vervloet
   "jane-fitz": { m: ["House", "Techno", "Acid Techno"], s: ["Deep House", "Ambient"], src: "research" }, // Jane Fitz
   "janeret": { m: ["House", "Techno"], s: ["Deep House"], src: "discogs" }, // Janeret
+  "japau": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // Japau
   "jappo": { m: ["Hardcore"], s: ["Gabber"], src: "discogs" }, // Jappo
   "jasmine-not-jafar": { m: ["Techno"], s: ["Electro"], src: "research" }, // Jasmine Not Jafar
+  "jason-payne": { m: ["Hardstyle", "Hardcore"], s: ["Rawstyle", "Dubstep"], src: "research" }, // Jason Payne
   "jay-reeve": { m: ["Hardstyle"], s: [], src: "discogs" }, // Jay Reeve
   "jayda-g": { m: ["House"], s: ["Deep House", "Disco"], src: "research" }, // Jayda G
+  "jazzy-ie": { m: ["House"], s: ["Dance-Pop"], src: "research" }, // Jazzy (IE)
   "jean-michel-jarre": { m: ["Techno"], s: ["Ambient"], src: "discogs" }, // Jean-Michel Jarre
   "jeff-mills": { m: ["Techno"], s: ["Detroit Techno", "Minimal Techno"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Jeff Mills
   "jekkamai": { m: ["Techno", "House"], s: ["Ghettotech", "Hard House"], src: "research" }, // JEKKAMAÏ
   "jennifer-cardini": { m: ["Techno", "House"], s: ["Electro", "Minimal Techno", "Tech House"], src: "discogs" }, // Jennifer Cardini
+  "jennifer-loveless": { m: ["House", "Techno"], s: ["Electro", "Ambient"], src: "research" }, // Jennifer Loveless
   "jerome": { m: ["Techno", "House"], s: ["Tech House", "Electro House"], src: "discogs" }, // Jerome
   "jesse-maas": { m: ["House"], s: ["Tech House", "Deep House", "Minimal Techno"], src: "discogs" }, // Jesse Maas
+  "jessie-dols": { m: ["Techno", "Hard Techno"], s: ["Hardgroove"], src: "research" }, // Jessie Dols
+  "jhobei": { m: ["House"], s: ["Tech House", "Deep House", "Electro"], src: "research" }, // Jhobei
   "joachim-garraud": { m: ["EDM"], s: ["Electro House"], src: "wikidata" }, // Joachim Garraud
   "joachim-pastor": { m: ["House", "Techno", "EDM"], s: ["Tech House", "Progressive House", "Electronica"], src: "discogs+musicbrainz" }, // Joachim Pastor
   "joakim-lundell": { m: ["EDM"], s: ["Dance Pop"], src: "research" }, // Joakim Lundell
@@ -621,28 +736,38 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "joro-joabo": { m: ["Techno"], s: ["Progressive House"], src: "discogs" }, // Joro & Joabo
   "joseph-capriati": { m: ["Techno", "House"], s: [], src: "research" }, // Joseph Capriati
   "josh-baker": { m: ["House"], s: ["Tech House", "Deep House", "Minimal Techno"], src: "discogs" }, // Josh Baker
+  "joshwa": { m: ["House"], s: ["Tech House"], src: "research" }, // Joshwa
   "joss-dean": { m: ["House"], s: ["Deep House", "Tech House", "Minimal House"], src: "research" }, // Joss Dean
   "jovynn": { m: ["Hard Techno"], s: [], src: "discogs" }, // Jovynn
+  "jowi": { m: ["Hard Techno", "Techno"], s: [], src: "research" }, // Jowi
   "joy-orbison": { m: ["House", "Drum & Bass", "Techno"], s: ["UK Garage", "Dubstep", "Jungle"], src: "discogs+musicbrainz+wikidata" }, // Joy Orbison
+  "juda": { m: ["Techno"], s: [], src: "research" }, // JUDA
   "juliet-fox": { m: ["Techno", "House"], s: ["Tech House", "Deep House", "Tech Trance"], src: "discogs" }, // Juliet Fox
   "junior-pappa": { m: ["House"], s: ["Tech House"], src: "discogs" }, // Junior Pappa
   "juno-reactor": { m: ["Psytrance", "Trance"], s: ["Goa Trance", "Tribal"], src: "research" }, // Juno Reactor
   "justin-jay": { m: ["House"], s: ["Tech House", "Deep House"], src: "research" }, // Justin Jay
   "k-lone": { m: ["House"], s: ["Deep House", "UK Garage", "Dubstep"], src: "research" }, // K-LONE
   "k-motionz": { m: ["Drum & Bass"], s: ["Jump Up"], src: "research" }, // K Motionz
+  "kaa": { m: ["House"], s: ["Tech House", "Afro House"], src: "research" }, // Kaa
   "kaboutertje-putlucht": { m: ["Techno", "Hardcore"], s: ["EBM", "Gabber"], src: "discogs" }, // Kaboutertje Putlucht
+  "kaltblume": { m: ["Techno", "Hard Techno", "Acid Techno"], s: ["Hard Trance"], src: "research" }, // KALTBLUME
   "kamafaka": { m: ["Hard Techno", "Hardcore"], s: ["Industrial Techno", "Frenchcore"], src: "research" }, // Kamafaka
+  "kamma": { m: ["House", "Techno"], s: ["Disco", "Deep House"], src: "research" }, // Kamma
   "kandelissa": { m: ["Techno", "Hard Techno"], s: ["Hardgroove", "Tribal Techno", "Hard House"], src: "research" }, // Kandelissa
   "kangding-ray": { m: ["Techno"], s: ["Industrial Techno", "Ambient"], src: "research" }, // Kangding Ray
   "karah": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // KARAH
   "karakals": { m: ["EDM"], s: ["Open Format"], src: "research" }, // Karakals
+  "karlfroye": { m: ["Hardcore"], s: ["Gabber", "Jumpstyle", "Uptempo"], src: "research" }, // Karlfroye
   "kas-st": { m: ["Techno"], s: ["Deep Techno"], src: "discogs" }, // KAS:ST
   "kasparov": { m: ["Hardcore"], s: ["Gabber"], src: "discogs+wikidata" }, // Kasparov
   "katatonic-silentio": { m: ["Techno"], s: ["Experimental", "Ambient", "IDM"], src: "discogs" }, // Katatonic Silentio
   "kate-ryan": { m: ["EDM", "Trance"], s: ["Euro House"], src: "discogs" }, // Kate Ryan
   "katy-rough": { m: ["Hard Techno", "Trance"], s: ["Hard Dance", "Schranz"], src: "research" }, // Katy Rough
   "kaufmann": { m: ["Techno"], s: ["Minimal Techno", "Peak Time Techno"], src: "research" }, // Kaufmann
+  "kavari": { m: ["Drum & Bass"], s: ["Dubstep", "Deconstructed Club", "Experimental"], src: "research" }, // KAVARI
+  "kavinsky": { m: ["House"], s: ["Electro", "Synthwave", "Nu-Disco"], src: "research" }, // Kavinsky
   "kayla-painter": { m: ["Techno"], s: ["Ambient", "Downtempo", "Experimental"], src: "discogs" }, // Kayla Painter
+  "kazajak": { m: ["Trance"], s: ["Hard Trance"], src: "research" }, // Kazajak
   "kelly-lee-owens": { m: ["Techno"], s: ["Ambient", "Experimental", "Leftfield"], src: "discogs" }, // Kelly Lee Owens
   "kelman-duran": { m: ["Techno"], s: ["Experimental", "Ambient"], src: "discogs" }, // Kelman Duran
   "ken-ming": { m: ["Techno"], s: ["Tribal Techno", "Breakbeat"], src: "research" }, // Ken-Ming
@@ -650,8 +775,10 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "kenton-slash-demon": { m: ["House", "Techno"], s: ["Deep House", "Tech House", "Experimental"], src: "discogs" }, // Kenton Slash Demon
   "kerri-chandler": { m: ["House"], s: ["Deep House"], src: "discogs" }, // Kerri Chandler
   "kettama": { m: ["House", "Techno", "Trance"], s: ["Tech Trance", "UK Garage", "Breakbeat"], src: "discogs" }, // Kettama
+  "kevin-arnold": { m: ["Techno", "House"], s: [], src: "research" }, // Kevin Arnold
   "kevin-de-vries": { m: ["Techno", "House"], s: ["Progressive House", "Tech House"], src: "discogs" }, // Kevin de Vries
   "ki-ki": { m: ["Techno", "Trance"], s: ["Electro"], src: "discogs+wikidata" }, // KI/KI
+  "killbox": { m: ["Drum & Bass"], s: ["Neurofunk"], src: "research" }, // Killbox
   "kimmic": { m: ["Hard Techno"], s: ["Hard Dance"], src: "research" }, // Kimmic
   "kings-of-the-rollers": { m: ["Drum & Bass"], s: ["Jungle"], src: "discogs" }, // Kings of the Rollers
   "kink": { m: ["House", "Techno", "Acid Techno"], s: ["Tech House"], src: "research" }, // KiNK
@@ -668,12 +795,14 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "kobosil": { m: ["Techno"], s: ["Industrial Techno"], src: "discogs+musicbrainz" }, // Kobosil
   "kode9": { m: ["Drum & Bass", "House"], s: ["Dubstep", "Footwork", "UK Garage"], src: "research" }, // Kode9
   "kofu": { m: ["House"], s: ["Hard House", "Gqom"], src: "research" }, // Kofu
+  "kokoprisci": { m: ["House", "Techno"], s: ["Breakbeat", "UK Garage", "Jungle"], src: "research" }, // Kokoprisci
   "kolsch": { m: ["House", "Techno"], s: ["Tech House", "Progressive House"], src: "discogs" }, // Kölsch
   "kolter": { m: ["House", "Techno"], s: ["Tech House"], src: "research" }, // Kolter
   "konstantin-sibold": { m: ["Techno", "House"], s: ["Deep House", "Minimal Techno", "Dub Techno"], src: "discogs" }, // Konstantin Sibold
   "korolova": { m: ["Techno", "House"], s: ["Melodic Techno", "Progressive House"], src: "research" }, // Korolova
   "korsakoff": { m: ["Hardcore"], s: ["Gabber"], src: "discogs" }, // Korsakoff
   "kosheen": { m: ["Drum & Bass", "Techno"], s: ["Breakbeat", "Downtempo", "Trip-Hop"], src: "discogs+wikidata" }, // Kosheen
+  "kotorri": { m: ["Hard Techno"], s: [], src: "research" }, // Kotorri
   "koven": { m: ["Drum & Bass"], s: ["Dubstep", "Liquid Drum & Bass"], src: "research" }, // Koven
   "kozlov": { m: ["Hard Techno", "Techno", "Hardcore"], s: ["Industrial Techno", "Schranz"], src: "research" }, // Kozlov
   "krak-in-dub": { m: ["Drum & Bass", "Techno"], s: ["Jungle", "Breakbeat"], src: "discogs" }, // Krak In Dub
@@ -682,7 +811,10 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "kruella": { m: ["Hardcore"], s: [], src: "discogs" }, // Kruella
   "kruelty": { m: ["Hard Techno", "Hardstyle"], s: ["Industrial Hardcore"], src: "research" }, // KRUELTY
   "kuko": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // Kuko
+  "kuss": { m: ["Techno"], s: ["Hypnotic Techno", "Ambient", "Downtempo"], src: "research" }, // KUSS
   "kx-chr": { m: ["Hard Techno"], s: [], src: "discogs" }, // KX CHR
+  "kxxma": { m: ["Hard Techno", "Techno"], s: ["Hardtek"], src: "research" }, // KXXMA
+  "kyanu": { m: ["EDM", "Hardstyle"], s: ["Electro House", "Hands Up", "Happy Hardcore"], src: "research" }, // Kyanu
   "kygo": { m: ["House", "EDM"], s: ["Tropical House", "Deep House", "Progressive House"], src: "research" }, // Kygo
   "kyle-cortis": { m: ["Techno"], s: [], src: "discogs" }, // Kyle Cortis
   "kyle-starkey": { m: ["House"], s: ["Hard House"], src: "discogs" }, // Kyle Starkey
@@ -700,6 +832,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "laurent-garnier": { m: ["Techno", "House", "Acid Techno"], s: [], src: "research" }, // Laurent Garnier
   "laurent-wolf": { m: ["House", "EDM"], s: ["Electro House", "French House", "Electro"], src: "discogs+wikidata" }, // Laurent Wolf
   "lavance": { m: ["Drum & Bass"], s: [], src: "discogs" }, // Lavance
+  "law-haktion": { m: ["Techno"], s: ["EBM", "Electro"], src: "research" }, // Law & Haktion
   "lb-honne": { m: ["Techno"], s: ["Ambient", "Deep House", "Minimal Techno"], src: "discogs" }, // Lb Honne
   "le-motel-magugu": { m: ["Drum & Bass", "House"], s: ["Dubstep", "UK Garage"], src: "discogs" }, // Le Motel & Magugu
   "le-shuuk": { m: ["EDM", "Hardstyle"], s: ["Electro House"], src: "discogs" }, // le Shuuk
@@ -1028,6 +1161,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "sandrien": { m: ["Techno", "Acid Techno"], s: ["Breakbeat"], src: "research" }, // Sandrien
   "sansibar": { m: ["Techno"], s: ["Electro", "Breakbeat"], src: "discogs" }, // Sansibar
   "sant-s": { m: ["House", "Techno"], s: ["Tech House", "Breakbeat"], src: "discogs" }, // Santøs
+  "saoirse": { m: ["House", "Techno"], s: ["UK Garage", "Breakbeat"], src: "research" }, // Saoirse
   "sara-landry": { m: ["Techno", "Hard Techno"], s: ["Industrial Techno", "Minimal Techno"], src: "discogs+last.fm+musicbrainz+wikidata" }, // Sara Landry
   "sarah-de-warren": { m: ["Trance", "House"], s: ["Progressive House", "Progressive Trance", "Dubstep"], src: "discogs" }, // Sarah de Warren
   "sasha": { m: ["House", "Trance"], s: ["Progressive House", "Progressive Trance", "Breakbeat"], src: "research" }, // Sasha
@@ -1142,6 +1276,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "theo-kottis": { m: ["House"], s: ["Tech House", "Deep House"], src: "discogs" }, // Theo Kottis
   "theo-parrish": { m: ["Techno", "House"], s: ["Deep House"], src: "discogs+wikidata" }, // Theo Parrish
   "thick-as-thieves": { m: ["House", "Techno", "Trance"], s: ["Disco", "Deep House", "Tech Trance"], src: "discogs" }, // Thick as Thieves
+  "thiso": { m: ["Hard Techno", "Techno"], s: ["Industrial Techno"], src: "research" }, // Thiso
   "thomas-ankersmit": { m: ["Techno"], s: ["Experimental"], src: "discogs" }, // Thomas Ankersmit
   "thylacine": { m: ["Techno", "House"], s: ["Ambient", "Downtempo", "Deep House"], src: "research" }, // Thylacine
   "tiesto": { m: ["Trance", "EDM", "House"], s: ["Progressive Trance", "Electro House", "Progressive House"], src: "discogs+last.fm+musicbrainz" }, // Tiësto
@@ -1226,6 +1361,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "yan-wagner": { m: ["Techno", "House"], s: ["Disco", "Electro"], src: "discogs" }, // Yan Wagner
   "yanamaste": { m: ["Techno"], s: ["Bass Music", "Industrial"], src: "discogs" }, // Yanamaste
   "yellow-claw": { m: ["EDM", "Hardstyle"], s: ["Moombahton"], src: "research" }, // Yellow Claw
+  "yoshiko": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Yoshiko
   "yotto": { m: ["House"], s: ["Deep House", "Progressive House"], src: "discogs+wikidata" }, // Yotto
   "young-marco": { m: ["House", "Techno"], s: ["Ambient", "Balearic", "Deep House"], src: "research" }, // Young Marco
   "yousuke-yukimatsu": { m: ["Techno", "Trance"], s: ["Ambient", "Experimental"], src: "discogs+wikidata" }, // Yousuke Yukimatsu

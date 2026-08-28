@@ -59,6 +59,8 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   "da-tweeka": "da-tweekaz",
   "diachi-wada": "daichi-wada",
   "u-uk-uk1mat-u": "yousuke-yukimatsu",
+  furcht: "in-furcht",
+  christoph: "cristoph",
   // N'étaient pas des artistes : un nom de soirée de club, un titre de tournée.
   fused: null,
   "a-nice-place-to-be": null,
