@@ -1,0 +1,752 @@
+[
+ {
+  "name": "Adam F",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Adam_F",
+   "https://www.musicradar.com/artists/adam-f-making-colours-revisited"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dimitri From Paris",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dimitri_from_Paris",
+   "https://bbemusic.com/artist/dimitri-from-paris"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hüma Utku",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.musicboard-berlin.de/en/huema-utku/",
+   "https://shapeplatform.eu/artist/hu%CC%88ma-utku/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joshwa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/1017091-joshwa-drops-disco-laced-house-ep-lost-in-music-on-hot-creations",
+   "https://www.beatportal.com/articles/464256-joshwa-lands-on-hot-creations-with-bass-go-boom-ep"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Saoirse",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "UK Garage",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://djmag.com/cover-features/saoirse-body-mover",
+   "https://mixmag.net/feature/saoirse-interview",
+   "https://www.awakenings.com/en/artists/saorise/345894/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aphøtic",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://edmidentity.com/2025/03/16/aphotic-interview/",
+   "https://mixmagnl.com/read/get-to-knwo-aphotic-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Callush",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://6amgroup.com/articles/music-interviews/unveiling-the-sonic-rebellion-a-conversation-with-berlins-callush",
+   "https://mixmagde.com/read/callush-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alarico pres. Kenji Hina",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Tribal Techno"
+  ],
+  "sources": [
+   "https://trifec.one/alarico/",
+   "https://emerald.bandcamp.com/album/kabukicho-district-ep",
+   "https://api.discogs.com/database/search?artist=Alarico&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andre Visior",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Andre+Visior&type=release",
+   "https://www.alwaysaliverecordings.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ash Lauryn",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Ash+Lauryn&type=release",
+   "https://www.freerangerecords.co.uk/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jason Payne",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Rawstyle",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/jason-payne/",
+   "https://api.discogs.com/database/search?artist=Jason+Payne&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Finnebassen",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Nu-Disco",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.deephouseamsterdam.com/exclusive-interview-with-finnebassen/",
+   "https://www.traxsource.com/artist/87390/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jessie Dols",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://soundcloud.com/jessiedols",
+   "https://www.rotterdamrave.com/events"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Colette",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Electro"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/colette",
+   "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cristoph",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Progressive House",
+   "Melodic House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/",
+   "https://www.liaisonartists.com/artists/cristoph/",
+   "https://dancingastronaut.com/2017/09/cristoph-interview/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DT43",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://events.musicofourdesire.com/artist/dt43",
+   "https://partyflock.nl/artist/170719:DT43"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Imperia",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://dance.maassilo.com/events/de-interventie-daybreach/",
+   "https://events.musicofourdesire.com/events/Rotterdam/genre/hardcore-techno"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Autopski",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.drumandbass.nl/drumandbassnl-live-30-may-2021-abstract-autopski/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "In Furcht",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://hoer.live/artist/in-furcht-2/",
+   "https://soundcloud.com/infurcht",
+   "https://www.rotterdamrave.com/events"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Golpe",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://madmade.bandcamp.com/album/hard-techno-nation-ep",
+   "https://www.beatport.com/artist/golpe/93715"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ Caline",
+  "main": [
+   "Trance",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Bounce"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/dj-caline"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "A.N.Z",
+  "main": [
+   "House",
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Eurodance"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/anz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ghostface",
+  "main": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "sub": [
+   "Schranz",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/ghostface"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Eliasz",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/eliasz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Afro House"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/kaa",
+   "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Flymeon",
+  "main": [
+   "Hard Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Rave"
+  ],
+  "sources": [
+   "https://ravealert.bandcamp.com/album/paris-acid-city",
+   "https://www.cultr.com/news/flymeon-presents-his-new-banger-paris-acid-city/",
+   "https://oddity-factory.com/en/artists/flymeon/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hermetica",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Detroit Techno",
+   "Electro"
+  ],
+  "sources": [
+   "https://events.musicofourdesire.com/venue/radion_amsterdam/events/upcoming",
+   "https://es.ra.co/dj/hermetica"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Killbox",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Neurofunk"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Killbox&type=release",
+   "https://ramrecords.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Battery",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.viernulvier.gent/nl/agenda/star-warz-921m",
+   "https://www.starwarz.be/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bobby 6 Killa",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://culture-box.com/event/sat-7-june/",
+   "https://highpass.events/drumandbassklubben/9cm9djt/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "HDN",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://culture-box.com/event/sat-7-june/",
+   "https://highpass.events/drumandbassklubben/9cm9djt/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Boycot",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://m.soundcloud.com/boycot_dnb/boycot-bredren-invites-22-04-22-fuse-brussels",
+   "https://drumnbeer.com/2024/10/03/%F0%9F%94%8A-belgian-dnb-parties-2024-week-40-%F0%9F%94%8A/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bulletproof",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/bulletproof/",
+   "https://www.armyofhardcore.net/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "D-Razor",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [],
+  "sources": [
+   "https://harderstylemap.com/artist/d-razor/",
+   "https://turbinenhalle.de/events/army-of-hardcore/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Decode",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://www.djguide.nl/party.p/563324/paul-elstak-presents-wanna-play?language=en",
+   "https://maassilo.com/dance/agenda/paul-elstak-presents-wanna-play/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "KXXMA",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hardtek"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/kxxma/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Fabian Farell",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Future House",
+   "Deep House",
+   "Electro"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/fabian-farell/",
+   "https://api.discogs.com/database/search?artist=Fabian+Farell&type=release"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "2 Engel & Charlie",
+  "main": [
+   "EDM",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Hands Up"
+  ],
+  "sources": [
+   "https://de.wikipedia.org/wiki/2_Engel_%26_Charlie",
+   "https://www.festival-sh.de/kuenstler/2-engel-charlie",
+   "https://www.jinx-music.com/2engel-charlie"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "AR Gang",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://hardstyle.com/en/news/ar-gang-the-party-lineup-musical-madness",
+   "https://ar-gang.de/",
+   "https://www.musical-madness.de/events/the-ar-gang-show/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "B1980",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "EBM",
+   "Industrial Techno",
+   "Electro"
+  ],
+  "sources": [
+   "https://www.dmcworld.net/back-to-mine/back-to-mine-with-b1980/",
+   "https://mqrotrecords.bandcamp.com/album/dissonance-resonance",
+   "https://lastation.paris/stationgdm/rendez-vous/2026-09-12-tech-noire"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Desolate Discotheque",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "EBM",
+   "Electro",
+   "Disco"
+  ],
+  "sources": [
+   "https://cravetapes.bandcamp.com/album/desolation",
+   "https://m.soundcloud.com/desolatediscotheque",
+   "https://lastation.paris/stationgdm/rendez-vous/2026-09-12-tech-noire"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Law & Haktion",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "EBM",
+   "Electro"
+  ],
+  "sources": [
+   "https://www.frnscs.com/technoire/",
+   "https://lastation.paris/stationgdm/rendez-vous/tech-noire"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Badsista",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Baile Funk",
+   "Bass House",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://djmag.com/features/recognise-badsista",
+   "https://crackmagazine.net/article/lists/baile-funk-in-10-tracks-by-sao-paulo-producer-badsista/",
+   "https://www.montreuxjazzfestival.com/en/artist/badsista/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hannah Doc",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.datathistle.com/event/3102359-fly-house-heads-halloween-glasgow/",
+   "https://www.skiddle.com/news/all/FLY-brings-first-festival-to-Glasgow-reveals-first-wave-lineup/60988/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "FX-31",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://soundcloud.com/fx-31",
+   "https://de.ra.co/events/2181725"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Danke Al",
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Rave"
+  ],
+  "sources": [
+   "https://www.toulouseblog.fr/nuit-sans-repit-au-bikini-la-soiree-unfaced-va-faire-trembler-les-murs/",
+   "https://lebikini.com/2022/10/21/rave-on-octobre-2022"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kamma",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://djmag.com/longreads/positive-vibrations-kamma",
+   "https://rushhourmusic.bandcamp.com/album/brighter-days-2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kazajak",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://soundcloud.com/kazajak",
+   "https://www.jds.fr/bergerac/parc-expo/centre-evenementiel-l-espace-etincelle-23221_L"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cerj",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Melodic House"
+  ],
+  "sources": [
+   "http://cphdeep.com/rising-aja-gulris-cerj-of-peccavi/",
+   "https://www.facebook.com/peccavicph/",
+   "https://culture-box.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "[IVY]",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Rave",
+   "Jungle"
+  ],
+  "sources": [
+   "https://www.lovethatbass.com/news/korsakov-weekender/",
+   "https://www.korsakovmusic.com/",
+   "https://mixmagnl.com/read/korsakov-weekender-marks-10th-anniversary-in-rotterdam-news"
+  ],
+  "confidence": "high"
+ }
+]

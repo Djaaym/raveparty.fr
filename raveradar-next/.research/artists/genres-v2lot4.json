@@ -1,0 +1,615 @@
+[
+ {
+  "name": "Ajja",
+  "main": [
+   "Psytrance"
+  ],
+  "sub": [
+   "Downtempo",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Ajja&type=release",
+   "https://www.discogs.com/artist/Ajja"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "ALT8",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=ALT8&type=release",
+   "https://www.fuse.be/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Acidpach",
+  "main": [
+   "Acid Techno",
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Freetekno",
+   "Tribal Techno"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Acidpach&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Buunshin",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Halftime",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Buunshin&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eric Cloutier",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Dub Techno",
+   "Deep House",
+   "Ambient"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Eric+Cloutier&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ewan McVicar",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Breakbeat",
+   "Speed Garage"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Ewan+McVicar&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Frankey & Sandrino",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Frankey+%26+Sandrino&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jhobei",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House",
+   "Electro"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Jhobei&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Carly Zeng",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tribal House",
+   "Progressive House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/carlyzeng/biography",
+   "https://refugeworldwide.com/artists/carly-zeng",
+   "https://www.saywhatmag.com/interviews/carly-zeng-new-radical"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gandoolf",
+  "main": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Schranz",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://warehouse-nantes.fr/artist/gandoolf",
+   "https://warehouse-nantes.fr/event/nantes-rave-techno-xxl-w-nikolina-25emeheure-medusa-more"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Corentin Mab",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Disco"
+  ],
+  "sources": [
+   "https://warehouse-nantes.fr/artist/corentin-mab"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ Mass",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Disco",
+   "Electro"
+  ],
+  "sources": [
+   "https://warehouse-nantes.fr/artist/dj-mass"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Karlfroye",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber",
+   "Jumpstyle",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://ra.co/dj/karlfroye/biography",
+   "https://www.disversive.com/karlfroye"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Baboush",
+  "main": [
+   "Hardcore",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Dance",
+   "Neo Rave"
+  ],
+  "sources": [
+   "https://www.beatport.com/artist/baboush/1196778",
+   "https://www.beatport.com/track/fxck-la-techno/18845702"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kotorri",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://bootshaus.tv/events/unreal-weekender-night-i-september-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dvaid",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://bootshaus.tv/events/unreal-weekender-night-ii-september-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Dione",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Dione&type=release",
+   "https://www.megarave.nl/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Circadian",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Circadian&type=release",
+   "https://korsakovmusic.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Kyanu",
+  "main": [
+   "EDM",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Electro House",
+   "Hands Up",
+   "Happy Hardcore"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Kyanu&type=release",
+   "https://www.kontor-records.de/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "I. Jordan",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Trance",
+   "Breakbeat",
+   "Bass Music"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=I.+Jordan&type=release",
+   "https://ninjatune.net/artist/i-jordan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hu Bee",
+  "main": [
+   "Psytrance"
+  ],
+  "sub": [
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Hu+Bee&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bradley Zero",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Disco",
+   "Broken Beat"
+  ],
+  "sources": [
+   "https://ra.co/dj/bradleyzero/biography",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/bradley-zero/17539/",
+   "https://djmag.com/longreads/bradley-zero-state-rhythm"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Avalon",
+  "main": [
+   "Psytrance"
+  ],
+  "sub": [
+   "Goa Trance",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://nanomusic.net/artist/avalon/",
+   "https://psymedia.co.za/avalon-uk-nano-interview/",
+   "https://trancentral.tv/2017/05/avalon-10-essential-tracks/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fava",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass",
+   "Jungle"
+  ],
+  "sources": [
+   "https://ukf.com/read/we-need-to-talk-about-fava/",
+   "https://liquicity.com/events/liquicity-paris-2026/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "KAVARI",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Deconstructed Club",
+   "Noise"
+  ],
+  "sources": [
+   "https://djmag.com/news/kavari-announces-new-ep-plague-music-xl-shares-iron-veins-listen",
+   "https://www.xlrecordings.com/artists/kavari",
+   "https://www.thefader.com/2026/02/09/kavari-plague-music-ep-interview"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "D-Trich",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "UK Garage",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://somo.social/en/e/drum-bass-klubben-taxman-drum-828"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Thiso",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/thiso"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Amara",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://soundcloud.com/verknipt-events/amara-verknipt-festival-2024-day-1",
+   "https://ra.co/events/1724305"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Daichi Wada",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Breakbeat",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/daichiwada/biography",
+   "https://hoer.live/artist/daichi-wada/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Helena Lauwaert",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Speed House",
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://www.voodoovillage.be/artists/helena-lauwaert",
+   "https://www.ravejungle.com/2026/06/24/voodoo-village-2026-lineup-stages/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hashashin",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://evl.one/radion-amsterdam-launches-record-label",
+   "https://radionamsterdam.bandcamp.com/album/rad001-decennial-revelry",
+   "https://ra.co/events/2231643"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DART",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Hard House",
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/173487:DART",
+   "https://thuishaven.nl/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "chouhal",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hard Techno"
+  ],
+  "sources": [
+   "https://localsmalta.com/artist/chouhal",
+   "https://www.dalmafestival.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gold Panda",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Downtempo",
+   "IDM",
+   "Trip Hop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gold_Panda",
+   "https://api.discogs.com/database/search?artist=Gold+Panda&type=release",
+   "https://www.theskinny.co.uk/music/reviews/albums/gold-panda-the-work"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Halō",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://edm.com/news/dubvision-third-party-matisse-sadko-new-supergroup-halo/",
+   "https://drumshedslondon.com/event/dldk/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Arjuna",
+  "main": [
+   "Psytrance"
+  ],
+  "sub": [
+   "Forest Psytrance",
+   "Goa Trance"
+  ],
+  "sources": [
+   "https://psymedia.co.za/festival/free-earth-festival/",
+   "https://www.goabase.net/festival/free-earth-festival/117260"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Future.666",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Schranz"
+  ],
+  "sources": [
+   "https://ra.co/dj/future666/biography",
+   "https://bcco.bandcamp.com/album/bccova18-curated-by-future-666",
+   "https://hoer.live/artist/future-666/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ CAMSLUT",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Breakcore",
+   "Uptempo",
+   "Speedcore"
+  ],
+  "sources": [
+   "https://shotgun.live/en/events/hypercore-x-brutal-slap",
+   "https://lastation.paris/stationgdm/rendez-vous/2025-04-15-hypercore"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "A.C.Killer",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Breakcore"
+  ],
+  "sources": [
+   "https://shotgun.live/en/events/hypercore-x-brutal-slap"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Isis Cloudt",
+  "main": [
+   "House",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Bass House",
+   "Dubstep",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://bootshaus.tv/artists/isis-cloudt/",
+   "https://www.facebook.com/isiscloudt/",
+   "https://soundcloud.com/isis-cloudt/isis-cloudt-bootshaus-dj-contest-winner-set-2020"
+  ],
+  "confidence": "medium"
+ }
+]

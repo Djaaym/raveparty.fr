@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Bolaget",
+  "reason": "Groupe pop suédois de Falun (Adam Bergestål, Gustav Jörgensen, Oliver Norqvist, William Ahlborg), formé en 2019, classé pop / pop punk / epadunk — pas de la musique électronique de club. Programmé à Bonfire Festival (Linköping) aux côtés de Molly Sandén et Hooja. Aucun genre de la liste fermée ne s'applique. Source : https://en.wikipedia.org/wiki/Bolaget"
+ },
+ {
+  "name": "Dimitri from Paris",
+  "reason": "ERREUR DE CATALOGUE, pas un artiste à documenter tel quel : le line-up de « Club de Jour invite Bellaire & Dimitri » (Warehouse, Nantes, 07/11/2026) est tronqué. Le vrai nom de l'artiste est « Dimitri From Paris » — le titre officiel de la soirée est « Club de Jour invite Bellaire & Dimitri from Paris ». Corriger le line-up avant de créer une fiche. Source : https://www.warehouse-nantes.fr/event/club-de-jour-invite-bellaire-dimitri-from-paris"
+ },
+ {
+  "name": "Lavomatic",
+  "reason": "Groupe de garage rock parisien (inspirations surf, doo-wop, pop), pas un projet électronique — programmé à L'Astrolabe d'Orléans avec Jasmine Not Jafar et DJ Stronger. Aucun genre de la liste fermée. NB : la fiche catalogue « Jasmine Not Jafar + Lavomatic + DJ Stronger » est étiquetée Techno, ce qui ne vaut que pour les deux autres noms. Source : https://www.lastrolabe.org/agenda/jasmine-not-jafar/"
+ },
+ {
+  "name": "Deb McCormick",
+  "reason": "DJ basée à Lausanne, présente sur la soirée PLAYHARD au D! Club (28/08/2026), mais aucune source ouverte ne décrit son style : la page de l'événement ne décrit que Luca Agnelli. Pas d'entrée Discogs, pas de page label ni d'agence. Rien à attester."
+ },
+ {
+  "name": "La Louuve",
+  "reason": "DJ (Faïza) décrite uniquement par son « univers musical S.W.A.N.A » et rangée dans les « univers électro-maghrébins » de la soirée Onda Mix (Metronum, Toulouse). Aucune source ne la rattache à un genre de la liste fermée — l'y forcer serait une invention. Sources : https://tdm80hz.lepodcast.fr/numero-95-la-louuve-dj-guest-mix"
+ },
+ {
+  "name": "Cleo Grooves",
+  "reason": "Homonymie non tranchée : le seul profil documenté (SoundCloud user-442117875, booking Untold Society) joue de la disco house / piano house / tech house, alors que la fiche du lot correspond au Verknipt NYE d'Eindhoven, une affiche de hard techno (Aphøtic, Kruelty, Restricted, Toxic Machinery). Rien ne prouve qu'il s'agit de la même personne — cf. le piège « Jazzy »."
+ },
+ {
+  "name": "DJ Mii",
+  "reason": "Homonymie non tranchée : le seul DJ Mii documenté sur Discogs est un producteur hard dance de Tokyo (happy hardcore, funkot), sans lien avec le Blacklist Festival d'Oberhausen où la fiche du lot le programme. Aucune source ne décrit le DJ Mii de cette affiche. Source : https://www.discogs.com/artist/14140786-DJ-Mii"
+ },
+ {
+  "name": "Fuzzy",
+  "reason": "Projet de pop électronique basé entre Berlin et Neuchâtel, présenté par des installations musicales et des performances live en festivals d'art numérique — pas un DJ de club rattachable à un genre de la liste fermée, malgré l'étiquetage House/Techno de la soirée « Dombrance & Fuzzy » (La Manufacture, Saint-Quentin). Source : https://www.jds.fr/saint-quentin/concerts/electro/dombrance-et-fuzzy-1664762_A"
+ },
+ {
+  "name": "Bernadette",
+  "reason": "Aucune source ne décrit cette artiste : elle n'apparaît que dans le line-up de la « Nuit Électro Cosmic Edition » au Domaine Le Mezo (Ploeren) et le nom est trop générique pour trancher (trois homonymes chanteuses sur Discogs, aucune électronique). Rien à attester."
+ },
+ {
+  "name": "Anasbri",
+  "reason": "Aucune entrée Discogs, aucune page label ou agence, aucune bio : le nom n'apparaît que dans le line-up publié du Nemora Festival (Torre Alfina). Rien qui atteste un genre. Source : https://www.festivalabroad.com/festivals/nemora"
+ },
+ {
+  "name": "Dit Zy",
+  "reason": "Même cas qu'Anasbri : le nom n'apparaît que dans le line-up du Nemora Festival, l'entrée Discogs « DIT ZY » (id 15235899) ne porte ni style, ni sortie, ni profil. Rien à attester."
+ },
+ {
+  "name": "Erik Chamber",
+  "reason": "Aucune source : le nom n'apparaît que dans le line-up du RazzClub (Razzmatazz, Barcelone). Pas d'entrée Discogs (la recherche ne rend qu'Erik Moseholm, contrebassiste de jazz danois), pas de page d'agence ni de label."
+ },
+ {
+  "name": "BADBADNOTGOOD",
+  "reason": "Trio de jazz instrumental canadien (Toronto), signé Innovative Leisure / XL Recordings — programmé au C2C Festival de Turin, un festival pluridisciplinaire. Aucun genre de la liste fermée ne s'applique : ce n'est pas un projet de musique électronique de club."
+ },
+ {
+  "name": "John Newman",
+  "reason": "Chanteur-auteur britannique de soul/pop (« Love Me Again », « Come and Get It ») : Wikipédia lui attribue soul, pop, breakbeat et northern soul, et la drum & bass n'apparaît que du côté de Rudimental, dont il est l'invité vocal sur « Feel the Love ». Aucun genre principal de la liste fermée n'est attesté pour son propre travail — le programmer au Beatpatrol ne suffit pas à en faire un artiste électronique. Source : https://en.wikipedia.org/wiki/John_Newman_(singer)"
+ },
+ {
+  "name": "Karolina",
+  "reason": "Prénom trop générique et aucune source : n'apparaît que dans le line-up de la YN x BCCO Club Night (Grelle Forelle, Vienne), sans description. Les entrées Discogs « Karolina » sont une MC israélienne et une chanteuse macédonienne, sans rapport. Source : https://www.volume.at/events/yn-bcco-club-night-2026-09-26/"
+ }
+]

@@ -1,28 +1,151 @@
 [
- {"name": "A Nice Place To Be", "reason": "Ce n'est pas un artiste : « A Nice Place To Be » est le titre du 8e album de Fakear (sorti le 04/09/2026) et le nom de sa tournée, dont la date d'ouverture est justement l'Atabal de Biarritz. L'entrée du line-up dans lib/data.ts est une erreur de saisie à corriger.", "sources": ["https://handsupelectro.fr/news/fakear-annonce-une-grande-tournee-francaise-pour-son-nouvel-album/", "https://shotgun.live/en/events/fakear-a-nice-place-to-be-la-rayonne"]},
- {"name": "ALIKA", "reason": "Alika Milova, chanteuse pop estonienne de Narva, représentante de l'Estonie à l'Eurovision 2023. Aucun genre de la liste fermée ne la décrit.", "sources": ["https://www.stationnarva.ee/en/artists/alika", "https://en.wikipedia.org/wiki/Alika_Milova"]},
- {"name": "Afterlife Collective", "reason": "Aucune source trouvée ; nom trop générique (collision avec le label/événement Afterlife de Tale Of Us)."},
- {"name": "Ash Taka", "reason": "Aucune source décrivant le style ; seule une page Deezer sans texte."},
- {"name": "Baby Berserk", "reason": "Groupe d'Amsterdam (Mano Hollestelle, Eva Wijnbergen, Lieselot Elzinga) mêlant post-punk, art-pop et disco underground : aucun genre de la liste fermée ne le décrit honnêtement.", "sources": ["https://ebbmusic.eu/artists/baby-berserk/", "https://krakatoa.org/agenda/baby-berserk-jasmine-not-jafar"]},
- {"name": "Chuquimamani-Condori", "reason": "Producteur·rice expérimental·e (deconstructed club, avant-garde, huayno) : hors liste fermée.", "sources": ["https://api.discogs.com/database/search?artist=Chuquimamani-Condori&type=release"]},
- {"name": "Crête & Moustache", "reason": "Projet lyonnais de Dubanko & Woody Vibes : dub, bass music et électro live. Le lot le classe en psytrance, ce que les sources ne disent nulle part ; aucun genre de la liste fermée ne convient.", "sources": ["https://mediatone.net/artistes/crete-et-moustache/", "https://www.transbordeur.fr/artiste/crete-moustache/"]},
- {"name": "DJ Dreckisch", "reason": "Existe (Kollektiv.Fünfsinn, booking Amplia Berlin, dates à la Grelle Forelle et au Bootshaus) mais aucune source ne nomme son style."},
- {"name": "DJ Parkverbot", "reason": "Uniquement des mentions en line-up à la Grelle Forelle ; aucune source sur l'artiste."},
- {"name": "Das Beat", "reason": "Duo berlinois (Eddie Rabenberger + DJ Kirby / Blue Hawaii) : new wave, italo disco, electroclash et Neue Deutsche Welle. Hors liste fermée.", "sources": ["https://www.pop-kultur.berlin/en/artists/das-beat/", "https://www.electricityclub.co.uk/das-beat-identitat-ep/"]},
- {"name": "Daði Freyr", "reason": "Artiste pop islandais (synth-pop / dance-pop, Eurovision) : hors liste fermée.", "sources": ["https://api.discogs.com/database/search?artist=Da%C3%B0i%20Freyr&type=release"]},
- {"name": "Disorder", "reason": "Nom trop générique (Discogs et MusicBrainz ne rendent que des groupes punk/metal homonymes) ; seule trace électronique = le line-up Liquicity Vienna, ce qui n'est pas une source sur l'artiste."},
- {"name": "Fishbach", "reason": "Flora Fishbach, chanteuse française de synth-pop / indie pop : hors liste fermée.", "sources": ["https://musicbrainz.org/artist/?query=Fishbach", "https://api.discogs.com/database/search?artist=Fishbach&type=release"]},
- {"name": "Freddi B2B Sophia Violet", "reason": "Sophia Violet est décrite comme une DJ house et UK garage, ce qui contredit le contexte hard techno / trance de la date ; rien de trouvable sur Freddi. Doute non levé sur la moitié du duo.", "sources": ["https://constellatetalent.com/artist/sophia-violet/"]},
- {"name": "Glanz", "reason": "Aucune source trouvée ; nom trop générique en allemand."},
- {"name": "Gonzi", "reason": "Un DJ/producteur Gonzi existe bien (SoundCloud soundcloud.com/gonzii, agence Thunder) mais aucune page attestant le style n'a pu être ouverte depuis le conteneur (electrobooking en 404, SoundCloud en page d'erreur, Beatport bloqué)."},
- {"name": "Gugu", "reason": "Uniquement des mentions en line-up (Kitchen de la Grelle Forelle, soirées Sorry Mom) ; aucune source sur l'artiste."},
- {"name": "Hannah Hannah", "reason": "Aucune source ; les recherches ne rendent que Hannah Laing et Hannah Wants, qui sont d'autres artistes."},
- {"name": "Hi-Ki", "reason": "Une seule mention (b2b avec LaDiabla à Razzmatazz, Keep Hush x Fuego) ; aucune source sur le style."},
- {"name": "Industrix", "reason": "Aucune source ; les recherches ne rendent qu'Industrian, artiste distinct."},
- {"name": "Jazzy (CH)", "reason": "Déjà documentée dans lib/bios.ts (slug jazzy-ch, Jasmin Fumagalli, KRAWALL Records) — rien à ajouter."},
- {"name": "John T. Gast", "reason": "Producteur britannique, patron du label 5 Gate Temple : électronique expérimentale « techno-adjacente », grime, ambient. Aucun genre de la liste fermée ne le décrit sans le trahir.", "sources": ["https://insheepsclothinghifi.com/5-selects-john-t-gast/", "https://5gatetemple.bandcamp.com/"]},
- {"name": "Jvrdy", "reason": "DJ/producteur allemand actif depuis 2018 (vainqueur du Bootshaus DJ-Contest, top 20 de Sound Of Tomorrow 2020) mais aucune source ne nomme son style."},
- {"name": "Kat Zé", "reason": "Uniquement des mentions en line-up viennois (Mahlwerk, Gleis19) ; aucune source sur l'artiste."},
- {"name": "Kelela", "reason": "Kelela Mizanekristos, chanteuse américaine de R&B et d'électronique progressive signée chez Warp : aucun genre de la liste fermée ne la décrit.", "sources": ["https://warp.net/artists/kelela", "https://en.wikipedia.org/wiki/Kelela"]},
- {"name": "Da Tweeka", "reason": "FICHE GENRES ÉCRITE, MAIS ATTENTION : le nom du catalogue est une coquille. Le line-up officiel d'Into The Madness 2026 (et celui de Dream Nation) portent « Da Tweekaz », le duo hardstyle norvégien de Kenth Kvien et Marcus Nordli. Le genre reste juste (hardstyle) mais aucune bio n'a été écrite tant que la clé n'est pas corrigée en « Da Tweekaz » dans lib/data.ts.", "sources": ["https://www.intothemadness.de/lineup/", "https://www.djmag.de/einzelnews/into-the-madness-2026"]}
+ {
+  "name": "A Nice Place To Be",
+  "reason": "Ce n'est pas un artiste : « A Nice Place To Be » est le titre du 8e album de Fakear (sorti le 04/09/2026) et le nom de sa tournée, dont la date d'ouverture est justement l'Atabal de Biarritz. L'entrée du line-up dans lib/data.ts est une erreur de saisie à corriger.",
+  "sources": [
+   "https://handsupelectro.fr/news/fakear-annonce-une-grande-tournee-francaise-pour-son-nouvel-album/",
+   "https://shotgun.live/en/events/fakear-a-nice-place-to-be-la-rayonne"
+  ]
+ },
+ {
+  "name": "ALIKA",
+  "reason": "Alika Milova, chanteuse pop estonienne de Narva, représentante de l'Estonie à l'Eurovision 2023. Aucun genre de la liste fermée ne la décrit.",
+  "sources": [
+   "https://www.stationnarva.ee/en/artists/alika",
+   "https://en.wikipedia.org/wiki/Alika_Milova"
+  ]
+ },
+ {
+  "name": "Afterlife Collective",
+  "reason": "Aucune source trouvée ; nom trop générique (collision avec le label/événement Afterlife de Tale Of Us)."
+ },
+ {
+  "name": "Ash Taka",
+  "reason": "Aucune source décrivant le style ; seule une page Deezer sans texte."
+ },
+ {
+  "name": "Baby Berserk",
+  "reason": "Groupe d'Amsterdam (Mano Hollestelle, Eva Wijnbergen, Lieselot Elzinga) mêlant post-punk, art-pop et disco underground : aucun genre de la liste fermée ne le décrit honnêtement.",
+  "sources": [
+   "https://ebbmusic.eu/artists/baby-berserk/",
+   "https://krakatoa.org/agenda/baby-berserk-jasmine-not-jafar"
+  ]
+ },
+ {
+  "name": "Chuquimamani-Condori",
+  "reason": "Producteur·rice expérimental·e (deconstructed club, avant-garde, huayno) : hors liste fermée.",
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Chuquimamani-Condori&type=release"
+  ]
+ },
+ {
+  "name": "Crête & Moustache",
+  "reason": "Projet lyonnais de Dubanko & Woody Vibes : dub, bass music et électro live. Le lot le classe en psytrance, ce que les sources ne disent nulle part ; aucun genre de la liste fermée ne convient.",
+  "sources": [
+   "https://mediatone.net/artistes/crete-et-moustache/",
+   "https://www.transbordeur.fr/artiste/crete-moustache/"
+  ]
+ },
+ {
+  "name": "DJ Dreckisch",
+  "reason": "Existe (Kollektiv.Fünfsinn, booking Amplia Berlin, dates à la Grelle Forelle et au Bootshaus) mais aucune source ne nomme son style."
+ },
+ {
+  "name": "DJ Parkverbot",
+  "reason": "Uniquement des mentions en line-up à la Grelle Forelle ; aucune source sur l'artiste."
+ },
+ {
+  "name": "Das Beat",
+  "reason": "Duo berlinois (Eddie Rabenberger + DJ Kirby / Blue Hawaii) : new wave, italo disco, electroclash et Neue Deutsche Welle. Hors liste fermée.",
+  "sources": [
+   "https://www.pop-kultur.berlin/en/artists/das-beat/",
+   "https://www.electricityclub.co.uk/das-beat-identitat-ep/"
+  ]
+ },
+ {
+  "name": "Daði Freyr",
+  "reason": "Artiste pop islandais (synth-pop / dance-pop, Eurovision) : hors liste fermée.",
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Da%C3%B0i%20Freyr&type=release"
+  ]
+ },
+ {
+  "name": "Disorder",
+  "reason": "Nom trop générique (Discogs et MusicBrainz ne rendent que des groupes punk/metal homonymes) ; seule trace électronique = le line-up Liquicity Vienna, ce qui n'est pas une source sur l'artiste."
+ },
+ {
+  "name": "Fishbach",
+  "reason": "Flora Fishbach, chanteuse française de synth-pop / indie pop : hors liste fermée.",
+  "sources": [
+   "https://musicbrainz.org/artist/?query=Fishbach",
+   "https://api.discogs.com/database/search?artist=Fishbach&type=release"
+  ]
+ },
+ {
+  "name": "Freddi B2B Sophia Violet",
+  "reason": "Sophia Violet est décrite comme une DJ house et UK garage, ce qui contredit le contexte hard techno / trance de la date ; rien de trouvable sur Freddi. Doute non levé sur la moitié du duo.",
+  "sources": [
+   "https://constellatetalent.com/artist/sophia-violet/"
+  ]
+ },
+ {
+  "name": "Glanz",
+  "reason": "Aucune source trouvée ; nom trop générique en allemand."
+ },
+ {
+  "name": "Gonzi",
+  "reason": "Un DJ/producteur Gonzi existe bien (SoundCloud soundcloud.com/gonzii, agence Thunder) mais aucune page attestant le style n'a pu être ouverte depuis le conteneur (electrobooking en 404, SoundCloud en page d'erreur, Beatport bloqué)."
+ },
+ {
+  "name": "Gugu",
+  "reason": "Uniquement des mentions en line-up (Kitchen de la Grelle Forelle, soirées Sorry Mom) ; aucune source sur l'artiste."
+ },
+ {
+  "name": "Hannah Hannah",
+  "reason": "Aucune source ; les recherches ne rendent que Hannah Laing et Hannah Wants, qui sont d'autres artistes."
+ },
+ {
+  "name": "Hi-Ki",
+  "reason": "Une seule mention (b2b avec LaDiabla à Razzmatazz, Keep Hush x Fuego) ; aucune source sur le style."
+ },
+ {
+  "name": "Industrix",
+  "reason": "Aucune source ; les recherches ne rendent qu'Industrian, artiste distinct."
+ },
+ {
+  "name": "Jazzy (CH)",
+  "reason": "Déjà documentée dans lib/bios.ts (slug jazzy-ch, Jasmin Fumagalli, KRAWALL Records) — rien à ajouter."
+ },
+ {
+  "name": "John T. Gast",
+  "reason": "Producteur britannique, patron du label 5 Gate Temple : électronique expérimentale « techno-adjacente », grime, ambient. Aucun genre de la liste fermée ne le décrit sans le trahir.",
+  "sources": [
+   "https://insheepsclothinghifi.com/5-selects-john-t-gast/",
+   "https://5gatetemple.bandcamp.com/"
+  ]
+ },
+ {
+  "name": "Jvrdy",
+  "reason": "DJ/producteur allemand actif depuis 2018 (vainqueur du Bootshaus DJ-Contest, top 20 de Sound Of Tomorrow 2020) mais aucune source ne nomme son style."
+ },
+ {
+  "name": "Kat Zé",
+  "reason": "Uniquement des mentions en line-up viennois (Mahlwerk, Gleis19) ; aucune source sur l'artiste."
+ },
+ {
+  "name": "Kelela",
+  "reason": "Kelela Mizanekristos, chanteuse américaine de R&B et d'électronique progressive signée chez Warp : aucun genre de la liste fermée ne la décrit.",
+  "sources": [
+   "https://warp.net/artists/kelela",
+   "https://en.wikipedia.org/wiki/Kelela"
+  ]
+ },
+ {
+  "name": "Da Tweekaz",
+  "reason": "FICHE GENRES ÉCRITE, MAIS ATTENTION : le nom du catalogue est une coquille. Le line-up officiel d'Into The Madness 2026 (et celui de Dream Nation) portent « Da Tweekaz », le duo hardstyle norvégien de Kenth Kvien et Marcus Nordli. Le genre reste juste (hardstyle) mais aucune bio n'a été écrite tant que la clé n'est pas corrigée en « Da Tweekaz » dans lib/data.ts.",
+  "sources": [
+   "https://www.intothemadness.de/lineup/",
+   "https://www.djmag.de/einzelnews/into-the-madness-2026"
+  ]
+ }
 ]

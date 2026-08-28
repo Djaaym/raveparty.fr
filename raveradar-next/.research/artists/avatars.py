@@ -181,7 +181,7 @@ def parse_page(page: dict, title: str) -> dict:
     """Ce que Commons dit d'un fichier, réduit à ce dont on a le droit de se servir."""
     info = (page.get("imageinfo") or [{}])[0]
     meta = info.get("extmetadata") or {}
-    url = (info.get("url") or "").split("?", 1)[0]
+    url = (info.get("thumburl") or info.get("url") or "").split("?", 1)[0]
     lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
     author = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value") or "").strip()
     author = re.sub(r"\s+", " ", author)[:120]
@@ -206,8 +206,12 @@ def resolve_many(titles: list) -> None:
     todo = [t for t in dict.fromkeys(titles) if t and t not in _CACHE]
     for i in range(0, len(todo), 50):
         batch = todo[i : i + 50]
+        # `iiurlwidth` fait rendre en plus l'URL d'une **vignette**. L'original de
+        # Commons pèse souvent plusieurs mégaoctets, pour une image qu'on réduit ensuite
+        # à 400 px : on tirait cent fois le poids utile, et upload.wikimedia.org a fini
+        # par répondre 429 sur la moitié du lot.
         q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
-             f"&titles={urllib_quote('|'.join(batch))}")
+             f"&iiurlwidth=900&titles={urllib_quote('|'.join(batch))}")
         try:
             data = json.loads(fetch(q).decode())
         except Exception as e:

@@ -1685,13 +1685,6 @@
   "n": 1,
   "name": "Basit Soomro"
  },
- "bass-d": {
-  "genres": {
-   "Hardcore": 1
-  },
-  "n": 1,
-  "name": "Bass-D"
- },
  "battery": {
   "genres": {
    "Drum & Bass": 1
@@ -2903,14 +2896,6 @@
   "n": 1,
   "name": "Christine Benz"
  },
- "christoph": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Christoph"
- },
  "christy-moore": {
   "genres": {
    "House": 1,
@@ -3204,10 +3189,10 @@
  },
  "cristoph": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Cristoph"
  },
  "crooked-minds": {
@@ -3366,6 +3351,14 @@
   },
   "n": 1,
   "name": "Daft Funk Live"
+ },
+ "daichi-wada": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Daichi Wada"
  },
  "daisy": {
   "genres": {
@@ -3867,14 +3860,6 @@
   "n": 1,
   "name": "Devin Wild"
  },
- "diachi-wada": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Diachi Wada"
- },
  "diamanda-galas": {
   "genres": {
    "House": 1,
@@ -3946,18 +3931,11 @@
   "n": 3,
   "name": "Dimension"
  },
- "dimitri": {
-  "genres": {
-   "House": 1
-  },
-  "n": 1,
-  "name": "Dimitri"
- },
  "dimitri-from-paris": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Dimitri From Paris"
  },
  "dimitri-vegas": {
@@ -5737,14 +5715,6 @@
   "n": 1,
   "name": "Furax"
  },
- "furcht": {
-  "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Furcht"
- },
  "furyan": {
   "genres": {
    "Hardcore": 2,
@@ -6811,6 +6781,14 @@
   "n": 1,
   "name": "Imperia"
  },
+ "in-furcht": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "In Furcht"
+ },
  "in-verruf": {
   "genres": {
    "Hard Techno": 2,
@@ -7831,17 +7809,6 @@
   },
   "n": 1,
   "name": "KAVARI"
- },
- "kavinsky": {
-  "genres": {
-   "EDM": 1,
-   "Hardcore": 1,
-   "Hardstyle": 1,
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Kavinsky"
  },
  "kayla-painter": {
   "genres": {
