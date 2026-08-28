@@ -136,6 +136,12 @@ TAGS = {
     "crossbreed": ("Hardcore", "Crossbreed"),
 
     # --- Drum & bass et bass music ---------------------------------------------
+    # Le site n'a pas de case « bass music » : dubstep, grime et UK garage n'ont pas de
+    # page. Les ranger sous « Drum & Bass » avec leur vrai nom en sous-genre est un
+    # choix par défaut, assumé — c'est la famille voisine (UK, 140 BPM, halftime), et
+    # une pilule « Dubstep » sous une pilule « Drum & Bass » dit la vérité, là où ne
+    # rien afficher laisserait la fiche muette. Le jour où « Bass Music » devient une
+    # catégorie du site, ces lignes basculent d'un bloc.
     "drum and bass": ("Drum & Bass", None),
     "drum n bass": ("Drum & Bass", None),
     "drum & bass": ("Drum & Bass", None),
