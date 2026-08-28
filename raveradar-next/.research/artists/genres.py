@@ -93,8 +93,16 @@ def vote(scores, subs, tag, weight, src):
 
 
 def load(name):
-    f = HARVEST / f"{name}.json"
-    return json.loads(f.read_text()) if f.exists() else {}
+    """Une source, tous ses lots. `harvest.py --shard k/n` écrit un fichier par lot —
+    ne lire que `{name}.json` laissait 1 069 attributions Discogs sur le carreau, sans
+    rien signaler : le compteur « sans source » les absorbait en silence."""
+    out = {}
+    for f in sorted(HARVEST.glob(f"{name}.json")) + sorted(HARVEST.glob(f"{name}.*of*.json")):
+        try:
+            out.update(json.loads(f.read_text()))
+        except json.JSONDecodeError:
+            print(f"  ⚠ {f.name} illisible (écriture en cours ?)")
+    return out
 
 
 def main() -> int:
