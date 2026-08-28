@@ -482,5 +482,55 @@
   "sources": [
    "https://electro-news.eu/zapravka-le-nouveau-duo-de-dj-dejantes-qui-mixent-et-chantent-en-meme-temps/"
   ]
+ },
+ {
+  "name": "Lekkerfaces",
+  "bio_fr": "Lekkerfaces est un DJ et producteur d'uptempo hardcore installé aux Pays-Bas. Il publie ses premiers morceaux en 2022 et se fait remarquer par son album et show live « Steam Power », construit sur l'alternance de kicks lents et très rapides. Il joue au Masters of Hardcore, à l'Intents Festival, au Dominator et au Harmony of Hardcore.",
+  "bio_en": "Lekkerfaces is an uptempo hardcore DJ and producer based in the Netherlands. He released his first tracks in 2022 and made his name with his album and live show \"Steam Power\", built on the alternation of slow and very fast kicks. He plays Masters of Hardcore, Intents Festival, Dominator and Harmony of Hardcore.",
+  "origin": "Pays-Bas",
+  "since": 2022,
+  "sources": [
+   "https://www.bkjnbookings.com/lekkerfaces",
+   "https://www.discogs.com/artist/11154053-Lekkerfaces"
+  ]
+ },
+ {
+  "name": "Zelecter",
+  "bio_fr": "Zelecter est un DJ et producteur allemand originaire de Heidelberg. Il s'est spécialisé dans le hardstyle, en particulier l'early hardstyle et le raw hardstyle, et ses sets font se croiser les classiques du genre avec des passages hardcore et uptempo.",
+  "bio_en": "Zelecter is a German DJ and producer from Heidelberg. He specialises in hardstyle, in particular early hardstyle and raw hardstyle, and his sets cross the genre's classics with hardcore and uptempo passages.",
+  "origin": "Heidelberg, Allemagne",
+  "sources": [
+   "https://openbeatz.de/artist/zelecter-2/",
+   "https://www.discogs.com/artist/12164173-Zelecter"
+  ]
+ },
+ {
+  "name": "In Verruf",
+  "bio_fr": "In Verruf, de son vrai nom Ferdinand Hartmann, est un DJ et producteur allemand installé à Berlin. Son nom de scène signifie « tombé en discrédit ». Il est signé depuis 2019 sur le R-Label Group de Kobosil, où paraît son morceau « Too Much DMT », et joue une hard techno dense et industrielle.",
+  "bio_en": "In Verruf, real name Ferdinand Hartmann, is a German DJ and producer based in Berlin. His stage name means \"fallen into disrepute\". He has been signed since 2019 to Kobosil's R-Label Group, home to his track \"Too Much DMT\", and plays a dense, industrial-leaning hard techno.",
+  "origin": "Berlin, Allemagne",
+  "since": 2019,
+  "labels": [
+   "R-Label Group"
+  ],
+  "sources": [
+   "https://openbeatz.de/artist/in-verruf/",
+   "https://www.discogs.com/artist/7588132-In-verruf"
+  ]
+ },
+ {
+  "name": "Robbie Doherty",
+  "bio_fr": "Robbie Doherty est un DJ et producteur nord-irlandais basé à Belfast. Nourri de funk, de disco et de la house des années 1990, il se fait connaître en novembre 2019 avec « Pour The Milk », sorti sur Relentless/Cr2 Records. Il a ensuite publié l'EP « Moving Rhythms » sur le label amstellodamois PIV.",
+  "bio_en": "Robbie Doherty is a Northern Irish DJ and producer based in Belfast. Raised on funk, disco and 1990s house, he broke through in November 2019 with \"Pour The Milk\", released on Relentless/Cr2 Records. He went on to release the \"Moving Rhythms\" EP on the Amsterdam label PIV.",
+  "origin": "Belfast, Irlande du Nord",
+  "since": 2019,
+  "labels": [
+   "Cr2 Records",
+   "PIV"
+  ],
+  "sources": [
+   "https://iamcru.com/get-to-know-belfast-based-dj-and-producer-robbie-doherty/",
+   "https://www.discogs.com/artist/6930639-Robbie-Doherty-2"
+  ]
  }
 ]

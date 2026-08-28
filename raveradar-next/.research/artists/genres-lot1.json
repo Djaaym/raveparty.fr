@@ -22,10 +22,12 @@
   ],
   "sub": [
    "Speed Garage",
-   "Tech House",
-   "Disco"
+   "Nu-Disco",
+   "Big Beat",
+   "Breakbeat"
   ],
   "sources": [
+   "https://en.wikipedia.org/wiki/Armand_van_Helden",
    "https://www.discogs.com/artist/3352-Armand-Van-Helden"
   ],
   "confidence": "high"
@@ -56,7 +58,9 @@
    "Ambient"
   ],
   "sources": [
-   "https://www.discogs.com/artist/2519485-Daniel-Avery"
+   "https://en.wikipedia.org/wiki/Daniel_Avery_(music_producer)",
+   "https://www.discogs.com/artist/2519485-Daniel-Avery",
+   "https://www.last.fm/music/Daniel+Avery/+tags"
   ],
   "confidence": "medium"
  },
@@ -120,8 +124,8 @@
    "Melodic Techno"
   ],
   "sources": [
-   "https://www.discogs.com/artist/21735-Âme",
-   "https://musicbrainz.org/ws/2/artist/?query=%C3%82me&fmt=json"
+   "https://en.wikipedia.org/wiki/%C3%82me",
+   "https://www.discogs.com/artist/21735-Âme"
   ],
   "confidence": "high"
  },
@@ -132,12 +136,12 @@
   ],
   "sub": [
    "French House",
-   "Filter House",
+   "Synthpop",
    "Disco"
   ],
   "sources": [
-   "https://www.discogs.com/artist/3358-Cassius",
-   "https://www.last.fm/music/Cassius/+tags"
+   "https://en.wikipedia.org/wiki/Cassius_(band)",
+   "https://www.discogs.com/artist/3358-Cassius"
   ],
   "confidence": "high"
  },
@@ -153,6 +157,7 @@
    "Indie Dance"
   ],
   "sources": [
+   "https://en.wikipedia.org/wiki/Erol_Alkan",
    "https://www.discogs.com/artist/117051-Erol-Alkan",
    "https://www.last.fm/music/Erol+Alkan/+tags"
   ],
@@ -166,12 +171,11 @@
   ],
   "sub": [
    "Tech House",
-   "Future House",
-   "UK Garage"
+   "Future House"
   ],
   "sources": [
-   "https://www.discogs.com/artist/5319800-James-Hype",
-   "https://www.last.fm/music/James+Hype/+tags"
+   "https://en.wikipedia.org/wiki/James_Hype",
+   "https://www.discogs.com/artist/5319800-James-Hype"
   ],
   "confidence": "high"
  },
@@ -185,8 +189,9 @@
    "Speedcore"
   ],
   "sources": [
-   "https://www.discogs.com/artist/11154053-Lekkerfaces",
-   "https://www.last.fm/music/Lekkerfaces/+tags"
+   "https://www.bkjnbookings.com/lekkerfaces",
+   "https://www.last.fm/music/Lekkerfaces/+tags",
+   "https://www.discogs.com/artist/11154053-Lekkerfaces"
   ],
   "confidence": "high"
  },
@@ -233,6 +238,7 @@
    "Industrial Techno"
   ],
   "sources": [
+   "https://crackmagazine.net/article/long-reads/rodhad-dystopians-unstoppable-force/",
    "https://www.last.fm/music/R%C3%B8dh%C3%A5d/+tags",
    "https://www.discogs.com/artist/2792304-Rødhåd"
   ],
@@ -261,10 +267,12 @@
    "Hardstyle"
   ],
   "sub": [
-   "Hardstyle Classics",
-   "Rawstyle"
+   "Early Hardstyle",
+   "Rawstyle",
+   "Uptempo"
   ],
   "sources": [
+   "https://openbeatz.de/artist/zelecter-2/",
    "https://www.discogs.com/artist/12164173-Zelecter"
   ],
   "confidence": "high"
@@ -291,12 +299,12 @@
   ],
   "sub": [
    "Bass House",
-   "Progressive House",
-   "Tropical House"
+   "Deep House",
+   "Brazilian Bass"
   ],
   "sources": [
-   "https://www.discogs.com/artist/6629077-Alok-4",
-   "https://www.last.fm/music/Alok/+tags"
+   "https://en.wikipedia.org/wiki/Alok_(DJ)",
+   "https://www.discogs.com/artist/6629077-Alok-4"
   ],
   "confidence": "high"
  },
@@ -312,8 +320,8 @@
    "Progressive House"
   ],
   "sources": [
-   "https://www.discogs.com/artist/9627886-Anyma-5",
-   "https://musicbrainz.org/ws/2/artist/?query=Anyma&fmt=json"
+   "https://en.wikipedia.org/wiki/Anyma",
+   "https://www.discogs.com/artist/9627886-Anyma-5"
   ],
   "confidence": "high"
  },
@@ -324,12 +332,13 @@
    "Trance"
   ],
   "sub": [
-   "Progressive House",
-   "Rave"
+   "Rave",
+   "Happy Hardcore",
+   "Progressive House"
   ],
   "sources": [
-   "https://djmag.com/features/ben-hemsley-advancing-trance-interview",
-   "https://mixmag.net/read/ben-hemsley-has-launched-his-new-label-bebe-rave-techno-house-trance-newcastle-news"
+   "https://en.wikipedia.org/wiki/Ben_Hemsley",
+   "https://djmag.com/features/ben-hemsley-advancing-trance-interview"
   ],
   "confidence": "high"
  },
@@ -407,9 +416,10 @@
    "Hard Trance"
   ],
   "sources": [
+   "https://openbeatz.de/artist/in-verruf/",
    "https://www.discogs.com/artist/7588132-In-verruf"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "K Motionz",
@@ -436,8 +446,8 @@
    "Uptempo"
   ],
   "sources": [
-   "https://www.last.fm/music/Krowdexx/+wiki",
-   "https://partyflock.nl/artist/95295:Krowdexx"
+   "https://www.discogs.com/artist/4248911-Krowdexx",
+   "https://www.last.fm/music/Krowdexx/+tags"
   ],
   "confidence": "medium"
  },
@@ -519,7 +529,7 @@
    "Progressive House"
   ],
   "sources": [
-   "https://www.last.fm/music/Nic+Fanciulli/+tags",
+   "https://en.wikipedia.org/wiki/Nic_Fanciulli",
    "https://www.discogs.com/artist/125548-Nic-Fanciulli"
   ],
   "confidence": "high"
@@ -547,14 +557,14 @@
    "House"
   ],
   "sub": [
-   "Tech House",
-   "Bass House"
+   "Deep House",
+   "Tech House"
   ],
   "sources": [
-   "https://www.discogs.com/artist/6930639-Robbie-Doherty-2",
-   "https://www.last.fm/music/Robbie+Doherty/+tags"
+   "https://iamcru.com/get-to-know-belfast-based-dj-and-producer-robbie-doherty/",
+   "https://www.discogs.com/artist/6930639-Robbie-Doherty-2"
   ],
-  "confidence": "medium"
+  "confidence": "high"
  },
  {
   "name": "Sama' Abdulhadi",
@@ -566,8 +576,8 @@
    "Hardgroove"
   ],
   "sources": [
-   "https://www.discogs.com/artist/8036010-Sama-Abdulhadi",
-   "https://www.last.fm/music/Sama%27+Abdulhadi/+tags"
+   "https://en.wikipedia.org/wiki/Sama%CA%BC_Abdulhadi",
+   "https://www.discogs.com/artist/8036010-Sama-Abdulhadi"
   ],
   "confidence": "high"
  },
@@ -583,8 +593,8 @@
    "Disco"
   ],
   "sources": [
-   "https://www.discogs.com/artist/189821-Skream",
-   "https://musicbrainz.org/ws/2/artist/?query=Skream&fmt=json"
+   "https://en.wikipedia.org/wiki/Skream",
+   "https://www.discogs.com/artist/189821-Skream"
   ],
   "confidence": "high"
  },
