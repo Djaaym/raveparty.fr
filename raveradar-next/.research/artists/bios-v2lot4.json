@@ -1,0 +1,30 @@
+[
+ {
+  "name": "Gandoolf",
+  "bio_fr": "DJ originaire de Carnac et basé à Nantes, Gandoolf est le fondateur et résident du collectif La Nouvelle. Il joue du hardgroove, de la schranz et de la hard music, entre les registres de Charlotte de Witte, Klangkuenstler et Svetec. Il s'est produit aux Plages Électroniques et à l'Écume Festival, et fait partie des résidents réguliers du Warehouse à Nantes.",
+  "bio_en": "A DJ from Carnac and based in Nantes, Gandoolf founded and resides at the La Nouvelle collective. He plays hardgroove, schranz and hard music, in the register of Charlotte de Witte, Klangkuenstler and Svetec. He has played Plages Électroniques and Écume Festival, and is a regular at Nantes club Warehouse.",
+  "origin": "Carnac, France",
+  "sources": ["https://warehouse-nantes.fr/artist/gandoolf"]
+ },
+ {
+  "name": "Corentin Mab",
+  "bio_fr": "DJ et producteur nantais, Corentin Mab est résident du club Warehouse à Nantes. Ses sets mêlent la deep house des années passées et la house actuelle, et il joue dans l'Ouest de la France et à Paris depuis plus de cinq ans. Il a partagé l'affiche avec Kerri Chandler, Detroit Swindle, Folamour, Jeremy Underground et Chez Damier.",
+  "bio_en": "A DJ and producer from Nantes, Corentin Mab is a resident at the city's Warehouse club. His sets combine older deep house with present-day house, and he has been playing western France and Paris for over five years. He has shared bills with Kerri Chandler, Detroit Swindle, Folamour, Jeremy Underground and Chez Damier.",
+  "origin": "Nantes, France",
+  "sources": ["https://warehouse-nantes.fr/artist/corentin-mab"]
+ },
+ {
+  "name": "Carly Zeng",
+  "bio_fr": "Née en Chine, Carly Zeng a commencé à collectionner les disques et à organiser des warehouse parties à Brooklyn avant de s'installer à Berlin. Elle y anime sa propre soirée, Dissident, et joue régulièrement pour Cocktail d'Amore et Body Language, deux rendez-vous de la scène queer berlinoise. Ses sets, construits au disque, passent de la house au tribal et à la trance progressive.",
+  "bio_en": "Born in China, Carly Zeng started collecting records and throwing warehouse parties in Brooklyn before moving to Berlin. There she runs her own party, Dissident, and plays regularly for Cocktail d'Amore and Body Language, two fixtures of the city's queer scene. Her vinyl-led sets move between house, tribal and proggy material.",
+  "origin": "Berlin, Allemagne",
+  "sources": ["https://ra.co/dj/carlyzeng/biography", "https://refugeworldwide.com/artists/carly-zeng"]
+ },
+ {
+  "name": "Karlfroye",
+  "bio_fr": "Productrice et DJ hardcore du sud de la France, Karlfroye construit des sets narratifs où se croisent gabber, jumpstyle, hardcore et musique de jeu vidéo. Elle est résidente de la radio OLA et a joué au Petit Bain, à La Machine du Moulin Rouge et à La Station - Gare des Mines à Paris, au Recyclart à Bruxelles et à la Rote Fabrik de Zurich.",
+  "bio_en": "A hardcore producer and DJ from the south of France, Karlfroye builds narrative sets that run gabber, jumpstyle, hardcore and video-game music together. She is a resident at OLA Radio and has played Petit Bain, La Machine du Moulin Rouge and La Station - Gare des Mines in Paris, Recyclart in Brussels and Rote Fabrik in Zurich.",
+  "origin": "France",
+  "sources": ["https://ra.co/dj/karlfroye/biography", "https://www.disversive.com/karlfroye"]
+ }
+]

@@ -1,0 +1,380 @@
+[
+ {
+  "name": "Adam F",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Adam_F",
+   "https://www.musicradar.com/artists/adam-f-making-colours-revisited"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dimitri From Paris",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dimitri_from_Paris",
+   "https://bbemusic.com/artist/dimitri-from-paris"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hüma Utku",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.musicboard-berlin.de/en/huema-utku/",
+   "https://shapeplatform.eu/artist/hu%CC%88ma-utku/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joshwa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/1017091-joshwa-drops-disco-laced-house-ep-lost-in-music-on-hot-creations",
+   "https://www.beatportal.com/articles/464256-joshwa-lands-on-hot-creations-with-bass-go-boom-ep"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Saoirse",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "UK Garage",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://djmag.com/cover-features/saoirse-body-mover",
+   "https://mixmag.net/feature/saoirse-interview",
+   "https://www.awakenings.com/en/artists/saorise/345894/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aphøtic",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://edmidentity.com/2025/03/16/aphotic-interview/",
+   "https://mixmagnl.com/read/get-to-knwo-aphotic-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Callush",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://6amgroup.com/articles/music-interviews/unveiling-the-sonic-rebellion-a-conversation-with-berlins-callush",
+   "https://mixmagde.com/read/callush-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alarico pres. Kenji Hina",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Tribal Techno"
+  ],
+  "sources": [
+   "https://trifec.one/alarico/",
+   "https://emerald.bandcamp.com/album/kabukicho-district-ep",
+   "https://api.discogs.com/database/search?artist=Alarico&type=release"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Andre Visior",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Andre+Visior&type=release",
+   "https://www.alwaysaliverecordings.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ash Lauryn",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Ash+Lauryn&type=release",
+   "https://www.freerangerecords.co.uk/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jason Payne",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://api.discogs.com/database/search?artist=Jason+Payne&type=release",
+   "https://www.theracords.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Finnebassen",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Nu-Disco",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.deephouseamsterdam.com/exclusive-interview-with-finnebassen/",
+   "https://www.traxsource.com/artist/87390/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jessie Dols",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://soundcloud.com/jessiedols",
+   "https://www.rotterdamrave.com/events"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Colette",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Electro"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/colette",
+   "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Christoph",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Progressive House",
+   "Melodic House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/",
+   "https://www.liaisonartists.com/artists/cristoph/",
+   "https://dancingastronaut.com/2017/09/cristoph-interview/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DT43",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://events.musicofourdesire.com/artist/dt43",
+   "https://partyflock.nl/artist/170719:DT43"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Imperia",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://dance.maassilo.com/events/de-interventie-daybreach/",
+   "https://events.musicofourdesire.com/events/Rotterdam/genre/hardcore-techno"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Autopski",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.drumandbass.nl/drumandbassnl-live-30-may-2021-abstract-autopski/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Furcht",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://hoer.live/artist/in-furcht-2/",
+   "https://soundcloud.com/infurcht",
+   "https://www.rotterdamrave.com/events"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Golpe",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://madmade.bandcamp.com/album/hard-techno-nation-ep",
+   "https://www.beatport.com/artist/golpe/93715"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ Caline",
+  "main": [
+   "Trance",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Bounce"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/dj-caline"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "A.N.Z",
+  "main": [
+   "House",
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Eurodance"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/anz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ghostface",
+  "main": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "sub": [
+   "Schranz",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/ghostface"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Eliasz",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/eliasz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Afro House"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/kaa",
+   "https://www.warehouse-nantes.fr/event/warehouse-9-ans-avec-bob-sinclar"
+  ],
+  "confidence": "medium"
+ }
+]
