@@ -421,7 +421,12 @@ def main() -> int:
     OUT.mkdir(exist_ok=True)
     artists = catalogue_artists()
     if a.source == "list":
-        save("catalogue", artists)
+        # Écriture entière, pas la fusion par lot de `save()` : celle-ci n'écrit que ce
+        # que le lot courant a récolté, donc le catalogue ne pouvait jamais *rétrécir*.
+        # Un artiste retiré d'un line-up (« Fused », qui était le nom d'une soirée) y
+        # restait, et la fusion continuait de lui compter des genres.
+        (OUT / "catalogue.json").write_text(
+            json.dumps(artists, ensure_ascii=False, indent=1, sort_keys=True))
         print(f"{len(artists)} artistes -> harvest/catalogue.json")
         return 0
     {"lastfm": lastfm, "mb": mb, "wd": wd, "wdlabel": wdlabel, "discogs": discogs}[a.source](artists, a.limit)

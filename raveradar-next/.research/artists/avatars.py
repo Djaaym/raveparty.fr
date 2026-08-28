@@ -48,6 +48,17 @@ API = "https://commons.wikimedia.org/w/api.php"
 FREE = re.compile(r"^(cc0|cc[ -]by([ -]sa)?([ -][\d.]+)?|public domain|pd-)", re.I)
 DENY = re.compile(r"\b(nc|nd|noncommercial|noderiv)\b", re.I)
 
+# La route Wikidata par libellé interroge une chaîne de caractères, pas un identifiant :
+# elle peut tomber sur un homonyme. Pour une étiquette de genre, le risque est supportable
+# (la table de correspondance ignore ce qu'elle ne reconnaît pas) ; pour un **portrait**,
+# non — publier le visage de quelqu'un d'autre sur la fiche d'un artiste est une autre
+# classe d'erreur. On ne retient donc une photo que si l'entité se décrit elle-même comme
+# venant de la musique électronique.
+ELECTRONIC = re.compile(
+    r"\b(dj|disc jockey|electronic|electronica|techno|house|trance|hardcore|hardstyle|"
+    r"gabber|drum and bass|drum'n'bass|dnb|jungle|dubstep|edm|acid|rave|psytrance|"
+    r"record producer|music producer|producer)\b", re.I)
+
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
 MIN_SRC = 320       # en dessous, l'upscale se voit
 CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est pas au centre)
@@ -56,8 +67,12 @@ CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est 
 # la détection s'effondrait en silence et *tous* les portraits partaient en « aucun
 # visage détecté ». Il se télécharge maintenant à la demande, à côté du script.
 FACE_MODEL = Path(__file__).resolve().parent / "yunet.onnx"
-FACE_MODEL_URL = ("https://github.com/opencv/opencv_zoo/raw/main/models/face_detection_yunet/"
-                  "face_detection_yunet_2023mar.onnx")
+# `github.com/.../raw/...` répond 403 depuis le conteneur, et les URL `raw.` et jsdelivr
+# rendent le **pointeur git-lfs** (131 octets) plutôt que le modèle — un fichier de 131
+# octets qu'OpenCV refuse ensuite sans dire pourquoi. `media.githubusercontent.com/media`
+# est le point d'accès qui sert le contenu LFS lui-même.
+FACE_MODEL_URL = ("https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/"
+                  "face_detection_yunet/face_detection_yunet_2023mar.onnx")
 FACE_MIN_RATIO = 0.055  # un visage plus petit que ça = photo de scène, pas un portrait
 HEAD_ROOM = 1.9         # largeur du carré en multiples de la largeur du visage
 # Artistes qui jouent masqués : le détecteur ne trouve rien, et pourtant la photo
@@ -148,7 +163,13 @@ def commons_title(ref: str) -> str:
     ref = (ref or "").strip()
     if not ref:
         return ""
-    if "/wiki/" in ref:
+    # Wikidata (P18) ne rend pas une page de fichier mais un *chemin de service* :
+    # `.../wiki/Special:FilePath/Nom%20du%20fichier.jpg`. Sans ce cas, le titre demandé
+    # devenait « File:Special:FilePath/… », que l'API ne connaît évidemment pas — et
+    # deux cents portraits disparaissaient sans le moindre message d'erreur.
+    if "Special:FilePath/" in ref:
+        ref = ref.split("Special:FilePath/", 1)[1]
+    elif "/wiki/" in ref:
         ref = ref.split("/wiki/", 1)[1]
     elif "upload.wikimedia.org" in ref:
         ref = ref.split("?", 1)[0].rsplit("/", 1)[-1]
@@ -156,40 +177,64 @@ def commons_title(ref: str) -> str:
     return ref if ref.lower().startswith("file:") else "File:" + ref
 
 
-def resolve_commons(title: str) -> dict | None:
-    """L'URL du fichier, son auteur et sa licence, tels que Commons les énonce.
+def parse_page(page: dict, title: str) -> dict:
+    """Ce que Commons dit d'un fichier, réduit à ce dont on a le droit de se servir."""
+    info = (page.get("imageinfo") or [{}])[0]
+    meta = info.get("extmetadata") or {}
+    url = (info.get("url") or "").split("?", 1)[0]
+    lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
+    author = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value") or "").strip()
+    author = re.sub(r"\s+", " ", author)[:120]
+    if not (url and lic and author):
+        return {}
+    if DENY.search(lic) or not FREE.match(lic.replace("-", " ").strip()):
+        return {"denied": lic}
+    return {"url": url, "author": author, "license": lic,
+            "page": "https://commons.wikimedia.org/wiki/"
+                    + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
 
-    Relever ces trois champs à la main est la meilleure façon de publier un jour une
-    photo sous une licence qu'on n'a pas lue. L'API les donne d'un coup, et c'est elle
-    qui fait foi.
+
+def resolve_many(titles: list) -> None:
+    """Lit les termes de plusieurs fichiers d'un coup, et les met en cache.
+
+    Une requête par fichier a été essayée d'abord : Commons répond 429 au bout de
+    quelques centaines d'appels, et le repli exponentiel faisait tomber le débit à huit
+    fichiers en dix minutes — huit heures pour le catalogue. L'API accepte **cinquante
+    titres par requête** (`titles=A|B|C`), ce qui ramène le même travail à huit appels.
+    Chercher la limite du service avant d'écrire la boucle aurait coûté cinq minutes.
     """
-    if title in _CACHE:
-        return _CACHE[title] or None
-    q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
-         f"&titles={urllib_quote(title)}")
-    try:
-        pages = json.loads(fetch(q).decode()).get("query", {}).get("pages", {})
-    except Exception:
-        return None
-    for _, page in pages.items():
-        info = (page.get("imageinfo") or [{}])[0]
-        meta = info.get("extmetadata") or {}
-        url = (info.get("url") or "").split("?", 1)[0]
-        lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
-        author = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value") or "").strip()
-        author = re.sub(r"\s+", " ", author)[:120]
-        if not (url and lic and author):
-            return None
-        if DENY.search(lic) or not FREE.match(lic.replace("-", " ").strip()):
-            _CACHE[title] = {"denied": lic}
-            save_cache(_CACHE)
-            return _CACHE[title]
-        _CACHE[title] = {"url": url, "author": author, "license": lic,
-                         "page": "https://commons.wikimedia.org/wiki/"
-                                 + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
+    todo = [t for t in dict.fromkeys(titles) if t and t not in _CACHE]
+    for i in range(0, len(todo), 50):
+        batch = todo[i : i + 50]
+        q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
+             f"&titles={urllib_quote('|'.join(batch))}")
+        try:
+            data = json.loads(fetch(q).decode())
+        except Exception as e:
+            print(f"  ⚠ lot Commons {i // 50} : {str(e)[:70]}")
+            time.sleep(10)
+            continue
+        query = data.get("query", {})
+        # L'API renomme ce qu'elle normalise (espaces, casse de l'initiale) : sans cette
+        # table, la moitié des réponses ne se rattache à aucun titre demandé.
+        norm = {n["from"]: n["to"] for n in query.get("normalized", [])}
+        want = {norm.get(t, t): t for t in batch}
+        for page in (query.get("pages") or {}).values():
+            asked = want.get(page.get("title", ""))
+            if asked:
+                _CACHE[asked] = parse_page(page, asked)
+        for t in batch:
+            _CACHE.setdefault(t, {})
         save_cache(_CACHE)
-        return _CACHE[title]
-    return None
+        print(f"  licences lues : {min(i + 50, len(todo))}/{len(todo)}", flush=True)
+        time.sleep(THROTTLE)
+
+
+def resolve_commons(title: str) -> dict | None:
+    """Les termes d'un fichier — servis par le cache, rempli par `resolve_many()`."""
+    if title not in _CACHE:
+        resolve_many([title])
+    return _CACHE.get(title) or None
 
 
 def duotone(img: Image.Image) -> Image.Image:
@@ -297,6 +342,19 @@ def main() -> int:
     # --- les candidats, dans l'ordre d'autorité --------------------------------
     # slug -> (nom, url du fichier, auteur, licence, page Commons)
     cands, resolved, denied = {}, 0, []
+
+    # Tous les titres Commons dont on aura besoin, résolus en lots de cinquante avant
+    # d'entrer dans les boucles : une requête par fichier prend un 429 au bout de
+    # quelques centaines et le débit s'effondre.
+    wanted = [commons_title(r["commons"]) for r in rows if (r.get("commons") or "").strip()]
+    _wd_file, _cat_file = HARVEST / "wdlabel.json", HARVEST / "catalogue.json"
+    if _wd_file.exists() and _cat_file.exists():
+        _cat = json.loads(_cat_file.read_text())
+        for _s, _v in json.loads(_wd_file.read_text()).items():
+            if _v.get("img") and _s in _cat and is_our_artist(_v):
+                wanted.append(commons_title(_v["img"]))
+    print(f"{len(set(wanted))} fichier(s) Commons à qualifier")
+    resolve_many(wanted)
     for r in rows:
         name = (r.get("name") or "").strip()
         slug = slugify(name)
@@ -307,12 +365,8 @@ def main() -> int:
             cands[slug] = (name, url, (r.get("photo_author") or "").strip(),
                            (r.get("photo_license") or "").strip(), (r.get("photo_page") or "").strip())
         elif (r.get("commons") or "").strip():
-            title = commons_title(r["commons"])
-            cached = title in _CACHE
-            got = resolve_commons(title)
-            resolved += 0 if cached else 1
-            if not cached:
-                time.sleep(THROTTLE)
+            got = resolve_commons(commons_title(r["commons"]))
+            resolved += 1
             if got and "denied" in got:
                 denied.append((name, got["denied"])); continue
             if got:
@@ -336,12 +390,8 @@ def main() -> int:
         if args.limit:
             todo = todo[: args.limit]
         for slug, v in todo:
-            title = commons_title(v["img"])
-            cached = title in _CACHE
-            got = resolve_commons(title)
-            resolved += 0 if cached else 1
-            if not cached:
-                time.sleep(THROTTLE)
+            got = resolve_commons(commons_title(v["img"]))
+            resolved += 1
             if got and "denied" in got:
                 denied.append((cat[slug]["name"], got["denied"])); continue
             if got:

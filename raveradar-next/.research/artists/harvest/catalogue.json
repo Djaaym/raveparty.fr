@@ -5770,14 +5770,6 @@
   "n": 2,
   "name": "Furyan"
  },
- "fused": {
-  "genres": {
-   "House": 1,
-   "Techno": 2
-  },
-  "n": 2,
-  "name": "Fused"
- },
  "future-666": {
   "genres": {
    "Hard Techno": 1,
@@ -14903,14 +14895,6 @@
   "n": 1,
   "name": "Tyson O'Brien"
  },
- "u-uk-uk1mat-u": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "¥ØU$UK€ ¥UK1MAT$U"
- },
  "u999": {
   "genres": {
    "House": 1,
@@ -15710,9 +15694,10 @@
    "Drum & Bass": 1,
    "EDM": 1,
    "Hardstyle": 1,
-   "Techno": 1
+   "House": 1,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Yousuke Yukimatsu"
  },
  "ypy": {

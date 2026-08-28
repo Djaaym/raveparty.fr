@@ -444,7 +444,6 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "funk-tribu": { m: ["Hard Techno", "Techno"], s: ["Hard Trance", "Hardgroove"], src: "research" }, // Funk Tribu
   "furax": { m: ["Hardstyle", "Techno"], s: ["Jumpstyle"], src: "discogs" }, // Furax
   "furyan": { m: ["Hardcore"], s: ["Uptempo"], src: "research" }, // Furyan
-  "fused": { m: ["Techno", "House"], s: ["IDM", "Electro", "Industrial"], src: "discogs" }, // Fused
   "futuregrapher": { m: ["Techno"], s: ["Ambient", "IDM"], src: "discogs" }, // Futuregrapher
   "g-ha-olanskii": { m: ["House", "Techno"], s: ["Disco"], src: "research" }, // g-HA & Olanskii
   "gabber-eleganza": { m: ["Techno", "Hardcore"], s: ["Experimental", "Gabber", "Ambient"], src: "discogs" }, // Gabber Eleganza
