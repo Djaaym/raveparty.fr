@@ -1,8 +1,14 @@
 [
  {
   "name": "La P'tite Fumée",
-  "main": ["Psytrance", "Trance"],
-  "sub": ["Organic Trance", "Tribal"],
+  "main": [
+   "Psytrance",
+   "Trance"
+  ],
+  "sub": [
+   "Organic Trance",
+   "Tribal"
+  ],
   "sources": [
    "https://www.discogs.com/artist/5444465-La-Ptite-Fumée",
    "https://www.durevie.paris/article/le-groupe-phare-de-live-psytrance-la-ptite-fumee-annonce-une-nouvelle-tournee-partout-en-france"
@@ -11,15 +17,28 @@
  },
  {
   "name": "Armand van Helden",
-  "main": ["House"],
-  "sub": ["Speed Garage", "Tech House", "Disco"],
-  "sources": ["https://www.discogs.com/artist/3352-Armand-Van-Helden"],
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Speed Garage",
+   "Tech House",
+   "Disco"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3352-Armand-Van-Helden"
+  ],
   "confidence": "high"
  },
  {
   "name": "Jayda G",
-  "main": ["House"],
-  "sub": ["Deep House", "Disco"],
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Disco"
+  ],
   "sources": [
    "https://en.wikipedia.org/wiki/Jayda_G",
    "https://www.discogs.com/artist/4430477-Jayda-G"
@@ -28,15 +47,29 @@
  },
  {
   "name": "Daniel Avery",
-  "main": ["Techno", "Acid Techno"],
-  "sub": ["Industrial Techno", "Ambient"],
-  "sources": ["https://www.discogs.com/artist/2519485-Daniel-Avery"],
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/2519485-Daniel-Avery"
+  ],
   "confidence": "medium"
  },
  {
   "name": "Funk Tribu",
-  "main": ["Hard Techno", "Techno"],
-  "sub": ["Hard Trance", "Hardgroove"],
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Hardgroove"
+  ],
   "sources": [
    "https://www.discogs.com/artist/8301698-Funk-Tribu",
    "https://www.insomniac.com/music/artists/funk-tribu/"
@@ -45,18 +78,579 @@
  },
  {
   "name": "&ME",
-  "main": ["House", "Techno"],
-  "sub": ["Melodic House", "Deep House"],
-  "sources": ["https://www.discogs.com/artist/645861-Me"],
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/645861-Me"
+  ],
   "confidence": "medium"
  },
  {
   "name": "The Prodigy",
-  "main": ["EDM", "Hardcore"],
-  "sub": ["Big Beat", "Breakbeat", "Rave"],
+  "main": [
+   "EDM",
+   "Hardcore"
+  ],
+  "sub": [
+   "Big Beat",
+   "Breakbeat",
+   "Rave"
+  ],
   "sources": [
    "https://en.wikipedia.org/wiki/The_Prodigy",
    "https://www.discogs.com/artist/66852-The-Prodigy"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Âme",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Melodic House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/21735-Âme",
+   "https://musicbrainz.org/ws/2/artist/?query=%C3%82me&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cassius",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "French House",
+   "Filter House",
+   "Disco"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3358-Cassius",
+   "https://www.last.fm/music/Cassius/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Erol Alkan",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Acid House",
+   "Electro",
+   "Indie Dance"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/117051-Erol-Alkan",
+   "https://www.last.fm/music/Erol+Alkan/+tags"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "James Hype",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Tech House",
+   "Future House",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/5319800-James-Hype",
+   "https://www.last.fm/music/James+Hype/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lekkerfaces",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo",
+   "Speedcore"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/11154053-Lekkerfaces",
+   "https://www.last.fm/music/Lekkerfaces/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Medusa",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Acid",
+   "Schranz",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/medusa"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Palms Trax",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Disco",
+   "Nu-Disco"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3467480-Palms-Trax",
+   "https://www.last.fm/music/Palms+Trax/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rødhåd",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Dub Techno",
+   "Minimal Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.last.fm/music/R%C3%B8dh%C3%A5d/+tags",
+   "https://www.discogs.com/artist/2792304-Rødhåd"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Shanti Celeste",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Ambient",
+   "Deep House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shanti_Celeste",
+   "https://www.discogs.com/artist/3416319-Shanti-Celeste"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zelecter",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Hardstyle Classics",
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/12164173-Zelecter"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Act of Rage",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3954322-Act-Of-Rage-2",
+   "https://musicbrainz.org/ws/2/artist/?query=Act+of+Rage&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alok",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Bass House",
+   "Progressive House",
+   "Tropical House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/6629077-Alok-4",
+   "https://www.last.fm/music/Alok/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Anyma",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Melodic House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/9627886-Anyma-5",
+   "https://musicbrainz.org/ws/2/artist/?query=Anyma&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ben Hemsley",
+  "main": [
+   "House",
+   "Trance"
+  ],
+  "sub": [
+   "Progressive House",
+   "Rave"
+  ],
+  "sources": [
+   "https://djmag.com/features/ben-hemsley-advancing-trance-interview",
+   "https://mixmag.net/read/ben-hemsley-has-launched-his-new-label-bebe-rave-techno-house-trance-newcastle-news"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Brennan Heart",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brennan_Heart",
+   "https://www.discogs.com/artist/439312-Brennan-Heart"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Chris Liebing",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chris_Liebing",
+   "https://www.discogs.com/artist/1711-Chris-Liebing"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DARKSIDE",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Downtempo",
+   "Left-field House",
+   "Neo-psychedelia"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/2522005-DARKSIDE-22",
+   "https://musicbrainz.org/ws/2/artist/?query=DARKSIDE&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Felix Kröcher",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz",
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://www.last.fm/music/Felix+Kr%C3%B6cher/+tags",
+   "https://www.discogs.com/artist/102027-Felix-Kröcher"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "In Verruf",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/7588132-In-verruf"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "K Motionz",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jump Up"
+  ],
+  "sources": [
+   "https://www.last.fm/music/K+Motionz/+tags",
+   "https://www.discogs.com/artist/3012443-K-Motionz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Krowdexx",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Rawstyle",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.last.fm/music/Krowdexx/+wiki",
+   "https://partyflock.nl/artist/95295:Krowdexx"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DJ F.R.A.N.K.",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Disco House",
+   "Jumpstyle",
+   "Dance"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_F.R.A.N.K.",
+   "https://www.last.fm/music/DJ+F.R.A.N.K./+tags"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Luigi Tozzi",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Dub Techno",
+   "Hypnotic Techno",
+   "Ambient",
+   "Deep Techno"
+  ],
+  "sources": [
+   "https://www.last.fm/music/Luigi+Tozzi/+tags",
+   "https://www.discogs.com/artist/4098420-Luigi-Tozzi"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Maudux",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Bounce Trap",
+   "Ghetto Trance",
+   "Hard Techno"
+  ],
+  "sources": [
+   "https://le-sucre.eu/artists/maudux/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mosimann",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/1117982-Quentin-Mosimann",
+   "https://musicbrainz.org/ws/2/artist/?query=Mosimann&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nic Fanciulli",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://www.last.fm/music/Nic+Fanciulli/+tags",
+   "https://www.discogs.com/artist/125548-Nic-Fanciulli"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pegassi",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Eurodance",
+   "Trance",
+   "House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/5658595-Pegassi",
+   "https://musicbrainz.org/ws/2/artist/?query=Pegassi&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Robbie Doherty",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Bass House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/6930639-Robbie-Doherty-2",
+   "https://www.last.fm/music/Robbie+Doherty/+tags"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sama' Abdulhadi",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Peak Time Techno",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/8036010-Sama-Abdulhadi",
+   "https://www.last.fm/music/Sama%27+Abdulhadi/+tags"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Skream",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Dubstep",
+   "UK Garage",
+   "Disco"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/189821-Skream",
+   "https://musicbrainz.org/ws/2/artist/?query=Skream&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sub Focus",
+  "main": [
+   "Drum & Bass",
+   "EDM"
+  ],
+  "sub": [
+   "Drumstep",
+   "Dubstep",
+   "Electro House",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sub_Focus",
+   "https://www.discogs.com/artist/142440-Sub-Focus"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Lady Machine",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hypnotic Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/6154918-The-Lady-Machine",
+   "https://www.last.fm/music/The+Lady+Machine/+tags"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Venga",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Bass House",
+   "Acid"
+  ],
+  "sources": [
+   "https://handsupelectro.fr/interviews/interview-venga/",
+   "https://www.plages-electroniques.com/artistes/venga/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Zapravka",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Gabber",
+   "Bass House",
+   "Hardstyle"
+  ],
+  "sources": [
+   "https://electro-news.eu/zapravka-le-nouveau-duo-de-dj-dejantes-qui-mixent-et-chantent-en-meme-temps/"
   ],
   "confidence": "high"
  }

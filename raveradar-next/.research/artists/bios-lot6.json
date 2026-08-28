@@ -222,5 +222,150 @@
       "https://kompakt.fm/artists/agents_of_time",
       "https://www.exitfest.org/en/agents-of-time-italys-perfect-melodic-techno-operatives"
     ]
+  },
+  {
+    "name": "Fakear",
+    "bio_fr": "Fakear est le nom de scène de Théo Le Vigoureux, producteur et DJ français né le 13 mai 1991. Il publie depuis 2011, d'abord chez Nowadays Records, une musique électronique nourrie de samples et d'influences trip-hop.",
+    "bio_en": "Fakear is the stage name of Théo Le Vigoureux, a French producer and DJ born on 13 May 1991. He has released since 2011, first on Nowadays Records, making sample-based electronic music with trip-hop leanings.",
+    "origin": "Caen, France",
+    "since": 2011,
+    "labels": [
+      "Nowadays Records"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fakear",
+      "https://fr.wikipedia.org/wiki/Fakear"
+    ]
+  },
+  {
+    "name": "Trinix",
+    "bio_fr": "Trinix est un duo français de musique électronique actif depuis 2012, qui publie sur son propre label Trinix Music. Sa musique est classée en EDM et electro house, et il s'est fait connaître par ses remixes.",
+    "bio_en": "Trinix is a French electronic duo active since 2012, releasing on their own label Trinix Music. Their music is classified as EDM and electro house, and they became known through their remixes.",
+    "origin": "France",
+    "since": 2012,
+    "labels": [
+      "Trinix Music"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Trinix"
+    ]
+  },
+  {
+    "name": "Gabry Ponte",
+    "bio_fr": "Gabry Ponte, de son vrai nom Gabriele Ponte, est un DJ et producteur italien né en 1973. Il est membre du groupe Eiffel 65, avec lequel il signe « Blue (Da Ba Dee) », et poursuit depuis une carrière solo entre eurodance et house.",
+    "bio_en": "Gabry Ponte, real name Gabriele Ponte, is an Italian DJ and producer born in 1973. He is a member of Eiffel 65, with whom he made \"Blue (Da Ba Dee)\", and has since pursued a solo career between eurodance and house.",
+    "origin": "Turin, Italie",
+    "labels": [
+      "BlissCorporation",
+      "Dance And Love"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gabry_Ponte",
+      "https://fr.wikipedia.org/wiki/Gabry_Ponte"
+    ]
+  },
+  {
+    "name": "Lost Frequencies",
+    "bio_fr": "Lost Frequencies est le nom de scène de Felix De Laet, DJ et producteur belge né en 1993. Il s'est fait connaître en 2014 avec « Are You with Me », puis « Reality » et « Where Are You Now » avec Calum Scott. Il dirige le label Found Frequencies.",
+    "bio_en": "Lost Frequencies is the stage name of Felix De Laet, a Belgian DJ and producer born in 1993. He broke through in 2014 with \"Are You with Me\", followed by \"Reality\" and \"Where Are You Now\" with Calum Scott. He runs the Found Frequencies label.",
+    "origin": "Bruxelles, Belgique",
+    "since": 2014,
+    "labels": [
+      "Found Frequencies",
+      "Armada Music"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lost_Frequencies",
+      "https://fr.wikipedia.org/wiki/Lost_Frequencies"
+    ]
+  },
+  {
+    "name": "Blond:ish",
+    "bio_fr": "Blond:ish est le nom de scène de Vivie-ann Bakos, DJ et productrice canadienne née en 1988. Elle publie depuis 2008 sur Kompakt, Defected ou Get Physical, entre melodic house, afro house et deep house. Elle a fondé la série de soirées et le label Abracadabra, est résidente au Pacha Ibiza, et a lancé l'association Bye Bye Plastic contre le plastique à usage unique dans les lieux de musique.",
+    "bio_en": "Blond:ish is the stage name of Vivie-ann Bakos, a Canadian DJ and producer born in 1988. She has released since 2008 on Kompakt, Defected and Get Physical, moving between melodic house, afro house and deep house. She founded the Abracadabra party series and label, is a Pacha Ibiza resident, and started the Bye Bye Plastic nonprofit against single-use plastic in music venues.",
+    "origin": "Canada",
+    "since": 2008,
+    "labels": [
+      "Kompakt",
+      "Defected",
+      "Get Physical Music",
+      "Abracadabra Music"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blond:ish"
+    ]
+  },
+  {
+    "name": "Kneecap",
+    "bio_fr": "Kneecap est un trio de hip-hop irlandais de Belfast, formé de Mo Chara, Móglaí Bap et DJ Próvaí. Ils rappent en anglais et en irlandais depuis leur premier single « C.E.A.R.T.A. » en 2017. Leur premier album, Fine Art, paraît en 2024 chez Heavenly Recordings, la même année qu'un film biographique.",
+    "bio_en": "Kneecap are an Irish hip-hop trio from Belfast, made up of Mo Chara, Móglaí Bap and DJ Próvaí. They have rapped in English and Irish since their first single \"C.E.A.R.T.A.\" in 2017. Their debut album, Fine Art, came out in 2024 on Heavenly Recordings, the same year as a biographical film.",
+    "origin": "Belfast, Irlande du Nord",
+    "since": 2017,
+    "labels": [
+      "Heavenly Recordings"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kneecap_(band)"
+    ]
+  },
+  {
+    "name": "Regi",
+    "bio_fr": "Regi est le nom de scène de Regi Penxten, DJ et producteur belge né en 1976. Il est à l'origine de projets eurodance et trance comme Milk Inc. et Sylver, et a publié trois albums solo entrés dans le top dix belge : Best Of (2005), Registrated (2007) et Registrated 2 (2010).",
+    "bio_en": "Regi is the stage name of Regi Penxten, a Belgian DJ and producer born in 1976. He is behind eurodance and trance projects such as Milk Inc. and Sylver, and has released three solo albums that reached the Belgian top ten: Best Of (2005), Registrated (2007) and Registrated 2 (2010).",
+    "origin": "Belgique",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regi_Penxten"
+    ]
+  },
+  {
+    "name": "Damien RK",
+    "bio_fr": "Damien RK est un DJ et producteur français de la scène hardstyle, en tournée en France et en Europe depuis plus de huit ans. Il joue l'ensemble des styles hard — hardstyle, rawstyle, hard trance, hardcore et frenchcore — et fait partie de l'équipe du label Hardstyle France Records. Il s'est produit à l'Electrobeach, à l'Elektric Park, au Warehouse de Nantes et à l'Intents Festival aux Pays-Bas.",
+    "bio_en": "Damien RK is a French DJ and producer from the hardstyle scene, touring France and Europe for more than eight years. He plays the whole range of hard styles — hardstyle, rawstyle, hard trance, hardcore and frenchcore — and is part of the Hardstyle France Records label team. He has played Electrobeach, Elektric Park, Warehouse in Nantes and Intents Festival in the Netherlands.",
+    "origin": "France",
+    "labels": [
+      "Hardstyle France Records"
+    ],
+    "sources": [
+      "https://www.damienrk.com/",
+      "https://www.myfestival.fr/artistes/damien-rk"
+    ]
+  },
+  {
+    "name": "GPF",
+    "bio_fr": "GPF, pour Greazy Puzzy Fuckerz, est un duo hardcore reconnaissable à son « pipe kick », un kick fortement distordu, et aux masques que ses membres portent sur scène. Ils ont fondé leur label GPF Recordz en 2017 et publié l'album Lovin' Ain't Greazy en 2018. Ils ont collaboré avec Timmy Trumpet, Paul Elstak et Primate.",
+    "bio_en": "GPF, short for Greazy Puzzy Fuckerz, is a hardcore duo recognisable by its \"pipe kick\", a heavily distorted kick, and by the masks its members wear on stage. They founded their label GPF Recordz in 2017 and released the album Lovin' Ain't Greazy in 2018. They have worked with Timmy Trumpet, Paul Elstak and Primate.",
+    "since": 2017,
+    "labels": [
+      "GPF Recordz"
+    ],
+    "sources": [
+      "https://hardstyle.com/en/artists/gpf",
+      "https://edm.fandom.com/wiki/GPF"
+    ]
+  },
+  {
+    "name": "Outsiders",
+    "bio_fr": "Outsiders est le nom de scène de Cem Araci, DJ et producteur néerlandais né en 1985 à La Haye. Le projet est fondé en 2008 en duo avec Murat Meijer, qui le quitte en 2014. Il joue du hardstyle et compte plusieurs disques d'or et un disque de platine dans le genre.",
+    "bio_en": "Outsiders is the stage name of Cem Araci, a Dutch DJ and producer born in 1985 in The Hague. The project was founded in 2008 as a duo with Murat Meijer, who left in 2014. He plays hardstyle and has earned several gold records and a platinum record in the genre.",
+    "origin": "La Haye, Pays-Bas",
+    "since": 2008,
+    "sources": [
+      "https://www.djguide.nl/djinfo.p?djid=5944&language=en",
+      "https://edm.fandom.com/wiki/Outsiders_(NL)"
+    ]
+  },
+  {
+    "name": "Cedex & Higher Underground",
+    "bio_fr": "Cedex & Higher Underground est un duo drum & bass belge de Gand. Ils ont publié sur Space Pirate Recordings, Soul Lab et Lifestyle Music, notamment « Red Alert » avec James Marvel et « The Alarm » sur la compilation Belgian Connection. Ils ont joué à Tomorrowland, Rampage et Star Warz.",
+    "bio_en": "Cedex & Higher Underground are a Belgian drum & bass duo from Ghent. They have released on Space Pirate Recordings, Soul Lab and Lifestyle Music, including \"Red Alert\" with James Marvel and \"The Alarm\" on the Belgian Connection compilation. They have played Tomorrowland, Rampage and Star Warz.",
+    "origin": "Gand, Belgique",
+    "labels": [
+      "Space Pirate Recordings",
+      "Lifestyle Music"
+    ],
+    "sources": [
+      "https://jungledrumandbass.co.uk/news/cedex-higher-underground-being-you",
+      "https://soundcloud.com/cedexhigherunderground"
+    ]
   }
 ]

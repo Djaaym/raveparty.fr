@@ -1,0 +1,106 @@
+{
+ "amelie-lens": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    50
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "techno",
+    50
+   ],
+   [
+    "tech house",
+    5
+   ],
+   [
+    "acid",
+    5
+   ],
+   [
+    "trance",
+    1
+   ],
+   [
+    "deep techno",
+    1
+   ],
+   [
+    "neo trance",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ]
+  ]
+ },
+ "nto": {
+  "found": true,
+  "genres": [
+   [
+    "electronic",
+    40
+   ],
+   [
+    "hip hop",
+    10
+   ]
+  ],
+  "n": 50,
+  "styles": [
+   [
+    "deep house",
+    17
+   ],
+   [
+    "tech house",
+    15
+   ],
+   [
+    "techno",
+    13
+   ],
+   [
+    "minimal",
+    12
+   ],
+   [
+    "progressive house",
+    7
+   ],
+   [
+    "minimal techno",
+    5
+   ],
+   [
+    "gangsta",
+    3
+   ],
+   [
+    "hardcore hip-hop",
+    3
+   ],
+   [
+    "trap",
+    3
+   ],
+   [
+    "deep techno",
+    2
+   ],
+   [
+    "electro",
+    2
+   ],
+   [
+    "idm",
+    1
+   ]
+  ]
+ }
+}

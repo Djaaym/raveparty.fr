@@ -308,5 +308,168 @@
       "https://www.last.fm/music/Agents+Of+Time/+tags"
     ],
     "confidence": "high"
+  },
+  {
+    "name": "Fakear",
+    "main": [
+      "EDM"
+    ],
+    "sub": [
+      "Downtempo",
+      "Trip-Hop"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fakear",
+      "https://www.last.fm/music/Fakear/+tags"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "name": "Trinix",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Electro House"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Trinix",
+      "https://www.last.fm/music/Trinix/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Gabry Ponte",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Eurodance",
+      "Italo Dance"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gabry_Ponte",
+      "https://www.last.fm/music/Gabry+Ponte/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Lost Frequencies",
+    "main": [
+      "House",
+      "EDM"
+    ],
+    "sub": [
+      "Deep House",
+      "Tropical House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lost_Frequencies",
+      "https://fr.wikipedia.org/wiki/Lost_Frequencies",
+      "https://www.last.fm/music/Lost+Frequencies/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Blond:ish",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Melodic House",
+      "Afro House",
+      "Organic House"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Blond:ish"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Kneecap",
+    "main": [
+      "EDM"
+    ],
+    "sub": [
+      "Hardcore Hip-Hop",
+      "Political Hip-Hop"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kneecap_(band)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Regi",
+    "main": [
+      "Trance",
+      "EDM"
+    ],
+    "sub": [
+      "Eurodance"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Regi_Penxten"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Damien RK",
+    "main": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "sub": [
+      "Rawstyle",
+      "Frenchcore",
+      "Hard Trance"
+    ],
+    "sources": [
+      "https://www.damienrk.com/",
+      "https://www.myfestival.fr/artistes/damien-rk"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "GPF",
+    "main": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "sub": [
+      "Uptempo"
+    ],
+    "sources": [
+      "https://hardstyle.com/en/artists/gpf",
+      "https://edm.fandom.com/wiki/GPF"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Outsiders",
+    "main": [
+      "Hardstyle"
+    ],
+    "sub": [],
+    "sources": [
+      "https://www.djguide.nl/djinfo.p?djid=5944&language=en",
+      "https://edm.fandom.com/wiki/Outsiders_(NL)"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Cedex & Higher Underground",
+    "main": [
+      "Drum & Bass"
+    ],
+    "sub": [],
+    "sources": [
+      "https://jungledrumandbass.co.uk/news/cedex-higher-underground-being-you",
+      "https://soundcloud.com/cedexhigherunderground"
+    ],
+    "confidence": "high"
   }
 ]

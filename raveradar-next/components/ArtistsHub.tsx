@@ -3,6 +3,7 @@ import type { Lang } from "@/lib/types";
 import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming, cardEvent, eventPath } from "@/lib/data";
 import { ARTISTS, artistGenres, artistSubGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
+import { ARTIST_PHOTOS, artistPhoto } from "@/lib/artist-photos";
 
 import { VENUES } from "@/lib/venues";
 import { fmtDate } from "@/lib/format";
@@ -47,7 +48,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
     slug: a.slug,
     name: a.name,
     n: a.eventIds.length,
-    photo: BIOS[a.slug]?.photo?.file,
+    photo: artistPhoto(a.slug)?.file,
     g: artistGenres(a)
       .slice(0, 3)
       .map((g) => gi.get(g))
@@ -68,12 +69,12 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       const next = live
         .filter((e) => a.eventIds.includes(e.id))
         .sort((x, y) => x.date.localeCompare(y.date))[0];
-      return { a, bio, next, genres: [...artistGenres(a), ...artistSubGenres(a)].slice(0, 4) };
+      return { a, bio, photo: artistPhoto(a.slug), next, genres: [...artistGenres(a), ...artistSubGenres(a)].slice(0, 4) };
     });
   /* A CC BY photo may be reused *provided* the author and licence travel with it —
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
      line, so the page carries them all here, once, for the portraits it shows. */
-  const credits = ARTISTS.map((a) => BIOS[a.slug]?.photo && { name: a.name, ...BIOS[a.slug]!.photo! })
+  const credits = ARTISTS.map((a) => ARTIST_PHOTOS[a.slug] && { name: a.name, ...ARTIST_PHOTOS[a.slug]! })
     .filter((c): c is { name: string; file: string; author: string; license: string; page: string } => Boolean(c))
     .sort((x, y) => x.name.localeCompare(y.name));
 
@@ -172,13 +173,13 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                 {t("artists.detaillead").replace("{n}", String(detailed.length))}
               </p>
               <div className="artcards">
-                {featured.map(({ a, bio, next: nextDate, genres }) => (
+                {featured.map(({ a, bio, photo, next: nextDate, genres }) => (
                   <article className="artcard" key={a.slug}>
-                    {bio.photo ? (
+                    {photo ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
                       <img
                         className="artcard-photo"
-                        src={`/artists/${bio.photo.file}`}
+                        src={`/artists/${photo.file}`}
                         alt=""
                         width={64}
                         height={64}

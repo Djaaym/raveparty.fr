@@ -1,12 +1,433 @@
 [
- {"name":"Andy C","main":["Drum & Bass"],"sub":["Jungle"],"sources":["https://en.wikipedia.org/wiki/Andy_C"],"confidence":"high"},
- {"name":"Fisher","main":["House"],"sub":["Tech House"],"sources":["https://en.wikipedia.org/wiki/Fisher_(musician)"],"confidence":"high"},
- {"name":"CamelPhat","main":["House"],"sub":["Tech House","Melodic House"],"sources":["https://en.wikipedia.org/wiki/CamelPhat"],"confidence":"high"},
- {"name":"Joseph Capriati","main":["Techno","House"],"sub":[],"sources":["https://en.wikipedia.org/wiki/Joseph_Capriati"],"confidence":"high"},
- {"name":"Stephan Bodzin","main":["Techno"],"sub":["Minimal Techno","Tech House"],"sources":["https://en.wikipedia.org/wiki/Stephan_Bodzin","https://musicbrainz.org/artist/6f027cd7-c2e8-4569-8922-aa2c9a503e65"],"confidence":"high"},
- {"name":"Adaro","main":["Hardstyle"],"sub":["Rawstyle"],"sources":["https://en.wikipedia.org/wiki/Adaro_(DJ)"],"confidence":"high"},
- {"name":"Eats Everything","main":["House"],"sub":["Tech House","UK Garage"],"sources":["https://en.wikipedia.org/wiki/Eats_Everything"],"confidence":"high"},
- {"name":"Chicane","main":["Trance","House"],"sub":["Ambient","Downtempo"],"sources":["https://en.wikipedia.org/wiki/Chicane_(musician)"],"confidence":"high"},
- {"name":"Faithless","main":["House","Trance"],"sub":["Trip Hop"],"sources":["https://en.wikipedia.org/wiki/Faithless"],"confidence":"high"},
- {"name":"Groove Armada","main":["House"],"sub":["Big Beat","Downtempo","Trip Hop"],"sources":["https://en.wikipedia.org/wiki/Groove_Armada"],"confidence":"high"}
+ {
+  "name": "Andy C",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andy_C"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fisher",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fisher_(musician)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "CamelPhat",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/CamelPhat"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joseph Capriati",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Joseph_Capriati"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Stephan Bodzin",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stephan_Bodzin",
+   "https://musicbrainz.org/artist/6f027cd7-c2e8-4569-8922-aa2c9a503e65"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Adaro",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Adaro_(DJ)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eats Everything",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Eats_Everything"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Chicane",
+  "main": [
+   "Trance",
+   "House"
+  ],
+  "sub": [
+   "Ambient",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chicane_(musician)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Faithless",
+  "main": [
+   "House",
+   "Trance"
+  ],
+  "sub": [
+   "Trip Hop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Faithless"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Groove Armada",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Big Beat",
+   "Downtempo",
+   "Trip Hop"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Groove_Armada"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Fatima Hajji",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://djmag.com/features/fatima-hajji-force-nature",
+   "https://musicbrainz.org/artist/0c0f88db-c1f2-4f3b-8bbf-8cace9196c59"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rooler",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://hardstyle.com/en/artists/rooler",
+   "https://musicbrainz.org/artist/07b7e791-ccfa-4ec4-b2f9-e136d4cf0746"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bou",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jump-Up"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bou_(musician)",
+   "https://musicbrainz.org/artist/b3c31c2b-f9ec-4c94-b045-119ac0994da3"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Héctor Oaks",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/H%C3%A9ctor_Oaks"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paramida",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Italo Disco",
+   "Goa Trance"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paramida"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "NGHTMRE",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Dubstep",
+   "Trap",
+   "Future Bass",
+   "Electro House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nghtmre"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Avener",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Electro"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Avener"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Reinier Zonneveld",
+  "main": [
+   "Acid Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Reinier_Zonneveld"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kode9",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Future Garage",
+   "UK Bass"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kode9"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "LTJ Bukem",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Jazzstep",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/LTJ_Bukem"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MK",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/MK_(record_producer)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kolter",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://kolter.bandcamp.com/",
+   "https://musicbrainz.org/artist/c2b3c551-e673-46fe-bbee-5fd94d00d903"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Prunk",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "UK Garage",
+   "Tech House"
+  ],
+  "sources": [
+   "https://grayarea.co/academy/the-indelible-lane-of-house-music-carved-by-piv-records-boss-prunk"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Vendex",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Acid Techno"
+  ],
+  "sources": [
+   "https://www.somarecords.com/artists/vendex/",
+   "https://musicbrainz.org/artist/9018e7b1-4ad7-4498-a3a9-e7454af8d0ac"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SPFDJ",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Acid Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.electronicbeats.net/an-interview-with-spfdj"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alarico",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://wololosound.com/entrevistas/alarico/",
+   "https://musicbrainz.org/artist/19f27e4e-3f3b-4722-96c9-53c6f29d31a2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "USH",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.nxnewcastle.com/events/slush/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Bella Claxton",
+  "main": [
+   "House",
+   "Trance"
+  ],
+  "sub": [
+   "Hard House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://www.pukkelpop.be/en/bands/bella-claxton",
+   "https://mixmagnl.com/read/bella-claxton-built-with-cadence-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dan Shake",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.stampthewax.com/2016/08/01/dan-shake-interview/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Marcellus Pittman",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://earth-agency.com/artist/marcellus-pittman/",
+   "https://en.wikipedia.org/wiki/3_Chairs"
+  ],
+  "confidence": "high"
+ }
 ]

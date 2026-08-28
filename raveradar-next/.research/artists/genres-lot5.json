@@ -1,0 +1,425 @@
+[
+ {
+  "name": "Ricardo Villalobos",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Microhouse"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ricardo_Villalobos",
+   "https://www.wikidata.org/wiki/Q132415"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Blawan",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Blawan",
+   "https://musicbrainz.org/artist/c27d4389-390e-497c-9a41-dd446ace742c"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pendulum",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dancefloor Drum & Bass",
+   "Electronic Rock"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pendulum_(drum_and_bass_band)",
+   "https://musicbrainz.org/artist/beff21d3-88c7-4ee0-8b7a-40b6db22c6d7"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Chainsmokers",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Electro House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Chainsmokers",
+   "https://www.wikidata.org/wiki/Q7721993",
+   "https://musicbrainz.org/artist/91a81925-92f9-4fc9-b897-93cf01226282"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Duke Dumont",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Duke_Dumont",
+   "https://www.wikidata.org/wiki/Q9637045",
+   "https://musicbrainz.org/artist/6060d1bb-94f8-4863-89b9-425487f2f6b2"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "A Guy Called Gerald",
+  "main": [
+   "House",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Acid House",
+   "Jungle"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/b343730d-a34e-44d5-9191-a83f00231716"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Neophyte",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/ba474cdb-fd06-4a49-988d-819a6bbd2077"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Rebelion",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [],
+  "sources": [
+   "https://musicbrainz.org/artist/54de6001-656c-420e-ba90-d920965a6dfc"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Digital Punk",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [],
+  "sources": [
+   "https://musicbrainz.org/artist/939f461e-2777-4293-9317-5bd408956950"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Blasterjaxx",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room",
+   "Electro House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/5bd254e6-9288-4a5e-ba65-c6e06fa69ac9"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jonas Blue",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Tropical House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/17678771-5799-4017-851a-319f25b6948d"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Afem Syko",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Acid Techno",
+   "Bouncy Techno"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/2a8df2e3-03ca-4df2-9e62-f7bbb43f5186",
+   "https://mixmagnl.com/read/afem-syko-finding-groove-in-a-world-obsessed-with-hardness-artists"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Scientyfreaks",
+  "main": [
+   "Psytrance",
+   "Techno"
+  ],
+  "sub": [
+   "Progressive Trance",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://lautrecanalnancy.fr/scientyfreaks"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Max Cooper",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "IDM",
+   "Ambient"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Max_Cooper_(music_producer)",
+   "https://musicbrainz.org/artist/2d68f237-4e00-424a-a03e-d16993d1da15"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "horsegiirL",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Happy Hardcore",
+   "UK Hardcore"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/HorsegiirL"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ben UFO",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ben_UFO",
+   "https://en.wikipedia.org/wiki/Hessle_Audio"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Nathan Fake",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Ambient",
+   "IDM"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nathan_Fake",
+   "https://musicbrainz.org/artist/a77f6f2f-19a2-4648-9018-3ad3aa4c1b9b"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ornella",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/ornella/382813/",
+   "https://www.technomag.fr/en/discover-the-world-of-ornella-hard-techno-dj-and-producer/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Azyr",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/azyr-cover-feature-hard-techno-dj-blackpool-interview",
+   "https://musicbrainz.org/artist/beed85a2-8c83-4557-bdd8-3e91074a1c70"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Restricted",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Rave"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/0b5746a5-8610-4e69-80e0-579457797c04",
+   "https://itsrestricted.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Andhim",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://musicbrainz.org/artist/957146db-0f9f-471b-a9d6-8dc899de3f10",
+   "http://andhim.de/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Loco Dice",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Loco_Dice"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Will Atkinson",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Psy-Trance",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/will-atkinson/12388/",
+   "https://musicbrainz.org/artist/2d01ddb4-db29-4a1d-bf6e-c6c9c9dd9e04"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Technimatic",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://www.shogunaudio.co.uk/pages/technimatic"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Freddy K",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Acid Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/freddy-k/214347/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Michel de Hey",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/michel-de-hey/996/",
+   "https://musicbrainz.org/artist/304fd4d8-c905-43a1-a3c9-910ebcfc9481"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dusky",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dusky",
+   "https://musicbrainz.org/artist/9feea1d6-3e4e-4d3c-b84a-87a12f7cbf94"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DJ Tennis",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_Tennis"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Soulwax",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Electro House",
+   "Electroclash",
+   "New Rave"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Soulwax"
+  ],
+  "confidence": "medium"
+ }
+]

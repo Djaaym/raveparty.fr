@@ -226,9 +226,60 @@ SELECT ?mbid ?item ?itemLabel ?genreLabel ?img ?citLabel ?born WHERE {{
     print("wikidata terminé", flush=True)
 
 
+# ---------------------------------------------------------------- Discogs
+def discogs(artists: dict, limit: int) -> None:
+    """Les styles agrégés de la discographie.
+
+    Discogs étiquette les **disques**, pas les artistes : un artiste n'y a pas de
+    champ « genre ». Mais la recherche de sorties par nom d'artiste rend, pour chaque
+    disque, un `genre` grossier (« Electronic ») et un `style` fin (« Hard Techno »,
+    « Tech House », « Neurofunk »). Compter les styles de la discographie donne le
+    profil le plus précis qu'on puisse obtenir sans lire une biographie — et il est
+    daté, ce qu'aucune autre source ne donne : un producteur passé de la trance à la
+    techno le montre dans ses sorties.
+
+    `genres` sert de garde-fou homonyme, comme OFF_GENRE pour last.fm : une
+    discographie majoritairement « Rock » ou « Hip Hop » n'est pas la nôtre.
+
+    Sans jeton, l'API tolère ~25 requêtes/minute : d'où la temporisation, et pas de
+    parallélisme.
+    """
+    from collections import Counter
+    data = load("discogs")
+    todo = order(artists, data)[:limit]
+    print(f"discogs: {len(todo)} à faire ({len(data)} déjà)", flush=True)
+    for i, slug in enumerate(todo, 1):
+        name = artists[slug]["name"]
+        url = ("https://api.discogs.com/database/search?type=release&per_page=50&artist="
+               + urllib.parse.quote(name))
+        code, body = fetch(url, UA_API)
+        rec = {"found": False}
+        if code == 200:
+            try:
+                res = json.loads(body).get("results", [])
+            except Exception:
+                res = []
+            if res:
+                st, ge = Counter(), Counter()
+                for r in res:
+                    for x in r.get("style") or []:
+                        st[x.lower()] += 1
+                    for x in r.get("genre") or []:
+                        ge[x.lower()] += 1
+                rec = {"found": True, "n": len(res), "styles": st.most_common(12),
+                       "genres": ge.most_common(5)}
+        data[slug] = rec
+        if i % 20 == 0:
+            save("discogs", data)
+            print(f"  {i}/{len(todo)}", flush=True)
+        time.sleep(2.5)
+    save("discogs", data)
+    print("discogs terminé", flush=True)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "list"])
+    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "discogs", "list"])
     ap.add_argument("--limit", type=int, default=10**6)
     a = ap.parse_args()
     OUT.mkdir(exist_ok=True)
@@ -237,7 +288,7 @@ def main() -> int:
         save("catalogue", artists)
         print(f"{len(artists)} artistes -> harvest/catalogue.json")
         return 0
-    {"lastfm": lastfm, "mb": mb, "wd": wd}[a.source](artists, a.limit)
+    {"lastfm": lastfm, "mb": mb, "wd": wd, "discogs": discogs}[a.source](artists, a.limit)
     return 0
 
 

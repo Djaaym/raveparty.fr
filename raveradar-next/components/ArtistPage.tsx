@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, artistGenres, artistSubGenres, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
+import { artistPhoto } from "@/lib/artist-photos";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, cardEvent } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -22,6 +23,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const artist = artistBySlug(slug);
   if (!artist) return notFound();
   const bio = bioFor(slug);
+  const photo = artistPhoto(slug);
   const social = artistSocials(slug);
 
   const today = todayISO();
@@ -76,12 +78,12 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           <Breadcrumbs lang={lang} trail={trail} />
 
           <div style={{ display: "flex", alignItems: "center", gap: 20, margin: "16px 0 10px" }}>
-            {bio?.photo ? (
+            {photo ? (
               // Duotone-normalised in avatars.py, so a studio headshot and an
               // underexposed booth shot still sit together on the artists grid.
               <img
                 className="avatar avatar-photo"
-                src={`/artists/${bio.photo.file}`}
+                src={`/artists/${photo.file}`}
                 alt={t("artist.photoalt").replace("{name}", artist.name)}
                 width={400}
                 height={400}
@@ -115,20 +117,21 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                     </a>
                   </span>
                 ))}
-                {bio.photo && (
-                  <>
-                    {" — "}
-                    {t("artist.photocredit")
-                      .replace("{author}", bio.photo.author)
-                      .replace("{license}", bio.photo.license)}{" "}
-                    <a href={bio.photo.page} target="_blank" rel="noopener noreferrer nofollow">
-                      Wikimedia Commons
-                    </a>
-                  </>
-                )}
               </p>
             </>
           ) : null}
+          {/* Le crédit est la *condition* de réutilisation d'une photo CC BY, pas une
+              note de bas de page — il s'affiche donc dès qu'il y a une photo, y compris
+              quand l'artiste n'a pas de bio (il vivait dans le bloc des sources, et
+              disparaissait avec elles). */}
+          {photo && (
+            <p className="artist-credits">
+              {t("artist.photocredit").replace("{author}", photo.author).replace("{license}", photo.license)}{" "}
+              <a href={photo.page} target="_blank" rel="noopener noreferrer nofollow">
+                Wikimedia Commons
+              </a>
+            </p>
+          )}
           <p className="lead">{intro}</p>
 
           <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />

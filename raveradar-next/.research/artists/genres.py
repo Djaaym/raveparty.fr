@@ -17,6 +17,9 @@ Quatre entrées, par ordre d'autorité décroissante :
 2. `harvest/wd.json` — Wikidata P136, rattaché par l'identifiant MusicBrainz (pas par
    le nom : c'est ce qui évite l'homonyme).
 3. `harvest/mb.json` — les tags MusicBrainz, avec leur nombre de votes.
+3bis. `harvest/discogs.json` — les styles agrégés de la discographie, pondérés par
+   leur part. C'est la source la plus fine sur le *sous-genre* : Discogs étiquette
+   les disques, et « Hard Techno » ou « Neurofunk » y figurent en clair.
 4. `harvest/lastfm.json` — les tags de la communauté last.fm, classés par popularité.
    La source la plus dense pour l'électronique, et la plus bruitée : le premier tag
    pèse six fois plus que le dixième, et `OFF_GENRE` jette la page entière quand le
@@ -52,6 +55,28 @@ def norm_tag(t: str) -> str:
     return re.sub(r"\s+", " ", (t or "").strip().lower()).replace("&amp;", "&")
 
 
+def canon_sub(label: str):
+    """Normalise un libellé de sous-genre rendu par un agent.
+
+    Les agents écrivent « Acid », « Psy-Trance Techno », « drum n bass » — la même
+    chose que la table connaît déjà sous un nom canonique. On la lui demande :
+    - le libellé correspond à un sous-genre connu → on prend son orthographe à elle ;
+    - il correspond à une des onze catégories (« Acid » = « Acid Techno ») → ce n'est
+      pas un sous-genre, c'est un genre principal, et on le remonte ;
+    - il est inconnu → on le garde tel quel, en Title Case. Un vocabulaire qui bouge
+      est normal ; refuser ce qu'on ne connaît pas ferait perdre l'information.
+
+    Renvoie (sous-genre | None, genre principal à ajouter | None).
+    """
+    t = norm_tag(label)
+    if t in IGNORE:
+        return None, None
+    if t in TAGS:
+        main, sub = TAGS[t]
+        return (sub, None) if sub else (None, main)
+    return label.strip(), None
+
+
 def vote(scores, subs, tag, weight, src):
     """Une voix pour la catégorie parente, et le libellé du sous-genre s'il y en a un."""
     t = norm_tag(tag)
@@ -75,7 +100,7 @@ def main() -> int:
     a = ap.parse_args()
 
     cat = load("catalogue")
-    lfm, mb, wd = load("lastfm"), load("mb"), load("wd")
+    lfm, mb, wd, dg = load("lastfm"), load("mb"), load("wd"), load("discogs")
     by_name = {slugify(v["name"]): s for s, v in cat.items()}
 
     # --- 1. les lots des agents -------------------------------------------------
@@ -99,8 +124,17 @@ def main() -> int:
             prev = research.get(slug)
             if prev and len(prev["srcs"]) >= len(srcs):
                 continue
-            subs = [s.strip() for s in (r.get("sub") or []) if isinstance(s, str) and s.strip()]
-            research[slug] = {"m": mains[:3], "s": [x for x in subs if x not in mains][:3],
+            clean_subs, promoted = [], []
+            for raw in (r.get("sub") or []):
+                if not isinstance(raw, str) or not raw.strip():
+                    continue
+                sub, main = canon_sub(raw)
+                if sub and sub not in clean_subs:
+                    clean_subs.append(sub)
+                if main and main not in mains and main not in promoted:
+                    promoted.append(main)
+            mains = (mains + promoted)[:3]
+            research[slug] = {"m": mains, "s": [x for x in clean_subs if x not in mains][:3],
                               "srcs": srcs, "conf": r.get("confidence", "medium")}
 
     # --- 2. le vote des sources automatiques -----------------------------------
@@ -124,6 +158,22 @@ def main() -> int:
             for tag, cnt in m.get("tags") or []:
                 if vote(scores, subs, tag, 3.0 + min(cnt, 4), "mb"):
                     used.append("musicbrainz")
+
+        d = dg.get(slug) or {}
+        if d.get("found"):
+            # Discogs cherche les sorties par nom *approchant* : « NTO » ramène aussi
+            # un rappeur. La part d'« electronic » dans les genres grossiers dit si la
+            # discographie trouvée est la bonne — sous la moitié, on n'en tire rien.
+            gtot = sum(n for _, n in d.get("genres") or []) or 1
+            elec = sum(n for g, n in d.get("genres") or [] if g in ("electronic", "electro"))
+            if elec / gtot >= 0.5:
+                stot = sum(n for _, n in d.get("styles") or []) or 1
+                for style, n in d.get("styles") or []:
+                    # Pondéré par la *part* du style dans la discographie : un morceau
+                    # de trance isolé sur cinquante disques de techno ne fait pas un
+                    # artiste de trance.
+                    if vote(scores, subs, style, 7.0 * (n / stot), "dg"):
+                        used.append("discogs")
 
         l = lfm.get(slug) or {}
         tags = [norm_tag(t) for t in (l.get("tags") or [])]

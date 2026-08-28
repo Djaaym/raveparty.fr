@@ -1,0 +1,104 @@
+[
+ {
+  "name": "Marcel Dettmann",
+  "main": ["Techno"],
+  "sub": ["Minimal Techno", "Electro"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Marcel_Dettmann",
+   "https://musicbrainz.org/artist/6d7238a1-f0bc-4408-93fc-8ec64c06f7af",
+   "https://api.discogs.com/database/search?artist=Marcel%20Dettmann&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hardwell",
+  "main": ["EDM", "House"],
+  "sub": ["Big Room", "Progressive House", "Electro House"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hardwell",
+   "https://musicbrainz.org/artist/9a9e2a5e-5e12-4d8a-a1bd-8ba9e0d3d4d1",
+   "https://api.discogs.com/database/search?artist=Hardwell&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Dom Dolla",
+  "main": ["House"],
+  "sub": ["Tech House", "Progressive House"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dom_Dolla",
+   "https://api.discogs.com/database/search?artist=Dom%20Dolla&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sound Rush",
+  "main": ["Hardstyle"],
+  "sub": ["Euphoric Hardstyle"],
+  "sources": [
+   "https://musicbrainz.org/artist/?query=Sound%20Rush",
+   "https://api.discogs.com/database/search?artist=Sound%20Rush&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "808 State",
+  "main": ["Techno", "House"],
+  "sub": ["Acid House", "Breakbeat"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/808_State",
+   "https://api.discogs.com/database/search?artist=808%20State&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Adrenalize",
+  "main": ["Hardstyle"],
+  "sub": ["Euphoric Hardstyle"],
+  "sources": [
+   "https://musicbrainz.org/artist/?query=Adrenalize",
+   "https://api.discogs.com/database/search?artist=Adrenalize&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Carl Cox",
+  "main": ["Techno", "House"],
+  "sub": ["Tech House"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carl_Cox",
+   "https://api.discogs.com/database/search?artist=Carl%20Cox&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "John Digweed",
+  "main": ["House", "Techno"],
+  "sub": ["Progressive House", "Progressive Trance"],
+  "sources": [
+   "https://en.wikipedia.org/wiki/John_Digweed",
+   "https://api.discogs.com/database/search?artist=John%20Digweed&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Octave One",
+  "main": ["Techno"],
+  "sub": ["Detroit Techno", "House"],
+  "sources": [
+   "https://musicbrainz.org/artist/?query=Octave%20One",
+   "https://api.discogs.com/database/search?artist=Octave%20One&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Project One",
+  "main": ["Hardstyle"],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Project_One_(band)",
+   "https://api.discogs.com/database/search?artist=Project%20One&type=release&per_page=50"
+  ],
+  "confidence": "high"
+ }
+]

@@ -143,5 +143,157 @@
   "sources": [
    "https://en.wikipedia.org/wiki/Groove_Armada"
   ]
+ },
+ {
+  "name": "Fatima Hajji",
+  "bio_fr": "Fatima Hajji est une DJ, productrice et patronne de label espagnole née à Salamanque, aujourd'hui installée près de Madrid. Fille d'un père marocain, elle a grandi entre les musiques arabes de la maison et la techno découverte à l'adolescence. Son premier EP, « Turblasmin », sort en 2008 sur Xtiluxe Records ; « Violines », en 2013, reprend un extrait du chanteur de raï Cheb Khaled. Elle joue une hard techno rapide et frontale et dirige le label Silver M.",
+  "bio_en": "Fatima Hajji is a Spanish DJ, producer and label owner born in Salamanca and now based near Madrid. The daughter of a Moroccan father, she grew up between the Arabic music played at home and the techno she found as a teenager. Her first EP, \"Turblasmin\", came out in 2008 on Xtiluxe Records; \"Violines\", in 2013, sampled the raï singer Cheb Khaled. She plays fast, front-facing hard techno and runs the Silver M label.",
+  "origin": "Salamanque, Espagne",
+  "since": 2008,
+  "labels": [
+   "Silver M"
+  ],
+  "sources": [
+   "https://djmag.com/features/fatima-hajji-force-nature",
+   "https://musicbrainz.org/artist/0c0f88db-c1f2-4f3b-8bbf-8cace9196c59"
+  ]
+ },
+ {
+  "name": "Rooler",
+  "bio_fr": "Rooler est le nom de scène de Christopher Rossi, DJ et producteur italien né en 1994. Il produit du raw hardstyle, reconnaissable à ses kicks saturés et à ses ambiances sombres. Ses disques sont parus sur Spoontech Records, Dirty Workz, Intents Records et Q-dance, et il a signé avec Atmozfears « Into The Wild », hymne officiel de l'Intents Festival 2024. On lui doit aussi « Flyin' High » avec Warface et « Set Me Free » avec TNT.",
+  "bio_en": "Rooler is the stage name of Christopher Rossi, an Italian DJ and producer born in 1994. He makes raw hardstyle, recognisable by its distorted kicks and dark atmospheres. His records have appeared on Spoontech Records, Dirty Workz, Intents Records and Q-dance, and with Atmozfears he wrote \"Into The Wild\", the official Intents Festival 2024 anthem. He is also behind \"Flyin' High\" with Warface and \"Set Me Free\" with TNT.",
+  "origin": "Italie",
+  "since": 2015,
+  "labels": [
+   "Spoontech Records",
+   "Dirty Workz",
+   "Intents Records"
+  ],
+  "sources": [
+   "https://hardstyle.com/en/artists/rooler",
+   "https://musicbrainz.org/artist/07b7e791-ccfa-4ec4-b2f9-e136d4cf0746"
+  ]
+ },
+ {
+  "name": "Bou",
+  "bio_fr": "Bou est le nom de scène de Mohamed Amine Bouguenna, musicien algéro-britannique installé à Manchester. Arrivé enfant en France puis en Angleterre, il joue son premier set en 2014 à dix-sept ans et sort son premier single, « Movements » avec Dutta, sur Clawhammer Recordz en 2015. Sa drum and bass l'a mené au Top 40 britannique avec « Closer », avec Slay, puis à la 5e place avec « Baddadan », signé avec Chase & Status en 2023.",
+  "bio_en": "Bou is the stage name of Mohamed Amine Bouguenna, an Algerian-British musician based in Manchester. He arrived as a child in France and then England, played his first set in 2014 at seventeen and released his first single, \"Movements\" with Dutta, on Clawhammer Recordz in 2015. His drum and bass took him into the UK Top 40 with \"Closer\", featuring Slay, then to No. 5 with \"Baddadan\", made with Chase & Status in 2023.",
+  "origin": "Manchester, Royaume-Uni",
+  "since": 2014,
+  "labels": [
+   "Island Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bou_(musician)"
+  ]
+ },
+ {
+  "name": "Héctor Oaks",
+  "bio_fr": "Héctor Oaks est un DJ, producteur et patron de label espagnol né à Madrid et installé à Berlin. Il est connu pour ses sets de techno rapide, souvent joués en vinyle, et cite la culture rave et la « Ruta del Bakalao » espagnole parmi ses influences. Il a fondé les labels OAKS et KAOS, est devenu résident du club Bassiani à Tbilissi, et son premier album, « As We Were Saying », est paru en 2018 sur le label du club.",
+  "bio_en": "Héctor Oaks is a Spanish DJ, producer and label owner born in Madrid and based in Berlin. He is known for fast techno sets, often played on vinyl, and cites rave culture and Spain's \"Ruta del Bakalao\" among his influences. He founded the labels OAKS and KAOS, became a resident at the Tbilisi club Bassiani, and released his debut album \"As We Were Saying\" on the club's label in 2018.",
+  "origin": "Madrid, Espagne",
+  "labels": [
+   "OAKS",
+   "KAOS"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/H%C3%A9ctor_Oaks"
+  ]
+ },
+ {
+  "name": "Paramida",
+  "bio_fr": "Paramida est une DJ, productrice et patronne de label allemande d'origine persane, installée à Berlin depuis 2010 et résidente du Panorama Bar du Berghain. En 2014, alors qu'elle travaille au disquaire OYE Records, elle fonde le label Love on the Rocks, qui publie aussi bien de l'italo et de la disco que de la néo-goa trance. Elle a été retenue parmi les 100 Women de la BBC en 2023.",
+  "bio_en": "Paramida is a German DJ, producer and label owner of Persian background, based in Berlin since 2010 and a resident at Berghain's Panorama Bar. In 2014, while working at the OYE Records shop, she founded the Love on the Rocks label, which puts out italo and disco as readily as neo Goa trance. She was named one of the BBC's 100 Women in 2023.",
+  "origin": "Berlin, Allemagne",
+  "since": 2014,
+  "labels": [
+   "Love on the Rocks"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paramida"
+  ]
+ },
+ {
+  "name": "NGHTMRE",
+  "bio_fr": "NGHTMRE est le nom de scène de Tyler Marenyi, DJ et producteur américain né en 1990 dans le Connecticut et élevé à Raleigh, en Caroline du Nord. Diplômé en finance, il part à Los Angeles suivre les cours de l'Icon Collective, où il rencontre le duo Slander, avec qui il sort son premier EP, « Nuclear Bonds ». Sa musique croise trap, dubstep, future bass et house, publiée sur Mad Decent, Monstercat, OWSLA et Circus Records.",
+  "bio_en": "NGHTMRE is the stage name of Tyler Marenyi, an American DJ and producer born in 1990 in Connecticut and raised in Raleigh, North Carolina. After a finance degree he moved to Los Angeles for the Icon Collective school, where he met the duo Slander, with whom he released his first EP, \"Nuclear Bonds\". His music crosses trap, dubstep, future bass and house, released on Mad Decent, Monstercat, OWSLA and Circus Records.",
+  "origin": "Raleigh, États-Unis",
+  "since": 2014,
+  "labels": [
+   "Mad Decent",
+   "Monstercat",
+   "OWSLA",
+   "Circus Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nghtmre"
+  ]
+ },
+ {
+  "name": "The Avener",
+  "bio_fr": "The Avener est le nom de scène de Tristan Casara, DJ et producteur français né en 1987 à Nice. Il travaille une deep house teintée d'electro. Son premier single, « Fade Out Lines », paru en septembre 2014, est une relecture de « The Fade Out Line » de Phoebe Killdeer & The Short Straws : il atteint la 3e place en France et la première en Autriche, en Allemagne et en Espagne.",
+  "bio_en": "The Avener is the stage name of Tristan Casara, a French DJ and producer born in 1987 in Nice. He works in deep house tinged with electro. His first single, \"Fade Out Lines\", released in September 2014, is a rework of \"The Fade Out Line\" by Phoebe Killdeer & The Short Straws: it reached No. 3 in France and No. 1 in Austria, Germany and Spain.",
+  "origin": "Nice, France",
+  "since": 2014,
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Avener"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:The_Avener.jpg"
+ },
+ {
+  "name": "Reinier Zonneveld",
+  "bio_fr": "Reinier Zonneveld est un DJ et producteur néerlandais né en 1991 à Alphen aan den Rijn. Pianiste depuis l'âge de trois ans, il étudie l'économétrie à Rotterdam avant de se tourner vers la techno ; son premier disque paraît sur le label Stil vor Talent d'Oliver Koletzki. Il joue et produit surtout de l'acid techno, se produit en live avec boîtes à rythmes et synthétiseurs, et dirige depuis 2017 le label Filth on Acid.",
+  "bio_en": "Reinier Zonneveld is a Dutch DJ and producer born in 1991 in Alphen aan den Rijn. A pianist since the age of three, he studied econometrics in Rotterdam before turning to techno; his first record came out on Oliver Koletzki's Stil vor Talent label. He mainly plays and produces acid techno, performs live with drum machines and synthesisers, and has run the Filth on Acid label since 2017.",
+  "origin": "Alphen aan den Rijn, Pays-Bas",
+  "since": 2011,
+  "labels": [
+   "Filth on Acid"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Reinier_Zonneveld"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:RZ_DJMAG2.jpg"
+ },
+ {
+  "name": "Kode9",
+  "bio_fr": "Kode9 est le nom de scène de Steve Goodman, artiste électronique, DJ et fondateur du label Hyperdub, né en 1973 à Glasgow. Il fait partie des membres fondateurs de la première scène dubstep, aux côtés de son collaborateur The Spaceape, avec qui il signe les albums « Memories of the Future » (2006) et « Black Sun » (2011). Hyperdub a publié Burial, DJ Rashad, Zomby et Fatima Al Qadiri. Docteur en philosophie, il a écrit « Sonic Warfare » en 2009.",
+  "bio_en": "Kode9 is the stage name of Steve Goodman, an electronic artist, DJ and founder of the Hyperdub label, born in 1973 in Glasgow. He was one of the founding members of the early dubstep scene alongside his collaborator The Spaceape, with whom he made the albums \"Memories of the Future\" (2006) and \"Black Sun\" (2011). Hyperdub has released Burial, DJ Rashad, Zomby and Fatima Al Qadiri. He holds a PhD in philosophy and published \"Sonic Warfare\" in 2009.",
+  "origin": "Glasgow, Écosse",
+  "since": 1991,
+  "labels": [
+   "Hyperdub"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kode9"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Kode9-spaceape_(cropped_3).jpg"
+ },
+ {
+  "name": "LTJ Bukem",
+  "bio_fr": "LTJ Bukem est le nom de scène de Daniel Andrew Williamson, musicien, producteur et DJ britannique né en 1967 à Watford. Pianiste de formation classique passé par le jazz-fusion, il se fait connaître dans la scène rave du début des années 1990. Avec son label Good Looking Records, il est associé au versant jazzy et atmosphérique de la jungle.",
+  "bio_en": "LTJ Bukem is the stage name of Daniel Andrew Williamson, a British musician, producer and DJ born in 1967 in Watford. A classically trained pianist who came to music through jazz fusion, he made his name in the rave scene of the early 1990s. With his label Good Looking Records he is associated with the jazzy, atmospheric side of jungle.",
+  "origin": "Watford, Angleterre",
+  "labels": [
+   "Good Looking Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/LTJ_Bukem"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Ltjbukem1.jpg"
+ },
+ {
+  "name": "MK",
+  "bio_fr": "MK est le nom de scène de Marc Kinchen, DJ, producteur et remixeur américain né en 1972 à Détroit. Il atteint la première place du classement dance américain en 1993 et 1994 avec « Always » et « Love Changes », chantés par Alana Simon, et signe avec elle le classique house « Burning ». En 2013, son remix de « Look Right Through » de Storm Queen, sorti sur Defected, se hisse en tête des singles britanniques.",
+  "bio_en": "MK is the stage name of Marc Kinchen, an American DJ, producer and remixer born in 1972 in Detroit. He topped the US dance chart in 1993 and 1994 with \"Always\" and \"Love Changes\", both sung by Alana Simon, and made the house classic \"Burning\" with her. In 2013 his remix of Storm Queen's \"Look Right Through\", released on Defected, went to No. 1 on the UK Singles Chart.",
+  "origin": "Détroit, États-Unis",
+  "since": 1989,
+  "labels": [
+   "AREA10",
+   "Defected"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/MK_(record_producer)"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Marc_Kinchen_DJing_at_Holy_Ship!,_2016_(cropped).jpg"
  }
 ]

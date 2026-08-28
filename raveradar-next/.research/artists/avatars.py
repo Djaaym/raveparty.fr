@@ -2,7 +2,22 @@
 """Télécharge les portraits Wikimedia Commons et les uniformise.
 
   python3 .research/artists/avatars.py --dry   # rapport sans rien écrire
-  python3 .research/artists/avatars.py         # télécharge et écrit public/artists/
+  python3 .research/artists/avatars.py         # télécharge, écrit public/artists/
+                                               # et réécrit lib/artist-photos.ts
+
+Trois façons d'apporter un portrait, toutes vers Commons et nulle part ailleurs :
+
+- `photo_url` + `photo_author` + `photo_license` + `photo_page` dans un lot de bios —
+  la forme historique, où l'agent a déjà relevé les termes ;
+- `commons` dans un lot de bios : l'URL de la page du fichier, ou son titre
+  (`File:…`). Le script interroge alors l'API Commons pour l'auteur et la licence.
+  C'est la forme à préférer : relever une licence à la main, c'est se tromper un jour ;
+- **Wikidata P18**, récolté par harvest.py, pour *tout* artiste du catalogue — y compris
+  ceux qui n'ont pas de bio. C'est ce qui débloque le plus de portraits : le lien est
+  fait par l'identifiant MusicBrainz, donc sans risque d'homonyme.
+
+Seules les licences libres passent : CC0, domaine public, CC BY, CC BY-SA. Un « NC »
+ou un « ND » est refusé — un annuaire est un usage qu'elles n'autorisent pas.
 
 Les sources sont hétérogènes par nature : une photo de scène sous-exposée à côté
 d'un portrait studio en plein jour. Sur une grille d'artistes ça fait un patchwork.
@@ -19,11 +34,21 @@ une contrefaçon, pas un raccourci.
 import argparse, hashlib, io, json, re, sys, time, unicodedata
 from pathlib import Path
 from urllib.error import HTTPError
+from urllib.parse import quote as urllib_quote, unquote as urllib_unquote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 OUT = ROOT / "public" / "artists"
+PHOTOS_TS = ROOT / "lib" / "artist-photos.ts"
+HARVEST = HERE / "harvest"
+
+API = "https://commons.wikimedia.org/w/api.php"
+# Licences acceptées. Commons n'héberge que du libre, mais « libre » y couvre aussi des
+# variantes que notre usage n'autorise pas : un NC interdit l'exploitation commerciale
+# et un ND toute retouche — or on recadre et on vire les portraits en duotone.
+FREE = re.compile(r"^(cc0|cc[ -]by([ -]sa)?([ -][\d.]+)?|public domain|pd-)", re.I)
+DENY = re.compile(r"\b(nc|nd|noncommercial|noderiv)\b", re.I)
 
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
 MIN_SRC = 320       # en dessous, l'upscale se voit
@@ -81,6 +106,48 @@ def fetch(url: str) -> bytes:
     raise RuntimeError("unreachable")
 
 
+def commons_title(ref: str) -> str:
+    """Accepte une URL de page Commons, une URL upload.wikimedia, ou un titre nu."""
+    ref = (ref or "").strip()
+    if not ref:
+        return ""
+    if "/wiki/" in ref:
+        ref = ref.split("/wiki/", 1)[1]
+    elif "upload.wikimedia.org" in ref:
+        ref = ref.split("?", 1)[0].rsplit("/", 1)[-1]
+    ref = urllib_unquote(ref).replace("_", " ")
+    return ref if ref.lower().startswith("file:") else "File:" + ref
+
+
+def resolve_commons(title: str) -> dict | None:
+    """L'URL du fichier, son auteur et sa licence, tels que Commons les énonce.
+
+    Relever ces trois champs à la main est la meilleure façon de publier un jour une
+    photo sous une licence qu'on n'a pas lue. L'API les donne d'un coup, et c'est elle
+    qui fait foi.
+    """
+    q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
+         f"&titles={urllib_quote(title)}")
+    try:
+        pages = json.loads(fetch(q).decode()).get("query", {}).get("pages", {})
+    except Exception:
+        return None
+    for _, page in pages.items():
+        info = (page.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata") or {}
+        url = (info.get("url") or "").split("?", 1)[0]
+        lic = (meta.get("LicenseShortName", {}).get("value") or "").strip()
+        author = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value") or "").strip()
+        author = re.sub(r"\s+", " ", author)[:120]
+        if not (url and lic and author):
+            return None
+        if DENY.search(lic) or not FREE.match(lic.replace("-", " ").strip()):
+            return {"denied": lic}
+        return {"url": url, "author": author, "license": lic,
+                "page": "https://commons.wikimedia.org/wiki/" + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
+    return None
+
+
 def duotone(img: Image.Image) -> Image.Image:
     """Niveaux de gris → rampe SHADOW→HIGHLIGHT, puis remélangé avec l'original."""
     grey = ImageOps.grayscale(img)
@@ -134,10 +201,32 @@ def square(img: Image.Image, face=None) -> Image.Image:
     return img.crop((left, top, left + side, top + side)).resize((SIZE, SIZE), Image.LANCZOS)
 
 
+def write_module(out_map: dict) -> None:
+    """Réécrit la map de lib/artist-photos.ts entre ses marqueurs.
+
+    Le portrait ne passe plus par lib/bios.ts : il y était rattaché à la bio, ce qui
+    rendait la photo conditionnée au texte — un artiste dont on trouvait le portrait
+    sans savoir écrire deux phrases sourcées gardait son initiale dans un rond.
+    """
+    def esc(x: str) -> str:
+        return x.replace("\\", "\\\\").replace('"', '\\"')
+
+    lines = [
+        f'  "{k}": {{ file: "{esc(v["file"])}", author: "{esc(v["author"])}", '
+        f'license: "{esc(v["license"])}", page: "{esc(v["page"])}" }},'
+        for k, v in sorted(out_map.items())
+    ]
+    block = "export const ARTIST_PHOTOS: Record<string, ArtistPhoto> = {\n" + "\n".join(lines) + "\n};"
+    src = PHOTOS_TS.read_text()
+    start, end = src.index("/* PHOTOS:start"), src.index("/* PHOTOS:end")
+    PHOTOS_TS.write_text(src[: src.index("\n", start) + 1] + block + "\n" + src[end:])
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--force", action="store_true", help="retélécharge même si le fichier existe")
+    ap.add_argument("--limit", type=int, default=0, help="nombre max de portraits Wikidata par passage")
     args = ap.parse_args()
 
     rows = []
@@ -148,19 +237,57 @@ def main() -> int:
             print(f"✗ {f.name} : JSON invalide ({e})")
             return 1
 
-    OUT.mkdir(parents=True, exist_ok=True)
-    seen_hash, out_map, skipped = {}, {}, []
-
+    # --- les candidats, dans l'ordre d'autorité --------------------------------
+    # slug -> (nom, url du fichier, auteur, licence, page Commons)
+    cands, resolved, denied = {}, 0, []
     for r in rows:
         name = (r.get("name") or "").strip()
         slug = slugify(name)
-        url = (r.get("photo_url") or "").strip()
-        author = (r.get("photo_author") or "").strip()
-        lic = (r.get("photo_license") or "").strip()
-        page = (r.get("photo_page") or "").strip()
-
-        if not url:
+        if not slug or slug in cands:
             continue
+        url = (r.get("photo_url") or "").strip()
+        if url:  # forme historique : les termes ont déjà été relevés par l'agent
+            cands[slug] = (name, url, (r.get("photo_author") or "").strip(),
+                           (r.get("photo_license") or "").strip(), (r.get("photo_page") or "").strip())
+        elif (r.get("commons") or "").strip():
+            got = resolve_commons(commons_title(r["commons"]))
+            resolved += 1
+            time.sleep(THROTTLE)
+            if got and "denied" in got:
+                denied.append((name, got["denied"])); continue
+            if got:
+                cands[slug] = (name, got["url"], got["author"], got["license"], got["page"])
+
+    # Wikidata P18 : le gisement le plus large, et le seul qui couvre les artistes sans
+    # bio. Le rattachement passe par l'identifiant MusicBrainz, pas par le nom — c'est
+    # ce qui évite de coller le portrait d'un homonyme sur une fiche.
+    wd_file = HARVEST / "wd.json"
+    cat_file = HARVEST / "catalogue.json"
+    if wd_file.exists() and cat_file.exists():
+        wd = json.loads(wd_file.read_text())
+        cat = json.loads(cat_file.read_text())
+        todo = [(s, v) for s, v in sorted(wd.items(), key=lambda kv: -cat.get(kv[0], {}).get("n", 0))
+                if v.get("img") and s not in cands and s in cat]
+        if args.limit:
+            todo = todo[: args.limit]
+        for slug, v in todo:
+            got = resolve_commons(commons_title(v["img"]))
+            resolved += 1
+            time.sleep(THROTTLE)
+            if got and "denied" in got:
+                denied.append((cat[slug]["name"], got["denied"])); continue
+            if got:
+                cands[slug] = (cat[slug]["name"], got["url"], got["author"], got["license"], got["page"])
+
+    print(f"{len(cands)} candidat(s) · {resolved} licence(s) lue(s) sur Commons "
+          f"· {len(denied)} refusée(s) pour cause de licence")
+    for name, lic in denied:
+        print(f"  ✗ {name:32} licence non réutilisable : {lic}")
+
+    OUT.mkdir(parents=True, exist_ok=True)
+    seen_hash, out_map, skipped = {}, {}, []
+
+    for slug, (name, url, author, lic, page) in cands.items():
         if not url.startswith("https://upload.wikimedia.org/"):
             skipped.append((name, "hors Wikimedia Commons")); continue
         if not (author and lic and page):
@@ -208,7 +335,8 @@ def main() -> int:
     meta = HERE / "avatars.json"
     if not args.dry:
         meta.write_text(json.dumps(out_map, indent=1, ensure_ascii=False))
-        print(f"\n✓ public/artists/ + {meta.name} écrits. Lance ingest.py pour patcher lib/bios.ts.")
+        write_module(out_map)
+        print(f"\n✓ public/artists/, {meta.name} et lib/artist-photos.ts écrits.")
     else:
         print("\n--dry : rien écrit.")
     return 0
