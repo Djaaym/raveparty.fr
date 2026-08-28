@@ -69,7 +69,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       const next = live
         .filter((e) => a.eventIds.includes(e.id))
         .sort((x, y) => x.date.localeCompare(y.date))[0];
-      return { a, bio, photo: artistPhoto(a.slug), next, genres: [...artistGenres(a), ...artistSubGenres(a)].slice(0, 4) };
+      return { a, bio, photo: artistPhoto(a.slug), next, genres: artistGenres(a).slice(0, 3), subs: artistSubGenres(a).slice(0, 2) };
     });
   /* A CC BY photo may be reused *provided* the author and licence travel with it —
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
@@ -173,7 +173,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                 {t("artists.detaillead").replace("{n}", String(detailed.length))}
               </p>
               <div className="artcards">
-                {featured.map(({ a, bio, photo, next: nextDate, genres }) => (
+                {featured.map(({ a, bio, photo, next: nextDate, genres, subs }) => (
                   <article className="artcard" key={a.slug}>
                     {photo ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
@@ -218,6 +218,12 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                           <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
                             {g}
                           </Link>
+                        ))}
+                        {/* Les sous-genres ne sont pas des liens : « Industrial Techno »
+                            n'a pas de page, et lui en donner une reviendrait à publier
+                            des centaines d'URLs vides. */}
+                        {subs.map((g) => (
+                          <span key={g}>{g}</span>
                         ))}
                       </div>
                       {nextDate && (

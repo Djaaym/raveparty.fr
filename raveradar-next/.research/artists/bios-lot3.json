@@ -178,5 +178,61 @@
   "sources": [
    "https://en.wikipedia.org/wiki/Soulwax"
   ]
+ },
+ {
+  "name": "BØĘRY",
+  "bio_fr": "BØĘRY, de son vrai nom Bram Steermann, est un DJ néerlandais de hard techno, batteur dans un groupe avant de venir à la musique électronique. Il fait ses débuts début 2024 à l'Area050 de Groningue et s'est fait connaître par ses sets mêlant techno industrielle et bochka, dont plusieurs All Night Long au Now&Wow, à la Graanfabriek et au Club Basis.",
+  "bio_en": "BOERY, real name Bram Steermann, is a Dutch hard techno DJ who played drums in a band before turning to electronic music. He made his DJ debut in early 2024 at Area050 in Groningen and became known for sets mixing industrial techno and bochka, including all-night-long shows at Now&Wow, Graanfabriek and Club Basis.",
+  "origin": "Groningue, Pays-Bas",
+  "since": 2024,
+  "sources": [
+   "https://partyflock.nl/artist/159515/biography",
+   "https://www.djguide.nl/djinfo.p?djid=9985&language=en"
+  ]
+ },
+ {
+  "name": "Sandrien",
+  "bio_fr": "Sandrien van Rossum est une DJ et productrice d'Amsterdam active depuis 1999. Elle a été résidente du Trouw puis de De School, où elle a lancé en 2010 la soirée Imprint qui a accueilli Ben Sims, DVS1, Marcel Dettmann, Oscar Mulero et Rødhåd. Elle a longtemps travaillé dans les disquaires Rush Hour et Killacutz, et compte parmi les fondatrices de la série de soirées IsBurning.",
+  "bio_en": "Sandrien van Rossum is a DJ and producer from Amsterdam, active since 1999. She was a resident of Trouw and later De School, where she launched the Imprint night in 2010, hosting Ben Sims, DVS1, Marcel Dettmann, Oscar Mulero and Rodhad. She worked for years in the Rush Hour and Killacutz record shops and co-founded the IsBurning party series.",
+  "origin": "Amsterdam, Pays-Bas",
+  "since": 1999,
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/sandrien/7090/",
+   "https://www.awakenings.com/en/artists/sandrien/1364/"
+  ]
+ },
+ {
+  "name": "Virginia",
+  "bio_fr": "Virginia est une DJ, productrice, autrice et chanteuse née à Munich et installée à Berlin, active depuis la fin des années 1990. Elle est résidente de la Panorama Bar du Berghain depuis 2012 et a publié sur Ostgut Ton l'album Fierce For The Night (2016) puis le double EP Work A Change avec Steffi. Elle chante en direct par-dessus ses sets house.",
+  "bio_en": "Virginia is a DJ, producer, songwriter and singer born in Munich and based in Berlin, active since the late 1990s. She has been a resident at Berghain's Panorama Bar since 2012 and released the album Fierce For The Night (2016) and the double EP Work A Change with Steffi on Ostgut Ton. She sings live over her house sets.",
+  "origin": "Berlin, Allemagne",
+  "labels": [
+   "Ostgut Ton"
+  ],
+  "sources": [
+   "https://old.ostgut.de/booking/artist/virginia",
+   "https://www.thevinylfactory.com/news/steffi-and-virginia-new-double-ep-ostgut-ton-work-a-change-vinyl"
+  ]
+ },
+ {
+  "name": "The Saints",
+  "bio_fr": "The Saints est un duo néerlandais de hard dance formé par Jules van de Sant et Rick de Deken. Jules a quitté le sport de haut niveau en 2019 pour se consacrer au hardstyle. Le duo a fait ses débuts sur la mainstage de l'Intents Festival, sur la scène BLUE du Defqon.1 et à Supremacy, où il a présenté « Legacy » avec Noxiouz et Satirized.",
+  "bio_en": "The Saints are a Dutch hard dance duo made up of Jules van de Sant and Rick de Deken. Jules left top-level sport in 2019 to pursue hardstyle. The duo debuted on the Intents Festival mainstage, on Defqon.1's BLUE stage and at Supremacy, where they premiered 'Legacy' with Noxiouz and Satirized.",
+  "origin": "Pays-Bas",
+  "since": 2019,
+  "sources": [
+   "https://hardnews.nl/en/the-saints-from-the-bar-to-ultra-miami/"
+  ]
+ },
+ {
+  "name": "Djerry C",
+  "bio_fr": "Djerry C est un DJ suisse actif depuis les années 1990, résident du D! Club de Lausanne depuis 2004 et directeur artistique de la salle. Il a joué à Ibiza (El Divino, Eden, Space, Bora Bora), ainsi qu'au Montreux Jazz Festival, au Caprices Festival et à Electrosanne. Son répertoire est passé de la house à la techno.",
+  "bio_en": "Djerry C is a Swiss DJ active since the 1990s, resident at Lausanne's D! Club since 2004 and the venue's artistic director. He has played in Ibiza (El Divino, Eden, Space, Bora Bora) as well as the Montreux Jazz Festival, Caprices Festival and Electrosanne. His repertoire has moved from house to techno.",
+  "origin": "Lausanne, Suisse",
+  "since": 2004,
+  "sources": [
+   "https://www.superstardeejay.com/mix008-djerry-c/",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/djerry-c/16056/"
+  ]
  }
 ]

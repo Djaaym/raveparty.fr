@@ -421,5 +421,32 @@
    "https://en.wikipedia.org/wiki/Soulwax"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "Carlita",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carlita_(musician)",
+   "https://musicbrainz.org/artist/b75c3ac9-6822-4dbb-9d7a-4f78deee9b7e"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mar-T",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.ibiza-spotlight.com/night/2016/10/feature-mar-ts-top-amnesia-tracks"
+  ],
+  "confidence": "high"
  }
 ]

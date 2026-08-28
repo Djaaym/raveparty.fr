@@ -1010,6 +1010,13 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .linkfarm a b { font-family: var(--f-mono); font-weight: 600; font-size: .74rem; color: var(--grey-3); margin-left: 3px; }
 .linkfarm a:hover b { color: var(--cyan); }
 .linkfarm a.more { border-color: rgba(139,92,255,.45); color: var(--white); background: var(--grad-soft); }
+/* Un sous-genre n'a pas de page : rendu en <span>, il porte la même pilule que ses
+   voisins mais en bordure pointillée et sans survol — la différence se voit avant le
+   clic, ce qui est le seul moment où elle sert. */
+.linkfarm span {
+  font-size: .82rem; padding: 7px 13px; border-radius: 99px;
+  border: 1px dashed var(--line); color: var(--grey-3); background: rgba(255,255,255,.02);
+}
 .linkcols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 24px; }
 .linkcols a { color: var(--grey); font-size: .88rem; padding: 4px 0; display: block; transition: color .2s; }
 .linkcols a:hover { color: var(--cyan); }
@@ -1340,3 +1347,7 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .trk-visit-end a { color: var(--acid); text-decoration: underline; text-underline-offset: 2px; }
 
 .trk-foot { margin-top: 30px; font-family: var(--f-mono); font-size: .7rem; color: var(--grey-3); letter-spacing: .04em; }
+
+/* La bande de faits de la fiche artiste — même grammaire que sur les cartes de
+   /artistes, un cran plus aéré parce qu'elle n'est pas dans une boîte. */
+.artist-facts { margin: 14px 0 4px; }

@@ -367,5 +367,105 @@
       "https://jungledrumandbass.co.uk/news/cedex-higher-underground-being-you",
       "https://soundcloud.com/cedexhigherunderground"
     ]
+  },
+  {
+    "name": "Peterblue",
+    "bio_fr": "Peterblue est un DJ et producteur colombien de Bogotá, installé à Barcelone. Il mêle une techno hardgroove aux rythmes latino-américains — merengue, reggaeton, cumbia, salsa — un courant appelé latin club. Il a fondé son label PA$TI Records en 2023, publié l'EP Bailar Para No Pensar puis Diskoteka Amerikana, et son set pour HÖR Berlin en octobre 2024 l'a fait connaître en Europe.",
+    "bio_en": "Peterblue is a Colombian DJ and producer from Bogotá, based in Barcelona. He mixes hardgroove techno with Latin American rhythms — merengue, reggaeton, cumbia, salsa — a strand known as Latin club. He founded his label PA$TI Records in 2023, released the EP Bailar Para No Pensar then Diskoteka Amerikana, and his October 2024 HÖR Berlin set brought him European attention.",
+    "origin": "Bogotá, Colombie",
+    "since": 2023,
+    "labels": [
+      "PA$TI Records"
+    ],
+    "sources": [
+      "https://mixmagcaribbean.com/read/peterblue-car-2025-02-digital-magazine"
+    ]
+  },
+  {
+    "name": "Romare",
+    "bio_fr": "Romare est le nom de scène d'Archie Fairhurst, producteur britannique. Après des études sur la culture visuelle afro-américaine, il commence à composer à partir de samples de vinyles d'occasion, signe chez Black Acre en 2012 puis chez Ninja Tune. Son premier album, Projections (2015), a été élu album de l'année par DJ Mag ; ont suivi Love Songs: Part Two (2016) et Home (2020).",
+    "bio_en": "Romare is the stage name of Archie Fairhurst, a British producer. After studying African American visual culture, he began composing from second-hand vinyl samples, signing to Black Acre in 2012 and then to Ninja Tune. His debut album, Projections (2015), was voted album of the year by DJ Mag; Love Songs: Part Two (2016) and Home (2020) followed.",
+    "origin": "Londres, Royaume-Uni",
+    "since": 2012,
+    "labels": [
+      "Ninja Tune",
+      "Black Acre"
+    ],
+    "sources": [
+      "https://ninjatune.net/artist/romare"
+    ]
+  },
+  {
+    "name": "A.M.C",
+    "bio_fr": "A.M.C est le nom de scène d'Alex Mark Calvert, DJ et producteur britannique de drum & bass, en activité depuis 2007. Il est connu pour ses sets sur quatre platines et a fondé le label Titan Records en 2011, qui a publié Emperor, Hypoxia et L 33. Il a remporté le titre de meilleur DJ aux Drum & Bass Awards tchèques et portugais.",
+    "bio_en": "A.M.C is the stage name of Alex Mark Calvert, a British drum & bass DJ and producer, active since 2007. He is known for four-deck sets and founded the label Titan Records in 2011, which has released Emperor, Hypoxia and L 33. He has won best DJ at the Czech and Portuguese Drum & Bass Awards.",
+    "origin": "Royaume-Uni",
+    "since": 2007,
+    "labels": [
+      "Titan Records"
+    ],
+    "sources": [
+      "https://www.featherstonemusic.co.uk/artists/a-m-c"
+    ]
+  },
+  {
+    "name": "Blastoyz",
+    "bio_fr": "Blastoyz est le nom de scène de Kobi Nigreker, producteur et DJ israélien de psytrance. Il est classé deux années de suite au Top 100 DJs de DJ Mag et a joué à Tomorrowland, EDC Las Vegas, Ultra et Creamfields. Ses titres « Mandala », « Parvati Valley » et « After Dark » l'ont fait connaître, et il a remixé Above & Beyond.",
+    "bio_en": "Blastoyz is the stage name of Kobi Nigreker, an Israeli psytrance producer and DJ. He was ranked in DJ Mag's Top 100 DJs two years running and has played Tomorrowland, EDC Las Vegas, Ultra and Creamfields. His tracks \"Mandala\", \"Parvati Valley\" and \"After Dark\" made his name, and he has remixed Above & Beyond.",
+    "origin": "Israël",
+    "sources": [
+      "https://blastoyz.com/about/",
+      "https://welvrave.com/artists/blastoyz/"
+    ]
+  },
+  {
+    "name": "Young Marco",
+    "bio_fr": "Young Marco est le nom de scène de Marco Sterk, DJ et producteur néerlandais d'Amsterdam. Il joue une house psychédélique tirant vers la transe et a publié sur Rush Hour puis ESP Institute, avec les albums Biology et Bahasa. Il dirige le label Safe Trip, connu pour ses compilations de house italienne des années 90 et de trance ancienne, et forme avec Gigi Masin et Jonny Nash le trio ambient Gaussian Curve.",
+    "bio_en": "Young Marco is the stage name of Marco Sterk, a Dutch DJ and producer from Amsterdam. He plays psychedelic, trance-leaning house and has released on Rush Hour and ESP Institute, with the albums Biology and Bahasa. He runs the Safe Trip label, known for its compilations of 90s Italian house and early trance, and forms the ambient trio Gaussian Curve with Gigi Masin and Jonny Nash.",
+    "origin": "Amsterdam, Pays-Bas",
+    "labels": [
+      "Safe Trip",
+      "ESP Institute",
+      "Rush Hour"
+    ],
+    "sources": [
+      "https://dgtl-festival.com/en/artists/young-marco/"
+    ]
+  },
+  {
+    "name": "SHE/HER",
+    "bio_fr": "SHE/HER est le nom de scène de Kim Vereijken, DJ techno néerlandaise de Bois-le-Duc, aux platines depuis 2020. Elle joue une techno rapide et roulante, construite sur la progression du rythme, et est résidente de Vulged à Amsterdam. Elle s'est produite pour Vault Sessions, Intercell, Radion, Bret et Basis.",
+    "bio_en": "SHE/HER is the stage name of Kim Vereijken, a Dutch techno DJ from 's-Hertogenbosch, behind the decks since 2020. She plays fast, rolling techno built on rhythmic progression, and is a resident at Vulged in Amsterdam. She has played for Vault Sessions, Intercell, Radion, Bret and Basis.",
+    "origin": "Bois-le-Duc, Pays-Bas",
+    "since": 2020,
+    "sources": [
+      "https://www.awakenings.com/en/artists/she-her/386449/",
+      "https://www.djguide.nl/djinfo.p?djid=9967&language=en"
+    ]
+  },
+  {
+    "name": "Teknoclash",
+    "bio_fr": "Teknoclash est l'alias lancé en 2015 par Johnny Eckebrecht, DJ et producteur qui signe alors chez MXUP Records. Sa musique croise electro, future house et bass ; ses titres « Outta My Mind » et « Lose Your Mind » sont entrés dans les classements Beatport.",
+    "bio_en": "Teknoclash is the alias launched in 2015 by Johnny Eckebrecht, a DJ and producer who signed to MXUP Records that year. His music crosses electro, future house and bass; his tracks \"Outta My Mind\" and \"Lose Your Mind\" charted on Beatport.",
+    "since": 2015,
+    "labels": [
+      "MXUP Records"
+    ],
+    "sources": [
+      "https://www.amsterdam-dance-event.nl/en/artists-speakers/teknoclash/15788/"
+    ]
+  },
+  {
+    "name": "Jorja Smith",
+    "bio_fr": "Jorja Smith est une chanteuse et autrice-compositrice anglaise née en 1997 à Walsall, dans les Midlands de l'Ouest. Repérée en 2016, elle publie deux EP puis l'album Lost & Found en 2018. Sa musique est classée entre R&B, pop, hip-hop, grime et UK garage.",
+    "bio_en": "Jorja Smith is an English singer and songwriter born in 1997 in Walsall, West Midlands. Signed in 2016, she released two EPs and then the album Lost & Found in 2018. Her music is classified across R&B, pop, hip-hop, grime and UK garage.",
+    "origin": "Walsall, Royaume-Uni",
+    "since": 2016,
+    "labels": [
+      "FAMM"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jorja_Smith"
+    ]
   }
 ]

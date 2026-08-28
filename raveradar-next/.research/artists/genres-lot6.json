@@ -471,5 +471,113 @@
       "https://soundcloud.com/cedexhigherunderground"
     ],
     "confidence": "high"
+  },
+  {
+    "name": "Peterblue",
+    "main": [
+      "Techno",
+      "House"
+    ],
+    "sub": [
+      "Hardgroove",
+      "Latin Club",
+      "Guaracha"
+    ],
+    "sources": [
+      "https://mixmagcaribbean.com/read/peterblue-car-2025-02-digital-magazine"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Romare",
+    "main": [
+      "House"
+    ],
+    "sub": [
+      "UK Garage",
+      "Downtempo"
+    ],
+    "sources": [
+      "https://ninjatune.net/artist/romare",
+      "https://www.last.fm/music/Romare/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "A.M.C",
+    "main": [
+      "Drum & Bass"
+    ],
+    "sub": [
+      "Neurofunk",
+      "Jump Up"
+    ],
+    "sources": [
+      "https://www.featherstonemusic.co.uk/artists/a-m-c",
+      "https://www.last.fm/music/A.M.C/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Blastoyz",
+    "main": [
+      "Psytrance",
+      "Trance"
+    ],
+    "sub": [
+      "Full-On",
+      "Progressive Trance"
+    ],
+    "sources": [
+      "https://blastoyz.com/about/",
+      "https://welvrave.com/artists/blastoyz/",
+      "https://www.last.fm/music/Blastoyz/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Young Marco",
+    "main": [
+      "House",
+      "Techno"
+    ],
+    "sub": [
+      "Ambient",
+      "Balearic",
+      "Deep House"
+    ],
+    "sources": [
+      "https://dgtl-festival.com/en/artists/young-marco/",
+      "https://www.last.fm/music/Young+Marco/+tags"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "SHE/HER",
+    "main": [
+      "Techno"
+    ],
+    "sub": [],
+    "sources": [
+      "https://www.awakenings.com/en/artists/she-her/386449/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "name": "Teknoclash",
+    "main": [
+      "EDM",
+      "House"
+    ],
+    "sub": [
+      "Future House",
+      "Electro House",
+      "Bass House"
+    ],
+    "sources": [
+      "https://www.amsterdam-dance-event.nl/en/artists-speakers/teknoclash/15788/",
+      "https://www.last.fm/music/Teknoclash/+tags"
+    ],
+    "confidence": "high"
   }
 ]

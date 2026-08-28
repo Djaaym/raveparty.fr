@@ -163,5 +163,63 @@
   "sources": [
    "https://en.wikipedia.org/wiki/Pendulum_(drum_and_bass_band)"
   ]
+ },
+ {
+  "name": "Dusky",
+  "bio_fr": "Dusky est un duo électronique anglais de Londres formé en 2011 par Alfie Granger-Howell et Nick Harriman, qui produisaient auparavant sous le nom de Solarity. Leur musique navigue entre deep house, tech house, techno et breakbeat. Après des sorties sur Anjunadeep, Aus Music, Dogmatik et Polydor, ils lancent leur propre label 17 Steps en juillet 2014 avec l'EP Love Taking Over.",
+  "bio_en": "Dusky is an English electronic duo from London formed in 2011 by Alfie Granger-Howell and Nick Harriman, who previously produced as Solarity. Their music moves between deep house, tech house, techno and breakbeat. After releases on Anjunadeep, Aus Music, Dogmatik and Polydor, they launched their own label 17 Steps in July 2014 with the Love Taking Over EP.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2011,
+  "labels": [
+   "17 Steps",
+   "Anjunadeep",
+   "Aus Music"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dusky"
+  ]
+ },
+ {
+  "name": "DJ Tennis",
+  "bio_fr": "DJ Tennis est le nom de scène de Manfredi Romano, DJ, producteur et patron de label italien né le 27 décembre 1970 à Parme. Il étudie l'informatique tout en organisant des soirées et des tournées de groupes, puis fonde l'agence de booking Daze à Milan en 1995. En 2010 il crée avec Greg Oreck le label Life and Death, et sort par ailleurs sur Kompakt, !K7 et AUS Music.",
+  "bio_en": "DJ Tennis is the stage name of Manfredi Romano, an Italian DJ, producer and label owner born on 27 December 1970 in Parma. He studied computer science while organising parties and band tours, then founded the booking agency Daze in Milan in 1995. In 2010 he started the Life and Death label with Greg Oreck, and has also released on Kompakt, !K7 and AUS Music.",
+  "origin": "Parme, Italie",
+  "since": 2010,
+  "labels": [
+   "Life and Death",
+   "Kompakt",
+   "!K7"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_Tennis"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:DJ_Tennis_2.jpg"
+ },
+ {
+  "name": "Carlita",
+  "bio_fr": "Carlita est le nom de scène de Carla Frayman, DJ et musicienne turco-italienne née en 1995 à Istanbul d'un père turc et d'une mère italienne. Formée au violoncelle dès 8 ans, elle sort du conservatoire turc puis de la Royal Academy of Music à 16 ans, et joue aussi de la guitare et de la basse. Active depuis 2014, elle mêle house, techno et instruments acoustiques, et publie sur Ninja Tune / Counter Records.",
+  "bio_en": "Carlita is the stage name of Carla Frayman, a Turkish-Italian DJ and musician born in 1995 in Istanbul to a Turkish father and an Italian mother. She took up the cello at 8, went through the Turkish Conservatory and graduated from the Royal Academy of Music at 16, and also plays guitar and bass. Active since 2014, she blends house, techno and acoustic instruments, and releases on Ninja Tune / Counter Records.",
+  "origin": "Istanbul, Turquie",
+  "since": 2014,
+  "labels": [
+   "Ninja Tune",
+   "Counter Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carlita_(musician)"
+  ]
+ },
+ {
+  "name": "Mar-T",
+  "bio_fr": "Mar-T est un DJ et producteur né à Barcelone, résident du club Amnesia d'Ibiza depuis 1999. Il dirige le label Wow! Recordings et tient une résidence techno et tech house le mercredi avec HYTE lors de la saison 2016, en plus de tournées avec le club en Italie et au Royaume-Uni et de dates avec Do Not Sleep et Cocoon.",
+  "bio_en": "Mar-T is a DJ and producer born in Barcelona who has been a resident at Ibiza's Amnesia since 1999. He runs the Wow! Recordings label and held the Wednesday techno and tech house residency with HYTE during the 2016 season, alongside tours with the club in Italy and the UK and dates with Do Not Sleep and Cocoon.",
+  "origin": "Barcelone, Espagne",
+  "since": 1999,
+  "labels": [
+   "Wow! Recordings"
+  ],
+  "sources": [
+   "https://www.ibiza-spotlight.com/night/2016/10/feature-mar-ts-top-amnesia-tracks"
+  ]
  }
 ]

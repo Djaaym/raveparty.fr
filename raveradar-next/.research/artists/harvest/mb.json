@@ -936,6 +936,72 @@
   ],
   "type": "Person"
  },
+ "boys-noize": {
+  "area": "Germany",
+  "begin": "1982-08-22",
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "d2f4a968-1f6e-4a4a-9376-ee2b2a50c87a",
+  "name": "Boys Noize",
+  "tags": [
+   [
+    "electro",
+    3
+   ],
+   [
+    "electro house",
+    3
+   ],
+   [
+    "techno",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "ebm",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "dance and electronica",
+    1
+   ],
+   [
+    "acid techno",
+    1
+   ],
+   [
+    "french electro",
+    1
+   ],
+   [
+    "midtempo bass",
+    1
+   ],
+   [
+    "german",
+    0
+   ],
+   [
+    "edm",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
  "calvin-harris": {
   "area": "Scotland",
   "begin": "1984-01-17",
@@ -1070,6 +1136,41 @@
   ],
   "type": "Person"
  },
+ "camelphat": {
+  "area": "United Kingdom",
+  "begin": "2008",
+  "country": "GB",
+  "disambiguation": "British DJ and production duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "61314ff2-7b52-4296-a0b8-af61dc08bdd1",
+  "name": "CamelPhat",
+  "tags": [
+   [
+    "house",
+    2
+   ],
+   [
+    "deep house",
+    2
+   ]
+  ],
+  "type": "Group"
+ },
+ "carista": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": "Dutch soul/disco DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8843b510-b219-47db-a8d0-25502148f085",
+  "name": "Carista",
+  "tags": [],
+  "type": "Person"
+ },
  "carl-craig": {
   "area": "United States",
   "begin": "1969-05-22",
@@ -1138,6 +1239,58 @@
   ],
   "type": "Person"
  },
+ "chlar": {
+  "area": "Portugal",
+  "begin": null,
+  "country": "PT",
+  "disambiguation": "techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6907a083-deef-4b12-a6bb-0278c21dca25",
+  "name": "Chlär",
+  "tags": [
+   [
+    "hardgroove techno",
+    2
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "minimal techno",
+    1
+   ],
+   [
+    "tech trance",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "chloe-caillet": {
+  "area": "Paris",
+  "begin": null,
+  "country": null,
+  "disambiguation": "electronic producer & DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "e9139284-f58d-4440-927b-8a3bf41eee51",
+  "name": "Chloé Caillet",
+  "tags": [
+   [
+    "house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "chris-stussy": {
   "area": "Netherlands",
   "begin": null,
@@ -1149,6 +1302,44 @@
   "mbid": "5b7f4511-1764-4d80-83b5-8c150f4636c5",
   "name": "Chris Stussy",
   "tags": [],
+  "type": "Person"
+ },
+ "christian-loffler": {
+  "area": "Germany",
+  "begin": "1985-04-05",
+  "country": "DE",
+  "disambiguation": "German DJ & electronic music producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "a0d91c38-f5dc-487b-9b30-b67de1e7489e",
+  "name": "Christian Löffler",
+  "tags": [
+   [
+    "melodic house",
+    1
+   ],
+   [
+    "ambient house",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "ambient techno",
+    1
+   ],
+   [
+    "microhouse",
+    1
+   ]
+  ],
   "type": "Person"
  },
  "clara-cuve": {
@@ -1190,6 +1381,19 @@
   ],
   "type": "Person"
  },
+ "creeds": {
+  "area": "Nantes",
+  "begin": "1992-05-30",
+  "country": null,
+  "disambiguation": "psy‐trance / trance / hardpsy / hardcore project",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8ed48170-3745-4ef5-9f3a-8c6245a626ae",
+  "name": "Creeds",
+  "tags": [],
+  "type": "Person"
+ },
  "d-block-s-te-fan": {
   "area": "Netherlands",
   "begin": "2004-09",
@@ -1223,6 +1427,264 @@
    ]
   ],
   "type": "Group"
+ },
+ "daniel-avery": {
+  "area": "London",
+  "begin": "1986-09-30",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "3e7aa4a4-5b7e-46a3-a7ff-c57044fa1b64",
+  "name": "Daniel Avery",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "dance",
+    2
+   ],
+   [
+    "rock",
+    1
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "drum and bass",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "experimental",
+    1
+   ],
+   [
+    "idm",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "bass",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "breakbeat",
+    1
+   ],
+   [
+    "breaks",
+    1
+   ],
+   [
+    "indie dance",
+    1
+   ],
+   [
+    "acid house",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "indie electronic",
+    1
+   ],
+   [
+    "left-field house",
+    1
+   ],
+   [
+    "experimental techno",
+    1
+   ],
+   [
+    "alternative/indie rock",
+    1
+   ],
+   [
+    "melodic techno",
+    1
+   ],
+   [
+    "melodic house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "dave-clarke": {
+  "area": "United Kingdom",
+  "begin": "1968-09-19",
+  "country": "GB",
+  "disambiguation": "UK techno DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 5,
+  "mbid": "0d7fffb1-c282-4995-96a9-f6f2ea3c86e0",
+  "name": "Dave Clarke",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "dance",
+    1
+   ],
+   [
+    "electro",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "hardcore techno",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "dance and electronica",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "david-guetta": {
+  "area": "France",
+  "begin": "1967-11-07",
+  "country": "FR",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "302bd7b9-d012-4360-897a-93b00c855680",
+  "name": "David Guetta",
+  "tags": [
+   [
+    "house",
+    9
+   ],
+   [
+    "dance-pop",
+    8
+   ],
+   [
+    "dance",
+    6
+   ],
+   [
+    "electro house",
+    6
+   ],
+   [
+    "electronic",
+    4
+   ],
+   [
+    "electropop",
+    2
+   ],
+   [
+    "future rave",
+    2
+   ],
+   [
+    "pop",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "electroclash",
+    1
+   ],
+   [
+    "english",
+    1
+   ],
+   [
+    "club",
+    1
+   ],
+   [
+    "french house",
+    1
+   ],
+   [
+    "house music",
+    1
+   ],
+   [
+    "festival progressive house",
+    1
+   ],
+   [
+    "seen live",
+    0
+   ],
+   [
+    "eurodance",
+    0
+   ],
+   [
+    "edm",
+    0
+   ],
+   [
+    "dance and electronica",
+    0
+   ]
+  ],
+  "type": "Person"
  },
  "dax-j": {
   "area": "Berlin",
@@ -1462,6 +1924,62 @@
   ],
   "type": "Group"
  },
+ "dom-dolla": {
+  "area": "Australia",
+  "begin": null,
+  "country": "AU",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "9b8548a9-5991-42a9-ba96-fe83bd238b7a",
+  "name": "Dom Dolla",
+  "tags": [],
+  "type": "Person"
+ },
+ "donato-dozzy": {
+  "area": "Italy",
+  "begin": null,
+  "country": "IT",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "4a2a0d6b-d871-400b-8d61-bf544854bdf6",
+  "name": "Donato Dozzy",
+  "tags": [],
+  "type": "Person"
+ },
+ "dr-peacock": {
+  "area": "Netherlands",
+  "begin": null,
+  "country": "NL",
+  "disambiguation": "frenchcore DJ",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6d138947-ffb5-4da2-874b-9d97577f8b6c",
+  "name": "Dr. Peacock",
+  "tags": [
+   [
+    "frenchcore",
+    2
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "hardcore techno",
+    1
+   ],
+   [
+    "terror",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
  "dual-damage": {
   "area": "Netherlands",
   "begin": "2016-01-01",
@@ -1474,6 +1992,44 @@
   "name": "Dual Damage",
   "tags": [],
   "type": "Group"
+ },
+ "duke-dumont": {
+  "area": "United Kingdom",
+  "begin": "1982-08-27",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "6060d1bb-94f8-4863-89b9-425487f2f6b2",
+  "name": "Duke Dumont",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "edm",
+    1
+   ],
+   [
+    "balearic beat",
+    1
+   ]
+  ],
+  "type": "Person"
  },
  "dusky": {
   "area": "United Kingdom",
@@ -1539,6 +2095,24 @@
   ],
   "type": "Person"
  },
+ "enrico-sangiuliano": {
+  "area": "Italy",
+  "begin": null,
+  "country": "IT",
+  "disambiguation": "techno producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "fe69b211-d470-48e7-a7a0-64cecb5bc991",
+  "name": "Enrico Sangiuliano",
+  "tags": [
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "enzo-siragusa": {
   "area": null,
   "begin": null,
@@ -1554,6 +2128,24 @@
  },
  "eric-prydz": {
   "found": false
+ },
+ "eris-drew": {
+  "area": "Chicago",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8cd2d139-7257-4d8c-9247-621bfb742e6e",
+  "name": "Eris Drew",
+  "tags": [
+   [
+    "transgender",
+    1
+   ]
+  ],
+  "type": "Person"
  },
  "fakear": {
   "area": "France",
@@ -1601,6 +2193,32 @@
   ],
   "type": "Person"
  },
+ "fatima-hajji": {
+  "area": "Spain",
+  "begin": null,
+  "country": "ES",
+  "disambiguation": "(Hard)techno/schranz",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "0c0f88db-c1f2-4f3b-8bbf-8cace9196c59",
+  "name": "Fatima Hajji",
+  "tags": [
+   [
+    "hardtechno",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "schranz",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "fisher": {
   "area": "United States",
   "begin": null,
@@ -1615,6 +2233,74 @@
    [
     "vocal trance",
     1
+   ]
+  ],
+  "type": "Person"
+ },
+ "fjaak": {
+  "area": "Berlin",
+  "begin": "2009",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "56acaa47-eb2f-43d7-a1f1-19466c550e31",
+  "name": "FJAAK",
+  "tags": [
+   [
+    "techno",
+    3
+   ],
+   [
+    "electronic",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "floating-points": {
+  "area": "United Kingdom",
+  "begin": "1986",
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97",
+  "name": "Floating Points",
+  "tags": [
+   [
+    "electronic",
+    2
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "microhouse",
+    1
+   ],
+   [
+    "post-dubstep",
+    1
+   ],
+   [
+    "electronica",
+    0
    ]
   ],
   "type": "Person"
@@ -1728,6 +2414,19 @@
     0
    ]
   ],
+  "type": "Person"
+ },
+ "funk-tribu": {
+  "area": "Berlin",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "a9ca51a5-ed4c-4457-99c3-7f3d496062bf",
+  "name": "Funk Tribu",
+  "tags": [],
   "type": "Person"
  },
  "hilight-tribe": {

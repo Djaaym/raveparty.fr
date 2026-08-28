@@ -332,5 +332,134 @@
    "https://en.wikipedia.org/wiki/Dirty_Workz"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "Adjuzt",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://hardstyle.com/en/artists/adjuzt",
+   "https://musicbrainz.org/artist/7851e487-87a7-42ca-8fb6-c6a1d62754c5"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "BØĘRY",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Bochka"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/159515/biography",
+   "https://www.djguide.nl/djinfo.p?djid=9985&language=en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tassery",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Schranz"
+  ],
+  "sources": [
+   "https://6amgroup.com/articles/music-interviews/whats-in-your-toolbox-tassery"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SNTS",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://djmag.com/news/snts-drops-dark-dusty-techno-figures-mist-premiere"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sandrien",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Acid Techno",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/sandrien/1364/",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/sandrien/7090/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Virginia",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://old.ostgut.de/booking/artist/virginia",
+   "https://www.thevinylfactory.com/news/steffi-and-virginia-new-double-ep-ostgut-ton-work-a-change-vinyl"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Cara Elizabeth",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://hoer.live/artist/cara-elizabeth-2/",
+   "https://blade-festival.de/en/2024/artists/cara-elizabeth/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Saints",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/the-saints-from-the-bar-to-ultra-miami/",
+   "https://edmhousenetwork.com/the-saints-hard-dances-fastest-rising-duo-set-their-sights-on-global-domination/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Djerry C",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/djerry-c/16056/",
+   "https://www.superstardeejay.com/mix008-djerry-c/"
+  ],
+  "confidence": "medium"
  }
 ]

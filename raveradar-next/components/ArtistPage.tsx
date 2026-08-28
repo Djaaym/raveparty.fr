@@ -107,6 +107,30 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           {bio ? (
             <>
               <p className="lead artist-bio">{bioText(bio, lang)}</p>
+              {/* `since` et `labels` étaient recherchés, stockés… et affichés nulle part
+                  sur la fiche de l'artiste — seulement sur les douze cartes développées
+                  de /artistes. Une donnée vérifiée qu'on ne montre pas est du travail
+                  perdu, et c'est précisément ce qu'un lecteur cherche ici : d'où il
+                  vient, depuis quand, chez qui il sort ses disques. */}
+              {(bio.origin || bio.since || bio.labels?.length) && (
+                <div className="artcard-facts artist-facts">
+                  {bio.origin && (
+                    <span>
+                      <em>{t("artists.origin")}</em> {bio.origin}
+                    </span>
+                  )}
+                  {bio.since && (
+                    <span>
+                      <em>{t("artists.since")}</em> {bio.since}
+                    </span>
+                  )}
+                  {bio.labels && bio.labels.length > 0 && (
+                    <span>
+                      <em>{t("artists.labels")}</em> {bio.labels.join(", ")}
+                    </span>
+                  )}
+                </div>
+              )}
               <p className="artist-credits">
                 {t("artist.sources")}{" "}
                 {bio.sources.map((u, i) => (
