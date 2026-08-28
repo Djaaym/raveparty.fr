@@ -12,9 +12,6 @@
   "tags": [],
   "type": "Group"
  },
- "acid-arab": {
-  "found": false
- },
  "adam-beyer": {
   "area": "Sweden",
   "begin": "1976-05-15",
@@ -109,9 +106,6 @@
   "name": "Adrian Mills",
   "tags": [],
   "type": "Person"
- },
- "adriatique": {
-  "found": false
  },
  "alignment": {
   "area": "Berlin",
@@ -844,9 +838,6 @@
    ]
   ],
   "type": "Person"
- },
- "benny-rodrigues": {
-  "found": false
  },
  "bob-sinclar": {
   "area": "France",
@@ -2126,9 +2117,6 @@
   "tags": [],
   "type": "Person"
  },
- "eric-prydz": {
-  "found": false
- },
  "eris-drew": {
   "area": "Chicago",
   "begin": null,
@@ -2429,6 +2417,162 @@
   "tags": [],
   "type": "Person"
  },
+ "gerd-janson": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "2e627c1e-a9a5-489d-8ea7-9545c93d47d1",
+  "name": "Gerd Janson",
+  "tags": [],
+  "type": "Person"
+ },
+ "goldie": {
+  "area": "United Kingdom",
+  "begin": "1965-09-19",
+  "country": "GB",
+  "disambiguation": "UK jungle, drum & bass artist Clifford Joseph Price",
+  "ended": null,
+  "found": true,
+  "homonyms": 3,
+  "mbid": "c5393047-0c44-48eb-b5a8-070759f04371",
+  "name": "Goldie",
+  "tags": [
+   [
+    "drum and bass",
+    7
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "british",
+    1
+   ],
+   [
+    "uk",
+    1
+   ],
+   [
+    "electronica",
+    1
+   ],
+   [
+    "english",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "hannah-laing": {
+  "area": "Dundee",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "f96e106f-3c36-4fda-9d14-82ea0753489d",
+  "name": "Hannah Laing",
+  "tags": [],
+  "type": null
+ },
+ "hardwell": {
+  "area": "Netherlands",
+  "begin": "1988-01-07",
+  "country": "NL",
+  "disambiguation": "Robbert van de Corput, house DJ & producer from Breda, NL",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "170d6637-36e0-49dd-a225-c4fd5b77a285",
+  "name": "Hardwell",
+  "tags": [
+   [
+    "edm",
+    3
+   ],
+   [
+    "dutch house",
+    2
+   ],
+   [
+    "electro house",
+    2
+   ],
+   [
+    "big room house",
+    2
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "electronic",
+    1
+   ],
+   [
+    "progressive house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ],
+   [
+    "deep house",
+    1
+   ],
+   [
+    "trance",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "helena-hauff": {
+  "area": "Hamburg",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "de6e9f8f-56ef-4697-9090-20a63c2b4d7b",
+  "name": "Helena Hauff",
+  "tags": [
+   [
+    "electronic",
+    1
+   ],
+   [
+    "hardcore techno",
+    1
+   ],
+   [
+    "ambient",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "hilight-tribe": {
   "area": "France",
   "begin": null,
@@ -2459,6 +2603,19 @@
   ],
   "type": "Group"
  },
+ "holy-priest": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "64cb417c-d902-41c4-a9c0-6bac865738bf",
+  "name": "Holy Priest",
+  "tags": [],
+  "type": "Person"
+ },
  "honey-dijon": {
   "area": "Chicago",
   "begin": null,
@@ -2472,6 +2629,70 @@
   "tags": [
    [
     "house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "horsegiirl": {
+  "area": "Berlin",
+  "begin": null,
+  "country": null,
+  "disambiguation": "DE | electronic pop",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "de6a52b1-4f04-4c29-b471-345c06b93ac2",
+  "name": "horsegiirL",
+  "tags": [
+   [
+    "happy hardcore",
+    3
+   ],
+   [
+    "hyperpop",
+    3
+   ],
+   [
+    "german",
+    1
+   ],
+   [
+    "happy trance",
+    0
+   ],
+   [
+    "german happy hardcore",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "hysta": {
+  "area": "France",
+  "begin": "1998-01-21",
+  "country": "FR",
+  "disambiguation": "Thaïs Morel Frenchcore",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8aad4574-7d51-4deb-a451-3caecff8d07b",
+  "name": "Hysta",
+  "tags": [
+   [
+    "frenchcore",
+    2
+   ],
+   [
+    "hardcore techno",
+    1
+   ],
+   [
+    "gabber",
+    1
+   ],
+   [
+    "uptempo hardcore",
     1
    ]
   ],
@@ -2494,6 +2715,19 @@
    ]
   ],
   "type": "Person"
+ },
+ "il-est-vilaine": {
+  "area": "Paris",
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "574e170a-4ab9-43e1-8163-6164b5f55d51",
+  "name": "Il Est Vilaine",
+  "tags": [],
+  "type": "Group"
  },
  "ilario-alicante": {
   "area": "Italy",
@@ -2525,6 +2759,32 @@
    ]
   ],
   "type": "Person"
+ },
+ "iosio": {
+  "area": null,
+  "begin": null,
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "ad171b2f-dcd8-4dfa-863a-e9670df72222",
+  "name": "IOSIO",
+  "tags": [
+   [
+    "hard house",
+    1
+   ],
+   [
+    "bounce",
+    1
+   ],
+   [
+    "hard techno",
+    1
+   ]
+  ],
+  "type": null
  },
  "jamie-jones": {
   "area": "United Kingdom",
@@ -2660,9 +2920,6 @@
   ],
   "type": "Person"
  },
- "joachim-pastor": {
-  "found": false
- },
  "joris-delacroix": {
   "area": "France",
   "begin": "1987",
@@ -2702,6 +2959,66 @@
   ],
   "type": "Person"
  },
+ "joseph-capriati": {
+  "area": "Italy",
+  "begin": "1987-07-25",
+  "country": "IT",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "b523b6b8-f2ea-4d6c-ba23-f25e02715727",
+  "name": "Joseph Capriati",
+  "tags": [
+   [
+    "techno",
+    1
+   ],
+   [
+    "tech house",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
+ "joy-orbison": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "8542f9a4-bd91-4066-91cf-359d2d9950db",
+  "name": "Joy Orbison",
+  "tags": [
+   [
+    "house",
+    1
+   ],
+   [
+    "dubstep",
+    1
+   ],
+   [
+    "uk garage",
+    1
+   ],
+   [
+    "2-step garage",
+    1
+   ],
+   [
+    "trip hop",
+    1
+   ],
+   [
+    "uk funky",
+    1
+   ]
+  ],
+  "type": "Person"
+ },
  "kettama": {
   "area": "Ireland",
   "begin": "1997-05-30",
@@ -2712,6 +3029,19 @@
   "homonyms": 1,
   "mbid": "e457531c-4add-45f0-9998-f65ec53a305c",
   "name": "KETTAMA",
+  "tags": [],
+  "type": "Person"
+ },
+ "kevin-de-vries": {
+  "area": "Germany",
+  "begin": null,
+  "country": "DE",
+  "disambiguation": "techno",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "21234737-13ef-4a52-9903-018c2f61a6b1",
+  "name": "Kevin de Vries",
   "tags": [],
   "type": "Person"
  },
@@ -2793,9 +3123,6 @@
   ],
   "type": "Group"
  },
- "la-p-tite-fumee": {
-  "found": false
- },
  "lane-8": {
   "area": "United States",
   "begin": "1990-10-27",
@@ -2875,6 +3202,32 @@
   "tags": [],
   "type": "Person"
  },
+ "maceo-plex": {
+  "area": "United States",
+  "begin": null,
+  "country": "US",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "0ab688fd-0943-41cd-a24c-78ec2baad3fd",
+  "name": "Maceo Plex",
+  "tags": [],
+  "type": "Person"
+ },
+ "mad-dog": {
+  "area": "United Kingdom",
+  "begin": null,
+  "country": "GB",
+  "disambiguation": "UK drum n bass duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 4,
+  "mbid": "2e006195-71f0-4b0c-8caa-e94dafe103f4",
+  "name": "Mad Dog",
+  "tags": [],
+  "type": "Group"
+ },
  "marcel-dettmann": {
   "area": "Berlin",
   "begin": "1977-10-28",
@@ -2892,6 +3245,113 @@
    ]
   ],
   "type": "Person"
+ },
+ "maribou-state": {
+  "area": "London",
+  "begin": "2011",
+  "country": null,
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "72034a05-bcd8-40c2-8255-3ee4ac0e7ef0",
+  "name": "Maribou State",
+  "tags": [
+   [
+    "electronic",
+    3
+   ],
+   [
+    "downtempo",
+    1
+   ],
+   [
+    "house",
+    1
+   ],
+   [
+    "leftfield",
+    1
+   ],
+   [
+    "electronic duo",
+    1
+   ]
+  ],
+  "type": "Group"
+ },
+ "marlon-hoffstadt": {
+  "area": "Berlin",
+  "begin": null,
+  "country": null,
+  "disambiguation": "DJ & producer",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "7377ee25-9240-4b50-a824-20c202e96da9",
+  "name": "Marlon Hoffstadt",
+  "tags": [],
+  "type": "Person"
+ },
+ "martin-garrix": {
+  "area": "Netherlands",
+  "begin": "1996-05-15",
+  "country": "NL",
+  "disambiguation": null,
+  "ended": null,
+  "found": true,
+  "homonyms": 2,
+  "mbid": "3e1f2ee4-16be-4406-bf18-6173840cf2b1",
+  "name": "Martin Garrix",
+  "tags": [
+   [
+    "edm",
+    4
+   ],
+   [
+    "electro house",
+    3
+   ],
+   [
+    "big room house",
+    3
+   ],
+   [
+    "dance-pop",
+    2
+   ],
+   [
+    "festival progressive house",
+    2
+   ],
+   [
+    "tropical house",
+    1
+   ],
+   [
+    "ocean",
+    0
+   ]
+  ],
+  "type": "Person"
+ },
+ "mathame": {
+  "area": "Italy",
+  "begin": null,
+  "country": "IT",
+  "disambiguation": "Italian DJ duo",
+  "ended": null,
+  "found": true,
+  "homonyms": 1,
+  "mbid": "75141c90-ee73-45da-99e3-3366ddd14585",
+  "name": "Mathame",
+  "tags": [
+   [
+    "techno",
+    1
+   ]
+  ],
+  "type": "Group"
  },
  "max-cooper": {
   "area": "United Kingdom",
@@ -2974,9 +3434,6 @@
   ],
   "type": "Person"
  },
- "moodymann": {
-  "found": false
- },
  "nico-moreno": {
   "area": "France",
   "begin": null,
@@ -3024,9 +3481,6 @@
   "name": "Nina Kraviz",
   "tags": [],
   "type": "Person"
- },
- "novah": {
-  "found": false
  },
  "nto": {
   "area": "France",
@@ -3339,9 +3793,6 @@
    ]
   ],
   "type": "Person"
- },
- "tiesto": {
-  "found": false
  },
  "vladimir-cauchemar": {
   "area": "France",

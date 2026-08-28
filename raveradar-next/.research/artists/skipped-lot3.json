@@ -1,0 +1,14 @@
+[
+ {
+  "name": "Bibi",
+  "reason": "Aucune fiche artiste trouvée. Nom trop courant ; seules sources = les line-ups Warehouse Nantes, qui ne donnent aucun genre propre à l'artiste."
+ },
+ {
+  "name": "Leyo",
+  "reason": "Homonymie non tranchée : festivalfans.nl indique que LEYO est le nom de DJ de Bizzey (rap/urbain NL), tandis qu'Electronic Groove documente un LEYO d'Amersfoort signé sur Cecille Records (house/disco). Impossible de savoir lequel joue au Solar Weekend."
+ },
+ {
+  "name": "Polar",
+  "reason": "Aucune fiche trouvée pour le Polar programmé par IAM Productions à l'Akvárium (Budapest). MusicBrainz ne renvoie qu'un chanteur folk-pop irlando-suisse et un groupe de rock français, sans rapport."
+ }
+]

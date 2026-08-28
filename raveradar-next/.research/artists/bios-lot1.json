@@ -12,22 +12,43 @@
  },
  {
   "name": "Armand van Helden",
-  "bio_fr": "Armand van Helden est un DJ, producteur et remixeur américain né le 16 février 1970 à Boston. Il commence à mixer à Boston en 1988 et sort ses premiers disques en 1992 ; son remix de « Professional Widow » de Tori Amos puis « You Don't Know Me » l'installent dans la house des années 1990. Il forme plus tard le duo Duck Sauce avec A-Trak.",
-  "bio_en": "Armand van Helden is an American DJ, producer and remixer born on 16 February 1970 in Boston. He started DJing in Boston in 1988 and released his first records in 1992; his remix of Tori Amos's \"Professional Widow\" and then \"You Don't Know Me\" established him in 1990s house music. He later formed the duo Duck Sauce with A-Trak.",
+  "bio_fr": "Armand van Helden est un DJ, producteur et remixeur américain né le 16 février 1970 et originaire de Boston. Il sort ses premiers disques au début des années 1990 sur AV8, Nervous et Strictly Rhythm, et son remix de « Professional Widow » de Tori Amos puis « You Don't Know Me » l'installent dans la house des années 1990. Il forme ensuite le duo Duck Sauce avec A-Trak.",
+  "bio_en": "Armand van Helden is an American DJ, producer and remixer born on 16 February 1970 and originally from Boston. He released his first records in the early 1990s on AV8, Nervous and Strictly Rhythm, and his remix of Tori Amos's \"Professional Widow\" and then \"You Don't Know Me\" established him in 1990s house music. He later formed the duo Duck Sauce with A-Trak.",
   "origin": "Boston, États-Unis",
-  "since": 1992,
-  "sources": ["https://www.discogs.com/artist/3352-Armand-Van-Helden"]
+  "since": 1990,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Armand_van_Helden",
+   "https://www.discogs.com/artist/3352-Armand-Van-Helden"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:130606_DuckSauce_938.tif"
  },
  {
   "name": "Jayda G",
-  "bio_fr": "Jayda G, de son vrai nom Jayda Guy, est une productrice et DJ canadienne originaire de Grand Forks, en Colombie-Britannique. Titulaire d'un master en toxicologie environnementale, elle a vécu à Vancouver, Berlin puis Londres, et a cogéré le label Freakout Cult de 2015 à 2018. Elle a été nommée aux Grammy Awards 2021 dans la catégorie meilleur enregistrement électronique pour « Both of Us ».",
-  "bio_en": "Jayda G, born Jayda Guy, is a Canadian producer and DJ from Grand Forks, British Columbia. Holder of a master's degree in environmental toxicology, she has lived in Vancouver, Berlin and London, and co-ran the Freakout Cult label between 2015 and 2018. She was nominated at the 2021 Grammy Awards in the best dance recording category for \"Both of Us\".",
+  "bio_fr": "Jayda G, de son vrai nom Jayda Guy, est une productrice et DJ canadienne originaire de Grand Forks, en Colombie-Britannique. Elle a vécu à Vancouver, Berlin puis Londres et a cogéré le label Freakout Cult entre 2015 et 2018. Elle publie sur !K7 Records et a été nommée aux Grammy Awards 2021 dans la catégorie meilleur enregistrement électronique pour « Both of Us ».",
+  "bio_en": "Jayda G, born Jayda Guy, is a Canadian producer and DJ from Grand Forks, British Columbia. She has lived in Vancouver, Berlin and London, and co-ran the Freakout Cult label between 2015 and 2018. She releases on !K7 Records and was nominated at the 2021 Grammy Awards in the best dance recording category for \"Both of Us\".",
   "origin": "Grand Forks, Canada",
   "since": 2016,
-  "labels": ["!K7 Records", "Freakout Cult"],
+  "labels": [
+   "!K7 Records",
+   "Freakout Cult"
+  ],
   "sources": [
    "https://en.wikipedia.org/wiki/Jayda_G",
    "https://www.discogs.com/artist/4430477-Jayda-G"
+  ]
+ },
+ {
+  "name": "Daniel Avery",
+  "bio_fr": "Daniel Avery est un DJ et producteur anglais né le 30 septembre 1986 à Bournemouth. Il publie ses disques depuis 2009 sur Phantasy Sound, le label londonien fondé par Erol Alkan, et travaille une techno acide et texturée qui glisse volontiers vers l'ambient sur ses albums.",
+  "bio_en": "Daniel Avery is an English DJ and producer born on 30 September 1986 in Bournemouth. He has released on Phantasy Sound, the London label founded by Erol Alkan, since 2009, working an acid-leaning, textured techno that often drifts into ambient on his albums.",
+  "origin": "Bournemouth, Royaume-Uni",
+  "since": 2009,
+  "labels": [
+   "Phantasy Sound"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Daniel_Avery_(music_producer)",
+   "https://www.discogs.com/artist/2519485-Daniel-Avery"
   ]
  },
  {
@@ -42,11 +63,18 @@
  },
  {
   "name": "&ME",
-  "bio_fr": "&ME est un DJ et producteur allemand basé à Berlin. Il est l'un des membres du collectif et label berlinois Keinemusik, aux côtés de Rampa, Adam Port et Reznik, et y publie l'essentiel de ses disques.",
-  "bio_en": "&ME is a German DJ and producer based in Berlin. He is one of the members of the Berlin collective and label Keinemusik, alongside Rampa, Adam Port and Reznik, where he releases most of his records.",
+  "bio_fr": "&ME, de son vrai nom André Boadu, est un producteur et DJ allemand de Berlin, actif depuis 2009. Il est cofondateur du label et collectif Keinemusik, aux côtés de Rampa, Adam Port et Reznik, et y publie l'essentiel de ses disques, entre house et techno.",
+  "bio_en": "&ME, real name André Boadu, is a German producer and DJ from Berlin, active since 2009. He is a co-founder of the Keinemusik label and collective alongside Rampa, Adam Port and Reznik, where he releases most of his records, between house and techno.",
   "origin": "Berlin, Allemagne",
-  "labels": ["Keinemusik"],
-  "sources": ["https://www.discogs.com/artist/645861-Me"]
+  "since": 2009,
+  "labels": [
+   "Keinemusik"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/%26Me_(DJ)",
+   "https://www.discogs.com/artist/645861-Me"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:%26Me_in_2025.png"
  },
  {
   "name": "The Prodigy",
@@ -57,6 +85,402 @@
   "sources": [
    "https://en.wikipedia.org/wiki/The_Prodigy",
    "https://www.discogs.com/artist/66852-The-Prodigy"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:The_Prodigy_IMG_2972_(5353883317)_(cropped).jpg"
+ },
+ {
+  "name": "Âme",
+  "bio_fr": "Âme est un duo allemand de house et de techno formé par Kristian Beyer et Frank Wiedemann, qui se sont rencontrés en 2000 dans le disquaire de Beyer à Karlsruhe. Leur single « Rej », paru en 2005, les fait connaître au-delà de l'Allemagne. La même année, ils fondent le label Innervisions avec Dixon.",
+  "bio_en": "Âme are a German house and techno duo formed by Kristian Beyer and Frank Wiedemann, who met in 2000 at Beyer's record shop in Karlsruhe. Their 2005 single \"Rej\" brought them attention beyond Germany. That same year, they founded the Innervisions label with Dixon.",
+  "origin": "Karlsruhe / Berlin, Allemagne",
+  "since": 2001,
+  "labels": [
+   "Innervisions"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/%C3%82me",
+   "https://www.discogs.com/artist/21735-Âme",
+   "https://datatransmission.co/blog/what-is-innervisions/"
+  ]
+ },
+ {
+  "name": "Cassius",
+  "bio_fr": "Cassius était un duo français de house formé à Paris par Philippe Zdar et Hubert Blanc-Francard, alias Boom Bass. Rattaché au mouvement de la French touch de la fin des années 1990, il a publié chez Virgin, Ed Banger et Because Music. Le duo a pris fin en 2019 avec la mort de Philippe Zdar.",
+  "bio_en": "Cassius were a French house duo formed in Paris by Philippe Zdar and Hubert Blanc-Francard, aka Boom Bass. Associated with the late-1990s French touch movement, they released on Virgin, Ed Banger and Because Music. The duo ended in 2019 with the death of Philippe Zdar.",
+  "origin": "Paris, France",
+  "labels": [
+   "Ed Banger Records",
+   "Because Music"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Cassius_(band)",
+   "https://www.discogs.com/artist/3358-Cassius"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Cassius_Festival_RockAdel_2012.jpg"
+ },
+ {
+  "name": "Erol Alkan",
+  "bio_fr": "Erol Alkan est un DJ, producteur et remixeur londonien né le 30 mai 1974, d'origine chypriote turque. Actif depuis 1993, il s'est d'abord fait connaître par sa soirée londonienne Trash. Il a fondé le label Phantasy Sound, sur lequel paraissent notamment les disques de Daniel Avery.",
+  "bio_en": "Erol Alkan is a London DJ, producer and remixer born on 30 May 1974, of Turkish Cypriot descent. Active since 1993, he first made his name with his London club night Trash. He founded the Phantasy Sound label, home to Daniel Avery among others.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 1993,
+  "labels": [
+   "Phantasy Sound"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Erol_Alkan",
+   "https://www.discogs.com/artist/117051-Erol-Alkan"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:ErolAlkan.jpg"
+ },
+ {
+  "name": "James Hype",
+  "bio_fr": "James Hype, de son vrai nom James Edward Lee Marsland, est un DJ et producteur anglais né le 26 novembre 1989 à Greasby, dans le Merseyside. Il publie depuis 2016 sur son label Stereohype puis chez Warner, dans un registre tech house et EDM, et est connu pour ses mixes très techniques.",
+  "bio_en": "James Hype, real name James Edward Lee Marsland, is an English DJ and producer born on 26 November 1989 in Greasby, Merseyside. He has released since 2016 on his Stereohype label and then on Warner, in a tech house and EDM vein, and is known for his highly technical mixing.",
+  "origin": "Greasby, Merseyside, Royaume-Uni",
+  "since": 2016,
+  "labels": [
+   "Stereohype",
+   "Warner Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/James_Hype",
+   "https://www.discogs.com/artist/5319800-James-Hype"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:James_Hype_at_FWD_Cleveland_2025.jpg"
+ },
+ {
+  "name": "Medusa",
+  "bio_fr": "Medusa est une DJ française basée à Paris. Elle construit des sets hybrides qui passent de la trance et de l'acid au hard techno, en s'appuyant sur les sonorités et l'esthétique des années 2000. Elle joue régulièrement au Warehouse de Nantes.",
+  "bio_en": "Medusa is a French DJ based in Paris. She builds hybrid sets moving from trance and acid to hard techno, drawing on the sounds and aesthetics of the 2000s. She plays regularly at the Warehouse in Nantes.",
+  "origin": "Paris, France",
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/medusa"
+  ]
+ },
+ {
+  "name": "Palms Trax",
+  "bio_fr": "Palms Trax est un DJ et producteur britannique originaire de Saltford, dans le Somerset, et installé à Berlin. Sa sélection tourne autour de la house, de la deep house et du disco. Il dirige le label CWPT.",
+  "bio_en": "Palms Trax is a British DJ and producer from Saltford, Somerset, based in Berlin. His selection revolves around house, deep house and disco. He runs the CWPT label.",
+  "origin": "Saltford, Royaume-Uni / Berlin",
+  "labels": [
+   "CWPT"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3467480-Palms-Trax",
+   "https://www.last.fm/music/Palms+Trax/+tags"
+  ]
+ },
+ {
+  "name": "Rødhåd",
+  "bio_fr": "Rødhåd, de son vrai nom Mike Bierbach, est un DJ et producteur de techno né en 1984 et originaire de Berlin-Est. Il obtient sa première résidence au Zementgarten en 2006 et cofonde en 2009 Dystopian, d'abord une série de soirées berlinoises devenue un label. Son registre va de la techno dub et minimale à des sets plus sombres et atmosphériques.",
+  "bio_en": "Rødhåd, real name Mike Bierbach, is a techno DJ and producer born in 1984 and from East Berlin. He landed his first residency at Zementgarten in 2006 and in 2009 co-founded Dystopian, first a series of Berlin parties that became a record label. His range runs from dub and minimal techno to darker, atmospheric sets.",
+  "origin": "Berlin, Allemagne",
+  "since": 2006,
+  "labels": [
+   "Dystopian"
+  ],
+  "sources": [
+   "https://crackmagazine.net/article/long-reads/rodhad-dystopians-unstoppable-force/",
+   "https://www.discogs.com/artist/2792304-Rødhåd"
+  ]
+ },
+ {
+  "name": "Shanti Celeste",
+  "bio_fr": "Shanti Celeste est une DJ, productrice et illustratrice née le 20 octobre 1988 à Temuco, au Chili. Installée à Londres après des années à Bristol, elle dirige le label Peach Discs. Sa musique est rattachée à la house, à la techno, à l'electro et à l'ambient ; son premier album, « Tangerine », est paru en 2019.",
+  "bio_en": "Shanti Celeste is a DJ, producer and illustrator born on 20 October 1988 in Temuco, Chile. Based in London after years in Bristol, she runs the Peach Discs label. Her music is associated with house, techno, electro and ambient; her debut album, \"Tangerine\", came out in 2019.",
+  "origin": "Temuco, Chili / Londres",
+  "labels": [
+   "Peach Discs"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shanti_Celeste",
+   "https://www.discogs.com/artist/3416319-Shanti-Celeste"
+  ]
+ },
+ {
+  "name": "Act of Rage",
+  "bio_fr": "Act of Rage est un DJ et producteur de hardstyle néerlandais, de son vrai nom Jacques Journée. Il s'est fait connaître par ses premières sorties sur le label Minus Is More, dans un registre raw hardstyle.",
+  "bio_en": "Act of Rage is a Dutch hardstyle DJ and producer, real name Jacques Journée. He made his name with his first releases on the Minus Is More label, in a raw hardstyle vein.",
+  "origin": "Pays-Bas",
+  "labels": [
+   "Minus Is More"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3954322-Act-Of-Rage-2",
+   "https://musicbrainz.org/ws/2/artist/?query=Act+of+Rage&fmt=json"
+  ]
+ },
+ {
+  "name": "Alok",
+  "bio_fr": "Alok, de son vrai nom Alok Achkar Peres Petrillo, est un DJ et producteur brésilien né le 26 août 1991 à Goiânia et basé à Brasília. Il débute dans la psytrance au sein du duo Logica avec son frère jumeau Bhaskar, avant de passer à la house en solo. Il publie notamment sur Spinnin' Records et Controversia.",
+  "bio_en": "Alok, real name Alok Achkar Peres Petrillo, is a Brazilian DJ and producer born on 26 August 1991 in Goiânia and based in Brasília. He started out in psytrance as part of the duo Logica with his twin brother Bhaskar, before moving to house as a solo artist. He releases on Spinnin' Records and Controversia among others.",
+  "origin": "Goiânia, Brésil",
+  "since": 2004,
+  "labels": [
+   "Spinnin' Records",
+   "Controversia"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alok_(DJ)",
+   "https://www.discogs.com/artist/6629077-Alok-4"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Alok_-_Lady_Night.png"
+ },
+ {
+  "name": "Anyma",
+  "bio_fr": "Anyma est le projet solo de Matteo Milleri, producteur né à New York et installé à Berlin, par ailleurs moitié du duo Tale of Us. Il est cofondateur du label Afterlife Recordings et publie aussi chez Interscope. Sa musique relève de la techno et de la house mélodiques.",
+  "bio_en": "Anyma is the solo project of Matteo Milleri, a producer born in New York and based in Berlin, otherwise one half of the duo Tale of Us. He is a co-founder of the Afterlife Recordings label and also releases on Interscope. His music sits in melodic techno and melodic house.",
+  "origin": "New York, États-Unis / Berlin",
+  "since": 2011,
+  "labels": [
+   "Afterlife Recordings",
+   "Interscope"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Anyma",
+   "https://www.discogs.com/artist/9627886-Anyma-5"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Anyma_2025_(cropped).jpg"
+ },
+ {
+  "name": "Ben Hemsley",
+  "bio_fr": "Ben Hemsley est un DJ et producteur britannique né le 6 juin 1996 à Newcastle upon Tyne. Sa musique croise house, rave et trance ; il a publié sur Ministry of Sound avant de lancer son propre label, bebé. Il a reçu le prix du meilleur producteur décerné par DJ Mag en 2023.",
+  "bio_en": "Ben Hemsley is a British DJ and producer born on 6 June 1996 in Newcastle upon Tyne. His music crosses house, rave and trance; he released on Ministry of Sound before launching his own label, bebé. He won DJ Mag's Best Producer award in 2023.",
+  "origin": "Newcastle upon Tyne, Royaume-Uni",
+  "since": 2019,
+  "labels": [
+   "Ministry of Sound",
+   "bebé"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ben_Hemsley",
+   "https://djmag.com/features/ben-hemsley-advancing-trance-interview"
+  ]
+ },
+ {
+  "name": "Brennan Heart",
+  "bio_fr": "Brennan Heart, de son vrai nom Fabian Bohn, est un DJ et producteur de hardstyle néerlandais né le 2 mars 1982 à Helden, dans le Limbourg. Il a d'abord formé le duo Brennan & Heart avant de poursuivre seul sous ce nom. Il a publié sur Scantraxx puis WE R Music, et dirige aujourd'hui le label I AM HARDSTYLE.",
+  "bio_en": "Brennan Heart, real name Fabian Bohn, is a Dutch hardstyle DJ and producer born on 2 March 1982 in Helden, Limburg. He first formed the duo Brennan & Heart before continuing solo under this name. He released on Scantraxx and then WE R Music, and now runs the I AM HARDSTYLE label.",
+  "origin": "Helden, Limbourg, Pays-Bas",
+  "since": 2001,
+  "labels": [
+   "Scantraxx",
+   "I AM HARDSTYLE"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Brennan_Heart",
+   "https://www.discogs.com/artist/439312-Brennan-Heart"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Brennan_Heart_at_ZRCE_Beach.jpg"
+ },
+ {
+  "name": "Chris Liebing",
+  "bio_fr": "Chris Liebing est un DJ, producteur et animateur radio allemand né le 11 décembre 1968 à Gießen, en Hesse. Il tient sa première résidence au Red Brick de Gießen en 1991, puis devient résident de l'Omen à Francfort en 1996. Il a fondé le label CLR et a publié sur Novamute et Primate Recordings.",
+  "bio_en": "Chris Liebing is a German DJ, producer and radio host born on 11 December 1968 in Gießen, Hesse. He held his first residency at Gießen's Red Brick in 1991, then became a resident at Frankfurt's Omen in 1996. He founded the CLR label and has released on Novamute and Primate Recordings.",
+  "origin": "Gießen, Allemagne",
+  "since": 1991,
+  "labels": [
+   "CLR",
+   "Novamute",
+   "Primate Recordings"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chris_Liebing",
+   "https://www.discogs.com/artist/1711-Chris-Liebing"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Chris_Liebing_at_his_best.jpg"
+ },
+ {
+  "name": "DARKSIDE",
+  "bio_fr": "DARKSIDE est un groupe américain formé à New York en 2011 par Nicolas Jaar et Dave Harrington. Après une pause à partir de 2014, le projet reprend avec l'annonce du morceau « Spiral » en 2020. Sa musique croise électronique, house déviante et rock psychédélique.",
+  "bio_en": "DARKSIDE is an American band formed in New York in 2011 by Nicolas Jaar and Dave Harrington. After a hiatus from 2014, the project resumed with the announcement of \"Spiral\" in 2020. Their music crosses electronic music, left-field house and psychedelic rock.",
+  "origin": "New York, États-Unis",
+  "since": 2011,
+  "sources": [
+   "https://www.discogs.com/artist/2522005-DARKSIDE-22",
+   "https://musicbrainz.org/ws/2/artist/?query=DARKSIDE&fmt=json"
+  ]
+ },
+ {
+  "name": "DJ F.R.A.N.K.",
+  "bio_fr": "DJ F.R.A.N.K., de son vrai nom Frank Van Herwegen, est un DJ et producteur belge né le 10 décembre 1970 à Schoten. Il mixe depuis ses seize ans et a travaillé comme disquaire à Anvers. Remixeur du groupe The Underdog Project au début des années 2000, il signe en 2010 le titre « Discotex! (Yah!) », numéro un en Belgique.",
+  "bio_en": "DJ F.R.A.N.K., real name Frank Van Herwegen, is a Belgian DJ and producer born on 10 December 1970 in Schoten. He has been DJing since the age of sixteen and worked as a record seller in Antwerp. A remixer for The Underdog Project in the early 2000s, in 2010 he scored a number one in Belgium with \"Discotex! (Yah!)\".",
+  "origin": "Schoten, Belgique",
+  "since": 1986,
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_F.R.A.N.K."
+  ]
+ },
+ {
+  "name": "Felix Kröcher",
+  "bio_fr": "Felix Kröcher est un DJ et producteur de techno allemand né le 1er décembre 1983 à Francfort-sur-le-Main. Il a d'abord officié sous le nom de DJ Bundesschranzler, mot-valise formé sur « Bundeskanzler » et « schranz », le terme qui désigne la techno dure allemande dont il est issu.",
+  "bio_en": "Felix Kröcher is a German techno DJ and producer born on 1 December 1983 in Frankfurt am Main. He first performed as DJ Bundesschranzler, a portmanteau of \"Bundeskanzler\" and \"schranz\", the term for the hard German techno he came out of.",
+  "origin": "Francfort-sur-le-Main, Allemagne",
+  "sources": [
+   "https://www.discogs.com/artist/102027-Felix-Kröcher",
+   "https://www.discogs.com/artist/243560-DJ-Bundesschranzler"
+  ]
+ },
+ {
+  "name": "K Motionz",
+  "bio_fr": "K Motionz est un producteur et DJ britannique de drum & bass. Il évolue principalement dans le registre jump up, la branche la plus percussive et la plus club du genre.",
+  "bio_en": "K Motionz is a British drum & bass producer and DJ. He works mainly in jump up, the most percussive, club-oriented branch of the genre.",
+  "origin": "Royaume-Uni",
+  "sources": [
+   "https://www.last.fm/music/K+Motionz/+tags",
+   "https://www.discogs.com/artist/3012443-K-Motionz"
+  ]
+ },
+ {
+  "name": "Krowdexx",
+  "bio_fr": "Krowdexx est un duo italien de hardstyle formé par Giulio Destefanis et Simone Calvino, originaires d'Alba, dans le Piémont. Leur premier titre, « Y.A.T. », paraît fin 2015 sur le label néerlandais X-RAW Records ; ils publient ensuite chez Gearbox Digital et Scantraxx.",
+  "bio_en": "Krowdexx are an Italian hardstyle duo formed by Giulio Destefanis and Simone Calvino, from Alba in Piedmont. Their first track, \"Y.A.T.\", came out in late 2015 on the Dutch label X-RAW Records; they went on to release on Gearbox Digital and Scantraxx.",
+  "origin": "Alba, Italie",
+  "since": 2015,
+  "labels": [
+   "Gearbox Digital",
+   "Scantraxx"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/4248911-Krowdexx",
+   "https://www.last.fm/music/Krowdexx/+wiki"
+  ]
+ },
+ {
+  "name": "Luigi Tozzi",
+  "bio_fr": "Luigi Tozzi est un DJ et producteur italien basé à Rome. Il travaille une techno lente et hypnotique, proche de la dub techno et de l'ambient, construite sur de longues nappes plutôt que sur des montées.",
+  "bio_en": "Luigi Tozzi is an Italian DJ and producer based in Rome. He works a slow, hypnotic techno close to dub techno and ambient, built on long pads rather than build-ups.",
+  "origin": "Rome, Italie",
+  "sources": [
+   "https://www.discogs.com/artist/4098420-Luigi-Tozzi",
+   "https://www.last.fm/music/Luigi+Tozzi/+tags"
+  ]
+ },
+ {
+  "name": "Maudux",
+  "bio_fr": "Maudux est une DJ et productrice française basée à Paris. Ses sets naviguent entre trance et techno rebondissante, et elle revendique un style personnel, la « Bounce Trap », qui associe des kicks de ghetto trance à des voix trap. Elle publie sur le label la kermess.",
+  "bio_en": "Maudux is a French DJ and producer based in Paris. Her sets move between trance and bouncy techno, and she claims a signature style, \"Bounce Trap\", pairing ghetto trance kicks with trap vocals. She releases on the la kermess label.",
+  "origin": "Paris, France",
+  "labels": [
+   "la kermess"
+  ],
+  "sources": [
+   "https://le-sucre.eu/artists/maudux/"
+  ]
+ },
+ {
+  "name": "Mosimann",
+  "bio_fr": "Mosimann, de son vrai nom Quentin Mosimann, est un DJ, producteur et chanteur franco-suisse né le 14 février 1988 à Genève. Il joue une électro grand public entre house et EDM, se produit sur les grands festivals dont Tomorrowland, et a rempli deux fois le Zénith de Paris.",
+  "bio_en": "Mosimann, real name Quentin Mosimann, is a Franco-Swiss DJ, producer and singer born on 14 February 1988 in Geneva. He plays mainstream electronic music between house and EDM, performs at major festivals including Tomorrowland, and has sold out two shows at the Zénith de Paris.",
+  "origin": "Genève, Suisse",
+  "sources": [
+   "https://www.discogs.com/artist/1117982-Quentin-Mosimann",
+   "https://musicbrainz.org/ws/2/artist/?query=Mosimann&fmt=json"
+  ]
+ },
+ {
+  "name": "Nic Fanciulli",
+  "bio_fr": "Nic Fanciulli, de son vrai nom Nicholas Anthony Fanciulli, est un DJ et producteur anglais originaire de Maidstone, dans le Kent. Actif depuis 2003, il a fondé le label Saved Records et joue une house et une tech house de club. Son frère Mark Fanciulli est également DJ.",
+  "bio_en": "Nic Fanciulli, real name Nicholas Anthony Fanciulli, is an English DJ and producer from Maidstone, Kent. Active since 2003, he founded the Saved Records label and plays club-focused house and tech house. His brother Mark Fanciulli is also a DJ.",
+  "origin": "Maidstone, Kent, Royaume-Uni",
+  "since": 2003,
+  "labels": [
+   "Saved Records"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nic_Fanciulli",
+   "https://www.discogs.com/artist/125548-Nic-Fanciulli"
+  ]
+ },
+ {
+  "name": "Pegassi",
+  "bio_fr": "Pegassi, de son vrai nom Sam Huybrecht, est un DJ et producteur belge originaire d'Anvers. Son répertoire assemble des éléments d'eurodance, de trance, de techno et de house, dans un registre de club rapide.",
+  "bio_en": "Pegassi, real name Sam Huybrecht, is a Belgian DJ and producer from Antwerp. His output combines elements of eurodance, trance, techno and house, in a fast club register.",
+  "origin": "Anvers, Belgique",
+  "sources": [
+   "https://www.discogs.com/artist/5658595-Pegassi",
+   "https://musicbrainz.org/ws/2/artist/?query=Pegassi&fmt=json"
+  ]
+ },
+ {
+  "name": "Sama' Abdulhadi",
+  "bio_fr": "Sama' Abdulhadi est une DJ et productrice de techno palestinienne née en 1990 à Amman, en Jordanie, dans une famille palestinienne. Elle joue depuis 2010 et s'est fait connaître comme l'une des premières artistes techno issues de la scène palestinienne à tourner en Europe.",
+  "bio_en": "Sama' Abdulhadi is a Palestinian techno DJ and producer born in 1990 in Amman, Jordan, to a Palestinian family. She has been performing since 2010 and became known as one of the first techno artists from the Palestinian scene to tour in Europe.",
+  "origin": "Amman, Jordanie / Palestine",
+  "since": 2010,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sama%CA%BC_Abdulhadi",
+   "https://www.discogs.com/artist/8036010-Sama-Abdulhadi"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Sama'_Abdulhadi_en_el_53%C2%B0_Festival_Internacional_Cervantino,_2025_02.jpg"
+ },
+ {
+  "name": "Skream",
+  "bio_fr": "Skream, de son vrai nom Oliver Dene Jones, est un DJ et producteur anglais né le 1er juin 1986 à West Wickham, dans le sud de Londres. Figure des débuts du dubstep sur le label Tempa et membre du groupe Magnetic Man, il s'est réorienté à partir de 2013 vers la house et le disco, qui constituent aujourd'hui l'essentiel de ses sets.",
+  "bio_en": "Skream, real name Oliver Dene Jones, is an English DJ and producer born on 1 June 1986 in West Wickham, south London. A figure of dubstep's early days on the Tempa label and a member of the group Magnetic Man, he shifted from 2013 onwards towards house and disco, which now make up most of his sets.",
+  "origin": "Londres, Royaume-Uni",
+  "since": 2002,
+  "labels": [
+   "Tempa",
+   "Tectonic",
+   "Deep Medi Musik"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Skream",
+   "https://www.discogs.com/artist/189821-Skream"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Skream_at_Metropolis_Leeds.jpg"
+ },
+ {
+  "name": "Sub Focus",
+  "bio_fr": "Sub Focus, de son vrai nom Nicolaas Douwe Douwma, est un producteur et DJ anglais né le 13 avril 1982 à Guildford, dans le Surrey. Repéré par Andy C, il signe sur Frequency puis RAM Records, où « X-Ray » (2005) le fait connaître. Son quatrième album, « Evolve », est paru le 12 mai 2023.",
+  "bio_en": "Sub Focus, real name Nicolaas Douwe Douwma, is an English producer and DJ born on 13 April 1982 in Guildford, Surrey. Spotted by Andy C, he signed to Frequency and then RAM Records, where \"X-Ray\" (2005) made his name. His fourth album, \"Evolve\", was released on 12 May 2023.",
+  "origin": "Guildford, Surrey, Royaume-Uni",
+  "since": 2002,
+  "labels": [
+   "RAM Records",
+   "Virgin EMI"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sub_Focus",
+   "https://www.discogs.com/artist/142440-Sub-Focus"
+  ],
+  "commons": "https://commons.wikimedia.org/wiki/File:Sub_Focus_@_Club_Formation_(4159729869).jpg"
+ },
+ {
+  "name": "The Lady Machine",
+  "bio_fr": "The Lady Machine est une DJ et productrice née au Brésil et installée à Berlin. Elle mixe en vinyle depuis le début des années 2000 et codirige depuis 2019, avec Decka, le label Unterwegs Records.",
+  "bio_en": "The Lady Machine is a Brazilian-born DJ and producer based in Berlin. She has been playing vinyl since the early 2000s and, since 2019, co-runs the Unterwegs Records label with Decka.",
+  "origin": "Brésil / Berlin, Allemagne",
+  "labels": [
+   "Unterwegs Records"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/6154918-The-Lady-Machine"
+  ]
+ },
+ {
+  "name": "Venga",
+  "bio_fr": "Venga est une DJ et productrice française installée dans le sud de la France. Partie de la bass house, elle a fait évoluer son répertoire vers la tech house, l'acid et la techno, notamment avec son EP « Daddy » puis « In The City » sur Sink Or Swim Records. Elle est résidente du rooftop R2 à Marseille.",
+  "bio_en": "Venga is a French DJ and producer based in the south of France. Starting out in bass house, she moved her sound towards tech house, acid and techno, notably with her \"Daddy\" EP and then \"In The City\" on Sink Or Swim Records. She is a resident at the R2 rooftop in Marseille.",
+  "origin": "Sud de la France",
+  "labels": [
+   "Sink Or Swim Records"
+  ],
+  "sources": [
+   "https://handsupelectro.fr/interviews/interview-venga/",
+   "https://www.plages-electroniques.com/artistes/venga/"
+  ]
+ },
+ {
+  "name": "Zapravka",
+  "bio_fr": "Zapravka est un duo russe formé en 2021 par deux amis qui se sont rencontrés comme DJs dans une agence spécialisée dans les mariages. Après être passés par la drum & bass, le hardstyle et la bass house, ils se sont fixés sur une hard techno rapide à kicks gabber. Leurs titres, souvent chantés en russe, ont circulé par millions de vues sur TikTok.",
+  "bio_en": "Zapravka are a Russian duo formed in 2021 by two friends who met as DJs at a wedding events agency. After passing through drum & bass, hardstyle and bass house, they settled on a fast hard techno built on gabber kicks. Their tracks, often sung in Russian, have racked up millions of views on TikTok.",
+  "origin": "Russie",
+  "since": 2021,
+  "sources": [
+   "https://electro-news.eu/zapravka-le-nouveau-duo-de-dj-dejantes-qui-mixent-et-chantent-en-meme-temps/"
   ]
  }
 ]

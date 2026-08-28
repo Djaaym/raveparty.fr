@@ -79,16 +79,48 @@ def fetch(url: str, ua: str, timeout: int = 25) -> tuple:
 def order(artists: dict, done: dict) -> list:
     """Les plus programmés d'abord : une récolte interrompue couvre alors les
     artistes que le site met le plus en avant, pas les trois premiers de data.ts."""
-    return sorted((s for s in artists if s not in done), key=lambda s: (-artists[s]["n"], s))
+    todo = sorted((s for s in artists if s not in done), key=lambda s: (-artists[s]["n"], s))
+    if SHARD_N > 1:
+        todo = [s for i, s in enumerate(todo) if i % SHARD_N == SHARD_K]
+    MINE.update(todo)
+    return todo
+
+
+SHARD_K, SHARD_N = 0, 1
+
+
+# Découpage en lots parallèles. La latence vient de la file d'attente du proxy, pas du
+# service : trois travailleurs sur des tranches disjointes rendent trois fois plus dans
+# le même temps. Chacun écrit **son** fichier — deux processus sur un même JSON se
+# recouvriraient l'un l'autre à chaque sauvegarde.
+SHARD = ""
 
 
 def load(name: str) -> dict:
-    f = OUT / f"{name}.json"
-    return json.loads(f.read_text()) if f.exists() else {}
+    """Tout ce qui a déjà été récolté pour cette source, tous lots confondus."""
+    out = {}
+    for f in sorted(OUT.glob(f"{name}.json")) + sorted(OUT.glob(f"{name}.*of*.json")):
+        try:
+            out.update(json.loads(f.read_text()))
+        except json.JSONDecodeError:
+            pass  # un lot en cours d'écriture : il sera relu au prochain passage
+    return out
 
 
 def save(name: str, data: dict) -> None:
-    (OUT / f"{name}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=True))
+    """N'écrit que ce que *ce* lot a récolté, pour ne pas piétiner ses voisins."""
+    f = OUT / (f"{name}{SHARD}.json")
+    prev = {}
+    if f.exists():
+        try:
+            prev = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            prev = {}
+    mine = {k: v for k, v in data.items() if k in prev or k in MINE}
+    f.write_text(json.dumps({**prev, **mine}, ensure_ascii=False, indent=1, sort_keys=True))
+
+
+MINE: set = set()
 
 
 # ---------------------------------------------------------------- Last.fm
@@ -137,7 +169,19 @@ def mb(artists: dict, limit: int) -> None:
     for i, slug in enumerate(todo, 1):
         name = artists[slug]["name"]
         q = urllib.parse.quote(f'artist:"{name}"')
-        code, body = fetch(f"https://musicbrainz.org/ws/2/artist/?query={q}&fmt=json&limit=5", UA_API)
+        # MusicBrainz répond **503** quand l'IP dépasse sa limite d'une requête par
+        # seconde — et l'IP est celle du proxy, donc partagée. Traiter ce 503 comme une
+        # réponse enregistrerait « artiste introuvable » pour quelqu'un que la base
+        # connaît, et un faux négatif de ce genre ne se revoit jamais : la ligne est
+        # écrite, et la reprise la saute.
+        for attempt in range(4):
+            code, body = fetch(f"https://musicbrainz.org/ws/2/artist/?query={q}&fmt=json&limit=5", UA_API)
+            if code in (200, 404):
+                break
+            time.sleep(3 * (attempt + 1))
+        if code not in (200, 404):
+            time.sleep(1.05)
+            continue
         rec = {"found": False}
         if code == 200:
             try:
@@ -281,7 +325,13 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "discogs", "list"])
     ap.add_argument("--limit", type=int, default=10**6)
+    ap.add_argument("--shard", default="", help="k/n — ce lot traite un artiste sur n")
     a = ap.parse_args()
+    global SHARD, SHARD_K, SHARD_N
+    if a.shard:
+        k, n = a.shard.split("/")
+        SHARD_K, SHARD_N = int(k), int(n)
+        SHARD = f".{SHARD_K}of{SHARD_N}"
     OUT.mkdir(exist_ok=True)
     artists = catalogue_artists()
     if a.source == "list":

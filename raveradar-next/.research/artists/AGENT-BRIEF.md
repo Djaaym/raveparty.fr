@@ -61,18 +61,30 @@ Si une info manque, on l'omet ; on ne comble pas.
 
 ## Sources
 
-Ce qui répond depuis ce conteneur : **Wikipédia / Wikidata**, **last.fm** (`/music/{Nom}/+tags`),
-**MusicBrainz** (`musicbrainz.org/ws/2/artist/?query=…&fmt=json`), **Discogs API**
-(`api.discogs.com/database/search?q=…&type=artist`), **SoundCloud**, **Bandcamp**, les **sites
-officiels d'artistes et de labels**, les **pages artiste des festivals** (awakenings.com,
-tomorrowland.com, amsterdam-dance-event.nl, dourfestival.eu…), la presse (Mixmag, DJ Mag,
-Trax, Beatportal, Electronic Groove, Skiddle news).
+Ce qui répond depuis ce conteneur, par ordre d'utilité :
 
-Ce qui est **bloqué** (403/406, n'y perds pas de temps) : ra.co (Resident Advisor), beatport.com,
-bandsintown.com, songkick.com, shotgun.live.
+- **MusicBrainz** — `musicbrainz.org/ws/2/artist/?query=artist:"Nom"&fmt=json`, puis
+  `/ws/2/artist/{mbid}?inc=url-rels+tags+genres&fmt=json` : pays, ville, année de début,
+  désambiguïsation, tags, et les liens vers Discogs / Bandcamp / site officiel. C'est ce qui
+  tranche le plus d'homonymes. **~1,05 s entre deux appels**, sinon 503.
+- **Discogs API** — `api.discogs.com/database/search?artist=…&type=release&per_page=50` :
+  les champs `style` agrégés sur la discographie sont la meilleure source de **sous-genre**.
+  Attention, la recherche est approximative : vérifie que le champ `genre` dit bien
+  « Electronic » avant d'en tirer quoi que ce soit.
+- **Wikipédia / Wikidata** — riches mais **fortement limités** : au-delà d'une requête toutes
+  les 2 s, l'API renvoie une réponse **vide** (pas une erreur), et un `json.loads` échoue en
+  silence. Réessaie, sinon tu concluras à tort qu'un artiste n'a pas de page.
+- Les **sites officiels d'artistes et de labels**, les **pages artiste des festivals**
+  (awakenings.com, tomorrowland.com, amsterdam-dance-event.nl, bootshaus.tv, dourfestival.eu),
+  la presse (Mixmag, DJ Mag, Trax, Beatportal, Electronic Groove, 6AM, Skiddle news),
+  **SoundCloud**, **Bandcamp**, **partyflock.nl** et **djguide.nl** (via WebSearch seulement).
 
-Un tag last.fm seul n'est **pas** une source suffisante pour `confidence: "high"` — c'est du
-crowdsourcing. Il l'est pour `medium`, et il vaut mieux qu'une intuition.
+Ce qui est **bloqué** (403/406, n'y perds pas de temps) : ra.co (Resident Advisor),
+beatport.com, bandsintown.com, songkick.com, shotgun.live, allmusic, insomniac.com,
+et **last.fm**, qui répond 406 dès la troisième requête enchaînée quel que soit l'user-agent.
+
+Un tag de crowdsourcing seul n'est **pas** une source suffisante pour `confidence: "high"`.
+Il l'est pour `medium`, et il vaut mieux qu'une intuition.
 
 ## Pièges déjà payés sur ce projet
 

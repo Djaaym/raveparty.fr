@@ -448,5 +448,65 @@
    "https://www.ibiza-spotlight.com/night/2016/10/feature-mar-ts-top-amnesia-tracks"
   ],
   "confidence": "high"
+ },
+ {
+  "name": "Vieze Asbak",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Memetechno"
+  ],
+  "sources": [
+   "https://www.apokalyptoagency.com/pages/vieze-asbak"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Emilija",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hard House",
+   "Acid Techno",
+   "Eurodance"
+  ],
+  "sources": [
+   "https://enfntsterribles.com/editorial-we-talked-to-techno-dj-emilija-about-music-fashion-and-more/",
+   "https://www.apelago.com/artist-roster/emilija"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Luneris",
+  "main": [
+   "Psytrance",
+   "Techno"
+  ],
+  "sub": [
+   "Electro Pagan Trance"
+  ],
+  "sources": [
+   "https://www.luneris.band/bio",
+   "https://www.transbordeur.fr/artiste/luneris/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "KARAH",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://promogogo.com/karah/artist/fb03c13e-4ad2-43d6-8935-689961dc1ede",
+   "https://musicbrainz.org/artist/26b0459c-01dc-4861-a53c-d5866cc7570f"
+  ],
+  "confidence": "medium"
  }
 ]

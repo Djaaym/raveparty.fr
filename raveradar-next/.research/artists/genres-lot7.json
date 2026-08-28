@@ -429,5 +429,128 @@
    "https://en.wikipedia.org/wiki/3_Chairs"
   ],
   "confidence": "high"
+ },
+ {
+  "name": "AniMe",
+  "main": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Gabber",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_AniMe",
+   "https://musicbrainz.org/artist/135c3615-e3be-43c5-b128-96471db351b3"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ryan Elliott",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/695100-keeping-faith-with-ryan-elliott-nine-acts-that-make-american-dance-music-move",
+   "https://musicbrainz.org/artist/4772e7d7-fcb1-4039-aa34-636df34c7374"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "AAT",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/aat/386662/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mara",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Dubstep",
+   "Dancehall"
+  ],
+  "sources": [
+   "https://allofloride.com/en/our-talents/mara/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Joss Dean",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Minimal House"
+  ],
+  "sources": [
+   "https://magneticmag.com/2026/03/joss-dean-interview/",
+   "https://musicbrainz.org/artist/9ad1fb4d-d403-45bd-adf1-acf3ef238a9a"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Oliver Magenta",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Electro",
+   "Deep House"
+  ],
+  "sources": [
+   "https://bootshaus.tv/events/oliver-magenta-and-friends-september/",
+   "https://bootshaus.tv/artists/oliver-magenta/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "DJ Aligator",
+  "main": [
+   "EDM"
+  ],
+  "sub": [
+   "Eurodance",
+   "Electro House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/DJ_Aligator",
+   "https://musicbrainz.org/artist/50c9ccfd-0736-4a39-8d74-2ba0ff02c887"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Shygirl",
+  "main": [
+   "House",
+   "EDM"
+  ],
+  "sub": [
+   "Deconstructed Club",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Club_Shy",
+   "https://en.wikipedia.org/wiki/Shygirl"
+  ],
+  "confidence": "medium"
  }
 ]

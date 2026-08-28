@@ -467,5 +467,29 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Jorja_Smith"
     ]
+  },
+  {
+    "name": "IOSIO",
+    "bio_fr": "IOSIO est un DJ et producteur néerlandais de Rotterdam, identifié à la bouncy techno : une techno rebondissante traversée d'influences trance. Il a joué au club TURN et à la Van Nelle Fabriek de Rotterdam, et ses productions ont été soutenues par Amelie Lens et Indira Paganotto.",
+    "bio_en": "IOSIO is a Dutch DJ and producer from Rotterdam, identified with bouncy techno: a springy strain of techno shot through with trance influences. He has played club TURN and Rotterdam's Van Nelle Fabriek, and his productions have been supported by Amelie Lens and Indira Paganotto.",
+    "origin": "Rotterdam, Pays-Bas",
+    "sources": [
+      "https://www.amsterdam-dance-event.nl/en/artists-speakers/iosio/2759357/",
+      "https://soundcloud.com/club-turn/iosio-dj-set"
+    ]
+  },
+  {
+    "name": "KLOFAMA",
+    "bio_fr": "KLOFAMA est le nom de scène de Mats van Biljouw, DJ et producteur néerlandais de hard techno. Son style repose sur des kicks lourds, des charleys très rapides et des mélodies courtes. Il a publié sur Innergate Records, Falsive Records et Altruism Records.",
+    "bio_en": "KLOFAMA is the stage name of Mats van Biljouw, a Dutch hard techno DJ and producer. His style rests on heavy kicks, very fast hats and short melodies. He has released on Innergate Records, Falsive Records and Altruism Records.",
+    "origin": "Pays-Bas",
+    "labels": [
+      "Innergate Records",
+      "Falsive Records",
+      "Altruism Records"
+    ],
+    "sources": [
+      "https://www.djguide.nl/djinfo.p?djid=9980&language=en"
+    ]
   }
 ]
