@@ -13,7 +13,9 @@ script produit, c'est l'attribution : ce que l'artiste joue **d'après une sourc
 Quatre entrées, par ordre d'autorité décroissante :
 
 1. `genres-*.json` — les lots des agents de recherche. Une source citée, lue par
-   quelqu'un. Elle gagne toujours : c'est la seule qui ait pu trancher un homonyme.
+   quelqu'un. Elle gagne toujours sur l'automatique : c'est la seule qui ait pu trancher
+   un homonyme. Entre deux lots, `genres-audit*.json` — la relecture des écarts remontés
+   par `audit.py` — l'emporte sur le premier passage.
 2. `harvest/wdlabel.json` et `harvest/wd.json` — Wikidata P136. Deux routes : par
    libellé exact (soixante noms par requête, ce qui rend le catalogue faisable) et par
    identifiant MusicBrainz (à l'abri de l'homonyme, mais MB étrangle à une requête par
@@ -149,8 +151,14 @@ def main() -> int:
                             f"hors périmètre ({', '.join(off)}) — aucune des onze "
                             f"catégories ne le décrit")); continue
             r = {**r, "sub": [x for x in raw_subs if x not in off]}
+            # Départage entre deux lots. Le nombre de sources est un critère faible :
+            # il a obligé l'agent de relecture à gonfler ses entrées pour que sa
+            # correction l'emporte sur celle qu'elle corrigeait. Un lot de relecture
+            # (`genres-audit*.json`) est par construction plus récent et mieux informé —
+            # il gagne, point.
+            rank = 2 if f.name.startswith("genres-audit") else 1
             prev = research.get(slug)
-            if prev and len(prev["srcs"]) >= len(srcs):
+            if prev and (prev["rank"] > rank or (prev["rank"] == rank and len(prev["srcs"]) >= len(srcs))):
                 continue
             clean_subs, promoted = [], []
             for raw in (r.get("sub") or []):
@@ -163,7 +171,7 @@ def main() -> int:
                     promoted.append(main)
             mains = (mains + promoted)[:3]
             research[slug] = {"m": mains, "s": [x for x in clean_subs if x not in mains][:3],
-                              "srcs": srcs, "conf": r.get("confidence", "medium")}
+                              "srcs": srcs, "conf": r.get("confidence", "medium"), "rank": rank}
 
     # --- 2. le vote des sources automatiques -----------------------------------
     styles, stats = {}, defaultdict(int)

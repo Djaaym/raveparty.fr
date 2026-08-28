@@ -31,11 +31,9 @@ Chaque fichier retenu porte sa licence dans lib/bios.ts — voir le champ `photo
 Sans auteur ni licence, la photo est rejetée : une image CC BY sans crédit est
 une contrefaçon, pas un raccourci.
 """
-import argparse, hashlib, io, json, re, sys, time, unicodedata
+import argparse, hashlib, io, json, re, subprocess, sys, time, unicodedata
 from pathlib import Path
-from urllib.error import HTTPError
 from urllib.parse import quote as urllib_quote, unquote as urllib_unquote
-from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -70,7 +68,8 @@ MASKED = {"boris-brejcha", "marshmello", "angerfist", "vladimir-cauchemar", "dr-
 SHADOW = (26, 22, 48)
 HIGHLIGHT = (243, 243, 248)
 MIX = 0.72          # 1 = duotone pur, 0 = niveaux de gris
-THROTTLE = 1.2      # secondes entre deux requêtes Commons
+THROTTLE = 2.0      # secondes entre deux requêtes Commons (429 observé en dessous)
+CACHE = Path(__file__).resolve().parent / "commons-cache.json"
 
 from PIL import Image, ImageOps
 
@@ -89,45 +88,59 @@ def slugify(s: str) -> str:
 
 
 def fetch(url: str) -> bytes:
-    """Commons exige un User-Agent identifiable, et lève un 429 si on le bouscule.
+    """Commons exige un User-Agent identifiable, et répond 429 si on le bouscule.
 
-    Un premier passage sans temporisation a perdu 15 portraits sur 52 pour cette
-    seule raison : les fichiers existaient, c'est la cadence qui était fautive.
-    D'où l'attente entre deux requêtes et le repli exponentiel — et la reprise
-    incrémentale plus bas, qui rend un nouveau passage presque gratuit.
+    Un premier passage sans temporisation a perdu 15 portraits sur 52 pour cette seule
+    raison : les fichiers existaient, c'est la cadence qui était fautive. D'où l'attente
+    entre deux requêtes, le repli exponentiel, et le cache de licences plus bas.
+
+    **curl et pas urllib** : tout ce qui sort du conteneur passe par curl sur ce projet
+    (même règle que le lecteur Instagram dans CLAUDE.md), le proxy ne rendant pas la
+    même chose aux deux.
     """
-    req = Request(url, headers={"User-Agent": UA})
-    delay = 4
+    delay = 5
     for attempt in range(4):
-        try:
-            with urlopen(req, timeout=45) as r:
-                time.sleep(THROTTLE)
-                return r.read()
-        except HTTPError as e:
-            if e.code == 429 and attempt < 3:
-                time.sleep(delay)
-                delay *= 2
-                continue
-            raise
-    raise RuntimeError("unreachable")
-
-
-# La route Wikidata par libellé interroge une chaîne de caractères, pas un identifiant :
-# elle peut tomber sur un homonyme. Pour une étiquette de genre, le risque est supportable
-# (la table de correspondance ignore ce qu'elle ne reconnaît pas) ; pour un **portrait**,
-# non — publier le visage de quelqu'un d'autre sur la fiche d'un artiste est une autre
-# classe d'erreur. On ne retient donc une photo que si l'entité se décrit elle-même comme
-# venant de la musique électronique.
-ELECTRONIC = re.compile(
-    r"\b(dj|disc jockey|electronic|electronica|techno|house|trance|hardcore|hardstyle|"
-    r"gabber|drum and bass|drum'n'bass|dnb|jungle|dubstep|edm|acid|rave|psytrance|"
-    r"record producer|music producer|producer)\b", re.I)
+        r = subprocess.run(
+            ["curl", "-sL", "-A", UA, "--max-time", "60", "-w", "\n%{http_code}", url],
+            capture_output=True,
+        )
+        body, _, code = r.stdout.rpartition(b"\n")
+        if code.strip() == b"200":
+            return body
+        if attempt == 3:
+            raise RuntimeError(f"HTTP {code.decode(errors='replace').strip() or '?'} sur {url[:80]}")
+        time.sleep(delay)
+        delay *= 2
+    raise RuntimeError("inatteignable")
 
 
 def is_our_artist(entity: dict) -> bool:
     """Vrai si les genres ou la description Wikidata parlent de musique électronique."""
     hay = " ".join(entity.get("genres") or []) + " " + (entity.get("desc") or "")
     return bool(ELECTRONIC.search(hay))
+
+
+def load_cache() -> dict:
+    """Les termes déjà lus sur Commons.
+
+    Sans lui, une exécution interrompue repart de zéro — et Commons *finit* par répondre
+    429 quand on enchaîne quelques centaines d'appels, donc l'interruption arrive. Trois
+    cents requêtes déjà payées, refaites, qui déclenchent le 429 suivant. Les licences ne
+    changent quasiment jamais : les relire à chaque passage ne coûte que du quota.
+    """
+    if CACHE.exists():
+        try:
+            return json.loads(CACHE.read_text())
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+def save_cache(c: dict) -> None:
+    CACHE.write_text(json.dumps(c, indent=1, ensure_ascii=False, sort_keys=True))
+
+
+_CACHE = load_cache()
 
 
 def commons_title(ref: str) -> str:
@@ -150,6 +163,8 @@ def resolve_commons(title: str) -> dict | None:
     photo sous une licence qu'on n'a pas lue. L'API les donne d'un coup, et c'est elle
     qui fait foi.
     """
+    if title in _CACHE:
+        return _CACHE[title] or None
     q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
          f"&titles={urllib_quote(title)}")
     try:
@@ -166,9 +181,14 @@ def resolve_commons(title: str) -> dict | None:
         if not (url and lic and author):
             return None
         if DENY.search(lic) or not FREE.match(lic.replace("-", " ").strip()):
-            return {"denied": lic}
-        return {"url": url, "author": author, "license": lic,
-                "page": "https://commons.wikimedia.org/wiki/" + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
+            _CACHE[title] = {"denied": lic}
+            save_cache(_CACHE)
+            return _CACHE[title]
+        _CACHE[title] = {"url": url, "author": author, "license": lic,
+                         "page": "https://commons.wikimedia.org/wiki/"
+                                 + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
+        save_cache(_CACHE)
+        return _CACHE[title]
     return None
 
 
@@ -287,9 +307,12 @@ def main() -> int:
             cands[slug] = (name, url, (r.get("photo_author") or "").strip(),
                            (r.get("photo_license") or "").strip(), (r.get("photo_page") or "").strip())
         elif (r.get("commons") or "").strip():
-            got = resolve_commons(commons_title(r["commons"]))
-            resolved += 1
-            time.sleep(THROTTLE)
+            title = commons_title(r["commons"])
+            cached = title in _CACHE
+            got = resolve_commons(title)
+            resolved += 0 if cached else 1
+            if not cached:
+                time.sleep(THROTTLE)
             if got and "denied" in got:
                 denied.append((name, got["denied"])); continue
             if got:
@@ -313,9 +336,12 @@ def main() -> int:
         if args.limit:
             todo = todo[: args.limit]
         for slug, v in todo:
-            got = resolve_commons(commons_title(v["img"]))
-            resolved += 1
-            time.sleep(THROTTLE)
+            title = commons_title(v["img"])
+            cached = title in _CACHE
+            got = resolve_commons(title)
+            resolved += 0 if cached else 1
+            if not cached:
+                time.sleep(THROTTLE)
             if got and "denied" in got:
                 denied.append((cat[slug]["name"], got["denied"])); continue
             if got:
