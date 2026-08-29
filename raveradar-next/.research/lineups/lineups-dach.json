@@ -1,0 +1,37 @@
+[
+  {
+    "id": 491,
+    "title": "Bootshaus Sommerfest",
+    "lineup": ["MBP", "Max Bering", "Crüpo", "Milly", "Makla", "Ventris", "Atzendent", "Vyka", "Marci", "Elyante", "Jon Void", "Rebko", "Flyke", "KBS", "Bass Adder", "Maxcherry", "O'Doyle"],
+    "source": "https://bootshaus.tv/events/5-9-26-bootshaus-sommerfest-auf-4-floors",
+    "note": "Affiche complète, 4 floors (Mainfloor / Blckbx / Dreherei / Outdoor). Location vérifiée : Bootshaus, Auenweg 173, Köln."
+  },
+  {
+    "id": 495,
+    "title": "Bootshaus Sommerfest Closing",
+    "lineup": ["Oliver Magenta", "Phake", "Timbo & This Chris", "Enna Evar", "DMNK", "Ventris", "Infernus7", "Jacuzi", "Mauro", "Chaya", "4Given", "Gourski", "Enaly", "Jaycut", "Mimi Garcia", "Offergeld", "Adrian Gaspar", "Karl Jens West"],
+    "source": "https://bootshaus.tv/events/bootshaus-sommerfest-closing-26",
+    "note": "Affiche complète (Mainfloor / Blckbx / Dreherei / Outdoor). Location vérifiée : Bootshaus, Köln."
+  },
+  {
+    "id": 500,
+    "title": "Chrome Cologne",
+    "lineup": ["OGUZ"],
+    "source": "https://bootshaus.tv/events/9-10-26-chrome-cologne",
+    "note": "Un seul nom publié à ce jour sur la fiche officielle (« LINEUP: OGUZ »). Location vérifiée : Bootshaus, Köln."
+  },
+  {
+    "id": 333,
+    "title": "NZNZ à la Postgarage",
+    "lineup": ["R3CKLES", "RaveDan", "Crystal-O", "Metok", "YØNDER", "Crave", "YËDM", "Schnelle Melle b2b Krawall Julz", "NØNaMe", "LØRA", "Fabe"],
+    "source": "https://www.postgarage.at/program/nznz-12-peak-madness_2026-09-18/",
+    "note": "NZNZ 12: Peak Madness, ven. 18/09/2026, Postgarage Graz, 2 floors. Indicatifs pays « (GER) » retirés."
+  },
+  {
+    "id": 372,
+    "title": "Toxicator",
+    "lineup": ["Da Tweekaz", "Tripping with Dr. Peacock LIVE", "Radical Redemption", "Miss K8 b2b Mad Dog", "The Straikerz", "Mish", "The Dark Horror", "Dr Donk b2b Dikke Baap", "Die Gebrüder Brett", "Nikolina", "Alee", "Ally", "AniMe", "Cheeva", "D-Ceptor", "D-Sturb", "Deezl", "Dropixx", "H! Dude", "Hysta", "Jazzy", "Lexxy Chainz", "Riot Shift", "Rotterdam Terror Corps", "Santino Zervos", "Tha Watcher", "The Smiler", "Yoshiko b2b Pinotello"],
+    "source": "https://www.toxicator.de/lineup",
+    "note": "LineUp A-Z complet publié (« The LineUp is out! »), 3 floors Hardcore / Hardstyle / Hardtechno, Maimarkthalle Mannheim 05/12/2026. Alee et Tha Watcher sont crédités « Host »."
+  }
+]

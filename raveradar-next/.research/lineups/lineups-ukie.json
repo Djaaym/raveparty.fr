@@ -1,0 +1,30 @@
+[
+  {
+    "id": 480,
+    "title": "The Warehouse Project: NexUp",
+    "lineup": ["Max Dean", "Luke Dean", "Omar+", "Locky", "Tommy Phillips", "Cam Stockman", "Summer Ghemati", "TeeDee", "Riordan", "Wheats", "Ozzie Guven", "Mad.Again", "Ellia Jaya", "Freddie Seo", "George Smeddles", "Stef Davidse", "Burnski", "Julian Anthony", "Boss Priester", "Alexandria", "Chopper", "Ellis Garner", "Mason Cooper", "Nafe Smallz", "Diosa", "Candidate", "Daetor", "Toby Simpson", "Emma 2000"],
+    "source": "https://thewarehouseproject.com/events/nexup/",
+    "note": "Affiche complete publiee par WHP pour le samedi 31 octobre, 4 salles (Depot, Concourse, Archive hosted by Shelter, Vault), en ordre d'apparition. Les B2B ont ete separes en artistes distincts."
+  },
+  {
+    "id": 482,
+    "title": "The Warehouse Project: La Discothèque",
+    "lineup": ["Basement Jaxx", "Groove Armada", "Annie Mac", "Dombresky", "DJ Paulette", "Carly Foxx", "Gerd Janson", "Krystal Klear", "Jayda G", "Hunee", "Luke Una", "Cassius", "CC:DISCO!", "Mix-Stress", "Bridge", "Crazy P", "Krysko", "Gina Breeze", "Fleetmac Wood", "Daisybelle", "DJ Spinna", "Danuka", "Mither", "James Glover", "Mike Woods", "Meme Gold", "Kirsten At The Disco"],
+    "source": "https://thewarehouseproject.com/events/la-discotheque/",
+    "note": "Affiche WHP du samedi 7 novembre, 5 salles (Depot, Concourse, Archive, Vault, Star & Garter 54). Le 'secret special guest' du Star & Garter n'est pas repris. Dombresky est bille 'Dombresky presents Disco Dom', DJ Spinna 'presents Wonder-Full'."
+  },
+  {
+    "id": 479,
+    "title": "False Idols at Drumsheds",
+    "lineup": ["Kim Petras", "Cobrah", "Rose Gray", "Little Gay Brother", "Joshua James", "VTSS", "Patrick Mason", "Cakes Da Killa", "Cashu", "Josh Caffé", "Lady Shaka", "TEDESCO", "2CPERREA", "UNIIQU3", "Donnie Sunshine", "To The Left", "Goth Jafar", "Julie Desire", "With Us", "Lexii", "Subtle", "Someone Sunny", "Satiate", "Twang", "Sextou"],
+    "source": "https://drumshedslondon.com/event/false-idols-2/",
+    "note": "Page officielle Drumsheds, SAT 24 OCT, 13:00-22:30, 3 salles. Kim Petras et Cobrah en live. 'Little Gay Brother & Joshua James' separes d'apres le texte de la page qui nomme Joshua James comme resident."
+  },
+  {
+    "id": 238,
+    "title": "Elrow Horroween",
+    "lineup": ["AAT", "Arielle Free", "ASLO", "Danny Howard", "Diffrent", "Emma B", "Fish56Octagon", "hitty", "lau.ra", "LB aka Labat", "MK", "Oden & Fatzo", "Patrick Topping", "Sarah Story", "Wade", "Ayce & Spirit of House", "Branqueeno", "Bustin' Loose", "Magnolia", "Caio Cenci", "Poppi"],
+    "source": "https://drumshedslondon.com/event/elrow-horroween-festival/",
+    "note": "Page officielle Drumsheds, SAT 31 OCT, 13:00-22:30, 4e edition londonienne. Affiche presentee en A-Z (pas de tete d'affiche distinguee) : ordre conserve. Oden & Fatzo en live. Second bloc A-Z = scene The Disco Express."
+  }
+]
