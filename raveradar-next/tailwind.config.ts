@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-/* RaveRadar design tokens — mirrors the static site's CSS variables so the
+/* RaveRadar design tokens, mirrors the static site's CSS variables so the
    exact look is preserved while Tailwind handles utility-level styling. */
 const config: Config = {
   content: [

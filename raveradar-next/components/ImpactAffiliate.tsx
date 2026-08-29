@@ -10,7 +10,7 @@ import { IMPACT_UTT_ID } from "@/lib/site";
  * Balise `<script>` brute et non `next/script` : en App Router, `beforeInteractive`
  * n'écrit pas le snippet dans le HTML, il le sérialise en JSON dans `self.__next_s`
  * pour l'exécuter au chargement. Ça marche pour le tracking, mais la vérification
- * de site côté Impact lit la source de la page d'accueil — le tag doit y être lisible.
+ * de site côté Impact lit la source de la page d'accueil, le tag doit y être lisible.
  * Rendue en tête de `<body>` (et non entre `</head>` et `<body>`, que le parseur
  * remonterait dans le `<head>`, ce qui désynchroniserait l'hydratation React).
  */

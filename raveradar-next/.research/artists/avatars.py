@@ -7,27 +7,27 @@
 
 Trois façons d'apporter un portrait, toutes vers Commons et nulle part ailleurs :
 
-- `photo_url` + `photo_author` + `photo_license` + `photo_page` dans un lot de bios —
+- `photo_url` + `photo_author` + `photo_license` + `photo_page` dans un lot de bios,
   la forme historique, où l'agent a déjà relevé les termes ;
 - `commons` dans un lot de bios : l'URL de la page du fichier, ou son titre
   (`File:…`). Le script interroge alors l'API Commons pour l'auteur et la licence.
   C'est la forme à préférer : relever une licence à la main, c'est se tromper un jour ;
-- **Wikidata P18**, récolté par harvest.py, pour *tout* artiste du catalogue — y compris
+- **Wikidata P18**, récolté par harvest.py, pour *tout* artiste du catalogue, y compris
   ceux qui n'ont pas de bio. C'est ce qui débloque le plus de portraits : le lien est
   fait par l'identifiant MusicBrainz, donc sans risque d'homonyme.
 
 Seules les licences libres passent : CC0, domaine public, CC BY, CC BY-SA. Un « NC »
-ou un « ND » est refusé — un annuaire est un usage qu'elles n'autorisent pas.
+ou un « ND » est refusé, un annuaire est un usage qu'elles n'autorisent pas.
 
 Les sources sont hétérogènes par nature : une photo de scène sous-exposée à côté
 d'un portrait studio en plein jour. Sur une grille d'artistes ça fait un patchwork.
-La cohérence ne peut donc pas venir de la source, elle vient du traitement — même
+La cohérence ne peut donc pas venir de la source, elle vient du traitement, même
 cadrage carré, même taille, même virage duotone sur la palette du site.
 
 Le recadrage est décentré vers le haut (CROP_BIAS) : sur une photo en pied, le
 centre géométrique tombe sur le torse, pas sur le visage.
 
-Chaque fichier retenu porte sa licence dans lib/bios.ts — voir le champ `photo`.
+Chaque fichier retenu porte sa licence dans lib/bios.ts, voir le champ `photo`.
 Sans auteur ni licence, la photo est rejetée : une image CC BY sans crédit est
 une contrefaçon, pas un raccourci.
 """
@@ -44,14 +44,14 @@ HARVEST = HERE / "harvest"
 API = "https://commons.wikimedia.org/w/api.php"
 # Licences acceptées. Commons n'héberge que du libre, mais « libre » y couvre aussi des
 # variantes que notre usage n'autorise pas : un NC interdit l'exploitation commerciale
-# et un ND toute retouche — or on recadre et on vire les portraits en duotone.
+# et un ND toute retouche - or on recadre et on vire les portraits en duotone.
 FREE = re.compile(r"^(cc0|cc[ -]by([ -]sa)?([ -][\d.]+)?|public domain|pd-)", re.I)
 DENY = re.compile(r"\b(nc|nd|noncommercial|noderiv)\b", re.I)
 
 # La route Wikidata par libellé interroge une chaîne de caractères, pas un identifiant :
 # elle peut tomber sur un homonyme. Pour une étiquette de genre, le risque est supportable
 # (la table de correspondance ignore ce qu'elle ne reconnaît pas) ; pour un **portrait**,
-# non — publier le visage de quelqu'un d'autre sur la fiche d'un artiste est une autre
+# non - publier le visage de quelqu'un d'autre sur la fiche d'un artiste est une autre
 # classe d'erreur. On ne retient donc une photo que si l'entité se décrit elle-même comme
 # venant de la musique électronique.
 ELECTRONIC = re.compile(
@@ -62,13 +62,13 @@ ELECTRONIC = re.compile(
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
 MIN_SRC = 320       # en dessous, l'upscale se voit
 CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est pas au centre)
-# Le détecteur de visages. Il vivait dans un répertoire temporaire de session — donc
+# Le détecteur de visages. Il vivait dans un répertoire temporaire de session - donc
 # absent au passage suivant, et `FaceDetectorYN_create` lève sur un fichier manquant :
 # la détection s'effondrait en silence et *tous* les portraits partaient en « aucun
 # visage détecté ». Il se télécharge maintenant à la demande, à côté du script.
 FACE_MODEL = Path(__file__).resolve().parent / "yunet.onnx"
 # `github.com/.../raw/...` répond 403 depuis le conteneur, et les URL `raw.` et jsdelivr
-# rendent le **pointeur git-lfs** (131 octets) plutôt que le modèle — un fichier de 131
+# rendent le **pointeur git-lfs** (131 octets) plutôt que le modèle - un fichier de 131
 # octets qu'OpenCV refuse ensuite sans dire pourquoi. `media.githubusercontent.com/media`
 # est le point d'accès qui sert le contenu LFS lui-même.
 FACE_MODEL_URL = ("https://media.githubusercontent.com/media/opencv/opencv_zoo/main/models/"
@@ -76,7 +76,7 @@ FACE_MODEL_URL = ("https://media.githubusercontent.com/media/opencv/opencv_zoo/m
 FACE_MIN_RATIO = 0.055  # un visage plus petit que ça = photo de scène, pas un portrait
 HEAD_ROOM = 1.9         # largeur du carré en multiples de la largeur du visage
 # Artistes qui jouent masqués : le détecteur ne trouve rien, et pourtant la photo
-# est la bonne — le masque EST leur identité scénique documentée, plus reconnaissable
+# est la bonne - le masque EST leur identité scénique documentée, plus reconnaissable
 # qu'un visage. On saute la détection pour eux, sans désarmer le filtre ailleurs.
 MASKED = {"boris-brejcha", "marshmello", "angerfist", "vladimir-cauchemar", "dr-peacock"}
 # Duotone : ombres vers le bleu-violet du site, hautes lumières vers un blanc chaud.
@@ -138,7 +138,7 @@ def is_our_artist(entity: dict) -> bool:
 def load_cache() -> dict:
     """Les termes déjà lus sur Commons.
 
-    Sans lui, une exécution interrompue repart de zéro — et Commons *finit* par répondre
+    Sans lui, une exécution interrompue repart de zéro, et Commons *finit* par répondre
     429 quand on enchaîne quelques centaines d'appels, donc l'interruption arrive. Trois
     cents requêtes déjà payées, refaites, qui déclenchent le 429 suivant. Les licences ne
     changent quasiment jamais : les relire à chaque passage ne coûte que du quota.
@@ -165,7 +165,7 @@ def commons_title(ref: str) -> str:
         return ""
     # Wikidata (P18) ne rend pas une page de fichier mais un *chemin de service* :
     # `.../wiki/Special:FilePath/Nom%20du%20fichier.jpg`. Sans ce cas, le titre demandé
-    # devenait « File:Special:FilePath/… », que l'API ne connaît évidemment pas — et
+    # devenait « File:Special:FilePath/… », que l'API ne connaît évidemment pas, et
     # deux cents portraits disparaissaient sans le moindre message d'erreur.
     if "Special:FilePath/" in ref:
         ref = ref.split("Special:FilePath/", 1)[1]
@@ -199,7 +199,7 @@ def resolve_many(titles: list) -> None:
 
     Une requête par fichier a été essayée d'abord : Commons répond 429 au bout de
     quelques centaines d'appels, et le repli exponentiel faisait tomber le débit à huit
-    fichiers en dix minutes — huit heures pour le catalogue. L'API accepte **cinquante
+    fichiers en dix minutes, huit heures pour le catalogue. L'API accepte **cinquante
     titres par requête** (`titles=A|B|C`), ce qui ramène le même travail à huit appels.
     Chercher la limite du service avant d'écrire la boucle aurait coûté cinq minutes.
     """
@@ -235,7 +235,7 @@ def resolve_many(titles: list) -> None:
 
 
 def resolve_commons(title: str) -> dict | None:
-    """Les termes d'un fichier — servis par le cache, rempli par `resolve_many()`."""
+    """Les termes d'un fichier, servis par le cache, rempli par `resolve_many()`."""
     if title not in _CACHE:
         resolve_many([title])
     return _CACHE.get(title) or None
@@ -261,7 +261,7 @@ def ensure_face_model() -> bool:
         print(f"  ↓ détecteur de visages téléchargé ({FACE_MODEL.stat().st_size // 1024} Ko)")
         return True
     except Exception as e:
-        print(f"  ⚠ détecteur indisponible ({str(e)[:60]}) — cadrage géométrique seul")
+        print(f"  ⚠ détecteur indisponible ({str(e)[:60]}), cadrage géométrique seul")
         return False
 
 
@@ -271,7 +271,7 @@ def biggest_face(img: Image.Image):
     Un cadrage géométrique ne peut pas deviner où regarder : sur une photo de
     scène en 5000 px de large, le centre tombe sur une platine et l'artiste finit
     hors champ. Un premier passage a produit des nuques et des torses. La
-    détection sert donc à deux choses — centrer, et rejeter ce qui n'est pas un
+    détection sert donc à deux choses, centrer, et rejeter ce qui n'est pas un
     portrait (aucun visage trouvé, ou un visage trop petit dans le cadre).
     """
     if cv2 is None:
@@ -311,7 +311,7 @@ def write_module(out_map: dict) -> None:
     """Réécrit la map de lib/artist-photos.ts entre ses marqueurs.
 
     Le portrait ne passe plus par lib/bios.ts : il y était rattaché à la bio, ce qui
-    rendait la photo conditionnée au texte — un artiste dont on trouvait le portrait
+    rendait la photo conditionnée au texte, un artiste dont on trouvait le portrait
     sans savoir écrire deux phrases sourcées gardait son initiale dans un rond.
     """
     def esc(x: str) -> str:
@@ -377,7 +377,7 @@ def main() -> int:
                 cands[slug] = (name, got["url"], got["author"], got["license"], got["page"])
 
     # Wikidata P18 : le gisement le plus large, et le seul qui couvre les artistes sans
-    # bio. Le rattachement passe par l'identifiant MusicBrainz, pas par le nom — c'est
+    # bio. Le rattachement passe par l'identifiant MusicBrainz, pas par le nom, c'est
     # ce qui évite de coller le portrait d'un homonyme sur une fiche.
     cat_file = HARVEST / "catalogue.json"
     wd = {}
@@ -428,7 +428,7 @@ def main() -> int:
             raw = fetch(url)
             # La temporisation ne portait que sur l'API : les *images* partaient à la
             # chaîne, et upload.wikimedia.org a fini par répondre 429 sur la moitié du
-            # lot. Le même service, la même règle — on n'enchaîne pas.
+            # lot. Le même service, la même règle, on n'enchaîne pas.
             time.sleep(THROTTLE)
             img = Image.open(io.BytesIO(raw))
             img = ImageOps.exif_transpose(img).convert("RGB")
@@ -441,14 +441,14 @@ def main() -> int:
         face = biggest_face(img)
         if cv2 is not None and slug not in MASKED:
             if face is None:
-                skipped.append((name, "aucun visage détecté — probable photo de scène")); continue
+                skipped.append((name, "aucun visage détecté, probable photo de scène")); continue
             ratio = face[2] / min(img.size)
             if ratio < FACE_MIN_RATIO:
                 skipped.append((name, f"visage trop petit dans le cadre ({ratio:.1%})")); continue
 
         h = hashlib.sha1(raw).hexdigest()[:10]
         if h in seen_hash and seen_hash[h] != slug:
-            skipped.append((name, f"même image que {seen_hash[h]} — probable erreur d'identification"))
+            skipped.append((name, f"même image que {seen_hash[h]}, probable erreur d'identification"))
             continue
         seen_hash[h] = slug
 

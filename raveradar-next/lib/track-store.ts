@@ -6,8 +6,8 @@ import { dayKey, daysBetween } from "./track";
  *
  * The site still has no database, and this is not the feature that should introduce one:
  * an analytics hit is append-only, read in date ranges, and worthless after a few months.
- * That is a Redis list, not a schema. So the store is one key per UTC day —
- * `rr:hits:2026-08-07` — holding raw JSON hits, with a TTL that does the data-retention
+ * That is a Redis list, not a schema. So the store is one key per UTC day,
+ * `rr:hits:2026-08-07`, holding raw JSON hits, with a TTL that does the data-retention
  * policy for us instead of a cron nobody will write.
  *
  * Any Redis speaking the Upstash REST protocol works, which covers the two one-click
@@ -18,8 +18,8 @@ import { dayKey, daysBetween } from "./track";
  *   UPSTASH_REDIS_REST_URL + UPSTASH_REDIS_REST_TOKEN  (what Upstash injects)
  *
  * With none of them set the store falls back to process memory. That is genuinely useful
- * in `next dev` and genuinely useless in production — on Vercel each lambda has its own
- * memory and they come and go — so `storeInfo().persistent` is false and the dashboard
+ * in `next dev` and genuinely useless in production, on Vercel each lambda has its own
+ * memory and they come and go, so `storeInfo().persistent` is false and the dashboard
  * says so at the top of the page rather than presenting a third of the traffic as the
  * whole picture.
  */
@@ -98,7 +98,7 @@ function memWrite(day: string, rows: string[]) {
  * commands, and the tracker sends several hits per page (view, clicks, end), so batching
  * is the difference between staying inside the free plan and not.
  *
- * Returns false instead of throwing — a failed write must never turn into a visible
+ * Returns false instead of throwing, a failed write must never turn into a visible
  * error on a visitor's page, and the caller answers 204 either way.
  */
 export async function pushHits(hits: Hit[]): Promise<boolean> {
@@ -183,7 +183,7 @@ export async function readHits(from: string, to: string): Promise<Hit[]> {
   return out;
 }
 
-/** How many hits each day holds, without reading them — the cheap way to tell a quiet
+/** How many hits each day holds, without reading them, the cheap way to tell a quiet
  *  week from a collector that stopped writing. Exposed through
  *  `POST /api/track/stats {action:"counts"}`. */
 export async function hitCounts(from: string, to: string): Promise<Record<string, number>> {
@@ -210,7 +210,7 @@ export async function hitCounts(from: string, to: string): Promise<Record<string
 }
 
 /** Deletes whole days. The only destructive operation, and it is behind the dashboard's
- *  auth — GDPR asks that erasure be possible, not that it be easy for strangers. */
+ *  auth, GDPR asks that erasure be possible, not that it be easy for strangers. */
 export async function deleteDays(days: string[]): Promise<number> {
   if (!days.length) return 0;
   const c = creds();

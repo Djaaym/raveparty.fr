@@ -13,12 +13,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!e)
     return {
       alternates: alternates(`/event/${params.slug}`, "en"),
-      title: "Event — RaveRadar",
+      title: "Event - RaveRadar",
     };
   return pageMeta({
     lang: "en",
     path: `/event/${params.slug}`,
-    title: `${e.title} — ${e.city} | RaveRadar`,
+    title: `${e.title}, ${e.city} | RaveRadar`,
     description: eventDescL(e, "en").slice(0, 160),
     image: imageUrl(e),
   });

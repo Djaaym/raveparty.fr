@@ -73,8 +73,8 @@
  },
  {
   "name": "Alison Wonderland",
-  "bio_fr": "Alexandra Sholler, alias Alison Wonderland, est une productrice, DJ et chanteuse australienne née en 1986 à Sydney. Formée au violoncelle classique, elle a joué avec le Sydney Youth Opera avant de passer à la musique électronique et de sortir son premier single « Get Ready » en 2013. Ses trois albums — « Run » (2015), « Awake » (2018) et « Loner » (2022) — ont atteint la première place des classements dance australiens et américains ; « Ghost World » est paru en 2025.",
-  "bio_en": "Alexandra Sholler, known as Alison Wonderland, is an Australian producer, DJ and singer born in 1986 in Sydney. Classically trained on cello, she played with the Sydney Youth Opera before moving into electronic music and releasing her debut single \"Get Ready\" in 2013. Her three albums — \"Run\" (2015), \"Awake\" (2018) and \"Loner\" (2022) — topped Australian and American dance charts; \"Ghost World\" followed in 2025.",
+  "bio_fr": "Alexandra Sholler, alias Alison Wonderland, est une productrice, DJ et chanteuse australienne née en 1986 à Sydney. Formée au violoncelle classique, elle a joué avec le Sydney Youth Opera avant de passer à la musique électronique et de sortir son premier single « Get Ready » en 2013. Ses trois albums (« Run » (2015), « Awake » (2018) et « Loner » (2022)) ont atteint la première place des classements dance australiens et américains ; « Ghost World » est paru en 2025.",
+  "bio_en": "Alexandra Sholler, known as Alison Wonderland, is an Australian producer, DJ and singer born in 1986 in Sydney. Classically trained on cello, she played with the Sydney Youth Opera before moving into electronic music and releasing her debut single \"Get Ready\" in 2013. Her three albums, \"Run\" (2015), \"Awake\" (2018) and \"Loner\" (2022), topped Australian and American dance charts; \"Ghost World\" followed in 2025.",
   "origin": "Sydney, Australie",
   "since": 2013,
   "sources": [
@@ -121,8 +121,8 @@
  },
  {
   "name": "Feral",
-  "bio_fr": "Feral est un DJ et producteur italien basé à Rome, connu pour ses disques sur le label suédois Hypnus Records — « Ultraviolet Radiation » (2020), « Crossroads » (2022) et « Mind Garden » (2024). Sa deep techno atmosphérique s'appuie sur l'expérimentation hardware et sur les percussions tribales. Il a fondé son propre label, Aube Rouge, en 2020.",
-  "bio_en": "Feral is an Italian DJ and producer based in Rome, known for his records on the Swedish label Hypnus Records — \"Ultraviolet Radiation\" (2020), \"Crossroads\" (2022) and \"Mind Garden\" (2024). His atmospheric deep techno is built on hardware experimentation and tribal percussion. He founded his own label, Aube Rouge, in 2020.",
+  "bio_fr": "Feral est un DJ et producteur italien basé à Rome, connu pour ses disques sur le label suédois Hypnus Records, « Ultraviolet Radiation » (2020), « Crossroads » (2022) et « Mind Garden » (2024). Sa deep techno atmosphérique s'appuie sur l'expérimentation hardware et sur les percussions tribales. Il a fondé son propre label, Aube Rouge, en 2020.",
+  "bio_en": "Feral is an Italian DJ and producer based in Rome, known for his records on the Swedish label Hypnus Records, \"Ultraviolet Radiation\" (2020), \"Crossroads\" (2022) and \"Mind Garden\" (2024). His atmospheric deep techno is built on hardware experimentation and tribal percussion. He founded his own label, Aube Rouge, in 2020.",
   "origin": "Rome, Italie",
   "labels": [
    "Hypnus Records",
@@ -192,7 +192,7 @@
  {
   "name": "Laure Croft",
   "bio_fr": "Laure Croft, de son vrai nom Laure Dirven, est une DJ néerlandaise qui joue exclusivement en vinyle. Passée par la house et la hardcore, elle s'est tournée vers une techno underground et queer, rapide et tendue, puisant dans des disques du milieu des années 1990 au milieu des années 2000. Elle partage sa vie entre les Pays-Bas et Berlin.",
-  "bio_en": "Laure Croft, real name Laure Dirven, is a Dutch DJ who plays vinyl only. After early success with house and hardcore, she turned to underground queer techno — fast and tense, drawn from records spanning the mid-90s to the mid-2000s. She divides her time between the Netherlands and Berlin.",
+  "bio_en": "Laure Croft, real name Laure Dirven, is a Dutch DJ who plays vinyl only. After early success with house and hardcore, she turned to underground queer techno, fast and tense, drawn from records spanning the mid-90s to the mid-2000s. She divides her time between the Netherlands and Berlin.",
   "origin": "Pays-Bas",
   "sources": [
    "https://www.amsterdam-dance-event.nl/en/artists-speakers/laure-croft/2050849/",
@@ -268,8 +268,8 @@
  },
  {
   "name": "Bardix le Gaulois",
-  "bio_fr": "Bardix le Gaulois est un artiste français qui mêle instruments celtiques — flûtes, cornemuses, mélodies traditionnelles — et kicks de techno, un mélange qu'il appelle la « Gaulish Techno ». Ses performances sont scénographiées : il y incarne un barde gaulois en costume, filmé en forêt ou en pleine nature, un dispositif qui lui a construit une audience sur TikTok et en streaming. Il est représenté par l'agence Wart.",
-  "bio_en": "Bardix le Gaulois is a French artist who mixes Celtic instruments — flutes, bagpipes, traditional melodies — with techno kicks, a blend he calls \"Gaulish Techno\". His performances are staged: he plays a Gaulish bard in period costume, filmed in forests and open landscapes, which built him an audience on TikTok and streaming. He is booked by the Wart agency.",
+  "bio_fr": "Bardix le Gaulois est un artiste français qui mêle instruments celtiques (flûtes, cornemuses, mélodies traditionnelles) et kicks de techno, un mélange qu'il appelle la « Gaulish Techno ». Ses performances sont scénographiées : il y incarne un barde gaulois en costume, filmé en forêt ou en pleine nature, un dispositif qui lui a construit une audience sur TikTok et en streaming. Il est représenté par l'agence Wart.",
+  "bio_en": "Bardix le Gaulois is a French artist who mixes Celtic instruments (flutes, bagpipes, traditional melodies) with techno kicks, a blend he calls \"Gaulish Techno\". His performances are staged: he plays a Gaulish bard in period costume, filmed in forests and open landscapes, which built him an audience on TikTok and streaming. He is booked by the Wart agency.",
   "origin": "France",
   "sources": [
    "https://wartiste.com/en/artists/bardix-le-gaulois"
@@ -301,8 +301,8 @@
  },
  {
   "name": "Karakals",
-  "bio_fr": "Karakals est le nom de scène de Chloë Beyers, DJ belge. Elle commence en 2017 en duo avec Ivan Herrera — les deux atteignent la finale du concours MNM Start To DJ en 2020 — puis poursuit en solo à partir de 2022. Elle a joué à Tomorrowland, au Sunrise Festival, à Rock Werchter et au Balaton Sound, et anime depuis 2025 une émission hebdomadaire sur Qmusic.",
-  "bio_en": "Karakals is the stage name of Chloë Beyers, a Belgian DJ. She started in 2017 as a duo with Ivan Herrera — the pair reached the final of the MNM Start To DJ contest in 2020 — then went solo in 2022. She has played Tomorrowland, Sunrise Festival, Rock Werchter and Balaton Sound, and has hosted a weekly show on Qmusic since 2025.",
+  "bio_fr": "Karakals est le nom de scène de Chloë Beyers, DJ belge. Elle commence en 2017 en duo avec Ivan Herrera, les deux atteignent la finale du concours MNM Start To DJ en 2020, puis poursuit en solo à partir de 2022. Elle a joué à Tomorrowland, au Sunrise Festival, à Rock Werchter et au Balaton Sound, et anime depuis 2025 une émission hebdomadaire sur Qmusic.",
+  "bio_en": "Karakals is the stage name of Chloë Beyers, a Belgian DJ. She started in 2017 as a duo with Ivan Herrera, the pair reached the final of the MNM Start To DJ contest in 2020, then went solo in 2022. She has played Tomorrowland, Sunrise Festival, Rock Werchter and Balaton Sound, and has hosted a weekly show on Qmusic since 2025.",
   "origin": "Belgique",
   "since": 2017,
   "sources": [
@@ -391,8 +391,8 @@
  },
  {
   "name": "Carla dal Forno",
-  "bio_fr": "Carla dal Forno est une musicienne, chanteuse et multi-instrumentiste australienne. Après avoir joué dans le groupe melbournien Mole House puis dans F ingers et Tarcar, elle sort son premier album solo, « You Know What It's Like », sur le label londonien Blackest Ever Black en octobre 2016 — un disque enregistré entre Melbourne et Berlin. À la fermeture du label en 2019, elle publie son deuxième album, « Look Up Sharp », sur son propre label Kallista Records.",
-  "bio_en": "Carla dal Forno is an Australian musician, singer and multi-instrumentalist. After playing in the Melbourne group Mole House and then in F ingers and Tarcar, she released her first solo album, \"You Know What It's Like\", on the London label Blackest Ever Black in October 2016 — a record made between Melbourne and Berlin. When the label closed in 2019, she released her second album, \"Look Up Sharp\", on her own Kallista Records.",
+  "bio_fr": "Carla dal Forno est une musicienne, chanteuse et multi-instrumentiste australienne. Après avoir joué dans le groupe melbournien Mole House puis dans F ingers et Tarcar, elle sort son premier album solo, « You Know What It's Like », sur le label londonien Blackest Ever Black en octobre 2016, un disque enregistré entre Melbourne et Berlin. À la fermeture du label en 2019, elle publie son deuxième album, « Look Up Sharp », sur son propre label Kallista Records.",
+  "bio_en": "Carla dal Forno is an Australian musician, singer and multi-instrumentalist. After playing in the Melbourne group Mole House and then in F ingers and Tarcar, she released her first solo album, \"You Know What It's Like\", on the London label Blackest Ever Black in October 2016, a record made between Melbourne and Berlin. When the label closed in 2019, she released her second album, \"Look Up Sharp\", on her own Kallista Records.",
   "origin": "Australie",
   "since": 2016,
   "labels": [

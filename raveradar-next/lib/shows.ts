@@ -15,12 +15,12 @@ export interface Show {
   endDate: string; // last day of the parent event (== date for one-nighters)
 }
 
-/* One "show" per artist appearance (artist × venue × date) — the JamBase model. */
+/* One "show" per artist appearance (artist × venue × date), the JamBase model. */
 function build(): Show[] {
   const shows: Show[] = [];
   const seen = new Set<string>();
   for (const e of EVENTS) {
-    // A week-long, city-wide programme isn't an artist × venue × date booking —
+    // A week-long, city-wide programme isn't an artist × venue × date booking,
     // its own sub-events carry the real shows.
     if (guideFor(e)) continue;
     const venueSlug = slugify(e.venue);
@@ -58,7 +58,7 @@ const ARTIST_SLUGS: string[] = [...new Set(SHOWS.map((x) => x.artistSlug))].sort
 );
 
 /**
- * A show URL that no longer resolves — the venue was renamed or the line-up
+ * A show URL that no longer resolves, the venue was renamed or the line-up
  * corrected after Google had indexed the page. The slug still carries the
  * artist ({artist}-{venue}-{YYYYMMDD}), so recover it and let the route send a
  * 301 to that artist rather than serving a 404 to traffic we already earned.
@@ -67,8 +67,8 @@ const ARTIST_SLUGS: string[] = [...new Set(SHOWS.map((x) => x.artistSlug))].sort
  * Shows whose artist was renamed after publication, keyed by the dead slug's
  * `{artist}-{venue}` head.
  *
- * "Jazzy" was two different people — Jasmin Fumagalli on the Utopia bill, Yasmine
- * Byrne on Rise — collapsed onto one artist page by `slugify(name)`. Splitting them
+ * "Jazzy" was two different people (Jasmin Fumagalli on the Utopia bill, Yasmine
+ * Byrne on Rise) collapsed onto one artist page by `slugify(name)`. Splitting them
  * into "Jazzy (CH)" and "Jazzy (IE)" fixed the page and killed both show URLs, and
  * no lookup on the artist alone can tell them apart: that is the whole point. The
  * venue still in the dead slug can.
@@ -91,7 +91,7 @@ export function artistFromDeadShowSlug(slug: string): string | null {
  * These pages were the JamBase model taken literally: one page per artist × venue
  * × date, ~1 850 of them, each restating a line-up and a ticket link the event page
  * already carries. Near-duplicate pages at that ratio read as doorway content, so
- * the route survives only as a 301 — the event is the page that answers "when do
+ * the route survives only as a 301, the event is the page that answers "when do
  * they play", and the artist page is the fallback when the slug no longer resolves
  * to a booking we still hold (venue renamed, line-up corrected).
  */

@@ -1,4 +1,4 @@
-# Recherche événements — fichiers de travail
+# Recherche événements - fichiers de travail
 
 JSON produits par les agents de recherche, fusionnés dans `lib/data.ts` par
 `merge.py`. Versionnés volontairement : le répertoire temporaire de session peut

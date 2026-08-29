@@ -18,7 +18,7 @@ Lit tous les `bios-*.json` de ce répertoire. Chaque fichier est une liste d'obj
 Le script refuse tout ce qui n'est pas vérifiable ou pas rattachable :
 
 - une bio sans source, ou dont les sources ne sont pas des URL http(s) ;
-- un artiste dont le slug n'apparaît dans AUCUN lineup de data.ts — c'est le
+- un artiste dont le slug n'apparaît dans AUCUN lineup de data.ts, c'est le
   signe d'une faute de frappe sur le nom, et la page n'existerait pas ;
 - une bio trop courte (moins de 120 signes : ça n'apporte rien) ou trop longue
   (plus de 700 : ce n'est plus un résumé) ;
@@ -26,11 +26,11 @@ Le script refuse tout ce qui n'est pas vérifiable ou pas rattachable :
   vivante"…), qui sont vraies de personne et imprimables sur tout le monde.
 
 La dédup se fait sur le slug ; en cas de doublon, l'entrée qui cite le plus de
-sources gagne. La map est réécrite entre les marqueurs BIOS:start / BIOS:end —
+sources gagne. La map est réécrite entre les marqueurs BIOS:start / BIOS:end,
 ne pas l'éditer à la main.
 
 Le **portrait ne passe plus par ici** : il vit dans lib/artist-photos.ts, écrit par
-avatars.py. Il était rattaché à la bio, ce qui rendait la photo conditionnée au texte —
+avatars.py. Il était rattaché à la bio, ce qui rendait la photo conditionnée au texte,
 un artiste dont on trouvait le portrait sur Commons sans savoir écrire deux phrases
 sourcées restait affiché avec son initiale.
 """
@@ -165,7 +165,7 @@ def main() -> int:
         print(f"\n--dry : {len(kept)} entrées prêtes, lib/bios.ts inchangé.")
         return 0
     BIOS_TS.write_text(new)
-    print(f"\n✓ lib/bios.ts réécrit — {len(kept)} bios.")
+    print(f"\n✓ lib/bios.ts réécrit, {len(kept)} bios.")
     return 0
 
 

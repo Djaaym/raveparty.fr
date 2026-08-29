@@ -9,15 +9,15 @@ import { getDict, langPrefix } from "@/lib/i18n";
  * Le visuel de garde, servi par nous et non plus par le CDN du générateur.
  *
  * C'était le pire élément du site côté vitesse : le PNG brut de Higgsfield, **3,9 Mo**
- * pour une image de fond peinte à 42 % d'opacité derrière un masque radial — et c'est
+ * pour une image de fond peinte à 42 % d'opacité derrière un masque radial, et c'est
  * lui que Lighthouse désignait comme LCP de la page d'accueil. Il arrivait en plus sans
  * `Cache-Control` (le CDN n'en pose que sur les vignettes qu'on y avait déposées), donc
  * re-téléchargé au moindre doute du navigateur, et depuis une origine tierce qu'il
  * fallait résoudre avant de pouvoir commencer.
  *
  * Réencodé en WebP à trois largeurs, c'est **14 à 141 Ko** selon le viewport (43 Ko sur
- * le mobile de référence de PageSpeed) : la même image à l'œil — on la voit à travers un
- * masque, à 42 % — pour 1 % du poids. Le nom porte le hash du fichier d'origine, ce qui
+ * le mobile de référence de PageSpeed) : la même image à l'œil (on la voit à travers un
+ * masque, à 42 %) pour 1 % du poids. Le nom porte le hash du fichier d'origine, ce qui
  * autorise le `immutable` d'un an posé par `headers()` dans next.config.mjs.
  *
  * Régénérer après remplacement du visuel : `python3 scripts/hero-image.py <url|fichier>`.
@@ -28,8 +28,8 @@ const HERO_WIDTHS = [768, 1280, 1920];
 /**
  * Le hero est un composant client (le formulaire pousse vers /explore), et il importait
  * `COUNTRIES`, `ALL_GENRES` et `countryLabel` de `lib/data.ts`. Une ligne d'import pour
- * deux listes déroulantes, et le bundler embarquait **tout le catalogue** — 870
- * événements, descriptions FR et EN comprises — dans le JavaScript de la page d'accueil :
+ * deux listes déroulantes, et le bundler embarquait **tout le catalogue** (870
+ * événements, descriptions FR et EN comprises) dans le JavaScript de la page d'accueil :
  * 218 Ko compressés que le navigateur n'ouvre jamais.
  *
  * Les options arrivent donc en props, calculées par `Home` côté serveur. C'est le même
@@ -92,15 +92,15 @@ export default function Hero({
         {/* Les trois entrées ci-dessous passaient par une bibliothèque d'animation, qui
             ne servait plus qu'à elles et au scroll-reveal de la home : 35 Ko de JS
             compressé, plus l'hydratation, pour trois blocs qui montent de vingt pixels.
-            Le h1 juste dessous avait déjà fait le chemin — keyframes dans globals.css. */}
+            Le h1 juste dessous avait déjà fait le chemin, keyframes dans globals.css. */}
         <div className="hero-badge rise-in">
           <span className="live" />{" "}
           {t("hero.badge").replace("{n}", String(count)).replace("{c}", String(countries))}
         </div>
         {/* Le h1 est l'élément LCP de la page (le plus grand texte) et il n'a jamais
             d'état invisible : son entrée ne joue que sur `translateY`, jamais sur
-            l'opacité. C'est ce qui l'a sorti en premier de la bibliothèque d'animation
-            — une opacité nulle sérialisée dans le HTML du serveur suspend le LCP au
+            l'opacité. C'est ce qui l'a sorti en premier de la bibliothèque d'animation,
+            une opacité nulle sérialisée dans le HTML du serveur suspend le LCP au
             démarrage du JavaScript. Le reste de la page a suivi depuis. */}
         <h1 className="h-xl hero-h1-in">
           {t("hero.title.a")}

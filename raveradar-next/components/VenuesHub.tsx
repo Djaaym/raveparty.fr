@@ -43,7 +43,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
      chercher seulement dans les dates à venir en priverait la moitié des cartes. */
   const BY_ALL = new Map(EVENTS.map((e) => [e.id, e]));
 
-  /* Ce qu'une fiche de salle promet — un agenda, une programmation, des habitués —
+  /* Ce qu'une fiche de salle promet, un agenda, une programmation, des habitués,
      n'apparaissait nulle part sur le hub : 515 lignes « ville, pays · N événements »,
      donc 515 lignes qui se ressemblent. Les salles les plus actives passent en carte
      développée, avec ce qui distingue réellement un club d'un autre : ce qu'on y
@@ -89,15 +89,15 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
       ? [
           [
             "Qu'est-ce qu'on trouve sur la page d'un lieu ?",
-            "L'agenda complet de la salle — les dates à venir et les soirées passées, qui restent en ligne — les artistes qui y jouent, les genres qu'on y programme et le lien vers la billetterie officielle de chaque nuit.",
+            "L'agenda complet de la salle (les dates à venir et les soirées passées, qui restent en ligne) les artistes qui y jouent, les genres qu'on y programme et le lien vers la billetterie officielle de chaque nuit.",
           ],
           [
             "Comment sont choisis les lieux référencés ?",
-            `Ils ne sont pas choisis : ils sont déduits du calendrier. Dès qu'un événement vérifié a lieu quelque part, la salle obtient sa page — d'où ces ${VENUES.length} lieux dans ${countries.length} pays. En revanche un libellé qui décrit un ensemble de lieux (« Divers lieux, Rennes », « 40 lieux dans toute la ville ») n'est pas une salle et n'a pas de page : sans adresse ni agenda propre, elle serait vide.`,
+            `Ils ne sont pas choisis : ils sont déduits du calendrier. Dès qu'un événement vérifié a lieu quelque part, la salle obtient sa page, d'où ces ${VENUES.length} lieux dans ${countries.length} pays. En revanche un libellé qui décrit un ensemble de lieux (« Divers lieux, Rennes », « 40 lieux dans toute la ville ») n'est pas une salle et n'a pas de page : sans adresse ni agenda propre, elle serait vide.`,
           ],
           [
             "Que veut dire « habitués » sur une salle ?",
-            "Les artistes qui reviennent le plus souvent sur les affiches du lieu, comptés sur notre catalogue. Un nom vu une seule fois n'y figure pas — sur un club qui n'a que deux dates référencées, tout le monde serait « régulier », ce qui ne voudrait plus rien dire.",
+            "Les artistes qui reviennent le plus souvent sur les affiches du lieu, comptés sur notre catalogue. Un nom vu une seule fois n'y figure pas, sur un club qui n'a que deux dates référencées, tout le monde serait « régulier », ce qui ne voudrait plus rien dire.",
           ],
           [
             "Warehouse, club, plaine de festival : quelle différence ?",
@@ -105,29 +105,29 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
           ],
           [
             "Vous donnez l'adresse et les horaires ?",
-            "L'horaire annoncé par l'organisateur figure sur chaque date, et la carte situe le lieu. Pour l'adresse exacte, la jauge et les conditions d'entrée, le site officiel de la salle fait foi — on renvoie vers lui plutôt que de recopier une information qu'on ne peut pas tenir à jour.",
+            "L'horaire annoncé par l'organisateur figure sur chaque date, et la carte situe le lieu. Pour l'adresse exacte, la jauge et les conditions d'entrée, le site officiel de la salle fait foi, on renvoie vers lui plutôt que de recopier une information qu'on ne peut pas tenir à jour.",
           ],
         ]
       : [
           [
             "What's on a venue page?",
-            "The room's full agenda — upcoming dates and past nights, which stay online — the artists who play there, the genres programmed and a link to each night's official ticketing.",
+            "The room's full agenda (upcoming dates and past nights, which stay online) the artists who play there, the genres programmed and a link to each night's official ticketing.",
           ],
           [
             "How are venues selected?",
-            `They aren't selected, they are derived from the calendar. As soon as a verified event happens somewhere, that room gets its page — hence ${VENUES.length} venues across ${countries.length} countries. A label describing a set of places ("various venues", "40 locations across the city") is not a room and gets no page: with no address and no agenda of its own, it would be empty.`,
+            `They aren't selected, they are derived from the calendar. As soon as a verified event happens somewhere, that room gets its page, hence ${VENUES.length} venues across ${countries.length} countries. A label describing a set of places ("various venues", "40 locations across the city") is not a room and gets no page: with no address and no agenda of its own, it would be empty.`,
           ],
           [
             "What does \"regulars\" mean on a venue?",
-            "The artists appearing most often on that room's bills, counted across our catalogue. A name seen only once doesn't qualify — in a club with two indexed dates, everyone would be a \"regular\", which would mean nothing.",
+            "The artists appearing most often on that room's bills, counted across our catalogue. A name seen only once doesn't qualify, in a club with two indexed dates, everyone would be a \"regular\", which would mean nothing.",
           ],
           [
-            "Warehouse, club, festival field — what's the difference?",
+            "Warehouse, club, festival field, what's the difference?",
             "The place shapes the night. A club has a capacity, opening hours and regular programming; a warehouse is often temporary, with an oversized rig and no closing time; a festival field runs over several days, outdoors. Each page shows the dominant type of the dates we've indexed there.",
           ],
           [
             "Do you list the address and opening hours?",
-            "The time announced by the promoter is on each date, and the map places the venue. For the exact address, capacity and entry conditions, the room's official site is authoritative — we link to it rather than copying information we cannot keep current.",
+            "The time announced by the promoter is on each date, and the map places the venue. For the exact address, capacity and entry conditions, the room's official site is authoritative, we link to it rather than copying information we cannot keep current.",
           ],
         ];
 

@@ -17,8 +17,8 @@ export interface Venue {
  *
  * L'exclusion des programmes-ombrelles ne tenait qu'au fait qu'ils portent un guide
  * (`guideFor`), or un festival éclaté dans toute une ville n'en a pas forcément un :
- * dix-sept libellés — « Divers lieux, Rennes », « Salles multiples, Skopje »,
- * « 40 lieux dans toute la ville » — avaient donc leur page `/lieux/{slug}`, nommée
+ * dix-sept libellés, « Divers lieux, Rennes », « Salles multiples, Skopje »,
+ * « 40 lieux dans toute la ville », avaient donc leur page `/lieux/{slug}`, nommée
  * d'après une périphrase et vide de tout ce qu'une fiche de salle promet (une
  * adresse, un agenda, des habitués). C'est le `/lieux/300-lieux-dans-amsterdam` que
  * la règle du projet interdit, arrivé par une autre porte.
@@ -33,7 +33,7 @@ export const isMultiVenueLabel = (venue: string): boolean =>
 function build(): Venue[] {
   const m = new Map<string, Venue>();
   for (const e of EVENTS) {
-    // City-wide programmes (ADE & co.) have no single venue — their `venue` field
+    // City-wide programmes (ADE & co.) have no single venue, their `venue` field
     // is a label, not an address, and would open a thin page of its own.
     if (guideFor(e) || isMultiVenueLabel(e.venue)) continue;
     const slug = slugify(e.venue);
@@ -61,13 +61,13 @@ const BY_ID = new Map(EVENTS.map((e) => [e.id, e]));
 const eventsOf = (v: Venue): RaveEvent[] =>
   v.eventIds.map((id) => BY_ID.get(id)).filter((e): e is RaveEvent => Boolean(e));
 
-/** Ce que la salle programme, pondéré — voir `rankGenres` (lib/data.ts) pour le calcul. */
+/** Ce que la salle programme, pondéré, voir `rankGenres` (lib/data.ts) pour le calcul. */
 export const venueGenres = (v: Venue): string[] => rankGenres(eventsOf(v));
 
 /**
  * Les habitués : les noms qui reviennent le plus souvent sur les affiches du lieu.
  *
- * C'est ce qui décrit vraiment un club — mieux que sa ville et son compte de dates.
+ * C'est ce qui décrit vraiment un club, mieux que sa ville et son compte de dates.
  * Un nom vu une seule fois n'est pas un habitué, d'où `min` : sur une salle qui n'a
  * que deux dates au catalogue, tout le monde serait « régulier », ce qui ne veut plus
  * rien dire. Rendu vide plutôt que faux.

@@ -28,7 +28,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
   const live = events.filter((e) => !isPast(e, today));
   const done = events.filter((e) => isPast(e, today));
   const genres = [...new Set(events.flatMap((e) => e.genres))];
-  // Every artist who has played or will play here — the venue↔artist mesh.
+  // Every artist who has played or will play here, the venue↔artist mesh.
   const artists = [...new Map(showsForVenue(slug).map((s) => [s.artistSlug, s])).values()].slice(0, 30);
   const sameCity = VENUES.filter((v) => v.slug !== venue.slug && v.city === venue.city);
   const place = PLACES.find((x) =>

@@ -27,7 +27,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
   const hereIds = new Set(here.map((e) => e.id));
   const nearby = nextUp(4, EVENTS.filter((e) => !hereIds.has(e.id)), today);
 
-  // Sibling places of the same kind — the horizontal mesh between geo pages.
+  // Sibling places of the same kind, the horizontal mesh between geo pages.
   const siblings = PLACES.filter((x) => x.slug !== place.slug && x.kind === place.kind).slice(0, 12);
   const otherKinds = PLACES.filter((x) => x.kind !== place.kind).slice(0, 12);
   // Genres that actually have something on here, so the link always lands on content.
@@ -35,8 +35,8 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
 
   const intro =
     lang === "fr"
-      ? `Les meilleurs festivals électro et soirées techno à ${place.label} et aux alentours — dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
-      : `The best electronic festivals and techno nights in and around ${place.label} — dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
+      ? `Les meilleurs festivals électro et soirées techno à ${place.label} et aux alentours, dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
+      : `The best electronic festivals and techno nights in and around ${place.label}, dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
 
   const faq: [string, string][] =
     lang === "fr"
@@ -61,7 +61,7 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
       : [
           [
             `Is there a rave party in ${place.label} this weekend?`,
-            `Check the list above — we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`,
+            `Check the list above, we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`,
           ],
           [
             `How do I hear about new dates in ${place.label}?`,

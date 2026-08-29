@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Régénère lib/venue-photos.ts — les fichiers de public/posters/ qui montrent le LIEU.
+"""Régénère lib/venue-photos.ts, les fichiers de public/posters/ qui montrent le LIEU.
 
 `PHOTOS` (lib/data.ts) mélange trois choses par construction : une photo de mainstage,
 une photo de salle, et l'affiche officielle de l'organisateur. Les trois illustrent
@@ -37,11 +37,11 @@ photos = {int(m[1]): m[2] for m in re.finditer(r"^\s*(\d+):\s*\"([^\"]+)\"", blo
 files = sorted({photos[i] for i in ids if i in photos})
 out = os.path.join(ROOT, "lib/venue-photos.ts")
 open(out, "w", encoding="utf-8").write(
-    "/* GÉNÉRÉ — ne pas éditer à la main : `python3 .research/photos/venue-shots.py`.\n"
+    "/* GÉNÉRÉ, ne pas éditer à la main : `python3 .research/photos/venue-shots.py`.\n"
     " *\n"
     " * Les fichiers de `PHOTOS` (lib/data.ts) qui montrent la SALLE et pas l'événement.\n"
-    " * `PHOTOS` mélange trois choses par construction — photo de mainstage, photo de\n"
-    " * salle, affiche officielle de l'organisateur — et les trois illustrent\n"
+    " * `PHOTOS` mélange trois choses par construction, photo de mainstage, photo de\n"
+    " * salle, affiche officielle de l'organisateur, et les trois illustrent\n"
     " * légitimement un événement. Une seule illustre le lieu : mettre le flyer d'une\n"
     " * soirée sur la carte d'un club montre autre chose que ce que la carte annonce.\n"
     " * Les lots de `.research/photos/` portaient déjà l'information (`kind: \"venue\"`),\n"

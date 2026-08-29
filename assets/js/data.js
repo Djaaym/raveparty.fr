@@ -1,5 +1,5 @@
 /* =========================================================================
-   RAVERADAR — Data layer
+   RAVERADAR, Data layer
    Self-contained sample dataset (no backend / no external images required).
    Posters are generated procedurally with CSS gradients keyed per genre.
    ========================================================================= */
@@ -50,7 +50,7 @@ const EVENTS = [
     date: "2026-06-13", time: "23:59", price: 25, currency: "€",
     venue: "Kraftwerk Halle", trending: true,
     lineup: ["Héctor Oaks","Freddy K","Kobosil","VTSS","SPFDJ"],
-    desc: "A 14-hour marathon inside a decommissioned power plant. No phones, no photos — just concrete, fog and sound. The most uncompromising room in Berlin." },
+    desc: "A 14-hour marathon inside a decommissioned power plant. No phones, no photos, just concrete, fog and sound. The most uncompromising room in Berlin." },
 
   { id: 3, title: "Verknipt ADE Special", type: "Warehouse", genres: ["Hard Techno","Acid Techno"],
     city: "Utrecht", country: "Netherlands", lat: 52.09, lng: 5.12,
@@ -71,7 +71,7 @@ const EVENTS = [
     date: "2026-09-19", time: "23:00", price: 38, currency: "€",
     venue: "NDSM Docklands", trending: false,
     lineup: ["Setaoc Mass","Stef Mendesidis","Kr!z","Rene Wise"],
-    desc: "Pure underground techno in a riverside shipyard. Functional, dark, hypnotic — the way the dancefloor was meant to be." },
+    desc: "Pure underground techno in a riverside shipyard. Functional, dark, hypnotic, the way the dancefloor was meant to be." },
 
   { id: 6, title: "Boiler Room: London", type: "Club", genres: ["House","Drum & Bass"],
     city: "London", country: "UK", lat: 51.51, lng: -0.12,
@@ -141,7 +141,7 @@ const EVENTS = [
     date: "2026-08-28", time: "10:00", price: 120, currency: "€",
     venue: "Black Sea Shore", trending: false,
     lineup: ["Ricardo Villalobos","Raresh","Rhadoo","Praslea","Sonja Moonear"],
-    desc: "The legendary marathon on the Romanian coast. Minimal & micro-house that stretches for days — nobody knows what time it is, and nobody cares." },
+    desc: "The legendary marathon on the Romanian coast. Minimal & micro-house that stretches for days, nobody knows what time it is, and nobody cares." },
 ];
 
 // AI-generated key-art posters (Nano Banana Pro), served from CDN.
@@ -205,10 +205,10 @@ const GENRE_DESC_FR = {
 
 const DESC_FR = {
   1: "Le plus grand festival techno du monde revient dans la plaine néerlandaise. Douze heures de 4/4 implacable sur huit scènes industrielles, des lasers fendant la fumée de midi à minuit.",
-  2: "Un marathon de 14 heures dans une centrale électrique désaffectée. Pas de téléphone, pas de photo — juste du béton, de la fumée et du son. La salle la plus intransigeante de Berlin.",
+  2: "Un marathon de 14 heures dans une centrale électrique désaffectée. Pas de téléphone, pas de photo, juste du béton, de la fumée et du son. La salle la plus intransigeante de Berlin.",
   3: "Verknipt investit un entrepôt de 6000 personnes pour un déferlement industriel. Stroboscopes, sub-bass et lignes acid jusqu'au lever du soleil pendant l'Amsterdam Dance Event.",
   4: "Le collectif le plus dur de Paris sort son esthétique dystopique en plein air. Kicks brutaux, murs de fumée et une scène construite comme une usine à l'abandon.",
-  5: "De la techno underground pure dans un chantier naval au bord de l'eau. Fonctionnelle, sombre, hypnotique — le dancefloor comme il devrait être.",
+  5: "De la techno underground pure dans un chantier naval au bord de l'eau. Fonctionnelle, sombre, hypnotique, le dancefloor comme il devrait être.",
   6: "La session culte autour de la cabine passe en mode jungle. Breaks à 174 BPM, rewinds et la salle la plus moite de l'est londonien.",
   7: "Quatre jours de pure euphorie hardstyle. La légendaire scène RED, des feux d'artifice et 100 000 warriors chantant à l'unisson.",
   8: "Un rassemblement psychédélique d'une semaine au bord d'un lac portugais. Art visionnaire, son off-grid et le dancefloor psytrance le plus célèbre de la planète.",
@@ -218,5 +218,5 @@ const DESC_FR = {
   13: "Coucher de soleil méditerranéen, brise marine et 303 qui grésillent. Un open-air boutique où la house fond dans l'acid quand la nuit prend le dessus.",
   14: "Trance uplifting et progressive sur les rives du canal du Danube. Mains en l'air, lasers au-dessus, pure euphorie jusqu'à l'aube.",
   15: "La programmation la plus dure de Belgique dans un hall de fret du XIXe siècle. Acier industriel, stroboscopes aveuglants et 150 BPM sans pitié.",
-  16: "Le marathon légendaire de la côte roumaine. Minimal & micro-house qui s'étire sur des jours — personne ne connaît l'heure, et personne ne s'en soucie.",
+  16: "Le marathon légendaire de la côte roumaine. Minimal & micro-house qui s'étire sur des jours, personne ne connaît l'heure, et personne ne s'en soucie.",
 };

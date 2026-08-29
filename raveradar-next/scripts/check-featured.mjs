@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 /**
- * check:fresh — the highlight blocks must never show a finished event.
+ * check:fresh, the highlight blocks must never show a finished event.
  *
  * The bug this guards against doesn't arrive in a diff. Nobody writes "put a past
  * event on the home page": someone writes `EVENTS.slice(0, 8)`, it looks right the
  * day it ships, and it rots on its own as the calendar moves under it. So the check
  * is on the *shape* of the code, not on today's output.
  *
- *   Part A — source guard. Every highlight goes through `featured()` / `nextUp()` /
+ *   Part A, source guard. Every highlight goes through `featured()` / `nextUp()` /
  *            `liveEditions()` in lib/data.ts, which filter on the reference day.
  *            Reaching around them (slicing the raw catalogue, falling back to the
  *            archive when the live list is empty, reading `trending` by hand) fails.
- *   Part B — calendar report. No amount of filtering invents events: once the
+ *   Part B, calendar report. No amount of filtering invents events: once the
  *            catalogue runs dry, correct code shows empty grids. Warn well before.
  *
  * Pure Node, no dependencies, no build needed: `npm run check:fresh`.
@@ -21,32 +21,32 @@ import { join, relative } from "node:path";
 
 const ROOT = new URL("..", import.meta.url).pathname.replace(/\/$/, "");
 const SCANNED = ["components", "app", "lib"];
-/** lib/data.ts *is* the implementation of the helpers — it is allowed to do all this. */
+/** lib/data.ts *is* the implementation of the helpers, it is allowed to do all this. */
 const EXEMPT = ["lib/data.ts", "scripts/check-featured.mjs"];
 
 const RULES = [
   {
-    // `EVENTS.slice(0, 8)` — the original sin: an ordering fixed at authoring time.
+    // `EVENTS.slice(0, 8)`, the original sin: an ordering fixed at authoring time.
     re: /\b(EVENTS|FESTIVALS)\s*\.\s*slice\s*\(/g,
-    msg: "slices the raw catalogue — use featured() / nextUp() / liveEditions(), which drop finished events",
+    msg: "slices the raw catalogue, use featured() / nextUp() / liveEditions(), which drop finished events",
   },
   {
-    // `upcoming(FESTIVALS).length ? upcoming(FESTIVALS) : FESTIVALS` — the "never show
+    // `upcoming(FESTIVALS).length ? upcoming(FESTIVALS) : FESTIVALS`, the "never show
     // an empty block" reflex, which trades an empty block for a wrong one.
     re: /\?[^;\n]*:\s*(EVENTS|FESTIVALS)\b/g,
-    msg: "falls back to the full catalogue when nothing is upcoming — leave the block empty instead",
+    msg: "falls back to the full catalogue when nothing is upcoming, leave the block empty instead",
   },
   {
     // `trending` is curation, not a date. Only featured() may read it, so that the flag
     // expires with the event instead of needing to be un-set by hand.
     re: /\.trending\b/g,
-    msg: "reads the `trending` flag directly — featured() is what pairs it with the date filter",
+    msg: "reads the `trending` flag directly, featured() is what pairs it with the date filter",
   },
   {
     // `upcomingFirst()` leads with live dates but still carries the archive: fine for a
     // listing under its own heading, wrong the moment it is cut down to a highlight.
     re: /upcomingFirst\s*\([^)]*\)\s*\.\s*slice\s*\(/g,
-    msg: "slices upcomingFirst() — that tail is the archive; use nextUp() for a highlight",
+    msg: "slices upcomingFirst(), that tail is the archive; use nextUp() for a highlight",
   },
 ];
 
@@ -63,7 +63,7 @@ const files = SCANNED.flatMap((d) => walk(join(ROOT, d)))
 
 /* A listing the reader explicitly asked to see the archive of is not a highlight. Those
    exist (the "voir les éditions passées" toggle on /explore), so the escape hatch is a
-   `fresh-ok:` comment on the line or just above it — with the reason spelled out, which
+   `fresh-ok:` comment on the line or just above it, with the reason spelled out, which
    is the whole point: an exception you have to justify in place is one you notice. */
 const ALLOW = /fresh-ok:/;
 
@@ -98,7 +98,7 @@ const horizon = live.length ? live.slice().sort().pop() : null;
 const THIN = 8;
 
 for (const { file, line, msg, src } of problems) {
-  console.error(`✗ ${file}:${line} — ${msg}\n    ${src}`);
+  console.error(`✗ ${file}:${line}, ${msg}\n    ${src}`);
 }
 
 console.log(
@@ -108,9 +108,9 @@ console.log(
 if (!live.length) {
   console.error("✗ Plus aucun événement à venir : tous les blocs de mise en avant seront vides.");
 } else if (live.length < THIN) {
-  console.warn(`⚠ Moins de ${THIN} dates à venir — les grilles de mise en avant vont se vider. Recharger le catalogue.`);
+  console.warn(`⚠ Moins de ${THIN} dates à venir, les grilles de mise en avant vont se vider. Recharger le catalogue.`);
 }
 
 const failed = problems.length > 0 || live.length === 0;
-console.log(failed ? "\ncheck:fresh — ÉCHEC" : `\ncheck:fresh — OK (${files.length} fichiers)`);
+console.log(failed ? "\ncheck:fresh, ÉCHEC" : `\ncheck:fresh, OK (${files.length} fichiers)`);
 process.exit(failed ? 1 : 0);

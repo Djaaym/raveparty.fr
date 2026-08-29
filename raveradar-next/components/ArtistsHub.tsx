@@ -23,19 +23,19 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
   const live = upcoming(undefined, today);
   const liveIds = new Set(live.map((e) => e.id));
   const next = nextUp(4, undefined, today);
-  // Artists booked on a date that hasn't happened yet — the useful half of the directory.
+  // Artists booked on a date that hasn't happened yet, the useful half of the directory.
   const headliners = ARTISTS.filter((a) => a.eventIds.some((id) => liveIds.has(id))).sort(
     (a, b) => b.eventIds.length - a.eventIds.length,
   );
   const venues = [...VENUES].sort((a, b) => b.eventIds.length - a.eventIds.length).slice(0, 14);
-  /* Chaque ligne de l'annuaire porte désormais ses genres — 1 860 artistes "présentés"
+  /* Chaque ligne de l'annuaire porte désormais ses genres, 1 860 artistes "présentés"
      un peu, à la place d'un nom et d'un compte. Ce sont des indices dans ALL_GENRES, pas
      des libellés : "Hard Techno" écrit sur chaque ligne qui le joue, c'est le même
      kilo-octet répété des centaines de fois pour deux mots. */
   const gi = new Map(ALL_GENRES.map((g, i) => [g, i]));
   /* Les sous-genres sont internés de la même façon, mais dans leur propre table : ils
      ne sont pas des clés de GENRES (ils n'ont pas de page), et ils ne sont connus qu'à
-     l'exécution — d'où la table construite ici plutôt qu'une constante. */
+     l'exécution, d'où la table construite ici plutôt qu'une constante. */
   const subLabels: string[] = [];
   const si = new Map<string, number>();
   const subIndex = (label: string): number => {
@@ -60,7 +60,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
      écrire 1 860, mais 147 existent et 138 portent une date à venir. Les plus programmés
      passent en carte développée ici (portrait, origine, labels, bio, prochaine date) ;
      les autres restent à un clic dans l'annuaire, où leur ligne dit au moins ce qu'ils
-     jouent. Une carte sans bio n'aurait rien à développer — d'où le filtre sur BIOS. */
+     jouent. Une carte sans bio n'aurait rien à développer, d'où le filtre sur BIOS. */
   const detailed = headliners.filter((a) => BIOS[a.slug]);
   const featured = detailed
     .slice(0, 12)
@@ -71,7 +71,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
         .sort((x, y) => x.date.localeCompare(y.date))[0];
       return { a, bio, photo: artistPhoto(a.slug), next, genres: artistGenres(a).slice(0, 3), subs: artistSubGenres(a).slice(0, 2) };
     });
-  /* A CC BY photo may be reused *provided* the author and licence travel with it —
+  /* A CC BY photo may be reused *provided* the author and licence travel with it,
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
      line, so the page carries them all here, once, for the portraits it shows. */
   const credits = ARTISTS.map((a) => ARTIST_PHOTOS[a.slug] && { name: a.name, ...ARTIST_PHOTOS[a.slug]! })
@@ -87,7 +87,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           headliners.length
         } of them have at least one upcoming date in Europe. Every artist page lists their next sets, the venues they play and the genres they carry.`;
 
-  /* Ce qui remplace le mur de 90 villes en bas de page — mêmes raisons que sur /genres :
+  /* Ce qui remplace le mur de 90 villes en bas de page, mêmes raisons que sur /genres :
      une page qui existe pour présenter des artistes doit répondre à ce qu'on se demande
      à leur sujet, et une FAQ est éligible au résultat enrichi, ce qu'une colonne de liens
      ne sera jamais. */
@@ -96,18 +96,18 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       ? [
           [
             "D'où viennent ces artistes et ces bios ?",
-            `Les ${ARTISTS.length} artistes sont extraits des line-ups publiés par les organisateurs : dès qu'un nom apparaît sur une affiche, il obtient sa fiche et son agenda. Les ${detailed.length} biographies détaillées, elles, sont recherchées une par une et citent leurs sources en bas de fiche. Un artiste qu'on n'a pas pu vérifier n'a pas de bio inventée — il garde ses dates, c'est tout.`,
+            `Les ${ARTISTS.length} artistes sont extraits des line-ups publiés par les organisateurs : dès qu'un nom apparaît sur une affiche, il obtient sa fiche et son agenda. Les ${detailed.length} biographies détaillées, elles, sont recherchées une par une et citent leurs sources en bas de fiche. Un artiste qu'on n'a pas pu vérifier n'a pas de bio inventée, il garde ses dates, c'est tout.`,
           ],
           [
             "Comment savoir quand mon artiste préféré joue près de chez moi ?",
-            "Ouvre sa fiche : elle liste ses prochaines dates, les salles où il joue et les villes concernées. Tu peux y créer une alerte sur son nom — on te prévient dès qu'une nouvelle date est annoncée, avant que la billetterie ne soit épuisée.",
+            "Ouvre sa fiche : elle liste ses prochaines dates, les salles où il joue et les villes concernées. Tu peux y créer une alerte sur son nom, on te prévient dès qu'une nouvelle date est annoncée, avant que la billetterie ne soit épuisée.",
           ],
           [
             "Pourquoi certains artistes n'ont-ils pas de photo ?",
             "Parce qu'on ne publie que des portraits sous licence explicite, pris sur Wikimedia Commons, avec l'auteur et la licence affichés sous l'image. Une photo de presse ou un cliché Instagram reste une œuvre protégée. Et on ne génère jamais de portrait par IA pour une personne réelle : produire une image réaliste et reconnaissable de quelqu'un, ce n'est pas illustrer, c'est inventer.",
           ],
           [
-            "Deux artistes portent le même nom — comment vous faites ?",
+            "Deux artistes portent le même nom, comment vous faites ?",
             "On les distingue par indicatif de pays dans le line-up, comme le fait le milieu : « Jazzy (CH) » n'est pas « Jazzy (IE) ». C'est un cas réel du catalogue, et le seul moyen honnête de ne pas fusionner deux carrières sur une même page.",
           ],
           [
@@ -118,18 +118,18 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
       : [
           [
             "Where do these artists and biographies come from?",
-            `The ${ARTISTS.length} artists are extracted from line-ups published by promoters: as soon as a name appears on a bill, it gets its page and its calendar. The ${detailed.length} detailed biographies are researched one by one and cite their sources at the foot of the page. An artist we could not verify gets no invented bio — they simply keep their dates.`,
+            `The ${ARTISTS.length} artists are extracted from line-ups published by promoters: as soon as a name appears on a bill, it gets its page and its calendar. The ${detailed.length} detailed biographies are researched one by one and cite their sources at the foot of the page. An artist we could not verify gets no invented bio, they simply keep their dates.`,
           ],
           [
             "How do I know when my favourite artist plays near me?",
-            "Open their page: it lists their upcoming dates, the venues they play and the cities involved. You can set an alert on their name there — we tell you as soon as a new date is announced, before tickets sell out.",
+            "Open their page: it lists their upcoming dates, the venues they play and the cities involved. You can set an alert on their name there, we tell you as soon as a new date is announced, before tickets sell out.",
           ],
           [
             "Why do some artists have no photo?",
             "Because we only publish portraits under an explicit licence, sourced from Wikimedia Commons, with the author and licence shown under the image. A press shot or an Instagram picture is a copyrighted work whoever publishes it. And we never generate an AI portrait of a real person: producing a realistic, recognisable image of someone is not illustration, it is invention.",
           ],
           [
-            "Two artists share a name — how do you handle that?",
+            "Two artists share a name, how do you handle that?",
             "We separate them by country tag in the line-up, the way the scene does: \"Jazzy (CH)\" is not \"Jazzy (IE)\". It is a real case in this catalogue, and the only honest way to avoid merging two careers onto one page.",
           ],
           [
@@ -244,7 +244,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             </>
           )}
 
-          {/* The directory is what this page is for, so it comes first — filter
+          {/* The directory is what this page is for, so it comes first, filter
               included. It used to sit below the "next dates" grid, four screens
               down, which is where search boxes go to be never used. */}
           <h2 className="h-md" style={{ margin: "40px 0 0" }}>
@@ -272,7 +272,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
               <ul>
                 {credits.map((c) => (
                   <li key={c.file}>
-                    {c.name} — {c.author}, {c.license} (
+                    {c.name}, {c.author}, {c.license} (
                     <a href={c.page} target="_blank" rel="noopener noreferrer nofollow">
                       Wikimedia Commons
                     </a>

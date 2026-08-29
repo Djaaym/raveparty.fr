@@ -16,8 +16,8 @@ type Stats = Report & {
  *
  * Everything is driven by one call to `/api/track/stats`: the server reads the range
  * once, rebuilds the visits, and returns every panel already counted. So changing a
- * filter is one request and the whole page — KPIs, chart, all twenty breakdowns, the
- * visit list — moves together. There is no state on this page that the URL doesn't
+ * filter is one request and the whole page (KPIs, chart, all twenty breakdowns, the
+ * visit list) moves together. There is no state on this page that the URL doesn't
  * carry, which is what makes a view shareable with your future self.
  *
  * Clicking any row in any panel filters on it. That is the entire interaction model:
@@ -34,7 +34,7 @@ const nf = new Intl.NumberFormat("fr-FR");
 const n = (v: number) => nf.format(Math.round(v));
 
 function dur(seconds: number): string {
-  if (!seconds) return "—";
+  if (!seconds) return "-";
   if (seconds < 60) return `${Math.round(seconds)} s`;
   const m = Math.floor(seconds / 60);
   const s = Math.round(seconds % 60);
@@ -100,7 +100,7 @@ const PANELS: Record<string, PanelDef> = {
   exits: { id: "exits", title: "Pages de sortie", filter: "exit", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucune sortie." },
   sources: { id: "sources", title: "Sources", filter: "source", metric: "Visites", uniqLabel: "Visiteurs", extraLabel: "Rebond", extraSuffix: "%", empty: "Aucune visite." },
   mediums: { id: "mediums", title: "Canaux", filter: "medium", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucune visite." },
-  referrers: { id: "referrers", title: "Pages référentes (URL complète)", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucun référent — que du trafic direct." },
+  referrers: { id: "referrers", title: "Pages référentes (URL complète)", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucun référent, que du trafic direct." },
   campaigns: { id: "campaigns", title: "Campagnes (utm_campaign)", filter: "campaign", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucun lien taggé n'a été utilisé." },
   utmSources: { id: "utmSources", title: "Sources taggées (utm_source)", filter: "utmSource", metric: "Visites", uniqLabel: "Visiteurs", empty: "Aucun lien taggé n'a été utilisé." },
   countries: { id: "countries", title: "Pays", filter: "country", metric: "Visites", uniqLabel: "Visiteurs", render: (r) => `${flag(r.key)}  ${countryName(r.key)}`, empty: "Pas de géolocalisation (hors Vercel, l'en-tête n'existe pas)." },
@@ -232,7 +232,7 @@ function Panel({ def, rows, onPick }: { def: PanelDef; rows: Row[]; onPick: (k: 
                   {def.render ? def.render(r) : r.key}
                   {r.note ? <em className="trk-row-note">{r.note}</em> : null}
                 </span>
-                {def.extraLabel ? <span className="trk-col-extra">{r.extra !== undefined ? `${r.extra}${def.extraSuffix ?? ""}` : "—"}</span> : null}
+                {def.extraLabel ? <span className="trk-col-extra">{r.extra !== undefined ? `${r.extra}${def.extraSuffix ?? ""}` : "-"}</span> : null}
                 {def.uniqLabel ? <span className="trk-col-uniq">{n(r.uniq)}</span> : null}
                 <span className="trk-col-count">{n(r.count)}</span>
               </>
@@ -277,7 +277,7 @@ function Visit({ s, onPick }: { s: SessionRow; onPick: (k: keyof Filters, v: str
           <em>{since(s.end)}</em>
         </span>
         <span className="trk-visit-who">
-          {flag(s.cc)} {s.city ?? (s.cc ? countryName(s.cc) : "—")}
+          {flag(s.cc)} {s.city ?? (s.cc ? countryName(s.cc) : "-")}
           <em>
             {s.dev ?? "?"} · {s.br ?? "?"} · {s.lang.toUpperCase()}
           </em>
@@ -373,7 +373,7 @@ function Visit({ s, onPick }: { s: SessionRow; onPick: (k: keyof Filters, v: str
               </>
             ) : (
               <>
-                Dernière page vue : <b>{s.exit}</b> — puis plus rien (onglet fermé, ou parti sans cliquer de lien).
+                Dernière page vue : <b>{s.exit}</b>, puis plus rien (onglet fermé, ou parti sans cliquer de lien).
               </>
             )}
           </div>
@@ -475,7 +475,7 @@ export default function TrackingDashboard() {
         window.localStorage.setItem("rr_optout", "1");
         setExcluded(true);
       } catch {
-        /* storage unavailable — the exclusion is a nicety, not a requirement */
+        /* storage unavailable, the exclusion is a nicety, not a requirement */
       }
     } else {
       const body = (await res.json().catch(() => ({}))) as { error?: string };
@@ -518,7 +518,7 @@ export default function TrackingDashboard() {
       }
       setReport(body as Stats);
     } catch {
-      setError("Requête impossible — vérifie la connexion.");
+      setError("Requête impossible, vérifie la connexion.");
     } finally {
       setLoading(false);
     }
@@ -560,7 +560,7 @@ export default function TrackingDashboard() {
         <h1 className="h-md">Suivi non configuré</h1>
         <p>
           Définis <code>TRACKING_PASSWORD</code> dans les variables d'environnement Vercel, puis redéploie. Sans mot de
-          passe, cette page reste fermée — elle affiche le parcours individuel des visiteurs, ce n'est pas une page à
+          passe, cette page reste fermée, elle affiche le parcours individuel des visiteurs, ce n'est pas une page à
           laisser entrouverte.
         </p>
       </div>
@@ -764,7 +764,7 @@ export default function TrackingDashboard() {
                 key: p.key,
                 count: p.views,
                 sub: p.sessions,
-                title: `${p.key} — ${n(p.views)} pages vues, ${n(p.sessions)} visites, ${n(p.visitors)} visiteurs`,
+                title: `${p.key}, ${n(p.views)} pages vues, ${n(p.sessions)} visites, ${n(p.visitors)} visiteurs`,
               }))}
               labelOf={(key, i) => {
                 const step = Math.ceil(report.series.length / 12);
@@ -781,13 +781,13 @@ export default function TrackingDashboard() {
                 <h2>Heure de la journée</h2>
                 <span className="trk-legend">UTC</span>
               </header>
-              <Bars data={report.byHour.map((h) => ({ key: h.key, count: h.count, title: `${h.key} — ${n(h.count)} pages vues` }))} labelOf={(key, i) => (i % 3 === 0 ? key.slice(0, 2) : null)} />
+              <Bars data={report.byHour.map((h) => ({ key: h.key, count: h.count, title: `${h.key}, ${n(h.count)} pages vues` }))} labelOf={(key, i) => (i % 3 === 0 ? key.slice(0, 2) : null)} />
             </section>
             <section className="trk-block">
               <header className="trk-block-head">
                 <h2>Jour de la semaine</h2>
               </header>
-              <Bars data={report.byWeekday.map((d) => ({ key: d.key, count: d.count, title: `${d.key} — ${n(d.count)} pages vues` }))} labelOf={(key) => key.slice(0, 3)} />
+              <Bars data={report.byWeekday.map((d) => ({ key: d.key, count: d.count, title: `${d.key}, ${n(d.count)} pages vues` }))} labelOf={(key) => key.slice(0, 3)} />
             </section>
           </div>
 

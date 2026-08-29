@@ -40,15 +40,15 @@ import JsonLd from "./JsonLd";
  * grille de dates : quelqu'un qui arrive en cherchant « c'est quoi la hard techno »
  * n'y trouvait pas sa réponse, et quelqu'un qui connaît déjà le style n'y trouvait rien
  * qu'il ne sache. Le hub /genres, lui, avait déjà la fiche (tempo, origine, ce qu'on
- * entend) — c'est la page du genre qui en avait le plus besoin.
+ * entend), c'est la page du genre qui en avait le plus besoin.
  *
  * D'où la tête de page : le nom du style dans ses propres couleurs (celles de `GENRES`,
  * les mêmes que ses cartes partout ailleurs sur le site), l'accroche, le tempo qui bat
- * réellement au BPM du style, puis l'article — deux paragraphes, la fiche signalétique
+ * réellement au BPM du style, puis l'article, deux paragraphes, la fiche signalétique
  * et « ce que tu entends ». Le reste de la page est ensuite construit à partir des
  * données réelles du calendrier : les villes qui le programment (avec leur compte, sinon
  * le lien ment), les salles, les artistes, et une FAQ dont les réponses sont tirées de
- * la fiche et du catalogue — jamais écrite à la main pour un style en particulier.
+ * la fiche et du catalogue, jamais écrite à la main pour un style en particulier.
  */
 export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -66,7 +66,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
   const cityCount = new Set(live.map((e) => e.city)).size;
   const liveById = new Map(live.map((e) => [e.id, e]));
 
-  /* Les villes qui programment vraiment ce style, avec leur compte — et non les douze
+  /* Les villes qui programment vraiment ce style, avec leur compte, et non les douze
      plus gros volumes de recherche de PLACES, dont la moitié n'a aucune date du genre.
      Une pilule qui promet « Techno Bordeaux » et tombe sur une page vide vaut moins
      que pas de lien du tout. */
@@ -77,7 +77,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
      des artistes techno. `artistGenres()` rend l'attribution quand une source la donne
      (lib/artist-genres.ts), la pondération de `rankGenres()` sinon. Les deux conditions
      comptent : `x.n > 0` veut dire « il a une date à venir dans ce style », et le test
-     de genre « c'est bien ce qu'il joue » — sans le second, une affiche multi-genres
+     de genre « c'est bien ce qu'il joue », sans le second, une affiche multi-genres
      remplissait la page ; sans le premier, on afficherait un artiste sans date. */
   const artists = ARTISTS.map((a) => ({ a, n: a.eventIds.filter((id) => liveById.has(id)).length }))
     .filter((x) => x.n > 0 && artistGenres(x.a).includes(genre))
@@ -94,7 +94,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
       .map((id) => liveById.get(id))
       .filter((e): e is NonNullable<typeof e> => Boolean(e))
       .sort((a, b) => a.date.localeCompare(b.date));
-    /* La photo d'une salle est partagée par toutes ses dates, passées comprises — et
+    /* La photo d'une salle est partagée par toutes ses dates, passées comprises, et
        seules celles marquées `kind: "venue"` montrent le lieu et pas l'affiche du soir. */
     const shot = v.eventIds
       .map((id) => byId.get(id))
@@ -108,7 +108,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
     .slice(0, 6);
 
   /* Les affiches des trois prochaines dates, en tête de page : de vraies images avec
-     leur `alt`, pas un fond CSS — c'est la règle du repo, et c'est aussi ce qui rend la
+     leur `alt`, pas un fond CSS, c'est la règle du repo, et c'est aussi ce qui rend la
      tête de page vivante sans inventer de décor. */
   const stack = live.filter((e) => imageThumb(e)).slice(0, 3);
 
@@ -127,15 +127,15 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
     lang === "fr"
       ? `${live.length} événement${live.length > 1 ? "s" : ""} ${genre} à venir en Europe${
           countryNames ? ` (${countryNames})` : ""
-        }. Dates, line-ups, lieux et billetterie officielle — mis à jour en continu.`
+        }. Dates, line-ups, lieux et billetterie officielle, mis à jour en continu.`
       : `${live.length} upcoming ${genre} event${live.length > 1 ? "s" : ""} across Europe${
           countryNames ? ` (${countryNames})` : ""
-        }. Dates, line-ups, venues and official ticketing — updated continuously.`;
+        }. Dates, line-ups, venues and official ticketing, updated continuously.`;
 
   /* La FAQ est engendrée par la fiche du style et par le calendrier : aucune réponse
      n'est écrite à la main pour un genre en particulier, donc aucune ne se périme sans
      qu'on s'en aperçoive. Elle est aussi éligible au résultat enrichi, ce qu'une colonne
-     de liens ne sera jamais — même raison que sur /genres, /artistes et /lieux. */
+     de liens ne sera jamais, même raison que sur /genres, /artistes et /lieux. */
   const faq: [string, string][] = !prof
     ? []
     : lang === "fr"
@@ -192,7 +192,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          itemListJsonLd(events, lang, `${genre} — RaveRadar`, today),
+          itemListJsonLd(events, lang, `${genre}, RaveRadar`, today),
           faqJsonLd(faq),
         ]}
       />
@@ -514,7 +514,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
             </>
           )}
 
-          {/* ---- Les autres styles, présentés — pas une rangée de pilules nues ---- */}
+          {/* ---- Les autres styles, présentés, pas une rangée de pilules nues ---- */}
           <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
             {t("genre.othergenres")}
           </h2>

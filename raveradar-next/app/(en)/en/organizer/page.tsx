@@ -4,7 +4,7 @@ import OrganizerView from "@/components/OrganizerView";
 
 export const metadata: Metadata = {
   alternates: alternates("/organizer", "en"),
-  title: "For organizers — publish your event | RaveRadar",
+  title: "For organizers - publish your event | RaveRadar",
   description: "Publish your party or festival, manage the line-up and link your ticketing. Reach 180,000+ ravers.",
 };
 

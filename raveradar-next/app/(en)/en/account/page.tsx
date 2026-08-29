@@ -4,7 +4,7 @@ import AccountView from "@/components/AccountView";
 
 export const metadata: Metadata = {
   alternates: alternates("/account", "en"),
-  title: "My account — Favourites & alerts | RaveRadar",
+  title: "My account - Favourites & alerts | RaveRadar",
 };
 
 export default function Page() {

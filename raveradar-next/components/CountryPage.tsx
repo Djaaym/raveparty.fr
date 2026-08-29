@@ -39,10 +39,10 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
   const intro =
     lang === "fr"
       ? `${live.length} événement${live.length > 1 ? "s" : ""} de musique électronique à venir en ${label}${
-          cities.length ? ` — ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
+          cities.length ? `, ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
         }. Festivals, clubs et warehouses : dates, line-ups et billetterie officielle, mis à jour en continu.`
       : `${live.length} upcoming electronic music event${live.length > 1 ? "s" : ""} in ${label}${
-          cities.length ? ` — ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
+          cities.length ? `, ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
         }. Festivals, clubs and warehouses: dates, line-ups and official ticketing, updated continuously.`;
 
   const faq: [string, string][] =
@@ -65,7 +65,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
           ],
           [
             `Comment acheter ses billets ?`,
-            `Chaque fiche renvoie vers la billetterie officielle de l'organisateur. On n'affiche jamais de revente, et le prix indiqué est le tarif d'entrée le plus bas connu — signalé comme « indicatif » tant qu'il n'est pas confirmé.`,
+            `Chaque fiche renvoie vers la billetterie officielle de l'organisateur. On n'affiche jamais de revente, et le prix indiqué est le tarif d'entrée le plus bas connu, signalé comme « indicatif » tant qu'il n'est pas confirmé.`,
           ],
         ]
       : [
@@ -86,7 +86,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
           ],
           [
             `How do I buy tickets?`,
-            `Every listing links to the promoter's official ticket shop. We never show resale, and the price shown is the lowest known entry price — flagged as indicative until it is confirmed.`,
+            `Every listing links to the promoter's official ticket shop. We never show resale, and the price shown is the lowest known entry price, flagged as indicative until it is confirmed.`,
           ],
         ];
 

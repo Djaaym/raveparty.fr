@@ -9,7 +9,7 @@ type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
 
 /**
  * The one place a visitor hands over an address. Dropped onto an artist page, a city
- * page, a genre page — anywhere the copy already promised an alert.
+ * page, a genre page, anywhere the copy already promised an alert.
  *
  * It never claims success it didn't get: a 501 (no provider wired up yet) renders as
  * "not available", not as a confirmation, because a fake toast is exactly the problem
@@ -106,7 +106,7 @@ export default function AlertForm({
             if (state !== "sending") setState("idle");
           }}
         />
-        {/* Off-screen rather than display:none — some bots skip what is hidden outright. */}
+        {/* Off-screen rather than display:none, some bots skip what is hidden outright. */}
         <input
           className="hp"
           tabIndex={-1}

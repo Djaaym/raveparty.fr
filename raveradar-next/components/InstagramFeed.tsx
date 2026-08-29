@@ -12,7 +12,7 @@ import { embedUrl, postUrl } from "@/lib/instagram";
  *    l'affichage de la page. Poser six traceurs tiers sur chaque fiche parce qu'on trouve
  *    ça joli n'est pas défendable, et le reste du site ne le fait nulle part ailleurs.
  * 2. **Performance.** Six embeds, c'est plusieurs mégaoctets de JavaScript tiers sur une
- *    page dont le contenu utile — dates, line-up, billetterie — tient en quelques Ko.
+ *    page dont le contenu utile (dates, line-up, billetterie) tient en quelques Ko.
  *
  * D'où le rendu en deux temps. Par défaut : six tuiles qui sont de vrais liens `<a>` vers
  * les posts, indexables, sans une seule requête vers Meta. Au clic sur le bouton, les

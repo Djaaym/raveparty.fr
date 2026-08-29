@@ -3,7 +3,7 @@
  * Prépare et vérifie un compte Brevo pour les alertes RaveRadar.
  *
  * Brevo refuse un attribut personnalisé qui n'a pas été déclaré dans le compte au
- * préalable — c'est l'erreur de configuration la plus probable, et elle ferait échouer
+ * préalable, c'est l'erreur de configuration la plus probable, et elle ferait échouer
  * toutes les inscriptions. Ce script crée les cinq attributs, vérifie que la clé et la
  * liste existent, et se termine en résumant ce qu'il a trouvé. Il est idempotent :
  * relance-le autant de fois que tu veux.
@@ -40,7 +40,7 @@ async function main() {
     process.exit(1);
   }
   const { email, plan } = await account.json();
-  console.log(`✓ Clé valide — compte ${email}`);
+  console.log(`✓ Clé valide, compte ${email}`);
   const free = (plan ?? []).find((p) => p.type === "free");
   if (free) console.log(`  Offre gratuite : ${free.credits ?? "?"} crédits restants aujourd'hui`);
 
@@ -50,7 +50,7 @@ async function main() {
     process.exit(1);
   }
   const { name, totalSubscribers } = await list.json();
-  console.log(`✓ Liste ${LIST} « ${name} » — ${totalSubscribers} contact(s)`);
+  console.log(`✓ Liste ${LIST} « ${name} », ${totalSubscribers} contact(s)`);
 
   const existing = await api("/contacts/attributes");
   const known = new Set(((await existing.json()).attributes ?? []).map((a) => a.name));
@@ -71,7 +71,7 @@ async function main() {
   console.log("\n✓ Prêt. Pose ces variables dans Vercel > Settings > Environment Variables :");
   console.log(`    BREVO_API_KEY=${KEY.slice(0, 12)}…`);
   console.log(`    BREVO_LIST_ID=${LIST}`);
-  console.log("  puis redéploie — /api/alerts passera de 501 à 200.");
+  console.log("  puis redéploie, /api/alerts passera de 501 à 200.");
 }
 
 main().catch((err) => {

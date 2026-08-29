@@ -146,7 +146,7 @@
  },
  {
   "name": "Jan Vervloet",
-  "bio_fr": "Jan Vervloet est un producteur et DJ belge actif depuis 1991. Connu pour ses projets dance grand public — Fiocco, Scoop, D.H.T. —, il a publié plus d'une centaine de titres sous différents alias, entre rave, hardcore, techno, progressive house, trance et electro. Fiocco, formé à Anvers, a placé « Afflitto » neuf semaines en tête des charts dance belges avant de se diffuser dans le reste de l'Europe.",
+  "bio_fr": "Jan Vervloet est un producteur et DJ belge actif depuis 1991. Connu pour ses projets dance grand public, Fiocco, Scoop, D.H.T., il a publié plus d'une centaine de titres sous différents alias, entre rave, hardcore, techno, progressive house, trance et electro. Fiocco, formé à Anvers, a placé « Afflitto » neuf semaines en tête des charts dance belges avant de se diffuser dans le reste de l'Europe.",
   "bio_en": "Jan Vervloet is a Belgian producer and DJ active since 1991. Known for mainstream dance projects such as Fiocco, Scoop and D.H.T., he has released more than a hundred tracks under various aliases, spanning rave, hardcore, techno, progressive house, trance and electro. Fiocco, formed in Antwerp, held the Belgian dance charts' number one spot for nine weeks with \"Afflitto\" before breaking through the rest of Europe.",
   "origin": "Anvers, Belgique",
   "since": 1991,
@@ -193,8 +193,8 @@
  },
  {
   "name": "Barber",
-  "bio_fr": "Barber, de son vrai nom Jordi Blok, est un producteur et DJ néerlandais d'uptempo hardcore. Il publie sa première sortie officielle en 2017 et dirige le label Barbaric Records, consacré à ce style. Il joue sur les grandes affiches hardcore néerlandaises — Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore — et se produit aussi au sein du live Barbaric Records LIVE.",
-  "bio_en": "Barber, real name Jordi Blok, is a Dutch uptempo hardcore producer and DJ. His first official release came out in 2017 and he runs Barbaric Records, a label devoted to the style. He plays the major Dutch hardcore bills — Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore — and also performs as part of the Barbaric Records LIVE act.",
+  "bio_fr": "Barber, de son vrai nom Jordi Blok, est un producteur et DJ néerlandais d'uptempo hardcore. Il publie sa première sortie officielle en 2017 et dirige le label Barbaric Records, consacré à ce style. Il joue sur les grandes affiches hardcore néerlandaises (Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore) et se produit aussi au sein du live Barbaric Records LIVE.",
+  "bio_en": "Barber, real name Jordi Blok, is a Dutch uptempo hardcore producer and DJ. His first official release came out in 2017 and he runs Barbaric Records, a label devoted to the style. He plays the major Dutch hardcore bills (Thunderdome, Defqon.1, Dominator, Decibel Outdoor, Harmony of Hardcore) and also performs as part of the Barbaric Records LIVE act.",
   "origin": "Pays-Bas",
   "since": 2017,
   "labels": [
@@ -281,8 +281,8 @@
  },
  {
   "name": "36framez",
-  "bio_fr": "36framez est une DJ néerlandaise installée à Utrecht, également photographe de nuit. Elle joue en vinyle et son bac est entièrement house — rythmiques nerveuses portées par des voix queer, grooves deep et soul, et quelques disques à contre-emploi. Elle a joué à IsBurning, au Radion, à BRET et au festival ZeeZout.",
-  "bio_en": "36framez is a Dutch DJ based in Utrecht who also works as a nightlife photographer. She plays vinyl and her record bag is all house — punchy rhythms carried by queer vocals, deep and soulful grooves, and the odd curveball. She has played IsBurning, Radion, BRET and the ZeeZout festival.",
+  "bio_fr": "36framez est une DJ néerlandaise installée à Utrecht, également photographe de nuit. Elle joue en vinyle et son bac est entièrement house, rythmiques nerveuses portées par des voix queer, grooves deep et soul, et quelques disques à contre-emploi. Elle a joué à IsBurning, au Radion, à BRET et au festival ZeeZout.",
+  "bio_en": "36framez is a Dutch DJ based in Utrecht who also works as a nightlife photographer. She plays vinyl and her record bag is all house, punchy rhythms carried by queer vocals, deep and soulful grooves, and the odd curveball. She has played IsBurning, Radion, BRET and the ZeeZout festival.",
   "origin": "Utrecht, Pays-Bas",
   "sources": [
    "https://www.zeezout.info/event/zeezout-festival"

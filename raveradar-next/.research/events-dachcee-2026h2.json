@@ -123,7 +123,7 @@
     "trending": false,
     "lineup": ["Clara Cuvé"],
     "desc": "La Berlinoise Clara Cuvé descend au Roxy de Prague avec le techno rapide et groovy qui l'a fait connaître, ponctué d'échappées jungle et hardcore. Portes à 23h, premiers tarifs à 490 Kč.",
-    "descEn": "Berlin's Clara Cuvé brings her fast, groovy techno — laced with bursts of jungle and hardcore — to Prague's Roxy. Doors at 11pm, early-bird tickets from 490 CZK.",
+    "descEn": "Berlin's Clara Cuvé brings her fast, groovy techno, laced with bursts of jungle and hardcore, to Prague's Roxy. Doors at 11pm, early-bird tickets from 490 CZK.",
     "ticketUrl": "https://www.roxy.cz/en/events/detail/5043/clara-cuve",
     "sources": ["https://www.roxy.cz/en/events/detail/5043/clara-cuve"]
   },
@@ -270,7 +270,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Flashback Techno Classics — Summer Edition",
+    "title": "Flashback Techno Classics - Summer Edition",
     "type": "Club",
     "genres": ["Techno"],
     "city": "Vienna",
@@ -417,7 +417,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Obsession — Kozlov, Luciid & Vendex",
+    "title": "Obsession - Kozlov, Luciid & Vendex",
     "type": "Club",
     "genres": ["Hard Techno"],
     "city": "Poznań",
@@ -522,7 +522,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Psy Clan — Juno Reactor",
+    "title": "Psy Clan - Juno Reactor",
     "type": "Club",
     "genres": ["Psytrance"],
     "city": "Poznań",
@@ -565,7 +565,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Eric Prydz — OpenAir Corner",
+    "title": "Eric Prydz - OpenAir Corner",
     "type": "Warehouse",
     "genres": ["House", "Techno"],
     "city": "Belgrade",
@@ -647,7 +647,7 @@
     "sources": ["https://www.sofialive.bg/arts/music/modestep-objavi-goljamo-klubno-shou-v-bylgarija-2598819.html", "https://www.songkick.com/metro-areas/26892-bulgaria-sofia/genre/electronic"]
   },
   {
-    "title": "TMF — Trier Music Festival",
+    "title": "TMF - Trier Music Festival",
     "type": "Festival",
     "genres": ["Hardstyle", "EDM", "Hard Techno"],
     "city": "Trier",
@@ -683,8 +683,8 @@
     "venue": "Arena Națională",
     "trending": true,
     "lineup": [],
-    "desc": "Le festival de Bucarest porté par l'équipe d'UNTOLD revient à l'Arena Națională du 2 au 4 juillet 2027, après le report de l'édition 2026. Trois scènes — Mainstage, The Ark et Temple — pour un programme qui mêle EDM, techno et grands noms live.",
-    "descEn": "Bucharest's festival from the UNTOLD team returns to Arena Națională on 2-4 July 2027, after the 2026 edition was postponed. Three stages — Mainstage, The Ark and Temple — mixing EDM, techno and major live acts.",
+    "desc": "Le festival de Bucarest porté par l'équipe d'UNTOLD revient à l'Arena Națională du 2 au 4 juillet 2027, après le report de l'édition 2026. Trois scènes (Mainstage, The Ark et Temple) pour un programme qui mêle EDM, techno et grands noms live.",
+    "descEn": "Bucharest's festival from the UNTOLD team returns to Arena Națională on 2-4 July 2027, after the 2026 edition was postponed. Three stages (Mainstage, The Ark and Temple) mixing EDM, techno and major live acts.",
     "ticketUrl": "https://www.iabilet.ro/bilete-kapital-festival-124238/",
     "sources": ["https://www.iabilet.ro/bilete-kapital-festival-124238/", "https://www.infomusic.ro/2026/07/data-oficiala-kapital-festival-2027/"],
     "note": "tarif non communiqué, ne signifie pas gratuit"
@@ -711,7 +711,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Playhard — Luca Agnelli",
+    "title": "Playhard - Luca Agnelli",
     "type": "Club",
     "genres": ["Hard Techno"],
     "city": "Lausanne",
@@ -732,7 +732,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Hard Cœur — Creeds",
+    "title": "Hard Cœur - Creeds",
     "type": "Club",
     "genres": ["Hardcore", "Hardstyle"],
     "city": "Lausanne",
@@ -753,7 +753,7 @@
     "note": "tarif non communiqué, ne signifie pas gratuit"
   },
   {
-    "title": "Subset — Wilkinson",
+    "title": "Subset - Wilkinson",
     "type": "Club",
     "genres": ["Drum & Bass"],
     "city": "Lausanne",
@@ -809,8 +809,8 @@
     "venue": "Roxy",
     "trending": false,
     "lineup": ["James Hype"],
-    "desc": "Le Britannique James Hype joue un dimanche soir au Roxy — le lundi est férié en Tchéquie —, avec le mix acrobatique et les tubes house qui l'ont rendu viral. Portes à 23h, early birds à 730 Kč.",
-    "descEn": "Britain's James Hype plays a Sunday night at Roxy — Monday is a public holiday in Czechia — with the acrobatic mixing and house hits that made him go viral. Doors 11pm, early birds 730 CZK.",
+    "desc": "Le Britannique James Hype joue un dimanche soir au Roxy, le lundi est férié en Tchéquie, avec le mix acrobatique et les tubes house qui l'ont rendu viral. Portes à 23h, early birds à 730 Kč.",
+    "descEn": "Britain's James Hype plays a Sunday night at Roxy, Monday is a public holiday in Czechia, with the acrobatic mixing and house hits that made him go viral. Doors 11pm, early birds 730 CZK.",
     "ticketUrl": "https://www.roxy.cz/en/events/detail/5095/james-hype",
     "sources": ["https://www.roxy.cz/en/events/detail/5095/james-hype"]
   },

@@ -5,8 +5,8 @@
   python3 .research/photos/ingest.py           # télécharge, optimise, patche data.ts
 
 Pour chaque URL retenue on produit deux fichiers dans public/posters/ :
-  {slug}.jpg       ratio d'origine, ≤1200 px — Open Graph et JSON-LD
-  {slug}_min.webp  crop 4:5 à 560×700       — le poster des cartes
+  {slug}.jpg       ratio d'origine, ≤1200 px, Open Graph et JSON-LD
+  {slug}_min.webp  crop 4:5 à 560×700      , le poster des cartes
 
 Deux événements qui pointent la même URL (une photo de salle partagée par toutes
 ses dates) partagent le même fichier : la dédup se fait sur l'URL *et* sur le
@@ -56,7 +56,7 @@ def candidates(url: str):
     """URLs à essayer dans l'ordre.
 
     Les vignettes Commons arrivent souvent en 220px, trop petites pour une carte.
-    Attention : upload.wikimedia.org ne sert *que* des largeurs standard — 960,
+    Attention : upload.wikimedia.org ne sert *que* des largeurs standard, 960,
     1280 et 1920 répondent, 1024/1200/1600 renvoient un 400. D'où la cascade,
     qui finit sur le fichier d'origine (hors /thumb/).
     """
@@ -177,7 +177,7 @@ CRED_START, CRED_END = "/* PHOTO_CREDITS:start */\n", "/* PHOTO_CREDITS:end */"
 
 
 def commons_credit(row):
-    """(auteur, licence, page) pour une image Commons — sinon None.
+    """(auteur, licence, page) pour une image Commons, sinon None.
 
     Une affiche d'organisateur se reprend telle quelle : c'est lui qui la diffuse pour
     annoncer sa soirée. Un fichier Commons n'est réutilisable **qu'à la condition** de
@@ -226,7 +226,7 @@ def patch_data_ts(mapping, events, dry, drop=()):
 
     La map est reconstruite intégralement à chaque passage, ce qui a un effet de bord
     dangereux : une URL qui échoue *ce jour-là* disparaît de `mapping`, donc de la map,
-    et l'événement repasse au dégradé de genre — alors que son fichier est toujours dans
+    et l'événement repasse au dégradé de genre, alors que son fichier est toujours dans
     `public/posters/`. Il suffit d'un 429 de Commons ou d'un site momentanément à terre
     pour retirer d'un coup des dizaines d'images en production, sans que rien ne
     l'annonce. On réinjecte donc l'entrée précédente quand son fichier existe encore :
@@ -256,7 +256,7 @@ def patch_data_ts(mapping, events, dry, drop=()):
             continue
         e = events[eid]
         title = e["title"].replace("*/", "")
-        lines.append(f'  {eid}: "{mapping[eid]}", // {title} — {e["city"]}')
+        lines.append(f'  {eid}: "{mapping[eid]}", // {title}, {e["city"]}')
     body = "export const PHOTOS: Record<number, string> = {\n" + "\n".join(lines) + "\n};\n"
     i, j = src.index(START) + len(START), src.index(END)
     new = src[:i] + body + src[j:]
@@ -317,10 +317,10 @@ def main():
         by_url.setdefault(e["url"], []).append(e)
 
     # Les lots s'accumulent, et chaque passage retéléchargeait l'intégralité de
-    # l'historique — 513 URLs pour 290 nouveautés. Ce n'est pas seulement lent : les
+    # l'historique, 513 URLs pour 290 nouveautés. Ce n'est pas seulement lent : les
     # hôtes finissent par nous limiter, et un run a passé deux heures à s'acharner sur
     # les fichiers Commons des anciens lots, tous déjà sur le disque, sans en obtenir
-    # un seul. On saute donc ce qui est déjà ingéré et dont le fichier est là — le
+    # un seul. On saute donc ce qui est déjà ingéré et dont le fichier est là, le
     # résultat est identique, `patch_data_ts()` réinjectant ces entrées de toute façon.
     mapping, by_hash, rejected = {}, {}, []
     src_now = DATA_TS.read_text()
@@ -333,12 +333,12 @@ def main():
         for u in skipped_urls:
             # On reporte le fichier déjà connu dans `mapping` au lieu d'oublier l'entrée :
             # sauter un téléchargement ne doit pas revenir à sauter l'événement. Sans ça,
-            # un run où tout est déjà ingéré finit avec un `mapping` vide — et la map
+            # un run où tout est déjà ingéré finit avec un `mapping` vide, et la map
             # n'est alors pas réécrite du tout, donc aucun retrait volontaire ne s'applique.
             for g in by_url[u]:
                 mapping[g["id"]] = done[g["id"]]
             del by_url[u]
-        print(f"{len(skipped_urls)} URL(s) déjà ingérées et présentes sur disque — ignorées "
+        print(f"{len(skipped_urls)} URL(s) déjà ingérées et présentes sur disque, ignorées "
               f"(--refetch pour les reprendre)")
     print(f"{len(by_url)} URLs distinctes à télécharger\n")
 
@@ -393,7 +393,7 @@ def main():
     n = patch_data_ts(mapping, events, args.dry, {e[0] for e in unattributed})
     nc = patch_credits_ts(credits, events, args.dry)
     still = [i for i in events if i not in already and i not in mapping]
-    print(f"\n{'—' * 60}")
+    print(f"\n{'-' * 60}")
     print(f"photos retenues        : {len(mapping)} événements / {len(by_hash)} fichiers")
     print(f"crédits Commons        : {nc} (auteur + licence affichés sous l'image)")
     print(f"rejets                 : {len(rejected)} URLs")

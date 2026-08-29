@@ -9,19 +9,19 @@ Pourquoi une récolte automatique plutôt que des agents seuls : on a 1 887 arti
 et un modèle qui « se souvient » du style d'un DJ de club allemand se trompe sans
 qu'on puisse le savoir. Ces trois sources publient une donnée qu'on peut citer :
 
-- **Last.fm** (`/music/{nom}/+tags`) — les tags de la communauté, classés par
+- **Last.fm** (`/music/{nom}/+tags`), les tags de la communauté, classés par
   popularité. C'est la source la plus dense pour l'électronique : « hard techno »,
   « rawstyle », « neurofunk » y sont posés par des milliers d'auditeurs. Bruitée
   (des noms de pays, des blagues), donc filtrée en aval par la table de
   correspondance, jamais reprise telle quelle.
-- **MusicBrainz** — l'état civil : type (personne / groupe), pays, année de début,
+- **MusicBrainz**, l'état civil : type (personne / groupe), pays, année de début,
   désambiguïsation, et surtout les *relations* vers Wikidata, Discogs et le site
   officiel. Un req/s maximum, c'est la règle du service.
-- **Wikidata** — P136 (genre musical), P18 (image), P27 (nationalité), P569. C'est
+- **Wikidata**, P136 (genre musical), P18 (image), P27 (nationalité), P569. C'est
   la seule source qui donne une photo dont la licence est explicite.
 
 Rien n'est écrit dans l'app par ce script : il dépose du brut dans harvest/, que
-`genres.py` interprète. Reprise possible — chaque source garde son fichier et
+`genres.py` interprète. Reprise possible, chaque source garde son fichier et
 saute ce qu'elle a déjà.
 """
 import argparse, json, re, sys, time, unicodedata, urllib.parse
@@ -97,7 +97,7 @@ SHARD_K, SHARD_N = 0, 1
 
 # Découpage en lots parallèles. La latence vient de la file d'attente du proxy, pas du
 # service : trois travailleurs sur des tranches disjointes rendent trois fois plus dans
-# le même temps. Chacun écrit **son** fichier — deux processus sur un même JSON se
+# le même temps. Chacun écrit **son** fichier - deux processus sur un même JSON se
 # recouvriraient l'un l'autre à chaque sauvegarde.
 SHARD = ""
 
@@ -176,7 +176,7 @@ def mb(artists: dict, limit: int) -> None:
         name = artists[slug]["name"]
         q = urllib.parse.quote(f'artist:"{name}"')
         # MusicBrainz répond **503** quand l'IP dépasse sa limite d'une requête par
-        # seconde — et l'IP est celle du proxy, donc partagée. Traiter ce 503 comme une
+        # seconde, et l'IP est celle du proxy, donc partagée. Traiter ce 503 comme une
         # réponse enregistrerait « artiste introuvable » pour quelqu'un que la base
         # connaît, et un faux négatif de ce genre ne se revoit jamais : la ligne est
         # écrite, et la reprise la saute.
@@ -226,7 +226,7 @@ def mb(artists: dict, limit: int) -> None:
 
 # ---------------------------------------------------------------- Wikidata
 def wd(artists: dict, limit: int) -> None:
-    """Genres (P136), photo (P18), nationalité (P27) — pour les artistes qui ont un
+    """Genres (P136), photo (P18), nationalité (P27), pour les artistes qui ont un
     MBID, via la propriété P434 (MusicBrainz artist ID). Une recherche par nom
     ramènerait des homonymes ; l'identifiant, non."""
     mbdata = load("mb")
@@ -284,7 +284,7 @@ def discogs(artists: dict, limit: int) -> None:
     champ « genre ». Mais la recherche de sorties par nom d'artiste rend, pour chaque
     disque, un `genre` grossier (« Electronic ») et un `style` fin (« Hard Techno »,
     « Tech House », « Neurofunk »). Compter les styles de la discographie donne le
-    profil le plus précis qu'on puisse obtenir sans lire une biographie — et il est
+    profil le plus précis qu'on puisse obtenir sans lire une biographie, et il est
     daté, ce qu'aucune autre source ne donne : un producteur passé de la trance à la
     techno le montre dans ses sorties.
 
@@ -333,7 +333,7 @@ def wdlabel(artists: dict, limit: int) -> None:
 
     La route prévue au départ était MusicBrainz → P434 → Wikidata. Elle est correcte
     mais impraticable ici : MusicBrainz limite à une requête par seconde **par IP**, et
-    l'IP est celle du proxy, partagée — on encaissait 40 % de 503 et un débit d'environ
+    l'IP est celle du proxy, partagée, on encaissait 40 % de 503 et un débit d'environ
     une fiche par minute, soit dix-huit heures pour le catalogue.
 
     Wikidata accepte au contraire **soixante noms par requête** en SPARQL : trente-deux
@@ -343,7 +343,7 @@ def wdlabel(artists: dict, limit: int) -> None:
     - le libellé doit correspondre **exactement** (`rdfs:label`, pas une recherche floue) ;
     - l'entité doit être un musicien, un DJ, un producteur ou un groupe (P106 / P31) ;
     - **deux entités pour un même nom = on n'écrit rien.** C'est la règle « Jazzy » : sans
-      moyen de trancher, une fiche vide vaut mieux qu'une fiche fausse — et ici l'enjeu
+      moyen de trancher, une fiche vide vaut mieux qu'une fiche fausse, et ici l'enjeu
       n'est pas qu'une étiquette de genre, c'est le visage affiché sur la page de
       quelqu'un.
     """
@@ -417,7 +417,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "wdlabel", "discogs", "list"])
     ap.add_argument("--limit", type=int, default=10**6)
-    ap.add_argument("--shard", default="", help="k/n — ce lot traite un artiste sur n")
+    ap.add_argument("--shard", default="", help="k/n, ce lot traite un artiste sur n")
     a = ap.parse_args()
     global SHARD, SHARD_K, SHARD_N
     if a.shard:

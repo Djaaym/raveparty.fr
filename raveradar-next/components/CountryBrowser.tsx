@@ -8,7 +8,7 @@ import EventCard from "./EventCard";
 
 /**
  * Le catalogue arrive en prop (`cardEvents()`, voir lib/data.ts) et n'est plus importé :
- * importer le catalogue depuis un composant client embarque tout `lib/data.ts` — ici
+ * importer le catalogue depuis un composant client embarque tout `lib/data.ts`, ici
  * 218 Ko compressés dans le JavaScript de la page d'accueil pour afficher huit cartes.
  */
 export default function CountryBrowser({ lang, today, events }: { lang: Lang; today: string; events: CardEvent[] }) {

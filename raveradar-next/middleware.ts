@@ -10,7 +10,7 @@ import { RENAMED_ARTIST_SLUGS, RENAMED_EVENT_SLUGS } from "@/lib/renamed";
  * anciennes pages `/show/`). Le mapping vit dans `lib/renamed.ts`.
  *
  * Ici et pas dans la page : un `permanentRedirect()` à l'intérieur d'une page
- * **prérendue** renvoie un 308 dépourvu d'en-tête `Location` — la destination
+ * **prérendue** renvoie un 308 dépourvu d'en-tête `Location`, la destination
  * n'existe plus que dans un méta-refresh du HTML. Le middleware répond avant tout
  * rendu, donc avec un vrai `Location`, et sans forcer la route en dynamique (ce qui
  * aurait coûté la génération statique des 300+ fiches festival).

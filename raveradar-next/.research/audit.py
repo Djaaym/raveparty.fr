@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit d'intégrité du catalogue — étape 3 du protocole « Ajouter des événements
+"""Audit d'intégrité du catalogue, étape 3 du protocole « Ajouter des événements
 en masse » (voir CLAUDE.md). À lancer après chaque `merge.py`.
 
     python3 .research/audit.py
@@ -28,7 +28,7 @@ src = open(os.path.join(ROOT, "lib/data.ts")).read()
 # Les couleurs de genre et les libellés de pays ont quitté data.ts pour `lib/display.ts`,
 # un module feuille : un composant client qui importe le catalogue embarque ses 830 Ko
 # dans le bundle du navigateur (voir l'en-tête de display.ts). Même chose pour `PLACES`,
-# passé dans `lib/places-list.ts`. L'audit lit donc les deux fichiers, concaténés — il
+# passé dans `lib/places-list.ts`. L'audit lit donc les deux fichiers, concaténés - il
 # ne cherche que des déclarations, l'ordre n'a pas d'importance.
 src += "\n" + open(os.path.join(ROOT, "lib/display.ts")).read()
 places_src = (open(os.path.join(ROOT, "lib/places.ts")).read()
@@ -40,7 +40,7 @@ GENRES = set(re.findall(r'^  "?([A-Za-z &]+?)"?: \{ c1:', src, re.M))
 PAIR = re.compile(r'(?:"([^"]+)"|([A-Za-z][\w]*))\s*:\s*"([^"]+)"')
 def parse_map(name):
     # Ancré sur la déclaration : depuis que ces maps vivent dans `lib/display.ts`,
-    # `data.ts` en contient aussi le *nom*, dans sa ligne d'import — la chercher sans
+    # `data.ts` en contient aussi le *nom*, dans sa ligne d'import, la chercher sans
     # `export const` tombait dessus et rendait une map vide, donc tout le catalogue
     # « absent de COUNTRY_FR ».
     body = re.search(rf'export const {name}[^{{]*\{{(.*?)\n\}};', src, re.S).group(1)

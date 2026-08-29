@@ -2,7 +2,7 @@ import type { Lang } from "./types";
 
 /**
  * What a visitor can be alerted about. Each kind maps to a page that already exists,
- * because an alert is only ever offered from the thing it watches — an artist alert
+ * because an alert is only ever offered from the thing it watches, an artist alert
  * from `/artistes/{slug}`, a city alert from `/rave-party/{slug}`.
  */
 export type AlertKind = "artist" | "city" | "genre" | "country" | "newsletter";
@@ -12,7 +12,7 @@ export const ALERT_KINDS: AlertKind[] = ["artist", "city", "genre", "country", "
 export interface AlertInput {
   email: string;
   kind: AlertKind;
-  /** Slug of the watched thing — empty for the plain newsletter. */
+  /** Slug of the watched thing, empty for the plain newsletter. */
   value: string;
   /** Human label as shown on the page ("Charlotte de Witte", "Paris"). */
   label: string;
@@ -32,7 +32,7 @@ export const alertKey = (kind: AlertKind, value: string) => `${kind}:${value}`;
 
 /**
  * Deliberately permissive: this guards the API against junk and typos, not against a
- * determined attacker — the provider does the real address validation, and anything
+ * determined attacker, the provider does the real address validation, and anything
  * stricter starts rejecting valid addresses (apostrophes, new TLDs, plus-addressing).
  */
 export function isEmail(raw: string): boolean {
@@ -71,13 +71,13 @@ export function parseAlert(body: unknown): AlertInput | null {
 export function alertSummary(a: AlertInput): string {
   switch (a.kind) {
     case "artist":
-      return `Artiste — ${a.label}`;
+      return `Artiste, ${a.label}`;
     case "city":
-      return `Ville — ${a.label}`;
+      return `Ville, ${a.label}`;
     case "genre":
-      return `Genre — ${a.label}`;
+      return `Genre, ${a.label}`;
     case "country":
-      return `Pays — ${a.label}`;
+      return `Pays, ${a.label}`;
     default:
       return "Newsletter";
   }

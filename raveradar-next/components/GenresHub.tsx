@@ -18,7 +18,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
   const today = todayISO();
   const live = upcoming(undefined, today);
   const liveIds = new Set(live.map((e) => e.id));
-  // Artists with a date still to come — the ones worth sending link equity to.
+  // Artists with a date still to come, the ones worth sending link equity to.
   const artists = ARTISTS.filter((a) => a.eventIds.some((id) => liveIds.has(id)))
     .sort((a, b) => b.eventIds.length - a.eventIds.length)
     .slice(0, 30);
@@ -34,7 +34,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
 
   /* Ce qui remplace le mur de 90 villes en bas de page. Une page qui existe pour
      expliquer des styles doit répondre aux questions qu'on se pose vraiment à leur
-     sujet — et une FAQ est aussi ce que Google affiche en résultat enrichi, ce qu'une
+     sujet, et une FAQ est aussi ce que Google affiche en résultat enrichi, ce qu'une
      colonne de liens ne fera jamais. Les réponses tirent leurs faits de lib/genres.ts. */
   const faq: [string, string][] =
     lang === "fr"
@@ -45,7 +45,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
           ],
           [
             "C'est quoi le BPM, et pourquoi ça compte ?",
-            "Le BPM (battements par minute) est la vitesse du morceau, et c'est le repère le plus fiable pour situer un style : la house tourne autour de 125, la techno 130-140, la drum & bass 174, le hardcore au-delà de 180. Chaque fiche de genre ci-dessus affiche sa fourchette — un tempo est un usage courant, pas une règle.",
+            "Le BPM (battements par minute) est la vitesse du morceau, et c'est le repère le plus fiable pour situer un style : la house tourne autour de 125, la techno 130-140, la drum & bass 174, le hardcore au-delà de 180. Chaque fiche de genre ci-dessus affiche sa fourchette, un tempo est un usage courant, pas une règle.",
           ],
           [
             "Je débute : par quel genre commencer ?",
@@ -53,7 +53,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
           ],
           [
             "Warehouse, c'est un style de musique ?",
-            "Non, et c'est assumé : c'est un lieu — entrepôt, hangar, ancienne usine. On le garde comme catégorie parce que c'est ce que les gens cherchent, et parce que le format change réellement la soirée : sono surdimensionnée, béton, pas d'heure de fin. Ce qu'on y joue, c'est surtout de la techno et de la hard techno.",
+            "Non, et c'est assumé : c'est un lieu, entrepôt, hangar, ancienne usine. On le garde comme catégorie parce que c'est ce que les gens cherchent, et parce que le format change réellement la soirée : sono surdimensionnée, béton, pas d'heure de fin. Ce qu'on y joue, c'est surtout de la techno et de la hard techno.",
           ],
           [
             "Comment trouver une soirée dans mon style ?",
@@ -67,15 +67,15 @@ export default function GenresHub({ lang }: { lang: Lang }) {
           ],
           [
             "What is BPM, and why does it matter?",
-            "BPM (beats per minute) is the speed of a track, and it is the most reliable way to place a style: house sits around 125, techno 130–140, drum & bass 174, hardcore beyond 180. Every genre card above shows its range — a tempo is common practice, not a rule.",
+            "BPM (beats per minute) is the speed of a track, and it is the most reliable way to place a style: house sits around 125, techno 130–140, drum & bass 174, hardcore beyond 180. Every genre card above shows its range, a tempo is common practice, not a rule.",
           ],
           [
-            "I'm new to this — which genre should I start with?",
+            "I'm new to this, which genre should I start with?",
             "House and techno are the two trunks nearly everything else grows from, and the easiest way in at a club. If you want something more immediate, EDM and hardstyle use very legible structures, with the build and drop announced. The \"This weekend\" page will show you what's on near you over the next few days.",
           ],
           [
             "Is warehouse actually a music genre?",
-            "No, and that's deliberate: it's a place — a warehouse, a hangar, a former factory. We keep it as a category because it is what people search for, and because the format genuinely changes the night: an oversized rig, concrete, no closing time. What gets played there is mostly techno and hard techno.",
+            "No, and that's deliberate: it's a place, a warehouse, a hangar, a former factory. We keep it as a category because it is what people search for, and because the format genuinely changes the night: an oversized rig, concrete, no closing time. What gets played there is mostly techno and hard techno.",
           ],
           [
             "How do I find a night in my style?",
@@ -114,7 +114,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
 
           {/* La grille de tuiles carrées disait un style en cinq mots ("Fréquences forest
               & goa") : joli, mais elle ne répondait à aucune des questions que se pose
-              quelqu'un devant la liste — à quelle vitesse ça joue, d'où ça vient, en quoi
+              quelqu'un devant la liste, à quelle vitesse ça joue, d'où ça vient, en quoi
               la hard techno n'est pas la techno. La fiche vit dans lib/genres.ts ; ici on
               l'affiche, avec le compte de dates et les villes où ce style tourne vraiment. */}
           <div className="genrecards">
