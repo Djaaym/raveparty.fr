@@ -12,11 +12,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!place)
     return {
       alternates: alternates(`/rave-party/${params.slug}`, "en"),
-      title: "Rave party — RaveRadar",
+      title: "Rave party - RaveRadar",
     };
   return {
     alternates: alternates(`/rave-party/${params.slug}`, "en"),
-    title: `Rave party ${place.label} — festivals & techno nights | RaveRadar`,
+    title: `Rave party ${place.label} - festivals & techno nights | RaveRadar`,
     description: `Every electronic festival and techno night in and around ${place.label}. Dates, line-ups, tickets. Set an alert so you never miss out.`,
   };
 }

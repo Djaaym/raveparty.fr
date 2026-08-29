@@ -12,11 +12,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!place)
     return {
       alternates: alternates(`/rave-party/${params.slug}`, "fr"),
-      title: "Rave party — RaveRadar",
+      title: "Rave party - RaveRadar",
     };
   return {
     alternates: alternates(`/rave-party/${params.slug}`, "fr"),
-    title: `Rave party ${place.label} — festivals & soirées techno | RaveRadar`,
+    title: `Rave party ${place.label} - festivals & soirées techno | RaveRadar`,
     description: `Tous les festivals électro et soirées techno à ${place.label} et aux alentours. Dates, line-ups, billetterie. Active une alerte pour ne rien rater.`,
   };
 }

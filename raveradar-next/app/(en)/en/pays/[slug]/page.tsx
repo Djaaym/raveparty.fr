@@ -10,13 +10,13 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const c = countryBySlug(params.slug);
-  if (!c) return { title: "Country — RaveRadar" };
+  if (!c) return { title: "Country - RaveRadar" };
   const label = countryName(c.name, "en");
   const n = eventsForCountry(c.name).filter((e) => !isPast(e)).length;
   return pageMeta({
     lang: "en",
     path: `/pays/${c.slug}`,
-    title: `Festivals & rave parties in ${label} — ${n} upcoming dates | RaveRadar`,
+    title: `Festivals & rave parties in ${label} - ${n} upcoming dates | RaveRadar`,
     description: `Every electronic music festival, club night and rave in ${label}: ${n} upcoming dates, line-ups, venues and official ticketing.`,
   });
 }

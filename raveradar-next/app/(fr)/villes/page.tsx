@@ -4,7 +4,7 @@ import CitiesHub from "@/components/CitiesHub";
 
 export const metadata: Metadata = {
   alternates: alternates("/villes", "fr"),
-  title: "Rave party & festival par ville — Lyon, Drôme, Lozère… | RaveRadar",
+  title: "Rave party & festival par ville - Lyon, Drôme, Lozère… | RaveRadar",
   description:
     "Trouve les festivals électro et rave parties près de chez toi : Lyon, Rennes, Bordeaux, Drôme, Lozère, Aude, Hérault et plus.",
 };

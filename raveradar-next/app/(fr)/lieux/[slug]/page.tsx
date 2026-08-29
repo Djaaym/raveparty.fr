@@ -1,4 +1,4 @@
-import { alternates } from "@/lib/seo";
+import { alternates, seoTitle } from "@/lib/seo";
 import type { Metadata } from "next";
 import VenuePage from "@/components/VenuePage";
 import { VENUES, venueBySlug } from "@/lib/venues";
@@ -12,11 +12,11 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!v)
     return {
       alternates: alternates(`/lieux/${params.slug}`, "fr"),
-      title: "Lieu — RaveRadar",
+      title: "Lieu - RaveRadar",
     };
   return {
     alternates: alternates(`/lieux/${params.slug}`, "fr"),
-    title: `${v.name}, ${v.city} — agenda, line-ups & billetterie | RaveRadar`,
+    title: seoTitle(`${v.name}, ${v.city} - agenda, line-ups & billetterie | RaveRadar`),
     description: `Tout l'agenda de ${v.name} à ${v.city} : prochaines soirées et festivals, line-ups, dates et billets.`,
   };
 }

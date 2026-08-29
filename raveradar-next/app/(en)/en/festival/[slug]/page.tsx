@@ -31,12 +31,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (place)
     return {
       alternates: alternates(`/festival/${params.slug}`, "en"),
-      title: `Festivals in ${place.label} — line-ups, dates & tickets | RaveRadar`,
+      title: `Festivals in ${place.label} - line-ups, dates & tickets | RaveRadar`,
       description: `Every electronic music festival in and around ${place.label}. Dates, line-ups, tickets.`,
     };
   return {
     alternates: alternates(`/festival/${params.slug}`, "en"),
-    title: "Festival — RaveRadar",
+    title: "Festival - RaveRadar",
   };
 }
 

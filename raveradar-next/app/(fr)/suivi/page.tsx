@@ -18,7 +18,7 @@ import TrackingDashboard from "@/components/TrackingDashboard";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Suivi d'audience — RaveRadar",
+  title: "Suivi d'audience - RaveRadar",
   robots: { index: false, follow: false, nocache: true, googleBot: { index: false, follow: false } },
 };
 

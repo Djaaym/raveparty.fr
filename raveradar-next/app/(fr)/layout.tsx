@@ -31,7 +31,7 @@ export const revalidate = 3600;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "RaveRadar — Trouve ta prochaine rave",
+  title: "RaveRadar - Trouve ta prochaine rave",
   description:
     "Découvre les meilleurs événements de musique électronique d'Europe. Techno, hardstyle, DnB, psytrance, trance & raves en entrepôt.",
   /* Google n'affichait aucune favicon dans les résultats, et la cause était ici :
