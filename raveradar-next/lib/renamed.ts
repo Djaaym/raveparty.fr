@@ -64,6 +64,11 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   "u-uk-uk1mat-u": "yousuke-yukimatsu",
   furcht: "in-furcht",
   christoph: "cristoph",
+  // Deux fiches pour une personne : Danilo Plessow tourne toujours sous son alias.
+  "danilo-plessow-mcde": "mcde",
+  "blasha-allat": "blasha-allatt",
+  // Pas d'entrée pour « Venehing » → « Venëhing » : `slugify()` retire le tréma, donc
+  // le slug ne bouge pas. Une redirection d'un slug vers lui-même serait une boucle.
   dimitri: "dimitri-from-paris",
   // Vincent Belorgey (Kavinsky) est mort le 28 juillet 2026 et Eugenio Dorwart
   // (Bass-D) le 2 janvier 2026 : tous deux figuraient encore au line-up d'une date

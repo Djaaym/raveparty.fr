@@ -1,0 +1,546 @@
+[
+ {
+  "name": "Aly & Fila",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Uplifting Trance",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Aly_%26_Fila",
+   "https://trance-family.com/future-sound-of-egypt/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "ANNA",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Ambient"
+  ],
+  "sources": [
+   "https://anna.dj/bio",
+   "https://djmag.com/longreads/anna-talks-determination-meditation-and-power-her-incendiary-techno"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hamdi",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "UK Garage",
+   "Bassline"
+  ],
+  "sources": [
+   "https://www.beatportal.com/articles/108907-introducing-hamdi",
+   "https://ukf.com/read/we-need-to-talk-about-hamdi/",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Hamdi%22&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Skream & Benga",
+  "main": [
+   "Drum & Bass",
+   "House"
+  ],
+  "sub": [
+   "Dubstep",
+   "UK Garage"
+  ],
+  "sources": [
+   "https://www.nme.com/news/music/dubstep-pioneers-skream-and-benga-are-returning-in-2022-3131546",
+   "https://en.wikipedia.org/wiki/Magnetic_Man"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tha Watcher",
+  "main": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Tha%20Watcher%22&fmt=json"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Lewis OfMan",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "French House",
+   "Disco",
+   "Nu-Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lewis_OfMan",
+   "https://www.apartamentomagazine.com/stories/lewis-ofman/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Multiplex",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Neurofunk",
+   "Jungle"
+  ],
+  "sources": [
+   "https://eatbrain.net/multiplex-mc"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Malice",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/malice-is-splitting-up-double-the-madness/",
+   "https://www.q-dance.com/artists/31842411"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Pigminds",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo",
+   "Frenchcore"
+  ],
+  "sources": [
+   "https://valliue.com/2025/07/05/karnage-summer-club-la-soiree-hard-de-lete-toulouse/",
+   "https://lebikini.com/2025/07/19/karnage-summer-club"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Syreeta",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.liaisonartists.com/artists/syreeta/",
+   "https://ra.co/dj/syreeta-uk/biography"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "YPY",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Experimental",
+   "Noise"
+  ],
+  "sources": [
+   "https://tokyo.mutek.org/en/artists/ypy-1",
+   "https://xlr8r.com/features/bubbling-up-ypy/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Stanton",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber",
+   "Early Rave"
+  ],
+  "sources": [
+   "https://www.rigebookings.com/news/24-10-megarave-millennium-daytime-edition-line-up/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Part Time Killer",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Peak Time Techno",
+   "Industrial Techno"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/part-time-killer/",
+   "https://events.musicofourdesire.com/artist/part-time-killer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Row1",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://www.ravejungle.com/2026/06/01/row1-packs-tomorrowland-music/",
+   "https://www.paradisecity.be/en/bands/row1"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Noless",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/noless/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "See Rose",
+  "main": [
+   "Trance",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/see-rose/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Oxmoze",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/oxmoze/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paloma Colombe",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco",
+   "Afrobeat",
+   "Bass Music"
+  ],
+  "sources": [
+   "https://www.rinse.fm/shows/paloma-colombe",
+   "https://le-sucre.eu/artists/paloma-colombe/",
+   "https://www.timeout.fr/paris/musique/de-reinventer-la-nuit-a-dihya-la-renaissance-de-la-dj-parisienne-paloma-colombe"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Masalo",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Disco",
+   "Hi-NRG"
+  ],
+  "sources": [
+   "https://ra.co/dj/masalo/biography",
+   "https://www.stampthewax.com/2018/06/06/masalo-dimensions-dj-directory/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Darwin",
+  "main": [
+   "Drum & Bass",
+   "Techno"
+  ],
+  "sub": [
+   "Dubstep",
+   "Jungle",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/in-session-darwin",
+   "https://groove.de/2019/02/05/am-start-darwin-reef-griessmuehle/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lobster",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Ghetto House"
+  ],
+  "sources": [
+   "https://ra.co/dj/lobster-nl/biography",
+   "https://www.awakenings.com/en/artists/lobster/199697/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Love Transmission",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco"
+  ],
+  "sources": [
+   "https://cultisus.nl/lovetransmission/",
+   "https://bird-rotterdam.nl/en/agenda/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marc Zocher",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://www.skyclub-leipzig.de/artist/detail/18-marc-zocher-sky-club-beatbrothers-de"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nick D-lite",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Bass House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.skyclub-leipzig.de/artist/detail/90-nick-d-lite-dusted-decks-de",
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Nick%20D-lite%22&fmt=json"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Missnoa",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://fr.ra.co/dj/missnoa/biography",
+   "https://www.lillelanuit.com/le-mag/interviews/missnoa/",
+   "https://www.warehouse-nantes.fr/artist/missnoa"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "NAFT",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Live Electronic"
+  ],
+  "sources": [
+   "https://www.effenaar.nl/agenda/naft",
+   "https://vi.be/platform/nafttheband"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ogalla",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Newstyle",
+   "Hard House",
+   "Makina"
+  ],
+  "sources": [
+   "https://invaders.es/event-item/ogalla-all-night-long-spook",
+   "https://www.hardmusic.es/en/biografia-dj-ogalla/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Moodfino",
+  "main": [
+   "House",
+   "Trance",
+   "Techno"
+  ],
+  "sub": [
+   "Italo Disco"
+  ],
+  "sources": [
+   "https://www.la-belle-electrique.com/en/events/sicario-soundsystem-2025"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "One87",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Neurofunk",
+   "Jungle"
+  ],
+  "sources": [
+   "https://ukf.com/read/in-conversation-with-one87/",
+   "https://www.starwarz.be/artists/one87-b2b-hookerz-feat-mc-mush",
+   "https://www.dourfestival.eu/en/artist/detail/One87/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MC Nice",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle"
+  ],
+  "sources": [
+   "https://www.starwarz.be/artists/mc-nice"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Shaun Johnston",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hard Techno"
+  ],
+  "sources": [
+   "https://www.thebongoclub.co.uk/events-main/page/213/?ajaxCalendar=1&mo=4&yr=2025",
+   "https://legacy.boilerroom.tv/eterna-scotlands-undying-techno-love/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "The Tunegirl",
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Modular Live"
+  ],
+  "sources": [
+   "https://weraveyou.com/2026/05/tunegirl-awakenings-debut-story/",
+   "https://dancefloordispatch.ghost.io/andrea-gill-aka-tunegirl-one-of-technos-most-unexpected-rising-stars/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Sanem",
+  "main": [
+   "Hard Techno",
+   "Psytrance"
+  ],
+  "sub": [
+   "Psy-Trance Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/sanem/biography",
+   "https://bugece.co/en/artist/sanem--78ba554c"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Gissa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Big Room"
+  ],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/gissa/2730656/",
+   "https://thuishaven.nl/16-aug-thuishaven-w-gaskin-5hrs-hou/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hitoshi",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Acid House"
+  ],
+  "sources": [
+   "https://www.flowfestival.com/en/program/music/hitoshi/",
+   "https://deeprhythms.com/guest_mixes/132_hitoshi_for_deeprhythms/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bored Bouddha",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Minimal Techno",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://c12space.com/event/c12-nite-w-sandrien-bored-bouddha-amalie-hank/",
+   "https://www.visit.brussels/en/visitors/agenda/event-detail.C12-Nite-w-Sandrien-BORED-BOUDDHA-Amalie-and-Hank.5700024990"
+  ],
+  "confidence": "high"
+ }
+]

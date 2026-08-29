@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Little Simz",
+  "reason": "Simbiatu Ajikawo est une rappeuse et autrice-compositrice britannique (Londres), pas une artiste de musique électronique de danse : MusicBrainz la classe en hip hop / pop rap, avec la mention « rapper ». Sa présence au Forwards Festival de Bristol (Clifton Downs), une programmation pluridisciplinaire, ne change rien : aucune clé de la liste fermée ne s'applique. Source : https://musicbrainz.org/ws/2/artist/?query=artist:%22Little%20Simz%22"
+ },
+ {
+  "name": "Manudigital",
+  "reason": "Manu Digital est un producteur et bassiste français de dub et de dancehall (label X-Ray Production) : sa discographie Discogs est étiquetée Reggae sur 26 sorties sur 26, styles Dub (19), Dancehall (18), Roots Reggae. Il est programmé au Transbordeur aux côtés de Hilight Tribe, groupe de « trance fusion », d'où l'étiquetage Trance/Psytrance de la soirée — mais lui-même ne joue aucun des onze genres de la liste fermée. Source : https://api.discogs.com/database/search?artist=Manudigital&type=release"
+ },
+ {
+  "name": "Trio Xenakis",
+  "reason": "Ce n'est pas un artiste électronique mais un trio de percussion contemporaine (Adélaïde Ferrière, Emmanuel Jacquet, Rodolphe Théry), issu du Conservatoire de Paris et spécialisé dans le répertoire de Iannis Xenakis. Il est au Rocher de Palmer pour « Strates », une création partagée avec le producteur Djedjotronic où percussions acoustiques et électroniques se répondent : c'est le co-plateau qui apporte l'électronique, pas le trio. Sources : https://www.trioxenakis.com/-propos , https://www.trioxenakis.com/rpertoire"
+ },
+ {
+  "name": "Ásgeir",
+  "reason": "Ásgeir Trausti est un auteur-compositeur-interprète islandais de folk/pop. Le festival Iceland Eclipse le programme comme tel — un concert acoustique avec Emilíana Torrini dans la grotte de lave de Vatnshellir, distinct de la programmation « DANCE » du festival (Above & Beyond, MEDUZA, Booka Shade). Aucun genre de la liste fermée ne s'applique. Source : https://www.clashmusic.com/live/preview-iceland-eclipse-festival-2026/"
+ }
+]

@@ -1,0 +1,434 @@
+[
+ {
+  "name": "Afrojack",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room",
+   "Electro House",
+   "Dutch House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Afrojack",
+   "https://musicbrainz.org/artist/a3ee920f-4e7f-4993-8aca-4b8538cfaa4a"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mr Scruff",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Downtempo",
+   "Breakbeat",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mr._Scruff",
+   "https://ninjatune.net/artist/mr-scruff"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Courtesy",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://djmag.com/content/courtesy-launches-new-label-kul%C3%B8r-danish-techno-and-trance-compilation",
+   "https://crackmagazine.net/article/long-reads/the-kaleidoscopic-world-of-courtesy/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Daria Kolosova",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Electro",
+   "Jungle"
+  ],
+  "sources": [
+   "https://dgtl-festival.com/en/artists/daria-kolosova/",
+   "https://www.liaisonartists.com/artists/daria-kolosova/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MCR-T",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Ghettotech",
+   "Miami Bass"
+  ],
+  "sources": [
+   "https://crackmagazine.net/article/profiles/mcr-t-interview-not-the-same/",
+   "https://clubbasis.nl/article-mcr-t-king-of-ghetto-tech/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Noize Suppressor",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/20650-Noize-Suppressor",
+   "https://edm.fandom.com/wiki/Noize_Suppressor"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jana Rush",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Footwork",
+   "Ghetto House",
+   "Jungle"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/chicago-og-jana-rush-creates-unconventional-footwork-thats-making-an-impact",
+   "https://jaru.bandcamp.com/album/pariah"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Shapeshifters",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Nu-Disco",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Shapeshifters",
+   "https://www.defectedmusic.com/artists/7"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Omiki",
+  "main": [
+   "Psytrance",
+   "Trance"
+  ],
+  "sub": [
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/2987976-Omiki",
+   "https://trance.fandom.com/wiki/Omiki"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Philou Louzolo",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Afro House",
+   "Deep House",
+   "Tribal House"
+  ],
+  "sources": [
+   "https://philoulouzolo.com/biography",
+   "https://www.discogs.com/artist/3123888-Philou-Louzolo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Franky Kloeck",
+  "main": [
+   "Trance",
+   "House"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Hard House",
+   "Jumpstyle"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/548/biography",
+   "https://www.discogs.com/artist/54312-Franky-Kloeck"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Max Dean",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://electronicgroove.com/max-dean-brings-nexup-to-drumsheds-london/",
+   "https://thisisframework.com/artist/max-dean/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Spikey Lee",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/spikey-lee/22387/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Faster Horses",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Hard House",
+   "Jungle"
+  ],
+  "sources": [
+   "https://www.awakenings.com/en/artists/faster-horses/382757/",
+   "https://partyflock.nl/artist/162688:Faster-Horses"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Levenkhan",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Frenchcore",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.insomniac.com/music/artists/levenkhan/",
+   "https://hardstyle.com/en/artists/levenkhan"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mind Compressor",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/5616454-Mind-Compressor",
+   "https://www.beatport.com/artist/mind-compressor/609087"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Verdun",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/verdun"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "März",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/marz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Yogg",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Dub Techno",
+   "IDM",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/3526213-Yogg"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Rebko",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Neurofunk",
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://www.mbartists.co.uk/paulo/rebko",
+   "https://bootshaus.tv/artists/rebko/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Primate",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jump-Up"
+  ],
+  "sources": [
+   "https://kurious.be/artist/primate/",
+   "https://www.clubwintercircus.be/primate-presents-sticks-stones/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mestiza",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/M%C3%ABstiza_(DJs)",
+   "https://www.hollywoodreporter.com/music/music-industry-news/mestiza-female-music-duo-spain-mixing-flamenco-electronic-1236678370/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Monika Seta",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://www.viberate.com/artist/monika-seta/",
+   "https://refugeworldwide.com/radio/kauno-fonas-monika-seta-24-mar-2023"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Loukeman",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Lo-fi House"
+  ],
+  "sources": [
+   "https://ca.billboard.com/music/loukeman-sd3-interview",
+   "https://music.apple.com/us/artist/loukeman/1277343589"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Vuur",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://3voor12.vpro.nl/update~103e2e61-ffb1-42ea-875e-18f4e9abb100~vuur-maakt-zijn-boiler-room-debuut-op-dgtl-met-groovy-sexy-house~.html",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/vuur/1491107/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alma Negrot",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Acid"
+  ],
+  "sources": [
+   "https://ra.co/dj/almanegrot/biography",
+   "https://ra.co/events/2467601"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sean Laird",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.thebongoclub.co.uk/event/pulse-surgeon-darrell-pulse-sean-laird/",
+   "https://ra.co/dj/seanlaird/biography"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Parents in Denial",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Frenchcore"
+  ],
+  "sources": [
+   "https://events.musicofourdesire.com/artist/parents-in-denial",
+   "https://lastation.paris/stationgdm/rendez-vous/2025-04-15-hypercore"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "MC Mars",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.volume.at/events/flashback-techno-classics-2026-08-29/",
+   "https://www.grelleforelle.com/project/0606-flashback-techno-classics-grelle-forelle/"
+  ],
+  "confidence": "medium"
+ }
+]

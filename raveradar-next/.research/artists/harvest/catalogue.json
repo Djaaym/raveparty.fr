@@ -2024,13 +2024,13 @@
   "n": 1,
   "name": "Blanko"
  },
- "blasha-allat": {
+ "blasha-allatt": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Blasha & Allat"
+  "name": "Blasha & Allatt"
  },
  "blasterjaxx": {
   "genres": {
@@ -3439,14 +3439,6 @@
   },
   "n": 4,
   "name": "Daniel Avery"
- },
- "danilo-plessow-mcde": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Danilo Plessow (MCDE)"
  },
  "danke-al": {
   "genres": {
@@ -9838,10 +9830,10 @@
  },
  "mcde": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "MCDE"
  },
  "mcr-t": {
@@ -15162,7 +15154,7 @@
    "Trance": 1
   },
   "n": 1,
-  "name": "Venehing"
+  "name": "Venëhing"
  },
  "venga": {
   "genres": {
