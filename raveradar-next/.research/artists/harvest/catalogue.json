@@ -1795,6 +1795,7 @@
  },
  "ben-tenner": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -2034,6 +2035,7 @@
  },
  "blasterjaxx": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -3137,7 +3139,8 @@
  },
  "couzin-hub": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "CouZin Hub"
@@ -3197,7 +3200,8 @@
  },
  "crooked-minds": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Crooked Minds"
@@ -3457,6 +3461,7 @@
  },
  "danth": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -4155,6 +4160,7 @@
  },
  "dj-fabs": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -4931,6 +4937,7 @@
  },
  "emin": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -6876,6 +6883,7 @@
  },
  "isis-cloudt": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7209,6 +7217,7 @@
  },
  "jerome": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7562,6 +7571,7 @@
  },
  "jvrdy": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7902,6 +7912,7 @@
  },
  "kevin-arnold": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -8217,7 +8228,8 @@
  },
  "krak-in-dub": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Krak In Dub"
@@ -8626,7 +8638,8 @@
  },
  "les-potes-au-feu": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Les Potes au Feu"
@@ -8747,6 +8760,7 @@
  },
  "liquidfive": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 2,
@@ -9686,7 +9700,7 @@
  },
  "max-dean": {
   "genres": {
-   "Drum & Bass": 1
+   "House": 1
   },
   "n": 1,
   "name": "Max Dean"
@@ -11217,6 +11231,7 @@
  },
  "oliver-magenta": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -11654,6 +11669,7 @@
  },
  "paul-wolf": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -12053,7 +12069,8 @@
  },
  "provence98": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Provence98"
@@ -12239,7 +12256,8 @@
  },
  "rawb": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "RAWB"
@@ -12286,6 +12304,7 @@
  },
  "rebko": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -13748,14 +13767,14 @@
   "n": 1,
   "name": "Special D"
  },
- "special-request-sully": {
+ "special-request": {
   "genres": {
    "Drum & Bass": 1,
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Special Request & Sully"
+  "name": "Special Request"
  },
  "speedwagon": {
   "genres": {
@@ -13975,6 +13994,15 @@
   },
   "n": 4,
   "name": "Sub Zero Project"
+ },
+ "sully": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sully"
  },
  "sunnery-james-ryan-marciano": {
   "genres": {
@@ -14223,6 +14251,7 @@
  },
  "teknoclash": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -14786,13 +14815,6 @@
   "n": 1,
   "name": "Trancemaster Krause"
  },
- "tratratrax": {
-  "genres": {
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "TraTraTrax"
- },
  "traumer": {
   "genres": {
    "House": 4,
@@ -14880,7 +14902,8 @@
  },
  "twonot": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Twonot"

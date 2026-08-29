@@ -88,6 +88,12 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   "bass-d": null,
   // « VUM » est le nom du programme dominical d'Ääniwalli, pas un artiste.
   vum: null,
+  // Créneau b2b, comme les vingt autres : Paul Woolford (Special Request) et Jack
+  // Stevens (Sully) sont deux artistes, aucun n'hérite de cette page.
+  "special-request-sully": null,
+  // Le label TraTraTrax accueillait le **samedi** du week-end Ääniwalli, pas la soirée
+  // du 14 que le catalogue lui prêtait : il ne joue plus aucune date référencée.
+  tratratrax: null,
   // N'étaient pas des artistes : un nom de soirée de club, un titre de tournée.
   fused: null,
   "a-nice-place-to-be": null,

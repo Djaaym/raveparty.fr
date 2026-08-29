@@ -1398,7 +1398,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "space-92": { m: ["Techno"], s: ["Tech Trance"], src: "discogs" }, // Space 92
   "spacid": { m: ["Acid Techno"], s: [], src: "discogs" }, // Spacid
   "special-d": { m: ["Trance", "EDM"], s: ["Euro House", "Hard Trance"], src: "discogs" }, // Special D
-  "special-request-sully": { m: ["Drum & Bass"], s: ["Jungle", "Breakbeat", "Hardcore Breaks"], src: "research" }, // Special Request & Sully
+  "special-request": { m: ["Drum & Bass"], s: ["Jungle", "Breakbeat", "Hardcore Breaks"], src: "research" }, // Special Request
   "speedwagon": { m: ["Drum & Bass"], s: ["Jungle", "Liquid Drum & Bass"], src: "research" }, // Speedwagon
   "speedy-j": { m: ["Techno", "Acid Techno"], s: ["Minimal Techno", "Industrial Techno"], src: "research" }, // Speedy J
   "spfdj": { m: ["Techno", "Hard Techno", "Acid Techno"], s: ["Industrial Techno"], src: "research" }, // SPFDJ
@@ -1422,6 +1422,7 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "sub-focus": { m: ["Drum & Bass", "EDM"], s: ["Drumstep", "Dubstep", "Electro House"], src: "research" }, // Sub Focus
   "sub-sonik": { m: ["Hardstyle"], s: [], src: "discogs" }, // Sub Sonik
   "sub-zero-project": { m: ["Hardstyle"], s: ["Rawstyle"], src: "research" }, // Sub Zero Project
+  "sully": { m: ["Drum & Bass"], s: ["Jungle"], src: "research" }, // Sully
   "sunnery-james-ryan-marciano": { m: ["House"], s: ["Progressive House"], src: "wikidata" }, // Sunnery James & Ryan Marciano
   "surgeon": { m: ["Techno"], s: ["Experimental", "Ambient", "Dubstep"], src: "discogs+wikidata" }, // Surgeon
   "suzane": { m: ["Techno"], s: ["Electro"], src: "wikidata" }, // Suzane
@@ -1500,7 +1501,6 @@ export const ARTIST_STYLES: Record<string, ArtistStyle> = {
   "tony-romera": { m: ["House", "EDM"], s: ["Electro House", "Bass House", "French House"], src: "discogs+wikidata" }, // Tony Romera
   "toxic-machinery": { m: ["Hard Techno", "Hardstyle"], s: [], src: "discogs" }, // Toxic Machinery
   "trancemaster-krause": { m: ["Trance"], s: ["Hard House", "Hard Trance"], src: "discogs" }, // Trancemaster Krause
-  "tratratrax": { m: ["Techno"], s: ["Guaracha", "Dembow", "Breakbeat"], src: "research" }, // TraTraTrax
   "traumer": { m: ["House", "Techno"], s: ["Minimal Techno", "Deep House"], src: "research" }, // Traumer
   "tricky": { m: ["Techno"], s: ["Trip-Hop"], src: "discogs+wikidata" }, // Tricky
   "trinix": { m: ["EDM", "House"], s: ["Electro House"], src: "research" }, // Trinix
