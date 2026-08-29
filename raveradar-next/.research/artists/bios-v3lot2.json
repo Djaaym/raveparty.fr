@@ -246,7 +246,7 @@
   ]
  },
  {
-  "name": "Mestiza",
+  "name": "MËSTIZA",
   "bio_fr": "Mëstiza est un duo espagnol formé en 2021 par les DJ Belah Sánchez et Patricia « Pitty » Bernad, après une dizaine d'années de carrières solo en house et techno. Leur projet croise beats de club et instrumentation flamenca, jusque dans leur identité visuelle. Leur premier album, Quëreles, paraît en décembre 2023 sur leur label Sacro Music et atteint la première place des ventes de vinyles en Espagne.",
   "bio_en": "Mëstiza is a Spanish duo formed in 2021 by DJs Belah Sánchez and Patricia \"Pitty\" Bernad, after around a decade of solo careers in house and techno. Their project crosses club beats with flamenco instrumentation, down to their visual identity. Their debut album, Quëreles, came out in December 2023 on their own Sacro Music label and topped Spain's official vinyl sales chart.",
   "origin": "Espagne",
@@ -267,6 +267,26 @@
   "sources": [
    "https://www.viberate.com/artist/monika-seta/",
    "https://refugeworldwide.com/radio/kauno-fonas-monika-seta-24-mar-2023"
+  ]
+ },
+ {
+  "name": "Eileen",
+  "bio_fr": "Eileen est une DJ installée à Amsterdam, où elle s'est mise aux platines après son arrivée dans la ville. Ses sélections vont de la house au funk, à la disco, à la soul et au hip-hop, en revendiquant la house de Chicago, Detroit et New York et l'influence de Theo Parrish, Larry Heard et Ron Trent. Elle est résidente du Doka, le club en sous-sol du Volkshotel, de SAMA Space à Tbilissi et d'Operator Radio.",
+  "bio_en": "Eileen is an Amsterdam-based DJ who took up the decks after moving to the city. Her selections run from house to funk, disco, soul and hip-hop, drawing openly on the house of Chicago, Detroit and New York and on Theo Parrish, Larry Heard and Ron Trent. She is a resident at Doka, the basement club of the Volkshotel, at SAMA Space in Tbilisi and on Operator Radio.",
+  "origin": "Amsterdam, Pays-Bas",
+  "sources": [
+   "https://ra.co/dj/eileen-nl/biography",
+   "https://3voor12.vpro.nl/update~0461333f-d083-4714-9378-87ddc09963a4~eileen-soulvolle-house-vol-gemeenschapszin~.html"
+  ]
+ },
+ {
+  "name": "Marmotek Sound System",
+  "bio_fr": "Marmotek est un sound system breton, actif depuis des années sur la scène hard des free parties et des clubs de l'Ouest. Il est l'un des piliers de la résidence Rave in da Club du Warehouse de Nantes, où il a joué aux côtés de Miss K8, Angerfist et Dr Peacock. Son répertoire couvre le hardtek, la frenchcore, le hardcore, la gabber et le hardstyle, avec des incursions en breakbeat, electro et techno.",
+  "bio_en": "Marmotek is a Breton sound system, long active in the hard scene of western France's free parties and clubs. It is one of the mainstays of the Rave in da Club residency at Nantes' Warehouse, where it has played alongside Miss K8, Angerfist and Dr Peacock. Its range covers hardtek, frenchcore, hardcore, gabber and hardstyle, with excursions into breakbeat, electro and techno.",
+  "origin": "Bretagne, France",
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/marmotek",
+   "https://electro-news.eu/nantes-lexode-marmotek-ameson-macadam-2018/"
   ]
  }
 ]

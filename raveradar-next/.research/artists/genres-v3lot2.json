@@ -323,7 +323,7 @@
   "confidence": "high"
  },
  {
-  "name": "Mestiza",
+  "name": "MËSTIZA",
   "main": [
    "Techno",
    "House"
@@ -430,5 +430,180 @@
    "https://www.grelleforelle.com/project/0606-flashback-techno-classics-grelle-forelle/"
   ],
   "confidence": "medium"
+ },
+ {
+  "name": "Chopper",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/chopper-2",
+   "https://ra.co/events/2139679"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ankkh",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://galacticafestival.com/en/galactica-artists/ankkh-per-galactica/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Paloma",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Afro House"
+  ],
+  "sources": [
+   "https://pharaonic.fr/lineup/paloma/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Bomel",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://electrolapse.fr/artiste/bomel"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Odyssée",
+  "main": [
+   "Trance"
+  ],
+  "sub": [
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.lescuizines.fr/events/odyssee-ouaistephane-elisa-do-brasil/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marmotek Sound System",
+  "main": [
+   "Hardcore",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Frenchcore",
+   "Hardtek",
+   "Gabber"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/marmotek",
+   "https://www.warehouse-nantes.fr/event/marmotek-sound-system",
+   "https://electro-news.eu/nantes-lexode-marmotek-ameson-macadam-2018/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Eileen",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Deep House"
+  ],
+  "sources": [
+   "https://ra.co/dj/eileen-nl/biography",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/eileen/1844985/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "TKZ",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/event/tkz"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Headhunter",
+  "main": [
+   "Techno",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Jungle",
+   "Footwork"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Addison_Groove",
+   "https://boomkat.com/products/nomad-f1866091-6055-4711-8aad-633fb6029a9a",
+   "https://www.berghain.berlin/en/event/80789/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "A-Tom-X",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Retro House",
+   "Hard House"
+  ],
+  "sources": [
+   "https://www.visit-blankenberge.be/en/events/detail/13956/illusion-at-the-beach",
+   "https://soundcloud.com/clubillusion/24-years-illusion-retro-hall-1"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Roussakis",
+  "main": [
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://soundcloud.com/roussakis",
+   "https://highpass.events/hq0c3yj/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Upper",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://leboeufsurletoit.fr/evenements/joris-delacroix-electro/",
+   "https://39.agendaculturel.fr/salle-du-boeuf-sur-le-toit"
+  ],
+  "confidence": "high"
  }
 ]

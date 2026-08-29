@@ -5636,7 +5636,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Frederic"
+  "name": "Frederic."
  },
  "freedom-fighters": {
   "genres": {
@@ -7174,20 +7174,12 @@
    "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 3,
-   "House": 3,
-   "Techno": 8,
+   "House": 4,
+   "Techno": 9,
    "Trance": 1
   },
-  "n": 8,
+  "n": 9,
   "name": "Jeff Mills"
- },
- "jeff-mills-presents-tomorrow-comes-the-harvest": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Jeff Mills presents Tomorrow Comes The Harvest"
  },
  "jekkamai": {
   "genres": {
@@ -9944,7 +9936,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Mestiza"
+  "name": "MËSTIZA"
  },
  "metrik": {
   "genres": {
@@ -11393,17 +11385,6 @@
   },
   "n": 1,
   "name": "Oxia"
- },
- "oxmoze": {
-  "genres": {
-   "Hard Techno": 1,
-   "Hardstyle": 1,
-   "House": 1,
-   "Techno": 1,
-   "Trance": 1
-  },
-  "n": 1,
-  "name": "Oxmoze"
  },
  "ozan": {
   "genres": {
@@ -15625,6 +15606,17 @@
   },
   "n": 1,
   "name": "Xinobi"
+ },
+ "xmoze": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardstyle": 1,
+   "House": 1,
+   "Techno": 1,
+   "Trance": 1
+  },
+  "n": 1,
+  "name": "Øxmoze"
  },
  "xokin": {
   "genres": {

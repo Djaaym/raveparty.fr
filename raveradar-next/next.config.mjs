@@ -49,6 +49,21 @@ const nextConfig = {
    */
   async redirects() {
     return [
+      /* Slugs de salles réécrits par la correction de `slugify()` : « ø », « æ » et
+         « ß » étaient supprimées au lieu d'être translittérées (Refshaleøen donnait
+         `refshale-en`, la Straße des 17. Juni `stra-e`). */
+      { source: "/lieux/gamla-bio-i-no-tjarnarbio", destination: "/lieux/gamla-bio-idno-tjarnarbio", permanent: true },
+      { source: "/en/lieux/gamla-bio-i-no-tjarnarbio", destination: "/en/lieux/gamla-bio-idno-tjarnarbio", permanent: true },
+      { source: "/lieux/refshale-en", destination: "/lieux/refshaleoen", permanent: true },
+      { source: "/en/lieux/refshale-en", destination: "/en/lieux/refshaleoen", permanent: true },
+      { source: "/lieux/refshale-en-et-rues-de-copenhague", destination: "/lieux/refshaleoen-et-rues-de-copenhague", permanent: true },
+      { source: "/en/lieux/refshale-en-et-rues-de-copenhague", destination: "/en/lieux/refshaleoen-et-rues-de-copenhague", permanent: true },
+      { source: "/lieux/sn-fellsnes-sous-le-sn-fellsjokull", destination: "/lieux/snaefellsnes-sous-le-snaefellsjokull", permanent: true },
+      { source: "/en/lieux/sn-fellsnes-sous-le-sn-fellsjokull", destination: "/en/lieux/snaefellsnes-sous-le-snaefellsjokull", permanent: true },
+      { source: "/lieux/stra-e-des-17-juni", destination: "/lieux/strasse-des-17-juni", permanent: true },
+      { source: "/en/lieux/stra-e-des-17-juni", destination: "/en/lieux/strasse-des-17-juni", permanent: true },
+      { source: "/lieux/s-nder-hoved-refshale-en", destination: "/lieux/sonder-hoved-refshaleoen", permanent: true },
+      { source: "/en/lieux/s-nder-hoved-refshale-en", destination: "/en/lieux/sonder-hoved-refshaleoen", permanent: true },
       { source: "/genres/free-party", destination: "/genres", permanent: true },
       { source: "/en/genres/free-party", destination: "/en/genres", permanent: true },
 

@@ -74,7 +74,7 @@
   ]
  },
  {
-  "name": "Oxmoze",
+  "name": "Øxmoze",
   "bio_fr": "Øxmoze est un DJ nantais qui joue de la hardtechno et de la hardtrance. Il est résident des collectifs No Limit Event et Ventrachouille, et se produit régulièrement au Warehouse de Nantes.",
   "bio_en": "Øxmoze is a DJ from Nantes who plays hard techno and hard trance. He is a resident of the No Limit Event and Ventrachouille collectives, and appears regularly at the Warehouse in Nantes.",
   "origin": "Nantes, France",
@@ -277,6 +277,155 @@
   "origin": "Bruxelles, Belgique",
   "sources": [
    "https://c12space.com/event/c12-nite-w-sandrien-bored-bouddha-amalie-hank/"
+  ]
+ },
+ {
+  "name": "Frederic.",
+  "bio_fr": "Frederic. est un DJ, producteur et organisateur installé à Berlin, actif en Europe depuis 2017. Ses sets tiennent des tempos élevés avec des passages mélodiques et atmosphériques. Il est co-fondateur du collectif et label Selected, né il y a une dizaine d'années pour ouvrir des dates aux DJs débutants, et a sorti Fainted en 2022 puis l'EP Rather Be With You en 2025. Il a joué pour HÖR, Boiler Room, Blackworks et Teletech.",
+  "bio_en": "Frederic. is a DJ, producer and promoter based in Berlin, active across Europe since 2017. His sets hold high tempos with melodic, atmospheric passages. He co-founded the Selected crew and label about a decade ago to give emerging DJs dates to play, and released Fainted in 2022 and the EP Rather Be With You in 2025. He has played for HÖR, Boiler Room, Blackworks and Teletech.",
+  "origin": "Berlin, Allemagne",
+  "since": 2017,
+  "labels": [
+   "Selected",
+   "Raise Records"
+  ],
+  "sources": [
+   "https://mixmagde.com/read/frederic-s-selected-redefining-the-energy-of-modern-techno-artists",
+   "https://www.attackmagazine.com/news/frederic-confirms-2026-festival-appearances/"
+  ]
+ },
+ {
+  "name": "Toirabat",
+  "bio_fr": "Toirabat est, avec DJ Bisou, le co-fondateur de Deux Chevaux, une soirée bruxelloise construite sur des tempos lents : l'idée est qu'en descendant le BPM, la danse devient plus intense et plus psychédélique. Le duo programme et joue ces nuits au Beursschouwburg.",
+  "bio_en": "Toirabat is, with DJ Bisou, the co-founder of Deux Chevaux, a Brussels party built on slow tempos: the idea being that dropping the BPM makes dancing more intense and more psychedelic. The pair programme and play these nights at the Beursschouwburg.",
+  "origin": "Bruxelles, Belgique",
+  "sources": [
+   "https://ra.co/events/2494084"
+  ]
+ },
+ {
+  "name": "Maro",
+  "bio_fr": "Originaire de Cologne et installé à Vienne, Maro est co-fondateur et résident du collectif de DJs et producteurs MAHLWERK. Ses sets mêlent techno, trance et hardgroove à du hip-hop et des breakbeats. Il publie ses morceaux sur Bandcamp, notamment en duo avec GOLDI.",
+  "bio_en": "Originally from Cologne and now based in Vienna, Maro is a co-founder and resident of the MAHLWERK DJ and producer collective. His sets mix techno, trance and hardgroove with hip-hop and breakbeats. He releases his tracks on Bandcamp, including as a duo with GOLDI.",
+  "origin": "Vienne, Autriche",
+  "labels": [
+   "MAHLWERK"
+  ],
+  "sources": [
+   "https://ra.co/dj/maro/biography",
+   "https://maro87.bandcamp.com/"
+  ]
+ },
+ {
+  "name": "Malice",
+  "bio_fr": "Malice est un projet raw hardstyle italien créé en 2013 par Aleandro Bollino et Davide Guernieri. Depuis la séparation du duo, Davide Guernieri le poursuit seul, tandis qu'Aleandro produit sous le nom de Sickmode. Malice est co-fondateur du label Aggressive Records avec Sickmode et Rooler.",
+  "bio_en": "Malice is an Italian raw hardstyle project started in 2013 by Aleandro Bollino and Davide Guernieri. Since the duo split, Davide Guernieri has carried it on alone, while Aleandro produces as Sickmode. Malice co-founded the Aggressive Records label with Sickmode and Rooler.",
+  "origin": "Italie",
+  "since": 2013,
+  "labels": [
+   "Aggressive Records"
+  ],
+  "sources": [
+   "https://hardnews.nl/en/malice-is-splitting-up-double-the-madness/",
+   "https://harderstylemap.com/artist/malice/"
+  ]
+ },
+ {
+  "name": "Pigminds",
+  "bio_fr": "Pigminds est un DJ et producteur uptempo toulousain, créé en janvier 2017 comme duo puis poursuivi en projet solo, au moment où l'uptempo s'installait en France. Il fait partie des Karnage Soldiers du label Karnage Records et joue régulièrement au Bikini de Ramonville.",
+  "bio_en": "Pigminds is an uptempo DJ and producer from Toulouse, started in January 2017 as a duo and continued as a solo project, at the point when uptempo was taking hold in France. He is one of the Karnage Soldiers on the Karnage Records label and plays regularly at Le Bikini in Ramonville.",
+  "origin": "Toulouse, France",
+  "since": 2017,
+  "labels": [
+   "Karnage Records"
+  ],
+  "sources": [
+   "https://valliue.com/2025/07/05/karnage-summer-club-la-soiree-hard-de-lete-toulouse/",
+   "https://www.karnagerecords.fr/en/event-details/karnage-summer-club"
+  ]
+ },
+ {
+  "name": "Multiplex",
+  "bio_fr": "Mr. Multiplex est un MC néerlandais installé à Utrecht, actif dans la drum & bass et la jungle depuis 2004. Il vient du chant punk et rock, ce qui marque son débit. Il est résident de Blackout (le label de Black Sun Empire), de Korsakov, de Cheeky Monday et de Kaputt! aux Pays-Bas, et a joué à Lowlands et au Dominator Festival.",
+  "bio_en": "Mr. Multiplex is a Dutch MC based in Utrecht, active in drum & bass and jungle since 2004. He came from punk and rock singing, which marks his delivery. He is a resident for Blackout (the Black Sun Empire label), Korsakov, Cheeky Monday and Kaputt! in the Netherlands, and has played Lowlands and Dominator Festival.",
+  "origin": "Utrecht, Pays-Bas",
+  "since": 2004,
+  "labels": [
+   "Blackout",
+   "Korsakov Music"
+  ],
+  "sources": [
+   "https://eatbrain.net/multiplex-mc"
+  ]
+ },
+ {
+  "name": "Skream & Benga",
+  "bio_fr": "Skream et Benga se rencontrent adolescents au disquaire Big Apple Records de Croydon, foyer du dubstep londonien. Ils sortent « The Judgement » sous ce nom commun en 2003, puis forment avec Artwork le trio Magnetic Man, dont l'album éponyme paraît chez Columbia en 2010 et le single « I Need Air » atteint la 10e place au Royaume-Uni. Ils se remettent à produire ensemble à partir de 2022.",
+  "bio_en": "Skream and Benga met as teenagers at the Big Apple Records shop in Croydon, the home of London dubstep. They released \"The Judgement\" under that shared name in 2003, then formed the trio Magnetic Man with Artwork, whose self-titled album came out on Columbia in 2010 and whose single \"I Need Air\" reached number 10 in the UK. They returned to producing together from 2022.",
+  "origin": "Croydon, Royaume-Uni",
+  "since": 2003,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Magnetic_Man",
+   "https://www.nme.com/news/music/dubstep-pioneers-skream-and-benga-are-returning-in-2022-3131546"
+  ]
+ },
+ {
+  "name": "Row1",
+  "bio_fr": "ROW1 est un DJ et producteur belge de hard dance, dont les sets combinent hard trance et percussions appuyées. Il a publié son premier single, « Packs », sur Tomorrowland Music.",
+  "bio_en": "ROW1 is a Belgian hard dance DJ and producer whose sets combine hard trance with heavy percussion. He released his first single, \"Packs\", on Tomorrowland Music.",
+  "origin": "Belgique",
+  "labels": [
+   "Tomorrowland Music"
+  ],
+  "sources": [
+   "https://www.ravejungle.com/2026/06/01/row1-packs-tomorrowland-music/",
+   "https://www.paradisecity.be/en/bands/row1"
+  ]
+ },
+ {
+  "name": "Part Time Killer",
+  "bio_fr": "Part Time Killer est un projet techno basé à Berlin, qui pose des éléments cinématiques et des atmosphères tendues sur des grooves rapides et une techno de peak time. Il est résident et graphiste du label Selected Berlin, dirige Blake Records et forme la moitié de Vermeer Selected. Il a sorti des disques sur Exhale et Color.",
+  "bio_en": "Part Time Killer is a Berlin-based techno project that sets cinematic elements and tense atmospheres over fast grooves and peak-time techno. He is a resident and artwork designer for the Selected Berlin label, runs Blake Records and is one half of Vermeer Selected. He has released on Exhale and Color.",
+  "origin": "Berlin, Allemagne",
+  "labels": [
+   "Blake Records",
+   "Exhale",
+   "Color"
+  ],
+  "sources": [
+   "https://events.musicofourdesire.com/artist/part-time-killer",
+   "https://harderstylemap.com/artist/part-time-killer/"
+  ]
+ },
+ {
+  "name": "Syreeta",
+  "bio_fr": "SYREETA est une DJ et productrice britannique dont les sets puisent dans la house et la techno, sur des basses épaisses et des grooves mélodiques. Elle a sorti des disques sur Nervous Records, Sound International, Edible et HE.SHE.THEY., a livré son premier Essential Mix sur BBC Radio 1 en 2025 et joue régulièrement aux soirées Paradise de Jamie Jones.",
+  "bio_en": "SYREETA is a British DJ and producer whose sets draw on house and techno, over chunky basslines and melodic grooves. She has released on Nervous Records, Sound International, Edible and HE.SHE.THEY., delivered her first BBC Radio 1 Essential Mix in 2025, and plays regularly at Jamie Jones's Paradise parties.",
+  "origin": "Royaume-Uni",
+  "labels": [
+   "Nervous Records",
+   "Edible",
+   "HE.SHE.THEY."
+  ],
+  "sources": [
+   "https://www.liaisonartists.com/artists/syreeta/",
+   "https://ra.co/dj/syreeta-uk/biography"
+  ]
+ },
+ {
+  "name": "YPY",
+  "bio_fr": "YPY est le projet solo de Koshiro Hino, musicien d'Osaka lancé en 2014, également membre des groupes goat et bonanzas. Sa production va de la techno et de la house de dancefloor à des pièces plus expérimentales et bruitistes, avec une place centrale donnée aux percussions. Il dirige les labels Birdfriend, en cassettes, et NAKID.",
+  "bio_en": "YPY is the solo project of Koshiro Hino, an Osaka musician, launched in 2014; he is also a member of the bands goat and bonanzas. His output runs from dancefloor techno and house to headier, noisier pieces, with percussion at the centre throughout. He runs the cassette label Birdfriend and the label NAKID.",
+  "origin": "Osaka, Japon",
+  "since": 2014,
+  "labels": [
+   "NAKID",
+   "Birdfriend"
+  ],
+  "sources": [
+   "https://tokyo.mutek.org/en/artists/ypy-1",
+   "https://xlr8r.com/features/bubbling-up-ypy/",
+   "https://www.japantimes.co.jp/culture/2017/02/05/music/koshiro-hino-pushes-limits-control-ypy/"
   ]
  }
 ]

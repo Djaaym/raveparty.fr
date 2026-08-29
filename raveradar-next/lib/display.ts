@@ -45,8 +45,35 @@ export const genreSlug = (g: string): string =>
 export const genreFromSlug = (s: string): string | undefined =>
   ALL_GENRES.find((g) => genreSlug(g) === s);
 
+/**
+ * Lettres que la décomposition Unicode ne sait pas réduire.
+ *
+ * `NFD` sépare une lettre accentuée en lettre + diacritique, et on jette le
+ * diacritique : « é » devient « e ». Mais « ø », « đ », « ł » ou « ß » ne sont pas des
+ * lettres accentuées — ce sont des lettres à part entière, indécomposables. Elles
+ * n'étaient donc pas réduites, elles étaient **supprimées**, et le tiret de la classe
+ * `[^a-z0-9]+` prenait leur place.
+ *
+ * Ça ne se voyait pas jusqu'à ce qu'on regarde les URL produites : **Rødhåd**, l'un des
+ * DJs techno les plus connus, vivait sur `/artistes/r-dhad`. Avec lui, Nørbak
+ * (`n-rbak`), Shlømo (`shl-mo`), Marrøn (`marr-n`), la ville de Tromsø (`troms`),
+ * la Straße des 17. Juni (`stra-e`) et « Hard Cœur » (`hard-c-ur`). Une URL illisible
+ * n'est pas seulement laide : personne ne la tape, et elle ne dit rien à un moteur.
+ */
+const TRANSLIT: Record<string, string> = {
+  ø: "o", Ø: "o", đ: "d", Đ: "d", ð: "d", Ð: "d", ł: "l", Ł: "l",
+  ß: "ss", æ: "ae", Æ: "ae", œ: "oe", Œ: "oe", þ: "th", Þ: "th",
+  ŧ: "t", Ŧ: "t", ı: "i", ĸ: "k", ŋ: "n", Ŋ: "n", ħ: "h", Ħ: "h",
+};
+
 export const slugify = (s: string): string =>
-  s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+  s
+    .replace(/[øØđĐðÐłŁßæÆœŒþÞŧŦıĸŋŊħĦ]/g, (c) => TRANSLIT[c] ?? c)
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
 
 export const TYPES: RaveEvent["type"][] = ["Festival", "Club", "Warehouse"];
 

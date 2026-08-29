@@ -240,7 +240,7 @@
   "confidence": "high"
  },
  {
-  "name": "Oxmoze",
+  "name": "Øxmoze",
   "main": [
    "Hard Techno",
    "Trance"
@@ -542,5 +542,149 @@
    "https://www.visit.brussels/en/visitors/agenda/event-detail.C12-Nite-w-Sandrien-BORED-BOUDDHA-Amalie-and-Hank.5700024990"
   ],
   "confidence": "high"
+ },
+ {
+  "name": "Frederic.",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Peak Time Techno",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://mixmagde.com/read/frederic-s-selected-redefining-the-energy-of-modern-techno-artists",
+   "https://www.attackmagazine.com/news/frederic-confirms-2026-festival-appearances/",
+   "https://hoer.live/artist/frederic/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Toirabat",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Downtempo",
+   "Slow Motion Disco"
+  ],
+  "sources": [
+   "https://ra.co/events/2494084"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Romen Est Omen",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Classic Techno"
+  ],
+  "sources": [
+   "https://de.ra.co/events/2108941",
+   "https://www.grelleforelle.com/project/2211-flashback-techno-classics/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Redbatun",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://maassilo.com/dance/agenda/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Aiden",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://change-underground.com/teletech-festival-2026-lineup-announced/",
+   "https://www.skiddle.com/festivals/teletechfestival/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mia Mia",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.volume.at/events/yn-bcco-club-night-2026-09-26/",
+   "https://de.ra.co/dj/miamia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Maro",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hardgroove",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://ra.co/dj/maro/biography",
+   "https://mahlwerk.bandcamp.com/artists",
+   "https://maro87.bandcamp.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Vibrant",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://liquicity.com/events/liquicity-vienna-2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Max Finney",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Hi-NRG"
+  ],
+  "sources": [
+   "https://ra.co/dj/maxfinney",
+   "https://ra.co/events/1843853"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Wal_Halla",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://ra.co/clubs/75216",
+   "https://ra.co/events/2247853"
+  ],
+  "confidence": "medium"
  }
 ]

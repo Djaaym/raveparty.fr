@@ -31,6 +31,17 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   // retirée ; mais son URL était indexée, et une URL gagnée ne retombe jamais en
   // 404 : elle pointe vers la fiche allemande de la même marque.
   "time-warp-spain": { base: "festival", slug: "time-warp" },
+  // Même cause que pour les artistes : « Frædag », « ÆDEN », « Hard Cœur », « Nørbak »
+  // perdaient leur lettre dans le slug.
+  "anyma-den-global-tour": { base: "event", slug: "anyma-aeden-global-tour" }, // Anyma · ÆDEN Global Tour
+  "anyma-presents-den": { base: "event", slug: "anyma-presents-aeden" }, // Anyma presents ÆDEN
+  "fr-dag-einmusik": { base: "event", slug: "fraedag-einmusik" }, // Frædag: Einmusik
+  "fr-dag-elli-acula": { base: "event", slug: "fraedag-elli-acula" }, // Frædag : Elli Acula
+  "fr-dag-octave-one": { base: "event", slug: "fraedag-octave-one" }, // Frædag: Octave One
+  "fr-dag-tony-humphries": { base: "event", slug: "fraedag-tony-humphries" }, // Frædag : Tony Humphries
+  "fr-dag-x-hubbas-klubb-gerd-janson": { base: "event", slug: "fraedag-x-hubbas-klubb-gerd-janson" }, // Frædag x Hubbas Klubb : Gerd Janson
+  "fuse-presents-hadone-curates-n-rbak-tauceti": { base: "event", slug: "fuse-presents-hadone-curates-norbak-tauceti" }, // Fuse presents Hadone curates: Nørbak & Tauceti
+  "hard-c-ur-creeds": { base: "event", slug: "hard-coeur-creeds" }, // Hard Cœur — Creeds
   // Le titre était tronqué à « … Bellaire & Dimitri » — l'affiche du Warehouse de
   // Nantes porte « Dimitri from Paris ». Corriger le titre déplace le slug.
   "club-de-jour-invite-bellaire-dimitri": { base: "event", slug: "club-de-jour-invite-bellaire-dimitri-from-paris" },
@@ -78,6 +89,22 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   // N'étaient pas des artistes : un nom de soirée de club, un titre de tournée.
   fused: null,
   "a-nice-place-to-be": null,
+  // Lettres indécomposables rétablies par `slugify()` (voir lib/display.ts) : « ø »,
+  // « ð », « æ », « ß » n'étaient pas réduites mais **supprimées**, et Rødhåd vivait sur
+  // `/artistes/r-dhad`. Les anciennes URL restent servies.
+  "aph-tic": "aphotic",
+  "b-ery": "boery",
+  "da-i-freyr": "dadi-freyr",
+  "marr-n": "marron",
+  "n-rbak": "norbak",
+  "r-dhad": "rodhad",
+  "rbenyx": "orbenyx",
+  "rd": "rdo",
+  "rgie": "orgie",
+  "ricci": "riccio",
+  "sant-s": "santos",
+  "shl-mo": "shlomo",
+  "yvind-morken": "oyvind-morken",
   // Créneaux b2b scindés : deux artistes, donc aucun successeur unique. Les slugs
   // sont recopiés du catalogue d'avant la scission, jamais réécrits de tête : « ø »
   // et « Ø » ne se décomposent pas en « o », donc « Aphøtic » donne `aph-tic`.
