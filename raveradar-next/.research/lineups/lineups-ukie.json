@@ -2,29 +2,232 @@
   {
     "id": 480,
     "title": "The Warehouse Project: NexUp",
-    "lineup": ["Max Dean", "Luke Dean", "Omar+", "Locky", "Tommy Phillips", "Cam Stockman", "Summer Ghemati", "TeeDee", "Riordan", "Wheats", "Ozzie Guven", "Mad.Again", "Ellia Jaya", "Freddie Seo", "George Smeddles", "Stef Davidse", "Burnski", "Julian Anthony", "Boss Priester", "Alexandria", "Chopper", "Ellis Garner", "Mason Cooper", "Nafe Smallz", "Diosa", "Candidate", "Daetor", "Toby Simpson", "Emma 2000"],
+    "lineup": [
+      "Max Dean",
+      "Luke Dean",
+      "Omar+",
+      "Locky",
+      "Tommy Phillips",
+      "Cam Stockman",
+      "Summer Ghemati",
+      "TeeDee",
+      "Riordan",
+      "Wheats",
+      "Ozzie Guven",
+      "Mad.Again",
+      "Ellia Jaya",
+      "Freddie Seo",
+      "George Smeddles",
+      "Stef Davidse",
+      "Burnski",
+      "Julian Anthony",
+      "Boss Priester",
+      "Alexandria",
+      "Chopper",
+      "Ellis Garner",
+      "Mason Cooper",
+      "Nafe Smallz",
+      "Diosa",
+      "Candidate",
+      "Daetor",
+      "Toby Simpson",
+      "Emma 2000"
+    ],
     "source": "https://thewarehouseproject.com/events/nexup/",
     "note": "Affiche complete publiee par WHP pour le samedi 31 octobre, 4 salles (Depot, Concourse, Archive hosted by Shelter, Vault), en ordre d'apparition. Les B2B ont ete separes en artistes distincts."
   },
   {
     "id": 482,
     "title": "The Warehouse Project: La Discothèque",
-    "lineup": ["Basement Jaxx", "Groove Armada", "Annie Mac", "Dombresky", "DJ Paulette", "Carly Foxx", "Gerd Janson", "Krystal Klear", "Jayda G", "Hunee", "Luke Una", "Cassius", "CC:DISCO!", "Mix-Stress", "Bridge", "Crazy P", "Krysko", "Gina Breeze", "Fleetmac Wood", "Daisybelle", "DJ Spinna", "Danuka", "Mither", "James Glover", "Mike Woods", "Meme Gold", "Kirsten At The Disco"],
+    "lineup": [
+      "Basement Jaxx",
+      "Groove Armada",
+      "Annie Mac",
+      "Dombresky",
+      "DJ Paulette",
+      "Carly Foxx",
+      "Gerd Janson",
+      "Krystal Klear",
+      "Jayda G",
+      "Hunee",
+      "Luke Una",
+      "Cassius",
+      "CC:DISCO!",
+      "Mix-Stress",
+      "Bridge",
+      "Crazy P",
+      "Krysko",
+      "Gina Breeze",
+      "Fleetmac Wood",
+      "Daisybelle",
+      "DJ Spinna",
+      "Danuka",
+      "Mither",
+      "James Glover",
+      "Mike Woods",
+      "Meme Gold",
+      "Kirsten At The Disco"
+    ],
     "source": "https://thewarehouseproject.com/events/la-discotheque/",
     "note": "Affiche WHP du samedi 7 novembre, 5 salles (Depot, Concourse, Archive, Vault, Star & Garter 54). Le 'secret special guest' du Star & Garter n'est pas repris. Dombresky est bille 'Dombresky presents Disco Dom', DJ Spinna 'presents Wonder-Full'."
   },
   {
     "id": 479,
     "title": "False Idols at Drumsheds",
-    "lineup": ["Kim Petras", "Cobrah", "Rose Gray", "Little Gay Brother", "Joshua James", "VTSS", "Patrick Mason", "Cakes Da Killa", "Cashu", "Josh Caffé", "Lady Shaka", "TEDESCO", "2CPERREA", "UNIIQU3", "Donnie Sunshine", "To The Left", "Goth Jafar", "Julie Desire", "With Us", "Lexii", "Subtle", "Someone Sunny", "Satiate", "Twang", "Sextou"],
+    "lineup": [
+      "Kim Petras",
+      "Cobrah",
+      "Rose Gray",
+      "Little Gay Brother",
+      "Joshua James",
+      "VTSS",
+      "Patrick Mason",
+      "Cakes Da Killa",
+      "Cashu",
+      "Josh Caffé",
+      "Lady Shaka",
+      "TEDESCO",
+      "2CPERREA",
+      "UNIIQU3",
+      "Donnie Sunshine",
+      "To The Left",
+      "Goth Jafar",
+      "Julie Desire",
+      "With Us",
+      "Lexii",
+      "Subtle",
+      "Someone Sunny",
+      "Satiate",
+      "Twang",
+      "Sextou"
+    ],
     "source": "https://drumshedslondon.com/event/false-idols-2/",
     "note": "Page officielle Drumsheds, SAT 24 OCT, 13:00-22:30, 3 salles. Kim Petras et Cobrah en live. 'Little Gay Brother & Joshua James' separes d'apres le texte de la page qui nomme Joshua James comme resident."
   },
   {
     "id": 238,
     "title": "Elrow Horroween",
-    "lineup": ["AAT", "Arielle Free", "ASLO", "Danny Howard", "Diffrent", "Emma B", "Fish56Octagon", "hitty", "lau.ra", "LB aka Labat", "MK", "Oden & Fatzo", "Patrick Topping", "Sarah Story", "Wade", "Ayce & Spirit of House", "Branqueeno", "Bustin' Loose", "Magnolia", "Caio Cenci", "Poppi"],
+    "lineup": [
+      "AAT",
+      "Arielle Free",
+      "ASLO",
+      "Danny Howard",
+      "Diffrent",
+      "Emma B",
+      "Fish56Octagon",
+      "hitty",
+      "lau.ra",
+      "LB aka Labat",
+      "MK",
+      "Oden & Fatzo",
+      "Patrick Topping",
+      "Sarah Story",
+      "Wade",
+      "Ayce & Spirit of House",
+      "Branqueeno",
+      "Bustin' Loose",
+      "Magnolia",
+      "Caio Cenci",
+      "Poppi"
+    ],
     "source": "https://drumshedslondon.com/event/elrow-horroween-festival/",
     "note": "Page officielle Drumsheds, SAT 31 OCT, 13:00-22:30, 4e edition londonienne. Affiche presentee en A-Z (pas de tete d'affiche distinguee) : ordre conserve. Oden & Fatzo en live. Second bloc A-Z = scene The Disco Express."
+  },
+  {
+    "id": 228,
+    "title": "Teletech Leeds: Warehouse",
+    "lineup": [
+      "Faster Horses",
+      "Clouds",
+      "Juicy Romance",
+      "Vivace"
+    ],
+    "source": "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Teletech-Leeds-Warehouse-Leeds/42476107/",
+    "note": "Billetterie officielle liee depuis teletech.events/events. Samedi 3 octobre 2026, The Warehouse Leeds, 23:00-07:00."
+  },
+  {
+    "id": 232,
+    "title": "Teletech Liverpool",
+    "lineup": [
+      "Jowi"
+    ],
+    "source": "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Teletech-JOWI-ALL-NIGHT-LONG---Liverpool/42488463/",
+    "note": "Billetterie officielle liee depuis teletech.events/events. La soiree est billee 'Teletech: JOWI [ALL NIGHT LONG] - Liverpool', vendredi 9 octobre 2026 a l'Arts Club : un seul artiste, en all night long."
+  },
+  {
+    "id": 247,
+    "title": "Teletech Bristol",
+    "lineup": [
+      "Restricted",
+      "Jowi",
+      "Bøery",
+      "Lola Cerise",
+      "Lyraaa"
+    ],
+    "source": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/Teletech-Bristol/42603138/",
+    "note": "Billetterie officielle liee depuis teletech.events/events. Vendredi 27 novembre 2026, The Prospect Building, 22:00-04:00, 18+."
+  },
+  {
+    "id": 237,
+    "title": "Teletech Glasgow",
+    "lineup": [
+      "Kirsty"
+    ],
+    "source": "https://www.skiddle.com/whats-on/Glasgow/Room-2/Teletech-KIRSTY-All-Night-Long---Glasgow/42566935/",
+    "note": "Billetterie officielle liee depuis teletech.events/events. Soiree billee 'Teletech: KIRSTY [All Night Long] - Glasgow', samedi 24 octobre 2026 a Room 2, 23:00-03:00 : une seule artiste, en all night long."
+  },
+  {
+    "id": 243,
+    "title": "Teletech Newcastle",
+    "lineup": [
+      "Kirsty"
+    ],
+    "source": "https://www.skiddle.com/e/42567152",
+    "note": "Billetterie officielle liee depuis teletech.events/events. 'Teletech: KIRSTY [All Night Long] - Newcastle', samedi 14 novembre 2026 au World Headquarters, 23:00-04:00 : une seule artiste, en all night long."
+  },
+  {
+    "id": 250,
+    "title": "Teletech Cardiff",
+    "lineup": [
+      "Kirsty"
+    ],
+    "source": "https://www.skiddle.com/e/42567190",
+    "note": "Billetterie officielle liee depuis teletech.events/events. 'Teletech: KIRSTY [All Night Long] - Cardiff', vendredi 12 mars 2027 aux Vaults (113-116 Bute Street), 22:00-04:00 : une seule artiste, en all night long."
+  },
+  {
+    "id": 719,
+    "title": "Cowgate Block Party",
+    "lineup": [
+      "Arbor Green",
+      "Becca Hunter",
+      "Body Horror",
+      "Chris Reeve",
+      "Day Sleeper",
+      "Diet Of Worms",
+      "Jack Brotherhood",
+      "The Klittens",
+      "Modern Guilt",
+      "Morn",
+      "Mount Palomar",
+      "Noise of Angels",
+      "Paper Hats",
+      "Peter Cat",
+      "Terra Twin"
+    ],
+    "source": "https://www.sneakypetes.co.uk/2026/10/24/cowgate-block-party-at-sneaky-petes-and-the-mash-house/",
+    "note": "Page officielle Sneaky Pete's, samedi 24 octobre 2026, 4e edition : 'Full Line Up' de 15 noms, publie en A-Z (ordre conserve). L'evenement se tient sur deux salles, Sneaky Pete's et The Mash House."
+  },
+  {
+    "id": 634,
+    "title": "Lucid Dreams: Acid Techno",
+    "lineup": [
+      "Owen Purdie",
+      "Michaela (Collide)",
+      "El Tel The Transcender",
+      "Thomas Harris",
+      "Pussypower Productions"
+    ],
+    "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3-Poetry-Club/Lucid-Dreams---Acid-Techno/42618492/",
+    "note": "Billetterie liee depuis la fiche officielle SWG3 (swg3.tv/events/2026/november/lucid-dreams-acid-techno/), qui ne publie pas le line-up. Vendredi 20 novembre 2026, The Poetry Club, 23:00-03:00, 18+. L'affiche imprime 'Owen Purdie (Lucid-Dreams) / Michaela (Collide) / El Tel The Transcender (Esoteric) / Thomas Harris (Lucid-Dreams) / Pussypower Productions (Terry & Jason)' : les mentions de crew ont ete retirees sauf pour Michaela, trop generique seule."
   }
 ]
