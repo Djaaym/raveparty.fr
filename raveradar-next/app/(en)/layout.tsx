@@ -27,9 +27,22 @@ export const metadata: Metadata = {
   title: "RaveRadar — Find your next rave",
   description:
     "Discover Europe's best electronic music events. Techno, hardstyle, DnB, psytrance, trance & warehouse raves.",
+  /* Google n'affichait aucune favicon dans les résultats, et la cause était ici :
+     l'icône était déclarée en `data:image/svg+xml,...`. Un navigateur la rend très
+     bien, Googlebot non — sa documentation demande un **fichier explorable**, à une
+     URL stable et non bloquée par robots.txt, carrée et d'un multiple de 48 px. Un
+     URI `data:` n'est pas une URL : il n'y a rien à demander, donc rien à indexer,
+     donc le globe générique. Les fichiers sont engendrés par `python3 scripts/favicon.py`. */
   icons: {
-    icon: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23FF2D9B'/%3E%3C/svg%3E",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/icon.png", type: "image/png", sizes: "48x48" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+      { url: "/icon-512.png", type: "image/png", sizes: "512x512" },
+    ],
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
   },
+  manifest: "/site.webmanifest",
 };
 
 /**

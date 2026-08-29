@@ -20,6 +20,7 @@ import { rankPlaces } from "@/lib/places";
 import { ARTISTS, artistGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
 import { artistPhoto } from "@/lib/artist-photos";
+import ArtistPill from "./ArtistPill";
 import { VENUES } from "@/lib/venues";
 import { VENUE_SHOTS } from "@/lib/venue-photos";
 import { genreProfile, pickL } from "@/lib/genres";
@@ -466,9 +467,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                   .filter((x) => !featuredSlugs.has(x.a.slug))
                   .slice(0, 40)
                   .map(({ a, n }) => (
-                    <Link key={a.slug} href={`${p}/artistes/${a.slug}`}>
-                      {a.name} <b>{n}</b>
-                    </Link>
+                    <ArtistPill key={a.slug} href={`${p}/artistes/${a.slug}`} name={a.name} slug={a.slug} count={n} />
                   ))}
                 <Link className="more" href={`${p}/artistes`}>
                   {t("genre.allartists")}

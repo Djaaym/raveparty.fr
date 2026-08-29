@@ -3,6 +3,7 @@ import type { Lang } from "@/lib/types";
 import { ALL_GENRES, GENRES, FESTIVALS, eventSlug, genreSlug, genreDescL, liveEditions, todayISO, upcoming } from "@/lib/data";
 import { rankPlaces } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
+import ArtistPill from "./ArtistPill";
 import { VENUES } from "@/lib/venues";
 import { genreProfile, pickL } from "@/lib/genres";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -179,9 +180,7 @@ export default function GenresHub({ lang }: { lang: Lang }) {
               </h2>
               <div className="linkfarm">
                 {artists.map((a) => (
-                  <Link key={a.slug} href={`${p}/artistes/${a.slug}`}>
-                    {a.name}
-                  </Link>
+                  <ArtistPill key={a.slug} href={`${p}/artistes/${a.slug}`} name={a.name} slug={a.slug} />
                 ))}
               </div>
             </>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
+import { artistPhoto } from "@/lib/artist-photos";
 import {
   EVENTS,
   countryLabel,
@@ -199,19 +200,41 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                   </p>
                 )}
                 <div className="lineup">
-                  {e.lineup.map((a, i) => (
-                    <Link
-                      href={`${p}/artistes/${slugify(a.trim())}`}
-                      className={`artist ${i === 0 ? "headliner" : ""}`}
-                      key={a}
-                    >
-                      <div className="av">{a.trim()[0]}</div>
-                      <div>
-                        <b>{a.trim()}</b>
-                        <span>{i === 0 ? t("event.headliner") : t("event.djset")}</span>
-                      </div>
-                    </Link>
-                  ))}
+                  {e.lineup.map((a, i) => {
+                    /* Le line-up est l'endroit du site où l'on regarde le plus des noms
+                       d'artistes — c'est donc le premier où le portrait doit apparaître.
+                       Le slug est celui de `buildArtists()`, donc `artistPhoto()` tombe
+                       sur la même clé que la fiche vers laquelle la carte pointe. */
+                    const photo = artistPhoto(slugify(a.trim()));
+                    return (
+                      <Link
+                        href={`${p}/artistes/${slugify(a.trim())}`}
+                        className={`artist ${i === 0 ? "headliner" : ""}`}
+                        key={a}
+                      >
+                        {photo ? (
+                          /* eslint-disable-next-line @next/next/no-img-element */
+                          <img
+                            className="av av-photo"
+                            src={`/artists/${photo.file}`}
+                            alt=""
+                            width={44}
+                            height={44}
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        ) : (
+                          <div className="av" aria-hidden="true">
+                            {a.trim()[0]}
+                          </div>
+                        )}
+                        <div>
+                          <b>{a.trim()}</b>
+                          <span>{i === 0 ? t("event.headliner") : t("event.djset")}</span>
+                        </div>
+                      </Link>
+                    );
+                  })}
                 </div>
               </div>
 

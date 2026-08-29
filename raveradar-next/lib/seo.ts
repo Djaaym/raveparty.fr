@@ -206,6 +206,11 @@ export function siteJsonLd(lang: Lang) {
       "@type": "Organization",
       name: "RaveRadar",
       url: SITE_URL,
+      /* Le logo de l'organisation, en absolu : c'est le champ que Google lit pour la
+         vignette de marque, et il est indépendant de la favicon (celle-ci décide de
+         l'icône du résultat de recherche, celui-là du panneau de connaissance). Une
+         URL relative n'y serait pas résolue — même règle que `imageUrl()`. */
+      logo: `${SITE_URL}/icon-512.png`,
       description:
         lang === "en"
           ? "Directory of electronic music events across Europe: festivals, clubs and warehouses."
