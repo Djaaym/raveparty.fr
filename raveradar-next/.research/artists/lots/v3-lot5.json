@@ -1,32 +1,7 @@
 [
  {
-  "slug": "linds",
-  "name": "LINDS",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "Techno"
-  ]
- },
- {
-  "slug": "locus-solus",
-  "name": "Locus Solus",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "lunatic",
-  "name": "Lunatic",
-  "dates": 1,
-  "genres_evenements": [
-   "Hardcore"
-  ]
- },
- {
-  "slug": "malou",
-  "name": "Malou",
+  "slug": "john-glacier",
+  "name": "John Glacier",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -34,67 +9,69 @@
   ]
  },
  {
-  "slug": "marhu",
-  "name": "Marhu",
+  "slug": "joy-crookes",
+  "name": "Joy Crookes",
   "dates": 1,
   "genres_evenements": [
-   "Hard Techno",
-   "Psytrance"
+   "Drum & Bass",
+   "House"
   ]
  },
  {
-  "slug": "marsh",
-  "name": "Marsh",
+  "slug": "karina-lin",
+  "name": "Karina Lin",
   "dates": 1,
   "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kerrie",
+  "name": "Kerrie",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kili",
+  "name": "Kili",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "leila-t",
+  "name": "Leila T",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lewis-capaldi",
+  "name": "Lewis Capaldi",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
    "Trance"
   ]
  },
  {
-  "slug": "mate",
-  "name": "Mate",
-  "dates": 1,
-  "genres_evenements": [
-   "House"
-  ]
- },
- {
-  "slug": "maxi-mo",
-  "name": "Maxi Mo",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "mc-spot",
-  "name": "MC Spot",
+  "slug": "ltdream",
+  "name": "LTDream",
   "dates": 1,
   "genres_evenements": [
    "Techno"
   ]
  },
  {
-  "slug": "megane-brescich",
-  "name": "Megane Brescich",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "midland",
-  "name": "Midland",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass",
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "mix-master-morris",
-  "name": "Mix Master Morris",
+  "slug": "mad-kate",
+  "name": "Mad Kate",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -102,34 +79,8 @@
   ]
  },
  {
-  "slug": "morten",
-  "name": "Morten",
-  "dates": 1,
-  "genres_evenements": [
-   "EDM",
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "mykana",
-  "name": "Mykana",
-  "dates": 1,
-  "genres_evenements": [
-   "House"
-  ]
- },
- {
-  "slug": "natty-lou",
-  "name": "Natty Lou",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "niklas-dee",
-  "name": "Niklas Dee",
+  "slug": "mc-kaman",
+  "name": "MC Kaman",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -137,18 +88,44 @@
   ]
  },
  {
-  "slug": "nova",
-  "name": "Nova",
+  "slug": "millad",
+  "name": "Millad",
   "dates": 1,
   "genres_evenements": [
-   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "miyagi",
+  "name": "Miyagi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "muovipussi",
+  "name": "Muovipussi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "neelix",
+  "name": "Neelix",
+  "dates": 1,
+  "genres_evenements": [
    "Hardstyle",
    "Techno"
   ]
  },
  {
-  "slug": "oko-dj",
-  "name": "OKO DJ",
+  "slug": "nicole-olenskaia",
+  "name": "Nicole Olenskaia",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -156,24 +133,8 @@
   ]
  },
  {
-  "slug": "orishas",
-  "name": "Orishas",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "pa-olo",
-  "name": "Pa Olo",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "paquita-gordon",
-  "name": "Paquita Gordon",
+  "slug": "ogazon",
+  "name": "Ogazón",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -181,16 +142,36 @@
   ]
  },
  {
-  "slug": "paul-krist",
-  "name": "Paul Krist",
+  "slug": "piazza",
+  "name": "Piazza",
   "dates": 1,
   "genres_evenements": [
-   "Hard Techno"
+   "Hard Techno",
+   "House",
+   "Techno"
   ]
  },
  {
-  "slug": "pletnev",
-  "name": "Pletnev",
+  "slug": "qlas",
+  "name": "Qlas",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "restrictless",
+  "name": "Restrictless",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "rosa",
+  "name": "Rosa",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -198,16 +179,8 @@
   ]
  },
  {
-  "slug": "pvc",
-  "name": "PVC",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "rgie",
-  "name": "ØRGIE",
+  "slug": "saltysis",
+  "name": "SaltySis",
   "dates": 1,
   "genres_evenements": [
    "Hard Techno",
@@ -215,41 +188,8 @@
   ]
  },
  {
-  "slug": "rosa-pagano",
-  "name": "Rosa Pagano",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "ruffy",
-  "name": "Ruffy",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "sarica",
-  "name": "Sarica",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "Techno"
-  ]
- },
- {
-  "slug": "selene",
-  "name": "Selene",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "siebenschlaefer",
-  "name": "Siebenschlaefer",
+  "slug": "seasick",
+  "name": "Seasick",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -257,17 +197,27 @@
   ]
  },
  {
-  "slug": "sophia-violet",
-  "name": "Sophia Violet",
+  "slug": "seelen",
+  "name": "Seelen",
   "dates": 1,
   "genres_evenements": [
-   "Hard Techno",
+   "House",
+   "Techno",
    "Trance"
   ]
  },
  {
-  "slug": "superzandy",
-  "name": "Superzandy",
+  "slug": "shl-mo",
+  "name": "Shlømo",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "spiritbear",
+  "name": "Spiritbear",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -275,231 +225,65 @@
   ]
  },
  {
-  "slug": "technoboy-tuneboy",
-  "name": "Technoboy & Tuneboy",
+  "slug": "stijn-vm",
+  "name": "Stijn VM",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "suze",
+  "name": "Suzé",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tautumeitas",
+  "name": "Tautumeitas",
   "dates": 1,
   "genres_evenements": [
    "Drum & Bass",
-   "Hard Techno",
-   "Hardcore",
-   "Psytrance"
-  ]
- },
- {
-  "slug": "the-hacker",
-  "name": "The Hacker",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "tiken-jah-fakoly",
-  "name": "Tiken Jah Fakoly",
-  "dates": 1,
-  "genres_evenements": [
-   "Drum & Bass"
-  ]
- },
- {
-  "slug": "tolentechno",
-  "name": "Tolentechno",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "ulla",
-  "name": "Ulla",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "vanesa-wolf",
-  "name": "Vanesa Wolf",
-  "dates": 1,
-  "genres_evenements": [
    "EDM",
    "House"
   ]
  },
  {
-  "slug": "vino",
-  "name": "Vino",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "Techno"
-  ]
- },
- {
-  "slug": "wet-leg",
-  "name": "Wet Leg",
+  "slug": "the-wombats",
+  "name": "The Wombats",
   "dates": 1,
   "genres_evenements": [
    "Drum & Bass",
-   "House"
-  ]
- },
- {
-  "slug": "xinobi",
-  "name": "Xinobi",
-  "dates": 1,
-  "genres_evenements": [
    "House",
    "Techno"
   ]
  },
  {
-  "slug": "zuke",
-  "name": "Zuke",
+  "slug": "tommy-cash",
+  "name": "Tommy Cash",
   "dates": 1,
   "genres_evenements": [
-   "Hard Techno",
-   "Techno"
-  ]
- },
- {
-  "slug": "adam-trigger",
-  "name": "Adam Trigger",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "alba-franch",
-  "name": "Alba Franch",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "Techno"
-  ]
- },
- {
-  "slug": "amalie-hank",
-  "name": "Amalie & Hank",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "arter",
-  "name": "Arter",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "aurelius",
-  "name": "Aurelius",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "besic",
-  "name": "Besic",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "carlina-carpelan",
-  "name": "Carlina Carpelan",
-  "dates": 1,
-  "genres_evenements": [
-   "Techno"
-  ]
- },
- {
-  "slug": "club-mermaid-feat-alaska-thunderfuck",
-  "name": "Club Mermaid feat. Alaska Thunderfuck",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "daisy",
-  "name": "Daisy",
-  "dates": 1,
-  "genres_evenements": [
-   "Hard Techno",
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "david-rodigan",
-  "name": "David Rodigan",
-  "dates": 1,
-  "genres_evenements": [
-   "House"
-  ]
- },
- {
-  "slug": "dj-ottopus",
-  "name": "DJ Ottopus",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "estremo",
-  "name": "Estremo",
-  "dates": 1,
-  "genres_evenements": [
-   "House",
-   "Techno"
-  ]
- },
- {
-  "slug": "flo-rida",
-  "name": "Flo Rida",
-  "dates": 1,
-  "genres_evenements": [
+   "Drum & Bass",
    "EDM",
-   "Trance"
+   "House"
   ]
  },
  {
-  "slug": "friction",
-  "name": "Friction",
+  "slug": "twonot",
+  "name": "Twonot",
   "dates": 1,
   "genres_evenements": [
    "Drum & Bass"
   ]
  },
  {
-  "slug": "groove-armada-dj-set",
-  "name": "Groove Armada (DJ set)",
-  "dates": 1,
-  "genres_evenements": [
-   "House"
-  ]
- },
- {
-  "slug": "hanna-ojanen",
-  "name": "Hanna Ojanen",
+  "slug": "vojko-v",
+  "name": "Vojko V",
   "dates": 1,
   "genres_evenements": [
    "House",
@@ -507,20 +291,20 @@
   ]
  },
  {
-  "slug": "jamo",
-  "name": "JÄMO",
+  "slug": "worship",
+  "name": "Worship",
   "dates": 1,
   "genres_evenements": [
-   "House",
+   "EDM",
    "Techno"
   ]
  },
  {
-  "slug": "jimmy-labeeu",
-  "name": "Jimmy Labeeu",
+  "slug": "yung-singh",
+  "name": "Yung Singh",
   "dates": 1,
   "genres_evenements": [
-   "Drum & Bass",
+   "Hard Techno",
    "House",
    "Techno"
   ]
