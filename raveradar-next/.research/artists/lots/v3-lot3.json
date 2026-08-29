@@ -1,0 +1,539 @@
+[
+ {
+  "slug": "lewis-ofman",
+  "name": "Lewis OfMan",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "lobster",
+  "name": "Lobster",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "love-transmission",
+  "name": "Love Transmission",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "malice",
+  "name": "Malice",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "marc-zocher",
+  "name": "Marc Zocher",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "maro",
+  "name": "Maro",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "masalo",
+  "name": "Masalo",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "max-finney",
+  "name": "Max Finney",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mc-nice",
+  "name": "MC Nice",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "medine",
+  "name": "Médine",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mia-mia",
+  "name": "Mia Mia",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "missnoa",
+  "name": "Missnoa",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Psytrance",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "moodfino",
+  "name": "Moodfino",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "multiplex",
+  "name": "Multiplex",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "naft",
+  "name": "NAFT",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nick-d-lite",
+  "name": "Nick D-lite",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "noless",
+  "name": "Noless",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "ogalla",
+  "name": "Ogalla",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "one87",
+  "name": "One87",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "oxmoze",
+  "name": "Oxmoze",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardstyle",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "paloma-colombe",
+  "name": "Paloma Colombe",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "part-time-killer",
+  "name": "Part Time Killer",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "pigminds",
+  "name": "Pigminds",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "protoje",
+  "name": "Protoje",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "redbatun",
+  "name": "Redbatun",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "romen-est-omen",
+  "name": "Romen Est Omen",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "row1",
+  "name": "Row1",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sanem",
+  "name": "Sanem",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Psytrance"
+  ]
+ },
+ {
+  "slug": "see-rose",
+  "name": "See Rose",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "slug": "shaun-johnston",
+  "name": "Shaun Johnston",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "skream-benga",
+  "name": "Skream & Benga",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardcore",
+   "Hardstyle",
+   "House"
+  ]
+ },
+ {
+  "slug": "stanton",
+  "name": "Stanton",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "syreeta",
+  "name": "Syreeta",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tha-watcher",
+  "name": "Tha Watcher",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "the-tunegirl",
+  "name": "The Tunegirl",
+  "dates": 1,
+  "genres_evenements": [
+   "Acid Techno",
+   "Hard Techno",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "toirabat",
+  "name": "Toirabat",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "truly-moore",
+  "name": "Truly Moore",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "valentina-magaletti",
+  "name": "Valentina Magaletti",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vibrant",
+  "name": "Vibrant",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "wal-halla",
+  "name": "Wal_Halla",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "woesum",
+  "name": "Woesum",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ypy",
+  "name": "YPY",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "acid-talk",
+  "name": "Acid Talk",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "aiden",
+  "name": "Aiden",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "aly-fila",
+  "name": "Aly & Fila",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "anna",
+  "name": "ANNA",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "asli",
+  "name": "Asli",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "basit-soomro",
+  "name": "Basit Soomro",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "bored-bouddha",
+  "name": "Bored Bouddha",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "christy-moore",
+  "name": "Christy Moore",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "couzin-hub",
+  "name": "CouZin Hub",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "darwin",
+  "name": "Darwin",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "dj-guestlist",
+  "name": "DJ Guestlist",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "erika-de-casier",
+  "name": "Erika de Casier",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "fellatio",
+  "name": "Fellatio",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "frederic",
+  "name": "Frederic",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "gissa",
+  "name": "Gissa",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "hamdi",
+  "name": "Hamdi",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "hitoshi",
+  "name": "Hitoshi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jeff-mills-presents-tomorrow-comes-the-harvest",
+  "name": "Jeff Mills presents Tomorrow Comes The Harvest",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ }
+]

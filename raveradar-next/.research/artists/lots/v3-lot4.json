@@ -1,0 +1,545 @@
+[
+ {
+  "slug": "lez",
+  "name": "Lez",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardstyle",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "locus-error",
+  "name": "Locus Error",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "luca-hemmers",
+  "name": "Luca Hemmers",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "malla",
+  "name": "MALLA",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "marco-marino",
+  "name": "Marco Marino",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "marr-n",
+  "name": "Marrøn",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "masta-ace",
+  "name": "Masta Ace",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "max-wagner",
+  "name": "Max Wagner",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mc-novy",
+  "name": "MC Novy",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "meera",
+  "name": "Meera",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "michael-cores",
+  "name": "Michael Cores",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "mit",
+  "name": "MIT",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "moritz-worpenberg",
+  "name": "Moritz Worpenberg",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mv-funk",
+  "name": "mV Funk",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "natasha-diggs",
+  "name": "Natasha Diggs",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "nico-juice",
+  "name": "Nico Juice",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "notmytype",
+  "name": "Notmytype",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "oguz",
+  "name": "OGUZ",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "optimo-espacio",
+  "name": "Optimo (Espacio)",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "p-o-u",
+  "name": "P.O.U",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "panic",
+  "name": "Panic",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "patrick-mason",
+  "name": "Patrick Mason",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "pixie-dust",
+  "name": "Pixie Dust",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ptass",
+  "name": "Ptass",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "House"
+  ]
+ },
+ {
+  "slug": "revenge-of-the-nerds",
+  "name": "Revenge of the Nerds",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "ros",
+  "name": "Rós",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "royalistiq",
+  "name": "Royalistiq",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "sano",
+  "name": "SANO",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "selah-sue",
+  "name": "Selah Sue",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sick",
+  "name": "Sick",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "solstice",
+  "name": "Solstice",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "static-bloom",
+  "name": "Static Bloom",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "taxman",
+  "name": "Taxman",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "the-egyptian-lover",
+  "name": "The Egyptian Lover",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "thomas-reiner",
+  "name": "Thomas Reiner",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tolaris",
+  "name": "Tolaris",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "uberkikz",
+  "name": "Überkikz",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "van-hella",
+  "name": "Van Hella",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "villain",
+  "name": "Villain",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "wekesa",
+  "name": "Wekesa",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "x-tof",
+  "name": "X-Tof",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "zara",
+  "name": "Zara",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "adam-munnings",
+  "name": "Adam Munnings",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "alan-walker",
+  "name": "Alan Walker",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "amal",
+  "name": "Amal",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "anxhela",
+  "name": "Anxhela",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "atom-tm",
+  "name": "Atom TM",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ben-horton",
+  "name": "Ben Horton",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "buc-kesidi",
+  "name": "Buc Kesidi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "club-angel",
+  "name": "Club Angel",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "crooked-minds",
+  "name": "Crooked Minds",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "david-dm",
+  "name": "David DM",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "dj-jan",
+  "name": "DJ Jan",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "esposito",
+  "name": "Esposito",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "flkn",
+  "name": "FLKN",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "freeee",
+  "name": "Freeee",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "greg-s",
+  "name": "Greg S",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "hania-rani",
+  "name": "Hania Rani",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "imanu",
+  "name": "IMANU",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "jimi-jules",
+  "name": "Jimi Jules",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ }
+]

@@ -1,0 +1,528 @@
+[
+ {
+  "slug": "linds",
+  "name": "LINDS",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "locus-solus",
+  "name": "Locus Solus",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lunatic",
+  "name": "Lunatic",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore"
+  ]
+ },
+ {
+  "slug": "malou",
+  "name": "Malou",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "marhu",
+  "name": "Marhu",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Psytrance"
+  ]
+ },
+ {
+  "slug": "marsh",
+  "name": "Marsh",
+  "dates": 1,
+  "genres_evenements": [
+   "Trance"
+  ]
+ },
+ {
+  "slug": "mate",
+  "name": "Mate",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "maxi-mo",
+  "name": "Maxi Mo",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "mc-spot",
+  "name": "MC Spot",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "megane-brescich",
+  "name": "Megane Brescich",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "midland",
+  "name": "Midland",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mix-master-morris",
+  "name": "Mix Master Morris",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "morten",
+  "name": "Morten",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mykana",
+  "name": "Mykana",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "natty-lou",
+  "name": "Natty Lou",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "niklas-dee",
+  "name": "Niklas Dee",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nova",
+  "name": "Nova",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "oko-dj",
+  "name": "OKO DJ",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "orishas",
+  "name": "Orishas",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "pa-olo",
+  "name": "Pa Olo",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "paquita-gordon",
+  "name": "Paquita Gordon",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "paul-krist",
+  "name": "Paul Krist",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno"
+  ]
+ },
+ {
+  "slug": "pletnev",
+  "name": "Pletnev",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "pvc",
+  "name": "PVC",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "rgie",
+  "name": "ØRGIE",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "rosa-pagano",
+  "name": "Rosa Pagano",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "ruffy",
+  "name": "Ruffy",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "sarica",
+  "name": "Sarica",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "selene",
+  "name": "Selene",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "siebenschlaefer",
+  "name": "Siebenschlaefer",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sophia-violet",
+  "name": "Sophia Violet",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "superzandy",
+  "name": "Superzandy",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "technoboy-tuneboy",
+  "name": "Technoboy & Tuneboy",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "Hard Techno",
+   "Hardcore",
+   "Psytrance"
+  ]
+ },
+ {
+  "slug": "the-hacker",
+  "name": "The Hacker",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tiken-jah-fakoly",
+  "name": "Tiken Jah Fakoly",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "tolentechno",
+  "name": "Tolentechno",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ulla",
+  "name": "Ulla",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vanesa-wolf",
+  "name": "Vanesa Wolf",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "vino",
+  "name": "Vino",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "wet-leg",
+  "name": "Wet Leg",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "xinobi",
+  "name": "Xinobi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "zuke",
+  "name": "Zuke",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "adam-trigger",
+  "name": "Adam Trigger",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "alba-franch",
+  "name": "Alba Franch",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "amalie-hank",
+  "name": "Amalie & Hank",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "arter",
+  "name": "Arter",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "aurelius",
+  "name": "Aurelius",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "besic",
+  "name": "Besic",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "carlina-carpelan",
+  "name": "Carlina Carpelan",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "club-mermaid-feat-alaska-thunderfuck",
+  "name": "Club Mermaid feat. Alaska Thunderfuck",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "daisy",
+  "name": "Daisy",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "david-rodigan",
+  "name": "David Rodigan",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "dj-ottopus",
+  "name": "DJ Ottopus",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "estremo",
+  "name": "Estremo",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "flo-rida",
+  "name": "Flo Rida",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "friction",
+  "name": "Friction",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "groove-armada-dj-set",
+  "name": "Groove Armada (DJ set)",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "hanna-ojanen",
+  "name": "Hanna Ojanen",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jamo",
+  "name": "JÄMO",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jimmy-labeeu",
+  "name": "Jimmy Labeeu",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ }
+]
