@@ -17,11 +17,14 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const n = eventsForArtist(a.slug).length;
   // Les genres attribués, pas l'union brute : la description reprenait tous les styles
   // de toutes les affiches où l'artiste apparaît.
+  // Vide pour les artistes qu'aucune des onze catégories ne décrit (Sting, Pulp, le
+  // Trio Xenakis, programmés sur des festivals multi-genres) : la phrase disparaît
+  // alors entièrement, au lieu de finir sur un « Genres : . » creux.
   const styles = [...artistGenres(a), ...artistSubGenres(a)].join(", ");
   return {
     alternates: alternates(`/artistes/${params.slug}`, "fr"),
     title: `${a.name} — dates, line-ups & festivals | RaveRadar`,
-    description: `Où joue ${a.name} ? ${n} événement(s) référencé(s) : dates, line-ups, lieux et billetterie. Genres : ${styles}.`,
+    description: `Où joue ${a.name} ? ${n} événement(s) référencé(s) : dates, line-ups, lieux et billetterie.${styles ? ` Genres : ${styles}.` : ""}`,
   };
 }
 

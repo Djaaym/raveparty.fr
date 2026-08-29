@@ -86,6 +86,8 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   // à venir. Leurs fiches disparaissent avec le nom, mais l'URL reste.
   kavinsky: null,
   "bass-d": null,
+  // « VUM » est le nom du programme dominical d'Ääniwalli, pas un artiste.
+  vum: null,
   // N'étaient pas des artistes : un nom de soirée de club, un titre de tournée.
   fused: null,
   "a-nice-place-to-be": null,

@@ -1,0 +1,235 @@
+[
+ {
+  "name": "John Morales",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Garage House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/49258",
+   "https://api.discogs.com/artists/49258",
+   "https://www.johnmoralesmix.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Meduza",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Meduza_(producers)",
+   "https://api.discogs.com/database/search?type=release&artist=MEDUZA"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SebastiAn",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Electro",
+   "French House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Sebastian_(French_musician)",
+   "https://edbangerrecords.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Yaeji",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Hip-House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Yaeji",
+   "https://api.discogs.com/database/search?type=release&artist=Yaeji"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "nd_baumecker",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Electro",
+   "Ambient"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/754433-Andy-Baumecker",
+   "https://api.discogs.com/database/search?type=release&artist=Barker+%26+Baumecker"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Krimska",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "UK Bass"
+  ],
+  "sources": [
+   "https://www.transbordeur.fr/artiste/krimska/",
+   "https://le-sucre.eu/artists/krimska/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kathleen C",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Ghettotech",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://c12space.com/event/c12-nite-w-paramida-kathleen-c-softy/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Robin Nicolas",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/16314064",
+   "https://nervousrecords.bandcamp.com/album/jugar"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Stephan Licha",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Deep House"
+  ],
+  "sources": [
+   "https://goout.net/en/stephan-licha/pzlexdg/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nordiks",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://jaegeroslo.no/mixes/jm120-nordiks/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MiNNA",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco"
+  ],
+  "sources": [
+   "https://aaniwalli.fi/events/2026-08-16-niwalli_weekender_vum_open_air_2026_12/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ozan",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Hypnotic Techno"
+  ],
+  "sources": [
+   "https://solsticefestival.fi/music/ozan",
+   "https://aaniwalli.fi/events/2026-08-16-niwalli_weekender_vum_open_air_2026_12/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ű999",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Bouncy Techno"
+  ],
+  "sources": [
+   "https://turbinabudapest.hu/en/events/bouncy-budapest-invites-galactic-harmony-w-zwilling-dj-achim-feuervogel-2"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "K-Tee",
+  "main": [
+   "Techno",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "UK Bass"
+  ],
+  "sources": [
+   "http://lagraviere.ch/evenement/pulsion-11/",
+   "http://lagraviere.ch/evenement/black-rave-culture/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kevin Lo",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Acid House"
+  ],
+  "sources": [
+   "https://strengthinsound.nl/kevinlo/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tommy Phillips",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.lgrp.co/artists/tommyphillips-phlzb-7r325-2fxs4"
+  ],
+  "confidence": "high"
+ }
+]

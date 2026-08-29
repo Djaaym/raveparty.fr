@@ -1,0 +1,262 @@
+[
+ {
+  "name": "Neelix",
+  "main": [
+   "Psytrance",
+   "Trance"
+  ],
+  "sub": [
+   "Progressive Psytrance",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Neelix%22&fmt=json",
+   "https://musicbrainz.org/artist/86acb593-2bd8-41cb-8edc-fc8ba3620b15"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Shlømo",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Ambient",
+   "IDM"
+  ],
+  "sources": [
+   "https://djmag.com/news/criminal-complaint-filed-against-shlomo-paris-court",
+   "https://mnmt.no/magazine/2018/04/07/shlomo/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kerrie",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://tresorberlin.com/artist/kerrie/",
+   "https://www.soundonsound.com/people/kerrie-techno-dj-producer-sos-podcast"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Yung Singh",
+  "main": [
+   "House",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "UK Garage",
+   "Jungle"
+  ],
+  "sources": [
+   "https://www.yungsingh.com/biography",
+   "https://mixmag.net/read/punjabi-garage-documentary-yung-singh-ministry-of-sound-news"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Miyagi",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Melodic Techno",
+   "Tech House"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/93351/biography",
+   "https://www.deephouseamsterdam.com/london/interview-with-miyagi/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SUZé",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Progressive House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://deichbrand.de/en/line-up/artist/suze/",
+   "https://djanetop.com/djanes/suze/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Stijn VM",
+  "main": [
+   "House",
+   "Trance"
+  ],
+  "sub": [
+   "Electro",
+   "Progressive Trance"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/stijn-vm/",
+   "https://partyflock.nl/en/artist/68294/archive"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Seelen",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Electro"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/seelen/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kili",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [
+   "Uptempo",
+   "Frenchcore"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/kili/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SaltySis",
+  "main": [
+   "Hard Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hard Trance",
+   "Schranz",
+   "Neo Rave"
+  ],
+  "sources": [
+   "https://hoer.live/artist/saltysis/",
+   "https://www.ampliaberlin.com/artists/saltysis",
+   "https://www.berlin-brighton.com/post/berlin-mixtapes-073-saltysis"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ogazón",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://ra.co/events/2098730",
+   "https://www.blitz.club/program/dekmantel/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mad Kate",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Electro",
+   "Ambient"
+  ],
+  "sources": [
+   "https://madkate.bandcamp.com/",
+   "https://www.berlinartlink.com/2016/04/27/body-queer-bodies-and-performance-an-interview-with-mad-kate/",
+   "https://en.wikipedia.org/wiki/Hyenaz"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Twonot",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Tech House",
+   "Afro House",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/twonot",
+   "https://www.saintnazaire.fr/agenda/twonot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Worship",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.ravejungle.com/2026/05/19/ultra-europe-2026-lineup-phase-2/",
+   "https://ufo-network.com/2025/10/09/ultra-music-festival-2026/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Restrictless",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Early Hardstyle"
+  ],
+  "sources": [
+   "https://www.intothemadness.de/lineup/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Millad",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.traxsource.com/artist/531774/millad"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Piazza",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Melodic House",
+   "Indie Dance",
+   "Afro House"
+  ],
+  "sources": [
+   "https://www.sxpress.fr/artiste/piazza/"
+  ],
+  "confidence": "high"
+ }
+]
