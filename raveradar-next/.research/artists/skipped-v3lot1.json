@@ -1,0 +1,87 @@
+[
+ {
+  "name": "Maëlle",
+  "reason": "Uniquement citée dans l'affiche Fuse du 11/09/2026 (2HOT2PLAY & ALT8) : aucun profil d'artiste, aucune agence, aucune sortie. Les recherches remontent la chanteuse française Maëlle (The Voice 2018), qui n'a rien à voir — risque d'homonyme trop élevé.",
+  "sources": [
+   "https://ra.co/events/2506248"
+  ]
+ },
+ {
+  "name": "Obs",
+  "reason": "Annoncé sur la Main Stage du Between The Seas Winter (Neumünster) aux côtés de Harris & Ford, HBz et le shuuk, mais aucune page d'artiste, aucune sortie, aucune nationalité trouvée. Un nom de trois lettres n'est pas cherchable seul.",
+  "sources": [
+   "https://www.festival-sh.de/bts-winter"
+  ]
+ },
+ {
+  "name": "Delirium",
+  "reason": "DJ belge du circuit Illusion (39 Years Illusion, Blankenberge, 22/08/2026), mais partyflock répond 403 depuis ce conteneur et Discogs recense au moins cinq « Delirium » distincts (dont un DJ Delirium hardcore néerlandais). Aucun genre attestable sans trancher l'homonyme.",
+  "sources": [
+   "https://partyflock.nl/event/illusion-be",
+   "https://partyflock.nl/artist/303:Delirium"
+  ]
+ },
+ {
+  "name": "GUI",
+  "reason": "Programmé au Jaeger d'Oslo avec le collectif Futoria, dont aucune page ne détaille les résidents. Nom de trois lettres, Discogs remonte Gui Boratto et plusieurs « Gui » sans rapport.",
+  "sources": [
+   "https://ra.co/events/1961032",
+   "https://jaegeroslo.no/residents/"
+  ]
+ },
+ {
+  "name": "Von August",
+  "reason": "Une seule mention retrouvée : un live de lancement d'album au sous-sol du Jaeger (Oslo). Aucune page d'artiste, aucune sortie, aucun genre.",
+  "sources": [
+   "https://jaegeroslo.no/residents/"
+  ]
+ },
+ {
+  "name": "ROBOITH",
+  "reason": "Cité sur deux affiches du club BASIS (Utrecht), y compris aux côtés de Bart Skils. Aucune bio, aucune sortie sur Discogs, aucune page d'artiste.",
+  "sources": [
+   "https://ra.co/events/2143367",
+   "https://clubbasis.nl/events/"
+  ]
+ },
+ {
+  "name": "Yann YL",
+  "reason": "DJ local d'une soirée « Yann YL Dance Music & Electro » au Centre Gérard Philipe de Varennes-Vauzelles. Aucune source ne le décrit ; les recherches ne remontent que des homonymes (Yanou, Yann-K, YL rappeur).",
+  "sources": []
+ },
+ {
+  "name": "Molly Sandén",
+  "reason": "Chanteuse pop suédoise (pop, dance-pop, R&B), programmée au Bonfire Festival de Linköping. Aucun des onze genres du site ne s'applique — ce n'est pas une artiste de musique électronique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Molly_Sand%C3%A9n"
+  ]
+ },
+ {
+  "name": "Florence + The Machine",
+  "reason": "Groupe d'indie rock anglais formé à Londres en 2007 (rock alternatif, baroque pop, soul), programmé au Flow Festival d'Helsinki. Aucun des onze genres du site ne s'applique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Florence_and_the_Machine"
+  ]
+ },
+ {
+  "name": "Arthur Verocai",
+  "reason": "Compositeur, arrangeur et producteur brésilien né en 1945 (MPB, bossa nova, soul, jazz), programmé au We Out Here Festival. Aucun des onze genres du site ne s'applique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Arthur_Verocai"
+  ]
+ },
+ {
+  "name": "Tems",
+  "reason": "Temilade Openiyi, chanteuse et productrice nigériane (afrobeats, R&B alternatif, alté), programmée au Forwards Festival de Bristol. Aucun des onze genres du site ne s'applique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tems"
+  ]
+ },
+ {
+  "name": "underscores",
+  "reason": "April Harper Grey, autrice-compositrice américaine (hyperpop, pop-punk, dubstep), programmée au C2C Festival de Turin. Elle a commencé par du dubstep sur SoundCloud, mais aucun des onze genres du site ne décrit honnêtement son travail actuel.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Underscores_(musician)"
+  ]
+ }
+]

@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     alternates: alternates(`/artistes/${params.slug}`, "en"),
     title: `${a.name} — dates, line-ups & festivals | RaveRadar`,
-    description: `Where does ${a.name} play? ${n} listed event(s): dates, line-ups, venues and tickets. Genres: ${styles}.`,
+    description: `Where does ${a.name} play? ${n} listed event(s): dates, line-ups, venues and tickets.${styles ? ` Genres: ${styles}.` : ""}`,
   };
 }
 

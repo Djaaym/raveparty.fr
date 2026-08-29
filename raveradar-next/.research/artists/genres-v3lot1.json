@@ -1,0 +1,699 @@
+[
+ {
+  "name": "MCDE",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Danilo_Plessow",
+   "http://motorcitydrumensemble.com/?page_id=20"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "MCDE",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House",
+   "Disco"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Danilo_Plessow",
+   "https://earthackney.co.uk/performers/danilo-plessow-fka-motor-city-drum-ensemble/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Alle Farben",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Alle_Farben",
+   "https://electronicgroove.com/alle-farben-im-melody-man/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "DjRUM",
+  "main": [
+   "Techno",
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Ambient",
+   "Dubstep"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Djrum",
+   "https://www.rewirefestival.nl/artist/djrum"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Anish Kumar",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://www.juno.co.uk/junodaily/2022/12/07/anish-kumar-interview-it-cant-sound-like-it-was-obviously-made-in-a-computer/",
+   "https://ninjatune.net/release/anish-kumar-x-barry-cant-swim/blackpool-boulevard"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Colin Benders",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Colin_Benders",
+   "https://www.awakenings.com/en/artists/colin-benders/270/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "PACT (Joachim Pastor + Joris Delacroix + Teho)",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://pactteam.fr/",
+   "https://www.radiofg.com/pact-le-projet-francais-qui-reinvente-les-lives"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Blasha & Allatt",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Electro"
+  ],
+  "sources": [
+   "https://www.fabriclondon.com/posts/audio-introducing-meat-free-duo-blasha-allatt",
+   "https://www.awakenings.com/en/artists/blasha-allat/213723/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "The Purge",
+  "main": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "sub": [
+   "Rawstyle",
+   "Uptempo"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/the-purge/",
+   "https://edm.fandom.com/wiki/The_Purge",
+   "https://www.savagesquad.nl/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Titan",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Rawstyle"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/titan/",
+   "https://partyflock.nl/artist/52609:Titan",
+   "https://hardnews.nl/titan-ik-was-het-gevoel-met-hardstyle-helemaal-kwijt/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Noiseshock",
+  "main": [
+   "Hardstyle"
+  ],
+  "sub": [
+   "Euphoric Hardstyle"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/noiseshock/",
+   "https://passionbpm.fr/2015-09-10-interview-noiseshock/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "ØRBENYX",
+  "main": [
+   "Hard Techno",
+   "Hardcore"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Acid Techno"
+  ],
+  "sources": [
+   "https://partyflock.nl/artist/173374:ORBENYX",
+   "https://kursedsystem.bandcamp.com/track/rbenyx-x-go-pel-fearless-anger"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "MC Boogshe",
+  "main": [
+   "Hardcore"
+  ],
+  "sub": [],
+  "sources": [
+   "http://www.boogshe.com/biography",
+   "https://www.djguide.nl/djinfo.p?djid=5397&language=en",
+   "https://mastersofceremonies.com/en/mc/nederland/boogshe/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Melon Bomb",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco"
+  ],
+  "sources": [
+   "https://www.melonbombibiza.com/",
+   "https://www.pikesibiza.com/melon-bomb/",
+   "https://www.ibiza-spotlight.com/magazine/2022/03/los-residentes-011-melon-bomb"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lossia",
+  "main": [
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/lossia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Venëhing",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Schranz",
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/venehing/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lee Parkinson",
+  "main": [
+   "House",
+   "Techno",
+   "Trance"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/lee-parkinson/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Tony Moya",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Disco",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.warehouse-nantes.fr/artist/tony-moya"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Saar Kuus",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Minimal Techno"
+  ],
+  "sources": [
+   "https://rextheagency.com/saar-kuus/",
+   "https://www.mysteryland.nl/act/saar-kuus",
+   "https://partyflock.nl/artist/158689:Saar-Kuus"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Olivia Lensen",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://dgtl-festival.com/en/artists/olivia-lensen/",
+   "https://operator-radio.com/artists/olivia-lensen",
+   "https://pipradio.nl/artists/ollie-nesnel"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Schwesta P",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://de.ra.co/dj/schwestap/biography"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Mandragora",
+  "main": [
+   "Psytrance",
+   "Trance"
+  ],
+  "sub": [
+   "Progressive Trance",
+   "Goa Trance"
+  ],
+  "sources": [
+   "https://djmandragora.com/bio",
+   "https://www.thewalkingbass.fr/programmation/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Hayley Zalassi",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.scotsman.com/whats-on/arts-and-entertainment/under-the-radar-hayley-zalassi-3785762",
+   "http://www.dmcworld.net/dmc-world/hayley-zalassi/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mila Haj Kasem",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Hypnotic Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/milahajkasem/biography"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Shae Reid",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.a-listmgmt.com/shae-reid",
+   "https://www.ibiza-spotlight.com/magazine/2025/05/caught-in-the-moment-030-shae-reid-hi-ibiza"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Martin Oelz",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://warda.at/events/flashback-techno-classics-grelle-forelle-wien/",
+   "https://www.grelleforelle.com/project/2803-flashback-techno-classics-grelle-forelle/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Peter Pan",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://warda.at/events/flashback-techno-classics-grelle-forelle-wien/",
+   "https://www.grelleforelle.com/project/2803-flashback-techno-classics-grelle-forelle/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Jan Loup",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Dubstep",
+   "Dub Techno"
+  ],
+  "sources": [
+   "https://www.uselessseconds.com/jan-loup",
+   "https://fr.ra.co/dj/janloup"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mota",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://liquicity.com/events/liquicity-ghent-2026/",
+   "https://www.youtube.com/watch?v=2Q7TRf2oYxY"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Gaskin",
+  "main": [
+   "House"
+  ],
+  "sub": [],
+  "sources": [
+   "https://thuishaven.nl/16-aug-thuishaven-w-gaskin-5hrs-hou/",
+   "https://followthebeat.nl/festivals/thuishaven-x-gaskin-5hrs/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Casa Mata",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Afro House",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://www.guettapen.com/2025/10/10/casa-mata-artiste-emergent-entre-afro-house-et-deep-techno/",
+   "https://www.sxpress.fr/artiste/casa-mata/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Roüge",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "EBM"
+  ],
+  "sources": [
+   "https://shotgun.live/en/artists/iamrougemusic",
+   "https://mixmag.fr/read/utopia-festival-friche-belle-de-mai-marseille-guide"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Paralich",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Industrial Techno",
+   "Melodic Techno"
+  ],
+  "sources": [
+   "https://ra.co/dj/paralich/biography",
+   "https://sachsentrance.com/artists/artist/paralich/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lisa Korver",
+  "main": [
+   "Techno",
+   "Trance"
+  ],
+  "sub": [
+   "Hardgroove"
+  ],
+  "sources": [
+   "https://www.phase.amsterdam/artists/lisa-korver",
+   "https://www.unvrs.com/artists/lisa-korver",
+   "https://www.awakenings.com/en/artists/lisa-korver/386618/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nhū",
+  "main": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://nhumusic.com/",
+   "https://fr.ra.co/dj/nhu"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Myu:sa",
+  "main": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "sub": [
+   "Hard Dance"
+  ],
+  "sources": [
+   "https://harderstylemap.com/artist/myusa-1/",
+   "https://ra.co/events/1943678"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Skarn",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Melodic Techno",
+   "Progressive House"
+  ],
+  "sources": [
+   "https://ra.co/dj/skarn",
+   "https://culture-box.com/podcast/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Evissimax",
+  "main": [
+   "Hard Techno"
+  ],
+  "sub": [
+   "Ghetto Tech"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/the-mix-049-evissimax-dj-milan",
+   "https://ra.co/events/2233105"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "A.N.I.",
+  "main": [
+   "Hard Techno",
+   "Acid Techno",
+   "Hardstyle"
+  ],
+  "sub": [
+   "Gabber",
+   "Hard Trance"
+  ],
+  "sources": [
+   "https://promogogo.com/event/8bf95d2a-a003-41b8-9484-cdd624810e72",
+   "https://ra.co/events/2233105"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Aerea",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://ra.co/dj/aerea",
+   "https://viciousmagazine.com/news/aquasella-2026-presenta-su-cartel-mas-ambicioso-con-grandes-referentes-del-techno-internacional/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Babybel",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://ra.co/dj/babybel",
+   "https://clubkaiku.fi/archive/2026/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Speedwagon",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Liquid Drum & Bass"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/5492325",
+   "https://soundcloud.com/speedwagonconform"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "William Kiss",
+  "main": [
+   "Techno",
+   "House"
+  ],
+  "sub": [
+   "Tech House"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/6032266",
+   "https://www.discogs.com/artist/6032266"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Ouai Stéphane",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Breakbeat",
+   "Electro"
+  ],
+  "sources": [
+   "https://api.discogs.com/artists/6153841",
+   "https://soundcloud.com/ouaistephane"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Matthias Geerts",
+  "main": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://ra.co/dj/matthiasgeerts/biography",
+   "https://bcco.bandcamp.com/album/bcct003-curated-by-dj-hyperdrive"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Povoa",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Dubstep",
+   "Baile Funk"
+  ],
+  "sources": [
+   "https://dancewax.net/2026/02/04/tapping-in-with-povoa/",
+   "https://povoasound.bandcamp.com/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Sydney Ayven",
+  "main": [
+   "EDM",
+   "House"
+  ],
+  "sub": [
+   "Big Room"
+  ],
+  "sources": [
+   "https://www.groundcontrolagency.be/artist/sydney-ayven",
+   "https://www.thedaybeforetomorrow.be/line-up/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Marie-Julie",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://mutual-obsession.com/artists/marie-julie",
+   "https://www.fuse.be/resident-team",
+   "https://www.paradisecity.be/en/bands/marie-julie"
+  ],
+  "confidence": "high"
+ }
+]

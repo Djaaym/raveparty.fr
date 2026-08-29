@@ -60,6 +60,18 @@ def norm_tag(t: str) -> str:
     return re.sub(r"\s+", " ", (t or "").strip().lower()).replace("&amp;", "&")
 
 
+# Formules par lesquelles un agent signale qu'aucune des onze catégories ne décrit
+# honnêtement l'artiste. La liste est volontairement explicite : un « aucune source
+# trouvée » ou un « homonyme non tranché » ne doit **pas** entrer ici — dans ces cas-là
+# on n'a pas regardé assez, et la déduction reste le meilleur repli disponible.
+OUT_OF_SCOPE = re.compile(
+    r"pas un artiste (de musique )?électronique|n'est pas (un|une) (artiste|groupe|projet) électro|"
+    r"aucun(e)? (genre|clé|case) de la liste (fermée )?ne (s'y applique|le décrit|la décrit|les décrit)|"
+    r"hors (périmètre|taxonomie|liste)|hors de la liste fermée|ne relève pas de la musique électronique",
+    re.I,
+)
+
+
 def canon_sub(label: str):
     """Normalise un libellé de sous-genre rendu par un agent.
 
@@ -173,9 +185,32 @@ def main() -> int:
             research[slug] = {"m": mains, "s": [x for x in clean_subs if x not in mains][:3],
                               "srcs": srcs, "conf": r.get("confidence", "medium"), "rank": rank}
 
+    # --- 1bis. les artistes qu'aucune de nos onze cases ne décrit ---------------
+    # Un agent les a **regardés** et a conclu que rien dans la liste fermée ne leur
+    # convient : Pulp, Sting, Nick Cave, Shaggy, Madness, le Trio Xenakis. Ils sont
+    # légitimement au catalogue — ils jouent sur des festivals multi-genres — mais sans
+    # cette liste, `rankGenres()` leur attribuerait « House » ou « Techno » par le seul
+    # étiquetage de l'affiche, et l'affirmation partirait dans le JSON-LD et la meta
+    # description. Dire « on ne sait pas » est ici la seule réponse vraie ; c'est
+    # différent d'un artiste que personne n'a regardé, qui garde la déduction.
+    off_scope = {}
+    for f in sorted(HERE.glob("skipped-*.json")):
+        try:
+            rows = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        for r in rows if isinstance(rows, list) else []:
+            why = r.get("reason") or ""
+            if OUT_OF_SCOPE.search(why) and slugify(r.get("name", "")) in cat:
+                off_scope[slugify(r["name"])] = r["name"]
+
     # --- 2. le vote des sources automatiques -----------------------------------
     styles, stats = {}, defaultdict(int)
     for slug in cat:
+        if slug in off_scope and slug not in research:
+            styles[slug] = {"m": [], "s": [], "src": "hors-perimetre"}
+            stats["hors périmètre"] += 1
+            continue
         if slug in research:
             r = research[slug]
             styles[slug] = {"m": r["m"], "s": r["s"], "src": "research"}

@@ -57,7 +57,7 @@ def main() -> int:
                 errs.append(f"{slug} : genre principal inconnu « {g} »")
             if g == "Warehouse":
                 errs.append(f"{slug} : « Warehouse » est un lieu, pas un style")
-        if not st["m"]:
+        if not st["m"] and st["src"] != "hors-perimetre":
             errs.append(f"{slug} : aucun genre principal")
         for sub in st["s"]:
             if sub in st["m"]:
@@ -65,16 +65,20 @@ def main() -> int:
             if sub in MAIN_OK:
                 warns.append(f"{slug} : « {sub} » est une catégorie du site — devrait être un lien")
         ev = set(cat[slug]["genres"])
-        if ev and not (ev & set(st["m"])):
+        # « Hors périmètre » contredit le calendrier par construction — c'est même la
+        # raison d'être du marqueur. Le signaler serait du bruit.
+        if ev and st["m"] and not (ev & set(st["m"])):
             warns.append(
                 f"{slug} ({cat[slug]['name']}) : attribué {'/'.join(st['m'])}, "
                 f"programmé en {'/'.join(sorted(ev))} [{st['src']}]"
             )
 
     by_src = Counter(st["src"] for st in styles.values())
+    off = sum(1 for st in styles.values() if st["src"] == "hors-perimetre")
     subs = Counter(s for st in styles.values() for s in st["s"])
     print(f"{len(styles)} artistes attribués sur {len(cat)} ({100*len(styles)//max(len(cat),1)} %)")
     print(f"  dont {by_src.get('research', 0)} vérifiés à la main")
+    print(f"  dont {off} qu'aucune des onze catégories ne décrit (genres volontairement vides)")
     for s_src, n in by_src.most_common(8):
         if s_src != "research":
             print(f"  {s_src or '(vide)':32} {n}")

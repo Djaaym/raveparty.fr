@@ -1795,6 +1795,7 @@
  },
  "ben-tenner": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -2024,16 +2025,17 @@
   "n": 1,
   "name": "Blanko"
  },
- "blasha-allat": {
+ "blasha-allatt": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Blasha & Allat"
+  "name": "Blasha & Allatt"
  },
  "blasterjaxx": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -3137,7 +3139,8 @@
  },
  "couzin-hub": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "CouZin Hub"
@@ -3197,7 +3200,8 @@
  },
  "crooked-minds": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Crooked Minds"
@@ -3440,14 +3444,6 @@
   "n": 4,
   "name": "Daniel Avery"
  },
- "danilo-plessow-mcde": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Danilo Plessow (MCDE)"
- },
  "danke-al": {
   "genres": {
    "Hard Techno": 1,
@@ -3465,6 +3461,7 @@
  },
  "danth": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -4163,6 +4160,7 @@
  },
  "dj-fabs": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -4939,6 +4937,7 @@
  },
  "emin": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -5644,7 +5643,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Frederic"
+  "name": "Frederic."
  },
  "freedom-fighters": {
   "genres": {
@@ -6884,6 +6883,7 @@
  },
  "isis-cloudt": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7182,20 +7182,12 @@
    "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 3,
-   "House": 3,
-   "Techno": 8,
+   "House": 4,
+   "Techno": 9,
    "Trance": 1
   },
-  "n": 8,
+  "n": 9,
   "name": "Jeff Mills"
- },
- "jeff-mills-presents-tomorrow-comes-the-harvest": {
-  "genres": {
-   "House": 1,
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "Jeff Mills presents Tomorrow Comes The Harvest"
  },
  "jekkamai": {
   "genres": {
@@ -7225,6 +7217,7 @@
  },
  "jerome": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7578,6 +7571,7 @@
  },
  "jvrdy": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -7918,6 +7912,7 @@
  },
  "kevin-arnold": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -8233,7 +8228,8 @@
  },
  "krak-in-dub": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Krak In Dub"
@@ -8642,7 +8638,8 @@
  },
  "les-potes-au-feu": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Les Potes au Feu"
@@ -8721,7 +8718,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Lil Kleine"
+  "name": "Lil' Kleine"
  },
  "lil-texas": {
   "genres": {
@@ -8763,6 +8760,7 @@
  },
  "liquidfive": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 2,
@@ -9702,7 +9700,7 @@
  },
  "max-dean": {
   "genres": {
-   "Drum & Bass": 1
+   "House": 1
   },
   "n": 1,
   "name": "Max Dean"
@@ -9838,10 +9836,10 @@
  },
  "mcde": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "MCDE"
  },
  "mcr-t": {
@@ -9952,7 +9950,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Mestiza"
+  "name": "MËSTIZA"
  },
  "metrik": {
   "genres": {
@@ -11233,6 +11231,7 @@
  },
  "oliver-magenta": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -11401,17 +11400,6 @@
   },
   "n": 1,
   "name": "Oxia"
- },
- "oxmoze": {
-  "genres": {
-   "Hard Techno": 1,
-   "Hardstyle": 1,
-   "House": 1,
-   "Techno": 1,
-   "Trance": 1
-  },
-  "n": 1,
-  "name": "Oxmoze"
  },
  "ozan": {
   "genres": {
@@ -11681,6 +11669,7 @@
  },
  "paul-wolf": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -12080,7 +12069,8 @@
  },
  "provence98": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Provence98"
@@ -12266,7 +12256,8 @@
  },
  "rawb": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "RAWB"
@@ -12313,6 +12304,7 @@
  },
  "rebko": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -13775,14 +13767,14 @@
   "n": 1,
   "name": "Special D"
  },
- "special-request-sully": {
+ "special-request": {
   "genres": {
    "Drum & Bass": 1,
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Special Request & Sully"
+  "name": "Special Request"
  },
  "speedwagon": {
   "genres": {
@@ -14003,6 +13995,15 @@
   "n": 4,
   "name": "Sub Zero Project"
  },
+ "sully": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sully"
+ },
  "sunnery-james-ryan-marciano": {
   "genres": {
    "House": 1
@@ -14039,7 +14040,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "Suzé"
+  "name": "SUZé"
  },
  "sven-vath": {
   "genres": {
@@ -14250,6 +14251,7 @@
  },
  "teknoclash": {
   "genres": {
+   "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 1,
    "Hardstyle": 1,
@@ -14813,13 +14815,6 @@
   "n": 1,
   "name": "Trancemaster Krause"
  },
- "tratratrax": {
-  "genres": {
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "TraTraTrax"
- },
  "traumer": {
   "genres": {
    "House": 4,
@@ -14907,7 +14902,8 @@
  },
  "twonot": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 1,
+   "House": 1
   },
   "n": 1,
   "name": "Twonot"
@@ -14934,7 +14930,7 @@
    "Techno": 1
   },
   "n": 1,
-  "name": "U999"
+  "name": "Ű999"
  },
  "uberkikz": {
   "genres": {
@@ -15162,7 +15158,7 @@
    "Trance": 1
   },
   "n": 1,
-  "name": "Venehing"
+  "name": "Venëhing"
  },
  "venga": {
   "genres": {
@@ -15369,13 +15365,6 @@
   },
   "n": 1,
   "name": "VTSS"
- },
- "vum": {
-  "genres": {
-   "Techno": 1
-  },
-  "n": 1,
-  "name": "VUM"
  },
  "vuur": {
   "genres": {
@@ -15633,6 +15622,17 @@
   },
   "n": 1,
   "name": "Xinobi"
+ },
+ "xmoze": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardstyle": 1,
+   "House": 1,
+   "Techno": 1,
+   "Trance": 1
+  },
+  "n": 1,
+  "name": "Øxmoze"
  },
  "xokin": {
   "genres": {

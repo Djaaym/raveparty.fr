@@ -1,0 +1,18 @@
+[
+ {
+  "name": "Special Request",
+  "main": ["Drum & Bass"],
+  "sub": ["Jungle", "Breakbeat", "Hardcore Breaks"],
+  "sources": ["https://en.wikipedia.org/wiki/Paul_Woolford_(DJ)"],
+  "confidence": "high",
+  "note": "Scission du créneau b2b « Special Request & Sully » : la recherche d'origine citait une source par artiste, les sous-genres ci-dessus sont ceux documentés pour Paul Woolford."
+ },
+ {
+  "name": "Sully",
+  "main": ["Drum & Bass"],
+  "sub": ["Jungle"],
+  "sources": ["https://en.wikipedia.org/wiki/Sully_(music_producer)"],
+  "confidence": "high",
+  "note": "Scission du même créneau. Seul « Jungle » est attesté pour Jack Stevens par la source citée — les autres sous-genres appartenaient à Woolford et ne sont pas recopiés ici."
+ }
+]

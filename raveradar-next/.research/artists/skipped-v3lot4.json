@@ -1,0 +1,104 @@
+[
+ {
+  "name": "Pulp",
+  "reason": "Groupe de rock britannique (Sheffield, britpop) — pas un artiste de musique électronique. Présent au catalogue via le line-up d'All Together Now, festival multi-genres. Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pulp_(band)"
+  ]
+ },
+ {
+  "name": "The Mary Wallopers",
+  "reason": "Groupe de folk irlandais (Dundalk) — pas un artiste de musique électronique. Présent via le line-up d'All Together Now.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Mary_Wallopers"
+  ]
+ },
+ {
+  "name": "Stereolab",
+  "reason": "Groupe anglo-français de pop expérimentale / krautrock — pas un artiste de musique électronique de club. Présent via le line-up de We Out Here Festival.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stereolab"
+  ]
+ },
+ {
+  "name": "Mulatu Astatke",
+  "reason": "Vibraphoniste et compositeur éthiopien, père de l'ethio-jazz — pas un artiste de musique électronique. Présent via le line-up de We Out Here Festival.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mulatu_Astatke"
+  ]
+ },
+ {
+  "name": "Let 3",
+  "reason": "Groupe de rock croate (Rijeka) — pas un artiste de musique électronique. Présent via le line-up du Freshwave Festival de Banja Luka.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Let_3"
+  ]
+ },
+ {
+  "name": "Parcels",
+  "reason": "Groupe australien de disco-pop / funk installé à Berlin — joue en live band, pas un DJ ni un producteur électronique. Présent via le line-up du Grape Festival.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Parcels_(band)"
+  ]
+ },
+ {
+  "name": "Tasha",
+  "reason": "Homonyme non tranché : DJ Mag documente une Tasha londonienne (label et soirée Neighbourhood, drum & bass / techno), mais rien ne relie cette personne au Blitz de Munich, dont le site ne mentionne aucune Tasha. Le line-up de la closing du Blitz mêle résidents et invités internationaux.",
+  "sources": [
+   "https://djmag.com/features/recognise-089-tasha",
+   "https://www.blitz.club/"
+  ]
+ },
+ {
+  "name": "Ronja",
+  "reason": "Aucune page artiste trouvée. Le seul Discogs « Ronja » est une chanteuse de pop finlandaise des années 2000, sans rapport avec la soirée techno du Kaiku (Helsinki). Prénom trop courant pour trancher.",
+  "sources": [
+   "https://www.discogs.com/artist/576009"
+  ]
+ },
+ {
+  "name": "Lizzy",
+  "reason": "Aucune page artiste trouvée pour la Lizzy programmée au Toffler (Rotterdam). Les résultats Discogs sous ce nom sont du reggae de 1970 et du rock. Prénom trop courant.",
+  "sources": [
+   "https://www.discogs.com/artist/410515"
+  ]
+ },
+ {
+  "name": "Wildish",
+  "reason": "Aucune source artiste. Le seul Discogs « Wildish » (756497) est crédité sur une compilation Global Underground de 1996, sans rapport avec le DJ house programmé à Thuishaven en 2026.",
+  "sources": [
+   "https://www.discogs.com/artist/756497"
+  ]
+ },
+ {
+  "name": "LusterClub",
+  "reason": "Collectif luxembourgeois (pas un DJ solo). Sa description officielle décrit une programmation « future beats, hip-hop, dub, baile funk, reggaeton, soul » : aucune clé de la liste fermée ne s'applique honnêtement. Bio fournie dans bios-v3lot4.json, sans genres.",
+  "sources": [
+   "https://www.rotondes.lu/en/agenda/lusterclub-one-year-anniversary",
+   "https://www.elle.lu/fr/11089-les-collectifs-musicaux-a-suivre-cet-ete-au-luxembourg.html"
+  ]
+ },
+ {
+  "name": "May-Li",
+  "reason": "Aucune page artiste, aucun SoundCloud, aucun Discogs. Les seules mentions sont les annonces du line-up de S Xpress (Fréjus) elles-mêmes, qui ne disent rien du style de l'artiste.",
+  "sources": [
+   "https://www.varactu.fr/s-xpress-debute-ce-vendredi-a-frejus-horaires-artistes-acces-ce-quil-faut-savoir/",
+   "https://www.sxpress.fr/"
+  ]
+ },
+ {
+  "name": "Strictly Different",
+  "reason": "Aucune page artiste ni compte identifiable pour l'entité programmée par FLY au SWG3 de Glasgow. Le nom est trop générique pour que la recherche tranche.",
+  "sources": [
+   "https://ra.co/promoters/76391"
+  ]
+ },
+ {
+  "name": "Yung Felix",
+  "reason": "Felix Laman est un producteur néerlandais de hip-hop, trap, bubbling et dancehall (SLBMG, Bizzey, « Ja! » n°1 aux Pays-Bas en 2018). Aucune clé de la liste fermée ne décrit ce répertoire — l'étiquette EDM/House/Techno de la fiche Solar Weekend vient du festival, pas de l'artiste.",
+  "sources": [
+   "https://partyflock.nl/artist/76571/biography",
+   "https://www.amsterdam-dance-event.nl/en/artists-speakers/yung-felix/23425/"
+  ]
+ }
+]

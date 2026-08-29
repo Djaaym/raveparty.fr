@@ -1,0 +1,290 @@
+[
+ {
+  "name": "Todd Edwards",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Garage House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Todd_Edwards",
+   "https://djmag.com/longreads/rebirth-todd-edwards"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaytranada",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Future House"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Kaytranada",
+   "https://musicbrainz.org/artist/e56aee57-d90e-40cf-a70d-beb70f6f3c69"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Lakuti",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Deep House"
+  ],
+  "sources": [
+   "https://archive.bubblegumclub.co.za/music/lakuti-the-south-african-dance-music-legend-you-should-know/",
+   "https://djmag.com/content/podcast-113-lakuti"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Nickodemus",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Afro House",
+   "Downtempo"
+  ],
+  "sources": [
+   "https://wonderwheelrecordings.com/artist/nickodemus/",
+   "https://nickodemus.bandcamp.com/album/turntables-on-the-hudson-20-year-anniversary"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "SECONDS (Setaoc Mass & Phara)",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Peak Time Techno"
+  ],
+  "sources": [
+   "https://midnightdancemusic.com/phara-y-setaoc-mass-fusionan-sus-venerados-estilos-techno-en-el-nuevo-alias-duo-seconds/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "REKKT",
+  "main": [
+   "Hardcore",
+   "Hard Techno"
+  ],
+  "sub": [
+   "Gabber"
+  ],
+  "sources": [
+   "https://rekkt.bandcamp.com/",
+   "https://www.discogs.com/artist/7234547-REKKT"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Mira Mark",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle"
+  ],
+  "sources": [
+   "https://jaegeroslo.no/building-blocks-an-interview-with-mira-mark/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "TraTraTrax",
+  "main": [
+   "Techno"
+  ],
+  "sub": [
+   "Guaracha",
+   "Dembow",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://crackmagazine.net/article/profiles/tra-tra-trax/",
+   "https://www.carhartt-wip.com.my/blogs/journal/label-feature-tratratrax"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Jolani Jhones",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Speed Garage"
+  ],
+  "sources": [
+   "https://www.facebook.com/riddimwzm/posts/jolani-jhones-saturday-15032025-10pm2amjolani-jhones-is-a-rising-dj-from-amsterd/1219727502932900/",
+   "https://soundcloud.com/kioskradio/jolani-jhones-kiosk-radio-24"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Milion",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Speed Garage",
+   "Tech House"
+  ],
+  "sources": [
+   "https://www.discogs.com/artist/5733452-Milion"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ned Bennett",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.discogs.com/artist/14510764-Ned-Bennett-3"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "John Gilliot",
+  "main": [
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.discogs.com/release/25274398"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "name": "Vabu",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [
+   "Melodic House",
+   "Tech House",
+   "Indie Dance"
+  ],
+  "sources": [
+   "https://ra.co/dj/vabu/biography",
+   "https://www.katermukke.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "She The DJ",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "UK Garage",
+   "Breakbeat"
+  ],
+  "sources": [
+   "https://soulfulsessions.be/artist/she-the-dj-2/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Ryan Dank",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Organic House"
+  ],
+  "sources": [
+   "https://culture-box.com/podcast/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Special Request & Sully",
+  "main": [
+   "Drum & Bass"
+  ],
+  "sub": [
+   "Jungle",
+   "Breakbeat",
+   "Hardcore Breaks"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Paul_Woolford_(DJ)",
+   "https://en.wikipedia.org/wiki/Sully_(music_producer)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Kaizersoze",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Deep House",
+   "Tech House",
+   "Melodic House"
+  ],
+  "sources": [
+   "https://www.mixcloud.com/kaizersoze/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "KG",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Afro House",
+   "UK Funky",
+   "Amapiano"
+  ],
+  "sources": [
+   "https://mixmag.net/feature/the-mix-111-karen-nyame-kg-house-uk-funky-london",
+   "https://djmag.com/features/recognise-karen-nyame-kg-interview",
+   "https://www.karennyamekg.com/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "Scott Steer",
+  "main": [
+   "House"
+  ],
+  "sub": [
+   "Bass House"
+  ],
+  "sources": [
+   "https://www.creamfieldsrecordings.com/artists/scottsteer"
+  ],
+  "confidence": "high"
+ },
+ {
+  "name": "NOX",
+  "main": [
+   "House",
+   "Techno"
+  ],
+  "sub": [],
+  "sources": [
+   "https://www.fuse.pt/roster",
+   "https://shotgun.live/en/artists/djnoxpt"
+  ],
+  "confidence": "high"
+ }
+]

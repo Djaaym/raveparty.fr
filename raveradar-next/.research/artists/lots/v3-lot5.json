@@ -1,0 +1,312 @@
+[
+ {
+  "slug": "john-glacier",
+  "name": "John Glacier",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "joy-crookes",
+  "name": "Joy Crookes",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "karina-lin",
+  "name": "Karina Lin",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kerrie",
+  "name": "Kerrie",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kili",
+  "name": "Kili",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "leila-t",
+  "name": "Leila T",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lewis-capaldi",
+  "name": "Lewis Capaldi",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "ltdream",
+  "name": "LTDream",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mad-kate",
+  "name": "Mad Kate",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "mc-kaman",
+  "name": "MC Kaman",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "millad",
+  "name": "Millad",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "miyagi",
+  "name": "Miyagi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "muovipussi",
+  "name": "Muovipussi",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "neelix",
+  "name": "Neelix",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nicole-olenskaia",
+  "name": "Nicole Olenskaia",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ogazon",
+  "name": "Ogazón",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "piazza",
+  "name": "Piazza",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "qlas",
+  "name": "Qlas",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "restrictless",
+  "name": "Restrictless",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "rosa",
+  "name": "Rosa",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "saltysis",
+  "name": "SaltySis",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "seasick",
+  "name": "Seasick",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "seelen",
+  "name": "Seelen",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "shl-mo",
+  "name": "Shlømo",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "spiritbear",
+  "name": "Spiritbear",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "stijn-vm",
+  "name": "Stijn VM",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "suze",
+  "name": "Suzé",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tautumeitas",
+  "name": "Tautumeitas",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "the-wombats",
+  "name": "The Wombats",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "tommy-cash",
+  "name": "Tommy Cash",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "EDM",
+   "House"
+  ]
+ },
+ {
+  "slug": "twonot",
+  "name": "Twonot",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "vojko-v",
+  "name": "Vojko V",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "worship",
+  "name": "Worship",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "yung-singh",
+  "name": "Yung Singh",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ }
+]

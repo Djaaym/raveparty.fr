@@ -130,6 +130,11 @@ export const PLACES: Place[] = [
   { slug: "dordogne", label: "Dordogne", kind: "departement", vol: 210 },
   { slug: "pyrenees-atlantiques", label: "Pyrénées-Atlantiques", kind: "departement", vol: 210 },
   { slug: "haute-vienne", label: "Haute-Vienne", kind: "departement", vol: 210 },
+  /* Ouvert par une correction, pas par un nouveau lot : la soirée Insolitum du 26/02/2027
+     était fichée à Bordeaux (Gironde) alors qu'elle a lieu au Bœuf sur le Toit de
+     Lons-le-Saunier — deux salles portent ce nom, à 400 km l'une de l'autre. Sans entrée
+     ici, la date corrigée n'aurait plus eu aucune page géographique. */
+  { slug: "jura", label: "Jura", kind: "departement", vol: 210 },
   { slug: "cote-d-or", label: "Côte-d'Or", kind: "departement", vol: 210 },
   // European cities the calendar now covers — each has at least one dated event.
   { slug: "copenhague", label: "Copenhague", kind: "ville", vol: 1300, match: ["Copenhagen", "Roskilde"] },

@@ -1,0 +1,308 @@
+[
+ {
+  "slug": "john-gilliot",
+  "name": "John Gilliot",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "jolani-jhones",
+  "name": "Jolani Jhones",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "kaizersoze",
+  "name": "Kaizersoze",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kaytranada",
+  "name": "Kaytranada",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kg",
+  "name": "KG",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lakuti",
+  "name": "Lakuti",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "let-3",
+  "name": "Let 3",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lizzy",
+  "name": "Lizzy",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lusterclub",
+  "name": "LusterClub",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "may-li",
+  "name": "May-Li",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "milion",
+  "name": "Milion",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "mira-mark",
+  "name": "Mira Mark",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "mulatu-astatke",
+  "name": "Mulatu Astatke",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "ned-bennett",
+  "name": "Ned Bennett",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House"
+  ]
+ },
+ {
+  "slug": "nickodemus",
+  "name": "Nickodemus",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nox",
+  "name": "NOX",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "parcels",
+  "name": "Parcels",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "pulp",
+  "name": "Pulp",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "rekkt",
+  "name": "REKKT",
+  "dates": 1,
+  "genres_evenements": [
+   "Hardcore",
+   "Hardstyle"
+  ]
+ },
+ {
+  "slug": "ronja",
+  "name": "Ronja",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ryan-dank",
+  "name": "Ryan Dank",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "scott-steer",
+  "name": "Scott Steer",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "seconds-setaoc-mass-phara",
+  "name": "SECONDS (Setaoc Mass & Phara)",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "she-the-dj",
+  "name": "She The DJ",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "special-request-sully",
+  "name": "Special Request & Sully",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "stereolab",
+  "name": "Stereolab",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "strictly-different",
+  "name": "Strictly Different",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "tasha",
+  "name": "Tasha",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "the-mary-wallopers",
+  "name": "The Mary Wallopers",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "todd-edwards",
+  "name": "Todd Edwards",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "tratratrax",
+  "name": "TraTraTrax",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vabu",
+  "name": "Vabu",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "wildish",
+  "name": "Wildish",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "yung-felix",
+  "name": "Yung Felix",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ }
+]

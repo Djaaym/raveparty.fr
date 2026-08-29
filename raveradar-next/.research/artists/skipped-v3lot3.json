@@ -1,0 +1,98 @@
+[
+ {
+  "name": "Acid Talk",
+  "reason": "N'est pas un artiste de musique électronique : groupe de krautrock psychédélique liégeois, programmé sur la scène Oasis 3000 du Micro Festival (festival de musiques aventureuses, pas seulement électroniques). Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://www.tanzgemeinschaft.com/micro-festival-liege-2026-is-the-undergrounds-most-compelling-summer-date-30449",
+   "https://microfestival.be/horaires/"
+  ]
+ },
+ {
+  "name": "Fellatio",
+  "reason": "N'est pas un artiste de musique électronique : projet néerlandais de krautrock d'avant-garde, programmé au Micro Festival de Liège aux côtés d'Acid Talk pour la part psychédélique de l'affiche. Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://www.tanzgemeinschaft.com/micro-festival-liege-2026-is-the-undergrounds-most-compelling-summer-date-30449",
+   "https://musicinbelgium.net/articles/concerts/micro-festival-16/"
+  ]
+ },
+ {
+  "name": "Protoje",
+  "reason": "Chanteur de reggae jamaïcain (né en 1981), programmé à l'Uprising Festival de Bratislava, qui est un festival reggae. Aucun genre de la liste fermée ne s'applique — l'étiquette « Drum & Bass » du catalogue vient des autres scènes du festival.",
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Protoje%22&fmt=json"
+  ]
+ },
+ {
+  "name": "Médine",
+  "reason": "Rappeur français du Havre (né en 1983), programmé au Ouest Park Festival, festival pluridisciplinaire. Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22M%C3%A9dine%22&fmt=json"
+  ]
+ },
+ {
+  "name": "Christy Moore",
+  "reason": "Chanteur folk irlandais, programmé à All Together Now (festival généraliste irlandais). Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Live_in_Dublin_(Christy_Moore_album)"
+  ]
+ },
+ {
+  "name": "Erika de Casier",
+  "reason": "Chanteuse, autrice et productrice danoise née au Portugal, dont les sources décrivent la musique comme soul et R&B. Programmée au O Days Festival de Copenhague. Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://musicbrainz.org/ws/2/artist/?query=artist:%22Erika%20de%20Casier%22&fmt=json"
+  ]
+ },
+ {
+  "name": "Valentina Magaletti",
+  "reason": "Percussionniste et batteuse italienne de musique expérimentale (Lunchmeat Festival, aux côtés d'Autechre et KMRU). Aucun genre de la liste fermée ne décrit son travail ; l'étiquette « House / Techno » du catalogue est celle du festival.",
+  "sources": [
+   "https://lunchmeat.cz/"
+  ]
+ },
+ {
+  "name": "Woesum",
+  "reason": "Arthur Nyqvist, producteur suédois de Stockholm décrit par les sources comme un producteur de trap et de club expérimental, associé à Drain Gang et Sadboys (Bladee, Yung Lean, Thaiboy Digital). Aucun genre de la liste fermée ne s'applique.",
+  "sources": [
+   "https://music-producer.fandom.com/wiki/Woesum",
+   "https://woesum.net/"
+  ]
+ },
+ {
+  "name": "CouZin Hub",
+  "reason": "DJ français orienté scratch et beatmaking, programmé sur le circuit reggae/dub (Solifestival, Résofest) et au Festival Couvre Feu. Aucune source ne le rattache à un genre de la liste fermée.",
+  "sources": [
+   "https://www.touslesfestivals.com/artiste/couzin-hub",
+   "https://soundcloud.com/couzin-hub-4"
+  ]
+ },
+ {
+  "name": "Jeff Mills",
+  "reason": "N'est pas un nom d'artiste mais le titre d'un projet live de Jeff Mills (à l'origine avec Tony Allen, aujourd'hui avec Jean-Phi Dary), de surcroît de facture afrobeat/jazz et non techno. Jeff Mills figure déjà au catalogue sous son propre nom : cette entrée crée une fiche artiste en double.",
+  "sources": []
+ },
+ {
+  "name": "Truly Moore",
+  "reason": "Aucune source trouvée. Recherches sur le nom, sur le nom + Dublin/Irlande, sur SoundCloud et sur la soirée STACKED x LOST au Wigwam : rien qui décrive l'artiste ou son style.",
+  "sources": []
+ },
+ {
+  "name": "Asli",
+  "reason": "Aucune source trouvée. Seule trace : la line-up du Culture Box de Copenhague. Le prénom est trop répandu pour qu'une recherche large tranche, et rien ne décrit le style.",
+  "sources": []
+ },
+ {
+  "name": "Basit Soomro",
+  "reason": "Documenté à Helsinki comme créatif visuel, résident et co-fondateur d'un lieu underground et animateur du podcast PUFF²CAST (00 Collective), mais aucune source ne nomme un style : la seule indication est « bass » et « disques de dance des années 90 », ce qui ne tranche entre aucun genre de la liste fermée.",
+  "sources": [
+   "https://www.globeartpoint.fi/creatives/basit-soomro/"
+  ]
+ },
+ {
+  "name": "DJ Guestlist",
+  "reason": "Présent au Liège Electronic Music Festival (première édition, 8 collectifs liégeois) et titulaire d'une page Beatport, mais aucune source ouverte ne décrit son style. Beatport est bloqué depuis ce conteneur.",
+  "sources": [
+   "https://festivalsbelgie.be/festival/liege-electronic-music-festival-2026"
+  ]
+ }
+]

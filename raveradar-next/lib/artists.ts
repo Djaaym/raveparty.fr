@@ -1,6 +1,6 @@
 import type { RaveEvent } from "./types";
 import { EVENTS, rankGenres, slugify, upcomingFirst } from "./data";
-import { ARTIST_STYLES } from "./artist-genres";
+import { ARTIST_STYLES, isOutOfScope } from "./artist-genres";
 
 export interface Artist {
   slug: string;
@@ -88,9 +88,13 @@ export function artistGenres(a: Artist): string[] {
   const hit = GENRE_CACHE.get(a.slug);
   if (hit) return hit;
   const known = ARTIST_STYLES[a.slug];
-  const out = known?.m.length
-    ? known.m
-    : rankGenres(a.eventIds.map((id) => BY_ID.get(id)).filter((e): e is RaveEvent => Boolean(e)));
+  // « Aucun de nos genres ne le décrit » n'est pas « on ne sait pas » : c'est une
+  // réponse, et elle interdit le repli. Sans ça, Sting jouerait de la techno.
+  const out = isOutOfScope(a.slug)
+    ? []
+    : known?.m.length
+      ? known.m
+      : rankGenres(a.eventIds.map((id) => BY_ID.get(id)).filter((e): e is RaveEvent => Boolean(e)));
   GENRE_CACHE.set(a.slug, out);
   return out;
 }

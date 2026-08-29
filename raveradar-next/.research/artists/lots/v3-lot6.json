@@ -1,0 +1,313 @@
+[
+ {
+  "slug": "john-morales",
+  "name": "John Morales",
+  "dates": 1,
+  "genres_evenements": [
+   "House"
+  ]
+ },
+ {
+  "slug": "k-tee",
+  "name": "K-Tee",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kathleen-c",
+  "name": "Kathleen C",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "kevin-lo",
+  "name": "Kevin Lo",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "krimska",
+  "name": "Krimska",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "les-potes-au-feu",
+  "name": "Les Potes au Feu",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "lil-kleine",
+  "name": "Lil Kleine",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "lunaa",
+  "name": "Lunaa",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Hardcore",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "madness",
+  "name": "Madness",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "meduza",
+  "name": "Meduza",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "minna",
+  "name": "MiNNA",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "montaigne",
+  "name": "Montaigne",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nd-baumecker",
+  "name": "nd_baumecker",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nick-cave-the-bad-seeds",
+  "name": "Nick Cave & The Bad Seeds",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "nordiks",
+  "name": "Nordiks",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ozan",
+  "name": "Ozan",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "provence98",
+  "name": "Provence98",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "rawb",
+  "name": "RAWB",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "robin-nicolas",
+  "name": "Robin Nicolas",
+  "dates": 1,
+  "genres_evenements": [
+   "Hard Techno",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "ry-x",
+  "name": "RY X",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "saskia",
+  "name": "Saskia",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sebastian",
+  "name": "SebastiAn",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "shaggy",
+  "name": "Shaggy",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sol",
+  "name": "Sol",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass"
+  ]
+ },
+ {
+  "slug": "stephan-licha",
+  "name": "Stephan Licha",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "sting",
+  "name": "Sting",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "swae-lee",
+  "name": "Swae Lee",
+  "dates": 1,
+  "genres_evenements": [
+   "EDM",
+   "Trance"
+  ]
+ },
+ {
+  "slug": "the-dare",
+  "name": "The Dare",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "thundercat",
+  "name": "Thundercat",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House"
+  ]
+ },
+ {
+  "slug": "tommy-phillips",
+  "name": "Tommy Phillips",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "u999",
+  "name": "U999",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "vum",
+  "name": "VUM",
+  "dates": 1,
+  "genres_evenements": [
+   "Techno"
+  ]
+ },
+ {
+  "slug": "yaeji",
+  "name": "Yaeji",
+  "dates": 1,
+  "genres_evenements": [
+   "Drum & Bass",
+   "House",
+   "Techno"
+  ]
+ },
+ {
+  "slug": "zoster",
+  "name": "Zoster",
+  "dates": 1,
+  "genres_evenements": [
+   "House",
+   "Techno"
+  ]
+ }
+]
