@@ -58,6 +58,15 @@ Si une info manque, on l'omet ; on ne comble pas.
    ou d'Instagram est un travail protégé), ajoute dans l'entrée bio :
    `"commons": "https://commons.wikimedia.org/wiki/File:…"`. Ne télécharge rien, c'est `avatars.py`
    qui s'en charge.
+   - **Regarde la photo avant de la donner**, et donne celle où l'artiste est *seul et
+     reconnaissable*. Une vue de scène prise depuis la foule ne vaut rien ici : la fiche
+     d'Amelie Lens a affiché pendant des mois un badaud barbu, parce que le fichier retenu
+     était un plan large où le premier visage n'était pas le sien. Deux visages de taille
+     comparable, et `avatars.py` refuse le fichier, à raison, aucune mesure ne dit lequel
+     est l'artiste.
+   - **Vérifie que c'est bien lui**, pas un homonyme : Commons héberge un rugbyman et un
+     joueur de snooker qui s'appellent tous les deux Jamie Jones. Le nom dans le titre du
+     fichier ne suffit pas, lis la page du fichier et ses catégories.
 
 ## Sources
 

@@ -17,6 +17,14 @@
   "n": 1,
   "name": "2 Engel & Charlie"
  },
+ "252": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "252"
+ },
  "25emeheure": {
   "genres": {
    "Hard Techno": 1,
@@ -25,6 +33,14 @@
   },
   "n": 1,
   "name": "25emeheure"
+ },
+ "2cperrea": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "2CPERREA"
  },
  "2hot2play": {
   "genres": {
@@ -35,6 +51,13 @@
   },
   "n": 2,
   "name": "2HOT2PLAY"
+ },
+ "2k88": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "2K88"
  },
  "2manydjs": {
   "genres": {
@@ -52,6 +75,22 @@
   "n": 1,
   "name": "36framez"
  },
+ "4given": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "4Given"
+ },
+ "54-kolaktiv": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "54 Kolaktiv"
+ },
  "5napback": {
   "genres": {
    "Drum & Bass": 1,
@@ -60,6 +99,14 @@
   },
   "n": 1,
   "name": "5NAPBACK"
+ },
+ "5universos": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "5UNIVERSOS"
  },
  "6ejou": {
   "genres": {
@@ -110,11 +157,20 @@
  },
  "a-guy-called-gerald": {
   "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
    "House": 2,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "A Guy Called Gerald"
+ },
+ "a-little-sound": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "A Little Sound"
  },
  "a-m-c": {
   "genres": {
@@ -152,6 +208,13 @@
   "n": 1,
   "name": "A*S*Y*S"
  },
+ "a-sides": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "A Sides"
+ },
  "a-teens": {
   "genres": {
    "EDM": 1,
@@ -169,6 +232,14 @@
   "n": 1,
   "name": "A-Tom-X"
  },
+ "a-two-dogs-company": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "A Two Dogs Company"
+ },
  "a-z": {
   "genres": {
    "Hard Techno": 1,
@@ -176,6 +247,14 @@
   },
   "n": 1,
   "name": "A-Z"
+ },
+ "aaguilaa": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "AAGUILAA"
  },
  "aaron-hibell": {
   "genres": {
@@ -189,10 +268,11 @@
  },
  "aat": {
   "genres": {
-   "House": 2,
-   "Techno": 2
+   "EDM": 1,
+   "House": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "AAT"
  },
  "abo-abo": {
@@ -219,6 +299,15 @@
   },
   "n": 1,
   "name": "Abul Mogard"
+ },
+ "abyss-ooze": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Abyss OOze"
  },
  "acid-arab": {
   "genres": {
@@ -262,6 +351,13 @@
   "n": 2,
   "name": "Act of Rage"
  },
+ "actress": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Actress"
+ },
  "actress-m": {
   "genres": {
    "House": 1,
@@ -269,6 +365,15 @@
   },
   "n": 1,
   "name": "Actress M"
+ },
+ "acyd-holik": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Acyd'holik"
  },
  "adam-beyer": {
   "genres": {
@@ -315,6 +420,15 @@
   "n": 1,
   "name": "Adam Trigger"
  },
+ "adam-vandal": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Adam Vandal"
+ },
  "adaro": {
   "genres": {
    "Hardcore": 3,
@@ -331,6 +445,21 @@
   "n": 1,
   "name": "Adene"
  },
+ "ades-the-planet": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Adés The Planet"
+ },
+ "adi-j": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Adi-J"
+ },
  "adiel": {
   "genres": {
    "House": 1,
@@ -338,6 +467,14 @@
   },
   "n": 1,
   "name": "Adiel"
+ },
+ "adjunct-ensemble": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Adjunct Ensemble"
  },
  "adjuzt": {
   "genres": {
@@ -363,6 +500,14 @@
   },
   "n": 2,
   "name": "Adrenalize"
+ },
+ "adrian-gaspar": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Adrian Gaspar"
  },
  "adrian-mills": {
   "genres": {
@@ -394,6 +539,13 @@
   "n": 1,
   "name": "Ady Toledano"
  },
+ "aerae": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Aerae"
+ },
  "aerea": {
   "genres": {
    "Hard Techno": 1,
@@ -403,12 +555,20 @@
   "n": 1,
   "name": "Aerea"
  },
+ "afar": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "AFAR"
+ },
  "afem-syko": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Afem Syko"
  },
  "afrojack": {
@@ -457,11 +617,19 @@
  },
  "aiden": {
   "genres": {
-   "Hard Techno": 1,
+   "Hard Techno": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Aiden"
+ },
+ "aj-christou": {
+  "genres": {
+   "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Aiden"
+  "name": "AJ Christou"
  },
  "aja-gulris": {
   "genres": {
@@ -481,6 +649,22 @@
   "n": 1,
   "name": "Ajja"
  },
+ "ajuma": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ajuma"
+ },
+ "ak-chamel": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ak’chamel"
+ },
  "akimbo": {
   "genres": {
    "Hardcore": 1,
@@ -489,12 +673,29 @@
   "n": 1,
   "name": "Akimbo"
  },
+ "akira": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Akira"
+ },
  "akirah": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Akirah"
+ },
+ "akuma-no-numa": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Akuma No Numa"
  },
  "alan-fitzpatrick": {
   "genres": {
@@ -539,6 +740,47 @@
   "n": 1,
   "name": "Alba Franch"
  },
+ "alchemy-circle": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Alchemy Circle"
+ },
+ "alee": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Alee"
+ },
+ "alegria": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Alegria"
+ },
+ "alepher": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Alepher"
+ },
+ "alex-farell": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Alex Farell"
+ },
  "alex-kassian": {
   "genres": {
    "House": 1,
@@ -582,6 +824,37 @@
   },
   "n": 1,
   "name": "Alexandre Billard"
+ },
+ "alexandria": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Alexandria"
+ },
+ "alexis-cabrera": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Alexis Cabrera"
+ },
+ "alibi": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Alibi"
+ },
+ "alien-trancesistor": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Alien Trancesistor"
  },
  "alienata": {
   "genres": {
@@ -650,6 +923,22 @@
   "n": 1,
   "name": "Alle Farben"
  },
+ "alley-cat": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Alley Cat"
+ },
+ "ally": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Ally"
+ },
  "alma-negrot": {
   "genres": {
    "House": 1,
@@ -669,12 +958,22 @@
   "n": 2,
   "name": "Alok"
  },
- "alt8": {
+ "already-maged": {
   "genres": {
-   "Hard Techno": 1
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "ALT8"
+  "name": "Already Maged"
+ },
+ "alt8": {
+  "genres": {
+   "Hard Techno": 2,
+   "Techno": 1
+  },
+  "n": 2,
+  "name": "Alt8"
  },
  "altinbas": {
   "genres": {
@@ -703,6 +1002,20 @@
   },
   "n": 2,
   "name": "Alycia Bezgo"
+ },
+ "alyssa-rose": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Alyssa Rose"
+ },
+ "ama": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Ama"
  },
  "amada": {
   "genres": {
@@ -742,6 +1055,14 @@
   },
   "n": 1,
   "name": "Amara"
+ },
+ "ambassade": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ambassade"
  },
  "amber-broos": {
   "genres": {
@@ -784,6 +1105,14 @@
   "n": 15,
   "name": "Amelie Lens"
  },
+ "ameo1": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ameo1"
+ },
  "amme": {
   "genres": {
    "Hard Techno": 1,
@@ -802,6 +1131,14 @@
   "n": 2,
   "name": "Amor"
  },
+ "amore": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Amore"
+ },
  "amy-dabbs": {
   "genres": {
    "House": 1,
@@ -809,6 +1146,22 @@
   },
   "n": 1,
   "name": "Amy Dabbs"
+ },
+ "amygdala": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Amygdala"
+ },
+ "ana-roxanne": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ana Roxanne"
  },
  "anais": {
   "genres": {
@@ -850,6 +1203,14 @@
   "n": 1,
   "name": "Anders HP"
  },
+ "anderson-do-paraiso": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Anderson Do Paraiso"
+ },
  "andhim": {
   "genres": {
    "Drum & Bass": 1,
@@ -886,6 +1247,14 @@
   },
   "n": 1,
   "name": "Andreas Reiter"
+ },
+ "andrei-ciubuc": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Andrei Ciubuc"
  },
  "andres-campo": {
   "genres": {
@@ -925,11 +1294,22 @@
   "n": 5,
   "name": "Andy C"
  },
- "andy-stott": {
+ "andy-garvey": {
   "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Andy Garvey"
+ },
+ "andy-stott": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Andy Stott"
  },
  "anetha": {
@@ -945,13 +1325,13 @@
  },
  "angerfist": {
   "genres": {
-   "Hard Techno": 3,
+   "Hard Techno": 4,
    "Hardcore": 9,
    "Hardstyle": 9,
    "House": 1,
-   "Techno": 3
+   "Techno": 4
   },
-  "n": 11,
+  "n": 12,
   "name": "Angerfist"
  },
  "anika-kunst": {
@@ -963,13 +1343,20 @@
   "n": 2,
   "name": "Anika Kunst"
  },
+ "anile": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Anile"
+ },
  "anime": {
   "genres": {
-   "Hard Techno": 1,
-   "Hardcore": 2,
-   "Hardstyle": 1
+   "Hard Techno": 2,
+   "Hardcore": 3,
+   "Hardstyle": 2
   },
-  "n": 2,
+  "n": 3,
   "name": "AniMe"
  },
  "anish-kumar": {
@@ -1009,6 +1396,14 @@
   "n": 1,
   "name": "Anna Reusch"
  },
+ "annabel-fraser": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Annabel Fraser"
+ },
  "annasnel": {
   "genres": {
    "Hard Techno": 1,
@@ -1026,13 +1421,31 @@
   "n": 1,
   "name": "Annie"
  },
+ "annie-claude-deschenes": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Annie-Claude Deschênes"
+ },
  "annie-mac": {
   "genres": {
    "EDM": 1,
-   "House": 1
+   "House": 2
+  },
+  "n": 2,
+  "name": "Annie Mac"
+ },
+ "anoebis": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "Annie Mac"
+  "name": "Anoebis"
  },
  "anstandslos-durchgeknallt": {
   "genres": {
@@ -1062,11 +1475,28 @@
  },
  "anthony-rother": {
   "genres": {
+   "House": 3,
+   "Techno": 3
+  },
+  "n": 3,
+  "name": "Anthony Rother"
+ },
+ "antilogic": {
+  "genres": {
+   "Drum & Bass": 2,
    "House": 2,
    "Techno": 2
   },
   "n": 2,
-  "name": "Anthony Rother"
+  "name": "Antilogic"
+ },
+ "antonina-nowacka": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Antonina Nowacka"
  },
  "antonym": {
   "genres": {
@@ -1076,6 +1506,14 @@
   },
   "n": 1,
   "name": "Antonym"
+ },
+ "anushka-chkheidze-peter-evans": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Anushka Chkheidze & Peter Evans"
  },
  "anxhela": {
   "genres": {
@@ -1110,6 +1548,14 @@
   },
   "n": 2,
   "name": "Aphøtic"
+ },
+ "aphasit": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "aphasit"
  },
  "aphex-twin": {
   "genres": {
@@ -1162,12 +1608,20 @@
   "n": 1,
   "name": "AR Gang"
  },
- "arca": {
+ "arbor-green": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Arbor Green"
+ },
+ "arca": {
+  "genres": {
+   "House": 2,
+   "Techno": 3
+  },
+  "n": 3,
   "name": "Arca"
  },
  "archie-hamilton": {
@@ -1177,6 +1631,14 @@
   "n": 1,
   "name": "Archie Hamilton"
  },
+ "aresklas": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Aresklas"
+ },
  "argy": {
   "genres": {
    "House": 2,
@@ -1184,6 +1646,15 @@
   },
   "n": 2,
   "name": "Argy"
+ },
+ "arielle-free": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Arielle Free"
  },
  "arjuna": {
   "genres": {
@@ -1193,6 +1664,23 @@
   },
   "n": 1,
   "name": "Arjuna"
+ },
+ "arkadrop": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Arkadrop"
+ },
+ "arklio-galia": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Arklio Galia"
  },
  "armand-van-helden": {
   "genres": {
@@ -1221,11 +1709,20 @@
   "n": 1,
   "name": "Arovane"
  },
- "art-of-fighters": {
+ "arpxp": {
   "genres": {
-   "Hardcore": 1
+   "Drum & Bass": 1
   },
   "n": 1,
+  "name": "ArpXP"
+ },
+ "art-of-fighters": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 1
+  },
+  "n": 2,
   "name": "Art of Fighters"
  },
  "artbat": {
@@ -1247,10 +1744,10 @@
  },
  "arthur": {
   "genres": {
-   "Drum & Bass": 1,
+   "Drum & Bass": 2,
    "Techno": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Arthur"
  },
  "arthur-verocai": {
@@ -1275,6 +1772,14 @@
   },
   "n": 1,
   "name": "Artino"
+ },
+ "artur-m-puga-sevi-iko-d-mochevsky": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Artur M. Puga & Sevi Iko Dømochevsky"
  },
  "asco": {
   "genres": {
@@ -1327,6 +1832,15 @@
   "n": 1,
   "name": "Asli"
  },
+ "aslo": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "ASLO"
+ },
  "astral-projection": {
   "genres": {
    "Psytrance": 1,
@@ -1353,9 +1867,10 @@
  },
  "atmozfears": {
   "genres": {
-   "Hardstyle": 1
+   "Hardcore": 1,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Atmozfears"
  },
  "atom-tm": {
@@ -1373,6 +1888,24 @@
   },
   "n": 1,
   "name": "Attar"
+ },
+ "atzendent": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Atzendent"
+ },
+ "audiopathik": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Audiopathik"
  },
  "audiotricz": {
   "genres": {
@@ -1436,6 +1969,14 @@
   "n": 1,
   "name": "Autopski"
  },
+ "autumns": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Autumns"
+ },
  "avalon": {
   "genres": {
    "Psytrance": 1,
@@ -1457,6 +1998,14 @@
   },
   "n": 1,
   "name": "Avi8"
+ },
+ "axel-gilain-julia-emmery": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Axel Gilain//Julia Emmery"
  },
  "axmo": {
   "genres": {
@@ -1487,10 +2036,19 @@
  },
  "ayah-marar": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
+  },
+  "n": 2,
+  "name": "Ayah Marar"
+ },
+ "ayce-spirit-of-house": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "Ayah Marar"
+  "name": "Ayce & Spirit of House"
  },
  "ayla": {
   "genres": {
@@ -1508,6 +2066,14 @@
   },
   "n": 1,
   "name": "Azadî"
+ },
+ "aziz-konkrite": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Aziz Konkrite"
  },
  "azuur": {
   "genres": {
@@ -1528,14 +2094,29 @@
   "n": 2,
   "name": "Azyr"
  },
+ "azzi-on-the-beat": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Azzi On The Beat"
+ },
  "b-ery": {
   "genres": {
-   "Hard Techno": 4,
+   "Hard Techno": 6,
    "House": 1,
-   "Techno": 4
+   "Techno": 6
   },
-  "n": 4,
-  "name": "BØĘRY"
+  "n": 6,
+  "name": "Bøery"
+ },
+ "b-freqz": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "B-Freqz"
  },
  "b-front": {
   "genres": {
@@ -1545,12 +2126,46 @@
   "n": 1,
   "name": "B-Front"
  },
+ "b-tur": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "B-Tur"
+ },
  "b1980": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "B1980"
+ },
+ "b3bz": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "b3bz"
+ },
+ "ba": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "ba."
+ },
+ "bab-l-bluz": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bab L'Bluz"
  },
  "baboush": {
   "genres": {
@@ -1607,6 +2222,30 @@
   "n": 1,
   "name": "Badsista"
  },
+ "bae-blade": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bae Blade"
+ },
+ "bailey": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Bailey"
+ },
+ "baltic-balkan": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Baltic Balkan"
+ },
  "baltza": {
   "genres": {
    "House": 1,
@@ -1622,6 +2261,15 @@
   },
   "n": 1,
   "name": "Bandi!"
+ },
+ "bandikoot": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bandikoot"
  },
  "bapari": {
   "genres": {
@@ -1664,9 +2312,9 @@
  },
  "basement-jaxx": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Basement Jaxx"
  },
  "bashkka": {
@@ -1685,6 +2333,23 @@
   "n": 1,
   "name": "Basit Soomro"
  },
+ "basma-temir-alcy": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Basma & Temir Alcy"
+ },
+ "bass-adder": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Bass Adder"
+ },
  "battery": {
   "genres": {
    "Drum & Bass": 1
@@ -1696,10 +2361,25 @@
   "genres": {
    "Drum & Bass": 1,
    "House": 1,
-   "Techno": 1
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Batu"
+ },
+ "bazzy": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
   },
   "n": 1,
-  "name": "Batu"
+  "name": "Bazzy"
+ },
+ "bcee": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "BCee"
  },
  "bcuc": {
   "genres": {
@@ -1716,6 +2396,14 @@
   },
   "n": 2,
   "name": "Beau Didier"
+ },
+ "becca-hunter": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Becca Hunter"
  },
  "bedouin": {
   "genres": {
@@ -1785,12 +2473,19 @@
   "n": 4,
   "name": "Ben Sims"
  },
+ "ben-soundscape": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Ben Soundscape"
+ },
  "ben-techy": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Ben Techy"
  },
  "ben-tenner": {
@@ -1813,6 +2508,21 @@
   },
   "n": 4,
   "name": "Ben UFO"
+ },
+ "ben-vince": {
+  "genres": {
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Ben Vince"
+ },
+ "bendik-giske": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bendik Giske"
  },
  "benga": {
   "genres": {
@@ -1839,6 +2549,13 @@
   "n": 1,
   "name": "Benny Benassi"
  },
+ "benny-l": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Benny L"
+ },
  "benny-rodrigues": {
   "genres": {
    "EDM": 1,
@@ -1849,6 +2566,13 @@
   "n": 6,
   "name": "Benny Rodrigues"
  },
+ "benski": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Benski"
+ },
  "benwal": {
   "genres": {
    "Hard Techno": 1,
@@ -1858,6 +2582,15 @@
   "n": 1,
   "name": "Benwal"
  },
+ "berengere-amiot": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bérengère Amiot"
+ },
  "bernadette": {
   "genres": {
    "House": 1,
@@ -1865,6 +2598,14 @@
   },
   "n": 1,
   "name": "Bernadette"
+ },
+ "bertel-schollaert-hein-devos": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bertel Schollaert & Hein Devos"
  },
  "besic": {
   "genres": {
@@ -1895,6 +2636,22 @@
   "n": 1,
   "name": "Bicep"
  },
+ "big-hands": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Big Hands"
+ },
+ "big-hands-mys": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Big Hands & MYS"
+ },
  "big-k": {
   "genres": {
    "Hardcore": 1,
@@ -1902,6 +2659,13 @@
   },
   "n": 1,
   "name": "Big K"
+ },
+ "big-t": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Big T"
  },
  "biia": {
   "genres": {
@@ -1921,6 +2685,14 @@
   },
   "n": 3,
   "name": "Biianco"
+ },
+ "bila": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bila"
  },
  "biocym": {
   "genres": {
@@ -1945,6 +2717,14 @@
   },
   "n": 1,
   "name": "Birthh"
+ },
+ "bitsy-knox-roger-3000": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bitsy Knox & Roger 3000"
  },
  "bitter-babe": {
   "genres": {
@@ -1989,9 +2769,9 @@
  },
  "black-sun-empire": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Black Sun Empire"
  },
  "blackburn-aeros": {
@@ -2002,13 +2782,20 @@
   "n": 1,
   "name": "Blackburn & Aeros"
  },
+ "blackeye": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Blackeye"
+ },
  "blackhaine": {
   "genres": {
    "Drum & Bass": 1,
    "House": 1,
-   "Techno": 1
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Blackhaine"
  },
  "blanke": {
@@ -2032,6 +2819,13 @@
   },
   "n": 1,
   "name": "Blasha & Allatt"
+ },
+ "blastah": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Blastah"
  },
  "blasterjaxx": {
   "genres": {
@@ -2064,6 +2858,21 @@
   "n": 3,
   "name": "Blawan"
  },
+ "bliezt": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bliezt"
+ },
+ "blindside": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Blindside"
+ },
  "blnk": {
   "genres": {
    "Hard Techno": 2,
@@ -2081,12 +2890,36 @@
   "n": 3,
   "name": "Blond:ish"
  },
+ "blood-of-aza": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Blood of Aza"
+ },
  "bloody-mary": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Bloody Mary"
+ },
+ "blvck-crowz": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Blvck Crowz"
+ },
+ "bnnt": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "BNNT"
  },
  "bob-sinclar": {
   "genres": {
@@ -2106,6 +2939,21 @@
   },
   "n": 1,
   "name": "Bobby 6 Killa"
+ },
+ "bobby-beethoven": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bobby Beethoven"
+ },
+ "body-horror": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Body Horror"
  },
  "boipepperoni": {
   "genres": {
@@ -2195,12 +3043,21 @@
   "n": 5,
   "name": "Boris Brejcha"
  },
+ "borokov-borokov": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Borokov Borokov"
+ },
  "boss-priester": {
   "genres": {
-   "House": 2,
+   "House": 3,
    "Techno": 2
   },
-  "n": 2,
+  "n": 3,
   "name": "Boss Priester"
  },
  "boston-bun": {
@@ -2209,6 +3066,14 @@
   },
   "n": 1,
   "name": "Boston Bun"
+ },
+ "both-more-and-less-than-itself": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "both more and less than itself"
  },
  "bou": {
   "genres": {
@@ -2219,6 +3084,23 @@
   },
   "n": 3,
   "name": "Bou"
+ },
+ "bound-by-endogamy": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bound By Endogamy"
+ },
+ "bouns": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bouns"
  },
  "bovski": {
   "genres": {
@@ -2263,6 +3145,15 @@
   "n": 1,
   "name": "Bradley Zero"
  },
+ "braincell": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Braincell"
+ },
  "brainrape": {
   "genres": {
    "Hardcore": 1
@@ -2270,12 +3161,36 @@
   "n": 1,
   "name": "Brainrape"
  },
+ "brandon-lopez": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Brandon Lopez"
+ },
+ "branqueeno": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Branqueeno"
+ },
  "break": {
+  "genres": {
+   "Drum & Bass": 2
+  },
+  "n": 2,
+  "name": "Break"
+ },
+ "breakage": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
-  "name": "Break"
+  "name": "Breakage"
  },
  "breaze": {
   "genres": {
@@ -2296,10 +3211,10 @@
  "brennan-heart": {
   "genres": {
    "Hard Techno": 1,
-   "Hardcore": 2,
-   "Hardstyle": 2
+   "Hardcore": 3,
+   "Hardstyle": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Brennan Heart"
  },
  "brent-honey": {
@@ -2310,11 +3225,19 @@
   "n": 1,
   "name": "Brent Honey"
  },
- "bridge": {
+ "brian-parks": {
   "genres": {
-   "House": 1
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
+  "name": "Brian Parks"
+ },
+ "bridge": {
+  "genres": {
+   "House": 2
+  },
+  "n": 2,
   "name": "Bridge"
  },
  "brina-knauss": {
@@ -2324,6 +3247,13 @@
   },
   "n": 1,
   "name": "Brina Knauss"
+ },
+ "brodie": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Brodie"
  },
  "broiler": {
   "genres": {
@@ -2335,10 +3265,10 @@
  },
  "brokenchord": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Brokenchord"
  },
  "brooklyn-bounce": {
@@ -2350,12 +3280,58 @@
   "n": 1,
   "name": "Brooklyn Bounce"
  },
+ "brovanni": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Brovanni"
+ },
+ "bruce": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bruce"
+ },
+ "bruine": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "BRUINE"
+ },
+ "bruk-rogers": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Bruk Rogers"
+ },
+ "brunnera": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Brunnera"
+ },
  "bruno-bazzetti": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Bruno Bazzetti"
+ },
+ "bryan-gee": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Bryan Gee"
  },
  "bt": {
   "genres": {
@@ -2396,12 +3372,44 @@
   "n": 1,
   "name": "Buraka Som Sistema"
  },
- "burr-oak": {
+ "bureau-de-change": {
   "genres": {
-   "Drum & Bass": 1
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
+  "name": "Bureau de Change"
+ },
+ "burnr": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Burnr"
+ },
+ "burnski": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Burnski"
+ },
+ "burr-oak": {
+  "genres": {
+   "Drum & Bass": 2
+  },
+  "n": 2,
   "name": "Burr Oak"
+ },
+ "bustin-loose": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Bustin' Loose"
  },
  "busy-p": {
   "genres": {
@@ -2426,6 +3434,14 @@
   "n": 1,
   "name": "Buzzfuzz"
  },
+ "by-rn": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Byørn"
+ },
  "byorn": {
   "genres": {
    "Hard Techno": 1,
@@ -2434,13 +3450,40 @@
   "n": 1,
   "name": "BYORN"
  },
+ "caio-cenci": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Caio Cenci"
+ },
  "caiva": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Caiva"
+ },
+ "cakes-da-killa": {
   "genres": {
    "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Caiva"
+  "name": "Cakes Da Killa"
+ },
+ "calcuta": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Calcutá"
  },
  "call-super": {
   "genres": {
@@ -2460,6 +3503,14 @@
   "n": 1,
   "name": "Callush"
  },
+ "cally": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cally"
+ },
  "calvin-clarke": {
   "genres": {
    "House": 1,
@@ -2478,6 +3529,20 @@
   "n": 5,
   "name": "Calvin Harris"
  },
+ "calyx": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Calyx"
+ },
+ "cam-stockman": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Cam Stockman"
+ },
  "camelphat": {
   "genres": {
    "House": 4,
@@ -2486,12 +3551,27 @@
   "n": 4,
   "name": "CamelPhat"
  },
+ "camille-maria": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Camille Maria"
+ },
  "camo-krooked": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Camo & Krooked"
+ },
+ "candidate": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Candidate"
  },
  "canelle-doublekick": {
   "genres": {
@@ -2509,6 +3589,22 @@
   "n": 1,
   "name": "Cannibal Cooking Club"
  },
+ "cap": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cap"
+ },
+ "capablanca": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Capablanca"
+ },
  "cara-elizabeth": {
   "genres": {
    "Hard Techno": 2,
@@ -2516,6 +3612,13 @@
   },
   "n": 2,
   "name": "Cara Elizabeth"
+ },
+ "carasel-mc": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Carasel MC"
  },
  "cardona": {
   "genres": {
@@ -2578,6 +3681,14 @@
   "n": 1,
   "name": "Carl H"
  },
+ "carl-luis": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Carl Luis"
+ },
  "carl-stone": {
   "genres": {
    "House": 1,
@@ -2619,6 +3730,13 @@
   "n": 2,
   "name": "Carlita"
  },
+ "carly-foxx": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Carly Foxx"
+ },
  "carly-zeng": {
   "genres": {
    "House": 1,
@@ -2626,6 +3744,14 @@
   },
   "n": 1,
   "name": "Carly Zeng"
+ },
+ "carmen-villain": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Carmen Villain"
  },
  "carre": {
   "genres": {
@@ -2635,6 +3761,14 @@
   "n": 1,
   "name": "Carré"
  },
+ "carrier": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Carrier"
+ },
  "casa-mata": {
   "genres": {
    "Hard Techno": 1,
@@ -2643,6 +3777,22 @@
   },
   "n": 1,
   "name": "Casa Mata"
+ },
+ "casablanka": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Casablanka"
+ },
+ "cashu": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cashu"
  },
  "cassie-raptor": {
   "genres": {
@@ -2654,9 +3804,9 @@
  },
  "cassius": {
   "genres": {
-   "House": 3
+   "House": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "Cassius"
  },
  "cassy": {
@@ -2667,12 +3817,19 @@
   "n": 1,
   "name": "Cassy"
  },
- "cc-disco": {
+ "catching-cairo": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "Drum & Bass": 1
   },
   "n": 1,
+  "name": "Catching Cairo"
+ },
+ "cc-disco": {
+  "genres": {
+   "House": 2,
+   "Techno": 1
+  },
+  "n": 2,
   "name": "CC:DISCO!"
  },
  "ccl": {
@@ -2716,6 +3873,14 @@
   "n": 1,
   "name": "Cerj"
  },
+ "cezar": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cezar"
+ },
  "chain-reaction": {
   "genres": {
    "Hardcore": 1,
@@ -2739,6 +3904,21 @@
   "n": 1,
   "name": "Chaotic Brothers"
  },
+ "charlie": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Charlie"
+ },
+ "charlie-osborne": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Charlie Osborne"
+ },
  "charlie-sparks": {
   "genres": {
    "Techno": 1
@@ -2758,6 +3938,20 @@
   },
   "n": 11,
   "name": "Charlotte de Witte"
+ },
+ "charlotte-devaney": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Charlotte Devaney"
+ },
+ "charlotte-haining": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Charlotte Haining"
  },
  "charlotte-preckler": {
   "genres": {
@@ -2783,6 +3977,38 @@
   "n": 1,
   "name": "Chase & Status"
  },
+ "chaufau": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Chaufau"
+ },
+ "chaya": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Chaya"
+ },
+ "cheeva": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Cheeva"
+ },
+ "chef": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Chef"
+ },
  "chelina-manuhutu": {
   "genres": {
    "House": 1,
@@ -2791,6 +4017,22 @@
   "n": 1,
   "name": "Chelina Manuhutu"
  },
+ "cheun": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cheun"
+ },
+ "chewchew": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "ChewChew"
+ },
  "chicane": {
   "genres": {
    "House": 1,
@@ -2798,6 +4040,27 @@
   },
   "n": 2,
   "name": "Chicane"
+ },
+ "chickaboo": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Chickaboo"
+ },
+ "children-of-zeus": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Children of Zeus"
+ },
+ "chinese-daughter": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Chinese Daughter"
  },
  "chlar": {
   "genres": {
@@ -2828,12 +4091,21 @@
   "n": 4,
   "name": "Chloé Caillet"
  },
- "chopper": {
+ "cholitx": {
   "genres": {
+   "Drum & Bass": 1,
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Cholitx"
+ },
+ "chopper": {
+  "genres": {
+   "House": 2,
+   "Techno": 1
+  },
+  "n": 2,
   "name": "Chopper"
  },
  "chouhal": {
@@ -2864,6 +4136,14 @@
   "n": 2,
   "name": "Chris Liebing"
  },
+ "chris-reeve": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Chris Reeve"
+ },
  "chris-rinox": {
   "genres": {
    "House": 1,
@@ -2881,6 +4161,13 @@
   },
   "n": 6,
   "name": "Chris Stussy"
+ },
+ "chris-su": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Chris.SU"
  },
  "christian-loffler": {
   "genres": {
@@ -2938,6 +4225,14 @@
   "n": 1,
   "name": "Ciaran McAuley"
  },
+ "ciel": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "CIEL"
+ },
  "cinthie": {
   "genres": {
    "House": 2,
@@ -2948,9 +4243,9 @@
  },
  "circadian": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Circadian"
  },
  "clank-maider": {
@@ -2971,6 +4266,13 @@
   "n": 5,
   "name": "Clara Cuvé"
  },
+ "clarissa-connelly": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Clarissa Connelly"
+ },
  "claude-emmanuelle": {
   "genres": {
    "House": 1,
@@ -2986,6 +4288,14 @@
   },
   "n": 1,
   "name": "Claudio PRC"
+ },
+ "clement-nourry": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Clement Nourry"
  },
  "cleo-chaos": {
   "genres": {
@@ -3011,6 +4321,13 @@
   "n": 1,
   "name": "Cleric"
  },
+ "cleveland-watkiss": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Cleveland Watkiss"
+ },
  "closing": {
   "genres": {
    "Hard Techno": 1,
@@ -3018,6 +4335,15 @@
   },
   "n": 1,
   "name": "Closing"
+ },
+ "clouds": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardstyle": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Clouds"
  },
  "cloudy": {
   "genres": {
@@ -3052,12 +4378,21 @@
   "n": 1,
   "name": "CMAT"
  },
- "cobrah": {
+ "cmga": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "CMGA"
+ },
+ "cobrah": {
+  "genres": {
+   "Hard Techno": 1,
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Cobrah"
  },
  "code-black": {
@@ -3083,6 +4418,22 @@
   "n": 1,
   "name": "Colin Benders"
  },
+ "collette-warren": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Collette Warren"
+ },
+ "collision": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Collision"
+ },
  "complex": {
   "genres": {
    "Hardcore": 1,
@@ -3104,12 +4455,20 @@
    "Drum & Bass": 1,
    "EDM": 1,
    "Hard Techno": 3,
-   "Hardcore": 4,
-   "Hardstyle": 5,
+   "Hardcore": 5,
+   "Hardstyle": 6,
    "Techno": 1
   },
-  "n": 5,
+  "n": 6,
   "name": "Coone"
+ },
+ "copycat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Copycat"
  },
  "corentin-mab": {
   "genres": {
@@ -3117,6 +4476,14 @@
   },
   "n": 1,
   "name": "Corentin Mab"
+ },
+ "corpres": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Corpres"
  },
  "cosmic-gate": {
   "genres": {
@@ -3127,6 +4494,14 @@
   },
   "n": 3,
   "name": "Cosmic Gate"
+ },
+ "cosmina": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cosmina"
  },
  "courtesy": {
   "genres": {
@@ -3160,13 +4535,28 @@
   "n": 1,
   "name": "Craig Richards"
  },
+ "crave": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Crave"
+ },
  "crazy-p": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 1
+   "House": 2
+  },
+  "n": 2,
+  "name": "Crazy P"
+ },
+ "creatures": {
+  "genres": {
+   "Drum & Bass": 1
   },
   "n": 1,
-  "name": "Crazy P"
+  "name": "Creatures"
  },
  "creeds": {
   "genres": {
@@ -3189,6 +4579,14 @@
   },
   "n": 1,
   "name": "Crête & Moustache"
+ },
+ "cristi-cons": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cristi Cons"
  },
  "cristoph": {
   "genres": {
@@ -3213,6 +4611,23 @@
   "n": 1,
   "name": "Cross The Fingers"
  },
+ "crotekk": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Crotekk"
+ },
+ "crupo": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Crüpo"
+ },
  "crypsis": {
   "genres": {
    "Hardcore": 1,
@@ -3220,6 +4635,22 @@
   },
   "n": 1,
   "name": "Crypsis"
+ },
+ "crys-cole-marja-ahti": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "crys cole & Marja Ahti"
+ },
+ "crystal-o": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Crystal-O"
  },
  "crystallmess": {
   "genres": {
@@ -3237,6 +4668,14 @@
   "n": 1,
   "name": "Cuba"
  },
+ "cuky": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cuky"
+ },
  "current-value": {
   "genres": {
    "Drum & Bass": 1
@@ -3252,6 +4691,15 @@
   "n": 1,
   "name": "Curses!"
  },
+ "cwtch": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cwtch"
+ },
  "cyber": {
   "genres": {
    "Hardstyle": 1
@@ -3259,24 +4707,49 @@
   "n": 1,
   "name": "Cyber"
  },
+ "cyk": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cyk"
+ },
  "cynthia-spiering": {
   "genres": {
-   "Hard Techno": 2,
+   "Hard Techno": 3,
    "Hardcore": 1,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 3,
+  "n": 4,
   "name": "Cynthia Spiering"
+ },
+ "cyst": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Cyst"
  },
  "d-block-s-te-fan": {
   "genres": {
    "Hard Techno": 3,
-   "Hardcore": 5,
-   "Hardstyle": 5,
+   "Hardcore": 6,
+   "Hardstyle": 6,
    "Techno": 1
   },
-  "n": 5,
+  "n": 6,
   "name": "D-Block & S-te-Fan"
+ },
+ "d-ceptor": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "D-Ceptor"
  },
  "d-fence": {
   "genres": {
@@ -3303,10 +4776,11 @@
  },
  "d-sturb": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "D-Sturb"
  },
  "d-tiffany": {
@@ -3338,15 +4812,22 @@
  "da-tweekaz": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 2,
-   "Hardcore": 2,
-   "Hardstyle": 2,
+   "Hard Techno": 3,
+   "Hardcore": 3,
+   "Hardstyle": 3,
    "Psytrance": 1,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 3,
+  "n": 4,
   "name": "Da Tweekaz"
+ },
+ "daetor": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Daetor"
  },
  "daft-funk-live": {
   "genres": {
@@ -3355,6 +4836,13 @@
   },
   "n": 1,
   "name": "Daft Funk Live"
+ },
+ "dagmar-zuniga": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dagmar Zuniga"
  },
  "daichi-wada": {
   "genres": {
@@ -3372,6 +4860,29 @@
   },
   "n": 1,
   "name": "Daisy"
+ },
+ "daisybelle": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Daisybelle"
+ },
+ "daito-manabe": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Daito Manabe"
+ },
+ "damaxy": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Damaxy"
  },
  "damian-lazarus": {
   "genres": {
@@ -3403,11 +4914,19 @@
   "n": 1,
   "name": "DAMM"
  },
- "dan-bono": {
+ "dan-andrei": {
   "genres": {
-   "House": 1
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
+  "name": "Dan Andrei"
+ },
+ "dan-bono": {
+  "genres": {
+   "House": 2
+  },
+  "n": 2,
   "name": "Dan Bono"
  },
  "dan-haward": {
@@ -3444,6 +4963,14 @@
   "n": 4,
   "name": "Daniel Avery"
  },
+ "daniel-i": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Daniel[i]"
+ },
  "danke-al": {
   "genres": {
    "Hard Techno": 1,
@@ -3452,12 +4979,30 @@
   "n": 1,
   "name": "Danke Al"
  },
+ "danny-howard": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Danny Howard"
+ },
  "danou-p": {
   "genres": {
    "House": 1
   },
   "n": 1,
   "name": "Danou P"
+ },
+ "dans-turbulans": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dans Turbulans"
  },
  "danth": {
   "genres": {
@@ -3470,6 +5015,13 @@
   },
   "n": 2,
   "name": "Danth"
+ },
+ "danuka": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Danuka"
  },
  "daphni": {
   "genres": {
@@ -3587,6 +5139,13 @@
   "n": 3,
   "name": "Dasha Rush"
  },
+ "dauntless": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dauntless"
+ },
  "dave-clarke": {
   "genres": {
    "EDM": 1,
@@ -3596,6 +5155,14 @@
   },
   "n": 4,
   "name": "Dave Clarke"
+ },
+ "dave-huismans": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dave Huismans"
  },
  "dave-lambert": {
   "genres": {
@@ -3614,6 +5181,13 @@
   "n": 1,
   "name": "Dave Replay"
  },
+ "dave-shichman": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dave Shichman"
+ },
  "david-dm": {
   "genres": {
    "House": 1,
@@ -3626,14 +5200,24 @@
  "david-guetta": {
   "genres": {
    "Drum & Bass": 1,
-   "EDM": 4,
+   "EDM": 5,
    "Hard Techno": 1,
-   "House": 2,
-   "Techno": 1,
+   "Hardstyle": 1,
+   "House": 3,
+   "Techno": 2,
    "Trance": 1
   },
-  "n": 4,
+  "n": 5,
   "name": "David Guetta"
+ },
+ "david-lazar": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "David Lazar"
  },
  "david-morales": {
   "genres": {
@@ -3649,6 +5233,14 @@
   "n": 1,
   "name": "David Rodigan"
  },
+ "davide-tidoni": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Davide Tidoni"
+ },
  "davyboi": {
   "genres": {
    "Hard Techno": 1,
@@ -3657,6 +5249,13 @@
   },
   "n": 2,
   "name": "Davyboi"
+ },
+ "dawuna": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dawuna"
  },
  "dax-j": {
   "genres": {
@@ -3671,6 +5270,14 @@
   "n": 7,
   "name": "Dax J"
  },
+ "day-sleeper": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Day Sleeper"
+ },
  "dbridge": {
   "genres": {
    "Drum & Bass": 1,
@@ -3678,6 +5285,14 @@
   },
   "n": 1,
   "name": "dBridge"
+ },
+ "dddddchain": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DddddChain"
  },
  "deadly-guns": {
   "genres": {
@@ -3704,9 +5319,9 @@
  "debit": {
   "genres": {
    "House": 1,
-   "Techno": 1
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Debit"
  },
  "deborah-de-luca": {
@@ -3725,6 +5340,13 @@
   "n": 1,
   "name": "Decode"
  },
+ "decoder": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Decoder"
+ },
  "deena-abdelwahed": {
   "genres": {
    "House": 1,
@@ -3732,6 +5354,14 @@
   },
   "n": 1,
   "name": "Deena Abdelwahed"
+ },
+ "deepack": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Deepack"
  },
  "deetox": {
   "genres": {
@@ -3741,6 +5371,15 @@
   "n": 1,
   "name": "Deetox"
  },
+ "deezl": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Deezl"
+ },
  "degos-re-done": {
   "genres": {
    "Hardcore": 1,
@@ -3748,6 +5387,29 @@
   },
   "n": 1,
   "name": "Degos & Re-Done"
+ },
+ "degs": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Degs"
+ },
+ "dejection": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Dejection"
+ },
+ "del-gesu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Del Gesù"
  },
  "delaurentis": {
   "genres": {
@@ -3764,6 +5426,20 @@
   "n": 1,
   "name": "Delff"
  },
+ "deli-girls": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Deli Girls"
+ },
+ "delicat": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Delicat"
+ },
  "delirium": {
   "genres": {
    "House": 1,
@@ -3772,6 +5448,22 @@
   },
   "n": 1,
   "name": "Delirium"
+ },
+ "demdike-stare": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Demdike Stare"
+ },
+ "demdike-stare-cherrystones": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Demdike Stare & Cherrystones"
  },
  "demi-kanon": {
   "genres": {
@@ -3797,6 +5489,14 @@
   "n": 1,
   "name": "Denis Sulta"
  },
+ "dennis-aycicek": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "dennis aycicek"
+ },
  "dennis-cruz": {
   "genres": {
    "House": 2,
@@ -3811,6 +5511,15 @@
   },
   "n": 1,
   "name": "Dennis Ferrer"
+ },
+ "derango": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Derango"
  },
  "deril": {
   "genres": {
@@ -3827,6 +5536,14 @@
   },
   "n": 1,
   "name": "Derrick Carter"
+ },
+ "descartes-a-kant": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Descartes a Kant"
  },
  "desiree": {
   "genres": {
@@ -3850,6 +5567,31 @@
   "n": 1,
   "name": "Desolate Discotheque"
  },
+ "despotin-fam": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Despotin Fam"
+ },
+ "detailed": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Detailed"
+ },
+ "detraex-corp": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Detraex Corp"
+ },
  "devin-wild": {
   "genres": {
    "Hardstyle": 1
@@ -3857,13 +5599,46 @@
   "n": 1,
   "name": "Devin Wild"
  },
- "diamanda-galas": {
+ "devon-rexi": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Devon Rexi"
+ },
+ "dia-plattenpussys": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "DIA Plattenpussys"
+ },
+ "diamanda-galas": {
+  "genres": {
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Diamanda Galás"
+ },
+ "dica": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DICA"
+ },
+ "dickster": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dickster"
  },
  "didz-mina": {
   "genres": {
@@ -3872,14 +5647,58 @@
   "n": 1,
   "name": "Didz & Mina"
  },
- "diffrent": {
+ "die-gebruder-brett": {
   "genres": {
    "Hard Techno": 1,
-   "House": 1,
-   "Trance": 1
+   "Hardcore": 1,
+   "Hardstyle": 1
   },
   "n": 1,
+  "name": "Die Gebrüder Brett"
+ },
+ "diet-of-worms": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Diet Of Worms"
+ },
+ "diffrent": {
+  "genres": {
+   "EDM": 1,
+   "Hard Techno": 1,
+   "House": 2,
+   "Techno": 1,
+   "Trance": 1
+  },
+  "n": 2,
   "name": "Diffrent"
+ },
+ "dige-m0m0": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Digé M0m0"
+ },
+ "digicult": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Digicult"
+ },
+ "digital": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Digital"
  },
  "digital-punk": {
   "genres": {
@@ -3906,6 +5725,15 @@
   },
   "n": 1,
   "name": "Dijon"
+ },
+ "dikke-baap": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Dikke Baap"
  },
  "dillinja": {
   "genres": {
@@ -3951,6 +5779,21 @@
   },
   "n": 1,
   "name": "Dione"
+ },
+ "diosa": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Diosa"
+ },
+ "dip-friso": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dip Friso"
  },
  "dirty-doering": {
   "genres": {
@@ -3999,6 +5842,14 @@
   },
   "n": 1,
   "name": "Dither"
+ },
+ "divasi": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Divasi"
  },
  "division-7": {
   "genres": {
@@ -4076,6 +5927,14 @@
   "n": 1,
   "name": "DJ Breakfast"
  },
+ "dj-brom": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Brom"
+ },
  "dj-caline": {
   "genres": {
    "Hard Techno": 1,
@@ -4138,6 +5997,13 @@
   "n": 1,
   "name": "DJ Dag"
  },
+ "dj-die": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "DJ Die"
+ },
  "dj-dreckisch": {
   "genres": {
    "Hard Techno": 1,
@@ -4185,6 +6051,14 @@
   "n": 1,
   "name": "DJ Firmeza"
  },
+ "dj-g2g": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ G2G"
+ },
  "dj-gee": {
   "genres": {
    "House": 1,
@@ -4213,6 +6087,14 @@
   "n": 1,
   "name": "DJ Guestlist"
  },
+ "dj-handbag": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dj Handbag"
+ },
  "dj-hell": {
   "genres": {
    "Techno": 1
@@ -4231,9 +6113,9 @@
  },
  "dj-hype": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "DJ Hype"
  },
  "dj-isaac": {
@@ -4276,6 +6158,13 @@
   "n": 1,
   "name": "DJ L-Bee"
  },
+ "dj-lee": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "DJ Lee"
+ },
  "dj-lycox": {
   "genres": {
    "House": 1,
@@ -4283,6 +6172,13 @@
   },
   "n": 1,
   "name": "DJ Lycox"
+ },
+ "dj-marky": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "DJ Marky"
  },
  "dj-masda": {
   "genres": {
@@ -4294,9 +6190,9 @@
  },
  "dj-mass": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "DJ Mass"
  },
  "dj-mii": {
@@ -4340,10 +6236,18 @@
  },
  "dj-paulette": {
   "genres": {
-   "House": 1
+   "House": 2
+  },
+  "n": 2,
+  "name": "DJ Paulette"
+ },
+ "dj-perception": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "DJ Paulette"
+  "name": "DJ Perception"
  },
  "dj-plaisir": {
   "genres": {
@@ -4361,6 +6265,21 @@
   "n": 1,
   "name": "DJ Playero"
  },
+ "dj-plead": {
+  "genres": {
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "DJ Plead"
+ },
+ "dj-python": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Python"
+ },
  "dj-quicksilver": {
   "genres": {
    "Hardcore": 1,
@@ -4369,6 +6288,14 @@
   },
   "n": 1,
   "name": "DJ Quicksilver"
+ },
+ "dj-rapzouz": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dj Rapzouz"
  },
  "dj-snake": {
   "genres": {
@@ -4380,6 +6307,38 @@
   "n": 2,
   "name": "DJ Snake"
  },
+ "dj-spanish-fly": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Spanish Fly"
+ },
+ "dj-spinna": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "DJ Spinna"
+ },
+ "dj-sports": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Sports"
+ },
+ "dj-startup": {
+  "genres": {
+   "Drum & Bass": 2,
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Dj Startup"
+ },
  "dj-stronger": {
   "genres": {
    "Techno": 1
@@ -4387,12 +6346,20 @@
   "n": 1,
   "name": "DJ Stronger"
  },
+ "dj-sukram": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Sukram"
+ },
  "dj-tennis": {
   "genres": {
-   "House": 3,
-   "Techno": 3
+   "House": 4,
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "DJ Tennis"
  },
  "dj-thera": {
@@ -4402,6 +6369,39 @@
   },
   "n": 1,
   "name": "DJ Thera"
+ },
+ "dj-tjizza": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Tjizza"
+ },
+ "dj-totocard": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dj Totocard"
+ },
+ "dj-travella": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Travella"
+ },
+ "dj-zero": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DJ Zero"
  },
  "dj-zinc": {
   "genres": {
@@ -4444,6 +6444,13 @@
   "n": 2,
   "name": "Djerry C"
  },
+ "djinn": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Djinn"
+ },
  "djora": {
   "genres": {
    "Hard Techno": 1,
@@ -4460,6 +6467,52 @@
   "n": 1,
   "name": "DjRUM"
  },
+ "dju-yo": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dju-Yo"
+ },
+ "dlr": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "DLR"
+ },
+ "dmnk": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "DMNK"
+ },
+ "dmrc": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "DMRC"
+ },
+ "doc-scott": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Doc Scott"
+ },
+ "dogger": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dogger"
+ },
  "dom-dolla": {
   "genres": {
    "EDM": 3,
@@ -4469,6 +6522,13 @@
   "n": 4,
   "name": "Dom Dolla"
  },
+ "dom-roland": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dom & Roland"
+ },
  "dombrance": {
   "genres": {
    "House": 1,
@@ -4476,6 +6536,13 @@
   },
   "n": 1,
   "name": "Dombrance"
+ },
+ "dombresky": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Dombresky"
  },
  "domenique-dumont": {
   "genres": {
@@ -4497,9 +6564,9 @@
   "genres": {
    "Drum & Bass": 1,
    "House": 3,
-   "Techno": 4
+   "Techno": 5
   },
-  "n": 4,
+  "n": 5,
   "name": "Donato Dozzy"
  },
  "donia": {
@@ -4518,6 +6585,14 @@
   "n": 1,
   "name": "Donis"
  },
+ "donnie-sunshine": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Donnie Sunshine"
+ },
  "dopplereffekt": {
   "genres": {
    "House": 1,
@@ -4532,6 +6607,28 @@
   },
   "n": 1,
   "name": "Dorian Craft"
+ },
+ "double-o": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Double O"
+ },
+ "double-trouble": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Double Trouble"
+ },
+ "double-vision": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Double Vision"
  },
  "doudou-md": {
   "genres": {
@@ -4550,11 +6647,12 @@
  },
  "dr-donk": {
   "genres": {
-   "Hard Techno": 2,
-   "Hardcore": 2,
-   "Techno": 1
+   "Hard Techno": 4,
+   "Hardcore": 3,
+   "Hardstyle": 1,
+   "Techno": 2
   },
-  "n": 2,
+  "n": 4,
   "name": "Dr Donk"
  },
  "dr-donk-presents-zaagstep": {
@@ -4576,6 +6674,13 @@
   "n": 4,
   "name": "Dr. Peacock"
  },
+ "dramatic": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dramatic"
+ },
  "drea": {
   "genres": {
    "House": 1,
@@ -4583,6 +6688,22 @@
   },
   "n": 1,
   "name": "Drea"
+ },
+ "dropixx": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Dropixx"
+ },
+ "drs": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "DRS"
  },
  "drumslave": {
   "genres": {
@@ -4612,6 +6733,13 @@
   "n": 5,
   "name": "Dual Damage"
  },
+ "dub-fx": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Dub FX"
+ },
  "dub-inc": {
   "genres": {
    "Drum & Bass": 1
@@ -4626,6 +6754,22 @@
   },
   "n": 1,
   "name": "Dubrunner"
+ },
+ "dudu-kouate": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dudù Kouate"
+ },
+ "dudu-kouate-julia-bilat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dudù Kouaté & Julia Bilat"
  },
  "duke-dumont": {
   "genres": {
@@ -4645,6 +6789,14 @@
   },
   "n": 1,
   "name": "Dumonde"
+ },
+ "dungeon-meat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dungeon Meat"
  },
  "dusky": {
   "genres": {
@@ -4685,24 +6837,32 @@
   "n": 1,
   "name": "DXNBY"
  },
+ "dyed-soundorom": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Dyed Soundorom"
+ },
  "dyen": {
   "genres": {
    "Acid Techno": 1,
-   "Hard Techno": 2,
+   "Hard Techno": 3,
    "Hardcore": 1,
    "Hardstyle": 1,
    "House": 1,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 3,
+  "n": 4,
   "name": "DYEN"
  },
  "e-force": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hardcore": 2,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "E-Force"
  },
  "e-x-e-c-u-t-e": {
@@ -4730,6 +6890,15 @@
   "n": 1,
   "name": "Easttown"
  },
+ "eat-static": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Eat Static"
+ },
  "eathan": {
   "genres": {
    "House": 1,
@@ -4744,6 +6913,14 @@
   },
   "n": 3,
   "name": "Eats Everything"
+ },
+ "eclypse": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Eclypse"
  },
  "ecstatic": {
   "genres": {
@@ -4807,6 +6984,22 @@
   "n": 1,
   "name": "eioo"
  },
+ "el-tel-the-transcender": {
+  "genres": {
+   "Acid Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "El Tel The Transcender"
+ },
+ "elaine-howley": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Elaine Howley"
+ },
  "elasy": {
   "genres": {
    "Hardcore": 1,
@@ -4817,10 +7010,10 @@
  },
  "element": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hardcore": 2,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Element"
  },
  "elemental": {
@@ -4830,6 +7023,14 @@
   },
   "n": 1,
   "name": "Elemental"
+ },
+ "elevaze": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Elevaze"
  },
  "eli-brown": {
   "genres": {
@@ -4854,6 +7055,14 @@
   "n": 1,
   "name": "Eliasz"
  },
+ "elina-waage-mikalsen": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Elina Waage Mikalsen"
+ },
  "elisa-do-brasil": {
   "genres": {
    "Drum & Bass": 1
@@ -4868,12 +7077,21 @@
   "n": 1,
   "name": "Eliza Rose"
  },
+ "elizabeth-davis": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Elizabeth Davis"
+ },
  "ellen-allien": {
   "genres": {
-   "House": 2,
-   "Techno": 5
+   "Drum & Bass": 1,
+   "House": 3,
+   "Techno": 6
   },
-  "n": 5,
+  "n": 6,
   "name": "Ellen Allien"
  },
  "elli-acula": {
@@ -4885,18 +7103,42 @@
  },
  "ellia-jaya": {
   "genres": {
+   "House": 2
+  },
+  "n": 2,
+  "name": "Ellia Jaya"
+ },
+ "ellis-esco": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Ellis Esco"
+ },
+ "ellis-garner": {
+  "genres": {
    "House": 1
   },
   "n": 1,
-  "name": "Ellia Jaya"
+  "name": "Ellis Garner"
+ },
+ "elly-oldman": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Elly Oldman"
  },
  "elowinz": {
   "genres": {
-   "Psytrance": 1,
-   "Techno": 1,
+   "House": 1,
+   "Psytrance": 2,
+   "Techno": 2,
    "Trance": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Elowinz"
  },
  "ely-oaks": {
@@ -4908,6 +7150,32 @@
   },
   "n": 3,
   "name": "Ely Oaks"
+ },
+ "elyante": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Elyante"
+ },
+ "em-s": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "EM'S"
+ },
+ "emel": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "eMeL"
  },
  "emilaki": {
   "genres": {
@@ -4925,6 +7193,15 @@
   },
   "n": 1,
   "name": "Emilíana Torrini"
+ },
+ "emilie-brout-maxime-marion": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Émilie Brout & Maxime Marion"
  },
  "emilija": {
   "genres": {
@@ -4954,6 +7231,37 @@
   "n": 1,
   "name": "EMJIE"
  },
+ "emma-2000": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Emma 2000"
+ },
+ "emma-b": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Emma B"
+ },
+ "emma-dj": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Emma dj"
+ },
+ "employee-franco-franco": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Employee & Franco Franco"
+ },
  "ems": {
   "genres": {
    "Hardstyle": 1
@@ -4961,12 +7269,35 @@
   "n": 1,
   "name": "EMS"
  },
+ "enaly": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Enaly"
+ },
  "endymion": {
   "genres": {
    "Hardcore": 1
   },
   "n": 1,
   "name": "Endymion"
+ },
+ "enei": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Enei"
+ },
+ "enna-evar": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Enna Evar"
  },
  "enrico-sangiuliano": {
   "genres": {
@@ -4979,6 +7310,22 @@
   "n": 4,
   "name": "Enrico Sangiuliano"
  },
+ "ensemble-musikfabrik": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ensemble Musikfabrik"
+ },
+ "entzugszklinique": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Entzugszklinique"
+ },
  "enzo-siragusa": {
   "genres": {
    "House": 5,
@@ -4986,6 +7333,15 @@
   },
   "n": 5,
   "name": "Enzo Siragusa"
+ },
+ "epidemie": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Epidemie"
  },
  "eptic": {
   "genres": {
@@ -5060,6 +7416,22 @@
   "n": 3,
   "name": "Erol Alkan"
  },
+ "erosao-percussion-trio": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "EROSÃO Percussion Trio"
+ },
+ "esaia": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Esaïa"
+ },
  "eskei83": {
   "genres": {
    "Drum & Bass": 1
@@ -5082,6 +7454,13 @@
   },
   "n": 1,
   "name": "Estremo"
+ },
+ "etherwood": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Etherwood"
  },
  "etienne-de-crecy": {
   "genres": {
@@ -5107,6 +7486,13 @@
   },
   "n": 1,
   "name": "EverTwo"
+ },
+ "everything-is-psychedelic": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Everything Is Psychedelic"
  },
  "evi": {
   "genres": {
@@ -5140,6 +7526,13 @@
   "n": 1,
   "name": "Evissimax"
  },
+ "ewa-dziarnowska": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ewa Dziarnowska"
+ },
  "ewan-mcvicar": {
   "genres": {
    "EDM": 1,
@@ -5147,6 +7540,14 @@
   },
   "n": 1,
   "name": "Ewan McVicar"
+ },
+ "ex-easter-island-head": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ex-Easter Island Head"
  },
  "ex-echo": {
   "genres": {
@@ -5164,6 +7565,22 @@
   "n": 1,
   "name": "Explorers of the Internet"
  },
+ "exproz": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Exproz"
+ },
+ "extra": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Extra"
+ },
  "extrawelt": {
   "genres": {
    "House": 1,
@@ -5172,6 +7589,22 @@
   "n": 1,
   "name": "Extrawelt"
  },
+ "ezra-feinberg": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ezra Feinberg"
+ },
+ "fabe": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fabe"
+ },
  "fabian-farell": {
   "genres": {
    "House": 1,
@@ -5179,6 +7612,29 @@
   },
   "n": 1,
   "name": "Fabian Farell"
+ },
+ "fabio": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Fabio"
+ },
+ "fabio-machiavelli-ictus-ensemble": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fabio Machiavelli & Ictus Ensemble"
+ },
+ "faceless": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Faceless"
  },
  "fadi-mohem": {
   "genres": {
@@ -5206,6 +7662,14 @@
   "n": 5,
   "name": "Fakear"
  },
+ "falyakon": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Falyakon"
+ },
  "fantasm": {
   "genres": {
    "Acid Techno": 1,
@@ -5224,10 +7688,12 @@
  },
  "faster-horses": {
   "genres": {
-   "Hard Techno": 1,
-   "House": 1
+   "Hard Techno": 3,
+   "Hardstyle": 1,
+   "House": 1,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 3,
   "name": "Faster Horses"
  },
  "fatboy-slim": {
@@ -5253,10 +7719,32 @@
  },
  "fava": {
   "genres": {
+   "Drum & Bass": 2
+  },
+  "n": 2,
+  "name": "Fava"
+ },
+ "fd": {
+  "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
-  "name": "Fava"
+  "name": "FD"
+ },
+ "feeo": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "feeo"
+ },
+ "felipe-bravo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Felipe Bravo"
  },
  "felix-fleer": {
   "genres": {
@@ -5310,6 +7798,14 @@
   "n": 1,
   "name": "Fenimore"
  },
+ "fennesz": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fennesz"
+ },
  "feral": {
   "genres": {
    "House": 1,
@@ -5334,6 +7830,25 @@
   "n": 1,
   "name": "Fiedel"
  },
+ "finch": {
+  "genres": {
+   "EDM": 1,
+   "Hardstyle": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Finch"
+ },
+ "fink": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fink"
+ },
  "finnebassen": {
   "genres": {
    "House": 1
@@ -5348,6 +7863,15 @@
   },
   "n": 1,
   "name": "Firtzi Ernst"
+ },
+ "fish56octagon": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fish56Octagon"
  },
  "fishbach": {
   "genres": {
@@ -5378,6 +7902,14 @@
   "n": 4,
   "name": "FJAAK"
  },
+ "fjusha": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Fjusha"
+ },
  "flaek": {
   "genres": {
    "EDM": 1,
@@ -5386,6 +7918,22 @@
   },
   "n": 1,
   "name": "Flaek"
+ },
+ "flavien-thery-fred-murie": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Flavien Théry & Fred Murie"
+ },
+ "fleetmac-wood": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Fleetmac Wood"
  },
  "fleur-shore": {
   "genres": {
@@ -5482,6 +8030,15 @@
   "n": 1,
   "name": "Flux Pavilion"
  },
+ "flyke": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Flyke"
+ },
  "flymeon": {
   "genres": {
    "Hard Techno": 1
@@ -5497,6 +8054,21 @@
   },
   "n": 6,
   "name": "Folamour"
+ },
+ "follesinge": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Follesinge"
+ },
+ "fonts": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Fonts"
  },
  "forbidden-fruit": {
   "genres": {
@@ -5518,6 +8090,13 @@
   "n": 6,
   "name": "Four Tet"
  },
+ "fox": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Fox"
+ },
  "fox-stevenson": {
   "genres": {
    "Drum & Bass": 2,
@@ -5528,6 +8107,20 @@
   },
   "n": 2,
   "name": "Fox Stevenson"
+ },
+ "foxi": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Foxi"
+ },
+ "fracture": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Fracture"
  },
  "francesco-del-garda": {
   "genres": {
@@ -5552,6 +8145,14 @@
   },
   "n": 1,
   "name": "Franco Cinelli"
+ },
+ "frank-flames": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Frank Flames"
  },
  "frank-maurel": {
   "genres": {
@@ -5601,6 +8202,15 @@
   "n": 1,
   "name": "Franz Scala"
  },
+ "freaks-on-floor": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Freaks on Floor"
+ },
  "fred-p": {
   "genres": {
    "House": 1,
@@ -5623,6 +8233,13 @@
   },
   "n": 1,
   "name": "Freddi"
+ },
+ "freddie-seo": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Freddie Seo"
  },
  "freddy-k": {
   "genres": {
@@ -5687,12 +8304,36 @@
   "n": 1,
   "name": "Frits Wentink"
  },
+ "frodo": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Frodo"
+ },
  "front-de-cadeaux": {
   "genres": {
    "House": 1
   },
   "n": 1,
   "name": "Front de Cadeaux"
+ },
+ "front-page-leslie": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Front Page Leslie"
+ },
+ "frontliner": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Frontliner"
  },
  "funk-tribu": {
   "genres": {
@@ -5724,11 +8365,18 @@
  },
  "future-666": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "Hard Techno": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Future.666"
+ },
+ "future-engineers": {
+  "genres": {
+   "Drum & Bass": 1
   },
   "n": 1,
-  "name": "Future.666"
+  "name": "Future Engineers"
  },
  "futuregrapher": {
   "genres": {
@@ -5771,11 +8419,22 @@
  },
  "gabber-eleganza": {
   "genres": {
+   "Drum & Bass": 1,
    "Hard Techno": 1,
-   "Hardcore": 1
+   "Hardcore": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 2,
+  "name": "Gabber Eleganza"
+ },
+ "gabi": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "Gabber Eleganza"
+  "name": "Gabi"
  },
  "gabriel-munoz": {
   "genres": {
@@ -5792,6 +8451,21 @@
   },
   "n": 3,
   "name": "Gabry Ponte"
+ },
+ "gaga": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gaga"
+ },
+ "gaia": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Gaia"
  },
  "gaiko": {
   "genres": {
@@ -5826,6 +8500,39 @@
   "n": 1,
   "name": "Gandoolf"
  },
+ "gans": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gans"
+ },
+ "garbanotas": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Garbanotas"
+ },
+ "garrett-david": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Garrett David"
+ },
+ "garth-erasmus-broken-string-ensemble": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Garth Erasmus Broken String Ensemble"
+ },
  "gary-bartz": {
   "genres": {
    "Drum & Bass": 1,
@@ -5840,6 +8547,15 @@
   },
   "n": 1,
   "name": "Gaskin"
+ },
+ "gaspar-claus": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gaspar Claus"
  },
  "genesi": {
   "genres": {
@@ -5858,13 +8574,44 @@
   "n": 1,
   "name": "Georg"
  },
+ "george-smeddles": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "George Smeddles"
+ },
+ "geoushy": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Geoushy"
+ },
+ "gerald-cleaver": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gerald Cleaver"
+ },
  "gerd-janson": {
   "genres": {
-   "House": 4,
+   "House": 5,
    "Techno": 4
   },
-  "n": 4,
+  "n": 5,
   "name": "Gerd Janson"
+ },
+ "gescu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gescu"
  },
  "gezellige-uptempo": {
   "genres": {
@@ -5884,6 +8631,13 @@
   "n": 1,
   "name": "Ghostface"
  },
+ "giant-claw": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Giant Claw"
+ },
  "gigi-fm": {
   "genres": {
    "House": 1,
@@ -5892,6 +8646,14 @@
   "n": 1,
   "name": "GiGi FM"
  },
+ "gilb-r": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gilb’R"
+ },
  "gina-beldam": {
   "genres": {
    "Hard Techno": 1,
@@ -5899,6 +8661,13 @@
   },
   "n": 1,
   "name": "Gina Beldam"
+ },
+ "gina-breeze": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Gina Breeze"
  },
  "gioray": {
   "genres": {
@@ -5962,6 +8731,13 @@
   "n": 1,
   "name": "Globular Waves"
  },
+ "glxy": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "GLXY"
+ },
  "gms": {
   "genres": {
    "Psytrance": 1,
@@ -5979,6 +8755,14 @@
   },
   "n": 2,
   "name": "Gogol Bordello"
+ },
+ "gojnea76": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gojnea76"
  },
  "gold-panda": {
   "genres": {
@@ -6014,6 +8798,14 @@
   "n": 1,
   "name": "Golpe"
  },
+ "gombeen-doygen": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gombeen & Doygen"
+ },
  "gonzi": {
   "genres": {
    "Drum & Bass": 1,
@@ -6023,6 +8815,22 @@
   },
   "n": 1,
   "name": "Gonzi"
+ },
+ "goth-jafar": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Goth Jafar"
+ },
+ "gourski": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Gourski"
  },
  "gow-fast": {
   "genres": {
@@ -6035,11 +8843,20 @@
  },
  "gpf": {
   "genres": {
+   "Hard Techno": 1,
    "Hardcore": 2,
-   "Hardstyle": 2
+   "Hardstyle": 2,
+   "Techno": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "GPF"
+ },
+ "gq": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "GQ"
  },
  "grace-dahl": {
   "genres": {
@@ -6047,6 +8864,39 @@
   },
   "n": 1,
   "name": "Grace Dahl"
+ },
+ "grace-raffaella": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Grace & Raffaella"
+ },
+ "grand-river": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Grand River"
+ },
+ "grant-darshan": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Grant Darshan"
+ },
+ "great-area": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "great area"
  },
  "greekazo": {
   "genres": {
@@ -6057,6 +8907,15 @@
   "n": 1,
   "name": "Greekazo"
  },
+ "green-nuns-of-the-revolution": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Green Nuns of the Revolution"
+ },
  "greg-s": {
   "genres": {
    "House": 1,
@@ -6066,11 +8925,27 @@
   "n": 1,
   "name": "Greg S"
  },
+ "grisha223": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Grisha223"
+ },
+ "grobas": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Grobas"
+ },
  "groove-armada": {
   "genres": {
-   "House": 2
+   "House": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Groove Armada"
  },
  "groove-armada-dj-set": {
@@ -6095,6 +8970,13 @@
   "n": 1,
   "name": "Groove Raiderz"
  },
+ "grooverider": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Grooverider"
+ },
  "grouper": {
   "genres": {
    "House": 1,
@@ -6110,6 +8992,23 @@
   },
   "n": 1,
   "name": "Grse"
+ },
+ "gti": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "GTI"
+ },
+ "guedra-guedra": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Guedra Guedra"
  },
  "gugu": {
   "genres": {
@@ -6133,6 +9032,30 @@
   },
   "n": 1,
   "name": "Gui Boratto"
+ },
+ "guillaumit": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Guillaumit"
+ },
+ "gummi": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "gummi"
+ },
+ "gunz-for-hire": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Gunz For Hire"
  },
  "gusgus": {
   "genres": {
@@ -6158,13 +9081,31 @@
   "n": 1,
   "name": "Guy Gerber"
  },
- "gyrofield": {
+ "gwen-sainte-rose": {
   "genres": {
-   "Drum & Bass": 1,
+   "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Gwen Sainte-Rose"
+ },
+ "gyrofield": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 3
+  },
+  "n": 3,
   "name": "gyrofield"
+ },
+ "h-dude": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "H! Dude"
  },
  "habstrakt": {
   "genres": {
@@ -6189,6 +9130,15 @@
   "n": 1,
   "name": "Haidama"
  },
+ "hajj": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Hajj"
+ },
  "halo": {
   "genres": {
    "EDM": 1,
@@ -6211,6 +9161,14 @@
   },
   "n": 1,
   "name": "Hamdi"
+ },
+ "hanaa": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Hanaa"
  },
  "hania-rani": {
   "genres": {
@@ -6292,6 +9250,14 @@
   "n": 1,
   "name": "Hard Driver"
  },
+ "hardsok": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Hardsok"
+ },
  "hardstyle-mafia": {
   "genres": {
    "Hardcore": 1,
@@ -6336,6 +9302,13 @@
   },
   "n": 1,
   "name": "Hashashin"
+ },
+ "hashtag-ensemble": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Hashtag Ensemble"
  },
  "hausgardian": {
   "genres": {
@@ -6418,13 +9391,30 @@
   "n": 2,
   "name": "Hedex"
  },
+ "heisa": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Heisa"
+ },
+ "hela-fattoumi-eric-lamoureux": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Héla Fattoumi / Eric Lamoureux"
+ },
  "helena-hauff": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 4,
-   "Techno": 4
+   "House": 5,
+   "Techno": 5
   },
-  "n": 4,
+  "n": 5,
   "name": "Helena Hauff"
  },
  "helena-lauwaert": {
@@ -6434,6 +9424,14 @@
   },
   "n": 1,
   "name": "Helena Lauwaert"
+ },
+ "helly": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Helly"
  },
  "hendrik-stein": {
   "genres": {
@@ -6466,6 +9464,22 @@
   "n": 1,
   "name": "Hermetica"
  },
+ "herodot": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Herodot"
+ },
+ "hhy-the-kampala-unit": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "HHY & The Kampala Unit"
+ },
  "hi-ki": {
   "genres": {
    "House": 1,
@@ -6488,6 +9502,13 @@
   },
   "n": 7,
   "name": "Hilight Tribe"
+ },
+ "hindsight": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Hindsight"
  },
  "hiraku": {
   "genres": {
@@ -6514,6 +9535,31 @@
   },
   "n": 1,
   "name": "Hitoshi"
+ },
+ "hitty": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "hitty"
+ },
+ "hlz": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "HLZ"
+ },
+ "holeteeth": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Holeteeth"
  },
  "holiness": {
   "genres": {
@@ -6634,6 +9680,13 @@
   "n": 1,
   "name": "Human Safari"
  },
+ "hunee": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Hunee"
+ },
  "hvob": {
   "genres": {
    "House": 1,
@@ -6672,14 +9725,22 @@
  "hysta": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 3,
-   "Hardcore": 2,
-   "Hardstyle": 1,
+   "Hard Techno": 4,
+   "Hardcore": 3,
+   "Hardstyle": 2,
    "House": 1,
    "Techno": 2
   },
-  "n": 4,
+  "n": 5,
   "name": "Hysta"
+ },
+ "i-a-v": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "I’A’V"
  },
  "i-hate-models": {
   "genres": {
@@ -6713,6 +9774,21 @@
   "n": 1,
   "name": "I Roots"
  },
+ "iamdoomed": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "IAMDOOMED"
+ },
+ "iamnotyou": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "IAMNOTYOU"
+ },
  "ian-pooley": {
   "genres": {
    "House": 1,
@@ -6721,6 +9797,22 @@
   "n": 1,
   "name": "Ian Pooley"
  },
+ "ibrahim-alfa-jr": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ibrahim Alfa Jr"
+ },
+ "ictus-ensemble": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ictus Ensemble"
+ },
  "identified-patient": {
   "genres": {
    "Acid Techno": 1,
@@ -6728,6 +9820,22 @@
   },
   "n": 1,
   "name": "Identified Patient"
+ },
+ "if-it-sounds-like-a-walk": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "If It Sounds Like A Walk"
+ },
+ "ignacio-morales": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ignacio Morales"
  },
  "ignez": {
   "genres": {
@@ -6764,13 +9872,36 @@
   "n": 5,
   "name": "Ilario Alicante"
  },
+ "illmatika": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Illmatika"
+ },
  "imanu": {
   "genres": {
+   "Drum & Bass": 1,
    "Hardcore": 1,
    "Hardstyle": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "IMANU"
+ },
+ "immy": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Immy"
+ },
+ "imo-lu": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "imo-Lu"
  },
  "imperia": {
   "genres": {
@@ -6783,18 +9914,27 @@
  "in-furcht": {
   "genres": {
    "Hard Techno": 1,
-   "Techno": 1
+   "House": 1,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "In Furcht"
  },
  "in-verruf": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "In Verruf"
+ },
+ "incult": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Incult"
  },
  "ind": {
   "genres": {
@@ -6803,6 +9943,13 @@
   },
   "n": 1,
   "name": "Ind"
+ },
+ "india-shan": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "India Shan"
  },
  "indira-paganotto": {
   "genres": {
@@ -6828,6 +9975,31 @@
   "n": 1,
   "name": "Infected Mushroom"
  },
+ "infernus7": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Infernus7"
+ },
+ "infliction": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Infliction"
+ },
+ "infrakontrol": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Infrakontrol"
+ },
  "inox-traxx": {
   "genres": {
    "House": 1,
@@ -6846,14 +10018,44 @@
   "n": 3,
   "name": "Interplanetary Criminal"
  },
+ "inuza": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Inuza"
+ },
+ "ion-ludwig": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ion Ludwig"
+ },
  "iosio": {
   "genres": {
-   "Hard Techno": 4,
+   "Hard Techno": 5,
    "House": 1,
-   "Techno": 3
+   "Techno": 4
   },
-  "n": 4,
+  "n": 5,
   "name": "IOSIO"
+ },
+ "ip": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "IP"
+ },
+ "irisplus": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Irisplus"
  },
  "isa-roos": {
   "genres": {
@@ -6891,6 +10093,14 @@
   },
   "n": 1,
   "name": "Isis Cloudt"
+ },
+ "israa-shalaby": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Israa Shalaby"
  },
  "istoria": {
   "genres": {
@@ -6939,6 +10149,21 @@
   "n": 1,
   "name": "Ixakt"
  },
+ "j-kenzo": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "J:Kenzo"
+ },
+ "jaan": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jaan"
+ },
  "jacidorex": {
   "genres": {
    "Hard Techno": 1,
@@ -6946,6 +10171,30 @@
   },
   "n": 1,
   "name": "Jacidorex"
+ },
+ "jack-brotherhood": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jack Brotherhood"
+ },
+ "jacuzi": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jacuzi"
+ },
+ "jah-know-lapin": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jah know lapin"
  },
  "jakojako": {
   "genres": {
@@ -6972,6 +10221,14 @@
   "n": 1,
   "name": "Jam el Mar"
  },
+ "james-baker": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "James Baker"
+ },
  "james-bangura": {
   "genres": {
    "House": 1,
@@ -6988,6 +10245,13 @@
   },
   "n": 1,
   "name": "James Blake"
+ },
+ "james-glover": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "James Glover"
  },
  "james-holden": {
   "genres": {
@@ -7007,12 +10271,21 @@
   "n": 3,
   "name": "James Hype"
  },
+ "james-monro": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "James Monro"
+ },
  "jamie-jones": {
   "genres": {
-   "House": 3,
-   "Techno": 5
+   "House": 4,
+   "Techno": 6
   },
-  "n": 5,
+  "n": 6,
   "name": "Jamie Jones"
  },
  "jamie-woon": {
@@ -7109,11 +10382,11 @@
    "Hard Techno": 1,
    "Hardcore": 1,
    "Hardstyle": 1,
-   "House": 1,
-   "Techno": 2
+   "House": 2,
+   "Techno": 3
   },
-  "n": 3,
-  "name": "Jasmine Not Jafar"
+  "n": 4,
+  "name": "Jasmine not Jafar"
  },
  "jason-payne": {
   "genres": {
@@ -7123,6 +10396,29 @@
   "n": 1,
   "name": "Jason Payne"
  },
+ "jasss": {
+  "genres": {
+   "House": 2,
+   "Techno": 3
+  },
+  "n": 3,
+  "name": "JASSS"
+ },
+ "jaszaloth": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jaszaloth"
+ },
+ "jawnino": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jawnino"
+ },
  "jay-reeve": {
   "genres": {
    "Hardstyle": 1
@@ -7130,13 +10426,21 @@
   "n": 1,
   "name": "Jay Reeve"
  },
+ "jaycut": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jaycut"
+ },
  "jayda-g": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 5,
+   "House": 6,
    "Techno": 2
   },
-  "n": 5,
+  "n": 6,
   "name": "Jayda G"
  },
  "jayjay": {
@@ -7146,6 +10450,15 @@
   },
   "n": 1,
   "name": "JayJay"
+ },
+ "jazzy": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Jazzy"
  },
  "jazzy-ch": {
   "genres": {
@@ -7176,6 +10489,14 @@
   "n": 1,
   "name": "Jean-Michel Jarre"
  },
+ "jean-pierre": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jean Pierre"
+ },
  "jeff-mills": {
   "genres": {
    "Acid Techno": 1,
@@ -7189,6 +10510,14 @@
   "n": 9,
   "name": "Jeff Mills"
  },
+ "jeff-the-fool": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jeff The Fool"
+ },
  "jekkamai": {
   "genres": {
    "Hard Techno": 1,
@@ -7196,6 +10525,13 @@
   },
   "n": 1,
   "name": "JEKKAMAÏ"
+ },
+ "jen-symmetry": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Jen Symmetry"
  },
  "jennifer-cardini": {
   "genres": {
@@ -7267,6 +10603,14 @@
   "n": 1,
   "name": "Jimmy Labeeu"
  },
+ "jo3y3t": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "JO3Y3T"
+ },
  "joachim-garraud": {
   "genres": {
    "EDM": 1,
@@ -7311,6 +10655,22 @@
   },
   "n": 1,
   "name": "Joe Jam"
+ },
+ "joe-vanditti": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Joe Vanditti"
+ },
+ "joella-jackson": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Joëlla Jackson"
  },
  "johannes-berggren": {
   "genres": {
@@ -7383,10 +10743,26 @@
  "john-t-gast": {
   "genres": {
    "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "John T. Gast"
+ },
+ "johnym": {
+  "genres": {
+   "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "John T. Gast"
+  "name": "JohnyM"
+ },
+ "jokkoo-collective": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Jokkoo Collective"
  },
  "jolani-jhones": {
   "genres": {
@@ -7395,6 +10771,15 @@
   },
   "n": 1,
   "name": "Jolani Jhones"
+ },
+ "jon-void": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Jon Void"
  },
  "jonas-blue": {
   "genres": {
@@ -7459,10 +10844,10 @@
  "joseph-capriati": {
   "genres": {
    "Hard Techno": 1,
-   "House": 2,
-   "Techno": 4
+   "House": 3,
+   "Techno": 5
   },
-  "n": 4,
+  "n": 5,
   "name": "Joseph Capriati"
  },
  "josh-baker": {
@@ -7472,6 +10857,22 @@
   },
   "n": 3,
   "name": "Josh Baker"
+ },
+ "josh-caffe": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Josh Caffé"
+ },
+ "joshua-james": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Joshua James"
  },
  "joshwa": {
   "genres": {
@@ -7497,10 +10898,10 @@
  },
  "jowi": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 5,
+   "Techno": 5
   },
-  "n": 2,
+  "n": 5,
   "name": "Jowi"
  },
  "joy-crookes": {
@@ -7521,6 +10922,15 @@
   "n": 4,
   "name": "Joy Orbison"
  },
+ "joycut": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Joycut"
+ },
  "juan-caballo": {
   "genres": {
    "Hard Techno": 1,
@@ -7537,6 +10947,67 @@
   "n": 1,
   "name": "JUDA"
  },
+ "juicy-romance": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardstyle": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Juicy Romance"
+ },
+ "jul-ci": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "jul.ci"
+ },
+ "julek-ploski": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Julek ploski"
+ },
+ "juli-deak": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Juli Deák"
+ },
+ "julia-bunnagel": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Julia Bünnagel"
+ },
+ "julian-anthony": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Julian Anthony"
+ },
+ "juliana-huxtable": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Juliana Huxtable"
+ },
+ "julie-desire": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Julie Desire"
+ },
  "juliet-fox": {
   "genres": {
    "Hard Techno": 1,
@@ -7544,6 +11015,13 @@
   },
   "n": 1,
   "name": "Juliet Fox"
+ },
+ "jumping-jack-frost": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Jumping Jack Frost"
  },
  "junior-pappa": {
   "genres": {
@@ -7588,6 +11066,14 @@
   "n": 1,
   "name": "K-LONE"
  },
+ "k-means": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "k-means"
+ },
  "k-motionz": {
   "genres": {
    "Drum & Bass": 2,
@@ -7604,6 +11090,13 @@
   },
   "n": 1,
   "name": "K-Tee"
+ },
+ "k-wata": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "K Wata"
  },
  "ka-ost": {
   "genres": {
@@ -7635,6 +11128,14 @@
   },
   "n": 1,
   "name": "Kaboutertje Putlucht"
+ },
+ "kaity-fox": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kaity Fox"
  },
  "kaizersoze": {
   "genres": {
@@ -7668,6 +11169,14 @@
   "n": 1,
   "name": "Kamma"
  },
+ "kamma-masalo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kamma & Masalo"
+ },
  "kandelissa": {
   "genres": {
    "Hard Techno": 1,
@@ -7686,11 +11195,11 @@
  },
  "karah": {
   "genres": {
-   "Hard Techno": 3,
-   "Techno": 3
+   "Hard Techno": 4,
+   "Techno": 4
   },
-  "n": 3,
-  "name": "KARAH"
+  "n": 4,
+  "name": "Karah"
  },
  "karakals": {
   "genres": {
@@ -7701,6 +11210,23 @@
   "n": 1,
   "name": "Karakals"
  },
+ "karash": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Karash"
+ },
+ "karen-willems": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Karen Willems"
+ },
  "karina-lin": {
   "genres": {
    "House": 1,
@@ -7708,6 +11234,14 @@
   },
   "n": 1,
   "name": "Karina Lin"
+ },
+ "karl-jens-west": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Karl Jens West"
  },
  "karlfroye": {
   "genres": {
@@ -7755,6 +11289,24 @@
   "n": 1,
   "name": "Kat Zé"
  },
+ "katarina-gryvul": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Katarina Gryvul"
+ },
+ "katarsis": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Katarsis"
+ },
  "katatonic-silentio": {
   "genres": {
    "Drum & Bass": 1,
@@ -7799,9 +11351,10 @@
  "kavari": {
   "genres": {
    "Drum & Bass": 1,
-   "Techno": 1
+   "House": 1,
+   "Techno": 4
   },
-  "n": 1,
+  "n": 4,
   "name": "KAVARI"
  },
  "kayla-painter": {
@@ -7829,6 +11382,22 @@
   "n": 1,
   "name": "Kazajak"
  },
+ "kbs": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "KBS"
+ },
+ "keeno": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Keeno"
+ },
  "kelela": {
   "genres": {
    "House": 1,
@@ -7852,6 +11421,14 @@
   },
   "n": 1,
   "name": "Kelman Duran"
+ },
+ "kemal": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Kemal"
  },
  "ken-ming": {
   "genres": {
@@ -7910,6 +11487,14 @@
   "n": 5,
   "name": "Kettama"
  },
+ "kev1": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kev1"
+ },
  "kevin-arnold": {
   "genres": {
    "Drum & Bass": 1,
@@ -7940,6 +11525,14 @@
   "n": 1,
   "name": "Kevin Lo"
  },
+ "kewu": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "KEWU"
+ },
  "kg": {
   "genres": {
    "House": 1,
@@ -7959,6 +11552,14 @@
   "n": 3,
   "name": "KI/KI"
  },
+ "kidoo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kidoo"
+ },
  "kili": {
   "genres": {
    "Hardstyle": 1
@@ -7975,10 +11576,11 @@
  },
  "kim-petras": {
   "genres": {
+   "Hard Techno": 1,
    "House": 1,
-   "Techno": 1
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Kim Petras"
  },
  "kimmic": {
@@ -8004,12 +11606,19 @@
   "n": 1,
   "name": "KiNK"
  },
- "kirsty": {
+ "kirsten-at-the-disco": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "House": 1
   },
   "n": 1,
+  "name": "Kirsten At The Disco"
+ },
+ "kirsty": {
+  "genres": {
+   "Hard Techno": 4,
+   "Techno": 4
+  },
+  "n": 4,
   "name": "Kirsty"
  },
  "klangkuenstler": {
@@ -8031,6 +11640,14 @@
   },
   "n": 1,
   "name": "Klanglos"
+ },
+ "klangwart": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Klangwart"
  },
  "klin-klop": {
   "genres": {
@@ -8067,6 +11684,13 @@
   },
   "n": 2,
   "name": "Kloud"
+ },
+ "klute": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Klute"
  },
  "kmru": {
   "genres": {
@@ -8117,9 +11741,9 @@
  "kode9": {
   "genres": {
    "House": 2,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Kode9"
  },
  "kofu": {
@@ -8129,6 +11753,15 @@
   },
   "n": 1,
   "name": "Kofu"
+ },
+ "kokko": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kokko"
  },
  "kokoprisci": {
   "genres": {
@@ -8157,6 +11790,15 @@
   },
   "n": 3,
   "name": "Kolter"
+ },
+ "konec": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Konec"
  },
  "konstantin-sibold": {
   "genres": {
@@ -8219,6 +11861,15 @@
   "n": 1,
   "name": "Koven"
  },
+ "koxbox": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Koxbox"
+ },
  "kozlov": {
   "genres": {
    "Hard Techno": 1
@@ -8233,6 +11884,14 @@
   },
   "n": 1,
   "name": "Krak In Dub"
+ },
+ "krawall-julz": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Krawall Julz"
  },
  "kream": {
   "genres": {
@@ -8277,14 +11936,59 @@
   "n": 6,
   "name": "KRUELTY"
  },
+ "krysko": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Krysko"
+ },
+ "krystal-klear": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Krystal Klear"
+ },
+ "ksiezyc": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Księżyc"
+ },
+ "kso12": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "KSO12"
+ },
+ "kuche-80": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Küche 80"
+ },
  "kuko": {
   "genres": {
-   "Hard Techno": 3,
+   "Hard Techno": 4,
    "House": 1,
-   "Techno": 3
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "Kuko"
+ },
+ "kushtekk": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "KushTekK"
  },
  "kuss": {
   "genres": {
@@ -8329,6 +12033,15 @@
   "n": 1,
   "name": "Kygo"
  },
+ "kyla-vejas": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Kyla Vėjas"
+ },
  "kyle-cortis": {
   "genres": {
    "Acid Techno": 1,
@@ -8342,11 +12055,27 @@
  "kyle-starkey": {
   "genres": {
    "EDM": 1,
+   "Hard Techno": 1,
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Kyle Starkey"
+ },
+ "kyrist": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Kyrist"
+ },
+ "l-a-sagne": {
+  "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Kyle Starkey"
+  "name": "L.A. SAGNE"
  },
  "l-art-cene": {
   "genres": {
@@ -8355,6 +12084,44 @@
   },
   "n": 1,
   "name": "l'Art Cène"
+ },
+ "l-jacobs": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "L. Jacobs"
+ },
+ "l-ra": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "LØRA"
+ },
+ "l-rain": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "L'Rain"
+ },
+ "l-side": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "L-Side"
+ },
+ "l-xir": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "L-Xir"
  },
  "la-bringue": {
   "genres": {
@@ -8405,6 +12172,23 @@
   "n": 1,
   "name": "LaDetail"
  },
+ "lady-dammage": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Lady Dammage"
+ },
+ "lady-shaka": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lady Shaka"
+ },
  "lady-waks": {
   "genres": {
    "Drum & Bass": 1,
@@ -8447,6 +12231,38 @@
   "n": 5,
   "name": "Lane 8"
  },
+ "larry-de-kat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Larry De Kat"
+ },
+ "last-life": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Last Life"
+ },
+ "laszlo-umbreit": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Laszlo Umbreit"
+ },
+ "lau-ra": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "lau.ra"
+ },
  "lauff": {
   "genres": {
    "Drum & Bass": 1,
@@ -8457,12 +12273,29 @@
   "n": 1,
   "name": "Läuff"
  },
+ "laughing-buddha": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Laughing Buddha"
+ },
  "laura-meester": {
   "genres": {
    "House": 1
   },
   "n": 1,
   "name": "Laura Meester"
+ },
+ "laura-not": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Laura Not"
  },
  "laura-van-dam": {
   "genres": {
@@ -8517,6 +12350,33 @@
   "n": 1,
   "name": "Law & Haktion"
  },
+ "laze": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "LAZE"
+ },
+ "lazine": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lazine"
+ },
+ "lb-aka-labat": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "LB aka Labat"
+ },
  "lb-honne": {
   "genres": {
    "House": 1,
@@ -8533,6 +12393,14 @@
   "n": 1,
   "name": "Le Motel & Magugu"
  },
+ "le-mysterieux-orchestre-electronique-de-paris": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Le Mystérieux Orchestre Électronique de Paris"
+ },
  "le-shuuk": {
   "genres": {
    "EDM": 1,
@@ -8541,6 +12409,15 @@
   },
   "n": 1,
   "name": "le Shuuk"
+ },
+ "le-son-vert": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Le Son Vert"
  },
  "lee-burridge": {
   "genres": {
@@ -8552,10 +12429,10 @@
  "lee-gamble": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Lee Gamble"
  },
  "lee-parkinson": {
@@ -8573,6 +12450,15 @@
   },
   "n": 1,
   "name": "Leftfield"
+ },
+ "legit-girl-dj": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "LEGIT GIRL DJ"
  },
  "leila-t": {
   "genres": {
@@ -8636,6 +12522,14 @@
   "n": 2,
   "name": "Leon Vynehall"
  },
+ "les-marquises": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Les Marquises"
+ },
  "les-potes-au-feu": {
   "genres": {
    "Drum & Bass": 1,
@@ -8643,6 +12537,14 @@
   },
   "n": 1,
   "name": "Les Potes au Feu"
+ },
+ "les-vulves-assassines": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Les Vulves Assassines"
  },
  "lessss": {
   "genres": {
@@ -8659,6 +12561,13 @@
   },
   "n": 1,
   "name": "Let 3"
+ },
+ "level-2": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Level 2"
  },
  "levenkhan": {
   "genres": {
@@ -8682,6 +12591,30 @@
   "n": 1,
   "name": "Lewis OfMan"
  },
+ "lexii": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lexii"
+ },
+ "lexlay": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lexlay"
+ },
+ "lexxy-chainz": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Lexxy Chainz"
+ },
  "leyo": {
   "genres": {
    "EDM": 1,
@@ -8703,12 +12636,19 @@
   "n": 1,
   "name": "Lez"
  },
+ "liars": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Liars"
+ },
  "lieks": {
   "genres": {
-   "Hard Techno": 3,
-   "Techno": 3
+   "Hard Techno": 4,
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "LIEKS"
  },
  "lil-kleine": {
@@ -8732,6 +12672,14 @@
   },
   "n": 3,
   "name": "Lil Texas"
+ },
+ "lillevan": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lillevan"
  },
  "lilly-palmer": {
   "genres": {
@@ -8781,12 +12729,20 @@
  "lisa-korver": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 1,
+   "Hard Techno": 2,
    "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Lisa Korver"
+ },
+ "little-gay-brother": {
+  "genres": {
+   "Hard Techno": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Lisa Korver"
+  "name": "Little Gay Brother"
  },
  "little-simz": {
   "genres": {
@@ -8811,6 +12767,13 @@
   },
   "n": 1,
   "name": "Lobster"
+ },
+ "locky": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Locky"
  },
  "loco-dice": {
   "genres": {
@@ -8843,6 +12806,14 @@
   "n": 1,
   "name": "Loko"
  },
+ "lola-cerise": {
+  "genres": {
+   "Hard Techno": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Lola Cerise"
+ },
  "lola-palmer": {
   "genres": {
    "House": 1,
@@ -8850,6 +12821,36 @@
   },
   "n": 1,
   "name": "Lola Palmer"
+ },
+ "loma-doom": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Loma Doom"
+ },
+ "london-elektricity": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "London Elektricity"
+ },
+ "lorenzo-senni": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lorenzo Senni"
+ },
+ "lori": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "LORI"
  },
  "loscil": {
   "genres": {
@@ -8877,6 +12878,14 @@
   "n": 2,
   "name": "Lost Frequencies"
  },
+ "lou-point-lou": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lou Point Lou"
+ },
  "louie-vega": {
   "genres": {
    "House": 1,
@@ -8899,12 +12908,34 @@
   "n": 1,
   "name": "Love Transmission"
  },
+ "low-end-activist": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Low End Activist"
+ },
+ "low-jack": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Low Jack"
+ },
  "low-r": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Low:r"
+ },
+ "lowqui": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Lowqui"
  },
  "lowriderz": {
   "genres": {
@@ -8914,6 +12945,20 @@
   },
   "n": 1,
   "name": "Lowriderz"
+ },
+ "loxy": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Loxy"
+ },
+ "lsb": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "LSB"
  },
  "lsdxoxo": {
   "genres": {
@@ -8956,6 +13001,23 @@
   "n": 1,
   "name": "Luca Hemmers"
  },
+ "luche": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Luche"
+ },
+ "luci-jacuzzi": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Luci Jacuzzi"
+ },
  "luciano": {
   "genres": {
    "Drum & Bass": 1,
@@ -8990,6 +13052,24 @@
   "n": 1,
   "name": "Luis Ripa"
  },
+ "lukas-persyn": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lukas Persyn"
+ },
+ "lukas-truniger-bruce-yoder": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lukas Truniger & Bruce Yoder"
+ },
  "luke-alessi": {
   "genres": {
    "House": 1,
@@ -8998,6 +13078,13 @@
   "n": 1,
   "name": "Luke Alessi"
  },
+ "luke-dean": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Luke Dean"
+ },
  "luke-slater": {
   "genres": {
    "House": 1,
@@ -9005,6 +13092,21 @@
   },
   "n": 1,
   "name": "Luke Slater"
+ },
+ "luke-una": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Luke Una"
+ },
+ "luna": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Luna"
  },
  "lunaa": {
   "genres": {
@@ -9040,6 +13142,14 @@
   "n": 3,
   "name": "Luneris"
  },
+ "lupini": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lupini"
+ },
  "lusterclub": {
   "genres": {
    "House": 1,
@@ -9057,6 +13167,22 @@
   "n": 2,
   "name": "Luuk Van Dijk"
  },
+ "lvcifer": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lvcifer"
+ },
+ "lyraaa": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Lyraaa"
+ },
  "m-deozen": {
   "genres": {
    "Hardcore": 1,
@@ -9073,6 +13199,30 @@
   "n": 1,
   "name": "M-High"
  },
+ "ma-ri": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "MA RI"
+ },
+ "maayan-nidam": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Maayan Nidam"
+ },
+ "mabe-fratti": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mabe Fratti"
+ },
  "maceo-plex": {
   "genres": {
    "Hard Techno": 2,
@@ -9082,14 +13232,38 @@
   "n": 4,
   "name": "Maceo Plex"
  },
- "mad-dog": {
+ "machine-girl": {
   "genres": {
+   "Drum & Bass": 1,
    "Hard Techno": 1,
-   "Hardcore": 3,
-   "Hardstyle": 3,
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Machine Girl"
+ },
+ "macio-moretti": {
+  "genres": {
    "Techno": 1
   },
-  "n": 4,
+  "n": 1,
+  "name": "Macio Moretti"
+ },
+ "mad-again": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Mad.Again"
+ },
+ "mad-dog": {
+  "genres": {
+   "Hard Techno": 2,
+   "Hardcore": 4,
+   "Hardstyle": 4,
+   "Techno": 1
+  },
+  "n": 5,
   "name": "Mad Dog"
  },
  "mad-kate": {
@@ -9099,6 +13273,13 @@
   },
   "n": 1,
   "name": "Mad Kate"
+ },
+ "mad-vibes": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Mad Vibes"
  },
  "madben": {
   "genres": {
@@ -9134,6 +13315,14 @@
   "n": 1,
   "name": "Madness"
  },
+ "madteo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Madteo"
+ },
  "maduk": {
   "genres": {
    "Drum & Bass": 1
@@ -9154,6 +13343,38 @@
   },
   "n": 1,
   "name": "Maëlle"
+ },
+ "magnetude": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Magnetude"
+ },
+ "magnolia": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Magnolia"
+ },
+ "mahony": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mahony"
+ },
+ "maika-garnica": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Maika Garnica"
  },
  "maike-depas": {
   "genres": {
@@ -9187,6 +13408,30 @@
   },
   "n": 1,
   "name": "Makèz"
+ },
+ "makla": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Makla"
+ },
+ "makoto": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Makoto"
+ },
+ "maks": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "MAKS"
  },
  "mala": {
   "genres": {
@@ -9239,6 +13484,15 @@
   "n": 1,
   "name": "MALLA"
  },
+ "mallki": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mallki"
+ },
  "malou": {
   "genres": {
    "House": 1,
@@ -9246,6 +13500,23 @@
   },
   "n": 1,
   "name": "Malou"
+ },
+ "malu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Malu"
+ },
+ "mamakkat": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mamakkat"
  },
  "manchek": {
   "genres": {
@@ -9255,6 +13526,14 @@
   },
   "n": 1,
   "name": "Manchek"
+ },
+ "manda-moor": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Manda Moor"
  },
  "mandragora": {
   "genres": {
@@ -9266,6 +13545,43 @@
   "n": 1,
   "name": "Mandragora"
  },
+ "mandy": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mandy"
+ },
+ "mandy-indiana": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mandy, Indiana"
+ },
+ "mankiyan": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mankiyan"
+ },
+ "mantra": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Mantra"
+ },
+ "manu-sanchez": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Manu Sánchez"
+ },
  "manudigital": {
   "genres": {
    "Psytrance": 1,
@@ -9274,12 +13590,29 @@
   "n": 1,
   "name": "Manudigital"
  },
+ "manuka-honey": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Manuka Honey"
+ },
  "maoh": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Maōh"
+ },
+ "maqsum": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Maqsum"
  },
  "mar-t": {
   "genres": {
@@ -9300,6 +13633,14 @@
   "n": 3,
   "name": "Mara"
  },
+ "marathon-man": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marathon Man"
+ },
  "marc-acardipane": {
   "genres": {
    "Hard Techno": 1,
@@ -9318,12 +13659,20 @@
   "n": 1,
   "name": "Marc Jerome"
  },
- "marc-zocher": {
+ "marc-matter": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Marc Matter"
+ },
+ "marc-zocher": {
+  "genres": {
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Marc Zocher"
  },
  "marcel-dettmann": {
@@ -9342,6 +13691,15 @@
   "n": 2,
   "name": "Marcellus Pittman"
  },
+ "marci": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Marci"
+ },
  "marco-carola": {
   "genres": {
    "Hard Techno": 2,
@@ -9350,6 +13708,14 @@
   },
   "n": 3,
   "name": "Marco Carola"
+ },
+ "marco-faraone": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marco Faraone"
  },
  "marco-marino": {
   "genres": {
@@ -9368,6 +13734,13 @@
   },
   "n": 1,
   "name": "Marco Zaffarano"
+ },
+ "marek-pospieszalski": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marek Pospieszalski"
  },
  "marhu": {
   "genres": {
@@ -9428,6 +13801,20 @@
   "n": 2,
   "name": "Marie Vaunt"
  },
+ "marina-dzukijev": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marina Dżukijev"
+ },
+ "marina-herlop": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marina Herlop"
+ },
  "mark-broom": {
   "genres": {
    "House": 1,
@@ -9444,13 +13831,28 @@
   "n": 1,
   "name": "Mark Hawkins"
  },
+ "mark-system": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Mark System"
+ },
+ "mark-william-lewis": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mark William Lewis"
+ },
  "mark-with-a-k": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 1,
-   "Hardstyle": 1
+   "Hard Techno": 2,
+   "Hardstyle": 1,
+   "Techno": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Mark With A K"
  },
  "markus-schulz": {
@@ -9531,6 +13933,14 @@
   "n": 1,
   "name": "Marsolo"
  },
+ "marta": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Marta"
+ },
  "marti-cros": {
   "genres": {
    "House": 1,
@@ -9555,6 +13965,14 @@
   },
   "n": 1,
   "name": "Martin Oelz"
+ },
+ "martin-rev": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Martin Rev"
  },
  "martina-bertoni": {
   "genres": {
@@ -9590,6 +14008,13 @@
   },
   "n": 1,
   "name": "Masalo"
+ },
+ "mason-cooper": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Mason Cooper"
  },
  "masta-ace": {
   "genres": {
@@ -9640,6 +14065,14 @@
   "n": 4,
   "name": "Mathew Jonson"
  },
+ "mathis-akengin": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mathis Akengin"
+ },
  "matrakk": {
   "genres": {
    "Drum & Bass": 1,
@@ -9658,6 +14091,14 @@
   },
   "n": 1,
   "name": "Matt View & Hannelotta"
+ },
+ "matteo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Matteo"
  },
  "matthias-geerts": {
   "genres": {
@@ -9689,20 +14130,46 @@
   "n": 2,
   "name": "Maudux"
  },
+ "mauro": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mauro"
+ },
+ "max-bering": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Max Bering"
+ },
+ "max-castle": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Max Castle"
+ },
  "max-cooper": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 4,
-   "Techno": 6
+   "House": 5,
+   "Techno": 7
   },
-  "n": 6,
+  "n": 7,
   "name": "Max Cooper"
  },
  "max-dean": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Max Dean"
  },
  "max-finney": {
@@ -9720,6 +14187,15 @@
   },
   "n": 1,
   "name": "Max Wagner"
+ },
+ "maxcherry": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Maxcherry"
  },
  "maxi-mo": {
   "genres": {
@@ -9746,12 +14222,29 @@
   "n": 1,
   "name": "Maz"
  },
+ "mbp": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "MBP"
+ },
  "mc-alee": {
   "genres": {
    "Hardcore": 1
   },
   "n": 1,
   "name": "MC Alee"
+ },
+ "mc-barricade": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "MC Barricade"
  },
  "mc-boogshe": {
   "genres": {
@@ -9763,10 +14256,11 @@
  "mc-chucky": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 1,
-   "Hardstyle": 1
+   "Hard Techno": 2,
+   "Hardstyle": 1,
+   "Techno": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "MC Chucky"
  },
  "mc-dl": {
@@ -9775,6 +14269,14 @@
   },
   "n": 1,
   "name": "MC DL"
+ },
+ "mc-dv8": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "MC DV8"
  },
  "mc-kaman": {
   "genres": {
@@ -9812,6 +14314,14 @@
   },
   "n": 1,
   "name": "MC Novy"
+ },
+ "mc-party-never-ends": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "MC Party Never Ends"
  },
  "mc-spot": {
   "genres": {
@@ -9896,6 +14406,15 @@
   "n": 1,
   "name": "Meera"
  },
+ "megalopsy": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Megalopsy"
+ },
  "megane-brescich": {
   "genres": {
    "Techno": 1
@@ -9912,6 +14431,14 @@
   },
   "n": 1,
   "name": "Melanie C"
+ },
+ "melanie-ribbe": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Melanie Ribbe"
  },
  "mella-dee": {
   "genres": {
@@ -9935,6 +14462,21 @@
   "n": 2,
   "name": "Melvo Baptiste"
  },
+ "meme-gold": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Meme Gold"
+ },
+ "memotone": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Memotone"
+ },
  "menesix": {
   "genres": {
    "House": 1
@@ -9952,12 +14494,36 @@
   "n": 1,
   "name": "MËSTIZA"
  },
+ "metok": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Metok"
+ },
  "metrik": {
   "genres": {
    "Drum & Bass": 2
   },
   "n": 2,
   "name": "Metrik"
+ },
+ "metrodome": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Metrodome"
+ },
+ "meyhartt": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Meyhartt"
  },
  "mia-mia": {
   "genres": {
@@ -9966,6 +14532,13 @@
   },
   "n": 1,
   "name": "Mia Mia"
+ },
+ "mica-levi": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mica Levi"
  },
  "michael-amani": {
   "genres": {
@@ -9995,6 +14568,14 @@
   "n": 1,
   "name": "Michael Cores"
  },
+ "michaela-collide": {
+  "genres": {
+   "Acid Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Michaela (Collide)"
+ },
  "michel-de-hey": {
   "genres": {
    "House": 2,
@@ -10012,6 +14593,14 @@
   "n": 1,
   "name": "Midland"
  },
+ "midori-hirano": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Midori Hirano"
+ },
  "mietze-conte": {
   "genres": {
    "House": 1,
@@ -10019,6 +14608,22 @@
   },
   "n": 1,
   "name": "Mietze Conte"
+ },
+ "mihigh": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mihigh"
+ },
+ "mihnea-rog": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mihnea Rog"
  },
  "mija": {
   "genres": {
@@ -10038,11 +14643,20 @@
  },
  "mike-servito": {
   "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
    "House": 1,
-   "Techno": 1
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Mike Servito"
+ },
+ "mike-woods": {
+  "genres": {
+   "House": 1
   },
   "n": 1,
-  "name": "Mike Servito"
+  "name": "Mike Woods"
  },
  "mikee": {
   "genres": {
@@ -10058,13 +14672,28 @@
   "n": 1,
   "name": "Mila Haj Kasem"
  },
- "milion": {
+ "milan-w": {
   "genres": {
-   "Hard Techno": 1,
-   "House": 1
+   "Techno": 1
   },
   "n": 1,
+  "name": "Milan W."
+ },
+ "milion": {
+  "genres": {
+   "Hard Techno": 2,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 2,
   "name": "Milion"
+ },
+ "milkweed": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Milkweed"
  },
  "millad": {
   "genres": {
@@ -10073,6 +14702,31 @@
   },
   "n": 1,
   "name": "Millad"
+ },
+ "milly": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Milly"
+ },
+ "mimi-garcia": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mimi Garcia"
+ },
+ "min8": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Min8"
  },
  "mind-against": {
   "genres": {
@@ -10101,12 +14755,27 @@
   "n": 1,
   "name": "Mind Dimension"
  },
+ "mindstate": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Mindstate"
+ },
  "minna": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "MiNNA"
+ },
+ "minus-militia": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Minus Militia"
  },
  "mira-mark": {
   "genres": {
@@ -10117,22 +14786,23 @@
  },
  "mish": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Mish"
  },
  "miss-k8": {
   "genres": {
    "EDM": 1,
-   "Hard Techno": 2,
-   "Hardcore": 5,
-   "Hardstyle": 5,
+   "Hard Techno": 3,
+   "Hardcore": 6,
+   "Hardstyle": 6,
    "House": 1,
    "Techno": 2
   },
-  "n": 5,
+  "n": 6,
   "name": "Miss K8"
  },
  "miss-monique": {
@@ -10156,12 +14826,20 @@
   "n": 1,
   "name": "Missnoa"
  },
- "mit": {
+ "mistofz": {
   "genres": {
-   "Hard Techno": 1,
-   "Techno": 1
+   "Hardcore": 1,
+   "Hardstyle": 1
   },
   "n": 1,
+  "name": "Mistofz"
+ },
+ "mit": {
+  "genres": {
+   "Hard Techno": 2,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "MIT"
  },
  "mita-gami": {
@@ -10172,6 +14850,13 @@
   "n": 1,
   "name": "Mita Gami"
  },
+ "mither": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Mither"
+ },
  "mix-master-morris": {
   "genres": {
    "House": 1,
@@ -10179,6 +14864,13 @@
   },
   "n": 1,
   "name": "Mix Master Morris"
+ },
+ "mix-stress": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Mix-Stress"
  },
  "miyagi": {
   "genres": {
@@ -10190,11 +14882,20 @@
  },
  "mk": {
   "genres": {
-   "EDM": 2,
-   "House": 2
+   "EDM": 3,
+   "House": 3,
+   "Techno": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "MK"
+ },
+ "ml-buch": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "ML Buch"
  },
  "mo-disko": {
   "genres": {
@@ -10228,6 +14929,14 @@
   "n": 1,
   "name": "Mochakk"
  },
+ "modern-guilt": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Modern Guilt"
+ },
  "modeselektor": {
   "genres": {
    "Drum & Bass": 1,
@@ -10243,6 +14952,38 @@
   },
   "n": 1,
   "name": "Modestep"
+ },
+ "mogador": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mogador"
+ },
+ "moldetek": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Moldetek"
+ },
+ "molecular": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Molecular"
+ },
+ "moli-del-tro": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Moli Del Tro"
  },
  "molly-sanden": {
   "genres": {
@@ -10311,6 +15052,21 @@
   "n": 5,
   "name": "Moodymann"
  },
+ "moose": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Moose"
+ },
+ "mor-elian": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mor Elian"
+ },
  "morgan-seatree": {
   "genres": {
    "EDM": 1,
@@ -10327,6 +15083,14 @@
   },
   "n": 1,
   "name": "Moritz Worpenberg"
+ },
+ "morn": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Morn"
  },
  "morten": {
   "genres": {
@@ -10371,6 +15135,22 @@
   "n": 1,
   "name": "Mota"
  },
+ "mother": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mother"
+ },
+ "mount-palomar": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mount Palomar"
+ },
  "mousse-t": {
   "genres": {
    "House": 1
@@ -10385,6 +15165,15 @@
   "n": 1,
   "name": "Mozey"
  },
+ "mpsi": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "MPSI"
+ },
  "mr-bassmeister": {
   "genres": {
    "Hardcore": 1,
@@ -10392,6 +15181,14 @@
   },
   "n": 1,
   "name": "Mr. Bassmeister"
+ },
+ "mr-clarinet": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mr Clarinet"
  },
  "mr-scruff": {
   "genres": {
@@ -10424,6 +15221,23 @@
   "n": 1,
   "name": "Multiplex"
  },
+ "mums-pora-sampano": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Mums pora šampano"
+ },
+ "munda": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Munda"
+ },
  "muovipussi": {
   "genres": {
    "House": 1,
@@ -10439,6 +15253,14 @@
   },
   "n": 1,
   "name": "Musclecars"
+ },
+ "mutilator": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Mutilator"
  },
  "muzz": {
   "genres": {
@@ -10458,6 +15280,22 @@
   },
   "n": 1,
   "name": "mV Funk"
+ },
+ "mxgn": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "MXGN"
+ },
+ "my-first-time": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "My First Time"
  },
  "mykana": {
   "genres": {
@@ -10489,6 +15327,14 @@
   "n": 1,
   "name": "N~E~O"
  },
+ "n-name": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "NØNaMe"
+ },
  "n-rbak": {
   "genres": {
    "Hard Techno": 1,
@@ -10506,6 +15352,29 @@
   "n": 2,
   "name": "N-Vitral"
  },
+ "nadar-ensemble": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nadar Ensemble"
+ },
+ "nadel-r": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nadelør"
+ },
+ "nafe-smallz": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Nafe Smallz"
+ },
  "naft": {
   "genres": {
    "House": 1,
@@ -10513,6 +15382,14 @@
   },
   "n": 1,
   "name": "NAFT"
+ },
+ "nana": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nana"
  },
  "naomi": {
   "genres": {
@@ -10522,12 +15399,27 @@
   "n": 1,
   "name": "Naomi"
  },
+ "napes": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Napes"
+ },
  "narciss": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Narciss"
+ },
+ "nashwa": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nashwa"
  },
  "nastia": {
   "genres": {
@@ -10537,12 +15429,28 @@
   "n": 2,
   "name": "Nastia"
  },
+ "natalia-panzer": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Natalia Panzer"
+ },
  "natasha-diggs": {
   "genres": {
    "House": 1
   },
   "n": 1,
   "name": "Natasha Diggs"
+ },
+ "natasha-pirard": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Natasha Pirard"
  },
  "nathan-fake": {
   "genres": {
@@ -10591,6 +15499,15 @@
   "n": 1,
   "name": "nd_baumecker"
  },
+ "ne2l": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "NE2L"
+ },
  "ned-bennett": {
   "genres": {
    "Hard Techno": 1,
@@ -10598,6 +15515,13 @@
   },
   "n": 1,
   "name": "Ned Bennett"
+ },
+ "need-for-mirrors": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Need For Mirrors"
  },
  "neelix": {
   "genres": {
@@ -10609,13 +15533,13 @@
  },
  "negitiv": {
   "genres": {
-   "Hard Techno": 2,
+   "Hard Techno": 3,
    "Hardcore": 1,
    "House": 1,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 3,
-  "name": "NEGITIV"
+  "n": 4,
+  "name": "Negitiv"
  },
  "neil-landstrumm": {
   "genres": {
@@ -10644,6 +15568,15 @@
   },
   "n": 3,
   "name": "Neophyte"
+ },
+ "nerijus-peciura": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nerijus Pečiūra"
  },
  "nervo": {
   "genres": {
@@ -10675,6 +15608,15 @@
   "n": 3,
   "name": "Netsky"
  },
+ "neurotribe": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Neurotribe"
+ },
  "newtone": {
   "genres": {
    "Hard Techno": 1,
@@ -10682,6 +15624,15 @@
   },
   "n": 1,
   "name": "NewTone"
+ },
+ "nextdimensional": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "nextdimensional"
  },
  "nghtmre": {
   "genres": {
@@ -10692,6 +15643,15 @@
   },
   "n": 2,
   "name": "NGHTMRE"
+ },
+ "nhm-labn": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "NHM & LABN"
  },
  "nhu": {
   "genres": {
@@ -10788,6 +15748,22 @@
   "n": 5,
   "name": "Nico Moreno"
  },
+ "nicola-cruz": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nicola Cruz"
+ },
+ "nicola-lancerotti": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nicola Lancerotti"
+ },
  "nicolas-cuer": {
   "genres": {
    "EDM": 1,
@@ -10847,9 +15823,9 @@
  "nikki-nair": {
   "genres": {
    "House": 1,
-   "Techno": 1
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Nikki Nair"
  },
  "niklas-dee": {
@@ -10862,12 +15838,13 @@
  },
  "nikolina": {
   "genres": {
-   "Hard Techno": 6,
-   "Hardcore": 1,
+   "Hard Techno": 8,
+   "Hardcore": 2,
+   "Hardstyle": 1,
    "House": 2,
-   "Techno": 5
+   "Techno": 6
   },
-  "n": 6,
+  "n": 8,
   "name": "Nikolina"
  },
  "nina-kraviz": {
@@ -10903,6 +15880,31 @@
   },
   "n": 1,
   "name": "NMSS"
+ },
+ "noemi-buchi": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Noémi Büchi"
+ },
+ "noise-of-angels": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Noise of Angels"
+ },
+ "noisecontrollers": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Noisecontrollers"
  },
  "noiseflow": {
   "genres": {
@@ -10961,12 +15963,20 @@
   "n": 1,
   "name": "Nordiks"
  },
- "nosedrip": {
+ "nosaj-thing": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Nosaj Thing"
+ },
+ "nosedrip": {
+  "genres": {
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Nosedrip"
  },
  "nosferatu": {
@@ -10975,6 +15985,13 @@
   },
   "n": 1,
   "name": "Nosferatu"
+ },
+ "note": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Note"
  },
  "notion": {
   "genres": {
@@ -10990,6 +16007,22 @@
   },
   "n": 1,
   "name": "Notmytype"
+ },
+ "noum": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Noum"
+ },
+ "nous-etions-une-armee": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "nous étions une armée"
  },
  "nova": {
   "genres": {
@@ -11030,6 +16063,22 @@
   "n": 1,
   "name": "Noxa"
  },
+ "nrck": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nrck"
+ },
+ "ntn": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "NTN"
+ },
  "nto": {
   "genres": {
    "Hard Techno": 2,
@@ -11042,17 +16091,50 @@
  },
  "nu-tone": {
   "genres": {
-   "Drum & Bass": 1
+   "Drum & Bass": 2
+  },
+  "n": 2,
+  "name": "Nu:Tone"
+ },
+ "nu-zau": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "Nu:Tone"
+  "name": "Nu Zau"
+ },
+ "nuit-claire": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nuit Claire"
+ },
+ "nurse-erica": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Nurse Erica"
+ },
+ "nvns": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "NVNS"
  },
  "nyra": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Nyra"
  },
  "o-b-i": {
@@ -11062,6 +16144,22 @@
   },
   "n": 1,
   "name": "O.B.I."
+ },
+ "o-doyle": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "O'Doyle"
+ },
+ "o-ghettao": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "O Ghettão"
  },
  "obs": {
   "genres": {
@@ -11098,6 +16196,15 @@
   "n": 4,
   "name": "Octo Octa"
  },
+ "oden-fatzo": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Oden & Fatzo"
+ },
  "odyssee": {
   "genres": {
    "Drum & Bass": 1
@@ -11112,6 +16219,14 @@
   },
   "n": 1,
   "name": "Ofenbach"
+ },
+ "offergeld": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Offergeld"
  },
  "ogalla": {
   "genres": {
@@ -11130,11 +16245,12 @@
  },
  "oguz": {
   "genres": {
-   "Hard Techno": 1,
+   "Hard Techno": 2,
    "Hardcore": 1,
-   "Hardstyle": 1
+   "Hardstyle": 1,
+   "Techno": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "OGUZ"
  },
  "ojoo": {
@@ -11235,10 +16351,10 @@
    "EDM": 2,
    "Hard Techno": 1,
    "Hardstyle": 1,
-   "House": 3,
-   "Techno": 1
+   "House": 4,
+   "Techno": 2
   },
-  "n": 3,
+  "n": 4,
   "name": "Oliver Magenta"
  },
  "olivia-lensen": {
@@ -11259,6 +16375,13 @@
   "n": 1,
   "name": "Omaks"
  },
+ "omar": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Omar+"
+ },
  "omiki": {
   "genres": {
    "EDM": 1,
@@ -11276,6 +16399,13 @@
   "n": 1,
   "name": "Omnya"
  },
+ "one-leg-one-eye": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "One Leg One Eye"
+ },
  "one87": {
   "genres": {
    "Drum & Bass": 1
@@ -11285,12 +16415,21 @@
  },
  "onlynumbers": {
   "genres": {
-   "Hard Techno": 3,
+   "Hard Techno": 4,
    "House": 1,
-   "Techno": 3
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "Onlynumbers"
+ },
+ "oonagh-haines": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Oonagh Haines"
  },
  "ophidian": {
   "genres": {
@@ -11300,6 +16439,21 @@
   },
   "n": 2,
   "name": "Ophidian"
+ },
+ "opla": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Opla"
+ },
+ "opo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "opo"
  },
  "optimo-espacio": {
   "genres": {
@@ -11326,10 +16480,10 @@
  },
  "ornella": {
   "genres": {
-   "Hard Techno": 3,
-   "Techno": 3
+   "Hard Techno": 4,
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "Ornella"
  },
  "oscar-mulero": {
@@ -11393,6 +16547,14 @@
   "n": 8,
   "name": "Overmono"
  },
+ "owen-purdie": {
+  "genres": {
+   "Acid Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Owen Purdie"
+ },
  "oxia": {
   "genres": {
    "House": 1,
@@ -11407,6 +16569,13 @@
   },
   "n": 1,
   "name": "Ozan"
+ },
+ "ozzie-guven": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Ozzie Guven"
  },
  "p-o-u": {
   "genres": {
@@ -11434,10 +16603,10 @@
  },
  "paco-osuna": {
   "genres": {
-   "House": 3,
-   "Techno": 3
+   "House": 4,
+   "Techno": 4
   },
-  "n": 3,
+  "n": 4,
   "name": "Paco Osuna"
  },
  "pact-joachim-pastor-joris-delacroix-teho": {
@@ -11522,6 +16691,23 @@
   "n": 1,
   "name": "Panteros666"
  },
+ "papa-nugs": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Papa Nugs"
+ },
+ "paper-hats": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Paper Hats"
+ },
  "paquita-gordon": {
   "genres": {
    "House": 1,
@@ -11529,6 +16715,15 @@
   },
   "n": 1,
   "name": "Paquita Gordon"
+ },
+ "par-sek": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Par|Sek"
  },
  "paradigm": {
   "genres": {
@@ -11538,6 +16733,13 @@
   },
   "n": 1,
   "name": "Paradigm"
+ },
+ "paradox": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Paradox"
  },
  "paralich": {
   "genres": {
@@ -11609,13 +16811,39 @@
   "n": 3,
   "name": "Pat B"
  },
- "patrick-mason": {
+ "pat-orburn": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Pat Orburn"
+ },
+ "pat-thomas": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pat Thomas"
+ },
+ "patrick-mason": {
+  "genres": {
+   "Hard Techno": 1,
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
   "name": "Patrick Mason"
+ },
+ "patrick-topping": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Patrick Topping"
  },
  "paul-elstak": {
   "genres": {
@@ -11624,6 +16852,14 @@
   },
   "n": 3,
   "name": "Paul Elstak"
+ },
+ "paul-jebanasam": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Paul Jebanasam"
  },
  "paul-kalkbrenner": {
   "genres": {
@@ -11649,12 +16885,28 @@
   "n": 1,
   "name": "Paul Oakenfold"
  },
+ "paul-seul-krampf": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Paul Seul & Krampf"
+ },
  "paul-sg": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Paul SG"
+ },
+ "paul-t-edward-oberon": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Paul T & Edward Oberon"
  },
  "paul-van-dyk": {
   "genres": {
@@ -11667,6 +16919,15 @@
   "n": 5,
   "name": "Paul van Dyk"
  },
+ "paul-vivien": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Paul Vivien"
+ },
  "paul-wolf": {
   "genres": {
    "Drum & Bass": 1,
@@ -11677,6 +16938,15 @@
   },
   "n": 1,
   "name": "Paul Wolf"
+ },
+ "paula-tape": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Paula Tape"
  },
  "pawlowski": {
   "genres": {
@@ -11758,6 +17028,22 @@
   "n": 1,
   "name": "Perila"
  },
+ "persic": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Persic"
+ },
+ "peter-cat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Peter Cat"
+ },
  "peter-pan": {
   "genres": {
    "Techno": 1
@@ -11793,6 +17079,14 @@
   "n": 3,
   "name": "Petit Biscuit"
  },
+ "petre-inspirescu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Petre Inspirescu"
+ },
  "peven-everett": {
   "genres": {
    "Drum & Bass": 1,
@@ -11807,6 +17101,14 @@
   },
   "n": 2,
   "name": "Phace"
+ },
+ "phake": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Phake"
  },
  "phara": {
   "genres": {
@@ -11830,6 +17132,14 @@
   "n": 1,
   "name": "Phase Fatale"
  },
+ "phiesi-abzocka": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Phiesi & Abzocka"
+ },
  "philou-louzolo": {
   "genres": {
    "House": 1,
@@ -11848,10 +17158,10 @@
  "phuture-noize": {
   "genres": {
    "Hard Techno": 1,
-   "Hardcore": 2,
-   "Hardstyle": 2
+   "Hardcore": 3,
+   "Hardstyle": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Phuture Noize"
  },
  "pianeti-sintetici": {
@@ -11878,6 +17188,14 @@
   "n": 1,
   "name": "PIEM"
  },
+ "piezo": {
+  "genres": {
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Piezo"
+ },
  "pigminds": {
   "genres": {
    "Hardcore": 1,
@@ -11886,6 +17204,15 @@
   "n": 1,
   "name": "Pigminds"
  },
+ "pinaffo-pluvinage": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pinaffo & Pluvinage"
+ },
  "pink-concrete": {
   "genres": {
    "Hard Techno": 1,
@@ -11893,6 +17220,13 @@
   },
   "n": 1,
   "name": "Pink Concrete"
+ },
+ "pink-siifu": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pink Siifu"
  },
  "pinkpantheress": {
   "genres": {
@@ -11905,11 +17239,34 @@
  },
  "pinotello": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hard Techno": 2,
+   "Hardcore": 3,
+   "Hardstyle": 3
+  },
+  "n": 3,
+  "name": "Pinotello"
+ },
+ "piotr-kurek": {
+  "genres": {
+   "Techno": 1
   },
   "n": 1,
-  "name": "Pinotello"
+  "name": "Piotr Kurek"
+ },
+ "pirapus": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Pirapus"
+ },
+ "pittori-locali": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pittori Locali"
  },
  "pixie-dust": {
   "genres": {
@@ -11953,6 +17310,13 @@
   "n": 1,
   "name": "Plus2"
  },
+ "pola-bryson": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Pola & Bryson"
+ },
  "polar": {
   "genres": {
    "Hard Techno": 1,
@@ -11986,9 +17350,10 @@
  },
  "polygonia": {
   "genres": {
-   "Techno": 1
+   "House": 1,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Polygonia"
  },
  "pooja-b": {
@@ -12008,6 +17373,15 @@
   },
   "n": 1,
   "name": "Popof"
+ },
+ "poppi": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Poppi"
  },
  "povoa": {
   "genres": {
@@ -12032,6 +17406,21 @@
   },
   "n": 1,
   "name": "Prefix & Density"
+ },
+ "presha": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Presha"
+ },
+ "priku": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Priku"
  },
  "primate": {
   "genres": {
@@ -12075,6 +17464,14 @@
   "n": 1,
   "name": "Provence98"
  },
+ "proxima": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "PROXIMA"
+ },
  "prunk": {
   "genres": {
    "EDM": 1,
@@ -12083,6 +17480,15 @@
   },
   "n": 3,
   "name": "Prunk"
+ },
+ "psychaos": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Psychaos"
  },
  "ptass": {
   "genres": {
@@ -12110,6 +17516,14 @@
   "n": 1,
   "name": "Pulsedriver"
  },
+ "pumu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pumu"
+ },
  "purple-disco-machine": {
   "genres": {
    "EDM": 1,
@@ -12118,6 +17532,22 @@
   },
   "n": 3,
   "name": "Purple Disco Machine"
+ },
+ "pussypower-productions": {
+  "genres": {
+   "Acid Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Pussypower Productions"
+ },
+ "puts-marie-grand-geant": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Puts Marie & Grand Géant"
  },
  "pvc": {
   "genres": {
@@ -12158,6 +17588,21 @@
   "n": 1,
   "name": "Qwenty"
  },
+ "qzb": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "QZB"
+ },
+ "r-010": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "R-010"
+ },
  "r-dhad": {
   "genres": {
    "Hard Techno": 1,
@@ -12166,6 +17611,22 @@
   },
   "n": 3,
   "name": "Rødhåd"
+ },
+ "r-r": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "R&R"
+ },
+ "r3ckles": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "R3CKLES"
  },
  "r3hab": {
   "genres": {
@@ -12177,6 +17638,13 @@
   "n": 4,
   "name": "R3HAB"
  },
+ "rabit": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "RABIT"
+ },
  "radical-cute": {
   "genres": {
    "House": 1,
@@ -12187,13 +17655,28 @@
  },
  "radical-redemption": {
   "genres": {
-   "Hard Techno": 2,
-   "Hardcore": 3,
-   "Hardstyle": 3,
+   "Hard Techno": 3,
+   "Hardcore": 4,
+   "Hardstyle": 4,
    "Techno": 1
   },
-  "n": 3,
+  "n": 4,
   "name": "Radical Redemption"
+ },
+ "radio-hito": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Radio Hito"
+ },
+ "radwan-ghazi-moumneh": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Radwan Ghazi Moumneh"
  },
  "rafael-anton-irisarri": {
   "genres": {
@@ -12202,6 +17685,23 @@
   },
   "n": 1,
   "name": "Rafael Anton Irisarri"
+ },
+ "rafaela-mascaro": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rafaela Mascaro"
+ },
+ "raisa-k": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Raisa K"
  },
  "rampa": {
   "genres": {
@@ -12238,6 +17738,29 @@
   "n": 1,
   "name": "Ranger Trucco"
  },
+ "rap": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "RAP"
+ },
+ "raphael-loher": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Raphael Loher"
+ },
+ "raphael-roginski": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Raphael Rogiński"
+ },
  "raredub": {
   "genres": {
    "House": 1,
@@ -12253,6 +17776,38 @@
   },
   "n": 4,
   "name": "Raresh"
+ },
+ "rastaliens": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rastaliens"
+ },
+ "raul-pacheco": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Raúl Pacheco"
+ },
+ "ravedan": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "RaveDan"
+ },
+ "ravekoor": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ravekoor"
  },
  "rawb": {
   "genres": {
@@ -12286,6 +17841,13 @@
   "n": 1,
   "name": "RDØ"
  },
+ "re-ni": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "re:ni"
+ },
  "re-style": {
   "genres": {
    "Hardcore": 1
@@ -12296,21 +17858,21 @@
  "rebelion": {
   "genres": {
    "Hard Techno": 2,
-   "Hardcore": 2,
-   "Hardstyle": 2
+   "Hardcore": 3,
+   "Hardstyle": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Rebelion"
  },
  "rebko": {
   "genres": {
-   "Drum & Bass": 1,
-   "EDM": 1,
-   "Hard Techno": 1,
+   "Drum & Bass": 2,
+   "EDM": 2,
+   "Hard Techno": 2,
    "Hardstyle": 1,
    "House": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Rebko"
  },
  "redbatun": {
@@ -12319,6 +17881,13 @@
   },
   "n": 1,
   "name": "Redbatun"
+ },
+ "redeyes": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Redeyes"
  },
  "refuzion": {
   "genres": {
@@ -12359,10 +17928,10 @@
  },
  "rejecta": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hardcore": 2,
+   "Hardstyle": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Rejecta"
  },
  "rekkt": {
@@ -12389,14 +17958,22 @@
   "n": 1,
   "name": "Remzcore"
  },
+ "rest-symbol": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rest Symbol"
+ },
  "restricted": {
   "genres": {
-   "Hard Techno": 2,
+   "Hard Techno": 3,
    "Hardcore": 1,
    "Hardstyle": 1,
-   "Techno": 2
+   "Techno": 3
   },
-  "n": 3,
+  "n": 4,
   "name": "Restricted"
  },
  "restrictless": {
@@ -12405,6 +17982,14 @@
   },
   "n": 1,
   "name": "Restrictless"
+ },
+ "retromigration": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Retromigration"
  },
  "revenge-of-the-nerds": {
   "genres": {
@@ -12438,6 +18023,14 @@
   "n": 1,
   "name": "ØRGIE"
  },
+ "rhadoo": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rhadoo"
+ },
  "ricardo-villalobos": {
   "genres": {
    "House": 4,
@@ -12452,6 +18045,14 @@
   },
   "n": 1,
   "name": "Ricciø"
+ },
+ "richard-fearless": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Richard Fearless"
  },
  "richie-hawtin": {
   "genres": {
@@ -12470,11 +18071,20 @@
   "n": 1,
   "name": "Rick Shiver"
  },
- "riot-shift": {
+ "riordan": {
   "genres": {
-   "Hardstyle": 1
+   "House": 1
   },
   "n": 1,
+  "name": "Riordan"
+ },
+ "riot-shift": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 2
+  },
+  "n": 2,
   "name": "Riot Shift"
  },
  "rob-gee": {
@@ -12492,6 +18102,22 @@
   },
   "n": 2,
   "name": "Robbie Doherty"
+ },
+ "rober-peinado": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rober Peinado"
+ },
+ "robert-bergmann": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Robert Bergmann"
  },
  "robert-hood": {
   "genres": {
@@ -12550,6 +18176,14 @@
   },
   "n": 1,
   "name": "Rocketman"
+ },
+ "roger-23": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Roger 23"
  },
  "roger-sanchez": {
   "genres": {
@@ -12682,6 +18316,14 @@
   "n": 2,
   "name": "Rōse"
  },
+ "rose-gray": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Rose Gray"
+ },
  "rosilicious": {
   "genres": {
    "Hard Techno": 1,
@@ -12690,11 +18332,21 @@
   "n": 1,
   "name": "Rosilicious"
  },
- "rotterdam-terror-corps": {
+ "roto-sonic-body": {
   "genres": {
-   "Hardcore": 1
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
+  "name": "ROTOЯ – Sonic Body"
+ },
+ "rotterdam-terror-corps": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 1
+  },
+  "n": 2,
   "name": "Rotterdam Terror Corps"
  },
  "rouge": {
@@ -12803,6 +18455,13 @@
   "n": 1,
   "name": "Ruthless"
  },
+ "rvs": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "RVS"
+ },
  "ry-x": {
   "genres": {
    "House": 1,
@@ -12835,6 +18494,14 @@
   "n": 1,
   "name": "Ryan Resso"
  },
+ "ryoichi-kurokawa": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ryoichi Kurokawa"
+ },
  "ryota": {
   "genres": {
    "Hard Techno": 1,
@@ -12846,9 +18513,9 @@
  },
  "s-p-y": {
   "genres": {
-   "Drum & Bass": 2
+   "Drum & Bass": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "S.P.Y"
  },
  "s3ppa": {
@@ -12859,6 +18526,15 @@
   "n": 1,
   "name": "S3PPA"
  },
+ "s8jfou": {
+  "genres": {
+   "Drum & Bass": 2,
+   "House": 2,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "s8jfou"
+ },
  "saar-kuus": {
   "genres": {
    "House": 1,
@@ -12867,6 +18543,21 @@
   "n": 1,
   "name": "Saar Kuus"
  },
+ "saba-arat": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Saba Arat"
+ },
+ "sabrina": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Sabrina"
+ },
  "sadu": {
   "genres": {
    "House": 1,
@@ -12874,6 +18565,14 @@
   },
   "n": 1,
   "name": "SADU"
+ },
+ "sagome": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sagome"
  },
  "sakyra": {
   "genres": {
@@ -12957,14 +18656,31 @@
   "n": 3,
   "name": "Sammy Virji"
  },
+ "samson-a-k": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Samson A.K."
+ },
+ "samuel-deep": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Samuel Deep"
+ },
  "samuel-moriero": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 2,
-   "Hardcore": 1,
+   "Hard Techno": 3,
+   "Hardcore": 2,
+   "Hardstyle": 1,
    "Trance": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "Samuel Moriero"
  },
  "samynator": {
@@ -13018,11 +18734,20 @@
  },
  "sant-s": {
   "genres": {
+   "Hard Techno": 3,
+   "Techno": 3
+  },
+  "n": 3,
+  "name": "Santøs"
+ },
+ "santino-zervos": {
+  "genres": {
    "Hard Techno": 1,
-   "Techno": 1
+   "Hardcore": 1,
+   "Hardstyle": 1
   },
   "n": 1,
-  "name": "Santøs"
+  "name": "Santino Zervos"
  },
  "saoirse": {
   "genres": {
@@ -13045,6 +18770,21 @@
   "n": 7,
   "name": "Sara Landry"
  },
+ "saraga": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Saraga"
+ },
+ "sarah-davachi": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sarah Davachi"
+ },
  "sarah-de-warren": {
   "genres": {
    "EDM": 1,
@@ -13052,6 +18792,15 @@
   },
   "n": 1,
   "name": "Sarah de Warren"
+ },
+ "sarah-story": {
+  "genres": {
+   "EDM": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sarah Story"
  },
  "sarica": {
   "genres": {
@@ -13094,6 +18843,29 @@
   "n": 1,
   "name": "Sassy Girl"
  },
+ "satch-hoyt": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Satch Hoyt"
+ },
+ "satiate": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Satiate"
+ },
+ "satl": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Satl"
+ },
  "satoshi-tomiie": {
   "genres": {
    "House": 1,
@@ -13102,6 +18874,23 @@
   "n": 1,
   "name": "Satoshi Tomiie"
  },
+ "saya": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Saya"
+ },
+ "scale-9": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Scale 9"
+ },
  "schacke": {
   "genres": {
    "Acid Techno": 1,
@@ -13109,6 +18898,14 @@
   },
   "n": 1,
   "name": "Schacke"
+ },
+ "schnelle-melle": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Schnelle Melle"
  },
  "schwesta-p": {
   "genres": {
@@ -13163,6 +18960,14 @@
   "n": 1,
   "name": "Scratch Massive"
  },
+ "scuba-pro": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Scuba Pro"
+ },
  "sean-laird": {
   "genres": {
    "Techno": 1
@@ -13177,6 +18982,13 @@
   },
   "n": 1,
   "name": "Seasick"
+ },
+ "seba": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Seba"
  },
  "sebastian": {
   "genres": {
@@ -13213,6 +19025,13 @@
   "n": 1,
   "name": "Sebastien Leger"
  },
+ "sechi": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Sechi"
+ },
  "seconds-setaoc-mass-phara": {
   "genres": {
    "Drum & Bass": 1,
@@ -13225,10 +19044,10 @@
  "sedef-adasi": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Sedef Adasï"
  },
  "see-rose": {
@@ -13280,6 +19099,14 @@
   "n": 1,
   "name": "Self Esteem"
  },
+ "sera-de-villalta": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sera De Villalta"
+ },
  "serafina": {
   "genres": {
    "Hard Techno": 2,
@@ -13288,6 +19115,13 @@
   },
   "n": 2,
   "name": "Serafina"
+ },
+ "serokolo-7": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Serokolo 7"
  },
  "serum": {
   "genres": {
@@ -13314,6 +19148,30 @@
   "n": 7,
   "name": "Seth Troxler"
  },
+ "sevenum-six": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sevenum Six"
+ },
+ "sexisdeath": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "SEXISDEATH"
+ },
+ "sextou": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sextou"
+ },
  "sg-lewis": {
   "genres": {
    "House": 1
@@ -13323,10 +19181,10 @@
  },
  "shackleton": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Shackleton"
  },
  "shae-reid": {
@@ -13409,6 +19267,20 @@
   "n": 1,
   "name": "Shimza"
  },
+ "ship-sket": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Ship Sket"
+ },
+ "shitake": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Shitake"
+ },
  "shl-mo": {
   "genres": {
    "Hard Techno": 1,
@@ -13416,6 +19288,14 @@
   },
   "n": 1,
   "name": "Shlømo"
+ },
+ "shonky": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Shonky"
  },
  "showtek": {
   "genres": {
@@ -13428,10 +19308,10 @@
  "shygirl": {
   "genres": {
    "EDM": 1,
-   "House": 2,
-   "Techno": 2
+   "House": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Shygirl"
  },
  "sick": {
@@ -13464,6 +19344,13 @@
   "n": 1,
   "name": "Siebenschlaefer"
  },
+ "siete-catorce": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Siete Catorce"
+ },
  "sigala": {
   "genres": {
    "EDM": 1,
@@ -13484,6 +19371,21 @@
   },
   "n": 4,
   "name": "Sigma"
+ },
+ "siko-setyanto": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Siko Setyanto"
+ },
+ "silky-noize": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Silky Noize"
  },
  "silva-bumpa": {
   "genres": {
@@ -13510,12 +19412,35 @@
   "n": 1,
   "name": "sim0ne"
  },
+ "sinfonietta-cracovia": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sinfonietta Cracovia"
+ },
  "sisly-benoneshot": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Sisly & BenOneShot"
+ },
+ "sisso-maiko": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sisso & Maiko"
+ },
+ "sister-marion": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sister Marion"
  },
  "six-ou-sept": {
   "genres": {
@@ -13524,6 +19449,14 @@
   },
   "n": 1,
   "name": "Six ou Sept"
+ },
+ "skank-opa": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Skank Opa"
  },
  "skarn": {
   "genres": {
@@ -13550,6 +19483,13 @@
   },
   "n": 2,
   "name": "Skepta"
+ },
+ "skeptical": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Skeptical"
  },
  "skoone": {
   "genres": {
@@ -13588,12 +19528,50 @@
   "n": 4,
   "name": "Skrillex"
  },
+ "skrimor": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Skrimor"
+ },
+ "sky-h1": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "SKY H1"
+ },
+ "skyapnea": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Skyapnea"
+ },
  "slam": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Slam"
+ },
+ "slask-song-dance-ensemble": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Śląsk Song & Dance Ensemble"
+ },
+ "slikback": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Slikback"
  },
  "slin": {
   "genres": {
@@ -13626,6 +19604,13 @@
   },
   "n": 2,
   "name": "SNTS"
+ },
+ "sofi-mari": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Sofi Mari"
  },
  "sofia-kourtesis": {
   "genres": {
@@ -13677,6 +19662,21 @@
   "n": 1,
   "name": "Solyd"
  },
+ "some-guest": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Some Guest"
+ },
+ "someone-sunny": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Someone Sunny"
+ },
  "sonny-fodera": {
   "genres": {
    "EDM": 2,
@@ -13685,6 +19685,14 @@
   },
   "n": 2,
   "name": "Sonny Fodera"
+ },
+ "sopa-do-dia": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sopa Do Dia"
  },
  "sophia-violet": {
   "genres": {
@@ -13710,6 +19718,13 @@
   "n": 1,
   "name": "Sosa"
  },
+ "soulsurfer": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Soulsurfer"
+ },
  "soulwax": {
   "genres": {
    "Drum & Bass": 1,
@@ -13730,6 +19745,13 @@
   "n": 3,
   "name": "Sound Rush"
  },
+ "sp-mc": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "SP:MC"
+ },
  "space-92": {
   "genres": {
    "Drum & Bass": 1,
@@ -13744,11 +19766,18 @@
  "space-afrika": {
   "genres": {
    "Drum & Bass": 1,
-   "House": 1,
-   "Techno": 1
+   "House": 3,
+   "Techno": 4
+  },
+  "n": 4,
+  "name": "Space Afrika"
+ },
+ "spacefunk": {
+  "genres": {
+   "Drum & Bass": 1
   },
   "n": 1,
-  "name": "Space Afrika"
+  "name": "Spacefunk"
  },
  "spacid": {
   "genres": {
@@ -13825,6 +19854,28 @@
   "n": 2,
   "name": "Spoink"
  },
+ "squake": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Squake"
+ },
+ "sstrom": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "SSTROM"
+ },
+ "stamina": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Stamina"
+ },
  "stan-christ": {
   "genres": {
    "Hard Techno": 1,
@@ -13851,6 +19902,15 @@
   "n": 1,
   "name": "Stanton Warriors"
  },
+ "statek": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Statek"
+ },
  "static-bloom": {
   "genres": {
    "Hard Techno": 1,
@@ -13859,13 +19919,21 @@
   "n": 1,
   "name": "Static Bloom"
  },
+ "steady": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "STEADY"
+ },
  "stef-davidse": {
   "genres": {
    "EDM": 1,
-   "House": 3,
+   "House": 4,
    "Techno": 2
   },
-  "n": 3,
+  "n": 4,
   "name": "Stef Davidse"
  },
  "steffi": {
@@ -13946,12 +20014,35 @@
   "n": 1,
   "name": "Sting"
  },
+ "storm": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Storm"
+ },
  "strictly-different": {
   "genres": {
    "House": 1
   },
   "n": 1,
   "name": "Strictly Different"
+ },
+ "strife": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Strife"
+ },
+ "studio-maruko": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Studio Maruko"
  },
  "stv": {
   "genres": {
@@ -13988,12 +20079,57 @@
  "sub-zero-project": {
   "genres": {
    "Hard Techno": 3,
-   "Hardcore": 3,
-   "Hardstyle": 4,
+   "Hardcore": 4,
+   "Hardstyle": 5,
    "Techno": 1
   },
-  "n": 4,
+  "n": 5,
   "name": "Sub Zero Project"
+ },
+ "sublee": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Sublee"
+ },
+ "submarine": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Submarine"
+ },
+ "submorphics": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Submorphics"
+ },
+ "subsonic": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Subsonic"
+ },
+ "subtle": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Subtle"
+ },
+ "suciu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Suciu"
  },
  "sully": {
   "genres": {
@@ -14003,6 +20139,13 @@
   },
   "n": 1,
   "name": "Sully"
+ },
+ "summer-ghemati": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Summer Ghemati"
  },
  "sunnery-james-ryan-marciano": {
   "genres": {
@@ -14025,6 +20168,14 @@
   },
   "n": 1,
   "name": "Surgeon"
+ },
+ "suzan-peeters": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Suzan Peeters"
  },
  "suzane": {
   "genres": {
@@ -14051,6 +20202,13 @@
   "n": 5,
   "name": "Sven Väth"
  },
+ "svitlana-nianio": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Svitlana Nianio"
+ },
  "swae-lee": {
   "genres": {
    "EDM": 1,
@@ -14076,6 +20234,13 @@
   "n": 2,
   "name": "Swedish House Mafia"
  },
+ "sweetpea": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Sweetpea"
+ },
  "swen-baez": {
   "genres": {
    "House": 1,
@@ -14094,6 +20259,13 @@
   "n": 1,
   "name": "Sydney Ayven"
  },
+ "sydney-bryce": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Sydney Bryce"
+ },
  "sylence": {
   "genres": {
    "Hardstyle": 1
@@ -14108,6 +20280,14 @@
   },
   "n": 1,
   "name": "Syn Cole"
+ },
+ "synaps": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Synaps"
  },
  "syntetriks": {
   "genres": {
@@ -14125,12 +20305,27 @@
   "n": 1,
   "name": "Syreeta"
  },
+ "systemfeind-aka-stephan-schlott": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Systemfeind aka Stephan Schlott"
+ },
  "t-a-m-22": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "T.A.M.22"
+ },
+ "t-man": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "T-Man"
  },
  "t-quest": {
   "genres": {
@@ -14139,6 +20334,20 @@
   },
   "n": 1,
   "name": "T-Quest"
+ },
+ "t-r-a-c": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "T.R.A.C."
+ },
+ "taan": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Taan"
  },
  "talla-2xlc": {
   "genres": {
@@ -14165,12 +20374,21 @@
   "n": 1,
   "name": "Tania Vulcano"
  },
- "tasha": {
+ "tara-clerkin-trio": {
   "genres": {
    "House": 1,
    "Techno": 1
   },
   "n": 1,
+  "name": "Tara Clerkin Trio"
+ },
+ "tasha": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 2,
   "name": "Tasha"
  },
  "tassery": {
@@ -14222,11 +20440,26 @@
   "n": 1,
   "name": "Taxman"
  },
+ "tayka": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Tayka"
+ },
+ "tayla": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Tayla"
+ },
  "technimatic": {
   "genres": {
-   "Drum & Bass": 2
+   "Drum & Bass": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Technimatic"
  },
  "technoboy-tuneboy": {
@@ -14240,6 +20473,30 @@
   },
   "n": 1,
   "name": "Technoboy & Tuneboy"
+ },
+ "technossomy": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Technossomy"
+ },
+ "tedesco": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "TEDESCO"
+ },
+ "teedee": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "TeeDee"
  },
  "teho": {
   "genres": {
@@ -14261,6 +20518,14 @@
   "n": 2,
   "name": "Teknoclash"
  },
+ "telva": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Telva"
+ },
  "temples": {
   "genres": {
    "House": 1,
@@ -14268,6 +20533,13 @@
   },
   "n": 1,
   "name": "Temples"
+ },
+ "tempza": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Tempza"
  },
  "tems": {
   "genres": {
@@ -14285,12 +20557,37 @@
   "n": 1,
   "name": "Tenzent"
  },
- "tha-watcher": {
+ "tereza-pro": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tereza.pro"
+ },
+ "terra-twin": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Terra Twin"
+ },
+ "testarossa": {
   "genres": {
    "Hardcore": 1,
    "Hardstyle": 1
   },
   "n": 1,
+  "name": "Testarossa"
+ },
+ "tha-watcher": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 2
+  },
+  "n": 2,
   "name": "Tha Watcher"
  },
  "tharken": {
@@ -14367,11 +20664,20 @@
  },
  "the-dark-horror": {
   "genres": {
-   "Hardcore": 1,
-   "Hardstyle": 1
+   "Hard Techno": 1,
+   "Hardcore": 2,
+   "Hardstyle": 2
+  },
+  "n": 2,
+  "name": "The Dark Horror"
+ },
+ "the-dengie-hundred": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
   },
   "n": 1,
-  "name": "The Dark Horror"
+  "name": "The Dengie Hundred"
  },
  "the-egyptian-lover": {
   "genres": {
@@ -14388,6 +20694,14 @@
   "n": 1,
   "name": "The Hacker"
  },
+ "the-klittens": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "The Klittens"
+ },
  "the-lady-machine": {
   "genres": {
    "Hard Techno": 2,
@@ -14395,6 +20709,14 @@
   },
   "n": 2,
   "name": "The Lady Machine"
+ },
+ "the-mad-laboratory-of-anti-matter": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "The Mad Laboratory of Anti-Matter"
  },
  "the-martinez-brothers": {
   "genres": {
@@ -14469,11 +20791,22 @@
   "n": 1,
   "name": "The Shapeshifters"
  },
- "the-straikerz": {
+ "the-smiler": {
   "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
    "Hardstyle": 1
   },
   "n": 1,
+  "name": "The Smiler"
+ },
+ "the-straikerz": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 2
+  },
+  "n": 2,
   "name": "The Straikerz"
  },
  "the-streets": {
@@ -14485,6 +20818,15 @@
   "n": 1,
   "name": "The Streets"
  },
+ "the-surrealist-committee": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "The Surrealist Committee"
+ },
  "the-tunegirl": {
   "genres": {
    "Acid Techno": 1,
@@ -14494,6 +20836,13 @@
   },
   "n": 1,
   "name": "The Tunegirl"
+ },
+ "the-untouchables": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "The Untouchables"
  },
  "the-upbeats": {
   "genres": {
@@ -14541,13 +20890,28 @@
   "n": 1,
   "name": "Thick as Thieves"
  },
+ "think-tonk": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Think Tonk"
+ },
  "thiso": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "Thiso"
+ },
+ "thk-x-brass-orchestra": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "THK x Brass Orchestra"
  },
  "thomas-ankersmit": {
   "genres": {
@@ -14555,6 +20919,31 @@
   },
   "n": 1,
   "name": "Thomas Ankersmit"
+ },
+ "thomas-besset": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Thomas Besset"
+ },
+ "thomas-harris": {
+  "genres": {
+   "Acid Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Thomas Harris"
+ },
+ "thomas-olbrechts": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Thomas Olbrechts"
  },
  "thomas-reiner": {
   "genres": {
@@ -14579,6 +20968,21 @@
   },
   "n": 5,
   "name": "Thylacine"
+ },
+ "tiago": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tiago"
+ },
+ "tianzhuo-chen": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tianzhuo Chen"
  },
  "tiesto": {
   "genres": {
@@ -14615,6 +21019,13 @@
   "n": 1,
   "name": "Tikiman"
  },
+ "tim-hecker": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tim Hecker"
+ },
  "tim-reaper": {
   "genres": {
    "Drum & Bass": 1,
@@ -14623,6 +21034,22 @@
   },
   "n": 1,
   "name": "Tim Reaper"
+ },
+ "timbo-this-chris": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Timbo & This Chris"
+ },
+ "time-is-away": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Time Is Away"
  },
  "timmy-trumpet": {
   "genres": {
@@ -14685,10 +21112,10 @@
  },
  "titi": {
   "genres": {
-   "Hard Techno": 2,
-   "Techno": 2
+   "Hard Techno": 3,
+   "Techno": 3
   },
-  "n": 2,
+  "n": 3,
   "name": "TITI"
  },
  "tjade": {
@@ -14708,6 +21135,30 @@
   },
   "n": 1,
   "name": "TKZ"
+ },
+ "tmh": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "TMH"
+ },
+ "to-the-left": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "To The Left"
+ },
+ "toby-simpson": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Toby Simpson"
  },
  "todd-edwards": {
   "genres": {
@@ -14745,6 +21196,14 @@
   "n": 1,
   "name": "Tolentechno"
  },
+ "tom-b": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tom B"
+ },
  "tom-snow": {
   "genres": {
    "Techno": 1
@@ -14771,11 +21230,28 @@
  },
  "tommy-phillips": {
   "genres": {
+   "House": 2,
+   "Techno": 1
+  },
+  "n": 2,
+  "name": "Tommy Phillips"
+ },
+ "tommyknocker": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tommyknocker"
+ },
+ "toni-caillou": {
+  "genres": {
+   "Drum & Bass": 1,
    "House": 1,
    "Techno": 1
   },
   "n": 1,
-  "name": "Tommy Phillips"
+  "name": "Toni Caillou"
  },
  "tony-humphries": {
   "genres": {
@@ -14786,9 +21262,9 @@
  },
  "tony-moya": {
   "genres": {
-   "House": 1
+   "House": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Tony Moya"
  },
  "tony-romera": {
@@ -14800,6 +21276,14 @@
   "n": 1,
   "name": "Tony Romera"
  },
+ "tortoise": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tortoise"
+ },
  "toxic-machinery": {
   "genres": {
    "Hard Techno": 1,
@@ -14807,6 +21291,22 @@
   },
   "n": 1,
   "name": "Toxic Machinery"
+ },
+ "trainah": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Trainah"
+ },
+ "traka": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "TRAKA"
  },
  "trancemaster-krause": {
   "genres": {
@@ -14817,11 +21317,25 @@
  },
  "traumer": {
   "genres": {
-   "House": 4,
-   "Techno": 4
+   "House": 5,
+   "Techno": 5
   },
-  "n": 4,
+  "n": 5,
   "name": "Traumer"
+ },
+ "trex": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Trex"
+ },
+ "triad": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Triad"
  },
  "tricky": {
   "genres": {
@@ -14840,12 +21354,28 @@
   "n": 2,
   "name": "Trinix"
  },
+ "trio-cover": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Trio Cover"
+ },
  "trio-xenakis": {
   "genres": {
    "Techno": 1
   },
   "n": 1,
   "name": "Trio Xenakis"
+ },
+ "tripping-with-dr-peacock-live": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Tripping with Dr. Peacock LIVE"
  },
  "triptykh": {
   "genres": {
@@ -14865,6 +21395,14 @@
   "n": 1,
   "name": "Tristan"
  },
+ "trit-nus": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tritønus"
+ },
  "truly-moore": {
   "genres": {
    "House": 1,
@@ -14875,13 +21413,13 @@
  },
  "trym": {
   "genres": {
-   "Hard Techno": 4,
+   "Hard Techno": 5,
    "Hardcore": 1,
    "Hardstyle": 1,
    "House": 2,
-   "Techno": 4
+   "Techno": 5
   },
-  "n": 4,
+  "n": 5,
   "name": "Trym"
  },
  "tsha": {
@@ -14890,6 +21428,38 @@
   },
   "n": 1,
   "name": "TSHA"
+ },
+ "tujiko-noriko": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tujiko Noriko"
+ },
+ "tutu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tutu"
+ },
+ "twang": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Twang"
+ },
+ "twisted": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Twisted"
  },
  "twisted-sibling": {
   "genres": {
@@ -14907,6 +21477,20 @@
   },
   "n": 1,
   "name": "Twonot"
+ },
+ "tyke": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Tyke"
+ },
+ "tymek-papior": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Tymek Papior"
  },
  "tymon": {
   "genres": {
@@ -14997,6 +21581,14 @@
   "n": 1,
   "name": "Unai Trotti"
  },
+ "unchained": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Unchained"
+ },
  "underground-resistance": {
   "genres": {
    "House": 1,
@@ -15007,10 +21599,10 @@
  },
  "underscores": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "underscores"
  },
  "underworld": {
@@ -15028,6 +21620,22 @@
   },
   "n": 1,
   "name": "Unexist"
+ },
+ "uniiqu3": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "UNIIQU3"
+ },
+ "universal-love-warrias-hi-fi": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Universal Love Warrias Hi-Fi"
  },
  "unresolved": {
   "genres": {
@@ -15047,10 +21655,10 @@
  },
  "upsammy": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "upsammy"
  },
  "upsilone": {
@@ -15080,6 +21688,13 @@
   "n": 1,
   "name": "Use Knife"
  },
+ "username": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "username"
+ },
  "ush": {
   "genres": {
    "Hard Techno": 2,
@@ -15096,6 +21711,22 @@
   "n": 1,
   "name": "Vabu"
  },
+ "vae-cortez": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vae Cortez"
+ },
+ "vagabund": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vagabund"
+ },
  "vai": {
   "genres": {
    "Hard Techno": 2,
@@ -15108,6 +21739,14 @@
   "n": 2,
   "name": "Vaï"
  },
+ "val-clipp": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Val Clipp"
+ },
  "valentina-magaletti": {
   "genres": {
    "House": 1,
@@ -15115,6 +21754,39 @@
   },
   "n": 1,
   "name": "Valentina Magaletti"
+ },
+ "valentina-magaletti-maria-bertel": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Valentina Magaletti & Maria Bertel"
+ },
+ "valentina-magaletti-ypy": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Valentina Magaletti & YPY"
+ },
+ "valhalla": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Valhalla"
+ },
+ "van-der-wiese": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Van der Wiese"
  },
  "van-hella": {
   "genres": {
@@ -15131,6 +21803,29 @@
   },
   "n": 1,
   "name": "Vanesa Wolf"
+ },
+ "vanity-roxane": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Vanity Roxane"
+ },
+ "vektah": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Vektah"
+ },
+ "vel": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vel"
  },
  "venator": {
   "genres": {
@@ -15170,6 +21865,32 @@
   "n": 2,
   "name": "Venga"
  },
+ "ventris": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 2,
+  "name": "Ventris"
+ },
+ "vera-dvale": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vera Dvale"
+ },
+ "verbz": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Verbz"
+ },
  "verdun": {
   "genres": {
    "House": 1
@@ -15183,6 +21904,14 @@
   },
   "n": 1,
   "name": "Verraco"
+ },
+ "vers": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vers"
  },
  "vertile": {
   "genres": {
@@ -15221,6 +21950,22 @@
   "n": 4,
   "name": "Vieze Asbak"
  },
+ "vigro-deep": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vigro Deep"
+ },
+ "vilain": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vilain"
+ },
  "villain": {
   "genres": {
    "Hardcore": 1,
@@ -15228,6 +21973,13 @@
   },
   "n": 1,
   "name": "Villain"
+ },
+ "vincent-de-belleval": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vincent de Belleval"
  },
  "vini-vici": {
   "genres": {
@@ -15257,6 +22009,14 @@
   "n": 1,
   "name": "Vintage Culture"
  },
+ "violeta-garcia": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Violeta Garcia"
+ },
  "virginia": {
   "genres": {
    "House": 2,
@@ -15271,6 +22031,30 @@
   },
   "n": 1,
   "name": "Virtual Vault"
+ },
+ "visible-cloaks": {
+  "genres": {
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "Visible Cloaks"
+ },
+ "vivace": {
+  "genres": {
+   "Hard Techno": 1,
+   "Hardstyle": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Vivace"
+ },
+ "vixx": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Vixx"
  },
  "vladimir-cauchemar": {
   "genres": {
@@ -15349,21 +22133,22 @@
  "vortek-s": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 2,
-   "Hardcore": 3,
-   "Hardstyle": 1,
+   "Hard Techno": 3,
+   "Hardcore": 4,
+   "Hardstyle": 2,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 3,
+  "n": 4,
   "name": "Vortek's"
  },
  "vtss": {
   "genres": {
+   "Hard Techno": 1,
    "House": 1,
-   "Techno": 1
+   "Techno": 3
   },
-  "n": 1,
+  "n": 3,
   "name": "VTSS"
  },
  "vuur": {
@@ -15373,6 +22158,32 @@
   },
   "n": 1,
   "name": "Vuur"
+ },
+ "vyka": {
+  "genres": {
+   "Drum & Bass": 1,
+   "EDM": 1,
+   "Hard Techno": 1
+  },
+  "n": 1,
+  "name": "Vyka"
+ },
+ "w-ack-a-rennes": {
+  "genres": {
+   "Drum & Bass": 1,
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "W*ack à Rennes"
+ },
+ "w-o-o-d-freak-de-philipe": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "W.o.o.d. & Freak de Philipè"
  },
  "w-w": {
   "genres": {
@@ -15384,10 +22195,11 @@
  },
  "wade": {
   "genres": {
-   "House": 1,
-   "Techno": 1
+   "EDM": 1,
+   "House": 2,
+   "Techno": 2
   },
-  "n": 1,
+  "n": 2,
   "name": "Wade"
  },
  "wal-halla": {
@@ -15402,13 +22214,13 @@
   "genres": {
    "Drum & Bass": 1,
    "Hard Techno": 2,
-   "Hardcore": 5,
-   "Hardstyle": 4,
+   "Hardcore": 6,
+   "Hardstyle": 5,
    "Psytrance": 1,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 5,
+  "n": 6,
   "name": "Warface"
  },
  "wasted-penguinz": {
@@ -15435,6 +22247,14 @@
   "n": 1,
   "name": "Wata Igarashi & DJ Nobu"
  },
+ "weed420": {
+  "genres": {
+   "House": 1,
+   "Techno": 2
+  },
+  "n": 2,
+  "name": "weed420"
+ },
  "wekesa": {
   "genres": {
    "House": 1,
@@ -15442,6 +22262,13 @@
   },
   "n": 1,
   "name": "Wekesa"
+ },
+ "wendy-eisenberg": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Wendy Eisenberg"
  },
  "wet-leg": {
   "genres": {
@@ -15451,12 +22278,27 @@
   "n": 1,
   "name": "Wet Leg"
  },
+ "wheats": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Wheats"
+ },
  "whiney": {
   "genres": {
    "Drum & Bass": 1
   },
   "n": 1,
   "name": "Whiney"
+ },
+ "who-s-the-technician": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Who’s The Technician"
  },
  "whomadewho": {
   "genres": {
@@ -15484,22 +22326,30 @@
  "wildstylez": {
   "genres": {
    "EDM": 1,
-   "Hardstyle": 1,
+   "Hardcore": 1,
+   "Hardstyle": 2,
    "House": 1,
    "Techno": 1
   },
-  "n": 1,
+  "n": 2,
   "name": "Wildstylez"
+ },
+ "wilhelm-sasnal": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Wilhelm Sasnal"
  },
  "wilkinson": {
   "genres": {
-   "Drum & Bass": 3,
+   "Drum & Bass": 4,
    "Hard Techno": 1,
    "Psytrance": 1,
    "Techno": 1,
    "Trance": 1
   },
-  "n": 3,
+  "n": 4,
   "name": "Wilkinson"
  },
  "will-atkinson": {
@@ -15511,6 +22361,14 @@
   },
   "n": 2,
   "name": "Will Atkinson"
+ },
+ "will-o-brien": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Will O’Brien"
  },
  "william-basinski": {
   "genres": {
@@ -15526,6 +22384,21 @@
   },
   "n": 1,
   "name": "William Kiss"
+ },
+ "winslow": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Winslow"
+ },
+ "with-us": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "With Us"
  },
  "wo-izzy": {
   "genres": {
@@ -15559,6 +22432,15 @@
   "n": 1,
   "name": "Wolv"
  },
+ "wonka": {
+  "genres": {
+   "House": 1,
+   "Psytrance": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Wonka"
+ },
  "worakls": {
   "genres": {
    "House": 1,
@@ -15567,6 +22449,20 @@
   "n": 1,
   "name": "Worakls"
  },
+ "workforce": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Workforce"
+ },
+ "worldpeace-dmt": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Worldpeace DMT"
+ },
  "worship": {
   "genres": {
    "EDM": 1,
@@ -15574,6 +22470,14 @@
   },
   "n": 1,
   "name": "Worship"
+ },
+ "wz": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "WZ"
  },
  "x-club": {
   "genres": {
@@ -15599,6 +22503,13 @@
   },
   "n": 1,
   "name": "X-Tof"
+ },
+ "xavisphone": {
+  "genres": {
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "xavisphone"
  },
  "xdb": {
   "genres": {
@@ -15650,6 +22561,14 @@
   "n": 1,
   "name": "XP"
  },
+ "y-nder": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "YØNDER"
+ },
  "yaeji": {
   "genres": {
    "Drum & Bass": 1,
@@ -15679,6 +22598,13 @@
   "n": 3,
   "name": "Yanamaste"
  },
+ "yann-muller": {
+  "genres": {
+   "House": 1
+  },
+  "n": 1,
+  "name": "Yann Muller"
+ },
  "yann-yl": {
   "genres": {
    "EDM": 1,
@@ -15686,6 +22612,14 @@
   },
   "n": 1,
   "name": "Yann YL"
+ },
+ "yedm": {
+  "genres": {
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "YËDM"
  },
  "yellow-claw": {
   "genres": {
@@ -15695,6 +22629,14 @@
   },
   "n": 1,
   "name": "Yellow Claw"
+ },
+ "yeye-shorlax": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Yeye & Shorlax"
  },
  "yogg": {
   "genres": {
@@ -15706,11 +22648,12 @@
  "yoshiko": {
   "genres": {
    "Drum & Bass": 1,
-   "Hard Techno": 1,
-   "Hardcore": 2,
+   "Hard Techno": 2,
+   "Hardcore": 3,
+   "Hardstyle": 1,
    "Trance": 1
   },
-  "n": 2,
+  "n": 3,
   "name": "Yoshiko"
  },
  "yotto": {
@@ -15748,6 +22691,30 @@
   },
   "n": 1,
   "name": "YPY"
+ },
+ "ypy-ben-vince": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "YPY & Ben Vince"
+ },
+ "yu-ching": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Yu Ching"
+ },
+ "yu-su": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Yu Su"
  },
  "yuksek": {
   "genres": {
@@ -15801,6 +22768,23 @@
   "n": 1,
   "name": "Øyvind Morken"
  },
+ "zaltan-babsi": {
+  "genres": {
+   "Drum & Bass": 1,
+   "Hard Techno": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Zaltan & Babsi"
+ },
+ "zany": {
+  "genres": {
+   "Hardcore": 1,
+   "Hardstyle": 1
+  },
+  "n": 1,
+  "name": "Zany"
+ },
  "zapravka": {
   "genres": {
    "Drum & Bass": 1,
@@ -15811,6 +22795,13 @@
   },
   "n": 2,
   "name": "Zapravka"
+ },
+ "zar": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Zar"
  },
  "zara": {
   "genres": {
@@ -15837,6 +22828,29 @@
   "n": 3,
   "name": "Zelecter"
  },
+ "zelie": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Zélie"
+ },
+ "zero-t": {
+  "genres": {
+   "Drum & Bass": 1
+  },
+  "n": 1,
+  "name": "Zero T"
+ },
+ "zeynep-ayse-hatipoglu": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Zeynep Ayşe Hatipoğlu"
+ },
  "zora-jones": {
   "genres": {
    "House": 1,
@@ -15860,5 +22874,13 @@
   },
   "n": 1,
   "name": "Zuke"
+ },
+ "zya": {
+  "genres": {
+   "House": 1,
+   "Techno": 1
+  },
+  "n": 1,
+  "name": "Zya"
  }
 }

@@ -11,3 +11,5 @@ next-env.d.ts
 # Caches Python des scripts de .research/ — jamais versionnés.
 __pycache__/
 *.pyc
+.research/artists/.srcs/
+.research/artists/sheets/

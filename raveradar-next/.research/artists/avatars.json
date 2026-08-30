@@ -95,12 +95,6 @@
   "license": "CC0",
   "page": "https://commons.wikimedia.org/wiki/File:Oklou_performing_in_the_Academy_in_2025.jpg"
  },
- "maceo-plex": {
-  "file": "maceo-plex.webp",
-  "author": "Robin Krahl",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:2015-07-19_6886_Maceo_Plex_(Sea_You).jpg"
- },
  "steve-aoki": {
   "file": "steve-aoki.webp",
   "author": "Gage Skidmore",
@@ -179,29 +173,11 @@
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Sonar_2010_-_Moodymann.jpg"
  },
- "pan-pot": {
-  "file": "pan-pot.webp",
-  "author": "Robin Krahl",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:2015-07-19_6705_Pan-Pot_(Sea_You).jpg"
- },
  "netsky": {
   "file": "netsky.webp",
   "author": "James Starkey",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Netsky_(DJ)_2008.jpg"
- },
- "the-avalanches": {
-  "file": "the-avalanches.webp",
-  "author": "Raph_PH",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:StrokesRosendal080622-2_(52144817677).jpg"
- },
- "modeselektor": {
-  "file": "modeselektor.webp",
-  "author": "Matt Biddulph",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Modeselektor,_2009.jpg"
  },
  "miss-monique": {
   "file": "miss-monique.webp",
@@ -244,18 +220,6 @@
   "author": "Web Summit / Sam Barnes / Sportsfile",
   "license": "CC BY 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Armin_van_Buuren,_November_2025_(cropped).jpg"
- },
- "disclosure": {
-  "file": "disclosure.webp",
-  "author": "Andresojeda713",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Disclosure_en_Concierto_(2016).jpg"
- },
- "underworld": {
-  "file": "underworld.webp",
-  "author": "Torrensmike",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:UW_AllyPally_2017_(cropped).jpg"
  },
  "ellen-allien": {
   "file": "ellen-allien.webp",
@@ -335,12 +299,6 @@
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:DJ_Heavygrinder_at_FSC_2008.jpeg"
  },
- "miss-k8": {
-  "file": "miss-k8.webp",
-  "author": "Caesar",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Miss_K8_at_Summerburst_2016.jpg"
- },
  "kolsch": {
   "file": "kolsch.webp",
   "author": "Robin Krahl",
@@ -353,47 +311,17 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Luke_Slater_1_24.jpg"
  },
- "da-tweekaz": {
-  "file": "da-tweekaz.webp",
-  "author": "Stefan Brending (2eight)",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:2016_Open_Beatz_-_Da_Tweekaz_-_by_2eight_-DSC_4580.jpg"
- },
  "armand-van-helden": {
   "file": "armand-van-helden.webp",
   "author": "XmixProductionsWiki",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:130606_DuckSauce_938.tif"
  },
- "me": {
-  "file": "me.webp",
-  "author": "Eze Electronic Music",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:%26Me_in_2025.png"
- },
- "the-prodigy": {
-  "file": "the-prodigy.webp",
-  "author": "Silver Blu3",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:The_Prodigy_IMG_2972_(5353883317)_(cropped).jpg"
- },
- "cassius": {
-  "file": "cassius.webp",
-  "author": "Xi WEG on Flickr, self (cropped version)",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Cassius_Festival_RockAdel_2012.jpg"
- },
  "erol-alkan": {
   "file": "erol-alkan.webp",
   "author": "yapsnaps",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:ErolAlkan.jpg"
- },
- "james-hype": {
-  "file": "james-hype.webp",
-  "author": "InvadingInvader",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:James_Hype_at_FWD_Cleveland_2025.jpg"
  },
  "alok": {
   "file": "alok.webp",
@@ -443,12 +371,6 @@
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Carl_Craig.jpg"
  },
- "swedish-house-mafia": {
-  "file": "swedish-house-mafia.webp",
-  "author": "Gianluca199063",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Swedish_house_mafia_2.jpg"
- },
  "hardwell": {
   "file": "hardwell.webp",
   "author": "Rudgrcom",
@@ -463,21 +385,15 @@
  },
  "carl-cox": {
   "file": "carl-cox.webp",
-  "author": "Sergey Kozak",
+  "author": "Str1ke from (optional)",
   "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Carl_Cox_%40_ADE_2012.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:CarlCox.jpg"
  },
  "nastia": {
   "file": "nastia.webp",
   "author": "MiCkY",
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Nastia_(Anastasia_Topolskaia)_Ukrainian_DJ.png"
- },
- "black-coffee": {
-  "file": "black-coffee.webp",
-  "author": "DeepBluuue",
-  "license": "CC0",
-  "page": "https://commons.wikimedia.org/wiki/File:Black_Coffee_perfoming_at_H%C3%AF_Ibiza_in_June_2018.jpg"
  },
  "thylacine": {
   "file": "thylacine.webp",
@@ -527,29 +443,23 @@
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Adaro_(cropped).jpg"
  },
- "eats-everything": {
-  "file": "eats-everything.webp",
-  "author": "Ben Price",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Eats_Everything.jpg"
- },
  "chicane": {
   "file": "chicane.webp",
   "author": "Riza Nugraha",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Chicane_2013_(cropped)_(1).jpg"
  },
- "the-avener": {
-  "file": "the-avener.webp",
-  "author": "Pitroipa10",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:The_Avener.jpg"
- },
  "reinier-zonneveld": {
   "file": "reinier-zonneveld.webp",
   "author": "Bigmanjacob1",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:RZ_DJMAG2.jpg"
+ },
+ "kode9": {
+  "file": "kode9.webp",
+  "author": "The original uploader was P4k at English Wikipedia.",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kode9.jpg"
  },
  "mk": {
   "file": "mk.webp",
@@ -587,12 +497,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Felix_Jaehn_summer_2022_Germany_(cropped).jpg"
  },
- "masters-at-work": {
-  "file": "masters-at-work.webp",
-  "author": "glenjamn3",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Masters_At_Work,_2013.png"
- },
  "monolink": {
   "file": "monolink.webp",
   "author": "https://www.hailleyhoward.com/",
@@ -604,12 +508,6 @@
   "author": "Thesupermat",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Hungry_5_-_031.jpg"
- },
- "amelie-lens": {
-  "file": "amelie-lens.webp",
-  "author": "Rayukk",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Amelie_Lens_06_2022.jpg"
  },
  "la-p-tite-fumee": {
   "file": "la-p-tite-fumee.webp",
@@ -623,17 +521,17 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Hungry_5_-_002.jpg"
  },
- "seth-troxler": {
-  "file": "seth-troxler.webp",
-  "author": "Ben Price",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Seth_Troxler,_Mint.jpg"
- },
  "max-cooper": {
   "file": "max-cooper.webp",
   "author": "JTs",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Selector_Pro_Kyiv_08-12-2017_Max_Cooper.jpg"
+ },
+ "seth-troxler": {
+  "file": "seth-troxler.webp",
+  "author": "Ben Price",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Seth_Troxler,_Mint.jpg"
  },
  "coone": {
   "file": "coone.webp",
@@ -646,6 +544,12 @@
   "author": "Sylvain lasco",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Fakear.jpg"
+ },
+ "joseph-capriati": {
+  "file": "joseph-capriati.webp",
+  "author": "Redimension Music Label",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pic_JC-Joseph_Capriati.jpg"
  },
  "lane-8": {
   "file": "lane-8.webp",
@@ -677,35 +581,29 @@
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Dave_Clarke.jpg"
  },
- "joseph-capriati": {
-  "file": "joseph-capriati.webp",
-  "author": "Redimension Music Label",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Pic_JC-Joseph_Capriati.jpg"
- },
- "stephan-bodzin": {
-  "file": "stephan-bodzin.webp",
-  "author": "https://www.flickr.com/photos/_timl/",
+ "paco-osuna": {
+  "file": "paco-osuna.webp",
+  "author": "Berenice Beltramino (Instagram, Linktree: bere.beltramino)",
   "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Stephan_Bodzin_2009_by_Tim.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Paco_Osuna_en_Buenos_Aires_(junio_de_2010).jpg"
  },
- "timmy-trumpet": {
-  "file": "timmy-trumpet.webp",
-  "author": "Q1q2q3qwertz",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Timmy_Trumpet_%40_Airbeat_One_2017.png"
- },
- "vieze-asbak": {
-  "file": "vieze-asbak.webp",
-  "author": "Tim van den Broek, BRAKKA MEDIA",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Nacht_Wacht_Unstoppable-93.jpg"
+ "a-guy-called-gerald": {
+  "file": "a-guy-called-gerald.webp",
+  "author": "Victor Frankowski for Southbank Centre",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:A_Guy_Called_Gerald_(2014,_cropped).jpg"
  },
  "above-beyond": {
   "file": "above-beyond.webp",
   "author": "Peter Drier",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Paavo_Siljamaki_Tony_McGuinness_cropped.jpg"
+ },
+ "anthony-rother": {
+  "file": "anthony-rother.webp",
+  "author": "Christoph Müller-Girod from Oberhausen, Germany",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Loveparade_2010_-_Pressekonferenz.jpg"
  },
  "blond-ish": {
   "file": "blond-ish.webp",
@@ -731,29 +629,23 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:PrepartyES_-_Gabry_Ponte_03_(cropped).jpg"
  },
- "john-summit": {
-  "file": "john-summit.webp",
-  "author": "Wynneplaga",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Summit_DJ%E2%80%99ing_at_Vail,_March_20th,_2026_(cropped).jpg"
- },
  "nicole-moudaber": {
   "file": "nicole-moudaber.webp",
   "author": "Krd",
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Nicole_Moudaber_03.jpg"
  },
- "paco-osuna": {
-  "file": "paco-osuna.webp",
-  "author": "Berenice Beltramino (Instagram, Linktree: bere.beltramino)",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Paco_Osuna_en_Buenos_Aires_(junio_de_2010).jpg"
+ "phuture-noize": {
+  "file": "phuture-noize.webp",
+  "author": "Q-Dance",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phuture_Noize_at_Defqon.1_2017.png"
  },
- "radical-redemption": {
-  "file": "radical-redemption.webp",
-  "author": "User:JoeJoeJoe93",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Radical_Redemption_(11).JPG"
+ "shygirl": {
+  "file": "shygirl.webp",
+  "author": "OnlyFans",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Shygirl.jpg"
  },
  "808-state": {
   "file": "808-state.webp",
@@ -761,29 +653,47 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Graham_Massey_2_-_MTFCentral_Hack_Camp_(2015-09-19_21.34.45_by_Music_Tech_Fest).jpg"
  },
- "a-guy-called-gerald": {
-  "file": "a-guy-called-gerald.webp",
-  "author": "Victor Frankowski for Southbank Centre",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:A_Guy_Called_Gerald_(2014,_cropped).jpg"
- },
  "act-of-rage": {
   "file": "act-of-rage.webp",
   "author": "Medusa Festival",
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Act_of_Rage_in_Medusa_Festival_podcast.png"
  },
- "anthony-rother": {
-  "file": "anthony-rother.webp",
-  "author": "Christoph Müller-Girod from Oberhausen, Germany",
+ "andy-stott": {
+  "file": "andy-stott.webp",
+  "author": "Tkiehne",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Andy_stott_cmky_2009.jpg"
+ },
+ "annie-mac": {
+  "file": "annie-mac.webp",
+  "author": "Amnesia Ibiza from Ibiza, Spain",
   "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Loveparade_2010_-_Pressekonferenz.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Annie_Mac.jpg"
+ },
+ "atmozfears": {
+  "file": "atmozfears.webp",
+  "author": "Q1q2q3qwertz",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Atmozfears_%40_Airbeat_One_2017.png"
+ },
+ "basement-jaxx": {
+  "file": "basement-jaxx.webp",
+  "author": "Tore Sætre",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Basement_Jaxx_(205218).jpg"
  },
  "benga": {
   "file": "benga.webp",
   "author": "Stuart Sevastos",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Benga_%40_Wellington_Square.jpg"
+ },
+ "black-sun-empire": {
+  "file": "black-sun-empire.webp",
+  "author": "Achim Raschka (talk)",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:13-03-29_Paaspop_BSE_01.jpg"
  },
  "blastoyz": {
   "file": "blastoyz.webp",
@@ -815,23 +725,11 @@
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Kelly_van_Soest1.jpg"
  },
- "felix-krocher": {
-  "file": "felix-krocher.webp",
-  "author": "Robin Krahl",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:2015-07-19_6639_Felix_Kr%C3%B6cher_(Sea_You).jpg"
- },
  "fox-stevenson": {
   "file": "fox-stevenson.webp",
   "author": "Sheet050",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Fox_Liqucity-36-of-71(2).jpg"
- },
- "groove-armada": {
-  "file": "groove-armada.webp",
-  "author": "Hamish2k",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Groove_Armada_at_Chi_Dubai.JPG"
  },
  "john-digweed": {
   "file": "john-digweed.webp",
@@ -869,11 +767,11 @@
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:2016_Open_Beatz_-_Lost_Frequencies_-_by_2eight_-DSC_5232.jpg"
  },
- "maddix": {
-  "file": "maddix.webp",
-  "author": "Ss279",
+ "mark-with-a-k": {
+  "file": "mark-with-a-k.webp",
+  "author": "Sven van Gestel",
   "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Maddix_Parookaville.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Mark_with_a_k-1687339145.jpeg"
  },
  "nathan-fake": {
   "file": "nathan-fake.webp",
@@ -886,12 +784,6 @@
   "author": "FROZYO!",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:NGHTMRE.jpg"
- },
- "phuture-noize": {
-  "file": "phuture-noize.webp",
-  "author": "Q-Dance",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Phuture_Noize_at_Defqon.1_2017.png"
  },
  "robert-hood": {
   "file": "robert-hood.webp",
@@ -911,12 +803,6 @@
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Sebastian_Ingrosso_(cropped).jpg"
  },
- "shygirl": {
-  "file": "shygirl.webp",
-  "author": "OnlyFans",
-  "license": "CC BY 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Shygirl.jpg"
- },
  "skepta": {
   "file": "skepta.webp",
   "author": "Raph_PH",
@@ -935,17 +821,59 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Speedy_J_(Seattle_2006).jpg"
  },
+ "underscores": {
+  "file": "underscores.webp",
+  "author": "georgeybuckley",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Underscores_in_Los_Angeles,_15_April_2026_(cropped).jpg"
+ },
+ "wildstylez": {
+  "file": "wildstylez.webp",
+  "author": "Denis Apel",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Airbeat_One_2015_Wildstylez_Joram_Metekohy_by_Denis_Apel-1064.jpg"
+ },
  "1200-micrograms": {
   "file": "1200-micrograms.webp",
   "author": "Scott Sandars",
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:1200_mics_(Raja_Ram_%26_Chicago).jpg"
  },
- "andy-stott": {
-  "file": "andy-stott.webp",
-  "author": "Tkiehne",
+ "afrojack": {
+  "file": "afrojack.webp",
+  "author": "DJ Meekz",
   "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Andy_stott_cmky_2009.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Afrojack_2015.jpg"
+ },
+ "agoria": {
+  "file": "agoria.webp",
+  "author": "Sylvain lasco",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Agoria._S%C3%A9bastien_Devaud._2012.jpg"
+ },
+ "alan-fitzpatrick": {
+  "file": "alan-fitzpatrick.webp",
+  "author": "Krd",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mayday_2015_Alan_Fitzpatrick_01.jpg"
+ },
+ "alison-wonderland": {
+  "file": "alison-wonderland.webp",
+  "author": "Eva Rinaldi",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alison_Wonderland_ARIA_2013_(2).jpg"
+ },
+ "alle-farben": {
+  "file": "alle-farben.webp",
+  "author": "Andreas Lawen, Fotandi",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alle_Farben_-_Rock_am_Ring_2019-3077.jpg"
+ },
+ "andrew-rayel": {
+  "file": "andrew-rayel.webp",
+  "author": "Micollar",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Andrew_Rayel.JPG"
  },
  "annie": {
   "file": "annie.webp",
@@ -953,41 +881,23 @@
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:AnnieTeatergarasjen1.jpg"
  },
- "annie-mac": {
-  "file": "annie-mac.webp",
-  "author": "Amnesia Ibiza from Ibiza, Spain",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Annie_Mac.jpg"
- },
  "aphex-twin": {
   "file": "aphex-twin.webp",
   "author": "Blackphoenix94",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Aphextwin1.jpg"
  },
- "astral-projection": {
-  "file": "astral-projection.webp",
-  "author": "TheWorldIsMine",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Astral_Projection_(live)_%40_B2B_(-8_26)_(2711050885).jpg"
- },
- "atmozfears": {
-  "file": "atmozfears.webp",
-  "author": "Q1q2q3qwertz",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Atmozfears_%40_Airbeat_One_2017.png"
+ "arielle-free": {
+  "file": "arielle-free.webp",
+  "author": "Hï Ibiza",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Arielle_Free_2023_01.png"
  },
  "b-front": {
   "file": "b-front.webp",
   "author": "Q-Dance",
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:B-Front_at_Defqon.1_2016.png"
- },
- "basement-jaxx": {
-  "file": "basement-jaxx.webp",
-  "author": "Tore Sætre",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Basement_Jaxx_(205218).jpg"
  },
  "benny-benassi": {
   "file": "benny-benassi.webp",
@@ -1001,11 +911,11 @@
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Bj%C3%B6rk_at_Cannes.jpg"
  },
- "black-sun-empire": {
-  "file": "black-sun-empire.webp",
-  "author": "Achim Raschka (talk)",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:13-03-29_Paaspop_BSE_01.jpg"
+ "blindside": {
+  "file": "blindside.webp",
+  "author": "Joris-Jan van den Boom from Nootdorp, Netherlands",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Flevo_2006_Blindside_(220197517).jpg"
  },
  "bon-entendeur": {
   "file": "bon-entendeur.webp",
@@ -1037,12 +947,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:BT_of_All_Hail_The_Silence_03_(cropped).jpg"
  },
- "buraka-som-sistema": {
-  "file": "buraka-som-sistema.webp",
-  "author": "Libertinus",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Buraka_Som_Sistema.jpg"
- },
  "carl-stone": {
   "file": "carl-stone.webp",
   "author": "George Quasha",
@@ -1066,12 +970,6 @@
   "author": "Denis Apel",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Airbeat_One_2015_Code_Black_Corey_Soljan_DJ_by_Denis_Apel-1027.jpg"
- },
- "crazy-p": {
-  "file": "crazy-p.webp",
-  "author": "Yves6",
-  "license": "CC BY-SA 2.5",
-  "page": "https://commons.wikimedia.org/wiki/File:Audioriver_2009_(98).jpg"
  },
  "darin-epsilon": {
   "file": "darin-epsilon.webp",
@@ -1109,11 +1007,11 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:DJ_Dag_01.jpg"
  },
- "dj-hype": {
-  "file": "dj-hype.webp",
-  "author": "Adam J Roberts",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:DJ_Hype,_Matrix,_and_Futurebound_at_Egg.jpg"
+ "dj-hell": {
+  "file": "dj-hell.webp",
+  "author": "FEMEN Women's Movement",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DJ_Hell,_2009_(cropped).jpg"
  },
  "dj-krush": {
   "file": "dj-krush.webp",
@@ -1121,11 +1019,29 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:DJ_Krush.jpg"
  },
+ "dj-marky": {
+  "file": "dj-marky.webp",
+  "author": "Moretti",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Dj_marky_at_lov.e_club.jpg"
+ },
  "dj-quicksilver": {
   "file": "dj-quicksilver.webp",
   "author": "Denis Apel",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:90er-Rave-2017-03-11-DJ-QUICKSILVER-flyingpixel.de-Denis-Apel--6581_(cropped).jpg"
+ },
+ "dj-spanish-fly": {
+  "file": "dj-spanish-fly.webp",
+  "author": "Mr. Zee's",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DJ_Spanish_Fly_in_2025.png"
+ },
+ "dj-spinna": {
+  "file": "dj-spinna.webp",
+  "author": "Coup d'Oreille",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DJ_Spinna_2014.jpg"
  },
  "don-diablo": {
   "file": "don-diablo.webp",
@@ -1133,17 +1049,53 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Don_Diablo_2022-1_(cropped).jpg"
  },
- "gms": {
-  "file": "gms.webp",
-  "author": "Wayanpalmieri",
-  "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:GMS_Press_2009.jpg"
+ "erika-de-casier": {
+  "file": "erika-de-casier.webp",
+  "author": "Ben",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Erika_de_Casier,_cropped.jpg"
+ },
+ "fabio": {
+  "file": "fabio.webp",
+  "author": "Dilvie",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:DJ_Fabio_Performs_-_2008.jpg"
+ },
+ "fennesz": {
+  "file": "fennesz.webp",
+  "author": "IntangibleArts",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Fennesz_in_Bethesda,_Maryland,_on_September_21,_2010_(5027816082).jpg"
+ },
+ "flux-pavilion": {
+  "file": "flux-pavilion.webp",
+  "author": "(capsulated)",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Flux_Pavilion23.jpg"
+ },
+ "frontliner": {
+  "file": "frontliner.webp",
+  "author": "Roan Hendriks",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Frontliner_at_Kolingsborg,_April_2012.JPG"
+ },
+ "giant-claw": {
+  "file": "giant-claw.webp",
+  "author": "LimeSkelly",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Giant_Claw_(Keith_Rankin)_performing_Die_Endlessly.jpg"
  },
  "gold-panda": {
   "file": "gold-panda.webp",
   "author": "Masao Nakagami",
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Gold_Panda.jpg"
+ },
+ "grooverider": {
+  "file": "grooverider.webp",
+  "author": "The original uploader was Alkivar at English Wikipedia.",
+  "license": "CC BY-SA 2.5",
+  "page": "https://commons.wikimedia.org/wiki/File:Grooverider.JPG"
  },
  "gui-boratto": {
   "file": "gui-boratto.webp",
@@ -1162,12 +1114,6 @@
   "author": "Robertalt3",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:HBz_Pressebild.jpg"
- },
- "hercules-love-affair": {
-  "file": "hercules-love-affair.webp",
-  "author": "Jovan Đokić, EXIT Photo Team",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:EXIT_2012_Hercules_%26_Love_Affair.jpg"
  },
  "hooja": {
   "file": "hooja.webp",
@@ -1199,12 +1145,6 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Ben_Watkins_of_Juno_Reactor_in_Portland_01.jpg"
  },
- "kaytranada": {
-  "file": "kaytranada.webp",
-  "author": "The Come Up Show",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Kaytranada_2016_September_(2).jpg"
- },
  "kelela": {
   "file": "kelela.webp",
   "author": "Tore Sætre",
@@ -1216,12 +1156,6 @@
   "author": "Thesupermat",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2017_-_Kery_James_-_077.jpg"
- },
- "klingande": {
-  "file": "klingande.webp",
-  "author": "Amolithis",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:KlingandeLandshut.jpg"
  },
  "kosheen": {
   "file": "kosheen.webp",
@@ -1259,6 +1193,12 @@
   "license": "CC BY 2.5",
   "page": "https://commons.wikimedia.org/wiki/File:Loscil-LiveMutek.jpg"
  },
+ "low-jack": {
+  "file": "low-jack.webp",
+  "author": "Vaudage",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:LJ_2015_press_03.jpg"
+ },
  "luke-slater": {
   "file": "luke-slater.webp",
   "author": "PhotoEventsAlsace",
@@ -1276,18 +1216,6 @@
   "author": "Selbymay",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:RIE2023Malaa_03.jpg"
- },
- "mark-with-a-k": {
-  "file": "mark-with-a-k.webp",
-  "author": "Sven van Gestel",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Mark_with_a_k-1687339145.jpeg"
- },
- "markus-schulz": {
-  "file": "markus-schulz.webp",
-  "author": "The original uploader was Skatebiker at English Wikipedia.",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Markus-shulz_at_mysteryland.jpg"
  },
  "mestiza": {
   "file": "mestiza.webp",
@@ -1318,6 +1246,18 @@
   "author": "Wiska Bodo",
   "license": "CC BY 2.5",
   "page": "https://commons.wikimedia.org/wiki/File:Neelix_(DJ)_-_01_Jun_2007.jpg"
+ },
+ "nick-warren": {
+  "file": "nick-warren.webp",
+  "author": "Maka2301",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nick_Warren_Wiki.jpeg"
+ },
+ "nicola-cruz": {
+  "file": "nicola-cruz.webp",
+  "author": "Ministerio de Cultura de la Nación",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Nicola_Cruz_en_Bellos_Jueves%22,_8%C2%B0_Edici%C3%B3n_en_el_MNBA_-_27_de_noviembre_de_2014.jpg"
  },
  "ofenbach": {
   "file": "ofenbach.webp",
@@ -1354,6 +1294,12 @@
   "author": "Teemu Rajala",
   "license": "CC BY 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:DJ_Orkidea.jpg"
+ },
+ "patrick-topping": {
+  "file": "patrick-topping.webp",
+  "author": "Wkathomson",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Patrick_Topping_DJ.jpg"
  },
  "paul-oakenfold": {
   "file": "paul-oakenfold.webp",
@@ -1397,12 +1343,6 @@
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:RP_Boo_%40_Pitchfork,_Chicago_7-16-2016_(28135851444).jpg"
  },
- "rudimental": {
-  "file": "rudimental.webp",
-  "author": "LouiseFerguson",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Kylie_Speer_interviewing_Rudimental_in_2013.JPG"
- },
  "rusko": {
   "file": "rusko.webp",
   "author": "John Puddephatt",
@@ -1433,12 +1373,6 @@
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Satoshi_Tomiie_(crop).jpg"
  },
- "scissor-sisters": {
-  "file": "scissor-sisters.webp",
-  "author": "Erin Mc",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Scissor_Sisters_2025.jpg"
- },
  "scratch-massive": {
   "file": "scratch-massive.webp",
   "author": "Richieman",
@@ -1450,24 +1384,6 @@
   "author": "Raph_PH",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Boardmasters2023_(36_of_171)_(53120651533).jpg"
- },
- "shimza": {
-  "file": "shimza.webp",
-  "author": "Andy Vuyo",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Dj_Shimza_with_Black_Coffee_Dj.jpg"
- },
- "sigala": {
-  "file": "sigala.webp",
-  "author": "Stefan Brending (2eight)",
-  "license": "CC BY-SA 3.0",
-  "page": "https://commons.wikimedia.org/wiki/File:2016_Open_Beatz_-_Sigala_-_by_2eight_-DSC_2748.jpg"
- },
- "stereo-mcs": {
-  "file": "stereo-mcs.webp",
-  "author": "No machine-readable author provided. Amire80 assumed (based on copyright claims).",
-  "license": "CC BY 2.5",
-  "page": "https://commons.wikimedia.org/wiki/File:Stereo_MCs_Orange_Music_Haifa_2005_03.jpg"
  },
  "steve-angello": {
   "file": "steve-angello.webp",
@@ -1493,12 +1409,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Berlin_Summer_Rave_2015_Talla_2XLC_Denis_Apel_P2.jpg"
  },
- "the-bloody-beetroots": {
-  "file": "the-bloody-beetroots.webp",
-  "author": "Jared Wiltshire",
-  "license": "CC BY-SA 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Bob_Rifo.jpg"
- },
  "the-martinez-brothers": {
   "file": "the-martinez-brothers.webp",
   "author": "Amnesia Ibiza from Ibiza, Spain",
@@ -1523,41 +1433,23 @@
   "license": "CC BY 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Toman_performing_at_Solid_Grooves_in_DC10_in_Ibiza_(2024).jpg"
  },
+ "tujiko-noriko": {
+  "file": "tujiko-noriko.webp",
+  "author": "Erin Resso from Seattle, WA, US",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Noriko_Tujiko_at_Decibel_08_(cropped).jpg"
+ },
  "ummet-ozcan": {
   "file": "ummet-ozcan.webp",
   "author": "Ummet Ozcan",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Ummet_Ozcan.jpg"
  },
- "underscores": {
-  "file": "underscores.webp",
-  "author": "georgeybuckley",
-  "license": "CC BY 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Underscores_in_Los_Angeles,_15_April_2026_(cropped).jpg"
- },
- "w-w": {
-  "file": "w-w.webp",
-  "author": "Q1q2q3qwertz",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:W%26W_%40_Airbeat_One_2016.jpg"
- },
  "wasted-penguinz": {
   "file": "wasted-penguinz.webp",
   "author": "WastedPenguinz",
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:WP-PRESS.tif"
- },
- "wildstylez": {
-  "file": "wildstylez.webp",
-  "author": "Denis Apel",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Airbeat_One_2015_Wildstylez_Joram_Metekohy_by_Denis_Apel-1064.jpg"
- },
- "wolfgang-voigt": {
-  "file": "wolfgang-voigt.webp",
-  "author": "Alec Luhn",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Voigt_2012.jpg"
  },
  "worakls": {
   "file": "worakls.webp",
@@ -1576,5 +1468,251 @@
   "author": "Thesupermat",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_004_(cropped).jpg"
+ },
+ "boys-noize": {
+  "file": "boys-noize.webp",
+  "author": "Denis Ignatov",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Boys_Noize_2012.jpg"
+ },
+ "the-prodigy": {
+  "file": "the-prodigy.webp",
+  "author": "JRSZ99",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Liamhowlettsynths.jpg"
+ },
+ "timmy-trumpet": {
+  "file": "timmy-trumpet.webp",
+  "author": "P-Falkenhagen",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Timmy-trumpet-gg.jpg"
+ },
+ "underworld": {
+  "file": "underworld.webp",
+  "author": "Tore Sætre",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Karl_Hyde_Underworld_(223726).jpg"
+ },
+ "felix-krocher": {
+  "file": "felix-krocher.webp",
+  "author": "Jörg Padberg",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2014-08-23_Felix_Kr%C3%B6cher_at_Echelon_2014_0954.JPG"
+ },
+ "phace": {
+  "file": "phace.webp",
+  "author": "Phaceofficial",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Phace.png"
+ },
+ "tricky": {
+  "file": "tricky.webp",
+  "author": "Alexey Komarov",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2012-11-15_Tricky_performing_in_Krasnodar.jpg"
+ },
+ "buraka-som-sistema": {
+  "file": "buraka-som-sistema.webp",
+  "author": "Prometheusrun",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Buraka_Som_Sistema_at_NH7_Weekender_2012.jpg"
+ },
+ "chuquimamani-condori": {
+  "file": "chuquimamani-condori.webp",
+  "author": "Artist Boychild",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Elysia_Crampton_by_Boychild.jpg"
+ },
+ "demdike-stare": {
+  "file": "demdike-stare.webp",
+  "author": "deepskyobject",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Demdike_Stare_%40_Sideways,_Helsinki,_Finland,_09.06.2017.jpg"
+ },
+ "emiliana-torrini": {
+  "file": "emiliana-torrini.webp",
+  "author": "Martijn van de Streek from The Netherlands",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Emil%C3%ADana_Torrini_at_Het_Paradiso_Amsterdam.jpg"
+ },
+ "lady-waks": {
+  "file": "lady-waks.webp",
+  "author": "Oleg Babenko",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_lady_waks.jpg"
+ },
+ "markus-schulz": {
+  "file": "markus-schulz.webp",
+  "author": "Tony Nungaray",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Markus_schulz_sutra_oc.jpg"
+ },
+ "sigala": {
+  "file": "sigala.webp",
+  "author": "Katierandall",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:SIGALA_PRESS0117_5.jpg"
+ },
+ "todd-edwards": {
+  "file": "todd-edwards.webp",
+  "author": "Rohrm",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Toddedwardstogether2012.jpg"
+ },
+ "w-w": {
+  "file": "w-w.webp",
+  "author": "Patrick Diepstraten",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:W%26W_with_a_Fan_%40_Breda_Dance_Music_Festival.png"
+ },
+ "wolfgang-voigt": {
+  "file": "wolfgang-voigt.webp",
+  "author": "Alec Luhn",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Voigt_2012_(cropped).jpg"
+ },
+ "yellow-claw": {
+  "file": "yellow-claw.webp",
+  "author": "Julia Keiser",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Yellow_Claw_%40_Lollapalooza_2017.jpg"
+ },
+ "david-guetta": {
+  "file": "david-guetta.webp",
+  "author": "Alain Zirah from Paris, France",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Guetta.jpg"
+ },
+ "radical-redemption": {
+  "file": "radical-redemption.webp",
+  "author": "User:JoeJoeJoe93",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Radical_Redemption_(1).JPG"
+ },
+ "groove-armada": {
+  "file": "groove-armada.webp",
+  "author": "Diego DeNicola from Melburn, Australia",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Groove_Armada_Andy_Cato.jpg"
+ },
+ "jennifer-cardini": {
+  "file": "jennifer-cardini.webp",
+  "author": "SHARE conference from Belgrade, Serbia",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jennifer_Cardini.jpg"
+ },
+ "john-summit": {
+  "file": "john-summit.webp",
+  "author": "InvadingInvader",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Summit_LIV_Miami_June_2025.png"
+ },
+ "amber-broos": {
+  "file": "amber-broos.webp",
+  "author": "Tgsflash",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Amber_Broos.png"
+ },
+ "ayah-marar": {
+  "file": "ayah-marar.webp",
+  "author": "Photographer.JuliaMustard",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ayah_Marar_at_SXSW_London_2026.jpg"
+ },
+ "gogol-bordello": {
+  "file": "gogol-bordello.webp",
+  "author": "Vladimir from New York, NY",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gogol_Bordello_(49286088566).jpg"
+ },
+ "joakim-lundell": {
+  "file": "joakim-lundell.webp",
+  "author": "MyNewsDesk",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Joakim_Lundell_in_2017.jpg"
+ },
+ "jorja-smith": {
+  "file": "jorja-smith.webp",
+  "author": "Justin Higuchi from Los Angeles, CA, USA",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jorja_Smith_04_18_2018_-1_(41637977611).jpg"
+ },
+ "kim-petras": {
+  "file": "kim-petras.webp",
+  "author": "MTV International",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kim_Petras.png"
+ },
+ "leon-vynehall": {
+  "file": "leon-vynehall.webp",
+  "author": "Phil Sharp",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Leon_Vynehall_Press_Shot_Credit_Phil_Sharp.jpg"
+ },
+ "alan-walker": {
+  "file": "alan-walker.webp",
+  "author": "Maximilian Wild",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alan_Walker.jpg"
+ },
+ "alexis-cabrera": {
+  "file": "alexis-cabrera.webp",
+  "author": "Federació d'Escacs Valls d'Andorra from Andorra",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexis_Cabrera_(ESP).jpg"
+ },
+ "andreas-kraemer": {
+  "file": "andreas-kraemer.webp",
+  "author": "JoeJoeJoe93",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Andreas_Kraemer.JPG"
+ },
+ "christy-moore": {
+  "file": "christy-moore.webp",
+  "author": "Sinn Féin",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Christy_Moore_sings_at_the_Graveside._(33263729830).jpg"
+ },
+ "cleveland-watkiss": {
+  "file": "cleveland-watkiss.webp",
+  "author": "Richard Kaby",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Cleveland_Watkiss.jpg"
+ },
+ "descartes-a-kant": {
+  "file": "descartes-a-kant.webp",
+  "author": "Gerardo Ramírez / Secretaría de Cultura de la CDMX",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Descartes_a_Kant.jpg"
+ },
+ "flo-rida": {
+  "file": "flo-rida.webp",
+  "author": "Eva Rinaldi",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Flo_Rida,_2012.jpg"
+ },
+ "franck-vigroux": {
+  "file": "franck-vigroux.webp",
+  "author": "Andy Newcombe from Farnborough, UK",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Franck_Vigroux.jpg"
+ },
+ "gary-bartz": {
+  "file": "gary-bartz.webp",
+  "author": "Bob Travis Casco, Maine, USA",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gary_Bartz.jpg"
+ },
+ "gerald-cleaver": {
+  "file": "gerald-cleaver.webp",
+  "author": "Tore Sætre",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Gerald_Cleaver_Cosmopolite_(214117).jpg"
+ },
+ "giorgio-poi": {
+  "file": "giorgio-poi.webp",
+  "author": "Danilo Samà · www.danilosama.ph",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Giorgio_Poi,_Fiore_Verde_Festival,_Trabendo,_Paris,_France_(16-06-2023)_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg"
  }
 }
