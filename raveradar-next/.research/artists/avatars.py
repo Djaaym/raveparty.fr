@@ -141,6 +141,10 @@ CACHE = Path(__file__).resolve().parent / "commons-cache.json"
 # re-télécharge trois cents fichiers chez Wikimedia, donc coûte un quart d'heure et
 # finit en 429. Une image de Commons ne change pas, son cache non plus.
 SRCS = Path(__file__).resolve().parent / ".srcs"
+# Les photos déposées à la main, avec leurs termes de réutilisation dans `sources.json`.
+# Elles sont **versionnées**, contrairement au cache : ce sont des originaux qu'on ne
+# peut pas re-télécharger.
+LOCAL = Path(__file__).resolve().parent / "local"
 
 from PIL import Image, ImageOps
 
@@ -712,22 +716,28 @@ def try_candidate(slug: str, c: dict, groups: set, seen_hash: dict, args):
     cette image montre-t-elle l'artiste, assez grand et assez net pour être publiée.
     """
     url, author, lic, page = c["url"], c["author"], c["license"], c["page"]
-    if not url.startswith("https://upload.wikimedia.org/"):
+    local = c.get("via") == "fourni"
+    if not local and not url.startswith("https://upload.wikimedia.org/"):
         return None, "hors Wikimedia Commons"
     if not (author and lic and page):
         return None, "auteur ou licence manquant → réutilisation non conforme"
     try:
-        raw = source_bytes(url, args.force)
+        raw = (LOCAL / url).read_bytes() if local else source_bytes(url, args.force)
         img = ImageOps.exif_transpose(Image.open(io.BytesIO(raw))).convert("RGB")
     except Exception as e:
-        return None, f"téléchargement/décodage : {str(e)[:60]}"
+        return None, f"{'lecture' if local else 'téléchargement'}/décodage : {str(e)[:60]}"
     if min(img.size) < MIN_SRC:
         return None, f"trop petite ({img.size[0]}×{img.size[1]})"
 
     box = None
     if cv2 is not None and slug not in MASKED:
-        box, why = pick_frame(img, faces_of(img), slug in groups)
-        if box is None:
+        # Sur un fichier **fourni**, la question « qui est sur la photo » est déjà
+        # tranchée par celui qui l'a déposé : les garde-fous d'identité (deux visages
+        # comparables, aucun visage) n'ont plus rien à arbitrer, et refuser la photo de
+        # I Hate Models parce qu'il porte un masque serait absurde. La détection ne sert
+        # plus qu'à cadrer, et le cadrage géométrique reste le repli.
+        box, why = pick_frame(img, faces_of(img), slug in groups or local)
+        if box is None and not local:
             return None, why
 
     h = hashlib.sha1(raw).hexdigest()[:10]
@@ -737,7 +747,7 @@ def try_candidate(slug: str, c: dict, groups: set, seen_hash: dict, args):
     src, box = upscale_source(img, box, c, args.force)
     crop = square(src, box)
     sharp = sharpness(crop)
-    if cv2 is not None and sharp < MIN_SHARP:
+    if cv2 is not None and not local and sharp < MIN_SHARP:
         return None, f"carré final trop flou (netteté {sharp:.0f} < {MIN_SHARP})"
     seen_hash[h] = slug
 
@@ -793,6 +803,37 @@ def main() -> int:
                 descs.setdefault(_k, _v.get("desc") or "")
                 if GROUP_DESC.search(_v.get("desc") or ""):
                     groups.add(_k)
+
+    # --- les photos déposées à la main -----------------------------------------
+    # La route qui **prime sur toutes les autres** : quand quelqu'un dépose une photo,
+    # c'est qu'il a une raison, et il a vu l'image. Elle ne dispense pas de déclarer
+    # l'auteur et la licence, qui restent la condition d'affichage sur la fiche (voir
+    # l'en-tête de lib/artist-photos.ts) : sans eux, l'entrée est refusée comme les
+    # autres. C'est aussi la seule route qui accepte autre chose que Commons, donc la
+    # seule où la responsabilité des droits est celle du déposant, pas d'une licence
+    # lue par le script.
+    src_file = LOCAL / "sources.json"
+    if src_file.exists():
+        try:
+            local_rows = json.loads(src_file.read_text())
+        except json.JSONDecodeError as e:
+            print(f"✗ local/sources.json : JSON invalide ({e})")
+            return 1
+        for r in local_rows:
+            slug = (r.get("slug") or slugify(r.get("name") or "")).strip()
+            f = (r.get("file") or "").strip()
+            if not slug or not f:
+                print(f"  ✗ entrée locale sans slug ni fichier : {r}")
+                continue
+            if not (LOCAL / f).exists():
+                print(f"  ✗ {f} introuvable dans {LOCAL}")
+                continue
+            add(slug, {"name": r.get("name") or slug, "url": f, "orig": "", "bytes": 0,
+                       "w": 0, "cats": [], "via": "fourni",
+                       "author": (r.get("author") or "").strip(),
+                       "license": (r.get("license") or "").strip(),
+                       "page": (r.get("page") or r.get("source") or "").strip()})
+        print(f"{len(local_rows)} photo(s) déposée(s) dans .research/artists/local/")
 
     # Tous les titres Commons dont on aura besoin, résolus en lots de cinquante avant
     # d'entrer dans les boucles : une requête par fichier prend un 429 au bout de
@@ -864,7 +905,10 @@ def main() -> int:
         """Essaie les candidats d'un artiste jusqu'à ce que l'un passe les garde-fous."""
         if slug in out_map:
             return
-        if slug in SKIP:
+        # Une photo déposée à la main passe **devant `SKIP`** : la liste dit « aucun
+        # fichier trouvé ne montre cet artiste », pas « cet artiste n'aura pas de
+        # portrait ». Déposer un fichier, c'est justement répondre à ce manque.
+        if slug in SKIP and entries[0].get("via") != "fourni":
             skipped[slug] = (entries[0]["name"], "écarté à la relecture : " + SKIP[slug])
             return
         for c in entries[:MAX_TRIES]:
