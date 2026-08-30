@@ -123,6 +123,12 @@ SKIP: dict[str, str] = {
     "will-atkinson": "homonyme : la photo montre le footballeur, en maillot",
     "maribou-state": "vignette illisible, l'artiste est à contre-jour et de dos",
     "the-blaze": "le cadre tombe sur le public, pas sur le duo",
+    "infected-mushroom": "photo du concert de Chicago, mais le cadre tombe sur un décor",
+    "jean-pierre": "homonyme : « Jean Pierre Audour », le préfixe du nom ne suffit pas",
+    "sarah-de-warren": "le cadre ne montre qu'une casquette dans le noir",
+    "scissor-sisters": "photo de scène trop sombre, on ne reconnaît personne",
+    "yu-ching": "homonyme : un homme âgé masqué, ce n'est pas l'artiste",
+    "kaboutertje-putlucht": "le cadre ne montre qu'un praticable de scène",
 }
 # Duotone : ombres vers le bleu-violet du site, hautes lumières vers un blanc chaud.
 SHADOW = (26, 22, 48)
@@ -679,6 +685,14 @@ def about_the_artist(entry: dict, name: str) -> bool:
     à l'oeil** : Commons range un homonyme parfait (« Alex Stein ») exactement comme
     l'artiste. Ce que la mesure ne voit pas finit dans `SKIP`.
     """
+    # **Un fichier dans le domaine public n'est pas la photo d'un DJ vivant.** Sur cette
+    # route, « Public domain » a rendu un secrétaire d'État américain pour James Baker,
+    # un portrait à l'huile du XVIIIe pour James Monro, un capitaine de sauvetage de 1890
+    # pour Joshua James et un tableau de la collection Vanderbilt pour Maria Louisa. Les
+    # photos récentes de Commons sont en CC (ou en CC0) ; le domaine public par
+    # expiration, ou parce que l'auteur est une agence fédérale, désigne autre chose.
+    if re.match(r"(public domain|pd[\s-])", (entry.get("license") or "").strip(), re.I):
+        return False
     cats = entry.get("cats") or []
     key = slugify(name)
     for c in cats:
@@ -861,6 +875,18 @@ def main() -> int:
                 return
             skipped[slug] = (c["name"], why)
 
+    def note_empty(slug: str, name: str, entries: list) -> None:
+        """Un filtre qui ne laisse rien passer est une décision, pas une panne.
+
+        La distinction compte pour la conservation plus bas : sans cette trace, un
+        artiste dont tous les fichiers viennent d'être refusés (licence de domaine
+        public, catégorie d'homonyme) ressemblait à un artiste que Commons n'avait pas
+        eu le temps de servir, et son ancien portrait était **remis**, filtres compris.
+        """
+        if not entries and slug not in out_map:
+            skipped.setdefault(slug, (name, "aucun fichier retenu par les filtres de nom, "
+                                            "de licence ou de catégorie"))
+
     for slug, entries in cands.items():
         run(slug, entries)
 
@@ -894,6 +920,7 @@ def main() -> int:
             # d'être un portrait que la photo de foule versée dans la même catégorie.
             key = slugify(catalogue[slug]["name"])
             entries.sort(key=lambda e: (key not in slugify(e.get("title", "")), -(e.get("bytes") or 0)))
+            note_empty(slug, catalogue[slug]["name"], entries)
             run(slug, entries)
 
     # --- troisième tour : la recherche par titre ------------------------------
@@ -929,7 +956,32 @@ def main() -> int:
             # Le titre le plus court d'abord : « David Guetta.jpg » est un portrait,
             # « David Guetta @ the Aragon, Chicago 4 4 2014 » est une photo de concert.
             entries.sort(key=lambda e: (len(e.get("title") or ""), -(e.get("bytes") or 0)))
+            note_empty(slug, name, entries)
             run(slug, entries)
+
+    # --- ce qu'un 429 ne doit pas emporter ------------------------------------
+    # Le script rejuge tout le corpus à chaque passage, ce qui est le bon choix (une
+    # règle nouvelle s'applique alors aussi à l'ancien), mais ça rend un portrait déjà
+    # publié dépendant du fait que Commons réponde aujourd'hui. Un lot de licences en
+    # 429, et Emiliana Torrini ou Underworld disparaissaient du site sans qu'aucune
+    # règle ne les ait refusés. **Un refus n'est pas une réponse** (même leçon que les
+    # 503 MusicBrainz enregistrés en « artiste introuvable » dans harvest.py) : seul un
+    # garde-fou qui a vu l'image peut retirer un portrait ; une panne de réseau, non.
+    prev_file = HERE / "avatars.json"
+    prev = json.loads(prev_file.read_text()) if prev_file.exists() else {}
+    held = []
+    for slug, entry in prev.items():
+        if slug in out_map or slug in SKIP or not (OUT / entry["file"]).exists():
+            continue
+        why = skipped.get(slug, (None, "aucun candidat résolu ce passage"))[1]
+        if "téléchargement" in why or "HTTP" in why or "aucun candidat" in why:
+            out_map[slug] = entry
+            skipped.pop(slug, None)
+            held.append((slug, why))
+    if held:
+        print(f"\n{len(held)} portrait(s) conservé(s) tels quels, Commons n'ayant pas répondu :")
+        for slug, why in held:
+            print(f"  ~ {slug:30} {why[:60]}")
 
     kept = len(out_map)
     print(f"\n{kept} portrait(s) · {len(skipped)} artiste(s) écarté(s)")
