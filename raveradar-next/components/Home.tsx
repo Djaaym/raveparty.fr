@@ -56,6 +56,53 @@ export default function Home({ lang }: { lang: Lang }) {
         </div>
       </div>
 
+      {/* Organisateurs. Il y avait ici trois formules tarifaires (Raver gratuit,
+          Radar+ à 6 €, Promoteur à 39 €) en bas de page, sous cinq sections : elles
+          vendaient un abonnement qui n'existe pas, et elles reléguaient la seule
+          contribution qu'on cherche vraiment à obtenir. Un annuaire ne vaut que par ce
+          qu'il référence, et ce que le catalogue ne peut pas aller chercher tout seul,
+          ce sont les dates que leurs organisateurs connaissent avant tout le monde.
+          D'où un bandeau, haut dans la page et compact : il passe avant les grilles
+          sans les repousser sous la ligne de flottaison. */}
+      <section className="section-sm" id="organisateurs">
+        <div className="wrap">
+          <div className="promote">
+            <div className="promote-pitch">
+              <span className="eyebrow">{t("promote.eyebrow")}</span>
+              <h2 className="h-lg" style={{ margin: "14px 0 10px" }}>
+                {t("promote.title")}
+              </h2>
+              {/* Les chiffres viennent du calendrier, jamais d'une promesse ronde :
+                  c'est la même règle que les compteurs des pilules de ville. */}
+              <p className="lead">
+                {t("promote.lead").replace("{n}", String(live.length)).replace("{c}", String(COUNTRIES.length))}
+              </p>
+              <div className="promote-actions">
+                <Link href={`${p}/organizer`} className="btn btn-primary">
+                  {t("promote.cta")}
+                </Link>
+                <Link href={`${p}/account`} className="btn btn-ghost">
+                  {t("promote.cta2")}
+                </Link>
+              </div>
+              <p className="promote-free">{t("promote.free")}</p>
+            </div>
+
+            <ul className="promote-list">
+              {[1, 2, 3, 4].map((i) => (
+                <li key={i}>
+                  <span className="promote-num">{i}</span>
+                  <span>
+                    <b>{t(`promote.f${i}.t`)}</b>
+                    {t(`promote.f${i}.d`)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
       {/* trending */}
       <section className="section">
         <div className="wrap">
@@ -156,70 +203,6 @@ export default function Home({ lang }: { lang: Lang }) {
               ))}
             </div>
           </Reveal>
-        </div>
-      </section>
-
-      {/* premium */}
-      <section className="section" id="premium">
-        <div className="wrap">
-          <Reveal>
-            <div className="section-head">
-              <div>
-                <span className="eyebrow">{t("premium.eyebrow")}</span>
-                <h2 className="h-lg" style={{ marginTop: 14 }}>
-                  {t("premium.title")}
-                </h2>
-              </div>
-            </div>
-          </Reveal>
-          <div className="plans">
-            <div className="plan">
-              <h3 className="h-md">{t("plan.raver.title")}</h3>
-              <div className="price">{t("plan.raver.price")}</div>
-              <ul>
-                <li>{t("plan.raver.f1")}</li>
-                <li>{t("plan.raver.f2")}</li>
-                <li>{t("plan.raver.f3")}</li>
-                <li>{t("plan.raver.f4")}</li>
-              </ul>
-              <Link href={`${p}/account`} className="btn btn-ghost btn-block">
-                {t("plan.raver.cta")}
-              </Link>
-            </div>
-            <div className="plan featured">
-              <span className="ribbon">{t("plan.popular")}</span>
-              <h3 className="h-md">Radar+</h3>
-              <div className="price">
-                €6<small>{t("plan.month")}</small>
-              </div>
-              <ul>
-                <li>{t("plan.radar.f1")}</li>
-                <li>{t("plan.radar.f2")}</li>
-                <li>{t("plan.radar.f3")}</li>
-                <li>{t("plan.radar.f4")}</li>
-                <li>{t("plan.radar.f5")}</li>
-              </ul>
-              <Link href={`${p}/account`} className="btn btn-primary btn-block">
-                {t("plan.radar.cta")}
-              </Link>
-            </div>
-            <div className="plan">
-              <h3 className="h-md">{t("plan.promoter.title")}</h3>
-              <div className="price">
-                €39<small>{t("plan.month")}</small>
-              </div>
-              <ul>
-                <li>{t("plan.promoter.f1")}</li>
-                <li>{t("plan.promoter.f2")}</li>
-                <li>{t("plan.promoter.f3")}</li>
-                <li>{t("plan.promoter.f4")}</li>
-                <li>{t("plan.promoter.f5")}</li>
-              </ul>
-              <Link href={`${p}/organizer`} className="btn btn-ghost btn-block">
-                {t("plan.promoter.cta")}
-              </Link>
-            </div>
-          </div>
         </div>
       </section>
 
