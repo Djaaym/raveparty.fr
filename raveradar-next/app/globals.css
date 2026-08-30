@@ -168,13 +168,18 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .btn-block { width: 100%; }
 
 /* ----------------------------- HERO ------------------------------------ */
-.hero { position: relative; padding-top: 80px; padding-bottom: 64px; overflow: hidden; }
+.hero { position: relative; padding-top: 80px; padding-bottom: 64px; }
+/* Le clip des couches décoratives. Il était sur `.hero`, où il coupait aussi le menu
+   de suggestions de l'omnibox : celui-ci s'ouvre sous la barre, donc au bas de la
+   section, et il était tranché au ras du hero, sous le marquee. Rien d'utile n'est
+   perdu, cette boîte ne contient que le visuel, la grille et le laser. */
+.hero-fx { position: absolute; inset: 0; overflow: hidden; z-index: -1; }
 /* Le visuel lui-même est un <img> dans Hero.tsx, une URL enterrée ici n'était
    trouvable ni par le preload scanner, ni par Google Images, et sans `alt`. Ce
    conteneur ne porte plus que ce qui relève bien du style : le masque radial,
    l'opacité et le lent zoom. */
 .hero-photo {
-  position: absolute; inset: 0; z-index: -2; opacity: .42;
+  position: absolute; inset: 0; z-index: 0; opacity: .42;
   mask-image: radial-gradient(80% 80% at 50% 20%, #000 35%, transparent 80%);
   animation: heroZoom 24s var(--ease) infinite alternate;
 }
@@ -187,7 +192,7 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 }
 @keyframes heroZoom { to { transform: scale(1.08); } }
 .hero-grid {
-  position: absolute; inset: 0; z-index: -1; opacity: .35;
+  position: absolute; inset: 0; z-index: 1; opacity: .35;
   background-image:
     linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
@@ -195,11 +200,11 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
   mask-image: radial-gradient(70% 60% at 50% 30%, #000 30%, transparent 75%);
 }
 /* laser sweep */
-.hero::before {
+.hero-fx::before {
   content: ""; position: absolute; top: 0; left: 50%; width: 2px; height: 120%;
   background: linear-gradient(var(--cyan), transparent);
   filter: blur(2px); opacity: .5; transform-origin: top center;
-  animation: laser 7s linear infinite; z-index: -1;
+  animation: laser 7s linear infinite; z-index: 2;
 }
 @keyframes laser { 0%{ transform: rotate(-28deg) } 50%{ transform: rotate(28deg) } 100%{ transform: rotate(-28deg) } }
 
@@ -218,23 +223,153 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .hero-center { text-align: center; max-width: 900px; margin-inline: auto; }
 .hero-center .lead { text-align: center; }
 
-/* Search bar */
-.search {
-  display: grid; grid-template-columns: 1.3fr 1fr 1fr 1fr auto; gap: 8px;
-  background: rgba(14,15,22,.7); border: 1px solid var(--line);
-  border-radius: var(--r-lg); padding: 10px; max-width: 980px; margin: 0 auto;
-  backdrop-filter: blur(16px); box-shadow: var(--shadow-card);
+/* ------------------------- OMNIBOX (hero search) -----------------------
+   Une seule entrée, qui accepte tout ce que le site indexe : un artiste, un
+   festival, une soirée, une ville, un club, un genre, un pays. Les quatre champs
+   d'avant (Ville / Pays / Mois / Genre) disaient l'inverse : « Ville » promettait
+   qu'un nom d'artiste n'y avait pas sa place, et il n'y trouvait effectivement
+   rien. Les facettes restent, en pilules sous la barre, là où on les prend après
+   coup et pas avant d'avoir su quoi taper. */
+
+/* L'angle du liseré animé. Déclaré en @property pour qu'il soit interpolable :
+   sans ça une variable custom saute d'une valeur à l'autre, elle ne s'anime pas.
+   Un navigateur qui ignore @property garde simplement le liseré immobile. */
+@property --omni-a { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+
+.omni { position: relative; max-width: 780px; margin: 0 auto; z-index: 20; text-align: left; }
+.omni-bar {
+  position: relative; display: flex; align-items: center; gap: 10px;
+  padding: 8px 8px 8px 20px; border-radius: 99px;
+  background: rgba(10,11,17,.72); border: 1px solid var(--line);
+  backdrop-filter: blur(18px) saturate(140%); box-shadow: var(--shadow-card);
+  transition: border-color .3s var(--ease), box-shadow .3s var(--ease), transform .3s var(--ease);
 }
-.search-field { display: flex; flex-direction: column; padding: 8px 14px; border-radius: var(--r-md); transition: background .25s; position: relative; }
-.search-field:hover { background: var(--line-soft); }
-.search-field label { font-family: var(--f-mono); font-size: .62rem; letter-spacing: .2em; text-transform: uppercase; color: var(--grey-2); margin-bottom: 3px; }
-.search-field input, .search-field select {
-  background: none; border: 0; outline: none; color: var(--white); font-size: .95rem; font-weight: 500; width: 100%; cursor: pointer;
+.omni-bar:hover { border-color: #33364a; }
+/* Le liseré dégradé : un fond conique masqué en anneau, plutôt qu'une bordure,
+   parce qu'une border-image ne suit pas un border-radius de 99px. */
+.omni-bar::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px;
+  background: conic-gradient(from var(--omni-a), var(--blue), var(--violet), var(--magenta), var(--cyan), var(--blue));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  opacity: 0; transition: opacity .35s var(--ease); pointer-events: none;
 }
-.search-field select option { background: var(--anthracite); }
-.search-field input::placeholder { color: var(--grey-3); }
-.search-go { display: flex; align-items: center; }
-.search-go .btn { height: 100%; padding-inline: 24px; }
+.omni.is-focus .omni-bar { border-color: transparent; box-shadow: var(--shadow-card), var(--glow-violet); }
+.omni.is-focus .omni-bar::before { opacity: 1; animation: omni-spin 5s linear infinite; }
+@keyframes omni-spin { to { --omni-a: 360deg; } }
+@media (prefers-reduced-motion: reduce) { .omni.is-focus .omni-bar::before { animation: none; } }
+
+.omni-glass { font-size: 1.25rem; line-height: 1; color: var(--grey-2); flex: none; transition: color .3s; }
+.omni.is-focus .omni-glass { color: var(--cyan); }
+.omni-input {
+  flex: 1; min-width: 0; background: none; border: 0; outline: none;
+  color: var(--white); font-family: var(--f-body); font-size: 1.02rem; font-weight: 500; padding: 12px 0;
+}
+.omni-input::placeholder { color: var(--grey-2); }
+.omni-clear {
+  flex: none; width: 26px; height: 26px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--line-soft); color: var(--grey); font-size: .72rem; line-height: 1;
+}
+.omni-clear:hover { background: rgba(255,255,255,.12); color: #fff; }
+.omni-go {
+  flex: none; border: 0; cursor: pointer; border-radius: 99px; padding: 13px 26px;
+  background: var(--grad-main); color: #fff; font-family: var(--f-display); font-weight: 700; font-size: .92rem;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+.omni-go:hover { transform: translateY(-1px); box-shadow: var(--glow-magenta); }
+
+/* Le menu de suggestions */
+.omni-panel {
+  position: absolute; top: calc(100% + 12px); left: 0; right: 0; z-index: 40;
+  border-radius: var(--r-lg); border: 1px solid var(--line); overflow: hidden;
+  /* Opaque, pas translucide : le menu s'ouvre par-dessus le marquee et le grand
+     titre blanc de la section suivante, et 4 % de blanc qui traversent suffisent à
+     rendre les suggestions illisibles. Le flou reste, pour le bord. */
+  background: var(--black-2); backdrop-filter: blur(22px);
+  box-shadow: 0 34px 90px -24px rgba(0,0,0,.92);
+  animation: omni-drop .22s var(--ease) both;
+  max-height: min(62vh, 520px); overflow-y: auto; overscroll-behavior: contain;
+}
+@keyframes omni-drop { from { opacity: 0; transform: translateY(-8px); } }
+.omni-group + .omni-group { border-top: 1px solid var(--line-soft); }
+.omni-group-label {
+  font-family: var(--f-mono); font-size: .58rem; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--grey-2); padding: 12px 18px 5px;
+}
+.omni-item {
+  display: flex; align-items: center; gap: 12px; width: 100%; text-align: left;
+  padding: 8px 14px 8px 12px; background: none; border: 0; cursor: pointer; color: var(--white);
+  font-family: inherit; font-size: .93rem;
+}
+.omni-item.on { background: linear-gradient(90deg, rgba(139,92,255,.16), rgba(255,45,155,.06)); }
+.omni-ico {
+  flex: none; width: 34px; height: 34px; border-radius: 11px; display: grid; place-items: center;
+  font-size: .95rem; background: rgba(255,255,255,.05); border: 1px solid var(--line-soft);
+}
+.omni-ico.k-artist  { background: linear-gradient(140deg, rgba(139,92,255,.28), rgba(47,123,255,.12)); }
+.omni-ico.k-festival{ background: linear-gradient(140deg, rgba(255,45,155,.28), rgba(139,92,255,.12)); }
+.omni-ico.k-event   { background: linear-gradient(140deg, rgba(47,123,255,.28), rgba(25,231,255,.12)); }
+.omni-ico.k-city    { background: linear-gradient(140deg, rgba(25,231,255,.24), rgba(47,123,255,.12)); }
+.omni-ico.k-venue   { background: linear-gradient(140deg, rgba(198,255,61,.20), rgba(25,231,255,.10)); }
+.omni-ico.k-genre   { background: linear-gradient(140deg, rgba(255,45,155,.22), rgba(25,231,255,.12)); }
+.omni-ico.k-country { background: linear-gradient(140deg, rgba(255,255,255,.10), rgba(255,255,255,.02)); }
+.omni-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.omni-name mark { background: none; color: var(--cyan); font-weight: 700; }
+.omni-meta { flex: none; font-size: .74rem; color: var(--grey-2); font-family: var(--f-mono); }
+.omni-past {
+  flex: none; font-family: var(--f-mono); font-size: .58rem; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--grey-2); border: 1px solid var(--line); border-radius: 99px; padding: 2px 7px;
+}
+.omni-empty { padding: 22px 18px; color: var(--grey); font-size: .9rem; }
+/* Collé en bas du menu : c'est la porte de sortie quand aucune suggestion ne convient,
+   et le menu défile à l'intérieur de lui-même dès qu'il y a huit résultats, donc en
+   flux normal cette ligne se retrouvait hors de vue exactement quand elle sert. */
+.omni-all {
+  position: sticky; bottom: 0;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%;
+  padding: 12px 18px; border: 0; border-top: 1px solid var(--line-soft); cursor: pointer;
+  background: var(--anthracite); color: var(--grey); font-family: inherit; font-size: .84rem; text-align: left;
+}
+.omni-all:hover { color: #fff; background: var(--anthracite-2); }
+.omni-kbd {
+  font-family: var(--f-mono); font-size: .7rem; color: var(--grey-2);
+  border: 1px solid var(--line); border-radius: 6px; padding: 1px 6px;
+}
+
+/* Les facettes, en pilules sous la barre. Le <select> natif est superposé et
+   transparent : on garde le menu du système (et son accessibilité) sans hériter
+   de son rendu, qu'aucun navigateur ne laisse styler. */
+.omni-filters { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
+.omni-pill {
+  position: relative; display: inline-flex; align-items: center; gap: 7px; cursor: pointer;
+  padding: 7px 13px; border-radius: 99px; border: 1px solid var(--line);
+  background: rgba(255,255,255,.03); font-size: .8rem; color: var(--grey);
+  transition: border-color .25s var(--ease), color .25s var(--ease), background .25s var(--ease);
+}
+.omni-pill:hover { border-color: var(--violet); color: #fff; }
+.omni-pill.on { border-color: transparent; background: var(--grad-soft); color: #fff; }
+.omni-pill-k { font-family: var(--f-mono); font-size: .58rem; letter-spacing: .18em; text-transform: uppercase; color: var(--grey-2); }
+.omni-pill.on .omni-pill-k { color: rgba(255,255,255,.6); }
+.omni-pill-v { font-weight: 500; }
+.omni-caret { font-size: .6rem; color: var(--grey-2); }
+.omni-pill select, .omni-pill input {
+  position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;
+  border: 0; padding: 0; color: transparent; background: none;
+}
+.omni-pill select option { background: var(--anthracite); color: var(--white); }
+.omni-reset {
+  border: 0; background: none; cursor: pointer; color: var(--grey-2);
+  font-family: var(--f-mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; padding: 7px 6px;
+}
+.omni-reset:hover { color: var(--magenta); }
+/* Sur un téléphone, le contexte à droite (« 12 dates », « Paris, France ») entre en
+   concurrence avec le nom lui-même, qui est la seule chose qu'on lit ici. */
+@media (max-width: 520px) {
+  .omni-meta { display: none; }
+  .omni-pill-k { display: none; }
+  .omni-input { font-size: .92rem; }
+}
 
 /* Quick genre chips */
 .chips { display: flex; flex-wrap: wrap; gap: 9px; justify-content: center; margin-top: 26px; }
@@ -597,8 +732,13 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .brand { font-size: 1.05rem; min-width: 0; }
   .nav-links.open .nav-only-mobile { display: block; }
   .nav-links.open .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
-  .search { grid-template-columns: 1fr 1fr; }
-  .search-go { grid-column: span 2; }
+  /* Sous 960 px le libellé du bouton mange la largeur du champ : il tombe à sa
+     seule flèche, la loupe et le placeholder disent déjà ce que fait la barre. */
+  .omni-bar { padding-left: 15px; gap: 6px; }
+  .omni-go { padding: 12px 16px; }
+  .omni-go span { display: none; }
+  .omni-go::after { content: "↗"; font-size: 1rem; }
+  .omni-input { font-size: .95rem; }
   .stats { grid-template-columns: repeat(2,1fr); }
   .grid-3, .grid-4, .grid-2 { grid-template-columns: 1fr; }
   .genres { grid-template-columns: repeat(2,1fr); }
