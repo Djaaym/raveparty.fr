@@ -413,9 +413,70 @@ SELECT ?name ?item ?genreLabel ?img ?citLabel ?born ?mb ?desc WHERE {{
     print("wikidata (par nom) terminé", flush=True)
 
 
+def wdcat(artists: dict, limit: int) -> None:
+    """La **catégorie Commons** de l'artiste (P373), là où vivent ses photos.
+
+    P18 ne rend qu'une image par artiste, celle que Wikidata a élue, et c'est parfois
+    une vue de scène où l'artiste est un point au fond. La catégorie Commons, elle,
+    contient tout ce qui a été versé sur lui : sur Nina Kraviz, une vingtaine de
+    fichiers, dont plusieurs vrais portraits. C'est le gisement qui manquait.
+
+    Mêmes garde-fous que `wdlabel()`, dont cette requête est le jumeau : libellé exact,
+    entité musicienne, et **deux entités pour un nom = on n'écrit rien**. Une catégorie
+    Commons attrapée sur un homonyme verserait ses photos sur la fiche de quelqu'un
+    d'autre, ce qui est précisément l'erreur qu'on répare.
+    """
+    data = load("wdcat")
+    todo = order(artists, data)[:limit]
+    print(f"wikidata (catégories Commons) : {len(todo)} à faire ({len(data)} déjà)", flush=True)
+    B = 60
+    for k in range(0, len(todo), B):
+        chunk = todo[k : k + B]
+        vals = " ".join('"%s"@en' % artists[s]["name"].replace("\\", "").replace('"', '\\"') for s in chunk)
+        query = f"""
+SELECT ?name ?item ?cat ?desc WHERE {{
+  VALUES ?name {{ {vals} }}
+  ?item rdfs:label ?name .
+  {{ ?item wdt:P106 ?occ . VALUES ?occ {{ wd:Q130857 wd:Q183945 wd:Q639669 wd:Q36834 wd:Q488205 }} }}
+  UNION {{ ?item wdt:P31 wd:Q215380 }}
+  OPTIONAL {{ ?item wdt:P373 ?cat . }}
+  OPTIONAL {{ ?item schema:description ?desc . FILTER(LANG(?desc) = "en") }}
+}}"""
+        url = "https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(query)
+        code, body = fetch(url, UA_API, timeout=120)
+        if code != 200:
+            print(f"  ✗ lot {k // B} : HTTP {code}", flush=True)
+            time.sleep(10)
+            continue
+        try:
+            rows = json.loads(body)["results"]["bindings"]
+        except Exception:
+            rows = []
+        by_name: dict = {}
+        for r in rows:
+            e = by_name.setdefault(r["name"]["value"], {})
+            qid = r["item"]["value"].rsplit("/", 1)[-1]
+            it = e.setdefault(qid, {"qid": qid, "cat": None, "desc": None})
+            for key, prop in (("cat", "cat"), ("desc", "desc")):
+                if prop in r and not it[key]:
+                    it[key] = r[prop]["value"]
+        for slug in chunk:
+            items = by_name.get(artists[slug]["name"], {})
+            if len(items) > 1:
+                data[slug] = {"found": False, "ambiguous": [i["qid"] for i in items.values()]}
+            elif items:
+                data[slug] = dict(next(iter(items.values())), found=True)
+            else:
+                data[slug] = {"found": False}
+        save("wdcat", data)
+        print(f"  {min(k + B, len(todo))}/{len(todo)}", flush=True)
+        time.sleep(2)
+    print("wikidata (catégories Commons) terminé", flush=True)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "wdlabel", "discogs", "list"])
+    ap.add_argument("--source", required=True, choices=["lastfm", "mb", "wd", "wdlabel", "wdcat", "discogs", "list"])
     ap.add_argument("--limit", type=int, default=10**6)
     ap.add_argument("--shard", default="", help="k/n, ce lot traite un artiste sur n")
     a = ap.parse_args()
@@ -435,7 +496,8 @@ def main() -> int:
             json.dumps(artists, ensure_ascii=False, indent=1, sort_keys=True))
         print(f"{len(artists)} artistes -> harvest/catalogue.json")
         return 0
-    {"lastfm": lastfm, "mb": mb, "wd": wd, "wdlabel": wdlabel, "discogs": discogs}[a.source](artists, a.limit)
+    {"lastfm": lastfm, "mb": mb, "wd": wd, "wdlabel": wdlabel, "wdcat": wdcat,
+     "discogs": discogs}[a.source](artists, a.limit)
     return 0
 
 

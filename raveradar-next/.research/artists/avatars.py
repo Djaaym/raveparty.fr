@@ -59,6 +59,12 @@ ELECTRONIC = re.compile(
     r"gabber|drum and bass|drum'n'bass|dnb|jungle|dubstep|edm|acid|rave|psytrance|"
     r"record producer|music producer|producer)\b", re.I)
 
+# « Above & Beyond », « Chase & Status », « The Martinez Brothers » : le nom désigne
+# plusieurs personnes, donc une photo à plusieurs visages n'est pas ambiguë, elle est
+# juste. La description Wikidata le dit déjà (« British electronic trio », « Belgian
+# electronic music band »), pas besoin d'une requête de plus.
+GROUP_DESC = re.compile(r"\b(band|duo|trio|quartet|group|collective|project)\b", re.I)
+
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
 MIN_SRC = 320       # en dessous, l'upscale se voit
 CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est pas au centre)
@@ -75,21 +81,68 @@ FACE_MODEL_URL = ("https://media.githubusercontent.com/media/opencv/opencv_zoo/m
                   "face_detection_yunet/face_detection_yunet_2023mar.onnx")
 FACE_MIN_RATIO = 0.055  # un visage plus petit que ça = photo de scène, pas un portrait
 HEAD_ROOM = 1.9         # largeur du carré en multiples de la largeur du visage
+# Deux visages « comparables », c'est un doute, pas un portrait. Voir `pick_frame()` :
+# c'est la règle qui a laissé passer un badaud à la place d'Amelie Lens.
+PEER = 0.55             # un second visage à plus de 55 % de la largeur du premier
+GROUP_MAX = 4           # au-delà, un « groupe » est une foule, quel que soit le nom
+GROUP_FACE_MIN = 0.10   # part du carré sous laquelle un visage de groupe n'est plus lisible
+# Netteté du carré final, variance du laplacien. **Ce n'est qu'un plancher**, pas un
+# critère de qualité : la mesure dépend autant de l'exposition que de la mise au point,
+# si bien qu'un portrait net pris sur une scène sombre (Charlotte de Witte, 22) tombe
+# plus bas qu'une photo molle en plein jour (Da Tweekaz, 83). Sur une médiane de 371,
+# passer sous 6 ne veut plus dire « peu contrasté » mais « il n'y a plus d'image » :
+# c'est le cas de &ME et de Timmy Trumpet, deux taches grises. Le reste du tri se fait
+# à l'oeil, sur planche-contact, et atterrit dans `SKIP`.
+MIN_SHARP = 6
 # Artistes qui jouent masqués : le détecteur ne trouve rien, et pourtant la photo
 # est la bonne - le masque EST leur identité scénique documentée, plus reconnaissable
 # qu'un visage. On saute la détection pour eux, sans désarmer le filtre ailleurs.
 MASKED = {"boris-brejcha", "marshmello", "angerfist", "vladimir-cauchemar", "dr-peacock"}
+MAX_TRIES = 4   # candidats essayés par artiste avant de le laisser sans portrait
+# Ce que la mesure ne peut pas voir, relu à l'oeil sur planche-contact. Même esprit que
+# `REMOVED` dans merge.py : une décision éditoriale se consigne, sinon le passage suivant
+# la défait. `slug -> raison`, et la raison doit être vérifiable.
+SKIP: dict[str, str] = {
+    "astral-projection": "cadre sur une nuque, aucun visage",
+    "cassius": "photo de scène, visage illisible",
+    "da-tweekaz": "projecteurs de scène, aucun visage lisible",
+    "miss-k8": "silhouette lointaine derrière les platines",
+    "rudimental": "photo d'interview, on ne peut pas dire qui est cadré",
+    "stereo-mcs": "trop flou pour reconnaître qui que ce soit",
+    "the-avalanches": "P18 = photo d'un concert des Strokes, aucun membre identifiable",
+    "the-avener": "source trop petite, la vignette est une tache",
+    "the-bloody-beetroots": "faux positif du détecteur, le cadre ne montre qu'une main",
+    "tim-hecker": "faux positif du détecteur, le cadre montre un ampli",
+    # Homonymes que Commons range exactement comme l'artiste : même nom, même forme de
+    # catégorie, et une seule chose les sépare, la photo. C'est la limite de la route
+    # « titre », assumée ici plutôt que dans un seuil qui ne la verrait pas.
+    "alex-stein": "homonyme : l'homme en costume de « File:Alex Stein.png » n'est pas le DJ",
+    "benjamin-r": "homonyme : « Benjamin R. Mixon », général de l'US Army",
+    "chris-reeve": "homonyme non tranché : la catégorie Commons « Chris Reeve » est celle du coutelier",
+    "dave-lambert": "homonyme : photo de 1947, c'est le chanteur de jazz",
+    "will-atkinson": "homonyme : la photo montre le footballeur, en maillot",
+    "maribou-state": "vignette illisible, l'artiste est à contre-jour et de dos",
+    "the-blaze": "le cadre tombe sur le public, pas sur le duo",
+}
 # Duotone : ombres vers le bleu-violet du site, hautes lumières vers un blanc chaud.
 SHADOW = (26, 22, 48)
 HIGHLIGHT = (243, 243, 248)
 MIX = 0.72          # 1 = duotone pur, 0 = niveaux de gris
 THROTTLE = 2.0      # secondes entre deux requêtes Commons (429 observé en dessous)
 CACHE = Path(__file__).resolve().parent / "commons-cache.json"
+# Les originaux, gardés sur disque (hors dépôt, cf. .gitignore). Retoucher un seuil de
+# cadrage demande de repasser sur tout le corpus : sans ce cache, chaque essai
+# re-télécharge trois cents fichiers chez Wikimedia, donc coûte un quart d'heure et
+# finit en 429. Une image de Commons ne change pas, son cache non plus.
+SRCS = Path(__file__).resolve().parent / ".srcs"
 
 from PIL import Image, ImageOps
 
 try:
     import cv2, numpy as np
+    # OpenCV crache un avertissement de backend par appel au détecteur : trois cents
+    # lignes qui noient le rapport, pour une information dont on ne fait rien.
+    cv2.utils.logging.setLogLevel(cv2.utils.logging.LOG_LEVEL_ERROR)
 except ImportError:  # sans OpenCV on retombe sur le cadrage géométrique
     cv2 = None
 
@@ -178,7 +231,12 @@ def commons_title(ref: str) -> str:
 
 
 def parse_page(page: dict, title: str) -> dict:
-    """Ce que Commons dit d'un fichier, réduit à ce dont on a le droit de se servir."""
+    """Ce que Commons dit d'un fichier, réduit à ce dont on a le droit de se servir.
+
+    On garde **deux** URL : la vignette de 960 px, qui suffit à la très grande majorité
+    des cadrages, et l'original, tiré seulement quand le carré retenu est plus petit que
+    la vignette de sortie (voir la remontée en résolution dans la boucle principale).
+    """
     info = (page.get("imageinfo") or [{}])[0]
     meta = info.get("extmetadata") or {}
     url = (info.get("thumburl") or info.get("url") or "").split("?", 1)[0]
@@ -189,7 +247,17 @@ def parse_page(page: dict, title: str) -> dict:
         return {}
     if DENY.search(lic) or not FREE.match(lic.replace("-", " ").strip()):
         return {"denied": lic}
+    # Un fichier sous demande de suppression est un fichier dont les termes sont
+    # contestés : republier une image pendant que Commons décide si elle avait le droit
+    # d'y être, c'est exactement ce que la règle « Commons uniquement » cherche à éviter.
+    if any(c["title"][9:].startswith(("Deletion requests", "Copyright violations"))
+           for c in (page.get("categories") or [])):
+        return {"denied": "demande de suppression en cours sur Commons"}
     return {"url": url, "author": author, "license": lic,
+            "orig": (info.get("url") or "").split("?", 1)[0],
+            "bytes": int(info.get("size") or 0),
+            "w": int(info.get("width") or 0),
+            "cats": [c["title"][9:] for c in (page.get("categories") or [])],
             "page": "https://commons.wikimedia.org/wiki/"
                     + urllib_quote(title.replace(" ", "_"), safe=":()_,.!'-")}
 
@@ -203,14 +271,19 @@ def resolve_many(titles: list) -> None:
     titres par requête** (`titles=A|B|C`), ce qui ramène le même travail à huit appels.
     Chercher la limite du service avant d'écrire la boucle aurait coûté cinq minutes.
     """
-    todo = [t for t in dict.fromkeys(titles) if t and t not in _CACHE]
+    # Une entrée mise en cache avant que `parse_page` ne rende `orig` est incomplète :
+    # on la redemande, sinon la remontée en résolution ne s'appliquerait qu'aux fichiers
+    # découverts après le changement.
+    todo = [t for t in dict.fromkeys(titles)
+            if t and (t not in _CACHE
+                      or (_CACHE[t] and "denied" not in _CACHE[t] and "cats" not in _CACHE[t]))]
     for i in range(0, len(todo), 50):
         batch = todo[i : i + 50]
         # `iiurlwidth` fait rendre en plus l'URL d'une **vignette**. L'original de
         # Commons pèse souvent plusieurs mégaoctets, pour une image qu'on réduit ensuite
         # à 400 px : on tirait cent fois le poids utile, et upload.wikimedia.org a fini
         # par répondre 429 sur la moitié du lot.
-        q = (f"{API}?action=query&format=json&prop=imageinfo&iiprop=url%7Cextmetadata"
+        q = (f"{API}?action=query&format=json&prop=imageinfo%7Ccategories&cllimit=max&iiprop=url%7Csize%7Cextmetadata"
              f"&iiurlwidth=900&titles={urllib_quote('|'.join(batch))}")
         try:
             data = json.loads(fetch(q).decode())
@@ -241,6 +314,22 @@ def resolve_commons(title: str) -> dict | None:
     return _CACHE.get(title) or None
 
 
+def source_bytes(url: str, force: bool = False) -> bytes:
+    """L'original, du cache disque si on l'a déjà tiré, de Commons sinon."""
+    SRCS.mkdir(exist_ok=True)
+    ext = Path(url.split("?", 1)[0]).suffix.lower()[:5] or ".bin"
+    f = SRCS / (hashlib.sha1(url.encode()).hexdigest()[:16] + ext)
+    if f.exists() and f.stat().st_size > 1000 and not force:
+        return f.read_bytes()
+    raw = fetch(url)
+    f.write_bytes(raw)
+    # La temporisation ne portait que sur l'API : les *images* partaient à la chaîne, et
+    # upload.wikimedia.org a fini par répondre 429 sur la moitié du lot. Le même service,
+    # la même règle, on n'enchaîne pas. Le cache, lui, ne temporise pas : il ne sort pas.
+    time.sleep(THROTTLE)
+    return raw
+
+
 def duotone(img: Image.Image) -> Image.Image:
     """Niveaux de gris → rampe SHADOW→HIGHLIGHT, puis remélangé avec l'original."""
     grey = ImageOps.grayscale(img)
@@ -265,17 +354,20 @@ def ensure_face_model() -> bool:
         return False
 
 
-def biggest_face(img: Image.Image):
-    """Boîte du plus grand visage, ou None. Renvoie aussi sa taille relative.
+def faces_of(img: Image.Image) -> list:
+    """Tous les visages trouvés, du plus grand au plus petit, aux coordonnées de `img`.
 
     Un cadrage géométrique ne peut pas deviner où regarder : sur une photo de
     scène en 5000 px de large, le centre tombe sur une platine et l'artiste finit
     hors champ. Un premier passage a produit des nuques et des torses. La
     détection sert donc à deux choses, centrer, et rejeter ce qui n'est pas un
     portrait (aucun visage trouvé, ou un visage trop petit dans le cadre).
+
+    Elle rend **tous** les visages, et pas seulement le plus grand : voir `pick_frame()`,
+    c'est leur nombre et leurs tailles relatives qui disent si la photo décrit quelqu'un.
     """
     if cv2 is None:
-        return None
+        return []
     w, h = img.size
     # YuNet plafonne en résolution utile ; on lui donne une version réduite.
     scale = min(1.0, 1024 / max(w, h))
@@ -284,26 +376,154 @@ def biggest_face(img: Image.Image):
     det = cv2.FaceDetectorYN_create(str(FACE_MODEL), "", (arr.shape[1], arr.shape[0]), 0.6)
     _, faces = det.detect(arr)
     if faces is None or len(faces) == 0:
-        return None
-    fx, fy, fw, fh = max(faces, key=lambda f: f[2] * f[3])[:4]
-    return (fx / scale, fy / scale, fw / scale, fh / scale)
+        return []
+    out = [tuple(float(v) / scale for v in f[:4]) for f in faces]
+    return sorted(out, key=lambda f: -(f[2] * f[3]))
 
 
-def square(img: Image.Image, face=None) -> Image.Image:
-    w, h = img.size
-    side = min(w, h)
-    if face:
-        fx, fy, fw, fh = face
-        # Carré large autour de la tête, borné par l'image : on veut le visage et
-        # un peu d'épaules, pas un gros plan sur les narines.
-        side = int(min(side, max(fw * HEAD_ROOM, fh * HEAD_ROOM)))
-        cx, cy = fx + fw / 2, fy + fh * 0.62   # un peu sous le centre du visage
-        left = int(min(max(0, cx - side / 2), w - side))
-        top = int(min(max(0, cy - side / 2), h - side))
-    elif w > h:
-        left, top = (w - h) // 2, 0
+def pick_frame(img: Image.Image, faces: list, group: bool):
+    """Sur quoi cadrer, ou pourquoi on ne cadre pas. Rend `(boîte, None)` ou `(None, raison)`.
+
+    **C'est ici qu'on a publié le visage de quelqu'un d'autre.** L'ancienne version prenait
+    le plus grand visage, sans se demander si c'était celui de l'artiste. Sur la photo
+    retenue pour Amelie Lens (une vue large des platines à travers la foule), le plus grand
+    visage était celui d'un badaud au premier plan : sa fiche a affiché un inconnu barbu
+    pendant des mois. Le détecteur n'avait pas tort, la question posée était mauvaise.
+
+    La bonne question n'est pas « où est le plus grand visage » mais « cette photo
+    désigne-t-elle quelqu'un sans ambiguïté ». Donc :
+
+    - un seul visage dominant, on cadre dessus ;
+    - un second visage à plus de `PEER` de la largeur du premier, **on ne sait pas
+      lequel est l'artiste** et aucune mesure ne le dira, donc on renonce ;
+    - sauf si le nom désigne un groupe (« Above & Beyond », « Chase & Status ») : le
+      pluriel est alors la bonne réponse, et on cadre sur l'ensemble des visages,
+      tant qu'ils tiennent dans un carré sans devenir des têtes d'épingle.
+
+    Renoncer, c'est afficher l'initiale, ce que la fiche sait déjà faire. C'est moins
+    coûteux qu'un visage faux, qui est une affirmation sur une personne réelle.
+    """
+    if not faces:
+        return None, "aucun visage détecté, probable photo de scène"
+    main = faces[0]
+    if main[2] / min(img.size) < FACE_MIN_RATIO:
+        return None, f"visage trop petit dans le cadre ({main[2] / min(img.size):.1%})"
+    peers = [f for f in faces[1:] if f[2] >= PEER * main[2]]
+    if not peers:
+        return box_around(img, [main], HEAD_ROOM), None
+    if not group:
+        return None, (f"{len(peers) + 1} visages de taille comparable : "
+                      "rien ne dit lequel est l'artiste")
+    crowd = [main] + peers
+    if len(crowd) > GROUP_MAX:
+        return None, f"{len(crowd)} visages comparables, c'est une foule, pas un groupe"
+    box = box_around(img, crowd, 1.25)
+    # Deux façons de rater un cadrage de groupe : un carré plus grand que l'image (les
+    # visages du bord en sortent), ou des visages si dispersés que chacun finit en tête
+    # d'épingle une fois le carré ramené à 400 px.
+    if box[2] >= min(img.size) or min(f[2] for f in crowd) / box[2] < GROUP_FACE_MIN:
+        return None, "visages trop dispersés pour un cadrage de groupe"
+    return box, None
+
+
+# Largeur demandée quand la vignette de 960 ne suffit pas. **Pas l'original** : sur
+# Amelie Lens, la vignette de 1920 pèse 212 Ko contre 1,3 Mo pour l'original, pour un
+# carré de 400 qui n'a besoin de rien de plus. Un premier passage tirait les originaux
+# et avançait à deux portraits par minute, l'essentiel du temps passé à télécharger des
+# pixels qu'on jetait. Wikimedia n'accepte plus une largeur arbitraire (400 « Use
+# thumbnail sizes listed on w.wiki/GHai ») : 1280 et 1920 passent, 1024, 1200, 1500 et
+# 1600 rendent un 400. D'où une largeur unique, et le repli sur l'original si elle échoue.
+BIG = 1920
+MAX_ORIG = 30_000_000   # au-delà, l'original est un scan de plusieurs dizaines de Mo
+
+
+def upscale_source(img: Image.Image, box, cand: dict, force: bool):
+    """Rend l'image sur laquelle découper, en montant d'un cran en résolution s'il le faut.
+
+    Tout part de la vignette de 960 px, et c'est le bon défaut : l'original de Commons
+    pèse souvent plusieurs mégaoctets pour un carré de 400. Mais quand l'artiste est
+    petit dans le cadre, ce carré ne fait plus que cent pixels de côté : ramené à 400,
+    c'est une bouillie, et c'est ce qui a donné les vignettes floues de Groove Armada ou
+    de KI/KI. Le pixel manquant existe pourtant, il est resté dans le fichier d'origine.
+
+    Rend `(image, carré)` : les coordonnées du carré sont celles de la vignette, elles
+    sont donc mises à l'échelle de l'image rendue. Rien à re-détecter, le rapport suffit.
+    """
+    url = bigger_thumb(cand.get("url") or "", cand.get("w") or 0)
+    if box is None or box[2] >= SIZE or not url:
+        return img, box
+    weight = cand.get("bytes") or 0
+    for u in (url, cand.get("orig") or ""):
+        if not u.startswith("https://upload.wikimedia.org/"):
+            continue
+        if u != url and (not weight or weight > MAX_ORIG):
+            continue  # le repli sur l'original ne vaut pas un scan de trente mégaoctets
+        try:
+            big = ImageOps.exif_transpose(Image.open(io.BytesIO(source_bytes(u, force)))).convert("RGB")
+            break
+        except Exception:
+            continue
     else:
-        left, top = 0, int((h - w) * CROP_BIAS)
+        return img, box  # la plus grande n'est pas indispensable, la vignette reste exploitable
+    k = big.size[0] / img.size[0]
+    if k <= 1.05:
+        return img, box
+    return big, [int(v * k) for v in box]
+
+
+def bigger_thumb(url: str, orig_width: int) -> str:
+    """La même vignette en plus grand, ou "" s'il n'y a rien de plus à demander.
+
+    Les vignettes de Commons portent leur largeur dans le chemin
+    (`.../thumb/a/ab/Nom.jpg/960px-Nom.jpg`) : demander la version supérieure est une
+    substitution, pas un appel d'API de plus.
+    """
+    m = re.search(r"/(\d+)px-", url)
+    if not m or not url.startswith("https://upload.wikimedia.org/"):
+        return ""
+    if int(m.group(1)) >= BIG or (orig_width and orig_width <= int(m.group(1))):
+        return ""
+    return url[: m.start()] + f"/{BIG}px-" + url[m.end():]
+
+
+def sharpness(img: Image.Image) -> float:
+    """Variance du laplacien du carré final. Zéro si OpenCV manque (donc pas de filtre).
+
+    Le détecteur dit « il y a un visage », pas « on le voit ». Une photo de scène tirée
+    du fond de la salle donne trente pixels de visage, étirés à 400 : la vignette est
+    une tache. Le flou se mesure, contrairement à la ressemblance.
+    """
+    if cv2 is None:
+        return 0.0
+    grey = np.array(ImageOps.grayscale(img), dtype=np.uint8)
+    return float(cv2.Laplacian(grey, cv2.CV_64F).var())
+
+
+def box_around(img: Image.Image, faces: list, room: float):
+    """Carré `(gauche, haut, côté)` autour d'un ou plusieurs visages, borné par l'image.
+
+    On veut le visage et un peu d'épaules, pas un gros plan sur les narines, d'où
+    `room`. Le centre est pris un peu **sous** le milieu des visages : au-dessus il n'y
+    a qu'un front, en dessous il y a un buste.
+    """
+    w, h = img.size
+    x0 = min(f[0] for f in faces); x1 = max(f[0] + f[2] for f in faces)
+    y0 = min(f[1] for f in faces); y1 = max(f[1] + f[3] for f in faces)
+    side = int(min(min(w, h), max(x1 - x0, y1 - y0) * room))
+    cx, cy = (x0 + x1) / 2, y0 + (y1 - y0) * 0.62
+    left = int(min(max(0, cx - side / 2), w - side))
+    top = int(min(max(0, cy - side / 2), h - side))
+    return [left, top, side]
+
+
+def square(img: Image.Image, box=None) -> Image.Image:
+    w, h = img.size
+    if box:
+        left, top, side = box
+    elif w > h:
+        left, top, side = (w - h) // 2, 0, h
+    else:
+        left, top, side = 0, int((h - w) * CROP_BIAS), w
     return img.crop((left, top, left + side, top + side)).resize((SIZE, SIZE), Image.LANCZOS)
 
 
@@ -328,11 +548,206 @@ def write_module(out_map: dict) -> None:
     PHOTOS_TS.write_text(src[: src.index("\n", start) + 1] + block + "\n" + src[end:])
 
 
+def category_files(cat: str, limit: int = 12) -> list:
+    """Les fichiers d'une catégorie Commons, du plus récemment versé au plus ancien.
+
+    C'est le gisement que P18 laissait de côté : Wikidata n'élit qu'une image par
+    artiste, souvent une vue de scène, alors que la catégorie contient tout ce qui a
+    été versé sur lui. Sur Amelie Lens, P18 rendait un plan large où le premier visage
+    est celui d'un badaud ; la catégorie porte aussi un portrait net.
+    """
+    q = (f"{API}?action=query&format=json&list=categorymembers&cmtype=file"
+         f"&cmlimit={limit}&cmtitle={urllib_quote('Category:' + cat)}")
+    try:
+        data = json.loads(fetch(q).decode())
+    except Exception:
+        return []
+    time.sleep(THROTTLE)
+    return [m["title"] for m in data.get("query", {}).get("categorymembers", [])]
+
+
+SEARCH_CACHE = Path(__file__).resolve().parent / "search-cache.json"
+# Le nom doit être assez long et assez composé pour qu'un fichier qui le porte parle bien
+# de lui. « Sara Landry » ne désigne qu'elle sur Commons ; « Hysta » ramène une ferme
+# suédoise (« Carl Wilhelm Öbergs stuga i Hysta »), « Mind », « Kobra » ou « Rise » sont
+# des mots courants. Un nom d'un seul mot n'entre donc pas par cette porte, il reste sur
+# P18 et sur la catégorie Commons, qui passent par un identifiant et non par une chaîne.
+SEARCH_MIN_WORDS, SEARCH_MIN_CHARS = 2, 8
+
+
+def load_search() -> dict:
+    if SEARCH_CACHE.exists():
+        try:
+            return json.loads(SEARCH_CACHE.read_text())
+        except json.JSONDecodeError:
+            return {}
+    return {}
+
+
+_SEARCH = load_search()
+
+
+def title_search(name: str, limit: int = 20) -> list:
+    """Les fichiers Commons dont le **titre commence par** le nom de l'artiste.
+
+    La troisième porte, après P18 et la catégorie Commons. Elle existe parce que les
+    deux premières manquent des cas évidents : Amelie Lens n'a pas de catégorie, et son
+    P18 est un plan large où le premier visage est celui d'un badaud, alors que Commons
+    héberge aussi « Amelie Lens Airbeat One 2026.jpg », un vrai portrait.
+
+    **`list=allimages&aiprefix=` et pas `list=search`.** La recherche plein texte est le
+    point d'accès le plus cher de l'API : mesuré ici, un 429 quasi systématique et une
+    minute par nom une fois les reprises payées, soit onze heures pour le catalogue.
+    Le listage par préfixe lit un index, répond en 0,4 s, et rend en prime les
+    dimensions. On y perd les fichiers qui ne *commencent* pas par le nom (« DJ Amelie
+    Lens au Dour.jpg »), ce qui est le bon compromis : ce sont aussi les titres où le
+    nom risque le plus de désigner autre chose.
+
+    La réponse est mise en cache, **y compris quand elle est vide** : c'est un appel par
+    artiste, non groupable, et une liste vide est une information comme une autre.
+    """
+    if name in _SEARCH:
+        return _SEARCH[name]
+    q = (f"{API}?action=query&format=json&list=allimages&ailimit={limit}"
+         f"&aiprefix={urllib_quote(name)}")
+    try:
+        data = json.loads(fetch(q).decode())
+    except Exception:
+        return []
+    time.sleep(THROTTLE)
+    out = ["File:" + i["name"].replace("_", " ")
+           for i in data.get("query", {}).get("allimages", [])
+           if title_matches(name, i["name"])
+           and not i["name"].lower().endswith((".svg", ".gif", ".pdf"))]
+    _SEARCH[name] = out
+    SEARCH_CACHE.write_text(json.dumps(_SEARCH, indent=1, ensure_ascii=False, sort_keys=True))
+    return out
+
+
+def searchable(name: str) -> bool:
+    return len(name.split()) >= SEARCH_MIN_WORDS and len(name) >= SEARCH_MIN_CHARS
+
+
+# Ce que Commons dit d'un fichier quand il range un homonyme. Ces deux listes ne servent
+# **que** sur la route « titre », la seule qui rattache un fichier à un artiste par une
+# chaîne de caractères.
+MUSIC_CAT = re.compile(
+    r"\b(music|musician|musical|dj|djs|disc jockey|singer|band|album|concert|festival|"
+    r"techno|house|trance|hardcore|electronic|rave|nightclub|club|rapper|hip hop|"
+    r"record producer|performer|stage)\b", re.I)
+NOT_MUSIC = re.compile(
+    r"\b(snooker|rugby|football|footballer|cricket|basketball|tennis|boxing|boxer|"
+    r"athletics|athlete|swimmer|cyclist|golf|hockey|baseball|wrestler|racing driver|"
+    r"politician|politicians|democrats|republicans|senators|treasurers|mayors|"
+    r"humanitarians|actresses|actors|software|programmers|bishop|general|"
+    r"players of|league)\b", re.I)
+
+
+def title_matches(name: str, title: str) -> bool:
+    """Le titre commence-t-il par le nom, **et s'arrête-t-il là** ?
+
+    Le piège de la sous-chaîne, encore : « Carl Dutt » préfixe « Carl Duttenhofer »,
+    « Brent Honey » préfixe « Brent Honeywell », « Alyssa Rose » préfixe « Alyssa
+    Rosenzweig ». Trois personnes qui ne sont pas nos artistes, et trois portraits qui
+    seraient partis en ligne sous leur nom. Le nom doit tomber sur une frontière de mot.
+    """
+    key, t = slugify(name), slugify(title)
+    rest = t[len(key):] if t.startswith(key) else None
+    return rest is not None and (rest == "" or rest.startswith("-"))
+
+
+def about_the_artist(entry: dict, name: str) -> bool:
+    """Les catégories du fichier disent-elles que c'est bien de cet artiste qu'il s'agit ?
+
+    **Le piège de la sous-chaîne, repayé sur des personnes.** Un préfixe « Jamie Jones »
+    ramène « Jamie Jones-Buchanan », rugbyman de Leeds, et « Jamie Jones PHC », joueur de
+    snooker : le nom du DJ est bien au début du titre, il ne désigne simplement pas la
+    même personne. C'est la règle « Ain est une sous-chaîne de Saintes » de
+    `eventsForPlace()`, avec cette fois un visage au bout.
+
+    Deux tests, l'un négatif, l'autre positif, et il faut passer les deux :
+
+    - **rejet** sur un sport ou un métier sans rapport, ou sur une catégorie de la forme
+      « Nom (précision) » où la précision ne parle pas de musique, ce qui est exactement
+      la façon dont Commons range un homonyme (« Jamie Jones (snooker player) ») ;
+    - **exigence** d'une catégorie qui parle de musique ou qui porte le nom de l'artiste.
+      Sans elle, on ne garde rien : c'est ce qui écarte le trésorier de Caroline du Nord
+      « Benjamin R. Lacy » de la fiche du DJ Benjamin R, et le prix à payer est réel,
+      le portrait d'Amelie Lens versé en 2026 n'a encore aucune catégorie utile.
+
+    Cette porte reste la moins sûre des trois, et **elle ne remplace pas la relecture
+    à l'oeil** : Commons range un homonyme parfait (« Alex Stein ») exactement comme
+    l'artiste. Ce que la mesure ne voit pas finit dans `SKIP`.
+    """
+    cats = entry.get("cats") or []
+    key = slugify(name)
+    for c in cats:
+        if NOT_MUSIC.search(c):
+            return False
+        m = re.match(re.escape(name) + r"\s*\((.+)\)$", c, re.I)
+        if m and not MUSIC_CAT.search(m.group(1)):
+            return False
+    return any(MUSIC_CAT.search(c) or key in slugify(c) for c in cats)
+
+
+def try_candidate(slug: str, c: dict, groups: set, seen_hash: dict, args):
+    """Fabrique le carré d'un candidat, ou dit pourquoi il ne convient pas.
+
+    Rend `(entrée de la map, None)` ou `(None, raison)`. C'est la même porte pour les
+    trois routes (bio, P18, catégorie Commons), parce que la question posée est la même :
+    cette image montre-t-elle l'artiste, assez grand et assez net pour être publiée.
+    """
+    url, author, lic, page = c["url"], c["author"], c["license"], c["page"]
+    if not url.startswith("https://upload.wikimedia.org/"):
+        return None, "hors Wikimedia Commons"
+    if not (author and lic and page):
+        return None, "auteur ou licence manquant → réutilisation non conforme"
+    try:
+        raw = source_bytes(url, args.force)
+        img = ImageOps.exif_transpose(Image.open(io.BytesIO(raw))).convert("RGB")
+    except Exception as e:
+        return None, f"téléchargement/décodage : {str(e)[:60]}"
+    if min(img.size) < MIN_SRC:
+        return None, f"trop petite ({img.size[0]}×{img.size[1]})"
+
+    box = None
+    if cv2 is not None and slug not in MASKED:
+        box, why = pick_frame(img, faces_of(img), slug in groups)
+        if box is None:
+            return None, why
+
+    h = hashlib.sha1(raw).hexdigest()[:10]
+    if h in seen_hash and seen_hash[h] != slug:
+        return None, f"même image que {seen_hash[h]}, probable erreur d'identification"
+
+    src, box = upscale_source(img, box, c, args.force)
+    crop = square(src, box)
+    sharp = sharpness(crop)
+    if cv2 is not None and sharp < MIN_SHARP:
+        return None, f"carré final trop flou (netteté {sharp:.0f} < {MIN_SHARP})"
+    seen_hash[h] = slug
+
+    if not args.dry:
+        duotone(crop).save(OUT / f"{slug}.webp", "WEBP", quality=86, method=6)
+    print(f"  ✓ {c['name']:30} {src.size[0]}×{src.size[1]} carré {box[2] if box else '-'} "
+          f"netteté {sharp:.0f} [{c.get('via', '?')}] → {slug}.webp")
+    return {"file": f"{slug}.webp", "author": author, "license": lic, "page": page}, None
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true")
-    ap.add_argument("--force", action="store_true", help="retélécharge même si le fichier existe")
-    ap.add_argument("--limit", type=int, default=0, help="nombre max de portraits Wikidata par passage")
+    ap.add_argument("--force", action="store_true",
+                    help="ignore le cache disque des originaux et retélécharge")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="nombre max d'artistes explorés par la route Wikidata")
+    ap.add_argument("--no-cats", action="store_true",
+                    help="s'en tenir à P18, sans explorer les catégories Commons")
+    ap.add_argument("--no-search", action="store_true",
+                    help="ne pas chercher de fichiers par le nom de l'artiste")
+    ap.add_argument("--search-limit", type=int, default=0,
+                    help="nombre max de noms cherchés sur Commons (les plus programmés "
+                         "d'abord ; le cache rend la reprise gratuite)")
     args = ap.parse_args()
 
     rows = []
@@ -344,8 +759,26 @@ def main() -> int:
             return 1
 
     # --- les candidats, dans l'ordre d'autorité --------------------------------
-    # slug -> (nom, url du fichier, auteur, licence, page Commons)
+    # slug -> [ {nom, url (vignette), orig, bytes, auteur, licence, page, via}, ... ]
+    # Une liste et non un fichier unique : quand le premier candidat ne montre pas
+    # l'artiste (deux visages, trop flou), on essaie le suivant plutôt que de laisser
+    # la fiche sans portrait.
     cands, resolved, denied = {}, 0, []
+
+    def add(slug: str, entry: dict) -> None:
+        cands.setdefault(slug, []).append(entry)
+
+    # Qui est un groupe, d'après ce que Wikidata dit de lui. `pick_frame()` en a besoin :
+    # deux visages sur la photo d'un DJ sont un doute, deux visages sur celle d'un duo
+    # sont la photo du duo.
+    groups, descs = set(), {}
+    for _f in ("wd", "wdlabel", "wdcat"):
+        _p = HARVEST / f"{_f}.json"
+        if _p.exists():
+            for _k, _v in json.loads(_p.read_text()).items():
+                descs.setdefault(_k, _v.get("desc") or "")
+                if GROUP_DESC.search(_v.get("desc") or ""):
+                    groups.add(_k)
 
     # Tous les titres Commons dont on aura besoin, résolus en lots de cinquante avant
     # d'entrer dans les boucles : une requête par fichier prend un 429 au bout de
@@ -366,20 +799,23 @@ def main() -> int:
             continue
         url = (r.get("photo_url") or "").strip()
         if url:  # forme historique : les termes ont déjà été relevés par l'agent
-            cands[slug] = (name, url, (r.get("photo_author") or "").strip(),
-                           (r.get("photo_license") or "").strip(), (r.get("photo_page") or "").strip())
+            add(slug, {"name": name, "url": url, "orig": url, "bytes": 0, "via": "bio",
+                       "author": (r.get("photo_author") or "").strip(),
+                       "license": (r.get("photo_license") or "").strip(),
+                       "page": (r.get("photo_page") or "").strip()})
         elif (r.get("commons") or "").strip():
             got = resolve_commons(commons_title(r["commons"]))
             resolved += 1
             if got and "denied" in got:
                 denied.append((name, got["denied"])); continue
             if got:
-                cands[slug] = (name, got["url"], got["author"], got["license"], got["page"])
+                add(slug, dict(got, name=name, via="bio"))
 
     # Wikidata P18 : le gisement le plus large, et le seul qui couvre les artistes sans
     # bio. Le rattachement passe par l'identifiant MusicBrainz, pas par le nom, c'est
     # ce qui évite de coller le portrait d'un homonyme sur une fiche.
     cat_file = HARVEST / "catalogue.json"
+    catalogue = json.loads(cat_file.read_text()) if cat_file.exists() else {}
     wd = {}
     for name in ("wd", "wdlabel"):
         f = HARVEST / f"{name}.json"
@@ -387,22 +823,20 @@ def main() -> int:
             for k, v in json.loads(f.read_text()).items():
                 if v.get("img"):
                     wd.setdefault(k, v)
-    if wd and cat_file.exists():
-        cat = json.loads(cat_file.read_text())
-        todo = [(s, v) for s, v in sorted(wd.items(), key=lambda kv: -cat.get(kv[0], {}).get("n", 0))
-                if v.get("img") and s not in cands and s in cat and is_our_artist(v)]
-        if args.limit:
-            todo = todo[: args.limit]
-        for slug, v in todo:
-            got = resolve_commons(commons_title(v["img"]))
-            resolved += 1
-            if got and "denied" in got:
-                denied.append((cat[slug]["name"], got["denied"])); continue
-            if got:
-                cands[slug] = (cat[slug]["name"], got["url"], got["author"], got["license"], got["page"])
+    todo = [(s, v) for s, v in sorted(wd.items(), key=lambda kv: -catalogue.get(kv[0], {}).get("n", 0))
+            if s in catalogue and is_our_artist(v)]
+    if args.limit:
+        todo = todo[: args.limit]
+    for slug, v in todo:
+        got = resolve_commons(commons_title(v["img"]))
+        resolved += 1
+        if got and "denied" in got:
+            denied.append((catalogue[slug]["name"], got["denied"])); continue
+        if got:
+            add(slug, dict(got, name=catalogue[slug]["name"], via="P18"))
 
-    print(f"{len(cands)} candidat(s) · {resolved} licence(s) lue(s) sur Commons "
-          f"· {len(denied)} refusée(s) pour cause de licence")
+    print(f"{len(cands)} artiste(s) avec au moins un candidat · {resolved} licence(s) lue(s) "
+          f"sur Commons · {len(denied)} refusée(s) pour cause de licence")
     for name, lic in denied:
         print(f"  ✗ {name:32} licence non réutilisable : {lic}")
 
@@ -410,56 +844,108 @@ def main() -> int:
     global cv2
     if cv2 is not None and not ensure_face_model():
         cv2 = None  # sans modèle, on ne peut ni centrer ni filtrer : on ne prétend pas le faire
-    seen_hash, out_map, skipped = {}, {}, []
+    seen_hash, out_map, skipped = {}, {}, {}
 
-    for slug, (name, url, author, lic, page) in cands.items():
-        if not url.startswith("https://upload.wikimedia.org/"):
-            skipped.append((name, "hors Wikimedia Commons")); continue
-        if not (author and lic and page):
-            skipped.append((name, "auteur ou licence manquant → réutilisation non conforme")); continue
+    def run(slug: str, entries: list) -> None:
+        """Essaie les candidats d'un artiste jusqu'à ce que l'un passe les garde-fous."""
+        if slug in out_map:
+            return
+        if slug in SKIP:
+            skipped[slug] = (entries[0]["name"], "écarté à la relecture : " + SKIP[slug])
+            return
+        for c in entries[:MAX_TRIES]:
+            entry, why = try_candidate(slug, c, groups, seen_hash, args)
+            if entry:
+                out_map[slug] = entry
+                skipped.pop(slug, None)
+                return
+            skipped[slug] = (c["name"], why)
 
-        dest = OUT / f"{slug}.webp"
-        if dest.exists() and not args.force and not args.dry:
-            prev = json.loads((HERE / "avatars.json").read_text()) if (HERE / "avatars.json").exists() else {}
-            out_map[slug] = prev.get(slug, {"file": dest.name, "author": author, "license": lic, "page": page})
-            continue
+    for slug, entries in cands.items():
+        run(slug, entries)
 
-        try:
-            raw = fetch(url)
-            # La temporisation ne portait que sur l'API : les *images* partaient à la
-            # chaîne, et upload.wikimedia.org a fini par répondre 429 sur la moitié du
-            # lot. Le même service, la même règle, on n'enchaîne pas.
-            time.sleep(THROTTLE)
-            img = Image.open(io.BytesIO(raw))
-            img = ImageOps.exif_transpose(img).convert("RGB")
-        except Exception as e:
-            skipped.append((name, f"téléchargement/décodage : {str(e)[:60]}")); continue
+    # --- deuxième tour : les catégories Commons -------------------------------
+    # Seulement pour les artistes qui n'ont toujours pas de portrait : une catégorie
+    # coûte un appel d'API et quelques téléchargements, ça ne se dépense pas pour
+    # remplacer une photo qui convient déjà.
+    wdcat_file = HARVEST / "wdcat.json"
+    if not args.no_cats and wdcat_file.exists():
+        cats = json.loads(wdcat_file.read_text())
+        todo2 = [(s, v["cat"]) for s, v in
+                 sorted(cats.items(), key=lambda kv: -catalogue.get(kv[0], {}).get("n", 0))
+                 if v.get("cat") and s in catalogue and s not in out_map
+                 and ELECTRONIC.search(v.get("desc") or "")]
+        if args.limit:
+            todo2 = todo2[: args.limit]
+        print(f"\n{len(todo2)} artiste(s) sans portrait avec une catégorie Commons")
+        for slug, cat in todo2:
+            titles = category_files(cat)
+            if not titles:
+                continue
+            resolve_many(titles)
+            entries = []
+            for t in titles:
+                got = _CACHE.get(t) or {}
+                if "denied" in got:
+                    denied.append((catalogue[slug]["name"], got["denied"])); continue
+                if got:
+                    entries.append(dict(got, name=catalogue[slug]["name"], via="cat", title=t))
+            # Un fichier qui porte le nom de l'artiste dans son titre a plus de chances
+            # d'être un portrait que la photo de foule versée dans la même catégorie.
+            key = slugify(catalogue[slug]["name"])
+            entries.sort(key=lambda e: (key not in slugify(e.get("title", "")), -(e.get("bytes") or 0)))
+            run(slug, entries)
 
-        if min(img.size) < MIN_SRC:
-            skipped.append((name, f"trop petite ({img.size[0]}×{img.size[1]})")); continue
+    # --- troisième tour : la recherche par titre ------------------------------
+    # Même principe que les catégories, un cran plus loin et un cran moins sûr : on ne
+    # l'ouvre qu'aux noms composés (voir `searchable()`), et le titre est re-vérifié.
+    if not args.no_search:
+        todo3 = [s for s in sorted(catalogue, key=lambda k: -catalogue[k].get("n", 0))
+                 if s not in out_map and s not in SKIP and searchable(catalogue[s]["name"])]
+        cap = args.search_limit or args.limit
+        if cap:
+            todo3 = todo3[:cap]
+        print(f"\n{len(todo3)} artiste(s) sans portrait dont le nom est cherchable sur Commons")
+        # Deux temps, et c'est ce qui rend la porte praticable : un appel par nom pour
+        # lister (l'index de préfixes, bon marché), puis **un seul lot de cinquante**
+        # pour lire les licences. En intercalant les deux, on payait deux appels par
+        # artiste, dont un cher, et Commons répondait 429 à la moitié.
+        found = {}
+        for i, slug in enumerate(todo3):
+            titles = title_search(catalogue[slug]["name"])
+            if titles:
+                found[slug] = titles
+            if i and i % 100 == 0:
+                print(f"  cherchés : {i}/{len(todo3)} · {len(found)} avec un fichier", flush=True)
+        print(f"  {len(found)} artiste(s) avec au moins un fichier à leur nom")
+        resolve_many([t for ts in found.values() for t in ts])
+        for slug, titles in found.items():
+            name = catalogue[slug]["name"]
+            # `title_matches` est re-testé ici : le cache de recherche a pu être
+            # rempli par une version plus permissive du filtre.
+            entries = [dict(_CACHE[t], name=name, via="titre", title=t) for t in titles
+                       if _CACHE.get(t) and "denied" not in _CACHE[t]
+                       and title_matches(name, t[5:]) and about_the_artist(_CACHE[t], name)]
+            # Le titre le plus court d'abord : « David Guetta.jpg » est un portrait,
+            # « David Guetta @ the Aragon, Chicago 4 4 2014 » est une photo de concert.
+            entries.sort(key=lambda e: (len(e.get("title") or ""), -(e.get("bytes") or 0)))
+            run(slug, entries)
 
-        face = biggest_face(img)
-        if cv2 is not None and slug not in MASKED:
-            if face is None:
-                skipped.append((name, "aucun visage détecté, probable photo de scène")); continue
-            ratio = face[2] / min(img.size)
-            if ratio < FACE_MIN_RATIO:
-                skipped.append((name, f"visage trop petit dans le cadre ({ratio:.1%})")); continue
-
-        h = hashlib.sha1(raw).hexdigest()[:10]
-        if h in seen_hash and seen_hash[h] != slug:
-            skipped.append((name, f"même image que {seen_hash[h]}, probable erreur d'identification"))
-            continue
-        seen_hash[h] = slug
-
-        if not args.dry:
-            duotone(square(img, face)).save(OUT / f"{slug}.webp", "WEBP", quality=86, method=6)
-        out_map[slug] = {"file": f"{slug}.webp", "author": author, "license": lic, "page": page}
-        print(f"  ✓ {name:32} {img.size[0]}×{img.size[1]} → {slug}.webp  [{lic}]")
-
-    print(f"\n{len(out_map)} portrait(s) · {len(skipped)} écarté(s)")
-    for name, why in skipped:
+    kept = len(out_map)
+    print(f"\n{kept} portrait(s) · {len(skipped)} artiste(s) écarté(s)")
+    for name, why in sorted(skipped.values()):
         print(f"  ✗ {name:32} {why}")
+
+    # Un portrait retiré laisse un fichier derrière lui, et un fichier que plus aucune
+    # fiche ne cite finit par être servi par erreur au prochain qui réutilise le slug.
+    # Même règle que l'élagage des maps indexées par id dans .research/photos/ingest.py.
+    orphans = [f for f in OUT.glob("*.webp") if f.name not in {v["file"] for v in out_map.values()}]
+    if orphans:
+        print(f"\n{len(orphans)} fichier(s) orphelin(s) dans public/artists/ :")
+        for f in orphans:
+            print(f"  - {f.name}")
+            if not args.dry:
+                f.unlink()
 
     meta = HERE / "avatars.json"
     if not args.dry:
