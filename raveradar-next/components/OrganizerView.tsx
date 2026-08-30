@@ -3,11 +3,23 @@ import { getDict } from "@/lib/i18n";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import { ALL_GENRES, GENRES, TYPES } from "@/lib/data";
+import { CURRENCIES } from "@/lib/submissions";
 import OrganizerForm from "./OrganizerForm";
 
+/**
+ * Le studio organisateur.
+ *
+ * Les genres et les types arrivent en props plutôt que d'être importés par le
+ * formulaire : celui-ci est un composant client, et `lib/data.ts` y embarquerait tout le
+ * catalogue. Les sous-genres, eux, vivent dans un module **feuille** que le formulaire
+ * importe directement, comme `CURRENCIES` : une prop de plus n'y apporterait rien.
+ *
+ * Les quatre étapes ne sont plus rendues ici : elles étaient décoratives, avec la
+ * troisième allumée en permanence sur une page où rien n'avançait. Le formulaire porte
+ * désormais un vrai assistant, dont chaque passage valide ce qui précède.
+ */
 export default function OrganizerView({ lang }: { lang: Lang }) {
   const t = getDict(lang);
-  const steps = [t("org.step1"), t("org.step2"), t("org.step3"), t("org.step4")];
   return (
     <>
       <div className="blob b1" />
@@ -20,17 +32,16 @@ export default function OrganizerView({ lang }: { lang: Lang }) {
             {t("org.title")}
           </h1>
           <p className="lead">{t("org.lead")}</p>
-          <div className="steps" style={{ marginTop: 36 }}>
-            {steps.map((s, i) => (
-              <div className={`step ${i < 3 ? "on" : ""}`} key={s}>
-                <span className="num">{i + 1}</span> {s}
-              </div>
+          <ul className="org-promises">
+            {["org.promise1", "org.promise2", "org.promise3"].map((k) => (
+              <li key={k}>{t(k)}</li>
             ))}
-          </div>
+          </ul>
           <OrganizerForm
             lang={lang}
             genres={ALL_GENRES.map((g) => ({ name: g, c1: GENRES[g].c1, c2: GENRES[g].c2 }))}
             types={TYPES}
+            currencies={CURRENCIES}
           />
         </div>
       </section>

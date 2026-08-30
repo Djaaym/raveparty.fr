@@ -1,15 +1,17 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Lang } from "@/lib/types";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { SESSION_EVENT } from "./usePromoter";
 
 export default function Nav({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const pathname = usePathname() || "/";
   const [open, setOpen] = useState(false);
+  const signedIn = useSignedIn();
 
   // strip /en prefix to compute the equivalent path in the other language
   const frPath = pathname.replace(/^\/en(?=\/|$)/, "") || "/";
@@ -43,7 +45,7 @@ export default function Nav({ lang }: { lang: Lang }) {
             </Link>
           ))}
           <Link href={`${p}/account`} className="nav-only-mobile">
-            {t("nav.signin")}
+            {signedIn ? t("nav.myaccount") : t("nav.signin")}
           </Link>
           <Link href={`${p}/organizer`} className="nav-only-mobile btn btn-primary btn-sm">
             {t("nav.add")}
@@ -59,7 +61,7 @@ export default function Nav({ lang }: { lang: Lang }) {
             </Link>
           </div>
           <Link href={`${p}/account`} className="btn btn-ghost btn-sm">
-            {t("nav.signin")}
+            {signedIn ? t("nav.myaccount") : t("nav.signin")}
           </Link>
           <Link href={`${p}/organizer`} className="btn btn-primary btn-sm">
             {t("nav.add")}
@@ -71,4 +73,30 @@ export default function Nav({ lang }: { lang: Lang }) {
       </div>
     </nav>
   );
+}
+
+/**
+ * Y a-t-il une session ouverte ?
+ *
+ * La nav affichait « Connexion » à quelqu'un qui venait de se connecter, ce qui est
+ * exactement le genre de détail qui fait douter du reste. Elle ne peut pas lire le
+ * cookie de session (il est `HttpOnly`, et il doit le rester), et l'appel à
+ * `/api/promoteur/me` se paierait sur **toutes** les pages du site, dont celle dont le
+ * LCP compte le plus, pour un résultat négatif dans l'immense majorité des cas.
+ *
+ * Elle lit donc le témoin non sensible posé à côté (`lib/promoter-session.ts`), qui ne
+ * porte qu'un drapeau et n'ouvre rien. Il est lu après l'hydratation, jamais au rendu :
+ * le HTML servi est le même pour tout le monde, donc la page reste en cache statique.
+ */
+function useSignedIn(): boolean {
+  const [on, setOn] = useState(false);
+  useEffect(() => {
+    const read = () => setOn(document.cookie.split("; ").some((c) => c.startsWith("rr_pro_on=1")));
+    read();
+    // Une connexion, une inscription ou une déconnexion se produit sur la même page que
+    // la nav : sans cet écouteur, elle garderait « Connexion » jusqu'au rechargement.
+    window.addEventListener(SESSION_EVENT, read);
+    return () => window.removeEventListener(SESSION_EVENT, read);
+  }, []);
+  return on;
 }

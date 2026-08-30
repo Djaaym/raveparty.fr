@@ -244,12 +244,18 @@ function meta(rec: Rec, lang: Lang): string | undefined {
  *
  * `perKind` empêche qu'un mot fréquent (« techno », « warehouse ») remplisse le menu
  * d'une seule catégorie : sur huit lignes, trois artistes suffisent à dire qu'il y en a.
+ *
+ * `kinds` restreint la recherche à certaines catégories. Le champ de line-up du dépôt
+ * d'événement s'en sert pour ne proposer que des artistes : il complète un nom, pas une
+ * destination, et une ville dans cette liste serait une faute de frappe qui se publie.
+ * Poser `perKind` au plafond va alors de soi, la limite de catégorie n'a plus d'objet.
  */
-export function suggest(raw: string, lang: Lang, limit = 8, perKind = 3): Suggestion[] {
+export function suggest(raw: string, lang: Lang, limit = 8, perKind = 3, kinds?: SuggestKind[]): Suggestion[] {
   const q = fold(raw);
   if (q.length < 2) return [];
   const hits: { rec: Rec; s: number }[] = [];
   for (const rec of index()) {
+    if (kinds && !kinds.includes(rec.k)) continue;
     const s = score(rec, q);
     if (s > 0) hits.push({ rec, s });
   }

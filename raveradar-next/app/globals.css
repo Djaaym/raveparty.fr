@@ -141,6 +141,9 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .nav-links a {
   color: var(--grey); font-size: .92rem; font-weight: 500; padding: 9px 14px; border-radius: 99px;
   transition: color .25s, background .25s;
+  /* Un onglet de nav ne se replie jamais : « Ce week-end » cassé sur deux lignes
+     déforme la barre entière. C'est la barre qui doit se resserrer, pas le mot. */
+  white-space: nowrap;
 }
 .nav-links a:hover { color: var(--white); background: var(--line-soft); }
 .nav-links a.active { color: var(--white); background: var(--grad-soft); }
@@ -460,11 +463,6 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 
 /* ----------------------------- FILTER LAYOUT --------------------------- */
 .explore-layout { display: grid; grid-template-columns: 280px 1fr; gap: 32px; align-items: start; }
-/* /organizer réutilise `.explore-layout` mais inverse ses colonnes : le formulaire à
-   droite, l'aperçu de l'affiche à gauche. En classes et non en style inline, pour que
-   le repli à une colonne du breakpoint ci-dessous puisse les annuler. */
-.org-form { grid-column: 1; order: 2; }
-.org-preview { grid-column: 2; order: 1; }
 .filters { position: sticky; top: 90px; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 22px; background: linear-gradient(160deg, rgba(255,255,255,.03), transparent); }
 .filter-group { padding-block: 18px; border-bottom: 1px solid var(--line-soft); }
 .filter-group:last-child { border-bottom: 0; }
@@ -707,21 +705,38 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .grid-4 { grid-template-columns: repeat(3,1fr); }
   .genres { grid-template-columns: repeat(4,1fr); }
   .explore-layout, .map-layout, .event-layout { grid-template-columns: 1fr; }
-  /* Sans ça, l'aperçu de /organizer reste assigné à une colonne 2 qui n'existe plus :
-     la grille en crée une implicite et la page déborde de 142 px. L'aperçu passe en
-     tête, comme sur la version deux colonnes. */
-  .org-form, .org-preview { grid-column: 1; }
   .filters, .ticket-box, .map-list { position: static; }
   .map-list { flex-direction: row; max-height: none; overflow-x: auto; }
   .mini { min-width: 240px; }
 }
+/* La nav au complet, mesurée : marque + 6 onglets + sélecteur de langue + 2 boutons
+   demandent 1 245 px. Elle ne tenait pas à 1 024 px non plus, mais le défaut passait
+   inaperçu parce que « Ce week-end » se cassait sur deux lignes dans une barre haute
+   de 70 px : un repli de texte absorbait un débordement de 221 px. Les onglets ne se
+   replient plus (`white-space: nowrap`), donc le manque de place se voit, et se règle
+   là où il est. Deux paliers : on resserre d'abord, on passe au burger ensuite. */
+@media (max-width: 1180px) {
+  .nav-inner { gap: 18px; }
+  .nav-links { margin-left: 0; gap: 2px; }
+  .nav-links a { padding: 9px 10px; font-size: .86rem; }
+  .nav-right { gap: 8px; }
+  .nav-right .btn-sm { padding: 9px 14px; }
+}
+
 /* Burger earlier than the general mobile breakpoint: brand + 6 links + language
-   switch + 2 buttons stop fitting on one row well before 760px. */
-@media (max-width: 960px) {
+   switch + 2 buttons stop fitting on one row well before 760px, and even the
+   tightened bar above runs out around 1 120 px. */
+@media (max-width: 1120px) {
   .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; flex-direction: column; background: var(--black-2); border-bottom: 1px solid var(--line); padding: 16px; margin: 0; gap: 6px; }
   .nav-links.open { display: flex; }
+  .nav-links a { font-size: .92rem; padding: 9px 14px; }
   .nav-toggle { display: block; }
   .nav-right .btn { display: none; }           /* moved into the burger menu on mobile */
+  .nav-links.open .nav-only-mobile { display: block; }
+  .nav-links.open .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
+}
+
+@media (max-width: 960px) {
   /* Le burger tombait hors de l'écran : à 390 px de large il restait 342 px utiles
      pour un logo de 243, le sélecteur de langue, le bouton et deux gouttières de
      28, soit 451 nécessaires. Le bouton se retrouvait à x=404 et le menu mobile
@@ -730,8 +745,6 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
      parti (il tuait `position: sticky`), donc le défaut se corrige ici, à la source. */
   .nav-inner { gap: 14px; }
   .brand { font-size: 1.05rem; min-width: 0; }
-  .nav-links.open .nav-only-mobile { display: block; }
-  .nav-links.open .nav-only-mobile.btn { display: inline-flex; margin-top: 6px; }
   /* Sous 960 px le libellé du bouton mange la largeur du champ : il tombe à sa
      seule flèche, la loupe et le placeholder disent déjà ce que fait la barre. */
   .omni-bar { padding-left: 15px; gap: 6px; }
@@ -1519,3 +1532,165 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 /* La bande de faits de la fiche artiste, même grammaire que sur les cartes de
    /artistes, un cran plus aéré parce qu'elle n'est pas dans une boîte. */
 .artist-facts { margin: 14px 0 4px; }
+
+/* =========================================================================
+   STUDIO ORGANISATEUR & COMPTE PROMOTEUR
+   Le dépôt d'un événement et l'espace du promoteur. Tout vit ici plutôt qu'en
+   style inline : la page se replie à une colonne sous 1024 px, et un
+   `gridColumn` codé en dur y créait 142 px de débordement, le seul du site.
+   ========================================================================= */
+
+/* --- Champs, l'outillage commun ---------------------------------------- */
+.field-hint { font-size: .78rem; color: var(--grey-2); line-height: 1.5; margin: -2px 0 2px; }
+.field-hint.low { color: var(--magenta); }
+.field-error { font-size: .8rem; color: var(--magenta); margin-top: 2px; }
+.input.bad { border-color: var(--magenta); }
+.input.bad:focus { box-shadow: var(--glow-magenta); }
+.checkline { display: flex; align-items: flex-start; gap: 12px; cursor: pointer; font-size: .88rem; color: var(--grey); line-height: 1.5; }
+.checkline input { accent-color: var(--violet); width: 18px; height: 18px; margin-top: 2px; flex-shrink: 0; }
+.linkish { background: none; border: 0; padding: 0; color: var(--cyan); cursor: pointer; font: inherit; text-decoration: underline; }
+.radiorow { display: flex; flex-wrap: wrap; gap: 8px; }
+.radiorow label { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border: 1px solid var(--line); border-radius: 99px; font-size: .85rem; color: var(--grey); cursor: pointer; transition: all .25s var(--ease); }
+.radiorow label.on { border-color: var(--violet); color: #fff; background: var(--grad-soft); }
+.radiorow input { accent-color: var(--violet); }
+/* `.tab` était un <div> : passé en <button> pour le clavier, il faut annuler le fond
+   et la bordure que le navigateur pose, sans toucher au soulignement actif. */
+.tabs button.tab { background: none; border: 0; border-bottom: 2px solid transparent; font: inherit; }
+.tabs button.tab.on { border-bottom-color: var(--magenta); }
+
+/* --- Le champ à étiquettes (sous-genres, line-up) ----------------------- */
+.tagfield label { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.tagfield-count { font-family: var(--f-mono); font-size: .68rem; color: var(--grey-3); letter-spacing: .1em; }
+.tagfield-bar { position: relative; display: flex; gap: 10px; }
+.tagfield-bar .input { flex: 1; min-width: 0; }
+.tagfield-menu { position: absolute; z-index: 30; top: calc(100% + 6px); left: 0; right: 0; max-height: 260px; overflow-y: auto; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite); box-shadow: var(--shadow-card); padding: 6px; }
+.tagfield-menu button { display: block; width: 100%; text-align: left; padding: 9px 12px; border: 0; border-radius: var(--r-sm); background: none; color: var(--grey); font: inherit; cursor: pointer; }
+.tagfield-menu button.on, .tagfield-menu button:hover { background: var(--grad-soft); color: #fff; }
+.tagfield-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.tagfield-list li { display: inline-flex; align-items: center; gap: 8px; padding: 7px 8px 7px 14px; border: 1px solid var(--line); border-radius: 99px; background: rgba(255,255,255,.03); font-size: .85rem; }
+.tagfield-list button { width: 20px; height: 20px; display: grid; place-items: center; border: 0; border-radius: 50%; background: rgba(255,255,255,.06); color: var(--grey); cursor: pointer; font-size: .7rem; line-height: 1; }
+.tagfield-list button:hover { background: var(--magenta); color: #fff; }
+.tagfield-empty { margin-top: 12px; }
+
+/* --- L'éditeur de description ------------------------------------------ */
+.richfield label { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.richfield-count { font-family: var(--f-mono); font-size: .68rem; color: var(--grey-3); letter-spacing: .08em; }
+.richfield-count.low { color: var(--grey-2); }
+.richfield-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 6px; border: 1px solid var(--line); border-bottom: 0; border-radius: var(--r-md) var(--r-md) 0 0; background: var(--anthracite-2); }
+.richfield-tools, .richfield-tabs { display: flex; gap: 4px; }
+.richfield-bar button { min-width: 34px; height: 30px; padding: 0 10px; border: 0; border-radius: var(--r-sm); background: none; color: var(--grey); font-size: .82rem; cursor: pointer; transition: all .2s; }
+.richfield-bar button:hover { background: rgba(255,255,255,.07); color: #fff; }
+.richfield-tabs button.on { background: var(--grad-soft); color: #fff; }
+.richfield-area { border-radius: 0 0 var(--r-md) var(--r-md); min-height: 190px; }
+.richfield-preview { min-height: 190px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 0 0 var(--r-md) var(--r-md); background: var(--anthracite); overflow-wrap: anywhere; }
+/* Le rendu de `renderRich()`. Les mêmes règles serviront le jour où une fiche
+   affichera une description déposée : le format est le même des deux côtés. */
+.richtext p { color: var(--grey); margin-bottom: 10px; }
+.richtext p:last-child, .richtext ul:last-child { margin-bottom: 0; }
+.richtext strong { color: #fff; font-weight: 700; }
+.richtext em { color: var(--white); }
+.richtext a { color: var(--cyan); text-decoration: underline; }
+.richtext ul { margin: 0 0 12px; padding-left: 4px; }
+.richtext li { color: var(--grey); padding-left: 18px; position: relative; margin-bottom: 5px; }
+.richtext li::before { content: "▸"; position: absolute; left: 0; color: var(--violet); }
+.richtext .muted { color: var(--grey-3); }
+
+/* --- Connexion & inscription ------------------------------------------- */
+.proauth { border: 1px solid var(--line); border-radius: var(--r-xl); background: linear-gradient(165deg, rgba(255,255,255,.045), transparent 60%), var(--anthracite); overflow: hidden; max-width: 780px; }
+.proauth-switch { display: flex; gap: 4px; padding: 8px; border-bottom: 1px solid var(--line); background: rgba(0,0,0,.25); }
+.proauth-switch button { flex: 1; padding: 12px 16px; border: 0; border-radius: var(--r-md); background: none; color: var(--grey); font: inherit; font-weight: 600; cursor: pointer; transition: all .25s var(--ease); }
+.proauth-switch button.on { background: var(--grad-main); color: #fff; box-shadow: var(--glow-violet); }
+.proauth-form { padding: 28px; }
+.proauth-lead { margin-bottom: 24px; font-size: .95rem; }
+.proauth-closed { padding: 14px 16px; margin-bottom: 20px; border: 1px solid var(--magenta); border-radius: var(--r-md); background: rgba(255,45,155,.08); color: var(--white); font-size: .88rem; }
+.proauth-sep { padding-top: 14px; border-top: 1px solid var(--line-soft); gap: 6px; }
+.proauth-form .btn-block { margin-top: 26px; }
+.proauth-foot { margin-top: 16px; text-align: center; color: var(--grey-2); font-size: .85rem; }
+
+/* --- L'espace du promoteur --------------------------------------------- */
+.pro-badge { margin-left: auto; padding: 8px 14px; border-radius: 99px; font-family: var(--f-mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; border: 1px solid var(--line); color: var(--grey); white-space: nowrap; }
+.pro-badge.s-approved { border-color: var(--acid); color: var(--acid); }
+.pro-badge.s-pending { border-color: var(--violet); color: #cfd2ff; }
+.pro-badge.s-rejected, .pro-badge.s-suspended { border-color: var(--magenta); color: var(--magenta); }
+.pro-subhead { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; }
+.pro-subhead .lead { margin: 0; }
+.sublist { display: flex; flex-direction: column; gap: 10px; }
+.subrow { display: flex; align-items: center; gap: 16px; padding: 16px 20px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite); flex-wrap: wrap; }
+.subrow-state { padding: 5px 12px; border-radius: 99px; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; border: 1px solid var(--line); color: var(--grey); }
+.subrow-state.s-published { border-color: var(--acid); color: var(--acid); }
+.subrow-state.s-rejected { border-color: var(--magenta); color: var(--magenta); }
+.subrow-main { flex: 1 1 260px; min-width: 0; }
+.subrow-meta { display: block; color: var(--grey-2); font-size: .82rem; margin-top: 3px; }
+.subrow-at { font-family: var(--f-mono); font-size: .7rem; color: var(--grey-3); }
+.pro-note { margin-top: 22px; color: var(--grey-2); font-size: .84rem; line-height: 1.6; max-width: 70ch; }
+.pro-profile { max-width: 780px; }
+.pro-profile .btn { margin-top: 24px; }
+.pro-static { font-family: var(--f-mono); font-size: .9rem; color: var(--white); }
+.pro-signin { display: flex; flex-direction: column; gap: 22px; }
+.pro-signin .lead { max-width: 60ch; margin: 0; }
+
+/* --- Le studio de dépôt ------------------------------------------------- */
+.org-promises { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.org-promises li { padding: 9px 16px; border: 1px solid var(--line); border-radius: 99px; font-size: .82rem; color: var(--grey); background: rgba(255,255,255,.02); }
+.org-promises li::before { content: "✓"; color: var(--acid); margin-right: 8px; }
+.org-studio { display: grid; grid-template-columns: minmax(0,1fr) 360px; gap: 36px; align-items: start; margin-top: 36px; }
+.org-main { min-width: 0; }
+.org-preview-inner { position: sticky; top: 90px; border: 1px solid var(--line); border-radius: var(--r-lg); padding: 20px; background: linear-gradient(160deg, rgba(255,255,255,.035), transparent); }
+.org-card { margin-top: 16px; cursor: default; }
+.org-card-shot { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
+.org-preview-sub { margin-top: 16px; }
+.org-preview-line { margin-top: 12px; font-size: .84rem; color: var(--grey); }
+.org-preview-note { margin-top: 14px; color: var(--grey-2); font-size: .8rem; line-height: 1.5; }
+
+/* L'assistant. Une étape franchie devient cliquable pour revenir corriger ; une étape
+   à venir reste désactivée, puisque son contenu n'a pas encore été validé. */
+.wizard { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+.wizard-step button { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border: 1px solid var(--line); border-radius: 99px; background: none; color: var(--grey); font: inherit; font-size: .85rem; cursor: pointer; transition: all .3s var(--ease); }
+.wizard-step button:disabled { cursor: default; opacity: .5; }
+.wizard-step .num { width: 22px; height: 22px; border-radius: 50%; background: var(--line); display: grid; place-items: center; font-size: .72rem; flex-shrink: 0; }
+.wizard-step.on button { border-color: var(--violet); color: #fff; background: var(--grad-soft); }
+.wizard-step.on .num { background: var(--grad-main); }
+.wizard-step.done button { border-color: rgba(198,255,61,.35); color: var(--white); }
+.wizard-step.done .num { background: var(--acid); color: var(--black); font-weight: 700; }
+
+.org-actions { display: flex; gap: 12px; justify-content: flex-end; margin-top: 8px; }
+.org-actions .btn { min-width: 160px; justify-content: center; }
+.org-en { margin-top: 20px; border-top: 1px solid var(--line-soft); padding-top: 16px; }
+.org-en summary { cursor: pointer; color: var(--cyan); font-size: .88rem; }
+.org-en .field-hint { margin: 10px 0 14px; }
+.upload.has { padding: 0; border-style: solid; overflow: hidden; }
+.upload-shot { width: 100%; max-height: 320px; object-fit: contain; background: var(--black-2); }
+.org-review .recap { display: grid; grid-template-columns: 180px 1fr; gap: 10px 20px; margin: 22px 0; }
+.recap dt { font-family: var(--f-mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--grey-3); padding-top: 3px; }
+.recap dd { color: var(--white); overflow-wrap: anywhere; }
+.org-note { padding: 14px 16px; border-left: 2px solid var(--violet); background: rgba(139,92,255,.06); color: var(--grey); font-size: .86rem; line-height: 1.6; }
+
+.org-gate { max-width: 780px; margin-top: 32px; padding: 32px; border: 1px solid var(--line); border-radius: var(--r-xl); background: linear-gradient(165deg, rgba(255,255,255,.04), transparent 60%), var(--anthracite); }
+.org-gate .eyebrow { display: block; margin-bottom: 10px; }
+.org-gate .lead { margin: 12px 0 24px; }
+.org-gate .proauth { max-width: none; }
+.org-done-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+/* L'attente de la session : une boîte au bon gabarit plutôt qu'un saut de mise en page
+   quand la réponse arrive. */
+.skeleton { color: var(--grey-3); min-height: 120px; display: grid; place-items: center; }
+.profile-head.skeleton { min-height: 136px; }
+
+@media (max-width: 1024px) {
+  /* L'aperçu passe au-dessus du formulaire : c'est lui qui dit ce qu'on est en train
+     de construire, et il perd son collage puisqu'il n'a plus de colonne à lui. */
+  .org-studio { grid-template-columns: 1fr; }
+  .org-main { order: 2; }
+  .org-preview { order: 1; }
+  .org-preview-inner { position: static; }
+  .org-card { max-width: 360px; }
+}
+@media (max-width: 720px) {
+  .proauth-form, .org-gate { padding: 22px 18px; }
+  .org-review .recap { grid-template-columns: 1fr; gap: 4px 0; }
+  .recap dd { margin-bottom: 12px; }
+  .org-actions { flex-direction: column-reverse; }
+  .org-actions .btn { width: 100%; }
+  .wizard-step .lbl { display: none; }
+  .wizard-step button { padding: 10px 14px; }
+  .pro-badge { margin-left: 0; }
+}
