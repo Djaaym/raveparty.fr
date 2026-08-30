@@ -1761,6 +1761,20 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .adm-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 28px; }
 .adm-head .adm-note { margin-top: 6px; max-width: 70ch; }
 
+/* L'état du magasin et celui du transport mail, côte à côte : ce sont les deux
+   conditions pour que la fonctionnalité tourne, et une case rouge nomme la variable
+   qui manque plutôt que de laisser deviner. */
+.adm-health { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 12px; margin-bottom: 26px; }
+.adm-card { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 16px 18px; border: 1px solid var(--line); border-left-width: 3px; border-radius: var(--r-md); background: var(--anthracite); }
+.adm-card.ok { border-left-color: var(--acid); }
+.adm-card.bad { border-left-color: var(--magenta); }
+.adm-card b { font-size: .92rem; }
+/* Ces deux-là portent des noms de variables et des réponses d'API en une seule chaîne :
+   sans coupure autorisée, elles débordent de 16 px à 390 px de large. */
+.adm-card span { color: var(--grey); font-size: .82rem; line-height: 1.6; overflow-wrap: anywhere; }
+.adm-test { color: var(--cyan); font-size: .8rem; font-style: normal; overflow-wrap: anywhere; }
+.adm-state.s-quiet { border-color: var(--grey-3); color: var(--grey-2); }
+
 .adm-list { display: flex; flex-direction: column; gap: 10px; }
 .adm-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding: 16px 20px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite); }
 .adm-main { flex: 1 1 380px; min-width: 0; }

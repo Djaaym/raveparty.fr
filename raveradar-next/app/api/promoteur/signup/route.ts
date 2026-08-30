@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { parseSignup, publicAccount, type PromoterAccount } from "@/lib/accounts";
-import { createAccount, isConfigured, memoryOnlyAllowed } from "@/lib/accounts-store";
+import { createAccount, isConfigured, memoryOnlyAllowed, saveAccount } from "@/lib/accounts-store";
 import { actionToken, hashPassword, issueSession, SESSION_SECONDS } from "@/lib/promoter-auth";
 import { sessionCookies, withCookies } from "@/lib/promoter-session";
 import { notifyOwner, ownerAddress } from "@/lib/subscribers";
@@ -63,7 +63,10 @@ export async function POST(req: Request) {
   }
   if (!created) return NextResponse.json({ error: "taken", fields: { email: "taken" } }, { status: 409 });
 
-  await sendReviewRequest(account);
+  // Le compte existe déjà à ce stade : on note seulement si l'annonce est partie, pour
+  // que la console puisse signaler une demande que personne n'a vue passer.
+  account.notified = await sendReviewRequest(account);
+  if (!account.notified) await saveAccount(account).catch(() => undefined);
 
   // La session s'ouvre tout de suite : le compte est en attente, pas absent, et faire
   // ressaisir un mot de passe pour lire « en attente de validation » n'apporte rien.
@@ -74,8 +77,9 @@ export async function POST(req: Request) {
   );
 }
 
-/** Le mail que le propriétaire reçoit, avec les deux liens d'un clic. */
-async function sendReviewRequest(a: PromoterAccount) {
+/** Le mail que le propriétaire reçoit, avec les deux liens d'un clic. Rend `false`
+ *  quand rien n'est parti, ce que la console montre à côté de la demande. */
+async function sendReviewRequest(a: PromoterAccount): Promise<boolean> {
   const link = (action: "approve" | "reject") =>
     `${SITE_URL}/api/promoteur/approve?e=${encodeURIComponent(a.email)}&a=${action}&t=${actionToken(a.email, action)}`;
 
@@ -104,8 +108,9 @@ async function sendReviewRequest(a: PromoterAccount) {
     // Le compte existe quand même, il attend simplement une décision prise à la main.
     // Le journal serveur est alors la seule trace, autant qu'elle soit complète.
     console.error(
-      `[promoteur] aucun transport mail (ALERTS_NOTIFY_TO=${ownerAddress() || "vide"}), demande en attente :\n` +
+      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), demande en attente :\n` +
         lines.join("\n"),
     );
   }
+  return sent;
 }

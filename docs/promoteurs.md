@@ -27,7 +27,8 @@ relecture plus rapide, pas facultative.
 
 ## Mise en route
 
-Trois choses à poser dans Vercel, dont une seule est vraiment nouvelle.
+Deux variables suffisent à tout faire tourner : le magasin et une clé d'API mail. Les
+autres ne servent qu'à préciser.
 
 ### 1. Le magasin (obligatoire)
 
@@ -50,18 +51,43 @@ lambda disparaît au premier redéploiement, et annoncer une inscription qui ne 
 est pire que la refuser. Le repli mémoire reste ouvert en `next dev`, où il est exactement
 ce qu'il faut.
 
-### 2. Le mail sortant (obligatoire en pratique)
+### 2. Les alertes mail (une seule ligne)
 
-Déjà nécessaire pour le formulaire organisateur, mêmes variables :
+C'est par là qu'arrivent les demandes de compte et les dépôts, avec les liens
+**Approuver** / **Refuser** et l'affiche en pièce jointe.
 
 ```
-ALERTS_NOTIFY_TO=djaym.info@gmail.com
+RESEND_API_KEY=re_…
+```
+
+Et c'est tout, pour se prévenir soi-même. Le destinataire vaut `djaym.info@gmail.com` par
+défaut (`ALERTS_NOTIFY_TO` pour en changer), et l'expéditeur retombe sur
+`onboarding@resend.dev`, l'adresse de démarrage de Resend, qui fonctionne **sans domaine
+vérifié**. Sa limite est connue et affichée dans la console : elle **n'écrit qu'à
+l'adresse du compte Resend**. C'est exactement ce dont on a besoin pour être prévenu ;
+ça ne suffit pas pour écrire à un promoteur.
+
+Pour que les mails de validation et de refus partent vers les organisateurs, il faut un
+domaine vérifié chez le fournisseur et l'expéditeur qui va avec :
+
+```
 ALERTS_NOTIFY_FROM=alertes@raveparty.fr
 ```
 
+Brevo marche aussi (`BREVO_API_KEY`), avec une différence : il n'a pas d'expéditeur de
+démarrage, il exige un expéditeur vérifié dans le compte, donc `ALERTS_NOTIFY_FROM` y est
+obligatoire dès le départ.
+
+**Le bouton « Envoyer un test » de `/admin` est là pour finir la configuration** : il
+envoie un vrai message et rend la réponse du fournisseur telle quelle. « API key is
+invalid » et « domain is not verified » ne se corrigent pas pareil, et un simple « échec »
+obligerait à aller lire les journaux de Vercel.
+
 Sans transport, un compte se crée quand même mais **personne n'est prévenu** : la demande
-attend, et son détail (liens d'approbation compris) part dans le journal serveur. Les
-pages de décision le disent au lieu d'annoncer un mail qui n'est pas parti.
+attend, son détail (liens d'approbation compris) part dans le journal serveur, et la
+console marque la ligne **« non notifié »**. C'est ce marqueur qui évite le pire des cas,
+une demande arrivée un jour où le mail était cassé et qui attend indéfiniment sans que
+rien ne le signale.
 
 ### 3. Le secret de signature (recommandé)
 
@@ -191,6 +217,9 @@ qui n'avait pas lieu.
   du site pour savoir s'il faut écrire « Connexion » ou « Mon compte ».
 - Le statut du compte est relu à chaque requête, donc **suspendre prend effet tout de
   suite**, sans attendre l'expiration d'un cookie.
+- L'adresse du propriétaire vit dans `lib/subscribers.ts`, **module serveur uniquement**,
+  et doit y rester : une adresse mail dans un bundle de navigateur se fait ramasser par
+  les robots à spam dans la semaine.
 - La route de connexion ne distingue pas « adresse inconnue » de « mot de passe faux » :
   les séparer ferait du formulaire un test d'existence d'adresse. Un compte refusé ou
   suspendu, lui, est bien distingué, mais **après** vérification du mot de passe.

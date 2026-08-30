@@ -6,7 +6,9 @@ import {
   deleteAccount, deleteSubmission, getAccount, getSubmission,
   isConfigured, listAccounts, listAllSubmissions, ping, saveAccount, saveSubmission,
 } from "@/lib/accounts-store";
+import { mailStatus, ownerAddress, sendMailDetailed } from "@/lib/subscribers";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -45,6 +47,9 @@ export async function GET() {
     return NextResponse.json(
       {
         store: { configured: isConfigured(), ...store },
+        // L'état du transport voyage avec le reste : la console doit pouvoir dire
+        // pourquoi une demande n'a prévenu personne, au même endroit qu'elle la montre.
+        mail: mailStatus(),
         accounts: accounts.map((a) => ({ ...publicAccount(a), submissions: counts[a.email] ?? 0 })),
         submissions,
       },
@@ -107,6 +112,19 @@ export async function POST(req: Request) {
       account.decidedAt = new Date().toISOString();
       await saveAccount(account);
       return NextResponse.json({ ok: true, account: publicAccount(account) });
+    }
+
+    if (body.kind === "mail" && action === "test") {
+      /* Un envoi réel vers l'adresse du propriétaire, avec le message exact du
+         fournisseur en retour. C'est la seule façon de distinguer « clé invalide » de
+         « domaine non vérifié », et donc la seule façon de finir la configuration sans
+         lire les journaux de Vercel. */
+      const res = await sendMailDetailed(
+        ownerAddress(),
+        "RaveRadar, test d'envoi",
+        `Si tu lis ce message, les alertes du site arrivent bien à cette adresse.\n\n${SITE_URL}/admin`,
+      );
+      return NextResponse.json({ ok: res.ok, detail: res.detail, to: ownerAddress() });
     }
 
     if (body.kind === "submission") {

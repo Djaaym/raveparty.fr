@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import type { EventSubmission } from "@/lib/accounts";
-import { countRecentSubmissions, createSubmission, listSubmissions } from "@/lib/accounts-store";
+import { countRecentSubmissions, createSubmission, listSubmissions, saveSubmission } from "@/lib/accounts-store";
 import { actionToken, newId } from "@/lib/promoter-auth";
 import { currentAccount } from "@/lib/promoter-session";
 import { parseSubmission } from "@/lib/submissions";
@@ -75,7 +75,10 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "store" }, { status: 502 });
   }
 
-  await sendToOwner(submission, account.name, poster(body));
+  // Comme à l'inscription : le dépôt est enregistré quoi qu'il arrive, on note seulement
+  // si l'annonce est partie, pour que la console signale ce que personne n'a vu passer.
+  submission.notified = await sendToOwner(submission, account.name, poster(body));
+  if (!submission.notified) await saveSubmission(submission).catch(() => undefined);
   return NextResponse.json({ ok: true, submission });
 }
 
@@ -102,7 +105,7 @@ function poster(body: Record<string, unknown>): MailAttachment | null {
   return { filename: /\.[a-z0-9]{3,4}$/i.test(safe) ? safe : `${safe}.${m[1] === "jpeg" ? "jpg" : m[1]}`, content };
 }
 
-async function sendToOwner(s: EventSubmission, promoter: string, file: MailAttachment | null) {
+async function sendToOwner(s: EventSubmission, promoter: string, file: MailAttachment | null): Promise<boolean> {
   const link = (action: "publish" | "reject") =>
     `${SITE_URL}/api/promoteur/approve?s=${encodeURIComponent(s.id)}&a=${action}&t=${actionToken(s.id, action)}`;
 
@@ -142,8 +145,9 @@ async function sendToOwner(s: EventSubmission, promoter: string, file: MailAttac
   );
   if (!sent) {
     console.error(
-      `[promoteur] aucun transport mail (ALERTS_NOTIFY_TO=${ownerAddress() || "vide"}), dépôt enregistré :\n` +
+      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), dépôt enregistré :\n` +
         lines.join("\n"),
     );
   }
+  return sent;
 }

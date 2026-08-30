@@ -123,21 +123,105 @@ export interface MailAttachment {
 export const MAX_ATTACHMENT_BYTES = 3 * 1024 * 1024;
 
 /**
- * Mail transactionnel. Utilisé pour la soumission d'un événement, la validation d'un
- * compte promoteur, et le chemin Resend des alertes.
+ * L'adresse qui reçoit les demandes de compte et les dépôts d'événement.
  *
- * Renvoie false au lieu de lever : aucun appelant ne doit voir sa réussite dépendre de
- * l'acheminement d'une copie. C'est aussi ce qui permet aux routes de distinguer « pas
- * de boîte configurée » (501, on ne prétend pas avoir reçu) de « c'est parti ».
+ * Elle a une valeur par défaut, et ce n'est pas de la complaisance : sans elle, la
+ * fonctionnalité entière tenait à une variable que personne ne pense à poser, et une
+ * demande de compte arrivait dans un journal serveur que personne ne lit. Le
+ * propriétaire du site est connu, son adresse n'est pas un secret, et `ALERTS_NOTIFY_TO`
+ * reste là pour en mettre une autre.
+ *
+ * **Serveur uniquement.** Ce module n'est importé que par des routes d'API, et il doit
+ * le rester : une adresse mail dans un bundle de navigateur se fait ramasser par les
+ * robots à spam dans la semaine. C'est la même règle que pour `HOTEL_AID` dans
+ * `lib/site.ts`, pour une raison différente.
  */
-export async function sendMail(
+export const ownerAddress = (): string => process.env.ALERTS_NOTIFY_TO ?? "djaym.info@gmail.com";
+
+/**
+ * L'expéditeur.
+ *
+ * `ALERTS_NOTIFY_FROM` d'abord. À défaut, et **seulement avec Resend**,
+ * `onboarding@resend.dev` : c'est l'expéditeur de démarrage de Resend, qui fonctionne
+ * sans domaine vérifié mais **n'écrit qu'à l'adresse du compte Resend**. Ça suffit
+ * exactement pour ce dont on a besoin ici, se prévenir soi-même, et ça ramène la mise en
+ * route à une seule variable, la clé d'API. Pour écrire à un promoteur (validation,
+ * refus), il faut un domaine vérifié et un `ALERTS_NOTIFY_FROM` dessus.
+ *
+ * Brevo n'a pas d'équivalent : il exige un expéditeur vérifié dans le compte, donc pas
+ * de défaut possible, et `mailStatus()` le dit au lieu de laisser deviner.
+ */
+export const senderAddress = (): string =>
+  process.env.ALERTS_NOTIFY_FROM ?? (process.env.RESEND_API_KEY ? "onboarding@resend.dev" : "");
+
+export type MailProvider = "resend" | "brevo";
+
+export interface MailStatus {
+  provider: MailProvider | null;
+  from: string;
+  to: string;
+  /** Un envoi partirait-il ? Faux dès qu'il manque une pièce. */
+  ready: boolean;
+  /** Les variables à poser, nommées, dans l'ordre où les poser. */
+  missing: string[];
+  /** Ce qu'il faut savoir de la configuration courante, en une phrase. */
+  note: string;
+}
+
+/**
+ * L'état du transport, tel que la console l'affiche.
+ *
+ * Il existe parce que « ça ne marche pas » est la pire des réponses : ici chaque pièce
+ * manquante est nommée, et une configuration qui marche à moitié (Resend en mode
+ * démarrage, qui n'écrit qu'au propriétaire) est annoncée comme telle plutôt que
+ * découverte le jour où un promoteur ne reçoit pas sa validation.
+ */
+export function mailStatus(): MailStatus {
+  const provider: MailProvider | null = process.env.RESEND_API_KEY
+    ? "resend"
+    : process.env.BREVO_API_KEY
+      ? "brevo"
+      : null;
+  const from = senderAddress();
+  const to = ownerAddress();
+  const missing: string[] = [];
+  if (!provider) missing.push("RESEND_API_KEY (ou BREVO_API_KEY)");
+  if (!from) missing.push("ALERTS_NOTIFY_FROM");
+
+  const note = !provider
+    ? "Aucun fournisseur : rien ne part, le détail des demandes va dans le journal serveur."
+    : provider === "resend" && from === "onboarding@resend.dev"
+      ? "Expéditeur de démarrage Resend : il n'écrit qu'à l'adresse du compte Resend. Pour prévenir un promoteur, vérifie un domaine et pose ALERTS_NOTIFY_FROM."
+      : provider === "brevo" && !process.env.ALERTS_NOTIFY_FROM
+        ? "Brevo exige un expéditeur vérifié dans le compte : pose ALERTS_NOTIFY_FROM."
+        : "Transport configuré.";
+
+  return { provider, from, to, ready: Boolean(provider && from && to), missing, note };
+}
+
+export interface MailResult {
+  ok: boolean;
+  /** Ce que le fournisseur a répondu, tronqué. Vide quand tout va bien. */
+  detail: string;
+}
+
+/**
+ * Mail transactionnel, avec le détail de l'échec.
+ *
+ * `sendMail()` en dessous n'en garde que le booléen, parce qu'aucun appelant ne doit
+ * voir sa réussite dépendre de l'acheminement d'une copie. Mais le bouton de test de la
+ * console, lui, a besoin du message exact du fournisseur : « domaine non vérifié » et
+ * « clé invalide » se corrigent différemment, et un simple « échec » oblige à deviner.
+ */
+export async function sendMailDetailed(
   to: string,
   subject: string,
   text: string,
   attachments: MailAttachment[] = [],
-): Promise<boolean> {
-  const from = process.env.ALERTS_NOTIFY_FROM;
-  if (!to || !from) return false;
+): Promise<MailResult> {
+  const from = senderAddress();
+  if (!to) return { ok: false, detail: "aucun destinataire (ALERTS_NOTIFY_TO)" };
+  if (!from) return { ok: false, detail: "aucun expéditeur (ALERTS_NOTIFY_FROM)" };
 
   try {
     if (process.env.RESEND_API_KEY) {
@@ -149,7 +233,8 @@ export async function sendMail(
           ...(attachments.length ? { attachments: attachments.map((a) => ({ filename: a.filename, content: a.content })) } : {}),
         }),
       });
-      return res.ok;
+      if (res.ok) return { ok: true, detail: "" };
+      return { ok: false, detail: `Resend ${res.status} ${(await res.text().catch(() => "")).slice(0, 220)}` };
     }
     if (process.env.BREVO_API_KEY) {
       const res = await fetch("https://api.brevo.com/v3/smtp/email", {
@@ -160,16 +245,33 @@ export async function sendMail(
           ...(attachments.length ? { attachment: attachments.map((a) => ({ name: a.filename, content: a.content })) } : {}),
         }),
       });
-      return res.ok;
+      if (res.ok) return { ok: true, detail: "" };
+      return { ok: false, detail: `Brevo ${res.status} ${(await res.text().catch(() => "")).slice(0, 220)}` };
     }
-  } catch {
-    return false;
+  } catch (err) {
+    return { ok: false, detail: err instanceof Error ? err.message.slice(0, 220) : "réseau" };
   }
-  return false;
+  return { ok: false, detail: "aucun fournisseur configuré (RESEND_API_KEY ou BREVO_API_KEY)" };
 }
 
-/** L'adresse qui reçoit les demandes de compte et les dépôts d'événement. */
-export const ownerAddress = (): string => process.env.ALERTS_NOTIFY_TO ?? "";
+/**
+ * Mail transactionnel. Utilisé pour la soumission d'un événement, la validation d'un
+ * compte promoteur, et le chemin Resend des alertes.
+ *
+ * Renvoie false au lieu de lever : aucun appelant ne doit voir sa réussite dépendre de
+ * l'acheminement d'une copie. L'échec n'est pas perdu pour autant, il part dans le
+ * journal serveur, et la console le montre à côté de ce qui n'a pas été notifié.
+ */
+export async function sendMail(
+  to: string,
+  subject: string,
+  text: string,
+  attachments: MailAttachment[] = [],
+): Promise<boolean> {
+  const res = await sendMailDetailed(to, subject, text, attachments);
+  if (!res.ok) console.error(`[mail] échec vers ${to} : ${res.detail}`);
+  return res.ok;
+}
 
 /** Le mail au propriétaire, cas particulier de `sendMail` avec son destinataire. */
 export const notifyOwner = (subject: string, text: string, attachments: MailAttachment[] = []): Promise<boolean> =>

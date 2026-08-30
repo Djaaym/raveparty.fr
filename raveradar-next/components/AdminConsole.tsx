@@ -27,6 +27,7 @@ type Tab = "accounts" | "submissions";
 
 interface Data {
   store: { configured: boolean; ok: boolean; detail: string };
+  mail: { provider: string | null; from: string; to: string; ready: boolean; missing: string[]; note: string };
   accounts: (PublicAccount & { submissions: number })[];
   submissions: EventSubmission[];
 }
@@ -44,6 +45,7 @@ export default function AdminConsole() {
   const [busy, setBusy] = useState("");
   const [confirming, setConfirming] = useState("");
   const [open, setOpen] = useState<string>("");
+  const [mailTest, setMailTest] = useState("");
 
   const load = useCallback(async () => {
     const res = await fetch("/api/admin/data", { cache: "no-store" });
@@ -145,14 +147,58 @@ export default function AdminConsole() {
         <div>
           <h1 className="h-md">Administration</h1>
           <p className="adm-note">
-            {accounts.length} compte(s), {submissions.length} dépôt(s).{" "}
-            {data?.store.configured
-              ? `Magasin : ${data.store.ok ? "connecté" : "injoignable, " + data.store.detail}.`
-              : "Magasin non configuré : ce que tu vois ne survivra pas au prochain déploiement."}
+            {accounts.length} compte(s), {submissions.length} dépôt(s).
           </p>
         </div>
         <button className="btn btn-ghost btn-sm" onClick={signOut}>Sortir</button>
       </header>
+
+      {/* Les deux conditions pour que tout ceci tourne, lues au même endroit : où les
+          données sont écrites, et par quel chemin l'annonce part. Une case rouge nomme
+          la variable à poser, plutôt que de laisser deviner ce qui manque. */}
+      <div className="adm-health">
+        <div className={`adm-card ${data?.store.configured && data.store.ok ? "ok" : "bad"}`}>
+          <b>Magasin</b>
+          <span>
+            {data?.store.configured
+              ? data.store.ok
+                ? "Connecté. Comptes et dépôts sont conservés."
+                : `Injoignable : ${data.store.detail}`
+              : "Non configuré : ce que tu vois ne survivra pas au prochain déploiement. Pose ACCOUNTS_KV_REST_API_URL et ACCOUNTS_KV_REST_API_TOKEN (ou KV_REST_API_*)."}
+          </span>
+        </div>
+
+        {/* Vert tant qu'un envoi partirait, rouge dès qu'un test a échoué : afficher
+            « prêt » sous le message d'erreur du fournisseur serait le pire des deux. */}
+        <div className={`adm-card ${data?.mail.ready && !mailTest.startsWith("Échec") ? "ok" : "bad"}`}>
+          <b>Alertes mail</b>
+          <span>
+            {data?.mail.provider ? `Fournisseur : ${data.mail.provider}. ` : ""}
+            {data?.mail.from ? `De ${data.mail.from} vers ${data.mail.to}. ` : ""}
+            {data?.mail.note}
+            {data?.mail.missing.length ? ` À poser : ${data.mail.missing.join(", ")}.` : ""}
+          </span>
+          <button
+            className="btn btn-ghost btn-sm"
+            disabled={busy === "mail"}
+            onClick={async () => {
+              setBusy("mail");
+              setMailTest("");
+              const res = await fetch("/api/admin/data", {
+                method: "POST",
+                headers: { "content-type": "application/json" },
+                body: JSON.stringify({ kind: "mail", action: "test" }),
+              });
+              const j = (await res.json().catch(() => ({}))) as { ok?: boolean; detail?: string; to?: string };
+              setBusy("");
+              setMailTest(j.ok ? `Envoyé à ${j.to}. Regarde ta boîte (et les indésirables).` : `Échec : ${j.detail ?? "inconnu"}`);
+            }}
+          >
+            {busy === "mail" ? "Envoi…" : "Envoyer un test"}
+          </button>
+          {mailTest && <em className="adm-test">{mailTest}</em>}
+        </div>
+      </div>
 
       <div className="tabs" role="tablist">
         <button type="button" role="tab" aria-selected={tab === "accounts"}
@@ -175,6 +221,7 @@ export default function AdminConsole() {
               <div className="adm-main">
                 <b>{a.name}</b>
                 <span className={`adm-state s-${a.status}`}>{STATUS_FR[a.status]}</span>
+                {a.notified === false && <span className="adm-state s-quiet">non notifié</span>}
                 <span className="adm-meta">
                   {a.kind} · {a.contact} · {a.email}
                   {a.phone ? ` · ${a.phone}` : ""} · {a.city}, {a.country} · {a.submissions} dépôt(s)
@@ -230,6 +277,7 @@ export default function AdminConsole() {
               <div className="adm-main">
                 <b>{s.title}</b>
                 <span className={`adm-state s-${s.status}`}>{STATUS_FR[s.status]}</span>
+                {s.notified === false && <span className="adm-state s-quiet">non notifié</span>}
                 <span className="adm-meta">
                   {fmtDate(s.date, "fr")}
                   {s.endDate ? ` → ${fmtDate(s.endDate, "fr")}` : ""} · {s.venue}, {s.city}, {s.country} ·{" "}
