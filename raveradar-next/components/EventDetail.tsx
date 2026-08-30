@@ -27,6 +27,7 @@ import EventCard from "./EventCard";
 import FavButton from "./FavButton";
 import FestivalGuide from "./FestivalGuide";
 import HeroImage from "./HeroImage";
+import HotelsCard from "./HotelsCard";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
 import SocialsCard from "./SocialsCard";
@@ -247,6 +248,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <h2 className="h-md">{t("event.location")}</h2>
                 <MiniMap lat={e.lat} lng={e.lng} />
               </div>
+
+              {/* « C'est où » appelle « et je dors où ». Jamais sur une édition
+                  terminée : proposer un hôtel pour une nuit passée n'a aucun sens,
+                  et c'est la même règle que les blocs de mise en avant. */}
+              {!done && <HotelsCard e={e} lang={lang} />}
             </div>
 
             <aside>
