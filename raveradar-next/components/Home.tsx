@@ -12,6 +12,7 @@ import CtaForm from "./CtaForm";
 import JsonLd from "./JsonLd";
 import { siteJsonLd } from "@/lib/seo";
 import { topPlaces } from "@/lib/places";
+import { searchExamples } from "@/lib/search-index";
 
 const MARQUEE = ["TECHNO", "HARDSTYLE", "DRUM & BASS", "PSYTRANCE", "TRANCE", "ACID", "WAREHOUSE"];
 
@@ -43,6 +44,7 @@ export default function Home({ lang }: { lang: Lang }) {
         countries={COUNTRIES.length}
         countryOptions={COUNTRIES.map((c) => ({ v: c, l: countryLabel(c, lang) }))}
         genreOptions={ALL_GENRES}
+        searchExamples={searchExamples()}
       />
 
       {/* marquee */}

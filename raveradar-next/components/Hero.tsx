@@ -1,9 +1,7 @@
-"use client";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { getDict, langPrefix } from "@/lib/i18n";
+import HeroSearch from "./HeroSearch";
 
 /**
  * Le visuel de garde, servi par nous et non plus par le CDN du générateur.
@@ -26,15 +24,17 @@ const HERO_BASE = "/hero/rave-707891b510";
 const HERO_WIDTHS = [768, 1280, 1920];
 
 /**
- * Le hero est un composant client (le formulaire pousse vers /explore), et il importait
- * `COUNTRIES`, `ALL_GENRES` et `countryLabel` de `lib/data.ts`. Une ligne d'import pour
- * deux listes déroulantes, et le bundler embarquait **tout le catalogue** (870
- * événements, descriptions FR et EN comprises) dans le JavaScript de la page d'accueil :
- * 218 Ko compressés que le navigateur n'ouvre jamais.
+ * Le hero était un composant client, uniquement parce qu'il portait le formulaire. Il
+ * importait alors `COUNTRIES`, `ALL_GENRES` et `countryLabel` de `lib/data.ts` : une
+ * ligne d'import pour deux listes déroulantes, et le bundler embarquait **tout le
+ * catalogue** (870 événements, descriptions FR et EN comprises) dans le JavaScript de
+ * la page d'accueil, 218 Ko compressés que le navigateur n'ouvre jamais.
  *
- * Les options arrivent donc en props, calculées par `Home` côté serveur. C'est le même
- * principe que `SearchableLinks` et `ArtistDirectory` : le client ne reçoit que ce qu'il
- * affiche, jamais le jeu de données dont ça a été tiré.
+ * L'interactivité vit maintenant dans `<HeroSearch>`, seul îlot client de la section :
+ * le titre, le visuel LCP et les pilules de genre repassent donc côté serveur, sans une
+ * ligne de JavaScript. Les deux listes de facettes continuent d'arriver en props,
+ * calculées par `Home` : le client ne reçoit que ce qu'il affiche, jamais le jeu de
+ * données dont ça a été tiré, même principe que `SearchableLinks` et `ArtistDirectory`.
  */
 export default function Hero({
   lang,
@@ -42,6 +42,7 @@ export default function Hero({
   countries,
   countryOptions,
   genreOptions,
+  searchExamples,
 }: {
   lang: Lang;
   count: number;
@@ -49,30 +50,23 @@ export default function Hero({
   /** `v` = le pays tel qu'il est stocké (la clé), `l` = son libellé dans la langue. */
   countryOptions: { v: string; l: string }[];
   genreOptions: string[];
+  /** Les exemples qui défilent dans le champ, tirés du catalogue côté serveur. */
+  searchExamples: string[];
 }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
-  const router = useRouter();
-  const [city, setCity] = useState("");
-  const [country, setCountry] = useState("");
-  const [month, setMonth] = useState("");
-  const [genre, setGenre] = useState("");
-
-  const submit = (ev: React.FormEvent) => {
-    ev.preventDefault();
-    const q = new URLSearchParams();
-    if (city) q.set("q", city);
-    if (country) q.set("country", country);
-    if (month) q.set("month", month);
-    if (genre) q.set("genre", genre);
-    router.push(`${p}/explore?${q.toString()}`);
-  };
 
   return (
     <header className="hero">
       {/* Un <img>, plus un background-image : le preload scanner ne trouve jamais une URL
           qui ne vit que dans une feuille de style, et une image de fond n'a pas d'alt.
           Le dégradé qui assombrit le bas reste en CSS, sur ::after (voir globals.css). */}
+      {/* Les trois couches décoratives (le visuel zoomé, la grille, le laser) débordent
+          du hero, et c'est ce débordement que `overflow: hidden` clippait. Posé sur le
+          hero, il clippait aussi le menu de suggestions, qui s'ouvre sous la barre :
+          les résultats étaient coupés net au bord de la section, sous le marquee. Le
+          clip vit donc sur cette boîte-ci, qui ne contient que la décoration. */}
+      <div className="hero-fx" aria-hidden="true">
       <div className="hero-photo">
         <img
           src={`${HERO_BASE}-1280.webp`}
@@ -88,6 +82,7 @@ export default function Hero({
         />
       </div>
       <div className="hero-grid" />
+      </div>
       <div className="wrap hero-center">
         {/* Les trois entrées ci-dessous passaient par une bibliothèque d'animation, qui
             ne servait plus qu'à elles et au scroll-reveal de la home : 35 Ko de JS
@@ -110,41 +105,10 @@ export default function Hero({
           {t("hero.lead")}
         </p>
 
-        <form className="search rise-in" onSubmit={submit} style={{ "--d": ".22s" } as React.CSSProperties}>
-          <div className="search-field">
-            <label htmlFor="hero-city">{t("search.city")}</label>
-            <input id="hero-city" value={city} onChange={(e) => setCity(e.target.value)} placeholder={t("search.city.ph")} />
-          </div>
-          <div className="search-field">
-            <label htmlFor="hero-country">{t("search.country")}</label>
-            <select id="hero-country" value={country} onChange={(e) => setCountry(e.target.value)}>
-              <option value="">{t("search.country.any")}</option>
-              {countryOptions.map((c) => (
-                <option key={c.v} value={c.v}>
-                  {c.l}
-                </option>
-              ))}
-            </select>
-          </div>
-          <div className="search-field">
-            <label htmlFor="hero-month">{t("search.month")}</label>
-            <input id="hero-month" type="month" value={month} onChange={(e) => setMonth(e.target.value)} />
-          </div>
-          <div className="search-field">
-            <label htmlFor="hero-genre">{t("search.genre")}</label>
-            <select id="hero-genre" value={genre} onChange={(e) => setGenre(e.target.value)}>
-              <option value="">{t("search.genre.any")}</option>
-              {genreOptions.map((g) => (
-                <option key={g}>{g}</option>
-              ))}
-            </select>
-          </div>
-          <div className="search-go">
-            <button type="submit" className="btn btn-primary">
-              {t("search.go")}
-            </button>
-          </div>
-        </form>
+        {/* La barre ne demande plus une ville : elle accepte un artiste, un festival,
+            une soirée, un club, un genre ou un pays, et propose la page avant même la
+            validation. Voir components/HeroSearch.tsx et lib/search-index.ts. */}
+        <HeroSearch lang={lang} countryOptions={countryOptions} genreOptions={genreOptions} examples={searchExamples} />
 
         <div className="chips">
           {["Techno", "Hard Techno", "Drum & Bass", "Psytrance", "Trance", "House"].map((g) => (

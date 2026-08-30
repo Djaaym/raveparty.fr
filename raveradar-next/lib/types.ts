@@ -53,3 +53,26 @@ export interface GenreColor {
   c1: string;
   c2: string;
 }
+
+/**
+ * Une suggestion de la barre de recherche.
+ *
+ * Le type vit ici, pas dans `lib/search-index.ts`, parce que `<HeroSearch>` est un
+ * composant client : un `import type` est bien effacé à la compilation, mais la règle
+ * du projet est qu'un module client ne cite jamais `lib/data.ts`, et l'index en dérive.
+ * Un type dans le module feuille ferme la porte au lieu de compter sur l'effacement.
+ */
+export type SuggestKind = "artist" | "city" | "festival" | "event" | "venue" | "genre" | "country";
+
+export interface Suggestion {
+  /** Le type, qui décide de l'icône et du groupe dans le menu. */
+  k: SuggestKind;
+  /** Le libellé affiché. */
+  n: string;
+  /** Le chemin de la page, **sans** préfixe de langue (le client ajoute `/en`). */
+  h: string;
+  /** La ligne de contexte, à droite de la suggestion (ville, pays, nombre de dates). */
+  m?: string;
+  /** Vrai quand la date proposée est déjà passée : la suggestion le dit au lieu de mentir. */
+  past?: boolean;
+}
