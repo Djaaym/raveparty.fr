@@ -1511,12 +1511,6 @@
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:2012-11-15_Tricky_performing_in_Krasnodar.jpg"
  },
- "buraka-som-sistema": {
-  "file": "buraka-som-sistema.webp",
-  "author": "Prometheusrun",
-  "license": "CC BY-SA 4.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Buraka_Som_Sistema_at_NH7_Weekender_2012.jpg"
- },
  "chuquimamani-condori": {
   "file": "chuquimamani-condori.webp",
   "author": "Artist Boychild",
@@ -1535,6 +1529,12 @@
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Emil%C3%ADana_Torrini_at_Het_Paradiso_Amsterdam.jpg"
  },
+ "ferry-corsten": {
+  "file": "ferry-corsten.webp",
+  "author": "JeHu68",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ferry_Corsten_at_Dance_Parade_2009_in_Rotterdam-flickr1_-_by_-_JeHu68.jpg"
+ },
  "lady-waks": {
   "file": "lady-waks.webp",
   "author": "Oleg Babenko",
@@ -1546,6 +1546,12 @@
   "author": "Tony Nungaray",
   "license": "CC BY-SA 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:Markus_schulz_sutra_oc.jpg"
+ },
+ "nana": {
+  "file": "nana.webp",
+  "author": "Sven Mandel",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:2015073220710_2015-03-14_RPR1_90er_Festival_-_Sven_-_1D_X_-_0275_-_DV3P1323_mod.jpg"
  },
  "sigala": {
   "file": "sigala.webp",
@@ -1564,12 +1570,6 @@
   "author": "Patrick Diepstraten",
   "license": "CC BY 2.0",
   "page": "https://commons.wikimedia.org/wiki/File:W%26W_with_a_Fan_%40_Breda_Dance_Music_Festival.png"
- },
- "wolfgang-voigt": {
-  "file": "wolfgang-voigt.webp",
-  "author": "Alec Luhn",
-  "license": "CC BY 2.0",
-  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Voigt_2012_(cropped).jpg"
  },
  "yellow-claw": {
   "file": "yellow-claw.webp",
@@ -1606,6 +1606,12 @@
   "author": "InvadingInvader",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:John_Summit_LIV_Miami_June_2025.png"
+ },
+ "the-chainsmokers": {
+  "file": "the-chainsmokers.webp",
+  "author": "The Come Up Show",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Chainsmokers_%40_Veld_2016.jpg"
  },
  "amber-broos": {
   "file": "amber-broos.webp",
@@ -1667,6 +1673,12 @@
   "license": "CC BY-SA 3.0",
   "page": "https://commons.wikimedia.org/wiki/File:Andreas_Kraemer.JPG"
  },
+ "buraka-som-sistema": {
+  "file": "buraka-som-sistema.webp",
+  "author": "Prometheusrun",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Buraka_Som_Sistema_at_NH7_Weekender_2012.jpg"
+ },
  "christy-moore": {
   "file": "christy-moore.webp",
   "author": "Sinn Féin",
@@ -1714,5 +1726,293 @@
   "author": "Danilo Samà · www.danilosama.ph",
   "license": "CC BY-SA 4.0",
   "page": "https://commons.wikimedia.org/wiki/File:Giorgio_Poi,_Fiore_Verde_Festival,_Trabendo,_Paris,_France_(16-06-2023)_%C2%B7_%C2%A9_Danilo_Sam%C3%A0.jpg"
+ },
+ "hania-rani": {
+  "file": "hania-rani.webp",
+  "author": "Dynamoliver Dresden",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Hania_Rani_beim_Musikfest_ION_2022.jpg"
+ },
+ "harris-ford": {
+  "file": "harris-ford.webp",
+  "author": "Sven Mandel",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Harris_%26_Ford_-_2023258174536_2023-09-15_Gl%C3%BCcksgef%C3%BChle_Festival_-_Sven_-_1D_X_MK_II_-_2278_-_B70I2131.jpg"
+ },
+ "jamie-woon": {
+  "file": "jamie-woon.webp",
+  "author": "Tore Sætre",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jamie_Woon_(155147).jpg"
+ },
+ "jean-michel-jarre": {
+  "file": "jean-michel-jarre.webp",
+  "author": "Nicolas Richoffer",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Jean-Michel_Jarre_2016.jpg"
+ },
+ "john-newman": {
+  "file": "john-newman.webp",
+  "author": "Drew de F Fawkes",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Newman,_Koko,_London_(22879039757).jpg"
+ },
+ "joy-crookes": {
+  "file": "joy-crookes.webp",
+  "author": "Harald Krichel",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Joy_Crookes-6140.jpg"
+ },
+ "kabouter-plop": {
+  "file": "kabouter-plop.webp",
+  "author": "Andrewke (François)",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kabouter_Plop.JPG"
+ },
+ "kate-ryan": {
+  "file": "kate-ryan.webp",
+  "author": "Fryta 73",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Kate_Ryan_(24075510296)_(cropped).jpg"
+ },
+ "le-shuuk": {
+  "file": "le-shuuk.webp",
+  "author": "Moritz Kosinsky",
+  "license": "CC BY-SA 3.0 de",
+  "page": "https://commons.wikimedia.org/wiki/File:Le_Shuuk_Place2Be_Schwerin_2015_by_Moritz_Kosinsky-2.jpg"
+ },
+ "lewis-capaldi": {
+  "file": "lewis-capaldi.webp",
+  "author": "Justin Higuchi",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Lewis_Capaldi.jpg"
+ },
+ "little-simz": {
+  "file": "little-simz.webp",
+  "author": "Theirnewreligion",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Little_Simz.jpg"
+ },
+ "mabe-fratti": {
+  "file": "mabe-fratti.webp",
+  "author": "Niegodzisie",
+  "license": "CC BY 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mabe_Fratti_in_Warsaw_(2024.09.25)_4.jpg"
+ },
+ "marek-pospieszalski": {
+  "file": "marek-pospieszalski.webp",
+  "author": "Tore Sætre",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Marek_Pospieszalski_Bl%C3%A5_2019_(212842).jpg"
+ },
+ "marie-davidson": {
+  "file": "marie-davidson.webp",
+  "author": "Alexandre Lemieux",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Marie_Davidson_in_2017.jpg"
+ },
+ "mark-william-lewis": {
+  "file": "mark-william-lewis.webp",
+  "author": "Adnan Masri",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mark_William_Lewis_at_Songbyrd_(cropped).jpg"
+ },
+ "martin-rev": {
+  "file": "martin-rev.webp",
+  "author": "Fluzo on Flickr",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Martin_Rev_Madrid_20050910_full_length.jpg"
+ },
+ "masta-ace": {
+  "file": "masta-ace.webp",
+  "author": "Don Bigileone",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Masta_Ace_2016.jpg"
+ },
+ "max-bering": {
+  "file": "max-bering.webp",
+  "author": "Sven Mandel",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Max_Bering_-_2023258122525_2023-09-15_Gl%C3%BCcksgef%C3%BChle_Festival_-_Sven_-_1D_X_MK_II_-_0425_-_B70I0278.jpg"
+ },
+ "molly-sanden": {
+  "file": "molly-sanden.webp",
+  "author": "Daniel Åhs Karlsson",
+  "license": "CC BY 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Molly_Sand%C3%A9n.jpg"
+ },
+ "mr-scruff": {
+  "file": "mr-scruff.webp",
+  "author": "whatleydude",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mr_Scruff.jpg"
+ },
+ "mulatu-astatke": {
+  "file": "mulatu-astatke.webp",
+  "author": "Prunk",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mulatu_Astatke_Druga_Godba.jpg"
+ },
+ "my-first-time": {
+  "file": "my-first-time.webp",
+  "author": "DavidPMaynard",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:My_First_Time_at_Mutations_Festival_Brighton,_7_November_2025_01.jpg"
+ },
+ "mykki-blanco": {
+  "file": "mykki-blanco.webp",
+  "author": "Imnotcmjames",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Mykki_Blanco_Performing_in_2017.jpg"
+ },
+ "noize-suppressor": {
+  "file": "noize-suppressor.webp",
+  "author": "User:JoeJoeJoe93",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Noize_Suppressor_(42).JPG"
+ },
+ "paper-hats": {
+  "file": "paper-hats.webp",
+  "author": "DavidPMaynard",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Paper_Hats_at_The_George_Tavern,_17_September_2025_05.jpg"
+ },
+ "pat-thomas": {
+  "file": "pat-thomas.webp",
+  "author": "Joe Mabel",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Pat_Thomas_07.jpg"
+ },
+ "peter-cat": {
+  "file": "peter-cat.webp",
+  "author": "Duk3L1xon",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Peter_Cat_Recording_Co._July_2025_005.jpg"
+ },
+ "raphael-roginski": {
+  "file": "raphael-roginski.webp",
+  "author": "Goesseln",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Raphael_Rogi%C5%84ski_2015.JPG"
+ },
+ "raul-pacheco": {
+  "file": "raul-pacheco.webp",
+  "author": "Raimundo Pastor",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Ra%C3%BAl_Pacheco_Pascual_(RPS_09-10-2023)_Premios_Ciudad_de_Alcal%C3%A1,_periodista_presentador.png"
+ },
+ "sarah-davachi": {
+  "file": "sarah-davachi.webp",
+  "author": "Dorchesterfilms",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sarah_Davachi.jpg"
+ },
+ "sarah-story": {
+  "file": "sarah-story.webp",
+  "author": "Dan Reid",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sarah_Story.jpg"
+ },
+ "sasha-john-digweed": {
+  "file": "sasha-john-digweed.webp",
+  "author": "Lazz R",
+  "license": "CC0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sasha_%26_John_Digweed_Bristol_Ampitheatre_2025_2_(cropped).png"
+ },
+ "selah-sue": {
+  "file": "selah-sue.webp",
+  "author": "Piotr Drabik from Poland",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Selah_Sue_(8282275868).jpg"
+ },
+ "self-esteem": {
+  "file": "self-esteem.webp",
+  "author": "Raph_PH",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Self_Esteem_(2021).jpg"
+ },
+ "sophie-sugar": {
+  "file": "sophie-sugar.webp",
+  "author": "Haydn Curtis from New Zealand",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Sophie_Sugar.jpg"
+ },
+ "swae-lee": {
+  "file": "swae-lee.webp",
+  "author": "The Come Up Show",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Swae_Lee.jpg"
+ },
+ "the-advent": {
+  "file": "the-advent.webp",
+  "author": "JoeJoeJoe93",
+  "license": "CC BY-SA 3.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Advent_CC.JPG"
+ },
+ "the-hacker": {
+  "file": "the-hacker.webp",
+  "author": "Carsten Stiller",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Hacker.jpg"
+ },
+ "the-klittens": {
+  "file": "the-klittens.webp",
+  "author": "Paul Hudson from United Kingdom",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Klittens_(52068297135).jpg"
+ },
+ "the-mary-wallopers": {
+  "file": "the-mary-wallopers.webp",
+  "author": "Løken",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Mary_Wallopers_accordion.jpg"
+ },
+ "the-shapeshifters": {
+  "file": "the-shapeshifters.webp",
+  "author": "Monocle-1000",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Shapeshifters_(Simon_Marlin).jpg"
+ },
+ "the-smiler": {
+  "file": "the-smiler.webp",
+  "author": "The Smiler (band)",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Smiler,_Good_Omens,_Trondheim_(FRI_BRUK)_(taken_on_2015-11-07_22.26.29_by_Kristina_Skj%C3%A6rstad._uploaded_by_The_Smiler_(band)_%40_Flickr_22854291487).jpg"
+ },
+ "the-streets": {
+  "file": "the-streets.webp",
+  "author": "Mr. Rossi",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Streets_-_Southside_Festival_2019_3742.jpg"
+ },
+ "tiken-jah-fakoly": {
+  "file": "tiken-jah-fakoly.webp",
+  "author": "Sylvain lasco",
+  "license": "CC BY-SA 4.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Tiken_Jah_Fakoly.jpg"
+ },
+ "underground-resistance": {
+  "file": "underground-resistance.webp",
+  "author": "Angie Linder from Detroit, USA",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Underground_Resistance_-_2010_-_10_Critics_in_Detroit_DSC_3725_(4719472331).jpg"
+ },
+ "wilhelm-sasnal": {
+  "file": "wilhelm-sasnal.webp",
+  "author": "Adrian Grycuk",
+  "license": "CC BY-SA 3.0 pl",
+  "page": "https://commons.wikimedia.org/wiki/File:Wilhelm_Sasnal_2022a.jpg"
+ },
+ "william-basinski": {
+  "file": "william-basinski.webp",
+  "author": "Seth Tisue",
+  "license": "CC BY-SA 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:William_Basinski.jpg"
+ },
+ "wolfgang-voigt": {
+  "file": "wolfgang-voigt.webp",
+  "author": "Alec Luhn",
+  "license": "CC BY 2.0",
+  "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Voigt_2012_(cropped).jpg"
  }
 }
