@@ -7,7 +7,7 @@ import { slugify } from "./data";
  * Pourquoi ce fichier existe : les fiches événement affichaient une « Galerie » de huit
  * dégradés générés à la volée. Zéro information, zéro texte alternatif, zéro raison de
  * cliquer. Le remplaçant honnête n'est pas une fausse photo, c'est le lien vers ce que
- * l'organisateur publie lui-même — son Instagram d'abord, son site et ses autres réseaux
+ * l'organisateur publie lui-même, son Instagram d'abord, son site et ses autres réseaux
  * ensuite. On n'héberge rien, on ne recopie rien : on renvoie chez la source.
  *
  * ## Ce que Meta permet, et ce qu'il ne permet plus
@@ -15,20 +15,20 @@ import { slugify } from "./data";
  * Afficher « les 6 derniers posts » d'un compte tiers n'est plus faisable proprement :
  * l'API Basic Display est fermée depuis décembre 2024, la Graph API ne lit que les comptes
  * dont on détient le jeton (donc les siens), et l'oEmbed réclame un jeton d'application
- * *et* un permalien connu d'avance. Le seul chemin restant serait le scraping — contraire
+ * *et* un permalien connu d'avance. Le seul chemin restant serait le scraping, contraire
  * aux CGU, cassé par le mur de connexion, et de toute façon impossible au build.
  *
  * D'où le compromis : `posts` porte des permaliens que la recherche a réellement vus, et
  * `<InstagramFeed>` les rend via le lecteur officiel d'Instagram (`/p/{code}/embed`), qui
  * sert le contenu depuis Instagram, crédite le compte et renvoie vers lui. Un compte sans
  * `posts` n'affiche pas de grille vide : il affiche sa carte de profil, ce qui est déjà la
- * vérité utile — « voici où ça se passe ».
+ * vérité utile, « voici où ça se passe ».
  *
  * ## Règle de contenu
  *
  * Même discipline que `lib/bios.ts` : ce sont de vraies marques et de vraies personnes.
  * Un compte non vérifié n'entre pas, et la fiche se contente alors de ne rien afficher.
- * Les maps sont écrites par `.research/socials/ingest.py` — ne pas les éditer à la main.
+ * Les maps sont écrites par `.research/socials/ingest.py`, ne pas les éditer à la main.
  */
 
 /** Les réseaux qu'une fiche sait afficher, dans l'ordre d'importance à l'écran. */
@@ -52,7 +52,7 @@ export type Socials = Partial<Record<Network, string>> & {
   posts?: string[];
 };
 
-/** Libellé humain d'un réseau (identique en FR et EN — ce sont des noms propres). */
+/** Libellé humain d'un réseau (identique en FR et EN, ce sont des noms propres). */
 export const NETWORK_LABEL: Record<Network, string> = {
   instagram: "Instagram",
   site: "Site officiel",
@@ -72,7 +72,7 @@ export const NETWORK_LABEL_EN: Record<Network, string> = { ...NETWORK_LABEL, sit
  * URL complète d'un profil.
  *
  * Les champs stockent un *handle* quand la plateforme en a un (`instagram`, `tiktok`, `x`,
- * `soundcloud`) et une URL entière sinon — un identifiant Spotify ou une page Facebook n'a
+ * `soundcloud`) et une URL entière sinon, un identifiant Spotify ou une page Facebook n'a
  * pas de forme courte fiable. On accepte les deux dans les deux sens : une valeur qui
  * commence par `http` passe telle quelle.
  */
@@ -100,7 +100,7 @@ export function socialUrl(net: Network, value: string): string {
 }
 
 /**
- * Le pseudo à afficher à côté du nom du réseau — ou rien.
+ * Le pseudo à afficher à côté du nom du réseau, ou rien.
  *
  * « Spotify · @5Ho1vKl1Uz8bJlk4vbmvmf » ne renseigne personne : un identifiant Spotify ou
  * un identifiant de chaîne YouTube (`/channel/UC…`) n'est pas un nom, c'est une clé
@@ -147,7 +147,7 @@ export const sameAs = (s: Socials | undefined): string[] =>
    tout le catalogue, dans le bundle client de chaque fiche. */
 export { embedUrl, postUrl } from "./instagram";
 
-/* Les maps sont générées — voir .research/socials/ingest.py. */
+/* Les maps sont générées, voir .research/socials/ingest.py. */
 /* SOCIALS:start */
 export const EVENT_SOCIALS: Record<string, Socials> = {
   "airbeat-one": { instagram: "airbeatone", site: "https://www.airbeat-one.de", facebook: "https://www.facebook.com/airbeatone/", tiktok: "airbeatonefestival", youtube: "https://www.youtube.com/user/airbeatone00" },
@@ -568,7 +568,7 @@ export const venueSocials = (slug: string): Socials | undefined => VENUE_SOCIALS
 /**
  * Les réseaux à afficher sur une fiche événement, et à qui ils appartiennent.
  *
- * Un festival a sa propre marque ; une soirée de club n'en a souvent pas — c'est le club
+ * Un festival a sa propre marque ; une soirée de club n'en a souvent pas, c'est le club
  * qui publie l'affiche et le line-up. On retombe donc sur le compte de la salle, mais on
  * renvoie `from` pour que la fiche le dise (« Instagram du lieu »), au lieu de laisser
  * croire que l'événement a un compte.

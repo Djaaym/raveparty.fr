@@ -36,11 +36,11 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   /* Les genres attribués, pas l'union brute de `Artist.genres` : cette page affichait
      tous les styles de toutes les affiches où l'artiste apparaît, ce qui mettait de la
      psytrance sur une fiche de techno industrielle. Les sous-genres viennent d'à côté
-     et ne sont pas des liens — ils n'ont pas de page. */
+     et ne sont pas des liens, ils n'ont pas de page. */
   const genres = artistGenres(artist);
   const subs = artistSubGenres(artist);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
-  // Cities the artist plays that we actually have a page for — links the artist mesh
+  // Cities the artist plays that we actually have a page for, links the artist mesh
   // into the geographic mesh without pointing at routes that don't exist.
   const cities = PLACES.filter((pl) =>
     events.some((e) =>
@@ -57,7 +57,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
         : `${artist.name} n'a pas de date à venir référencée sur RaveRadar pour le moment (${countries}). Retrouve ci-dessous ses dernières apparitions et active une alerte pour être prévenu de la prochaine.`
       : live.length > 0
         ? `${artist.name} is booked for ${live.length} upcoming date${live.length > 1 ? "s" : ""} listed on RaveRadar (${countries}). Browse the festivals, line-ups and tickets.`
-        : `${artist.name} has no upcoming dates listed on RaveRadar right now (${countries}). Their latest appearances are below — set an alert to hear about the next one.`;
+        : `${artist.name} has no upcoming dates listed on RaveRadar right now (${countries}). Their latest appearances are below, set an alert to hear about the next one.`;
 
   const trail: [string, string][] = [
     [t("nav.artists"), "/artistes"],
@@ -104,13 +104,13 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           </div>
 
           {/* The researched bio when we have one; the generated sentence is a
-              fallback, not a substitute — it says nothing a reader can't already
+              fallback, not a substitute, it says nothing a reader can't already
               see from the dates below. */}
           {bio ? (
             <>
               <p className="lead artist-bio">{bioText(bio, lang)}</p>
               {/* `since` et `labels` étaient recherchés, stockés… et affichés nulle part
-                  sur la fiche de l'artiste — seulement sur les douze cartes développées
+                  sur la fiche de l'artiste, seulement sur les douze cartes développées
                   de /artistes. Une donnée vérifiée qu'on ne montre pas est du travail
                   perdu, et c'est précisément ce qu'un lecteur cherche ici : d'où il
                   vient, depuis quand, chez qui il sort ses disques. */}
@@ -147,7 +147,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             </>
           ) : null}
           {/* Le crédit est la *condition* de réutilisation d'une photo CC BY, pas une
-              note de bas de page — il s'affiche donc dès qu'il y a une photo, y compris
+              note de bas de page, il s'affiche donc dès qu'il y a une photo, y compris
               quand l'artiste n'a pas de bio (il vivait dans le bloc des sources, et
               disparaissait avec elles). */}
           {photo && (
@@ -176,7 +176,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           </div>
 
           {/* Le compte de l'artiste, quand la recherche a pu l'attribuer sans ambiguïté.
-              Un nom de scène peut cacher deux personnes — pas de compte plutôt qu'un
+              Un nom de scène peut cacher deux personnes, pas de compte plutôt qu'un
               compte plausible. */}
           {social && (
             <div style={{ marginTop: 28 }}>
@@ -185,7 +185,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
           )}
 
           {/* Straight to the event. These cards used to point at `/show/{artist}-{venue}-{date}`,
-              a page per booking that restated the event's own line-up and ticket link — ~1 850
+              a page per booking that restated the event's own line-up and ticket link, ~1 850
               near-duplicates whose only inbound links were here and on a venue page. The event
               page is the destination; `/show/` URLs now 301 onto it.
 

@@ -10,7 +10,7 @@
     "soundcloud": "bootshaus-podcast",
     "spotify": "https://open.spotify.com/user/bootshaus_club",
     "x": "BOOTSHAUS_Club",
-    "verified": "https://bootshaus.tv — le pied de page du site officiel (adresse Auenweg 173, 51063 Köln) renvoie vers instagram.com/bootshaus, facebook.com/ClubBootshaus, tiktok.com/@bootshausclub, soundcloud.com/bootshaus-podcast et x.com/BOOTSHAUS_Club"
+    "verified": "https://bootshaus.tv, le pied de page du site officiel (adresse Auenweg 173, 51063 Köln) renvoie vers instagram.com/bootshaus, facebook.com/ClubBootshaus, tiktok.com/@bootshausclub, soundcloud.com/bootshaus-podcast et x.com/BOOTSHAUS_Club"
   },
   {
     "kind": "venue",
@@ -19,7 +19,7 @@
     "site": "https://www.thuishaven.nl",
     "facebook": "https://www.facebook.com/thuishaven.am/",
     "youtube": "https://www.youtube.com/channel/UC2KhiKAhm8wIkjt2chtIUTA",
-    "verified": "https://www.thuishaven.nl — le site officiel de la salle amstellodamoise renvoie en pied de page vers instagram.com/thuishaven, facebook.com/thuishaven.am et sa chaîne YouTube"
+    "verified": "https://www.thuishaven.nl, le site officiel de la salle amstellodamoise renvoie en pied de page vers instagram.com/thuishaven, facebook.com/thuishaven.am et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -28,7 +28,7 @@
     "site": "https://www.drumshedslondon.com",
     "tiktok": "drumsheds",
     "youtube": "https://www.youtube.com/@Drumsheds",
-    "verified": "https://www.drumshedslondon.com — le site officiel (6 Glover Drive, London N18 3HF) renvoie vers instagram.com/drumsheds, tiktok.com/@drumsheds et youtube.com/@Drumsheds"
+    "verified": "https://www.drumshedslondon.com, le site officiel (6 Glover Drive, London N18 3HF) renvoie vers instagram.com/drumsheds, tiktok.com/@drumsheds et youtube.com/@Drumsheds"
   },
   {
     "kind": "venue",
@@ -36,7 +36,7 @@
     "instagram": "cultureboxdk",
     "site": "https://www.culture-box.com",
     "facebook": "https://www.facebook.com/cultureboxdk/",
-    "verified": "https://www.culture-box.com — le site officiel du club (Kronprinsessegade 54, 1306 Copenhague K) renvoie vers instagram.com/cultureboxdk et facebook.com/cultureboxdk"
+    "verified": "https://www.culture-box.com, le site officiel du club (Kronprinsessegade 54, 1306 Copenhague K) renvoie vers instagram.com/cultureboxdk et facebook.com/cultureboxdk"
   },
   {
     "kind": "venue",
@@ -46,7 +46,7 @@
     "facebook": "https://www.facebook.com/fusebrussels/",
     "tiktok": "fusebrussels",
     "soundcloud": "fusebrussels",
-    "verified": "https://www.fuse.be — le pied de page du site officiel (Rue Blaes 208, 1000 Bruxelles) renvoie vers instagram.com/fusebrussels, facebook.com/fusebrussels, tiktok.com/@fusebrussels et soundcloud.com/fusebrussels"
+    "verified": "https://www.fuse.be, le pied de page du site officiel (Rue Blaes 208, 1000 Bruxelles) renvoie vers instagram.com/fusebrussels, facebook.com/fusebrussels, tiktok.com/@fusebrussels et soundcloud.com/fusebrussels"
   },
   {
     "kind": "venue",
@@ -56,7 +56,7 @@
     "facebook": "https://www.facebook.com/ritterbutzkeberlin/",
     "youtube": "https://www.youtube.com/@ritterbutzkestudio",
     "ra": "https://ra.co/clubs/6950",
-    "verified": "https://club.ritterbutzke.com — le site officiel du club (Ritterstr. 24-26, 10969 Berlin) renvoie vers instagram.com/ritterbutzke.berlin, facebook.com/ritterbutzkeberlin, youtube.com/@ritterbutzkestudio et sa page RA 6950"
+    "verified": "https://club.ritterbutzke.com, le site officiel du club (Ritterstr. 24-26, 10969 Berlin) renvoie vers instagram.com/ritterbutzke.berlin, facebook.com/ritterbutzkeberlin, youtube.com/@ritterbutzkestudio et sa page RA 6950"
   },
   {
     "kind": "venue",
@@ -67,7 +67,7 @@
     "tiktok": "warehousenantes",
     "youtube": "https://www.youtube.com/WarehouseNantes",
     "soundcloud": "warehousenantes",
-    "verified": "https://www.warehouse-nantes.fr — le site officiel du club nantais (Quai des Antilles, Hangar à Bananes, Nantes) renvoie vers instagram.com/warehousenantes, facebook.com/warehousenantes, tiktok.com/@warehousenantes, youtube.com/WarehouseNantes et soundcloud.com/warehousenantes. Homonymes écartés : Warehouse Leeds et autres."
+    "verified": "https://www.warehouse-nantes.fr, le site officiel du club nantais (Quai des Antilles, Hangar à Bananes, Nantes) renvoie vers instagram.com/warehousenantes, facebook.com/warehousenantes, tiktok.com/@warehousenantes, youtube.com/WarehouseNantes et soundcloud.com/warehousenantes. Homonymes écartés : Warehouse Leeds et autres."
   },
   {
     "kind": "venue",
@@ -76,7 +76,7 @@
     "site": "https://maassilo.com",
     "facebook": "https://www.facebook.com/maassilo/",
     "tiktok": "maassilo",
-    "verified": "https://maassilo.com/dance/info/ — la page contact du site officiel (Maashaven Zuidzijde 1-2, 3081 AE Rotterdam) renvoie vers instagram.com/officialmaassilo, facebook.com/maassilo et tiktok.com/@maassilo"
+    "verified": "https://maassilo.com/dance/info/, la page contact du site officiel (Maashaven Zuidzijde 1-2, 3081 AE Rotterdam) renvoie vers instagram.com/officialmaassilo, facebook.com/maassilo et tiktok.com/@maassilo"
   },
   {
     "kind": "venue",
@@ -84,7 +84,7 @@
     "instagram": "clubkaiku",
     "site": "https://clubkaiku.fi",
     "facebook": "https://www.facebook.com/clubkaiku",
-    "verified": "https://clubkaiku.fi/info/ — la page Info du site officiel (Kaikukatu 4, Kallio, Helsinki) renvoie vers instagram.com/clubkaiku et facebook.com/clubkaiku"
+    "verified": "https://clubkaiku.fi/info/, la page Info du site officiel (Kaikukatu 4, Kallio, Helsinki) renvoie vers instagram.com/clubkaiku et facebook.com/clubkaiku"
   },
   {
     "kind": "venue",
@@ -92,7 +92,7 @@
     "instagram": "aaniwalli",
     "site": "https://aaniwalli.fi",
     "facebook": "https://www.facebook.com/Aaniwalli",
-    "verified": "https://aaniwalli.fi — le site officiel (Pälkäneentie 13 B, Vallila, Helsinki) renvoie vers instagram.com/aaniwalli et facebook.com/Aaniwalli"
+    "verified": "https://aaniwalli.fi, le site officiel (Pälkäneentie 13 B, Vallila, Helsinki) renvoie vers instagram.com/aaniwalli et facebook.com/Aaniwalli"
   },
   {
     "kind": "venue",
@@ -102,7 +102,7 @@
     "facebook": "https://www.facebook.com/Dclub.Lausanne",
     "youtube": "https://www.youtube.com/user/DClubLausanneTV",
     "soundcloud": "dclublausanne",
-    "verified": "https://dclub.ch — le site officiel (Place des Pionnières 1, 1003 Lausanne) renvoie vers instagram.com/dclublausanne, facebook.com/Dclub.Lausanne, soundcloud.com/dclublausanne et youtube.com/user/DClubLausanneTV"
+    "verified": "https://dclub.ch, le site officiel (Place des Pionnières 1, 1003 Lausanne) renvoie vers instagram.com/dclublausanne, facebook.com/Dclub.Lausanne, soundcloud.com/dclublausanne et youtube.com/user/DClubLausanneTV"
   },
   {
     "kind": "venue",
@@ -111,7 +111,7 @@
     "site": "https://www.nordstern.com",
     "facebook": "https://www.facebook.com/nordsternbasel",
     "ra": "https://ra.co/clubs/8280",
-    "verified": "https://www.nordstern.com — le site officiel (Westquaistrasse 19, CH-4057 Bâle) renvoie vers instagram.com/nordsternbasel, facebook.com/nordsternbasel et sa page RA 8280"
+    "verified": "https://www.nordstern.com, le site officiel (Westquaistrasse 19, CH-4057 Bâle) renvoie vers instagram.com/nordsternbasel, facebook.com/nordsternbasel et sa page RA 8280"
   },
   {
     "kind": "venue",
@@ -119,7 +119,7 @@
     "instagram": "jaegeroslo",
     "site": "https://jaegeroslo.no",
     "facebook": "https://www.facebook.com/jaegeroslo/",
-    "verified": "https://jaegeroslo.no — le site officiel (Grensen 9, 0159 Oslo) renvoie vers instagram.com/jaegeroslo et facebook.com/jaegeroslo"
+    "verified": "https://jaegeroslo.no, le site officiel (Grensen 9, 0159 Oslo) renvoie vers instagram.com/jaegeroslo et facebook.com/jaegeroslo"
   },
   {
     "kind": "venue",
@@ -130,7 +130,7 @@
     "tiktok": "cavoparadisoclub",
     "youtube": "https://www.youtube.com/@CavoParadisoClub",
     "spotify": "https://open.spotify.com/user/cavoparadiso",
-    "verified": "https://www.cavoparadiso.gr — le site officiel du club perché au-dessus de Paradise Beach (Mykonos) renvoie vers instagram.com/cavoparadisoclub, facebook.com/cavoparadiso, tiktok.com/@cavoparadisoclub et youtube.com/@CavoParadisoClub"
+    "verified": "https://www.cavoparadiso.gr, le site officiel du club perché au-dessus de Paradise Beach (Mykonos) renvoie vers instagram.com/cavoparadisoclub, facebook.com/cavoparadiso, tiktok.com/@cavoparadisoclub et youtube.com/@CavoParadisoClub"
   },
   {
     "kind": "venue",
@@ -139,7 +139,7 @@
     "site": "https://www.renate.cc",
     "facebook": "https://www.facebook.com/renateclubberlin",
     "ra": "https://ra.co/clubs/8556",
-    "verified": "https://www.renate.cc — le site officiel du Salon zur Wilden Renate (Alt Stralau 70, Berlin-Friedrichshain) renvoie vers instagram.com/renate.berlin, facebook.com/renateclubberlin et sa page RA 8556"
+    "verified": "https://www.renate.cc, le site officiel du Salon zur Wilden Renate (Alt Stralau 70, Berlin-Friedrichshain) renvoie vers instagram.com/renate.berlin, facebook.com/renateclubberlin et sa page RA 8556"
   },
   {
     "kind": "venue",
@@ -147,7 +147,7 @@
     "instagram": "tofflerrotterdam",
     "site": "https://toffler.nl",
     "tiktok": "tofflerrotterdam",
-    "verified": "https://toffler.nl — le site officiel du club rotterdamois renvoie vers instagram.com/tofflerrotterdam et tiktok.com/@tofflerrotterdam"
+    "verified": "https://toffler.nl, le site officiel du club rotterdamois renvoie vers instagram.com/tofflerrotterdam et tiktok.com/@tofflerrotterdam"
   },
   {
     "kind": "venue",
@@ -156,7 +156,7 @@
     "site": "https://www.birdrotterdam.nl",
     "facebook": "https://www.facebook.com/BIRDrotterdam",
     "tiktok": "BIRDRotterdam",
-    "verified": "https://bird-rotterdam.nl — le site officiel (Raampoortstraat 24/26/28, 3032 AH Rotterdam) renvoie vers instagram.com/birdrotterdam, facebook.com/BIRDrotterdam et tiktok.com/@BIRDRotterdam"
+    "verified": "https://bird-rotterdam.nl, le site officiel (Raampoortstraat 24/26/28, 3032 AH Rotterdam) renvoie vers instagram.com/birdrotterdam, facebook.com/BIRDrotterdam et tiktok.com/@BIRDRotterdam"
   },
   {
     "kind": "venue",
@@ -165,7 +165,7 @@
     "site": "https://www.artefact.org",
     "facebook": "https://www.facebook.com/lalaiterieofficielle",
     "x": "laiterie",
-    "verified": "https://www.artefact.org/la-laiterie/ — le site officiel d'Artefact, gestionnaire de La Laiterie (17 rue du Hohwald, 67000 Strasbourg), affiche la section « Suivez La Laiterie sur les réseaux » avec facebook.com/lalaiterieofficielle, instagram.com/laiterie_artefact et x.com/laiterie"
+    "verified": "https://www.artefact.org/la-laiterie/, le site officiel d'Artefact, gestionnaire de La Laiterie (17 rue du Hohwald, 67000 Strasbourg), affiche la section « Suivez La Laiterie sur les réseaux » avec facebook.com/lalaiterieofficielle, instagram.com/laiterie_artefact et x.com/laiterie"
   },
   {
     "kind": "venue",
@@ -176,7 +176,7 @@
     "youtube": "https://www.youtube.com/user/amnesiaibizatv",
     "soundcloud": "amnesia-ibiza",
     "x": "amnesia_ibiza",
-    "verified": "https://www.amnesia.es — le site officiel du club (Ctra. Ibiza a San Antonio Km 5, San Rafael, 07816 Ibiza) renvoie vers instagram.com/amnesiaibiza, facebook.com/amnesiaibiza, youtube.com/user/amnesiaibizatv, soundcloud.com/amnesia-ibiza et twitter.com/amnesia_ibiza"
+    "verified": "https://www.amnesia.es, le site officiel du club (Ctra. Ibiza a San Antonio Km 5, San Rafael, 07816 Ibiza) renvoie vers instagram.com/amnesiaibiza, facebook.com/amnesiaibiza, youtube.com/user/amnesiaibizatv, soundcloud.com/amnesia-ibiza et twitter.com/amnesia_ibiza"
   },
   {
     "kind": "venue",
@@ -185,7 +185,7 @@
     "site": "https://c12space.com",
     "facebook": "https://www.facebook.com/C12Bxl/",
     "ra": "https://ra.co/clubs/145682",
-    "verified": "https://c12space.com — le site officiel du club bruxellois (sous la gare de Bruxelles-Central) renvoie vers instagram.com/c12_bxl et facebook.com/C12Bxl"
+    "verified": "https://c12space.com, le site officiel du club bruxellois (sous la gare de Bruxelles-Central) renvoie vers instagram.com/c12_bxl et facebook.com/C12Bxl"
   },
   {
     "kind": "venue",
@@ -194,7 +194,7 @@
     "site": "https://www.indexdublin.com",
     "facebook": "https://www.facebook.com/IndexDublin",
     "tiktok": "indexdublin",
-    "verified": "https://www.indexdublin.com — le site officiel du club dublinois (57 Middle Abbey Street) renvoie vers instagram.com/indexdublin, facebook.com/IndexDublin et tiktok.com/@indexdublin"
+    "verified": "https://www.indexdublin.com, le site officiel du club dublinois (57 Middle Abbey Street) renvoie vers instagram.com/indexdublin, facebook.com/IndexDublin et tiktok.com/@indexdublin"
   },
   {
     "kind": "venue",
@@ -203,7 +203,7 @@
     "site": "https://www.paloma-nimes.fr",
     "facebook": "https://www.facebook.com/paloma.nimes",
     "youtube": "https://www.youtube.com/user/palomanimestube",
-    "verified": "https://www.paloma-nimes.fr — le site officiel de la SMAC de Nîmes Métropole (250 chemin de l'aérodrome, 30000 Nîmes) renvoie vers instagram.com/paloma_nimes, facebook.com/paloma.nimes et youtube.com/user/palomanimestube"
+    "verified": "https://www.paloma-nimes.fr, le site officiel de la SMAC de Nîmes Métropole (250 chemin de l'aérodrome, 30000 Nîmes) renvoie vers instagram.com/paloma_nimes, facebook.com/paloma.nimes et youtube.com/user/palomanimestube"
   },
   {
     "kind": "venue",
@@ -213,7 +213,7 @@
     "facebook": "https://www.facebook.com/cartonnerie.reims.fanpage/",
     "tiktok": "lacartonneriedereims",
     "youtube": "https://www.youtube.com/channel/UCui2Kz_G6IQmzlqw6kr8evw",
-    "verified": "https://www.cartonnerie.fr — le site officiel de la SMAC rémoise (84 rue du Docteur Lemoine, 51100 Reims) renvoie vers instagram.com/cartoreims, facebook.com/cartonnerie.reims.fanpage, tiktok.com/@lacartonneriedereims et sa chaîne YouTube"
+    "verified": "https://www.cartonnerie.fr, le site officiel de la SMAC rémoise (84 rue du Docteur Lemoine, 51100 Reims) renvoie vers instagram.com/cartoreims, facebook.com/cartonnerie.reims.fanpage, tiktok.com/@lacartonneriedereims et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -223,7 +223,7 @@
     "facebook": "https://www.facebook.com/ruesergegainsbourg",
     "tiktok": "lacooperativedemai",
     "youtube": "https://www.youtube.com/@lacooperativedemai4392",
-    "verified": "https://www.lacoope.org — le site officiel de la salle (rue Serge Gainsbourg, 63100 Clermont-Ferrand) renvoie vers instagram.com/lacooperativedemai, facebook.com/ruesergegainsbourg, tiktok.com/@lacooperativedemai et youtube.com/@lacooperativedemai4392"
+    "verified": "https://www.lacoope.org, le site officiel de la salle (rue Serge Gainsbourg, 63100 Clermont-Ferrand) renvoie vers instagram.com/lacooperativedemai, facebook.com/ruesergegainsbourg, tiktok.com/@lacooperativedemai et youtube.com/@lacooperativedemai4392"
   },
   {
     "kind": "venue",
@@ -232,7 +232,7 @@
     "site": "https://www.olympiahall.com",
     "facebook": "https://www.facebook.com/olympiabrunocoquatrix/",
     "x": "olympiahall",
-    "verified": "https://www.olympiahall.com — le site officiel de l'Olympia Bruno Coquatrix (28 boulevard des Capucines, 75009 Paris) renvoie vers instagram.com/olympiahall, facebook.com/olympiabrunocoquatrix et x.com/olympiahall"
+    "verified": "https://www.olympiahall.com, le site officiel de l'Olympia Bruno Coquatrix (28 boulevard des Capucines, 75009 Paris) renvoie vers instagram.com/olympiahall, facebook.com/olympiabrunocoquatrix et x.com/olympiahall"
   },
   {
     "kind": "venue",
@@ -241,7 +241,7 @@
     "site": "https://www.lemem.fr",
     "facebook": "https://www.facebook.com/lememrennes/",
     "tiktok": "lememrennes",
-    "verified": "https://www.lemem.fr — le site officiel du lieu (route de Sainte-Foix, La Piverdière, 35000 Rennes) renvoie vers instagram.com/lememrennes, facebook.com/lememrennes et tiktok.com/@lememrennes"
+    "verified": "https://www.lemem.fr, le site officiel du lieu (route de Sainte-Foix, La Piverdière, 35000 Rennes) renvoie vers instagram.com/lememrennes, facebook.com/lememrennes et tiktok.com/@lememrennes"
   },
   {
     "kind": "venue",
@@ -251,7 +251,7 @@
     "facebook": "https://www.facebook.com/Concorde2/",
     "x": "concorde_2",
     "youtube": "https://www.youtube.com/@concorde2-brighton",
-    "verified": "https://www.concorde2.co.uk — le site officiel (Madeira Drive, Brighton, East Sussex BN2 1EN) renvoie vers instagram.com/concorde2, facebook.com/Concorde2, x.com/concorde_2 et youtube.com/@concorde2-brighton"
+    "verified": "https://www.concorde2.co.uk, le site officiel (Madeira Drive, Brighton, East Sussex BN2 1EN) renvoie vers instagram.com/concorde2, facebook.com/Concorde2, x.com/concorde_2 et youtube.com/@concorde2-brighton"
   },
   {
     "kind": "venue",
@@ -260,7 +260,7 @@
     "site": "https://www.lafriche.org",
     "facebook": "https://www.facebook.com/friche.labelledemai/",
     "youtube": "https://www.youtube.com/channel/UC0bV_X2Zqncknv6SgVvLU0w",
-    "verified": "https://www.lafriche.org — le site officiel de la Friche (41 rue Jobin, 13003 Marseille) renvoie vers instagram.com/frichelabelledemai, facebook.com/friche.labelledemai et sa chaîne YouTube"
+    "verified": "https://www.lafriche.org, le site officiel de la Friche (41 rue Jobin, 13003 Marseille) renvoie vers instagram.com/frichelabelledemai, facebook.com/friche.labelledemai et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -270,7 +270,7 @@
     "facebook": "https://www.facebook.com/JasnaJeden/",
     "soundcloud": "jasnajeden",
     "bandcamp": "https://jasna1.bandcamp.com",
-    "verified": "https://www.jasna1.com — le site officiel du club (Jasna 1, 00-013 Varsovie) renvoie vers instagram.com/jasnajeden, facebook.com/JasnaJeden, soundcloud.com/jasnajeden et jasna1.bandcamp.com"
+    "verified": "https://www.jasna1.com, le site officiel du club (Jasna 1, 00-013 Varsovie) renvoie vers instagram.com/jasnajeden, facebook.com/JasnaJeden, soundcloud.com/jasnajeden et jasna1.bandcamp.com"
   },
   {
     "kind": "venue",
@@ -280,7 +280,7 @@
     "facebook": "https://www.facebook.com/ZenithParisLaVillette",
     "tiktok": "zenithparis",
     "youtube": "https://www.youtube.com/channel/UChEDmor6L6tdXfzRQmsAp8Q",
-    "verified": "https://le-zenith.com — le site officiel du Zénith Paris - La Villette renvoie en pied de page vers instagram.com/zenithparis, facebook.com/ZenithParisLaVillette, tiktok.com/@zenithparis et sa chaîne YouTube"
+    "verified": "https://le-zenith.com, le site officiel du Zénith Paris - La Villette renvoie en pied de page vers instagram.com/zenithparis, facebook.com/ZenithParisLaVillette, tiktok.com/@zenithparis et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -288,7 +288,7 @@
     "instagram": "afasdome",
     "site": "https://www.afas-dome.be",
     "facebook": "https://www.facebook.com/afasdome",
-    "verified": "https://www.afas-dome.be — le site officiel de la salle (Schijnpoortweg 119, 2170 Anvers) renvoie vers instagram.com/afasdome et facebook.com/afasdome"
+    "verified": "https://www.afas-dome.be, le site officiel de la salle (Schijnpoortweg 119, 2170 Anvers) renvoie vers instagram.com/afasdome et facebook.com/afasdome"
   },
   {
     "kind": "venue",
@@ -299,7 +299,7 @@
     "tiktok": "theatreantiquedorange",
     "youtube": "https://www.youtube.com/channel/UCarmdrCkff6HJ48_eoe7uyA",
     "x": "TheatreAntique",
-    "verified": "https://theatre-antique.com — le site officiel du monument (Orange, Vaucluse) renvoie vers instagram.com/theatreantiquedorange_officiel, facebook.com/theatreantiqueorangeofficiel, tiktok.com/@theatreantiquedorange, x.com/TheatreAntique et sa chaîne YouTube"
+    "verified": "https://theatre-antique.com, le site officiel du monument (Orange, Vaucluse) renvoie vers instagram.com/theatreantiquedorange_officiel, facebook.com/theatreantiqueorangeofficiel, tiktok.com/@theatreantiquedorange, x.com/TheatreAntique et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -310,13 +310,13 @@
     "tiktok": "lautrecanalnancy",
     "youtube": "https://www.youtube.com/channel/UCkB9QDdmVmhFjuEov7SMflQ",
     "spotify": "https://open.spotify.com/user/lautrecanal",
-    "verified": "https://lautrecanalnancy.fr — le site officiel de la SMAC (45 boulevard d'Austrasie, 54000 Nancy) renvoie vers instagram.com/lautrecanalnancy, facebook.com/LAutreCanalNancy, tiktok.com/@lautrecanalnancy et sa chaîne YouTube"
+    "verified": "https://lautrecanalnancy.fr, le site officiel de la SMAC (45 boulevard d'Austrasie, 54000 Nancy) renvoie vers instagram.com/lautrecanalnancy, facebook.com/LAutreCanalNancy, tiktok.com/@lautrecanalnancy et sa chaîne YouTube"
   },
   {
     "kind": "venue",
     "key": "Berghain / Panorama Bar",
     "site": "https://www.berghain.berlin",
-    "verified": "https://www.berghain.berlin — site officiel du club (Am Wriezener Bahnhof, 10243 Berlin). Le club ne publie aucun compte social sur son site : aucun réseau n'est ajouté ici, seul le site officiel est repris."
+    "verified": "https://www.berghain.berlin, site officiel du club (Am Wriezener Bahnhof, 10243 Berlin). Le club ne publie aucun compte social sur son site : aucun réseau n'est ajouté ici, seul le site officiel est repris."
   },
   {
     "kind": "venue",
@@ -324,6 +324,6 @@
     "instagram": "depotmayfield",
     "site": "https://depotmayfield.com",
     "x": "depotmayfield",
-    "verified": "https://depotmayfield.com — le site officiel de la salle (« a 10,000 capacity venue in Manchester's historic former railway station », Depot Mayfield, A Broadwick Space) renvoie vers instagram.com/depotmayfield et twitter.com/depotmayfield"
+    "verified": "https://depotmayfield.com, le site officiel de la salle (« a 10,000 capacity venue in Manchester's historic former railway station », Depot Mayfield, A Broadwick Space) renvoie vers instagram.com/depotmayfield et twitter.com/depotmayfield"
   }
 ]

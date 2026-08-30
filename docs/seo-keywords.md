@@ -1,11 +1,11 @@
-# RaveRadar — Mémoire SEO & mots-clés
+# RaveRadar - Mémoire SEO & mots-clés
 
-> Source : exports SEMrush broad match FR (04/06/2026) — `raveparty` & `festival`.
+> Source : exports SEMrush broad match FR (04/06/2026), `raveparty` & `festival`.
 > À garder en tête pour toute la stratégie de contenu et l'architecture des pages.
 
 ## Mots-clés de marque / piliers à mémoriser
-- **`rave party`** — 40 500 rech./mois (FR), intent informationnel + news. Total longue traîne ≈ **173 300 / mois**.
-- **`festival`** — 27 100 rech./mois sur le terme seul ; **volume total de la thématique ≈ 5,44 M / mois** (énorme).
+- **`rave party`**, 40 500 rech./mois (FR), intent informationnel + news. Total longue traîne ≈ **173 300 / mois**.
+- **`festival`**, 27 100 rech./mois sur le terme seul ; **volume total de la thématique ≈ 5,44 M / mois** (énorme).
 
 ## Constat clé
 La demande est **massivement géolocalisée** (département / ville / région) et temporelle (« ce week-end », « autour de moi »). C'est un cas d'école de **SEO programmatique** : une page par lieu = des centaines de pages à fort potentiel.
@@ -43,7 +43,7 @@ festival de cannes (40 500) · delta festival (27 100) · rose festival (27 100)
 /genres/{genre}                   ex. /genres/techno, /genres/hardstyle
 /rave-party/autour-de-moi         géoloc
 /rave-party/ce-week-end           filtre temporel
-/artistes/{slug}                  PHASE 2 — qui joue où (maillage interne massif)
+/artistes/{slug}                  PHASE 2, qui joue où (maillage interne massif)
 ```
 Chaque page lieu = H1 « Rave party {Lieu} », intro éditoriale, liste filtrée des events, FAQ (intent « People also ask »), maillage vers départements/villes voisins, hreflang fr/en.
 
@@ -59,16 +59,16 @@ Chaque page lieu = H1 « Rave party {Lieu} », intro éditoriale, liste filtrée
 
 ---
 
-## 🌍 Expansion internationale — « rave party / rave » par pays (exports 04/06/2026)
+## 🌍 Expansion internationale - « rave party / rave » par pays (exports 04/06/2026)
 
 Sources : `raveparty_allkeywords_{nl,es,de,uk}`. À exploiter pour les futures villes / festivals / pages.
 
 ### 🇳🇱 Pays-Bas (total ≈ 77 900/mois)
 - **rotterdam rave** (8 100) · rave (5 400) · **festival rotterdam** (1 600) · rotterdamse rave (880) · candy festival (720) · klangkuenstler ade (880).
 - ➜ **À ajouter** : ville **Rotterdam** (events + page), ~~contenu **ADE**~~ ✅ fait, Candy Festival.
-- **ADE (Amsterdam Dance Event)** ✅ : `/festival/amsterdam-dance-event-ade` est passée d'une fiche générique à un **guide complet** (voir `lib/guides.ts`). Intention couverte : « ade 2026 », « amsterdam dance event dates / programme / tickets / prix », « ade c'est quoi », « pass ADE ». L'angle qui différencie de la concurrence : expliquer que **l'ADE n'est pas un festival unique mais 1 200+ événements dans 300+ lieux, sans billet unique** — c'est la question que tout le monde se pose et à laquelle personne ne répond en haut de page. FAQ balisée `FAQPage`, programme jour par jour, `subEvent` schema.org vers les 5 dates ADE du catalogue.
+- **ADE (Amsterdam Dance Event)** ✅ : `/festival/amsterdam-dance-event-ade` est passée d'une fiche générique à un **guide complet** (voir `lib/guides.ts`). Intention couverte : « ade 2026 », « amsterdam dance event dates / programme / tickets / prix », « ade c'est quoi », « pass ADE ». L'angle qui différencie de la concurrence : expliquer que **l'ADE n'est pas un festival unique mais 1 200+ événements dans 300+ lieux, sans billet unique**, c'est la question que tout le monde se pose et à laquelle personne ne répond en haut de page. FAQ balisée `FAQPage`, programme jour par jour, `subEvent` schema.org vers les 5 dates ADE du catalogue.
 
-### 🇩🇪 Allemagne (total ≈ 222 700/mois — énorme)
+### 🇩🇪 Allemagne (total ≈ 222 700/mois - énorme)
 - **nature one** (33 100 ✅ ajouté) · **rave the planet** (12 100, parade techno de Berlin) · pydna / raketenbasis pydna (1 600, le lieu de Nature One) · festival techno (1 600).
 - ➜ **À ajouter** : **Rave the Planet** (Berlin), garder Nature One ; marché très orienté **festivals nommés**.
 
@@ -99,10 +99,10 @@ Vaucluse · Gironde · Nord · Bouches-du-Rhône · Ille-et-Vilaine · Seine-et-
 | 480 | Tarn | idem |
 | 320 | Aveyron | idem |
 
-Ces requêtes sont massivement portées par des événements non déclarés (intention news). **Le site ne les couvre pas** — c'est une ligne éditoriale, pas un trou à combler : RaveRadar est un annuaire de festivals et de soirées déclarées. La page reste utile en captation + alerte, mais elle n'aura de contenu que le jour où un festival ou une soirée club s'y tient.
+Ces requêtes sont massivement portées par des événements non déclarés (intention news). **Le site ne les couvre pas**, c'est une ligne éditoriale, pas un trou à combler : RaveRadar est un annuaire de festivals et de soirées déclarées. La page reste utile en captation + alerte, mais elle n'aura de contenu que le jour où un festival ou une soirée club s'y tient.
 
 ### Ce qui a été cherché sans succès
-Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, retour 2027 sans date) · Sonus Croatie (contradictoire) · EXIT Novi Sad 2027 · Tomorrowland Belgique 2027 (dates non officielles) · Macki Music Festival (dernière édition 2025) · Scopitone (biennal). Astropolis l'Hiver, Panoramas, Peacock Society, I Love Techno Europe, Ososphère : dates 2027 non annoncées au 29/07/2026 — **à re-vérifier**.
+Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, retour 2027 sans date) · Sonus Croatie (contradictoire) · EXIT Novi Sad 2027 · Tomorrowland Belgique 2027 (dates non officielles) · Macki Music Festival (dernière édition 2025) · Scopitone (biennal). Astropolis l'Hiver, Panoramas, Peacock Society, I Love Techno Europe, Ososphère : dates 2027 non annoncées au 29/07/2026, **à re-vérifier**.
 
 
 ## Couverture paneuropéenne (revue du 29/07/2026, 2e passe)
@@ -113,16 +113,16 @@ Qlimax (arrêté après « Final Prophecy » 2024) · Mysteryland 2026 (pause, r
 Danemark · Suède · Norvège · Finlande · Islande · Estonie · Lettonie · Lituanie · Irlande · Slovaquie · Bosnie-Herzégovine · Monténégro · Macédoine du Nord · Bulgarie · Slovénie · Géorgie · Grèce · Chypre · Luxembourg.
 
 ### Villes à fort volume désormais servies
-**Rotterdam** (8 100 rech./mois) passe de 1 à 16 dates — c'était le plus gros mot-clé ville non couvert. Plus Copenhague, Helsinki, Oslo, Stockholm, Dublin, Belfast, Glasgow, Bristol, Leeds, Prague, Varsovie, Budapest, Bucarest, Zagreb, Belgrade, Sofia, Tbilissi.
+**Rotterdam** (8 100 rech./mois) passe de 1 à 16 dates, c'était le plus gros mot-clé ville non couvert. Plus Copenhague, Helsinki, Oslo, Stockholm, Dublin, Belfast, Glasgow, Bristol, Leeds, Prague, Varsovie, Budapest, Bucarest, Zagreb, Belgrade, Sofia, Tbilissi.
 
 ### Trous connus
 - **Baltes** : festivals seulement. Les sites de clubs (One One, HALL, Sveta, Opium, Lizdas) et RA/DICE renvoient 403 aux requêtes serveur.
-- **Départements FR à fort volume toujours vides** : Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain — aucun festival ni soirée déclarée à y référencer. Volume porté par des événements non déclarés, hors périmètre éditorial.
+- **Départements FR à fort volume toujours vides** : Lot (5,4k), Aude (4,4k), Lozère (4,4k), Tarn, Aveyron, Hautes-Alpes, Ain, aucun festival ni soirée déclarée à y référencer. Volume porté par des événements non déclarés, hors périmètre éditorial.
 - **Villes sans contenu vérifiable** : Bilbao, Séville, Naples, Maastricht, Nimègue, Nuremberg, Linz.
 - **Décembre-février 2027** reste maigre : la plupart des clubs ne publient qu'à 4-8 semaines.
 
 ### Événements confirmés disparus (ne pas re-chercher)
 Qlimax · Melt · Fusion (pause jusqu'en 2028) · Secret Solstice · Summerburst · Into the Valley · The Qontinent · Ground Zero · Macki · DGTL Barcelona · Lost & Found Malta · Terraforma · Printworks London (réouverture annoncée, sans date) · Perron Rotterdam · Watergate · Institut für Zukunft · Club Zukunft Zurich · Café d'Anvers · Blitz Munich (ferme début août 2026).
 
-### Dates 2027 non annoncées au 29/07/2026 — à re-vérifier
+### Dates 2027 non annoncées au 29/07/2026 - à re-vérifier
 Tomorrowland · Dour · Astropolis l'Hiver · Panoramas · Peacock Society · I Love Techno Europe · Ososphère · Mysteryland · Caprices · Horst · Listen! · Verknipt Utrecht · A Summer Story · Medusa · Waking Life · Sónar Lisboa · Boomtown · Love Saves the Day · AVA Belfast · Terminal V (lieu à trouver).

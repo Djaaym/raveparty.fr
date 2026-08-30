@@ -15,7 +15,7 @@ export default function Nav({ lang }: { lang: Lang }) {
   const frPath = pathname.replace(/^\/en(?=\/|$)/, "") || "/";
   const enPath = "/en" + (frPath === "/" ? "" : frPath);
 
-  /* "Pays" sat right next to "Villes" and read as the same promise twice — and a
+  /* "Pays" sat right next to "Villes" and read as the same promise twice, and a
      stranger's first question is a date, not a geography. It gives up its slot to
      "Ce week-end"; /pays keeps its links from /villes and from every footer, so no
      page loses its way in. */

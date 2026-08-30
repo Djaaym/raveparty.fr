@@ -20,7 +20,7 @@ export default function MapPageView({ lang }: { lang: Lang }) {
             {t("map.title")}
           </h1>
           <p className="lead">{t("map.lead")}</p>
-          {/* Allégé côté serveur — voir `cardEvents()` : la carte n'a besoin que de
+          {/* Allégé côté serveur, voir `cardEvents()` : la carte n'a besoin que de
               coordonnées, d'un titre et d'une vignette. */}
           <MapView lang={lang} today={today} catalogue={cardEvents(upcoming(undefined, today))} />
         </div>

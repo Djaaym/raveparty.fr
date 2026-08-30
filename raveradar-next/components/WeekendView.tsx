@@ -35,12 +35,12 @@ export default function WeekendView({ lang, days = 12 }: { lang: Lang; days?: nu
         ? `${soon.length} événement${soon.length > 1 ? "s" : ""} entre le ${day(today)} et le ${day(
             horizonISO,
           )} : clubs, entrepôts et festivals. Prix d'entrée, line-up et billetterie sur chaque fiche.`
-        : `Rien de confirmé dans les ${days} prochains jours. Voici les prochaines dates référencées en Europe — et tu peux activer une alerte pour ta ville.`
+        : `Rien de confirmé dans les ${days} prochains jours. Voici les prochaines dates référencées en Europe, et tu peux activer une alerte pour ta ville.`
       : soon.length > 0
         ? `${soon.length} event${soon.length > 1 ? "s" : ""} between ${day(today)} and ${day(
             horizonISO,
           )}: clubs, warehouses and festivals. Entry price, line-up and ticketing on every listing.`
-        : `Nothing confirmed in the next ${days} days. Here are the next dates listed across Europe — and you can set an alert for your city.`;
+        : `Nothing confirmed in the next ${days} days. Here are the next dates listed across Europe, and you can set an alert for your city.`;
 
   const trail: [string, string][] = [[t("soon.crumb"), "/rave-party/ce-week-end"]];
   const listed = soon.length ? soon : later;

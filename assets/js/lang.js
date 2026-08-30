@@ -1,5 +1,5 @@
 /* =========================================================================
-   RAVERADAR — i18n dictionary
+   RAVERADAR, i18n dictionary
    Default language: French (served at /). English served at /en/.
    ========================================================================= */
 
@@ -15,14 +15,14 @@ const I18N = {
     "nav.signin": "Connexion",
     "nav.add": "Ajouter un événement",
     "cities.title": "Rave parties & festivals par ville",
-    "cities.lead": "Trouve les soirées et festivals près de chez toi — par pays, ville ou département.",
+    "cities.lead": "Trouve les soirées et festivals près de chez toi, par pays, ville ou département.",
     "cities.bycountry": "Par pays",
     "cities.bycity": "Villes & départements (France)",
 
     /* hero */
     "hero.badge": "2 400+ événements suivis dans 28 pays",
     "hero.title": 'Trouve Ta <span class="gradient-text">Prochaine Rave</span>',
-    "hero.lead": "Découvre les meilleurs événements de musique électronique d'Europe. Des entrepôts berlinois aux champs psytrance portugais — ta prochaine nuit blanche commence ici.",
+    "hero.lead": "Découvre les meilleurs événements de musique électronique d'Europe. Des entrepôts berlinois aux champs psytrance portugais, ta prochaine nuit blanche commence ici.",
     "search.city": "Ville",
     "search.country": "Pays",
     "search.date": "Date",
@@ -55,7 +55,7 @@ const I18N = {
 
     /* value */
     "value1.title": "Ne rate aucune sortie",
-    "value1.desc": "Active des alertes pour tes artistes, villes et genres préférés. On te prévient dès l'ouverture de la billetterie — avant que ça ne soit complet.",
+    "value1.desc": "Active des alertes pour tes artistes, villes et genres préférés. On te prévient dès l'ouverture de la billetterie, avant que ça ne soit complet.",
     "value2.title": "Vérifié & underground",
     "value2.desc": "Des méga-festivals aux nuits de club : chaque date, chaque line-up et chaque tarif est vérifié à la source officielle avant publication.",
     "value3.title": "Organise tout ton week-end",
@@ -161,7 +161,7 @@ const I18N = {
     /* organizer */
     "org.eyebrow": "Studio organisateur",
     "org.title": "Mets ta soirée sur le radar",
-    "org.lead": "Touche 180 000+ ravers en Europe. Publie ton événement, gère le line-up et relie ta billetterie — en quelques minutes.",
+    "org.lead": "Touche 180 000+ ravers en Europe. Publie ton événement, gère le line-up et relie ta billetterie, en quelques minutes.",
     "org.step1": "Détails",
     "org.step2": "Line-up",
     "org.step3": "Médias & billets",
@@ -175,7 +175,7 @@ const I18N = {
     "org.f.date": "Date",
     "org.f.time": "Heure de début",
     "org.f.venue": "Lieu / emplacement",
-    "org.f.venue.ph": "Kraftwerk Halle (ou « secret — révélé 24h avant »)",
+    "org.f.venue.ph": "Kraftwerk Halle (ou « secret, révélé 24h avant »)",
     "org.f.desc": "Description",
     "org.f.desc.ph": "Décris l'ambiance, le sound system, l'expérience…",
     "org.lineup": "Line-up",
@@ -245,13 +245,13 @@ const I18N = {
     "nav.signin": "Sign in",
     "nav.add": "Add Event",
     "cities.title": "Rave parties & festivals by city",
-    "cities.lead": "Find parties and festivals near you — by country, city or region.",
+    "cities.lead": "Find parties and festivals near you, by country, city or region.",
     "cities.bycountry": "By country",
     "cities.bycity": "Cities & departments (France)",
 
     "hero.badge": "2,400+ events tracked across 28 countries",
     "hero.title": 'Find Your <span class="gradient-text">Next Rave</span>',
-    "hero.lead": "Discover Europe's best electronic music events. From Berlin warehouses to Portuguese psytrance fields — your next all-nighter starts here.",
+    "hero.lead": "Discover Europe's best electronic music events. From Berlin warehouses to Portuguese psytrance fields, your next all-nighter starts here.",
     "search.city": "City",
     "search.country": "Country",
     "search.date": "Date",
@@ -279,7 +279,7 @@ const I18N = {
     "upcoming.map": "Open the map 🗺",
 
     "value1.title": "Never miss a drop",
-    "value1.desc": "Set alerts for your favourite artists, cities and genres. We ping you the moment tickets go live — before they sell out.",
+    "value1.desc": "Set alerts for your favourite artists, cities and genres. We ping you the moment tickets go live, before they sell out.",
     "value2.title": "Verified & underground",
     "value2.desc": "From mega-festivals to club nights: every date, line-up and price is checked against the official source before it goes live.",
     "value3.title": "Plan the whole weekend",
@@ -378,7 +378,7 @@ const I18N = {
 
     "org.eyebrow": "Organizer studio",
     "org.title": "Put your party on the radar",
-    "org.lead": "Reach 180,000+ ravers across Europe. Publish your event, manage the line-up and link your ticketing — all in minutes.",
+    "org.lead": "Reach 180,000+ ravers across Europe. Publish your event, manage the line-up and link your ticketing, all in minutes.",
     "org.step1": "Details",
     "org.step2": "Line-up",
     "org.step3": "Media & tickets",
@@ -392,7 +392,7 @@ const I18N = {
     "org.f.date": "Date",
     "org.f.time": "Start time",
     "org.f.venue": "Venue / location",
-    "org.f.venue.ph": "Kraftwerk Halle (or 'secret — revealed 24h before')",
+    "org.f.venue.ph": "Kraftwerk Halle (or 'secret, revealed 24h before')",
     "org.f.desc": "Description",
     "org.f.desc.ph": "Describe the vibe, the sound system, the experience…",
     "org.lineup": "Line-up",

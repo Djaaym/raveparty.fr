@@ -9,7 +9,7 @@
  * Le portrait vivait dans `ArtistBio.photo`, ce qui rendait la photo **conditionnée à
  * la bio** : un artiste dont on trouvait le portrait sur Commons mais dont on n'avait
  * pas su écrire deux phrases sourcées restait affiché avec son initiale dans un rond.
- * Ce sont deux faits indépendants — une image sous licence libre et un texte vérifié —
+ * Ce sont deux faits indépendants, une image sous licence libre et un texte vérifié,
  * et les coupler faisait perdre le premier chaque fois que le second manquait.
  *
  * ## Ce qui n'a pas changé, et ne doit pas changer
@@ -17,14 +17,14 @@
  * **Wikimedia Commons uniquement.** Une photo de presse ou d'Instagram est un travail
  * protégé quel que soit celui qui la publie, et « usage presse » n'est pas une licence
  * pour illustrer un annuaire. Commons énonce ses termes, et l'essentiel de son fonds
- * est en CC BY / CC BY-SA — réutilisables **à condition** d'afficher l'auteur et la
+ * est en CC BY / CC BY-SA, réutilisables **à condition** d'afficher l'auteur et la
  * licence. `author`, `license` et `page` ne sont donc pas de la décoration : ce sont
  * les conditions d'usage, rendues sous le portrait sur la fiche artiste et regroupées
  * sous l'annuaire pour les vignettes, qui n'ont pas la place de les porter.
  *
  * **Aucun portrait généré pour une personne réelle.** Produire une image réaliste et
  * reconnaissable d'un individu identifiable, publiée sur sa fiche, n'est pas illustrer
- * un festival. Sans photo libre, on affiche l'initiale — c'est une réponse honnête.
+ * un festival. Sans photo libre, on affiche l'initiale, c'est une réponse honnête.
  *
  * Généré par `.research/artists/avatars.py` entre les marqueurs PHOTOS:start / PHOTOS:end.
  */
@@ -40,7 +40,7 @@ export interface ArtistPhoto {
   page: string;
 }
 
-/* PHOTOS:start — généré par .research/artists/avatars.py, ne pas éditer à la main */
+/* PHOTOS:start, généré par .research/artists/avatars.py, ne pas éditer à la main */
 export const ARTIST_PHOTOS: Record<string, ArtistPhoto> = {
   "1200-micrograms": { file: "1200-micrograms.webp", author: "Scott Sandars", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:1200_mics_(Raja_Ram_%26_Chicago).jpg" },
   "808-state": { file: "808-state.webp", author: "Music Tech Fest", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Graham_Massey_2_-_MTFCentral_Hack_Camp_(2015-09-19_21.34.45_by_Music_Tech_Fest).jpg" },

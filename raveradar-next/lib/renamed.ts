@@ -4,7 +4,7 @@
  * Le slug dérive du titre, donc corriger un titre casse l'URL déjà indexée. « The
  * Warehouse Project » était un titre générique posé sur la seule date du 18/09 à
  * Manchester, alors que les 21 autres dates de la saison suivent la convention
- * « The Warehouse Project: {artiste} » — et c'est bien la soirée KI/KI. Mais
+ * « The Warehouse Project: {artiste} », et c'est bien la soirée KI/KI. Mais
  * `/festival/the-warehouse-project` existe et est indexée : même règle que pour les
  * anciennes pages `/show/`, on renvoie un 301, jamais un 404.
  *
@@ -15,7 +15,7 @@
  *
  * Pourquoi le middleware et pas un `permanentRedirect()` dans la page : un
  * `redirect()` dans une page **prérendue** produit un 308 **sans en-tête
- * `Location`** — la cible n'est plus que dans un méta-refresh du HTML, ce que Google
+ * `Location`**, la cible n'est plus que dans un méta-refresh du HTML, ce que Google
  * traite bien moins sûrement qu'une vraie redirection. Le middleware, lui, répond
  * avant tout rendu et pose un `Location` en bonne et due forme.
  */
@@ -25,7 +25,7 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   // en fait INFINITY Lisbon, la soirée de clôture du SBC Summit, réservée aux détenteurs
   // d'un pass du salon : le titre le dit maintenant, et l'ancien slug pointe ici.
   tiesto: { base: "event", slug: "tiesto-infinity-lisbon" },
-  // Time Warp Spain 2026 (Madrid, 18-19/09) a été **annulé par l'organisateur** —
+  // Time Warp Spain 2026 (Madrid, 18-19/09) a été **annulé par l'organisateur**,
   // communiqué officiel sur time-warp.de. Une date annulée laissée « à venir »
   // envoie nos lecteurs à un festival qui n'aura pas lieu, donc la fiche a été
   // retirée ; mais son URL était indexée, et une URL gagnée ne retombe jamais en
@@ -41,8 +41,8 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   "fr-dag-tony-humphries": { base: "event", slug: "fraedag-tony-humphries" }, // Frædag : Tony Humphries
   "fr-dag-x-hubbas-klubb-gerd-janson": { base: "event", slug: "fraedag-x-hubbas-klubb-gerd-janson" }, // Frædag x Hubbas Klubb : Gerd Janson
   "fuse-presents-hadone-curates-n-rbak-tauceti": { base: "event", slug: "fuse-presents-hadone-curates-norbak-tauceti" }, // Fuse presents Hadone curates: Nørbak & Tauceti
-  "hard-c-ur-creeds": { base: "event", slug: "hard-coeur-creeds" }, // Hard Cœur — Creeds
-  // Le titre était tronqué à « … Bellaire & Dimitri » — l'affiche du Warehouse de
+  "hard-c-ur-creeds": { base: "event", slug: "hard-coeur-creeds" }, // Hard Cœur, Creeds
+  // Le titre était tronqué à « … Bellaire & Dimitri », l'affiche du Warehouse de
   // Nantes porte « Dimitri from Paris ». Corriger le titre déplace le slug.
   "club-de-jour-invite-bellaire-dimitri": { base: "event", slug: "club-de-jour-invite-bellaire-dimitri-from-paris" },
 };
@@ -52,7 +52,7 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
  *
  * Même règle que ci-dessus, et elle vaut d'autant plus ici que le slug d'un artiste
  * dérive d'un nom recopié à la main sur une affiche : la moindre coquille corrigée
- * casse une URL. La vérification du catalogue en a produit une trentaine d'un coup —
+ * casse une URL. La vérification du catalogue en a produit une trentaine d'un coup,
  * des fautes de frappe (« Jennifer Lovell » pour Loveless, « Da Tweeka » pour
  * Da Tweekaz, « Diachi Wada » pour Daichi Wada), une graphie stylisée illisible
  * (« ¥ØU$UK€ ¥UK1MAT$U »), et surtout les **créneaux b2b** qui figuraient en line-up
@@ -64,7 +64,7 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
  *   stylisée renvoient vers la bonne fiche ;
  * - **`null` quand personne ne succède**, et c'est le cas des b2b : le créneau
  *   partagé n'a pas d'héritier unique, ni « Freddi » ni « Sophia Violet » n'est
- *   *cette* page. On renvoie alors vers l'annuaire `/artistes` — moins précis qu'une
+ *   *cette* page. On renvoie alors vers l'annuaire `/artistes`, moins précis qu'une
  *   fiche, infiniment mieux qu'un 404, et honnête : la page promise n'existait pas.
  */
 export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {

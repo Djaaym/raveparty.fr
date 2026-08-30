@@ -5,15 +5,15 @@
 
 Ce que la fusion ne peut pas vérifier elle-même, parce qu'elle ne lit pas le résultat :
 
-- un slug qui n'apparaît dans aucun line-up (la page n'existe pas — même famille de
+- un slug qui n'apparaît dans aucun line-up (la page n'existe pas, même famille de
   bug que les maps IMAGES/PHOTOS/TICKETS laissées avec des ids morts) ;
 - un genre principal qui n'est pas une clé de `GENRES`, ou qui vaut « Warehouse » :
   c'est un lieu, pas un style, et l'écrire sur une personne serait faux ;
 - un sous-genre qui répète son genre principal, ou qui est en réalité une des onze
-  catégories (« Acid » = « Acid Techno ») — il devrait être un lien, pas une pilule morte ;
+  catégories (« Acid » = « Acid Techno »), il devrait être un lien, pas une pilule morte ;
 - **l'écart avec le calendrier** : un artiste dont aucun genre attribué n'apparaît dans
-  aucune de ses soirées. Ce n'est pas forcément une erreur — un producteur d'ambient
-  programmé sur une soirée techno est un cas réel — mais c'est la signature d'un
+  aucune de ses soirées. Ce n'est pas forcément une erreur, un producteur d'ambient
+  programmé sur une soirée techno est un cas réel, mais c'est la signature d'un
   homonyme, et ça se relit à la main.
 """
 import json, re, sys, unicodedata
@@ -63,9 +63,9 @@ def main() -> int:
             if sub in st["m"]:
                 errs.append(f"{slug} : sous-genre « {sub} » répète son genre principal")
             if sub in MAIN_OK:
-                warns.append(f"{slug} : « {sub} » est une catégorie du site — devrait être un lien")
+                warns.append(f"{slug} : « {sub} » est une catégorie du site, devrait être un lien")
         ev = set(cat[slug]["genres"])
-        # « Hors périmètre » contredit le calendrier par construction — c'est même la
+        # « Hors périmètre » contredit le calendrier par construction, c'est même la
         # raison d'être du marqueur. Le signaler serait du bruit.
         if ev and st["m"] and not (ev & set(st["m"])):
             warns.append(

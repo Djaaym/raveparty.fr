@@ -6,26 +6,26 @@
 
 Pourquoi ce module existe. Jusqu'ici le style d'un artiste était *déduit* des soirées
 où il joue (`rankGenres`) : c'est la seule chose qu'on pouvait faire sans données, et
-c'est faux dès que l'affiche est large — un festival étiqueté sur huit styles étiquette
+c'est faux dès que l'affiche est large, un festival étiqueté sur huit styles étiquette
 du même coup les cinquante noms de son line-up. La déduction reste le repli ; ce que ce
 script produit, c'est l'attribution : ce que l'artiste joue **d'après une source**.
 
 Quatre entrées, par ordre d'autorité décroissante :
 
-1. `genres-*.json` — les lots des agents de recherche. Une source citée, lue par
+1. `genres-*.json`, les lots des agents de recherche. Une source citée, lue par
    quelqu'un. Elle gagne toujours sur l'automatique : c'est la seule qui ait pu trancher
-   un homonyme. Entre deux lots, `genres-audit*.json` — la relecture des écarts remontés
-   par `audit.py` — l'emporte sur le premier passage.
-2. `harvest/wdlabel.json` et `harvest/wd.json` — Wikidata P136. Deux routes : par
+   un homonyme. Entre deux lots, `genres-audit*.json`, la relecture des écarts remontés
+   par `audit.py`, l'emporte sur le premier passage.
+2. `harvest/wdlabel.json` et `harvest/wd.json`, Wikidata P136. Deux routes : par
    libellé exact (soixante noms par requête, ce qui rend le catalogue faisable) et par
    identifiant MusicBrainz (à l'abri de l'homonyme, mais MB étrangle à une requête par
-   seconde et par IP — dix-huit heures pour le catalogue, donc inutilisable seule).
+   seconde et par IP, dix-huit heures pour le catalogue, donc inutilisable seule).
    La route par libellé refuse d'écrire quand deux entités portent le même nom.
-3. `harvest/mb.json` — les tags MusicBrainz, avec leur nombre de votes.
-3bis. `harvest/discogs.json` — les styles agrégés de la discographie, pondérés par
+3. `harvest/mb.json` (les tags MusicBrainz, avec leur nombre de votes.
+3bis. `harvest/discogs.json`) les styles agrégés de la discographie, pondérés par
    leur part. C'est la source la plus fine sur le *sous-genre* : Discogs étiquette
    les disques, et « Hard Techno » ou « Neurofunk » y figurent en clair.
-4. `harvest/lastfm.json` — les tags de la communauté last.fm, classés par popularité.
+4. `harvest/lastfm.json`, les tags de la communauté last.fm, classés par popularité.
    La source la plus dense pour l'électronique, et la plus bruitée : le premier tag
    pèse six fois plus que le dixième, et `OFF_GENRE` jette la page entière quand le
    vocabulaire est celui d'un homonyme metal ou rap.
@@ -62,7 +62,7 @@ def norm_tag(t: str) -> str:
 
 # Formules par lesquelles un agent signale qu'aucune des onze catégories ne décrit
 # honnêtement l'artiste. La liste est volontairement explicite : un « aucune source
-# trouvée » ou un « homonyme non tranché » ne doit **pas** entrer ici — dans ces cas-là
+# trouvée » ou un « homonyme non tranché » ne doit **pas** entrer ici - dans ces cas-là
 # on n'a pas regardé assez, et la déduction reste le meilleur repli disponible.
 OUT_OF_SCOPE = re.compile(
     r"pas un artiste (de musique )?électronique|n'est pas (un|une) (artiste|groupe|projet) électro|"
@@ -75,7 +75,7 @@ OUT_OF_SCOPE = re.compile(
 def canon_sub(label: str):
     """Normalise un libellé de sous-genre rendu par un agent.
 
-    Les agents écrivent « Acid », « Psy-Trance Techno », « drum n bass » — la même
+    Les agents écrivent « Acid », « Psy-Trance Techno », « drum n bass », la même
     chose que la table connaît déjà sous un nom canonique. On la lui demande :
     - le libellé correspond à un sous-genre connu → on prend son orthographe à elle ;
     - il correspond à une des onze catégories (« Acid » = « Acid Techno ») → ce n'est
@@ -107,7 +107,7 @@ def vote(scores, subs, tag, weight, src):
 
 
 def load(name):
-    """Une source, tous ses lots. `harvest.py --shard k/n` écrit un fichier par lot —
+    """Une source, tous ses lots. `harvest.py --shard k/n` écrit un fichier par lot,
     ne lire que `{name}.json` laissait 1 069 attributions Discogs sur le carreau, sans
     rien signaler : le compteur « sans source » les absorbait en silence."""
     out = {}
@@ -126,7 +126,7 @@ def main() -> int:
 
     cat = load("catalogue")
     lfm, mb, dg = load("lastfm"), load("mb"), load("discogs")
-    # Deux routes vers Wikidata : par identifiant MusicBrainz (sûre mais lente — MB
+    # Deux routes vers Wikidata : par identifiant MusicBrainz (sûre mais lente, MB
     # étrangle) et par libellé (soixante noms par requête, tout le catalogue en une
     # demi-heure). La seconde porte l'essentiel ; la première complète.
     wd = {**load("wdlabel"), **{k: v for k, v in load("wd").items() if v.get("genres")}}
@@ -151,7 +151,7 @@ def main() -> int:
             if not srcs:
                 bad.append((r.get("name"), f.name, "aucune source http(s)")); continue
             # Les sous-genres hors périmètre se retirent ; mais si l'artiste n'en a
-            # *que* de ceux-là, c'est qu'aucune des onze cases ne le décrit — Kneecap
+            # *que* de ceux-là, c'est qu'aucune des onze cases ne le décrit, Kneecap
             # est un groupe de rap, et le ranger en « EDM » pour le faire entrer dans le
             # moule est faux. Le brief demande de sauter ces cas, ce test les rattrape.
             # La nuance compte : Cassius fait de la French house avec une teinte
@@ -160,13 +160,13 @@ def main() -> int:
             off = [x for x in raw_subs if norm_tag(x) in OFF_GENRE]
             if raw_subs and len(off) == len(raw_subs):
                 bad.append((r.get("name"), f.name,
-                            f"hors périmètre ({', '.join(off)}) — aucune des onze "
+                            f"hors périmètre ({', '.join(off)}), aucune des onze "
                             f"catégories ne le décrit")); continue
             r = {**r, "sub": [x for x in raw_subs if x not in off]}
             # Départage entre deux lots. Le nombre de sources est un critère faible :
             # il a obligé l'agent de relecture à gonfler ses entrées pour que sa
             # correction l'emporte sur celle qu'elle corrigeait. Un lot de relecture
-            # (`genres-audit*.json`) est par construction plus récent et mieux informé —
+            # (`genres-audit*.json`) est par construction plus récent et mieux informé,
             # il gagne, point.
             rank = 2 if f.name.startswith("genres-audit") else 1
             prev = research.get(slug)
@@ -188,7 +188,7 @@ def main() -> int:
     # --- 1bis. les artistes qu'aucune de nos onze cases ne décrit ---------------
     # Un agent les a **regardés** et a conclu que rien dans la liste fermée ne leur
     # convient : Pulp, Sting, Nick Cave, Shaggy, Madness, le Trio Xenakis. Ils sont
-    # légitimement au catalogue — ils jouent sur des festivals multi-genres — mais sans
+    # légitimement au catalogue, ils jouent sur des festivals multi-genres, mais sans
     # cette liste, `rankGenres()` leur attribuerait « House » ou « Techno » par le seul
     # étiquetage de l'affiche, et l'affirmation partirait dans le JSON-LD et la meta
     # description. Dire « on ne sait pas » est ici la seule réponse vraie ; c'est
@@ -234,7 +234,7 @@ def main() -> int:
         if d.get("found"):
             # Discogs cherche les sorties par nom *approchant* : « NTO » ramène aussi
             # un rappeur. La part d'« electronic » dans les genres grossiers dit si la
-            # discographie trouvée est la bonne — sous la moitié, on n'en tire rien.
+            # discographie trouvée est la bonne, sous la moitié, on n'en tire rien.
             gtot = sum(n for _, n in d.get("genres") or []) or 1
             elec = sum(n for g, n in d.get("genres") or [] if g in ("electronic", "electro"))
             if elec / gtot >= 0.5:
@@ -266,8 +266,8 @@ def main() -> int:
         floor = ranked[0][1] * 0.35
         mains = [g for g, v in ranked if v >= floor][:3]
 
-        # Corroboration. Le calendrier ne sait pas ce qu'un artiste joue — c'est toute
-        # la raison de ce module — mais il n'est pas aléatoire pour autant. Qu'une
+        # Corroboration. Le calendrier ne sait pas ce qu'un artiste joue, c'est toute
+        # la raison de ce module, mais il n'est pas aléatoire pour autant. Qu'une
         # attribution ne partage *aucun* genre avec *aucune* des soirées où l'artiste
         # est programmé est un signal fort : soit la source décrit un homonyme, soit
         # elle est périmée. Wikidata seul donnait ainsi « Techno » à Basement Jaxx et à
@@ -276,7 +276,7 @@ def main() -> int:
         # Une seule source dans ce cas ne suffit pas : on n'écrit rien et `artistGenres()`
         # retombe sur la déduction, qui au moins ne contredit pas le calendrier. Deux
         # sources indépendantes qui disent la même chose, en revanche, ont le droit de
-        # contredire l'affiche — c'est même précisément ce qu'on leur demande.
+        # contredire l'affiche, c'est même précisément ce qu'on leur demande.
         ev = set(cat[slug]["genres"])
         if ev and not (ev & set(mains)) and len(set(used)) < 2:
             stats["contredit le calendrier, source unique"] += 1
@@ -312,7 +312,7 @@ def main() -> int:
     start, end = src.index("/* STYLES:start"), src.index("/* STYLES:end")
     head = src[: src.index("\n", start) + 1]
     OUT_TS.write_text(head + block + "\n" + src[end:])
-    print(f"\n✓ lib/artist-genres.ts réécrit — {len(styles)} artistes.")
+    print(f"\n✓ lib/artist-genres.ts réécrit, {len(styles)} artistes.")
     return 0
 
 

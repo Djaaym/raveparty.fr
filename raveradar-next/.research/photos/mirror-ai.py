@@ -4,8 +4,8 @@
   python3 .research/photos/mirror-ai.py --dry   # rapport sans rien écrire
   python3 .research/photos/mirror-ai.py         # télécharge, ré-encode, patche data.ts
 
-Pourquoi : le CDN servait les PNG bruts du générateur — 3 à 4 Mo pièce pour une
-image affichée sur 560 px de large — et des « _min.webp » à 171 Ko de moyenne,
+Pourquoi : le CDN servait les PNG bruts du générateur, 3 à 4 Mo pièce pour une
+image affichée sur 560 px de large, et des « _min.webp » à 171 Ko de moyenne,
 jusqu'à 630 Ko, quand la même vignette pèse 45 Ko dans public/posters/. Un
 listing de 24 cartes tirait donc 4 Mo d'images, et la fiche d'un festival illustré
 par une affiche IA chargeait le PNG plein format en LCP. S'ajoutait un `Cache-Control`
@@ -13,11 +13,11 @@ absent sur les PNG (les _min.webp, eux, étaient bien en immutable) et une origi
 tierce de plus à résoudre avant la première image.
 
 On produit exactement les deux mêmes dérivés que `ingest.py` pour les photos, avec
-le même nommage `{slug}-{hash}` — le hash de contenu rend le fichier immuable, donc
+le même nommage `{slug}-{hash}`, le hash de contenu rend le fichier immuable, donc
 cacheable un an (voir `headers()` dans next.config.mjs) :
 
-  ai-{slug}-{hash}.jpg       ratio d'origine, ≤1200 px — <img> pleine page, OG, JSON-LD
-  ai-{slug}-{hash}_min.webp  crop 4:5 à 560×700        — le poster des cartes
+  ai-{slug}-{hash}.jpg       ratio d'origine, ≤1200 px (<img> pleine page, OG, JSON-LD
+  ai-{slug}-{hash}_min.webp  crop 4:5 à 560×700       ) le poster des cartes
 
 Le préfixe `ai-` garde le répertoire lisible : ces fichiers sont des visuels
 d'illustration, pas des photos, et `imageAlt()` le dit déjà au lecteur.
@@ -77,7 +77,7 @@ def fetch(name: str) -> bytes:
 
 
 def derivatives(im: Image.Image, slug: str, dry: bool):
-    """Mêmes dérivés que `ingest.py` — un seul gabarit de poster sur tout le site."""
+    """Mêmes dérivés que `ingest.py`, un seul gabarit de poster sur tout le site."""
     full = im.copy()
     full.thumbnail((FULL_MAX, FULL_MAX), Image.LANCZOS)
 
@@ -155,15 +155,15 @@ def main():
         mapping[eid] = f"{slug}.jpg"
 
     if failed:
-        print(f"\n⚠️  {len(failed)} échecs — ids {failed} conservés sur le CDN")
+        print(f"\n⚠️  {len(failed)} échecs, ids {failed} conservés sur le CDN")
         for eid in failed:
             mapping[eid] = images[eid]
     patch(src, mapping, titles, args.dry, not failed)
-    print(f"\n{'—' * 60}")
+    print(f"\n{'-' * 60}")
     print(f"fichiers écrits : {len(by_hash)} × 2   ({saved / 1048576:.0f} Mo de PNG évités)")
     print(f"map IMAGES      : {len(mapping)} entrées" + ("  (dry)" if args.dry else ""))
     if failed:
-        print("IMG_BASE reste sur le CDN tant qu'un id y pointe — relancer le script.")
+        print("IMG_BASE reste sur le CDN tant qu'un id y pointe, relancer le script.")
     return 1 if failed else 0
 
 

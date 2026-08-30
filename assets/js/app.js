@@ -1,5 +1,5 @@
 /* =========================================================================
-   RAVERADAR — App logic (vanilla JS, no framework)
+   RAVERADAR, App logic (vanilla JS, no framework)
    Bilingual: French (default, /) + English (/en/). See lang.js.
    ========================================================================= */
 
@@ -80,7 +80,7 @@ function rowHTML(e) {
     <div>
       <div class="card-date">${fmtDate(e.date)} · ${e.time}</div>
       <h3>${e.title}</h3>
-      <div class="card-loc">📍 ${e.venue} — ${e.city}, ${countryLabel(e.country)}</div>
+      <div class="card-loc">📍 ${e.venue}, ${e.city}, ${countryLabel(e.country)}</div>
       <div class="card-meta">${e.genres.map(g => `<span class="gpill">${g}</span>`).join("")}</div>
     </div>
     <div class="row-right">
@@ -278,7 +278,7 @@ function initExplore() {
 }
 
 function filteredEvents() {
-  // Picking a month is an explicit request — don't silently hide past dates inside it.
+  // Picking a month is an explicit request, don't silently hide past dates inside it.
   let list = (exState.month ? EVENTS : upcomingEvents()).filter(e => {
     if (exState.country && e.country !== exState.country) return false;
     if (exState.month && !e.date.startsWith(exState.month)) return false;
@@ -354,7 +354,7 @@ function initMap() {
 function initEvent() {
   const id = +new URLSearchParams(location.search).get("id") || 1;
   const e = EVENTS.find(x => x.id === id) || EVENTS[0];
-  document.title = `${e.title} — RaveRadar`;
+  document.title = `${e.title}, RaveRadar`;
 
   $("#ev-bg").style.backgroundImage = e.bg;
   $("#ev-type").textContent = e.type;

@@ -5,7 +5,7 @@ import type { RaveEvent } from "./types";
  *
  * Module feuille, pour la même raison que `lib/display.ts` : `<Footer>` appelle
  * `placeBySlug()` et il est rendu à l'intérieur de composants client. Tant que ce
- * lookup vivait à côté de `eventsForPlace()` — qui, lui, parcourt `EVENTS` — le
+ * lookup vivait à côté de `eventsForPlace()` (qui, lui, parcourt `EVENTS`) le
  * footer traînait tout le catalogue dans le bundle de ces pages.
  *
  * `lib/places.ts` ré-exporte tout ce fichier : rien ne change pour les appelants.
@@ -46,7 +46,7 @@ export const PLACES: Place[] = [
   { slug: "lens", label: "Lens", kind: "ville", vol: 140, match: ["Lens", "Liévin"] },
   /* Ouvertes par le lot BE/FR d'août 2026. Leurs départements (Somme, Loiret,
      Indre-et-Loire) n'ont pas de page : sans entrée ici, ces dates n'étaient
-     atteignables que par la page pays et les pages genre — c'est exactement ce que
+     atteignables que par la page pays et les pages genre, c'est exactement ce que
      signale l'avertissement « dates FR hors de toute page lieu » d'audit.py.
      `vol` pas encore issu de l'export SEMrush : valeur plancher en attendant. */
   { slug: "amiens", label: "Amiens", kind: "ville", vol: 170, match: ["Amiens"] },
@@ -66,7 +66,7 @@ export const PLACES: Place[] = [
   { slug: "london", label: "London", kind: "ville", vol: 1300, match: ["London"] },
   { slug: "manchester", label: "Manchester", kind: "ville", vol: 720, match: ["Manchester"] },
   { slug: "barcelona", label: "Barcelona", kind: "ville", vol: 880, match: ["Barcelona"] },
-  /* Belgique : 66 dates au catalogue et pas une seule page ville jusqu'ici — elles
+  /* Belgique : 66 dates au catalogue et pas une seule page ville jusqu'ici, elles
      n'étaient atteignables que par /pays/belgique. Les communes rattachées sont celles
      de l'agglomération (Grimbergen et Steenokkerzeel pour Bruxelles, Brasschaat et Boom
      pour Anvers, Seraing pour Liège) : un lecteur qui cherche « rave party Anvers »
@@ -89,7 +89,7 @@ export const PLACES: Place[] = [
   { slug: "aveyron", label: "Aveyron", kind: "departement", vol: 320 },
   { slug: "bretagne", label: "Bretagne", kind: "region", vol: 720 },
   { slug: "loire-atlantique", label: "Loire-Atlantique", kind: "departement", vol: 390 },
-  // Departments the calendar now actually covers — each one has at least one dated event.
+  // Departments the calendar now actually covers, each one has at least one dated event.
   { slug: "vaucluse", label: "Vaucluse", kind: "departement", vol: 260 },
   { slug: "bouches-du-rhone", label: "Bouches-du-Rhône", kind: "departement", vol: 320 },
   { slug: "alpes-maritimes", label: "Alpes-Maritimes", kind: "departement", vol: 260 },
@@ -132,11 +132,11 @@ export const PLACES: Place[] = [
   { slug: "haute-vienne", label: "Haute-Vienne", kind: "departement", vol: 210 },
   /* Ouvert par une correction, pas par un nouveau lot : la soirée Insolitum du 26/02/2027
      était fichée à Bordeaux (Gironde) alors qu'elle a lieu au Bœuf sur le Toit de
-     Lons-le-Saunier — deux salles portent ce nom, à 400 km l'une de l'autre. Sans entrée
+     Lons-le-Saunier, deux salles portent ce nom, à 400 km l'une de l'autre. Sans entrée
      ici, la date corrigée n'aurait plus eu aucune page géographique. */
   { slug: "jura", label: "Jura", kind: "departement", vol: 210 },
   { slug: "cote-d-or", label: "Côte-d'Or", kind: "departement", vol: 210 },
-  // European cities the calendar now covers — each has at least one dated event.
+  // European cities the calendar now covers, each has at least one dated event.
   { slug: "copenhague", label: "Copenhague", kind: "ville", vol: 1300, match: ["Copenhagen", "Roskilde"] },
   { slug: "stockholm", label: "Stockholm", kind: "ville", vol: 1000, match: ["Stockholm", "Linköping", "Kristianstad"] },
   { slug: "oslo", label: "Oslo", kind: "ville", vol: 720, match: ["Oslo"] },

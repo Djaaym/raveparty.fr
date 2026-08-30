@@ -16,7 +16,7 @@ type Tab = "favs" | "alerts" | "history" | "settings";
  *
  * Les favoris sont des ids en localStorage : la résolution id → événement se fait donc
  * forcément côté client, mais elle n'a besoin que de ce qu'une carte affiche. L'import
- * direct faisait entrer tout `lib/data.ts` — descriptions comprises — dans le bundle.
+ * direct faisait entrer tout `lib/data.ts`, descriptions comprises, dans le bundle.
  */
 export default function AccountTabs({
   lang,
@@ -41,7 +41,7 @@ export default function AccountTabs({
 
   const favs = events.filter((e) => favIds.includes(e.id));
   // "Historique" is the one tab where a finished event is the point. Four fixed positions
-  // in the catalogue were neither history nor current — they drifted into upcoming dates.
+  // in the catalogue were neither history nor current, they drifted into upcoming dates.
   
   const tabs: [Tab, string][] = [
     ["favs", t("acc.tab.favs")],

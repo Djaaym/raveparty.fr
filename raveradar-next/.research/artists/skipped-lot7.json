@@ -1,12 +1,12 @@
 [
  {
   "name": "BLNK",
-  "reason": "Aucune source ouvrable. Le seul profil détaillé est sur ra.co (bloqué 403) ; bandsintown est bloqué lui aussi, la page SoundCloud ne rend qu'une coquille JS, et MusicBrainz mélange un rappeur coréen homonyme avec une entrée « Blnk | techno » sans pays. Les résumés d'index concordent (producteur néerlandais de Haarlem, hard techno / techno industriel, joue Now&Wow, Club Hard, Nachtwacht — cohérent avec sa date à l'afterparty du Rotterdam Rave), mais aucune page n'a pu être ouverte pour l'attester.",
+  "reason": "Aucune source ouvrable. Le seul profil détaillé est sur ra.co (bloqué 403) ; bandsintown est bloqué lui aussi, la page SoundCloud ne rend qu'une coquille JS, et MusicBrainz mélange un rappeur coréen homonyme avec une entrée « Blnk | techno » sans pays. Les résumés d'index concordent (producteur néerlandais de Haarlem, hard techno / techno industriel, joue Now&Wow, Club Hard, Nachtwacht, cohérent avec sa date à l'afterparty du Rotterdam Rave), mais aucune page n'a pu être ouverte pour l'attester.",
   "leads": ["https://de.ra.co/dj/blnk", "https://www.bandsintown.com/a/15551622-blnk", "https://soundcloud.com/blnkofficialmusic"]
  },
  {
   "name": "Yung Lean & Bladee",
-  "reason": "Duo de rappeurs suédois (Drain Gang / YEAR0001). Leur genre — cloud rap, hip-hop, R&B alternatif — n'a aucun équivalent dans la liste fermée de `main` : leur attribuer House, Techno ou EDM serait faux. Ils sont à l'affiche du Grape Festival et du C2C, deux programmations non exclusivement électroniques.",
+  "reason": "Duo de rappeurs suédois (Drain Gang / YEAR0001). Leur genre (cloud rap, hip-hop, R&B alternatif) n'a aucun équivalent dans la liste fermée de `main` : leur attribuer House, Techno ou EDM serait faux. Ils sont à l'affiche du Grape Festival et du C2C, deux programmations non exclusivement électroniques.",
   "leads": ["https://en.wikipedia.org/wiki/Bladee", "https://en.wikipedia.org/wiki/Drain_Gang"]
  }
 ]

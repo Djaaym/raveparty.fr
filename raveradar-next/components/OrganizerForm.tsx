@@ -8,7 +8,7 @@ type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
 /**
  * Les genres et les types arrivent en props plutôt que de `lib/data.ts` : ce formulaire
  * est un composant client, et l'import tirait tout le catalogue dans le bundle de
- * /organizer. Même raison que pour `<Hero>` — le client ne reçoit que ce qu'il affiche.
+ * /organizer. Même raison que pour `<Hero>`, le client ne reçoit que ce qu'il affiche.
  */
 export default function OrganizerForm({
   lang,
@@ -72,7 +72,7 @@ export default function OrganizerForm({
     <div className="explore-layout">
       {/* Le placement en colonnes vit en CSS et non en style inline : sous 1024 px
           `.explore-layout` repasse à une seule colonne, et un `gridColumn: 2` codé en
-          dur y créait une deuxième colonne implicite — 142 px de débordement horizontal
+          dur y créait une deuxième colonne implicite, 142 px de débordement horizontal
           sur mobile, le seul du site. */}
       <form className="org-form" onSubmit={submit}>
         <div className="info-card">

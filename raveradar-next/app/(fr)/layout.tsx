@@ -9,7 +9,7 @@ import "../globals.css";
 /**
  * Syne et Inter sans liste de graisses : ce sont des fontes **variables**, et énumérer
  * `["600","700","800"]` demandait à next/font d'en découper trois instances statiques.
- * Six fichiers woff2 là où deux suffisent — six `<link rel="preload">` en tête de page,
+ * Six fichiers woff2 là où deux suffisent, six `<link rel="preload">` en tête de page,
  * tous en concurrence avec l'image LCP pour la bande passante des premières secondes.
  * Un seul fichier variable couvre 400→800 et rend exactement les mêmes graisses.
  *
@@ -20,11 +20,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const spaceMono = Space_Mono({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-space-mono" });
 
 /**
- * Pages are prerendered, and most of them branch on "is this event still ahead?" — a
+ * Pages are prerendered, and most of them branch on "is this event still ahead?", a
  * question whose answer changes at midnight Paris with no deploy and no data edit.
  * The window is what a finished event can still be highlighted for: at 86400 a party
  * that ended last night stayed on the home page most of the following day. Hourly
- * bounds that to the hour, and costs nothing extra on quiet pages — a stale page is
+ * bounds that to the hour, and costs nothing extra on quiet pages, a stale page is
  * only regenerated when someone actually asks for it.
  */
 export const revalidate = 3600;
@@ -68,7 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Analytics />
         {/* First-party collector feeding /suivi. Independent of GA4 above: GA counts,
-            this one records what happened — see components/Tracker.tsx. */}
+            this one records what happened, see components/Tracker.tsx. */}
         <Tracker />
       </body>
     </html>

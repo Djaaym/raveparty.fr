@@ -8,8 +8,8 @@ export const dynamic = "force-dynamic";
 const field = (v: unknown, max = 400) => (typeof v === "string" ? v.trim().slice(0, max) : "");
 
 /**
- * An organizer's event submission. It is not published automatically — the catalogue is
- * hand-verified per the project's content rule — so this only has to reach a human.
+ * An organizer's event submission. It is not published automatically, the catalogue is
+ * hand-verified per the project's content rule, so this only has to reach a human.
  * That's a mail to the owner, which means the endpoint needs no store at all.
  */
 export async function POST(req: Request) {
@@ -48,11 +48,11 @@ export async function POST(req: Request) {
     field(body.desc, 2000),
   ];
 
-  const sent = await notifyOwner(`RaveRadar — soumission : ${title}`, lines.join("\n"));
+  const sent = await notifyOwner(`RaveRadar, soumission : ${title}`, lines.join("\n"));
   if (!sent) {
     // The submission is in the server log either way, but don't claim it was received
     // by someone when no mailbox was configured to receive it.
-    console.error("[organizer] no mail transport configured — submission follows\n" + lines.join("\n"));
+    console.error("[organizer] no mail transport configured, submission follows\n" + lines.join("\n"));
     return NextResponse.json({ error: "not_configured" }, { status: 501 });
   }
   return NextResponse.json({ ok: true });

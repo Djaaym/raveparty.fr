@@ -22,7 +22,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   const live = upcoming(undefined, today);
   const next = nextUp(4, undefined, today);
   // "Top festivals" is a shortlist of names, so each finished edition is swapped for the
-  // next one rather than dropped — the block keeps its famous entries and none of them
+  // next one rather than dropped, the block keeps its famous entries and none of them
   // lands on a page stamped "édition terminée". Empty stays empty: no archive fallback.
   const fests = liveEditions(FESTIVALS, today).slice(0, 24);
   // Venues carry the club-name intent ("Berghain", "Rex Club") that a city page can't rank for.
@@ -30,7 +30,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
   // Slug + bare name only: the "📍 Rave party" prefix is decoration the pill adds,
   // not something a reader typing "lyon" should have to match.
   const placeItems = (list: typeof PLACES) => list.map((v) => ({ slug: v.slug, term: v.label }));
-  // Countries that actually have dates on, busiest first — a flag pointing at an empty
+  // Countries that actually have dates on, busiest first, a flag pointing at an empty
   // page is the same broken promise as a city pill with nothing behind it.
   const countries = COUNTRIES_INDEX.map((c) => ({ ...c, live: upcoming(eventsForCountry(c.name), today).length }))
     .filter((c) => c.live > 0)
@@ -135,7 +135,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
 
           {/* 90 places is past the point where a reader scans a wall of pills for their
               own town. The box filters both lists at once, and every link stays in the
-              server-rendered HTML — the crawler still sees the whole mesh. */}
+              server-rendered HTML, the crawler still sees the whole mesh. */}
           <SearchableLinks
             groups={[
               { title: t("cities.bigcities"), items: placeItems(villes) },
@@ -176,7 +176,7 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
           )}
 
           {/* "Pays" left the nav because it read as "Villes" said twice; this is where
-              it gets its way in from — country pages are the parent of every city page
+              it gets its way in from, country pages are the parent of every city page
               here, so the hub that lists the cities is the honest place to hand them up. */}
           <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
             {t("cities.bycountry")}

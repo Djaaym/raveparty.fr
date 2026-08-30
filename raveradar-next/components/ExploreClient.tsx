@@ -26,7 +26,7 @@ function Row({ e, lang }: { e: CardEvent; lang: Lang }) {
         </div>
         <h3>{e.title}</h3>
         <div className="card-loc">
-          📍 {eventVenueL(e, lang)} — {e.city}, {countryLabel(e.country, lang)}
+          📍 {eventVenueL(e, lang)}, {e.city}, {countryLabel(e.country, lang)}
         </div>
         <div className="card-meta">
           {e.genres.map((g) => (
@@ -49,7 +49,7 @@ function Row({ e, lang }: { e: CardEvent; lang: Lang }) {
  * Le catalogue et les listes de facettes arrivent en props.
  *
  * Ce composant importait `EVENTS` : le bundler embarquait alors tout `lib/data.ts` dans
- * le JavaScript de /explore — 218 Ko compressés, dont les descriptions françaises et
+ * le JavaScript de /explore, 218 Ko compressés, dont les descriptions françaises et
  * anglaises des 870 fiches, qu'aucun filtre ni aucune carte ne lit. `cardEvents(EVENTS,
  * true)` rend la même liste sans les descriptions ; le `true` garde `lineup`, que la
  * recherche plein texte parcourt.
@@ -100,7 +100,7 @@ export default function ExploreClient({
   };
 
   /* Months and an explicit range are two ways to say the same thing, so they're
-     mutually exclusive — combining them mostly produces empty result sets. */
+     mutually exclusive, combining them mostly produces empty result sets. */
   const pickMonth = (m: string) => {
     setFrom("");
     setTo("");
@@ -115,12 +115,12 @@ export default function ExploreClient({
     setTo(v);
   };
 
-  /** Picking a date is an explicit request — don't silently hide past dates inside it. */
+  /** Picking a date is an explicit request, don't silently hide past dates inside it. */
   const dated = months.size > 0 || Boolean(from) || Boolean(to);
 
-  /** Everything currently in scope date-wise — drives both the results and the facet counts. */
+  /** Everything currently in scope date-wise, drives both the results and the facet counts. */
   const pool = useMemo(
-    // fresh-ok: /explore is a search, not a highlight — the archive only appears when the
+    // fresh-ok: /explore is a search, not a highlight, the archive only appears when the
     // reader ticks "éditions passées" or names a month, and both are explicit requests.
     () => (showPast || dated ? catalogue : catalogue.filter((e) => !isPast(e, today))),
     [catalogue, showPast, dated, today]

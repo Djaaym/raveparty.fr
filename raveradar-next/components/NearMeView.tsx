@@ -27,8 +27,8 @@ const haversine = (lat1: number, lon1: number, lat2: number, lon2: number) => {
  * Les construire ici obligeait à importer `lib/seo` et `lib/places`, qui lisent tous
  * deux le catalogue : 218 Ko compressés de JavaScript sur cette page, pour un bloc de
  * balisage et une colonne de liens qui ne bougent jamais après le rendu. Ce composant
- * n'est client que pour une chose — demander la position du visiteur et retrier la
- * liste — et c'est la seule chose qui doit lui coûter du JavaScript.
+ * n'est client que pour une chose, demander la position du visiteur et retrier la
+ * liste, et c'est la seule chose qui doit lui coûter du JavaScript.
  */
 export default function NearMeView({
   lang,
@@ -71,8 +71,8 @@ export default function NearMeView({
 
   const intro =
     lang === "fr"
-      ? `${live.length} événement${live.length > 1 ? "s" : ""} à venir en Europe. Autorise la géolocalisation et la liste se réordonne du plus proche au plus loin — pratique pour savoir quoi faire ce soir sans faire trois heures de route.`
-      : `${live.length} upcoming event${live.length > 1 ? "s" : ""} across Europe. Allow location access and the list reorders from closest to furthest — handy for finding something on tonight without a three-hour drive.`;
+      ? `${live.length} événement${live.length > 1 ? "s" : ""} à venir en Europe. Autorise la géolocalisation et la liste se réordonne du plus proche au plus loin, pratique pour savoir quoi faire ce soir sans faire trois heures de route.`
+      : `${live.length} upcoming event${live.length > 1 ? "s" : ""} across Europe. Allow location access and the list reorders from closest to furthest, handy for finding something on tonight without a three-hour drive.`;
 
   const trail: [string, string][] = [[t("near.crumb"), "/rave-party/autour-de-moi"]];
 

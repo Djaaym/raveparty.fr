@@ -8,7 +8,7 @@ import { showRedirect } from "@/lib/shows";
  * 301 vers l'événement (ou vers l'artiste si le slug ne correspond plus à
  * aucune date connue) : les URLs déjà indexées gardent leur valeur.
  *
- * Rendu à la demande — plus de `generateStaticParams`, donc plus de 1 850
+ * Rendu à la demande, plus de `generateStaticParams`, donc plus de 1 850
  * pages au build et plus une seule entrée au sitemap.
  */
 export const dynamic = "force-dynamic";

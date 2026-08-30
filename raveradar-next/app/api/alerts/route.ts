@@ -8,13 +8,13 @@ export const dynamic = "force-dynamic";
 
 /**
  * Health check for the alerts subsystem. Reports which configuration keys the running
- * function can actually see — names only, never values — because "the endpoint answers
+ * function can actually see (names only, never values) because "the endpoint answers
  * 501" gives an operator no way to tell a missing variable from one scoped to the wrong
  * environment or saved after the last deploy. Knowing the site uses Brevo is inferable
  * from a subscription mail anyway, so this leaks nothing a secret depends on.
  */
 /**
- * Asks Brevo what it thinks of our credentials, from inside the deployed function —
+ * Asks Brevo what it thinks of our credentials, from inside the deployed function,
  * the only vantage point that matters, since Vercel's egress IP is not ours to predict.
  * Returns a classification, never Brevo's raw message: that message quotes the calling
  * IP address, and a public endpoint has no business publishing it.
@@ -35,9 +35,9 @@ async function probeBrevo() {
       // has not authorised. Only the message distinguishes them, and the fix is different.
       const verdict =
         account.status === 401 && /IP address/i.test(body)
-          ? "ip_non_autorisee — passe le compte Brevo en « No IP review » : app.brevo.com/security/authorised_ips"
+          ? "ip_non_autorisee, passe le compte Brevo en « No IP review » : app.brevo.com/security/authorised_ips"
           : account.status === 401
-            ? "cle_refusee — BREVO_API_KEY n'est pas reconnue"
+            ? "cle_refusee, BREVO_API_KEY n'est pas reconnue"
             : `compte_http_${account.status}`;
       return { reachable: true, verdict };
     }
@@ -54,7 +54,7 @@ async function probeBrevo() {
     const missing = ["ALERT_KIND", "ALERT_VALUE", "ALERT_LABEL", "ALERT_SUMMARY", "LANG"].filter((a) => !known.has(a));
 
     // Brevo accepts POST /v3/smtp/email and answers 201 even when the sender is not a
-    // validated one — the message is only dropped later, so a 201 is not proof of
+    // validated one, the message is only dropped later, so a 201 is not proof of
     // delivery. Checking the sender list is the only way to catch that from here.
     // Verdicts only: ALERTS_NOTIFY_FROM is the owner's address, not something a public
     // endpoint should echo back.
@@ -71,14 +71,14 @@ async function probeBrevo() {
           ? match.active === false
             ? "declare_mais_inactif"
             : "valide"
-          : `absent_de_la_liste (${list.length} expediteur(s) declare(s)) — ajoute-le dans Expediteurs, domaine, IP, ou mets l'adresse de ton compte Brevo`;
+          : `absent_de_la_liste (${list.length} expediteur(s) declare(s)), ajoute-le dans Expediteurs, domaine, IP, ou mets l'adresse de ton compte Brevo`;
       }
     }
 
     return {
       reachable: true,
       verdict: "ok",
-      // Not fatal — subscribers.ts retries without them — but it silently loses the
+      // Not fatal, subscribers.ts retries without them, but it silently loses the
       // detail of every alert, so it is worth surfacing.
       attributsManquants: missing,
       expediteur,
@@ -116,7 +116,7 @@ export async function GET(req: Request) {
 /**
  * Creates one alert subscription. The response codes are what the form renders:
  * 200 subscribed · 400 bad address · 429 slow down · 501 no provider configured ·
- * 502 the provider refused. `501` matters — it is the difference between telling
+ * 502 the provider refused. `501` matters, it is the difference between telling
  * someone they're on the list and telling them the list isn't plugged in yet.
  */
 export async function POST(req: Request) {

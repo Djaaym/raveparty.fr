@@ -1,21 +1,21 @@
 import type { GenreColor, Lang, RaveEvent } from "./types";
 
 /**
- * Ce qu'on affiche d'un événement — sans le calendrier.
+ * Ce qu'on affiche d'un événement, sans le calendrier.
  *
  * Module feuille : il n'importe que des types. C'est tout son intérêt.
  *
  * `lib/data.ts` porte les 870 événements du catalogue, leurs descriptions françaises
  * *et* anglaises, et les maps d'affiches, de photos et de billetterie : ~830 Ko de
  * source, 218 Ko une fois compressés. Webpack n'élimine pas les exports inutilisés
- * d'un module de cette taille — mesuré, pas supposé : importer `isPast` depuis un
+ * d'un module de cette taille, mesuré, pas supposé : importer `isPast` depuis un
  * composant client suffisait à embarquer tout le fichier. La page d'accueil, /explore,
  * /map et /account payaient donc le catalogue entier en JavaScript pour afficher des
  * cartes.
  *
  * Tout ce qui est ici est **pur et petit** : des couleurs de genre, des libellés de
  * pays, quelques comparaisons de dates. Rien ne dépend de `EVENTS`, et rien ne doit
- * jamais en dépendre — c'est la seule règle de ce fichier. Ce qui a besoin du
+ * jamais en dépendre, c'est la seule règle de ce fichier. Ce qui a besoin du
  * calendrier (`eventPath`, `upcoming`, `nextEdition`…) reste dans `lib/data.ts`, qui
  * ré-exporte tout ce module pour que les appelants serveur ne changent pas d'import.
  */
@@ -50,7 +50,7 @@ export const genreFromSlug = (s: string): string | undefined =>
  *
  * `NFD` sépare une lettre accentuée en lettre + diacritique, et on jette le
  * diacritique : « é » devient « e ». Mais « ø », « đ », « ł » ou « ß » ne sont pas des
- * lettres accentuées — ce sont des lettres à part entière, indécomposables. Elles
+ * lettres accentuées, ce sont des lettres à part entière, indécomposables. Elles
  * n'étaient donc pas réduites, elles étaient **supprimées**, et le tiret de la classe
  * `[^a-z0-9]+` prenait leur place.
  *
@@ -109,7 +109,7 @@ export const venueLabelL = (name: string, nameEn: string | undefined, lang: Lang
   lang === "en" ? nameEn ?? name : name;
 export const eventVenueL = (e: RaveEvent, lang: Lang) => venueLabelL(e.venue, e.venueEn, lang);
 
-/** Today as `yyyy-mm-dd` in Europe/Paris — the site's reference timezone. */
+/** Today as `yyyy-mm-dd` in Europe/Paris, the site's reference timezone. */
 export const todayISO = (): string => new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Paris" });
 /** Last day of an event (multi-day festivals stay live until their final day). */
 export const lastDay = (e: RaveEvent): string => e.endDate ?? e.date;

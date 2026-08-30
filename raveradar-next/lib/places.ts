@@ -6,7 +6,7 @@ export * from "./places-list";
 
 
 /** Events located in a given place (matched by city name or French region/department).
- *  Matching is on whole slugs, not substrings — "Ain" is a substring of "Saintes",
+ *  Matching is on whole slugs, not substrings, "Ain" is a substring of "Saintes",
  *  and "Nord" of plenty of city names. */
 export function eventsForPlace(p: Place): RaveEvent[] {
   const names = (p.match ?? [p.label]).map(slugify);
@@ -22,12 +22,12 @@ export function eventsForPlace(p: Place): RaveEvent[] {
  *
  *  The count is what makes a place link honest: a pill that promises a town and lands
  *  on "pas encore d'événement" is worth less than no link at all. Overlapping places
- *  are collapsed — "Rhône" holds exactly the dates "Lyon" just showed, so listing both
+ *  are collapsed, "Rhône" holds exactly the dates "Lyon" just showed, so listing both
  *  says the same thing twice.
  *
  *  `country` is the majority country of the place's own dates in `events`, not a field
  *  on Place: it exists so a caller can lead with France (the priority market) instead
- *  of handing a French reader Amsterdam, Manchester and Cologne — which is what a plain
+ *  of handing a French reader Amsterdam, Manchester and Cologne, which is what a plain
  *  count ranking does, the calendar being what it is. */
 export function rankPlaces(events: RaveEvent[], n: number): { place: Place; count: number; country: string }[] {
   const ranked = PLACES.map((place) => {
@@ -53,5 +53,5 @@ export function rankPlaces(events: RaveEvent[], n: number): { place: Place; coun
 }
 
 /** The shortlist the home page shows instead of dumping all 90 places in columns.
- *  The exhaustive list has not moved — it lives on /villes, filterable, one click away. */
+ *  The exhaustive list has not moved, it lives on /villes, filterable, one click away. */
 export const topPlaces = (n: number, today?: string) => rankPlaces(upcoming(EVENTS, today), n);

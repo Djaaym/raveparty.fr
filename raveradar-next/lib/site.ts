@@ -3,7 +3,7 @@
  * schema.org `image` on the site, so it has to be the host that actually serves them.
  *
  * `www` on purpose: Vercel treats it as the primary domain and 308-redirects the apex
- * to it. Declaring the apex here pointed all ~8 100 canonicals at a URL that redirects —
+ * to it. Declaring the apex here pointed all ~8 100 canonicals at a URL that redirects,
  * harmless in the sense that crawlers follow it, but every canonical then disagreed with
  * the address the page was really served from. If the apex ever becomes the primary
  * domain in Vercel, flip this line back rather than leaving the two out of step.
@@ -17,7 +17,7 @@ export const SITE_URL = "https://www.raveparty.fr";
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-M1CERK8ERF";
 
 /**
- * Impact.com Universal Tracking Tag — programme d'affiliation Ticketmaster.
+ * Impact.com Universal Tracking Tag, programme d'affiliation Ticketmaster.
  * L'identifiant de compte fait partie de l'URL du tag (utt.impactcdn.com/{id}.js).
  * Vide = affiliation désactivée. Le tag doit rester présent dans le HTML de la
  * page d'accueil : c'est lui qu'Impact vient vérifier depuis « Ajouter un site Web ».

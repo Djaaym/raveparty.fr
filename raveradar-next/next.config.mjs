@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   /* Plus de `images.remotePatterns` : il n'existe plus une seule image distante.
      Les affiches IA ont quitté le CDN du générateur pour public/posters/, et le
-     site n'utilise pas <Image> — que des <img> avec width/height déclarés. */
+     site n'utilise pas <Image>, que des <img> avec width/height déclarés. */
   /**
    * Cache long pour les fichiers qu'on sert nous-mêmes.
    *
@@ -12,13 +12,13 @@ const nextConfig = {
    * pour s'entendre répondre 304. Sur une grille de 24 cartes, c'est 24 requêtes
    * conditionnelles avant la première image peinte.
    *
-   * On peut passer à `immutable` **parce que les noms portent le hash du contenu** —
+   * On peut passer à `immutable` **parce que les noms portent le hash du contenu**,
    * `ai-tomorrowland-932547b7da.jpg`, `rave-707891b510-1280.webp` : un fichier
    * modifié change de nom, donc d'URL, et l'ancien cache ne peut pas mentir.
    *
    * Les portraits d'artistes, eux, sont nommés d'après l'artiste (`adam-beyer.webp`) :
    * remplacer une photo garde l'URL, `immutable` la figerait un an chez le lecteur.
-   * D'où une journée ferme, puis une semaine de `stale-while-revalidate` — le visiteur
+   * D'où une journée ferme, puis une semaine de `stale-while-revalidate`, le visiteur
    * voit la version en cache tout de suite et la mise à jour arrive en arrière-plan.
    */
   async headers() {
@@ -41,11 +41,11 @@ const nextConfig = {
    * des festivals électro : `/genres/free-party` n'est donc plus généré par
    * `generateStaticParams()` et retomberait en 404. Même règle que pour les slugs
    * d'événements renommés (`lib/renamed.ts`) : une URL indexée ne redevient jamais un
-   * 404. Ici et pas dans le middleware — une redirection statique n'a pas besoin du
+   * 404. Ici et pas dans le middleware, une redirection statique n'a pas besoin du
    * runtime edge, et elle est appliquée avant tout routage.
    *
    * `permanent: true` rend un **308** (comme les redirections `/show/`), avec un vrai
-   * en-tête `Location` — vérifié au `curl -D -`, le seul contrôle qui vaille ici.
+   * en-tête `Location`, vérifié au `curl -D -`, le seul contrôle qui vaille ici.
    */
   async redirects() {
     return [
@@ -79,9 +79,9 @@ const nextConfig = {
       /* Pages « lieux » nées d'un libellé, pas d'une salle.
        *
        * `lib/venues.ts` n'excluait du répertoire des salles que les programmes portant
-       * un guide, si bien qu'un festival éclaté dans toute une ville — « Divers lieux,
-       * Rennes », « Salles multiples, Skopje », « Plusieurs lieux du centre de La Haye »
-       * — ouvrait une fiche de salle nommée d'après sa propre périphrase. Le garde-fou
+       * un guide, si bien qu'un festival éclaté dans toute une ville, « Divers lieux,
+       * Rennes », « Salles multiples, Skopje », « Plusieurs lieux du centre de La Haye »,
+       * ouvrait une fiche de salle nommée d'après sa propre périphrase. Le garde-fou
        * est désormais sur la forme du libellé (`isMultiVenueLabel`), et ces dix-sept
        * URLs disparaissent : chacune renvoie donc vers le festival qu'elle décrivait,
        * jamais vers un 404. Celle qui recouvrait trois festivals distincts n'a pas de

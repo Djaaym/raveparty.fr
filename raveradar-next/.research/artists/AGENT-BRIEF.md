@@ -1,7 +1,7 @@
-# Brief agent — fiches artistes (genres + bio)
+# Brief agent - fiches artistes (genres + bio)
 
 Tu documentes des **personnes réelles**. La règle du projet s'applique ici plus qu'ailleurs :
-**rien d'inventé, rien de mémoire — tout fait publié doit venir d'une page que tu as ouverte**
+**rien d'inventé, rien de mémoire, tout fait publié doit venir d'une page que tu as ouverte**
 et dont tu cites l'URL. Un artiste que tu n'arrives pas à vérifier : tu ne l'écris pas, tu le
 listes dans `skipped` avec la raison. Une fiche absente est normale ; une fiche fausse ne l'est pas.
 
@@ -9,7 +9,7 @@ listes dans `skipped` avec la raison. Une fiche absente est normale ; une fiche 
 
 Deux fichiers, dans `.research/artists/` :
 
-1. `genres-lot{N}.json` — **l'objectif principal**, un objet par artiste :
+1. `genres-lot{N}.json`, **l'objectif principal**, un objet par artiste :
 
 ```json
 {
@@ -36,7 +36,7 @@ Deux fichiers, dans `.research/artists/` :
   `Ambient`, `Downtempo`, `Disco`, `Big Room`, `Future House`, `Melodic House`, `Organic House`…
   La liste n'est pas fermée, mais reste sur des noms de styles **employés par la source**.
 
-2. `bios-lot{N}.json` — la bio quand tu as de quoi l'écrire (2 à 4 phrases) :
+2. `bios-lot{N}.json`, la bio quand tu as de quoi l'écrire (2 à 4 phrases) :
 
 ```json
 {
@@ -51,10 +51,10 @@ Deux fichiers, dans `.research/artists/` :
 
 Faits seulement : d'où l'artiste vient, ce qu'il joue, ce pour quoi il est connu (label, résidence,
 disque marquant). **Pas de superlatif** : « l'un des plus grands », « figure incontournable »,
-« légende vivante » sont rejetés automatiquement par l'ingest — ils sont vrais de personne.
+« légende vivante » sont rejetés automatiquement par l'ingest, ils sont vrais de personne.
 Si une info manque, on l'omet ; on ne comble pas.
 
-3. Si tu trouves une photo **sur Wikimedia Commons** (et nulle part ailleurs — une photo de presse
+3. Si tu trouves une photo **sur Wikimedia Commons** (et nulle part ailleurs, une photo de presse
    ou d'Instagram est un travail protégé), ajoute dans l'entrée bio :
    `"commons": "https://commons.wikimedia.org/wiki/File:…"`. Ne télécharge rien, c'est `avatars.py`
    qui s'en charge.
@@ -63,15 +63,15 @@ Si une info manque, on l'omet ; on ne comble pas.
 
 Ce qui répond depuis ce conteneur, par ordre d'utilité :
 
-- **MusicBrainz** — `musicbrainz.org/ws/2/artist/?query=artist:"Nom"&fmt=json`, puis
+- **MusicBrainz**, `musicbrainz.org/ws/2/artist/?query=artist:"Nom"&fmt=json`, puis
   `/ws/2/artist/{mbid}?inc=url-rels+tags+genres&fmt=json` : pays, ville, année de début,
   désambiguïsation, tags, et les liens vers Discogs / Bandcamp / site officiel. C'est ce qui
   tranche le plus d'homonymes. **~1,05 s entre deux appels**, sinon 503.
-- **Discogs API** — `api.discogs.com/database/search?artist=…&type=release&per_page=50` :
+- **Discogs API**, `api.discogs.com/database/search?artist=…&type=release&per_page=50` :
   les champs `style` agrégés sur la discographie sont la meilleure source de **sous-genre**.
   Attention, la recherche est approximative : vérifie que le champ `genre` dit bien
   « Electronic » avant d'en tirer quoi que ce soit.
-- **Wikipédia / Wikidata** — riches mais **fortement limités** : au-delà d'une requête toutes
+- **Wikipédia / Wikidata**, riches mais **fortement limités** : au-delà d'une requête toutes
   les 2 s, l'API renvoie une réponse **vide** (pas une erreur), et un `json.loads` échoue en
   silence. Réessaie, sinon tu concluras à tort qu'un artiste n'a pas de page.
 - Les **sites officiels d'artistes et de labels**, les **pages artiste des festivals**

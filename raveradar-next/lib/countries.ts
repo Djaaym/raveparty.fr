@@ -9,7 +9,7 @@ export interface Country {
 }
 
 /* The country index is derived from the calendar, so a country page only exists
-   once we have something to put on it — no empty shells in the sitemap. */
+   once we have something to put on it, no empty shells in the sitemap. */
 function build(): Country[] {
   const m = new Map<string, Country>();
   for (const e of EVENTS) {

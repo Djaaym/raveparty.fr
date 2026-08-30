@@ -6,11 +6,11 @@
 
 Le garde-fou principal est la clé : `key` doit exister *à l'identique* dans
 lib/data.ts (un titre d'événement, un `venue`, ou un nom de line-up). Une clé
-approximative — accent oublié, « Sonar » pour « Sónar » — est rejetée avec son
+approximative (accent oublié, « Sonar » pour « Sónar ») est rejetée avec son
 motif au lieu de créer une entrée que personne n'ira jamais chercher.
 
 Le second garde-fou est `verified` : pas de preuve, pas d'entrée. C'est la même
-règle que `sources` dans lib/bios.ts, pour la même raison — un lien social faux
+règle que `sources` dans lib/bios.ts, pour la même raison, un lien social faux
 envoie le lecteur chez quelqu'un d'autre, et nous fait mentir en public.
 """
 import argparse, json, re, subprocess, sys, unicodedata
@@ -40,7 +40,7 @@ MAX_POSTS = 6
 
 
 def slugify(s: str) -> str:
-    """Doit rester le miroir de `slugify()` dans lib/data.ts — c'est la clé des maps."""
+    """Doit rester le miroir de `slugify()` dans lib/data.ts, c'est la clé des maps."""
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-zA-Z0-9]+", "-", s).strip("-").lower()
     return re.sub(r"-{2,}", "-", s)
@@ -87,7 +87,7 @@ def norm_value(net: str, raw: str, reject) -> str | None:
     if v.startswith("http://"):
         # Les plateformes servent toutes en https et redirigent : l'agent a simplement
         # recopié un vieux lien. Le site officiel d'un festival, lui, peut réellement
-        # n'exister qu'en http — on ne devine pas à sa place, on écarte le champ.
+        # n'exister qu'en http, on ne devine pas à sa place, on écarte le champ.
         if net == "site":
             return reject(f"site en http, non corrigeable sans vérification : {v}")
         v = "https://" + v[len("http://"):]
@@ -151,7 +151,7 @@ def merge(rows, known):
     stats, problems = Counter(), []
     for r in rows:
         if r["key"] not in known[r["kind"]]:
-            problems.append(f"{r['src']} [{r['key']}]: absent de data.ts ({r['kind']}) — clé ignorée")
+            problems.append(f"{r['src']} [{r['key']}]: absent de data.ts ({r['kind']}), clé ignorée")
             stats["clé inconnue"] += 1
             continue
         slug = slugify(r["key"])
@@ -163,13 +163,13 @@ def merge(rows, known):
             stats[r["kind"]] += 1
             continue
         # Doublon : on complète les trous, on ne remplace jamais une valeur déjà posée,
-        # et on signale les désaccords — deux agents qui donnent deux Instagram
+        # et on signale les désaccords, deux agents qui donnent deux Instagram
         # différents pour la même entité veulent dire qu'au moins un se trompe.
         for net, val in r["entry"].items():
             if net not in cur:
                 cur[net] = val
             elif cur[net] != val and net != "posts":
-                problems.append(f"{r['src']} [{r['key']}]: {net} en conflit ({cur[net]} vs {val}) — on garde le premier")
+                problems.append(f"{r['src']} [{r['key']}]: {net} en conflit ({cur[net]} vs {val}), on garde le premier")
                 stats["conflit"] += 1
     return out, stats, problems
 
@@ -204,7 +204,7 @@ def post_renders(code: str) -> bool:
 
     Instagram répond 200 quel que soit le code : une page inexistante renvoie la même
     coquille que la bonne, en plus court. Le seul signal exploitable est la présence d'une
-    URL média `scontent` — l'image du post.
+    URL média `scontent`, l'image du post.
     """
     try:
         out = subprocess.run(
@@ -222,7 +222,7 @@ def check_posts(maps) -> list[str]:
 
     La tentation serait de retirer d'office les posts qui ne répondent pas. Ce serait un
     piège : Instagram sert son mur de connexion dès qu'un serveur enchaîne les requêtes,
-    et cette page-là répond 200, pèse 600 Ko et ne contient aucun média — exactement la
+    et cette page-là répond 200, pèse 600 Ko et ne contient aucun média, exactement la
     signature d'un post mort. Un validateur qui supprime effacerait donc des données
     parfaitement bonnes le jour où Instagram décide de nous limiter, sans que personne
     ne s'en aperçoive. On rapporte, un humain tranche. Quand *tous* les posts échouent,
@@ -239,7 +239,7 @@ def check_posts(maps) -> list[str]:
                     bad.append(f"{kind}/{slug} : post non rendu par le lecteur officiel ({c})")
     if bad and len(bad) == total:
         return [f"aucun des {total} posts n'a été rendu : Instagram sert son mur de "
-                f"connexion, vérification non concluante — rien à conclure sur les données"]
+                f"connexion, vérification non concluante, rien à conclure sur les données"]
     return bad
 
 
