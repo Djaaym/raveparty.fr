@@ -30,7 +30,9 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const events = eventsForArtist(slug);
   const live = events.filter((e) => !isPast(e, today));
   const done = events.filter((e) => isPast(e, today));
-  const related = relatedArtists(artist, 12);
+  /* Le portrait suit l'artiste partout, pas seulement en tête de sa propre fiche :
+     une grille de ronds à initiale ne distingue rien, et on a la photo. */
+  const related = relatedArtists(artist, 12).map((a) => ({ a, photo: artistPhoto(a.slug) }));
   /* Les genres attribués, pas l'union brute de `Artist.genres` : cette page affichait
      tous les styles de toutes les affiches où l'artiste apparaît, ce qui mettait de la
      psytrance sur une fiche de techno industrielle. Les sous-genres viennent d'à côté
@@ -238,10 +240,29 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                 {t("artist.discover")}
               </h2>
               <div className="artist-grid">
-                {related.map((a) => (
+                {related.map(({ a, photo }) => (
                   <Link key={a.slug} href={`${p}/artistes/${a.slug}`} className="artist-tile">
-                    <div className="av">{a.name.trim()[0]}</div>
-                    <div>
+                    {photo ? (
+                      /* alt="" volontaire : le nom est écrit juste à côté, un alt
+                         descriptif le ferait annoncer deux fois. La copie indexable
+                         est celle de la fiche de l'artiste, avec son vrai alt et son
+                         crédit. */
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      <img
+                        className="av av-photo"
+                        src={`/artists/${photo.file}`}
+                        alt=""
+                        width={42}
+                        height={42}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    ) : (
+                      <div className="av" aria-hidden="true">
+                        {a.name.trim()[0]}
+                      </div>
+                    )}
+                    <div className="artist-tile-txt">
                       <b>{a.name}</b>
                       <span>
                         {a.eventIds.length} {t("artist.events")}

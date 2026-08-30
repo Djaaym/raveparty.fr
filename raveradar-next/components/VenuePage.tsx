@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ArtistPill from "./ArtistPill";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL, cardEvent } from "@/lib/data";
@@ -115,9 +116,12 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
                 {/* Vers la fiche artiste, pas vers une page `/show/` : celles-ci ne sont
                     plus que des redirections 301 (cf. `lib/shows.ts`). */}
                 {artists.map((s) => (
-                  <Link key={s.artistSlug} href={`${p}/artistes/${s.artistSlug}`}>
-                    {s.artistName}
-                  </Link>
+                  <ArtistPill
+                    key={s.artistSlug}
+                    href={`${p}/artistes/${s.artistSlug}`}
+                    name={s.artistName}
+                    slug={s.artistSlug}
+                  />
                 ))}
               </div>
             </>

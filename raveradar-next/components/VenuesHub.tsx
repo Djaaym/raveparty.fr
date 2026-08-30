@@ -17,6 +17,7 @@ import { VENUE_SHOTS } from "@/lib/venue-photos";
 import { fmtDate, imageAlt } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { ARTISTS } from "@/lib/artists";
+import ArtistPill from "./ArtistPill";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -223,9 +224,13 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
                           <em>{t("venues.regulars")}</em>
                           <div className="linkfarm">
                             {regulars.map((r) => (
-                              <Link key={r.name} href={`${p}/artistes/${slugify(r.name)}`}>
-                                {r.name} <b>{r.count}</b>
-                              </Link>
+                              <ArtistPill
+                                key={r.name}
+                                href={`${p}/artistes/${slugify(r.name)}`}
+                                name={r.name}
+                                slug={slugify(r.name)}
+                                count={r.count}
+                              />
                             ))}
                           </div>
                         </div>

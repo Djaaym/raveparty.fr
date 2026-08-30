@@ -1010,6 +1010,16 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .linkfarm a b { font-family: var(--f-mono); font-weight: 600; font-size: .74rem; color: var(--grey-3); margin-left: 3px; }
 .linkfarm a:hover b { color: var(--cyan); }
 .linkfarm a.more { border-color: rgba(139,92,255,.45); color: var(--white); background: var(--grad-soft); }
+/* Pilule d'artiste avec portrait (<ArtistPill>). Le rond est tiré vers le bord gauche
+   par une marge négative : la pilule garde son padding de 13 px pour le texte, sans
+   ménager 13 px de vide devant une photo qui n'en a pas besoin. `align-items: center`
+   est posé même sans photo — la ligne de flex étire toutes les pilules à la hauteur de
+   la plus haute, et le texte des voisines resterait sinon collé en haut. */
+.linkfarm a.lf-art { display: inline-flex; align-items: center; }
+.lf-av {
+  width: 22px; height: 22px; border-radius: 50%; object-fit: cover; flex: none;
+  margin: -1px 8px -1px -6px; border: 1px solid var(--line);
+}
 /* Un sous-genre n'a pas de page : rendu en <span>, il porte la même pilule que ses
    voisins mais en bordure pointillée et sans survol, la différence se voit avant le
    clic, ce qui est le seul moment où elle sert. */
