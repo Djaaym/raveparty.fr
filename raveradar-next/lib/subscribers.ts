@@ -104,13 +104,38 @@ export async function subscribe(a: AlertInput): Promise<SubscribeResult> {
   }
 }
 
+/* ---------------------------------------------------------------------------
+   Mail transactionnel
+--------------------------------------------------------------------------- */
+
+/** Une pièce jointe. `content` est le fichier en base64, sans préfixe `data:`. */
+export interface MailAttachment {
+  filename: string;
+  content: string;
+}
+
 /**
- * Plain transactional mail to the site owner, used for organizer submissions, and for
- * the Resend path above. Returns false rather than throwing: no caller's success should
- * hinge on the owner's copy going out.
+ * Plafond d'une pièce jointe, en octets décodés. L'affiche d'un événement pèse quelques
+ * centaines de kilo-octets ; au-delà de trois mégaoctets, l'API du fournisseur refuse le
+ * message entier, et perdre la soumission pour une image serait le mauvais échange.
+ * L'appelant retombe alors sur le nom du fichier.
  */
-export async function notifyOwner(subject: string, text: string): Promise<boolean> {
-  const to = process.env.ALERTS_NOTIFY_TO;
+export const MAX_ATTACHMENT_BYTES = 3 * 1024 * 1024;
+
+/**
+ * Mail transactionnel. Utilisé pour la soumission d'un événement, la validation d'un
+ * compte promoteur, et le chemin Resend des alertes.
+ *
+ * Renvoie false au lieu de lever : aucun appelant ne doit voir sa réussite dépendre de
+ * l'acheminement d'une copie. C'est aussi ce qui permet aux routes de distinguer « pas
+ * de boîte configurée » (501, on ne prétend pas avoir reçu) de « c'est parti ».
+ */
+export async function sendMail(
+  to: string,
+  subject: string,
+  text: string,
+  attachments: MailAttachment[] = [],
+): Promise<boolean> {
   const from = process.env.ALERTS_NOTIFY_FROM;
   if (!to || !from) return false;
 
@@ -119,7 +144,10 @@ export async function notifyOwner(subject: string, text: string): Promise<boolea
       const res = await fetch("https://api.resend.com/emails", {
         method: "POST",
         headers: { authorization: `Bearer ${process.env.RESEND_API_KEY}`, "content-type": "application/json" },
-        body: JSON.stringify({ from, to: [to], subject, text }),
+        body: JSON.stringify({
+          from, to: [to], subject, text,
+          ...(attachments.length ? { attachments: attachments.map((a) => ({ filename: a.filename, content: a.content })) } : {}),
+        }),
       });
       return res.ok;
     }
@@ -127,7 +155,10 @@ export async function notifyOwner(subject: string, text: string): Promise<boolea
       const res = await fetch("https://api.brevo.com/v3/smtp/email", {
         method: "POST",
         headers: { "api-key": process.env.BREVO_API_KEY, "content-type": "application/json" },
-        body: JSON.stringify({ sender: { email: from }, to: [{ email: to }], subject, textContent: text }),
+        body: JSON.stringify({
+          sender: { email: from }, to: [{ email: to }], subject, textContent: text,
+          ...(attachments.length ? { attachment: attachments.map((a) => ({ name: a.filename, content: a.content })) } : {}),
+        }),
       });
       return res.ok;
     }
@@ -136,3 +167,10 @@ export async function notifyOwner(subject: string, text: string): Promise<boolea
   }
   return false;
 }
+
+/** L'adresse qui reçoit les demandes de compte et les dépôts d'événement. */
+export const ownerAddress = (): string => process.env.ALERTS_NOTIFY_TO ?? "";
+
+/** Le mail au propriétaire, cas particulier de `sendMail` avec son destinataire. */
+export const notifyOwner = (subject: string, text: string, attachments: MailAttachment[] = []): Promise<boolean> =>
+  sendMail(ownerAddress(), subject, text, attachments);

@@ -1,5 +1,6 @@
 import type { Hit } from "./track";
 import { dayKey, daysBetween } from "./track";
+import { kvCreds, kvPipeline, type KvCreds, type KvReply } from "./kv";
 
 /**
  * Where hits are kept.
@@ -36,17 +37,11 @@ const MAX_PER_DAY = Math.max(1000, Number(process.env.TRACK_MAX_PER_DAY ?? 200_0
 /** Cap on what a single report may load, so a 90-day range cannot OOM the function. */
 const MAX_READ = Math.max(1000, Number(process.env.TRACK_MAX_READ ?? 300_000));
 
-type Creds = { url: string; token: string };
+type Creds = KvCreds;
 
-function creds(): Creds | null {
-  const pairs: [string | undefined, string | undefined][] = [
-    [process.env.TRACK_KV_REST_API_URL, process.env.TRACK_KV_REST_API_TOKEN],
-    [process.env.KV_REST_API_URL, process.env.KV_REST_API_TOKEN],
-    [process.env.UPSTASH_REDIS_REST_URL, process.env.UPSTASH_REDIS_REST_TOKEN],
-  ];
-  for (const [url, token] of pairs) if (url && token) return { url: url.replace(/\/+$/, ""), token };
-  return null;
-}
+/** Le client REST lui-même vit dans `lib/kv.ts` : les comptes promoteurs parlent le
+ *  même dialecte, et deux copies du même client font deux corrections à faire. */
+const creds = (): Creds | null => kvCreds("TRACK_KV_REST_API");
 
 export type StoreInfo = { name: "redis" | "memory"; persistent: boolean; retentionDays: number };
 
@@ -58,19 +53,9 @@ export function storeInfo(): StoreInfo {
    Redis over REST
 --------------------------------------------------------------------------- */
 
-type PipeReply = { result?: unknown; error?: string };
+type PipeReply = KvReply;
 
-async function pipeline(commands: (string | number)[][], c: Creds): Promise<PipeReply[]> {
-  const res = await fetch(`${c.url}/pipeline`, {
-    method: "POST",
-    headers: { authorization: `Bearer ${c.token}`, "content-type": "application/json" },
-    body: JSON.stringify(commands),
-    cache: "no-store",
-  });
-  if (!res.ok) throw new Error(`redis http ${res.status} ${(await res.text().catch(() => "")).slice(0, 160)}`);
-  const body = (await res.json()) as PipeReply[] | PipeReply;
-  return Array.isArray(body) ? body : [body];
-}
+const pipeline = (commands: (string | number)[][], c: Creds) => kvPipeline(commands, c);
 
 /* ---------------------------------------------------------------------------
    Memory fallback
