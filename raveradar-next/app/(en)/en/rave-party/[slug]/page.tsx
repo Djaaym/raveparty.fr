@@ -16,7 +16,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     };
   return {
     alternates: alternates(`/rave-party/${params.slug}`, "en"),
-    title: `Rave party ${place.label}, festivals & techno nights | RaveRadar`,
+    title: `Rave party ${place.label} - festivals & techno nights | RaveRadar`,
     description: `Every electronic festival and techno night in and around ${place.label}. Dates, line-ups, tickets. Set an alert so you never miss out.`,
   };
 }

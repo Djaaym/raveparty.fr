@@ -18,7 +18,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const prof = genreProfile(g);
   return {
     alternates: alternates(`/genres/${params.slug}`, "en"),
-    title: `${g}, events & parties across Europe | RaveRadar`,
+    title: `${g} - events & parties across Europe | RaveRadar`,
     description: prof
       ? `${pickL(prof.hook, "en")} ${prof.bpm} BPM, ${pickL(prof.origin, "en")}. Every upcoming ${g} date in Europe.`
       : `${genreDescL(g, "en")}. Discover the best ${g} events in Europe: festivals, clubs and warehouses.`,

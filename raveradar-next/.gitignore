@@ -7,3 +7,7 @@
 next-env.d.ts
 .env*.local
 .research/artists/yunet.onnx
+
+# Caches Python des scripts de .research/ — jamais versionnés.
+__pycache__/
+*.pyc

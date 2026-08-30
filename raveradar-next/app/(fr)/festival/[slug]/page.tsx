@@ -31,7 +31,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (place)
     return {
       alternates: alternates(`/festival/${params.slug}`, "fr"),
-      title: `Festival ${place.label}, line-ups, dates & billetterie | RaveRadar`,
+      title: `Festival ${place.label} - line-ups, dates & billetterie | RaveRadar`,
       description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
     };
   return {

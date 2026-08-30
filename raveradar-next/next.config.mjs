@@ -64,6 +64,15 @@ const nextConfig = {
       { source: "/en/lieux/stra-e-des-17-juni", destination: "/en/lieux/strasse-des-17-juni", permanent: true },
       { source: "/lieux/s-nder-hoved-refshale-en", destination: "/lieux/sonder-hoved-refshaleoen", permanent: true },
       { source: "/en/lieux/s-nder-hoved-refshale-en", destination: "/en/lieux/sonder-hoved-refshaleoen", permanent: true },
+      /* Positive Education a changé de salle entre deux éditions : le catalogue portait
+         encore le Parc Expo de 2024, les trois sources d'août 2026 (TL7, 42info, agenda
+         de Loire Tourisme) donnent la Cité du design les 6-7 novembre. Renommer un
+         `venue` tue son slug — `/lieux/parc-expo-le-clapier` était générée et indexée —
+         et une URL gagnée ne retombe jamais en 404. Elle pointe sur le festival qu'elle
+         décrivait plutôt que sur la nouvelle salle : ce n'est pas la même adresse, et
+         c'est le festival que le lecteur cherchait. */
+      { source: "/lieux/parc-expo-le-clapier", destination: "/festival/positive-education-festival", permanent: true },
+      { source: "/en/lieux/parc-expo-le-clapier", destination: "/en/festival/positive-education-festival", permanent: true },
       { source: "/genres/free-party", destination: "/genres", permanent: true },
       { source: "/en/genres/free-party", destination: "/en/genres", permanent: true },
 

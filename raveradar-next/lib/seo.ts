@@ -24,6 +24,27 @@ export function alternates(path: string, lang: Lang): Metadata["alternates"] {
 }
 
 /** Title + description + canonical/hreflang + Open Graph in one call. */
+/**
+ * Le titre tel qu'il part dans la SERP et l'onglet — tirets normalisés.
+ *
+ * Le cadratin (« RaveRadar — Rave parties… ») est correct en typographie française,
+ * mais c'est un titre de recherche qu'on écrit ici, pas un paragraphe : Google le
+ * tronque à la largeur, pas au caractère, et le cadratin y prend la place de trois
+ * signes pour séparer ce qu'un trait d'union sépare aussi bien. On l'écrit donc `-`
+ * partout, en français comme en anglais.
+ *
+ * Normaliser ici plutôt qu'à chaque appel, c'est la seule version qui tienne : les
+ * titres sont écrits dans une quarantaine de fichiers de route, et la moitié
+ * interpolent du catalogue (`e.title`, `v.name`) où le cadratin est légitime — « BLITZ
+ * Closing Weekend — That's All Folks » est le vrai nom de la soirée, il ne se corrige
+ * pas dans `lib/data.ts` sans casser son slug et sa clé de dédup. Il se corrige au
+ * moment où il devient un titre de page, et nulle part ailleurs.
+ *
+ * Seul le titre est concerné : une description est une phrase, le cadratin y garde son
+ * usage. `scripts/check-titles.mjs` tient la règle côté build.
+ */
+export const seoTitle = (t: string): string => t.replace(/[\u2012-\u2015]/g, "-").replace(/\s{2,}/g, " ").trim();
+
 export function pageMeta(opts: {
   title: string;
   description: string;
@@ -31,7 +52,8 @@ export function pageMeta(opts: {
   lang: Lang;
   image?: string | null;
 }): Metadata {
-  const { title, description, path, lang, image } = opts;
+  const { description, path, lang, image } = opts;
+  const title = seoTitle(opts.title);
   const url = `${SITE_URL}${lang === "en" ? "/en" : ""}${path === "/" ? "" : path}`;
   return {
     title,

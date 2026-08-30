@@ -16,7 +16,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return pageMeta({
     lang: "en",
     path: `/pays/${c.slug}`,
-    title: `Festivals & rave parties in ${label}, ${n} upcoming dates | RaveRadar`,
+    title: `Festivals & rave parties in ${label} - ${n} upcoming dates | RaveRadar`,
     description: `Every electronic music festival, club night and rave in ${label}: ${n} upcoming dates, line-ups, venues and official ticketing.`,
   });
 }
