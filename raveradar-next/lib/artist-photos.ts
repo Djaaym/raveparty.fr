@@ -36,9 +36,33 @@ export interface ArtistPhoto {
   author: string;
   /** Nom court de la licence, p. ex. "CC BY-SA 4.0". */
   license: string;
-  /** Page du fichier sur Commons, pour que le lecteur puisse vérifier les termes. */
+  /**
+   * Page du fichier sur Commons, pour que le lecteur puisse vérifier les termes.
+   * Vide pour une photo déposée à la main sans page publique à montrer (voir
+   * `.research/artists/local/`) : le crédit s'affiche alors sans lien.
+   */
   page: string;
 }
+
+/**
+ * Comment nommer la source sous le portrait.
+ *
+ * Le libellé était **écrit en dur** (« Wikimedia Commons ») aux deux endroits qui
+ * rendent un crédit, ce qui était vrai tant que Commons était la seule route. Ça ne
+ * l'est plus : une photo déposée à la main (le portrait d'Amelie Lens, celui masqué
+ * d'I Hate Models) porterait alors un lien qui annonce une provenance fausse, et un
+ * crédit faux est pire qu'un crédit absent, puisqu'il a l'air vérifié.
+ */
+export const photoSource = (page: string): { label: string; href: string } | null => {
+  const url = (page || "").trim();
+  if (!url) return null;
+  if (url.includes("commons.wikimedia.org")) return { label: "Wikimedia Commons", href: url };
+  try {
+    return { label: new URL(url).hostname.replace(/^www\./, ""), href: url };
+  } catch {
+    return null;
+  }
+};
 
 /* PHOTOS:start, généré par .research/artists/avatars.py, ne pas éditer à la main */
 export const ARTIST_PHOTOS: Record<string, ArtistPhoto> = {
