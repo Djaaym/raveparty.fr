@@ -89,6 +89,48 @@ Garde-fous en place : cinq tentatives de connexion par minute et par adresse IP,
 inscriptions, douze dépôts par compte et par tranche de 24 heures. Tous best-effort et par
 instance de lambda, comme le reste de `lib/ratelimit.ts`.
 
+## La console, pour revenir sur une décision
+
+Les liens du mail suffisent à trancher **au moment où la demande arrive**. Ce qu'ils ne
+permettent pas, c'est de revenir : suspendre un compte qui dérape, supprimer un compte de
+test, retirer un dépôt qui n'aurait pas dû passer. Sans ça, la seule façon de défaire
+serait d'ouvrir Redis à la main.
+
+**`/admin`** est cette porte de sortie. Même statut que `/suivi` : pas de nav, pas de
+lien depuis le site, `noindex`, `Disallow` dans `robots.txt`, et un mot de passe sur ses
+propres routes, pas seulement sur l'affichage.
+
+```
+ADMIN_PASSWORD=une-chaîne-longue-et-unique
+```
+
+**Sans elle, `TRACKING_PASSWORD` fait l'affaire** : il y a une seule personne derrière ces
+deux pages, et lui demander de configurer un second secret pour la même main serait le
+meilleur moyen qu'elle en choisisse un faible. Poser `ADMIN_PASSWORD` sépare les deux
+quand on veut confier l'audience sans confier la suppression de comptes. Le cookie est
+propre à la console (7 jours, contre 30 pour le suivi, cette porte-là supprimant des
+comptes) : même avec le même mot de passe, un cookie `/suivi` n'ouvre pas `/admin`.
+
+Ce qu'on y fait, sur un compte : le passer à `approved`, `pending`, `suspended`,
+`rejected`, ou le supprimer. Sur un dépôt : le valider, le remettre en relecture,
+l'écarter, ou le supprimer.
+
+Deux choses à savoir avant de cliquer :
+
+- **Supprimer un compte supprime ses dépôts avec lui.** En cascade, et pas « le compte
+  seul » : un dépôt orphelin n'a plus de structure derrière lui, donc plus rien à
+  vérifier ni personne à qui répondre, et il resterait dans la file sans que rien ne dise
+  pourquoi. La confirmation annonce le nombre exact, « supprimer ce compte » et
+  « supprimer ce compte et ses 4 dépôts » n'étant pas la même décision.
+- **La console n'envoie aucun mail.** Les liens du mail sont la décision de première main,
+  celle qu'on prend en découvrant la demande, et prévenir est alors le geste attendu. La
+  console sert à reprendre et à faire le ménage : repasser un compte en attente pour
+  vérifier une pièce ne mérite pas un mail, et supprimer un compte de test encore moins.
+
+Un compte `suspended` ou `rejected` ne peut plus se connecter, et le statut est relu à
+chaque requête : la suspension prend effet tout de suite, sans attendre l'expiration
+d'un cookie.
+
 ## Les liens d'un clic, et pourquoi c'est un GET
 
 `/api/promoteur/approve` change un état sur une requête GET, ce qu'on éviterait ailleurs.

@@ -21,7 +21,11 @@ export default function Home({ lang }: { lang: Lang }) {
   const p = langPrefix(lang);
   const today = todayISO();
   const live = upcoming(undefined, today);
-  const trending = featured(8, undefined, today);
+  /* Douze et non huit : la grille n'a plus un nombre de colonnes fixe, elle en met
+     quatre à 1 280 px, six à 1 920 et huit à 2 560. Huit cartes laissaient une rangée
+     orpheline de deux sur un grand écran ; douze se divise par 6, 4, 3, 2 et 1, donc la
+     grille tombe juste à toutes les largeurs qu'on produit. */
+  const trending = featured(12, undefined, today);
   /* Only places with dates on, most-loaded first, see topPlaces() for why 12 and not 90.
      Split in two because a plain count ranking is all Amsterdam, Manchester and Cologne:
      true to the calendar, useless to the French reader this site is built for. */
