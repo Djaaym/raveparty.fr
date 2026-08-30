@@ -78,7 +78,9 @@
    "Julia Bünnagel",
    "k-means",
    "Kaity Fox",
-   "Karen Willems, Nicola Lancerotti, Thomas Olbrechts",
+   "Karen Willems",
+   "Nicola Lancerotti",
+   "Thomas Olbrechts",
    "Klangwart",
    "L. Jacobs",
    "Laszlo Umbreit",
@@ -109,7 +111,8 @@
    "opo",
    "Pat Orburn",
    "Pittori Locali",
-   "Protocol by A Two Dogs Company and Ictus Ensemble",
+   "A Two Dogs Company",
+   "Ictus Ensemble",
    "R&R",
    "Radio Hito",
    "Raisa K",
@@ -327,5 +330,35 @@
   ],
   "source": "https://www.rotterdamrave.nl/events/rotterdam-rave-winter-special-2026",
   "note": "Line-up complet publie par l'organisateur ; page confirmant 12 decembre 2026 au Maassilo."
+ },
+ {
+  "id": 613,
+  "title": "Shelter ADE: Slapfunk",
+  "lineup": [
+   "DJ Perception",
+   "Samuel Deep",
+   "Dungeon Meat",
+   "Helly",
+   "DJ Tjizza",
+   "Larry De Kat",
+   "Garrett David",
+   "LORI"
+  ],
+  "source": "https://www.amsterdam-dance-event.nl/en/program/2026/slpfnk-x-dungeon-funk-shelter/2842943/",
+  "note": "SLPFNK x DUNGEON FUNK au Shelter, vendredi 23/10/2026 23h-08h. Dungeon Funk = Samuel Deep b2b Dungeon Meat ; Helly b2b DJ Tjizza ; Larry De Kat (live) b2b Garrett David (live)."
+ },
+ {
+  "id": 617,
+  "title": "Shelter ADE: Brighter Days x Life and Death",
+  "lineup": [
+   "DJ Tennis",
+   "Kamma & Masalo",
+   "Retromigration",
+   "Sedef Adasi",
+   "Ajuma",
+   "ChewChew"
+  ],
+  "source": "https://www.amsterdam-dance-event.nl/en/program/2026/brighter-days-x-life-and-death/2834611/",
+  "note": "Programme officiel ADE 2026, samedi 24/10 au Shelter (23h30-07h). Ajuma b2b ChewChew."
  }
 ]

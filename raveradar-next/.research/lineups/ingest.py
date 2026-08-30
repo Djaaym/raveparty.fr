@@ -64,18 +64,62 @@ def read_events(src: str) -> dict:
     return out
 
 
-def clean(names, seen_titles) -> list:
-    """Noms d'artistes : espaces normalisés, intitulés de scène retirés, dédupliqués."""
+# Un b2b n'est pas un artiste. `lineup` alimente `buildArtists()` via `slugify(name)` :
+# « Miss K8 b2b Mad Dog » créerait `/artistes/miss-k8-b2b-mad-dog`, une fiche à une date
+# et sans portrait, au lieu de renforcer les deux fiches qui existent déjà. C'est
+# exactement la page satellite que le projet refuse partout ailleurs. On sépare.
+B2B = re.compile(r"\s+(?:b2b|b3b|vs\.?)\s+", re.I)
+
+# Une entrée d'affiche qui énumère trois noms séparés par des virgules est une liste,
+# pas un artiste — « Brandon Lopez, Gerald Cleaver, Pat Thomas » sont trois musiciens.
+# À deux parts seulement on ne coupe pas : le doute existe (un nom de scène peut porter
+# une virgule), et deux noms passent de toute façon sous la longueur qui alerte.
+LIST = re.compile(r"\s*,\s*")
+
+# Ce qui suit annonce une œuvre, pas un co-artiste : « Ambassade pres. Manrira »,
+# « Dave Huismans presents ex_libris LIVE », « Slikback feat. maltdisney ». L'interprète
+# est à gauche — c'est lui qui a une fiche, le titre de la pièce n'en aura jamais.
+CUT_AT = re.compile(r"\s+(?:presents?|pres\.|performs?|plays|feat\.|featuring|invite[sz]?)\s+", re.I)
+
+# Une parenthèse qui contient une espace ou une virgule décrit le format ou la
+# distribution — « (A/V Show) », « (dj set) », « (Michael Thieke, Tom Malmendier) ».
+# Une parenthèse courte et compacte est au contraire la convention de désambiguïsation
+# du catalogue (« Jazzy (CH) », « Michaela (Collide) ») : on la garde.
+PAREN = re.compile(r"\s*\([^)]*[ ,][^)]*\)\s*$")
+
+# Reste après nettoyage : un titre d'œuvre que le nettoyage n'a pas su couper. Il se
+# reconnaît à une **paire** de guillemets, ou à une longueur déraisonnable — surtout pas
+# à l'apostrophe seule : « Ak'chamel » et « D'Angelo » sont des noms d'artistes, et
+# l'apostrophe typographique ’ est le même caractère que le guillemet fermant.
+WORK_TITLE = re.compile(r"[«»“”\"]|‘[^’]*’")
+MAX_LEN = 48
+
+
+def clean(names, tag, errors) -> list:
+    """Noms d'artistes : b2b séparés, œuvres coupées, formats retirés, dédupliqués."""
     out, seen = [], set()
     for raw in names:
-        n = re.sub(r"\s+", " ", str(raw)).strip().strip(",;")
-        if not n or NOT_AN_ARTIST.match(n):
-            continue
-        k = norm(n)
-        if not k or k in seen:
-            continue
-        seen.add(k)
-        out.append(n)
+        n0 = re.sub(r"\s+", " ", str(raw)).strip().strip(",;")
+        n0 = PAREN.sub("", n0)
+        n0 = CUT_AT.split(n0)[0].strip()
+        parts = B2B.split(n0)
+        if len(parts) == 1 and len(LIST.split(n0)) >= 3:
+            parts = LIST.split(n0)
+        for n in (x.strip() for x in parts):
+            n = PAREN.sub("", n).strip().strip(",;")
+            if not n or NOT_AN_ARTIST.match(n):
+                continue
+            if WORK_TITLE.search(n) or len(n) > MAX_LEN:
+                # Écarté, pas refusé : un lot de 147 noms ne se jette pas pour un titre
+                # d'œuvre. Mais jamais en silence — c'est une ligne d'affiche perdue,
+                # l'opérateur doit pouvoir la rattraper à la main.
+                errors.append(f"{tag}: « {n} » écarté, ressemble à un titre d'œuvre plutôt qu'à un artiste")
+                continue
+            k = norm(n)
+            if not k or k in seen:
+                continue
+            seen.add(k)
+            out.append(n)
     return out
 
 
@@ -118,7 +162,7 @@ def main() -> int:
             if not src_url.startswith(("http://", "https://")):
                 errors.append(f"{tag}: `source` manquante ou non http(s)")
                 continue
-            names = clean(r.get("lineup", []), title)
+            names = clean(r.get("lineup", []), tag, errors)
             if not names:
                 errors.append(f"{tag}: line-up vide après nettoyage — rien à greffer")
                 continue
