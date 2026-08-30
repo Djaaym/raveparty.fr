@@ -8,7 +8,7 @@ import { getDict } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   alternates: alternates("/rave-party/autour-de-moi", "en"),
-  title: "Raves near me — electronic events close to you | RaveRadar",
+  title: "Raves near me - electronic events close to you | RaveRadar",
   description:
     "Find the electronic festivals and rave parties closest to your location. Geolocation, sorted by distance.",
 };

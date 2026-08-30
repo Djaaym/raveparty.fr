@@ -9,7 +9,7 @@ export function fmtDate(iso: string, lang: Lang): string {
   return d.toLocaleDateString(DICT[lang].locale, { day: "2-digit", month: "short", year: "numeric" }).toUpperCase();
 }
 
-/** "Mercredi 21 octobre" / "Wednesday 21 October" — used by the day-by-day guides. */
+/** "Mercredi 21 octobre" / "Wednesday 21 October", used by the day-by-day guides. */
 export function fmtDayLong(iso: string, lang: Lang): string {
   const d = new Date(iso + "T00:00:00");
   const s = d.toLocaleDateString(DICT[lang].locale, { weekday: "long", day: "numeric", month: "long" });
@@ -18,7 +18,7 @@ export function fmtDayLong(iso: string, lang: Lang): string {
 
 /**
  * Alt text for an event poster. Every visual on the site used to be a CSS background,
- * so none of them carried one — no accessible name, and nothing for image search to
+ * so none of them carried one, no accessible name, and nothing for image search to
  * index. Wording stays honest about the source: `PHOTOS` are real photographs of the
  * event or the room, everything else is an AI-generated key visual and says so.
  *
@@ -38,19 +38,19 @@ export function imageAlt(e: RaveEvent, lang: Lang, isPhoto: boolean): string {
   });
   if (isPhoto) {
     return lang === "fr"
-      ? `Photo de ${e.title} — ${where}, ${when}`
-      : `Photo of ${e.title} — ${where}, ${when}`;
+      ? `Photo de ${e.title} (${where}, ${when}`
+      : `Photo of ${e.title}) ${where}, ${when}`;
   }
   return lang === "fr"
-    ? `Visuel d'illustration de ${e.title} — ${where}, ${when}`
-    : `Illustrative key visual for ${e.title} — ${where}, ${when}`;
+    ? `Visuel d'illustration de ${e.title} (${where}, ${when}`
+    : `Illustrative key visual for ${e.title}) ${where}, ${when}`;
 }
 
 export function priceLabel(e: RaveEvent, lang: Lang): string {
   if (e.priceNote === "unknown") return DICT[lang]["dyn.priceunknown"];
   if (e.price === 0) return DICT[lang]["dyn.free"];
   // e.currency is a symbol ("€"/"£"/"$"), not an ISO code, so Intl's style:"currency"
-  // (which requires ISO codes like "EUR") can't place it for us — format the number in
+  // (which requires ISO codes like "EUR") can't place it for us, format the number in
   // decimal style and place the symbol by hand per locale: "41,80 €" in fr, "€41.80" in en.
   const hasCents = e.price % 1 !== 0;
   const amount = new Intl.NumberFormat(DICT[lang].locale, {

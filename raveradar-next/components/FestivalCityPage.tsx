@@ -58,7 +58,7 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
           ],
           [
             `Y a-t-il des festivals gratuits à ${place.label} ?`,
-            `Oui, certaines parades et scènes ouvertes sont à entrée libre — elles sont signalées « Gratuit » sur leur fiche. Pour les soirées club et les autres dates de la zone, voir la page Rave party ${place.label}.`,
+            `Oui, certaines parades et scènes ouvertes sont à entrée libre, elles sont signalées « Gratuit » sur leur fiche. Pour les soirées club et les autres dates de la zone, voir la page Rave party ${place.label}.`,
           ],
         ]
       : [
@@ -81,7 +81,7 @@ export default function FestivalCityPage({ lang, slug }: { lang: Lang; slug: str
           ],
           [
             `Are there free festivals in ${place.label}?`,
-            `Yes — some parades and open stages have free entry and are flagged "Free" on their listing. For club nights and the other dates in the area, see the Rave party ${place.label} page.`,
+            `Yes, some parades and open stages have free entry and are flagged "Free" on their listing. For club nights and the other dates in the area, see the Rave party ${place.label} page.`,
           ],
         ];
 

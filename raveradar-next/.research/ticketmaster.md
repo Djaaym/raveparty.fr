@@ -1,9 +1,9 @@
-# Relevé Ticketmaster — événements électro
+# Relevé Ticketmaster - événements électro
 
 Établi par les agents de recherche du 2026-08-08. Deux listes : ce qui est **déjà**
 au catalogue avec une billetterie Ticketmaster / Live Nation (donc immédiatement
 monétisable via le tag Impact déjà en place, cf. `components/ImpactAffiliate.tsx`),
-puis le relevé brut — tout ce qui a été vu sur Ticketmaster, y compris les
+puis le relevé brut, tout ce qui a été vu sur Ticketmaster, y compris les
 événements qui ne sont pas entrés au catalogue.
 
 **Ce que la collecte a appris.** Ticketmaster n'est pas le guichet dominant de la
@@ -16,7 +16,7 @@ DACH le marché est tenu par CTS Eventim. Le gisement réel est concentré : Man
 **Limite connue** : `ticketmaster.co.uk`, `.de`, `.pl`, `.es`, `.it`, `.dk`, `.se`,
 `.no` répondent tous 403 depuis le conteneur. Tout ce qui suit vient de pages
 indexées et de `guides.ticketmaster.co.uk`. Pour un relevé exhaustif il faut passer
-par l'**API Discovery de Ticketmaster** — c'est de loin la voie la plus rentable si
+par l'**API Discovery de Ticketmaster**, c'est de loin la voie la plus rentable si
 le programme d'affiliation se monte pour de bon.
 
 ## Déjà au catalogue (10)
@@ -32,16 +32,16 @@ le programme d'affiliation se monte pour de bon.
 | 2026-09-26 | Lee Burridge à La Cabane | Toulouse | https://www.ticketmaster.fr/ |
 | 2026-10-09 | Nantes Rave Techno XXL w/ Novah | Nantes | https://www.ticketmaster.fr/fr/manifestation/nantes-rave-techno-xxl-w-novah-billet/idmanif/662145 |
 | 2026-10-16 | Pandemic w/ Vortek's | Nantes | https://www.ticketmaster.fr/fr/manifestation/pandemic-w-vortek-and-more-billet/idmanif/666180 |
-| 2027-03-20 | TMF — Trier Music Festival | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039 |
+| 2027-03-20 | TMF, Trier Music Festival | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039 |
 
 ## Relevé brut (61)
 
 | Date | Événement | Ville | URL |
 |---|---|---|---|
-| 2026-03-14 | TMF — Trier Music Festival 2026 | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2026-tickets/1570392420 |
+| 2026-03-14 | TMF, Trier Music Festival 2026 | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2026-tickets/1570392420 |
 | 2026-05-29 | Target One Festival | Wrocław | https://www.ticketmaster.pl/artist/target-one-festival-bilety/1444103 |
 | 2026-07-18 | Habitat Festival | Hamburg | https://www.ticketmaster.de/artist/habitat-festival-tickets/970219 |
-| 2026-07-24 | Most Wanted Festival — Electronic Dance Day | Kaltenkirchen | https://www.ticketmaster.de/artist/most-wanted-festival-tickets/1382914 |
+| 2026-07-24 | Most Wanted Festival, Electronic Dance Day | Kaltenkirchen | https://www.ticketmaster.de/artist/most-wanted-festival-tickets/1382914 |
 | 2026-07-30 | O Days Festival | Copenhagen | https://www.ticketmaster.dk/artist/o-days-tickets/1311003 |
 | 2026-08-08 | MAGMA Festival | Berlin | https://www.ticketmaster.de/artist/magma-festival-tickets/1315024 |
 | 2026-08-14 | Flow Festival | Helsinki | https://www.ticketmaster.fi/artist/flow-festival-tickets/938344 |
@@ -89,13 +89,13 @@ le programme d'affiliation se monte pour de bon.
 | 2026-12-11 | The Warehouse Project presents Tiësto | Manchester | https://www.ticketmaster.co.uk/the-warehouse-project-tickets/artist/1752795 |
 | 2026-12-12 | Pete Tong presents Ibiza Classics | United Kingdom (tour) | https://www.ticketmaster.co.uk/pete-tong-presents-ibiza-classics-tickets/artist/2221319 |
 | 2026-12-31 | New Year's Eve at The Warehouse Project | Manchester | https://www.ticketmaster.co.uk/the-warehouse-project-tickets/artist/1752795 |
-| 2027-03-20 | TMF — Trier Music Festival 2027 | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039 |
+| 2027-03-20 | TMF, Trier Music Festival 2027 | Trier | https://www.ticketmaster.de/event/tmf-trier-music-festival-2027-tickets/1792096039 |
 | 2027-03-25 | Acid Arab à La BAM | Metz | https://www.ticketmaster.fr/ |
 | 2027-04-29 | Meute | United Kingdom (tour) | https://www.ticketmaster.co.uk/meute-tickets/artist/5231963 |
 | 2027-07-10 | Parklife | Manchester | https://www.ticketmaster.co.uk/pepsi-max-presents-parklife-2027-tickets/artist/1061343 |
-| — | Catalogue Dance & Elektro Ticketmaster.de (index) | — | https://www.ticketmaster.de/konzerte/dance-elektro/201/events |
-| — | Catalogue Dance/Electronic Ticketmaster.pl (index) | — | https://www.ticketmaster.pl/muzyka/dance-electronic/201/events |
-| — | Grelle Forelle (salle) — programme Ticketmaster.at | Vienna | https://www.ticketmaster.at/venue/grelle-forelle-wien-tickets/wingrellef/101 |
-| — | LAVA Festival | Berlin | https://www.ticketmaster.de/artist/lava-festival-tickets/1315034 |
-| — | Spektrum Festival | Hamburg | https://www.ticketmaster.de/artist/spektrum-festival-tickets/895133 |
-| — | TMF — Trier Music Festival (page artiste, toutes éditions) | Trier | https://www.ticketmaster.de/artist/tmf-trier-music-festival-tickets/1244593 |
+|, | Catalogue Dance & Elektro Ticketmaster.de (index) |, | https://www.ticketmaster.de/konzerte/dance-elektro/201/events |
+|, | Catalogue Dance/Electronic Ticketmaster.pl (index) |, | https://www.ticketmaster.pl/muzyka/dance-electronic/201/events |
+|, | Grelle Forelle (salle), programme Ticketmaster.at | Vienna | https://www.ticketmaster.at/venue/grelle-forelle-wien-tickets/wingrellef/101 |
+|, | LAVA Festival | Berlin | https://www.ticketmaster.de/artist/lava-festival-tickets/1315034 |
+|, | Spektrum Festival | Hamburg | https://www.ticketmaster.de/artist/spektrum-festival-tickets/895133 |
+|, | TMF, Trier Music Festival (page artiste, toutes éditions) | Trier | https://www.ticketmaster.de/artist/tmf-trier-music-festival-tickets/1244593 |

@@ -9,13 +9,13 @@ import { useEffect } from "react";
  * Sends five kinds of hit to `/api/track`: a page was shown, a page was left (with how
  * long it was open, how long it was actually looked at, how far it was scrolled), a link
  * out of the site was clicked, a link inside the site was clicked, and a declared goal
- * fired. Between them they answer the four questions the dashboard exists for — who
+ * fired. Between them they answer the four questions the dashboard exists for, who
  * came, from where, what they did, and where they went.
  *
  * No cookie is set here and nothing leaves the browser except the fields listed above.
  * Two ids live in localStorage: a visitor id (random, meaningless off this domain) and a
  * session id that rotates after 30 minutes of inactivity. `localStorage.rr_optout = "1"`
- * turns the whole thing off for that browser — the dashboard sets it on itself so the
+ * turns the whole thing off for that browser, the dashboard sets it on itself so the
  * owner's own visits don't end up in their own numbers.
  *
  * Deliberately small: no dependency, no dynamic import, and every listener is passive or
@@ -68,7 +68,7 @@ function optedOut(): boolean {
   return false;
 }
 
-/** Visitor id, and whether we had to invent it — that's what "nouveau visiteur" means. */
+/** Visitor id, and whether we had to invent it, that's what "nouveau visiteur" means. */
 function visitor(): { vid: string; isNew: boolean } {
   const s = ls();
   if (!s) return { vid: "anon0000", isNew: false };
@@ -79,7 +79,7 @@ function visitor(): { vid: string; isNew: boolean } {
   return { vid, isNew: true };
 }
 
-/** Session id, rotated on idle. `first` is true exactly once per session — that is the
+/** Session id, rotated on idle. `first` is true exactly once per session, that is the
  *  hit allowed to carry the referrer and the UTM tags. */
 function session(): { sid: string; first: boolean } {
   const s = ls();
@@ -181,7 +181,7 @@ function openPage(p: string) {
   const { first } = session();
   const hit: Hit = { k: "view", p, sw: window.innerWidth, bl: navigator.language };
   if (first) {
-    // Only the session's opening hit carries acquisition — repeating it on every page
+    // Only the session's opening hit carries acquisition, repeating it on every page
     // would make the last page of a visit look like a fresh arrival from Google.
     if (document.referrer) hit.ref = document.referrer;
     const utm = utmFromLocation();
@@ -194,7 +194,7 @@ function openPage(p: string) {
 
 /**
  * Reports the time accumulated since the last report. Called on hide, on unload and on
- * every route change, so a visit that ends by backgrounding the tab is still measured —
+ * every route change, so a visit that ends by backgrounding the tab is still measured,
  * the server sums the deltas back into one figure per page.
  */
 function reportPage(urgent: boolean) {
@@ -234,7 +234,7 @@ function zoneOf(el: Element): string | undefined {
  * A readable name for the thing that was clicked.
  *
  * Cards on this site are one big anchor wrapping the date, the title, the venue and the
- * price, so `textContent` yields "06 AOÛT 2026 → 09 AOÛT 2026UNTOLD📍 Cluj…" — technically
+ * price, so `textContent` yields "06 AOÛT 2026 → 09 AOÛT 2026UNTOLD📍 Cluj…", technically
  * the link text, useless as a label. Prefer, in order: an explicit `aria-label`, the
  * heading inside the link (that *is* the anchor text as far as a reader is concerned),
  * then the flattened text, then an image's alt.
@@ -264,7 +264,7 @@ function onClick(e: Event) {
   const raw = a.getAttribute("href") ?? "";
   if (!raw || raw.startsWith("#")) return;
 
-  // mailto:, tel: and the like never resolve to a host — they are still departures.
+  // mailto:, tel: and the like never resolve to a host, they are still departures.
   if (/^(mailto|tel|sms):/i.test(raw)) {
     send({ k: "out", p: location.pathname, href: raw.slice(0, 200), txt: labelOf(a), zone: zoneOf(a) }, true);
     return;
@@ -320,7 +320,7 @@ export default function Tracker() {
     window.addEventListener("pagehide", onHide);
     window.addEventListener("scroll", onScroll, { passive: true });
     document.addEventListener("click", onClick, true);
-    // Middle-click and ctrl-click open a link without ever unloading this page — they
+    // Middle-click and ctrl-click open a link without ever unloading this page, they
     // are still clicks, and on a ticket link they are the interesting ones.
     document.addEventListener("auxclick", onClick, true);
   }, []);

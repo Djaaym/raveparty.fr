@@ -1,7 +1,7 @@
 import type { Lang, RaveEvent } from "./types";
 
 /* ---------------------------------------------------------------------------
-   Festival guides — long-form editorial for the handful of events that deserve
+   Festival guides, long-form editorial for the handful of events that deserve
    more than a description and a line-up.
 
    An `EventDetail` page is built for a single date at a single venue. That model
@@ -14,7 +14,7 @@ import type { Lang, RaveEvent } from "./types";
    gets its own guide instead of silently inheriting last year's programme.
 --------------------------------------------------------------------------- */
 
-/** A bilingual string — same convention as `desc` / `descEn` on RaveEvent. */
+/** A bilingual string, same convention as `desc` / `descEn` on RaveEvent. */
 export interface L {
   fr: string;
   en: string;
@@ -30,7 +30,7 @@ export interface GuideBlock {
   title: L;
   body: L;
 }
-/** One strand of the programme (ADE Pro, ADE Lab…) — a named sub-programme. */
+/** One strand of the programme (ADE Pro, ADE Lab…), a named sub-programme. */
 export interface GuideStrand {
   name: string;
   when: L;
@@ -48,7 +48,7 @@ export interface GuidePass {
   price: L;
   body: L;
 }
-/** `slug` links to /lieux/{slug} — leave it out when the venue has no page yet. */
+/** `slug` links to /lieux/{slug}, leave it out when the venue has no page yet. */
 export interface GuideVenue {
   name: string;
   slug?: string;
@@ -76,13 +76,13 @@ export interface FestivalGuide {
   officialUrl: string;
   /** Deep link into the official programme, pre-filtered on the edition's dates. */
   programUrl: string;
-  /** Events of ours that are part of the programme — rendered as cards, and as
+  /** Events of ours that are part of the programme, rendered as cards, and as
    *  schema.org `subEvent` / `superEvent` on both sides. */
   subEventIds: number[];
 }
 
 /* ---------------------------------------------------------------------------
-   Amsterdam Dance Event 2026 — 21→25 October, the 30th anniversary.
+   Amsterdam Dance Event 2026, 21→25 October, the 30th anniversary.
    Sources: amsterdam-dance-event.nl (programme, ADE Pro, tickets), the ADE 2025
    wrap-up press release for the figures, DJ Mag / Billboard for Jean-Michel
    Jarre as guest of honour. Per-night details come from our own verified
@@ -100,21 +100,21 @@ const ADE_2026: FestivalGuide = {
     en: "ADE 2026 runs 21–25 October in Amsterdam: 1,200+ events across 300+ venues. Day-by-day programme, ticket prices, the ADE Pro Pass and who plays.",
   },
   hook: {
-    fr: "L'ADE n'est pas une soirée, ni même un festival au sens habituel : c'est une ville entière transformée en dancefloor pendant cinq jours. Plus de 1 200 événements dans plus de 300 lieux, chacun avec son propre organisateur et sa propre billetterie. Il n'existe aucun bracelet unique qui ouvre tout — on construit son ADE soirée par soirée.",
-    en: "ADE isn't one party, and it isn't a festival in the usual sense either: it's an entire city turned into a dancefloor for five days. More than 1,200 events across 300+ venues, each with its own promoter and its own ticket. There is no single wristband that opens everything — you build your ADE night by night.",
+    fr: "L'ADE n'est pas une soirée, ni même un festival au sens habituel : c'est une ville entière transformée en dancefloor pendant cinq jours. Plus de 1 200 événements dans plus de 300 lieux, chacun avec son propre organisateur et sa propre billetterie. Il n'existe aucun bracelet unique qui ouvre tout, on construit son ADE soirée par soirée.",
+    en: "ADE isn't one party, and it isn't a festival in the usual sense either: it's an entire city turned into a dancefloor for five days. More than 1,200 events across 300+ venues, each with its own promoter and its own ticket. There is no single wristband that opens everything, you build your ADE night by night.",
   },
   intro: [
     {
-      fr: "Chaque mois d'octobre, Amsterdam devient la capitale mondiale de la musique électronique. L'Amsterdam Dance Event — ADE pour tout le monde — occupe la ville du mercredi 21 au dimanche 25 octobre 2026. Clubs, entrepôts, salles de concert, églises, musées, péniches et rooftops font tourner en parallèle un festival de nuit, une conférence professionnelle le jour et un programme arts & culture.",
-      en: "Every October, Amsterdam becomes the world capital of electronic music. Amsterdam Dance Event — ADE to everyone — takes over the city from Wednesday 21 to Sunday 25 October 2026. Clubs, warehouses, concert halls, churches, museums, boats and rooftops run a night-time festival, a daytime industry conference and an arts & culture programme in parallel.",
+      fr: "Chaque mois d'octobre, Amsterdam devient la capitale mondiale de la musique électronique. L'Amsterdam Dance Event, ADE pour tout le monde, occupe la ville du mercredi 21 au dimanche 25 octobre 2026. Clubs, entrepôts, salles de concert, églises, musées, péniches et rooftops font tourner en parallèle un festival de nuit, une conférence professionnelle le jour et un programme arts & culture.",
+      en: "Every October, Amsterdam becomes the world capital of electronic music. Amsterdam Dance Event, ADE to everyone, takes over the city from Wednesday 21 to Sunday 25 October 2026. Clubs, warehouses, concert halls, churches, museums, boats and rooftops run a night-time festival, a daytime industry conference and an arts & culture programme in parallel.",
     },
     {
       fr: "En 2026, l'ADE fête ses 30 ans. Né en 1996 comme une petite conférence pour la filière néerlandaise, il rassemblait en 2025 près de 600 000 visiteurs et environ 3 500 artistes : la plus forte concentration de musique électronique au monde sur cinq jours.",
-      en: "In 2026, ADE turns 30. Launched in 1996 as a small conference for the Dutch industry, its 2025 edition drew close to 600,000 visitors and around 3,500 artists — the densest concentration of electronic music anywhere on earth over five days.",
+      en: "In 2026, ADE turns 30. Launched in 1996 as a small conference for the Dutch industry, its 2025 edition drew close to 600,000 visitors and around 3,500 artists, the densest concentration of electronic music anywhere on earth over five days.",
     },
     {
-      fr: "Le point d'orgue de l'édition anniversaire est déjà connu : Jean-Michel Jarre, invité d'honneur, ouvre l'ADE 2026 à l'AFAS Live le 21 octobre avec un show exclusif présenté par MOJO et Insomniac — l'année des 50 ans d'« Oxygène ». Il donnera également une keynote à l'ADE Pro.",
-      en: "The anniversary edition's centrepiece is already set: Jean-Michel Jarre, guest of honour, opens ADE 2026 at AFAS Live on 21 October with an exclusive show presented by MOJO and Insomniac — in the year 'Oxygène' turns 50. He also gives a keynote interview at ADE Pro.",
+      fr: "Le point d'orgue de l'édition anniversaire est déjà connu : Jean-Michel Jarre, invité d'honneur, ouvre l'ADE 2026 à l'AFAS Live le 21 octobre avec un show exclusif présenté par MOJO et Insomniac, l'année des 50 ans d'« Oxygène ». Il donnera également une keynote à l'ADE Pro.",
+      en: "The anniversary edition's centrepiece is already set: Jean-Michel Jarre, guest of honour, opens ADE 2026 at AFAS Live on 21 October with an exclusive show presented by MOJO and Insomniac, in the year 'Oxygène' turns 50. He also gives a keynote interview at ADE Pro.",
     },
   ],
   stats: [
@@ -136,15 +136,15 @@ const ADE_2026: FestivalGuide = {
     {
       title: { fr: "Pourquoi il n'y a pas de billet unique", en: "Why there's no single ticket" },
       body: {
-        fr: "L'ADE ne vend pas d'entrée générale : c'est une plateforme, pas un promoteur. Chaque soirée est produite et vendue par son propre organisateur — Awakenings, Verknipt, Dockyard, Loveland, DGTL, Elrow, Drumcode, des labels, des clubs. Concrètement : on ouvre le programme officiel, on choisit ses soirées, on achète chaque billet séparément. Le seul pass transversal est l'ADE Pro Pass, pensé pour les professionnels.",
-        en: "ADE doesn't sell a general admission ticket: it's a platform, not a promoter. Every party is produced and sold by its own organiser — Awakenings, Verknipt, Dockyard, Loveland, DGTL, Elrow, Drumcode, labels, clubs. In practice: open the official programme, pick your nights, buy each ticket separately. The only cross-cutting pass is the ADE Pro Pass, built for the industry.",
+        fr: "L'ADE ne vend pas d'entrée générale : c'est une plateforme, pas un promoteur. Chaque soirée est produite et vendue par son propre organisateur, Awakenings, Verknipt, Dockyard, Loveland, DGTL, Elrow, Drumcode, des labels, des clubs. Concrètement : on ouvre le programme officiel, on choisit ses soirées, on achète chaque billet séparément. Le seul pass transversal est l'ADE Pro Pass, pensé pour les professionnels.",
+        en: "ADE doesn't sell a general admission ticket: it's a platform, not a promoter. Every party is produced and sold by its own organiser, Awakenings, Verknipt, Dockyard, Loveland, DGTL, Elrow, Drumcode, labels, clubs. In practice: open the official programme, pick your nights, buy each ticket separately. The only cross-cutting pass is the ADE Pro Pass, built for the industry.",
       },
     },
     {
       title: { fr: "Comment construire son planning", en: "How to plan your week" },
       body: {
-        fr: "Trois règles. Un : les têtes d'affiche partent en quelques heures — les grosses soirées du samedi sont souvent complètes avant octobre. Deux : compter les trajets. Le Havenpark et le NDSM sont au nord de l'IJ (ferry gratuit derrière Centraal), l'AFAS Live est au sud-est en métro : deux événements éloignés le même soir, c'est une heure perdue. Trois : garder de la place pour l'imprévu, l'essentiel de l'ADE se joue dans les annonces de dernière minute et les after.",
-        en: "Three rules. One: headliners sell out in hours — the big Saturday parties are often gone before October. Two: budget for travel. Havenpark and NDSM sit north of the IJ (free ferry behind Centraal), AFAS Live is south-east by metro; two far-apart events on one night costs you an hour. Three: leave room for the unplanned — a lot of ADE happens in last-minute announcements and afters.",
+        fr: "Trois règles. Un : les têtes d'affiche partent en quelques heures, les grosses soirées du samedi sont souvent complètes avant octobre. Deux : compter les trajets. Le Havenpark et le NDSM sont au nord de l'IJ (ferry gratuit derrière Centraal), l'AFAS Live est au sud-est en métro : deux événements éloignés le même soir, c'est une heure perdue. Trois : garder de la place pour l'imprévu, l'essentiel de l'ADE se joue dans les annonces de dernière minute et les after.",
+        en: "Three rules. One: headliners sell out in hours, the big Saturday parties are often gone before October. Two: budget for travel. Havenpark and NDSM sit north of the IJ (free ferry behind Centraal), AFAS Live is south-east by metro; two far-apart events on one night costs you an hour. Three: leave room for the unplanned, a lot of ADE happens in last-minute announcements and afters.",
       },
     },
   ],
@@ -153,8 +153,8 @@ const ADE_2026: FestivalGuide = {
       name: "ADE Festival",
       when: { fr: "21 → 25 octobre, surtout le soir", en: "21 → 25 October, mostly after dark" },
       body: {
-        fr: "Le programme public : plus de 1 200 événements dans plus de 300 lieux, tous genres électroniques confondus — techno, house, drum & bass, hardstyle, trance, ambient, afro house.",
-        en: "The public programme: 1,200+ events across 300+ venues, covering every electronic genre — techno, house, drum & bass, hardstyle, trance, ambient, afro house.",
+        fr: "Le programme public : plus de 1 200 événements dans plus de 300 lieux, tous genres électroniques confondus, techno, house, drum & bass, hardstyle, trance, ambient, afro house.",
+        en: "The public programme: 1,200+ events across 300+ venues, covering every electronic genre, techno, house, drum & bass, hardstyle, trance, ambient, afro house.",
       },
     },
     {
@@ -230,7 +230,7 @@ const ADE_2026: FestivalGuide = {
       title: { fr: "Le pic des clubs", en: "Peak club night" },
       body: {
         fr: "Le vendredi est le soir où la quasi-totalité des lieux tournent en même temps : c'est statistiquement la nuit la plus dense de la semaine, et celle où l'on arbitre le plus. Awakenings enchaîne ses Friday Sessions au SugarFactory.",
-        en: "Friday is the night when nearly every venue in town is running at once — statistically the densest night of the week, and the one where you have to make the hardest choices. Awakenings continues with its Friday Sessions at SugarFactory.",
+        en: "Friday is the night when nearly every venue in town is running at once, statistically the densest night of the week, and the one where you have to make the hardest choices. Awakenings continues with its Friday Sessions at SugarFactory.",
       },
       eventIds: [],
     },
@@ -266,8 +266,8 @@ const ADE_2026: FestivalGuide = {
       name: { fr: "Billet day event / grand format", en: "Day event / large format" },
       price: { fr: "≈ 55 – 70 €", en: "≈ €55 – 70" },
       body: {
-        fr: "Les gros rendez-vous du week-end — Dockyard, Verknipt, Loveland, Awakenings — vendus à la journée ou à la soirée.",
-        en: "The big weekend fixtures — Dockyard, Verknipt, Loveland, Awakenings — sold per day or per night.",
+        fr: "Les gros rendez-vous du week-end (Dockyard, Verknipt, Loveland, Awakenings) vendus à la journée ou à la soirée.",
+        en: "The big weekend fixtures (Dockyard, Verknipt, Loveland, Awakenings) sold per day or per night.",
       },
     },
     {
@@ -320,8 +320,8 @@ const ADE_2026: FestivalGuide = {
       name: "Theater Amsterdam",
       slug: "theater-amsterdam",
       body: {
-        fr: "Salle de spectacle reconvertie en club le temps de l'ADE — l'un des deux sites de Loveland, avec Boris Brejcha et FCKNG SERIOUS le samedi.",
-        en: "A theatre turned club for ADE week — one of Loveland's two sites, hosting Boris Brejcha and FCKNG SERIOUS on the Saturday.",
+        fr: "Salle de spectacle reconvertie en club le temps de l'ADE, l'un des deux sites de Loveland, avec Boris Brejcha et FCKNG SERIOUS le samedi.",
+        en: "A theatre turned club for ADE week, one of Loveland's two sites, hosting Boris Brejcha and FCKNG SERIOUS on the Saturday.",
       },
     },
     {
@@ -333,15 +333,15 @@ const ADE_2026: FestivalGuide = {
     },
   ],
   venueNote: {
-    fr: "Au-delà de ces adresses, la semaine ADE s'appuie sur les habitués de la nuit amstellodamoise — Paradiso, Melkweg, De Marktkantine, Shelter, RADION, Thuishaven, Warehouse Elementenstraat, NDSM — et sur des dizaines de lieux ouverts pour l'occasion. La liste définitive est publiée au fil des annonces dans le programme officiel.",
-    en: "Beyond these, ADE week leans on the regulars of Amsterdam nightlife — Paradiso, Melkweg, De Marktkantine, Shelter, RADION, Thuishaven, Warehouse Elementenstraat, NDSM — plus dozens of spaces opened just for the week. The final list is published announcement by announcement in the official programme.",
+    fr: "Au-delà de ces adresses, la semaine ADE s'appuie sur les habitués de la nuit amstellodamoise, Paradiso, Melkweg, De Marktkantine, Shelter, RADION, Thuishaven, Warehouse Elementenstraat, NDSM, et sur des dizaines de lieux ouverts pour l'occasion. La liste définitive est publiée au fil des annonces dans le programme officiel.",
+    en: "Beyond these, ADE week leans on the regulars of Amsterdam nightlife, Paradiso, Melkweg, De Marktkantine, Shelter, RADION, Thuishaven, Warehouse Elementenstraat, NDSM, plus dozens of spaces opened just for the week. The final list is published announcement by announcement in the official programme.",
   },
   practical: [
     {
       title: { fr: "Se déplacer", en: "Getting around" },
       body: {
-        fr: "Métro, tram et bus GVB couvrent la ville, avec un service de nuit. Les ferries derrière Centraal Station vers Amsterdam-Noord sont gratuits et tournent 24h/24 — c'est la façon d'aller au NDSM et vers le Havenpark. Le vélo reste le moyen le plus rapide au centre, mais pas à 5h du matin après une nuit debout.",
-        en: "GVB metro, tram and bus cover the city, with a night service. The ferries behind Centraal Station to Amsterdam Noord are free and run 24/7 — that's how you reach NDSM and Havenpark. Cycling is still the fastest way around the centre, though not at 5am after an all-nighter.",
+        fr: "Métro, tram et bus GVB couvrent la ville, avec un service de nuit. Les ferries derrière Centraal Station vers Amsterdam-Noord sont gratuits et tournent 24h/24, c'est la façon d'aller au NDSM et vers le Havenpark. Le vélo reste le moyen le plus rapide au centre, mais pas à 5h du matin après une nuit debout.",
+        en: "GVB metro, tram and bus cover the city, with a night service. The ferries behind Centraal Station to Amsterdam Noord are free and run 24/7, that's how you reach NDSM and Havenpark. Cycling is still the fastest way around the centre, though not at 5am after an all-nighter.",
       },
     },
     {
@@ -355,14 +355,14 @@ const ADE_2026: FestivalGuide = {
       title: { fr: "Entrée & âge", en: "Entry & age" },
       body: {
         fr: "La grande majorité des soirées sont 18+ et la pièce d'identité est contrôlée à l'entrée. Beaucoup de lieux sont cashless (carte ou jetons). Les vestiaires sont payants, comptez 3 à 5 €.",
-        en: "The vast majority of parties are 18+ and ID is checked at the door. Many venues are cashless (card or tokens). Cloakrooms are paid — budget €3 to €5.",
+        en: "The vast majority of parties are 18+ and ID is checked at the door. Many venues are cashless (card or tokens). Cloakrooms are paid, budget €3 to €5.",
       },
     },
     {
       title: { fr: "Venir de France", en: "Getting there from abroad" },
       body: {
         fr: "Paris–Amsterdam en train direct en 3h20, arrivée à Centraal Station en plein centre. Schiphol est à 15 minutes de train du centre, avec des liaisons depuis toutes les grandes villes européennes. Le train de retour du dimanche soir est le plus recherché de la semaine : le réserver en même temps que les billets de soirée.",
-        en: "Paris–Amsterdam is 3h20 by direct train into Centraal Station, right in the centre. Schiphol is 15 minutes from the centre by train, with connections from every major European city. Sunday evening return trains are the most sought-after of the week — book them at the same time as your party tickets.",
+        en: "Paris–Amsterdam is 3h20 by direct train into Centraal Station, right in the centre. Schiphol is 15 minutes from the centre by train, with connections from every major European city. Sunday evening return trains are the most sought-after of the week, book them at the same time as your party tickets.",
       },
     },
   ],
@@ -385,7 +385,7 @@ const ADE_2026: FestivalGuide = {
       q: { fr: "L'ADE est-il un seul festival sur un seul site ?", en: "Is ADE a single festival on a single site?" },
       a: {
         fr: "Non, et c'est la confusion la plus fréquente. Il n'y a ni plaine de festival, ni camping, ni bracelet unique. L'ADE est un programme réparti dans toute la ville, où chaque événement est produit et vendu par un organisateur différent. On choisit ses soirées dans le programme officiel et on achète chaque billet séparément.",
-        en: "No — and that's the single most common misunderstanding. There's no festival field, no campsite, no all-access wristband. ADE is a programme spread across the whole city, where each event is produced and sold by a different organiser. You pick your nights from the official programme and buy each ticket separately.",
+        en: "No, and that's the single most common misunderstanding. There's no festival field, no campsite, no all-access wristband. ADE is a programme spread across the whole city, where each event is produced and sold by a different organiser. You pick your nights from the official programme and buy each ticket separately.",
       },
     },
     {
@@ -405,8 +405,8 @@ const ADE_2026: FestivalGuide = {
     {
       q: { fr: "Quel jour choisir si je ne viens qu'une fois ?", en: "Which day should I pick if I can only come once?" },
       a: {
-        fr: "Le samedi 24 octobre concentre les plus gros formats — Dockyard Festival au Havenpark, Verknipt à l'AFAS Live, Loveland au Theater Amsterdam — et permet d'enchaîner un day event l'après-midi et une nuit en club. Le vendredi 23 offre le plus grand nombre de soirées simultanées, donc le plus de choix. Le mercredi 21 est le jour de l'ouverture officielle.",
-        en: "Saturday 24 October packs in the biggest formats — Dockyard Festival at Havenpark, Verknipt at AFAS Live, Loveland at Theater Amsterdam — and lets you chain an afternoon day event into a club night. Friday 23 has the largest number of parties running at once, so the widest choice. Wednesday 21 is official opening night.",
+        fr: "Le samedi 24 octobre concentre les plus gros formats (Dockyard Festival au Havenpark, Verknipt à l'AFAS Live, Loveland au Theater Amsterdam) et permet d'enchaîner un day event l'après-midi et une nuit en club. Le vendredi 23 offre le plus grand nombre de soirées simultanées, donc le plus de choix. Le mercredi 21 est le jour de l'ouverture officielle.",
+        en: "Saturday 24 October packs in the biggest formats (Dockyard Festival at Havenpark, Verknipt at AFAS Live, Loveland at Theater Amsterdam) and lets you chain an afternoon day event into a club night. Friday 23 has the largest number of parties running at once, so the widest choice. Wednesday 21 is official opening night.",
       },
     },
     {
@@ -436,6 +436,6 @@ export const GUIDES: FestivalGuide[] = [ADE_2026];
 export const guideFor = (e: RaveEvent): FestivalGuide | undefined =>
   GUIDES.find((g) => g.festival === e.title && g.year === Number(e.date.slice(0, 4)));
 
-/** The umbrella programme this event belongs to — the reverse of `subEventIds`. */
+/** The umbrella programme this event belongs to, the reverse of `subEventIds`. */
 export const guideParentOf = (e: RaveEvent): FestivalGuide | undefined =>
   GUIDES.find((g) => g.subEventIds.includes(e.id));

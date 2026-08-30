@@ -1,8 +1,8 @@
-/* GÉNÉRÉ — ne pas éditer à la main : `python3 .research/photos/venue-shots.py`.
+/* GÉNÉRÉ, ne pas éditer à la main : `python3 .research/photos/venue-shots.py`.
  *
  * Les fichiers de `PHOTOS` (lib/data.ts) qui montrent la SALLE et pas l'événement.
- * `PHOTOS` mélange trois choses par construction — photo de mainstage, photo de
- * salle, affiche officielle de l'organisateur — et les trois illustrent
+ * `PHOTOS` mélange trois choses par construction (photo de mainstage, photo de
+ * salle, affiche officielle de l'organisateur) et les trois illustrent
  * légitimement un événement. Une seule illustre le lieu : mettre le flyer d'une
  * soirée sur la carte d'un club montre autre chose que ce que la carte annonce.
  * Les lots de `.research/photos/` portaient déjà l'information (`kind: "venue"`),

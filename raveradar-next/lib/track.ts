@@ -1,8 +1,8 @@
 /**
- * Audience measurement — the shared vocabulary.
+ * Audience measurement, the shared vocabulary.
  *
  * Everything here is pure: types, validation, and the classification that turns a raw
- * referrer or user-agent string into something countable. No I/O, no storage, no React —
+ * referrer or user-agent string into something countable. No I/O, no storage, no React,
  * so the ingest route, the report builder and the dashboard all read the same
  * definitions instead of each inventing its own idea of what a "source" is.
  *
@@ -10,13 +10,13 @@
  * "how many", not "who did what". It samples, it thresholds small numbers away, it hides
  * the individual journey behind its own idea of a session, and a third of visitors block
  * it outright. This one stores the raw hits, so the dashboard can replay a single visit
- * page by page — which is exactly what the site owner asked for.
+ * page by page, which is exactly what the site owner asked for.
  *
  * Privacy stance, deliberately: no cookie, no IP stored (the address is used for the
  * rate-limit key and thrown away), no cross-site identifier, hits expire after
  * TRACK_RETENTION_DAYS. The visitor id lives in the visitor's own localStorage and means
  * nothing outside this domain. That is the shape the CNIL exempts from consent for
- * audience measurement — keep it that way if you extend this.
+ * audience measurement, keep it that way if you extend this.
  */
 
 /* ---------------------------------------------------------------------------
@@ -25,13 +25,13 @@
 
 /**
  * What a hit records.
- * - `view` — a page was displayed (one per navigation, SPA transitions included).
- * - `end`  — that page was left: how long it was open, how long it was actually looked
+ * - `view` (a page was displayed (one per navigation, SPA transitions included).
+ * - `end` ) that page was left: how long it was open, how long it was actually looked
  *            at, how far it was scrolled. Sent on unload and on route change.
- * - `out`  — a click on a link leaving the site (ticketing, Instagram, official site).
- * - `in`   — a click on an internal link, so the dashboard can show what gets clicked
+ * - `out`  (a click on a link leaving the site (ticketing, Instagram, official site).
+ * - `in`  ) a click on an internal link, so the dashboard can show what gets clicked
  *            rather than only what gets reached.
- * - `goal` — an explicit conversion declared with `data-goal` on any element.
+ * - `goal`, an explicit conversion declared with `data-goal` on any element.
  */
 export type HitKind = "view" | "end" | "out" | "in" | "goal";
 
@@ -44,7 +44,7 @@ export type Utm = { source?: string; medium?: string; campaign?: string; term?: 
 
 /** A hit as stored. Field names stay short because every one of these is JSON in Redis. */
 export type Hit = {
-  /** Server clock, ms. Never the client's — a wrong device clock would scramble the timeline. */
+  /** Server clock, ms. Never the client's, a wrong device clock would scramble the timeline. */
   t: number;
   k: HitKind;
   /** Session id, rotates after 30 min idle. */
@@ -56,7 +56,7 @@ export type Hit = {
   /** Site language the page was served in. */
   lang?: "fr" | "en";
 
-  /* Acquisition — carried on the first hit of a session, then repeated onto every hit
+  /* Acquisition, carried on the first hit of a session, then repeated onto every hit
      of that session by the report builder so any filter works on any row. */
   ref?: string;
   src?: string;
@@ -72,7 +72,7 @@ export type Hit = {
   os?: string;
   /** Viewport width in CSS pixels, bucketed by the dashboard. */
   sw?: number;
-  /** Browser UI language, e.g. "fr-FR" — tells you who you could be serving. */
+  /** Browser UI language, e.g. "fr-FR", tells you who you could be serving. */
   bl?: string;
   /** 1 when this visitor had no stored id before this session. */
   nv?: 1;
@@ -142,14 +142,14 @@ const SOCIAL: [RegExp, string][] = [
 
 const MAIL: RegExp[] = [/(^|\.)mail\.google\./, /(^|\.)outlook\./, /(^|\.)mail\.yahoo\./, /(^|\.)webmail\./];
 
-/** Label used everywhere a source is missing — one spelling, so it groups. */
+/** Label used everywhere a source is missing, one spelling, so it groups. */
 export const DIRECT = "(direct)";
 
 /**
  * Turns a referrer URL into `{ src, med }`.
  *
  * `selfHost` matters: a referrer pointing at our own domain is an internal navigation
- * that escaped the SPA router (a full reload), not an acquisition — counting it as a
+ * that escaped the SPA router (a full reload), not an acquisition, counting it as a
  * "referral from raveparty.fr" is the classic way to make your own site your top source.
  */
 export function classifyReferrer(ref: string | undefined, selfHost: string): { src: string; med: Medium } {
@@ -195,7 +195,7 @@ function canonicalSource(name: string): string {
   return CANONICAL.get(key) ?? ALIASES.get(key) ?? name;
 }
 
-/** UTM tags win over the referrer — that is the whole point of tagging a link. */
+/** UTM tags win over the referrer, that is the whole point of tagging a link. */
 export function applyUtm(base: { src: string; med: Medium }, utm: Utm | undefined): { src: string; med: Medium } {
   if (!utm) return base;
   const med = utm.medium?.toLowerCase();
@@ -223,7 +223,7 @@ export function applyUtm(base: { src: string; med: Medium }, utm: Utm | undefine
 
 /**
  * Crawlers, uptime probes and scrapers. They mostly do not run JavaScript, so few of
- * them ever reach the collector — but the ones that do (headless Chrome, preview
+ * them ever reach the collector, but the ones that do (headless Chrome, preview
  * fetchers) would otherwise show up as a very engaged desktop visitor from Virginia.
  */
 const BOT =
@@ -269,7 +269,7 @@ export function parseUa(ua: string): { dev: Device; br: string; os: string } {
 --------------------------------------------------------------------------- */
 
 /** Query string and hash are noise in a page report, and the query can carry UTM tags
- *  we already parsed out — so a path is stored bare, lowercased host-side trailing slash
+ *  we already parsed out, so a path is stored bare, lowercased host-side trailing slash
  *  removed so `/villes` and `/villes/` are one page and not two. */
 export function normalizePath(raw: string | undefined): string {
   if (!raw) return "/";
@@ -280,7 +280,7 @@ export function normalizePath(raw: string | undefined): string {
 }
 
 /**
- * Collapses a path onto the template that produced it — `/festival/dour-festival` and
+ * Collapses a path onto the template that produced it, `/festival/dour-festival` and
  * `/festival/awakenings` both become `/festival/*`. ~7 000 pages make a "top pages" list
  * useless for the question "which *kind* of page works", which this answers.
  */
@@ -389,7 +389,7 @@ export function parseHit(v: unknown): RawHit | null {
    Small shared formatters (dashboard + report)
 --------------------------------------------------------------------------- */
 
-/** yyyy-mm-dd in UTC — the key a day bucket is stored under. */
+/** yyyy-mm-dd in UTC, the key a day bucket is stored under. */
 export function dayKey(ms: number): string {
   return new Date(ms).toISOString().slice(0, 10);
 }

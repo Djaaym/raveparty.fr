@@ -25,7 +25,7 @@ export default function AccountView({ lang }: { lang: Lang }) {
             </a>
           </div>
           {/* Les favoris sont des ids en localStorage : la résolution se fait côté client,
-              donc le catalogue doit y être — mais allégé de tout ce qu'une carte
+              donc le catalogue doit y être, mais allégé de tout ce qu'une carte
               n'affiche pas, sinon c'est 218 Ko de JS. Voir `cardEvents()`. */}
           <AccountTabs lang={lang} events={cardEvents()} history={cardEvents(past().slice(0, 4))} />
         </div>

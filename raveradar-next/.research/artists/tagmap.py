@@ -9,17 +9,17 @@ rien, ils comptent des votes.
 
 Trois cas, et la distinction porte tout :
 
-- `("Hard Techno", None)` — le tag EST une des onze catégories du site.
-- `("Techno", "Industrial Techno")` — le tag est un sous-genre : il vaut une voix
+- `("Hard Techno", None)`, le tag EST une des onze catégories du site.
+- `("Techno", "Industrial Techno")`, le tag est un sous-genre : il vaut une voix
   pour la catégorie parente **et** un libellé qu'on affiche tel quel. C'est là
   qu'est l'information qu'un annuaire de onze cases perd : « industrial techno »
   et « minimal techno » ne se ressemblent pas.
-- `IGNORE` — le tag ne dit rien du style : un pays, une décennie, un nom de label,
+- `IGNORE`, le tag ne dit rien du style : un pays, une décennie, un nom de label,
   « seen live », « electronic » (vrai de tout le catalogue, donc discriminant nul).
 
 `OFF_GENRE` est le garde-fou contre l'homonyme. Les pages last.fm sont indexées par
 nom : « Mind », « Kobra » ou « Rise » désignent aussi des groupes de metal. Un
-artiste dont les tags dominants sont ici n'est pas *notre* artiste — on jette la
+artiste dont les tags dominants sont ici n'est pas *notre* artiste, on jette la
 récolte plutôt que d'étiqueter un DJ techno en death metal.
 """
 
@@ -138,7 +138,7 @@ TAGS = {
     # --- Drum & bass et bass music ---------------------------------------------
     # Le site n'a pas de case « bass music » : dubstep, grime et UK garage n'ont pas de
     # page. Les ranger sous « Drum & Bass » avec leur vrai nom en sous-genre est un
-    # choix par défaut, assumé — c'est la famille voisine (UK, 140 BPM, halftime), et
+    # choix par défaut, assumé, c'est la famille voisine (UK, 140 BPM, halftime), et
     # une pilule « Dubstep » sous une pilule « Drum & Bass » dit la vérité, là où ne
     # rien afficher laisserait la fiche muette. Le jour où « Bass Music » devient une
     # catégorie du site, ces lignes basculent d'un bloc.
@@ -189,7 +189,7 @@ TAGS = {
     # --- Vocabulaire Discogs (champ « Style ») ----------------------------------
     # Discogs étiquette les *disques*, pas les artistes : agréger les styles de la
     # discographie donne le profil le plus fin qu'on puisse obtenir sans lire une bio.
-    # Son vocabulaire lui est propre — « Psy-Trance », « Drum n Bass », « Euro House » —
+    # Son vocabulaire lui est propre, « Psy-Trance », « Drum n Bass », « Euro House »,
     # d'où ces alias, qui retombent sur les mêmes catégories que le reste.
     "psy-trance": ("Psytrance", None),
     "drum n bass": ("Drum & Bass", None),
@@ -250,7 +250,7 @@ IGNORE = {
     "80s", "70s", "60s", "male vocalists", "female vocalists", "vocal", "piano", "flute",
     "guitar", "singer-songwriter", "composer",
 }
-# Pays / villes / gentilés — même raison.
+# Pays / villes / gentilés - même raison.
 IGNORE |= {
     "french", "france", "paris", "british", "uk", "england", "london", "scottish", "irish",
     "german", "germany", "berlin", "cologne", "dutch", "netherlands", "holland", "amsterdam",

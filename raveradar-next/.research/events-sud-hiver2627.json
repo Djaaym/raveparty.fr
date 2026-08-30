@@ -157,8 +157,8 @@
     "venue": "Ferrara Fiere",
     "trending": true,
     "lineup": [],
-    "desc": "Le plus grand festival d'Halloween d'Europe investit le parc des expositions de Ferrare pour une nuit de dix heures, de 20h à 6h : une dizaine de scènes, un Horror Adrenalin Luna Park, des spectacles de magie et une zone maquillage et transformation. La programmation 2026 n'est pas encore publiée — l'organisateur n'a pas mis à jour sa page artistes depuis l'édition précédente.",
-    "descEn": "Europe's largest Halloween festival takes over Ferrara's exhibition park for a ten-hour night, 8pm to 6am: around ten stages, an Horror Adrenalin funfair, magic shows and a make-up and transformation area. The 2026 line-up has not been published yet — the organiser's artist page still carries the previous edition.",
+    "desc": "Le plus grand festival d'Halloween d'Europe investit le parc des expositions de Ferrare pour une nuit de dix heures, de 20h à 6h : une dizaine de scènes, un Horror Adrenalin Luna Park, des spectacles de magie et une zone maquillage et transformation. La programmation 2026 n'est pas encore publiée, l'organisateur n'a pas mis à jour sa page artistes depuis l'édition précédente.",
+    "descEn": "Europe's largest Halloween festival takes over Ferrara's exhibition park for a ten-hour night, 8pm to 6am: around ten stages, an Horror Adrenalin funfair, magic shows and a make-up and transformation area. The 2026 line-up has not been published yet, the organiser's artist page still carries the previous edition.",
     "note": "tarif non communiqué, ne signifie pas gratuit | line-up 2025 retiré : la page /ospiti/ n'a pas été mise à jour",
     "ticketUrl": "https://horrorland.it/",
     "sources": [
@@ -185,8 +185,8 @@
     "venue": "Razzmatazz",
     "trending": false,
     "lineup": [],
-    "desc": "Quatre marques de la scène dure barcelonaise — Fury, Mad House, Kinyxx et Hardcore Maniaks — réunies pour la première fois sous le même toit au Razzmatazz, sur quatre salles de hard techno et de hardcore. Ouverture des portes à 17h le dimanche de la Toussaint. La programmation sera dévoilée dans les mois qui viennent ; première release à 21,45 €.",
-    "descEn": "Four brands from Barcelona's hard scene — Fury, Mad House, Kinyxx and Hardcore Maniaks — under one roof at Razzmatazz for the first time, across four rooms of hard techno and hardcore. Doors at 5pm on the Sunday of All Saints. The line-up will be revealed in the coming months; first release at €21.45.",
+    "desc": "Quatre marques de la scène dure barcelonaise (Fury, Mad House, Kinyxx et Hardcore Maniaks) réunies pour la première fois sous le même toit au Razzmatazz, sur quatre salles de hard techno et de hardcore. Ouverture des portes à 17h le dimanche de la Toussaint. La programmation sera dévoilée dans les mois qui viennent ; première release à 21,45 €.",
+    "descEn": "Four brands from Barcelona's hard scene (Fury, Mad House, Kinyxx and Hardcore Maniaks) under one roof at Razzmatazz for the first time, across four rooms of hard techno and hardcore. Doors at 5pm on the Sunday of All Saints. The line-up will be revealed in the coming months; first release at €21.45.",
     "note": "tarif 1re release confirmé par la salle ; line-up non annoncé (la salle écrit « serán desvelados en los próximos meses »)",
     "sources": [
       "https://www.salarazzmatazz.com/agenda/01-11-2026-fury4/"
@@ -483,7 +483,7 @@
       "Héctor Oaks"
     ],
     "desc": "L'Espagnol Héctor Oaks, patron des labels Oaks et Kaos et résident du Bassiani, joue au Q35 Warehouse, l'entrepôt de Lungo Dora Firenze équipé d'un système L-Acoustics K3. Techno hardgroove jouée en vinyle, à 10 € l'entrée. Ouverture de la saison hivernale du club.",
-    "descEn": "Spain's Héctor Oaks — head of the Oaks and Kaos labels and a Bassiani resident — plays Q35 Warehouse, the Lungo Dora Firenze warehouse fitted with an L-Acoustics K3 rig. Hardgroove techno played on vinyl, €10 on the door, opening the club's winter season.",
+    "descEn": "Spain's Héctor Oaks, head of the Oaks and Kaos labels and a Bassiani resident, plays Q35 Warehouse, the Lungo Dora Firenze warehouse fitted with an L-Acoustics K3 rig. Hardgroove techno played on vinyl, €10 on the door, opening the club's winter season.",
     "note": "tarif indicatif",
     "sources": [
       "https://xceed.me/en/torino/events",
@@ -511,7 +511,7 @@
       "Kolter"
     ],
     "desc": "L'Allemand Kolter tient la nuit à l'Input, le club techno du Poble Espanyol équipé en Funktion-One et écrans LED à 360°. Set long, breakbeat et techno rapide, de minuit à six heures du matin. Une des rares dates d'octobre déjà annoncées par le club.",
-    "descEn": "Germany's Kolter takes the night at Input, the techno club inside Poble Espanyol with its Funktion-One rig and 360-degree LED screens. A long set of breakbeat and fast techno, running midnight to 6am — one of the few October dates the club has already announced.",
+    "descEn": "Germany's Kolter takes the night at Input, the techno club inside Poble Espanyol with its Funktion-One rig and 360-degree LED screens. A long set of breakbeat and fast techno, running midnight to 6am, one of the few October dates the club has already announced.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "sources": [
       "https://inputbcn.com/events"
@@ -677,7 +677,7 @@
       "In Verruf"
     ],
     "desc": "Le duo allemand Ueberrest et In Verruf tiennent la nuit au Gate Milano. Hard techno et trance mutante à haut BPM, dans une salle de 600 m² pensée pour le volume. Même tandem qu'à l'Input Barcelona en août, cette fois sur une nuit complète.",
-    "descEn": "German duo Ueberrest and In Verruf take the night at Gate Milano. High-BPM hard techno and mutant trance in a 600 m² room built for volume — the same pairing that played Input Barcelona in August, here across a full night.",
+    "descEn": "German duo Ueberrest and In Verruf take the night at Gate Milano. High-BPM hard techno and mutant trance in a 600 m² room built for volume, the same pairing that played Input Barcelona in August, here across a full night.",
     "note": "tarif indicatif",
     "sources": [
       "https://xceed.me/en/milano/events"
@@ -916,7 +916,7 @@
       "Klangkuenstler"
     ],
     "desc": "La marque OUTWORLD confie toute une nuit au Berlinois Klangkuenstler, en all night long, sous la coupole du Pavilhão Rosa Mota (Super Bock Arena), dans les Jardins du Palais de Cristal. Hard techno et trance accélérée dans une salle de 8 000 places. Billetterie déjà épuisée.",
-    "descEn": "The OUTWORLD brand hands a full night to Berlin's Klangkuenstler, playing all night long under the dome of Pavilhão Rosa Mota (Super Bock Arena) in the Palácio de Cristal gardens. Hard techno and accelerated trance in an 8,000-capacity room — already sold out.",
+    "descEn": "The OUTWORLD brand hands a full night to Berlin's Klangkuenstler, playing all night long under the dome of Pavilhão Rosa Mota (Super Bock Arena) in the Palácio de Cristal gardens. Hard techno and accelerated trance in an 8,000-capacity room, already sold out.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "sources": [
       "https://xceed.me/en/porto/events"
@@ -996,7 +996,7 @@
       "Charlotte de Witte"
     ],
     "desc": "Techniques revient au Telekom Center Athens, la salle indoor du complexe olympique de Marousi, avec Charlotte de Witte en tête d'affiche. Neuf heures de techno, de 23 h à 8 h du matin, avec la production son et lumière que la série met en avant depuis ses débuts. La plus grosse date techno indoor annoncée en Grèce pour l'hiver.",
-    "descEn": "Techniques returns to Telekom Center Athens, the indoor arena in the Marousi Olympic complex, with Charlotte de Witte headlining. Nine hours of techno from 11pm to 8am, with the sound and lighting production the series is built around — the largest indoor techno date announced in Greece for the winter.",
+    "descEn": "Techniques returns to Telekom Center Athens, the indoor arena in the Marousi Olympic complex, with Charlotte de Witte headlining. Nine hours of techno from 11pm to 8am, with the sound and lighting production the series is built around, the largest indoor techno date announced in Greece for the winter.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "sources": [
       "https://allevents.in/athens/raves",
@@ -1050,7 +1050,7 @@
       "Ogalla"
     ],
     "desc": "INVADERS confie toute la nuit à l'Espagnol Ogalla, en all night long, au Spook Club de Pinedo. Un seul DJ de 23 h à 7 h, format qui laisse le temps de dérouler un set complet. Entrée à partir de 20 €.",
-    "descEn": "INVADERS hand the whole night to Spain's Ogalla, all night long, at Spook Club in Pinedo. A single DJ from 11pm to 7am — a format that leaves room for a full arc. Entry from €20.",
+    "descEn": "INVADERS hand the whole night to Spain's Ogalla, all night long, at Spook Club in Pinedo. A single DJ from 11pm to 7am, a format that leaves room for a full arc. Entry from €20.",
     "note": "tarif indicatif",
     "sources": [
       "https://xceed.me/en/valencia/events"
@@ -1189,7 +1189,7 @@
     "lineup": [
       "Gabry Ponte"
     ],
-    "desc": "Étape romaine de « CIRCOTRON – The Dance Show », au Palazzo dello Sport de l'EUR. Set dance de Gabry Ponte enrichi d'un dispositif de cirque futuriste — acrobates, machinerie et écrans — dans une salle de 11 000 places.",
+    "desc": "Étape romaine de « CIRCOTRON – The Dance Show », au Palazzo dello Sport de l'EUR. Set dance de Gabry Ponte enrichi d'un dispositif de cirque futuriste (acrobates, machinerie et écrans) dans une salle de 11 000 places.",
     "descEn": "The Rome stop of \"CIRCOTRON – The Dance Show\", at the Palazzo dello Sport in EUR. Gabry Ponte's dance set wrapped in a futuristic circus production of acrobats, rigging and screens, in an 11,000-capacity arena.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "sources": [

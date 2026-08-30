@@ -9,7 +9,7 @@ import { PLACES } from "@/lib/places";
 import EventCard from "./EventCard";
 
 /* Long-form body for the few festivals that are really a week-long programme.
-   Rendered full width, below the two-column event layout — the reader has
+   Rendered full width, below the two-column event layout, the reader has
    already seen the dates and the ticket box by the time they get here. */
 export default function FestivalGuide({
   guide,
@@ -26,7 +26,7 @@ export default function FestivalGuide({
   const p = langPrefix(lang);
   const byId = (id: number) => EVENTS.find((x) => x.id === id);
   const subEvents = guide.subEventIds.map(byId).filter((x): x is NonNullable<typeof x> => !!x);
-  // Only link geography we actually have a page for — a dead /rave-party/{city}
+  // Only link geography we actually have a page for, a dead /rave-party/{city}
   // costs more than the link is worth.
   const place = PLACES.find((pl) => (pl.match ?? [pl.label]).some((m) => slugify(m) === slugify(e.city)));
   const countrySlug = slugify(COUNTRY_FR[e.country] ?? e.country);

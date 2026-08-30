@@ -61,7 +61,7 @@ export function pageMeta(opts: {
 
 const abs = (lang: Lang, path: string) => `${SITE_URL}${lang === "en" ? "/en" : ""}${path}`;
 
-/** A nested event reference — enough for `subEvent` / `superEvent` without repeating a full node. */
+/** A nested event reference, enough for `subEvent` / `superEvent` without repeating a full node. */
 const eventRef = (e: RaveEvent, lang: Lang) => ({
   "@type": "MusicEvent",
   name: e.title,
@@ -75,7 +75,7 @@ const eventRef = (e: RaveEvent, lang: Lang) => ({
   },
 });
 
-/** schema.org MusicEvent — what makes an event eligible for Google's event rich results.
+/** schema.org MusicEvent, what makes an event eligible for Google's event rich results.
  *  `subEvents` / `superEvent` tie a week-long programme to the parties inside it: the
  *  umbrella is typed as a Festival, each night points back at it. */
 export function eventJsonLd(
@@ -151,11 +151,11 @@ export function breadcrumbJsonLd(trail: [string, string][], lang: Lang) {
   };
 }
 
-/** An ordered list of events — helps hub pages (city, genre, venue) get parsed as listings. */
+/** An ordered list of events, helps hub pages (city, genre, venue) get parsed as listings. */
 /** An ItemList of events is carousel-eligible, so it is a highlight in Google's eyes:
  *  finished editions are filtered out here rather than at each call site, because the
  *  page below may legitimately list its archive while the carousel must not. Returns
- *  `null` when nothing is left — `<JsonLd>` skips it, so no empty ItemList is emitted. */
+ *  `null` when nothing is left, `<JsonLd>` skips it, so no empty ItemList is emitted. */
 export function itemListJsonLd(events: RaveEvent[], lang: Lang, name: string, ref?: string) {
   const live = events.filter((e) => !isPast(e, ref));
   if (!live.length) return null;
@@ -173,7 +173,7 @@ export function itemListJsonLd(events: RaveEvent[], lang: Lang, name: string, re
   };
 }
 
-/** FAQPage from [question, answer] pairs — targets the "People also ask" block. */
+/** FAQPage from [question, answer] pairs, targets the "People also ask" block. */
 export function faqJsonLd(qa: [string, string][]) {
   return {
     "@context": "https://schema.org",
@@ -226,7 +226,7 @@ export function siteJsonLd(lang: Lang) {
  * affiches où l'artiste apparaît. Déclarer à Google qu'un producteur de techno
  * industrielle fait de la psytrance parce qu'il a joué un festival multi-genres est
  * une affirmation sur une personne réelle, pas une approximation d'affichage. La page
- * envoie donc `artistGenres()` + `artistSubGenres()` — l'attribution, pas la déduction.
+ * envoie donc `artistGenres()` + `artistSubGenres()`, l'attribution, pas la déduction.
  */
 export function artistJsonLd(
   name: string,

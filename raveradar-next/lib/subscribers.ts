@@ -49,7 +49,7 @@ function brevoPost(a: AlertInput, withAttributes: boolean) {
       email: a.email,
       ...(withAttributes ? { attributes: attributesFor(a) } : {}),
       listIds: [Number(process.env.BREVO_LIST_ID)],
-      // Without this, re-subscribing an address Brevo already knows is a hard 400 —
+      // Without this, re-subscribing an address Brevo already knows is a hard 400,
       // and someone setting a second alert is the normal case, not an error.
       updateEnabled: true,
     }),
@@ -62,9 +62,9 @@ async function brevo(a: AlertInput): Promise<SubscribeResult> {
     const detail = await res.text().catch(() => "");
     // Brevo refuses an attribute that was never declared in the account, and the whole
     // subscription dies with it. Losing the *detail* of an alert is recoverable; losing
-    // the address is not — so save the contact anyway and make the omission loud.
+    // the address is not, so save the contact anyway and make the omission loud.
     if (/attribute/i.test(detail)) {
-      console.error("[alerts] Brevo rejected the custom attributes — run scripts/brevo-setup.mjs. " + detail.slice(0, 200));
+      console.error("[alerts] Brevo rejected the custom attributes, run scripts/brevo-setup.mjs. " + detail.slice(0, 200));
       res = await brevoPost(a, false);
       if (res.ok || res.status === 204) return { ok: true, alreadyKnown: res.status === 204 };
       const second = await res.text().catch(() => "");
@@ -88,7 +88,7 @@ async function resend(a: AlertInput): Promise<SubscribeResult> {
   // A Resend audience stores an address and nothing else, so the only place the
   // subscription's subject can live is a mail to the owner. Best-effort on purpose:
   // the contact is already saved, and failing the request here would be a lie.
-  await notifyOwner(`Alerte — ${alertSummary(a)}`, `${a.email}\n${alertSummary(a)}\nLangue : ${a.lang}`).catch(
+  await notifyOwner(`Alerte, ${alertSummary(a)}`, `${a.email}\n${alertSummary(a)}\nLangue : ${a.lang}`).catch(
     () => undefined,
   );
   return { ok: true, alreadyKnown: false };
@@ -105,7 +105,7 @@ export async function subscribe(a: AlertInput): Promise<SubscribeResult> {
 }
 
 /**
- * Plain transactional mail to the site owner — used for organizer submissions, and for
+ * Plain transactional mail to the site owner, used for organizer submissions, and for
  * the Resend path above. Returns false rather than throwing: no caller's success should
  * hinge on the owner's copy going out.
  */

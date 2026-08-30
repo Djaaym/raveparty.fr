@@ -1,7 +1,7 @@
 /**
  * Best-effort throttle for the write endpoints.
  *
- * In-memory, so on Vercel it is per warm lambda instance rather than global — which is
+ * In-memory, so on Vercel it is per warm lambda instance rather than global, which is
  * fine for what it defends against: a bored visitor holding down Enter, or a script
  * hammering one route. Anything more determined needs a shared store, and that's a
  * decision to make with a real abuse problem in hand rather than in advance.

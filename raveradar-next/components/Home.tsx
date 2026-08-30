@@ -21,7 +21,7 @@ export default function Home({ lang }: { lang: Lang }) {
   const today = todayISO();
   const live = upcoming(undefined, today);
   const trending = featured(8, undefined, today);
-  /* Only places with dates on, most-loaded first — see topPlaces() for why 12 and not 90.
+  /* Only places with dates on, most-loaded first, see topPlaces() for why 12 and not 90.
      Split in two because a plain count ranking is all Amsterdam, Manchester and Cologne:
      true to the calendar, useless to the French reader this site is built for. */
   const cities = topPlaces(48, today);
@@ -221,7 +221,7 @@ export default function Home({ lang }: { lang: Lang }) {
         </div>
       </section>
 
-      {/* ways in — the 90-link column dump this replaces was a link farm on a home
+      {/* ways in, the 90-link column dump this replaces was a link farm on a home
           page: ninety towns listed flat, most of them with nothing on. It still lives
           on /villes, one click away, where a reader who wants the exhaustive list goes.
           Here: the three ways someone actually enters the calendar, then the cities
@@ -290,8 +290,8 @@ export default function Home({ lang }: { lang: Lang }) {
                 ))}
               <div className="linkfarm" style={{ marginTop: 20 }}>
                 {/* Two pages that lost their only home-page link elsewhere in this change:
-                    /lieux went out with the column dump (it carries the club-name intent —
-                    "Berghain", "Rex Club" — that no city page can rank for), and /pays gave
+                    /lieux went out with the column dump (it carries the club-name intent,
+                    "Berghain", "Rex Club", that no city page can rank for), and /pays gave
                     up its nav slot. "Toutes les villes" is already the section's own CTA. */}
                 <Link href={`${p}/lieux`} className="more">
                   {t("home.cities.venues")}

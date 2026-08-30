@@ -6,7 +6,7 @@
     "site": "https://blitz.club",
     "facebook": "https://www.facebook.com/blitzmusicclub/",
     "x": "BLITZ_club_muc",
-    "verified": "https://blitz.club — le site officiel du club (Museumsinsel, Munich) renvoie vers instagram.com/blitz_music_club, facebook.com/blitzmusicclub et twitter.com/BLITZ_club_muc"
+    "verified": "https://blitz.club, le site officiel du club (Museumsinsel, Munich) renvoie vers instagram.com/blitz_music_club, facebook.com/blitzmusicclub et twitter.com/BLITZ_club_muc"
   },
   {
     "kind": "venue",
@@ -14,14 +14,14 @@
     "instagram": "tanzhaus.west",
     "site": "https://www.tanzhaus-west.de",
     "facebook": "https://www.facebook.com/TanzhausWest",
-    "verified": "https://www.tanzhaus-west.de — le pied de page du site officiel (Francfort) renvoie vers instagram.com/tanzhaus.west et facebook.com/TanzhausWest"
+    "verified": "https://www.tanzhaus-west.de, le pied de page du site officiel (Francfort) renvoie vers instagram.com/tanzhaus.west et facebook.com/TanzhausWest"
   },
   {
     "kind": "venue",
     "key": "Conne Island",
     "site": "https://www.conne-island.de",
     "facebook": "https://www.facebook.com/conneisland",
-    "verified": "https://www.conne-island.de — le site officiel du Conne Island (Leipzig-Connewitz) renvoie vers facebook.com/conneisland ; aucun Instagram officiel publié par la salle"
+    "verified": "https://www.conne-island.de, le site officiel du Conne Island (Leipzig-Connewitz) renvoie vers facebook.com/conneisland ; aucun Instagram officiel publié par la salle"
   },
   {
     "kind": "venue",
@@ -30,7 +30,7 @@
     "site": "https://lagraviere.ch",
     "facebook": "https://www.facebook.com/lagraviereliveclub/",
     "ra": "https://ra.co/clubs/60218",
-    "verified": "https://lagraviere.ch/infos — la page Infos pratiques du site officiel renvoie vers instagram.com/lagraviereliveclub, facebook.com/lagraviereliveclub et ra.co/clubs/60218 ; la même page confirme Genève (« depuis l'extérieur de Genève »)"
+    "verified": "https://lagraviere.ch/infos, la page Infos pratiques du site officiel renvoie vers instagram.com/lagraviereliveclub, facebook.com/lagraviereliveclub et ra.co/clubs/60218 ; la même page confirme Genève (« depuis l'extérieur de Genève »)"
   },
   {
     "kind": "venue",
@@ -39,7 +39,7 @@
     "site": "https://www.audio-club.ch",
     "facebook": "https://www.facebook.com/audiogeneva",
     "soundcloud": "audioclubgeneva",
-    "verified": "https://www.audio-club.ch/contact — la page contact du site officiel affiche l'adresse « Rue Boissonnas 20, 1227 Genève » et renvoie vers instagram.com/audio_club, facebook.com/audiogeneva et soundcloud.com/audioclubgeneva"
+    "verified": "https://www.audio-club.ch/contact, la page contact du site officiel affiche l'adresse « Rue Boissonnas 20, 1227 Genève » et renvoie vers instagram.com/audio_club, facebook.com/audiogeneva et soundcloud.com/audioclubgeneva"
   },
   {
     "kind": "venue",
@@ -48,7 +48,7 @@
     "site": "https://www.doornroosje.nl",
     "facebook": "https://www.facebook.com/doornroosjenl/",
     "youtube": "https://www.youtube.com/channel/UCMvmpoOGg0w6eVeLwXa4X5A",
-    "verified": "https://www.doornroosje.nl — le pied de page du site officiel (Nijmegen) renvoie vers instagram.com/doornroosjenl, facebook.com/doornroosjenl et youtube.com/channel/UCMvmpoOGg0w6eVeLwXa4X5A"
+    "verified": "https://www.doornroosje.nl, le pied de page du site officiel (Nijmegen) renvoie vers instagram.com/doornroosjenl, facebook.com/doornroosjenl et youtube.com/channel/UCMvmpoOGg0w6eVeLwXa4X5A"
   },
   {
     "kind": "venue",
@@ -57,7 +57,7 @@
     "site": "https://www.tresorberlin.com",
     "facebook": "https://www.facebook.com/tresorberlin",
     "soundcloud": "tresorberlin",
-    "verified": "https://www.tresorberlin.com — le site officiel du Tresor (Köpenicker Str. 70, Berlin ; Globus est l'étage supérieur du même bâtiment) renvoie vers instagram.com/tresorberlin, facebook.com/tresorberlin et soundcloud.com/tresorberlin"
+    "verified": "https://www.tresorberlin.com, le site officiel du Tresor (Köpenicker Str. 70, Berlin ; Globus est l'étage supérieur du même bâtiment) renvoie vers instagram.com/tresorberlin, facebook.com/tresorberlin et soundcloud.com/tresorberlin"
   },
   {
     "kind": "venue",
@@ -66,14 +66,14 @@
     "site": "https://cocorico.it",
     "facebook": "https://www.facebook.com/cocoricoofficial",
     "tiktok": "cocoricoriccione",
-    "verified": "https://cocorico.it — le site officiel de la discoteca Cocoricò renvoie vers instagram.com/cocoricoriccione, facebook.com/cocoricoofficial et tiktok.com/@cocoricoriccione (le handle porte Riccione)"
+    "verified": "https://cocorico.it, le site officiel de la discoteca Cocoricò renvoie vers instagram.com/cocoricoriccione, facebook.com/cocoricoofficial et tiktok.com/@cocoricoriccione (le handle porte Riccione)"
   },
   {
     "kind": "venue",
     "key": "Postgarage",
     "instagram": "postgarage",
     "site": "https://www.postgarage.at",
-    "verified": "https://www.postgarage.at — le site officiel (« Veranstaltungshalle Graz-Gries », Dreihackengasse 42, 8020 Graz) renvoie vers instagram.com/postgarage"
+    "verified": "https://www.postgarage.at, le site officiel (« Veranstaltungshalle Graz-Gries », Dreihackengasse 42, 8020 Graz) renvoie vers instagram.com/postgarage"
   },
   {
     "kind": "venue",
@@ -81,7 +81,7 @@
     "instagram": "lehmannclubstuttgart",
     "site": "https://lehmannclub.de",
     "facebook": "https://www.facebook.com/LehmannClub",
-    "verified": "https://lehmannclub.de — le site officiel du club renvoie vers instagram.com/lehmannclubstuttgart (le handle porte Stuttgart) et facebook.com/LehmannClub"
+    "verified": "https://lehmannclub.de, le site officiel du club renvoie vers instagram.com/lehmannclubstuttgart (le handle porte Stuttgart) et facebook.com/LehmannClub"
   },
   {
     "kind": "venue",
@@ -89,7 +89,7 @@
     "instagram": "bernexpo",
     "site": "https://www.bernexpo.ch",
     "youtube": "https://www.youtube.com/user/BERNEXPO",
-    "verified": "https://www.bernexpo.ch — le site officiel de BERNEXPO AG (« Messen, Konzerte, Veranstaltungen in Bern ») renvoie vers instagram.com/bernexpo et youtube.com/user/BERNEXPO"
+    "verified": "https://www.bernexpo.ch, le site officiel de BERNEXPO AG (« Messen, Konzerte, Veranstaltungen in Bern ») renvoie vers instagram.com/bernexpo et youtube.com/user/BERNEXPO"
   },
   {
     "kind": "venue",
@@ -99,7 +99,7 @@
     "facebook": "https://www.facebook.com/IFEMA",
     "tiktok": "ifemadrid",
     "youtube": "https://www.youtube.com/channel/UCeEnAhiS3oUvbXvVwGDBJtw",
-    "verified": "https://www.ifema.es — le pied de page du site officiel d'IFEMA MADRID renvoie vers instagram.com/ifema_madrid, facebook.com/IFEMA, tiktok.com/@ifemadrid et sa chaîne YouTube"
+    "verified": "https://www.ifema.es, le pied de page du site officiel d'IFEMA MADRID renvoie vers instagram.com/ifema_madrid, facebook.com/IFEMA, tiktok.com/@ifemadrid et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -107,7 +107,7 @@
     "instagram": "auditoriumparcodellamusica",
     "site": "https://www.auditorium.com",
     "facebook": "https://www.facebook.com/AuditoriumParcodellaMusica",
-    "verified": "https://www.auditorium.com — le site officiel de l'Auditorium Parco della Musica Ennio Morricone (Rome) renvoie vers instagram.com/auditoriumparcodellamusica et facebook.com/AuditoriumParcodellaMusica"
+    "verified": "https://www.auditorium.com, le site officiel de l'Auditorium Parco della Musica Ennio Morricone (Rome) renvoie vers instagram.com/auditoriumparcodellamusica et facebook.com/AuditoriumParcodellaMusica"
   },
   {
     "kind": "venue",
@@ -116,7 +116,7 @@
     "site": "https://www.dolnivitkovice.cz",
     "facebook": "https://www.facebook.com/DolniVitkovice/",
     "youtube": "https://www.youtube.com/channel/UCBSc-DIiUwJDif9oj3btAXA",
-    "verified": "https://www.dolnivitkovice.cz — le site officiel de l'areál Dolní Vítkovice (Ostrava) renvoie vers instagram.com/dolnivitkovice, facebook.com/DolniVitkovice et sa chaîne YouTube"
+    "verified": "https://www.dolnivitkovice.cz, le site officiel de l'areál Dolní Vítkovice (Ostrava) renvoie vers instagram.com/dolnivitkovice, facebook.com/DolniVitkovice et sa chaîne YouTube"
   },
   {
     "kind": "venue",
@@ -124,7 +124,7 @@
     "instagram": "seeparkzuelpich",
     "site": "https://www.seepark-zuelpich.de",
     "facebook": "https://www.facebook.com/seeparkzuelpich",
-    "verified": "https://www.seepark-zuelpich.de — le site officiel du Seepark Zülpich renvoie vers instagram.com/seeparkzuelpich et facebook.com/seeparkzuelpich"
+    "verified": "https://www.seepark-zuelpich.de, le site officiel du Seepark Zülpich renvoie vers instagram.com/seeparkzuelpich et facebook.com/seeparkzuelpich"
   },
   {
     "kind": "venue",
@@ -133,7 +133,7 @@
     "site": "https://ing.arena.brussels",
     "facebook": "https://www.facebook.com/ing.arena.brussels/",
     "tiktok": "ing.arena.brussels",
-    "verified": "https://ing.arena.brussels (palais12.com redirige vers ce site officiel) — le pied de page renvoie vers instagram.com/ing.arena.brussels, facebook.com/ing.arena.brussels et tiktok.com/@ing.arena.brussels"
+    "verified": "https://ing.arena.brussels (palais12.com redirige vers ce site officiel), le pied de page renvoie vers instagram.com/ing.arena.brussels, facebook.com/ing.arena.brussels et tiktok.com/@ing.arena.brussels"
   },
   {
     "kind": "venue",
@@ -143,6 +143,6 @@
     "facebook": "https://www.facebook.com/ahoyrotterdam",
     "tiktok": "rotterdam.ahoy",
     "youtube": "https://www.youtube.com/channel/UCWvcxV4CYqQk8krJwFf2R0A",
-    "verified": "https://www.ahoy.nl — les liens sociaux du pied de page (ahoy.nl/instagram, /facebook, /tiktok, /youtube) redirigent vers instagram.com/rotterdam.ahoy, facebook.com/ahoyrotterdam, tiktok.com/@rotterdam.ahoy et youtube.com/channel/UCWvcxV4CYqQk8krJwFf2R0A"
+    "verified": "https://www.ahoy.nl, les liens sociaux du pied de page (ahoy.nl/instagram, /facebook, /tiktok, /youtube) redirigent vers instagram.com/rotterdam.ahoy, facebook.com/ahoyrotterdam, tiktok.com/@rotterdam.ahoy et youtube.com/channel/UCWvcxV4CYqQk8krJwFf2R0A"
   }
 ]

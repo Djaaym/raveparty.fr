@@ -423,8 +423,8 @@
       "Siebenschlaefer",
       "Chris Rinox"
     ],
-    "desc": "Soirée de retrouvailles autour du 10/40, club techno culte de Leipzig ouvert en 1998 sur la Brandenburger Straße et connu bien au-delà de la Saxe pour son néon jaune et son bonhomme filiforme. Dix-sept DJs sur trois espaces au Sky Club — Rumpelkammer et Waschküche en techno, Wohnzimmer en oldschool et disco house. Portes à 22h.",
-    "descEn": "A reunion night built around 10/40, the cult Leipzig techno club that opened on Brandenburger Straße in 1998 and was known well beyond Saxony for its yellow neon and stick-figure logo. Seventeen DJs across three rooms at Sky Club — Rumpelkammer and Waschküche for techno, Wohnzimmer for oldschool and disco house. Doors at 10pm.",
+    "desc": "Soirée de retrouvailles autour du 10/40, club techno culte de Leipzig ouvert en 1998 sur la Brandenburger Straße et connu bien au-delà de la Saxe pour son néon jaune et son bonhomme filiforme. Dix-sept DJs sur trois espaces au Sky Club, Rumpelkammer et Waschküche en techno, Wohnzimmer en oldschool et disco house. Portes à 22h.",
+    "descEn": "A reunion night built around 10/40, the cult Leipzig techno club that opened on Brandenburger Straße in 1998 and was known well beyond Saxony for its yellow neon and stick-figure logo. Seventeen DJs across three rooms at Sky Club, Rumpelkammer and Waschküche for techno, Wohnzimmer for oldschool and disco house. Doors at 10pm.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "ticketUrl": "https://www.skyclub-leipzig.de/event/details/2026-11-07-seltsamer-herbst",
     "sources": [
@@ -552,8 +552,8 @@
     "venue": "Verbier (divers lieux)",
     "trending": true,
     "lineup": [],
-    "desc": "Le festival alpin de Verbier étale sa onzième édition sur deux week-ends de novembre — les 20 et 21, puis les 27 et 28 — entre scènes d'altitude et salles du village valaisan. Son de haut vol, installations lumineuses et art immersif à plus de 1 500 mètres. Capacité limitée, la programmation est encore à annoncer.",
-    "descEn": "Verbier's alpine festival spreads its eleventh edition across two November weekends — the 20th and 21st, then the 27th and 28th — between mountain stages and venues down in the Valais village. High-end sound, light installations and immersive art above 1,500 metres. Capacity is limited and the line-up is still to be announced.",
+    "desc": "Le festival alpin de Verbier étale sa onzième édition sur deux week-ends de novembre (les 20 et 21, puis les 27 et 28) entre scènes d'altitude et salles du village valaisan. Son de haut vol, installations lumineuses et art immersif à plus de 1 500 mètres. Capacité limitée, la programmation est encore à annoncer.",
+    "descEn": "Verbier's alpine festival spreads its eleventh edition across two November weekends (the 20th and 21st, then the 27th and 28th) between mountain stages and venues down in the Valais village. High-end sound, light installations and immersive art above 1,500 metres. Capacity is limited and the line-up is still to be announced.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "ticketUrl": "https://polarisfestival.ch/",
     "sources": [
@@ -963,8 +963,8 @@
     "venue": "Dom im Berg et divers lieux",
     "trending": false,
     "lineup": [],
-    "desc": "Festival interdisciplinaire de Graz, réparti sur quatre jours dans plusieurs lieux de la ville dont le Dom im Berg, la salle creusée dans la colline du Schlossberg. Concerts, DJ sets et installations croisent conférences, projections et débats politiques — le programme discussions et films est gratuit. Programmation musicale à annoncer.",
-    "descEn": "Graz's interdisciplinary festival runs four days across several venues in the city, including Dom im Berg, the hall carved into the Schlossberg hill. Concerts, DJ sets and installations sit alongside talks, film screenings and political debate — the discussion and film programme is free. The music line-up is still to be announced.",
+    "desc": "Festival interdisciplinaire de Graz, réparti sur quatre jours dans plusieurs lieux de la ville dont le Dom im Berg, la salle creusée dans la colline du Schlossberg. Concerts, DJ sets et installations croisent conférences, projections et débats politiques, le programme discussions et films est gratuit. Programmation musicale à annoncer.",
+    "descEn": "Graz's interdisciplinary festival runs four days across several venues in the city, including Dom im Berg, the hall carved into the Schlossberg hill. Concerts, DJ sets and installations sit alongside talks, film screenings and political debate, the discussion and film programme is free. The music line-up is still to be announced.",
     "note": "tarif non communiqué, ne signifie pas gratuit",
     "ticketUrl": "https://elevate.at/en/",
     "sources": [

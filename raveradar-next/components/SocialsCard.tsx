@@ -9,7 +9,7 @@ import {
 } from "@/lib/socials";
 import InstagramFeed from "./InstagramFeed";
 
-/** Le glyphe Instagram, en SVG inline — un fichier de moins à charger pour une icône. */
+/** Le glyphe Instagram, en SVG inline, un fichier de moins à charger pour une icône. */
 function InstagramMark() {
   return (
     <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
@@ -25,7 +25,7 @@ function InstagramMark() {
  *
  * Il remplace l'ancienne « Galerie » : huit dégradés générés à la volée qui n'apprenaient
  * rien à personne. Ce qu'un lecteur veut à cet endroit de la page, c'est l'affiche, le
- * line-up complet et les stories de la veille — c'est-à-dire le compte de l'organisateur.
+ * line-up complet et les stories de la veille, c'est-à-dire le compte de l'organisateur.
  * On l'envoie donc à la source au lieu de meubler.
  *
  * `owner` dit à qui appartient le compte affiché. Sur une soirée de club, on retombe

@@ -1,6 +1,6 @@
-# 🔊 RaveRadar — *The TripAdvisor of rave*
+# 🔊 RaveRadar - *The TripAdvisor of rave*
 
-> Discover Europe's best electronic music events — techno, hardstyle, DnB, psytrance, trance & warehouse raves, all in one immersive place.
+> Discover Europe's best electronic music events, techno, hardstyle, DnB, psytrance, trance & warehouse raves, all in one immersive place.
 
 A complete, production-quality concept + working website for an underground electronic-music event directory. Built in **vanilla HTML / CSS / JS** (zero build step) so it runs by just opening `index.html`.
 
@@ -8,15 +8,15 @@ A complete, production-quality concept + working website for an underground elec
 
 ## 🚀 Run it
 
-No tooling required — it's static.
+No tooling required, it's static.
 
 ```bash
-# Serve locally (required — links use clean /folder/ URLs)
+# Serve locally (required - links use clean /folder/ URLs)
 python3 -m http.server 8000
 # then visit http://localhost:8000
 ```
 
-> The only external dependencies are **Google Fonts** (Syne / Inter / Space Mono) and **Leaflet** (interactive map) via CDN. Everything else — including all imagery — is generated procedurally, so the site looks complete with no asset pipeline.
+> The only external dependencies are **Google Fonts** (Syne / Inter / Space Mono) and **Leaflet** (interactive map) via CDN. Everything else, including all imagery, is generated procedurally, so the site looks complete with no asset pipeline.
 
 ---
 
@@ -41,7 +41,7 @@ Each page lives in its own folder as `index.html`, giving clean URLs (`/explore/
 
 **Vibe:** liberty · energy · night · underground · mystery · community · adrenaline · discovery.
 **References:** Resident Advisor, Boiler Room, HÖR Berlin, Verknipt, Awakenings, Possession, Intercell.
-Warehouses, neon, lasers, strobes, festival smoke, clandestine raves — deliberately **anti-corporate, anti-SaaS, anti-pastel**.
+Warehouses, neon, lasers, strobes, festival smoke, clandestine raves, deliberately **anti-corporate, anti-SaaS, anti-pastel**.
 
 ### Exact palette
 | Token | Hex | Use |
@@ -58,9 +58,9 @@ Warehouses, neon, lasers, strobes, festival smoke, clandestine raves — deliber
 Signature gradient: `blue → violet → magenta`.
 
 ### Typography
-- **Syne** (800) — display / headlines (editorial, underground).
-- **Inter** — body copy.
-- **Space Mono** — labels, metadata, the "machine/flyer" detail.
+- **Syne** (800) (display / headlines (editorial, underground).
+- **Inter**) body copy.
+- **Space Mono**, labels, metadata, the "machine/flyer" detail.
 
 ### Signature FX
 Ambient drifting neon blobs · film-grain overlay · animated hero grid + laser sweep · glassmorphism search bar · neon-glow hover lift on cards · genre-colour-coded posters · scroll-reveal · running marquee · toast notifications.
@@ -96,8 +96,8 @@ Inspiration blend: **Spotify** (genre discovery), **Resident Advisor** (depth), 
 ---
 
 ## 💎 Premium features & monetisation
-- **Radar+ (€6/mo)** — artist/city alerts, ticket pre-sale access, ad-free, in-depth festival guides, group itineraries.
-- **Promoter (€39/mo)** — unlimited listings, featured placement, audience analytics, ticket integration, verified badge.
+- **Radar+ (€6/mo)**, artist/city alerts, ticket pre-sale access, ad-free, in-depth festival guides, group itineraries.
+- **Promoter (€39/mo)**, unlimited listings, featured placement, audience analytics, ticket integration, verified badge.
 - Other rails: ticketing affiliate commissions, sponsored/boosted events, festival brand takeovers, data insights for promoters.
 
 ---
@@ -119,4 +119,4 @@ This demo is intentionally framework-free for instant review. For a real launch:
 
 ---
 
-*© 2026 RaveRadar — keep it underground.*
+*© 2026 RaveRadar, keep it underground.*

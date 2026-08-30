@@ -32,7 +32,7 @@ import Breadcrumbs from "./Breadcrumbs";
 import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
 
-/** The place page that best matches this event — its department first, then its city. */
+/** The place page that best matches this event, its department first, then its city. */
 function placeFor(e: RaveEvent) {
   const norm = (s: string) => slugify(s);
   return (
@@ -64,7 +64,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   // donc pas de compte de club sur lequel retomber.
   const social = eventSocials(e, !guide);
 
-  // Related: same genre and still ahead — a finished event is a dead end for the reader.
+  // Related: same genre and still ahead, a finished event is a dead end for the reader.
   const related = upcoming()
     .filter((x) => x.id !== e.id && x.genres.some((gg) => e.genres.includes(gg)))
     .slice(0, 4);
@@ -118,7 +118,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               </h1>
               <p className="lead" style={{ marginTop: 10, color: "var(--white)" }}>
                 📍{" "}
-                {/* A city-wide programme has no venue page — its `venue` is a label, not an address. */}
+                {/* A city-wide programme has no venue page, its `venue` is a label, not an address. */}
                 {guide ? (
                   venue
                 ) : (
@@ -240,7 +240,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
               {/* Là où huit dégradés faisaient semblant d'être une galerie : les comptes
                   de l'organisateur. C'est le seul endroit de la page où l'on peut voir
-                  l'affiche du jour et le line-up complet — et ça reste chez lui. */}
+                  l'affiche du jour et le line-up complet, et ça reste chez lui. */}
               {social && <SocialsCard s={social.s} lang={lang} owner={social.from} ownerName={social.name} />}
 
               <div className="info-card">

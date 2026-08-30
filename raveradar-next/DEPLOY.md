@@ -2,14 +2,14 @@
 
 L'app est dans le **sous-dossier `raveradar-next/`** du repo. Le build est vérifié, aucune variable d'environnement n'est requise.
 
-## En 5 minutes (Vercel — recommandé)
+## En 5 minutes (Vercel - recommandé)
 1. Va sur **vercel.com → Add New → Project** et importe le repo GitHub `Djaaym/raveparty.fr`.
-2. **⚠️ Réglage critique** — dans la config du projet, mets :
+2. **⚠️ Réglage critique**, dans la config du projet, mets :
    - **Root Directory : `raveradar-next`** (sinon Vercel ne trouve pas l'app).
    - Framework Preset : **Next.js** (auto-détecté).
    - Build Command / Output : laisser par défaut.
 3. **Production Branch** : `main` (voir « Avant de déployer » ci-dessous).
-4. Clique **Deploy**. C'est tout — Next + Tailwind + Framer Motion + les ~135 pages SEO se construisent automatiquement.
+4. Clique **Deploy**. C'est tout, Next + Tailwind + Framer Motion + les ~135 pages SEO se construisent automatiquement.
 
 ## Avant de déployer
 - **Fusionner le travail dans `main`** : tout est sur la branche `claude/gifted-carson-HQLiX` (PR ouverte). Merge-la dans `main`, ou configure cette branche comme branche de production sur Vercel.

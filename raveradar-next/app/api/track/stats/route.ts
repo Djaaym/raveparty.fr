@@ -46,7 +46,7 @@ function range(params: URLSearchParams): { from: string; to: string } {
  * recent visits in full.
  *
  * One request rather than a dozen because the expensive half is reading and sessionizing
- * the range — doing that once and counting fifteen ways is far cheaper than fifteen
+ * the range, doing that once and counting fifteen ways is far cheaper than fifteen
  * endpoints each re-reading Redis, and it guarantees every panel describes the same
  * set of visits.
  */
@@ -100,7 +100,7 @@ export async function POST(req: Request) {
     return NextResponse.json({ counts: await hitCounts(from, to), store: storeInfo(), ping: await pingStore() });
   }
 
-  // Erasure. Explicit day list only — no "delete everything" shortcut, because the one
+  // Erasure. Explicit day list only, no "delete everything" shortcut, because the one
   // time you fat-finger this there is no undo and no backup.
   if (body.action === "delete") {
     const days = Array.isArray(body.days) ? body.days.filter((d): d is string => typeof d === "string" && ISO.test(d)) : [];

@@ -6,7 +6,7 @@ import { alertKey } from "@/lib/alerts";
 /**
  * Mirrors the visitor's subscriptions in localStorage, the same way favourites already
  * work. There is no account behind `/account`, so this browser's memory is the only
- * honest answer to "what am I subscribed to" — the authoritative copy lives with the
+ * honest answer to "what am I subscribed to", the authoritative copy lives with the
  * email provider, keyed by address, and only the provider can list it.
  */
 const KEY = "raveradar:alerts";

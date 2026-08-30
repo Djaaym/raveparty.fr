@@ -7,7 +7,7 @@
 Pourquoi ce script existe : Meta ne laisse plus lire les derniers posts d'un compte
 tiers (Basic Display fermée, Graph API réservée au propriétaire du jeton, oEmbed
 soumis à un jeton d'application). Le seul gisement légal de permaliens, ce sont les
-pages qui les publient déjà — à commencer par **le site officiel de l'organisateur**,
+pages qui les publient déjà, à commencer par **le site officiel de l'organisateur**,
 qui embarque très souvent son propre fil Instagram.
 
 Deux filtres, et aucun permalien ne passe sans les deux :
@@ -34,12 +34,12 @@ PAUSE = 1.2          # Instagram renvoie 429 dès qu'on le bouscule (cf. avatars
 
 
 def fetch(url: str, timeout: int = 25, follow: bool = True) -> str:
-    """curl, pas urllib — et sans `-L` sur Instagram.
+    """curl, pas urllib, et sans `-L` sur Instagram.
 
     Deux pièges empilés, tous deux silencieux. urllib et curl ne reçoivent pas la même
     page du lecteur Instagram (600 Ko de coquille contre 260 Ko de vraie réponse), et
     surtout : **suivre les redirections mène au mur de connexion**. Une page de login
-    répond 200, fait 600 Ko et ne contient évidemment aucun post — le script conclut
+    répond 200, fait 600 Ko et ne contient évidemment aucun post, le script conclut
     alors « permalien mort » sur des posts parfaitement valides. D'où `follow=False`
     pour les embeds, et `-L` conservé pour les sites d'organisateurs, qui redirigent
     légitimement (http→https, apex→www).

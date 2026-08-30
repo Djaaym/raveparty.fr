@@ -7,7 +7,7 @@ export interface Artist {
   name: string;
   eventIds: number[];
   /**
-   * L'union brute des genres de ses soirées — **à ne jamais afficher**. C'est un
+   * L'union brute des genres de ses soirées, **à ne jamais afficher**. C'est un
    * matériau de calcul, gardé pour les filtres internes. Ce qu'on montre, c'est
    * `artistGenres()` ; l'union affirmait qu'I Hate Models joue de la psytrance.
    */
@@ -18,13 +18,13 @@ export interface Artist {
 /**
  * Le nom affiché, quand le catalogue en écrit plusieurs.
  *
- * Trente-six artistes apparaissent sous deux orthographes dans les line-ups —
+ * Trente-six artistes apparaissent sous deux orthographes dans les line-ups,
  * « Étienne de Crécy » et « Etienne de Crécy », « KRUELTY » et « Kruelty ». Le slug
  * les réunit (c'est voulu : une page par artiste), mais le nom retenu était celui de
  * la *première* date rencontrée, c'est-à-dire un hasard de l'ordre du fichier.
  *
- * Deux règles, dans cet ordre : **l'accent gagne** — le perdre est une faute de
- * saisie, jamais un choix typographique — puis **la graphie la plus fréquente**. Les
+ * Deux règles, dans cet ordre : **l'accent gagne** (le perdre est une faute de
+ * saisie, jamais un choix typographique) puis **la graphie la plus fréquente**. Les
  * capitales, elles, sont souvent le vrai nom de scène (KETTAMA, NASTIA) : on ne les
  * corrige pas.
  */
@@ -66,16 +66,16 @@ export const ARTISTS: Artist[] = buildArtists();
 const BY_ID = new Map(EVENTS.map((e) => [e.id, e]));
 
 /**
- * Les genres de l'artiste — l'attribution quand on l'a, la déduction sinon.
+ * Les genres de l'artiste, l'attribution quand on l'a, la déduction sinon.
  *
  * `ARTIST_STYLES` (lib/artist-genres.ts) porte ce que l'artiste joue **d'après une
  * source** : Wikidata, MusicBrainz, les tags last.fm, ou un lot de recherche. C'est
- * une information que le calendrier ne contient pas — il sait où quelqu'un joue, pas
- * ce qu'il joue — donc elle prime dès qu'elle existe.
+ * une information que le calendrier ne contient pas (il sait où quelqu'un joue, pas
+ * ce qu'il joue) donc elle prime dès qu'elle existe.
  *
  * Le repli reste `rankGenres()`, qui pondère les genres des soirées de l'artiste. Il
  * ne disparaît pas : il couvre les milliers de noms qu'aucune base publique ne décrit, et il vaut
- * toujours mieux que l'union brute de `Artist.genres` — un festival étiqueté sur huit
+ * toujours mieux que l'union brute de `Artist.genres`, un festival étiqueté sur huit
  * styles étiquette du même coup les cinquante noms de son affiche, si bien que le jeu
  * brut affirmait qu'I Hate Models joue de la psytrance. Le détail du calcul est
  * documenté sur `rankGenres` dans lib/data.ts.
@@ -83,7 +83,7 @@ const BY_ID = new Map(EVENTS.map((e) => [e.id, e]));
 const GENRE_CACHE = new Map<string, string[]>();
 export function artistGenres(a: Artist): string[] {
   // Mémoïsé : `relatedArtists()` interroge les 1 887 artistes pour *chacune* des
-  // 1 887 fiches, et le repli `rankGenres()` relit le line-up à chaque appel — soit
+  // 1 887 fiches, et le repli `rankGenres()` relit le line-up à chaque appel, soit
   // trois millions de recalculs au build sans ce cache.
   const hit = GENRE_CACHE.get(a.slug);
   if (hit) return hit;
@@ -104,7 +104,7 @@ export function artistGenres(a: Artist): string[] {
  *
  * Ce que les onze cases du site ne savent pas dire. Vide par défaut, et **jamais
  * déduit** : un sous-genre ne se devine pas d'un line-up. Ces libellés n'ont pas de
- * page — les rendre cliquables créerait des centaines d'URLs vides, ce que le projet
+ * page, les rendre cliquables créerait des centaines d'URLs vides, ce que le projet
  * refuse partout ailleurs.
  */
 export function artistSubGenres(a: Artist): string[] {
@@ -122,7 +122,7 @@ export const eventsForArtist = (slug: string): RaveEvent[] =>
 /**
  * Les artistes proches, pour le bloc « À découvrir aussi ».
  *
- * Comparait `Artist.genres`, l'union brute — donc deux artistes qui n'ont en commun
+ * Comparait `Artist.genres`, l'union brute, donc deux artistes qui n'ont en commun
  * que d'avoir joué au même festival multi-genres se retrouvaient « proches ». Sur un
  * catalogue où un seul festival étiqueté sur huit styles touche cinquante noms, ça
  * revenait à relier tout le monde à tout le monde. On compare maintenant les genres

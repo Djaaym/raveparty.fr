@@ -15,7 +15,7 @@ const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass
 export default function MapView({ lang, today, catalogue }: { lang: Lang; today: string; catalogue: CardEvent[] }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
-  // The map is a "where can I go" tool — finished editions have no place on it.
+  // The map is a "where can I go" tool, finished editions have no place on it.
   const events = useMemo(
     () => catalogue.filter((e) => !isPast(e, today)).sort((a, b) => a.date.localeCompare(b.date)),
     [catalogue, today],
@@ -27,7 +27,7 @@ export default function MapView({ lang, today, catalogue }: { lang: Lang; today:
   const [filter, setFilter] = useState("all");
 
   /* La seule source de vérité du filtre. Elle alimente à la fois les marqueurs et la
-     liste latérale — qui, elle, n'était pas filtrée du tout. */
+     liste latérale, qui, elle, n'était pas filtrée du tout. */
   const visible = useMemo(
     () => (filter === "all" ? events : events.filter((e) => e.genres.includes(filter))),
     [events, filter],

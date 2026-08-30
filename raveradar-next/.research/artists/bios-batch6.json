@@ -65,7 +65,7 @@
  },
  {
   "name": "Dr Donk",
-  "bio_fr": "Dr Donk est un DJ et producteur allemand basé à Cologne, actif dans les registres uptempo, rawstyle et hardcore. Il a construit son personnage autour d'un décor de clinique médicale, jusqu'au nom d'artiste et au titre de ses sets. Ses morceaux paraissent sur les labels du circuit hard dance — Greazy Recordz, Snakepit Music, Defqon.1 Records, Q-dance Records ou Basscon — et il joue au Bootshaus de Cologne comme à Parookaville.",
+  "bio_fr": "Dr Donk est un DJ et producteur allemand basé à Cologne, actif dans les registres uptempo, rawstyle et hardcore. Il a construit son personnage autour d'un décor de clinique médicale, jusqu'au nom d'artiste et au titre de ses sets. Ses morceaux paraissent sur les labels du circuit hard dance (Greazy Recordz, Snakepit Music, Defqon.1 Records, Q-dance Records ou Basscon) et il joue au Bootshaus de Cologne comme à Parookaville.",
   "bio_en": "Dr Donk is a German DJ and producer based in Cologne, working in the uptempo, rawstyle and hardcore end of hard dance. He built his persona around a medical-clinic conceit, from the stage name down to the framing of his sets. His tracks come out on hard dance labels including Greazy Recordz, Snakepit Music, Defqon.1 Records, Q-dance Records and Basscon, and he plays Cologne's Bootshaus as well as Parookaville.",
   "origin": "Cologne, Allemagne",
   "labels": [
@@ -121,8 +121,8 @@
  },
  {
   "name": "Yoshiko",
-  "bio_fr": "Yoshiko, de son vrai nom Giada Morone, est une DJ de hardcore née en Italie d'une famille aux racines japonaises et brésiliennes — son nom de scène est un hommage à sa tante. Venue à la hardstyle puis au hardcore à l'adolescence, elle s'installe à Amsterdam à vingt-deux ans pour en faire son métier. Elle joue depuis sur les grandes scènes hard dance, de Defqon.1 à Harmony of Hardcore.",
-  "bio_en": "Yoshiko, real name Giada Morone, is a hardcore DJ born in Italy to a family with Japanese and Brazilian roots — her stage name is a tribute to her aunt. She came to hardstyle and then hardcore as a teenager and moved to Amsterdam at twenty-two to make it her career. She has since played the major hard dance stages, from Defqon.1 to Harmony of Hardcore.",
+  "bio_fr": "Yoshiko, de son vrai nom Giada Morone, est une DJ de hardcore née en Italie d'une famille aux racines japonaises et brésiliennes, son nom de scène est un hommage à sa tante. Venue à la hardstyle puis au hardcore à l'adolescence, elle s'installe à Amsterdam à vingt-deux ans pour en faire son métier. Elle joue depuis sur les grandes scènes hard dance, de Defqon.1 à Harmony of Hardcore.",
+  "bio_en": "Yoshiko, real name Giada Morone, is a hardcore DJ born in Italy to a family with Japanese and Brazilian roots, her stage name is a tribute to her aunt. She came to hardstyle and then hardcore as a teenager and moved to Amsterdam at twenty-two to make it her career. She has since played the major hard dance stages, from Defqon.1 to Harmony of Hardcore.",
   "origin": "Italie, installée à Amsterdam",
   "sources": [
    "https://www.hardcoreitalia.it/en/artists/yoshiko"
@@ -282,8 +282,8 @@
  },
  {
   "name": "Dasha Rush",
-  "bio_fr": "Dasha Rush est une productrice et DJ née en Russie, de nationalité française et installée à Berlin. Sa techno se déploie sur plusieurs plans, du club au terrain expérimental et ambient — l'album Sleepstep en est l'illustration la plus connue — et s'accompagne de collaborations avec des plasticiens et des danseurs. Elle dirige son label Fullpanda Records et sa sous-division plus exploratoire, Hunger to Create.",
-  "bio_en": "Dasha Rush is a Russian-born, French-national producer and DJ based in Berlin. Her techno works on several levels at once, from the club to experimental and ambient territory — the album Sleepstep being the best-known example — alongside collaborations with visual artists and dancers. She runs the label Fullpanda Records and its more exploratory sub-label, Hunger to Create.",
+  "bio_fr": "Dasha Rush est une productrice et DJ née en Russie, de nationalité française et installée à Berlin. Sa techno se déploie sur plusieurs plans, du club au terrain expérimental et ambient, l'album Sleepstep en est l'illustration la plus connue, et s'accompagne de collaborations avec des plasticiens et des danseurs. Elle dirige son label Fullpanda Records et sa sous-division plus exploratoire, Hunger to Create.",
+  "bio_en": "Dasha Rush is a Russian-born, French-national producer and DJ based in Berlin. Her techno works on several levels at once, from the club to experimental and ambient territory, the album Sleepstep being the best-known example, alongside collaborations with visual artists and dancers. She runs the label Fullpanda Records and its more exploratory sub-label, Hunger to Create.",
   "origin": "Russie, installée à Berlin",
   "labels": [
    "Fullpanda Records",

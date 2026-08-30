@@ -6,11 +6,11 @@ import { useMemo, useState } from "react";
 export interface DirectoryArtist {
   slug: string;
   name: string;
-  /** Dates in the catalogue. A number, not a formatted string — see the note below. */
+  /** Dates in the catalogue. A number, not a formatted string, see the note below. */
   n: number;
   /** Portrait filename under /artists/, when one exists under a licence that allows it. */
   photo?: string;
-  /** Genres, as indices into the `genres` prop — see the note on the component. */
+  /** Genres, as indices into the `genres` prop, see the note on the component. */
   g?: number[];
   /** Sous-genres, en indices dans la prop `subs`. Même raison que `g`. */
   sg?: number[];
@@ -40,15 +40,15 @@ const anchorOf = (letter: string) => `az-${letter === "#" ? "num" : letter.toLow
  *   said so on screen: without a break between "Amelie Lens" and "Boys Noize" the
  *   order is invisible, and a reader scrolling for "K" has no idea how far to go.
  * - **The filter sits at the top, and it sticks.** It used to live below the
- *   "next dates" grid, four screens down — a search box you have to find by
+ *   "next dates" grid, four screens down, a search box you have to find by
  *   scrolling is a search box nobody uses. Sticky, it stays reachable from the
  *   middle of the Z's.
  * - **The portrait when we have one.** 59 artists carry a Wikimedia photo; the
  *   rest keep the initial-in-a-disc. The credit that legally travels with a CC BY
- *   photo is rendered by the page, under the list — see ArtistsHub.
+ *   photo is rendered by the page, under the list, see ArtistsHub.
  *
  * **Every link still ships in the server-rendered HTML.** The box only hides rows,
- * so the internal mesh a crawler follows is exactly what it was before — the same
+ * so the internal mesh a crawler follows is exactly what it was before, the same
  * reason the old component gave, and it still holds. Items carry a slug, a name
  * and a *count*: the href and the "3 dates" label are rebuilt here. On 1 860
  * artists, shipping a formatted label per row is pure duplication of one template.
@@ -56,13 +56,13 @@ const anchorOf = (letter: string) => `az-${letter === "#" ? "num" : letter.toLow
  * Same reasoning for the genres each row now shows: they arrive as **indices** into
  * a `genres` array sent once, not as strings repeated row after row. "Hard Techno"
  * spelled out on every tile that plays it would be a few kilobytes of the same two
- * words. And since the labels are here anyway, the filter matches them too — typing
+ * words. And since the labels are here anyway, the filter matches them too, typing
  * "hardstyle" narrows the directory to the artists who play it, which is the second
  * thing anyone wants from a list of 1 860 names after looking for one they know.
  *
  * Les sous-genres suivent la même mécanique et pour la même raison : envoyés en indices
  * dans un second tableau, affichés à la suite des genres, cherchés par le même filtre.
- * C'est ce qui permet de taper « neurofunk », « tech house » ou « rawstyle » — des mots
+ * C'est ce qui permet de taper « neurofunk », « tech house » ou « rawstyle », des mots
  * que les onze cases du site ne contiennent pas, et qui sont pourtant ce qu'on cherche
  * quand on connaît un peu le style.
  */
@@ -85,14 +85,14 @@ export default function ArtistDirectory({
   /** Prefixed to every slug: `/artistes/`, `/en/artistes/`. */
   hrefBase: string;
   placeholder: string;
-  /** "{n} sur {total}" — only while a query is active. */
+  /** "{n} sur {total}", only while a query is active. */
   countLabel: string;
   emptyLabel: string;
   clearLabel: string;
   /** Singular / plural for the per-artist date count, on each tile. */
   dateLabel: string;
   datesLabel: string;
-  /** Singular / plural for the per-section head count — artists, not dates. */
+  /** Singular / plural for the per-section head count, artists, not dates. */
   artistLabel: string;
   artistsLabel: string;
   jumpLabel: string;

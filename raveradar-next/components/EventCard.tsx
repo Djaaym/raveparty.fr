@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { CardEvent, Lang } from "@/lib/types";
 /* `@/lib/display` et pas `@/lib/data` : cette carte est rendue aussi bien depuis un
    composant serveur que depuis /explore, /map ou la page d'accueil, qui sont clients.
-   Le moindre import de `lib/data.ts` y ferait entrer les 870 événements du catalogue —
+   Le moindre import de `lib/data.ts` y ferait entrer les 870 événements du catalogue,
    218 Ko compressés de JavaScript pour afficher une vignette. Tout ce qui vient du
    catalogue (chemin, vignette, dégradé) est donc résolu en amont : voir `cardEvents()`. */
 import { countryLabel, isPast, lastDay } from "@/lib/display";
@@ -24,7 +24,7 @@ export default function EventCard({
   lang,
   today,
 }: {
-  /** Un événement déjà préparé — `cardEvent(e)` côté serveur, `cardEvents()` pour une
+  /** Un événement déjà préparé, `cardEvent(e)` côté serveur, `cardEvents()` pour une
    *  liste. C'est ce qui porte le chemin de la fiche, la vignette et le dégradé. */
   e: CardEvent;
   lang: Lang;
@@ -51,7 +51,7 @@ export default function EventCard({
       <Link className="card-link" href={to}>
         <div className="card-media">
           {e.thumb ? (
-          // 560×700 is exactly what the crop is encoded at — declaring it keeps the 4:5
+          // 560×700 is exactly what the crop is encoded at, declaring it keeps the 4:5
           // box reserved before the file lands, so a grid never reflows as it fills in.
             <img
               className="poster"

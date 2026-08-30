@@ -5,14 +5,14 @@ import { DIRECT, dayKey, hostOf, langOfPath, pathGroup } from "./track";
  * Turns raw hits into something you can read.
  *
  * Two stages, kept apart on purpose:
- *   1. `sessionize()` — reassembles visits. A hit only knows about itself; a *visit* is
+ *   1. `sessionize()`, reassembles visits. A hit only knows about itself; a *visit* is
  *      what answers "did they stay, what did they read, where did they go".
- *   2. `buildReport()` — counts. Every filter narrows the set of *sessions*, then the
+ *   2. `buildReport()`, counts. Every filter narrows the set of *sessions*, then the
  *      counts are recomputed over what's left. So filtering on Instagram doesn't just
  *      grey out rows: every panel on the page becomes "…for visits that came from
  *      Instagram", which is the only reading of a filter that doesn't mislead.
  *
- * Pure module — no I/O, no env, no React. The dashboard imports the types from here.
+ * Pure module, no I/O, no env, no React. The dashboard imports the types from here.
  */
 
 /* ---------------------------------------------------------------------------
@@ -52,7 +52,7 @@ export type Session = {
   end: number;
   /** Wall-clock span of the visit. */
   durationMs: number;
-  /** Sum of the per-page engaged time — always ≤ durationMs, and 0 if no `end` arrived. */
+  /** Sum of the per-page engaged time, always ≤ durationMs, and 0 if no `end` arrived. */
   engagedMs: number;
   views: number;
   entry: string;
@@ -76,7 +76,7 @@ export type Session = {
   outbound: number;
   internal: number;
   goals: string[];
-  /** The link they left on, when the visit ended with an outbound click — the answer to
+  /** The link they left on, when the visit ended with an outbound click, the answer to
    *  "et après, ils vont où ?" that an exit page alone can't give. */
   exitTo?: string;
   steps: Step[];
@@ -145,7 +145,7 @@ export function sessionize(hits: Hit[]): Session[] {
         // The tracker reports *deltas*: it sends one `end` every time the tab is hidden
         // and one more when the page is finally left, so a visitor who switches away and
         // comes back produces several. Accumulate them onto the same step instead of
-        // pairing one-to-one — otherwise the second half of a visit is silently lost, and
+        // pairing one-to-one, otherwise the second half of a visit is silently lost, and
         // that is precisely the visitor who read the whole page.
         let step: Step | undefined;
         for (let i = s.steps.length - 1; i >= 0; i--) {
@@ -181,7 +181,7 @@ export function sessionize(hits: Hit[]): Session[] {
     // opened after it. A ticket link clicked mid-visit and returned from is followed by
     // another view; a departure is not.
     //
-    // Not a time window — that was the first attempt and it was wrong: the `end` beacon
+    // Not a time window, that was the first attempt and it was wrong: the `end` beacon
     // for the page they left routinely lands a second or two after the click, so
     // "within 2 s of the session end" silently missed most real departures.
     const lastOut = [...s.clicks].reverse().find((c) => c.k === "out");
@@ -227,7 +227,7 @@ export type Filters = {
   q?: string;
 };
 
-/** Every filter key the API accepts — one list, so the route, the dashboard chips and
+/** Every filter key the API accepts, one list, so the route, the dashboard chips and
  *  the URL round-trip can't drift apart. */
 export const FILTER_KEYS: (keyof Filters)[] = [
   "page",
@@ -265,8 +265,8 @@ function matchesText(s: Session, needle: string): boolean {
 }
 
 /**
- * Narrows the session set. A page filter means "visits that *included* this page" —
- * not "the pageviews of this page" — because the questions worth asking about a page
+ * Narrows the session set. A page filter means "visits that *included* this page",
+ * not "the pageviews of this page", because the questions worth asking about a page
  * (where did those readers come from, what else did they open, did they buy a ticket)
  * are all properties of the visit, not of the single view.
  */
@@ -306,7 +306,7 @@ export function applyFilters(sessions: Session[], f: Filters): Session[] {
 
 export type Row = {
   key: string;
-  /** Primary count — pageviews for pages, sessions for everything else. */
+  /** Primary count, pageviews for pages, sessions for everything else. */
   count: number;
   /** Distinct visitors behind that count. */
   uniq: number;
@@ -361,7 +361,7 @@ export type Kpis = {
   outbound: number;
   internal: number;
   goals: number;
-  /** Share of visits that clicked at least one outbound link — the closest thing this
+  /** Share of visits that clicked at least one outbound link, the closest thing this
    *  site has to a conversion until ticketing reports back. */
   outboundRate: number;
   avgScroll: number;
@@ -382,7 +382,7 @@ export type Report = {
   totals: { sessions: number; views: number };
 };
 
-/** A session flattened for the wire — the dashboard renders this directly. */
+/** A session flattened for the wire, the dashboard renders this directly. */
 export type SessionRow = Omit<Session, "steps" | "clicks"> & {
   steps: Step[];
   clicks: Click[];

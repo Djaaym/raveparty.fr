@@ -14,7 +14,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const fest = eventFromSlug(params.slug);
   if (fest && fest.type === "Festival") {
-    // A guided edition writes its own title/description — the generic template
+    // A guided edition writes its own title/description, the generic template
     // can't say "five days, 1,200 events, no single ticket" in 160 characters.
     const guide = guideFor(fest);
     return pageMeta({
@@ -22,7 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       path: `/festival/${params.slug}`,
       title: guide
         ? `${pick(guide.metaTitle, "fr")} | RaveRadar`
-        : `${fest.title} ${new Date(fest.date).getFullYear()} — dates, line-up, billets | RaveRadar`,
+        : `${fest.title} ${new Date(fest.date).getFullYear()}, dates, line-up, billets | RaveRadar`,
       description: guide ? pick(guide.metaDesc, "fr") : eventDescL(fest, "fr").slice(0, 160),
       image: imageUrl(fest),
     });
@@ -31,12 +31,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (place)
     return {
       alternates: alternates(`/festival/${params.slug}`, "fr"),
-      title: `Festival ${place.label} — line-ups, dates & billetterie | RaveRadar`,
+      title: `Festival ${place.label}, line-ups, dates & billetterie | RaveRadar`,
       description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
     };
   return {
     alternates: alternates(`/festival/${params.slug}`, "fr"),
-    title: "Festival — RaveRadar",
+    title: "Festival - RaveRadar",
   };
 }
 

@@ -26,7 +26,7 @@ existing = {(norm(m.group(1)), m.group(2))
 # La clé (titre, année) ne voit pas que « Pandemic » et « Pandemic w/ Vortek's »,
 # même salle et même nuit, sont le même événement : 30 doublons sont passés comme ça,
 # soit 30 pages en concurrence l'une avec l'autre. Ce qui identifie réellement une
-# date, c'est (ville, salle, jour) — un club ne tient pas deux soirées billetées le
+# date, c'est (ville, salle, jour) - un club ne tient pas deux soirées billetées le
 # même soir dans la même salle.
 # Une fiche = une ligne, et l'ordre des champs y est city … date … venue : on lit
 # donc ligne par ligne plutôt qu'avec un motif unique, qui n'aurait jamais matché.
@@ -52,7 +52,7 @@ CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$",
 # Le libellé de pays est une clé, pas un affichage : COUNTRY_FR / COUNTRY_FLAG sont
 # indexés dessus et `/pays/{slug}` en dérive. Un agent qui rend "United Kingdom" là où
 # le catalogue dit "UK" crée une deuxième page pays, moitié moins fournie, en
-# concurrence avec la première — le doublon qu'on passe justement notre temps à éviter.
+# concurrence avec la première - le doublon qu'on passe justement notre temps à éviter.
 COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
                "Scotland": "UK", "Wales": "UK", "Czechia": "Czech Republic",
                "Holland": "Netherlands", "The Netherlands": "Netherlands"}
@@ -60,7 +60,7 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
 # Un événement retiré du catalogue ne doit jamais y revenir par une refusion.
 # La clé de dédup se lit dans lib/data.ts : dès qu'une fiche en est retirée, la clé
 # disparaît avec elle et le JSON de recherche qui l'avait apportée la réinjecte au
-# merge suivant. C'est arrivé à Time Warp Spain — supprimé parce que time-warp.de
+# merge suivant. C'est arrivé à Time Warp Spain - supprimé parce que time-warp.de
 # porte un communiqué d'annulation, et candidat au retour à chaque exécution depuis.
 # Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
 # dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
@@ -77,7 +77,7 @@ GENRES = {"Techno","Hard Techno","Acid Techno","Hardstyle","Hardcore","EDM",
 # `type` était validé sur sa seule présence, alors que EventType (lib/types.ts) n'admet
 # que ces trois valeurs : un lot rendant "Rave" ou "Open Air" passait le merge et cassait
 # le build 7 000 pages plus loin, sur une erreur de typage au milieu de data.ts. Le coût
-# se paie au build, pas ici — d'où le rejet en amont. TYPE_FIX rattrape les deux
+# se paie au build, pas ici - d'où le rejet en amont. TYPE_FIX rattrape les deux
 # synonymes déjà vus plutôt que de perdre une fiche par ailleurs vérifiée : une grande
 # salle couverte est un "Warehouse", un plein air est un "Festival".
 TYPES = {"Festival","Club","Warehouse"}
@@ -163,7 +163,7 @@ print(f"duplicates skipped: {len(skipped)} | rejected: {len(rejected)}")
 for r in rejected[:15]: print("   REJECT", r)
 
 if DRY or not rows:
-    print("\n(dry run — data.ts untouched)" if DRY else "\nnothing to merge")
+    print("\n(dry run, data.ts untouched)" if DRY else "\nnothing to merge")
     sys.exit(0)
 
 marker = "];\n\n/* AI-generated key-art posters"

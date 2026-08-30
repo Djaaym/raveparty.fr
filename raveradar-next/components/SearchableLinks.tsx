@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 export interface FilterItem {
   /** Appended to `hrefBase` to build the link, and the React key. */
   slug: string;
-  /** The bare name — what the box matches on and what the row displays. */
+  /** The bare name, what the box matches on and what the row displays. */
   term: string;
 }
 
@@ -33,7 +33,7 @@ const norm = (s: string) =>
  * are rebuilt here from `hrefBase`/`labelPrefix` rather than shipped per row.
  *
  * The artists hub used to share this component through a `variant="tile"` branch;
- * it now has its own — `ArtistDirectory`, which adds A→Z sections and portraits —
+ * it now has its own, `ArtistDirectory`, which adds A→Z sections and portraits,
  * so what is left here is the pill list, and only that.
  */
 export default function SearchableLinks({
@@ -48,12 +48,12 @@ export default function SearchableLinks({
   groups: FilterGroup[];
   /** Prefixed to every slug: `/rave-party/`, `/en/artistes/`… */
   hrefBase: string;
-  /** Prepended to the displayed name only — never to what the box matches. */
+  /** Prepended to the displayed name only, never to what the box matches. */
   labelPrefix?: string;
   placeholder: string;
   /** "Aucun résultat pour « {q} »." */
   emptyLabel: string;
-  /** "{n} sur {total}" — only rendered while a query is active. */
+  /** "{n} sur {total}", only rendered while a query is active. */
   countLabel: string;
   clearLabel: string;
 }) {
