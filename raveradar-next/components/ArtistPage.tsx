@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { artistBySlug, artistGenres, artistSubGenres, eventsForArtist, relatedArtists } from "@/lib/artists";
 import { bioFor, bioText } from "@/lib/bios";
-import { artistPhoto } from "@/lib/artist-photos";
+import { artistPhoto, photoSource } from "@/lib/artist-photos";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, cardEvent } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -24,6 +24,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   if (!artist) return notFound();
   const bio = bioFor(slug);
   const photo = artistPhoto(slug);
+  const source = photo ? photoSource(photo.page) : null;
   const social = artistSocials(slug);
 
   const today = todayISO();
@@ -152,10 +153,17 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
               disparaissait avec elles). */}
           {photo && (
             <p className="artist-credits">
-              {t("artist.photocredit").replace("{author}", photo.author).replace("{license}", photo.license)}{" "}
-              <a href={photo.page} target="_blank" rel="noopener noreferrer nofollow">
-                Wikimedia Commons
-              </a>
+              {t(source ? "artist.photocredit" : "artist.photocreditnolink")
+                .replace("{author}", photo.author)
+                .replace("{license}", photo.license)}
+              {source && (
+                <>
+                  {" "}
+                  <a href={source.href} target="_blank" rel="noopener noreferrer nofollow">
+                    {source.label}
+                  </a>
+                </>
+              )}
             </p>
           )}
           <p className="lead">{intro}</p>

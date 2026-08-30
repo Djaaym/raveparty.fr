@@ -3,7 +3,7 @@ import type { Lang } from "@/lib/types";
 import { ALL_GENRES, genreSlug, nextUp, todayISO, upcoming, cardEvent, eventPath } from "@/lib/data";
 import { ARTISTS, artistGenres, artistSubGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
-import { ARTIST_PHOTOS, artistPhoto } from "@/lib/artist-photos";
+import { ARTIST_PHOTOS, artistPhoto, photoSource } from "@/lib/artist-photos";
 
 import { VENUES } from "@/lib/venues";
 import { fmtDate } from "@/lib/format";
@@ -104,7 +104,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           ],
           [
             "Pourquoi certains artistes n'ont-ils pas de photo ?",
-            "Parce qu'on ne publie que des portraits sous licence explicite, pris sur Wikimedia Commons, avec l'auteur et la licence affichés sous l'image. Une photo de presse ou un cliché Instagram reste une œuvre protégée. Et on ne génère jamais de portrait par IA pour une personne réelle : produire une image réaliste et reconnaissable de quelqu'un, ce n'est pas illustrer, c'est inventer.",
+            "Parce qu'un portrait n'est publié que si ses termes de réutilisation sont connus : la quasi-totalité vient de Wikimedia Commons, le reste a été fourni par l'artiste ou son entourage. Dans les deux cas l'auteur et le titre d'usage sont affichés sous l'image. Un cliché de presse ou d'Instagram attrapé sans autorisation reste une œuvre protégée, et on ne génère jamais de portrait par IA pour une personne réelle : produire une image réaliste et reconnaissable de quelqu'un, ce n'est pas illustrer, c'est inventer.",
           ],
           [
             "Deux artistes portent le même nom, comment vous faites ?",
@@ -126,7 +126,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           ],
           [
             "Why do some artists have no photo?",
-            "Because we only publish portraits under an explicit licence, sourced from Wikimedia Commons, with the author and licence shown under the image. A press shot or an Instagram picture is a copyrighted work whoever publishes it. And we never generate an AI portrait of a real person: producing a realistic, recognisable image of someone is not illustration, it is invention.",
+            "Because a portrait goes up only when its terms of reuse are known: nearly all of them come from Wikimedia Commons, the rest were supplied by the artist or their team. Either way the author and the terms appear under the image. A press or Instagram shot taken without permission is a copyrighted work whoever publishes it, and we never generate an AI portrait of a real person: producing a realistic, recognisable image of someone is not illustration, it is invention.",
           ],
           [
             "Two artists share a name, how do you handle that?",
@@ -270,15 +270,23 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
             <details className="az-credits">
               <summary>{t("artists.credits").replace("{n}", String(credits.length))}</summary>
               <ul>
-                {credits.map((c) => (
-                  <li key={c.file}>
-                    {c.name}, {c.author}, {c.license} (
-                    <a href={c.page} target="_blank" rel="noopener noreferrer nofollow">
-                      Wikimedia Commons
-                    </a>
-                    )
-                  </li>
-                ))}
+                {credits.map((c) => {
+                  const src = photoSource(c.page);
+                  return (
+                    <li key={c.file}>
+                      {c.name}, {c.author}, {c.license}
+                      {src && (
+                        <>
+                          {" ("}
+                          <a href={src.href} target="_blank" rel="noopener noreferrer nofollow">
+                            {src.label}
+                          </a>
+                          {")"}
+                        </>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </details>
           )}

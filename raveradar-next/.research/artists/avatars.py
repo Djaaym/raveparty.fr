@@ -917,7 +917,11 @@ def main() -> int:
                 out_map[slug] = entry
                 skipped.pop(slug, None)
                 return
-            skipped[slug] = (c["name"], why)
+            # La raison retenue est celle du **premier** candidat, pas du dernier : les
+            # candidats sont classés par autorité, donc c'est celle-là qui dit quoi
+            # corriger. Le rapport affichait l'inverse, et une photo déposée sans crédit
+            # ressortait en « aucun visage détecté », le reproche fait au fichier suivant.
+            skipped.setdefault(slug, (c["name"], why))
 
     def note_empty(slug: str, name: str, entries: list) -> None:
         """Un filtre qui ne laisse rien passer est une décision, pas une panne.
