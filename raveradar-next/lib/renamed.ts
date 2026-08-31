@@ -42,6 +42,16 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   "fr-dag-x-hubbas-klubb-gerd-janson": { base: "event", slug: "fraedag-x-hubbas-klubb-gerd-janson" }, // Frædag x Hubbas Klubb : Gerd Janson
   "fuse-presents-hadone-curates-n-rbak-tauceti": { base: "event", slug: "fuse-presents-hadone-curates-norbak-tauceti" }, // Fuse presents Hadone curates: Nørbak & Tauceti
   "hard-c-ur-creeds": { base: "event", slug: "hard-coeur-creeds" }, // Hard Cœur, Creeds
+  // Deux fiches pour la même chose. « Zamna x Primer » (Olympic Arena, tarif inconnu)
+  // et « ZAMNA × PRIMER Athens » (OAKA Marousi, 95 €) décrivent les mêmes 4-5 septembre
+  // dans la même enceinte olympique : la clé (ville, salle, jour) de `merge.py` ne l'a pas
+  // vu, les deux libellés de salle étant des périphrases différentes du même lieu. On garde
+  // l'id le plus ancien, et le slug du doublon pointe ici.
+  "zamna-x-primer": { base: "festival", slug: "zamna-primer-athens" },
+  // Même cas à Toulouse : « Hilight Tribe - Halloween Instrumental » portait les deux nuits
+  // (31/10 et 01/11) sur une seule fiche datée du 31, en concurrence avec les deux fiches
+  // par nuit déjà au catalogue. Son slug tombe sur la première des deux.
+  "hilight-tribe-halloween-instrumental": { base: "event", slug: "hilight-tribe-instrumental-halloween" },
   // Le titre était tronqué à « … Bellaire & Dimitri », l'affiche du Warehouse de
   // Nantes porte « Dimitri from Paris ». Corriger le titre déplace le slug.
   "club-de-jour-invite-bellaire-dimitri": { base: "event", slug: "club-de-jour-invite-bellaire-dimitri-from-paris" },
