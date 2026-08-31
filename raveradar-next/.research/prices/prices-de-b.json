@@ -164,5 +164,15 @@
   "ticketUrl": "https://zuckerwatt.ticket.io/pzLjLAEv/",
   "source": "https://zuckerwatt.ticket.io/pzLjLAEv/",
   "note": "les quatre phases de prevente (15, 18, 21, 24 EUR) sont ausverkauft ; il ne reste que la caisse du soir a partir de 23h, dont le tarif n'est pas publie. 24 EUR est donc la derniere phase vendue, pas un tarif encore achetable, d'ou estimated"
+ },
+ {
+  "id": 756,
+  "title": "Wonderful Days Cologne",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
+  "source": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
+  "note": "Early Bird (29,50) et Standard (34,50) ausverkauft ; Finale Phase a 39,50 EUR en vente (VIP 74,50). Line-up toujours non annonce"
  }
 ]

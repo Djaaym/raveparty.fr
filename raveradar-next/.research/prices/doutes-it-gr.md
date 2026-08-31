@@ -168,3 +168,28 @@ Le troisieme nom de l'affiche, **Saber Rider**, ne m'est accessible que par un a
 salle qui reprend Resident Advisor (https://events.musicofourdesire.com/venue/athens_conservatoire),
 RA repondant 403 depuis le conteneur. L'information est coherente sur plusieurs relais mais
 je n'ai pas ouvert de source primaire : a verifier avant publication. Aucun tarif accessible.
+
+## ids 836 et 155, Nameless Winter et Nameless Festival, line-up
+
+Aucune affiche 2027 publiee pour ni l'une ni l'autre : le site officiel n'a pas de page
+line-up pour ces deux editions, seulement la billetterie. Tarifs confirmes en revanche,
+General Admission Super Early Bird : **59 €** le pass 2 jours du Winter (13-14/02/2027,
+Barzio) et **119 €** le pass 3 jours du festival (04-06/06/2027, Lecco). Il existe aussi un
+« Forever Pass » couvrant les deux, a partir de 178 €.
+Sources : https://www.namelessfestival.it/winter-2027/biglietti et
+https://www.namelessfestival.it/festival-2027/biglietti
+
+## ids 844, 846, 847, Gabry Ponte « Circotron », tarifs non tranches
+
+Les trois dates (Unipol Arena Bologne 27/02, Inalpi Arena Turin 06/03, Palazzo dello Sport
+Rome 13/03) font partie de la meme tournee « CIRCOTRON - The Dance Show », produite par Live
+Nation, sans premiere partie annoncee (pages officielles des salles :
+https://www.unipolarena.it/portfolio/27-02-2027-gabry-ponte/ et
+https://www.inalpiarena.it/eventi/gabry-ponte-tickets-ae1419152, aucune des deux ne publie
+de tarif). Les billetteries (Ticketmaster, TicketOne, Live Nation) sont inaccessibles ou
+sans prix lisible depuis le conteneur, et **les sources secondaires se contredisent** :
+« a partir de 51,75 € » chez plusieurs agregateurs, contre un detail par secteur
+(parterre 74,75 €, 4e secteur 48,88 €, hors commissions) chez mentelocale.it
+(https://www.mentelocale.it/milano/127932-gabry-ponte-milano-circotron-the-dance-show-unipol-arena-2027.htm),
+page qui melange par ailleurs Milan et l'Unipol Arena de Bologne. Rien n'est verse : deux
+chiffres qui ne concordent pas ne font pas une source.

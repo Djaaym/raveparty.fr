@@ -198,5 +198,25 @@
   "ticketUrl": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
   "source": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
   "note": "ven. 23.10 23:00, bilety od 59 zl"
+ },
+ {
+  "id": 723,
+  "title": "Stereo MCs · Kino Šiška",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "http://www.kinosiska.si/en/dogodek/stereo-mcs/",
+  "source": "http://www.kinosiska.si/en/dogodek/stereo-mcs/",
+  "note": "prevente 39 EUR, sur place 45 EUR, tarif reduit 29,25 EUR ; Slovenie en zone euro"
+ },
+ {
+  "id": 587,
+  "title": "Autechre à Cukrarna",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.mojekarte.si/en/autechre/tickets-1208304.html",
+  "source": "https://www.mojekarte.si/en/autechre/tickets-1208304.html",
+  "note": "billet 40 EUR (plus 1 EUR de frais) sur mojekarte.si, la billetterie du MGML. La date est vendue comme 'Festival Indigo - 3. dan (Autechre + gostje)', 09.10.2026 a 22:00 ; un pass 3 jours du festival Indigo existe par ailleurs"
  }
 ]

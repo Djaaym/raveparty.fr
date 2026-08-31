@@ -218,5 +218,15 @@
   "priceNote": null,
   "source": "https://www.cartonnerie.fr/evenement/acid-arab/",
   "note": "tarif plein 29 € en prévente (33 € sur place), réduit 27 €, adhérent 24 €"
+ },
+ {
+  "id": 561,
+  "title": "Boston Bun au Stockfish",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://my.wilout-online.com/c9f4991878ab53c6f330ec9a7a697a22/s",
+  "source": "https://my.wilout-online.com/c9f4991878ab53c6f330ec9a7a697a22/s",
+  "note": "billetterie officielle du Stockfish (organisateur stockfish@ville-nice.fr) : tarif normal 15 €, tarif étudiant 5 €"
  }
 ]

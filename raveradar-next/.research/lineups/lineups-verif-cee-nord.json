@@ -428,5 +428,16 @@
   ],
   "source": "https://icelandairwaves.is/lineup/",
   "note": "programme officiel du site, plus les deux tetes d'affiche annoncees en haut de page (Shygirl, The Streets). Dadi Freyr, present dans la fiche du catalogue, n'apparait pas dans cette liste : a verifier"
+ },
+ {
+  "id": 218,
+  "title": "Klub K4 : ouverture de saison",
+  "lineup": [
+   "Pinch",
+   "CEM",
+   "Raphael Kosmos"
+  ],
+  "source": "https://www.klub-k4.si/en/",
+  "note": "le programme officiel du K4 pour le vendredi 18 septembre 2026 est la soiree 'KEEP IN MIND' avec Pinch (UK), CEM (GER) et Raphael Kosmos (CZ). Le titre du catalogue ('ouverture de saison') ne correspond a aucun libelle du club : a relire avant de publier"
  }
 ]

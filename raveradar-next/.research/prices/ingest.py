@@ -54,6 +54,15 @@ CURRENCIES = set(CURRENCY_FIX.values())
 
 NOTES = {None: "", "": "", "confirmed": "", "estimated": "estimated", "unknown": "unknown"}
 
+# Le garde-fou de vraisemblance se lit dans la devise, pas dans le nombre : 11 400 ISK
+# est un pass de festival islandais parfaitement ordinaire, 11 400 € serait une faute de
+# saisie. Un plafond unique refusait le premier pour attraper le second. Bornes larges
+# exprès, elles ne sont là que pour rattraper un montant en centimes ou une colonne
+# recopiée de travers.
+CAP = {"€": 5000, "£": 5000, "$": 5000, "CHF": 5000,
+       "zł": 20000, "Kč": 120000, "kr": 60000, "Ft": 2000000,
+       "lei": 25000, "лв": 10000, "RSD": 600000, "₺": 200000, "₴": 200000}
+
 
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFD", s)
@@ -156,13 +165,13 @@ def main() -> int:
                 except (TypeError, ValueError):
                     errors.append(f"{tag}: prix illisible « {r.get('price')} »")
                     continue
-                if price < 0 or price > 5000:
-                    errors.append(f"{tag}: prix hors bornes ({price})")
-                    continue
                 cur = CURRENCY_FIX.get(str(r.get("currency") or old_cur or "€").strip(),
                                        str(r.get("currency") or old_cur or "€").strip())
                 if cur not in CURRENCIES:
                     errors.append(f"{tag}: devise « {cur} » hors catalogue")
+                    continue
+                if price < 0 or price > CAP[cur]:
+                    errors.append(f"{tag}: prix hors bornes ({price} {cur}, plafond {CAP[cur]})")
                     continue
                 if price == 0 and note == "":
                     errors.append(f"{tag}: `price: 0` sans note annonce la gratuité — "

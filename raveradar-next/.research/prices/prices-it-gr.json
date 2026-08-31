@@ -252,5 +252,23 @@
   "priceNote": null,
   "ticketUrl": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/",
   "source": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/"
+ },
+ {
+  "id": 836,
+  "title": "Nameless Winter",
+  "price": 59,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.namelessfestival.it/winter-2027/biglietti",
+  "source": "https://www.namelessfestival.it/winter-2027/biglietti"
+ },
+ {
+  "id": 155,
+  "title": "Nameless Festival",
+  "price": 119,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.namelessfestival.it/festival-2027/biglietti",
+  "source": "https://www.namelessfestival.it/festival-2027/biglietti"
  }
 ]
