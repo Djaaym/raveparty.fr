@@ -60,14 +60,40 @@ export default function Home({ lang }: { lang: Lang }) {
         </div>
       </div>
 
+      {/* trending */}
+      <section className="section">
+        <div className="wrap">
+          <Reveal>
+            <div className="section-head">
+              <div>
+                <span className="eyebrow">{t("trending.eyebrow")}</span>
+                <h2 className="h-lg" style={{ marginTop: 14 }}>
+                  {t("trending.title")}
+                </h2>
+              </div>
+              <Link href={`${p}/explore`} className="btn btn-ghost">
+                {t("trending.cta")}
+              </Link>
+            </div>
+          </Reveal>
+          <div className="grid grid-4">
+            {trending.map((e) => (
+              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Organisateurs. Il y avait ici trois formules tarifaires (Raver gratuit,
           Radar+ à 6 €, Promoteur à 39 €) en bas de page, sous cinq sections : elles
           vendaient un abonnement qui n'existe pas, et elles reléguaient la seule
           contribution qu'on cherche vraiment à obtenir. Un annuaire ne vaut que par ce
           qu'il référence, et ce que le catalogue ne peut pas aller chercher tout seul,
           ce sont les dates que leurs organisateurs connaissent avant tout le monde.
-          D'où un bandeau, haut dans la page et compact : il passe avant les grilles
-          sans les repousser sous la ligne de flottaison. */}
+          Le bandeau passe **après** les tendances, pas avant : on vient ici pour des
+          dates, donc le premier bloc sous le hero doit être le calendrier et pas une
+          demande. Il reste la deuxième section de la page, et compact, donc visible
+          sans repousser les grilles sous la ligne de flottaison. */}
       <section className="section-sm" id="organisateurs">
         <div className="wrap">
           <div className="promote">
@@ -103,30 +129,6 @@ export default function Home({ lang }: { lang: Lang }) {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* trending */}
-      <section className="section">
-        <div className="wrap">
-          <Reveal>
-            <div className="section-head">
-              <div>
-                <span className="eyebrow">{t("trending.eyebrow")}</span>
-                <h2 className="h-lg" style={{ marginTop: 14 }}>
-                  {t("trending.title")}
-                </h2>
-              </div>
-              <Link href={`${p}/explore`} className="btn btn-ghost">
-                {t("trending.cta")}
-              </Link>
-            </div>
-          </Reveal>
-          <div className="grid grid-4">
-            {trending.map((e) => (
-              <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-            ))}
           </div>
         </div>
       </section>
@@ -192,17 +194,24 @@ export default function Home({ lang }: { lang: Lang }) {
         </div>
       </section>
 
-      {/* value */}
+      {/* Les trois arguments du site. Ils étaient rendus dans `.grid-3` + `.info-card`,
+          le gabarit partagé des FAQ et des blocs de formulaire : à `auto-fill`, trois
+          cartes dans une colonne de 1 630 px laissent deux pistes vides à droite, donc
+          un bloc collé à gauche sous des sections centrées. `.values` borne la rangée
+          puis la centre, et chaque carte porte sa couleur (icône, arête, lueur), comme
+          les cartes de genre. Les icônes sont décoratives, d'où `aria-hidden` : le titre
+          dit déjà ce que la carte annonce. */}
       <section className="section">
         <div className="wrap">
           <Reveal>
-            <div className="grid grid-3">
-              {[1, 2, 3].map((i) => (
-                <div className="info-card" key={i}>
-                  <h3 className="h-md">{t(`value${i}.title`)}</h3>
-                  <p className="lead" style={{ fontSize: ".95rem" }}>
-                    {t(`value${i}.desc`)}
-                  </p>
+            <div className="values">
+              {["🔔", "✓", "🗺"].map((ico, k) => (
+                <div className={`value-card v${k + 1}`} key={k}>
+                  <span className="value-ico" aria-hidden="true">
+                    {ico}
+                  </span>
+                  <h3 className="h-md">{t(`value${k + 1}.title`)}</h3>
+                  <p>{t(`value${k + 1}.desc`)}</p>
                 </div>
               ))}
             </div>

@@ -651,6 +651,46 @@ select.input option { background: var(--anthracite); }
 .ticket-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
 .ticket-row:last-of-type { border: 0; }
 .ticket-row b { font-family: var(--f-display); }
+/* ----------------------------- VALEURS (HOME) --------------------------- */
+/* Les trois arguments de la page d'accueil. Ils empruntaient `.grid-3` + `.info-card`,
+   partagé avec les FAQ et les blocs de formulaire : `auto-fill` remplit la ligne, donc
+   trois cartes dans une colonne de 1 630 px laissaient deux pistes vides à droite et le
+   bloc paraissait collé à gauche. Ici la rangée est bornée puis centrée, et la couleur
+   revient : une arête en tête (même idée que `.genrecard-bar`, un dégradé plein derrière
+   trois phrases est illisible, sur 3 px il identifie la carte d'un coup d'œil), une
+   lueur d'angle, et l'icône en pastille. */
+.values {
+  display: grid; gap: 20px; max-width: 1080px; margin-inline: auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(272px, 100%), 1fr));
+}
+/* `--vsoft` est écrit en rgba et pas dérivé de `--v1` : `color-mix()` n'est pas partout,
+   et la lueur veut de toute façon une opacité qui lui est propre. */
+.value-card {
+  --v1: var(--cyan); --v2: var(--blue); --vsoft: rgba(25,231,255,.13);
+  position: relative; overflow: hidden; padding: 30px 26px 28px;
+  border: 1px solid var(--line); border-radius: var(--r-lg);
+  background: radial-gradient(120% 110% at 0% 0%, var(--vsoft), transparent 62%), var(--anthracite);
+  transition: transform .35s var(--ease), border-color .35s, box-shadow .35s;
+}
+.value-card.v2 { --v1: var(--violet); --v2: var(--magenta); --vsoft: rgba(139,92,255,.15); }
+.value-card.v3 { --v1: var(--magenta); --v2: var(--acid); --vsoft: rgba(255,45,155,.13); }
+.value-card::before {
+  content: ""; position: absolute; inset: 0 0 auto; height: 3px;
+  background: linear-gradient(90deg, var(--v1), var(--v2));
+}
+.value-card:hover { transform: translateY(-4px); border-color: var(--v1); box-shadow: var(--shadow-card); }
+.value-ico {
+  display: grid; place-items: center; width: 46px; height: 46px; margin-bottom: 18px;
+  border-radius: 14px; font-size: 1.15rem; line-height: 1; color: var(--black);
+  background: linear-gradient(140deg, var(--v1), var(--v2));
+}
+.value-card h3 {
+  margin-bottom: 10px;
+  background: linear-gradient(95deg, #fff 30%, var(--v1));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.value-card p { color: var(--grey); font-size: .95rem; line-height: 1.7; }
+
 .info-card { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 22px; background: var(--anthracite); margin-bottom: 20px; }
 .info-card h3 { margin-bottom: 16px; }
 
