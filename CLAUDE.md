@@ -218,6 +218,55 @@ Aucune donnée inventée : dates, line-ups, lieux et prix doivent être vérifi�
 5. Recrawler les liens internes : aucun 404 toléré.
 6. Penser à remonter le cutoff de date dans `merge.py` (`"already over"`) à la date du jour.
 
+## Rafraîchir un catalogue déjà publié
+Trois choses se périment sur une fiche saisie il y a six mois, et aucune ne se re-vérifie
+toute seule : l'affiche (sortie depuis), le tarif (ouvert depuis) et la tenue même de
+l'événement. `merge.py` ajoute des fiches, il n'en corrige aucune. D'où deux chaînes
+jumelles, mêmes garde-fous, un lot JSON par région :
+
+    python3 .research/lineups/ingest.py --dry --merge   # puis sans --dry
+    python3 .research/prices/ingest.py  --dry           # puis sans --dry
+
+- **`--merge` est le mode par défaut du bon sens, pas `--force`.** Un lot d'agent complète
+  une affiche partielle bien plus souvent qu'il ne la corrige : `--force` aurait retiré
+  Modeselektor de Waterworks, absent du lot parce que l'agent n'a pas lu la source qui le
+  porte, pas parce qu'il a été déprogrammé. La fusion ne peut rien perdre.
+  **L'exception est l'affiche périmée**, et elle se vérifie à la main avant : Bloom
+  Festival et FAIRGROUND portaient les têtes d'affiche d'une **édition antérieure** (aucun
+  des quatre noms sur la page line-up officielle, qui porte pourtant la date de la fiche).
+  Là, fusionner aurait gardé le faux. Un agent qui affirme qu'une donnée **publiée** est
+  fausse mérite exactement la relecture qu'on donne à une donnée qu'il apporte.
+- **Le tarif d'entrée est le plus bas réellement vendu.** Trois façons de se tromper, toutes
+  payées sur ce lot : recopier le pass complet (C2C 160 € au lieu de 25), prendre le
+  montant **barré** que la billetterie présente comme le prix final au moment du festival
+  (UNTOLD, Kapital), ou retenir un dernier palier **épuisé** (Index: HorsegiirL à 53 €, que
+  personne ne peut plus payer). Sur un listing de billetterie, un « à partir de 8 € » est
+  souvent un casier ou une place de parking.
+- **Le garde-fou de vraisemblance se lit dans la devise.** Un plafond unique à 5 000
+  refusait le pass d'Iceland Airwaves à 11 400 ISK, montant islandais ordinaire, pour
+  attraper un 11 400 € qui serait une faute de frappe. Même erreur de raisonnement que
+  « le plus grand visage est l'artiste » : la mesure était juste, la question était mauvaise.
+- **Un motif qui lit `lineup` doit connaître les chaînes.** `lineup: \[[^\]]*\]` délimite le
+  tableau sur le premier `]`, et l'affiche Meakusma porte un artiste nommé « Daniel[i] » :
+  la substitution a écrit le nouveau tableau au milieu de l'ancien et poussé un `data.ts`
+  qui ne compilait pas. Ni l'audit (qui lit avec le même genre de motif) ni `check:fresh` ne
+  l'ont vu. **Seul `npm run build` attrape ça, il fait partie de la fusion, pas de l'après.**
+  Corollaire : `re.sub` relit les échappements du **remplacement**, donc on passe une lambda.
+- **Une absence n'est pas un communiqué.** Decibel Open Air a été retiré sur le texte
+  d'Astro s.r.l. repris par sa billetterie ; Todd Terje au Concorde 2 est **gardé** malgré
+  une salle qui ne le porte plus et un listing qui saute sa date, parce que ce sont deux
+  absences. Ce qu'on ne tranche pas va dans `.research/lineups/A-VERIFIER.md`, avec l'URL.
+- **Une page qui ne porte pas son année se lit comme si elle datait d'aujourd'hui** :
+  l'affiche « Hard Is Coming » qui circule est de janvier 2022, celle d'Illusion BZH de
+  décembre 2024, et les line-ups en ligne d'Insane et de Nuits Sonores sont ceux des
+  éditions déjà passées. Même piège que l'article artsixMic de 2012 sur Elektricity.
+- Sources qui ont porté la campagne : les pages de **lieu** de Skiddle (les pages
+  d'événement sont derrière un WAF, les pages de lieu embarquent un JSON par date avec
+  `minPrice`), DICE en clair, `ticket.io` **via WebFetch** (403 en curl), le JSON-LD de
+  jds.fr, `maassilo.com/dance/agenda` (et non `/agenda`, tronquée), l'API Stager de RADION,
+  et `wp-json/wp/v2/{type}` sur tout site de festival en WordPress dont la grille d'artistes
+  ne s'affiche qu'en JS, ce qui a livré les 154 noms de Meakusma.
+
 **Une suppression est une décision éditoriale : elle se consigne, sinon la refusion la défait.** La clé de dédup de `merge.py` se lit dans `lib/data.ts`, donc dès qu'une fiche en est retirée, sa clé disparaît avec elle et le JSON de recherche qui l'avait apportée la réinjecte au merge suivant. Time Warp Spain, supprimé parce que `time-warp.de` porte un communiqué d'annulation, revenait ainsi à chaque exécution. D'où `REMOVED` dans `merge.py` : `(titre normalisé, année) -> raison`, à compléter chaque fois qu'on retire une fiche pour autre chose qu'un doublon.
 
 **La clé (titre, année) regroupe les éditions d'un festival, pas les dates d'une tournée.** « Lane 8: This Never Happened » le 28/10 au Badaboum (Paris) et le 29/10 à l'Ancienne Belgique (Bruxelles) sont deux concerts, mais une seule clé : le second était rejeté en doublon. Le catalogue résout déjà ce cas en mettant la salle dans le titre (« PACT à La Laiterie », « NTO Live au Bikini »), c'est la convention à appliquer, pas la clé à assouplir : c'est elle qui empêche « Sónar 2026 » et « Sónar » de faire deux pages.
