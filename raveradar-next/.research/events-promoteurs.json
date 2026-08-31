@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Unfaced au C12",
+    "type": "Club",
+    "genres": ["Trance", "Acid Techno"],
+    "city": "Bruxelles",
+    "country": "Belgique",
+    "lat": 50.848202,
+    "lng": 4.351964,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 20,
+    "currency": "€",
+    "venue": "C12",
+    "trending": false,
+    "lineup": ["Eczodia", "Jacidorex", "Heavora", "Protokseed", "Vilain", "Mixsaj"],
+    "desc": "Le label bruxellois Unfaced, fondé par Jacidorex en 2022, revient au C12 après trois ans d'absence, le vendredi 25 septembre. Au line-up : Eczodia, Jacidorex en B2B avec Heavora, Protokseed, Vilain et Mixsaj, dans les sous-sols de la galerie Horta, sous la gare Centrale. Consignes, bouchons d'oreilles et eau à disposition, chill zone, stand de prévention et une care team en gilet bleu (safe zone) : l'organisation annonce une tolérance zéro sur les violences et le harcèlement.",
+    "descEn": "Brussels label Unfaced, founded by Jacidorex in 2022, returns to C12 after three years away, on Friday 25 September. On the bill: Eczodia, Jacidorex B2B Heavora, Protokseed, Vilain and Mixsaj, in the basements of the Horta gallery under Brussels Central Station. Lockers, earplugs and water available, plus a chill zone, a prevention stand and a care team in blue vests running the safe zone; the organisers state a zero-tolerance policy on violence and harassment.",
+    "note": "tarif indicatif, à confirmer sur la billetterie",
+    "ticketUrl": "https://shotgun.live/fr/events/unfaced-w-eczodia-jacidorex-b-2-b-heavora-protokseed",
+    "_source": "dépôt 0bc40392 par djaym.info@gmail.com, recoupé sur le JSON-LD Event de unfacedbxl.com/events (25/09/2026, C12 Brussels, line-up et billetterie identiques)",
+    "_subgenres": ["Acid Techno", "Tech Trance"],
+    "_geocode": "C12, Rue du Marché aux Herbes 116, Bruxelles, Belgique",
+    "_poster": "https://unfacedbxl.com/Events/unfaced_c12_brussels_2026.png"
+  }
+]

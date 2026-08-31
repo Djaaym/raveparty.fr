@@ -44,10 +44,10 @@ next_id = max(int(m) for m in re.findall(r"\{ id: (\d+),", src)) + 1
 # symbole : le montant affiché est celui que le lecteur paiera à l'entrée, pas une
 # conversion en euros que personne n'a publiée (et qui bougerait tous les jours).
 CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$",
-                "CZK": "Kč", "PLN": "zł", "CHF": "CHF", "HUF": "Ft", "RON": "lei",
-                "DKK": "kr", "SEK": "kr", "NOK": "kr", "ISK": "kr",
+               "CZK": "Kč", "PLN": "zł", "CHF": "CHF", "HUF": "Ft", "RON": "lei",
+               "DKK": "kr", "SEK": "kr", "NOK": "kr", "ISK": "kr",
                 # "дин" en cyrillique sur un site FR/EN ne dit rien à personne.
-                "дин": "RSD", "RSD": "RSD", "BGN": "BGN", "лв": "BGN"}
+               "дин": "RSD", "RSD": "RSD", "BGN": "BGN", "лв": "BGN"}
 
 # Le libellé de pays est une clé, pas un affichage : COUNTRY_FR / COUNTRY_FLAG sont
 # indexés dessus et `/pays/{slug}` en dérive. Un agent qui rend "United Kingdom" là où
@@ -55,7 +55,25 @@ CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$",
 # concurrence avec la première - le doublon qu'on passe justement notre temps à éviter.
 COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
                "Scotland": "UK", "Wales": "UK", "Czechia": "Czech Republic",
-               "Holland": "Netherlands", "The Netherlands": "Netherlands"}
+               "Holland": "Netherlands", "The Netherlands": "Netherlands",
+               # Un dépôt de promoteur arrive en français : le formulaire ne contraint pas
+               # le libellé, et « Belgique » créerait une deuxième page pays face aux 66
+               # fiches déjà rangées sous « Belgium ». La liste est l'inverse exact de
+               # COUNTRY_FR (lib/display.ts) : tout libellé FR que le site affiche doit
+               # savoir revenir à sa clé, sinon la page pays se dédouble.
+               "Albanie": "Albania", "Allemagne": "Germany", "Autriche": "Austria",
+               "Belgique": "Belgium", "Bosnie-Herzégovine": "Bosnia and Herzegovina",
+               "Bulgarie": "Bulgaria", "Chypre": "Cyprus", "Croatie": "Croatia",
+               "Danemark": "Denmark", "Espagne": "Spain", "Estonie": "Estonia",
+               "Finlande": "Finland", "Grèce": "Greece", "Géorgie": "Georgia",
+               "Hongrie": "Hungary", "Irlande": "Ireland", "Islande": "Iceland",
+               "Italie": "Italy", "Lettonie": "Latvia", "Lituanie": "Lithuania",
+               "Macédoine du Nord": "North Macedonia", "Malte": "Malta", "Mexique": "Mexico",
+               "Monténégro": "Montenegro", "Norvège": "Norway", "Pays-Bas": "Netherlands",
+               "Pologne": "Poland", "Roumanie": "Romania", "Royaume-Uni": "UK",
+               "République tchèque": "Czech Republic", "Serbie": "Serbia",
+               "Slovaquie": "Slovakia", "Slovénie": "Slovenia", "Suisse": "Switzerland",
+               "Suède": "Sweden"}
 
 # Un événement retiré du catalogue ne doit jamais y revenir par une refusion.
 # La clé de dédup se lit dans lib/data.ts : dès qu'une fiche en est retirée, la clé
@@ -72,7 +90,8 @@ REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
            # avec les deux fiches par nuit (ids 425 et 920).
            ("hilighttribehalloweeninstrumental", "2026"): "doublon des deux nuits de La Cabane (ids 425, 920)"}
 
-CITY_FIX = {"Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
+CITY_FIX = {"Bruxelles": "Brussels", "Anvers": "Antwerp", "Gand": "Ghent",
+            "Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
             "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow"}
 
@@ -110,7 +129,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["type"] = TYPE_FIX.get(e["type"], e["type"])
         if e["type"] not in TYPES:
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
-        if (e.get("endDate") or e["date"]) < "2026-08-25":
+        if (e.get("endDate") or e["date"]) < "2026-08-31":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",

@@ -1,0 +1,24 @@
+[
+  {
+    "kind": "event",
+    "key": "Unfaced au C12",
+    "instagram": "unfacedbxl",
+    "site": "https://unfacedbxl.com",
+    "facebook": "https://www.facebook.com/UnfacedEvents",
+    "soundcloud": "unfacedbxl",
+    "tiktok": "unfaced____",
+    "youtube": "https://www.youtube.com/channel/UCGU7pplEDxlJM0O3y2Lmu6Q",
+    "verified": "https://unfacedbxl.com, le bloc « Connect on social » du site officiel du label renvoie vers instagram.com/unfacedbxl, facebook.com/UnfacedEvents, soundcloud.com/unfacedbxl, tiktok.com/@unfaced____ et la chaîne YouTube. La même page porte le JSON-LD Event du 25/09/2026 au C12."
+  },
+  {
+    "kind": "event",
+    "key": "Unfaced w/ Jacidorex",
+    "instagram": "unfacedbxl",
+    "site": "https://unfacedbxl.com",
+    "facebook": "https://www.facebook.com/UnfacedEvents",
+    "soundcloud": "unfacedbxl",
+    "tiktok": "unfaced____",
+    "youtube": "https://www.youtube.com/channel/UCGU7pplEDxlJM0O3y2Lmu6Q",
+    "verified": "https://unfacedbxl.com, même label (Unfaced, fondé par Jacidorex) : la page /events porte le JSON-LD Event « Unfaced Dance » du 04/09/2026 au Bikini de Toulouse, et le bloc « Connect on social » les mêmes comptes."
+  }
+]

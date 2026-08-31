@@ -936,6 +936,11 @@ export const EVENTS: RaveEvent[] = [
   { id: 950, title: "Ely Oaks au Central Chapelle", type: "Club", genres: ["House", "Techno"], city: "Paris", country: "France", region: "Paris", lat: 48.89885, lng: 2.3606, date: "2026-10-28", time: "20:00", price: 27.9, currency: "€", venue: "Central Chapelle", trending: false, lineup: ["Ely Oaks"], desc: "Le producteur autrichien installé à Berlin Ely Oaks joue au Central Chapelle, la salle adossée à l'Adidas Arena dans le 18e, le mercredi 28 octobre 2026 à 20h. Un set entre house, tech-house et mélodies grand public, porté par « Running Around » (disque d'or, plus de 100 millions d'écoutes) et « Borderline » avec LAVINIA. Billets à 27,90 €.", descEn: "Austrian-born, Berlin-based producer Ely Oaks plays Central Chapelle, the venue attached to the Adidas Arena in the 18th arrondissement, on Wednesday 28 October 2026 at 8pm. A set spanning house, underground tech-house and pop-leaning melodies, built around \"Running Around\" (certified gold, over 100 million streams) and \"Borderline\" with LAVINIA. Tickets EUR 27.90." },
   { id: 951, title: "Loukeman au Badaboum", type: "Club", genres: ["House"], city: "Paris", country: "France", region: "Paris", lat: 48.85344, lng: 2.37577, date: "2026-10-30", time: "20:00", price: 28.5, currency: "€", venue: "Badaboum", trending: false, lineup: ["Loukeman"], desc: "Le Canadien Luke Fenton, alias Loukeman, joue au Badaboum le vendredi 30 octobre 2026 à 20h, dans une soirée présentée par AEG Presents France. Il y déroule l'esthétique de sa trilogie Star Dog : samples saturés, textures dégradées, house lo-fi frottée au R&B et au rap. Billets à 28,50 €.", descEn: "Canadian producer Luke Fenton, aka Loukeman, plays Badaboum on Friday 30 October 2026 at 8pm, in a night presented by AEG Presents France. He unpacks the aesthetic of his Star Dog trilogy: saturated samples, degraded textures, lo-fi house rubbed against R&B and rap. Tickets EUR 28.50." },
   { id: 952, title: "Gold Panda au Hasard Ludique", type: "Club", genres: ["Techno", "House"], city: "Paris", country: "France", region: "Paris", lat: 48.89568, lng: 2.32859, date: "2026-11-05", time: "20:00", price: 24.2, currency: "€", venue: "Le Hasard Ludique", trending: false, lineup: ["Gold Panda"], desc: "Le producteur britannique Gold Panda défend « TON UP », sorti en juin 2026, au Hasard Ludique le jeudi 5 novembre 2026 à 20h. Dix titres, huit morceaux dance bruts et deux interludes, assumés à 140 bpm, sans sophistication superflue. Billets à 24,20 €.", descEn: "British producer Gold Panda plays \"TON UP\", released in June 2026, at Le Hasard Ludique on Thursday 5 November 2026 at 8pm. Ten tracks, eight raw dance cuts and two interludes, pinned unapologetically at 140bpm, with no surplus polish. Tickets EUR 24.20." },
+
+  /* ---------- Pan-European expansion: verified events ----------
+     Researched per region, cross-checked against official sites, RA, Songkick,
+     Skiddle/Dice and local press. `priceNote` flags unconfirmed gate prices. */
+  { id: 953, title: "Unfaced au C12", type: "Club", genres: ["Trance", "Acid Techno"], city: "Brussels", country: "Belgium", lat: 50.848202, lng: 4.351964, date: "2026-09-25", time: "23:00", price: 20, currency: "€", venue: "C12", trending: false, lineup: ["Eczodia", "Jacidorex", "Heavora", "Protokseed", "Vilain", "Mixsaj"], desc: "Le label bruxellois Unfaced, fondé par Jacidorex en 2022, revient au C12 après trois ans d'absence, le vendredi 25 septembre. Au line-up : Eczodia, Jacidorex en B2B avec Heavora, Protokseed, Vilain et Mixsaj, dans les sous-sols de la galerie Horta, sous la gare Centrale. Consignes, bouchons d'oreilles et eau à disposition, chill zone, stand de prévention et une care team en gilet bleu (safe zone) : l'organisation annonce une tolérance zéro sur les violences et le harcèlement.", descEn: "Brussels label Unfaced, founded by Jacidorex in 2022, returns to C12 after three years away, on Friday 25 September. On the bill: Eczodia, Jacidorex B2B Heavora, Protokseed, Vilain and Mixsaj, in the basements of the Horta gallery under Brussels Central Station. Lockers, earplugs and water available, plus a chill zone, a prevention stand and a care team in blue vests running the safe zone; the organisers state a zero-tolerance policy on violence and harassment.", priceNote: "estimated" },
 ];
 
 /* AI-generated key-art posters (Nano Banana Pro), served from CDN. */
@@ -1358,7 +1363,7 @@ export const PHOTOS: Record<number, string> = {
   335: "bloom-festival-26e6eba58c.jpg", // Bloom Festival, Porto
   336: "anyma-den-global-tour-ea88169b65.jpg", // Anyma · ÆDEN Global Tour, Milan
   337: "bird-eebaaa0b9e.jpg", // 360 Degrees: Jayda G, Rotterdam
-  338: "d-club-e17e8f3b77.jpg", // Hard Bounce, Trym, Lausanne
+  338: "d-club-e17e8f3b77.jpg", // Hard Bounce - Trym, Lausanne
   339: "beonix-music-festival-05683f7696.jpg", // BEONIX Music Festival, Limassol
   340: "maassilo-eb975b0d34.jpg", // De Interventie – Blackout II, Rotterdam
   341: "supremacy-state-of-distortion-45bc9240a6.jpg", // Supremacy – State of Distortion, 's-Hertogenbosch
@@ -1367,11 +1372,11 @@ export const PHOTOS: Record<number, string> = {
   344: "robot-festival-dded33522f.jpg", // Robot Festival, Bologna
   345: "maassilo-eb975b0d34.jpg", // Gabber Resistance: Back at Maassilo, Rotterdam
   346: "basis-vinyl-special-w-narciss-dc4b217fbc.jpg", // BASIS Vinyl Special w/ Narciss, Utrecht
-  347: "ritter-butzke-ed664f78b3.jpg", // Ritter Butzke Jubiläum, NTO, Berlin
+  347: "ritter-butzke-ed664f78b3.jpg", // Ritter Butzke Jubiläum - NTO, Berlin
   348: "duro-festival-xxl-b623034584.jpg", // Duro Festival XXL, Montmeló
-  349: "modeselektor-classics-vol-01-49d1e02ef7.jpg", // Modeselektor, Classics Vol. 01, Vienna
+  349: "modeselektor-classics-vol-01-49d1e02ef7.jpg", // Modeselektor - Classics Vol. 01, Vienna
   350: "bootshaus-0ab051795e.jpg", // Chris Stussy à Cologne, Cologne
-  351: "d-club-e17e8f3b77.jpg", // Ninja Warriors, Indira Paganotto, Lausanne
+  351: "d-club-e17e8f3b77.jpg", // Ninja Warriors - Indira Paganotto, Lausanne
   352: "maassilo-eb975b0d34.jpg", // INFERI – Through Hell, Rotterdam
   353: "maassilo-eb975b0d34.jpg", // Megarave – The Millennium Edition, Rotterdam
   354: "c2c-festival-0ed6a0678d.jpg", // C2C Festival, Turin
@@ -1379,14 +1384,14 @@ export const PHOTOS: Record<number, string> = {
   356: "boris-brejcha-a-bernexpo-75e8b47415.jpg", // Boris Brejcha à Bernexpo, Bern
   357: "fuse-dce30f8610.jpg", // Fuse presents Silva Bumpa, Brussels
   358: "pussy-lounge-854985e4c5.jpg", // Pussy Lounge, Rotterdam
-  359: "bootshaus-0ab051795e.jpg", // Bootshaus & Loonyland, Halloween, Cologne
+  359: "bootshaus-0ab051795e.jpg", // Bootshaus & Loonyland - Halloween, Cologne
   360: "maassilo-971afeef46.jpg", // Paul Elstak presents 'Wanna Play?', Rotterdam
   361: "rave-rebels-xxl-91bce8a7f9.jpg", // Rave Rebels XXL, Brussels
-  362: "ritter-butzke-88bd5cc0ea.jpg", // Stil vor Talent, Oliver Koletzki, Berlin
+  362: "ritter-butzke-88bd5cc0ea.jpg", // Stil vor Talent - Oliver Koletzki, Berlin
   363: "culture-box-c31a122f2f.jpg", // Culture Box : Dusky, Copenhagen
   364: "link-x-midnight-w-dave-clarke-dj-hell-9315696ffc.jpg", // Link x Midnight w/ Dave Clarke & DJ Hell, Maastricht
   365: "maassilo-eb975b0d34.jpg", // Rotterdam Rave presents TITI, Rotterdam
-  366: "d-club-e17e8f3b77.jpg", // Space Odyssey, NTO & Joachim Pastor, Lausanne
+  366: "d-club-e17e8f3b77.jpg", // Space Odyssey - NTO & Joachim Pastor, Lausanne
   367: "ritter-butzke-8c782547d7.jpg", // Alan Fitzpatrick à Berlin, Berlin
   368: "poolen-2800f92098.jpg", // Sub Focus, Copenhagen
   369: "liquicity-ghent-864c06ff32.jpg", // Liquicity Ghent, Ghent
@@ -1397,7 +1402,7 @@ export const PHOTOS: Record<number, string> = {
   374: "azyr-au-nordstern-49d2d80164.jpg", // Azyr au Nordstern, Basel
   375: "liquicity-winterfestival-50531a5d9b.jpg", // Liquicity Winterfestival, Eindhoven
   376: "fcknye-festival-d86bfd26bd.jpg", // FCKNYE Festival, Brussels
-  377: "bootshaus-0ab051795e.jpg", // Bootshaus & Loonyland, NYE, Cologne
+  377: "bootshaus-0ab051795e.jpg", // Bootshaus & Loonyland - NYE, Cologne
   378: "ritter-butzke-ed664f78b3.jpg", // Hippie New Year, Berlin
   379: "maassilo-eb975b0d34.jpg", // Unresolved: Bloodline – Warbound Protocol, Rotterdam
   380: "reverze-2cde86f14b.jpg", // Reverze, Antwerp
@@ -1531,22 +1536,22 @@ export const PHOTOS: Record<number, string> = {
   514: "echoes-8be8b2c1fd.jpg", // Echoes, Nantes
   516: "karrusel-0c7efca1cf.jpg", // Karrusel, Copenhagen
   517: "uprising-festival-63019b81f2.jpg", // Uprising Festival, Bratislava
-  518: "playhard-luca-agnelli-097a0056cb.jpg", // Playhard, Luca Agnelli, Lausanne
+  518: "playhard-luca-agnelli-097a0056cb.jpg", // Playhard - Luca Agnelli, Lausanne
   519: "nrt-w-nikolina-f983885c10.jpg", // NRT w/ Nikolina, Nantes
   521: "fuse-the-third-room-with-verraco-37404bed57.jpg", // Fuse: The Third Room with Verraco, Brussels
   522: "shelter-jesse-maas-curates-dd39449071.jpg", // Shelter: Jesse Maas Curates, Amsterdam
   523: "swg3-joshwa-5e433d77c8.jpg", // SWG3: Joshwa, Glasgow
   525: "shelter-tins-all-night-0b680a90ad.jpg", // Shelter: Tins All Night, Amsterdam
-  527: "hard-cur-creeds-d0d3a83d24.jpg", // Hard Cœur, Creeds, Lausanne
+  527: "hard-cur-creeds-d0d3a83d24.jpg", // Hard Cœur - Creeds, Lausanne
   530: "fuse-presents-nikolina-ornella-cc5522167a.jpg", // Fuse presents NIKOLINA & Ornella, Brussels
-  531: "eric-prydz-openair-corner-df1ccadffa.jpg", // Eric Prydz, OpenAir Corner, Belgrade
+  531: "eric-prydz-openair-corner-df1ccadffa.jpg", // Eric Prydz - OpenAir Corner, Belgrade
   532: "vision-open-air-c81950b600.jpg", // Vision Open Air, Milan
   534: "index-horsegiirl-1058bce79f.jpg", // Index: HorsegiirL, Dublin
   535: "shelter-ryan-elliott-b2b-pancratio-b466538131.jpg", // Shelter: Ryan Elliott b2b Pancratio, Amsterdam
   536: "i-days-milano-david-guetta-ef0f6b196f.jpg", // I-Days Milano: David Guetta, Milan
   537: "gusgus-cab75cab28.jpg", // GusGus, Zagreb
   538: "roxy-8905d8f43d.jpg", // Clara Cuvé au Roxy, Prague
-  540: "subset-wilkinson-ca7556812b.jpg", // Subset, Wilkinson, Lausanne
+  540: "subset-wilkinson-ca7556812b.jpg", // Subset - Wilkinson, Lausanne
   541: "helzinki-hardstyle-festival-2049cb67b6.jpg", // Helzinki Hardstyle Festival, Helsinki
   542: "fuse-presents-2hot2play-alt8-6f1c9e6b76.jpg", // Fuse presents 2HOT2PLAY & ALT8, Brussels
   543: "mahlwerk-w-justin-jay-f967d448d3.jpg", // Mahlwerk w/ Justin Jay, Vienna
@@ -1561,7 +1566,7 @@ export const PHOTOS: Record<number, string> = {
   553: "shelter-signal-nyc-with-benny-rodrigues-57f563d317.jpg", // Shelter: Signal NYC with Benny Rodrigues, Amsterdam
   554: "swg3-2passo-hidde-van-wee-58dcba6e3c.jpg", // SWG3: 2Passo & Hidde Van Wee, Glasgow
   555: "roxy-8905d8f43d.jpg", // Lilly Palmer au Roxy, Prague
-  557: "obsession-kozlov-luciid-vendex-8448b959ef.jpg", // Obsession (Kozlov, Luciid & Vendex) Poznań
+  557: "obsession-kozlov-luciid-vendex-8448b959ef.jpg", // Obsession - Kozlov, Luciid & Vendex, Poznań
   558: "tomorrowland-symphony-of-unity-eb225dbdba.jpg", // Tomorrowland - Symphony of Unity, Verona
   559: "roxy-8905d8f43d.jpg", // Andy C & MC Tonn Piper au Roxy, Prague
   563: "lee-burridge-a-la-cabane-e25c1627b7.jpg", // Lee Burridge à La Cabane, Toulouse
@@ -1608,14 +1613,14 @@ export const PHOTOS: Record<number, string> = {
   612: "eric-prydz-93f13eead4.jpg", // Eric Prydz, Copenhagen
   613: "shelter-ade-slapfunk-bb459d9891.jpg", // Shelter ADE: Slapfunk, Amsterdam
   614: "timmy-trumpet-at-rockhal-1ff8ae916e.jpg", // Timmy Trumpet at Rockhal, Esch-sur-Alzette
-  615: "psy-clan-juno-reactor-1b134f9e79.jpg", // Psy Clan, Juno Reactor, Poznań
+  615: "psy-clan-juno-reactor-1b134f9e79.jpg", // Psy Clan - Juno Reactor, Poznań
   616: "thuishaven-ade-michel-de-hey-philou-louzolo-14341fb2af.jpg", // Thuishaven ADE: Michel de Hey & Philou Louzolo, Amsterdam
   617: "shelter-ade-brighter-days-x-life-and-death-de8ca65461.jpg", // Shelter ADE: Brighter Days x Life and Death, Amsterdam
   618: "roxy-8905d8f43d.jpg", // Adrián Mills au Roxy, Prague
   619: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée à La Belle Électrique, Grenoble
   624: "modestep-au-fomo-2325c176f4.jpg", // Modestep au FOMO, Sofia
   625: "la-p-tite-fumee-a-la-rock-school-barbey-2954bf2c93.jpg", // La P'tite Fumée au Transbordeur, Villeurbanne
-  626: "club-de-jour-invite-bellaire-dimitri-0f27ec74e5.jpg", // Club de Jour invite Bellaire & Dimitri, Nantes
+  626: "club-de-jour-invite-bellaire-dimitri-0f27ec74e5.jpg", // Club de Jour invite Bellaire & Dimitri from Paris, Nantes
   628: "roxy-8905d8f43d.jpg", // Agents Of Time au Roxy, Prague
   634: "the-poetry-club-72c5910d1c.jpg", // Lucid Dreams: Acid Techno, Glasgow
   635: "roxy-8905d8f43d.jpg", // Tinlicker au Roxy, Prague
@@ -1817,6 +1822,7 @@ export const PHOTOS: Record<number, string> = {
   950: "ely-oaks-au-central-chapelle-ce4d8006ad.jpg", // Ely Oaks au Central Chapelle, Paris
   951: "badaboum-22e68c2168.jpg", // Loukeman au Badaboum, Paris
   952: "le-hasard-ludique-85d7d58335.jpg", // Gold Panda au Hasard Ludique, Paris
+  953: "unfaced-au-c12-af10b15683.jpg", // Unfaced au C12, Brussels
 };
 /* PHOTOS:end */
 
@@ -2623,6 +2629,7 @@ const TICKETS: Record<number, string> = {
   950: "https://www.jds.fr/paris/concerts/electro/ely-oaks-1567626_A",
   951: "https://www.jds.fr/paris/concerts/electro/loukeman-1541689_A",
   952: "https://www.jds.fr/paris/concerts/electro/gold-panda-1636668_A",
+  953: "https://shotgun.live/fr/events/unfaced-w-eczodia-jacidorex-b-2-b-heavora-protokseed",
 };
 /* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
    partenariat payant). Google demande que ces liens sortants portent
