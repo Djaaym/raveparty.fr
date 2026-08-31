@@ -21,3 +21,27 @@ export const ADMIN = ownerGate({
   // Plus court que les 30 jours du suivi : cette porte-là supprime des comptes.
   sessionSeconds: 7 * 24 * 3600,
 });
+
+/* ---------------------------------------------------------------------------
+   L'accès par compte
+--------------------------------------------------------------------------- */
+
+/**
+ * Les adresses qui ouvrent la console avec leur propre compte promoteur.
+ *
+ * Le mot de passe suffisait, mais il oblige à en retenir un de plus et il ne dit pas
+ * *qui* agit. Un propriétaire qui a déjà un compte sur le site doit pouvoir supprimer un
+ * dépôt sans ressaisir un secret d'environnement.
+ *
+ * `ADMIN_EMAILS` accepte une liste séparée par des virgules ; par défaut, l'adresse du
+ * propriétaire du site.
+ */
+const ADMIN_EMAILS = (process.env.ADMIN_EMAILS ?? "djaym.info@gmail.com")
+  .split(",")
+  .map((e) => e.trim().toLowerCase())
+  .filter(Boolean);
+
+export const isAdminEmail = (email: string): boolean => ADMIN_EMAILS.includes(email.trim().toLowerCase());
+
+/** Les adresses déclarées, pour que la console puisse les afficher. */
+export const adminEmails = (): string[] => [...ADMIN_EMAILS];

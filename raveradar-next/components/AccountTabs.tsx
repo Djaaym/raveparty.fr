@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import type { Lang } from "@/lib/types";
 import type { CardEvent } from "@/lib/types";
-import { getDict } from "@/lib/i18n";
+import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
 import { readFavs } from "./useFavorites";
 import { removeAlert, useAlerts } from "./useAlerts";
@@ -71,6 +71,18 @@ export default function AccountTabs({
   return (
     <>
       <ProfileHead lang={lang} />
+
+      {/* La console n'est liée de nulle part sur le site : ce raccourci est le seul,
+          et il n'apparaît que pour le compte qui l'ouvre vraiment. Le serveur décide
+          (`admin` vient de /api/promoteur/me), la page ne fait que l'afficher. */}
+      {session?.admin && (
+        <p className="pro-adminlink">
+          <a href={`${langPrefix(lang)}/admin`} className="btn btn-ghost btn-sm">
+            {t("pro.admin")}
+          </a>
+          <span>{t("pro.admin.hint")}</span>
+        </p>
+      )}
 
       <div className="tabs" role="tablist">
         {tabs.map(([k, label]) => (

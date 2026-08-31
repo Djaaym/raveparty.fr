@@ -1670,6 +1670,8 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .pro-profile { max-width: 780px; }
 .pro-profile .btn { margin-top: 24px; }
 .pro-static { font-family: var(--f-mono); font-size: .9rem; color: var(--white); }
+.pro-adminlink { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 22px; padding: 14px 18px; border: 1px solid var(--line); border-left: 3px solid var(--acid); border-radius: var(--r-md); background: var(--anthracite); }
+.pro-adminlink span { color: var(--grey-2); font-size: .84rem; }
 .pro-signin { display: flex; flex-direction: column; gap: 22px; }
 .pro-signin .lead { max-width: 60ch; margin: 0; }
 

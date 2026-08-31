@@ -10,6 +10,9 @@ import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
+// Runtime Node explicite : cette route envoie du mail, et le transport SMTP a besoin
+// des sockets de Node, que le runtime edge n'offre pas.
+export const runtime = "nodejs";
 
 /** Combien de dépôts sur 24 h. Un promoteur annonce sa saison, pas son catalogue :
  *  au-delà, c'est un import, et un import se discute avant de se relire. */

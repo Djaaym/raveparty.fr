@@ -51,32 +51,52 @@ lambda disparaît au premier redéploiement, et annoncer une inscription qui ne 
 est pire que la refuser. Le repli mémoire reste ouvert en `next dev`, où il est exactement
 ce qu'il faut.
 
-### 2. Les alertes mail (une seule ligne)
+### 2. Les alertes mail
 
 C'est par là qu'arrivent les demandes de compte et les dépôts, avec les liens
-**Approuver** / **Refuser** et l'affiche en pièce jointe.
+**Approuver** / **Refuser** et l'affiche en pièce jointe. Trois transports possibles,
+essayés dans cet ordre.
+
+#### Recommandé : la boîte du domaine (Hostinger)
+
+```
+SMTP_HOST=smtp.hostinger.com     (ou smtp.titan.email selon l'offre, à vérifier dans hPanel)
+SMTP_USER=noreply@raveparty.fr
+SMTP_PASS=…
+SMTP_PORT=465                    (facultatif : 465 par défaut, 587 pour STARTTLS)
+```
+
+L'expéditeur se déduit de `SMTP_USER`, il n'y a donc rien d'autre à poser. Les
+enregistrements SPF et DKIM du domaine étant déjà en place chez l'hébergeur, un promoteur
+reçoit sa validation depuis une adresse du site, et non depuis l'adresse de démarrage d'un
+tiers.
+
+**Une boîte dédiée, jamais la boîte personnelle.** Une clé d'API ne sait qu'envoyer ; le
+mot de passe d'une boîte ouvre aussi sa lecture en IMAP. Mettre celui de sa boîte
+principale dans les variables d'un déploiement, c'est y mettre l'accès complet à son
+courrier alors que le site n'a besoin que d'expédier. Une boîte `noreply@` rend la fuite
+sans intérêt, et la console le rappelle à l'écran.
+
+**Les quotas d'un hébergeur ne sont pas ceux d'un service d'envoi** (quelques centaines de
+messages par jour, parfois par heure). Sans importance ici ; le jour où une vraie
+newsletter part à toute la liste, c'est Brevo qui la portera, pas cette boîte.
+
+#### En repli : Resend
 
 ```
 RESEND_API_KEY=re_…
 ```
 
-Et c'est tout, pour se prévenir soi-même. Le destinataire vaut `djaym.info@gmail.com` par
-défaut (`ALERTS_NOTIFY_TO` pour en changer), et l'expéditeur retombe sur
+Une seule ligne, pour se prévenir soi-même. Le destinataire vaut `djaym.info@gmail.com`
+par défaut (`ALERTS_NOTIFY_TO` pour en changer) et l'expéditeur retombe sur
 `onboarding@resend.dev`, l'adresse de démarrage de Resend, qui fonctionne **sans domaine
-vérifié**. Sa limite est connue et affichée dans la console : elle **n'écrit qu'à
-l'adresse du compte Resend**. C'est exactement ce dont on a besoin pour être prévenu ;
-ça ne suffit pas pour écrire à un promoteur.
+vérifié**. Sa limite est affichée dans la console : elle **n'écrit qu'à l'adresse du
+compte Resend**, donc elle ne suffit pas pour écrire à un promoteur. Pour ça, un domaine
+vérifié et `ALERTS_NOTIFY_FROM=alertes@raveparty.fr`.
 
-Pour que les mails de validation et de refus partent vers les organisateurs, il faut un
-domaine vérifié chez le fournisseur et l'expéditeur qui va avec :
-
-```
-ALERTS_NOTIFY_FROM=alertes@raveparty.fr
-```
-
-Brevo marche aussi (`BREVO_API_KEY`), avec une différence : il n'a pas d'expéditeur de
-démarrage, il exige un expéditeur vérifié dans le compte, donc `ALERTS_NOTIFY_FROM` y est
-obligatoire dès le départ.
+Brevo marche aussi (`BREVO_API_KEY`), avec une différence : pas d'expéditeur de démarrage,
+il exige un expéditeur vérifié dans le compte, donc `ALERTS_NOTIFY_FROM` y est obligatoire
+dès le départ.
 
 **Le bouton « Envoyer un test » de `/admin` est là pour finir la configuration** : il
 envoie un vrai message et rend la réponse du fournisseur telle quelle. « API key is
@@ -126,16 +146,38 @@ serait d'ouvrir Redis à la main.
 lien depuis le site, `noindex`, `Disallow` dans `robots.txt`, et un mot de passe sur ses
 propres routes, pas seulement sur l'affichage.
 
+**Deux portes, indépendantes.**
+
+**Avec ton compte, c'est la voie normale.** Une session promoteur dont l'adresse figure
+dans `ADMIN_EMAILS` (par défaut `djaym.info@gmail.com`) et **dont le compte est approuvé**
+ouvre la console. On se connecte sur `/account` comme sur le reste du site, et un lien
+« Administration » apparaît au-dessus des onglets. Rien à configurer.
+
+Pourquoi « approuvé » et pas seulement « la bonne adresse » : rien ne vérifie qu'on
+possède l'adresse saisie à l'inscription, il n'y a pas de confirmation par mail. Ouvrir la
+console sur la seule foi d'une adresse la donnerait au premier qui s'inscrit avec la
+tienne. Exiger un compte approuvé referme la porte sans machinerie nouvelle, le seul moyen
+d'être approuvé étant un clic dans le mail de validation, qui part vers ta boîte. Une
+fausse candidature s'y voit et ne s'approuve pas.
+
+**Avec un mot de passe, en secours.**
+
 ```
 ADMIN_PASSWORD=une-chaîne-longue-et-unique
 ```
 
 **Sans elle, `TRACKING_PASSWORD` fait l'affaire** : il y a une seule personne derrière ces
 deux pages, et lui demander de configurer un second secret pour la même main serait le
-meilleur moyen qu'elle en choisisse un faible. Poser `ADMIN_PASSWORD` sépare les deux
-quand on veut confier l'audience sans confier la suppression de comptes. Le cookie est
-propre à la console (7 jours, contre 30 pour le suivi, cette porte-là supprimant des
-comptes) : même avec le même mot de passe, un cookie `/suivi` n'ouvre pas `/admin`.
+meilleur moyen qu'elle en choisisse un faible. Le cookie est propre à la console (7 jours,
+contre 30 pour le suivi, cette porte-là supprimant des comptes) : même avec le même mot de
+passe, un cookie `/suivi` n'ouvre pas `/admin`. Garde cette porte ouverte : perdre le mot
+de passe de son compte ou casser le magasin fermerait sinon le seul chemin qui permet de
+réparer.
+
+Un troisième garde-fou vient avec l'accès par compte : **on ne peut ni se supprimer ni se
+suspendre soi-même**. Entré avec son propre compte, c'est lui qui tient la porte, et sans
+`ADMIN_PASSWORD` posé il n'y aurait plus aucun moyen de revenir. La console refuse, et
+n'affiche pas les boutons sur sa propre ligne.
 
 Ce qu'on y fait, sur un compte : le passer à `approved`, `pending`, `suspended`,
 `rejected`, ou le supprimer. Sur un dépôt : le valider, le remettre en relecture,

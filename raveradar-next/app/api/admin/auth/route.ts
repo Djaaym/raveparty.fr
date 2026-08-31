@@ -1,16 +1,28 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
-import { ADMIN } from "@/lib/admin-auth";
+import { ADMIN, adminEmails } from "@/lib/admin-auth";
+import { adminAccess } from "@/lib/admin-access";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
-/** La console est-elle configurée, et ce navigateur est-il déjà entré ? */
-export async function GET() {
+/**
+ * Ce navigateur est-il déjà entré, et par quelle porte ?
+ *
+ * `configured` ne dit plus que l'état du mot de passe de secours : on entre aussi avec
+ * le compte du propriétaire, donc la console reste ouvrable même sans lui, et la page
+ * doit pouvoir le dire au lieu d'afficher un formulaire qui n'ouvrira rien.
+ */
+export async function GET(req: Request) {
+  const access = await adminAccess(req);
   return NextResponse.json({
     configured: ADMIN.isConfigured(),
-    authed: ADMIN.verifyToken(cookies().get(ADMIN.cookie)?.value),
+    authed: access.ok,
+    via: access.via,
+    email: access.email,
+    // Les adresses déclarées : sans elles, quelqu'un qui ne peut pas entrer n'a aucun
+    // moyen de savoir avec quel compte il devrait se connecter.
+    admins: adminEmails(),
   });
 }
 

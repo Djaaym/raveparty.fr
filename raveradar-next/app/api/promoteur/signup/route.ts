@@ -8,6 +8,9 @@ import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
+// Runtime Node explicite : cette route envoie du mail, et le transport SMTP a besoin
+// des sockets de Node, que le runtime edge n'offre pas.
+export const runtime = "nodejs";
 
 /**
  * La création d'un compte promoteur.

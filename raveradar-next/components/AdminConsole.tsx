@@ -43,6 +43,9 @@ export default function AdminConsole() {
   const [data, setData] = useState<Data | null>(null);
   const [tab, setTab] = useState<Tab>("accounts");
   const [busy, setBusy] = useState("");
+  const [gate, setGate] = useState<{ via: string | null; email: string | null; admins: string[]; configured: boolean }>({
+    via: null, email: null, admins: [], configured: true,
+  });
   const [confirming, setConfirming] = useState("");
   const [open, setOpen] = useState<string>("");
   const [mailTest, setMailTest] = useState("");
@@ -59,10 +62,15 @@ export default function AdminConsole() {
   useEffect(() => {
     void (async () => {
       const res = await fetch("/api/admin/auth", { cache: "no-store" });
-      const j = (await res.json()) as { configured: boolean; authed: boolean };
+      const j = (await res.json()) as {
+        configured: boolean; authed: boolean; via: string | null; email: string | null; admins: string[];
+      };
+      setGate({ via: j.via, email: j.email, admins: j.admins ?? [], configured: j.configured });
+      if (j.authed) return load();
+      // Fermée seulement s'il n'y a **aucune** porte : sans mot de passe de secours, on
+      // entre encore avec le compte du propriétaire, et la page doit le dire.
       if (!j.configured) return setState("closed");
-      if (!j.authed) return setState("locked");
-      await load();
+      return setState("locked");
     })();
   }, [load]);
 
@@ -113,9 +121,16 @@ export default function AdminConsole() {
       <div className="adm-lock">
         <h1 className="h-md">Console fermée</h1>
         <p>
-          Pose <code>ADMIN_PASSWORD</code> (ou <code>TRACKING_PASSWORD</code>) dans les variables
-          d&apos;environnement, puis redéploie. Sans mot de passe, cette page ne s&apos;ouvre pas :
-          elle supprime des comptes.
+          Deux façons d&apos;entrer, et aucune n&apos;est ouverte pour le moment.
+        </p>
+        <p>
+          <b>Avec ton compte</b> : connecte-toi sur <a href="/account">/account</a> avec
+          {gate.admins.length ? ` ${gate.admins.join(" ou ")}` : " l'adresse déclarée dans ADMIN_EMAILS"}, et
+          fais approuver ce compte (le lien est dans le mail de demande). Il ouvrira cette page.
+        </p>
+        <p>
+          <b>Avec un mot de passe</b>, en secours : pose <code>ADMIN_PASSWORD</code> (ou{" "}
+          <code>TRACKING_PASSWORD</code>) dans les variables d&apos;environnement, puis redéploie.
         </p>
       </div>
     );
@@ -126,6 +141,11 @@ export default function AdminConsole() {
       <form className="adm-lock" onSubmit={signIn}>
         <h1 className="h-md">Administration</h1>
         <p>Comptes promoteurs et dépôts d&apos;événement.</p>
+        <p>
+          Tu peux aussi entrer avec ton compte : connecte-toi sur{" "}
+          <a href="/account">/account</a> avec
+          {gate.admins.length ? ` ${gate.admins.join(" ou ")}` : " l'adresse déclarée dans ADMIN_EMAILS"}.
+        </p>
         <input
           className="input" type="password" autoFocus autoComplete="current-password"
           placeholder="Mot de passe" value={password} onChange={(e) => setPassword(e.target.value)}
@@ -148,9 +168,18 @@ export default function AdminConsole() {
           <h1 className="h-md">Administration</h1>
           <p className="adm-note">
             {accounts.length} compte(s), {submissions.length} dépôt(s).
+            {gate.via === "account" && gate.email ? ` Connecté avec le compte ${gate.email}.` : ""}
+            {gate.via === "password" ? " Connecté par mot de passe." : ""}
           </p>
         </div>
-        <button className="btn btn-ghost btn-sm" onClick={signOut}>Sortir</button>
+        {/* « Sortir » ne vide que le cookie de la console. Entré avec son compte, il n'y
+            aurait rien à vider ici, et le bouton semblerait cassé : on renvoie alors
+            vers le compte, d'où la déconnexion se fait vraiment. */}
+        {gate.via === "account" ? (
+          <a className="btn btn-ghost btn-sm" href="/account">Mon compte</a>
+        ) : (
+          <button className="btn btn-ghost btn-sm" onClick={signOut}>Sortir</button>
+        )}
       </header>
 
       {/* Les deux conditions pour que tout ceci tourne, lues au même endroit : où les
@@ -243,6 +272,12 @@ export default function AdminConsole() {
               </div>
 
               <div className="adm-actions">
+                {/* Sur sa propre ligne, rien qui ferme la porte : la route refuse de
+                    toute façon, autant ne pas proposer un bouton qui échouera. */}
+                {gate.via === "account" && gate.email === a.email ? (
+                  <span className="adm-meta">C&apos;est ton compte.</span>
+                ) : (
+                  <>
                 {(["approved", "pending", "suspended", "rejected"] as AccountStatus[])
                   .filter((s) => s !== a.status)
                   .map((s) => (
@@ -262,6 +297,8 @@ export default function AdminConsole() {
                   <button className="btn btn-ghost btn-sm adm-del" onClick={() => setConfirming(`acc:${a.email}`)}>
                     Supprimer
                   </button>
+                )}
+                  </>
                 )}
               </div>
             </li>

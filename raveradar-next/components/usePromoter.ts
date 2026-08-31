@@ -24,11 +24,13 @@ export interface Session {
   open: boolean;
   account: PublicAccount | null;
   submissions: EventSubmission[];
+  /** Ce compte ouvre-t-il `/admin` ? Le serveur tranche, la page ne fait qu'afficher. */
+  admin?: boolean;
 }
 
 export type ApiError = { error: string; fields?: FieldErrors; status?: string };
 
-const EMPTY: Session = { open: true, account: null, submissions: [] };
+const EMPTY: Session = { open: true, account: null, submissions: [], admin: false };
 
 let cache: Session | null = null;
 let inflight: Promise<Session> | null = null;
@@ -93,13 +95,20 @@ export function usePromoter() {
   /** Remplace la session connue sans repasser par le réseau : la route de connexion
    *  renvoie déjà le compte, et un aller-retour de plus ferait clignoter la page. */
   const adopt = useCallback((account: PublicAccount | null, submissions?: EventSubmission[]) => {
-    publish({ open: cache?.open ?? true, account, submissions: submissions ?? (account ? cache?.submissions ?? [] : []) });
+    publish({
+      open: cache?.open ?? true,
+      account,
+      submissions: submissions ?? (account ? cache?.submissions ?? [] : []),
+      // Le drapeau vient du serveur : `load(true)` juste après le remplacera par sa
+      // vraie valeur, on ne le devine pas ici.
+      admin: account ? cache?.admin : false,
+    });
     if (account) void load(true);
   }, []);
 
   const logout = useCallback(async () => {
     await fetch("/api/promoteur/logout", { method: "POST", credentials: "same-origin" }).catch(() => undefined);
-    publish({ open: cache?.open ?? true, account: null, submissions: [] });
+    publish({ open: cache?.open ?? true, account: null, submissions: [], admin: false });
   }, []);
 
   return {

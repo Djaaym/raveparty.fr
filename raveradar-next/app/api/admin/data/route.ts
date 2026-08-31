@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import { cookies } from "next/headers";
-import { ADMIN } from "@/lib/admin-auth";
+import { adminAccess } from "@/lib/admin-access";
 import { publicAccount, type AccountStatus } from "@/lib/accounts";
 import {
   deleteAccount, deleteSubmission, getAccount, getSubmission,
@@ -24,17 +23,15 @@ export const runtime = "nodejs";
  * et ce sont elles qui suppriment.
  */
 
-function denied(): NextResponse | null {
-  if (!ADMIN.isConfigured()) return NextResponse.json({ error: "not_configured" }, { status: 501 });
-  if (!ADMIN.verifyToken(cookies().get(ADMIN.cookie)?.value)) {
-    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  }
-  return null;
+/** Le refus commun aux deux verbes. Deux chemins d'accès, voir `lib/admin-access.ts`. */
+async function denied(req: Request): Promise<NextResponse | null> {
+  const access = await adminAccess(req);
+  return access.ok ? null : NextResponse.json({ error: "unauthorized" }, { status: 401 });
 }
 
 /** L'état complet : les comptes, les dépôts, et si le magasin répond. */
-export async function GET() {
-  const no = denied();
+export async function GET(req: Request) {
+  const no = await denied(req);
   if (no) return no;
 
   try {
@@ -78,8 +75,8 @@ const STATUSES: AccountStatus[] = ["pending", "approved", "rejected", "suspended
  * mail, et supprimer un compte de test encore moins.
  */
 export async function POST(req: Request) {
-  const no = denied();
-  if (no) return no;
+  const access = await adminAccess(req);
+  if (!access.ok) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   if (tooManyRequests(`admin:${clientKey(req)}`, 40)) {
     return NextResponse.json({ error: "rate_limited" }, { status: 429 });
   }
@@ -97,6 +94,16 @@ export async function POST(req: Request) {
     if (body.kind === "account") {
       const email = typeof body.email === "string" ? body.email.toLowerCase().slice(0, 254) : "";
       if (!email) return NextResponse.json({ error: "invalid" }, { status: 400 });
+
+      /* On ne se supprime pas soi-même, ni ne se suspend.
+         Entré avec son propre compte, c'est lui qui tient la porte : le supprimer ou le
+         suspendre fermerait la console sur soi, et sans `ADMIN_PASSWORD` posé il n'y
+         aurait plus aucun moyen de revenir. Le geste reste possible, mais il demande
+         alors de passer par le mot de passe de secours, ce qui est exactement le niveau
+         de délibération que mérite une décision irréversible. */
+      if (access.via === "account" && access.email === email && action !== "approved") {
+        return NextResponse.json({ error: "self" }, { status: 400 });
+      }
 
       if (action === "delete") {
         const res = await deleteAccount(email);

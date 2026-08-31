@@ -4,6 +4,9 @@ import { sendMail } from "@/lib/subscribers";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
+// Runtime Node explicite : cette route envoie du mail, et le transport SMTP a besoin
+// des sockets de Node, que le runtime edge n'offre pas.
+export const runtime = "nodejs";
 
 /**
  * Les liens que le propriétaire reçoit par mail : approuver un compte, refuser, publier
