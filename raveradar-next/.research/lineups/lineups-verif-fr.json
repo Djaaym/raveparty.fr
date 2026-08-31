@@ -1,0 +1,131 @@
+[
+ {
+  "id": 407,
+  "title": "Détonation Festival",
+  "lineup": [
+   "Zélie",
+   "Puts Marie & Grand Géant",
+   "Les Vulves Assassines",
+   "Gans",
+   "Mathis Akengin",
+   "Jasmine not Jafar",
+   "Adés The Planet",
+   "Guedra Guedra",
+   "Bureau de Change",
+   "Bab L'Bluz",
+   "My First Time",
+   "Descartes a Kant",
+   "Mogador",
+   "Universal Love Warrias Hi-Fi",
+   "EM'S b2b CMGA",
+   "Maqsum",
+   "Kev1 b2b Synaps",
+   "Jeff The Fool b2b 252",
+   "THK x Brass Orchestra",
+   "James Baker",
+   "Nashwa",
+   "L-Xir",
+   "Marta",
+   "Aziz Konkrite",
+   "Copycat",
+   "CIEL",
+   "Chaufau",
+   "L.A. SAGNE",
+   "Lou Point Lou",
+   "AFAR",
+   "Dj Rapzouz b2b Dj Totocard",
+   "Universal Love Warrias Hi-Fi b2b Skank Opa",
+   "Noum b2b Nana",
+   "Jah know lapin b2b Esaïa",
+   "Arkadrop b2b Bouns b2b Nrck"
+  ],
+  "source": "https://detonation-festival.com/programmation/",
+  "note": "affiche complète des deux jours, page programmation officielle. Écartés : Héla Fattoumi / Eric Lamoureux (chorégraphes, pièce de danse) et « nous étions une armée » (titre de création, pas un nom d'artiste)."
+ },
+ {
+  "id": 435,
+  "title": "Dystopia Festival",
+  "lineup": [
+   "Angerfist",
+   "AniMe",
+   "N-Vitral",
+   "OGUZ",
+   "Vladimir Cauchemar",
+   "Sub Zero Project",
+   "Adjuzt",
+   "Dual Damage"
+  ],
+  "source": "https://www.saint-etienne-hors-cadre.fr/fete-et-manifestation/festival-dystopia-saint-etienne/",
+  "note": "têtes d'affiche annoncées ; le site officiel annonce 40 artistes mais rend son line-up en JS, inaccessible depuis le conteneur"
+ },
+ {
+  "id": 563,
+  "title": "Lee Burridge à La Cabane",
+  "lineup": [
+   "Lee Burridge",
+   "Diego",
+   "Max Galina"
+  ],
+  "source": "https://halles-cartoucherie.fr/event/lee-burridge/",
+  "note": "bloc « LINE UP » de la page officielle de la salle (soirée After Now)"
+ },
+ {
+  "id": 686,
+  "title": "Frankey & Sandrino à La Cabane",
+  "lineup": [
+   "Frankey & Sandrino",
+   "Giles & Diego",
+   "Gasky"
+  ],
+  "source": "https://halles-cartoucherie.fr/event/frankey-sandrino/",
+  "note": "bloc « LINE UP » de la page officielle de la salle"
+ },
+ {
+  "id": 768,
+  "title": "Chloé b2b Ivan Smagghe à La Cabane",
+  "lineup": [
+   "Chloé b2b Ivan Smagghe",
+   "Madgee",
+   "Leiris"
+  ],
+  "source": "https://halles-cartoucherie.fr/event/chloe-b2b-ivan-smagghe/",
+  "note": "ajoute Madgee ; le b2b est écrit tel quel sur l'affiche"
+ },
+ {
+  "id": 805,
+  "title": "Andhim à La Cabane",
+  "lineup": [
+   "Andhim",
+   "Giles & Diego",
+   "Gasky"
+  ],
+  "source": "https://halles-cartoucherie.fr/event/andhim/",
+  "note": "page officielle ; « GILES ET DIEGO » sur l'affiche, duo résident de La Cabane"
+ },
+ {
+  "id": 592,
+  "title": "The Ring x Club de Jour",
+  "lineup": [
+   "Yann Muller",
+   "Trio Cover",
+   "DJ Mass",
+   "Tony Moya",
+   "Dan Bono"
+  ],
+  "source": "https://www.warehouse-nantes.com/event/the-ring-x-club-de-jour-w-yann-muller-trio-cover-more",
+  "note": "ajoute Dan Bono (aftershow à la TDL), listé dans le bloc « Les artistes » de la page officielle"
+ },
+ {
+  "id": 626,
+  "title": "Club de Jour invite Bellaire & Dimitri from Paris",
+  "lineup": [
+   "Bellaire",
+   "Dimitri From Paris",
+   "Dan Bono",
+   "Colette",
+   "Corentin Mab"
+  ],
+  "source": "https://www.warehouse-nantes.com/event/club-de-jour-invite-bellaire-dimitri-from-paris",
+  "note": "Dan Bono ouvre la soirée ; Colette et Corentin Mab tiennent l'aftershow WONDER à la TDL, tous listés dans « Les artistes »"
+ }
+]

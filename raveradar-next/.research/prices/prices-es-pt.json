@@ -1,0 +1,181 @@
+[
+ {
+  "id": 335,
+  "title": "Bloom Festival",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://3cket.com/en/event/bloom-festival-2026",
+  "source": "https://3cket.com/en/event/bloom-festival-2026"
+ },
+ {
+  "id": 568,
+  "title": "Armin van Buuren presents A State of Trance",
+  "price": 50,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/events/2026/09/28"
+ },
+ {
+  "id": 569,
+  "title": "Joseph Capriati presents Metamorfosi Closing Party",
+  "price": 80,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/joseph-capriati-present-metamorfosi"
+ },
+ {
+  "id": 570,
+  "title": "Paradise",
+  "price": 75,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/events/2026/09/30"
+ },
+ {
+  "id": 118,
+  "title": "David Guetta presents Galactic Circus – Closing Party",
+  "price": 115,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/david-guetta-unvrs"
+ },
+ {
+  "id": 574,
+  "title": "Calvin Harris Closing Party",
+  "price": 150,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/calvin-harris-friday"
+ },
+ {
+  "id": 575,
+  "title": "Music On",
+  "price": 85,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/music-on"
+ },
+ {
+  "id": 578,
+  "title": "Black Coffee Closing Party",
+  "price": 95,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/black-coffee"
+ },
+ {
+  "id": 579,
+  "title": "elrow Ibiza Closing Party",
+  "price": 85,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/elrow-unvrs"
+ },
+ {
+  "id": 580,
+  "title": "ANTS",
+  "price": 55,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/ants"
+ },
+ {
+  "id": 120,
+  "title": "Amnesia Pyramid Closing Party",
+  "price": 50,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/pyramid"
+ },
+ {
+  "id": 121,
+  "title": "Solomun Closing Party",
+  "price": 65,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/solomun_plus1_i.htm"
+ },
+ {
+  "id": 581,
+  "title": "Carl Cox Closing Party",
+  "price": 50,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.ibiza-spotlight.com/night/promoters/carl-cox"
+ },
+ {
+  "id": 348,
+  "title": "Duro Festival XXL",
+  "price": 55,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://durofestival.com/#entradas",
+  "source": "https://durofestival.com/"
+ },
+ {
+  "id": 564,
+  "title": "Guy Gerber",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://dice.fm/event/pybx98-closa-selects-guy-gerber-at-la-terrrazza-26th-sep-la-terrrazza-barcelona-tickets",
+  "ticketUrl": "https://dice.fm/event/pybx98-closa-selects-guy-gerber-at-la-terrrazza-26th-sep-la-terrrazza-barcelona-tickets",
+  "note": "DICE affiche 'From €23.10' tout compris (amount_from=2310 dans le JSON de la page) ; les frais ne sont pas distingues, montant arrondi a 23 €."
+ },
+ {
+  "id": 593,
+  "title": "Kerri Chandler",
+  "price": 22,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/venue/la-terrrazza-yvxv",
+  "source": "https://dice.fm/venue/la-terrrazza-yvxv"
+ },
+ {
+  "id": 673,
+  "title": "Kolter · Input Barcelona",
+  "price": 11,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/venue/input---high-fidelity-dance-club-gdgb",
+  "source": "https://dice.fm/venue/input---high-fidelity-dance-club-gdgb"
+ },
+ {
+  "id": 605,
+  "title": "Marcel Dettmann",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/venue/plaza-monumental-de-barcelona-vbdv",
+  "source": "https://dice.fm/venue/plaza-monumental-de-barcelona-vbdv"
+ },
+ {
+  "id": 701,
+  "title": "Jackies House Music Festival Lisboa",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/3owr8l-jackies-house-music-festival-lisboa-17th-oct-pavilho-carlos-lopes-lisbon-tickets",
+  "source": "https://dice.fm/event/3owr8l-jackies-house-festival-lisboa-17th-oct-pavilho-carlos-lopes-lisbon-tickets",
+  "note": "DICE affiche 'From €16.50' (amount_from=1650), frais compris, arrondi a 17 €. Le catalogue portait 36 € estime."
+ },
+ {
+  "id": 729,
+  "title": "Digitalism · Sala Wagon",
+  "price": 34,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.laganzua.net/conciertos/digitalism-madrid-1015423",
+  "note": "33,50 € annonces par laganzua.net (agenda de concerts espagnol, source secondaire) ; ticketmaster.es est bloque depuis le conteneur."
+ },
+ {
+  "id": 734,
+  "title": "Digitalism · La [2] de Apolo",
+  "price": 34,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.laganzua.net/conciertos/digitalism-barcelona-1015424",
+  "note": "Meme source et meme tarif que la date de Madrid."
+ }
+]

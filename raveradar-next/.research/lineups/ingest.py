@@ -127,6 +127,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="n'écrit rien, montre le diff")
     ap.add_argument("--force", action="store_true", help="écrase un line-up déjà publié")
+    ap.add_argument("--merge", action="store_true",
+                    help="ajoute les noms manquants à un line-up déjà publié, sans en retirer")
     ap.add_argument("files", nargs="*", help="lots à lire (défaut : tous les .json du répertoire)")
     a = ap.parse_args()
 
@@ -166,9 +168,25 @@ def main() -> int:
             if not names:
                 errors.append(f"{tag}: line-up vide après nettoyage — rien à greffer")
                 continue
-            if cur not in (None, "") and not a.force:
-                skipped.append(f"{tag}: line-up déjà publié, gardé (--force pour écraser)")
-                continue
+            if cur not in (None, ""):
+                # Un lot d'agent complète une affiche partielle bien plus souvent qu'il
+                # ne la corrige : la fusion est donc le mode utile, et le seul qui ne
+                # puisse rien perdre. Un nom publié absent du lot n'est pas une erreur
+                # de l'affiche, c'est une source que l'agent n'a pas lue — le remplacer
+                # à l'aveugle retirerait Modeselektor de Waterworks. L'ordre du
+                # catalogue passe devant, les nouveaux noms suivent.
+                published = re.findall(r'"((?:[^"\\]|\\.)*)"', cur)
+                if a.merge:
+                    have = {norm(n) for n in published}
+                    add = [n for n in names if norm(n) not in have]
+                    if not add:
+                        skipped.append(f"{tag}: rien à ajouter, les {len(published)} noms publiés couvrent le lot")
+                        continue
+                    names = published + add
+                elif not a.force:
+                    skipped.append(f"{tag}: line-up déjà publié, gardé "
+                                   "(--merge pour compléter, --force pour écraser)")
+                    continue
             if eid in seen_ids:
                 errors.append(f"{tag}: déjà traité par {seen_ids[eid]} — deux lots se contredisent")
                 continue

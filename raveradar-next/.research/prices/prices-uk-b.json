@@ -1,0 +1,272 @@
+[
+ {
+  "id": 463,
+  "title": "The Warehouse Project: Rampa + &ME",
+  "price": 44,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Rampa--Me/42567480/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Skiddle est la billetterie officielle WHP. Tarif le plus bas en vente 44,40 GBP (frais inclus, le site ne les distingue pas dans son listing)."
+ },
+ {
+  "id": 115,
+  "title": "The Warehouse Project: Solomun",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Solomun/42464999/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Billetterie officielle WHP, tarif unique 45 GBP."
+ },
+ {
+  "id": 465,
+  "title": "The Warehouse Project: Homobloc",
+  "price": 55,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/festivals/Homobloc/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Tarif le plus bas en vente 54,50 GBP."
+ },
+ {
+  "id": 472,
+  "title": "The Warehouse Project: Worried About Henry",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Worried-About-Henry/42567474/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Fourchette 45 a 59,50 GBP, le plus bas reellement vendu est 45."
+ },
+ {
+  "id": 478,
+  "title": "The Warehouse Project: Duke Dumont",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Duke-Dumont/42394967/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Tarif unique 45 GBP. Le site officiel annonce SOLD OUT, Skiddle en liste d'attente au meme tarif."
+ },
+ {
+  "id": 481,
+  "title": "The Warehouse Project: Kettama – Steel City Dance Discs",
+  "price": 50,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/KETTAMA-presents-Steel-City-Dance-Discs/42616464/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Fourchette 49,50 a 79,50 GBP. Show sold out, liste d'attente."
+ },
+ {
+  "id": 137,
+  "title": "The Warehouse Project: Klangkuenstler",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-Klangkuenstler/42541875/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Tarif unique 45 GBP, billets en vente."
+ },
+ {
+  "id": 485,
+  "title": "The Warehouse Project: EastEnderz",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Eastenderz-Manchester/42614315/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Fourchette 45 a 79,50 GBP."
+ },
+ {
+  "id": 140,
+  "title": "The Warehouse Project New Year's Eve",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/New-Years-Eve-at-The-Warehouse-Project/42596138/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "Fourchette 45 a 75 GBP, billets en vente. Le catalogue estimait 60."
+ },
+ {
+  "id": 567,
+  "title": "SWG3 Elevate: Paco Osuna",
+  "price": 30,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Elevate-Paco-Osuna/42596828/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "Billetterie liee depuis la fiche officielle swg3.tv (lien skiddle.com/e/42596828). Fourchette 30 a 36 GBP. Le catalogue estimait 22."
+ },
+ {
+  "id": 591,
+  "title": "SWG3: The Rocketman All Night Long",
+  "price": 22,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Doof-presents-The-Rocketman---All-Night-Long/42596434/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "Billetterie liee depuis swg3.tv (skiddle.com/e/42596434), 22 a 23 GBP. Confirme l'estimation du catalogue. Le site officiel annonce SOLD OUT."
+ },
+ {
+  "id": 594,
+  "title": "FLY: Silva Bumpa Glasgow",
+  "price": 37,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--Silva-Bumpa--Glasgow/42617437/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "Billetterie liee depuis swg3.tv (skiddle.com/e/42617437), tarif unique 36,50 GBP, statut Sold Out. Le catalogue estimait 22, tres en dessous."
+ },
+ {
+  "id": 716,
+  "title": "SWG3: Kimmic",
+  "price": 25,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Kimmic--SWG3/42256469/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "Billetterie liee depuis swg3.tv (skiddle.com/e/42256469), fourchette 25 a 30 GBP."
+ },
+ {
+  "id": 807,
+  "title": "SWG3: Jazzy",
+  "price": 24,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Jazzy---Peace--Patience-Tour/42530285/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "'Jazzy - Peace & Patience Tour', SWG3 TV Studio, 19/12/2026, 23,50 a 28,50 GBP. Confirme aussi qu'il s'agit bien de Jazzy (IE), la chanteuse-DJ dublinoise."
+ },
+ {
+  "id": 238,
+  "title": "Elrow Horroween",
+  "price": 42,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Drumsheds/elrow-Horroween-Festival/42570386/",
+  "source": "https://www.skiddle.com/whats-on/London/Drumsheds/",
+  "note": "'elrow Horroween Festival', Drumsheds, 31/10/2026. Tarif le plus bas en vente 41,95 GBP (jusqu'a 152 GBP en VIP)."
+ },
+ {
+  "id": 690,
+  "title": "Annie Mac at Invisible Wind Factory",
+  "price": 17,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Annie-Mac---Before-Midnight---Liverpool/42467395/",
+  "source": "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/",
+  "note": "'Annie Mac - Before Midnight - Liverpool', 16/10/2026, 16,50 a 22,50 GBP. Statut liste d'attente."
+ },
+ {
+  "id": 745,
+  "title": "Vini Vici & Blastoyz at Studio 338",
+  "price": 26,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Studio-338/IllumiNaughty-20-Years-Of-Chaos---Vini-Vici--More/42405520/",
+  "source": "https://www.skiddle.com/whats-on/London/Studio-338/",
+  "note": "IllumiNaughty 20 Years Of Chaos, 07/11/2026, tarif le plus bas 26,40 GBP (jusqu'a 40)."
+ },
+ {
+  "id": 704,
+  "title": "Paul van Dyk at Studio 338",
+  "price": 10,
+  "currency": "£",
+  "priceNote": "estimated",
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Studio-338---London/Liberation-pres-PVD-LDN-Paul-Van-Dyk/42410188/",
+  "source": "https://www.skiddle.com/whats-on/London/Studio-338---London/",
+  "note": "Fourchette large, 10 a 35,50 GBP. Le palier a 10 GBP est un tarif de premiere vague dont je n'ai pas pu verifier qu'il est encore ouvert, d'ou priceNote estimated plutot que null."
+ },
+ {
+  "id": 706,
+  "title": "Above & Beyond at Blackstone Street Warehouse",
+  "price": 23,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Above--Beyond-presents-Anjunabeats-Liverpool/42596972/",
+  "source": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/",
+  "note": "'Above & Beyond presents Anjunabeats Liverpool', 17/10/2026, 22,50 a 28,50 GBP."
+ },
+ {
+  "id": 796,
+  "title": "Tiësto at Blackstone Street Warehouse",
+  "price": 55,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Tisto---Blackstone-St-Warehouse---Liverpool/42468896/",
+  "source": "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/",
+  "note": "'Tiesto - Blackstone St Warehouse - Liverpool', 12/12/2026, tarif unique 54,50 GBP, statut liste d'attente."
+ },
+ {
+  "id": 775,
+  "title": "Ivy Lab at Thekla",
+  "price": 10,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Bristol/Thekla/Ivy-Lab-A-Farewell-Tour-Bristol---Final-Ever-Set/42604004/",
+  "source": "https://www.skiddle.com/whats-on/Bristol/Thekla/",
+  "note": "'Ivy Lab: A Farewell Tour (Bristol - Final Ever Set)', 27/11/2026, 10 a 17,50 GBP."
+ },
+ {
+  "id": 780,
+  "title": "Interplanetary Criminal at The Prospect Building",
+  "price": 31,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/ATW-pres-Interplanetary-Criminal--Guests/42617123/",
+  "source": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/",
+  "note": "'ATW pres. Interplanetary Criminal + Guests', 28/11/2026, 31,20 a 33,70 GBP."
+ },
+ {
+  "id": 718,
+  "title": "Chicane at The Palais",
+  "price": 24,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/An-Evening-With-Chicane---Nottingham/42435064/",
+  "source": "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/",
+  "note": "'An Evening With Chicane - Nottingham', The Palais, 24/10/2026, 24 a 32 GBP."
+ },
+ {
+  "id": 786,
+  "title": "Sven Väth at DOCUMENT",
+  "price": 19,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Bugged-Out-presents-Sven-Vth-Dave-Clarke-Erol-Alkan--more/42628302/",
+  "source": "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/",
+  "note": "Fourchette 19 a 32 GBP, billetterie liee depuis document-bristol.com."
+ },
+ {
+  "id": 678,
+  "title": "Lane 8 at New Century",
+  "price": 27,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/6a3e9ea24ed8b100012b4625",
+  "source": "https://dice.fm/venue/new-century-n8al",
+  "note": "26,78 GBP sur DICE (prix affiche tout compris), jeudi 15 octobre, New Century, Manchester. Le catalogue n'avait aucun tarif."
+ },
+ {
+  "id": 725,
+  "title": "Romare at Belgrave Music Hall",
+  "price": 21,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/venue/belgrave-music-hall-43x4",
+  "source": "https://dice.fm/venue/belgrave-music-hall-43x4",
+  "note": "21,28 GBP sur DICE, jeudi 29 octobre. Attention, un resume de moteur de recherche annoncait 11,50 GBP, la page DICE elle-meme dit 21,28."
+ },
+ {
+  "id": 766,
+  "title": "Dusky at Phonox",
+  "price": 24,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/pybymy-dusky-originals-2010-2025-set-21st-nov-phonox-london-tickets",
+  "source": "https://dice.fm/event/pybymy-dusky-originals-2010-2025-set-21st-nov-phonox-london-tickets",
+  "note": "'Dusky: Originals (2010 - 2025 Set)', Phonox, 21/11/2026 16h. DICE affiche 'From GBP 24 - The price you'll pay, no surprises later', donc frais inclus. Line-up officiel DICE, Dusky seul."
+ }
+]

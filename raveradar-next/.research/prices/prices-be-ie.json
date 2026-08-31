@@ -1,0 +1,79 @@
+[
+ {
+  "id": 530,
+  "title": "Fuse presents NIKOLINA & Ornella",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.fuse.be/events/fuse-presents-nikolina-ornella"
+ },
+ {
+  "id": 323,
+  "title": "Fuse presents Hadone curates: Nørbak & Tauceti",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.fuse.be/events/fuse-presents-hadone-curates-w-n%C3%B8rbak-tauceti"
+ },
+ {
+  "id": 542,
+  "title": "Fuse presents 2HOT2PLAY & ALT8",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.fuse.be/events/fuse-presents-2hot2play-alt8"
+ },
+ {
+  "id": 357,
+  "title": "Fuse presents Silva Bumpa",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.fuse.be/events/fuse-presents-silva-bumba"
+ },
+ {
+  "id": 661,
+  "title": "Index: Indira Paganotto",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/3orw5v-index-indira-paganotto-4th-sep-index-dublin-dublin-index-dublin-tickets",
+  "source": "https://dice.fm/event/3orw5v-index-indira-paganotto-4th-sep-index-dublin-dublin-index-dublin-tickets"
+ },
+ {
+  "id": 534,
+  "title": "Index: HorsegiirL",
+  "price": 53,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/q2q8np-index-horsegiirl-5th-sep-index-dublin-dublin-index-dublin-tickets",
+  "source": "https://dice.fm/event/q2q8np-index-horsegiirl-5th-sep-index-dublin-dublin-index-dublin-tickets"
+ },
+ {
+  "id": 664,
+  "title": "Index: SG Lewis",
+  "price": 28,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/8e9gp5-index-sg-lewis-19th-sep-index-dublin-dublin-index-dublin-tickets",
+  "source": "https://dice.fm/event/8e9gp5-index-sg-lewis-19th-sep-index-dublin-dublin-index-dublin-tickets"
+ },
+ {
+  "id": 235,
+  "title": "Index: Lane 8",
+  "price": 36,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/l8kv7r-index-lane-8-16th-oct-index-dublin-dublin-index-dublin-tickets",
+  "source": "https://dice.fm/event/l8kv7r-index-lane-8-16th-oct-index-dublin-dublin-index-dublin-tickets"
+ },
+ {
+  "id": 142,
+  "title": "Rampage Weekend",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.rampage-weekend.eu/tickets",
+  "source": "https://www.rampage-weekend.eu/tickets"
+ }
+]

@@ -1,0 +1,144 @@
+[
+ {
+  "id": 938,
+  "title": "RADION Season Opener",
+  "lineup": [
+   "Hashashin b2b The Advent",
+   "Hedemann",
+   "SHE/HER b2b Lobster",
+   "Flits b2b Isaiah",
+   "Malou",
+   "Vuur"
+  ],
+  "source": "https://radion.amsterdam/program/radion-season-opener",
+  "note": "affiche complete du site officiel: main (Hashashin b2b The Advent, Hedemann, SHE/HER b2b Lobster) + cafe (Flits b2b Isaiah, Malou, Vuur)"
+ },
+ {
+  "id": 940,
+  "title": "RADION: Cleric & Pink Concrete",
+  "lineup": [
+   "Cleric",
+   "Pink Concrete",
+   "Pooja B",
+   "LINDS",
+   "Ken-Ming"
+  ],
+  "source": "https://radion.amsterdam/program/12-09-radion-w-pink-concrete-cleric-pooja-b-linds-ken-ming",
+  "note": "ajout de Ken-Ming (set cafe), les 4 autres deja au catalogue"
+ },
+ {
+  "id": 941,
+  "title": "RADION x WAXXX Society & RIOT",
+  "lineup": [
+   "Bloody Mary",
+   "Mila Haj Kasem",
+   "Selene",
+   "Shaleen",
+   "EVI",
+   "Maria Louisa"
+  ],
+  "source": "https://radion.amsterdam/program/radion-invites-waxxx-x-riot",
+  "note": "main + cafe (EVI, Maria Louisa) ; soiree all-vinyl"
+ },
+ {
+  "id": 945,
+  "title": "FRENZY x SHOCKWERK",
+  "lineup": [
+   "Beau Didier",
+   "Comrade Winston b2b Daichi Wada",
+   "Hermetica",
+   "Laure Croft b2b Spikey Lee",
+   "Slin",
+   "The Lady Machine",
+   "Tino Machauer"
+  ],
+  "source": "https://radion.amsterdam/program/frenzy-x-shockwerk",
+  "note": "affiche complete A-Z ; le site orthographie 'Diachi Wada', graphie du catalogue (Daichi Wada) conservee"
+ },
+ {
+  "id": 461,
+  "title": "Kolter 10HRS à Thuishaven",
+  "lineup": [
+   "Kolter",
+   "Dora",
+   "Giammarco Orsini",
+   "Rich NxT",
+   "Tiago Walter",
+   "Boris Coelman",
+   "Breezy S",
+   "Maysa Chahbari"
+  ],
+  "source": "https://thuishaven.nl/06-sep-thuishaven-w-kolter-10hrs-hou/",
+  "note": "agenda officiel Thuishaven : Loods (Kolter, Dora, Giammarco Orsini, Rich NxT, Tiago Walter) + Secret (Boris Coelman, Breezy S, Maysa Chahbari) ; soiree sold out"
+ },
+ {
+  "id": 467,
+  "title": "Zomerclosing à Thuishaven",
+  "lineup": [
+   "Benny Rodrigues",
+   "Carista",
+   "Marsolo",
+   "Michel de Hey b2b Boss Priester",
+   "Daughter in Law",
+   "Kasper",
+   "Merel Helderman",
+   "Midas Field",
+   "Moxes"
+  ],
+  "source": "https://thuishaven.nl/27-sep-de-thuishaven-zomerclosing-hou/",
+  "note": "affiche complete A-Z de l'agenda officiel ; sold out"
+ },
+ {
+  "id": 767,
+  "title": "Thuishaven: X Club. & DART",
+  "lineup": [
+   "X Club.",
+   "DART",
+   "NewTone",
+   "Freddi b2b Sophia Violet",
+   "Schwesta P b2b Olivia Lensen",
+   "S3PPA"
+  ],
+  "source": "https://thuishaven.nl/22-nov-thuishaven-w-x-club-dart-newtone-more/",
+  "note": "agenda officiel Thuishaven"
+ },
+ {
+  "id": 353,
+  "title": "Megarave – The Millennium Edition",
+  "lineup": [
+   "Amada",
+   "Art of Fighters",
+   "Buzzfuzz",
+   "Dione",
+   "Distortions",
+   "MC Raw",
+   "DJ J.O.A.",
+   "Endymion",
+   "Furyan",
+   "Gangsta Alliance",
+   "Giangy",
+   "Headbanger",
+   "Jappo",
+   "Kasparov",
+   "Lunatic",
+   "MC Dart",
+   "MC Jeff",
+   "Neophyte",
+   "Noizer",
+   "Nosferatu",
+   "Ophidian",
+   "Panic",
+   "MC Alee",
+   "Potato",
+   "Psycko",
+   "Rotterdam Terror Corps",
+   "Ruffian",
+   "Ruffneck",
+   "Stanton",
+   "The Wishmaster",
+   "Unexist"
+  ],
+  "source": "https://www.maassilo.com/agenda",
+  "note": "affiche complete publiee par la salle (24 okt, Maassilo) ; noms remis en casse normale, 'Panic & MC Alee (3 hour set)' separe en deux artistes"
+ }
+]

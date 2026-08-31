@@ -1,0 +1,78 @@
+[
+ {
+  "id": 503,
+  "title": "KitKatClub au Bootshaus",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://bootshaus.tv/events/sa-24-10-2026-kitkatclub"
+ },
+ {
+  "id": 326,
+  "title": "Teletech x DAY|RAVE",
+  "price": 25,
+  "currency": "CHF",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.nordstern.com/en/c/teletech-x-dayrave-2088",
+  "source": "https://tickets.nordstern.com/en/c/teletech-x-dayrave-2088",
+  "note": "CHF 25 pour le billet DAY only ou NIGHT only, CHF 40 le combine. Le catalogue portait 38 EUR estime, mauvaise devise (Bale = CHF)"
+ },
+ {
+  "id": 374,
+  "title": "Azyr au Nordstern",
+  "price": 20,
+  "currency": "CHF",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.nordstern.com/en/c/azyr-2067",
+  "source": "https://tickets.nordstern.com/en/c/azyr-2067",
+  "note": "presale CHF 20. Le catalogue portait 38 EUR estime, mauvaise devise"
+ },
+ {
+  "id": 333,
+  "title": "NZNZ à la Postgarage",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://shop.eventjet.at/de/a04a6dd6-671c-4211-92c7-cbe308542ed8/event/f1d03cb7-9f8f-4115-b6c0-f031136f4097",
+  "source": "https://shop.eventjet.at/de/a04a6dd6-671c-4211-92c7-cbe308542ed8/event/f1d03cb7-9f8f-4115-b6c0-f031136f4097",
+  "note": "phases 0/1/2 (10, 15, 16 EUR) affichees ausverkauft ; seule la Finale Phase a 17 EUR est encore en vente. La Postgarage annonce AK 18 EUR a la caisse du soir"
+ },
+ {
+  "id": 666,
+  "title": "Masters of Hardcore Switzerland",
+  "price": 62,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://www.maag-moments.ch/maag/de/events/event/detail/2026/masters-of-hardcore.html",
+  "note": "« ab CHF 62.45 Early Bird » sur la page officielle de la Halle 622 (VIP a partir de CHF 122.85). Ticketcorner est bloque depuis le conteneur, l'epuisement de l'early bird n'a pas pu etre verifie"
+ },
+ {
+  "id": 669,
+  "title": "Liquicity Vienna",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.memorandum.at/",
+  "source": "https://tickets.memorandum.at/",
+  "note": "Regular Birds 39,37 EUR en vente ; Early Birds 33,15 EUR ausverkauft. Billetterie officielle NFCtron liee depuis liquicity.com"
+ },
+ {
+  "id": 793,
+  "title": "INSANE Strictly Hard",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://insane-festival.de/event/insane-stirictly-hard-docks-hamburg-12-12-2026/",
+  "source": "https://insane-festival.de/event/insane-stirictly-hard-docks-hamburg-12-12-2026/",
+  "note": "« ab 20,00 EUR zzgl. Systemgebuehr » (blind artist ticket) sur le site de l'organisateur, repris par la fiche du Docks. Line-up encore non annonce (« ueber 20 DJs auf zwei Floors »)"
+ },
+ {
+  "id": 663,
+  "title": "FOG Festival",
+  "price": 39,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://www.fogstudio.ch/about-fog/",
+  "note": "day pass vendredi ou samedi CHF 39 (tarif reduit 19), pass 4 jours CHF 79, nuit seule au Container Club CHF 15, cloture au Tinguely CHF 20. L'exposition sound art est gratuite"
+ }
+]
