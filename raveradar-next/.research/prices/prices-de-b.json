@@ -174,5 +174,43 @@
   "ticketUrl": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
   "source": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
   "note": "Early Bird (29,50) et Standard (34,50) ausverkauft ; Finale Phase a 39,50 EUR en vente (VIP 74,50). Line-up toujours non annonce"
+ },
+ {
+  "id": 373,
+  "title": "Rave on Snow",
+  "price": 160,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://raveonsnow.ticket.io/",
+  "source": "https://raveonsnow.ticket.io/",
+  "note": "Early Bird Weekend (150) ausverkauft ; Weekend Preisstufe I a 160 EUR en vente (avec le jeudi 180, VIP 260). Line-up toujours non annonce"
+ },
+ {
+  "id": 378,
+  "title": "Hippie New Year",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.ritterbutzke.com/311226-HNY/",
+  "source": "https://tickets.ritterbutzke.com/311226-HNY/",
+  "note": "entree standard 25 EUR des 22h (show open air du reveillon incluse) ; entree tardive a partir de 00h15 a 15 EUR, bonus 65 EUR. Le catalogue portait 45 EUR estime"
+ },
+ {
+  "id": 804,
+  "title": "Verknipt Stadion",
+  "price": 68,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://hallenstadion.ch/events/verknipt/",
+  "note": "tarifs publies par la salle : Normal CHF 67.65, Late CHF 78.00, Final CHF 88.50. verknipt.org est derriere Cloudflare depuis le conteneur"
+ },
+ {
+  "id": 834,
+  "title": "Masters of Hardcore Austria",
+  "price": 55,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.volume.at/events/masters-of-hardcore-austria-2027-2027-02-13/",
+  "note": "Loyalty Ticket 54,90 EUR (VIP 99,90) d'apres volume.at, qui reprend le communique de l'organisateur ; mastersofhardcore.at et tickethead.io repondent 403 depuis le conteneur, d'ou estimated. Line-up officiellement « TBA »"
  }
 ]

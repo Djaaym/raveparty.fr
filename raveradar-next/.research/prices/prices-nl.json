@@ -115,5 +115,32 @@
   "priceNote": null,
   "source": "https://melkweg.nl/en/agenda/luminosity-19-year-anniversary-19-12-2026/",
   "note": "page officielle Melkweg : 29,90 € (tarif early)"
+ },
+ {
+  "id": 337,
+  "title": "360 Degrees: Jayda G",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.bird-rotterdam.nl/event/360-degrees-jayda-g/",
+  "note": "page officielle BIRD : Happy BIRD 19 €, Regular 24 €, Late 26 €, porte 26 €, frais de service inclus"
+ },
+ {
+  "id": 316,
+  "title": "Draaimolen Festival",
+  "price": 83,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://festivalfans.nl/event/draaimolen-festival/",
+  "note": "combi 2 jours annonce a 82,90 € (late friday 87,90 €) ; festival complet, revente TicketSwap uniquement. Source secondaire, d'ou 'estimated'"
+ },
+ {
+  "id": 345,
+  "title": "Gabber Resistance: Back at Maassilo",
+  "price": 35,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.djguide.nl/party.p/574800/gabber-resistance?language=en",
+  "note": "fiche djguide (source secondaire) : presale 35 €, 22h-06h au Maassilo"
  }
 ]

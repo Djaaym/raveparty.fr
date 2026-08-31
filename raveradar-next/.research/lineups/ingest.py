@@ -41,7 +41,10 @@ DATA = HERE.parents[1] / "lib" / "data.ts"
 # l'index des fiches artistes (`buildArtists()`).
 NOT_AN_ARTIST = re.compile(
     r"^(tba|tbc|t\.b\.a\.?|line[- ]?up|programmation|à venir|coming soon|more tba|"
-    r"secret guest|special guest|guest|and more|\+ more|others?|various artists?|va)$",
+    r"secret guest|special guest|guest|and more|\+ more|others?|various artists?|va|"
+    # « A-Z » est l'en-tête d'une liste d'affiche triée alphabétiquement, pas un nom :
+    # recopié tel quel, il ouvre une fiche `/artistes/a-z` qu'aucune date ne remplit.
+    r"a\s?-\s?z|a to z|by name|alphabetical)$",
     re.I,
 )
 
@@ -52,6 +55,16 @@ def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
+# `lineup: [...]` ne se délimite pas sur le premier `]` : « Daniel[i] » est un nom
+# d'artiste de l'affiche Meakusma, et un motif `[^\]]*` s'arrête dessus, donc écrit le
+# nouveau tableau **avant** la fin de l'ancien et casse `data.ts` 800 pages plus loin.
+# Le `]` qui ferme est celui qu'on rencontre hors chaîne : c'est ce que dit ce motif,
+# en n'avalant les crochets que lorsqu'ils sont entre guillemets. Même raison pour la
+# lambda à l'écriture : `re.sub` relit les échappements du remplacement, donc un nom
+# portant un backslash y deviendrait une référence de groupe.
+LINEUP = re.compile(r' lineup: \[((?:[^"\[\]]|"(?:[^"\\]|\\.)*")*)\]')
+
+
 def read_events(src: str) -> dict:
     """id -> (numéro de ligne, ligne, titre, line-up actuel)."""
     out = {}
@@ -59,7 +72,7 @@ def read_events(src: str) -> dict:
         m = re.match(r"\s*\{ id: (\d+), title: \"((?:[^\"\\]|\\.)*)\"", line)
         if not m:
             continue
-        cur = re.search(r" lineup: \[([^\]]*)\]", line)
+        cur = LINEUP.search(line)
         out[int(m.group(1))] = (i, line, m.group(2), (cur.group(1).strip() if cur else None))
     return out
 
@@ -192,7 +205,7 @@ def main() -> int:
                 continue
             seen_ids[eid] = lot.name
             payload = ", ".join('"' + n.replace('"', '\\"') + '"' for n in names)
-            lines[i] = re.sub(r" lineup: \[[^\]]*\]", f" lineup: [{payload}]", line, count=1)
+            lines[i] = LINEUP.sub(lambda _: f" lineup: [{payload}]", line, count=1)
             applied.append((eid, title, names, src_url))
 
     for e in errors:

@@ -88,7 +88,10 @@ REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
            ("zamnaxprimer", "2026"): "doublon de ZAMNA × PRIMER Athens (id 319)",
            # Portait les deux nuits du 31/10 et du 01/11 sur une seule fiche, en concurrence
            # avec les deux fiches par nuit (ids 425 et 920).
-           ("hilighttribehalloweeninstrumental", "2026"): "doublon des deux nuits de La Cabane (ids 425, 920)"}
+           ("hilighttribehalloweeninstrumental", "2026"): "doublon des deux nuits de La Cabane (ids 425, 920)",
+           # Communiqué officiel d'Astro s.r.l., repris intégralement par la billetterie
+           # (ticketnation.it) : l'édition des 4-6/09/2026 « non potrà avere luogo ».
+           ("decibelopenair", "2026"): "annulé (communiqué Astro s.r.l. sur ticketnation.it)"}
 
 CITY_FIX = {"Bruxelles": "Brussels", "Anvers": "Antwerp", "Gand": "Ghent",
             "Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",

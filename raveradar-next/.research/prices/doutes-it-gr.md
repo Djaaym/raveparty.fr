@@ -193,3 +193,36 @@ sans prix lisible depuis le conteneur, et **les sources secondaires se contredis
 (https://www.mentelocale.it/milano/127932-gabry-ponte-milano-circotron-the-dance-show-unipol-arena-2027.htm),
 page qui melange par ailleurs Milan et l'Unipol Arena de Bologne. Rien n'est verse : deux
 chiffres qui ne concordent pas ne font pas une source.
+
+## id 354, C2C Festival, tarif
+
+Le festival vend un billet par jour et trois formules de pass. Le moins cher reellement en
+vente est le **jour 1 (jeudi 29/10, OGR Torino) a 24,50 €** (arrondi a 25 €), le super early
+bird a 15 € etant epuise ; le samedi au Lingotto est a 98 €, le Golden Pass a 132 €, le
+Passport a 187,50 € et le Very Important Passport a 262 €. Billetterie officielle DICE
+(https://dice.fm/event/ww5vvn-c2c-festival-2026-day-1-thu-29th-oct-ogr-torino-torino-tickets).
+
+## Fiches laissees telles quelles, faute de source lisible
+
+- **id 383, Rong Open Air Festival Malta (06-09/05/2027)** : le site officiel
+  (malta.rongevents.com) et la billetterie (tickethype.com.mt) repondent 403 derriere
+  Cloudflare, et la page Skiddle du festival porte « line up to be announced » pour 2027
+  (https://www.skiddle.com/festivals/rong-open-air/). Les noms qui circulent (Ben Nicky,
+  Maddix, Solarstone, Paul van Dyk, Ferry Corsten...) sont ceux de l'edition **2026**, ne pas
+  les reprendre.
+- **id 384, Sunny Side Festival (Ta' Qali, mai 2027)** : ssfestivalmalta.com repond 202
+  depuis le conteneur, aucune affiche ni date exacte publiee pour 2027.
+- **id 878, Glitch Festival (Gianpula, 11-14/08/2027)** : dates confirmees par le site
+  officiel (https://www.glitchfestival.com/), qui annonce « pre-sale sold out, tier 1 tickets
+  now on sale » sans nommer un seul artiste ni afficher un tarif (boutique en JS).
+- **id 160, Kappa FuturFestival (Parco Dora, 02-04/07/2027)** : affiche non annoncee, et la
+  billetterie officielle affiche **SOLD OUT** avec liste d'attente. Attention, le site melange
+  encore les deux editions : le `<title>` dit « 2027 | 2, 3, 4 Luglio » alors que le bandeau
+  de la page affiche « 03 | 04 | 05 JULY 2026 » et que les tarifs visibles (300 € par jour)
+  sont ceux de 2026 (https://www.kappafuturfestival.it/en/tickets). Rien de fiable a verser.
+- **id 397, ortigia music (30/07-01/08/2027)** : dates confirmees mot pour mot par le site
+  officiel (https://www.ortigiamusic.com/, « july 30th - august 1st, 2027 »), mais la page se
+  reduit a un formulaire de newsletter : ni affiche ni billetterie ouverte.
+- **id 320, Eternal Sun Festival** : voir plus haut.
+- **id 536, I-Days Milano: David Guetta** : aucune premiere partie annoncee.
+- **ids 844, 846, 847, Gabry Ponte** : voir plus haut.

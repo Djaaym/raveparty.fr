@@ -270,5 +270,14 @@
   "priceNote": null,
   "ticketUrl": "https://www.namelessfestival.it/festival-2027/biglietti",
   "source": "https://www.namelessfestival.it/festival-2027/biglietti"
+ },
+ {
+  "id": 354,
+  "title": "C2C Festival",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/ww5vvn-c2c-festival-2026-day-1-thu-29th-oct-ogr-torino-torino-tickets",
+  "source": "https://dice.fm/event/ww5vvn-c2c-festival-2026-day-1-thu-29th-oct-ogr-torino-torino-tickets"
  }
 ]

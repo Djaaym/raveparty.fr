@@ -77,6 +77,16 @@ const nextConfig = {
          c'est le festival que le lecteur cherchait. */
       { source: "/lieux/parc-expo-le-clapier", destination: "/festival/positive-education-festival", permanent: true },
       { source: "/en/lieux/parc-expo-le-clapier", destination: "/en/festival/positive-education-festival", permanent: true },
+      /* Decibel Open Air (Florence, 4-6/09/2026) a été **annulé par l'organisateur**,
+         communiqué d'Astro s.r.l. repris intégralement par sa billetterie. La fiche est
+         retirée, mais son URL était indexée, et sa salle n'accueillait aucune autre date :
+         `/lieux/parco-delle-cascine` disparaît avec elle. Les deux pointent vers le pays,
+         faute d'édition suivante et faute de page ville pour Florence, plutôt que vers
+         une 404. Même règle que les dix-sept `/lieux` nés d'un libellé, plus bas. */
+      { source: "/festival/decibel-open-air", destination: "/pays/italie", permanent: true },
+      { source: "/en/festival/decibel-open-air", destination: "/en/pays/italie", permanent: true },
+      { source: "/lieux/parco-delle-cascine", destination: "/pays/italie", permanent: true },
+      { source: "/en/lieux/parco-delle-cascine", destination: "/en/pays/italie", permanent: true },
       { source: "/genres/free-party", destination: "/genres", permanent: true },
       { source: "/en/genres/free-party", destination: "/en/genres", permanent: true },
 
