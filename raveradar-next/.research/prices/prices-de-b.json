@@ -74,5 +74,95 @@
   "priceNote": null,
   "source": "https://www.fogstudio.ch/about-fog/",
   "note": "day pass vendredi ou samedi CHF 39 (tarif reduit 19), pass 4 jours CHF 79, nuit seule au Container Club CHF 15, cloture au Tinguely CHF 20. L'exposition sound art est gratuite"
+ },
+ {
+  "id": 491,
+  "title": "Bootshaus Sommerfest",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/vB0cAmWg",
+  "source": "https://bootshaus-club.ticket.io/vB0cAmWg",
+  "note": "Phase 1 a 14,90 EUR, en vente. Le ticket de groupe 4+1 revient a 11,92 EUR par personne mais se vend par cinq"
+ },
+ {
+  "id": 494,
+  "title": "Polyamor au Bootshaus",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://polyamor.ticket.io/PDikPg1v",
+  "source": "https://polyamor.ticket.io/PDikPg1v",
+  "note": "Finale Phase a 35,00 EUR, seule categorie encore ouverte"
+ },
+ {
+  "id": 496,
+  "title": "Vertile pres. Everything Changes Live",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://musical-madness.ticket.io/eACzcM9S",
+  "source": "https://musical-madness.ticket.io/eACzcM9S",
+  "note": "Phase 1 (29,90) ausverkauft ; Phase 2 a 34,90 EUR est la moins chere en vente (Phase 3 a 36,90)"
+ },
+ {
+  "id": 500,
+  "title": "Chrome Cologne",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/Atz0dHLX",
+  "source": "https://bootshaus-club.ticket.io/Atz0dHLX",
+  "note": "Phase 1 (29,90) ausverkauft ; Phase 2 a 34,90 EUR en vente"
+ },
+ {
+  "id": 872,
+  "title": "Cosmic Gate au Bootshaus",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://senses-bootshaus.ticket.io/GhUtpLGh",
+  "source": "https://senses-bootshaus.ticket.io/GhUtpLGh",
+  "note": "Phase 1 a 28,90 EUR en vente (VIP 63,90)"
+ },
+ {
+  "id": 560,
+  "title": "YN x BCCO Club Night",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://yn-collective.ticket.io/giNaeINs/",
+  "source": "https://yn-collective.ticket.io/giNaeINs/",
+  "note": "phases a 9, 11 et 14 EUR ausverkauft ; Phase 2 a 17 EUR en vente (le tarif groupe de 15 EUR se vend par quatre)"
+ },
+ {
+  "id": 629,
+  "title": "Zuckerwatt w/ Mija",
+  "price": 14,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://zuckerwatt.ticket.io/lrReXJvU/",
+  "source": "https://zuckerwatt.ticket.io/lrReXJvU/",
+  "note": "Early Bird (12) ausverkauft ; Phase 1 a 14 EUR en vente"
+ },
+ {
+  "id": 643,
+  "title": "Zuckerwatt w/ Ellen Allien",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://zuckerwatt.ticket.io/8EYfX8ZC/",
+  "source": "https://zuckerwatt.ticket.io/8EYfX8ZC/",
+  "note": "Early Bird (14) et Phase 1 (16) ausverkauft ; Phase 2 a 18 EUR en vente"
+ },
+ {
+  "id": 539,
+  "title": "Schranz is Back w/ Felix Kröcher",
+  "price": 24,
+  "currency": "€",
+  "priceNote": "estimated",
+  "ticketUrl": "https://zuckerwatt.ticket.io/pzLjLAEv/",
+  "source": "https://zuckerwatt.ticket.io/pzLjLAEv/",
+  "note": "les quatre phases de prevente (15, 18, 21, 24 EUR) sont ausverkauft ; il ne reste que la caisse du soir a partir de 23h, dont le tarif n'est pas publie. 24 EUR est donc la derniere phase vendue, pas un tarif encore achetable, d'ou estimated"
  }
 ]

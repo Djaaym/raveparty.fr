@@ -118,5 +118,85 @@
   "ticketUrl": "https://ultraeurope.com/tickets/",
   "source": "https://ultraeurope.com/tickets/",
   "note": "GA 3 jours 199 EUR, hors frais de service ; VIP 399, Fan Pit 299. Croatie en zone euro"
+ },
+ {
+  "id": 656,
+  "title": "Kapital Festival",
+  "price": 354,
+  "currency": "lei",
+  "priceNote": null,
+  "ticketUrl": "https://www.iabilet.ro/bilete-kapital-festival-124238/",
+  "source": "https://www.iabilet.ro/bilete-kapital-festival-124238/",
+  "note": "GA 3 jours Phase 1 a 353,95 lei sur iaBilet, billetterie officielle. Le 1 083,52 lei affiche barre est le prix final estime au moment du festival, pas le tarif en vente"
+ },
+ {
+  "id": 255,
+  "title": "Roskilde Festival",
+  "price": 2616,
+  "currency": "kr",
+  "priceNote": "estimated",
+  "ticketUrl": "https://www.roskilde-festival.dk/en/tickets/",
+  "source": "https://www.roskilde-festival.dk/en/tickets/",
+  "note": "le pass complet est sold out et le site n'affiche plus que le Smart Ticket, 8 mensualites de 327 DKK plus 100 DKK de frais. 2 616 DKK est donc la somme des mensualites, pas un montant lu tel quel : garde en 'estimated'. Le catalogue portait 320 EUR, monnaie erronee pour le Danemark"
+ },
+ {
+  "id": 548,
+  "title": "Tama Season Opening",
+  "price": 59,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "source": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "note": "'Tama Season Opening: GENESI | PLUS2 | SICK', ven. 18.09 23:00, bilety od 59 zl"
+ },
+ {
+  "id": 557,
+  "title": "Obsession - Kozlov, Luciid & Vendex",
+  "price": 99,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/obsession-kzlv-luciid-vendex-33019",
+  "source": "https://biletomat.pl/wydarzenia/obsession-kzlv-luciid-vendex-33019",
+  "note": "ven. 25.09 22:00, 'od 99 zl' sur la page de l'evenement ; derniers billets"
+ },
+ {
+  "id": 586,
+  "title": "Chris Avantgarde au Tama",
+  "price": 70,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://www.biletomat.pl/bilety/tama-chris-avantgarde-poznan-66278/",
+  "source": "https://www.biletomat.pl/bilety/tama-chris-avantgarde-poznan-66278/",
+  "note": "ven. 09.10 23:00, bilety od 70 zl"
+ },
+ {
+  "id": 597,
+  "title": "Pegassi au Tama",
+  "price": 119,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/tama-pegassi-32459",
+  "source": "https://biletomat.pl/wydarzenia/tama-pegassi-32459",
+  "note": "ven. 16.10 23:30, 'od 119 zl' sur la page de l'evenement"
+ },
+ {
+  "id": 604,
+  "title": "Sub Zero Project au Tama",
+  "price": 99,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/tama-sub-zero-project-32458",
+  "source": "https://biletomat.pl/wydarzenia/tama-sub-zero-project-32458",
+  "note": "sam. 17.10 23:00, 'od 99 zl' sur la page de l'evenement ; derniers billets"
+ },
+ {
+  "id": 610,
+  "title": "Worakls au Tama",
+  "price": 59,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "source": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "note": "ven. 23.10 23:00, bilety od 59 zl"
  }
 ]

@@ -7,7 +7,7 @@
   "priceNote": null,
   "ticketUrl": "https://dice.fm/event/v3nbgg-fly-festival-edinburgh-2026-12th-sep-the-ross-bandstand-edinburgh-tickets",
   "source": "https://dice.fm/promoters/fly-93q9",
-  "note": "'From £91.29' sur la billetterie officielle DICE de FLY : c'est le pass week-end, seul tarif encore vendu (aucun billet a la journee en vente). Frais DICE inclus, le site ne les distingue pas."
+  "note": "'From £91.29' sur la billetterie officielle DICE de FLY : pass week-end, seul tarif encore vendu, aucun billet a la journee en vente. Frais DICE inclus, le site ne les distingue pas."
  },
  {
   "id": 224,
@@ -17,6 +17,216 @@
   "priceNote": null,
   "ticketUrl": "https://dice.fm/promoters/fly-93q9",
   "source": "https://dice.fm/promoters/fly-93q9",
-  "note": "'£34.99' annonce par l'organisateur FLY sur DICE (25/09, SWG3 Galvanizers). Frais inclus."
+  "note": "'£34.99' chez l'organisateur FLY sur DICE (25/09, SWG3 Galvanizers). Skiddle affiche la fourchette 31-37,50 £ mais l'annonce en liste d'attente."
+ },
+ {
+  "id": 466,
+  "title": "Steppers at Drumsheds",
+  "price": 30,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Drumsheds/Continental-GT-STEPPERS-Drumsheds-London/42618847/",
+  "source": "https://www.skiddle.com/whats-on/London/Drumsheds/",
+  "note": "fourchette Skiddle 29,50-52,50 £ (billetterie liee depuis drumshedslondon.com). 26/09."
+ },
+ {
+  "id": 473,
+  "title": "Don't Let Daddy Know London",
+  "price": 34,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Drumsheds/Dont-Let-Daddy-Know/42478225/",
+  "source": "https://www.skiddle.com/whats-on/London/Drumsheds/",
+  "note": "fourchette Skiddle 33,96-127 £, billets en vente. 09/10."
+ },
+ {
+  "id": 475,
+  "title": "Bugged Out: 2001&On…",
+  "price": 37,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Drumsheds/Bugged-Out-2001--On/42603964/",
+  "source": "https://www.skiddle.com/whats-on/London/Drumsheds/",
+  "note": "fourchette Skiddle 36,95-81,95 £, billets en vente. 10/10."
+ },
+ {
+  "id": 479,
+  "title": "False Idols at Drumsheds",
+  "price": 37,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/London/Drumsheds/False-Idols/42641186/",
+  "source": "https://www.skiddle.com/whats-on/London/Drumsheds/",
+  "note": "fourchette Skiddle 36,50-127 £, billets en vente. Confirme l'estimation a 38 £ du catalogue."
+ },
+ {
+  "id": 468,
+  "title": "The Warehouse Project: You&Me – Friday",
+  "price": 58,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/YouMe---Friday/42394960/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "57,80 £ palier unique sur Skiddle. ATTENTION : la date est annoncee complete (liste d'attente Skiddle, 'SOLD OUT' sur thewarehouseproject.com)."
+ },
+ {
+  "id": 135,
+  "title": "The Warehouse Project: Overmono – Pure Devotion",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Overmono-presents-Pure-Devotion---World-Tour-Manchester/42448096/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "fourchette Skiddle 45-75 £, billets en vente. Confirme l'estimation du catalogue, le 'estimated' peut sauter."
+ },
+ {
+  "id": 482,
+  "title": "The Warehouse Project: La Discothèque",
+  "price": 45,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/La-Discotheque-Festival-Manchester/42613408/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/",
+  "note": "45 £ palier unique sur Skiddle, billets en vente. 07/11, Depot Mayfield."
+ },
+ {
+  "id": 554,
+  "title": "SWG3: 2Passo & Hidde Van Wee",
+  "price": 15,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/2Passo--Hidde-Van-Wee-All-Night-Long/42617129/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "fourchette Skiddle 15-19 £, billets en vente (billetterie liee depuis swg3.tv)."
+ },
+ {
+  "id": 671,
+  "title": "SWG3: Notion",
+  "price": 26,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Notion--SHUFFA/42627723/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "26 £ palier unique sur Skiddle, billetterie liee depuis la page officielle SWG3."
+ },
+ {
+  "id": 242,
+  "title": "SYNRG: Francesco Del Garda & DJ Masda",
+  "price": 10,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/SYNRG-Presents---Francesco-Del-Garda--DJ-Masda/42405069/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "fourchette Skiddle 10-22 £, billets en vente. Le catalogue estimait 20 £, qui est le haut de la fourchette."
+ },
+ {
+  "id": 639,
+  "title": "SWG3: Sasha",
+  "price": 25,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Colours-House-Party-Presents-Sasha/42607237/",
+  "source": "https://www.skiddle.com/whats-on/Glasgow/SWG3/",
+  "note": "fourchette Skiddle 25-35 £, billets en vente. Confirme l'estimation du catalogue."
+ },
+ {
+  "id": 689,
+  "title": "Eric Prydz at GASWRX",
+  "price": 30,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ERIC-PRYDZ---GASWRX-Birmingham/42624600/",
+  "source": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/",
+  "note": "fourchette Skiddle 30-80 £, billetterie liee depuis gaswrx.co.uk/whats-on."
+ },
+ {
+  "id": 717,
+  "title": "Above & Beyond at GASWRX",
+  "price": 30,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ABOVE--BEYOND-presents-Anjunabeats-Warehouse-at-GASWRX/42596982/",
+  "source": "https://www.skiddle.com/whats-on/Birmingham/GASWRX/",
+  "note": "fourchette Skiddle 30-60 £, billetterie liee depuis gaswrx.co.uk/whats-on."
+ },
+ {
+  "id": 674,
+  "title": "Cristoph at Joshua Brooks",
+  "price": 8,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Cristoph--Joshua-Brooks-Manchester/42614180/",
+  "source": "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/",
+  "note": "fourchette Skiddle 8-15 £, billets en vente. 10/10."
+ },
+ {
+  "id": 707,
+  "title": "Dusky at Hangar 34",
+  "price": 10,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Dusky-Signals-Tour---Liverpool/42514971/",
+  "source": "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/",
+  "note": "fourchette Skiddle 10-20 £ ('Dusky: Signals Tour - Liverpool'), billets en vente. 17/10."
+ },
+ {
+  "id": 705,
+  "title": "Eats Everything & Groove Armada at The Prospect Building",
+  "price": 31,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/History-Of-Rave-Eats-Everything-Groove-Armada--More-TBA/42617127/",
+  "source": "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/",
+  "note": "fourchette Skiddle 31,20-36,20 £ ('History Of Rave'), billets en vente. 17/10."
+ },
+ {
+  "id": 709,
+  "title": "Romare at Village Underground",
+  "price": 30,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/k6lm2o-romare-live-22nd-oct-village-underground-london-tickets",
+  "source": "https://dice.fm/event/k6lm2o-romare-live-22nd-oct-village-underground-london-tickets",
+  "note": "29,87 £ sur DICE (offre unique, frais inclus). JSON-LD MusicEvent, eventStatus EventScheduled."
+ },
+ {
+  "id": 798,
+  "title": "FLY: sim0ne",
+  "price": 23,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/venue/sub-club-xeke",
+  "source": "https://dice.fm/venue/sub-club-xeke",
+  "note": "22,65 £ chez FLY sur DICE ('FLY | sim0ne | Glasgow', jeu. 17/12, Sub Club). Frais inclus."
+ },
+ {
+  "id": 813,
+  "title": "Underworld at Princes Street Gardens",
+  "price": 79,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://edwinterfest.com/hogmanay/whats-on/hogmanay-in-the-gardens-with-underworld/book",
+  "source": "https://edwinterfest.com/hogmanay/whats-on/hogmanay-in-the-gardens-with-underworld/book",
+  "note": "billetterie officielle d'Edinburgh's Hogmanay : Gardens 79 £, Enclosure 89 £, Premium 180 £ epuise. Frais de reservation et don d'1 £ inclus dans le prix affiche."
+ },
+ {
+  "id": 260,
+  "title": "Parklife",
+  "price": 163,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://parklife.uk.com/pl27-tickets/",
+  "source": "https://parklife.uk.com/pl27-tickets/",
+  "note": "site officiel : pass week-end GA 162,90 £ 'including all fees'. VIP 223,10 £, Backstage 391,45 £."
+ },
+ {
+  "id": 781,
+  "title": "Adam F at Castle & Falcon",
+  "price": 20,
+  "currency": "£",
+  "priceNote": null,
+  "ticketUrl": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Adam-F-LIVE---Circles-Revisited-Tour/42535933/",
+  "source": "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/",
+  "note": "20 £ palier unique sur Skiddle ('Adam F [LIVE] - Circles Revisited Tour', 28/11), billets en vente."
  }
 ]

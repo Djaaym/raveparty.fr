@@ -458,5 +458,113 @@
   ],
   "source": "https://www.jambase.com/festival/mira-festival-2026",
   "note": "Affiche jour par jour (6 nov / 7 nov), recoupee avec metalmagazine.eu/es/post/mira-festival-2026. Le site officiel mirafestival.com repond 202 au conteneur (defi anti-bot) et WebFetch le rend vide, donc source secondaire. ATTENTION : 'Arca', present au catalogue, ne figure sur AUCUNE des deux sources 2026 ; voir doutes."
+ },
+ {
+  "id": 770,
+  "title": "Christian Löffler · Teatre Coliseum",
+  "lineup": [
+   "Christian Löffler",
+   "Adna"
+  ],
+  "source": "https://houstonpartymusic.com/tour-dates/1525/",
+  "note": "Tournee 'Until We Meet Again' en format ensemble. Affiche confirmee identique au catalogue (Adna en premiere partie puis au chant). Les autres musiciens de l'ensemble (Johanna Burnheart violon, Midori Jaeger violoncelle, Alex Maydew piano) sont des musiciens de scene, non repris comme artistes."
+ },
+ {
+  "id": 772,
+  "title": "Christian Löffler · Casa da Música",
+  "lineup": [
+   "Christian Löffler",
+   "Adna"
+  ],
+  "source": "https://casadamusica.com/event/christian-loffler-until-we-meet-again-tour/",
+  "note": "Concert du Misty Fest, Sala Suggia, 21h. Affiche confirmee identique au catalogue."
+ },
+ {
+  "id": 773,
+  "title": "Christian Löffler · Centro Cultural de Belém",
+  "lineup": [
+   "Christian Löffler",
+   "Adna"
+  ],
+  "source": "https://www.bol.pt/Comprar/Bilhetes/176065/1937573/17629/Lugares",
+  "note": "Misty Fest, Grande Auditorio du CCB, 21h, Adna en premiere partie. Affiche confirmee identique au catalogue."
+ },
+ {
+  "id": 771,
+  "title": "Trinix · Razzmatazz",
+  "lineup": [
+   "Trinix"
+  ],
+  "source": "https://www.salarazzmatazz.com/agenda/25-11-2026-trinix/",
+  "note": "Presentation de l'album 'Origin'. Un seul nom a l'affiche, line-up confirme. Concert annonce COMPLET par la salle."
+ },
+ {
+  "id": 778,
+  "title": "OUTWORLD · Klangkuenstler",
+  "lineup": [
+   "Klangkuenstler"
+  ],
+  "source": "https://xceed.me/en/porto/event/outworld-klangkuenstler-all-night-long/230507",
+  "note": "Set 'All Night Long' de la tournee Outworld : un seul artiste par soiree, line-up d'un nom confirme."
+ },
+ {
+  "id": 779,
+  "title": "INVADERS · Trip to Japan",
+  "lineup": [
+   "Mark With A K",
+   "MC Chucky",
+   "GPF b2b DR Donk",
+   "Tommyknocker",
+   "Amygdala"
+  ],
+  "source": "https://xceed.me/es/valencia/event/invaders-trip-to-japan-1/238242",
+  "note": "Fiche officielle de la billetterie : '17 artistes, 2 zones, plus de 11 h', tetes d'affiche Mark With A K & MC Chucky, GPF b2b DR Donk, Tommyknocker, Amygdala. Deux noms ajoutes. Les 13 autres artistes ne sont pas nommes en ligne. Ne PAS reprendre Lil Texas / AniMe / Hysta, qui appartiennent a l'edition de fevrier 2025 (ra.co/events/2083136)."
+ },
+ {
+  "id": 646,
+  "title": "Hercules & Love Affair",
+  "lineup": [
+   "Hercules & Love Affair"
+  ],
+  "source": "https://www.songkick.com/artists/771550-hercules-and-love-affair/calendar",
+  "note": "Date du 15/12/2026 a la Sala Apolo confirmee sur l'agenda de tournee. Aucun premiere partie annoncee, line-up d'un nom confirme. L'agenda en ligne de la sala-apolo.com ne va pas jusqu'a decembre, aucun tarif lisible."
+ },
+ {
+  "id": 806,
+  "title": "Jonas Blue · Las Ventas",
+  "lineup": [
+   "Jonas Blue"
+  ],
+  "source": "https://livelasventas.com/es/eventos/concierto-los-40-dance-6-aniversario/",
+  "note": "La soiree est le 'LOS40 DANCE 6º Aniversario', Jonas Blue est la seule tete d'affiche publiee ; le reste de l'affiche n'est pas encore annonce sur la page officielle."
+ },
+ {
+  "id": 837,
+  "title": "NTO · Sala But",
+  "lineup": [
+   "NTO"
+  ],
+  "source": "https://www.songkick.com/venues/125494-movistar-arena",
+  "note": "Date du 18/02/2027 a la Sala But confirmee par l'agenda Songkick de Madrid. Un seul nom annonce."
+ },
+ {
+  "id": 121,
+  "title": "Solomun Closing Party",
+  "lineup": [
+   "Solomun"
+  ],
+  "source": "https://www.ibiza-spotlight.com/night/promoters/solomun_plus1_i.htm",
+  "note": "Cloture de la residence Solomun +1 au Pacha, Solomun en all night long. Line-up d'un nom confirme."
+ },
+ {
+  "id": 701,
+  "title": "Jackies House Music Festival Lisboa",
+  "lineup": [
+   "Chris Stussy",
+   "Desiree",
+   "PIEM"
+  ],
+  "source": "https://dice.fm/event/3owr8l-jackies-house-music-festival-lisboa-17th-oct-pavilho-carlos-lopes-lisbon-tickets",
+  "note": "L'organisateur ecrit encore 'our first artists' : l'affiche des trois noms est complete a ce jour, le reste n'est pas annonce. Rien a ajouter, a repasser plus pres de la date."
  }
 ]

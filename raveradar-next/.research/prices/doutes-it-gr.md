@@ -116,3 +116,55 @@ foi (https://xceed.me/it/torino/venue/q35-warehouse).
 Line-ups confirmes a l'identique par les fiches du club, aucun nom a ajouter. Tarifs lus sur
 le site officiel : 15 € (Nikolina & KNTRLVRLST, 16/10), 18 € (Ueberrest & In Verruf, 23/10,
 le catalogue estimait 15 €), 15 € (PRTY : Samuel Moriero, 06/11), 18 € (Funk Tribu, 13/11).
+
+## id 735, Horrorland Halloween Festival, line-up
+
+Aucune affiche publiee. Le site officiel (https://horrorland.it/) annonce « artistes
+nationaux et internationaux » et « plus de 10 scenes thematiques » sans nommer personne, et
+la billetterie officielle n'en dit pas plus. Rien a verser, fiche laissee sans line-up.
+Tarif confirme : General Admission 1st release 20 € (+3 € de frais).
+
+## id 720, Cassius · Duel Club, adresse
+
+Le catalogue situe la salle a Naples. Le Duel Club est en realite a **Pozzuoli** (Via
+Antiniana 2a, 80078 Pozzuoli NA), dans l'agglomeration napolitaine mais pas dans la commune
+de Naples (https://dice.fm/venue/duel-club-kegq). A verifier avant de toucher a la fiche :
+changer la ville deplacerait l'evenement de la page /rave-party/naples.
+Le line-up DICE annonce « TBA » a 20h puis Cassius a 21h30, donc rien a ajouter.
+
+## id 797, Pole & Luigi Tozzi, tarif
+
+Pas de tarif sur la page de la soiree. Le bareme de la saison INNER_SPACES est publie par la
+Fondazione Culturale San Fedele : billets DICE « de 19 € a 24 € (frais inclus) », tarif
+reduit 15 € reserve au guichet, abonnement early bird 153 €
+(https://www.innerspaces.it/inner-spaces/). 19 € verse, c'est le plancher annonce par
+l'organisateur et le prix effectivement affiche sur DICE pour la soiree Andy Stott du 16/11.
+
+## id 371, Dalma Festival, tarif non tranche
+
+L'affiche complete est confirmee (site officiel), pas le tarif. Le seul chiffre publie est
+« from just €27.12 with our convenient 3-month interest-free payment plan »
+(https://www.dalmafestival.com/2026lineup/) : c'est une **mensualite**, pas un prix
+d'entree. Trois fois 27,12 € font environ 81 €, mais c'est un calcul, pas un tarif lu, donc
+rien n'est verse. La boutique (shop.dalmafestival.com) est rendue en JS et Skiddle repond
+202 depuis le conteneur. Le catalogue garde son estimation a 90 €.
+
+## id 744, Basic Club · NEUHM 15 ans
+
+Tarif confirme : early bird 10 € epuise, general admission 15 € (boisson comprise jusqu'a
+minuit). Aucun line-up publie sur la fiche de la billetterie officielle, rien a verser.
+Attention, l'adresse du Basic Club est **Viale Giovanni Boccaccio, 80040 Cercola NA**, pas
+Naples intra-muros (https://xceed.me/en/napoli/event/neuhm-15th-anniversary/239434).
+
+## id 790, Techniques · Charlotte de Witte a Athenes
+
+Tarif lu sur la billetterie officielle More.com, « από 45€ ». Attention, l'acces passe par
+une file d'attente (queue-it) et la page repond 302 : suivre la redirection. Charlotte de
+Witte reste la seule artiste annoncee (https://www.dancetoday.com.gr/en/events/event-charlotte-de-witte-in-athens).
+
+## id 769, EDEN · Nicole Moudaber & Grace Dahl, source a recouper
+
+Le troisieme nom de l'affiche, **Saber Rider**, ne m'est accessible que par un agenda de
+salle qui reprend Resident Advisor (https://events.musicofourdesire.com/venue/athens_conservatoire),
+RA repondant 403 depuis le conteneur. L'information est coherente sur plusieurs relais mais
+je n'ai pas ouvert de source primaire : a verifier avant publication. Aucun tarif accessible.

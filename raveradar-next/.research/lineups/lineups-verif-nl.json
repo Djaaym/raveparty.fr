@@ -140,5 +140,137 @@
   ],
   "source": "https://www.maassilo.com/agenda",
   "note": "affiche complete publiee par la salle (24 okt, Maassilo) ; noms remis en casse normale, 'Panic & MC Alee (3 hour set)' separe en deux artistes"
+ },
+ {
+  "id": 329,
+  "title": "Smeerboel Festival",
+  "lineup": [
+   "Alignment",
+   "Benny Rodrigues",
+   "BØĘRY b2b JOWI",
+   "Chuckie & Yucky",
+   "DART b2b Paige Tomlinson",
+   "Davyboi",
+   "Jamback",
+   "Kyle Starkey",
+   "Lauren Lo Sung",
+   "Lisa Korver",
+   "Luuk van Dijk",
+   "Milolaathetlukken",
+   "NewTone",
+   "NOA",
+   "Nonchelange",
+   "SNTS",
+   "Trym"
+  ],
+  "source": "https://www.smeerboel.nl/",
+  "note": "affiche complete (17 noms) publiee sur le site officiel, edition du 12 septembre 2026"
+ },
+ {
+  "id": 341,
+  "title": "Supremacy – State of Distortion",
+  "lineup": [
+   "Act of Rage",
+   "AdJuzT",
+   "Bloodlust",
+   "BMBERJCK",
+   "Chapter V",
+   "D-Sturb",
+   "Damaxy",
+   "Detailed",
+   "Dual Damage",
+   "Infliction",
+   "Kili",
+   "Kruelty",
+   "N-Vitral",
+   "Mutilator",
+   "Omnya",
+   "Radical Redemption",
+   "Revelation",
+   "The Saints",
+   "The Smiler",
+   "Warface",
+   "Nolz"
+  ],
+  "source": "https://www.supremacy.nl/line-up",
+  "note": "affiche complete du site officiel (mainstage, 26/09/2026, Brabanthallen) ; les titres de show (UNCHARTED, TEMPLE OF RAW, KALIBR-II...) ont ete retires, 'Kruelty & N-Vitral' et 'Damaxy & Detailed' separes"
+ },
+ {
+  "id": 128,
+  "title": "Awakenings ADE – Drumcode",
+  "lineup": [
+   "Adam Beyer",
+   "Enrico Sangiuliano",
+   "Ilario Alicante",
+   "Kaufmann",
+   "Kevin de Vries",
+   "Konstantin Sibold",
+   "Victor Ruiz"
+  ],
+  "source": "https://www.awakenings.com/en/events/2026/10/drumcode/397113/",
+  "note": "affiche officielle Awakenings ADE 2026 - Drumcode, 22/10 SugarFactory ; ajout de Kaufmann, Konstantin Sibold et Victor Ruiz"
+ },
+ {
+  "id": 132,
+  "title": "Boris Brejcha pres. FCKNG SERIOUS x Loveland",
+  "lineup": [
+   "Boris Brejcha",
+   "Ann Clue",
+   "Deniz Bul"
+  ],
+  "source": "https://loveland.nl/ade/boris-brejcha/",
+  "note": "page officielle Loveland ADE, 24/10/2026 15h30-21h30 Theater Amsterdam"
+ },
+ {
+  "id": 820,
+  "title": "Supremacy – Return To The Classics",
+  "lineup": [
+   "Act of Rage",
+   "Angerfist",
+   "B-Freqz",
+   "Crypsis",
+   "D-Sturb",
+   "Public Enemies",
+   "Radical Redemption",
+   "Rebelion",
+   "Regain",
+   "Rejecta",
+   "Sub Sonik",
+   "Unresolved",
+   "Warface",
+   "Nolz"
+  ],
+  "source": "https://www.supremacyclassics.nl/line-up",
+  "note": "affiche complete du site officiel (16/01/2027, Jaarbeurs Utrecht) ; titres de show retires"
+ },
+ {
+  "id": 645,
+  "title": "Rotterdam Rave Winter Special",
+  "lineup": [
+   "Afem Syko",
+   "BØĘRY",
+   "Cynthia Spiering",
+   "Burnr",
+   "DYEN",
+   "Future.666",
+   "In Verruf",
+   "IOSIO",
+   "JO3Y3T",
+   "KUKO",
+   "Kyle Starkey",
+   "LIEKS",
+   "Lisa Korver",
+   "Milion",
+   "MIT",
+   "NIKOLINA",
+   "NYRA",
+   "Ornella",
+   "SANTØS",
+   "THISO",
+   "TITI",
+   "Vagabund"
+  ],
+  "source": "https://rotterdamrave.nl/events/rotterdam-rave-winter-special-2026",
+  "note": "affiche complete du site officiel (12/12/2026, Maassilo)"
  }
 ]

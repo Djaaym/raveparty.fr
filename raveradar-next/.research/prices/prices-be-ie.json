@@ -75,5 +75,38 @@
   "priceNote": null,
   "ticketUrl": "https://www.rampage-weekend.eu/tickets",
   "source": "https://www.rampage-weekend.eu/tickets"
+ },
+ {
+  "id": 665,
+  "title": "Paul Oakenfold at Cyprus Avenue",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.cyprusavenue.ie/gigs"
+ },
+ {
+  "id": 760,
+  "title": "DJ Jean at Cyprus Avenue",
+  "price": 22,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.cyprusavenue.ie/gigs"
+ },
+ {
+  "id": 885,
+  "title": "Legends of Retro",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.billetweb.fr/legends-of-retro",
+  "source": "https://www.billetweb.fr/shop.php?event=legends-of-retro"
+ },
+ {
+  "id": 662,
+  "title": "Étienne de Crécy at The Workman's Club",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://selectivememory.ie/etienne-de-crecy/"
  }
 ]

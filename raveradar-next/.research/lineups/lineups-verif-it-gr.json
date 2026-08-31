@@ -426,5 +426,58 @@
   ],
   "source": "https://robotfestival.it/en/timetable/",
   "note": "programme officiel des trois jours de la fiche : 08/10 Ex Ospedale dei Bastardini, 09/10 Ex Ospedale + DumBO, 10/10 DumBO + Estragon (Autechre). L'edition compte aussi deux avant-premieres hors fiche, le 13/09 a Marzabotto (Marta Salogni & Stefano Pilia) et le 25/09 au Palazzo Re Enzo (Ana Roxanne, Sam Ruffillo, Carla Dal Forno)."
+ },
+ {
+  "id": 762,
+  "title": "Andy Stott · Auditorium San Fedele",
+  "lineup": [
+   "Collectif G",
+   "Andy Stott"
+  ],
+  "source": "https://www.innerspaces.it/inner-spaces/",
+  "note": "soiree INNER_SPACES du 16/11 : Collectif G (Maroussia Gentet et Matvey Zheleznyakov, repertoire Crumb et Ravel) ouvre, Andy Stott joue ensuite."
+ },
+ {
+  "id": 371,
+  "title": "Dalma Festival",
+  "lineup": [
+   "Adrián Mills",
+   "Anetha",
+   "Chlär b2b Freddy K",
+   "chouhal",
+   "Clara Cuvé",
+   "Dasha Rush",
+   "DVS1",
+   "Faster Horses",
+   "Georg",
+   "Human Safari",
+   "I Hate Models",
+   "Jeff Mills",
+   "Kyle Cortis",
+   "NEUX",
+   "Novah",
+   "ØTTA",
+   "Partiboi69",
+   "Rødhåd",
+   "ROW1",
+   "Scythe b2b OKSY",
+   "The Tunegirl",
+   "ÜBERKIKZ",
+   "Vagabund",
+   "Yanamaste"
+  ],
+  "source": "https://www.dalmafestival.com/",
+  "note": "affiche A-Z du site officiel, 4e edition. La repartition ven/sam est proposee sur le site par onglets mais n'est pas lisible dans le HTML servi."
+ },
+ {
+  "id": 769,
+  "title": "EDEN · Nicole Moudaber & Grace Dahl",
+  "lineup": [
+   "Nicole Moudaber",
+   "Grace Dahl",
+   "Saber Rider"
+  ],
+  "source": "https://events.musicofourdesire.com/venue/athens_conservatoire",
+  "note": "un troisieme nom, Saber Rider, est annonce a l'affiche. Source secondaire (agenda de salle qui reprend Resident Advisor, bloque depuis le conteneur) : a recouper avant publication."
  }
 ]

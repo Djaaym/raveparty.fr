@@ -181,5 +181,42 @@
   "priceNote": null,
   "source": "https://lerocherdepalmer.fr/agenda/nto",
   "note": "tarif plein 30 €, 32 € au guichet"
+ },
+ {
+  "id": 619,
+  "title": "La P'tite Fumée à La Belle Électrique",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.la-belle-electrique.com/fr/agenda/la-ptite-fumee",
+  "note": "27 € / 30 € / 32 €"
+ },
+ {
+  "id": 583,
+  "title": "Mecanik Paradize",
+  "price": 25,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://metropole.toulouse.fr/agenda/mecanik-paradize",
+  "note": "soirée du 8 octobre de 24,90 € à 54,90 € ; le 9 à 54 €/59 €, le 10 de 35,99 € à 50,99 €, le 11 en accès libre. Relevé sur l'agenda de Toulouse Métropole, la billetterie de l'organisateur est sur Shotgun (inaccessible depuis le conteneur), d'où le « estimated »"
+ },
+ {
+  "id": 430,
+  "title": "Overmono à l'Olympia",
+  "price": 44,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.olympiahall.com/agenda/overmono/",
+  "source": "https://www.olympiahall.com/agenda/overmono/",
+  "note": "de 44,19 € à 49,86 €"
+ },
+ {
+  "id": 453,
+  "title": "Acid Arab à La Cartonnerie",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.cartonnerie.fr/evenement/acid-arab/",
+  "note": "tarif plein 29 € en prévente (33 € sur place), réduit 27 €, adhérent 24 €"
  }
 ]

@@ -172,5 +172,85 @@
   "priceNote": null,
   "ticketUrl": "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099",
   "source": "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099"
+ },
+ {
+  "id": 687,
+  "title": "Digitalism · Hiroshima Mon Amour",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://ticket.hiroshimamonamour.org/it",
+  "source": "https://hiroshimamonamour.org/eventi/"
+ },
+ {
+  "id": 698,
+  "title": "Digitalism · Hacienda Roma",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/roma/event/digitalism-17-ottobre-optimism-tour-hacienda/222875",
+  "source": "https://xceed.me/it/roma/event/digitalism-17-ottobre-optimism-tour-hacienda/222875"
+ },
+ {
+  "id": 751,
+  "title": "Maribou State · Hacienda Roma",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/roma/event/maribou-state-hacienda-roma-13-novembre-2026/234536",
+  "source": "https://xceed.me/it/roma/event/maribou-state-hacienda-roma-13-novembre-2026/234536"
+ },
+ {
+  "id": 720,
+  "title": "Cassius · Duel Club",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/6a4ea9520532680001507af6",
+  "source": "https://dice.fm/event/6a4ea9520532680001507af6"
+ },
+ {
+  "id": 735,
+  "title": "Horrorland Halloween Festival",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.ticketnation.it/ferrara/horrorland-halloween-festival-ferrara-fiere.8498",
+  "source": "https://www.ticketnation.it/ferrara/horrorland-halloween-festival-ferrara-fiere.8498"
+ },
+ {
+  "id": 762,
+  "title": "Andy Stott · Auditorium San Fedele",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/6d8xx2-innerspaces-andy-stott-collectif-g-16th-nov-auditorium-san-fedele-milano-tickets",
+  "source": "https://dice.fm/event/6d8xx2-innerspaces-andy-stott-collectif-g-16th-nov-auditorium-san-fedele-milano-tickets"
+ },
+ {
+  "id": 797,
+  "title": "Pole & Luigi Tozzi · Auditorium San Fedele",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.innerspaces.it/inner-spaces/"
+ },
+ {
+  "id": 744,
+  "title": "Basic Club · NEUHM 15 ans",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/en/napoli/event/neuhm-15th-anniversary/239434",
+  "source": "https://xceed.me/en/napoli/event/neuhm-15th-anniversary/239434"
+ },
+ {
+  "id": 790,
+  "title": "Techniques · Charlotte de Witte à Athènes",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/",
+  "source": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/"
  }
 ]

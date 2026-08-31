@@ -86,5 +86,34 @@
   "priceNote": null,
   "source": "https://thuishaven.nl/",
   "note": "agenda officiel Thuishaven : 29,50 €"
+ },
+ {
+  "id": 332,
+  "title": "BASIS x BCCO w/ Ignez",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://weeztix.shop/kq4qvqtn",
+  "source": "https://clubbasis.nl/event/basis-x-bcco-fenim0re-ignez-3-hour-set-locus-error/",
+  "note": "site officiel BASIS : early entry avant 23h30 a 15 €, doorsale apres 23h30 a 20 €"
+ },
+ {
+  "id": 346,
+  "title": "BASIS Vinyl Special w/ Narciss",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://weeztix.shop/d9fq88mc",
+  "source": "https://clubbasis.nl/event/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set/",
+  "note": "site officiel BASIS : early entry avant 23h30 a 15 €, doorsale apres 23h30 a 20 €"
+ },
+ {
+  "id": 802,
+  "title": "Luminosity 19 Years Anniversary",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://melkweg.nl/en/agenda/luminosity-19-year-anniversary-19-12-2026/",
+  "note": "page officielle Melkweg : 29,90 € (tarif early)"
  }
 ]
