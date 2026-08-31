@@ -123,23 +123,136 @@ export interface MailAttachment {
 export const MAX_ATTACHMENT_BYTES = 3 * 1024 * 1024;
 
 /**
- * Mail transactionnel. Utilisé pour la soumission d'un événement, la validation d'un
- * compte promoteur, et le chemin Resend des alertes.
+ * L'adresse qui reçoit les demandes de compte et les dépôts d'événement.
  *
- * Renvoie false au lieu de lever : aucun appelant ne doit voir sa réussite dépendre de
- * l'acheminement d'une copie. C'est aussi ce qui permet aux routes de distinguer « pas
- * de boîte configurée » (501, on ne prétend pas avoir reçu) de « c'est parti ».
+ * Elle a une valeur par défaut, et ce n'est pas de la complaisance : sans elle, la
+ * fonctionnalité entière tenait à une variable que personne ne pense à poser, et une
+ * demande de compte arrivait dans un journal serveur que personne ne lit. Le
+ * propriétaire du site est connu, son adresse n'est pas un secret, et `ALERTS_NOTIFY_TO`
+ * reste là pour en mettre une autre.
+ *
+ * **Serveur uniquement.** Ce module n'est importé que par des routes d'API, et il doit
+ * le rester : une adresse mail dans un bundle de navigateur se fait ramasser par les
+ * robots à spam dans la semaine. C'est la même règle que pour `HOTEL_AID` dans
+ * `lib/site.ts`, pour une raison différente.
  */
-export async function sendMail(
+export const ownerAddress = (): string => process.env.ALERTS_NOTIFY_TO ?? "djaym.info@gmail.com";
+
+/**
+ * L'expéditeur.
+ *
+ * `ALERTS_NOTIFY_FROM` d'abord. À défaut, et **seulement avec Resend**,
+ * `onboarding@resend.dev` : c'est l'expéditeur de démarrage de Resend, qui fonctionne
+ * sans domaine vérifié mais **n'écrit qu'à l'adresse du compte Resend**. Ça suffit
+ * exactement pour ce dont on a besoin ici, se prévenir soi-même, et ça ramène la mise en
+ * route à une seule variable, la clé d'API. Pour écrire à un promoteur (validation,
+ * refus), il faut un domaine vérifié et un `ALERTS_NOTIFY_FROM` dessus.
+ *
+ * Brevo n'a pas d'équivalent : il exige un expéditeur vérifié dans le compte, donc pas
+ * de défaut possible, et `mailStatus()` le dit au lieu de laisser deviner.
+ */
+export const senderAddress = (): string =>
+  process.env.ALERTS_NOTIFY_FROM ??
+  // En SMTP, l'expéditeur est la boîte authentifiée : la plupart des serveurs refusent
+  // un `MAIL FROM` qui ne lui correspond pas, et le déduire évite une variable de plus.
+  process.env.SMTP_USER ??
+  (process.env.RESEND_API_KEY ? "onboarding@resend.dev" : "");
+
+export type MailProvider = "smtp" | "resend" | "brevo";
+
+/**
+ * Le fournisseur retenu, dans l'ordre de préférence.
+ *
+ * SMTP d'abord : quand une boîte du domaine est configurée, c'est elle qui doit écrire,
+ * un promoteur reçoit alors sa validation depuis `raveparty.fr` et non depuis l'adresse
+ * de démarrage d'un tiers. Resend ensuite, parce qu'il marche sans domaine vérifié.
+ * Brevo en dernier, il ne sert de transport que s'il est seul.
+ */
+export function mailProvider(): MailProvider | null {
+  if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) return "smtp";
+  if (process.env.RESEND_API_KEY) return "resend";
+  if (process.env.BREVO_API_KEY) return "brevo";
+  return null;
+}
+
+export interface MailStatus {
+  provider: MailProvider | null;
+  from: string;
+  to: string;
+  /** Un envoi partirait-il ? Faux dès qu'il manque une pièce. */
+  ready: boolean;
+  /** Les variables à poser, nommées, dans l'ordre où les poser. */
+  missing: string[];
+  /** Ce qu'il faut savoir de la configuration courante, en une phrase. */
+  note: string;
+}
+
+/**
+ * L'état du transport, tel que la console l'affiche.
+ *
+ * Il existe parce que « ça ne marche pas » est la pire des réponses : ici chaque pièce
+ * manquante est nommée, et une configuration qui marche à moitié (Resend en mode
+ * démarrage, qui n'écrit qu'au propriétaire) est annoncée comme telle plutôt que
+ * découverte le jour où un promoteur ne reçoit pas sa validation.
+ */
+export function mailStatus(): MailStatus {
+  const provider = mailProvider();
+  const from = senderAddress();
+  const to = ownerAddress();
+  const missing: string[] = [];
+
+  if (!provider) {
+    // Les trois du SMTP d'abord : c'est la mise en route recommandée, et une variable
+    // à moitié posée (l'hôte sans le mot de passe) doit se voir comme telle.
+    const smtp = ["SMTP_HOST", "SMTP_USER", "SMTP_PASS"].filter((k) => !process.env[k]);
+    missing.push(smtp.length === 3 ? "SMTP_HOST + SMTP_USER + SMTP_PASS (ou RESEND_API_KEY)" : smtp.join(" + "));
+  }
+  if (!from) missing.push("ALERTS_NOTIFY_FROM");
+
+  const note = !provider
+    ? "Aucun fournisseur : rien ne part, le détail des demandes va dans le journal serveur."
+    : provider === "smtp"
+      ? `Boîte ${process.env.SMTP_HOST} sur le port ${smtpPort()}. Utilise une boîte dédiée (noreply@), son mot de passe ouvre aussi la lecture du courrier.`
+      : provider === "resend" && from === "onboarding@resend.dev"
+        ? "Expéditeur de démarrage Resend : il n'écrit qu'à l'adresse du compte Resend. Pour prévenir un promoteur, vérifie un domaine et pose ALERTS_NOTIFY_FROM."
+        : provider === "brevo" && !process.env.ALERTS_NOTIFY_FROM
+          ? "Brevo exige un expéditeur vérifié dans le compte : pose ALERTS_NOTIFY_FROM."
+          : "Transport configuré.";
+
+  return { provider, from, to, ready: Boolean(provider && from && to), missing, note };
+}
+
+/** 465 par défaut (TLS implicite), 587 pour STARTTLS. C'est le port qui décide du mode,
+ *  et pas un drapeau à part : sur 465 la session est chiffrée avant le premier octet. */
+export const smtpPort = (): number => Number(process.env.SMTP_PORT ?? 465);
+
+export interface MailResult {
+  ok: boolean;
+  /** Ce que le fournisseur a répondu, tronqué. Vide quand tout va bien. */
+  detail: string;
+}
+
+/**
+ * Mail transactionnel, avec le détail de l'échec.
+ *
+ * `sendMail()` en dessous n'en garde que le booléen, parce qu'aucun appelant ne doit
+ * voir sa réussite dépendre de l'acheminement d'une copie. Mais le bouton de test de la
+ * console, lui, a besoin du message exact du fournisseur : « domaine non vérifié » et
+ * « clé invalide » se corrigent différemment, et un simple « échec » oblige à deviner.
+ */
+export async function sendMailDetailed(
   to: string,
   subject: string,
   text: string,
   attachments: MailAttachment[] = [],
-): Promise<boolean> {
-  const from = process.env.ALERTS_NOTIFY_FROM;
-  if (!to || !from) return false;
+): Promise<MailResult> {
+  const from = senderAddress();
+  if (!to) return { ok: false, detail: "aucun destinataire (ALERTS_NOTIFY_TO)" };
+  if (!from) return { ok: false, detail: "aucun expéditeur (ALERTS_NOTIFY_FROM)" };
 
   try {
+    if (mailProvider() === "smtp") return await sendSmtp(from, to, subject, text, attachments);
+
     if (process.env.RESEND_API_KEY) {
       const res = await fetch("https://api.resend.com/emails", {
         method: "POST",
@@ -149,7 +262,8 @@ export async function sendMail(
           ...(attachments.length ? { attachments: attachments.map((a) => ({ filename: a.filename, content: a.content })) } : {}),
         }),
       });
-      return res.ok;
+      if (res.ok) return { ok: true, detail: "" };
+      return { ok: false, detail: `Resend ${res.status} ${(await res.text().catch(() => "")).slice(0, 220)}` };
     }
     if (process.env.BREVO_API_KEY) {
       const res = await fetch("https://api.brevo.com/v3/smtp/email", {
@@ -160,17 +274,117 @@ export async function sendMail(
           ...(attachments.length ? { attachment: attachments.map((a) => ({ name: a.filename, content: a.content })) } : {}),
         }),
       });
-      return res.ok;
+      if (res.ok) return { ok: true, detail: "" };
+      return { ok: false, detail: `Brevo ${res.status} ${(await res.text().catch(() => "")).slice(0, 220)}` };
     }
-  } catch {
-    return false;
+  } catch (err) {
+    return { ok: false, detail: err instanceof Error ? err.message.slice(0, 220) : "réseau" };
   }
-  return false;
+  return { ok: false, detail: "aucun fournisseur configuré (SMTP_HOST + SMTP_USER + SMTP_PASS, ou RESEND_API_KEY)" };
 }
 
-/** L'adresse qui reçoit les demandes de compte et les dépôts d'événement. */
-export const ownerAddress = (): string => process.env.ALERTS_NOTIFY_TO ?? "";
+/**
+ * Mail transactionnel. Utilisé pour la soumission d'un événement, la validation d'un
+ * compte promoteur, et le chemin Resend des alertes.
+ *
+ * Renvoie false au lieu de lever : aucun appelant ne doit voir sa réussite dépendre de
+ * l'acheminement d'une copie. L'échec n'est pas perdu pour autant, il part dans le
+ * journal serveur, et la console le montre à côté de ce qui n'a pas été notifié.
+ */
+export async function sendMail(
+  to: string,
+  subject: string,
+  text: string,
+  attachments: MailAttachment[] = [],
+): Promise<boolean> {
+  const res = await sendMailDetailed(to, subject, text, attachments);
+  if (!res.ok) console.error(`[mail] échec vers ${to} : ${res.detail}`);
+  return res.ok;
+}
 
 /** Le mail au propriétaire, cas particulier de `sendMail` avec son destinataire. */
 export const notifyOwner = (subject: string, text: string, attachments: MailAttachment[] = []): Promise<boolean> =>
   sendMail(ownerAddress(), subject, text, attachments);
+
+/* ---------------------------------------------------------------------------
+   SMTP
+--------------------------------------------------------------------------- */
+
+/**
+ * L'envoi par une boîte du domaine (Hostinger, ou n'importe quel serveur SMTP).
+ *
+ * ## Pourquoi c'est le chemin recommandé
+ *
+ * La boîte est rattachée à `raveparty.fr`, donc SPF et DKIM sont déjà posés par
+ * l'hébergeur : un promoteur reçoit sa validation depuis une adresse du site, et non
+ * depuis l'adresse de démarrage d'un tiers. C'est aussi un compte de moins à tenir.
+ *
+ * ## Ce qu'il faut savoir avant de poser les variables
+ *
+ * **Une boîte dédiée, jamais la boîte personnelle.** Une clé d'API ne sait qu'envoyer ;
+ * le mot de passe d'une boîte ouvre aussi sa **lecture** en IMAP. Mettre celui de sa
+ * boîte principale dans les variables d'un déploiement, c'est y mettre l'accès complet à
+ * son courrier alors que le site n'a besoin que d'expédier. Une boîte `noreply@` rend la
+ * fuite sans intérêt, et c'est ce que `mailStatus()` rappelle à l'écran.
+ *
+ * **Les quotas d'un hébergeur ne sont pas ceux d'un service d'envoi** (quelques
+ * centaines de messages par jour, parfois par heure). Sans importance pour prévenir le
+ * propriétaire et répondre à des promoteurs ; le jour où une vraie newsletter part à
+ * toute la liste, c'est Brevo qui la portera, pas cette boîte.
+ *
+ * ## Choix d'implémentation
+ *
+ * Un transporteur **par envoi**, sans pool : sur des fonctions serverless, une connexion
+ * gardée entre deux invocations est le plus souvent une socket morte que le serveur a
+ * fermée entre-temps, et le coût d'une poignée de main TLS est sans commune mesure avec
+ * celui d'un envoi manqué. Le volume attendu se compte en messages par jour.
+ *
+ * Les délais d'attente sont **bornés et courts**. Une fonction Vercel a un budget de
+ * quelques secondes ; un serveur SMTP qui ne répond pas doit rendre la main bien avant,
+ * sinon c'est l'inscription du promoteur qui expire, alors qu'elle est déjà enregistrée
+ * et que seule la copie du propriétaire est en jeu.
+ */
+async function sendSmtp(
+  from: string,
+  to: string,
+  subject: string,
+  text: string,
+  attachments: MailAttachment[],
+): Promise<MailResult> {
+  // Import dynamique : `nodemailer` est la seule dépendance serveur du projet, et rien
+  // ne doit la charger quand le transport configuré est une API REST.
+  const { createTransport } = await import("nodemailer");
+  const port = smtpPort();
+
+  const transport = createTransport({
+    host: process.env.SMTP_HOST,
+    port,
+    // 465 chiffre dès la connexion, 587 négocie avec STARTTLS. Le port décide, donc il
+    // n'y a pas de troisième réglage à se tromper.
+    secure: port === 465,
+    auth: { user: process.env.SMTP_USER as string, pass: process.env.SMTP_PASS as string },
+    connectionTimeout: 8000,
+    greetingTimeout: 8000,
+    socketTimeout: 12000,
+  });
+
+  try {
+    const info = await transport.sendMail({
+      from,
+      to,
+      subject,
+      text,
+      attachments: attachments.map((a) => ({ filename: a.filename, content: a.content, encoding: "base64" })),
+    });
+    // Un serveur peut accepter le message pour certains destinataires et pas pour
+    // d'autres : `rejected` non vide est un échec, même si l'appel n'a pas levé.
+    if (info.rejected?.length) return { ok: false, detail: `destinataire refusé : ${info.rejected.join(", ")}` };
+    return { ok: true, detail: "" };
+  } catch (err) {
+    // Le message du serveur tel quel : « Invalid login » et « Connection timeout » ne se
+    // corrigent pas de la même façon, et c'est ce que la console affiche.
+    return { ok: false, detail: `SMTP ${err instanceof Error ? err.message.slice(0, 220) : "erreur"}` };
+  } finally {
+    transport.close();
+  }
+}

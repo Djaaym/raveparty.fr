@@ -92,6 +92,37 @@ async function set(key: string, value: unknown, pushTo?: [string, string]): Prom
   if (failed) throw new Error(failed.error);
 }
 
+/**
+ * Supprime des clés, et retire au passage des valeurs des listes d'index.
+ *
+ * Les deux vont ensemble, toujours : un id resté dans `rr:pro:sall` alors que sa valeur
+ * a disparu est exactement le défaut des maps indexées par id de `lib/data.ts`, où
+ * `IMAGES`, `PHOTOS` et `TICKETS` gardaient des entrées pointant sur des événements
+ * supprimés, et où `patch_data_ts()` finissait par planter dessus. Ici la conséquence
+ * est plus douce (une ligne manquante à la relecture) mais la règle est la même : on
+ * élague l'index en même temps que la valeur.
+ */
+async function drop(keys: string[], fromLists: [string, string][] = []): Promise<void> {
+  const c = creds();
+  if (!c) {
+    for (const k of keys) MEM.delete(k);
+    for (const [list, value] of fromLists) {
+      const rows = MEM_LISTS.get(list);
+      if (rows) MEM_LISTS.set(list, rows.filter((v) => v !== value));
+    }
+    return;
+  }
+  const cmds: (string | number)[][] = [];
+  if (keys.length) cmds.push(["DEL", ...keys]);
+  // LREM avec un compte de 0 retire *toutes* les occurrences : un id poussé deux fois
+  // par une reprise ne doit pas survivre à sa propre suppression.
+  for (const [list, value] of fromLists) cmds.push(["LREM", list, 0, value]);
+  if (!cmds.length) return;
+  const replies = await kvPipeline(cmds, c);
+  const failed = replies.find((r) => r.error);
+  if (failed) throw new Error(failed.error);
+}
+
 async function listRange(key: string, start: number, stop: number): Promise<string[]> {
   const c = creds();
   if (!c) {
@@ -183,6 +214,47 @@ export async function listSubmissions(email: string, limit = 100): Promise<Event
 export async function countRecentSubmissions(email: string, sinceIso: string): Promise<number> {
   const rows = await listSubmissions(email, 60);
   return rows.filter((r) => r.createdAt >= sinceIso).length;
+}
+
+/** Tous les dépôts, les plus récents d'abord. Sert la relecture du propriétaire, qui
+ *  doit voir ce qui arrive quel que soit le compte d'où ça vient. */
+export async function listAllSubmissions(limit = 200): Promise<EventSubmission[]> {
+  const ids = await listRange(SALL, -limit, -1);
+  const rows = await getMany<EventSubmission>(ids.map((id) => S + id));
+  return rows.reverse();
+}
+
+/** Supprime un dépôt, et son id dans les deux index qui le citent. */
+export async function deleteSubmission(id: string): Promise<boolean> {
+  const sub = await getSubmission(id);
+  if (!sub) return false;
+  await drop([S + id], [[SO + sub.owner, id], [SALL, id]]);
+  return true;
+}
+
+/**
+ * Supprime un compte **et tout ce qu'il a déposé**.
+ *
+ * En cascade, et non « le compte seul » : un dépôt orphelin n'a plus de structure
+ * derrière lui, donc plus rien à vérifier ni personne à qui répondre, et il resterait
+ * dans la file de relecture sans que rien ne dise pourquoi il est là. Supprimer un
+ * compte est de toute façon la mesure la plus lourde de la console, elle doit être
+ * complète plutôt qu'à moitié faite.
+ *
+ * Rend le nombre de dépôts partis avec, pour que la console puisse le dire avant et
+ * après : « supprimer ce compte et ses 4 dépôts » n'est pas la même décision que
+ * « supprimer ce compte ».
+ */
+export async function deleteAccount(email: string): Promise<{ ok: boolean; submissions: number }> {
+  const account = await getAccount(email);
+  if (!account) return { ok: false, submissions: 0 };
+
+  const ids = await listRange(SO + email, 0, -1);
+  await drop(
+    [U + email, SO + email, ...ids.map((id) => S + id)],
+    [[ALL, email], ...ids.map((id): [string, string] => [SALL, id])],
+  );
+  return { ok: true, submissions: ids.length };
 }
 
 /** État du magasin, affiché tel quel dans les pages qui en dépendent. */

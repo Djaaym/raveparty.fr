@@ -1,71 +1,41 @@
-import { createHmac, createHash, timingSafeEqual } from "node:crypto";
+import { ownerGate } from "./owner-auth";
 
 /**
- * Who may read the dashboard.
+ * Qui peut lire le tableau de bord d'audience.
  *
- * One password, held in `TRACKING_PASSWORD`, exchanged for a signed cookie. No user
- * table, no provider, no OAuth round-trip, there is exactly one person who should see
- * this page, and everything more elaborate would be more surface for the same result.
+ * Un mot de passe, tenu dans `TRACKING_PASSWORD`, échangé contre un cookie signé. Pas de
+ * table d'utilisateurs, pas de fournisseur, pas d'aller-retour OAuth : il y a exactement
+ * une personne qui doit voir cette page, et tout ce qui serait plus élaboré ferait plus
+ * de surface pour le même résultat.
  *
- * The cookie carries no session state: it is `expiry.signature`, and the signature is an
- * HMAC of the expiry under a server secret. Nothing to store, nothing to look up, and a
- * forged cookie fails on arithmetic rather than on a lookup that could be raced.
+ * La mécanique elle-même (cookie sans état, HMAC de l'expiration, comparaison à temps
+ * constant) vit dans `lib/owner-auth.ts` : la console d'administration a besoin de la
+ * même, et deux copies du même HMAC font deux corrections à faire le jour où l'une se
+ * trompe. Ce module n'en garde que le paramétrage, et ses exports d'origine, pour que
+ * `/suivi` et ses routes n'aient rien à changer.
  *
- * With `TRACKING_PASSWORD` unset the dashboard refuses to open at all rather than
- * defaulting to something guessable, an analytics page left open shows visitor
- * journeys, and that is not a page to leave ajar while you "set it up later".
+ * Sans `TRACKING_PASSWORD`, le tableau de bord refuse de s'ouvrir plutôt que de retomber
+ * sur quelque chose de devinable : une page d'analytics laissée entrouverte montre des
+ * parcours de visite individuels.
+ *
+ * `TRACKING_SECRET` découple la clé de signature du mot de passe. Par défaut elle en est
+ * dérivée, avec la conséquence délibérée qu'un changement de mot de passe invalide tous
+ * les cookies émis, ce qu'on attend d'un changement de mot de passe.
  */
+const GATE = ownerGate({
+  cookie: "rr_track",
+  passwordEnv: ["TRACKING_PASSWORD"],
+  secretEnv: ["TRACKING_SECRET"],
+  scope: "rr-track",
+});
 
-export const COOKIE = "rr_track";
+export const COOKIE = GATE.cookie;
 
-/** 30 days. Long enough not to be a chore, short enough that a stolen cookie expires. */
-export const SESSION_SECONDS = 30 * 24 * 3600;
+/** 30 jours. Assez long pour ne pas être une corvée, assez court pour qu'un cookie volé
+ *  finisse par expirer. */
+export const SESSION_SECONDS = GATE.sessionSeconds;
 
-export function isConfigured(): boolean {
-  return Boolean(process.env.TRACKING_PASSWORD);
-}
-
-/**
- * Signing key. Defaults to a hash of the password so a single variable is enough to
- * stand the whole thing up, with the deliberate consequence that changing the password
- * invalidates every issued cookie, which is what you want from a password change anyway.
- * Set `TRACKING_SECRET` to decouple the two.
- */
-function secret(): string {
-  const s = process.env.TRACKING_SECRET;
-  if (s) return s;
-  return createHash("sha256").update("rr-track:" + (process.env.TRACKING_PASSWORD ?? "")).digest("hex");
-}
-
-function sign(payload: string): string {
-  return createHmac("sha256", secret()).update(payload).digest("base64url");
-}
-
-/** Compares two strings without leaking their common prefix through timing. Hashing
- *  first sidesteps `timingSafeEqual`'s own length requirement, which would otherwise
- *  throw, and reveal the expected length by throwing. */
-function safeEqual(a: string, b: string): boolean {
-  const ha = createHash("sha256").update(a).digest();
-  const hb = createHash("sha256").update(b).digest();
-  return timingSafeEqual(ha, hb);
-}
-
-export function passwordOk(candidate: unknown): boolean {
-  const expected = process.env.TRACKING_PASSWORD;
-  if (!expected || typeof candidate !== "string" || !candidate) return false;
-  return safeEqual(candidate, expected);
-}
-
-export function issueToken(now = Date.now()): string {
-  const exp = Math.floor(now / 1000) + SESSION_SECONDS;
-  return `${exp}.${sign(String(exp))}`;
-}
-
-export function verifyToken(token: string | undefined, now = Date.now()): boolean {
-  if (!token || !isConfigured()) return false;
-  const dot = token.indexOf(".");
-  if (dot < 1) return false;
-  const exp = Number(token.slice(0, dot));
-  if (!Number.isFinite(exp) || exp * 1000 < now) return false;
-  return safeEqual(token.slice(dot + 1), sign(String(exp)));
-}
+export const isConfigured = GATE.isConfigured;
+export const passwordOk = GATE.passwordOk;
+export const issueToken = GATE.issueToken;
+export const verifyToken = GATE.verifyToken;

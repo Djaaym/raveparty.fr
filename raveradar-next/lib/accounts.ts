@@ -62,6 +62,15 @@ export interface PromoterAccount extends PromoterProfile {
   createdAt: string;
   decidedAt?: string;
   note?: string;
+  /**
+   * Le propriétaire a-t-il reçu le mail annonçant cette demande ?
+   *
+   * Faux quand le transport n'était pas configuré ou qu'il a refusé. La console
+   * l'affiche, sinon une demande arrivée un jour où le mail était cassé attendrait
+   * indéfiniment sans que rien ne le signale : c'est précisément le genre de silence
+   * qui fait perdre un contributeur.
+   */
+  notified?: boolean;
 }
 
 /** Ce qu'on renvoie au navigateur : tout le profil sauf l'empreinte. */
@@ -86,6 +95,8 @@ export interface EventSubmission {
   createdAt: string;
   decidedAt?: string;
   note?: string;
+  /** Même rôle que sur un compte : le mail est-il parti ? Voir `PromoterAccount`. */
+  notified?: boolean;
 
   title: string;
   type: string;

@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  /* `nodemailer` reste hors du bundle des routes serveur : il charge ses transports par
+     `require` dynamique, ce que le bundler ne sait pas suivre, et il n'a de toute façon
+     rien à faire dans un bundle, il est chargé à la demande par le seul envoi SMTP. */
+  experimental: { serverComponentsExternalPackages: ["nodemailer"] },
   /* Plus de `images.remotePatterns` : il n'existe plus une seule image distante.
      Les affiches IA ont quitté le CDN du générateur pour public/posters/, et le
      site n'utilise pas <Image>, que des <img> avec width/height déclarés. */

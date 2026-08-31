@@ -3,6 +3,7 @@ import { parseProfile, passwordIssue, publicAccount } from "@/lib/accounts";
 import { isConfigured, listSubmissions, memoryOnlyAllowed, saveAccount } from "@/lib/accounts-store";
 import { SESSION_SECONDS, hashPassword, issueSession, verifyPassword } from "@/lib/promoter-auth";
 import { currentAccount, sessionCookies, withCookies } from "@/lib/promoter-session";
+import { isAdminEmail } from "@/lib/admin-auth";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 
 export const dynamic = "force-dynamic";
@@ -17,7 +18,15 @@ export async function GET(req: Request) {
 
   const submissions = await listSubmissions(account.email).catch(() => []);
   return NextResponse.json(
-    { open, account: publicAccount(account), submissions },
+    {
+      open,
+      account: publicAccount(account),
+      submissions,
+      /* Ce compte ouvre-t-il la console ? Mêmes conditions que `lib/admin-access.ts`,
+         adresse déclarée **et** compte approuvé. Sert uniquement à afficher le lien :
+         l'autorisation, elle, est revérifiée par les routes de la console. */
+      admin: account.status === "approved" && isAdminEmail(account.email),
+    },
     { headers: { "cache-control": "no-store" } },
   );
 }

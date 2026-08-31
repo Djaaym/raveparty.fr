@@ -27,7 +27,8 @@ relecture plus rapide, pas facultative.
 
 ## Mise en route
 
-Trois choses à poser dans Vercel, dont une seule est vraiment nouvelle.
+Deux variables suffisent à tout faire tourner : le magasin et une clé d'API mail. Les
+autres ne servent qu'à préciser.
 
 ### 1. Le magasin (obligatoire)
 
@@ -50,18 +51,63 @@ lambda disparaît au premier redéploiement, et annoncer une inscription qui ne 
 est pire que la refuser. Le repli mémoire reste ouvert en `next dev`, où il est exactement
 ce qu'il faut.
 
-### 2. Le mail sortant (obligatoire en pratique)
+### 2. Les alertes mail
 
-Déjà nécessaire pour le formulaire organisateur, mêmes variables :
+C'est par là qu'arrivent les demandes de compte et les dépôts, avec les liens
+**Approuver** / **Refuser** et l'affiche en pièce jointe. Trois transports possibles,
+essayés dans cet ordre.
+
+#### Recommandé : la boîte du domaine (Hostinger)
 
 ```
-ALERTS_NOTIFY_TO=djaym.info@gmail.com
-ALERTS_NOTIFY_FROM=alertes@raveparty.fr
+SMTP_HOST=smtp.hostinger.com     (ou smtp.titan.email selon l'offre, à vérifier dans hPanel)
+SMTP_USER=noreply@raveparty.fr
+SMTP_PASS=…
+SMTP_PORT=465                    (facultatif : 465 par défaut, 587 pour STARTTLS)
 ```
+
+L'expéditeur se déduit de `SMTP_USER`, il n'y a donc rien d'autre à poser. Les
+enregistrements SPF et DKIM du domaine étant déjà en place chez l'hébergeur, un promoteur
+reçoit sa validation depuis une adresse du site, et non depuis l'adresse de démarrage d'un
+tiers.
+
+**Une boîte dédiée, jamais la boîte personnelle.** Une clé d'API ne sait qu'envoyer ; le
+mot de passe d'une boîte ouvre aussi sa lecture en IMAP. Mettre celui de sa boîte
+principale dans les variables d'un déploiement, c'est y mettre l'accès complet à son
+courrier alors que le site n'a besoin que d'expédier. Une boîte `noreply@` rend la fuite
+sans intérêt, et la console le rappelle à l'écran.
+
+**Les quotas d'un hébergeur ne sont pas ceux d'un service d'envoi** (quelques centaines de
+messages par jour, parfois par heure). Sans importance ici ; le jour où une vraie
+newsletter part à toute la liste, c'est Brevo qui la portera, pas cette boîte.
+
+#### En repli : Resend
+
+```
+RESEND_API_KEY=re_…
+```
+
+Une seule ligne, pour se prévenir soi-même. Le destinataire vaut `djaym.info@gmail.com`
+par défaut (`ALERTS_NOTIFY_TO` pour en changer) et l'expéditeur retombe sur
+`onboarding@resend.dev`, l'adresse de démarrage de Resend, qui fonctionne **sans domaine
+vérifié**. Sa limite est affichée dans la console : elle **n'écrit qu'à l'adresse du
+compte Resend**, donc elle ne suffit pas pour écrire à un promoteur. Pour ça, un domaine
+vérifié et `ALERTS_NOTIFY_FROM=alertes@raveparty.fr`.
+
+Brevo marche aussi (`BREVO_API_KEY`), avec une différence : pas d'expéditeur de démarrage,
+il exige un expéditeur vérifié dans le compte, donc `ALERTS_NOTIFY_FROM` y est obligatoire
+dès le départ.
+
+**Le bouton « Envoyer un test » de `/admin` est là pour finir la configuration** : il
+envoie un vrai message et rend la réponse du fournisseur telle quelle. « API key is
+invalid » et « domain is not verified » ne se corrigent pas pareil, et un simple « échec »
+obligerait à aller lire les journaux de Vercel.
 
 Sans transport, un compte se crée quand même mais **personne n'est prévenu** : la demande
-attend, et son détail (liens d'approbation compris) part dans le journal serveur. Les
-pages de décision le disent au lieu d'annoncer un mail qui n'est pas parti.
+attend, son détail (liens d'approbation compris) part dans le journal serveur, et la
+console marque la ligne **« non notifié »**. C'est ce marqueur qui évite le pire des cas,
+une demande arrivée un jour où le mail était cassé et qui attend indéfiniment sans que
+rien ne le signale.
 
 ### 3. Le secret de signature (recommandé)
 
@@ -88,6 +134,70 @@ au lieu de recevoir « identifiants incorrects » sur un compte qui existe.
 Garde-fous en place : cinq tentatives de connexion par minute et par adresse IP, quatre
 inscriptions, douze dépôts par compte et par tranche de 24 heures. Tous best-effort et par
 instance de lambda, comme le reste de `lib/ratelimit.ts`.
+
+## La console, pour revenir sur une décision
+
+Les liens du mail suffisent à trancher **au moment où la demande arrive**. Ce qu'ils ne
+permettent pas, c'est de revenir : suspendre un compte qui dérape, supprimer un compte de
+test, retirer un dépôt qui n'aurait pas dû passer. Sans ça, la seule façon de défaire
+serait d'ouvrir Redis à la main.
+
+**`/admin`** est cette porte de sortie. Même statut que `/suivi` : pas de nav, pas de
+lien depuis le site, `noindex`, `Disallow` dans `robots.txt`, et un mot de passe sur ses
+propres routes, pas seulement sur l'affichage.
+
+**Deux portes, indépendantes.**
+
+**Avec ton compte, c'est la voie normale.** Une session promoteur dont l'adresse figure
+dans `ADMIN_EMAILS` (par défaut `djaym.info@gmail.com`) et **dont le compte est approuvé**
+ouvre la console. On se connecte sur `/account` comme sur le reste du site, et un lien
+« Administration » apparaît au-dessus des onglets. Rien à configurer.
+
+Pourquoi « approuvé » et pas seulement « la bonne adresse » : rien ne vérifie qu'on
+possède l'adresse saisie à l'inscription, il n'y a pas de confirmation par mail. Ouvrir la
+console sur la seule foi d'une adresse la donnerait au premier qui s'inscrit avec la
+tienne. Exiger un compte approuvé referme la porte sans machinerie nouvelle, le seul moyen
+d'être approuvé étant un clic dans le mail de validation, qui part vers ta boîte. Une
+fausse candidature s'y voit et ne s'approuve pas.
+
+**Avec un mot de passe, en secours.**
+
+```
+ADMIN_PASSWORD=une-chaîne-longue-et-unique
+```
+
+**Sans elle, `TRACKING_PASSWORD` fait l'affaire** : il y a une seule personne derrière ces
+deux pages, et lui demander de configurer un second secret pour la même main serait le
+meilleur moyen qu'elle en choisisse un faible. Le cookie est propre à la console (7 jours,
+contre 30 pour le suivi, cette porte-là supprimant des comptes) : même avec le même mot de
+passe, un cookie `/suivi` n'ouvre pas `/admin`. Garde cette porte ouverte : perdre le mot
+de passe de son compte ou casser le magasin fermerait sinon le seul chemin qui permet de
+réparer.
+
+Un troisième garde-fou vient avec l'accès par compte : **on ne peut ni se supprimer ni se
+suspendre soi-même**. Entré avec son propre compte, c'est lui qui tient la porte, et sans
+`ADMIN_PASSWORD` posé il n'y aurait plus aucun moyen de revenir. La console refuse, et
+n'affiche pas les boutons sur sa propre ligne.
+
+Ce qu'on y fait, sur un compte : le passer à `approved`, `pending`, `suspended`,
+`rejected`, ou le supprimer. Sur un dépôt : le valider, le remettre en relecture,
+l'écarter, ou le supprimer.
+
+Deux choses à savoir avant de cliquer :
+
+- **Supprimer un compte supprime ses dépôts avec lui.** En cascade, et pas « le compte
+  seul » : un dépôt orphelin n'a plus de structure derrière lui, donc plus rien à
+  vérifier ni personne à qui répondre, et il resterait dans la file sans que rien ne dise
+  pourquoi. La confirmation annonce le nombre exact, « supprimer ce compte » et
+  « supprimer ce compte et ses 4 dépôts » n'étant pas la même décision.
+- **La console n'envoie aucun mail.** Les liens du mail sont la décision de première main,
+  celle qu'on prend en découvrant la demande, et prévenir est alors le geste attendu. La
+  console sert à reprendre et à faire le ménage : repasser un compte en attente pour
+  vérifier une pièce ne mérite pas un mail, et supprimer un compte de test encore moins.
+
+Un compte `suspended` ou `rejected` ne peut plus se connecter, et le statut est relu à
+chaque requête : la suspension prend effet tout de suite, sans attendre l'expiration
+d'un cookie.
 
 ## Les liens d'un clic, et pourquoi c'est un GET
 
@@ -149,6 +259,9 @@ qui n'avait pas lieu.
   du site pour savoir s'il faut écrire « Connexion » ou « Mon compte ».
 - Le statut du compte est relu à chaque requête, donc **suspendre prend effet tout de
   suite**, sans attendre l'expiration d'un cookie.
+- L'adresse du propriétaire vit dans `lib/subscribers.ts`, **module serveur uniquement**,
+  et doit y rester : une adresse mail dans un bundle de navigateur se fait ramasser par
+  les robots à spam dans la semaine.
 - La route de connexion ne distingue pas « adresse inconnue » de « mot de passe faux » :
   les séparer ferait du formulaire un test d'existence d'adresse. Un compte refusé ou
   suspendu, lui, est bien distingué, mais **après** vérification du mot de passe.
