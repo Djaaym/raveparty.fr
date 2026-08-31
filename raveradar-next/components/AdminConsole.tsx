@@ -32,8 +32,15 @@ interface Data {
   submissions: EventSubmission[];
 }
 
+/* « Validé » laissait croire qu'un dépôt était en ligne, alors qu'il entre au catalogue
+   par `.research/from-submissions.py` puis `merge.py`, et pas avant. Le statut d'un
+   dépôt dit donc ce qu'il est vraiment : vérifié, et en attente de saisie. Celui d'un
+   compte garde « validé », qui y est exact. */
 const STATUS_FR: Record<string, string> = {
-  pending: "en attente", approved: "validé", rejected: "refusé", suspended: "suspendu", published: "validé",
+  pending: "en attente", approved: "validé", rejected: "refusé", suspended: "suspendu",
+};
+const SUB_STATUS_FR: Record<string, string> = {
+  pending: "en relecture", published: "à saisir", rejected: "écarté",
 };
 
 export default function AdminConsole() {
@@ -307,13 +314,20 @@ export default function AdminConsole() {
       )}
 
       {tab === "submissions" && (
+        <>
+        <p className="adm-note adm-pipeline">
+          Marquer « vérifié, à saisir » ne met rien en ligne : le catalogue est un fichier
+          relu à la main. Pour publier, depuis <code>raveradar-next/</code> :{" "}
+          <code>python3 .research/from-submissions.py</code>, puis{" "}
+          <code>python3 .research/merge.py</code>, puis commit et déploiement.
+        </p>
         <ul className="adm-list">
           {submissions.length === 0 && <li className="adm-note">Aucun dépôt pour l&apos;instant.</li>}
           {submissions.map((s) => (
             <li className="adm-row" key={s.id}>
               <div className="adm-main">
                 <b>{s.title}</b>
-                <span className={`adm-state s-${s.status}`}>{STATUS_FR[s.status]}</span>
+                <span className={`adm-state s-${s.status}`}>{SUB_STATUS_FR[s.status]}</span>
                 {s.notified === false && <span className="adm-state s-quiet">non notifié</span>}
                 <span className="adm-meta">
                   {fmtDate(s.date, "fr")}
@@ -345,7 +359,7 @@ export default function AdminConsole() {
                   .map((x) => (
                     <button key={x} className="btn btn-ghost btn-sm" disabled={busy === s.id}
                       onClick={() => act({ kind: "submission", id: s.id, action: x }, s.id)}>
-                      {x === "published" ? "valider" : x === "pending" ? "remettre en relecture" : "écarter"}
+                      {x === "published" ? "vérifié, à saisir" : x === "pending" ? "remettre en relecture" : "écarter"}
                     </button>
                   ))}
                 {confirming === `sub:${s.id}` ? (
@@ -362,6 +376,7 @@ export default function AdminConsole() {
             </li>
           ))}
         </ul>
+        </>
       )}
     </>
   );

@@ -122,7 +122,7 @@ async function decideSubmission(id: string, action: "publish" | "reject", token:
   return page(
     action === "publish" ? "Dépôt validé" : "Dépôt écarté",
     `« ${escapeHtml(sub.title)} » est ${label(next)}.` +
-      (action === "publish" ? " Reste à le saisir au catalogue via .research/merge.py." : "") +
+      (action === "publish" ? " Il n\u2019est pas en ligne pour autant : lance .research/from-submissions.py puis merge.py pour le saisir au catalogue." : "") +
       (told ? "" : " Aucun mail envoyé (pas de transport configuré)."),
     true,
   );
@@ -133,7 +133,7 @@ async function decideSubmission(id: string, action: "publish" | "reject", token:
 --------------------------------------------------------------------------- */
 
 const label = (s: string) =>
-  ({ approved: "approuvé", rejected: "refusé", published: "validé", pending: "en attente", suspended: "suspendu" })[s] ?? s;
+  ({ approved: "approuvé", rejected: "refusé", published: "vérifié, à saisir", pending: "en attente", suspended: "suspendu" })[s] ?? s;
 
 const escapeHtml = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string);

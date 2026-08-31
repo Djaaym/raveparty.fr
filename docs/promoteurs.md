@@ -246,6 +246,58 @@ entier : le formulaire garde alors le nom du fichier et le dit. L'ancien formula
 faisait que ça dans tous les cas, alors que « glisse ton artwork ici » promettait un envoi
 qui n'avait pas lieu.
 
+## Publier un dépôt : la chaîne complète
+
+**Marquer « vérifié, à saisir » dans la console ne met rien en ligne.** Le catalogue est
+un fichier TypeScript (`lib/data.ts`) à partir duquel Next.js génère les ~7 000 pages
+statiques au déploiement : une fiche n'existe pour le site qu'une fois écrite dedans.
+
+```
+cd raveradar-next
+python3 .research/from-submissions.py --dry     # rapport, rien d'écrit
+python3 .research/from-submissions.py           # écrit .research/events-promoteurs.json
+# relire le lot, compléter `region` sur les fiches françaises
+python3 .research/merge.py --dry && python3 .research/merge.py
+python3 .research/audit.py
+git add -A && git commit && git push            # Vercel déploie, la page existe
+```
+
+Le script lit les dépôts au statut `published` dans le même Redis que la console. Pour
+avoir les identifiants en local :
+
+```
+vercel env pull .env.local
+```
+
+Il le lit tout seul s'il est là.
+
+### Ce qu'il complète, et ce qu'il refuse de deviner
+
+**Il géocode la salle.** Le formulaire ne demande pas de coordonnées, un promoteur tape
+« Le Sucre, Lyon » ; sans `lat`/`lng`, l'événement n'a ni point sur la carte ni distance
+pour « autour de moi ». Le script interroge Nominatim (OpenStreetMap) sur la salle, puis
+l'adresse, puis la ville, et **saute la fiche plutôt que d'inventer un point** s'il ne
+trouve rien. Les réponses sont mises en cache, y compris les vides.
+
+**Il ne remplit pas `region`.** Mesuré : Nominatim rend « Métropole de Lyon » là où le
+catalogue dit « Rhône », et rien du tout pour Paris. Une valeur approximative serait pire
+que l'absence, elle créerait une page de département qui n'existe pas. Les fiches
+françaises sont listées en fin de rapport, à compléter à la main.
+
+**Il ne traduit pas.** Sans description anglaise fournie, `descEn` reprend le texte
+français, ce que la fiche affiche déjà de toute façon (`eventDesc()` retombe sur `desc`).
+Le rapport les liste.
+
+**Il aplatit la mise en forme.** `merge.py` écrit `desc` dans une chaîne TypeScript sur
+une seule ligne et son `esc()` n'échappe que `\` et `"` : un retour à la ligne y casserait
+le fichier, 7 000 pages plus loin, au build. Les lignes sont donc recollées en phrases,
+avec un point ajouté quand il manque.
+
+**Les sous-genres n'ont pas de champ au catalogue**, `merge.py` n'acceptant que les onze
+genres de `GENRES`. Ils voyagent quand même dans le lot sous `_subgenres`, avec `_source`
+(quel dépôt, quel compte), `_geocode` (la requête qui a répondu) et `_poster` : quatre
+clés que `merge.py` ignore et qui servent à celui qui relit.
+
 ## Vie privée et sécurité
 
 - Le mot de passe est stocké en **scrypt** (`node:crypto`, sans dépendance ajoutée), au
