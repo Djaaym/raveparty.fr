@@ -3,6 +3,7 @@ import { normalizeEmail, publicAccount } from "@/lib/accounts";
 import { getAccount } from "@/lib/accounts-store";
 import { SESSION_SECONDS, issueSession, verifyPassword } from "@/lib/promoter-auth";
 import { sessionCookies, withCookies } from "@/lib/promoter-session";
+import { isAdminEmail } from "@/lib/admin-auth";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 
 export const dynamic = "force-dynamic";
@@ -53,6 +54,9 @@ export async function POST(req: Request) {
   const token = issueSession(account.email, account.password);
   return withCookies(
     NextResponse.json({ ok: true, account: publicAccount(account) }),
-    sessionCookies(token, SESSION_SECONDS),
+    // Mêmes conditions que `lib/admin-access.ts` : adresse déclarée **et** compte
+    // approuvé. Le témoin n'accorde rien, il évite juste un appel réseau sur les
+    // milliers de fiches événement.
+    sessionCookies(token, SESSION_SECONDS, account.status === "approved" && isAdminEmail(account.email)),
   );
 }

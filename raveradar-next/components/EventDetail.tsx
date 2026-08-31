@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Lang, RaveEvent } from "@/lib/types";
 import { artistPhoto } from "@/lib/artist-photos";
+import { hasArtistPage } from "@/lib/artists";
 import {
   EVENTS,
   countryLabel,
@@ -31,6 +32,7 @@ import HotelsCard from "./HotelsCard";
 import MiniMap from "./MiniMap";
 import Breadcrumbs from "./Breadcrumbs";
 import SocialsCard from "./SocialsCard";
+import EventEditor from "./EventEditor";
 import JsonLd from "./JsonLd";
 
 /** The place page that best matches this event, its department first, then its city. */
@@ -206,13 +208,17 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                        d'artistes — c'est donc le premier où le portrait doit apparaître.
                        Le slug est celui de `buildArtists()`, donc `artistPhoto()` tombe
                        sur la même clé que la fiche vers laquelle la carte pointe. */
-                    const photo = artistPhoto(slugify(a.trim()));
-                    return (
-                      <Link
-                        href={`${p}/artistes/${slugify(a.trim())}`}
-                        className={`artist ${i === 0 ? "headliner" : ""}`}
-                        key={a}
-                      >
+                    const slug = slugify(a.trim());
+                    const photo = artistPhoto(slug);
+                    /* `ARTISTS` est construit à la compilation depuis les line-ups du
+                       catalogue : un nom ajouté par une correction en direct
+                       (`lib/event-edits.ts`) n'y entrera qu'au prochain déploiement.
+                       Le lier tout de suite donnerait un 404, on rend donc le nom sans
+                       ancre jusqu'à ce que sa fiche existe. */
+                    const linked = hasArtistPage(slug);
+                    const cls = `artist ${i === 0 ? "headliner" : ""}${linked ? "" : " nolink"}`;
+                    const body = (
+                      <>
                         {photo ? (
                           /* eslint-disable-next-line @next/next/no-img-element */
                           <img
@@ -233,7 +239,16 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                           <b>{a.trim()}</b>
                           <span>{i === 0 ? t("event.headliner") : t("event.djset")}</span>
                         </div>
+                      </>
+                    );
+                    return linked ? (
+                      <Link href={`${p}/artistes/${slug}`} className={cls} key={a}>
+                        {body}
                       </Link>
+                    ) : (
+                      <div className={cls} key={a}>
+                        {body}
+                      </div>
                     );
                   })}
                 </div>
@@ -355,6 +370,20 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           )}
         </div>
       </section>
+      {/* Rendu sur toutes les fiches, mais muet pour tout le monde : sans le témoin
+          `rr_admin_on`, il rend `null` sans faire la moindre requête. */}
+      <EventEditor
+        id={e.id}
+        title={e.title}
+        desc={e.desc}
+        descEn={e.descEn ?? ""}
+        lineup={e.lineup}
+        price={e.price}
+        currency={e.currency}
+        priceNote={e.priceNote ?? "confirmed"}
+        lang={lang}
+        guided={Boolean(guide)}
+      />
       <Footer lang={lang} />
     </>
   );

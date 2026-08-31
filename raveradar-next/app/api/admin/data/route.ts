@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { adminAccess } from "@/lib/admin-access";
 import { buildExport } from "@/lib/catalog-export";
+import { EVENTS, eventPath } from "@/lib/data";
+import { editPatch, type EventEdit } from "@/lib/event-edits";
+import { deleteEdit, listEdits } from "@/lib/event-edits-store";
 import { geocode } from "@/lib/geocode";
 import { publicAccount, type AccountStatus } from "@/lib/accounts";
 import {
@@ -37,7 +41,9 @@ export async function GET(req: Request) {
   if (no) return no;
 
   try {
-    const [accounts, submissions, store] = await Promise.all([listAccounts(), listAllSubmissions(), ping()]);
+    const [accounts, submissions, store, edits] = await Promise.all([
+      listAccounts(), listAllSubmissions(), ping(), listEdits().catch(() => [] as EventEdit[]),
+    ]);
     // Le nombre de dépôts par compte est affiché à côté du bouton de suppression : on le
     // compte ici plutôt que dans la page, la suppression étant en cascade.
     const counts: Record<string, number> = {};
@@ -51,6 +57,16 @@ export async function GET(req: Request) {
         mail: mailStatus(),
         accounts: accounts.map((a) => ({ ...publicAccount(a), submissions: counts[a.email] ?? 0 })),
         submissions,
+        /* Les corrections de fiches en attente de saisie au catalogue. Le chemin et le
+           patch sont calculés ici : la console est un composant client, elle n'a pas le
+           droit d'importer `lib/data.ts`, et c'est le serveur qui sait quelle édition
+           porte le slug nu. Une correction dont l'événement a disparu du catalogue reste
+           listée, sans chemin : c'est justement celle qu'il faut voir pour la retirer. */
+        edits: edits.map((e) => ({
+          ...e,
+          path: EVENTS.find((x) => x.id === e.id) ? eventPath(EVENTS.find((x) => x.id === e.id)!) : null,
+          patch: editPatch(e),
+        })),
       },
       { headers: { "cache-control": "no-store" } },
     );
@@ -154,6 +170,19 @@ export async function POST(req: Request) {
         needsRegion: report.needsRegion,
         needsEnglish: report.needsEnglish,
       });
+    }
+
+    if (body.kind === "edit") {
+      /* Retirer une correction, et rien d'autre : elle se *modifie* depuis la fiche, où
+         l'on voit ce qu'on change. Le geste habituel ici est le second, « c'est saisi
+         dans `lib/data.ts`, la surcouche n'a plus lieu d'être ». La fiche est revalidée
+         dans la foulée, sinon elle continuerait d'afficher la correction retirée. */
+      const id = Number(body.id);
+      if (!Number.isFinite(id) || action !== "delete") return NextResponse.json({ error: "invalid" }, { status: 400 });
+      await deleteEdit(id);
+      const e = EVENTS.find((x) => x.id === id);
+      if (e) for (const path of [eventPath(e), `/en${eventPath(e)}`]) revalidatePath(path);
+      return NextResponse.json({ ok: true });
     }
 
     if (body.kind === "mail" && action === "test") {

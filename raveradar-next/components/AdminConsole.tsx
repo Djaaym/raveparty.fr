@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { AccountStatus, EventSubmission, PublicAccount } from "@/lib/accounts";
 import { fmtDate } from "@/lib/format";
 import { plainRich } from "@/lib/richtext";
+import { editedFields, type EventEdit } from "@/lib/event-edits";
 
 /**
  * La console du propriétaire.
@@ -23,13 +24,17 @@ import { plainRich } from "@/lib/richtext";
  * l'endroit où un clic de trop coûte cher.
  */
 
-type Tab = "accounts" | "submissions";
+type Tab = "accounts" | "submissions" | "edits";
 
 interface Data {
   store: { configured: boolean; ok: boolean; detail: string };
   mail: { provider: string | null; from: string; to: string; ready: boolean; missing: string[]; note: string };
   accounts: (PublicAccount & { submissions: number })[];
   submissions: EventSubmission[];
+  /** Les corrections de fiches faites en direct, avec leur chemin et le patch prêt à
+   *  coller dans `lib/data.ts`. `path` est nul quand l'événement a quitté le catalogue,
+   *  c'est le signe qu'il n'y a plus qu'à retirer la correction. */
+  edits: (EventEdit & { path: string | null; patch: string })[];
 }
 
 /* « Validé » laissait croire qu'un dépôt était en ligne, alors qu'il entre au catalogue
@@ -169,6 +174,7 @@ export default function AdminConsole() {
 
   const accounts = data?.accounts ?? [];
   const submissions = data?.submissions ?? [];
+  const edits = data?.edits ?? [];
   const pendingAccounts = accounts.filter((a) => a.status === "pending").length;
   const pendingSubs = submissions.filter((s) => s.status === "pending").length;
 
@@ -249,6 +255,10 @@ export default function AdminConsole() {
           className={`tab ${tab === "submissions" ? "on" : ""}`} onClick={() => setTab("submissions")}>
           Dépôts{pendingSubs ? ` (${pendingSubs} à relire)` : ""}
         </button>
+        <button type="button" role="tab" aria-selected={tab === "edits"}
+          className={`tab ${tab === "edits" ? "on" : ""}`} onClick={() => setTab("edits")}>
+          Fiches corrigées{edits.length ? ` (${edits.length})` : ""}
+        </button>
       </div>
 
       {error && <p className="adm-err">{error}</p>}
@@ -315,6 +325,84 @@ export default function AdminConsole() {
             </li>
           ))}
         </ul>
+      )}
+
+      {tab === "edits" && (
+        <>
+          <div className="adm-pipeline">
+            <p className="adm-note">
+              Ces corrections ont été saisies depuis la fiche, avec le bouton
+              « Modifier la fiche ». Elles s&apos;appliquent <b>à la page de l&apos;événement</b>,
+              tout de suite. Les cartes des grilles, les fiches artistes et la recherche
+              sont construites au déploiement : elles ne les reprendront qu&apos;une fois le
+              patch reporté dans <code>lib/data.ts</code>. Une correction reportée se retire
+              d&apos;ici, sinon la surcouche continue d&apos;écraser le catalogue avec la même
+              valeur.
+            </p>
+          </div>
+          <ul className="adm-list">
+            {edits.length === 0 && (
+              <li className="adm-note">Aucune fiche corrigée en direct. Tout vient du catalogue.</li>
+            )}
+            {edits.map((e) => (
+              <li className="adm-row" key={e.id}>
+                <div className="adm-main">
+                  <b>{e.title}</b>
+                  <span className="adm-state s-pending">{editedFields(e).join(" · ") || "rien"}</span>
+                  {!e.path && <span className="adm-state s-rejected">hors catalogue</span>}
+                  <span className="adm-meta">
+                    id {e.id} · {new Date(e.updatedAt).toLocaleString("fr-FR")} · {e.by}
+                    {e.path && (
+                      <>
+                        {" · "}
+                        <a href={e.path} style={{ color: "var(--cyan)" }}>
+                          voir la fiche
+                        </a>
+                      </>
+                    )}
+                  </span>
+                  <button type="button" className="adm-toggle" onClick={() => setOpen(open === `e${e.id}` ? "" : `e${e.id}`)}>
+                    {open === `e${e.id}` ? "Masquer le patch" : "Voir le patch à coller"}
+                  </button>
+                  {open === `e${e.id}` && (
+                    <div className="adm-export">
+                      <p className="adm-note">
+                        À reporter dans la ligne <code>id: {e.id}</code> de <code>lib/data.ts</code>,
+                        champ par champ. La description est déjà aplatie sur une ligne, comme
+                        l&apos;écrit <code>merge.py</code>.
+                      </p>
+                      <textarea className="input adm-json" readOnly value={e.patch} rows={6} />
+                      <button
+                        type="button"
+                        className="btn btn-ghost btn-sm"
+                        onClick={() => void navigator.clipboard.writeText(e.patch)}
+                      >
+                        Copier le patch
+                      </button>
+                    </div>
+                  )}
+                </div>
+                <div className="adm-actions">
+                  {confirming === `e${e.id}` ? (
+                    <>
+                      <button type="button" className="btn btn-danger btn-sm" disabled={busy !== ""}
+                        onClick={() => act({ kind: "edit", id: e.id, action: "delete" }, `e${e.id}`)}>
+                        Confirmer le retrait
+                      </button>
+                      <button type="button" className="btn btn-ghost btn-sm" onClick={() => setConfirming("")}>
+                        Annuler
+                      </button>
+                    </>
+                  ) : (
+                    <button type="button" className="btn btn-ghost btn-sm adm-del" onClick={() => setConfirming(`e${e.id}`)}>
+                      Retirer la correction
+                    </button>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </>
       )}
 
       {tab === "submissions" && (
