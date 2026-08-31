@@ -252,32 +252,49 @@ qui n'avait pas lieu.
 un fichier TypeScript (`lib/data.ts`) à partir duquel Next.js génère les ~7 000 pages
 statiques au déploiement : une fiche n'existe pour le site qu'une fois écrite dedans.
 
+### Le bouton, sans rien installer
+
+Dans `/admin`, onglet **Dépôts**, le bouton **« Exporter le lot »** produit le JSON prêt à
+entrer au catalogue, coordonnées comprises, et **« Copier le JSON »** le met dans le
+presse-papier. De là, deux façons de finir :
+
+- **Le coller dans une session Claude Code** en demandant la mise en ligne. C'est le
+  chemin le plus court, et celui qui complète aussi le département, la traduction et
+  l'image.
+- **Le coller dans `raveradar-next/.research/events-promoteurs.json`**, puis lancer
+  `python3 .research/merge.py`, committer et pousser.
+
+### La même chose en ligne de commande
+
 ```
 cd raveradar-next
-python3 .research/from-submissions.py --dry     # rapport, rien d'écrit
-python3 .research/from-submissions.py           # écrit .research/events-promoteurs.json
-# relire le lot, compléter `region` sur les fiches françaises
+python3 .research/from-submissions.py --site https://www.raveparty.fr
 python3 .research/merge.py --dry && python3 .research/merge.py
 python3 .research/audit.py
 git add -A && git commit && git push            # Vercel déploie, la page existe
 ```
 
-Le script lit les dépôts au statut `published` dans le même Redis que la console. Pour
-avoir les identifiants en local :
-
-```
-vercel env pull .env.local
-```
-
-Il le lit tout seul s'il est là.
+Le script demande le mot de passe de la console (`ADMIN_PASSWORD`, à défaut
+`TRACKING_PASSWORD`), qu'il prend aussi dans l'environnement. **Il ne convertit rien** :
+la conversion vit dans `lib/catalog-export.ts` et n'existe qu'une fois, le script n'est
+qu'un client du point d'accès. Deux conversions écrites séparément finiraient par
+diverger, et aucune n'aurait raison sur l'autre.
 
 ### Ce qu'il complète, et ce qu'il refuse de deviner
 
-**Il géocode la salle.** Le formulaire ne demande pas de coordonnées, un promoteur tape
-« Le Sucre, Lyon » ; sans `lat`/`lng`, l'événement n'a ni point sur la carte ni distance
-pour « autour de moi ». Le script interroge Nominatim (OpenStreetMap) sur la salle, puis
-l'adresse, puis la ville, et **saute la fiche plutôt que d'inventer un point** s'il ne
-trouve rien. Les réponses sont mises en cache, y compris les vides.
+**La salle est géocodée au moment où tu la vérifies.** Le formulaire ne demande pas de
+coordonnées, un promoteur tape « Le Sucre, Lyon » ; sans `lat`/`lng`, l'événement n'a ni
+point sur la carte ni distance pour « autour de moi ». Le clic sur « vérifié, à saisir »
+interroge donc Nominatim (OpenStreetMap) sur la salle, puis l'adresse, puis la ville, et
+enregistre le point sur le dépôt.
+
+C'est fait **une salle à la fois, à la décision**, et pas sur un lot entier au moment de
+l'export : Nominatim limite à une requête par seconde, et une fonction Vercel a quelques
+secondes de budget. L'export rattrape au passage les quelques dépôts vérifiés avant que
+ce chemin n'existe, trois par clic, et dit lesquels manquent encore.
+
+Sans réponse, **aucun point n'est inventé** : la fiche est écartée de l'export et
+signalée.
 
 **Il ne remplit pas `region`.** Mesuré : Nominatim rend « Métropole de Lyon » là où le
 catalogue dit « Rhône », et rien du tout pour Paris. Une valeur approximative serait pire

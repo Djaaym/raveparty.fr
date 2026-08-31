@@ -56,6 +56,10 @@ export default function AdminConsole() {
   const [confirming, setConfirming] = useState("");
   const [open, setOpen] = useState<string>("");
   const [mailTest, setMailTest] = useState("");
+  const [exported, setExported] = useState<{
+    json: string; count: number; missingCoords: string[]; needsRegion: string[]; needsEnglish: string[];
+  } | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const load = useCallback(async () => {
     const res = await fetch("/api/admin/data", { cache: "no-store" });
@@ -315,12 +319,73 @@ export default function AdminConsole() {
 
       {tab === "submissions" && (
         <>
-        <p className="adm-note adm-pipeline">
-          Marquer « vérifié, à saisir » ne met rien en ligne : le catalogue est un fichier
-          relu à la main. Pour publier, depuis <code>raveradar-next/</code> :{" "}
-          <code>python3 .research/from-submissions.py</code>, puis{" "}
-          <code>python3 .research/merge.py</code>, puis commit et déploiement.
-        </p>
+        {/* Marquer « vérifié » ne met rien en ligne : le catalogue est un fichier relu à
+            la main. Ce bouton produit le lot prêt à y entrer, pour que la mise en ligne
+            ne demande plus de recopier un mail à la main. */}
+        <div className="adm-pipeline">
+          <p className="adm-note">
+            « Vérifié, à saisir » ne met rien en ligne : le catalogue est un fichier relu à
+            la main. Ce bouton prépare le lot, coordonnées comprises. Colle-le dans une
+            session Claude Code, ou dans <code>raveradar-next/.research/events-promoteurs.json</code>{" "}
+            suivi de <code>python3 .research/merge.py</code>.
+          </p>
+          <div className="adm-actions" style={{ marginTop: 12 }}>
+            <button
+              type="button"
+              className="btn btn-primary btn-sm"
+              disabled={busy === "export"}
+              onClick={async () => {
+                setBusy("export");
+                setCopied(false);
+                const res = await fetch("/api/admin/data", {
+                  method: "POST",
+                  headers: { "content-type": "application/json" },
+                  body: JSON.stringify({ kind: "export" }),
+                });
+                setBusy("");
+                if (!res.ok) return setError("L'export a échoué.");
+                setExported(await res.json());
+                await load();
+              }}
+            >
+              {busy === "export" ? "Préparation…" : "Exporter le lot"}
+            </button>
+            {exported && (
+              <button
+                type="button"
+                className="btn btn-ghost btn-sm"
+                onClick={() => {
+                  void navigator.clipboard.writeText(exported.json).then(() => setCopied(true));
+                }}
+              >
+                {copied ? "Copié" : "Copier le JSON"}
+              </button>
+            )}
+          </div>
+
+          {exported && (
+            <div className="adm-export">
+              <p className="adm-note">
+                <b>{exported.count} événement(s) prêt(s).</b>
+                {exported.missingCoords.length
+                  ? ` Sans coordonnées, relance l'export dans un instant : ${exported.missingCoords.join(", ")}.`
+                  : ""}
+              </p>
+              {exported.needsRegion.length > 0 && (
+                <p className="adm-note">
+                  Département à ajouter à la main : {exported.needsRegion.join(", ")}. Sans lui, la
+                  fiche n&apos;apparaît pas sur la page du département.
+                </p>
+              )}
+              {exported.needsEnglish.length > 0 && (
+                <p className="adm-note">
+                  Version anglaise reprise du français : {exported.needsEnglish.join(", ")}.
+                </p>
+              )}
+              <textarea className="input adm-json" readOnly value={exported.json} rows={12} />
+            </div>
+          )}
+        </div>
         <ul className="adm-list">
           {submissions.length === 0 && <li className="adm-note">Aucun dépôt pour l&apos;instant.</li>}
           {submissions.map((s) => (

@@ -128,6 +128,23 @@ export interface EventSubmission {
   posterFile: string;
   contactEmail: string;
   lang: Lang;
+
+  /**
+   * Coordonnées de la salle, résolues **au moment de la vérification**.
+   *
+   * Le formulaire ne les demande pas (un promoteur tape « Le Sucre, Lyon »), mais le
+   * catalogue les exige : sans elles, pas de point sur la carte ni de distance pour
+   * « autour de moi ». On géocode donc une salle à la fois, quand le dépôt passe en
+   * `published`, plutôt qu'un lot entier depuis une fonction serverless qui a quelques
+   * secondes de budget et un service tiers limité à une requête par seconde.
+   *
+   * Absentes quand le géocodage n'a rien trouvé : on ne pose jamais un point approximatif,
+   * l'export le signale et la fiche attend une saisie à la main.
+   */
+  lat?: number;
+  lng?: number;
+  /** La requête qui a répondu, pour que la relecture sache sur quoi le point est tombé. */
+  geocodeQuery?: string;
 }
 
 /* ---------------------------------------------------------------------------
