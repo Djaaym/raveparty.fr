@@ -116,6 +116,22 @@ export const artistStyleSource = (slug: string): string | undefined => ARTIST_ST
 
 export const artistBySlug = (slug: string): Artist | undefined => ARTISTS.find((a) => a.slug === slug);
 
+/**
+ * Cet artiste a-t-il une page ?
+ *
+ * `ARTISTS` est **dérivé des line-ups du catalogue à la compilation** : tant qu'une
+ * affiche ne bouge qu'à travers `lib/data.ts`, tout nom d'un line-up a sa fiche, et la
+ * question ne se pose pas. Elle se pose depuis qu'une fiche peut recevoir une correction
+ * en direct (`lib/event-edits.ts`) : un nom ajouté ce matin n'entrera dans l'index
+ * qu'au prochain déploiement, et le lier tout de suite donnerait un 404 sur une page
+ * indexée. Le line-up rend alors le nom sans lien, ce qui est simplement vrai.
+ *
+ * Un `Set` plutôt qu'un `find` : une affiche de festival compte jusqu'à 54 noms, et la
+ * question est posée pour chacun sur chacune des fiches.
+ */
+const ARTIST_SLUGS = new Set(ARTISTS.map((a) => a.slug));
+export const hasArtistPage = (slug: string): boolean => ARTIST_SLUGS.has(slug);
+
 export const eventsForArtist = (slug: string): RaveEvent[] =>
   upcomingFirst(EVENTS.filter((e) => e.lineup.some((n) => slugify(n.trim()) === slug)));
 

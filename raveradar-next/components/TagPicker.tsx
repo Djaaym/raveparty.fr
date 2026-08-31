@@ -35,11 +35,22 @@ export interface TagPickerProps {
   /** Ce qu'on annonce quand le plafond est atteint. */
   fullLabel?: string;
   emptyLabel?: string;
+  /**
+   * L'ordre des valeurs porte-t-il un sens ?
+   *
+   * Sur les sous-genres, non : c'est un ensemble. Sur un line-up, si, et il en porte un
+   * qui se voit sur la fiche, `lineup[0]` étant la tête d'affiche, rendue en grand sur
+   * toute la largeur. Sans moyen de déplacer un nom, corriger une affiche voudrait dire
+   * tout retirer et tout ressaisir dans le bon ordre.
+   */
+  ordered?: boolean;
+  /** Le libellé de la première étiquette quand `ordered` est posé (« tête d'affiche »). */
+  firstLabel?: string;
 }
 
 export default function TagPicker({
   id, label, hint, placeholder, values, onChange, options, remote,
-  max = 12, addLabel, fullLabel, emptyLabel,
+  max = 12, addLabel, fullLabel, emptyLabel, ordered, firstLabel,
 }: TagPickerProps) {
   const auto = useId();
   const inputId = id ?? auto;
@@ -106,6 +117,17 @@ export default function TagPicker({
     setQ("");
     setCursor(-1);
     setOpen(false);
+  };
+
+  /** Déplace une valeur d'un cran. Aux bords, on ne fait rien plutôt que de boucler :
+   *  une tête d'affiche qui repartirait en fin de liste sur un clic de trop serait la
+   *  pire façon de perdre l'ordre qu'on est en train de régler. */
+  const move = (i: number, by: -1 | 1) => {
+    const j = i + by;
+    if (j < 0 || j >= values.length) return;
+    const next = [...values];
+    [next[i], next[j]] = [next[j], next[i]];
+    onChange(next);
   };
 
   const onKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -187,10 +209,33 @@ export default function TagPicker({
       </div>
 
       {values.length > 0 ? (
-        <ul className="tagfield-list">
-          {values.map((v) => (
-            <li key={v}>
+        <ul className={`tagfield-list${ordered ? " ordered" : ""}`}>
+          {values.map((v, i) => (
+            <li key={v} className={ordered && i === 0 ? "first" : undefined}>
+              {ordered && (
+                <>
+                  <button
+                    type="button"
+                    className="tagfield-move"
+                    aria-label={`Avancer ${v}`}
+                    disabled={i === 0}
+                    onClick={() => move(i, -1)}
+                  >
+                    ↑
+                  </button>
+                  <button
+                    type="button"
+                    className="tagfield-move"
+                    aria-label={`Reculer ${v}`}
+                    disabled={i === values.length - 1}
+                    onClick={() => move(i, 1)}
+                  >
+                    ↓
+                  </button>
+                </>
+              )}
               <span>{v}</span>
+              {ordered && i === 0 && firstLabel && <em className="tagfield-first">{firstLabel}</em>}
               <button type="button" aria-label={`Retirer ${v}`} onClick={() => onChange(values.filter((x) => x !== v))}>
                 ✕
               </button>

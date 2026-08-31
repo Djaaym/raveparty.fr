@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Lang, RaveEvent } from "./types";
 import { SITE_URL } from "./site";
 import { countryLabel, eventDescL, eventPath, eventVenueL, imageUrl, isPast, lastDay, slugify, ticketUrl } from "./data";
+import { hasArtistPage } from "./artists";
 
 /* ---------------------------------------------------------------------------
    Canonical URLs + hreflang.
@@ -137,11 +138,19 @@ export function eventJsonLd(
     },
     ...(e.lineup.length
       ? {
-          performer: e.lineup.map((a) => ({
-            "@type": "MusicGroup",
-            name: a.trim(),
-            url: abs(lang, `/artistes/${slugify(a.trim())}`),
-          })),
+          /* `url` seulement quand la fiche existe. Un nom ajouté par une correction en
+             direct (`lib/event-edits.ts`) n'entre dans `ARTISTS` qu'au prochain
+             déploiement : déclarer son URL à Google avant qu'elle ne réponde reviendrait
+             à mettre un 404 dans les données structurées de la page. Le `performer` reste
+             annoncé, avec son nom, ce qui est simplement vrai. */
+          performer: e.lineup.map((a) => {
+            const slug = slugify(a.trim());
+            return {
+              "@type": "MusicGroup",
+              name: a.trim(),
+              ...(hasArtistPage(slug) ? { url: abs(lang, `/artistes/${slug}`) } : {}),
+            };
+          }),
         }
       : {}),
     organizer: { "@type": "Organization", name: "RaveRadar", url: SITE_URL },

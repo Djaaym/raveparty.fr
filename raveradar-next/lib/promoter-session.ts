@@ -51,6 +51,20 @@ export async function currentAccount(req: Request): Promise<PromoterAccount | nu
  */
 export const FLAG_COOKIE = "rr_pro_on";
 
+/**
+ * Le second témoin, celui qui décide d'afficher le bouton « Modifier » d'une fiche.
+ *
+ * Même nature et mêmes limites que le précédent : lisible, sans autorité, jamais lu
+ * côté serveur. Il existe pour la même raison, en plus aiguë : une fiche événement est
+ * une page statique, et il y en a des milliers. Y appeler `/api/promoteur/me` au
+ * chargement ferait payer un aller-retour à chaque lecteur de chaque fiche pour
+ * n'apprendre, dans l'immense majorité des cas, que personne n'est connecté.
+ *
+ * Qui pose ce cookie à la main dans son navigateur voit le bouton, et rien de plus :
+ * `/api/event-edit` revérifie `adminAccess()` sur chacun de ses trois verbes.
+ */
+export const ADMIN_FLAG_COOKIE = "rr_admin_on";
+
 function cookie(name: string, value: string, maxAge: number, httpOnly: boolean): string {
   const bits = [`${name}=${value}`, "Path=/", "SameSite=Lax", `Max-Age=${maxAge}`];
   if (httpOnly) bits.push("HttpOnly");
@@ -67,12 +81,27 @@ export const sessionCookie = (token: string, maxAge: number): string =>
   cookie(SESSION_COOKIE, token, maxAge, true);
 
 /** Les deux en-têtes à poser ensemble : la session et son témoin. */
-export const sessionCookies = (token: string, maxAge: number): string[] => [
+export const sessionCookies = (token: string, maxAge: number, admin = false): string[] => [
   sessionCookie(token, maxAge),
   cookie(FLAG_COOKIE, "1", maxAge, false),
+  // Posé *ou effacé* à chaque ouverture de session, jamais laissé tel quel : un compte
+  // qui perd son statut d'administrateur ne doit pas garder le témoin d'avant, et une
+  // session ouverte sur un autre compte dans le même navigateur non plus.
+  admin ? cookie(ADMIN_FLAG_COOKIE, "1", maxAge, false) : cookie(ADMIN_FLAG_COOKIE, "", 0, false),
 ];
 
-export const clearCookies = (): string[] => [cookie(SESSION_COOKIE, "", 0, true), cookie(FLAG_COOKIE, "", 0, false)];
+export const clearCookies = (): string[] => [
+  cookie(SESSION_COOKIE, "", 0, true),
+  cookie(FLAG_COOKIE, "", 0, false),
+  cookie(ADMIN_FLAG_COOKIE, "", 0, false),
+];
+
+/** Le témoin d'administration seul, quand il n'y a pas de session à réémettre : c'est le
+ *  cas du `GET /api/promoteur/me`, qui rattrape ainsi les sessions ouvertes avant que ce
+ *  cookie n'existe, et celui de la porte à mot de passe de `/admin`, qui n'ouvre aucune
+ *  session promoteur. */
+export const adminFlagCookie = (on: boolean, maxAge: number): string =>
+  on ? cookie(ADMIN_FLAG_COOKIE, "1", maxAge, false) : cookie(ADMIN_FLAG_COOKIE, "", 0, false);
 
 /**
  * Une réponse JSON qui pose plusieurs cookies. `NextResponse.json({headers})` écrase

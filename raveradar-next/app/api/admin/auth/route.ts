@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { ADMIN, adminEmails } from "@/lib/admin-auth";
 import { adminAccess } from "@/lib/admin-access";
+import { adminFlagCookie } from "@/lib/promoter-session";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 
 export const dynamic = "force-dynamic";
@@ -55,6 +56,11 @@ export async function POST(req: Request) {
     path: "/",
     maxAge: ADMIN.sessionSeconds,
   });
+  /* Le témoin lisible qui accompagne le cookie signé : c'est lui qui fait apparaître le
+     bouton « Modifier » sur les fiches. Il n'accorde rien, `/api/event-edit` revérifie
+     `adminAccess()`. L'accès de secours doit ouvrir exactement les mêmes portes que le
+     compte, sinon il n'est pas un secours. */
+  res.headers.append("set-cookie", adminFlagCookie(true, ADMIN.sessionSeconds));
   return res;
 }
 
@@ -62,5 +68,6 @@ export async function POST(req: Request) {
 export async function DELETE() {
   const res = NextResponse.json({ ok: true });
   res.cookies.set(ADMIN.cookie, "", { httpOnly: true, sameSite: "lax", path: "/", maxAge: 0 });
+  res.headers.append("set-cookie", adminFlagCookie(false, 0));
   return res;
 }
