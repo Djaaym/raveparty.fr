@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import { adminAccess } from "@/lib/admin-access";
+import { buildExport } from "@/lib/catalog-export";
+import { geocode } from "@/lib/geocode";
 import { publicAccount, type AccountStatus } from "@/lib/accounts";
 import {
   deleteAccount, deleteSubmission, getAccount, getSubmission,
@@ -121,6 +123,39 @@ export async function POST(req: Request) {
       return NextResponse.json({ ok: true, account: publicAccount(account) });
     }
 
+    if (body.kind === "export") {
+      /* Le lot prêt à coller dans `.research/`, construit par le module qui fait
+         autorité (`lib/catalog-export.ts`). Le géocodage a déjà eu lieu à la
+         vérification ; on rattrape ici les dépôts vérifiés avant que ce chemin
+         n'existe, mais **quelques-uns seulement** : Nominatim demande une requête par
+         seconde et une fonction n'a que quelques secondes. Le reste passera au clic
+         suivant, et le rapport dit lesquels manquent. */
+      const all = await listAllSubmissions();
+      const approved = all.filter((s) => s.status === "published");
+      let budget = 3;
+      for (const s of approved) {
+        if (typeof s.lat === "number" || budget <= 0) continue;
+        budget--;
+        const hit = await geocode(s).catch(() => null);
+        if (hit) {
+          s.lat = hit.lat;
+          s.lng = hit.lng;
+          s.geocodeQuery = hit.query;
+          await saveSubmission(s).catch(() => undefined);
+        }
+      }
+      const report = buildExport(approved);
+      return NextResponse.json({
+        ok: true,
+        filename: "events-promoteurs.json",
+        json: JSON.stringify(report.rows, null, 1),
+        count: report.rows.length,
+        missingCoords: report.missingCoords,
+        needsRegion: report.needsRegion,
+        needsEnglish: report.needsEnglish,
+      });
+    }
+
     if (body.kind === "mail" && action === "test") {
       /* Un envoi réel vers l'adresse du propriétaire, avec le message exact du
          fournisseur en retour. C'est la seule façon de distinguer « clé invalide » de
@@ -151,6 +186,16 @@ export async function POST(req: Request) {
       if (!sub) return NextResponse.json({ error: "not_found" }, { status: 404 });
       sub.status = action;
       sub.decidedAt = new Date().toISOString();
+      // Même geste que sur le lien du mail : une salle, un appel, au moment où la
+      // décision est prise. L'export n'a alors plus qu'à mettre en forme.
+      if (action === "published" && typeof sub.lat !== "number") {
+        const hit = await geocode(sub).catch(() => null);
+        if (hit) {
+          sub.lat = hit.lat;
+          sub.lng = hit.lng;
+          sub.geocodeQuery = hit.query;
+        }
+      }
       await saveSubmission(sub);
       return NextResponse.json({ ok: true, submission: sub });
     }

@@ -1,6 +1,7 @@
 import { getAccount, getSubmission, saveAccount, saveSubmission } from "@/lib/accounts-store";
 import { actionTokenOk } from "@/lib/promoter-auth";
 import { sendMail } from "@/lib/subscribers";
+import { geocode } from "@/lib/geocode";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-dynamic";
@@ -96,6 +97,16 @@ async function decideSubmission(id: string, action: "publish" | "reject", token:
 
   sub.status = next;
   sub.decidedAt = new Date().toISOString();
+  // Une seule salle, un seul appel : c'est le bon moment pour géocoder, plutôt qu'un lot
+  // entier au moment de l'export. Un échec n'empêche pas la décision, il est signalé.
+  if (next === "published" && typeof sub.lat !== "number") {
+    const hit = await geocode(sub).catch(() => null);
+    if (hit) {
+      sub.lat = hit.lat;
+      sub.lng = hit.lng;
+      sub.geocodeQuery = hit.query;
+    }
+  }
   try {
     await saveSubmission(sub);
   } catch {
@@ -122,6 +133,9 @@ async function decideSubmission(id: string, action: "publish" | "reject", token:
   return page(
     action === "publish" ? "Dépôt validé" : "Dépôt écarté",
     `« ${escapeHtml(sub.title)} » est ${label(next)}.` +
+      (next === "published" && typeof sub.lat !== "number"
+        ? " Aucune coordonnée trouvée pour cette salle : à saisir à la main."
+        : "") +
       (action === "publish" ? " Il n\u2019est pas en ligne pour autant : lance .research/from-submissions.py puis merge.py pour le saisir au catalogue." : "") +
       (told ? "" : " Aucun mail envoyé (pas de transport configuré)."),
     true,
