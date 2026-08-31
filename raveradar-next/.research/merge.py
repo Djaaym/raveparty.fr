@@ -64,7 +64,13 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
 # porte un communiqué d'annulation, et candidat au retour à chaque exécution depuis.
 # Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
 # dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
-REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)"}
+REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
+           # Doublon de « ZAMNA × PRIMER Athens » (mêmes 4-5/09, même enceinte olympique) :
+           # deux périphrases pour la même salle, donc la clé `booked` ne l'a pas vu.
+           ("zamnaxprimer", "2026"): "doublon de ZAMNA × PRIMER Athens (id 319)",
+           # Portait les deux nuits du 31/10 et du 01/11 sur une seule fiche, en concurrence
+           # avec les deux fiches par nuit (ids 425 et 920).
+           ("hilighttribehalloweeninstrumental", "2026"): "doublon des deux nuits de La Cabane (ids 425, 920)"}
 
 CITY_FIX = {"Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
