@@ -13,3 +13,7 @@ __pycache__/
 *.pyc
 .research/artists/.srcs/
 .research/artists/sheets/
+
+# Cache de géocodage de `.research/from-submissions.py` : des coordonnées déjà
+# publiques, remises à zéro sans conséquence, et un fichier qui grossit tout seul.
+.research/.geocache.json
