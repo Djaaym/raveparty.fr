@@ -25,14 +25,14 @@
   },
   {
     "kind": "venue",
-    "key": "[UNVRS]",
+    "key": "UNVRS",
     "instagram": "unvrsibiza",
     "site": "https://www.unvrs.com",
     "facebook": "https://www.facebook.com/unvrsibiza",
     "tiktok": "unvrsibiza",
     "youtube": "https://www.youtube.com/@unvrsibiza",
     "x": "unvrsibiza",
-    "verified": "https://www.unvrs.com, le pied de page du site officiel du club renvoie vers instagram.com/unvrsibiza, facebook.com/unvrsibiza, tiktok.com/@unvrsibiza, x.com/unvrsibiza et youtube.com/@unvrsibiza"
+    "verified": "https://www.unvrs.com, le pied de page du site officiel du club renvoie vers instagram.com/unvrsibiza, facebook.com/unvrsibiza, tiktok.com/@unvrsibiza, x.com/unvrsibiza et youtube.com/@unvrsibiza [clé recalée sur le libellé actuel de lib/data.ts, « [UNVRS] » n'y figure plus tel quel]"
   },
   {
     "kind": "venue",

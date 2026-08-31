@@ -128,11 +128,11 @@
   },
   {
     "kind": "venue",
-    "key": "Les Halles de la Cartoucherie",
+    "key": "La Cabane - Les Halles de la Cartoucherie",
     "instagram": "leshallesdelacartoucherie",
     "site": "https://halles-cartoucherie.fr",
     "facebook": "https://www.facebook.com/hallescartoucherietoulouse",
-    "verified": "https://halles-cartoucherie.fr, le site officiel (adresse : 10 place de la Charte des libertés communales, 31300 Toulouse) renvoie vers instagram.com/leshallesdelacartoucherie et facebook.com/hallescartoucherietoulouse"
+    "verified": "https://halles-cartoucherie.fr, le site officiel (adresse : 10 place de la Charte des libertés communales, 31300 Toulouse) renvoie vers instagram.com/leshallesdelacartoucherie et facebook.com/hallescartoucherietoulouse [clé recalée sur le libellé actuel de lib/data.ts, « Les Halles de la Cartoucherie » n'y figure plus tel quel]"
   },
   {
     "kind": "venue",

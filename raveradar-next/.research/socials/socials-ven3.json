@@ -60,13 +60,13 @@
   },
   {
     "kind": "venue",
-    "key": "Akvarium Klub",
+    "key": "Akvárium Klub",
     "instagram": "akvariumklub",
     "site": "https://www.akvariumklub.hu",
     "facebook": "https://www.facebook.com/akvariumklub/",
     "tiktok": "akvariumklub",
     "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw",
-    "verified": "https://www.akvariumklub.hu, le site officiel de l'Akvarium Klub (1051 Budapest, Erzsebet ter 12) renvoie vers instagram.com/akvariumklub, facebook.com/akvariumklub, tiktok.com/@akvariumklub et sa chaine YouTube"
+    "verified": "https://www.akvariumklub.hu, le site officiel de l'Akvarium Klub (1051 Budapest, Erzsebet ter 12) renvoie vers instagram.com/akvariumklub, facebook.com/akvariumklub, tiktok.com/@akvariumklub et sa chaine YouTube [clé recalée sur le libellé actuel de lib/data.ts, « Akvarium Klub » n'y figure plus tel quel]"
   },
   {
     "kind": "venue",
