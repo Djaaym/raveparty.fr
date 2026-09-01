@@ -309,18 +309,40 @@ function renderExplore() {
 }
 
 /* ----------------------------- MAP ------------------------------------- */
+/* Le fond de carte vient d'OpenFreeMap (Dark Matter, sans clé), CARTO ayant fermé
+   ses tuiles publiques : elles répondent toujours 200, avec « API KEY REQUIRED »
+   peint dessus. Tuiles vectorielles, donc MapLibre et non plus Leaflet. */
+const BASEMAP_STYLE = "https://tiles.openfreemap.org/styles/dark";
+const BASEMAP_ATTRIB = '<a href="https://openfreemap.org">OpenFreeMap</a> · © <a href="https://www.openmaptiles.org/">OpenMapTiles</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+/* MapLibre rend des tuiles de 512 px : à échelle égale, son zoom vaut celui de
+   Leaflet moins un. */
+const mz = z => z - 1;
+
+/* L'épingle vit dans une enveloppe : MapLibre écrit le transform de position en
+   style inline sur l'élément du marqueur, et l'animation `pulse` de .map-pin
+   l'emporterait dessus, empilant toutes les épingles à l'origine de la carte. */
+function pinMarker(lngLat) {
+  const wrap = document.createElement("div");
+  const pin = document.createElement("div");
+  pin.className = "map-pin";
+  wrap.appendChild(pin);
+  return new maplibregl.Marker({ element: wrap }).setLngLat(lngLat);
+}
+
 function initMap() {
-  const map = L.map("map", { zoomControl: true, scrollWheelZoom: true }).setView([50.5, 8], 5);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    attribution: '© OpenStreetMap · © CARTO', maxZoom: 18, subdomains: "abcd"
-  }).addTo(map);
+  const map = new maplibregl.Map({
+    container: "map", style: BASEMAP_STYLE, center: [8, 50.5], zoom: mz(5),
+    attributionControl: { compact: true, customAttribution: BASEMAP_ATTRIB }
+  });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-left");
 
   const markers = {};
   EVENTS.forEach(e => {
-    const icon = L.divIcon({ className: "", html: `<div class="map-pin"></div>`, iconSize: [18,18] });
-    const m = L.marker([e.lat, e.lng], { icon }).addTo(map);
-    m.bindPopup(`<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date)} · ${e.city}, ${countryLabel(e.country)}</p>
-      <a href="${LP}/event/?id=${e.id}">${T("map.viewevent")}</a></div>`);
+    const m = pinMarker([e.lng, e.lat])
+      .setPopup(new maplibregl.Popup({ offset: 14, closeButton: false, maxWidth: "260px" })
+        .setHTML(`<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date)} · ${e.city}, ${countryLabel(e.country)}</p>
+      <a href="${LP}/event/?id=${e.id}">${T("map.viewevent")}</a></div>`))
+      .addTo(map);
     markers[e.id] = m;
   });
 
@@ -333,8 +355,8 @@ function initMap() {
       </div>`).join("");
     $$(".mini").forEach(el => el.addEventListener("click", () => {
       const id = +el.dataset.id, e = EVENTS.find(x => x.id === id);
-      map.flyTo([e.lat, e.lng], 9, { duration: 1.1 });
-      markers[id].openPopup();
+      map.flyTo({ center: [e.lng, e.lat], zoom: mz(9), duration: 1100 });
+      if (!markers[id].getPopup().isOpen()) markers[id].togglePopup();
     }));
   }
 
@@ -345,7 +367,7 @@ function initMap() {
     Object.entries(markers).forEach(([id, m]) => {
       const e = EVENTS.find(x => x.id === +id);
       const show = g === "all" || e.genres.includes(g);
-      show ? m.addTo(map) : map.removeLayer(m);
+      show ? m.addTo(map) : m.remove();
     });
   }));
 }
@@ -384,10 +406,13 @@ function initEvent() {
   favBtn.dataset.fav = e.id;
   favBtn.addEventListener("click", () => toggleFav(e.id));
 
-  if (window.L && $("#ev-map")) {
-    const m = L.map("ev-map", { zoomControl: false, scrollWheelZoom: false }).setView([e.lat, e.lng], 11);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { subdomains:"abcd" }).addTo(m);
-    L.marker([e.lat, e.lng], { icon: L.divIcon({ html:`<div class="map-pin"></div>`, iconSize:[18,18] }) }).addTo(m);
+  if (window.maplibregl && $("#ev-map")) {
+    const m = new maplibregl.Map({
+      container: "ev-map", style: BASEMAP_STYLE, center: [e.lng, e.lat], zoom: mz(11),
+      scrollZoom: false,
+      attributionControl: { compact: true, customAttribution: BASEMAP_ATTRIB }
+    });
+    pinMarker([e.lng, e.lat]).addTo(m);
   }
 
   // "À voir aussi" on a finished listing must still point forward, never sideways into the archive.

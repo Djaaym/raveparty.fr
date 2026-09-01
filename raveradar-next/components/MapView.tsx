@@ -1,11 +1,12 @@
 "use client";
-import "leaflet/dist/leaflet.css";
+import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Lang } from "@/lib/types";
 import type { CardEvent } from "@/lib/types";
 import { countryLabel, isPast } from "@/lib/display";
 import { fmtDate, imageAlt } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
+import { BASEMAP_ATTRIB, BASEMAP_STYLE, mapPin, z } from "@/lib/basemap";
 
 const GENRE_FILTERS = ["all", "Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Trance", "House"];
 
@@ -38,24 +39,30 @@ export default function MapView({ lang, today, catalogue }: { lang: Lang; today:
     inited.current = true;
     let cancelled = false;
     (async () => {
-      const L = (await import("leaflet")).default;
-      if (cancelled) return;
-      const map = L.map(mapEl.current!, { zoomControl: true, scrollWheelZoom: true }).setView([50.5, 8], 5);
+      // maplibre-gl v6 n'expose plus d'export par défaut, seulement des nommés.
+      const { Map: MlMap, Marker, Popup, NavigationControl } = await import("maplibre-gl");
+      if (cancelled || !mapEl.current) return;
+      const map = new MlMap({
+        container: mapEl.current,
+        style: BASEMAP_STYLE,
+        center: [8, 50.5],
+        zoom: z(5),
+        attributionControl: { compact: true, customAttribution: BASEMAP_ATTRIB },
+      });
       mapRef.current = map;
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-        attribution: "© OpenStreetMap · © CARTO",
-        subdomains: "abcd",
-      }).addTo(map);
+      map.addControl(new NavigationControl({ showCompass: false }), "top-left");
       events.forEach((e) => {
-        const m = L.marker([e.lat, e.lng], {
-          icon: L.divIcon({ html: `<div class="map-pin"></div>`, className: "", iconSize: [18, 18] }),
-        }).addTo(map);
-        m.bindPopup(
-          `<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date, lang)} · ${e.city}, ${countryLabel(
-            e.country,
-            lang,
-          )}</p><a href="${p}${e.path}">${t("map.viewevent")}</a></div>`,
-        );
+        const m = new Marker({ element: mapPin() })
+          .setLngLat([e.lng, e.lat])
+          .setPopup(
+            new Popup({ offset: 14, closeButton: false, maxWidth: "260px" }).setHTML(
+              `<div class="pop"><h4>${e.title}</h4><p>${fmtDate(e.date, lang)} · ${e.city}, ${countryLabel(
+                e.country,
+                lang,
+              )}</p><a href="${p}${e.path}">${t("map.viewevent")}</a></div>`,
+            ),
+          )
+          .addTo(map);
         markersRef.current[e.id] = m;
       });
     })();
@@ -79,14 +86,17 @@ export default function MapView({ lang, today, catalogue }: { lang: Lang; today:
     const keep = new Set(visible.map((e) => e.id));
     Object.entries(markersRef.current).forEach(([id, m]) => {
       if (keep.has(+id)) m.addTo(map);
-      else map.removeLayer(m);
+      else m.remove();
     });
   }, [visible]);
 
   const focus = (id: number) => {
     const e = events.find((x) => x.id === id)!;
-    mapRef.current?.flyTo([e.lat, e.lng], 9, { duration: 1.1 });
-    markersRef.current[id]?.openPopup();
+    const map = mapRef.current;
+    if (!map) return;
+    map.flyTo({ center: [e.lng, e.lat], zoom: z(9), duration: 1100 });
+    const m = markersRef.current[id];
+    if (m && !m.getPopup()?.isOpen()) m.togglePopup();
   };
 
   return (
