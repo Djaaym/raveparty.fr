@@ -1,11 +1,11 @@
-import { alternates, pageMeta } from "@/lib/seo";
+import { alternates, eventMetaDesc, pageMeta } from "@/lib/seo";
 import { applyEdit } from "@/lib/event-edits";
 import { editFor } from "@/lib/event-edits-store";
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
-import { EVENTS, eventSlug, eventDescL, imageUrl} from "@/lib/data";
+import { EVENTS, eventSlug, imageUrl} from "@/lib/data";
 
 export function generateStaticParams() {
   return EVENTS.filter((e) => e.type !== "Festival").map((e) => ({ slug: eventSlug(e) }));
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     lang: "fr",
     path: `/event/${params.slug}`,
     title: `${e.title} - ${e.city} | RaveRadar`,
-    description: eventDescL(e, "fr").slice(0, 160),
+    description: eventMetaDesc(e, "fr"),
     image: imageUrl(e),
   });
 }

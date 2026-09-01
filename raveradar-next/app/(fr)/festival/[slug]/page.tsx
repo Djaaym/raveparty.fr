@@ -1,4 +1,4 @@
-import { alternates, pageMeta } from "@/lib/seo";
+import { alternates, eventMetaDesc, pageMeta } from "@/lib/seo";
 import { applyEdit } from "@/lib/event-edits";
 import { editFor } from "@/lib/event-edits-store";
 
@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import EventDetail from "@/components/EventDetail";
 import FestivalCityPage from "@/components/FestivalCityPage";
-import { FESTIVALS, eventSlug, eventFromSlug, eventDescL, imageUrl} from "@/lib/data";
+import { FESTIVALS, eventSlug, eventFromSlug, imageUrl} from "@/lib/data";
 import { guideFor, pick } from "@/lib/guides";
 import { PLACES, placeBySlug } from "@/lib/places";
 
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title: guide
         ? `${pick(guide.metaTitle, "fr")} | RaveRadar`
         : `${fest.title} ${new Date(fest.date).getFullYear()}, dates, line-up, billets | RaveRadar`,
-      description: guide ? pick(guide.metaDesc, "fr") : eventDescL(fest, "fr").slice(0, 160),
+      description: eventMetaDesc(fest, "fr", guide ? pick(guide.metaDesc, "fr") : undefined),
       image: imageUrl(fest),
     });
   }
