@@ -11,6 +11,7 @@ import {
   isPast,
   lastDay,
   nextEdition,
+  pastEditions,
   slugify,
   ticketRel,
   ticketUrl,
@@ -52,6 +53,10 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const next = done ? nextEdition(e) : undefined;
   const place = placeFor(e);
   const today = todayISO();
+  // Les éditions déjà passées du même festival. Le slug nu appartient à l'édition en
+  // cours, les autres portent leur année : sans ce bloc, leurs pages n'avaient aucun lien
+  // entrant depuis la fiche qui porte l'autorité de la marque.
+  const older = pastEditions(e, today);
   const venue = eventVenueL(e, lang);
 
   // A city-wide, week-long programme (ADE) gets a long-form guide; the parties
@@ -339,6 +344,23 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           </div>
 
           {guide && <FestivalGuide guide={guide} e={e} lang={lang} today={today} />}
+
+          {older.length > 0 && (
+            <>
+              <div className="divider" />
+              <h2 className="h-md" style={{ marginBottom: 10 }}>
+                {t("fest.past")}
+              </h2>
+              <p className="lead" style={{ fontSize: ".95rem", marginBottom: 22 }}>
+                {t("event.editionsintro")}
+              </p>
+              <div className="grid grid-4">
+                {older.map((x) => (
+                  <EventCard key={x.id} e={cardEvent(x)} lang={lang} />
+                ))}
+              </div>
+            </>
+          )}
 
           {related.length > 0 && (
             <>
