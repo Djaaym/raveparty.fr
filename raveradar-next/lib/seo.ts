@@ -78,6 +78,26 @@ export function pageMeta(opts: {
   };
 }
 
+/**
+ * La meta description d'une fiche, annoncée « Édition terminée » quand elle l'est.
+ *
+ * La page porte le bandeau depuis toujours, la SERP non : le snippet d'une archive
+ * ressemblait trait pour trait à celui de l'édition en cours, avec le même titre à
+ * l'année près, et se faisait donc cliquer à sa place. Le dire coûte dix-huit
+ * caractères et évite d'envoyer un lecteur sur une date passée, ce qui est le pire
+ * défaut possible pour un annuaire.
+ *
+ * La coupe à 160 se fait **après** le préfixe : c'est la longueur totale que Google
+ * tronque, la calculer sur le texte seul rendrait une description plus longue que
+ * prévu. `text` permet à une fiche qui écrit sa propre description (un guide de
+ * festival) de garder la sienne sans perdre la mention.
+ */
+export function eventMetaDesc(e: RaveEvent, lang: Lang, text?: string): string {
+  const body = text ?? eventDescL(e, lang);
+  const prefix = isPast(e) ? (lang === "fr" ? "Édition terminée. " : "Past edition. ") : "";
+  return `${prefix}${body}`.slice(0, 160);
+}
+
 /* ---------------------------------------------------------------------------
    JSON-LD
 --------------------------------------------------------------------------- */

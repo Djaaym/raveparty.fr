@@ -2850,6 +2850,26 @@ export const upcomingFirst = (list: RaveEvent[] = EVENTS, ref = todayISO()): Rav
 export const nextEdition = (e: RaveEvent): RaveEvent | undefined =>
   EVENTS.filter((x) => x.title === e.title && x.date > lastDay(e)).sort((a, b) => a.date.localeCompare(b.date))[0];
 
+/**
+ * Les autres éditions du même festival, déjà terminées, la plus récente d'abord.
+ *
+ * Le lien n'existait que dans un sens : une fiche terminée pointe vers l'édition suivante
+ * (`nextEdition()`), mais rien ne redescendait vers l'archive. Les URLs suffixées
+ * (`/festival/sonar-2025`) n'étaient donc atteignables que par le sitemap et par les
+ * listings d'archive, sans un seul lien depuis la page qui porte l'autorité de la marque.
+ * C'est aussi ce qui donne de la profondeur à la fiche canonique, le line-up des années
+ * précédentes : exactement le contenu qu'une page par année irait chercher, mais concentré
+ * sur l'URL qui capitalise au lieu d'être réparti sur des pages qui s'éteignent.
+ *
+ * Un listing d'archive sous son propre titre assume ce qu'il montre, il n'entre donc pas
+ * dans les trois portes de mise en avant, et il ne se coupe pas : une édition retirée de
+ * la liste serait une page orpheline de plus.
+ */
+export const pastEditions = (e: RaveEvent, ref = todayISO()): RaveEvent[] =>
+  EVENTS.filter((x) => x.title === e.title && x.id !== e.id && isPast(x, ref)).sort((a, b) =>
+    b.date.localeCompare(a.date),
+  );
+
 /* ---------------- Highlight blocks ----------------
    A listing and a highlight are not the same promise. A listing may carry the archive,
    a past edition still deserves its page, and the section header says so. A highlight
