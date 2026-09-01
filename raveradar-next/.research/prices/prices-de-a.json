@@ -1,0 +1,182 @@
+[
+ {
+  "id": 490,
+  "title": "R3HAB au Bootshaus",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/C7JPnatZ/",
+  "source": "https://bootshaus-club.ticket.io/C7JPnatZ/",
+  "note": "Phase 3 entree normale 26,90 €"
+ },
+ {
+  "id": 859,
+  "title": "Bootshaus on a Ship Vol. IV",
+  "price": 36,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/4zjKRnsa/",
+  "source": "https://bootshaus-club.ticket.io/4zjKRnsa/",
+  "note": "Phase 2 a 36 € ; le Blind Ticket a 28 € est epuise"
+ },
+ {
+  "id": 495,
+  "title": "Bootshaus Sommerfest Closing",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/ycDXwvrm/",
+  "source": "https://bootshaus-club.ticket.io/ycDXwvrm/",
+  "note": "Phase 1 a 15 €"
+ },
+ {
+  "id": 497,
+  "title": "Unreal Weekender Night I",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://unreal-bootshaus.ticket.io/U1dUL7lG/",
+  "source": "https://unreal-bootshaus.ticket.io/U1dUL7lG/",
+  "note": "Final Phase a 45 €, seule categorie d'entree ouverte"
+ },
+ {
+  "id": 499,
+  "title": "NIBIRII pres. Ely Oaks",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/c4CUlNfm/",
+  "source": "https://bootshaus-club.ticket.io/c4CUlNfm/",
+  "note": "Phase 2 a 26,90 €"
+ },
+ {
+  "id": 585,
+  "title": "Blacklist Festival",
+  "price": 47,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://blacklist-festival.ticket.io/BF2Qb7HL/",
+  "source": "https://blacklist-festival.ticket.io/BF2Qb7HL/",
+  "note": "Phase 2 : vendredi 47 €, samedi 62 €, week-end 102 € (general admission)"
+ },
+ {
+  "id": 502,
+  "title": "Affenkäfig Rules",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/B3jK8aPC/",
+  "source": "https://bootshaus-club.ticket.io/B3jK8aPC/",
+  "note": "Phase 1 / early bird a 24,90 € ; line-up encore non annonce"
+ },
+ {
+  "id": 377,
+  "title": "Bootshaus & Loonyland - NYE",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/S0cbXDda/",
+  "source": "https://bootshaus-club.ticket.io/S0cbXDda/",
+  "note": "Blind Ticket 29 € (VIP 64 €) ; line-up non annonce, tous les floors ouverts"
+ },
+ {
+  "id": 347,
+  "title": "Ritter Butzke Jubiläum - NTO",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.ritterbutzke.com/101026-Jubilaeum/",
+  "source": "https://tickets.ritterbutzke.com/101026-Jubilaeum/",
+  "note": "billetterie pretix du club, tarif unique 22,50 € (arrondi) ; line-up officiel = NTO live seul, inchange"
+ },
+ {
+  "id": 362,
+  "title": "Stil vor Talent - Oliver Koletzki",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.ritterbutzke.com/071126-StilvorTalent/",
+  "source": "https://tickets.ritterbutzke.com/071126-StilvorTalent/",
+  "note": "tarif unique 20,00 €"
+ },
+ {
+  "id": 367,
+  "title": "Alan Fitzpatrick à Berlin",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.ritterbutzke.com/211126-AlanFitzpatrick/",
+  "source": "https://tickets.ritterbutzke.com/211126-AlanFitzpatrick/",
+  "note": "1st Release 15 € en vente ; 2nd (18 €) et 3rd (20 €) encore fermes"
+ },
+ {
+  "id": 727,
+  "title": "Faceless Psycho City",
+  "price": 65,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://faceless.ticket.io/N7Go85t0/",
+  "source": "https://faceless.ticket.io/N7Go85t0/?lang=de",
+  "note": "Phase I : jour 64,90 €, week-end 119,90 €, VIP 124,90 € ; line-up encore non annonce"
+ },
+ {
+  "id": 783,
+  "title": "Hardshift Festival",
+  "price": 75,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.permanent-entertainment.com/event/hardshift-2026-j21nmh",
+  "source": "https://tickets.permanent-entertainment.com/event/hardshift-2026-j21nmh",
+  "note": "JSON-LD Offer de la billetterie officielle (Permanent Entertainment) : 74,90 €"
+ },
+ {
+  "id": 816,
+  "title": "Between The Seas Winter Indoor Festival",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://between-the-seas-eventmanagement-5glh.vivenushop.com/event/between-the-seas-winter-indoor-festival-2027-jk9f8a",
+  "source": "https://between-the-seas-eventmanagement-5glh.vivenushop.com/event/between-the-seas-winter-indoor-festival-2027-jk9f8a",
+  "note": "billetterie officielle vivenu, a partir de 34,95 €"
+ },
+ {
+  "id": 830,
+  "title": "APEX",
+  "price": 70,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://apexfest.de/",
+  "source": "https://apexfest.de/",
+  "note": "site officiel : Loyalty Ticket 69,90 €, Premium 109,90 € (frais inclus) ; line-up encore non annonce"
+ },
+ {
+  "id": 149,
+  "title": "Mayday",
+  "price": 69,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.mayday.de/en/tickets",
+  "source": "https://www.mayday.de/en/tickets",
+  "note": "site officiel : Friends-eTicket (Limited) 69 € frais inclus, le tarif Regular n'est pas encore ouvert (\"? €\") ; remplace l'estimation a 55 €"
+ },
+ {
+  "id": 389,
+  "title": "World Club Dome",
+  "price": 69,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.worldclubdome.com/tickets",
+  "source": "https://www.worldclubdome.com/tickets",
+  "note": "1 day ticket vendredi 69 € ; pass 3 jours 129 €, Front of Mainstage 159 €, VIP 249 €"
+ },
+ {
+  "id": 392,
+  "title": "Ruhr-in-Love",
+  "price": 49,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.ruhr-in-love.de/tickets",
+  "source": "https://www.ruhr-in-love.de/tickets",
+  "note": "eTicket 49 € frais inclus ; il existe un Family-Love eTicket limite a 39 €, tarif conditionne, non retenu comme tarif d'entree"
+ }
+]

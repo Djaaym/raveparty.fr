@@ -1,0 +1,146 @@
+[
+ {
+  "id": 938,
+  "title": "RADION Season Opener",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682716",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682716",
+  "note": "billetterie officielle Stager : phase 1 (16 €) sold out, phase 2 a 22,50 € hors frais"
+ },
+ {
+  "id": 939,
+  "title": "RADION: DJ Assault",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682717",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682717",
+  "note": "phases 1 et 2 sold out, phase 3 a 22,50 € hors frais"
+ },
+ {
+  "id": 940,
+  "title": "RADION: Cleric & Pink Concrete",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682718",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682718",
+  "note": "phase 1 sold out, phase 2 a 22,50 € hors frais"
+ },
+ {
+  "id": 941,
+  "title": "RADION x WAXXX Society & RIOT",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682727",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682727",
+  "note": "phase 1 a 16,50 € hors frais, encore en vente"
+ },
+ {
+  "id": 942,
+  "title": "Vault Sessions x RADION: Chlär",
+  "price": 31,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682729",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682729",
+  "note": "phases 1 et 2 sold out, phase 3 a 31 € hors frais"
+ },
+ {
+  "id": 944,
+  "title": "GRÜV à RADION",
+  "price": 21,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111682731",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111682731",
+  "note": "phase 1 sold out, phase 2 a 20,50 € hors frais"
+ },
+ {
+  "id": 945,
+  "title": "FRENZY x SHOCKWERK",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://radionamsterdam.stager.co/shop/default/events/111681056",
+  "source": "https://radionamsterdam.stager.co/shop/default/events/111681056",
+  "note": "phase 1 sold out, phase 2 a 24,50 € hors frais"
+ },
+ {
+  "id": 767,
+  "title": "Thuishaven: X Club. & DART",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://thuishaven.nl/",
+  "note": "agenda officiel Thuishaven : 29,50 €"
+ },
+ {
+  "id": 642,
+  "title": "Thuishaven: Bart Skils 5HRS",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://thuishaven.nl/",
+  "note": "agenda officiel Thuishaven : 29,50 €"
+ },
+ {
+  "id": 332,
+  "title": "BASIS x BCCO w/ Ignez",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://weeztix.shop/kq4qvqtn",
+  "source": "https://clubbasis.nl/event/basis-x-bcco-fenim0re-ignez-3-hour-set-locus-error/",
+  "note": "site officiel BASIS : early entry avant 23h30 a 15 €, doorsale apres 23h30 a 20 €"
+ },
+ {
+  "id": 346,
+  "title": "BASIS Vinyl Special w/ Narciss",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://weeztix.shop/d9fq88mc",
+  "source": "https://clubbasis.nl/event/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set/",
+  "note": "site officiel BASIS : early entry avant 23h30 a 15 €, doorsale apres 23h30 a 20 €"
+ },
+ {
+  "id": 802,
+  "title": "Luminosity 19 Years Anniversary",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://melkweg.nl/en/agenda/luminosity-19-year-anniversary-19-12-2026/",
+  "note": "page officielle Melkweg : 29,90 € (tarif early)"
+ },
+ {
+  "id": 337,
+  "title": "360 Degrees: Jayda G",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.bird-rotterdam.nl/event/360-degrees-jayda-g/",
+  "note": "page officielle BIRD : Happy BIRD 19 €, Regular 24 €, Late 26 €, porte 26 €, frais de service inclus"
+ },
+ {
+  "id": 316,
+  "title": "Draaimolen Festival",
+  "price": 83,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://festivalfans.nl/event/draaimolen-festival/",
+  "note": "combi 2 jours annonce a 82,90 € (late friday 87,90 €) ; festival complet, revente TicketSwap uniquement. Source secondaire, d'ou 'estimated'"
+ },
+ {
+  "id": 345,
+  "title": "Gabber Resistance: Back at Maassilo",
+  "price": 35,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.djguide.nl/party.p/574800/gabber-resistance?language=en",
+  "note": "fiche djguide (source secondaire) : presale 35 €, 22h-06h au Maassilo"
+ }
+]

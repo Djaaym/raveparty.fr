@@ -41,7 +41,10 @@ DATA = HERE.parents[1] / "lib" / "data.ts"
 # l'index des fiches artistes (`buildArtists()`).
 NOT_AN_ARTIST = re.compile(
     r"^(tba|tbc|t\.b\.a\.?|line[- ]?up|programmation|à venir|coming soon|more tba|"
-    r"secret guest|special guest|guest|and more|\+ more|others?|various artists?|va)$",
+    r"secret guest|special guest|guest|and more|\+ more|others?|various artists?|va|"
+    # « A-Z » est l'en-tête d'une liste d'affiche triée alphabétiquement, pas un nom :
+    # recopié tel quel, il ouvre une fiche `/artistes/a-z` qu'aucune date ne remplit.
+    r"a\s?-\s?z|a to z|by name|alphabetical)$",
     re.I,
 )
 
@@ -52,6 +55,16 @@ def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
+# `lineup: [...]` ne se délimite pas sur le premier `]` : « Daniel[i] » est un nom
+# d'artiste de l'affiche Meakusma, et un motif `[^\]]*` s'arrête dessus, donc écrit le
+# nouveau tableau **avant** la fin de l'ancien et casse `data.ts` 800 pages plus loin.
+# Le `]` qui ferme est celui qu'on rencontre hors chaîne : c'est ce que dit ce motif,
+# en n'avalant les crochets que lorsqu'ils sont entre guillemets. Même raison pour la
+# lambda à l'écriture : `re.sub` relit les échappements du remplacement, donc un nom
+# portant un backslash y deviendrait une référence de groupe.
+LINEUP = re.compile(r' lineup: \[((?:[^"\[\]]|"(?:[^"\\]|\\.)*")*)\]')
+
+
 def read_events(src: str) -> dict:
     """id -> (numéro de ligne, ligne, titre, line-up actuel)."""
     out = {}
@@ -59,7 +72,7 @@ def read_events(src: str) -> dict:
         m = re.match(r"\s*\{ id: (\d+), title: \"((?:[^\"\\]|\\.)*)\"", line)
         if not m:
             continue
-        cur = re.search(r" lineup: \[([^\]]*)\]", line)
+        cur = LINEUP.search(line)
         out[int(m.group(1))] = (i, line, m.group(2), (cur.group(1).strip() if cur else None))
     return out
 
@@ -127,6 +140,8 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="n'écrit rien, montre le diff")
     ap.add_argument("--force", action="store_true", help="écrase un line-up déjà publié")
+    ap.add_argument("--merge", action="store_true",
+                    help="ajoute les noms manquants à un line-up déjà publié, sans en retirer")
     ap.add_argument("files", nargs="*", help="lots à lire (défaut : tous les .json du répertoire)")
     a = ap.parse_args()
 
@@ -166,15 +181,31 @@ def main() -> int:
             if not names:
                 errors.append(f"{tag}: line-up vide après nettoyage — rien à greffer")
                 continue
-            if cur not in (None, "") and not a.force:
-                skipped.append(f"{tag}: line-up déjà publié, gardé (--force pour écraser)")
-                continue
+            if cur not in (None, ""):
+                # Un lot d'agent complète une affiche partielle bien plus souvent qu'il
+                # ne la corrige : la fusion est donc le mode utile, et le seul qui ne
+                # puisse rien perdre. Un nom publié absent du lot n'est pas une erreur
+                # de l'affiche, c'est une source que l'agent n'a pas lue — le remplacer
+                # à l'aveugle retirerait Modeselektor de Waterworks. L'ordre du
+                # catalogue passe devant, les nouveaux noms suivent.
+                published = re.findall(r'"((?:[^"\\]|\\.)*)"', cur)
+                if a.merge:
+                    have = {norm(n) for n in published}
+                    add = [n for n in names if norm(n) not in have]
+                    if not add:
+                        skipped.append(f"{tag}: rien à ajouter, les {len(published)} noms publiés couvrent le lot")
+                        continue
+                    names = published + add
+                elif not a.force:
+                    skipped.append(f"{tag}: line-up déjà publié, gardé "
+                                   "(--merge pour compléter, --force pour écraser)")
+                    continue
             if eid in seen_ids:
                 errors.append(f"{tag}: déjà traité par {seen_ids[eid]} — deux lots se contredisent")
                 continue
             seen_ids[eid] = lot.name
             payload = ", ".join('"' + n.replace('"', '\\"') + '"' for n in names)
-            lines[i] = re.sub(r" lineup: \[[^\]]*\]", f" lineup: [{payload}]", line, count=1)
+            lines[i] = LINEUP.sub(lambda _: f" lineup: [{payload}]", line, count=1)
             applied.append((eid, title, names, src_url))
 
     for e in errors:

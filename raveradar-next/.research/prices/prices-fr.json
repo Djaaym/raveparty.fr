@@ -1,0 +1,233 @@
+[
+ {
+  "id": 433,
+  "title": "Pulse 2#",
+  "price": 22,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/perpignan/concerts/electro/pulse-2-1598831_A"
+ },
+ {
+  "id": 443,
+  "title": "Bass Impakt - Hard Is Coming #5",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/saint-quentin/concerts/electro/bass-impakt-1664760_A"
+ },
+ {
+  "id": 444,
+  "title": "Crazy New Year",
+  "price": 48,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://ainterexpo.com/agenda/crazy-new-year-festival/",
+  "note": "page officielle de la salle : « à partir de 47,90 € » (jds affiche 47,90 € - 79 €)"
+ },
+ {
+  "id": 653,
+  "title": "Lewis OfMan au Sucre",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/lyon/concerts/electro/lewis-ofman-1ere-partie-1554011_A"
+ },
+ {
+  "id": 439,
+  "title": "Illusion BZH Edition",
+  "price": 44,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/lorient/concerts/electro/illusion-bzh-edition-1631549_A"
+ },
+ {
+  "id": 947,
+  "title": "Apparat au Nouveau Siècle",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/lille/concerts/electro/apparat-1514613_A"
+ },
+ {
+  "id": 412,
+  "title": "Synthony au Zénith de Paris",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.jds.fr/paris/concerts/electro/synthony-1467599_A"
+ },
+ {
+  "id": 407,
+  "title": "Détonation Festival",
+  "price": 28,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://detonation-festival.com/billetterie/",
+  "source": "https://detonation-festival.com/billetterie/",
+  "note": "tarif plein soirée 28 €, pass 2 jours 50 €"
+ },
+ {
+  "id": 563,
+  "title": "Lee Burridge à La Cabane",
+  "price": 26,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://halles-cartoucherie.fr/event/lee-burridge/",
+  "note": "26 € à 33 €"
+ },
+ {
+  "id": 686,
+  "title": "Frankey & Sandrino à La Cabane",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://halles-cartoucherie.fr/event/frankey-sandrino/",
+  "note": "19 € à 25 €"
+ },
+ {
+  "id": 768,
+  "title": "Chloé b2b Ivan Smagghe à La Cabane",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://halles-cartoucherie.fr/event/chloe-b2b-ivan-smagghe/",
+  "note": "19 € à 26 €"
+ },
+ {
+  "id": 805,
+  "title": "Andhim à La Cabane",
+  "price": 26,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://halles-cartoucherie.fr/event/andhim/",
+  "note": "26 € à 33 €"
+ },
+ {
+  "id": 592,
+  "title": "The Ring x Club de Jour",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.warehouse-nantes.com/event/the-ring-x-club-de-jour-w-yann-muller-trio-cover-more",
+  "note": "JSON-LD offers : le palier gratuit est SoldOut, le plus bas encore en vente est 22,99 €"
+ },
+ {
+  "id": 626,
+  "title": "Club de Jour invite Bellaire & Dimitri from Paris",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.warehouse-nantes.com/event/club-de-jour-invite-bellaire-dimitri-from-paris",
+  "note": "JSON-LD offers, premier palier 19,99 €"
+ },
+ {
+  "id": 676,
+  "title": "Autechre au Lieu Unique",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.lelieuunique.com/evenement/autechre-2026",
+  "note": "20 € à 30 €, 20 € tarif étudiant"
+ },
+ {
+  "id": 903,
+  "title": "Il Est Vilaine + Radical Cute",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.legrandmix.com/agenda/il-est-vilaine",
+  "note": "tarif normal 19 €, abonné 15 €, moins de 18 ans 11 €"
+ },
+ {
+  "id": 911,
+  "title": "Bunker Brestois",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.lacarene.fr/bunker-brestois-9.html",
+  "note": "plein tarif 20 € en prévente (22 € sur place)"
+ },
+ {
+  "id": 919,
+  "title": "La P'tite Fumée au Temps Machine",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.letempsmachine.com/agenda/la-ptite-fumee-1re-partie",
+  "note": "prévente 27 €, 29 € sur place"
+ },
+ {
+  "id": 685,
+  "title": "Autechre à l'Aéronef",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.aeronef.fr/agenda/autechre",
+  "note": "tarif plein web 30 €, 31 € au guichet le soir"
+ },
+ {
+  "id": 782,
+  "title": "PACT au Rocher de Palmer",
+  "price": 31,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://lerocherdepalmer.fr/agenda/pact",
+  "note": "tarif plein 31 €, 33 € au guichet"
+ },
+ {
+  "id": 821,
+  "title": "NTO Live au Rocher de Palmer",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://lerocherdepalmer.fr/agenda/nto",
+  "note": "tarif plein 30 €, 32 € au guichet"
+ },
+ {
+  "id": 619,
+  "title": "La P'tite Fumée à La Belle Électrique",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.la-belle-electrique.com/fr/agenda/la-ptite-fumee",
+  "note": "27 € / 30 € / 32 €"
+ },
+ {
+  "id": 583,
+  "title": "Mecanik Paradize",
+  "price": 25,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://metropole.toulouse.fr/agenda/mecanik-paradize",
+  "note": "soirée du 8 octobre de 24,90 € à 54,90 € ; le 9 à 54 €/59 €, le 10 de 35,99 € à 50,99 €, le 11 en accès libre. Relevé sur l'agenda de Toulouse Métropole, la billetterie de l'organisateur est sur Shotgun (inaccessible depuis le conteneur), d'où le « estimated »"
+ },
+ {
+  "id": 430,
+  "title": "Overmono à l'Olympia",
+  "price": 44,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.olympiahall.com/agenda/overmono/",
+  "source": "https://www.olympiahall.com/agenda/overmono/",
+  "note": "de 44,19 € à 49,86 €"
+ },
+ {
+  "id": 453,
+  "title": "Acid Arab à La Cartonnerie",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.cartonnerie.fr/evenement/acid-arab/",
+  "note": "tarif plein 29 € en prévente (33 € sur place), réduit 27 €, adhérent 24 €"
+ },
+ {
+  "id": 561,
+  "title": "Boston Bun au Stockfish",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://my.wilout-online.com/c9f4991878ab53c6f330ec9a7a697a22/s",
+  "source": "https://my.wilout-online.com/c9f4991878ab53c6f330ec9a7a697a22/s",
+  "note": "billetterie officielle du Stockfish (organisateur stockfish@ville-nice.fr) : tarif normal 15 €, tarif étudiant 5 €"
+ }
+]

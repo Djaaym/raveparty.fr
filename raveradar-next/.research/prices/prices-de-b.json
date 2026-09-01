@@ -1,0 +1,216 @@
+[
+ {
+  "id": 503,
+  "title": "KitKatClub au Bootshaus",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://bootshaus.tv/events/sa-24-10-2026-kitkatclub"
+ },
+ {
+  "id": 326,
+  "title": "Teletech x DAY|RAVE",
+  "price": 25,
+  "currency": "CHF",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.nordstern.com/en/c/teletech-x-dayrave-2088",
+  "source": "https://tickets.nordstern.com/en/c/teletech-x-dayrave-2088",
+  "note": "CHF 25 pour le billet DAY only ou NIGHT only, CHF 40 le combine. Le catalogue portait 38 EUR estime, mauvaise devise (Bale = CHF)"
+ },
+ {
+  "id": 374,
+  "title": "Azyr au Nordstern",
+  "price": 20,
+  "currency": "CHF",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.nordstern.com/en/c/azyr-2067",
+  "source": "https://tickets.nordstern.com/en/c/azyr-2067",
+  "note": "presale CHF 20. Le catalogue portait 38 EUR estime, mauvaise devise"
+ },
+ {
+  "id": 333,
+  "title": "NZNZ à la Postgarage",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://shop.eventjet.at/de/a04a6dd6-671c-4211-92c7-cbe308542ed8/event/f1d03cb7-9f8f-4115-b6c0-f031136f4097",
+  "source": "https://shop.eventjet.at/de/a04a6dd6-671c-4211-92c7-cbe308542ed8/event/f1d03cb7-9f8f-4115-b6c0-f031136f4097",
+  "note": "phases 0/1/2 (10, 15, 16 EUR) affichees ausverkauft ; seule la Finale Phase a 17 EUR est encore en vente. La Postgarage annonce AK 18 EUR a la caisse du soir"
+ },
+ {
+  "id": 666,
+  "title": "Masters of Hardcore Switzerland",
+  "price": 62,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://www.maag-moments.ch/maag/de/events/event/detail/2026/masters-of-hardcore.html",
+  "note": "« ab CHF 62.45 Early Bird » sur la page officielle de la Halle 622 (VIP a partir de CHF 122.85). Ticketcorner est bloque depuis le conteneur, l'epuisement de l'early bird n'a pas pu etre verifie"
+ },
+ {
+  "id": 669,
+  "title": "Liquicity Vienna",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.memorandum.at/",
+  "source": "https://tickets.memorandum.at/",
+  "note": "Regular Birds 39,37 EUR en vente ; Early Birds 33,15 EUR ausverkauft. Billetterie officielle NFCtron liee depuis liquicity.com"
+ },
+ {
+  "id": 793,
+  "title": "INSANE Strictly Hard",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://insane-festival.de/event/insane-stirictly-hard-docks-hamburg-12-12-2026/",
+  "source": "https://insane-festival.de/event/insane-stirictly-hard-docks-hamburg-12-12-2026/",
+  "note": "« ab 20,00 EUR zzgl. Systemgebuehr » (blind artist ticket) sur le site de l'organisateur, repris par la fiche du Docks. Line-up encore non annonce (« ueber 20 DJs auf zwei Floors »)"
+ },
+ {
+  "id": 663,
+  "title": "FOG Festival",
+  "price": 39,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://www.fogstudio.ch/about-fog/",
+  "note": "day pass vendredi ou samedi CHF 39 (tarif reduit 19), pass 4 jours CHF 79, nuit seule au Container Club CHF 15, cloture au Tinguely CHF 20. L'exposition sound art est gratuite"
+ },
+ {
+  "id": 491,
+  "title": "Bootshaus Sommerfest",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/vB0cAmWg",
+  "source": "https://bootshaus-club.ticket.io/vB0cAmWg",
+  "note": "Phase 1 a 14,90 EUR, en vente. Le ticket de groupe 4+1 revient a 11,92 EUR par personne mais se vend par cinq"
+ },
+ {
+  "id": 494,
+  "title": "Polyamor au Bootshaus",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://polyamor.ticket.io/PDikPg1v",
+  "source": "https://polyamor.ticket.io/PDikPg1v",
+  "note": "Finale Phase a 35,00 EUR, seule categorie encore ouverte"
+ },
+ {
+  "id": 496,
+  "title": "Vertile pres. Everything Changes Live",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://musical-madness.ticket.io/eACzcM9S",
+  "source": "https://musical-madness.ticket.io/eACzcM9S",
+  "note": "Phase 1 (29,90) ausverkauft ; Phase 2 a 34,90 EUR est la moins chere en vente (Phase 3 a 36,90)"
+ },
+ {
+  "id": 500,
+  "title": "Chrome Cologne",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://bootshaus-club.ticket.io/Atz0dHLX",
+  "source": "https://bootshaus-club.ticket.io/Atz0dHLX",
+  "note": "Phase 1 (29,90) ausverkauft ; Phase 2 a 34,90 EUR en vente"
+ },
+ {
+  "id": 872,
+  "title": "Cosmic Gate au Bootshaus",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://senses-bootshaus.ticket.io/GhUtpLGh",
+  "source": "https://senses-bootshaus.ticket.io/GhUtpLGh",
+  "note": "Phase 1 a 28,90 EUR en vente (VIP 63,90)"
+ },
+ {
+  "id": 560,
+  "title": "YN x BCCO Club Night",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://yn-collective.ticket.io/giNaeINs/",
+  "source": "https://yn-collective.ticket.io/giNaeINs/",
+  "note": "phases a 9, 11 et 14 EUR ausverkauft ; Phase 2 a 17 EUR en vente (le tarif groupe de 15 EUR se vend par quatre)"
+ },
+ {
+  "id": 629,
+  "title": "Zuckerwatt w/ Mija",
+  "price": 14,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://zuckerwatt.ticket.io/lrReXJvU/",
+  "source": "https://zuckerwatt.ticket.io/lrReXJvU/",
+  "note": "Early Bird (12) ausverkauft ; Phase 1 a 14 EUR en vente"
+ },
+ {
+  "id": 643,
+  "title": "Zuckerwatt w/ Ellen Allien",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://zuckerwatt.ticket.io/8EYfX8ZC/",
+  "source": "https://zuckerwatt.ticket.io/8EYfX8ZC/",
+  "note": "Early Bird (14) et Phase 1 (16) ausverkauft ; Phase 2 a 18 EUR en vente"
+ },
+ {
+  "id": 539,
+  "title": "Schranz is Back w/ Felix Kröcher",
+  "price": 24,
+  "currency": "€",
+  "priceNote": "estimated",
+  "ticketUrl": "https://zuckerwatt.ticket.io/pzLjLAEv/",
+  "source": "https://zuckerwatt.ticket.io/pzLjLAEv/",
+  "note": "les quatre phases de prevente (15, 18, 21, 24 EUR) sont ausverkauft ; il ne reste que la caisse du soir a partir de 23h, dont le tarif n'est pas publie. 24 EUR est donc la derniere phase vendue, pas un tarif encore achetable, d'ou estimated"
+ },
+ {
+  "id": 756,
+  "title": "Wonderful Days Cologne",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
+  "source": "https://dancefield-bh.ticket.io/uL2Zu8qd/",
+  "note": "Early Bird (29,50) et Standard (34,50) ausverkauft ; Finale Phase a 39,50 EUR en vente (VIP 74,50). Line-up toujours non annonce"
+ },
+ {
+  "id": 373,
+  "title": "Rave on Snow",
+  "price": 160,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://raveonsnow.ticket.io/",
+  "source": "https://raveonsnow.ticket.io/",
+  "note": "Early Bird Weekend (150) ausverkauft ; Weekend Preisstufe I a 160 EUR en vente (avec le jeudi 180, VIP 260). Line-up toujours non annonce"
+ },
+ {
+  "id": 378,
+  "title": "Hippie New Year",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.ritterbutzke.com/311226-HNY/",
+  "source": "https://tickets.ritterbutzke.com/311226-HNY/",
+  "note": "entree standard 25 EUR des 22h (show open air du reveillon incluse) ; entree tardive a partir de 00h15 a 15 EUR, bonus 65 EUR. Le catalogue portait 45 EUR estime"
+ },
+ {
+  "id": 804,
+  "title": "Verknipt Stadion",
+  "price": 68,
+  "currency": "CHF",
+  "priceNote": null,
+  "source": "https://hallenstadion.ch/events/verknipt/",
+  "note": "tarifs publies par la salle : Normal CHF 67.65, Late CHF 78.00, Final CHF 88.50. verknipt.org est derriere Cloudflare depuis le conteneur"
+ },
+ {
+  "id": 834,
+  "title": "Masters of Hardcore Austria",
+  "price": 55,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.volume.at/events/masters-of-hardcore-austria-2027-2027-02-13/",
+  "note": "Loyalty Ticket 54,90 EUR (VIP 99,90) d'apres volume.at, qui reprend le communique de l'organisateur ; mastersofhardcore.at et tickethead.io repondent 403 depuis le conteneur, d'ou estimated. Line-up officiellement « TBA »"
+ }
+]

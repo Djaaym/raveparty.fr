@@ -1,0 +1,283 @@
+[
+ {
+  "id": 319,
+  "title": "ZAMNA × PRIMER Athens",
+  "price": 60,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://go-out.co/event/zamnaxprimer",
+  "source": "https://primermusicfestival.com/"
+ },
+ {
+  "id": 321,
+  "title": "Komorebi Music Festival",
+  "price": 90,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/en/cuneo/event/komorebi-music-festival-2026-3-days-pass/210611",
+  "source": "https://xceed.me/en/cuneo/event/komorebi-music-festival-2026-3-days-pass/210611"
+ },
+ {
+  "id": 327,
+  "title": "SUNANDBASS",
+  "price": 379,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://sunandbass.net/site/tickets-4/",
+  "source": "https://sunandbass.net/site/tickets-4/"
+ },
+ {
+  "id": 532,
+  "title": "Vision Open Air",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.ticketnation.it/milano/vision-open-air-w-charlotte-de-witte-ex-macello.8421",
+  "source": "https://www.ticketnation.it/milano/vision-open-air-w-charlotte-de-witte-ex-macello.8421"
+ },
+ {
+  "id": 536,
+  "title": "I-Days Milano: David Guetta",
+  "price": 75,
+  "currency": "€",
+  "priceNote": "estimated",
+  "source": "https://www.eventiatmilano.it/evento/david-guetta-concerto-milano/"
+ },
+ {
+  "id": 330,
+  "title": "Dissonanze",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/roma/event/dissonanze-2026-day-2/226702",
+  "source": "https://xceed.me/it/roma/event/dissonanze-2026-day-2/226702"
+ },
+ {
+  "id": 336,
+  "title": "Anyma · ÆDEN Global Tour",
+  "price": 126,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://fieramilanolive.com/anyma/"
+ },
+ {
+  "id": 342,
+  "title": "Cavo Paradiso Season Closing",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.cavoparadiso.gr/tickets.asp?tt=STD&eid=1086",
+  "source": "https://www.cavoparadiso.gr/tickets.asp?tt=STD&eid=1086"
+ },
+ {
+  "id": 343,
+  "title": "Omana Festival",
+  "price": 199,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://omana-festival.de/pages/booking",
+  "source": "https://omana-festival.de/products.json"
+ },
+ {
+  "id": 344,
+  "title": "Robot Festival",
+  "price": 8,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/en/bologna/event/robot-festival-17-ex-bastardini-thursday/234359",
+  "source": "https://xceed.me/en/bologna/event/robot-festival-17-ex-bastardini-thursday/234359"
+ },
+ {
+  "id": 675,
+  "title": "Autechre · Alcatraz Milano",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/bbxw6m-autechre-milan-11th-oct-alcatraz-milano-milano-tickets",
+  "source": "https://dice.fm/event/bbxw6m-autechre-milan-11th-oct-alcatraz-milano-milano-tickets"
+ },
+ {
+  "id": 688,
+  "title": "Nikolina & Kntrlvrlst · Gate Milano",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://gatemilano.it/events/nikolina-and-kntrlvrlst"
+ },
+ {
+  "id": 713,
+  "title": "Ueberrest & In Verruf · Gate Milano",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://gatemilano.it/events/ueberrest-and-in-verruf"
+ },
+ {
+  "id": 740,
+  "title": "PRTY · Samuel Moriero · Gate Milano",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://gatemilano.it/events/prty-samuel-moriero"
+ },
+ {
+  "id": 750,
+  "title": "Funk Tribu · Gate Milano",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://gatemilano.it/events/funk-tribu"
+ },
+ {
+  "id": 700,
+  "title": "Héctor Oaks · Q35 Warehouse",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/torino/event/hector-oaks-oaks-kaos-esp-at-q35-warehouse/239083",
+  "source": "https://xceed.me/it/torino/event/hector-oaks-oaks-kaos-esp-at-q35-warehouse/239083"
+ },
+ {
+  "id": 758,
+  "title": "Gabber Eleganza · Q35 Warehouse",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/torino/event/gabber-eleganza-all-night-long-never-sleep-it-at-q35-warehouse/239086",
+  "source": "https://xceed.me/it/torino/event/gabber-eleganza-all-night-long-never-sleep-it-at-q35-warehouse/239086"
+ },
+ {
+  "id": 794,
+  "title": "Ellen Allien · Q35 Warehouse",
+  "price": 10,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/torino/event/ellen-allien-bpitch-control-de-madwoman-bpitch-control-swe-at-q35-warehouse/239093",
+  "source": "https://xceed.me/it/torino/event/ellen-allien-bpitch-control-de-madwoman-bpitch-control-swe-at-q35-warehouse/239093"
+ },
+ {
+  "id": 817,
+  "title": "Blawan & Setaoc Mass · Q35 Warehouse",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/torino/event/blawan-setaoc-mass-the-lady-machine-roll-dann-hosted-by-laster-club-at-q35-warehouse-1/239095",
+  "source": "https://xceed.me/it/torino/event/blawan-setaoc-mass-the-lady-machine-roll-dann-hosted-by-laster-club-at-q35-warehouse-1/239095"
+ },
+ {
+  "id": 826,
+  "title": "Alarico · Q35 Warehouse",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099",
+  "source": "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099"
+ },
+ {
+  "id": 687,
+  "title": "Digitalism · Hiroshima Mon Amour",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://ticket.hiroshimamonamour.org/it",
+  "source": "https://hiroshimamonamour.org/eventi/"
+ },
+ {
+  "id": 698,
+  "title": "Digitalism · Hacienda Roma",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/roma/event/digitalism-17-ottobre-optimism-tour-hacienda/222875",
+  "source": "https://xceed.me/it/roma/event/digitalism-17-ottobre-optimism-tour-hacienda/222875"
+ },
+ {
+  "id": 751,
+  "title": "Maribou State · Hacienda Roma",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/it/roma/event/maribou-state-hacienda-roma-13-novembre-2026/234536",
+  "source": "https://xceed.me/it/roma/event/maribou-state-hacienda-roma-13-novembre-2026/234536"
+ },
+ {
+  "id": 720,
+  "title": "Cassius · Duel Club",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/6a4ea9520532680001507af6",
+  "source": "https://dice.fm/event/6a4ea9520532680001507af6"
+ },
+ {
+  "id": 735,
+  "title": "Horrorland Halloween Festival",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.ticketnation.it/ferrara/horrorland-halloween-festival-ferrara-fiere.8498",
+  "source": "https://www.ticketnation.it/ferrara/horrorland-halloween-festival-ferrara-fiere.8498"
+ },
+ {
+  "id": 762,
+  "title": "Andy Stott · Auditorium San Fedele",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/6d8xx2-innerspaces-andy-stott-collectif-g-16th-nov-auditorium-san-fedele-milano-tickets",
+  "source": "https://dice.fm/event/6d8xx2-innerspaces-andy-stott-collectif-g-16th-nov-auditorium-san-fedele-milano-tickets"
+ },
+ {
+  "id": 797,
+  "title": "Pole & Luigi Tozzi · Auditorium San Fedele",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "source": "https://www.innerspaces.it/inner-spaces/"
+ },
+ {
+  "id": 744,
+  "title": "Basic Club · NEUHM 15 ans",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://xceed.me/en/napoli/event/neuhm-15th-anniversary/239434",
+  "source": "https://xceed.me/en/napoli/event/neuhm-15th-anniversary/239434"
+ },
+ {
+  "id": 790,
+  "title": "Techniques · Charlotte de Witte à Athènes",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/",
+  "source": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/"
+ },
+ {
+  "id": 836,
+  "title": "Nameless Winter",
+  "price": 59,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.namelessfestival.it/winter-2027/biglietti",
+  "source": "https://www.namelessfestival.it/winter-2027/biglietti"
+ },
+ {
+  "id": 155,
+  "title": "Nameless Festival",
+  "price": 119,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.namelessfestival.it/festival-2027/biglietti",
+  "source": "https://www.namelessfestival.it/festival-2027/biglietti"
+ },
+ {
+  "id": 354,
+  "title": "C2C Festival",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://dice.fm/event/ww5vvn-c2c-festival-2026-day-1-thu-29th-oct-ogr-torino-torino-tickets",
+  "source": "https://dice.fm/event/ww5vvn-c2c-festival-2026-day-1-thu-29th-oct-ogr-torino-torino-tickets"
+ }
+]

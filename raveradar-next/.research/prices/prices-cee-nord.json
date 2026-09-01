@@ -1,0 +1,222 @@
+[
+ {
+  "id": 210,
+  "title": "Bonfire Festival",
+  "price": 1495,
+  "currency": "kr",
+  "priceNote": null,
+  "ticketUrl": "https://www.bonfirefestival.se/biljetter/18-2/",
+  "source": "https://www.bonfirefestival.se/biljetter/18-2/",
+  "note": "pass le moins cher reellement vendu (Basic 18+), 1495 kr ; le pass complet monte a 3495 kr"
+ },
+ {
+  "id": 584,
+  "title": "Kosheen",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://core-event.co/events/kosheen-u-tvornici-kulture-074c",
+  "source": "https://core-event.co/events/kosheen-u-tvornici-kulture-074c",
+  "note": "early bird 35 EUR, galerie VIP 55 EUR ; la Croatie est en zone euro depuis 2023"
+ },
+ {
+  "id": 545,
+  "title": "Faithless",
+  "price": 59,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.livenation.fi/en/event/faithless-live-uk-orkidea-helsinki-tickets-edp1669382",
+  "source": "https://www.rumba.fi/uutiset/faithless-saapuu-suomeen/",
+  "note": "tarif d'entree annonce, 59 EUR service compris ; la page Live Nation affiche desormais 'sold out' pour les deux categories"
+ },
+ {
+  "id": 241,
+  "title": "MAYDAY Poland 2026 : Iconic",
+  "price": 339,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://sklep.mayday.pl/pl/mayday-poland/519-e-ticket-mayday-poland-2026.html",
+  "source": "https://sklep.mayday.pl/pl/mayday-poland/519-e-ticket-mayday-poland-2026.html",
+  "note": "e-billet 339 zl sur la boutique officielle ; billet collector VIP 749 zl"
+ },
+ {
+  "id": 117,
+  "title": "Unsound Warsaw – Soft Power",
+  "price": 750,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "source": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "note": "WARSZAWA PASS 750 zl (3 au 6 octobre) ; pass combine Varsovie-Cracovie 1 200 zl ; billets a l'unite a partir de 70 zl"
+ },
+ {
+  "id": 123,
+  "title": "Unsound Kraków – Soft Power",
+  "price": 750,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "source": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "note": "KRAKOW PASS 750 zl (8 au 11 octobre) ; CLUB PASS 390 zl pour les trois nuits club des 8 au 10 octobre"
+ },
+ {
+  "id": 227,
+  "title": "Jasna 1 : Donato Dozzy x Unsound",
+  "price": 79,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://www.unsound.pl/en/2026/warszawa-krakow/schedule",
+  "source": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "note": "J1 x Unsound Soft Launch Party, 2 octobre, Jasna 1 : 'od 79 zl' au programme officiel d'Unsound"
+ },
+ {
+  "id": 239,
+  "title": "Iceland Airwaves",
+  "price": 11400,
+  "currency": "kr",
+  "priceNote": null,
+  "ticketUrl": "https://icelandairwaves.is/tickets/",
+  "source": "https://icelandairwaves.is/tickets/",
+  "note": "day pass 11 400 ISK, le tarif d'entree le plus bas reellement vendu ; le pass 3 jours est a 16 900 ISK. Montant en couronnes islandaises, non converti"
+ },
+ {
+  "id": 731,
+  "title": "Technostate BIGBANG Halloween",
+  "price": 500,
+  "currency": "kr",
+  "priceNote": null,
+  "ticketUrl": "https://technostate.se/event/technostate-big-bang-halloween/",
+  "source": "https://technostate.se/event/technostate-big-bang-halloween/",
+  "note": "'from 500 SEK' sur la page officielle de l'organisateur ; categorie VIP On Stage au-dessus"
+ },
+ {
+  "id": 258,
+  "title": "Pohoda Festival",
+  "price": 149,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://shop.pohodafestival.sk/en/tickets-2027",
+  "source": "https://shop.pohodafestival.sk/en/tickets-2027",
+  "note": "pass 3 jours adulte 149 EUR, camping compris (junior 109, enfant 69) ; boutique officielle"
+ },
+ {
+  "id": 877,
+  "title": "UNTOLD",
+  "price": 865,
+  "currency": "lei",
+  "priceNote": null,
+  "ticketUrl": "https://tickets.untold.com/",
+  "source": "https://tickets.untold.com/",
+  "note": "GA 4 jours Phase 3 a 864,66 lei sur la billetterie officielle (iaBilet). La Phase 1 a 719,34 lei est sold out, le tarif moins de 25 ans (719,34) et le tarif carte UNTOLD x BT x VISA (522,79) sont conditionnels. Le 1 809,24 lei barre est le prix final estime au moment du festival"
+ },
+ {
+  "id": 162,
+  "title": "Ultra Europe",
+  "price": 199,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://ultraeurope.com/tickets/",
+  "source": "https://ultraeurope.com/tickets/",
+  "note": "GA 3 jours 199 EUR, hors frais de service ; VIP 399, Fan Pit 299. Croatie en zone euro"
+ },
+ {
+  "id": 656,
+  "title": "Kapital Festival",
+  "price": 354,
+  "currency": "lei",
+  "priceNote": null,
+  "ticketUrl": "https://www.iabilet.ro/bilete-kapital-festival-124238/",
+  "source": "https://www.iabilet.ro/bilete-kapital-festival-124238/",
+  "note": "GA 3 jours Phase 1 a 353,95 lei sur iaBilet, billetterie officielle. Le 1 083,52 lei affiche barre est le prix final estime au moment du festival, pas le tarif en vente"
+ },
+ {
+  "id": 255,
+  "title": "Roskilde Festival",
+  "price": 2616,
+  "currency": "kr",
+  "priceNote": "estimated",
+  "ticketUrl": "https://www.roskilde-festival.dk/en/tickets/",
+  "source": "https://www.roskilde-festival.dk/en/tickets/",
+  "note": "le pass complet est sold out et le site n'affiche plus que le Smart Ticket, 8 mensualites de 327 DKK plus 100 DKK de frais. 2 616 DKK est donc la somme des mensualites, pas un montant lu tel quel : garde en 'estimated'. Le catalogue portait 320 EUR, monnaie erronee pour le Danemark"
+ },
+ {
+  "id": 548,
+  "title": "Tama Season Opening",
+  "price": 59,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "source": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "note": "'Tama Season Opening: GENESI | PLUS2 | SICK', ven. 18.09 23:00, bilety od 59 zl"
+ },
+ {
+  "id": 557,
+  "title": "Obsession - Kozlov, Luciid & Vendex",
+  "price": 99,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/obsession-kzlv-luciid-vendex-33019",
+  "source": "https://biletomat.pl/wydarzenia/obsession-kzlv-luciid-vendex-33019",
+  "note": "ven. 25.09 22:00, 'od 99 zl' sur la page de l'evenement ; derniers billets"
+ },
+ {
+  "id": 586,
+  "title": "Chris Avantgarde au Tama",
+  "price": 70,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://www.biletomat.pl/bilety/tama-chris-avantgarde-poznan-66278/",
+  "source": "https://www.biletomat.pl/bilety/tama-chris-avantgarde-poznan-66278/",
+  "note": "ven. 09.10 23:00, bilety od 70 zl"
+ },
+ {
+  "id": 597,
+  "title": "Pegassi au Tama",
+  "price": 119,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/tama-pegassi-32459",
+  "source": "https://biletomat.pl/wydarzenia/tama-pegassi-32459",
+  "note": "ven. 16.10 23:30, 'od 119 zl' sur la page de l'evenement"
+ },
+ {
+  "id": 604,
+  "title": "Sub Zero Project au Tama",
+  "price": 99,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/tama-sub-zero-project-32458",
+  "source": "https://biletomat.pl/wydarzenia/tama-sub-zero-project-32458",
+  "note": "sam. 17.10 23:00, 'od 99 zl' sur la page de l'evenement ; derniers billets"
+ },
+ {
+  "id": 610,
+  "title": "Worakls au Tama",
+  "price": 59,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "source": "https://biletomat.pl/wydarzenia/w/poznan/w/klub-tama",
+  "note": "ven. 23.10 23:00, bilety od 59 zl"
+ },
+ {
+  "id": 723,
+  "title": "Stereo MCs · Kino Šiška",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "http://www.kinosiska.si/en/dogodek/stereo-mcs/",
+  "source": "http://www.kinosiska.si/en/dogodek/stereo-mcs/",
+  "note": "prevente 39 EUR, sur place 45 EUR, tarif reduit 29,25 EUR ; Slovenie en zone euro"
+ },
+ {
+  "id": 587,
+  "title": "Autechre à Cukrarna",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.mojekarte.si/en/autechre/tickets-1208304.html",
+  "source": "https://www.mojekarte.si/en/autechre/tickets-1208304.html",
+  "note": "billet 40 EUR (plus 1 EUR de frais) sur mojekarte.si, la billetterie du MGML. La date est vendue comme 'Festival Indigo - 3. dan (Autechre + gostje)', 09.10.2026 a 22:00 ; un pass 3 jours du festival Indigo existe par ailleurs"
+ }
+]
