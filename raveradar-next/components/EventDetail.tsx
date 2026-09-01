@@ -23,6 +23,7 @@ import { guideFor, guideParentOf, pick } from "@/lib/guides";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { eventSocials, sameAs } from "@/lib/socials";
 import { breadcrumbJsonLd, eventJsonLd, faqJsonLd } from "@/lib/seo";
+import { eventCopy, inCountry } from "@/lib/pagecopy";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -81,6 +82,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
     .filter((x) => x.id !== e.id && x.country === e.country && !related.some((r) => r.id === x.id))
     .slice(0, 6);
 
+  /* Le contexte et la FAQ engendrés depuis le catalogue. Une fiche portant un guide
+     a déjà son intro longue et sa FAQ écrites à la main : les redoubler mettrait deux
+     réponses concurrentes sur la même page. Voir `lib/pagecopy.ts` pour la règle. */
+  const copy = guide ? null : eventCopy(e, lang, { next, today });
+
   const trail: [string, string][] = [
     [t("nav.explore"), "/explore"],
     [e.title, eventPath(e)],
@@ -98,7 +104,11 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
             sameAs: social?.from === "event" ? sameAs(social.s) : undefined,
           }),
           breadcrumbJsonLd(trail, lang),
-          ...(guide ? [faqJsonLd(guide.faq.map((f) => [pick(f.q, lang), pick(f.a, lang)] as [string, string]))] : []),
+          ...(guide
+            ? [faqJsonLd(guide.faq.map((f) => [pick(f.q, lang), pick(f.a, lang)] as [string, string]))]
+            : copy
+              ? [faqJsonLd(copy.faq)]
+              : []),
         ]}
       />
       <div className="blob b1" />
@@ -194,9 +204,19 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     ))}
                   </div>
                 ) : (
-                  <p className="lead" style={{ fontSize: "1rem" }}>
-                    {eventDescL(e, lang)}
-                  </p>
+                  <>
+                    <p className="lead" style={{ fontSize: "1rem" }}>
+                      {eventDescL(e, lang)}
+                    </p>
+                    {/* Ce que la description de l'organisateur ne dit jamais : la date
+                        en toutes lettres, la salle, la taille de l'affiche et la place
+                        de cette date dans la saison. Engendré, donc jamais périmé. */}
+                    {copy && (
+                      <p className="lead" style={{ fontSize: ".95rem", marginTop: 12 }}>
+                        {copy.context}
+                      </p>
+                    )}
+                  </>
                 )}
               </div>
 
@@ -210,7 +230,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <div className="lineup">
                   {e.lineup.map((a, i) => {
                     /* Le line-up est l'endroit du site où l'on regarde le plus des noms
-                       d'artistes — c'est donc le premier où le portrait doit apparaître.
+                       d'artistes, c'est donc le premier où le portrait doit apparaître.
                        Le slug est celui de `buildArtists()`, donc `artistPhoto()` tombe
                        sur la même clé que la fiche vers laquelle la carte pointe. */
                     const slug = slugify(a.trim());
@@ -345,6 +365,27 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
           {guide && <FestivalGuide guide={guide} e={e} lang={lang} today={today} />}
 
+          {copy && copy.faq.length > 0 && (
+            <>
+              <div className="divider" />
+              <h2 className="h-md" style={{ marginBottom: 24 }}>
+                {t("copy.faqevent").replace("{t}", e.title)}
+              </h2>
+              <div className="grid grid-2">
+                {copy.faq.map(([q, a]) => (
+                  <div className="info-card" key={q}>
+                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                      {q}
+                    </h3>
+                    <p className="lead" style={{ fontSize: ".95rem" }}>
+                      {a}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+
           {older.length > 0 && (
             <>
               <div className="divider" />
@@ -379,7 +420,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           {sameCountry.length > 0 && (
             <>
               <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("event.morein")} {countryLabel(e.country, lang)}
+                {t("event.morein")} {inCountry(e.country, lang)}
               </h2>
               <div className="linkfarm">
                 {sameCountry.map((x) => (
