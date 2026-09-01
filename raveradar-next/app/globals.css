@@ -547,9 +547,33 @@ select.input option { background: var(--anthracite); }
 
 /* ----------------------------- MAP ------------------------------------- */
 #map { height: 72vh; border-radius: var(--r-lg); border: 1px solid var(--line); overflow: hidden; z-index: 1; }
-.leaflet-popup-content-wrapper { background: var(--anthracite); color: var(--white); border-radius: var(--r-md); border: 1px solid var(--violet); }
-.leaflet-popup-tip { background: var(--anthracite); }
-.leaflet-container { background: #06070b; font-family: var(--f-body); }
+/* MapLibre remplace Leaflet depuis la fermeture des tuiles publiques de CARTO
+   (voir lib/basemap.ts) : mêmes surcharges, autres noms de classes. */
+.maplibregl-map { background: #06070b; font-family: var(--f-body); }
+.maplibregl-popup-content {
+  background: var(--anthracite); color: var(--white);
+  border-radius: var(--r-md); border: 1px solid var(--violet); padding: 12px 14px;
+}
+/* La flèche du popup est un triangle en bordure : seul le côté tourné vers la
+   bulle est coloré, et il change avec l'ancrage. Les huit cas, sinon la flèche
+   disparaît dès que le popup bascule en haut ou sur le côté. */
+.maplibregl-popup-anchor-top .maplibregl-popup-tip,
+.maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+.maplibregl-popup-anchor-top-right .maplibregl-popup-tip { border-bottom-color: var(--violet); }
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+.maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+.maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip { border-top-color: var(--violet); }
+.maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: var(--violet); }
+.maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: var(--violet); }
+/* Commandes et attribution, au ton du site plutôt qu'au blanc par défaut. */
+.maplibregl-ctrl-group { background: var(--anthracite); border: 1px solid var(--line); }
+.maplibregl-ctrl-group button + button { border-top: 1px solid var(--line); }
+.maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
+.maplibregl-ctrl-group button:not(:disabled):hover { background: var(--anthracite-2); }
+.maplibregl-ctrl-attrib { background: rgba(10, 10, 14, .78) !important; color: var(--grey); font-size: .68rem; }
+.maplibregl-ctrl-attrib a { color: var(--grey); }
+.maplibregl-ctrl-attrib-button { filter: invert(1); }
+.maplibregl-marker { cursor: pointer; }
 .map-pin {
   width: 18px; height: 18px; border-radius: 50%; background: var(--grad-main);
   box-shadow: var(--glow-magenta); border: 2px solid #fff; animation: pulse 2s infinite;
