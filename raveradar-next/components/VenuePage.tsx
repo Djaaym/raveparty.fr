@@ -3,12 +3,13 @@ import ArtistPill from "./ArtistPill";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL, cardEvent } from "@/lib/data";
-import { VENUES, venueBySlug, eventsForVenue } from "@/lib/venues";
+import { VENUES, venueBySlug, eventsForVenue, venueGenres, venueKind, venueRegulars } from "@/lib/venues";
 import { showsForVenue } from "@/lib/shows";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { sameAs, venueSocials } from "@/lib/socials";
-import { breadcrumbJsonLd, venueJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, venueJsonLd } from "@/lib/seo";
+import { venueCopy } from "@/lib/pagecopy";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -28,7 +29,11 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
   const events = eventsForVenue(slug);
   const live = events.filter((e) => !isPast(e, today));
   const done = events.filter((e) => isPast(e, today));
-  const genres = [...new Set(events.flatMap((e) => e.genres))];
+  /* Le classement pondéré, pas l'union brute : une salle qui accueille un festival
+     étiqueté sur huit styles se retrouvait étiquetée sur les huit, exactement le
+     défaut que `rankGenres()` corrige déjà sur les fiches artiste. */
+  const genres = venueGenres(venue);
+  const regulars = venueRegulars(venue, 6).map((r) => r.name);
   // Every artist who has played or will play here, the venue↔artist mesh.
   const artists = [...new Map(showsForVenue(slug).map((s) => [s.artistSlug, s])).values()].slice(0, 30);
   const sameCity = VENUES.filter((v) => v.slug !== venue.slug && v.city === venue.city);
@@ -43,6 +48,13 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
       ? `Tout l'agenda de ${name} à ${venue.city} : ${live.length} date${live.length > 1 ? "s" : ""} à venir, line-ups, horaires et billetterie officielle.`
       : `The full agenda for ${name} in ${venue.city}: ${live.length} upcoming date${live.length > 1 ? "s" : ""}, line-ups, times and official ticketing.`;
 
+  /* Les requêtes qui atteignent ces pages sont presque toutes des demandes de
+     programme (« ritter butzke programm », « maassilo agenda », « programme
+     transbordeur ») : la page doit y répondre en toutes lettres, pas seulement
+     afficher une grille. Aucune adresse postale n'est écrite, le catalogue stocke
+     des coordonnées et pas une rue. */
+  const copy = venueCopy(venue, lang, { name, live, done, genres, regulars, kind: venueKind(venue) });
+
   const trail: [string, string][] = [
     [t("nav.venues"), "/lieux"],
     [name, `/lieux/${venue.slug}`],
@@ -54,6 +66,7 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
         data={[
           venueJsonLd({ ...venue, name }, live, lang, sameAs(social)),
           breadcrumbJsonLd(trail, lang),
+          faqJsonLd(copy.faq),
         ]}
       />
       <div className="blob b1" />
@@ -69,6 +82,9 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
             {name}
           </h1>
           <p className="lead">{intro}</p>
+          <p className="lead" style={{ fontSize: ".95rem" }}>
+            {copy.context}
+          </p>
 
           <div className="linkfarm" style={{ marginTop: 18 }}>
             {place && <Link href={`${p}/rave-party/${place.slug}`}>📍 Rave party {place.label}</Link>}
@@ -122,6 +138,26 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
                     name={s.artistName}
                     slug={s.artistSlug}
                   />
+                ))}
+              </div>
+            </>
+          )}
+
+          {copy.faq.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("copy.faqvenue").replace("{t}", name)}
+              </h2>
+              <div className="grid grid-2">
+                {copy.faq.map(([q, a]) => (
+                  <div className="info-card" key={q}>
+                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                      {q}
+                    </h3>
+                    <p className="lead" style={{ fontSize: ".95rem" }}>
+                      {a}
+                    </p>
+                  </div>
                 ))}
               </div>
             </>

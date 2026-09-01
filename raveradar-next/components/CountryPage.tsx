@@ -7,6 +7,7 @@ import { PLACES } from "@/lib/places";
 import { VENUES } from "@/lib/venues";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
+import { countryCopy, inCountry } from "@/lib/pagecopy";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -36,12 +37,15 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
   const localVenues = VENUES.filter((v) => v.country === country.name).slice(0, 24);
   const others = COUNTRIES_INDEX.filter((c) => c.slug !== country.slug);
 
+  /* « aux Pays-Bas », pas « en Pays-Bas » : voir `inCountry()`. */
+  const where = inCountry(country.name, lang);
+
   const intro =
     lang === "fr"
-      ? `${live.length} événement${live.length > 1 ? "s" : ""} de musique électronique à venir en ${label}${
+      ? `${live.length} événement${live.length > 1 ? "s" : ""} de musique électronique à venir ${where}${
           cities.length ? `, ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
         }. Festivals, clubs et warehouses : dates, line-ups et billetterie officielle, mis à jour en continu.`
-      : `${live.length} upcoming electronic music event${live.length > 1 ? "s" : ""} in ${label}${
+      : `${live.length} upcoming electronic music event${live.length > 1 ? "s" : ""} ${where}${
           cities.length ? `, ${cities.slice(0, 6).join(", ")}${cities.length > 6 ? "…" : ""}` : ""
         }. Festivals, clubs and warehouses: dates, line-ups and official ticketing, updated continuously.`;
 
@@ -49,19 +53,19 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
     lang === "fr"
       ? [
           [
-            `Quels sont les meilleurs festivals techno en ${label} ?`,
+            `Quels sont les meilleurs festivals techno ${where} ?`,
             live.length
               ? `Les prochaines dates référencées sont ${live
                   .slice(0, 5)
                   .map((e) => e.title)
                   .join(", ")}. Chaque fiche donne les dates, le line-up et le lien vers la billetterie officielle.`
-              : `Aucune date n'est confirmée en ${label} pour le moment. Les éditions passées restent consultables et une alerte te prévient dès qu'une nouvelle date tombe.`,
+              : `Aucune date n'est confirmée ${where} pour le moment. Les éditions passées restent consultables et une alerte te prévient dès qu'une nouvelle date tombe.`,
           ],
           [
-            `Dans quelles villes sortir en ${label} ?`,
+            `Dans quelles villes sortir ${where} ?`,
             cities.length
               ? `On référence des événements à ${cities.slice(0, 8).join(", ")}. Chaque ville a sa propre page avec l'agenda complet.`
-              : `Pas encore de ville couverte en ${label}.`,
+              : `Pas encore de ville couverte ${where}.`,
           ],
           [
             `Comment acheter ses billets ?`,
@@ -70,25 +74,32 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
         ]
       : [
           [
-            `What are the best techno festivals in ${label}?`,
+            `What are the best techno festivals ${where}?`,
             live.length
               ? `The next listed dates are ${live
                   .slice(0, 5)
                   .map((e) => e.title)
                   .join(", ")}. Each listing has the dates, the line-up and a link to official ticketing.`
-              : `No dates are confirmed in ${label} right now. Past editions stay browsable and an alert will tell you when a new date drops.`,
+              : `No dates are confirmed ${where} right now. Past editions stay browsable and an alert will tell you when a new date drops.`,
           ],
           [
-            `Which cities should I go out in in ${label}?`,
+            `Which cities should I go out ${where}?`,
             cities.length
               ? `We list events in ${cities.slice(0, 8).join(", ")}. Each city has its own page with the full agenda.`
-              : `No city covered in ${label} yet.`,
+              : `No city covered ${where} yet.`,
           ],
           [
             `How do I buy tickets?`,
             `Every listing links to the promoter's official ticket shop. We never show resale, and the price shown is the lowest known entry price, flagged as indicative until it is confirmed.`,
           ],
         ];
+
+  /* Ce que la page ne disait pas : la saison (quand les dates se concentrent), les
+     salles qui portent le calendrier, la part des festivals. Tout se calcule sur le
+     catalogue du pays, donc rien à re-vérifier. Les questions engendrées viennent
+     après celles écrites ici, qui restent les plus générales. */
+  const copy = countryCopy(lang, { name: country.name, label, live, past, cities, genres });
+  const allFaq = [...faq, ...copy.faq];
 
   const trail: [string, string][] = [
     [t("nav.countries"), "/pays"],
@@ -100,7 +111,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
       <JsonLd
         data={[
           breadcrumbJsonLd(trail, lang),
-          faqJsonLd(faq),
+          faqJsonLd(allFaq),
           itemListJsonLd(events, lang, `${t("country.h1")} ${label}`, today),
         ]}
       />
@@ -114,6 +125,9 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
             {flag} {t("country.h1")} <span className="gradient-text">{label}</span>
           </h1>
           <p className="lead">{intro}</p>
+          <p className="lead" style={{ fontSize: ".95rem" }}>
+            {copy.context}
+          </p>
 
           <AlertForm lang={lang} kind="country" value={country.slug} label={label} />
 
@@ -206,7 +220,7 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
             {t("city.faq")}
           </h2>
           <div className="grid grid-2">
-            {faq.map(([q, a]) => (
+            {allFaq.map(([q, a]) => (
               <div className="info-card" key={q}>
                 <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
                   {q}

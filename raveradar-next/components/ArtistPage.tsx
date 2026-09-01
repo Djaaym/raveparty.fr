@@ -8,7 +8,8 @@ import { countryLabel, genreSlug, isPast, slugify, todayISO, cardEvent } from "@
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { artistSocials, sameAs } from "@/lib/socials";
-import { artistJsonLd, breadcrumbJsonLd } from "@/lib/seo";
+import { artistJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
+import { artistCopy } from "@/lib/pagecopy";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -60,6 +61,14 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
         ? `${artist.name} is booked for ${live.length} upcoming date${live.length > 1 ? "s" : ""} listed on RaveRadar (${countries}). Browse the festivals, line-ups and tickets.`
         : `${artist.name} has no upcoming dates listed on RaveRadar right now (${countries}). Their latest appearances are below, set an alert to hear about the next one.`;
 
+  /* La suite du texte, engendrée depuis le calendrier : la prochaine date en toutes
+     lettres, les villes, et une FAQ. L'introduction ci-dessus annonce un nombre de
+     dates, elle ne dit pas laquelle est la prochaine ni où, ce qui est pourtant la
+     requête qu'on tape (« amelie lens agenda », « angerfist tour »). L'origine n'est
+     reprise que d'une bio sourcée : la déduire du calendrier serait une affirmation
+     inventée sur une personne réelle. */
+  const copy = artistCopy(artist, lang, { live, done, genres, subs, origin: bio?.origin });
+
   const trail: [string, string][] = [
     [t("nav.artists"), "/artistes"],
     [artist.name, `/artistes/${artist.slug}`],
@@ -71,6 +80,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
         data={[
           artistJsonLd(artist.name, artist.slug, live, lang, sameAs(social), [...genres, ...subs]),
           breadcrumbJsonLd(trail, lang),
+          faqJsonLd(copy.faq),
         ]}
       />
       <div className="blob b1" />
@@ -167,6 +177,9 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
             </p>
           )}
           <p className="lead">{intro}</p>
+          <p className="lead" style={{ fontSize: ".95rem" }}>
+            {copy.context}
+          </p>
 
           <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />
 
@@ -237,6 +250,26 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                   <Link key={c.slug} href={`${p}/rave-party/${c.slug}`}>
                     {artist.name} {c.label}
                   </Link>
+                ))}
+              </div>
+            </>
+          )}
+
+          {copy.faq.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("copy.faqartist").replace("{t}", artist.name)}
+              </h2>
+              <div className="grid grid-2">
+                {copy.faq.map(([q, a]) => (
+                  <div className="info-card" key={q}>
+                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                      {q}
+                    </h3>
+                    <p className="lead" style={{ fontSize: ".95rem" }}>
+                      {a}
+                    </p>
+                  </div>
                 ))}
               </div>
             </>
