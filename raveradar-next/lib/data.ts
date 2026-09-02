@@ -2022,7 +2022,7 @@ const TICKETS: Record<number, string> = {
   124: "https://www.warehouse-nantes.fr/event", // Nantes Rave Techno XXL, Nantes
   125: "https://www.ticketmaster.fr/fr/manifestation/pandemic-w-vortek-and-more-billet/idmanif/666180/idseance/4375635", // Pandemic, Nantes
   126: "https://shotgun.live/fr/events/sonora-bordeaux", // Sonora Bordeaux, Bordeaux
-  127: "https://www.skiddle.com/festivals/amsterdam-dance-event/?sktag=15816", // Amsterdam Dance Event (ADE), Amsterdam
+  127: "https://www.amsterdam-dance-event.nl/en/program/filter/?section=events&type=8262%2C8263&from=2026-10-21&to=2026-10-25", // Amsterdam Dance Event (ADE), Amsterdam
   128: "https://shop.awakenings.com/en/awakenings-ade-2026", // Awakenings ADE – Drumcode, Amsterdam
   129: "https://www.skiddle.com/whats-on/London/Drumsheds/Terminal-V/42579859/?sktag=15816", // Terminal V London, London
   130: "https://www.afaslive.nl/en/agenda/verknipt-ade-special", // Verknipt ADE Special, Amsterdam
@@ -2038,28 +2038,28 @@ const TICKETS: Record<number, string> = {
   140: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/New-Years-Eve-at-The-Warehouse-Project/42596138/?sktag=15816", // The Warehouse Project New Year's Eve, Manchester
   141: "https://www.ctm-festival.de/", // CTM Festival, Berlin
   142: "https://www.rampage.eu/events/rampage-weekend-2027", // Rampage Weekend, Antwerp
-  143: "https://www.skiddle.com/festivals/snowboxx-festival/?sktag=15816", // Snowboxx, Avoriaz
-  144: "https://www.skiddle.com/festivals/tomorrowland-winter/?sktag=15816", // Tomorrowland Winter, Alpe d'Huez
+  143: "https://www.snowboxx.com/", // Snowboxx, Avoriaz
+  144: "https://winter.tomorrowland.com/fr/", // Tomorrowland Winter, Alpe d'Huez
   145: "https://www.reperkusound.com/billetterie/", // Reperkusound, Lyon
-  146: "https://www.skiddle.com/festivals/dgtl-amsterdam/?sktag=15816", // DGTL Amsterdam, Amsterdam
-  147: "https://www.skiddle.com/festivals/time-warp/?sktag=15816", // Time Warp, Mannheim
-  148: "https://www.skiddle.com/festivals/snowbombing/?sktag=15816", // Snowbombing, Mayrhofen
-  149: "https://www.skiddle.com/festivals/mayday-dortmund/?sktag=15816", // Mayday, Dortmund
+  146: "https://dgtl-festival.com/en/dgtl-amsterdam/", // DGTL Amsterdam, Amsterdam
+  147: "https://www.time-warp.de/tickets/", // Time Warp, Mannheim
+  148: "https://snowbombing.com/", // Snowbombing, Mayrhofen
+  149: "https://www.mayday.de/en/tickets", // Mayday, Dortmund
   150: "https://nuits-sonores.com/en/tickets/", // Nuits Sonores, Lyon
   151: "https://insanefestival.com/billetterie/", // Insane Festival, Apt
   152: "https://shotgun.live/fr/festivals/festival-le-bon-air-2027", // Festival Le Bon Air, Marseille
   153: "https://marvellous-island.fr/billetterie/", // Marvellous Island Festival, Torcy
-  154: "https://www.skiddle.com/festivals/awakenings-upclose/?sktag=15816", // Awakenings Upclose, Spaarnwoude
+  154: "https://www.awakenings.com/en/", // Awakenings Upclose, Spaarnwoude
   155: "https://www.namelessfestival.it/en/festival-2027", // Nameless Festival, Lecco
-  156: "https://www.skiddle.com/festivals/sonar/?sktag=15816", // Sónar, Barcelona
+  156: "https://sonar.es/en/tickets", // Sónar, Barcelona
   157: "https://aluna-festival.fr/", // Aluna Festival, Ruoms
-  158: "https://www.skiddle.com/festivals/defqon1/?sktag=15816", // Defqon.1 Weekend Festival, Biddinghuizen
+  158: "https://www.q-dance.com/en/events/defqon-1/defqon-1-2027/", // Defqon.1 Weekend Festival, Biddinghuizen
   159: "https://www.festivalpleinair.fr/billetterie/", // Festival Plein Air, Douai
   160: "https://www.kappafuturfestival.it/en", // Kappa FuturFestival, Turin
-  161: "https://www.skiddle.com/festivals/Awakenings/?sktag=15816", // Awakenings Festival, Hilvarenbeek
+  161: "https://www.awakenings.com/en/", // Awakenings Festival, Hilvarenbeek
   162: "https://ultraeurope.com/tickets/festival/", // Ultra Europe, Split
-  163: "https://www.skiddle.com/festivals/terminal-v-croatia/?sktag=15816", // Terminal V Croatia, Tisno
-  164: "https://www.skiddle.com/festivals/parookaville/?sktag=15816", // Parookaville, Weeze
+  163: "https://terminalv.co.uk/terminal-v-all-events", // Terminal V Croatia, Tisno
+  164: "https://www.parookaville.com/en/tickets", // Parookaville, Weeze
   165: "https://lesnuitssecretes.com/", // Les Nuits Secrètes, Aulnoye-Aymeries
   166: "https://monegrosfestival.com/en", // Monegros Desert Festival, Fraga
   167: "https://croatia.defected.com/", // Defected Croatia, Tisno
@@ -2103,14 +2103,14 @@ const TICKETS: Record<number, string> = {
   205: "https://www.forwardsbristol.co.uk/", // Forwards Festival, Bristol
   206: "https://shine.tickets/events/list", // Emerge Festival, Belfast
   207: "https://www.midix.is/en/extreme-chill-festival-2026-festival-pass/eid/1030", // Extreme Chill Festival, Reykjavík
-  208: "https://www.skiddle.com/festivals/audra-festival/?sktag=15816", // Audra Festival, Kaunas
+  208: "https://ra.co/events/2420148", // Audra Festival, Kaunas
   209: "https://shop.tmw.ee/", // Station Narva, Narva
   210: "https://www.bonfirefestival.se/biljetter/", // Bonfire Festival, Linköping
   211: "https://www.fold.london/tickets", // FOLD presents Bassiani (Extended), London
   212: "https://anka.li/upcoming-events/", // Matrixsport : Club Hel 2, Prague
   213: "https://loftasfest.com/", // Loftas Fest, Vilnius
-  214: "https://www.skiddle.com/festivals/fly-festival-edinburgh/?sktag=15816", // FLY Open Air Edinburgh, Edinburgh
-  215: "https://www.skiddle.com/festivals/Waterworks/?sktag=15816", // Waterworks Festival, London
+  214: "https://www.flyflyfly.co.uk/", // FLY Open Air Edinburgh, Edinburgh
+  215: "https://waterworksfestival.co.uk/", // Waterworks Festival, London
   216: "https://www.skiddle.com/whats-on/Brighton/The-Concorde-2/Todd-Terje/42282543/?sktag=15816", // Todd Terje at Concorde 2, Brighton
   217: "https://ra.co/clubs/109137", // Bassiani: SPANDAU20 Nacht, Tbilisi
   218: "https://www.klub-k4.si/en/", // Klub K4 : ouverture de saison, Ljubljana
@@ -2119,7 +2119,7 @@ const TICKETS: Record<number, string> = {
   221: "https://lunchmeatfestival.cz/2026/", // Lunchmeat Festival, Prague
   222: "https://avafestival.com/london/", // AVA London, London
   223: "https://jaegeroslo.no/events/", // Frædag : Tony Humphries, Oslo
-  224: "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-pres-Luuk-Van-Dijk-Robbie-Doherty--Prunk/42580904/?sktag=15816", // FLY House Heads Glasgow, Glasgow
+  224: "https://swg3.tv/events/", // FLY House Heads Glasgow, Glasgow
   225: "https://culture-box.com/", // Peccāvī : Alex Stein, Copenhagen
   226: "https://www.entrio.hr/en", // Autechre a Tvornica Kulture, Zagreb
   227: "https://jasna1.com/events/", // Jasna 1 : Donato Dozzy x Unsound, Warsaw
@@ -2127,12 +2127,12 @@ const TICKETS: Record<number, string> = {
   229: "https://bilet.bg/en/events/autechre-at-toplocentrala-06-october-2026-7255", // Autechre a Toplocentrala, Sofia
   230: "https://www.clubguesthouse.ro/", // Autechre au Club Guesthouse, Bucharest
   231: "https://www.exist.pl/events/verknipt-warsaw-bilety-2026", // Verknipt Poland - Warsaw, Warsaw
-  232: "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Teletech-JOWI-ALL-NIGHT-LONG---Liverpool/42488463/?sktag=15816", // Teletech Liverpool, Liverpool
+  232: "https://www.teletech.events/events", // Teletech Liverpool, Liverpool
   233: "https://www.skiddle.com/whats-on/Sheffield/TBA---Multiple-Venues-Across-Sheffield-And-Rotherham/No-Bounds-Festival-2026/42470098/?sktag=15816", // No Bounds Festival, Sheffield
   234: "https://insomniafestival.no/tickets/", // Insomnia Festival, Tromsø
   235: "https://www.indexdublin.com/events", // Index: Lane 8, Dublin
   236: "https://culture-box.com/", // Culture Box : Xinobi, Copenhagen
-  237: "https://www.skiddle.com/whats-on/Glasgow/Room-2/Teletech-KIRSTY-All-Night-Long---Glasgow/42566935/?sktag=15816", // Teletech Glasgow, Glasgow
+  237: "https://www.teletech.events/events", // Teletech Glasgow, Glasgow
   238: "https://www.skiddle.com/whats-on/London/Drumsheds/elrow-Horroween-Festival/42570386/?sktag=15816", // Elrow Horroween, London
   239: "https://icelandairwaves.is/tickets/", // Iceland Airwaves, Reykjavík
   240: "https://jasna1.com/events/", // Jasna 1 : 999999999, Warsaw
@@ -2147,13 +2147,13 @@ const TICKETS: Record<number, string> = {
   249: "https://www.teletech.events/events", // Teletech Belfast, Belfast
   250: "https://www.skiddle.com/whats-on/Cardiff/Vaults-Cardiff/Teletech-KIRSTY-All-Night-Long---Cardiff/42567190/?sktag=15816", // Teletech Cardiff, Cardiff
   251: "https://tmw.ee/", // Tallinn Music Week, Tallinn
-  252: "https://www.skiddle.com/festivals/field-day/?sktag=15816", // Field Day, London
+  252: "https://www.fielddayfestivals.com/", // Field Day, London
   253: "https://www.cphdistortion.dk/tickets", // Copenhagen Distortion, Copenhagen
-  254: "https://www.skiddle.com/festivals/gottwood/?sktag=15816", // Gottwood Festival, Anglesey
-  255: "https://www.skiddle.com/festivals/Roskilde/?sktag=15816", // Roskilde Festival, Roskilde
-  256: "https://www.skiddle.com/festivals/hideout/?sktag=15816", // Hideout Festival, Novalja
+  254: "https://www.gottwood.co.uk/", // Gottwood Festival, Anglesey
+  255: "https://www.roskilde-festival.dk/en/tickets/", // Roskilde Festival, Roskilde
+  256: "https://hideoutfestival.com/", // Hideout Festival, Novalja
   257: "https://www.b4l.cz/en/", // Beats for Love, Ostrava
-  258: "https://www.skiddle.com/festivals/pohoda-festival/?sktag=15816", // Pohoda Festival, Trencin
+  258: "https://www.pohodafestival.sk/en", // Pohoda Festival, Trencin
   260: "https://ticketmaster.evyy.net/c/7550075/1965662/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fpepsi-max-presents-parklife-2027-tickets%2Fartist%2F1061343", // Parklife, Manchester
   261: "https://electriccastle.ro/", // Electric Castle, Cluj-Napoca
   262: "https://linktr.ee/shapesfestival", // Shapes Festival Zakynthos, Zakynthos
@@ -2208,7 +2208,7 @@ const TICKETS: Record<number, string> = {
   312: "https://tickets.nordstern.com/en", // Alix Perez au Nordstern, Basel
   314: "https://www.cavoparadiso.gr/", // Deborah De Luca · Cavo Paradiso, Mykonos
   315: "https://lisboa.brunchelectronik.com/", // Brunch Electronik Lisboa #5 · Charlotte de Witte, Lisbon
-  316: "https://www.skiddle.com/festivals/draaimolen/?sktag=15816", // Draaimolen Festival, Tilburg
+  316: "https://www.draaimolen.nu/", // Draaimolen Festival, Tilburg
   317: "https://www.beatpatrol.at/", // Beatpatrol Festival, Vienna
   319: "https://primermusicfestival.com/", // ZAMNA × PRIMER Athens, Athens
   320: "https://www.eternalsunfestival.com/", // Eternal Sun Festival, Sougia
@@ -2218,7 +2218,7 @@ const TICKETS: Record<number, string> = {
   324: "https://www.doornroosje.nl/event/rauwe-kicks-6/", // Rauwe Kicks, Nijmegen
   325: "https://www.intothemadness.de/tickets/", // Into The Madness, Zülpich
   326: "https://tickets.nordstern.com/en", // Teletech x DAY|RAVE, Basel
-  327: "https://www.skiddle.com/festivals/sun-and-bass/?sktag=15816", // SUNANDBASS, San Teodoro
+  327: "https://sunandbass.net/", // SUNANDBASS, San Teodoro
   328: "https://clubbasis.nl/", // BASIS x HARDLINE w/ Alarico, Utrecht
   329: "https://www.smeerboel.nl/", // Smeerboel Festival, Utrecht
   330: "https://www.dissonanzefestival.it/", // Dissonanze, Rome
@@ -2229,7 +2229,7 @@ const TICKETS: Record<number, string> = {
   336: "https://www.vivoconcerti.com/", // Anyma · ÆDEN Global Tour, Milan
   337: "https://bird-rotterdam.nl/agenda/", // 360 Degrees: Jayda G, Rotterdam
   338: "https://dclub.ch/agenda/", // Hard Bounce, Trym, Lausanne
-  339: "https://www.skiddle.com/festivals/beonix-festival/?sktag=15816", // BEONIX Music Festival, Limassol
+  339: "https://beonix.art/", // BEONIX Music Festival, Limassol
   340: "https://maassilo.com/dance/agenda/", // De Interventie – Blackout II, Rotterdam
   341: "https://www.supremacy.nl/nl/tickets", // Supremacy – State of Distortion, 's-Hertogenbosch
   342: "https://www.cavoparadiso.gr/", // Cavo Paradiso Season Closing, Mykonos
@@ -2244,7 +2244,7 @@ const TICKETS: Record<number, string> = {
   351: "https://dclub.ch/agenda/", // Ninja Warriors, Indira Paganotto, Lausanne
   352: "https://maassilo.com/dance/agenda/", // INFERI – Through Hell, Rotterdam
   353: "https://www.megarave.com/", // Megarave – The Millennium Edition, Rotterdam
-  354: "https://www.skiddle.com/festivals/Club-To-Club/?sktag=15816", // C2C Festival, Turin
+  354: "https://clubtoclub.it/", // C2C Festival, Turin
   355: "https://www.hospitalitydnb.com/", // Hospitality Halloween Rotterdam x Korsakov, Rotterdam
   356: "https://tickets.nordstern.com/en/c/boris-brejcha-bernexpo-2094", // Boris Brejcha à Bernexpo, Bern
   357: "https://www.fuse.be/events", // Fuse presents Silva Bumpa, Brussels
@@ -2261,7 +2261,7 @@ const TICKETS: Record<number, string> = {
   368: "https://poolen.dk/en/koncerter/sub-focus/", // Sub Focus, Copenhagen
   369: "https://liquicity.com/events/liquicity-ghent-2026/", // Liquicity Ghent, Ghent
   370: "https://www.toffler.nl/indoor-festival/", // Toffler Indoor Festival – 15 Years, Rotterdam
-  371: "https://www.skiddle.com/festivals/dalma-festival/?sktag=15816", // Dalma Festival, Attard
+  371: "https://www.dalmafestival.com/", // Dalma Festival, Attard
   372: "https://www.toxicator.de/tickets", // Toxicator, Mannheim
   373: "https://raveonsnow.ticket.io/", // Rave on Snow, Saalbach-Hinterglemm
   374: "https://tickets.nordstern.com/en", // Azyr au Nordstern, Basel
@@ -2275,16 +2275,16 @@ const TICKETS: Record<number, string> = {
   382: "https://www.rewirefestival.nl/tickets", // Rewire, The Hague
   383: "https://malta.rongevents.com/", // Rong Open Air Festival Malta, St Paul's Bay
   384: "https://ssfestivalmalta.com/", // Sunny Side Festival, Attard
-  385: "https://www.skiddle.com/festivals/the-extrema-outdoor-belgium-festival/?sktag=15816", // Extrema Outdoor Belgium, Houthalen-Helchteren
+  385: "https://www.extrema.be/en/", // Extrema Outdoor Belgium, Houthalen-Helchteren
   386: "https://www.sputnik-springbreak-shop.de/tickets/sputnik_springbreak_festival_2027", // Sputnik Spring Break, Pouch
   387: "https://tofflerfestival.nl/", // Toffler Festival, Rotterdam
-  388: "https://www.skiddle.com/festivals/intents-festival/?sktag=15816", // Intents Festival, Oisterwijk
-  389: "https://www.skiddle.com/festivals/world-club-dome-/?sktag=15816", // World Club Dome, Frankfurt
-  390: "https://www.skiddle.com/festivals/ikarus-festival/?sktag=15816", // Ikarus Festival, Memmingen
+  388: "https://www.intentsfestival.nl/en/", // Intents Festival, Oisterwijk
+  389: "https://www.worldclubdome.com/en/tickets", // World Club Dome, Frankfurt
+  390: "https://www.ikarus-festival.de/tickets/", // Ikarus Festival, Memmingen
   391: "https://www.palmesus.com/", // Palmesus, Kristiansand
   392: "https://www.ruhr-in-love.de/tickets", // Ruhr-in-Love, Oberhausen
-  393: "https://www.skiddle.com/festivals/airbeat-one/?sktag=15816", // Airbeat One, Neustadt-Glewe
-  394: "https://www.skiddle.com/festivals/electric-love-festival/?sktag=15816", // Electric Love Festival, Salzburg
+  393: "https://airbeat-one.de/tickets/", // Airbeat One, Neustadt-Glewe
+  394: "https://www.electriclove.at/en/ticket/", // Electric Love Festival, Salzburg
   395: "https://www.ostendbeach.be/en/", // Ostend Beach Festival, Ostend
   396: "https://www.boomfestival.org/", // Boom Festival, Idanha-a-Nova
   397: "https://ortigiamusic.com/", // ortigia music, Syracuse
@@ -2295,7 +2295,7 @@ const TICKETS: Record<number, string> = {
   413: "https://www.fnacspectacles.com/", // Folamour à l'Interférence, Balma
   428: "https://www.positiveeducation.fr/", // Positive Education Festival, Saint-Étienne
   435: "https://dystopia-festival.com/en/saint-etienne/", // Dystopia Festival, Saint-Étienne
-  436: "https://www.skiddle.com/festivals/rise-festival/?sktag=15816", // Rise Festival, Les Deux Alpes
+  436: "https://www.rise-festival.com/", // Rise Festival, Les Deux Alpes
   442: "https://www.warehouse-nantes.fr/event", // The Avener au Warehouse, Nantes
   448: "https://www.transbordeur.fr/", // NTO Live au Transbordeur, Villeurbanne
   449: "https://www.fnacspectacles.com/", // NTO Live à La Laiterie, Strasbourg
@@ -2308,31 +2308,31 @@ const TICKETS: Record<number, string> = {
   461: "https://www.thuishaven.nl/", // Kolter 10HRS à Thuishaven, Amsterdam
   462: "https://www.thuishaven.nl/", // Menesix 10HRS à Thuishaven, Amsterdam
   463: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Rampa--Me/42567480/?sktag=15816", // The Warehouse Project: Rampa + &ME, Manchester
-  464: "https://www.skiddle.com/whats-on/London/Drumsheds/Defected-London/42420725/?sktag=15816", // Defected London, London
-  465: "https://www.skiddle.com/festivals/Homobloc/?sktag=15816", // The Warehouse Project: Homobloc, Manchester
-  466: "https://www.skiddle.com/whats-on/London/Drumsheds/Continental-GT-STEPPERS-Drumsheds-London/42618847/?sktag=15816", // Steppers at Drumsheds, London
+  464: "https://drumshedslondon.com/whats-on/", // Defected London, London
+  465: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Homobloc, Manchester
+  466: "https://drumshedslondon.com/whats-on/", // Steppers at Drumsheds, London
   467: "https://www.thuishaven.nl/", // Zomerclosing à Thuishaven, Amsterdam
-  468: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/YouMe---Friday/42394960/?sktag=15816", // The Warehouse Project: You&Me – Friday, Manchester
+  468: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: You&Me – Friday, Manchester
   469: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/YouMe/42394965/?sktag=15816", // The Warehouse Project: You&Me – Saturday, Manchester
   470: "https://www.skiddle.com/whats-on/London/Drumsheds/NEXUP-The-Return/42570855/?sktag=15816", // NexUp: The Return, London
   471: "https://www.thuishaven.nl/", // IOSIO 10HRS à Thuishaven, Amsterdam
   472: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Worried-About-Henry/42567474/?sktag=15816", // The Warehouse Project: Worried About Henry, Manchester
   473: "https://www.skiddle.com/whats-on/London/Drumsheds/Dont-Let-Daddy-Know/42478225/?sktag=15816", // Don't Let Daddy Know London, London
-  474: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Interplanetary-Criminal-presents/42394956/?sktag=15816", // The Warehouse Project: Interplanetary Criminal, Manchester
+  474: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Interplanetary Criminal, Manchester
   475: "https://www.skiddle.com/whats-on/London/Drumsheds/Bugged-Out-2001--On/42603964/?sktag=15816", // Bugged Out: 2001&On…, London
   476: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-DOOF---Hannah-Laing--Guests/42286363/?sktag=15816", // The Warehouse Project: doof – Hannah Laing, Manchester
   477: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Alisha, Manchester
-  478: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Duke-Dumont/42394967/?sktag=15816", // The Warehouse Project: Duke Dumont, Manchester
+  478: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Duke Dumont, Manchester
   479: "https://www.skiddle.com/whats-on/London/Drumsheds/False-Idols/42641186/?sktag=15816", // False Idols at Drumsheds, London
-  480: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/NeXup/42567289/?sktag=15816", // The Warehouse Project: NexUp, Manchester
-  481: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/KETTAMA-presents-Steel-City-Dance-Discs/42616464/?sktag=15816", // The Warehouse Project: Kettama – Steel City Dance Discs, Manchester
+  480: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: NexUp, Manchester
+  481: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Kettama – Steel City Dance Discs, Manchester
   482: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/La-Discotheque-Festival-Manchester/42613408/?sktag=15816", // The Warehouse Project: La Discothèque, Manchester
   483: "https://www.skiddle.com/whats-on/London/Drumsheds-London/WAH-Drumsheds-2026--Wilkinson--40-more-artists/42604390/?sktag=15816", // Worried About Henry London, London
   484: "https://www.skiddle.com/whats-on/London/Drumsheds/La-Discothque/42610255/?sktag=15816", // La Discothèque 10th Anniversary, London
   485: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Eastenderz-Manchester/42614315/?sktag=15816", // The Warehouse Project: EastEnderz, Manchester
   486: "https://drumshedslondon.com/whats-on/", // FUSE 18th Birthday, London
-  487: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/The-Haienda-Manchester/42682081/?sktag=15816", // The Warehouse Project: FAC51 The Haçienda, Manchester
-  488: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-Presents-Tisto/42394958/?sktag=15816", // The Warehouse Project: Tiësto, Manchester
+  487: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: FAC51 The Haçienda, Manchester
+  488: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Tiësto, Manchester
   489: "https://renate.cc/", // The Village Festival Berlin, Berlin
   490: "https://bootshaus.tv/events/", // R3HAB au Bootshaus, Cologne
   491: "https://bootshaus.tv/events/", // Bootshaus Sommerfest, Cologne
@@ -2420,10 +2420,10 @@ const TICKETS: Record<number, string> = {
   587: "https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic", // Autechre à Cukrarna, Ljubljana
   589: "https://ticketsibiza.com/event/glitterbox-closing-party-amnesia-2026-10-09/", // Glitterbox Closing Party, Ibiza
   590: "https://jaegeroslo.no/events/", // Frædag: Octave One, Oslo
-  591: "https://www.skiddle.com/whats-on/Glasgow/SWG3/doof-Presents-The-Rocketman---Glasgow/42589337/?sktag=15816", // SWG3: The Rocketman All Night Long, Glasgow
+  591: "https://swg3.tv/events", // SWG3: The Rocketman All Night Long, Glasgow
   592: "https://www.warehouse-nantes.fr/event", // The Ring x Club de Jour, Nantes
   593: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Kerri Chandler, Barcelona
-  594: "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--Silva-Bumpa--Glasgow/42617437/?sktag=15816", // FLY: Silva Bumpa Glasgow, Glasgow
+  594: "https://swg3.tv/events", // FLY: Silva Bumpa Glasgow, Glasgow
   595: "https://www.fnacspectacles.com/", // La P'tite Fumée au Warehouse, Nantes
   596: "https://www.roxy.cz/en/events/detail/5089/camelphat", // CamelPhat au Roxy, Prague
   597: "https://zalogarave.pl/kluby/poznan/tama", // Pegassi au Tama, Poznań
@@ -2471,7 +2471,7 @@ const TICKETS: Record<number, string> = {
   655: "https://ticketmaster.evyy.net/c/7550075/1958958/23890?u=https%3A%2F%2Fwww.ticketmaster.de%2Fevent%2Ftmf-trier-music-festival-2027-tickets%2F1792096039", // TMF, Trier Music Festival, Trier
   656: "https://www.iabilet.ro/bilete-kapital-festival-124238/", // Kapital Festival, Bucharest
   657: "https://openbeatz.de/en/tickets/", // Open Beatz Festival, Herzogenaurach
-  658: "https://www.skiddle.com/festivals/nature-one-festival/?sktag=15816", // Nature One, Kastellaun
+  658: "https://www.nature-one.de/en/tickets", // Nature One, Kastellaun
   661: "https://indexdublin.com/events",
   663: "https://www.fogstudio.ch/",
   664: "https://indexdublin.com/events",
@@ -2550,8 +2550,8 @@ const TICKETS: Record<number, string> = {
   874: "https://www.lemoloco.com/",
   875: "https://www.effenaar.nl/agenda/naft-0",
   876: "https://www.paradisecity.be/",
-  877: "https://www.skiddle.com/festivals/untold-festival/?sktag=15816",
-  878: "https://www.skiddle.com/festivals/glitch-festival/?sktag=15816",
+  877: "https://untold.com/",
+  878: "https://www.glitchfestival.com/",
   879: "https://www.lemf.be/tickets",
   880: "https://www.kampingkitschclub.be/",
   881: "https://iatb-2026.eventsquare.store/to4cat46kruh",
@@ -2563,7 +2563,7 @@ const TICKETS: Record<number, string> = {
   887: "https://space-safari.com/tickets/",
   888: "https://www.lebikini.com/2026/09/04/unfaced-jacidorex-part-time-killer-dj-cringey-danke-al",
   889: "https://lerocherdepalmer.fr/agenda/djedjotronic-x-trio-xenakis",
-  890: "https://www.skiddle.com/festivals/voodoo-village-festival/?sktag=15816",
+  890: "https://www.voodoovillage.be/",
   891: "https://www.lastation.paris/stationgdm/rendez-vous/2026-09-11-hypercore-3-welcome-to-the-hyperverse",
   892: "https://tickets.fuse.be/a7000f36c0cc4d5880f272c2d52b833a",
   893: "https://www.lastation.paris/stationgdm/rendez-vous/2026-09-12-tech-noire",
@@ -2667,7 +2667,6 @@ const TICKETS: Record<number, string> = {
   817: "https://xceed.me/it/torino/event/blawan-setaoc-mass-the-lady-machine-roll-dann-hosted-by-laster-club-at-q35-warehouse-1/239095", // Blawan & Setaoc Mass · Q35 Warehouse
   826: "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099", // Alarico · Q35 Warehouse
   430: "https://www.olympiahall.com/agenda/overmono/", // Overmono à l'Olympia
-  665: "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Paul-Oakenfold/42611219/?sktag=15816", // Paul Oakenfold at Cyprus Avenue, Cork
 };
 /* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
    partenariat payant). Google demande que ces liens sortants portent

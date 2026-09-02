@@ -85,6 +85,36 @@ sienne redirige sur `/festivals/Homobloc/` : le lien stocké est la destination,
 la redirection. Un lien de billetterie qui rebondit n'est pas cassé, mais il perd le
 paramètre sur certains guichets, et c'est justement le paramètre qui nous paie.
 
+## Un lien de billetterie doit permettre d'acheter, et ça se vérifie
+
+Un bouton « Billetterie » qui arrive sur une page où il n'y a rien à acheter est pire
+qu'un lien vers le site de l'organisateur : le lecteur a cliqué pour rien, et nous
+n'y gagnons pas un centime. Les 101 liens ont donc été repassés sur la seule preuve
+lisible côté serveur, le tableau `offers` du JSON-LD. **47 ont survécu.**
+
+- **Les 37 pages `/festivals/` sont des pages line-up, pas des caisses.** Aucune ne
+  porte d'offre, toutes annoncent `priceRange: "Tickets available from £0.00"`, et
+  leur HTML serveur ne contient ni prix, ni état de vente, ni lien vers une fiche de
+  vente. Le module de billetterie, s'il existe, est monté en JavaScript. Recherche
+  faite dans le sitemap des 29 667 événements : **aucun de ces 37 festivals n'a de
+  fiche de vente Skiddle** (les seuls rapprochements sont des homonymes, « Mods
+  Mayday » pour Mayday, « Hideout Unlimited Brunch » pour Hideout). Tous rendus à
+  leur billetterie d'origine.
+- **9 fiches d'événement sont épuisées** (toutes leurs offres en `SoldOut`) et
+  **8 n'ont aucune offre** : Skiddle les référence sans les vendre, le cas typique
+  d'une soirée du Warehouse Project dont la vente est ailleurs. Rendues aussi.
+- **Le signal se lit à deux endroits et ils s'accordent** : la fiche et la page de
+  salle qui la liste donnent le même `offers`. Ce n'est donc pas un défaut de rendu,
+  c'est l'état réel de la vente.
+- **Une exception assumée, l'id 796** (Tiësto au Blackstone Street Warehouse) :
+  épuisé chez Skiddle, mais c'est Skiddle que le catalogue donnait déjà comme
+  billetterie avant cette campagne. Le rendre à son « lien d'origine » l'aurait
+  renvoyé sur la même page sans le tag, donc au même endroit pour zéro revenu. Il
+  garde le lien taggé.
+- **Cette vérification a une date de péremption.** Une soirée épuisée peut être
+  remise en vente, une vente peut ouvrir plus tard : ces 54 liens méritent d'être
+  repassés au prochain lot, pas d'être considérés comme tranchés pour toujours.
+
 ## Obligation qui vient avec
 
 `skiddle.` est dans `AFFILIATE_HOSTS` (`lib/data.ts`). Chaque lien taggé est
