@@ -31,7 +31,7 @@ const escapeHtml = (s: string): string =>
 function inline(escaped: string): string {
   return escaped
     .replace(/\[([^\]\n]{1,120})\]\((https?:\/\/[^\s)]{1,300})\)/g, (_m, label: string, url: string) =>
-      `<a href="${url}" target="_blank" rel="noopener nofollow">${label}</a>`)
+      `<a href="${url}" target="_blank" rel="nofollow noopener noreferrer">${label}</a>`)
     .replace(/\[([^\]\n]{1,120})\]\([^\s)]*\)/g, "$1")
     .replace(/\*\*([^*\n]{1,200})\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[^*])\*([^*\n]{1,200})\*(?!\*)/g, "$1<em>$2</em>");

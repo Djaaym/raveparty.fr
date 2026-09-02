@@ -9,7 +9,7 @@ import { SITE_URL } from "./site";
  */
 import {
   ALL_GENRES, COUNTRY_FR, GENRES, countryLabel, eventVenueL, genreSlug, isPast, lastDay,
-  poster, slugify, todayISO,
+  outboundRel, poster, slugify, todayISO,
 } from "./display";
 export * from "./display";
 
@@ -2699,9 +2699,8 @@ export const isSponsoredTicket = (e: RaveEvent): boolean => {
   return !!u && AFFILIATE_HOSTS.some((h) => u.includes(h));
 };
 
-/** `rel` du lien billetterie : "sponsored" en plus quand le lien est rémunéré. */
-export const ticketRel = (e: RaveEvent): string =>
-  isSponsoredTicket(e) ? "sponsored noopener noreferrer" : "noopener noreferrer";
+/** `rel` du lien billetterie : `sponsored` en plus quand le lien est rémunéré. */
+export const ticketRel = (e: RaveEvent): string => outboundRel(isSponsoredTicket(e));
 
 export const eventsForGenre = (g: string): RaveEvent[] =>
   upcomingFirst(EVENTS.filter((e) => e.genres.includes(g)));

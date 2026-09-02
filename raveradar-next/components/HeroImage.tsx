@@ -2,6 +2,7 @@ import type { Lang, RaveEvent } from "@/lib/types";
 import { cardBg, imageFull, photoCredit, isPhotoOf } from "@/lib/data";
 import { imageAlt } from "@/lib/format";
 import { getDict } from "@/lib/i18n";
+import { outboundRel } from "@/lib/display";
 
 /**
  * The full-bleed poster behind an event or show hero. Shared by `EventDetail` and
@@ -35,7 +36,7 @@ export default function HeroImage({ e, lang }: { e: RaveEvent; lang: Lang }) {
         <p className="photo-credit">
           {t("photo.credit").replace("{author}", credit.author).replace("{license}", credit.license)}{" "}
           {credit.page ? (
-            <a href={credit.page} target="_blank" rel="noopener noreferrer nofollow">
+            <a href={credit.page} target="_blank" rel={outboundRel()}>
               Wikimedia Commons
             </a>
           ) : (

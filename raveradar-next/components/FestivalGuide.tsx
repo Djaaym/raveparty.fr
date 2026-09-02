@@ -7,6 +7,7 @@ import { pick, type FestivalGuide as Guide } from "@/lib/guides";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { PLACES } from "@/lib/places";
 import EventCard from "./EventCard";
+import { outboundRel } from "@/lib/display";
 
 /* Long-form body for the few festivals that are really a week-long programme.
    Rendered full width, below the two-column event layout, the reader has
@@ -193,10 +194,10 @@ export default function FestivalGuide({
 
       <div className="notice" style={{ marginTop: 32 }}>
         <span>{t("guide.officialnote")}</span>
-        <a href={guide.programUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">
+        <a href={guide.programUrl} target="_blank" rel={outboundRel()} className="btn btn-primary btn-sm">
           {t("guide.programlink")}
         </a>
-        <a href={guide.officialUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm">
+        <a href={guide.officialUrl} target="_blank" rel={outboundRel()} className="btn btn-ghost btn-sm">
           {t("guide.sitelink")}
         </a>
       </div>

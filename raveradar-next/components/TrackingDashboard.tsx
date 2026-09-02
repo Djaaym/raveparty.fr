@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { FILTER_KEYS, type Filters, type Report, type Row, type SessionRow } from "@/lib/track-report";
+import { outboundRel } from "@/lib/display";
 
 /** What `/api/track/stats` actually returns: the report plus the context the header
  *  needs to be honest about where the numbers came from. */
@@ -334,7 +335,7 @@ function Visit({ s, onPick }: { s: SessionRow; onPick: (k: keyof Filters, v: str
                 <li key={i}>
                   <div className="trk-journey-time">{new Date(st.at).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</div>
                   <div className="trk-journey-main">
-                    <a href={st.p} target="_blank" rel="noopener noreferrer" className="trk-journey-path">
+                    <a href={st.p} target="_blank" rel={outboundRel()} className="trk-journey-path">
                       {st.p}
                     </a>
                     <div className="trk-journey-stats">
@@ -369,7 +370,7 @@ function Visit({ s, onPick }: { s: SessionRow; onPick: (k: keyof Filters, v: str
           <div className="trk-visit-end">
             {s.exitTo ? (
               <>
-                Sortie du site vers <a href={s.exitTo} target="_blank" rel="noopener noreferrer">{s.exitTo}</a>
+                Sortie du site vers <a href={s.exitTo} target="_blank" rel={outboundRel()}>{s.exitTo}</a>
               </>
             ) : (
               <>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { embedUrl, postUrl } from "@/lib/instagram";
+import { outboundRel } from "@/lib/display";
 
 /**
  * Les posts Instagram d'un compte, rendus par le lecteur officiel d'Instagram.
@@ -57,7 +58,7 @@ export default function InstagramFeed({
             key={code}
             href={postUrl(code)}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel={outboundRel()}
             className="ig-tile"
           >
             <span className="ig-tile-glyph" aria-hidden="true">
