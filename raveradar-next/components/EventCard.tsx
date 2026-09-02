@@ -56,7 +56,7 @@ export default function EventCard({
             <img
               className="poster"
               src={e.thumb}
-              alt={imageAlt(e, lang, e.isPhoto)}
+              alt={imageAlt(e, lang, e.img)}
               width={560}
               height={700}
               loading="lazy"

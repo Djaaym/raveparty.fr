@@ -15,7 +15,7 @@ import {
   isPast,
   todayISO,
   upcoming,
-  venueLabelL, cardEvent, eventPath, isPhotoOf } from "@/lib/data";
+  venueLabelL, cardEvent, eventPath, imageSourceOf } from "@/lib/data";
 import { rankPlaces } from "@/lib/places";
 import { ARTISTS, artistGenres } from "@/lib/artists";
 import { BIOS, bioText } from "@/lib/bios";
@@ -249,7 +249,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                 {stack.map((e, i) => (
                   <Link className={`ghero-poster p${i + 1}`} key={e.id} href={`${p}${eventPath(e)}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={imageThumb(e)!} alt={imageAlt(e, lang, isPhotoOf(e))} width={240} height={300} loading="lazy" decoding="async" />
+                    <img src={imageThumb(e)!} alt={imageAlt(e, lang, imageSourceOf(e))} width={240} height={300} loading="lazy" decoding="async" />
                     <span>
                       <b>{e.title}</b>
                       {fmtDate(e.date, lang)} · {e.city}
@@ -354,7 +354,7 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                       <img
                         className="venuecard-shot"
                         src={shot.src}
-                        alt={imageAlt(shot.e, lang, isPhotoOf(shot.e))}
+                        alt={imageAlt(shot.e, lang, imageSourceOf(shot.e))}
                         width={96}
                         height={120}
                         loading="lazy"

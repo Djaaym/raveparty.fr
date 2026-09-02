@@ -1,4 +1,4 @@
-import type { Lang, RaveEvent } from "./types";
+import type { ImageSource, Lang, RaveEvent } from "./types";
 import { DICT } from "./i18n";
 /* `./display` et pas `./data` : ce module est importé par des composants client, et
    `lib/data.ts` embarque tout le catalogue avec lui. Voir l'en-tête de display.ts. */
@@ -19,15 +19,17 @@ export function fmtDayLong(iso: string, lang: Lang): string {
 /**
  * Alt text for an event poster. Every visual on the site used to be a CSS background,
  * so none of them carried one, no accessible name, and nothing for image search to
- * index. Wording stays honest about the source: `PHOTOS` are real photographs of the
- * event or the room, everything else is an AI-generated key visual and says so.
+ * index. Wording stays honest about the source, et il y a trois sources, pas deux :
+ * une vraie photo, une affiche publiée par l'organisateur, une affiche générée. Dire
+ * « Photo de … » d'une affiche est faux, et c'était le cas de 449 fichiers, la moitié
+ * du lot britannique venant du presskit des promoteurs.
  *
- * `isPhoto` arrive en paramètre au lieu d'être lu dans `PHOTOS` : cette map vit dans
+ * La source arrive en paramètre au lieu d'être lue dans `PHOTOS` : cette map vit dans
  * `lib/data.ts`, et la lire ici ferait entrer le catalogue entier dans le bundle de
- * chaque composant client qui affiche une carte. Côté serveur, `isPhotoOf(e)` répond ;
- * côté client, le champ voyage sur le `CardEvent`.
+ * chaque composant client qui affiche une carte. Côté serveur, `imageSourceOf(e)`
+ * répond ; côté client, le champ voyage sur le `CardEvent`.
  */
-export function imageAlt(e: RaveEvent, lang: Lang, isPhoto: boolean): string {
+export function imageAlt(e: RaveEvent, lang: Lang, src: ImageSource): string {
   const where = `${eventVenueL(e, lang)}, ${e.city}, ${countryLabel(e.country, lang)}`;
   // Not fmtDate(): its uppercased "05 SEPT. 2026" reads as shouting inside a sentence,
   // and the spelled-out month is what image search actually matches on.
@@ -39,7 +41,12 @@ export function imageAlt(e: RaveEvent, lang: Lang, isPhoto: boolean): string {
   // La parenthèse ouvrante n'était jamais fermée en français, et en anglais c'est la
   // fermante qui s'était égarée juste après le titre : « Photo of X) Thekla, Bristol ».
   // Deux caractères, mais répétés dans l'`alt` de chaque visuel du site.
-  if (isPhoto) {
+  if (src === "flyer") {
+    return lang === "fr"
+      ? `Affiche officielle de ${e.title} (${where}, ${when})`
+      : `Official poster for ${e.title} (${where}, ${when})`;
+  }
+  if (src === "photo") {
     return lang === "fr"
       ? `Photo de ${e.title} (${where}, ${when})`
       : `Photo of ${e.title} (${where}, ${when})`;
