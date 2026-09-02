@@ -13,6 +13,10 @@ Ticketmaster (Kaboodle et DICE), jds.fr renvoie sur Fnac Spectacles via Awin, et
 DACH le marché est tenu par CTS Eventim. Le gisement réel est concentré : Manchester
 (Warehouse Project), le Warehouse de Nantes, et l'Italie.
 
+**Suite donnée** : le programme d'affiliation Skiddle est branché depuis le
+2 septembre 2026, 101 dates du catalogue y renvoient avec notre `?sktag=`. Le relevé
+et la méthode de correspondance sont dans **`.research/skiddle.md`**.
+
 **Limite connue** : `ticketmaster.co.uk`, `.de`, `.pl`, `.es`, `.it`, `.dk`, `.se`,
 `.no` répondent tous 403 depuis le conteneur. Tout ce qui suit vient de pages
 indexées et de `guides.ticketmaster.co.uk`. Pour un relevé exhaustif il faut passer
