@@ -115,6 +115,64 @@ lisible côté serveur, le tableau `offers` du JSON-LD. **47 ont survécu.**
   remise en vente, une vente peut ouvrir plus tard : ces 54 liens méritent d'être
   repassés au prochain lot, pas d'être considérés comme tranchés pour toujours.
 
+## Le lot inverse : ce que Skiddle a et que nous n'avions pas
+
+Second temps de la campagne, 421 dates britanniques ajoutées au catalogue (868 -> 1 289),
+toutes avec un billet réellement en vente et le lien taggé. La chaîne, dans l'ordre :
+
+1. **Sélection hors ligne**, sur les 29 667 URLs du sitemap. Trois signaux : le titre
+   contient un artiste déjà au catalogue (1 993 noms utilisables, 365 URLs), un mot-clé
+   électro franc (521), ou la fiche est à une salle qu'on référence déjà (517). Total
+   1 312 pages, contre seize heures de crawl pour tout lire.
+2. **Récolte** : une requête par fiche, `Crawl-delay: 2` respecté, JSON-LD complet
+   (date, salle, ville, **coordonnées**, line-up, offres) plus le tableau `genres`,
+   qui n'est pas dans le JSON-LD mais dans l'état de page.
+3. **Conversion** puis `merge.py` comme n'importe quel lot de recherche.
+
+Ce que le tri a écarté, et c'est l'essentiel du travail : 225 fiches sans genre
+électro, 195 sans rien en vente, 195 hors périmètre, 113 sans affiche ni tarif
+significatif, 36 formats de soirée qui ne relèvent pas d'un annuaire (freshers,
+school disco, bottomless brunch, quiz), 26 doublons internes, 23 fiches hors UK dont
+Skiddle rend le **pays** en guise de ville.
+
+### Les pièges payés sur ce lot
+
+- **Le genre principal est le premier de la liste, et lui seul décide.** « And Also
+  The Trees », groupe post-punk, portait `Minimal` en quatrième étiquette et entrait
+  en Techno : sur une affiche indie, « Minimal » veut dire minimal wave. `Minimal`,
+  `Dance` et `Electro` ne comptent donc que **à côté** d'un genre franc, et un premier
+  genre hors périmètre suffit à écarter la fiche.
+- **Un billet à 0 n'est pas une entrée libre.** Vingt-deux fiches avaient une offre à
+  0,00 £ en vente : guest list, liste d'attente, gratuité avant minuit. Au catalogue,
+  `price: 0` sans `priceNote` affirme « GRATUIT ». On prend donc le plus bas tarif
+  **non nul**, et à défaut on écrit la note qui fait poser `priceNote: "unknown"`,
+  sauf quand la fiche dit « free » en toutes lettres.
+- **Aucune `endDate` dans ce lot, volontairement.** La date de fin d'une fiche Skiddle
+  est l'heure de fermeture. Un « All Day Rave » de midi à midi mesure exactement 24 h
+  et passait pour un festival de deux jours, donc restait « à venir » tout le lendemain.
+- **La ville départage les salles, sinon on renomme un club d'après un autre.**
+  L'unification des orthographes rapprochait « The Warehouse » de Leeds du
+  « Warehouse » de Nantes, parce qu'elle ne regardait que le nom. Elle est désormais
+  indexée sur (ville, nom sans article). À l'inverse, retirer la ville collée au nom
+  fusionnait « The Tunnel Club Nottingham » avec celui de Birmingham : quand un nom
+  se retrouve dans deux villes, on rend son nom d'origine à chacun, et on ne colle la
+  ville que sur de vrais homonymes (les deux « The Warehouse », Leeds et Villa Park).
+- **La description se construit avec la salle en sujet.** « au {salle} » donne « au
+  The Clock Factory » dès qu'un nom anglais porte son article, et un tiers des salles
+  britanniques commencent par « The ». D'où « {salle} accueille une nuit … ».
+- **Le titre ne porte jamais d'année** : cinq fiches en portaient une, elles sont
+  restées dehors plutôt que d'être renommées.
+
+### Ce que ça change au catalogue
+
+Le Royaume-Uni passe de 108 à 529 dates et devient le premier pays devant la France
+(192). C'est la conséquence directe de la source : Skiddle est un guichet
+britannique, ses fiches d'événement le sont à 99 %. Le rééquilibrage viendra d'une
+source française, pas de celle-ci. Douze villes britanniques entrent dans `PLACES`
+(Nottingham, Southampton, Bournemouth, Derby, Leicester, Coventry, Plymouth,
+Aberdeen, Milton Keynes, Preston, Northampton, Peterborough), Gateshead est rattaché
+à Newcastle.
+
 ## Obligation qui vient avec
 
 `skiddle.` est dans `AFFILIATE_HOSTS` (`lib/data.ts`). Chaque lien taggé est

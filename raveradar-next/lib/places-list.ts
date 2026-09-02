@@ -154,9 +154,25 @@ export const PLACES: Place[] = [
   { slug: "birmingham", label: "Birmingham", kind: "ville", vol: 480, match: ["Birmingham"] },
   { slug: "liverpool", label: "Liverpool", kind: "ville", vol: 390, match: ["Liverpool"] },
   { slug: "sheffield", label: "Sheffield", kind: "ville", vol: 320, match: ["Sheffield"] },
-  { slug: "newcastle", label: "Newcastle", kind: "ville", vol: 320, match: ["Newcastle"] },
+  { slug: "newcastle", label: "Newcastle", kind: "ville", vol: 320, match: ["Newcastle", "Gateshead"] },
   { slug: "brighton", label: "Brighton", kind: "ville", vol: 390, match: ["Brighton"] },
   { slug: "cardiff", label: "Cardiff", kind: "ville", vol: 260, match: ["Cardiff"] },
+  /* Villes britanniques arrivées avec le lot Skiddle. `vol` reste à 0 : l'export
+     SEMrush ne les couvre pas, et inventer un volume pour trier une liste serait
+     exactement la donnée fabriquée que la règle de contenu interdit. Le champ ne
+     sert que de départage dans `rankPlaces()`, après le nombre de dates. */
+  { slug: "nottingham", label: "Nottingham", kind: "ville", vol: 0, match: ["Nottingham"] },
+  { slug: "southampton", label: "Southampton", kind: "ville", vol: 0, match: ["Southampton"] },
+  { slug: "bournemouth", label: "Bournemouth", kind: "ville", vol: 0, match: ["Bournemouth"] },
+  { slug: "derby", label: "Derby", kind: "ville", vol: 0, match: ["Derby"] },
+  { slug: "leicester", label: "Leicester", kind: "ville", vol: 0, match: ["Leicester"] },
+  { slug: "coventry", label: "Coventry", kind: "ville", vol: 0, match: ["Coventry"] },
+  { slug: "plymouth", label: "Plymouth", kind: "ville", vol: 0, match: ["Plymouth"] },
+  { slug: "aberdeen", label: "Aberdeen", kind: "ville", vol: 0, match: ["Aberdeen"] },
+  { slug: "milton-keynes", label: "Milton Keynes", kind: "ville", vol: 0, match: ["Milton Keynes"] },
+  { slug: "preston", label: "Preston", kind: "ville", vol: 0, match: ["Preston"] },
+  { slug: "northampton", label: "Northampton", kind: "ville", vol: 0, match: ["Northampton"] },
+  { slug: "peterborough", label: "Peterborough", kind: "ville", vol: 0, match: ["Peterborough"] },
   { slug: "prague", label: "Prague", kind: "ville", vol: 880, match: ["Prague", "Ostrava"] },
   { slug: "varsovie", label: "Varsovie", kind: "ville", vol: 720, match: ["Warsaw", "Katowice", "Kolobrzeg"] },
   { slug: "budapest", label: "Budapest", kind: "ville", vol: 880, match: ["Budapest"] },
