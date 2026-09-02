@@ -1984,7 +1984,7 @@ const TICKETS: Record<number, string> = {
   54: "https://dekmantelfestival.com", // Dekmantel Festival, Amsterdam
   55: "https://creamfields.com", // Creamfields, Daresbury
   56: "https://monegrosfestival.com", // Monegros Desert Festival, Fraga
-  57: "https://ticketmaster.evyy.net/c/7550075/1965662/24023?u=https%3A%2F%2Fwww.ticketmaster.co.uk%2Fkiki-manchester-manchester-18-09-2026%2Fevent%2F35006494E6FC49D2", // The Warehouse Project, Manchester
+  57: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/KIKI-Manchester/42367615/?sktag=15816", // The Warehouse Project, Manchester
   58: "https://www.awakenings.com", // Awakenings ADE, Amsterdam
   59: "https://ozorafestival.eu", // OZORA Festival, Dádpuszta
   60: "https://neopopfestival.com", // Neopop Festival, Viana do Castelo
@@ -2010,7 +2010,7 @@ const TICKETS: Record<number, string> = {
   111: "https://shotgun.live/fr/festivals/le-jardin-electronique-2026", // Le Jardin Électronique, Lille
   113: "https://parisjetaime.com/eng/event/techno-parade-e006", // Techno Parade, Paris
   114: "https://shotgun.live/fr/festivals/utopia-festival-tome-vi", // Utopia Festival, Marseille
-  115: "https://thewarehouseproject.com/events/", // The Warehouse Project: Solomun, Manchester
+  115: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Solomun/42464999/?sktag=15816", // The Warehouse Project: Solomun, Manchester
   116: "https://www.maintenant-festival.fr/", // Festival Maintenant, Rennes
   117: "https://www.unsound.pl/en/unsound-2026", // Unsound Warsaw – Soft Power, Warsaw
   118: "https://www.ibiza-spotlight.com/night/events/2026/10", // David Guetta presents Galactic Circus – Closing Party, Ibiza
@@ -2024,18 +2024,18 @@ const TICKETS: Record<number, string> = {
   126: "https://shotgun.live/fr/events/sonora-bordeaux", // Sonora Bordeaux, Bordeaux
   127: "https://www.amsterdam-dance-event.nl/en/program/filter/?section=events&type=8262%2C8263&from=2026-10-21&to=2026-10-25", // Amsterdam Dance Event (ADE), Amsterdam
   128: "https://shop.awakenings.com/en/awakenings-ade-2026", // Awakenings ADE – Drumcode, Amsterdam
-  129: "https://dice.fm/event/6d8lmq-terminal-v-23rd-oct-drumsheds-london-tickets", // Terminal V London, London
+  129: "https://www.skiddle.com/whats-on/London/Drumsheds/Terminal-V/42579859/?sktag=15816", // Terminal V London, London
   130: "https://www.afaslive.nl/en/agenda/verknipt-ade-special", // Verknipt ADE Special, Amsterdam
   131: "https://www.dockyardfestival.com/", // Dockyard Festival ADE, Amsterdam
   132: "https://loveland.nl/ade/tickets/", // Boris Brejcha pres. FCKNG SERIOUS x Loveland, Amsterdam
   133: "https://www.thewalkingbass.fr/billetterie/", // The Walking Bass Festival, Marseille
   134: "https://dreamnation.fr/", // Dream Nation Festival, Villepinte
-  135: "https://thewarehouseproject.com/events/", // The Warehouse Project: Overmono – Pure Devotion, Manchester
+  135: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Overmono-presents-Pure-Devotion---World-Tour-Manchester/42448096/?sktag=15816", // The Warehouse Project: Overmono – Pure Devotion, Manchester
   136: "https://mirafestival.com/en/", // MIRA Digital Arts Festival, Barcelona
-  137: "https://thewarehouseproject.com/events/", // The Warehouse Project: Klangkuenstler, Manchester
+  137: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-Klangkuenstler/42541875/?sktag=15816", // The Warehouse Project: Klangkuenstler, Manchester
   138: "https://www.lestrans.com/le-festival/billetterie_trans/", // Les Rencontres Trans Musicales, Rennes
   139: "https://www.afas-dome.be/en/event/thunderdome-2026-552e132d", // Thunderdome, Antwerp
-  140: "https://thewarehouseproject.com/events/", // The Warehouse Project New Year's Eve, Manchester
+  140: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/New-Years-Eve-at-The-Warehouse-Project/42596138/?sktag=15816", // The Warehouse Project New Year's Eve, Manchester
   141: "https://www.ctm-festival.de/", // CTM Festival, Berlin
   142: "https://www.rampage.eu/events/rampage-weekend-2027", // Rampage Weekend, Antwerp
   143: "https://www.snowboxx.com/", // Snowboxx, Avoriaz
@@ -2111,7 +2111,7 @@ const TICKETS: Record<number, string> = {
   213: "https://loftasfest.com/", // Loftas Fest, Vilnius
   214: "https://www.flyflyfly.co.uk/", // FLY Open Air Edinburgh, Edinburgh
   215: "https://waterworksfestival.co.uk/", // Waterworks Festival, London
-  216: "https://www.concorde2.co.uk/", // Todd Terje at Concorde 2, Brighton
+  216: "https://www.skiddle.com/whats-on/Brighton/The-Concorde-2/Todd-Terje/42282543/?sktag=15816", // Todd Terje at Concorde 2, Brighton
   217: "https://ra.co/clubs/109137", // Bassiani: SPANDAU20 Nacht, Tbilisi
   218: "https://www.klub-k4.si/en/", // Klub K4 : ouverture de saison, Ljubljana
   219: "https://jaegeroslo.no/events/", // Frædag : Elli Acula, Oslo
@@ -2119,33 +2119,33 @@ const TICKETS: Record<number, string> = {
   221: "https://lunchmeatfestival.cz/2026/", // Lunchmeat Festival, Prague
   222: "https://avafestival.com/london/", // AVA London, London
   223: "https://jaegeroslo.no/events/", // Frædag : Tony Humphries, Oslo
-  224: "https://swg3.tv/events/", // FLY House Heads Glasgow, Glasgow
+  224: "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-pres-Luuk-Van-Dijk-Robbie-Doherty--Prunk/42580904/?sktag=15816", // FLY House Heads Glasgow, Glasgow
   225: "https://culture-box.com/", // Peccāvī : Alex Stein, Copenhagen
   226: "https://www.entrio.hr/en", // Autechre a Tvornica Kulture, Zagreb
   227: "https://jasna1.com/events/", // Jasna 1 : Donato Dozzy x Unsound, Warsaw
-  228: "https://www.teletech.events/events", // Teletech Leeds: Warehouse, Leeds
+  228: "https://www.skiddle.com/whats-on/Leeds/The-Warehouse/Teletech-Leeds-Warehouse-Leeds/42476107/?sktag=15816", // Teletech Leeds: Warehouse, Leeds
   229: "https://bilet.bg/en/events/autechre-at-toplocentrala-06-october-2026-7255", // Autechre a Toplocentrala, Sofia
   230: "https://www.clubguesthouse.ro/", // Autechre au Club Guesthouse, Bucharest
   231: "https://www.exist.pl/events/verknipt-warsaw-bilety-2026", // Verknipt Poland - Warsaw, Warsaw
-  232: "https://www.teletech.events/events", // Teletech Liverpool, Liverpool
-  233: "https://noboundsfestival.co.uk/", // No Bounds Festival, Sheffield
+  232: "https://www.skiddle.com/whats-on/Liverpool/Arts-Club/Teletech-JOWI-ALL-NIGHT-LONG---Liverpool/42488463/?sktag=15816", // Teletech Liverpool, Liverpool
+  233: "https://www.skiddle.com/whats-on/Sheffield/TBA---Multiple-Venues-Across-Sheffield-And-Rotherham/No-Bounds-Festival-2026/42470098/?sktag=15816", // No Bounds Festival, Sheffield
   234: "https://insomniafestival.no/tickets/", // Insomnia Festival, Tromsø
   235: "https://www.indexdublin.com/events", // Index: Lane 8, Dublin
   236: "https://culture-box.com/", // Culture Box : Xinobi, Copenhagen
-  237: "https://www.teletech.events/events", // Teletech Glasgow, Glasgow
-  238: "https://www.drumshedslondon.com/whats-on/", // Elrow Horroween, London
+  237: "https://www.skiddle.com/whats-on/Glasgow/Room-2/Teletech-KIRSTY-All-Night-Long---Glasgow/42566935/?sktag=15816", // Teletech Glasgow, Glasgow
+  238: "https://www.skiddle.com/whats-on/London/Drumsheds/elrow-Horroween-Festival/42570386/?sktag=15816", // Elrow Horroween, London
   239: "https://icelandairwaves.is/tickets/", // Iceland Airwaves, Reykjavík
   240: "https://jasna1.com/events/", // Jasna 1 : 999999999, Warsaw
   241: "https://biletomat.pl/wydarzenia/mayday-poland-29850", // MAYDAY Poland 2026 : Iconic, Katowice
-  242: "https://swg3.tv/events/", // SYNRG: Francesco Del Garda & DJ Masda, Glasgow
-  243: "https://www.teletech.events/events", // Teletech Newcastle, Newcastle
-  244: "https://drumshedslondon.com/event/a-state-of-trance/", // Armin van Buuren at Drumsheds, London
+  242: "https://www.skiddle.com/whats-on/Glasgow/SWG3/SYNRG-Presents---Francesco-Del-Garda--DJ-Masda/42405069/?sktag=15816", // SYNRG: Francesco Del Garda & DJ Masda, Glasgow
+  243: "https://www.skiddle.com/whats-on/Newcastle-on-Tyne/World-Headquarters/Teletech-KIRSTY-All-Night-Long---Newcastle/42567152/?sktag=15816", // Teletech Newcastle, Newcastle
+  244: "https://www.skiddle.com/whats-on/London/Drumsheds-London/A-State-of-Trance--Drumsheds-London---25-Years-of-ASOT/42469575/?sktag=15816", // Armin van Buuren at Drumsheds, London
   245: "https://shine.tickets/events/list", // Duke Dumont at The Telegraph Building, Belfast
   246: "https://taksirat.mk/bileti/", // Taksirat Festival, Skopje
-  247: "https://www.teletech.events/events", // Teletech Bristol, Bristol
+  247: "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/Teletech-Bristol/42603138/?sktag=15816", // Teletech Bristol, Bristol
   248: "https://shine.tickets/events/list", // Shine: Dusky, Belfast
   249: "https://www.teletech.events/events", // Teletech Belfast, Belfast
-  250: "https://www.teletech.events/events", // Teletech Cardiff, Cardiff
+  250: "https://www.skiddle.com/whats-on/Cardiff/Vaults-Cardiff/Teletech-KIRSTY-All-Night-Long---Cardiff/42567190/?sktag=15816", // Teletech Cardiff, Cardiff
   251: "https://tmw.ee/", // Tallinn Music Week, Tallinn
   252: "https://www.fielddayfestivals.com/", // Field Day, London
   253: "https://www.cphdistortion.dk/tickets", // Copenhagen Distortion, Copenhagen
@@ -2307,32 +2307,32 @@ const TICKETS: Record<number, string> = {
   460: "https://www.thuishaven.nl/", // Toman, Dean Turnley & AAT à Thuishaven, Amsterdam
   461: "https://www.thuishaven.nl/", // Kolter 10HRS à Thuishaven, Amsterdam
   462: "https://www.thuishaven.nl/", // Menesix 10HRS à Thuishaven, Amsterdam
-  463: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Rampa + &ME, Manchester
-  464: "https://drumshedslondon.com/whats-on/", // Defected London, London
-  465: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Homobloc, Manchester
-  466: "https://drumshedslondon.com/whats-on/", // Steppers at Drumsheds, London
+  463: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-presents-Rampa--Me/42567480/?sktag=15816", // The Warehouse Project: Rampa + &ME, Manchester
+  464: "https://www.skiddle.com/whats-on/London/Drumsheds/Defected-London/42420725/?sktag=15816", // Defected London, London
+  465: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Homobloc-2026/42571120/?sktag=15816", // The Warehouse Project: Homobloc, Manchester
+  466: "https://www.skiddle.com/whats-on/London/Drumsheds/Continental-GT-STEPPERS-Drumsheds-London/42618847/?sktag=15816", // Steppers at Drumsheds, London
   467: "https://www.thuishaven.nl/", // Zomerclosing à Thuishaven, Amsterdam
-  468: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: You&Me – Friday, Manchester
-  469: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: You&Me – Saturday, Manchester
-  470: "https://drumshedslondon.com/whats-on/", // NexUp: The Return, London
+  468: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/YouMe---Friday/42394960/?sktag=15816", // The Warehouse Project: You&Me – Friday, Manchester
+  469: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/YouMe/42394965/?sktag=15816", // The Warehouse Project: You&Me – Saturday, Manchester
+  470: "https://www.skiddle.com/whats-on/London/Drumsheds/NEXUP-The-Return/42570855/?sktag=15816", // NexUp: The Return, London
   471: "https://www.thuishaven.nl/", // IOSIO 10HRS à Thuishaven, Amsterdam
-  472: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Worried About Henry, Manchester
-  473: "https://drumshedslondon.com/whats-on/", // Don't Let Daddy Know London, London
-  474: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Interplanetary Criminal, Manchester
-  475: "https://drumshedslondon.com/whats-on/", // Bugged Out: 2001&On…, London
-  476: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: doof – Hannah Laing, Manchester
+  472: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Worried-About-Henry/42567474/?sktag=15816", // The Warehouse Project: Worried About Henry, Manchester
+  473: "https://www.skiddle.com/whats-on/London/Drumsheds/Dont-Let-Daddy-Know/42478225/?sktag=15816", // Don't Let Daddy Know London, London
+  474: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Interplanetary-Criminal-presents/42394956/?sktag=15816", // The Warehouse Project: Interplanetary Criminal, Manchester
+  475: "https://www.skiddle.com/whats-on/London/Drumsheds/Bugged-Out-2001--On/42603964/?sktag=15816", // Bugged Out: 2001&On…, London
+  476: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP--Teletech-presents-DOOF---Hannah-Laing--Guests/42286363/?sktag=15816", // The Warehouse Project: doof – Hannah Laing, Manchester
   477: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Alisha, Manchester
-  478: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Duke Dumont, Manchester
-  479: "https://drumshedslondon.com/whats-on/", // False Idols at Drumsheds, London
-  480: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: NexUp, Manchester
-  481: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Kettama – Steel City Dance Discs, Manchester
-  482: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: La Discothèque, Manchester
-  483: "https://drumshedslondon.com/whats-on/", // Worried About Henry London, London
-  484: "https://drumshedslondon.com/whats-on/", // La Discothèque 10th Anniversary, London
-  485: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: EastEnderz, Manchester
+  478: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Duke-Dumont/42394967/?sktag=15816", // The Warehouse Project: Duke Dumont, Manchester
+  479: "https://www.skiddle.com/whats-on/London/Drumsheds/False-Idols/42641186/?sktag=15816", // False Idols at Drumsheds, London
+  480: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/NeXup/42567289/?sktag=15816", // The Warehouse Project: NexUp, Manchester
+  481: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/KETTAMA-presents-Steel-City-Dance-Discs/42616464/?sktag=15816", // The Warehouse Project: Kettama – Steel City Dance Discs, Manchester
+  482: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/La-Discotheque-Festival-Manchester/42613408/?sktag=15816", // The Warehouse Project: La Discothèque, Manchester
+  483: "https://www.skiddle.com/whats-on/London/Drumsheds-London/WAH-Drumsheds-2026--Wilkinson--40-more-artists/42604390/?sktag=15816", // Worried About Henry London, London
+  484: "https://www.skiddle.com/whats-on/London/Drumsheds/La-Discothque/42610255/?sktag=15816", // La Discothèque 10th Anniversary, London
+  485: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/Eastenderz-Manchester/42614315/?sktag=15816", // The Warehouse Project: EastEnderz, Manchester
   486: "https://drumshedslondon.com/whats-on/", // FUSE 18th Birthday, London
-  487: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: FAC51 The Haçienda, Manchester
-  488: "https://thewarehouseproject.com/calendar/", // The Warehouse Project: Tiësto, Manchester
+  487: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/The-Haienda-Manchester/42682081/?sktag=15816", // The Warehouse Project: FAC51 The Haçienda, Manchester
+  488: "https://www.skiddle.com/whats-on/Manchester/Depot-Mayfield/WHP-Presents-Tisto/42394958/?sktag=15816", // The Warehouse Project: Tiësto, Manchester
   489: "https://renate.cc/", // The Village Festival Berlin, Berlin
   490: "https://bootshaus.tv/events/", // R3HAB au Bootshaus, Cologne
   491: "https://bootshaus.tv/events/", // Bootshaus Sommerfest, Cologne
@@ -2387,7 +2387,7 @@ const TICKETS: Record<number, string> = {
   551: "https://www.shelteramsterdam.nl/", // Shelter: PIV with Prunk, Amsterdam
   552: "https://billetterie.la-belle-electrique.com/share/event/795-BABOUSH-KARLFROYE-VON-BIKRAV", // Baboush + Karlfroye + Von Bikräv, Grenoble
   553: "https://www.shelteramsterdam.nl/", // Shelter: Signal NYC with Benny Rodrigues, Amsterdam
-  554: "https://swg3.tv/events", // SWG3: 2Passo & Hidde Van Wee, Glasgow
+  554: "https://www.skiddle.com/whats-on/Glasgow/SWG3/2Passo--Hidde-Van-Wee-All-Night-Long/42617129/?sktag=15816", // SWG3: 2Passo & Hidde Van Wee, Glasgow
   555: "https://www.roxy.cz/en/events/detail/5033/lilly-palmer", // Lilly Palmer au Roxy, Prague
   556: "https://www.grelleforelle.com/project/2509-trancemaster-krause-all-night-long/", // Trancemaster Krause All Night Long, Vienna
   557: "https://zalogarave.pl/kluby/poznan/tama", // Obsession (Kozlov, Luciid & Vendex) Poznań
@@ -2399,7 +2399,7 @@ const TICKETS: Record<number, string> = {
   564: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Guy Gerber, Barcelona
   565: "https://www.shelteramsterdam.nl/", // Shelter: Archie Hamilton, Amsterdam
   566: "https://www.roxy.cz/en/events/detail/5095/james-hype", // James Hype au Roxy, Prague
-  567: "https://swg3.tv/events", // SWG3 Elevate: Paco Osuna, Glasgow
+  567: "https://www.skiddle.com/whats-on/Glasgow/SWG3/Elevate-Paco-Osuna/42596828/?sktag=15816", // SWG3 Elevate: Paco Osuna, Glasgow
   568: "https://www.unvrs.com/", // Armin van Buuren presents A State of Trance, Ibiza
   569: "https://www.amnesia.es/", // Joseph Capriati presents Metamorfosi Closing Party, Ibiza
   570: "https://www.unvrs.com/", // Paradise, Ibiza
@@ -2420,10 +2420,10 @@ const TICKETS: Record<number, string> = {
   587: "https://www.songkick.com/metro-areas/32259-slovenia-ljubljana/genre/electronic", // Autechre à Cukrarna, Ljubljana
   589: "https://ticketsibiza.com/event/glitterbox-closing-party-amnesia-2026-10-09/", // Glitterbox Closing Party, Ibiza
   590: "https://jaegeroslo.no/events/", // Frædag: Octave One, Oslo
-  591: "https://swg3.tv/events", // SWG3: The Rocketman All Night Long, Glasgow
+  591: "https://www.skiddle.com/whats-on/Glasgow/SWG3/doof-Presents-The-Rocketman---Glasgow/42589337/?sktag=15816", // SWG3: The Rocketman All Night Long, Glasgow
   592: "https://www.warehouse-nantes.fr/event", // The Ring x Club de Jour, Nantes
   593: "https://www.songkick.com/metro-areas/28714-spain-barcelona/genre/electronic", // Kerri Chandler, Barcelona
-  594: "https://swg3.tv/events", // FLY: Silva Bumpa Glasgow, Glasgow
+  594: "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--Silva-Bumpa--Glasgow/42617437/?sktag=15816", // FLY: Silva Bumpa Glasgow, Glasgow
   595: "https://www.fnacspectacles.com/", // La P'tite Fumée au Warehouse, Nantes
   596: "https://www.roxy.cz/en/events/detail/5089/camelphat", // CamelPhat au Roxy, Prague
   597: "https://zalogarave.pl/kluby/poznan/tama", // Pegassi au Tama, Poznań
@@ -2453,12 +2453,12 @@ const TICKETS: Record<number, string> = {
   626: "https://www.warehouse-nantes.fr/event", // Club de Jour invite Bellaire & Dimitri, Nantes
   628: "https://www.roxy.cz/en/events/detail/4999/agents-of-time", // Agents Of Time au Roxy, Prague
   629: "https://www.grelleforelle.com/project/1311-zuckerwatt-w-mija/", // Zuckerwatt w/ Mija, Vienna
-  634: "https://swg3.tv/events", // Lucid Dreams: Acid Techno, Glasgow
+  634: "https://www.skiddle.com/whats-on/Glasgow/SWG3-Poetry-Club/Lucid-Dreams---Acid-Techno-Vinyl-Only-Vs-Digital/42618492/?sktag=15816", // Lucid Dreams: Acid Techno, Glasgow
   635: "https://www.roxy.cz/en/events/detail/5077/tinlicker", // Tinlicker au Roxy, Prague
   636: "https://www.roxy.cz/en/events/detail/5023/mcr-t", // MCR-T au Roxy, Prague
   637: "https://www.songkick.com/metro-areas/32252-sweden-stockholm/genre/electronic", // Paul van Dyk, Stockholm
   638: "https://www.songkick.com/metro-areas/28825-finland-helsinki/genre/electronic", // Project One, Helsinki
-  639: "https://swg3.tv/events", // SWG3: Sasha, Glasgow
+  639: "https://www.skiddle.com/whats-on/Glasgow/TV-Studio---SWG3/Colours-House-Party-Presents-Sasha/42607227/?sktag=15816", // SWG3: Sasha, Glasgow
   641: "https://www.fnacspectacles.com/", // La P'tite Fumée au Rockstore, Montpellier
   642: "https://www.thuishaven.nl/", // Thuishaven: Bart Skils 5HRS, Amsterdam
   643: "https://www.grelleforelle.com/project/1112-zuckerwatt-w-ellen-allien/", // Zuckerwatt w/ Ellen Allien, Vienna
@@ -2479,7 +2479,7 @@ const TICKETS: Record<number, string> = {
   668: "https://www.ticketcorner.ch/artist/hive-air/",
   669: "https://liquicity.com/events/liquicity-vienna-2026/",
   670: "https://www.verknipt.org/berlin/",
-  671: "https://swg3.tv/events",
+  671: "https://www.skiddle.com/whats-on/Glasgow/SWG3/Notion--SHUFFA/42627723/?sktag=15816",
   680: "https://www.tiketti.fi/fury-cara-elizabeth-johannes-schuster-mika-heggemann-lippuja/119761",
   681: "https://vega.dk/en/event/dj-aligator-2026-10-16",
   683: "https://www.eventim.de/en/event/paul-van-dyk-live-2026-docks-hamburg-21011862/",
@@ -2494,7 +2494,7 @@ const TICKETS: Record<number, string> = {
   708: "https://www.sneakypetes.co.uk/gigs",
   714: "https://www.nukranox.at/en/home/",
   715: "https://lehmann-discotronic.ticket.io/pM4bsHHs/",
-  716: "https://swg3.tv/events",
+  716: "https://www.skiddle.com/whats-on/Glasgow/TV-Studio---SWG3/Kimmic--SWG3/42256468/?sktag=15816",
   719: "https://www.sneakypetes.co.uk/gigs",
   721: "https://3arena.ie/events/duke-dumont",
   726: "https://pumpehuset.dk/en/koncerter/cassius-club-360-special-guest/",
@@ -2628,24 +2628,24 @@ const TICKETS: Record<number, string> = {
   952: "https://www.jds.fr/paris/concerts/electro/gold-panda-1636668_A",
   953: "https://shotgun.live/fr/events/unfaced-w-eczodia-jacidorex-b-2-b-heavora-protokseed",
   678: "https://dice.fm/event/6a3e9ea24ed8b100012b4625", // Lane 8 at New Century
-  690: "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Annie-Mac---Before-Midnight---Liverpool/42467395/", // Annie Mac at Invisible Wind Factory
-  704: "https://www.skiddle.com/whats-on/London/Studio-338---London/Liberation-pres-PVD-LDN-Paul-Van-Dyk/42410188/", // Paul van Dyk at Studio 338
-  706: "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Above--Beyond-presents-Anjunabeats-Liverpool/42596972/", // Above & Beyond at Blackstone Street Warehouse
-  718: "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/An-Evening-With-Chicane---Nottingham/42435064/", // Chicane at The Palais
+  690: "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Annie-Mac---Before-Midnight---Liverpool/42467395/?sktag=15816", // Annie Mac at Invisible Wind Factory
+  704: "https://www.skiddle.com/whats-on/London/Studio-338---London/Liberation-pres-PVD-LDN-Paul-Van-Dyk/42410188/?sktag=15816", // Paul van Dyk at Studio 338
+  706: "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Above--Beyond-presents-Anjunabeats-Liverpool/42596972/?sktag=15816", // Above & Beyond at Blackstone Street Warehouse
+  718: "https://www.skiddle.com/whats-on/Nottingham/The-Palais-Nottingham/An-Evening-With-Chicane---Nottingham/42435064/?sktag=15816", // Chicane at The Palais
   725: "https://dice.fm/venue/belgrave-music-hall-43x4", // Romare at Belgrave Music Hall
-  745: "https://www.skiddle.com/whats-on/London/Studio-338/IllumiNaughty-20-Years-Of-Chaos---Vini-Vici--More/42405520/", // Vini Vici & Blastoyz at Studio 338
+  745: "https://www.skiddle.com/whats-on/London/Studio-338/IllumiNaughty-20-Years-Of-Chaos---Vini-Vici--More/42405520/?sktag=15816", // Vini Vici & Blastoyz at Studio 338
   766: "https://dice.fm/event/pybymy-dusky-originals-2010-2025-set-21st-nov-phonox-london-tickets", // Dusky at Phonox
-  775: "https://www.skiddle.com/whats-on/Bristol/Thekla/Ivy-Lab-A-Farewell-Tour-Bristol---Final-Ever-Set/42604004/", // Ivy Lab at Thekla
-  780: "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/ATW-pres-Interplanetary-Criminal--Guests/42617123/", // Interplanetary Criminal at The Prospect Building
-  786: "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Bugged-Out-presents-Sven-Vth-Dave-Clarke-Erol-Alkan--more/42628302/", // Sven Väth at DOCUMENT
-  796: "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Tisto---Blackstone-St-Warehouse---Liverpool/42468896/", // Tiësto at Blackstone Street Warehouse
-  674: "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Cristoph--Joshua-Brooks-Manchester/42614180/", // Cristoph at Joshua Brooks
-  689: "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ERIC-PRYDZ---GASWRX-Birmingham/42624600/", // Eric Prydz at GASWRX
-  705: "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/History-Of-Rave-Eats-Everything-Groove-Armada--More-TBA/42617127/", // Eats Everything & Groove Armada at The Prospect Building
-  707: "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Dusky-Signals-Tour---Liverpool/42514971/", // Dusky at Hangar 34
+  775: "https://www.skiddle.com/whats-on/Bristol/Thekla/Ivy-Lab-A-Farewell-Tour-Bristol---Final-Ever-Set/42604004/?sktag=15816", // Ivy Lab at Thekla
+  780: "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/ATW-pres-Interplanetary-Criminal--Guests/42617123/?sktag=15816", // Interplanetary Criminal at The Prospect Building
+  786: "https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/Bugged-Out-presents-Sven-Vth-Dave-Clarke-Erol-Alkan--more/42628302/?sktag=15816", // Sven Väth at DOCUMENT
+  796: "https://www.skiddle.com/whats-on/Liverpool/Blackstone-Street-Warehouse/Tisto---Blackstone-St-Warehouse---Liverpool/42468896/?sktag=15816", // Tiësto at Blackstone Street Warehouse
+  674: "https://www.skiddle.com/whats-on/Manchester/Joshua-Brooks/Cristoph--Joshua-Brooks-Manchester/42614180/?sktag=15816", // Cristoph at Joshua Brooks
+  689: "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ERIC-PRYDZ---GASWRX-Birmingham/42624600/?sktag=15816", // Eric Prydz at GASWRX
+  705: "https://www.skiddle.com/whats-on/Bristol/The-Prospect-Building/History-Of-Rave-Eats-Everything-Groove-Armada--More-TBA/42617127/?sktag=15816", // Eats Everything & Groove Armada at The Prospect Building
+  707: "https://www.skiddle.com/whats-on/Liverpool/Hangar-34/Dusky-Signals-Tour---Liverpool/42514971/?sktag=15816", // Dusky at Hangar 34
   709: "https://dice.fm/event/k6lm2o-romare-live-22nd-oct-village-underground-london-tickets", // Romare at Village Underground
-  717: "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ABOVE--BEYOND-presents-Anjunabeats-Warehouse-at-GASWRX/42596982/", // Above & Beyond at GASWRX
-  781: "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Adam-F-LIVE---Circles-Revisited-Tour/42535933/", // Adam F at Castle & Falcon
+  717: "https://www.skiddle.com/whats-on/Birmingham/GASWRX/ABOVE--BEYOND-presents-Anjunabeats-Warehouse-at-GASWRX/42596982/?sktag=15816", // Above & Beyond at GASWRX
+  781: "https://www.skiddle.com/whats-on/Birmingham/The-Castle-And-Falcon/Adam-F-LIVE---Circles-Revisited-Tour/42535933/?sktag=15816", // Adam F at Castle & Falcon
   813: "https://edwinterfest.com/hogmanay/whats-on/hogmanay-in-the-gardens-with-underworld/book", // Underworld at Princes Street Gardens
   673: "https://dice.fm/venue/input---high-fidelity-dance-club-gdgb", // Kolter · Input Barcelona
   771: "https://www.salarazzmatazz.com/agenda/25-11-2026-trinix/", // Trinix · Razzmatazz
@@ -2667,6 +2667,7 @@ const TICKETS: Record<number, string> = {
   817: "https://xceed.me/it/torino/event/blawan-setaoc-mass-the-lady-machine-roll-dann-hosted-by-laster-club-at-q35-warehouse-1/239095", // Blawan & Setaoc Mass · Q35 Warehouse
   826: "https://xceed.me/it/torino/event/alarico-all-night-long-italian-premiere-flirt-mutual-rytm-key-vinyl-it/239099", // Alarico · Q35 Warehouse
   430: "https://www.olympiahall.com/agenda/overmono/", // Overmono à l'Olympia
+  665: "https://www.skiddle.com/whats-on/Ireland/Cyprus-Avenue/Paul-Oakenfold/42611219/?sktag=15816", // Paul Oakenfold at Cyprus Avenue, Cork
 };
 /* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
    partenariat payant). Google demande que ces liens sortants portent
@@ -2677,14 +2678,15 @@ const SPONSORED_TICKETS = new Set<number>([
   25, // Positiv Festival → Ticketmaster
 ]);
 
-/* Réseaux dont le tag Impact (`components/ImpactAffiliate.tsx`) réécrit
-   automatiquement les liens sortants en liens affiliés. Tenir la liste à jour ici
-   plutôt qu'événement par événement : `transformLinks` s'applique au domaine, pas à
-   un id, donc tout lien vers ces hôtes est rémunéré **qu'on l'ait déclaré ou non**,
-   et un lien payant non déclaré est une infraction aux règles de Google sur les
-   liens. La liste explicite ci-dessus reste utile pour les partenariats négociés
-   ailleurs (un lien direct organisateur, par exemple). */
-const AFFILIATE_HOSTS = ["ticketmaster.", "livenation.", "ticketweb.", "evyy.net"];
+/* Hôtes dont un lien sortant est rémunéré, donc `rel="sponsored"` obligatoire. Deux
+   familles : les réseaux que le tag Impact (`components/ImpactAffiliate.tsx`) réécrit
+   tout seul en liens affiliés (`transformLinks` s'applique au domaine, pas à un id,
+   donc tout lien vers ces hôtes est rémunéré **qu'on l'ait déclaré ou non**), et
+   Skiddle, dont chaque lien du catalogue porte notre `?sktag=` en dur. Tenir la liste
+   à jour ici plutôt qu'événement par événement : un lien payant non déclaré est une
+   infraction aux règles de Google sur les liens. La liste explicite ci-dessus reste
+   utile pour les partenariats négociés ailleurs (un lien direct organisateur). */
+const AFFILIATE_HOSTS = ["ticketmaster.", "livenation.", "ticketweb.", "evyy.net", "skiddle."];
 
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
