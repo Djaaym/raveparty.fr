@@ -1,5 +1,5 @@
 import type { Lang, RaveEvent } from "@/lib/types";
-import { cardBg, imageFull, photoCredit, isPhotoOf } from "@/lib/data";
+import { cardBg, imageFull, photoCredit, imageSourceOf } from "@/lib/data";
 import { imageAlt } from "@/lib/format";
 import { getDict } from "@/lib/i18n";
 import { outboundRel } from "@/lib/display";
@@ -26,7 +26,7 @@ export default function HeroImage({ e, lang }: { e: RaveEvent; lang: Lang }) {
       <img
         className="bg"
         src={src}
-        alt={imageAlt(e, lang, isPhotoOf(e))}
+        alt={imageAlt(e, lang, imageSourceOf(e))}
         decoding="async"
         /* Lowercased on purpose: react-dom 18 doesn't know `fetchPriority` and would pass
            the camelCase spelling through as an unknown prop, with a dev warning. */

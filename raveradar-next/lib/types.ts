@@ -38,6 +38,11 @@ export interface RaveEvent {
  * d'accueil, /explore, /map et /account. Le chemin est donc résolu côté serveur, une
  * fois, et voyage avec l'événement.
  */
+/** D'où vient le visuel d'une fiche, et donc ce que son `alt` a le droit d'affirmer.
+ *  `PHOTOS` mélange une photo et une affiche d'organisateur : les annoncer toutes les
+ *  deux comme une photo est faux. `IMAGES` porte les affiches générées. */
+export type ImageSource = "photo" | "flyer" | "ai";
+
 export interface CardEvent extends RaveEvent {
   /** `eventPath(e)`. */
   path: string;
@@ -46,7 +51,7 @@ export interface CardEvent extends RaveEvent {
   /** `cardBg(e)`, le repli en dégradé de genre quand il n'y a pas de fichier. */
   bg: string;
   /** Vraie photo (`PHOTOS`) plutôt que visuel généré : ça change le texte de l'`alt`. */
-  isPhoto: boolean;
+  img: ImageSource;
 }
 
 export interface GenreColor {

@@ -10,7 +10,7 @@ import {
   slugify,
   todayISO,
   upcoming,
-  venueLabelL, cardEvent, eventPath, isPhotoOf } from "@/lib/data";
+  venueLabelL, cardEvent, eventPath, imageSourceOf } from "@/lib/data";
 import { VENUES, venueGenres, venueKind, venueRegulars } from "@/lib/venues";
 import { VENUE_SHOTS } from "@/lib/venue-photos";
 
@@ -183,7 +183,7 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
                       <img
                         className="venuecard-shot"
                         src={shot.src}
-                        alt={imageAlt(shot.e, lang, isPhotoOf(shot.e))}
+                        alt={imageAlt(shot.e, lang, imageSourceOf(shot.e))}
                         width={96}
                         height={120}
                         loading="lazy"

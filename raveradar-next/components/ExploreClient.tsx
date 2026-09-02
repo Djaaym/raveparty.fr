@@ -16,7 +16,7 @@ function Row({ e, lang }: { e: CardEvent; lang: Lang }) {
     // a middle click and a crawler just like the card grid does.
     <Link className="row-card" href={href}>
       {e.thumb ? (
-        <img className="thumb" src={e.thumb} alt={imageAlt(e, lang, e.isPhoto)} width={560} height={700} loading="lazy" decoding="async" />
+        <img className="thumb" src={e.thumb} alt={imageAlt(e, lang, e.img)} width={560} height={700} loading="lazy" decoding="async" />
       ) : (
         <div className="thumb" style={{ backgroundImage: e.bg }} />
       )}

@@ -1,5 +1,6 @@
-import type { RaveEvent, CardEvent, Lang } from "./types";
+import type { RaveEvent, CardEvent, ImageSource, Lang } from "./types";
 import { SITE_URL } from "./site";
+import { FLYERS } from "./flyer-photos";
 /**
  * Les briques d'affichage (couleurs de genre, libellés de pays, comparaisons de
  * dates) vivent dans `lib/display.ts`, un module feuille sans aucune dépendance.
@@ -2763,8 +2764,14 @@ export const PHOTO_CREDITS: Record<number, PhotoCredit> = {
 };
 /* PHOTO_CREDITS:end */
 
-/** Vraie photo plutôt que visuel généré, ce que `imageAlt()` doit dire au lecteur. */
-export const isPhotoOf = (e: RaveEvent): boolean => Boolean(PHOTOS[e.id]);
+/* D'où vient le visuel, en trois états et pas deux. `PHOTOS` mélange une photo de
+   mainstage, une photo de salle et l'affiche publiée par l'organisateur : annoncer les
+   trois comme une photo est faux, et l'`alt` du site existe pour rester honnête sur la
+   source. `FLYERS` (module feuille généré) porte les fichiers qui sont une affiche. */
+export const imageSourceOf = (e: RaveEvent): ImageSource => {
+  const f = PHOTOS[e.id];
+  return f ? (FLYERS.has(f) ? "flyer" : "photo") : "ai";
+};
 
 /** Le crédit à afficher sous la photo d'un événement, s'il y en a un à afficher. */
 export const photoCredit = (e: RaveEvent): PhotoCredit | null =>
@@ -4016,7 +4023,7 @@ export const cardEvents = (events: RaveEvent[] = EVENTS, keepLineup = false): Ca
     path: eventPath(e),
     thumb: imageThumb(e),
     bg: cardBg(e),
-    isPhoto: isPhotoOf(e),
+    img: imageSourceOf(e),
     title: e.title,
     type: e.type,
     genres: e.genres,

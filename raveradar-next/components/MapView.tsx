@@ -126,7 +126,7 @@ export default function MapView({ lang, today, catalogue }: { lang: Lang; today:
               }}
             >
               {e.thumb ? (
-                <img className="mthumb" src={e.thumb} alt={imageAlt(e, lang, e.isPhoto)} loading="lazy" decoding="async" />
+                <img className="mthumb" src={e.thumb} alt={imageAlt(e, lang, e.img)} loading="lazy" decoding="async" />
               ) : (
                 <div className="mthumb" style={{ backgroundImage: e.bg }} />
               )}

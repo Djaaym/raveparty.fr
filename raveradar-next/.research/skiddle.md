@@ -195,13 +195,19 @@ logo écarté par le contrôle de platitude du script, qui a fait exactement son
 déjà celle du script (JPEG 82, WebP 72) ; une affiche est un visuel dense, elle
 compresse mal, et 190 Ko pour 1 200 px est le prix normal.
 
-**Limite connue, l'`alt` ne distingue pas encore l'affiche de la photo.**
-`imageAlt()` n'a que deux états, « Photo de … » pour `PHOTOS` et « Visuel
-d'illustration de … » pour les affiches IA. Une affiche de promoteur tombe dans le
-premier et se fait donc annoncer comme une photo. Le distinguer demanderait un
-module feuille de plus (sur le modèle de `lib/venue-photos.ts`) et un champ de plus
-dans `CardEvent`, ce qui touche la charge utile des composants client : à faire
-sciemment, pas en passant.
+**L'`alt` distingue désormais l'affiche de la photo, en trois états.** Il n'en avait
+que deux, « Photo de … » pour tout `PHOTOS` et « Visuel d'illustration de … » pour les
+affiches IA ; une affiche de promoteur tombait dans le premier et se faisait annoncer
+comme une photo. `lib/flyer-photos.ts` (module feuille généré par
+`python3 .research/photos/flyer-shots.py`, sur le modèle exact de `venue-photos.ts`)
+porte les **449 fichiers** qui sont une affiche, `imageSourceOf()` rend
+`"photo" | "flyer" | "ai"`, et `CardEvent.isPhoto` devient `CardEvent.img`. Le défaut
+était plus large que ce lot : 183 des 449 viennent de lots antérieurs.
+
+Ce qui n'entre pas dans `FLYERS` : le visuel carré `_1024.jpg` d'une fiche Skiddle.
+C'est bien ce que le promoteur a versé, mais rien ne dit que c'est une affiche plutôt
+qu'une photo, et on ne devine pas. Seul le `_eflyer`, slot dédié de Skiddle, est
+certain.
 
 ## Obligation qui vient avec
 
