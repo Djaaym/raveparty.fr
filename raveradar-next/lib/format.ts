@@ -36,14 +36,17 @@ export function imageAlt(e: RaveEvent, lang: Lang, isPhoto: boolean): string {
     month: "long",
     year: "numeric",
   });
+  // La parenthèse ouvrante n'était jamais fermée en français, et en anglais c'est la
+  // fermante qui s'était égarée juste après le titre : « Photo of X) Thekla, Bristol ».
+  // Deux caractères, mais répétés dans l'`alt` de chaque visuel du site.
   if (isPhoto) {
     return lang === "fr"
-      ? `Photo de ${e.title} (${where}, ${when}`
-      : `Photo of ${e.title}) ${where}, ${when}`;
+      ? `Photo de ${e.title} (${where}, ${when})`
+      : `Photo of ${e.title} (${where}, ${when})`;
   }
   return lang === "fr"
-    ? `Visuel d'illustration de ${e.title} (${where}, ${when}`
-    : `Illustrative key visual for ${e.title}) ${where}, ${when}`;
+    ? `Visuel d'illustration de ${e.title} (${where}, ${when})`
+    : `Illustrative key visual for ${e.title} (${where}, ${when})`;
 }
 
 export function priceLabel(e: RaveEvent, lang: Lang): string {

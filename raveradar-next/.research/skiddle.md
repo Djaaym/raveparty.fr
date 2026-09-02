@@ -173,6 +173,36 @@ source française, pas de celle-ci. Douze villes britanniques entrent dans `PLAC
 Aberdeen, Milton Keynes, Preston, Northampton, Peterborough), Gateshead est rattaché
 à Newcastle.
 
+## L'affiche de l'organisateur, elle, est servie par Skiddle
+
+Une fiche Skiddle porte le presskit du promoteur, et à trois tailles qu'il faut
+connaître : le JSON-LD ne donne que le `_400.jpg` (22 Ko), la page contient aussi un
+`_1024.jpg` carré, et surtout un **`_eflyer.jpg`**, l'affiche d'origine, mesurée
+jusqu'à 2000x2400. Les largeurs intermédiaires (`_800`, `_1000`, `_1200`) répondent
+**403** : ce sont trois variantes fixes, pas un redimensionneur.
+
+**418 des 421 nouvelles fiches** en ont une, dont 282 en `_eflyer`. Le format tombe
+juste : une affiche est portrait, c'est exactement le crop 4:5 que `imageThumb()`
+demande, là où une photo paysage se fait couper. Passées par
+`.research/photos/ingest.py` comme n'importe quel lot, avec `kind: "event"` et le nom
+du promoteur en crédit (l'`organizer` du JSON-LD), donc affiché sous l'image.
+
+Résultat sur tout le catalogue : **1 010 photos + 274 affiches IA sur 1 289
+événements**, il ne reste que **5 fiches sans visuel**. Un seul rejet, un aplat de
+logo écarté par le contrôle de platitude du script, qui a fait exactement son travail.
+
+**Ce que ça pèse** : 415 fichiers, donc 830 avec les vignettes, 97 Mo. La qualité est
+déjà celle du script (JPEG 82, WebP 72) ; une affiche est un visuel dense, elle
+compresse mal, et 190 Ko pour 1 200 px est le prix normal.
+
+**Limite connue, l'`alt` ne distingue pas encore l'affiche de la photo.**
+`imageAlt()` n'a que deux états, « Photo de … » pour `PHOTOS` et « Visuel
+d'illustration de … » pour les affiches IA. Une affiche de promoteur tombe dans le
+premier et se fait donc annoncer comme une photo. Le distinguer demanderait un
+module feuille de plus (sur le modèle de `lib/venue-photos.ts`) et un champ de plus
+dans `CardEvent`, ce qui touche la charge utile des composants client : à faire
+sciemment, pas en passant.
+
 ## Obligation qui vient avec
 
 `skiddle.` est dans `AFFILIATE_HOSTS` (`lib/data.ts`). Chaque lien taggé est
