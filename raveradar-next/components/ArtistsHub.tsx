@@ -15,6 +15,7 @@ import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import ArtistDirectory from "./ArtistDirectory";
 import JsonLd from "./JsonLd";
+import { outboundRel } from "@/lib/display";
 
 export default function ArtistsHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
@@ -278,7 +279,7 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
                       {src && (
                         <>
                           {" ("}
-                          <a href={src.href} target="_blank" rel="noopener noreferrer nofollow">
+                          <a href={src.href} target="_blank" rel={outboundRel()}>
                             {src.label}
                           </a>
                           {")"}

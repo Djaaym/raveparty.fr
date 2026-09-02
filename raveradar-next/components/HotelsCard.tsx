@@ -1,4 +1,5 @@
 import type { Lang, RaveEvent } from "@/lib/types";
+import { outboundRel } from "@/lib/display";
 import { fmtDate } from "@/lib/format";
 import { hotelStay } from "@/lib/hotels";
 import { getDict } from "@/lib/i18n";
@@ -54,7 +55,7 @@ export default function HotelsCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
       <a
         href={stay.url}
         target="_blank"
-        rel="sponsored noopener noreferrer"
+        rel={outboundRel(true)}
         className="btn btn-primary btn-block hotel-cta"
         data-goal="hotel"
       >

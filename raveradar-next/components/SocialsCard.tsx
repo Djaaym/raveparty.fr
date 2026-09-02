@@ -8,6 +8,7 @@ import {
   type Socials,
 } from "@/lib/socials";
 import InstagramFeed from "./InstagramFeed";
+import { outboundRel } from "@/lib/display";
 
 /** Le glyphe Instagram, en SVG inline, un fichier de moins à charger pour une icône. */
 function InstagramMark() {
@@ -65,7 +66,7 @@ export default function SocialsCard({
           className="social-ig"
           href={socialUrl("instagram", ig)}
           target="_blank"
-          rel="noopener noreferrer nofollow"
+          rel={outboundRel()}
         >
           <span className="social-ig-mark">
             <InstagramMark />
@@ -83,7 +84,7 @@ export default function SocialsCard({
       {others.length > 0 && (
         <div className="linkfarm social-others">
           {others.map((l) => (
-            <a key={l.net} href={l.url} target="_blank" rel="noopener noreferrer nofollow">
+            <a key={l.net} href={l.url} target="_blank" rel={outboundRel()}>
               {labels[l.net]}
               {l.handle && ` · ${l.handle}`}
             </a>

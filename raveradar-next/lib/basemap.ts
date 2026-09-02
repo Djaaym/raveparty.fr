@@ -24,9 +24,9 @@ export const BASEMAP_STYLE = "https://tiles.openfreemap.org/styles/dark";
 
 /** OSM exige l'attribution, OpenMapTiles aussi (le schéma des tuiles). */
 export const BASEMAP_ATTRIB =
-  '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> · ' +
-  '© <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> · ' +
-  '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+  '<a href="https://openfreemap.org" target="_blank" rel="nofollow noopener noreferrer">OpenFreeMap</a> · ' +
+  '© <a href="https://www.openmaptiles.org/" target="_blank" rel="nofollow noopener noreferrer">OpenMapTiles</a> · ' +
+  '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="nofollow noopener noreferrer">OpenStreetMap</a>';
 
 /** MapLibre rend des tuiles de 512 px : à échelle égale, son zoom vaut celui de
  *  Leaflet moins un. Les niveaux du site sont écrits en « zoom Leaflet » depuis

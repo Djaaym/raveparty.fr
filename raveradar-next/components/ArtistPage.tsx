@@ -17,6 +17,7 @@ import Breadcrumbs from "./Breadcrumbs";
 import AlertForm from "./AlertForm";
 import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
+import { outboundRel } from "@/lib/display";
 
 export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -149,7 +150,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                 {bio.sources.map((u, i) => (
                   <span key={u}>
                     {i > 0 && " · "}
-                    <a href={u} target="_blank" rel="noopener noreferrer nofollow">
+                    <a href={u} target="_blank" rel={outboundRel()}>
                       {new URL(u).hostname.replace(/^www\./, "")}
                     </a>
                   </span>
@@ -169,7 +170,7 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
               {source && (
                 <>
                   {" "}
-                  <a href={source.href} target="_blank" rel="noopener noreferrer nofollow">
+                  <a href={source.href} target="_blank" rel={outboundRel()}>
                     {source.label}
                   </a>
                 </>

@@ -117,3 +117,27 @@ export const lastDay = (e: RaveEvent): string => e.endDate ?? e.date;
 export const isPast = (e: RaveEvent, ref = todayISO()): boolean => lastDay(e) < ref;
 /** True while the event is running right now. */
 export const isLive = (e: RaveEvent, ref = todayISO()): boolean => e.date <= ref && lastDay(e) >= ref;
+
+/**
+ * `rel` d'un lien sortant, la seule fonction qui décide de ce qu'on met dedans.
+ *
+ * **Tout lien qui quitte le site porte `nofollow`**, sans exception : billetterie,
+ * hôtel, site d'organisateur, compte Instagram, source d'une bio, attribution de la
+ * carte. Le maillage qu'on construit sert les pages du site, pas celles des autres,
+ * et un annuaire qui distribue son autorité à 900 domaines externes la dilue au lieu
+ * de la concentrer. C'est aussi ce qui protège des liens qu'on ne contrôle pas : une
+ * billetterie qui change de main ou un compte qui se fait pirater ne nous emmène pas
+ * avec lui.
+ *
+ * `paid` ajoute `sponsored`, et les deux se cumulent volontairement. Google les traite
+ * comme des indications, pas comme des directives : `sponsored` déclare la nature
+ * commerciale du lien (obligation, cf. `AFFILIATE_HOSTS` dans `lib/data.ts`),
+ * `nofollow` dit de ne pas suivre. Aucun des deux ne rend l'autre superflu, et la
+ * documentation autorise explicitement plusieurs valeurs sur un même lien.
+ *
+ * Écrire un `rel=` à la main sur une ancre externe est une erreur : le prochain lien
+ * ajouté oubliera `nofollow`, comme les six qui l'avaient oublié avant ce helper.
+ * `npm run check:rel` refuse une ancre sortante qui ne passe pas par ici.
+ */
+export const outboundRel = (paid = false): string =>
+  `${paid ? "sponsored nofollow" : "nofollow"} noopener noreferrer`;

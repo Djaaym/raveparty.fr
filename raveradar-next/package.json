@@ -10,7 +10,8 @@
     "start": "next start",
     "lint": "next lint",
     "check:fresh": "node scripts/check-featured.mjs",
-    "check:titles": "node scripts/check-titles.mjs"
+    "check:titles": "node scripts/check-titles.mjs",
+    "check:rel": "node scripts/check-rel.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.24.0",
