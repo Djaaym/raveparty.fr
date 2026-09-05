@@ -1845,7 +1845,7 @@ export const PHOTOS: Record<number, string> = {
   393: "airbeat-one-e395850348.jpg", // Airbeat One, Neustadt-Glewe
   394: "electric-love-festival-b216f8cc64.jpg", // Electric Love Festival, Salzburg
   395: "ostend-beach-festival-9877ebba94.jpg", // Ostend Beach Festival, Ostend
-  396: "boom-festival-47e0406e27.jpg", // Boom Festival, Idanha-a-Nova
+  396: "boom-festival-a28ef7d9ef.jpg", // Boom Festival, Idanha-a-Nova
   397: "ortigia-music-0e5dde3cfc.jpg", // ortigia music, Syracuse
   399: "wos-festival-c1b64186ee.jpg", // WOS Festival, Santiago de Compostela
   400: "festival-le-bon-air-166ab1516a.jpg", // PACT à la Friche la Belle de Mai, Marseille
@@ -2739,7 +2739,6 @@ export const PHOTO_CREDITS: Record<number, PhotoCredit> = {
   392: { author: "roger architect", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Ruhr_in_Love_2007_Oberhausen.jpg" },
   394: { author: "Ss279", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Electric_Love_2021_Main.jpg" },
   395: { author: "Getfitvi", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Ostend_beach_festival.jpg" },
-  396: { author: "Artem Kavalerov", license: "CC0", page: "https://commons.wikimedia.org/wiki/File:Boom_Flame_%28184154043%29.jpeg" },
   422: { author: "Thesupermat", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Festival_des_Vieilles_Charrues_2018_-_Yuksek_-_006.jpg" },
   426: { author: "Chabe01", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Salle_Spectacle_Bataclan_-_Paris_XI_(FR75)_-_2026-01-18_-_1.jpg" },
   430: { author: "KoS", license: "CC BY-SA 3.0", page: "https://commons.wikimedia.org/wiki/File:Olympia_salle.jpg" },

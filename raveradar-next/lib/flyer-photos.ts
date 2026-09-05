@@ -58,6 +58,7 @@ export const FLYERS: ReadonlySet<string> = new Set([
   "blacklist-inurfase-pres-zaagstep-by-dr-donk-750beba828.jpg",
   "blawan-setaoc-mass-q35-warehouse-e92867b8f5.jpg",
   "bonsai-presents-tino-wax-material-2c0bb464be.jpg",
+  "boom-festival-a28ef7d9ef.jpg",
   "bootshaus-1515fe3a4f.jpg",
   "born-on-road-634d311931.jpg",
   "bou-crossy-9faa3dd0fa.jpg",

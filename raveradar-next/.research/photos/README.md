@@ -45,6 +45,23 @@ publiée par l'organisateur.
 5. **Mieux vaut aucune entrée qu'une mauvaise entrée.** Un événement sans photo trouvable est
    simplement absent du JSON ; il gardera son dégradé de genre.
 
+## Visuel déposé à la main
+
+Quand l'original n'est servi par aucune URL stable, le visuel se dépose dans
+`.research/photos/local/` et son entrée porte `"image": "local:{fichier}"`. C'est la même
+porte que `.research/artists/local/`, et elle a la même contrepartie : **la responsabilité
+des droits est celle du déposant**, aucune licence n'étant lue par le script. Le reste ne
+change pas, l'entrée passe par le même contrôle qualité et les mêmes dérivés.
+
+Ce que cette route ne désarme pas : `commons_credit()` ne rend un crédit que pour un fichier
+`upload.wikimedia.org`, donc une entrée locale ne peut pas hériter d'un crédit Commons. C'est
+volontaire, un crédit faux est pire qu'un crédit absent, et remplacer une photo Commons par un
+visuel d'organisateur doit retirer l'attribution avec elle (cas de l'affiche du Boom 2027, qui
+a remplacé une photo CC0 d'Artem Kavalerov).
+
+Le cas d'usage reste l'exception, pas le raccourci : le site de l'organisateur qui ne sert son
+artwork que derrière un rendu JS. Une URL simplement pas encore cherchée n'en est pas un.
+
 ## Où chercher
 
 - **Wikimedia Commons en priorité quand ça existe** (licence libre, c'est le cas des gros festivals :
