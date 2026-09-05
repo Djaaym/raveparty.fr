@@ -280,12 +280,12 @@
  },
  {
   "id": 396,
-  "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Boom_Flame_%28184154043%29.jpeg",
-  "sourcePage": "https://commons.wikimedia.org/wiki/File:Boom_Flame_%28184154043%29.jpeg",
-  "credit": "Artem Kavalerov / Wikimedia Commons, CC0",
+  "image": "local:boom-festival-2027.webp",
+  "sourcePage": "https://www.boomfestival.org/boom2027/",
+  "credit": "Boom Festival (visuel officiel)",
   "kind": "festival",
   "width": 1920,
-  "note": "installation lumineuse nocturne sur le site du Boom Festival a Idanha-a-Nova"
+  "note": "affiche officielle de l'edition 2027 (Celebrating 30 Years), deposee a la main : le site de l'organisateur ne sert l'artwork que via son rendu JS, seul l'og:image BF27-og-preview.jpg (banniere 1200x630) est lisible cote serveur"
  },
  {
   "id": 397,

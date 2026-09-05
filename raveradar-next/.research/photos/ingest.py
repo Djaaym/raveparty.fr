@@ -11,6 +11,9 @@ Pour chaque URL retenue on produit deux fichiers dans public/posters/ :
 Deux événements qui pointent la même URL (une photo de salle partagée par toutes
 ses dates) partagent le même fichier : la dédup se fait sur l'URL *et* sur le
 hash du contenu téléchargé.
+
+Une entrée peut aussi porter `"image": "local:{fichier}"`, lu dans
+`.research/photos/local/` : voir le README, section « Visuel déposé à la main ».
 """
 import argparse
 import re, hashlib, io, json, subprocess, sys, time, unicodedata
@@ -19,6 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 PHOTOS_DIR = ROOT / ".research" / "photos"
 OUT_DIR = ROOT / "public" / "posters"
+LOCAL_DIR = PHOTOS_DIR / "local"
 DATA_TS = ROOT / "lib" / "data.ts"
 
 MIN_WIDTH = 500          # en dessous, la photo pixellise sur une carte 4:5
@@ -77,6 +81,7 @@ WIKI_UA = "RaveRadarBot/1.0 (https://raveparty.fr; event poster fetch) curl"
 
 
 CACHE = PHOTOS_DIR / ".cache"
+LOCAL = "local:"   # préfixe d'un visuel déposé à la main dans .research/photos/local/
 
 
 def looks_like_image(raw: bytes) -> bool:
@@ -95,11 +100,21 @@ def looks_like_image(raw: bytes) -> bool:
 def fetch(url: str, tries: int = 3):
     """curl plutôt que urllib : le proxy sortant est déjà configuré pour lui.
 
+    Une entrée `local:{fichier}` se lit dans `.research/photos/local/` au lieu d'être
+    téléchargée : c'est la même porte que `.research/artists/local/`, pour un visuel
+    déposé à la main quand l'original n'est servi par aucune URL stable (l'affiche
+    officielle du Boom 2027 n'existe sur le site de l'organisateur que derrière son
+    rendu JS). La responsabilité des droits est celle du déposant, comme là-bas.
+
     Les octets réussis sont mis en cache sur disque : relancer le script ne
     retente alors que les URLs encore en échec, au lieu de re-solliciter les
     ~270 hôtes (c'est ce matraquage qui faisait tomber des fichiers Commons
     au hasard d'un run à l'autre).
     """
+    if url.startswith(LOCAL):
+        # Nom de fichier nu : `local:` désigne un dépôt du répertoire, pas un chemin.
+        f = LOCAL_DIR / Path(url[len(LOCAL):]).name
+        return f.read_bytes() if f.is_file() else b""
     CACHE.mkdir(exist_ok=True)
     blob = CACHE / hashlib.sha1(url.encode()).hexdigest()
     if blob.exists() and blob.stat().st_size >= MIN_BYTES:
@@ -300,7 +315,7 @@ def main():
                 continue
             if eid in already:
                 continue                      # déjà une affiche Higgsfield, on n'y touche pas
-            if not url.startswith("https://"):
+            if not url.startswith(("https://", LOCAL)):
                 print(f"!! {f.name}: id {eid} URL non https ({url[:60]})")
                 continue
             if eid in seen_ids:
@@ -405,9 +420,13 @@ def main():
         print("\nRejets détaillés :")
         for url, why, ids in rejected:
             print(f"  {why:<28} ids={ids} {url[:70]}")
-    json.dump({"mapping": mapping, "still_missing": sorted(still),
-               "rejected": [{"url": u, "why": w, "ids": i} for u, w, i in rejected]},
-              open(PHOTOS_DIR / "_ingest-report.json", "w"), ensure_ascii=False, indent=1)
+    # Le rapport est un écrit comme un autre : `--dry` annonçait « rien n'a été écrit »
+    # deux lignes plus haut et le réécrivait quand même, ce qui salit le diff d'un
+    # simple contrôle (l'ordre des clés de `mapping` change d'un run à l'autre).
+    if not args.dry:
+        json.dump({"mapping": mapping, "still_missing": sorted(still),
+                   "rejected": [{"url": u, "why": w, "ids": i} for u, w, i in rejected]},
+                  open(PHOTOS_DIR / "_ingest-report.json", "w"), ensure_ascii=False, indent=1)
 
 
 if __name__ == "__main__":
