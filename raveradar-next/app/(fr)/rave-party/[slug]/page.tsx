@@ -1,4 +1,4 @@
-import { alternates } from "@/lib/seo";
+import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 import { PLACES, placeBySlug } from "@/lib/places";
@@ -23,10 +23,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
      `lib/thin-pages.ts`. */
   const thin = !placeHasContent(place);
   return {
+    ...pageMeta({
+      lang: "fr",
+      path: `/rave-party/${params.slug}`,
+      title: `Rave party ${place.label} - festivals & soirées techno | RaveRadar`,
+      description: `Tous les festivals électro et soirées techno à ${place.label} et aux alentours. Dates, line-ups, billetterie. Active une alerte pour ne rien rater.`,
+    }),
     ...(thin ? { robots: NOINDEX_FOLLOW } : {}),
-    alternates: alternates(`/rave-party/${params.slug}`, "fr"),
-    title: `Rave party ${place.label} - festivals & soirées techno | RaveRadar`,
-    description: `Tous les festivals électro et soirées techno à ${place.label} et aux alentours. Dates, line-ups, billetterie. Active une alerte pour ne rien rater.`,
   };
 }
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { Lang, RaveEvent } from "./types";
-import { SITE_URL } from "./site";
+import { OG_DEFAULT, SITE_URL } from "./site";
 import { countryLabel, eventDescL, eventPath, eventVenueL, imageUrl, isPast, lastDay, slugify, ticketUrl } from "./data";
 import { hasArtistPage } from "./artists";
 
@@ -73,14 +73,20 @@ export function pageMeta(opts: {
   path: string;
   lang: Lang;
   image?: string | null;
+  /** Pour une page dont les deux langues n'ont pas le même chemin (voir `alternatesPair`). */
+  alternates?: Metadata["alternates"];
 }): Metadata {
-  const { description, path, lang, image } = opts;
+  const { description, path, lang, image, alternates: alt } = opts;
   const title = seoTitle(opts.title);
   const url = `${SITE_URL}${lang === "en" ? "/en" : ""}${path === "/" ? "" : path}`;
+  /* Une page sans visuel propre reçoit celui du site plutôt que rien : sans image, le
+     partage sort en carte étroite et sans vignette, ce qui est le format qu'on ignore
+     dans un fil de discussion. Voir `OG_DEFAULT`. */
+  const img = image ?? OG_DEFAULT;
   return {
     title,
     description,
-    alternates: alternates(path, lang),
+    alternates: alt ?? alternates(path, lang),
     openGraph: {
       title,
       description,
@@ -88,14 +94,9 @@ export function pageMeta(opts: {
       siteName: "RaveRadar",
       locale: lang === "en" ? "en_GB" : "fr_FR",
       type: "website",
-      ...(image ? { images: [{ url: image }] } : {}),
+      images: [{ url: img }],
     },
-    twitter: {
-      card: image ? "summary_large_image" : "summary",
-      title,
-      description,
-      ...(image ? { images: [image] } : {}),
-    },
+    twitter: { card: "summary_large_image", title, description, images: [img] },
   };
 }
 

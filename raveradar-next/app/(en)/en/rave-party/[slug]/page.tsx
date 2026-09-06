@@ -1,4 +1,4 @@
-import { alternates } from "@/lib/seo";
+import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 import CityPage from "@/components/CityPage";
 import { PLACES, placeBySlug } from "@/lib/places";
@@ -23,10 +23,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
      `lib/thin-pages.ts`. */
   const thin = !placeHasContent(place);
   return {
+    ...pageMeta({
+      lang: "en",
+      path: `/rave-party/${params.slug}`,
+      title: `Rave party ${place.label} - festivals & techno nights | RaveRadar`,
+      description: `Every electronic festival and techno night in and around ${place.label}. Dates, line-ups, tickets. Set an alert so you never miss out.`,
+    }),
     ...(thin ? { robots: NOINDEX_FOLLOW } : {}),
-    alternates: alternates(`/rave-party/${params.slug}`, "en"),
-    title: `Rave party ${place.label} - festivals & techno nights | RaveRadar`,
-    description: `Every electronic festival and techno night in and around ${place.label}. Dates, line-ups, tickets. Set an alert so you never miss out.`,
   };
 }
 

@@ -1,4 +1,6 @@
-import { alternates, seoTitle } from "@/lib/seo";
+import { alternates, pageMeta, seoTitle } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site";
+import { artistPhoto } from "@/lib/artist-photos";
 import type { Metadata } from "next";
 import ArtistPage from "@/components/ArtistPage";
 import { ARTISTS, artistBySlug, artistGenres, artistSubGenres, eventsForArtist } from "@/lib/artists";
@@ -21,11 +23,17 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   // Trio Xenakis, programmés sur des festivals multi-genres) : la phrase disparaît
   // alors entièrement, au lieu de finir sur un « Genres : . » creux.
   const styles = [...artistGenres(a), ...artistSubGenres(a)].join(", ");
-  return {
-    alternates: alternates(`/artistes/${params.slug}`, "fr"),
+  /* Le portrait de l'artiste comme image de partage quand il existe (336 fiches) :
+     c'est la personne dont parle la page, et une carte de partage sans visage se
+     confond avec toutes les autres. Sinon `pageMeta()` retombe sur l'image du site. */
+  const photo = artistPhoto(a.slug);
+  return pageMeta({
+    lang: "fr",
+    path: `/artistes/${params.slug}`,
     title: seoTitle(`${a.name} - dates, line-ups & festivals | RaveRadar`),
     description: `Où joue ${a.name} ? ${n} événement(s) référencé(s) : dates, line-ups, lieux et billetterie.${styles ? ` Genres : ${styles}.` : ""}`,
-  };
+    image: photo ? `${SITE_URL}/artists/${photo.file}` : null,
+  });
 }
 
 export default function Page({ params }: { params: { slug: string } }) {

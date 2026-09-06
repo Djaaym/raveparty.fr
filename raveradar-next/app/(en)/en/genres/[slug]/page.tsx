@@ -1,4 +1,4 @@
-import { alternates } from "@/lib/seo";
+import { alternates, pageMeta } from "@/lib/seo";
 import type { Metadata } from "next";
 import GenrePage from "@/components/GenrePage";
 import { ALL_GENRES, genreSlug, genreFromSlug, genreDescL } from "@/lib/data";
@@ -16,13 +16,14 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       title: "Genre - RaveRadar",
     };
   const prof = genreProfile(g);
-  return {
-    alternates: alternates(`/genres/${params.slug}`, "en"),
+  return pageMeta({
+    lang: "en",
+    path: `/genres/${params.slug}`,
     title: `${g} - events & parties across Europe | RaveRadar`,
     description: prof
       ? `${pickL(prof.hook, "en")} ${prof.bpm} BPM, ${pickL(prof.origin, "en")}. Every upcoming ${g} date in Europe.`
       : `${genreDescL(g, "en")}. Discover the best ${g} events in Europe: festivals, clubs and warehouses.`,
-  };
+  });
 }
 
 export default function Page({ params }: { params: { slug: string } }) {

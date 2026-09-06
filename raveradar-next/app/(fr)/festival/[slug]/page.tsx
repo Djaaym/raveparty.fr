@@ -40,10 +40,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (place)
     // Même règle que `/rave-party/{lieu}` : sans date à venir, rien à indexer.
     return {
+      ...pageMeta({
+        lang: "fr",
+        path: `/festival/${params.slug}`,
+        title: `Festival ${place.label} - line-ups, dates & billetterie | RaveRadar`,
+        description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
+      }),
       ...(placeHasContent(place) ? {} : { robots: NOINDEX_FOLLOW }),
-      alternates: alternates(`/festival/${params.slug}`, "fr"),
-      title: `Festival ${place.label} - line-ups, dates & billetterie | RaveRadar`,
-      description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
     };
   return {
     alternates: alternates(`/festival/${params.slug}`, "fr"),

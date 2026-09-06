@@ -1,5 +1,7 @@
 import type { RaveEvent } from "./types";
-import { EVENTS, rankGenres, slugify, upcomingFirst } from "./data";
+import { EVENTS, PHOTOS, rankGenres, slugify, upcomingFirst } from "./data";
+import { VENUE_SHOTS } from "./venue-photos";
+import { SITE_URL } from "./site";
 import { guideFor } from "./guides";
 
 export interface Venue {
@@ -90,4 +92,28 @@ export function venueKind(v: Venue): RaveEvent["type"] | undefined {
   const tally = new Map<RaveEvent["type"], number>();
   for (const e of eventsOf(v)) tally.set(e.type, (tally.get(e.type) ?? 0) + 1);
   return [...tally.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+}
+
+/**
+ * L'image de partage d'une fiche de salle.
+ *
+ * `PHOTOS` mélange trois choses : photo de mainstage, photo de salle et affiche de
+ * l'organisateur. Les trois illustrent légitimement un *événement*, une seule illustre
+ * un *lieu*, et partager le flyer d'un concert sous le nom d'un club annonce un
+ * événement qui n'est pas le sujet de la page. Le tri est celui des cartes de `/lieux`
+ * (`VENUE_SHOTS`, engendré par `.research/photos/venue-shots.py`), sorti ici pour que
+ * la carte de partage et la carte du hub montrent la même chose.
+ *
+ * La photo est cherchée parmi **toutes** les dates du lieu, passées comprises : une
+ * salle qui n'a pas de date à venir a quand même une façade, et la limiter à l'agenda
+ * priverait de visuel la moitié des fiches.
+ *
+ * URL absolue : les robots des réseaux sociaux ne résolvent pas un chemin relatif.
+ */
+export function venueOgImage(v: Venue): string | null {
+  for (const e of eventsOf(v)) {
+    const file = PHOTOS[e.id];
+    if (file && VENUE_SHOTS.has(file)) return `${SITE_URL}/posters/${file}`;
+  }
+  return null;
 }

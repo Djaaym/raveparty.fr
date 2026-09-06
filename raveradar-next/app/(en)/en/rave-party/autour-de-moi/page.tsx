@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { alternates } from "@/lib/seo";
+import { pageMeta } from "@/lib/seo";
 import NearMeView from "@/components/NearMeView";
 import { todayISO, cardEvents, upcoming } from "@/lib/data";
 import { PLACES } from "@/lib/places";
 import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
 import { getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  alternates: alternates("/rave-party/autour-de-moi", "en"),
+export const metadata: Metadata = pageMeta({
+  lang: "en",
+  path: "/rave-party/autour-de-moi",
   title: "Raves near me - electronic events close to you | RaveRadar",
-  description:
-    "Find the electronic festivals and rave parties closest to your location. Geolocation, sorted by distance.",
-};
+  description: "Find the electronic festivals and rave parties closest to your location. Geolocation, sorted by distance.",
+});
 
 export default function Page() {
   const today = todayISO();

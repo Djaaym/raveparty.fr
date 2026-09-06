@@ -40,10 +40,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   if (place)
     // Même règle que `/rave-party/{lieu}` : sans date à venir, rien à indexer.
     return {
+      ...pageMeta({
+        lang: "en",
+        path: `/festival/${params.slug}`,
+        title: `Festivals in ${place.label} - line-ups, dates & tickets | RaveRadar`,
+        description: `Every electronic music festival in and around ${place.label}. Dates, line-ups, tickets.`,
+      }),
       ...(placeHasContent(place) ? {} : { robots: NOINDEX_FOLLOW }),
-      alternates: alternates(`/festival/${params.slug}`, "en"),
-      title: `Festivals in ${place.label} - line-ups, dates & tickets | RaveRadar`,
-      description: `Every electronic music festival in and around ${place.label}. Dates, line-ups, tickets.`,
     };
   return {
     alternates: alternates(`/festival/${params.slug}`, "en"),
