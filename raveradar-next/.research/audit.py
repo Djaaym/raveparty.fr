@@ -47,6 +47,14 @@ def parse_map(name):
     return {(a or b): v for a, b, v in PAIR.findall(body)}
 CFR, CFLAG = parse_map("COUNTRY_FR"), parse_map("COUNTRY_FLAG")
 
+# La table symbole → code ISO du JSON-LD, lue dans `lib/seo.ts` plutôt que recopiée :
+# deux listes tenues séparément finissent toujours par diverger, et c'est cette
+# divergence-là qu'on cherche à attraper.
+_seo = open(os.path.join(ROOT, "lib/seo.ts")).read()
+_iso = re.search(r"const ISO_CURRENCY: Record<string, string> = \{(.*?)\};", _seo, re.S)
+ISO_CUR = set(re.findall(r'(?:"([^"]+)"|(\w+)):\s*"[A-Z]{3}"', _iso.group(1))) if _iso else set()
+ISO_CUR = {a or b for a, b in ISO_CUR}
+
 def slugify(s):
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if not unicodedata.combining(c)).lower()
@@ -82,6 +90,12 @@ for e in ev:
     if re.fullmatch(r"[A-Z]{3}", cur) and cur not in ("CHF", "RSD", "BGN"):
         bad.append(f'{tag}: devise en code ISO « {cur} » (attendu : symbole)')
     if not cur: bad.append(f'{tag}: devise vide')
+    # Une devise que `ISO_CURRENCY` (lib/seo.ts) ne connaît pas retombe sur "EUR" dans
+    # le JSON-LD, sans erreur ni message : c'est comme ça que 65 fiches ont annoncé à
+    # Google des couronnes et des zlotys comme des euros. Le repli est silencieux par
+    # nature, donc c'est ici qu'il doit se voir.
+    elif cur and cur not in ISO_CUR:
+        bad.append(f'{tag}: devise « {cur} » absente d\'ISO_CURRENCY (lib/seo.ts), le JSON-LD la publierait en EUR')
     lat, lng = e.get("lat"), e.get("lng")
     if lat is None or lng is None: bad.append(f'{tag}: coordonnées manquantes')
     elif not (34 < lat < 72 and -26 < lng < 46) and c != "Mexico":

@@ -5,13 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "gen:editions": "node scripts/editions.mjs",
-    "prebuild": "node scripts/editions.mjs",
+    "prebuild": "node scripts/editions.mjs && node scripts/catalog-version.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "check:fresh": "node scripts/check-featured.mjs",
     "check:titles": "node scripts/check-titles.mjs",
-    "check:rel": "node scripts/check-rel.mjs"
+    "check:rel": "node scripts/check-rel.mjs",
+    "gen:version": "node scripts/catalog-version.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.24.0",

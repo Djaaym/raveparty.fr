@@ -123,6 +123,30 @@ export function eventMetaDesc(e: RaveEvent, lang: Lang, text?: string): string {
    JSON-LD
 --------------------------------------------------------------------------- */
 
+/**
+ * Le code ISO de la devise d'un montant, pour `offers.priceCurrency`.
+ *
+ * Le calcul tenait en une ligne (`£` → GBP, `$` → USD, tout le reste → EUR), ce qui
+ * était juste tant que le catalogue ne connaissait que trois devises. Depuis
+ * l'ouverture de Prague, Varsovie, Oslo, Lausanne, Budapest et Belgrade, **65 fiches**
+ * portaient un prix en CHF, Kč, kr, zł, Ft, RSD ou lei, et toutes déclaraient à Google
+ * un montant en euros : « 490 Kč » (environ 20 €) partait dans les données structurées
+ * comme « 490 EUR ». Ce n'est pas une approximation, c'est un prix faux publié dans le
+ * champ que lisent les résultats enrichis.
+ *
+ * La règle du projet est de stocker le symbole qu'on paie à l'entrée et de ne jamais
+ * convertir (voir l'en-tête de `priceLabel()`). Le JSON-LD, lui, exige un code ISO
+ * 4217 : c'est une traduction du symbole, pas une conversion du montant.
+ *
+ * `kr` est rendu **NOK** parce que les seules dates du catalogue qui l'emploient sont
+ * norvégiennes ; le jour où une date suédoise ou danoise arrive, ce raccourci devient
+ * faux et la couronne devra être distinguée à la saisie, pas ici.
+ */
+const ISO_CURRENCY: Record<string, string> = {
+  "€": "EUR", "£": "GBP", "$": "USD", "CHF": "CHF", "Kč": "CZK",
+  "zł": "PLN", "kr": "NOK", "Ft": "HUF", "RSD": "RSD", "lei": "RON",
+};
+
 const abs = (lang: Lang, path: string) => `${SITE_URL}${lang === "en" ? "/en" : ""}${path}`;
 
 /** A nested event reference, enough for `subEvent` / `superEvent` without repeating a full node. */
@@ -194,15 +218,24 @@ export function eventJsonLd(
           }),
         }
       : {}),
-    organizer: { "@type": "Organization", name: "RaveRadar", url: SITE_URL },
+    /* Pas de champ `organizer`. Il annonçait « RaveRadar » sur les 1 289 fiches, ce qui
+       déclarait à Google que nous organisons chacun de ces événements : nous en tenons
+       l'annuaire, ce n'est pas la même affirmation, et c'est celle qui est fausse. Le
+       vrai organisateur n'est pas une donnée du catalogue (`RaveEvent` ne porte pas le
+       champ), et un champ absent est exact là où un champ faux ne l'est pas. Le jour où
+       un dépôt de promoteur apporte le nom de la structure, il se déclare ici. */
     offers: {
       "@type": "Offer",
       // An unconfirmed gate price is left out rather than published as fact.
       ...(e.priceNote === "unknown" ? {} : { price: e.price }),
-      priceCurrency: e.currency === "£" ? "GBP" : e.currency === "$" ? "USD" : "EUR",
+      priceCurrency: ISO_CURRENCY[e.currency] ?? "EUR",
       availability: isPast(e) ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: tickets ?? abs(lang, eventPath(e)),
       validFrom: `${e.date}T00:00:00`,
+      /* La date au-delà de laquelle l'offre ne vaut plus, c'est la fin de l'événement :
+         sans elle, une offre reste « valide » indéfiniment dans les données structurées,
+         y compris sur une archive de 2026. */
+      validThrough: `${lastDay(e)}T23:59:00`,
     },
     isAccessibleForFree: e.price === 0 && !e.priceNote,
   };
