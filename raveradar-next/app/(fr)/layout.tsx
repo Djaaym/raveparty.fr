@@ -4,6 +4,7 @@ import { SITE_URL } from "@/lib/site";
 import Analytics from "@/components/Analytics";
 import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
+import ConsentBanner from "@/components/ConsentBanner";
 import "../globals.css";
 
 /**
@@ -70,6 +71,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* First-party collector feeding /suivi. Independent of GA4 above: GA counts,
             this one records what happened, see components/Tracker.tsx. */}
         <Tracker />
+        {/* Rien ne se charge tant qu'elle attend une réponse : voir components/ConsentBanner.tsx. */}
+        <ConsentBanner lang="fr" />
       </body>
     </html>
   );

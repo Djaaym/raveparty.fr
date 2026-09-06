@@ -24,6 +24,27 @@ export function alternates(path: string, lang: Lang): Metadata["alternates"] {
   };
 }
 
+/**
+ * Le couple canonique + hreflang quand les deux langues n'ont **pas le même chemin**.
+ *
+ * `alternates()` suppose une URL identique à un préfixe près, ce qui est vrai des
+ * pages tirées du catalogue (`/festival/{slug}` est le même slug partout). Ça devient
+ * faux dès qu'une page a un titre traduit : `/a-propos` et `/en/about` sont la même
+ * page, et se déclarer l'un l'autre est précisément ce à quoi sert `hreflang`. Sans
+ * cette variante, la page anglaise annoncerait une alternative française qui n'existe
+ * pas, ce qui invalide la paire entière aux yeux de Google.
+ *
+ * Les deux chemins sont donnés en entier, préfixe `/en` compris pour l'anglais.
+ */
+export function alternatesPair(frPath: string, enPath: string, lang: Lang): Metadata["alternates"] {
+  const fr = `${SITE_URL}${frPath}`;
+  const en = `${SITE_URL}${enPath}`;
+  return {
+    canonical: lang === "en" ? en : fr,
+    languages: { "fr-FR": fr, "en-GB": en, "x-default": fr },
+  };
+}
+
 /** Title + description + canonical/hreflang + Open Graph in one call. */
 /**
  * Le titre tel qu'il part dans la SERP et l'onglet — tirets normalisés.

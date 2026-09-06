@@ -6,11 +6,20 @@ import type { Lang } from "@/lib/types";
 import { genreSlug } from "@/lib/display";
 import { placeBySlug } from "@/lib/places-list";
 import { getDict, langPrefix } from "@/lib/i18n";
+import CookieSettingsLink from "./CookieSettingsLink";
 
 /* Sitewide footer links: the highest-volume genres and places from docs/seo-keywords.md.
    Every page carries them, so they're the backbone of the internal-link graph. */
 const FOOTER_GENRES = ["Techno", "Hard Techno", "Hardstyle", "Drum & Bass", "Psytrance", "Trance", "House"];
-const FOOTER_PLACES = ["lot", "aude", "lozere", "rennes", "lyon", "paris", "bordeaux", "bretagne"];
+/* Lot, Aude et Lozère en sont sortis, et c'est le contraire d'un renoncement au volume.
+   Ce sont les trois plus gros mots-clés « rave party {lieu} » du marché français, mais
+   leurs pages n'ont **aucune date** : elles affichent « pas encore d'événement ». Les
+   lier depuis les 13 000 pages du site, c'était envoyer tout le maillage interne vers
+   trois pages vides, que Google lit comme du contenu mince, et faire au lecteur une
+   promesse que la page ne tient pas. Elles restent en ligne et gardent leur formulaire
+   d'alerte, elles reviendront ici le jour où elles auront trois dates (voir
+   `lib/thin-pages.ts`, qui tient la même règle pour le sitemap et l'indexation). */
+const FOOTER_PLACES = ["rennes", "lyon", "paris", "bordeaux", "marseille", "toulouse", "lille", "bretagne"];
 
 export default function Footer({ lang, simple = false }: { lang: Lang; simple?: boolean }) {
   const t = getDict(lang);
@@ -80,6 +89,21 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
             <Link href={`${p}/organizer`}>{t("footer.addevent")}</Link>
             <Link href={`${p}/account`}>{t("nav.signin")}</Link>
             <Link href={`${p}/genres`}>{t("nav.genres")}</Link>
+          </div>
+          {/* Les quatre pages institutionnelles manquaient entièrement au site. Deux sont
+              une obligation (mentions légales et confidentialité, LCEN et RGPD, dès lors
+              qu'on collecte une adresse), les deux autres sont ce qui permet à un moteur
+              comme à un promoteur de savoir qui édite le site. Elles se lient depuis le
+              pied de page, donc depuis toutes les pages : c'est là qu'on les cherche.
+              Leurs chemins sont traduits (« /a-propos » et « /en/about »), d'où la paire
+              écrite ici plutôt qu'un simple préfixe. */}
+          <div>
+            <h2>{t("footer.legal")}</h2>
+            <Link href={lang === "en" ? "/en/about" : "/a-propos"}>{t("footer.about")}</Link>
+            <Link href={lang === "en" ? "/en/contact" : "/contact"}>{t("footer.contact")}</Link>
+            <Link href={lang === "en" ? "/en/legal-notice" : "/mentions-legales"}>{t("footer.notice")}</Link>
+            <Link href={lang === "en" ? "/en/privacy" : "/confidentialite"}>{t("footer.privacy")}</Link>
+            <CookieSettingsLink lang={lang} />
           </div>
         </div>
         <div className="footer-bottom">

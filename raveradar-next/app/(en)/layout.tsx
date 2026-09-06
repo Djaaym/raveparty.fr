@@ -4,6 +4,7 @@ import { SITE_URL } from "@/lib/site";
 import Analytics from "@/components/Analytics";
 import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
+import ConsentBanner from "@/components/ConsentBanner";
 import "../globals.css";
 
 /**
@@ -67,6 +68,8 @@ export default function EnLayout({ children }: { children: React.ReactNode }) {
         <Analytics />
         {/* Same collector as the French tree, /suivi reports on both, split by `lang`. */}
         <Tracker />
+        {/* Rien ne se charge tant qu'elle attend une réponse : voir components/ConsentBanner.tsx. */}
+        <ConsentBanner lang="en" />
       </body>
     </html>
   );
