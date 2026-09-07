@@ -28,6 +28,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
 import FavButton from "./FavButton";
+import ShareRow from "./ShareRow";
 import FestivalGuide from "./FestivalGuide";
 import HeroImage from "./HeroImage";
 import HotelsCard from "./HotelsCard";
@@ -359,6 +360,10 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <Link href={`${p}/map`} className="btn btn-ghost btn-block" style={{ marginTop: 10 }}>
                   {t("event.viewmap")}
                 </Link>
+                {/* Ajouter à son agenda et partager : les deux gestes qui suivent
+                    « j'ai trouvé ma soirée », et qui n'existaient nulle part sur le
+                    site. Sur une édition terminée ils n'ont plus d'objet. */}
+                {!done && <ShareRow lang={lang} id={e.id} title={e.title} />}
               </div>
             </aside>
           </div>

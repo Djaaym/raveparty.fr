@@ -2052,3 +2052,9 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 }
 .navsearch-all:hover { background: var(--line-soft); }
 @media (max-width: 600px) { .navsearch-box { margin-top: 0; max-height: 100vh; border-radius: 0; width: 100%; } }
+
+/* Partage et agenda, sous l'encart billetterie (components/ShareRow.tsx).
+   Deux boutons de même poids sur une ligne : ni l'un ni l'autre n'est l'action
+   principale de la page, qui reste la billetterie juste au-dessus. */
+.share-row { display: flex; gap: 8px; margin-top: 10px; }
+.share-row > * { flex: 1; text-align: center; justify-content: center; }
