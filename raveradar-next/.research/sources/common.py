@@ -202,6 +202,105 @@ def tidy_title(name: str) -> str:
     return re.sub(r"\s{2,}", " ", t).strip(" -–|")
 
 
+def drop_edition_year(title: str, date: str) -> str:
+    """Retire du titre l'année qui n'est qu'un **marqueur d'édition**.
+
+    `tidy_title()` ne coupe qu'une année en fin de titre, or les organisateurs la
+    glissent au milieu : « Halloween 2026 - Lucid & Studio Saglio »,
+    « Hardcontact Festival 2026 • Amiens », « Nouvel An 2027 - Hall Ceva Ath ». C'est la
+    même infraction, et elle a le même coût : `nextEdition()` et le slug canonique
+    regroupent les éditions par titre **exact**, donc l'année en fait deux marques au
+    lieu d'une, et le gabarit de `<title>` l'ajoute déjà.
+
+    La fenêtre est celle d'`audit.py`, mot pour mot, l'année de l'événement moins un à
+    plus deux : c'est lui qui refuse le lot, et deux règles écrites séparément
+    divergeraient. Une année hors fenêtre fait partie du nom, « Bugged Out: 2001&On »
+    rejoue les disques de 2001, ce n'est pas son édition.
+
+    Demande la date, donc ne peut pas vivre dans `tidy_title()`, qui ne voit que le titre.
+    """
+    if not date:
+        return title
+    yr = int(date[:4])
+    t = re.sub(r"\s*\b(20\d\d)\b",
+               lambda m: "" if yr - 1 <= int(m.group(1)) <= yr + 2 else m.group(0), title)
+    return re.sub(r"\s{2,}", " ", t).strip(" -–|•·,:")
+
+
+# Les particules d'un toponyme français, qui ne prennent pas la majuscule au milieu d'un
+# nom. La liste est fermée, c'est de l'orthographe et non un jugement.
+PARTICLES = {"de", "du", "des", "la", "le", "les", "lès", "les", "sur", "sous", "en",
+             "et", "au", "aux", "sur-mer", "devant", "près", "lez"}
+
+
+def fr_place_case(name: str) -> str:
+    """« Saint-Pierre-Des-Corps » vers « Saint-Pierre-des-Corps ».
+
+    Shotgun rend `addressLocality` en capitales initiales sur chaque segment, ce qui
+    donne trente noms de communes mal orthographiés sur un seul lot, « Puget-Sur-Argens »,
+    « Couzon-Au-Mont-D'or », « Bourg-En-Bresse ». Le slug n'en souffre pas (`slugify()`
+    passe tout en minuscules) mais le **libellé**, lui, s'affiche partout, sur les cartes,
+    dans les `<title>` et dans les descriptions engendrées.
+
+    Ce n'est pas une correction de contenu, c'est de l'orthographe : une particule ne
+    prend pas la majuscule au milieu d'un nom, et ce qui suit une apostrophe élidée la
+    prend (« Laroque-d'Olmes »). « Mont-Saint-Aignan » et « Hérouville-Saint-Clair » ne
+    bougent pas, « Saint » n'est pas une particule.
+
+    À n'appliquer qu'aux pays de langue française : « Vila Nova de Gaia » et
+    « San Sebastián de los Reyes » ont leurs propres règles, qui ne sont pas celles-ci.
+    """
+    def seg(part: str, first: bool) -> str:
+        if first:
+            return part
+        # On compare sur la forme réduite mais on rend le mot **d'origine** en
+        # minuscules : passer par `fold()` pour la sortie transformait
+        # « Dreuil-Lès-Amiens » en « Dreuil-les-Amiens », l'accent en moins.
+        if fold(part) in PARTICLES:
+            return part.lower()
+        m = re.fullmatch(r"([DdLl])'(.*)", part)
+        if m:
+            return m.group(1).lower() + "'" + (m.group(2)[:1].upper() + m.group(2)[1:])
+        return part
+
+    out = []
+    for word in name.split(" "):
+        bits = word.split("-")
+        out.append("-".join(seg(b, i == 0 and not out) for i, b in enumerate(bits)))
+    return " ".join(out)
+
+
+def city_regions() -> dict[str, str]:
+    """Ville française -> département, relevé sur ce que le catalogue publie déjà.
+
+    `departement()` lit le code postal, ce qui est une correspondance et non une
+    déduction, mais **certaines fiches n'ont aucune adresse**, seulement un nom de ville :
+    sept dates de Shotgun sont arrivées sans rue ni code postal. Sans `region` elles
+    échappent à `/rave-party/{departement}` et `audit.py` refuse le lot.
+
+    Le catalogue, lui, a déjà tranché : « Lyon » y vaut « Rhône » sur des dizaines de
+    fiches. Reprendre sa réponse est encore une correspondance, pas une invention. Une
+    ville qui apparaît sous **deux** départements est laissée de côté (« Brest » est dans
+    ce cas) : on ne devine pas.
+    """
+    seen: dict[str, set[str]] = {}
+    try:
+        src = open(os.path.join(APP, "lib", "data.ts"), encoding="utf-8")
+    except OSError:
+        return {}
+    with src as fh:
+        for line in fh:
+            if 'country: "France"' not in line:
+                continue
+            c = re.search(r'city: "([^"]+)"', line)
+            r = re.search(r'region: "([^"]+)"', line)
+            if c and r:
+                seen.setdefault(c.group(1), set()).add(r.group(1))
+    # Indexée sur la forme réduite : « Saint-Pierre-Des-Corps » rendu par une source
+    # doit retrouver le « Saint-Pierre-des-Corps » du catalogue.
+    return {fold(c): next(iter(rs)) for c, rs in seen.items() if len(rs) == 1}
+
+
 def guess_type(name: str, venue: str, multi_day: bool) -> str:
     """Festival, Warehouse ou Club, les trois seules valeurs qu'`EventType` admette.
 

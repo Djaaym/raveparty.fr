@@ -83,9 +83,9 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    RESEARCH, artist_styles, classify, clean, fold, genres_for, guess_type,
-    is_electro, make_desc, name_tour_dates, slugify, tidy_title, weekly_residencies,
-    write_review,
+    RESEARCH, artist_styles, city_regions, classify, clean, drop_edition_year, fold,
+    fr_place_case, genres_for, guess_type, is_electro, make_desc, name_tour_dates,
+    slugify, tidy_title, weekly_residencies, write_review,
 )
 from departements import departement  # noqa: E402
 
@@ -144,6 +144,17 @@ CITIES = [
     "copenhagen", "warsaw", "thessaloniki", "crete", "malta",
 ]
 
+# Les entrées de `CITIES` qui décrivent une **zone** et non une ville. Shotgun s'en sert
+# aussi comme `addressLocality` quand l'organisateur n'a rempli aucune adresse, et
+# « Aix-Marseille » se retrouve alors publié comme nom de ville. C'est la règle
+# « un `venue` qui décrit un ensemble de lieux n'est pas une salle » (`isMultiVenueLabel`),
+# appliquée cette fois à la ville : une zone n'a pas d'agenda, elle n'a pas de page.
+NOT_A_CITY = {
+    "aix-marseille", "cote-d-azur", "pau-tarbes", "arles-avignon", "evian-thonon",
+    "center-pt", "north-pt", "galicia", "alentejo", "algarve", "corse", "crete",
+    "mallorca", "madeira", "azores",
+}
+
 # Le code ISO de l'adresse vers le libellé du catalogue. **C'est une clé, pas un
 # affichage** : `COUNTRY_FR` et `COUNTRY_FLAG` sont indexés dessus et `/pays/{slug}` en
 # dérive, donc « United Kingdom » au lieu de « UK » fabriquerait une seconde page pays en
@@ -175,6 +186,23 @@ TZ = {
     "IS": "Atlantic/Reykjavik", "AL": "Europe/Tirane", "ME": "Europe/Podgorica",
     "MK": "Europe/Skopje", "BA": "Europe/Sarajevo", "CY": "Asia/Nicosia",
     "GE": "Asia/Tbilisi",
+}
+
+# La devise que le pays emploie réellement. Elle sert de **garde-fou**, pas de
+# conversion : un anniversaire londonien est ressorti à « 58 $ » parce que son
+# organisateur avait laissé la devise sur USD dans le formulaire de Shotgun. Publier ça,
+# c'est annoncer un montant que personne ne paiera à l'entrée, et la règle du projet est
+# justement de n'afficher que celui-là. Une offre libellée dans une devise étrangère au
+# pays est donc écartée comme un vestiaire l'est : la fiche reste, le tarif part en
+# « non communiqué ».
+CURRENCY_OF = {
+    "FR": "EUR", "BE": "EUR", "NL": "EUR", "DE": "EUR", "ES": "EUR", "PT": "EUR",
+    "LU": "EUR", "IE": "EUR", "IT": "EUR", "AT": "EUR", "GR": "EUR", "MT": "EUR",
+    "SI": "EUR", "SK": "EUR", "EE": "EUR", "LV": "EUR", "LT": "EUR", "FI": "EUR",
+    "CY": "EUR", "HR": "EUR", "ME": "EUR",
+    "GB": "GBP", "CH": "CHF", "DK": "DKK", "PL": "PLN", "CZ": "CZK", "SE": "SEK",
+    "NO": "NOK", "IS": "ISK", "HU": "HUF", "RO": "RON", "RS": "RSD", "BG": "BGN",
+    "AL": "ALL", "MK": "MKD", "BA": "BAM", "GE": "GEL",
 }
 
 # On stocke le symbole local et on ne convertit pas : le montant affiché doit être celui
@@ -441,7 +469,7 @@ def has(text: str, words: list[str]) -> bool:
     return any(re.search(rf"\b{re.escape(w)}\b", text) for w in words)
 
 
-def entry_price(offers) -> tuple[float | None, str, bool]:
+def entry_price(offers, cc: str) -> tuple[float | None, str, bool]:
     """Le plus bas tarif d'entrée réellement en vente, sa devise, et s'il reste des places.
 
     Trois façons de se tromper, toutes déjà payées ailleurs : retenir un palier
@@ -452,6 +480,7 @@ def entry_price(offers) -> tuple[float | None, str, bool]:
     """
     if isinstance(offers, dict):
         offers = [offers]
+    want = CURRENCY_OF.get(cc)
     price, cur, sale = None, "", False
     for o in offers or []:
         if not isinstance(o, dict):
@@ -465,6 +494,9 @@ def entry_price(offers) -> tuple[float | None, str, bool]:
             continue
         if has(name, UNLESS_ADMISSION) and not has(name, ADMISSION):
             continue
+        iso = str(o.get("priceCurrency") or "").upper()
+        if want and iso and iso != want:
+            continue
         try:
             p = float(o.get("price"))
         except (TypeError, ValueError):
@@ -472,7 +504,7 @@ def entry_price(offers) -> tuple[float | None, str, bool]:
         if p <= 0:
             continue
         if price is None or p < price:
-            price, cur = p, str(o.get("priceCurrency") or "")
+            price, cur = p, iso or want or ""
     return price, SYMBOL.get(cur, cur or "€"), sale
 
 
@@ -574,6 +606,7 @@ def collect(cities: list[str], pages: int, per_city: int, months: int,
 def to_rows(picked: list[dict], styles: dict[str, list[str]],
             use_cache: bool) -> tuple[list[dict], list[tuple[str, str, str]]]:
     today = dt.date.today().isoformat()
+    regions = city_regions()
     kept: list[dict] = []
     review: list[tuple[str, str, str]] = []
     booked: set[tuple[str, str, str]] = set()
@@ -612,7 +645,17 @@ def to_rows(picked: list[dict], styles: dict[str, list[str]],
         end = last_day(start, local(d.get("endDate"), TZ[cc]))
 
         city = clean(addr.get("addressLocality"))
+        # Shotgun rend la ville en capitales initiales sur chaque segment. C'est de
+        # l'orthographe, pas du contenu, et ça s'affiche partout, donc on la remet
+        # d'aplomb, mais **seulement là où la règle s'applique** : « Vila Nova de Gaia »
+        # n'obéit pas à la grammaire française.
+        if cc in ("FR", "BE", "CH", "LU"):
+            city = fr_place_case(city)
         street, postal = clean(addr.get("streetAddress")), clean(addr.get("postalCode"))
+        if slugify(city) in NOT_A_CITY:
+            review.append((url, c["title"],
+                           f"libellé de zone au lieu d'une ville ({city})"))
+            continue
         venue = ""
         for cand in (clean(place.get("name")), clean(c["venue"])):
             if cand and not is_address(cand, street, postal, city):
@@ -637,7 +680,7 @@ def to_rows(picked: list[dict], styles: dict[str, list[str]],
             continue
         booked.add(key)
 
-        name = tidy_title(clean(d.get("name")) or c["title"])
+        name = drop_edition_year(tidy_title(clean(d.get("name")) or c["title"]), date)
         perf = d.get("performer")
         if isinstance(perf, dict):
             perf = [perf]
@@ -664,7 +707,7 @@ def to_rows(picked: list[dict], styles: dict[str, list[str]],
                            + ("" if is_electro(blob) else ", et rien qui dise que c'est électronique")))
             continue
 
-        price, cur, on_sale = entry_price(d.get("offers"))
+        price, cur, on_sale = entry_price(d.get("offers"), cc)
         desc, desc_en = make_desc(name, venue, city, date, end,
                                   start.strftime("%H:%M"), lineup, price, cur)
         row = {
@@ -684,7 +727,11 @@ def to_rows(picked: list[dict], styles: dict[str, list[str]],
         if end:
             row["endDate"] = end
         if country == "France":
-            region = departement(clean(addr.get("postalCode")))
+            # Le code postal d'abord, c'est une correspondance exacte ; le relevé du
+            # catalogue ensuite, pour les fiches qui n'ont aucune adresse. Sans l'un ni
+            # l'autre on n'écrit rien : `audit.py` le signalera, ce qui vaut mieux qu'un
+            # département inventé, il porte une page.
+            region = departement(postal) or regions.get(fold(city))
             if region:
                 row["region"] = region
         if not price:

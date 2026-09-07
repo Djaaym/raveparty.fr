@@ -145,6 +145,22 @@ export const PLACES: Place[] = [
   { slug: "yonne", label: "Yonne", kind: "departement", vol: 210 },
   { slug: "charente-maritime", label: "Charente-Maritime", kind: "departement", vol: 320 },
   { slug: "hautes-pyrenees", label: "Hautes-Pyrénées", kind: "departement", vol: 170 },
+  /* Départements ouverts par la collecte Shotgun : 23 dates françaises à venir n'avaient
+     aucune page de lieu pour les porter, ce que l'audit signale à chaque fusion. `vol: 0`
+     dit « volume non relevé », pas « sans intérêt » : l'export SEMrush ne les couvre pas,
+     et inventer un chiffre serait exactement la donnée inventée que la règle interdit.
+     Il ne sert de toute façon qu'à départager deux lieux à nombre de dates égal. */
+  { slug: "maine-et-loire", label: "Maine-et-Loire", kind: "departement", vol: 0 },
+  { slug: "pas-de-calais", label: "Pas-de-Calais", kind: "departement", vol: 0 },
+  { slug: "cotes-d-armor", label: "Côtes-d'Armor", kind: "departement", vol: 0 },
+  { slug: "indre-et-loire", label: "Indre-et-Loire", kind: "departement", vol: 0 },
+  { slug: "seine-maritime", label: "Seine-Maritime", kind: "departement", vol: 0 },
+  { slug: "somme", label: "Somme", kind: "departement", vol: 0 },
+  { slug: "vienne", label: "Vienne", kind: "departement", vol: 0 },
+  { slug: "cher", label: "Cher", kind: "departement", vol: 0 },
+  { slug: "landes", label: "Landes", kind: "departement", vol: 0 },
+  { slug: "ariege", label: "Ariège", kind: "departement", vol: 0 },
+  { slug: "territoire-de-belfort", label: "Territoire de Belfort", kind: "departement", vol: 0 },
   // European cities the calendar now covers, each has at least one dated event.
   { slug: "copenhague", label: "Copenhague", kind: "ville", vol: 1300, match: ["Copenhagen", "Roskilde"] },
   { slug: "stockholm", label: "Stockholm", kind: "ville", vol: 1000, match: ["Stockholm", "Linköping", "Kristianstad"] },

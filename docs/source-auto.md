@@ -386,6 +386,21 @@ La France passe de 166 à 195 dates à venir, et quatre départements se sont ou
 format, **62 fusionnées**. 91 des 109 portent un lien affilié taggé, les 18 autres étant
 épuisées. Le catalogue passe de 1 320 à 1 382 événements.
 
+**Shotgun** : 80 pages de ville lues, environ dix mille cartes vues, 1 263 fiches
+ouvertes, 694 mises au format, **671 fusionnées**. C'est de loin la plus grosse des
+quatre, et elle fait exactement ce qu'on lui demandait : le catalogue passe de 1 382 à
+**2 053 événements**, la France de 195 à **697 dates à venir**, et onze départements
+s'ouvrent (Maine-et-Loire, Pas-de-Calais, Côtes-d'Armor, Indre-et-Loire, Seine-Maritime,
+Somme, Vienne, Cher, Landes, Ariège, Territoire de Belfort). Le Portugal arrive avec 108
+dates, marché où Shotgun est aussi installé qu'en France.
+
+2 698 fiches partent à la relecture, dont l'immense majorité pour une raison qui n'est pas
+un défaut : le plafond par ville, ou un classement de la billetterie qui dit « Salsa ».
+
+Une exécution complète prend une trentaine de minutes, l'essentiel en lecture de fiches
+(1 263 requêtes à environ une par seconde). Les 80 pages de ville, elles, se lisent en
+quatre minutes.
+
 ## Deux sources qu'on ne branchera pas : DICE et Resident Advisor
 
 Les deux nous **interdisent nommément**, et ce n'est pas une supposition tirée d'un code
