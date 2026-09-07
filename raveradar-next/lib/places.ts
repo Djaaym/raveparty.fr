@@ -5,17 +5,56 @@ import { PLACES } from "./places-list";
 export * from "./places-list";
 
 
+/** Les clés de correspondance d'un lieu, et celles d'un événement.
+ *
+ *  Un seul endroit décide de ce qui appartient à un lieu. `eventsForPlace()` répond
+ *  pour un lieu, `placeTally()` pour les 138 d'un coup : deux règles de correspondance
+ *  écrites séparément divergent toujours, et celle qui compte les pilules du hub
+ *  doit rendre exactement ce que la page de destination affichera. */
+export const placeKeys = (p: Place) => (p.match ?? [p.label]).map(slugify);
+export const eventPlaceKeys = (e: RaveEvent) => [slugify(e.city), slugify(e.region ?? "")];
+
 /** Events located in a given place (matched by city name or French region/department).
  *  Matching is on whole slugs, not substrings, "Ain" is a substring of "Saintes",
  *  and "Nord" of plenty of city names. */
 export function eventsForPlace(p: Place): RaveEvent[] {
-  const names = (p.match ?? [p.label]).map(slugify);
+  const names = placeKeys(p);
   return upcomingFirst(
     EVENTS.filter((e) => {
-      const hay = [slugify(e.city), slugify(e.region ?? "")];
+      const hay = eventPlaceKeys(e);
       return names.some((n) => hay.includes(n));
     }),
   );
+}
+
+/** Ce que chaque lieu porte dans `events`, en un seul passage.
+ *
+ *  Le hub des villes a besoin du compte des 138 lieux : appeler `eventsForPlace()`
+ *  pour chacun relit le catalogue 138 fois et rappelle `slugify()` sur chaque ville
+ *  à chaque tour. Ici l'index est construit une fois, le catalogue lu une fois.
+ *  Un lieu sans date n'a pas d'entrée, l'appelant lit donc une absence, pas un zéro. */
+export function placeTally(events: RaveEvent[]): Map<string, RaveEvent[]> {
+  const idx = new Map<string, string[]>();
+  for (const place of PLACES) {
+    for (const k of placeKeys(place)) {
+      const at = idx.get(k);
+      if (at) at.push(place.slug);
+      else idx.set(k, [place.slug]);
+    }
+  }
+  const out = new Map<string, RaveEvent[]>();
+  for (const e of events) {
+    /* Un événement dont la ville et la région tombent sur le même lieu ne doit
+       compter qu'une fois : « Lyon » avec `region: "Rhône"` touche deux clés. */
+    const hit = new Set<string>();
+    for (const k of eventPlaceKeys(e)) for (const s of idx.get(k) ?? []) hit.add(s);
+    for (const s of hit) {
+      const at = out.get(s);
+      if (at) at.push(e);
+      else out.set(s, [e]);
+    }
+  }
+  return out;
 }
 
 /** Rank places by how many of `events` they hold, busiest first.
