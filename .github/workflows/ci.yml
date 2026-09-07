@@ -1,0 +1,72 @@
+# Le filet du dépôt.
+#
+# Il n'y avait aucune CI, aucun test, et quatre garde-fous maison branchés sur rien :
+# `check:fresh` (qui empêche la page d'accueil d'afficher une édition terminée),
+# `check:titles`, `check:rel` (qui empêche de publier un lien rémunéré non déclaré,
+# ce qui est une infraction aux règles de Google) et `audit.py` (intégrité du
+# catalogue). Ils ne tournaient que si quelqu'un pensait à les lancer.
+#
+# Ce fichier n'écrit aucun test : il exécute ce qui existe déjà et qui protège
+# précisément les règles que le projet a payées une fois chacune.
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+# Une nouvelle poussée sur la même branche annule la précédente : sur un build de
+# ~13 000 pages, laisser tourner deux fois la même vérification coûte des minutes
+# pour un résultat qu'on jette.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: raveradar-next
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # `scripts/catalog-version.mjs` lit la date du dernier commit touchant
+          # `lib/data.ts` : un clone superficiel n'a pas cet historique et le script
+          # se tait, ce qui masquerait une régression du sitemap.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: raveradar-next/package-lock.json
+
+      - run: npm ci
+
+      # Le typage d'abord : c'est la vérification la plus rapide et celle qui attrape
+      # le plus de choses. `tsc` ne tournait jusqu'ici qu'au travers de `next build`.
+      - name: Typage
+        run: npx tsc --noEmit
+
+      - name: Titres (aucun cadratin)
+        run: npm run check:titles
+
+      - name: Liens sortants (nofollow, sponsored)
+        run: npm run check:rel
+
+      - name: Mises en avant (aucune édition terminée)
+        run: npm run check:fresh
+
+      # L'audit du catalogue est en Python et vit dans `.research/`, hors de l'app :
+      # il lit `lib/data.ts` au motif, sans rien installer.
+      - name: Intégrité du catalogue
+        working-directory: raveradar-next
+        run: python3 .research/audit.py
+
+      # Le build est le seul à voir certaines choses, notamment un `lib/data.ts` que
+      # les scripts d'ingestion ont pu casser en écrivant dans une chaîne (voir la
+      # note « Daniel[i] » de CLAUDE.md). Il vient en dernier, il coûte plusieurs
+      # minutes là où tout ce qui précède coûte des secondes.
+      - name: Build
+        run: npm run build

@@ -21,6 +21,14 @@
  */
 export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; slug: string }> = {
   "the-warehouse-project": { base: "festival", slug: "the-warehouse-project-ki-ki" },
+  /* Deux titres portaient l'année de leur édition, ce que la convention interdit :
+     `nextEdition()` et le slug canonique regroupent les éditions par titre exact, donc
+     un titre daté ne groupe jamais, et le gabarit de `<title>` ajoute déjà l'année.
+     « MAYDAY Poland 2026 : Iconic » portait en plus le motto de l'édition, qui change
+     chaque année comme l'année elle-même ; il est passé dans `desc`, où il informe au
+     lieu de servir de clé. Les deux URLs étaient indexées, d'où le 301. */
+  "positivus-2026-calvin-harris": { base: "festival", slug: "positivus-calvin-harris" },
+  "mayday-poland-2026-iconic": { base: "festival", slug: "mayday-poland" },
   // « Tiësto » décrivait la date du 01/10 à la MEO Arena comme un concert ordinaire. C'est
   // en fait INFINITY Lisbon, la soirée de clôture du SBC Summit, réservée aux détenteurs
   // d'un pass du salon : le titre le dit maintenant, et l'ancien slug pointe ici.

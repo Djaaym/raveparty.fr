@@ -105,7 +105,13 @@ for e in ev:
     if not e.get("time"): bad.append(f'{tag}: horaire manquant')
     if e.get("endDate") and e["endDate"] < e["date"]:
         bad.append(f'{tag}: endDate < date')
-    if re.search(r"\b20\d\d\b", e.get("title", "")):
+    # Une année dans le titre n'est une infraction que si c'est un **marqueur
+    # d'édition**, c'est-à-dire l'année de l'événement ou l'une des suivantes : c'est
+    # elle qui empêche `nextEdition()` de regrouper les éditions, et que le gabarit de
+    # `<title>` ajoute déjà. Une autre année fait partie du nom : « Bugged Out:
+    # 2001&On… » est une soirée qui rejoue les disques de 2001, pas l'édition 2001.
+    yr = int(e["date"][:4]) if e.get("date") else 0
+    if any(yr - 1 <= int(y) <= yr + 2 for y in re.findall(r"\b(20\d\d)\b", e.get("title", ""))):
         bad.append(f'{tag}: le titre porte une année')
     if c == "France" and not e.get("region"):
         bad.append(f'{tag}: événement FR sans region (département)')
