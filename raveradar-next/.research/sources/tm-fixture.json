@@ -1,0 +1,93 @@
+{
+  "_comment": "Réponse de test, construite strictement sur le schéma documenté de l'API Discovery v2 (developer.ticketmaster.com). Elle ne prouve rien sur les données réelles de Ticketmaster : elle sert à vérifier la mise au format et les refus, cas limites compris, sans clé. Chaque entrée porte le cas qu'elle teste.",
+  "_embedded": {
+    "events": [
+      {
+        "name": "Amelie Lens at Zenith Paris",
+        "id": "tst001",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/amelie-lens/idmanif/700001",
+        "_cc": "FR",
+        "images": [
+          {"ratio": "16_9", "url": "https://s1.ticketm.net/dam/a/paysage_16_9.jpg", "width": 2048, "height": 1152},
+          {"ratio": "3_2", "url": "https://s1.ticketm.net/dam/a/portrait_3_2.jpg", "width": 640, "height": 960}
+        ],
+        "dates": {"start": {"localDate": "2027-03-12", "localTime": "23:00:00", "dateTBD": false, "timeTBA": false}, "timezone": "Europe/Paris", "status": {"code": "onsale"}},
+        "classifications": [{"primary": true, "segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "Techno"}}],
+        "priceRanges": [{"type": "standard including fees", "currency": "EUR", "min": 39.5, "max": 65.0}],
+        "_embedded": {
+          "venues": [{"name": "Zénith Paris - La Villette", "postalCode": "75019", "city": {"name": "Paris"}, "country": {"countryCode": "FR"}, "location": {"latitude": "48.8938", "longitude": "2.3930"}}],
+          "attractions": [{"name": "Amelie Lens"}]
+        }
+      },
+      {
+        "name": "Nature One 2027",
+        "id": "tst002",
+        "url": "https://www.ticketmaster.de/event/nature-one-2027/1800001",
+        "_cc": "DE",
+        "images": [{"ratio": "3_2", "url": "https://s1.ticketm.net/dam/b/portrait.jpg", "width": 640, "height": 960}],
+        "dates": {"start": {"localDate": "2027-08-06", "localTime": "12:00:00"}, "end": {"localDate": "2027-08-08"}, "status": {"code": "onsale"}},
+        "classifications": [{"primary": true, "segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "Hardstyle"}}],
+        "priceRanges": [{"currency": "EUR", "min": 149.0, "max": 249.0}],
+        "_embedded": {
+          "venues": [{"name": "Raketenbasis Pydna", "postalCode": "55483", "city": {"name": "Kastellaun"}, "country": {"countryCode": "DE"}, "location": {"latitude": "50.0700", "longitude": "7.4400"}}],
+          "attractions": [{"name": "Nature One 2027"}]
+        }
+      },
+      {
+        "name": "Soirée annulée",
+        "id": "tst003",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/annulee/idmanif/700003",
+        "_cc": "FR",
+        "dates": {"start": {"localDate": "2027-01-10", "localTime": "22:00:00"}, "status": {"code": "cancelled"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "House"}}],
+        "_embedded": {"venues": [{"name": "Le Rex Club", "postalCode": "75002", "city": {"name": "Paris"}, "country": {"countryCode": "FR"}, "location": {"latitude": "48.8709", "longitude": "2.3479"}}]}
+      },
+      {
+        "name": "Horaire non fixé",
+        "id": "tst004",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/tba/idmanif/700004",
+        "_cc": "FR",
+        "dates": {"start": {"localDate": "2027-02-14", "timeTBA": true}, "status": {"code": "onsale"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "Techno"}}],
+        "_embedded": {"venues": [{"name": "La Machine du Moulin Rouge", "postalCode": "75018", "city": {"name": "Paris"}, "country": {"countryCode": "FR"}, "location": {"latitude": "48.8840", "longitude": "2.3325"}}]}
+      },
+      {
+        "name": "Salle sans coordonnées",
+        "id": "tst005",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/nogeo/idmanif/700005",
+        "_cc": "FR",
+        "dates": {"start": {"localDate": "2027-02-20", "localTime": "21:00:00"}, "status": {"code": "onsale"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "House"}}],
+        "_embedded": {"venues": [{"name": "Lieu inconnu", "city": {"name": "Lyon"}, "country": {"countryCode": "FR"}}]}
+      },
+      {
+        "name": "Concert de rock",
+        "id": "tst006",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/rock/idmanif/700006",
+        "_cc": "FR",
+        "dates": {"start": {"localDate": "2027-04-02", "localTime": "20:00:00"}, "status": {"code": "onsale"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Rock"}, "subGenre": {"name": "Alternative Rock"}}],
+        "_embedded": {"venues": [{"name": "Olympia", "postalCode": "75009", "city": {"name": "Paris"}, "country": {"countryCode": "FR"}, "location": {"latitude": "48.8704", "longitude": "2.3283"}}]}
+      },
+      {
+        "name": "Candlelight : hommage à Daft Punk",
+        "id": "tst007",
+        "url": "https://www.ticketmaster.fr/fr/manifestation/candlelight/idmanif/700007",
+        "_cc": "FR",
+        "dates": {"start": {"localDate": "2027-05-05", "localTime": "20:30:00"}, "status": {"code": "onsale"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "Electro"}}],
+        "_embedded": {"venues": [{"name": "Église Saint-Eustache", "postalCode": "75001", "city": {"name": "Paris"}, "country": {"countryCode": "FR"}, "location": {"latitude": "48.8635", "longitude": "2.3455"}}]}
+      },
+      {
+        "name": "Sous-genre inconnu de nos onze cases",
+        "id": "tst008",
+        "url": "https://www.ticketmaster.it/event/downtempo/1900008",
+        "_cc": "IT",
+        "dates": {"start": {"localDate": "2027-06-11", "localTime": "22:00:00"}, "status": {"code": "onsale"}},
+        "classifications": [{"segment": {"name": "Music"}, "genre": {"name": "Dance/Electronic"}, "subGenre": {"name": "Downtempo"}}],
+        "priceRanges": [{"currency": "EUR", "min": 0, "max": 0}],
+        "_embedded": {"venues": [{"name": "Fabrique", "city": {"name": "Milan"}, "country": {"countryCode": "IT"}, "location": {"latitude": "45.4642", "longitude": "9.1900"}}]}
+      }
+    ]
+  }
+}

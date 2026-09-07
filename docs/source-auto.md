@@ -157,6 +157,61 @@ rien : les 18 soirées épuisées seraient sorties à `price: 0` **sans** `price
 c'est-à-dire affichées « GRATUIT ». Les deux libellés portent donc ce motif, et ce n'est
 pas une coïncidence à défaire.
 
+## Ticketmaster, troisième source, et la seule qui exige une clé
+
+`.research/ticketmaster.md` situait le gisement en Italie, en Allemagne et à Manchester,
+et concluait déjà : « pour un relevé exhaustif il faut l'API Discovery, pas du scraping ».
+C'est exact, et il n'y a **aucun contournement**.
+
+**Vérifié à nouveau** : `ticketmaster.fr`, `.de`, `.co.uk` et `.it` répondent tous 403
+depuis un serveur, y compris leur `robots.txt`. Live Nation, du même groupe, répond bien
+200, mais ne rend côté serveur que le titre, la date et la salle : ni coordonnées, ni
+tarif, ni line-up. Une fiche sans coordonnées n'entre pas au catalogue, c'est la règle de
+contenu, donc cette route ne produirait presque rien. C'est l'API ou rien.
+
+La clé est gratuite sur `developer.ticketmaster.com` (Discovery API v2). Posez
+`TICKETMASTER_API_KEY` en variable d'environnement ou en secret GitHub. Sans elle, le
+collecteur l'écrit en toutes lettres et **sort sans rien produire** : le workflow ne doit
+pas échouer parce qu'une source facultative n'est pas configurée, et un lot vide écrit en
+silence laisserait croire que Ticketmaster n'a rien à offrir.
+
+### Ce que cette source apporte que les autres n'ont pas
+
+Sa réponse porte **le classement de la billetterie elle-même** :
+`classifications[].segment` (« Music »), `genre` (« Dance/Electronic ») et `subGenre`
+(« Techno », « House », « Hardstyle »). C'est une attribution faite par celui qui vend le
+billet, donc une preuve autrement plus solide qu'un mot-clé pêché dans un texte, et elle
+sert de filtre de périmètre en même temps : un genre « Rock » ne franchit pas la porte.
+
+L'ordre reste celui du projet : l'artiste attribué d'abord (plus fin, « Dance » couvre
+tout), le classement Ticketmaster ensuite, le titre en dernier. Et **un sous-genre qui ne
+correspond à aucune de nos onze cases n'est pas traduit au plausible** : « Downtempo »,
+« Electronica » et « Ambient » ne sont aucune d'elles, la fiche retombe alors sur
+l'artiste et, à défaut, part en relecture.
+
+Elle apporte aussi le tarif (`priceRanges[].min`), les coordonnées exactes de la salle,
+le code postal (donc le département français), le line-up (`_embedded.attractions`) et le
+statut : une date `cancelled` ou `postponed` est refusée, ce qu'aucune des deux autres
+sources ne dit aussi clairement.
+
+Le lien de billetterie **ne porte aucun tag** : `ticketmaster.*` et `livenation.*` sont
+dans `AFFILIATE_HOSTS`, le tag Impact les réécrit et `rel="sponsored"` se déduit du
+domaine. Contrairement à Skiddle, il n'y a rien à coller dans l'URL.
+
+### Comment il a été vérifié sans clé
+
+Le mode `--fixture` rejoue la mise au format sur une réponse enregistrée, sans réseau.
+`tm-fixture.json` est construite **strictement sur le schéma documenté** et porte huit
+cas, dont sept limites : une date annulée, un horaire non fixé, une salle sans
+coordonnées, un concert classé Rock, un « Candlelight : hommage à Daft Punk », un
+sous-genre hors de nos onze cases, et un festival multi-jours. Les huit se comportent
+comme prévu, deux passent et six vont en relecture.
+
+Ce que cela prouve et ce que cela ne prouve pas : le mapping, les refus et les priorités
+de genre sont testés ; la forme réelle des réponses de Ticketmaster ne l'est pas, faute
+de clé. La surface non vérifiée se réduit à un appel HTTP dont l'URL est documentée, et
+le collecteur signale toute anomalie (`fault.faultstring`) au lieu de l'avaler.
+
 ## Résultat de la première collecte
 
 **jds.fr** : 349 fiches lues, 86 mises au format, **31 nouvelles dates** fusionnées (les
@@ -182,6 +237,14 @@ séparément divergeraient à la première correction, ce que `lib/catalog-expor
 fermé pour la conversion des dépôts de promoteurs.
 
 Les sources déjà repérées et ce qu'elles valent depuis le conteneur sont dans `CLAUDE.md`
-(section « Sources exploitables »). La prochaine la plus utile est l'**API Discovery de
-Ticketmaster** : les domaines `ticketmaster.*` répondent 403 en scraping, l'API est la
-seule voie propre, et elle couvre l'Allemagne et l'Italie, où le catalogue est mince.
+(section « Sources exploitables »). Les prochaines les plus utiles : **CTS Eventim**, qui
+tient le marché DACH là où Ticketmaster est faible, et **DICE**, qui est en clair et
+couvre les clubs britanniques que Skiddle ne vend pas.
+
+### Les trois clés, en un coup d'œil
+
+| Source | Clé | Sans elle |
+|---|---|---|
+| jds.fr | aucune | rien à faire, elle tourne |
+| Skiddle | `SKIDDLE_API_KEY`, facultative | route des pages de salle, mêmes dates |
+| Ticketmaster | `TICKETMASTER_API_KEY`, **obligatoire** | la source est sautée, et le dit |
