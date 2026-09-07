@@ -54,6 +54,12 @@ OFF_TOPIC = [
     "blind test", "quiz night", "conference", "atelier", "exposition", "theatre",
     "opera", "gospel", "chorale", "harmonie municipale", "bal populaire", "the dansant",
     "musical", "pantomime", "wrestling", "bingo",
+    # Vus sur Shotgun, où n'importe quel organisateur dépose ce qu'il veut et où la
+    # soirée jeux se range volontiers sous une étiquette « House » parce qu'un DJ passe
+    # après : « [Gratuit] LOL, tu ris tu perds », « Tournoi de beer pong back to school »,
+    # déposé en *festival*. Aucun de ces mots n'a d'usage en soirée électro.
+    "comedy", "stand-up", "stand up", "tu ris tu perds", "beer pong", "tournoi",
+    "loto", "escape game", "speed dating", "afterwork jeux", "soiree jeux",
 ]
 
 # La preuve positive, cherchée **en mots entiers** et **jamais dans le nom de la salle**.
@@ -171,11 +177,135 @@ def tidy_title(name: str) -> str:
     clé de dédup. On ne touche à rien d'autre : le titre reste celui de la source, c'est
     sous ce nom que la soirée se cherche.
     """
-    t = re.sub(r"\s*\+\s*(1[eè]re|premi[eè]re)\s+partie\s*$", "", name, flags=re.I)
+    # NFKC d'abord, et ce n'est pas de la cosmétique : « 𝓞𝓝𝓓𝓔𝓢 » est écrit en
+    # caractères mathématiques, `slugify()` n'en garde **rien**, et une fiche au slug vide
+    # se rend sur `/event` au lieu de `/event/{slug}`, ce qui fait échouer le build après
+    # dix-neuf mille pages. C'est exactement ce à quoi sert la normalisation de
+    # compatibilité : elle rend « ONDES », le mot que l'organisateur a voulu écrire.
+    # Ni l'audit ni les garde-fous ne voyaient ça, seul `npm run build` l'a attrapé.
+    t = unicodedata.normalize("NFKC", name)
+    t = re.sub(r"\s*\+\s*(1[eè]re|premi[eè]re)\s+partie\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*\+\s*guests?\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*\+\s*(et\s+)?(plus|more)\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*//\s*[A-Za-zÀ-ÿ' -]{3,24}\s*$", "", t)
-    return re.sub(r"\s{2,}", " ", t).strip(" -–")
+    # La date collée en fin de titre, habitude d'organisateur que Shotgun laisse passer
+    # telle quelle : « Acid Oslo X I Am Ebi Snake 07/09/26 », « Let's MIX ! 07.09 ».
+    # Elle est déjà un champ, elle partirait dans le slug et dans le `<title>`, et deux
+    # dates de la même soirée feraient deux marques au lieu d'une.
+    t = re.sub(r"\s*[|#/–-]?\s*\d{1,2}[./-]\d{1,2}(?:[./-]\d{2,4})?\s*$", "", t)
+    # L'année d'édition en fin de titre, pour la même raison et une de plus : « Le titre
+    # porte le festival, pas l'édition » (CLAUDE.md), parce que `nextEdition()` et le
+    # slug canonique regroupent les éditions par titre exact. La fenêtre est bornée pour
+    # ne pas amputer un nom de soirée qui finirait par un nombre (« Hangar 1988 »).
+    t = re.sub(r"\s*[|#–-]?\s*(?:20[2-4]\d)\s*$", "", t)
+    # La salle rappelée en fin de titre avec une arobase (« … | 8 Septembre @Casatroca ») :
+    # c'est déjà un champ, et collée au titre elle repart dans le slug.
+    t = re.sub(r"\s*\|?\s*@\s*[\w'&.-]+\s*$", "", t)
+    # La date écrite en toutes lettres, même raison que la date en chiffres au-dessus.
+    t = re.sub(r"\s*[|#–-]?\s*\d{1,2}\s*(?:er)?\s+"
+               r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|"
+               r"octobre|novembre|décembre|decembre|january|february|march|april|may|june|"
+               r"july|august|september|october|november|december)\s*$", "", t, flags=re.I)
+    return re.sub(r"\s{2,}", " ", t).strip(" -–|")
+
+
+def drop_edition_year(title: str, date: str) -> str:
+    """Retire du titre l'année qui n'est qu'un **marqueur d'édition**.
+
+    `tidy_title()` ne coupe qu'une année en fin de titre, or les organisateurs la
+    glissent au milieu : « Halloween 2026 - Lucid & Studio Saglio »,
+    « Hardcontact Festival 2026 • Amiens », « Nouvel An 2027 - Hall Ceva Ath ». C'est la
+    même infraction, et elle a le même coût : `nextEdition()` et le slug canonique
+    regroupent les éditions par titre **exact**, donc l'année en fait deux marques au
+    lieu d'une, et le gabarit de `<title>` l'ajoute déjà.
+
+    La fenêtre est celle d'`audit.py`, mot pour mot, l'année de l'événement moins un à
+    plus deux : c'est lui qui refuse le lot, et deux règles écrites séparément
+    divergeraient. Une année hors fenêtre fait partie du nom, « Bugged Out: 2001&On »
+    rejoue les disques de 2001, ce n'est pas son édition.
+
+    Demande la date, donc ne peut pas vivre dans `tidy_title()`, qui ne voit que le titre.
+    """
+    if not date:
+        return title
+    yr = int(date[:4])
+    t = re.sub(r"\s*\b(20\d\d)\b",
+               lambda m: "" if yr - 1 <= int(m.group(1)) <= yr + 2 else m.group(0), title)
+    return re.sub(r"\s{2,}", " ", t).strip(" -–|•·,:")
+
+
+# Les particules d'un toponyme français, qui ne prennent pas la majuscule au milieu d'un
+# nom. La liste est fermée, c'est de l'orthographe et non un jugement.
+PARTICLES = {"de", "du", "des", "la", "le", "les", "lès", "les", "sur", "sous", "en",
+             "et", "au", "aux", "sur-mer", "devant", "près", "lez"}
+
+
+def fr_place_case(name: str) -> str:
+    """« Saint-Pierre-Des-Corps » vers « Saint-Pierre-des-Corps ».
+
+    Shotgun rend `addressLocality` en capitales initiales sur chaque segment, ce qui
+    donne trente noms de communes mal orthographiés sur un seul lot, « Puget-Sur-Argens »,
+    « Couzon-Au-Mont-D'or », « Bourg-En-Bresse ». Le slug n'en souffre pas (`slugify()`
+    passe tout en minuscules) mais le **libellé**, lui, s'affiche partout, sur les cartes,
+    dans les `<title>` et dans les descriptions engendrées.
+
+    Ce n'est pas une correction de contenu, c'est de l'orthographe : une particule ne
+    prend pas la majuscule au milieu d'un nom, et ce qui suit une apostrophe élidée la
+    prend (« Laroque-d'Olmes »). « Mont-Saint-Aignan » et « Hérouville-Saint-Clair » ne
+    bougent pas, « Saint » n'est pas une particule.
+
+    À n'appliquer qu'aux pays de langue française : « Vila Nova de Gaia » et
+    « San Sebastián de los Reyes » ont leurs propres règles, qui ne sont pas celles-ci.
+    """
+    def seg(part: str, first: bool) -> str:
+        if first:
+            return part
+        # On compare sur la forme réduite mais on rend le mot **d'origine** en
+        # minuscules : passer par `fold()` pour la sortie transformait
+        # « Dreuil-Lès-Amiens » en « Dreuil-les-Amiens », l'accent en moins.
+        if fold(part) in PARTICLES:
+            return part.lower()
+        m = re.fullmatch(r"([DdLl])'(.*)", part)
+        if m:
+            return m.group(1).lower() + "'" + (m.group(2)[:1].upper() + m.group(2)[1:])
+        return part
+
+    out = []
+    for word in name.split(" "):
+        bits = word.split("-")
+        out.append("-".join(seg(b, i == 0 and not out) for i, b in enumerate(bits)))
+    return " ".join(out)
+
+
+def city_regions() -> dict[str, str]:
+    """Ville française -> département, relevé sur ce que le catalogue publie déjà.
+
+    `departement()` lit le code postal, ce qui est une correspondance et non une
+    déduction, mais **certaines fiches n'ont aucune adresse**, seulement un nom de ville :
+    sept dates de Shotgun sont arrivées sans rue ni code postal. Sans `region` elles
+    échappent à `/rave-party/{departement}` et `audit.py` refuse le lot.
+
+    Le catalogue, lui, a déjà tranché : « Lyon » y vaut « Rhône » sur des dizaines de
+    fiches. Reprendre sa réponse est encore une correspondance, pas une invention. Une
+    ville qui apparaît sous **deux** départements est laissée de côté (« Brest » est dans
+    ce cas) : on ne devine pas.
+    """
+    seen: dict[str, set[str]] = {}
+    try:
+        src = open(os.path.join(APP, "lib", "data.ts"), encoding="utf-8")
+    except OSError:
+        return {}
+    with src as fh:
+        for line in fh:
+            if 'country: "France"' not in line:
+                continue
+            c = re.search(r'city: "([^"]+)"', line)
+            r = re.search(r'region: "([^"]+)"', line)
+            if c and r:
+                seen.setdefault(c.group(1), set()).add(r.group(1))
+    # Indexée sur la forme réduite : « Saint-Pierre-Des-Corps » rendu par une source
+    # doit retrouver le « Saint-Pierre-des-Corps » du catalogue.
+    return {fold(c): next(iter(rs)) for c, rs in seen.items() if len(rs) == 1}
 
 
 def guess_type(name: str, venue: str, multi_day: bool) -> str:
@@ -222,15 +352,27 @@ def make_desc(name: str, venue: str, city: str, date: str, end: str | None,
     head = ", ".join(lineup[:4])
     more = len(lineup) - 4
 
+    def money(lang: str) -> str:
+        """Le montant écrit comme `priceLabel()` l'écrit, décimale comprise.
+
+        « Entrée à partir de 7.99 € » est un point décimal dans une phrase française, et
+        « 9.9 € » perd le centime que le tarif annonce. Le repère est `priceLabel()`
+        (lib/format.ts) : deux décimales dès qu'il y en a, virgule en français, et seules
+        `€ £ $` se préfixent, **en anglais seulement**.
+        """
+        n = f"{price:.2f}" if price % 1 else f"{price:.0f}"
+        if lang == "fr":
+            return f"{n.replace('.', ',')} {cur}"
+        return f"{cur}{n}" if cur in ("€", "£", "$") else f"{n} {cur}"
+
     f_ = f"{name} {when_fr} à {venue}, {city}, à partir de {hour_fr}."
     e_ = f"{name} {when_en} at {venue}, {city}, from {time_s}."
     if head:
         f_ += f" Au line-up : {head}" + (f" et {more} autre{'s' if more > 1 else ''} nom{'s' if more > 1 else ''}." if more > 0 else ".")
         e_ += f" On the bill: {head}" + (f" and {more} more name{'s' if more > 1 else ''}." if more > 0 else ".")
     if price:
-        amount = f"{price:g} {cur}" if cur not in ("£", "$") else f"{cur}{price:g}"
-        f_ += f" Entrée à partir de {amount}."
-        e_ += f" Entry from {amount}."
+        f_ += f" Entrée à partir de {money('fr')}."
+        e_ += f" Entry from {money('en')}."
     return f_, e_
 
 

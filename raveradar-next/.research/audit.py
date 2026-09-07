@@ -113,6 +113,14 @@ for e in ev:
     yr = int(e["date"][:4]) if e.get("date") else 0
     if any(yr - 1 <= int(y) <= yr + 2 for y in re.findall(r"\b(20\d\d)\b", e.get("title", ""))):
         bad.append(f'{tag}: le titre porte une année')
+    # Un titre dont `slugify()` ne garde rien n'a pas d'URL : Next rend la fiche sur
+    # `/event` au lieu de `/event/{slug}` et **le build échoue**, après dix-neuf mille
+    # pages générées. Le cas est arrivé avec « 𝓞𝓝𝓓𝓔𝓢 », écrit en caractères
+    # mathématiques par son organisateur ; les collecteurs normalisent maintenant en
+    # NFKC, mais un titre fait d'émojis passerait encore. Le rattraper ici coûte une
+    # seconde, le laisser aller au build en coûte dix minutes.
+    if not slugify(e.get("title", "")):
+        bad.append(f'{tag}: titre sans une seule lettre, slug impossible')
     if c == "France" and not e.get("region"):
         bad.append(f'{tag}: événement FR sans region (département)')
     s = slugify(e.get("title", ""))

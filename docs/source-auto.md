@@ -239,6 +239,154 @@ de genre sont testés ; la forme réelle des réponses de Ticketmaster ne l'est 
 de clé. La surface non vérifiée se réduit à un appel HTTP dont l'URL est documentée, et
 le collecteur signale toute anomalie (`fault.faultstring`) au lieu de l'avaler.
 
+## Shotgun, quatrième source, et le rééquilibrage français
+
+Shotgun est le guichet de la scène électro française. Là où jds.fr donne l'agenda des
+salles déclarées et Ticketmaster les grosses jauges, Shotgun porte la soirée de club
+vendue à cent personnes, celle qui n'existe nulle part ailleurs sous forme structurée.
+Sur Paris seule, son agenda annonce plus de deux mille dates sur soixante-huit jours,
+quand le catalogue européen entier en compte mille quatre cents. C'est la source qui
+répond au déséquilibre que Skiddle avait creusé.
+
+    python3 .research/sources/shotgun.py                 # tout, avec cache
+    python3 .research/sources/shotgun.py --city paris    # une ville
+    python3 .research/sources/shotgun.py --no-cache      # ce que fait le workflow
+
+**Aucune clé.** Le `robots.txt` de `shotgun.live` tient en trois lignes,
+`User-Agent: * / Allow: /` plus un sitemap : aucun agent nommé, aucune zone fermée, et
+surtout **aucune réserve de droits**, ni article 4 de la directive 2019/790, ni en-tête
+`Content-Signal`. C'est exactement ce qui manque à DICE et à Resident Advisor (voir plus
+bas), et c'est ce qui rend cette collecte défendable là où la leur ne l'est pas. On s'y
+annonce quand même en `ClaudeBot/1.0` avec une temporisation : une source qu'on ne
+bouscule pas est une source qui reste ouverte.
+
+### Deux temps, et c'est ce qui la rend supportable
+
+1. **La page de ville**, une requête par ville. `?page=N` y est **cumulatif** et non
+   paginant : `?page=40` rend les quarante premières pages d'un coup, donc l'agenda
+   entier d'une ville tient dans un seul appel. Chaque carte porte déjà le titre, la
+   salle, le jour, l'heure locale, le prix d'appel **et les étiquettes de genre de
+   Shotgun**, ce qui suffit à décider sans ouvrir une seule fiche.
+2. **La fiche**, une requête par événement retenu, uniquement pour ce que la carte n'a
+   pas : les coordonnées (sans elles on n'ajoute pas l'événement), l'adresse complète, le
+   line-up et l'heure de fin. Son `application/ld+json` est un `MusicEvent` complet.
+
+Les 80 villes de `CITIES` sont des **clés de découverte, rien de plus** : la ville et le
+pays publiés viennent de l'adresse de la fiche. C'est pourquoi la liste peut contenir des
+libellés qui sont des régions (« aix-marseille », « cote-d-azur », « pau-tarbes ») sans
+qu'aucun n'atteigne jamais le catalogue. Les Açores, Madère et les Canaries en sont
+volontairement absentes : le fuseau est déduit du **pays**, et il n'y est pas celui du
+continent (voir le piège du fuseau juste en dessous).
+
+### Les étiquettes de genre font le filtre et l'attribution
+
+Comme les `classifications[]` de Ticketmaster, ce sont celles de la billetterie
+elle-même, donc une preuve autrement plus solide qu'un mot-clé pêché dans un texte. Le
+vocabulaire a été relevé sur l'agenda parisien complet, **131 libellés distincts**, et il
+rend trois réponses et non deux :
+
+- « Techno », « Tech House », « Hard Groove » **attribuent** un de nos onze genres ;
+- « Electro », « Dubstep », « UK Garage », « Industrial », « Ambient » **prouvent le
+  périmètre sans attribuer**, parce qu'aucun n'est une de nos onze cases et que leur en
+  coller une serait l'invention que la règle de contenu interdit ; l'attribution repart
+  alors sur l'artiste, puis sur le titre ;
+- « Salsa », « Reggaeton », « Bouyon » sont une preuve **contraire**, et c'est la plus
+  utile des trois puisqu'elle écarte sans avoir à ouvrir la fiche.
+
+L'ordre reste celui du projet, l'artiste d'abord. Il fallait pour ça appeler
+`genres_for()` avec le **titre vide** : sinon un mot-clé attrapé dans un nom de soirée
+passait devant le classement de la plateforme, qui est une attribution faite par celui
+qui vend le billet.
+
+### Cinq pièges propres à Shotgun
+
+**Le JSON-LD est en UTC, le catalogue stocke l'heure locale.** Une soirée parisienne
+annoncée `2026-09-07T21:59:00.000Z` commence à 23 h 59, pas à 21 h 59, et l'écart tombe à
+une heure l'hiver, ce qui est pire : un décalage constant se repère, un décalage qui
+change de valeur deux fois par an passe pour une donnée juste. On convertit par
+`zoneinfo`, d'après le pays de l'adresse.
+
+**`endDate` est l'heure de fermeture, jamais la fin d'un festival.** C'est le défaut déjà
+payé sur Skiddle, ici sous une autre forme : le champ existe et il est faux. Une soirée de
+club qui ferme à 4 h porte un `endDate` au lendemain, et `isPast()` la garderait « à
+venir » toute la journée du dimanche. La règle qui tranche les deux cas d'un coup est la
+**journée qui commence à 10 h** : le dernier jour est celui de la fin, ramené au jour
+précédent si elle tombe à 10 h ou avant. Deux réglages ont été payés pour arriver là.
+Minuit ne marche pas, c'est le défaut d'origine. Six heures non plus : la fermeture la
+plus courante de tout l'agenda est **exactement** 6 h, une borne exclusive la renvoyait au
+mauvais jour, et le Rex Club ferme à 7 h, ce qui suffisait à faire d'une soirée du
+mercredi un festival de deux jours. À 10 h, plus rien ne se discute : entre 6 h et 10 h,
+rien ne *commence*, donc tout ce qui finit là est la queue de la nuit précédente.
+
+**Un tarif d'appel n'est pas forcément une entrée, mais une liste d'exclusion brutale est
+pire.** Les offres portent des vestiaires, des navettes, des places de parking, des
+billets « -12 ans » à 0 € et des paliers déjà épuisés. On ne retient donc que ce qui est
+en vente, non nul, et qui est bien une entrée. Le premier essai excluait tout libellé
+contenant « drink » : les deux fiches de contrôle sont ressorties à **zéro euro** alors que
+leur carte annonçait 10 €, parce que « Entrée avant minuit + 1 drink » est le tarif normal
+de la moitié des clubs parisiens. D'où deux listes et non une : un supplément **cité à
+côté d'une entrée** ne change pas la nature de l'offre, ce qui la change c'est de ne pas
+être une entrée du tout (un vestiaire) ou de ne pas être *cette* entrée-là (un tarif
+enfant).
+
+**Un titre peut n'avoir aucune lettre, et c'est le build qui l'a dit.** « 𝓞𝓝𝓓𝓔𝓢 » est
+écrit en caractères mathématiques Unicode : `slugify()` n'en garde rien, la fiche se rend
+alors sur `/event` au lieu de `/event/{slug}`, et `next build` échoue **après avoir
+généré dix-neuf mille pages**. Ni `merge.py`, ni `audit.py`, ni les quatre garde-fous ne
+voyaient ça, ce qui est exactement la leçon déjà écrite pour l'artiste « Daniel[i] » :
+seul `npm run build` attrape certaines choses, et il fait partie de la fusion, pas de
+l'après. Trois corrections plutôt qu'une : `tidy_title()` normalise en **NFKC**, la
+normalisation de compatibilité prévue pour ça, qui rend « ONDES » ; le collecteur écarte
+quand même un titre dont il ne reste rien, un titre fait d'émojis étant encore possible ;
+et `audit.py` porte désormais le test, parce que le rattraper là coûte une seconde quand
+le laisser aller au build en coûte dix minutes.
+
+**Le champ « salle » est libre, et l'organisateur y met parfois son adresse.**
+« 10 Rue de Lappe, 75011 Paris, France » y arrive tel quel, et le publier ouvre
+`/lieux/10-rue-de-lappe-75011-paris-france` : le `/lieux/300-lieux-dans-amsterdam` que la
+règle interdit, par une porte de plus. `is_address()` teste trois signatures, le libellé
+**est** l'adresse, il contient le code postal, ou il commence par un numéro de voie suivi
+d'un mot de voirie. Le numéro seul ne suffit pas, « Studio 56 » et « Level 3 » sont de
+vraies salles.
+
+### Deux corrections qui profitent aux quatre sources
+
+Elles vivent dans `common.py`, parce qu'elles ne sont propres à personne.
+
+**La date collée en fin de titre.** « Acid Oslo X I Am Ebi Snake 07/09/26 »,
+« Let's MIX ! 07.09 », « Caipiri Open Air | 8 Septembre @Casatroca » : c'est une habitude
+d'organisateur, la date est déjà un champ, et collée au titre elle repart dans le slug et
+dans le `<title>`, où deux dates de la même soirée feraient deux marques au lieu d'une.
+`tidy_title()` retire la date en chiffres, la date en toutes lettres, la salle rappelée
+avec une arobase, et **l'année d'édition** (« Le titre porte le festival, pas l'édition »,
+CLAUDE.md). La fenêtre de l'année est bornée à 20xx pour ne pas amputer « Hangar 1988 ».
+
+**Le montant dans la description était écrit à la machine.** « Entrée à partir de 7.99 € »
+est un point décimal dans une phrase française, et « 9.9 € » perd le centime que le tarif
+annonce. Le repère est `priceLabel()` (`lib/format.ts`), le seul endroit qui décide déjà
+de cette écriture : deux décimales dès qu'il y en a, virgule en français, et seules
+`€ £ $` se préfixent, en anglais seulement. Le défaut existait sur les trois collecteurs
+précédents, il ne se voyait pas parce que jds et Ticketmaster rendent surtout des entiers.
+
+### Les plafonds sont écrits dans le rapport, jamais avalés
+
+L'agenda parisien de Shotgun est plus gros que le catalogue entier : `--per-city`
+(60 par défaut) est ce qui garde une exécution hebdomadaire sous une demi-heure. Il coupe
+la longue traîne des soirées de semaine, pas la page qui capitalise, puisque les
+**festivals passent devant** (ils sont identifiables sur la carte, leur lien est en
+`/festivals/` et non `/events/`) et que le reste est pris par ordre de date. Ce que le
+plafond écarte part dans `shotgun-a-relire.md` avec son URL, comme tout le reste : une
+troncature silencieuse laisserait croire qu'une ville n'a rien à offrir. `--pages`
+(profondeur de l'agenda) et `--months` (horizon, 8 par défaut) se règlent de la même
+façon.
+
+### Le lien de billetterie est un lien nu
+
+`shotgun.live` n'est dans aucun réseau d'affiliation branché ici : pas de tag à coller
+dans l'URL comme sur Skiddle, pas de domaine dans `AFFILIATE_HOSTS` comme Ticketmaster.
+`outboundRel()` lui posera `nofollow` et rien d'autre, ce qui est exact : un lien qui ne
+rapporte rien ne se déclare pas sponsorisé.
+
 ## Résultat de la première collecte
 
 **jds.fr** : 349 fiches lues, 86 mises au format, **31 nouvelles dates** fusionnées (les
@@ -249,6 +397,21 @@ La France passe de 166 à 195 dates à venir, et quatre départements se sont ou
 **Skiddle**, route sans clé : 64 pages de salle lues, 1 095 dates vues, 109 mises au
 format, **62 fusionnées**. 91 des 109 portent un lien affilié taggé, les 18 autres étant
 épuisées. Le catalogue passe de 1 320 à 1 382 événements.
+
+**Shotgun** : 80 pages de ville lues, environ dix mille cartes vues, 1 263 fiches
+ouvertes, 694 mises au format, **671 fusionnées**. C'est de loin la plus grosse des
+quatre, et elle fait exactement ce qu'on lui demandait : le catalogue passe de 1 382 à
+**2 053 événements**, la France de 195 à **697 dates à venir**, et onze départements
+s'ouvrent (Maine-et-Loire, Pas-de-Calais, Côtes-d'Armor, Indre-et-Loire, Seine-Maritime,
+Somme, Vienne, Cher, Landes, Ariège, Territoire de Belfort). Le Portugal arrive avec 108
+dates, marché où Shotgun est aussi installé qu'en France.
+
+2 698 fiches partent à la relecture, dont l'immense majorité pour une raison qui n'est pas
+un défaut : le plafond par ville, ou un classement de la billetterie qui dit « Salsa ».
+
+Une exécution complète prend une trentaine de minutes, l'essentiel en lecture de fiches
+(1 263 requêtes à environ une par seconde). Les 80 pages de ville, elles, se lisent en
+quatre minutes.
 
 ## Deux sources qu'on ne branchera pas : DICE et Resident Advisor
 
@@ -278,10 +441,11 @@ Ticketmaster, la machinerie est déjà là.
 Renvoyer un lecteur vers une billetterie n'est pas la parcourir, et c'est même ce que
 DICE attend d'un annuaire.
 
-**L'alternative immédiate est Shotgun**, qui autorise tout le monde (`User-Agent: * /
-Allow: /`), sert du contenu réel à ClaudeBot, et couvre le marché français, celui-là même
-où le catalogue est le plus mince. Vérifié joignable ; son sitemap a répondu 429 au
-premier essai, donc il faudra le lire lentement.
+**L'alternative a été branchée, c'est Shotgun** (section plus haut) : il autorise tout le
+monde (`User-Agent: * / Allow: /`), sans réserve de droits, sert du contenu réel à
+ClaudeBot, et couvre le marché français, celui-là même où le catalogue était le plus
+mince. La comparaison des deux `robots.txt` est tout le sujet : la même technique de
+lecture est défendable chez l'un et ne l'est pas chez l'autre.
 
 ## Brancher une autre source
 
@@ -297,14 +461,16 @@ séparément divergeraient à la première correction, ce que `lib/catalog-expor
 fermé pour la conversion des dépôts de promoteurs.
 
 Les sources déjà repérées et ce qu'elles valent depuis le conteneur sont dans `CLAUDE.md`
-(section « Sources exploitables »). Les prochaines les plus utiles : **CTS Eventim**, qui
-tient le marché DACH là où Ticketmaster est faible, et **DICE**, qui est en clair et
-couvre les clubs britanniques que Skiddle ne vend pas.
+(section « Sources exploitables »). La prochaine la plus utile est **CTS Eventim**, qui
+tient le marché DACH là où Ticketmaster est faible. DICE couvrirait les clubs britanniques
+que Skiddle ne vend pas, mais son `robots.txt` nous ferme la porte et il n'y a pas à
+discuter.
 
-### Les trois clés, en un coup d'œil
+### Les clés, en un coup d'œil
 
 | Source | Clé | Sans elle |
 |---|---|---|
 | jds.fr | aucune | rien à faire, elle tourne |
+| Shotgun | aucune | rien à faire, elle tourne |
 | Skiddle | `SKIDDLE_API_KEY`, facultative | route des pages de salle, mêmes dates |
 | Ticketmaster | `TICKETMASTER_API_KEY`, **obligatoire** | la source est sautée, et le dit |
