@@ -18,6 +18,7 @@
 ## Architecture du repo
 - **`raveradar-next/`** = l'app **Next.js 14 (App Router) + TS + Tailwind + Framer Motion**. **C'EST LA VERSION LIVE** (déployée sur Vercel, Root Directory = `raveradar-next`, domaine `raveparty.fr` via DNS Hostinger : A `@` 76.76.21.21, CNAME `www` cname.vercel-dns.com).
 - **Racine du repo** = `CLAUDE.md`, `README.md`, `docs/` et la CI. Le site **statique** antérieur (HTML/CSS/JS sans build) qui doublait les mêmes URLs à la racine **a été supprimé** : il n'était plus déployé depuis la mise en ligne de l'app Next mais continuait d'être modifié, ce qui faisait deux systèmes de design à tenir en phase et un doute permanent sur ce qui était servi. Son histoire reste dans git.
+- **`.claude/skills/`** = les skills du dépôt, disponibles dans toute session ouverte à la racine. Voir « Skill de design » plus bas.
 - Branche de travail/prod : `claude/site-review-update-1g8ind`.
 
 ## Conventions (app Next)
@@ -344,6 +345,21 @@ Le lot d'août 2026 a repayé la leçon trois fois, dans les deux sens :
 **`endDate` est réservé aux vraies dates multi-jours.** Un agent l'a posé sur cinq soirées de club qui finissent à l'aube (`2026-10-17` → `2026-10-18`). Ce n'est pas anodin : `isPast()` lit `endDate`, donc une soirée du samedi soir restait « à venir » tout le dimanche, exactement ce que les trois portes de mise en avant existent pour empêcher.
 
 **`merge.py` sait maintenant écrire `venueEn`.** Le champ existait dans `RaveEvent` mais le script ne l'émettait pas : un `venue` descriptif en français (« Site outdoor d'Oigny ») fuitait tel quel sur `/en`, `venueLabelL()` n'ayant rien vers quoi basculer. Tout lot qui rend un libellé de lieu qui n'est pas un nom propre doit fournir `venueEn`.
+
+## Skill de design (`ui-ux-pro-max`)
+Installé à la racine dans **`.claude/skills/ui-ux-pro-max/`** (v2.13.0, MIT, dépôt `nextlevelbuilder/ui-ux-pro-max-skill`) : une base locale interrogeable (79 styles, 192 palettes et profils produit, 74 associations de fontes, 119 règles UX, 25 types de graphiques, 22 stacks dont `nextjs`) plus un générateur de système de design. Aucun réseau, aucune dépendance, Python 3 et sa bibliothèque standard suffisent.
+
+```bash
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<requête>" --domain <domaine>
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<requête>" --stack nextjs
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<requête>" --design-system -p "RaveRadar"
+```
+
+- **Ce fichier fait autorité, pas le skill.** Le site a déjà sa direction artistique, ses grilles `auto-fill`, sa règle « une carte est un lien », son interdiction du cadratin et sa règle de contenu. Le skill rend des recommandations génériques tirées de tableaux : c'est une source de deuxième main, à confronter aux conventions ci-dessus, jamais à appliquer telle quelle. En cas de contradiction, c'est le skill qui cède.
+- **Le mode `--design-system` ne s'applique pas à un site déjà habillé.** Il rend un thème neuf (palette, fontes, découpage de landing), utile pour une page qui n'existe pas encore, dangereux sur un gabarit en ligne dont la charte est établie. Vérifié à l'installation : sur la requête « electronic music event directory europe seo » il propose une palette rose et or et un couple Great Vibes / Cormorant Infant, c'est-à-dire une charte de faire-part de mariage. Ce qui sert vraiment ici, ce sont les recherches par `--domain` (accessibilité, texte qui déborde, états de focus) et par `--stack nextjs`.
+- **Le jeu `stacks/nextjs.csv` vise Next.js 16.2, l'app est en 14.** Les conseils de rendu (Server Components par défaut, fetch dans le composant serveur) valent déjà pour l'App Router de la 14, mais toute API annoncée comme récente se vérifie dans la doc de la version installée avant d'être écrite.
+- **Les tests livrés se lancent depuis le répertoire du skill**, `python3 -m unittest discover -s scripts/tests` : 133 passent, 4 échouent à l'import parce qu'elles cherchent l'arborescence du dépôt amont (`skill.json`, `src/`), absente d'une installation. C'est attendu, ce ne sont pas des tests du moteur.
+- **Mettre à jour demande de refaire la réécriture des chemins.** Le `SKILL.md` publié est celui du plugin Claude Code et préfixe ses commandes de `${CLAUDE_PLUGIN_ROOT}`, variable qui ne vaut rien pour un skill de projet : les onze occurrences sont réécrites en chemin relatif à la racine du dépôt, sinon chaque exemple de commande pointe sur `/.claude/…` et ne tourne pas.
 
 ## Documentation détaillée
 - **`docs/suivi.md`**, le tableau de bord d'audience privé : mise en route, ce qui est mesuré exactement, comment lire chaque indicateur, et les choix de conception à ne pas défaire.

@@ -1,0 +1,4 @@
+# Caches Python des scripts de `.claude/skills/` : engendrés à chaque recherche,
+# jamais versionnés.
+__pycache__/
+*.pyc
