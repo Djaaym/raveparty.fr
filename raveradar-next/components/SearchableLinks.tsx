@@ -8,6 +8,10 @@ export interface FilterItem {
   slug: string;
   /** The bare name, what the box matches on and what the row displays. */
   term: string;
+  /** Combien de dates à venir. Un nombre, pas un libellé : « 12 événements » répété
+   *  sur 138 lignes est le même kilo-octet envoyé cent fois, la décoration se
+   *  reconstruit ici. Absent ou zéro, la ligne passe en `soonLabel`. */
+  n?: number;
 }
 
 export interface FilterGroup {
@@ -44,6 +48,7 @@ export default function SearchableLinks({
   emptyLabel,
   countLabel,
   clearLabel,
+  soonLabel,
 }: {
   groups: FilterGroup[];
   /** Prefixed to every slug: `/rave-party/`, `/en/artistes/`… */
@@ -56,6 +61,10 @@ export default function SearchableLinks({
   /** "{n} sur {total}", only rendered while a query is active. */
   countLabel: string;
   clearLabel: string;
+  /** Ce qu'affiche une ligne sans date à venir (« bientôt »). Optionnel, et c'est
+   *  ce qui rend la mention opt-in : un appelant qui n'envoie aucun `n` ne doit pas
+   *  voir toutes ses lignes annoncer qu'elles sont vides. */
+  soonLabel?: string;
 }) {
   const [q, setQ] = useState("");
   const needle = norm(q.trim());
@@ -110,9 +119,16 @@ export default function SearchableLinks({
               </h2>
               <div className="linkfarm">
                 {g.items.map((i) => (
-                  <Link key={i.slug} href={`${hrefBase}${i.slug}`}>
+                  <Link
+                    key={i.slug}
+                    href={`${hrefBase}${i.slug}`}
+                    className={soonLabel && !i.n ? "is-quiet" : undefined}
+                  >
                     {labelPrefix}
                     {i.term}
+                    {/* L'espace est explicite : la marge CSS ne sépare que les pixels,
+                        le texte d'ancre resterait « Rave party Rigasoon ». */}
+                    {i.n ? <> <b>{i.n}</b></> : soonLabel ? <> <i>{soonLabel}</i></> : null}
                   </Link>
                 ))}
               </div>

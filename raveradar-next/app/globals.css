@@ -1064,6 +1064,46 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   .venuecard-shot { width: 72px; height: 90px; }
 }
 
+/* Cartes de ville du hub `/villes`. Une pilule ne dit ni combien il se passe de choses
+   dans une ville, ni quoi, ni où : la carte porte la photo du lieu, le compte des dates
+   à venir, ce qu'on y programme, les clubs qui tournent et la prochaine nuit.
+   Minimum de piste à 280 px : deux colonnes dès 768 px de fenêtre, trois à 1280, cinq à
+   1920. Et `min(280px, 100%)` jamais `280px` seul, sinon la piste ne descend pas sous
+   280 et déborde dans un conteneur plus étroit. */
+.citygroup { font-family: var(--f-mono); font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; color: var(--grey-2); margin: 26px 0 14px; }
+.citycards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 18px; }
+.citycard { display: flex; flex-direction: column; min-width: 0; overflow: hidden; background: var(--anthracite); border: 1px solid var(--line); border-radius: var(--r-lg); transition: transform .2s, border-color .2s, box-shadow .2s; }
+.citycard:hover { transform: translateY(-4px); border-color: rgba(139,92,255,.5); box-shadow: var(--shadow-card), var(--glow-violet); }
+.citycard-media { position: relative; display: block; aspect-ratio: 3/2; overflow: hidden; color: inherit; }
+.citycard-media:focus-visible { outline: 2px solid var(--cyan); outline-offset: -3px; }
+.citycard-shot { width: 100%; height: 100%; object-fit: cover; transition: transform .45s ease; }
+.citycard:hover .citycard-shot { transform: scale(1.06); }
+.citycard-noshot { display: grid; place-items: center; width: 100%; height: 100%; font-size: 2rem; background: var(--grad-soft); }
+.citycard-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 30%, rgba(5,6,8,.62) 68%, rgba(5,6,8,.96) 100%); }
+.citycard-head { position: absolute; z-index: 2; left: 16px; right: 16px; bottom: 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.citycard-head b { font-family: var(--f-display); font-weight: 800; font-size: 1.35rem; letter-spacing: -.02em; line-height: 1.1; color: var(--white); overflow-wrap: anywhere; }
+.citycard-head em { font-family: var(--f-mono); font-style: normal; font-size: .72rem; color: var(--cyan); }
+.citycard-body { display: flex; flex-direction: column; flex: 1; gap: 10px; min-width: 0; padding: 16px; }
+.citycard-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0; }
+.citycard-line em, .citycard-next em { font-family: var(--f-mono); font-style: normal; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--grey-2); }
+.citycard-line .linkfarm a { font-size: .72rem; padding: 4px 9px; }
+.citycard-next { margin-top: auto; font-size: .82rem; color: var(--grey); }
+.citycard-next em { display: block; margin-bottom: 3px; }
+.citycard-next a { color: var(--white); }
+.citycard-next a:hover { color: var(--cyan); }
+.citycard-go { display: flex; flex-wrap: wrap; gap: 4px 16px; padding-top: 12px; border-top: 1px solid var(--line-soft); }
+.citycard-go a { font-family: var(--f-mono); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--cyan); }
+.citycard-go a:hover { color: var(--white); }
+@media (max-width: 560px) { .citycard-head b { font-size: 1.15rem; } }
+
+/* Une zone sans date à venir reste liée, sa page existe et elle est indexée, mais elle
+   ne promet rien : ni compteur, ni la même présence à l'écran qu'une ville qui bouge. */
+.linkfarm a.is-quiet { color: var(--grey-2); border-color: var(--line-soft); }
+.linkfarm a i { font-family: var(--f-mono); font-style: normal; font-size: .68rem; color: var(--grey-3); margin-left: 5px; }
+.linkcols a b { font-family: var(--f-mono); font-weight: 600; font-size: .74rem; color: var(--grey-3); margin-left: 6px; }
+.linkcols a:hover b { color: var(--cyan); }
+.linkcols a.is-quiet { color: var(--grey-2); opacity: .62; }
+
 /* ------------------------- ARTIST CARDS (/artistes) -------------------- */
 /* On ne peut pas écrire 1 860 biographies, mais 147 existent : les plus programmées
    passent en carte développée en tête de page, le reste de l'annuaire garde sa
