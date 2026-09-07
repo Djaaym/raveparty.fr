@@ -28,8 +28,19 @@
   /* Text */
   --white:   #F3F3F8;   /* off-white */
   --grey:    #A7A9B8;
-  --grey-2:  #6E7081;
-  --grey-3:  #44464F;
+  /* Les deux gris secondaires étaient sous le seuil de contraste AA, mesuré sur les
+     trois fonds du site : #6E7081 tombait à 3,79 sur une carte (#12131B) et #44464F à
+     1,97, alors que le minimum est 4,5 pour du texte normal, ce que sont ces libellés
+     (0,6 à 0,8 rem, donc jamais du « grand texte » au sens WCAG). Ils portent pourtant
+     de vraies informations : le compteur d'une facette, le tarif sous une carte de
+     salle, la mention d'affiliation du bloc hôtel, le bas de page.
+
+     Les valeurs retenues passent AA sur les trois fonds (4,67 et 6,08 dans le pire cas)
+     et gardent l'écart de luminance qui faisait la hiérarchie : +37 % d'un palier au
+     suivant, exactement comme avant. Le site ne s'éclaircit pas, ses gris cessent
+     seulement d'être illisibles. */
+  --grey-2:  #9193A2;
+  --grey-3:  #7D7F8E;
 
   /* Gradients */
   --grad-main:   linear-gradient(115deg, var(--blue) 0%, var(--violet) 48%, var(--magenta) 100%);
@@ -965,6 +976,21 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 }
 
 /* ----------------------------- BREADCRUMBS ----------------------------- */
+/* ------------------------------- SKIP LINK -------------------------------
+   Il n'y en avait aucun. La nav compte six onglets, un sélecteur de langue, une
+   loupe et deux boutons : un lecteur au clavier les retraversait à chaque page,
+   sur les 13 000 pages du site. Le lien n'apparaît qu'au focus, donc il ne coûte
+   rien à l'œil, et il est le premier élément focusable du document.
+--------------------------------------------------------------------------- */
+.skip-link {
+  position: absolute; top: 8px; left: 8px; z-index: 400;
+  padding: 10px 16px; border-radius: 10px;
+  background: var(--white); color: var(--black); font-weight: 700;
+  transform: translateY(-200%);
+  transition: transform .18s ease;
+}
+.skip-link:focus { transform: translateY(0); }
+
 .crumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .8rem; color: var(--grey); font-family: var(--f-mono); }
 .crumbs a { color: var(--grey); transition: color .2s; }
 .crumbs a:hover { color: var(--cyan); }

@@ -37,6 +37,14 @@ export default function Nav({ lang }: { lang: Lang }) {
   const isActive = (key: string) => frPath.startsWith(key);
 
   return (
+    <>
+      {/* Premier élément focusable du document, invisible tant qu'il n'a pas le focus.
+          Sans lui, un lecteur au clavier retraverse les six onglets, le sélecteur de
+          langue, la loupe et les deux boutons à chaque page. La cible est `#contenu`,
+          posée par les composants de page sur leur `<main>`. */}
+      <a className="skip-link" href="#contenu">
+        {t("a11y.skip")}
+      </a>
     <nav className="nav">
       <div className="wrap nav-inner">
         <Link className="brand" href={`${p}/`}>
@@ -94,6 +102,17 @@ export default function Nav({ lang }: { lang: Lang }) {
         </button>
       </div>
     </nav>
+      {/* La cible du lien d'évitement. Elle vit ici et non dans chacune des dix-neuf
+          pages : posée juste après la barre, elle veut dire « après la navigation »,
+          ce qui est exactement ce que le lien promet, et une seule ligne la tient à
+          jour pour tout le site.
+
+          `tabIndex={-1}` est indispensable : un `<div>` n'est pas focusable, et sans
+          lui le navigateur déplace le défilement sans déplacer le focus, donc la
+          tabulation suivante repart du haut de la nav, c'est-à-dire de là qu'on
+          voulait partir. */}
+      <div id="contenu" tabIndex={-1} />
+    </>
   );
 }
 
