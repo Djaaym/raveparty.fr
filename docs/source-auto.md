@@ -101,12 +101,72 @@ Lyon » là où le catalogue dit « Rhône ». Les deux premiers chiffres d'un c
 *sont* le numéro de département : c'est une correspondance, pas une déduction.
 `.research/sources/departements.py` la porte, Corse et outre-mer compris.
 
+## Skiddle, deuxième source
+
+Le Royaume-Uni était figé : 421 de ses 529 dates venaient d'un export d'août 2026, alors
+que les soirées de club se publient à quatre ou huit semaines. Skiddle est aussi le
+deuxième réseau d'affiliation branché (`?sktag=15816`), donc une date retrouvée chez lui
+est une date qui peut rapporter.
+
+`.research/sources/skiddle.py` a **deux routes**, et les deux existent pour une raison.
+
+**L'API** est la bonne route : filtres `country`, `eventcode`, `minDate`, pagination, et
+`description=1` qui rend les genres et les artistes. Elle demande une **clé gratuite sur
+inscription** (`skiddle.com/api/join.php`), qu'un script ne peut pas obtenir. Posez
+`SKIDDLE_API_KEY` (variable d'environnement en local, secret GitHub pour le workflow) et
+c'est elle qui sert. Sans clé, l'API répond `{"errorcode": 998, "errormessage": "A valid
+API Key must be provided"}`, et le collecteur bascule.
+
+**Les pages de salle** sont la route sans clé, et elle est éprouvée : le `robots.txt` de
+Skiddle liste explicitement `ClaudeBot` avec un `Crawl-delay: 2`, respecté ici, et **une
+page de salle porte le JSON-LD de toutes ses dates**, une quarantaine en une requête. On
+ne parcourt pas les 14 536 pages du sitemap : seulement les 64 salles que le catalogue
+programme déjà, ce qui est le besoin et ce qui borne le crawl.
+
+Les deux routes se rejoignent sur une forme intermédiaire commune, si bien que le
+classement, la mise au format et le rapport sont partagés : la route API n'ajoute que sa
+façon d'aller chercher.
+
+### Trois pièges propres à Skiddle
+
+**Sa `endDate` est une heure de fermeture, pas un dernier jour.** Une soirée du 18
+septembre 22 h à 3 h du matin y finit « le 19 ». Reprise telle quelle, `isPast()`
+garderait la soirée du samedi « à venir » tout le dimanche, exactement ce que les trois
+portes de mise en avant existent pour empêcher. Un vrai multi-jours se reconnaît à un
+écart d'au moins deux jours.
+
+**Le tarif est le plus bas encore en vente.** Les offres sont des paliers successifs
+(« First Release », « TIER 1 ») avec chacun son `availability` : retenir le plus bas sans
+regarder publierait un palier `SoldOut` que personne ne peut plus payer, l'erreur payée
+sur Index: HorsegiirL. Et quand **plus rien** n'est en vente, la fiche garde sa place,
+c'est un événement réel, mais perd son lien billetterie : « un lien qui promet la soirée
+et ne vend rien vaut moins que pas de lien du tout ».
+
+**Une résidence hebdomadaire ne se distingue pas par sa salle.** Le suffixe de salle
+sépare les dates d'une tournée, qui change de lieu ; les quatre « Insomnia London » du
+Phonox gardent le même titre, donc la même clé, donc trois seraient rejetées en doublon
+et la quatrième prise au hasard. C'est le cas des Klubnacht berlinoises décrit dans
+`CLAUDE.md` : quelle date est distinctive ne se décide pas à la machine, donc elles
+sortent du lot et vont à la relecture, entières.
+
+### Un mot que `merge.py` attend
+
+`merge.py` pose `priceNote: "unknown"` quand la note de la fiche contient « non
+communiqué ». Le premier essai écrivait « plus aucun billet en vente », qui ne déclenchait
+rien : les 18 soirées épuisées seraient sorties à `price: 0` **sans** `priceNote`,
+c'est-à-dire affichées « GRATUIT ». Les deux libellés portent donc ce motif, et ce n'est
+pas une coïncidence à défaire.
+
 ## Résultat de la première collecte
 
-349 fiches lues, 86 mises au format, **31 nouvelles dates** fusionnées (les 55 autres
-étaient déjà au catalogue, ce qui est le signe que la dédup fait son travail). La France
-passe de 166 à 195 dates à venir. Quatre départements se sont ouverts (Haut-Rhin, Yonne,
-Charente-Maritime, Hautes-Pyrénées).
+**jds.fr** : 349 fiches lues, 86 mises au format, **31 nouvelles dates** fusionnées (les
+55 autres étaient déjà au catalogue, ce qui est le signe que la dédup fait son travail).
+La France passe de 166 à 195 dates à venir, et quatre départements se sont ouverts
+(Haut-Rhin, Yonne, Charente-Maritime, Hautes-Pyrénées).
+
+**Skiddle**, route sans clé : 64 pages de salle lues, 1 095 dates vues, 109 mises au
+format, **62 fusionnées**. 91 des 109 portent un lien affilié taggé, les 18 autres étant
+épuisées. Le catalogue passe de 1 320 à 1 382 événements.
 
 ## Brancher une autre source
 
@@ -114,8 +174,14 @@ Le format d'échange est celui de `.research/events-*.json`, décrit par `REQUIR
 `merge.py`. Un nouveau collecteur écrit ce JSON et n'a rien d'autre à savoir : la dédup,
 la normalisation de devise, l'audit et le build sont communs.
 
+Ce qui est commun à toutes les sources vit dans `.research/sources/common.py` : le
+vocabulaire éditorial (`OFF_TOPIC`, `GENRE_HINTS`), l'attribution de genre par artiste, la
+mise au format, la convention des tournées et le rapport de relecture. Un nouveau
+collecteur n'écrit que sa façon d'aller chercher. Deux logiques de classement écrites
+séparément divergeraient à la première correction, ce que `lib/catalog-export.ts` a déjà
+fermé pour la conversion des dépôts de promoteurs.
+
 Les sources déjà repérées et ce qu'elles valent depuis le conteneur sont dans `CLAUDE.md`
-(section « Sources exploitables »). Les deux prochaines les plus utiles : l'**API Discovery
-de Ticketmaster** (les domaines `ticketmaster.*` répondent 403 en scraping, l'API est la
-seule voie propre) et l'**API Skiddle** avec une clé, pour que le Royaume-Uni se
-rafraîchisse au lieu de rester figé sur l'export d'août.
+(section « Sources exploitables »). La prochaine la plus utile est l'**API Discovery de
+Ticketmaster** : les domaines `ticketmaster.*` répondent 403 en scraping, l'API est la
+seule voie propre, et elle couvre l'Allemagne et l'Italie, où le catalogue est mince.

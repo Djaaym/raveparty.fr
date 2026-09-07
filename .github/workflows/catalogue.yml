@@ -56,6 +56,15 @@ jobs:
         # servirait une collecte périmée si le répertoire était un jour mis en cache.
         run: python3 .research/sources/jds.py --no-cache
 
+      - name: Collecter Skiddle
+        working-directory: raveradar-next
+        env:
+          # Facultative : sans elle le collecteur prend la route des pages de salle, qui
+          # ne demande pas de clé et rend les mêmes dates. La clé, gratuite sur
+          # inscription, ouvre les filtres pays, type et date, et la pagination.
+          SKIDDLE_API_KEY: ${{ secrets.SKIDDLE_API_KEY }}
+        run: python3 .research/sources/skiddle.py --no-cache
+
       - name: Fusionner et auditer
         working-directory: raveradar-next
         run: |
@@ -71,7 +80,8 @@ jobs:
         working-directory: raveradar-next
         run: |
           {
-            echo "Lot collecté automatiquement sur l'agenda électro de jds.fr, fusionné par"
+            echo "Lot collecté automatiquement sur jds.fr (France) et Skiddle (Royaume-Uni),"
+            echo "fusionné par"
             echo "\`merge.py\` puis vérifié par \`audit.py\`, les quatre garde-fous et le build."
             echo
             echo "**Rien n'a été relu par un humain. C'est l'objet de cette PR.** À vérifier"
@@ -92,9 +102,13 @@ jobs:
             echo
             echo "### Ce que le collecteur n'a pas publié"
             echo
+            echo "**jds.fr**"
             grep '^## ' .research/sources/jds-a-relire.md | sed 's/^## /- /'
             echo
-            echo "Le détail, avec les URLs, est dans \`.research/sources/jds-a-relire.md\`."
+            echo "**Skiddle**"
+            grep '^## ' .research/sources/skiddle-a-relire.md | sed 's/^## /- /'
+            echo
+            echo "Le détail, avec les URLs, est dans \`.research/sources/*-a-relire.md\`."
           } > /tmp/pr-body.md
 
       # Le build fait partie de la collecte, pas de l'après : un lot peut casser
@@ -112,15 +126,16 @@ jobs:
       - name: Ouvrir la pull request
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: catalogue/jds-auto
+          branch: catalogue/auto
           # Une branche réutilisée et non une par exécution : la PR de la semaine
           # précédente, si personne ne l'a relue, se met à jour au lieu d'en ouvrir une
           # seconde qui dirait presque la même chose.
-          title: "Catalogue : nouvelles dates FR collectées sur jds.fr"
+          title: "Catalogue : nouvelles dates collectées automatiquement"
           commit-message: |
-            Catalogue : nouvelles dates FR collectées sur jds.fr
+            Catalogue : nouvelles dates collectées automatiquement
 
-            Lot produit par `.research/sources/jds.py`, fusionné par `merge.py` et
+            Lots produits par `.research/sources/jds.py` et `.research/sources/skiddle.py`,
+            fusionnés par `merge.py` et
             vérifié par `audit.py` et le build. Rien n'a été relu par un humain : c'est
             l'objet de cette PR.
           body-path: /tmp/pr-body.md
