@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, EVENTS, genreSlug, isPast, nextUp, todayISO, cardEvent } from "@/lib/data";
+import { ALL_GENRES, EVENTS, addDays, genreSlug, isPast, nextUp, rankGenres, todayISO, cardEvent } from "@/lib/data";
 import { PLACES, placeBySlug, eventsForPlace } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
+import { placeCopy } from "@/lib/pagecopy";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -33,49 +34,22 @@ export default function CityPage({ lang, slug }: { lang: Lang; slug: string }) {
   // Genres that actually have something on here, so the link always lands on content.
   const localGenres = ALL_GENRES.filter((g) => here.some((e) => e.genres.includes(g)));
 
-  const intro =
-    lang === "fr"
-      ? `Les meilleurs festivals électro et soirées techno à ${place.label} et aux alentours, dates, line-ups et billetterie, mis à jour en continu. Ne rate plus jamais une soirée près de chez toi.`
-      : `The best electronic festivals and techno nights in and around ${place.label}, dates, line-ups and tickets, updated continuously. Never miss a party near you again.`;
-
-  const faq: [string, string][] =
-    lang === "fr"
-      ? [
-          [
-            `Y a-t-il une rave party à ${place.label} ce week-end ?`,
-            `Consulte la liste ci-dessus : on référence les événements électro à ${place.label} et aux alentours, mis à jour en continu. Active une alerte pour être prévenu des nouvelles dates.`,
-          ],
-          [
-            `Comment être prévenu des nouvelles dates à ${place.label} ?`,
-            `Crée une alerte sur ${place.label} : dès qu'un festival ou une soirée est confirmé dans la zone, tu reçois la date, le line-up et le lien billetterie par mail.`,
-          ],
-          [
-            `Quels festivals de musique électronique près de ${place.label} ?`,
-            `Retrouve tous les festivals techno, house, hardstyle et psytrance de la zone sur la page Festival ${place.label}, avec les dates, les line-ups et la billetterie officielle.`,
-          ],
-          [
-            `Combien coûte une soirée techno à ${place.label} ?`,
-            `Les tarifs vont de l'entrée libre (parades, scènes ouvertes) à 40-90 € pour un festival. Chaque fiche événement affiche le prix d'entrée le plus bas connu et le lien vers la billetterie officielle.`,
-          ],
-        ]
-      : [
-          [
-            `Is there a rave party in ${place.label} this weekend?`,
-            `Check the list above, we track electronic events in and around ${place.label}, updated continuously. Set an alert to hear about new dates first.`,
-          ],
-          [
-            `How do I hear about new dates in ${place.label}?`,
-            `Set an alert for ${place.label}: as soon as a festival or a club night is confirmed in the area, you get the date, the line-up and the ticket link by email.`,
-          ],
-          [
-            `Which electronic music festivals are near ${place.label}?`,
-            `Every techno, house, hardstyle and psytrance festival in the area is listed on the Festival ${place.label} page, with dates, line-ups and official ticketing.`,
-          ],
-          [
-            `How much does a techno night in ${place.label} cost?`,
-            `Anywhere from free (parades, open stages) to €40-90 for a festival. Each event page shows the lowest known entry price and links to the official ticket shop.`,
-          ],
-        ];
+  /* L'intro et la FAQ étaient un gabarit qui n'interpolait que le nom du lieu :
+     242 pages qui se ressemblaient mot pour mot, et une FAQ qui répondait « consulte
+     la liste ci-dessus » à « y a-t-il une soirée ce week-end ». Tout sort désormais du
+     calendrier du lieu (salles, styles, tarifs réels, prochaines dates), donc le texte
+     change avec lui et ne peut pas se périmer sans qu'on le voie. Voir `placeCopy()`. */
+  const soon = liveHere.filter((e) => e.date <= addDays(today, 15));
+  const copy = placeCopy(lang, {
+    label: place.label,
+    kind: place.kind,
+    live: liveHere,
+    past: pastHere,
+    genres: rankGenres(here).slice(0, 4),
+    soon,
+  });
+  const intro = copy.context;
+  const faq = copy.faq;
 
   const trail: [string, string][] = [
     [t("nav.cities"), "/villes"],

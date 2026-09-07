@@ -119,6 +119,21 @@ export const isPast = (e: RaveEvent, ref = todayISO()): boolean => lastDay(e) < 
 export const isLive = (e: RaveEvent, ref = todayISO()): boolean => e.date <= ref && lastDay(e) >= ref;
 
 /**
+ * Une date ISO décalée de `n` jours, pour borner une fenêtre (« dans les quinze
+ * prochains jours »).
+ *
+ * `new Date(iso)` sans heure est interprété en UTC, `new Date(iso + "T00:00:00")` en
+ * heure locale : sur un conteneur qui n'est pas à Paris, la première forme décale la
+ * fenêtre d'un jour à certaines heures. On force donc l'heure locale, comme partout
+ * ailleurs dans le module.
+ */
+export const addDays = (iso: string, n: number): string => {
+  const d = new Date(`${iso}T00:00:00`);
+  d.setDate(d.getDate() + n);
+  return d.toLocaleDateString("en-CA");
+};
+
+/**
  * `rel` d'un lien sortant, la seule fonction qui décide de ce qu'on met dedans.
  *
  * **Tout lien qui quitte le site porte `nofollow`**, sans exception : billetterie,
