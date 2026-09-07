@@ -103,3 +103,21 @@ le programme d'affiliation se monte pour de bon.
 |, | LAVA Festival | Berlin | https://www.ticketmaster.de/artist/lava-festival-tickets/1315034 |
 |, | Spektrum Festival | Hamburg | https://www.ticketmaster.de/artist/spektrum-festival-tickets/895133 |
 |, | TMF, Trier Music Festival (page artiste, toutes éditions) | Trier | https://www.ticketmaster.de/artist/tmf-trier-music-festival-tickets/1244593 |
+
+## Sources écartées pour une raison de droit, pas de technique
+
+**DICE et Resident Advisor nous interdisent nommément.** Leur `robots.txt` porte
+`User-agent: ClaudeBot` puis `Disallow: /`, et DICE déclare en plus ces restrictions
+comme des réserves de droits au titre de l'article 4 de la directive européenne
+2019/790, avec un `Content-Signal: ai-train=no`. Leurs pages répondent 403.
+
+Les collecter demanderait soit d'ignorer un refus qui nous nomme, soit de changer de
+user-agent pour passer le pare-feu. Ni l'un ni l'autre. À comparer avec Skiddle, dont le
+`robots.txt` **autorise** ClaudeBot avec un `Crawl-delay: 2` : c'est ce qui y rend la
+collecte défendable, et la même technique ne devient pas acceptable ailleurs parce
+qu'elle fonctionne.
+
+Reste l'API partenaire de DICE, qui s'ouvre par une relation commerciale et non par une
+inscription : le jour où l'accès existe, le collecteur s'écrit comme celui de
+Ticketmaster. Les liens `dice.fm` déjà au catalogue ne sont pas concernés, renvoyer un
+lecteur vers une billetterie n'est pas la parcourir.
