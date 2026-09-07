@@ -198,6 +198,33 @@ Le lien de billetterie **ne porte aucun tag** : `ticketmaster.*` et `livenation.
 dans `AFFILIATE_HOSTS`, le tag Impact les réécrit et `rel="sponsored"` se déduit du
 domaine. Contrairement à Skiddle, il n'y a rien à coller dans l'URL.
 
+### Quelle clé, et où la poser
+
+Le portail Ticketmaster rend **deux** identifiants, et un seul sert ici.
+
+| | |
+|---|---|
+| **Consumer Key** | C'est la clé d'API. L'authentification Discovery tient en un seul paramètre de requête, `apikey=…`, sans signature. |
+| Consumer Secret | Ne sert **pas** à Discovery. Il n'intervient que dans les échanges OAuth2 des API Commerce et Partner, que ce collecteur n'appelle pas. Il n'a donc rien à faire dans une variable d'environnement du projet. |
+
+Elle se pose en **secret GitHub**, et là seulement : le collecteur tourne dans l'action
+hebdomadaire, jamais sur le site. Vercel n'en a aucun usage, le site n'appelle pas
+Ticketmaster au rendu.
+
+    Dépôt → Settings → Secrets and variables → Actions → New repository secret
+    Name  : TICKETMASTER_API_KEY
+    Secret: le Consumer Key
+
+Pour vérifier avant d'attendre lundi :
+
+    TICKETMASTER_API_KEY=… python3 .research/sources/ticketmaster.py --check
+
+Il fait une requête minimale et **distingue les deux refus**, parce qu'ils ne se
+corrigent pas pareil : `FailedToResolveAPIKey` veut dire qu'aucune clé n'est arrivée
+(variable mal nommée, secret absent), `InvalidApiKey` qu'une clé est arrivée mais n'est
+pas la bonne, le cas typique étant le Consumer Secret collé à la place du Consumer Key.
+Un simple « échec » aurait obligé à chercher dans les journaux.
+
 ### Comment il a été vérifié sans clé
 
 Le mode `--fixture` rejoue la mise au format sur une réponse enregistrée, sans réseau.

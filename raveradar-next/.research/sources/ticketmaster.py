@@ -332,6 +332,8 @@ def to_rows(raw: list[dict], styles: dict[str, list[str]]) -> tuple[list[dict], 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--fixture", help="rejouer la mise au format sur une réponse enregistrée")
+    ap.add_argument("--check", action="store_true",
+                    help="vérifier que la clé est acceptée, sans rien collecter")
     ap.add_argument("--no-cache", action="store_true")
     args = ap.parse_args()
 
@@ -355,6 +357,27 @@ def main() -> None:
             print("  donc pas de route de repli : c'est l'API Discovery ou rien.")
             print("  Clé gratuite : https://developer.ticketmaster.com/ (Discovery API v2),")
             print("  puis TICKETMASTER_API_KEY en variable d'environnement ou en secret GitHub.")
+            return
+        if args.check:
+            # Une requête minimale, uniquement pour voir si la clé passe. Les deux
+            # refus de l'API sont distincts et se corrigent différemment :
+            # `FailedToResolveAPIKey` veut dire qu'aucune clé n'est arrivée (variable
+            # mal nommée, secret absent), `InvalidApiKey` qu'une clé est arrivée mais
+            # n'est pas la bonne (Consumer Secret collé à la place du Consumer Key,
+            # espace en trop). Un « échec » sans plus serait inutilisable.
+            probe = json.loads(fetch(f"{API}?{urllib.parse.urlencode({'apikey': key, 'countryCode': 'FR', 'size': 1})}", False) or "{}")
+            fault = probe.get("fault") or {}
+            if fault:
+                print(f"  ✗ refusée : {fault.get('faultstring')}")
+                print(f"    code : {(fault.get('detail') or {}).get('errorcode')}")
+                if "Invalid" in str(fault.get("faultstring")):
+                    print("    Une clé est bien arrivée mais n'est pas reconnue :")
+                    print("    c'est le **Consumer Key** qu'il faut, pas le Consumer Secret.")
+                else:
+                    print("    Aucune clé n'est arrivée : vérifier le nom de la variable.")
+                sys.exit(1)
+            total = (probe.get("page") or {}).get("totalElements")
+            print(f"  ✓ clé acceptée. {total} date(s) visible(s) en France, tous genres confondus.")
             return
         print("Route API Discovery.")
         raw, notes = collect(key, not args.no_cache)
