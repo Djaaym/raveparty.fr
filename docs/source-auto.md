@@ -223,6 +223,39 @@ La France passe de 166 à 195 dates à venir, et quatre départements se sont ou
 format, **62 fusionnées**. 91 des 109 portent un lien affilié taggé, les 18 autres étant
 épuisées. Le catalogue passe de 1 320 à 1 382 événements.
 
+## Deux sources qu'on ne branchera pas : DICE et Resident Advisor
+
+Les deux nous **interdisent nommément**, et ce n'est pas une supposition tirée d'un code
+de statut. Leur `robots.txt` porte :
+
+    User-agent: ClaudeBot
+    Disallow: /
+
+DICE ajoute, en tête de fichier, que ces restrictions sont des « **express reservations of
+rights under Article 4 of the European Union Directive 2019/790** », c'est-à-dire une
+réserve de droits au titre de la fouille de textes et de données, et pose un
+`Content-Signal: ai-train=no`. Ses pages répondent par ailleurs 403.
+
+Il n'y a donc que deux façons de les collecter, et aucune n'est acceptable : ignorer un
+`Disallow` qui nous nomme, ou se présenter sous un autre user-agent pour passer le
+pare-feu. La comparaison avec Skiddle est éclairante : là-bas le `robots.txt` **autorise**
+explicitement ClaudeBot avec un `Crawl-delay: 2`, et c'est précisément ce qui rend la
+collecte défendable. La même technique ne devient pas acceptable parce qu'elle marche.
+
+**Ce qui reste possible avec DICE**, et qui ne dépend pas de nous : leur API partenaire.
+Elle s'ouvre par une relation commerciale (promoteur ou distributeur), pas par une
+inscription en ligne. Le jour où ces accès existent, le collecteur s'écrit comme celui de
+Ticketmaster, la machinerie est déjà là.
+
+**Ce que ça ne change pas** : les liens `dice.fm` déjà au catalogue restent en place.
+Renvoyer un lecteur vers une billetterie n'est pas la parcourir, et c'est même ce que
+DICE attend d'un annuaire.
+
+**L'alternative immédiate est Shotgun**, qui autorise tout le monde (`User-Agent: * /
+Allow: /`), sert du contenu réel à ClaudeBot, et couvre le marché français, celui-là même
+où le catalogue est le plus mince. Vérifié joignable ; son sitemap a répondu 429 au
+premier essai, donc il faudra le lire lentement.
+
 ## Brancher une autre source
 
 Le format d'échange est celui de `.research/events-*.json`, décrit par `REQUIRED` dans
