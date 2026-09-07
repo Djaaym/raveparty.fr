@@ -1,0 +1,145 @@
+# La source de données automatique.
+#
+# Le catalogue était saisi à la main, lot par lot, et ne se rafraîchissait que si
+# quelqu'un lançait un agent : 481 dates à venir au Royaume-Uni contre 166 en France,
+# parce qu'un guichet britannique avait été branché et aucune source française. Ce
+# workflow lit l'agenda électro de jds.fr chaque lundi et **ouvre une pull request** avec
+# ce qu'il a trouvé.
+#
+# **Il n'écrit jamais dans une branche publiée.** Le catalogue est un fichier TypeScript
+# relu à la main, et la règle du projet ne s'assouplit pas parce que la donnée arrive par
+# une machine : elle vient d'une source structurée, ce qui rend la relecture plus rapide,
+# pas facultative. La PR porte donc le diff de `lib/data.ts`, le rapport de `merge.py`,
+# et la liste de ce que le collecteur a refusé de produire seul.
+#
+# Déclenchable à la main (`workflow_dispatch`) pour ne pas attendre lundi.
+name: Catalogue
+
+on:
+  schedule:
+    # Lundi 6 h UTC. Un agenda d'événements ne bouge pas d'heure en heure, et une
+    # exécution quotidienne ouvrirait cinq PR par semaine dont quatre vides.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+# Une seule collecte à la fois : deux exécutions concurrentes ouvriraient deux PR sur la
+# même branche et la seconde écraserait la première.
+concurrency:
+  group: catalogue
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: raveradar-next/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collecter jds.fr
+        working-directory: raveradar-next
+        # `--no-cache` : le cache disque du collecteur sert à retoucher une règle sans
+        # re-télécharger 350 pages, il n'a aucun sens sur un runner neuf, et le garder
+        # servirait une collecte périmée si le répertoire était un jour mis en cache.
+        run: python3 .research/sources/jds.py --no-cache
+
+      - name: Fusionner et auditer
+        working-directory: raveradar-next
+        run: |
+          python3 .research/merge.py --dry | tail -40 | tee /tmp/merge-dry.txt
+          python3 .research/merge.py | tail -20 | tee /tmp/merge.txt
+          python3 .research/audit.py | tee /tmp/audit.txt
+
+      # Le corps de la PR est écrit ici plutôt que dans le gabarit de l'action : il doit
+      # porter les chiffres de *cette* collecte, et surtout la liste de ce que le
+      # collecteur a refusé de produire seul. Une PR qui ne dirait que ce qui est entré
+      # laisserait croire que le reste n'existe pas.
+      - name: Écrire le corps de la PR
+        working-directory: raveradar-next
+        run: |
+          {
+            echo "Lot collecté automatiquement sur l'agenda électro de jds.fr, fusionné par"
+            echo "\`merge.py\` puis vérifié par \`audit.py\`, les quatre garde-fous et le build."
+            echo
+            echo "**Rien n'a été relu par un humain. C'est l'objet de cette PR.** À vérifier"
+            echo "en priorité : les titres viennent de la source et peuvent être tronqués,"
+            echo "les descriptions sont engendrées à partir des faits et gagnent à être"
+            echo "réécrites, et un genre attribué par la carte des artistes reste une"
+            echo "attribution, pas une lecture de l'affiche."
+            echo
+            echo "### Fusion"
+            echo '```'
+            tail -12 /tmp/merge.txt
+            echo '```'
+            echo
+            echo "### Audit"
+            echo '```'
+            tail -6 /tmp/audit.txt
+            echo '```'
+            echo
+            echo "### Ce que le collecteur n'a pas publié"
+            echo
+            grep '^## ' .research/sources/jds-a-relire.md | sed 's/^## /- /'
+            echo
+            echo "Le détail, avec les URLs, est dans \`.research/sources/jds-a-relire.md\`."
+          } > /tmp/pr-body.md
+
+      # Le build fait partie de la collecte, pas de l'après : un lot peut casser
+      # `lib/data.ts` d'une façon que ni l'audit ni les garde-fous ne voient (le cas
+      # « Daniel[i] », un crochet dans un nom d'artiste qui déborde une substitution).
+      # Une PR qui ne compile pas ne doit pas être ouverte.
+      - name: Vérifier
+        working-directory: raveradar-next
+        run: |
+          npm ci
+          npx tsc --noEmit
+          npm run check:titles && npm run check:rel && npm run check:fresh
+          npm run build
+
+      - name: Ouvrir la pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: catalogue/jds-auto
+          # Une branche réutilisée et non une par exécution : la PR de la semaine
+          # précédente, si personne ne l'a relue, se met à jour au lieu d'en ouvrir une
+          # seconde qui dirait presque la même chose.
+          title: "Catalogue : nouvelles dates FR collectées sur jds.fr"
+          commit-message: |
+            Catalogue : nouvelles dates FR collectées sur jds.fr
+
+            Lot produit par `.research/sources/jds.py`, fusionné par `merge.py` et
+            vérifié par `audit.py` et le build. Rien n'a été relu par un humain : c'est
+            l'objet de cette PR.
+          body-path: /tmp/pr-body.md
+          labels: catalogue, à relire
+          delete-branch: false
+
+      - name: Rapport
+        if: always()
+        run: |
+          {
+            echo "## Ce qui a été collecté"
+            echo
+            echo '```'
+            cat /tmp/merge.txt 2>/dev/null || echo "(merge non exécuté)"
+            echo '```'
+            echo
+            echo "## Audit d'intégrité"
+            echo
+            echo '```'
+            cat /tmp/audit.txt 2>/dev/null || echo "(audit non exécuté)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

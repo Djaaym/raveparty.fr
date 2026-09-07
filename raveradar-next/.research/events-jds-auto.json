@@ -1,0 +1,2295 @@
+[
+  {
+    "title": "Concert de Bon Entendeur",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Biltzheim",
+    "country": "France",
+    "lat": 47.95098,
+    "lng": 7.41075,
+    "date": "2026-09-12",
+    "time": "20:30",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "Anneau du Rhin",
+    "trending": false,
+    "lineup": [
+      "Bon Entendeur"
+    ],
+    "desc": "Concert de Bon Entendeur le 12 septembre 2026 à Anneau du Rhin, Biltzheim, à partir de 20:30. Au line-up : Bon Entendeur. Entrée à partir de 29 €.",
+    "descEn": "Concert de Bon Entendeur on 12 September 2026 at Anneau du Rhin, Biltzheim, from 20:30. On the bill: Bon Entendeur. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/colmar/concerts/electro/concert-de-bon-entendeur-1685604_A"
+    ],
+    "region": "Haut-Rhin",
+    "ticketUrl": "https://my.weezevent.com/30-ans-de-lanneau-du-rhin"
+  },
+  {
+    "title": "Wolfgang Voigt Presents Gas Live",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86669,
+    "lng": 2.35361,
+    "date": "2026-09-23",
+    "time": "20:00",
+    "price": 37.8,
+    "currency": "€",
+    "venue": "La Gaîté Lyrique",
+    "trending": false,
+    "lineup": [
+      "Wolfgang Voigt"
+    ],
+    "desc": "Wolfgang Voigt Presents Gas Live le 23 septembre 2026 à La Gaîté Lyrique, Paris, à partir de 20:00. Au line-up : Wolfgang Voigt. Entrée à partir de 37.8 €.",
+    "descEn": "Wolfgang Voigt Presents Gas Live on 23 September 2026 at La Gaîté Lyrique, Paris, from 20:00. On the bill: Wolfgang Voigt. Entry from 37.8 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/wolfgang-voigt-presents-gas-live-1457460_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Fakear à Atabal",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Biarritz",
+    "country": "France",
+    "lat": 43.46045,
+    "lng": -1.53982,
+    "date": "2026-09-24",
+    "time": "19:30",
+    "price": 31.0,
+    "currency": "€",
+    "venue": "Atabal",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 24 septembre 2026 à Atabal, Biarritz, à partir de 19:30. Au line-up : Fakear. Entrée à partir de 31 €.",
+    "descEn": "Fakear on 24 September 2026 at Atabal, Biarritz, from 19:30. On the bill: Fakear. Entry from 31 €.",
+    "sources": [
+      "https://www.jds.fr/bayonne/concerts/electro/fakear-1541656_A"
+    ],
+    "region": "Pyrénées-Atlantiques"
+  },
+  {
+    "title": "Fakear à Centre Culturel John Lennon",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Limoges",
+    "country": "France",
+    "lat": 45.82245,
+    "lng": 1.28491,
+    "date": "2026-09-25",
+    "time": "20:00",
+    "price": 32.0,
+    "currency": "€",
+    "venue": "Centre Culturel John Lennon",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 25 septembre 2026 à Centre Culturel John Lennon, Limoges, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 32 €.",
+    "descEn": "Fakear on 25 September 2026 at Centre Culturel John Lennon, Limoges, from 20:00. On the bill: Fakear. Entry from 32 €.",
+    "sources": [
+      "https://www.jds.fr/limoges/concerts/electro/fakear-1544148_A"
+    ],
+    "region": "Haute-Vienne"
+  },
+  {
+    "title": "Hilight Tribe à L'Echonova",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Saint-Avé",
+    "country": "France",
+    "lat": 47.67456,
+    "lng": -2.74386,
+    "date": "2026-09-25",
+    "time": "20:00",
+    "price": 29.2,
+    "currency": "€",
+    "venue": "L'Echonova",
+    "trending": false,
+    "lineup": [
+      "Hilight Tribe"
+    ],
+    "desc": "Hilight Tribe - Tournée le 25 septembre 2026 à L'Echonova, Saint-Avé, à partir de 20:00. Au line-up : Hilight Tribe. Entrée à partir de 29.2 €.",
+    "descEn": "Hilight Tribe - Tournée on 25 September 2026 at L'Echonova, Saint-Avé, from 20:00. On the bill: Hilight Tribe. Entry from 29.2 €.",
+    "sources": [
+      "https://www.jds.fr/vannes/concerts/electro/hilight-tribe-tournee-1669889_A"
+    ],
+    "region": "Morbihan"
+  },
+  {
+    "title": "Nathan Fake av Live",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86669,
+    "lng": 2.35361,
+    "date": "2026-09-26",
+    "time": "19:30",
+    "price": 26.8,
+    "currency": "€",
+    "venue": "La Gaîté Lyrique",
+    "trending": false,
+    "lineup": [
+      "Nathan Fake"
+    ],
+    "desc": "Nathan Fake av Live le 26 septembre 2026 à La Gaîté Lyrique, Paris, à partir de 19:30. Au line-up : Nathan Fake. Entrée à partir de 26.8 €.",
+    "descEn": "Nathan Fake av Live on 26 September 2026 at La Gaîté Lyrique, Paris, from 19:30. On the bill: Nathan Fake. Entry from 26.8 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/nathan-fake-av-live-1386234_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Bob Sinclar au Warehouse 9 Ans",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-10-02",
+    "time": "23:55",
+    "price": 31.3,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [
+      "Bob Sinclar"
+    ],
+    "desc": "Bob Sinclar au Warehouse 9 Ans le 2 octobre 2026 à Warehouse, Nantes, à partir de 23:55. Au line-up : Bob Sinclar. Entrée à partir de 31.3 €.",
+    "descEn": "Bob Sinclar au Warehouse 9 Ans on 2 October 2026 at Warehouse, Nantes, from 23:55. On the bill: Bob Sinclar. Entry from 31.3 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/bob-sinclar-au-warehouse-9-ans-1717211_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "Folamour à Interférence",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Balma",
+    "country": "France",
+    "lat": 43.63114,
+    "lng": 1.49092,
+    "date": "2026-10-03",
+    "time": "17:00",
+    "price": 26.5,
+    "currency": "€",
+    "venue": "Interférence",
+    "trending": false,
+    "lineup": [
+      "Folamour"
+    ],
+    "desc": "Folamour le 3 octobre 2026 à Interférence, Balma, à partir de 17:00. Au line-up : Folamour. Entrée à partir de 26.5 €.",
+    "descEn": "Folamour on 3 October 2026 at Interférence, Balma, from 17:00. On the bill: Folamour. Entry from 26.5 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/folamour-1622642_A"
+    ],
+    "region": "Haute-Garonne"
+  },
+  {
+    "title": "Fakear à La Belle Electrique",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Grenoble",
+    "country": "France",
+    "lat": 45.18718,
+    "lng": 5.70411,
+    "date": "2026-10-07",
+    "time": "20:00",
+    "price": 31.6,
+    "currency": "€",
+    "venue": "La Belle Electrique",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 7 octobre 2026 à La Belle Electrique, Grenoble, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 31.6 €.",
+    "descEn": "Fakear on 7 October 2026 at La Belle Electrique, Grenoble, from 20:00. On the bill: Fakear. Entry from 31.6 €.",
+    "sources": [
+      "https://www.jds.fr/grenoble/concerts/electro/fakear-1544147_A"
+    ],
+    "region": "Isère"
+  },
+  {
+    "title": "Fakear à Grand Cab - La Friche Belle de Mai",
+    "type": "Warehouse",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "lat": 43.31048,
+    "lng": 5.39019,
+    "date": "2026-10-08",
+    "time": "20:00",
+    "price": 28.0,
+    "currency": "€",
+    "venue": "Grand Cab - La Friche Belle de Mai",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 8 octobre 2026 à Grand Cab - La Friche Belle de Mai, Marseille, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 28 €.",
+    "descEn": "Fakear on 8 October 2026 at Grand Cab - La Friche Belle de Mai, Marseille, from 20:00. On the bill: Fakear. Entry from 28 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/fakear-1545884_A"
+    ],
+    "region": "Bouches-du-Rhône"
+  },
+  {
+    "title": "Nantes Rave Techno Xxl W Novah",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-10-09",
+    "time": "23:55",
+    "price": 0,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [],
+    "desc": "Nantes Rave Techno Xxl W Novah le 9 octobre 2026 à Warehouse, Nantes, à partir de 23:55.",
+    "descEn": "Nantes Rave Techno Xxl W Novah on 9 October 2026 at Warehouse, Nantes, from 23:55.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/nantes-rave-techno-xxl-w-novah-1584766_A"
+    ],
+    "region": "Loire-Atlantique",
+    "note": "tarif non communiqué par la source"
+  },
+  {
+    "title": "Apparat à L'Élysée Montmartre",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.88279,
+    "lng": 2.34433,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 53.2,
+    "currency": "€",
+    "venue": "L'Élysée Montmartre",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Apparat le 9 octobre 2026 à L'Élysée Montmartre, Paris, à partir de 20:00. Au line-up : Apparat. Entrée à partir de 53.2 €.",
+    "descEn": "Apparat on 9 October 2026 at L'Élysée Montmartre, Paris, from 20:00. On the bill: Apparat. Entry from 53.2 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/apparat-1356136_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Fakear à L’Olympia Bruno Coquatrix",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.87017,
+    "lng": 2.32838,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 38.5,
+    "currency": "€",
+    "venue": "L’Olympia Bruno Coquatrix",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 9 octobre 2026 à L’Olympia Bruno Coquatrix, Paris, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 38.5 €.",
+    "descEn": "Fakear on 9 October 2026 at L’Olympia Bruno Coquatrix, Paris, from 20:00. On the bill: Fakear. Entry from 38.5 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/fakear-1278401_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Sam Feldt",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.89885,
+    "lng": 2.3606,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 27.9,
+    "currency": "€",
+    "venue": "Central Chapelle",
+    "trending": false,
+    "lineup": [
+      "Sam Feldt"
+    ],
+    "desc": "Sam Feldt le 9 octobre 2026 à Central Chapelle, Paris, à partir de 20:00. Au line-up : Sam Feldt. Entrée à partir de 27.9 €.",
+    "descEn": "Sam Feldt on 9 October 2026 at Central Chapelle, Paris, from 20:00. On the bill: Sam Feldt. Entry from 27.9 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/sam-feldt-1665042_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Apparat à Le Transbordeur",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Villeurbanne",
+    "country": "France",
+    "lat": 45.78394,
+    "lng": 4.86084,
+    "date": "2026-10-10",
+    "time": "20:00",
+    "price": 42.0,
+    "currency": "€",
+    "venue": "Le Transbordeur",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Apparat le 10 octobre 2026 à Le Transbordeur, Villeurbanne, à partir de 20:00. Au line-up : Apparat. Entrée à partir de 42 €.",
+    "descEn": "Apparat on 10 October 2026 at Le Transbordeur, Villeurbanne, from 20:00. On the bill: Apparat. Entry from 42 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/apparat-1490583_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "Folamour - 5 Hours Set",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "lat": 48.57601,
+    "lng": 7.72915,
+    "date": "2026-10-10",
+    "time": "19:00",
+    "price": 34.0,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "Folamour"
+    ],
+    "desc": "Folamour - 5 Hours Set le 10 octobre 2026 à La Laiterie, Strasbourg, à partir de 19:00. Au line-up : Folamour. Entrée à partir de 34 €.",
+    "descEn": "Folamour - 5 Hours Set on 10 October 2026 at La Laiterie, Strasbourg, from 19:00. On the bill: Folamour. Entry from 34 €.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/folamour-5-hours-set-1362221_A"
+    ],
+    "region": "Bas-Rhin"
+  },
+  {
+    "title": "Bourbourg Électro Night avec Laurent Wolf",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Bourbourg",
+    "country": "France",
+    "lat": 50.9422,
+    "lng": 2.2034,
+    "date": "2026-10-10",
+    "time": "21:00",
+    "price": 0,
+    "currency": "€",
+    "venue": "Espace Jean Monnet",
+    "trending": false,
+    "lineup": [
+      "Laurent Wolf"
+    ],
+    "desc": "Bourbourg Électro Night avec Laurent Wolf le 10 octobre 2026 à Espace Jean Monnet, Bourbourg, à partir de 21:00. Au line-up : Laurent Wolf.",
+    "descEn": "Bourbourg Électro Night avec Laurent Wolf on 10 October 2026 at Espace Jean Monnet, Bourbourg, from 21:00. On the bill: Laurent Wolf.",
+    "sources": [
+      "https://www.jds.fr/dunkerque/concerts/electro/bourbourg-electro-night-avec-laurent-wolf-1632144_A"
+    ],
+    "region": "Nord",
+    "note": "tarif non communiqué par la source"
+  },
+  {
+    "title": "Fakear à L'Etage",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Rennes",
+    "country": "France",
+    "lat": 48.10677,
+    "lng": -1.677,
+    "date": "2026-10-10",
+    "time": "20:00",
+    "price": 30.0,
+    "currency": "€",
+    "venue": "L'Etage",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 10 octobre 2026 à L'Etage, Rennes, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 30 €.",
+    "descEn": "Fakear on 10 October 2026 at L'Etage, Rennes, from 20:00. On the bill: Fakear. Entry from 30 €.",
+    "sources": [
+      "https://www.jds.fr/rennes/concerts/electro/fakear-1557387_A"
+    ],
+    "region": "Ille-et-Vilaine"
+  },
+  {
+    "title": "Apparat à Le Nouveau Siècle",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.63748,
+    "lng": 3.06021,
+    "date": "2026-10-11",
+    "time": "19:00",
+    "price": 32.0,
+    "currency": "€",
+    "venue": "Le Nouveau Siècle",
+    "trending": false,
+    "lineup": [
+      "Apparat"
+    ],
+    "desc": "Apparat le 11 octobre 2026 à Le Nouveau Siècle, Lille, à partir de 19:00. Au line-up : Apparat. Entrée à partir de 32 €.",
+    "descEn": "Apparat on 11 October 2026 at Le Nouveau Siècle, Lille, from 19:00. On the bill: Apparat. Entry from 32 €.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/apparat-1514613_A"
+    ],
+    "region": "Nord"
+  },
+  {
+    "title": "Folamour à Le Transbordeur",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Villeurbanne",
+    "country": "France",
+    "lat": 45.78394,
+    "lng": 4.86084,
+    "date": "2026-10-11",
+    "time": "17:00",
+    "price": 37.5,
+    "currency": "€",
+    "venue": "Le Transbordeur",
+    "trending": false,
+    "lineup": [
+      "Folamour"
+    ],
+    "desc": "Folamour le 11 octobre 2026 à Le Transbordeur, Villeurbanne, à partir de 17:00. Au line-up : Folamour. Entrée à partir de 37.5 €.",
+    "descEn": "Folamour on 11 October 2026 at Le Transbordeur, Villeurbanne, from 17:00. On the bill: Folamour. Entry from 37.5 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/folamour-1625238_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "Obsimo",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.62296,
+    "lng": 3.06807,
+    "date": "2026-10-13",
+    "time": "20:30",
+    "price": 22.2,
+    "currency": "€",
+    "venue": "La Bulle-Café",
+    "trending": false,
+    "lineup": [
+      "Obsimo"
+    ],
+    "desc": "Obsimo le 13 octobre 2026 à La Bulle-Café, Lille, à partir de 20:30. Au line-up : Obsimo. Entrée à partir de 22.2 €.",
+    "descEn": "Obsimo on 13 October 2026 at La Bulle-Café, Lille, from 20:30. On the bill: Obsimo. Entry from 22.2 €.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/obsimo-1581600_A"
+    ],
+    "region": "Nord"
+  },
+  {
+    "title": "Autechre à Cabaret Aléatoire - la Friche",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "lat": 43.3113,
+    "lng": 5.39066,
+    "date": "2026-10-13",
+    "time": "19:30",
+    "price": 36.7,
+    "currency": "€",
+    "venue": "Cabaret Aléatoire - la Friche",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Autechre le 13 octobre 2026 à Cabaret Aléatoire - la Friche, Marseille, à partir de 19:30. Au line-up : Autechre. Entrée à partir de 36.7 €.",
+    "descEn": "Autechre on 13 October 2026 at Cabaret Aléatoire - la Friche, Marseille, from 19:30. On the bill: Autechre. Entry from 36.7 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/autechre-1269240_A"
+    ],
+    "region": "Bouches-du-Rhône"
+  },
+  {
+    "title": "Il Est Vilaine à La Maroquinerie",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86853,
+    "lng": 2.39204,
+    "date": "2026-10-13",
+    "time": "19:30",
+    "price": 20.0,
+    "currency": "€",
+    "venue": "La Maroquinerie",
+    "trending": false,
+    "lineup": [
+      "Il est Vilaine"
+    ],
+    "desc": "Il Est Vilaine le 13 octobre 2026 à La Maroquinerie, Paris, à partir de 19:30. Au line-up : Il est Vilaine. Entrée à partir de 20 €.",
+    "descEn": "Il Est Vilaine on 13 October 2026 at La Maroquinerie, Paris, from 19:30. On the bill: Il est Vilaine. Entry from 20 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/il-est-vilaine-1322997_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Autechre à Bataclan",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86302,
+    "lng": 2.37062,
+    "date": "2026-10-14",
+    "time": "19:30",
+    "price": 40.0,
+    "currency": "€",
+    "venue": "Bataclan",
+    "trending": false,
+    "lineup": [
+      "Autechre"
+    ],
+    "desc": "Autechre le 14 octobre 2026 à Bataclan, Paris, à partir de 19:30. Au line-up : Autechre. Entrée à partir de 40 €.",
+    "descEn": "Autechre on 14 October 2026 at Bataclan, Paris, from 19:30. On the bill: Autechre. Entry from 40 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/autechre-1269239_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Fakear à La Rayonne",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Villeurbanne",
+    "country": "France",
+    "lat": 45.75695,
+    "lng": 4.91707,
+    "date": "2026-10-14",
+    "time": "20:00",
+    "price": 32.5,
+    "currency": "€",
+    "venue": "La Rayonne",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 14 octobre 2026 à La Rayonne, Villeurbanne, à partir de 20:00. Au line-up : Fakear. Entrée à partir de 32.5 €.",
+    "descEn": "Fakear on 14 October 2026 at La Rayonne, Villeurbanne, from 20:00. On the bill: Fakear. Entry from 32.5 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/fakear-1541658_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "Dj Krush",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "lat": 43.51852,
+    "lng": 5.42283,
+    "date": "2026-10-15",
+    "time": "20:30",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "6MIC",
+    "trending": false,
+    "lineup": [
+      "Dj Krush"
+    ],
+    "desc": "Dj Krush le 15 octobre 2026 à 6MIC, Aix-en-Provence, à partir de 20:30. Au line-up : Dj Krush. Entrée à partir de 27.2 €.",
+    "descEn": "Dj Krush on 15 October 2026 at 6MIC, Aix-en-Provence, from 20:30. On the bill: Dj Krush. Entry from 27.2 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/dj-krush-1461601_A"
+    ],
+    "region": "Bouches-du-Rhône",
+    "ticketUrl": "https://feverup.com/m/691810"
+  },
+  {
+    "title": "La P'Tite Fumée à Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-10-15",
+    "time": "19:00",
+    "price": 27.0,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 15 octobre 2026 à Warehouse, Nantes, à partir de 19:00. Au line-up : La p'tite fumée. Entrée à partir de 27 €.",
+    "descEn": "La P'Tite Fumée on 15 October 2026 at Warehouse, Nantes, from 19:00. On the bill: La p'tite fumée. Entry from 27 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/la-p-tite-fumee-1457686_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "Fakear à Le Bikini",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2026-10-15",
+    "time": "19:30",
+    "price": 32.0,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 15 octobre 2026 à Le Bikini, Ramonville-Saint-Agne, à partir de 19:30. Au line-up : Fakear. Entrée à partir de 32 €.",
+    "descEn": "Fakear on 15 October 2026 at Le Bikini, Ramonville-Saint-Agne, from 19:30. On the bill: Fakear. Entry from 32 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/fakear-1541657_A"
+    ],
+    "region": "Haute-Garonne"
+  },
+  {
+    "title": "La P'Tite Fumée à Bordeaux Rock School Barbey",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Bordeaux",
+    "country": "France",
+    "lat": 44.82688,
+    "lng": -0.56332,
+    "date": "2026-10-16",
+    "time": "20:30",
+    "price": 29.2,
+    "currency": "€",
+    "venue": "Bordeaux Rock School Barbey",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 16 octobre 2026 à Bordeaux Rock School Barbey, Bordeaux, à partir de 20:30. Au line-up : La p'tite fumée. Entrée à partir de 29.2 €.",
+    "descEn": "La P'Tite Fumée on 16 October 2026 at Bordeaux Rock School Barbey, Bordeaux, from 20:30. On the bill: La p'tite fumée. Entry from 29.2 €.",
+    "sources": [
+      "https://www.jds.fr/bordeaux/concerts/electro/la-p-tite-fumee-1448572_A"
+    ],
+    "region": "Gironde"
+  },
+  {
+    "title": "Il Est Vilaine à Paloma",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Nîmes",
+    "country": "France",
+    "lat": 43.85579,
+    "lng": 4.40487,
+    "date": "2026-10-16",
+    "time": "20:30",
+    "price": 17.0,
+    "currency": "€",
+    "venue": "Paloma",
+    "trending": false,
+    "lineup": [
+      "Il est Vilaine"
+    ],
+    "desc": "Il Est Vilaine le 16 octobre 2026 à Paloma, Nîmes, à partir de 20:30. Au line-up : Il est Vilaine. Entrée à partir de 17 €.",
+    "descEn": "Il Est Vilaine on 16 October 2026 at Paloma, Nîmes, from 20:30. On the bill: Il est Vilaine. Entry from 17 €.",
+    "sources": [
+      "https://www.jds.fr/nimes/concerts/electro/il-est-vilaine-1538597_A"
+    ],
+    "region": "Gard"
+  },
+  {
+    "title": "Club de Jour Invite Kölsch",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-10-17",
+    "time": "19:00",
+    "price": 24.0,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [
+      "Kölsch"
+    ],
+    "desc": "Club de Jour Invite Kölsch le 17 octobre 2026 à Warehouse, Nantes, à partir de 19:00. Au line-up : Kölsch. Entrée à partir de 24 €.",
+    "descEn": "Club de Jour Invite Kölsch on 17 October 2026 at Warehouse, Nantes, from 19:00. On the bill: Kölsch. Entry from 24 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/club-de-jour-invite-kolsch-1717905_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "Mosimann à Zénith Paris - La Villette",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.89059,
+    "lng": 2.38974,
+    "date": "2026-10-17",
+    "time": "20:00",
+    "price": 49.5,
+    "currency": "€",
+    "venue": "Zénith Paris - La Villette",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour du 17 octobre 2026 au 18 octobre 2026 à Zénith Paris - La Villette, Paris, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 49.5 €.",
+    "descEn": "Mosimann - Dream Tour from 17 October 2026 to 18 October 2026 at Zénith Paris - La Villette, Paris, from 20:00. On the bill: Mosimann. Entry from 49.5 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/mosimann-dream-tour-1718245_A"
+    ],
+    "endDate": "2026-10-18",
+    "region": "Paris"
+  },
+  {
+    "title": "La P'Tite Fumée à La Cigale",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.88251,
+    "lng": 2.34022,
+    "date": "2026-10-23",
+    "time": "20:00",
+    "price": 29.7,
+    "currency": "€",
+    "venue": "La Cigale",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 23 octobre 2026 à La Cigale, Paris, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 29.7 €.",
+    "descEn": "La P'Tite Fumée on 23 October 2026 at La Cigale, Paris, from 20:00. On the bill: La p'tite fumée. Entry from 29.7 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/la-p-tite-fumee-1289788_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Yuksek",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Arles",
+    "country": "France",
+    "lat": 43.67399,
+    "lng": 4.62367,
+    "date": "2026-10-23",
+    "time": "21:00",
+    "price": 17.2,
+    "currency": "€",
+    "venue": "Cargo de Nuit",
+    "trending": false,
+    "lineup": [
+      "Yuksek"
+    ],
+    "desc": "Yuksek le 23 octobre 2026 à Cargo de Nuit, Arles, à partir de 21:00. Au line-up : Yuksek. Entrée à partir de 17.2 €.",
+    "descEn": "Yuksek on 23 October 2026 at Cargo de Nuit, Arles, from 21:00. On the bill: Yuksek. Entry from 17.2 €.",
+    "sources": [
+      "https://www.jds.fr/arles/concerts/electro/yuksek-1664360_A"
+    ],
+    "region": "Bouches-du-Rhône"
+  },
+  {
+    "title": "La P'Tite Fumée à Site Verrier - Halle Verrière Meisenthal",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Meisenthal",
+    "country": "France",
+    "lat": 48.96474,
+    "lng": 7.3525,
+    "date": "2026-10-24",
+    "time": "20:00",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "Site Verrier - Halle Verrière Meisenthal",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 24 octobre 2026 à Site Verrier - Halle Verrière Meisenthal, Meisenthal, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 27.2 €.",
+    "descEn": "La P'Tite Fumée on 24 October 2026 at Site Verrier - Halle Verrière Meisenthal, Meisenthal, from 20:00. On the bill: La p'tite fumée. Entry from 27.2 €.",
+    "sources": [
+      "https://www.jds.fr/concerts/electro/la-p-tite-fumee-1456899_A"
+    ],
+    "region": "Moselle"
+  },
+  {
+    "title": "Ely Oaks",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.89885,
+    "lng": 2.3606,
+    "date": "2026-10-28",
+    "time": "20:00",
+    "price": 27.9,
+    "currency": "€",
+    "venue": "Central Chapelle",
+    "trending": false,
+    "lineup": [
+      "Ely Oaks"
+    ],
+    "desc": "Ely Oaks le 28 octobre 2026 à Central Chapelle, Paris, à partir de 20:00. Au line-up : Ely Oaks. Entrée à partir de 27.9 €.",
+    "descEn": "Ely Oaks on 28 October 2026 at Central Chapelle, Paris, from 20:00. On the bill: Ely Oaks. Entry from 27.9 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/ely-oaks-1567626_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Lane 8",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.85344,
+    "lng": 2.37577,
+    "date": "2026-10-28",
+    "time": "20:00",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "Badaboum",
+    "trending": false,
+    "lineup": [
+      "Lane 8"
+    ],
+    "desc": "Lane 8 le 28 octobre 2026 à Badaboum, Paris, à partir de 20:00. Au line-up : Lane 8. Entrée à partir de 29 €.",
+    "descEn": "Lane 8 on 28 October 2026 at Badaboum, Paris, from 20:00. On the bill: Lane 8. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/lane-8-1631471_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Fakear à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "lat": 48.57601,
+    "lng": 7.72915,
+    "date": "2026-10-29",
+    "time": "19:30",
+    "price": 30.2,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 29 octobre 2026 à La Laiterie, Strasbourg, à partir de 19:30. Au line-up : Fakear. Entrée à partir de 30.2 €.",
+    "descEn": "Fakear on 29 October 2026 at La Laiterie, Strasbourg, from 19:30. On the bill: Fakear. Entry from 30.2 €.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/fakear-1541659_A"
+    ],
+    "region": "Bas-Rhin"
+  },
+  {
+    "title": "Loukeman",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.85344,
+    "lng": 2.37577,
+    "date": "2026-10-30",
+    "time": "20:00",
+    "price": 28.5,
+    "currency": "€",
+    "venue": "Badaboum",
+    "trending": false,
+    "lineup": [
+      "Loukeman"
+    ],
+    "desc": "Loukeman le 30 octobre 2026 à Badaboum, Paris, à partir de 20:00. Au line-up : Loukeman. Entrée à partir de 28.5 €.",
+    "descEn": "Loukeman on 30 October 2026 at Badaboum, Paris, from 20:00. On the bill: Loukeman. Entry from 28.5 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/loukeman-1541689_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "La Nuit Etincelle - Klingande et Petit Biscuit",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House",
+      "EDM"
+    ],
+    "city": "Bergerac",
+    "country": "France",
+    "lat": 44.84619,
+    "lng": 0.49841,
+    "date": "2026-10-31",
+    "time": "20:00",
+    "price": 39.5,
+    "currency": "€",
+    "venue": "Centre Événementiel - l'Espace Étincelle",
+    "trending": false,
+    "lineup": [
+      "Petit Biscuit"
+    ],
+    "desc": "La Nuit Etincelle - Klingande et Petit Biscuit le 31 octobre 2026 à Centre Événementiel - l'Espace Étincelle, Bergerac, à partir de 20:00. Au line-up : Petit Biscuit. Entrée à partir de 39.5 €.",
+    "descEn": "La Nuit Etincelle - Klingande et Petit Biscuit on 31 October 2026 at Centre Événementiel - l'Espace Étincelle, Bergerac, from 20:00. On the bill: Petit Biscuit. Entry from 39.5 €.",
+    "sources": [
+      "https://www.jds.fr/bergerac/concerts/electro/la-nuit-etincelle-klingande-et-petit-biscuit-1568166_A"
+    ],
+    "region": "Dordogne"
+  },
+  {
+    "title": "Mietze Conte",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86853,
+    "lng": 2.39204,
+    "date": "2026-10-31",
+    "time": "20:00",
+    "price": 28.1,
+    "currency": "€",
+    "venue": "La Maroquinerie",
+    "trending": false,
+    "lineup": [
+      "Mietze Conte"
+    ],
+    "desc": "Mietze Conte le 31 octobre 2026 à La Maroquinerie, Paris, à partir de 20:00. Au line-up : Mietze Conte. Entrée à partir de 28.1 €.",
+    "descEn": "Mietze Conte on 31 October 2026 at La Maroquinerie, Paris, from 20:00. On the bill: Mietze Conte. Entry from 28.1 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/mietze-conte-1573036_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Hilight Tribe Instrumental Halloween Edi à Les Halles de la Cartoucherie",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "lat": 43.60175,
+    "lng": 1.40767,
+    "date": "2026-10-31",
+    "time": "20:30",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "Les Halles de la Cartoucherie",
+    "trending": false,
+    "lineup": [
+      "Hilight Tribe"
+    ],
+    "desc": "Hilight Tribe Instrumental Halloween Edi le 31 octobre 2026 à Les Halles de la Cartoucherie, Toulouse, à partir de 20:30. Au line-up : Hilight Tribe. Entrée à partir de 29 €.",
+    "descEn": "Hilight Tribe Instrumental Halloween Edi on 31 October 2026 at Les Halles de la Cartoucherie, Toulouse, from 20:30. On the bill: Hilight Tribe. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/hilight-tribe-instrumental-halloween-edi-1461664_A"
+    ],
+    "region": "Haute-Garonne"
+  },
+  {
+    "title": "Hilight Tribe Instrumental Halloween Edi à La Cabane - Les Halles de la Cartoucherie",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "lat": 43.60238,
+    "lng": 1.40734,
+    "date": "2026-11-01",
+    "time": "19:30",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "La Cabane - Les Halles de la Cartoucherie",
+    "trending": false,
+    "lineup": [
+      "Hilight Tribe"
+    ],
+    "desc": "Hilight Tribe Instrumental Halloween Edi le 1 novembre 2026 à La Cabane - Les Halles de la Cartoucherie, Toulouse, à partir de 19:30. Au line-up : Hilight Tribe. Entrée à partir de 29 €.",
+    "descEn": "Hilight Tribe Instrumental Halloween Edi on 1 November 2026 at La Cabane - Les Halles de la Cartoucherie, Toulouse, from 19:30. On the bill: Hilight Tribe. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/hilight-tribe-instrumental-halloween-edi-1461665_A"
+    ],
+    "region": "Haute-Garonne"
+  },
+  {
+    "title": "Fakear à Le Splendid",
+    "type": "Club",
+    "genres": [
+      "EDM"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.62344,
+    "lng": 3.09069,
+    "date": "2026-11-04",
+    "time": "20:30",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "Le Splendid",
+    "trending": false,
+    "lineup": [
+      "Fakear"
+    ],
+    "desc": "Fakear le 4 novembre 2026 à Le Splendid, Lille, à partir de 20:30. Au line-up : Fakear. Entrée à partir de 29 €.",
+    "descEn": "Fakear on 4 November 2026 at Le Splendid, Lille, from 20:30. On the bill: Fakear. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/fakear-1541655_A"
+    ],
+    "region": "Nord"
+  },
+  {
+    "title": "Gold Panda",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.89568,
+    "lng": 2.32859,
+    "date": "2026-11-05",
+    "time": "20:00",
+    "price": 24.2,
+    "currency": "€",
+    "venue": "Le Hasard Ludique",
+    "trending": false,
+    "lineup": [
+      "Gold Panda"
+    ],
+    "desc": "Gold Panda le 5 novembre 2026 à Le Hasard Ludique, Paris, à partir de 20:00. Au line-up : Gold Panda. Entrée à partir de 24.2 €.",
+    "descEn": "Gold Panda on 5 November 2026 at Le Hasard Ludique, Paris, from 20:00. On the bill: Gold Panda. Entry from 24.2 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/gold-panda-1636668_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "La P'Tite Fumée à Le Transbordeur",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Villeurbanne",
+    "country": "France",
+    "lat": 45.78394,
+    "lng": 4.86084,
+    "date": "2026-11-06",
+    "time": "20:00",
+    "price": 28.2,
+    "currency": "€",
+    "venue": "Le Transbordeur",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 6 novembre 2026 à Le Transbordeur, Villeurbanne, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 28.2 €.",
+    "descEn": "La P'Tite Fumée on 6 November 2026 at Le Transbordeur, Villeurbanne, from 20:00. On the bill: La p'tite fumée. Entry from 28.2 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/la-p-tite-fumee-1456795_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "Digitalism",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.86302,
+    "lng": 2.37062,
+    "date": "2026-11-06",
+    "time": "20:00",
+    "price": 33.0,
+    "currency": "€",
+    "venue": "Bataclan",
+    "trending": false,
+    "lineup": [
+      "Digitalism"
+    ],
+    "desc": "Digitalism + Première Partie le 6 novembre 2026 à Bataclan, Paris, à partir de 20:00. Au line-up : Digitalism. Entrée à partir de 33 €.",
+    "descEn": "Digitalism + Première Partie on 6 November 2026 at Bataclan, Paris, from 20:00. On the bill: Digitalism. Entry from 33 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/digitalism-premiere-partie-1429349_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Joris Delacroix",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House",
+      "Trance"
+    ],
+    "city": "Angoulême",
+    "country": "France",
+    "lat": 45.64073,
+    "lng": 0.12993,
+    "date": "2026-11-13",
+    "time": "18:30",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "La Nef",
+    "trending": false,
+    "lineup": [
+      "Joris Delacroix"
+    ],
+    "desc": "Joris Delacroix + Guest le 13 novembre 2026 à La Nef, Angoulême, à partir de 18:30. Au line-up : Joris Delacroix. Entrée à partir de 27.2 €.",
+    "descEn": "Joris Delacroix + Guest on 13 November 2026 at La Nef, Angoulême, from 18:30. On the bill: Joris Delacroix. Entry from 27.2 €.",
+    "sources": [
+      "https://www.jds.fr/angouleme/concerts/electro/joris-delacroix-guest-1658399_A"
+    ],
+    "region": "Charente"
+  },
+  {
+    "title": "La P'Tite Fumée à L'Etage",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Rennes",
+    "country": "France",
+    "lat": 48.10677,
+    "lng": -1.677,
+    "date": "2026-11-13",
+    "time": "20:00",
+    "price": 27.0,
+    "currency": "€",
+    "venue": "L'Etage",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 13 novembre 2026 à L'Etage, Rennes, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 27 €.",
+    "descEn": "La P'Tite Fumée on 13 November 2026 at L'Etage, Rennes, from 20:00. On the bill: La p'tite fumée. Entry from 27 €.",
+    "sources": [
+      "https://www.jds.fr/rennes/concerts/electro/la-p-tite-fumee-1454820_A"
+    ],
+    "region": "Ille-et-Vilaine"
+  },
+  {
+    "title": "La P'Tite Fumée à Le Family",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Landerneau",
+    "country": "France",
+    "lat": 48.44891,
+    "lng": -4.25488,
+    "date": "2026-11-14",
+    "time": "19:30",
+    "price": 25.0,
+    "currency": "€",
+    "venue": "Le Family",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 14 novembre 2026 à Le Family, Landerneau, à partir de 19:30. Au line-up : La p'tite fumée. Entrée à partir de 25 €.",
+    "descEn": "La P'Tite Fumée on 14 November 2026 at Le Family, Landerneau, from 19:30. On the bill: La p'tite fumée. Entry from 25 €.",
+    "sources": [
+      "https://www.jds.fr/brest/concerts/electro/la-p-tite-fumee-1482004_A"
+    ],
+    "region": "Finistère"
+  },
+  {
+    "title": "Hilight Tribe à La Cigale",
+    "type": "Club",
+    "genres": [
+      "Trance"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.88251,
+    "lng": 2.34022,
+    "date": "2026-11-18",
+    "time": "18:30",
+    "price": 30.8,
+    "currency": "€",
+    "venue": "La Cigale",
+    "trending": false,
+    "lineup": [
+      "Hilight Tribe"
+    ],
+    "desc": "Hilight Tribe - Tournée le 18 novembre 2026 à La Cigale, Paris, à partir de 18:30. Au line-up : Hilight Tribe. Entrée à partir de 30.8 €.",
+    "descEn": "Hilight Tribe - Tournée on 18 November 2026 at La Cigale, Paris, from 18:30. On the bill: Hilight Tribe. Entry from 30.8 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/hilight-tribe-tournee-1284473_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Scratch Massive",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-11-21",
+    "time": "20:30",
+    "price": 25.0,
+    "currency": "€",
+    "venue": "Le Ferrailleur",
+    "trending": false,
+    "lineup": [
+      "Scratch Massive"
+    ],
+    "desc": "Scratch Massive le 21 novembre 2026 à Le Ferrailleur, Nantes, à partir de 20:30. Au line-up : Scratch Massive. Entrée à partir de 25 €.",
+    "descEn": "Scratch Massive on 21 November 2026 at Le Ferrailleur, Nantes, from 20:30. On the bill: Scratch Massive. Entry from 25 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/scratch-massive-1601561_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "UNDER THE RAVE #4 : Creeds + Bardix le Gaulois + Floxytek + Jasmine Not Jafar...",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "city": "Audincourt",
+    "country": "France",
+    "lat": 47.47875,
+    "lng": 6.84304,
+    "date": "2026-11-27",
+    "time": "22:00",
+    "price": 15.0,
+    "currency": "€",
+    "venue": "Le Moloco",
+    "trending": false,
+    "lineup": [
+      "Under The Rave",
+      "Jasmine Not Jafar",
+      "Creeds"
+    ],
+    "desc": "UNDER THE RAVE #4 : Creeds + Bardix le Gaulois + Floxytek + Jasmine Not Jafar... le 27 novembre 2026 à Le Moloco, Audincourt, à partir de 22:00. Au line-up : Under The Rave, Jasmine Not Jafar, Creeds. Entrée à partir de 15 €.",
+    "descEn": "UNDER THE RAVE #4 : Creeds + Bardix le Gaulois + Floxytek + Jasmine Not Jafar... on 27 November 2026 at Le Moloco, Audincourt, from 22:00. On the bill: Under The Rave, Jasmine Not Jafar, Creeds. Entry from 15 €.",
+    "sources": [
+      "https://www.jds.fr/montbeliard/concerts/electro/under-the-rave-4-creeds-bardix-le-gaulois-floxytek-jasmine-not-jafar-1658192_A"
+    ],
+    "region": "Doubs"
+  },
+  {
+    "title": "Laurent Wolf",
+    "type": "Club",
+    "genres": [
+      "House",
+      "EDM"
+    ],
+    "city": "Uzès",
+    "country": "France",
+    "lat": 44.00828,
+    "lng": 4.41867,
+    "date": "2026-11-27",
+    "time": "20:00",
+    "price": 17.0,
+    "currency": "€",
+    "venue": "L'Ombrière",
+    "trending": false,
+    "lineup": [
+      "Laurent Wolf"
+    ],
+    "desc": "Laurent Wolf le 27 novembre 2026 à L'Ombrière, Uzès, à partir de 20:00. Au line-up : Laurent Wolf. Entrée à partir de 17 €.",
+    "descEn": "Laurent Wolf on 27 November 2026 at L'Ombrière, Uzès, from 20:00. On the bill: Laurent Wolf. Entry from 17 €.",
+    "sources": [
+      "https://www.jds.fr/uzes/concerts/electro/laurent-wolf-1717987_A"
+    ],
+    "region": "Gard"
+  },
+  {
+    "title": "Dombrance & Fuzzy",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Saint-Quentin",
+    "country": "France",
+    "lat": 49.85444,
+    "lng": 3.27029,
+    "date": "2026-11-27",
+    "time": "20:00",
+    "price": 17.2,
+    "currency": "€",
+    "venue": "La Manufacture",
+    "trending": false,
+    "lineup": [
+      "Dombrance"
+    ],
+    "desc": "Dombrance & Fuzzy le 27 novembre 2026 à La Manufacture, Saint-Quentin, à partir de 20:00. Au line-up : Dombrance. Entrée à partir de 17.2 €.",
+    "descEn": "Dombrance & Fuzzy on 27 November 2026 at La Manufacture, Saint-Quentin, from 20:00. On the bill: Dombrance. Entry from 17.2 €.",
+    "sources": [
+      "https://www.jds.fr/saint-quentin/concerts/electro/dombrance-et-fuzzy-1664762_A"
+    ],
+    "region": "Aisne"
+  },
+  {
+    "title": "La P'Tite Fumée à Rockstore",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Montpellier",
+    "country": "France",
+    "lat": 43.60616,
+    "lng": 3.88123,
+    "date": "2026-12-03",
+    "time": "19:30",
+    "price": 28.0,
+    "currency": "€",
+    "venue": "Rockstore",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 3 décembre 2026 à Rockstore, Montpellier, à partir de 19:30. Au line-up : La p'tite fumée. Entrée à partir de 28 €.",
+    "descEn": "La P'Tite Fumée on 3 December 2026 at Rockstore, Montpellier, from 19:30. On the bill: La p'tite fumée. Entry from 28 €.",
+    "sources": [
+      "https://www.jds.fr/montpellier/concerts/electro/la-p-tite-fumee-1496870_A"
+    ],
+    "region": "Hérault"
+  },
+  {
+    "title": "La P'Tite Fumée à 6MIC",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Aix-en-Provence",
+    "country": "France",
+    "lat": 43.51852,
+    "lng": 5.42283,
+    "date": "2026-12-04",
+    "time": "20:30",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "6MIC",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 4 décembre 2026 à 6MIC, Aix-en-Provence, à partir de 20:30. Au line-up : La p'tite fumée. Entrée à partir de 27.2 €.",
+    "descEn": "La P'Tite Fumée on 4 December 2026 at 6MIC, Aix-en-Provence, from 20:30. On the bill: La p'tite fumée. Entry from 27.2 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/la-p-tite-fumee-1622640_A"
+    ],
+    "region": "Bouches-du-Rhône",
+    "ticketUrl": "https://feverup.com/m/691789"
+  },
+  {
+    "title": "Elisa Do Brasil + Ouai Stéphane + Odyssée - Soirée Electro",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Chelles",
+    "country": "France",
+    "lat": 48.88751,
+    "lng": 2.61422,
+    "date": "2026-12-05",
+    "time": "01:00",
+    "price": 18.0,
+    "currency": "€",
+    "venue": "Les Cuizines",
+    "trending": false,
+    "lineup": [
+      "Elisa Do Brasil"
+    ],
+    "desc": "Elisa Do Brasil + Ouai Stéphane + Odyssée - Soirée Electro le 5 décembre 2026 à Les Cuizines, Chelles, à partir de 01:00. Au line-up : Elisa Do Brasil. Entrée à partir de 18 €.",
+    "descEn": "Elisa Do Brasil + Ouai Stéphane + Odyssée - Soirée Electro on 5 December 2026 at Les Cuizines, Chelles, from 01:00. On the bill: Elisa Do Brasil. Entry from 18 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/elisa-do-brasil-ouai-stephane-odyssee-soiree-electro-1636836_A"
+    ],
+    "region": "Seine-et-Marne"
+  },
+  {
+    "title": "La P'Tite Fumée à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "lat": 48.57601,
+    "lng": 7.72915,
+    "date": "2026-12-11",
+    "time": "19:30",
+    "price": 27.2,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 11 décembre 2026 à La Laiterie, Strasbourg, à partir de 19:30. Au line-up : La p'tite fumée. Entrée à partir de 27.2 €.",
+    "descEn": "La P'Tite Fumée on 11 December 2026 at La Laiterie, Strasbourg, from 19:30. On the bill: La p'tite fumée. Entry from 27.2 €.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/la-p-tite-fumee-1448574_A"
+    ],
+    "region": "Bas-Rhin"
+  },
+  {
+    "title": "Anyma Presents æden",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Nanterre",
+    "country": "France",
+    "lat": 48.89566,
+    "lng": 2.22963,
+    "date": "2026-12-12",
+    "time": "18:00",
+    "price": 56.5,
+    "currency": "€",
+    "venue": "Plenitude Arena (ex. Paris La Défense Arena)",
+    "trending": false,
+    "lineup": [
+      "Anyma"
+    ],
+    "desc": "Anyma Presents æden le 12 décembre 2026 à Plenitude Arena (ex. Paris La Défense Arena), Nanterre, à partir de 18:00. Au line-up : Anyma. Entrée à partir de 56.5 €.",
+    "descEn": "Anyma Presents æden on 12 December 2026 at Plenitude Arena (ex. Paris La Défense Arena), Nanterre, from 18:00. On the bill: Anyma. Entry from 56.5 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/anyma-presents-aeden-1368687_A"
+    ],
+    "region": "Hauts-de-Seine"
+  },
+  {
+    "title": "The Avener",
+    "type": "Warehouse",
+    "genres": [
+      "House"
+    ],
+    "city": "Nantes",
+    "country": "France",
+    "lat": 47.20051,
+    "lng": -1.57333,
+    "date": "2026-12-12",
+    "time": "19:00",
+    "price": 27.0,
+    "currency": "€",
+    "venue": "Warehouse",
+    "trending": false,
+    "lineup": [
+      "The Avener"
+    ],
+    "desc": "The Avener le 12 décembre 2026 à Warehouse, Nantes, à partir de 19:00. Au line-up : The Avener. Entrée à partir de 27 €.",
+    "descEn": "The Avener on 12 December 2026 at Warehouse, Nantes, from 19:00. On the bill: The Avener. Entry from 27 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/the-avener-1553928_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "Thylacine à Le MeM",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rennes",
+    "country": "France",
+    "lat": 48.10022,
+    "lng": -1.72221,
+    "date": "2027-01-21",
+    "time": "20:00",
+    "price": 39.0,
+    "currency": "€",
+    "venue": "Le MeM",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 21 janvier 2027 à Le MeM, Rennes, à partir de 20:00. Au line-up : Thylacine. Entrée à partir de 39 €.",
+    "descEn": "Thylacine - Tournée on 21 January 2027 at Le MeM, Rennes, from 20:00. On the bill: Thylacine. Entry from 39 €.",
+    "sources": [
+      "https://www.jds.fr/rennes/concerts/electro/thylacine-tournee-1575169_A"
+    ],
+    "region": "Ille-et-Vilaine"
+  },
+  {
+    "title": "Thylacine à Le 106",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Rouen",
+    "country": "France",
+    "lat": 49.44033,
+    "lng": 1.07511,
+    "date": "2027-01-23",
+    "time": "20:00",
+    "price": 33.7,
+    "currency": "€",
+    "venue": "Le 106",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 23 janvier 2027 à Le 106, Rouen, à partir de 20:00. Au line-up : Thylacine. Entrée à partir de 33.7 €.",
+    "descEn": "Thylacine - Tournée on 23 January 2027 at Le 106, Rouen, from 20:00. On the bill: Thylacine. Entry from 33.7 €.",
+    "sources": [
+      "https://www.jds.fr/rouen/concerts/electro/thylacine-tournee-1569945_A"
+    ],
+    "region": "Seine-Maritime"
+  },
+  {
+    "title": "Thylacine à Le Bikini",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Ramonville-Saint-Agne",
+    "country": "France",
+    "lat": 43.5486,
+    "lng": 1.48637,
+    "date": "2027-01-28",
+    "time": "19:30",
+    "price": 37.2,
+    "currency": "€",
+    "venue": "Le Bikini",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 28 janvier 2027 à Le Bikini, Ramonville-Saint-Agne, à partir de 19:30. Au line-up : Thylacine. Entrée à partir de 37.2 €.",
+    "descEn": "Thylacine - Tournée on 28 January 2027 at Le Bikini, Ramonville-Saint-Agne, from 19:30. On the bill: Thylacine. Entry from 37.2 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/thylacine-tournee-1569946_A"
+    ],
+    "region": "Haute-Garonne"
+  },
+  {
+    "title": "Acid Arab",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.89059,
+    "lng": 2.38974,
+    "date": "2027-01-30",
+    "time": "20:00",
+    "price": 44.8,
+    "currency": "€",
+    "venue": "Zénith Paris - La Villette",
+    "trending": false,
+    "lineup": [
+      "Acid Arab"
+    ],
+    "desc": "Acid Arab le 30 janvier 2027 à Zénith Paris - La Villette, Paris, à partir de 20:00. Au line-up : Acid Arab. Entrée à partir de 44.8 €.",
+    "descEn": "Acid Arab on 30 January 2027 at Zénith Paris - La Villette, Paris, from 20:00. On the bill: Acid Arab. Entry from 44.8 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/acid-arab-1502902_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "La P'Tite Fumée à Le Splendid",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.62344,
+    "lng": 3.09069,
+    "date": "2027-02-05",
+    "time": "20:00",
+    "price": 29.2,
+    "currency": "€",
+    "venue": "Le Splendid",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 5 février 2027 à Le Splendid, Lille, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 29.2 €.",
+    "descEn": "La P'Tite Fumée on 5 February 2027 at Le Splendid, Lille, from 20:00. On the bill: La p'tite fumée. Entry from 29.2 €.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/la-p-tite-fumee-1448762_A"
+    ],
+    "region": "Nord"
+  },
+  {
+    "title": "Lewis Ofman à L’Olympia Bruno Coquatrix",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.87017,
+    "lng": 2.32838,
+    "date": "2027-02-06",
+    "time": "20:00",
+    "price": 35.0,
+    "currency": "€",
+    "venue": "L’Olympia Bruno Coquatrix",
+    "trending": false,
+    "lineup": [
+      "Lewis OfMan"
+    ],
+    "desc": "Lewis Ofman le 6 février 2027 à L’Olympia Bruno Coquatrix, Paris, à partir de 20:00. Au line-up : Lewis OfMan. Entrée à partir de 35 €.",
+    "descEn": "Lewis Ofman on 6 February 2027 at L’Olympia Bruno Coquatrix, Paris, from 20:00. On the bill: Lewis OfMan. Entry from 35 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/lewis-ofman-1555331_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "La P'Tite Fumée à Le Boeuf Sur le Toit",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Lons-le-Saunier",
+    "country": "France",
+    "lat": 46.67563,
+    "lng": 5.54241,
+    "date": "2027-02-13",
+    "time": "20:30",
+    "price": 27.0,
+    "currency": "€",
+    "venue": "Le Boeuf Sur le Toit",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 13 février 2027 à Le Boeuf Sur le Toit, Lons-le-Saunier, à partir de 20:30. Au line-up : La p'tite fumée. Entrée à partir de 27 €.",
+    "descEn": "La P'Tite Fumée on 13 February 2027 at Le Boeuf Sur le Toit, Lons-le-Saunier, from 20:30. On the bill: La p'tite fumée. Entry from 27 €.",
+    "sources": [
+      "https://www.jds.fr/lons-le-saunier/concerts/electro/la-p-tite-fumee-1457687_A"
+    ],
+    "region": "Jura"
+  },
+  {
+    "title": "Lewis Ofman à Grand Cab - La Friche Belle de Mai",
+    "type": "Warehouse",
+    "genres": [
+      "House"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "lat": 43.31048,
+    "lng": 5.39019,
+    "date": "2027-02-18",
+    "time": "19:30",
+    "price": 27.5,
+    "currency": "€",
+    "venue": "Grand Cab - La Friche Belle de Mai",
+    "trending": false,
+    "lineup": [
+      "Lewis OfMan"
+    ],
+    "desc": "Lewis Ofman + 1ère Partie le 18 février 2027 à Grand Cab - La Friche Belle de Mai, Marseille, à partir de 19:30. Au line-up : Lewis OfMan. Entrée à partir de 27.5 €.",
+    "descEn": "Lewis Ofman + 1ère Partie on 18 February 2027 at Grand Cab - La Friche Belle de Mai, Marseille, from 19:30. On the bill: Lewis OfMan. Entry from 27.5 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/lewis-ofman-1ere-partie-1554012_A"
+    ],
+    "region": "Bouches-du-Rhône"
+  },
+  {
+    "title": "Thylacine à La Laiterie",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Strasbourg",
+    "country": "France",
+    "lat": 48.57601,
+    "lng": 7.72915,
+    "date": "2027-02-19",
+    "time": "19:30",
+    "price": 40.3,
+    "currency": "€",
+    "venue": "La Laiterie",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 19 février 2027 à La Laiterie, Strasbourg, à partir de 19:30. Au line-up : Thylacine. Entrée à partir de 40.3 €.",
+    "descEn": "Thylacine - Tournée on 19 February 2027 at La Laiterie, Strasbourg, from 19:30. On the bill: Thylacine. Entry from 40.3 €.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/thylacine-tournee-1569947_A"
+    ],
+    "region": "Bas-Rhin"
+  },
+  {
+    "title": "Lewis Ofman à Le Sucre",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Lyon",
+    "country": "France",
+    "lat": 45.73657,
+    "lng": 4.81513,
+    "date": "2027-02-19",
+    "time": "19:00",
+    "price": 29.7,
+    "currency": "€",
+    "venue": "Le Sucre",
+    "trending": false,
+    "lineup": [
+      "Lewis OfMan"
+    ],
+    "desc": "Lewis Ofman + 1ère Partie le 19 février 2027 à Le Sucre, Lyon, à partir de 19:00. Au line-up : Lewis OfMan. Entrée à partir de 29.7 €.",
+    "descEn": "Lewis Ofman + 1ère Partie on 19 February 2027 at Le Sucre, Lyon, from 19:00. On the bill: Lewis OfMan. Entry from 29.7 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/lewis-ofman-1ere-partie-1554011_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "La P'Tite Fumée à La Vapeur",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Dijon",
+    "country": "France",
+    "lat": 47.3455,
+    "lng": 5.06045,
+    "date": "2027-02-25",
+    "time": "20:00",
+    "price": 29.0,
+    "currency": "€",
+    "venue": "La Vapeur",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 25 février 2027 à La Vapeur, Dijon, à partir de 20:00. Au line-up : La p'tite fumée. Entrée à partir de 29 €.",
+    "descEn": "La P'Tite Fumée on 25 February 2027 at La Vapeur, Dijon, from 20:00. On the bill: La p'tite fumée. Entry from 29 €.",
+    "sources": [
+      "https://www.jds.fr/dijon/concerts/electro/la-p-tite-fumee-1448571_A"
+    ],
+    "region": "Côte-d'Or"
+  },
+  {
+    "title": "La P'Tite Fumée à Le Silex",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Auxerre",
+    "country": "France",
+    "lat": 47.79558,
+    "lng": 3.58079,
+    "date": "2027-02-26",
+    "time": "20:30",
+    "price": 27.0,
+    "currency": "€",
+    "venue": "Le Silex",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 26 février 2027 à Le Silex, Auxerre, à partir de 20:30. Au line-up : La p'tite fumée. Entrée à partir de 27 €.",
+    "descEn": "La P'Tite Fumée on 26 February 2027 at Le Silex, Auxerre, from 20:30. On the bill: La p'tite fumée. Entry from 27 €.",
+    "sources": [
+      "https://www.jds.fr/auxerre/concerts/electro/la-p-tite-fumee-1454401_A"
+    ],
+    "region": "Yonne"
+  },
+  {
+    "title": "La P'Tite Fumée à L'Autre Canal de Nancy",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Nancy",
+    "country": "France",
+    "lat": 48.6943,
+    "lng": 6.19858,
+    "date": "2027-02-27",
+    "time": "22:00",
+    "price": 30.0,
+    "currency": "€",
+    "venue": "L'Autre Canal de Nancy",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 27 février 2027 à L'Autre Canal de Nancy, Nancy, à partir de 22:00. Au line-up : La p'tite fumée. Entrée à partir de 30 €.",
+    "descEn": "La P'Tite Fumée on 27 February 2027 at L'Autre Canal de Nancy, Nancy, from 22:00. On the bill: La p'tite fumée. Entry from 30 €.",
+    "sources": [
+      "https://www.jds.fr/nancy/concerts/electro/la-p-tite-fumee-1448570_A"
+    ],
+    "region": "Meurthe-et-Moselle"
+  },
+  {
+    "title": "Thylacine à Le Cepac Silo",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Marseille",
+    "country": "France",
+    "lat": 43.31049,
+    "lng": 5.3664,
+    "date": "2027-03-04",
+    "time": "20:00",
+    "price": 38.0,
+    "currency": "€",
+    "venue": "Le Cepac Silo",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 4 mars 2027 à Le Cepac Silo, Marseille, à partir de 20:00. Au line-up : Thylacine. Entrée à partir de 38 €.",
+    "descEn": "Thylacine - Tournée on 4 March 2027 at Le Cepac Silo, Marseille, from 20:00. On the bill: Thylacine. Entry from 38 €.",
+    "sources": [
+      "https://www.jds.fr/marseille/concerts/electro/thylacine-tournee-1569942_A"
+    ],
+    "region": "Bouches-du-Rhône"
+  },
+  {
+    "title": "La P'Tite Fumée à La Gespe",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Tarbes",
+    "country": "France",
+    "lat": 43.22988,
+    "lng": 0.05724,
+    "date": "2027-03-05",
+    "time": "21:00",
+    "price": 25.2,
+    "currency": "€",
+    "venue": "La Gespe",
+    "trending": false,
+    "lineup": [
+      "La p'tite fumée"
+    ],
+    "desc": "La P'Tite Fumée le 5 mars 2027 à La Gespe, Tarbes, à partir de 21:00. Au line-up : La p'tite fumée. Entrée à partir de 25.2 €.",
+    "descEn": "La P'Tite Fumée on 5 March 2027 at La Gespe, Tarbes, from 21:00. On the bill: La p'tite fumée. Entry from 25.2 €.",
+    "sources": [
+      "https://www.jds.fr/tarbes/concerts/electro/la-p-tite-fumee-1598629_A"
+    ],
+    "region": "Hautes-Pyrénées"
+  },
+  {
+    "title": "Thylacine à La Sirène",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "La Rochelle",
+    "country": "France",
+    "lat": 46.16024,
+    "lng": -1.21544,
+    "date": "2027-03-06",
+    "time": "20:00",
+    "price": 37.8,
+    "currency": "€",
+    "venue": "La Sirène",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée le 6 mars 2027 à La Sirène, La Rochelle, à partir de 20:00. Au line-up : Thylacine. Entrée à partir de 37.8 €.",
+    "descEn": "Thylacine - Tournée on 6 March 2027 at La Sirène, La Rochelle, from 20:00. On the bill: Thylacine. Entry from 37.8 €.",
+    "sources": [
+      "https://www.jds.fr/la-rochelle/concerts/electro/thylacine-tournee-1569944_A"
+    ],
+    "region": "Charente-Maritime"
+  },
+  {
+    "title": "Lewis Ofman à Paloma",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Nîmes",
+    "country": "France",
+    "lat": 43.85579,
+    "lng": 4.40487,
+    "date": "2027-03-06",
+    "time": "20:30",
+    "price": 17.0,
+    "currency": "€",
+    "venue": "Paloma",
+    "trending": false,
+    "lineup": [
+      "Lewis OfMan"
+    ],
+    "desc": "Lewis Ofman le 6 mars 2027 à Paloma, Nîmes, à partir de 20:30. Au line-up : Lewis OfMan. Entrée à partir de 17 €.",
+    "descEn": "Lewis Ofman on 6 March 2027 at Paloma, Nîmes, from 20:30. On the bill: Lewis OfMan. Entry from 17 €.",
+    "sources": [
+      "https://www.jds.fr/nimes/concerts/electro/lewis-ofman-1559979_A"
+    ],
+    "region": "Gard"
+  },
+  {
+    "title": "Thylacine à La Belle Electrique",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Grenoble",
+    "country": "France",
+    "lat": 45.18718,
+    "lng": 5.70411,
+    "date": "2027-03-22",
+    "time": "20:00",
+    "price": 38.2,
+    "currency": "€",
+    "venue": "La Belle Electrique",
+    "trending": false,
+    "lineup": [
+      "Thylacine"
+    ],
+    "desc": "Thylacine - Tournée du 22 mars 2027 au 23 mars 2027 à La Belle Electrique, Grenoble, à partir de 20:00. Au line-up : Thylacine. Entrée à partir de 38.2 €.",
+    "descEn": "Thylacine - Tournée from 22 March 2027 to 23 March 2027 at La Belle Electrique, Grenoble, from 20:00. On the bill: Thylacine. Entry from 38.2 €.",
+    "sources": [
+      "https://www.jds.fr/grenoble/concerts/electro/thylacine-tournee-1581643_A"
+    ],
+    "endDate": "2027-03-23",
+    "region": "Isère"
+  },
+  {
+    "title": "Il Est Vilaine à La Machine du Moulin Rouge",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.88413,
+    "lng": 2.33212,
+    "date": "2027-04-01",
+    "time": "20:00",
+    "price": 25.0,
+    "currency": "€",
+    "venue": "La Machine du Moulin Rouge",
+    "trending": false,
+    "lineup": [
+      "Il est Vilaine"
+    ],
+    "desc": "Il Est Vilaine le 1 avril 2027 à La Machine du Moulin Rouge, Paris, à partir de 20:00. Au line-up : Il est Vilaine. Entrée à partir de 25 €.",
+    "descEn": "Il Est Vilaine on 1 April 2027 at La Machine du Moulin Rouge, Paris, from 20:00. On the bill: Il est Vilaine. Entry from 25 €.",
+    "sources": [
+      "https://www.jds.fr/paris/concerts/electro/il-est-vilaine-1547618_A"
+    ],
+    "region": "Paris"
+  },
+  {
+    "title": "Mosimann à Zénith de Strasbourg",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Eckbolsheim",
+    "country": "France",
+    "lat": 48.59316,
+    "lng": 7.68703,
+    "date": "2027-04-15",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Zénith de Strasbourg",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 15 avril 2027 à Zénith de Strasbourg, Eckbolsheim, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 15 April 2027 at Zénith de Strasbourg, Eckbolsheim, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/strasbourg/concerts/electro/mosimann-dream-tour-1717643_A"
+    ],
+    "region": "Bas-Rhin"
+  },
+  {
+    "title": "Mosimann à Halle Tony Garnier",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Lyon",
+    "country": "France",
+    "lat": 45.73003,
+    "lng": 4.82499,
+    "date": "2027-04-16",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Halle Tony Garnier",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 16 avril 2027 à Halle Tony Garnier, Lyon, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 16 April 2027 at Halle Tony Garnier, Lyon, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/lyon/concerts/electro/mosimann-dream-tour-1717638_A"
+    ],
+    "region": "Rhône"
+  },
+  {
+    "title": "Mosimann à Zénith de Lille",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.63266,
+    "lng": 3.07808,
+    "date": "2027-04-20",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Zénith de Lille",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 20 avril 2027 à Zénith de Lille, Lille, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 20 April 2027 at Zénith de Lille, Lille, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/lille/concerts/electro/mosimann-dream-tour-1717642_A"
+    ],
+    "region": "Nord"
+  },
+  {
+    "title": "Mosimann à Zénith de Nantes",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Saint-Herblain",
+    "country": "France",
+    "lat": 47.23198,
+    "lng": -1.62654,
+    "date": "2027-04-27",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Zénith de Nantes",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 27 avril 2027 à Zénith de Nantes, Saint-Herblain, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 27 April 2027 at Zénith de Nantes, Saint-Herblain, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/nantes/concerts/electro/mosimann-dream-tour-1717640_A"
+    ],
+    "region": "Loire-Atlantique"
+  },
+  {
+    "title": "Mosimann à Arkéa Arena Bordeaux",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Floirac",
+    "country": "France",
+    "lat": 44.82468,
+    "lng": -0.53171,
+    "date": "2027-04-28",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Arkéa Arena Bordeaux",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 28 avril 2027 à Arkéa Arena Bordeaux, Floirac, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 28 April 2027 at Arkéa Arena Bordeaux, Floirac, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/bordeaux/concerts/electro/mosimann-dream-tour-1717641_A"
+    ],
+    "region": "Gironde"
+  },
+  {
+    "title": "Mosimann à Zénith Toulouse Métropole",
+    "type": "Club",
+    "genres": [
+      "EDM",
+      "House"
+    ],
+    "city": "Toulouse",
+    "country": "France",
+    "lat": 43.59825,
+    "lng": 1.40926,
+    "date": "2027-04-29",
+    "time": "20:00",
+    "price": 45.0,
+    "currency": "€",
+    "venue": "Zénith Toulouse Métropole",
+    "trending": false,
+    "lineup": [
+      "Mosimann"
+    ],
+    "desc": "Mosimann - Dream Tour le 29 avril 2027 à Zénith Toulouse Métropole, Toulouse, à partir de 20:00. Au line-up : Mosimann. Entrée à partir de 45 €.",
+    "descEn": "Mosimann - Dream Tour on 29 April 2027 at Zénith Toulouse Métropole, Toulouse, from 20:00. On the bill: Mosimann. Entry from 45 €.",
+    "sources": [
+      "https://www.jds.fr/toulouse/concerts/electro/mosimann-dream-tour-1717639_A"
+    ],
+    "region": "Haute-Garonne"
+  }
+]
