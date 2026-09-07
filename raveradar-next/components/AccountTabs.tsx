@@ -12,7 +12,7 @@ import PromoterAuth from "./PromoterAuth";
 import { PromoterProfileForm, PromoterSubmissions } from "./PromoterPanel";
 import { usePromoter } from "./usePromoter";
 
-type Tab = "events" | "profile" | "favs" | "alerts" | "history" | "pro";
+type Tab = "events" | "profile" | "favs" | "alerts" | "pro";
 
 /**
  * Le catalogue et l'historique arrivent en props, allégés par `cardEvents()`.
@@ -21,15 +21,21 @@ type Tab = "events" | "profile" | "favs" | "alerts" | "history" | "pro";
  * forcément côté client, mais elle n'a besoin que de ce qu'une carte affiche. L'import
  * direct faisait entrer tout `lib/data.ts`, descriptions comprises, dans le bundle.
  */
-export default function AccountTabs({
-  lang,
-  events,
-  history,
-}: {
-  lang: Lang;
-  events: CardEvent[];
-  history: CardEvent[];
-}) {
+/**
+ * L'onglet « Historique » a été retiré.
+ *
+ * Il affichait `past().slice(0, 4)`, c'est-à-dire les quatre dernières dates passées du
+ * catalogue, **identiques pour tout le monde**, sous un intitulé qui promet un
+ * historique personnel et une phrase qui proposait de les noter pour « améliorer tes
+ * recommandations ». Il n'y a ni compte lecteur, ni historique, ni recommandation :
+ * c'était la même sorte de faux que les quatre alertes codées en dur qu'il a fallu
+ * retirer d'ici, et que la tarification d'un abonnement inexistant retirée de la home.
+ *
+ * Il reviendra le jour où un compte lecteur existe et où il y aura vraiment quelque
+ * chose à ranger dedans. En attendant, deux onglets qui disent vrai valent mieux que
+ * trois dont un ment.
+ */
+export default function AccountTabs({ lang, events }: { lang: Lang; events: CardEvent[] }) {
   const t = getDict(lang);
   const [tab, setTab] = useState<Tab | null>(null);
   const [favIds, setFavIds] = useState<number[]>([]);
@@ -45,9 +51,6 @@ export default function AccountTabs({
   }, []);
 
   const favs = events.filter((e) => favIds.includes(e.id));
-  // "Historique" is the one tab where a finished event is the point. Four fixed positions
-  // in the catalogue were neither history nor current, they drifted into upcoming dates.
-
   /* Les onglets dépendent de la session, donc l'onglet actif aussi : un promoteur
      connecté arrive sur ses dépôts, un visiteur sur ses favoris. `tab` reste `null`
      tant que la session n'est pas connue, plutôt que d'afficher un onglet puis d'en
@@ -58,12 +61,10 @@ export default function AccountTabs({
         ["profile", t("pro.tab.profile")],
         ["favs", t("acc.tab.favs")],
         ["alerts", t("acc.tab.alerts")],
-        ["history", t("acc.tab.history")],
       ]
     : [
         ["favs", t("acc.tab.favs")],
         ["alerts", t("acc.tab.alerts")],
-        ["history", t("acc.tab.history")],
         ["pro", t("pro.tab.signin")],
       ];
   const current: Tab = tab && tabs.some(([k]) => k === tab) ? tab : tabs[0][0];
@@ -165,19 +166,6 @@ export default function AccountTabs({
           ) : (
             <p style={{ color: "var(--grey)" }}>{t("acc.alerts.empty")}</p>
           )}
-        </div>
-      )}
-
-      {current === "history" && (
-        <div>
-          <p className="lead" style={{ marginBottom: 24 }}>
-            {t("acc.history.lead")}
-          </p>
-          <div className="grid grid-4">
-            {history.map((e) => (
-              <EventCard key={e.id} e={e} lang={lang} />
-            ))}
-          </div>
         </div>
       )}
 

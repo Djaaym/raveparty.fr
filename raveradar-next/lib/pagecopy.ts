@@ -44,6 +44,22 @@ export type QA = [string, string];
 const s = (n: number) => (n > 1 ? "s" : "");
 const cap = (v: string) => v.charAt(0).toUpperCase() + v.slice(1);
 
+/**
+ * « la seule date » / « les 3 dates ».
+ *
+ * `les ${n} date${s(n)}` donne « les 1 date » au singulier, faute que seul le rendu
+ * montre, et qui suffit à signaler un texte fabriqué. Le singulier prend sa propre
+ * tournure plutôt qu'un article pluriel devant un nombre.
+ */
+const countPhrase = (n: number, lang: Lang): string =>
+  lang === "fr"
+    ? n === 1
+      ? "la seule date"
+      : `les ${n} dates`
+    : n === 1
+      ? "the single date"
+      : `the ${n} dates`;
+
 /** « a, b et c » / « a, b and c ». Un « , » final se lit comme une liste tronquée. */
 function join(xs: string[], lang: Lang): string {
   if (xs.length <= 1) return xs[0] ?? "";
@@ -533,11 +549,11 @@ export function venueCopy(
       lang === "fr"
         ? [
             `Quels styles joue-t-on à ${name} ?`,
-            `${join(genres, lang)}, d'après les ${live.length + done.length} date${s(live.length + done.length)} que nous référençons dans cette salle. Le classement est pondéré : une soirée mono-genre pèse plus qu'un festival étiqueté sur huit styles.`,
+            `${join(genres, lang)}, d'après ${countPhrase(live.length + done.length, lang)} que nous référençons dans cette salle. Le classement est pondéré : une soirée mono-genre pèse plus qu'un festival étiqueté sur huit styles.`,
           ]
         : [
             `What styles are played at ${name}?`,
-            `${join(genres, lang)}, based on the ${live.length + done.length} date${s(live.length + done.length)} we list for this room. The ranking is weighted: a single-genre night counts for more than a festival tagged across eight styles.`,
+            `${join(genres, lang)}, based on ${countPhrase(live.length + done.length, lang)} we list for this room. The ranking is weighted: a single-genre night counts for more than a festival tagged across eight styles.`,
           ],
     );
   }
@@ -650,3 +666,332 @@ export function countryCopy(
 
   return { context, faq };
 }
+
+/* ------------------------------------------------------- lieu (ville, département) */
+
+export interface PlaceCopy {
+  context: string;
+  faq: QA[];
+}
+
+/**
+ * Le contexte et la FAQ d'une page de lieu (`/rave-party/{lieu}` et `/festival/{lieu}`).
+ *
+ * Ce sont les 242 pages qui portent la stratégie « rave party {lieu} » du projet, et
+ * c'étaient les seules qui n'avaient **aucun texte propre** : une phrase d'intro et
+ * quatre questions de FAQ qui n'interpolaient que le nom du lieu, identiques d'un lieu
+ * à l'autre. Deux cent quarante-deux pages qui se ressemblent mot pour mot, c'est le
+ * contenu mince que Google range, et c'est aussi une page qui ne répond à rien : « y
+ * a-t-il une soirée ce week-end » recevait « consulte la liste ci-dessus ».
+ *
+ * Tout sort du calendrier, comme partout ailleurs dans ce module : les salles, les
+ * styles, les tarifs et les dates sont ceux du lieu, donc ils changent avec lui.
+ *
+ * **Trois cas, pas un.** Un lieu sans aucune date ne reçoit pas une phrase creuse mais
+ * la vérité, y compris la raison éditoriale (le site référence les événements
+ * déclarés) : ces pages-là sont en `noindex` (voir `lib/thin-pages.ts`), et le lecteur
+ * qui y arrive quand même mérite mieux qu'un « consulte la liste » devant une liste
+ * vide. Une ville et un département n'ont pas non plus la même promesse, d'où
+ * `kind` : « à Lyon » et « dans la Drôme » ne se disent pas pareil, et une page de
+ * département couvre plusieurs communes, ce qu'elle doit dire.
+ */
+export function placeCopy(
+  lang: Lang,
+  ctx: {
+    label: string;
+    kind: "ville" | "departement" | "region";
+    live: RaveEvent[];
+    past: RaveEvent[];
+    genres: string[];
+    /** Le sous-ensemble des dates à venir dans les quatorze jours, pour « ce week-end ». */
+    soon: RaveEvent[];
+    /**
+     * Ce que la page couvre : tout le calendrier du lieu (`/rave-party/{lieu}`) ou ses
+     * seuls festivals (`/festival/{lieu}`). Les deux pages posent les mêmes questions,
+     * mais pas sur le même ensemble : sur une page festival, « quels festivals ici »
+     * est la page elle-même, et « une soirée ce week-end » n'est pas la question.
+     */
+    scope?: "all" | "festival";
+  },
+): PlaceCopy {
+  const { label, kind, live, past, genres, soon, scope = "all" } = ctx;
+  const onlyFests = scope === "festival";
+  const at = lang === "fr" ? (kind === "ville" ? `à ${label}` : atPlace(label, kind)) : `in ${label}`;
+  const around =
+    lang === "fr"
+      ? kind === "ville"
+        ? `à ${label} et aux alentours`
+        : atPlace(label, kind)
+      : kind === "ville"
+        ? `in and around ${label}`
+        : `across ${label}`;
+
+  const fests = live.filter((e) => e.type === "Festival");
+  const clubs = live.filter((e) => e.type !== "Festival");
+  const next = live[0];
+  /* Les salles, jamais un libellé qui décrit un ensemble de lieux : « Divers lieux,
+     Rennes » n'est pas une salle, et l'écrire dans une phrase est le même défaut que
+     de lui créer une page (cf. `isMultiVenueLabel`). */
+  const venues = [...new Set(live.filter((e) => !umbrella(e)).map((e) => eventVenueL(e, lang)))].slice(0, 5);
+  const cities =
+    kind === "ville" ? [] : [...new Set(live.map((e) => e.city))].slice(0, 6);
+
+  /* La fourchette réelle, calculée sur les seuls tarifs confirmés : reprendre un prix
+     estimé reviendrait à annoncer comme un fait ce que la fiche affiche avec un « ≈ ». */
+  const priced = live.filter((e) => !e.priceNote && e.price > 0);
+  const low = priced.length ? priced.reduce((m, e) => (e.price < m.price ? e : m)) : undefined;
+  const high = priced.length ? priced.reduce((m, e) => (e.price > m.price ? e : m)) : undefined;
+  const free = live.filter((e) => e.price === 0 && !e.priceNote).length;
+
+  const context =
+    lang === "fr"
+      ? [
+          live.length
+            ? onlyFests
+              ? `Nous référençons ${live.length} festival${s(live.length)} de musique électronique à venir ${around}.`
+              : `Nous référençons ${live.length} date${s(live.length)} à venir ${around}, ${fests.length} festival${s(fests.length)} et ${clubs.length} soirée${s(clubs.length)} en club ou en entrepôt.`
+            : onlyFests
+              ? `Aucun festival de musique électronique n'est annoncé ${around} pour le moment. RaveRadar recense les événements déclarés par leurs organisateurs, avec une billetterie ou une adresse vérifiable.`
+              : `Aucune soirée ni festival déclaré n'est référencé ${around} pour le moment. RaveRadar recense les événements annoncés publiquement par leurs organisateurs, avec une billetterie ou une adresse vérifiable.`,
+          /* « 2 festivals… La prochaine est » : l'accord suit ce dont la page parle,
+             et une page festival ne parle pas de « dates ». */
+          next
+            ? `${onlyFests ? "Le prochain" : "La prochaine"} est ${next.title}, ${whenPhrase(next, lang)} à ${wherePhrase(next, lang)}.`
+            : "",
+          cities.length > 1 ? `Les communes concernées : ${join(cities, lang)}.` : "",
+          venues.length ? `Les salles qui programment le plus : ${join(venues, lang)}.` : "",
+          /* Au présent seulement s'il y a quelque chose à venir : « la programmation
+             penche vers la hard techno » sous « aucune date référencée » était une
+             contradiction dans le même paragraphe, les genres venant aussi de
+             l'archive. Sans date à venir, la phrase passe au passé, ce qui est ce
+             qu'elle décrit réellement. */
+          genres.length
+            ? live.length
+              ? `La programmation penche vers ${join(genres, lang)}.`
+              : `Les éditions déjà passées relevaient surtout de ${join(genres, lang)}.`
+            : "",
+          past.length
+            ? `${past.length} édition${s(past.length)} passée${s(past.length)} rest${past.length > 1 ? "ent" : "e"} en ligne, avec le line-up tel qu'il avait été annoncé.`
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" ")
+      : [
+          live.length
+            ? onlyFests
+              ? `We list ${live.length} upcoming electronic music festival${s(live.length)} ${around}.`
+              : `We list ${live.length} upcoming date${s(live.length)} ${around}, ${fests.length} festival${s(fests.length)} and ${clubs.length} club or warehouse night${s(clubs.length)}.`
+            : onlyFests
+              ? `No electronic music festival is announced ${around} right now. RaveRadar covers events declared by their organisers, with a ticket office or a checkable address.`
+              : `No declared party or festival is listed ${around} right now. RaveRadar covers events announced publicly by their organisers, with a ticket office or a checkable address.`,
+          next ? `The next one is ${next.title}, ${whenPhrase(next, lang)} at ${wherePhrase(next, lang)}.` : "",
+          cities.length > 1 ? `Towns covered: ${join(cities, lang)}.` : "",
+          venues.length ? `The venues that programme the most: ${join(venues, lang)}.` : "",
+          genres.length
+            ? live.length
+              ? `The programming leans towards ${join(genres, lang)}.`
+              : `Past editions leaned mostly towards ${join(genres, lang)}.`
+            : "",
+          past.length
+            ? `${past.length} past edition${s(past.length)} stay${past.length > 1 ? "" : "s"} online, with the line-up exactly as it was announced.`
+            : "",
+        ]
+          .filter(Boolean)
+          .join(" ");
+
+  const faq: QA[] = [];
+
+  /* « Y a-t-il quelque chose ce week-end » est la requête la plus fréquente sur ces
+     pages, et elle recevait « consulte la liste ci-dessus ». Elle reçoit maintenant un
+     nombre et des noms, ou un « non » franc, ce qui est aussi une réponse. */
+  if (!onlyFests)
+  faq.push(
+    lang === "fr"
+      ? [
+          `Y a-t-il une rave party ou une soirée techno ${at} ces jours-ci ?`,
+          soon.length
+            ? `Oui, ${soon.length} date${s(soon.length)} dans les quinze prochains jours : ${join(soon.slice(0, 4).map((e) => `${e.title} (${day(e.date, lang)})`), lang)}. Chaque fiche donne l'horaire, le line-up et le lien vers la billetterie officielle.`
+            : live.length
+              ? `Rien dans les quinze prochains jours. La prochaine date ${around} est ${next.title}, ${whenPhrase(next, lang)}.`
+              : `Aucune date n'est annoncée ${around} pour l'instant. Une alerte sur ce lieu te préviendra dès qu'un organisateur en publie une.`,
+        ]
+      : [
+          `Is there a rave or a techno night ${at} soon?`,
+          soon.length
+            ? `Yes, ${soon.length} date${s(soon.length)} in the next fortnight: ${join(soon.slice(0, 4).map((e) => `${e.title} (${day(e.date, lang)})`), lang)}. Each page gives the running time, the line-up and a link to the official ticket office.`
+            : live.length
+              ? `Nothing in the next fortnight. The next date ${around} is ${next.title}, ${whenPhrase(next, lang)}.`
+              : `No date is announced ${around} yet. An alert on this place will tell you as soon as an organiser publishes one.`,
+        ],
+  );
+
+  if (venues.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            `Quelles salles programment de l'électro ${at} ?`,
+            `${join(venues, lang)}. Chacune a sa page avec son agenda complet, ses habitués et les styles qu'on y entend.`,
+          ]
+        : [
+            `Which venues programme electronic music ${at}?`,
+            `${join(venues, lang)}. Each has its own page with a full agenda, its regulars and the styles you hear there.`,
+          ],
+    );
+  }
+
+  if (fests.length > 0) {
+    const names = fests.slice(0, 4).map((e) => `${e.title} (${monthYear(e.date, lang)})`);
+    faq.push(
+      lang === "fr"
+        ? [
+            `Quels festivals de musique électronique ${at} ?`,
+            `${fests.length} festival${s(fests.length)} à venir : ${join(names, lang)}${fests.length > 4 ? `, et ${fests.length - 4} autre${s(fests.length - 4)}` : ""}. Dates, line-ups et billetterie sur chaque fiche.`,
+          ]
+        : [
+            `Which electronic music festivals are ${at}?`,
+            `${fests.length} upcoming festival${s(fests.length)}: ${join(names, lang)}${fests.length > 4 ? `, and ${fests.length - 4} more` : ""}. Dates, line-ups and ticketing on each page.`,
+          ],
+    );
+  }
+
+  /* La saison, calculée sur les dates réelles du lieu et non sur la généralité « de mai
+     à septembre » qui s'affichait partout : elle est à peu près vraie pour un festival
+     en plein air du nord de l'Europe, et fausse pour une ville dont les festivals sont
+     en salle l'hiver. Une phrase engendrée qui affirme quelque chose de non vérifié est
+     exactement ce que la règle de contenu interdit, qu'elle parle d'un tarif ou d'un
+     calendrier. */
+  if (live.length >= 2) {
+    const byMonth = new Map<string, number>();
+    for (const e of live) byMonth.set(e.date.slice(0, 7), (byMonth.get(e.date.slice(0, 7)) ?? 0) + 1);
+    const top = [...byMonth.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 3);
+    const season = top.map(([m, n]) => `${monthYear(`${m}-01`, lang)} (${n})`);
+    faq.push(
+      lang === "fr"
+        ? [
+            onlyFests ? `Quand ont lieu les festivals ${at} ?` : `Quand sortir ${at} ?`,
+            `Sur les dates que nous référençons, la charge se concentre sur ${join(season, lang)}. Le chiffre entre parenthèses est le nombre d'événements annoncés ce mois-là, et il monte au fil des annonces.`,
+          ]
+        : [
+            onlyFests ? `When are the festivals ${at}?` : `When is there most on ${at}?`,
+            `Across the dates we list, activity concentrates on ${join(season, lang)}. The figure in brackets is the number of events announced that month, and it grows as bills are published.`,
+          ],
+    );
+  }
+
+  /* Le tarif est celui du catalogue, pas une fourchette de bon sens : l'ancienne
+     réponse annonçait « 40-90 € pour un festival » sur toutes les pages, y compris
+     celles où rien ne coûtait ça, et y compris hors zone euro. */
+  if (low && high) {
+    faq.push(
+      lang === "fr"
+        ? [
+            `Combien coûte une soirée ou un festival ${at} ?`,
+            low.id === high.id
+              ? `Le seul tarif confirmé ${around} est ${priceLabel(low, lang)} (${low.title}).${free ? ` ${free} date${s(free)} ${free > 1 ? "sont" : "est"} à entrée libre.` : ""}`
+              : `Les tarifs confirmés vont de ${priceLabel(low, lang)} (${low.title}) à ${priceLabel(high, lang)} (${high.title}).${free ? ` ${free} date${s(free)} ${free > 1 ? "sont" : "est"} à entrée libre.` : ""} Un montant précédé de « ≈ » est une estimation que nous n'avons pas pu confirmer auprès de la billetterie.`,
+          ]
+        : [
+            `How much does a night or a festival ${at} cost?`,
+            low.id === high.id
+              ? `The only confirmed price ${around} is ${priceLabel(low, lang)} (${low.title}).${free ? ` ${free} date${s(free)} ${free > 1 ? "are" : "is"} free entry.` : ""}`
+              : `Confirmed prices run from ${priceLabel(low, lang)} (${low.title}) to ${priceLabel(high, lang)} (${high.title}).${free ? ` ${free} date${s(free)} ${free > 1 ? "are" : "is"} free entry.` : ""} An amount shown with a "≈" is an estimate we could not confirm with the ticket office.`,
+          ],
+    );
+  }
+
+  if (genres.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            live.length ? `Quels styles entend-on ${at} ?` : `Quels styles entendait-on ${at} ?`,
+            `${join(genres, lang)}, d'après ${countPhrase(live.length + past.length, lang)} que nous référençons ${around}. Le classement est pondéré : une soirée mono-genre pèse plus qu'un festival étiqueté sur huit styles.`,
+          ]
+        : [
+            live.length ? `Which styles do you hear ${at}?` : `Which styles were heard ${at}?`,
+            `${join(genres, lang)}, based on ${countPhrase(live.length + past.length, lang)} we list ${around}. The ranking is weighted: a single-genre night counts for more than a festival tagged across eight styles.`,
+          ],
+    );
+  }
+
+  /* La question n'a de sens que sur une page qui n'a rien à montrer : ailleurs, la
+     réponse est la grille au-dessus. Elle dit la ligne éditoriale plutôt que de
+     laisser croire à un oubli. */
+  if (live.length === 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            `Pourquoi aucune date ${at} ?`,
+            `Nous ne référençons que les événements déclarés : un festival ou une soirée annoncés par leur organisateur, avec une billetterie ou une adresse vérifiable. Les rassemblements non déclarés sortent de ce cadre, nous ne pouvons ni les vérifier ni les publier. Dès qu'une date déclarée est annoncée ${around}, elle apparaît ici.`,
+          ]
+        : [
+            `Why is there no date ${at}?`,
+            `We only list declared events: a festival or a club night announced by its organiser, with a ticket office or a checkable address. Undeclared gatherings fall outside that, we can neither verify nor publish them. As soon as a declared date is announced ${around}, it appears here.`,
+          ],
+    );
+  }
+
+  return { context, faq };
+}
+
+/**
+ * « dans la Drôme », « dans le Rhône », « dans les Hauts-de-Seine ».
+ *
+ * Même nature que `inCountry()` et même raison : un texte engendré qui écrit « dans
+ * Drôme » signale la machine, et ces pages existent pour se classer sur des tournures
+ * que les gens tapent. Le genre d'un département français ne se déduit pas de sa
+ * terminaison (le Rhône, la Loire, les Landes), donc c'est une table, avec « le »
+ * comme défaut, et une liste courte pour le féminin et le pluriel, tenue sur les
+ * libellés de `PLACES`.
+ */
+function inPlace(label: string, kind: "departement" | "region" = "departement"): string {
+  const plural = PLURAL_PLACES.has(label);
+  const elided = ELIDED_PLACES.has(label) || /^[AEIOUYÀÂÉÈÊËÎÏÔÖÙÛÜ]/i.test(label);
+  /* Une **région** ne prend pas l'article d'un département : on dit « en Bretagne »,
+     « en Normandie », « en Occitanie », jamais « dans la Bretagne ». Seul le pluriel
+     garde « dans les » (« dans les Hauts-de-France »). L'appelant écrit « dans » devant
+     le retour, d'où le retrait ici quand la forme se suffit. */
+  if (kind === "region" && !plural) return `EN:en ${label}`;
+  /* L'ordre compte : « Alpes-Maritimes » et « Yvelines » commencent par une voyelle et
+     sont pluriels, c'est le pluriel qui gagne (« les Alpes-Maritimes »). */
+  if (plural) return `les ${label}`;
+  if (FEM_PLACES.has(label)) return `la ${label}`;
+  if (elided) return `l'${label}`;
+  return `le ${label}`;
+}
+
+/**
+ * « dans le Rhône », « en Bretagne » : la préposition et l'article d'un coup.
+ *
+ * `inPlace()` rend la forme avec son article, mais une région féminine se dit « en
+ * Bretagne » et non « dans la Bretagne » : la préposition change avec elle. Le marqueur
+ * `EN:` est la façon la plus courte de faire remonter ce cas sans rendre un objet.
+ */
+function atPlace(label: string, kind: "departement" | "region"): string {
+  const v = inPlace(label, kind);
+  return v.startsWith("EN:") ? v.slice(3) : `dans ${v}`;
+}
+
+const FEM_PLACES = new Set([
+  "Drôme", "Loire", "Loire-Atlantique", "Haute-Savoie", "Haute-Vienne", "Haute-Garonne",
+  "Charente", "Charente-Maritime", "Gironde", "Marne", "Meurthe-et-Moselle", "Meuse",
+  "Moselle", "Sarthe", "Savoie", "Seine-et-Marne", "Seine-Maritime", "Seine-Saint-Denis",
+  "Somme", "Vendée", "Vienne", "Lozère", "Dordogne", "Côte-d'Or", "Corrèze", "Creuse",
+  "Manche", "Mayenne", "Nièvre", "Sarthe", "Vienne",
+  "Bretagne", "Corse", "Normandie", "Nouvelle-Aquitaine", "Occitanie",
+]);
+
+const PLURAL_PLACES = new Set([
+  "Alpes-Maritimes", "Bouches-du-Rhône", "Côtes-d'Armor", "Deux-Sèvres", "Hautes-Alpes",
+  "Hautes-Pyrénées", "Hauts-de-Seine", "Landes", "Pyrénées-Atlantiques",
+  "Pyrénées-Orientales", "Vosges", "Yvelines", "Ardennes", "Alpes-de-Haute-Provence",
+  "Hauts-de-France", "Pays de la Loire",
+]);
+
+/**
+ * Les libellés à h muet, que la règle de la voyelle ne voit pas.
+ *
+ * « dans l'Hérault », et non « dans le Hérault ». Une liste explicite plutôt qu'un
+ * test sur la lettre : le h aspiré existe (« le Havre ») et se tromperait dans l'autre
+ * sens.
+ */
+const ELIDED_PLACES = new Set(["Hérault", "Hérault (34)"]);

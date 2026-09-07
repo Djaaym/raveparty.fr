@@ -9,6 +9,7 @@ import FestivalCityPage from "@/components/FestivalCityPage";
 import { FESTIVALS, eventSlug, eventFromSlug, imageUrl} from "@/lib/data";
 import { guideFor, pick } from "@/lib/guides";
 import { PLACES, placeBySlug } from "@/lib/places";
+import { NOINDEX_FOLLOW, placeHasContent } from "@/lib/thin-pages";
 
 export function generateStaticParams() {
   return [...FESTIVALS.map((e) => ({ slug: eventSlug(e) })), ...PLACES.map((p) => ({ slug: p.slug }))];
@@ -37,10 +38,15 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
   const place = placeBySlug(params.slug);
   if (place)
+    // Même règle que `/rave-party/{lieu}` : sans date à venir, rien à indexer.
     return {
-      alternates: alternates(`/festival/${params.slug}`, "fr"),
-      title: `Festival ${place.label} - line-ups, dates & billetterie | RaveRadar`,
-      description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
+      ...pageMeta({
+        lang: "fr",
+        path: `/festival/${params.slug}`,
+        title: `Festival ${place.label} - line-ups, dates & billetterie | RaveRadar`,
+        description: `Tous les festivals de musique électronique à ${place.label} et aux alentours. Dates, line-ups, billetterie.`,
+      }),
+      ...(placeHasContent(place) ? {} : { robots: NOINDEX_FOLLOW }),
     };
   return {
     alternates: alternates(`/festival/${params.slug}`, "fr"),

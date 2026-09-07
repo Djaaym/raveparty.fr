@@ -47,3 +47,24 @@ export const HOTEL_PARTNER: "" | "booking" | "template" =
 /** Nom affiché du partenaire. Il apparaît dans la mention d'affiliation, donc il doit être exact. */
 export const HOTEL_BRAND =
   process.env.HOTEL_BRAND ?? (HOTEL_PARTNER === "booking" ? "Booking.com" : "");
+
+/**
+ * L'image de partage par défaut.
+ *
+ * Environ 5 200 pages (artistes, salles, villes, genres, hubs) n'avaient **ni Open
+ * Graph ni Twitter Card** : seules cinq familles de routes passaient par `pageMeta()`,
+ * les autres écrivaient leur `Metadata` à la main avec le seul `alternates`. Un partage
+ * de `/rave-party/lyon` ou d'une fiche artiste sortait donc sans vignette, sur toutes
+ * les messageries où se partage une soirée, et il n'existait aucune image de secours
+ * dans `public/`.
+ *
+ * C'est le visuel du hero, 1280x720, déjà servi en cache immuable : une photo de la
+ * chose que le site décrit, pas un logo. Elle ne prétend rien sur une page en
+ * particulier, ce qui est exactement ce qu'on veut d'un repli, et les pages qui ont une
+ * vraie image (l'affiche d'un événement, le portrait d'un artiste, la photo d'une
+ * salle) gardent la leur.
+ *
+ * Absolue, comme `imageUrl()` : une URL relative n'est pas résolue par les robots des
+ * réseaux sociaux.
+ */
+export const OG_DEFAULT = `${SITE_URL}/hero/rave-707891b510-1280.webp`;

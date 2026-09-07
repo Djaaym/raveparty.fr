@@ -1,0 +1,3 @@
+# Le cache disque du collecteur : 350 pages HTML, utiles pour retoucher une règle de
+# classement sans re-télécharger le site d'un tiers, sans aucun intérêt dans le dépôt.
+.cache/

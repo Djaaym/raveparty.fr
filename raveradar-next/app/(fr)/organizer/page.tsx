@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { alternates } from "@/lib/seo";
+import { pageMeta } from "@/lib/seo";
 import OrganizerView from "@/components/OrganizerView";
 
-export const metadata: Metadata = {
-  alternates: alternates("/organizer", "fr"),
+export const metadata: Metadata = pageMeta({
+  lang: "fr",
+  path: "/organizer",
   title: "Organisateurs - publie ton événement | RaveRadar",
-  description: "Publie ta soirée ou ton festival, gère le line-up et relie ta billetterie. Touche 180 000+ ravers.",
-};
+  description: "Publie ta soirée ou ton festival : fiche dédiée, line-up relié aux fiches artistes, lien billetterie. Gratuit, relu avant publication.",
+});
 
 export default function Page() {
   return <OrganizerView lang="fr" />;

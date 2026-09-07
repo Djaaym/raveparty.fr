@@ -1,12 +1,12 @@
 import type { Lang } from "@/lib/types";
 import { ALL_GENRES, COUNTRIES, EVENTS, TYPES, cardEvents, countryLabel, todayISO } from "@/lib/data";
 import { getDict } from "@/lib/i18n";
+import { readExplore } from "@/lib/explore-params";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import ExploreClient from "./ExploreClient";
 
 type SP = { [k: string]: string | string[] | undefined };
-const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v) ?? "";
 
 export default function ExploreView({ lang, searchParams }: { lang: Lang; searchParams: SP }) {
   const t = getDict(lang);
@@ -33,10 +33,7 @@ export default function ExploreView({ lang, searchParams }: { lang: Lang; search
             countries={COUNTRIES.map((c) => ({ v: c, l: countryLabel(c, lang) }))}
             allGenres={ALL_GENRES}
             allTypes={TYPES}
-            initialGenre={one(searchParams.genre)}
-            initialCountry={one(searchParams.country)}
-            initialQ={one(searchParams.q)}
-            initialMonth={one(searchParams.month)}
+            initial={readExplore(searchParams)}
           />
         </div>
       </section>

@@ -1,7 +1,7 @@
 import type { Lang } from "@/lib/types";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import { cardEvents, past } from "@/lib/data";
+import { cardEvents } from "@/lib/data";
 import AccountTabs from "./AccountTabs";
 
 /**
@@ -23,7 +23,7 @@ export default function AccountView({ lang }: { lang: Lang }) {
           {/* Les favoris sont des ids en localStorage : la résolution se fait côté client,
               donc le catalogue doit y être, mais allégé de tout ce qu'une carte
               n'affiche pas, sinon c'est 218 Ko de JS. Voir `cardEvents()`. */}
-          <AccountTabs lang={lang} events={cardEvents()} history={cardEvents(past().slice(0, 4))} />
+          <AccountTabs lang={lang} events={cardEvents()} />
         </div>
       </section>
       <Footer lang={lang} />

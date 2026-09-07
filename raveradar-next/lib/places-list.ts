@@ -136,6 +136,15 @@ export const PLACES: Place[] = [
      ici, la date corrigée n'aurait plus eu aucune page géographique. */
   { slug: "jura", label: "Jura", kind: "departement", vol: 210 },
   { slug: "cote-d-or", label: "Côte-d'Or", kind: "departement", vol: 210 },
+  /* Ouverts par la première collecte automatique (`.research/sources/jds.py`) : ces
+     quatre départements portent chacun une date que l'audit signalait « hors de toute
+     page lieu », c'est-à-dire introuvable pour qui parcourt le site par la géographie.
+     C'est l'étape 4 de la procédure d'ajout en masse, et elle vaut aussi pour un lot
+     qu'aucun humain n'a écrit. */
+  { slug: "haut-rhin", label: "Haut-Rhin", kind: "departement", vol: 260 },
+  { slug: "yonne", label: "Yonne", kind: "departement", vol: 210 },
+  { slug: "charente-maritime", label: "Charente-Maritime", kind: "departement", vol: 320 },
+  { slug: "hautes-pyrenees", label: "Hautes-Pyrénées", kind: "departement", vol: 170 },
   // European cities the calendar now covers, each has at least one dated event.
   { slug: "copenhague", label: "Copenhague", kind: "ville", vol: 1300, match: ["Copenhagen", "Roskilde"] },
   { slug: "stockholm", label: "Stockholm", kind: "ville", vol: 1000, match: ["Stockholm", "Linköping", "Kristianstad"] },

@@ -5,12 +5,17 @@ import { useEffect, useState } from "react";
 import type { Lang } from "@/lib/types";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { SESSION_EVENT } from "./usePromoter";
+import NavSearch from "./NavSearch";
 
 export default function Nav({ lang }: { lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const pathname = usePathname() || "/";
   const [open, setOpen] = useState(false);
+  /* Le menu mobile restait ouvert après un clic : la navigation côté client ne démonte
+     pas la nav, donc rien ne le refermait, et la page d'arrivée s'affichait derrière un
+     panneau ouvert. */
+  useEffect(() => setOpen(false), [pathname]);
   const signedIn = useSignedIn();
 
   // strip /en prefix to compute the equivalent path in the other language
@@ -32,13 +37,21 @@ export default function Nav({ lang }: { lang: Lang }) {
   const isActive = (key: string) => frPath.startsWith(key);
 
   return (
+    <>
+      {/* Premier élément focusable du document, invisible tant qu'il n'a pas le focus.
+          Sans lui, un lecteur au clavier retraverse les six onglets, le sélecteur de
+          langue, la loupe et les deux boutons à chaque page. La cible est `#contenu`,
+          posée par les composants de page sur leur `<main>`. */}
+      <a className="skip-link" href="#contenu">
+        {t("a11y.skip")}
+      </a>
     <nav className="nav">
       <div className="wrap nav-inner">
         <Link className="brand" href={`${p}/`}>
           <span className="dot" />
           RAVE<b>RADAR</b>
         </Link>
-        <div className={`nav-links ${open ? "open" : ""}`}>
+        <div className={`nav-links ${open ? "open" : ""}`} id="nav-menu">
           {links.map((l) => (
             <Link key={l.key} href={l.href} className={isActive(l.key) ? "active" : ""}>
               {l.label}
@@ -52,6 +65,11 @@ export default function Nav({ lang }: { lang: Lang }) {
           </Link>
         </div>
         <div className="nav-right">
+          {/* La recherche vivait uniquement sur la page d'accueil, alors que le trafic
+              d'un site de référencement arrive sur les fiches profondes : la quasi-
+              totalité des lecteurs ne la voyait jamais. Le panneau n'est monté qu'au
+              clic, donc ce bouton ne coûte rien aux pages qui portent le LCP. */}
+          <NavSearch lang={lang} />
           <div className="lang-switch">
             <Link href={frPath || "/"} className={lang === "fr" ? "on" : ""}>
               FR
@@ -67,11 +85,34 @@ export default function Nav({ lang }: { lang: Lang }) {
             {t("nav.add")}
           </Link>
         </div>
-        <button className="nav-toggle" aria-label="Menu" onClick={() => setOpen((o) => !o)}>
-          ☰
+        {/* `aria-expanded` et `aria-controls` manquaient : un lecteur d'écran ne pouvait
+            pas savoir si le menu était ouvert, alors que les deux attributs sont posés
+            correctement partout ailleurs (HeroSearch, TagPicker, EventEditor). Le
+            libellé change aussi avec l'état, et il est traduit, il était écrit « Menu »
+            en dur. */}
+        <button
+          className="nav-toggle"
+          type="button"
+          aria-label={open ? t("nav.menuclose") : t("nav.menuopen")}
+          aria-expanded={open}
+          aria-controls="nav-menu"
+          onClick={() => setOpen((o) => !o)}
+        >
+          {open ? "✕" : "☰"}
         </button>
       </div>
     </nav>
+      {/* La cible du lien d'évitement. Elle vit ici et non dans chacune des dix-neuf
+          pages : posée juste après la barre, elle veut dire « après la navigation »,
+          ce qui est exactement ce que le lien promet, et une seule ligne la tient à
+          jour pour tout le site.
+
+          `tabIndex={-1}` est indispensable : un `<div>` n'est pas focusable, et sans
+          lui le navigateur déplace le défilement sans déplacer le focus, donc la
+          tabulation suivante repart du haut de la nav, c'est-à-dire de là qu'on
+          voulait partir. */}
+      <div id="contenu" tabIndex={-1} />
+    </>
   );
 }
 
