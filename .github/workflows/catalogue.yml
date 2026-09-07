@@ -4,7 +4,8 @@
 # quelqu'un lançait un agent : 481 dates à venir au Royaume-Uni contre 166 en France,
 # parce qu'un guichet britannique avait été branché et aucune source française. Ce
 # workflow lit l'agenda électro de jds.fr chaque lundi et **ouvre une pull request** avec
-# ce qu'il a trouvé.
+# ce qu'il a trouvé. Quatre sources depuis : jds.fr et Shotgun pour la France, Skiddle
+# pour le Royaume-Uni, Ticketmaster pour le reste de l'Europe.
 #
 # **Il n'écrit jamais dans une branche publiée.** Le catalogue est un fichier TypeScript
 # relu à la main, et la règle du projet ne s'assouplit pas parce que la donnée arrive par
@@ -56,6 +57,14 @@ jobs:
         # servirait une collecte périmée si le répertoire était un jour mis en cache.
         run: python3 .research/sources/jds.py --no-cache
 
+      - name: Collecter Shotgun
+        working-directory: raveradar-next
+        # Sans clé : le `robots.txt` de shotgun.live autorise tout le monde, sans
+        # réserve de droits. La collecte est bornée par ses propres plafonds
+        # (`--per-city`, `--months`), et ce qu'ils écartent est écrit dans le rapport
+        # de relecture, jamais avalé en silence.
+        run: python3 .research/sources/shotgun.py --no-cache
+
       - name: Collecter Skiddle
         working-directory: raveradar-next
         env:
@@ -89,8 +98,8 @@ jobs:
         working-directory: raveradar-next
         run: |
           {
-            echo "Lots collectés automatiquement sur jds.fr (France), Skiddle (Royaume-Uni)"
-            echo "et Ticketmaster (Europe),"
+            echo "Lots collectés automatiquement sur jds.fr et Shotgun (France),"
+            echo "Skiddle (Royaume-Uni) et Ticketmaster (Europe),"
             echo "fusionné par"
             echo "\`merge.py\` puis vérifié par \`audit.py\`, les quatre garde-fous et le build."
             echo
@@ -114,6 +123,9 @@ jobs:
             echo
             echo "**jds.fr**"
             grep '^## ' .research/sources/jds-a-relire.md | sed 's/^## /- /'
+            echo
+            echo "**Shotgun**"
+            grep '^## ' .research/sources/shotgun-a-relire.md | sed 's/^## /- /' | head -15
             echo
             echo "**Skiddle**"
             grep '^## ' .research/sources/skiddle-a-relire.md | sed 's/^## /- /'

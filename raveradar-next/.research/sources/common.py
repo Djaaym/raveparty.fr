@@ -54,6 +54,12 @@ OFF_TOPIC = [
     "blind test", "quiz night", "conference", "atelier", "exposition", "theatre",
     "opera", "gospel", "chorale", "harmonie municipale", "bal populaire", "the dansant",
     "musical", "pantomime", "wrestling", "bingo",
+    # Vus sur Shotgun, où n'importe quel organisateur dépose ce qu'il veut et où la
+    # soirée jeux se range volontiers sous une étiquette « House » parce qu'un DJ passe
+    # après : « [Gratuit] LOL, tu ris tu perds », « Tournoi de beer pong back to school »,
+    # déposé en *festival*. Aucun de ces mots n'a d'usage en soirée électro.
+    "comedy", "stand-up", "stand up", "tu ris tu perds", "beer pong", "tournoi",
+    "loto", "escape game", "speed dating", "afterwork jeux", "soiree jeux",
 ]
 
 # La preuve positive, cherchée **en mots entiers** et **jamais dans le nom de la salle**.
@@ -175,7 +181,25 @@ def tidy_title(name: str) -> str:
     t = re.sub(r"\s*\+\s*guests?\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*\+\s*(et\s+)?(plus|more)\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*//\s*[A-Za-zÀ-ÿ' -]{3,24}\s*$", "", t)
-    return re.sub(r"\s{2,}", " ", t).strip(" -–")
+    # La date collée en fin de titre, habitude d'organisateur que Shotgun laisse passer
+    # telle quelle : « Acid Oslo X I Am Ebi Snake 07/09/26 », « Let's MIX ! 07.09 ».
+    # Elle est déjà un champ, elle partirait dans le slug et dans le `<title>`, et deux
+    # dates de la même soirée feraient deux marques au lieu d'une.
+    t = re.sub(r"\s*[|#/–-]?\s*\d{1,2}[./-]\d{1,2}(?:[./-]\d{2,4})?\s*$", "", t)
+    # L'année d'édition en fin de titre, pour la même raison et une de plus : « Le titre
+    # porte le festival, pas l'édition » (CLAUDE.md), parce que `nextEdition()` et le
+    # slug canonique regroupent les éditions par titre exact. La fenêtre est bornée pour
+    # ne pas amputer un nom de soirée qui finirait par un nombre (« Hangar 1988 »).
+    t = re.sub(r"\s*[|#–-]?\s*(?:20[2-4]\d)\s*$", "", t)
+    # La salle rappelée en fin de titre avec une arobase (« … | 8 Septembre @Casatroca ») :
+    # c'est déjà un champ, et collée au titre elle repart dans le slug.
+    t = re.sub(r"\s*\|?\s*@\s*[\w'&.-]+\s*$", "", t)
+    # La date écrite en toutes lettres, même raison que la date en chiffres au-dessus.
+    t = re.sub(r"\s*[|#–-]?\s*\d{1,2}\s*(?:er)?\s+"
+               r"(?:janvier|février|fevrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|"
+               r"octobre|novembre|décembre|decembre|january|february|march|april|may|june|"
+               r"july|august|september|october|november|december)\s*$", "", t, flags=re.I)
+    return re.sub(r"\s{2,}", " ", t).strip(" -–|")
 
 
 def guess_type(name: str, venue: str, multi_day: bool) -> str:
@@ -222,15 +246,27 @@ def make_desc(name: str, venue: str, city: str, date: str, end: str | None,
     head = ", ".join(lineup[:4])
     more = len(lineup) - 4
 
+    def money(lang: str) -> str:
+        """Le montant écrit comme `priceLabel()` l'écrit, décimale comprise.
+
+        « Entrée à partir de 7.99 € » est un point décimal dans une phrase française, et
+        « 9.9 € » perd le centime que le tarif annonce. Le repère est `priceLabel()`
+        (lib/format.ts) : deux décimales dès qu'il y en a, virgule en français, et seules
+        `€ £ $` se préfixent, **en anglais seulement**.
+        """
+        n = f"{price:.2f}" if price % 1 else f"{price:.0f}"
+        if lang == "fr":
+            return f"{n.replace('.', ',')} {cur}"
+        return f"{cur}{n}" if cur in ("€", "£", "$") else f"{n} {cur}"
+
     f_ = f"{name} {when_fr} à {venue}, {city}, à partir de {hour_fr}."
     e_ = f"{name} {when_en} at {venue}, {city}, from {time_s}."
     if head:
         f_ += f" Au line-up : {head}" + (f" et {more} autre{'s' if more > 1 else ''} nom{'s' if more > 1 else ''}." if more > 0 else ".")
         e_ += f" On the bill: {head}" + (f" and {more} more name{'s' if more > 1 else ''}." if more > 0 else ".")
     if price:
-        amount = f"{price:g} {cur}" if cur not in ("£", "$") else f"{cur}{price:g}"
-        f_ += f" Entrée à partir de {amount}."
-        e_ += f" Entry from {amount}."
+        f_ += f" Entrée à partir de {money('fr')}."
+        e_ += f" Entry from {money('en')}."
     return f_, e_
 
 
