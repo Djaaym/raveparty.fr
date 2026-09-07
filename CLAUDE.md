@@ -18,7 +18,7 @@
 ## Architecture du repo
 - **`raveradar-next/`** = l'app **Next.js 14 (App Router) + TS + Tailwind + Framer Motion**. **C'EST LA VERSION LIVE** (déployée sur Vercel, Root Directory = `raveradar-next`, domaine `raveparty.fr` via DNS Hostinger : A `@` 76.76.21.21, CNAME `www` cname.vercel-dns.com).
 - **Racine du repo** = `CLAUDE.md`, `README.md`, `docs/` et la CI. Le site **statique** antérieur (HTML/CSS/JS sans build) qui doublait les mêmes URLs à la racine **a été supprimé** : il n'était plus déployé depuis la mise en ligne de l'app Next mais continuait d'être modifié, ce qui faisait deux systèmes de design à tenir en phase et un doute permanent sur ce qui était servi. Son histoire reste dans git.
-- **`.claude/skills/`** = les skills du dépôt, disponibles dans toute session ouverte à la racine. Voir « Skill de design » plus bas.
+- **`.claude/skills/`** = les skills du dépôt, disponibles dans toute session ouverte à la racine. Voir « Skills de design » plus bas.
 - Branche de travail/prod : `claude/site-review-update-1g8ind`.
 
 ## Conventions (app Next)
@@ -346,8 +346,11 @@ Le lot d'août 2026 a repayé la leçon trois fois, dans les deux sens :
 
 **`merge.py` sait maintenant écrire `venueEn`.** Le champ existait dans `RaveEvent` mais le script ne l'émettait pas : un `venue` descriptif en français (« Site outdoor d'Oigny ») fuitait tel quel sur `/en`, `venueLabelL()` n'ayant rien vers quoi basculer. Tout lot qui rend un libellé de lieu qui n'est pas un nom propre doit fournir `venueEn`.
 
-## Skill de design (`ui-ux-pro-max`)
-Installé à la racine dans **`.claude/skills/ui-ux-pro-max/`** (v2.13.0, MIT, dépôt `nextlevelbuilder/ui-ux-pro-max-skill`) : une base locale interrogeable (79 styles, 192 palettes et profils produit, 74 associations de fontes, 119 règles UX, 25 types de graphiques, 22 stacks dont `nextjs`) plus un générateur de système de design. Aucun réseau, aucune dépendance, Python 3 et sa bibliothèque standard suffisent.
+## Skills de design (`.claude/skills/`)
+Sept skills du dépôt `nextlevelbuilder/ui-ux-pro-max-skill` (v2.13.0, MIT), 11 Mo au total, disponibles dans toute session ouverte à la racine.
+
+### `ui-ux-pro-max`, celui qui porte le sujet
+Le seul des sept qui réponde à la question qu'on se pose vraiment ici. Une base locale interrogeable (79 styles, 192 palettes et profils produit, 74 associations de fontes, 119 règles UX, 25 types de graphiques, 22 stacks dont `nextjs`) plus un générateur de système de design. Aucun réseau, aucune dépendance, Python 3 et sa bibliothèque standard suffisent.
 
 ```bash
 python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<requête>" --domain <domaine>
@@ -360,6 +363,20 @@ python3 .claude/skills/ui-ux-pro-max/scripts/search.py "<requête>" --design-sys
 - **Le jeu `stacks/nextjs.csv` vise Next.js 16.2, l'app est en 14.** Les conseils de rendu (Server Components par défaut, fetch dans le composant serveur) valent déjà pour l'App Router de la 14, mais toute API annoncée comme récente se vérifie dans la doc de la version installée avant d'être écrite.
 - **Les tests livrés se lancent depuis le répertoire du skill**, `python3 -m unittest discover -s scripts/tests` : 133 passent, 4 échouent à l'import parce qu'elles cherchent l'arborescence du dépôt amont (`skill.json`, `src/`), absente d'une installation. C'est attendu, ce ne sont pas des tests du moteur.
 - **Mettre à jour demande de refaire la réécriture des chemins.** Le `SKILL.md` publié est celui du plugin Claude Code et préfixe ses commandes de `${CLAUDE_PLUGIN_ROOT}`, variable qui ne vaut rien pour un skill de projet : les onze occurrences sont réécrites en chemin relatif à la racine du dépôt, sinon chaque exemple de commande pointe sur `/.claude/…` et ne tourne pas.
+
+### Les six autres skills du même dépôt
+Livrés dans le même paquet, installés à côté. Ils ne se déclenchent que sur le sujet
+annoncé par leur description, et la règle ci-dessus vaut pour tous : ce sont des sources
+génériques, ce fichier tranche.
+
+- **`ui-styling`** (5,8 Mo), shadcn/ui, Tailwind et rendu sur canvas. **Le site n'utilise pas shadcn/ui** : sa charte vit dans `globals.css` et ses composants sont écrits à la main. Ce qui sert ici, ce sont les fiches Tailwind (utilitaires, responsive, personnalisation) et `scripts/tailwind_config_gen.py`, pas la moitié shadcn, qui installerait un second système de design à tenir en phase, exactement ce que la suppression du site statique a réglé. Les 5,5 Mo sont 81 fontes TTF sous licence libre, nécessaires au rendu canvas et à rien d'autre.
+- **`design-system`** (272 Ko), architecture de jetons en trois couches (primitif, sémantique, composant) et génération de planches. `scripts/fetch-background.py` **sort sur le réseau** (Pexels), les autres scripts sont hors ligne.
+- **`design`** (388 Ko), skill parapluie qui route vers logo, identité visuelle complète, icônes, bannières et planches. **La génération d'images demande une clé et le réseau** (`GEMINI_API_KEY`, `GOOGLE_API_KEY`, `ATLASCLOUD_API_KEY`, `MUAPI_API_KEY`) : sans elles, les recherches (`scripts/logo/search.py`, `scripts/cip/search.py`) répondent, les `generate.py` non. Rappel de la règle du projet : **pas de portrait généré pour une personne réelle**, et une image de festival précis nomme le festival dans le prompt.
+- **`brand`** (148 Ko), voix de marque, cohérence, gestion des actifs. Il attend un **`docs/brand-guidelines.md`** que le dépôt n'a pas ; sans lui ses scripts `.cjs` le disent proprement et ne font rien.
+- **`banner-design`** (24 Ko) et **`slides`** (40 Ko), deux jeux de références sans script. Leur contenu est **déjà dupliqué** sous `design/references/` : le skill parapluie et le skill dédié disent la même chose, c'est l'amont qui livre les deux, on n'en tire pas de règle.
+- **Tests** : `python3 -m pytest scripts` depuis le répertoire d'un skill. Mesuré à l'installation, 58 pour `ui-styling`, 12 pour `design`, 2 pour `brand`, 2 pour `design-system`, tous au vert ; `banner-design` et `slides` n'en ont pas. `pytest` n'est pas une dépendance du site, il n'est utile que pour ça.
+- **`ui-styling/scripts/.coverage` n'est pas repris**, c'est un artefact de couverture que l'amont a versionné par accident.
+
 
 ## Documentation détaillée
 - **`docs/suivi.md`**, le tableau de bord d'audience privé : mise en route, ce qui est mesuré exactement, comment lire chaque indicateur, et les choix de conception à ne pas défaire.
