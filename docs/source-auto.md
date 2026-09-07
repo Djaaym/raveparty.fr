@@ -298,7 +298,7 @@ L'ordre reste celui du projet, l'artiste d'abord. Il fallait pour ça appeler
 passait devant le classement de la plateforme, qui est une attribution faite par celui
 qui vend le billet.
 
-### Quatre pièges propres à Shotgun
+### Cinq pièges propres à Shotgun
 
 **Le JSON-LD est en UTC, le catalogue stocke l'heure locale.** Une soirée parisienne
 annoncée `2026-09-07T21:59:00.000Z` commence à 23 h 59, pas à 21 h 59, et l'écart tombe à
@@ -328,6 +328,18 @@ de la moitié des clubs parisiens. D'où deux listes et non une : un supplément
 côté d'une entrée** ne change pas la nature de l'offre, ce qui la change c'est de ne pas
 être une entrée du tout (un vestiaire) ou de ne pas être *cette* entrée-là (un tarif
 enfant).
+
+**Un titre peut n'avoir aucune lettre, et c'est le build qui l'a dit.** « 𝓞𝓝𝓓𝓔𝓢 » est
+écrit en caractères mathématiques Unicode : `slugify()` n'en garde rien, la fiche se rend
+alors sur `/event` au lieu de `/event/{slug}`, et `next build` échoue **après avoir
+généré dix-neuf mille pages**. Ni `merge.py`, ni `audit.py`, ni les quatre garde-fous ne
+voyaient ça, ce qui est exactement la leçon déjà écrite pour l'artiste « Daniel[i] » :
+seul `npm run build` attrape certaines choses, et il fait partie de la fusion, pas de
+l'après. Trois corrections plutôt qu'une : `tidy_title()` normalise en **NFKC**, la
+normalisation de compatibilité prévue pour ça, qui rend « ONDES » ; le collecteur écarte
+quand même un titre dont il ne reste rien, un titre fait d'émojis étant encore possible ;
+et `audit.py` porte désormais le test, parce que le rattraper là coûte une seconde quand
+le laisser aller au build en coûte dix minutes.
 
 **Le champ « salle » est libre, et l'organisateur y met parfois son adresse.**
 « 10 Rue de Lappe, 75011 Paris, France » y arrive tel quel, et le publier ouvre

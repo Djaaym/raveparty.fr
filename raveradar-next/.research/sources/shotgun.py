@@ -681,6 +681,13 @@ def to_rows(picked: list[dict], styles: dict[str, list[str]],
         booked.add(key)
 
         name = drop_edition_year(tidy_title(clean(d.get("name")) or c["title"]), date)
+        # Ceinture et bretelles derrière le NFKC de `tidy_title()` : un titre fait
+        # uniquement d'émojis ou de symboles rendrait toujours un slug vide, donc une
+        # fiche sur `/event` au lieu de `/event/{slug}`, donc un build en échec. On ne
+        # peut pas lui inventer un nom, on le rend à la relecture.
+        if not slugify(name):
+            review.append((url, c["title"], "titre sans une seule lettre, slug impossible"))
+            continue
         perf = d.get("performer")
         if isinstance(perf, dict):
             perf = [perf]

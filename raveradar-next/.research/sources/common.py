@@ -177,7 +177,14 @@ def tidy_title(name: str) -> str:
     clé de dédup. On ne touche à rien d'autre : le titre reste celui de la source, c'est
     sous ce nom que la soirée se cherche.
     """
-    t = re.sub(r"\s*\+\s*(1[eè]re|premi[eè]re)\s+partie\s*$", "", name, flags=re.I)
+    # NFKC d'abord, et ce n'est pas de la cosmétique : « 𝓞𝓝𝓓𝓔𝓢 » est écrit en
+    # caractères mathématiques, `slugify()` n'en garde **rien**, et une fiche au slug vide
+    # se rend sur `/event` au lieu de `/event/{slug}`, ce qui fait échouer le build après
+    # dix-neuf mille pages. C'est exactement ce à quoi sert la normalisation de
+    # compatibilité : elle rend « ONDES », le mot que l'organisateur a voulu écrire.
+    # Ni l'audit ni les garde-fous ne voyaient ça, seul `npm run build` l'a attrapé.
+    t = unicodedata.normalize("NFKC", name)
+    t = re.sub(r"\s*\+\s*(1[eè]re|premi[eè]re)\s+partie\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*\+\s*guests?\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*\+\s*(et\s+)?(plus|more)\s*$", "", t, flags=re.I)
     t = re.sub(r"\s*//\s*[A-Za-zÀ-ÿ' -]{3,24}\s*$", "", t)
