@@ -6,6 +6,7 @@ import { countryLabel, eventVenueL, isPast, lastDay } from "@/lib/display";
 import { fmtDate, imageAlt, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
 import EventCard from "./EventCard";
+import { type ExploreState, writeExplore } from "@/lib/explore-params";
 
 const PAGE = 24;
 
@@ -61,10 +62,7 @@ export default function ExploreClient({
   countries,
   allGenres,
   allTypes,
-  initialGenre = "",
-  initialCountry = "",
-  initialQ = "",
-  initialMonth = "",
+  initial,
 }: {
   lang: Lang;
   /** Reference date (yyyy-mm-dd) computed on the server so SSR and hydration agree. */
@@ -73,23 +71,23 @@ export default function ExploreClient({
   countries: { v: string; l: string }[];
   allGenres: string[];
   allTypes: string[];
-  initialGenre?: string;
-  initialCountry?: string;
-  initialQ?: string;
-  initialMonth?: string;
+  /** L'état porté par l'URL, analysé côté serveur (voir `lib/explore-params.ts`). */
+  initial: ExploreState;
 }) {
   const t = getDict(lang);
-  const [q, setQ] = useState(initialQ);
-  const [country, setCountry] = useState(initialCountry);
-  const [months, setMonths] = useState<Set<string>>(new Set(initialMonth ? [initialMonth] : []));
-  const [from, setFrom] = useState("");
-  const [to, setTo] = useState("");
-  const [genres, setGenres] = useState<Set<string>>(new Set(initialGenre ? [initialGenre] : []));
-  const [types, setTypes] = useState<Set<string>>(new Set());
-  const [maxPrice, setMaxPrice] = useState(300);
-  const [sort, setSort] = useState("date");
+  const [q, setQ] = useState(initial.q);
+  const [country, setCountry] = useState(initial.country);
+  const [months, setMonths] = useState<Set<string>>(new Set(initial.months));
+  const [from, setFrom] = useState(initial.from);
+  const [to, setTo] = useState(initial.to);
+  const [genres, setGenres] = useState<Set<string>>(new Set(initial.genres));
+  const [types, setTypes] = useState<Set<string>>(new Set(initial.types));
+  const [maxPrice, setMaxPrice] = useState(initial.maxPrice);
+  const [sort, setSort] = useState<ExploreState["sort"]>(initial.sort);
+  /* La vue n'est pas dans l'URL : c'est une préférence d'affichage, pas une recherche,
+     et elle ne change rien à ce que la page montre. */
   const [view, setView] = useState<"grid" | "list">("grid");
-  const [showPast, setShowPast] = useState(false);
+  const [showPast, setShowPast] = useState(initial.showPast);
   // Render in pages: the full catalogue is several hundred cards, each with a poster.
   const [shown, setShown] = useState(PAGE);
 
@@ -114,6 +112,34 @@ export default function ExploreClient({
     setMonths(new Set());
     setTo(v);
   };
+
+  /**
+   * L'état des filtres se reflète dans l'adresse.
+   *
+   * La page lisait l'URL sans jamais l'écrire : affiner un filtre ne changeait rien à
+   * la barre d'adresse, donc une recherche ne se partageait pas, ne se mettait pas en
+   * favori, et un rechargement rendait la page nue. C'est aussi ce qui empêchait de
+   * lier une combinaison précise depuis n'importe où ailleurs.
+   *
+   * `history.replaceState` et non `router.replace` : la route est dynamique et sérialise
+   * tout le catalogue, donc une vraie navigation rejouerait ce rendu à chaque clic sur
+   * une case à cocher. Ici, rien ne part au réseau, seule l'adresse change.
+   *
+   * `replace` et non `push`, volontairement : chaque case cochée créerait sinon une
+   * entrée d'historique, et il faudrait vingt retours arrière pour sortir de la page.
+   * On perd la restauration au retour arrière, on garde le partage et le favori, qui
+   * sont ce qu'un lecteur fait vraiment d'une recherche.
+   */
+  useEffect(() => {
+    const qs = writeExplore({
+      q, country, months: [...months], from, to,
+      genres: [...genres], types: [...types], maxPrice, sort, showPast,
+    });
+    const next = `${window.location.pathname}${qs}`;
+    if (next !== window.location.pathname + window.location.search) {
+      window.history.replaceState(window.history.state, "", next);
+    }
+  }, [q, country, months, from, to, genres, types, maxPrice, sort, showPast]);
 
   /** Picking a date is an explicit request, don't silently hide past dates inside it. */
   const dated = months.size > 0 || Boolean(from) || Boolean(to);
@@ -310,7 +336,7 @@ export default function ExploreClient({
                la barre d'outils. Sans nom accessible, elle est annoncée « liste ». */
             aria-label={t("explore.sortlabel")}
             value={sort}
-            onChange={(e) => setSort(e.target.value)}
+            onChange={(e) => setSort(e.target.value as ExploreState["sort"])}
           >
             <option value="date">{t("explore.sort.date")}</option>
             <option value="price">{t("explore.sort.price")}</option>
