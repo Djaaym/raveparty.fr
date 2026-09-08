@@ -282,20 +282,25 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                   React : les liens du line-up restent dans le HTML rendu au serveur,
                   donc le maillage qu'un crawler suit ne bouge pas, et ça ne coûte pas un
                   octet de JavaScript à une page dont le LCP compte. */}
+              {/* Un line-up vide ne se replie pas : le volet cacherait une seule phrase,
+                  et il faudrait l'ouvrir pour apprendre qu'il n'y a rien dedans. C'est
+                  la règle de la pilule sans compteur, un bloc qui promet et ne tient
+                  rien vaut moins que le même bloc ouvert. */}
+              {e.lineup.length === 0 ? (
+                <div className="info-card">
+                  <h2 className="h-md">{t("event.lineup")}</h2>
+                  <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)", marginTop: 16 }}>
+                    {t("event.lineuptba")}
+                  </p>
+                </div>
+              ) : (
               <details className="info-card lineup-box">
                 <summary className="lineup-sum">
                   <h2 className="h-md">{t("event.lineup")}</h2>
-                  {e.lineup.length > 0 && (
-                    <span className="lineup-count">
-                      {e.lineup.length} {t(e.lineup.length > 1 ? "dyn.artists" : "dyn.artist")}
-                    </span>
-                  )}
+                  <span className="lineup-count">
+                    {e.lineup.length} {t(e.lineup.length > 1 ? "dyn.artists" : "dyn.artist")}
+                  </span>
                 </summary>
-                {e.lineup.length === 0 && (
-                  <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)" }}>
-                    {t("event.lineuptba")}
-                  </p>
-                )}
                 <div className="lineup">
                   {e.lineup.map((a, i) => {
                     /* Le line-up est l'endroit du site où l'on regarde le plus des noms
@@ -347,6 +352,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                   })}
                 </div>
               </details>
+              )}
 
               {/* Là où huit dégradés faisaient semblant d'être une galerie : les comptes
                   de l'organisateur. C'est le seul endroit de la page où l'on peut voir

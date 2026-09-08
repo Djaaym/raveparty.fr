@@ -677,7 +677,6 @@ select.input option { background: var(--anthracite); }
      le pseudo-élément `::details-content`, qu'un `display` sur l'enfant ne peut pas
      atteindre. Une seule des deux règles s'applique par navigateur, jamais aucune. */
   .lineup-box::details-content { content-visibility: visible; block-size: auto; }
-  .lineup-box > .lineup, .lineup-box > .lead { display: revert; }
   .lineup-box > .lineup { display: grid; }
   .lineup-box > summary { cursor: default; }
   .lineup-box > summary::after { display: none; }
