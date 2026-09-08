@@ -51,9 +51,30 @@ function build(): Venue[] {
 }
 
 export const VENUES: Venue[] = build();
-export const venueBySlug = (s: string): Venue | undefined => VENUES.find((v) => v.slug === s);
+/* Index par slug, monté une fois, même raison que dans lib/artists.ts : un `.find()`
+   sur les 1 152 salles à chaque fiche coûte des millions de comparaisons pour lire une
+   entrée dont la clé est déjà l'identifiant. */
+const BY_SLUG = new Map(VENUES.map((v) => [v.slug, v]));
+export const venueBySlug = (s: string): Venue | undefined => BY_SLUG.get(s);
+
+/* Index slug -> dates, sur la règle exacte du filtre qu'il remplace : **tous** les
+   événements, sans l'exclusion des programmes-ombrelles que `build()` applique. Un
+   libellé écarté de `VENUES` peut partager son slug avec une vraie salle, et retirer
+   ses dates ici changerait ce qu'affiche la fiche. */
+const EVENTS_BY_VENUE = (() => {
+  const m = new Map<string, RaveEvent[]>();
+  for (const e of EVENTS) {
+    const s = slugify(e.venue);
+    if (!s) continue;
+    const l = m.get(s);
+    if (l) l.push(e);
+    else m.set(s, [e]);
+  }
+  return m;
+})();
+
 export const eventsForVenue = (slug: string): RaveEvent[] =>
-  upcomingFirst(EVENTS.filter((e) => slugify(e.venue) === slug));
+  upcomingFirst(EVENTS_BY_VENUE.get(slug) ?? []);
 
 /* Index par id, monté une fois : les helpers ci-dessous tournent sur les 515 salles
    au build, et reconstruire la table à chaque appel coûterait des centaines de
