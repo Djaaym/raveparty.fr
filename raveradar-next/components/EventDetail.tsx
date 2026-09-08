@@ -1,9 +1,11 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 import type { Lang, RaveEvent } from "@/lib/types";
 import { artistPhoto } from "@/lib/artist-photos";
 import { hasArtistPage } from "@/lib/artists";
 import {
   EVENTS,
+  GENRES,
   countryLabel,
   eventDescL, eventVenueL,
   genreSlug,
@@ -94,6 +96,26 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   ];
 
   const multiDay = lastDay(e) !== e.date;
+  const nDays = Math.round((Date.parse(lastDay(e)) - Date.parse(e.date)) / 86_400_000) + 1;
+  const desc = eventDescL(e, lang);
+  /* Les trois repères du bloc « À propos ». Aucun ne redit ce que la billetterie
+     affiche déjà à droite (date, salle, ville, tarif) : le format et la durée, l'heure
+     d'ouverture, et la taille de l'affiche, qui ne sont écrits nulle part ailleurs sur
+     la fiche. Un festival d'un seul jour n'a pas de durée à annoncer, on ne lui invente
+     pas « une nuit ». */
+  const format =
+    nDays > 1
+      ? `${e.type} · ${nDays} ${t("dyn.days")}`
+      : e.type === "Festival"
+        ? e.type
+        : `${e.type} · ${t("dyn.night")}`;
+  const bill =
+    e.lineup.length > 0
+      ? `${e.lineup.length} ${t(e.lineup.length > 1 ? "dyn.artists" : "dyn.artist")}`
+      : t("dyn.tba");
+  // Les couleurs du genre principal, comme sur /genres/{style} : la lettrine et
+  // l'arête des repères s'en servent, donc elles sont posées une fois sur le bloc.
+  const gc = GENRES[e.genres[0]] ?? GENRES.Techno;
 
   return (
     <>
@@ -196,30 +218,62 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
 
           <div className="event-layout">
             <div>
-              <div className="info-card">
-                <h2 className="h-md">{t("event.about")}</h2>
-                {guide ? (
+              {guide ? (
+                <div className="info-card">
+                  <h2 className="h-md">{t("event.about")}</h2>
                   <div className="guide-intro">
                     {guide.intro.map((par) => (
                       <p key={par.fr}>{pick(par, lang)}</p>
                     ))}
                   </div>
-                ) : (
-                  <>
-                    <p className="lead" style={{ fontSize: "1rem" }}>
-                      {eventDescL(e, lang)}
-                    </p>
+                </div>
+              ) : (
+                /* Deux colonnes plutôt qu'une pile de deux paragraphes gris : la
+                   présentation de l'organisateur à gauche, ce que le catalogue sait à
+                   droite. Le texte gardait une mesure de 56 caractères dans une carte
+                   qui en fait le double, et rien ne distinguait la phrase engendrée de
+                   celle qu'on a recopiée de l'affiche. */
+                <section className="abt" style={{ "--g1": gc.c1, "--g2": gc.c2 } as CSSProperties}>
+                  <div className="abt-grid">
+                    <div>
+                      <h2 className="h-md abt-title">{t("event.about")}</h2>
+                      {/* La lettrine demande un paragraphe qui la porte : sur deux
+                          lignes de description, une capitale de trois interlignes
+                          déborde de son propre texte. */}
+                      <p className={`abt-desc${desc.length > 200 ? " has-cap" : ""}`}>{desc}</p>
+                      {/* Les repères restent dans la colonne du texte : une description
+                          de trois lignes laissait sinon la moitié gauche de la carte
+                          vide sous elle, pendant que la colonne de droite descendait
+                          jusqu'en bas. */}
+                      <div className="abt-marks">
+                        <div className="abt-mark">
+                          <em>{t("event.format")}</em>
+                          <b>{format}</b>
+                        </div>
+                        {e.time && (
+                          <div className="abt-mark">
+                            <em>{t("event.doors")}</em>
+                            <b>{e.time}</b>
+                          </div>
+                        )}
+                        <div className="abt-mark">
+                          <em>{t("event.lineup")}</em>
+                          <b>{bill}</b>
+                        </div>
+                      </div>
+                    </div>
                     {/* Ce que la description de l'organisateur ne dit jamais : la date
                         en toutes lettres, la salle, la taille de l'affiche et la place
                         de cette date dans la saison. Engendré, donc jamais périmé. */}
                     {copy && (
-                      <p className="lead" style={{ fontSize: ".95rem", marginTop: 12 }}>
-                        {copy.context}
-                      </p>
+                      <div className="abt-note">
+                        <em>{t("copy.context")}</em>
+                        <p>{copy.context}</p>
+                      </div>
                     )}
-                  </>
-                )}
-              </div>
+                  </div>
+                </section>
+              )}
 
               <div className="info-card">
                 <h2 className="h-md">{t("event.lineup")}</h2>
