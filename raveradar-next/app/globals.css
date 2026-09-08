@@ -647,6 +647,36 @@ select.input option { background: var(--anthracite); }
    partait à 635 px de large dans une colonne de 304. « Toute la ligne » se dit avec
    `-1`, qui suit le nombre de colonnes au lieu de le forcer. */
 .headliner { grid-column: 1 / -1; background: var(--grad-soft); border-color: var(--violet); }
+/* Line-up repliable, sur mobile uniquement. Le bloc est un `<details>` fermé par
+   défaut : sur un téléphone, vingt cartes d'artiste repoussaient le lieu, la
+   billetterie et le maillage interne à quinze écrans de la tête de page. Au-delà de
+   720 px la place existe, donc le CSS le force ouvert et le résumé redevient un
+   simple titre. Rien n'est retiré du HTML dans un cas comme dans l'autre, c'est de
+   l'affichage : les liens vers les fiches artistes restent tous rendus au serveur. */
+.lineup-box > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.lineup-box > summary::-webkit-details-marker { display: none; }
+.lineup-box > summary > .h-md { flex: none; }
+.lineup-count { font-size: .8rem; color: var(--grey); font-family: var(--f-mono); }
+/* Le chevron est poussé à droite par `margin-left: auto` plutôt que par une colonne :
+   le compteur doit rester collé au titre, pas s'étirer entre les deux. */
+.lineup-box > summary::after {
+  content: ""; margin-left: auto; flex: none; width: 10px; height: 10px;
+  border-right: 2px solid var(--magenta); border-bottom: 2px solid var(--magenta);
+  transform: translateY(-3px) rotate(45deg); transition: transform .25s;
+}
+.lineup-box[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
+@media (min-width: 721px) {
+  /* Forcé ouvert : deux écritures parce que les navigateurs cachent le contenu d'un
+     `<details>` fermé de deux façons selon leur âge. Les anciens masquent les enfants
+     eux-mêmes (d'où le `display`), Chrome 128+ pose `content-visibility: hidden` sur
+     le pseudo-élément `::details-content`, qu'un `display` sur l'enfant ne peut pas
+     atteindre. Une seule des deux règles s'applique par navigateur, jamais aucune. */
+  .lineup-box::details-content { content-visibility: visible; block-size: auto; }
+  .lineup-box > .lineup, .lineup-box > .lead { display: revert; }
+  .lineup-box > .lineup { display: grid; }
+  .lineup-box > summary { cursor: default; }
+  .lineup-box > summary::after { display: none; }
+}
 /* --------------------------- SOCIALS ----------------------------------- */
 /* Remplace l'ancienne « galerie » de dégradés : un lien vers ce que l'organisateur
    publie lui-même vaut mieux que huit carrés qui n'illustrent rien. */

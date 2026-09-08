@@ -275,8 +275,22 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 </section>
               )}
 
-              <div className="info-card">
-                <h2 className="h-md">{t("event.lineup")}</h2>
+              {/* Une affiche de vingt noms fait quinze écrans de haut sur un téléphone,
+                  et pousse le lieu, la billetterie et les blocs de maillage hors de
+                  portée. Le bloc est donc replié sur mobile, et forcé ouvert au-delà de
+                  720 px par le CSS (`.lineup-box`). C'est un `<details>` et pas un état
+                  React : les liens du line-up restent dans le HTML rendu au serveur,
+                  donc le maillage qu'un crawler suit ne bouge pas, et ça ne coûte pas un
+                  octet de JavaScript à une page dont le LCP compte. */}
+              <details className="info-card lineup-box">
+                <summary className="lineup-sum">
+                  <h2 className="h-md">{t("event.lineup")}</h2>
+                  {e.lineup.length > 0 && (
+                    <span className="lineup-count">
+                      {e.lineup.length} {t(e.lineup.length > 1 ? "dyn.artists" : "dyn.artist")}
+                    </span>
+                  )}
+                </summary>
                 {e.lineup.length === 0 && (
                   <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)" }}>
                     {t("event.lineuptba")}
@@ -332,7 +346,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     );
                   })}
                 </div>
-              </div>
+              </details>
 
               {/* Là où huit dégradés faisaient semblant d'être une galerie : les comptes
                   de l'organisateur. C'est le seul endroit de la page où l'on peut voir
