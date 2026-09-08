@@ -42,7 +42,7 @@ atterrit sur la page d'accueil de Booking. Voir § 4 bis pour le relevé complet
 Dans Vercel → Settings → Environment Variables, puis redéployer :
 
 ```
-HOTEL_CJ_CLICK=https://www.tkqlhce.com/click-101873318-12345678
+HOTEL_CJ_CLICK=https://www.dpbolvw.net/click-101873318-15734352
 ```
 
 C'est tout. `HOTEL_PARTNER` se déduit (`cj` dès qu'un lien de clic est présent) et
@@ -58,7 +58,7 @@ historique déjà obtenu, mais il ne s'en délivre plus.
 ### c. Vérifier
 
 ```
-cd raveradar-next && HOTEL_CJ_CLICK=https://www.tkqlhce.com/click-101873318-12345678 npm run build
+cd raveradar-next && HOTEL_CJ_CLICK=https://www.dpbolvw.net/click-101873318-15734352 npm run build
 ```
 
 puis ouvrir n'importe quelle fiche à venir : le bloc « Se loger » apparaît sous la
@@ -197,15 +197,26 @@ refaire la recherche que la fiche connaissait déjà.
 
 **Toutes les annonces d'un même annonceur ne se valent pas, et c'est là qu'était la
 réponse.** Les bannières logo ignorent `url=` ; une annonce dont la fiche CJ montre un
-champ **« URL de destination » modifiable** l'honore. Vérifié sur l'annonce 17322580
-(*Taxi Homepage*) du même annonceur 4347393 : la recherche passée en `url=` arrive
-intacte, avec `aid=818286` et
-`label=affnetcj-17322580_pub-8058263_site-101873318_pname-Raveparty_clkid-{sid}_cjevent-…`.
+champ **« URL de destination » modifiable** l'honore. Ce champ est le signe qui ne
+trompe pas, et il se lit d'un coup d'œil sur la fiche : absent, l'annonce ne sait aller
+qu'à un seul endroit. Mesuré côte à côte avec la même destination, l'annonce 14398623
+(*logo BLUE*, une bannière, pas de champ) rend `booking.com/?` quand 17322580 rend
+`booking.com/searchresults.html?`.
+
+**Prendre un lien Evergreen.** C'est le lien de tracking générique de CJ, prévu pour le
+deep-link : son image est un pixel 1x1 et non une création, donc il ne range pas les
+revenus sous une bannière sans rapport. Celui en service est
+`click-101873318-15734352` (*Evergreen Link for Booking.com ES*), vérifié de bout en
+bout : la recherche passée en `url=` arrive intacte, avec `aid=818286` et
+`label=affnetcj-15734352_pub-8058263_site-101873318_pname-Raveparty_clkid-{sid}_cjevent-…`.
+N'importe quelle annonce à champ de destination fonctionnerait (l'annonce *Taxi
+Homepage* 17322580 aussi, vérifiée), mais son numéro ressort en `utm_term` dans les
+rapports CJ, donc autant qu'il désigne quelque chose de juste.
 
 Pour en trouver une : **Campagnes → Liens et produits**, puis la case
 **« Liens profonds uniquement »** dans la colonne de filtres à gauche. Les 89 créations
 de l'annonceur se réduisent alors à celles qui acceptent une destination. On ne se sert
-ni de la bannière ni du champ « URL de destination » : seul compte l'identifiant de
+ni de l'image ni du champ « URL de destination » : seul compte l'identifiant de
 l'annonce, que le code place dans `HOTEL_CJ_CLICK`.
 
 Le *Deep Link Generator* (le bookmarklet, § 1a) répond, lui, « No active relationship
