@@ -657,7 +657,12 @@ select.input option { background: var(--anthracite); }
 .foldbox-card > .foldbox-sum { margin-bottom: 16px; }
 .foldbox > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; }
 .foldbox > summary::-webkit-details-marker { display: none; }
-.foldbox > summary > .h-md { flex: none; }
+/* Le titre doit pouvoir se replier. `flex: none` convenait à « Line-up », deux
+   syllabes, et débordait dès qu'une section s'appelait « Questions fréquentes sur
+   Charlotte de Witte » : mesuré à 390 px, un h2 de 626 px de large, soit 280 px
+   de débordement horizontal sur la page. `min-width: 0` est la moitié qui compte,
+   sans elle un élément flex ne descend pas sous la largeur de son contenu. */
+.foldbox > summary > .h-md { flex: 0 1 auto; min-width: 0; }
 .foldbox-count { font-size: .8rem; color: var(--grey); font-family: var(--f-mono); white-space: nowrap; }
 /* Sous 400 px, « 52 artistes » se cassait en deux lignes et le résumé passait de
    40 à 57 px de haut, c'est-à-dire un repli qui prend la place qu'il économise.
