@@ -93,6 +93,42 @@ de toute façon tous les jours : la recherche du partenaire est juste au moment 
 clic, une liste figée serait fausse la semaine suivante. Le jour où on voudra
 vraiment recommander, il faudra une source, comme pour tout le reste du catalogue.
 
+**La recherche est centrée sur la salle, pas sur la ville.** Le lien passe
+`latitude` / `longitude` (les coordonnées de la salle, que les 2 053 fiches portent
+déjà) et `order=distance_from_search`, donc Booking ouvre sur le lieu de l'événement
+et classe les hôtels par distance. `ss=« Ville, Pays »` reste, comme ancre que
+l'autocomplétion résout à coup sûr et comme repli. Ça se voit dès que la salle n'est
+pas au centre : le Klokgebouw est à 3 km du centre d'Eindhoven, un Festivalpark est à
+la campagne, et quelqu'un qui sort d'un club à 6 h veut dormir à côté du club.
+
+Vérifié : la redirection canonique de Booking jette `ss`, `checkin` et `order` mais
+**garde** `latitude` et `longitude` (`searchresults.fr.html?latitude=…;longitude=…`),
+ce sont bien des dimensions de recherche de premier ordre.
+
+**Aucun filtre de rayon**, et c'est délibéré. `nflt=distance=3000` est reconnu, ce qui
+est exactement le danger : un festival dans un champ n'a rien à 3 km, et une page de
+résultats vide est pire qu'une liste trop large. Trier ne peut pas vider la page,
+filtrer si.
+
+**La carte annonce ce que le lien fait vraiment.** `hotelStay()` renvoie `near`, la
+salle quand elle est citable, la ville sinon, et le bloc bascule entre les libellés
+`hotel.*venue` et `hotel.*`. Quatre libellés ne sont pas citables, tous constatés dans
+le catalogue : un ensemble de lieux (« Divers lieux, Rennes », `isMultiVenueLabel()`),
+un nom recopié sur la ville (« Bordeaux, France »), un lieu qui n'en est pas un
+(« TBA », « Secret Location Notts », dont on ne peut par définition pas être proche),
+et une fiche Google Maps entière rendue par le champ libre de Shotgun (« Glass Club
+Cannes, House music Bar à cocktails Festive & Club, Night Club, Boîte de Nuit, »,
+89 caractères). Le **lien** reste centré sur les coordonnées dans les quatre cas :
+c'est l'annonce qui s'ajuste, jamais la recherche.
+
+Le découpage se relit sur la page construite, jamais dans le gabarit, et c'est ce qui
+a rattrapé « Où dormir près de **109** » : couper systématiquement sur le tiret
+détaché décapitait « 109 - l'Embarcadère », un nom entier, alors qu'il fallait bien
+couper « Yaya Lille - Restaurant méditerranéen avec terrasse par Juan Arbelaez ». Rien
+ne les distingue sinon la longueur, donc le tiret ne se coupe qu'en dernier recours.
+Relevé sur les 2 053 fiches : 1 998 annoncées par leur salle, 55 repliées sur la
+ville.
+
 **Les dates viennent du catalogue.** Arrivée le premier jour, départ le lendemain du
 dernier. Une soirée de club qui finit à l'aube, c'est bien une nuit d'hôtel ; un
 festival de trois jours en réserve trois.
@@ -125,6 +161,33 @@ n'a rien à faire dans les données structurées lues par Google.
 
 ---
 
+## 4 bis. Booking direct, et pourquoi pas un lien CJ
+
+Booking.com se revend aussi par des réseaux (CJ Affiliate, Awin…). Un lien CJ a été
+testé ici, et il ne convient pas. Le relevé, pour ne pas refaire le test :
+
+| Essai sur le lien CJ                         | Résultat                                                  |
+| -------------------------------------------- | --------------------------------------------------------- |
+| `?sid=rp-fr-ev777`                            | ✅ arrive en `_clkid-rp-fr-ev777`, attribution intacte      |
+| `&url=<recherche Booking encodée>`            | ❌ **ignoré**, on atterrit sur `booking.com/`               |
+| `click-{site}-{ad}?url=…` (forme non encodée) | ✅ bonne attribution, ❌ destination toujours jetée          |
+
+Le lien fourni était un lien **bannière** (`utm_medium=bannerindex`) : le deep-link
+n'est pas activé dessus, donc il ne sait aller que sur la page d'accueil. Or c'est
+précisément ce que ce bloc existe pour éviter : Booking attribue **à la session**, le
+lecteur doit pouvoir réserver dans la foulée du clic, et une home vide lui demande de
+refaire la recherche que la fiche connaissait déjà. Un compte Booking direct donne un
+simple `aid=` et laisse construire n'importe quelle URL de recherche, ce qui est la
+seule forme qui serve à quelque chose ici.
+
+Deux détails à ne pas réapprendre. Les identifiants CJ d'un lien encodé se lisent dans
+le `label` de l'URL finale (`pub-…_site-…_pname-…`) : le premier nombre de
+`click-{n}-{n}` est le **site**, pas le publisher, et se tromper d'ordre attribue les
+clics à un autre compte (constaté : `pub-4733886_site-8058263` au lieu de
+`pub-8058263_site-101873318_pname-Raveparty`). Et la redirection de Booking répond 301
+puis 202 depuis le conteneur : la chaîne se lit au `curl -D -`, pas au navigateur, qui
+n'a pas de réseau ici.
+
 ## 5. Où c'est écrit
 
 | Fichier                      | Rôle                                                     |
@@ -135,11 +198,15 @@ n'a rien à faire dans les données structurées lues par Google.
 | `components/EventDetail.tsx` | le point de montage, sur les seules éditions à venir      |
 | `lib/i18n.ts`                | les clés `hotel.*`, FR et EN                              |
 | `app/globals.css`            | `.hotel-card` et suivantes                                |
+| `scripts/check-hotels.mjs`   | `npm run check:hotels`, le garde-fou des coordonnées      |
 
 ---
 
 ## 6. Suites possibles
 
+- **Reprendre les 12 coordonnées à une décimale** que `npm run check:hotels` signale :
+  ~11 km, donc elles désignent l'agglomération et pas la salle, et le classement par
+  distance ne veut alors rien dire. Aucune n'est dans les cent prochaines dates.
 - **Les pages ville** (`/rave-party/{lieu}`) et **pays** peuvent porter le même bloc,
   sans dates cette fois (il faudrait alors prendre celles de la prochaine soirée
   listée, sinon la recherche s'ouvre sur aujourd'hui et ne sert à rien).
