@@ -33,6 +33,7 @@ import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import SearchableLinks from "./SearchableLinks";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 export default function CitiesHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
@@ -427,21 +428,20 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("city.faq")}
-          </h2>
-          <div className="grid grid-2">
-            {faq.map(([q, a]) => (
-              <div className="info-card" key={q}>
-                <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                  {q}
-                </h3>
-                <p className="lead" style={{ fontSize: ".95rem" }}>
-                  {a}
-                </p>
-              </div>
-            ))}
-          </div>
+          <Fold title={<>{t("city.faq")}</>}>
+            <div className="grid grid-2">
+              {faq.map(([q, a]) => (
+                <div className="info-card" key={q}>
+                  <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                    {q}
+                  </h3>
+                  <p className="lead" style={{ fontSize: ".95rem" }}>
+                    {a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </Fold>
         </div>
       </section>
       <Footer lang={lang} />

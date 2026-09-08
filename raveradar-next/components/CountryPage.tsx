@@ -14,6 +14,7 @@ import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -164,73 +165,68 @@ export default function CountryPage({ lang, slug }: { lang: Lang; slug: string }
 
           {localPlaces.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("hub.bycity")} · {label}
-              </h2>
-              <div className="linkfarm">
-                {localPlaces.map((pl) => (
-                  <Link key={pl.slug} href={`${p}/rave-party/${pl.slug}`}>
-                    Rave party {pl.label}
-                  </Link>
-                ))}
-              </div>
+              <Fold title={<>{t("hub.bycity")} · {label}</>}>
+                <div className="linkfarm">
+                  {localPlaces.map((pl) => (
+                    <Link key={pl.slug} href={`${p}/rave-party/${pl.slug}`}>
+                      Rave party {pl.label}
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {localVenues.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("hub.venues")} · {label}
-              </h2>
-              <div className="linkfarm">
-                {localVenues.map((v) => (
-                  <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
-                    🏛 {v.name} · {v.city}
-                  </Link>
-                ))}
-              </div>
+              <Fold title={<>{t("hub.venues")} · {label}</>}>
+                <div className="linkfarm">
+                  {localVenues.map((v) => (
+                    <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
+                      🏛 {v.name} · {v.city}
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {past.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("fest.past")} · {label}
-              </h2>
-              <div className="grid grid-4">
-                {past.slice(0, 8).map((e) => (
-                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-                ))}
-              </div>
+              <Fold title={<>{t("fest.past")} · {label}</>}>
+                <div className="grid grid-4">
+                  {past.slice(0, 8).map((e) => (
+                    <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("country.others")}
-          </h2>
-          <div className="linkcols">
-            {others.map((c) => (
-              <Link key={c.slug} href={`${p}/pays/${c.slug}`}>
-                {COUNTRY_FLAG[c.name] ?? ""} {t("country.h1")} {countryName(c.name, lang)}
-              </Link>
-            ))}
-          </div>
+          <Fold title={<>{t("country.others")}</>}>
+            <div className="linkcols">
+              {others.map((c) => (
+                <Link key={c.slug} href={`${p}/pays/${c.slug}`}>
+                  {COUNTRY_FLAG[c.name] ?? ""} {t("country.h1")} {countryName(c.name, lang)}
+                </Link>
+              ))}
+            </div>
+          </Fold>
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("city.faq")}
-          </h2>
-          <div className="grid grid-2">
-            {allFaq.map(([q, a]) => (
-              <div className="info-card" key={q}>
-                <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                  {q}
-                </h3>
-                <p className="lead" style={{ fontSize: ".95rem" }}>
-                  {a}
-                </p>
-              </div>
-            ))}
-          </div>
+          <Fold title={<>{t("city.faq")}</>}>
+            <div className="grid grid-2">
+              {allFaq.map(([q, a]) => (
+                <div className="info-card" key={q}>
+                  <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                    {q}
+                  </h3>
+                  <p className="lead" style={{ fontSize: ".95rem" }}>
+                    {a}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </Fold>
         </div>
       </section>
       <Footer lang={lang} />

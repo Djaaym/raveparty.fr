@@ -26,6 +26,7 @@ import { getDict, langPrefix } from "@/lib/i18n";
 import { eventSocials, sameAs } from "@/lib/socials";
 import { breadcrumbJsonLd, eventJsonLd, faqJsonLd } from "@/lib/seo";
 import { eventCopy, inCountry } from "@/lib/pagecopy";
+import Fold from "./Fold";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -275,13 +276,30 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 </section>
               )}
 
-              <div className="info-card">
-                <h2 className="h-md">{t("event.lineup")}</h2>
-                {e.lineup.length === 0 && (
-                  <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)" }}>
+              {/* Une affiche de vingt noms fait quinze écrans de haut sur un téléphone,
+                  et pousse le lieu, la billetterie et les blocs de maillage hors de
+                  portée. Le bloc est donc replié sur mobile, et forcé ouvert au-delà de
+                  720 px par le CSS (`.lineup-box`). C'est un `<details>` et pas un état
+                  React : les liens du line-up restent dans le HTML rendu au serveur,
+                  donc le maillage qu'un crawler suit ne bouge pas, et ça ne coûte pas un
+                  octet de JavaScript à une page dont le LCP compte. */}
+              {/* Un line-up vide ne se replie pas : le volet cacherait une seule phrase,
+                  et il faudrait l'ouvrir pour apprendre qu'il n'y a rien dedans. C'est
+                  la règle de la pilule sans compteur, un bloc qui promet et ne tient
+                  rien vaut moins que le même bloc ouvert. */}
+              {e.lineup.length === 0 ? (
+                <div className="info-card">
+                  <h2 className="h-md">{t("event.lineup")}</h2>
+                  <p className="lead" style={{ fontSize: ".95rem", color: "var(--grey)", marginTop: 16 }}>
                     {t("event.lineuptba")}
                   </p>
-                )}
+                </div>
+              ) : (
+              <Fold
+                card
+                title={t("event.lineup")}
+                count={`${e.lineup.length} ${t(e.lineup.length > 1 ? "dyn.artists" : "dyn.artist")}`}
+              >
                 <div className="lineup">
                   {e.lineup.map((a, i) => {
                     /* Le line-up est l'endroit du site où l'on regarde le plus des noms
@@ -332,7 +350,8 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     );
                   })}
                 </div>
-              </div>
+              </Fold>
+              )}
 
               {/* Là où huit dégradés faisaient semblant d'être une galerie : les comptes
                   de l'organisateur. C'est le seul endroit de la page où l'on peut voir
@@ -427,67 +446,66 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           {copy && copy.faq.length > 0 && (
             <>
               <div className="divider" />
-              <h2 className="h-md" style={{ marginBottom: 24 }}>
-                {t("copy.faqevent").replace("{t}", e.title)}
-              </h2>
-              <div className="grid grid-2">
-                {copy.faq.map(([q, a]) => (
-                  <div className="info-card" key={q}>
-                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                      {q}
-                    </h3>
-                    <p className="lead" style={{ fontSize: ".95rem" }}>
-                      {a}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <Fold title={t("copy.faqevent").replace("{t}", e.title)}>
+                <div className="grid grid-2">
+                  {copy.faq.map(([q, a]) => (
+                    <div className="info-card" key={q}>
+                      <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                        {q}
+                      </h3>
+                      <p className="lead" style={{ fontSize: ".95rem" }}>
+                        {a}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {older.length > 0 && (
             <>
               <div className="divider" />
-              <h2 className="h-md" style={{ marginBottom: 10 }}>
-                {t("fest.past")}
-              </h2>
-              <p className="lead" style={{ fontSize: ".95rem", marginBottom: 22 }}>
-                {t("event.editionsintro")}
-              </p>
-              <div className="grid grid-4">
-                {older.map((x) => (
-                  <EventCard key={x.id} e={cardEvent(x)} lang={lang} />
-                ))}
-              </div>
+              <Fold title={t("fest.past")} count={older.length}>
+                <p className="lead" style={{ fontSize: ".95rem", marginBottom: 22 }}>
+                  {t("event.editionsintro")}
+                </p>
+                <div className="grid grid-4">
+                  {older.map((x) => (
+                    <EventCard key={x.id} e={cardEvent(x)} lang={lang} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {related.length > 0 && (
             <>
               <div className="divider" />
-              <h2 className="h-md" style={{ marginBottom: 24 }}>
-                {t("event.related")}
-              </h2>
-              <div className="grid grid-4">
-                {related.map((r) => (
-                  <EventCard key={r.id} e={cardEvent(r)} lang={lang} />
-                ))}
-              </div>
+              <Fold title={t("event.related")} count={related.length}>
+                <div className="grid grid-4">
+                  {related.map((r) => (
+                    <EventCard key={r.id} e={cardEvent(r)} lang={lang} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {sameCountry.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("event.morein")} {inCountry(e.country, lang)}
-              </h2>
-              <div className="linkfarm">
-                {sameCountry.map((x) => (
-                  <Link key={x.id} href={`${p}${eventPath(x)}`}>
-                    {x.title} · {x.city}
-                  </Link>
-                ))}
-              </div>
+              <Fold
+                title={<>{t("event.morein")} {inCountry(e.country, lang)}</>}
+                count={sameCountry.length}
+              >
+                <div className="linkfarm">
+                  {sameCountry.map((x) => (
+                    <Link key={x.id} href={`${p}${eventPath(x)}`}>
+                      {x.title} · {x.city}
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
         </div>

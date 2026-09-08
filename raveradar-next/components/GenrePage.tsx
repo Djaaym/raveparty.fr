@@ -33,6 +33,7 @@ import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import AlertForm from "./AlertForm";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 /**
  * La page d'un style.
@@ -325,79 +326,75 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
 
           {cities.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("genre.wherecities")}
-              </h2>
-              <div className="linkfarm">
-                {cities.map(({ place, count }) => (
-                  <Link key={place.slug} href={`${p}/rave-party/${place.slug}`}>
-                    {genre} {place.label} <b>{count}</b>
+              <Fold title={<>{t("genre.wherecities")}</>}>
+                <div className="linkfarm">
+                  {cities.map(({ place, count }) => (
+                    <Link key={place.slug} href={`${p}/rave-party/${place.slug}`}>
+                      {genre} {place.label} <b>{count}</b>
+                    </Link>
+                  ))}
+                  <Link className="more" href={`${p}/villes`}>
+                    {t("cities.allcities")}
                   </Link>
-                ))}
-                <Link className="more" href={`${p}/villes`}>
-                  {t("cities.allcities")}
-                </Link>
-              </div>
+                </div>
+              </Fold>
             </>
           )}
 
           {venues.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("genre.venues")}
-              </h2>
-              <div className="venuecards">
-                {venues.map(({ v, own, shot }) => (
-                  <article className="venuecard" key={v.slug}>
-                    {shot?.src ? (
-                      /* eslint-disable-next-line @next/next/no-img-element */
-                      <img
-                        className="venuecard-shot"
-                        src={shot.src}
-                        alt={imageAlt(shot.e, lang, imageSourceOf(shot.e))}
-                        width={96}
-                        height={120}
-                        loading="lazy"
-                        decoding="async"
-                      />
-                    ) : (
-                      <span className="venuecard-shot venuecard-noshot" aria-hidden="true">
-                        🏛
-                      </span>
-                    )}
-                    <div className="venuecard-body">
-                      <h3 className="venuecard-name">
-                        <Link href={`${p}/lieux/${v.slug}`}>{venueLabelL(v.name, v.nameEn, lang)}</Link>
-                      </h3>
-                      <div className="venuecard-facts">
-                        <span>
-                          📍 {v.city}, {countryLabel(v.country, lang)}
+              <Fold title={<>{t("genre.venues")}</>}>
+                <div className="venuecards">
+                  {venues.map(({ v, own, shot }) => (
+                    <article className="venuecard" key={v.slug}>
+                      {shot?.src ? (
+                        /* eslint-disable-next-line @next/next/no-img-element */
+                        <img
+                          className="venuecard-shot"
+                          src={shot.src}
+                          alt={imageAlt(shot.e, lang, imageSourceOf(shot.e))}
+                          width={96}
+                          height={120}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <span className="venuecard-shot venuecard-noshot" aria-hidden="true">
+                          🏛
                         </span>
-                        <span>
-                          {own.length} {t(own.length > 1 ? "dyn.dates" : "dyn.date")} {genre}
-                        </span>
-                      </div>
-                      <p className="venuecard-next">
-                        <em>{t("venues.next")}</em>{" "}
-                        <Link href={`${p}${eventPath(own[0])}`}>
-                          {fmtDate(own[0].date, lang)} · {own[0].title}
+                      )}
+                      <div className="venuecard-body">
+                        <h3 className="venuecard-name">
+                          <Link href={`${p}/lieux/${v.slug}`}>{venueLabelL(v.name, v.nameEn, lang)}</Link>
+                        </h3>
+                        <div className="venuecard-facts">
+                          <span>
+                            📍 {v.city}, {countryLabel(v.country, lang)}
+                          </span>
+                          <span>
+                            {own.length} {t(own.length > 1 ? "dyn.dates" : "dyn.date")} {genre}
+                          </span>
+                        </div>
+                        <p className="venuecard-next">
+                          <em>{t("venues.next")}</em>{" "}
+                          <Link href={`${p}${eventPath(own[0])}`}>
+                            {fmtDate(own[0].date, lang)} · {own[0].title}
+                          </Link>
+                        </p>
+                        <Link className="venuecard-go" href={`${p}/lieux/${v.slug}`}>
+                          {t("venues.see")}
                         </Link>
-                      </p>
-                      <Link className="venuecard-go" href={`${p}/lieux/${v.slug}`}>
-                        {t("venues.see")}
-                      </Link>
-                    </div>
-                  </article>
-                ))}
-              </div>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {artists.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("genre.headliners")} · {genre}
-              </h2>
+              <Fold title={<>{t("genre.headliners")} · {genre}</>} count={artists.length}>
               {featured.length > 0 && (
                 <div className="artcards" style={{ marginBottom: 18 }}>
                   {featured.map(({ a, n }) => {
@@ -473,19 +470,19 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
                   {t("genre.allartists")}
                 </Link>
               </div>
+              </Fold>
             </>
           )}
 
           {done.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("fest.past")} · {genre}
-              </h2>
-              <div className="grid grid-4">
-                {done.slice(0, 8).map((e) => (
-                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-                ))}
-              </div>
+              <Fold title={<>{t("fest.past")} · {genre}</>}>
+                <div className="grid grid-4">
+                  {done.slice(0, 8).map((e) => (
+                    <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
@@ -495,48 +492,46 @@ export default function GenrePage({ lang, slug }: { lang: Lang; slug: string }) 
 
           {faq.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("genre.faqtitle").replace("{g}", genre)}
-              </h2>
-              <div className="grid grid-2">
-                {faq.map(([q, a]) => (
-                  <div className="info-card" key={q}>
-                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                      {q}
-                    </h3>
-                    <p className="lead" style={{ fontSize: ".95rem" }}>
-                      {a}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <Fold title={<>{t("genre.faqtitle").replace("{g}", genre)}</>}>
+                <div className="grid grid-2">
+                  {faq.map(([q, a]) => (
+                    <div className="info-card" key={q}>
+                      <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                        {q}
+                      </h3>
+                      <p className="lead" style={{ fontSize: ".95rem" }}>
+                        {a}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {/* ---- Les autres styles, présentés, pas une rangée de pilules nues ---- */}
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("genre.othergenres")}
-          </h2>
-          <div className="ghops">
-            {otherGenres.map(({ g, n }) => {
-              const c = GENRES[g];
-              return (
-                <Link
-                  className="ghop"
-                  key={g}
-                  href={`${p}/genres/${genreSlug(g)}`}
-                  style={{ "--g1": c.c1, "--g2": c.c2 } as CSSProperties}
-                >
-                  <span className="ghop-bar" />
-                  <b>{g}</b>
-                  <span>{genreDescL(g, lang)}</span>
-                  <em>
-                    {n > 0 ? `${n} ${t(n > 1 ? "dyn.dates" : "dyn.date")}` : t("genre.nodates")}
-                  </em>
-                </Link>
-              );
-            })}
-          </div>
+          <Fold title={<>{t("genre.othergenres")}</>}>
+            <div className="ghops">
+              {otherGenres.map(({ g, n }) => {
+                const c = GENRES[g];
+                return (
+                  <Link
+                    className="ghop"
+                    key={g}
+                    href={`${p}/genres/${genreSlug(g)}`}
+                    style={{ "--g1": c.c1, "--g2": c.c2 } as CSSProperties}
+                  >
+                    <span className="ghop-bar" />
+                    <b>{g}</b>
+                    <span>{genreDescL(g, lang)}</span>
+                    <em>
+                      {n > 0 ? `${n} ${t(n > 1 ? "dyn.dates" : "dyn.date")}` : t("genre.nodates")}
+                    </em>
+                  </Link>
+                );
+              })}
+            </div>
+          </Fold>
           </div>
         </div>
       </section>

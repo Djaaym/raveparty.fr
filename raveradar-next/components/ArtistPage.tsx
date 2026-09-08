@@ -18,6 +18,7 @@ import AlertForm from "./AlertForm";
 import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
 import { outboundRel } from "@/lib/display";
+import Fold from "./Fold";
 
 export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -307,89 +308,85 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
 
           {done.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("fest.past")}
-              </h2>
-              <div className="grid grid-4">
-                {done.map((e) => (
-                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-                ))}
-              </div>
+              <Fold title={<>{t("fest.past")}</>}>
+                <div className="grid grid-4">
+                  {done.map((e) => (
+                    <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {cities.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("artist.wherecities")}
-              </h2>
-              <div className="linkfarm">
-                {cities.map((c) => (
-                  <Link key={c.slug} href={`${p}/rave-party/${c.slug}`}>
-                    {artist.name} {c.label}
-                  </Link>
-                ))}
-              </div>
+              <Fold title={<>{t("artist.wherecities")}</>}>
+                <div className="linkfarm">
+                  {cities.map((c) => (
+                    <Link key={c.slug} href={`${p}/rave-party/${c.slug}`}>
+                      {artist.name} {c.label}
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {copy.faq.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("copy.faqartist").replace("{t}", artist.name)}
-              </h2>
-              <div className="grid grid-2">
-                {copy.faq.map(([q, a]) => (
-                  <div className="info-card" key={q}>
-                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                      {q}
-                    </h3>
-                    <p className="lead" style={{ fontSize: ".95rem" }}>
-                      {a}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <Fold title={<>{t("copy.faqartist").replace("{t}", artist.name)}</>}>
+                <div className="grid grid-2">
+                  {copy.faq.map(([q, a]) => (
+                    <div className="info-card" key={q}>
+                      <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                        {q}
+                      </h3>
+                      <p className="lead" style={{ fontSize: ".95rem" }}>
+                        {a}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {related.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("artist.discover")}
-              </h2>
-              <div className="artist-grid">
-                {related.map(({ a, photo }) => (
-                  <Link key={a.slug} href={`${p}/artistes/${a.slug}`} className="artist-tile">
-                    {photo ? (
-                      /* alt="" volontaire : le nom est écrit juste à côté, un alt
-                         descriptif le ferait annoncer deux fois. La copie indexable
-                         est celle de la fiche de l'artiste, avec son vrai alt et son
-                         crédit. */
-                      /* eslint-disable-next-line @next/next/no-img-element */
-                      <img
-                        className="av av-photo"
-                        src={`/artists/${photo.file}`}
-                        alt=""
-                        width={42}
-                        height={42}
-                        loading="lazy"
-                        decoding="async"
-                      />
-                    ) : (
-                      <div className="av" aria-hidden="true">
-                        {a.name.trim()[0]}
+              <Fold title={<>{t("artist.discover")}</>}>
+                <div className="artist-grid">
+                  {related.map(({ a, photo }) => (
+                    <Link key={a.slug} href={`${p}/artistes/${a.slug}`} className="artist-tile">
+                      {photo ? (
+                        /* alt="" volontaire : le nom est écrit juste à côté, un alt
+                           descriptif le ferait annoncer deux fois. La copie indexable
+                           est celle de la fiche de l'artiste, avec son vrai alt et son
+                           crédit. */
+                        /* eslint-disable-next-line @next/next/no-img-element */
+                        <img
+                          className="av av-photo"
+                          src={`/artists/${photo.file}`}
+                          alt=""
+                          width={42}
+                          height={42}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <div className="av" aria-hidden="true">
+                          {a.name.trim()[0]}
+                        </div>
+                      )}
+                      <div className="artist-tile-txt">
+                        <b>{a.name}</b>
+                        <span>
+                          {a.eventIds.length} {t("artist.events")}
+                        </span>
                       </div>
-                    )}
-                    <div className="artist-tile-txt">
-                      <b>{a.name}</b>
-                      <span>
-                        {a.eventIds.length} {t("artist.events")}
-                      </span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
         </div>
