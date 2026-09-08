@@ -24,6 +24,7 @@ import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 export default function VenuesHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
@@ -300,21 +301,20 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("venues.faq")}
-          </h2>
-          <div className="grid grid-2">
-            {faq.map(([q, ans]) => (
-              <div className="info-card" key={q}>
-                <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                  {q}
-                </h3>
-                <p className="lead" style={{ fontSize: ".95rem" }}>
-                  {ans}
-                </p>
-              </div>
-            ))}
-          </div>
+          <Fold title={<>{t("venues.faq")}</>}>
+            <div className="grid grid-2">
+              {faq.map(([q, ans]) => (
+                <div className="info-card" key={q}>
+                  <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                    {q}
+                  </h3>
+                  <p className="lead" style={{ fontSize: ".95rem" }}>
+                    {ans}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </Fold>
         </div>
       </section>
       <Footer lang={lang} />

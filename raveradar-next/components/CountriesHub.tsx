@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 export default function CountriesHub({ lang }: { lang: Lang }) {
   const t = getDict(lang);
@@ -85,27 +86,25 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
             ))}
           </div>
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("hub.bycity")}
-          </h2>
-          <div className="linkcols">
-            {PLACES.map((x) => (
-              <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
-                Rave party {x.label}
-              </Link>
-            ))}
-          </div>
+          <Fold title={<>{t("hub.bycity")}</>}>
+            <div className="linkcols">
+              {PLACES.map((x) => (
+                <Link key={x.slug} href={`${p}/rave-party/${x.slug}`}>
+                  Rave party {x.label}
+                </Link>
+              ))}
+            </div>
+          </Fold>
 
-          <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-            {t("hub.bygenre")}
-          </h2>
-          <div className="linkfarm">
-            {ALL_GENRES.map((g) => (
-              <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
-                {g}
-              </Link>
-            ))}
-          </div>
+          <Fold title={<>{t("hub.bygenre")}</>}>
+            <div className="linkfarm">
+              {ALL_GENRES.map((g) => (
+                <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
+                  {g}
+                </Link>
+              ))}
+            </div>
+          </Fold>
         </div>
       </section>
       <Footer lang={lang} />

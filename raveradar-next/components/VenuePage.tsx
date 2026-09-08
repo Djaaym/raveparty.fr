@@ -16,6 +16,7 @@ import EventCard from "./EventCard";
 import Breadcrumbs from "./Breadcrumbs";
 import SocialsCard from "./SocialsCard";
 import JsonLd from "./JsonLd";
+import Fold from "./Fold";
 
 export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) {
   const t = getDict(lang);
@@ -112,69 +113,65 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
 
           {done.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("fest.past")}
-              </h2>
-              <div className="grid grid-4">
-                {done.map((e) => (
-                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-                ))}
-              </div>
+              <Fold title={<>{t("fest.past")}</>}>
+                <div className="grid grid-4">
+                  {done.map((e) => (
+                    <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {artists.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("venue.artists")}
-              </h2>
-              <div className="linkfarm">
-                {/* Vers la fiche artiste, pas vers une page `/show/` : celles-ci ne sont
-                    plus que des redirections 301 (cf. `lib/shows.ts`). */}
-                {artists.map((s) => (
-                  <ArtistPill
-                    key={s.artistSlug}
-                    href={`${p}/artistes/${s.artistSlug}`}
-                    name={s.artistName}
-                    slug={s.artistSlug}
-                  />
-                ))}
-              </div>
+              <Fold title={<>{t("venue.artists")}</>}>
+                <div className="linkfarm">
+                  {/* Vers la fiche artiste, pas vers une page `/show/` : celles-ci ne sont
+                      plus que des redirections 301 (cf. `lib/shows.ts`). */}
+                  {artists.map((s) => (
+                    <ArtistPill
+                      key={s.artistSlug}
+                      href={`${p}/artistes/${s.artistSlug}`}
+                      name={s.artistName}
+                      slug={s.artistSlug}
+                    />
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {copy.faq.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("copy.faqvenue").replace("{t}", name)}
-              </h2>
-              <div className="grid grid-2">
-                {copy.faq.map(([q, a]) => (
-                  <div className="info-card" key={q}>
-                    <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
-                      {q}
-                    </h3>
-                    <p className="lead" style={{ fontSize: ".95rem" }}>
-                      {a}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <Fold title={<>{t("copy.faqvenue").replace("{t}", name)}</>}>
+                <div className="grid grid-2">
+                  {copy.faq.map(([q, a]) => (
+                    <div className="info-card" key={q}>
+                      <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                        {q}
+                      </h3>
+                      <p className="lead" style={{ fontSize: ".95rem" }}>
+                        {a}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
 
           {sameCity.length > 0 && (
             <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("venue.samecity")} {venue.city}
-              </h2>
-              <div className="linkfarm">
-                {sameCity.map((v) => (
-                  <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
-                    {venueLabelL(v.name, v.nameEn, lang)}
-                  </Link>
-                ))}
-              </div>
+              <Fold title={<>{t("venue.samecity")} {venue.city}</>}>
+                <div className="linkfarm">
+                  {sameCity.map((v) => (
+                    <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
+                      {venueLabelL(v.name, v.nameEn, lang)}
+                    </Link>
+                  ))}
+                </div>
+              </Fold>
             </>
           )}
         </div>
