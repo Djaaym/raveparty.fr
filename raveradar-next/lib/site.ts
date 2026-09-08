@@ -34,19 +34,37 @@ export const IMPACT_UTT_ID =
  * Corollaire à tenir : ne jamais lire ces constantes depuis un composant client,
  * elles y vaudraient la chaîne vide et le rendu divergerait de celui du serveur.
  *
- * `HOTEL_PARTNER` vaut "booking" (recherche Booking.com construite par le code) ou
- * "template" (gabarit d'URL fourni par un autre réseau). Il se déduit de ce qui est
- * renseigné, donc poser `HOTEL_AID` suffit pour Booking. Vide = pas de partenaire,
+ * `HOTEL_PARTNER` vaut "cj" (la même recherche, encapsulée dans un lien de clic CJ,
+ * la seule route ouverte pour Booking aujourd'hui), "booking" (recherche construite
+ * par le code avec un `aid` en direct) ou "template" (gabarit d'URL fourni par un
+ * autre réseau). Il se déduit de ce qui est renseigné, donc poser `HOTEL_CJ_CLICK`
+ * suffit. Vide = pas de partenaire,
  * et la carte ne se rend pas du tout. Mise en route détaillée dans `docs/hotels.md`.
  */
 export const HOTEL_AID = process.env.HOTEL_AID ?? "";
+/**
+ * Lien de clic CJ Affiliate, **sans paramètres**, de la forme
+ * `https://www.tkqlhce.com/click-{site}-{annonce}`.
+ *
+ * Booking.com ne se vend plus en direct : sa page de programme renvoie sur CJ
+ * (« Inscrivez-vous via nos réseaux affiliés officiels », vérifié). Il n'y a donc pas
+ * d'`aid` à poser, c'est CJ qui l'injecte à la redirection, avec un `label` qui porte
+ * notre `sid`.
+ *
+ * **L'annonce doit être un lien profond, pas une bannière.** Mesuré sur une bannière
+ * (`utm_medium=bannerindex`) : le `sid` passe, `url=` est purement ignoré et le
+ * lecteur atterrit sur la page d'accueil. Le générateur de liens profonds de CJ
+ * (Links → Link Tools) rend une annonce qui, elle, accepte `url=`.
+ */
+export const HOTEL_CJ_CLICK = process.env.HOTEL_CJ_CLICK ?? "";
 export const HOTEL_URL_TEMPLATE = process.env.HOTEL_URL_TEMPLATE ?? "";
-export const HOTEL_PARTNER: "" | "booking" | "template" =
-  (process.env.HOTEL_PARTNER as "booking" | "template" | undefined) ??
-  (HOTEL_AID ? "booking" : HOTEL_URL_TEMPLATE ? "template" : "");
+export const HOTEL_PARTNER: "" | "booking" | "cj" | "template" =
+  (process.env.HOTEL_PARTNER as "booking" | "cj" | "template" | undefined) ??
+  (HOTEL_CJ_CLICK ? "cj" : HOTEL_AID ? "booking" : HOTEL_URL_TEMPLATE ? "template" : "");
 /** Nom affiché du partenaire. Il apparaît dans la mention d'affiliation, donc il doit être exact. */
 export const HOTEL_BRAND =
-  process.env.HOTEL_BRAND ?? (HOTEL_PARTNER === "booking" ? "Booking.com" : "");
+  process.env.HOTEL_BRAND ??
+  (HOTEL_PARTNER === "booking" || HOTEL_PARTNER === "cj" ? "Booking.com" : "");
 
 /**
  * L'image de partage par défaut.

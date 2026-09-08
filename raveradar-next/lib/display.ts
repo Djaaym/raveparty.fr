@@ -109,6 +109,29 @@ export const venueLabelL = (name: string, nameEn: string | undefined, lang: Lang
   lang === "en" ? nameEn ?? name : name;
 export const eventVenueL = (e: RaveEvent, lang: Lang) => venueLabelL(e.venue, e.venueEn, lang);
 
+/**
+ * Un `venue` qui décrit un ensemble de lieux n'est pas une salle.
+ *
+ * L'exclusion des programmes-ombrelles ne tenait qu'au fait qu'ils portent un guide
+ * (`guideFor`), or un festival éclaté dans toute une ville n'en a pas forcément un :
+ * dix-sept libellés, « Divers lieux, Rennes », « Salles multiples, Skopje »,
+ * « 40 lieux dans toute la ville », avaient donc leur page `/lieux/{slug}`, nommée
+ * d'après une périphrase et vide de tout ce qu'une fiche de salle promet (une
+ * adresse, un agenda, des habitués). C'est le `/lieux/300-lieux-dans-amsterdam` que
+ * la règle du projet interdit, arrivé par une autre porte.
+ *
+ * Il vit dans ce module et non dans `lib/venues.ts`, qui le ré-exporte : `lib/hotels.ts`
+ * en a besoin pour ne pas annoncer « hôtels près de Divers lieux, Rennes », et il est
+ * feuille lui aussi. Une seconde copie de la règle divergerait, c'est la leçon que
+ * `placeKeys()` a déjà payée.
+ *
+ * Le test porte sur des mots entiers : « Zénith Paris - La Villette » et « Fort de
+ * Tourneville » sont de vraies salles, et une correspondance sur « ville » les
+ * emporterait. Vérifié sur les 515 salles du catalogue : aucun faux positif.
+ */
+export const isMultiVenueLabel = (venue: string): boolean =>
+  /\b(lieux|salles multiples|various venues|multiple venues|venues across|multiple locations)\b/i.test(venue);
+
 /** Today as `yyyy-mm-dd` in Europe/Paris, the site's reference timezone. */
 export const todayISO = (): string => new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Paris" });
 /** Last day of an event (multi-day festivals stay live until their final day). */

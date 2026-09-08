@@ -5450,7 +5450,14 @@ const SPONSORED_TICKETS = new Set<number>([
    à jour ici plutôt qu'événement par événement : un lien payant non déclaré est une
    infraction aux règles de Google sur les liens. La liste explicite ci-dessus reste
    utile pour les partenariats négociés ailleurs (un lien direct organisateur). */
-const AFFILIATE_HOSTS = ["ticketmaster.", "livenation.", "ticketweb.", "evyy.net", "skiddle."];
+/* Les domaines de redirection de CJ Affiliate sont interchangeables, c'est le réseau
+   qui décide lequel il sert : les cinq sont donc listés ensemble. CJ est branché depuis
+   l'affiliation hôtel (Booking ne se vend plus qu'à travers lui), et la règle du dépôt
+   est d'ajouter le domaine d'un réseau ici et nulle part ailleurs. */
+const AFFILIATE_HOSTS = [
+  "ticketmaster.", "livenation.", "ticketweb.", "evyy.net", "skiddle.",
+  "dpbolvw.net", "tkqlhce.com", "anrdoezrs.net", "jdoqocy.com", "kqzyfj.com",
+];
 
 /** Ticketing link: explicit URL, else Resident Advisor for paid events, null when free. */
 export const ticketUrl = (e: RaveEvent): string | null =>
