@@ -729,6 +729,74 @@ select.input option { background: var(--anthracite); }
 .info-card { border: 1px solid var(--line); border-radius: var(--r-lg); padding: 22px; background: var(--anthracite); margin-bottom: 20px; }
 .info-card h3 { margin-bottom: 16px; }
 
+/* ---------------------- FICHE : « À PROPOS » --------------------------- */
+/**
+ * La description vivait dans un `.info-card` avec `.lead`, plafonné à 56 caractères :
+ * sur un écran large la carte fait 1 200 px et le texte s'arrêtait au tiers, le reste
+ * de la boîte vide. Élargir la mesure ne corrige rien (au-delà de ~70 caractères, l'œil
+ * ne retrouve plus le début de la ligne suivante) : ce qu'il faut, c'est donner à la
+ * largeur quelque chose à porter. Le texte de l'organisateur à gauche, ce que le
+ * catalogue sait à droite (le contexte engendré, puis les trois repères que la
+ * billetterie ne répète pas : le format, l'heure d'ouverture, la taille de l'affiche).
+ *
+ * `container-type: inline-size` et non une media query : la carte vit dans la colonne
+ * de `.event-layout`, qui perd 400 px tant que la billetterie est à côté. À 1 025 px de
+ * fenêtre elle ne fait que 471 px de large, à 1 920 px elle en fait 1 232 : c'est sa
+ * largeur à elle qui décide de la coupe, pas celle de la fenêtre. Même raison que le
+ * `container-type` de `.ghero-main`.
+ */
+.abt {
+  --g1: var(--violet); --g2: var(--magenta);
+  position: relative; overflow: hidden; container-type: inline-size;
+  margin-bottom: 20px; padding: clamp(20px, 2.4vw, 34px);
+  border: 1px solid var(--line); border-radius: var(--r-lg); background: var(--anthracite);
+}
+/* Le dégradé du genre reste une lueur derrière le texte, jamais un aplat : c'est la
+   leçon déjà payée sur les cartes de genre, trois phrases sur un fond saturé ne se
+   lisent pas. */
+.abt::before {
+  content: ""; position: absolute; inset: -70% 35% auto -12%; height: 150%; z-index: 0;
+  background: radial-gradient(44% 60% at 22% 12%, var(--g1), transparent 70%);
+  opacity: .17; pointer-events: none;
+}
+.abt > * { position: relative; z-index: 1; }
+.abt-grid { display: grid; gap: 26px; align-items: start; }
+@container (min-width: 700px) {
+  .abt-grid { grid-template-columns: minmax(0, 1.3fr) minmax(260px, .85fr); gap: 34px; }
+}
+.abt-title { margin-bottom: 16px; }
+.abt-desc { max-width: 68ch; color: var(--white); font-size: 1.02rem; line-height: 1.85; }
+/* La lettrine, dans le dégradé du genre, marque le début du texte sans ajouter un
+   titre de plus. Elle n'est posée que sur une description assez longue pour la
+   porter : au-dessus de deux lignes, une capitale de trois hauteurs de ligne est un
+   ornement qui déborde de son propre paragraphe. */
+.abt-desc.has-cap::first-letter {
+  float: left; padding: 5px 12px 0 0;
+  font-family: var(--f-display); font-weight: 800; font-size: 3.1em; line-height: .82;
+  background: linear-gradient(140deg, var(--g1), var(--g2));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+/* Deux voix, deux blocs : la présentation de l'organisateur d'un côté, ce que nous
+   savons du calendrier de l'autre. Elles se suivaient en deux paragraphes gris de
+   même graisse, où rien ne disait que la seconde était engendrée. */
+.abt-note {
+  padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--r-md);
+  background: linear-gradient(150deg, rgba(139,92,255,.13), rgba(25,231,255,.03));
+}
+.abt-note em {
+  display: block; margin-bottom: 8px; font-style: normal; font-family: var(--f-mono);
+  font-size: .64rem; letter-spacing: .16em; text-transform: uppercase; color: var(--cyan);
+}
+.abt-note p { color: var(--grey); font-size: .93rem; line-height: 1.7; }
+.abt-marks { display: grid; gap: 10px; margin-top: 24px; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); }
+.abt-mark {
+  min-width: 0; padding: 12px 14px; border: 1px solid var(--line);
+  border-left: 3px solid var(--g1); border-radius: var(--r-md);
+  background: linear-gradient(120deg, rgba(255,255,255,.035), transparent);
+}
+.abt-mark em { display: block; font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .16em; text-transform: uppercase; color: var(--grey-3); }
+.abt-mark b { display: block; margin-top: 4px; font-family: var(--f-display); font-weight: 600; font-size: .97rem; line-height: 1.3; color: var(--white); overflow-wrap: anywhere; }
+
 /* ---------------------------- HÔTELS ------------------------------------ */
 /* Le bloc « où dormir » (components/HotelsCard.tsx), sous la carte du lieu. Il porte
    un lien rémunéré, donc la mention d'affiliation fait partie du bloc et pas du pied
@@ -1535,17 +1603,120 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 
 /* ----------------------------- ARTIST BIO ------------------------------ */
 /* Portraits come from Wikimedia Commons, so the sources are wildly uneven,
-   avatars.py normalises crop, size and duotone; this only sets the frame. */
-/* Plus grand que l'avatar-initiale : une vraie photo mérite d'exister face au titre. */
-.avatar-photo { width: 116px; height: 116px; object-fit: cover; object-position: center; padding: 0; border: 1px solid var(--line); box-shadow: var(--shadow-card); }
-@media (max-width: 720px) { .avatar-photo { width: 84px; height: 84px; } }
-.artist-origin { display: block; margin-top: 6px; font-family: var(--f-mono); font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; color: var(--cyan); }
-.artist-bio { margin-top: 6px; max-width: 68ch; color: var(--white); }
-/* Attribution is the condition of a CC BY / CC BY-SA reuse, not a footnote we
+   avatars.py normalises crop, size and duotone; the frame is set by `.aphero-ring`
+   just below, the only place a portrait is rendered at full size.
+   Attribution is the condition of a CC BY / CC BY-SA reuse, not a footnote we
    may drop when it looks busy, hence always rendered, just quietly. */
 .artist-credits { margin-top: 10px; font-size: .78rem; color: var(--grey-2); max-width: 68ch; }
 .artist-credits a { color: var(--grey); text-decoration: underline; text-underline-offset: 2px; }
 .artist-credits a:hover { color: var(--cyan); }
+
+/* --------------------- FICHE ARTISTE : LA TÊTE DE PAGE ----------------- */
+/**
+ * La fiche s'ouvrait sur une pile de paragraphes de largeurs différentes : le rond du
+ * portrait et le titre, puis la bio (68 caractères), les faits, les sources, le crédit
+ * photo, l'introduction et le contexte (56 caractères), sept blocs de gris qui se
+ * suivaient sans hiérarchie et qui, sur un écran large, s'arrêtaient tous au tiers de
+ * la fenêtre.
+ *
+ * Ici la tête de page redevient une fiche : l'identité et ce qui est sourcé à gauche,
+ * l'alerte à droite, les quatre chiffres du calendrier en bandeau sous les deux. Le
+ * texte engendré descend d'un cran, en deux colonnes (`.apstory`), là où il ne
+ * concurrence plus la bio ; sur un artiste sans bio il remonte au contraire dans la
+ * colonne de gauche, qui n'aurait sinon porté qu'un nom et trois pilules.
+ *
+ * Même `container-type` que `.ghero` et `.abt` : la carte est seule dans la colonne,
+ * mais son titre se dimensionne sur elle, donc sur la largeur qu'il a vraiment.
+ */
+.aphero {
+  position: relative; isolation: isolate; overflow: hidden; container-type: inline-size;
+  margin-top: 18px; padding: clamp(22px, 2.6vw, 40px);
+  border: 1px solid var(--line); border-radius: var(--r-xl); background: var(--anthracite);
+}
+.aphero::before {
+  content: ""; position: absolute; inset: -60% -10% auto -15%; height: 145%; z-index: -2;
+  background:
+    radial-gradient(42% 62% at 16% 8%, var(--violet), transparent 70%),
+    radial-gradient(38% 58% at 78% 0%, var(--magenta), transparent 72%);
+  opacity: .26; filter: blur(10px);
+}
+.aphero::after {
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: .45;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+  background-size: 54px 54px;
+  mask-image: radial-gradient(70% 80% at 22% 0%, #000 12%, transparent 74%);
+}
+.aphero-grid { display: grid; gap: 28px; align-items: start; }
+@container (min-width: 880px) {
+  .aphero-grid { grid-template-columns: minmax(0, 1.5fr) minmax(290px, .7fr); gap: 44px; }
+}
+.aphero-main { min-width: 0; }
+.aphero-id { display: flex; align-items: center; gap: 22px; }
+/* L'anneau dégradé, c'est ce que la vignette à initiale avait déjà (le rond est peint
+   en `--grad-main`) et que la vraie photo perdait : un portrait Commons duotoné sur
+   fond anthracite se fondait dans la carte. */
+.aphero-ring { flex: none; padding: 3px; border-radius: 50%; background: var(--grad-main); box-shadow: var(--glow-violet); }
+/* Le sélecteur d'enfant, et pas `.aphero-ring img, .aphero-ring .aphero-initial` :
+   à specificité plus haute, la taille commune l'aurait emporté sur le `display: grid`
+   de la vignette à initiale, qui ne centre alors plus sa lettre. */
+.aphero-ring > * { width: 124px; height: 124px; border-radius: 50%; }
+.aphero-ring img { display: block; object-fit: cover; object-position: center; background: var(--anthracite); }
+.aphero-initial { display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: 3rem; background: var(--grad-main); }
+.aphero-kicker {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+  font-family: var(--f-mono); font-size: .7rem; letter-spacing: .22em;
+  text-transform: uppercase; color: var(--grey-2);
+}
+.aphero-kicker i { font-style: normal; color: var(--cyan); }
+.aphero-name {
+  margin: 12px 0 0; font-family: var(--f-display); font-weight: 800;
+  letter-spacing: -.03em; line-height: .98; overflow-wrap: anywhere;
+  /* Repli d'abord, pour un navigateur qui ignore les unités de conteneur, */
+  font-size: clamp(1.9rem, 6vw, 3.7rem);
+  /* puis la vraie règle : la taille suit la largeur de la carte, pas celle de l'écran. */
+  font-size: clamp(1.9rem, 8.6cqi, 3.7rem);
+  background: linear-gradient(98deg, #fff 6%, #cfd2ff 46%, var(--magenta) 100%);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+/* Les genres remontent sous le nom : ils étaient rendus après le formulaire d'alerte,
+   donc après trois paragraphes, alors que c'est la première chose qu'on cherche sur
+   une fiche d'artiste. */
+.aphero-genres { margin-top: 18px; }
+.aphero-bio { margin-top: 20px; max-width: 64ch; color: var(--white); font-size: 1.02rem; line-height: 1.8; }
+.aphero-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)); gap: 10px; margin-top: 20px; }
+.aphero-facts > div { min-width: 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-md); background: rgba(255,255,255,.03); }
+.aphero-facts em { display: block; font-style: normal; font-family: var(--f-mono); font-size: .62rem; letter-spacing: .16em; text-transform: uppercase; color: var(--grey-3); }
+.aphero-facts b { display: block; margin-top: 4px; font-family: var(--f-display); font-weight: 600; font-size: .97rem; line-height: 1.3; color: var(--white); overflow-wrap: anywhere; }
+.aphero .artist-credits { max-width: 62ch; }
+.aphero-lead { margin-top: 20px; max-width: 66ch; }
+.aphero-lead p { color: var(--grey); font-size: 1rem; line-height: 1.8; }
+.aphero-lead p + p { margin-top: 12px; }
+.aphero-grid > .alert-form { margin-top: 0; align-self: start; }
+/* Le calendrier en quatre nombres. C'est ce que le paragraphe d'introduction dit déjà
+   en toutes lettres (il reste, il porte la requête) : ici c'est ce qu'on lit sans
+   lire, et ça donne au rail de droite autre chose qu'un formulaire posé seul. */
+.apstats { display: grid; grid-column: 1 / -1; grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); gap: 10px; }
+.apstats .stat { padding: 16px 16px 14px; }
+.apstats .stat b { font-size: 1.7rem; line-height: 1.05; }
+.apstats .stat span { display: block; margin-top: 4px; font-size: .76rem; line-height: 1.35; }
+.aphero-side .alert-form { margin-top: 0; }
+/* L'introduction et le contexte engendré : deux paragraphes, donc deux colonnes. En
+   pile, ils étaient deux blocs de gris de même taille qu'on lisait comme un seul texte
+   mal coupé, et chacun s'arrêtait à la moitié de la page. */
+.apstory { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 18px 40px; margin-top: 30px; }
+.apstory p { max-width: 66ch; color: var(--grey); font-size: 1rem; line-height: 1.8; }
+/* Sous 620 px de carte, le portrait passe au-dessus du nom. À côté de lui il ne restait
+   que 200 px pour le titre, et un nom un peu long s'y coupait en plein milieu d'un mot
+   (« Charlot / te de / Witte ») : c'est la largeur disponible qu'il faut rendre au
+   titre, pas la taille du texte qu'il faut réduire encore. */
+@container (max-width: 620px) {
+  .aphero-id { flex-direction: column; align-items: flex-start; gap: 16px; }
+  .aphero-ring > * { width: 92px; height: 92px; }
+  .aphero-initial { font-size: 2.2rem; }
+  .aphero-name { font-size: clamp(1.8rem, 11cqi, 2.6rem); }
+}
 
 /* ========================================================================
    SUIVI D'AUDIENCE (/suivi), private dashboard
@@ -1720,7 +1891,6 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 
 /* La bande de faits de la fiche artiste, même grammaire que sur les cartes de
    /artistes, un cran plus aéré parce qu'elle n'est pas dans une boîte. */
-.artist-facts { margin: 14px 0 4px; }
 
 /* =========================================================================
    STUDIO ORGANISATEUR & COMPTE PROMOTEUR

@@ -43,6 +43,9 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
   const genres = artistGenres(artist);
   const subs = artistSubGenres(artist);
   const countries = artist.countries.map((c) => countryLabel(c, lang)).join(", ");
+  // Les villes distinctes où il a joué ou va jouer, passé compris : c'est la portée de
+  // l'artiste, pas son agenda du moment, et ça ne se déduit pas de `live` seul.
+  const townCount = new Set(events.map((x) => x.city)).size;
   // Cities the artist plays that we actually have a page for, links the artist mesh
   // into the geographic mesh without pointing at routes that don't exist.
   const cities = PLACES.filter((pl) =>
@@ -91,111 +94,185 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
         <div className="wrap">
           <Breadcrumbs lang={lang} trail={trail} />
 
-          <div style={{ display: "flex", alignItems: "center", gap: 20, margin: "16px 0 10px" }}>
-            {photo ? (
-              // Duotone-normalised in avatars.py, so a studio headshot and an
-              // underexposed booth shot still sit together on the artists grid.
-              <img
-                className="avatar avatar-photo"
-                src={`/artists/${photo.file}`}
-                alt={t("artist.photoalt").replace("{name}", artist.name)}
-                width={400}
-                height={400}
-                loading="eager"
-                decoding="async"
-              />
-            ) : (
-              <div className="avatar">{artist.name.trim()[0]}</div>
-            )}
-            <div>
-              <h1 className="h-lg" style={{ margin: 0 }}>
-                {artist.name}
-              </h1>
-              {bio?.origin && <span className="artist-origin">{bio.origin}</span>}
-            </div>
-          </div>
-
-          {/* The researched bio when we have one; the generated sentence is a
-              fallback, not a substitute, it says nothing a reader can't already
-              see from the dates below. */}
-          {bio ? (
-            <>
-              <p className="lead artist-bio">{bioText(bio, lang)}</p>
-              {/* `since` et `labels` étaient recherchés, stockés… et affichés nulle part
-                  sur la fiche de l'artiste, seulement sur les douze cartes développées
-                  de /artistes. Une donnée vérifiée qu'on ne montre pas est du travail
-                  perdu, et c'est précisément ce qu'un lecteur cherche ici : d'où il
-                  vient, depuis quand, chez qui il sort ses disques. */}
-              {(bio.origin || bio.since || bio.labels?.length) && (
-                <div className="artcard-facts artist-facts">
-                  {bio.origin && (
-                    <span>
-                      <em>{t("artists.origin")}</em> {bio.origin}
+          {/* La tête de fiche. Elle était une pile de sept blocs de largeurs différentes
+              (portrait, titre, bio, faits, sources, crédit, deux paragraphes gris), tous
+              plafonnés bien avant le bord de la page. Ici, l'identité et ce qui est
+              sourcé tiennent la colonne de gauche, l'alerte celle de droite, et les
+              quatre chiffres du calendrier tiennent le bandeau du bas ; le texte
+              engendré descend d'un cran, sous la carte, où il ne concurrence plus la
+              bio. */}
+          <header className="aphero">
+            <div className="aphero-grid">
+              <div className="aphero-main">
+                <div className="aphero-id">
+                  <div className="aphero-ring">
+                    {photo ? (
+                      // Duotone-normalised in avatars.py, so a studio headshot and an
+                      // underexposed booth shot still sit together on the artists grid.
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      <img
+                        src={`/artists/${photo.file}`}
+                        alt={t("artist.photoalt").replace("{name}", artist.name)}
+                        width={400}
+                        height={400}
+                        loading="eager"
+                        decoding="async"
+                      />
+                    ) : (
+                      <div className="aphero-initial" aria-hidden="true">
+                        {artist.name.trim()[0]}
+                      </div>
+                    )}
+                  </div>
+                  <div style={{ minWidth: 0 }}>
+                    <span className="aphero-kicker">
+                      {t("artist.kind")}
+                      {bio?.origin && (
+                        <>
+                          <i>·</i>
+                          {bio.origin}
+                        </>
+                      )}
                     </span>
-                  )}
-                  {bio.since && (
-                    <span>
-                      <em>{t("artists.since")}</em> {bio.since}
-                    </span>
-                  )}
-                  {bio.labels && bio.labels.length > 0 && (
-                    <span>
-                      <em>{t("artists.labels")}</em> {bio.labels.join(", ")}
-                    </span>
-                  )}
+                    <h1 className="aphero-name">{artist.name}</h1>
+                  </div>
                 </div>
-              )}
-              <p className="artist-credits">
-                {t("artist.sources")}{" "}
-                {bio.sources.map((u, i) => (
-                  <span key={u}>
-                    {i > 0 && " · "}
-                    <a href={u} target="_blank" rel={outboundRel()}>
-                      {new URL(u).hostname.replace(/^www\./, "")}
-                    </a>
-                  </span>
-                ))}
-              </p>
-            </>
-          ) : null}
-          {/* Le crédit est la *condition* de réutilisation d'une photo CC BY, pas une
-              note de bas de page, il s'affiche donc dès qu'il y a une photo, y compris
-              quand l'artiste n'a pas de bio (il vivait dans le bloc des sources, et
-              disparaissait avec elles). */}
-          {photo && (
-            <p className="artist-credits">
-              {t(source ? "artist.photocredit" : "artist.photocreditnolink")
-                .replace("{author}", photo.author)
-                .replace("{license}", photo.license)}
-              {source && (
-                <>
-                  {" "}
-                  <a href={source.href} target="_blank" rel={outboundRel()}>
-                    {source.label}
-                  </a>
-                </>
-              )}
-            </p>
+
+                {/* Les genres joués, remontés sous le nom : ils étaient rendus après le
+                    formulaire d'alerte, donc après trois paragraphes, alors que c'est la
+                    première chose qu'on vient vérifier sur une fiche d'artiste. Un
+                    sous-genre n'a pas de page, donc pas de lien (règle `ARTIST_STYLES`). */}
+                {(genres.length > 0 || subs.length > 0) && (
+                  <div className="card-meta aphero-genres">
+                    {genres.map((g) => (
+                      <Link key={g} href={`${p}/genres/${genreSlug(g)}`} className="gpill">
+                        {g}
+                      </Link>
+                    ))}
+                    {subs.map((g) => (
+                      <span key={g} className="gpill gpill-sub">
+                        {g}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {/* La bio sourcée quand il y en a une. Sinon le texte engendré remonte
+                    ici : sur les mille sept cents artistes qui n'ont pas de bio, la
+                    colonne de gauche n'aurait porté qu'un nom et trois pilules, et la
+                    carte se serait ouverte sur un vide de la hauteur du rail de droite.
+                    Ce n'est pas un remplissage, c'est le même texte, une ligne plus
+                    haut, là où il est enfin le contenu principal de la fiche. */}
+                {bio ? (
+                  <p className="aphero-bio">{bioText(bio, lang)}</p>
+                ) : (
+                  <div className="aphero-lead">
+                    <p>{intro}</p>
+                    <p>{copy.context}</p>
+                  </div>
+                )}
+
+                {/* `since` et `labels` étaient recherchés, stockés… et affichés nulle part
+                    sur la fiche de l'artiste, seulement sur les douze cartes développées
+                    de /artistes. Une donnée vérifiée qu'on ne montre pas est du travail
+                    perdu, et c'est précisément ce qu'un lecteur cherche ici : d'où il
+                    vient, depuis quand, chez qui il sort ses disques. */}
+                {bio && (bio.origin || bio.since || bio.labels?.length) && (
+                  <div className="aphero-facts">
+                    {bio.origin && (
+                      <div>
+                        <em>{t("artists.origin")}</em>
+                        <b>{bio.origin}</b>
+                      </div>
+                    )}
+                    {bio.since && (
+                      <div>
+                        <em>{t("artists.since")}</em>
+                        <b>{bio.since}</b>
+                      </div>
+                    )}
+                    {bio.labels && bio.labels.length > 0 && (
+                      <div>
+                        <em>{t("artists.labels")}</em>
+                        <b>{bio.labels.join(", ")}</b>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {bio && (
+                  <p className="artist-credits">
+                    {t("artist.sources")}{" "}
+                    {bio.sources.map((u, i) => (
+                      <span key={u}>
+                        {i > 0 && " · "}
+                        <a href={u} target="_blank" rel={outboundRel()}>
+                          {new URL(u).hostname.replace(/^www\./, "")}
+                        </a>
+                      </span>
+                    ))}
+                  </p>
+                )}
+
+                {/* Le crédit est la *condition* de réutilisation d'une photo CC BY, pas une
+                    note de bas de page, il s'affiche donc dès qu'il y a une photo, y compris
+                    quand l'artiste n'a pas de bio (il vivait dans le bloc des sources, et
+                    disparaissait avec elles). */}
+                {photo && (
+                  <p className="artist-credits">
+                    {t(source ? "artist.photocredit" : "artist.photocreditnolink")
+                      .replace("{author}", photo.author)
+                      .replace("{license}", photo.license)}
+                    {source && (
+                      <>
+                        {" "}
+                        <a href={source.href} target="_blank" rel={outboundRel()}>
+                          {source.label}
+                        </a>
+                      </>
+                    )}
+                  </p>
+                )}
+              </div>
+
+              <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />
+
+              {/* Le calendrier en quatre nombres, sur toute la largeur de la carte : en
+                  colonne à droite, ils empilaient un rail plus haut que la colonne de
+                  gauche. Ils sortent tous des mêmes listes que les grilles plus bas, donc
+                  ils ne peuvent pas les contredire, et une case à zéro reste affichée,
+                  « aucune date à venir » est une réponse. */}
+              <div className="apstats">
+                  <div className="stat">
+                    <b>{live.length}</b>
+                    <span>{t("artist.upcoming")}</span>
+                  </div>
+                  <div className="stat">
+                    <b>{done.length}</b>
+                    <span>{t("artist.pastdates")}</span>
+                  </div>
+                  <div className="stat">
+                    <b>{townCount}</b>
+                    <span>{t("artist.cities")}</span>
+                  </div>
+                  <div className="stat">
+                    <b>{artist.countries.length}</b>
+                    <span>{t("artist.countries")}</span>
+                  </div>
+              </div>
+            </div>
+          </header>
+
+          {/* Deux paragraphes, donc deux colonnes : en pile, l'introduction et le
+              contexte engendré se lisaient comme un seul texte mal coupé, et chacun
+              s'arrêtait au tiers de la page. Sans bio, ils sont déjà rendus dans la
+              carte, les redoubler mettrait deux fois le même texte sur la page. */}
+          {bio && (
+            <div className="apstory">
+              <p>{intro}</p>
+              <p>{copy.context}</p>
+            </div>
           )}
-          <p className="lead">{intro}</p>
-          <p className="lead" style={{ fontSize: ".95rem" }}>
-            {copy.context}
-          </p>
-
-          <AlertForm lang={lang} kind="artist" value={artist.slug} label={artist.name} />
-
-          <div className="card-meta" style={{ marginTop: 16 }}>
-            {genres.map((g) => (
-              <Link key={g} href={`${p}/genres/${genreSlug(g)}`} className="gpill">
-                {g}
-              </Link>
-            ))}
-            {subs.map((g) => (
-              <span key={g} className="gpill gpill-sub">
-                {g}
-              </span>
-            ))}
-          </div>
 
           {/* Le compte de l'artiste, quand la recherche a pu l'attribuer sans ambiguïté.
               Un nom de scène peut cacher deux personnes, pas de compte plutôt qu'un
