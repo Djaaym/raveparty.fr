@@ -2,7 +2,7 @@ import type { Lang, RaveEvent } from "./types";
 /* `./display` et pas `./data` : module feuille, il ne doit jamais tirer le catalogue.
    Voir l'en-tête de display.ts. */
 import { eventVenueL, isMultiVenueLabel, lastDay, slugify } from "./display";
-import { HOTEL_AID, HOTEL_BRAND, HOTEL_PARTNER, HOTEL_URL_TEMPLATE } from "./site";
+import { HOTEL_AID, HOTEL_BRAND, HOTEL_CJ_CLICK, HOTEL_PARTNER, HOTEL_URL_TEMPLATE } from "./site";
 
 /**
  * Affiliation hôtel : le lien « où dormir » posé sous chaque fiche événement.
@@ -94,10 +94,8 @@ function trackingLabel(e: RaveEvent, lang: Lang): string {
  * naturel si les coordonnées ne lui plaisent pas. Le reste des paramètres est celui
  * d'avant, stable et documenté.
  */
-function bookingUrl(e: RaveEvent, lang: Lang, checkin: string, checkout: string): string {
+function bookingSearch(e: RaveEvent, lang: Lang, checkin: string, checkout: string): string {
   const q = new URLSearchParams({
-    aid: HOTEL_AID,
-    label: trackingLabel(e, lang),
     ss: `${e.city}, ${e.country}`,
     latitude: String(e.lat),
     longitude: String(e.lng),
@@ -110,6 +108,47 @@ function bookingUrl(e: RaveEvent, lang: Lang, checkin: string, checkout: string)
     lang: lang === "en" ? "en-gb" : "fr",
   });
   return `https://www.booking.com/searchresults.html?${q.toString()}`;
+}
+
+/**
+ * La même recherche, identifiée par un `aid` Booking en direct.
+ *
+ * Ne sert plus qu'à un compte historique : Booking.com ne délivre plus d'`aid` en
+ * self-service, sa page de programme renvoie sur CJ. Le mode reste parce qu'un `aid`
+ * déjà obtenu continue de fonctionner, et parce qu'il coûte quatre lignes.
+ */
+function bookingDirectUrl(e: RaveEvent, lang: Lang, checkin: string, checkout: string): string {
+  const q = new URLSearchParams({ aid: HOTEL_AID, label: trackingLabel(e, lang) });
+  return `${bookingSearch(e, lang, checkin, checkout)}&${q.toString()}`;
+}
+
+/**
+ * La même recherche, encapsulée dans un lien de clic CJ Affiliate.
+ *
+ * C'est la seule route ouverte pour Booking aujourd'hui : leur page de programme dit
+ * « Inscrivez-vous via nos réseaux affiliés officiels » et pointe sur CJ (vérifié).
+ *
+ * **Ni `aid` ni `label` dans la destination**, et ce n'est pas un oubli : CJ les
+ * ajoute lui-même à la redirection (`aid=818286` et un `label` de la forme
+ * `affnetcj-…_pub-…_site-…_clkid-{sid}_cjevent-…`). En poser une seconde paire ferait
+ * deux `label` dans l'URL finale, et rien ne dit lequel Booking retient. Notre suivi
+ * par événement passe donc par `sid`, mesuré : il ressort en `_clkid-rp-fr-ev777`.
+ *
+ * **`cjevent` est engendré au moment du clic** par la chaîne de redirection, il ne se
+ * fabrique pas : c'est la raison pour laquelle on ne peut pas court-circuiter CJ en
+ * recopiant un `label` déjà vu dans une URL construite à la main.
+ *
+ * Le lien de clic doit porter une annonce **profonde**. Sur une bannière, `url=` est
+ * ignoré et le lecteur atterrit sur la page d'accueil de Booking, ce qui vide le bloc
+ * de son intérêt (l'attribution Booking est à la session : il faut pouvoir réserver
+ * dans la foulée du clic, pas refaire la recherche que la fiche connaissait déjà).
+ */
+function cjUrl(e: RaveEvent, lang: Lang, checkin: string, checkout: string): string {
+  const q = new URLSearchParams({
+    url: bookingSearch(e, lang, checkin, checkout),
+    sid: trackingLabel(e, lang),
+  });
+  return `${HOTEL_CJ_CLICK}${HOTEL_CJ_CLICK.includes("?") ? "&" : "?"}${q.toString()}`;
 }
 
 /**
@@ -187,8 +226,11 @@ export function hotelStay(e: RaveEvent, lang: Lang): HotelStay | null {
 
   const near = centredOn(e, lang);
 
+  if (HOTEL_PARTNER === "cj" && HOTEL_CJ_CLICK) {
+    return { url: cjUrl(e, lang, checkin, checkout), checkin, checkout, nights, brand: HOTEL_BRAND, near };
+  }
   if (HOTEL_PARTNER === "booking" && HOTEL_AID) {
-    return { url: bookingUrl(e, lang, checkin, checkout), checkin, checkout, nights, brand: HOTEL_BRAND, near };
+    return { url: bookingDirectUrl(e, lang, checkin, checkout), checkin, checkout, nights, brand: HOTEL_BRAND, near };
   }
   if (HOTEL_PARTNER === "template" && HOTEL_URL_TEMPLATE) {
     return { url: templateUrl(e, lang, checkin, checkout, nights), checkin, checkout, nights, brand: HOTEL_BRAND, near };
