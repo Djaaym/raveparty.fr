@@ -3,8 +3,9 @@
 # Il n'y avait aucune CI, aucun test, et quatre garde-fous maison branchés sur rien :
 # `check:fresh` (qui empêche la page d'accueil d'afficher une édition terminée),
 # `check:titles`, `check:rel` (qui empêche de publier un lien rémunéré non déclaré,
-# ce qui est une infraction aux règles de Google) et `audit.py` (intégrité du
-# catalogue). Ils ne tournaient que si quelqu'un pensait à les lancer.
+# ce qui est une infraction aux règles de Google), `check:hotels` (les coordonnées
+# sur lesquelles le lien hôtel est centré) et `audit.py` (intégrité du catalogue).
+# Ils ne tournaient que si quelqu'un pensait à les lancer.
 #
 # Ce fichier n'écrit aucun test : il exécute ce qui existe déjà et qui protège
 # précisément les règles que le projet a payées une fois chacune.
@@ -57,6 +58,13 @@ jobs:
 
       - name: Mises en avant (aucune édition terminée)
         run: npm run check:fresh
+
+      # Une coordonnée fausse ne se voit plus nulle part sur le site depuis que le lien
+      # hôtel est centré dessus : la fiche affiche la bonne ville et la carte du lieu est
+      # trop zoomée pour qu'un décalage de pays se remarque. Elle propose pourtant des
+      # hôtels à 400 km. C'est le seul défaut du catalogue qu'aucun autre contrôle ne voit.
+      - name: Coordonnées (lien hôtel)
+        run: npm run check:hotels
 
       # L'audit du catalogue est en Python et vit dans `.research/`, hors de l'app :
       # il lit `lib/data.ts` au motif, sans rien installer.

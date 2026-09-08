@@ -147,6 +147,7 @@ jobs:
           npm ci
           npx tsc --noEmit
           npm run check:titles && npm run check:rel && npm run check:fresh
+          npm run check:hotels
           npm run build
 
       - name: Ouvrir la pull request
