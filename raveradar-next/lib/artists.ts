@@ -114,7 +114,12 @@ export function artistSubGenres(a: Artist): string[] {
 /** D'où vient l'attribution, quand il y en a une (pour l'audit, pas pour l'affichage). */
 export const artistStyleSource = (slug: string): string | undefined => ARTIST_STYLES[slug]?.src;
 
-export const artistBySlug = (slug: string): Artist | undefined => ARTISTS.find((a) => a.slug === slug);
+/* Index par slug, monté une fois. `artistBySlug()` est appelé au moins une fois par
+   fiche, et un `.find()` parcourt les 6 035 artistes à chaque appel : sur les 12 360
+   fiches du build, c'est 37 millions de comparaisons pour retrouver une entrée dont
+   la clé est déjà l'identifiant. */
+const BY_SLUG = new Map(ARTISTS.map((a) => [a.slug, a]));
+export const artistBySlug = (slug: string): Artist | undefined => BY_SLUG.get(slug);
 
 /**
  * Cet artiste a-t-il une page ?
@@ -132,8 +137,36 @@ export const artistBySlug = (slug: string): Artist | undefined => ARTISTS.find((
 const ARTIST_SLUGS = new Set(ARTISTS.map((a) => a.slug));
 export const hasArtistPage = (slug: string): boolean => ARTIST_SLUGS.has(slug);
 
+/**
+ * Index slug -> dates, monté une fois, sur la règle exacte du filtre qu'il remplace.
+ *
+ * `eventsForArtist()` rebalayait les 2 053 événements et re-normalisait les 8 948 noms
+ * de line-up **à chaque appel**, soit une centaine de millions d'appels à `slugify()`
+ * sur les 12 360 fiches artistes que le build rend. C'est le même travail que
+ * `buildArtists()` vient de faire, avec la même normalisation, jeté puis refait.
+ *
+ * Le `Set` par événement dédoublonne les line-ups où deux graphies d'un même nom se
+ * suivent (« KRUELTY » et « Kruelty ») : `some()` ne rendait la date qu'une fois, une
+ * liste construite par ajouts la rendrait deux.
+ */
+const EVENTS_BY_ARTIST = (() => {
+  const m = new Map<string, RaveEvent[]>();
+  for (const e of EVENTS) {
+    const seen = new Set<string>();
+    for (const raw of e.lineup) {
+      const s = slugify(raw.trim());
+      if (!s || seen.has(s)) continue;
+      seen.add(s);
+      const l = m.get(s);
+      if (l) l.push(e);
+      else m.set(s, [e]);
+    }
+  }
+  return m;
+})();
+
 export const eventsForArtist = (slug: string): RaveEvent[] =>
-  upcomingFirst(EVENTS.filter((e) => e.lineup.some((n) => slugify(n.trim()) === slug)));
+  upcomingFirst(EVENTS_BY_ARTIST.get(slug) ?? []);
 
 /**
  * Les artistes proches, pour le bloc « À découvrir aussi ».
@@ -145,11 +178,40 @@ export const eventsForArtist = (slug: string): RaveEvent[] =>
  * retenus, et on classe sur le nombre de genres partagés avant le volume de dates.
  */
 export const relatedArtists = (a: Artist, limit = 6): Artist[] => {
-  const mine = new Set(artistGenres(a));
-  return ARTISTS.filter((x) => x.slug !== a.slug)
-    .map((x) => ({ x, shared: artistGenres(x).filter((g) => mine.has(g)).length }))
-    .filter((r) => r.shared > 0)
-    .sort((r, s) => s.shared - r.shared || s.x.eventIds.length - r.x.eventIds.length)
-    .slice(0, limit)
-    .map((r) => r.x);
+  const mine = artistGenres(a);
+  if (!mine.length) return [];
+  const set = new Set(mine);
+  /* Un compartiment par nombre de genres partagés, plutôt qu'un tri général.
+     Le score est borné par le nombre de genres de l'artiste (onze au plus, la
+     taille de `GENRES`), alors que la liste à trier, elle, compte des milliers
+     de noms : ordonner tout le catalogue pour n'en garder douze coûtait, sur les
+     12 360 fiches du build, des centaines de millions de comparaisons et autant
+     d'objets intermédiaires alloués puis jetés.
+     L'ordre rendu ne change pas : les compartiments sont parcourus du score le
+     plus élevé au plus faible, et chacun est classé sur le volume de dates,
+     exactement les deux critères du tri d'origine. */
+  const buckets: Artist[][] = Array.from({ length: mine.length + 1 }, () => []);
+  for (const x of ARTISTS) {
+    if (x.slug === a.slug) continue;
+    // On parcourt `set`, pas les genres de x : le compte est ainsi borné par le
+    // nombre de compartiments, qu'une éventuelle répétition côté x ferait sinon
+    // déborder. Le résultat est le même, c'est la taille de l'intersection.
+    const gx = artistGenres(x);
+    let shared = 0;
+    for (const g of set) if (gx.includes(g)) shared++;
+    if (shared) buckets[shared].push(x);
+  }
+  const out: Artist[] = [];
+  for (let s = buckets.length - 1; s > 0 && out.length < limit; s--) {
+    const b = buckets[s];
+    if (!b.length) continue;
+    // `sort` est stable depuis ES2019, donc à score et volume égaux l'ordre reste
+    // celui d'`ARTISTS`, comme avec le tri unique qu'on remplace.
+    b.sort((p, q) => q.eventIds.length - p.eventIds.length);
+    for (const x of b) {
+      if (out.length >= limit) break;
+      out.push(x);
+    }
+  }
+  return out;
 };
