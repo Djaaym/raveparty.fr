@@ -195,9 +195,24 @@ ce que ce bloc existe pour éviter, l'attribution Booking étant **à la session
 lecteur doit pouvoir réserver dans la foulée du clic, et une home vide lui demande de
 refaire la recherche que la fiche connaissait déjà.
 
-Le deep-link **est** disponible sur ce programme, la fiche CJ de Booking l'annonce en
-toutes lettres (« Access marketing tools, banners, and deep links »). Il s'obtient par
-le *Deep Link Generator* (§ 1a), qui rend une annonce d'un autre type, acceptant `url=`.
+**Toutes les annonces d'un même annonceur ne se valent pas, et c'est là qu'était la
+réponse.** Les bannières logo ignorent `url=` ; une annonce dont la fiche CJ montre un
+champ **« URL de destination » modifiable** l'honore. Vérifié sur l'annonce 17322580
+(*Taxi Homepage*) du même annonceur 4347393 : la recherche passée en `url=` arrive
+intacte, avec `aid=818286` et
+`label=affnetcj-17322580_pub-8058263_site-101873318_pname-Raveparty_clkid-{sid}_cjevent-…`.
+
+Pour en trouver une : **Campagnes → Liens et produits**, puis la case
+**« Liens profonds uniquement »** dans la colonne de filtres à gauche. Les 89 créations
+de l'annonceur se réduisent alors à celles qui acceptent une destination. On ne se sert
+ni de la bannière ni du champ « URL de destination » : seul compte l'identifiant de
+l'annonce, que le code place dans `HOTEL_CJ_CLICK`.
+
+Le *Deep Link Generator* (le bookmarklet, § 1a) répond, lui, « No active relationship
+with this advertiser » tant qu'on n'est pas inscrit chez l'annonceur qui **détient le
+domaine** `www.booking.com`, qui n'est pas forcément celui dont on utilise les liens.
+Ce message ne dit donc pas que le deep-link est fermé, et ne pas le croire sur ce
+point-là a coûté un aller-retour.
 
 Trois détails à ne pas réapprendre.
 
