@@ -434,6 +434,15 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 {!done && <ShareRow lang={lang} id={e.id} title={e.title} />}
               </div>
 
+
+              {/* « J'ai mon billet » appelle « je dors où » : le lien hôtel suit
+                  immédiatement la billetterie, dans la même colonne et à la même
+                  largeur. Il vivait en pleine largeur sous la carte du lieu, où il se
+                  lisait comme une section de contenu alors que c'est un appel à
+                  l'action. Jamais sur une édition terminée, proposer un hôtel pour une
+                  nuit passée n'a aucun sens, et c'est la règle des blocs de mise en
+                  avant. */}
+              {!done && <HotelsCard e={e} lang={lang} today={today} />}
             </aside>
 
             <div className="event-place">
@@ -442,20 +451,6 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 <MiniMap lat={e.lat} lng={e.lng} />
               </div>
             </div>
-
-            {/* « C'est où » appelle « et je dors où » : le lien hôtel prend la place à
-                droite de la carte du lieu, dans la colonne des appels à l'action, et
-                non plus en pleine largeur sous elle où il se lisait comme une section
-                de contenu. Une rangée à lui plutôt que la suite du rail des billets :
-                empilé sous eux, il passait sous la ligne de flottaison d'un rail
-                épinglé, donc son bouton n'était atteignable qu'en faisant défiler le
-                rail lui-même. Jamais sur une édition terminée, proposer un hôtel pour
-                une nuit passée n'a aucun sens. */}
-            {!done && (
-              <div className="event-stay">
-                <HotelsCard e={e} lang={lang} today={today} />
-              </div>
-            )}
           </div>
 
           {guide && <FestivalGuide guide={guide} e={e} lang={lang} today={today} />}
