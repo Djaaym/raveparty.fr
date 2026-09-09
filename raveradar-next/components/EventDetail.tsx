@@ -366,7 +366,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
               {/* « C'est où » appelle « et je dors où ». Jamais sur une édition
                   terminée : proposer un hôtel pour une nuit passée n'a aucun sens,
                   et c'est la même règle que les blocs de mise en avant. */}
-              {!done && <HotelsCard e={e} lang={lang} />}
+              {!done && <HotelsCard e={e} lang={lang} today={today} />}
             </div>
 
             <aside>
