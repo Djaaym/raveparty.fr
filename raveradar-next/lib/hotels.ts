@@ -1,7 +1,7 @@
 import type { Lang, RaveEvent } from "./types";
 /* `./display` et pas `./data` : module feuille, il ne doit jamais tirer le catalogue.
    Voir l'en-tête de display.ts. */
-import { eventVenueL, isMultiVenueLabel, lastDay, slugify } from "./display";
+import { eventVenueL, isMultiVenueLabel, lastDay, slugify, todayISO } from "./display";
 import { HOTEL_AID, HOTEL_BRAND, HOTEL_CJ_CLICK, HOTEL_PARTNER, HOTEL_URL_TEMPLATE } from "./site";
 
 /**
@@ -218,10 +218,32 @@ function templateUrl(e: RaveEvent, lang: Lang, checkin: string, checkout: string
   );
 }
 
-/** La recherche d'hôtels correspondant aux nuits de cet événement, ou `null` si aucun partenaire n'est configuré. */
-export function hotelStay(e: RaveEvent, lang: Lang): HotelStay | null {
-  const checkin = e.date;
+/**
+ * La recherche d'hôtels correspondant aux nuits de cet événement, ou `null` si aucun
+ * partenaire n'est configuré.
+ *
+ * **L'arrivée ne peut pas être dans le passé, et un festival de huit jours le prouve.**
+ * Le premier jour de l'événement était pris tel quel, ce qui est juste tant que
+ * l'événement n'a pas commencé. Pendant qu'il tourne, ça ne l'est plus : SUNANDBASS
+ * court du 5 au 12 septembre, donc le 9 la fiche est bien « à venir » (`isPast()` lit
+ * le dernier jour) mais le lien proposait `checkin=2026-09-05`. Booking refuse une date
+ * d'arrivée passée et réinitialise la recherche, c'est-à-dire qu'il rend exactement la
+ * page d'accueil vide que le bloc existe pour éviter. L'arrivée est donc le plus tardif
+ * du premier jour et du jour de référence, et le séjour se recalcule dessus (quatre
+ * nuits restantes, pas huit).
+ *
+ * `today` est un paramètre pour la même raison que dans les trois portes de mise en
+ * avant de `lib/data.ts` : la page appelle `todayISO()` une fois et tous ses blocs
+ * s'accordent. Le défaut existe pour les appelants qui n'ont pas de jour de référence
+ * sous la main.
+ */
+export function hotelStay(e: RaveEvent, lang: Lang, today = todayISO()): HotelStay | null {
+  const checkin = e.date > today ? e.date : today;
   const checkout = shiftDay(lastDay(e), 1);
+  /* Une édition terminée n'a plus de nuit à vendre, et `nightsBetween()` la ramènerait
+     à 1 en silence. Les appelants ne rendent pas le bloc dans ce cas ; ce garde-fou est
+     là pour que la règle vive avec le calcul plutôt que dans le composant. */
+  if (checkout <= checkin) return null;
   const nights = nightsBetween(checkin, checkout);
 
   const near = centredOn(e, lang);

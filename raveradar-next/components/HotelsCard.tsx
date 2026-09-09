@@ -30,8 +30,11 @@ import { getDict } from "@/lib/i18n";
  * Ne se rend pas si aucun partenaire n'est configuré, et l'appelant ne le rend pas
  * sur une édition terminée.
  */
-export default function HotelsCard({ e, lang }: { e: RaveEvent; lang: Lang }) {
-  const stay = hotelStay(e, lang);
+export default function HotelsCard({ e, lang, today }: { e: RaveEvent; lang: Lang; today?: string }) {
+  /* `today` vient de la page, qui l'a déjà calculé pour ses autres blocs : une fiche
+     dont le bandeau « édition terminée » et le lien hôtel liraient deux jours différents
+     se contredirait à la minute près, à un changement de jour. */
+  const stay = hotelStay(e, lang, today);
   if (!stay) return null;
 
   const t = getDict(lang);
