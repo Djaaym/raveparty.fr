@@ -218,7 +218,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
           )}
 
           <div className="event-layout">
-            <div>
+            <div className="event-main">
               {guide ? (
                 <div className="info-card">
                   <h2 className="h-md">{t("event.about")}</h2>
@@ -358,18 +358,13 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                   l'affiche du jour et le line-up complet, et ça reste chez lui. */}
               {social && <SocialsCard s={social.s} lang={lang} owner={social.from} ownerName={social.name} />}
 
-              <div className="info-card">
-                <h2 className="h-md">{t("event.location")}</h2>
-                <MiniMap lat={e.lat} lng={e.lng} />
-              </div>
-
-              {/* « C'est où » appelle « et je dors où ». Jamais sur une édition
-                  terminée : proposer un hôtel pour une nuit passée n'a aucun sens,
-                  et c'est la même règle que les blocs de mise en avant. */}
-              {!done && <HotelsCard e={e} lang={lang} today={today} />}
             </div>
 
-            <aside>
+            {/* La colonne de droite porte les décisions, la gauche le contenu. Sur
+                mobile elle remonte juste après le texte, avant la carte du lieu
+                (`order` dans la requête média) : billets, puis « je dors où », puis
+                « c'est où ». */}
+            <aside className="event-side">
               <div className="ticket-box">
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <span className="eyebrow">{t("event.tickets")}</span>
@@ -438,7 +433,29 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                     site. Sur une édition terminée ils n'ont plus d'objet. */}
                 {!done && <ShareRow lang={lang} id={e.id} title={e.title} />}
               </div>
+
             </aside>
+
+            <div className="event-place">
+              <div className="info-card">
+                <h2 className="h-md">{t("event.location")}</h2>
+                <MiniMap lat={e.lat} lng={e.lng} />
+              </div>
+            </div>
+
+            {/* « C'est où » appelle « et je dors où » : le lien hôtel prend la place à
+                droite de la carte du lieu, dans la colonne des appels à l'action, et
+                non plus en pleine largeur sous elle où il se lisait comme une section
+                de contenu. Une rangée à lui plutôt que la suite du rail des billets :
+                empilé sous eux, il passait sous la ligne de flottaison d'un rail
+                épinglé, donc son bouton n'était atteignable qu'en faisant défiler le
+                rail lui-même. Jamais sur une édition terminée, proposer un hôtel pour
+                une nuit passée n'a aucun sens. */}
+            {!done && (
+              <div className="event-stay">
+                <HotelsCard e={e} lang={lang} today={today} />
+              </div>
+            )}
           </div>
 
           {guide && <FestivalGuide guide={guide} e={e} lang={lang} today={today} />}

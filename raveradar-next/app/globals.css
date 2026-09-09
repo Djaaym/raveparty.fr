@@ -148,6 +148,12 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 .gradient-text { background: var(--grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
+/* Un élément flex refuse de descendre sous la largeur de son contenu tant qu'on ne le
+   lui dit pas : « Événements à venir par pays » sortait de 37 px à 320 px de large,
+   titre et colonne compris. Même piège que `.foldbox > summary > .h-md` et que la
+   piste `1fr` de `.artist-grid`, et il se paie toujours au même endroit, un titre
+   long dans une boîte étroite. */
+.section-head > * { min-width: 0; }
 
 /* ----------------------------- NAV ------------------------------------- */
 .nav {
@@ -251,6 +257,12 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 800; line-height: 1.02;
 }
 .hero-badge .live { width: 8px; height: 8px; border-radius: 50%; background: var(--acid); box-shadow: 0 0 10px var(--acid); animation: pulse 1.6s infinite; }
 .hero h1 { margin-bottom: 22px; }
+/* Le plancher de `.h-xl` (2,8 rem) ne tient pas compte de la largeur : « Prochaine »
+   mesure 358 px à cette taille, pour 280 px utiles sur un écran de 320. Un mot de neuf
+   lettres ne peut pas se replier, c'est donc la taille qui cède, exactement comme pour
+   le h1 de `/genres/{style}` où « Warehouse » débordait. Au-delà de 430 px le plancher
+   tient dans la colonne et la règle ne s'applique plus. */
+@media (max-width: 430px) { .hero h1 { font-size: clamp(1.9rem, 10.5vw, 2.8rem); } }
 .hero h1 .stroke {
   -webkit-text-stroke: 1.5px var(--violet); color: transparent;
   text-shadow: var(--glow-violet);
@@ -628,6 +640,17 @@ select.input option { background: var(--anthracite); }
 .event-hero-meta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
 .event-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 40px; margin-top: 48px; align-items: start; }
 .event-layout > * { min-width: 0; }
+/* Quatre zones plutôt qu'une colonne de texte et un rail, parce que deux blocs de la
+   fiche ne sont ni du contenu ni de la billetterie : la carte du lieu et le lien hôtel.
+   Rangée 1, le texte et les billets ; rangée 2, « c'est où » à gauche et « je dors où »
+   à droite, l'un en face de l'autre. Le découpage sert deux fois : il met le lien hôtel
+   dans la colonne des appels à l'action sur desktop, et il donne sur mobile quatre
+   éléments qu'un simple `order` range dans l'ordre des décisions (voir plus bas), ce
+   qu'une colonne unique ne permettait pas. */
+.event-layout > .event-main { grid-column: 1; grid-row: 1; }
+.event-layout > .event-side { grid-column: 2; grid-row: 1; }
+.event-layout > .event-place { grid-column: 1; grid-row: 2; }
+.event-layout > .event-stay { grid-column: 2; grid-row: 2; }
 .lineup { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr)); gap: 12px; }
 .artist { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite-2); transition: border-color .3s, transform .3s, box-shadow .3s; cursor: pointer; color: inherit; }
 .artist:hover { border-color: var(--magenta); transform: translateY(-2px); box-shadow: var(--glow-magenta); }
@@ -657,7 +680,15 @@ select.input option { background: var(--anthracite); }
 .foldbox-card > .foldbox-sum { margin-bottom: 16px; }
 .foldbox > summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 12px; }
 .foldbox > summary::-webkit-details-marker { display: none; }
-.foldbox > summary > .h-md { flex: none; }
+/* `flex: none` fixait la base du titre sur son **max-content** : « Questions fréquentes
+   sur FCKNYE Festival » ne se repliait donc jamais et sortait de l'écran, avec le
+   chevron poussé hors de vue et une page qui défilait vers la droite. La règle
+   n'existait que pour empêcher le titre de s'étirer entre le compteur et le chevron,
+   ce que `flex: 0 1 auto` fait déjà (le titre garde sa largeur tant qu'elle tient, et
+   cède quand elle ne tient plus). `min-width: 0` est la moitié qui manque : sans lui
+   un élément flex refuse de descendre sous son contenu, c'est le même piège que la
+   piste `1fr` de `.artist-grid`. */
+.foldbox > summary > .h-md { flex: 0 1 auto; min-width: 0; overflow-wrap: break-word; }
 .foldbox-count { font-size: .8rem; color: var(--grey); font-family: var(--f-mono); white-space: nowrap; }
 /* Sous 400 px, « 52 artistes » se cassait en deux lignes et le résumé passait de
    40 à 57 px de haut, c'est-à-dire un repli qui prend la place qu'il économise.
@@ -851,9 +882,29 @@ select.input option { background: var(--anthracite); }
 .hotel-facts > div { min-width: 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: var(--r-md); background: var(--anthracite-2); }
 .hotel-facts em { display: block; font-style: normal; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .16em; text-transform: uppercase; color: var(--grey-2); margin-bottom: 5px; }
 .hotel-facts b { font-family: var(--f-display); font-size: .95rem; overflow-wrap: anywhere; }
-.hotel-cta { margin-top: 2px; }
+/* Le libellé porte le nom de la salle (« Voir les hôtels près de Brussels Expo / ING
+   Arena »), donc sa longueur est celle d'une donnée, pas d'un mot d'interface : le
+   `white-space: nowrap` de `.btn` le faisait déborder de son propre bouton, de 27 px
+   dans la colonne de droite et davantage sur un téléphone. Le texte cède, jamais la
+   boîte. */
+.hotel-cta { margin-top: 2px; white-space: normal; line-height: 1.25; padding-block: 13px; }
 .hotel-note { margin-top: 12px; font-size: .76rem; color: var(--grey-2); max-width: 62ch; }
 @media (max-width: 520px) { .hotel-facts { grid-template-columns: 1fr; } }
+/* Dans la colonne de droite, le bloc n'est plus une section de contenu mais un appel à
+   l'action de la largeur de la billetterie : les trois repères passent donc en lignes
+   libellé / valeur, comme `.ticket-row`, une grille de trois colonnes n'ayant plus de
+   quoi tenir dans 360 px. Le même rendu sert sur mobile, où trois cases côte à côte
+   n'avaient pas plus de place. */
+.event-stay .hotel-card { margin-bottom: 0; padding: 18px; }
+.event-stay .hotel-card h2 { font-size: 1.08rem; line-height: 1.15; }
+.event-stay .hotel-lead { font-size: .8rem; }
+.event-stay .hotel-facts { display: block; margin: 12px 0 14px; }
+.event-stay .hotel-facts > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  border: 0; border-bottom: 1px solid var(--line-soft); border-radius: 0; background: none; padding: 7px 0; }
+.event-stay .hotel-facts > div:last-child { border-bottom: 0; }
+.event-stay .hotel-facts em { margin-bottom: 0; }
+.event-stay .hotel-facts b { font-size: .9rem; text-align: right; }
+.event-stay .hotel-note { font-size: .7rem; margin-top: 10px; }
 .divider { height: 1px; background: var(--line-soft); margin-block: 40px; }
 
 /* ----------------------------- FORMS / ORGANIZER ----------------------- */
@@ -950,6 +1001,20 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 @media (max-width: 1024px) {
   .explore-layout, .map-layout, .event-layout { grid-template-columns: 1fr; }
   .filters, .ticket-box, .map-list { position: static; }
+  /* Sur une colonne, l'ordre du DOM mettait la billetterie **après** la carte du lieu
+     et le lien hôtel, donc après tout ce qu'on lit avant de décider. L'ordre des
+     décisions est billets, puis « je dors où », puis « c'est où » : quatre `order`,
+     rendus possibles par le découpage en quatre zones. La remise en une seule colonne
+     doit reprendre chaque sélecteur, un `.event-layout > *` serait moins spécifique
+     que les placements ci-dessus et ne les défairait pas. */
+  .event-layout > .event-main,
+  .event-layout > .event-side,
+  .event-layout > .event-stay,
+  .event-layout > .event-place { grid-column: 1; grid-row: auto; }
+  .event-layout > .event-main { order: 0; }
+  .event-layout > .event-side { order: 1; }
+  .event-layout > .event-stay { order: 2; }
+  .event-layout > .event-place { order: 3; }
   .map-list { flex-direction: row; max-height: none; overflow-x: auto; }
   .mini { min-width: 240px; }
 }
