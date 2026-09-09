@@ -276,11 +276,11 @@ export function eventCopy(e: RaveEvent, lang: Lang, opts: { next?: RaveEvent; to
     lang === "fr"
       ? [
           `Où se déroule ${e.title} ?`,
-          `À ${wherePhrase(e, lang)}. La fiche affiche la carte du lieu et, juste en dessous, une recherche d'hébergement aux dates de l'événement.`,
+          `À ${wherePhrase(e, lang)}. La fiche affiche la carte du lieu et, avec elle, une recherche d'hébergement aux dates de l'événement.`,
         ]
       : [
           `Where is ${e.title} held?`,
-          `At ${wherePhrase(e, lang)}. This page shows the venue on a map and, just below it, a place-to-stay search matched to the event dates.`,
+          `At ${wherePhrase(e, lang)}. This page shows the venue on a map, alongside a place-to-stay search matched to the event dates.`,
         ],
   );
 
