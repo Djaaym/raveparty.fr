@@ -1,1010 +1,1009 @@
 [
-  {
-    "title": "Iceland Airwaves",
-    "type": "Festival",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Reykjavik",
-    "country": "Iceland",
-    "lat": 64.14906,
-    "lng": -21.94044,
-    "date": "2026-11-05",
-    "endDate": "2026-11-07",
-    "time": "20:00",
-    "price": 7900,
-    "currency": "ISK",
-    "venue": "Reykjavik Art Museum",
-    "trending": true,
-    "lineup": [
-      "Shygirl",
-      "The Streets",
-      "Skeler",
-      "Heartworms",
-      "Jamie Woon",
-      "MAMMUT",
-      "Dadi Freyr",
-      "Arny Margret",
-      "RAKEL",
-      "Andervel"
-    ],
-    "desc": "Depuis 1999, Iceland Airwaves occupe une quinzaine de salles du centre de Reykjavik pendant trois jours, du Reykjavik Art Museum a Gamla Bio et Idno. La programmation melange decouvertes islandaises et invites internationaux, avec une part electronique importante autour de Skeler et Shygirl. L'edition 2026 est annoncee du 5 au 7 novembre, avec des concerts speciaux les 4 et 8 novembre a Harpa et a l'hotel de ville.",
-    "descEn": "Running since 1999, Iceland Airwaves takes over around fifteen venues in downtown Reykjavik for three days, from the Reykjavik Art Museum to Gamla Bio and Idno. The bill mixes Icelandic discoveries with international guests and carries a strong electronic strand around Skeler and Shygirl. The 2026 edition runs 5 to 7 November, with standalone shows on 4 and 8 November at Harpa and City Hall.",
-    "ticketUrl": "https://tix.is/en/event/20516/iceland-airwaves-2026",
-    "sources": [
-      "https://icelandairwaves.is/",
-      "https://tix.is/en/event/20516/iceland-airwaves-2026",
-      "https://icelandairwaves.is/venues/"
-    ],
-    "note": "Salle principale retenue : Reykjavik Art Museum (Listasafn Reykjavikur, Hafnarhus), Tryggvagata 17, 101 Reykjavik, Islande. Coordonnees Nominatim sur Tryggvagata 17. Le festival est eclate sur une quinzaine de salles du centre. Tarif 7900 ISK = pass le moins cher annonce sur tix.is. Heure de debut du programme indicative."
-  },
-  {
-    "title": "Insomnia Festival",
-    "type": "Festival",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Tromso",
-    "country": "Norway",
-    "lat": 69.64598,
-    "lng": 18.95078,
-    "date": "2026-10-14",
-    "endDate": "2026-10-18",
-    "time": "18:00",
-    "price": 650,
-    "currency": "NOK",
-    "venue": "Bryggeriet Scene",
-    "trending": false,
-    "lineup": [
-      "Terrence Dixon",
-      "D.K.",
-      "Dame Area",
-      "Maara",
-      "Maria W Horn",
-      "DJ Travella",
-      "Rolando Simmons",
-      "DJ Hulluella",
-      "Mattin",
-      "Heith",
-      "AVIAJA",
-      "Oriana"
-    ],
-    "desc": "Insomnia fete sa 25e edition a Tromso, au-dela du cercle polaire, du 14 au 18 octobre 2026. Le festival melange concerts, sets DJ, seminaires et installations, avec Bryggeriet Scene pour salle principale. Terrence Dixon, Dame Area et DJ Travella figurent parmi les noms annonces.",
-    "descEn": "Insomnia celebrates its 25th edition in Tromso, above the Arctic Circle, from 14 to 18 October 2026. The festival mixes live concerts, DJ sets, seminars and installations, with Bryggeriet Scene as its main venue. Terrence Dixon, Dame Area and DJ Travella are among the announced names.",
-    "ticketUrl": "https://insomnia.antitickets.com/event/insomnia-festival-2026",
-    "sources": [
-      "https://insomniafestival.no/",
-      "https://insomnia.antitickets.com/event/insomnia-festival-2026",
-      "https://insomniafestival.no/editions/lineup-2026/"
-    ],
-    "note": "Adresse : Bryggeriet Scene, Storgata 6, 9008 Tromso, Norvege. Coordonnees Nominatim sur Storgata 6. La billetterie designe explicitement Bryggeriet comme 'our main venue'. Tarif 650 NOK = day pass standard (le pass 3 jours est a 1150 NOK, les tarifs etudiants a 550/950 sont des tarifs reduits)."
-  },
-  {
-    "title": "Flow Festival",
-    "type": "Festival",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.18637,
-    "lng": 24.97165,
-    "date": "2027-08-13",
-    "endDate": "2027-08-15",
-    "time": "14:00",
-    "price": 0,
-    "currency": "EUR",
-    "venue": "Suvilahti",
-    "trending": false,
-    "lineup": [],
-    "desc": "Flow Festival s'installe chaque mois d'aout dans l'ancienne centrale electrique de Suvilahti, a l'est du centre d'Helsinki, et reunit environ 90 000 personnes sur trois jours. La programmation croise pop, jazz et une scene electronique fournie, avec plusieurs scenes de club ouvertes tard. L'edition 2027 est annoncee du 13 au 15 aout, la programmation n'est pas encore publiee.",
-    "descEn": "Flow Festival takes over the former Suvilahti power plant east of central Helsinki every August, drawing around 90,000 people over three days. The programme spans pop, jazz and a substantial electronic strand, with several club stages running late. The 2027 edition is announced for 13 to 15 August, with the line-up not yet published.",
-    "ticketUrl": "https://www.tiketti.fi/flow-festival-2027-suvilahti-helsinki-tickets/119868",
-    "sources": [
-      "https://www.tiketti.fi/flow-festival-2027-suvilahti-helsinki-tickets/119868",
-      "https://www.flowfestival.com/en/"
-    ],
-    "note": "Adresse : Suvilahti, Kaasutehtaankatu 1, 00540 Helsinki, Finlande. Coordonnees Nominatim sur le site de Suvilahti. Tarif non communique : seuls des pass 3 jours Early Bird sont en vente et Tiketti n'affiche pas le montant dans la page lue. Heure d'ouverture indicative."
-  },
-  {
-    "title": "Madben au Culture Box",
-    "type": "Club",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.6864,
-    "lng": 12.58406,
-    "date": "2026-09-25",
-    "time": "22:00",
-    "price": 150,
-    "currency": "DKK",
-    "venue": "Culture Box",
-    "trending": false,
-    "lineup": [
-      "Madben",
-      "Anton Goltermann",
-      "Halfdan Sandquist",
-      "Valentina",
-      "Popsie",
-      "Silk!",
-      "Califano"
-    ],
-    "desc": "Culture Box tient depuis 2005 la programmation techno la plus suivie de Copenhague, sur deux salles, la Black Box et la Red Box. Le Francais Madben, habitue de l'ecurie Astropolis, ouvre la Black Box ce soir-la avec Anton Goltermann et Halfdan Sandquist. La nuit court de 22 h a 7 h, avec un tarif reduit passe 5 h 30.",
-    "descEn": "Culture Box has run Copenhagen's most closely followed techno programme since 2005, across two rooms, the Black Box and the Red Box. French producer Madben headlines the Black Box alongside Anton Goltermann and Halfdan Sandquist. The night runs from 10pm to 7am, with a reduced door price after 5.30am.",
-    "sources": [
-      "https://www.culture-box.com/"
-    ],
-    "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnees Nominatim sur Kronprinsessegade 54. Tarif 150 DKK affiche a l'agenda du club (100 DKK apres 5 h 30)."
-  },
-  {
-    "title": "Culture Box Halloween",
-    "type": "Club",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.6864,
-    "lng": 12.58406,
-    "date": "2026-10-31",
-    "time": "21:00",
-    "price": 160,
-    "currency": "DKK",
-    "venue": "Culture Box",
-    "trending": false,
-    "lineup": [
-      "Karsten Loud",
-      "Denize",
-      "Bongo & Pusk",
-      "Rasmus Lutzen",
-      "Tim Andresen",
-      "Minimalene",
-      "Rexie Lex"
-    ],
-    "desc": "Le Culture Box ouvre ses deux salles une heure plus tot pour sa nuit d'Halloween, de 21 h a 8 h. La Black Box reunit Karsten Loud, Denize et le duo Bongo & Pusk, la Red Box revient a Tim Andresen, resident historique de la maison. Le tarif passe a 100 DKK apres 6 h.",
-    "descEn": "Culture Box opens both rooms an hour early for its Halloween night, running 9pm to 8am. The Black Box brings together Karsten Loud, Denize and the duo Bongo & Pusk, while the Red Box goes to long-standing resident Tim Andresen. The door price drops to 100 DKK after 6am.",
-    "sources": [
-      "https://www.culture-box.com/"
-    ],
-    "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnees Nominatim sur Kronprinsessegade 54. Tarif 160 DKK affiche a l'agenda du club."
-  },
-  {
-    "title": "Dusky au Culture Box",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.6864,
-    "lng": 12.58406,
-    "date": "2026-11-13",
-    "time": "22:00",
-    "price": 160,
-    "currency": "DKK",
-    "venue": "Culture Box",
-    "trending": false,
-    "lineup": [
-      "Dusky",
-      "Samuel Rees",
-      "Droze",
-      "Soltmann",
-      "Ros"
-    ],
-    "desc": "Le duo londonien Dusky pose son Signals Tour dans la Black Box du Culture Box, entoure de Samuel Rees et Droze. La Red Box revient aux residents Soltmann et Ros. Le club ouvre a 22 h et ferme a 8 h, avec un tarif reduit passe 6 h.",
-    "descEn": "London duo Dusky bring their Signals Tour to Culture Box's Black Box, alongside Samuel Rees and Droze. The Red Box goes to residents Soltmann and Ros. Doors are at 10pm and the night runs to 8am, with a reduced door price after 6am.",
-    "sources": [
-      "https://www.culture-box.com/"
-    ],
-    "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnees Nominatim sur Kronprinsessegade 54. Tarif 160 DKK affiche a l'agenda du club."
-  },
-  {
-    "title": "Danilo Plessow au Kaiku",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.18376,
-    "lng": 24.9599,
-    "date": "2026-09-18",
-    "time": "22:00",
-    "price": 12,
-    "currency": "EUR",
-    "venue": "Kaiku",
-    "trending": false,
-    "lineup": [
-      "Danilo Plessow",
-      "Maria Wesander",
-      "Fleur Amser",
-      "Elina",
-      "Mayela",
-      "Juls Sanchez",
-      "3rdocia"
-    ],
-    "desc": "Le Kaiku, installe dans une ancienne halle de Sornainen, tient la programmation house et techno la plus suivie d'Helsinki. L'Allemand Danilo Plessow, connu sous le nom de Motor City Drum Ensemble, y joue sur deux salles avec Maria Wesander, Fleur Amser et le collectif Rakata. La nuit court de 22 h a 4 h.",
-    "descEn": "Kaiku, set in a former hall in Sornainen, runs Helsinki's most closely followed house and techno programme. German producer Danilo Plessow, better known as Motor City Drum Ensemble, plays across two rooms with Maria Wesander, Fleur Amser and the Rakata collective. The night runs from 10pm to 4am.",
-    "ticketUrl": "https://www.eventu.al/en/event/9093/finland/helsinki/danilo-plessow-nl",
-    "sources": [
-      "https://clubkaiku.fi/"
-    ],
-    "note": "Adresse : Kaiku, Kaikukatu 4, 00530 Helsinki, Finlande. Coordonnees Nominatim sur Kaikukatu 4 (le POI 'Kaiku' y est nomme). Tarif 12 EUR = prevente avant 23 h (16 EUR ensuite)."
-  },
-  {
-    "title": "Freddy K au Kaiku",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.18376,
-    "lng": 24.9599,
-    "date": "2026-09-25",
-    "time": "22:00",
-    "price": 12,
-    "currency": "EUR",
-    "venue": "Kaiku",
-    "trending": false,
-    "lineup": [
-      "Freddy K",
-      "CEB",
-      "Lil Tony",
-      "Ronja"
-    ],
-    "desc": "Freddy K, figure romaine de la techno installee a Berlin et patron du label Key Vinyl, revient au Kaiku pour une nuit de 22 h a 4 h. Le collectif finlandais Bassment et le b2b CEB / Lil Tony completent l'affiche. Le club impose une limite d'age a 20 ans.",
-    "descEn": "Freddy K, the Rome-born, Berlin-based techno veteran behind the Key Vinyl label, returns to Kaiku for a night running 10pm to 4am. Finnish collective Bassment and a CEB b2b Lil Tony set fill out the bill. The club has a 20+ age limit.",
-    "ticketUrl": "https://www.eventu.al/en/event/9649/finland/helsinki/freddy-k-it",
-    "sources": [
-      "https://clubkaiku.fi/"
-    ],
-    "note": "Adresse : Kaiku, Kaikukatu 4, 00530 Helsinki, Finlande. Coordonnees Nominatim sur Kaikukatu 4. Tarif 12 EUR = prevente avant 23 h (16 EUR ensuite)."
-  },
-  {
-    "title": "Club Zero a l'Aaniwalli",
-    "type": "Warehouse",
-    "genres": [
-      "Hardcore",
-      "Hard Techno"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.19491,
-    "lng": 24.95028,
-    "date": "2026-10-03",
-    "time": "22:00",
-    "price": 24,
-    "currency": "EUR",
-    "venue": "Aaniwalli",
-    "trending": false,
-    "lineup": [
-      "Bygdetrapen",
-      "Amil Raja",
-      "Finnjavel",
-      "Glayden",
-      "Exploited Body",
-      "Una MFM",
-      "Niko Demus"
-    ],
-    "desc": "Aaniwalli occupe une ancienne halle industrielle du quartier de Vallila et sert de grande salle de club a Helsinki. La quatorzieme edition de Club Zero rassemble le live norvegien Bygdetrapen, la Britannique Amil Raja et la scene hardcore locale autour de Glayden. Entree a partir de 24 euros en prevente, plus 3,90 euros de frais de securite.",
-    "descEn": "Aaniwalli occupies a former industrial hall in the Vallila district and serves as Helsinki's large-format club room. The fourteenth Club Zero brings Norwegian live act Bygdetrapen, British DJ Amil Raja and the local hardcore scene around Glayden. Entry starts at 24 euros in advance, plus a 3.90 euro security fee.",
-    "sources": [
-      "https://aaniwalli.fi/events/2026-10-03-club_zero_vol14/"
-    ],
-    "note": "Adresse : Aaniwalli, Palkaneentie 13 B, 00510 Helsinki (Vallila), Finlande. Coordonnees Nominatim sur Palkaneentie 13. Tarif 24 EUR = pre ticket annonce sur la page de l'evenement."
-  },
-  {
-    "title": "FURY a l'Aaniwalli",
-    "type": "Warehouse",
-    "genres": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "city": "Helsinki",
-    "country": "Finland",
-    "lat": 60.19491,
-    "lng": 24.95028,
-    "date": "2026-10-16",
-    "time": "22:00",
-    "price": 29,
-    "currency": "EUR",
-    "venue": "Aaniwalli",
-    "trending": false,
-    "lineup": [
-      "Cara Elizabeth",
-      "Johannes Schuster",
-      "Mika Heggemann"
-    ],
-    "desc": "Club Fury ouvre sa saison d'automne dans l'integralite de l'Aaniwalli, les deux salles reunies. Cara Elizabeth, Johannes Schuster et Mika Heggemann font tous les trois leurs debuts en Finlande ce soir-la. Les billets Early Bird sont a 29 euros, le tarif Phase 1 a 35 euros plus frais.",
-    "descEn": "Club Fury opens its autumn season across the whole of Aaniwalli, both rooms combined. Cara Elizabeth, Johannes Schuster and Mika Heggemann all make their Finnish debuts that night. Early Bird tickets are 29 euros, with Phase 1 at 35 euros plus fees.",
-    "sources": [
-      "https://aaniwalli.fi/events/2026-10-16-fury_cara_elizabeth_de_johannes_schuster_de_mika_heggemann_de/"
-    ],
-    "note": "Adresse : Aaniwalli, Palkaneentie 13 B, 00510 Helsinki (Vallila), Finlande. Coordonnees Nominatim sur Palkaneentie 13. Tarif 29 EUR = Early Bird, en serie limitee ; Phase 1 a 35 EUR."
-  },
-  {
-    "title": "Kevin Saunderson au Jaeger",
-    "type": "Club",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Oslo",
-    "country": "Norway",
-    "lat": 59.91415,
-    "lng": 10.74379,
-    "date": "2026-10-02",
-    "time": "20:45",
-    "price": 200,
-    "currency": "NOK",
-    "venue": "Jaeger",
-    "trending": false,
-    "lineup": [
-      "Kevin Saunderson",
-      "Waajeed",
-      "g-HA & Olanskii",
-      "DJ R-ZO",
-      "DJ Niwin",
-      "DJ Ghar",
-      "Soldal"
-    ],
-    "desc": "Le Jaeger, club en sous-sol de Grensen ouvert en 2013, reunit ses soirees Fraedag, MUD et Soul Sessions Oslo pour une nuit Detroit. Kevin Saunderson, membre des Belleville Three, partage l'affiche avec Waajeed, associe de J Dilla et patron du label Dirt Tech Reck. Entree a 200 NOK, 150 NOK avec un pass festival.",
-    "descEn": "Jaeger, the basement club on Grensen open since 2013, brings its Fraedag, MUD and Soul Sessions Oslo nights together for a Detroit special. Kevin Saunderson of the Belleville Three shares the bill with Waajeed, a J Dilla associate and head of the Dirt Tech Reck label. Entry is 200 NOK, or 150 NOK with a festival pass.",
-    "sources": [
-      "https://jaegeroslo.no/events/",
-      "https://jaegeroslo.no/events/friday-fraedag-x-mud-x-sso-kevin-saunderson-waajeed/"
-    ],
-    "note": "Adresse : Jaeger, Grensen 9, 0159 Oslo, Norvege. Coordonnees Nominatim sur Grensen 9. Tarif 200 NOK affiche a l'agenda du club."
-  },
-  {
-    "title": "Octave One au Jaeger",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Oslo",
-    "country": "Norway",
-    "lat": 59.91415,
-    "lng": 10.74379,
-    "date": "2026-10-09",
-    "time": "23:00",
-    "price": 0,
-    "currency": "NOK",
-    "venue": "Jaeger",
-    "trending": false,
-    "lineup": [
-      "Octave One",
-      "g-HA & Olanskii",
-      "Oyvind Morken"
-    ],
-    "desc": "Deuxieme semaine consecutive de Detroit au Jaeger, avec le live d'Octave One dans le sous-sol. Les freres Burden portent depuis le debut des annees 1990 un set materiel entierement joue sur machines. Les residents g-HA & Olanskii et Oyvind Morken tiennent la cour exterieure.",
-    "descEn": "A second consecutive week of Detroit at Jaeger, with Octave One playing live in the basement. The Burden brothers have been performing a fully hardware-driven set since the early 1990s. Residents g-HA & Olanskii and Oyvind Morken hold the outdoor yard.",
-    "sources": [
-      "https://jaegeroslo.no/events/friday-fraedag-octave-one-live/",
-      "https://jaegeroslo.no/events/"
-    ],
-    "note": "Adresse : Jaeger, Grensen 9, 0159 Oslo, Norvege. Coordonnees Nominatim sur Grensen 9. Tarif non communique par le club a la date de lecture. Heure de debut reprise du format Fraedag (23 h), non confirmee pour cette date."
-  },
-  {
-    "title": "Hyperdrive: Stan Christ au Slakthuset",
-    "type": "Club",
-    "genres": [
-      "Hard Techno",
-      "Techno"
-    ],
-    "city": "Stockholm",
-    "country": "Sweden",
-    "lat": 59.29164,
-    "lng": 18.0795,
-    "date": "2026-10-09",
-    "time": "22:00",
-    "price": 150,
-    "currency": "SEK",
-    "venue": "Slakthuset",
-    "trending": false,
-    "lineup": [
-      "Stan Christ",
-      "Yohan.Aif",
-      "Claire Hardman",
-      "KTW",
-      "Vanya"
-    ],
-    "desc": "Slakthuset occupe une ancienne halle du quartier des abattoirs de Johanneshov, au sud de Stockholm. La soiree Hyperdrive y invite le Neerlandais Stan Christ, dont le morceau Trepidation a impose un son hard techno a 150 BPM. Les residents Yohan.Aif, Claire Hardman b2b KTW et Vanya completent la nuit, de 22 h a 3 h.",
-    "descEn": "Slakthuset occupies a former hall in the Johanneshov meatpacking district in southern Stockholm. The Hyperdrive night brings in Dutch DJ Stan Christ, whose track Trepidation set out his 150 BPM hard techno sound. Residents Yohan.Aif, Claire Hardman b2b KTW and Vanya fill out the night, running 10pm to 3am.",
-    "sources": [
-      "https://www.spelning.se/konsert/hyperdrive-with-stan-christ-nl-slakthuset-9-oktober",
-      "https://www.spelning.se/stockholm/slakthuset"
-    ],
-    "note": "Adresse : Slakthuset, Slakthusgatan 6, 121 62 Johanneshov (Stockholm), Suede. Coordonnees Nominatim sur Slakthusgatan 6. Tarif 150 SEK indique par le JSON-LD de la fiche (a partir de)."
-  },
-  {
-    "title": "Anna Reusch au Slakthuset",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Stockholm",
-    "country": "Sweden",
-    "lat": 59.29164,
-    "lng": 18.0795,
-    "date": "2026-09-12",
-    "time": "22:00",
-    "price": 0,
-    "currency": "SEK",
-    "venue": "Slakthuset",
-    "trending": false,
-    "lineup": [
-      "Anna Reusch",
-      "Relinquo",
-      "Patrik Pagan",
-      "Elevany"
-    ],
-    "desc": "Le collectif DEMAND ramene l'Allemande Anna Reusch au Slakthuset pour sa deuxieme date suedoise. Signee sur Arcane et Drumcode, elle joue une techno rapide et melodique. Relinquo b2b Patrik Pagan et Elevany assurent le reste de la nuit, de 22 h a 3 h.",
-    "descEn": "The DEMAND collective brings German DJ Anna Reusch back to Slakthuset for her second Swedish date. Signed to Arcane and Drumcode, she plays fast, melodic techno. Relinquo b2b Patrik Pagan and Elevany cover the rest of the night, running 10pm to 3am.",
-    "sources": [
-      "https://www.spelning.se/konsert/demand-pres-anna-reusch-slakthuset-slakthuset-12-september"
-    ],
-    "note": "Adresse : Slakthuset, Slakthusgatan 6, 121 62 Johanneshov (Stockholm), Suede. Coordonnees Nominatim sur Slakthusgatan 6. Tarif non communique sur la fiche lue."
-  },
-  {
-    "title": "Kind People Club: Patrick Mason",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Stockholm",
-    "country": "Sweden",
-    "lat": 59.29242,
-    "lng": 18.08013,
-    "date": "2026-09-25",
-    "time": "22:00",
-    "price": 0,
-    "currency": "SEK",
-    "venue": "Slaktkyrkan",
-    "trending": false,
-    "lineup": [
-      "Patrick Mason"
-    ],
-    "desc": "La Slaktkyrkan est l'ancienne halle de decoupe du quartier des abattoirs de Johanneshov, reconvertie en salle de concert et de club. Kind People Club y accueille Patrick Mason, performeur berlinois connu autant pour ses sets techno que pour sa presence scenique. La nuit demarre a 22 h.",
-    "descEn": "Slaktkyrkan is the former cutting hall of the Johanneshov meatpacking district, converted into a concert and club room. Kind People Club hosts Patrick Mason, the Berlin performer known as much for his techno sets as for his stage presence. Doors are at 10pm.",
-    "sources": [
-      "https://www.spelning.se/stockholm/slaktkyrkan"
-    ],
-    "note": "Adresse : Slaktkyrkan, Rokerigatan, Slakthusomradet, 121 62 Johanneshov (Stockholm), Suede. Coordonnees Nominatim sur le POI Slaktkyrkan. Tarif non communique sur la fiche lue."
-  },
-  {
-    "title": "Grovskopa MORD Resurrection",
-    "type": "Club",
-    "genres": [
-      "Techno",
-      "Hard Techno"
-    ],
-    "city": "Malmo",
-    "country": "Sweden",
-    "lat": 55.59405,
-    "lng": 13.00785,
-    "date": "2026-10-10",
-    "time": "23:59",
-    "price": 0,
-    "currency": "SEK",
-    "venue": "Inkonst",
-    "trending": false,
-    "lineup": [
-      "Grovskopa",
-      "Stanislav Tolkachev",
-      "Rebecka Sekelius"
-    ],
-    "desc": "Inkonst est une ancienne fabrique de Bergsgatan devenue maison de la culture et salle de club de Malmo. Le Suedois Grovskopa remet en route sa soiree MORD avec l'Ukrainien Stanislav Tolkachev et Rebecka Sekelius. Ouverture a 23 h 59, limite d'age a 20 ans.",
-    "descEn": "Inkonst is a former factory on Bergsgatan that became Malmo's arts house and club room. Swedish DJ Grovskopa restarts his MORD night with Ukrainian producer Stanislav Tolkachev and Rebecka Sekelius. Doors at 11.59pm, with a 20+ age limit.",
-    "sources": [
-      "https://www.spelning.se/konsert/grovskopa-stanislav-tolkachev-rebecka-sekelius-inkonst-10-oktober"
-    ],
-    "note": "Adresse : Inkonst, Bergsgatan 29, 214 22 Malmo, Suede. Coordonnees Nominatim sur le POI Inkonst. Tarif non communique sur la fiche lue."
-  },
-  {
-    "title": "Olof Dreijer a la Moriska Paviljongen",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Malmo",
-    "country": "Sweden",
-    "lat": 55.59374,
-    "lng": 13.01362,
-    "date": "2026-10-23",
-    "time": "21:00",
-    "price": 195,
-    "currency": "SEK",
-    "venue": "Moriska Paviljongen",
-    "trending": false,
-    "lineup": [
-      "Olof Dreijer"
-    ],
-    "desc": "Olof Dreijer, moitie du duo suedois The Knife, joue en solo a la Moriska Paviljongen, pavillon de style mauresque construit en 1902 dans le parc de Folkets Park a Malmo. Son set melange percussions, house et electronique de club. Debut a 21 h, entree a 195 SEK.",
-    "descEn": "Olof Dreijer, one half of Swedish duo The Knife, plays solo at Moriska Paviljongen, the Moorish-style pavilion built in 1902 in Malmo's Folkets Park. His set mixes percussion, house and club electronics. Doors at 9pm, tickets 195 SEK.",
-    "sources": [
-      "https://www.spelning.se/konsert/grovskopa-stanislav-tolkachev-rebecka-sekelius-inkonst-10-oktober"
-    ],
-    "note": "Adresse : Moriska Paviljongen, Norra Parkgatan 2, 211 44 Malmo, Suede. Coordonnees Nominatim sur le POI Moriska paviljongen. Tarif 195 SEK releve sur spelning.se, a reconfirmer chez l'organisateur."
-  },
-  {
-    "title": "Olof Dreijer au Pustervik",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Gothenburg",
-    "country": "Sweden",
-    "lat": 57.70045,
-    "lng": 11.95422,
-    "date": "2026-10-29",
-    "time": "19:00",
-    "price": 325,
-    "currency": "SEK",
-    "venue": "Pustervik",
-    "trending": false,
-    "lineup": [
-      "Olof Dreijer"
-    ],
-    "desc": "Pustervik tient depuis 1998 la principale scene concert et club de Goteborg, deux etages et trois salles pres de Jarntorget. Olof Dreijer, moitie de The Knife, y presente son projet solo dans la Stora Klubben. Debut a 19 h, billet a 325 SEK.",
-    "descEn": "Pustervik has run Gothenburg's main concert and club venue since 1998, two floors and three rooms near Jarntorget. Olof Dreijer, one half of The Knife, brings his solo project to the Stora Klubben. Doors at 7pm, tickets 325 SEK.",
-    "sources": [
-      "https://pustervik.nu/kalender"
-    ],
-    "note": "Adresse : Pustervik, Jarntorgsgatan 12, 413 01 Goteborg, Suede. Coordonnees Nominatim sur le POI Pustervik. Tarif 325 SEK affiche au calendrier officiel."
-  },
-  {
-    "city": "Cork",
-    "country": "Ireland",
-    "lat": 51.8984,
-    "lng": -8.46986,
-    "venue": "Cyprus Avenue",
-    "currency": "EUR",
-    "trending": false,
-    "title": "Mark Blair au Cyprus Avenue",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "date": "2026-09-12",
-    "time": "23:00",
-    "price": 20,
-    "lineup": [
-      "Mark Blair"
-    ],
-    "desc": "Le Cyprus Avenue tient depuis 2007 la principale salle de concert et de club du centre de Cork, sur Caroline Street. Le DJ nord-irlandais Mark Blair y joue une nuit house et techno a partir de 23 h. Entree a 20 euros en prevente.",
-    "descEn": "Cyprus Avenue has run Cork city centre's main concert and club room on Caroline Street since 2007. Northern Irish DJ Mark Blair plays a house and techno night from 11pm. Tickets are 20 euros in advance.",
-    "sources": [
-      "https://www.cyprusavenue.ie/gigs",
-      "https://www.cyprusavenue.ie/"
-    ],
-    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de la page /map du site officiel. Tarif 20 EUR affiche a l'agenda officiel."
-  },
-  {
-    "city": "Cork",
-    "country": "Ireland",
-    "lat": 51.8984,
-    "lng": -8.46986,
-    "venue": "Cyprus Avenue",
-    "currency": "EUR",
-    "trending": false,
-    "title": "Twofaced au Cyprus Avenue",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "date": "2026-09-18",
-    "time": "23:00",
-    "price": 22.5,
-    "lineup": [
-      "Twofaced"
-    ],
-    "desc": "Twofaced, projet techno irlandais, prend la salle principale du Cyprus Avenue pour une nuit de club a partir de 23 h. Le lieu programme concerts en debut de soiree et club apres 23 h, deux billetteries distinctes. Entree a 22,50 euros.",
-    "descEn": "Twofaced, the Irish techno project, takes over the Cyprus Avenue main room for a club night from 11pm. The venue runs concerts early and club nights after 11pm as separate ticketed events. Entry is 22.50 euros.",
-    "sources": [
-      "https://www.cyprusavenue.ie/gigs"
-    ],
-    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 22,50 EUR affiche a l'agenda officiel."
-  },
-  {
-    "city": "Cork",
-    "country": "Ireland",
-    "lat": 51.8984,
-    "lng": -8.46986,
-    "venue": "Cyprus Avenue",
-    "currency": "EUR",
-    "trending": false,
-    "title": "Paul Oakenfold au Cyprus Avenue",
-    "type": "Club",
-    "genres": [
-      "Trance",
-      "House"
-    ],
-    "date": "2026-09-25",
-    "time": "23:00",
-    "price": 30,
-    "lineup": [
-      "Paul Oakenfold"
-    ],
-    "desc": "Paul Oakenfold, l'un des noms qui ont porte la trance britannique depuis la fin des annees 1980, joue au Cyprus Avenue de Cork. La soiree demarre a 23 h dans la salle principale. Billet a 30 euros.",
-    "descEn": "Paul Oakenfold, one of the names that carried British trance from the late 1980s onward, plays Cyprus Avenue in Cork. The night starts at 11pm in the main room. Tickets are 30 euros.",
-    "sources": [
-      "https://www.cyprusavenue.ie/gigs"
-    ],
-    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 30 EUR affiche a l'agenda officiel."
-  },
-  {
-    "city": "Cork",
-    "country": "Ireland",
-    "lat": 51.8984,
-    "lng": -8.46986,
-    "venue": "Cyprus Avenue",
-    "currency": "EUR",
-    "trending": false,
-    "title": "Faithless DJ Set au Cyprus Avenue",
-    "type": "Club",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "date": "2026-12-12",
-    "time": "23:00",
-    "price": 35,
-    "lineup": [
-      "Faithless"
-    ],
-    "desc": "Faithless vient en DJ set au Cyprus Avenue, dans la salle principale, a partir de 23 h. Le groupe britannique, forme en 1995 autour de Rollo et Sister Bliss, tourne aujourd'hui sous ce format. Billet a 35 euros.",
-    "descEn": "Faithless bring a DJ set to the Cyprus Avenue main room from 11pm. The British group, formed in 1995 around Rollo and Sister Bliss, tours in this format today. Tickets are 35 euros.",
-    "sources": [
-      "https://www.cyprusavenue.ie/gigs"
-    ],
-    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 35 EUR affiche a l'agenda officiel."
-  },
-  {
-    "title": "Index: 999999999",
-    "type": "Club",
-    "genres": [
-      "Hard Techno",
-      "Acid Techno"
-    ],
-    "city": "Dublin",
-    "country": "Ireland",
-    "lat": 53.34799,
-    "lng": -6.26185,
-    "date": "2026-09-18",
-    "time": "22:00",
-    "price": 0,
-    "currency": "EUR",
-    "venue": "Index",
-    "trending": false,
-    "lineup": [
-      "999999999"
-    ],
-    "desc": "Index occupe le sous-sol du 57 Middle Abbey Street et porte la programmation techno la plus suivie de Dublin. Le duo italien 999999999 y joue son live acid et hard techno, joue entierement sur machines. Ouverture a 22 h, fermeture a 3 h.",
-    "descEn": "Index sits in the basement of 57 Middle Abbey Street and runs Dublin's most closely followed techno programme. Italian duo 999999999 bring their fully hardware acid and hard techno live show. Doors at 10pm, closing at 3am.",
-    "sources": [
-      "https://www.indexdublin.com/events/"
-    ],
-    "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI 'Index Dublin' au 57 Middle Abbey Street. Tarif non communique : la billetterie passe par DICE, dont les pages sont inaccessibles depuis ce conteneur."
-  },
-  {
-    "title": "Index: Kepler",
-    "type": "Club",
-    "genres": [
-      "Techno"
-    ],
-    "city": "Dublin",
-    "country": "Ireland",
-    "lat": 53.34799,
-    "lng": -6.26185,
-    "date": "2026-09-26",
-    "time": "22:00",
-    "price": 0,
-    "currency": "EUR",
-    "venue": "Index",
-    "trending": false,
-    "lineup": [
-      "Kepler"
-    ],
-    "desc": "Nuit longue a l'Index, de 22 h jusqu'au lendemain apres-midi, autour de Kepler. Le club de Middle Abbey Street programme regulierement ces formats etires que la scene dublinoise appelle des afters. L'age minimum est de 18 ans.",
-    "descEn": "A long night at Index, from 10pm through to the following afternoon, built around Kepler. The Middle Abbey Street club regularly runs these extended formats, known locally as afters. Minimum age is 18.",
-    "sources": [
-      "https://www.indexdublin.com/events/"
-    ],
-    "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI 'Index Dublin'. Horaire de fin annonce a 14 h 30 le lendemain sur l'agenda officiel. Tarif non communique : billetterie DICE inaccessible depuis ce conteneur."
-  },
-  {
-    "title": "Wigwam: 49th & Main",
-    "type": "Club",
-    "genres": [
-      "House"
-    ],
-    "city": "Dublin",
-    "country": "Ireland",
-    "lat": 53.348,
-    "lng": -6.26215,
-    "date": "2026-10-10",
-    "time": "23:00",
-    "price": 0,
-    "currency": "EUR",
-    "venue": "Wigwam",
-    "trending": false,
-    "lineup": [
-      "49th & Main"
-    ],
-    "desc": "Wigwam occupe un ancien bar de Middle Abbey Street et programme ses nuits club dans son sous-sol. Le duo irlandais 49th & Main, connu pour une house melodique et chantee, y joue dans le cadre de la serie Wigwam Presents. La nuit court jusqu'a 3 h.",
-    "descEn": "Wigwam occupies a former bar on Middle Abbey Street and runs its club nights in the basement. Irish duo 49th & Main, known for melodic, vocal-led house, play as part of the Wigwam Presents series. The night runs until 3am.",
-    "sources": [
-      "https://www.wigwamdublin.com/wigwampresents"
-    ],
-    "note": "Adresse : Wigwam, 54 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI Wigwam. Tarif non communique : la billetterie passe par Resident Advisor, inaccessible depuis ce conteneur. Horaire 23 h repris du format habituel des nuits Wigwam Presents, non confirme pour cette date."
-  },
-  {
-    "title": "Forbidden Fruit",
-    "type": "Festival",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "city": "Dublin",
-    "country": "Ireland",
-    "lat": 53.34216,
-    "lng": -6.2997,
-    "date": "2027-06-05",
-    "endDate": "2027-06-06",
-    "time": "14:00",
-    "price": 0,
-    "currency": "EUR",
-    "venue": "Royal Hospital Kilmainham",
-    "trending": false,
-    "lineup": [],
-    "desc": "Forbidden Fruit est le plus ancien festival en centre-ville de Dublin, installe dans les jardins du Royal Hospital Kilmainham qui abritent aussi le musee d'art moderne irlandais. Sa programmation fait une large place a la house et a la techno. L'edition 2027 est annoncee les 5 et 6 juin, la programmation n'est pas encore publiee.",
-    "descEn": "Forbidden Fruit is Dublin's longest-running city-centre festival, set in the grounds of the Royal Hospital Kilmainham, which also house the Irish Museum of Modern Art. Its programme leans heavily on house and techno. The 2027 edition is announced for 5 and 6 June, with the line-up not yet published.",
-    "ticketUrl": "https://www.skiddle.com/festivals/forbidden-fruit/",
-    "sources": [
-      "https://www.skiddle.com/festivals/forbidden-fruit/"
-    ],
-    "note": "Adresse : Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin 8, D08 FW31, Irlande. Coordonnees reprises du JSON-LD MusicEvent de Skiddle (53.3421604, -6.2996996), coherentes avec le POI Nominatim de l'IMMA. Tarif non communique : la page Skiddle affiche 'from 0.00' et ne vend pas encore. Heure d'ouverture indicative, non annoncee."
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.69144,
-    "lng": 12.61695,
-    "venue": "Hangaren",
-    "currency": "DKK",
-    "trending": false,
-    "type": "Warehouse",
-    "title": "Sunday Psy au Hangaren",
-    "genres": [
-      "Psytrance"
-    ],
-    "date": "2026-09-13",
-    "time": "16:00",
-    "price": 50,
-    "lineup": [
-      "Maurinstarr",
-      "Milo Makua",
-      "RunaRift",
-      "Afgang"
-    ],
-    "desc": "Le Hangaren est un ancien hangar de Refshaleoen transforme en club electronique en 2021, avec un jardin et un feu de camp. Sunday Psy est son rendez-vous psytrance en plein air, une fois tous les quinze jours, de 16 h a minuit. Entree a partir de 50 DKK en early bird, 75 DKK ensuite, 20 ans minimum.",
-    "descEn": "Hangaren is a former hangar on Refshaleoen turned into an electronic music club in 2021, with a garden and a bonfire. Sunday Psy is its biweekly outdoor psytrance gathering, running 4pm to midnight. Entry starts at 50 DKK early bird, 75 DKK after, with a 20+ age limit.",
-    "sources": [
-      "https://www.hangaren.dk/events"
-    ],
-    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.69144,
-    "lng": 12.61695,
-    "venue": "Hangaren",
-    "currency": "DKK",
-    "trending": false,
-    "type": "Warehouse",
-    "title": "Nastia au Hangaren",
-    "genres": [
-      "Techno"
-    ],
-    "date": "2026-10-02",
-    "time": "23:00",
-    "price": 125,
-    "lineup": [
-      "Nastia",
-      "Ena Cosovic",
-      "Kallax"
-    ],
-    "desc": "L'Ukrainienne Nastia, l'une des figures les plus constantes de la techno d'Europe de l'Est, joue au Hangaren de 23 h a 6 h. Ena Cosovic et Kallax completent l'affiche. Les tarifs vont de 125 DKK pour une entree avant minuit a 175 DKK sur place.",
-    "descEn": "Ukrainian DJ Nastia, one of the steadiest figures in Eastern European techno, plays Hangaren from 11pm to 6am. Ena Cosovic and Kallax fill out the bill. Prices run from 125 DKK for entry before midnight to 175 DKK on the door.",
-    "sources": [
-      "https://www.hangaren.dk/events"
-    ],
-    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.69144,
-    "lng": 12.61695,
-    "venue": "Hangaren",
-    "currency": "DKK",
-    "trending": false,
-    "type": "Warehouse",
-    "title": "Damian Lazarus au Hangaren",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "date": "2026-10-03",
-    "time": "23:00",
-    "price": 125,
-    "lineup": [
-      "Damian Lazarus",
-      "Minimalene",
-      "Nilu"
-    ],
-    "desc": "Damian Lazarus, patron du label Crosstown Rebels, prend le Hangaren pour une nuit de 23 h a 6 h. Les Danoises Minimalene et Nilu ouvrent la soiree. Entree a 125 DKK avant minuit, 175 DKK sur place, 20 ans minimum.",
-    "descEn": "Damian Lazarus, head of the Crosstown Rebels label, takes Hangaren for a night running 11pm to 6am. Danish DJs Minimalene and Nilu open. Entry is 125 DKK before midnight, 175 DKK on the door, 20+ only.",
-    "sources": [
-      "https://www.hangaren.dk/events"
-    ],
-    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
-  },
-  {
-    "city": "Copenhagen",
-    "country": "Denmark",
-    "lat": 55.69144,
-    "lng": 12.61695,
-    "venue": "Hangaren",
-    "currency": "DKK",
-    "trending": false,
-    "type": "Warehouse",
-    "title": "Oliver Koletzki au Hangaren",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "date": "2026-11-13",
-    "time": "23:00",
-    "price": 125,
-    "lineup": [
-      "Oliver Koletzki"
-    ],
-    "desc": "Oliver Koletzki, fondateur du label berlinois Stil vor Talent, joue toute la nuit au Hangaren, de 23 h a 6 h. Le club, installe dans un hangar de Refshaleoen, tourne sur un systeme Lambda Labs. Entree a 125 DKK avant minuit, 175 DKK sur place.",
-    "descEn": "Oliver Koletzki, founder of the Berlin label Stil vor Talent, plays all night at Hangaren, 11pm to 6am. The club, set in a hangar on Refshaleoen, runs a Lambda Labs system. Entry is 125 DKK before midnight, 175 DKK on the door.",
-    "sources": [
-      "https://www.hangaren.dk/events"
-    ],
-    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
-  },
-  {
-    "city": "Oslo",
-    "country": "Norway",
-    "lat": 59.91564,
-    "lng": 10.74856,
-    "venue": "The Villa",
-    "currency": "NOK",
-    "trending": false,
-    "type": "Club",
-    "title": "Objekt a The Villa",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "date": "2026-09-18",
-    "time": "23:00",
-    "price": 0,
-    "lineup": [
-      "Objekt"
-    ],
-    "desc": "The Villa tient depuis les annees 1990 la programmation club la plus pointue d'Oslo, dans un sous-sol de Mollergata ouvert vendredi et samedi de 23 h a 3 h. Objekt, producteur ne a Tokyo et installe a Berlin, y joue trois heures. Ses disques sortent sur Hessle Audio, PAN et son propre label Kapsela.",
-    "descEn": "The Villa has run Oslo's sharpest club programme since the 1990s, in a Mollergata basement open Friday and Saturday from 11pm to 3am. Objekt, the Tokyo-born, Berlin-based producer, plays a three-hour set. His records come out on Hessle Audio, PAN and his own Kapsela label.",
-    "ticketUrl": "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de",
-    "sources": [
-      "https://www.thevilla.no/event-details/objekt-de",
-      "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de"
-    ],
-    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
-  },
-  {
-    "city": "Oslo",
-    "country": "Norway",
-    "lat": 59.91564,
-    "lng": 10.74856,
-    "venue": "The Villa",
-    "currency": "NOK",
-    "trending": false,
-    "type": "Club",
-    "title": "Legowelt a The Villa",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "date": "2026-10-17",
-    "time": "23:00",
-    "price": 0,
-    "lineup": [
-      "Legowelt"
-    ],
-    "desc": "La soiree Hypnokratiet invite Legowelt a The Villa pour un live. Le Neerlandais Danny Wolfers joue depuis les annees 1990 une electronique de club faite au synthetiseur analogique, entre house de Chicago et electro. La nuit court de 23 h a 3 h.",
-    "descEn": "The Hypnokratiet night brings Legowelt to The Villa for a live show. Dutch producer Danny Wolfers has been making analogue synthesizer club music since the 1990s, between Chicago house and electro. The night runs 11pm to 3am.",
-    "ticketUrl": "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
-    "sources": [
-      "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
-      "https://www.thevilla.no/"
-    ],
-    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
-  },
-  {
-    "city": "Oslo",
-    "country": "Norway",
-    "lat": 59.91564,
-    "lng": 10.74856,
-    "venue": "The Villa",
-    "currency": "NOK",
-    "trending": false,
-    "type": "Club",
-    "title": "Kollektiv Turmstrasse a The Villa",
-    "genres": [
-      "House",
-      "Techno"
-    ],
-    "date": "2027-02-12",
-    "time": "23:00",
-    "price": 0,
-    "lineup": [
-      "Kollektiv Turmstrasse"
-    ],
-    "desc": "Kollektiv Turmstrasse vient jouer en live a The Villa. Le projet, fonde en duo a Wismar et poursuivi seul par Nico Plagemann, a sorti Rebellion der Traumer et des disques sur Kompakt, Diynamic et Cocoon. Ouverture a 23 h.",
-    "descEn": "Kollektiv Turmstrasse bring a live show to The Villa. The project, founded as a duo in Wismar and continued solo by Nico Plagemann, released Rebellion der Traumer and records on Kompakt, Diynamic and Cocoon. Doors at 11pm.",
-    "ticketUrl": "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live",
-    "sources": [
-      "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live"
-    ],
-    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
-  },
-  {
-    "title": "Tallinn Music Week",
-    "type": "Festival",
-    "genres": [
-      "Techno",
-      "House"
-    ],
-    "city": "Tallinn",
-    "country": "Estonia",
-    "lat": 59.43857,
-    "lng": 24.72777,
-    "date": "2027-04-08",
-    "endDate": "2027-04-11",
-    "time": "18:00",
-    "price": 65,
-    "currency": "EUR",
-    "venue": "Telliskivi Creative City",
-    "venueEn": "Telliskivi Creative City",
-    "trending": false,
-    "lineup": [],
-    "desc": "Tallinn Music Week est le festival de decouverte de la scene balte, reparti sur les clubs et salles de la ville, avec Telliskivi Creative City et le quartier de Noblessner pour points d'ancrage. La 19e edition court du 8 au 11 avril 2027, la partie concerts du 8 au 10. La programmation electronique occupe les clubs de Kalamaja et de Kopli, elle n'est pas encore publiee.",
-    "descEn": "Tallinn Music Week is the Baltic discovery festival, spread across the city's clubs and concert halls, anchored on Telliskivi Creative City and the Noblessner district. The 19th edition runs 8 to 11 April 2027, with the music programme from 8 to 10 April. Its electronic strand fills the clubs of Kalamaja and Kopli and is not yet announced.",
-    "ticketUrl": "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
-    "sources": [
-      "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
-      "https://tmw.ee/artist-applications"
-    ],
-    "note": "Adresse : Telliskivi Creative City, Telliskivi 60a, 10412 Tallinn, Estonie. Coordonnees Nominatim sur Telliskivi 60a. Le festival est eclate sur des dizaines de salles, le site principal est retenu. Tarif 65 EUR = pass festival au palier en vigueur du 1er mai au 30 septembre (55 EUR avant, 99 EUR sur place). Heure de debut indicative."
-  }
+ {
+  "title": "Iceland Airwaves",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Reykjavik",
+  "country": "Iceland",
+  "lat": 64.14906,
+  "lng": -21.94044,
+  "date": "2026-11-05",
+  "endDate": "2026-11-07",
+  "time": "20:00",
+  "price": 11400,
+  "currency": "ISK",
+  "venue": "Reykjavik Art Museum",
+  "trending": true,
+  "lineup": [
+   "Shygirl",
+   "The Streets",
+   "Skeler",
+   "Heartworms",
+   "Jamie Woon",
+   "MAMMUT",
+   "Dadi Freyr",
+   "Arny Margret",
+   "RAKEL",
+   "Andervel"
+  ],
+  "desc": "Depuis 1999, Iceland Airwaves occupe une quinzaine de salles du centre de Reykjavik pendant trois jours, du Reykjavik Art Museum à Gamla Bíó et Iðnó. La programmation mélange découvertes islandaises et invités internationaux, avec une part électronique importante autour de Skeler et Shygirl. L'édition 2026 est annoncée du 5 au 7 novembre, avec des concerts spéciaux les 4 et 8 novembre à Harpa et à l'hôtel de ville.",
+  "descEn": "Running since 1999, Iceland Airwaves takes over around fifteen venues in downtown Reykjavik for three days, from the Reykjavik Art Museum to Gamla Bíó and Iðnó. The bill mixes Icelandic discoveries with international guests and carries a strong electronic strand around Skeler and Shygirl. The 2026 edition runs 5 to 7 November, with standalone shows on 4 and 8 November at Harpa and City Hall.",
+  "ticketUrl": "https://tix.is/en/event/20516/iceland-airwaves-2026",
+  "sources": [
+   "https://icelandairwaves.is/",
+   "https://tix.is/en/event/20516/iceland-airwaves-2026",
+   "https://icelandairwaves.is/venues/"
+  ],
+  "note": "Salle principale retenue : Reykjavik Art Museum (Listasafn Reykjavíkur, Hafnarhús), Tryggvagata 17, 101 Reykjavik, Islande. Coordonnées Nominatim sur Tryggvagata 17. Le festival est éclaté sur une quinzaine de salles du centre. Tarif 11 400 ISK = day pass Early Bird, le billet le moins cher vendu par le festival (pass 3 jours à 16 900 ISK). Heure de début du programme indicative."
+ },
+ {
+  "title": "Insomnia Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Tromsø",
+  "country": "Norway",
+  "lat": 69.64598,
+  "lng": 18.95078,
+  "date": "2026-10-14",
+  "endDate": "2026-10-18",
+  "time": "18:00",
+  "price": 650,
+  "currency": "NOK",
+  "venue": "Bryggeriet Scene",
+  "trending": false,
+  "lineup": [
+   "Terrence Dixon",
+   "D.K.",
+   "Dame Area",
+   "Maara",
+   "Maria W Horn",
+   "DJ Travella",
+   "Rolando Simmons",
+   "DJ Hulluella",
+   "Mattin",
+   "Heith",
+   "AVIAJA",
+   "Oriana"
+  ],
+  "desc": "Insomnia fête sa 25e édition à Tromsø, au-delà du cercle polaire, du 14 au 18 octobre 2026. Le festival mélange concerts, sets DJ, séminaires et installations, avec Bryggeriet Scene pour salle principale. Terrence Dixon, Dame Area et DJ Travella figurent parmi les noms annoncés.",
+  "descEn": "Insomnia celebrates its 25th edition in Tromsø, above the Arctic Circle, from 14 to 18 October 2026. The festival mixes live concerts, DJ sets, seminars and installations, with Bryggeriet Scene as its main venue. Terrence Dixon, Dame Area and DJ Travella are among the announced names.",
+  "ticketUrl": "https://insomnia.antitickets.com/event/insomnia-festival-2026",
+  "sources": [
+   "https://insomniafestival.no/",
+   "https://insomnia.antitickets.com/event/insomnia-festival-2026",
+   "https://insomniafestival.no/editions/lineup-2026/"
+  ],
+  "note": "Adresse : Bryggeriet Scene, Storgata 6, 9008 Tromsø, Norvège. Coordonnées Nominatim sur Storgata 6. La billetterie désigne explicitement Bryggeriet comme 'our main venue'. Tarif 650 NOK = day pass standard (le pass 3 jours est à 1150 NOK, les tarifs étudiants à 550/950 sont des tarifs réduits)."
+ },
+ {
+  "title": "Flow Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.18637,
+  "lng": 24.97165,
+  "date": "2027-08-13",
+  "endDate": "2027-08-15",
+  "time": "14:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Suvilahti",
+  "trending": false,
+  "lineup": [],
+  "desc": "Flow Festival s'installe chaque mois d'août dans l'ancienne centrale électrique de Suvilahti, à l'est du centre d'Helsinki, et réunit environ 90 000 personnes sur trois jours. La programmation croise pop, jazz et une scène électronique fournie, avec plusieurs scènes de club ouvertes tard. L'édition 2027 est annoncée du 13 au 15 août, la programmation n'est pas encore publiée.",
+  "descEn": "Flow Festival takes over the former Suvilahti power plant east of central Helsinki every August, drawing around 90,000 people over three days. The programme spans pop, jazz and a substantial electronic strand, with several club stages running late. The 2027 edition is announced for 13 to 15 August, with the line-up not yet published.",
+  "ticketUrl": "https://www.tiketti.fi/flow-festival-2027-suvilahti-helsinki-tickets/119868",
+  "sources": [
+   "https://www.tiketti.fi/flow-festival-2027-suvilahti-helsinki-tickets/119868",
+   "https://www.flowfestival.com/en/"
+  ],
+  "note": "Adresse : Suvilahti, Kaasutehtaankatu 1, 00540 Helsinki, Finlande. Coordonnées Nominatim sur le site de Suvilahti. Tarif non communiqué : seuls des pass 3 jours Early Bird sont en vente et Tiketti n'affiche pas le montant dans la page lue. Heure d'ouverture indicative."
+ },
+ {
+  "title": "Madben au Culture Box",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.6864,
+  "lng": 12.58406,
+  "date": "2026-09-25",
+  "time": "22:00",
+  "price": 150,
+  "currency": "DKK",
+  "venue": "Culture Box",
+  "trending": false,
+  "lineup": [
+   "Madben",
+   "Anton Goltermann",
+   "Halfdan Sandquist",
+   "Valentina",
+   "Popsie",
+   "Silk!",
+   "Califano"
+  ],
+  "desc": "Culture Box tient depuis 2005 la programmation techno la plus suivie de Copenhague, sur deux salles, la Black Box et la Red Box. Le Français Madben, habitué de l'écurie Astropolis, ouvre la Black Box ce soir-la avec Anton Goltermann et Halfdan Sandquist. La nuit court de 22 h à 7 h, avec un tarif réduit passe 5 h 30.",
+  "descEn": "Culture Box has run Copenhagen's most closely followed techno programme since 2005, across two rooms, the Black Box and the Red Box. French producer Madben headlines the Black Box alongside Anton Goltermann and Halfdan Sandquist. The night runs from 10pm to 7am, with a reduced door price after 5.30am.",
+  "sources": [
+   "https://www.culture-box.com/"
+  ],
+  "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnées Nominatim sur Kronprinsessegade 54. Tarif 150 DKK affiche à l'agenda du club (100 DKK après 5 h 30)."
+ },
+ {
+  "title": "Culture Box Halloween",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.6864,
+  "lng": 12.58406,
+  "date": "2026-10-31",
+  "time": "21:00",
+  "price": 160,
+  "currency": "DKK",
+  "venue": "Culture Box",
+  "trending": false,
+  "lineup": [
+   "Karsten Loud",
+   "Denize",
+   "Bongo & Pusk",
+   "Rasmus Lutzen",
+   "Tim Andresen",
+   "Minimalene",
+   "Rexie Lex"
+  ],
+  "desc": "Le Culture Box ouvre ses deux salles une heure plus tôt pour sa nuit d'Halloween, de 21 h à 8 h. La Black Box réunit Karsten Loud, Denize et le duo Bongo & Pusk, la Red Box revient à Tim Andresen, résident historique de la maison. Le tarif passe à 100 DKK après 6 h.",
+  "descEn": "Culture Box opens both rooms an hour early for its Halloween night, running 9pm to 8am. The Black Box brings together Karsten Loud, Denize and the duo Bongo & Pusk, while the Red Box goes to long-standing resident Tim Andresen. The door price drops to 100 DKK after 6am.",
+  "sources": [
+   "https://www.culture-box.com/"
+  ],
+  "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnées Nominatim sur Kronprinsessegade 54. Tarif 160 DKK affiche à l'agenda du club."
+ },
+ {
+  "title": "Dusky au Culture Box",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.6864,
+  "lng": 12.58406,
+  "date": "2026-11-13",
+  "time": "22:00",
+  "price": 160,
+  "currency": "DKK",
+  "venue": "Culture Box",
+  "trending": false,
+  "lineup": [
+   "Dusky",
+   "Samuel Rees",
+   "Droze",
+   "Soltmann",
+   "Ros"
+  ],
+  "desc": "Le duo londonien Dusky pose son Signals Tour dans la Black Box du Culture Box, entouré de Samuel Rees et Drøze. La Red Box revient aux résidents Sóltmänn et Ros. Le club ouvre à 22 h et ferme à 8 h, avec un tarif réduit passe 6 h.",
+  "descEn": "London duo Dusky bring their Signals Tour to Culture Box's Black Box, alongside Samuel Rees and Drøze. The Red Box goes to residents Sóltmänn and Ros. Doors are at 10pm and the night runs to 8am, with a reduced door price after 6am.",
+  "sources": [
+   "https://www.culture-box.com/"
+  ],
+  "note": "Adresse : Culture Box, Kronprinsessegade 54, 1306 Copenhague K, Danemark. Coordonnées Nominatim sur Kronprinsessegade 54. Tarif 160 DKK affiche à l'agenda du club."
+ },
+ {
+  "title": "Danilo Plessow au Kaiku",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.18376,
+  "lng": 24.9599,
+  "date": "2026-09-18",
+  "time": "22:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Kaiku",
+  "trending": false,
+  "lineup": [
+   "Danilo Plessow",
+   "Maria Wesander",
+   "Fleur Amser",
+   "Elina",
+   "Mayela",
+   "Juls Sanchez",
+   "3rdocia"
+  ],
+  "desc": "Le Kaiku, installé dans une ancienne halle de Sörnäinen, tient la programmation house et techno la plus suivie d'Helsinki. L'Allemand Danilo Plessow, connu sous le nom de Motor City Drum Ensemble, y joue sur deux salles avec Maria Wesander, Fleur Amser et le collectif Rakata. La nuit court de 22 h à 4 h.",
+  "descEn": "Kaiku, set in a former hall in Sörnäinen, runs Helsinki's most closely followed house and techno programme. German producer Danilo Plessow, better known as Motor City Drum Ensemble, plays across two rooms with Maria Wesander, Fleur Amser and the Rakata collective. The night runs from 10pm to 4am.",
+  "ticketUrl": "https://www.eventu.al/en/event/9093/finland/helsinki/danilo-plessow-nl",
+  "sources": [
+   "https://clubkaiku.fi/"
+  ],
+  "note": "Adresse : Kaiku, Kaikukatu 4, 00530 Helsinki, Finlande. Coordonnées Nominatim sur Kaikukatu 4 (le POI 'Kaiku' y est nommé). Tarif 12 EUR = prévente avant 23 h (16 EUR ensuite)."
+ },
+ {
+  "title": "Freddy K au Kaiku",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.18376,
+  "lng": 24.9599,
+  "date": "2026-09-25",
+  "time": "22:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Kaiku",
+  "trending": false,
+  "lineup": [
+   "Freddy K",
+   "CEB",
+   "Lil Tony",
+   "Ronja"
+  ],
+  "desc": "Freddy K, figure romaine de la techno installée à Berlin et patron du label Key Vinyl, revient au Kaiku pour une nuit de 22 h à 4 h. Le collectif finlandais Bassment et le b2b CEB / Lil Tony complètent l'affiche. Le club impose une limite d'âge à 20 ans.",
+  "descEn": "Freddy K, the Rome-born, Berlin-based techno veteran behind the Key Vinyl label, returns to Kaiku for a night running 10pm to 4am. Finnish collective Bassment and a CEB b2b Lil Tony set fill out the bill. The club has a 20+ age limit.",
+  "ticketUrl": "https://www.eventu.al/en/event/9649/finland/helsinki/freddy-k-it",
+  "sources": [
+   "https://clubkaiku.fi/"
+  ],
+  "note": "Adresse : Kaiku, Kaikukatu 4, 00530 Helsinki, Finlande. Coordonnées Nominatim sur Kaikukatu 4. Tarif 12 EUR = prévente avant 23 h (16 EUR ensuite)."
+ },
+ {
+  "title": "Club Zero à l'Ääniwalli",
+  "type": "Warehouse",
+  "genres": [
+   "Hardcore",
+   "Hard Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.19491,
+  "lng": 24.95028,
+  "date": "2026-10-03",
+  "time": "22:00",
+  "price": 24,
+  "currency": "EUR",
+  "venue": "Ääniwalli",
+  "trending": false,
+  "lineup": [
+   "Bygdetrapen",
+   "Amil Raja",
+   "Finnjavel",
+   "Glayden",
+   "Exploited Body",
+   "Una MFM",
+   "Niko Demus"
+  ],
+  "desc": "Ääniwalli occupe une ancienne halle industrielle du quartier de Vallila et sert de grande salle de club à Helsinki. La quatorzième édition de Club Zero rassemble le live norvégien Bygdetrapen, la Britannique Amil Raja et la scène hardcore locale autour de Glayden. Entrée à partir de 24 euros en prévente, plus 3,90 euros de frais de sécurité.",
+  "descEn": "Ääniwalli occupies a former industrial hall in the Vallila district and serves as Helsinki's large-format club room. The fourteenth Club Zero brings Norwegian live act Bygdetrapen, British DJ Amil Raja and the local hardcore scene around Glayden. Entry starts at 24 euros in advance, plus a 3.90 euro security fee.",
+  "sources": [
+   "https://aaniwalli.fi/events/2026-10-03-club_zero_vol14/"
+  ],
+  "note": "Adresse : Ääniwalli, Pälkäneentie 13 B, 00510 Helsinki (Vallila), Finlande. Coordonnées Nominatim sur Pälkäneentie 13. Tarif 24 EUR = pre ticket annoncé sur la page de l'événement."
+ },
+ {
+  "title": "FURY à l'Ääniwalli",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.19491,
+  "lng": 24.95028,
+  "date": "2026-10-16",
+  "time": "22:00",
+  "price": 29,
+  "currency": "EUR",
+  "venue": "Ääniwalli",
+  "trending": false,
+  "lineup": [
+   "Cara Elizabeth",
+   "Johannes Schuster",
+   "Mika Heggemann"
+  ],
+  "desc": "Club Fury ouvre sa saison d'automne dans l'intégralité de l'Ääniwalli, les deux salles réunies. Cara Elizabeth, Johannes Schuster et Mika Heggemann font tous les trois leurs débuts en Finlande ce soir-la. Les billets Early Bird sont à 29 euros, le tarif Phase 1 a 35 euros plus frais.",
+  "descEn": "Club Fury opens its autumn season across the whole of Ääniwalli, both rooms combined. Cara Elizabeth, Johannes Schuster and Mika Heggemann all make their Finnish debuts that night. Early Bird tickets are 29 euros, with Phase 1 at 35 euros plus fees.",
+  "sources": [
+   "https://aaniwalli.fi/events/2026-10-16-fury_cara_elizabeth_de_johannes_schuster_de_mika_heggemann_de/"
+  ],
+  "note": "Adresse : Ääniwalli, Pälkäneentie 13 B, 00510 Helsinki (Vallila), Finlande. Coordonnées Nominatim sur Pälkäneentie 13. Tarif 29 EUR = Early Bird, en série limitée ; Phase 1 a 35 EUR."
+ },
+ {
+  "title": "Kevin Saunderson au Jaeger",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91415,
+  "lng": 10.74379,
+  "date": "2026-10-02",
+  "time": "20:45",
+  "price": 200,
+  "currency": "NOK",
+  "venue": "Jaeger",
+  "trending": false,
+  "lineup": [
+   "Kevin Saunderson",
+   "Waajeed",
+   "g-HA & Olanskii",
+   "DJ R-ZO",
+   "DJ Niwin",
+   "DJ Ghar",
+   "Soldal"
+  ],
+  "desc": "Le Jaeger, club en sous-sol de Grensen ouvert en 2013, réunit ses soirées Frædag, MUD et Soul Sessions Oslo pour une nuit Detroit. Kevin Saunderson, membre des Belleville Three, partagé l'affiche avec Waajeed, associé de J Dilla et patron du label Dirt Tech Reck. Entrée à 200 NOK, 150 NOK avec un pass festival.",
+  "descEn": "Jaeger, the basement club on Grensen open since 2013, brings its Fraedag, MUD and Soul Sessions Oslo nights together for a Detroit special. Kevin Saunderson of the Belleville Three shares the bill with Waajeed, a J Dilla associate and head of the Dirt Tech Reck label. Entry is 200 NOK, or 150 NOK with a festival pass.",
+  "sources": [
+   "https://jaegeroslo.no/events/",
+   "https://jaegeroslo.no/events/friday-fraedag-x-mud-x-sso-kevin-saunderson-waajeed/"
+  ],
+  "note": "Adresse : Jaeger, Grensen 9, 0159 Oslo, Norvège. Coordonnées Nominatim sur Grensen 9. Tarif 200 NOK affiche à l'agenda du club."
+ },
+ {
+  "title": "Octave One au Jaeger",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91415,
+  "lng": 10.74379,
+  "date": "2026-10-09",
+  "time": "23:00",
+  "price": 0,
+  "currency": "NOK",
+  "venue": "Jaeger",
+  "trending": false,
+  "lineup": [
+   "Octave One",
+   "g-HA & Olanskii",
+   "Oyvind Morken"
+  ],
+  "desc": "Deuxième semaine consécutive de Detroit au Jaeger, avec le live d'Octave One dans le sous-sol. Les frères Burden portent depuis le début des années 1990 un set matériel entièrement joué sur machines. Les résidents g-HA & Olanskii et Øyvind Morken tiennent la cour extérieure.",
+  "descEn": "A second consecutive week of Detroit at Jaeger, with Octave One playing live in the basement. The Burden brothers have been performing a fully hardware-driven set since the early 1990s. Residents g-HA & Olanskii and Oyvind Morken hold the outdoor yard.",
+  "sources": [
+   "https://jaegeroslo.no/events/friday-fraedag-octave-one-live/",
+   "https://jaegeroslo.no/events/"
+  ],
+  "note": "Adresse : Jaeger, Grensen 9, 0159 Oslo, Norvège. Coordonnées Nominatim sur Grensen 9. Tarif non communiqué par le club à la date de lecture. Heure de début reprise du format Frædag (23 h), non confirmee pour cette date."
+ },
+ {
+  "title": "Hyperdrive: Stan Christ au Slakthuset",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Stockholm",
+  "country": "Sweden",
+  "lat": 59.29164,
+  "lng": 18.0795,
+  "date": "2026-10-09",
+  "time": "22:00",
+  "price": 150,
+  "currency": "SEK",
+  "venue": "Slakthuset",
+  "trending": false,
+  "lineup": [
+   "Stan Christ",
+   "Yohan.Aif",
+   "Claire Hardman",
+   "KTW",
+   "Vanya"
+  ],
+  "desc": "Slakthuset occupe une ancienne halle du quartier des abattoirs de Johanneshov, au sud de Stockholm. La soirée Hyperdrive y invite le Néerlandais Stan Christ, dont le morceau Trepidation a imposé un son hard techno à 150 BPM. Les résidents Yohan.Aif, Claire Hardman b2b KTW et Vanya complètent la nuit, de 22 h à 3 h.",
+  "descEn": "Slakthuset occupies a former hall in the Johanneshov meatpacking district in southern Stockholm. The Hyperdrive night brings in Dutch DJ Stan Christ, whose track Trepidation set out his 150 BPM hard techno sound. Residents Yohan.Aif, Claire Hardman b2b KTW and Vanya fill out the night, running 10pm to 3am.",
+  "sources": [
+   "https://www.spelning.se/konsert/hyperdrive-with-stan-christ-nl-slakthuset-9-oktober",
+   "https://www.spelning.se/stockholm/slakthuset"
+  ],
+  "note": "Adresse : Slakthuset, Slakthusgatan 6, 121 62 Johanneshov (Stockholm), Suède. Coordonnées Nominatim sur Slakthusgatan 6. Tarif 150 SEK indiqué par le JSON-LD de la fiche (a partir de)."
+ },
+ {
+  "title": "Anna Reusch au Slakthuset",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Stockholm",
+  "country": "Sweden",
+  "lat": 59.29164,
+  "lng": 18.0795,
+  "date": "2026-09-12",
+  "time": "22:00",
+  "price": 0,
+  "currency": "SEK",
+  "venue": "Slakthuset",
+  "trending": false,
+  "lineup": [
+   "Anna Reusch",
+   "Relinquo",
+   "Patrik Pagan",
+   "Elevany"
+  ],
+  "desc": "Le collectif DEMAND ramène l'Allemande Anna Reusch au Slakthuset pour sa deuxième date suédoise. Signée sur Arcane et Drumcode, elle joue une techno rapide et mélodique. Relinquo b2b Patrik Pagan et Elevany assurent le reste de la nuit, de 22 h à 3 h.",
+  "descEn": "The DEMAND collective brings German DJ Anna Reusch back to Slakthuset for her second Swedish date. Signed to Arcane and Drumcode, she plays fast, melodic techno. Relinquo b2b Patrik Pagan and Elevany cover the rest of the night, running 10pm to 3am.",
+  "sources": [
+   "https://www.spelning.se/konsert/demand-pres-anna-reusch-slakthuset-slakthuset-12-september"
+  ],
+  "note": "Adresse : Slakthuset, Slakthusgatan 6, 121 62 Johanneshov (Stockholm), Suède. Coordonnées Nominatim sur Slakthusgatan 6. Tarif non communiqué sur la fiche lue."
+ },
+ {
+  "title": "Kind People Club: Patrick Mason",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Stockholm",
+  "country": "Sweden",
+  "lat": 59.29242,
+  "lng": 18.08013,
+  "date": "2026-09-25",
+  "time": "22:00",
+  "price": 0,
+  "currency": "SEK",
+  "venue": "Slaktkyrkan",
+  "trending": false,
+  "lineup": [
+   "Patrick Mason"
+  ],
+  "desc": "La Slaktkyrkan est l'ancienne halle de découpe du quartier des abattoirs de Johanneshov, reconvertie en salle de concert et de club. Kind People Club y accueille Patrick Mason, performeur berlinois connu autant pour ses sets techno que pour sa présence scénique. La nuit démarre à 22 h.",
+  "descEn": "Slaktkyrkan is the former cutting hall of the Johanneshov meatpacking district, converted into a concert and club room. Kind People Club hosts Patrick Mason, the Berlin performer known as much for his techno sets as for his stage presence. Doors are at 10pm.",
+  "sources": [
+   "https://www.spelning.se/stockholm/slaktkyrkan"
+  ],
+  "note": "Adresse : Slaktkyrkan, Rökerigatan, Slakthusområdet, 121 62 Johanneshov (Stockholm), Suède. Coordonnées Nominatim sur le POI Slaktkyrkan. Tarif non communiqué sur la fiche lue."
+ },
+ {
+  "title": "Grovskopa MORD Resurrection",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Malmö",
+  "country": "Sweden",
+  "lat": 55.59405,
+  "lng": 13.00785,
+  "date": "2026-10-10",
+  "time": "23:59",
+  "price": 0,
+  "currency": "SEK",
+  "venue": "Inkonst",
+  "trending": false,
+  "lineup": [
+   "Grovskopa",
+   "Stanislav Tolkachev",
+   "Rebecka Sekelius"
+  ],
+  "desc": "Inkonst est une ancienne fabrique de Bergsgatan devenue maison de la culture et salle de club de Malmö. Le Suédois Grovskopa remet en route sa soirée MORD avec l'Ukrainien Stanislav Tolkachev et Rebecka Sekelius. Ouverture à 23 h 59, limite d'âge à 20 ans.",
+  "descEn": "Inkonst is a former factory on Bergsgatan that became Malmö's arts house and club room. Swedish DJ Grovskopa restarts his MORD night with Ukrainian producer Stanislav Tolkachev and Rebecka Sekelius. Doors at 11.59pm, with a 20+ age limit.",
+  "sources": [
+   "https://www.spelning.se/konsert/grovskopa-stanislav-tolkachev-rebecka-sekelius-inkonst-10-oktober"
+  ],
+  "note": "Adresse : Inkonst, Bergsgatan 29, 214 22 Malmö, Suède. Coordonnées Nominatim sur le POI Inkonst. Tarif non communiqué sur la fiche lue."
+ },
+ {
+  "title": "Olof Dreijer à la Moriska Paviljongen",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Malmö",
+  "country": "Sweden",
+  "lat": 55.59374,
+  "lng": 13.01362,
+  "date": "2026-10-23",
+  "time": "21:00",
+  "price": 195,
+  "currency": "SEK",
+  "venue": "Moriska Paviljongen",
+  "trending": false,
+  "lineup": [
+   "Olof Dreijer"
+  ],
+  "desc": "Olof Dreijer, moitié du duo suédois The Knife, joue en solo à la Moriska Paviljongen, pavillon de style mauresque construit en 1902 dans le parc de Folkets Park à Malmö. Son set mélange percussions, house et électronique de club. Début à 21 h, entrée à 195 SEK.",
+  "descEn": "Olof Dreijer, one half of Swedish duo The Knife, plays solo at Moriska Paviljongen, the Moorish-style pavilion built in 1902 in Malmö's Folkets Park. His set mixes percussion, house and club electronics. Doors at 9pm, tickets 195 SEK.",
+  "sources": [
+   "https://www.spelning.se/konsert/grovskopa-stanislav-tolkachev-rebecka-sekelius-inkonst-10-oktober"
+  ],
+  "note": "Adresse : Moriska Paviljongen, Norra Parkgatan 2, 211 44 Malmö, Suède. Coordonnées Nominatim sur le POI Moriska paviljongen. Tarif 195 SEK relevé sur spelning.se, a reconfirmer chez l'organisateur."
+ },
+ {
+  "title": "Olof Dreijer au Pustervik",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "lat": 57.70045,
+  "lng": 11.95422,
+  "date": "2026-10-29",
+  "time": "19:00",
+  "price": 325,
+  "currency": "SEK",
+  "venue": "Pustervik",
+  "trending": false,
+  "lineup": [
+   "Olof Dreijer"
+  ],
+  "desc": "Pustervik tient depuis 1998 la principale scène concert et club de Göteborg, deux étages et trois salles près de Järntorget. Olof Dreijer, moitié de The Knife, y présente son projet solo dans la Stora Klubben. Début à 19 h, billet à 325 SEK.",
+  "descEn": "Pustervik has run Gothenburg's main concert and club venue since 1998, two floors and three rooms near Järntorget. Olof Dreijer, one half of The Knife, brings his solo project to the Stora Klubben. Doors at 7pm, tickets 325 SEK.",
+  "sources": [
+   "https://pustervik.nu/kalender"
+  ],
+  "note": "Adresse : Pustervik, Järntorgsgatan 12, 413 01 Göteborg, Suède. Coordonnées Nominatim sur le POI Pustervik. Tarif 325 SEK affiche au calendrier officiel."
+ },
+ {
+  "city": "Cork",
+  "country": "Ireland",
+  "lat": 51.8984,
+  "lng": -8.46986,
+  "venue": "Cyprus Avenue",
+  "currency": "EUR",
+  "trending": false,
+  "title": "Mark Blair au Cyprus Avenue",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2026-09-12",
+  "time": "23:00",
+  "price": 20,
+  "lineup": [
+   "Mark Blair"
+  ],
+  "desc": "Le Cyprus Avenue tient depuis 2007 la principale salle de concert et de club du centre de Cork, sur Caroline Street. Le DJ nord-irlandais Mark Blair y joue une nuit house et techno à partir de 23 h. Entrée à 20 euros en prévente.",
+  "descEn": "Cyprus Avenue has run Cork city centre's main concert and club room on Caroline Street since 2007. Northern Irish DJ Mark Blair plays a house and techno night from 11pm. Tickets are 20 euros in advance.",
+  "sources": [
+   "https://www.cyprusavenue.ie/gigs",
+   "https://www.cyprusavenue.ie/"
+  ],
+  "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnées lues dans le script Google Maps de la page /map du site officiel. Tarif 20 EUR affiche à l'agenda officiel."
+ },
+ {
+  "city": "Cork",
+  "country": "Ireland",
+  "lat": 51.8984,
+  "lng": -8.46986,
+  "venue": "Cyprus Avenue",
+  "currency": "EUR",
+  "trending": false,
+  "title": "Twofaced au Cyprus Avenue",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "date": "2026-09-18",
+  "time": "23:00",
+  "price": 22.5,
+  "lineup": [
+   "Twofaced"
+  ],
+  "desc": "Twofaced, projet techno irlandais, prend la salle principale du Cyprus Avenue pour une nuit de club à partir de 23 h. Le lieu programme concerts en début de soirée et club après 23 h, deux billetteries distinctes. Entrée à 22,50 euros.",
+  "descEn": "Twofaced, the Irish techno project, takes over the Cyprus Avenue main room for a club night from 11pm. The venue runs concerts early and club nights after 11pm as separate ticketed events. Entry is 22.50 euros.",
+  "sources": [
+   "https://www.cyprusavenue.ie/gigs"
+  ],
+  "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnées lues dans le script Google Maps de /map. Tarif 22,50 EUR affiche à l'agenda officiel."
+ },
+ {
+  "city": "Cork",
+  "country": "Ireland",
+  "lat": 51.8984,
+  "lng": -8.46986,
+  "venue": "Cyprus Avenue",
+  "currency": "EUR",
+  "trending": false,
+  "title": "Paul Oakenfold au Cyprus Avenue",
+  "type": "Club",
+  "genres": [
+   "Trance",
+   "House"
+  ],
+  "date": "2026-09-25",
+  "time": "23:00",
+  "price": 30,
+  "lineup": [
+   "Paul Oakenfold"
+  ],
+  "desc": "Paul Oakenfold, l'un des noms qui ont porte la trance britannique depuis la fin des années 1980, joue au Cyprus Avenue de Cork. La soirée démarre à 23 h dans la salle principale. Billet à 30 euros.",
+  "descEn": "Paul Oakenfold, one of the names that carried British trance from the late 1980s onward, plays Cyprus Avenue in Cork. The night starts at 11pm in the main room. Tickets are 30 euros.",
+  "sources": [
+   "https://www.cyprusavenue.ie/gigs"
+  ],
+  "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnées lues dans le script Google Maps de /map. Tarif 30 EUR affiche à l'agenda officiel."
+ },
+ {
+  "city": "Cork",
+  "country": "Ireland",
+  "lat": 51.8984,
+  "lng": -8.46986,
+  "venue": "Cyprus Avenue",
+  "currency": "EUR",
+  "trending": false,
+  "title": "Faithless DJ Set au Cyprus Avenue",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2026-12-12",
+  "time": "23:00",
+  "price": 35,
+  "lineup": [
+   "Faithless"
+  ],
+  "desc": "Faithless vient en DJ set au Cyprus Avenue, dans la salle principale, a partir de 23 h. Le groupe britannique, formé en 1995 autour de Rollo et Sister Bliss, tourne aujourd'hui sous ce format. Billet à 35 euros.",
+  "descEn": "Faithless bring a DJ set to the Cyprus Avenue main room from 11pm. The British group, formed in 1995 around Rollo and Sister Bliss, tours in this format today. Tickets are 35 euros.",
+  "sources": [
+   "https://www.cyprusavenue.ie/gigs"
+  ],
+  "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnées lues dans le script Google Maps de /map. Tarif 35 EUR affiche à l'agenda officiel."
+ },
+ {
+  "title": "Index: 999999999",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Acid Techno"
+  ],
+  "city": "Dublin",
+  "country": "Ireland",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "date": "2026-09-18",
+  "time": "22:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Index",
+  "trending": false,
+  "lineup": [
+   "999999999"
+  ],
+  "desc": "Index occupe le sous-sol du 57 Middle Abbey Street et porte la programmation techno la plus suivie de Dublin. Le duo italien 999999999 y joue son live acid et hard techno, joue entièrement sur machines. Ouverture à 22 h, fermeture à 3 h.",
+  "descEn": "Index sits in the basement of 57 Middle Abbey Street and runs Dublin's most closely followed techno programme. Italian duo 999999999 bring their fully hardware acid and hard techno live show. Doors at 10pm, closing at 3am.",
+  "sources": [
+   "https://www.indexdublin.com/events/"
+  ],
+  "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnées Nominatim sur le POI 'Index Dublin' au 57 Middle Abbey Street. Tarif non communiqué : la billetterie passe par DICE, dont les pages sont inaccessibles depuis ce conteneur."
+ },
+ {
+  "title": "Index: Kepler",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Dublin",
+  "country": "Ireland",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "date": "2026-09-26",
+  "time": "22:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Index",
+  "trending": false,
+  "lineup": [
+   "Kepler"
+  ],
+  "desc": "Nuit longue à l'Index, de 22 h jusqu'àu lendemain après-midi, autour de Kepler. Le club de Middle Abbey Street programme régulièrement ces formats étirés que la scène dublinoise appelle des afters. L'âge minimum est de 18 ans.",
+  "descEn": "A long night at Index, from 10pm through to the following afternoon, built around Kepler. The Middle Abbey Street club regularly runs these extended formats, known locally as afters. Minimum age is 18.",
+  "sources": [
+   "https://www.indexdublin.com/events/"
+  ],
+  "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnées Nominatim sur le POI 'Index Dublin'. Horaire de fin annoncé à 14 h 30 le lendemain sur l'agenda officiel. Tarif non communiqué : billetterie DICE inaccessible depuis ce conteneur."
+ },
+ {
+  "title": "Wigwam: 49th & Main",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Dublin",
+  "country": "Ireland",
+  "lat": 53.348004,
+  "lng": -6.26215,
+  "date": "2026-10-10",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Wigwam",
+  "trending": false,
+  "lineup": [
+   "49th & Main"
+  ],
+  "desc": "Wigwam occupe un ancien bar de Middle Abbey Street et programme ses nuits club dans son sous-sol. Le duo irlandais 49th & Main, connu pour une house mélodique et chantee, y joue dans le cadre de la série Wigwam Presents. La nuit court jusqu'à 3 h.",
+  "descEn": "Wigwam occupies a former bar on Middle Abbey Street and runs its club nights in the basement. Irish duo 49th & Main, known for melodic, vocal-led house, play as part of the Wigwam Presents series. The night runs until 3am.",
+  "sources": [
+   "https://www.wigwamdublin.com/wigwampresents"
+  ],
+  "note": "Adresse : Wigwam, 54 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnées Nominatim sur le POI Wigwam. Tarif non communiqué : la billetterie passe par Resident Advisor, inaccessible depuis ce conteneur. Horaire 23 h repris du format habituel des nuits Wigwam Presents, non confirme pour cette date."
+ },
+ {
+  "title": "Forbidden Fruit",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Dublin",
+  "country": "Ireland",
+  "lat": 53.34216,
+  "lng": -6.2997,
+  "date": "2027-06-05",
+  "endDate": "2027-06-06",
+  "time": "14:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Royal Hospital Kilmainham",
+  "trending": false,
+  "lineup": [],
+  "desc": "Forbidden Fruit est le plus ancien festival en centre-ville de Dublin, installé dans les jardins du Royal Hospital Kilmainham qui abritent aussi le musée d'art moderne irlandais. Sa programmation fait une large place à la house et à la techno. L'édition 2027 est annoncée les 5 et 6 juin, la programmation n'est pas encore publiée.",
+  "descEn": "Forbidden Fruit is Dublin's longest-running city-centre festival, set in the grounds of the Royal Hospital Kilmainham, which also house the Irish Museum of Modern Art. Its programme leans heavily on house and techno. The 2027 edition is announced for 5 and 6 June, with the line-up not yet published.",
+  "sources": [
+   "https://www.skiddle.com/festivals/forbidden-fruit/"
+  ],
+  "note": "Adresse : Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin 8, D08 FW31, Irlande. Coordonnées reprises du JSON-LD MusicEvent de Skiddle (53.3421604, -6.2996996), cohérentes avec le POI Nominatim de l'IMMA. Tarif non communiqué : la page Skiddle affiche 'from 0.00' et ne vend pas encore. Heure d'ouverture indicative, non annoncée. Lien Skiddle /festivals/ retire : ces pages sont des pages line-up sans offre, elles ne vendent pas."
+ },
+ {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.69144,
+  "lng": 12.61695,
+  "venue": "Hangaren",
+  "currency": "DKK",
+  "trending": false,
+  "type": "Warehouse",
+  "title": "Sunday Psy au Hangaren",
+  "genres": [
+   "Psytrance"
+  ],
+  "date": "2026-09-13",
+  "time": "16:00",
+  "price": 50,
+  "lineup": [
+   "Maurinstarr",
+   "Milo Makua",
+   "RunaRift",
+   "Afgang"
+  ],
+  "desc": "Le Hangaren est un ancien hangar de Refshaleøen transformé en club électronique en 2021, avec un jardin et un feu de camp. Sunday Psy est son rendez-vous psytrance en plein air, une fois tous les quinze jours, de 16 h à minuit. Entrée à partir de 50 DKK en early bird, 75 DKK ensuite, 20 ans minimum.",
+  "descEn": "Hangaren is a former hangar on Refshaleøen turned into an electronic music club in 2021, with a garden and a bonfire. Sunday Psy is its biweekly outdoor psytrance gathering, running 4pm to midnight. Entry starts at 50 DKK early bird, 75 DKK after, with a 20+ age limit.",
+  "sources": [
+   "https://www.hangaren.dk/events"
+  ],
+  "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnées Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'événement."
+ },
+ {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.69144,
+  "lng": 12.61695,
+  "venue": "Hangaren",
+  "currency": "DKK",
+  "trending": false,
+  "type": "Warehouse",
+  "title": "Nastia au Hangaren",
+  "genres": [
+   "Techno"
+  ],
+  "date": "2026-10-02",
+  "time": "23:00",
+  "price": 125,
+  "lineup": [
+   "Nastia",
+   "Ena Cosovic",
+   "Kallax"
+  ],
+  "desc": "L'Ukrainienne Nastia, l'une des figures les plus constantes de la techno d'Europe de l'Est, joue au Hangaren de 23 h à 6 h. Ena Cosovic et Kallax complètent l'affiche. Les tarifs vont de 125 DKK pour une entrée avant minuit à 175 DKK sur place.",
+  "descEn": "Ukrainian DJ Nastia, one of the steadiest figures in Eastern European techno, plays Hangaren from 11pm to 6am. Ena Cosovic and Kallax fill out the bill. Prices run from 125 DKK for entry before midnight to 175 DKK on the door.",
+  "sources": [
+   "https://www.hangaren.dk/events"
+  ],
+  "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnées Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'événement."
+ },
+ {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.69144,
+  "lng": 12.61695,
+  "venue": "Hangaren",
+  "currency": "DKK",
+  "trending": false,
+  "type": "Warehouse",
+  "title": "Damian Lazarus au Hangaren",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2026-10-03",
+  "time": "23:00",
+  "price": 125,
+  "lineup": [
+   "Damian Lazarus",
+   "Minimalene",
+   "Nilu"
+  ],
+  "desc": "Damian Lazarus, patron du label Crosstown Rebels, prend le Hangaren pour une nuit de 23 h à 6 h. Les Danoises Minimalene et Nilu ouvrent la soirée. Entrée à 125 DKK avant minuit, 175 DKK sur place, 20 ans minimum.",
+  "descEn": "Damian Lazarus, head of the Crosstown Rebels label, takes Hangaren for a night running 11pm to 6am. Danish DJs Minimalene and Nilu open. Entry is 125 DKK before midnight, 175 DKK on the door, 20+ only.",
+  "sources": [
+   "https://www.hangaren.dk/events"
+  ],
+  "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnées Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'événement."
+ },
+ {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "lat": 55.69144,
+  "lng": 12.61695,
+  "venue": "Hangaren",
+  "currency": "DKK",
+  "trending": false,
+  "type": "Warehouse",
+  "title": "Oliver Koletzki au Hangaren",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2026-11-13",
+  "time": "23:00",
+  "price": 125,
+  "lineup": [
+   "Oliver Koletzki"
+  ],
+  "desc": "Oliver Koletzki, fondateur du label berlinois Stil vor Talent, joue toute la nuit au Hangaren, de 23 h à 6 h. Le club, installé dans un hangar de Refshaleøen, tourne sur un système Lambda Labs. Entrée à 125 DKK avant minuit, 175 DKK sur place.",
+  "descEn": "Oliver Koletzki, founder of the Berlin label Stil vor Talent, plays all night at Hangaren, 11pm to 6am. The club, set in a hangar on Refshaleøen, runs a Lambda Labs system. Entry is 125 DKK before midnight, 175 DKK on the door.",
+  "sources": [
+   "https://www.hangaren.dk/events"
+  ],
+  "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnées Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'événement."
+ },
+ {
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91564,
+  "lng": 10.74856,
+  "venue": "The Villa",
+  "currency": "NOK",
+  "trending": false,
+  "type": "Club",
+  "title": "Objekt à The Villa",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "date": "2026-09-18",
+  "time": "23:00",
+  "price": 0,
+  "lineup": [
+   "Objekt"
+  ],
+  "desc": "The Villa tient depuis les années 1990 la programmation club la plus pointue d'Oslo, dans un sous-sol de Møllergata ouvert vendredi et samedi de 23 h à 3 h. Objekt, producteur né à Tokyo et installé à Berlin, y joue trois heures. Ses disques sortent sur Hessle Audio, PAN et son propre label Kapsela.",
+  "descEn": "The Villa has run Oslo's sharpest club programme since the 1990s, in a Møllergata basement open Friday and Saturday from 11pm to 3am. Objekt, the Tokyo-born, Berlin-based producer, plays a three-hour set. His records come out on Hessle Audio, PAN and his own Kapsela label.",
+  "ticketUrl": "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de",
+  "sources": [
+   "https://www.thevilla.no/event-details/objekt-de",
+   "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de"
+  ],
+  "note": "Adresse : The Villa, Møllergata 23-25, 0179 Oslo, Norvège. Coordonnées Nominatim sur Møllergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communiqué : la prévente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+ },
+ {
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91564,
+  "lng": 10.74856,
+  "venue": "The Villa",
+  "currency": "NOK",
+  "trending": false,
+  "type": "Club",
+  "title": "Legowelt à The Villa",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "date": "2026-10-17",
+  "time": "23:00",
+  "price": 0,
+  "lineup": [
+   "Legowelt"
+  ],
+  "desc": "La soirée Hypnokratiet invite Legowelt à The Villa pour un live. Le Néerlandais Danny Wolfers joue depuis les années 1990 une électronique de club faite au synthétiseur analogique, entre house de Chicago et electro. La nuit court de 23 h à 3 h.",
+  "descEn": "The Hypnokratiet night brings Legowelt to The Villa for a live show. Dutch producer Danny Wolfers has been making analogue synthesizer club music since the 1990s, between Chicago house and electro. The night runs 11pm to 3am.",
+  "ticketUrl": "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
+  "sources": [
+   "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
+   "https://www.thevilla.no/"
+  ],
+  "note": "Adresse : The Villa, Møllergata 23-25, 0179 Oslo, Norvège. Coordonnées Nominatim sur Møllergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communiqué : la prévente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+ },
+ {
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91564,
+  "lng": 10.74856,
+  "venue": "The Villa",
+  "currency": "NOK",
+  "trending": false,
+  "type": "Club",
+  "title": "Kollektiv Turmstrasse à The Villa",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2027-02-12",
+  "time": "23:00",
+  "price": 0,
+  "lineup": [
+   "Kollektiv Turmstrasse"
+  ],
+  "desc": "Kollektiv Turmstrasse vient jouer en live à The Villa. Le projet, fondé en duo à Wismar et poursuivi seul par Nico Plagemann, a sorti Rebellion der Träumer et des disques sur Kompakt, Diynamic et Cocoon. Ouverture à 23 h.",
+  "descEn": "Kollektiv Turmstrasse bring a live show to The Villa. The project, founded as a duo in Wismar and continued solo by Nico Plagemann, released Rebellion der Träumer and records on Kompakt, Diynamic and Cocoon. Doors at 11pm.",
+  "ticketUrl": "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live",
+  "sources": [
+   "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live"
+  ],
+  "note": "Adresse : The Villa, Møllergata 23-25, 0179 Oslo, Norvège. Coordonnées Nominatim sur Møllergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communiqué : la prévente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+ },
+ {
+  "title": "Tallinn Music Week",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Tallinn",
+  "country": "Estonia",
+  "lat": 59.43857,
+  "lng": 24.72777,
+  "date": "2027-04-08",
+  "endDate": "2027-04-11",
+  "time": "18:00",
+  "price": 65,
+  "currency": "EUR",
+  "venue": "Telliskivi Creative City",
+  "venueEn": "Telliskivi Creative City",
+  "trending": false,
+  "lineup": [],
+  "desc": "Tallinn Music Week est le festival de découverte de la scène balte, réparti sur les clubs et salles de la ville, avec Telliskivi Creative City et le quartier de Noblessner pour points d'ancrage. La 19e édition court du 8 au 11 avril 2027, la partie concerts du 8 au 10. La programmation électronique occupe les clubs de Kalamaja et de Kopli, elle n'est pas encore publiée.",
+  "descEn": "Tallinn Music Week is the Baltic discovery festival, spread across the city's clubs and concert halls, anchored on Telliskivi Creative City and the Noblessner district. The 19th edition runs 8 to 11 April 2027, with the music programme from 8 to 10 April. Its electronic strand fills the clubs of Kalamaja and Kopli and is not yet announced.",
+  "ticketUrl": "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
+  "sources": [
+   "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
+   "https://tmw.ee/artist-applications"
+  ],
+  "note": "Adresse : Telliskivi Creative City, Telliskivi 60a, 10412 Tallinn, Estonie. Coordonnées Nominatim sur Telliskivi 60a. Le festival est éclaté sur des dizaines de salles, le site principal est retenu. Tarif 65 EUR = pass festival au palier en vigueur du 1er mai au 30 septembre (55 EUR avant, 99 EUR sur place). Heure de début indicative."
+ }
 ]

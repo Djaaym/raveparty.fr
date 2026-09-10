@@ -788,5 +788,117 @@
       "https://goout.net/en/ventolin+fvlcrvm-ventofu-tour-2026/szchamy/"
     ],
     "note": "Adresse : Dom kultury Zrkadlovy haj, Rovniankova 3, 851 02 Bratislava - Petrzalka, Slovaquie. Coordonnees Nominatim sur le batiment 'Dom kultury Zrkadlovy Haj' (48.1168706 / 17.1107834). Tarif non communique sur la fiche GoOut."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49774,
+    "lng": 19.0538,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "IAM Productions : Bob Moses",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-11-01",
+    "time": "19:00",
+    "price": 0,
+    "lineup": [
+      "Bob Moses"
+    ],
+    "desc": "Le duo canadien Bob Moses, Tom Howie et Jimmy Vallance, joue en club set dans la NagyHall de l'Akvarium, la salle installee sous la place Erzsebet a Budapest. Soiree presentee par IAM Productions. Ouverture des portes a 19 h.",
+    "descEn": "Canadian duo Bob Moses, Tom Howie and Jimmy Vallance, play a club set in Akvarium's NagyHall, the room built under Budapest's Erzsebet square. Presented by IAM Productions. Doors at 19:00.",
+    "ticketUrl": "https://akvariumklub.hu/en/events/bob-moses/",
+    "sources": [
+      "https://akvariumklub.hu/en/events/bob-moses/",
+      "https://www.songkick.com/concerts/43352365-bob-moses-at-akvarium-klub"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page du club porte 'November 1 (Sunday)' : le 1er novembre 2026 est bien un dimanche, ce qui confirme l'annee, l'annee ecrite ailleurs sur la page etant un reliquat."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49774,
+    "lng": 19.0538,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "SKELER : Nightfall World Tour",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-11-14",
+    "time": "23:30",
+    "price": 0,
+    "lineup": [
+      "Skeler"
+    ],
+    "desc": "Le producteur Skeler amene sa tournee Nightfall dans la KisHall de l'Akvarium. Ouverture a 23 h 30, soiree reservee aux majeurs.",
+    "descEn": "Producer Skeler brings his Nightfall tour to Akvarium's KisHall. Doors at 23:30, 18 and over.",
+    "ticketUrl": "https://akvariumklub.hu/en/events/skeler-nightfall-world-tour/",
+    "sources": [
+      "https://akvariumklub.hu/en/events/skeler-nightfall-world-tour/"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page annonce 'Saturday, November 14' : le 14 novembre 2026 est un samedi, l'annee est donc bien 2026."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49774,
+    "lng": 19.0538,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "Kraak & Smaak à l'Akvárium",
+    "genres": [
+      "House"
+    ],
+    "date": "2026-11-28",
+    "time": "19:00",
+    "price": 0,
+    "lineup": [
+      "Kraak & Smaak"
+    ],
+    "desc": "Le trio neerlandais Kraak & Smaak, actif depuis 2003 entre nu-disco et house, joue a l'Akvarium Klub. Ouverture des portes a 19 h.",
+    "descEn": "Dutch trio Kraak & Smaak, active since 2003 between nu disco and house, play Akvarium Klub. Doors at 19:00.",
+    "sources": [
+      "https://www.songkick.com/concerts/43222352-kraak-and-smaak-at-akvarium-klub",
+      "https://www.songkick.com/metro-areas/29047-hungary-budapest/genre/electronic"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. Date et heure d'ouverture reprises du JSON-LD Songkick (2026-11-28T19:00)."
+  },
+  {
+    "title": "Next Level : Modestep à l'A38",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.47902,
+    "lng": 19.06378,
+    "date": "2026-11-13",
+    "time": "23:30",
+    "price": 0,
+    "currency": "HUF",
+    "venue": "A38 Hajó",
+    "venueEn": "A38 Ship",
+    "trending": false,
+    "lineup": [
+      "Modestep"
+    ],
+    "desc": "Le groupe britannique Modestep, entre dubstep et drum & bass, s'arrete a l'A38, ancien cargo ukrainien amarre au pied du pont Petofi et transforme en salle de concert. Soiree de la serie Next Level, ouverture a 23 h 30.",
+    "descEn": "UK act Modestep, moving between dubstep and drum and bass, stop at A38, a former Ukrainian cargo ship moored at the foot of Petofi bridge and converted into a venue. Part of the Next Level series, doors at 23:30.",
+    "sources": [
+      "https://www.songkick.com/concerts/43242944-modestep-at-a38-ship-a38-hajo",
+      "https://www.a38.hu/en/programs"
+    ],
+    "note": "Adresse : A38 Hajo, Petofi hid budai hidfo, Henryk Slawik rakpart, 1117 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.47902 / 19.06378), qui tombent bien sur le bateau amarre cote Buda. Le 13 novembre 2026 est un vendredi, conforme au 'November 13 (Friday)' annonce. Tarif non communique sur les pages consultees."
   }
 ]
