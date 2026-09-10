@@ -29,6 +29,11 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
      la marque polonaise porte sa ville et le belge garde le slug nu. L'archive 2026
      changeait alors d'URL, d'où le 301. */
   "sunrise-festival-2026": { base: "festival", slug: "sunrise-festival-kolobrzeg-2026" },
+  /* Deux fiches pour la même soirée du 17/10/2026 au Pavilhão Carlos Lopes : la clé
+     (ville, salle, jour) ne les voyait pas, « Lisboa » et « Lisbon » étant deux villes
+     tant que les orthographes n'étaient pas normalisées. On garde l'id le plus ancien,
+     dont l'URL est indexée, et le slug du doublon pointe ici. */
+  "jackies-lisboa-house-music-festival-chris-stassy": { base: "festival", slug: "jackies-house-music-festival-lisboa" },
   /* Deux titres portaient l'année de leur édition, ce que la convention interdit :
      `nextEdition()` et le slug canonique regroupent les éditions par titre exact, donc
      un titre daté ne groupe jamais, et le gabarit de `<title>` ajoute déjà l'année.

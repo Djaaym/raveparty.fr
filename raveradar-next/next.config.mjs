@@ -56,6 +56,16 @@ const nextConfig = {
       /* Slugs de salles réécrits par la correction de `slugify()` : « ø », « æ » et
          « ß » étaient supprimées au lieu d'être translittérées (Refshaleøen donnait
          `refshale-en`, la Straße des 17. Juni `stra-e`). */
+      /* Deux régions des Pouilles servaient de nom de salle et ouvraient donc une fiche
+         de lieu qui n'en est pas une, sans adresse ni agenda propre : le
+         /lieux/300-lieux-dans-amsterdam interdit, arrivé par une porte que
+         isMultiVenueLabel() ne fermait pas, ses mots-clés ne couvrant pas ces
+         périphrases. Les libellés passent en multi-lieux, et les deux URLs supprimées
+         rejoignent le festival qu'elles décrivaient plutôt que de tomber en 404. */
+      { source: "/lieux/valle-d-itria-puglia", destination: "/festival/polifonic", permanent: true },
+      { source: "/en/lieux/valle-d-itria-puglia", destination: "/en/festival/polifonic", permanent: true },
+      { source: "/lieux/locorotondo-valle-d-itria-pouilles", destination: "/festival/viva-festival", permanent: true },
+      { source: "/en/lieux/locorotondo-valle-d-itria-pouilles", destination: "/en/festival/viva-festival", permanent: true },
       { source: "/lieux/gamla-bio-i-no-tjarnarbio", destination: "/lieux/gamla-bio-idno-tjarnarbio", permanent: true },
       { source: "/en/lieux/gamla-bio-i-no-tjarnarbio", destination: "/en/lieux/gamla-bio-idno-tjarnarbio", permanent: true },
       { source: "/lieux/refshale-en", destination: "/lieux/refshaleoen", permanent: true },

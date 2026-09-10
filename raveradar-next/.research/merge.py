@@ -83,6 +83,7 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
 # Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
 # dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
 REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
+           ("jackieslisboahousemusicfestivalchrisstassy", "2026"): "doublon d'id 701, même soirée au Pavilhão Carlos Lopes ; les deux fiches coexistaient parce que « Lisboa » et « Lisbon » étaient deux villes pour la clé (ville, salle, jour)",
            # Doublon de « ZAMNA × PRIMER Athens » (mêmes 4-5/09, même enceinte olympique) :
            # deux périphrases pour la même salle, donc la clé `booked` ne l'a pas vu.
            ("zamnaxprimer", "2026"): "doublon de ZAMNA × PRIMER Athens (id 319)",

@@ -1,5 +1,15 @@
 [
   {
+    "id": 1,
+    "venue": "Festivalpark Hilvarenbeek",
+    "lat": 51.51343,
+    "lng": 5.12504,
+    "address": "Westrik 2, 5081 XK Hilvarenbeek, Pays-Bas",
+    "source": "https://www.awakenings.com/en/how-to-travel-festival2026/382311/",
+    "status": "corrige",
+    "note": "Entrée Sud publiée par Awakenings pour le terrain de Beekse Bergen (« Festival Entrance South: Westrik 2, Hilvarenbeek »). Écart avec l'ancien point : 807 m."
+  },
+  {
     "id": 3,
     "venue": "Strijkviertel",
     "lat": 52.07185,
@@ -80,6 +90,16 @@
     "note": "Ancienne base de missiles de Pydna, à Hasselbach et non au bourg de Kastellaun. Écart avec l'ancien point : 3.4 km."
   },
   {
+    "id": 45,
+    "venue": "Plaine de la Machine à Feu",
+    "lat": 50.40532,
+    "lng": 3.77479,
+    "address": "Plaine de la Machine à Feu, 7370 Dour, Belgique",
+    "source": "https://fr.wikipedia.org/wiki/Dour_Festival",
+    "status": "corrige",
+    "note": "Coordonnée de la plaine de la Machine à Feu donnée par Wikipédia (50.405319 / 3.77479), recoupée par le nœud OSM « Dour Sport (Machine à Feu) » à moins de 100 m. L'ancien point était au sud du bourg. Écart avec l'ancien point : 1.7 km."
+  },
+  {
     "id": 46,
     "venue": "Spaarnwoude, Houtrak",
     "lat": 52.38961,
@@ -118,6 +138,26 @@
     "source": "https://nominatim.openstreetmap.org/search?q=Park+Mladezi,+Split,+Croatia&format=json",
     "status": "corrige",
     "note": "Stade d'athlétisme Park Mladeži, qui accueille Ultra Europe. Écart avec l'ancien point : 1.0 km."
+  },
+  {
+    "id": 52,
+    "venue": "Safaripark Beekse Bergen",
+    "lat": 51.51197,
+    "lng": 5.12237,
+    "address": "Kommerstraat, 5081 NE Hilvarenbeek, Pays-Bas",
+    "source": "https://www.decibeloutdoor.com/info-categories/how-to-get-there",
+    "status": "corrige",
+    "note": "Entrée Sud publiée par Decibel outdoor (« navigate to Kommerstraat, Hilvarenbeek »). Le terrain de festival est à côté du Safaripark, pas dedans. Écart avec l'ancien point : 2.7 km."
+  },
+  {
+    "id": 53,
+    "venue": "Airport Weeze",
+    "lat": 51.6031,
+    "lng": 6.14339,
+    "address": "Airport Weeze, Flughafen-Ring, 47652 Weeze, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Flughafen+Weeze,+Weeze,+Germany&format=json",
+    "status": "corrige",
+    "note": "Emprise de l'aéroport de Weeze, sur laquelle se tient le festival ; l'adresse de navigation publiée est Flughafen-Ring, 47652 Weeze. Écart avec l'ancien point : 802 m."
   },
   {
     "id": 54,
@@ -170,6 +210,36 @@
     "note": "Complexe Gianpula (Gianpula Fields) sur Triq Ta' Gianpula. Écart avec l'ancien point : 1.7 km."
   },
   {
+    "id": 62,
+    "venue": "Cenote Zamna",
+    "lat": 20.18728,
+    "lng": -87.52772,
+    "address": "Zamna Tulum, Carretera Federal 307 (Tulum - Felipe Carrillo Puerto) km 200, 77760 Tulum, Quintana Roo, Mexique",
+    "source": "https://grayarea.co/venues/cenote-zamna",
+    "status": "corrige",
+    "note": "Coordonnée de la fiche de salle Cenote Zamna (20.1872787 / -87.5277246), confirmée à 30 m près par zoomtulum.com (20.18755 / -87.52777). L'ancien point était le bourg de Tulum, la salle est dans la jungle à l'ouest. Écart avec l'ancien point : 7.5 km."
+  },
+  {
+    "id": 63,
+    "venue": "Lake Most",
+    "lat": 50.51614,
+    "lng": 13.64804,
+    "address": "Areál Jezero Most, 434 01 Most, Tchéquie",
+    "source": "https://letitroll.eu/event/let-it-roll-2026/",
+    "status": "corrige",
+    "note": "Destination des itinéraires Google Maps publiés par le festival (les liens « dir » depuis Prague et vers les campings partent tous de 50.516139 / 13.6480396), sur la rive sud du lac. Écart avec l'ancien point : 712 m."
+  },
+  {
+    "id": 64,
+    "venue": "Rana e Hedhun Beach",
+    "lat": 41.8119,
+    "lng": 19.5881,
+    "address": "Rana e Hedhun (SET Beach), Shëngjin 4503, Albanie",
+    "source": "https://unumfestival.com/travel/",
+    "status": "corrige",
+    "note": "Coordonnée publiée par l'organisateur sur sa page « travel » (41.8119° N, 19.5881° E). Elle désigne le point d'accès côté Shëngjin, la plage elle-même s'étirant vers le nord. Écart avec l'ancien point : 263 m."
+  },
+  {
     "id": 65,
     "venue": "New Hangar, Port of Belgrade",
     "lat": 44.82649,
@@ -188,6 +258,12 @@
     "source": "https://www.festivalticker.de/festivals/sonne_mond_sterne/anfahrt/",
     "status": "corrige",
     "note": "Coordonnée publiée avec l'adresse de navigation « Bleilochtalsperre, Wetteraweg ». Écart avec l'ancien point : 1.3 km."
+  },
+  {
+    "id": 67,
+    "venue": "Valle d'Itria, Puglia",
+    "status": "inchange",
+    "note": "« Valle d'Itria, Puglia » est une vallée, pas une salle : l'édition 2026 se répartit entre Cala Maka (Torre Canne), la Masseria Capece (Cisternino) et Le Palme Beach Club (Monopoli), à une trentaine de kilomètres les uns des autres. Aucune entrée unique à géolocaliser."
   },
   {
     "id": 68,
@@ -312,6 +388,26 @@
     "note": "Aire Michelin du Parco Dora, celle qui accueille le Kappa FuturFestival. Écart avec l'ancien point : 1.2 km."
   },
   {
+    "id": 161,
+    "venue": "Beekse Bergen",
+    "lat": 51.51343,
+    "lng": 5.12504,
+    "address": "Westrik 2, 5081 XK Hilvarenbeek, Pays-Bas",
+    "source": "https://www.awakenings.com/en/how-to-travel-festival2026/382311/",
+    "status": "corrige",
+    "note": "Entrée Sud publiée par Awakenings pour le terrain de Beekse Bergen (« Festival Entrance South: Westrik 2, Hilvarenbeek »). Écart avec l'ancien point : 2.1 km."
+  },
+  {
+    "id": 178,
+    "venue": "Lac de Krupac",
+    "lat": 42.80109,
+    "lng": 18.90539,
+    "address": "Krupačko jezero, 81400 Nikšić, Monténégro",
+    "source": "https://lake-fest.me/",
+    "status": "corrige",
+    "note": "Lien Google Maps du site officiel, qui résout en 42.801086 / 18.905389, sur la rive est du lac de Krupac. L'ancien point était en plein milieu du plan d'eau, à l'ouest. Écart avec l'ancien point : 4.0 km."
+  },
+  {
     "id": 255,
     "venue": "Dyrskuepladsen",
     "lat": 55.62194,
@@ -342,6 +438,16 @@
     "note": "Recinto ferial de Torre del Mar. L'ancien point était au nord de la ville. Écart avec l'ancien point : 2.3 km."
   },
   {
+    "id": 279,
+    "venue": "Playa de Cullera",
+    "lat": 39.18196,
+    "lng": -0.23143,
+    "address": "Recinto Medusa, Avinguda de Joanot Martorell 16, 46408 Faro de Cullera, Valence, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+Joanot+Martorell+16,+Cullera,+Valencia,+Spain&format=json",
+    "status": "corrige",
+    "note": "Adresse du recinto reprise par plusieurs guides d'événement (Avenida Joanot Martorell 16, 46408 Faro de Cullera), géocodée sur OSM. L'ancien point tombait au nord, dans les terres. Écart avec l'ancien point : 1.3 km."
+  },
+  {
     "id": 304,
     "venue": "Plage d'Azapiko, Sithonia (Chalcidique)",
     "lat": 40.01039,
@@ -370,6 +476,16 @@
     "source": "https://nominatim.openstreetmap.org/search?q=Kalamitsi,+Sithonia,+Chalkidiki,+Greece&format=json",
     "status": "corrige",
     "note": "Camping Thalatta à Kalamitsi (commune de Sithonia). Écart avec l'ancien point : 3.6 km."
+  },
+  {
+    "id": 587,
+    "venue": "Cukrarna",
+    "lat": 46.05,
+    "lng": 14.51982,
+    "address": "Cukrarna, Poljanski nasip 40, 1000 Ljubljana, Slovénie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cukrarna,+Ljubljana&format=json",
+    "status": "confirme",
+    "note": "Bâtiment de la Cukrarna (relation OSM), sur le Poljanski nasip. L'ancien point tombait à 2 m, la coordonnée est simplement précisée."
   },
   {
     "id": 875,

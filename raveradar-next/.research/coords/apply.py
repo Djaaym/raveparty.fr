@@ -53,13 +53,29 @@ def main():
             skipped.append((eid, "id introuvable dans data.ts")); continue
         if r.get("venue") and r["venue"].strip() != m.group(2):
             skipped.append((eid, 'venue du lot "%s" != catalogue "%s"' % (r.get("venue"), m.group(2)))); continue
+        # `status: "inchange"` est une réponse, pas un échec : l'agent n'a pas pu trancher
+        # (salle non cartographiée, homonymie non levée, libellé multi-lieux) et n'a donc
+        # rendu aucun point. Sauter l'entrée est exactement ce qu'il demande.
+        if r.get("status") == "inchange" or r.get("lat") is None:
+            skipped.append((eid, "non tranché par l'agent : " + (r.get("note", "") or "?")[:70])); continue
         if not str(r.get("source", "")).startswith("http"):
             skipped.append((eid, "pas de source http(s)")); continue
         lat, lng = float(r["lat"]), float(r["lng"])
-        if decimals(lat) < 4 or decimals(lng) < 4:
-            skipped.append((eid, "moins de 4 décimales (%s, %s)" % (lat, lng))); continue
         cur = re.search(r'\{ id: %s,.*? lat: (-?[\d.]+), lng: (-?[\d.]+)' % eid, src)
-        d = haversine(float(cur.group(1)), float(cur.group(2)), lat, lng)
+        clat, clng = float(cur.group(1)), float(cur.group(2))
+        d = haversine(clat, clng, lat, lng)
+        # Deux seuils, et le second est le vrai. Trois décimales (~110 m) est le plancher
+        # utile : en dessous on désigne un quartier, pas une entrée. Mais une valeur peut
+        # finir par un zéro (« 14.414 » est bien le nœud du club), donc compter les
+        # décimales ne dit pas si le lot vaut mieux que ce qui est stocké. La règle qui
+        # protège vraiment est la seconde : **ne jamais écrire moins précis que le
+        # catalogue**, sauf si le point bouge assez pour que le gain de justesse l'emporte
+        # sur la perte de finesse. Sans elle, un lot qui « confirme » une fiche déjà à
+        # 6 décimales la dégraderait en la réécrivant à 3.
+        if min(decimals(lat), decimals(lng)) < 3:
+            skipped.append((eid, "moins de 3 décimales (%s, %s)" % (lat, lng))); continue
+        if min(decimals(lat), decimals(lng)) < min(decimals(clat), decimals(clng)) and d < 0.05:
+            skipped.append((eid, "moins précis que le catalogue et au même endroit (%.0f m)" % (d * 1000))); continue
         if d > 60 and not a.force:
             skipped.append((eid, "déplacement de %.0f km, relire (--force)" % d)); continue
         print("  #%-5s %-30.30s %8.3f km  %s" % (eid, m.group(2), d, r.get("address", "")[:60]))
