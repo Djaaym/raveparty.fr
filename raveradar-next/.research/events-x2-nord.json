@@ -778,5 +778,233 @@
       "https://www.skiddle.com/festivals/forbidden-fruit/"
     ],
     "note": "Adresse : Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin 8, D08 FW31, Irlande. Coordonnees reprises du JSON-LD MusicEvent de Skiddle (53.3421604, -6.2996996), coherentes avec le POI Nominatim de l'IMMA. Tarif non communique : la page Skiddle affiche 'from 0.00' et ne vend pas encore. Heure d'ouverture indicative, non annoncee."
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.69144,
+    "lng": 12.61695,
+    "venue": "Hangaren",
+    "currency": "DKK",
+    "trending": false,
+    "type": "Warehouse",
+    "title": "Sunday Psy au Hangaren",
+    "genres": [
+      "Psytrance"
+    ],
+    "date": "2026-09-13",
+    "time": "16:00",
+    "price": 50,
+    "lineup": [
+      "Maurinstarr",
+      "Milo Makua",
+      "RunaRift",
+      "Afgang"
+    ],
+    "desc": "Le Hangaren est un ancien hangar de Refshaleoen transforme en club electronique en 2021, avec un jardin et un feu de camp. Sunday Psy est son rendez-vous psytrance en plein air, une fois tous les quinze jours, de 16 h a minuit. Entree a partir de 50 DKK en early bird, 75 DKK ensuite, 20 ans minimum.",
+    "descEn": "Hangaren is a former hangar on Refshaleoen turned into an electronic music club in 2021, with a garden and a bonfire. Sunday Psy is its biweekly outdoor psytrance gathering, running 4pm to midnight. Entry starts at 50 DKK early bird, 75 DKK after, with a 20+ age limit.",
+    "sources": [
+      "https://www.hangaren.dk/events"
+    ],
+    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.69144,
+    "lng": 12.61695,
+    "venue": "Hangaren",
+    "currency": "DKK",
+    "trending": false,
+    "type": "Warehouse",
+    "title": "Nastia au Hangaren",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-10-02",
+    "time": "23:00",
+    "price": 125,
+    "lineup": [
+      "Nastia",
+      "Ena Cosovic",
+      "Kallax"
+    ],
+    "desc": "L'Ukrainienne Nastia, l'une des figures les plus constantes de la techno d'Europe de l'Est, joue au Hangaren de 23 h a 6 h. Ena Cosovic et Kallax completent l'affiche. Les tarifs vont de 125 DKK pour une entree avant minuit a 175 DKK sur place.",
+    "descEn": "Ukrainian DJ Nastia, one of the steadiest figures in Eastern European techno, plays Hangaren from 11pm to 6am. Ena Cosovic and Kallax fill out the bill. Prices run from 125 DKK for entry before midnight to 175 DKK on the door.",
+    "sources": [
+      "https://www.hangaren.dk/events"
+    ],
+    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.69144,
+    "lng": 12.61695,
+    "venue": "Hangaren",
+    "currency": "DKK",
+    "trending": false,
+    "type": "Warehouse",
+    "title": "Damian Lazarus au Hangaren",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 125,
+    "lineup": [
+      "Damian Lazarus",
+      "Minimalene",
+      "Nilu"
+    ],
+    "desc": "Damian Lazarus, patron du label Crosstown Rebels, prend le Hangaren pour une nuit de 23 h a 6 h. Les Danoises Minimalene et Nilu ouvrent la soiree. Entree a 125 DKK avant minuit, 175 DKK sur place, 20 ans minimum.",
+    "descEn": "Damian Lazarus, head of the Crosstown Rebels label, takes Hangaren for a night running 11pm to 6am. Danish DJs Minimalene and Nilu open. Entry is 125 DKK before midnight, 175 DKK on the door, 20+ only.",
+    "sources": [
+      "https://www.hangaren.dk/events"
+    ],
+    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.69144,
+    "lng": 12.61695,
+    "venue": "Hangaren",
+    "currency": "DKK",
+    "trending": false,
+    "type": "Warehouse",
+    "title": "Oliver Koletzki au Hangaren",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-11-13",
+    "time": "23:00",
+    "price": 125,
+    "lineup": [
+      "Oliver Koletzki"
+    ],
+    "desc": "Oliver Koletzki, fondateur du label berlinois Stil vor Talent, joue toute la nuit au Hangaren, de 23 h a 6 h. Le club, installe dans un hangar de Refshaleoen, tourne sur un systeme Lambda Labs. Entree a 125 DKK avant minuit, 175 DKK sur place.",
+    "descEn": "Oliver Koletzki, founder of the Berlin label Stil vor Talent, plays all night at Hangaren, 11pm to 6am. The club, set in a hangar on Refshaleoen, runs a Lambda Labs system. Entry is 125 DKK before midnight, 175 DKK on the door.",
+    "sources": [
+      "https://www.hangaren.dk/events"
+    ],
+    "note": "Adresse : Hangaren, Refshalevej 185, 1432 Copenhague K, Danemark. Coordonnees Nominatim sur Refshalevej 185. Tarifs repris de la fiche officielle de l'evenement."
+  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "venue": "The Villa",
+    "currency": "NOK",
+    "trending": false,
+    "type": "Club",
+    "title": "Objekt a The Villa",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Objekt"
+    ],
+    "desc": "The Villa tient depuis les annees 1990 la programmation club la plus pointue d'Oslo, dans un sous-sol de Mollergata ouvert vendredi et samedi de 23 h a 3 h. Objekt, producteur ne a Tokyo et installe a Berlin, y joue trois heures. Ses disques sortent sur Hessle Audio, PAN et son propre label Kapsela.",
+    "descEn": "The Villa has run Oslo's sharpest club programme since the 1990s, in a Mollergata basement open Friday and Saturday from 11pm to 3am. Objekt, the Tokyo-born, Berlin-based producer, plays a three-hour set. His records come out on Hessle Audio, PAN and his own Kapsela label.",
+    "ticketUrl": "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de",
+    "sources": [
+      "https://www.thevilla.no/event-details/objekt-de",
+      "https://www.tickster.com/no/nb/events/2pdrk8a9v70dnmc/2026-09-18/objekt-de"
+    ],
+    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "venue": "The Villa",
+    "currency": "NOK",
+    "trending": false,
+    "type": "Club",
+    "title": "Legowelt a The Villa",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-17",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Legowelt"
+    ],
+    "desc": "La soiree Hypnokratiet invite Legowelt a The Villa pour un live. Le Neerlandais Danny Wolfers joue depuis les annees 1990 une electronique de club faite au synthetiseur analogique, entre house de Chicago et electro. La nuit court de 23 h a 3 h.",
+    "descEn": "The Hypnokratiet night brings Legowelt to The Villa for a live show. Dutch producer Danny Wolfers has been making analogue synthesizer club music since the 1990s, between Chicago house and electro. The night runs 11pm to 3am.",
+    "ticketUrl": "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
+    "sources": [
+      "https://www.tickster.com/no/nb/events/tybubxkje7vz6tc/2026-10-17/hypnokratiet-w-legowelt-nl-live",
+      "https://www.thevilla.no/"
+    ],
+    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "venue": "The Villa",
+    "currency": "NOK",
+    "trending": false,
+    "type": "Club",
+    "title": "Kollektiv Turmstrasse a The Villa",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2027-02-12",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Kollektiv Turmstrasse"
+    ],
+    "desc": "Kollektiv Turmstrasse vient jouer en live a The Villa. Le projet, fonde en duo a Wismar et poursuivi seul par Nico Plagemann, a sorti Rebellion der Traumer et des disques sur Kompakt, Diynamic et Cocoon. Ouverture a 23 h.",
+    "descEn": "Kollektiv Turmstrasse bring a live show to The Villa. The project, founded as a duo in Wismar and continued solo by Nico Plagemann, released Rebellion der Traumer and records on Kompakt, Diynamic and Cocoon. Doors at 11pm.",
+    "ticketUrl": "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live",
+    "sources": [
+      "https://www.tickster.com/no/nb/events/z48fl87rgp77zga/2027-02-12/kollektiv-turmstrasse-de-live"
+    ],
+    "note": "Adresse : The Villa, Mollergata 23-25, 0179 Oslo, Norvege. Coordonnees Nominatim sur Mollergata 23. Horaires 23 h - 3 h repris du JSON-LD de la fiche officielle. Tarif non communique : la prevente passe par Tickster, qui n'affiche le montant qu'en tunnel d'achat."
+  },
+  {
+    "title": "Tallinn Music Week",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tallinn",
+    "country": "Estonia",
+    "lat": 59.43857,
+    "lng": 24.72777,
+    "date": "2027-04-08",
+    "endDate": "2027-04-11",
+    "time": "18:00",
+    "price": 65,
+    "currency": "EUR",
+    "venue": "Telliskivi Creative City",
+    "venueEn": "Telliskivi Creative City",
+    "trending": false,
+    "lineup": [],
+    "desc": "Tallinn Music Week est le festival de decouverte de la scene balte, reparti sur les clubs et salles de la ville, avec Telliskivi Creative City et le quartier de Noblessner pour points d'ancrage. La 19e edition court du 8 au 11 avril 2027, la partie concerts du 8 au 10. La programmation electronique occupe les clubs de Kalamaja et de Kopli, elle n'est pas encore publiee.",
+    "descEn": "Tallinn Music Week is the Baltic discovery festival, spread across the city's clubs and concert halls, anchored on Telliskivi Creative City and the Noblessner district. The 19th edition runs 8 to 11 April 2027, with the music programme from 8 to 10 April. Its electronic strand fills the clubs of Kalamaja and Kopli and is not yet announced.",
+    "ticketUrl": "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
+    "sources": [
+      "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
+      "https://tmw.ee/artist-applications"
+    ],
+    "note": "Adresse : Telliskivi Creative City, Telliskivi 60a, 10412 Tallinn, Estonie. Coordonnees Nominatim sur Telliskivi 60a. Le festival est eclate sur des dizaines de salles, le site principal est retenu. Tarif 65 EUR = pass festival au palier en vigueur du 1er mai au 30 septembre (55 EUR avant, 99 EUR sur place). Heure de debut indicative."
   }
 ]

@@ -441,5 +441,352 @@
       "https://ticket.ozorafestival.eu/"
     ],
     "note": "Lieu : Dadpuszta, commune d'Igar, comitat de Fejer, 7015 Hongrie. Coordonnees Nominatim sur le lieu-dit Dadpuszta (46.7695424 / 18.4379274). Attention : la fiche OZORA 2026 deja au catalogue porte 46.99 / 18.55, soit environ 27 km trop au nord, a corriger. Dates 23 juillet au 3 aout 2027 concordantes sur deux sources secondaires ; le site officiel est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. Tarif non communique."
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Adam Beyer",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Adam Beyer",
+      "DJ Jock",
+      "Shipa"
+    ],
+    "desc": "Future Scope, la serie techno du Boogaloo, ouvre sa saison avec le Suedois Adam Beyer, fondateur de Drumcode. Le club occupe une ancienne salle de cinema de la Ulica grada Vukovara, a Zagreb. Les residents DJ Jock et Shipa completent la nuit.",
+    "descEn": "Future Scope, Boogaloo's techno series, opens its season with Sweden's Adam Beyer, founder of Drumcode. The club sits in a former cinema hall on Ulica grada Vukovara in Zagreb. Residents DJ Jock and Shipa complete the night.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-adam-beyer-boogaloo-34132",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-adam-beyer-boogaloo-34132",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope Season Opening : Dave Clarke, Ben Sims & Billy Nasty",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Dave Clarke",
+      "Ben Sims",
+      "Billy Nasty",
+      "Petar Dundov"
+    ],
+    "desc": "Trois figures de la techno britannique se relaient au Boogaloo : Dave Clarke, Ben Sims et Billy Nasty, avec le Croate Petar Dundov en local. La soiree se prolonge jusqu'au matin du 27 septembre.",
+    "descEn": "Three names from British techno share the Boogaloo booth: Dave Clarke, Ben Sims and Billy Nasty, with Croatian producer Petar Dundov on local duty. The night runs into the morning of 27 September.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-season-opening-w-dave-clarke-ben-sims-billy-nasty-32834",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-season-opening-w-dave-clarke-ben-sims-billy-nasty-32834",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Chris Liebing",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-10-16",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Chris Liebing"
+    ],
+    "desc": "L'Allemand Chris Liebing, patron du label CLR et pilier de la techno de Francfort depuis les annees 1990, joue au Boogaloo dans le cadre de la saison Future Scope.",
+    "descEn": "Germany's Chris Liebing, head of the CLR label and a fixture of Frankfurt techno since the 1990s, plays Boogaloo as part of the Future Scope season.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-chris-liebing-boogaloo-34100",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-chris-liebing-boogaloo-34100",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Pan-Pot",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-12-19",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Pan-Pot"
+    ],
+    "desc": "Le duo berlinois Pan-Pot, forme par Tassilo Ippenberger et Thomas Benedix, ferme l'annee Future Scope au Boogaloo. Leur label Second State donne le ton de la nuit.",
+    "descEn": "Berlin duo Pan-Pot, Tassilo Ippenberger and Thomas Benedix, close the Future Scope year at Boogaloo. Their Second State label sets the tone for the night.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "AEREA au Control Club",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 60,
+    "lineup": [
+      "Aerea"
+    ],
+    "desc": "Le duo germano-espagnol Aerea joue en live dans la Berlin Room du Control Club, adresse de reference de Bucarest ouverte en 2008 rue Constantin Mille. Entree 60 lei en prevente.",
+    "descEn": "German Spanish duo Aerea play live in Control Club's Berlin Room, the Bucharest venue opened in 2008 on Constantin Mille street. Advance entry 60 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl18 : Acid Arab",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-02",
+    "time": "23:00",
+    "price": 150,
+    "lineup": [
+      "Acid Arab"
+    ],
+    "desc": "Le Control Club fete ses dix-huit ans et invite le collectif parisien Acid Arab, qui croise machines de club et modes orientaux. Entree 150 lei.",
+    "descEn": "Control Club marks its eighteenth birthday with Paris collective Acid Arab, who cross club machines with Middle Eastern modes. Entry 150 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl18 : Roman Flügel",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 60,
+    "lineup": [
+      "Roman Flügel"
+    ],
+    "desc": "Deuxieme nuit des dix-huit ans du Control Club avec l'Allemand Roman Flugel, moitie d'Alter Ego et habitue de Dial et Running Back. Entree 60 lei.",
+    "descEn": "Second night of Control Club's eighteenth birthday with Germany's Roman Flugel, one half of Alter Ego and a regular on Dial and Running Back. Entry 60 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "System Olympia au Control Club",
+    "genres": [
+      "House"
+    ],
+    "date": "2026-10-23",
+    "time": "23:00",
+    "price": 40,
+    "lineup": [
+      "System Olympia"
+    ],
+    "desc": "La productrice italienne installee a Londres System Olympia amene sa deep house teintee de disco au Control Club. Prevente a 40 lei, soiree reservee aux majeurs.",
+    "descEn": "Italian producer System Olympia, based in London, brings her disco tinged deep house to Control Club. Advance tickets 40 RON, 18 and over.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl x inTension : Greg Downey",
+    "genres": [
+      "Trance"
+    ],
+    "date": "2026-11-21",
+    "time": "22:00",
+    "price": 50,
+    "lineup": [
+      "Greg Downey",
+      "Dragosh",
+      "SkyDreamer"
+    ],
+    "desc": "Soiree trance au Control Club avec le Nord-Irlandais Greg Downey, entoure des Roumains Dragosh et SkyDreamer. Entree generale a 50 lei, soiree reservee aux majeurs.",
+    "descEn": "Trance night at Control Club with Northern Irish DJ Greg Downey alongside Romanian selectors Dragosh and SkyDreamer. General admission 50 RON, 18 and over.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "title": "HVOB au Fléda",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brno",
+    "country": "Czech Republic",
+    "lat": 49.2099,
+    "lng": 16.6033,
+    "date": "2026-10-16",
+    "time": "20:00",
+    "price": 850,
+    "currency": "CZK",
+    "venue": "Fléda",
+    "trending": false,
+    "lineup": [
+      "HVOB"
+    ],
+    "desc": "Le duo autrichien HVOB, formule live d'Anna Muller et Paul Wallner, s'arrete au Fleda, club historique de Brno ouvert rue Stefanikova. Billet a 850 Kc.",
+    "descEn": "Austrian duo HVOB, the live project of Anna Muller and Paul Wallner, stop at Fleda, Brno's long running club on Stefanikova street. Ticket 850 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/hvob-live/wpfjb/",
+    "sources": [
+      "https://goout.net/en/tickets/hvob-live/wpfjb/",
+      "https://www.fleda.cz/"
+    ],
+    "note": "Adresse : Fleda, Stefanikova 266/24, 602 00 Brno, Tchequie. Coordonnees de la fiche de salle GoOut (49.2099 / 16.6033)."
+  },
+  {
+    "title": "HVOB au Majestic Music Club",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "lat": 48.15686,
+    "lng": 17.11358,
+    "date": "2026-10-17",
+    "time": "20:30",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Majestic Music Club",
+    "trending": false,
+    "lineup": [
+      "HVOB"
+    ],
+    "desc": "Au lendemain de sa date de Brno, le duo autrichien HVOB joue au Majestic Music Club, salle de la rue Karpatska a Bratislava. Ouverture des portes a 20 h 30. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "The night after its Brno date, Austrian duo HVOB plays Majestic Music Club on Karpatska street in Bratislava. Doors at 20:30. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/42948458-hvob-at-majestic-music-club",
+      "https://www.songkick.com/metro-areas/32262-slovakia-bratislava"
+    ],
+    "note": "Adresse : Majestic Music Club, Karpatska 2, 811 05 Bratislava, Slovaquie. Coordonnees du JSON-LD Songkick de la fiche evenement (48.15686 / 17.11358), coherentes avec la fiche de salle GoOut (48.1569 / 17.1137). Heure d'ouverture 20:30 donnee par la fiche Songkick. Tarif non communique."
+  },
+  {
+    "title": "Ventolin et FVLCRVM à Bratislava",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "lat": 48.11687,
+    "lng": 17.11078,
+    "date": "2026-11-06",
+    "time": "20:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "DK Zrkadlový háj",
+    "venueEn": "Zrkadlovy haj cultural centre",
+    "trending": false,
+    "lineup": [
+      "Ventolin",
+      "FVLCRVM"
+    ],
+    "desc": "Deux figures des scenes electroniques tcheque et slovaque partagent la meme tournee. Ventolin, de son vrai nom David Doubek, joue en live sur synthetiseurs analogiques et boites a rythmes ; FVLCRVM ouvre. La soiree se tient a la maison de la culture Zrkadlovy haj, dans le quartier de Petrzalka. Le tarif n'est pas communique.",
+    "descEn": "Two figures of the Czech and Slovak electronic scenes share a tour. Ventolin, real name David Doubek, plays live on analogue synths and drum machines, with FVLCRVM opening. The night is held at the Zrkadlovy haj cultural centre in the Petrzalka district. No ticket price is published.",
+    "sources": [
+      "https://goout.net/en/ventolin+fvlcrvm-ventofu-tour-2026/szchamy/"
+    ],
+    "note": "Adresse : Dom kultury Zrkadlovy haj, Rovniankova 3, 851 02 Bratislava - Petrzalka, Slovaquie. Coordonnees Nominatim sur le batiment 'Dom kultury Zrkadlovy Haj' (48.1168706 / 17.1107834). Tarif non communique sur la fiche GoOut."
   }
 ]

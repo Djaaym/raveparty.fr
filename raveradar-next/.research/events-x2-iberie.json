@@ -1016,5 +1016,314 @@
       "https://xceed.me/en/madrid/event/ekho-adriana-lopez-tommy-four-seven/241958"
     ],
     "note": "ART Madrid Club, Paseo de la Florida 2, 28008 Madrid. Coordonnées: point du JSON-LD Xceed (40.4217163, -3.7201867). Prix = 15 EUR ('Entrada anticipada'), les autres paliers incluent des consommations. Heure convertie depuis l'UTC du JSON-LD."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "venue": "Ministerium Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Kevin Saunderson au Ministerium",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-09-25",
+    "time": "23:59",
+    "price": 12,
+    "lineup": [
+      "Kevin Saunderson"
+    ],
+    "desc": "Kevin Saunderson, membre du trio de Belleville avec Juan Atkins et Derrick May et auteur des disques d'Inner City, joue au Ministerium. Le club occupe une aile ministérielle de la Praça do Comércio, sur le Tage. Nuit techno et house à partir de minuit.",
+    "descEn": "Kevin Saunderson, one third of the Belleville trio with Juan Atkins and Derrick May and the man behind the Inner City records, plays Ministerium. The club occupies a former ministry wing on Praça do Comércio, by the Tagus. A techno and house night from midnight.",
+    "ticketUrl": "https://www.songkick.com/venues/3387404-ministerium-club",
+    "sources": [
+      "https://www.songkick.com/venues/3387404-ministerium-club",
+      "https://www.songkick.com/metro-areas/31802-portugal-lisbon/genre/electronic"
+    ],
+    "note": "Ministerium Club, Praça do Comércio 72, 1100-148 Lisbonne (aile est de la place, sous les arcades). Coordonnées: node OSM 'ministérium club' via Nominatim (38.7080954, -9.1354849). Date confirmée vendredi 25/09/2026 sur la page de salle Songkick. Tarif de 12 EUR relevé sur un listing de billetterie et non sur la page de vente elle-même: montant indicatif. Horaire de minuit = horaire habituel des nuits club du Ministerium tel qu'annoncé sur ses autres fiches Xceed."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "venue": "Ministerium Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Raresh au Ministerium",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-09",
+    "time": "23:59",
+    "price": 0,
+    "lineup": [
+      "Raresh"
+    ],
+    "desc": "Raresh, l'un des trois piliers de l'école minimale roumaine avec Rhadoo et Petre Inspirescu, tient une nuit au Ministerium. Le club de la Praça do Comércio programme des invités internationaux les vendredis et samedis. Le tarif n'est pas encore publié.",
+    "descEn": "Raresh, one of the three pillars of the Romanian minimal school alongside Rhadoo and Petre Inspirescu, plays a night at Ministerium. The Praça do Comércio club books international guests on Fridays and Saturdays. The ticket price has not been published yet.",
+    "sources": [
+      "https://www.songkick.com/venues/3387404-ministerium-club"
+    ],
+    "note": "Ministerium Club, Praça do Comércio 72, 1100-148 Lisbonne (aile est de la place, sous les arcades). Coordonnées: node OSM 'ministérium club' via Nominatim (38.7080954, -9.1354849). Date confirmée vendredi 09/10/2026 sur la page de salle Songkick. Tarif non communiqué à la date de la recherche. Horaire de minuit = horaire habituel des nuits club du Ministerium."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "venue": "Ministerium Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "1/4 Escuro x Vault Sessions: Second Shift",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "23:59",
+    "price": 10,
+    "lineup": [],
+    "desc": "Le collectif lisboète 1/4 Escuro prolonge sa date avec Vault Sessions par une seconde partie au Ministerium, après le plein air de l'après-midi. La nuit court de minuit à 7 h. Le line-up de cette seconde partie n'est pas encore publié.",
+    "descEn": "Lisbon collective 1/4 Escuro extends its Vault Sessions date with a second shift at Ministerium, after the afternoon open-air. The night runs from midnight to 7am. The line-up for this second part has not been published yet.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/1-4-escuro-x-vault-sessions-second-shift-1/242964",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/1-4-escuro-x-vault-sessions-second-shift-1/242964"
+    ],
+    "note": "Ministerium Club, Praça do Comércio 72, 1100-148 Lisbonne (aile est de la place, sous les arcades). Coordonnées: node OSM 'ministérium club' via Nominatim (38.7080954, -9.1354849). Prix = 10 EUR ('PRE SALE', seul tarif en vente). Heure convertie depuis l'UTC du JSON-LD Xceed."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.71237,
+    "lng": -9.18689,
+    "venue": "Anfiteatro de Pedra",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "1/4 Escuro x Vault Sessions: Alarico b2b Freddy K",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "17:00",
+    "price": 20,
+    "lineup": [
+      "Alarico",
+      "Freddy K"
+    ],
+    "desc": "1/4 Escuro s'associe au label néerlandais Vault Sessions pour un b2b intégral entre Alarico et Freddy K. La date se tient à l'Anfiteatro de Pedra, l'amphithéâtre en pierre de la Tapada da Ajuda, un lieu que le collectif utilise pour la première fois. De 17 h à 1 h du matin.",
+    "descEn": "1/4 Escuro teams up with Dutch label Vault Sessions for a full back-to-back between Alarico and Freddy K. The date is held at the Anfiteatro de Pedra, the stone amphitheatre in Tapada da Ajuda, a space the collective is using for the first time. From 5pm to 1am.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/1-4-escuro-x-vault-sessions-with-alarico-b2b-freddy-k-all-night-long/226501",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/1-4-escuro-x-vault-sessions-with-alarico-b2b-freddy-k-all-night-long/226501"
+    ],
+    "note": "Anfiteatro de Pedra, Tapada da Ajuda 44, 1300-052 Lisbonne (parc de la Tapada da Ajuda, Alcântara). Coordonnées: point du JSON-LD Xceed (38.7123747, -9.1868874), vérifié en reverse Nominatim, il tombe bien dans la Tapada da Ajuda. Prix = 20 EUR ('EARLY BIRD' encore en vente). Heure convertie depuis l'UTC du JSON-LD."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.7139,
+    "lng": -9.19317,
+    "venue": "Lagoa Branca, Tapada da Ajuda",
+    "currency": "EUR",
+    "type": "Festival",
+    "trending": false,
+    "title": "Brunch Electronik Lisboa Closing",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "14:00",
+    "price": 20,
+    "lineup": [],
+    "desc": "Brunch Electronik referme sa saison lisboète à la Lagoa Branca, dans la Tapada da Ajuda. Le format diurne court de 14 h à 22 h, sans possibilité de sortir puis de revenir. Les artistes de cette closing ne sont pas encore annoncés.",
+    "descEn": "Brunch Electronik closes its Lisbon season at Lagoa Branca, in Tapada da Ajuda. The daytime format runs from 2pm to 10pm, with no re-entry once you leave. The artists for this closing have not been announced yet.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/brunch-electronik-lisboa-2026-8-closing-artists-tba/239950",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/brunch-electronik-lisboa-2026-8-closing-artists-tba/239950"
+    ],
+    "note": "Lagoa Branca, Tapada da Ajuda, Avenida da Universidade Técnica, 1300-666 Lisbonne. Coordonnées: point du JSON-LD Xceed (38.7139047, -9.1931731), reverse Nominatim: Tapada da Ajuda, Alcântara. Prix = 20 EUR ('Early Vibes Ticket, avant 15 h'), première release à 30 EUR. Line-up non annoncé."
+  },
+  {
+    "city": "Costa da Caparica",
+    "country": "Portugal",
+    "lat": 38.65669,
+    "lng": -9.24916,
+    "venue": "Classico Beach Club",
+    "currency": "EUR",
+    "type": "Festival",
+    "trending": false,
+    "title": "DHB Portugal",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-09-18",
+    "endDate": "2026-09-19",
+    "time": "14:00",
+    "price": 40,
+    "lineup": [],
+    "desc": "Quatrième édition de DHB Portugal, sur deux jours, au Classico Beach Club de la Costa da Caparica, au sud de Lisbonne. Le festival change de site mais reste en bord d'océan, avec une programmation deep et house de l'après-midi à la nuit. Le line-up complet n'est pas repris ici faute d'être détaillé sur la billetterie.",
+    "descEn": "Fourth edition of DHB Portugal, over two days, at Classico Beach Club on Costa da Caparica, south of Lisbon. The festival moves site but stays by the ocean, with a deep and house programme running from afternoon into the night. The full line-up is not listed here as the ticket page does not detail it.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/dhb-portugal-2026-1/237370",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/dhb-portugal-2026-1/237370"
+    ],
+    "note": "Classico Beach Club, Avenida Afonso de Albuquerque s/n, Praia de São João da Caparica, 2825-485 Trafaria (commune d'Almada). Coordonnées: point du JSON-LD Xceed (38.6566877, -9.2491631), reverse Nominatim: Rua Mário Viegas, Costa da Caparica, Almada. Le site est sur la commune d'Almada et non à Lisbonne, contrairement à ce qu'indique la fiche Xceed. Prix = 40 EUR, billet journée le moins cher encore en vente ('Friday before 6pm, tier 2') ; le pass 2 jours est à 70 EUR."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.70082,
+    "lng": -9.17811,
+    "venue": "Village Underground Lisboa",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "YYY Takeover",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-10-10",
+    "time": "23:00",
+    "price": 12.5,
+    "lineup": [
+      "Phil Berg",
+      "Vanhell",
+      "Laura Hasagun",
+      "Myne",
+      "Peres"
+    ],
+    "desc": "Troisième prise de contrôle du Village Underground par le collectif YYY: quatre artistes, sept heures de musique sans interruption. Phil Berg, résident de Vault Sessions et Mutual Rytm, tient la tête d'affiche. Le lieu, installé dans des conteneurs et de vieux bus à Alcântara, est l'une des salles underground de Lisbonne.",
+    "descEn": "Third takeover of Village Underground by the YYY collective: four artists, seven uninterrupted hours of music. Phil Berg, a resident of Vault Sessions and Mutual Rytm, headlines. The venue, built from shipping containers and old buses in Alcântara, is one of Lisbon's underground rooms.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/yyy-takeover-03/242730",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/yyy-takeover-03/242730"
+    ],
+    "note": "Village Underground Lisboa, Avenida da Índia 52, 1300-472 Lisbonne. Coordonnées: node OSM 'Village Underground' via Nominatim (38.7008225, -9.1781144). Prix = 12,50 EUR ('General Release', seul tarif). Heure convertie depuis l'UTC du JSON-LD Xceed."
+  },
+  {
+    "city": "Algés",
+    "country": "Portugal",
+    "lat": 38.69913,
+    "lng": -9.24282,
+    "venue": "Passeio Marítimo de Algés",
+    "currency": "EUR",
+    "type": "Festival",
+    "trending": false,
+    "title": "NO ART Lisbon",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-10",
+    "time": "15:00",
+    "price": 39,
+    "lineup": [
+      "Adriatique",
+      "ANOTR",
+      "Franky Rizardo",
+      "Mau P",
+      "Jennifer Loveless",
+      "Klin Klop",
+      "SG Lewis"
+    ],
+    "desc": "NO ART revient à Lisbonne un an après ses débuts, sur le Passeio Marítimo de Algés, en bord de Tage. Adriatique, ANOTR et un b2b de Franky Rizardo avec Mau P mènent l'affiche. Le format court de 15 h à 2 h du matin, réservé aux plus de 18 ans.",
+    "descEn": "NO ART returns to Lisbon a year after its debut, on the Passeio Marítimo de Algés, by the Tagus. Adriatique, ANOTR and a Franky Rizardo b2b Mau P lead the bill. The format runs from 3pm to 2am and is 18+.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/no-art-2026/241218",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/no-art-2026/241218"
+    ],
+    "note": "Passeio Marítimo de Algés, Rua Pereira Palha 42, 1495-698 Algés (commune d'Oeiras). Coordonnées: point du JSON-LD Xceed (38.6991259, -9.2428222), reverse Nominatim: Ciclovia Ribeirinha de Algés, Oeiras. Le site est à Algés, hors commune de Lisbonne. Prix = 39 EUR ('General access, before 5pm, regular'), l'entrée générale sans restriction d'heure est à 49 EUR."
+  },
+  {
+    "city": "Porto",
+    "country": "Portugal",
+    "lat": 41.14806,
+    "lng": -8.63239,
+    "venue": "Museu do Carro Elétrico",
+    "currency": "EUR",
+    "type": "Festival",
+    "trending": false,
+    "title": "10 Years of Wipeout Open Air",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "date": "2026-10-10",
+    "time": "17:00",
+    "price": 15,
+    "lineup": [],
+    "desc": "Le collectif Wipeout Open Air fête ses dix ans avec sa première date en journée, dans la cour du Musée du tramway de Porto, en bord de Douro. Programmation drum & bass et jungle, de 17 h à minuit, avec deux invités internationaux annoncés. Le collectif avait démarré à Nazaré en 2016.",
+    "descEn": "The Wipeout Open Air collective marks ten years with its first daytime date, in the courtyard of Porto's tram museum by the Douro. A drum & bass and jungle programme from 5pm to midnight, with two international guests announced. The collective started out in Nazaré in 2016.",
+    "ticketUrl": "https://xceed.me/en/porto/event/10-years-of-wipeout-open-air-museu-do-carro-electrico-porto/242501",
+    "sources": [
+      "https://xceed.me/en/porto/event/10-years-of-wipeout-open-air-museu-do-carro-electrico-porto/242501"
+    ],
+    "note": "Museu do Carro Eléctrico, Alameda de Basílio Teles 51, 4050-127 Porto. Coordonnées: point du JSON-LD Xceed (41.1480636, -8.6323893), reverse Nominatim: 51 Alameda de Basílio Teles, Massarelos, Porto. Prix = 15 EUR ('Phase 1', seul tarif). Pas d'endDate: la fiche Xceed porte une fin au 11/10 mais le texte de l'organisateur annonce 17 h à minuit le 10."
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.72884,
+    "lng": -9.15145,
+    "venue": "Pavilhão Carlos Lopes",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mestiza x Brunch Electronik Halloween",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-31",
+    "time": "22:00",
+    "price": 35,
+    "lineup": [],
+    "desc": "Brunch Electronik Lisboa passe en intérieur pour Halloween et invite le collectif espagnol Mestiza au Pavilhão Carlos Lopes, ancien pavillon d'exposition du parc Eduardo VII. Entrée autorisée jusqu'à 5 h, billets nominatifs. Le programme détaillé de la nuit n'est pas encore publié.",
+    "descEn": "Brunch Electronik Lisboa moves indoors for Halloween and hosts Spanish collective Mestiza at Pavilhão Carlos Lopes, a former exhibition hall by Parque Eduardo VII. Entry is allowed until 5am and tickets are name-bound. The detailed programme has not been published yet.",
+    "ticketUrl": "https://xceed.me/en/lisboa/event/mestiza-brunch-electronik-lisboa-halloween-presents-sacro/242391",
+    "sources": [
+      "https://xceed.me/en/lisboa/event/mestiza-brunch-electronik-lisboa-halloween-presents-sacro/242391"
+    ],
+    "note": "Pavilhão Carlos Lopes, Avenida Sidónio Pais 14, 1050-012 Lisbonne. Coordonnées: point du JSON-LD Xceed (38.7288352, -9.1514529), confirmé en reverse Nominatim ('Pavilhão Carlos Lopes'). Prix = 35 EUR ('2nd Release'). Line-up non annoncé."
+  },
+  {
+    "city": "Porto",
+    "country": "Portugal",
+    "lat": 41.1589,
+    "lng": -8.63077,
+    "venue": "Casa da Música",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Yotto à la Casa da Música",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-11-07",
+    "time": "21:00",
+    "price": 30,
+    "lineup": [
+      "Yotto"
+    ],
+    "desc": "Le Finlandais Yotto, fondateur du label Odd One Out, fait ses débuts au Misty Fest dans la Sala 2 de la Casa da Música. Son répertoire croise house, techno et nappes cinématographiques. Concert assis à heure fixe, portes trente minutes avant.",
+    "descEn": "Finland's Yotto, founder of the Odd One Out label, makes his Misty Fest debut in Sala 2 at Casa da Música. His repertoire crosses house, techno and cinematic textures. A fixed-time show, doors thirty minutes before.",
+    "ticketUrl": "https://casadamusica.com/event/yotto/",
+    "sources": [
+      "https://casadamusica.com/event/yotto/"
+    ],
+    "note": "Casa da Música, Avenida da Boavista 604-610, 4149-071 Porto. Coordonnées: way OSM 'Casa da Música' via Nominatim (41.1589025, -8.6307748). Date, heure (21:00, samedi) et tarif (30,00 EUR) lus sur la fiche officielle de la salle. Concert dans la Sala 2, dans le cadre du Misty Fest."
   }
 ]

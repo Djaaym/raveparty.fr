@@ -927,5 +927,358 @@
       "https://www.skiddle.com/whats-on/malta/Gianpula-Village/Euphoria-Malta-2027/42497444/"
     ],
     "note": "Adresse : Gianpula Complex, limits of Rabat, Rabat RBT 5032, Malte. Coordonnées reprises du JSON-LD MusicEvent de Skiddle, cohérentes avec le POI OpenStreetMap « Gianpula » (35.8756618 / 14.4179207). Devise GBP : la billetterie est Skiddle et facture en livres. Tarif retenu 135 GBP, premier palier du pass quatre jours ; les entrées à 10 GBP annoncées sont des acomptes, pas des billets."
+  },
+  {
+    "title": "Carl Cox Invites · Kozel Carroponte",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Sesto San Giovanni",
+    "country": "Italy",
+    "lat": 45.52905,
+    "lng": 9.22328,
+    "date": "2026-09-19",
+    "time": "17:00",
+    "price": 40,
+    "currency": "EUR",
+    "venue": "Kozel Carroponte",
+    "trending": false,
+    "lineup": [
+      "Carl Cox",
+      "Loco Dice",
+      "Nic Fanciulli",
+      "Chelina Manuhutu",
+      "Jon Rundell"
+    ],
+    "desc": "Le Carroponte est une friche sidérurgique de Sesto San Giovanni, au nord-est de Milan, dont le pont roulant d'origine surplombe encore la scène. Carl Cox y invite Loco Dice, Nic Fanciulli, Chelina Manuhutu et Jon Rundell pour une journée en plein air, de 17 heures à minuit.",
+    "descEn": "Carroponte is a former steelworks in Sesto San Giovanni, north-east of Milan, where the original overhead crane still spans the stage. Carl Cox invites Loco Dice, Nic Fanciulli, Chelina Manuhutu and Jon Rundell for an open-air day, from 17:00 to midnight.",
+    "ticketUrl": "https://xceed.me/it/milano/event/carl-cox-invites-loco-dice-nic-fanciulli-chelina-manuhutu-jon-rundell-1/225954",
+    "sources": [
+      "https://xceed.me/it/milano/event/carl-cox-invites-loco-dice-nic-fanciulli-chelina-manuhutu-jon-rundell-1/225954",
+      "https://www.songkick.com/metro-areas/30338-italy-milan/genre/electronic"
+    ],
+    "note": "Adresse : Kozel Carroponte, Via Luigi Granelli 1, 20099 Sesto San Giovanni (MI), Italie. Coordonnées reprises du JSON-LD Event de Xceed (location.geo). Tarif d'entrée le plus bas 40 EUR (AggregateOffer lowPrice, 7 paliers jusqu'à 200 EUR). Heure convertie de l'UTC (15:00Z) vers l'heure d'été d'Europe centrale."
+  },
+  {
+    "title": "Biscotto · Quelza & Blanka au Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.49428,
+    "lng": 9.18262,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 15,
+    "currency": "EUR",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Quelza",
+      "Blanka",
+      "Yas Reven"
+    ],
+    "desc": "Le Gate est le club techno de la Via Valtellina, dans le quartier Isola de Milan, voisin de l'Alcatraz. La soirée Biscotto y reçoit le Français Quelza et Blanka, avec Yas Reven en ouverture. Portes à 23 heures, jusqu'à 5 heures.",
+    "descEn": "Gate is the techno club on Via Valtellina, in Milan's Isola district, next door to Alcatraz. The Biscotto night hosts France's Quelza and Blanka, with Yas Reven opening. Doors at 23:00 through to 05:00.",
+    "ticketUrl": "https://xceed.me/it/milano/event/biscotto-quelza-blanka/236309",
+    "sources": [
+      "https://xceed.me/it/milano/event/biscotto-quelza-blanka/236309",
+      "https://xceed.me/it/milano/events"
+    ],
+    "note": "Adresse : Gate Milano, Via Valtellina 21, 20159 Milano, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif d'entrée le plus bas 15 EUR (lowPrice), le haut de fourchette correspond aux tables. Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "Kobosil · Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.49428,
+    "lng": 9.18262,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 25,
+    "currency": "EUR",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "Kobosil"
+    ],
+    "desc": "Kobosil, résident du Berghain et patron du label R -  Label Group, joue au Gate Milano pendant la Fashion Week. Sa techno dure et saturée est l'une des signatures berlinoises les plus imitées de la décennie. Portes à 23 heures, fin à 5 heures.",
+    "descEn": "Kobosil, a Berghain resident and head of R - Label Group, plays Gate Milano during Fashion Week. His hard, saturated techno is one of the most copied Berlin signatures of the decade. Doors at 23:00, close at 05:00.",
+    "ticketUrl": "https://xceed.me/it/milano/event/kobosil-2/236319",
+    "sources": [
+      "https://xceed.me/it/milano/event/kobosil-2/236319"
+    ],
+    "note": "Adresse : Gate Milano, Via Valtellina 21, 20159 Milano, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif d'entrée le plus bas 25 EUR (lowPrice sur 13 paliers). Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "RAW · ANNĒ & Elli Acula au Gate Milano",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Milan",
+    "country": "Italy",
+    "lat": 45.49428,
+    "lng": 9.18262,
+    "date": "2026-10-02",
+    "time": "23:00",
+    "price": 15,
+    "currency": "EUR",
+    "venue": "Gate Milano",
+    "trending": false,
+    "lineup": [
+      "ANNĒ",
+      "Elli Acula",
+      "Inox Traxx",
+      "LPV"
+    ],
+    "desc": "La série RAW réunit au Gate Milano la Portugaise ANNĒ, l'Allemande Elli Acula et deux DJ italiens, Inox Traxx et LPV. Le programme reste sur la techno rapide et le hard groove. Portes à 23 heures.",
+    "descEn": "The RAW series brings Portugal's ANNĒ, Germany's Elli Acula and two Italian DJs, Inox Traxx and LPV, together at Gate Milano. The programme stays on fast techno and hard groove. Doors at 23:00.",
+    "ticketUrl": "https://xceed.me/it/milano/event/raw-anne-elli-acula-inox-traxx-lpv/236320",
+    "sources": [
+      "https://xceed.me/it/milano/event/raw-anne-elli-acula-inox-traxx-lpv/236320"
+    ],
+    "note": "Adresse : Gate Milano, Via Valtellina 21, 20159 Milano, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif d'entrée le plus bas 15 EUR. Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "Dixon · Forte Antenne",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.93747,
+    "lng": 12.50061,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 12,
+    "currency": "EUR",
+    "venue": "Forte Antenne",
+    "trending": false,
+    "lineup": [
+      "Dixon"
+    ],
+    "desc": "Le Forte Antenne est un fort militaire du XIXe siècle du parc de Villa Ada, au nord de Rome, ouvert l'été comme site de concerts et de soirées. Dixon, cofondateur d'Innervisions, y joue un set long. Portes à 23 heures.",
+    "descEn": "Forte Antenne is a nineteenth-century fort inside the Villa Ada park in northern Rome, opened in summer as a concert and club site. Dixon, co-founder of Innervisions, plays an extended set. Doors at 23:00.",
+    "ticketUrl": "https://xceed.me/it/roma/event/dixon-at-forte-antenne/240213",
+    "sources": [
+      "https://xceed.me/it/roma/event/dixon-at-forte-antenne/240213"
+    ],
+    "note": "Adresse : Forte Antenne, Via del Forte Antenne 12, 00199 Roma, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 12 EUR. Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "Rebel Rebel Closing · Adiel b2b Marcel Dettmann",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.93747,
+    "lng": 12.50061,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 10,
+    "currency": "EUR",
+    "venue": "Forte Antenne",
+    "trending": false,
+    "lineup": [
+      "Adiel",
+      "Marcel Dettmann"
+    ],
+    "desc": "Le collectif romain Rebel Rebel ferme sa saison au Forte Antenne avec un back to back entre Adiel, résidente historique du Goa Club, et Marcel Dettmann, pilier du Berghain. La soirée court de 23 heures à 5 heures.",
+    "descEn": "Roman collective Rebel Rebel closes its season at Forte Antenne with a back to back between Adiel, a long-standing Goa Club resident, and Marcel Dettmann, a Berghain mainstay. The night runs from 23:00 to 05:00.",
+    "ticketUrl": "https://xceed.me/it/roma/event/25-09-adiel-b2b-marcel-dettmann-rebel-rebel-closing-party/239871",
+    "sources": [
+      "https://xceed.me/it/roma/event/25-09-adiel-b2b-marcel-dettmann-rebel-rebel-closing-party/239871"
+    ],
+    "note": "Adresse : Forte Antenne, Via del Forte Antenne 12, 00199 Roma, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 10 EUR. Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "This Is Frenchcore · Cave di Tufo di Tor Cervara",
+    "type": "Warehouse",
+    "genres": [
+      "Hardcore",
+      "Hard Techno"
+    ],
+    "city": "Rome",
+    "country": "Italy",
+    "lat": 41.92735,
+    "lng": 12.58754,
+    "date": "2026-09-12",
+    "time": "22:00",
+    "price": 9,
+    "currency": "EUR",
+    "venue": "Cave di Tufo di Tor Cervara",
+    "trending": false,
+    "lineup": [],
+    "desc": "Les carrières de tuf de Tor Cervara, à l'est de Rome, accueillent une nuit entièrement consacrée au frenchcore, la branche la plus rapide du hardcore. La soirée court de 22 heures à 4 heures dans les galeries creusées dans la roche. Le line-up complet n'était pas publié au moment de la saisie.",
+    "descEn": "The tufa quarries of Tor Cervara, east of Rome, host a night given over entirely to frenchcore, the fastest branch of hardcore. The party runs from 22:00 to 04:00 inside galleries dug into the rock. The full line-up had not been published at the time of writing.",
+    "ticketUrl": "https://xceed.me/it/roma/event/this-is-frenchcore/244289",
+    "sources": [
+      "https://xceed.me/it/roma/event/this-is-frenchcore/244289"
+    ],
+    "note": "Adresse : Cave di Tufo di Tor Cervara, Via di Tor Cervara 57b, 00155 Roma, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 9 EUR. Heure convertie de l'UTC (20:00Z). Le 12 septembre 2026 est bien un samedi."
+  },
+  {
+    "title": "I Love Sunday · Jamie Jones au Club Partenopeo",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Naples",
+    "country": "Italy",
+    "lat": 40.80231,
+    "lng": 14.17489,
+    "date": "2026-09-20",
+    "time": "16:00",
+    "price": 18,
+    "currency": "EUR",
+    "venue": "Club Partenopeo",
+    "trending": false,
+    "lineup": [
+      "Jamie Jones",
+      "Ilario Alicante",
+      "Loco Dice"
+    ],
+    "desc": "Le Club Partenopeo occupe un terrain de la Via Coroglio, à Bagnoli, en bord de mer face à l'île de Nisida. La série I Love Sunday y réunit Jamie Jones, Ilario Alicante et Loco Dice pour une journée de 16 heures à 1 heure du matin.",
+    "descEn": "Club Partenopeo sits on Via Coroglio in Bagnoli, on the shoreline facing the island of Nisida. The I Love Sunday series brings Jamie Jones, Ilario Alicante and Loco Dice together for a day running from 16:00 to 01:00.",
+    "ticketUrl": "https://xceed.me/it/napoli/event/i-love-sunday-w-jamie-jones-ilario-alicante-loco-dice/241429",
+    "sources": [
+      "https://xceed.me/it/napoli/event/i-love-sunday-w-jamie-jones-ilario-alicante-loco-dice/241429"
+    ],
+    "note": "Adresse : Club Partenopeo, Via Coroglio 144, 80124 Napoli (Bagnoli), Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif d'entrée le plus bas 18 EUR (3 paliers jusqu'à 65 EUR). Heure convertie de l'UTC (14:00Z)."
+  },
+  {
+    "title": "REC Club Opening · Carl Craig",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Pozzuoli",
+    "country": "Italy",
+    "lat": 40.85827,
+    "lng": 14.12039,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 10,
+    "currency": "EUR",
+    "venue": "REC Club",
+    "trending": false,
+    "lineup": [
+      "Carl Craig",
+      "Jesooria",
+      "Jade Removille",
+      "Giuseppe Amoruoso"
+    ],
+    "desc": "Le REC Club ouvre sa saison sur la Via Campana, à Pozzuoli, dans les Champs Phlégréens à l'ouest de Naples. Carl Craig, l'un des fondateurs de la deuxième vague de Détroit, tient la tête d'affiche, avec Jesooria et un back to back entre Jade Removille et Giuseppe Amoruoso. De 23 heures à 6 heures.",
+    "descEn": "REC Club opens its season on Via Campana in Pozzuoli, in the Phlegraean Fields west of Naples. Carl Craig, one of the founders of Detroit's second wave, headlines, with Jesooria and a back to back between Jade Removille and Giuseppe Amoruoso. From 23:00 to 06:00.",
+    "ticketUrl": "https://xceed.me/it/napoli/event/opening-party-w-carl-craig-jesooria-jade-removille-b2b-giuseppe-amoruoso/242653",
+    "sources": [
+      "https://xceed.me/it/napoli/event/opening-party-w-carl-craig-jesooria-jade-removille-b2b-giuseppe-amoruoso/242653"
+    ],
+    "note": "Adresse : REC Club, Via Campana 233, 80078 Pozzuoli (NA), Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 10 EUR. Heure convertie de l'UTC (21:00Z). La salle est bien à Pozzuoli et non à Naples, à 12 km du centre napolitain."
+  },
+  {
+    "title": "Henge · Ellen Allien au REC Club",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Pozzuoli",
+    "country": "Italy",
+    "lat": 40.85827,
+    "lng": 14.12039,
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 10,
+    "currency": "EUR",
+    "venue": "REC Club",
+    "trending": false,
+    "lineup": [
+      "Ellen Allien",
+      "Jesooria",
+      "Emmef"
+    ],
+    "desc": "La soirée Henge reçoit Ellen Allien, fondatrice du label berlinois BPitch, au REC Club de Pozzuoli. Jesooria et Emmef complètent l'affiche. De 23 heures à 6 heures.",
+    "descEn": "The Henge night hosts Ellen Allien, founder of the Berlin label BPitch, at REC Club in Pozzuoli. Jesooria and Emmef complete the bill. From 23:00 to 06:00.",
+    "ticketUrl": "https://xceed.me/it/napoli/event/henge-at-rec-ellen-allien-jesooria-emmef/243717",
+    "sources": [
+      "https://xceed.me/it/napoli/event/henge-at-rec-ellen-allien-jesooria-emmef/243717"
+    ],
+    "note": "Adresse : REC Club, Via Campana 233, 80078 Pozzuoli (NA), Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 10 EUR. Heure convertie de l'UTC (21:00Z). Le 3 octobre 2026 est bien un samedi."
+  },
+  {
+    "title": "Kangding Ray & Stef Mendesidis · Q35 Warehouse",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.07468,
+    "lng": 7.69815,
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 10,
+    "currency": "EUR",
+    "venue": "Q35 Warehouse",
+    "trending": false,
+    "lineup": [
+      "Kangding Ray",
+      "Stef Mendesidis",
+      "Kessa"
+    ],
+    "desc": "Le Q35 occupe un entrepôt du Lungo Dora Firenze, sur la rive nord de la Dora à Turin. Kangding Ray y joue pour le label Ara, Stef Mendesidis en live pour Klockworks, et Kessa pour le collectif WRD. De 23 heures à 6 heures.",
+    "descEn": "Q35 occupies a warehouse on Lungo Dora Firenze, on the north bank of the Dora in Turin. Kangding Ray plays for the Ara label, Stef Mendesidis live for Klockworks, and Kessa for the WRD collective. From 23:00 to 06:00.",
+    "ticketUrl": "https://xceed.me/it/torino/event/kangding-ray-ara-fr-stef-mendesidis-live-klockworks-gr-kessa-wrd-it-at-q35-warehouse/239081",
+    "sources": [
+      "https://xceed.me/it/torino/event/kangding-ray-ara-fr-stef-mendesidis-live-klockworks-gr-kessa-wrd-it-at-q35-warehouse/239081"
+    ],
+    "note": "Adresse : Q35 Warehouse, Lungo Dora Firenze 131/A, 10153 Torino, Italie. Coordonnées reprises du JSON-LD Event de Xceed (45.0746811 / 7.6981488). Tarif d'entrée le plus bas 10 EUR (4 paliers jusqu'à 20 EUR). Heure convertie de l'UTC (21:00Z)."
+  },
+  {
+    "title": "Supernatural · Paco Osuna à ONE Torino",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Turin",
+    "country": "Italy",
+    "lat": 45.05016,
+    "lng": 7.68234,
+    "date": "2026-09-20",
+    "time": "15:00",
+    "price": 10,
+    "currency": "EUR",
+    "venue": "ONE.Torino",
+    "trending": false,
+    "lineup": [
+      "Paco Osuna"
+    ],
+    "desc": "ONE.Torino est le club du Corso Massimo d'Azeglio, en bordure du parc du Valentino. La série Supernatural y monte une fête de jour avec Paco Osuna, résident historique du Circoloco à Ibiza. De 15 heures à minuit.",
+    "descEn": "ONE.Torino is the club on Corso Massimo d'Azeglio, on the edge of Valentino park. The Supernatural series stages a daytime party there with Paco Osuna, a long-standing Circoloco resident in Ibiza. From 15:00 to midnight.",
+    "ticketUrl": "https://xceed.me/it/torino/event/supernatural-w-paco-osuna-daytime-party/240747",
+    "sources": [
+      "https://xceed.me/it/torino/event/supernatural-w-paco-osuna-daytime-party/240747"
+    ],
+    "note": "Adresse : ONE.Torino, Corso Massimo d'Azeglio 11, 10126 Torino, Italie. Coordonnées reprises du JSON-LD Event de Xceed. Tarif unique 10 EUR. Heure convertie de l'UTC (13:00Z)."
   }
 ]
