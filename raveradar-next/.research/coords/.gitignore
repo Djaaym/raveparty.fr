@@ -1,0 +1,2 @@
+# Cache de géocodage : régénérable, et il grossit à chaque passage.
+cache.json

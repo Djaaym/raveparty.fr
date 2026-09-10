@@ -132,7 +132,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["type"] = TYPE_FIX.get(e["type"], e["type"])
         if e["type"] not in TYPES:
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
-        if (e.get("endDate") or e["date"]) < "2026-09-07":
+        if (e.get("endDate") or e["date"]) < "2026-09-10":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",
@@ -152,6 +152,20 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
             skipped.append((fn, e["title"], e["date"] + " (même salle, même soir)")); continue
         seen.add(key); booked.add(bkey); rows.append(e); kept += 1
     print(f"  {fn}: {len(data)} in, {kept} kept")
+
+# Le lien hôtel est centré sur `lat`/`lng` et trie par distance à ce point (lib/hotels.ts) :
+# une coordonnée à deux décimales (~1 km) désigne le quartier, pas la salle. C'est un
+# avertissement et pas un rejet, même nuance que scripts/check-hotels.mjs : une
+# coordonnée grossière donne un lien moins bon, elle ne le rend pas faux, et bloquer
+# dessus ferait perdre une fiche par ailleurs vérifiée.
+def _dec(x):
+    t = ("%.10f" % float(x)).rstrip("0")
+    return len(t.split(".")[1]) if "." in t else 0
+coarse = [e for e in rows if min(_dec(e["lat"]), _dec(e["lng"])) < 3]
+if coarse:
+    print("\n%d coordonnées à moins de 3 décimales (lien hôtel imprécis) :" % len(coarse))
+    for e in coarse[:25]:
+        print("   ~ %-38.38s %s, %s  (%s, %s)" % (e["venue"], e["city"], e["country"], e["lat"], e["lng"]))
 
 rows.sort(key=lambda e: e["date"])
 
