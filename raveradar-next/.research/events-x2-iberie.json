@@ -746,5 +746,275 @@
       "https://mondodisko.es/eventos/1168"
     ],
     "note": "Terraza Jowke, Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón (Communauté de Madrid). Coordonnées: node OSM 'Jowke' via Nominatim (40.3580593, -3.8354568). La salle est à Alcorcón, pas dans Madrid intra-muros. Prix = entrée la moins chère vendue sur la billetterie du club."
+  },
+  {
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.41059,
+    "lng": -0.33518,
+    "venue": "Spook Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Spook invites Input: Ellen Allien",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-19",
+    "time": "17:00",
+    "price": 20,
+    "lineup": [
+      "Ellen Allien",
+      "Blanka",
+      "Hitch",
+      "AlexCubo",
+      "Yasmin Gardezi",
+      "Angelinanyuli",
+      "Marc Abella",
+      "Elena Megi"
+    ],
+    "desc": "Le Spook, ouvert en 1984 sur les cendres de la discothèque San Francisco, est l'un des lieux fondateurs de la nuit valencienne. Pour cette date il invite Input, le club barcelonais, avec Ellen Allien en tête d'affiche. Trois espaces tournent de 17 h à 5h30, salle principale, Total et Oven Garden.",
+    "descEn": "Spook, opened in 1984 on the ashes of the San Francisco discotheque, is one of the founding venues of Valencia's nightlife. For this date it hosts Barcelona club Input, with Ellen Allien headlining. Three rooms run from 5pm to 5:30am: main, Total and Oven Garden.",
+    "ticketUrl": "https://xceed.me/en/valencia/event/spook-invites-input-w-ellen-allien-blanka-total-w-yasmin-gardezi-oven-garden/230696",
+    "sources": [
+      "https://xceed.me/en/valencia/event/spook-invites-input-w-ellen-allien-blanka-total-w-yasmin-gardezi-oven-garden/230696"
+    ],
+    "note": "Spook Club, Carrera del Riu 399, Pinedo, 46012 Valencia. Coordonnées: node OSM 'Spook Club' via Nominatim (39.4105876, -0.3351840), cohérent avec le point du JSON-LD Xceed. Pinedo est une pedanía de la commune de Valence. Heure convertie depuis le startDate UTC du JSON-LD Xceed vers Europe/Madrid. Prix = 20 EUR ('TICKET - RELEASE 1', en vente) ; l'early bird à 15 EUR est épuisé et il existe une entrée à 10 EUR valable seulement avant 20 h."
+  },
+  {
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.41059,
+    "lng": -0.33518,
+    "venue": "Spook Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Dax J au Spook Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "17:00",
+    "price": 20,
+    "lineup": [
+      "Dax J",
+      "VIL",
+      "Finalversion3",
+      "Tama Sumo",
+      "Silverlining",
+      "Ines Cartas",
+      "Sueezo",
+      "Varis"
+    ],
+    "desc": "Dax J joue la salle principale du Spook pendant que la salle Special-K fête ses onze ans avec Tama Sumo et Silverlining. Le club de Pinedo programme tous les samedis de 17 h à 5h30 sur plusieurs espaces. Format multi-scènes annoncé comme un festival hebdomadaire par la salle.",
+    "descEn": "Dax J plays Spook's main room while the Special-K room marks its eleventh birthday with Tama Sumo and Silverlining. The Pinedo club runs every Saturday from 5pm to 5:30am across several spaces. The venue bills its multi-room format as a weekly festival.",
+    "ticketUrl": "https://xceed.me/en/valencia/event/dax-j-vil-11-aniversario-special-k-w-tama-sumo-silverlining-oven-garden/230820",
+    "sources": [
+      "https://xceed.me/en/valencia/event/dax-j-vil-11-aniversario-special-k-w-tama-sumo-silverlining-oven-garden/230820"
+    ],
+    "note": "Spook Club, Carrera del Riu 399, Pinedo, 46012 Valencia. Coordonnées: node OSM 'Spook Club' via Nominatim (39.4105876, -0.3351840), cohérent avec le point du JSON-LD Xceed. Pinedo est une pedanía de la commune de Valence. Heure convertie depuis le startDate UTC du JSON-LD Xceed vers Europe/Madrid. Prix = 20 EUR ('EARLYBIRD TICKETS' encore en vente) ; entrée à 10 EUR valable seulement avant 20 h, release 1 à 25 EUR."
+  },
+  {
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.41059,
+    "lng": -0.33518,
+    "venue": "Spook Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Klangkuenstler au Spook Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "date": "2026-10-08",
+    "time": "23:00",
+    "price": 35,
+    "lineup": [
+      "Klangkuenstler"
+    ],
+    "desc": "Klangkuenstler tient la salle principale du Spook pour une nuit hard techno, de 23 h à 5h30. Le club de Pinedo, au sud de Valence, programme des invités internationaux chaque semaine. Les artistes qui l'accompagnent ne sont pas encore annoncés.",
+    "descEn": "Klangkuenstler takes Spook's main room for a hard techno night, from 11pm to 5:30am. The Pinedo club, south of Valencia, books international guests every week. His support acts have not been announced yet.",
+    "ticketUrl": "https://xceed.me/en/valencia/event/klangkuenstler-invitados/241963",
+    "sources": [
+      "https://xceed.me/en/valencia/event/klangkuenstler-invitados/241963"
+    ],
+    "note": "Spook Club, Carrera del Riu 399, Pinedo, 46012 Valencia. Coordonnées: node OSM 'Spook Club' via Nominatim (39.4105876, -0.3351840), cohérent avec le point du JSON-LD Xceed. Pinedo est une pedanía de la commune de Valence. Heure convertie depuis le startDate UTC du JSON-LD Xceed vers Europe/Madrid. Prix = 35 EUR ('TICKET - RELEASE 2'), les paliers early bird et release 1 sont épuisés."
+  },
+  {
+    "city": "Valencia",
+    "country": "Spain",
+    "lat": 39.41059,
+    "lng": -0.33518,
+    "venue": "Spook Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Hector Oaks & Egyptian Lover au Spook Club",
+    "genres": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "date": "2026-11-07",
+    "time": "23:00",
+    "price": 25,
+    "lineup": [
+      "Hector Oaks",
+      "Egyptian Lover"
+    ],
+    "desc": "Hector Oaks joue all night long dans la salle principale du Spook, avec Egyptian Lover, pionnier de l'electro-rap de Los Angeles et de la 808, sur la même affiche. La nuit court de 23 h à 6h30. Le Spook est en activité à Pinedo depuis 1984.",
+    "descEn": "Hector Oaks plays all night long in Spook's main room, with Egyptian Lover, the Los Angeles electro-rap and 808 pioneer, on the same bill. The night runs from 11pm to 6:30am. Spook has operated in Pinedo since 1984.",
+    "ticketUrl": "https://xceed.me/en/valencia/event/hector-oaks-all-night-long-egyptian-lover/241967",
+    "sources": [
+      "https://xceed.me/en/valencia/event/hector-oaks-all-night-long-egyptian-lover/241967"
+    ],
+    "note": "Spook Club, Carrera del Riu 399, Pinedo, 46012 Valencia. Coordonnées: node OSM 'Spook Club' via Nominatim (39.4105876, -0.3351840), cohérent avec le point du JSON-LD Xceed. Pinedo est une pedanía de la commune de Valence. Heure convertie depuis le startDate UTC du JSON-LD Xceed vers Europe/Madrid. Prix = 25 EUR ('TICKET - RELEASE 1'), early bird à 20 EUR épuisé."
+  },
+  {
+    "city": "Torremolinos",
+    "country": "Spain",
+    "lat": 36.6208,
+    "lng": -4.49999,
+    "venue": "Studio Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Studio Club invites Âme & Henrik Schwarz",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-17",
+    "time": "18:00",
+    "price": 20,
+    "lineup": [
+      "Âme",
+      "Henrik Schwarz"
+    ],
+    "desc": "Le Studio Club, sur l'avenue Palma de Mallorca à Torremolinos, reçoit Âme et un live d'Henrik Schwarz, deux piliers du label berlinois Innervisions. La soirée démarre à 18 h et se prolonge jusqu'au petit matin. D'autres noms sont annoncés comme à venir.",
+    "descEn": "Studio Club, on Avenida Palma de Mallorca in Torremolinos, hosts Âme and a Henrik Schwarz live set, two pillars of Berlin's Innervisions label. The night starts at 6pm and runs until the early hours. More names are announced as to be confirmed.",
+    "ticketUrl": "https://xceed.me/en/malaga/event/studio-cub-invites-ame-henrik-schwarz-live-more/243209",
+    "sources": [
+      "https://xceed.me/en/malaga/event/studio-cub-invites-ame-henrik-schwarz-live-more/243209"
+    ],
+    "note": "Studio Club, Avenida Palma de Mallorca 36, 29620 Torremolinos (province de Málaga). Coordonnées: node OSM 'Studio Club' via Nominatim (36.6207955, -4.4999903). La salle est à Torremolinos, pas dans Málaga: c'est ce point qui doit servir aux hôtels. Heure convertie depuis l'UTC du JSON-LD Xceed. Prix = 20 EUR ('Entrada Antes de las 19:00'), entrée générale à 30 EUR."
+  },
+  {
+    "city": "Torremolinos",
+    "country": "Spain",
+    "lat": 36.6208,
+    "lng": -4.49999,
+    "venue": "Studio Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Studio Club invites The Martinez Brothers",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-18",
+    "time": "15:00",
+    "price": 30,
+    "lineup": [
+      "The Martinez Brothers"
+    ],
+    "desc": "The Martinez Brothers, duo new-yorkais passé par Cuttin' Headz et les résidences ibicencas, jouent au Studio Club de Torremolinos. Format diurne, démarrage à 15 h. La salle programme des invités house et techno chaque week-end.",
+    "descEn": "The Martinez Brothers, the New York duo behind Cuttin' Headz and long-running Ibiza residencies, play Studio Club in Torremolinos. Daytime format, starting at 3pm. The venue books house and techno guests every weekend.",
+    "ticketUrl": "https://xceed.me/en/malaga/event/studio-cub-invites-the-martinez-brothers/244273",
+    "sources": [
+      "https://xceed.me/en/malaga/event/studio-cub-invites-the-martinez-brothers/244273"
+    ],
+    "note": "Studio Club, Avenida Palma de Mallorca 36, 29620 Torremolinos (province de Málaga). Coordonnées: node OSM 'Studio Club' via Nominatim (36.6207955, -4.4999903). La salle est à Torremolinos, pas dans Málaga: c'est ce point qui doit servir aux hôtels. Heure convertie depuis l'UTC du JSON-LD Xceed. Prix = 30 EUR ('Entrada General'), seule autre option 'Very Cool People' à 60 EUR."
+  },
+  {
+    "city": "Sueca",
+    "country": "Spain",
+    "lat": 39.25492,
+    "lng": -0.26663,
+    "venue": "Barraca",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Barraca: Colin Benders",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-09-19",
+    "time": "22:00",
+    "price": 15,
+    "lineup": [
+      "Colin Benders",
+      "Domen",
+      "Lucas Cabello",
+      "Sou Allen"
+    ],
+    "desc": "Barraca est l'un des clubs fondateurs de la Ruta del Bakalao, ouvert sur la route côtière entre Valence et Sueca. Colin Benders y présente son set modulaire, avec Domen, Lucas Cabello et Sou Allen. La nuit court de 22 h à 5h30.",
+    "descEn": "Barraca is one of the founding clubs of the Ruta del Bakalao, on the coast road between Valencia and Sueca. Colin Benders brings his modular set, with Domen, Lucas Cabello and Sou Allen. The night runs from 10pm to 5:30am.",
+    "ticketUrl": "https://xceed.me/en/valencia/event/barraca-colin-benders-domen-lucas-cabello-sou-allen/241602",
+    "sources": [
+      "https://xceed.me/en/valencia/event/barraca-colin-benders-domen-lucas-cabello-sou-allen/241602"
+    ],
+    "note": "Barraca, Carretera Les Palmeres (CV-500), Mareny de Barraquetes, 46410 Sueca (province de Valence). Coordonnées: node OSM 'Barraca' via Nominatim (39.2549187, -0.2666272). Le club est sur la commune de Sueca et non sur celle de Valence. Prix = 15 EUR ('Entrada Sin Copa' en vente, le palier à 12 EUR est épuisé)."
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.41068,
+    "lng": 2.22634,
+    "venue": "Parc del Fòrum",
+    "currency": "EUR",
+    "type": "Festival",
+    "trending": false,
+    "title": "Fury Anniversary x Halloween",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "date": "2026-10-30",
+    "time": "17:00",
+    "price": 30,
+    "lineup": [],
+    "desc": "Fury fête son troisième anniversaire en revenant au format festival, dans l'amphithéâtre du Parc del Fòrum face à la mer, là où sa première édition avait eu lieu. La date tombe la veille d'Halloween et court de 17 h à minuit. Le line-up complet n'est pas encore publié.",
+    "descEn": "Fury marks its third anniversary by returning to a festival format, in the seafront amphitheatre of Parc del Fòrum where its first edition was held. The date falls on Halloween eve and runs from 5pm to midnight. The full line-up has not been published yet.",
+    "ticketUrl": "https://xceed.me/en/barcelona/event/fury-3rd-anniversary-x-halloween-balla-barcelona-festival/239771",
+    "sources": [
+      "https://xceed.me/en/barcelona/event/fury-3rd-anniversary-x-halloween-balla-barcelona-festival/239771"
+    ],
+    "note": "Parc del Fòrum, Moll de la Vela 1, 08019 Barcelone. Coordonnées: point du JSON-LD Xceed (41.4106781, 2.2263421), vérifié en reverse Nominatim, il tombe dans le Parc dels Auditoris du Parc del Fòrum. Prix = 30 EUR ('3rd Release, General Entrance'). Line-up non annoncé."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.42172,
+    "lng": -3.72019,
+    "venue": "ART Madrid Club",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "EKHO: Adriana López & Tommy Four Seven",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-25",
+    "time": "23:59",
+    "price": 15,
+    "lineup": [
+      "Adriana López",
+      "Tommy Four Seven"
+    ],
+    "desc": "EKHO installe sa soirée techno à l'ART Madrid Club, sur le Paseo de la Florida. La Colombienne Adriana López et le Britannique Tommy Four Seven, tous deux habitués des formats sombres et rapides, se partagent la nuit. Fin annoncée à 4 h.",
+    "descEn": "EKHO brings its techno night to ART Madrid Club, on Paseo de la Florida. Colombia's Adriana López and Britain's Tommy Four Seven, both regulars of the darker, faster end of the spectrum, share the night. Billed to close at 4am.",
+    "ticketUrl": "https://xceed.me/en/madrid/event/ekho-adriana-lopez-tommy-four-seven/241958",
+    "sources": [
+      "https://xceed.me/en/madrid/event/ekho-adriana-lopez-tommy-four-seven/241958"
+    ],
+    "note": "ART Madrid Club, Paseo de la Florida 2, 28008 Madrid. Coordonnées: point du JSON-LD Xceed (40.4217163, -3.7201867). Prix = 15 EUR ('Entrada anticipada'), les autres paliers incluent des consommations. Heure convertie depuis l'UTC du JSON-LD."
   }
 ]
