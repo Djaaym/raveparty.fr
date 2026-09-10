@@ -21,6 +21,14 @@
  */
 export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; slug: string }> = {
   "the-warehouse-project": { base: "festival", slug: "the-warehouse-project-ki-ki" },
+  /* Deux festivals sans rapport portaient « Sunrise Festival » : celui de Kolobrzeg, sur
+     l'ancien aérodrome de Podczele, et un homonyme belge à Gierle. Le titre étant la clé
+     de regroupement des éditions, le catalogue en faisait un seul festival : le slug nu
+     ouvrait le belge, qui listait l'édition polonaise 2026 dans ses « éditions passées ».
+     La convention du dépôt est de départager par le lieu (« PACT à La Laiterie »), donc
+     la marque polonaise porte sa ville et le belge garde le slug nu. L'archive 2026
+     changeait alors d'URL, d'où le 301. */
+  "sunrise-festival-2026": { base: "festival", slug: "sunrise-festival-kolobrzeg-2026" },
   /* Deux titres portaient l'année de leur édition, ce que la convention interdit :
      `nextEdition()` et le slug canonique regroupent les éditions par titre exact, donc
      un titre daté ne groupe jamais, et le gabarit de `<title>` ajoute déjà l'année.

@@ -96,7 +96,13 @@ REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
 CITY_FIX = {"Bruxelles": "Brussels", "Anvers": "Antwerp", "Gand": "Ghent",
             "Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
-            "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow"}
+            "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow",
+            # Une ville écrite de deux façons fait deux pages en concurrence et deux
+            # compteurs faux, c'est le défaut « United Kingdom vs UK » de COUNTRY_FIX un
+            # cran plus bas. Quatre variantes étaient déjà passées : « Lisboa » avait
+            # coupé Lisbonne en deux moitiés de 21 et 23 dates.
+            "Lisboa": "Lisbon", "Costa De Caparica": "Costa da Caparica",
+            "St. Paul's Bay": "St Paul's Bay", "Viana Do Castelo": "Viana do Castelo"}
 
 REQUIRED = {"title","type","genres","city","country","lat","lng","date","time",
             "price","currency","venue","trending","lineup","desc","descEn"}

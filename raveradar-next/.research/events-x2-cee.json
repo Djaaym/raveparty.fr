@@ -354,7 +354,7 @@
     "note": "Adresse : Progresja, ul. Fort Wola 22, 01-258 Warszawa, Pologne. Coordonnees publiees par le club lui-meme en pied de page de progresja.com (52.224831 / 20.928594). Heure et tarif repris de la fiche eBilet (23:30, a partir de 191,90 zl frais inclus) ; le JSON-LD de biletomat donne le meme creneau 2026-10-16T23:30+02:00."
   },
   {
-    "title": "Sunrise Festival",
+    "title": "Sunrise Festival Kolobrzeg",
     "type": "Festival",
     "genres": [
       "EDM",
@@ -382,7 +382,7 @@
       "https://sunrisefestival.pl/",
       "https://okkolobrzeg.pl/sunrise-festival-2026-jak-dojechac-do-podczela-i-wrocic-w-nocy-autobusy-busy-i-parkingi/"
     ],
-    "note": "Adresse du site : Lotnisko, 78-111 Bagicz (Podczele), pres de Kolobrzeg, Pologne, telle que donnee par la presse locale citant l'organisateur. Coordonnees Nominatim sur l'ancien aerodrome de Bagicz / Podczele (54.1999341 / 15.6856132). Attention : la fiche 2026 deja au catalogue porte 54.165 / 15.635, qui tombe pres du centre de Kolobrzeg et non sur le site, a corriger. Tarif non communique pour 2027."
+    "note": "Adresse du site : Lotnisko, 78-111 Bagicz (Podczele), pres de Kolobrzeg, Pologne, telle que donnee par la presse locale citant l'organisateur. Coordonnees Nominatim sur l'ancien aerodrome de Bagicz / Podczele (54.1999341 / 15.6856132). Attention : la fiche 2026 deja au catalogue porte 54.165 / 15.635, qui tombe pres du centre de Kolobrzeg et non sur le site, a corriger. Tarif non communique pour 2027. ATTENTION titre : le catalogue porte deja un 'Sunrise Festival' 2027-06-24 a Gierle (Belgique), homonyme sans rapport, qui occupe la cle de dedup (titre, annee) pour 2027. Le titre est donc suffixe de la ville pour ne pas etre rejete au merge. A arbitrer a la relecture : soit renommer l'homonyme belge, soit garder ce suffixe, sachant qu'il separe cette edition de la fiche 'Sunrise Festival' 2026 de Kolobrzeg pour nextEdition()."
   },
   {
     "title": "Sziget Festival",
@@ -792,8 +792,8 @@
   {
     "city": "Budapest",
     "country": "Hungary",
-    "lat": 47.49774,
-    "lng": 19.0538,
+    "lat": 47.49867,
+    "lng": 19.05416,
     "venue": "Akvárium Klub",
     "type": "Club",
     "trending": false,
@@ -816,13 +816,13 @@
       "https://akvariumklub.hu/en/events/bob-moses/",
       "https://www.songkick.com/concerts/43352365-bob-moses-at-akvarium-klub"
     ],
-    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page du club porte 'November 1 (Sunday)' : le 1er novembre 2026 est bien un dimanche, ce qui confirme l'annee, l'annee ecrite ailleurs sur la page etant un reliquat."
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page du club porte 'November 1 (Sunday)' : le 1er novembre 2026 est bien un dimanche, ce qui confirme l'annee, l'annee ecrite ailleurs sur la page etant un reliquat."
   },
   {
     "city": "Budapest",
     "country": "Hungary",
-    "lat": 47.49774,
-    "lng": 19.0538,
+    "lat": 47.49867,
+    "lng": 19.05416,
     "venue": "Akvárium Klub",
     "type": "Club",
     "trending": false,
@@ -844,13 +844,13 @@
     "sources": [
       "https://akvariumklub.hu/en/events/skeler-nightfall-world-tour/"
     ],
-    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page annonce 'Saturday, November 14' : le 14 novembre 2026 est un samedi, l'annee est donc bien 2026."
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page annonce 'Saturday, November 14' : le 14 novembre 2026 est un samedi, l'annee est donc bien 2026."
   },
   {
     "city": "Budapest",
     "country": "Hungary",
-    "lat": 47.49774,
-    "lng": 19.0538,
+    "lat": 47.49867,
+    "lng": 19.05416,
     "venue": "Akvárium Klub",
     "type": "Club",
     "trending": false,
@@ -871,7 +871,7 @@
       "https://www.songkick.com/concerts/43222352-kraak-and-smaak-at-akvarium-klub",
       "https://www.songkick.com/metro-areas/29047-hungary-budapest/genre/electronic"
     ],
-    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.49774 / 19.0538), coherentes avec l'adresse publiee par le club. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. Date et heure d'ouverture reprises du JSON-LD Songkick (2026-11-28T19:00)."
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. Date et heure d'ouverture reprises du JSON-LD Songkick (2026-11-28T19:00)."
   },
   {
     "title": "Next Level : Modestep à l'A38",
@@ -900,5 +900,175 @@
       "https://www.a38.hu/en/programs"
     ],
     "note": "Adresse : A38 Hajo, Petofi hid budai hidfo, Henryk Slawik rakpart, 1117 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.47902 / 19.06378), qui tombent bien sur le bateau amarre cote Buda. Le 13 novembre 2026 est un vendredi, conforme au 'November 13 (Friday)' annonce. Tarif non communique sur les pages consultees."
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "venue": "Cross Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "CZK",
+    "title": "Sub Spirits : Blocksberg & Memphys",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "date": "2026-10-09",
+    "time": "21:00",
+    "price": 120,
+    "lineup": [
+      "Blocksberg",
+      "Memphys"
+    ],
+    "desc": "Le collectif Sub Spirits occupe deux scenes du Cross Club. En tete d'affiche, la Roumaine Blocksberg fait ses debuts tcheques aux cotes de Memphys, sur un drum & bass qui laisse toute la place au chant. Premier palier a 120 Kc.",
+    "descEn": "Sub Spirits take over two rooms at Cross Club. Romanian vocalist Blocksberg makes her Czech debut alongside Memphys, on a drum and bass night built around live vocals. First tier 120 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/vqinb/",
+    "sources": [
+      "https://goout.net/en/tickets/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/vqinb/"
+    ],
+    "note": "Adresse : Cross Club, Plynarni 1096/23, 170 00 Praha 7 - Holesovice, Tchequie. Coordonnees OpenStreetMap du noeud 'Cross Club'. Tarif 120-200 Kc, palier le plus bas retenu."
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "venue": "Cross Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "CZK",
+    "title": "Nebe, peklo & rave",
+    "genres": [
+      "Drum & Bass",
+      "Hard Techno"
+    ],
+    "date": "2026-10-02",
+    "time": "21:00",
+    "price": 150,
+    "lineup": [
+      "Eskei83",
+      "Zakilo",
+      "Korty",
+      "John T",
+      "Nocturnal",
+      "Ben3dict"
+    ],
+    "desc": "Soiree a plusieurs salles au Cross Club, entre drum & bass et hard techno. L'Allemand Eskei83 mene l'affiche, entoure des residents tcheques Zakilo, Korty, John T et Nocturnal. Premier palier a 150 Kc.",
+    "descEn": "Multi room night at Cross Club, running between drum and bass and hard techno. Germany's Eskei83 leads the bill alongside Czech residents Zakilo, Korty, John T and Nocturnal. First tier 150 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/nebe-peklo-and-rave/flqnb/",
+    "sources": [
+      "https://goout.net/en/tickets/nebe-peklo-and-rave/flqnb/"
+    ],
+    "note": "Adresse : Cross Club, Plynarni 1096/23, 170 00 Praha 7 - Holesovice, Tchequie. Coordonnees OpenStreetMap du noeud 'Cross Club'. Tarif 150-250 Kc, palier le plus bas retenu. Affiche mixte : Eskei83 vient du drum & bass et des breaks, John T de la hard techno, d'ou les deux genres."
+  },
+  {
+    "title": "Techno Night au Roxy",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.0907,
+    "lng": 14.42586,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 250,
+    "currency": "CZK",
+    "venue": "Roxy",
+    "trending": false,
+    "lineup": [],
+    "desc": "Nuit techno au Roxy, ancien cinema de la rue Dlouha transforme en club au debut des annees 1990 et l'une des salles les plus constantes de Prague. Programmation non annoncee, entree a 250 Kc.",
+    "descEn": "Techno night at Roxy, a former cinema on Dlouha street turned club in the early 1990s and one of Prague's steadiest rooms. Line-up not announced, entry 250 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/techno-night/whgnb/",
+    "sources": [
+      "https://goout.net/en/tickets/techno-night/whgnb/"
+    ],
+    "note": "Adresse : Roxy, Dlouha 731/33, 110 00 Praha 1 - Josefov, Tchequie. Coordonnees Nominatim sur le numero 731/33 de la rue Dlouha (50.0907046 / 14.4258612), identiques a celles des fiches Roxy deja au catalogue (50.0907 / 14.4259). Programmation non annoncee, lineup laisse vide."
+  },
+  {
+    "title": "Tiga à Oczki",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22429,
+    "lng": 21.00111,
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Oczki",
+    "trending": false,
+    "lineup": [
+      "Tiga"
+    ],
+    "desc": "Le Canadien Tiga, fondateur du label Turbo Recordings, joue au club Oczki, installe rue Wojciecha Oczki dans le quartier d'Ochota a Varsovie. Ouverture des portes a 23 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "Canadian producer Tiga, founder of Turbo Recordings, plays Oczki, the club on Wojciecha Oczki street in Warsaw's Ochota district. Doors at 23:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43352529-tiga-at-oczki",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Oczki, ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne. Coordonnees du JSON-LD Songkick de la fiche evenement (52.22429 / 21.00111). Heure d'ouverture 23:00 donnee par la meme fiche. Tarif non communique."
+  },
+  {
+    "title": "Lane 8 à Oczki",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22429,
+    "lng": 21.00111,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Oczki",
+    "trending": false,
+    "lineup": [
+      "Lane 8"
+    ],
+    "desc": "L'Americain Lane 8, figure de la deep house melodique et fondateur du label This Never Happened, joue au club Oczki a Varsovie. Ouverture des portes a 20 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "American producer Lane 8, a name in melodic deep house and founder of the This Never Happened label, plays Oczki in Warsaw. Doors at 20:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43298681-lane-8-at-oczki",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Oczki, ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne. Coordonnees du JSON-LD Songkick (52.22429 / 21.00111). Tarif non communique. Le catalogue porte deja une date 'Lane 8: This Never Happened' ailleurs, d'ou la salle dans le titre."
+  },
+  {
+    "title": "Digitalism à Niebo",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23255,
+    "lng": 21.01888,
+    "date": "2026-10-24",
+    "time": "20:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Niebo",
+    "trending": false,
+    "lineup": [
+      "Digitalism"
+    ],
+    "desc": "Le duo hambourgeois Digitalism fait etape a Varsovie pour son Optimism Tour, au club Niebo, en sous-sol de la rue Nowy Swiat. Ouverture des portes a 20 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "Hamburg duo Digitalism stop in Warsaw on their Optimism Tour, at Niebo, the basement club on Nowy Swiat street. Doors at 20:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43104562-digitalism-at-niebo",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Niebo, ul. Nowy Swiat 21, 00-029 Warszawa, Pologne. Coordonnees du JSON-LD Songkick (52.23255 / 21.01888), coherentes avec la fiche de salle GoOut (52.2325 / 21.0191). Tarif non communique."
   }
 ]
