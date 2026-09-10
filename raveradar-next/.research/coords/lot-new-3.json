@@ -1,0 +1,202 @@
+[
+ {
+  "id": 2211,
+  "venue": "Lehmann Club",
+  "lat": 48.77985,
+  "lng": 9.16678,
+  "address": "Seidenstraße 20, 70174 Stuttgart, Allemagne",
+  "source": "https://nominatim.openstreetmap.org/search?q=Seidenstra%C3%9Fe+20%2C+70174+Stuttgart&format=json",
+  "status": "confirme",
+  "note": "Adresse Seidenstraße 20 (Bosch-Areal, sous-sol) confirmée par la fiche Stuttgart-Tourist ; le géocodage OSM du numéro rend exactement le point du catalogue."
+ },
+ {
+  "id": 2160,
+  "venue": "Relikt",
+  "lat": 51.262,
+  "lng": 7.14748,
+  "address": "Gathe 50, 42107 Wuppertal, Allemagne",
+  "source": "https://looprituals.de/relikt-neuer-club-in-wuppertal/",
+  "status": "confirme",
+  "note": "Le club a ouvert le 11/07/2026 à la Gathe 50 (ancien Pays Club). Le point OSM du numéro 50 tombe à 6 m de la coordonnée du catalogue, qui est donc bonne et simplement précisée."
+ },
+ {
+  "id": 2194,
+  "venue": "Relikt",
+  "lat": 51.262,
+  "lng": 7.14748,
+  "address": "Gathe 50, 42107 Wuppertal, Allemagne",
+  "source": "https://looprituals.de/relikt-neuer-club-in-wuppertal/",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2160. Point OSM du numéro 50 à 6 m de l'ancienne coordonnée."
+ },
+ {
+  "id": 2231,
+  "venue": "U-Club",
+  "lat": 51.24874,
+  "lng": 7.12112,
+  "address": "Friedrich-Ebert-Straße 191, 42117 Wuppertal, Allemagne",
+  "source": "https://nominatim.openstreetmap.org/search?q=U-Club+Wuppertal&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « U-Club » au 191 Friedrich-Ebert-Straße. Écart avec l'ancien point : 23 m."
+ },
+ {
+  "id": 2153,
+  "venue": "Alsos Theater",
+  "lat": 37.99446,
+  "lng": 23.73874,
+  "address": "Θέατρο Άλσος, Ευελπίδων, Πεδίον του Άρεως, 113 62 Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Alsos+Theater+Athens&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM theatre « Άλσος » dans le Pedion tou Areos, rue Evelpidon. Écart avec l'ancien point : 9 m."
+ },
+ {
+  "id": 2223,
+  "venue": "Bolivar Beach Club",
+  "lat": 37.9082,
+  "lng": 23.71467,
+  "address": "Λεωφόρος Ποσειδώνος, Ακτή του Ήλιου, 174 55 Άλιμος, Grèce",
+  "source": "https://www.bolivar.gr/contact/",
+  "status": "confirme",
+  "note": "Adresse « Leoforos Poseidonos, Akti tou Hliou Beach, Alimos 17455 » lue sur la page contact du club ; le nœud OSM « Bolivar » sur la contre-allée de Poseidonos tombe à 1 m du point du catalogue."
+ },
+ {
+  "id": 2252,
+  "venue": "Oddity Club",
+  "lat": 37.97575,
+  "lng": 23.71269,
+  "address": "Ηρακλειδών 61, Κάτω Πετράλωνα, 118 54 Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Oddity+Club+Athens&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Oddity Club », Irakleidon 61, Petralona. Écart avec l'ancien point : moins de 1 m."
+ },
+ {
+  "id": 2251,
+  "venue": "Universe Athens",
+  "lat": 37.98484,
+  "lng": 23.68383,
+  "address": "Παράλληλη Λεωφόρου Κηφισού 87, 122 41 Αιγάλεω, Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Universe+%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM music_venue « Universe live stage » sur la parallèle de la Kifisou, à Egaleo / Agios Ioannis Rentis. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2338,
+  "venue": "Universe Athens",
+  "lat": 37.98484,
+  "lng": 23.68383,
+  "address": "Παράλληλη Λεωφόρου Κηφισού 87, 122 41 Αιγάλεω, Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Universe+%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2251."
+ },
+ {
+  "id": 2331,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Akvárium Klub », Erzsébet tér 12. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2347,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2331."
+ },
+ {
+  "id": 2363,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2331."
+ },
+ {
+  "id": 2342,
+  "venue": "A38 Hajó",
+  "lat": 47.47653,
+  "lng": 19.06294,
+  "address": "Henryk Sławik rakpart, pont de Petőfi (rive de Buda), 1117 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=A38+Haj%C3%B3+Budapest&format=json",
+  "status": "corrige",
+  "note": "Nœud OSM nightclub « A38 Hajó », le bateau amarré au pied du pont de Petőfi côté Buda. L'ancien point tombait 280 m en amont, au milieu du Danube."
+ },
+ {
+  "id": 2151,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Cyprus Avenue », 113 Oliver Plunkett Street. Écart avec l'ancien point : 8 m."
+ },
+ {
+  "id": 2171,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2151."
+ },
+ {
+  "id": 2375,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2151."
+ },
+ {
+  "id": 2282,
+  "venue": "Wigwam",
+  "lat": 53.348,
+  "lng": -6.26215,
+  "address": "54 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Wigwam+Dublin&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM bar « Wigwam », 54 Middle Abbey Street. Coordonnée identique à celle du catalogue, rendue à 5 décimales."
+ },
+ {
+  "id": 2172,
+  "venue": "Index",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "address": "57 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://www.indexdublin.com/events/",
+  "status": "confirme",
+  "note": "Le pied de page du site du club donne « 57 Middle Abbey St, North City, Dublin 1 », et OSM porte un nœud nightclub « Index Dublin » à ce numéro. Attention aux anciennes adresses qui circulent encore (Liberty Lane, Arran Quay) : ce ne sont plus les bonnes."
+ },
+ {
+  "id": 2224,
+  "venue": "Index",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "address": "57 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://www.indexdublin.com/events/",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2172."
+ },
+ {
+  "id": 2241,
+  "venue": "Lofi",
+  "lat": 52.39125,
+  "lng": 4.82422,
+  "address": "Basisweg 63, 1043 AN Amsterdam, Pays-Bas",
+  "source": "https://nominatim.openstreetmap.org/search?q=Basisweg+63%2C+Amsterdam&format=json",
+  "status": "confirme",
+  "note": "Adresse Basisweg 63 (ancien dépôt de bus GVB) ; le géocodage du numéro rend exactement le point du catalogue."
+ }
+]

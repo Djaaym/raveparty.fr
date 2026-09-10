@@ -1,0 +1,522 @@
+[
+  {
+    "id": 2332,
+    "venue": "DK Zrkadlový háj",
+    "lat": 48.11687,
+    "lng": 17.11078,
+    "address": "Rovniankova 3690/3, 851 02 Bratislava-Petržalka, Slovaquie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Rovniankova+3,+Bratislava&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Dom kultúry Zrkadlový Háj », Rovniankova 3, Petržalka. Identique au point du catalogue (écart nul)."
+  },
+  {
+    "id": 2183,
+    "venue": "Terraza Jowke",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "address": "Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón, Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Jowke&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Jowke », au n° 22 de l'Avenida San Martín de Valdeiglesias, adresse recoupée sur la fiche de salle Fever. Identique au point du catalogue."
+  },
+  {
+    "id": 2216,
+    "venue": "Terraza Jowke",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "address": "Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón, Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Jowke&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Jowke », au n° 22 de l'Avenida San Martín de Valdeiglesias, adresse recoupée sur la fiche de salle Fever. Identique au point du catalogue."
+  },
+  {
+    "id": 2325,
+    "venue": "Terraza Jowke",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "address": "Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón, Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Jowke&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Jowke », au n° 22 de l'Avenida San Martín de Valdeiglesias, adresse recoupée sur la fiche de salle Fever. Identique au point du catalogue."
+  },
+  {
+    "id": 2164,
+    "venue": "Sala Apolo",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "address": "Carrer Nou de la Rambla 113, 08004 Barcelona, Espagne",
+    "source": "https://www.sala-apolo.com/en/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Nou de la Rambla, Paral·lel), point OSM du bâtiment Sala Apolo. Identique au point du catalogue."
+  },
+  {
+    "id": 2165,
+    "venue": "La [2] de Apolo",
+    "lat": 41.37434,
+    "lng": 2.16949,
+    "address": "Carrer Nou de la Rambla 111, 08004 Barcelona, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Carrer+Nou+de+la+Rambla+111,+Barcelona&format=jsonv2",
+    "status": "confirme",
+    "note": "Deuxième salle du même complexe, entrée au n° 111 (Apolo est au 113). Écart de 7 m avec le point du catalogue, qui reprenait celui de la grande salle."
+  },
+  {
+    "id": 2182,
+    "venue": "Sala Apolo",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "address": "Carrer Nou de la Rambla 113, 08004 Barcelona, Espagne",
+    "source": "https://www.sala-apolo.com/en/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Nou de la Rambla, Paral·lel), point OSM du bâtiment Sala Apolo. Identique au point du catalogue."
+  },
+  {
+    "id": 2199,
+    "venue": "La [2] de Apolo",
+    "lat": 41.37434,
+    "lng": 2.16949,
+    "address": "Carrer Nou de la Rambla 111, 08004 Barcelona, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Carrer+Nou+de+la+Rambla+111,+Barcelona&format=jsonv2",
+    "status": "confirme",
+    "note": "Deuxième salle du même complexe, entrée au n° 111 (Apolo est au 113). Écart de 7 m avec le point du catalogue, qui reprenait celui de la grande salle."
+  },
+  {
+    "id": 2215,
+    "venue": "Sala Apolo",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "address": "Carrer Nou de la Rambla 113, 08004 Barcelona, Espagne",
+    "source": "https://www.sala-apolo.com/en/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Nou de la Rambla, Paral·lel), point OSM du bâtiment Sala Apolo. Identique au point du catalogue."
+  },
+  {
+    "id": 2250,
+    "venue": "Sala Apolo",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "address": "Carrer Nou de la Rambla 113, 08004 Barcelona, Espagne",
+    "source": "https://www.sala-apolo.com/en/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Nou de la Rambla, Paral·lel), point OSM du bâtiment Sala Apolo. Identique au point du catalogue."
+  },
+  {
+    "id": 2321,
+    "venue": "Parc del Fòrum",
+    "lat": 41.41065,
+    "lng": 2.22638,
+    "address": "Parc del Fòrum, Rambla Prim / Passeig de Garcia Faria, 08019 Barcelona, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Auditori+Parc+del+Forum+Barcelona&format=jsonv2",
+    "status": "confirme",
+    "note": "« El Parc dels Auditoris » dans OSM, l'esplanade de concerts du Parc del Fòrum, à 5 m du point du catalogue. Le centroïde du parc entier tombe 400 m plus à l'ouest, il n'a pas été retenu."
+  },
+  {
+    "id": 2146,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2181,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2275,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2283,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2299,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2324,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2366,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2380,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2381,
+    "venue": "Fabrik",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "address": "Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Avenida+de+la+Industria+82,+Humanes+de+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Fabrik Madrid » au n° 82, adresse recoupée sur esmadrid.com et Wikipédia. Identique au point du catalogue."
+  },
+  {
+    "id": 2200,
+    "venue": "ART Madrid Club",
+    "lat": 40.42215,
+    "lng": -3.7205,
+    "address": "Paseo de la Florida 2 (Centro Comercial Príncipe Pío), 28008 Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Paseo+de+la+Florida+2,+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Le club est installé dans le complexe Príncipe Pío, Paseo de la Florida 2. Point d'adresse OSM du complexe, à 53 m du point du catalogue, qui visait déjà le même bâtiment."
+  },
+  {
+    "id": 2226,
+    "venue": "Sala But",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "address": "Calle de Barceló 11, 28004 Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sala+But+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Sala But » (amenity=music_venue), Calle de Barceló 11, Chueca. Identique au point du catalogue."
+  },
+  {
+    "id": 2257,
+    "venue": "Sala But",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "address": "Calle de Barceló 11, 28004 Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sala+But+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Sala But » (amenity=music_venue), Calle de Barceló 11, Chueca. Identique au point du catalogue."
+  },
+  {
+    "id": 2276,
+    "venue": "Sala But",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "address": "Calle de Barceló 11, 28004 Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sala+But+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Sala But » (amenity=music_venue), Calle de Barceló 11, Chueca. Identique au point du catalogue."
+  },
+  {
+    "id": 2317,
+    "venue": "Sala But",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "address": "Calle de Barceló 11, 28004 Madrid, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sala+But+Madrid&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Sala But » (amenity=music_venue), Calle de Barceló 11, Chueca. Identique au point du catalogue."
+  },
+  {
+    "id": 2185,
+    "venue": "Barraca",
+    "lat": 39.25492,
+    "lng": -0.26663,
+    "address": "Carretera CV-500 km 8, Mareny de Barraquetes, 46410 Sueca, Valence, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Barraca+Sueca+Valencia&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Barraca » sur la CV-500 au Mareny de Barraquetes, la route Sueca-El Perelló. Identique au point du catalogue."
+  },
+  {
+    "id": 2300,
+    "venue": "Studio Club",
+    "lat": 36.6208,
+    "lng": -4.49999,
+    "address": "Avenida Palma de Mallorca 36, 29620 Torremolinos, Málaga, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Studio+Club+Torremolinos&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Studio Club », Avenida Palma de Mallorca 36. Identique au point du catalogue."
+  },
+  {
+    "id": 2304,
+    "venue": "Studio Club",
+    "lat": 36.6208,
+    "lng": -4.49999,
+    "address": "Avenida Palma de Mallorca 36, 29620 Torremolinos, Málaga, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Studio+Club+Torremolinos&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Studio Club », Avenida Palma de Mallorca 36. Identique au point du catalogue."
+  },
+  {
+    "id": 2184,
+    "venue": "Spook Club",
+    "lat": 39.41036,
+    "lng": -0.33492,
+    "address": "Carrera del Riu 399, Pinedo, 46012 Valencia, Espagne",
+    "source": "https://spook-club.com/en/info/",
+    "status": "confirme",
+    "note": "Coordonnée publiée par la page « info » officielle (39°24'37,3\"N 0°20'05,7\"O), club situé à Pinedo et non dans le centre de Valence. Écart de 33 m avec le point du catalogue, qui pointait déjà sur Pinedo."
+  },
+  {
+    "id": 2217,
+    "venue": "Spook Club",
+    "lat": 39.41036,
+    "lng": -0.33492,
+    "address": "Carrera del Riu 399, Pinedo, 46012 Valencia, Espagne",
+    "source": "https://spook-club.com/en/info/",
+    "status": "confirme",
+    "note": "Coordonnée publiée par la page « info » officielle (39°24'37,3\"N 0°20'05,7\"O), club situé à Pinedo et non dans le centre de Valence. Écart de 33 m avec le point du catalogue, qui pointait déjà sur Pinedo."
+  },
+  {
+    "id": 2258,
+    "venue": "Spook Club",
+    "lat": 39.41036,
+    "lng": -0.33492,
+    "address": "Carrera del Riu 399, Pinedo, 46012 Valencia, Espagne",
+    "source": "https://spook-club.com/en/info/",
+    "status": "confirme",
+    "note": "Coordonnée publiée par la page « info » officielle (39°24'37,3\"N 0°20'05,7\"O), club situé à Pinedo et non dans le centre de Valence. Écart de 33 m avec le point du catalogue, qui pointait déjà sur Pinedo."
+  },
+  {
+    "id": 2336,
+    "venue": "Spook Club",
+    "lat": 39.41036,
+    "lng": -0.33492,
+    "address": "Carrera del Riu 399, Pinedo, 46012 Valencia, Espagne",
+    "source": "https://spook-club.com/en/info/",
+    "status": "confirme",
+    "note": "Coordonnée publiée par la page « info » officielle (39°24'37,3\"N 0°20'05,7\"O), club situé à Pinedo et non dans le centre de Valence. Écart de 33 m avec le point du catalogue, qui pointait déjà sur Pinedo."
+  },
+  {
+    "id": 2318,
+    "venue": "Pustervik",
+    "lat": 57.70045,
+    "lng": 11.95422,
+    "address": "Järntorgsgatan 12, 413 01 Göteborg, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Pustervik+G%C3%B6teborg&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Pustervik, Järntorgsgatan 12 ». Identique au point du catalogue."
+  },
+  {
+    "id": 2281,
+    "venue": "Inkonst",
+    "lat": 55.59405,
+    "lng": 13.00785,
+    "address": "Bergsgatan 29, 214 22 Malmö, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Inkonst+Malm%C3%B6&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Inkonst, Bergsgatan 29 ». Identique au point du catalogue."
+  },
+  {
+    "id": 2311,
+    "venue": "Moriska Paviljongen",
+    "lat": 55.59374,
+    "lng": 13.01362,
+    "address": "Norra Parkgatan 2, 211 44 Malmö, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Moriska+Paviljongen+Malm%C3%B6&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Moriska paviljongen, Norra Parkgatan 2 », dans le Folkets Park. Identique au point du catalogue."
+  },
+  {
+    "id": 2150,
+    "venue": "Slakthuset",
+    "lat": 59.29164,
+    "lng": 18.0795,
+    "address": "Slakthusgatan 6, 121 62 Johanneshov, Stockholm, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Slakthuset+Stockholm&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Slakthuset, Slakthusgatan 6 », dans le Slakthusområdet. Identique au point du catalogue. À ne pas confondre avec le nœud homonyme de Palmfeltsvägen, 500 m au nord."
+  },
+  {
+    "id": 2208,
+    "venue": "Slaktkyrkan",
+    "lat": 59.29242,
+    "lng": 18.08013,
+    "address": "Rökerigatan 4, 121 62 Johanneshov, Stockholm, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Slaktkyrkan+Stockholm&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Slaktkyrkan », Rökerigatan, Slakthusområdet, à 90 m au nord de Slakthuset, qui est une salle distincte. Identique au point du catalogue."
+  },
+  {
+    "id": 2270,
+    "venue": "Slakthuset",
+    "lat": 59.29164,
+    "lng": 18.0795,
+    "address": "Slakthusgatan 6, 121 62 Johanneshov, Stockholm, Suède",
+    "source": "https://nominatim.openstreetmap.org/search?q=Slakthuset+Stockholm&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Slakthuset, Slakthusgatan 6 », dans le Slakthusområdet. Identique au point du catalogue. À ne pas confondre avec le nœud homonyme de Palmfeltsvägen, 500 m au nord."
+  },
+  {
+    "id": 2175,
+    "venue": "Nordstern",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "address": "Westquaistrasse 19, 4057 Basel, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nordstern+Basel&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Nordstern, Westquaistrasse 19 », le bateau-club amarré au port de Kleinhüningen. Identique au point du catalogue."
+  },
+  {
+    "id": 2291,
+    "venue": "Nordstern",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "address": "Westquaistrasse 19, 4057 Basel, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nordstern+Basel&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Nordstern, Westquaistrasse 19 », le bateau-club amarré au port de Kleinhüningen. Identique au point du catalogue."
+  },
+  {
+    "id": 2298,
+    "venue": "Nordstern",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "address": "Westquaistrasse 19, 4057 Basel, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nordstern+Basel&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Nordstern, Westquaistrasse 19 », le bateau-club amarré au port de Kleinhüningen. Identique au point du catalogue."
+  },
+  {
+    "id": 2307,
+    "venue": "Nordstern",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "address": "Westquaistrasse 19, 4057 Basel, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nordstern+Basel&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Nordstern, Westquaistrasse 19 », le bateau-club amarré au port de Kleinhüningen. Identique au point du catalogue."
+  },
+  {
+    "id": 2315,
+    "venue": "Nordstern",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "address": "Westquaistrasse 19, 4057 Basel, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Nordstern+Basel&format=jsonv2",
+    "status": "confirme",
+    "note": "Point d'adresse OSM « Nordstern, Westquaistrasse 19 », le bateau-club amarré au port de Kleinhüningen. Identique au point du catalogue."
+  },
+  {
+    "id": 2323,
+    "venue": "Bernexpo",
+    "lat": 46.95896,
+    "lng": 7.46734,
+    "address": "Mingerstrasse 6, 3014 Bern, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bernexpo+Bern&format=jsonv2",
+    "status": "confirme",
+    "note": "Polygone OSM « BernExpo », site des halles de Beundenfeld. Identique au point du catalogue."
+  },
+  {
+    "id": 2364,
+    "venue": "Titlis",
+    "lat": 46.8162,
+    "lng": 8.39586,
+    "address": "Talstation TITLIS Bergbahnen, Gerschnistrasse 12, 6390 Engelberg, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Titlis+Talstation+Engelberg&format=jsonv2",
+    "status": "confirme",
+    "note": "La fête a lieu en altitude (station Trübsee, 1 800 m) mais le billet comprend la montée en télécabine : l'entrée public est la station de vallée d'Engelberg, qui est aussi le seul endroit où l'on dort. Écart de 19 m avec le point du catalogue."
+  },
+  {
+    "id": 2367,
+    "venue": "Titlis",
+    "lat": 46.8162,
+    "lng": 8.39586,
+    "address": "Talstation TITLIS Bergbahnen, Gerschnistrasse 12, 6390 Engelberg, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Titlis+Talstation+Engelberg&format=jsonv2",
+    "status": "confirme",
+    "note": "La fête a lieu en altitude (station Trübsee, 1 800 m) mais le billet comprend la montée en télécabine : l'entrée public est la station de vallée d'Engelberg, qui est aussi le seul endroit où l'on dort. Écart de 19 m avec le point du catalogue."
+  },
+  {
+    "id": 2178,
+    "venue": "D! Club",
+    "lat": 46.52095,
+    "lng": 6.63114,
+    "address": "Place des Pionnières 1, 1003 Lausanne, Suisse",
+    "source": "https://www.dclub.ch/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Place des Pionnières 1), point d'adresse OSM correspondant. Écart de 30 m avec le point du catalogue."
+  },
+  {
+    "id": 2232,
+    "venue": "D! Club",
+    "lat": 46.52095,
+    "lng": 6.63114,
+    "address": "Place des Pionnières 1, 1003 Lausanne, Suisse",
+    "source": "https://www.dclub.ch/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Place des Pionnières 1), point d'adresse OSM correspondant. Écart de 30 m avec le point du catalogue."
+  },
+  {
+    "id": 2267,
+    "venue": "D! Club",
+    "lat": 46.52095,
+    "lng": 6.63114,
+    "address": "Place des Pionnières 1, 1003 Lausanne, Suisse",
+    "source": "https://www.dclub.ch/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Place des Pionnières 1), point d'adresse OSM correspondant. Écart de 30 m avec le point du catalogue."
+  },
+  {
+    "id": 2303,
+    "venue": "D! Club",
+    "lat": 46.52095,
+    "lng": 6.63114,
+    "address": "Place des Pionnières 1, 1003 Lausanne, Suisse",
+    "source": "https://www.dclub.ch/contact",
+    "status": "confirme",
+    "note": "Adresse lue sur la page contact officielle (Place des Pionnières 1), point d'adresse OSM correspondant. Écart de 30 m avec le point du catalogue."
+  },
+  {
+    "id": 2177,
+    "venue": "Hive",
+    "lat": 47.38487,
+    "lng": 8.52024,
+    "address": "Geroldstrasse 5, 8005 Zürich, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hive,+Geroldstrasse+5,+Z%C3%BCrich&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Hive », Geroldstrasse 5, quartier Escher Wyss. Écart de 59 m avec le point du catalogue."
+  },
+  {
+    "id": 2196,
+    "venue": "Hive",
+    "lat": 47.38487,
+    "lng": 8.52024,
+    "address": "Geroldstrasse 5, 8005 Zürich, Suisse",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hive,+Geroldstrasse+5,+Z%C3%BCrich&format=jsonv2",
+    "status": "confirme",
+    "note": "Nœud OSM « Hive », Geroldstrasse 5, quartier Escher Wyss. Écart de 59 m avec le point du catalogue."
+  }
+]

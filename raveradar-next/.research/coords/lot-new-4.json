@@ -1,0 +1,132 @@
+[
+  {
+    "id": 2272,
+    "venue": "RADION",
+    "lat": 52.34574,
+    "lng": 4.82551,
+    "address": "Louwesweg 1, 1066 EA Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Louwesweg%201%2C%201066%20EA%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=restaurant nomme Radion, Louwesweg 1 (ancien batiment de la faculte dentaire ACTA). L'ancien point tombait a 12 m, dans le meme batiment : coordonnee simplement reprecisee."
+  },
+  {
+    "id": 2334,
+    "venue": "Thuishaven",
+    "lat": 52.39676,
+    "lng": 4.85639,
+    "address": "Contactweg 68, 1014 BW Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Contactweg%2068%2C%201014%20AN%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse postale Contactweg 68 (Westpoort) resolue par Nominatim a 52.3967619 / 4.8563938, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2339,
+    "venue": "Gashouder Westergasfabriek",
+    "lat": 52.38676,
+    "lng": 4.86924,
+    "address": "Klönneplein 1, 1014 DD Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kl%C3%B6nneplein%201%2C%201014%20DD%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=events_venue Gashouder Westergasfabriek, 52.3867571 / 4.8692403. Identique au catalogue."
+  },
+  {
+    "id": 2368,
+    "venue": "Gashouder Westergasfabriek",
+    "lat": 52.38676,
+    "lng": 4.86924,
+    "address": "Klönneplein 1, 1014 DD Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kl%C3%B6nneplein%201%2C%201014%20DD%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2339, meme noeud OSM events_venue."
+  },
+  {
+    "id": 2376,
+    "venue": "Shelter",
+    "lat": 52.38366,
+    "lng": 4.90248,
+    "address": "Overhoeksplein 3, 1031 KS Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Overhoeksplein%203%2C%201031%20KS%20Amsterdam&format=json&limit=3",
+    "status": "corrige",
+    "note": "L'ancien point (52.38383 / 4.90199) etait le noeud du restaurant Moon, au sommet de la A'DAM Toren. Le club Shelter est un noeud OSM distinct (amenity=nightclub) au pied de la tour, cote nord-est : 37 m plus loin."
+  },
+  {
+    "id": 2385,
+    "venue": "Ziggo Dome",
+    "lat": 52.31375,
+    "lng": 4.93771,
+    "address": "De Passage 100, 1101 AX Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ziggo%20Dome%2C%20De%20Passage%20100%2C%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=music_venue Ziggo Dome, 52.3137527 / 4.9377090. Identique au catalogue."
+  },
+  {
+    "id": 2243,
+    "venue": "Simplon",
+    "lat": 53.22455,
+    "lng": 6.56406,
+    "address": "Boterdiep 69, 9712 LK Groningen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Simplon%2C%20Boterdiep%2C%20Groningen&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Poppodium Simplon, Boterdiep 69. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2262,
+    "venue": "Simplon",
+    "lat": 53.22455,
+    "lng": 6.56406,
+    "address": "Boterdiep 69, 9712 LK Groningen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Simplon%2C%20Boterdiep%2C%20Groningen&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2243."
+  },
+  {
+    "id": 2261,
+    "venue": "Toffler",
+    "lat": 51.92358,
+    "lng": 4.4754,
+    "address": "Weena-Zuid 33, 3012 NH Rotterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Toffler%2C%20Weena%2C%20Rotterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM Toffler, Weena-Zuid 33 (tunnel pietonnier sous le Weena), 51.9235817 / 4.4753952. Identique au catalogue."
+  },
+  {
+    "id": 2384,
+    "venue": "Maassilo",
+    "lat": 51.8977,
+    "lng": 4.49464,
+    "address": "Maashaven Zuidzijde 1-2, 3081 AE Rotterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Maashaven%20Zuidzijde%201%2C%203081%20AE%20Rotterdam&format=json&limit=3",
+    "status": "corrige",
+    "note": "L'ancien point (51.89751 / 4.4928) etait a 4 decimales en longitude et tombait 130 m a l'ouest du silo, dans le bassin du Maashaven. Noeud OSM amenity=events_venue Maassilo : 51.8976992 / 4.4946437."
+  },
+  {
+    "id": 2369,
+    "venue": "TivoliVredenburg",
+    "lat": 52.09245,
+    "lng": 5.11277,
+    "address": "Vredenburgkade 11, 3511 WC Utrecht, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Vredenburgkade%2011%2C%203511%20WC%20Utrecht&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM TivoliVredenburg, Vredenburgkade 11. Identique au catalogue."
+  },
+  {
+    "id": 2333,
+    "venue": "Klokgebouw, Strijp-S",
+    "lat": 51.44861,
+    "lng": 5.45761,
+    "address": "Klokgebouw 50, 5617 AB Eindhoven, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Klokgebouw%2050%2C%205617%20AB%20Eindhoven&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse Klokgebouw 50 (Strijp-S) resolue a 51.4486142 / 5.4576106. Identique au catalogue."
+  },
+  {
+    "id": 2377,
+    "venue": "Klokgebouw, Strijp-S",
+    "lat": 51.44861,
+    "lng": 5.45761,
+    "address": "Klokgebouw 50, 5617 AB Eindhoven, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Klokgebouw%2050%2C%205617%20AB%20Eindhoven&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2333."
+  }
+]
