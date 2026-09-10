@@ -1,0 +1,1404 @@
+[
+ {
+  "title": "Hangar invite Adriatique",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Brussels",
+  "country": "Belgium",
+  "lat": 50.86446,
+  "lng": 4.34901,
+  "date": "2026-10-03",
+  "time": "15:00",
+  "price": 57.5,
+  "currency": "EUR",
+  "venue": "Tour & Taxis - Gare Maritime",
+  "trending": false,
+  "lineup": [
+   "Adriatique"
+  ],
+  "desc": "Le collectif bruxellois Hangar investit la Gare Maritime de Tour & Taxis, la halle ferroviaire réhabilitée du quartier du port, pour une journée menée par le duo suisse Adriatique. La soirée démarre en fin d'après-midi et se termine avant minuit, format day party plutôt que nuit de club. Le reste de l'affiche était encore annoncé comme à confirmer au moment du relevé.",
+  "descEn": "Brussels collective Hangar takes over the Gare Maritime at Tour & Taxis, the restored railway hall in the port district, for a day led by Swiss duo Adriatique. It starts in late afternoon and ends before midnight, a day party rather than a club night. The rest of the bill was still listed as to be announced when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/572355/hangar-invites-adriatique-gare-maritime?language=en"
+  ],
+  "note": "Avenue du Port 86C, 1000 Bruxelles. Coordonnées Nominatim sur le numéro 86C (Gare Maritime, site de Tour & Taxis). Horaires 15:00-23:59."
+ },
+ {
+  "title": "Multigroove presents NoXa Invites",
+  "type": "Club",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.39125,
+  "lng": 4.82422,
+  "date": "2026-10-03",
+  "time": "15:00",
+  "price": 34.5,
+  "currency": "EUR",
+  "venue": "Lofi",
+  "trending": false,
+  "lineup": [
+   "NoXa",
+   "Buzz Fuzz",
+   "The Darkraver",
+   "DJ Rob",
+   "Luna",
+   "Pavo"
+  ],
+  "desc": "Multigroove, l'un des plus anciens organisateurs hardcore néerlandais, confie une journée à NoXa au Lofi, la salle du Basisweg dans le nord-ouest d'Amsterdam. L'affiche mélange les figures oldschool du gabber néerlandais (Buzz Fuzz, The Darkraver, DJ Rob) et une génération plus récente. Le format est un day event, de 15 h à 23 h.",
+  "descEn": "Multigroove, one of the oldest Dutch hardcore promoters, hands a full day to NoXa at Lofi, the Basisweg venue in north-west Amsterdam. The bill mixes oldschool Dutch gabber names (Buzz Fuzz, The Darkraver, DJ Rob) with a younger generation. It runs as a day event, from 3pm to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/570116/noxa-invites?language=en"
+  ],
+  "note": "Basisweg 63, 1043 AN Amsterdam. Coordonnées Nominatim sur le numéro 63 du Basisweg."
+ },
+ {
+  "title": "Ampere presents Lil' Louis",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.21151,
+  "lng": 4.42186,
+  "date": "2026-10-03",
+  "time": "23:00",
+  "price": 16,
+  "currency": "EUR",
+  "venue": "Ampere",
+  "trending": false,
+  "lineup": [
+   "Lil' Louis"
+  ],
+  "desc": "Ampere, la salle installée sous les voies ferrées près de la gare centrale d'Anvers, reçoit le Chicagoan Lil' Louis, auteur de « French Kiss » et l'une des figures fondatrices de la house. La jauge est limitée à mille personnes, la nuit court de 23 h à 6 h.",
+  "descEn": "Ampere, the room built under the railway arches near Antwerp Central Station, hosts Chicago's Lil' Louis, the producer behind French Kiss and one of house music's founding figures. Capacity is capped at a thousand, and the night runs from 11pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575091/ampere-presents-the-founding-father-of-house-lil-louis?language=en",
+   "https://ampere-antwerp.com/program/"
+  ],
+  "note": "Simonsstraat 21, 2018 Anvers. Coordonnées Nominatim, correspondance exacte sur le bâtiment Ampere Antwerpen."
+ },
+ {
+  "title": "Psyops",
+  "type": "Club",
+  "genres": [
+   "Psytrance"
+  ],
+  "city": "Groningen",
+  "country": "Netherlands",
+  "lat": 53.22455,
+  "lng": 6.56406,
+  "date": "2026-10-03",
+  "time": "23:59",
+  "price": 16,
+  "currency": "EUR",
+  "venue": "Simplon",
+  "trending": false,
+  "lineup": [
+   "Nendis",
+   "Sannergy",
+   "V-Nix",
+   "Shylodelic",
+   "Dopaminded",
+   "Analoch"
+  ],
+  "desc": "Nuit psytrance au Simplon, la salle du Boterdiep à Groningue, avec une main stage et un chill-out séparé. La soirée commence juste avant minuit et se termine à 5 h.",
+  "descEn": "A psytrance night at Simplon, the Boterdiep venue in Groningen, with a main stage and a separate chill-out room. It starts just before midnight and closes at 5am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575242/psyops?language=en"
+  ],
+  "note": "Boterdiep 69, 9712 LK Groningue. Coordonnées Nominatim, correspondance exacte sur Poppodium Simplon."
+ },
+ {
+  "title": "Edge w/ Sébastien Léger & Roy Rosenfeld",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.23374,
+  "lng": 4.40347,
+  "date": "2026-10-09",
+  "time": "23:00",
+  "price": 25,
+  "currency": "EUR",
+  "venue": "Club Vaag",
+  "trending": false,
+  "lineup": [
+   "Sébastien Léger",
+   "Roy Rosenfeld",
+   "Eran Aviner"
+  ],
+  "desc": "La série Edge revient au Club Vaag, sur le Rijnkaai dans le quartier de l'Eilandje à Anvers, avec un back to back étendu entre Sébastien Léger et Roy Rosenfeld. Eran Aviner complète l'affiche. Ouverture à 23 h, fermeture à 6 h.",
+  "descEn": "The Edge series returns to Club Vaag on the Rijnkaai in Antwerp's Eilandje district, with an extended back to back between Sébastien Léger and Roy Rosenfeld. Eran Aviner completes the bill. Doors at 11pm, close at 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/570346/lost-miracle-sebastien-leger-b2b-roy-rosenfeld-by-edge?language=en"
+  ],
+  "note": "Rijnkaai 4, 2000 Anvers. Coordonnées Nominatim, correspondance exacte sur Club Vaag."
+ },
+ {
+  "title": "Toffler presents Soul Mass Transit System",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "lat": 51.92358,
+  "lng": 4.4754,
+  "date": "2026-10-09",
+  "time": "23:00",
+  "price": 17.5,
+  "currency": "EUR",
+  "venue": "Toffler",
+  "trending": false,
+  "lineup": [
+   "Soul Mass Transit System",
+   "Jacky Boom",
+   "Yucky",
+   "PUK"
+  ],
+  "desc": "Le Toffler occupe un ancien passage piéton souterrain sous le Weena, en plein centre de Rotterdam. Le duo britannique Soul Mass Transit System y tient la tête d'affiche, entouré de trois DJ de la maison.",
+  "descEn": "Toffler sits in a former pedestrian underpass beneath the Weena, in the middle of Rotterdam. British duo Soul Mass Transit System headline, with three house DJs alongside them.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575269/toffler-presents-soul-mass-transit-system?language=en"
+  ],
+  "note": "Weena-Zuid 33, 3012 NH Rotterdam. Coordonnées Nominatim, correspondance exacte sur Toffler."
+ },
+ {
+  "title": "Vision: Spor",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Groningen",
+  "country": "Netherlands",
+  "lat": 53.22455,
+  "lng": 6.56406,
+  "date": "2026-10-09",
+  "time": "23:59",
+  "price": 17,
+  "currency": "EUR",
+  "venue": "Simplon",
+  "trending": false,
+  "lineup": [
+   "Spor",
+   "Ring Noord",
+   "KROON",
+   "AutopsKi",
+   "Fremi"
+  ],
+  "desc": "Soirée drum & bass de la série Vision au Simplon de Groningue, avec le producteur britannique Spor en tête d'affiche et quatre noms néerlandais et sud-africain en soutien.",
+  "descEn": "A drum & bass night from the Vision series at Simplon in Groningen, headlined by British producer Spor with four Dutch and South African names in support.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575238/vision-spor-ring-noord-kroon-autopski-fremi-simplon?language=en"
+  ],
+  "note": "Boterdiep 69, 9712 LK Groningue. Coordonnées Nominatim, correspondance exacte sur Poppodium Simplon."
+ },
+ {
+  "title": "Link Festival à Liège Airport",
+  "type": "Festival",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Liège",
+  "country": "Belgium",
+  "lat": 50.63821,
+  "lng": 5.44095,
+  "date": "2026-10-10",
+  "time": "18:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Liège Airport",
+  "trending": false,
+  "lineup": [
+   "Jeff Mills",
+   "Dasha Rush",
+   "Mathew Jonson",
+   "Dany Rodriguez"
+  ],
+  "desc": "Le Link Festival prend ses quartiers dans un hangar de l'aéroport de Liège-Bierset, à l'ouest de la ville. L'affiche est menée par Jeff Mills, avec Dasha Rush et deux sets live. La soirée court de 18 h à 2 h.",
+  "descEn": "Link Festival takes over a hangar at Liège-Bierset airport, west of the city. Jeff Mills leads the bill, alongside Dasha Rush and two live sets. It runs from 6pm to 2am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/554343/link-festival-lige-airport?language=en"
+  ],
+  "note": "Rue de l'Aéroport, 4460 Grâce-Hollogne (Liège Airport). Coordonnées Nominatim sur l'aéroport de Liège-Bierset. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "GEGEN Amsterdam",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.34563,
+  "lng": 4.82554,
+  "date": "2026-10-10",
+  "time": "23:00",
+  "price": 20,
+  "currency": "EUR",
+  "venue": "RADION",
+  "trending": false,
+  "lineup": [
+   "Buday",
+   "Cristian Marras",
+   "Hyperaktivist",
+   "Mar/us",
+   "OCD",
+   "Volvox"
+  ],
+  "desc": "La soirée berlinoise GEGEN pose son format queer et techno au RADION, l'ancienne école dentaire du Louwesweg reconvertie en club dans le sud-ouest d'Amsterdam. La nuit court de 23 h à 8 h.",
+  "descEn": "Berlin party GEGEN brings its queer techno format to RADION, the former dental school on Louwesweg turned club in south-west Amsterdam. The night runs from 11pm to 8am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/572112/gegen?language=en"
+  ],
+  "note": "Louwesweg 1, 1066 EA Amsterdam. Coordonnées Nominatim, correspondance exacte sur RADION."
+ },
+ {
+  "title": "BLUR w/ Ryan Elliott",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Brussels",
+  "country": "Belgium",
+  "lat": 50.84585,
+  "lng": 4.35304,
+  "date": "2026-10-10",
+  "time": "23:59",
+  "price": 20,
+  "currency": "EUR",
+  "venue": "UMI",
+  "trending": false,
+  "lineup": [
+   "Ryan Elliott",
+   "Dub Punishers",
+   "VTT",
+   "Ava Eva"
+  ],
+  "desc": "La série BLUR s'installe à l'UMI, le club de la rue du Marché aux Fromages dans le centre de Bruxelles, avec l'Américain Ryan Elliott, résident du Berghain, en tête d'affiche. La nuit démarre à minuit et se termine à 7 h.",
+  "descEn": "The BLUR series lands at UMI, the club on Rue du Marché aux Fromages in central Brussels, with Berghain resident Ryan Elliott headlining. The night starts at midnight and ends at 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575105/blur-with-ryan-elliott-dub-punishers-vtt-ava-eva?language=en"
+  ],
+  "note": "Rue du Marché aux Fromages 10, 1000 Bruxelles. Coordonnées Nominatim sur le numéro 10."
+ },
+ {
+  "title": "NTO & Stephan Bodzin at Kompass",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Ghent",
+  "country": "Belgium",
+  "lat": 51.06877,
+  "lng": 3.72243,
+  "date": "2026-10-17",
+  "time": "23:00",
+  "price": 22,
+  "currency": "EUR",
+  "venue": "Kompass Klub",
+  "trending": false,
+  "lineup": [
+   "NTO",
+   "Stephan Bodzin",
+   "Dominik Eulberg",
+   "Maxim Lany",
+   "Juwlz"
+  ],
+  "desc": "Le Kompass Klub, installé dans un entrepôt du Nieuwevaart au nord de Gand, réunit le duo français NTO et l'Allemand Stephan Bodzin sur la même affiche, avec Dominik Eulberg et le Belge Maxim Lany. Nuit complète, de 23 h à 7 h.",
+  "descEn": "Kompass Klub, set in a warehouse on the Nieuwevaart north of Ghent, puts French duo NTO and Germany's Stephan Bodzin on the same bill, with Dominik Eulberg and Belgium's Maxim Lany. A full night, 11pm to 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575117/nto-stephan-bodzin-at-kompass?language=en",
+   "https://kompassklub.com/event-list/"
+  ],
+  "note": "Nieuwevaart 51, 9000 Gand. Coordonnées Nominatim sur le numéro 51 du Nieuwevaart, adresse confirmée sur kompassklub.com."
+ },
+ {
+  "title": "Rite w/ Lars Huismann & Exos",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Liège",
+  "country": "Belgium",
+  "lat": 50.63987,
+  "lng": 5.58269,
+  "date": "2026-10-17",
+  "time": "23:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Off Club",
+  "trending": false,
+  "lineup": [
+   "Lars Huismann",
+   "Exos"
+  ],
+  "desc": "La série Rite reçoit le Belge Lars Huismann et l'Islandais Exos à l'Off Club, rue Roture dans le quartier d'Outremeuse à Liège. Petite jauge, tarif d'entrée à 12 euros, nuit de 23 h à 6 h.",
+  "descEn": "The Rite series hosts Belgium's Lars Huismann and Iceland's Exos at Off Club, on Rue Roture in Liège's Outremeuse district. Small capacity, 12 euro door price, running 11pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574836/rite-with-lars-huismann-exos?language=en"
+  ],
+  "note": "Rue Roture 25, 4020 Liège. Coordonnées Nominatim sur le numéro 25."
+ },
+ {
+  "title": "Horst Club: Black Gravity Dance",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Vilvoorde",
+  "country": "Belgium",
+  "lat": 50.93957,
+  "lng": 4.42914,
+  "date": "2026-10-17",
+  "time": "22:00",
+  "price": 39.5,
+  "currency": "EUR",
+  "venue": "Horst Club, Asiat Park",
+  "trending": false,
+  "lineup": [
+   "Chris Ferreira",
+   "DJ Kin Soul",
+   "DTM Funk",
+   "Redray",
+   "Egna"
+  ],
+  "desc": "Horst, connu pour son festival d'art et de musique, tient un club à l'année dans l'ancienne caserne d'Asiat Park à Vilvoorde, au nord de Bruxelles. Cette soirée est co-programmée avec Black Gravity Dance, le projet de DTM Funk et Redray.",
+  "descEn": "Horst, known for its art and music festival, runs a year-round club in the former army barracks of Asiat Park in Vilvoorde, north of Brussels. This night is co-programmed with Black Gravity Dance, the project of DTM Funk and Redray.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574818/horst-club-black-gravity-dance?language=en"
+  ],
+  "note": "Willem Elsschotstraat 15, 1800 Vilvoorde (Asiat Park). Coordonnées Nominatim sur le numéro 15. Heure de début 22:00 reprise de la fiche, à confirmer."
+ },
+ {
+  "title": "2manydjs at Garage",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.24191,
+  "lng": 4.42122,
+  "date": "2026-10-24",
+  "time": "23:00",
+  "price": 24,
+  "currency": "EUR",
+  "venue": "Garage Klub",
+  "trending": false,
+  "lineup": [
+   "2manydjs",
+   "Cassius",
+   "CC:DISCO!"
+  ],
+  "desc": "Le Garage Klub occupe un ancien garage du Noorderlaan, dans la zone portuaire au nord d'Anvers. Les frères Dewaele y jouent en DJ set, avec Cassius et l'Australienne CC:DISCO! sur la même nuit, de 23 h à 7 h.",
+  "descEn": "Garage Klub occupies a former garage on the Noorderlaan, in the port area north of Antwerp. The Dewaele brothers play a DJ set, with Cassius and Australia's CC:DISCO! on the same night, 11pm to 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574277/2manydjs-at-garage?language=en"
+  ],
+  "note": "Noorderlaan 72-74, 2030 Anvers. Coordonnées Nominatim sur le numéro 72-74 du Noorderlaan."
+ },
+ {
+  "title": "Snakepit",
+  "type": "Warehouse",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "lat": 51.44861,
+  "lng": 5.45761,
+  "date": "2026-11-07",
+  "time": "13:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Klokgebouw, Strijp-S",
+  "trending": false,
+  "lineup": [],
+  "desc": "Snakepit fête ses dix ans au Klokgebouw, la halle industrielle de Strijp-S à Eindhoven, ancien site Philips reconverti en quartier culturel. L'événement se tient en journée, de 13 h à 23 h. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "Snakepit marks ten years at the Klokgebouw, the industrial hall on Strijp-S in Eindhoven, a former Philips site turned cultural district. It runs as a daytime event, 1pm to 11pm. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/572979/snakepit-2026-10-years-of-snakepit?language=en"
+  ],
+  "note": "Klokgebouw 50, 5617 AB Eindhoven. Coordonnées Nominatim sur le numéro 50. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Wooferland x Rave Tribe: The Rave Game",
+  "type": "Festival",
+  "genres": [
+   "Trance",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.39676,
+  "lng": 4.85639,
+  "date": "2026-11-07",
+  "time": "13:00",
+  "price": 33.35,
+  "currency": "EUR",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [
+   "Sander van Doorn",
+   "Marco V",
+   "Ranky Jones",
+   "Benjamin Bates",
+   "Gizmo",
+   "DJ Rob",
+   "Lucien Foort"
+  ],
+  "desc": "Trois organisateurs néerlandais, Wooferland, The Beginning et Rave Tribe, se partagent le terrain de Thuishaven, dans la zone portuaire ouest d'Amsterdam. L'affiche réunit des noms trance et hard dance des années 2000, Sander van Doorn et Marco V en tête. Journée de 13 h à 23 h.",
+  "descEn": "Three Dutch promoters, Wooferland, The Beginning and Rave Tribe, share the Thuishaven grounds in Amsterdam's western port area. The bill gathers 2000s trance and hard dance names, led by Sander van Doorn and Marco V. A daytime event, 1pm to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/561319/wooferland-the-beginning-rave-tribe-pres.-the-rave-game-2026?language=en"
+  ],
+  "note": "Contactweg 68, 1014 BW Amsterdam. Coordonnées Nominatim sur le numéro 68 du Contactweg."
+ },
+ {
+  "title": "Traum Nacht w/ John Talabot",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.22619,
+  "lng": 4.40395,
+  "date": "2026-11-07",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Traum",
+  "trending": false,
+  "lineup": [
+   "John Talabot"
+  ],
+  "desc": "Traum, club du Verversrui dans le Schipperskwartier d'Anvers, confie sa Traum Nacht au producteur barcelonais John Talabot. La nuit court de 23 h à 6 h.",
+  "descEn": "Traum, the club on Verversrui in Antwerp's Schipperskwartier, hands its Traum Nacht to Barcelona producer John Talabot. The night runs from 11pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573955/traum-nacht-w-john-talabot?language=en"
+  ],
+  "note": "Verversrui 15, 2000 Anvers. Coordonnées Nominatim sur le numéro 15. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Overmono: Pure Devotion",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.38676,
+  "lng": 4.86924,
+  "date": "2026-11-11",
+  "time": "20:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Gashouder Westergasfabriek",
+  "trending": false,
+  "lineup": [
+   "Overmono"
+  ],
+  "desc": "Le duo gallois Overmono passe par le Gashouder, l'ancien gazomètre circulaire du Westergasfabriek à Amsterdam, dans le cadre de sa tournée Pure Devotion. La salle, un volume rond de briques sans piliers, sert surtout aux grandes nuits techno de la ville.",
+  "descEn": "Welsh duo Overmono stop at the Gashouder, the circular former gasholder at Westergasfabriek in Amsterdam, on their Pure Devotion tour. The venue, a pillar-free round brick volume, mostly hosts the city's biggest techno nights.",
+  "sources": [
+   "https://www.djguide.nl/party.p/566050/overmono-pure-devotion-world-tour?language=en"
+  ],
+  "note": "Klönneplein 1, 1014 DD Amsterdam. Coordonnées Nominatim, correspondance exacte sur Gashouder Westergasfabriek. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Open Circle invite Chris Stussy",
+  "type": "Warehouse",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.19084,
+  "lng": 4.3989,
+  "date": "2026-11-13",
+  "time": "22:00",
+  "price": 49.5,
+  "currency": "EUR",
+  "venue": "Antwerp Expo",
+  "trending": false,
+  "lineup": [
+   "Chris Stussy",
+   "Arter",
+   "séa",
+   "Bibi Seck",
+   "Marsolo"
+  ],
+  "desc": "Open Circle occupe un hall d'Antwerp Expo, le parc d'expositions de la Jan van Rijswijcklaan au sud d'Anvers, pour une nuit menée par le Néerlandais Chris Stussy. De 22 h à 6 h.",
+  "descEn": "Open Circle takes a hall at Antwerp Expo, the exhibition centre on Jan van Rijswijcklaan in south Antwerp, for a night led by Dutch DJ Chris Stussy. From 10pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573805/open-circle-invites-chris-stussy?language=en"
+  ],
+  "note": "Jan van Rijswijcklaan 191, 2020 Anvers. Coordonnées Nominatim, correspondance exacte sur Antwerp Expo."
+ },
+ {
+  "title": "X Club. & Southstar at Garage",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.24191,
+  "lng": 4.42122,
+  "date": "2026-11-21",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Garage Klub",
+  "trending": false,
+  "lineup": [
+   "X CLUB.",
+   "Southstar",
+   "Tjade",
+   "Biianco",
+   "NC"
+  ],
+  "desc": "Le duo australien X CLUB. et Southstar mènent la nuit du Garage Klub, l'ancien garage du Noorderlaan reconverti en salle dans le nord d'Anvers. De 23 h à 7 h.",
+  "descEn": "Australian duo X CLUB. and Southstar lead the night at Garage Klub, the converted garage on the Noorderlaan in north Antwerp. From 11pm to 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575581/x-club.-southstar-at-garage?language=en"
+  ],
+  "note": "Noorderlaan 72-74, 2030 Anvers. Coordonnées Nominatim sur le numéro 72-74. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Off x Perc Trax",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Acid Techno"
+  ],
+  "city": "Liège",
+  "country": "Belgium",
+  "lat": 50.63987,
+  "lng": 5.58269,
+  "date": "2026-11-21",
+  "time": "23:00",
+  "price": 10,
+  "currency": "EUR",
+  "venue": "Off Club",
+  "trending": false,
+  "lineup": [
+   "Perc",
+   "Dave The Drummer"
+  ],
+  "desc": "Le label londonien Perc Trax prend la nuit de l'Off Club, rue Roture à Liège, avec son fondateur Perc et le vétéran acid techno Dave The Drummer. Entrée à 10 euros, de 23 h à 6 h.",
+  "descEn": "London label Perc Trax takes over the night at Off Club on Rue Roture in Liège, with founder Perc and acid techno veteran Dave The Drummer. Ten euro entry, 11pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575447/off-x-perc-trax-with-perc-dave-the-drummer-...?language=en"
+  ],
+  "note": "Rue Roture 25, 4020 Liège. Coordonnées Nominatim sur le numéro 25."
+ },
+ {
+  "title": "ZAZU Indoor Festival Belgium",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.23388,
+  "lng": 4.40206,
+  "date": "2026-11-28",
+  "time": "13:00",
+  "price": 23.99,
+  "currency": "EUR",
+  "venue": "Waagnatie",
+  "trending": false,
+  "lineup": [
+   "Alex Wann",
+   "Andrea Oliva",
+   "Caiiro",
+   "Major League DJz",
+   "Marten Lou",
+   "Maxi Meraki",
+   "Shimza",
+   "Vanco"
+  ],
+  "desc": "ZAZU installe son édition belge à la Waagnatie, le hangar portuaire du Rijnkaai dans le quartier de l'Eilandje à Anvers. L'affiche est tournée vers l'afro house, avec Caiiro, Shimza et Major League DJz. Journée de 13 h à 23 h.",
+  "descEn": "ZAZU brings its Belgian edition to Waagnatie, the port warehouse on the Rijnkaai in Antwerp's Eilandje district. The bill leans afro house, with Caiiro, Shimza and Major League DJz. A daytime event, 1pm to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573735/zazu-indoor-festival-belgium?language=en"
+  ],
+  "note": "Rijnkaai 150, 2000 Anvers. Coordonnées Nominatim sur la Waagnatie (Rijnkaai). Point relevé au niveau du hangar, précision estimée à une centaine de mètres."
+ },
+ {
+  "title": "KI/KI 5 Hours à la Gare Maritime",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Trance"
+  ],
+  "city": "Brussels",
+  "country": "Belgium",
+  "lat": 50.86446,
+  "lng": 4.34901,
+  "date": "2026-11-28",
+  "time": "15:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tour & Taxis - Gare Maritime",
+  "trending": false,
+  "lineup": [
+   "KI/KI"
+  ],
+  "desc": "La Néerlandaise KI/KI joue cinq heures d'affilée à la Gare Maritime de Tour & Taxis, la halle ferroviaire du port de Bruxelles, dans le cadre de la série Hangar. Le format est un day event, de 15 h à minuit.",
+  "descEn": "Dutch DJ KI/KI plays a five hour set at the Gare Maritime at Tour & Taxis, the railway hall in Brussels' port district, as part of the Hangar series. A day event, 3pm to midnight.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574939/kiki-5-hours-brussels-hangar-gare-maritime?language=en"
+  ],
+  "note": "Avenue du Port 86C, 1000 Bruxelles. Coordonnées Nominatim sur le numéro 86C. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Ampere presents Sven Väth",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.21151,
+  "lng": 4.42186,
+  "date": "2026-11-28",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Ampere",
+  "trending": false,
+  "lineup": [
+   "Sven Väth"
+  ],
+  "desc": "Sven Väth tient un set de trois heures à l'Ampere, la salle sous les voies ferrées près de la gare centrale d'Anvers. Jauge limitée à mille personnes, nuit de 23 h à 7 h.",
+  "descEn": "Sven Väth plays a three hour set at Ampere, the room under the railway arches near Antwerp Central Station. Capacity capped at a thousand, the night runs 11pm to 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575165/ampere-presents-sven-vth-3h-set?language=en",
+   "https://ampere-antwerp.com/program/"
+  ],
+  "note": "Simonsstraat 21, 2018 Anvers. Coordonnées Nominatim, correspondance exacte sur Ampere Antwerpen. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "I Hate Models at Kompass",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Ghent",
+  "country": "Belgium",
+  "lat": 51.06877,
+  "lng": 3.72243,
+  "date": "2026-11-28",
+  "time": "23:00",
+  "price": 22,
+  "currency": "EUR",
+  "venue": "Kompass Klub",
+  "trending": false,
+  "lineup": [
+   "I Hate Models",
+   "Soya",
+   "Swarobski",
+   "MYU:SA"
+  ],
+  "desc": "Le Français I Hate Models joue quatre heures au Kompass Klub, l'entrepôt du Nieuwevaart au nord de Gand. Soya et Swarobski assurent un back to back, MYU:SA complète l'affiche. Nuit de 23 h à 7 h.",
+  "descEn": "France's I Hate Models plays a four hour set at Kompass Klub, the warehouse on the Nieuwevaart north of Ghent. Soya and Swarobski play back to back, MYU:SA completes the bill. The night runs 11pm to 7am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575582/i-hate-models-at-kompass-4hour-set?language=en",
+   "https://kompassklub.com/event-list/"
+  ],
+  "note": "Nieuwevaart 51, 9000 Gand. Coordonnées Nominatim sur le numéro 51, adresse confirmée sur kompassklub.com."
+ },
+ {
+  "title": "Nia Archives au Gashouder",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.38676,
+  "lng": 4.86924,
+  "date": "2026-12-02",
+  "time": "20:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Gashouder Westergasfabriek",
+  "trending": false,
+  "lineup": [
+   "Nia Archives"
+  ],
+  "desc": "La productrice britannique Nia Archives, figure du renouveau jungle, joue au Gashouder du Westergasfabriek, l'ancien gazomètre circulaire d'Amsterdam. Début annoncé à 20 h.",
+  "descEn": "British producer Nia Archives, a leading name in the jungle revival, plays the Gashouder at Westergasfabriek, Amsterdam's circular former gasholder. Doors listed at 8pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574100/nia-archives?language=en"
+  ],
+  "note": "Klönneplein 1, 1014 DD Amsterdam. Coordonnées Nominatim, correspondance exacte sur Gashouder Westergasfabriek. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Joris Voorn & Nicky Elisabeth au TivoliVredenburg",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Utrecht",
+  "country": "Netherlands",
+  "lat": 52.09245,
+  "lng": 5.11277,
+  "date": "2026-12-04",
+  "time": "23:55",
+  "price": 35.25,
+  "currency": "EUR",
+  "venue": "TivoliVredenburg",
+  "trending": false,
+  "lineup": [
+   "Joris Voorn",
+   "Nicky Elisabeth"
+  ],
+  "desc": "Nuit dans la salle Ronda du TivoliVredenburg, le complexe de cinq salles superposées du centre d'Utrecht, avec Joris Voorn et Nicky Elisabeth. Départ juste avant minuit, fin à 5 h.",
+  "descEn": "A night in the Ronda room at TivoliVredenburg, the stacked five hall complex in central Utrecht, with Joris Voorn and Nicky Elisabeth. It starts just before midnight and ends at 5am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573525/joris-voorn-nicky-elisabeth?language=en"
+  ],
+  "note": "Vredenburgkade 11, 3511 WC Utrecht. Coordonnées Nominatim, correspondance exacte sur TivoliVredenburg."
+ },
+ {
+  "title": "[a:rpia:r] à l'Ampere",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Antwerp",
+  "country": "Belgium",
+  "lat": 51.21151,
+  "lng": 4.42186,
+  "date": "2026-12-12",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Ampere",
+  "trending": false,
+  "lineup": [
+   "Raresh",
+   "Petre Inspirescu",
+   "Rhadoo"
+  ],
+  "desc": "Les trois fondateurs du label roumain [a:rpia:r], Raresh, Petre Inspirescu et Rhadoo, jouent ensemble à l'Ampere d'Anvers. La nuit court de 23 h à 8 h, format habituel du collectif.",
+  "descEn": "The three founders of Romanian label [a:rpia:r], Raresh, Petre Inspirescu and Rhadoo, play together at Ampere in Antwerp. The night runs from 11pm to 8am, the collective's usual format.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575169/arpiar-raresh-petre-inspirescu-rhadoo?language=en",
+   "https://ampere-antwerp.com/program/"
+  ],
+  "note": "Simonsstraat 21, 2018 Anvers. Coordonnées Nominatim, correspondance exacte sur Ampere Antwerpen. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Job de Jong b2b Dennis Quin au Shelter",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.38383,
+  "lng": 4.90199,
+  "date": "2026-12-18",
+  "time": "23:00",
+  "price": 27.5,
+  "currency": "EUR",
+  "venue": "Shelter",
+  "trending": false,
+  "lineup": [
+   "Job de Jong",
+   "Dennis Quin"
+  ],
+  "desc": "Le Shelter occupe le sous-sol de l'A'DAM Toren, sur la rive nord de l'IJ à Amsterdam. Job de Jong et Dennis Quin y tiennent un back to back sur toute la nuit, de 23 h à 6 h.",
+  "descEn": "Shelter sits in the basement of the A'DAM Toren, on the northern bank of the IJ in Amsterdam. Job de Jong and Dennis Quin play back to back all night, 11pm to 6am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575143/job-de-jong-b2b-dennis-quin?language=en"
+  ],
+  "note": "Overhoeksplein 3, 1031 KS Amsterdam. Coordonnées Nominatim sur le numéro 3 de l'Overhoeksplein (A'DAM Toren)."
+ },
+ {
+  "title": "Hidden Garden",
+  "type": "Warehouse",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Eindhoven",
+  "country": "Netherlands",
+  "lat": 51.44861,
+  "lng": 5.45761,
+  "date": "2026-12-19",
+  "time": "15:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Klokgebouw, Strijp-S",
+  "trending": false,
+  "lineup": [
+   "Joris Voorn",
+   "Bart Skils"
+  ],
+  "desc": "Hidden Garden investit le Klokgebouw, la halle industrielle de Strijp-S à Eindhoven, avec Joris Voorn et Bart Skils. Le Klokgebouw est l'ancienne usine Philips reconvertie en salle d'événements.",
+  "descEn": "Hidden Garden takes over the Klokgebouw, the industrial hall on Strijp-S in Eindhoven, with Joris Voorn and Bart Skils. The Klokgebouw is a former Philips factory turned events venue.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574650/hidden-garden?language=en"
+  ],
+  "note": "Klokgebouw 50, 5617 AB Eindhoven. Coordonnées Nominatim sur le numéro 50. Tarif non communiqué et heure de début à confirmer, la fiche ne portait pas d'horaire."
+ },
+ {
+  "title": "Fuse presents Ben Klock b2b",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Brussels",
+  "country": "Belgium",
+  "lat": 50.8354,
+  "lng": 4.34469,
+  "date": "2027-02-13",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Fuse",
+  "trending": false,
+  "lineup": [
+   "Ben Klock"
+  ],
+  "desc": "Ben Klock tient sa nuit de résidence au Fuse, le club de la rue Blaes dans les Marolles à Bruxelles, ouvert en 1994. Le format est un back to back dont l'invité restait à annoncer au moment du relevé.",
+  "descEn": "Ben Klock plays his residency night at Fuse, the Rue Blaes club in the Marolles district of Brussels, open since 1994. The format is a back to back whose guest was still to be announced when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574847/fuse-presents?language=en"
+  ],
+  "note": "Rue Blaes 208, 1000 Bruxelles. Coordonnées Nominatim sur le numéro 208. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "PRSPCT XL Daytime Edition",
+  "type": "Warehouse",
+  "genres": [
+   "Hardcore",
+   "Drum & Bass"
+  ],
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "lat": 51.89751,
+  "lng": 4.4928,
+  "date": "2027-02-27",
+  "time": "15:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Maassilo",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le label rotterdamois PRSPCT tient son édition XL au Maassilo, l'ancien silo à grain du Maashaven reconverti en salle. Format de jour, de 15 h à 23 h. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "Rotterdam label PRSPCT holds its XL edition at Maassilo, the former grain silo on the Maashaven turned venue. A daytime format, 3pm to 11pm. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/567015/prspct-xl35-daytime-edition?language=en"
+  ],
+  "note": "Maashaven Zuidzijde 1-2, 3081 AE Rotterdam. Coordonnées Nominatim sur le quai Maashaven Zuidzijde. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Verknipt Amsterdam",
+  "type": "Warehouse",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.31375,
+  "lng": 4.93771,
+  "date": "2027-03-05",
+  "time": "22:00",
+  "price": 75,
+  "currency": "EUR",
+  "venue": "Ziggo Dome",
+  "trending": false,
+  "lineup": [
+   "Kobosil",
+   "Kruelty",
+   "Bøęry",
+   "Natte Visstick",
+   "Nova Blue",
+   "Raxeller",
+   "Azzel",
+   "Ben Techy"
+  ],
+  "desc": "Verknipt, organisateur hard techno néerlandais né à Utrecht, prend le Ziggo Dome d'Amsterdam pour une nuit complète, de 22 h à 8 h. L'affiche mêle têtes d'affiche internationales et scène néerlandaise.",
+  "descEn": "Verknipt, the Dutch hard techno promoter from Utrecht, takes the Ziggo Dome in Amsterdam for a full night, 10pm to 8am. The bill mixes international headliners with the Dutch scene.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574191/verknipt-amsterdam?language=en"
+  ],
+  "note": "De Passage 100, 1101 AX Amsterdam. Coordonnées Nominatim, correspondance exacte sur le Ziggo Dome."
+ },
+ {
+  "title": "We Are IT Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.39676,
+  "lng": 4.85639,
+  "date": "2027-04-10",
+  "time": "13:00",
+  "price": 45.95,
+  "currency": "EUR",
+  "venue": "Thuishaven",
+  "trending": false,
+  "lineup": [],
+  "desc": "We Are IT se tient sur le terrain de Thuishaven, dans la zone portuaire ouest d'Amsterdam, et se présente comme une journée consacrée à la house de 1989 à 2005. Le rendez-vous court de 13 h à 23 h. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "We Are IT takes place on the Thuishaven grounds in Amsterdam's western port area, billed as a day devoted to house music from 1989 to 2005. It runs from 1pm to 11pm. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/563011/we-are-it-festival-2027-the-golden-age-of-house-8905?language=en"
+  ],
+  "note": "Contactweg 68, 1014 BW Amsterdam. Coordonnées Nominatim sur le numéro 68 du Contactweg."
+ },
+ {
+  "title": "Geheime Liefde",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Bunnik",
+  "country": "Netherlands",
+  "lat": 52.05859,
+  "lng": 5.16843,
+  "date": "2027-05-01",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Fort bij Vechten",
+  "trending": false,
+  "lineup": [],
+  "desc": "Geheime Liefde se tient au Fort bij Vechten, un fort de la Nouvelle Ligne d'eau hollandaise près de Bunnik, au sud-est d'Utrecht. Le principe du festival est une affiche gardée secrète jusqu'au jour même.",
+  "descEn": "Geheime Liefde takes place at Fort bij Vechten, a fort of the Dutch Water Line near Bunnik, south-east of Utrecht. The festival's premise is a line-up kept secret until the day itself.",
+  "sources": [
+   "https://www.djguide.nl/party.p/565619/geheime-liefde-2027?language=en"
+  ],
+  "note": "Achterdijk 12, 3981 HB Bunnik. Coordonnées Nominatim sur le Waterliniemuseum, entrée du Fort bij Vechten. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Harmony of Hardcore",
+  "type": "Festival",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "city": "Erp",
+  "country": "Netherlands",
+  "lat": 51.59003,
+  "lng": 5.60639,
+  "date": "2027-05-15",
+  "time": "13:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Festivalterrein De Roost",
+  "trending": false,
+  "lineup": [],
+  "desc": "Harmony of Hardcore fête sa vingtième édition sur le terrain De Roost, à Erp dans le Brabant-Septentrional. Le festival couvre l'ensemble du spectre hardcore néerlandais, de l'early rave aux courants les plus durs. Journée longue, de 13 h à 1 h.",
+  "descEn": "Harmony of Hardcore marks its twentieth edition on the De Roost grounds in Erp, North Brabant. The festival covers the whole Dutch hardcore spectrum, from early rave to its hardest strands. A long day, 1pm to 1am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/566625/harmony-of-hardcore-2027-20-years-of-the-ultimate-hardcore-feeling?language=en"
+  ],
+  "note": "Keldonkseweg 8, 5469 EP Erp. Coordonnées Nominatim sur le numéro 8. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "7th Sunday Festival",
+  "type": "Festival",
+  "genres": [
+   "Hardstyle",
+   "Hardcore",
+   "EDM"
+  ],
+  "city": "Erp",
+  "country": "Netherlands",
+  "lat": 51.59003,
+  "lng": 5.60639,
+  "date": "2027-05-16",
+  "time": "13:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Festivalterrein De Roost",
+  "trending": false,
+  "lineup": [],
+  "desc": "7th Sunday se tient le lendemain de Harmony of Hardcore sur le même terrain De Roost à Erp. Le festival est multi-genres, avec une part importante de hardstyle. De 13 h à 1 h.",
+  "descEn": "7th Sunday takes place the day after Harmony of Hardcore on the same De Roost grounds in Erp. It is a multi-genre festival with a strong hardstyle share. From 1pm to 1am.",
+  "sources": [
+   "https://www.djguide.nl/party.p/566626/7th-sunday-festival-2027?language=en"
+  ],
+  "note": "Keldonkseweg 8, 5469 EP Erp. Coordonnées Nominatim sur le numéro 8. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Free Your Mind Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Arnhem",
+  "country": "Netherlands",
+  "lat": 51.97755,
+  "lng": 5.90007,
+  "date": "2027-06-05",
+  "time": "13:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Stadsblokken",
+  "trending": false,
+  "lineup": [],
+  "desc": "Free Your Mind se tient sur les Stadsblokken, la friche fluviale de la rive sud du Rhin à Arnhem. Le festival programme house et techno sur plusieurs scènes, de 13 h à 23 h. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "Free Your Mind takes place on the Stadsblokken, the riverside wasteland on the south bank of the Rhine in Arnhem. It programmes house and techno across several stages, 1pm to 11pm. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/569588/free-your-mind-festival-2027-saturday?language=en"
+  ],
+  "note": "Stadsblokkenweg 1, 6841 HG Arnhem. Coordonnées Nominatim sur le numéro 1. Tarif non communiqué sur la fiche consultée."
+ },
+ {
+  "title": "Luminosity Beach Festival",
+  "type": "Festival",
+  "genres": [
+   "Trance"
+  ],
+  "city": "Zandvoort",
+  "country": "Netherlands",
+  "lat": 52.39263,
+  "lng": 4.53764,
+  "date": "2027-06-24",
+  "endDate": "2027-06-27",
+  "time": "11:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Bernie's Beach Club",
+  "trending": false,
+  "lineup": [],
+  "desc": "Luminosity fête ses vingt ans sur la plage de Zandvoort, au Bernie's Beach Club, sur quatre jours. Le festival est entièrement consacré à la trance, du son classique aux courants actuels.",
+  "descEn": "Luminosity marks twenty years on Zandvoort beach at Bernie's Beach Club, across four days. The festival is devoted entirely to trance, from classic sounds to current strands.",
+  "sources": [
+   "https://www.djguide.nl/party.p/571884/luminosity-beach-festival-2027-20-years-anniversary?language=en"
+  ],
+  "note": "Boulevard Barnaart 65, 2041 JA Zandvoort. Coordonnées Nominatim sur le numéro 65 du Boulevard Barnaart. Dates 24 au 27 juin reprises des métadonnées de la fiche. Tarif non communiqué."
+ },
+ {
+  "title": "Dreamfields Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House",
+   "Hardstyle"
+  ],
+  "city": "Lathum",
+  "country": "Netherlands",
+  "lat": 51.98896,
+  "lng": 6.04965,
+  "date": "2027-07-10",
+  "time": "13:00",
+  "price": 45,
+  "currency": "EUR",
+  "venue": "Recreatieterrein Rhederlaag",
+  "trending": false,
+  "venueEn": "Rhederlaag Recreation Area",
+  "lineup": [],
+  "desc": "Dreamfields se tient sur les plans d'eau du Rhederlaag, à Lathum entre Arnhem et Doetinchem. Le festival occupe plusieurs scènes en bord de lac, de 13 h à minuit. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "Dreamfields takes place on the Rhederlaag lakes at Lathum, between Arnhem and Doetinchem. The festival spreads several stages along the water, 1pm to midnight. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/571467/dreamfields-festival-2027?language=en"
+  ],
+  "note": "Muggenwaard, 6988 BX Lathum. Coordonnées Nominatim sur De Muggenwaard, accès du site du Rhederlaag."
+ },
+ {
+  "title": "Dominator Festival",
+  "type": "Festival",
+  "genres": [
+   "Hardcore",
+   "Hardstyle"
+  ],
+  "city": "Eersel",
+  "country": "Netherlands",
+  "lat": 51.3798,
+  "lng": 5.3298,
+  "date": "2027-07-16",
+  "time": "09:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "E3 Strand",
+  "trending": false,
+  "lineup": [],
+  "desc": "Dominator revient sur le E3 Strand d'Eersel, un plan d'eau du Brabant-Septentrional près d'Eindhoven. C'est le plus ancien festival hardcore néerlandais encore en activité, avec camping sur place. La programmation n'était pas publiée au moment du relevé.",
+  "descEn": "Dominator returns to the E3 Strand in Eersel, a lake site in North Brabant near Eindhoven. It is the oldest Dutch hardcore festival still running, with on-site camping. The line-up was not published when this was recorded.",
+  "sources": [
+   "https://www.djguide.nl/party.p/571886/dominator-2027?language=en"
+  ],
+  "note": "Buivensedreef 10, 5521 RN Eersel. Coordonnées Nominatim sur le numéro 10. Heure 09:00 reprise de la fiche, correspond vraisemblablement à l'ouverture du camping. Tarif non communiqué."
+ },
+ {
+  "title": "Liquicity Festival",
+  "type": "Festival",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Oudkarspel",
+  "country": "Netherlands",
+  "lat": 52.69479,
+  "lng": 4.76259,
+  "date": "2027-07-23",
+  "time": "16:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Recreatiegebied Geestmerambacht",
+  "trending": false,
+  "venueEn": "Geestmerambacht Recreation Area",
+  "lineup": [],
+  "desc": "Liquicity, label et communauté drum & bass née sur YouTube, tient son festival au Geestmerambacht, une zone de loisirs au nord d'Alkmaar. Le rendez-vous est entièrement consacré au liquid drum & bass et à ses dérivés.",
+  "descEn": "Liquicity, a drum & bass label and community born on YouTube, holds its festival at Geestmerambacht, a recreation area north of Alkmaar. The event is devoted to liquid drum & bass and its offshoots.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574258/liquicity-festival-2027?language=en"
+  ],
+  "note": "Wagenweg 16, 1724 PT Oudkarspel. Coordonnées Nominatim sur la Wagenweg, accès du Geestmerambacht. Tarif non communiqué."
+ },
+ {
+  "title": "Hardclassics Festival",
+  "type": "Festival",
+  "genres": [
+   "Hardstyle",
+   "Hardcore"
+  ],
+  "city": "Velsen-Zuid",
+  "country": "Netherlands",
+  "lat": 52.45299,
+  "lng": 4.6651,
+  "date": "2027-07-24",
+  "time": "13:00",
+  "price": 65.45,
+  "currency": "EUR",
+  "venue": "De Ven",
+  "trending": false,
+  "lineup": [],
+  "desc": "Hardclassics se tient sur le site De Ven, à Velsen-Zuid dans la zone récréative de Spaarnwoude. Le festival est consacré aux classiques du hardstyle et du hardcore néerlandais. De 13 h à 23 h.",
+  "descEn": "Hardclassics takes place on the De Ven site in Velsen-Zuid, in the Spaarnwoude recreation area. The festival is devoted to Dutch hardstyle and hardcore classics. From 1pm to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573175/hardclassics-festival-2027?language=en"
+  ],
+  "note": "De Ven 2, 1981 LW Velsen-Zuid. Coordonnées Nominatim sur le numéro 2."
+ },
+ {
+  "title": "Solar Weekend Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno",
+   "Drum & Bass"
+  ],
+  "city": "Roermond",
+  "country": "Netherlands",
+  "lat": 51.20544,
+  "lng": 5.97587,
+  "date": "2027-07-29",
+  "endDate": "2027-08-01",
+  "time": "14:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Recreatiewater de Weerd",
+  "trending": false,
+  "venueEn": "De Weerd lakeside site",
+  "lineup": [],
+  "desc": "Solar Weekend occupe le plan d'eau de la Weerd, sur les Maasplassen à Roermond, pendant quatre jours avec camping. Le festival est multi-scènes et couvre house, techno, drum & bass et musiques urbaines.",
+  "descEn": "Solar Weekend takes over the De Weerd lake on the Maasplassen at Roermond for four days with camping. It is a multi-stage festival covering house, techno, drum & bass and urban music.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574259/solar-weekend-2027?language=en"
+  ],
+  "note": "De Weerd 1, 6041 TK Roermond. Coordonnées Nominatim sur le numéro 1. Dates 29 juillet au 1er août reprises des métadonnées de la fiche. Tarif non communiqué."
+ },
+ {
+  "title": "Loveland Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "lat": 52.37002,
+  "lng": 4.81712,
+  "date": "2027-08-07",
+  "endDate": "2027-08-08",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Sloterpark",
+  "trending": false,
+  "lineup": [],
+  "desc": "Loveland se tient au bord du Sloterplas, dans le Sloterpark à l'ouest d'Amsterdam, sur deux jours. Créé en 1995, c'est l'un des plus anciens rendez-vous house de la ville.",
+  "descEn": "Loveland takes place beside the Sloterplas in Sloterpark, west Amsterdam, across two days. Founded in 1995, it is one of the city's longest running house events.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573626/loveland-festival-2027?language=en"
+  ],
+  "note": "President Allendelaan 3, 1064 GW Amsterdam (entrée du Sloterpark). Coordonnées Nominatim sur le numéro 3. Dates 7 et 8 août reprises des métadonnées de la fiche. Tarif non communiqué."
+ },
+ {
+  "title": "Daycare Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Tilburg",
+  "country": "Netherlands",
+  "lat": 51.56186,
+  "lng": 5.08719,
+  "date": "2027-08-07",
+  "time": "13:00",
+  "price": 40,
+  "currency": "EUR",
+  "venue": "Spoorzone Tilburg",
+  "trending": false,
+  "lineup": [],
+  "desc": "Daycare se tient dans la Spoorzone de Tilburg, l'ancien atelier ferroviaire NS reconverti en quartier culturel. Le festival occupe les halles et les espaces extérieurs, de 13 h à minuit.",
+  "descEn": "Daycare takes place in Tilburg's Spoorzone, the former NS railway workshop turned cultural district. The festival uses both the halls and the outdoor areas, 1pm to midnight.",
+  "sources": [
+   "https://www.djguide.nl/party.p/573190/daycare-festival-2027?language=en"
+  ],
+  "note": "Burgemeester Brokxlaan 2-8, 5041 AA Tilburg. Coordonnées Nominatim sur la Burgemeester Brokxlaan."
+ },
+ {
+  "title": "Dance Valley",
+  "type": "Festival",
+  "genres": [
+   "EDM",
+   "House",
+   "Hardstyle"
+  ],
+  "city": "Spaarnwoude",
+  "country": "Netherlands",
+  "lat": 52.44113,
+  "lng": 4.67035,
+  "date": "2027-08-14",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Recreatiegebied Spaarnwoude",
+  "trending": false,
+  "venueEn": "Spaarnwoude Recreation Area",
+  "lineup": [],
+  "desc": "Dance Valley se tient dans la zone récréative de Spaarnwoude, entre Amsterdam et Haarlem, sur le site qui lui sert de foyer depuis les années 1990. Le festival est multi-scènes et multi-genres. De 12 h à 23 h.",
+  "descEn": "Dance Valley takes place in the Spaarnwoude recreation area between Amsterdam and Haarlem, on the site it has used since the 1990s. It is a multi-stage, multi-genre festival, running noon to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574261/dance-valley-2027?language=en"
+  ],
+  "note": "Oostbroekerweg 1, 1981 LR Velsen-Zuid (Recreatiegebied Spaarnwoude). Coordonnées Nominatim sur l'Oostbroekerweg. Tarif non communiqué."
+ },
+ {
+  "title": "WECANDANCE",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "EDM"
+  ],
+  "city": "Zeebrugge",
+  "country": "Belgium",
+  "lat": 51.32786,
+  "lng": 3.17401,
+  "date": "2027-08-14",
+  "endDate": "2027-08-15",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Plage de Zeebrugge",
+  "trending": false,
+  "venueEn": "Zeebrugge Beach",
+  "lineup": [],
+  "desc": "WECANDANCE se tient sur la plage de Zeebrugge, sur la côte belge, sur deux jours. Le festival soigne sa scénographie et son code vestimentaire, et programme surtout house et électro grand public.",
+  "descEn": "WECANDANCE takes place on Zeebrugge beach on the Belgian coast, across two days. The festival is known for its staging and dress code, and programmes mainly house and mainstream electronic music.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574262/wecandance-2027?language=en"
+  ],
+  "note": "Zeedijk, 8380 Zeebrugge (Bruges). Coordonnées Nominatim sur le Zeedijk de Zeebrugge, quartier de la plage. Dates 14 et 15 août reprises des métadonnées de la fiche. Tarif non communiqué."
+ },
+ {
+  "title": "Kamping Kitsch Club",
+  "type": "Festival",
+  "genres": [
+   "Hardstyle",
+   "EDM"
+  ],
+  "city": "Kortrijk",
+  "country": "Belgium",
+  "lat": 50.80634,
+  "lng": 3.30192,
+  "date": "2027-08-21",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Sportcampus Lange Munte",
+  "trending": false,
+  "lineup": [],
+  "desc": "Kamping Kitsch Club revient au Sportcampus Lange Munte à Courtrai. Le rendez-vous mêle hardstyle, jump et retro dans une mise en scène volontairement kitsch, et se tient de midi à minuit.",
+  "descEn": "Kamping Kitsch Club returns to the Sportcampus Lange Munte in Kortrijk. It mixes hardstyle, jump and retro in a deliberately kitsch staging, running from noon to midnight.",
+  "sources": [
+   "https://www.djguide.nl/party.p/574685/kamping-kitsch-club-2027?language=en"
+  ],
+  "note": "Bad Godesberglaan 22, 8500 Courtrai. Coordonnées Nominatim, correspondance exacte sur le Sportcampus Lange Munte. Tarif non communiqué."
+ },
+ {
+  "title": "Audio Obscura Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Rotterdam",
+  "country": "Netherlands",
+  "lat": 51.92398,
+  "lng": 4.43245,
+  "date": "2027-08-28",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Van Nelle Fabriek",
+  "trending": false,
+  "lineup": [],
+  "desc": "Audio Obscura tient son festival à la Van Nelle Fabriek de Rotterdam, l'usine moderniste de 1931 classée au patrimoine mondial de l'Unesco. L'organisateur est connu pour ses événements dans des lieux patrimoniaux. De 12 h à 23 h.",
+  "descEn": "Audio Obscura holds its festival at the Van Nelle Fabriek in Rotterdam, the 1931 modernist factory listed as a Unesco World Heritage site. The promoter is known for staging events in heritage buildings. Noon to 11pm.",
+  "sources": [
+   "https://www.djguide.nl/party.p/575277/audio-obscura-festival-2027?language=en"
+  ],
+  "note": "Van Nelleweg 1, 3044 BC Rotterdam. Coordonnées Nominatim sur le numéro 1 de la Van Nelleweg. Tarif non communiqué sur la fiche consultée."
+ }
+]

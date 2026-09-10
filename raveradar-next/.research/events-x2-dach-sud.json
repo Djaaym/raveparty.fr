@@ -2,10 +2,13 @@
   {
     "title": "Hakke360 au Bootshaus",
     "type": "Club",
-    "genres": ["Hardcore", "Hardstyle"],
+    "genres": [
+      "Hardcore",
+      "Hardstyle"
+    ],
     "city": "Cologne",
     "country": "Germany",
-    "lat": 50.95170,
+    "lat": 50.9517,
     "lng": 6.98195,
     "date": "2026-11-13",
     "time": "22:30",
@@ -17,16 +20,21 @@
     "desc": "Hakke360 revient au Bootshaus pour une nuit gabber sur les trois etages du club, de 22h30 a 6h. Le Mainfloor est confie au collectif Fantastic Four, le BLCKBX aux Oldschool Gangsters et la Dreherei sert de floor communautaire. Les noms des DJ ne sont pas encore publies sur la page de l'evenement.",
     "descEn": "Hakke360 returns to Bootshaus for a gabber night across the club's three floors, from 22:30 to 6am. The Mainfloor is hosted by Fantastic Four, BLCKBX by Oldschool Gangsters and the Dreherei runs as a community floor. Individual DJ names have not been published on the event page yet.",
     "ticketUrl": "https://hakke360.ticket.io/UKNceC2c/",
-    "sources": ["https://bootshaus.tv/events/13-11-16-hakke360/", "https://hakke360.ticket.io/UKNceC2c/"],
+    "sources": [
+      "https://bootshaus.tv/events/13-11-16-hakke360/",
+      "https://hakke360.ticket.io/UKNceC2c/"
+    ],
     "note": "Bootshaus, Auenweg 173, 51063 Koeln. Coordonnees: noeud OSM 'Bootshaus' via Nominatim sur l'adresse officielle. Prix = phase 3 a 36,90 EUR, seule phase encore disponible (phases 1 et 2 epuisees). Line-up non annonce, seuls les collectifs hotes sont cites."
   },
   {
     "title": "25 Years Brennan Heart au Bootshaus",
     "type": "Club",
-    "genres": ["Hardstyle"],
+    "genres": [
+      "Hardstyle"
+    ],
     "city": "Cologne",
     "country": "Germany",
-    "lat": 50.95170,
+    "lat": 50.9517,
     "lng": 6.98195,
     "date": "2026-12-05",
     "time": "22:30",
@@ -34,20 +42,31 @@
     "currency": "EUR",
     "venue": "Bootshaus",
     "trending": false,
-    "lineup": ["Brennan Heart", "Toneshifterz", "Broken Element", "Da Syndrome"],
+    "lineup": [
+      "Brennan Heart",
+      "Toneshifterz",
+      "Broken Element",
+      "Da Syndrome"
+    ],
     "desc": "Brennan Heart celebre ses vingt-cinq ans de carriere sur le Mainfloor du Bootshaus, dans une soiree coproduite avec son label Musical Madness. Toneshifterz et Broken Element completent l'affiche, Da Syndrome tient le micro. Les portes ouvrent a 22h30 et la nuit se termine a 5h.",
     "descEn": "Brennan Heart marks twenty-five years behind the decks on the Bootshaus Mainfloor, in a night co-produced with his Musical Madness label. Toneshifterz and Broken Element complete the bill, with Da Syndrome hosting. Doors are at 22:30 and the night runs until 5am.",
     "ticketUrl": "https://musical-madness.ticket.io/FYUFXtGJ/",
-    "sources": ["https://bootshaus.tv/events/25-years-brennen-heart-pres-by-bootshaus-musical-madness/", "https://musical-madness.ticket.io/FYUFXtGJ/"],
+    "sources": [
+      "https://bootshaus.tv/events/25-years-brennen-heart-pres-by-bootshaus-musical-madness/",
+      "https://musical-madness.ticket.io/FYUFXtGJ/"
+    ],
     "note": "Bootshaus, Auenweg 173, 51063 Koeln. Prix = phase 2 a 26,90 EUR (Early Bird a 19,90 epuise). Le site du club orthographie 'Brennen Heart', le nom d'artiste est Brennan Heart."
   },
   {
     "title": "Sara Landry au Bootshaus",
     "type": "Club",
-    "genres": ["Hard Techno", "Techno"],
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
     "city": "Cologne",
     "country": "Germany",
-    "lat": 50.95170,
+    "lat": 50.9517,
     "lng": 6.98195,
     "date": "2026-12-11",
     "time": "23:00",
@@ -55,20 +74,28 @@
     "currency": "EUR",
     "venue": "Bootshaus",
     "trending": false,
-    "lineup": ["Sara Landry"],
+    "lineup": [
+      "Sara Landry"
+    ],
     "desc": "L'Americaine Sara Landry prend le Mainfloor du Bootshaus pour un set solo, de 23h a 7h du matin. Productrice et patronne du label HEKATE, elle s'est imposee en quelques annees comme l'une des figures de la nouvelle hard techno. Entree reservee aux majeurs.",
     "descEn": "American DJ Sara Landry takes over the Bootshaus Mainfloor for a solo set running from 11pm to 7am. A producer and head of the HEKATE label, she has become one of the defining names of the new hard techno wave in a few short years. Admission is 18 and over.",
     "ticketUrl": "https://bootshaus-club.ticket.io/jhUP7WQl/",
-    "sources": ["https://bootshaus.tv/events/sara-landry-pres-by-bootshaus/", "https://bootshaus-club.ticket.io/jhUP7WQl/"],
+    "sources": [
+      "https://bootshaus.tv/events/sara-landry-pres-by-bootshaus/",
+      "https://bootshaus-club.ticket.io/jhUP7WQl/"
+    ],
     "note": "Bootshaus, Auenweg 173, 51063 Koeln. Prix = phase 2 a 32,90 EUR, Early Bird (24,90) et phase 1 (28,90) epuises."
   },
   {
     "title": "Alle Farben au Bootshaus",
     "type": "Club",
-    "genres": ["House", "EDM"],
+    "genres": [
+      "House",
+      "EDM"
+    ],
     "city": "Cologne",
     "country": "Germany",
-    "lat": 50.95170,
+    "lat": 50.9517,
     "lng": 6.98195,
     "date": "2026-11-20",
     "time": "22:00",
@@ -76,31 +103,1259 @@
     "currency": "EUR",
     "venue": "Bootshaus",
     "trending": false,
-    "lineup": ["Alle Farben", "Lahos", "Klar", "Molu"],
+    "lineup": [
+      "Alle Farben",
+      "Lahos",
+      "Klar",
+      "Molu"
+    ],
     "desc": "Le Berlinois Alle Farben fait escale a Cologne pour sa tournee de clubs A World full of Colors. Lahos, Klar et Molu completent le plateau du Mainfloor. La soiree court de 22h a 4h du matin.",
     "descEn": "Berlin producer Alle Farben stops in Cologne on his A World full of Colors club tour. Lahos, Klar and Molu round out the Mainfloor bill. The night runs from 10pm to 4am.",
     "ticketUrl": "https://bootshaus-tickets.ticket.io/PNYFH1ZR/",
-    "sources": ["https://bootshaus.tv/events/alle-farben-a-world-full-of-colors-club-tour-2026/", "https://bootshaus-tickets.ticket.io/PNYFH1ZR/"],
+    "sources": [
+      "https://bootshaus.tv/events/alle-farben-a-world-full-of-colors-club-tour-2026/",
+      "https://bootshaus-tickets.ticket.io/PNYFH1ZR/"
+    ],
     "note": "Bootshaus, Auenweg 173, 51063 Koeln. Prix = phase 2 a 26,00 EUR."
   },
   {
     "title": "Berliner Naechte - Oliver Koletzki au Tanzhaus West",
     "type": "Warehouse",
-    "genres": ["Techno", "House"],
+    "genres": [
+      "Techno",
+      "House"
+    ],
     "city": "Frankfurt",
     "country": "Germany",
     "lat": 50.09803,
-    "lng": 8.64640,
+    "lng": 8.6464,
     "date": "2026-09-19",
     "time": "23:00",
-    "price": 20,
+    "price": 0,
     "currency": "EUR",
     "venue": "Tanzhaus West",
     "trending": false,
-    "lineup": ["Oliver Koletzki", "Frida Darko"],
+    "lineup": [
+      "Oliver Koletzki",
+      "Frida Darko"
+    ],
     "desc": "Le Tanzhaus West, ancienne usine d'encre d'imprimerie de la Gutleutstrasse, recoit la soiree Berliner Naechte. Oliver Koletzki et Frida Darko jouent en b2b, avec un showcase du label Limpio Records et les residents de la maison. Ouverture des portes a 23h.",
     "descEn": "Tanzhaus West, a former printing ink factory on Gutleutstrasse, hosts the Berliner Naechte night. Oliver Koletzki and Frida Darko play back to back, alongside a Limpio Records label showcase and the venue's own residents. Doors at 11pm.",
-    "sources": ["https://tanzhaus-west.de/programm/"],
-    "note": "Tanzhaus West, Gutleutstrasse 294, 60327 Frankfurt am Main. Coordonnees: noeud OSM 'Tanzhaus West' via Nominatim. Tarif indicatif, non publie sur la page de programme. Horaire d'ouverture standard du club, 23h."
+    "sources": [
+      "https://tanzhaus-west.de/programm/"
+    ],
+    "note": "Tanzhaus West, Gutleutstrasse 294, 60327 Frankfurt am Main. Coordonnees: noeud OSM 'Tanzhaus West' via Nominatim. Tarif non communique sur la page de programme. Horaire d'ouverture standard du club, 23h."
+  },
+  {
+    "title": "Ricardo Villalobos au Robert Johnson",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Offenbach",
+    "country": "Germany",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "date": "2026-10-16",
+    "time": "23:59",
+    "price": 28,
+    "currency": "EUR",
+    "venue": "Robert Johnson",
+    "trending": false,
+    "lineup": [
+      "Ricardo Villalobos",
+      "Alexander Skancke",
+      "Franziska Berns"
+    ],
+    "desc": "Electric Friday, la nuit du vendredi du Robert Johnson, recoit Ricardo Villalobos. Le Chilien partage l'affiche avec Alexander Skancke et Franziska Berns. Le club, installe dans un ancien batiment industriel du port d'Offenbach depuis 1999, ouvre a minuit.",
+    "descEn": "Electric Friday, the Robert Johnson's Friday night series, welcomes Ricardo Villalobos. The Chilean shares the bill with Alexander Skancke and Franziska Berns. The club, housed in a former industrial building in Offenbach harbour since 1999, opens at midnight.",
+    "ticketUrl": "https://robertjohnson.ticket.io/cZzVzCqW/",
+    "sources": [
+      "https://robertjohnson.ticket.io/cZzVzCqW/",
+      "https://www.robert-johnson.de/"
+    ],
+    "note": "Robert Johnson, Nordring 131, 63067 Offenbach am Main. Coordonnees: noeud OSM 'Robert Johnson' via Nominatim sur l'adresse de la billetterie. Prix = presale 28 EUR (categorie unique). Heure d'ouverture 23:59 telle qu'annoncee par la billetterie."
+  },
+  {
+    "title": "Rhadoo au Robert Johnson",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Offenbach",
+    "country": "Germany",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "date": "2026-11-13",
+    "time": "23:59",
+    "price": 21,
+    "currency": "EUR",
+    "venue": "Robert Johnson",
+    "trending": false,
+    "lineup": [
+      "Rhadoo"
+    ],
+    "desc": "Le Roumain Rhadoo, cofondateur du label [a:rpia:r], joue seul toute la nuit au Robert Johnson dans le cadre des Electric Friday. Format all night long, un seul DJ de l'ouverture a la fermeture.",
+    "descEn": "Romanian DJ Rhadoo, co-founder of the [a:rpia:r] label, plays alone all night at Robert Johnson as part of the Electric Friday series. All night long format, one DJ from open to close.",
+    "ticketUrl": "https://robertjohnson.ticket.io/BQkulD2E/",
+    "sources": [
+      "https://robertjohnson.ticket.io/BQkulD2E/",
+      "https://www.robert-johnson.de/"
+    ],
+    "note": "Robert Johnson, Nordring 131, 63067 Offenbach am Main. Prix = presale 21 EUR (categorie unique)."
+  },
+  {
+    "title": "Koelsch au Robert Johnson",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Offenbach",
+    "country": "Germany",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "date": "2026-11-20",
+    "time": "23:59",
+    "price": 23,
+    "currency": "EUR",
+    "venue": "Robert Johnson",
+    "trending": false,
+    "lineup": [
+      "Kölsch",
+      "Jonathan Kasper"
+    ],
+    "desc": "Le Danois Kolsch, signe sur Kompakt, est invite de l'Electric Friday du Robert Johnson. Jonathan Kasper assure l'autre set de la nuit. La salle d'Offenbach ne tient qu'environ trois cents personnes, sans photos ni ecrans.",
+    "descEn": "Danish producer Koelsch, signed to Kompakt, headlines the Robert Johnson's Electric Friday. Jonathan Kasper plays the other set of the night. The Offenbach room holds only around three hundred people, with no photos and no screens.",
+    "ticketUrl": "https://robertjohnson.ticket.io/7EnQ2KTn/",
+    "sources": [
+      "https://robertjohnson.ticket.io/7EnQ2KTn/",
+      "https://www.robert-johnson.de/"
+    ],
+    "note": "Robert Johnson, Nordring 131, 63067 Offenbach am Main. Prix = presale 23 EUR. Titre sans trema pour le slug, le line-up garde l'orthographe Kölsch."
+  },
+  {
+    "title": "Francesco del Garda & Binh au Robert Johnson",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Offenbach",
+    "country": "Germany",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "date": "2026-12-04",
+    "time": "23:59",
+    "price": 23,
+    "currency": "EUR",
+    "venue": "Robert Johnson",
+    "trending": false,
+    "lineup": [
+      "Francesco del Garda",
+      "Binh"
+    ],
+    "desc": "Francesco del Garda et Binh se partagent la nuit entiere du Robert Johnson, en format all night long. Les deux DJ sont des habitues des longues sessions minimales et deep du club d'Offenbach.",
+    "descEn": "Francesco del Garda and Binh share the whole night at Robert Johnson, all night long format. Both DJs are regulars of the long minimal and deep sessions the Offenbach club is known for.",
+    "ticketUrl": "https://robertjohnson.ticket.io/zX6FhKjb/",
+    "sources": [
+      "https://robertjohnson.ticket.io/zX6FhKjb/",
+      "https://www.robert-johnson.de/"
+    ],
+    "note": "Robert Johnson, Nordring 131, 63067 Offenbach am Main. Prix = presale 23 EUR. Date confirmee vendredi 04/12/2026 par le listing de robertjohnson.ticket.io."
+  },
+  {
+    "title": "Gerd Janson au Robert Johnson",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Offenbach",
+    "country": "Germany",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "date": "2026-12-19",
+    "time": "23:59",
+    "price": 23,
+    "currency": "EUR",
+    "venue": "Robert Johnson",
+    "trending": false,
+    "lineup": [
+      "Gerd Janson",
+      "Thomas Hammann"
+    ],
+    "desc": "Lifesaver Saturday, la soiree du samedi du Robert Johnson, reunit Gerd Janson et Thomas Hammann pour un all night long a deux. Janson, patron du label Running Back, est un resident historique de la maison.",
+    "descEn": "Lifesaver Saturday, the Robert Johnson's Saturday night, pairs Gerd Janson with Thomas Hammann for a two man all night long. Janson, who runs the Running Back label, is a long standing resident of the club.",
+    "ticketUrl": "https://robertjohnson.ticket.io/6BZ9FaFy/",
+    "sources": [
+      "https://robertjohnson.ticket.io/6BZ9FaFy/",
+      "https://www.robert-johnson.de/"
+    ],
+    "note": "Robert Johnson, Nordring 131, 63067 Offenbach am Main. Prix = presale 23 EUR."
+  },
+  {
+    "title": "Black Sun Empire à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-10-02",
+    "time": "23:00",
+    "price": 12,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [
+      "Black Sun Empire",
+      "Geostatic",
+      "Subbee",
+      "Specture",
+      "Ael MC",
+      "Clairyfairy",
+      "Saess",
+      "Bright"
+    ],
+    "desc": "Le collectif Massive Playground ferme quatorze ans de soirees drum and bass a Graz avec Black Sun Empire, du label neerlandais Blackout Music, pour un set de quatre-vingt-dix minutes. Le premier etage de la Postgarage est reserve au drum and bass, le troisieme accueille Clairyfairy, Saess et Bright. Ouverture des portes a 23h.",
+    "descEn": "The Massive Playground crew closes fourteen years of drum and bass nights in Graz with Black Sun Empire, of Dutch label Blackout Music, playing a ninety minute set. The first floor of Postgarage is given over to drum and bass, the third hosts Clairyfairy, Saess and Bright. Doors at 11pm.",
+    "sources": [
+      "https://www.postgarage.at/program/massive-playground-presents-black-sun-empire_2026-10-02/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Coordonnees Nominatim sur l'adresse officielle du site. Tarifs annonces: Early Bird 12 EUR, phase 1 14 EUR, phase 2 16 EUR, 18 EUR sur place; le palier en cours n'est pas indique, prix indicatif."
+  },
+  {
+    "title": "Anfisa Letyago au Nordstern",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 20,
+    "currency": "CHF",
+    "venue": "Nordstern",
+    "trending": false,
+    "lineup": [
+      "Anfisa Letyago",
+      "GFX",
+      "Kael"
+    ],
+    "desc": "L'Italienne Anfisa Letyago joue sur le pont inferieur du Nordstern, un cargo rhenan transforme en club a Kleinhuningen. GFX et Kael assurent le reste de la nuit. Entree reservee aux vingt ans et plus, comme sur toutes les nuits du club.",
+    "descEn": "Italian DJ Anfisa Letyago plays the lower deck of Nordstern, a Rhine cargo ship converted into a club in Basel's Kleinhuningen district. GFX and Kael cover the rest of the night. Admission is 20 and over, as on every club night there.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/anfisa-letyago-2249",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/anfisa-letyago-2249"
+    ],
+    "note": "Nordstern, Westquaistrasse 19, 4057 Basel. Coordonnees: noeud OSM 'Nordstern' via Nominatim. Paliers annonces 20 / 25 / 30 CHF, le palier en cours n'est pas indique, prix indicatif."
+  },
+  {
+    "title": "Blackworks - Fatima Hajji au Nordstern",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "date": "2026-10-16",
+    "time": "23:00",
+    "price": 20,
+    "currency": "CHF",
+    "venue": "Nordstern",
+    "trending": false,
+    "lineup": [
+      "Fatima Hajji",
+      "Dexphase",
+      "Skryption"
+    ],
+    "desc": "Blackworks, le label madrilene fonde par Dexphase en 2019, pose sa nuit hard techno au Nordstern. L'Espagnole Fatima Hajji est en tete d'affiche, avec Dexphase et Skryption. Portes a 23h.",
+    "descEn": "Blackworks, the Madrid label founded by Dexphase in 2019, brings its hard techno night to Nordstern. Spanish DJ Fatima Hajji headlines, with Dexphase and Skryption in support. Doors at 11pm.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/blackworks-w-fatima-haji-2342",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/blackworks-w-fatima-haji-2342"
+    ],
+    "note": "Nordstern, Westquaistrasse 19, 4057 Basel. Paliers 20 / 25 / 30 CHF, palier en cours non indique, prix indicatif."
+  },
+  {
+    "title": "Double House - Acid Pauli & Recondite au Nordstern",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "date": "2026-10-17",
+    "time": "23:00",
+    "price": 20,
+    "currency": "CHF",
+    "venue": "Nordstern",
+    "trending": false,
+    "lineup": [
+      "Acid Pauli",
+      "Recondite",
+      "Agonis",
+      "Dandara",
+      "Erti Lutaj",
+      "Taala",
+      "Timnah"
+    ],
+    "desc": "Double House occupe les deux niveaux de la maison: Acid Pauli, Dandara et Taala au bar Futura a l'etage, Recondite en live, Timnah, Agonis et Erti Lutaj dans le club en bas. La terrasse sur le toit reste ouverte toute la nuit et rien n'est impose comme parcours.",
+    "descEn": "Double House takes over both levels of the venue: Acid Pauli, Dandara and Taala upstairs at Bar Futura, Recondite live plus Timnah, Agonis and Erti Lutaj downstairs in the club. The rooftop terrace stays open all night and no running order is imposed on the crowd.",
+    "ticketUrl": "https://tickets.nordstern.com/de/c/double-house-w-acid-pauli-recondite-2359",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/de/c/double-house-w-acid-pauli-recondite-2359"
+    ],
+    "note": "Nordstern, Westquaistrasse 19, 4057 Basel. Prix: une seule categorie annoncee a 20 CHF. La page de programme affiche 22h, la billetterie 23h; c'est l'heure de la billetterie qui est retenue."
+  },
+  {
+    "title": "Somewhen au Nordstern",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "date": "2026-10-23",
+    "time": "23:00",
+    "price": 20,
+    "currency": "CHF",
+    "venue": "Nordstern",
+    "trending": false,
+    "lineup": [
+      "Somewhen",
+      "Eckes",
+      "Kaia",
+      "Nikki30",
+      "Valorin",
+      "Sloan"
+    ],
+    "desc": "Le collectif bale Cultura40 invite Somewhen au Nordstern. Le reste de la nuit tient en deux b2b, Eckes avec Kaia et Valorin avec Sloan, plus Nikki30. Portes a 23h.",
+    "descEn": "Basel collective Cultura40 books Somewhen at Nordstern. The rest of the night runs on two back to backs, Eckes with Kaia and Valorin with Sloan, plus Nikki30. Doors at 11pm.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/somewhen-2290",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/somewhen-2290"
+    ],
+    "note": "Nordstern, Westquaistrasse 19, 4057 Basel. Paliers 20 / 25 / 30 CHF, palier en cours non indique, prix indicatif."
+  },
+  {
+    "title": "Worakls au Nordstern",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.5838,
+    "lng": 7.58681,
+    "date": "2026-10-24",
+    "time": "23:00",
+    "price": 20,
+    "currency": "CHF",
+    "venue": "Nordstern",
+    "trending": false,
+    "lineup": [
+      "Worakls",
+      "Yves-Maurice",
+      "Federspiel"
+    ],
+    "desc": "Worakls, compositeur francais passe du piano classique a la techno melodique, joue au Nordstern. Yves-Maurice et Federspiel completent la nuit. Le club de Kleinhuningen n'ouvre que le vendredi et le samedi.",
+    "descEn": "Worakls, the French composer who moved from classical piano to melodic techno, plays Nordstern. Yves-Maurice and Federspiel round out the night. The Kleinhuningen club only opens on Fridays and Saturdays.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/worakls-2365",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/worakls-2365"
+    ],
+    "note": "Nordstern, Westquaistrasse 19, 4057 Basel. Paliers 20 / 25 / 30 / 35 CHF, palier en cours non indique, prix indicatif."
+  },
+  {
+    "title": "UNREAL Bernexpo",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Bern",
+    "country": "Switzerland",
+    "lat": 46.95896,
+    "lng": 7.46734,
+    "date": "2026-10-31",
+    "time": "20:00",
+    "price": 49,
+    "currency": "CHF",
+    "venue": "Bernexpo",
+    "trending": false,
+    "lineup": [
+      "Nico Moreno",
+      "Johannes Schuster",
+      "Cloudy",
+      "KSO12",
+      "Suska"
+    ],
+    "desc": "La marque UNREAL installe sa nuit hard techno dans les halles de Bernexpo, de 20h a 6h. Le Francais Nico Moreno et l'Allemand Johannes Schuster sont en tete d'affiche, avec Cloudy, KSO12 et Suska. Soiree produite par le Nordstern de Bale.",
+    "descEn": "The UNREAL brand sets up its hard techno night in the Bernexpo halls, running 8pm to 6am. France's Nico Moreno and Germany's Johannes Schuster headline, alongside Cloudy, KSO12 and Suska. The night is produced by Basel's Nordstern.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/unreal-bernexpo-2110",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/unreal-bernexpo-2110"
+    ],
+    "note": "Bernexpo, Mingerstrasse 6, 3014 Bern. Coordonnees Nominatim sur 'BernExpo, Bern'. Paliers Early Bird 49 CHF, 1st release 59, 2nd release 69; palier en cours non indique, prix indicatif. Un sixieme nom du line-up est encore masque (XXXXX)."
+  },
+  {
+    "title": "Moving Mountain Titlis - Ben Böhmer",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Engelberg",
+    "country": "Switzerland",
+    "lat": 46.81632,
+    "lng": 8.39601,
+    "date": "2026-11-28",
+    "time": "12:00",
+    "price": 69,
+    "currency": "CHF",
+    "venue": "Titlis",
+    "trending": false,
+    "lineup": [
+      "Ben Böhmer",
+      "Awen",
+      "Read The News",
+      "Ardour"
+    ],
+    "desc": "Moving Mountain monte sur le Titlis, au-dessus d'Engelberg, pour une journee en altitude qui commence a midi. Ben Bohmer tient la tete d'affiche, avec Awen, Read The News et Ardour. Le billet comprend la montee en telecabine, la seule facon d'atteindre le site.",
+    "descEn": "Moving Mountain heads up the Titlis above Engelberg for a daytime event starting at noon. Ben Boehmer headlines, with Awen, Read The News and Ardour. The ticket includes the gondola ride, which is the only way to reach the site.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/moving-mountain-engelberg-w-ben-bohmer-2128",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/moving-mountain-engelberg-w-ben-bohmer-2128"
+    ],
+    "note": "Station de depart des Titlisbahnen, Gerschnistrasse 12, 6390 Engelberg (coordonnees Nominatim sur cette adresse). Le site de la fete est en altitude sur le Titlis, la billetterie ne donne pas de point precis; la coordonnee retenue est le point de rendez-vous en vallee, telecabine incluse dans le billet. Paliers 69 / 79 / 89 / 99 CHF, palier en cours non indique, prix indicatif."
+  },
+  {
+    "title": "Unum in the Mountains",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Engelberg",
+    "country": "Switzerland",
+    "lat": 46.81632,
+    "lng": 8.39601,
+    "date": "2026-11-29",
+    "time": "12:00",
+    "price": 59,
+    "currency": "CHF",
+    "venue": "Titlis",
+    "trending": false,
+    "lineup": [
+      "Sven Väth",
+      "Praslesh",
+      "Alci",
+      "Anitë",
+      "Gemza"
+    ],
+    "desc": "Le festival albanais Unum tient une journee suisse sur le Titlis, le lendemain de Moving Mountain. Sven Vath est en tete d'affiche, avec le duo Praslesh, Alci et le b2b Anite / Gemza. Debut a midi, telecabine comprise dans le billet.",
+    "descEn": "Albanian festival Unum stages a Swiss daytime edition on the Titlis, the day after Moving Mountain. Sven Vaeth headlines, alongside the Praslesh duo, Alci and an Anite / Gemza back to back. It starts at noon, with the gondola ride included in the ticket.",
+    "ticketUrl": "https://tickets.nordstern.com/en/c/unum-in-the-mountains-2245",
+    "sources": [
+      "https://nordstern.com/events/",
+      "https://tickets.nordstern.com/en/c/unum-in-the-mountains-2245"
+    ],
+    "note": "Station de depart des Titlisbahnen, Gerschnistrasse 12, 6390 Engelberg (coordonnees Nominatim). Meme remarque que Moving Mountain sur le point exact en altitude. Paliers 59 / 69 / 79 CHF, palier en cours non indique, prix indicatif."
+  },
+  {
+    "title": "Fish Market à la Grelle Forelle",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Grelle Forelle",
+    "trending": false,
+    "lineup": [
+      "Lacchesi",
+      "Violetta",
+      "Gerald VDH",
+      "Keine Stille",
+      "Mhak",
+      "Amadeuz",
+      "Swiver"
+    ],
+    "desc": "La soiree Fish Market occupe les deux niveaux de la Grelle Forelle, sur le canal du Danube. Lacchesi, Violetta et Gerald VDH tiennent le Mainfloor, le collectif Techno.Kult programme le floor Kitchen avec Keine Stille, Mhak, Amadeuz et Swiver. Portes a 23h.",
+    "descEn": "The Fish Market night takes over both levels of Grelle Forelle, on the Danube canal. Lacchesi, Violetta and Gerald VDH hold the Mainfloor while the Techno.Kult crew programmes the Kitchen floor with Keine Stille, Mhak, Amadeuz and Swiver. Doors at 11pm.",
+    "sources": [
+      "https://www.grelleforelle.com/project/1809-fish-market-w-lacchesi-violetta-gerald-vdh-techno-kult-floor-hosting/",
+      "https://www.grelleforelle.com/programm/"
+    ],
+    "note": "Grelle Forelle, Spittelauer Laende 12, 1090 Wien. Coordonnees: noeud OSM 'Grelle Forelle' via Nominatim. Tarif non communique sur la page de l'evenement (prevente eventjet, caisse du soir)."
+  },
+  {
+    "title": "Zuckerwatt w/ Pan-Pot",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Grelle Forelle",
+    "trending": false,
+    "lineup": [
+      "Pan-Pot",
+      "Crazy Sonic",
+      "Marvin Aloys",
+      "Sky Nightingale",
+      "Izy"
+    ],
+    "desc": "La serie Zuckerwatt invite le duo berlinois Pan-Pot, du label Second State, sur le Mainfloor de la Grelle Forelle. Le floor Kitchen est confie a Mixmag avec Marvin Aloys, Sky Nightingale et Izy. Un nom du Mainfloor reste a annoncer.",
+    "descEn": "The Zuckerwatt series books Berlin duo Pan-Pot, of the Second State label, on the Grelle Forelle Mainfloor. The Kitchen floor is hosted by Mixmag with Marvin Aloys, Sky Nightingale and Izy. One Mainfloor name is still to be announced.",
+    "sources": [
+      "https://www.grelleforelle.com/project/0910-zuckerwatt-w-pan-pot/",
+      "https://www.grelleforelle.com/programm/"
+    ],
+    "note": "Grelle Forelle, Spittelauer Laende 12, 1090 Wien. Tarif non communique sur la page de l'evenement."
+  },
+  {
+    "title": "Sven Väth - Turbo à la Grelle Forelle",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "date": "2026-10-23",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Grelle Forelle",
+    "trending": false,
+    "lineup": [
+      "Sven Väth",
+      "Maurizio Schmitz",
+      "Andy Catana",
+      "Marø",
+      "Partypauli",
+      "Krawallbarbie"
+    ],
+    "desc": "Sven Vath amene sa soiree Turbo a la Grelle Forelle. Maurizio Schmitz et Andy Catana completent le Mainfloor, le floor Kitchen revient a Maro, Partypauli, Krawallbarbie et Who is Ela. Portes a 23h, prevente via eventim light.",
+    "descEn": "Sven Vaeth brings his Turbo night to Grelle Forelle. Maurizio Schmitz and Andy Catana complete the Mainfloor while the Kitchen floor goes to Maro, Partypauli, Krawallbarbie and Who is Ela. Doors at 11pm, presale through eventim light.",
+    "ticketUrl": "https://www.eventim-light.com/at/a/69284c91e54d302ec82b2635/e/6a845055063f12343261040b?lang=de",
+    "sources": [
+      "https://www.grelleforelle.com/project/2310-sven-vath-turbo/",
+      "https://www.grelleforelle.com/programm/"
+    ],
+    "note": "Grelle Forelle, Spittelauer Laende 12, 1090 Wien. Tarif non communique, la page renvoie sur eventim light qui repond 403 depuis le conteneur. Le nom 'Who is Ela' n'est pas repris dans lineup, son orthographe exacte comporte un point d'interrogation inverse."
+  },
+  {
+    "title": "Flashback w/ Thomas Schumacher",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "date": "2026-11-27",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Grelle Forelle",
+    "trending": false,
+    "lineup": [
+      "Thomas Schumacher",
+      "Joro",
+      "Joabo",
+      "Rokis",
+      "Tom Snow",
+      "Martin Oelz",
+      "Peter Pan"
+    ],
+    "desc": "La soiree Flashback rejoue les classiques techno viennois avec Thomas Schumacher, alias Elektrochemie LK, en tete d'affiche. Les residents des soirees Gazometer XXX tiennent le reste du Mainfloor, MC Mars et MC Spot au micro. Le collectif Sorry Mom programme le floor Kitchen.",
+    "descEn": "The Flashback night revisits Viennese techno classics with Thomas Schumacher, aka Elektrochemie LK, headlining. Residents of the Gazometer XXX parties hold the rest of the Mainfloor, with MC Mars and MC Spot hosting. The Sorry Mom crew programmes the Kitchen floor.",
+    "sources": [
+      "https://www.grelleforelle.com/project/2711-flashback-w-thomas-schumacher-techno-classics-elektrochemie-lk/",
+      "https://www.grelleforelle.com/programm/"
+    ],
+    "note": "Grelle Forelle, Spittelauer Laende 12, 1090 Wien. Tarif non communique sur la page de l'evenement."
+  },
+  {
+    "title": "SYSTEM_03 à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Drum & Bass",
+      "Hardcore"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le collectif EMC prend les trois etages de la Postgarage pour la troisieme edition de SYSTEM_03. Un etage techno et bounce, un etage drum and bass, un etage tekk et psytrance, les trois en simultane. Le line-up n'est pas encore publie.",
+    "descEn": "The EMC crew takes all three floors of Postgarage for the third SYSTEM_03. One floor for techno and bounce, one for drum and bass, one for tekk and psytrance, all running at once. The lineup has not been published yet.",
+    "sources": [
+      "https://www.postgarage.at/program/system_03_2026-10-09/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Line-up et tarif annonces TBA sur la fiche, prix non communique."
+  },
+  {
+    "title": "CONCISE Invites à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-11-14",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [
+      "Concise"
+    ],
+    "desc": "Le collectif autrichien Concise investit le deuxieme etage de la Postgarage pour une nuit drum and bass avec des producteurs locaux. Portes a 23h. Le detail de l'affiche n'est pas encore publie.",
+    "descEn": "Austrian crew Concise takes over the second floor of Postgarage for a drum and bass night built around local producers. Doors at 11pm. The full bill has not been published yet.",
+    "sources": [
+      "https://www.postgarage.at/program/concise-invites_2026-11-14/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Tarif annonce TBA sur la fiche, prix non communique."
+  },
+  {
+    "title": "Groove Matters à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno",
+      "Drum & Bass"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-11-27",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [],
+    "desc": "Groove Matters prend les trois etages de la Postgarage pour une nuit qui couvre techno, hard techno, house, tech house, drum and bass et dubstep. L'organisateur annonce des reveals de line-up par phases, des residents du collectif aux invites nationaux et internationaux. Les premiers billets sont vendus en blind ticket.",
+    "descEn": "Groove Matters takes all three floors of Postgarage for a night spanning techno, hard techno, house, tech house, drum and bass and dubstep. The promoter says the lineup will be revealed in phases, from the crew's own residents to national and international guests. The first tickets are sold as blind tickets.",
+    "sources": [
+      "https://www.postgarage.at/program/groove-matters-takes-over-postgarage_2026-11-27/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Line-up TBA, tarif du blind ticket non communique sur la fiche."
+  },
+  {
+    "title": "Electrisize Festival",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "Techno",
+      "Hardstyle"
+    ],
+    "city": "Erkelenz",
+    "country": "Germany",
+    "lat": 51.06894,
+    "lng": 6.2784,
+    "date": "2027-08-06",
+    "endDate": "2027-08-08",
+    "time": "14:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Kloster Hohenbusch",
+    "venueEn": "Hohenbusch Monastery grounds",
+    "trending": false,
+    "lineup": [],
+    "desc": "Electrisize tient sa dix-neuvieme edition sur le domaine du Kloster Hohenbusch, a Erkelenz entre Dusseldorf et Aix-la-Chapelle. Le festival existe depuis 2009 et se deroule sur trois jours avec camping. Le line-up et la billetterie 2027 ne sont pas encore ouverts, seule une preinscription est en ligne.",
+    "descEn": "Electrisize holds its nineteenth edition on the grounds of Kloster Hohenbusch, in Erkelenz between Duesseldorf and Aachen. The festival has been running since 2009 and spans three days with camping. The 2027 lineup and ticket sale are not open yet, only a pre-registration list.",
+    "sources": [
+      "https://electrisize.de/",
+      "https://electrisize.de/info/"
+    ],
+    "note": "Kloster Hohenbusch, 41812 Erkelenz (Matzerath). Coordonnees Nominatim sur 'Kloster Hohenbusch, Erkelenz'. Tarif non communique: la billetterie 2027 n'est pas ouverte, le site ne propose qu'une preinscription. Heure de debut non publiee, 14h retenue comme heure d'ouverture habituelle d'un festival avec camping, a re-verifier."
+  },
+  {
+    "title": "Trance 'n' Dance Gathering au Relikt",
+    "type": "Club",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Wuppertal",
+    "country": "Germany",
+    "lat": 51.26199,
+    "lng": 7.14742,
+    "date": "2026-09-18",
+    "time": "22:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Relikt",
+    "trending": false,
+    "lineup": [
+      "Necmi",
+      "Palusa",
+      "Horst Schibulski",
+      "Synchrohm"
+    ],
+    "desc": "Les collectifs Tanztunnel et Goatal reunissent une nuit goa et psytrance au Relikt, dans le nord de Wuppertal. Necmi, Palusa en live, Horst Schibulski et Synchrohm se partagent la soiree. Debut a 22h.",
+    "descEn": "The Tanztunnel and Goatal crews put together a goa and psytrance night at Relikt, in northern Wuppertal. Necmi, Palusa live, Horst Schibulski and Synchrohm share the bill. Starts at 10pm.",
+    "sources": [
+      "https://www.butan-club.de/"
+    ],
+    "note": "Relikt, Gathe 50, 42107 Wuppertal (adresse donnee par la page Butan). Coordonnees Nominatim sur cette adresse. Tarif non communique sur la page."
+  },
+  {
+    "title": "Krawall x Butan - We Bounce",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Wuppertal",
+    "country": "Germany",
+    "lat": 51.26199,
+    "lng": 7.14742,
+    "date": "2026-09-25",
+    "time": "22:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Relikt",
+    "trending": false,
+    "lineup": [
+      "George Radsport",
+      "Räubertochter",
+      "Jokkel",
+      "Elyante",
+      "DJ Hüftschwung",
+      "Pspagel",
+      "Lemaaax",
+      "Mauro",
+      "Lykka",
+      "Raffaa",
+      "Skyla",
+      "Schana"
+    ],
+    "desc": "Le Krawall Kollektiv et Butan s'associent au Relikt pour une nuit bounce et techno a douze DJ. George Radsport ouvre le bal, suivi de plusieurs b2b dont Raubertochter avec Jokkel et Pspagel avec Lemaaax. Debut a 22h.",
+    "descEn": "Krawall Kollektiv and Butan join forces at Relikt for a twelve DJ bounce and techno night. George Radsport opens, followed by several back to backs including Raeubertochter with Jokkel and Pspagel with Lemaaax. Starts at 10pm.",
+    "sources": [
+      "https://www.butan-club.de/"
+    ],
+    "note": "Relikt, Gathe 50, 42107 Wuppertal. Tarif non communique sur la page Butan."
+  },
+  {
+    "title": "Butan Boiler Edition",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Wuppertal",
+    "country": "Germany",
+    "lat": 51.24864,
+    "lng": 7.12133,
+    "date": "2026-10-02",
+    "time": "22:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "U-Club",
+    "trending": false,
+    "lineup": [],
+    "desc": "Butan, marque de soirees techno de Wuppertal depuis les annees 1990, installe sa Boiler Edition au U-Club de la Friedrich-Ebert-Strasse. Hardtechno et bounce au programme, debut a 22h. Le line-up n'est pas encore publie.",
+    "descEn": "Butan, a Wuppertal techno party brand since the 1990s, brings its Boiler Edition to the U-Club on Friedrich-Ebert-Strasse. Hardtechno and bounce on the bill, starting at 10pm. The lineup has not been published yet.",
+    "sources": [
+      "https://www.butan-club.de/"
+    ],
+    "note": "U-Club, Friedrich-Ebert-Strasse 191, 42117 Wuppertal (adresse donnee par la page Butan). Coordonnees Nominatim sur cette adresse, le point tombe sur le batiment voisin du numero 191. Tarif non communique."
+  },
+  {
+    "title": "3 Jahre Hypertrance au Tanzhaus West",
+    "type": "Warehouse",
+    "genres": [
+      "Trance",
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Frankfurt",
+    "country": "Germany",
+    "lat": 50.09803,
+    "lng": 8.6464,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Tanzhaus West",
+    "trending": false,
+    "lineup": [
+      "Cargo",
+      "Millie Forsberg",
+      "Jacky Ickx"
+    ],
+    "desc": "La soiree Hypertrance fete ses trois ans au Tanzhaus West et ouvre pour la premiere fois ses deux etages. Cargo, Millie Forsberg et Jacky Ickx sont annonces, completes par les residents. Trance, hard dance et techno au programme.",
+    "descEn": "The Hypertrance night celebrates its third birthday at Tanzhaus West and opens both of its floors for the first time. Cargo, Millie Forsberg and Jacky Ickx are announced, with local support. Trance, hard dance and techno on the bill.",
+    "sources": [
+      "https://tanzhaus-west.de/programm/"
+    ],
+    "note": "Tanzhaus West, Gutleutstrasse 294, 60327 Frankfurt am Main. Tarif non communique sur la page de programme. Horaire d'ouverture standard du club, 23h."
+  },
+  {
+    "title": "Ritter Butzke on tour à Francfort",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Frankfurt",
+    "country": "Germany",
+    "lat": 50.09803,
+    "lng": 8.6464,
+    "date": "2026-10-24",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Tanzhaus West",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le Ritter Butzke, club berlinois installe dans une ancienne fabrique de Kreuzberg, emmene sa soiree au Tanzhaus West de Francfort. Le line-up n'est pas encore annonce sur la page de programme du club.",
+    "descEn": "Ritter Butzke, the Berlin club housed in a former Kreuzberg factory, takes its night on tour to Frankfurt's Tanzhaus West. The lineup has not been announced on the venue's programme page yet.",
+    "sources": [
+      "https://tanzhaus-west.de/programm/"
+    ],
+    "note": "Tanzhaus West, Gutleutstrasse 294, 60327 Frankfurt am Main. Line-up annonce tba, tarif non communique."
+  },
+  {
+    "title": "Lehmann Clubnacht - Quelza",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Stuttgart",
+    "country": "Germany",
+    "lat": 48.77985,
+    "lng": 9.16678,
+    "date": "2026-09-19",
+    "time": "23:59",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Lehmann Club",
+    "trending": false,
+    "lineup": [
+      "Quelza",
+      "Inox Traxx",
+      "Secret Act",
+      "Davy",
+      "Raphael Dincsoy",
+      "Duhkha"
+    ],
+    "desc": "La Clubnacht du Lehmann, successeur du Club Prag dans la Seidenstrasse, reunit le Francais Quelza et Inox Traxx. Secret Act, Davy et le b2b Raphael Dincsoy / Duhkha completent la nuit, qui demarre a minuit.",
+    "descEn": "The Lehmann's Clubnacht, in the venue that succeeded Club Prag on Seidenstrasse, pairs French DJ Quelza with Inox Traxx. Secret Act, Davy and a Raphael Dincsoy / Duhkha back to back complete the night, which starts at midnight.",
+    "ticketUrl": "https://lehmannclub.ticket.io/nrmBOGwo/",
+    "sources": [
+      "https://lehmannclub.ticket.io/",
+      "https://lehmannclub.ticket.io/nrmBOGwo/"
+    ],
+    "note": "Lehmann Club, Seidenstrasse 20, 70174 Stuttgart. Coordonnees Nominatim sur cette adresse. Prix: la billetterie annonce 'a partir de 20 EUR'."
+  },
+  {
+    "title": "Lehmann Schranznacht",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Stuttgart",
+    "country": "Germany",
+    "lat": 48.77985,
+    "lng": 9.16678,
+    "date": "2026-09-26",
+    "time": "23:59",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Lehmann Club",
+    "trending": false,
+    "lineup": [
+      "Callush",
+      "Lukas",
+      "Gaaas"
+    ],
+    "desc": "Le Lehmann consacre une nuit au schranz, la variante rapide et distordue de la techno allemande. Callush, Lukas et Gaaas se partagent le set, de minuit a la fermeture.",
+    "descEn": "Lehmann devotes a night to schranz, the fast and distorted strain of German techno. Callush, Lukas and Gaaas share the decks, from midnight to closing.",
+    "ticketUrl": "https://lehmannclub.ticket.io/Y0DteQ0Z/",
+    "sources": [
+      "https://lehmannclub.ticket.io/",
+      "https://lehmannclub.ticket.io/Y0DteQ0Z/"
+    ],
+    "note": "Lehmann Club, Seidenstrasse 20, 70174 Stuttgart. Prix: billetterie 'a partir de 20 EUR'."
+  },
+  {
+    "title": "UNTREATED à la Rote Sonne",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Munich",
+    "country": "Germany",
+    "lat": 48.14218,
+    "lng": 11.57014,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Rote Sonne",
+    "trending": false,
+    "lineup": [
+      "An Chen",
+      "Closure",
+      "Rui-De",
+      "Starkiller"
+    ],
+    "desc": "Le label Untreated pose sa nuit a la Rote Sonne, le club de la Maximiliansplatz a Munich. An Chen, Closure, Rui-De et Starkiller se partagent l'affiche. Le club ouvre a 23h.",
+    "descEn": "The Untreated label brings its night to Rote Sonne, the club on Munich's Maximiliansplatz. An Chen, Closure, Rui-De and Starkiller share the bill. Doors at 11pm.",
+    "sources": [
+      "https://www.rote-sonne.com/club/"
+    ],
+    "note": "Rote Sonne, Maximiliansplatz 5, 80333 Muenchen. Coordonnees: noeud OSM 'Rote Sonne' via Nominatim sur cette adresse. Tarif non communique sur la page du club. Heure d'ouverture habituelle 23h."
+  },
+  {
+    "title": "Slippy Series à la Rote Sonne",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Munich",
+    "country": "Germany",
+    "lat": 48.14218,
+    "lng": 11.57014,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Rote Sonne",
+    "trending": false,
+    "lineup": [
+      "Crystal Crimez",
+      "DJ Yugo",
+      "Energy Tape",
+      "Liroy"
+    ],
+    "desc": "La serie Slippy prend la nuit du samedi a la Rote Sonne avec Crystal Crimez, DJ Yugo, Energy Tape et Liroy. Le club munichois programme depuis 2003 dans une salle sans fenetres sous la Maximiliansplatz.",
+    "descEn": "The Slippy series takes the Saturday night at Rote Sonne with Crystal Crimez, DJ Yugo, Energy Tape and Liroy. The Munich club has been programming since 2003 in a windowless room under Maximiliansplatz.",
+    "sources": [
+      "https://www.rote-sonne.com/club/"
+    ],
+    "note": "Rote Sonne, Maximiliansplatz 5, 80333 Muenchen. Tarif non communique sur la page du club."
+  },
+  {
+    "title": "Mathias Kaden au Hive",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.38538,
+    "lng": 8.52049,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "Hive",
+    "trending": false,
+    "lineup": [
+      "Mathias Kaden",
+      "De La Maso",
+      "Yeni:sam",
+      "Ancient Astronaut X",
+      "Double Nine",
+      "Laume",
+      "Talkback Heads"
+    ],
+    "desc": "Mathias Kaden, actif depuis le milieu des annees 1990 et lie au Hive depuis ses debuts, revient jouer dans la Disco du club de la Geroldstrasse. De La Maso et Yeni:sam completent ce floor, la Tanzi est confiee au collectif Rave-O-lution avec Ancient Astronaut X en live, Double Nine, Laume et Talkback Heads.",
+    "descEn": "Mathias Kaden, active since the mid nineties and connected to Hive since its early days, returns to play the club's Disco room on Geroldstrasse. De La Maso and Yeni:sam complete that floor, while the Tanzi goes to the Rave-O-lution crew with Ancient Astronaut X live, Double Nine, Laume and Talkback Heads.",
+    "sources": [
+      "https://www.hiveclub.ch/events/mathias-kaden/",
+      "https://www.hiveclub.ch/programm"
+    ],
+    "note": "Hive, Katakombe GmbH, Geroldstrasse 5, 8005 Zuerich. Coordonnees Nominatim sur cette adresse. Tarif non communique sur la page de l'evenement. Le club ouvre a 23h le samedi et ferme a 9h."
+  },
+  {
+    "title": "Mad Katz x Tresor au Hive",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.38538,
+    "lng": 8.52049,
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "Hive",
+    "trending": false,
+    "lineup": [],
+    "desc": "La serie zurichoise Mad Katz s'associe au Tresor de Berlin pour une nuit au Hive. Le club de la Geroldstrasse ouvre a 23h le vendredi et ferme a 7h. Le line-up n'est pas encore publie sur la page de l'evenement.",
+    "descEn": "Zurich series Mad Katz teams up with Berlin's Tresor for a night at Hive. The Geroldstrasse club opens at 11pm on Fridays and closes at 7am. The lineup has not been published on the event page yet.",
+    "sources": [
+      "https://www.hiveclub.ch/events/mad-katz-7/",
+      "https://www.hiveclub.ch/programm"
+    ],
+    "note": "Hive, Geroldstrasse 5, 8005 Zuerich. Line-up et tarif non communiques sur la page de l'evenement."
+  },
+  {
+    "title": "Back2Back - Mirko Loko au D! Club",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.52099,
+    "lng": 6.63153,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "D! Club",
+    "trending": false,
+    "lineup": [
+      "Mirko Loko",
+      "Dj Reas"
+    ],
+    "desc": "Le Lausannois Mirko Loko, habitue de Cadenza et de Perlon, joue en back to back avec Dj Reas au D! Club. Soiree reservee aux vingt-cinq ans et plus, portes a 23h.",
+    "descEn": "Lausanne's own Mirko Loko, a regular on Cadenza and Perlon, plays back to back with Dj Reas at D! Club. The night is 25 and over, doors at 11pm.",
+    "sources": [
+      "https://www.dclub.ch/agenda/"
+    ],
+    "note": "D! Club, Place des Pionnieres 1, 1003 Lausanne. Coordonnees Nominatim sur cette adresse. Tarif non communique sur l'agenda."
+  },
+  {
+    "title": "Space Odyssey - Worakls & Rodriguez Jr",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.52099,
+    "lng": 6.63153,
+    "date": "2026-10-02",
+    "time": "22:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "D! Club",
+    "trending": false,
+    "lineup": [
+      "Worakls",
+      "Rodriguez Jr",
+      "Birrd",
+      "Djerry C"
+    ],
+    "desc": "La soiree Space Odyssey reunit deux figures de la techno melodique francaise, Worakls et Rodriguez Jr en live. Birrd et Djerry C completent le plateau. Ouverture des portes a 22h, entree des dix-huit ans.",
+    "descEn": "The Space Odyssey night brings together two names of French melodic techno, Worakls and Rodriguez Jr live. Birrd and Djerry C complete the bill. Doors at 10pm, 18 and over.",
+    "sources": [
+      "https://www.dclub.ch/agenda/"
+    ],
+    "note": "D! Club, Place des Pionnieres 1, 1003 Lausanne. Tarif non communique sur l'agenda, prelocation annoncee."
+  },
+  {
+    "title": "Subset - Delta Heavy",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.52099,
+    "lng": 6.63153,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "D! Club",
+    "trending": false,
+    "lineup": [
+      "Delta Heavy",
+      "Subsonic",
+      "Tantrum Desire",
+      "Koma Dub",
+      "Sili"
+    ],
+    "desc": "La serie drum and bass Subset invite le duo britannique Delta Heavy au D! Club. Subsonic, Tantrum Desire, Koma Dub et Sili completent la nuit. Portes a 23h.",
+    "descEn": "The Subset drum and bass series books British duo Delta Heavy at D! Club. Subsonic, Tantrum Desire, Koma Dub and Sili complete the night. Doors at 11pm.",
+    "sources": [
+      "https://www.dclub.ch/agenda/"
+    ],
+    "note": "D! Club, Place des Pionnieres 1, 1003 Lausanne. Tarif non communique sur l'agenda."
+  },
+  {
+    "title": "The Gard!en - 30 ans du D! Club",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "lat": 46.52099,
+    "lng": 6.63153,
+    "date": "2026-10-18",
+    "time": "17:00",
+    "price": 0,
+    "currency": "CHF",
+    "venue": "D! Club",
+    "trending": false,
+    "lineup": [
+      "Holy Priest",
+      "Kistenbrügger",
+      "Nhū",
+      "Rōse"
+    ],
+    "desc": "Le D! Club fete ses trente ans avec une journee The Gard!en qui demarre a 17h. Holy Priest et Kistenbrugger sont annonces, avec les Suisses Nhu et Rose. Entree des dix-huit ans.",
+    "descEn": "D! Club marks its thirtieth birthday with a The Gard!en daytime event starting at 5pm. Holy Priest and Kistenbruegger are announced, alongside Swiss DJs Nhu and Rose. 18 and over.",
+    "sources": [
+      "https://www.dclub.ch/agenda/"
+    ],
+    "note": "D! Club, Place des Pionnieres 1, 1003 Lausanne. Dimanche 18 octobre 2026 confirme par l'agenda (jour de semaine verifie). Tarif non communique."
+  },
+  {
+    "title": "Contrast pres. Critical à la Grelle Forelle",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "date": "2026-09-19",
+    "time": "23:00",
+    "price": 28,
+    "currency": "EUR",
+    "venue": "Grelle Forelle",
+    "trending": false,
+    "lineup": [
+      "Calyx",
+      "Kasra",
+      "QZB",
+      "Sequent",
+      "SMG",
+      "No Cure",
+      "Redex",
+      "Jalen Mess"
+    ],
+    "desc": "La soiree Contrast invite le label londonien Critical Music au grand complet sur le Mainfloor de la Grelle Forelle: Calyx, Kasra, QZB, Sequent et SMG, avec No Cure et Redex en soutien. Le floor Kitchen, tenu par Jalen Mess, part sur de la house, de la trance et du bounce. Portes a 23h, entree des dix-huit ans.",
+    "descEn": "The Contrast night brings the London label Critical Music in force to the Grelle Forelle Mainfloor: Calyx, Kasra, QZB, Sequent and SMG, with No Cure and Redex in support. The Kitchen floor, hosted by Jalen Mess, runs house, trance and bounce. Doors at 11pm, 18 and over.",
+    "sources": [
+      "https://www.grelleforelle.com/project/1909-contrast-pres-critical-w-calyx-kasra-qzb-sequent-smg-18/",
+      "https://www.grelleforelle.com/programm/"
+    ],
+    "note": "Grelle Forelle, Spittelauer Laende 12, 1090 Wien. Prix annonce sur la page de l'evenement: 28 EUR pour la nuit."
+  },
+  {
+    "title": "The FAGtory Club à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-11-28",
+    "time": "23:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [],
+    "desc": "The FAGtory, soiree queer de Graz, occupe les trois etages et le cafe de la Postgarage. Le line-up n'est pas encore publie. Vingt euros sur place, des billets early bird et en prevente sont vendus a l'avance.",
+    "descEn": "The FAGtory, a queer night in Graz, takes over the three floors and the cafe of Postgarage. The lineup has not been published yet. Twenty euros on the door, with early bird and presale tickets sold in advance.",
+    "sources": [
+      "https://www.postgarage.at/program/the-fagtory-club_2026-11-28/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Prix retenu: 20 EUR, tarif caisse du soir annonce sur la fiche; le montant des paliers early bird et prevente n'est pas publie, donc le tarif d'entree reel peut etre inferieur."
+  },
+  {
+    "title": "Feuer & Peitsche à la Postgarage",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Drum & Bass"
+    ],
+    "city": "Graz",
+    "country": "Austria",
+    "lat": 47.06611,
+    "lng": 15.4283,
+    "date": "2026-12-04",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Postgarage",
+    "trending": false,
+    "lineup": [],
+    "desc": "Feuer & Peitsche revient sur les trois etages de la Postgarage, avec de la techno et du drum and bass. Portes a 23h. Le line-up et le tarif ne sont pas encore publies.",
+    "descEn": "Feuer & Peitsche returns across the three floors of Postgarage, with techno and drum and bass. Doors at 11pm. The lineup and the ticket price have not been published yet.",
+    "sources": [
+      "https://www.postgarage.at/program/feuer-peitsche_2026-12-04/"
+    ],
+    "note": "Postgarage, Dreihackengasse 42, 8020 Graz. Line-up et tarif annonces TBA sur la fiche, prix non communique."
   }
 ]

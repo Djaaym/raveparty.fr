@@ -1,0 +1,750 @@
+[
+  {
+    "title": "CODE 177 con Marlon Hoffstadt",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-09-12",
+    "time": "18:00",
+    "price": 40,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Marlon Hoffstadt",
+      "Anetha",
+      "Noise Mafia",
+      "Peterblue",
+      "Serafina",
+      "Cesar Almena",
+      "Nuke",
+      "Hitmilow",
+      "Lee Ann Roberts",
+      "Selecta",
+      "Trancemaster Krause",
+      "Xavistyle",
+      "Zapravka",
+      "Arcex",
+      "Torrico"
+    ],
+    "desc": "CODE ouvre sa saison à Fabrik, la salle de 4 000 places installée dans une friche industrielle au sud de Madrid. Marlon Hoffstadt revient sur la marque techno historique du club, entouré d'Anetha et de quinze DJs répartis sur les différentes zones du site. Les portes ouvrent à 18 h et la soirée court jusqu'au petit matin.",
+    "descEn": "CODE opens its season at Fabrik, the 4,000-capacity venue built inside an industrial estate south of Madrid. Marlon Hoffstadt returns to the club's flagship techno brand alongside Anetha and fifteen DJs spread across the site's areas. Doors open at 6pm and the night runs until dawn.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/640222",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/640222"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid, Espagne. Coordonnées: node OSM 'Fabrik Madrid' via Nominatim (40.2653008, -3.8405653). Prix = tramo le plus bas encore en vente (40 EUR, 'Noveno tramo'), les paliers antérieurs sont épuisés. Fabrik est à Humanes de Madrid, pas dans Madrid intra-muros."
+  },
+  {
+    "title": "Opening de 150 con Hardwell",
+    "type": "Club",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-09-19",
+    "time": "18:00",
+    "price": 33,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Hardwell",
+      "Angerfist",
+      "Mad Dog",
+      "Bassbrain",
+      "Mark With A K",
+      "MC Chucky",
+      "Mike Williams",
+      "Pat B",
+      "Ran-D",
+      "Reborn",
+      "Rooler",
+      "Sound Rush",
+      "Vini Vici",
+      "Yeyo",
+      "Andy The Core"
+    ],
+    "desc": "150 est la marque hard de Fabrik: hardstyle, hardcore et raw sur les cinq zones du site. L'ouverture de saison est confiée à Hardwell, absent du club depuis huit ans, avec Angerfist, Ran-D et Vini Vici sur l'affiche. Vingt-trois artistes sont annoncés au total.",
+    "descEn": "150 is Fabrik's hard brand: hardstyle, hardcore and raw across the site's five areas. The season opener is headlined by Hardwell, back at the club after eight years, with Angerfist, Ran-D and Vini Vici also billed. Twenty-three artists are announced in all.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/590384",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/590384"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim (node 'Fabrik Madrid'). Prix = 33 EUR, 'Sexto tramo', palier le plus bas encore vendu."
+  },
+  {
+    "title": "Fatboy Slim en LOOP",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-10-10",
+    "time": "20:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Fatboy Slim",
+      "Chloé Caillet",
+      "Layo & Bushwacka!",
+      "Patrick Topping",
+      "Alex Clap",
+      "Raul Ortiz",
+      "Hector Couto",
+      "Rafa Barrios",
+      "Alexander Som",
+      "Carlos Chaparro",
+      "Javi Reina",
+      "Ramsés Ramírez"
+    ],
+    "desc": "LOOP est la soirée house de Fabrik. Fatboy Slim y joue en tête d'affiche, avec Patrick Topping, Chloé Caillet et le duo Layo & Bushwacka!. La programmation locale madrilène occupe les zones annexes du site.",
+    "descEn": "LOOP is Fabrik's house night. Fatboy Slim headlines, with Patrick Topping, Chloé Caillet and the Layo & Bushwacka! duo also billed. Madrid's local roster fills the site's side areas.",
+    "ticketUrl": "https://ticketclub.es/es/plans/fatboy-slim-en-loop-664034",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://ticketclub.es/es/plans/fatboy-slim-en-loop-664034"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 20 EUR ('Tercer Tramo Early Ticket', derniers 50 billets), palier suivant à 28 EUR."
+  },
+  {
+    "title": "CODE 23 Aniversario - La trilogía, primera parte",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-10-11",
+    "time": "18:00",
+    "price": 45,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Klangkuenstler",
+      "Anné",
+      "Arnaud Le Texier",
+      "Cera Khin",
+      "Chris Liebing",
+      "Clara Cuvé",
+      "Daria Kolosova",
+      "Estella Boersma",
+      "FJAAK",
+      "Ignez",
+      "Kenny Larkin",
+      "Kevin Saunderson",
+      "Mac Declos",
+      "Obscure Shape",
+      "Octave One",
+      "Phase Fatale",
+      "SPFDJ",
+      "Valentino Kanzyani",
+      "Xpansul"
+    ],
+    "desc": "CODE fête ses 23 ans en trois dates. La première réunit vingt-huit noms, des pionniers de Detroit Kevin Saunderson et Octave One aux figures actuelles de la techno européenne comme Chris Liebing, Phase Fatale et SPFDJ. Un billet matinal séparé donne accès à la seule after.",
+    "descEn": "CODE marks its 23rd anniversary across three dates. The first gathers twenty-eight names, from Detroit pioneers Kevin Saunderson and Octave One to current European techno figures such as Chris Liebing, Phase Fatale and SPFDJ. A separate morning ticket covers the after-hours slot only.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/1a-parte-code-23-aniversario-la-trilogia-640226",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/1a-parte-code-23-aniversario-la-trilogia-640226"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 45 EUR, entrée générale 'Séptimo tramo'. Le tarif à 20 EUR est l'entrée matinale (after seule), pas l'entrée de la soirée."
+  },
+  {
+    "title": "La Resistencia - Lethal Industry",
+    "type": "Club",
+    "genres": [
+      "Hardstyle",
+      "Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-10-17",
+    "time": "18:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Raul Ortiz",
+      "Pastis & Buenri",
+      "DJ Marta",
+      "Miguel Serna",
+      "DJ Chumi",
+      "Javi Molina",
+      "Rafa XL",
+      "Cristian Varela",
+      "Brenda Serna",
+      "Imhappy",
+      "Gaston Zani",
+      "Alvaro Eclipse",
+      "Pablo Mendez",
+      "Cascada"
+    ],
+    "desc": "La Resistencia revient deux fois par an à Fabrik et rejoue le répertoire de la scène makina et remember espagnole des années 1990 et 2000. Pastis & Buenri, DJ Marta et Cristian Varela figurent au line-up, avec un set live de Cascada. La salle occupe une friche industrielle au sud de Madrid.",
+    "descEn": "La Resistencia returns to Fabrik twice a year, replaying the repertoire of Spain's 1990s and 2000s makina and remember scene. Pastis & Buenri, DJ Marta and Cristian Varela are billed, with a live Cascada set. The venue occupies an industrial estate south of Madrid.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/640224",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/640224"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 30 EUR, 'Cuarto tramo'."
+  },
+  {
+    "title": "Hallowfest en Fabrik",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House",
+      "Hard Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-10-31",
+    "time": "17:00",
+    "price": 40,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "Charlotte de Witte",
+      "Cesar Almena",
+      "Nastia",
+      "Nuke",
+      "Svetec",
+      "Darius Syrossian",
+      "Detlef",
+      "Joey Daniel",
+      "Seb Zito",
+      "Javi Reina",
+      "Michael Rod",
+      "Inox Traxx",
+      "Supergloss",
+      "Triptykh"
+    ],
+    "desc": "Pour Halloween, Fabrik réunit pour la première fois ses cinq marques (CODE, LOOP, 150, Shark et La Resistencia) sur une seule nuit. Charlotte de Witte est en tête d'affiche techno, Darius Syrossian et Detlef tiennent la zone house. Les portes ouvrent à 17 h.",
+    "descEn": "For Halloween, Fabrik brings its five brands (CODE, LOOP, 150, Shark and La Resistencia) together on one night for the first time. Charlotte de Witte headlines the techno side, with Darius Syrossian and Detlef on the house floor. Doors at 5pm.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/hallowfest-2026-en-fabrik-664041",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/hallowfest-2026-en-fabrik-664041"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 40 EUR ('Sexto tramo'), entrée générale ; le billet à 20 EUR est l'entrée matinale seule."
+  },
+  {
+    "title": "Makineros XXL Winter Edition",
+    "type": "Club",
+    "genres": [
+      "Hardstyle",
+      "Hardcore"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-11-28",
+    "time": "18:00",
+    "price": 28,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [
+      "DJ Marta",
+      "Jumper Brothers",
+      "Javi Boss",
+      "Skudero",
+      "Metralla",
+      "Day-Mar",
+      "Da Terror",
+      "G-Town Madness",
+      "DJ Neil",
+      "Dany BPM",
+      "Marian Dacal",
+      "Netherworld",
+      "Papero",
+      "Christian Millan"
+    ],
+    "desc": "Makineros XXL passe à deux éditions par an et pose sa version hivernale à Fabrik. Le plateau mélange makina espagnole, hardcore néerlandais et remember, avec Javi Boss, Skudero & Metralla et Day-Mar. Vingt-sept DJs sont annoncés.",
+    "descEn": "Makineros XXL moves to two editions a year and brings its winter version to Fabrik. The bill mixes Spanish makina, Dutch hardcore and remember, with Javi Boss, Skudero & Metralla and Day-Mar. Twenty-seven DJs are announced.",
+    "ticketUrl": "https://ticketclub.es/es/plans/makineros-xxl-2026-winter-edition-en-fabrik-664042",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://ticketclub.es/es/plans/makineros-xxl-2026-winter-edition-en-fabrik-664042"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 28 EUR, 'Segundo tramo'."
+  },
+  {
+    "title": "Masters Of Hardcore en Fabrik",
+    "type": "Club",
+    "genres": [
+      "Hardcore",
+      "Hardstyle"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2026-12-19",
+    "time": "18:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [],
+    "desc": "L'escale madrilène de Masters Of Hardcore, la marque néerlandaise fondée en 1995, revient à Fabrik pour sa date annuelle de décembre. Le format occupe les grandes zones du site avec un mur de son dédié au hardcore et à l'uptempo. La programmation détaillée n'est pas encore publiée.",
+    "descEn": "The Madrid stop of Masters Of Hardcore, the Dutch brand founded in 1995, returns to Fabrik for its annual December date. The format takes over the site's main areas with a sound system dedicated to hardcore and uptempo. The full line-up has not been published yet.",
+    "ticketUrl": "https://www.ticketclub.es/es/plans/590386",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://www.ticketclub.es/es/plans/590386"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 30 EUR, 'Tercer tramo'. Line-up non annoncé à la date de la recherche."
+  },
+  {
+    "title": "LOOP NYD Festival",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Humanes de Madrid",
+    "country": "Spain",
+    "lat": 40.2653,
+    "lng": -3.84057,
+    "date": "2027-01-01",
+    "time": "17:00",
+    "price": 30,
+    "currency": "EUR",
+    "venue": "Fabrik",
+    "trending": false,
+    "lineup": [],
+    "desc": "LOOP tient sa date du Nouvel An à Fabrik, l'un des plus gros rendez-vous de la saison du club. Le format démarre à 17 h le 1er janvier et occupe les cinq zones du site. Le line-up n'est pas encore publié.",
+    "descEn": "LOOP holds its New Year's Day date at Fabrik, one of the club's biggest fixtures of the season. The format starts at 5pm on 1 January and takes over the site's five areas. The line-up has not been published yet.",
+    "ticketUrl": "https://ticketclub.es/es/plans/loop-nyd-festival-2027-664036",
+    "sources": [
+      "https://fabrikmadrid.com/api/fabrik/events/index.php",
+      "https://ticketclub.es/es/plans/loop-nyd-festival-2027-664036"
+    ],
+    "note": "Fabrik, Avenida de la Industria 82, 28970 Humanes de Madrid. Coordonnées Nominatim. Prix = 30 EUR, 'Segundo tramo'. Line-up non annoncé."
+  },
+  {
+    "title": "Nitsa: Dax J",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-09-18",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Sala Apolo",
+    "trending": false,
+    "lineup": [
+      "Dax J",
+      "Wallis",
+      "DJ Fra",
+      "NiZ"
+    ],
+    "desc": "Nitsa occupe la grande salle d'Apolo tous les vendredis et samedis depuis 1996. Dax J y joue une nuit techno, avec un live de Wallis et le résident historique DJ Fra. Les portes ouvrent à 00h30 et la soirée se termine à 6 h.",
+    "descEn": "Nitsa has held Apolo's main room every Friday and Saturday since 1996. Dax J plays a techno night here, with a Wallis live set and long-standing resident DJ Fra. Doors at 00:30, closing at 6am.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/nitsa-daxj-wallis-djfra-niz-20260918-7540",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/nitsa-daxj-wallis-djfra-niz-20260918-7540",
+      "https://www.sala-apolo.com/es/clubs/nitsa"
+    ],
+    "note": "Sala Apolo, Carrer Nou de la Rambla 113, 08004 Barcelona (JSON-LD de la fiche). Coordonnées: node OSM 'Sala Apolo' via Nominatim (41.3743908, 2.1695606). Prix = 22 EUR, 1er palier ; 25 EUR au 2e, 28 EUR en caisse."
+  },
+  {
+    "title": "Nitsa: Braxe & Falcon",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-09-19",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Sala Apolo",
+    "trending": false,
+    "lineup": [
+      "Braxe & Falcon",
+      "LB aka LABAT",
+      "Arnau Obiols"
+    ],
+    "desc": "Le duo français Braxe & Falcon, formé par Alan Braxe et DJ Falcon, joue chez Nitsa dans la grande salle d'Apolo. La programmation locale est assurée par LB aka LABAT et Arnau Obiols. Nuit house et french touch de 00h30 à 6 h.",
+    "descEn": "French duo Braxe & Falcon, made up of Alan Braxe and DJ Falcon, play Nitsa in Apolo's main room. Local support comes from LB aka LABAT and Arnau Obiols. A house and French touch night from 00:30 to 6am.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/nitsa-braxe-falcon-labat-arnau-obiols-20260919-7541",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/nitsa-braxe-falcon-labat-arnau-obiols-20260919-7541"
+    ],
+    "note": "Sala Apolo, Carrer Nou de la Rambla 113, 08004 Barcelona. Coordonnées Nominatim (node 'Sala Apolo'). Prix = 22 EUR, 1er palier."
+  },
+  {
+    "title": "Nitsa: Modeselektor",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "EDM"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-09-26",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Sala Apolo",
+    "trending": false,
+    "lineup": [
+      "Modeselektor"
+    ],
+    "desc": "Le duo berlinois Modeselektor, moitié de Moderat et fondateur des labels BPitch et Monkeytown, vient en DJ set chez Nitsa. La soirée se tient dans la grande salle d'Apolo, ancien théâtre du Paral·lel ouvert en 1943. Ouverture des portes à 00h30.",
+    "descEn": "Berlin duo Modeselektor, half of Moderat and founders of the BPitch and Monkeytown labels, play a DJ set at Nitsa. The night takes place in Apolo's main room, a former Paral·lel theatre opened in 1943. Doors at 00:30.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/nitsa-modeseleketor-20260926-7543",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/nitsa-modeseleketor-20260926-7543"
+    ],
+    "note": "Sala Apolo, Carrer Nou de la Rambla 113, 08004 Barcelona (JSON-LD). Coordonnées Nominatim. Prix = 22 EUR, 1er palier ; 28 EUR en caisse."
+  },
+  {
+    "title": "Nitsa: Anetha",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-10-03",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "Sala Apolo",
+    "trending": false,
+    "lineup": [
+      "Anetha"
+    ],
+    "desc": "Anetha, fondatrice du label Mama Told Ya, tient la grande salle d'Apolo pour une nuit Nitsa. Le club programme de la techno et de la house les vendredis et samedis depuis trente ans. Fin de soirée à 6 h.",
+    "descEn": "Anetha, founder of the Mama Told Ya label, takes Apolo's main room for a Nitsa night. The club has programmed techno and house on Fridays and Saturdays for thirty years. The night ends at 6am.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/nitsa-anetha-20261003-7565",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/nitsa-anetha-20261003-7565"
+    ],
+    "note": "Sala Apolo, Carrer Nou de la Rambla 113, 08004 Barcelona. Coordonnées Nominatim. Prix = 22 EUR, 1er palier."
+  },
+  {
+    "title": "Astin: Ivan Smagghe",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-09-18",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "La [2] de Apolo",
+    "trending": false,
+    "lineup": [
+      "Ivan Smagghe",
+      "Z@p",
+      "Anah"
+    ],
+    "desc": "Astin est la soirée de La [2], la petite salle d'Apolo, et la face B de Nitsa. Ivan Smagghe, ancien moitié de Black Strobe et de Kill The DJ, y joue avec Z@p et Anah. Capacité réduite et programmation plus électro que la grande salle.",
+    "descEn": "Astin is the party in La [2], Apolo's smaller room, and the B-side of Nitsa. Ivan Smagghe, formerly of Black Strobe and Kill The DJ, plays with Z@p and Anah. Smaller capacity and a more electro-leaning bill than the main room.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/astin-ivan-smagghe-zap-anah-20260918-7560",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/astin-ivan-smagghe-zap-anah-20260918-7560"
+    ],
+    "note": "La [2] de Apolo, Carrer Nou de la Rambla 111-113, 08004 Barcelona (même bâtiment que Sala Apolo). Coordonnées Nominatim du bâtiment Apolo. Prix = 22 EUR, 1er palier."
+  },
+  {
+    "title": "Astin: Stef Mendesidis",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.37439,
+    "lng": 2.16956,
+    "date": "2026-09-25",
+    "time": "23:59",
+    "price": 22,
+    "currency": "EUR",
+    "venue": "La [2] de Apolo",
+    "trending": false,
+    "lineup": [
+      "Stef Mendesidis",
+      "Altinbas",
+      "Laia"
+    ],
+    "desc": "Stef Mendesidis présente son live dans La [2] de Apolo pour une nuit Astin. Le producteur grec installé à Berlin joue une techno rapide et modulaire. Altinbas et Laia complètent l'affiche.",
+    "descEn": "Stef Mendesidis brings his live show to La [2] de Apolo for an Astin night. The Berlin-based Greek producer plays fast, modular techno. Altinbas and Laia complete the bill.",
+    "ticketUrl": "https://www.sala-apolo.com/es/evento/astin-stef-mendesidis-altinbas-laia-20260925-7563",
+    "sources": [
+      "https://www.sala-apolo.com/es/evento/astin-stef-mendesidis-altinbas-laia-20260925-7563"
+    ],
+    "note": "La [2] de Apolo, Carrer Nou de la Rambla 111-113, 08004 Barcelona. Coordonnées Nominatim. Prix = 22 EUR, 1er palier."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "venue": "Sala But",
+    "time": "23:59",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Disko: Carl Craig",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-10",
+    "price": 23,
+    "lineup": [
+      "Carl Craig",
+      "DJ Swisherman",
+      "Emi Koto",
+      "Maruwa"
+    ],
+    "desc": "Mondo Disko programme de la techno à la Sala But, dans le quartier de Chueca, depuis 1999. Carl Craig, figure de la deuxième vague de Detroit et fondateur de Planet E, y joue jusqu'à 6 h. Maruwa et les résidents du club complètent la nuit.",
+    "descEn": "Mondo Disko has programmed techno at Sala But, in the Chueca district, since 1999. Carl Craig, a second-wave Detroit figure and Planet E founder, plays until 6am. Maruwa and the club's residents complete the night.",
+    "ticketUrl": "https://mondodisko.es/eventos/1166",
+    "sources": [
+      "https://mondodisko.es/eventos/1166",
+      "https://mondodisko.es/"
+    ],
+    "note": "Sala But, Calle de Barceló 11, 28004 Madrid. Coordonnées: node OSM 'Sala But' via Nominatim (40.4269857, -3.6995918). Prix = entrée la moins chère vendue sur la billetterie du club (1 consommation incluse)."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "venue": "Sala But",
+    "time": "23:59",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Disko: Alignment",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-10-08",
+    "price": 23,
+    "lineup": [
+      "Alignment",
+      "Barbara Lago",
+      "Pavvvvvvlo"
+    ],
+    "desc": "Alignment, producteur associé à la techno mélodique et rapide, prend la cabine de la Sala But pour une nuit Mondo Disko. Barbara Lago et Pavvvvvvlo ouvrent. Le club ferme à 5h30.",
+    "descEn": "Alignment, a producer associated with fast, melodic techno, takes the Sala But booth for a Mondo Disko night. Barbara Lago and Pavvvvvvlo open. The club closes at 5:30am.",
+    "ticketUrl": "https://mondodisko.es/eventos/1175",
+    "sources": [
+      "https://mondodisko.es/eventos/1175"
+    ],
+    "note": "Sala But, Calle de Barceló 11, 28004 Madrid. Coordonnées: node OSM 'Sala But' via Nominatim (40.4269857, -3.6995918). Prix = entrée la moins chère vendue sur la billetterie du club (1 consommation incluse)."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "venue": "Sala But",
+    "time": "23:59",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Disko: Pablo Bozzi",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-24",
+    "price": 23,
+    "lineup": [
+      "Pablo Bozzi",
+      "Gerardo Niva"
+    ],
+    "desc": "Pablo Bozzi, moitié du duo Cassie Raptor et producteur d'italo-EBM, joue à la Sala But avec le résident Gerardo Niva. Mondo Disko occupe la salle les jeudis et samedis. Fin à 6 h.",
+    "descEn": "Pablo Bozzi, half of the Cassie Raptor duo and an italo-EBM producer, plays Sala But with resident Gerardo Niva. Mondo Disko runs the room on Thursdays and Saturdays. Closing at 6am.",
+    "ticketUrl": "https://mondodisko.es/eventos/1179",
+    "sources": [
+      "https://mondodisko.es/eventos/1179"
+    ],
+    "note": "Sala But, Calle de Barceló 11, 28004 Madrid. Coordonnées: node OSM 'Sala But' via Nominatim (40.4269857, -3.6995918). Prix = entrée la moins chère vendue sur la billetterie du club (1 consommation incluse)."
+  },
+  {
+    "city": "Madrid",
+    "country": "Spain",
+    "lat": 40.42699,
+    "lng": -3.69959,
+    "venue": "Sala But",
+    "time": "23:59",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Disko: DJ Fuckoff",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-10-01",
+    "price": 20,
+    "lineup": [
+      "DJ Fuckoff",
+      "Gerardo Niva",
+      "doccudder"
+    ],
+    "desc": "DJ Fuckoff ouvre le mois d'octobre de Mondo Disko à la Sala But. La soirée du jeudi est le format court du club, de minuit à 5h30. Les résidents Gerardo Niva et doccudder encadrent le set.",
+    "descEn": "DJ Fuckoff opens Mondo Disko's October at Sala But. The Thursday night is the club's short format, from midnight to 5:30am. Residents Gerardo Niva and doccudder bookend the set.",
+    "ticketUrl": "https://mondodisko.es/eventos/1174",
+    "sources": [
+      "https://mondodisko.es/eventos/1174"
+    ],
+    "note": "Sala But, Calle de Barceló 11, 28004 Madrid. Coordonnées: node OSM 'Sala But' via Nominatim (40.4269857, -3.6995918). Prix = entrée la moins chère vendue sur la billetterie du club (1 consommation incluse)."
+  },
+  {
+    "city": "Alcorcón",
+    "country": "Spain",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "venue": "Terraza Jowke",
+    "time": "15:00",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Open Air: Patrick Mason",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "date": "2026-09-19",
+    "price": 32,
+    "lineup": [
+      "Patrick Mason",
+      "Pegassi",
+      "Gerardo Niva",
+      "Emilija",
+      "NewTone"
+    ],
+    "desc": "Mondo Open Air est la déclinaison de jour de Mondo Disko, sur la terrasse Jowke à Alcorcón, en périphérie sud-ouest de Madrid. Patrick Mason y joue de 15 h à 23 h, avant une after à la Sala But. Une navette relie Atocha au site.",
+    "descEn": "Mondo Open Air is Mondo Disko's daytime series, held on the Jowke terrace in Alcorcón, on Madrid's south-western edge. Patrick Mason plays from 3pm to 11pm, ahead of an after-party at Sala But. A shuttle links Atocha to the site.",
+    "ticketUrl": "https://mondodisko.es/eventos/1134",
+    "sources": [
+      "https://mondodisko.es/eventos/1134"
+    ],
+    "note": "Terraza Jowke, Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón (Communauté de Madrid). Coordonnées: node OSM 'Jowke' via Nominatim (40.3580593, -3.8354568). La salle est à Alcorcón, pas dans Madrid intra-muros. Prix = entrée la moins chère vendue sur la billetterie du club."
+  },
+  {
+    "city": "Alcorcón",
+    "country": "Spain",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "venue": "Terraza Jowke",
+    "time": "15:00",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Open Air: Funk Tribu",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "date": "2026-09-26",
+    "price": 40,
+    "lineup": [
+      "Funk Tribu",
+      "DJ Cringey",
+      "Gerardo Niva",
+      "Kara Okay",
+      "Freddi"
+    ],
+    "desc": "Funk Tribu, producteur argentin identifié à la hard techno, tient la neuvième édition de Mondo Open Air sur la terrasse Jowke. Le format court de 15 h à 23 h, en plein air, à Alcorcón. Une after suit à la Sala But.",
+    "descEn": "Funk Tribu, the Argentinian producer identified with hard techno, headlines the ninth Mondo Open Air on the Jowke terrace. The format runs outdoors from 3pm to 11pm in Alcorcón. An after-party follows at Sala But.",
+    "ticketUrl": "https://mondodisko.es/eventos/1136",
+    "sources": [
+      "https://mondodisko.es/eventos/1136"
+    ],
+    "note": "Terraza Jowke, Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón (Communauté de Madrid). Coordonnées: node OSM 'Jowke' via Nominatim (40.3580593, -3.8354568). La salle est à Alcorcón, pas dans Madrid intra-muros. Prix = entrée la moins chère vendue sur la billetterie du club."
+  },
+  {
+    "city": "Alcorcón",
+    "country": "Spain",
+    "lat": 40.35806,
+    "lng": -3.83546,
+    "venue": "Terraza Jowke",
+    "time": "15:00",
+    "currency": "EUR",
+    "type": "Club",
+    "trending": false,
+    "title": "Mondo Krystal Halloween",
+    "genres": [
+      "Techno",
+      "Acid Techno"
+    ],
+    "date": "2026-10-31",
+    "price": 32,
+    "lineup": [
+      "Jeff Mills",
+      "The Hacker",
+      "Ruiz OSC1",
+      "DJ Swisherman"
+    ],
+    "desc": "Mondo Krystal est le format événementiel de Mondo Disko. Pour Halloween, Jeff Mills et The Hacker jouent sur la terrasse Jowke à Alcorcón, de 15 h à 23 h. L'after se poursuit jusqu'à 8 h à la Sala But.",
+    "descEn": "Mondo Krystal is Mondo Disko's special-event format. For Halloween, Jeff Mills and The Hacker play the Jowke terrace in Alcorcón, from 3pm to 11pm. The after-party runs until 8am at Sala But.",
+    "ticketUrl": "https://mondodisko.es/eventos/1168",
+    "sources": [
+      "https://mondodisko.es/eventos/1168"
+    ],
+    "note": "Terraza Jowke, Avenida de San Martín de Valdeiglesias 22, 28922 Alcorcón (Communauté de Madrid). Coordonnées: node OSM 'Jowke' via Nominatim (40.3580593, -3.8354568). La salle est à Alcorcón, pas dans Madrid intra-muros. Prix = entrée la moins chère vendue sur la billetterie du club."
+  }
+]
