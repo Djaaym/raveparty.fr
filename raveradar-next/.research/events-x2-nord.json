@@ -564,5 +564,219 @@
       "https://pustervik.nu/kalender"
     ],
     "note": "Adresse : Pustervik, Jarntorgsgatan 12, 413 01 Goteborg, Suede. Coordonnees Nominatim sur le POI Pustervik. Tarif 325 SEK affiche au calendrier officiel."
+  },
+  {
+    "city": "Cork",
+    "country": "Ireland",
+    "lat": 51.8984,
+    "lng": -8.46986,
+    "venue": "Cyprus Avenue",
+    "currency": "EUR",
+    "trending": false,
+    "title": "Mark Blair au Cyprus Avenue",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-09-12",
+    "time": "23:00",
+    "price": 20,
+    "lineup": [
+      "Mark Blair"
+    ],
+    "desc": "Le Cyprus Avenue tient depuis 2007 la principale salle de concert et de club du centre de Cork, sur Caroline Street. Le DJ nord-irlandais Mark Blair y joue une nuit house et techno a partir de 23 h. Entree a 20 euros en prevente.",
+    "descEn": "Cyprus Avenue has run Cork city centre's main concert and club room on Caroline Street since 2007. Northern Irish DJ Mark Blair plays a house and techno night from 11pm. Tickets are 20 euros in advance.",
+    "sources": [
+      "https://www.cyprusavenue.ie/gigs",
+      "https://www.cyprusavenue.ie/"
+    ],
+    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de la page /map du site officiel. Tarif 20 EUR affiche a l'agenda officiel."
+  },
+  {
+    "city": "Cork",
+    "country": "Ireland",
+    "lat": 51.8984,
+    "lng": -8.46986,
+    "venue": "Cyprus Avenue",
+    "currency": "EUR",
+    "trending": false,
+    "title": "Twofaced au Cyprus Avenue",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 22.5,
+    "lineup": [
+      "Twofaced"
+    ],
+    "desc": "Twofaced, projet techno irlandais, prend la salle principale du Cyprus Avenue pour une nuit de club a partir de 23 h. Le lieu programme concerts en debut de soiree et club apres 23 h, deux billetteries distinctes. Entree a 22,50 euros.",
+    "descEn": "Twofaced, the Irish techno project, takes over the Cyprus Avenue main room for a club night from 11pm. The venue runs concerts early and club nights after 11pm as separate ticketed events. Entry is 22.50 euros.",
+    "sources": [
+      "https://www.cyprusavenue.ie/gigs"
+    ],
+    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 22,50 EUR affiche a l'agenda officiel."
+  },
+  {
+    "city": "Cork",
+    "country": "Ireland",
+    "lat": 51.8984,
+    "lng": -8.46986,
+    "venue": "Cyprus Avenue",
+    "currency": "EUR",
+    "trending": false,
+    "title": "Paul Oakenfold au Cyprus Avenue",
+    "type": "Club",
+    "genres": [
+      "Trance",
+      "House"
+    ],
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 30,
+    "lineup": [
+      "Paul Oakenfold"
+    ],
+    "desc": "Paul Oakenfold, l'un des noms qui ont porte la trance britannique depuis la fin des annees 1980, joue au Cyprus Avenue de Cork. La soiree demarre a 23 h dans la salle principale. Billet a 30 euros.",
+    "descEn": "Paul Oakenfold, one of the names that carried British trance from the late 1980s onward, plays Cyprus Avenue in Cork. The night starts at 11pm in the main room. Tickets are 30 euros.",
+    "sources": [
+      "https://www.cyprusavenue.ie/gigs"
+    ],
+    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 30 EUR affiche a l'agenda officiel."
+  },
+  {
+    "city": "Cork",
+    "country": "Ireland",
+    "lat": 51.8984,
+    "lng": -8.46986,
+    "venue": "Cyprus Avenue",
+    "currency": "EUR",
+    "trending": false,
+    "title": "Faithless DJ Set au Cyprus Avenue",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-12-12",
+    "time": "23:00",
+    "price": 35,
+    "lineup": [
+      "Faithless"
+    ],
+    "desc": "Faithless vient en DJ set au Cyprus Avenue, dans la salle principale, a partir de 23 h. Le groupe britannique, forme en 1995 autour de Rollo et Sister Bliss, tourne aujourd'hui sous ce format. Billet a 35 euros.",
+    "descEn": "Faithless bring a DJ set to the Cyprus Avenue main room from 11pm. The British group, formed in 1995 around Rollo and Sister Bliss, tours in this format today. Tickets are 35 euros.",
+    "sources": [
+      "https://www.cyprusavenue.ie/gigs"
+    ],
+    "note": "Adresse : Cyprus Avenue, Caroline Street, Cork T12 PY8A, Irlande. Coordonnees lues dans le script Google Maps de /map. Tarif 35 EUR affiche a l'agenda officiel."
+  },
+  {
+    "title": "Index: 999999999",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Acid Techno"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.34799,
+    "lng": -6.26185,
+    "date": "2026-09-18",
+    "time": "22:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Index",
+    "trending": false,
+    "lineup": [
+      "999999999"
+    ],
+    "desc": "Index occupe le sous-sol du 57 Middle Abbey Street et porte la programmation techno la plus suivie de Dublin. Le duo italien 999999999 y joue son live acid et hard techno, joue entierement sur machines. Ouverture a 22 h, fermeture a 3 h.",
+    "descEn": "Index sits in the basement of 57 Middle Abbey Street and runs Dublin's most closely followed techno programme. Italian duo 999999999 bring their fully hardware acid and hard techno live show. Doors at 10pm, closing at 3am.",
+    "sources": [
+      "https://www.indexdublin.com/events/"
+    ],
+    "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI 'Index Dublin' au 57 Middle Abbey Street. Tarif non communique : la billetterie passe par DICE, dont les pages sont inaccessibles depuis ce conteneur."
+  },
+  {
+    "title": "Index: Kepler",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.34799,
+    "lng": -6.26185,
+    "date": "2026-09-26",
+    "time": "22:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Index",
+    "trending": false,
+    "lineup": [
+      "Kepler"
+    ],
+    "desc": "Nuit longue a l'Index, de 22 h jusqu'au lendemain apres-midi, autour de Kepler. Le club de Middle Abbey Street programme regulierement ces formats etires que la scene dublinoise appelle des afters. L'age minimum est de 18 ans.",
+    "descEn": "A long night at Index, from 10pm through to the following afternoon, built around Kepler. The Middle Abbey Street club regularly runs these extended formats, known locally as afters. Minimum age is 18.",
+    "sources": [
+      "https://www.indexdublin.com/events/"
+    ],
+    "note": "Adresse : Index, 57 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI 'Index Dublin'. Horaire de fin annonce a 14 h 30 le lendemain sur l'agenda officiel. Tarif non communique : billetterie DICE inaccessible depuis ce conteneur."
+  },
+  {
+    "title": "Wigwam: 49th & Main",
+    "type": "Club",
+    "genres": [
+      "House"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.348,
+    "lng": -6.26215,
+    "date": "2026-10-10",
+    "time": "23:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Wigwam",
+    "trending": false,
+    "lineup": [
+      "49th & Main"
+    ],
+    "desc": "Wigwam occupe un ancien bar de Middle Abbey Street et programme ses nuits club dans son sous-sol. Le duo irlandais 49th & Main, connu pour une house melodique et chantee, y joue dans le cadre de la serie Wigwam Presents. La nuit court jusqu'a 3 h.",
+    "descEn": "Wigwam occupies a former bar on Middle Abbey Street and runs its club nights in the basement. Irish duo 49th & Main, known for melodic, vocal-led house, play as part of the Wigwam Presents series. The night runs until 3am.",
+    "sources": [
+      "https://www.wigwamdublin.com/wigwampresents"
+    ],
+    "note": "Adresse : Wigwam, 54 Middle Abbey Street, Dublin 1, D01 W573, Irlande. Coordonnees Nominatim sur le POI Wigwam. Tarif non communique : la billetterie passe par Resident Advisor, inaccessible depuis ce conteneur. Horaire 23 h repris du format habituel des nuits Wigwam Presents, non confirme pour cette date."
+  },
+  {
+    "title": "Forbidden Fruit",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Dublin",
+    "country": "Ireland",
+    "lat": 53.34216,
+    "lng": -6.2997,
+    "date": "2027-06-05",
+    "endDate": "2027-06-06",
+    "time": "14:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Royal Hospital Kilmainham",
+    "trending": false,
+    "lineup": [],
+    "desc": "Forbidden Fruit est le plus ancien festival en centre-ville de Dublin, installe dans les jardins du Royal Hospital Kilmainham qui abritent aussi le musee d'art moderne irlandais. Sa programmation fait une large place a la house et a la techno. L'edition 2027 est annoncee les 5 et 6 juin, la programmation n'est pas encore publiee.",
+    "descEn": "Forbidden Fruit is Dublin's longest-running city-centre festival, set in the grounds of the Royal Hospital Kilmainham, which also house the Irish Museum of Modern Art. Its programme leans heavily on house and techno. The 2027 edition is announced for 5 and 6 June, with the line-up not yet published.",
+    "ticketUrl": "https://www.skiddle.com/festivals/forbidden-fruit/",
+    "sources": [
+      "https://www.skiddle.com/festivals/forbidden-fruit/"
+    ],
+    "note": "Adresse : Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin 8, D08 FW31, Irlande. Coordonnees reprises du JSON-LD MusicEvent de Skiddle (53.3421604, -6.2996996), coherentes avec le POI Nominatim de l'IMMA. Tarif non communique : la page Skiddle affiche 'from 0.00' et ne vend pas encore. Heure d'ouverture indicative, non annoncee."
   }
 ]
