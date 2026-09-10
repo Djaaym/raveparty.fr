@@ -1,0 +1,394 @@
+[
+  {
+    "id": 3,
+    "venue": "Strijkviertel",
+    "lat": 52.07185,
+    "lng": 5.0536,
+    "address": "Strijkviertel 67, 3454 PK Utrecht, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Strijkviertel+67,+3454+PK+Utrecht,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "Adresse de navigation publiée par Verknipt pour le terrain du Strijkviertel. Écart avec l'ancien point : 321 m."
+  },
+  {
+    "id": 7,
+    "venue": "Evenemententerrein",
+    "lat": 52.44001,
+    "lng": 5.76589,
+    "address": "Evenemententerrein Walibi, Spijkweg 30, 8256 RJ Biddinghuizen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Spijkweg+30,+Biddinghuizen,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "Adresse de navigation publiée (Spijkweg 30, à côté de Walibi Holland). L'ancien point tombait à plusieurs kilomètres au nord-ouest. Écart avec l'ancien point : 4.6 km."
+  },
+  {
+    "id": 10,
+    "venue": "De Schorre",
+    "lat": 51.08978,
+    "lng": 4.3843,
+    "address": "Provinciaal Domein De Schorre, Schommelei 1, 2850 Boom, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Provinciaal+Domein+De+Schorre,+Boom,+Belgium&format=json",
+    "status": "corrige",
+    "note": "Le domaine provincial De Schorre est le site de Tomorrowland ; point du domaine rendu par OSM, l'adresse de navigation publiée est Schommelei 1. Écart avec l'ancien point : 999 m."
+  },
+  {
+    "id": 33,
+    "venue": "Parco Dora",
+    "lat": 45.08972,
+    "lng": 7.66669,
+    "address": "Parco Dora (area Michelin), Via Paolo Veronese, 10149 Torino, Italie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Parco+Dora+area+Michelin,+Torino,+Italy&format=json",
+    "status": "corrige",
+    "note": "Aire Michelin du Parco Dora, celle qui accueille le Kappa FuturFestival. Écart avec l'ancien point : 1.2 km."
+  },
+  {
+    "id": 34,
+    "venue": "Fira Gran Via",
+    "lat": 41.35462,
+    "lng": 2.12804,
+    "address": "Fira de Barcelona Gran Via, Avinguda de Joan Carles I 64, 08908 L'Hospitalet de Llobregat, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Fira+Gran+Via,+Hospitalet+de+Llobregat&format=json",
+    "status": "corrige",
+    "note": "Palais des congrès Fira Gran Via, où se tient Sónar by Night. Écart avec l'ancien point : 539 m."
+  },
+  {
+    "id": 35,
+    "venue": "Maimarkthalle",
+    "lat": 49.46836,
+    "lng": 8.52395,
+    "address": "Maimarkthalle, Xaver-Fuhr-Straße 101, 68163 Mannheim, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Maimarkthalle,+Mannheim,+Germany&format=json",
+    "status": "corrige",
+    "note": "Bâtiment Maimarkthalle (exhibition_centre) sur Xaver-Fuhr-Straße ; l'ancien point tombait au nord du Neckar. Écart avec l'ancien point : 2.8 km."
+  },
+  {
+    "id": 36,
+    "venue": "NDSM Docklands",
+    "lat": 52.40101,
+    "lng": 4.89532,
+    "address": "NDSM-plein, 1033 WC Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=NDSM-plein,+Amsterdam,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "NDSM-plein, cœur du chantier NDSM où se tient DGTL. Écart avec l'ancien point : 378 m."
+  },
+  {
+    "id": 37,
+    "venue": "Raketenbasis Pydna",
+    "lat": 50.04346,
+    "lng": 7.42551,
+    "address": "Raketenbasis Pydna, Hasselbach, 56288 Kastellaun, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Raketenbasis+Pydna,+Kastellaun,+Germany&format=json",
+    "status": "corrige",
+    "note": "Ancienne base de missiles de Pydna, à Hasselbach et non au bourg de Kastellaun. Écart avec l'ancien point : 3.4 km."
+  },
+  {
+    "id": 46,
+    "venue": "Spaarnwoude, Houtrak",
+    "lat": 52.38961,
+    "lng": 4.75143,
+    "address": "Wethouder van Essenweg, 1165 MZ Halfweg, Pays-Bas",
+    "source": "https://www.awakenings.com/en/upclose26-practical-info/382541/",
+    "status": "corrige",
+    "note": "Adresse de navigation publiée par Awakenings pour Upclose (Houtrak, Spaarnwoude-park). Écart avec l'ancien point : 2.4 km."
+  },
+  {
+    "id": 49,
+    "venue": "Straße des 17. Juni",
+    "lat": 52.51507,
+    "lng": 13.3598,
+    "address": "Straße des 17. Juni, 10785 Berlin, Allemagne",
+    "source": "https://www.ravetheplanet.com/en/demoroute/",
+    "status": "corrige",
+    "note": "La parade se tient sur la partie est de la Straße des 17. Juni, entre la porte de Brandebourg et le Großer Stern (la partie ouest est fermée pour travaux). Point sur le tronçon 10785, le code postal donné par l'organisateur. Écart avec l'ancien point : 674 m."
+  },
+  {
+    "id": 50,
+    "venue": "Cluj Arena",
+    "lat": 46.76858,
+    "lng": 23.57245,
+    "address": "Cluj Arena, Splaiul Independenței 1, 400376 Cluj-Napoca, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cluj+Arena,+Cluj-Napoca,+Romania&format=json",
+    "status": "corrige",
+    "note": "Stade Cluj Arena. L'ancien point tombait à l'est du centre-ville. Écart avec l'ancien point : 3.6 km."
+  },
+  {
+    "id": 51,
+    "venue": "Park Mladeži",
+    "lat": 43.51915,
+    "lng": 16.4387,
+    "address": "Stadion Park Mladeži, Split 21000, Croatie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Park+Mladezi,+Split,+Croatia&format=json",
+    "status": "corrige",
+    "note": "Stade d'athlétisme Park Mladeži, qui accueille Ultra Europe. Écart avec l'ancien point : 1.0 km."
+  },
+  {
+    "id": 54,
+    "venue": "Amsterdamse Bos",
+    "lat": 52.3274,
+    "lng": 4.85495,
+    "address": "Bosbaanweg 5, 1182 DA Amstelveen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bosbaanweg+5,+Amstelveen,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "Adresse de navigation publiée par Dekmantel pour l'entrée de l'Amsterdamse Bos (Bosbaan). L'ancien point était le centroïde du bois. Écart avec l'ancien point : 2.2 km."
+  },
+  {
+    "id": 56,
+    "venue": "Monegros Desert",
+    "lat": 41.52295,
+    "lng": 0.12444,
+    "address": "Monegros Desert Festival, Carretera N-II km 417, 22591 Candasnos (Fraga), Huesca, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Monegros+Desert+Festival,+Fraga,+Spain&format=json",
+    "status": "corrige",
+    "note": "Nœud OSM festival_grounds « Monegros Desert Festival » sur la N-II, cohérent avec le km 417 annoncé par l'organisation. L'ancien point était le bourg de Fraga. Écart avec l'ancien point : 18.8 km."
+  },
+  {
+    "id": 59,
+    "venue": "Dádpuszta",
+    "lat": 46.76954,
+    "lng": 18.43793,
+    "address": "Dádpuszta, 7015 Igar, Hongrie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Dadpuszta,+Igar,+Hungary&format=json",
+    "status": "corrige",
+    "note": "Le lieu-dit Dádpuszta relève de la commune d'Igar (comitat Fejér). L'ancien point était très au nord. Écart avec l'ancien point : 26.0 km."
+  },
+  {
+    "id": 60,
+    "venue": "Forte de Santiago da Barra",
+    "lat": 41.68907,
+    "lng": -8.83822,
+    "address": "Forte de Santiago da Barra, Rua dos Mareantes, 4900-370 Viana do Castelo, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Forte+de+Santiago+da+Barra,+Viana+do+Castelo,+Portugal&format=json",
+    "status": "corrige",
+    "note": "Fort de Santiago da Barra, sur le port de pêche. Écart avec l'ancien point : 690 m."
+  },
+  {
+    "id": 61,
+    "venue": "Gianpula Fields",
+    "lat": 35.87566,
+    "lng": 14.41792,
+    "address": "Gianpula, Triq Ta' Gianpula, Ħal Muxi, Ħaż-Żebbuġ ZBG 3716, Malte",
+    "source": "https://nominatim.openstreetmap.org/search?q=Gianpula,+Zebbug,+Malta&format=json",
+    "status": "corrige",
+    "note": "Complexe Gianpula (Gianpula Fields) sur Triq Ta' Gianpula. Écart avec l'ancien point : 1.7 km."
+  },
+  {
+    "id": 65,
+    "venue": "New Hangar, Port of Belgrade",
+    "lat": 44.82649,
+    "lng": 20.47448,
+    "address": "Hangar, Žorža Klemansoa 39, Luka Beograd, 11000 Beograd, Serbie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Zorza+Klemansoa+39,+Beograd,+Serbia&format=json",
+    "status": "corrige",
+    "note": "Bâtiment tagué hangar au 39 Žorža Klemansoa, dans l'enceinte du port de Belgrade, adresse donnée par l'organisation. L'ancien point était en ville. Écart avec l'ancien point : 3.5 km."
+  },
+  {
+    "id": 66,
+    "venue": "Bleilochtalsperre",
+    "lat": 50.50936,
+    "lng": 11.72148,
+    "address": "Festivalwiese, Wetteraweg, 07929 Saalburg-Ebersdorf, Allemagne",
+    "source": "https://www.festivalticker.de/festivals/sonne_mond_sterne/anfahrt/",
+    "status": "corrige",
+    "note": "Coordonnée publiée avec l'adresse de navigation « Bleilochtalsperre, Wetteraweg ». Écart avec l'ancien point : 1.3 km."
+  },
+  {
+    "id": 68,
+    "venue": "Strefa Kultury",
+    "lat": 50.2639,
+    "lng": 19.02867,
+    "address": "Strefa Kultury, plac Wojciecha Kilara 1, 40-202 Katowice, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=plac+Wojciecha+Kilara+1,+Katowice,+Poland&format=json",
+    "status": "corrige",
+    "note": "Cœur de la Strefa Kultury (NOSPR / MCK), où se tient le festival. Écart avec l'ancien point : 754 m."
+  },
+  {
+    "id": 70,
+    "venue": "Domaine du Château de Ribaucourt",
+    "lat": 50.93033,
+    "lng": 4.50417,
+    "address": "Kasteel van Ribaucourt, Kasteelhoekstraat 1, 1820 Perk (Steenokkerzeel), Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kasteelhoekstraat+1,+1820+Steenokkerzeel,+Belgium&format=json",
+    "status": "corrige",
+    "note": "Adresse du domaine du château de Ribaucourt à Perk, publiée comme adresse du festival. Écart avec l'ancien point : 2.5 km."
+  },
+  {
+    "id": 71,
+    "venue": "Sloterpark",
+    "lat": 52.37002,
+    "lng": 4.81712,
+    "address": "Sloterparkbad, President Allendelaan 3, 1064 GW Amsterdam, Pays-Bas",
+    "source": "https://loveland.nl/festival/location/",
+    "status": "corrige",
+    "note": "L'organisateur donne l'adresse du Sloterparkbad comme entrée du terrain dans le Sloterpark. Écart avec l'ancien point : 483 m."
+  },
+  {
+    "id": 72,
+    "venue": "Parc del Fòrum",
+    "lat": 41.41019,
+    "lng": 2.22044,
+    "address": "Parc del Fòrum, 08019 Barcelona, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Parc+del+Forum,+Barcelona,+Spain&format=json",
+    "status": "confirme",
+    "note": "Parc del Fòrum. L'ancien point était déjà juste, il est simplement précisé. L'ancien point tombait à 42 m, la coordonnée est simplement précisée."
+  },
+  {
+    "id": 73,
+    "venue": "E3 Strand",
+    "lat": 51.37923,
+    "lng": 5.33084,
+    "address": "E3 Strand, Kapelweg 60, 5521 TP Eersel, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=E3+Strand,+Eersel,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "Parc de loisirs E3 Strand. Écart avec l'ancien point : 2.6 km."
+  },
+  {
+    "id": 74,
+    "venue": "Amnesia Ibiza",
+    "lat": 38.94766,
+    "lng": 1.40823,
+    "address": "Amnesia, Carretera Ibiza a Sant Antoni km 5, 07816 Sant Rafel de sa Creu, Ibiza, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Amnesia,+Ibiza,+Spain&format=json",
+    "status": "corrige",
+    "note": "Club Amnesia sur la route Ibiza - Sant Antoni. Écart avec l'ancien point : 302 m."
+  },
+  {
+    "id": 75,
+    "venue": "Amnesia Ibiza",
+    "lat": 38.94766,
+    "lng": 1.40823,
+    "address": "Amnesia, Carretera Ibiza a Sant Antoni km 5, 07816 Sant Rafel de sa Creu, Ibiza, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Amnesia,+Ibiza,+Spain&format=json",
+    "status": "corrige",
+    "note": "Club Amnesia sur la route Ibiza - Sant Antoni. Écart avec l'ancien point : 302 m."
+  },
+  {
+    "id": 76,
+    "venue": "Hï Ibiza",
+    "lat": 38.88599,
+    "lng": 1.40386,
+    "address": "Hï Ibiza, Carretera de Platja d'en Bossa 10, 07817 Sant Jordi de ses Salines, Ibiza, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hi+Ibiza,+Platja+d'en+Bossa,+Spain&format=json",
+    "status": "corrige",
+    "note": "Club Hï Ibiza, sur la Platja d'en Bossa. Écart avec l'ancien point : 852 m."
+  },
+  {
+    "id": 77,
+    "venue": "DC-10",
+    "lat": 38.88024,
+    "lng": 1.39264,
+    "address": "DC-10, Carretera Sant Jordi - Ses Salines km 1, 07818 Sant Josep de sa Talaia, Ibiza, Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=DC-10+Ibiza,+Sant+Josep+de+sa+Talaia,+Spain&format=json",
+    "status": "corrige",
+    "note": "Club DC-10, face à l'aéroport. Écart avec l'ancien point : 638 m."
+  },
+  {
+    "id": 141,
+    "venue": "Divers lieux / various venues",
+    "status": "inchange",
+    "note": "« Divers lieux / various venues » : le CTM se tient dans une quinzaine de salles berlinoises, il n'y a pas d'entrée unique à géolocaliser."
+  },
+  {
+    "id": 148,
+    "venue": "Mayrhofen (Zillertal)",
+    "status": "inchange",
+    "note": "« Mayrhofen (Zillertal) » désigne la station entière : Snowbombing est réparti entre l'Europahaus, l'Arena et plusieurs scènes en altitude, aucune entrée unique."
+  },
+  {
+    "id": 154,
+    "venue": "Houtrak, Spaarnwoude-Park",
+    "lat": 52.38961,
+    "lng": 4.75143,
+    "address": "Wethouder van Essenweg, 1165 MZ Halfweg, Pays-Bas",
+    "source": "https://www.awakenings.com/en/upclose26-practical-info/382541/",
+    "status": "corrige",
+    "note": "Adresse de navigation publiée par Awakenings pour Upclose (Houtrak, Spaarnwoude-park). Écart avec l'ancien point : 2.1 km."
+  },
+  {
+    "id": 160,
+    "venue": "Parco Dora",
+    "lat": 45.08972,
+    "lng": 7.66669,
+    "address": "Parco Dora (area Michelin), Via Paolo Veronese, 10149 Torino, Italie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Parco+Dora+area+Michelin,+Torino,+Italy&format=json",
+    "status": "corrige",
+    "note": "Aire Michelin du Parco Dora, celle qui accueille le Kappa FuturFestival. Écart avec l'ancien point : 1.2 km."
+  },
+  {
+    "id": 255,
+    "venue": "Dyrskuepladsen",
+    "lat": 55.62194,
+    "lng": 12.0793,
+    "address": "Dyrskuepladsen, Darupvej 19, 4000 Roskilde, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Darupvej+19,+4000+Roskilde,+Denmark&format=json",
+    "status": "corrige",
+    "note": "Adresse officielle du Dyrskuepladsen (Darupvej 19), confirmée par la page contact du festival. Écart avec l'ancien point : 730 m."
+  },
+  {
+    "id": 266,
+    "venue": "Blitz Club",
+    "lat": 48.13004,
+    "lng": 11.58291,
+    "address": "Blitz Club, Museumsinsel 1, 80538 München, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Museumsinsel+1,+80538+Munchen,+Germany&format=json",
+    "status": "confirme",
+    "note": "Le Blitz occupe l'aile est du Deutsches Museum, Museumsinsel 1. L'ancien point tombait à 51 m, la coordonnée est simplement précisée."
+  },
+  {
+    "id": 267,
+    "venue": "Recinto Ferial de Vélez-Málaga, Av. del Rey Juan Carlos I",
+    "lat": 36.75924,
+    "lng": -4.0999,
+    "address": "Recinto Ferial de Vélez-Málaga, Av. del Rey Juan Carlos I, 29740 Torre del Mar (Vélez-Málaga), Espagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Recinto+Ferial,+Velez-Malaga,+Spain&format=json",
+    "status": "corrige",
+    "note": "Recinto ferial de Torre del Mar. L'ancien point était au nord de la ville. Écart avec l'ancien point : 2.3 km."
+  },
+  {
+    "id": 304,
+    "venue": "Plage d'Azapiko, Sithonia (Chalcidique)",
+    "lat": 40.01039,
+    "lng": 23.86422,
+    "address": "Παραλία Αζάπικο (Azapiko beach), Sithonia 630 78, Grèce",
+    "source": "https://nominatim.openstreetmap.org/search?q=Azapiko+beach,+Sithonia,+Greece&format=json",
+    "status": "corrige",
+    "note": "Plage d'Azapiko et son camping, entre Neos Marmaras et Toroni. Écart avec l'ancien point : 2.9 km."
+  },
+  {
+    "id": 339,
+    "venue": "ETKO, 31 Tsiflikoudia (zone portuaire industrielle)",
+    "lat": 34.66141,
+    "lng": 33.02034,
+    "address": "ETKO, Leoforos Omonoias, Tsiflikoudia, 3010 Limassol, Chypre",
+    "source": "https://nominatim.openstreetmap.org/search?q=ETKO,+Tsiflikoudia,+Limassol,+Cyprus&format=json",
+    "status": "confirme",
+    "note": "Site de l'ancienne cave ETKO, dans la zone portuaire de Tsiflikoudia. L'ancien point tombait à 160 m, la coordonnée est simplement précisée."
+  },
+  {
+    "id": 343,
+    "venue": "Thalatta Camp, baie de Kalamitsi (Chalcidique)",
+    "lat": 39.99281,
+    "lng": 23.9923,
+    "address": "Thalatta Kalamitsi Village Camp, Perimetriki Odos Sithonias, Kalamitsi 630 72, Grèce",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kalamitsi,+Sithonia,+Chalkidiki,+Greece&format=json",
+    "status": "corrige",
+    "note": "Camping Thalatta à Kalamitsi (commune de Sithonia). Écart avec l'ancien point : 3.6 km."
+  },
+  {
+    "id": 875,
+    "venue": "Effenaar",
+    "lat": 51.44172,
+    "lng": 5.48311,
+    "address": "Effenaar, Dommelstraat 2, 5611 CK Eindhoven, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Dommelstraat+2,+Eindhoven,+Netherlands&format=json",
+    "status": "corrige",
+    "note": "Salle Effenaar. Écart avec l'ancien point : 371 m."
+  },
+  {
+    "id": 2094,
+    "venue": "De Fik Garden",
+    "lat": 52.33999,
+    "lng": 4.83776,
+    "address": "De Fik, Sportparklaan 19, 1062 ZA Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sportparklaan+19,+Amsterdam,+Netherlands&format=json",
+    "status": "confirme",
+    "note": "Salle De Fik au parc sportif de Sloten. L'ancien point tombait à 6 m, la coordonnée est simplement précisée."
+  }
+]
