@@ -2,7 +2,10 @@
   {
     "title": "Hard Rave au Cross Club",
     "type": "Club",
-    "genres": ["Hard Techno", "Techno"],
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.10829,
@@ -13,17 +16,31 @@
     "currency": "CZK",
     "venue": "Cross Club",
     "trending": false,
-    "lineup": ["Theodor Stratos", "John T", "Claire Nøir", "Furious Freaks", "Ejdm", "N:Snitch", "Fegip", "Hycker"],
+    "lineup": [
+      "Theodor Stratos",
+      "John T",
+      "Claire Nøir",
+      "Furious Freaks",
+      "Ejdm",
+      "N:Snitch",
+      "Fegip",
+      "Hycker"
+    ],
     "desc": "Le Cross Club, labyrinthe de ferraille et de mécanismes animés du quartier de Holešovice, consacre sa grande salle à une nuit hard techno. L'invité principal est le Suédois Theodor Stratos, entouré de la scène tchèque du genre. Le tarif d'entrée le plus bas est de 100 Kč en prévente.",
     "descEn": "Cross Club, the scrap metal labyrinth of Prague's Holešovice district, hands its main stage over to a hard techno night. Swedish DJ and producer Theodor Stratos headlines alongside the Czech hard techno scene. The cheapest advance ticket is 100 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/hard-rave-hard-techno-night/omunb/",
-    "sources": ["https://goout.net/en/tickets/hard-rave-hard-techno-night/omunb/", "http://www.crossclub.cz/cs/program/"],
+    "sources": [
+      "https://goout.net/en/tickets/hard-rave-hard-techno-night/omunb/",
+      "http://www.crossclub.cz/cs/program/"
+    ],
     "note": "Adresse : Cross Club, Plynární 1096/23, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées relevées sur le nœud OpenStreetMap 'Cross Club' (50.1082927 / 14.4432281), cohérentes avec la fiche de salle GoOut. Tarif 100-200 Kč, on retient le palier le plus bas."
   },
   {
     "title": "Moordoor : Neonlight au Cross Club",
     "type": "Club",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.10829,
@@ -34,17 +51,36 @@
     "currency": "CZK",
     "venue": "Cross Club",
     "trending": false,
-    "lineup": ["Neonlight", "Emzee", "Toxxistenze", "DreadBass", "Richart & Franshrek", "Shortex & Eagle", "Overtasked", "Vorside", "Nexflow", "Sicario", "Madstroke", "Reap Mexc", "Binballer", "Nocturnal"],
+    "lineup": [
+      "Neonlight",
+      "Emzee",
+      "Toxxistenze",
+      "DreadBass",
+      "Richart & Franshrek",
+      "Shortex & Eagle",
+      "Overtasked",
+      "Vorside",
+      "Nexflow",
+      "Sicario",
+      "Madstroke",
+      "Reap Mexc",
+      "Binballer",
+      "Nocturnal"
+    ],
     "desc": "La soirée Moordoor invite le trio allemand Neonlight, pilier du neurofunk sur Blackout Music, pour une nuit drum & bass sur plusieurs scènes du Cross Club. Une quinzaine de DJ tchèques complètent l'affiche. Entrée à 250 Kč.",
     "descEn": "The Moordoor series brings German neurofunk trio Neonlight, longtime Blackout Music regulars, to Cross Club for a multi stage drum & bass night. Around fifteen Czech DJs fill out the bill. Entry is 250 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/moordoor-neonlight/qiqnb/",
-    "sources": ["https://goout.net/en/tickets/moordoor-neonlight/qiqnb/"],
+    "sources": [
+      "https://goout.net/en/tickets/moordoor-neonlight/qiqnb/"
+    ],
     "note": "Adresse : Cross Club, Plynární 1096/23, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées OpenStreetMap du nœud 'Cross Club'."
   },
   {
     "title": "DNB[SPACE] 3",
     "type": "Club",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.07552,
@@ -55,17 +91,37 @@
     "currency": "CZK",
     "venue": "Sacre Coeur",
     "trending": false,
-    "lineup": ["S.P.Y", "QZB", "Markee Ledge", "Pixie", "Sofiqa", "Cockroach", "Mustaffa & Sheriff", "Blofeld", "Gryth", "Eska", "Kamcza", "Sublime", "MC Trchi", "Baddabap"],
+    "lineup": [
+      "S.P.Y",
+      "QZB",
+      "Markee Ledge",
+      "Pixie",
+      "Sofiqa",
+      "Cockroach",
+      "Mustaffa & Sheriff",
+      "Blofeld",
+      "Gryth",
+      "Eska",
+      "Kamcza",
+      "Sublime",
+      "MC Trchi",
+      "Baddabap"
+    ],
     "desc": "Troisième édition de DNB[SPACE], organisée dans l'ancienne église Sacre Coeur de Smichov, dont la nef sert de salle de concert depuis sa désaffectation. Le Portugais S.P.Y, le trio suisse QZB et le vétéran britannique Markee Ledge mènent l'affiche. Billet le moins cher à 863 Kč.",
     "descEn": "The third DNB[SPACE] takes over the deconsecrated Sacre Coeur church in Prague's Smichov district, whose nave now works as a concert hall. Portuguese producer S.P.Y, Swiss trio QZB and UK veteran Markee Ledge headline. Cheapest ticket 863 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/dnb-space-3/mjjnb/",
-    "sources": ["https://goout.net/en/tickets/dnb-space-3/mjjnb/"],
+    "sources": [
+      "https://goout.net/en/tickets/dnb-space-3/mjjnb/"
+    ],
     "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim sur l'adresse Holečkova 31 (50.0755212 / 14.3978121), cohérentes avec la fiche GoOut. Tarif 863-1078 Kč, palier le plus bas retenu."
   },
   {
     "title": "Church Rave : Golpe all night long",
     "type": "Club",
-    "genres": ["Hard Techno", "Techno"],
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.07552,
@@ -76,17 +132,24 @@
     "currency": "CZK",
     "venue": "Sacre Coeur",
     "trending": false,
-    "lineup": ["Golpe"],
+    "lineup": [
+      "Golpe"
+    ],
     "desc": "Le collectif praguois Cube et le DJ Golpe reconduisent leur Church Rave dans l'ancienne église Sacre Coeur. Après un set de cinq heures l'an dernier, Golpe joue cette fois sept heures d'affilée, entre techno et hard techno. Premier palier à 590 Kč.",
     "descEn": "Prague collective Cube and DJ Golpe bring their Church Rave back to the deconsecrated Sacre Coeur. After a five hour set last year, Golpe plays seven hours straight this time, moving between techno and hard techno. First tier 590 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/church-rave-golpe-all-night-long/iuplb/",
-    "sources": ["https://goout.net/en/tickets/church-rave-golpe-all-night-long/iuplb/"],
+    "sources": [
+      "https://goout.net/en/tickets/church-rave-golpe-all-night-long/iuplb/"
+    ],
     "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim. Tarif 590-1590 Kč, palier le plus bas retenu."
   },
   {
     "title": "Church Rave : Hardtechnoween",
     "type": "Club",
-    "genres": ["Hard Techno", "Techno"],
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.07552,
@@ -97,17 +160,29 @@
     "currency": "CZK",
     "venue": "Sacre Coeur",
     "trending": false,
-    "lineup": ["RiVid", "Nøteleks", "Paul Krist", "Nonsense", "Mosmoz", "S*Y*N*K", "Ketacaos"],
+    "lineup": [
+      "RiVid",
+      "Nøteleks",
+      "Paul Krist",
+      "Nonsense",
+      "Mosmoz",
+      "S*Y*N*K",
+      "Ketacaos"
+    ],
     "desc": "Le collectif Cube installe sa soirée d'Halloween dans la nef de l'ancienne église Sacre Coeur, avec un show audiovisuel conçu pour le lieu. L'affiche est entièrement techno et hard techno. Premier palier à 990 Kč.",
     "descEn": "Cube collective stages its Halloween night inside the nave of the deconsecrated Sacre Coeur church, with an audiovisual show built for the room. The bill is all techno and hard techno. First tier 990 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/church-rave-hardtechnoween/jfomb/",
-    "sources": ["https://goout.net/en/tickets/church-rave-hardtechnoween/jfomb/"],
+    "sources": [
+      "https://goout.net/en/tickets/church-rave-hardtechnoween/jfomb/"
+    ],
     "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim. Tarif 990-1590 Kč, palier le plus bas retenu."
   },
   {
     "title": "Darkshire Arena : Face 2 Face",
     "type": "Warehouse",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
     "lat": 50.1091,
@@ -118,20 +193,33 @@
     "currency": "CZK",
     "venue": "Křižíkovy pavilony",
     "trending": false,
-    "lineup": ["Audio", "Vici", "PRDK", "Kaama", "Kaira", "Dr.Ax", "Raido", "Shmidoo"],
+    "lineup": [
+      "Audio",
+      "Vici",
+      "PRDK",
+      "Kaama",
+      "Kaira",
+      "Dr.Ax",
+      "Raido",
+      "Shmidoo"
+    ],
     "desc": "Le collectif Darkshire importe pour la première fois à Prague son format Face 2 Face, où les DJ jouent en binome sans set list préparée. La soirée occupe le pavillon B des Křižíkovy pavilony, au parc des expositions de Holešovice. Premier palier à 1 190 Kč.",
     "descEn": "Darkshire bring their Face 2 Face format to Prague for the first time, pairing DJs back to back with no prepared set list. The night takes over Pavilion B of the Křižík pavilions at the Holešovice exhibition grounds. First tier 1,190 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/darkshire-arena-face-2-face/vsxmb/",
-    "sources": ["https://goout.net/en/tickets/darkshire-arena-face-2-face/vsxmb/"],
+    "sources": [
+      "https://goout.net/en/tickets/darkshire-arena-face-2-face/vsxmb/"
+    ],
     "note": "Adresse : Křižíkovy pavilony, Výstaviště Praha, Výstaviště 67, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées reprises de la fiche Let It Roll Winter déjà au catalogue pour la même salle (50.1091 / 14.4264, nœud OpenStreetMap 'Výstaviště Praha'). Tarif 1190-1990 Kč."
   },
   {
     "title": "HauntedVila II by YAMAN",
     "type": "Club",
-    "genres": ["Drum & Bass"],
+    "genres": [
+      "Drum & Bass"
+    ],
     "city": "Prague",
     "country": "Czech Republic",
-    "lat": 50.09560,
+    "lat": 50.0956,
     "lng": 14.43606,
     "date": "2026-10-03",
     "time": "15:00",
@@ -139,11 +227,219 @@
     "currency": "CZK",
     "venue": "Vila Štvanice",
     "trending": false,
-    "lineup": ["Disphonia", "Zigi SC", "Furious Freaks", "Neothrope", "Seriouz", "The Duplicates", "Neureal", "Mal.Ware", "Chris Tropic", "J-Cop", "PlusOne", "Blayzz", "Hugo Steez", "Shortex", "Vertigo"],
+    "lineup": [
+      "Disphonia",
+      "Zigi SC",
+      "Furious Freaks",
+      "Neothrope",
+      "Seriouz",
+      "The Duplicates",
+      "Neureal",
+      "Mal.Ware",
+      "Chris Tropic",
+      "J-Cop",
+      "PlusOne",
+      "Blayzz",
+      "Hugo Steez",
+      "Shortex",
+      "Vertigo"
+    ],
     "desc": "Le collectif YAMAN revient à la Vila Štvanice, sur l'île du même nom au milieu de la Vltava, avec un format jour et nuit. Le producteur grec Disphonia, publié sur Eatbrain et Blackout, mène l'affiche : dehors le drum & bass reste mélodique, à l'intérieur il vire au sombre. Entrée à 354 Kč.",
     "descEn": "YAMAN return to Vila Štvanice, on the island of the same name in the middle of the Vltava, with a day and night format. Greek producer Disphonia, released on Eatbrain and Blackout, headlines: the outdoor stage keeps drum & bass melodic while the indoor room turns darker. Entry 354 CZK.",
     "ticketUrl": "https://goout.net/en/tickets/hauntedvila-ii-by-yaman-disphonia+zigi-sc/vsgnb/",
-    "sources": ["https://goout.net/en/tickets/hauntedvila-ii-by-yaman-disphonia+zigi-sc/vsgnb/"],
+    "sources": [
+      "https://goout.net/en/tickets/hauntedvila-ii-by-yaman-disphonia+zigi-sc/vsgnb/"
+    ],
     "note": "Adresse : Vila Štvanice, ostrov Štvanice 858, 170 00 Praha 7, Tchéquie. Coordonnées Nominatim sur le bâtiment 'Vila Štvanice' (50.0955998 / 14.4360589). La soirée se termine à 6 h le lendemain, donc pas d'endDate."
+  },
+  {
+    "title": "Smolna Season Opening : Panteros666",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 70,
+    "currency": "PLN",
+    "venue": "Smolna",
+    "trending": false,
+    "lineup": [
+      "Panteros666",
+      "vitcat",
+      "Ramzi Vibe$",
+      "Franca",
+      "Robsessive",
+      "Prince",
+      "Modus Faciendi"
+    ],
+    "desc": "Le club Smolna, 1 300 m2 rue Smolna avec deux pistes, un patio et un salon, ouvre sa saison sur deux nuits. La premiere revient au Belge installe a Paris Panteros666, dont les productions melangent hooks vocaux et synthes rave. Entree 70 zl avant minuit, 80 zl apres.",
+    "descEn": "Smolna, a 1,300 sq m club on Smolna street with two dancefloors, a patio and a chillout room, opens its season across two nights. Night one goes to Belgian born, Paris based Panteros666, whose productions pair vocal hooks with rave synths. Entry is 70 PLN before midnight, 80 PLN after.",
+    "ticketUrl": "https://smolna38.org/events/smolna-season-opening-day-1-panteros666-franca",
+    "sources": [
+      "https://smolna38.org/events/smolna-season-opening-day-1-panteros666-franca",
+      "https://smolna38.org/events"
+    ],
+    "note": "Adresse : Smolna 38, 00-375 Warszawa, Pologne. Coordonnees Nominatim sur le numero 38 de la rue Smolna (52.2327831 / 21.0215150). Paliers annonces : 70 zl avant minuit, 80 zl apres minuit, 30 zl a partir de 5 h du matin (entree tardive). On retient l'entree normale la plus basse, 70 zl."
+  },
+  {
+    "title": "Smolna : Sam Paganini",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 100,
+    "currency": "PLN",
+    "venue": "Smolna",
+    "trending": false,
+    "lineup": [
+      "Sam Paganini",
+      "SugarMama",
+      "Drumaddition",
+      "Pascale Voltaire",
+      "Robi Lora",
+      "Santi",
+      "Mady",
+      "Plvk",
+      "Stachu"
+    ],
+    "desc": "L'Italien Sam Paganini, actif depuis 1996 et publie sur Plus 8, Cocoon et Drumcode, tient le sous-sol de Smolna. Il a fonde son label JAM Records en 2016. Le patio et la salle Jungle tournent en parallele avec Pascale Voltaire et la scene varsovienne. Entree 100 zl.",
+    "descEn": "Italian techno producer Sam Paganini, active since 1996 and released on Plus 8, Cocoon and Drumcode, takes the Smolna basement. He founded his own JAM Records label in 2016. The patio and Jungle rooms run in parallel with Pascale Voltaire and Warsaw residents. Entry 100 PLN.",
+    "ticketUrl": "https://smolna38.org/events/smolna-sam-paganini",
+    "sources": [
+      "https://smolna38.org/events/smolna-sam-paganini",
+      "https://smolna38.org/events"
+    ],
+    "note": "Adresse : Smolna 38, 00-375 Warszawa, Pologne. Coordonnees Nominatim. Paliers : 100 zl avant 5 h, 30 zl apres 5 h (entree tardive). On retient l'entree normale, 100 zl."
+  },
+  {
+    "title": "ARK : HI-LO",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22483,
+    "lng": 20.92859,
+    "date": "2026-10-16",
+    "time": "23:30",
+    "price": 191.9,
+    "currency": "PLN",
+    "venue": "Progresja",
+    "trending": false,
+    "lineup": [
+      "HI-LO"
+    ],
+    "desc": "HI-LO est l'alias techno d'Oliver Heldens, le versant sombre et club de son travail sous son propre nom. La soiree ARK l'installe pour la nuit dans la grande salle de Progresja, complexe de trois scenes ouvert en 2003 dans le fort Wola, a l'ouest de Varsovie. Billet a 191,90 zl, frais inclus.",
+    "descEn": "HI-LO is Oliver Heldens' techno alias, the darker club facing side of his work under his own name. The ARK night hands him Progresja's main room for the night, a three stage complex opened in 2003 inside Fort Wola in western Warsaw. Tickets 191.90 PLN, fees included.",
+    "ticketUrl": "https://biletomat.pl/wydarzenia/hi-lo-33231",
+    "sources": [
+      "https://www.ebilet.pl/muzyka/elektro-techno/hi-lo",
+      "https://biletomat.pl/wydarzenia/w/warszawa/w/progresja",
+      "https://progresja.com/"
+    ],
+    "note": "Adresse : Progresja, ul. Fort Wola 22, 01-258 Warszawa, Pologne. Coordonnees publiees par le club lui-meme en pied de page de progresja.com (52.224831 / 20.928594). Heure et tarif repris de la fiche eBilet (23:30, a partir de 191,90 zl frais inclus) ; le JSON-LD de biletomat donne le meme creneau 2026-10-16T23:30+02:00."
+  },
+  {
+    "title": "Sunrise Festival",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "Trance",
+      "Techno",
+      "House"
+    ],
+    "city": "Kolobrzeg",
+    "country": "Poland",
+    "lat": 54.19993,
+    "lng": 15.68561,
+    "date": "2027-07-30",
+    "endDate": "2027-08-01",
+    "time": "16:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Lotnisko Podczele",
+    "venueEn": "Podczele former airfield",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le plus gros festival de musique electronique de Pologne revient sur l'ancien aerodrome de Podczele, a huit kilometres a l'est du centre de Kolobrzeg, au bord de la Baltique. L'organisateur a confirme les dates du 30 juillet au 1er aout 2027. La programmation et les tarifs ne sont pas encore publies.",
+    "descEn": "Poland's largest electronic music festival returns to the former Podczele airfield, eight kilometres east of Kolobrzeg town centre on the Baltic coast. The organiser has confirmed 30 July to 1 August 2027. Line-up and ticket prices have not been published yet.",
+    "sources": [
+      "https://sunrisefestival.pl/znamy-date-sunrise-festival-2027/",
+      "https://sunrisefestival.pl/",
+      "https://okkolobrzeg.pl/sunrise-festival-2026-jak-dojechac-do-podczela-i-wrocic-w-nocy-autobusy-busy-i-parkingi/"
+    ],
+    "note": "Adresse du site : Lotnisko, 78-111 Bagicz (Podczele), pres de Kolobrzeg, Pologne, telle que donnee par la presse locale citant l'organisateur. Coordonnees Nominatim sur l'ancien aerodrome de Bagicz / Podczele (54.1999341 / 15.6856132). Attention : la fiche 2026 deja au catalogue porte 54.165 / 15.635, qui tombe pres du centre de Kolobrzeg et non sur le site, a corriger. Tarif non communique pour 2027."
+  },
+  {
+    "title": "Sziget Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "EDM",
+      "Drum & Bass"
+    ],
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.5539,
+    "lng": 19.0517,
+    "date": "2027-08-10",
+    "endDate": "2027-08-14",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Hajogyari-sziget",
+    "venueEn": "Obuda Island",
+    "trending": false,
+    "lineup": [],
+    "desc": "Sziget revient sur l'ile d'Obuda, au nord de Budapest, du 10 au 14 aout 2027. Au-dela des tetes d'affiche pop et rock, le festival fait tourner ses scenes electroniques jusqu'a l'aube. La programmation n'est pas annoncee et les tarifs 2027 ne sont pas encore publies.",
+    "descEn": "Sziget returns to Obuda Island north of Budapest from 10 to 14 August 2027. Beyond the pop and rock headliners, its electronic stages run until dawn. The line-up has not been announced and 2027 ticket prices are not published yet.",
+    "sources": [
+      "https://szigetfestival.com/en/festival-info",
+      "https://szigetfestival.com/en/"
+    ],
+    "note": "Adresse : Hajogyari-sziget (ile d'Obuda), Majus 9. park, 1033 Budapest, Hongrie, telle que donnee par la page 'festival info' officielle. Coordonnees reprises de la fiche Sziget 2026 deja au catalogue pour le meme site. Tarif : la vente super early bird de 299 EUR (pass 5 jours) est close, aucun tarif courant n'est publie, donc non communique."
+  },
+  {
+    "title": "OZORA Festival",
+    "type": "Festival",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Dádpuszta",
+    "country": "Hungary",
+    "lat": 46.76954,
+    "lng": 18.43793,
+    "date": "2027-07-23",
+    "endDate": "2027-08-03",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Dádpuszta",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le grand rassemblement psytrance hongrois revient dans la vallee de Dadpuszta, au sud de Szekesfehervar, pour douze jours comprenant le pre-rassemblement et le festival principal. La programmation 2027 n'est pas annoncee. La billetterie officielle est ouverte mais ses tarifs ne sont pas lisibles publiquement.",
+    "descEn": "Hungary's flagship psytrance gathering returns to the Dadpuszta valley south of Szekesfehervar for twelve days covering the pre-gathering and the main festival. The 2027 line-up has not been announced. Official ticketing is open but its prices are not publicly readable.",
+    "sources": [
+      "https://www.musicfestivalwizard.com/festivals/ozora-festival-2027/",
+      "https://www.frontstagefestivals.com/festival/ozora-festival-2027",
+      "https://ticket.ozorafestival.eu/"
+    ],
+    "note": "Lieu : Dadpuszta, commune d'Igar, comitat de Fejer, 7015 Hongrie. Coordonnees Nominatim sur le lieu-dit Dadpuszta (46.7695424 / 18.4379274). Attention : la fiche OZORA 2026 deja au catalogue porte 46.99 / 18.55, soit environ 27 km trop au nord, a corriger. Dates 23 juillet au 3 aout 2027 concordantes sur deux sources secondaires ; le site officiel est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. Tarif non communique."
   }
 ]
