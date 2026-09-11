@@ -1,0 +1,1147 @@
+[
+ {
+  "title": "Airbeat One",
+  "type": "Festival",
+  "genres": [
+   "EDM",
+   "Hardstyle",
+   "Techno",
+   "Trance",
+   "Drum & Bass",
+   "Psytrance"
+  ],
+  "city": "Neustadt-Glewe",
+  "country": "Germany",
+  "lat": 53.36133,
+  "lng": 11.61412,
+  "date": "2027-07-07",
+  "endDate": "2027-07-11",
+  "time": "12:00",
+  "price": 108.9,
+  "currency": "EUR",
+  "venue": "Flugplatz Neustadt-Glewe",
+  "venueEn": "Neustadt-Glewe Airfield",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le plus gros festival de dance music du nord-est de l'Allemagne investit chaque été l'ancien aérodrome de Neustadt-Glewe, entre Hambourg et Berlin. L'édition 2027 marque les 25 ans et passe pour la première fois à quatre jours de programme, avec une journée d'ouverture le mercredi. Le thème annoncé est l'Australie, et l'affiche mêle EDM, hardstyle, techno, psytrance et drum & bass.",
+  "descEn": "The biggest dance music festival in north-eastern Germany takes over the former Neustadt-Glewe airfield every summer, halfway between Hamburg and Berlin. The 2027 edition marks 25 years and adds a fourth official day for the first time, with the opening programme starting on the Wednesday. The announced theme is Australia, and the bill spans EDM, hardstyle, techno, psytrance and drum & bass.",
+  "sources": [
+   "https://airbeat-one.de/en/",
+   "https://airbeat-one.de/tickets/"
+  ],
+  "note": "Adresse: Flugplatz Neustadt-Glewe, Flugplatzstrasse, 19306 Neustadt-Glewe, Mecklenburg-Vorpommern. Coordonnees relevees sur OpenStreetMap (noeud Flugplatz Neustadt-Glewe). Tarif 108,90 EUR annonce comme prix de depart de la phase en cours, donc indicatif. Heure d'ouverture des portes non publiee sur le site, 12:00 est indicatif. Line-up complet non encore annonce."
+ },
+ {
+  "title": "Feel Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House",
+   "Drum & Bass"
+  ],
+  "city": "Lichterfeld",
+  "country": "Germany",
+  "lat": 51.5718,
+  "lng": 13.79106,
+  "date": "2027-07-22",
+  "endDate": "2027-07-25",
+  "time": "12:00",
+  "price": 155,
+  "currency": "EUR",
+  "venue": "Bergheider See",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le Feel Festival se tient au bord du Bergheider See, un ancien site minier de Basse-Lusace reconverti en lac, a une heure et demie au sud de Berlin. Dix-sept scenes y couvrent la techno, la house, le disco, le hip hop et les concerts live, pour une jauge d'environ 15 000 personnes. L'organisation revendique un programme parallele d'ateliers et de conferences sur les questions ecologiques et queer feministes.",
+  "descEn": "Feel Festival takes place on the shore of Bergheider See, a former Lower Lusatia mining site turned lake, about ninety minutes south of Berlin. Seventeen stages cover techno, house, disco, hip hop and live acts for a capacity of around 15,000. The organisers run a parallel programme of workshops and talks on ecological and queer feminist topics.",
+  "sources": [
+   "https://feel-festival.de/",
+   "https://feel-festival.de/tickets",
+   "https://feel-festival.de/info"
+  ],
+  "note": "Adresse: Bergheider Strasse, 03238 Bergheider See, Lichterfeld-Schacksdorf, Brandenburg. Coordonnees relevees sur OpenStreetMap (Bergheider See). Tarif 155 EUR annonce comme prix de depart, donc indicatif. Line-up volontairement tenu secret par l'organisateur jusqu'au festival. Heure d'ouverture non publiee, 12:00 indicatif."
+ },
+ {
+  "title": "Wilde Moehre Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Drebkau",
+  "country": "Germany",
+  "lat": 51.66866,
+  "lng": 14.10969,
+  "date": "2027-08-20",
+  "endDate": "2027-08-23",
+  "time": "16:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Wilde Moehre Festivalgelaende Goeritz",
+  "venueEn": "Wilde Moehre festival grounds, Goeritz",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le Wilde Moehre se tient sur un terrain boise de Goeritz, dans la commune de Drebkau au sud de Cottbus, pres du lac de Graebendorf. Le festival melange musique electronique, installations artistiques, ateliers do it yourself et yoga, et fonctionne entierement sans especes. L'edition 2027 est la premiere organisee sous la cooperative Mit Freude eG, qui ouvre le lieu a d'autres formats en plus du festival principal.",
+  "descEn": "Wilde Moehre is held on a wooded site at Goeritz, in the municipality of Drebkau south of Cottbus, close to Graebendorfer See. The festival mixes electronic music with art installations, DIY workshops and yoga, and runs entirely cashless. The 2027 edition is the first organised under the Mit Freude eG cooperative, which opens the site to further formats alongside the main festival.",
+  "sources": [
+   "https://wildemoehrefestival.de/",
+   "https://tickets.infield.live/checkout/wilde-mohre-festival-2027-m7656i"
+  ],
+  "note": "Adresse: Goeritz 5, 03116 Drebkau, Brandenburg. Coordonnees relevees sur OpenStreetMap (noeud nomme Wilde Moehre, Goeritz 5). Horaires exacts issus de la billetterie infield: 20/08/2027 16:00 au 23/08/2027 10:00. Tarif non communique sur les pages publiques (billetterie infield sans grille visible). Line-up 2027 non encore annonce.",
+  "ticketUrl": "https://tickets.infield.live/checkout/wilde-mohre-festival-2027-m7656i"
+ },
+ {
+  "title": "Nation of Gondwana",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Gruenefeld",
+  "country": "Germany",
+  "lat": 52.6841,
+  "lng": 12.96238,
+  "date": "2027-07-15",
+  "endDate": "2027-07-18",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Waldsee Gruenefeld",
+  "venueEn": "Waldsee Gruenefeld lake site",
+  "trending": false,
+  "lineup": [],
+  "desc": "Organise par le collectif berlinois Pyonen depuis le debut des annees 1990, Nation of Gondwana se tient autour du Waldsee de Gruenefeld, une ancienne graviere au nord-ouest de Berlin. La programmation couvre la house, la techno, la tech house et les plages ambient, avec des scenes construites sur mesure chaque annee. La jauge reste volontairement limitee et la vente de billets se fait par vagues.",
+  "descEn": "Run by the Berlin collective Pyonen since the early 1990s, Nation of Gondwana takes place around the Waldsee at Gruenefeld, a former gravel pit north-west of Berlin. The programme covers house, techno, tech house and ambient, on stages purpose-built each year. Capacity is deliberately limited and tickets are released in waves.",
+  "sources": [
+   "https://events.musicofourdesire.com/de/event/1xvk-nation-of-gondwana-2027-festival-berlin-germany",
+   "https://www.festivalsunited.com/festivals/nation-of-gondwana",
+   "https://de.wikipedia.org/wiki/Nation_of_Gondwana"
+  ],
+  "note": "Adresse: Zur Kiesgrube, Waldsee Gruenefeld, 14621 Schoenwalde-Glien, Brandenburg. Coordonnees relevees sur OpenStreetMap (Waldsee, Gruenefeld). Dates 15 au 18 juillet 2027 lues sur la billetterie Mood et recoupees par festivalsunited, le site officiel pyonen.de n'ayant pas encore de page 2027 accessible: a re-verifier. Tarif non communique. Line-up non annonce. Heure d'ouverture non publiee, 12:00 indicatif."
+ },
+ {
+  "title": "Tresor meets ENIGMA",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-09-11",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Aerae",
+   "Anthony Linell",
+   "DAHRAXT",
+   "Feral",
+   "DjRUM",
+   "Octoptic",
+   "Viiaan"
+  ],
+  "desc": "Le Tresor ouvre ses deux etages a la plateforme ENIGMA pour une nuit partagee entre la salle du sous sol et le Globus. Anthony Linell et DjRUM figurent parmi les noms annonces, aux cotes de Feral en live. Installe depuis 2007 dans l'ancienne centrale electrique de la Koepenicker Strasse, le club reste l'une des adresses fondatrices de la techno berlinoise.",
+  "descEn": "Tresor opens both its floors to the ENIGMA platform for a night split between the basement room and Globus. Anthony Linell and DjRUM are among the announced names, alongside a live set from Feral. Housed since 2007 in the former power plant on Koepenicker Strasse, the club remains one of the founding addresses of Berlin techno.",
+  "sources": [
+   "https://tresorberlin.com/event/20260911-tresor-meets-enigma/",
+   "https://tresorberlin.com/club/events/",
+   "https://tresorberlin.com/club/location/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement, la billetterie passe par Resident Advisor qui est inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "Tresor invites Surgeon",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-09-12",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Surgeon",
+   "Erik Jabari",
+   "Phalcon",
+   "re:ni",
+   "Colleen 'Cosmo' Murphy",
+   "Sara Miller",
+   "Vio PRG"
+  ],
+  "desc": "Le Tresor invite Surgeon, figure de la techno britannique de Birmingham et habitue historique du club. La nuit se partage entre le sous sol et le Globus, ou Colleen Cosmo Murphy tient une session disco et house. re:ni et Erik Jabari completent l'affiche du bas.",
+  "descEn": "Tresor invites Surgeon, the Birmingham techno figure and a long-standing regular at the club. The night is split between the basement and Globus, where Colleen Cosmo Murphy plays a disco and house session. re:ni and Erik Jabari complete the downstairs bill.",
+  "sources": [
+   "https://tresorberlin.com/event/20260912-tresor-invites-surgeon/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees OpenStreetMap (noeud Tresor Berlin). Tarif non communique par le club, billetterie Resident Advisor inaccessible. Heure 23:00 indicative, reprise des horaires d'ouverture du club."
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Saltarus w/ Alignment & Kim Ahlf",
+  "genres": [
+   "Hard Techno",
+   "Techno",
+   "Trance"
+  ],
+  "date": "2026-09-19",
+  "time": "23:59",
+  "price": 20.99,
+  "lineup": [
+   "Alignment",
+   "Kim Ahlf"
+  ],
+  "desc": "Le collectif Saltarus revient au Uebel & Gefaehrlich pour son deuxieme passage, avec Alignment en tete d'affiche pour l'ouverture de la saison de club. La soiree occupe le Saal et le Turmzimmer, les deux etages du bunker de la Feldstrasse. L'organisateur annonce un programme entre groove, trance, bounce et hard techno.",
+  "descEn": "The Saltarus collective returns to Uebel & Gefaehrlich for its second edition, with Alignment headlining the opening of the club season. The night takes over both the Saal and the Turmzimmer inside the Feldstrasse bunker. The promoter announces a programme spanning groove, trance, bounce and hard techno.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/saltarus-w-alignment-kim-ahlf/",
+   "https://xceed.me/en/hamburg/event/saltarus-w-alignment-kim-ahlf/237827"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/saltarus-w-alignment-kim-ahlf/237827",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Liquicity Hamburg",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "date": "2026-09-25",
+  "time": "23:59",
+  "price": 34,
+  "lineup": [],
+  "desc": "Le label neerlandais Liquicity, reference du liquid drum and bass depuis 2010, pose sa soiree au Uebel & Gefaehrlich. Les deux salles du quatrieme etage du bunker de la Feldstrasse sont ouvertes pour l'occasion. Le line-up detaille n'est pas publie sur la page de la salle.",
+  "descEn": "Dutch label Liquicity, a reference in liquid drum and bass since 2010, brings its club night to Uebel & Gefaehrlich. Both rooms on the fourth floor of the Feldstrasse bunker are open for the occasion. No detailed line-up is published on the venue page.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/liquicity/",
+   "https://xceed.me/en/hamburg/event/liquicity-1/224472"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/liquicity-1/224472",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. Le premier palier a 30 EUR est epuise, 34 EUR est le tarif encore vendu."
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Bunker Rave Schranz Edition",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "date": "2026-09-26",
+  "time": "23:59",
+  "price": 20.99,
+  "lineup": [
+   "Aiden",
+   "Svetec",
+   "AH-NICE",
+   "Kaizen"
+  ],
+  "desc": "La Bunker Rave du Uebel & Gefaehrlich passe en edition schranz, avec Aiden et Svetec en tete d'affiche et AH-NICE et Kaizen en soutien. La soiree se tient dans le Saal, l'ancienne salle de tir du bunker anti-aerien de la Feldstrasse. L'entree est reservee aux plus de 18 ans et les photos sont interdites sur le dancefloor.",
+  "descEn": "Uebel & Gefaehrlich's Bunker Rave switches to a schranz edition, with Aiden and Svetec headlining and AH-NICE and Kaizen in support. The night takes place in the Saal, inside the Feldstrasse flak bunker. Entry is 18+ and photography is banned on the dancefloor.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/bunker-rave-schranz-edition-w-aiden-svetec/",
+   "https://xceed.me/en/hamburg/event/bunker-rave-schranz-edition-w-aiden-svetec-ah-nice-kaizen/241235"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/bunker-rave-schranz-edition-w-aiden-svetec-ah-nice-kaizen/241235",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Innerblum w/ Karla Blum, LEVT, MHA Iri",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "date": "2026-10-10",
+  "time": "23:59",
+  "price": 29.33,
+  "lineup": [
+   "Karla Blum",
+   "LEVT",
+   "MHA Iri"
+  ],
+  "desc": "Karla Blum installe sa serie Innerblum dans le Saal du Uebel & Gefaehrlich, entouree de LEVT et de MHA Iri. Le format met en avant une techno rapide et melodique portee par la scene allemande actuelle. La soiree se joue sur un seul etage du bunker.",
+  "descEn": "Karla Blum brings her Innerblum series to the Saal at Uebel & Gefaehrlich, joined by LEVT and MHA Iri. The format highlights the fast, melodic techno of the current German scene. The night runs on a single floor of the bunker.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/innerblum-w-karla-blum-levt-mha-iri/",
+   "https://xceed.me/en/hamburg/event/innerblum-w-karla-blum-levt-mha-iri/237886"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/innerblum-w-karla-blum-levt-mha-iri/237886",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Senso Sounds pres. Resonanz",
+  "genres": [
+   "Techno"
+  ],
+  "date": "2026-10-16",
+  "time": "23:59",
+  "price": 25,
+  "lineup": [
+   "Kaufmann",
+   "Victor Ruiz",
+   "Oliver Huntemann",
+   "Andre Winter"
+  ],
+  "desc": "Le label Senso Sounds d'Oliver Huntemann installe sa nuit Resonanz au Uebel & Gefaehrlich, avec Victor Ruiz, Kaufmann et Andre Winter a ses cotes. Les quatre artistes partagent le Saal jusqu'au petit matin. C'est une techno de club structurée, dans la lignée des sorties du label hambourgeois.",
+  "descEn": "Oliver Huntemann's Senso Sounds label brings its Resonanz night to Uebel & Gefaehrlich, with Victor Ruiz, Kaufmann and Andre Winter alongside him. The four artists share the Saal until the early morning. The sound is structured club techno, in line with the Hamburg label's catalogue.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/senso-sounds-pres-resonanz-w-kaufmann-victor-ruiz-oliver-huntemann-andre-winter/",
+   "https://xceed.me/en/hamburg/event/senso-sounds-pres-resonanz-w-kaufmann-victor-ruiz-oliver-huntemann-andre-winter/241755"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/senso-sounds-pres-resonanz-w-kaufmann-victor-ruiz-oliver-huntemann-andre-winter/241755",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Rotation w/ Aerea & Iman Janes",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "date": "2026-10-23",
+  "time": "23:59",
+  "price": 20.99,
+  "lineup": [
+   "Aerea",
+   "Iman Janes"
+  ],
+  "desc": "La serie Rotation revient dans le Saal du Uebel & Gefaehrlich avec Aerea en live et Iman Janes aux platines. Le format mise sur des sets longs plutot que sur une succession de passages courts. Entree reservee aux plus de 18 ans.",
+  "descEn": "The Rotation series returns to the Saal at Uebel & Gefaehrlich with Aerea playing live and Iman Janes on decks. The format favours long sets over a run of short slots. Entry is 18+.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/rotation-w-aerea-live-iman-janes/",
+   "https://xceed.me/en/hamburg/event/rotation-w-aerea-live-iman-james/243278"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/rotation-w-aerea-live-iman-james/243278",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "One Night with Felix Kroecher",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "date": "2026-11-13",
+  "time": "23:59",
+  "price": 25.52,
+  "lineup": [
+   "Felix Kroecher"
+  ],
+  "desc": "Felix Kroecher tient un set de quatre heures dans le Saal du Uebel & Gefaehrlich, seul aux platines toute la nuit. Le DJ de Francfort, passe par la hard techno puis par la techno de club, est l'un des rares Allemands a tenir ce format en solo. Une seule categorie de billet est mise en vente.",
+  "descEn": "Felix Kroecher plays a four hour set in the Saal at Uebel & Gefaehrlich, alone on the decks for the whole night. The Frankfurt DJ, who moved from hard techno towards club techno, is one of the few German artists holding this solo format. A single ticket category is on sale.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/one-night-with-felix-kroecher-4h-set/",
+   "https://xceed.me/en/hamburg/event/one-night-with-felix-krocher/240707"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/one-night-with-felix-krocher/240707",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "city": "Hamburg",
+  "country": "Germany",
+  "lat": 53.55655,
+  "lng": 9.97042,
+  "venue": "Uebel & Gefaehrlich",
+  "currency": "EUR",
+  "trending": false,
+  "type": "Club",
+  "title": "Oliver Schories All Night Long",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "date": "2026-11-14",
+  "time": "23:59",
+  "price": 25.52,
+  "lineup": [
+   "Oliver Schories"
+  ],
+  "desc": "Oliver Schories joue toute la nuit dans le Saal du Uebel & Gefaehrlich, sans premiere partie. Le producteur de Hambourg, fondateur du label Der Turke, est identifie a une house profonde et melodique. Le format all night long lui laisse la totalite du set.",
+  "descEn": "Oliver Schories plays all night in the Saal at Uebel & Gefaehrlich, with no support act. The Hamburg producer, founder of the Der Turke label, is associated with deep, melodic house. The all night long format hands him the entire set.",
+  "sources": [
+   "https://www.uebelundgefaehrlich.com/veranstaltungen/oliver-schories-all-night-long-2/",
+   "https://xceed.me/en/hamburg/event/oliver-schories-all-night-long/240709"
+  ],
+  "ticketUrl": "https://xceed.me/en/hamburg/event/oliver-schories-all-night-long/240709",
+  "note": "Adresse: Feldstrasse 66, 4e etage, 20359 Hamburg (bunker de la Feldstrasse, St. Pauli). Coordonnees relevees sur OpenStreetMap (noeud Uebel und Gefaehrlich) et recoupees avec le JSON-LD de la billetterie xceed (53.5564, 9.9700). Horaire et tarif lus dans le JSON-LD xceed, le tarif retenu est le palier le plus bas encore en vente. "
+ },
+ {
+  "title": "Hungry4 pres. Mall Grab au Prince Charles",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.50327,
+  "lng": 13.40896,
+  "date": "2026-09-11",
+  "time": "22:00",
+  "price": 24,
+  "currency": "EUR",
+  "venue": "Prince Charles",
+  "trending": false,
+  "lineup": [
+   "Mall Grab"
+  ],
+  "desc": "Le collectif Hungry4 invite l'Australien Mall Grab au Prince Charles, l'ancienne piscine reconvertie en club sous la Prinzenstrasse a Kreuzberg. Le DJ, connu pour sa lecture lo-fi de la house, joue jusqu'au petit matin. La soiree ouvre a 22 h.",
+  "descEn": "The Hungry4 collective invites Australian artist Mall Grab to Prince Charles, the former swimming pool turned club under Prinzenstrasse in Kreuzberg. The DJ, known for his lo-fi take on house, plays until the early morning. Doors are at 10pm.",
+  "sources": [
+   "https://xceed.me/en/berlin/event/hungry4-ps-mall-grab-more-at-prince-charles/244236"
+  ],
+  "ticketUrl": "https://xceed.me/en/berlin/event/hungry4-ps-mall-grab-more-at-prince-charles/244236",
+  "note": "Adresse: Prinzenstrasse 85F, 10969 Berlin. Coordonnees issues du JSON-LD de la billetterie xceed (location.geo). Horaire converti d'UTC (20:00Z) en heure locale CEST. Tarif 24 EUR, palier 2nd release encore en vente."
+ },
+ {
+  "title": "Bass Night Vol. 5 au Studio IIII",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.50212,
+  "lng": 13.36452,
+  "date": "2026-09-18",
+  "time": "22:00",
+  "price": 17,
+  "currency": "EUR",
+  "venue": "Studio IIII",
+  "trending": false,
+  "lineup": [],
+  "desc": "Cinquieme edition de la Bass Night au Studio IIII, une salle de la Potsdamer Strasse a deux pas du Kulturforum. La soiree est consacree aux musiques bass et au drum and bass. Le line-up detaille n'est pas publie sur la billetterie.",
+  "descEn": "Fifth edition of Bass Night at Studio IIII, a room on Potsdamer Strasse a short walk from the Kulturforum. The night is given over to bass music and drum and bass. No detailed line-up is published on the ticket page.",
+  "sources": [
+   "https://xceed.me/en/berlin/event/bass-night-vol-5/243163"
+  ],
+  "ticketUrl": "https://xceed.me/en/berlin/event/bass-night-vol-5/243163",
+  "note": "Adresse: Potsdamer Strasse 96, 10785 Berlin. Coordonnees issues du JSON-LD xceed (location.geo). Horaire converti d'UTC (20:00Z) en CEST. Le palier early bird a 10 EUR est epuise, 17 EUR est le tarif encore vendu."
+ },
+ {
+  "title": "Zurueck zu den Wurzeln",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Niedergoersdorf",
+  "country": "Germany",
+  "lat": 51.9987,
+  "lng": 12.99522,
+  "date": "2027-06-03",
+  "endDate": "2027-06-06",
+  "time": "12:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Alter Flugplatz Altes Lager",
+  "venueEn": "Altes Lager former airfield",
+  "trending": false,
+  "lineup": [],
+  "desc": "Le Wurzelfestival se tient sur l'ancien aerodrome militaire d'Altes Lager, a quatre-vingts kilometres au sud de Berlin, en Brandebourg. L'organisation annonce plus de deux cents artistes et une cinquantaine d'ateliers repartis sur quatre jours, dans un decor de foret baptise Secret Forest. La programmation est centree sur la techno et la house.",
+  "descEn": "Wurzelfestival takes place on the former military airfield at Altes Lager, eighty kilometres south of Berlin in Brandenburg. The organisers announce more than two hundred acts and around fifty workshops across four days, in a woodland setting they call the Secret Forest. The programming centres on techno and house.",
+  "sources": [
+   "https://www.wurzelfestival.de/",
+   "https://wurzelfestival-2027.reservix.de/events"
+  ],
+  "note": "Adresse: Flugplatzweg 6, 14913 Niedergoersdorf, OT Altes Lager, Brandenburg. Coordonnees obtenues par geocodage Nominatim de cette adresse. Dates 3 au 6 juin 2027 lues sur le site officiel (une source secondaire annonce le 2 juin comme jour d'arrivee). Tarif non communique, la billetterie Reservix repond 403 depuis ce conteneur. Line-up 2027 non annonce. Heure d'ouverture non publiee, 12:00 indicatif."
+ },
+ {
+  "title": "CTM Festival",
+  "type": "Festival",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2027-01-22",
+  "endDate": "2027-01-31",
+  "time": "20:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Divers lieux, Berlin",
+  "trending": false,
+  "lineup": [],
+  "desc": "Vingt-huitieme edition du CTM, le festival berlinois consacre aux musiques aventureuses, qui se deroule sur dix jours en janvier. Le programme melange concerts, nuits de club, tables rondes, laboratoires artistiques et projections, sous le theme annonce Process...ing. Le festival jumeau transmediale fete ses quarante ans du 28 au 31 janvier.",
+  "descEn": "Twenty-eighth edition of CTM, the Berlin festival for adventurous music, spread over ten days in January. The programme mixes concerts, club nights, discussions, artistic labs and screenings, under the announced theme Process...ing. Sister festival transmediale marks its fortieth anniversary from 28 to 31 January.",
+  "sources": [
+   "https://www.ctm-festival.de/festival-2027/welcome",
+   "https://www.ctm-festival.de/news/ctm-2027-festival-save-the-date"
+  ],
+  "note": "Programme reparti sur plusieurs salles (Radialsystem, Berghain, RSO.Berlin, Volksbuehne, Morphine Raum, Haus der Visionaere) et la salle principale 2027 n'est pas publiee. Le libelle multi-lieux est volontaire : il passe isMultiVenueLabel(), donc la fiche ne cree pas de page de salle et le bloc hotel s'annonce sur la ville. Le point est le centre de Berlin (Mitte). Dates 22-31 janvier 2027 du site officiel. Tarif non communique.",
+  "venueEn": "Various venues, Berlin"
+ },
+ {
+  "title": "Rabatz und Radau au Kulturzentrum Faust",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Trance"
+  ],
+  "city": "Hannover",
+  "country": "Germany",
+  "lat": 52.37652,
+  "lng": 9.71119,
+  "date": "2026-10-02",
+  "time": "00:00",
+  "price": 10,
+  "currency": "EUR",
+  "venue": "Kulturzentrum Faust",
+  "trending": false,
+  "lineup": [],
+  "desc": "La soiree Rabatz und Radau se tient dans le Mephisto, l'une des salles du Kulturzentrum Faust, l'ancienne fabrique de plumes de literie du quartier de Linden a Hanovre. Le programme annonce est techno et trance. L'ouverture est fixee a minuit et le tarif sur place est de 12 euros.",
+  "descEn": "The Rabatz und Radau night takes place in the Mephisto, one of the rooms at Kulturzentrum Faust, the former bedding feather factory in Hanover's Linden district. The announced programme is techno and trance. Doors are at midnight and the price on the door is 12 euros.",
+  "sources": [
+   "https://www.kulturzentrum-faust.de/veranstaltungen/oktober/021026-rabatz-und-radau.html",
+   "https://www.kulturzentrum-faust.de/veranstaltungen.html?rub=1"
+  ],
+  "note": "Adresse: Zur Bettfedernfabrik 3, 30451 Hannover (quartier Linden-Nord). Coordonnees obtenues par geocodage Nominatim de cette adresse. Le site annonce 'Einlass / Beginn: 24 Uhr' pour la nuit du vendredi 2 au samedi 3 octobre, d'ou l'heure 00:00. Tarif prevente 10 euros, 12 euros sur place. Line-up non publie."
+ },
+ {
+  "title": "Zappelkiste au Sektor Evolution",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Dresden",
+  "country": "Germany",
+  "lat": 51.0911,
+  "lng": 13.76712,
+  "date": "2026-10-03",
+  "time": "23:00",
+  "price": 15,
+  "currency": "EUR",
+  "venue": "Sektor Evolution",
+  "trending": false,
+  "lineup": [],
+  "desc": "Vingt-neuvieme edition de la Zappelkiste au Sektor Evolution, le club associatif installe dans la zone industrielle de la Neustadt de Dresde. La salle est tenue par l'association Sektor e.V., qui porte aussi un label et une trentaine de residents. L'ouverture des portes est a 23 heures et le tarif sur place est de 18 euros.",
+  "descEn": "Twenty-ninth edition of Zappelkiste at Sektor Evolution, the member-run club in the industrial area of Dresden's Neustadt. The venue is run by the Sektor e.V. association, which also runs a label and around thirty residents. Doors are at 11pm and the price on the door is 18 euros.",
+  "sources": [
+   "https://www.sektor-evolution.de/event/zappelkiste-29/",
+   "https://www.sektor-evolution.de/how-to-find-us/",
+   "https://pretix.eu/SektorEvolution/zk-29/"
+  ],
+  "ticketUrl": "https://pretix.eu/SektorEvolution/zk-29/",
+  "note": "Adresse: An der Eisenbahn 2, Industriegelaende, 01099 Dresden Neustadt. Coordonnees publiees par la salle elle-meme sur sa page How to find us (Navi-GPS-Code 51.091104, 13.767124). Tarif phase 1 a 15 euros hors frais, phase 2 a 17 euros, 18 euros sur place. Line-up annonce comme 'more info soon'."
+ },
+ {
+  "title": "Home Again Festival",
+  "type": "Festival",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.45965,
+  "lng": 13.5056,
+  "date": "2026-09-12",
+  "endDate": "2026-09-13",
+  "time": "14:00",
+  "price": 17,
+  "currency": "EUR",
+  "venue": "RSO.Berlin",
+  "trending": true,
+  "lineup": [
+   "Solomun",
+   "Chris Stussy",
+   "Eris Drew",
+   "Cassy",
+   "TSHA",
+   "Ryan Elliot",
+   "Dan Ghenacia",
+   "Robert Owens",
+   "Quest",
+   "Ferrari Rot",
+   "Sandile"
+  ],
+  "desc": "Le Home Again fete ses dix ans au RSO.Berlin, l'ancien depot de tramway de Niederschoeneweide devenu club. Le festival tient un marathon de deux jours en quatre sessions, jour et nuit, du samedi 14 heures au lundi matin, sur plusieurs espaces interieurs et exterieurs. Solomun, Chris Stussy, Eris Drew et Cassy figurent parmi les noms annonces.",
+  "descEn": "Home Again marks its tenth year at RSO.Berlin, the former Niederschoeneweide tram depot turned club. The festival runs a two day marathon in four sessions, day and night, from Saturday 2pm to Monday morning, across several indoor and outdoor spaces. Solomun, Chris Stussy, Eris Drew and Cassy are among the announced names.",
+  "sources": [
+   "https://homeagain.berlin/festival/",
+   "https://www.songkick.com/venues/4467864-rsoberlin"
+  ],
+  "note": "Adresse: Schnellerstrasse 137, 12439 Berlin (RSO.Berlin, Niederschoeneweide). Coordonnees obtenues par geocodage Nominatim de cette adresse. Sessions: samedi 12/09 14:00-22:00 et 22:00-10:00, dimanche 13/09 14:00-22:00 et 22:00-08:00. Tarif d'entree le plus bas 17 euros (billet a creneau), le pass complet monte a environ 99 euros. Entree 18 ans et plus."
+ },
+ {
+  "title": "Amelie Lens pres. AURA a Berlin",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.5049,
+  "lng": 13.44315,
+  "date": "2026-10-02",
+  "time": "20:00",
+  "price": 47.5,
+  "currency": "EUR",
+  "venue": "Uber Eats Music Hall",
+  "trending": true,
+  "lineup": [
+   "Amelie Lens"
+  ],
+  "desc": "Amelie Lens amene son show AURA a la Uber Eats Music Hall, la salle de 4 500 places de la Mercedes-Platz a Friedrichshain. La DJ et productrice belge y tient un set techno sur un format concert, portes a 18 h 30 et debut a 20 heures. C'est l'une des rares dates berlinoises ou elle joue en salle plutot qu'en club.",
+  "descEn": "Amelie Lens brings her AURA show to Uber Eats Music Hall, the 4,500 capacity room on Mercedes-Platz in Friedrichshain. The Belgian DJ and producer plays a techno set in a concert format, doors at 6.30pm and start at 8pm. It is one of the rare Berlin dates where she plays a hall rather than a club.",
+  "sources": [
+   "https://www.uber-eats-music-hall.de/en/events/detail/amelie-lens/2026-10-02-2000",
+   "https://www.berlin.de/en/tickets/concerts/amelie-lens-presents-aura-9b12a4a6-3987-49e4-8003-b0dd0ee4a684/"
+  ],
+  "ticketUrl": "https://www.uber-eats-music-hall.de/en/events/detail/amelie-lens/2026-10-02-2000",
+  "note": "Adresse: Uber Platz 1 (Mercedes-Platz), 10243 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Uber Eats Music Hall). Portes 18:30, debut 20:00 selon la page de la salle. Tarif le plus bas 47,50 EUR, les places de galerie montent a 89,90 EUR."
+ },
+ {
+  "title": "Gigi D'Agostino 360 Grad Live a Berlin",
+  "type": "Club",
+  "genres": [
+   "EDM",
+   "House",
+   "Trance"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.53074,
+  "lng": 13.45111,
+  "date": "2026-10-01",
+  "time": "21:00",
+  "price": 80.4,
+  "currency": "EUR",
+  "venue": "Velodrom",
+  "trending": false,
+  "lineup": [
+   "Gigi D'Agostino"
+  ],
+  "desc": "Gigi D'Agostino installe son show 360 Grad Live au Velodrom de Berlin, la salle couverte de Prenzlauer Berg construite pour le cyclisme sur piste. Le dispositif place la scene au centre, avec projections sur les murs et son enveloppant. Le producteur italien y reprend le repertoire dance qui l'a fait connaitre a la fin des annees 1990.",
+  "descEn": "Gigi D'Agostino brings his 360 Grad Live show to the Velodrom in Berlin, the covered arena in Prenzlauer Berg built for track cycling. The staging puts the stage in the centre, with wall projections and surround sound. The Italian producer revisits the dance repertoire that made his name in the late 1990s.",
+  "sources": [
+   "https://www.velodrom.de/en/events/event/gigi-dagostino",
+   "https://www.eventim.de/en/event/gigi-dagostino-360-grad-live-velodrom-21074739/",
+   "https://www.berlin.de/en/tickets/electronic-dance/gigi-d-agostino-360-grad-live/2026-10-01-gigi-d-agostino-360-grad-live-fa8c90ce-dae4-49a4-b90f-0732abbe7392/"
+  ],
+  "note": "Adresse: Paul-Heyse-Strasse 26, 10407 Berlin (entree principale a la gare S-Bahn Landsberger Allee). Coordonnees relevees sur OpenStreetMap (noeud Velodrom). Debut 21:00. Tarif le plus bas releve 80,40 EUR sur les billetteries, a re-verifier, les domaines eventim et ticketmaster ne sont pas lisibles directement depuis ce conteneur."
+ },
+ {
+  "title": "Tresor meets TSSRCT",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-09-18",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Civic Instruction",
+   "Earwax",
+   "Ireen Amnes",
+   "Talismann",
+   "MASCHA",
+   "Mor Elian",
+   "Ranma Entero"
+  ],
+  "desc": "Le Tresor accueille le collectif TSSRCT sur ses deux etages, avec Ireen Amnes et Talismann au sous sol et Mor Elian au Globus. Civic Instruction joue en live. La soiree reste dans une techno dure et industrielle, la couleur du club depuis son installation dans l'ancienne centrale electrique de la Koepenicker Strasse.",
+  "descEn": "Tresor hands both floors to the TSSRCT collective, with Ireen Amnes and Talismann in the basement and Mor Elian on Globus. Civic Instruction plays live. The night stays in hard, industrial techno, the colour of the club since it moved into the former power plant on Koepenicker Strasse.",
+  "sources": [
+   "https://tresorberlin.com/event/20260918-tresor-meets-tssrct/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "Tresor meets Non Series",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-09-25",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Neel",
+   "Psyk",
+   "CONCEPTUAL",
+   "Toxido Mask",
+   "Rosa Red",
+   "Sanctuary",
+   "Vera Logdanidi"
+  ],
+  "desc": "Le label madrilene Non Series, dirige par Psyk, prend les commandes du Tresor pour une nuit. Neel et Psyk se partagent le sous sol, Vera Logdanidi et Sanctuary tiennent le Globus. C'est une techno hypnotique et depouillee, marque de fabrique du label.",
+  "descEn": "Madrid label Non Series, run by Psyk, takes over Tresor for the night. Neel and Psyk share the basement while Vera Logdanidi and Sanctuary handle Globus. The sound is the hypnotic, stripped back techno the label is known for.",
+  "sources": [
+   "https://tresorberlin.com/event/20260925-tresor-meets-non-series/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "T35: Tresor Records 35th Anniversary Day One",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-10-02",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Function",
+   "Maedon",
+   "Sterac",
+   "quest?onmarq",
+   "Nadia Struiwigh",
+   "NVST",
+   "The Burrell Connection",
+   "Briain",
+   "VCO"
+  ],
+  "desc": "Premiere des deux nuits organisees pour les trente cinq ans du label Tresor Records, fonde en 1991 dans le sillage du club. Function, Sterac et Maedon jouent au sous sol, The Burrell Connection et Nadia Struiwigh occupent le Globus. Le label a publie une grande partie de la techno de Detroit editee en Europe.",
+  "descEn": "First of two nights marking thirty five years of Tresor Records, founded in 1991 alongside the club. Function, Sterac and Maedon play the basement, while The Burrell Connection and Nadia Struiwigh take Globus. The label released much of the Detroit techno that reached Europe.",
+  "sources": [
+   "https://tresorberlin.com/event/20261002-t35-tresor-records-35th-anniversary-day-one/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "T35: Tresor Records 35th Anniversary Day Two",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-10-03",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "The Advent",
+   "Shed",
+   "Terrence Dixon",
+   "LNS",
+   "DJ Plant Texture",
+   "Shawescape Renegade",
+   "Chloe Lula",
+   "Ireen Amnes",
+   "Fireground",
+   "Thomas Hoffmann"
+  ],
+  "desc": "Seconde nuit des trente cinq ans de Tresor Records, avec The Advent au sous sol et Shed, LNS et Terrence Dixon au Globus. Plusieurs artistes jouent en live plutot qu'en DJ set. L'affiche croise les generations du catalogue, de Detroit aux signatures recentes.",
+  "descEn": "Second night of the Tresor Records thirty fifth anniversary, with The Advent in the basement and Shed, LNS and Terrence Dixon on Globus. Several artists play live rather than DJ sets. The bill crosses the generations of the catalogue, from Detroit to recent signings.",
+  "sources": [
+   "https://tresorberlin.com/event/20261003-t35-tresor-records-35th-anniversary-day-two/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "Tresor meets WIGS",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Acid Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-10-16",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Cari Lekebusch",
+   "IMOGEN",
+   "TSUNIMAN",
+   "Vel",
+   "Afra",
+   "CEM3340",
+   "L.F.T."
+  ],
+  "desc": "La plateforme WIGS invite le Suedois Cari Lekebusch en back to back avec IMOGEN au sous sol du Tresor. Le Globus recoit L.F.T. et CEM3340 en live. La soiree fait la part belle aux machines et a une techno acide jouee en direct.",
+  "descEn": "The WIGS platform invites Sweden's Cari Lekebusch for a back to back with IMOGEN in the Tresor basement. Globus hosts L.F.T. and CEM3340 live. The night leans on hardware and acid-leaning techno played live.",
+  "sources": [
+   "https://tresorberlin.com/event/20261016-tresor-meets-wigs/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "Tresor meets Daniel Bell: BEYOND",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-10-23",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Daniel Bell",
+   "Adam X",
+   "Ecilo",
+   "Peryl",
+   "Pooja B"
+  ],
+  "desc": "Daniel Bell, l'un des noms de la minimale de Detroit, tient le Globus du Tresor pour sa serie BEYOND. Adam X et Peryl en live occupent le sous sol. Le format met en avant des sets longs et une techno reduite a l'essentiel.",
+  "descEn": "Daniel Bell, one of the names of Detroit minimal, takes the Globus floor at Tresor for his BEYOND series. Adam X and a live set from Peryl fill the basement. The format favours long sets and techno stripped to its essentials.",
+  "sources": [
+   "https://tresorberlin.com/event/20261023-tresor-meets-daniel-bell-beyond/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "Tresor meets Downwards Records",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.51068,
+  "lng": 13.41948,
+  "date": "2026-10-30",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Tresor",
+  "trending": false,
+  "lineup": [
+   "Regis",
+   "Oliver Ho",
+   "Scion",
+   "OAKE",
+   "Blu Aloe",
+   "Helm",
+   "Irazu",
+   "Test Dept"
+  ],
+  "desc": "Le label anglais Downwards, fonde par Regis a Birmingham en 1993, prend les deux etages du Tresor. Regis joue en live et en DJ set, Test Dept et Helm completent le Globus, Scion et OAKE tiennent le sous sol. C'est la rencontre de deux histoires paralleles de la techno industrielle.",
+  "descEn": "English label Downwards, founded by Regis in Birmingham in 1993, takes both Tresor floors. Regis plays live and DJ, Test Dept and Helm fill Globus, Scion and OAKE hold the basement. It brings together two parallel histories of industrial techno.",
+  "sources": [
+   "https://tresorberlin.com/event/20261030-tresor-meets-downwards-records/",
+   "https://tresorberlin.com/club/events/",
+   "https://www.top10berlin.de/en/cat/night-life-259/electro-clubs-1383/tresor-club-793"
+  ],
+  "note": "Adresse: Koepenicker Strasse 70, 10179 Berlin. Coordonnees relevees sur OpenStreetMap (noeud Tresor Berlin). Le site du club ne publie ni horaire ni tarif par evenement et sa billetterie passe par Resident Advisor, inaccessible depuis ce conteneur: tarif non communique. Heure 23:00 reprise des horaires d'ouverture du club releves sur l'annuaire top10berlin (23:00 les mercredi, vendredi et samedi), indicatif."
+ },
+ {
+  "title": "The Prodigy a Berlin",
+  "type": "Club",
+  "genres": [
+   "EDM",
+   "Drum & Bass",
+   "Techno"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.53074,
+  "lng": 13.45111,
+  "date": "2026-11-21",
+  "time": "20:00",
+  "price": 79.8,
+  "currency": "EUR",
+  "venue": "Velodrom",
+  "trending": false,
+  "lineup": [
+   "The Prodigy"
+  ],
+  "desc": "The Prodigy joue au Velodrom de Berlin dans le cadre de sa tournee europeenne 2026. Le groupe d'Essex, actif depuis 1990, defend un repertoire ou se croisent breakbeat, rave et attitude punk. La salle de Prenzlauer Berg, construite pour le cyclisme sur piste, sert ici de grande salle de concert.",
+  "descEn": "The Prodigy play the Velodrom in Berlin as part of their 2026 European tour. The Essex group, active since 1990, carry a repertoire where breakbeat, rave and punk attitude meet. The Prenzlauer Berg arena, built for track cycling, is used here as a large concert hall.",
+  "sources": [
+   "https://www.berlin.de/en/tickets/electronic-dance/the-prodigy-the-european-tour-2026-14456dcf-cd6b-4bcb-9fb6-b2339fb34f06/",
+   "https://www.velodrom.de/en/events"
+  ],
+  "note": "Adresse: Paul-Heyse-Strasse 26, 10407 Berlin-Prenzlauer Berg. Coordonnees relevees sur OpenStreetMap (noeud Velodrom). Debut 20:00, tarif le plus bas 79,80 EUR selon la fiche berlin.de."
+ },
+ {
+  "title": "twocolors Under My Skin Live a Berlin",
+  "type": "Club",
+  "genres": [
+   "House",
+   "EDM"
+  ],
+  "city": "Berlin",
+  "country": "Germany",
+  "lat": 52.50725,
+  "lng": 13.45479,
+  "date": "2027-03-21",
+  "time": "20:00",
+  "price": 29.55,
+  "currency": "EUR",
+  "venue": "Cassiopeia",
+  "trending": false,
+  "lineup": [
+   "twocolors"
+  ],
+  "desc": "Le duo berlinois twocolors passe au Cassiopeia, la salle du RAW-Gelaende sur la Revaler Strasse a Friedrichshain, pour sa premiere tournee europeenne des clubs. Le set reprend les titres qui ont fait connaitre le projet, dont Lovefool et Bloodstream. Le registre est une house pop taillee pour les grandes scenes.",
+  "descEn": "Berlin duo twocolors play Cassiopeia, the venue on the RAW site on Revaler Strasse in Friedrichshain, as part of their first European club tour. The set revisits the tracks that made the project's name, among them Lovefool and Bloodstream. The register is pop-leaning house built for big stages.",
+  "sources": [
+   "https://www.berlin.de/en/tickets/electronic-dance/twocolors-under-my-skin-live-2027-d3ef75aa-f0b0-49f3-8e14-f7e371880aed/"
+  ],
+  "note": "Adresse: Revaler Strasse 99, 10245 Berlin-Friedrichshain (RAW-Gelaende). Coordonnees relevees sur OpenStreetMap (noeud Cassiopeia, Revaler Strasse 99). Debut 20:00, tarif le plus bas 29,55 EUR."
+ },
+ {
+  "title": "Deep Woods auf Wolkezwei",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Trance",
+   "Techno"
+  ],
+  "city": "Leipzig",
+  "country": "Germany",
+  "lat": 51.36261,
+  "lng": 12.40346,
+  "date": "2026-09-13",
+  "time": "15:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Wolkezwei",
+  "trending": false,
+  "lineup": [
+   "Pretty Pink",
+   "Cosmic Gate",
+   "Max Soler",
+   "Mokx"
+  ],
+  "desc": "Pretty Pink installe son label Deep Woods sur le Wolkezwei, l'espace vert amenage dans l'ancienne peignerie de laine de Leipzig-Schoenefeld. Cosmic Gate est annonce en invite special, aux cotes de Max Soler et Mokx. L'open air se tient de 15 h a 22 h et sert de cloture du lieu, avec un repli en interieur en cas de pluie.",
+  "descEn": "Pretty Pink brings her Deep Woods label to Wolkezwei, the green space set up in Leipzig's former wool combing mill in Schoenefeld. Cosmic Gate is announced as special guest, alongside Max Soler and Mokx. The open air runs from 3pm to 10pm and doubles as the closing of the location, with an indoor fallback if it rains.",
+  "sources": [
+   "https://wolkezweileipzig.de/deep-woods-auf-wolkezwei/",
+   "https://www.tixforgigs.com/Event/70959/deep-woods-auf-wolkezwei-leipzigs-sonntages-open-air-wolkezwei-leipzig"
+  ],
+  "ticketUrl": "https://www.tixforgigs.com/Event/70959/deep-woods-auf-wolkezwei-leipzigs-sonntages-open-air-wolkezwei-leipzig",
+  "note": "Adresse: Alte Wollkaemmerei, Volbedingstrasse 2, 04357 Leipzig-Schoenefeld. Coordonnees relevees sur OpenStreetMap (Alte Wollkaemmerei, Volbedingstrasse 2), la page de l'organisateur ne donne pas d'adresse postale complete: a re-verifier. Tarif d'appel 12 EUR hors frais selon la page officielle, une source secondaire annonce 17 EUR pour les paliers suivants. Horaires 15:00 a 22:00."
+ },
+ {
+  "title": "eli invites Tresor.West",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Leipzig",
+  "country": "Germany",
+  "lat": 51.32536,
+  "lng": 12.33102,
+  "date": "2026-09-11",
+  "time": "23:59",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Elipamanoke",
+  "trending": false,
+  "lineup": [
+   "Rostom",
+   "Lip71",
+   "Dychromatic"
+  ],
+  "desc": "L'Elipamanoke invite le Tresor.West, l'antenne de Duisbourg du club berlinois, pour une nuit techno. Le club de Plagwitz, installe pres de la Weisse Elster, fonctionne sans photos ni videos, les appareils sont scelles a l'entree. Les portes ouvrent a minuit.",
+  "descEn": "Elipamanoke invites Tresor.West, the Duisburg outpost of the Berlin club, for a techno night. The Plagwitz venue, close to the Weisse Elster river, runs a strict no photo no video policy with phone cameras taped at the door. Doors open at midnight.",
+  "sources": [
+   "https://techno-essentials.de/pages/techno-events-leipzig",
+   "https://www.elipamanoke.de/impressum/"
+  ],
+  "note": "Adresse: Markranstaedter Strasse 4, 04229 Leipzig-Plagwitz (relevee sur l'impressum du club). Coordonnees relevees sur OpenStreetMap (noeud Elipamanoke). Evenement releve sur le calendrier techno-essentials.de, un agregateur qui compile des sources publiques et n'affiche pas les tarifs: prix non communique, a re-verifier sur la billetterie du club. Line-up partiel, l'agregateur annonce trois noms plus trois autres non cites."
+ },
+ {
+  "title": "KOSMOS with Konfusia",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Leipzig",
+  "country": "Germany",
+  "lat": 51.32536,
+  "lng": 12.33102,
+  "date": "2026-10-03",
+  "time": "23:59",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Elipamanoke",
+  "trending": false,
+  "lineup": [
+   "Konfusia",
+   "Aio",
+   "FLAVE"
+  ],
+  "desc": "La serie KOSMOS revient a l'Elipamanoke avec Konfusia en tete d'affiche, accompagnee d'Aio et de FLAVE. Le club de Plagwitz est connu pour ses nuits longues et son sound system frontal. Les portes ouvrent a minuit.",
+  "descEn": "The KOSMOS series returns to Elipamanoke with Konfusia headlining, joined by Aio and FLAVE. The Plagwitz club is known for its long nights and its direct sound system. Doors open at midnight.",
+  "sources": [
+   "https://techno-essentials.de/pages/techno-events-leipzig",
+   "https://www.elipamanoke.de/impressum/"
+  ],
+  "note": "Adresse: Markranstaedter Strasse 4, 04229 Leipzig-Plagwitz (relevee sur l'impressum du club). Coordonnees relevees sur OpenStreetMap (noeud Elipamanoke). Evenement releve sur le calendrier techno-essentials.de, un agregateur qui compile des sources publiques et n'affiche pas les tarifs: prix non communique, a re-verifier sur la billetterie du club. Line-up partiel, l'agregateur annonce trois noms plus un autre non cite."
+ },
+ {
+  "title": "METRO x Distillery New Kids",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Leipzig",
+  "country": "Germany",
+  "lat": 51.32142,
+  "lng": 12.40101,
+  "date": "2026-09-26",
+  "time": "14:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Distillery",
+  "trending": false,
+  "lineup": [
+   "clemi",
+   "jewelry",
+   "marengo"
+  ],
+  "desc": "La Distillery, l'un des plus vieux clubs techno d'Allemagne de l'Est, ouvre sa journee New Kids avec le collectif METRO. Le format demarre a 14 heures et met en avant des artistes en debut de parcours. Le club a demenage en 2025 dans l'ancien parc des expositions, sur l'Eggebrechtstrasse.",
+  "descEn": "Distillery, one of the oldest techno clubs in eastern Germany, opens its New Kids day with the METRO collective. The format starts at 2pm and puts early-career artists forward. The club moved in 2025 to the old exhibition grounds on Eggebrechtstrasse.",
+  "sources": [
+   "https://techno-essentials.de/pages/techno-events-leipzig",
+   "https://www.findglocal.com/DE/Leipzig/75155048526/DISTILLERY"
+  ],
+  "note": "Adresse: Eggebrechtstrasse 2, 04103 Leipzig (nouvelle adresse du club depuis le 30 aout 2025, ancien parc des expositions). Coordonnees relevees sur OpenStreetMap (noeud Distillery). Evenement releve sur le calendrier techno-essentials.de, un agregateur qui compile des sources publiques et n'affiche pas les tarifs: prix non communique, a re-verifier sur la billetterie du club. Line-up partiel, l'agregateur annonce trois noms plus sept autres non cites."
+ },
+ {
+  "title": "FAT BEMME x Boundless Beatz",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Leipzig",
+  "country": "Germany",
+  "lat": 51.32142,
+  "lng": 12.40101,
+  "date": "2026-10-02",
+  "time": "22:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "Distillery",
+  "trending": false,
+  "lineup": [
+   "SMG",
+   "audite",
+   "Dubbalot"
+  ],
+  "desc": "Les collectifs FAT BEMME et Boundless Beatz s'associent pour une nuit drum and bass a la Distillery. SMG, venu du Royaume-Uni, est annonce en tete d'affiche. La soiree demarre a 22 heures dans la salle de l'Eggebrechtstrasse.",
+  "descEn": "The FAT BEMME and Boundless Beatz collectives team up for a drum and bass night at Distillery. UK artist SMG is announced as headliner. The night starts at 10pm in the Eggebrechtstrasse room.",
+  "sources": [
+   "https://techno-essentials.de/pages/techno-events-leipzig",
+   "https://www.findglocal.com/DE/Leipzig/75155048526/DISTILLERY"
+  ],
+  "note": "Adresse: Eggebrechtstrasse 2, 04103 Leipzig (nouvelle adresse du club depuis le 30 aout 2025, ancien parc des expositions). Coordonnees relevees sur OpenStreetMap (noeud Distillery). Evenement releve sur le calendrier techno-essentials.de, un agregateur qui compile des sources publiques et n'affiche pas les tarifs: prix non communique, a re-verifier sur la billetterie du club. Line-up partiel, l'agregateur annonce trois noms plus un autre non cite."
+ }
+]

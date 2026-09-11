@@ -1,0 +1,562 @@
+[
+  {
+    "id": 2346,
+    "venue": "Hangaren",
+    "lat": 55.69144,
+    "lng": 12.61695,
+    "address": "Refshalevej 185, 1432 København K, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Refshalevej%20185%2C%201432%20K%C3%B8benhavn&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'house 185, Refshalevej' a Refshaleoen, identique au catalogue a 5 decimales. Adresse du lieu confirmee par refshaleoen.dk (Refshalevej 185)."
+  },
+  {
+    "id": 2170,
+    "venue": "Kaiku",
+    "lat": 60.18376,
+    "lng": 24.9599,
+    "address": "Kaikukatu 4, 00530 Helsinki, Finlande",
+    "source": "https://clubkaiku.fi/info/",
+    "status": "confirme",
+    "note": "Adresse lue sur la page Info officielle du club ('KAIKUKATU 4, 00530 HELSINKI'). Le geocodage de cette adresse rend le noeud OSM 'Kaiku' a 60.18376 / 24.95990, identique au catalogue. Attention: kaikuhelsinki.fi redirige vers l'agence de communication kaiku.fi (Lonnrotinkatu 11), qui n'est pas le club."
+  },
+  {
+    "id": 2207,
+    "venue": "Kaiku",
+    "lat": 60.18376,
+    "lng": 24.9599,
+    "address": "Kaikukatu 4, 00530 Helsinki, Finlande",
+    "source": "https://clubkaiku.fi/info/",
+    "status": "confirme",
+    "note": "Adresse lue sur la page Info officielle du club ('KAIKUKATU 4, 00530 HELSINKI'). Le geocodage de cette adresse rend le noeud OSM 'Kaiku' a 60.18376 / 24.95990, identique au catalogue. Attention: kaikuhelsinki.fi redirige vers l'agence de communication kaiku.fi (Lonnrotinkatu 11), qui n'est pas le club."
+  },
+  {
+    "id": 2255,
+    "venue": "Ääniwalli",
+    "lat": 60.19529,
+    "lng": 24.94971,
+    "address": "Pälkäneentie 13 B, 00510 Helsinki, Finlande",
+    "source": "https://nominatim.openstreetmap.org/search?q=%C3%84%C3%A4niwalli%20P%C3%A4lk%C3%A4neentie%2013%20Helsinki&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Ääniwalli' (nightclub), Palkaneentie 13 B, quartier Vallila. Ecart avec l'ancien point: 53 m, donc pas une erreur, seulement un recalage sur l'entree du batiment."
+  },
+  {
+    "id": 2409,
+    "venue": "Suvilahti",
+    "lat": 60.18637,
+    "lng": 24.97165,
+    "address": "Suvilahti, Sörnäisten rantatie 22 / Kaasutehtaankatu 1, 00540 Helsinki, Finlande",
+    "source": "https://nominatim.openstreetmap.org/search?q=Suvilahti%20Helsinki&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Le catalogue tombe a 33 m du noeud OSM 'Suvilahti' (arts_centre, Sornaisten rantatie 22), c'est-a-dire au centre du site du Flow Festival. La porte principale publiee est Hanasaarenkatu 10 (00500), 400 m au sud, mais Nominatim n'y rend que l'axe de la rue: on garde le centre du site plutot qu'un centroide de voirie."
+  },
+  {
+    "id": 2139,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2140,
+    "venue": "Prince Charles",
+    "lat": 52.5033,
+    "lng": 13.40873,
+    "address": "Prinzenstraße 85F, 10969 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Prince%20Charles%20Prinzenstrasse%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Prince Charles' (nightclub), Prinzenstrasse 85f. Ecart avec l'ancien point: 16 m."
+  },
+  {
+    "id": 2144,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2145,
+    "venue": "RSO.Berlin",
+    "lat": 52.45991,
+    "lng": 13.50533,
+    "address": "Schnellerstraße, 12439 Berlin (Niederschöneweide), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=RSO%20Berlin%2C%20Schnellerstra%C3%9Fe%2C%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'RSO.Berlin' (events_venue) a Schnellerstrasse, Niederschoneweide. Ecart avec l'ancien point: 35 m."
+  },
+  {
+    "id": 2162,
+    "venue": "Studio IIII",
+    "lat": 52.50218,
+    "lng": 13.36458,
+    "address": "Potsdamer Straße 96, 10785 Berlin, Allemagne",
+    "source": "https://www.clubcommission.de/members/studio-iiii/",
+    "status": "confirme",
+    "note": "Adresse Potsdamer Strasse 96 (Clubcommission Berlin et studio1111.de). Le geocodage de cette adresse rend 52.50218 / 13.36458, soit 7 m de l'ancien point. Ne pas confondre avec le 'Studio fuer kuenstlerischen Tanz' de la Kurfuerstenstrasse."
+  },
+  {
+    "id": 2163,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2198,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2225,
+    "venue": "Velodrom",
+    "lat": 52.53074,
+    "lng": 13.45111,
+    "address": "Paul-Heyse-Straße 26, 10407 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Velodrom%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Velodrom' (stadium), Paul-Heyse-Strasse, Prenzlauer Berg. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2234,
+    "venue": "Uber Eats Music Hall",
+    "lat": 52.5049,
+    "lng": 13.44315,
+    "address": "Uber Platz 1 (Mühlenstraße 12-30), 10243 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uber%20Eats%20Music%20Hall%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uber Eats Music Hall' (music_venue), Uber Platz 1, Friedrichshain. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2235,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2248,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2293,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2310,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2320,
+    "venue": "Tresor",
+    "lat": 52.51068,
+    "lng": 13.41948,
+    "address": "Köpenicker Straße 70, 10179 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tresor%20K%C3%B6penicker%20Stra%C3%9Fe%2070%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tresor Berlin' (nightclub) a Kopenicker Strasse 70, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2355,
+    "venue": "Velodrom",
+    "lat": 52.53074,
+    "lng": 13.45111,
+    "address": "Paul-Heyse-Straße 26, 10407 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Velodrom%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Velodrom' (stadium), Paul-Heyse-Strasse, Prenzlauer Berg. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2386,
+    "venue": "Cassiopeia",
+    "lat": 52.50725,
+    "lng": 13.45479,
+    "address": "Revaler Straße 99, 10245 Berlin, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cassiopeia%20Revaler%20Strasse%20Berlin&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Cassiopeia' (nightclub) au RAW-Gelaende, Revaler Strasse 99. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2343,
+    "venue": "Bootshaus",
+    "lat": 50.9517,
+    "lng": 6.98195,
+    "address": "Auenweg 173, 51063 Köln, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bootshaus%20Auenweg%20K%C3%B6ln&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Bootshaus' (nightclub), Auenweg 173, Koeln-Muelheim. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2350,
+    "venue": "Bootshaus",
+    "lat": 50.9517,
+    "lng": 6.98195,
+    "address": "Auenweg 173, 51063 Köln, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bootshaus%20Auenweg%20K%C3%B6ln&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Bootshaus' (nightclub), Auenweg 173, Koeln-Muelheim. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2372,
+    "venue": "Bootshaus",
+    "lat": 50.9517,
+    "lng": 6.98195,
+    "address": "Auenweg 173, 51063 Köln, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bootshaus%20Auenweg%20K%C3%B6ln&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Bootshaus' (nightclub), Auenweg 173, Koeln-Muelheim. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2373,
+    "venue": "Bootshaus",
+    "lat": 50.9517,
+    "lng": 6.98195,
+    "address": "Auenweg 173, 51063 Köln, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bootshaus%20Auenweg%20K%C3%B6ln&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Bootshaus' (nightclub), Auenweg 173, Koeln-Muelheim. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2412,
+    "venue": "Wilde Moehre Festivalgelaende Goeritz",
+    "lat": 51.66866,
+    "lng": 14.10969,
+    "address": "Göritz 5, 03116 Drebkau, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=G%C3%B6ritz%205%2C%2003116%20Drebkau&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Adresse du site publiee par le festival (Goeritz 5, 03116 Drebkau, pres du Graebendorfer See). Nominatim rend deux objets a cette adresse, dont l'objet 'Wilde Moehre' (events_venue) a 51.66866 / 14.10969, identique au catalogue."
+  },
+  {
+    "id": 2247,
+    "venue": "Sektor Evolution",
+    "lat": 51.0911,
+    "lng": 13.76712,
+    "address": "An der Eisenbahn 2 – Industriegelände, 01099 Dresden, Allemagne",
+    "source": "https://www.sektor-evolution.de/how-to-find-us/",
+    "status": "confirme",
+    "note": "La page 'how to find us' du club publie ses propres coordonnees, '51.091104, 13.767124', identiques au catalogue. A noter: le noeud OSM du meme nom tombe 300 m plus au sud-ouest (51.08863 / 13.76556), c'est la source officielle qui fait foi."
+  },
+  {
+    "id": 2405,
+    "venue": "Kloster Hohenbusch",
+    "lat": 51.06894,
+    "lng": 6.2784,
+    "address": "Kloster Hohenbusch, Hohenbusch, 41812 Erkelenz (Hetzerath/Matzerath), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kloster%20Hohenbusch%20Erkelenz&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Objet OSM 'Kloster Hohenbusch' (acces au site) a 51.06894 / 6.27840, identique au catalogue; le batiment conventuel lui-meme est 55 m plus au sud."
+  },
+  {
+    "id": 2161,
+    "venue": "Tanzhaus West",
+    "lat": 50.09803,
+    "lng": 8.6464,
+    "address": "Gutleutstraße 294, 60327 Frankfurt am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tanzhaus%20West%20Frankfurt&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tanzhaus West' (nightclub), Gutleutstrasse 294. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2174,
+    "venue": "Tanzhaus West",
+    "lat": 50.09803,
+    "lng": 8.6464,
+    "address": "Gutleutstraße 294, 60327 Frankfurt am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tanzhaus%20West%20Frankfurt&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tanzhaus West' (nightclub), Gutleutstrasse 294. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2316,
+    "venue": "Tanzhaus West",
+    "lat": 50.09803,
+    "lng": 8.6464,
+    "address": "Gutleutstraße 294, 60327 Frankfurt am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Tanzhaus%20West%20Frankfurt&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Tanzhaus West' (nightclub), Gutleutstrasse 294. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2397,
+    "venue": "Waldsee Gruenefeld",
+    "lat": 52.6841,
+    "lng": 12.96238,
+    "address": "Waldsee bei Grünefeld, Zur Kiesgrube, 14621 Schönwalde-Glien, Allemagne",
+    "source": "https://pyonen.de/nog2026/de/info/anreise",
+    "status": "confirme",
+    "note": "La page d'anreise officielle de Nation of Gondwana ne publie ni coordonnee ni numero de rue: elle donne l'adresse de navigation 'Zur Kiesgrube' et un lien Google partage qui ne resout que sur une fiche de recherche, sans point. Faute d'entree publiee, on garde le centre du site, le Waldsee (OSM, 52.68410 / 12.96238). L'axe 'Zur Kiesgrube' geocode 730 m plus au sud, mais c'est un centroide de voirie, pas une entree."
+  },
+  {
+    "id": 2180,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2197,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2213,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2274,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2292,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2309,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2345,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2349,
+    "venue": "Uebel & Gefaehrlich",
+    "lat": 53.55655,
+    "lng": 9.97042,
+    "address": "Feldstraße 66 (Medienbunker), 20359 Hamburg, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Uebel%20und%20Gef%C3%A4hrlich%20Feldstra%C3%9Fe%20Hamburg&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Uebel und Gefaehrlich' (nightclub), Feldstrasse 66, dans le bunker de St. Pauli. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2233,
+    "venue": "Kulturzentrum Faust",
+    "lat": 52.37661,
+    "lng": 9.71082,
+    "address": "Zur Bettfedernfabrik 3, 30451 Hannover (Linden-Nord), Allemagne",
+    "source": "https://www.hannover.de/Media/02-GIS-Objekte/Organisationsdatenbank/Landeshauptstadt-Hannover/Kultur-Freizeit/Kulturzentrum-Faust-e.-V",
+    "status": "confirme",
+    "note": "Adresse 'Zur Bettfedernfabrik 3, 30451 Hannover' lue sur la fiche de la ville de Hanovre; l'objet OSM 'Kulturzentrum Faust' (arts_centre) qui porte cette friche est a 52.37661 / 9.71082, soit 27 m de l'ancien point."
+  },
+  {
+    "id": 2141,
+    "venue": "Elipamanoke",
+    "lat": 51.32536,
+    "lng": 12.33102,
+    "address": "Markranstädter Straße 4, 04229 Leipzig (Plagwitz), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Elipamanoke%20Leipzig&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Elipamanoke' (nightclub), Markranstaedter Strasse 4. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2152,
+    "venue": "Wolkezwei",
+    "lat": 51.36046,
+    "lng": 12.40397,
+    "address": "Volbedingstraße 2, 04357 Leipzig (Mockau/Schönefeld), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Wolkezwei%20Leipzig&format=json&limit=3&addressdetails=1",
+    "status": "corrige",
+    "note": "Le noeud OSM 'Wolkezwei' (nightclub) est a Volbedingstrasse 2, adresse confirmee par wolkezweileipzig.de et leipzig.travel. L'ancien point tombait 240 m plus au nord, en dehors de l'ancienne Wollkaemmerei ou vit le club."
+  },
+  {
+    "id": 2214,
+    "venue": "Distillery",
+    "lat": 51.32142,
+    "lng": 12.40101,
+    "address": "Eggebrechtstraße 2, 04103 Leipzig (Thonberg), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Distillery%20Leipzig&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Distillery' (nightclub), Eggebrechtstrasse 2. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2236,
+    "venue": "Distillery",
+    "lat": 51.32142,
+    "lng": 12.40101,
+    "address": "Eggebrechtstraße 2, 04103 Leipzig (Thonberg), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Distillery%20Leipzig&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Distillery' (nightclub), Eggebrechtstrasse 2. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2249,
+    "venue": "Elipamanoke",
+    "lat": 51.32536,
+    "lng": 12.33102,
+    "address": "Markranstädter Straße 4, 04229 Leipzig (Plagwitz), Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Elipamanoke%20Leipzig&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Elipamanoke' (nightclub), Markranstaedter Strasse 4. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2399,
+    "venue": "Bergheider See",
+    "lat": 51.58827,
+    "lng": 13.78453,
+    "address": "Bergheider Straße 4, 03238 Lichterfeld-Schacksdorf, Allemagne",
+    "source": "https://feel-festival.de/info",
+    "status": "corrige",
+    "note": "La page d'infos du Feel Festival donne l'adresse du site, 'Bergheider Strasse 4, 03238 Lichterfeld-Schacksdorf', et un lien Maps portant 51.588272 / 13.7845325; le geocodage de la meme adresse rend 51.58868 / 13.78042, a 290 m, ce qui recoupe. L'ancien point etait le centroide du plan d'eau Bergheider See, a 1,89 km au sud-ouest du site de la fete."
+  },
+  {
+    "id": 2195,
+    "venue": "Rote Sonne",
+    "lat": 48.14218,
+    "lng": 11.57014,
+    "address": "Maximiliansplatz 5, 80333 München, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Rote%20Sonne%20M%C3%BCnchen&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Rote Sonne' (nightclub), Maximiliansplatz 5. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2212,
+    "venue": "Rote Sonne",
+    "lat": 48.14218,
+    "lng": 11.57014,
+    "address": "Maximiliansplatz 5, 80333 München, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Rote%20Sonne%20M%C3%BCnchen&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Rote Sonne' (nightclub), Maximiliansplatz 5. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2392,
+    "venue": "Alter Flugplatz Altes Lager",
+    "lat": 51.99431,
+    "lng": 13.00061,
+    "address": "Niedergörsdorfer Allee, 14913 Niedergörsdorf (Altes Lager), Allemagne",
+    "source": "https://www.wurzelfestival.de/infos/wurzelreisebuero/",
+    "status": "corrige",
+    "note": "Le 'Wurzelreisebuero' officiel publie la coordonnee d'arrivee, '51.994309, 13.000614', et l'adresse de navigation 'Niedergoersdorfer Allee, 14913 Niedergoersdorf'. L'ancien point tombait 610 m au nord-ouest, sur l'ancien aerodrome mais hors de l'acces au site."
+  },
+  {
+    "id": 2290,
+    "venue": "Robert Johnson",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "address": "Nordring 131, 63067 Offenbach am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Robert%20Johnson%20Offenbach&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Robert Johnson' (nightclub), Nordring 131, port d'Offenbach. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2344,
+    "venue": "Robert Johnson",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "address": "Nordring 131, 63067 Offenbach am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Robert%20Johnson%20Offenbach&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Robert Johnson' (nightclub), Nordring 131, port d'Offenbach. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2351,
+    "venue": "Robert Johnson",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "address": "Nordring 131, 63067 Offenbach am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Robert%20Johnson%20Offenbach&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Robert Johnson' (nightclub), Nordring 131, port d'Offenbach. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2370,
+    "venue": "Robert Johnson",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "address": "Nordring 131, 63067 Offenbach am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Robert%20Johnson%20Offenbach&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Robert Johnson' (nightclub), Nordring 131, port d'Offenbach. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2379,
+    "venue": "Robert Johnson",
+    "lat": 50.1117,
+    "lng": 8.73912,
+    "address": "Nordring 131, 63067 Offenbach am Main, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Robert%20Johnson%20Offenbach&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Noeud OSM 'Robert Johnson' (nightclub), Nordring 131, port d'Offenbach. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2176,
+    "venue": "Lehmann Club",
+    "lat": 48.77985,
+    "lng": 9.16678,
+    "address": "Seidenstraße 20 (Bosch-Areal), 70174 Stuttgart, Allemagne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Seidenstra%C3%9Fe%2020%2C%2070174%20Stuttgart&format=json&limit=3&addressdetails=1",
+    "status": "confirme",
+    "note": "Adresse Seidenstrasse 20 (Bosch-Areal) donnee par stuttgart-tourist.de et moritz.de; son geocodage rend 48.77985 / 9.16678, identique au catalogue."
+  }
+]

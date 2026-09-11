@@ -1,0 +1,1074 @@
+[
+  {
+    "title": "Hard Rave au Cross Club",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "date": "2026-09-12",
+    "time": "21:00",
+    "price": 100,
+    "currency": "CZK",
+    "venue": "Cross Club",
+    "trending": false,
+    "lineup": [
+      "Theodor Stratos",
+      "John T",
+      "Claire Nøir",
+      "Furious Freaks",
+      "Ejdm",
+      "N:Snitch",
+      "Fegip",
+      "Hycker"
+    ],
+    "desc": "Le Cross Club, labyrinthe de ferraille et de mécanismes animés du quartier de Holešovice, consacre sa grande salle à une nuit hard techno. L'invité principal est le Suédois Theodor Stratos, entouré de la scène tchèque du genre. Le tarif d'entrée le plus bas est de 100 Kč en prévente.",
+    "descEn": "Cross Club, the scrap metal labyrinth of Prague's Holešovice district, hands its main stage over to a hard techno night. Swedish DJ and producer Theodor Stratos headlines alongside the Czech hard techno scene. The cheapest advance ticket is 100 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/hard-rave-hard-techno-night/omunb/",
+    "sources": [
+      "https://goout.net/en/tickets/hard-rave-hard-techno-night/omunb/",
+      "http://www.crossclub.cz/cs/program/"
+    ],
+    "note": "Adresse : Cross Club, Plynární 1096/23, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées relevées sur le nœud OpenStreetMap 'Cross Club' (50.1082927 / 14.4432281), cohérentes avec la fiche de salle GoOut. Tarif 100-200 Kč, on retient le palier le plus bas."
+  },
+  {
+    "title": "Moordoor : Neonlight au Cross Club",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "date": "2026-09-18",
+    "time": "21:00",
+    "price": 250,
+    "currency": "CZK",
+    "venue": "Cross Club",
+    "trending": false,
+    "lineup": [
+      "Neonlight",
+      "Emzee",
+      "Toxxistenze",
+      "DreadBass",
+      "Richart & Franshrek",
+      "Shortex & Eagle",
+      "Overtasked",
+      "Vorside",
+      "Nexflow",
+      "Sicario",
+      "Madstroke",
+      "Reap Mexc",
+      "Binballer",
+      "Nocturnal"
+    ],
+    "desc": "La soirée Moordoor invite le trio allemand Neonlight, pilier du neurofunk sur Blackout Music, pour une nuit drum & bass sur plusieurs scènes du Cross Club. Une quinzaine de DJ tchèques complètent l'affiche. Entrée à 250 Kč.",
+    "descEn": "The Moordoor series brings German neurofunk trio Neonlight, longtime Blackout Music regulars, to Cross Club for a multi stage drum & bass night. Around fifteen Czech DJs fill out the bill. Entry is 250 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/moordoor-neonlight/qiqnb/",
+    "sources": [
+      "https://goout.net/en/tickets/moordoor-neonlight/qiqnb/"
+    ],
+    "note": "Adresse : Cross Club, Plynární 1096/23, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées OpenStreetMap du nœud 'Cross Club'."
+  },
+  {
+    "title": "DNB[SPACE] 3",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.07552,
+    "lng": 14.39781,
+    "date": "2026-10-23",
+    "time": "20:00",
+    "price": 863,
+    "currency": "CZK",
+    "venue": "Sacre Coeur",
+    "trending": false,
+    "lineup": [
+      "S.P.Y",
+      "QZB",
+      "Markee Ledge",
+      "Pixie",
+      "Sofiqa",
+      "Cockroach",
+      "Mustaffa & Sheriff",
+      "Blofeld",
+      "Gryth",
+      "Eska",
+      "Kamcza",
+      "Sublime",
+      "MC Trchi",
+      "Baddabap"
+    ],
+    "desc": "Troisième édition de DNB[SPACE], organisée dans l'ancienne église Sacre Coeur de Smichov, dont la nef sert de salle de concert depuis sa désaffectation. Le Portugais S.P.Y, le trio suisse QZB et le vétéran britannique Markee Ledge mènent l'affiche. Billet le moins cher à 863 Kč.",
+    "descEn": "The third DNB[SPACE] takes over the deconsecrated Sacre Coeur church in Prague's Smichov district, whose nave now works as a concert hall. Portuguese producer S.P.Y, Swiss trio QZB and UK veteran Markee Ledge headline. Cheapest ticket 863 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/dnb-space-3/mjjnb/",
+    "sources": [
+      "https://goout.net/en/tickets/dnb-space-3/mjjnb/"
+    ],
+    "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim sur l'adresse Holečkova 31 (50.0755212 / 14.3978121), cohérentes avec la fiche GoOut. Tarif 863-1078 Kč, palier le plus bas retenu."
+  },
+  {
+    "title": "Church Rave : Golpe all night long",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.07552,
+    "lng": 14.39781,
+    "date": "2026-10-24",
+    "time": "22:00",
+    "price": 590,
+    "currency": "CZK",
+    "venue": "Sacre Coeur",
+    "trending": false,
+    "lineup": [
+      "Golpe"
+    ],
+    "desc": "Le collectif praguois Cube et le DJ Golpe reconduisent leur Church Rave dans l'ancienne église Sacre Coeur. Après un set de cinq heures l'an dernier, Golpe joue cette fois sept heures d'affilée, entre techno et hard techno. Premier palier à 590 Kč.",
+    "descEn": "Prague collective Cube and DJ Golpe bring their Church Rave back to the deconsecrated Sacre Coeur. After a five hour set last year, Golpe plays seven hours straight this time, moving between techno and hard techno. First tier 590 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/church-rave-golpe-all-night-long/iuplb/",
+    "sources": [
+      "https://goout.net/en/tickets/church-rave-golpe-all-night-long/iuplb/"
+    ],
+    "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim. Tarif 590-1590 Kč, palier le plus bas retenu."
+  },
+  {
+    "title": "Church Rave : Hardtechnoween",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.07552,
+    "lng": 14.39781,
+    "date": "2026-10-30",
+    "time": "21:45",
+    "price": 990,
+    "currency": "CZK",
+    "venue": "Sacre Coeur",
+    "trending": false,
+    "lineup": [
+      "RiVid",
+      "Nøteleks",
+      "Paul Krist",
+      "Nonsense",
+      "Mosmoz",
+      "S*Y*N*K",
+      "Ketacaos"
+    ],
+    "desc": "Le collectif Cube installe sa soirée d'Halloween dans la nef de l'ancienne église Sacre Coeur, avec un show audiovisuel conçu pour le lieu. L'affiche est entièrement techno et hard techno. Premier palier à 990 Kč.",
+    "descEn": "Cube collective stages its Halloween night inside the nave of the deconsecrated Sacre Coeur church, with an audiovisual show built for the room. The bill is all techno and hard techno. First tier 990 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/church-rave-hardtechnoween/jfomb/",
+    "sources": [
+      "https://goout.net/en/tickets/church-rave-hardtechnoween/jfomb/"
+    ],
+    "note": "Adresse : Sacre Coeur, Holečkova 103/31, 150 00 Praha 5 - Smíchov, Tchéquie. Coordonnées Nominatim. Tarif 990-1590 Kč, palier le plus bas retenu."
+  },
+  {
+    "title": "Darkshire Arena : Face 2 Face",
+    "type": "Warehouse",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.1091,
+    "lng": 14.4264,
+    "date": "2026-11-13",
+    "time": "21:00",
+    "price": 1190,
+    "currency": "CZK",
+    "venue": "Křižíkovy pavilony",
+    "trending": false,
+    "lineup": [
+      "Audio",
+      "Vici",
+      "PRDK",
+      "Kaama",
+      "Kaira",
+      "Dr.Ax",
+      "Raido",
+      "Shmidoo"
+    ],
+    "desc": "Le collectif Darkshire importe pour la première fois à Prague son format Face 2 Face, où les DJ jouent en binome sans set list préparée. La soirée occupe le pavillon B des Křižíkovy pavilony, au parc des expositions de Holešovice. Premier palier à 1 190 Kč.",
+    "descEn": "Darkshire bring their Face 2 Face format to Prague for the first time, pairing DJs back to back with no prepared set list. The night takes over Pavilion B of the Křižík pavilions at the Holešovice exhibition grounds. First tier 1,190 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/darkshire-arena-face-2-face/vsxmb/",
+    "sources": [
+      "https://goout.net/en/tickets/darkshire-arena-face-2-face/vsxmb/"
+    ],
+    "note": "Adresse : Křižíkovy pavilony, Výstaviště Praha, Výstaviště 67, 170 00 Praha 7 - Holešovice, Tchéquie. Coordonnées reprises de la fiche Let It Roll Winter déjà au catalogue pour la même salle (50.1091 / 14.4264, nœud OpenStreetMap 'Výstaviště Praha'). Tarif 1190-1990 Kč."
+  },
+  {
+    "title": "HauntedVila II by YAMAN",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.0956,
+    "lng": 14.43606,
+    "date": "2026-10-03",
+    "time": "15:00",
+    "price": 354,
+    "currency": "CZK",
+    "venue": "Vila Štvanice",
+    "trending": false,
+    "lineup": [
+      "Disphonia",
+      "Zigi SC",
+      "Furious Freaks",
+      "Neothrope",
+      "Seriouz",
+      "The Duplicates",
+      "Neureal",
+      "Mal.Ware",
+      "Chris Tropic",
+      "J-Cop",
+      "PlusOne",
+      "Blayzz",
+      "Hugo Steez",
+      "Shortex",
+      "Vertigo"
+    ],
+    "desc": "Le collectif YAMAN revient à la Vila Štvanice, sur l'île du même nom au milieu de la Vltava, avec un format jour et nuit. Le producteur grec Disphonia, publié sur Eatbrain et Blackout, mène l'affiche : dehors le drum & bass reste mélodique, à l'intérieur il vire au sombre. Entrée à 354 Kč.",
+    "descEn": "YAMAN return to Vila Štvanice, on the island of the same name in the middle of the Vltava, with a day and night format. Greek producer Disphonia, released on Eatbrain and Blackout, headlines: the outdoor stage keeps drum & bass melodic while the indoor room turns darker. Entry 354 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/hauntedvila-ii-by-yaman-disphonia+zigi-sc/vsgnb/",
+    "sources": [
+      "https://goout.net/en/tickets/hauntedvila-ii-by-yaman-disphonia+zigi-sc/vsgnb/"
+    ],
+    "note": "Adresse : Vila Štvanice, ostrov Štvanice 858, 170 00 Praha 7, Tchéquie. Coordonnées Nominatim sur le bâtiment 'Vila Štvanice' (50.0955998 / 14.4360589). La soirée se termine à 6 h le lendemain, donc pas d'endDate."
+  },
+  {
+    "title": "Smolna Season Opening : Panteros666",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 70,
+    "currency": "PLN",
+    "venue": "Smolna",
+    "trending": false,
+    "lineup": [
+      "Panteros666",
+      "vitcat",
+      "Ramzi Vibe$",
+      "Franca",
+      "Robsessive",
+      "Prince",
+      "Modus Faciendi"
+    ],
+    "desc": "Le club Smolna, 1 300 m2 rue Smolna avec deux pistes, un patio et un salon, ouvre sa saison sur deux nuits. La premiere revient au Belge installe a Paris Panteros666, dont les productions melangent hooks vocaux et synthes rave. Entree 70 zl avant minuit, 80 zl apres.",
+    "descEn": "Smolna, a 1,300 sq m club on Smolna street with two dancefloors, a patio and a chillout room, opens its season across two nights. Night one goes to Belgian born, Paris based Panteros666, whose productions pair vocal hooks with rave synths. Entry is 70 PLN before midnight, 80 PLN after.",
+    "ticketUrl": "https://smolna38.org/events/smolna-season-opening-day-1-panteros666-franca",
+    "sources": [
+      "https://smolna38.org/events/smolna-season-opening-day-1-panteros666-franca",
+      "https://smolna38.org/events"
+    ],
+    "note": "Adresse : Smolna 38, 00-375 Warszawa, Pologne. Coordonnees Nominatim sur le numero 38 de la rue Smolna (52.2327831 / 21.0215150). Paliers annonces : 70 zl avant minuit, 80 zl apres minuit, 30 zl a partir de 5 h du matin (entree tardive). On retient l'entree normale la plus basse, 70 zl."
+  },
+  {
+    "title": "Smolna : Sam Paganini",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 100,
+    "currency": "PLN",
+    "venue": "Smolna",
+    "trending": false,
+    "lineup": [
+      "Sam Paganini",
+      "SugarMama",
+      "Drumaddition",
+      "Pascale Voltaire",
+      "Robi Lora",
+      "Santi",
+      "Mady",
+      "Plvk",
+      "Stachu"
+    ],
+    "desc": "L'Italien Sam Paganini, actif depuis 1996 et publie sur Plus 8, Cocoon et Drumcode, tient le sous-sol de Smolna. Il a fonde son label JAM Records en 2016. Le patio et la salle Jungle tournent en parallele avec Pascale Voltaire et la scene varsovienne. Entree 100 zl.",
+    "descEn": "Italian techno producer Sam Paganini, active since 1996 and released on Plus 8, Cocoon and Drumcode, takes the Smolna basement. He founded his own JAM Records label in 2016. The patio and Jungle rooms run in parallel with Pascale Voltaire and Warsaw residents. Entry 100 PLN.",
+    "ticketUrl": "https://smolna38.org/events/smolna-sam-paganini",
+    "sources": [
+      "https://smolna38.org/events/smolna-sam-paganini",
+      "https://smolna38.org/events"
+    ],
+    "note": "Adresse : Smolna 38, 00-375 Warszawa, Pologne. Coordonnees Nominatim. Paliers : 100 zl avant 5 h, 30 zl apres 5 h (entree tardive). On retient l'entree normale, 100 zl."
+  },
+  {
+    "title": "ARK : HI-LO",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "Hard Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22483,
+    "lng": 20.92859,
+    "date": "2026-10-16",
+    "time": "23:30",
+    "price": 191.9,
+    "currency": "PLN",
+    "venue": "Progresja",
+    "trending": false,
+    "lineup": [
+      "HI-LO"
+    ],
+    "desc": "HI-LO est l'alias techno d'Oliver Heldens, le versant sombre et club de son travail sous son propre nom. La soiree ARK l'installe pour la nuit dans la grande salle de Progresja, complexe de trois scenes ouvert en 2003 dans le fort Wola, a l'ouest de Varsovie. Billet a 191,90 zl, frais inclus.",
+    "descEn": "HI-LO is Oliver Heldens' techno alias, the darker club facing side of his work under his own name. The ARK night hands him Progresja's main room for the night, a three stage complex opened in 2003 inside Fort Wola in western Warsaw. Tickets 191.90 PLN, fees included.",
+    "ticketUrl": "https://biletomat.pl/wydarzenia/hi-lo-33231",
+    "sources": [
+      "https://www.ebilet.pl/muzyka/elektro-techno/hi-lo",
+      "https://biletomat.pl/wydarzenia/w/warszawa/w/progresja",
+      "https://progresja.com/"
+    ],
+    "note": "Adresse : Progresja, ul. Fort Wola 22, 01-258 Warszawa, Pologne. Coordonnees publiees par le club lui-meme en pied de page de progresja.com (52.224831 / 20.928594). Heure et tarif repris de la fiche eBilet (23:30, a partir de 191,90 zl frais inclus) ; le JSON-LD de biletomat donne le meme creneau 2026-10-16T23:30+02:00."
+  },
+  {
+    "title": "Sunrise Festival Kolobrzeg",
+    "type": "Festival",
+    "genres": [
+      "EDM",
+      "Trance",
+      "Techno",
+      "House"
+    ],
+    "city": "Kolobrzeg",
+    "country": "Poland",
+    "lat": 54.19993,
+    "lng": 15.68561,
+    "date": "2027-07-30",
+    "endDate": "2027-08-01",
+    "time": "16:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Lotnisko Podczele",
+    "venueEn": "Podczele former airfield",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le plus gros festival de musique electronique de Pologne revient sur l'ancien aerodrome de Podczele, a huit kilometres a l'est du centre de Kolobrzeg, au bord de la Baltique. L'organisateur a confirme les dates du 30 juillet au 1er aout 2027. La programmation et les tarifs ne sont pas encore publies.",
+    "descEn": "Poland's largest electronic music festival returns to the former Podczele airfield, eight kilometres east of Kolobrzeg town centre on the Baltic coast. The organiser has confirmed 30 July to 1 August 2027. Line-up and ticket prices have not been published yet.",
+    "sources": [
+      "https://sunrisefestival.pl/znamy-date-sunrise-festival-2027/",
+      "https://sunrisefestival.pl/",
+      "https://okkolobrzeg.pl/sunrise-festival-2026-jak-dojechac-do-podczela-i-wrocic-w-nocy-autobusy-busy-i-parkingi/"
+    ],
+    "note": "Adresse du site : Lotnisko, 78-111 Bagicz (Podczele), pres de Kolobrzeg, Pologne, telle que donnee par la presse locale citant l'organisateur. Coordonnees Nominatim sur l'ancien aerodrome de Bagicz / Podczele (54.1999341 / 15.6856132). Attention : la fiche 2026 deja au catalogue porte 54.165 / 15.635, qui tombe pres du centre de Kolobrzeg et non sur le site, a corriger. Tarif non communique pour 2027. ATTENTION titre : le catalogue porte deja un 'Sunrise Festival' 2027-06-24 a Gierle (Belgique), homonyme sans rapport, qui occupe la cle de dedup (titre, annee) pour 2027. Le titre est donc suffixe de la ville pour ne pas etre rejete au merge. A arbitrer a la relecture : soit renommer l'homonyme belge, soit garder ce suffixe, sachant qu'il separe cette edition de la fiche 'Sunrise Festival' 2026 de Kolobrzeg pour nextEdition()."
+  },
+  {
+    "title": "Sziget Festival",
+    "type": "Festival",
+    "genres": [
+      "Techno",
+      "House",
+      "EDM",
+      "Drum & Bass"
+    ],
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.5539,
+    "lng": 19.0517,
+    "date": "2027-08-10",
+    "endDate": "2027-08-14",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Hajogyari-sziget",
+    "venueEn": "Obuda Island",
+    "trending": false,
+    "lineup": [],
+    "desc": "Sziget revient sur l'ile d'Obuda, au nord de Budapest, du 10 au 14 aout 2027. Au-dela des tetes d'affiche pop et rock, le festival fait tourner ses scenes electroniques jusqu'a l'aube. La programmation n'est pas annoncee et les tarifs 2027 ne sont pas encore publies.",
+    "descEn": "Sziget returns to Obuda Island north of Budapest from 10 to 14 August 2027. Beyond the pop and rock headliners, its electronic stages run until dawn. The line-up has not been announced and 2027 ticket prices are not published yet.",
+    "sources": [
+      "https://szigetfestival.com/en/festival-info",
+      "https://szigetfestival.com/en/"
+    ],
+    "note": "Adresse : Hajogyari-sziget (ile d'Obuda), Majus 9. park, 1033 Budapest, Hongrie, telle que donnee par la page 'festival info' officielle. Coordonnees reprises de la fiche Sziget 2026 deja au catalogue pour le meme site. Tarif : la vente super early bird de 299 EUR (pass 5 jours) est close, aucun tarif courant n'est publie, donc non communique."
+  },
+  {
+    "title": "OZORA Festival",
+    "type": "Festival",
+    "genres": [
+      "Psytrance",
+      "Trance"
+    ],
+    "city": "Dádpuszta",
+    "country": "Hungary",
+    "lat": 46.76954,
+    "lng": 18.43793,
+    "date": "2027-07-23",
+    "endDate": "2027-08-03",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Dádpuszta",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le grand rassemblement psytrance hongrois revient dans la vallee de Dadpuszta, au sud de Szekesfehervar, pour douze jours comprenant le pre-rassemblement et le festival principal. La programmation 2027 n'est pas annoncee. La billetterie officielle est ouverte mais ses tarifs ne sont pas lisibles publiquement.",
+    "descEn": "Hungary's flagship psytrance gathering returns to the Dadpuszta valley south of Szekesfehervar for twelve days covering the pre-gathering and the main festival. The 2027 line-up has not been announced. Official ticketing is open but its prices are not publicly readable.",
+    "sources": [
+      "https://www.musicfestivalwizard.com/festivals/ozora-festival-2027/",
+      "https://www.frontstagefestivals.com/festival/ozora-festival-2027",
+      "https://ticket.ozorafestival.eu/"
+    ],
+    "note": "Lieu : Dadpuszta, commune d'Igar, comitat de Fejer, 7015 Hongrie. Coordonnees Nominatim sur le lieu-dit Dadpuszta (46.7695424 / 18.4379274). Attention : la fiche OZORA 2026 deja au catalogue porte 46.99 / 18.55, soit environ 27 km trop au nord, a corriger. Dates 23 juillet au 3 aout 2027 concordantes sur deux sources secondaires ; le site officiel est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. Tarif non communique."
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Adam Beyer",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Adam Beyer",
+      "DJ Jock",
+      "Shipa"
+    ],
+    "desc": "Future Scope, la serie techno du Boogaloo, ouvre sa saison avec le Suedois Adam Beyer, fondateur de Drumcode. Le club occupe une ancienne salle de cinema de la Ulica grada Vukovara, a Zagreb. Les residents DJ Jock et Shipa completent la nuit.",
+    "descEn": "Future Scope, Boogaloo's techno series, opens its season with Sweden's Adam Beyer, founder of Drumcode. The club sits in a former cinema hall on Ulica grada Vukovara in Zagreb. Residents DJ Jock and Shipa complete the night.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-adam-beyer-boogaloo-34132",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-adam-beyer-boogaloo-34132",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope Season Opening : Dave Clarke, Ben Sims & Billy Nasty",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-26",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Dave Clarke",
+      "Ben Sims",
+      "Billy Nasty",
+      "Petar Dundov"
+    ],
+    "desc": "Trois figures de la techno britannique se relaient au Boogaloo : Dave Clarke, Ben Sims et Billy Nasty, avec le Croate Petar Dundov en local. La soiree se prolonge jusqu'au matin du 27 septembre.",
+    "descEn": "Three names from British techno share the Boogaloo booth: Dave Clarke, Ben Sims and Billy Nasty, with Croatian producer Petar Dundov on local duty. The night runs into the morning of 27 September.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-season-opening-w-dave-clarke-ben-sims-billy-nasty-32834",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-season-opening-w-dave-clarke-ben-sims-billy-nasty-32834",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Chris Liebing",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-10-16",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Chris Liebing"
+    ],
+    "desc": "L'Allemand Chris Liebing, patron du label CLR et pilier de la techno de Francfort depuis les annees 1990, joue au Boogaloo dans le cadre de la saison Future Scope.",
+    "descEn": "Germany's Chris Liebing, head of the CLR label and a fixture of Frankfurt techno since the 1990s, plays Boogaloo as part of the Future Scope season.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-chris-liebing-boogaloo-34100",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-chris-liebing-boogaloo-34100",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "venue": "Boogaloo",
+    "type": "Club",
+    "trending": false,
+    "currency": "EUR",
+    "title": "Future Scope : Pan-Pot",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-12-19",
+    "time": "23:00",
+    "price": 0,
+    "lineup": [
+      "Pan-Pot"
+    ],
+    "desc": "Le duo berlinois Pan-Pot, forme par Tassilo Ippenberger et Thomas Benedix, ferme l'annee Future Scope au Boogaloo. Leur label Second State donne le ton de la nuit.",
+    "descEn": "Berlin duo Pan-Pot, Tassilo Ippenberger and Thomas Benedix, close the Future Scope year at Boogaloo. Their Second State label sets the tone for the night.",
+    "ticketUrl": "https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074",
+    "sources": [
+      "https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074",
+      "https://www.klubskascena.hr/ks/events/future-scope-jesen-adam-beyer-ben-sims-chris-liebing-deep-dish-pan-pot-i-drugi-25082026"
+    ],
+    "note": "Adresse : Klub Boogaloo, Ulica grada Vukovara 68, 10000 Zagreb, Croatie. Coordonnees Nominatim sur le noeud 'Boogaloo' (45.7986077 / 15.9711239). Heure de debut 23:00 reprise du titre de la fiche Entrio. Tarif non communique : entrio.hr est derriere Cloudflare et n'a pas pu etre lu depuis le conteneur. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "AEREA au Control Club",
+    "genres": [
+      "Techno"
+    ],
+    "date": "2026-09-25",
+    "time": "23:00",
+    "price": 60,
+    "lineup": [
+      "Aerea"
+    ],
+    "desc": "Le duo germano-espagnol Aerea joue en live dans la Berlin Room du Control Club, adresse de reference de Bucarest ouverte en 2008 rue Constantin Mille. Entree 60 lei en prevente.",
+    "descEn": "German Spanish duo Aerea play live in Control Club's Berlin Room, the Bucharest venue opened in 2008 on Constantin Mille street. Advance entry 60 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl18 : Acid Arab",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-10-02",
+    "time": "23:00",
+    "price": 150,
+    "lineup": [
+      "Acid Arab"
+    ],
+    "desc": "Le Control Club fete ses dix-huit ans et invite le collectif parisien Acid Arab, qui croise machines de club et modes orientaux. Entree 150 lei.",
+    "descEn": "Control Club marks its eighteenth birthday with Paris collective Acid Arab, who cross club machines with Middle Eastern modes. Entry 150 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl18 : Roman Flügel",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 60,
+    "lineup": [
+      "Roman Flügel"
+    ],
+    "desc": "Deuxieme nuit des dix-huit ans du Control Club avec l'Allemand Roman Flugel, moitie d'Alter Ego et habitue de Dial et Running Back. Entree 60 lei.",
+    "descEn": "Second night of Control Club's eighteenth birthday with Germany's Roman Flugel, one half of Alter Ego and a regular on Dial and Running Back. Entry 60 RON.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "System Olympia au Control Club",
+    "genres": [
+      "House"
+    ],
+    "date": "2026-10-23",
+    "time": "23:00",
+    "price": 40,
+    "lineup": [
+      "System Olympia"
+    ],
+    "desc": "La productrice italienne installee a Londres System Olympia amene sa deep house teintee de disco au Control Club. Prevente a 40 lei, soiree reservee aux majeurs.",
+    "descEn": "Italian producer System Olympia, based in London, brings her disco tinged deep house to Control Club. Advance tickets 40 RON, 18 and over.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.43546,
+    "lng": 26.09708,
+    "venue": "Control Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "RON",
+    "title": "ctrl x inTension : Greg Downey",
+    "genres": [
+      "Trance"
+    ],
+    "date": "2026-11-21",
+    "time": "22:00",
+    "price": 50,
+    "lineup": [
+      "Greg Downey",
+      "Dragosh",
+      "SkyDreamer"
+    ],
+    "desc": "Soiree trance au Control Club avec le Nord-Irlandais Greg Downey, entoure des Roumains Dragosh et SkyDreamer. Entree generale a 50 lei, soiree reservee aux majeurs.",
+    "descEn": "Trance night at Control Club with Northern Irish DJ Greg Downey alongside Romanian selectors Dragosh and SkyDreamer. General admission 50 RON, 18 and over.",
+    "ticketUrl": "https://eventbook.ro/program/club-control?lang=ro",
+    "sources": [
+      "https://www.control-club.ro/events/",
+      "https://eventbook.ro/program/club-control?lang=ro"
+    ],
+    "note": "Adresse : Control Club, Strada Constantin Mille 4, 010142 Bucarest, Roumanie. Coordonnees Nominatim sur le numero 4 de la strada Constantin Mille (44.4354634 / 26.0970816). Horaire et tarif croises entre l'agenda du club et la billetterie eventbook. "
+  },
+  {
+    "title": "HVOB au Fléda",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Brno",
+    "country": "Czech Republic",
+    "lat": 49.2099,
+    "lng": 16.6033,
+    "date": "2026-10-16",
+    "time": "20:00",
+    "price": 850,
+    "currency": "CZK",
+    "venue": "Fléda",
+    "trending": false,
+    "lineup": [
+      "HVOB"
+    ],
+    "desc": "Le duo autrichien HVOB, formule live d'Anna Muller et Paul Wallner, s'arrete au Fleda, club historique de Brno ouvert rue Stefanikova. Billet a 850 Kc.",
+    "descEn": "Austrian duo HVOB, the live project of Anna Muller and Paul Wallner, stop at Fleda, Brno's long running club on Stefanikova street. Ticket 850 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/hvob-live/wpfjb/",
+    "sources": [
+      "https://goout.net/en/tickets/hvob-live/wpfjb/",
+      "https://www.fleda.cz/"
+    ],
+    "note": "Adresse : Fleda, Stefanikova 266/24, 602 00 Brno, Tchequie. Coordonnees de la fiche de salle GoOut (49.2099 / 16.6033)."
+  },
+  {
+    "title": "HVOB au Majestic Music Club",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "lat": 48.15686,
+    "lng": 17.11358,
+    "date": "2026-10-17",
+    "time": "20:30",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Majestic Music Club",
+    "trending": false,
+    "lineup": [
+      "HVOB"
+    ],
+    "desc": "Au lendemain de sa date de Brno, le duo autrichien HVOB joue au Majestic Music Club, salle de la rue Karpatska a Bratislava. Ouverture des portes a 20 h 30. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "The night after its Brno date, Austrian duo HVOB plays Majestic Music Club on Karpatska street in Bratislava. Doors at 20:30. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/42948458-hvob-at-majestic-music-club",
+      "https://www.songkick.com/metro-areas/32262-slovakia-bratislava"
+    ],
+    "note": "Adresse : Majestic Music Club, Karpatska 2, 811 05 Bratislava, Slovaquie. Coordonnees du JSON-LD Songkick de la fiche evenement (48.15686 / 17.11358), coherentes avec la fiche de salle GoOut (48.1569 / 17.1137). Heure d'ouverture 20:30 donnee par la fiche Songkick. Tarif non communique."
+  },
+  {
+    "title": "Ventolin et FVLCRVM à Bratislava",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "lat": 48.11687,
+    "lng": 17.11078,
+    "date": "2026-11-06",
+    "time": "20:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "DK Zrkadlový háj",
+    "venueEn": "Zrkadlovy haj cultural centre",
+    "trending": false,
+    "lineup": [
+      "Ventolin",
+      "FVLCRVM"
+    ],
+    "desc": "Deux figures des scenes electroniques tcheque et slovaque partagent la meme tournee. Ventolin, de son vrai nom David Doubek, joue en live sur synthetiseurs analogiques et boites a rythmes ; FVLCRVM ouvre. La soiree se tient a la maison de la culture Zrkadlovy haj, dans le quartier de Petrzalka. Le tarif n'est pas communique.",
+    "descEn": "Two figures of the Czech and Slovak electronic scenes share a tour. Ventolin, real name David Doubek, plays live on analogue synths and drum machines, with FVLCRVM opening. The night is held at the Zrkadlovy haj cultural centre in the Petrzalka district. No ticket price is published.",
+    "sources": [
+      "https://goout.net/en/ventolin+fvlcrvm-ventofu-tour-2026/szchamy/"
+    ],
+    "note": "Adresse : Dom kultury Zrkadlovy haj, Rovniankova 3, 851 02 Bratislava - Petrzalka, Slovaquie. Coordonnees Nominatim sur le batiment 'Dom kultury Zrkadlovy Haj' (48.1168706 / 17.1107834). Tarif non communique sur la fiche GoOut."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49867,
+    "lng": 19.05416,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "IAM Productions : Bob Moses",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "date": "2026-11-01",
+    "time": "19:00",
+    "price": 0,
+    "lineup": [
+      "Bob Moses"
+    ],
+    "desc": "Le duo canadien Bob Moses, Tom Howie et Jimmy Vallance, joue en club set dans la NagyHall de l'Akvarium, la salle installee sous la place Erzsebet a Budapest. Soiree presentee par IAM Productions. Ouverture des portes a 19 h.",
+    "descEn": "Canadian duo Bob Moses, Tom Howie and Jimmy Vallance, play a club set in Akvarium's NagyHall, the room built under Budapest's Erzsebet square. Presented by IAM Productions. Doors at 19:00.",
+    "ticketUrl": "https://akvariumklub.hu/en/events/bob-moses/",
+    "sources": [
+      "https://akvariumklub.hu/en/events/bob-moses/",
+      "https://www.songkick.com/concerts/43352365-bob-moses-at-akvarium-klub"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page du club porte 'November 1 (Sunday)' : le 1er novembre 2026 est bien un dimanche, ce qui confirme l'annee, l'annee ecrite ailleurs sur la page etant un reliquat."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49867,
+    "lng": 19.05416,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "SKELER : Nightfall World Tour",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "date": "2026-11-14",
+    "time": "23:30",
+    "price": 0,
+    "lineup": [
+      "Skeler"
+    ],
+    "desc": "Le producteur Skeler amene sa tournee Nightfall dans la KisHall de l'Akvarium. Ouverture a 23 h 30, soiree reservee aux majeurs.",
+    "descEn": "Producer Skeler brings his Nightfall tour to Akvarium's KisHall. Doors at 23:30, 18 and over.",
+    "ticketUrl": "https://akvariumklub.hu/en/events/skeler-nightfall-world-tour/",
+    "sources": [
+      "https://akvariumklub.hu/en/events/skeler-nightfall-world-tour/"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. La page annonce 'Saturday, November 14' : le 14 novembre 2026 est un samedi, l'annee est donc bien 2026."
+  },
+  {
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.49867,
+    "lng": 19.05416,
+    "venue": "Akvárium Klub",
+    "type": "Club",
+    "trending": false,
+    "currency": "HUF",
+    "title": "Kraak & Smaak à l'Akvárium",
+    "genres": [
+      "House"
+    ],
+    "date": "2026-11-28",
+    "time": "19:00",
+    "price": 0,
+    "lineup": [
+      "Kraak & Smaak"
+    ],
+    "desc": "Le trio neerlandais Kraak & Smaak, actif depuis 2003 entre nu-disco et house, joue a l'Akvarium Klub. Ouverture des portes a 19 h.",
+    "descEn": "Dutch trio Kraak & Smaak, active since 2003 between nu disco and house, play Akvarium Klub. Doors at 19:00.",
+    "sources": [
+      "https://www.songkick.com/concerts/43222352-kraak-and-smaak-at-akvarium-klub",
+      "https://www.songkick.com/metro-areas/29047-hungary-budapest/genre/electronic"
+    ],
+    "note": "Adresse : Akvarium Klub, Erzsebet ter 12, 1051 Budapest, Hongrie. Coordonnees Nominatim sur le noeud OpenStreetMap 'Akvarium Klub' au 12 Erzsebet ter (47.4986747 / 19.0541621) ; le JSON-LD Songkick donne 47.49774 / 19.0538, soit 110 m plus au sud, on retient le noeud OSM. Le club ne publie aucun tarif sur son site, la vente passe par Cooltix : tarif non communique. Date et heure d'ouverture reprises du JSON-LD Songkick (2026-11-28T19:00)."
+  },
+  {
+    "title": "Next Level : Modestep à l'A38",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Budapest",
+    "country": "Hungary",
+    "lat": 47.47902,
+    "lng": 19.06378,
+    "date": "2026-11-13",
+    "time": "23:30",
+    "price": 0,
+    "currency": "HUF",
+    "venue": "A38 Hajó",
+    "venueEn": "A38 Ship",
+    "trending": false,
+    "lineup": [
+      "Modestep"
+    ],
+    "desc": "Le groupe britannique Modestep, entre dubstep et drum & bass, s'arrete a l'A38, ancien cargo ukrainien amarre au pied du pont Petofi et transforme en salle de concert. Soiree de la serie Next Level, ouverture a 23 h 30.",
+    "descEn": "UK act Modestep, moving between dubstep and drum and bass, stop at A38, a former Ukrainian cargo ship moored at the foot of Petofi bridge and converted into a venue. Part of the Next Level series, doors at 23:30.",
+    "sources": [
+      "https://www.songkick.com/concerts/43242944-modestep-at-a38-ship-a38-hajo",
+      "https://www.a38.hu/en/programs"
+    ],
+    "note": "Adresse : A38 Hajo, Petofi hid budai hidfo, Henryk Slawik rakpart, 1117 Budapest, Hongrie. Coordonnees du JSON-LD Songkick (47.47902 / 19.06378), qui tombent bien sur le bateau amarre cote Buda. Le 13 novembre 2026 est un vendredi, conforme au 'November 13 (Friday)' annonce. Tarif non communique sur les pages consultees."
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "venue": "Cross Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "CZK",
+    "title": "Sub Spirits : Blocksberg & Memphys",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "date": "2026-10-09",
+    "time": "21:00",
+    "price": 120,
+    "lineup": [
+      "Blocksberg",
+      "Memphys"
+    ],
+    "desc": "Le collectif Sub Spirits occupe deux scenes du Cross Club. En tete d'affiche, la Roumaine Blocksberg fait ses debuts tcheques aux cotes de Memphys, sur un drum & bass qui laisse toute la place au chant. Premier palier a 120 Kc.",
+    "descEn": "Sub Spirits take over two rooms at Cross Club. Romanian vocalist Blocksberg makes her Czech debut alongside Memphys, on a drum and bass night built around live vocals. First tier 120 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/vqinb/",
+    "sources": [
+      "https://goout.net/en/tickets/sub-spirits-present-spirit-therapy-blocksberg-and-memphys/vqinb/"
+    ],
+    "note": "Adresse : Cross Club, Plynarni 1096/23, 170 00 Praha 7 - Holesovice, Tchequie. Coordonnees OpenStreetMap du noeud 'Cross Club'. Tarif 120-200 Kc, palier le plus bas retenu."
+  },
+  {
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "venue": "Cross Club",
+    "type": "Club",
+    "trending": false,
+    "currency": "CZK",
+    "title": "Nebe, peklo & rave",
+    "genres": [
+      "Drum & Bass",
+      "Hard Techno"
+    ],
+    "date": "2026-10-02",
+    "time": "21:00",
+    "price": 150,
+    "lineup": [
+      "Eskei83",
+      "Zakilo",
+      "Korty",
+      "John T",
+      "Nocturnal",
+      "Ben3dict"
+    ],
+    "desc": "Soiree a plusieurs salles au Cross Club, entre drum & bass et hard techno. L'Allemand Eskei83 mene l'affiche, entoure des residents tcheques Zakilo, Korty, John T et Nocturnal. Premier palier a 150 Kc.",
+    "descEn": "Multi room night at Cross Club, running between drum and bass and hard techno. Germany's Eskei83 leads the bill alongside Czech residents Zakilo, Korty, John T and Nocturnal. First tier 150 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/nebe-peklo-and-rave/flqnb/",
+    "sources": [
+      "https://goout.net/en/tickets/nebe-peklo-and-rave/flqnb/"
+    ],
+    "note": "Adresse : Cross Club, Plynarni 1096/23, 170 00 Praha 7 - Holesovice, Tchequie. Coordonnees OpenStreetMap du noeud 'Cross Club'. Tarif 150-250 Kc, palier le plus bas retenu. Affiche mixte : Eskei83 vient du drum & bass et des breaks, John T de la hard techno, d'ou les deux genres."
+  },
+  {
+    "title": "Techno Night au Roxy",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Prague",
+    "country": "Czech Republic",
+    "lat": 50.0907,
+    "lng": 14.42586,
+    "date": "2026-09-18",
+    "time": "23:00",
+    "price": 250,
+    "currency": "CZK",
+    "venue": "Roxy",
+    "trending": false,
+    "lineup": [],
+    "desc": "Nuit techno au Roxy, ancien cinema de la rue Dlouha transforme en club au debut des annees 1990 et l'une des salles les plus constantes de Prague. Programmation non annoncee, entree a 250 Kc.",
+    "descEn": "Techno night at Roxy, a former cinema on Dlouha street turned club in the early 1990s and one of Prague's steadiest rooms. Line-up not announced, entry 250 CZK.",
+    "ticketUrl": "https://goout.net/en/tickets/techno-night/whgnb/",
+    "sources": [
+      "https://goout.net/en/tickets/techno-night/whgnb/"
+    ],
+    "note": "Adresse : Roxy, Dlouha 731/33, 110 00 Praha 1 - Josefov, Tchequie. Coordonnees Nominatim sur le numero 731/33 de la rue Dlouha (50.0907046 / 14.4258612), identiques a celles des fiches Roxy deja au catalogue (50.0907 / 14.4259). Programmation non annoncee, lineup laisse vide."
+  },
+  {
+    "title": "Tiga à Oczki",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22429,
+    "lng": 21.00111,
+    "date": "2026-10-03",
+    "time": "23:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Oczki",
+    "trending": false,
+    "lineup": [
+      "Tiga"
+    ],
+    "desc": "Le Canadien Tiga, fondateur du label Turbo Recordings, joue au club Oczki, installe rue Wojciecha Oczki dans le quartier d'Ochota a Varsovie. Ouverture des portes a 23 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "Canadian producer Tiga, founder of Turbo Recordings, plays Oczki, the club on Wojciecha Oczki street in Warsaw's Ochota district. Doors at 23:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43352529-tiga-at-oczki",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Oczki, ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne. Coordonnees du JSON-LD Songkick de la fiche evenement (52.22429 / 21.00111). Heure d'ouverture 23:00 donnee par la meme fiche. Tarif non communique."
+  },
+  {
+    "title": "Lane 8 à Oczki",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.22429,
+    "lng": 21.00111,
+    "date": "2026-10-09",
+    "time": "20:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Oczki",
+    "trending": false,
+    "lineup": [
+      "Lane 8"
+    ],
+    "desc": "L'Americain Lane 8, figure de la deep house melodique et fondateur du label This Never Happened, joue au club Oczki a Varsovie. Ouverture des portes a 20 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "American producer Lane 8, a name in melodic deep house and founder of the This Never Happened label, plays Oczki in Warsaw. Doors at 20:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43298681-lane-8-at-oczki",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Oczki, ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne. Coordonnees du JSON-LD Songkick (52.22429 / 21.00111). Tarif non communique. Le catalogue porte deja une date 'Lane 8: This Never Happened' ailleurs, d'ou la salle dans le titre."
+  },
+  {
+    "title": "Digitalism à Niebo",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.23255,
+    "lng": 21.01888,
+    "date": "2026-10-24",
+    "time": "20:00",
+    "price": 0,
+    "currency": "PLN",
+    "venue": "Niebo",
+    "trending": false,
+    "lineup": [
+      "Digitalism"
+    ],
+    "desc": "Le duo hambourgeois Digitalism fait etape a Varsovie pour son Optimism Tour, au club Niebo, en sous-sol de la rue Nowy Swiat. Ouverture des portes a 20 h. Le tarif n'est pas communique sur les pages consultees.",
+    "descEn": "Hamburg duo Digitalism stop in Warsaw on their Optimism Tour, at Niebo, the basement club on Nowy Swiat street. Doors at 20:00. No ticket price is published on the pages consulted.",
+    "sources": [
+      "https://www.songkick.com/concerts/43104562-digitalism-at-niebo",
+      "https://www.songkick.com/metro-areas/31787-poland-warsaw/genre/electronic"
+    ],
+    "note": "Adresse : Niebo, ul. Nowy Swiat 21, 00-029 Warszawa, Pologne. Coordonnees du JSON-LD Songkick (52.23255 / 21.01888), coherentes avec la fiche de salle GoOut (52.2325 / 21.0191). Tarif non communique."
+  }
+]

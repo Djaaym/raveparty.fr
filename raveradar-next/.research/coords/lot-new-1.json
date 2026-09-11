@@ -1,0 +1,550 @@
+[
+  {
+    "id": 2230,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Postgarage', Dreihackengasse 42. Le point du catalogue tombait a 8 m ; simple precision a 5 decimales. Attention, OSM porte aussi une station-service 'Postgarage' a 1,2 km, ecartee."
+  },
+  {
+    "id": 2266,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2230."
+  },
+  {
+    "id": 2348,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2230."
+  },
+  {
+    "id": 2358,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2230."
+  },
+  {
+    "id": 2365,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2230."
+  },
+  {
+    "id": 2371,
+    "venue": "Postgarage",
+    "lat": 47.06608,
+    "lng": 15.42837,
+    "address": "Dreihackengasse 42, 8020 Graz, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Postgarage%20Graz&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2230."
+  },
+  {
+    "id": 2159,
+    "venue": "Grelle Forelle",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "address": "Spittelauer Lande 12, 1090 Vienne, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grelle%20Forelle%20Wien&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Grelle Forelle', Spittelauer Lande 12. Identique au catalogue."
+  },
+  {
+    "id": 2179,
+    "venue": "Grelle Forelle",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "address": "Spittelauer Lande 12, 1090 Vienne, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grelle%20Forelle%20Wien&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2159."
+  },
+  {
+    "id": 2265,
+    "venue": "Grelle Forelle",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "address": "Spittelauer Lande 12, 1090 Vienne, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grelle%20Forelle%20Wien&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2159."
+  },
+  {
+    "id": 2308,
+    "venue": "Grelle Forelle",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "address": "Spittelauer Lande 12, 1090 Vienne, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grelle%20Forelle%20Wien&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2159."
+  },
+  {
+    "id": 2357,
+    "venue": "Grelle Forelle",
+    "lat": 48.23441,
+    "lng": 16.36106,
+    "address": "Spittelauer Lande 12, 1090 Vienne, Autriche",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grelle%20Forelle%20Wien&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2159."
+  },
+  {
+    "id": 2242,
+    "venue": "Ampere",
+    "lat": 51.21151,
+    "lng": 4.42186,
+    "address": "Simonsstraat 21, 2018 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ampere%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Ampere Antwerpen', Simonsstraat 21. Identique au catalogue."
+  },
+  {
+    "id": 2361,
+    "venue": "Ampere",
+    "lat": 51.21151,
+    "lng": 4.42186,
+    "address": "Simonsstraat 21, 2018 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ampere%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2242."
+  },
+  {
+    "id": 2374,
+    "venue": "Ampere",
+    "lat": 51.21151,
+    "lng": 4.42186,
+    "address": "Simonsstraat 21, 2018 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ampere%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2242."
+  },
+  {
+    "id": 2260,
+    "venue": "Club Vaag",
+    "lat": 51.23374,
+    "lng": 4.40347,
+    "address": "Rijnkaai 4, 2000 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Club%20Vaag%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Club Vaag', Rijnkaai 4. Identique au catalogue."
+  },
+  {
+    "id": 2312,
+    "venue": "Garage Klub",
+    "lat": 51.24191,
+    "lng": 4.42122,
+    "address": "Noorderlaan 72-74, 2030 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Noorderlaan%2072%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Adresse Noorderlaan 72 confirmee par la fiche du lieu (garageklub.be / partyflock) ; le point du catalogue tombe exactement sur le batiment 72-74 dans OSM."
+  },
+  {
+    "id": 2352,
+    "venue": "Garage Klub",
+    "lat": 51.24191,
+    "lng": 4.42122,
+    "address": "Noorderlaan 72-74, 2030 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Noorderlaan%2072%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2312."
+  },
+  {
+    "id": 2335,
+    "venue": "Traum",
+    "lat": 51.22619,
+    "lng": 4.40395,
+    "address": "Verversrui 15, 2000 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Verversrui%2015%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Traum occupe les murs de l'ancien Cafe d'Anvers, Verversrui 15 (adresse publiee par antwerpen.be et par le club). Le point du catalogue tombe exactement sur ce numero."
+  },
+  {
+    "id": 2340,
+    "venue": "Antwerp Expo",
+    "lat": 51.19084,
+    "lng": 4.3989,
+    "address": "Jan Van Rijswijcklaan 191, 2020 Anvers, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Jan%20Van%20Rijswijcklaan%20191%20Antwerpen&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM exhibition_centre 'Antwerp Expo', Jan Van Rijswijcklaan 191. Identique au catalogue."
+  },
+  {
+    "id": 2383,
+    "venue": "Fuse",
+    "lat": 50.83536,
+    "lng": 4.34476,
+    "address": "Rue Blaes 208, 1000 Bruxelles, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Fuse%20Rue%20Blaes%20208%20Bruxelles&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Fuse', rue Blaes. Le point du catalogue tombait a 6 m ; precision a 5 decimales."
+  },
+  {
+    "id": 2413,
+    "venue": "Sportcampus Lange Munte",
+    "lat": 50.80634,
+    "lng": 3.30192,
+    "address": "Bad Godesberglaan 22, 8500 Courtrai, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sportcampus%20Lange%20Munte%20Kortrijk&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM sports_centre 'Sportcampus Lange Munte', Bad Godesberglaan 22. Identique au catalogue."
+  },
+  {
+    "id": 2157,
+    "venue": "Boogaloo",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "address": "Ulica grada Vukovara 68, 10000 Zagreb, Croatie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Boogaloo%20Zagreb&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM 'Boogaloo', Ulica grada Vukovara 68. Identique au catalogue."
+  },
+  {
+    "id": 2210,
+    "venue": "Boogaloo",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "address": "Ulica grada Vukovara 68, 10000 Zagreb, Croatie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Boogaloo%20Zagreb&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2157."
+  },
+  {
+    "id": 2288,
+    "venue": "Boogaloo",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "address": "Ulica grada Vukovara 68, 10000 Zagreb, Croatie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Boogaloo%20Zagreb&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2157."
+  },
+  {
+    "id": 2378,
+    "venue": "Boogaloo",
+    "lat": 45.79861,
+    "lng": 15.97112,
+    "address": "Ulica grada Vukovara 68, 10000 Zagreb, Croatie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Boogaloo%20Zagreb&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2157."
+  },
+  {
+    "id": 2280,
+    "venue": "ETKO",
+    "lat": 34.66141,
+    "lng": 33.02034,
+    "address": "ETKO Winery, Tsiflikoudia, 3010 Limassol, Chypre",
+    "source": "https://nominatim.openstreetmap.org/search?q=ETKO%20Limassol&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM events_venue 'ETKO Winery', quartier Tsiflikoudia. Identique au catalogue."
+  },
+  {
+    "id": 2289,
+    "venue": "Fléda",
+    "lat": 49.20987,
+    "lng": 16.60334,
+    "address": "Stefanikova 95/24, 602 00 Brno, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Fleda%20Brno&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM 'Club Fleda', Stefanikova 24. Le point du catalogue etait a 3 decimales ; precision a 5."
+  },
+  {
+    "id": 2143,
+    "venue": "Cross Club",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "address": "Plynarni 1096/23, 170 00 Prague 7, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cross%20Club%20Praha&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Cross Club', Plynarni 23. Identique au catalogue."
+  },
+  {
+    "id": 2155,
+    "venue": "Cross Club",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "address": "Plynarni 1096/23, 170 00 Prague 7, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cross%20Club%20Praha&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2143."
+  },
+  {
+    "id": 2229,
+    "venue": "Cross Club",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "address": "Plynarni 1096/23, 170 00 Prague 7, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cross%20Club%20Praha&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2143."
+  },
+  {
+    "id": 2263,
+    "venue": "Cross Club",
+    "lat": 50.10829,
+    "lng": 14.44323,
+    "address": "Plynarni 1096/23, 170 00 Prague 7, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Cross%20Club%20Praha&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2143."
+  },
+  {
+    "id": 2158,
+    "venue": "Roxy",
+    "lat": 50.09072,
+    "lng": 14.42591,
+    "address": "Dlouha 33, 110 00 Prague 1, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Roxy%20Dlouha%2033%20Praha&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Club Roxy Prague', Dlouha 33 (Josefov). Homonyme ecarte : le Roxy de Londres. Le point du catalogue tombait a 4 m."
+  },
+  {
+    "id": 2244,
+    "venue": "Vila Štvanice",
+    "lat": 50.0956,
+    "lng": 14.43606,
+    "address": "Ostrov Stvanice 858, 170 00 Prague 7, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Vila%20Stvanice%20Praha&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM theatre 'Vila Stvanice', ile de Stvanice. Identique au catalogue."
+  },
+  {
+    "id": 2154,
+    "venue": "Hangaren",
+    "lat": 55.69142,
+    "lng": 12.61704,
+    "address": "Refshalevej, Refshaleoen, 1432 Copenhague, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hangaren%20Refshalevej%20K%C3%B8benhavn&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Hangaren', Refshalevej sur Refshaleoen. Le point du catalogue tombait a 7 m."
+  },
+  {
+    "id": 2239,
+    "venue": "Hangaren",
+    "lat": 55.69142,
+    "lng": 12.61704,
+    "address": "Refshalevej, Refshaleoen, 1432 Copenhague, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hangaren%20Refshalevej%20K%C3%B8benhavn&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2154."
+  },
+  {
+    "id": 2256,
+    "venue": "Hangaren",
+    "lat": 55.69142,
+    "lng": 12.61704,
+    "address": "Refshalevej, Refshaleoen, 1432 Copenhague, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Hangaren%20Refshalevej%20K%C3%B8benhavn&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2154."
+  },
+  {
+    "id": 2206,
+    "venue": "Culture Box",
+    "lat": 55.68648,
+    "lng": 12.58398,
+    "address": "Kronprinsessegade 54, 1306 Copenhague, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Culture%20Box%20K%C3%B8benhavn&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM nightclub 'Culture Box', Kronprinsessegade. Le point du catalogue tombait a 11 m."
+  },
+  {
+    "id": 2330,
+    "venue": "Culture Box",
+    "lat": 55.68648,
+    "lng": 12.58398,
+    "address": "Kronprinsessegade 54, 1306 Copenhague, Danemark",
+    "source": "https://nominatim.openstreetmap.org/search?q=Culture%20Box%20K%C3%B8benhavn&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2206."
+  },
+  {
+    "id": 2359,
+    "venue": "Waagnatie",
+    "lat": 51.23388,
+    "lng": 4.40206,
+    "address": "Rijnkaai 150, 2000 Anvers, Belgique",
+    "source": "https://www.waagnatie.eu/en/contact/",
+    "status": "confirme",
+    "note": "Adresse Rijnkaai 150 publiee par waagnatie.eu et par antwerpen.be ; le point du catalogue tombe exactement sur le noeud OSM events_venue du complexe (nomme d'apres le restaurant ALO qu'il abrite)."
+  },
+  {
+    "id": 2240,
+    "venue": "Tour & Taxis - Gare Maritime",
+    "lat": 50.86518,
+    "lng": 4.34553,
+    "address": "Gare Maritime, Tour & Taxis, avenue du Port 86C, 1000 Bruxelles, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Gare%20Maritime%20Tour%20%26%20Taxis%20Brussel&format=json",
+    "status": "corrige",
+    "note": "L'ancien point etait le point d'adresse de l'avenue du Port 86C, c'est-a-dire l'entree du site Tour & Taxis, a 257 m de la halle elle-meme. Nouveau point : le batiment OSM 'Gare Maritime' (passage de la Kriek), la salle ou se tient l'evenement."
+  },
+  {
+    "id": 2360,
+    "venue": "Tour & Taxis - Gare Maritime",
+    "lat": 50.86518,
+    "lng": 4.34553,
+    "address": "Gare Maritime, Tour & Taxis, avenue du Port 86C, 1000 Bruxelles, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Gare%20Maritime%20Tour%20%26%20Taxis%20Brussel&format=json",
+    "status": "corrige",
+    "note": "Meme salle que la fiche 2240, meme correction de 257 m."
+  },
+  {
+    "id": 2273,
+    "venue": "UMI",
+    "lat": 50.84585,
+    "lng": 4.35304,
+    "address": "Rue du Marche aux Fromages 10, 1000 Bruxelles, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Rue%20du%20March%C3%A9%20aux%20Fromages%2010%20Bruxelles&format=json",
+    "status": "confirme",
+    "note": "Adresse rue du Marche aux Fromages 10 confirmee par les fiches du club (corner.inc, findyourplace.be) ; le point du catalogue tombe exactement sur ce numero dans OSM."
+  },
+  {
+    "id": 2294,
+    "venue": "Kompass Klub",
+    "lat": 51.06815,
+    "lng": 3.72263,
+    "address": "Nieuwevaart 118, 9000 Gand, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kompass%20Klub%20Nieuwevaart%20Gent&format=json",
+    "status": "corrige",
+    "note": "Noeud OSM nightclub 'Kompass Klub', Nieuwevaart. L'ancien point tombait a 70 m au nord du club."
+  },
+  {
+    "id": 2362,
+    "venue": "Kompass Klub",
+    "lat": 51.06815,
+    "lng": 3.72263,
+    "address": "Nieuwevaart 118, 9000 Gand, Belgique",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kompass%20Klub%20Nieuwevaart%20Gent&format=json",
+    "status": "corrige",
+    "note": "Meme salle que la fiche 2294, meme correction de 70 m."
+  },
+  {
+    "id": 2271,
+    "venue": "Liège Airport",
+    "lat": 50.64227,
+    "lng": 5.45978,
+    "address": "Rue de l'Aeroport 50, 4460 Grace-Hollogne, Belgique",
+    "source": "https://www.liegeairport.com/en/contact",
+    "status": "corrige",
+    "note": "L'ancien point etait le centroide de l'emprise aeroportuaire rendu par Nominatim, au milieu des pistes. Le festival se tient dans le hall principal, dont la page contact de l'aeroport publie l'adresse (rue de l'Aeroport 50) et le lien Google Maps 50.6422701, 5.459779. Correction de 1,40 km."
+  },
+  {
+    "id": 2295,
+    "venue": "Off Club",
+    "status": "inchange",
+    "note": "Aucune source lue ne rattache un 'Off Club' a une adresse liegeoise. L'ancien point tombe exactement sur le 25 rue Roture, adresse que les sources publiques attribuent a l'Escape Club / Other Side 2.0, pas a un Off Club : impossible de trancher entre une salle renommee et une homonymie. Pas de coordonnee proposee."
+  },
+  {
+    "id": 2353,
+    "venue": "Off Club",
+    "status": "inchange",
+    "note": "Meme salle que la fiche 2295, meme impossibilite de trancher."
+  },
+  {
+    "id": 2296,
+    "venue": "Horst Club, Asiat Park",
+    "lat": 50.9408,
+    "lng": 4.43074,
+    "address": "Willem Elsschotstraat 19, 1800 Vilvorde, Belgique",
+    "source": "https://www.horstartsandmusic.com/faq/club",
+    "status": "corrige",
+    "note": "Le site de Horst publie deux entrees, Willem Elsschotstraat 19 et Mechelsesteenweg 255. Nouveau point : le batiment 19A-21B de la Willem Elsschotstraat dans OSM. L'ancien point tombait a 177 m au sud-ouest, sur le centre de formation VDAB voisin."
+  },
+  {
+    "id": 2411,
+    "venue": "Plage de Zeebrugge",
+    "lat": 51.32786,
+    "lng": 3.17401,
+    "address": "Zeedijk 1, 8380 Zeebrugge, Belgique",
+    "source": "https://www.wecandance.be/info-faq",
+    "status": "confirme",
+    "note": "La FAQ de WECANDANCE donne l'entree du festival au Zeedijk 1, 8380 Zeebrugge. Le point du catalogue tombe sur le Zeedijk dans la Strandwijk (verifie par geocodage inverse). Le numero 1 n'est pas cartographie dans OSM, la precision reste donc celle de la rue ; aucune raison de bouger le point."
+  },
+  {
+    "id": 2203,
+    "venue": "Mason Bar",
+    "lat": 34.6732,
+    "lng": 33.04299,
+    "address": "Zik Zak 10, 3036 Limassol, Chypre",
+    "source": "https://2gis.com.cy/cyprus/firm/70000001021928679/tab/info",
+    "status": "confirme",
+    "note": "Adresse Zik Zak 10 (centre historique) confirmee par la fiche 2GIS du bar. Le geocodage inverse du point du catalogue rend 'Zik Zak 8', soit 13 m de la voie pietonne portant le numero 10."
+  },
+  {
+    "id": 2301,
+    "venue": "Mason Bar",
+    "lat": 34.6732,
+    "lng": 33.04299,
+    "address": "Zik Zak 10, 3036 Limassol, Chypre",
+    "source": "https://2gis.com.cy/cyprus/firm/70000001021928679/tab/info",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2203."
+  },
+  {
+    "id": 2329,
+    "venue": "Ktima Camelot",
+    "status": "inchange",
+    "note": "Le domaine n'est pas cartographie dans OSM et son site (ktimacamelot.weebly.com) ne publie ni adresse complete ni lien Google Maps, seulement 'Agios Ioannis Malountas, a 20 min de Nicosie'. Une fiche annuaire donne 'Agion Anargyron 1/1, 2611 Agios Ioannis' alors que le point du catalogue se geocode en sens inverse dans le code postal 2671, a 1,7 km au nord-est du centre du village 2611. Doute non tranche : je ne propose pas de coordonnee de remplacement."
+  },
+  {
+    "id": 2305,
+    "venue": "Sacre Coeur",
+    "lat": 50.07561,
+    "lng": 14.39844,
+    "address": "Holeckova, Smichov, 150 21 Prague 5, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sacre%20Coeur%20Holeckova%20Praha&format=json",
+    "status": "confirme",
+    "note": "Noeud OSM 'Sacre Coeur', Holeckova a Smichov. L'ancien point tombait a 46 m ; precision. Le parc homonyme, 200 m plus au sud, a ete ecarte."
+  },
+  {
+    "id": 2313,
+    "venue": "Sacre Coeur",
+    "lat": 50.07561,
+    "lng": 14.39844,
+    "address": "Holeckova, Smichov, 150 21 Prague 5, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sacre%20Coeur%20Holeckova%20Praha&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2305."
+  },
+  {
+    "id": 2319,
+    "venue": "Sacre Coeur",
+    "lat": 50.07561,
+    "lng": 14.39844,
+    "address": "Holeckova, Smichov, 150 21 Prague 5, Republique tcheque",
+    "source": "https://nominatim.openstreetmap.org/search?q=Sacre%20Coeur%20Holeckova%20Praha&format=json",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2305."
+  },
+  {
+    "id": 2341,
+    "venue": "Křižíkovy pavilony",
+    "lat": 50.10743,
+    "lng": 14.42913,
+    "address": "Vystaviste, 170 00 Prague 7-Bubenec, Republique tcheque",
+    "source": "https://navystavisti.cz/areal/krizikovy-pavilony/",
+    "status": "corrige",
+    "note": "Le site officiel de Vystaviste situe les pavillons B a E dans la partie basse du parc, autour de la fontaine Krizik. L'ancien point etait le centroide de tout le parc des expositions rendu par Nominatim, a 269 m au nord-ouest ; nouveau point : la fontaine Krizik, que les quatre pavillons entourent."
+  }
+]

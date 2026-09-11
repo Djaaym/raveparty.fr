@@ -1,0 +1,562 @@
+[
+ {
+  "id": 2211,
+  "venue": "Lehmann Club",
+  "lat": 48.77985,
+  "lng": 9.16678,
+  "address": "Seidenstraße 20, 70174 Stuttgart, Allemagne",
+  "source": "https://nominatim.openstreetmap.org/search?q=Seidenstra%C3%9Fe+20%2C+70174+Stuttgart&format=json",
+  "status": "confirme",
+  "note": "Adresse Seidenstraße 20 (Bosch-Areal, sous-sol) confirmée par la fiche Stuttgart-Tourist ; le géocodage OSM du numéro rend exactement le point du catalogue."
+ },
+ {
+  "id": 2160,
+  "venue": "Relikt",
+  "lat": 51.262,
+  "lng": 7.14748,
+  "address": "Gathe 50, 42107 Wuppertal, Allemagne",
+  "source": "https://looprituals.de/relikt-neuer-club-in-wuppertal/",
+  "status": "confirme",
+  "note": "Le club a ouvert le 11/07/2026 à la Gathe 50 (ancien Pays Club). Le point OSM du numéro 50 tombe à 6 m de la coordonnée du catalogue, qui est donc bonne et simplement précisée."
+ },
+ {
+  "id": 2194,
+  "venue": "Relikt",
+  "lat": 51.262,
+  "lng": 7.14748,
+  "address": "Gathe 50, 42107 Wuppertal, Allemagne",
+  "source": "https://looprituals.de/relikt-neuer-club-in-wuppertal/",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2160. Point OSM du numéro 50 à 6 m de l'ancienne coordonnée."
+ },
+ {
+  "id": 2231,
+  "venue": "U-Club",
+  "lat": 51.24874,
+  "lng": 7.12112,
+  "address": "Friedrich-Ebert-Straße 191, 42117 Wuppertal, Allemagne",
+  "source": "https://nominatim.openstreetmap.org/search?q=U-Club+Wuppertal&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « U-Club » au 191 Friedrich-Ebert-Straße. Écart avec l'ancien point : 23 m."
+ },
+ {
+  "id": 2153,
+  "venue": "Alsos Theater",
+  "lat": 37.99446,
+  "lng": 23.73874,
+  "address": "Θέατρο Άλσος, Ευελπίδων, Πεδίον του Άρεως, 113 62 Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Alsos+Theater+Athens&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM theatre « Άλσος » dans le Pedion tou Areos, rue Evelpidon. Écart avec l'ancien point : 9 m."
+ },
+ {
+  "id": 2223,
+  "venue": "Bolivar Beach Club",
+  "lat": 37.9082,
+  "lng": 23.71467,
+  "address": "Λεωφόρος Ποσειδώνος, Ακτή του Ήλιου, 174 55 Άλιμος, Grèce",
+  "source": "https://www.bolivar.gr/contact/",
+  "status": "confirme",
+  "note": "Adresse « Leoforos Poseidonos, Akti tou Hliou Beach, Alimos 17455 » lue sur la page contact du club ; le nœud OSM « Bolivar » sur la contre-allée de Poseidonos tombe à 1 m du point du catalogue."
+ },
+ {
+  "id": 2252,
+  "venue": "Oddity Club",
+  "lat": 37.97575,
+  "lng": 23.71269,
+  "address": "Ηρακλειδών 61, Κάτω Πετράλωνα, 118 54 Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Oddity+Club+Athens&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Oddity Club », Irakleidon 61, Petralona. Écart avec l'ancien point : moins de 1 m."
+ },
+ {
+  "id": 2251,
+  "venue": "Universe Athens",
+  "lat": 37.98484,
+  "lng": 23.68383,
+  "address": "Παράλληλη Λεωφόρου Κηφισού 87, 122 41 Αιγάλεω, Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Universe+%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM music_venue « Universe live stage » sur la parallèle de la Kifisou, à Egaleo / Agios Ioannis Rentis. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2338,
+  "venue": "Universe Athens",
+  "lat": 37.98484,
+  "lng": 23.68383,
+  "address": "Παράλληλη Λεωφόρου Κηφισού 87, 122 41 Αιγάλεω, Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Universe+%CE%91%CE%B9%CE%B3%CE%AC%CE%BB%CE%B5%CF%89&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2251."
+ },
+ {
+  "id": 2331,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Akvárium Klub », Erzsébet tér 12. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2347,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2331."
+ },
+ {
+  "id": 2363,
+  "venue": "Akvárium Klub",
+  "lat": 47.49867,
+  "lng": 19.05416,
+  "address": "Erzsébet tér 12, 1051 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Akv%C3%A1rium+Klub+Budapest&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2331."
+ },
+ {
+  "id": 2342,
+  "venue": "A38 Hajó",
+  "lat": 47.47653,
+  "lng": 19.06294,
+  "address": "Henryk Sławik rakpart, pont de Petőfi (rive de Buda), 1117 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=A38+Haj%C3%B3+Budapest&format=json",
+  "status": "corrige",
+  "note": "Nœud OSM nightclub « A38 Hajó », le bateau amarré au pied du pont de Petőfi côté Buda. L'ancien point tombait 280 m en amont, au milieu du Danube."
+ },
+ {
+  "id": 2151,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Cyprus Avenue », 113 Oliver Plunkett Street. Écart avec l'ancien point : 8 m."
+ },
+ {
+  "id": 2171,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2151."
+ },
+ {
+  "id": 2375,
+  "venue": "Cyprus Avenue",
+  "lat": 51.89834,
+  "lng": -8.46981,
+  "address": "113 Oliver Plunkett Street, Cork T12 PY8A, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Cyprus+Avenue+Cork&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2151."
+ },
+ {
+  "id": 2282,
+  "venue": "Wigwam",
+  "lat": 53.348,
+  "lng": -6.26215,
+  "address": "54 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Wigwam+Dublin&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM bar « Wigwam », 54 Middle Abbey Street. Coordonnée identique à celle du catalogue, rendue à 5 décimales."
+ },
+ {
+  "id": 2172,
+  "venue": "Index",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "address": "57 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://www.indexdublin.com/events/",
+  "status": "confirme",
+  "note": "Le pied de page du site du club donne « 57 Middle Abbey St, North City, Dublin 1 », et OSM porte un nœud nightclub « Index Dublin » à ce numéro. Attention aux anciennes adresses qui circulent encore (Liberty Lane, Arran Quay) : ce ne sont plus les bonnes."
+ },
+ {
+  "id": 2224,
+  "venue": "Index",
+  "lat": 53.34799,
+  "lng": -6.26185,
+  "address": "57 Middle Abbey Street, North City, Dublin D01 W573, Irlande",
+  "source": "https://www.indexdublin.com/events/",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2172."
+ },
+ {
+  "id": 2241,
+  "venue": "Lofi",
+  "lat": 52.39125,
+  "lng": 4.82422,
+  "address": "Basisweg 63, 1043 AN Amsterdam, Pays-Bas",
+  "source": "https://nominatim.openstreetmap.org/search?q=Basisweg+63%2C+Amsterdam&format=json",
+  "status": "confirme",
+  "note": "Adresse Basisweg 63 (ancien dépôt de bus GVB) ; le géocodage du numéro rend exactement le point du catalogue."
+ },
+ {
+  "id": 2186,
+  "venue": "Playground 260 (Lunar Space)",
+  "lat": 37.96344,
+  "lng": 23.68785,
+  "address": "Πειραιώς 260, Ταύρος, 177 78 Αθήνα, Grèce",
+  "source": "https://accessible.thisisathens.org/events/lunar-space",
+  "status": "confirme",
+  "note": "Le guide officiel d'Athènes donne « 260 Pireos, Tavros, 177 78 » et un lien carte dont l'URL dépliée porte !3d37.9634396!4d23.6878488. La coordonnée du catalogue est la même."
+ },
+ {
+  "id": 2328,
+  "venue": "OAKA",
+  "lat": 38.03618,
+  "lng": 23.78764,
+  "address": "Λεωφόρος Ολυμπιονίκη Σπύρου Λούη 1, 151 23 Μαρούσι, Αθήνα, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=%CE%9A%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CF%8C+%CE%9F%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CF%8C+%CE%A3%CF%84%CE%AC%CE%B4%CE%B9%CE%BF+%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD&format=json",
+  "status": "confirme",
+  "note": "Le show ÆDEN d'Anyma se tient au stade olympique Spyros Louis, à l'intérieur de l'OAKA. Point repris du polygone OSM « Κεντρικό Ολυμπιακό Στάδιο ». L'ancien point tombait déjà dans l'enceinte, il est simplement précisé."
+ },
+ {
+  "id": 2142,
+  "venue": "High On Sugar",
+  "lat": 40.63865,
+  "lng": 22.93704,
+  "address": "Ορφανίδου 7, 546 26 Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=40.63865&lon=22.93704",
+  "status": "confirme",
+  "note": "Le géocodage inverse du point du catalogue rend « 5, Ορφανίδου », soit le numéro voisin de l'adresse du club (Orfanidou 7), à une quinzaine de mètres. Rien à corriger."
+ },
+ {
+  "id": 2269,
+  "venue": "Sonik Arena",
+  "lat": 40.52518,
+  "lng": 22.99528,
+  "address": "Θεσσαλονίκης - Περαίας, Θέρμη, 570 01, Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=Sonik+Arena+Thessaloniki&format=json",
+  "status": "confirme",
+  "note": "Objet OSM nommé « Sonik Arena » sur la route Thessalonique - Peraia, à Thermi. Écart avec l'ancien point : 40 m."
+ },
+ {
+  "id": 2284,
+  "venue": "LABattoir",
+  "lat": 40.64121,
+  "lng": 22.91172,
+  "address": "Παλιά Σφαγεία, Λητούς, 546 27 Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=%CE%94%CE%B7%CE%BC%CE%BF%CF%84%CE%B9%CE%BA%CE%AC+%CE%A3%CF%86%CE%B1%CE%B3%CE%B5%CE%AF%CE%B1+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7%CF%82&format=json",
+  "status": "confirme",
+  "note": "Le LABattoir occupe les anciens abattoirs municipaux (Παλιά Σφαγεία), rue Litous. Objet OSM à 6 m du point du catalogue."
+ },
+ {
+  "id": 2285,
+  "venue": "Eden Thessaloniki",
+  "lat": 40.64532,
+  "lng": 22.9088,
+  "address": "26ης Οκτωβρίου 35, 546 27 Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=40.64532&lon=22.9088",
+  "status": "confirme",
+  "note": "Le géocodage inverse place le point du catalogue sur la 26ης Οκτωβρίου, au droit du Vyrsodepseio (n°43), à quelques dizaines de mètres du n°35 annoncé par le club. Point conservé faute de numéro cartographié, mais la rue et le tronçon sont les bons."
+ },
+ {
+  "id": 2322,
+  "venue": "Soul",
+  "lat": 40.64765,
+  "lng": 22.90697,
+  "address": "26ης Οκτωβρίου 104, 561 22 Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=40.64759&lon=22.90697",
+  "status": "confirme",
+  "note": "OSM porte un objet nommé « Soul » au 104 de la 26ης Οκτωβρίου, à 7 m du point du catalogue."
+ },
+ {
+  "id": 2356,
+  "venue": "WE",
+  "lat": 40.62592,
+  "lng": 22.95823,
+  "address": "Γ' Σεπτεμβρίου 3, 546 36 Θεσσαλονίκη, Grèce",
+  "source": "https://nominatim.openstreetmap.org/search?q=WE+%CE%93%27+%CE%A3%CE%B5%CF%80%CF%84%CE%B5%CE%BC%CE%B2%CF%81%CE%AF%CE%BF%CF%85+3+%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7&format=json",
+  "status": "confirme",
+  "note": "Objet OSM nommé « WE » au 3 de la rue G' Septemvriou. Écart avec l'ancien point : 12 m."
+ },
+ {
+  "id": 2408,
+  "venue": "Hajogyari-sziget",
+  "lat": 47.55313,
+  "lng": 19.05432,
+  "address": "Hajógyári-sziget (Óbudai-sziget), III. kerület, 1033 Budapest, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Sziget+Festival+Budapest&format=json",
+  "status": "corrige",
+  "note": "Polygone OSM festival_grounds nommé « Sziget Fesztivál » sur l'île de Hajógyári. L'ancien point tombait 215 m au nord-ouest, hors du périmètre cartographié. L'entrée publique reste le K-híd, sur la rive d'Óbuda (47.55203, 19.04878)."
+ },
+ {
+  "id": 2401,
+  "venue": "Dádpuszta",
+  "lat": 46.76962,
+  "lng": 18.43789,
+  "address": "O.Z.O.R.A. Festival, Dádpuszta, 7015 Igar, Hongrie",
+  "source": "https://nominatim.openstreetmap.org/search?q=O.Z.O.R.A.+Festival+D%C3%A1dpuszta&format=json",
+  "status": "confirme",
+  "note": "Polygone OSM festival_grounds nommé « O.Z.O.R.A. Festival » à Dádpuszta (commune d'Igar). Écart avec l'ancien point : 9 m. La correction des 27 km signalée par le passé tient toujours."
+ },
+ {
+  "id": 2394,
+  "venue": "Royal Hospital Kilmainham",
+  "lat": 53.34292,
+  "lng": -6.29946,
+  "address": "Royal Hospital Kilmainham, Military Road, Kilmainham, Dublin D08 FW31, Irlande",
+  "source": "https://nominatim.openstreetmap.org/search?q=Royal+Hospital+Kilmainham+Military+Road+Dublin&format=json",
+  "status": "confirme",
+  "note": "Forbidden Fruit se tient dans les jardins du Royal Hospital Kilmainham, dont l'entrée est sur Military Road. Point repris du bâtiment cartographié (IMMA) ; l'ancien point tombait 86 m plus au sud, dans la pelouse."
+ },
+ {
+  "id": 2147,
+  "venue": "Amnesia Milano",
+  "lat": 45.46304,
+  "lng": 9.24047,
+  "address": "Via Alfonso Gatto (parking ATM Forlanini), angle Via Cavriana 7, 20134 Milano, Italie",
+  "source": "https://amnesiamilano.com/contact/",
+  "status": "corrige",
+  "note": "Le site du club situe l'entrée « Via Gatto, à l'intérieur du parking ATM Forlanini » ; OSM porte un nœud nightclub « Amnesia » à cet endroit, au 7 Via Cavriana. L'ancien point tombait 181 m au sud-ouest, sur la bretelle de Via Alfonso Gatto."
+ },
+ {
+  "id": 2222,
+  "venue": "Amnesia Milano",
+  "lat": 45.46304,
+  "lng": 9.24047,
+  "address": "Via Alfonso Gatto (parking ATM Forlanini), angle Via Cavriana 7, 20134 Milano, Italie",
+  "source": "https://amnesiamilano.com/contact/",
+  "status": "corrige",
+  "note": "Même salle que la fiche 2147, même correction de 181 m."
+ },
+ {
+  "id": 2327,
+  "venue": "Amnesia Milano",
+  "lat": 45.46304,
+  "lng": 9.24047,
+  "address": "Via Alfonso Gatto (parking ATM Forlanini), angle Via Cavriana 7, 20134 Milano, Italie",
+  "source": "https://amnesiamilano.com/contact/",
+  "status": "corrige",
+  "note": "Même salle que la fiche 2147, même correction de 181 m."
+ },
+ {
+  "id": 2168,
+  "venue": "Gate Milano",
+  "lat": 45.49438,
+  "lng": 9.18191,
+  "address": "Via Valtellina 21, 20159 Milano, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Gate+Milano&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Gate », Via Valtellina 21, quartier Isola. Écart avec l'ancien point : 57 m."
+ },
+ {
+  "id": 2204,
+  "venue": "Gate Milano",
+  "lat": 45.49438,
+  "lng": 9.18191,
+  "address": "Via Valtellina 21, 20159 Milano, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Gate+Milano&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2168."
+ },
+ {
+  "id": 2237,
+  "venue": "Gate Milano",
+  "lat": 45.49438,
+  "lng": 9.18191,
+  "address": "Via Valtellina 21, 20159 Milano, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Gate+Milano&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2168."
+ },
+ {
+  "id": 2191,
+  "venue": "Spazio Ex Macello",
+  "lat": 45.4566,
+  "lng": 9.22403,
+  "address": "Viale Molise 62, 20137 Milano, Italie",
+  "source": "https://zero.eu/en/luoghi/253548-ex-macello,milano/",
+  "status": "corrige",
+  "note": "La fiche de lieu de zero.eu porte l'adresse Viale Molise 62 et les coordonnées 45.456595 / 9.224032. L'ancien point tombait 484 m au sud-est, au 10 de la Via Monte Velino, hors de l'enceinte de l'ex-Macello."
+ },
+ {
+  "id": 2221,
+  "venue": "Spazio Ex Macello",
+  "lat": 45.4566,
+  "lng": 9.22403,
+  "address": "Viale Molise 62, 20137 Milano, Italie",
+  "source": "https://zero.eu/en/luoghi/253548-ex-macello,milano/",
+  "status": "corrige",
+  "note": "Même lieu que la fiche 2191, même correction de 484 m."
+ },
+ {
+  "id": 2202,
+  "venue": "Fabrique Milano",
+  "lat": 45.45212,
+  "lng": 9.25228,
+  "address": "Via Gaudenzio Fantoli 9, 20138 Milano, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Fabrique+Milano&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Fabrique », Via Gaudenzio Fantoli 9. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2189,
+  "venue": "Club Partenopeo",
+  "lat": 40.80227,
+  "lng": 14.17482,
+  "address": "Via Coroglio, Bagnoli, 80124 Napoli, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Club+Partenopeo+Napoli&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Club Partenopeo », Via Coroglio à Bagnoli. Écart avec l'ancien point : 8 m."
+ },
+ {
+  "id": 2148,
+  "venue": "Bolgia",
+  "lat": 45.63336,
+  "lng": 9.60324,
+  "address": "Via Vaccarezza 8, 24040 Osio Sopra (BG), Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Bolgia+Osio+Sopra&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Bolgia », Via Vaccarezza 8. Écart avec l'ancien point : 55 m."
+ },
+ {
+  "id": 2188,
+  "venue": "REC Club",
+  "lat": 40.85821,
+  "lng": 14.1205,
+  "address": "Via Campana 233, 80078 Pozzuoli (NA), Italie",
+  "source": "https://recording-club.it/en/pages/press",
+  "status": "confirme",
+  "note": "Le dossier de presse du club donne « Via Campana 233, Pozzuoli » ; le géocodage inverse du point du catalogue rend l'arrêt OSM « Via Campana - Civico N° 233 », soit exactement le numéro. Écart : 11 m."
+ },
+ {
+  "id": 2253,
+  "venue": "REC Club",
+  "lat": 40.85821,
+  "lng": 14.1205,
+  "address": "Via Campana 233, 80078 Pozzuoli (NA), Italie",
+  "source": "https://recording-club.it/en/pages/press",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2188."
+ },
+ {
+  "id": 2149,
+  "venue": "Cave di Tufo di Tor Cervara",
+  "lat": 41.92644,
+  "lng": 12.58952,
+  "address": "Via di Tor Cervara 57b, 00155 Roma, Italie",
+  "source": "https://www.artribune.com/arti-performative/musica/2024/05/roma-nuovo-spazio-cave-tufo/",
+  "status": "corrige",
+  "note": "Adresse Via di Tor Cervara 57b confirmée par l'article d'Artribune et par la fiche de lieu Xceed ; la fiche Google Maps « CAVE DI TUFO DI TOR CERVARA » donne 41.9264434 / 12.5895207. L'ancien point tombait 191 m au nord-ouest, sur la Via dei Laghi Sportivi."
+ },
+ {
+  "id": 2169,
+  "venue": "Forte Antenne",
+  "lat": 41.9381,
+  "lng": 12.50075,
+  "address": "Via del Forte Antenne, Parioli, 00199 Roma, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Forte+Antenne+Roma&format=json",
+  "status": "confirme",
+  "note": "Polygone OSM « Forte Antenne », Via del Forte Antenne. Écart avec l'ancien point : 71 m."
+ },
+ {
+  "id": 2205,
+  "venue": "Forte Antenne",
+  "lat": 41.9381,
+  "lng": 12.50075,
+  "address": "Via del Forte Antenne, Parioli, 00199 Roma, Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Forte+Antenne+Roma&format=json",
+  "status": "confirme",
+  "note": "Même lieu que la fiche 2169."
+ },
+ {
+  "id": 2187,
+  "venue": "Kozel Carroponte",
+  "lat": 45.52957,
+  "lng": 9.22092,
+  "address": "Via Luigi Granelli 1, 20099 Sesto San Giovanni (MI), Italie",
+  "source": "https://nominatim.openstreetmap.org/search?q=Carroponte+Sesto+San+Giovanni&format=json",
+  "status": "corrige",
+  "note": "Objet OSM « Carroponte », Via Luigi Granelli 1, dans l'ancienne aire Breda. L'ancien point tombait 193 m à l'est, hors du site."
+ },
+ {
+  "id": 2190,
+  "venue": "ONE.Torino",
+  "lat": 45.05016,
+  "lng": 7.68234,
+  "address": "Corso Massimo d'Azeglio 11, 10126 Torino, Italie",
+  "source": "https://www.one-torino.it/",
+  "status": "confirme",
+  "note": "Le site du club donne l'adresse et un lien Google Maps dont l'URL dépliée porte !3d45.0501618!4d7.6823438 : exactement la coordonnée du catalogue."
+ },
+ {
+  "id": 2254,
+  "venue": "Q35 Warehouse",
+  "lat": 45.07486,
+  "lng": 7.69851,
+  "address": "Lungo Dora Firenze 131/A (angle Via Mantova 38), 10153 Torino, Italie",
+  "source": "https://xceed.me/it/torino/venue/q35-warehouse",
+  "status": "confirme",
+  "note": "La fiche de lieu Xceed donne « Lungo Dora Firenze 131/A - 10153 Torino » ; le géocodage du numéro rend 45.0748563 / 7.6985104. Écart avec l'ancien point : 37 m. Attention, l'adresse historique Via Quittengo 35 (Barriera di Milano) n'est plus la bonne, elle est à 1,1 km au nord."
+ },
+ {
+  "id": 2167,
+  "venue": "UNO Malta",
+  "lat": 35.89132,
+  "lng": 14.41897,
+  "address": "Crafts Village, Ta' Qali, Ħ'Attard ATD 4000, Malte",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=35.89136&lon=14.41923",
+  "status": "confirme",
+  "note": "L'adresse publiée est « Crafts Village, Ta' Qali » et le géocodage inverse du point du catalogue rend l'objet OSM « Ta' Qali Artisan Village ». Écart : 24 m."
+ },
+ {
+  "id": 2227,
+  "venue": "UNO Malta",
+  "lat": 35.89132,
+  "lng": 14.41897,
+  "address": "Crafts Village, Ta' Qali, Ħ'Attard ATD 4000, Malte",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=35.89136&lon=14.41923",
+  "status": "confirme",
+  "note": "Même site que la fiche 2167. Le festival Defected occupe aussi d'autres lieux (Café del Mar, Fort Saint-Elme), mais le site principal est l'UNO de Ta' Qali."
+ },
+ {
+  "id": 2391,
+  "venue": "Gianpula Village",
+  "lat": 35.87566,
+  "lng": 14.41792,
+  "address": "Triq Ta' Gianpula, Ħal Muxi, Ħaż-Żebbuġ ZBG 3716, Malte",
+  "source": "https://nominatim.openstreetmap.org/reverse?format=json&lat=35.87566&lon=14.41819",
+  "status": "confirme",
+  "note": "Le géocodage inverse rend l'objet OSM nommé « Gianpula » sur la Triq Ta' Gianpula. Écart : 24 m. Le site est administrativement à Ħaż-Żebbuġ, à la limite de Rabat."
+ },
+ {
+  "id": 2192,
+  "venue": "Café del Mar Malta",
+  "lat": 35.95919,
+  "lng": 14.42412,
+  "address": "Triq it-Trunċiera, Il-Qawra, San Pawl il-Baħar SPB 1500, Malte",
+  "source": "https://nominatim.openstreetmap.org/search?q=Caf%C3%A9+del+Mar+Malta&format=json",
+  "status": "confirme",
+  "note": "Nœud OSM nightclub « Café Del Mar » à Qawra. Coordonnée identique à celle du catalogue."
+ },
+ {
+  "id": 2259,
+  "venue": "Café del Mar Malta",
+  "lat": 35.95919,
+  "lng": 14.42412,
+  "address": "Triq it-Trunċiera, Il-Qawra, San Pawl il-Baħar SPB 1500, Malte",
+  "source": "https://nominatim.openstreetmap.org/search?q=Caf%C3%A9+del+Mar+Malta&format=json",
+  "status": "confirme",
+  "note": "Même salle que la fiche 2192."
+ },
+ {
+  "id": 2286,
+  "venue": "Velvet Club Malta",
+  "lat": 35.94784,
+  "lng": 14.414,
+  "address": "Triq il-Bardnell, Buġibba, San Pawl il-Baħar SPB 2825, Malte",
+  "source": "https://nominatim.openstreetmap.org/search?q=Velvet+Bugibba&format=json",
+  "status": "corrige",
+  "note": "Nœud OSM nightclub « Velvet » sur la Triq il-Bardnell, à Buġibba. L'ancien point tombait 283 m à l'ouest, sur la Triq il-Kaħli."
+ }
+]

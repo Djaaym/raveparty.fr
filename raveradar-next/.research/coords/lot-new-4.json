@@ -1,0 +1,562 @@
+[
+  {
+    "id": 2272,
+    "venue": "RADION",
+    "lat": 52.34574,
+    "lng": 4.82551,
+    "address": "Louwesweg 1, 1066 EA Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Louwesweg%201%2C%201066%20EA%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=restaurant nomme Radion, Louwesweg 1 (ancien batiment de la faculte dentaire ACTA). L'ancien point tombait a 12 m, dans le meme batiment : coordonnee simplement reprecisee."
+  },
+  {
+    "id": 2334,
+    "venue": "Thuishaven",
+    "lat": 52.39676,
+    "lng": 4.85639,
+    "address": "Contactweg 68, 1014 BW Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Contactweg%2068%2C%201014%20AN%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse postale Contactweg 68 (Westpoort) resolue par Nominatim a 52.3967619 / 4.8563938, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2339,
+    "venue": "Gashouder Westergasfabriek",
+    "lat": 52.38676,
+    "lng": 4.86924,
+    "address": "Klönneplein 1, 1014 DD Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kl%C3%B6nneplein%201%2C%201014%20DD%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=events_venue Gashouder Westergasfabriek, 52.3867571 / 4.8692403. Identique au catalogue."
+  },
+  {
+    "id": 2368,
+    "venue": "Gashouder Westergasfabriek",
+    "lat": 52.38676,
+    "lng": 4.86924,
+    "address": "Klönneplein 1, 1014 DD Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Kl%C3%B6nneplein%201%2C%201014%20DD%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2339, meme noeud OSM events_venue."
+  },
+  {
+    "id": 2376,
+    "venue": "Shelter",
+    "lat": 52.38366,
+    "lng": 4.90248,
+    "address": "Overhoeksplein 3, 1031 KS Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Overhoeksplein%203%2C%201031%20KS%20Amsterdam&format=json&limit=3",
+    "status": "corrige",
+    "note": "L'ancien point (52.38383 / 4.90199) etait le noeud du restaurant Moon, au sommet de la A'DAM Toren. Le club Shelter est un noeud OSM distinct (amenity=nightclub) au pied de la tour, cote nord-est : 37 m plus loin."
+  },
+  {
+    "id": 2385,
+    "venue": "Ziggo Dome",
+    "lat": 52.31375,
+    "lng": 4.93771,
+    "address": "De Passage 100, 1101 AX Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ziggo%20Dome%2C%20De%20Passage%20100%2C%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=music_venue Ziggo Dome, 52.3137527 / 4.9377090. Identique au catalogue."
+  },
+  {
+    "id": 2243,
+    "venue": "Simplon",
+    "lat": 53.22455,
+    "lng": 6.56406,
+    "address": "Boterdiep 69, 9712 LK Groningen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Simplon%2C%20Boterdiep%2C%20Groningen&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Poppodium Simplon, Boterdiep 69. Identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2262,
+    "venue": "Simplon",
+    "lat": 53.22455,
+    "lng": 6.56406,
+    "address": "Boterdiep 69, 9712 LK Groningen, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Simplon%2C%20Boterdiep%2C%20Groningen&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2243."
+  },
+  {
+    "id": 2261,
+    "venue": "Toffler",
+    "lat": 51.92358,
+    "lng": 4.4754,
+    "address": "Weena-Zuid 33, 3012 NH Rotterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Toffler%2C%20Weena%2C%20Rotterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM Toffler, Weena-Zuid 33 (tunnel pietonnier sous le Weena), 51.9235817 / 4.4753952. Identique au catalogue."
+  },
+  {
+    "id": 2384,
+    "venue": "Maassilo",
+    "lat": 51.8977,
+    "lng": 4.49464,
+    "address": "Maashaven Zuidzijde 1-2, 3081 AE Rotterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Maashaven%20Zuidzijde%201%2C%203081%20AE%20Rotterdam&format=json&limit=3",
+    "status": "corrige",
+    "note": "L'ancien point (51.89751 / 4.4928) etait a 4 decimales en longitude et tombait 130 m a l'ouest du silo, dans le bassin du Maashaven. Noeud OSM amenity=events_venue Maassilo : 51.8976992 / 4.4946437."
+  },
+  {
+    "id": 2369,
+    "venue": "TivoliVredenburg",
+    "lat": 52.09245,
+    "lng": 5.11277,
+    "address": "Vredenburgkade 11, 3511 WC Utrecht, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Vredenburgkade%2011%2C%203511%20WC%20Utrecht&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM TivoliVredenburg, Vredenburgkade 11. Identique au catalogue."
+  },
+  {
+    "id": 2333,
+    "venue": "Klokgebouw, Strijp-S",
+    "lat": 51.44861,
+    "lng": 5.45761,
+    "address": "Klokgebouw 50, 5617 AB Eindhoven, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Klokgebouw%2050%2C%205617%20AB%20Eindhoven&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse Klokgebouw 50 (Strijp-S) resolue a 51.4486142 / 5.4576106. Identique au catalogue."
+  },
+  {
+    "id": 2377,
+    "venue": "Klokgebouw, Strijp-S",
+    "lat": 51.44861,
+    "lng": 5.45761,
+    "address": "Klokgebouw 50, 5617 AB Eindhoven, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Klokgebouw%2050%2C%205617%20AB%20Eindhoven&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2333."
+  },
+  {
+    "id": 2406,
+    "venue": "Sloterpark",
+    "lat": 52.37002,
+    "lng": 4.81712,
+    "address": "President Allendelaan 3, 1064 GW Amsterdam, Pays-Bas",
+    "source": "https://loveland.nl/festival/travel/",
+    "status": "confirme",
+    "note": "La page « travel » de loveland.nl donne l'adresse de navigation « President Allendelaan 3, Amsterdam » (entree du site, cote nord du Sloterpark). Nominatim la resout a 52.3700186 / 4.8171202, identique au catalogue."
+  },
+  {
+    "id": 2393,
+    "venue": "Stadsblokken",
+    "lat": 51.97755,
+    "lng": 5.90007,
+    "address": "Stadsblokkenweg 1-6, 6841 HG Arnhem, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Stadsblokkenweg%201%2C%20Arnhem&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse du site du festival Free Your Mind, Stadsblokkenweg 1-6 a Arnhem (rive de la Nederrijn). Le numero 1 resout a 51.9775045 / 5.9001792, soit 13 m de l'ancien point, qui tombe deja sur le WatersportCentrum Arnhem, au coeur du terrain."
+  },
+  {
+    "id": 2388,
+    "venue": "Fort bij Vechten",
+    "lat": 52.05806,
+    "lng": 5.16709,
+    "address": "Marsdijk 2, 3981 HE Bunnik, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Marsdijk%202%2C%203981%20HE%20Bunnik&format=json&limit=3",
+    "status": "corrige",
+    "note": "Adresse de visite du Fort bij Vechten (Waterliniemuseum), Marsdijk 2. L'ancien point tombait 110 m au nord-est, hors de l'entree, sur le glacis du fort."
+  },
+  {
+    "id": 2398,
+    "venue": "E3 Strand",
+    "lat": 51.3798,
+    "lng": 5.3298,
+    "address": "Buivensedreef 10, 5521 RN Eersel, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Buivensedreef%2010%2C%205521%20RN%20Eersel&format=json&limit=3",
+    "status": "confirme",
+    "note": "dominatorfestival.com donne « Buivensedreef 10, 5521 RN Eersel » comme adresse de navigation du site. Nominatim la resout a 51.3798022 / 5.3298034 (Strandhuys Zuyver, au bord du E3 Strand), identique au catalogue."
+  },
+  {
+    "id": 2389,
+    "venue": "Festivalterrein De Roost",
+    "lat": 51.59003,
+    "lng": 5.60639,
+    "address": "Keldonkseweg 8, 5469 EP Erp, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Keldonkseweg%208%2C%205469%20EP%20Erp&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse publiee du Festivalterrein De Roost, Keldonkseweg 8 a Erp : 51.5900295 / 5.6063902, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2390,
+    "venue": "Festivalterrein De Roost",
+    "lat": 51.59003,
+    "lng": 5.60639,
+    "address": "Keldonkseweg 8, 5469 EP Erp, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Keldonkseweg%208%2C%205469%20EP%20Erp&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme terrain que la fiche 2389."
+  },
+  {
+    "id": 2396,
+    "venue": "Recreatieterrein Rhederlaag",
+    "lat": 51.98896,
+    "lng": 6.04965,
+    "address": "De Muggenwaard, 6988 BX Lathum, Pays-Bas",
+    "source": "https://www.dreamfields.nl/informatie/",
+    "status": "confirme",
+    "note": "dreamfields.nl donne « Muggenwaard, Lathum » comme adresse de navigation. Le geocodage inverse de l'ancien point rend « De Muggenwaard, Riverparc, Lathum » : il est deja sur la bonne partie du Rhederlaag, et non sur la marina Rhederlaagse Meren (Marsweg), 2 km plus a l'est."
+  },
+  {
+    "id": 2400,
+    "venue": "Recreatiegebied Geestmerambacht",
+    "lat": 52.69659,
+    "lng": 4.75244,
+    "address": "Festivalweg 1, 1724 PT Oudkarspel, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Festivalweg%201%2C%201724%20PT%20Oudkarspel&format=json&limit=5",
+    "status": "corrige",
+    "note": "Adresse publiee du Festivalterrein Geestmerambacht, Festivalweg 1 a Oudkarspel, resolue a 52.6965854 / 4.7524397. L'ancien point tombait 715 m a l'est-sud-est, sur le Wagenweg, en dehors de la voie d'acces au terrain."
+  },
+  {
+    "id": 2403,
+    "venue": "Recreatiewater de Weerd",
+    "lat": 51.20544,
+    "lng": 5.97587,
+    "address": "De Weerd 1, 6041 TK Roermond, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=De%20Weerd%201%2C%206041%20TK%20Roermond&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse de navigation publiee pour Solar Weekend, De Weerd 1 aux Maasplassen : 51.2054441 / 5.9758657, identique au catalogue."
+  },
+  {
+    "id": 2414,
+    "venue": "Van Nelle Fabriek",
+    "lat": 51.92398,
+    "lng": 4.43245,
+    "address": "Van Nelleweg 1, 3044 BC Rotterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Van%20Nelleweg%201%2C%203044%20BC%20Rotterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Entree principale du complexe Van Nellefabriek, Van Nelleweg 1 : 51.9239782 / 4.4324470, identique au catalogue."
+  },
+  {
+    "id": 2410,
+    "venue": "Recreatiegebied Spaarnwoude",
+    "lat": 52.44113,
+    "lng": 4.67035,
+    "address": "Oostbroekerweg 1, 1981 LR Velsen-Zuid, Pays-Bas",
+    "source": "https://dancevalley.com/car/",
+    "status": "confirme",
+    "note": "dancevalley.com donne « Oostbroekerweg 1, 1981 LR Velsen-Zuid » comme adresse de navigation. Le geocodage inverse de l'ancien point rend bien Oostbroekerweg, 1981 LR : il est sur la voie d'acces du terrain."
+  },
+  {
+    "id": 2407,
+    "venue": "Spoorzone Tilburg",
+    "lat": 51.56186,
+    "lng": 5.08719,
+    "address": "Burgemeester Brokxlaan 2-8, 5041 SB Tilburg, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Burgemeester%20Brokxlaan%208%2C%20Tilburg&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse publiee de Spoorzone 013, Burgemeester Brokxlaan 2-8. Le numero 8-77 resout a 51.5614592 / 5.0872275, soit 46 m de l'ancien point, dans le meme ilot."
+  },
+  {
+    "id": 2402,
+    "venue": "De Ven",
+    "lat": 52.45299,
+    "lng": 4.6651,
+    "address": "De Ven 2, 1981 LW Velsen-Zuid, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=De%20Ven%202%2C%201981%20LW%20Velsen-Zuid&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse publiee du terrain De Ven (parc Spaarnwoude), De Ven 2 : 52.4529957 / 4.6651021, identique au catalogue."
+  },
+  {
+    "id": 2395,
+    "venue": "Bernie's Beach Club",
+    "lat": 52.39294,
+    "lng": 4.5381,
+    "address": "Boulevard Barnaart 67, 2041 JA Zandvoort, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Bernie%27s%20Beach%20Club%2C%20Zandvoort&format=json&limit=3",
+    "status": "corrige",
+    "note": "Noeud OSM Bernie's Beach Club, Boulevard Barnaart 67 : 52.3929445 / 4.5381045. L'ancien point tombait 46 m au sud-ouest, sur la plage."
+  },
+  {
+    "id": 2387,
+    "venue": "Thuishaven",
+    "lat": 52.39676,
+    "lng": 4.85639,
+    "address": "Contactweg 68, 1014 BW Amsterdam, Pays-Bas",
+    "source": "https://nominatim.openstreetmap.org/search?q=Contactweg%2068%2C%201014%20AN%20Amsterdam&format=json&limit=3",
+    "status": "confirme",
+    "note": "Meme salle que la fiche 2334, adresse Contactweg 68 (Westpoort)."
+  },
+  {
+    "id": 2173,
+    "venue": "The Villa",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "address": "Møllergata 23, 0179 Oslo, Norvège",
+    "source": "https://nominatim.openstreetmap.org/search?q=M%C3%B8llergata%2023%2C%20Oslo&format=json&limit=3",
+    "status": "confirme",
+    "note": "thevilla.no annonce Møllergata 23. L'adresse resout a 59.9156350 / 10.7485600, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2302,
+    "venue": "The Villa",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "address": "Møllergata 23, 0179 Oslo, Norvège",
+    "source": "https://nominatim.openstreetmap.org/search?q=M%C3%B8llergata%2023%2C%20Oslo&format=json&limit=3",
+    "status": "confirme",
+    "note": "thevilla.no annonce Møllergata 23. L'adresse resout a 59.9156350 / 10.7485600, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2382,
+    "venue": "The Villa",
+    "lat": 59.91564,
+    "lng": 10.74856,
+    "address": "Møllergata 23, 0179 Oslo, Norvège",
+    "source": "https://nominatim.openstreetmap.org/search?q=M%C3%B8llergata%2023%2C%20Oslo&format=json&limit=3",
+    "status": "confirme",
+    "note": "thevilla.no annonce Møllergata 23. L'adresse resout a 59.9156350 / 10.7485600, identique au catalogue a 5 decimales."
+  },
+  {
+    "id": 2238,
+    "venue": "Jaeger",
+    "lat": 59.91415,
+    "lng": 10.74379,
+    "address": "Grensen 9, 0159 Oslo, Norvège",
+    "source": "https://nominatim.openstreetmap.org/search?q=Grensen%209%2C%20Oslo&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse Grensen 9 resolue a 59.9141478 / 10.7437912, identique au catalogue. Le club est en sous-sol, avec cour sur Grensen."
+  },
+  {
+    "id": 2404,
+    "venue": "Lotnisko Podczele",
+    "lat": 54.19993,
+    "lng": 15.68561,
+    "address": "Lotnisko Bagicz, Podczele, 78-111 Kołobrzeg, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Lotnisko%20Bagicz%2C%20Kolobrzeg&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM aeroway=aerodrome « Bagicz k/Kołobrzegu » (ancien aerodrome de Podczele, ou se tient le Sunrise Festival) : 54.1999341 / 15.6856132, identique au catalogue. L'acces public se fait par la DK11 cote Bagicz."
+  },
+  {
+    "id": 2156,
+    "venue": "Smolna",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "address": "ul. Smolna 38, 00-375 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Smolna%2038%2C%20Warszawa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse ul. Smolna 38 resolue a 52.2327831 / 21.0215150, identique au catalogue."
+  },
+  {
+    "id": 2209,
+    "venue": "Smolna",
+    "lat": 52.23278,
+    "lng": 21.02152,
+    "address": "ul. Smolna 38, 00-375 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Smolna%2038%2C%20Warszawa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse ul. Smolna 38 resolue a 52.2327831 / 21.0215150, identique au catalogue."
+  },
+  {
+    "id": 2246,
+    "venue": "Oczki",
+    "lat": 52.22421,
+    "lng": 21.00101,
+    "address": "ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Wojciecha%20Oczki%201a%2C%20Warszawa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Le club OCZKI occupe le Dom Medyków, ul. Wojciecha Oczki 1A (batiment OSM 52.2242066 / 21.0010077). Le geocodage inverse de l'ancien point rend la meme adresse, a 12 m : coordonnee simplement reprecisee sur l'entree."
+  },
+  {
+    "id": 2264,
+    "venue": "Oczki",
+    "lat": 52.22421,
+    "lng": 21.00101,
+    "address": "ul. Wojciecha Oczki 1A, 02-007 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Wojciecha%20Oczki%201a%2C%20Warszawa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Le club OCZKI occupe le Dom Medyków, ul. Wojciecha Oczki 1A (batiment OSM 52.2242066 / 21.0010077). Le geocodage inverse de l'ancien point rend la meme adresse, a 12 m : coordonnee simplement reprecisee sur l'entree."
+  },
+  {
+    "id": 2287,
+    "venue": "Progresja",
+    "lat": 52.2248,
+    "lng": 20.92886,
+    "address": "ul. Fort Wola 22, 01-258 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/search?q=Progresja%20Music%20Zone%2C%20Warszawa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Progresja Music Zone, Fort Wola 22 : 52.2247998 / 20.9288574, soit 19 m de l'ancien point."
+  },
+  {
+    "id": 2314,
+    "venue": "Niebo",
+    "lat": 52.23255,
+    "lng": 21.01888,
+    "address": "ul. Nowy Świat 21, 00-029 Warszawa, Pologne",
+    "source": "https://nominatim.openstreetmap.org/reverse?lat=52.23255&lon=21.01888&format=json&zoom=18",
+    "status": "confirme",
+    "note": "Le geocodage inverse de l'ancien point rend « Raj w Niebie, 21C, Nowy Świat » : il tombe deja sur le batiment du club, en fond de cour du 21 Nowy Świat, et non sur la facade de la rue."
+  },
+  {
+    "id": 2278,
+    "venue": "Passeio Marítimo de Algés",
+    "lat": 38.69742,
+    "lng": -9.23172,
+    "address": "Passeio Marítimo de Algés, Docapesca, 1495 Algés, Portugal",
+    "source": "https://nosalive.com/en/how-to-get/",
+    "status": "corrige",
+    "note": "Le recinto du Passeio Marítimo de Algés (le terrain de NOS Alive, ou se tient NO ART) est annonce par nosalive.com aux coordonnees 38.697422 / -9.231721, confirme a 90 m pres par le JSON de la fiche DICE de NO ART Lisbon (38.6965881 / -9.2315310). L'ancien point tombait 1,0 km a l'ouest-nord-ouest, sur la ciclovia ribeirinha d'Algés, en dehors du terrain."
+  },
+  {
+    "id": 2166,
+    "venue": "Classico Beach Club",
+    "lat": 38.65669,
+    "lng": -9.24916,
+    "address": "Av. Afonso de Albuquerque s/n, Praia de São João da Caparica, 2825-485 Costa da Caparica, Portugal",
+    "source": "https://xceed.me/en/lisboa/venue/classico-beach-club",
+    "status": "confirme",
+    "note": "La fiche de salle Xceed porte 38.6566877 / -9.2491631, identique au catalogue. Le point tombe sur la Praia de São João da Caparica (polygone OSM centre a 38.6565837 / -9.2509671), coherent avec l'adresse publiee du club."
+  },
+  {
+    "id": 2201,
+    "venue": "Ministerium Club",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "address": "Praça do Comércio 72-73, Ala Nascente, 1100-148 Lisboa, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ministerium%20Club%2C%20Lisboa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub « ministérium club », Praça do Comércio 72 : 38.7080954 / -9.1354849, identique au catalogue."
+  },
+  {
+    "id": 2218,
+    "venue": "Ministerium Club",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "address": "Praça do Comércio 72-73, Ala Nascente, 1100-148 Lisboa, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ministerium%20Club%2C%20Lisboa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub « ministérium club », Praça do Comércio 72 : 38.7080954 / -9.1354849, identique au catalogue."
+  },
+  {
+    "id": 2268,
+    "venue": "Ministerium Club",
+    "lat": 38.7081,
+    "lng": -9.13548,
+    "address": "Praça do Comércio 72-73, Ala Nascente, 1100-148 Lisboa, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Ministerium%20Club%2C%20Lisboa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub « ministérium club », Praça do Comércio 72 : 38.7080954 / -9.1354849, identique au catalogue."
+  },
+  {
+    "id": 2219,
+    "venue": "Anfiteatro de Pedra",
+    "lat": 38.71237,
+    "lng": -9.18689,
+    "address": "Anfiteatro Professor Caldeira Cabral, Tapada da Ajuda, 1349-017 Lisboa, Portugal",
+    "source": "https://xceed.me/en/lisboa/venue/anfiteatro-de-pedra",
+    "status": "confirme",
+    "note": "La fiche de salle Xceed porte 38.7123747 / -9.1868874, identique au catalogue. Il s'agit de l'anfiteatro de pierre de la Tapada da Ajuda (ISA), pas d'un homonyme du Parque das Nações."
+  },
+  {
+    "id": 2220,
+    "venue": "Lagoa Branca, Tapada da Ajuda",
+    "lat": 38.7139,
+    "lng": -9.1929,
+    "address": "Portão do Pólo Universitário da Ajuda, Tapada da Ajuda, 1349-017 Lisboa, Portugal",
+    "source": "https://lisboasecreta.co/brunch-electronik-in-the-park/",
+    "status": "confirme",
+    "note": "L'entree publique de Brunch Electronik est le portail du Pólo Universitário da Ajuda, dont les coordonnees publiees sont 38.713900 / -9.192897 : 23 m a l'est de l'ancien point, qui etait donc deja bon. La Lagoa Branca elle-meme est 800 m plus a l'est dans la Tapada, mais elle n'est pas accessible directement."
+  },
+  {
+    "id": 2277,
+    "venue": "Village Underground Lisboa",
+    "lat": 38.70082,
+    "lng": -9.17811,
+    "address": "Avenida da Índia 1, 1300-472 Lisboa, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Village%20Underground%20Lisboa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM Village Underground, Avenida da Índia 1 (site du Museu da Carris, Alcântara) : 38.7008225 / -9.1781144, identique au catalogue."
+  },
+  {
+    "id": 2326,
+    "venue": "Pavilhão Carlos Lopes",
+    "lat": 38.72901,
+    "lng": -9.15156,
+    "address": "Avenida Sidónio Pais, Parque Eduardo VII, 1050-012 Lisboa, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Pavilh%C3%A3o%20Carlos%20Lopes%2C%20Lisboa&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM Pavilhão Carlos Lopes, Avenida Sidónio Pais : 38.7290113 / -9.1515589, soit 21 m de l'ancien point."
+  },
+  {
+    "id": 2279,
+    "venue": "Museu do Carro Elétrico",
+    "lat": 41.14798,
+    "lng": -8.63264,
+    "address": "Alameda de Basílio Teles 51, 4150-127 Porto, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Museu%20do%20Carro%20El%C3%A9ctrico%2C%20Porto&format=json&limit=3",
+    "status": "confirme",
+    "note": "Objet OSM Museu do Carro Eléctrico, Alameda de Basílio Teles 51 : 41.1479791 / -8.6326383, soit 23 m de l'ancien point."
+  },
+  {
+    "id": 2337,
+    "venue": "Casa da Música",
+    "lat": 41.1589,
+    "lng": -8.63077,
+    "address": "Avenida da Boavista 604-610, 4149-071 Porto, Portugal",
+    "source": "https://nominatim.openstreetmap.org/search?q=Casa%20da%20M%C3%BAsica%2C%20Porto&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=concert_hall Casa da Música, Avenida da Boavista 604-610 : 41.1589025 / -8.6307748, identique au catalogue. A ne pas confondre avec la station de metro du meme nom, 200 m au nord-est."
+  },
+  {
+    "id": 2193,
+    "venue": "Control Club",
+    "lat": 44.4356,
+    "lng": 26.09699,
+    "address": "Strada Constantin Mille 4, 010142 București, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Control%20Club%2C%20Strada%20Constantin%20Mille%2C%20Bucuresti&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Control Club, Strada Constantin Mille : 44.4355973 / 26.0969873, soit 17 m de l'ancien point."
+  },
+  {
+    "id": 2228,
+    "venue": "Control Club",
+    "lat": 44.4356,
+    "lng": 26.09699,
+    "address": "Strada Constantin Mille 4, 010142 București, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Control%20Club%2C%20Strada%20Constantin%20Mille%2C%20Bucuresti&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Control Club, Strada Constantin Mille : 44.4355973 / 26.0969873, soit 17 m de l'ancien point."
+  },
+  {
+    "id": 2245,
+    "venue": "Control Club",
+    "lat": 44.4356,
+    "lng": 26.09699,
+    "address": "Strada Constantin Mille 4, 010142 București, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Control%20Club%2C%20Strada%20Constantin%20Mille%2C%20Bucuresti&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Control Club, Strada Constantin Mille : 44.4355973 / 26.0969873, soit 17 m de l'ancien point."
+  },
+  {
+    "id": 2306,
+    "venue": "Control Club",
+    "lat": 44.4356,
+    "lng": 26.09699,
+    "address": "Strada Constantin Mille 4, 010142 București, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Control%20Club%2C%20Strada%20Constantin%20Mille%2C%20Bucuresti&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Control Club, Strada Constantin Mille : 44.4355973 / 26.0969873, soit 17 m de l'ancien point."
+  },
+  {
+    "id": 2354,
+    "venue": "Control Club",
+    "lat": 44.4356,
+    "lng": 26.09699,
+    "address": "Strada Constantin Mille 4, 010142 București, Roumanie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Control%20Club%2C%20Strada%20Constantin%20Mille%2C%20Bucuresti&format=json&limit=3",
+    "status": "confirme",
+    "note": "Noeud OSM amenity=nightclub Control Club, Strada Constantin Mille : 44.4355973 / 26.0969873, soit 17 m de l'ancien point."
+  },
+  {
+    "id": 2297,
+    "venue": "Majestic Music Club",
+    "lat": 48.15683,
+    "lng": 17.11359,
+    "address": "Karpatská 2, 811 05 Bratislava, Slovaquie",
+    "source": "https://nominatim.openstreetmap.org/search?q=Karpatsk%C3%A1%202%2C%20Bratislava&format=json&limit=3",
+    "status": "confirme",
+    "note": "Adresse Karpatská 2 resolue a 48.1568296 / 17.1135868 ; le noeud OSM du club (« MMC », amenity=nightclub) est a 15 m. Identique au catalogue a 3 m pres."
+  }
+]

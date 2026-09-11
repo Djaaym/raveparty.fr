@@ -83,6 +83,7 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
 # Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
 # dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
 REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
+           ("jackieslisboahousemusicfestivalchrisstassy", "2026"): "doublon d'id 701, même soirée au Pavilhão Carlos Lopes ; les deux fiches coexistaient parce que « Lisboa » et « Lisbon » étaient deux villes pour la clé (ville, salle, jour)",
            # Doublon de « ZAMNA × PRIMER Athens » (mêmes 4-5/09, même enceinte olympique) :
            # deux périphrases pour la même salle, donc la clé `booked` ne l'a pas vu.
            ("zamnaxprimer", "2026"): "doublon de ZAMNA × PRIMER Athens (id 319)",
@@ -96,7 +97,13 @@ REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
 CITY_FIX = {"Bruxelles": "Brussels", "Anvers": "Antwerp", "Gand": "Ghent",
             "Copenhague": "Copenhagen", "Varsovie": "Warsaw", "Prague": "Prague",
             "Vienne": "Vienna", "Munich": "Munich", "Cologne": "Cologne", "Bucarest": "Bucharest",
-            "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow"}
+            "Athenes": "Athens", "Athènes": "Athens", "Lisbonne": "Lisbon", "Moscou": "Moscow",
+            # Une ville écrite de deux façons fait deux pages en concurrence et deux
+            # compteurs faux, c'est le défaut « United Kingdom vs UK » de COUNTRY_FIX un
+            # cran plus bas. Quatre variantes étaient déjà passées : « Lisboa » avait
+            # coupé Lisbonne en deux moitiés de 21 et 23 dates.
+            "Lisboa": "Lisbon", "Costa De Caparica": "Costa da Caparica",
+            "St. Paul's Bay": "St Paul's Bay", "Viana Do Castelo": "Viana do Castelo"}
 
 REQUIRED = {"title","type","genres","city","country","lat","lng","date","time",
             "price","currency","venue","trending","lineup","desc","descEn"}
@@ -132,7 +139,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["type"] = TYPE_FIX.get(e["type"], e["type"])
         if e["type"] not in TYPES:
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
-        if (e.get("endDate") or e["date"]) < "2026-09-07":
+        if (e.get("endDate") or e["date"]) < "2026-09-10":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",
@@ -152,6 +159,20 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
             skipped.append((fn, e["title"], e["date"] + " (même salle, même soir)")); continue
         seen.add(key); booked.add(bkey); rows.append(e); kept += 1
     print(f"  {fn}: {len(data)} in, {kept} kept")
+
+# Le lien hôtel est centré sur `lat`/`lng` et trie par distance à ce point (lib/hotels.ts) :
+# une coordonnée à deux décimales (~1 km) désigne le quartier, pas la salle. C'est un
+# avertissement et pas un rejet, même nuance que scripts/check-hotels.mjs : une
+# coordonnée grossière donne un lien moins bon, elle ne le rend pas faux, et bloquer
+# dessus ferait perdre une fiche par ailleurs vérifiée.
+def _dec(x):
+    t = ("%.10f" % float(x)).rstrip("0")
+    return len(t.split(".")[1]) if "." in t else 0
+coarse = [e for e in rows if min(_dec(e["lat"]), _dec(e["lng"])) < 3]
+if coarse:
+    print("\n%d coordonnées à moins de 3 décimales (lien hôtel imprécis) :" % len(coarse))
+    for e in coarse[:25]:
+        print("   ~ %-38.38s %s, %s  (%s, %s)" % (e["venue"], e["city"], e["country"], e["lat"], e["lng"]))
 
 rows.sort(key=lambda e: e["date"])
 

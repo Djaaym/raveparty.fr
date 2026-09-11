@@ -170,6 +170,46 @@ export const PLACES: Place[] = [
   { slug: "tallinn", label: "Tallinn", kind: "ville", vol: 260, match: ["Tallinn", "Narva"] },
   { slug: "riga", label: "Riga", kind: "ville", vol: 320, match: ["Riga", "Liepāja"] },
   { slug: "vilnius", label: "Vilnius", kind: "ville", vol: 260, match: ["Vilnius", "Kaunas"] },
+  /* Ouvertes par la campagne pan-européenne. Le calendrier portait 207 villes hors
+     France sans page, dont Porto et Lisbonne à près de 40 dates chacune : le maillage
+     s'arrêtait au pays alors que l'intention de recherche est la ville.
+
+     **`vol: 0` est une absence, pas un zéro mesuré.** L'export SEMrush de
+     `docs/seo-keywords.md` ne couvre que le français ; inventer un volume pour
+     « rave party Thessalonique » serait la donnée inventée que la règle de contenu
+     interdit. Le champ ne sert que de départage à nombre de dates égal (`rankPlaces`),
+     donc l'ignorer ne coûte qu'un ordre d'affichage.
+
+     **Le slug est français et il peut entrer en collision.** « vienne » est déjà le
+     département 86 et « valence » la ville de la Drôme : la capitale autrichienne et la
+     ville espagnole portent donc un slug qualifié. C'est la règle « Ain est une
+     sous-chaîne de Saintes » d'`eventsForPlace()`, prise un cran plus haut. */
+  { slug: "lisbonne", label: "Lisbonne", kind: "ville", vol: 0, match: ["Lisbon", "Carcavelos", "Costa da Caparica", "Prior Velho"] },
+  { slug: "porto", label: "Porto", kind: "ville", vol: 0, match: ["Porto"] },
+  { slug: "madrid", label: "Madrid", kind: "ville", vol: 0, match: ["Madrid", "Humanes de Madrid", "Alcorcón"] },
+  { slug: "valencia", label: "Valence (Espagne)", kind: "ville", vol: 0, match: ["Valencia"] },
+  { slug: "ibiza", label: "Ibiza", kind: "ville", vol: 0, match: ["Ibiza"] },
+  { slug: "milan", label: "Milan", kind: "ville", vol: 0, match: ["Milan", "Lecco"] },
+  { slug: "turin", label: "Turin", kind: "ville", vol: 0, match: ["Turin"] },
+  { slug: "rome", label: "Rome", kind: "ville", vol: 0, match: ["Rome"] },
+  { slug: "naples", label: "Naples", kind: "ville", vol: 0, match: ["Naples", "Pozzuoli"] },
+  { slug: "vienne-autriche", label: "Vienne (Autriche)", kind: "ville", vol: 0, match: ["Vienna", "Vösendorf"] },
+  { slug: "graz", label: "Graz", kind: "ville", vol: 0, match: ["Graz"] },
+  { slug: "hambourg", label: "Hambourg", kind: "ville", vol: 0, match: ["Hamburg"] },
+  { slug: "leipzig", label: "Leipzig", kind: "ville", vol: 0, match: ["Leipzig"] },
+  { slug: "munich", label: "Munich", kind: "ville", vol: 0, match: ["Munich"] },
+  { slug: "francfort", label: "Francfort", kind: "ville", vol: 0, match: ["Frankfurt", "Offenbach"] },
+  { slug: "zurich", label: "Zurich", kind: "ville", vol: 0, match: ["Zurich"] },
+  { slug: "bale", label: "Bâle", kind: "ville", vol: 0, match: ["Basel"] },
+  { slug: "lausanne", label: "Lausanne", kind: "ville", vol: 0, match: ["Lausanne"] },
+  { slug: "geneve", label: "Genève", kind: "ville", vol: 0, match: ["Geneva", "Vernier", "Lancy"] },
+  { slug: "athenes", label: "Athènes", kind: "ville", vol: 0, match: ["Athens"] },
+  { slug: "thessalonique", label: "Thessalonique", kind: "ville", vol: 0, match: ["Thessaloniki"] },
+  { slug: "utrecht", label: "Utrecht", kind: "ville", vol: 0, match: ["Utrecht"] },
+  { slug: "eindhoven", label: "Eindhoven", kind: "ville", vol: 0, match: ["Eindhoven"] },
+  { slug: "poznan", label: "Poznań", kind: "ville", vol: 0, match: ["Poznań"] },
+  { slug: "cork", label: "Cork", kind: "ville", vol: 0, match: ["Cork"] },
+  { slug: "luxembourg", label: "Luxembourg", kind: "ville", vol: 0, match: ["Luxembourg", "Esch-sur-Alzette", "Esch-Uelzecht"] },
   { slug: "dublin", label: "Dublin", kind: "ville", vol: 880, match: ["Dublin", "Portlaw"] },
   { slug: "belfast", label: "Belfast", kind: "ville", vol: 480, match: ["Belfast"] },
   { slug: "glasgow", label: "Glasgow", kind: "ville", vol: 720, match: ["Glasgow"] },
