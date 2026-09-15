@@ -1,0 +1,152 @@
+[
+ {
+  "id": 143,
+  "status": "none",
+  "url": null,
+  "checked_on": "snowboxx.com",
+  "price": 379,
+  "currency": "£",
+  "priceNote": "estimated",
+  "note": "Site officiel : edition 13-20 mars a Avoriaz confirmee, mais aucune vente ouverte : Super Early Bird et Early Bird annonces SOLD OUT, Tier 1 annonce pour le 30 septembre, tous les boutons pointent sur le formulaire d'inscription #sign-up (pas d'URL d'achat). Tarif affiche 'Ticket & Lift Pass from GBP 379' (accommodation package a partir de 449), coherent avec le catalogue mais non achetable aujourd'hui."
+ },
+ {
+  "id": 452,
+  "status": "ok",
+  "url": "https://web.digitick.com/nto-concert-electro-css5-lebikini-pg51-ei1119985.html",
+  "checked_on": "web.digitick.com",
+  "price": 28.7,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du Bikini (Digitick) : vendredi 12/02/2027 19h30, Le Bikini, Ramonville 31520 ; 29,90 EUR plein / 28,70 EUR adherent, places disponibles."
+ },
+ {
+  "id": 453,
+  "status": "ok",
+  "url": "https://billetterie.cartonnerie.fr/agenda/84-Acid-Arab",
+  "checked_on": "cartonnerie.fr",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Cartonnerie : samedi 13/03/2027 20h, La Cartonnerie, Reims ; tarif plein 29 EUR en prevente (33 sur place), reduit 27."
+ },
+ {
+  "id": 838,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/thylacine-la-laiterie-grande-salle-strasbourg-19-fevrier-2027-css5-artefact-pg101-ri11789539.html",
+  "checked_on": "artefact.org + billetterie.seetickets.fr",
+  "price": 39.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Artefact/La Laiterie liee depuis artefact.org : vendredi 19/02/2027 19h30, La Laiterie Grande Salle, 17 rue Hohwald Strasbourg ; prevente 39,50 EUR (carte Laiterie 36,50, caisse du soir 41)."
+ },
+ {
+  "id": 840,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108313.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle La P'tite Fumee)",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique billetterie officielle de la tournee : jeudi 25/02/2027 20h, La Vapeur, 42 av. de Stalingrad, 21000 Dijon ; 29,00 EUR, places disponibles."
+ },
+ {
+  "id": 841,
+  "status": "none",
+  "url": null,
+  "checked_on": "leboeufsurletoit.fr / seetickets / digitick / jds.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le soir existe bien (Insolitum : Joris Delacroix + UPPER + KA:OST, 26/02/2027, Le Boeuf sur le Toit, Lons-le-Saunier) mais aucune billetterie ouverte : absent des billetteries officielles de la salle (Digitick et See Tickets) et de jds.fr ; la page de la salle https://leboeufsurletoit.fr/evenements/joris-delacroix-electro/ est derriere Cloudflare (403), impossible a ouvrir pour verifier le lien d'achat."
+ },
+ {
+  "id": 843,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108447.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle La P'tite Fumee)",
+  "price": 29.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique billetterie officielle : samedi 27/02/2027, L'Autre Canal, 45 bd d'Austrasie, 54000 Nancy ; 29,90 EUR. Attention : les ids 843 et 1394 designent le meme concert (doublon a fusionner)."
+ },
+ {
+  "id": 1391,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-pop-rock-css5-leboeufsurletoit-pg51-ei1108897.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du Boeuf sur le Toit : samedi 13/02/2027 20h30, 135 place Marechal Juin, Lons-le-Saunier ; 27 EUR debout placement libre."
+ },
+ {
+  "id": 1392,
+  "status": "none",
+  "url": null,
+  "checked_on": "jds.fr, lafriche.org, fnacspectacles.com, francebillet.com, billetterie.seetickets.fr, web.digitick.com",
+  "price": 27.5,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Date confirmee par le JSON-LD de jds.fr (jeudi 18/02/2027 19h30, Grand Cab - La Friche Belle de Mai, 41 rue Jobin, 13003 Marseille, offre InStock 27,50-31,90 EUR) mais aucune page d'achat propre a la date trouvee : le bouton jds renvoie (via Awin) sur la page ARTISTE fnacspectacles.com/artist/lewis-ofman/, lafriche.org ne reference pas la date, et Fnac/France Billet repondent 403/503 depuis le conteneur ; pas de boutique seetickets/digitick au nom de l'artiste."
+ },
+ {
+  "id": 1393,
+  "status": "ok",
+  "url": "https://my.weezevent.com/LaPtiteFumee-Silex-Auxerre",
+  "checked_on": "lesilex.fr + my.weezevent.com",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie Weezevent liee depuis la page officielle du Silex : vendredi 26/02/2027 20h30, Le Silex grande salle, Auxerre ; tarif plein 25 EUR (reduit/pass culture 23)."
+ },
+ {
+  "id": 1394,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108447.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle La P'tite Fumee)",
+  "price": 29.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Meme concert que l'id 843 (L'Autre Canal, Nancy, 27/02/2027) : doublon du catalogue, meme billetterie officielle, 29,90 EUR."
+ },
+ {
+  "id": 1395,
+  "status": "ok",
+  "url": "https://web.digitick.com/thylacine-concert-electro-css5-thylacine-pg51-ei1119035.html",
+  "checked_on": "web.digitick.com (boutique officielle Thylacine)",
+  "price": 38,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique billetterie officielle de la tournee Thylacine : jeudi 04/03/2027 20h, 13002 Marseille (Le Cepac Silo) ; premier tarif en vente 38,00 EUR (puis 44 et 49)."
+ },
+ {
+  "id": 1396,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-ptite-fumee-concert-electro-css5-laptitefumee-pg51-ei1109549.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle La P'tite Fumee)",
+  "price": 24.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique billetterie officielle : vendredi 05/03/2027 21h, La Gespe, 23 rue Paul Cezanne, 65000 Tarbes ; 24,90 EUR."
+ },
+ {
+  "id": 1397,
+  "status": "ok",
+  "url": "https://billetterie.la-sirene.fr/share/event/659-THYLACINE-1ERE-PARTIE-AFTER-CLUB",
+  "checked_on": "la-sirene.fr",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Sirene : samedi 06/03/2027 20h, Grande salle debout, La Rochelle ; tarif unique 35 EUR (abonne 32, quota 100 places)."
+ },
+ {
+  "id": 1398,
+  "status": "ok",
+  "url": "https://billetterie.paloma-nimes.fr/share/event/820-LEWIS-OFMAN",
+  "checked_on": "paloma-nimes.fr",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de Paloma : samedi 06/03/2027 21h30, Paloma, Nimes ; tarif plein location 15 EUR (reduit 12, soir meme 18)."
+ }
+]

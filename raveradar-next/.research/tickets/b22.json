@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2396,
+  "status": "ok",
+  "url": "https://tickets.dreamfields.nl/1510ffa7efed4135a39b623e4a259b26",
+  "checked_on": "dreamfields.nl",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle liee depuis dreamfields.nl ; edition du samedi 10 juillet 2027 a Rhederlaag (Lathum) confirmee, billet 45 EUR frais inclus ; le festival n'a lieu que si 10 000 billets sont vendus, remboursement integral sinon."
+ },
+ {
+  "id": 2398,
+  "status": "none",
+  "url": null,
+  "checked_on": "dominatorfestival.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle dominatorfestival.com/nl/tickets affiche 'TICKETS NOG NIET BESCHIKBAAR' pour l'edition 16-17 juillet 2027 a E3 Strand Eersel ; aucune vente ouverte, aucun guichet tiers legitime trouve."
+ },
+ {
+  "id": 2400,
+  "status": "ok",
+  "url": "https://liquicity.com/events/liquicity-festival-2027/",
+  "checked_on": "liquicity.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de l'edition 2027 (Geestmerambacht, Festivalweg 1 Oudkarspel, 23-25 juillet 2027, date+lieu confirmes) portant le lien d'achat vers festival.liquicity.com ; la boutique Celebratix est derriere Cloudflare, tarif non lisible."
+ },
+ {
+  "id": 2402,
+  "status": "ok",
+  "url": "https://hcfestival.eventgoose.com/events/by03NM8P373MAD4R",
+  "checked_on": "hcfestival.eventgoose.com",
+  "price": 65.45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique Eventgoose officielle liee depuis hardclassicsfestival.com ; samedi 24 juillet 2027, De Ven Velsen-Zuid confirmes sur la page ; plus bas billet en vente Super Loyalty 65,45 EUR frais inclus."
+ },
+ {
+  "id": 2403,
+  "status": "none",
+  "url": null,
+  "checked_on": "solarweekend.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel solarweekend.com sans aucun lien billetterie (page /tickets en 404) ; l'edition 29 juillet-1er aout 2027 aux Maasplassen de Roermond n'a que le camping vendu et une inscription early bird, la vente generale n'est pas ouverte."
+ },
+ {
+  "id": 2406,
+  "status": "soldout",
+  "url": "https://loveland.nl/festival/tickets/",
+  "checked_on": "loveland.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie officielle, 7 & 8 aout 2027 Sloterpark Amsterdam confirmes ; les 3 000 Blind Bird weekend sont epuises et le palier Early Bird n'est pas encore ouvert (boutique shop.tickets.cm.com liee depuis la page)."
+ },
+ {
+  "id": 2407,
+  "status": "ok",
+  "url": "https://www.daycarefestival.nl/tickets",
+  "checked_on": "daycarefestival.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie officielle (widget Celebratix) du festival, edition samedi 7 aout 2027 Spoorzone Tilburg confirmee par ailleurs ; le widget et shop.celebratix.io sont derriere Cloudflare depuis le conteneur, tarif et disponibilite non lisibles - dernier recours."
+ },
+ {
+  "id": 2410,
+  "status": "none",
+  "url": null,
+  "checked_on": "dancevalley.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel dancevalley.com confirme le 14.08.2027 a Spaarnwoude mais n'affiche aucun lien de billetterie, seulement 'pre-register for 2027' ; la vente eclair de 72 h d'aout 2026 est close, rien d'achetable aujourd'hui."
+ },
+ {
+  "id": 2414,
+  "status": "none",
+  "url": null,
+  "checked_on": "audio-obscura.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Agenda officiel audio-obscura.com/events confirme Audio Obscura Festival 2027 le 28 aout 2027 a la Van Nelle Fabriek (Rotterdam, 12:00-23:00) mais en pre-inscription uniquement, aucun bouton d'achat ; la billetterie Weeztix tickets.audio-obscura.com ne porte pas cette date."
+ },
+ {
+  "id": 2238,
+  "status": "ok",
+  "url": "https://secure.tickster.com/whclv6zg11ghpl0",
+  "checked_on": "jaegeroslo.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien Tickster pris sur la fiche officielle Jaeger 'FRIDAY Fraedag x Mud x SSO: Kevin Saunderson + Waajeed' (add-to-calendar dates=20261002, Jaeger Oslo) ; la boutique ouvre bien sur ce titre, tarif non lisible sans cookies de session."
+ },
+ {
+  "id": 682,
+  "status": "ok",
+  "url": "https://secure.tickster.com/vkdlw27jnlu7p9v",
+  "checked_on": "jaegeroslo.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien Tickster pris sur la fiche officielle Jaeger 'FRIDAY Fraedag: Einmusik + Finnebassen' (add-to-calendar dates=20261016, Jaeger Oslo) ; la boutique ouvre sur ce titre exact, tarif non lisible sans cookies de session."
+ },
+ {
+  "id": 753,
+  "status": "ok",
+  "url": "https://www.ticketmaster.no/event/the-prodigy-billetter/2037293289",
+  "checked_on": "unityarena.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la page officielle Unity Arena pour The Prodigy European Tour 2026, samedi 14 novembre 2026 a Fornebu, date et lieu confirmes ; ticketmaster.no repond 403 depuis le conteneur donc tarif non verifie."
+ },
+ {
+  "id": 833,
+  "status": "ok",
+  "url": "https://www.ticketmaster.no/event/625973336",
+  "checked_on": "unityarena.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la page officielle Unity Arena pour Broiler 'Ingen Skal Hjem Tour', 13 fevrier 2027 a Fornebu (le second lien ticketmaster de la page est la navette, ecarte) ; tarif non verifie, ticketmaster.no en 403."
+ },
+ {
+  "id": 391,
+  "status": "ok",
+  "url": "https://tickets.palmesus.com/no/ba7rd5tpkau570m/products?c=wxzw0cx",
+  "checked_on": "palmesus.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Tickster officielle liee depuis palmesus.com, intitulee 'Palmesus 2027' ; le site confirme 25-26 juin 2027 a Bystranda Kristiansand et annonce le palier Early Bird 2027 'Utsolgt' (epuise), tarif non lisible sans cookies de session."
+ },
+ {
+  "id": 2246,
+  "status": "ok",
+  "url": "https://www.ebilet.pl/muzyka/elektro-techno/tiga?city=Warszawa",
+  "checked_on": "ebilet.pl",
+  "price": 127.9,
+  "currency": "zł",
+  "priceNote": null,
+  "note": "JSON-LD Event de la page eBilet filtree sur Varsovie : ARK: Tiga, 2026-10-03 23:00, OCZKI, Wojciecha Oczki 1A Varsovie, availability InStock, lowPrice 127,90 PLN ; date et lieu confirmes, tarif garde en zl."
+ }
+]

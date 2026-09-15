@@ -1,0 +1,92 @@
+[
+ {
+  "id": 629,
+  "status": "ok",
+  "url": "https://zuckerwatt.ticket.io/lrReXJvU/",
+  "checked_on": "ticket.io",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La page Grelle Forelle repond bien (le 000 etait passager) ; son bouton Tickets mene a la boutique ticket.io propre a la date, verifiee 13/11/2026 Grelle Forelle."
+ },
+ {
+  "id": 907,
+  "status": "ok",
+  "url": "https://www.viernulvier.gent/en/agenda/star-warz-921m",
+  "checked_on": "viernulvier.gent",
+  "price": 12,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien vivant au retest (000 passager) ; JSON-LD confirme 03/10/2026 De Vooruit, offre InStock a 12 EUR (paliers 12/16/20)."
+ },
+ {
+  "id": 924,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/5c88caae396c4b7c9d02cfafb653eddd",
+  "checked_on": "full-circle.be + shop.paylogic.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La page /tickets/ a disparu ; le site officiel annonce bien le 10 novembre 2026 et son bouton Get your tickets pointe sur cette boutique Paylogic propre a l'edition Antwerp."
+ },
+ {
+  "id": 139,
+  "status": "ok",
+  "url": "https://www.afas-dome.be/en/event/thunderdome-2026-552e132d",
+  "checked_on": "afas-dome.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien vivant au retest (000 passager) : page officielle de la salle pour les 11 et 12 decembre 2026, billets encore en vente (revente tierce annonce des stocks tres faibles)."
+ },
+ {
+  "id": 395,
+  "status": "ok",
+  "url": "https://www.ostendbeach.be/en/tickets",
+  "checked_on": "ostendbeach.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le domaine coupe la connexion en curl (HTTP/2 PROTOCOL_ERROR) mais repond en fetch : edition 9-11 juillet 2027 confirmee, billetterie officielle sur /en/tickets (Super Early Bird)."
+ },
+ {
+  "id": 151,
+  "status": "ok",
+  "url": "https://www.billetweb.fr/shop.php?event=insane-festival-2027-11th-dition",
+  "checked_on": "insanefestival.com + billetweb.fr",
+  "price": 86.99,
+  "currency": "€",
+  "priceNote": null,
+  "note": "La page /billetterie/ est en 404 ; le site officiel renvoie vers cette boutique Billetweb de l'edition 2027, ou le pass le moins cher encore vendu est le 2J + bivouac a 86,99 EUR (pas de pass 1 jour)."
+ },
+ {
+  "id": 1756,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/club-in-house-comeback",
+  "checked_on": "shotgun.live",
+  "price": 7.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien vivant au retest (000 passager) : 17/09/2026 Peniche Mecanique, billets en vente, le plus bas tarif d'entree grand public encore en stock est 7,50 EUR (prevente standard ; 6,50 EUR est un tarif abonne en stock limite)."
+ },
+ {
+  "id": 2093,
+  "status": "ok",
+  "url": "https://shotgun.live/en/festivals/noctra-bpm-x-hesdin-la-foret",
+  "checked_on": "shotgun.live",
+  "price": 44.99,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien vivant au retest (000 passager) : 31/10/2026 Salle du Manege ; les paliers 24,99 / 29,99 / 34,99 EUR sont epuises, le plus bas tarif encore vendu est EARLY a 44,99 EUR (le catalogue affiche 34,99, perime)."
+ },
+ {
+  "id": 138,
+  "status": "none",
+  "url": null,
+  "checked_on": "lestrans.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La billetterie du festival n'est pas encore ouverte : /le-festival/billetterie_trans/ repond 302 vers l'accueil (verifie au curl -D -), aucune boutique Weezevent Trans Musicales 2026 en ligne, et le site annonce la programmation complete le 17 septembre 2026 ; edition 2-6 decembre 2026 bien confirmee."
+ }
+]

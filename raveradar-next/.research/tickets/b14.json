@@ -1,0 +1,142 @@
+[
+ {
+  "id": 350,
+  "status": "ok",
+  "url": "https://bootshaus-club.ticket.io/By06xnf4/",
+  "checked_on": "bootshaus.tv + bootshaus-club.ticket.io",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page Bootshaus 'CHRIS STASSY pres. by BOOTSHAUS' (Location: Bootshaus, Auenweg 173, Köln) donne Begin 16.10.2026 22:00, date et lieu confirmés ; sur ticket.io seul le tarif Doorsale 45 € est encore en vente (les autres lignes sont casier, parking et Premium 63,99 €)."
+ },
+ {
+  "id": 2198,
+  "status": "ok",
+  "url": "https://ra.co/events/2499857",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien de billetterie pris sur la fiche officielle tresorberlin.com/event/20260925-tresor-meets-non-series/ (Fr 25.09, Tresor Berlin, line-up Non Series) ; Tresor annonce 'Tickets via RA', la page RA elle-même répond 403 depuis le conteneur donc tarif non relevé."
+ },
+ {
+  "id": 2235,
+  "status": "ok",
+  "url": "https://ra.co/events/2521747",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien RA pris sur tresorberlin.com/event/20261002-t35-tresor-records-35th-anniversary-day-one/ (02.10.2026, Tresor Berlin) ; 'Tickets via RA', page RA non ouvrable (403), tarif non relevé."
+ },
+ {
+  "id": 2293,
+  "status": "ok",
+  "url": "https://ra.co/events/2523470",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien RA pris sur tresorberlin.com/event/20261016-tresor-meets-wigs/ (16.10.2026, Tresor Berlin) ; 'Tickets via RA', page RA non ouvrable (403), tarif non relevé."
+ },
+ {
+  "id": 2248,
+  "status": "ok",
+  "url": "https://ra.co/events/2521750",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien RA pris sur tresorberlin.com/event/20261003-t35-tresor-records-35th-anniversary-day-two/ (03.10.2026, Tresor Berlin) ; 'Tickets via RA', page RA non ouvrable (403), tarif non relevé."
+ },
+ {
+  "id": 119,
+  "status": "ok",
+  "url": "https://tickets.syndicate-festival.de/de/syndicate-2026",
+  "checked_on": "syndicate-festival.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle liée depuis la barre de menu de syndicate-festival.de/de/tickets (deep link 'syndicate-2026') ; le site officiel confirme SYNDICATE 2026 le 3 octobre 2026 à la Westfalenhalle de Dortmund, la boutique est rendue en JS donc les paliers de tarif n'ont pas pu être relevés."
+ },
+ {
+  "id": 2225,
+  "status": "ok",
+  "url": "https://www.eventim.de/en/event/gigi-dagostino-360-grad-live-velodrom-21074739/",
+  "checked_on": "velodrom.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de la salle velodrom.de/en/events/event/gigi-dagostino : jeudi 01 octobre 2026, 21:00 (portes 19:00), Velodrom Berlin, et son bouton 'Tickets' pointe sur cette fiche Eventim ; Eventim répond 403 depuis le conteneur donc tarif non relevé."
+ },
+ {
+  "id": 2195,
+  "status": "ok",
+  "url": "https://rotesonne.ticket.io/ELqzlEnl/",
+  "checked_on": "rote-sonne.com + rotesonne.ticket.io",
+  "price": 12,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du club (ticket.io) : JSON-LD 'UNTREATED w/ AN CHEN | CLOSURE | Rui-De | STARKILLER', 2026-09-25 23:00, Rote Sonne München, offre 12 € InStock ; la date figure aussi sur rote-sonne.com."
+ },
+ {
+  "id": 2212,
+  "status": "ok",
+  "url": "https://rotesonne.ticket.io/l7v6pqBn/",
+  "checked_on": "rote-sonne.com + rotesonne.ticket.io",
+  "price": 12,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du club (ticket.io) : JSON-LD 'slippy series w/ Crystal Crimez | DJ Yugo | KnallPlatten | Liroy', 2026-09-26 23:00, Rote Sonne München, offre 12 € InStock ; la date figure aussi sur rote-sonne.com."
+ },
+ {
+  "id": 2214,
+  "status": "ok",
+  "url": "https://ra.co/events/2524104",
+  "checked_on": "konzertsuche.de (distillery.de renvoie sur RA)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "distillery.de redirige vers sa page RA, la Distillery vend donc via RA ; fiche konzertsuche 'METRO × distillery NEW KIDS', samedi 26 septembre 2026, Distillery Leipzig, bouton 'Tickets kaufen' vers ra.co/events/2524104 (offre InStock, pas de tarif publié) ; RA lui-même répond 403 depuis le conteneur."
+ },
+ {
+  "id": 2236,
+  "status": "ok",
+  "url": "https://ra.co/events/2530884",
+  "checked_on": "konzertsuche.de (distillery.de renvoie sur RA)",
+  "price": 13,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche konzertsuche 'FAT BEMME X Boundless Beatz', vendredi 2 octobre 2026 22:00, Distillery Leipzig, AggregateOffer 13-16 € InStock, bouton 'Tickets kaufen' vers ra.co/events/2530884 ; RA répond 403 depuis le conteneur, tarif d'entrée le plus bas 13 €."
+ },
+ {
+  "id": 2249,
+  "status": "none",
+  "url": null,
+  "checked_on": "elipamanoke.de, rausgegangen.de, recherche web",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "elipamanoke.de charge son agenda en JS (aucun événement dans le HTML servi, wp-json sans type 'événement'), rausgegangen.de est derrière un WAF (403) et la recherche ne rend que des éditions antérieures de KOSMOS with Konfusia ; aucune page de vente vérifiée pour le 03/10/2026, le club encaisse en principe à l'entrée."
+ },
+ {
+  "id": 2231,
+  "status": "ok",
+  "url": "https://shop.u-club.de/u-club/BBE/",
+  "checked_on": "butanclub.com + u-club.de",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle du U-Club (pretix) : 'BUTAN BOILER EDITION', 2. Oktober 2026, U-Club, Friedrich-Ebert-Strasse 191, Wuppertal, 'Phase 1 Ticket' 15,00 € (le tarif 13 € est réservé aux membres de l'association) ; lien confirmé par la page événement de butanclub.com et par l'agenda de u-club.de."
+ },
+ {
+  "id": 2194,
+  "status": "ok",
+  "url": "https://butan-club.stgdts.com/events/we-bounce-relikt-20260925-vlTAq",
+  "checked_on": "butanclub.com (stgdts.com)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site officiel de l'organisateur butanclub.com annonce 'KRAWALL x BUTAN pres. WE BOUNCE', 25.09.2026, Relikt, Gathe 50, 42107 Wuppertal, 22:00, et son bouton 'Tickets kaufen' redirige (302) vers cette fiche stagedates ; la boutique est rendue en JS donc le tarif n'a pas pu être relevé."
+ }
+]

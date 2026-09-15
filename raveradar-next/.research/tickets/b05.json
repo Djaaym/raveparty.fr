@@ -1,0 +1,152 @@
+[
+ {
+  "id": 363,
+  "status": "ok",
+  "url": "https://culture-box.com/event/fri-13-november-2026/",
+  "checked_on": "culture-box.com",
+  "price": 160,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle datee du ven. 13 nov. 2026 au Culture Box (Copenhague) : DUSKY presents SIGNALS TOUR, entree 160 DKK (100 DKK apres 6h), bouton Tickets pointant vers ra.co/events/2469221 (RA repond 403 depuis le conteneur, non ouvert)."
+ },
+ {
+  "id": 251,
+  "status": "ok",
+  "url": "https://shop.tmw.ee/product/tallinn-music-week-2027-festival-pass/",
+  "checked_on": "shop.tmw.ee",
+  "price": 65,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle TMW : Festival Pass 2027 en vente a 65 EUR (au lieu de 99), dates 8-11 avril 2027 confirmees ; le PRO Pass a 250 EUR est un autre produit."
+ },
+ {
+  "id": 2255,
+  "status": "ok",
+  "url": "https://aaniwalli.fi/events/2026-10-03-club_zero_vol14",
+  "checked_on": "aaniwalli.fi",
+  "price": 24,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle datee du samedi 3.10 (samedi = 3 octobre 2026) a l'Ääniwalli, Helsinki : Club Zero Vol.14, 22:00, Pre Ticket 24 € + frais ; bouton Osta liput vers eventu.al/en/event/10618 (403 depuis le conteneur)."
+ },
+ {
+  "id": 405,
+  "status": "ok",
+  "url": "https://billetterie.lautrecanalnancy.fr/agenda/680-Versus-3",
+  "checked_on": "billetterie.lautrecanalnancy.fr",
+  "price": 21,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de L'Autre Canal : JSON-LD Versus 3, 2026-09-19 22:00, 45 bd d'Austrasie Nancy, availability InStock ; tarif public le plus bas 21 € (Prevente Normal ; les 16 € sont reserves aux salles partenaires et a la carte LAC)."
+ },
+ {
+  "id": 406,
+  "status": "none",
+  "url": null,
+  "checked_on": "elektricityfestival.fr, cartonnerie.fr, manege-reims.eu, jds.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel elektricityfestival.fr injoignable (503 / echec DNS depuis le conteneur) ; l'agenda de La Cartonnerie et sa billetterie ne listent aucune date Elektricity du 23 au 28 septembre 2026, et la page manege-reims.eu/elektricity est celle d'une edition ancienne (10e). Aucun lien d'achat verifiable."
+ },
+ {
+  "id": 860,
+  "status": "soldout",
+  "url": "https://www.atabal-biarritz.fr/agenda/concerts/fakear-jeudi-24-septembre-2026/",
+  "checked_on": "atabal-biarritz.fr",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle de l'Atabal pour le jeudi 24 septembre 2026 : Fakear, 20h00, tarifs 29~32 € (abonne 26 €), mention 'complet' affichee ; le lien billetterie pointe vers my.weezevent.com/fakear-2026-atabal-concert-biarritz."
+ },
+ {
+  "id": 408,
+  "status": "ok",
+  "url": "https://shotgun.live/events/hilght-tribe-premiere-partie",
+  "checked_on": "shotgun.live (lien depuis lechonova.com)",
+  "price": 27.95,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Shotgun : Hilight Tribe + Lia Moon, L'Echonova, Saint-Ave, 2026-09-25, prevente 27,95 € InStock (21,95 € est un tarif reduit) ; lien pris sur la page officielle lechonova.com qui annonce vendredi 25 septembre 2026, 20h."
+ },
+ {
+  "id": 861,
+  "status": "ok",
+  "url": "https://www.fnacspectacles.com/event/fakear-centre-culturel-john-lennon-limoges-21710763/",
+  "checked_on": "centresculturels.limoges.fr + fnacspectacles.com",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle centresculturels.limoges.fr/agenda/fakear : Fakear le 25 septembre 2026, CCM John-Lennon Limoges, 20h, 32 € en prevente / 35 € sur place, lien billetterie vers Fnac Spectacles ; jds.fr donne le meme 32 € InStock."
+ },
+ {
+  "id": 409,
+  "status": "ok",
+  "url": "https://agauchedelalune.tickandyou.com/concerts/2920-pact.html",
+  "checked_on": "laconditionpublique.com + agauchedelalune.tickandyou.com",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie de l'organisateur A Gauche de la Lune (lien 'Reservez vos places' de la page officielle de La Condition Publique) : PACT + BIRRD, 26 septembre 2026 20h, La Condition Publique, 14 place Faidherbe Roubaix, 35 € debout, en vente ('dernieres pieces disponibles')."
+ },
+ {
+  "id": 411,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/nathan-fake-concert-la-gaite-lyrique-paris-26-septembre-2026-css5-gaitelyriqueweb-pg101-ri11669451.html",
+  "checked_on": "gaite-lyrique.net + billetterie.seetickets.fr",
+  "price": 26.8,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle gaite-lyrique.net/agenda/2026/nathan-fake : samedi 26 septembre 2026, 19h30, Grande Salle, tarif 26,80 € ; lien billetterie See Tickets de la salle, ouvert en 200."
+ },
+ {
+  "id": 561,
+  "status": "ok",
+  "url": "https://my.wilout-online.com/c9f4991878ab53c6f330ec9a7a697a22/s",
+  "checked_on": "etudiants.nice.fr (Stockfish) + my.wilout-online.com",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie Wilout liee depuis la page officielle du Stockfish : Boston Bun, 26/09/2026 20:00, Le Stockfish, 5 av. Francois Mitterrand Nice ; 'Tarif normal' 15,00 € available:true, 530 places (le 5 € est un tarif reduit etudiant/PMR)."
+ },
+ {
+  "id": 563,
+  "status": "ok",
+  "url": "https://lacabane.bleucitron.net/reserver/after-now-lee-burridge-la-cabane-toulouse/10155",
+  "checked_on": "halles-cartoucherie.fr + lacabane.bleucitron.net",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Cabane (lien de halles-cartoucherie.fr/event/lee-burridge) : After Now Lee Burridge, samedi 26 septembre 2026 21h30, La Cabane / Halles de la Cartoucherie Toulouse, en vente, tarif le plus bas encore disponible 30 € DEBOUT REGULAR (la page salle annonce 26 à 33 €)."
+ },
+ {
+  "id": 412,
+  "status": "ok",
+  "url": "https://le-zenith.com/shows/Synthony-21824",
+  "checked_on": "le-zenith.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle du Zenith Paris - La Villette : Synthony, JSON-LD startDate 2026-10-01T20:00, 211 av. Jean Jaures Paris, availability InStock, bouton Reserver vers ticketmaster.fr/fr/resultat/idtier/28958271 (Ticketmaster repond 403 depuis le conteneur, impossible de relever un tarif ; la seule page tarifee ouverte, yoolabox a 39,90 €, est reservee aux places PMR)."
+ },
+ {
+  "id": 116,
+  "status": "ok",
+  "url": "https://www.maintenant-festival.fr/billetterie/",
+  "checked_on": "maintenant-festival.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie officielle (ouverture des ventes le 24/08/2026) avec les liens d'achat par soiree : my.weezevent.com/festival-maintenant-{jeudi-8,vendredi-9,samedi-10}-octobre-2026 (Ambiance electronique, Salle de la Cite, Rennes) et billetweb.fr/concert-cells le 6/10 au Tambour ; les tarifs ne sont visibles que dans le widget Weezevent. ATTENTION : le site annonce le festival du 6 au 10 octobre 2026, la fiche du catalogue dit 1 au 11 octobre."
+ },
+ {
+  "id": 413,
+  "status": "ok",
+  "url": "https://shotgun.live/events/folamour-interference",
+  "checked_on": "interference-toulouse.fr + shotgun.live",
+  "price": 30.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien pris sur le site officiel de la salle Interference : JSON-LD Shotgun 'Folamour @ Interference', 2026-10-03, Balma, palier Early 26,50 € SoldOut, Regular 30,50 € InStock (Late 35 €) ; jds.fr donne la meme fourchette 26,50-35,20 €."
+ }
+]

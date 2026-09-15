@@ -1,0 +1,72 @@
+[
+ {
+  "id": 163,
+  "status": "soldout",
+  "url": "https://terminalvcroatia.com/tickets-2/",
+  "checked_on": "terminalvcroatia.com",
+  "price": 325,
+  "currency": "EUR",
+  "priceNote": null,
+  "note": "Site officiel terminalvcroatia.com : Terminal V Croatia, The Garden Resort, Tisno, du jeudi 15 au lundi 19 juillet 2027 (la fiche ne porte que le 15, jour d'ouverture). Les deux formules (plan de paiement et paiement integral a 325 EUR + frais) sont affichees SOLD OUT, inscription pour le prochain drop ; la caisse officielle est drop.cobrand.com/d/Terminal-V/Croatia2027 (429 depuis ce conteneur) et les billets regionaux EX-YU passent par entrio.hr. Prix en EUR et non en GBP contrairement a la fiche."
+ },
+ {
+  "id": 396,
+  "status": "none",
+  "url": null,
+  "checked_on": "boomfestival.org",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Dates confirmees par le JSON-LD de boomfestival.org (Boomland, Idanha-a-Nova, 18-25 juillet 2027) mais la vente n'est pas ouverte : boomfestival.org/tickets/tickets-info annonce l'ouverture Ambassador/Friendly le 6 octobre 2026 et la vente en ligne le 13 octobre 2026 a 9h ; tickets.boomfestival.org ne sert encore que la coquille 2025."
+ },
+ {
+  "id": 663,
+  "status": "ok",
+  "url": "https://eventfrog.ch/de/p/festivals/electronic/fog-festival-2026-7488230289010914479.html",
+  "checked_on": "eventfrog.ch",
+  "price": 15,
+  "currency": "CHF",
+  "priceNote": null,
+  "note": "Billetterie liee depuis fogstudio.ch/fog-festival : FOG Festival 2026, 17-20 septembre 2026, Kaserne / Tanzhaus / CONTAINER / Musee Tinguely a Bale, toutes les offres en InStock. Le plus bas tarif reellement en vente est la Club night du vendredi ou du samedi au CONTAINER a 15 CHF ; pass journee 39 CHF, pass festival 79 CHF."
+ },
+ {
+  "id": 741,
+  "status": "ok",
+  "url": "https://feverup.com/m/648919",
+  "checked_on": "feverup.com",
+  "price": 28,
+  "currency": "EUR",
+  "priceNote": null,
+  "note": "Fever est la billetterie officielle annoncee par l'organisateur : Max Cooper 'Feeling Is Structure' au Hard Club, Porto, le 6 novembre 2026 (portes 20h30), billet general 28 EUR hors frais, en vente."
+ },
+ {
+  "id": 877,
+  "status": "ok",
+  "url": "https://tickets.untold.com/bilete-untold-festival-2027-129806/",
+  "checked_on": "tickets.untold.com",
+  "price": 865,
+  "currency": "lei",
+  "priceNote": null,
+  "note": "Billetterie officielle UNTOLD (iabilet) : UNTOLD Festival 2027, Cluj Arena, 5-8 aout 2027. Le GA Phase 1 a 719,34 lei est epuise ; le plus bas reellement en vente sans condition d'age est le GA 4 jours Phase 3 a 864,66 lei frais inclus (le 1809,24 lei affiche barre est le prix final estime, pas un tarif en vente)."
+ },
+ {
+  "id": 2177,
+  "status": "none",
+  "url": null,
+  "checked_on": "hiveclub.ch, ra.co, petzi.ch",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et lieu confirmes (Hive Club Zurich, 19.09.2026, 23h) sur hiveclub.ch/events/mathias-kaden et RA #2534945, mais aucune billetterie en ligne : le Hive vend a la caisse, aucun lien d'achat sur la page ni dans son API WordPress, et rien sur petzi.ch."
+ },
+ {
+  "id": 2178,
+  "status": "none",
+  "url": null,
+  "checked_on": "dclub.ch",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ATTENTION DATE : le JSON-LD officiel de dclub.ch/agenda/20260919 donne bien Back2Back (Mirko Loko + DJ Reas) le 19.09.2026 a 23h mais au Bar Club ABC (Passerelle du Flon 4, Lausanne) et non au D! Club ; offers.url est null, aucune vente en ligne, entree a la porte."
+ }
+]

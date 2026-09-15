@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2377,
+  "status": "ok",
+  "url": "https://sales.ticketing.cm.com/hiddenindoor26/nl-nl/4d6c1008-3e64-466a-bb2c-5a2ef880c7f3",
+  "checked_on": "sales.ticketing.cm.com",
+  "price": 49.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle CM.com de Hidden Garden Indoor, page ouverte : 'Hidden Garden presents: Joris Voorn / Bart Skils', samedi 19 decembre 2026 16h, Klokgebouw Eindhoven. Early sold out, Regular 49,50 EUR mis en vente le 24 septembre."
+ },
+ {
+  "id": 811,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/922ed7a1-e58d-4d23-94dc-cd4adbcfd0b8/tickets",
+  "checked_on": "klokgebouw.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie Weeztix pris sur la fiche officielle klokgebouw.nl/agenda/verknipt-nye-eindhoven-2026 (jeudi 31 decembre 2026, 20h-08h, Klokgebouw) ; URL testee, repond 200. Paliers annonces 60,50 / 65,50 / 69,50 / 75,50 EUR + 5,50 de frais, palier courant non lisible (boutique en JS)."
+ },
+ {
+  "id": 814,
+  "status": "ok",
+  "url": "https://shop.tickets.cm.com/3d716268-2418-f440-7b4e-f1f05b9f154e",
+  "checked_on": "thebeginningofhouse.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique CM.com liee depuis la page officielle de l'organisateur thebeginningofhouse.nl/nieuwjaarsborrel2027 (et depuis bit.ly/nieuwjaarsborrel2027, resolu) ; la page confirme samedi 9 janvier 2027, 13h-23h, Thuishaven Terrein Amsterdam. Tarifs non lisibles, boutique CM.com en JS."
+ },
+ {
+  "id": 815,
+  "status": "none",
+  "url": null,
+  "checked_on": "ghosttown.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle ghosttown.nl/events/ghosttown-09-01-2027 (Dance 2 Eden) confirme sa 9 janvier 2027 TivoliVredenburg Utrecht, mais l'onglet Tickets est vide et aucune URL de billetterie n'apparait dans le HTML ; tivolivredenburg.nl, partyflock et djguide repondent 403 depuis le conteneur. Billetterie vraisemblablement pas encore ouverte."
+ },
+ {
+  "id": 820,
+  "status": "ok",
+  "url": "https://www.supremacyclassics.nl/nl/tickets",
+  "checked_on": "supremacyclassics.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie officielle du site de l'edition (site entierement dedie au 16 janvier 2027, Jaarbeurs Utrecht) : member sale close, regular sale annoncee le 29 septembre 19h CEST. Pas de lien vers un prestataire tant que la vente n'est pas ouverte, donc page d'achat officielle en dernier recours."
+ },
+ {
+  "id": 824,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/d033db06be274f6c8d2f290cffbc0aa9",
+  "checked_on": "hetsieraad.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ticketUrl Paylogic lu dans les donnees d'agenda du site officiel hetsieraad.nl pour l'entree date 2027-01-23, 'PACT (Joachim Pastor | Joris Delacroix | Teho)', soldOut false, 347 billets vendus sur 1754 ; URL testee, repond 200. Boutique Paylogic en JS, tarif non lisible."
+ },
+ {
+  "id": 2384,
+  "status": "ok",
+  "url": "https://www.tiqs.com/alfred/events/shop/5583",
+  "checked_on": "prspct.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique TIQS, unique lien billetterie du site officiel prspct.nl ; la page ouverte affiche 'PRSPCT XL35 - Daytime Edition, Sat 27th of February 2027, 15.00-23.00, Maassilo Rotterdam, Maashaven Zuidzijde 1'. Date et lieu confirmes. Tarifs charges en JS, non lisibles."
+ },
+ {
+  "id": 2385,
+  "status": "none",
+  "url": null,
+  "checked_on": "verknipt.org / ziggodome.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date confirmee par festivalinfo (vendredi 5 mars 2027, Ziggo Dome, a partir de 59,50 EUR, billetterie Weeztix) mais verknipt.org est bloque par Cloudflare (403 en curl comme en WebFetch) et la fiche ziggodome.nl/events/eef49d73... ouverte ne montre ni date ni lien d'achat (page en JS). Aucun lien d'achat ouvert et verifie, donc rien retenu."
+ },
+ {
+  "id": 2387,
+  "status": "ok",
+  "url": "https://shop.tickets.cm.com/f95c8259-9001-f038-b0ab-c6da94b7957c",
+  "checked_on": "thebeginningofhouse.nl",
+  "price": 42.5,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Boutique CM.com liee depuis le site officiel de l'organisateur thebeginningofhouse.nl, ligne 'ZAT 10 APR 2027 - AMSTERDAM / WE ARE IT / ROXY 2027 / Thuishaven Terrein - Amsterdam' ; date et lieu confirmes, JSON-LD du site donne availability InStock. Le 42,50 EUR vient de l'offre JSON-LD de guestzone.nl datee du jour, pas de la boutique elle-meme (CM.com en JS), donc a confirmer."
+ },
+ {
+  "id": 2388,
+  "status": "ok",
+  "url": "https://shop.tickets.cm.com/d8727171-70db-319f-23a8-cc67f0416be8",
+  "checked_on": "geheimeliefde.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique CM.com integree en iframe sur la page officielle geheimeliefde.nl/geheime-liefde, qui annonce '1 & 8 mei 2027, Fort bij Vechten, Utrecht, 12:00-23:00' ; URL testee, repond 200. La page precise que la vente des dernieres places du 1er mai reprend le 26 octobre."
+ },
+ {
+  "id": 2389,
+  "status": "soldout",
+  "url": "https://sales.ticketing.cm.com/hoh27/nl-nl/c8e24c14-c8db-4934-ab7a-d32869134a56",
+  "checked_on": "sales.ticketing.cm.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique officielle CM.com ouverte : 'Harmony of Hardcore 2027', samedi 15 mai 2027 13h, Festivalterrein De Roost, Erp. Tous les paliers affiches sont epuises (Super Dedicated 64,50, Dedicated 72,50, combi HOH+7th Sunday 109,50, frais inclus) ; le site officiel annonce une Regular Sale en janvier."
+ },
+ {
+  "id": 2390,
+  "status": "soldout",
+  "url": "https://www.7thsunday.nl/tickets/",
+  "checked_on": "7thsunday.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie officielle (site dedie a l'edition 16.05.27, Festivalterrein De Roost, Erp) : 'Loyal Sale is SOLD OUT', plus aucun bouton d'achat primaire, seulement le resale CM.com ; Regular Sale annoncee en janvier. Page d'agenda officielle en dernier recours, faute de guichet primaire ouvert."
+ },
+ {
+  "id": 2393,
+  "status": "none",
+  "url": null,
+  "checked_on": "freeyourmindfestival.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La liste 'Upcoming Shows' du site officiel porte bien '05 jun - Free Your Mind Festival 2027, Arnhem, Stadsblokken' mais c'est la seule entree de l'agenda sans lien shop.tickets.cm.com : la billetterie n'est pas encore ouverte (les autres dates de l'organisateur ont toutes leur boutique)."
+ },
+ {
+  "id": 2395,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/715263c3e0fd4eb4ae604d2c1c9a55bb/tickets",
+  "checked_on": "luminosity-events.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton 'buy tickets Paylogic' de la fiche officielle luminosity-events.nl/cevent/luminosity-beach-festival-2027-20-year-anniversary, qui confirme Beachclub Bernie's, Zandvoort, du 24 au 27 juin 2027 ; URL testee, repond 200."
+ },
+ {
+  "id": 387,
+  "status": "none",
+  "url": "https://tofflerfestival.nl/",
+  "checked_on": "tofflerfestival.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site officiel confirme 'Next up 29.05.27 Toffler Festival @ Roel Langerakpark' mais ne porte aucun lien de billetterie ; son seul lien boutique, shop.toffler.nl, ouvert, ne vend que du merchandising. Les agendas (uitagendarotterdam, followthebeat) disent 'tickets nog niet beschikbaar'. Lien racine deja au catalogue, rien de mieux a proposer."
+ }
+]

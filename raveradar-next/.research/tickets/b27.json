@@ -1,0 +1,52 @@
+[
+ {
+  "id": 795,
+  "status": "ok",
+  "url": "https://ra.co/events/2467330",
+  "checked_on": "subclub.co.uk + ra.co graphql",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Sub Club confirme Sat 12 December, Mr Scruff: Free Time - Glasgow (set 18h-22h) ; son bouton BUY TICKETS pointe sur cette page RA, qui confirme lieu Sub Club Glasgow et date 2026-12-12."
+ },
+ {
+  "id": 798,
+  "status": "ok",
+  "url": "https://ra.co/events/2471278",
+  "checked_on": "subclub.co.uk + ra.co graphql",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Sub Club confirme Thu 17 December, FLY - sim0ne ; BUY TICKETS pointe sur cette page RA (venue Sub Club, Glasgow, 2026-12-17). Tarif non affiche cote serveur, 23 £ du catalogue non re-confirme."
+ },
+ {
+  "id": 748,
+  "status": "ok",
+  "url": "https://www.axs.com/uk/events/1389569/pokemon-night-out-tickets?skin=theo2",
+  "checked_on": "theo2.co.uk",
+  "price": 55,
+  "currency": "£",
+  "priceNote": "estimated",
+  "note": "La fiche officielle du O2 donne 'Pokemon Night Out' le 10 Nov 2026, doors 18h, 'On sale now', avec AXS comme billetterie officielle ; Marshmello tete d'affiche et Alison Wonderland en support. Le 55 £ (hors frais) vient de la presse, pas de la caisse, d'ou priceNote estimated."
+ },
+ {
+  "id": 252,
+  "status": "none",
+  "url": null,
+  "checked_on": "fielddayfestivals.com, ra.co graphql",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site officiel confirme 'Saturday 29th May 2027' mais ne porte aucun lien d'achat, seulement un formulaire d'inscription pour la prochaine vague de billets ; aucune fiche Field Day 2027 sur RA. Vente pas encore ouverte."
+ },
+ {
+  "id": 254,
+  "status": "none",
+  "url": null,
+  "checked_on": "gottwood.co.uk, ra.co graphql",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ATTENTION DATE : gottwood.co.uk annonce 10-13 juin 2027 (le titre de page dit 10th-14th, le corps 10th to 13th), le catalogue porte 2027-06-10 au 2027-06-13, donc coherent. Early Bird epuises, les billets suivants ne sont pas encore en vente ('tickets go live later this year'), aucun lien d'achat actif."
+ }
+]

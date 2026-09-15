@@ -1,0 +1,152 @@
+[
+ {
+  "id": 447,
+  "status": "ok",
+  "url": "https://billetterie.elyseemontmartre.com/fr/pact",
+  "checked_on": "elyseemontmartre.com",
+  "price": 34.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de l'Élysée Montmartre, date 16/01/2027 20h et salle confirmées, catégorie FOSSE plein tarif web 34,50 €."
+ },
+ {
+  "id": 821,
+  "status": "ok",
+  "url": "https://lerocherdepalmer.fr/agenda/nto",
+  "checked_on": "lerocherdepalmer.fr",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle du Rocher de Palmer avec billetterie intégrée, JSON-LD offers InStock, samedi 16/01/2027 20h30 Rocher 1200 confirmé, tarif plein 30 €."
+ },
+ {
+  "id": 823,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/thylacine-concert-electro-css5-thylacine-pg51-ei1119781.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle See Tickets de la tournée Thylacine, jeudi 21/01/2027 20h au MeM à Rennes confirmé, 39 € en vente."
+ },
+ {
+  "id": 828,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/thylacine-concert-electro-css5-thylacine-pg51-ei1116463.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 36.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle See Tickets, jeudi 28/01/2027 19h30 au Bikini à Ramonville confirmé, place debout 36,50 € en vente."
+ },
+ {
+  "id": 825,
+  "status": "ok",
+  "url": "https://www.francebillet.com/event/thylacine-tournee-le-106-rouen-21697446/",
+  "checked_on": "francebillet.com (réseau Fnac Spectacles)",
+  "price": 33.7,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD MusicEvent : 23/01/2027 au LE 106 ROUEN, catégorie unique debout 33,70 € InStock ; la page officielle du 106 ne référence encore que la date de février 2026."
+ },
+ {
+  "id": 827,
+  "status": "ok",
+  "url": "https://billetterie-indigo-productions.tickandlive.com/reserver/robot-rock-alive-daft-punk-tribute-2/158921",
+  "checked_on": "tickandlive.com (billetterie Indigo Productions)",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du producteur : mercredi 27/01/2027 20h, ZENITH NANTES METROPOLE, ST HERBLAIN confirmé ; paliers plein tarif web 39 / 49 / 59 €, plus bas 39 €."
+ },
+ {
+  "id": 822,
+  "status": "ok",
+  "url": "https://lebureaudesspectacles.trium.fr/fr/t/-/event/68996",
+  "checked_on": "arena-lievin.fr",
+  "price": 39,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Lien billetterie officiel repris sur la page ROBOT ROCK ALIVE d'arena-lievin.fr (date 21/01/2027 Liévin confirmée sur le site de la salle) ; la page trium est derrière Cloudflare et n'a pas pu être ouverte depuis ici, tarif 39-59 € d'après jds.fr, non confirmé au guichet."
+ },
+ {
+  "id": 448,
+  "status": "ok",
+  "url": "https://web.digitick.com/nto-concert-transbordeur-villeurbanne-28-janvier-2027-css5-transbordeur-pg101-ri11797157.html",
+  "checked_on": "web.digitick.com (lien billetterie du Transbordeur)",
+  "price": 30.8,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien pris sur transbordeur.fr/evenement/nto-28012027 ; page Digitick ouverte : jeudi 28/01/2027 20h, Transbordeur Villeurbanne, plein tarif debout 30,80 €, en vente."
+ },
+ {
+  "id": 829,
+  "status": "ok",
+  "url": "https://cmm.shop.secutix.com/selection/event/date?productId=10229926071058&lang=fr",
+  "checked_on": "cmm.shop.secutix.com (billetterie Cité musicale-Metz)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle de la Cité musicale-Metz : BAM, vendredi 29/01/2027 20h, NTO, InStock ; grille 26-33 € plein tarif (8 € = tarif réduit adhérent), tarif d'entrée plein non isolable, laissé tel quel."
+ },
+ {
+  "id": 449,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/nto-concert-electro-css5-artefact-pg51-ei1122411.html",
+  "checked_on": "billetterie.seetickets.fr (billetterie Artefact / La Laiterie)",
+  "price": 30.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Artefact : samedi 30/01/2027 20h, La Laiterie Grande Salle Strasbourg, debout plein tarif 30,50 € (27,50 € carte Laiterie), en vente."
+ },
+ {
+  "id": 451,
+  "status": "soldout",
+  "url": "https://billetterie.olympiahall.com/nto-l-olympia-paris-css5-olympiahall-lgen-pg101-ri11794953.html",
+  "checked_on": "billetterie.olympiahall.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle de l'Olympia, vendredi 05/02/2027 20h confirmé, mais « plus de billets disponibles » : COMPLET (grille annoncée 36-46 € sur olympiahall.com)."
+ },
+ {
+  "id": 450,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/acid-arab-billet/idmanif/658045/idtier/28958271",
+  "checked_on": "le-zenith.com",
+  "price": 48,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien billetterie de la fiche officielle du Zénith Paris - La Villette (samedi 30/01/2027 20h, tarif annoncé 48 €, pas de mention complet) ; la page Ticketmaster répond 403 depuis le conteneur, non ouverte."
+ },
+ {
+  "id": 831,
+  "status": "ok",
+  "url": "https://billetterie.lacoope.org/share/event/1219-LA-P-TITE-FUMEE",
+  "checked_on": "lacoope.org",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche officielle La Coopérative de Mai : samedi 30/01/2027 20h, Clermont-Ferrand confirmé ; prévente 25 € hors frais (28 € sur place, 21/17 € tarifs réduits) ; le lien billetterie porte bien l'événement et la date."
+ },
+ {
+  "id": 832,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/la-p-tite-fumee-billet/idmanif/654824/idtier/13073454",
+  "checked_on": "le-splendid.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie de la fiche officielle du Splendid (Lille) : vendredi 05/02/2027 20h confirmé ; page Ticketmaster non ouvrable depuis le conteneur (403), tarif non confirmé."
+ },
+ {
+  "id": 1390,
+  "status": "cancelled",
+  "url": "https://www.olympiahall.com/agenda/lewis-ofman/",
+  "checked_on": "olympiahall.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ANNULÉ : la page officielle de l'Olympia annonce que le concert du vendredi 06/02/2027 est annulé et déplacé à La Machine du Moulin Rouge le jeudi 05/02/2027 (billets remboursés) ; JSON-LD en SoldOut, grille 35-45 €. La fiche du catalogue est à corriger (salle et date)."
+ }
+]

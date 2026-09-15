@@ -1,0 +1,152 @@
+[
+ {
+  "id": 336,
+  "status": "ok",
+  "url": "https://dice.fm/event/2w8pl6-anyma-19th-sep-fiera-di-milano-area-concerti-rho-tickets",
+  "checked_on": "vivoconcerti.com -> dice.fm",
+  "price": 85.74,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien de vente pris sur la page officielle du promoteur Vivo Concerti (ÆDEN Tour) ; JSON-LD DICE confirme 19/09/2026, Fiera di Milano Area Concerti, Rho, EventScheduled, seule offre restante 85,74 EUR."
+ },
+ {
+  "id": 344,
+  "status": "ok",
+  "url": "https://xceed.me/it/bologna/event/robot-festival-17-passes/234459",
+  "checked_on": "robotfestival.it -> xceed.me",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La page /tickets du site officiel charge un widget Xceed ; la fiche Xceed 'ROBOT Festival #17 - PASSES' confirme 08→10/10/2026 a DumBO (Bologne). Pass encore en vente : Night Pass 59 EUR, Saturday Pass 59 EUR, Full Pass 89 EUR ; billets a la soiree separes (ex. Autechre a l'Estragon 35 EUR). Aucune entree a 8 EUR confirmee, prix laisse tel quel."
+ },
+ {
+  "id": 354,
+  "status": "ok",
+  "url": "https://dice.fm/bundles/c2c-festival-2026-d65e",
+  "checked_on": "clubtoclub.it -> dice.fm",
+  "price": 24.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Le bouton TICKETS de clubtoclub.it redirige (link.dice.fm/C2CFestival2026) vers cette collection DICE officielle : 29 OCT / 01 NOV 2026, Lingotto / OGR Torino / Teatro Carignano, tous les billets en vente ; plus bas tarif payant DAY 1 et DAY 4 a 24,50 EUR (Passport 215, Golden Pass 196)."
+ },
+ {
+  "id": 688,
+  "status": "ok",
+  "url": "https://xceed.me/en/milano/event/nikolina-kntrlvrlst/236322/channel/gate-milano-website",
+  "checked_on": "gatemilano.it -> xceed.me",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'Buy tickets' de la fiche officielle du club gatemilano.it ; JSON-LD Xceed confirme NIKOLINA & KNTRLVRLST, 16/10/2026, Gate Milano (Milan), InStock, plus bas tarif en vente 18 EUR."
+ },
+ {
+  "id": 713,
+  "status": "ok",
+  "url": "https://xceed.me/en/milano/event/ueberrest-in-verruf/236323/channel/gate-milano-website",
+  "checked_on": "gatemilano.it -> xceed.me",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'Buy tickets' de la fiche officielle du club gatemilano.it ; JSON-LD Xceed confirme UEBERREST & IN VERRUF, 23/10/2026, Gate Milano (Milan), InStock, plus bas tarif en vente 18 EUR."
+ },
+ {
+  "id": 735,
+  "status": "ok",
+  "url": "https://www.ticketsms.it/event/Horrorland-Halloween-Festival-Ferrara-Ferrara-Fiere-Congressi-31-10-2026",
+  "checked_on": "horrorland.it -> ticketsms.it",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle liee depuis horrorland.it ; TicketSms confirme samedi 31/10/2026 19:00 → 01/11 05:00, Ferrara Fiere Congressi, Ferrara ; Riduzione Early Bird 20 EUR + frais encore disponible (a partir de 23 EUR frais inclus). 1st Release annoncee 99% sold-out par l'organisateur."
+ },
+ {
+  "id": 740,
+  "status": "ok",
+  "url": "https://xceed.me/en/milano/event/prty-samuel-moriero/236324/channel/gate-milano-website",
+  "checked_on": "gatemilano.it -> xceed.me",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'Buy tickets' de la fiche officielle du club gatemilano.it ; JSON-LD Xceed confirme PRTY: SAMUEL MORIERO, 06/11/2026, Gate Milano (Milan), InStock, plus bas tarif en vente 15 EUR."
+ },
+ {
+  "id": 750,
+  "status": "ok",
+  "url": "https://xceed.me/en/milano/event/funk-tribu-1/236325/channel/gate-milano-website",
+  "checked_on": "gatemilano.it -> xceed.me",
+  "price": 18,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'Buy tickets' de la fiche officielle du club gatemilano.it ; JSON-LD Xceed confirme FUNK TRIBU, 13/11/2026, Gate Milano (Milan), InStock, plus bas tarif en vente 18 EUR."
+ },
+ {
+  "id": 760,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/dj-jean-tickets-1987091218325",
+  "checked_on": "cyprusavenue.ie + eventbrite.ie",
+  "price": 19.26,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien pris sur la page du club cyprusavenue.ie ; JSON-LD Eventbrite confirme 14/11/2026 23:00, Cyprus Avenue, Cork, InStock, lowPrice 19.26 EUR (frais inclus)."
+ },
+ {
+  "id": 774,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/wigwam-presents-mietze-conte-tickets-1993914688508",
+  "checked_on": "eventbrite.ie",
+  "price": 8.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Eventbrite confirme Wigwam Presents: Mietze Conte, 26/11/2026 19:00, Wigwam Dublin, InStock, lowPrice 8.50 EUR (highPrice 16.97)."
+ },
+ {
+  "id": 797,
+  "status": "ok",
+  "url": "https://dice.fm/event/8eqxrv-innerspaces-pole-luigi-tozzi-14th-dec-auditorium-san-fedele-milano-tickets",
+  "checked_on": "innerspaces.it -> dice.fm",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "note": "La fiche officielle innerspaces.it (2026-12-14-luigi-tozzi-pole) renvoie a la collection DICE INNER_SPACES Autunno 2026 ; JSON-LD DICE confirme 'Inner_Spaces POLE, LUIGI TOZZI', 14/12/2026 20:30, Auditorium San Fedele, Milano, a partir de 19 EUR (frais inclus, jusqu'a 24)."
+ },
+ {
+  "id": 844,
+  "status": "ok",
+  "url": "https://www.ticketmaster.it/biglietti/gabry-ponte-circotron-casalecchio-di-reno-bologna-27-02-2027/event/7z4tui9awo0s",
+  "checked_on": "unipolarena.it + ticketmaster.it",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La fiche officielle unipolarena.it/portfolio/27-02-2027-gabry-ponte confirme samedi 27/02/2027, Unipol Arena, Casalecchio di Reno (Bologne), CIRCOTRON - The Dance Show, promoteur Live Nation (donc vente Ticketmaster.it) ; l'URL Ticketmaster porte bien 'casalecchio-di-reno-bologna-27-02-2027' et repond 200. Contenu non lisible depuis le conteneur (ticketmaster.* renvoie 403, page derriere cookiewall), donc aucun tarif confirme."
+ },
+ {
+  "id": 846,
+  "status": "ok",
+  "url": "https://www.ticketmaster.it/biglietti/gabry-ponte-torino-06-03-2027/event/zpv1lejf3iuy",
+  "checked_on": "inalpiarena.it -> ticketmaster.it",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien de billetterie publie tel quel sur la fiche officielle inalpiarena.it/eventi/gabry-ponte-tickets-ae1419152, qui confirme samedi 06/03/2027, Inalpi Arena, Turin (CIRCOTRON) ; URL repond 200 mais contenu illisible depuis le conteneur (403 / cookiewall), donc aucun tarif confirme. Alternative citee par la salle : vivaticket.com/it/ticket/gabry-ponte-circotron/308201 (file d'attente)."
+ },
+ {
+  "id": 2375,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/faithless-dj-set-tickets-1999115247520",
+  "checked_on": "cyprusavenue.ie + eventbrite.ie",
+  "price": 38.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Eventbrite confirme 12/12/2026 23:00, Cyprus Avenue, Cork, InStock, lowPrice 38.50 EUR (frais inclus, face value catalogue 35 EUR)."
+ },
+ {
+  "id": 2394,
+  "status": "none",
+  "url": null,
+  "checked_on": "forbiddenfruit.ie",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site officiel n'a qu'une page /2027 'SIGN UP FOR FF27' sans date ni billetterie ; aucune vente ouverte pour l'edition 2027 (les 5-6/06/2027 du catalogue ne sont pas confirmes par l'organisateur, l'edition 2026 s'est tenue les 30-31 mai)."
+ }
+]

@@ -1,0 +1,58 @@
+# Fiches non encore vérifiées (limite de session atteinte)
+
+Relancer un agent par lot avec le prompt du README de .research/tickets/,
+en lui donnant la recette GraphQL de Resident Advisor.
+
+- id=2240 | Hangar invite Adriatique | Tour & Taxis - Gare Maritime | Brussels, Belgium | 2026-10-03 | prix actuel: 57.5€ | aucun lien
+- id=2273 | BLUR w/ Ryan Elliott | UMI | Brussels, Belgium | 2026-10-10 | prix actuel: 20€ | aucun lien
+- id=2295 | Rite w/ Lars Huismann & Exos | Off Club | Liège, Belgium | 2026-10-17 | prix actuel: 12€ | aucun lien
+- id=2312 | 2manydjs at Garage | Garage Klub | Antwerp, Belgium | 2026-10-24 | prix actuel: 24€ | aucun lien
+- id=361 | Rave Rebels XXL | ING Arena (Palais 12), Heysel | Brussels, Belgium | 2026-11-07 | prix actuel: 55€ (estimated) | lien racine: https://raverebels.com/
+- id=2352 | X Club. & Southstar at Garage | Garage Klub | Antwerp, Belgium | 2026-11-21 | prix actuel: 0€ (unknown) | aucun lien
+- id=2233 | Rabatz und Radau au Kulturzentrum Faust | Kulturzentrum Faust | Hannover, Germany | 2026-10-02 | prix actuel: 10€ | aucun lien
+- id=2264 | Lane 8 à Oczki | Oczki | Warsaw, Poland | 2026-10-09 | prix actuel: 0zł | aucun lien
+- id=2314 | Digitalism à Niebo | Niebo | Warsaw, Poland | 2026-10-24 | prix actuel: 0zł | aucun lien
+- id=2404 | Sunrise Festival Kolobrzeg | Lotnisko Podczele | Kolobrzeg, Poland | 2027-07-30 → 2027-08-01 | prix actuel: 0zł | aucun lien
+- id=741 | Max Cooper · Hard Club | Hard Club | Porto, Portugal | 2026-11-06 | prix actuel: 0€ (unknown) | aucun lien
+- id=396 | Boom Festival | Boomland, Herdade da Granja (lac d'Idanha / barrage Marechal Carmona) | Idanha-a-Nova, Portugal | 2027-07-18 → 2027-07-25 | prix actuel: 300€ (estimated) | lien racine: https://www.boomfestival.org/
+- id=230 | Autechre au Club Guesthouse | Club Guesthouse | Bucharest, Romania | 2026-10-07 | prix actuel: 35€ | lien racine: https://www.clubguesthouse.ro/
+- id=261 | Electric Castle | Chateau Banffy, Bontida | Cluj-Napoca, Romania | 2027-07-14 → 2027-07-18 | prix actuel: 160€ (estimated) | lien racine: https://electriccastle.ro/
+- id=877 | UNTOLD | Cluj Arena | Cluj-Napoca, Romania | 2027-08-05 → 2027-08-08 | prix actuel: 119€ | lien racine: https://untold.com/
+- id=65 | No Sleep Festival | New Hangar, Port of Belgrade | Belgrade, Serbia | 2026-11-28 | prix actuel: 55€ | lien racine: https://www.nosleepfestival.com
+- id=2332 | Ventolin et FVLCRVM à Bratislava | DK Zrkadlový háj | Bratislava, Slovakia | 2026-11-06 | prix actuel: 0€ | aucun lien
+- id=729 | Digitalism · Sala Wagon | Sala Wagon | Madrid, Spain | 2026-10-30 | prix actuel: 34€ (estimated) | aucun lien
+- id=730 | Sunnery James & Ryan Marciano · Teatro Kapital | Teatro Kapital | Madrid, Spain | 2026-10-30 | prix actuel: 0€ (unknown) | aucun lien
+- id=734 | Digitalism · La [2] de Apolo | La [2] de Apolo | Barcelona, Spain | 2026-10-31 | prix actuel: 34€ (estimated) | aucun lien
+- id=742 | Curses! · Sala Nazca | Sala Nazca | Madrid, Spain | 2026-11-06 | prix actuel: 0€ (unknown) | aucun lien
+- id=2270 | Hyperdrive: Stan Christ au Slakthuset | Slakthuset | Stockholm, Sweden | 2026-10-09 | prix actuel: 150kr | aucun lien
+- id=693 | KREAM at Trädgår'n | Trädgår'n | Gothenburg, Sweden | 2026-10-17 | prix actuel: 0kr (unknown) | aucun lien
+- id=2311 | Olof Dreijer à la Moriska Paviljongen | Moriska Paviljongen | Malmö, Sweden | 2026-10-23 | prix actuel: 195kr | aucun lien
+- id=2318 | Olof Dreijer au Pustervik | Pustervik | Gothenburg, Sweden | 2026-10-29 | prix actuel: 325kr | aucun lien
+- id=739 | STVW Punk Rave | Trädgår'n | Gothenburg, Sweden | 2026-11-06 | prix actuel: 0kr (unknown) | aucun lien
+- id=761 | The Prodigy at Avicii Arena | Avicii Arena | Stockholm, Sweden | 2026-11-15 | prix actuel: 0kr (unknown) | aucun lien
+- id=663 | FOG Festival | Kaserne Basel, Tanzhaus et CONTAINER Club | Basel, Switzerland | 2026-09-17 → 2026-09-20 | prix actuel: 39CHF | lien racine: https://www.fogstudio.ch/
+- id=2177 | Mathias Kaden au Hive | Hive | Zurich, Switzerland | 2026-09-19 | prix actuel: 0CHF | aucun lien
+- id=2178 | Back2Back - Mirko Loko au D! Club | D! Club | Lausanne, Switzerland | 2026-09-19 | prix actuel: 0CHF | aucun lien
+- id=1417 | All Night Laing - Hannah Laing @ Sub Club | Sub Club | Glasgow, UK | 2026-09-20 | prix actuel: 0£ (unknown) | aucun lien
+- id=1418 | Detonate First Rave Back: K MOTIONZ | Unit 13 | Nottingham, UK | 2026-09-22 | prix actuel: 0£ (unknown) | aucun lien
+- id=1423 | FLY | House Heads pres. Luuk Van Dijk, Robbie Doherty & Prunk | SWG3 | Glasgow, UK | 2026-09-25 | prix actuel: 0£ (unknown) | aucun lien
+- id=1426 | Moondance 31 - Summer Session | Studio 338 | London, UK | 2026-09-26 | prix actuel: 0£ (unknown) | aucun lien
+- id=1427 | Project X Events Presents - Love To House | Basing House | London, UK | 2026-09-26 | prix actuel: 0£ (unknown) | aucun lien
+- id=1433 | Doof presents The Rocketman - All Night Long | SWG3 | Glasgow, UK | 2026-10-09 | prix actuel: 0£ (unknown) | aucun lien
+- id=1436 | Afta Dark x Levels - Summer Closing - JOSS DEAN & KITTY HALL | LAB11 | Birmingham, UK | 2026-10-10 | prix actuel: 0£ (unknown) | aucun lien
+- id=1439 | Shangri-La Presents: Duke Dumont | Depot | Cardiff, UK | 2026-10-23 | prix actuel: 0£ (unknown) | aucun lien
+- id=1443 | Your Mum's House: Halloween Special | Basing House | London, UK | 2026-10-29 | prix actuel: 0£ (unknown) | aucun lien
+- id=1445 | FLY | House Heads Halloween | Glasgow | SWG3 | Glasgow, UK | 2026-10-31 | prix actuel: 0£ (unknown) | aucun lien
+- id=1446 | Eastenderz Halloween | LAB11 | Birmingham, UK | 2026-10-31 | prix actuel: 0£ (unknown) | aucun lien
+- id=1456 | Sankeys LDN Returns - All Day, All Night | Studio 338 | London, UK | 2026-11-28 | prix actuel: 0£ (unknown) | aucun lien
+- id=1462 | Moondance Camden Palace Reunion | KOKO | London, UK | 2026-12-12 | prix actuel: 0£ (unknown) | aucun lien
+- id=1463 | A.M.C ft Phantom | Thirty3Hz | Guildford, UK | 2026-12-18 | prix actuel: 0£ (unknown) | aucun lien
+- id=1465 | EngineRooms Presents: Paul Oakenfold & Seb Fontaine BOXING DAY | EngineRooms | Southampton, UK | 2026-12-26 | prix actuel: 0£ (unknown) | aucun lien
+- id=163 | Terminal V Croatia | The Garden Tisno | Tisno, Croatia | 2027-07-15 | prix actuel: 199£ | LIEN ACTUEL CASSÉ (404) : https://terminalv.co.uk/terminal-v-all-events
+- id=159 | Festival Plein Air | Parc Jacques Vernier | Douai, France | 2027-06-25 → 2027-06-26 | prix actuel: 38€ | LIEN ACTUEL CASSÉ (404) : https://www.festivalpleinair.fr/billetterie/
+- id=390 | Ikarus Festival | Allgäu Airport, Memmingerberg | Memmingen, Germany | 2027-06-25 → 2027-06-27 | prix actuel: 80€ | LIEN ACTUEL CASSÉ (404) : https://www.ikarus-festival.de/tickets/
+- id=657 | Open Beatz Festival | Festivalgelände Herzogenaurach | Herzogenaurach, Germany | 2027-07-23 → 2027-07-25 | prix actuel: 0€ | LIEN ACTUEL CASSÉ (429) : https://openbeatz.de/en/tickets/
+- id=388 | Intents Festival | Festivalterrein Oisterwijk, Sportlaan 10 | Oisterwijk, Netherlands | 2027-06-04 → 2027-06-06 | prix actuel: 135€ | LIEN ACTUEL CASSÉ (200) : https://www.intentsfestival.nl/en/
+- id=117 | Unsound Warsaw – Soft Power | Divers lieux / various venues | Warsaw, Poland | 2026-10-02 → 2026-10-06 | prix actuel: 750zł | LIEN ACTUEL CASSÉ (404) : https://www.unsound.pl/en/unsound-2026
+- id=123 | Unsound Kraków – Soft Power | Divers lieux / various venues | Kraków, Poland | 2026-10-08 → 2026-10-11 | prix actuel: 750zł | LIEN ACTUEL CASSÉ (404) : https://www.unsound.pl/en/unsound-2026
+- id=575 | Music On | Pacha | Ibiza, Spain | 2026-10-02 | prix actuel: 85€ | LIEN ACTUEL CASSÉ (404) : https://pacha.com/en/ibiza/

@@ -1,0 +1,72 @@
+[
+ {
+  "id": 2240,
+  "status": "ok",
+  "url": "https://ticketshop.thehangar.be/6a6b4251a9374f4e881645376346e865",
+  "checked_on": "thehangar.be",
+  "price": 57.5,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Boutique Paylogic propre a la date, liee depuis thehangar.be a la ligne « Adriatique 03 Oct 26 - Gare Maritime 15:00-01:00 » ; RA (id 2499920) confirme date et lieu, la boutique elle-meme est rendue en JS donc tarif non relu."
+ },
+ {
+  "id": 2273,
+  "status": "ok",
+  "url": "https://weeztix.shop/ybfb87eg",
+  "checked_on": "ra.co",
+  "price": 20,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Lien billetterie officiel (Weeztix) donne par la fiche RA 2537647 « BLUR with Ryan Elliott » du 10/10/2026 a UMI, Bruxelles ; la boutique Weeztix est rendue en JS, tarif non relu sur la page."
+ },
+ {
+  "id": 1465,
+  "status": "ok",
+  "url": "https://www.skiddle.com/whats-on/Southampton/EngineRooms/EngineRooms-Presents-Paul-Oakenfold--Seb-Fontaine-BOXING-DAY/42424548/",
+  "checked_on": "skiddle.com",
+  "price": 10,
+  "currency": "£",
+  "priceNote": null,
+  "note": "Skiddle vend en direct (gateway interne, « Buy Tickets »), fiche du 26/12/2026 a EngineRooms, West Quay Road Southampton ; fourchette annoncee 10-15 GBP, on retient le plus bas."
+ },
+ {
+  "id": 2295,
+  "status": "none",
+  "url": null,
+  "checked_on": "offclub.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "offclub.be redirige vers la boutique Weeztix du club (shop.weeztix.com/465299d9-a9b5-11ee-a9cb-7e126431635e), rendue en JS et non deep-linkable ; RA n'a aucune fiche pour cette soiree (ni recherche « Rite/Off Liege », ni les tour dates de Lars Huismann), aucun lien par date verifiable."
+ },
+ {
+  "id": 2312,
+  "status": "none",
+  "url": null,
+  "checked_on": "ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "RA (fiche 2519699, 24/10/2026 Garage Klub Antwerp, confirmee aussi par allevents) ne donne que la racine garageklub.be, dont toutes les pages repondent 202 derriere un challenge anti-robot ; le club vend via l'agenda Paylogic 4e407aa066b044e3a9039771a583e896, rendu en JS, sans lien par date atteignable."
+ },
+ {
+  "id": 361,
+  "status": "none",
+  "url": null,
+  "checked_on": "raverebels.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et lieu confirmes (RA 2458195 et sway.events/event/3211 : 07/11/2026, ING Arena Bruxelles) mais les deux pointent vers la racine raverebels.com ; /ticketredirect/ est derriere un challenge anti-robot SiteGround, aucune billetterie profonde publique trouvee (Kompass et Garage passent par Paylogic en JS)."
+ },
+ {
+  "id": 2352,
+  "status": "none",
+  "url": null,
+  "checked_on": "ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Aucune fiche pour le 21/11/2026 dans l'agenda RA de Garage Klub (venue 236311) ni ailleurs ; le site du club est derriere un challenge anti-robot et sa billetterie Paylogic est rendue en JS. ATTENTION DATE : la seule date southstar trouvee sur RA est le 20/11/2026 (fiche 2505578), a re-verifier."
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1376,
+  "status": "ok",
+  "url": "https://billetterie.la-belle-electrique.com/agenda/778-Fakear?session=778",
+  "checked_on": "la-belle-electrique.com",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Belle Electrique, date 07.10.26 20h Grande Salle confirmee sur la fiche du site (27/30/32 EUR), pas complet."
+ },
+ {
+  "id": 122,
+  "status": "ok",
+  "url": "https://billetterie.ndkfestival.com/agenda/34-Pass-2-jours",
+  "checked_on": "billetterie.ndkfestival.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle NDK, page Pass 2 jours 9-11 octobre 2026 au Cargo (Caen) confirmee ; tarifs charges en JS donc non releves."
+ },
+ {
+  "id": 1377,
+  "status": "cancelled",
+  "url": "https://www.songkick.com/concerts/43228675-fakear-at-cabaret-aleatoire-smac",
+  "checked_on": "songkick.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Songkick marque la date du 08/10/2026 a Marseille (Cabaret Aleatoire - SMAC, 41 rue Jobin) ANNULEE ; absente de l'agenda de La Friche, de Shotgun/Cabaret Aleatoire, de jds.fr et de la liste de tournee Shazam. Seul 13.agendaculturel.fr la liste encore (fiche vraisemblablement perimee). Aucun lien d'achat trouve."
+ },
+ {
+  "id": 583,
+  "status": "ok",
+  "url": "https://www.halledelamachine.fr/evenements/mecanik-paradize/",
+  "checked_on": "halledelamachine.fr",
+  "price": 39.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle du festival (8-11/10/2026, Piste des Geants, Halle de La Machine, Toulouse) : pas de pass global, trois billetteries de soiree Shotgun liees depuis la page (boutons ACHETEZ VOS BILLETS), dimanche gratuit. Plus bas tarif d'entree encore en vente : 39,90 EUR (samedi 10/10 Organik, https://shotgun.live/en/festivals/open-rave-toulouse-organik-mecanik-paradize) ; jeudi 45,90 EUR, vendredi Kalkbrenner 64,90 EUR. Lien d'agenda faute de page d'achat unique."
+ },
+ {
+  "id": 414,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/pact-la-laiterie-grande-salle-strasbourg-09-octobre-2026-css5-artefact-pg101-ri11728809.html",
+  "checked_on": "artefact.org",
+  "price": 30.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Artefact/La Laiterie liee depuis la fiche du site : PACT (Joachim Pastor, Joris Delacroix & Teho) + BIRRD, vendredi 09/10/2026, Laiterie Grande Salle Strasbourg, prevente 30,50 EUR (caisse du soir 32)."
+ },
+ {
+  "id": 415,
+  "status": "none",
+  "url": null,
+  "checked_on": "centralchapelle.com, shotgun.live",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Aucune trace de Sam Feldt au Central Chapelle : l'agenda officiel du lieu (septembre a decembre 2026) ne le liste pas, la page Shotgun du Central Chapelle non plus, et la fiche artiste Shotgun de Sam Feldt n'a aucune date. Fiche du catalogue a re-verifier."
+ },
+ {
+  "id": 1378,
+  "status": "ok",
+  "url": "https://billetterie.olympiahall.com/fakear-concert-l-olympia-paris-09-octobre-2026-css5-olympiahall-pg101-ri11519909.html",
+  "checked_on": "billetterie.olympiahall.com",
+  "price": 38.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de L'Olympia (lien depuis olympiahall.com) : vendredi 09/10/2026 20h, 28 bd des Capucines Paris, de 38,50 a 49,50 EUR, places en vente."
+ },
+ {
+  "id": 416,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/folamour-la-laiterie-grande-salle-strasbourg-10-octobre-2026-css5-artefact-pg101-ri11642849.html",
+  "checked_on": "artefact.org",
+  "price": 33.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Artefact/La Laiterie : Folamour '5 Hours set', samedi 10/10/2026, Laiterie Grande Salle Strasbourg, prevente 33,50 EUR (caisse du soir 35)."
+ },
+ {
+  "id": 868,
+  "status": "ok",
+  "url": "https://www.placeminute.com/event/electro/electro-sound-avec-dj-laurent-wolf,47822.html",
+  "checked_on": "bourbourg.fr, placeminute.com",
+  "price": 10,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie Placeminute designee par la fiche officielle de la ville de Bourbourg : samedi 10/10/2026 21h-03h, Espace Jean Monnet, avenue Francois Mitterrand, 59630 Bourbourg, a partir de 10,00 EUR (Vanesa Wolf / Laurent Wolf / DJ L-Bee)."
+ },
+ {
+  "id": 1379,
+  "status": "soldout",
+  "url": "https://leliberte.fr/spectacles/fakear/",
+  "checked_on": "leliberte.fr",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle L'Etage / Le Liberte : sam 10 Oct 2026 20:00, categorie unique debout 30 EUR, mais 'les places ne sont plus disponibles a l'achat' (alerte mail proposee) donc complet."
+ },
+ {
+  "id": 417,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/folamour-transbordeur",
+  "checked_on": "transbordeur.fr",
+  "price": 37.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie Shotgun designee par la fiche officielle du Transbordeur : dimanche 11/10/2026 17h, 3 bd de Stalingrad Villeurbanne ; palier Early 32 EUR epuise, plus bas tarif en vente Regular 37,50 EUR."
+ },
+ {
+  "id": 418,
+  "status": "soldout",
+  "url": "https://www.lamaroquinerie.fr/fr/agenda/view/2174/il-est-vilaine-complet/",
+  "checked_on": "lamaroquinerie.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle La Maroquinerie (23 rue Boyer, Paris 20e) : Il Est Vilaine le 13 octobre 19:30, marque COMPLET sur la fiche et sur l'agenda ; aucun lien de vente actif, donc aucun tarif confirme."
+ },
+ {
+  "id": 870,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/autechre-cabaret-aleatoire",
+  "checked_on": "shotgun.live",
+  "price": 34.3,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Shotgun, billetterie officielle embarquee sur cabaret-aleatoire.com ; JSON-LD confirme 13/10/2026 au Cabaret Aleatoire, 41 rue Jobin Marseille, offre Tarif Unique 34,30 EUR InStock."
+ },
+ {
+  "id": 871,
+  "status": "ok",
+  "url": "https://agauchedelalune.tickandyou.com/concerts/2919-obsimo.html",
+  "checked_on": "billetterie.agauchedelalune.com",
+  "price": 22,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du producteur A Gauche de la Lune (Tick & You) : OBSIMO - LA BULLE CAFE - LILLE - mar. 13/10/2026 20h30, placement libre debout, 22,00 EUR, en vente (dernieres places signalees)."
+ },
+ {
+  "id": 1380,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/autechre-cabaret-aleatoire",
+  "checked_on": "shotgun.live",
+  "price": 34.3,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Meme evenement que l'id 870 (doublon Cabaret Aleatoire / Cabaret Aleatoire - la Friche) : 13/10/2026 Marseille, Tarif Unique 34,30 EUR InStock sur Shotgun."
+ }
+]

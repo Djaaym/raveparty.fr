@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1439,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Cardiff/Depot/Shangri-La-Presents-Duke-Dumont/42477420/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Skiddle confirme la date au Depot de Cardiff le 23/10/2026 mais les quatre paliers (20 a 30 GBP) sont tous en SoldOut ; RA (event 2495809) confirme date et salle sans autre billetterie, et depotcardiff.com comme depotcardiff.seetickets.com repondent 403 depuis le conteneur."
+ },
+ {
+  "id": 1443,
+  "status": "ok",
+  "url": "https://www.fatsoma.com/e/c5a2vsrr/your-mum-s-house-x-halloween-special-at-basing-house-29-10-26",
+  "checked_on": "fatsoma.com",
+  "price": 8,
+  "currency": "£",
+  "priceNote": null,
+  "note": "Billetterie officielle liee depuis yourmumshouse.club : Basing House, jeudi 29/10/2026 22h-2h, Early Bird a 5 GBP epuise, 1st Release a 8 GBP en vente (la fiche Skiddle du meme soir ne vend rien, tickets=0)."
+ },
+ {
+  "id": 1445,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-Halloween--Glasgow/42659113/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page Skiddle de la date du 31/10/2026 au SWG3 : unique offre General Admission a 55 GBP en SoldOut ; RA (event 2524343) confirme date et salle sans autre billetterie."
+ },
+ {
+  "id": 1446,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Eastenderz-Halloween-Sold-Out/42685453/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Skiddle titre la fiche « Eastenderz Halloween [Sold Out] » au LAB11 le 31/10/2026 et ses six paliers (25 a 50 GBP) sont tous en SoldOut."
+ },
+ {
+  "id": 1456,
+  "status": "cancelled",
+  "url": "https://www.skiddle.com/whats-on/London/Studio-338/Sankeys-LDN-Returns---All-Day-All-Night/42334847/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ANNULE : la fiche Skiddle du 28/11/2026 au Studio 338 porte cancelled=1, cancellationDate 2026-08-04 et ticketStatusText « Cancelled », offers vide."
+ },
+ {
+  "id": 1462,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/London/KOKO/Moondance-Camden-Palace-Reunion-2026/42596576/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Moondance Camden Palace Reunion 2026 au KOKO le 12/12/2026 : les huit paliers Skiddle (15 a 50 GBP, VIP compris) sont tous en SoldOut."
+ },
+ {
+  "id": 1463,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Guildford/Thirty3Hz/AMC-ft-Phantom/42536238/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "A.M.C ft Phantom au Thirty3Hz de Guildford le 18/12/2026 : les cinq paliers Skiddle (8 a 20 GBP) sont tous en SoldOut."
+ }
+]

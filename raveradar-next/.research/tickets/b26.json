@@ -1,0 +1,52 @@
+[
+ {
+  "id": 2232,
+  "status": "ok",
+  "url": "https://my.weezevent.com/worakls-rodriguez-jr-birrd-djerry-c-2026",
+  "checked_on": "ra.co + my.weezevent.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "RA event 2534971 (Worakls, RODRIGUEZ JR live, BIRRD => Space Odyssey, D! Club Lausanne, 02/10/2026) donne ce lien Weezevent officiel, page de vente vivante (200)."
+ },
+ {
+  "id": 2267,
+  "status": "ok",
+  "url": "https://my.weezevent.com/subset-pres-delta-heavy-2026",
+  "checked_on": "ra.co + my.weezevent.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "RA event 2529647 (Subset with Delta Heavy // Lausanne, D! Club, 09/10/2026) ; page Weezevent titrée 'Subset pres. DELTA HEAVY 2026', tarifs rendus en JS donc non lisibles cote serveur."
+ },
+ {
+  "id": 2303,
+  "status": "ok",
+  "url": "https://my.weezevent.com/holy-priest-kistenbrugger-nhu-rose-2026",
+  "checked_on": "ra.co + my.weezevent.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "RA event 2535017 (Holy Priest, KISTENBRUGGER => The GarD!en, D! Club Lausanne, 18/10/2026) ; salle et date concordent, RA ne titre pas la soiree '30 ans'."
+ },
+ {
+  "id": 2196,
+  "status": "none",
+  "url": null,
+  "checked_on": "ra.co, hiveclub.ch, petzi.ch, eventfrog.ch",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et salle confirmees (RA 2398623 et page officielle https://www.hiveclub.ch/events/mad-katz-7/ : 'Mad Katz x Tresor, 25. September 2026 um 23:00, Hive-Club') mais AUCUNE vente en ligne : RA isTicketed=false, la fiche Hive ne porte aucun bouton d'achat (hiveclub.shop est la boutique merch), rien sur Petzi ni Eventfrog. Entree vendue a la porte."
+ },
+ {
+  "id": 763,
+  "status": "ok",
+  "url": "https://polarisfestival.ch/#tickets",
+  "checked_on": "polarisfestival.ch",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie Smeetz en widget lightbox (gId 15409, productId 76875/76876), sans URL autonome : le lien d'achat est la section #tickets du site officiel, qui porte les six boutons (Weekend 1 Pass 20+21 NOV, Weekend 2 Pass 27+28 NOV, VIP, Stage Experience). Dates coherentes avec le lot ; tarifs rendus en JS, non lisibles ; line-up encore non annonce."
+ }
+]

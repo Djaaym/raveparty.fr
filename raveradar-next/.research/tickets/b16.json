@@ -1,0 +1,152 @@
+[
+ {
+  "id": 342,
+  "status": "ok",
+  "url": "https://www.cavoparadiso.gr/tickets.asp?tt=STD&eid=1086",
+  "checked_on": "cavoparadiso.gr",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page billetterie officielle du club, evenement 'Season Closing Night w/ Junior Pappa | Fused (Full Moon Party)', samedi 26 septembre 23:00, Cavo Paradiso Mykonos : date et lieu confirmes, standard 35 EUR."
+ },
+ {
+  "id": 343,
+  "status": "ok",
+  "url": "https://omana-festival.de/pages/booking",
+  "checked_on": "omana-festival.de",
+  "price": 199,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique Shopify officielle du festival (le site precise que les billets valides ne se vendent que la). Edition 2026 confirmee; billet week-end 4 jours 199 EUR en vente, pass complet 'Final Price' 299 EUR, phases I a IV epuisees. Page de booking = page d'achat officielle, le rendu du panier est en JS."
+ },
+ {
+  "id": 769,
+  "status": "none",
+  "url": null,
+  "checked_on": "ra.co / more.com / songkick / clubber.gr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Evenement confirme par les extraits de recherche (EDEN presents Nicole Moudaber & Grace Dahl, dim. 22 nov. 2026, 17h30, Odeion Athinon) mais aucune page d'achat ouvrable : ra.co repond 403 (curl et WebFetch), more.com 503/blocage, la fiche Songkick du lieu ne liste pas la date, clubber.gr 403. Aucun lien invente."
+ },
+ {
+  "id": 2342,
+  "status": "ok",
+  "url": "https://cooltix.hu/event/6a0f0466a54f8051367beb70",
+  "checked_on": "cooltix.hu",
+  "price": 7990,
+  "currency": "Ft",
+  "priceNote": null,
+  "note": "Billetterie officielle liee depuis modestep.com (page tournee EU 2026) et titre de la page Cooltix 'Next Level pres.: MODESTEP Live (UK) - A38 Hajo - 2026.11.13.' : date et lieu confirmes. Paliers 5990 et 6990 Ft epuises, palier en vente 7990 Ft (442 dispo)."
+ },
+ {
+  "id": 2363,
+  "status": "ok",
+  "url": "https://cooltix.hu/event/69bd194666747f4cc68df4d1",
+  "checked_on": "cooltix.hu",
+  "price": 9900,
+  "currency": "Ft",
+  "priceNote": null,
+  "note": "Billetterie Cooltix de l'organisateur (Akvarium Klub Kft), JSON-LD : Akvarium Klub, Erzsebet ter 12, Budapest, 2026-11-28 (KisHall) : date et lieu confirmes. Palier courant 9900 Ft; un palier 8900 Ft n'a plus qu'un billet, un autre a 8900 est epuise."
+ },
+ {
+  "id": 2401,
+  "status": "ok",
+  "url": "https://ticket.ozorafestival.eu/",
+  "checked_on": "ozorafestival.eu",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique officielle : tout ozorafestival.eu (y compris /tickets) redirige en 301 vers ticket.ozorafestival.eu, redirection verifiee au curl. Le contenu est derriere un challenge Cloudflare (403 en curl et en WebFetch), donc ni la date 2027 ni le tarif n'ont pu etre lus sur la page : lien officiel mais edition non re-verifiee."
+ },
+ {
+  "id": 2408,
+  "status": "ok",
+  "url": "https://szigetfestival.com/en/tickets/product/22489",
+  "checked_on": "szigetfestival.com",
+  "price": 349,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle #SZIGET2027, Full Festival Pass 5 jours, validite annoncee du 10 aout 2027 08:00 au 15 aout 2027 : edition et dates confirmees. Phase 'Super Early Bird' 299 EUR marquee past, phase active 'Early Bird' 349 EUR (le billet a 239/279 EUR est un tarif reserve aux moins de 21 ans)."
+ },
+ {
+  "id": 2171,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/twofaced-tickets-1999399215877",
+  "checked_on": "cyprusavenue.ie / eventbrite.ie",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien pris sur l'agenda officiel de Cyprus Avenue. JSON-LD Eventbrite : TwoFaced, Cyprus Avenue, Caroline Street, Cork, 2026-09-18 23:00, availability InStock : date et ville confirmees. Tarifs annonces en fourchette 16,50 a 24,76 EUR frais compris, impossible de savoir cote serveur quel palier est encore vendu, donc aucun prix rapporte."
+ },
+ {
+  "id": 665,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/paul-oakenfold-tickets-1992676235261",
+  "checked_on": "cyprusavenue.ie / eventbrite.ie",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien pris sur l'agenda officiel de Cyprus Avenue. JSON-LD Eventbrite : Paul Oakenfold, Cyprus Avenue, Cork, 2026-09-25 23:00, InStock : date et ville confirmees. Unique palier affiche a 33,00 EUR frais compris (le catalogue porte 30 EUR hors frais), donc prix laisse tel quel."
+ },
+ {
+  "id": 2172,
+  "status": "ok",
+  "url": "https://link.dice.fm/tf16eb172d27",
+  "checked_on": "indexdublin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'Tickets Here' de la fiche officielle indexdublin.com/events/899kp7t2wdr5y8z, 'Index: 999999999', vendredi 18 septembre 2026 22:00, Index Dublin 57 Middle Abbey St : date et lieu confirmes. La page DICE elle-meme repond 403 (Cloudflare) en curl comme en WebFetch, donc tarif non lu."
+ },
+ {
+  "id": 2224,
+  "status": "ok",
+  "url": "https://link.dice.fm/S9d769ceef0e",
+  "checked_on": "indexdublin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'Tickets Here' de la fiche officielle Index Dublin 'Index: Kepler', samedi 26 septembre 2026 22:00, 57 Middle Abbey St, Dublin : date et lieu confirmes. Page DICE inaccessible (403 Cloudflare), tarif non lu."
+ },
+ {
+  "id": 667,
+  "status": "ok",
+  "url": "https://ra.co/events/2485550",
+  "checked_on": "wigwamdublin.com",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'BUY TICKETS ON RA' de la page Resonate du site officiel du Wigwam, dans la section 'RESONATE X LOST: MAIN PHASE & HIGH FIDELITY 02.10.26' (11pm, Wigwam Dublin, confirme aussi par l'agenda 'friday 2nd'). Tarif annonce par l'organisateur : 15 EUR en ligne, tarif unique. ra.co lui-meme repond 403 au conteneur."
+ },
+ {
+  "id": 2282,
+  "status": "ok",
+  "url": "https://ra.co/events/2529507",
+  "checked_on": "wigwamdublin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'BUY TICKETS ON RA' de la section 'Wigwam PRESENTS: 49TH & MAIN & FRIENDS 10.10.26 | 23.00-03.00' sur wigwamdublin.com/wigwampresents (l'agenda /whats-on porte un lien casse 'https://wigw'). Date et lieu confirmes; paliers non lisibles, ra.co repond 403 au conteneur."
+ },
+ {
+  "id": 722,
+  "status": "ok",
+  "url": "https://www.ticketmaster.ie/2manydjs-dublin-25-10-2026/event/180064F6DBD2AF54",
+  "checked_on": "vicarstreet.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie repris de l'agenda officiel de Vicar Street, fiche '2manydjs live in Vicar Street, 58/59 Thomas Street, Dublin 8, on 25 Oct 2026' : date et lieu confirmes par le site du lieu. ticketmaster.ie repond 403 au conteneur, tarif non lu."
+ },
+ {
+  "id": 752,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/photek-tickets-1997503387403",
+  "checked_on": "eventbrite.ie / songkick.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "JSON-LD Eventbrite : Photek, The Racket Space, Cross Guns Bridge, Drumcondra, Dublin 9, 2026-11-13 23:00, organisateur Bodytonic, availability InStock : date et lieu confirmes. Songkick annonce 'sold out' a partir de 17 EUR, mais la billetterie elle-meme affiche encore des billets (19,24 a 28,29 EUR frais compris), donc pas de palier fiable a reporter."
+ }
+]

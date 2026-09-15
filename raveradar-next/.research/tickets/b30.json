@@ -1,0 +1,72 @@
+[
+ {
+  "id": 1417,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Glasgow/Sub-Club/All-Night-Laing---Hannah-Laing--Sub-Club/42622958/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page Skiddle officielle de la date (Sub Club, Glasgow, 20/09/2026) : les deux paliers (Tier 1 10 GBP, Tier 2 15 GBP) sont en availability SoldOut dans le JSON-LD, plus aucune offre en vente."
+ },
+ {
+  "id": 1418,
+  "status": "ok",
+  "url": "https://www.skiddle.com/whats-on/Nottingham/Unit-13/Detonate-First-Rave-Back-K-MOTIONZ/42709939/",
+  "checked_on": "skiddle.com",
+  "price": 10,
+  "currency": "£",
+  "priceNote": null,
+  "note": "Page Skiddle de la date (Unit 13, Nottingham, 22/09/2026) : offre General Sale a 10 GBP en availability InStock."
+ },
+ {
+  "id": 1423,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/FLY--House-Heads-pres-Luuk-Van-Dijk-Robbie-Doherty--Prunk/42580904/",
+  "checked_on": "skiddle.com + swg3.tv",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle liee depuis swg3.tv : les deux paliers Skiddle (31 et 37,50 GBP) sont en SoldOut et la page propose une liste d attente."
+ },
+ {
+  "id": 1426,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/London/Studio-338/Moondance-31---Summer-Session/42246521/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page Skiddle de la date (Studio 338, 26/09/2026) : ticketStatusText Sold Out et la description officielle annonce ALL TICKETS SOLD OUT, liste d attente pour les reventes."
+ },
+ {
+  "id": 1427,
+  "status": "cancelled",
+  "url": "https://www.skiddle.com/whats-on/London/Basing-House/Project-X-Events-Presents---Love-To-House/42291758/",
+  "checked_on": "skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ANNULE : la page Skiddle de la date porte cancellation type=cancelled, date 2026-08-29, et plus aucune offre dans le JSON-LD."
+ },
+ {
+  "id": 1433,
+  "status": "soldout",
+  "url": "https://www.skiddle.com/whats-on/Glasgow/SWG3/Doof-presents-The-Rocketman---All-Night-Long/42596434/",
+  "checked_on": "skiddle.com + swg3.tv",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "swg3.tv affiche SOLD OUT pour cette date et renvoie vers cette page Skiddle, dont les deux paliers (22 et 23 GBP) sont en SoldOut."
+ },
+ {
+  "id": 1436,
+  "status": "ok",
+  "url": "https://www.skiddle.com/whats-on/Birmingham/LAB11/Afta-Dark-x-Levels---Summer-Closing---JOSS-DEAN--KITTY-HALL/42711249/",
+  "checked_on": "skiddle.com",
+  "price": 20,
+  "currency": "£",
+  "priceNote": null,
+  "note": "Page Skiddle de la date (LAB11, Birmingham, 10/10/2026) : paliers 1 et 2 epuises, THIRD RELEASE a 20 GBP en InStock, c est le plus bas reellement en vente."
+ }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": 789,
+  "status": "ok",
+  "url": "https://billetterie.lacoope.org/agenda/1203-DAWN-TO-DUSK?session=1203",
+  "checked_on": "lacoope.org / billetterie.lacoope.org",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle La Coope 'RAEVERIE INVITE DAWN TO DUSK', samedi 5 décembre 2026 22h30, La Coopérative de Mai Clermont-Ferrand : date et lieu confirmés ; tarifs 15 (Citéjeune) / 19 (réduit) / 23 prévente / 25 sur place, donc 23 € en prévente plein tarif."
+ },
+ {
+  "id": 436,
+  "status": "ok",
+  "url": "https://www.rise-festival.com/book-rise-2026-tickets",
+  "checked_on": "rise-festival.com (via index de recherche) + skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": "estimated",
+  "note": "Dates 5-12 decembre 2026 aux Deux Alpes confirmees par la page festival Skiddle et par see2alpes.com ; la page de reservation officielle 'Book Rise Festival 2026 | Tickets & 6-Day Lift Passes' est rise-festival.com/book-rise-2026-tickets mais rise-festival.com renvoie 403 Cloudflare depuis le conteneur, prix non verifie (Skiddle ne vend pas ce festival, page line-up seulement)."
+ },
+ {
+  "id": 438,
+  "status": "ok",
+  "url": "https://my.weezevent.com/pact-sewmorlaix",
+  "checked_on": "sew-morlaix.com + my.weezevent.com",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle SEW /evenements/pact : vendredi 11 decembre 2026, ouverture 20h30, SEW 39 Quai du Leon Morlaix ; date et lieu confirmes ; Weezevent officiel du lieu affiche 27 EUR en prevente (25 EUR hors frais annonces par le SEW), 23 EUR reduit/abonne."
+ },
+ {
+  "id": 791,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-la-laiterie-grande-salle-strasbourg-11-decembre-2026-css5-artefact-pg101-ri11721975.html",
+  "checked_on": "artefact.org + billetterie.seetickets.fr",
+  "price": 26.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Artefact/La Laiterie ouverte et verifiee : 'Vendredi 11 Decembre 2026 - 19h30, La Laiterie - Grande Salle, 17 rue Hohwald Strasbourg', tarif unique debout 26,50 EUR (23,50 EUR carte La Laiterie, 28 EUR sur place)."
+ },
+ {
+  "id": 439,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/illusion-2026-lorient",
+  "checked_on": "shotgun.live + pandemic-events.com",
+  "price": 44,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien de billetterie pointe par l'organisateur Pandemic Events ; JSON-LD Shotgun : 12/12/2026, Parc des Expositions Lorient Bretagne Sud, 286 Rue Rouget de Lisle, Lanester, date et lieu confirmes ; PASS REGULAR 44 EUR InStock, PASS ABONNE 37,99 EUR epuise."
+ },
+ {
+  "id": 440,
+  "status": "ok",
+  "url": "https://www.livenation.fr/event/anyma-pr%C3%A9sente-%C3%A6den-nanterre-tickets-edp1649984",
+  "checked_on": "anyma.com + livenation.fr + jds.fr",
+  "price": 56.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Le site officiel anyma.com/paris pointe sur Live Nation FR ; page evenement Live Nation ouverte : 'Anyma presente AEDEN, sam. 12 dec. 2026, Plenitude Arena, Nanterre - Billets en vente', date et lieu confirmes ; JSON-LD jds.fr donne 56,50 EUR comme tarif le plus bas (jusqu'a 117 EUR)."
+ },
+ {
+  "id": 441,
+  "status": "ok",
+  "url": "https://billet.laticketterie.fr/spectacle?id_spectacle=1228",
+  "checked_on": "lemem.fr",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle lemem.fr/programmation/pact : 'Cartel [BZH] presente PACT, samedi 12 decembre 2026, 20:00, Le Magic Mirrors, 35 EUR frais de reservation inclus' ; date et lieu confirmes ; le bouton 'Reservez vite !' pointe sur laticketterie id_spectacle=1228 (page de vente en JS, non lisible en texte)."
+ },
+ {
+  "id": 799,
+  "status": "ok",
+  "url": "https://billetterie.lacoope.org/share/event/1259-YAN-WAGNER-IL-EST-VILAINE",
+  "checked_on": "lacoope.org / billetterie.lacoope.org",
+  "price": 16,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle 'YAN WAGNER - IL EST VILAINE', vendredi 18 décembre 2026 20h00 à La Coopérative de Mai : date et lieu confirmés ; tarifs 8 (Si T Jeune) / 12 (réduit) / 16 prévente / 19 sur place."
+ },
+ {
+  "id": 443,
+  "status": "none",
+  "url": null,
+  "checked_on": "jds.fr, billetterie.saint-quentin.fr, billetweb.fr, monpatelin.fr, fnacspectacles.com",
+  "price": 27.2,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Date et lieu confirmes (JSON-LD jds.fr : samedi 19/12/2026 des 16h, La Manufacture, 8 rue Paul Codos, Saint-Quentin, offre InStock a 27,20 EUR), mais aucun lien d'achat direct trouve : jds ne renvoie que vers la page ARTISTE Fnac Spectacles (via Awin), fnacspectacles/seetickets/ticketmaster repondent 403-503 depuis le conteneur, billetterie.saint-quentin.fr est en JS et billetweb ne reference rien. Le 15 EUR qui circule est celui d'une edition anterieure."
+ },
+ {
+  "id": 805,
+  "status": "ok",
+  "url": "https://lacabane.bleucitron.net/reserver/after-now-andhim-la-cabane-toulouse/10161",
+  "checked_on": "halles-cartoucherie.fr + lacabane.bleucitron.net",
+  "price": 26,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du lieu (lien 'website' de l'agenda des Halles de la Cartoucherie) ouverte et verifiee : 'AFTER NOW : ANDHIM, samedi 19 decembre 2026 21h30, TOULOUSE LA CABANE', debout early bird / tarif plein 26,00 EUR ; date et lieu confirmes."
+ },
+ {
+  "id": 444,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/crazy-new-year-2026-festival-ainterexpo-ekinox-bourg-en-bresse-31-decembre-2026-css5-ainterexpoweb-pg101-ri11671153.html",
+  "checked_on": "ainterexpo.com + billetterie.seetickets.fr",
+  "price": 47.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Ainterexpo ouverte : 'CRAZY NEW YEAR 2026, Festival Electro, Jeudi 31 Decembre 2026 - 19h00, AINTEREXPO - EKINOX, 25 Av. Marechal Juin, Bourg en Bresse' ; date et lieu confirmes ; CNY26 PHASE REGULAR 47,90 EUR en vente (VIP 79 EUR)."
+ },
+ {
+  "id": 445,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/nto-nantes",
+  "checked_on": "stereolux.org + shotgun.live",
+  "price": 29.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Le bouton 'Billetterie' de la fiche officielle Stereolux (agenda/nto-1ere-partie, 'Jeu. 14 Janv. 2027 20:00, Salle Maxi') pointe sur Shotgun ; JSON-LD Shotgun confirme STEREOLUX Nantes le 14/01/2027, offre 'Debout - Placement libre' 29,90 EUR InStock."
+ },
+ {
+  "id": 818,
+  "status": "ok",
+  "url": "https://billetterie.zenith-dijon.fr/fr/product/5091/zenith_de_dijon/robot_rock_alive_daft_punk_tribute_zenith_de_dijon_jeudi_14_janvier_2027_20_00",
+  "checked_on": "zenith-dijon.fr + billetterie.zenith-dijon.fr",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du Zenith ouverte : 'ROBOT ROCK ALIVE - DAFT PUNK TRIBUTE - ZENITH DE DIJON - Jeudi 14 janvier 2027 - 20:00' ; date et lieu confirmes ; categories en vente DEBOUT 39 EUR, CATEGORIE 1 / EARLY ENTRANCE 49 EUR, CARRE OR 59 EUR."
+ },
+ {
+  "id": 446,
+  "status": "ok",
+  "url": "https://billet.laticketterie.fr/spectacle?id_spectacle=1236",
+  "checked_on": "lemem.fr",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle lemem.fr/programmation/nto : 'NTO, vendredi 15 janvier 2027, 20:00, Le Magic Mirrors, 30 EUR frais de reservation inclus' ; date et lieu confirmes ; bouton officiel vers laticketterie id_spectacle=1236."
+ },
+ {
+  "id": 819,
+  "status": "ok",
+  "url": "https://summumgrenoble.fnacspectacles.com/event/robot-rock-alive-daft-punk-tribute-summum-21759275/",
+  "checked_on": "summum-grenoble.com",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche officielle summum-grenoble.com/evenements/robot-rock-alive : 'Concert Robot Rock Alive, SUMMUM, 15 janvier 2027 | 20:00, tarifs de 39 EUR a 59 EUR' ; date et lieu confirmes ; le bouton 'Reserver vos places' pointe sur cette page evenement de la billetterie Fnac du Summum (le sous-domaine repond 403 aux robots, non ouverte directement)."
+ }
+]
