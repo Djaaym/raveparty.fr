@@ -4,6 +4,7 @@ import type { Lang } from "@/lib/types";
 import type { AlertKind } from "@/lib/alerts";
 import { getDict } from "@/lib/i18n";
 import { readEmail, rememberAlert, rememberEmail, useHasAlert } from "./useAlerts";
+import { trackGoal } from "./Tracker";
 
 type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
 
@@ -50,6 +51,9 @@ export default function AlertForm({
       if (res.ok) {
         rememberEmail(email);
         rememberAlert({ kind, value, label });
+        // Même objectif que la newsletter de la home, avec le sujet surveillé en
+        // libellé : « alerte » dit combien, `label` dit sur quoi.
+        trackGoal("alerte", label);
         setState("done");
         return;
       }

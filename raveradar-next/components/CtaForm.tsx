@@ -3,6 +3,7 @@ import { useState } from "react";
 import type { Lang } from "@/lib/types";
 import { getDict } from "@/lib/i18n";
 import { rememberAlert, rememberEmail } from "./useAlerts";
+import { trackGoal } from "./Tracker";
 
 type State = "idle" | "sending" | "done" | "invalid" | "unavailable" | "error";
 
@@ -26,6 +27,10 @@ export default function CtaForm({ lang }: { lang: Lang }) {
       if (res.ok) {
         rememberEmail(email);
         rememberAlert({ kind: "newsletter", value: "", label: t("alert.kind.newsletter") });
+        // L'inscription est une conversion, au même titre qu'un clic billetterie : elle
+        // a sa ligne dans les objectifs de /suivi. Comptée sur la réponse du serveur,
+        // jamais sur le clic, cf. `trackGoal`.
+        trackGoal("newsletter", "Newsletter home");
         setState("done");
         return;
       }

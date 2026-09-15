@@ -975,7 +975,14 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
   border-radius: var(--r-xl); padding: 64px 40px; text-align: center; position: relative; overflow: hidden;
   border: 1px solid var(--violet); background: linear-gradient(150deg, rgba(47,123,255,.15), rgba(255,45,155,.15));
 }
-.cta::before { content: ""; position: absolute; inset: 0; background: radial-gradient(60% 80% at 50% 0%, rgba(139,92,255,.3), transparent); }
+/* La lueur est une couche posée par-dessus le contenu (le texte et le formulaire ne
+   sont pas positionnés, donc un pseudo-élément absolu passe devant eux) : sans
+   `pointer-events: none` elle avalait tous les clics du bloc, le champ e-mail ne
+   prenait pas le focus et le bouton « S'abonner » ne se cliquait pas. Même famille de
+   défaut que l'`overflow: hidden` du hero qui coupait le menu de recherche : la
+   décoration ne doit jamais intercepter ce qu'elle habille. */
+.cta::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(60% 80% at 50% 0%, rgba(139,92,255,.3), transparent); }
+.cta > * { position: relative; }
 .newsletter { display: flex; gap: 10px; max-width: 460px; margin: 28px auto 0; }
 .newsletter .input { flex: 1; }
 
