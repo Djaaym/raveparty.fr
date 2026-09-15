@@ -162,6 +162,22 @@ function send(hit: Hit, urgent = false) {
   else if (!timer) timer = setTimeout(() => flush(false), FLUSH_MS);
 }
 
+/**
+ * Déclare un objectif depuis du code, quand il n'y a pas de clic à écouter.
+ *
+ * `data-goal` couvre le cas courant (un lien qu'on suit, cf. la billetterie et le bloc
+ * hôtel), mais une inscription n'est pas un clic : le clic sur « S'abonner » se produit
+ * aussi quand l'adresse est invalide ou que le fournisseur répond 501, et compter ces
+ * clics-là ferait passer un formulaire en panne pour un formulaire qui convertit. On
+ * compte donc la réponse du serveur, pas l'intention.
+ *
+ * Urgent, parce qu'une inscription est souvent le dernier geste avant de quitter la page.
+ */
+export function trackGoal(goal: string, txt?: string) {
+  if (typeof window === "undefined") return;
+  send({ k: "goal", p: location.pathname, goal: goal.slice(0, 60), txt: txt?.slice(0, 120) }, true);
+}
+
 /* ---------------------------------------------------------------------------
    Page lifecycle
 --------------------------------------------------------------------------- */

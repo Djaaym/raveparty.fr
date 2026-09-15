@@ -79,7 +79,7 @@ hit à `/api/track` :
 | `end` | page quittée, onglet masqué, changement de route | temps d'ouverture, **temps réellement à l'écran**, profondeur de scroll |
 | `out` | clic vers l'extérieur | URL cible, libellé du lien, zone de la page |
 | `in` | clic sur un lien interne | chemin cible, libellé, zone |
-| `goal` | clic sur un élément portant `data-goal` | nom de l'objectif |
+| `goal` | clic sur un élément portant `data-goal`, ou appel de `trackGoal()` | nom de l'objectif |
 
 Le navigateur n'affirme que ce que lui seul peut savoir. **Tout ce qui se déduit de la
 requête est rempli côté serveur**, l'horloge, le pays, la ville, l'appareil, le
@@ -177,9 +177,17 @@ favori.
 ### Objectifs
 
 Poser `data-goal="nom"` sur n'importe quel élément suffit à en faire un objectif compté.
-Déjà en place : `data-goal="billetterie"` sur le bouton billet de `EventDetail`. Le clic
-est déjà enregistré comme sortant ; l'objectif lui donne sa propre ligne au lieu de le
-noyer parmi tous les liens Instagram du site.
+Déjà en place : `data-goal="billetterie"` sur le bouton billet de `EventDetail`, et
+`data-goal="hotel"` sur le lien de `HotelsCard`. Le clic est déjà enregistré comme
+sortant ; l'objectif lui donne sa propre ligne au lieu de le noyer parmi tous les liens
+Instagram du site.
+
+**Une conversion qui n'est pas un clic passe par `trackGoal(nom, libellé)`**, exporté par
+`components/Tracker.tsx`. L'inscription à la newsletter (`newsletter`, bloc de la home)
+et les alertes de page (`alerte`, avec le sujet surveillé en libellé) sont dans ce cas :
+le clic sur « S'abonner » se produit aussi quand l'adresse est refusée ou quand aucun
+fournisseur n'est configuré (501), donc le compter ferait passer un formulaire en panne
+pour un formulaire qui convertit. On compte la réponse du serveur, pas l'intention.
 
 ---
 
