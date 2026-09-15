@@ -101,3 +101,9 @@ là où le guichet est fermé.
   1095 Tre Reynolds, Manchester, 26/09
   1361 Afta Dark, Nottingham, 19/12
   1074 Detonate x The Brickworks: LTJ Bukem, Nottingham, 25/09
+
+## Annulé, suite (campagne de reprise)
+- id 1427 Project X Events - Love To House, Basing House, 26/09/2026 : **ANNULÉ**.
+  La fiche Skiddle porte `cancellation type=cancelled` daté du 29/08/2026 et n'a plus
+  aucune offre. À retirer du catalogue avec une entrée dans lib/renamed.ts vers une
+  cible pertinente, jamais en 404 : son URL est indexée.
