@@ -1,0 +1,72 @@
+[
+ {
+  "id": 117,
+  "status": "ok",
+  "url": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "checked_on": "unsound.pl",
+  "price": 60,
+  "currency": "zł",
+  "priceNote": null,
+  "note": "Page billetterie officielle de l'edition 2026 (RA partenaire officiel) : le WARSZAWA PASS a 750 zl est SOLD OUT, mais les billets a l'unite des dates de Varsovie restent en vente, le moins cher a 60 zl (Visible Cloaks, 04/10) ; volet Varsovie du 02 au 07/10, acces pass 03-06/10."
+ },
+ {
+  "id": 123,
+  "status": "ok",
+  "url": "https://www.unsound.pl/en/2026/warszawa-krakow/tickets",
+  "checked_on": "unsound.pl",
+  "price": 80,
+  "currency": "zł",
+  "priceNote": null,
+  "note": "Meme page billetterie officielle : KRAKOW PASS a 750 zl SOLD OUT, CLUB PASS 390 zl et billets a l'unite du volet Cracovie (08-11/10) toujours en vente, le plus bas a 80 zl (10/10)."
+ },
+ {
+  "id": 729,
+  "status": "ok",
+  "url": "https://www.ticketmaster.es/event/digitalism-live-tickets/1567804569",
+  "checked_on": "songkick.com + laganzua.net + jacksonlive.es",
+  "price": 33.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Date et salle confirmees par Songkick (Wagon, Estacion de Chamartin Planta Atico, ven. 30/10/2026 21:00, « on sale now », des 33,50 €) et par jacksonlive.es ; l'URL Ticketmaster ES est celle vers laquelle pointe le lien d'achat de la fiche Madrid de laganzua.net (subId1=digitalismmadrid). ticketmaster.es est en 403 depuis le conteneur, page non ouverte directement."
+ },
+ {
+  "id": 730,
+  "status": "ok",
+  "url": "https://ticketclub.es/es/plans/121772?date=2026-10-30",
+  "checked_on": "ticketclub.es",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du Teatro Kapital (seul lien d'achat de teatrokapital.com) avec la date preselectionnee : session du 30/10/2026 23:00 en vente, entree generale « Primer Tramo » a 27,00 € ; Songkick confirme la date Sunnery James & Ryan Marciano au Teatro Kapital (C/ Atocha 125) le vendredi 30/10/2026, mais le club vend une entree generale sans nommer l'affiche, donc lien de vente a la date et non a l'evenement."
+ },
+ {
+  "id": 734,
+  "status": "ok",
+  "url": "https://www.ticketmaster.es/event/digitalism-live-tickets/1028876299",
+  "checked_on": "songkick.com + laganzua.net + jacksonlive.es",
+  "price": 33.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Songkick confirme La [2] de Apolo, 113 Carrer Nou de la Rambla, sam. 31/10/2026 20:30, « on sale now » des 33,50 € ; URL Ticketmaster ES tiree du lien d'achat de la fiche Barcelone de laganzua.net (subId1=digitalismbcn). Attention, l'evenement n'est pas au sitemap de sala-apolo.com, la salle ne le vend pas elle-meme. ticketmaster.es 403 depuis le conteneur."
+ },
+ {
+  "id": 2314,
+  "status": "ok",
+  "url": "https://www.ebilet.pl/lp/digitalism",
+  "checked_on": "ebilet.pl",
+  "price": 127.9,
+  "currency": "zł",
+  "priceNote": null,
+  "note": "Page de vente eBilet dediee a la date, confirmee par le promoteur Fource (fource.pl) qui l'embarque en iframe : Digitalism, samedi 24.10.2026 20:00, NIEBO, Nowy Swiat 21 Varsovie, soldOut=false, billets a partir de 127,90 zl."
+ },
+ {
+  "id": 2404,
+  "status": "none",
+  "url": null,
+  "checked_on": "sunrisefestival.pl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Dates 2027 confirmees par le communique officiel du 04/08/2026 (« Do zobaczenia 30.07 - 01.08.2027 ») mais la billetterie officielle bilety.sunrisefestival.pl (boutique Roboticket de MDT Production) ne propose encore aucun produit 2027 : vente pas ouverte."
+ }
+]

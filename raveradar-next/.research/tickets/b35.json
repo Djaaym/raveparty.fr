@@ -1,0 +1,72 @@
+[
+ {
+  "id": 230,
+  "status": "ok",
+  "url": "https://www.livetickets.ro/bilete/black-rhino-radio-presents-autechre",
+  "checked_on": "livetickets.ro",
+  "price": 175,
+  "currency": "lei",
+  "priceNote": null,
+  "note": "Billetterie officielle liee depuis clubguesthouse.ro/program : Autechre, Club Guesthouse Bucarest, 07.10.2026 20h ; paliers 120 et 150 lei epuises, seul le Final Release a 175 lei (hors frais) reste en vente."
+ },
+ {
+  "id": 742,
+  "status": "ok",
+  "url": "https://feverup.com/m/648927",
+  "checked_on": "feverup.com",
+  "price": 22,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fever vend la date : CURSES (Luca Venezia) a la Sala Nazca, Calle de Orense 24 Madrid, vendredi 6 novembre 2026, entree generale 22 €."
+ },
+ {
+  "id": 261,
+  "status": "ok",
+  "url": "https://www.electriccastle.ro/tickets",
+  "checked_on": "electriccastle.ro",
+  "price": 320,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle avec panier d'achat : General Access Pass 320 € (+8 % de frais), VIP 499 €, Youth U25 129 € reserve aux moins de 25 ans ; ATTENTION DATE : le site officiel n'annonce que 'July 2027' au Chateau Banffy, sans jour precis, il ne confirme donc pas le 14-18 juillet."
+ },
+ {
+  "id": 575,
+  "status": "ok",
+  "url": "https://pacha.com/event/marco-carola-presents-music-on-02-10-2026",
+  "checked_on": "pacha.com",
+  "price": 85,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle Pacha de la date (liee en promotionalLink depuis Resident Advisor) : Marco Carola presents Music On, Pacha Ibiza, vendredi 2 octobre 2026 23h-6h, bouton d'achat actif, entree avant minuit 85 €."
+ },
+ {
+  "id": 2233,
+  "status": "none",
+  "url": null,
+  "currency": "€",
+  "price": 10,
+  "priceNote": null,
+  "checked_on": "kulturzentrum-faust.de",
+  "note": "La page officielle de la date (kulturzentrum-faust.de/veranstaltungen/oktober/021026-rabatz-und-radau.html) confirme Rabatz und Radau le vendredi 02.10.2026 salle Mephisto, Hannover, VVK 10 € (+frais) / 12 € sur place, mais ne porte aucun bouton d'achat ; rien trouve non plus sur TixForGigs (le prestataire annonce par /tickets.html) ni en recherche web."
+ },
+ {
+  "id": 390,
+  "status": "ok",
+  "url": "https://tickets.ikarus-festival.de/checkout/ikarus-festival-2027-6e8dio",
+  "checked_on": "tickets.ikarus-festival.de",
+  "price": 87.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle (liee depuis ikarus-festival.de, l'ancien /tickets/ est en 404) : Ikarus Festival 25-27 juin 2027, Allgau Airport Memmingerberg ; billets actifs a la vente, le moins cher est le Tagesticket vendredi ou dimanche a 87,90 € (samedi 94,90, Full Weekend Phase 1 174,90), hors frais."
+ },
+ {
+  "id": 657,
+  "status": "ok",
+  "url": "https://openbeatz.de/tickets",
+  "checked_on": "openbeatz.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie officiel de l'edition 2027 (23-25 juillet 2027, Herzogenaurach pres de Nuremberg), il redirige vers la file d'attente officielle TicketPAY q.ticketpay.de puis la boutique ; la vente est ouverte mais aucun tarif d'entree n'est publie hors de la boutique (openbeatz.de/info ne chiffre que le camping et le parking), donc price laisse vide plutot que le 0 € actuel du catalogue."
+ }
+]

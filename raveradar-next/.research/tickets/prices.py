@@ -11,6 +11,16 @@ d'être annoncée « 20 € ».
 """
 import json, re, sys, glob
 
+# Un agent rend parfois le code ISO là où le catalogue stocke le symbole. Recopié
+# tel quel, « EUR » s'afficherait « EUR55 » et partirait aussi dans le JSON-LD :
+# c'est le défaut que merge.py normalise déjà de son côté, il n'a pas à être
+# repayé ici. On ne convertit jamais un montant, on ne fait que renommer la devise.
+CURRENCY_FIX = {
+    "EUR": "\u20ac", "GBP": "\u00a3", "USD": "$", "CZK": "K\u010d", "PLN": "z\u0142",
+    "SEK": "kr", "NOK": "kr", "DKK": "kr", "HUF": "Ft", "RON": "lei",
+    "RSD": "RSD", "CHF": "CHF", "ISK": "ISK", "BGN": "\u043b\u0432", "HRK": "\u20ac",
+}
+
 DATA = 'lib/data.ts'
 src = open(DATA, encoding='utf-8').read()
 lots = {}
@@ -20,7 +30,8 @@ for f in sorted(glob.glob('.research/tickets/b*.json')):
     for r in rows:
         if r.get('price') is None or r.get('priceNote'): continue
         if r.get('status') not in ('ok', 'soldout'): continue
-        lots[int(r['id'])] = (r['price'], r.get('currency'))
+        cur = r.get('currency')
+        lots[int(r['id'])] = (r['price'], CURRENCY_FIX.get(cur, cur))
 
 changed, same, missed = [], 0, []
 out = []

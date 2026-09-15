@@ -1,0 +1,72 @@
+[
+ {
+  "id": 693,
+  "status": "ok",
+  "url": "https://secure.tickster.com/sv/49cm1g2ml8tkbv9/products",
+  "checked_on": "tickster.com",
+  "price": 299,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Tickster confirme KREAM samedi 17 octobre 2026 23:00 a Tradgar'n Goteborg, deux tarifs en vente 299 kr et 399 kr, lien trouve depuis tradgarn.se/kalender/kream-17-oktober-tradgar-n."
+ },
+ {
+  "id": 739,
+  "status": "soldout",
+  "url": "https://secure.tickster.com/sv/9a2md84ca92f9jw/products",
+  "checked_on": "tickster.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "STVW Punk Rave Europe Tour 2026 vendredi 6 novembre 2026 a Tradgar'n Goteborg: les deux categories (Early Bird 150 kr, Ordinarie 250 kr) sont marquees Slutsalt et tradgarn.se affiche Slutsald, donc complet."
+ },
+ {
+  "id": 2264,
+  "status": "ok",
+  "url": "https://winiarybookings.pl/wydarzenie/ark-lane8-warszawa-w1n1ary-warszawa-pazdziernik-2026-2",
+  "checked_on": "ra.co + winiarybookings.pl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de l'organisateur Winiary Bookings verifiee: ARK: Lane 8, 09/10/26, OCZKI Varsovie, bouton BILETY (distributeur Going). Aucun tarif lisible (Bilety od 0 PLN); goingapp.pl et biletomat sont des SPA illisibles depuis ce conteneur."
+ },
+ {
+  "id": 2318,
+  "status": "ok",
+  "url": "https://secure.tickster.com/sv/8wmayd9gxyabzdx/products",
+  "checked_on": "pustervik.nu + tickster.com",
+  "price": 325,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle pustervik.nu/evenemang/olof-dreijer: jeudi 29 octobre 2026, Stora Klubben, 325 kr hors frais; Tickster confirme la date et le tarif, vente ouverte."
+ },
+ {
+  "id": 2311,
+  "status": "ok",
+  "url": "https://nortic.se/ticket/event/85371",
+  "checked_on": "nortic.se + rushent.se",
+  "price": 195,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Lien pris sur le calendrier de l'organisateur Rush Ent.; Nortic confirme Olof Dreijer - live, vendredi 23 octobre 2026 21:00, Moriska Paviljongen Malmo, a partir de 195 SEK."
+ },
+ {
+  "id": 2270,
+  "status": "ok",
+  "url": "https://billetto.se/e/hyperdrive-with-stan-christ-nl-biljetter-1994458",
+  "checked_on": "stadsevent.se (relais Billetto)",
+  "price": 150,
+  "currency": "kr",
+  "priceNote": "estimated",
+  "note": "Fiche stadsevent.se confirmee: Hyperdrive With Stan Christ (NL), vendredi 9 octobre 2026 22:00, Slakthuset Stockholm, cout 150; le lien billetterie qu'elle relaie est cette page Billetto. Billetto repond 403 depuis ce conteneur, tarif donc non revu a la source."
+ },
+ {
+  "id": 761,
+  "status": "ok",
+  "url": "https://www.axs.com/se/events/1388214/the-prodigy-tickets",
+  "checked_on": "aviciiarena.se + allthingslive.se",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien AXS pris sur la page officielle de la salle (aviciiarena.se/en/events/music-show/the-prodigy/); All Things Live, le promoteur, confirme dimanche 15 novembre 2026 19:30 Avicii Arena Stockholm et affiche Oppen for forsaljning. AXS repond 403 depuis ce conteneur, aucun tarif verifie a la source."
+ }
+]
