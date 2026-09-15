@@ -111,3 +111,12 @@ là où le guichet est fermé.
   `cancelled: 1`, `cancellationDate 2026-08-04`, offres vides. Même traitement :
   entrée dans `REMOVED` de merge.py (sinon la refusion la réinjecte) et dans
   lib/renamed.ts.
+
+## Devise fausse, suite
+- id 163 Terminal V Croatia : la fiche stocke des £, la billetterie officielle vend
+  en €. Même famille que les Culture Box stockées en euros pour des couronnes.
+
+## Salle contestée
+- id 2178 Back2Back (Mirko Loko) : le JSON-LD officiel de dclub.ch place la soirée
+  du 19/09/2026 au **Bar Club ABC, Passerelle du Flon 4**, et non au D! Club.
+  Une salle fausse déplace aussi le lien hôtel, qui est centré sur ses coordonnées.
