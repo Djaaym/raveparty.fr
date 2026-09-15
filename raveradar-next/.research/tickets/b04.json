@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2206,
+  "status": "ok",
+  "url": "https://culture-box.com/event/fri-25-september-2026/",
+  "checked_on": "culture-box.com",
+  "price": 150,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle Culture Box du 25/09/2026, Copenhague : line-up Black Box confirme Madben ; entree 150 DKK (100 DKK apres 5h30), bouton Tickets vers ra.co/events/2512275 (RA repond 403 depuis le conteneur, donc lien officiel du club retenu)."
+ },
+ {
+  "id": 225,
+  "status": "ok",
+  "url": "https://culture-box.com/event/sat-26-september-2026/",
+  "checked_on": "culture-box.com",
+  "price": 150,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle du 26/09/2026 a Culture Box Copenhague : soiree PECCAVI / LACTIC ACID avec ALEX STEIN en tete d'affiche, entree 150 DKK, lien Tickets vers ra.co/events/2494372 (403 en direct)."
+ },
+ {
+  "id": 236,
+  "status": "ok",
+  "url": "https://culture-box.com/event/fri-23-october-2026/",
+  "checked_on": "culture-box.com",
+  "price": 160,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle du 23/10/2026 a Culture Box Copenhague : Xinobi en tete d'affiche du Black Box, entree 160 DKK, lien Tickets vers ra.co/events/2499693 (403 en direct)."
+ },
+ {
+  "id": 2330,
+  "status": "ok",
+  "url": "https://culture-box.com/event/sat-31-october-2026/",
+  "checked_on": "culture-box.com",
+  "price": 160,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Page officielle Culture Box Halloween 2026 du 31/10 a Copenhague (Kronprinsessegade 54), entree 160 DKK, lien Tickets vers ra.co/events/2509338 (403 en direct)."
+ },
+ {
+  "id": 2239,
+  "status": "ok",
+  "url": "https://www.hangaren.dk/events",
+  "checked_on": "hangaren.dk",
+  "price": 125,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Agenda officiel du Hangaren (Refshalevej 185, Copenhague) : Nastia + Ena Cosovic + Kallax le 02/10/2026, 23h-6h, billets 125 kr early entrance / 150 early bird / 175 all night, bouton d'achat vers RA. Page d'agenda retenue faute de page par date, et deux sources donnaient deux identifiants RA differents."
+ },
+ {
+  "id": 2256,
+  "status": "ok",
+  "url": "https://www.hangaren.dk/events",
+  "checked_on": "hangaren.dk",
+  "price": 125,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Meme agenda officiel Hangaren : Damian Lazarus + MINIMALENE + NILU le 03/10/2026, 23h-6h, meme grille tarifaire (125 kr early entrance). Date et lieu confirmes ; pas de page par date sur le site."
+ },
+ {
+  "id": 2346,
+  "status": "ok",
+  "url": "https://www.hangaren.dk/events",
+  "checked_on": "hangaren.dk",
+  "price": 125,
+  "currency": "kr",
+  "priceNote": null,
+  "note": "Meme agenda officiel Hangaren : Oliver Koletzki (Stil vor Talent) le 13/11/2026, 23h-6h, 125 kr early entrance. Date et lieu confirmes ; pas de page par date sur le site."
+ },
+ {
+  "id": 339,
+  "status": "ok",
+  "url": "https://beonix.art/tickets",
+  "checked_on": "beonix.art",
+  "price": 105,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page billetterie officielle BEONIX : festival confirme 25-27/09/2026 a ETKO, 31 Tsiflikoudia, Limassol. Pass 3 jours 250 EUR, journee 115 EUR (25/09) et 105 EUR (26 et 27/09) ; le pass etudiant a 45-50 EUR est reserve aux etudiants chypriotes, donc le tarif d'entree public le plus bas est 105 EUR."
+ },
+ {
+  "id": 2413,
+  "status": "none",
+  "url": null,
+  "checked_on": "kampingkitschclub.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "kampingkitschclub.be annonce l'edition 2027 (21/08/2027, Sportcampus Lange Munte / Bad Godesberglaan, Kortrijk) mais ne propose qu'une liste d'attente (/wachtlijst) : la promo 48 EUR etait reservee 48 h aux festivaliers 2026. La boutique Weeztix liee (shop.weeztix.com/fce4c767-...) est entierement rendue en JS et ne se lit pas cote serveur, impossible de confirmer une vente en cours pour 2027."
+ },
+ {
+  "id": 256,
+  "status": "none",
+  "url": null,
+  "checked_on": "hideoutfestival.com + skiddle.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "hideoutfestival.com confirme l'edition 2027 du 29/06 au 02/07 mais annonce en clair que les billets principaux et le line-up n'arrivent qu'en novembre ; le seul lien actif (go.kaboodle.co.uk/HO27) redirige vers une file d'attente Queue-it pour les packages hebergement (hideout27accomm), pas vers une vente de billets. /tickets est derriere un ecran de verification."
+ },
+ {
+  "id": 848,
+  "status": "ok",
+  "url": "https://zrcespringbreak.com/weekend-1",
+  "checked_on": "zrcespringbreak.com",
+  "price": 40,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle Weekend 1 de Zrce Spring Break Croatia 2027, 27-30 mai 2027 a Zrce Beach (Novalja, ile de Pag) : festival ticket standard 40 EUR, VIP 90 EUR. Page de vente du festival, le bouton de paiement final n'apparait pas dans le HTML recupere."
+ },
+ {
+  "id": 2203,
+  "status": "ok",
+  "url": "https://ra.co/events/2508348",
+  "checked_on": "rave-pulse.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche rave-pulse.com/events/limassol/int-at-mason confirme Konstantin Sibold au Mason Bar, Limassol, le 25/09/2026 a 21h30 (support ADJK et Madimiel) ; son unique lien billetterie sortant est ra.co/events/2508348. RA repond 403 depuis le conteneur, le lien n'a donc pas pu etre ouvert directement, seulement releve sur la fiche."
+ },
+ {
+  "id": 2301,
+  "status": "ok",
+  "url": "https://ra.co/events/2480774",
+  "checked_on": "rave-pulse.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche rave-pulse.com/events/limassol/mochakk-at-mason confirme Mochakk au Mason Bar, Limassol, le 17/10/2026 a 21h (soiree GO LOCO) ; unique lien billetterie sortant ra.co/events/2480774. RA 403 depuis le conteneur, lien releve et non ouvert."
+ },
+ {
+  "id": 2280,
+  "status": "ok",
+  "url": "https://etkocyprus.com/events/svetorchestra",
+  "checked_on": "etkocyprus.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle du lieu ETKO Cyprus : S.V.E.T. with symphonic orchestra, Organic Stage, ETKO Limassol, 10 octobre, avec bouton Buy tickets et quatre categories (General Admission, Backstage, VIP Table, High Tables). Les tarifs sont charges en JS et ne se lisent pas cote serveur."
+ },
+ {
+  "id": 2329,
+  "status": "none",
+  "url": null,
+  "checked_on": "rave-pulse.com + eventor.com.cy",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et lieu confirmes (Psyloween, Ktima Camelot / Camelot Park, Nicosie, 31/10/2026, portes 20h, entree annoncee a partir de 30 EUR) sur rave-pulse.com, entriza.com et eventor.com.cy, mais aucune de ces pages ne porte de lien de vente : la fiche du lieu sur rave-pulse ne liste meme plus l'evenement, ticketbox.com.cy est entierement en JS et illisible cote serveur, et les deux fiches entriza se contredisent (l'une annonce entree libre, l'autre 30 EUR). Aucun lien d'achat verifiable."
+ }
+]

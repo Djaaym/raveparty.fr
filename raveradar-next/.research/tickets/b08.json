@@ -1,0 +1,152 @@
+[
+ {
+  "id": 134,
+  "status": "ok",
+  "url": "https://dreamnation.seetickets.com/tour/dream-nation-2026",
+  "checked_on": "dreamnation.seetickets.com (billetterie officielle)",
+  "price": 61.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle du festival : les trois pass (1 jour vendredi 30/10, 1 jour samedi 31/10, 2 jours) au Parc des expositions Paris Nord Villepinte. Date et lieu confirmes ; sur le pass samedi, toutes les phases sauf le LATE TICKET a 61,90 EUR sont marquees complet."
+ },
+ {
+  "id": 423,
+  "status": "soldout",
+  "url": "https://www.aegpresents.fr/event/lane-8/",
+  "checked_on": "badaboum.paris (site officiel) → aegpresents.fr (promoteur)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le Badaboum annonce Lane 8 le 28 octobre 2026 19h30 et son bouton Reserver pointe vers AEG Presents, qui affiche 'mercredi 28 oct. Badaboum - Paris : Complet, liste d'attente'. Date et salle confirmees, plus de billets en vente."
+ },
+ {
+  "id": 424,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/road-to-invasion-lac-31-10-26",
+  "checked_on": "lautrecanalnancy.fr (page officielle de la salle)",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle de L'Autre Canal : Road to Invasion Halloween Edition, samedi 31 octobre 2026 22h, Grande Salle, Nancy ; prevente tarif normal 27 EUR, billetterie Shotgun indiquee par la salle. Date et lieu confirmes."
+ },
+ {
+  "id": 425,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/hilight-tribe-instrumental-w-iroots-band-spoink",
+  "checked_on": "shotgun.live",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Shotgun, page de l'organisateur Regarts : samedi 31 octobre 2026 19h30, La Cabane - Les Halles de la Cartoucherie, 16 ter av. Raymond Badiou Toulouse. Tarif unique 29 EUR, offre InStock. Attention : la date du 1er novembre est un autre evenement Shotgun (hilight-tribe-instrumental)."
+ },
+ {
+  "id": 426,
+  "status": "ok",
+  "url": "https://billetterie.bataclan.fr/fr/manifestation/685/digitalism",
+  "checked_on": "bataclan.fr (page officielle de l'evenement) + jds.fr",
+  "price": 33,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Le Bataclan annonce Digitalism le 06/11/2026 et renvoie vers sa propre billetterie ; date et salle confirmees, JSON-LD jds.fr donne 33 EUR InStock. La billetterie affiche un controle anti-robot depuis le conteneur."
+ },
+ {
+  "id": 427,
+  "status": "ok",
+  "url": "https://billetterie.lacoope.org/share/event/1261-PACT",
+  "checked_on": "lacoope.org (page officielle du concert)",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle de La Cooperative de Mai : PACT (Joris Delacroix, Joachim Pastor, Teho), vendredi 6 novembre 2026 20h, Grande salle, Clermont-Ferrand. Prevente 30 EUR (22 jeune, 26 adherent, 33 sur place), lien billetterie de la salle."
+ },
+ {
+  "id": 428,
+  "status": "ok",
+  "url": "https://fr.ra.co/events/2486660",
+  "checked_on": "loiretourisme.com (office de tourisme) ; positiveeducation.fr hors ligne",
+  "price": null,
+  "currency": null,
+  "priceNote": "estimated",
+  "note": "Dates 6-7 novembre 2026 a la Cite du design, Saint-Etienne, confirmees par Loire Tourisme, qui donne cette page RA comme billetterie. Attention : le site officiel positiveeducation.fr repond 'Squarespace - Website Expired' (404). RA repond 403 depuis le conteneur, page non ouverte directement."
+ },
+ {
+  "id": 625,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108901.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle La P'tite Fumee)",
+  "price": 28,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de l'artiste : vendredi 6 novembre 2026 20h, Transbordeur, 3 bd Stalingrad Villeurbanne. Date et lieu confirmes, places en vente, tarif plein 28 EUR."
+ },
+ {
+  "id": 724,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/fakear-la-laiterie-grande-salle-strasbourg-29-octobre-2026-css5-artefact-pg101-ri11763885.html",
+  "checked_on": "artefact.org + billetterie.seetickets.fr",
+  "price": 29.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien de billetterie donne par la page officielle Artefact/La Laiterie : jeudi 29 octobre 2026, Grande Salle, 17 rue du Hohwald Strasbourg. Date et lieu confirmes, prevente 29,50 EUR (31 EUR sur place)."
+ },
+ {
+  "id": 737,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/fakear-billet/idmanif/660121/idtier/13073454",
+  "checked_on": "le-splendid.com (site officiel de la salle)",
+  "price": 29,
+  "currency": "€",
+  "priceNote": "estimated",
+  "note": "Page officielle du Splendid : Fakear mercredi 4 novembre 2026 20h30, Lille ; son bouton RESERVER pointe vers cette page Ticketmaster. Date et salle confirmees. Ticketmaster repond 403 depuis le conteneur, tarif 29 EUR releve sur jds/agendaculturel donc non confirme a la caisse."
+ },
+ {
+  "id": 873,
+  "status": "ok",
+  "url": "https://centre-evenementiel.billetterie-event.fr/matchs/2130",
+  "checked_on": "centre-evenementiel.fr (site officiel de la salle)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "La programmation officielle de l'Espace Etincelle liste 'La nuit etincelle 2 - Petit biscuit' le samedi 31 octobre 2026 a 20h et pointe vers cette billetterie ; la plateforme place le visiteur en file d'attente, tarif non lu."
+ },
+ {
+  "id": 1385,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-m-o-k-o-concert-halle-verriere-meisenthal-24-octobre-2026-css5-halleverriere-pg101-ri11726589.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 25.9,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Halle Verriere (See Tickets) : samedi 24 octobre 2026 20h, Halle Verriere, Place Robert Schuman, Meisenthal. Date et lieu confirmes, places en vente, plein tarif 25,90 EUR (reduit 22,90)."
+ },
+ {
+  "id": 1386,
+  "status": "ok",
+  "url": "https://centre-evenementiel.billetterie-event.fr/matchs/2130",
+  "checked_on": "centre-evenementiel.fr (site officiel de la salle)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Meme evenement que l'id 873 (doublon au catalogue) : La Nuit Etincelle, Klingande + Petit Biscuit, 31/10/2026, Espace Etincelle Bergerac. Lien billetterie de la salle."
+ },
+ {
+  "id": 1387,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/mietze-conte-la-maroquinerie",
+  "checked_on": "lamaroquinerie.fr (agenda officiel) → shotgun.live",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie donne par la page officielle de La Maroquinerie pour Mietze Conte le 31/10/2026 ; date et salle confirmees. Tarif non lu (shotgun.live repond 429 depuis le conteneur)."
+ },
+ {
+  "id": 1388,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/hilight-tribe-instrumental-w-iroots-band-spoink",
+  "checked_on": "shotgun.live",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Meme evenement que l'id 425 (doublon au catalogue). Shotgun, page de l'organisateur Regarts : samedi 31 octobre 2026 19h30, La Cabane - Les Halles de la Cartoucherie, 16 ter av. Raymond Badiou Toulouse. Tarif unique 29 EUR, offre InStock. Attention : la date du 1er novembre est un autre evenement Shotgun (hilight-tribe-instrumental)."
+ }
+]

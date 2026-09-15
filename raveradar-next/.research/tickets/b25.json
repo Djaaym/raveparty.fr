@@ -1,0 +1,4 @@
+[
+{"id":746,"status":"ok","url":"https://feverup.com/m/648921","checked_on":"salariviera.com + feverup.com","price":28,"currency":"€","priceNote":null,"note":"Lien officiel donne par l'agenda de la Sala La Riviera (API tribe/events) pour le 08/11/2026 ; page Fever confirme Max Cooper, La Riviera Madrid, 8 nov 2026, entree generale 28 EUR."},
+{"id":770,"status":"ok","url":"https://www.ticketmaster.es/event/816936198?subchannel_id=11806&brand=es_houstonparty","checked_on":"ra.co + houstonpartymusic.com","price":null,"currency":null,"priceNote":null,"note":"RA (event 2489831) renvoie au promoteur Houston Party, dont la fiche tour-dates/1525 (Teatre Coliseum, Barcelona, 24/11/2026, portes 19h30) porte ce ticketLink Ticketmaster.es ; ticketmaster.es est en 403 depuis le conteneur mais le lien est confirme par la source officielle."}
+]

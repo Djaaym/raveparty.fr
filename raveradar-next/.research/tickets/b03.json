@@ -1,0 +1,152 @@
+[
+ {
+  "id": 2360,
+  "status": "ok",
+  "url": "https://www.sway.events/event/4034",
+  "checked_on": "sway.events",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page billetterie Sway (prestataire de Hangar) : KI/KI - 5 HOURS, sam. 28/11/2026, Gare Maritime Bruxelles, confirmes ; tickets.thehangar.be pointe ici mais repond 403 au crawl. Tarifs charges en JS, non lisibles."
+ },
+ {
+  "id": 2361,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/68290eb8c5834985b2ce125c681adaeb",
+  "checked_on": "ampere-antwerp.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la fiche officielle Ampere 'Ampere presents: Sven Vath (3h set)', datee 28 November 2026 a Anvers ; boutique Paylogic, tarifs en JS."
+ },
+ {
+  "id": 2374,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/4d9e1bae02044cae814a0ce47f686de8",
+  "checked_on": "ampere-antwerp.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la fiche officielle Ampere '[a:rpia:r] Raresh, Petre Inspirescu, Rhadoo', datee 12 December 2026 a Anvers ; boutique Paylogic, tarifs en JS."
+ },
+ {
+  "id": 2362,
+  "status": "ok",
+  "url": "https://kompassklub.com/line-up/i-hate-models-at-kompass-4hour-set/",
+  "checked_on": "kompassklub.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ATTENTION date: la fiche officielle Kompass (Gand) annonce 'I HATE MODELS at KOMPASS (4HOUR SET)' le 21 November 2026, pas le 28/11. Page officielle avec bouton GET Tickets vers agenda.paylogic.com (pas de lien profond par date sur le site)."
+ },
+ {
+  "id": 808,
+  "status": "none",
+  "url": null,
+  "checked_on": "kompassklub.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Agenda officiel Kompass (API wp-json/events, 41 fiches) ne va pas au-dela du 21/11/2026 : aucun 'Full Circle' ni 'Byorn' le 20/12/2026. 'FULL CIRCLE at KOMPASS' = 20/02/2026 (passe), 'Byorn at Kompass' = 03/04/2025. Date a re-verifier."
+ },
+ {
+  "id": 812,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/30628551-7d36-4d40-b21e-fd8f0e16ed96?shop_code=8zwk95zn",
+  "checked_on": "ra.co + shop.weeztix.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "RA event 2509367 'VERKNIPT NYE Antwerp', 31/12/2026, Garage Klub, Anvers, confirmes ; son lien promo 'Tickets' (bit.ly/verknipt-nye-antwerp-2026) resout vers cette boutique Weeztix officielle. Tarifs en JS."
+ },
+ {
+  "id": 2383,
+  "status": "ok",
+  "url": "https://ra.co/events/2528742",
+  "checked_on": "ra.co",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "note": "RA vend directement (isTicketed) 'Fuse presents: Ben Klock's b2b residency night', 13/02/2027, Fuse, Bruxelles. Tarif RA 25 € (General admission a 27,65 € frais inclus, en vente) ; palier 'Late admission' 33,20 € pas encore ouvert."
+ },
+ {
+  "id": 2359,
+  "status": "none",
+  "url": null,
+  "checked_on": "zazutribe.com, ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et lieu confirmes par RA (event 2516961, ZAZU Indoor Festival Belgium, 28/11/2026, Waagnatie, Anvers) mais RA ne vend pas et zazutribe.com ne publie qu'une boutique Weeztix pour l'edition Rotterdam ; aucune billetterie belge trouvee. Partyflock donne meme une date alternative (4-5/12/2026), a re-verifier."
+ },
+ {
+  "id": 801,
+  "status": "none",
+  "url": null,
+  "checked_on": "bassevents.be, lotto-arena.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bass Events confirme Pat B Birthday Bash XXL le samedi 19/12/2026 au Lotto Arena (Anvers) mais 'more info coming soon' : bassevents.be/pat-b-birthday-bash-xxl-2026 redirige vers un formulaire de pre-enregistrement CM.com, pas une vente. Pas encore de billetterie ouverte."
+ },
+ {
+  "id": 787,
+  "status": "none",
+  "url": null,
+  "checked_on": "chinastraat.be, ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Agenda officiel de Chinastraat (Gand) charge en JS et ne publie a ce jour que jusqu'a fin septembre 2026 ; aucune fiche RA ni billetterie (Weeztix/Sway/Paylogic) trouvee pour Space Rave le 05/12/2026. Editions anterieures seulement."
+ },
+ {
+  "id": 2353,
+  "status": "none",
+  "url": null,
+  "checked_on": "off-club.be, ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "OFF-Club confirme a Liege (RA venue 302612 : Rue Roture 25, 4020 Liege, malgre son 'area' Bruxelles errone). Sa boutique officielle (offclub.be redirige vers shop.weeztix.com/465299d9-a9b5-11ee-a9cb-7e126431635e) est entierement en JS et RA ne liste qu'une seule date a venir (26/09/2026, OFF x SACRE) : aucune soiree Perc Trax le 21/11/2026 trouvee."
+ },
+ {
+  "id": 380,
+  "status": "none",
+  "url": null,
+  "checked_on": "reverze.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel confirme 'Reverze - 26+27 February 2027 - AFAS Dome & Lotto Arena Antwerp' mais n'offre qu'un 'PRE-REGISTER FOR 2027' (formulaire CM.com, cm.to/pvuS2Nwv) : aucune billetterie ouverte, donc aucun lien d'achat honnete."
+ },
+ {
+  "id": 936,
+  "status": "none",
+  "url": null,
+  "checked_on": "sunrisefestival.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel confirme '24 - 25 - 26 - 27 juni 2027, De Lilse Bergen, Gierle' (le festival belge, pas l'homonyme polonais) mais ne propose qu'une pre-inscription ; seul lien Paylogic present = customerservice.paylogic.com (support), pas une vente."
+ },
+ {
+  "id": 876,
+  "status": "none",
+  "url": null,
+  "checked_on": "paradisecity.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel confirme '2, 3 & 4 July 2027' a Steenokkerzeel (Kasteelhoekstraat 1) mais n'offre qu'une inscription a la presale a prix reduit : pas encore de billetterie ouverte."
+ },
+ {
+  "id": 2411,
+  "status": "none",
+  "url": null,
+  "checked_on": "wecandance.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "wecandance.be/tickets ne contient ni prix ni lien de vente et la navigation du site en est encore au '2026 LINEUP' : rien sur l'edition 14-15/08/2027, seulement une inscription newsletter (innercrowd). Date 2027 non confirmee par le site officiel."
+ }
+]

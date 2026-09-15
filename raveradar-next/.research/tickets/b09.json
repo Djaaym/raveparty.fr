@@ -1,0 +1,152 @@
+[
+ {
+  "id": 429,
+  "status": "ok",
+  "url": "https://billetterie.lanef-musiques.com/agenda/349-BISOU-JORIS-DELACROIX-LIVE?session=349",
+  "checked_on": "billetterie.lanef-musiques.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle de La Nef, lien pris sur la fiche lanef-musiques.com/concert/bisou-joris-delacroix/ ; page titree 'BISOU - JORIS DELACROIX LIVE | 13 Novembre 2026', date et lieu confirmes. Tarif non lisible cote serveur."
+ },
+ {
+  "id": 749,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-pop-rock-css5-laptitefumee-pg51-ei1108435.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 27,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de la tournée La P'tite Fumée (See Tickets) : vendredi 13 novembre 2026 20h00, Le Liberté // L'Étage, Rennes, 27 €. Date et lieu confirmés."
+ },
+ {
+  "id": 431,
+  "status": "ok",
+  "url": "https://billetterie.paloma-nimes.fr/agenda/819-PACT?session=819",
+  "checked_on": "billetterie.paloma-nimes.fr",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Paloma, lien pris sur paloma-nimes.fr/agenda/pact-event-37253/ ; page titree 'PACT | 14 Novembre 2026', date et lieu confirmes. Prevente plein tarif 32 EUR (reduit 27, sur place 35)."
+ },
+ {
+  "id": 757,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-pop-rock-css5-laptitefumee-pg51-ei1109157.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de la tournée (See Tickets) : samedi 14 novembre 2026 20h00, LE FAMILY, Landerneau, 25 €. Date et lieu confirmés."
+ },
+ {
+  "id": 432,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/hilight-tribe-a-la-cigale-paris-75-concert-18-novembre-2026-css5-hilighttribe-pg101-ri11794937.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 30.8,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle Hilight Tribe (See Tickets, organisateur Kontshaprod) : mercredi 18 novembre 2026 18h30, La Cigale, 120 bd Rochechouart Paris 18e ; tarif prevente 30,80 EUR affiche sur le formulaire de reservation. Date et lieu confirmes."
+ },
+ {
+  "id": 433,
+  "status": "ok",
+  "url": "https://www.fnacspectacles.com/event/pulse-2-larchipel-perpignan-21844579/",
+  "checked_on": "fnacspectacles.com",
+  "price": 22.2,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Fnac Spectacles (page artiste Pulse) : Pulse 2#, 20 novembre 2026 20h30, L'ARCHIPEL PERPIGNAN, av. du General Leclerc 66000, offre categorie unique 22,20 EUR InStock, url d'achat directe. Date et lieu confirmes (la billetterie propre de L'Archipel est derriere une file d'attente illisible cote serveur)."
+ },
+ {
+  "id": 434,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/scratch-massive-nantes",
+  "checked_on": "shotgun.live",
+  "price": 25,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien de reservation officiel affiche sur la fiche du Ferrailleur (leferrailleur.fr/evenement/scratch-massive/5310) ; JSON-LD Shotgun : 21 novembre 2026, Le Ferrailleur, 21 Quai des Antilles Nantes, offre Debout 25 EUR InStock. Date et lieu confirmes."
+ },
+ {
+  "id": 768,
+  "status": "ok",
+  "url": "https://lacabane.bleucitron.net/reserver/after-now-chloe-b2b-ivan-smagghe-la-cabane-toulouse/10159",
+  "checked_on": "lacabane.bleucitron.net",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Cabane (lien pris sur l'API agenda de halles-cartoucherie.fr) : dimanche 22 novembre 2026 18h00, La Cabane - Halles de la Cartoucherie, Toulouse, a partir de 19,00 EUR. Date et lieu confirmes."
+ },
+ {
+  "id": 1389,
+  "status": "ok",
+  "url": "https://billetterie.lombriere.fr/laurent-wolf-concert-electro-css5-ombrierepaysduzes-pg51-ei1125295.html",
+  "checked_on": "billetterie.lombriere.fr",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de L'Ombriere Pays d'Uzes (See Tickets) : vendredi 27 novembre 2026 20h00, L'Ombriere, 3 place de la Croix des Palmiers, 30700 Uzes ; tarif unique fosse debout 15,00 EUR sur le formulaire. Date et lieu confirmes (catalogue 17 EUR a corriger)."
+ },
+ {
+  "id": 874,
+  "status": "ok",
+  "url": "https://billetterie.lemoloco.com/agenda/396-UNDER-THE-RAVE-4?session=396",
+  "checked_on": "lemoloco.com / billetterie.lemoloco.com",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche officielle lemoloco.com/agenda/undertherave4/ (ven. 27 nov. 2026, 22h, Le Moloco Audincourt, Creeds + Bardix le Gaulois + Floxytek) ; page billetterie titree 'UNDER THE RAVE #4 | 27 Novembre 2026'. Tarif plein 20 EUR (reduit 17, abonne 15) : le catalogue a retenu le tarif abonne."
+ },
+ {
+  "id": 782,
+  "status": "ok",
+  "url": "https://lerocherdepalmer.fr/agenda/pact",
+  "checked_on": "lerocherdepalmer.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle du Rocher de Palmer (atteinte via lerocherdepalmer.fr/pact-03122026-1930, qui y redirige) : 'JOACHIM PASTOR - JORIS DELACROIX & TEHO : PACT', jeudi 3 decembre 2026 20h30, Rocher 1200, placement libre debout. Date et lieu confirmes ; billetterie integree au site, tarifs non lisibles cote serveur (infoconcert annonce 31 EUR plein, coherent avec le catalogue)."
+ },
+ {
+  "id": 641,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-css5-laptitefumee-pg51-ei1108691.html",
+  "checked_on": "billetterie.seetickets.fr",
+  "price": 27.8,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de la tournée (See Tickets) : jeudi 3 décembre 2026 19h30, Le Rockstore, Montpellier, 27,80 €. Date et lieu confirmés."
+ },
+ {
+  "id": 784,
+  "status": "none",
+  "url": null,
+  "checked_on": "interference-toulouse.fr, shotgun.live, jds.fr, songkick.com, ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date Joachim Pastor le 4 decembre 2026 a Interference (Balma) confirmee par le calendrier Songkick de l'artiste, mais aucune page d'achat trouvee : absente de la programmation et des liens Shotgun d'interference-toulouse.fr, absente de la page salle Shotgun, absente de jds.fr, Fnac Spectacles bloque. Billetterie vraisemblablement pas encore ouverte."
+ },
+ {
+  "id": 785,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/ref-session-acidpauli-frigo16",
+  "checked_on": "shotgun.live (lien pris sur panda-events.com)",
+  "price": 12.49,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien de billetterie affiche par l'organisateur Panda Events pour 'ACID PAULI x REF SESSION #18' du 4 decembre 2026 ; JSON-LD Shotgun : 4 decembre 2026, Le 109, 89 route de Turin, Nice. Deux offres InStock, Time Ticket avant 21h30 a 12,49 EUR et premiere vague a 17,49 EUR."
+ },
+ {
+  "id": 437,
+  "status": "ok",
+  "url": "https://www.lescuizines.fr/events/odyssee-ouaistephane-elisa-do-brasil/",
+  "checked_on": "lescuizines.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche officielle des Cuizines 'Nuit electro : Ouai Stephane + Elisa Do Brasil + Odyssee', samedi 5 decembre 2026, 38 rue de la Haute Borne, Chelles ; widget d'achat Weezevent (E2199679) integre a la page. Trois tarifs annonces des 22h, 11/14/16 EUR, sans libelle permettant de savoir lequel est le plein tarif, donc non rapporte."
+ }
+]

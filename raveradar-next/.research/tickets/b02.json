@@ -1,0 +1,92 @@
+[
+ {
+  "id": 2242,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/129da4a328a54577988673e3ff09d7ca",
+  "checked_on": "ampere-antwerp.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien de vente Paylogic trouve sur l'agenda officiel d'Ampere pour le 3 octobre 23h, Lil' Louis + DTM Funk & Pirres, Ampere Anvers confirme."
+ },
+ {
+  "id": 2271,
+  "status": "ok",
+  "url": "https://www.link-events.com/event/link-festival-liege-airport-10-10-2026/",
+  "checked_on": "link-events.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de l'evenement chez l'organisateur Link Events, titre et URL portent 'LINK Festival @ Liege Airport 10/10/2026', boutique Weeztix integree dans la page."
+ },
+ {
+  "id": 2260,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/517e4151-02b6-4fb7-b520-0ac56966868f/tickets?nocache&event=60ce33da-5b76-4bf9-a8f3-30b11eb14d80",
+  "checked_on": "clubvaag.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien Weeztix propre a l'evenement trouve sur la fiche officielle clubvaag.be/agenda/lost-miracle-sebastien-leger-b2b-roy-rosenfeld-by-edge, JSON-LD startDate 2026-10-09T23:00 a Club Vaag Anvers."
+ },
+ {
+  "id": 2294,
+  "status": "ok",
+  "url": "https://kompassklub.com/line-up/nto-stephan-bodzin-at-kompass/",
+  "checked_on": "kompassklub.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche officielle du club, '17 October 2026' + bouton GET Tickets (agenda Paylogic du club, pas de lien par date sur le site), Kompass Klub Nieuwevaart 51 Gent confirme."
+ },
+ {
+  "id": 2296,
+  "status": "ok",
+  "url": "https://tickets.horstartsandmusic.com/57b43d6109c64e49aeecdd82eefc3a9b/tickets",
+  "checked_on": "horstartsandmusic.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Paylogic liee depuis horstartsandmusic.com/club, ou Black Gravity Dance 17-18 octobre 2026 est le seul week-end club a venir, Asiat Park Vilvoorde confirme."
+ },
+ {
+  "id": 2340,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/0f5016df7d764fdeb751d4a412228d0b",
+  "checked_on": "open-circle.be",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien de vente Paylogic pris sur le site officiel Open Circle pour Chris Stussy a Antwerp Expo le 13 novembre 2026."
+ },
+ {
+  "id": 2335,
+  "status": "ok",
+  "url": "https://tickets.traumclub.com/22754bfdc7584282855b3e5d1ee6ea74/",
+  "checked_on": "traumclub.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Paylogic propre a la date, listee 'SAT 07 Nov John Talabot (Electronica)' sur le programme officiel de Traum, Anvers."
+ },
+ {
+  "id": 692,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/6614d3a8feb5438ab487cef410f16532",
+  "checked_on": "kozzmozz.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Paylogic liee au bouton 'Buy Tickets' de la page officielle kozzmozz.com/events/30-years-of-kozzmozz (17-10-26, VIERNULVIER Gand)."
+ },
+ {
+  "id": 679,
+  "status": "ok",
+  "url": "https://www.smickets.com/",
+  "checked_on": "smickets.com",
+  "price": 16,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de Los Ninos (lien unique depuis losninos.be), tableau 'NOW ON SALE' : 'Friday 16 10 2026 Los Ninos: Queer Berlin 16.00 EUR'. Pas d'URL par date, la page porte la ligne et l'achat."
+ }
+]

@@ -1,0 +1,102 @@
+[
+ {
+  "id": 617,
+  "status": "ok",
+  "url": "https://site.fourvenues.com/en/shelter-amsterdam/events/brighter-days-x-life-and-death-24-10-2026-ZU3N",
+  "checked_on": "amsterdam-dance-event.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": "estimated",
+  "note": "Lien billetterie officiel donne par le programme ADE 2026 pour Brighter Days x Life and Death, samedi 24/10/2026 23h30 au Shelter, Overhoeksplein 3 Amsterdam : date et lieu confirmes ; la page Fourvenues elle-meme est derriere un anti-bot, tarif non lisible."
+ },
+ {
+  "id": 767,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/92178919-23ce-443d-8ba6-fde20e882f61",
+  "checked_on": "thuishaven.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton TICKETS de la fiche officielle thuishaven.nl/22-nov-thuishaven-w-x-club-dart-newtone-more/ : zondag 22-11-2026 13h-23h, Thuishaven Contactweg 68 Amsterdam, line-up X Club. / DART / NewTone ; date et lieu confirmes, boutique Weeztix en JS donc tarif non lisible."
+ },
+ {
+  "id": 642,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/734aa4d7-e37f-4661-b226-3f41c39af14d",
+  "checked_on": "thuishaven.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton TICKETS de la fiche officielle thuishaven.nl/05-dec-bart-skils-5hrs-tec/ : zaterdag 05-12-2026 13h-23h, Thuishaven Amsterdam, Bart Skils 5HRS ; date et lieu confirmes, boutique Weeztix en JS donc tarif non lisible."
+ },
+ {
+  "id": 2333,
+  "status": "ok",
+  "url": "https://shop.snakepithardcore.com/en/snakepit-2026/entrance-tickets",
+  "checked_on": "snakepithardcore.com",
+  "price": 54.95,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle liee depuis snakepithardcore.com/tickets/, qui confirme Klokgebouw 50 Eindhoven le 7 novembre 2026 13h-23h ; la boutique est en JS, le tarif d'entree le plus bas (54,95 €) est relaye par festivalfans.nl d'apres cette meme boutique."
+ },
+ {
+  "id": 2376,
+  "status": "none",
+  "url": null,
+  "checked_on": "shelteramsterdam.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Aucune page d'achat trouvee pour le 18/12/2026 : shelteramsterdam.nl n'annonce qu'a ~6 semaines (agenda s'arrete au 31/10), la boutique du club est un shop Openticket global sans lien par date, et site.fourvenues.com (sa billetterie) repond 403 en curl comme en WebFetch ; l'existence de la soiree est confirmee par l'agenda DJGuide du lieu."
+ },
+ {
+  "id": 355,
+  "status": "ok",
+  "url": "https://shop.celebratix.io/?c=2cxtn",
+  "checked_on": "maassilo.com + undivide.co.uk",
+  "price": null,
+  "currency": null,
+  "priceNote": "estimated",
+  "note": "Meme lien billetterie Celebratix trouve sur l'agenda officiel maassilo.com/dance/agenda (ligne '30 okt | Hospital Halloween - Korsakov', line-up Netsky / A.M.C / Metrik conforme) et sur la page de l'organisateur undivide.co.uk/hospitality-halloween-rotterdam-2026, atteinte depuis hospitalitydnb ; date 30/10/2026 et Maassilo Rotterdam confirmes, boutique derriere Cloudflare donc tarif non lisible."
+ },
+ {
+  "id": 776,
+  "status": "ok",
+  "url": "https://shop.b2s.nl/en/loudness-2026",
+  "checked_on": "b2s.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique officielle de l'organisateur B2S pour Loudness 2026, Maassilo Rotterdam le samedi 28/11/2026 14h-23h (date confirmee par b2s.nl et par le communique de report sur hardnews.nl) ; lien atteint via bit.ly/ln26-tickets cite par B2S, boutique en JS donc tarif non lisible (39,75 € annonce en presse, contre 44,95 € au catalogue, paliers mouvants)."
+ },
+ {
+  "id": 2334,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/a8a0f647022b468bb369ad3e9b4224d1",
+  "checked_on": "wooferland.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien billetterie (bit.ly/ravegame-2026 -> Paylogic) donne par la fiche officielle wooferland.com/events/the-rave-game-3, qui confirme Thuishaven Amsterdam le 07/11/2026 ; boutique Paylogic en JS donc tarif non lisible."
+ },
+ {
+  "id": 2339,
+  "status": "ok",
+  "url": "https://www.ticketmaster.nl/event/overmono-pure-devotion-world-tour-tickets/179380501",
+  "checked_on": "gashouder.nl",
+  "price": 49.37,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien billetterie pose par la fiche officielle de la salle gashouder.nl/programma/overmono : WO 11 NOV '26 19h-21h au Gashouder, tarif affiche 49,37 € ; date et lieu confirmes."
+ },
+ {
+  "id": 2368,
+  "status": "ok",
+  "url": "https://www.ticketmaster.nl/event/1449263071",
+  "checked_on": "gashouder.nl",
+  "price": 39.94,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien billetterie pose par la fiche officielle de la salle gashouder.nl/programma/nia-archives (Emotional Tour) : WO 2 DEC '26 20:00 au Gashouder, tarif affiche 39,94 € ; date et lieu confirmes."
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "id": 1399,
+  "status": "soldout",
+  "url": "https://www.francebillet.com/event/thylacine-tournee-la-belle-electrique-grenoble-21927839/",
+  "checked_on": "francebillet.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "JSON-LD francebillet confirme Thylacine le 22/03/2027 20h a LA BELLE ELECTRIQUE GRENOBLE (12 esplanade Andry Farcy), mais availability=OutOfStock ; la billetterie officielle de la salle (billetterie.la-belle-electrique.com) est une SPA non lisible cote serveur."
+ },
+ {
+  "id": 454,
+  "status": "ok",
+  "url": "https://www.citemusicale-metz.fr/fr/programmation/saison-26-27/concert/acid-arab",
+  "checked_on": "citemusicale-metz.fr",
+  "price": 23,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle Cite musicale-Metz : Acid Arab (live), lieu BAM, jeu. 25 mars 2027 20h, tarifs de 23 a 30 EUR, bouton Reserver vers la billetterie SecuTix ; date et lieu confirmes (aussi par Songkick)."
+ },
+ {
+  "id": 455,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/il-est-vilaine",
+  "checked_on": "lamachinedumoulinrouge.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'Billetterie' de la fiche officielle de La Machine du Moulin Rouge (datetime 2027-04-01T18:30, salle Central, Paris) ; renvoie sur la page Shotgun de l'evenement."
+ },
+ {
+  "id": 1400,
+  "status": "ok",
+  "url": "https://www.francebillet.com/event/mosimann-dream-tour-zenith-de-strasbourg-europe-22055879/",
+  "checked_on": "francebillet.com",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD francebillet : Mosimann - Dream Tour, 15/04/2027 20h, Zenith de Strasbourg Europe, 1 allee du Zenith, Eckbolsheim ; availability InStock, lowPrice 45 EUR (highPrice 65)."
+ },
+ {
+  "id": 1401,
+  "status": "ok",
+  "url": "https://www.halle-tony-garnier.com/fr/programmation/mosimann",
+  "checked_on": "halle-tony-garnier.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de la salle : Concert 16.04.27 MOSIMANN a la Halle Tony Garnier (Lyon), date et lieu confirmes ; la page ne porte pas de lien d'achat profond, seulement la liste des revendeurs (Fnac Spectacles, Ticketmaster...)."
+ },
+ {
+  "id": 1402,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/mosimann-billet/idmanif/670745/idtier/43265",
+  "checked_on": "zenithdelille.com",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien billetterie repris de la fiche officielle du Zenith de Lille : MOSIMANN Live tour 2027, mardi 20 avril 2027 20h, Zenith de Lille, tarif 45 a 65 EUR, mention 'En vente'."
+ },
+ {
+  "id": 1403,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/mosimann-billet/idmanif/670791/idtier/5689485",
+  "checked_on": "zenith-nantesmetropole.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'Reserver TicketMaster' de la fiche officielle du Zenith Nantes Metropole : MOSIMANN, mardi 27 avr. 2027 20h, 'En vente' ; date et salle (Saint-Herblain) confirmees."
+ },
+ {
+  "id": 1404,
+  "status": "ok",
+  "url": "https://billetterie.arkeaarena.com/fr/manifestation/mosimann-billet/idmanif/670609/idseance/4400583",
+  "checked_on": "arkeaarena.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'Reserver billets' de la fiche officielle Arkea Arena : Mosimann - Dream Tour, mer. 28 avr. 2027 20h, Arkea Arena (Floirac/Bordeaux), 'Reservations ouvertes'."
+ },
+ {
+  "id": 1405,
+  "status": "ok",
+  "url": "https://www.ticketmaster.fr/fr/manifestation/mosimann-billet/idmanif/670747/idtier/21726726",
+  "checked_on": "zenith-toulousemetropole.com",
+  "price": 45,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'Reserver Ticketmaster' de la fiche officielle du Zenith Toulouse Metropole : MOSIMANN, jeudi 29 avr. 2027 20h, tarif 45 a 65 EUR, 'En vente'."
+ },
+ {
+  "id": 157,
+  "status": "none",
+  "url": null,
+  "currency": null,
+  "price": null,
+  "priceNote": null,
+  "checked_on": "aluna-festival.fr",
+  "note": "La page billetterie officielle (aluna-festival.fr/billetterie-festival-ardeche/) affiche encore 'Billets pour Aluna Festival 2026' (jeu 25 / ven 26 / sam 27 juin, Gims, Damso...) et ses boutons Reserver pointent sur aluna.trium.fr/event/63791, edition 2026 ; rien n'est encore en vente pour l'edition des 24-26 juin 2027."
+ },
+ {
+  "id": 165,
+  "status": "ok",
+  "url": "https://lesnuitssecretes.com/billetterie-2027",
+  "checked_on": "lesnuitssecretes.com",
+  "price": 90,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page billetterie officielle de l'edition 2027 : 'RDV les 23.24.25 juillet 2027', pass 3 jours tarif preferentiel 90 EUR, widget Weezevent d'achat integre a la page (id_evenement 2247351)."
+ }
+]

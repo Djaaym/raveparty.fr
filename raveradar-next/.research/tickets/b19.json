@@ -1,0 +1,132 @@
+[
+ {
+  "id": 710,
+  "status": "ok",
+  "url": "https://thuishaven.nl/23-oct-thuishaven-ade-friday-day-w-salute-diffrent-bella-claxton/",
+  "checked_on": "thuishaven.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Thuishaven '23 OCT | Thuishaven ADE Friday Day w/ Salute / Diffrent & Bella Claxton', date et lieu confirmes; la page embarque la boutique Weeztix (shop.weeztix.com/845cf467-8fa7-4cb8-be01-9280eb326ffd), rendue en JS donc tarif non lisible cote serveur."
+ },
+ {
+  "id": 616,
+  "status": "ok",
+  "url": "https://thuishaven.nl/24-oct-thuishaven-ade-w-michel-de-hey-philou-louzolo-haven-trax/",
+  "checked_on": "thuishaven.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Thuishaven du 24 oct avec Michel de Hey & Philou Louzolo (Haven Trax), date et lieu confirmes; boutique Weeztix embarquee (shop.weeztix.com/a829667c-d52b-44f3-bc52-d704311791ce)."
+ },
+ {
+  "id": 609,
+  "status": "ok",
+  "url": "https://www.shelteramsterdam.nl/event/22-10-20-years-of-the-warehouse-project/",
+  "checked_on": "shelteramsterdam.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Shelter '22.10 20 years of The Warehouse Project', date et lieu confirmes; billetterie Fourvenues embarquee en iframe sur la page, tarif non lisible cote serveur."
+ },
+ {
+  "id": 613,
+  "status": "ok",
+  "url": "https://www.shelteramsterdam.nl/event/23-10-slapfunk-ade/",
+  "checked_on": "shelteramsterdam.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Shelter '23.10 SlapFunk ADE', date et lieu confirmes; billetterie Fourvenues embarquee en iframe."
+ },
+ {
+  "id": 2261,
+  "status": "ok",
+  "url": "https://shop.paylogic.com/d18ff1b3f2644398bcc5019d9e58c157",
+  "checked_on": "toffler.nl / shop.paylogic.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton 'tickets' de l'agenda officiel toffler.nl/club en face du bloc 'Friday 09.10 Toffler Presents Soul Mass Transit System'; boutique Paylogic ouverte (HTTP 200) mais rendue en JS, tarif non lisible."
+ },
+ {
+  "id": 2262,
+  "status": "ok",
+  "url": "https://simplon.stager.co/shop/default/events/111621865",
+  "checked_on": "simplon.stager.co (JSON-LD)",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Stager de Simplon: 'VISION: Spor // KROON // ring noord // AutopsKi // Fremi', startDate 2026-10-09, Boterdiep 69 Groningen, offre Voorverkoop 17,00 EUR InStock."
+ },
+ {
+  "id": 2272,
+  "status": "ok",
+  "url": "https://radionamsterdam.stager.co/shop/default/events/111682787",
+  "checked_on": "radionamsterdam.stager.co (JSON-LD)",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "note": "JSON-LD Stager de RADION: 'GEGEN, 10-10-2026, RADION Amsterdam, Louwesweg 1'; Phase 1 a 20,00 EUR InStock (phases 2 et 3 a 25 et 31,50)."
+ },
+ {
+  "id": 672,
+  "status": "soldout",
+  "url": "https://shop.hardbass.com/en/hard-bass-2026/entrance-tickets",
+  "checked_on": "gelredome.nl + shop.hardbass.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle GelreDome 'Hard Bass 2026 / Uitverkocht / Dance / 10 October 2026' : complet. La boutique officielle shop.hardbass.com liee depuis cette page repond 200 mais est rendue en JS, donc statut de vente non relisible cote serveur."
+ },
+ {
+  "id": 346,
+  "status": "ok",
+  "url": "https://appic.shop/basis-vinyl-special-36framez-line-o-b2b-roboith-narciss-extended-set",
+  "checked_on": "appic.shop (JSON embarque) via djguide.nl",
+  "price": 17,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique Appic: 'BASIS Vinyl Special/ 36framez/ Line-O b2b ROBOITH/ Narciss', Oudegracht aan de Werf 97 Utrecht, 2026-10-10 23:00, Regular Ticket price 19 dont 2 de frais (soit 17 de face), is_sold_out false; date et lieu confirmes."
+ },
+ {
+  "id": 58,
+  "status": "ok",
+  "url": "https://shop.awakenings.com/en/awakenings-ade-2026",
+  "checked_on": "awakenings.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Awakenings ADE 2026: 'Wednesday October 21 2026 - Sunday October 25 2026 at Sugarfactory', boutique officielle shop.awakenings.com/en/awakenings-ade-2026 (200). Plusieurs nuits du programme sont deja Sold out (23, 25 oct), le pass d'ensemble reste en vente."
+ },
+ {
+  "id": 711,
+  "status": "ok",
+  "url": "https://www.enterticket.es/eventos/elrow-ade-de-kromhouthal-2026-156867",
+  "checked_on": "elrow.com -> enterticket.es",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle elrow.com/en/events/1307/amsterdam-dance-with-the-serpent-10232026 (October 23, Kromhouthal confirmes) dont le bouton billets pointe sur la boutique Enterticket dediee 'elrow-ade-de-kromhouthal-2026' (200, rendue en JS donc tarif non lisible)."
+ },
+ {
+  "id": 131,
+  "status": "ok",
+  "url": "https://shop.dockyardfestival.com/s/DHh2UW7oC9qe6WPLgzKZEa",
+  "checked_on": "djguide.nl -> bit.ly/DYADE2026tickets -> shop.dockyardfestival.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Date et lieu confirmes (Havenpark Amsterdam, samedi 24 octobre 2026, 13:00-23:00, edition commune avec Mystic Garden). Le lien officiel de vente annonce par l'organisateur redirige vers la boutique Dockyard derriere une salle d'attente queue-it (event 'mgfdyade26'), donc tarif non lisible; billet commun aux deux festivals."
+ },
+ {
+  "id": 353,
+  "status": "ok",
+  "url": "https://shop.weeztix.com/41d2e1a7-2e96-11ed-aa54-6a57c78572ab/tickets?shop_code=jnf3cndt",
+  "checked_on": "megarave.com + maassilo.com/dance/agenda",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Meme boutique Weeztix citee par megarave.com (habillage 'millennium daytime edition') et par le bouton 'Get ticket' du 24 okt Megarave sur l'agenda Maassilo; date et lieu confirmes, tarif non lisible (boutique JS)."
+ }
+]

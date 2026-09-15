@@ -1,0 +1,152 @@
+[
+ {
+  "id": 141,
+  "status": "none",
+  "url": null,
+  "checked_on": "ctm-festival.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "CTM 2027 (22-31/01/2027) confirme sur /festival-2027/welcome, qui annonce des passes en vente mais sans lien ; aucune page tickets 2027 (404 sur /festival-2027/tickets, absente du sitemap). Rien d'achetable a lier aujourd'hui."
+ },
+ {
+  "id": 331,
+  "status": "none",
+  "url": null,
+  "checked_on": "reworks.gr, more.com, songkick.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Dates 16-20/09/2026 a Thessalonique confirmees par Songkick, mais aucun lien d'achat verifiable : reworks.gr repond une page captcha (202) depuis le conteneur comme via WebFetch, la recherche more.com et l'agenda more.com/tickets/city/Thessaloniki sont rendus en JS (aucun evenement dans le HTML servi), viva.gr rend 404 et ticketmaster.gr 403. A reprendre depuis un navigateur."
+ },
+ {
+  "id": 377,
+  "status": "ok",
+  "url": "https://bootshaus-club.ticket.io/S0cbXDda/",
+  "checked_on": "bootshaus-club.ticket.io",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche ticket.io officielle du Bootshaus : Bootshaus & Loonyland pres. NYE 2026, 31.12.2026 21h, Auenweg 173 Koeln ; Blind Ticket 29 EUR en vente."
+ },
+ {
+  "id": 777,
+  "status": "ok",
+  "url": "https://www.digistore24.com/product/715754",
+  "checked_on": "fairground-festival.de",
+  "price": 86.11,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle liee depuis fairground-festival.de (TICKETS 2026) ; page Messe Hannover confirmee, Standard Phase 1 a 86,11 EUR (le palier a 60 EUR n'est plus en vente) ; boutique du festival, pas d'URL par date."
+ },
+ {
+  "id": 803,
+  "status": "none",
+  "url": null,
+  "checked_on": "psy-spirits.de, edelfettwerk.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Edition 19/12/2026 introuvable : psy-spirits.de n'annonce que Empire of Goa (03/10, Docks) et Psychedelic Rave No.1 (14/11, Docks), l'agenda officiel de l'Edelfettwerk s'arrete au 28/11/2026 ; la derniere Psy-Spirits a l'Edelfettwerk etait le 20/12/2025. Date a re-verifier."
+ },
+ {
+  "id": 830,
+  "status": "none",
+  "url": null,
+  "checked_on": "apexfest.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "ATTENTION date : apexfest.de annonce APEX 2027 le 06.03.2027 a la Maimarkthalle de Mannheim, pas le 30/01/2027. Vente pas encore ouverte (flash sale terminee, simple inscription a la mise en vente) ; tarifs annonces 69,90 EUR Loyalty / 109,90 EUR Premium."
+ },
+ {
+  "id": 2310,
+  "status": "ok",
+  "url": "https://ra.co/events/2523474",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Tresor du 23.10.2026 (Tresor meets Daniel Bell: BEYOND) renvoie sa prevente vers RA event 2523474 ; date et lieu confirmes, tarif non lisible (ra.co 403)."
+ },
+ {
+  "id": 2316,
+  "status": "ok",
+  "url": "https://wype.ticketlodge.de/241026-LexyKPaulFrankfurtMain/",
+  "checked_on": "tanzhaus-west.de",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Agenda officiel Tanzhaus West : 24/10 Ritter Butzke on tour x Frankfurt ; page de vente ouverte, adresse Gutleutstrasse 294 Frankfurt confirmee, 20 EUR TTC."
+ },
+ {
+  "id": 2320,
+  "status": "ok",
+  "url": "https://ra.co/events/2523478",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle Tresor du 30.10.2026 (Tresor meets Downwards Records) renvoie sa prevente vers RA event 2523478 ; date et lieu confirmes, tarif non lisible (ra.co 403)."
+ },
+ {
+  "id": 2355,
+  "status": "ok",
+  "url": "https://www.eventim.de/event/the-prodigy-velodrom-21496476/",
+  "checked_on": "velodrom.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site officiel du Velodrom (page de l'evenement 21.11.2026) renvoie vers cette fiche Eventim ; eventim.de repond 403 depuis le conteneur, tarif non relu (79,80 EUR annonce par berlin.de)."
+ },
+ {
+  "id": 2386,
+  "status": "ok",
+  "url": "https://www.berlin.de/en/tickets/electronic-dance/twocolors-under-my-skin-live-2027/2027-03-21-twocolors-under-my-skin-live-2027-7daff9b9-791c-4af4-9edc-3cdb2fff7f41/",
+  "checked_on": "berlin.de/tickets",
+  "price": 29.55,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page de vente datee : twocolors Under My Skin Live 2027, dim. 21.03.2027 20h, Cassiopeia, Revaler Str. 99 Berlin ; bouton de commande en ligne, a partir de 29,55 EUR."
+ },
+ {
+  "id": 2392,
+  "status": "ok",
+  "url": "https://wurzelfestival-2027.reservix.de/events",
+  "checked_on": "wurzelfestival.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Reservix 2027 liee depuis le site officiel wurzelfestival.de (3-6 juin 2027, Flugplatzweg 6 Niedergoersdorf) ; reservix.de repond 403 depuis le conteneur, tarifs non relus."
+ },
+ {
+  "id": 2397,
+  "status": "none",
+  "url": null,
+  "checked_on": "pyonen.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le site de l'organisateur (Pyonen) n'affiche encore que l'edition 2026 ; aucune page ni prevente 2027 (la prevente NoG ouvre traditionnellement en avril). Rien d'achetable pour le 15-18/07/2027."
+ },
+ {
+  "id": 2399,
+  "status": "none",
+  "url": null,
+  "checked_on": "feel-festival.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "feel-festival.de/tickets confirme 22-25/07/2027 au Bergheider See mais ne porte aucun lien de boutique : seul un Soli-Ticket a 155 EUR sur candidature par mail. Vente reguliere pas encore ouverte."
+ },
+ {
+  "id": 2405,
+  "status": "none",
+  "url": null,
+  "checked_on": "electrisize.de",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Site officiel : Electrisize 2027 les 6-7-8 aout 2027, mais la vente n'ouvre que le 28/09/2026 (preinscription) et le 29/09/2026 (grand public, Super Early Bird). Aucun lien d'achat actif au 15/09/2026."
+ }
+]

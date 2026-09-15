@@ -1,0 +1,152 @@
+[
+ {
+  "id": 419,
+  "status": "ok",
+  "url": "https://billetterie.paloma-nimes.fr/share/event/816-IL-EST-VILAINE-DOURAN",
+  "checked_on": "paloma-nimes.fr / billetterie.paloma-nimes.fr",
+  "price": 15,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de Paloma pour 'IL EST VILAINE + DOURAN', titre de page confirmant le 16 octobre 2026 ; la fiche paloma-nimes.fr donne location plein 15 EUR / reduit 12 EUR (18 EUR sur place), donc 15 EUR en tarif d'entree courant et non 17 EUR."
+ },
+ {
+  "id": 420,
+  "status": "ok",
+  "url": "https://www.fnacspectacles.com/event/hilight-tribe-tournee-la-cooperative-de-mai-21402974/",
+  "checked_on": "fnacspectacles.com (titre indexe) + jds.fr",
+  "price": 29,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page d'achat Fnac Spectacles de la date, titre 'Hilight Tribe le 23/10/2026 20:00 - La Cooperative de Mai' ; jds.fr confirme vendredi 23 octobre 2026 20h a La Cooperative de Mai, Clermont-Ferrand, a partir de 29 EUR. Reserve : fnacspectacles.com repond 403 depuis le conteneur, la page n'a pas pu etre ouverte directement. La Coope ne liste pas ce concert sur son propre site (producteur exterieur)."
+ },
+ {
+  "id": 421,
+  "status": "ok",
+  "url": "https://billetterie.laluciole.org/share/event/537-Onde-de-Choc-4",
+  "checked_on": "laluciole.org / billetterie.laluciole.org",
+  "price": 20,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Bouton 'Reserver' de la fiche officielle laluciole.org/evenements/onde-de-choc-4 ; la page de billetterie a pour titre 'Onde de Choc #4 | 23 Octobre 2026'. Soiree 23h-5h a La Luciole, Alencon. Tarifs affiches : 20 EUR prevente (18 EUR reduit, 14 EUR abonnes, 22 EUR sur place)."
+ },
+ {
+  "id": 422,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/yuksek",
+  "checked_on": "cargodenuit.com -> shotgun.live",
+  "price": 17.5,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien 'BILLETTERIE' de la home de cargodenuit.com pour 'VENDREDI 23 OCTOBRE 2026 YUKSEK' ; le JSON-LD Shotgun confirme Cargo de Nuit, 7 avenue Sadi Carnot, Arles, 23/10/2026, offre 'TARIF EARLY' 17,50 EUR InStock."
+ },
+ {
+  "id": 595,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108693.html",
+  "checked_on": "billetterie.seetickets.fr (billetterie officielle de La P'tite Fumee)",
+  "price": 26.8,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Boutique officielle de la tournee : LA P'TITE FUMEE, jeudi 15 octobre 2026 19h, WAREHOUSE NANTES, prix 26,80 EUR (le catalogue indiquait 27 EUR) ; date et ville confirmees, remplace le lien racine fnacspectacles."
+ },
+ {
+  "id": 600,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108577.html",
+  "checked_on": "billetterie.seetickets.fr (billetterie officielle de La P'tite Fumee)",
+  "price": 29.2,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Meme soiree que l'id 1383 (Rock School Barbey, Bordeaux, 16/10/2026 20h30, 29,20 EUR) : doublon a fusionner. Lien d'achat direct verifie, remplace le lien racine fnacspectacles."
+ },
+ {
+  "id": 676,
+  "status": "soldout",
+  "url": "https://www.lelieuunique.com/evenement/autechre-2026",
+  "checked_on": "lelieuunique.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle du Lieu Unique (Nantes) pour Autechre : date et salle confirmees, mais la fiche affiche 'Complet' ; aucun lien d'achat actif sur le site du lieu."
+ },
+ {
+  "id": 677,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/fakear-concert-le-bikini-ramonville-15-octobre-2026-css5-lebikini-pg101-ri11761847.html",
+  "checked_on": "billetterie.seetickets.fr (boutique officielle Le Bikini)",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page d'achat See Tickets du Bikini : FAKEAR, jeudi 15 octobre 2026 19h30, LE BIKINI Ramonville ; tarif public debout 32 EUR en vente (30 EUR adherent)."
+ },
+ {
+  "id": 685,
+  "status": "ok",
+  "url": "https://billetterie.aeronef.fr/agenda/1064-AUTECHRE-KONX-OM-PAX-MDX",
+  "checked_on": "aeronef.fr / billetterie.aeronef.fr",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Billetterie officielle de L'Aeronef (Lille) : page 'AUTECHRE + KONX-OM-PAX + MDX | 16 Octobre 2026, L'Aeronef', trouvee depuis aeronef.fr/agenda/autechre et le sitemap de la billetterie ; date et salle confirmees, tarifs affiches par un widget JS donc non relevables."
+ },
+ {
+  "id": 686,
+  "status": "ok",
+  "url": "https://lacabane.bleucitron.net/reserver/after-now-frankey-sandrino-la-cabane-toulouse/10157",
+  "checked_on": "halles-cartoucherie.fr -> lacabane.bleucitron.net",
+  "price": 19,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle de La Cabane (Bleu Citron), lien pris sur la fiche halles-cartoucherie.fr : 'AFTER NOW : FRANKEY & SANDRINO', vendredi 16 octobre 2026 21h30, TOULOUSE LA CABANE ; tarif plein 19,00 EUR en vente."
+ },
+ {
+  "id": 697,
+  "status": "soldout",
+  "url": "https://le-zenith.com/shows/Mosimann%20Live-21536",
+  "checked_on": "le-zenith.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle du Zenith Paris - La Villette : les DEUX dates (samedi 17 et dimanche 18 octobre 2026, 20h) sont marquees 'Complet'. Billetterie d'origine Ticketmaster (idmanif 637050) mais plus rien en vente ; date et salle confirmees."
+ },
+ {
+  "id": 712,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1094591.html",
+  "checked_on": "billetterie.seetickets.fr (billetterie officielle de La P'tite Fumee)",
+  "price": 29.7,
+  "currency": "€",
+  "priceNote": null,
+  "note": "LA P'TITE FUMEE, vendredi 23 octobre 2026 20h, La Cigale, 75018 Paris, 29,70 EUR ; date, salle et ville confirmees sur la boutique officielle de la tournee."
+ },
+ {
+  "id": 1381,
+  "status": "ok",
+  "url": "https://shotgun.live/fr/events/fakear-a-nice-place-to-be-la-rayonne",
+  "checked_on": "larayonne.org + shotgun.live",
+  "price": 32,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Lien billetterie officiel pris sur larayonne.org/evenement/fakear ; JSON-LD Shotgun confirme La Rayonne, 7 rue Henri Legay Villeurbanne, 14/10/2026, offre 'Tarif prevente' 32 EUR InStock (tarif reduit 30 EUR sold out)."
+ },
+ {
+  "id": 1383,
+  "status": "ok",
+  "url": "https://billetterie.seetickets.fr/la-p-tite-fumee-concert-electro-css5-laptitefumee-pg51-ei1108577.html",
+  "checked_on": "billetterie.seetickets.fr (billetterie officielle de La P'tite Fumee)",
+  "price": 29.2,
+  "currency": "€",
+  "priceNote": null,
+  "note": "LA P'TITE FUMEE, vendredi 16 octobre 2026 20h30, Rock School Barbey Bordeaux, 29,20 EUR ; date et ville confirmees. Attention : doublon avec l'id 600 (meme soiree, meme salle)."
+ },
+ {
+  "id": 1384,
+  "status": "ok",
+  "url": "https://www.warehouse-nantes.fr/event/club-de-jour-invite-kolsch",
+  "checked_on": "warehouse-nantes.fr",
+  "price": 19.99,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche officielle du Warehouse Nantes avec module de billetterie integre (#ticketing) : 'Club de Jour invite KOLSCH', samedi 17 octobre 2026 19h-00h, 21 quai des Antilles Nantes ; JSON-LD offers = 19,99 EUR InStock (palier le plus bas encore en vente, le palier a 0,00 EUR est SoldOut)."
+ }
+]
