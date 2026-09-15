@@ -107,3 +107,7 @@ là où le guichet est fermé.
   La fiche Skiddle porte `cancellation type=cancelled` daté du 29/08/2026 et n'a plus
   aucune offre. À retirer du catalogue avec une entrée dans lib/renamed.ts vers une
   cible pertinente, jamais en 404 : son URL est indexée.
+- id 1456 Sankeys LDN Returns, Studio 338, 28/11/2026 : **ANNULÉ**. Fiche Skiddle
+  `cancelled: 1`, `cancellationDate 2026-08-04`, offres vides. Même traitement :
+  entrée dans `REMOVED` de merge.py (sinon la refusion la réinjecte) et dans
+  lib/renamed.ts.
