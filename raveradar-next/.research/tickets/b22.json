@@ -108,5 +108,45 @@
   "currency": null,
   "priceNote": null,
   "note": "Lien Tickster pris sur la fiche officielle Jaeger 'FRIDAY Fraedag: Einmusik + Finnebassen' (add-to-calendar dates=20261016, Jaeger Oslo) ; la boutique ouvre sur ce titre exact, tarif non lisible sans cookies de session."
+ },
+ {
+  "id": 753,
+  "status": "ok",
+  "url": "https://www.ticketmaster.no/event/the-prodigy-billetter/2037293289",
+  "checked_on": "unityarena.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la page officielle Unity Arena pour The Prodigy European Tour 2026, samedi 14 novembre 2026 a Fornebu, date et lieu confirmes ; ticketmaster.no repond 403 depuis le conteneur donc tarif non verifie."
+ },
+ {
+  "id": 833,
+  "status": "ok",
+  "url": "https://www.ticketmaster.no/event/625973336",
+  "checked_on": "unityarena.no",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien 'buy tickets' de la page officielle Unity Arena pour Broiler 'Ingen Skal Hjem Tour', 13 fevrier 2027 a Fornebu (le second lien ticketmaster de la page est la navette, ecarte) ; tarif non verifie, ticketmaster.no en 403."
+ },
+ {
+  "id": 391,
+  "status": "ok",
+  "url": "https://tickets.palmesus.com/no/ba7rd5tpkau570m/products?c=wxzw0cx",
+  "checked_on": "palmesus.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Boutique Tickster officielle liee depuis palmesus.com, intitulee 'Palmesus 2027' ; le site confirme 25-26 juin 2027 a Bystranda Kristiansand et annonce le palier Early Bird 2027 'Utsolgt' (epuise), tarif non lisible sans cookies de session."
+ },
+ {
+  "id": 2246,
+  "status": "ok",
+  "url": "https://www.ebilet.pl/muzyka/elektro-techno/tiga?city=Warszawa",
+  "checked_on": "ebilet.pl",
+  "price": 127.9,
+  "currency": "zł",
+  "priceNote": null,
+  "note": "JSON-LD Event de la page eBilet filtree sur Varsovie : ARK: Tiga, 2026-10-03 23:00, OCZKI, Wojciecha Oczki 1A Varsovie, availability InStock, lowPrice 127,90 PLN ; date et lieu confirmes, tarif garde en zl."
  }
 ]

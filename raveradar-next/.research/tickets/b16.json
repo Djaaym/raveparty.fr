@@ -138,5 +138,15 @@
   "currency": null,
   "priceNote": null,
   "note": "Lien billetterie repris de l'agenda officiel de Vicar Street, fiche '2manydjs live in Vicar Street, 58/59 Thomas Street, Dublin 8, on 25 Oct 2026' : date et lieu confirmes par le site du lieu. ticketmaster.ie repond 403 au conteneur, tarif non lu."
+ },
+ {
+  "id": 752,
+  "status": "ok",
+  "url": "https://www.eventbrite.ie/e/photek-tickets-1997503387403",
+  "checked_on": "eventbrite.ie / songkick.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "JSON-LD Eventbrite : Photek, The Racket Space, Cross Guns Bridge, Drumcondra, Dublin 9, 2026-11-13 23:00, organisateur Bodytonic, availability InStock : date et lieu confirmes. Songkick annonce 'sold out' a partir de 17 EUR, mais la billetterie elle-meme affiche encore des billets (19,24 a 28,29 EUR frais compris), donc pas de palier fiable a reporter."
  }
 ]

@@ -78,5 +78,25 @@
   "currency": "€",
   "priceNote": null,
   "note": "Page officielle datee Ushuaia, ANTS le 03/10/2026, lowPrice 55 EUR InStock ; date et lieu confirmes."
+ },
+ {
+  "id": 699,
+  "status": "none",
+  "url": null,
+  "checked_on": "laterrrazza.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Agenda officiel de La Terrrazza lu en entier : la saison 2026 s'arrete le 11/10 (Closing Weekend 09-10-11/10) et il n'y a AUCUNE date au 17/10. 'Happy Techno' y est programme le 19/09/2026 (Saturday Sunset, lien RA 2395469). La fiche du catalogue au 17/10/2026 semble donc fausse, a re-verifier avant de lui poser un lien."
+ },
+ {
+  "id": 736,
+  "status": "ok",
+  "url": "https://es.ra.co/events/2377563",
+  "checked_on": "salarazzmatazz.com (lien officiel) ; ra.co inaccessible (403)",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Les quatre pages officielles Razzmatazz du 01/11/2026 (Fury, Madhouse, Kinyxx, Hardcore Maniaks, quatre salles du meme complexe) pointent toutes sur le meme billet RA 2377563 : date et lieu confirmes par le site du club, tarif non verifiable, ra.co repondant 403 depuis le conteneur."
  }
 ]

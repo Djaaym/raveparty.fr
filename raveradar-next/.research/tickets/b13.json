@@ -1,13 +1,23 @@
 [
  {
-  "id": 1399,
-  "status": "soldout",
-  "url": "https://www.francebillet.com/event/thylacine-tournee-la-belle-electrique-grenoble-21927839/",
-  "checked_on": "francebillet.com",
-  "price": null,
+  "id": 157,
+  "status": "none",
+  "url": null,
   "currency": null,
+  "price": null,
   "priceNote": null,
-  "note": "JSON-LD francebillet confirme Thylacine le 22/03/2027 20h a LA BELLE ELECTRIQUE GRENOBLE (12 esplanade Andry Farcy), mais availability=OutOfStock ; la billetterie officielle de la salle (billetterie.la-belle-electrique.com) est une SPA non lisible cote serveur."
+  "checked_on": "aluna-festival.fr",
+  "note": "La page billetterie officielle (aluna-festival.fr/billetterie-festival-ardeche/) affiche encore 'Billets pour Aluna Festival 2026' (jeu 25 / ven 26 / sam 27 juin, Gims, Damso...) et ses boutons Reserver pointent sur aluna.trium.fr/event/63791, edition 2026 ; rien n'est encore en vente pour l'edition des 24-26 juin 2027."
+ },
+ {
+  "id": 165,
+  "status": "ok",
+  "url": "https://lesnuitssecretes.com/billetterie-2027",
+  "checked_on": "lesnuitssecretes.com",
+  "price": 90,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page billetterie officielle de l'edition 2027 : 'RDV les 23.24.25 juillet 2027', pass 3 jours tarif preferentiel 90 EUR, widget Weezevent d'achat integre a la page (id_evenement 2247351)."
  },
  {
   "id": 454,
@@ -30,6 +40,16 @@
   "note": "Lien 'Billetterie' de la fiche officielle de La Machine du Moulin Rouge (datetime 2027-04-01T18:30, salle Central, Paris) ; renvoie sur la page Shotgun de l'evenement."
  },
  {
+  "id": 1399,
+  "status": "soldout",
+  "url": "https://www.francebillet.com/event/thylacine-tournee-la-belle-electrique-grenoble-21927839/",
+  "checked_on": "francebillet.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "JSON-LD francebillet confirme Thylacine le 22/03/2027 20h a LA BELLE ELECTRIQUE GRENOBLE (12 esplanade Andry Farcy), mais availability=OutOfStock ; la billetterie officielle de la salle (billetterie.la-belle-electrique.com) est une SPA non lisible cote serveur."
+ },
+ {
   "id": 1400,
   "status": "ok",
   "url": "https://www.francebillet.com/event/mosimann-dream-tour-zenith-de-strasbourg-europe-22055879/",
@@ -41,13 +61,13 @@
  },
  {
   "id": 1401,
-  "status": "ok",
-  "url": "https://www.halle-tony-garnier.com/fr/programmation/mosimann",
+  "status": "none",
+  "url": null,
   "checked_on": "halle-tony-garnier.com",
   "price": null,
   "currency": null,
   "priceNote": null,
-  "note": "Page officielle de la salle : Concert 16.04.27 MOSIMANN a la Halle Tony Garnier (Lyon), date et lieu confirmes ; la page ne porte pas de lien d'achat profond, seulement la liste des revendeurs (Fnac Spectacles, Ticketmaster...)."
+  "note": "Fiche officielle https://www.halle-tony-garnier.com/fr/programmation/mosimann confirme Concert 16.04.27 MOSIMANN a la Halle Tony Garnier (Lyon) et l'ouverture de la billetterie le 28 aout, mais elle ne porte aucun lien d'achat profond (seulement les logos Fnac Spectacles / Ticketmaster / Cultura vers leurs accueils) ; francebillet et fnacspectacles refusent leurs pages artiste/recherche depuis le conteneur, aucune URL d'achat n'a pu etre ouverte et verifiee."
  },
  {
   "id": 1402,
@@ -90,23 +110,43 @@
   "note": "Lien 'Reserver Ticketmaster' de la fiche officielle du Zenith Toulouse Metropole : MOSIMANN, jeudi 29 avr. 2027 20h, tarif 45 a 65 EUR, 'En vente'."
  },
  {
-  "id": 157,
+  "id": 2160,
   "status": "none",
   "url": null,
-  "currency": null,
+  "checked_on": "relikt.de / eventbrite.de / ra.co / moteurs",
   "price": null,
+  "currency": null,
   "priceNote": null,
-  "checked_on": "aluna-festival.fr",
-  "note": "La page billetterie officielle (aluna-festival.fr/billetterie-festival-ardeche/) affiche encore 'Billets pour Aluna Festival 2026' (jeu 25 / ven 26 / sam 27 juin, Gims, Damso...) et ses boutons Reserver pointent sur aluna.trium.fr/event/63791, edition 2026 ; rien n'est encore en vente pour l'edition des 24-26 juin 2027."
+  "note": "Aucune billetterie trouvee pour Trance 'n' Dance Gathering au Relikt (Wuppertal) le 18/09/2026 : relikt.de est un domaine en vente, relikt-wuppertal.de/.com et relikt.club ne resolvent pas, la recherche Eventbrite Wuppertal 'Relikt' ne rend rien, RA et les moteurs alternatifs sont bloques ou vides depuis le conteneur."
  },
  {
-  "id": 165,
+  "id": 2161,
   "status": "ok",
-  "url": "https://lesnuitssecretes.com/billetterie-2027",
-  "checked_on": "lesnuitssecretes.com",
-  "price": 90,
+  "url": "https://xceed.me/en/frankfurt/event/hypertrance-5/241344/channel/hypertrance",
+  "checked_on": "xceed.me (lien billetterie de tanzhaus-west.de)",
+  "price": 15,
   "currency": "€",
   "priceNote": null,
-  "note": "Page billetterie officielle de l'edition 2027 : 'RDV les 23.24.25 juillet 2027', pass 3 jours tarif preferentiel 90 EUR, widget Weezevent d'achat integre a la page (id_evenement 2247351)."
+  "note": "JSON-LD Xceed : HYPERTRANCE (3 Jahre), 18/09/2026 23h, Tanzhaus West, Gutleutstrasse 294 Frankfurt ; Blind 12 et Early Bird 15 SoldOut, encore InStock : Early Entry 15 EUR (entree avant minuit) et Regular 18 EUR."
+ },
+ {
+  "id": 2163,
+  "status": "ok",
+  "url": "https://ra.co/events/2499840",
+  "checked_on": "tresorberlin.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche officielle Tresor Berlin (tresorberlin.com/event/20260918-tresor-meets-tssrct/) : 'Fr 18.09 Tresor meets TSSRCT', timetable Tresor + Globus, 'Ticket Policy : Tickets via RA' avec ce lien unique ; page RA non lisible depuis le conteneur (403), donc tarif non releve."
+ },
+ {
+  "id": 2174,
+  "status": "ok",
+  "url": "https://milchsackfabrik.ticket.io/cAXbGEhD/",
+  "checked_on": "ticket.io (lien billetterie de tanzhaus-west.de)",
+  "price": 21,
+  "currency": "€",
+  "priceNote": null,
+  "note": "ticket.io Milchsackfabrik : Berliner Naechte, sam. 19/09/2026 23h, Tanzhaus West Frankfurt ; phases 10/12/12/16 EUR epuisees, seule la Ticketphase 2 a 21 EUR reste achetable."
  }
 ]

@@ -98,5 +98,55 @@
   "currency": "€",
   "priceNote": null,
   "note": "Lien billetterie pose par la fiche officielle de la salle gashouder.nl/programma/nia-archives (Emotional Tour) : WO 2 DEC '26 20:00 au Gashouder, tarif affiche 39,94 € ; date et lieu confirmes."
+ },
+ {
+  "id": 364,
+  "status": "ok",
+  "url": "https://muziekgieterij.stager.co/shop/muziekgieterij-midnight/events/111671566",
+  "checked_on": "muziekgieterij.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": "estimated",
+  "note": "Boutique Stager officielle du lieu, recuperee dans le champ stager_ticketshop_url de la fiche muziekgieterij.nl/event/link-w-dave-clarke-dj-hell-2026-11-14/ : Midnight presents LINK w/ Dave Clarke & DJ Hell, 14/11/2026 portes 22h30, Muziekgieterij Maastricht ; pas sold out (889 places restantes sur 1100), boutique en JS donc tarif non lisible."
+ },
+ {
+  "id": 2369,
+  "status": "ok",
+  "url": "https://www.tivolivredenburg.nl/agenda/73056473/joris-voorn-nicky-elisabeth-04-12-2026",
+  "checked_on": "tivolivredenburg.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Fiche officielle de la salle, avec sa billetterie integree, pour le vendredi 04/12/2026 dans la salle Ronda de TivoliVredenburg (Joris Voorn + Nicky Elisabeth) ; date et lieu confirmes, page derriere Cloudflare donc tarif non relu."
+ },
+ {
+  "id": 788,
+  "status": "soldout",
+  "url": "https://freeyourmindfestival.nl/events/vieze-asbak-b2b-kruelty-all-day-long/",
+  "checked_on": "freeyourmindfestival.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page officielle de l'organisateur Free Your Mind : 05/12/2026 17h, AFAS Live Amsterdam, mention 'This event is completely sold out' ; date et lieu confirmes, COMPLET."
+ },
+ {
+  "id": 802,
+  "status": "ok",
+  "url": "https://www.ticketmaster.nl/event/1847470494?brand=nl_melkweg",
+  "checked_on": "luminosity-events.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton 'buy tickets' de la fiche officielle luminosity-events.nl/cevent/luminosity-19-years-anniversary-2026-night/ : Melkweg Amsterdam, 19-20/12/2026 23h55-6h ; attention, l'edition DAY du meme jour est au Q-Factory et vend sur Paylogic, c'est bien la NIGHT qui correspond au Melkweg du catalogue."
+ },
+ {
+  "id": 792,
+  "status": "ok",
+  "url": "https://shop.tickets.cm.com/?productid=68593e2e-f3ea-b7b7-43bd-263f253d4b37",
+  "checked_on": "thebeginningofhouse.nl",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Bouton TICKETS de la ligne 'ZAT 12 DEC 2026 13:00-23:00 WINTER OF LOVE FESTIVAL 2026, Thuishaven Terrein Amsterdam' sur le site de l'organisateur thebeginningofhouse.nl (bit.ly/Winteroflove2026 -> boutique CM.com, 200 verifie) ; date et lieu confirmes, boutique en JS donc tarif non lisible."
  }
 ]

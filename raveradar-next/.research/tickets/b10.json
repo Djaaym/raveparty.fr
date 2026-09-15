@@ -10,16 +10,6 @@
   "note": "Page officielle La Coope 'RAEVERIE INVITE DAWN TO DUSK', samedi 5 décembre 2026 22h30, La Coopérative de Mai Clermont-Ferrand : date et lieu confirmés ; tarifs 15 (Citéjeune) / 19 (réduit) / 23 prévente / 25 sur place, donc 23 € en prévente plein tarif."
  },
  {
-  "id": 799,
-  "status": "ok",
-  "url": "https://billetterie.lacoope.org/share/event/1259-YAN-WAGNER-IL-EST-VILAINE",
-  "checked_on": "lacoope.org / billetterie.lacoope.org",
-  "price": 16,
-  "currency": "€",
-  "priceNote": null,
-  "note": "Page officielle 'YAN WAGNER - IL EST VILAINE', vendredi 18 décembre 2026 20h00 à La Coopérative de Mai : date et lieu confirmés ; tarifs 8 (Si T Jeune) / 12 (réduit) / 16 prévente / 19 sur place."
- },
- {
   "id": 436,
   "status": "ok",
   "url": "https://www.rise-festival.com/book-rise-2026-tickets",
@@ -80,14 +70,14 @@
   "note": "Page officielle lemem.fr/programmation/pact : 'Cartel [BZH] presente PACT, samedi 12 decembre 2026, 20:00, Le Magic Mirrors, 35 EUR frais de reservation inclus' ; date et lieu confirmes ; le bouton 'Reservez vite !' pointe sur laticketterie id_spectacle=1228 (page de vente en JS, non lisible en texte)."
  },
  {
-  "id": 446,
+  "id": 799,
   "status": "ok",
-  "url": "https://billet.laticketterie.fr/spectacle?id_spectacle=1236",
-  "checked_on": "lemem.fr",
-  "price": 30,
+  "url": "https://billetterie.lacoope.org/share/event/1259-YAN-WAGNER-IL-EST-VILAINE",
+  "checked_on": "lacoope.org / billetterie.lacoope.org",
+  "price": 16,
   "currency": "€",
   "priceNote": null,
-  "note": "Page officielle lemem.fr/programmation/nto : 'NTO, vendredi 15 janvier 2027, 20:00, Le Magic Mirrors, 30 EUR frais de reservation inclus' ; date et lieu confirmes ; bouton officiel vers laticketterie id_spectacle=1236."
+  "note": "Page officielle 'YAN WAGNER - IL EST VILAINE', vendredi 18 décembre 2026 20h00 à La Coopérative de Mai : date et lieu confirmés ; tarifs 8 (Si T Jeune) / 12 (réduit) / 16 prévente / 19 sur place."
  },
  {
   "id": 443,
@@ -128,5 +118,35 @@
   "currency": "€",
   "priceNote": null,
   "note": "Le bouton 'Billetterie' de la fiche officielle Stereolux (agenda/nto-1ere-partie, 'Jeu. 14 Janv. 2027 20:00, Salle Maxi') pointe sur Shotgun ; JSON-LD Shotgun confirme STEREOLUX Nantes le 14/01/2027, offre 'Debout - Placement libre' 29,90 EUR InStock."
+ },
+ {
+  "id": 818,
+  "status": "ok",
+  "url": "https://billetterie.zenith-dijon.fr/fr/product/5091/zenith_de_dijon/robot_rock_alive_daft_punk_tribute_zenith_de_dijon_jeudi_14_janvier_2027_20_00",
+  "checked_on": "zenith-dijon.fr + billetterie.zenith-dijon.fr",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle du Zenith ouverte : 'ROBOT ROCK ALIVE - DAFT PUNK TRIBUTE - ZENITH DE DIJON - Jeudi 14 janvier 2027 - 20:00' ; date et lieu confirmes ; categories en vente DEBOUT 39 EUR, CATEGORIE 1 / EARLY ENTRANCE 49 EUR, CARRE OR 59 EUR."
+ },
+ {
+  "id": 446,
+  "status": "ok",
+  "url": "https://billet.laticketterie.fr/spectacle?id_spectacle=1236",
+  "checked_on": "lemem.fr",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Page officielle lemem.fr/programmation/nto : 'NTO, vendredi 15 janvier 2027, 20:00, Le Magic Mirrors, 30 EUR frais de reservation inclus' ; date et lieu confirmes ; bouton officiel vers laticketterie id_spectacle=1236."
+ },
+ {
+  "id": 819,
+  "status": "ok",
+  "url": "https://summumgrenoble.fnacspectacles.com/event/robot-rock-alive-daft-punk-tribute-summum-21759275/",
+  "checked_on": "summum-grenoble.com",
+  "price": 39,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche officielle summum-grenoble.com/evenements/robot-rock-alive : 'Concert Robot Rock Alive, SUMMUM, 15 janvier 2027 | 20:00, tarifs de 39 EUR a 59 EUR' ; date et lieu confirmes ; le bouton 'Reserver vos places' pointe sur cette page evenement de la billetterie Fnac du Summum (le sous-domaine repond 403 aux robots, non ouverte directement)."
  }
 ]

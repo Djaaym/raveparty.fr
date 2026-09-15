@@ -42,3 +42,62 @@
 - 134 Dream Nation : seul le LATE TICKET à 61,90 € reste, catalogue à 40.
 - 777 FAIRGROUND : Standard Phase 1 à 86,11 €, le palier 60 € n'est plus vendu.
 - 1384 Kölsch : 19,99 € (le palier à 0 € est une guest list SoldOut), catalogue 24.
+
+## Éditions annoncées au catalogue mais introuvables à la source
+- id 383 Rong Open Air Malta 06-09/05/2027 : rongevents.com s'arrête à l'édition 2026,
+  le sitemap n'a aucune URL 2027, le slug 2027 rend 404. Aucune source ne confirme la date.
+- id 2394 Forbidden Fruit 05-06/06/2027 : le site officiel n'a qu'une page « SIGN UP FOR FF27 ».
+
+## Tarifs à arbitrer (écart important, source récente contre catalogue)
+- id 336 Anyma : DICE vend 85,74 €, le catalogue dit 126.
+- id 62 Zamna Tulum : seul un multipass 3 entrées à 375 USD est vendu, aucun billet
+  à la journée. Le 120 $ du catalogue n'est donc pas confirmé, et le pass ne le remplace pas.
+- id 344 Robot Festival : aucune entrée à 8 € constatée (soirée à partir de 35 €).
+
+## Contrôle d'affiliation (fait, RAS)
+147 hôtes distincts dans les lots, 103 jamais vus au catalogue. Les seuls liens
+rémunérés sont 7 Ticketmaster/Live Nation, tous couverts par AFFILIATE_HOSTS, donc
+rel="sponsored" se déduit du domaine sans rien déclarer fiche par fiche.
+go.kaboodle.co.uk résout vers bookings.kaboodle.com, portail de réservation propre
+à Snowbombing lié depuis son site officiel : non rémunéré, donc nofollow seul.
+
+## Annulé / inexistant, suite
+- id 1377 Fakear au Cabaret Aléatoire (Marseille) : donné ANNULÉ par Songkick, absent
+  de La Friche, de jds.fr et de la tournée. Seul 13.agendaculturel.fr le liste encore.
+- id 415 Sam Feldt au Central Chapelle le 09/10 : introuvable partout, y compris dans
+  l'agenda officiel du lieu (sept→déc 2026) et sur la fiche artiste Shotgun. Fiche
+  probablement erronée.
+
+## Doublons publiés, suite
+- 870 ≡ 1380 (Autechre) — même lien Shotgun.
+
+## Tarifs faux, suite
+- id 583 Mecanik Paradize : 39,90 €, le catalogue dit 25 en « estimated ».
+- id 1376 Fakear Grenoble : 27 €, catalogue 31,60.
+
+## Balayage des liens déjà en place (527 URLs re-vérifiées en série)
+
+434 URLs confirmées en vente par leur JSON-LD (`offers[].availability` = InStock).
+75 chez des hôtes qui bloquent tout robot, donc non vérifiables depuis le conteneur
+et laissées telles quelles : ticketmaster.*, goout.net, dice.fm, entrio.hr,
+eventu.al, pumpehuset.dk, ra.co en HTML.
+
+**13 dates dont la page s'affiche mais ne vend plus rien** (toutes les offres en
+SoldOut). Le lien n'est pas cassé et reste honnête, il montre la vérité, donc il
+n'a pas été changé : c'est une file de re-vérification, pas une correction. Une
+soirée épuisée peut être remise en vente, et l'organisateur vend parfois encore
+là où le guichet est fermé.
+
+  1358 Tiësto at GASWRX, Birmingham, 13/12
+  1313 Framework pres. Ben UFO & Papa Nugs, Leeds, 20/11
+  1243 Jamie Fielding + Hidde Van Wee, Leeds, 30/10
+  1220 Shy FX, Leeds, 24/10
+  1090 Circus Birthday, Liverpool, 26/09
+   796 Tiësto at Blackstone Street Warehouse, Liverpool, 12/12
+  1041 Crazy P Day Party, Liverpool, 19/09
+   690 Annie Mac at Invisible Wind Factory, Liverpool, 16/10
+    57 The Warehouse Project: KI/KI, Manchester, 18/09
+   469 The Warehouse Project: You&Me, Manchester, 03/10
+  1095 Tre Reynolds, Manchester, 26/09
+  1361 Afta Dark, Nottingham, 19/12
+  1074 Detonate x The Brickworks: LTJ Bukem, Nottingham, 25/09

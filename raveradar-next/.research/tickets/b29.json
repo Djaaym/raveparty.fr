@@ -1,0 +1,92 @@
+[
+ {
+  "id": 2223,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/bolivar/drumcode/athens/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Lien vivant: le 302 est la salle d'attente queue-it de more.com, pas une page morte (une URL inexistante renvoie 301 vers /404/); l'URL figure dans googlesitemap.xml de more.com."
+ },
+ {
+  "id": 2252,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/2026/oddity/blend/rodhad/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Idem: 302 vers queue-it (file d'attente), URL présente dans le sitemap de more.com, donc la page de vente existe."
+ },
+ {
+  "id": 2251,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/autechre/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "302 = salle d'attente queue-it; URL confirmee dans googlesitemap.xml de more.com."
+ },
+ {
+  "id": 2328,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/anyma-presents-aeden-in-athens/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "302 = salle d'attente queue-it; URL confirmee dans le sitemap more.com."
+ },
+ {
+  "id": 2338,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/2026/blend/seds/vlct/photon-athens/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "302 = salle d'attente queue-it; URL confirmee dans le sitemap more.com."
+ },
+ {
+  "id": 790,
+  "status": "ok",
+  "url": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/",
+  "checked_on": "more.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "302 = salle d'attente queue-it; URL confirmee dans le sitemap more.com."
+ },
+ {
+  "id": 2191,
+  "status": "ok",
+  "url": "https://www.ticketsms.it/event/Vision-Open-Air-Mfw-Presents-Michael-Bibi-At-Ex-Macello-Milano-Ex-Macello-Vision-24-09-2026",
+  "checked_on": "ticketsms.it / ra.co",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le 501 etait un blocage d'user-agent: la meme URL repond 200 avec un UA de navigateur, et l'API RA (event 2475920, Ex Macello Milan 24/09/2026) donne exactement cette URL en promotionalLink TicketSMS."
+ },
+ {
+  "id": 2019,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/eclypse-london",
+  "checked_on": "shotgun.live",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Le 000 etait passager: la page repond 200, JSON-LD 93 Feet East Londres, startDate 2026-10-03, billets pas encore ouverts (bouton d'alerte de mise en vente)."
+ },
+ {
+  "id": 381,
+  "status": "ok",
+  "url": "https://www.mastersofhardcore.com/tickets/masters-of-hardcore-2027-the-masterplan/",
+  "checked_on": "mastersofhardcore.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "Page de billetterie propre a l'edition, qui confirme 27 mars 2027, 13h-23h, Brabanthallen 's-Hertogenbosch, au lieu du listing /events; le module d'achat est charge en JS donc aucun tarif lisible cote serveur."
+ }
+]

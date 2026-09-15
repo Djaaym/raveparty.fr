@@ -1,3 +1,62 @@
 [
-{"id": 335, "status": "ok", "url": "https://3cket.com/pt/event/bloom-festival-2026", "checked_on": "bloomfestival.pt + 3cket.com", "price": 35, "currency": "€", "priceNote": null, "note": "Billetterie officielle liée depuis bloomfestival.pt/tickets ; date 18-19 septembre 2026 et Aeródromo da Maia confirmées ; journée vendredi 4e release 35 € (les 15/20/25/30 € sont épuisés ; il reste aussi une entrée anticipée avant 17h à 15 €)."}
+ {
+  "id": 335,
+  "status": "ok",
+  "url": "https://3cket.com/pt/event/bloom-festival-2026",
+  "checked_on": "bloomfestival.pt + 3cket.com",
+  "price": 35,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie officielle liée depuis bloomfestival.pt/tickets ; date 18-19 septembre 2026 et Aeródromo da Maia confirmées ; journée vendredi 4e release 35 € (les 15/20/25/30 € sont épuisés ; il reste aussi une entrée anticipée avant 17h à 15 €)."
+ },
+ {
+  "id": 2297,
+  "status": "ok",
+  "url": "https://listocheck.sk/detail/hvob",
+  "checked_on": "majestic.sk + listocheck.sk",
+  "price": 39.6,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Billetterie liée depuis la page programme de majestic.sk ; 17 octobre 2026, Majestic Music Club, Karpatská 2, Bratislava confirmés ; debout G/A 39,60 €, balcon assis 49,50 €."
+ },
+ {
+  "id": 773,
+  "status": "ok",
+  "url": "https://www.bol.pt/Comprar/Bilhetes/176065",
+  "checked_on": "bol.pt",
+  "price": 30,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche BOL officielle du Misty Fest : jeudi 26 nov. 2026 21:00, CCB Grande Auditório, Lisbonne confirmés ; grille de 30 € (camarotes/balcon latéral) à 80 €."
+ },
+ {
+  "id": 778,
+  "status": "soldout",
+  "url": "https://xceed.me/pt/porto/event/outworld-klangkuenstler-all-night-long/230507",
+  "checked_on": "xceed.me (billetterie du promoteur NEOPOP)",
+  "price": 53,
+  "currency": "€",
+  "priceNote": null,
+  "note": "28/11/2026 22h, Super Bock Arena - Pavilhão Rosa Mota, Porto confirmés ; l'unique offre « Bilhete | Acesso Geral » à 53 € est marquée SoldOut dans le JSON-LD ; superbockarena.pt/evento/outworld/ est derrière un WAF."
+ },
+ {
+  "id": 2268,
+  "status": "ok",
+  "url": "https://shotgun.live/en/events/ministerium-club-raresh",
+  "checked_on": "shotgun.live",
+  "price": 12,
+  "currency": "€",
+  "priceNote": null,
+  "note": "Fiche Shotgun de l'organisateur Ministerium Club : vendredi 9 octobre 23h59, Praça do Comércio 72, Lisbonne confirmés ; prix 12 € lu dans les données de la page."
+ },
+ {
+  "id": 849,
+  "status": "none",
+  "url": null,
+  "checked_on": "neopopfestival.com / antipopmusicfestival.com / masqueticket.com",
+  "price": null,
+  "currency": null,
+  "priceNote": null,
+  "note": "neopopfestival.com et .net redirigent vers antipopmusicfestival.com (« ANTIPOP - 20 Years of NEOPOP ») ; la page billetterie est vide côté serveur et masqueticket ne porte que l'édition 2026 (6-8 août 2026) marquée « finished event ». Aucune vente ouverte pour 2027."
+ }
 ]
