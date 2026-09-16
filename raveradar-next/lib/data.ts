@@ -6111,6 +6111,9 @@ const TICKETS: Record<number, string> = {
   2314: "https://www.ebilet.pl/lp/digitalism", // Digitalism à Niebo, Warsaw
   2318: "https://secure.tickster.com/sv/8wmayd9gxyabzdx/products", // Olof Dreijer au Pustervik, Gothenburg
   2332: "https://goout.net/sk/listky/ventolin+fvlcrvm-ventofu-tour-2026/szchamy/", // Ventolin et FVLCRVM à Bratislava, Bratislava
+  784: "https://shotgun.live/fr/events/pact-interference", // Joachim Pastor à l'Interférence, Balma
+  1392: "https://shotgun.live/fr/events/lewis-of-man-1-ere-partie", // Lewis Ofman à Grand Cab - La Friche Belle de Mai, Marseille
+  1401: "https://shotgun.live/fr/web/events/mosimann-halle-tony-garnier-lyon", // Mosimann à Halle Tony Garnier, Lyon
 };
 /* Ids dont le lien billetterie est une contrepartie commerciale (affiliation,
    partenariat payant). Google demande que ces liens sortants portent

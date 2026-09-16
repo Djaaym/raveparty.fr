@@ -53,3 +53,39 @@ d'un site demande au lecteur de refaire la recherche que la fiche connaissait d�
 `A-VERIFIER.md` porte ce que la campagne a trouvé **au-delà** des liens : dates
 contestées par la source officielle, doublons publiés, événements déplacés, tarifs
 faux. Rien n'y est corrigé automatiquement, ce sont des décisions éditoriales.
+
+## Le trou de la première campagne : l'agrégateur ne se consulte pas, il se balaie
+
+Une fiche signalée par le propriétaire (Mosimann à la Halle Tony Garnier) avait été
+examinée par un agent, qui avait rendu « aucun lien » après avoir lu la page du lieu
+et constaté que ses logos Fnac et Ticketmaster pointaient vers des accueils. Shotgun
+vendait la date. L'agent n'avait pas regardé.
+
+La faute est dans le prompt, pas dans l'agent : « cherche dans cet ordre d'autorité,
+site officiel puis les guichets » laisse chacun décider où s'arrêter, et beaucoup
+s'arrêtent au site du lieu. D'où `sg_index.py`, qui construit **un index complet de
+l'agenda Shotgun** (4 059 dates sur 80 zones) et l'apparie au catalogue.
+
+Quatre pièges payés en le construisant, tous du même genre, une mesure qui a l'air
+juste et qui ne regarde rien :
+
+- **Shotgun sert deux formes de lien**, `/en/events/{slug}` et `/en/web/events/{slug}`.
+  N'en reconnaître qu'une fait rendre « 0 date » à Paris, qui en porte 561.
+- **Il range par zone, pas par commune.** Marseille s'appelle `aix-marseille`, Balma
+  est dans `toulouse`. Un mauvais slug rend une coquille vide de 124 Ko qui se lit
+  exactement comme « aucune date ». La liste qui fait autorité est le `CITIES` de
+  `.research/sources/shotgun.py`. Anvers, Gand, Rotterdam, Utrecht et Graz ne sont
+  pas couverts du tout : leur zéro est vrai.
+- **La correspondance par sous-chaîne fabrique des faux**, c'est la règle « Ain est
+  une sous-chaîne de Saintes » appliquée aux salles. Sur trois appariements bruts,
+  deux étaient faux : une soirée lausannoise appariée à Porto, une zurichoise à Lyon.
+  Il faut comparer des **mots entiers** et **vérifier la ville sur la page ouverte**.
+- **Ville et jour ne suffisent toujours pas** : deux concerts différents partagent
+  souvent une salle et une date (Mentissa et PACT à l'Interférence le 04/12). Le
+  départage se fait sur le **nom de l'artiste** présent dans le titre Shotgun.
+
+Et une leçon sur le script lui-même : la première exécution a parcouru ses 80 zones
+puis est morte avant d'écrire son fichier, emportant quarante minutes de collecte.
+C'est la règle « écrire dès les 5 premiers puis toutes les ~5 fiches, jamais une
+seule écriture finale » que le dépôt impose aux agents de recherche, et qu'il faut
+appliquer à ses propres outils : `sg_index.py` écrit à chaque zone et sait reprendre.

@@ -1,0 +1,14 @@
+[
+ {"id": 784, "status": "ok",
+  "url": "https://shotgun.live/fr/events/pact-interference",
+  "checked_on": "shotgun.live", "price": null, "currency": null, "priceNote": null,
+  "note": "Shotgun « Joachim Pastor, Joris Delacroix & Teho : Pact - Interference », 04/12/2026, addressLocality Balma : ville, date et nom d'artiste concordent. Le voisin mentissa-interference, meme salle le meme soir, est ecarte."},
+ {"id": 1392, "status": "ok",
+  "url": "https://shotgun.live/fr/events/lewis-of-man-1-ere-partie",
+  "checked_on": "shotgun.live", "price": null, "currency": null, "priceNote": null,
+  "note": "Shotgun « Lewis Ofman + 1ere Partie @ Grand Cab », 18/02/2027, addressLocality Marseille : ville, date, salle et artiste concordent."},
+ {"id": 1401, "status": "ok",
+  "url": "https://shotgun.live/fr/web/events/mosimann-halle-tony-garnier-lyon",
+  "checked_on": "shotgun.live", "price": null, "currency": null, "priceNote": null,
+  "note": "Shotgun « Mosimann - Halle Tony Garnier, Lyon », 16/04/2027, addressLocality Lyon : ville, date, salle et artiste concordent."}
+]
