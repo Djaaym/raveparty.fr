@@ -163,8 +163,112 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
           <h1 className="h-lg" style={{ margin: "14px 0 8px" }}>
             {t("artists.title")}
           </h1>
-          <p className="lead">{t("artists.lead")}</p>
-          <p className="lead">{intro}</p>
+          {/* La description prend toute la largeur, en deux colonnes : plafonnée à
+              56ch elle s'arrêtait au tiers d'une page qui fait 85 % de la fenêtre.
+              Voir `.hubintro` dans globals.css. */}
+          <div className="hubintro">
+            <div className="hubintro-in">
+              <p>{t("artists.lead")}</p>
+              <p>{intro}</p>
+            </div>
+          </div>
+
+          {/* L'annuaire est ce pour quoi cette page existe : il passe donc en premier,
+              champ de recherche compris, juste sous la description. Il vivait sous la
+              grille « Prochaines dates », quatre écrans plus bas, et une boîte de
+              recherche qu'il faut trouver en déroulant est une boîte que personne
+              n'utilise. Les fiches développées, elles, ont glissé en bas de page : ce
+              sont douze artistes sur 6 750, une mise en avant, pas la porte d'entrée. */}
+          <h2 className="h-md" style={{ margin: "40px 0 0" }}>
+            {t("artists.az")}
+          </h2>
+          <ArtistDirectory
+            items={artistItems}
+            hrefBase={`${p}/artistes/`}
+            placeholder={t("filter.artists")}
+            countLabel={t("filter.count")}
+            emptyLabel={t("filter.none")}
+            clearLabel={t("filter.clear")}
+            dateLabel={t("dyn.event")}
+            datesLabel={t("dyn.events")}
+            artistLabel={t("dyn.artist")}
+            artistsLabel={t("dyn.artists")}
+            jumpLabel={t("artists.jump")}
+            openLabel={t("artists.openall")}
+            closeLabel={t("artists.closeall")}
+            genres={ALL_GENRES}
+            subs={subLabels}
+          />
+
+          {credits.length > 0 && (
+            <details className="az-credits">
+              <summary>{t("artists.credits").replace("{n}", String(credits.length))}</summary>
+              <ul>
+                {credits.map((c) => {
+                  const src = photoSource(c.page);
+                  return (
+                    <li key={c.file}>
+                      {c.name}, {c.author}, {c.license}
+                      {src && (
+                        <>
+                          {" ("}
+                          <a href={src.href} target="_blank" rel={outboundRel()}>
+                            {src.label}
+                          </a>
+                          {")"}
+                        </>
+                      )}
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          )}
+
+          <div className="linkfarm" style={{ marginTop: 44 }}>
+            <Link href={`${p}/rave-party/ce-week-end`}>🔥 {t("soon.crumb")}</Link>
+            <Link href={`${p}/rave-party/autour-de-moi`}>📍 {t("near.crumb")}</Link>
+            <Link href={`${p}/genres`}>🎚 {t("nav.genres")}</Link>
+            <Link href={`${p}/villes`}>🌍 {t("nav.cities")}</Link>
+            <Link href={`${p}/lieux`}>🏛 {t("nav.venues")}</Link>
+            <Link href={`${p}/explore`}>▦ {t("nav.explore")}</Link>
+          </div>
+
+          {next.length > 0 && (
+            <>
+              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
+                {t("hub.next")}
+              </h2>
+              <div className="grid grid-4">
+                {next.map((e) => (
+                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
+                ))}
+              </div>
+            </>
+          )}
+
+
+          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+            {t("hub.bygenre")}
+          </h2>
+          <div className="linkfarm">
+            {ALL_GENRES.map((g) => (
+              <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
+                {g}
+              </Link>
+            ))}
+          </div>
+
+          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
+            {t("hub.venues")}
+          </h2>
+          <div className="linkfarm">
+            {venues.map((v) => (
+              <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
+                🏛 {v.name}
+              </Link>
+            ))}
+          </div>
 
           {featured.length > 0 && (
             <>
@@ -245,98 +349,6 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
               </div>
             </>
           )}
-
-          {/* The directory is what this page is for, so it comes first, filter
-              included. It used to sit below the "next dates" grid, four screens
-              down, which is where search boxes go to be never used. */}
-          <h2 className="h-md" style={{ margin: "40px 0 0" }}>
-            {t("artists.az")}
-          </h2>
-          <ArtistDirectory
-            items={artistItems}
-            hrefBase={`${p}/artistes/`}
-            placeholder={t("filter.artists")}
-            countLabel={t("filter.count")}
-            emptyLabel={t("filter.none")}
-            clearLabel={t("filter.clear")}
-            dateLabel={t("dyn.event")}
-            datesLabel={t("dyn.events")}
-            artistLabel={t("dyn.artist")}
-            artistsLabel={t("dyn.artists")}
-            jumpLabel={t("artists.jump")}
-            genres={ALL_GENRES}
-            subs={subLabels}
-          />
-
-          {credits.length > 0 && (
-            <details className="az-credits">
-              <summary>{t("artists.credits").replace("{n}", String(credits.length))}</summary>
-              <ul>
-                {credits.map((c) => {
-                  const src = photoSource(c.page);
-                  return (
-                    <li key={c.file}>
-                      {c.name}, {c.author}, {c.license}
-                      {src && (
-                        <>
-                          {" ("}
-                          <a href={src.href} target="_blank" rel={outboundRel()}>
-                            {src.label}
-                          </a>
-                          {")"}
-                        </>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-            </details>
-          )}
-
-          <div className="linkfarm" style={{ marginTop: 44 }}>
-            <Link href={`${p}/rave-party/ce-week-end`}>🔥 {t("soon.crumb")}</Link>
-            <Link href={`${p}/rave-party/autour-de-moi`}>📍 {t("near.crumb")}</Link>
-            <Link href={`${p}/genres`}>🎚 {t("nav.genres")}</Link>
-            <Link href={`${p}/villes`}>🌍 {t("nav.cities")}</Link>
-            <Link href={`${p}/lieux`}>🏛 {t("nav.venues")}</Link>
-            <Link href={`${p}/explore`}>▦ {t("nav.explore")}</Link>
-          </div>
-
-          {next.length > 0 && (
-            <>
-              <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
-                {t("hub.next")}
-              </h2>
-              <div className="grid grid-4">
-                {next.map((e) => (
-                  <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
-                ))}
-              </div>
-            </>
-          )}
-
-
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("hub.bygenre")}
-          </h2>
-          <div className="linkfarm">
-            {ALL_GENRES.map((g) => (
-              <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
-                {g}
-              </Link>
-            ))}
-          </div>
-
-          <h2 className="h-md" style={{ margin: "48px 0 16px" }}>
-            {t("hub.venues")}
-          </h2>
-          <div className="linkfarm">
-            {venues.map((v) => (
-              <Link key={v.slug} href={`${p}/lieux/${v.slug}`}>
-                🏛 {v.name}
-              </Link>
-            ))}
-          </div>
 
           <Fold title={<>{t("artists.faq")}</>}>
             <div className="grid grid-2">

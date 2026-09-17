@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 export interface DirectoryArtist {
   slug: string;
@@ -36,9 +36,16 @@ const anchorOf = (letter: string) => `az-${letter === "#" ? "num" : letter.toLow
  * It replaces a single flat wall of 1 860 tiles that a reader could only scan by
  * eye. Three things changed and each earns its place:
  *
- * - **Sections with a big letter.** The list was already alphabetical, but nothing
- *   said so on screen: without a break between "Amelie Lens" and "Boys Noize" the
- *   order is invisible, and a reader scrolling for "K" has no idea how far to go.
+ * - **Sections with a big letter, fermées par défaut.** The list was already
+ *   alphabetical, but nothing said so on screen: without a break between "Amelie
+ *   Lens" and "Boys Noize" the order is invisible, and a reader scrolling for "K"
+ *   has no idea how far to go. Dépliées, en revanche, les 27 sections empilent
+ *   6 750 vignettes et repoussent tout le bas de page hors de portée : chacune est
+ *   donc un `<details>` replié, qu'on ouvre à la demande. **C'est un `<details>` et
+ *   pas un rendu conditionnel** : le contenu reste dans le HTML rendu au serveur,
+ *   donc le maillage qu'un crawler suit ne change pas d'un lien. Une recherche
+ *   active rouvre d'office les sections qu'elle garde, sinon le filtre ne montrerait
+ *   que des en-têtes.
  * - **The filter sits at the top, and it sticks.** It used to live below the
  *   "next dates" grid, four screens down, a search box you have to find by
  *   scrolling is a search box nobody uses. Sticky, it stays reachable from the
@@ -78,6 +85,8 @@ export default function ArtistDirectory({
   artistLabel,
   artistsLabel,
   jumpLabel,
+  openLabel,
+  closeLabel,
   genres,
   subs,
 }: {
@@ -96,6 +105,9 @@ export default function ArtistDirectory({
   artistLabel: string;
   artistsLabel: string;
   jumpLabel: string;
+  /** "Tout ouvrir" / "Tout fermer", the two states of the same button. */
+  openLabel: string;
+  closeLabel: string;
   /** Genre labels, indexed by `DirectoryArtist.g`. */
   genres: string[];
   /** Sub-genre labels, indexed by `DirectoryArtist.sg`. */
@@ -136,6 +148,21 @@ export default function ArtistDirectory({
   const count = shown.reduce((n, s) => n + s.rows.length, 0);
   const live = new Set(shown.map((s) => s.letter));
 
+  /* Les lettres ouvertes à la main. Une recherche active passe devant : filtrer sur
+     des sections fermées ne rendrait qu'une colonne d'en-têtes, c'est-à-dire un
+     filtre qui n'affiche rien de ce qu'il a trouvé. */
+  const [open, setOpen] = useState<Set<string>>(() => new Set());
+  const isOpen = (letter: string) => needle !== "" || open.has(letter);
+  const toggle = useCallback((letter: string, next?: boolean) => {
+    setOpen((prev) => {
+      const s2 = new Set(prev);
+      if (next ?? !s2.has(letter)) s2.add(letter);
+      else s2.delete(letter);
+      return s2;
+    });
+  }, []);
+  const allOpen = shown.length > 0 && shown.every((s) => open.has(s.letter));
+
   return (
     <div className="az">
       <div className="az-bar">
@@ -164,11 +191,27 @@ export default function ArtistDirectory({
               href={`#${anchorOf(s.letter)}`}
               className={live.has(s.letter) ? undefined : "is-off"}
               aria-disabled={live.has(s.letter) ? undefined : true}
+              /* Un index qui saute à une section fermée n'amène le lecteur que sur
+                 son en-tête : il l'ouvre donc au passage, c'est ce qu'on demande en
+                 cliquant sur une lettre. */
+              onClick={() => toggle(s.letter, true)}
             >
               {s.letter}
             </a>
           ))}
         </nav>
+        {/* Pendant une recherche, tout est déjà ouvert : le bouton n'aurait rien à
+            dire, et « Tout fermer » masquerait ce que le filtre vient de trouver. */}
+        {needle === "" && (
+          <div className="az-tools">
+            <button
+              type="button"
+              onClick={() => setOpen(allOpen ? new Set() : new Set(shown.map((s) => s.letter)))}
+            >
+              {allOpen ? closeLabel : openLabel}
+            </button>
+          </div>
+        )}
       </div>
 
       <p className="result-count az-count">
@@ -183,15 +226,31 @@ export default function ArtistDirectory({
         </p>
       ) : (
         shown.map((s) => (
-          <section key={s.letter} id={anchorOf(s.letter)} className="az-section">
-            <h2 className="az-head">
-              <span className="az-letter" aria-hidden="true">
-                {s.letter}
-              </span>
+          <details
+            key={s.letter}
+            id={anchorOf(s.letter)}
+            className="az-section"
+            open={isOpen(s.letter)}
+            /* `onToggle` plutôt que `onClick` sur le résumé : c'est le seul événement
+               que le clavier (Entrée, Espace) déclenche aussi. Sur une section forcée
+               ouverte par le filtre, on n'enregistre rien, elle se refermera d'elle-même
+               quand la recherche sera vidée. */
+            onToggle={(e) => {
+              if (needle === "") toggle(s.letter, (e.currentTarget as HTMLDetailsElement).open);
+            }}
+          >
+            <summary className="az-head">
+              {/* Le titre reste un titre : `<summary>` accepte un élément de
+                  contenu d'en-tête, et la hiérarchie h1 → h2 → h3 de la page ne
+                  doit pas se perdre parce que la section se replie. */}
+              <h3 className="az-letter">{s.letter}</h3>
               <span className="az-meta">
                 {s.rows.length} {s.rows.length > 1 ? artistsLabel : artistLabel}
               </span>
-            </h2>
+              <span className="az-caret" aria-hidden="true">
+                ▶
+              </span>
+            </summary>
             <div className="artist-grid">
               {s.rows.map((a) => (
                 <Link key={a.slug} href={`${hrefBase}${a.slug}`} className="artist-tile">
@@ -225,7 +284,7 @@ export default function ArtistDirectory({
                 </Link>
               ))}
             </div>
-          </section>
+          </details>
         ))
       )}
     </div>
