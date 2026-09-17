@@ -128,7 +128,8 @@ for path in sorted(glob.glob(os.path.join(HERE, "promoters-*.json"))):
         if not held:
             errors.append(f"{where} ({r['name']}) : aucune date au catalogue, sa page serait vide")
             continue
-        venues = {slugify(e["venue"]) for e in held}
+        # La salle qui porte le nom de la marque ne compte que pour une, cf. `spread()`.
+        venues = {slug if slugify(e["venue"]).startswith(slug) else slugify(e["venue"]) for e in held}
         cities = {slugify(e["city"]) for e in held}
         titles = {slugify(e["title"]) for e in held}
         if len(held) < 2 or (len(venues) < 2 and len(cities) < 2) or len(titles) < 2:
