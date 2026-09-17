@@ -27,6 +27,7 @@ import { eventSocials, sameAs } from "@/lib/socials";
 import { breadcrumbJsonLd, eventJsonLd, faqJsonLd } from "@/lib/seo";
 import { eventCopy, inCountry } from "@/lib/pagecopy";
 import Fold from "./Fold";
+import { promotersForEvent } from "@/lib/promoters";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -57,6 +58,7 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const live = isLive(e);
   const next = done ? nextEdition(e) : undefined;
   const place = placeFor(e);
+  const promoters = promotersForEvent(e);
   const today = todayISO();
   // Les éditions déjà passées du même festival. Le slug nu appartient à l'édition en
   // cours, les autres portent leur année : sans ce bloc, leurs pages n'avaient aucun lien
@@ -152,6 +154,14 @@ export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
                 {e.genres.map((gg) => (
                   <Link className="tag type" key={gg} href={`${p}/genres/${genreSlug(gg)}`}>
                     {gg}
+                  </Link>
+                ))}
+                {/* La marque qui programme la nuit, quand elle a une fiche : c'est
+                    l'information que ni la salle ni le genre ne portent. Filtrée sur
+                    `PROMOTERS`, donc jamais un lien vers une page qui n'existe pas. */}
+                {promoters.map((x) => (
+                  <Link className="tag type" key={x.slug} href={`${p}/organisateurs/${x.slug}`}>
+                    🎛 {x.name}
                   </Link>
                 ))}
               </div>

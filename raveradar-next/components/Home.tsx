@@ -297,6 +297,12 @@ export default function Home({ lang }: { lang: Lang }) {
                 <Link href={`${p}/pays`} className="more">
                   🌍 {t("nav.countries")}
                 </Link>
+                {/* L'intention « qui programme » (« teletech », « awakenings ») n'est
+                    portée ni par une ville ni par une salle : une marque change de
+                    salle et une salle change de marque. */}
+                <Link href={`${p}/organisateurs`} className="more">
+                  🎛 {t("nav.organizers")}
+                </Link>
               </div>
             </>
           )}

@@ -67,7 +67,7 @@ export interface GenreColor {
  * du projet est qu'un module client ne cite jamais `lib/data.ts`, et l'index en dérive.
  * Un type dans le module feuille ferme la porte au lieu de compter sur l'effacement.
  */
-export type SuggestKind = "artist" | "city" | "festival" | "event" | "venue" | "genre" | "country";
+export type SuggestKind = "artist" | "city" | "festival" | "event" | "venue" | "genre" | "country" | "promoter";
 
 export interface Suggestion {
   /** Le type, qui décide de l'icône et du groupe dans le menu. */

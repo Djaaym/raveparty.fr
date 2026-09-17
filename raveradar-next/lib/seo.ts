@@ -394,3 +394,43 @@ export function venueJsonLd(
 
 /** Convenience for building the "X à Y" label used in breadcrumbs and headings. */
 export const countryName = (c: string, lang: Lang) => countryLabel(c, lang);
+
+/**
+ * Une fiche d'organisateur, en `Organization`.
+ *
+ * Pas `MusicVenue` : une marque de soirées n'a ni adresse ni jauge, et l'annoncer
+ * comme une salle en ferait un doublon de `/lieux/{slug}` aux yeux de Google, ce que
+ * `lib/promoters.ts` s'emploie précisément à éviter. `sameAs` ne porte que les comptes
+ * de la marque elle-même, jamais ceux d'une salle qu'elle occupe : déclarer les deux
+ * sous la même entité dirait qu'elles n'en font qu'une.
+ */
+export function promoterJsonLd(
+  p: { name: string; slug: string; city: string; country: string; desc: string; since?: number },
+  events: RaveEvent[],
+  lang: Lang,
+  sameAs: string[] = [],
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: p.name,
+    url: abs(lang, `/organisateurs/${p.slug}`),
+    description: p.desc,
+    ...(p.since ? { foundingDate: String(p.since) } : {}),
+    location: {
+      "@type": "Place",
+      address: { "@type": "PostalAddress", addressLocality: p.city, addressCountry: p.country },
+    },
+    ...(sameAs.length ? { sameAs } : {}),
+    ...(events.length
+      ? {
+          event: events.map((e) => ({
+            "@type": "MusicEvent",
+            name: e.title,
+            startDate: `${e.date}T${e.time}:00`,
+            url: abs(lang, eventPath(e)),
+          })),
+        }
+      : {}),
+  };
+}

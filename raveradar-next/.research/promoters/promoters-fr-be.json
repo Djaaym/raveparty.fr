@@ -1,0 +1,259 @@
+[
+  {
+    "slug": "fuse",
+    "name": "Fuse",
+    "kind": "club",
+    "city": "Brussels",
+    "country": "Belgium",
+    "since": 1994,
+    "desc": "Ouvert en avril 1994 rue Blaes, dans un ancien cinéma des Marolles, Fuse est le plus ancien club techno de Bruxelles et programme lui-même ses nuits sous les bannières « Fuse presents », « SESH » et « The Third Room ». La maison porte aussi une équipe de résidents et un label.",
+    "descEn": "Opened in April 1994 on Rue Blaes, in a former cinema in the Marolles district, Fuse is Brussels' oldest techno club and books its own nights under the \"Fuse presents\", \"SESH\" and \"The Third Room\" banners. It also runs a resident DJ team and a record label.",
+    "site": "https://www.fuse.be/",
+    "instagram": "https://www.instagram.com/fusebrussels",
+    "match": [
+      "fuse presents",
+      "fuse sesh",
+      "fuse the third room"
+    ],
+    "venues": [
+      "Fuse"
+    ],
+    "verified": "Année d'ouverture (avril 1994), adresse rue Blaes 208 et statut de plus ancien club techno belge : Wikipedia EN et BRUZZ. Instagram relevé dans le pied de page de fuse.be. Les trois libellés de match touchent 12 lignes du catalogue, toutes à la salle Fuse de Bruxelles ; le mot nu « fuse » a été écarté parce qu'il attrapait aussi « 13 Ans Des Vision Room- Sparkoh!-Bours?(Fuse,Tresor Berlin) » à Frameries, qui n'est pas une soirée Fuse.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fuse_(club)",
+      "https://www.bruzz.be/en/culture/music/25-years-fuse-secret-stay-close-dancefloor-2019-05-03",
+      "https://www.fuse.be/about"
+    ]
+  },
+  {
+    "slug": "c12",
+    "name": "C12",
+    "kind": "club",
+    "city": "Brussels",
+    "country": "Belgium",
+    "since": 2018,
+    "desc": "Ouvert le 2 février 2018 dans la galerie Horta, sous la gare centrale de Bruxelles, C12 est une plateforme pluridisciplinaire lancée par le collectif Deep in House. Mille places, house et techno, mais aussi installations, expositions et soirées invitées sous l'intitulé « C12 Nite ».",
+    "descEn": "Opened on 2 February 2018 in the Horta Gallery, beneath Brussels Central Station, C12 is a multidisciplinary platform launched by the Deep in House collective. A 1,000-capacity room for house and techno, plus art installations, exhibitions and guest nights billed as \"C12 Nite\".",
+    "site": "https://c12space.com/",
+    "instagram": "https://www.instagram.com/c12_bxl",
+    "match": [
+      "c12"
+    ],
+    "venues": [],
+    "verified": "Date d'ouverture (2 février 2018), adresse galerie Horta et rattachement au collectif Deep in House : Grokipedia et le reportage Vice sur le club. Instagram relevé dans le pied de page de c12space.com. Le match « c12 » touche 4 lignes du catalogue, toutes des soirées C12 à Bruxelles (dont l'open air C12 x Gimic x Circle Park) ; `venues` laissé vide, le club accueille aussi des collectifs invités.",
+    "sources": [
+      "https://c12space.com/",
+      "https://www.vice.com/fr/article/clubber-puis-tout-cleaner-la-double-vie-du-c12-sous-la-gare-centrale/"
+    ]
+  },
+  {
+    "slug": "kompass-klub",
+    "name": "Kompass Klub",
+    "kind": "club",
+    "city": "Ghent",
+    "country": "Belgium",
+    "since": 2016,
+    "desc": "Né d'un projet éphémère, Kompass Klub s'installe le 30 avril 2016 dans un entrepôt d'une zone industrielle du sud de Gand, puis Vliegtuiglaan depuis 2025. Trois salles, techno et house, et le titre de meilleur club belge aux Red Bull Elektropedia Awards en novembre 2018.",
+    "descEn": "Born as a pop-up project, Kompass Klub moved into a warehouse in an industrial park south of Ghent on 30 April 2016, and has been on Vliegtuiglaan since 2025. Three rooms, techno and house, and named best Belgian nightclub at the Red Bull Elektropedia Awards in November 2018.",
+    "site": "https://kompassklub.com/",
+    "instagram": "https://www.instagram.com/kompassklub",
+    "match": [
+      "kompass"
+    ],
+    "venues": [],
+    "verified": "Ouverture du 30 avril 2016, déménagements, adresse Vliegtuiglaan 12 et prix Red Bull Elektropedia 2018 : Wikipedia EN. Instagram relevé dans le pied de page de kompassklub.com. Le match « kompass » touche 3 lignes du catalogue, toutes à la salle Kompass Klub de Gand ; `venues` laissé vide parce que le festival Full Circle y programme aussi une nuit.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kompass_Klub",
+      "https://kompassklub.com/"
+    ]
+  },
+  {
+    "slug": "kodz",
+    "name": "Kodz",
+    "kind": "club",
+    "city": "Englos",
+    "country": "France",
+    "since": 2025,
+    "desc": "Installé depuis le 5 septembre 2025 dans l'ancien Macumba du centre commercial d'Englos, aux portes de Lille, Kodz est présenté comme le plus grand club techno du nord de la France : 1 500 m2 pour un millier de personnes. Il signe lui-même ses nuits, seul ou en association avec d'autres collectifs, sous les intitulés « Kodz Presents » et « Kodz X ».",
+    "descEn": "Open since 5 September 2025 in the former Macumba at the Englos shopping centre, on the edge of Lille, Kodz bills itself as the largest techno club in northern France: 1,500 sq m for around a thousand people. It books its own nights, alone or with guest collectives, under the \"Kodz Presents\" and \"Kodz X\" banners.",
+    "instagram": "https://www.instagram.com/kodzclub",
+    "match": [
+      "kodz"
+    ],
+    "venues": [],
+    "verified": "Date d'inauguration (5 septembre 2025 : l'article est publié le 5 novembre 2025 et écrit « le 5 septembre dernier »), reprise du dernier Macumba de France, surface et capacité : electro-news.eu. Adresse (Aushopping Englos Les Géants) et compte Instagram @kodzclub : fiche de lieu 7kulturs. Pas de site officiel, la marque renvoie vers un Linktree, donc le champ est omis. Le match « kodz » touche 12 lignes du catalogue, toutes à la salle Kodz d'Englos.",
+    "sources": [
+      "https://electro-news.eu/le-dernier-macumba-de-france-sest-desormais-transforme-en-bastion-techno-aux-portes-de-lille/",
+      "https://www.7kulturs.com/evenements/lieux/kodz-club-lille/",
+      "https://www.instagram.com/kodzclub/"
+    ]
+  },
+  {
+    "slug": "club-de-jour",
+    "name": "Club de Jour",
+    "kind": "organisateur",
+    "city": "Nantes",
+    "country": "France",
+    "desc": "Club de Jour est le format diurne du Warehouse, à Nantes : une soirée de 19 h à minuit, six heures au lieu d'une nuit entière, pensée pour danser tôt et rentrer dormir. La direction artistique tourne autour de la house et de ses ramifications (disco, funk, électro hybride), avec des invités comme Kölsch, Guts, Bellaire ou Dimitri from Paris.",
+    "descEn": "Club de Jour is Warehouse Nantes' daytime format: a 7pm to midnight party, six hours instead of a full night, built for dancing early and still getting some sleep. The booking policy centres on house and its offshoots (disco, funk, hybrid electro) with guests such as Kölsch, Guts, Bellaire and Dimitri from Paris.",
+    "site": "https://www.warehouse-nantes.fr/concept/club-de-jour",
+    "instagram": "https://www.instagram.com/warehousenantes",
+    "match": [
+      "club de jour"
+    ],
+    "venues": [],
+    "verified": "Format, horaires (19 h à minuit) et direction artistique : page concept du Warehouse Nantes, qui porte la marque. Aucune source ne donne l'année de lancement, le champ since est donc omis. Instagram du Warehouse relevé dans le pied de page de warehouse-nantes.fr, la marque n'ayant pas de compte à elle. Le match « club de jour » touche 5 lignes du catalogue, toutes au Warehouse de Nantes.",
+    "sources": [
+      "https://www.warehouse-nantes.fr/concept/club-de-jour",
+      "https://www.infos-nantes.fr/nantes-le-warehouse-innove-avec-un-club-de-jour-et-des-soirees-pour-femmes/"
+    ]
+  },
+  {
+    "slug": "astropolis",
+    "name": "Astropolis",
+    "kind": "organisateur",
+    "city": "Brest",
+    "country": "France",
+    "since": 1995,
+    "desc": "Né à l'été 1995 dans le Nord-Finistère, Astropolis est le plus ancien festival de musiques électroniques encore en activité en France. Rave éphémère devenue festival urbain, il investit chaque été le Manoir de Keroual et les salles de Brest, et prolonge l'année par ses formats Astroclub et Cabaret Sonique.",
+    "descEn": "Born in the summer of 1995 in northern Finistere, Astropolis is the oldest electronic music festival still running in France. Once a one-off rave, now a city-wide festival, it takes over the Manoir de Keroual and Brest's venues every summer and carries on year-round through its Astroclub and Cabaret Sonique nights.",
+    "site": "https://astropolis.org/",
+    "instagram": "https://www.instagram.com/astropolis",
+    "match": [
+      "astropolis",
+      "astroclub",
+      "cabaret sonique"
+    ],
+    "venues": [],
+    "verified": "Année de création (été 1995) et statut de plus ancien festival électronique français : Wikipédia FR et la page d'accueil d'astropolis.org (« ASTROPOLIS · 30 ANS », « L'été 1995 voyait naître... »). Les formats Astroclub (à La Suite) et Cabaret Sonique (au Cabaret Vauban) figurent dans l'agenda d'astropolis.org, aux mêmes salles brestoises que les lignes du catalogue. Instagram relevé sur astropolis.org. Les trois libellés touchent 3 lignes du catalogue, toutes à Brest.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Astropolis",
+      "https://astropolis.org/"
+    ]
+  },
+  {
+    "slug": "nuits-sonores",
+    "name": "Nuits sonores",
+    "kind": "organisateur",
+    "city": "Lyon",
+    "country": "France",
+    "since": 2003,
+    "desc": "Créé en 2003 par l'association lyonnaise Arty Farty, Nuits sonores est le grand rendez-vous des musiques électroniques et indépendantes de Lyon, cinq jours autour du week-end de l'Ascension. Le festival ne s'installe jamais durablement : il investit des friches industrielles et des espaces publics, dont les Grandes Locos depuis 2024.",
+    "descEn": "Founded in 2003 by the Lyon association Arty Farty, Nuits sonores is the city's landmark electronic and independent music festival, five days around the Ascension weekend. It never settles in one place: it takes over industrial wastelands and public spaces, including Les Grandes Locos since 2024.",
+    "site": "https://www.nuits-sonores.com/",
+    "instagram": "https://www.instagram.com/nuits_sonores",
+    "match": [
+      "nuits sonores"
+    ],
+    "venues": [],
+    "verified": "Année de création (2003), association organisatrice (Arty Farty), format de cinq jours en mai et installation aux Grandes Locos depuis 2024 : Wikipédia FR. Instagram relevé dans le pied de page de nuits-sonores.com. Le match « nuits sonores » touche 2 lignes du catalogue, les deux à Lyon, aux Grandes Locos.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Nuits_sonores",
+      "https://www.nuits-sonores.com/"
+    ]
+  },
+  {
+    "slug": "positive-education",
+    "name": "Positive Education",
+    "kind": "collectif",
+    "city": "Saint-Étienne",
+    "country": "France",
+    "desc": "Positive Education est né de l'initiative de musiciens stéphanois et est devenu le rendez-vous électronique de référence de Saint-Étienne, chaque automne. La programmation fait cohabiter techno, house, drum & bass, ambient et expérimental, et le festival retrouve la Cité du design en 2026, sur trois scènes et une jauge volontairement réduite.",
+    "descEn": "Positive Education grew out of an initiative by musicians from Saint-Étienne and has become the city's reference electronic music event, held every autumn. The line-up mixes techno, house, drum & bass, ambient and experimental music, and in 2026 the festival returns to the Cité du design with three stages and a deliberately reduced capacity.",
+    "match": [
+      "positive education"
+    ],
+    "venues": [],
+    "verified": "Origine (initiative de musiciens locaux), ville, tenue automnale et genres : Minimal Collective et festivalenfrance. Retour à la Cité du design les 6 et 7 novembre 2026, format intimiste à trois scènes et jauge réduite : IF Saint-Étienne. L'année de création n'est pas écrite : les sources donnent 2015, 2016 ou une première édition en 2017, donc le champ since est omis. Le site officiel annoncé (positiveeducation.fr) ne répond pas depuis le conteneur et aucun compte Instagram n'a pu être vérifié, les deux champs sont donc omis plutôt que devinés. Le match « positive education » touche 1 ligne du catalogue, à la Cité du design de Saint-Étienne.",
+    "sources": [
+      "https://www.minimalcollective.digital/editorial/positive-education",
+      "https://www.if-saint-etienne.fr/culture-loisirs/saint-etienne-le-festival-electro-positive-education-signe-un-retour-aux-sources",
+      "https://www.festivalenfrance.com/en/festival/positive-education-festival"
+    ]
+  },
+  {
+    "slug": "dour-festival",
+    "name": "Dour Festival",
+    "kind": "organisateur",
+    "city": "Dour",
+    "country": "Belgium",
+    "since": 1989,
+    "desc": "Fondé en 1989 par Carlo Di Antonio et Marc de Fays, le festival de Dour se tient chaque année en juillet sur la plaine de la Machine à Feu, dans le Hainaut. Porté par Dour Festival SA et l'asbl Go Go Go!, il réunit près de six scènes et fait une large place à la techno, à la house et à la drum & bass au milieu des musiques alternatives.",
+    "descEn": "Founded in 1989 by Carlo Di Antonio and Marc de Fays, Dour Festival takes place every July on the Plaine de la Machine à Feu, in Hainaut. Run by Dour Festival SA and the Go Go Go! non-profit, it spreads over some six stages and gives techno, house and drum & bass a large share of the bill alongside alternative music.",
+    "site": "https://www.dourfestival.eu/",
+    "instagram": "https://www.instagram.com/dourfestival",
+    "match": [
+      "dour"
+    ],
+    "venues": [],
+    "verified": "Année de création (1989), fondateurs, structures organisatrices (Dour Festival SA, asbl Go Go Go!), lieu et genres : Wikipédia FR. Instagram relevé dans le pied de page de dourfestival.eu. Le match « dour » touche 2 lignes du catalogue, les deux « Dour Festival » à la Plaine de la Machine à Feu ; le libellé étant aussi le nom de la commune, la correspondance sur mot entier a été vérifiée ligne à ligne et n'attrape rien d'autre.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Dour_Festival",
+      "https://www.dourfestival.eu/"
+    ]
+  },
+  {
+    "slug": "peacock-society",
+    "name": "The Peacock Society",
+    "kind": "organisateur",
+    "city": "Paris",
+    "country": "France",
+    "since": 2013,
+    "desc": "Créée en 2013 par les producteurs parisiens We Love Art et Savoir-Faire, The Peacock Society est devenue l'une des principales manifestations électroniques de France, avec environ 25 000 festivaliers par édition. Elle se tient sur deux jours à l'Hippodrome de Paris-Vincennes et balaie la techno, la house et les lives.",
+    "descEn": "Created in 2013 by Paris promoters We Love Art and Savoir-Faire, The Peacock Society has become one of France's leading electronic music events, drawing around 25,000 people per edition. It runs over two days at the Hippodrome de Paris-Vincennes and covers techno, house and live sets.",
+    "site": "https://peacocksociety.fr/",
+    "instagram": "https://www.instagram.com/peacocksociety",
+    "match": [
+      "peacock society"
+    ],
+    "venues": [],
+    "verified": "Année de création (2013), producteurs (We Love Art et Savoir-Faire), fréquentation d'environ 25 000 personnes et lieu (Hippodrome de Vincennes) : page festival de We Love Art et Wikipédia EN. Instagram relevé dans le pied de page de peacocksociety.fr. Le match « peacock society » touche 1 ligne du catalogue, « The Peacock Society » à l'Hippodrome Paris-Vincennes.",
+    "sources": [
+      "https://weloveart.net/festival/the-peacock-society/",
+      "https://en.wikipedia.org/wiki/Peacock_Society",
+      "https://peacocksociety.fr/"
+    ]
+  },
+  {
+    "slug": "kozzmozz",
+    "name": "Kozzmozz",
+    "kind": "organisateur",
+    "city": "Ghent",
+    "country": "Belgium",
+    "since": 1995,
+    "desc": "La première Kozzmozz a eu lieu le 23 septembre 1995 sur le bateau Josef K, dans le port de Gand : une fête entre amis destinée à défendre les DJs techno belges, dont le succès a imposé une suite. La marque a fait venir Secret Cinema, Rejuvination ou Adam Beyer pour leurs premières dates belges, puis a quitté le bateau pour l'ICC, le Vooruit et le Kuipke.",
+    "descEn": "The first Kozzmozz was held on 23 September 1995 on the boat Josef K in the port of Ghent: a party among friends meant to showcase Belgian techno DJs, whose success called for more editions. It brought Secret Cinema, Rejuvination and Adam Beyer to Belgium for the first time, then outgrew the boat and moved to the ICC, the Vooruit and the Kuipke velodrome.",
+    "site": "https://www.kozzmozz.com/",
+    "instagram": "https://www.instagram.com/into_the_kozzmozz",
+    "match": [
+      "kozzmozz"
+    ],
+    "venues": [],
+    "verified": "Date de la première édition (23 septembre 1995, bateau Josef K, port de Gand), artistes invités et déménagements successifs : page « Concept » de kozzmozz.com. Instagram relevé dans le pied de page du même site. Le match « kozzmozz » touche 1 ligne du catalogue, « 30 Years of Kozzmozz » au Vooruit de Gand.",
+    "sources": [
+      "https://www.kozzmozz.com/concept",
+      "https://www.kozzmozz.com/"
+    ]
+  },
+  {
+    "slug": "flashforward",
+    "name": "Flashforward",
+    "kind": "organisateur",
+    "city": "Charleroi",
+    "country": "Belgium",
+    "desc": "Flashforward est la nuit techno mensuelle du Rockerill, l'ancienne forge de Marchienne-au-Pont transformée en lieu culturel à Charleroi. Le rendez-vous assume un focus techno et house, fait tourner les résidents de la maison autour d'une tête d'affiche internationale, et attire un public venu de toute la Belgique et des pays limitrophes.",
+    "descEn": "Flashforward is Rockerill's monthly techno night, held in the former forge at Marchienne-au-Pont turned cultural venue in Charleroi. It has an openly techno and house focus, pairs the house residents with one international headliner, and draws a crowd from across Belgium and neighbouring countries.",
+    "site": "https://www.rockerill.com/",
+    "instagram": "https://www.instagram.com/rockerill",
+    "match": [
+      "flashforward"
+    ],
+    "venues": [],
+    "verified": "Organisation par le Rockerill, rythme mensuel, « focus assumé sur la techno et la house » et public venu des pays limitrophes : article de L'Avenir du 3 janvier 2025. Structure et adresse (Rockerill Production asbl, rue de la Providence 136, Marchienne-au-Pont, l'ancien site des Forges) : JSON-LD MusicVenue de rockerill.com. Les quatre dates du catalogue figurent à l'identique à l'agenda du site. Aucune source ne donne l'année de lancement de la série, le champ since est donc omis ; l'Instagram est celui du Rockerill, la soirée n'ayant pas de compte à elle. Le match « flashforward » touche 4 lignes du catalogue, toutes au Rockerill de Charleroi.",
+    "sources": [
+      "https://www.lavenir.net/regions/charleroi/charleroi/2025/01/03/charleroi-tous-les-prochains-rendez-vous-techno-du-rockerill-avec-plusieurs-grands-noms-VVBCYLXUZVDWZKVVOJBO5KN7KQ/",
+      "https://www.rockerill.com/agenda/",
+      "https://www.rockerill.com/infos/"
+    ]
+  }
+]

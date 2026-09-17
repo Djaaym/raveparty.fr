@@ -995,3 +995,137 @@ const PLURAL_PLACES = new Set([
  * sens.
  */
 const ELIDED_PLACES = new Set(["Hérault", "Hérault (34)"]);
+
+/* ---------------------------------------------------------------- organisateur */
+
+export interface PromoterCopy {
+  context: string;
+  faq: QA[];
+}
+
+/**
+ * Le contexte et la FAQ d'une fiche d'organisateur.
+ *
+ * Ce qu'on tape avant d'arriver ici n'est pas une adresse mais un programme et une
+ * tournée : « teletech tickets », « awakenings agenda », « hangar festival lineup ».
+ * La page doit donc dire en toutes lettres combien de dates viennent, dans quelles
+ * villes, et qui revient sur les affiches.
+ *
+ * La présentation de la marque (`p.desc`) est le seul texte écrit à la main du
+ * module, et c'est assumé : elle est sourcée, ligne par ligne, dans les lots de
+ * `.research/promoters/`. Tout le reste sort du catalogue, donc se périme avec lui.
+ */
+export function promoterCopy(
+  p: { name: string; kind: string; city: string; country: string; since?: number },
+  lang: Lang,
+  ctx: {
+    live: RaveEvent[];
+    done: RaveEvent[];
+    cities: { city: string; count: number }[];
+    venues: { name: string; count: number }[];
+    genres: string[];
+    regulars: string[];
+  },
+): PromoterCopy {
+  const { live, done, cities, venues, genres, regulars } = ctx;
+  const next = live[0];
+  const country = countryLabel(p.country, lang);
+  const kindFr =
+    p.kind === "collectif" ? "un collectif" : p.kind === "club" ? "un club et sa marque de soirées" : p.kind === "label" ? "un label et son programme de soirées" : "un organisateur";
+  const kindEn =
+    p.kind === "collectif" ? "a collective" : p.kind === "club" ? "a club and its party brand" : p.kind === "label" ? "a label and its party programme" : "a promoter";
+  const cityNames = cities.slice(0, 4).map((c) => c.city);
+
+  const context =
+    lang === "fr"
+      ? [
+          `${p.name} est ${kindFr} basé à ${p.city}, ${country}${p.since ? `, en activité depuis ${p.since}` : ""}.`,
+          live.length
+            ? `${live.length} date${s(live.length)} à venir ${live.length > 1 ? "sont référencées" : "est référencée"} ici, la prochaine ${whenPhrase(next, lang)}.`
+            : "Aucune date à venir n'est référencée pour l'instant, les soirées passées restent en ligne avec leur line-up.",
+          cityNames.length > 1 ? `La marque tourne entre ${join(cityNames, lang)}.` : "",
+          genres.length ? `La programmation penche vers ${join(genres, lang)}.` : "",
+          regulars.length ? `Les noms qui reviennent le plus sur ses affiches : ${join(regulars, lang)}.` : "",
+        ]
+          .filter(Boolean)
+          .join(" ")
+      : [
+          `${p.name} is ${kindEn} based in ${p.city}, ${country}${p.since ? `, running since ${p.since}` : ""}.`,
+          live.length
+            ? `${live.length} upcoming date${s(live.length)} ${live.length > 1 ? "are" : "is"} listed here, the next one ${whenPhrase(next, lang)}.`
+            : "No upcoming date is listed right now, past nights stay online with their line-ups.",
+          cityNames.length > 1 ? `The brand moves between ${join(cityNames, lang)}.` : "",
+          genres.length ? `The programming leans towards ${join(genres, lang)}.` : "",
+          regulars.length ? `The names that come back most often on its bills: ${join(regulars, lang)}.` : "",
+        ]
+          .filter(Boolean)
+          .join(" ");
+
+  const shown = live.slice(0, 4).map((e) => `${e.title} (${day(e.date, lang)})`);
+  const more = live.length - shown.length;
+  const upcomingTitles =
+    more > 0
+      ? [...shown, lang === "fr" ? `${more} autre${s(more)} date${s(more)}` : `${more} more date${s(more)}`]
+      : shown;
+
+  const faq: QA[] = [];
+
+  faq.push(
+    lang === "fr"
+      ? [
+          `Quelles sont les prochaines dates de ${p.name} ?`,
+          live.length
+            ? `${live.length} date${s(live.length)} à venir : ${join(upcomingTitles, lang)}. L'agenda complet, avec les horaires et la billetterie officielle, est plus haut sur cette page.`
+            : `Aucune date à venir n'est publiée pour ${p.name}. Les soirées passées restent en ligne, chacune avec son line-up.`,
+        ]
+      : [
+          `What are ${p.name}'s next dates?`,
+          live.length
+            ? `${live.length} upcoming date${s(live.length)}: ${join(upcomingTitles, lang)}. The full agenda, with running times and official ticketing, is higher up this page.`
+            : `No upcoming date is published for ${p.name}. Past nights stay online, each with its line-up.`,
+        ],
+  );
+
+  if (venues.length) {
+    const rooms = venues.slice(0, 5).map((v) => v.name);
+    faq.push(
+      lang === "fr"
+        ? [
+            `Où ${p.name} organise ses soirées ?`,
+            `Sur notre catalogue, ${join(rooms, lang)}${venues.length > rooms.length ? `, et ${venues.length - rooms.length} autre${s(venues.length - rooms.length)} lieu${venues.length - rooms.length > 1 ? "x" : ""}` : ""}. Chaque salle a sa propre page, avec son agenda complet.`,
+          ]
+        : [
+            `Where does ${p.name} throw its parties?`,
+            `In our catalogue: ${join(rooms, lang)}${venues.length > rooms.length ? `, plus ${venues.length - rooms.length} other venue${s(venues.length - rooms.length)}` : ""}. Each room has its own page with a full agenda.`,
+          ],
+    );
+  }
+
+  if (genres.length) {
+    faq.push(
+      lang === "fr"
+        ? [
+            `Quel style joue-t-on aux soirées ${p.name} ?`,
+            `Surtout ${join(genres, lang)}, d'après les ${live.length + done.length} date${s(live.length + done.length)} de la marque que nous référençons. Le classement est pondéré : une soirée mono-genre pèse plus lourd qu'un festival étiqueté sur huit styles.`,
+          ]
+        : [
+            `What is played at ${p.name} parties?`,
+            `Mostly ${join(genres, lang)}, based on the ${live.length + done.length} date${s(live.length + done.length)} we list for the brand. The ranking is weighted: a single-genre night counts for more than a festival tagged with eight styles.`,
+          ],
+    );
+  }
+
+  faq.push(
+    lang === "fr"
+      ? [
+          `Comment acheter un billet pour une soirée ${p.name} ?`,
+          "Chaque date de cette page ouvre sa fiche, et la fiche renvoie vers la billetterie annoncée par l'organisateur. Nous ne vendons pas de billets et ne revendons rien.",
+        ]
+      : [
+          `How do I buy a ticket for a ${p.name} night?`,
+          "Each date on this page opens its own listing, which links to the ticketing announced by the promoter. We do not sell tickets and resell nothing.",
+        ],
+  );
+
+  return { context, faq };
+}

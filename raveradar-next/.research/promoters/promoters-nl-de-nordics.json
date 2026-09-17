@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "awakenings",
+    "name": "Awakenings",
+    "kind": "organisateur",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "since": 1997,
+    "desc": "Awakenings organise des soirées et des festivals techno aux Pays-Bas depuis 1997, année de sa première nuit à la Gashouder d'Amsterdam. La marque fait aujourd'hui tourner un festival d'été à Hilvarenbeek, l'édition Upclose à Spaarnwoude et une semaine de dates pendant l'Amsterdam Dance Event. Elle annonce plus de 300 000 visiteurs par an.",
+    "descEn": "Awakenings has been putting on techno parties and festivals in the Netherlands since 1997, the year of its first night at Amsterdam's Gashouder. The brand now runs a summer festival in Hilvarenbeek, the Upclose edition at Spaarnwoude and a week of dates during Amsterdam Dance Event. It claims more than 300,000 visitors a year.",
+    "site": "https://www.awakenings.com/",
+    "instagram": "https://www.instagram.com/awakenings",
+    "match": ["awakenings"],
+    "venues": [],
+    "verified": "Site officiel (page About) : premiere nuit a la Gashouder en 1997, plus de 25 ans d'activite, plus de 300 000 visiteurs par an, et l'agenda y liste Awakenings Festival 2027 (Hilvarenbeek), Upclose 2027 (Houtrak, Spaarnwoude) et Awakenings ADE 2026 (SugarFactory). Wikipedia pour la ville et l'annee de fondation. Instagram pris sur le lien du site officiel. Match `awakenings` : 6 lignes du catalogue, toutes des dates Awakenings (Summer Festival, Festival, Upclose x2, ADE, ADE Drumcode). Aucune salle revendiquee : la SugarFactory et le Festivalpark de Hilvarenbeek ne sont pas des lieux de la marque.",
+    "sources": [
+      "https://www.awakenings.com/en/about",
+      "https://en.wikipedia.org/wiki/Awakenings_(festival)"
+    ]
+  },
+  {
+    "slug": "toffler",
+    "name": "Toffler",
+    "kind": "club",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "since": 2011,
+    "desc": "Toffler est un club house et techno de Rotterdam ouvert en 2011, installé dans un ancien tunnel piétonnier sous le Weena, connu pour sa cabine et son système son montés sur vérins hydrauliques qui agrandissent la salle au fil de la nuit. Le club programme aussi le Toffler Festival, lancé en 2015, seul festival porté par une boîte de nuit de la ville.",
+    "descEn": "Toffler is a house and techno club in Rotterdam that opened in 2011, set in a former pedestrian tunnel under the Weena and known for its hydraulic booth and sound system, which enlarge the room as the night goes on. The club also runs Toffler Festival, launched in 2015, the only festival put on by a Rotterdam nightclub.",
+    "site": "https://www.toffler.nl/",
+    "instagram": "https://www.instagram.com/tofflerrotterdam",
+    "match": ["toffler"],
+    "venues": ["Toffler"],
+    "verified": "Site officiel (About Us) : ouverture en 2011, ancien tunnel pieton sous le Weena, systeme hydraulique, festival lance en 2015. Instagram pris sur le lien du site. Match `toffler` : 5 lignes, 3 au club Toffler et 2 festivals (Onderzeebootloods pour les 15 ans, Roel Langerakpark pour l'edition 2027). Salle `Toffler` revendiquee : les 3 lignes de cette salle dans le catalogue sont toutes des soirees Toffler.",
+    "sources": [
+      "https://www.toffler.nl/about-us/",
+      "https://www.toffler.nl/"
+    ]
+  },
+  {
+    "slug": "tresor",
+    "name": "Tresor",
+    "kind": "club",
+    "city": "Berlin",
+    "country": "Germany",
+    "since": 1991,
+    "desc": "Tresor a ouvert dans une salle des coffres de la Leipziger Strasse le 13 mars 1991 et le label Tresor Records est né la même année. Le club a porté très tôt le dialogue entre Berlin et Detroit, en programmant Juan Atkins, Underground Resistance et Drexciya. Il occupe aujourd'hui l'ancienne centrale thermique de la Köpenicker Strasse et fait tourner sa marque hors les murs, notamment à Tresor.West à Dortmund.",
+    "descEn": "Tresor opened in a bank vault on Leipziger Strasse on 13 March 1991, and the Tresor Records label was founded the same year. The club drove the early dialogue between Berlin and Detroit, booking Juan Atkins, Underground Resistance and Drexciya. It now occupies the former power plant on Koepenicker Strasse and takes its brand on the road, notably to Tresor.West in Dortmund.",
+    "site": "https://www.tresorberlin.com/",
+    "instagram": "https://www.instagram.com/tresorberlin",
+    "match": ["tresor"],
+    "venues": ["Tresor"],
+    "verified": "Site officiel (page About, section History) : ouverture le 13 mars 1991 au 126 Leipziger Strasse, label Tresor Records fonde la meme annee, Juan Atkins / Underground Resistance / Drexciya cites. Instagram pris sur le lien du site. Match `tresor` : 12 lignes, dont 10 au club Tresor (Klubnacht, Tresor meets/invites, les deux dates T35 des 35 ans du label), plus deux dates de la marque hors les murs, `eli invites Tresor.West` a Leipzig et `Mad Katz x Tresor au Hive` a Zurich. Aucune ne designe autre chose. Salle `Tresor` revendiquee : ses 9 lignes sont toutes des soirees Tresor.",
+    "sources": [
+      "https://www.tresorberlin.com/about/",
+      "https://www.tresorberlin.com/"
+    ]
+  }
+]

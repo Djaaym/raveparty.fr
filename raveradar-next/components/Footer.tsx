@@ -87,6 +87,7 @@ export default function Footer({ lang, simple = false }: { lang: Lang; simple?: 
           <div>
             <h2>{t("footer.organizers")}</h2>
             <Link href={`${p}/organizer`}>{t("footer.addevent")}</Link>
+            <Link href={`${p}/organisateurs`}>{t("promoters.all")}</Link>
             <Link href={`${p}/account`}>{t("nav.signin")}</Link>
             <Link href={`${p}/genres`}>{t("nav.genres")}</Link>
           </div>

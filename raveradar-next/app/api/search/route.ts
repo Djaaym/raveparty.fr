@@ -3,7 +3,7 @@ import { suggest } from "@/lib/search-index";
 import type { SuggestKind } from "@/lib/types";
 
 /** Les catégories que `kind` accepte, celles de `SuggestKind`. */
-const KINDS = ["genre", "city", "country", "festival", "artist", "venue", "event"] as const;
+const KINDS = ["genre", "city", "country", "festival", "artist", "venue", "promoter", "event"] as const;
 
 /**
  * Les suggestions de la barre de recherche.

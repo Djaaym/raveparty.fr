@@ -165,6 +165,9 @@ export default function VenuesHub({ lang }: { lang: Lang }) {
             <Link href={`${p}/villes`}>🌍 {t("nav.cities")}</Link>
             <Link href={`${p}/genres`}>🎚 {t("nav.genres")}</Link>
             <Link href={`${p}/artistes`}>🎧 {t("nav.artists")}</Link>
+            {/* L'intention « qui programme » n'est portée par aucune page de salle :
+                une marque change de salle, la salle change de marque. */}
+            <Link href={`${p}/organisateurs`}>🎛 {t("nav.organizers")}</Link>
             <Link href={`${p}/map`}>🗺 {t("nav.map")}</Link>
           </div>
 

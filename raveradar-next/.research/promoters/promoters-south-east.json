@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "sonar",
+    "name": "Sónar",
+    "kind": "organisateur",
+    "city": "Barcelona",
+    "country": "Spain",
+    "since": 1994,
+    "desc": "Sónar est le festival de musiques avancées et d'arts numériques de Barcelone, produit par la société Advanced Music. La première édition s'est tenue du 2 au 4 juin 1994, entre le CCCB le jour et la Sala Apolo la nuit. La manifestation se partage aujourd'hui entre Fira Montjuïc pour Sónar by Day et Fira Gran Via pour Sónar by Night.",
+    "descEn": "Sónar is Barcelona's festival of advanced music and digital art, produced by Advanced Music. The first edition ran from 2 to 4 June 1994, split between the CCCB by day and Sala Apolo by night. The event now spreads across Fira Montjuïc for Sónar by Day and Fira Gran Via for Sónar by Night.",
+    "site": "https://sonar.es/en",
+    "instagram": "https://www.instagram.com/sonarfestival",
+    "match": ["sonar"],
+    "venues": [],
+    "verified": "Wikipedia (fiche Sónar) : création en 1994, société organisatrice Advanced Music S.L., fondateurs Ricard Robles, Enric Palau et Sergio Caballero, première édition au CCCB et à l'Apolo. Instagram relevé dans le HTML de sonar.es. Le libellé 'sonar' touche 2 lignes du catalogue, les deux éditions barcelonaises, et rien d'autre.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/S%C3%B3nar",
+      "https://sonar.es/en"
+    ]
+  },
+  {
+    "slug": "nitsa",
+    "name": "Nitsa",
+    "kind": "club",
+    "city": "Barcelona",
+    "country": "Spain",
+    "since": 1993,
+    "desc": "Nitsa est la nuit électronique de la Sala Apolo, à Barcelone. Née en 1993, elle s'installe dans la salle de l'avenue Paral·lel en septembre 1996 et y tient depuis ses sessions du vendredi et du samedi. Sa seconde salle, Astin, programme une affiche plus pointue dans La [2] de Apolo.",
+    "descEn": "Nitsa is the electronic club night of Sala Apolo in Barcelona. Born in 1993, it moved into the Paral·lel venue in September 1996 and has run its Friday and Saturday sessions there ever since. Its second room, Astin, programmes a sharper bill in La [2] de Apolo.",
+    "site": "https://www.nitsa.com/",
+    "instagram": "https://www.instagram.com/nitsa_club",
+    "match": ["nitsa", "astin"],
+    "venues": [],
+    "verified": "Page Nitsa du site officiel de la Sala Apolo : « Born in 1993 », installation à l'Apolo en septembre 1996, sessions du vendredi et du samedi, Astin décrit comme la salle jumelle dans La [2] de Apolo. Instagram relevé dans le HTML de cette même page. 'nitsa' touche 4 lignes (Sala Apolo) et 'astin' 2 lignes (La [2] de Apolo), aucune autre. venues laissé vide : la Sala Apolo accueille aussi des dates hors Nitsa (Hercules & Love Affair, 15/12/2026), et La [2] de Apolo une soirée Digitalism.",
+    "sources": [
+      "https://www.sala-apolo.com/en/clubs/nitsa",
+      "https://xceed.me/blog/en/nitsa-club-history-of-the-party-in-barcelona/"
+    ]
+  },
+  {
+    "slug": "mondo-disko",
+    "name": "Mondo Disko",
+    "kind": "club",
+    "city": "Madrid",
+    "country": "Spain",
+    "since": 1999,
+    "desc": "Mondo Disko est le club de musique électronique de Madrid installé à la Sala But, calle Barceló 11. Ouvert depuis 1999, il programme techno et house à l'année. Il sort de ses murs avec Mondo Open Air, ses journées en plein air sur la Terraza Jowke d'Alcorcón, prolongées la nuit à la Sala But.",
+    "descEn": "Mondo Disko is Madrid's electronic music club, housed at Sala But on calle Barceló 11. Open since 1999, it programmes techno and house all year round. It steps outside with Mondo Open Air, its daytime sessions on the Terraza Jowke in Alcorcón, which carry on after dark at Sala But.",
+    "site": "https://www.mondodisko.es/",
+    "instagram": "https://www.instagram.com/mondo_disko",
+    "match": ["mondo disko", "mondo open air"],
+    "venues": [],
+    "verified": "Site officiel mondodisko.es : « Electronic music nightclub since '99 », adresse Sala But calle Barceló 11 ; page Mondo Open Air : Terraza Jowke, Av. San Martín de Valdeiglesias 22, Alcorcón, avec after à la Sala But. Instagram relevé dans le HTML de mondodisko.es. 'mondo disko' touche 4 lignes et 'mondo open air' 2, aucune autre. « Mondo Krystal Halloween » (31/10, Terraza Jowke) est volontairement hors du match, faute de source rattachant cette marque à Mondo Disko. venues laissé vide : la Sala But accueille aussi des dates hors Mondo (NTO, 18/02/2027).",
+    "sources": [
+      "https://www.mondodisko.es/",
+      "https://www.mondodisko.es/en/mondo-open-air/"
+    ]
+  },
+  {
+    "slug": "brunch-electronik",
+    "name": "Brunch Electronik",
+    "kind": "organisateur",
+    "city": "Barcelona",
+    "country": "Spain",
+    "desc": "Brunch Electronik est née à Barcelone d'une série de petites fêtes de plein air du dimanche après-midi, fondée par Loïc Le Joliff. Le format s'est étendu à d'autres villes, dont Lisbonne, l'Algarve et l'Andorre, chacune avec son propre site. Son rendez-vous barcelonais a pris la forme d'un festival de trois jours au Parc del Fòrum.",
+    "descEn": "Brunch Electronik grew out of a series of small Sunday afternoon open-air parties in Barcelona, founded by Loïc Le Joliff. The format has spread to other cities, including Lisbon, the Algarve and Andorra, each with its own site. Its Barcelona date has grown into a three-day festival at Parc del Fòrum.",
+    "site": "https://barcelona.brunchelectronik.com/",
+    "instagram": "https://www.instagram.com/brunchbcn",
+    "match": ["brunch electronik"],
+    "venues": [],
+    "verified": "DJ Mag : marque née à Barcelone « over a decade ago » de fêtes de plein air du dimanche, fondateur Loïc Le Joliff, festival au Parc del Fòrum. Les déclinaisons par ville sont des sous-domaines du même site (lisboa., algarve., andorra.brunchelectronik.com), relevés dans le HTML de lisboa.brunchelectronik.com. Le compte @brunchbcn porte le titre « Brunch Electronik Barcelona » sur sa page. since omis : les sources donnent 2013 pour le lancement et mars 2014 pour la première fête, elles ne concordent pas. 'brunch electronik' touche 5 lignes, 1 en Espagne et 4 au Portugal, aucune autre.",
+    "sources": [
+      "https://djmag.com/features/brunch-electronik-local-knowledge-barcelonas-favourite-party",
+      "https://lisboa.brunchelectronik.com/",
+      "https://barcelona.brunchelectronik.com/"
+    ]
+  },
+  {
+    "slug": "elrow",
+    "name": "elrow",
+    "kind": "organisateur",
+    "city": "Barcelona",
+    "country": "Spain",
+    "since": 2010,
+    "desc": "elrow est la marque de soirées costumées et scénographiées fondée en 2010 par Cruz et Juan Arnau, à Barcelone. Elle appartient à la sixième génération d'une famille d'exploitants de Fraga, en Aragon, déjà à l'origine du club Florida 135 et du Monegros Desert Festival. Ses soirées tournent aujourd'hui d'Ibiza à Amsterdam.",
+    "descEn": "elrow is the costumed, heavily staged party brand founded in 2010 by Cruz and Juan Arnau in Barcelona. It belongs to the sixth generation of a promoter family from Fraga, in Aragon, already behind the Florida 135 club and the Monegros Desert Festival. Its parties now tour from Ibiza to Amsterdam.",
+    "site": "https://elrow.com/",
+    "instagram": "https://www.instagram.com/elrowofficial",
+    "match": ["elrow"],
+    "venues": [],
+    "verified": "Page « History » du site officiel : « Founded in 2010 by Cruz and Juan Arnau », famille installée à Barcelone après Fraga, Florida 135 et Monegros cités comme réalisations de la même famille. Instagram relevé dans le HTML de cette page. 'elrow' touche 3 lignes du catalogue (Ibiza, ADE, Horroween), toutes de cette marque.",
+    "sources": [
+      "https://elrow.com/en/who-we-are/history",
+      "https://www.ibiza-spotlight.com/magazine/2018/04/ibiza-elrow-history-story-behind"
+    ]
+  },
+  {
+    "slug": "neopop",
+    "name": "NEOPOP",
+    "kind": "organisateur",
+    "city": "Viana do Castelo",
+    "country": "Portugal",
+    "desc": "NEOPOP est le festival de musique électronique de Viana do Castelo, tenu au Forte de Santiago da Barra, au bord du Lima. Il est né sous le nom d'Antipop et l'a repris le temps de l'édition anniversaire d'août 2026, qui marque ses vingt ans. Sa programmation est dominée par la techno.",
+    "descEn": "NEOPOP is the electronic music festival of Viana do Castelo, held at the Forte de Santiago da Barra by the river Lima. It started out as Antipop and took that name back for the anniversary edition of August 2026, which marks twenty years. Its bill is dominated by techno.",
+    "site": "https://neopopfestival.net/",
+    "match": ["neopop"],
+    "venues": [],
+    "verified": "Site officiel (neopopfestival.net redirige vers antipopmusicfestival.com) : « For this edition, and this one only, NEOPOP becomes ANTIPOP again », « 20 years on », dates des 6, 7 et 8 août 2026. Lieu confirmé par la fiche de la mairie de Viana do Castelo. since omis : les sources divergent entre une première édition en 2005 (entretien avec le fondateur Gustavo Pereira) et 2006 (les vingt ans annoncés pour 2026), on ne tranche pas. 'neopop' touche 3 lignes, les deux éditions du festival et la date Solomun co-signée Brunch × Neopop à Lisbonne.",
+    "sources": [
+      "https://antipopmusicfestival.com/",
+      "https://www.cm-viana-castelo.pt/areas-de-atividade/comunicacao/agenda-de-eventos/evento/neopop-festival",
+      "https://auroradolima.com/viana-do-castelo/neopop-celebra-20-anos-com-edicao-mais-ambiciosa-de-sempre-em-viana-do-castelo/"
+    ]
+  },
+  {
+    "slug": "movement-entertainment",
+    "name": "Movement Entertainment",
+    "kind": "organisateur",
+    "city": "Turin",
+    "country": "Italy",
+    "desc": "Movement Entertainment est le producteur turinois du Kappa FuturFestival. Le festival est né en 2009 au Lingotto Fiere, puis a pris sa forme actuelle en 2013 en s'installant au Parco Dora, l'ancien site industriel Fiat et Michelin reconverti en parc. Il s'y tient depuis chaque été, de midi à minuit.",
+    "descEn": "Movement Entertainment is the Turin producer behind Kappa FuturFestival. The festival started in 2009 at Lingotto Fiere, then took its present shape in 2013 when it moved to Parco Dora, the former Fiat and Michelin industrial site turned park. It has been held there every summer since, from noon to midnight.",
+    "site": "https://www.kappafuturfestival.it/en",
+    "instagram": "https://www.instagram.com/futur_festival",
+    "match": ["kappa futurfestival"],
+    "venues": [],
+    "verified": "Wikipedia italien (Kappa FuturFestival) : première édition en 2009, organisateur Movement Entertainment srl, passage au Parco Dora en 2013. Pied de page du site officiel : « Un progetto di Movement Entertainment e Associazione Suoni e Colori ». Instagram relevé dans le HTML du site officiel. 'kappa futurfestival' touche 2 lignes, les éditions 2026 et 2027 au Parco Dora.",
+    "sources": [
+      "https://it.wikipedia.org/wiki/Kappa_FuturFestival",
+      "https://www.kappafuturfestival.it/en",
+      "https://www.bohmagazine.it/kappa-futur-festival-torino-storia/"
+    ]
+  },
+  {
+    "slug": "untold",
+    "name": "UNTOLD",
+    "kind": "organisateur",
+    "city": "Cluj-Napoca",
+    "country": "Romania",
+    "since": 2015,
+    "desc": "UNTOLD est le festival de Cluj-Napoca créé en 2015, l'année où la ville était capitale européenne de la jeunesse. Il se tient à la Cluj Arena et dans les espaces qui l'entourent, et sa première édition a réuni plus de 240 000 personnes en quatre jours. Il est porté par la fédération SHARE Cluj-Napoca.",
+    "descEn": "UNTOLD is the Cluj-Napoca festival created in 2015, the year the city was European Youth Capital. It is held at Cluj Arena and the grounds around it, and its first edition drew more than 240,000 people over four days. It is run by the SHARE Cluj-Napoca federation.",
+    "site": "https://untold.com/",
+    "instagram": "https://www.instagram.com/untoldfestival",
+    "match": ["untold"],
+    "venues": [],
+    "verified": "Wikipedia (Untold Festival) : création en 2015, Cluj Arena, organisateur SHARE Cluj-Napoca Federation, plus de 240 000 spectateurs à la première édition. Instagram relevé dans le HTML d'untold.com. 'untold' touche 2 lignes, les éditions 2026 et 2027 à la Cluj Arena.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Untold_Festival",
+      "https://untold.com/"
+    ]
+  },
+  {
+    "slug": "ozora-festival",
+    "name": "OZORA Festival",
+    "kind": "organisateur",
+    "city": "Dádpuszta",
+    "country": "Hungary",
+    "since": 2004,
+    "desc": "OZORA Festival est le rendez-vous hongrois de la psytrance, né en 2004 et tenu chaque été à Dádpuszta, près du village d'Ozora. Il s'est déroulé sans interruption depuis sa création, à l'exception des annulations de 2020 et 2021. Sa programmation mêle scènes électroniques et ateliers.",
+    "descEn": "OZORA Festival is Hungary's psytrance gathering, born in 2004 and held every summer at Dádpuszta, near the village of Ozora. It has run every year since it started, apart from the 2020 and 2021 cancellations. Its programme mixes electronic stages with workshops.",
+    "site": "https://ozorafestival.eu/",
+    "match": ["ozora"],
+    "venues": [],
+    "verified": "Wikipedia (Ozora Festival) : création en 2004, site de Dádpuszta près d'Ozora, psytrance, éditions 2020 et 2021 annulées. Instagram omis : ozorafestival.eu répond 403 depuis le conteneur, aucun compte n'a pu être relevé sur une source officielle. 'ozora' touche 2 lignes, les éditions 2026 et 2027.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ozora_Festival"
+    ]
+  },
+  {
+    "slug": "unsound",
+    "name": "Unsound",
+    "kind": "organisateur",
+    "city": "Kraków",
+    "country": "Poland",
+    "since": 2003,
+    "desc": "Unsound est le festival de musiques expérimentales et électroniques de Cracovie, lancé en 2003 dans les caves de la ville. Il est porté par la fondation Tone, avec Mat Schulz comme directeur artistique et cofondateur. Son édition 2026, « Soft Power », se tient à Varsovie puis à Cracovie.",
+    "descEn": "Unsound is the experimental and electronic music festival of Kraków, launched in 2003 in the city's cellar bars. It is run by the Tone foundation, with Mat Schulz as artistic director and co-founder. Its 2026 edition, \"Soft Power\", runs in Warsaw and then in Kraków.",
+    "site": "https://www.unsound.pl/en",
+    "instagram": "https://instagram.com/unsoundfestival",
+    "match": ["unsound"],
+    "venues": [],
+    "verified": "Wikipedia (Unsound Festival) : première édition à Cracovie en 2003, fondation Tone, Mat Schulz cofondateur et directeur artistique. Le site officiel sert l'édition 2026 sous l'adresse unsound.pl/en/2026/warszawa-krakow, ce qui confirme les deux villes. Instagram relevé dans le HTML du site. 'unsound' touche 3 lignes, les deux volets 2026 et la soirée Jasna 1 co-signée avec le festival.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Unsound_Festival",
+      "https://www.unsound.pl/en"
+    ]
+  },
+  {
+    "slug": "let-it-roll",
+    "name": "Let It Roll",
+    "kind": "organisateur",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "desc": "Let It Roll est le festival tchèque de drum and bass, dont les premières éditions se tiennent en 2002 au club Mlejn, à Prague. Installé depuis 2015 sur l'ancien aérodrome militaire de Milovice, il a déménagé en 2025 au lac de Most, avec une scène flottante. Sa déclinaison d'hiver reste à Prague, en salle.",
+    "descEn": "Let It Roll is the Czech drum and bass festival, whose first editions were held in 2002 at the Mlejn club in Prague. Based since 2015 on the former military airfield at Milovice, it moved in 2025 to Lake Most, with a floating stage. Its winter edition stays indoors in Prague.",
+    "site": "https://letitroll.eu/",
+    "instagram": "https://www.instagram.com/letitrollfestival",
+    "match": ["let it roll"],
+    "venues": [],
+    "verified": "Page « History » du site officiel : « In 2002 [...] the first echoes of the Let It Roll festival were heard at the former Mlejn club in Prague », Milovice depuis 2015, déménagement au lac de Most, édition d'hiver à Prague. Instagram relevé dans le HTML de letitroll.eu. since omis : la page officielle date les premiers échos de 2002 quand d'autres sources retiennent 2003 pour la première vraie édition. 'let it roll' touche 2 lignes, le festival d'été au lac de Most et Let It Roll Winter à Prague.",
+    "sources": [
+      "https://letitroll.eu/history/",
+      "https://letitroll.eu/"
+    ]
+  },
+  {
+    "slug": "glitch-festival",
+    "name": "Glitch Festival",
+    "kind": "organisateur",
+    "city": "Rabat",
+    "country": "Malta",
+    "since": 2016,
+    "desc": "Glitch Festival est le rendez-vous maltais des musiques électroniques underground, dont la première édition date de 2016. Il se tient sur le site de Gianpula, près de Rabat, et ouvre par une soirée sous les fortifications du XVIe siècle de La Valette. Sa programmation va de la house et du disco à la techno, l'acid et l'electro.",
+    "descEn": "Glitch Festival is Malta's underground electronic music gathering, first held in 2016. It takes place at the Gianpula site near Rabat, and opens with a party beneath Valletta's 16th century fortifications. Its programme runs from house and disco to techno, acid and electro.",
+    "site": "https://www.glitchfestival.com/",
+    "instagram": "https://www.instagram.com/glitchfestival",
+    "match": ["glitch festival"],
+    "venues": [],
+    "verified": "Malta Tourism Authority : « Since its inception in 2016 », site de Gianpula Village près de Rabat, soirée d'ouverture sous les fortifications de La Valette, éventail de genres. Instagram relevé dans le HTML de glitchfestival.com. 'glitch festival' touche 2 lignes, les éditions 2026 (Gianpula Fields, Ħaż-Żebbuġ) et 2027 (Gianpula Village, Rabat).",
+    "sources": [
+      "https://mta.com.mt/events/glitch-festival/",
+      "https://www.glitchfestival.com/"
+    ]
+  }
+]
