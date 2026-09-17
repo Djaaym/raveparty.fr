@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 export interface FilterItem {
   /** Appended to `hrefBase` to build the link, and the React key. */
@@ -39,6 +39,13 @@ const norm = (s: string) =>
  * The artists hub used to share this component through a `variant="tile"` branch;
  * it now has its own, `ArtistDirectory`, which adds A→Z sections and portraits,
  * so what is left here is the pill list, and only that.
+ *
+ * **Les groupes sont repliés par défaut**, même raison et même mécanique que les
+ * sections A→Z de `ArtistDirectory` : 162 pilules déroulées sous le champ de
+ * recherche repoussent tout le reste de la page hors de portée. C'est un
+ * `<details>` et pas un rendu conditionnel, donc les liens restent dans le HTML
+ * rendu au serveur et le maillage ne bouge pas. Une recherche active rouvre les
+ * groupes qu'elle garde, sinon le filtre n'afficherait que des en-têtes.
  */
 export default function SearchableLinks({
   groups,
@@ -49,6 +56,7 @@ export default function SearchableLinks({
   countLabel,
   clearLabel,
   soonLabel,
+  groupLabel,
 }: {
   groups: FilterGroup[];
   /** Prefixed to every slug: `/rave-party/`, `/en/artistes/`… */
@@ -65,6 +73,8 @@ export default function SearchableLinks({
    *  ce qui rend la mention opt-in : un appelant qui n'envoie aucun `n` ne doit pas
    *  voir toutes ses lignes annoncer qu'elles sont vides. */
   soonLabel?: string;
+  /** Singulier / pluriel du compte affiché sur l'en-tête d'un groupe replié. */
+  groupLabel?: [string, string];
 }) {
   const [q, setQ] = useState("");
   const needle = norm(q.trim());
@@ -79,6 +89,17 @@ export default function SearchableLinks({
 
   const total = groups.reduce((n, g) => n + g.items.length, 0);
   const count = shown.reduce((n, g) => n + g.items.length, 0);
+
+  const [open, setOpen] = useState<Set<string>>(() => new Set());
+  const isOpen = (title: string) => needle !== "" || open.has(title);
+  const toggle = useCallback((title: string, next: boolean) => {
+    setOpen((prev) => {
+      const s2 = new Set(prev);
+      if (next) s2.add(title);
+      else s2.delete(title);
+      return s2;
+    });
+  }, []);
 
   return (
     <div className="filterbox">
@@ -113,11 +134,27 @@ export default function SearchableLinks({
       ) : (
         shown.map((g) =>
           g.items.length === 0 ? null : (
-            <div key={g.title}>
-              <h2 className="h-md" style={{ margin: "34px 0 16px" }}>
-                {g.title}
-              </h2>
-              <div className="linkfarm">
+            <details
+              key={g.title}
+              className="az-section"
+              open={isOpen(g.title)}
+              onToggle={(e) => {
+                if (needle === "") toggle(g.title, (e.currentTarget as HTMLDetailsElement).open);
+              }}
+            >
+              <summary className="az-head">
+                <h2 className="h-md" style={{ margin: 0, minWidth: 0 }}>
+                  {g.title}
+                </h2>
+                <span className="az-meta">
+                  {g.items.length}
+                  {groupLabel ? ` ${g.items.length > 1 ? groupLabel[1] : groupLabel[0]}` : ""}
+                </span>
+                <span className="az-caret" aria-hidden="true">
+                  ▶
+                </span>
+              </summary>
+              <div className="linkfarm" style={{ padding: "18px 0 24px" }}>
                 {g.items.map((i) => (
                   <Link
                     key={i.slug}
@@ -132,7 +169,7 @@ export default function SearchableLinks({
                   </Link>
                 ))}
               </div>
-            </div>
+            </details>
           ),
         )
       )}

@@ -1099,6 +1099,25 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 .artist-tile span { font-size: .74rem; color: var(--grey); }
 @media (max-width: 560px) { .artist-grid { grid-template-columns: 1fr; } }
 
+/* --------------------------- INTRO DE HUB ------------------------------ */
+/* La description d'un hub n'est pas un paragraphe de lecture continue : plafonnée
+   à 56ch dans une colonne qui fait 85 % de la fenêtre, elle s'arrêtait au tiers de
+   la page et laissait le reste vide, exactement le défaut déjà payé sur `.abt` et
+   `.aphero`. Elle prend donc toute la largeur, et comme élargir la mesure ne corrige
+   rien (au-delà de ~70 caractères l'œil ne retrouve plus le début de la ligne
+   suivante), c'est en deux colonnes : la punchline à gauche, le contexte tiré du
+   catalogue à droite. Container query et pas media query, même raison que `.abt`,
+   c'est la largeur du bloc qui décide, pas celle de la fenêtre. */
+.hubintro { container-type: inline-size; margin: 10px 0 0; }
+.hubintro-in { display: grid; gap: 12px 0; }
+.hubintro p { margin: 0; color: var(--grey); font-size: clamp(1rem, 1.4vw, 1.14rem); line-height: 1.65; }
+.hubintro p:first-child { color: var(--white); }
+@container (min-width: 780px) {
+  .hubintro-in { grid-template-columns: 1fr 1fr; gap: 0 56px; }
+  .hubintro p { font-size: 1.05rem; }
+  .hubintro p:first-child { font-size: 1.22rem; line-height: 1.55; }
+}
+
 /* ------------------------- A→Z ARTIST DIRECTORY ------------------------ */
 /* 1 860 tiles in one flat block were alphabetical without ever looking it:
    nothing marked where the A's stopped. Sections with an oversized letter make
@@ -1120,14 +1139,40 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
    reflow under the cursor, but visibly out of play and not a link to nowhere. */
 .az-jump a.is-off { opacity: .25; pointer-events: none; }
 .az-count { margin-top: 12px; }
-.az-section { scroll-margin-top: 150px; }
-.az-head { display: flex; align-items: baseline; gap: 16px; margin: 44px 0 18px; }
+/* Vingt-sept sections dépliées, ce sont 6 750 vignettes empilées : l'annuaire
+   poussait tout le reste de la page (crédits, prochaines dates, FAQ) hors de portée
+   et il fallait dérouler une lettre entière pour atteindre la suivante. Chaque
+   section est donc un `<details>` **fermé par défaut**, et c'est bien un `<details>`
+   et pas un rendu conditionnel : le contenu reste dans le HTML rendu au serveur,
+   donc les 6 750 liens que suit un crawler sont exactement ceux d'avant, la règle
+   qui tient l'annuaire depuis le début. Un filtre actif rouvre ce qu'il garde. */
+.az-section { scroll-margin-top: 150px; border-bottom: 1px solid var(--line-soft); }
+.az-head {
+  display: flex; align-items: center; gap: 16px; margin: 0; padding: 14px 4px;
+  cursor: pointer; list-style: none; transition: background .2s;
+}
+.az-head::-webkit-details-marker { display: none; }
+.az-head:hover { background: var(--line-soft); }
+.az-head:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 .az-letter {
-  font-family: var(--f-display); font-weight: 800; font-size: clamp(3rem, 7vw, 5rem);
+  font-family: var(--f-display); font-weight: 800; font-size: clamp(1.7rem, 3.4vw, 2.6rem);
   line-height: .9; background: var(--grad-main); -webkit-background-clip: text;
   background-clip: text; color: transparent; letter-spacing: -.02em;
+  min-width: 1.4em; margin: 0;
 }
-.az-meta { font-family: var(--f-mono); font-size: .74rem; color: var(--grey); }
+.az-meta { font-family: var(--f-mono); font-size: .74rem; color: var(--grey); flex: 1; }
+/* Le chevron pivote, c'est le seul signe qui dit qu'une ligne s'ouvre. */
+.az-caret { color: var(--grey-3); font-size: .8rem; transition: transform .2s; }
+.az-section[open] > .az-head .az-caret { transform: rotate(90deg); }
+.az-section[open] > .az-head { border-bottom: 1px solid var(--line-soft); }
+.az-section > .artist-grid { padding: 18px 0 24px; }
+.az-tools { display: flex; gap: 8px; }
+.az-tools button {
+  font-family: var(--f-mono); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--grey); border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px;
+  background: transparent; cursor: pointer; transition: color .2s, border-color .2s;
+}
+.az-tools button:hover { color: var(--white); border-color: var(--violet); }
 .artist-tile-txt { min-width: 0; }
 .artist-tile-txt b { overflow-wrap: anywhere; }
 /* Les genres de l'artiste, sous le compte de dates : c'est ce qui distingue deux noms

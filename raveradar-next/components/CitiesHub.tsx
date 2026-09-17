@@ -197,13 +197,51 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
           <h1 className="h-lg" style={{ margin: "14px 0 8px" }}>
             {t("cities.title")}
           </h1>
-          <p className="lead">{t("cities.lead")}</p>
-          <p className="lead">{intro}</p>
+          {/* La description prend toute la largeur, en deux colonnes : plafonnée à
+              56ch elle s'arrêtait au tiers d'une page qui fait 85 % de la fenêtre.
+              Voir `.hubintro` dans globals.css. */}
+          <div className="hubintro">
+            <div className="hubintro-in">
+              <p>{t("cities.lead")}</p>
+              <p>{intro}</p>
+            </div>
+          </div>
 
-          {/* Les trois portes d'entrée, avant la moindre liste. Quelqu'un qui ne
-              connaît aucun nom de ville n'a rien à faire d'un annuaire, et la géoloc
-              est la seule réponse actionnable dans ce cas. Même bloc que la home,
-              mêmes clés : une seule copie pour les mêmes trois portes. */}
+          {/* L'annuaire passe en tête, champ de recherche compris : c'est par lui
+              qu'on arrive ici, et une boîte de recherche qu'il faut trouver en
+              déroulant cinq sections est une boîte que personne n'utilise. Les cartes
+              de ville et les murs de liens restent en dessous, ce sont des mises en
+              avant, pas la porte d'entrée. */}
+          <h2 className="h-md" style={{ margin: "40px 0 8px" }}>
+            {t("cities.all")}
+          </h2>
+          <p className="lead" style={{ marginBottom: 18 }}>
+            {t("cities.alllead").replace("{n}", String(PLACES.length))}
+          </p>
+          {/* 138 zones, c'est bien au-delà du point où on parcourt un mur de pilules à
+              l'œil pour y trouver sa propre ville. La boîte filtre les deux listes à la
+              fois, et chaque lien reste dans le HTML rendu au serveur : le maillage
+              qu'un crawler suit est exactement celui d'avant. */}
+          <SearchableLinks
+            groups={[
+              { title: t("cities.bigcities"), items: placeItems(villes) },
+              { title: t("cities.depts"), items: placeItems(zones) },
+            ]}
+            hrefBase={`${p}/rave-party/`}
+            labelPrefix="📍 Rave party "
+            placeholder={t("filter.cities")}
+            countLabel={t("filter.count")}
+            emptyLabel={t("filter.none")}
+            clearLabel={t("filter.clear")}
+            soonLabel={t("cities.soon")}
+            groupLabel={[t("dyn.zone"), t("dyn.zones")]}
+          />
+
+          {/* Les trois portes d'entrée. Quelqu'un qui ne connaît aucun nom de ville
+              n'a rien à faire d'un annuaire, et la géoloc est la seule réponse
+              actionnable dans ce cas : elles viennent donc juste après lui, avant
+              toute autre liste. Même bloc que la home, mêmes clés : une seule copie
+              pour les mêmes trois portes. */}
           <div className="ways" style={{ marginTop: 26 }}>
             <Link className="way way-hero" href={`${p}/rave-party/autour-de-moi`}>
               <span className="way-ico">📍</span>
@@ -331,30 +369,6 @@ export default function CitiesHub({ lang }: { lang: Lang }) {
               ))}
             </>
           )}
-
-          <h2 className="h-md" style={{ margin: "52px 0 8px" }}>
-            {t("cities.all")}
-          </h2>
-          <p className="lead" style={{ marginBottom: 18 }}>
-            {t("cities.alllead").replace("{n}", String(PLACES.length))}
-          </p>
-          {/* 138 zones, c'est bien au-delà du point où on parcourt un mur de pilules à
-              l'œil pour y trouver sa propre ville. La boîte filtre les deux listes à la
-              fois, et chaque lien reste dans le HTML rendu au serveur : le maillage
-              qu'un crawler suit est exactement celui d'avant. */}
-          <SearchableLinks
-            groups={[
-              { title: t("cities.bigcities"), items: placeItems(villes) },
-              { title: t("cities.depts"), items: placeItems(zones) },
-            ]}
-            hrefBase={`${p}/rave-party/`}
-            labelPrefix="📍 Rave party "
-            placeholder={t("filter.cities")}
-            countLabel={t("filter.count")}
-            emptyLabel={t("filter.none")}
-            clearLabel={t("filter.clear")}
-            soonLabel={t("cities.soon")}
-          />
 
           {/* Le seul lien entrant des pages `/festival/{ville}` : il ne se coupe pas,
               une page qui perd son entrée devient orpheline. Il porte en revanche son
