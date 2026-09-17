@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "the-warehouse-project",
+    "name": "The Warehouse Project",
+    "kind": "organisateur",
+    "city": "Manchester",
+    "country": "UK",
+    "since": 2006,
+    "desc": "The Warehouse Project est la saison de soirées lancée à Manchester en 2006 par Sacha Lord et Sam Kandel, deux anciens du Sankeys. Contrairement à un club, elle ne tourne pas toute l'année : chaque saison court de septembre au Nouvel An. Depuis 2019 elle se tient à Depot Mayfield, ancien dépôt ferroviaire et centre de tri postal reconverti.",
+    "descEn": "The Warehouse Project is the seasonal club series started in Manchester in 2006 by Sacha Lord and Sam Kandel, both Sankeys veterans. Unlike a club it does not run all year: each season goes from September to New Year's Day. Since 2019 it has been staged at Depot Mayfield, a former railway yard and Royal Mail distribution centre.",
+    "site": "https://www.thewarehouseproject.com/",
+    "instagram": "https://www.instagram.com/whp_mcr",
+    "match": [
+      "the warehouse project"
+    ],
+    "venues": [
+      "Depot Mayfield"
+    ],
+    "verified": "Wikipedia donne l'année (2006), les fondateurs et l'installation à Depot Mayfield en 2019 ; DJ Mag confirme la salle. Instagram relevé sur le site officiel (lien sortant vers instagram.com/whp_mcr). Le match touche 21 lignes du catalogue, toutes à Depot Mayfield, Manchester, et les 21 dates de cette salle sont des dates The Warehouse Project, d'où le venue. Restreint au Royaume-Uni : « Shelter ADE: 20 Years of The Warehouse Project » est la soirée ADE du Shelter à Amsterdam, pas une date de la saison WHP.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Warehouse_Project",
+      "https://djmag.com/top100clubs/2024/6/Warehouse-Project-Depot-Mayfield",
+      "https://www.thewarehouseproject.com/"
+    ],
+    "countries": [
+      "UK"
+    ]
+  },
+  {
+    "slug": "teletech",
+    "name": "Teletech",
+    "kind": "collectif",
+    "city": "Manchester",
+    "country": "UK",
+    "since": 2017,
+    "desc": "Teletech est un collectif techno né à Manchester en 2017, monté par Tom Shenton et Anton Stevens à partir de soirées étudiantes du quartier de Fallowfield. La marque organise aujourd'hui ses propres dates dans une dizaine de villes britanniques et son festival, en plus de scènes accueillies sur de gros festivals européens.",
+    "descEn": "Teletech is a techno collective founded in Manchester in 2017 by Tom Shenton and Anton Stevens, out of student house parties in Fallowfield. The brand now runs its own dates across a dozen British cities plus its own festival, alongside stages hosted at large European festivals.",
+    "site": "https://www.teletech.events/",
+    "instagram": "https://www.instagram.com/teletechuk",
+    "match": [
+      "teletech"
+    ],
+    "venues": [],
+    "verified": "Mixmag date les débuts à 2017 à Fallowfield, Manchester, et nomme Tom Shenton et Anton Stevens ; la page About du site officiel confirme la ville d'origine (« Teletech was founded in Manchester, UK ») sans donner l'année. Instagram relevé sur le site officiel. Le match touche 9 lignes du catalogue, toutes des dates Teletech (Belfast, Bristol, Cardiff, Glasgow, Leeds, Liverpool, Londres, Manchester, Newcastle), aucune salle n'étant à elle.",
+    "sources": [
+      "https://mixmag.net/feature/teletech-techno-events-manchester-london-berlin-dj-interview-hard-fast-dance-music",
+      "https://www.teletech.events/about"
+    ]
+  },
+  {
+    "slug": "circus-liverpool",
+    "name": "Circus",
+    "kind": "collectif",
+    "city": "Liverpool",
+    "country": "UK",
+    "since": 2002,
+    "desc": "Circus est la soirée house et techno lancée à Liverpool en septembre 2002 par le DJ et producteur Yousef, après la fin de sa résidence au Cream. Elle programme depuis ses propres dates dans les entrepôts et salles de la ville. En mai 2021 elle a accueilli les premières soirées sans distanciation du Royaume-Uni, dans le cadre du programme gouvernemental de tests.",
+    "descEn": "Circus is the house and techno night started in Liverpool in September 2002 by DJ and producer Yousef, after his Cream residency ended. It has run its own dates in the city's warehouses and venues ever since. In May 2021 it hosted the first restriction-free club nights in the UK as part of the government's Event Research Programme.",
+    "site": "https://www.circusclub.co.uk/",
+    "match": [
+      "circus"
+    ],
+    "venues": [],
+    "verified": "The Guide Liverpool (20e anniversaire) et Mixmag donnent 2002 et Yousef comme fondateur ; Mixmag documente les soirées de mai 2021 du Event Research Programme. Le match touche 5 lignes du catalogue, toutes à Liverpool et toutes des dates Circus ; le Blackstone Street Warehouse accueille d'autres promoteurs, donc aucune salle n'est revendiquée. Instagram non repris : le site officiel est en refonte et ne porte aucun lien à vérifier. Restreint au Royaume-Uni : « Circus » attrapait sinon « David Guetta presents Galactic Circus » à Ibiza, qui n'a aucun rapport.",
+    "sources": [
+      "https://theguideliverpool.com/yousef-says-circus-20th-birthday-in-liverpool-is-going-to-be-the-most-ridiculous-line-up-ever/",
+      "https://mixmag.net/feature/review-circus-liverpool-clubbing-erp-review",
+      "https://www.circusclub.co.uk/"
+    ],
+    "countries": [
+      "UK"
+    ]
+  },
+  {
+    "slug": "shangri-la-cardiff",
+    "name": "Shangri-La",
+    "kind": "collectif",
+    "city": "Cardiff",
+    "country": "UK",
+    "since": 2011,
+    "desc": "Shangri-La est la soirée house et techno créée à Cardiff en avril 2011 par Nick Saunders et James Cromwell, alors étudiants à Cardiff Met, d'abord au GLAM Nightclub de Greyfriars Road. Elle s'est depuis installée au Depot, la salle de 2 100 places que Nick Saunders a lui-même montée, et y reçoit des têtes d'affiche house et techno.",
+    "descEn": "Shangri-La is the house and techno night started in Cardiff in April 2011 by Nick Saunders and James Cromwell, then Cardiff Met students, first at what was GLAM Nightclub on Greyfriars Road. It has since moved to Depot, the 2,100 capacity venue Saunders went on to found, where it books house and techno headliners.",
+    "match": [
+      "shangri-la"
+    ],
+    "venues": [],
+    "verified": "Wales247 (les 15 ans de la marque) donne la date exacte (avril 2011), les deux fondateurs, la ville et la première salle, et indique que Nick Saunders a fondé le Depot. Le match touche 6 lignes du catalogue, toutes au Depot à Cardiff ; cette salle accueille aussi d'autres promoteurs (The History of Jungle, Paradisco, WAH X Bedlam), donc elle n'est pas revendiquée. Aucun compte social repris, le site officiel n'étant pas accessible depuis le conteneur.",
+    "sources": [
+      "https://www.wales247.co.uk/shangri-la-marks-15-years-with-huge-cardiff-takeover",
+      "https://depotcardiff.com/evonts/category/shangri-la/"
+    ]
+  },
+  {
+    "slug": "nightvision",
+    "name": "Nightvision",
+    "kind": "organisateur",
+    "city": "Edinburgh",
+    "country": "UK",
+    "since": 2014,
+    "desc": "Nightvision est la série de soirées électroniques lancée à Édimbourg en 2014, née du rapprochement des promoteurs house et techno de Musika et du collectif bass music Xplicit. Elle court de la mi-septembre au Nouvel An dans les salles de la ville, de La Belle Angele à l'Edinburgh Corn Exchange, et programme aussi Glasgow et Aberdeen.",
+    "descEn": "Nightvision is the electronic music series launched in Edinburgh in 2014, born of house and techno promoters Musika joining forces with bass music outfit Xplicit. It runs from mid September to New Year's Eve across the city's venues, from La Belle Angele to the Edinburgh Corn Exchange, and also books Glasgow and Aberdeen.",
+    "match": [
+      "nightvision"
+    ],
+    "venues": [],
+    "verified": "The Skinny (article de juillet 2014 annonçant le lancement) donne l'année, la ville, les deux promoteurs à l'origine de la série et les salles. Le match touche 4 lignes du catalogue (Aberdeen, Édimbourg deux fois, Glasgow), toutes des dates Nightvision. Aucune salle revendiquée, la marque tourne. Compte Instagram non repris : seuls X et Facebook (thisisourvision) sont confirmés par une source.",
+    "sources": [
+      "https://www.theskinny.co.uk/clubs/highlights/edinburgh-clubbing-extravaganza-nightvision-announces-first-acts",
+      "https://www.skiddle.com/g/nightvision/"
+    ]
+  },
+  {
+    "slug": "detonate",
+    "name": "Detonate",
+    "kind": "organisateur",
+    "city": "Nottingham",
+    "country": "UK",
+    "since": 1999,
+    "desc": "Detonate est le promoteur drum & bass, jungle, garage et bass music de Nottingham, actif depuis 1999. Parti de soirées en sous-sol, il a programmé la plupart des salles de la ville, du Rock City au Stealth en passant par l'Unit 13 et The Brickworks, et organise son propre festival. Sa programmation mélange grosses têtes d'affiche et artistes émergents.",
+    "descEn": "Detonate is Nottingham's drum & bass, jungle, garage and bass music promoter, running since 1999. Starting with basement parties, it has booked most venues in the city, from Rock City and Stealth to Unit 13 and The Brickworks, and runs its own festival. Its billing mixes big headliners with emerging artists.",
+    "site": "https://detonate1.co.uk/",
+    "instagram": "https://www.instagram.com/detonateuk",
+    "match": [
+      "detonate"
+    ],
+    "venues": [],
+    "verified": "Le site officiel dit « Founded in Nottingham in the late 1990s » et « Pioneering Raves in Nottingham since the 90's » sans donner l'année ; LeftLion, en mars 2004, titre sur le cinquième anniversaire (« It's five years since Detonate started their nights »), ce qui fixe 1999. Instagram relevé sur le site officiel. Le match touche 4 lignes du catalogue, toutes à Nottingham et toutes des dates Detonate. L'Unit 13 n'est pas revendiqué : le site le cite parmi une longue liste de salles utilisées, ce n'est pas sa salle.",
+    "sources": [
+      "https://detonate1.co.uk/",
+      "https://leftlion.co.uk/features/2004/03/detonates-fifth-birthday/"
+    ]
+  },
+  {
+    "slug": "fly",
+    "name": "FLY",
+    "kind": "organisateur",
+    "city": "Edinburgh",
+    "country": "UK",
+    "since": 2013,
+    "desc": "FLY est une marque de soirées house et techno lancée à Édimbourg en 2013 par Tom Ketley, au départ un club night de 400 personnes. Elle a servi de tremplin aux résidences de Denis Sulta et Jasper James, et a créé en 2016 FLY Open Air, premier festival en plein air du centre d'Édimbourg, au Ross Bandstand des Princes Street Gardens. Elle programme aujourd'hui Édimbourg, Glasgow et Aberdeen.",
+    "descEn": "FLY is a house and techno brand started in Edinburgh in 2013 by Tom Ketley, at first a 400 capacity club night. It helped build the residencies of Denis Sulta and Jasper James, and in 2016 launched FLY Open Air, the first inner city open air festival in Edinburgh, at the Ross Bandstand in Princes Street Gardens. It now books Edinburgh, Glasgow and Aberdeen.",
+    "match": [
+      "fly"
+    ],
+    "venues": [],
+    "verified": "The List et Your Soundboard donnent 2013, Édimbourg et Tom Ketley, ainsi que les résidences de Denis Sulta et Jasper James ; Resident Advisor date la première FLY Open Air au 24 septembre 2016 au Ross Bandstand. Le match sur le mot entier « fly » touche 8 lignes du catalogue, toutes écossaises et toutes des dates FLY, aucun autre titre du lot ne contenant ce mot. Ni site ni compte social repris : flyclub.co.uk ne répond pas depuis le conteneur et aucune source ne confirme de handle.",
+    "sources": [
+      "https://list.co.uk/news/fly-open-airs-tom-ketley-edinburgh-has-become-a-massive-market-for-clubbing-3596",
+      "https://www.yoursoundboard.online/post/tom-ketley",
+      "https://ra.co/events/826066"
+    ]
+  },
+  {
+    "slug": "encrypted",
+    "name": "Encrypted",
+    "kind": "collectif",
+    "city": "Birmingham",
+    "country": "UK",
+    "desc": "Encrypted est un promoteur house, tech house et techno minimale de Birmingham, dont les soirées se tiennent au LAB11, l'entrepôt de Digbeth. La marque a fêté sa quatrième année en octobre 2026 avec Mason Collective, et programme aussi Bournemouth, où elle a pris ses quartiers au Vault.",
+    "descEn": "Encrypted is a house, tech house and minimal techno promoter from Birmingham, whose nights run at LAB11, the Digbeth warehouse. The brand marked its fourth year in October 2026 with Mason Collective, and also books Bournemouth, where it has made a second home at The Vault.",
+    "match": [
+      "encrypted"
+    ],
+    "venues": [],
+    "verified": "Skiddle News annonce le quatrième anniversaire au LAB11 le 2 octobre 2026, cite les genres et la seconde salle (The Vault, Bournemouth). Aucune source ne donne l'année de création en clair, donc `since` est omis : un quatrième anniversaire est un calcul, pas une année publiée. Le match touche 4 lignes du catalogue (3 à Birmingham, 1 à Bournemouth), toutes des dates Encrypted. Le LAB11 accueille beaucoup d'autres promoteurs, donc aucune salle revendiquée.",
+    "sources": [
+      "https://www.skiddle.com/news/all/Mason-Collective-to-headline-Birmingham-party-for-Encrypted-birthday/61851/",
+      "https://ra.co/events/2470498"
+    ]
+  },
+  {
+    "slug": "dazed-muzic",
+    "name": "Dazed Muzic",
+    "kind": "organisateur",
+    "city": "Bristol",
+    "country": "UK",
+    "since": 2016,
+    "desc": "Dazed Muzic est une structure d'événements drum & bass et bass music fondée à Bristol en 2016, au départ une soirée hebdomadaire au Blue Mountain. Elle programme aujourd'hui des dates dans une dizaine de villes britanniques, et à Bristol au Thekla et au Lakota. Ses invités vont de Shy FX aux Kings of the Rollers.",
+    "descEn": "Dazed Muzic is a drum & bass and bass music events company founded in Bristol in 2016, starting as a weekly night at Blue Mountain. It now runs dates in around ten British cities, and in Bristol at Thekla and Lakota. Guests have ranged from Shy FX to Kings of the Rollers.",
+    "instagram": "https://www.instagram.com/dazedmuzic",
+    "match": [
+      "dazed muzic"
+    ],
+    "venues": [],
+    "verified": "La fiche promoteur Resident Advisor donne l'année (2016), la ville et la salle d'origine (Blue Mountain) ainsi que les artistes reçus ; le catalogue porte une date « Dazed Muzic 10th Birthday » en 2026, cohérente avec 2016. Compte Instagram vérifié : instagram.com/dazedmuzic répond en 200 et son titre est « Dazed Muzic (@dazedmuzic) ». Le match sur « dazed muzic » touche 4 lignes, toutes à Bristol ; il exclut volontairement « Dazed 13th Birthday » à Ilford, qui est une autre marque.",
+    "sources": [
+      "https://ra.co/promoters/119012",
+      "https://www.skiddle.com/g/dazed-muzic/"
+    ]
+  },
+  {
+    "slug": "afta-dark",
+    "name": "AFTA DARK",
+    "kind": "organisateur",
+    "city": "Birmingham",
+    "country": "UK",
+    "desc": "AFTA DARK est une série de soirées after hebdomadaire née au LAB11 de Birmingham, sur une programmation house, minimal et tech house. En septembre 2026 la marque a déplacé son rendez-vous du samedi à Nottingham, au Secret Vault, où elle tourne de 22 h 30 à 3 h 30 avec des DJs locaux et invités. Elle continue en parallèle de programmer Birmingham.",
+    "descEn": "AFTA DARK is a weekly after hours series that made its name at LAB11 in Birmingham, built on house, minimal and tech house. In September 2026 the brand moved its Saturday night to Nottingham's Secret Vault, running 10.30pm to 3.30am with local and guest DJs. It still books Birmingham alongside it.",
+    "site": "https://www.afta-dark.com/",
+    "match": [
+      "afta dark"
+    ],
+    "venues": [],
+    "verified": "Skiddle News (14 septembre 2026) documente l'origine au LAB11 de Birmingham, le déménagement du rendez-vous hebdomadaire au Secret Vault de Nottingham, les horaires et les genres ; c'est cette source qui prouve que les dates de Birmingham et celles de Nottingham sont bien la même marque, et non deux homonymes. Aucune source ne donne l'année de création, donc `since` est omis (RA porte une date AFTA DARK au LAB11 dès 2015, ce qui ne suffit pas à fixer une année de fondation). Le match touche 12 lignes du catalogue, 3 à Birmingham et 9 à Nottingham, toutes de la marque. Aucune salle revendiquée : le LAB11 accueille beaucoup d'autres promoteurs et le Secret Vault porte aussi une date HOOKED x DISTINCT.",
+    "sources": [
+      "https://www.skiddle.com/news/all/Weekly-party-series-AFTA-DARK-announces-move-to-Nottingham/61886/",
+      "https://www.afta-dark.com/schedule",
+      "https://ra.co/events/1945523"
+    ]
+  },
+  {
+    "slug": "we-are-whse",
+    "name": "We Are WHSE",
+    "kind": "organisateur",
+    "city": "Derby",
+    "country": "UK",
+    "desc": "We Are WHSE est la série de soirées montée par l'équipe du Forbidden Forest Festival pour l'ULTRA, l'entrepôt de 3 500 places ouvert dans une zone industrielle de Derby. La programmation couvre la house, la tech house et la drum & bass, en saisons numérotées. Sa deuxième saison, SZN002, est en cours.",
+    "descEn": "We Are WHSE is the club series set up by the Forbidden Forest Festival team for ULTRA, the 3,500 capacity warehouse opened on a Derby industrial estate. It books house, tech house and drum & bass, programmed in numbered seasons. Its second season, SZN002, is under way.",
+    "site": "https://www.wearewhse.com/",
+    "instagram": "https://www.instagram.com/weare_whse",
+    "match": [
+      "we are whse"
+    ],
+    "venues": [],
+    "verified": "Le site officiel dit « A brand-new event series from the creators of Forbidden Forest Festival » et annonce SZN002 à Derby ; Resident Advisor et DJ Mag donnent la capacité (3 500), la zone industrielle et l'exploitation du lieu sous la série We Are WHSE. Instagram relevé sur le site officiel. Aucune source ne donne d'année de création en clair, donc `since` est omis. Le match touche 3 lignes du catalogue, toutes à l'Ultra Warehouse de Derby ; la salle n'est pas revendiquée, elle porte aussi Garage Republic Festival et Progress.",
+    "sources": [
+      "https://www.wearewhse.com/",
+      "https://ra.co/news/83914",
+      "https://djmag.com/news/new-3500-capacity-warehouse-venue-open-derby-ultra"
+    ]
+  },
+  {
+    "slug": "i-am-a-raver",
+    "name": "I Am A Raver",
+    "kind": "collectif",
+    "city": "Glasgow",
+    "country": "UK",
+    "desc": "I Am A Raver est une marque de soirées nostalgie montée par DJ Zitkus, qui a réuni autour d'elle les figures du dance écossais Gary McF, DJ Rankin, DJ Cammy et DJ Bad Boy comme résidents. Le format rassemble les hymnes de club d'hier et d'aujourd'hui sur une grosse production, et tourne en Écosse, en Irlande, en Angleterre et en résidence estivale à l'étranger.",
+    "descEn": "I Am A Raver is a nostalgia party brand built by DJ Zitkus, who recruited Scottish dance figures Gary McF, DJ Rankin, DJ Cammy and DJ Bad Boy as residents. The format puts past and present club anthems on a big production, and tours Scotland, Ireland, England and summer residencies abroad.",
+    "site": "https://iamaraver.co.uk/",
+    "match": [
+      "i am a raver"
+    ],
+    "venues": [],
+    "verified": "La page « About Us » du site officiel nomme le fondateur (DJ Zitkus), les résidents et les territoires joués. La ville n'est pas écrite sur le site : elle est retenue d'après les fiches Resident Advisor, qui situent les soirées au Classic Grand et au Saint Judes de Glasgow, et d'après le catalogue, dont les 7 dates sont toutes à Glasgow ou Paisley. Aucune source ne donne d'année de création, donc `since` est omis. Le match touche 7 lignes, toutes de la marque. Compte Instagram non repris : seule la page Facebook /IAmARaver est confirmée par une source.",
+    "sources": [
+      "https://iamaraver.co.uk/",
+      "https://ra.co/events/1703347",
+      "https://ra.co/events/2202546"
+    ]
+  }
+]

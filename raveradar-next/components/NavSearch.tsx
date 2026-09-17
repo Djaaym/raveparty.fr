@@ -25,7 +25,7 @@ import { useSuggest } from "./useSuggest";
  * pages, y compris celle dont le LCP compte le plus.
  */
 const KIND_ICON: Record<SuggestKind, string> = {
-  artist: "🎧", festival: "🎪", event: "🔊", city: "📍", venue: "🏛", genre: "🎵", country: "🌍",
+  artist: "🎧", festival: "🎪", event: "🔊", city: "📍", venue: "🏛", promoter: "🎛", genre: "🎵", country: "🌍",
 };
 
 export default function NavSearch({ lang }: { lang: Lang }) {

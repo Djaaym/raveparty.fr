@@ -3,6 +3,7 @@ import { EVENTS, ALL_GENRES, genreSlug, eventPath, isPast, lastDay } from "@/lib
 import { PLACES } from "@/lib/places";
 import { ARTISTS } from "@/lib/artists";
 import { VENUES } from "@/lib/venues";
+import { PROMOTERS, promoterUpcoming } from "@/lib/promoters";
 import { COUNTRIES_INDEX } from "@/lib/countries";
 import { SITE_URL } from "@/lib/site";
 import { CATALOG_UPDATED } from "@/lib/catalog-version";
@@ -70,6 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/genres", priority: 0.8, changeFrequency: "weekly", lastModified: catalog },
     { path: "/artistes", priority: 0.7, changeFrequency: "weekly", lastModified: catalog },
     { path: "/lieux", priority: 0.7, changeFrequency: "weekly", lastModified: catalog },
+    { path: "/organisateurs", priority: 0.7, changeFrequency: "weekly", lastModified: catalog },
     { path: "/map", priority: 0.6, changeFrequency: "weekly", lastModified: catalog },
     { path: "/organizer", priority: 0.5, changeFrequency: "monthly", lastModified: catalog },
     /* Les pages institutionnelles. Elles bougent rarement, et c'est exactement ce que
@@ -110,6 +112,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   VENUES.forEach((v) =>
     entries.push({ path: `/lieux/${v.slug}`, priority: 0.6, changeFrequency: "weekly", lastModified: catalog }),
   );
+  PROMOTERS.forEach((x) => {
+    /* Une marque qui n'a plus que son archive reste en ligne mais sort du sitemap,
+       même règle que les pages de lieu sans date (cf. `lib/thin-pages.ts`). */
+    if (promoterUpcoming(x.slug).length === 0) return;
+    entries.push({ path: `/organisateurs/${x.slug}`, priority: 0.6, changeFrequency: "weekly", lastModified: catalog });
+  });
   // No `/show/` entries: those URLs are 301 forwarders now, not pages.
 
   const seen = new Set<string>();

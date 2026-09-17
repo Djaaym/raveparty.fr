@@ -16,6 +16,7 @@ const KIND_ICON: Record<SuggestKind, string> = {
      polices d'emoji et tombe en carré vide, vérifié au navigateur. */
   genre: "🎵",
   country: "🌍",
+  promoter: "🎛",
 };
 
 /**

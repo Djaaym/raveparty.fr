@@ -3,6 +3,7 @@ import { COUNTRY_FR, EVENTS, GENRES, countryLabel, eventPath, genreSlug, isPast,
 import { fmtDate } from "./format";
 import { ARTISTS } from "./artists";
 import { VENUES } from "./venues";
+import { PROMOTERS, eventsForPromoter } from "./promoters";
 import { PLACES, eventsForPlace } from "./places";
 import { COUNTRIES_INDEX } from "./countries";
 
@@ -61,6 +62,10 @@ const KIND_WEIGHT: Record<SuggestKind, number> = {
   festival: 46,
   artist: 42,
   venue: 32,
+  /* Entre la salle et la date : une marque est une intention plus large qu'une nuit
+     précise, plus étroite qu'un lieu, dont la page couvre toutes les marques qui y
+     passent. */
+  promoter: 30,
   event: 26,
 };
 
@@ -112,6 +117,18 @@ function build(): Rec[] {
       count: v.eventIds.length,
       city: v.city,
       country: v.country,
+    });
+
+  for (const x of PROMOTERS)
+    out.push({
+      k: "promoter",
+      n: x.name,
+      h: `/organisateurs/${x.slug}`,
+      norm: fold(x.name),
+      norm2: fold(x.city),
+      count: eventsForPromoter(x.slug).length,
+      city: x.city,
+      country: x.country,
     });
 
   /* Une ville sans date à venir n'est pas une suggestion : la page existe, mais elle

@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "loveland",
+    "name": "Loveland",
+    "kind": "organisateur",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "since": 1995,
+    "desc": "Loveland organise des événements house et techno à Amsterdam depuis 1995, mention portée en toutes lettres par son propre site. Sa date principale est le Loveland Festival, deux jours au Sloterpark début août, complétée par le 909 Festival à l'Amsterdamse Bos, la journée BURST au Meerpark et une série de soirées pendant l'Amsterdam Dance Event. Chaque marque a son propre compte Instagram.",
+    "descEn": "Loveland has been putting on house and techno events in Amsterdam since 1995, a date its own site states in full. Its main event is Loveland Festival, two days in the Sloterpark in early August, alongside 909 Festival in the Amsterdamse Bos, the BURST day at Meerpark and a run of shows during Amsterdam Dance Event.",
+    "site": "https://www.loveland.nl/",
+    "instagram": "https://www.instagram.com/lovelandnl",
+    "match": [
+      "loveland"
+    ],
+    "countries": [
+      "Netherlands"
+    ],
+    "venues": [],
+    "verified": "Site officiel loveland.nl : « Loveland Events Since 1995 » en tete de page, et l'agenda liste BURST au Meerpark, 909 Festival a l'Amsterdamse Bos, Loveland Festival les 7 et 8 aout 2027 au Sloterpark d'Amsterdam et « Loveland ADE shows, October 2026 », soit exactement les deux lieux du catalogue. Instagram @lovelandnl pris sur le lien du site (les marques 909 et BURST ont le leur, non repris ici). Match `loveland` : 3 lignes, les deux editions du festival au Sloterpark et « Boris Brejcha pres. FCKNG SERIOUS x Loveland » au Theater Amsterdam, qui est une des shows ADE annonces par le site. `countries` limite aux Pays-Bas, le mot etant assez commun pour attraper autre chose le jour ou le catalogue s'elargit. Aucune salle revendiquee : le Sloterpark et le Theater Amsterdam accueillent d'autres programmes.",
+    "sources": [
+      "https://www.loveland.nl/",
+      "https://www.loveland.nl/about/"
+    ]
+  },
+  {
+    "slug": "basis",
+    "name": "BASIS",
+    "kind": "club",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "desc": "BASIS est un club techno du centre d'Utrecht, installé dans une cave voisine du vieux canal, qui se présente sous le mot d'ordre « Back to the BASIS » et revendique plus de dix ans d'activité. La cabine est montée à 360 degrés, au même niveau que le public, et le système son est un VOID. Le club sort de ses murs pour son BASIS Outdoor, monté au Beton-T.",
+    "descEn": "BASIS is a techno club in the centre of Utrecht, in a basement next to the old canal, running under the motto \"Back to the BASIS\" and claiming more than ten years of activity. The booth is a 360 degree setup on the same level as the crowd, with a VOID sound system. The club steps outside its walls for BASIS Outdoor, held at Beton-T.",
+    "site": "https://clubbasis.nl/",
+    "instagram": "https://www.instagram.com/clubbasis",
+    "match": [
+      "basis"
+    ],
+    "countries": [
+      "Netherlands"
+    ],
+    "venues": [
+      "BASIS, Oudegracht aan de Werf 97"
+    ],
+    "verified": "Site officiel, page About Us : « the techno club in the heart of downtown Utrecht », cave a cote du vieux canal, « For over ten years », cabine a 360 degres au meme niveau que le public, systeme VOID. L'agenda du site porte les memes soirees que le catalogue, sous la forme « BASIS/ … ». Instagram @clubbasis pris sur le lien du site. `since` omis : le site dit « plus de dix ans » et ne donne aucune annee, la deduire serait une invention. Match `basis` : 5 lignes, toutes des soirees BASIS, dont « BASIS Outdoor » au Beton-T. `countries` limite aux Pays-Bas, « basis » etant un mot courant en neerlandais comme en allemand. Salle revendiquee : les 4 lignes de « BASIS, Oudegracht aan de Werf 97 » sont sa programmation.",
+    "sources": [
+      "https://clubbasis.nl/about-us/",
+      "https://clubbasis.nl/"
+    ]
+  },
+  {
+    "slug": "q-dance",
+    "name": "Q-dance",
+    "kind": "organisateur",
+    "city": "Landsmeer",
+    "country": "Netherlands",
+    "since": 1999,
+    "desc": "Q-dance est la société néerlandaise qui organise les grands rendez-vous des styles durs, hardstyle, hardcore et hard trance, dont Defqon.1, Qlimax et Dominator. Elle a été fondée en 1999 sous le nom Qlass Elite par un groupe d'amis de Landsmeer, au nord d'Amsterdam, avec Wouter Tavecchio parmi les fondateurs. Ses événements se reconnaissent au Q de leur nom, pour quality.",
+    "descEn": "Q-dance is the Dutch company behind the big harder styles events, hardstyle, hardcore and hard trance, among them Defqon.1, Qlimax and Dominator. It was founded in 1999 as Qlass Elite by a group of friends in Landsmeer, north of Amsterdam, with Wouter Tavecchio among the founders. Its events are recognisable by the Q in their name, which stands for quality.",
+    "site": "https://www.q-dance.com/",
+    "match": [
+      "defqon",
+      "dominator"
+    ],
+    "countries": [
+      "Netherlands"
+    ],
+    "venues": [],
+    "verified": "Wikipedia (article Q-dance) : societe neerlandaise des styles durs, « Popular events and festivals organized by Q-dance are Defqon.1 Festival, Qlimax and Dominator », fondation en 1999 sous le nom Qlass Elite a Landsmeer, banlieue nord d'Amsterdam, Wouter Tavecchio cite comme fondateur, le Q pour quality. C'est cette source qui tranche « nom du festival ou nom de la societe » : la page porte la societe, ses festivals gardent leurs fiches. Site officiel q-dance.com rendu en JavaScript, donc aucun lien social verifiable, Instagram non repris. Match `defqon` plus `dominator` : 4 lignes, les deux Defqon.1 a Biddinghuizen et les deux Dominator Festival a Eersel, aucune autre ligne du catalogue ne porte ces mots. `countries` limite aux Pays-Bas.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Q-dance",
+      "https://www.q-dance.com/"
+    ]
+  },
+  {
+    "slug": "luminosity",
+    "name": "Luminosity",
+    "kind": "organisateur",
+    "city": "Zandvoort",
+    "country": "Netherlands",
+    "desc": "Luminosity Events est un organisateur néerlandais de soirées et de festivals trance. Sa date de référence est le Luminosity Beach Festival, sur la plage de Zandvoort, dont le site annonce les vingt ans en 2027, et il monte le reste de l'année des soirées à Amsterdam, dont une série pendant l'Amsterdam Dance Event.",
+    "descEn": "Luminosity Events is a Dutch promoter of trance parties and festivals. Its flagship date is Luminosity Beach Festival on the beach at Zandvoort, whose twentieth anniversary the site announces for 2027, and it runs club nights in Amsterdam the rest of the year, including a run during Amsterdam Dance Event.",
+    "site": "https://www.luminosity-events.nl/",
+    "instagram": "https://www.instagram.com/luminosity_events",
+    "match": [
+      "luminosity"
+    ],
+    "countries": [
+      "Netherlands"
+    ],
+    "venues": [],
+    "verified": "Site officiel luminosity-events.nl : agenda portant « Luminosity Beach Festival », « Luminosity pres. The Thrillseekers » et « Luminosity pres. This Is Trance! ADE » a Amsterdam, et une actualite « Luminosity Beach Festival 2027 - 20 Years Anniversary / After two decades ». Instagram @luminosity_events pris sur le lien du site. `since` omis : le site parle de vingt ans en 2027 sans jamais donner d'annee de creation, la calculer serait une deduction. Ville retenue : Zandvoort, celle du Beach Festival telle que le catalogue et le site la portent, aucune source ne donnant le siege de la societe, et c'est dit ici pour que personne ne la prenne pour une ville de fondation. Match `luminosity` : 2 lignes, « Luminosity Beach Festival » a Zandvoort et « Luminosity 19 Years Anniversary » au Melkweg d'Amsterdam.",
+    "sources": [
+      "https://www.luminosity-events.nl/",
+      "https://www.luminosity-events.nl/faq/"
+    ]
+  },
+  {
+    "slug": "nibirii",
+    "name": "Nibirii",
+    "kind": "organisateur",
+    "city": "Cologne",
+    "country": "Germany",
+    "desc": "Nibirii est un organisateur allemand basé à Cologne, qui tient un festival en plein air de trois jours au bord du Dürener Badesee et une série de dates en club le reste de l'année. Sa programmation va du drum and bass à la hard techno, et ses soirées club sont annoncées sous le nom Nibirii Clubshows.",
+    "descEn": "Nibirii is a German promoter based in Cologne, running a three day open air festival by the Dürener Badesee and a run of club dates the rest of the year. It books drum and bass through to hard techno, and its club nights are announced as Nibirii Clubshows.",
+    "site": "https://nibirii.com/",
+    "instagram": "https://www.instagram.com/nibirii",
+    "match": [
+      "nibirii"
+    ],
+    "venues": [],
+    "verified": "Site officiel nibirii.com : « Outdoor Festival & Clubshows », edition 2027 annoncee du 27 au 29 aout au Dürener Badesee, section « Upcoming clubshows » portant « NIBIRII @BOOTSHAUS, BOOTSHAUS COLOGNE | 02.10.2026 », date exacte de la ligne « NIBIRII pres. Ely Oaks » du catalogue, et adresse de bureau Hohenzollernring 16-18, 50672 Köln, d'ou la ville. Instagram pris sur le lien du site. `since` omis, aucune source ne donnant l'annee. Match `nibirii` : 2 lignes, le festival a Düren et la clubshow au Bootshaus, aucune autre.",
+    "sources": [
+      "https://nibirii.com/",
+      "https://de.wikipedia.org/wiki/Bootshaus_(K%C3%B6ln)"
+    ]
+  },
+  {
+    "slug": "blacklist",
+    "name": "Blacklist",
+    "kind": "organisateur",
+    "city": "Cologne",
+    "country": "Germany",
+    "desc": "Blacklist est un festival de musiques bass monté à la Turbinenhalle d'Oberhausen, qui se présente comme le premier rendez-vous bass d'Allemagne, du dubstep à la drum and bass. La marque appartient à Bootshaus Live GmbH, à Cologne, et prolonge son festival par des dates au Bootshaus.",
+    "descEn": "Blacklist is a bass music festival held at the Turbinenhalle in Oberhausen, presenting itself as Germany's leading bass event, from dubstep through to drum and bass. The brand belongs to Bootshaus Live GmbH in Cologne and extends its festival with dates at the Bootshaus.",
+    "site": "https://www.blacklist-festival.com/",
+    "instagram": "https://www.instagram.com/blacklist_crew",
+    "match": [
+      "blacklist"
+    ],
+    "venues": [],
+    "verified": "Site officiel blacklist-festival.com : « BLACKLIST FESTIVAL 2026 - GERMANYS #1 BASS FESTIVAL », « 09/10 OCTOBER - TURBINENHALLE OBERHAUSEN », « THE PREMIER EVENT FOR ALL KINDS OF BASS MUSIC IN GERMANY... FROM DUBSTEP TO DRUM & BASS », mention « PARTNER: BOOTSHAUS COLOGNE / TURBINENHALLE » et pied de page « © BOOTSHAUS LIVE GMBH », d'ou la ville de Cologne. Wikipedia DE confirme que le dirigeant du Bootshaus est aussi l'organisateur du Blacklist. Instagram @blacklist_crew pris sur le lien du site. Match `blacklist` : 2 lignes, le festival a la Turbinenhalle et « Blacklist & Inurfase pres. Zaagstep by Dr Donk » au Bootshaus, une co-production ou Blacklist presente, pas une soiree qui l'invite.",
+    "sources": [
+      "https://www.blacklist-festival.com/",
+      "https://de.wikipedia.org/wiki/Bootshaus_(K%C3%B6ln)"
+    ]
+  },
+  {
+    "slug": "into-the-madness",
+    "name": "Into The Madness",
+    "kind": "organisateur",
+    "city": "Vaihingen an der Enz",
+    "country": "Germany",
+    "desc": "Into The Madness est un festival hardstyle allemand qui se tient au Seepark Zülpich, porté par Into The Madness GmbH, société installée à Vaihingen an der Enz et dirigée par Benjamin Reichert et Tom van den Tillaer. La marque prolonge son édition d'été par une soirée d'avant-fête montée au Bootshaus de Cologne.",
+    "descEn": "Into The Madness is a German hardstyle festival held at Seepark Zülpich, run by Into The Madness GmbH, a company based in Vaihingen an der Enz and led by Benjamin Reichert and Tom van den Tillaer. The brand extends its summer edition with a pre party held at the Bootshaus in Cologne.",
+    "site": "https://www.intothemadness.de/",
+    "instagram": "https://www.instagram.com/intothemadnessfestival",
+    "match": [
+      "into the madness"
+    ],
+    "venues": [],
+    "verified": "Site officiel intothemadness.de : « Into the Madness | Hardstyle Festival | 04 September 2027 | Seepark Zülpich Deutschland ». Mentions legales du meme site : « Into The Madness GmbH, Seemühle 11, 71665 Vaihingen an der Enz », representants Benjamin Reichert et Tom van den Tillaer, registre du commerce d'Amtsgericht Stuttgart HRB 795952, d'ou la ville. Instagram @intothemadnessfestival pris sur le lien du site. `since` omis, aucune annee de creation publiee. Match `into the madness` : 2 lignes, le festival au Seepark Zülpich et « Into The Madness Pre-Party Weekender » au Bootshaus, sa propre avant-fete.",
+    "sources": [
+      "https://www.intothemadness.de/",
+      "https://www.intothemadness.de/impressum/"
+    ]
+  },
+  {
+    "slug": "wonderful-days",
+    "name": "Wonderful Days",
+    "kind": "organisateur",
+    "city": "Cologne",
+    "country": "Germany",
+    "desc": "Wonderful Days est une série de soirées allemandes sous-titrée The Classic Rave Festival, consacrée au rave, à la techno et au hardstyle des origines. Elle tourne de salle en salle plutôt que de rester sur un site, du Bootshaus de Cologne à la Nachtfabrik de Reutlingen en passant par le Neuraum de Munich et E-Dry à Geldern. Ses bureaux sont à Cologne.",
+    "descEn": "Wonderful Days is a German party series subtitled The Classic Rave Festival, devoted to early rave, techno and hardstyle. It tours from venue to venue rather than staying on one site, from the Bootshaus in Cologne to the Nachtfabrik in Reutlingen by way of Neuraum in Munich and E-Dry in Geldern. Its offices are in Cologne.",
+    "site": "https://wonderfuldays-festival.com/",
+    "instagram": "https://www.instagram.com/wonderfuldays_festival",
+    "match": [
+      "wonderful days"
+    ],
+    "venues": [],
+    "verified": "Site officiel wonderfuldays-festival.com : titre « Wonderfuldays-Festival - The Classic Rave Festival » et agenda listant les etapes Ruhr (BEC), St. Wendel (EWND Fabrik), Reutlingen (Nachtfabrik), Munich (Neuraum), Bootshaus le 14 novembre et Geldern (E-Dry). Les deux lignes du catalogue correspondent a deux de ces etapes, celle du Bootshaus et celle de la Nachtfabrik de Reutlingen. Page Kontakt du meme site : Richartzstrasse 12, 50667 Köln pour la direction, le booking et la presse, d'ou la ville. Instagram @wonderfuldays_festival pris sur le lien du site. `since` omis. Match `wonderful days` : 2 lignes, aucune autre. Attention au titre du catalogue, « Wonderful Days Stuttgart » se tient a la Nachtfabrik de Reutlingen, ce que le site confirme.",
+    "sources": [
+      "https://wonderfuldays-festival.com/",
+      "https://wonderfuldays-festival.com/kontakt/"
+    ]
+  },
+  {
+    "slug": "ritter-butzke",
+    "name": "Ritter Butzke",
+    "kind": "club",
+    "city": "Berlin",
+    "country": "Germany",
+    "since": 2007,
+    "desc": "Le Ritter Butzke est un club techno de Berlin-Kreuzberg, ouvert une première fois en 2007 dans deux anciens ateliers des usines Butzke, sans autorisation, puis rouvert légalement en octobre 2009 Ritterstraße 26, où il se trouve toujours. Il compte jusqu'à trois salles, tient une série Open Air, un label et une programmation qui sort de ses murs sous le nom Ritter Butzke on Tour.",
+    "descEn": "Ritter Butzke is a techno club in Berlin Kreuzberg, first opened in 2007 in two former workshops of the Butzke works, without permits, then reopened legally in October 2009 at Ritterstraße 26, where it still stands. It has up to three rooms, an Open Air series, a record label and a touring programme billed as Ritter Butzke on Tour.",
+    "site": "https://www.ritterbutzke.de/",
+    "instagram": "https://www.instagram.com/ritterbutzke.berlin",
+    "match": [
+      "ritter butzke"
+    ],
+    "venues": [
+      "Ritter Butzke"
+    ],
+    "verified": "Wikipedia DE, article « Ritter Butzke » : club techno de Berlin-Kreuzberg, premiere ouverture en 2007 dans deux anciennes halles des Butzke-Werke sans autorisation, fermeture puis reouverture en octobre 2009 Ritterstraße 26, jusqu'a trois floors. Site officiel ritterbutzke.de : onglets « Open Air », « On Tour », « Records » dans la navigation, ce qui confirme que la marque sort de ses murs, et lien Instagram @ritterbutzke.berlin. Match `ritter butzke` : 2 lignes, « Ritter Butzke Jubiläum - NTO » a son club et « Ritter Butzke on tour à Francfort » au Tanzhaus West, qui est exactement l'onglet On Tour. Salle `Ritter Butzke` revendiquee : ses 5 lignes au catalogue sont sa programmation.",
+    "sources": [
+      "https://de.wikipedia.org/wiki/Ritter_Butzke",
+      "https://www.ritterbutzke.de/"
+    ]
+  },
+  {
+    "slug": "rote-sonne",
+    "name": "Rote Sonne",
+    "kind": "club",
+    "city": "Munich",
+    "country": "Germany",
+    "since": 2005,
+    "desc": "La Rote Sonne est un club techno de Munich, ouvert le 5 août 2005 dans les caves réaménagées du Fortuna, au Maximiliansplatz, pour 300 à 400 personnes. Elle tient son nom du film de 1969 et compte parmi ses fondateurs Peter Wacha et Dorothea Zenker, venus de l'Ultraschall. Le club sort de ses murs pour son open air monté avec le Bahnwärter Thiel.",
+    "descEn": "Rote Sonne is a techno club in Munich, opened on 5 August 2005 in the rebuilt cellars of the former Fortuna on Maximiliansplatz, for 300 to 400 people. It takes its name from the 1969 film and counts Peter Wacha and Dorothea Zenker, both from Ultraschall, among its founders. The club steps outside its walls for its open air staged with Bahnwärter Thiel.",
+    "site": "https://rotesonne.com/",
+    "match": [
+      "rote sonne"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "venues": [
+      "Rote Sonne"
+    ],
+    "verified": "Wikipedia DE, article « Rote Sonne (Club) » : club techno de Munich au Maximiliansplatz, capacite de 300 a 400 personnes, ouverture le 5 aout 2005 dans les caves du Fortuna ferme, nom pris au film de 1969, Peter Wacha et Dorothea Zenker cites comme anciens fondateurs de l'Ultraschall parmi les proprietaires. Site officiel rotesonne.com refuse le conteneur (403), donc aucun lien social verifiable, Instagram non repris. Match `rote sonne` : 3 lignes, toutes a Munich, « Rote Sonne x Bahnwärter Thiel - Open Air & Club » plus deux soirees de marques invitees au club, que le club programme lui-meme. `countries` limite a l'Allemagne. Salle `Rote Sonne` revendiquee.",
+    "sources": [
+      "https://de.wikipedia.org/wiki/Rote_Sonne_(Club)"
+    ]
+  },
+  {
+    "slug": "hive",
+    "name": "Hive",
+    "kind": "club",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "since": 2006,
+    "desc": "Le Hive est un club de musique électronique de Zurich, actif depuis 2006, qui présente aussi des expositions, des concerts et des lectures, et fait tourner son label Hive Audio. Sa programmation déborde le club avec Hive Air, la série en plein air dont le booking est tenu en interne, montée par exemple à la Halle 622.",
+    "descEn": "Hive is an electronic music club in Zurich, active since 2006, which also stages exhibitions, concerts and readings and runs its Hive Audio label. Its programme extends beyond the club with Hive Air, the open air series booked in house, staged for instance at Halle 622.",
+    "site": "https://hiveclub.ch/",
+    "instagram": "https://www.instagram.com/hive_club",
+    "match": [
+      "hive air"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "venues": [
+      "Hive"
+    ],
+    "verified": "Site officiel hiveclub.ch, page About us : « Der Club Hive ist Zürichs elektronischer Musikreaktor... zählt der Club seit 2006 zu den Trendsettern des Nachtlebens », offre culturelle allant des expositions au theatre, label Hive Audio dans la navigation, et equipe ou figure « Robin - Booking / Hive Air », ce qui etablit que Hive Air est la serie du club et non une marque invitee. Le programme du site porte « Shimza & Co, am 03. October 2026 », date de la ligne « Hive Air pres. Shimza & Friends » du catalogue. Instagram @hive_club pris sur le lien du site. Match volontairement `hive air` et non `hive` : un mot de quatre lettres qui existe ailleurs, et `countries` limite a la Suisse par prudence. Salle `Hive` revendiquee : ses 2 lignes sont sa programmation.",
+    "sources": [
+      "https://hiveclub.ch/about-us/",
+      "https://hiveclub.ch/"
+    ]
+  },
+  {
+    "slug": "butan",
+    "name": "Butan",
+    "kind": "collectif",
+    "city": "Wuppertal",
+    "country": "Germany",
+    "desc": "Butan est une marque de soirées techno et rave de Wuppertal, héritière du club du même nom, qui programme aujourd'hui dans plusieurs salles de la ville plutôt que dans un lieu à elle. Son site annonce ses dates au Relikt et à l'U-Club, avec un appel à candidatures ouvert aux DJ pour ses prochaines soirées.",
+    "descEn": "Butan is a techno and rave party brand from Wuppertal, heir to the club of the same name, which now books across several rooms in the city rather than one venue of its own. Its site lists its dates at Relikt and the U-Club, with an open call for DJs to play its coming nights.",
+    "site": "https://butan-club.de/",
+    "instagram": "https://www.instagram.com/butanclubofficial",
+    "match": [
+      "butan"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "venues": [],
+    "verified": "Site officiel butan-club.de : « Butan - Techno-Partys & Raves in Wuppertal, NRW », agenda portant « 25.09.2026 - Relikt, Wuppertal - KRAWALL x BUTAN pres. WE BOUNCE » et « 02.10.2026 - U-Club, Wuppertal - BUTAN BOILER EDITION », soit exactement les deux lignes du catalogue, plus « DJ Bewerbung - Du möchtest bei einem kommenden Butan Event spielen ». Contact et Instagram @butanclubofficial en pied de page du meme site. `since` omis, aucune annee publiee. Match `butan` : 2 lignes, aucune autre. Aucune salle revendiquee : le Relikt et l'U-Club accueillent d'autres organisateurs, le site de Butan y annonce lui-meme une soiree Tanztunnel & Goatal qui n'est pas la sienne.",
+    "sources": [
+      "https://butan-club.de/"
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "worried-about-henry",
+    "name": "Worried About Henry",
+    "kind": "organisateur",
+    "city": "London",
+    "country": "UK",
+    "since": 2014,
+    "desc": "Worried About Henry, abrégé WAH, est un promoteur de soirées drum & bass, bass et garage fondé en 2014, qui programme aujourd'hui plus de vingt villes britanniques. Il tient chaque année une nuit du Warehouse Project à Manchester, des dates à Drumsheds et son propre festival de jour, WAH In The City, dans les Royal Docks de Londres. Il programme aussi des scènes de festivals comme Parklife.",
+    "descEn": "Worried About Henry, known as WAH, is a drum & bass, bass and garage promoter founded in 2014, now booking more than twenty British cities. It hosts a Warehouse Project night in Manchester every year, dates at Drumsheds and its own day festival, WAH In The City, in London's Royal Docks. It also programmes festival stages such as Parklife.",
+    "site": "https://worriedabouthenry.com/",
+    "instagram": "https://www.instagram.com/worriedabouthenry",
+    "match": [
+      "worried about henry",
+      "wah"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "La page About du site officiel donne l'année (« Founded in 2014 »), les genres, les plus de vingt villes, la nuit annuelle au Warehouse Project et les scènes de festivals ; That's Up confirme 2014. La page d'accueil du site liste nommément « WAH Birmingham | GASWRX », « WAH Cardiff | Depot », « WAH x The Warehouse Project » et « WAH Drumsheds » : c'est cette liste qui prouve que les quatre lignes du catalogue, dont les deux titrées « WAH », sont bien de cette marque et pas d'une homonymie. Aucune source ne donne de ville de fondation : « London » est la base de la marque (sa page Facebook y est située, son festival propre est aux Royal Docks), pas un lieu de naissance. `countries` limite la correspondance au Royaume-Uni, « wah » étant trop court pour courir sur tout le catalogue. Instagram relevé sur le site officiel.",
+    "sources": [
+      "https://worriedabouthenry.com/about/",
+      "https://worriedabouthenry.com/",
+      "https://thatsup.co.uk/london/article/salute-ten-years-of-worrying-about-henry-with-a-massive-rave-at-drumsheds/"
+    ]
+  },
+  {
+    "slug": "groovebox",
+    "name": "Groovebox",
+    "kind": "organisateur",
+    "city": "Nottingham",
+    "country": "UK",
+    "since": 2018,
+    "desc": "Groovebox est une marque house et tech house fondée à Nottingham en 2018, née de soirées de club dans les salles souterraines de la ville. Elle a pris ses quartiers au Binks Yard, où elle tient des journées en plein air, et a lancé le Groovebox Festival, une multi-scènes de 7 000 places. Elle porte aussi un label, Groovebox Recordings.",
+    "descEn": "Groovebox is a house and tech house brand founded in Nottingham in 2018, out of club nights in the city's underground venues. It has made a home at Binks Yard, where it runs open air day parties, and launched Groovebox Festival, a 7,000 capacity multi arena event. It also runs a label, Groovebox Recordings.",
+    "site": "https://groovebox.co.uk/",
+    "instagram": "https://www.instagram.com/wearegroovebox",
+    "match": [
+      "groovebox"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "La page « About Us » du site officiel donne l'année et la ville (« Established in 2018, Groovebox was born on the dancefloor, hosting intimate club events in underground venues across Nottingham »), la salle de résidence (Binks Yard), la capacité du festival et les têtes d'affiche reçues ; le menu du site porte Groovebox Recordings. Instagram relevé sur le site officiel. Le match touche 5 lignes du catalogue, 4 à Nottingham et 1 à Sheffield, toutes des dates Groovebox.",
+    "sources": [
+      "https://groovebox.co.uk/about-us/",
+      "https://groovebox.co.uk/events/",
+      "https://www.tribalwarehouse.co.uk/magazine/articles/from-local-bars-to-5k-capacity-festivals-meet-groovebox"
+    ]
+  },
+  {
+    "slug": "khaotic",
+    "name": "Khaotic",
+    "kind": "collectif",
+    "city": "Glasgow",
+    "country": "UK",
+    "desc": "Khaotic est un collectif écossais de hard techno, d'industriel et de hardstyle, parti de soirées glasvégiennes et devenu un nom de l'underground du pays. Sa ligne assume le format le plus dur du rave, gros son, visuels et plateaux à rallonge, et il tourne entre Glasgow, Édimbourg, Newcastle et Liverpool.",
+    "descEn": "Khaotic is a Scottish hard techno, industrial and hardstyle collective, grown out of Glasgow nights into a name in the country's underground. Its billing goes for the hardest end of rave, big sound, visuals and long line ups, and it tours between Glasgow, Edinburgh, Newcastle and Liverpool.",
+    "site": "https://www.khaotic.uk/",
+    "instagram": "https://www.instagram.com/khaotic.events",
+    "match": [
+      "khaotic"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "La page About du site officiel donne la ville d'origine et les genres (« From early nights in Glasgow to increasingly ambitious shows », « hard techno, industrial, and rave influences ») ; son agenda liste exactement les quatre dates du catalogue (Classic Grand Glasgow, Digital Newcastle, Liquid Rooms Édimbourg, Content Liverpool). Aucune source ne donne d'année de création, donc `since` est omis. Instagram relevé sur le site officiel.",
+    "sources": [
+      "https://www.khaotic.uk/about",
+      "https://www.khaotic.uk/",
+      "https://ra.co/events/1927882"
+    ]
+  },
+  {
+    "slug": "doof",
+    "name": "doof",
+    "kind": "label",
+    "city": "Dundee",
+    "country": "UK",
+    "desc": "doof est la marque et le label de la DJ et productrice écossaise Hannah Laing, originaire de Dundee, dont le nom vient du battement « doof doof » qu'elle joue. La marque a donné son propre festival, doof in the Park, au Camperdown Park de Dundee, dont la première édition en 2025 a réuni environ 15 000 personnes. En club, elle prend la forme de soirées hôtes dans les grandes salles britanniques.",
+    "descEn": "doof is the brand and label of Scottish DJ and producer Hannah Laing, from Dundee, named after the \"doof doof\" beat she plays. It has spawned its own festival, doof in the Park, at Camperdown Park in Dundee, whose first edition in 2025 drew around 15,000 people. In clubs it takes the form of hosted nights in large British venues.",
+    "match": [
+      "doof"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Wikipédia (Hannah Laing) donne son origine dundonienne et l'existence du label doof, ainsi que l'origine du nom ; Wikipédia (Doof in the Park) et STV donnent le festival, le parc et la première édition de 2025 avec sa fréquentation. Aucune source consultée ne date la création du label, donc `since` est omis. Le match touche 3 lignes du catalogue (Depot Mayfield à Manchester, The Liquid Room à Édimbourg, SWG3 à Glasgow), toutes des soirées doof ; `countries` limite au Royaume-Uni. Aucun compte social repris, aucune source ne confirmant de handle propre à la marque.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hannah_Laing",
+      "https://en.wikipedia.org/wiki/Doof_in_the_Park",
+      "https://news.stv.tv/north/doof-in-the-park-scots-dj-hannah-laing-to-host-own-festival-in-dundee"
+    ]
+  },
+  {
+    "slug": "eastenderz",
+    "name": "Eastenderz",
+    "kind": "label",
+    "city": "London",
+    "country": "UK",
+    "since": 2014,
+    "desc": "Eastenderz est le label et la série de soirées fondés à Londres en 2014 par East End Dubs, d'abord comme une structure uniquement vinyle. La ligne est deep tech et minimal house, avec des touches de dub et de garage. Née de dates au fabric, au Studio 338 et à E1 London, la marque tourne aujourd'hui dans les clubs et festivals européens et tient une résidence à Ibiza.",
+    "descEn": "Eastenderz is the label and party series founded in London in 2014 by East End Dubs, at first a vinyl only imprint. The sound is deep tech and minimal house, with touches of dub and garage. Born of sold out nights at fabric, Studio 338 and E1 London, the brand now tours European clubs and festivals and holds an Ibiza residency.",
+    "site": "https://eastenderz.com/",
+    "match": [
+      "eastenderz"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Ibiza Spotlight, qui reprend la présentation de la marque, donne l'année (2014), la ville (« East End Dub's London hometown »), le statut de départ (vinyle uniquement), les genres et les salles fondatrices (fabric, Studio 338, E1 London), ainsi que la résidence ibizenque. Le match touche 2 lignes du catalogue, une au Depot Mayfield de Manchester (nuit hôte du Warehouse Project) et une au LAB11 de Birmingham ; `countries` limite au Royaume-Uni, la marque jouant aussi à Ibiza. Aucun compte social repris, aucune source consultée n'en confirmant le handle.",
+    "sources": [
+      "https://eastenderz.com/about/",
+      "https://www.ibiza-spotlight.com/magazine/2026/04/east-side-crew-confirmed-east-end-dubs-presents-eastenderz",
+      "https://www.ibiza-spotlight.com/magazine/2025/02/eastenderz-secures-new-residency-amnesia-ibiza"
+    ]
+  },
+  {
+    "slug": "colours",
+    "name": "Colours",
+    "kind": "organisateur",
+    "city": "Glasgow",
+    "country": "UK",
+    "desc": "Colours est le promoteur de dance music monté par Ricky Magowan, qui a programmé les grandes salles de Glasgow, des Arches au SWG3, et des scènes de festivals comme Gig On The Green. Il tient depuis 2002 son propre festival, Coloursfest, à la Braehead Arena de Renfrew, au bord de la Clyde.",
+    "descEn": "Colours is the dance music promoter built by Ricky Magowan, which has booked Glasgow's big rooms, from The Arches to SWG3, and festival stages such as Gig On The Green. Since 2002 it has run its own festival, Coloursfest, at Braehead Arena in Renfrew, on the banks of the Clyde.",
+    "match": [
+      "colours"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Skiddle News (« The First: Coloursfest ») nomme le fondateur, date le festival de 2002, donne la salle (Braehead Arena, Renfrew, Glasgow) et cite les Arches et Gig On The Green comme antécédents de l'équipe. L'année donnée est celle du festival, pas celle de la marque de club, donc `since` est omis. Le match touche 3 lignes du catalogue, toutes à Glasgow et sur trois salles (Room 2, SWG3, Galvanizers), toutes des dates Colours. `countries` limite au Royaume-Uni, « colours » étant un mot courant.",
+    "sources": [
+      "https://www.skiddle.com/news/all/The-First-Coloursfest/60403/",
+      "https://mixmag.net/feature/raveheart-how-house-music-exploded-in-scotland"
+    ]
+  },
+  {
+    "slug": "trancecoda",
+    "name": "Trancecoda",
+    "kind": "organisateur",
+    "city": "Nottingham",
+    "country": "UK",
+    "desc": "Trancecoda est un promoteur de soirées trance qui tourne entre plusieurs villes anglaises, de Nottingham à Brighton en passant par Plymouth et Coalville. Sa programmation couvre tout l'éventail du style, de l'uplifting et du progressif au tech et au hard trance, avec des têtes d'affiche comme Paul van Dyk, Ferry Corsten ou Aly & Fila. La structure porte aussi un label.",
+    "descEn": "Trancecoda is a trance promoter touring several English cities, from Nottingham to Brighton by way of Plymouth and Coalville. Its billing spans the whole style, from uplifting and progressive to tech and hard trance, with headliners such as Paul van Dyk, Ferry Corsten and Aly & Fila. It also runs a label.",
+    "site": "https://trancecoda.com/",
+    "instagram": "https://www.instagram.com/trancecodaevents",
+    "match": [
+      "trancecoda"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Le site officiel liste l'agenda (The Depo à Plymouth, Binks Yard à Nottingham, The Emporium à Coalville, Quarters à Brighton), porte une entrée « Label » et un lien Instagram ; sa page Facebook est située à Nottingham, d'où la ville retenue. Aucune source ne donne d'année de création : le pied de page ne porte qu'une plage de copyright (2014-2026), ce qui n'est pas une date de fondation, donc `since` est omis. Le match touche 3 lignes du catalogue (Nottingham, Leicester, Brighton), toutes des dates Trancecoda.",
+    "sources": [
+      "https://trancecoda.com/",
+      "https://www.facebook.com/Trancecoda/",
+      "https://find-and-update.company-information.service.gov.uk/company/14884810"
+    ]
+  },
+  {
+    "slug": "moondance",
+    "name": "Moondance",
+    "kind": "organisateur",
+    "city": "London",
+    "country": "UK",
+    "desc": "Moondance est l'une des institutions du rave londonien, sur une ligne jungle, drum & bass et hardcore tenue depuis plus de vingt ans. La marque a reçu Andy C, DJ Hype, Fabio & Grooverider et Shy FX, et a essaimé en festival et en week-ends. Elle organise chaque année une soirée de retrouvailles au KOKO, l'ancien Camden Palace.",
+    "descEn": "Moondance is one of the institutions of London rave, on a jungle, drum & bass and hardcore line held for more than two decades. The brand has hosted Andy C, DJ Hype, Fabio & Grooverider and Shy FX, and has spawned a festival and weekenders. Each year it runs a reunion night at KOKO, the former Camden Palace.",
+    "site": "https://www.moondanceevents.co.uk/",
+    "instagram": "https://www.instagram.com/moondanceeventsinfo",
+    "match": [
+      "moondance"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Le site officiel donne la ville, les genres, les artistes reçus, les déclinaisons festival et weekender, et sa durée d'existence en toutes lettres (« For over two decades »), sans chiffrer d'année de fondation : `since` est donc omis, une source secondaire donnant 1995 sans que la marque le confirme. Le site liste les deux dates du catalogue, Moondance 31 au Studio 338 et le Camden Palace Reunion au KOKO. Instagram relevé sur le site officiel. `countries` limite au Royaume-Uni.",
+    "sources": [
+      "https://www.moondanceevents.co.uk/",
+      "https://drumandbasics.com/176-london-moondance-camden-palace-reunion-koko/",
+      "https://www.slipmatt.net/event/moondance-koko-london-2/"
+    ]
+  },
+  {
+    "slug": "modul8",
+    "name": "MODUL8",
+    "kind": "organisateur",
+    "city": "Birmingham",
+    "country": "UK",
+    "desc": "MODUL8 est une marque de soirées techno de Birmingham, qui assume le versant dur du style, peak time, acid, driving et hard techno. Sa règle affichée est de se passer de mise en jambes, « no warm ups, no fillers ». Elle programme le Tunnel Club et le SUKi10C et porte une résidence, The Dark Arch.",
+    "descEn": "MODUL8 is a Birmingham techno brand that goes for the hard end of the style, peak time, acid, driving and hard techno. Its stated rule is to do without a warm up, \"no warm ups, no fillers\". It books the Tunnel Club and SUKi10C and has a resident, The Dark Arch.",
+    "site": "https://modul8.uk/",
+    "instagram": "https://www.instagram.com/modul8_official",
+    "match": [
+      "modul8"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Le site officiel donne la ville (titre de page « Peak-Time, Acid & Hard Techno Events Birmingham »), les genres, la formule « No warm ups, no fillers, no compromise » et le résident T.D.A. ; sa page événement A*S*Y*S confirme le Tunnel Club de Birmingham et Skiddle le SUKi10C. Aucune source ne donne d'année de création, donc `since` est omis. Instagram relevé sur le site officiel. Le match touche 2 lignes du catalogue, deux salles de Birmingham, toutes deux titrées « 100% Techno 0% Compromise », la devise de la marque.",
+    "sources": [
+      "https://modul8.uk/",
+      "https://modul8.uk/about-us/",
+      "https://modul8.uk/event/asys/"
+    ]
+  },
+  {
+    "slug": "dvoid",
+    "name": "Dvoid",
+    "kind": "organisateur",
+    "city": "Liverpool",
+    "country": "UK",
+    "desc": "Dvoid est un promoteur de hard techno et de hardstyle basé à Liverpool, qui programme surtout le Hangar 34 et les salles dures de la ville. Il travaille beaucoup en plateau partagé avec les autres marques du circuit, Khaotic, Exhilaration ou Encore, et pousse des line-ups de six à huit noms.",
+    "descEn": "Dvoid is a hard techno and hardstyle promoter based in Liverpool, booking mainly Hangar 34 and the city's harder rooms. It works largely in joint billings with other brands on the circuit, Khaotic, Exhilaration or Encore, and puts up line ups of six to eight names.",
+    "match": [
+      "dvoid"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Resident Advisor liste DVOID Events parmi les promoteurs de Liverpool ; Skiddle porte ses fiches (« Dvoid x Encore Presents » à l'Arts Club, « Dvoid x Khaotic » au Hangar 34), ce qui documente la ville, les salles et le mode de plateau partagé. Attention à ne pas le confondre avec VOID Liverpool, autre marque techno de la même ville : le match porte sur « dvoid », mot entier, et ne peut pas attraper « void ». Aucune source ne donne d'année de création ni de site officiel, donc `since` et `site` sont omis. Le match touche 4 lignes, 3 salles, Liverpool et Newcastle.",
+    "sources": [
+      "https://ra.co/promoters/uk/liverpool",
+      "https://www.skiddle.com/whats-on/Liverpool/Arts-Club-Liverpool/Dvoid-x-Encore-Presents-SLVL-B2B-USH/41004353/",
+      "https://www.khaotic.uk/"
+    ]
+  },
+  {
+    "slug": "hardstylemoguls",
+    "name": "HardstyleMoguls",
+    "kind": "organisateur",
+    "city": "Liverpool",
+    "country": "UK",
+    "desc": "HardstyleMoguls est un promoteur de soirées hardstyle et rawstyle de Liverpool, qui programme l'Arts Club et le Club 051. Il fait venir des noms internationaux du style, de Da Tweekaz au projet The Ancients, sur des plateaux qui piochent aussi dans la hard techno.",
+    "descEn": "HardstyleMoguls is a hardstyle and rawstyle promoter from Liverpool, booking Arts Club and Club 051. It brings in international names of the style, from Da Tweekaz to The Ancients project, on bills that also reach into hard techno.",
+    "match": [
+      "hardstylemoguls",
+      "hardstyle moguls"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "La page événement de l'Arts Club Liverpool porte « HARDSTYLE MOGULS » sur son propre site, et Skiddle porte la fiche « HardstyleMoguls Presents: Da Tweekaz » au Club 051 de Liverpool : les deux salles et la ville sont donc données par des sources de première main. Aucune source ne donne d'année de création ni de site officiel, donc `since` et `site` sont omis. Le match couvre les deux orthographes, collée et détachée, et touche les 2 lignes du catalogue.",
+    "sources": [
+      "https://www.arts-club-liverpool.com/event/hardstyle-moguls/",
+      "https://www.skiddle.com/whats-on/Liverpool/Club-051/HardstyleMoguls-Presents-Da-Tweekaz/42428558/"
+    ]
+  },
+  {
+    "slug": "second-speed",
+    "name": "Second Speed",
+    "kind": "organisateur",
+    "city": "Liverpool",
+    "country": "UK",
+    "desc": "Second Speed est un promoteur britannique qui monte des soirées techno sur le modèle des clubs européens, d'abord à Liverpool puis dans le nord de l'Angleterre. Il porte son propre festival, Accelerate, au Gateshead International Stadium près de Newcastle. Sa programmation va de la techno rapide à la hard techno, avec des noms comme Funk Tribu, blk. ou Vieze Asbak.",
+    "descEn": "Second Speed is a British promoter putting on techno nights on the European club model, first in Liverpool then across the north of England. It runs its own festival, Accelerate, at Gateshead International Stadium near Newcastle. Its billing goes from fast techno to hard techno, with names such as Funk Tribu, blk. and Vieze Asbak.",
+    "match": [
+      "second speed"
+    ],
+    "countries": [
+      "UK"
+    ],
+    "venues": [],
+    "verified": "Resident Advisor porte la fiche promoteur (112919) et liste Second Speed parmi les promoteurs de Liverpool, d'où la ville retenue ; ses archives documentent les dates du Camp and Furnace de Liverpool et les éditions successives d'Accelerate au Gateshead International Stadium, que NewcastleGateshead confirme. Aucune source ne donne d'année de création ni de site officiel, donc `since` et `site` sont omis. Le match touche 2 lignes du catalogue, Liverpool et Gateshead.",
+    "sources": [
+      "https://ra.co/promoters/112919",
+      "https://ra.co/events/1784336",
+      "https://newcastlegateshead.com/events/2398802-second-speed-accelerate-festival-2026-gateshead-international-stadium"
+    ]
+  }
+]

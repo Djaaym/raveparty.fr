@@ -1,0 +1,265 @@
+[
+  {
+    "slug": "awakenings",
+    "name": "Awakenings",
+    "kind": "organisateur",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "since": 1997,
+    "desc": "Awakenings organise des soirées et des festivals techno aux Pays-Bas depuis 1997, année de sa première nuit à la Gashouder d'Amsterdam. La marque fait aujourd'hui tourner un festival d'été à Hilvarenbeek, l'édition Upclose à Spaarnwoude et une semaine de dates pendant l'Amsterdam Dance Event. Elle annonce plus de 300 000 visiteurs par an.",
+    "descEn": "Awakenings has been putting on techno parties and festivals in the Netherlands since 1997, the year of its first night at Amsterdam's Gashouder. The brand now runs a summer festival in Hilvarenbeek, the Upclose edition at Spaarnwoude and a week of dates during Amsterdam Dance Event. It reports more than 300,000 visitors a year.",
+    "site": "https://www.awakenings.com/",
+    "instagram": "https://www.instagram.com/awakenings",
+    "match": [
+      "awakenings"
+    ],
+    "venues": [],
+    "verified": "Site officiel, page About : premiere nuit a la Gashouder en 1997, plus de 25 ans d'activite, plus de 300 000 visiteurs par an. Son agenda liste Awakenings Festival 2027 (Hilvarenbeek), Upclose 2027 (Houtrak, Spaarnwoude) et Awakenings ADE 2026 (SugarFactory), soit exactement les lieux du catalogue. Wikipedia pour l'annee de fondation et la ville. Instagram pris sur le lien du site officiel. Match `awakenings` : 6 lignes du catalogue, toutes des dates Awakenings (Summer Festival, Festival, Upclose x2, ADE, ADE Drumcode), aucune autre. Aucune salle revendiquee : la SugarFactory, Beekse Bergen et Spaarnwoude accueillent aussi d'autres programmes.",
+    "sources": [
+      "https://www.awakenings.com/en/about",
+      "https://en.wikipedia.org/wiki/Awakenings_(festival)"
+    ]
+  },
+  {
+    "slug": "verknipt",
+    "name": "Verknipt",
+    "kind": "organisateur",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "desc": "Verknipt est un organisateur néerlandais de soirées et de festivals hard techno. Son festival annuel se tient début juin sur le terrain du Strijkviertel à Utrecht, et la marque exporte ses dates hors des Pays-Bas, à Berlin, Oberhausen et Zurich. Elle programme aussi une édition ADE à l'AFAS Live et un réveillon au Klokgebouw d'Eindhoven.",
+    "descEn": "Verknipt is a Dutch promoter of hard techno parties and festivals. Its annual festival runs in early June on the Strijkviertel grounds in Utrecht, and the brand takes its dates abroad to Berlin, Oberhausen and Zurich. It also runs an ADE edition at AFAS Live and a New Year's night at the Klokgebouw in Eindhoven.",
+    "site": "https://www.verknipt.org/",
+    "match": [
+      "verknipt"
+    ],
+    "venues": [],
+    "verified": "Pages d'evenement des salles : afaslive.nl annonce « Verknipt returns to AFAS Live during ADE with two special events », et verknipt.org/berlin/ et verknipt.org/oberhausen/ sont les pages officielles des dates allemandes, deja utilisees comme lien billetterie par le catalogue. Le festival annuel au Strijkviertel d'Utrecht est confirme par les fiches festivalinfo.nl et festivalfans.nl (6 et 7 juin 2026). `since` omis : les sources secondaires donnent 2012 ou 2013 sans que rien d'officiel ne tranche, et une annee approximative serait une invention. Match `verknipt` : 7 lignes, toutes des dates de la marque (Festival, Amsterdam, ADE Special, NYE Eindhoven, Berlin, Oberhausen, Stadion a Zurich), aucune autre. verknipt.com et verknipt.nl ne repondent pas depuis le conteneur (503 et 403).",
+    "sources": [
+      "https://www.afaslive.nl/en/agenda/verknipt-ade-special",
+      "https://www.festivalinfo.nl/festival/35292/Verknipt-Festival/2026/"
+    ]
+  },
+  {
+    "slug": "toffler",
+    "name": "Toffler",
+    "kind": "club",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "since": 2011,
+    "desc": "Toffler est un club house et techno de Rotterdam ouvert en 2011, installé dans un ancien tunnel piétonnier sous le Weena, connu pour sa cabine et son système son montés sur vérins hydrauliques qui agrandissent la salle au fil de la nuit. Le club porte aussi le Toffler Festival, lancé en 2015, seul festival tenu par une boîte de nuit de la ville.",
+    "descEn": "Toffler is a house and techno club in Rotterdam that opened in 2011, set in a former pedestrian tunnel under the Weena and known for its hydraulic booth and sound system, which enlarge the room as the night goes on. The club also runs Toffler Festival, launched in 2015, the only festival put on by a Rotterdam nightclub.",
+    "site": "https://www.toffler.nl/",
+    "instagram": "https://www.instagram.com/tofflerrotterdam",
+    "match": [
+      "toffler"
+    ],
+    "venues": [
+      "Toffler"
+    ],
+    "verified": "Site officiel, page About Us : ouverture en 2011, ancien tunnel pieton sous le Weena, systeme hydraulique de la cabine, festival lance en 2015 et seul festival porte par un club de Rotterdam. Instagram pris sur le lien du site. Match `toffler` : 5 lignes, 3 au club et 2 festivals (Onderzeebootloods pour les 15 ans, Roel Langerakpark pour 2027), aucune autre. Salle `Toffler` revendiquee : ses 3 lignes au catalogue sont toutes des soirees Toffler.",
+    "sources": [
+      "https://www.toffler.nl/about-us/",
+      "https://www.toffler.nl/"
+    ]
+  },
+  {
+    "slug": "liquicity",
+    "name": "Liquicity",
+    "kind": "label",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "since": 2011,
+    "desc": "Liquicity est un label et un organisateur néerlandais de liquid drum and bass, né d'une chaîne YouTube ouverte en 2008 par Maris Goudzwaard et porté depuis 2011 avec Boudewijn Kustner et Mark van der Schoot, alias Maduk. La société d'événements est créée en janvier 2013 et la première soirée a lieu en mars de la même année à Ruigoord, près d'Amsterdam. La marque tient aujourd'hui un festival d'été, un Winterfestival et des dates en club à l'étranger.",
+    "descEn": "Liquicity is a Dutch liquid drum and bass label and promoter, grown out of a YouTube channel started in 2008 by Maris Goudzwaard and run since 2011 with Boudewijn Kustner and Mark van der Schoot, better known as Maduk. The events company was set up in January 2013 and the first party took place that March in Ruigoord, near Amsterdam. The brand now runs a summer festival, a Winterfestival and club dates abroad.",
+    "site": "https://liquicity.com/",
+    "instagram": "https://www.instagram.com/liquicity",
+    "match": [
+      "liquicity"
+    ],
+    "venues": [],
+    "verified": "Wikipedia (article Liquicity) : label, chaine YouTube et organisateur neerlandais mene par Maris Goudzwaard, Boudewijn Kustner et Maduk depuis 2011, chaine ouverte en 2008, societe d'evenements creee en janvier 2013, premiere soiree en mars 2013 a Ruigoord pres d'Amsterdam, infobox « Location : Amsterdam ». Site officiel liquicity.com pour l'activite en cours et le lien Instagram. Match `liquicity` : 4 lignes, dans 4 salles et 3 pays (Liquicity Festival a Oudkarspel, Winterfestival au Klokgebouw, Liquicity Vienna a Vosendorf, Liquicity Hamburg), toutes de la marque.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Liquicity",
+      "https://liquicity.com/"
+    ]
+  },
+  {
+    "slug": "rotterdam-rave",
+    "name": "Rotterdam Rave",
+    "kind": "organisateur",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "since": 2013,
+    "desc": "Rotterdam Rave est le nom commun des soirées et festivals techno organisés à Rotterdam depuis 2013 par la société du même nom, fondée par Karim Soliman. La première édition s'est tenue au Perron devant un millier de personnes, avant que les soirées ne s'installent au Maassilo. Un festival en plein air a été ajouté en 2016.",
+    "descEn": "Rotterdam Rave is the collective name of the techno parties and festivals held in Rotterdam since 2013 by the company of the same name, founded by Karim Soliman. The first edition took place at Perron in front of about a thousand people, before the parties settled at the Maassilo. An open air festival was added in 2016.",
+    "site": "https://www.rotterdamrave.com/",
+    "match": [
+      "rotterdam rave"
+    ],
+    "venues": [],
+    "verified": "Wikipedia (article Rotterdam Rave) : soirees et festivals techno a Rotterdam depuis 2013, concept fonde par Karim Soliman, premiere edition au Perron avec environ 1 000 visiteurs, deplacement vers le Maassilo, premier Rotterdam Rave Festival en 2016. Site officiel rotterdamrave.com / rotterdamrave.nl pour l'agenda en cours. Instagram non repris : le site est rendu en JavaScript et ne porte aucun lien social dans le HTML servi, donc rien a verifier. Match `rotterdam rave` : 4 lignes, 1 a Ahoy et 3 au Maassilo (Festival, Festival Afterparty, presents TITI, Winter Special), aucune autre. Aucune salle revendiquee : le Maassilo accueille beaucoup d'autres organisateurs.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rotterdam_Rave",
+      "https://rotterdamrave.nl/"
+    ]
+  },
+  {
+    "slug": "masters-of-hardcore",
+    "name": "Masters of Hardcore",
+    "kind": "organisateur",
+    "city": "Almere",
+    "country": "Netherlands",
+    "since": 1995,
+    "desc": "Masters of Hardcore est un événement hardcore néerlandais tenu pour la première fois le 1er juillet 1995 dans les halls sportifs d'Almere, sous le nom Doomsday - Masters of Hardcore. L'organisation à l'origine de la soirée, A&A events, est devenue Art of Dance en 2002 en s'associant à la Hemkade. La marque est aussi un label et exporte ses éditions hors des Pays-Bas depuis 2002.",
+    "descEn": "Masters of Hardcore is a Dutch hardcore event first held on 1 July 1995 in the sports halls of Almere, under the name Doomsday - Masters of Hardcore. A&A events, the organisation behind it, became Art of Dance in 2002 when it joined forces with the Hemkade. The brand is also a record label and has been staging editions outside the Netherlands since 2002.",
+    "site": "https://www.mastersofhardcore.com/",
+    "instagram": "https://www.instagram.com/mastersofhardcore",
+    "match": [
+      "masters of hardcore"
+    ],
+    "venues": [],
+    "verified": "Wikipedia NL, article « Masters of Hardcore (evenement) » : premiere edition le 1er juillet 1995 dans les sporthallen d'Almere sous le nom Doomsday - Masters of Hardcore, organisation A&A events devenue Art of Dance en 2002 avec la Hemkade, premiere edition a l'etranger en 2002 a Ravenne. Site officiel pour l'edition The Masterplan du 27 mars 2027 et le lien Instagram. Match `masters of hardcore` : 3 lignes, dans 3 pays et 3 salles (Brabanthallen a Bois-le-Duc, VAZ St. Polten en Autriche, Halle 622 a Zurich), toutes de la marque. Le label Masters of Hardcore et l'organisation Art of Dance sont deux entites liees, la page porte la marque programmee au catalogue.",
+    "sources": [
+      "https://nl.wikipedia.org/wiki/Masters_of_Hardcore_(evenement)",
+      "https://www.mastersofhardcore.com/"
+    ]
+  },
+  {
+    "slug": "tresor",
+    "name": "Tresor",
+    "kind": "club",
+    "city": "Berlin",
+    "country": "Germany",
+    "since": 1991,
+    "desc": "Tresor a ouvert dans une ancienne salle des coffres de la Leipziger Strasse le 13 mars 1991 et le label Tresor Records est né la même année. Le club a porté très tôt le dialogue entre Berlin et Detroit, en programmant Juan Atkins, Underground Resistance et Drexciya. Il occupe aujourd'hui une ancienne centrale thermique et fait tourner sa marque hors les murs, notamment sous le nom Tresor.West.",
+    "descEn": "Tresor opened in a former bank vault on Leipziger Strasse on 13 March 1991, and the Tresor Records label was founded the same year. The club drove the early dialogue between Berlin and Detroit, booking Juan Atkins, Underground Resistance and Drexciya. It now occupies a former power plant and takes its brand on the road, notably under the Tresor.West name.",
+    "site": "https://www.tresorberlin.com/",
+    "instagram": "https://www.instagram.com/tresorberlin",
+    "match": [
+      "tresor klubnacht",
+      "tresor meets",
+      "tresor invites",
+      "tresor records"
+    ],
+    "venues": [
+      "Tresor"
+    ],
+    "verified": "Site officiel, page About, section History : ouverture le 13 mars 1991 au 126 Leipziger Strasse, label Tresor Records fonde la meme annee, Juan Atkins, Underground Resistance et Drexciya cites nommement. Instagram pris sur le lien du site. Match volontairement etroit et non pas le seul mot `tresor` : la ligne belge « 13 Ans Des Vision Room- Sparkoh!-Bours?(Fuse,Tresor Berlin) » cite le club comme reference d'un artiste, ce n'est pas une soiree Tresor, et un match sur le mot nu la revendiquait. Les sept libelles retenus rendent 13 lignes : les soirees du club a Berlin (Klubnacht, meets, invites), les deux dates T35 des 35 ans du label, « eli invites Tresor.West » a Leipzig, « Mad Katz x Tresor au Hive » a Zurich et « Birmingham Techno: Tresor 35 » a Birmingham, toutes de la marque. Salle `Tresor` revendiquee : ses lignes au catalogue sont toutes des soirees Tresor. Trois libellés retirés (« tresor 35 », « tresor west », « x tresor ») : les lignes qu'ils attrapaient sont des soirées d'autres promoteurs qui invitent ou célèbrent Tresor (Birmingham, Leipzig, Zurich), et rien ne dit que Tresor les programme. Une soirée qui invite une marque n'est pas une soirée de cette marque.",
+    "sources": [
+      "https://www.tresorberlin.com/about/",
+      "https://www.tresorberlin.com/"
+    ]
+  },
+  {
+    "slug": "bootshaus",
+    "name": "Bootshaus",
+    "kind": "club",
+    "city": "Cologne",
+    "country": "Germany",
+    "since": 2004,
+    "desc": "Le Bootshaus est un club de Cologne né en 2004 sur les quais de Deutz, héritier du Warehouse ouvert en 1991, l'un des premiers lieux techno d'Allemagne. Il s'est fait connaître par sa série Loonyland et programme aujourd'hui aussi bien l'EDM que la hard techno, le hardstyle et la drum and bass sur trois salles. Il est exploité par Bootshaus Cologne GmbH et emmène sa marque hors du club, par exemple pour ses soirées sur un bateau du Rhin.",
+    "descEn": "Bootshaus is a Cologne club that opened in 2004 on the Deutz waterfront, heir to the Warehouse that opened in 1991 as one of Germany's first techno venues. It made its name with the Loonyland party series and now books EDM as readily as hard techno, hardstyle and drum and bass across three rooms. It is run by Bootshaus Cologne GmbH and takes its brand outside the club, for instance for its parties on a Rhine boat.",
+    "site": "https://www.bootshaus.tv/",
+    "instagram": "https://www.instagram.com/bootshaus",
+    "match": [
+      "bootshaus"
+    ],
+    "venues": [
+      "Bootshaus"
+    ],
+    "verified": "Wikipedia DE, article « Bootshaus (Koln) » : le Warehouse ouvre en 1991 comme un des premiers lieux de la culture techno en Allemagne, le Bootshaus actuel en nait en 2004 a la Deutzer Werft, notoriete acquise par la serie Loonyland, trois salles et un exterieur, genres EDM, hardstyle, techno, drum and bass. Site officiel : adresse Auenweg 173 a Cologne, mention « Bootshaus Cologne GmbH » en pied de page, et lien Instagram. Match `bootshaus` : 15 lignes, dont « Bootshaus on a Ship Vol. IV » sur un bateau du Rhin, toutes du club. Salle `Bootshaus` revendiquee : ses 25 lignes sont la programmation du club, y compris les soirees de marques invitees qu'il booke lui-meme.",
+    "sources": [
+      "https://de.wikipedia.org/wiki/Bootshaus_(K%C3%B6ln)",
+      "https://www.bootshaus.tv/"
+    ]
+  },
+  {
+    "slug": "nordstern",
+    "name": "Nordstern",
+    "kind": "club",
+    "city": "Basel",
+    "country": "Switzerland",
+    "desc": "Le Nordstern est un club bâlois installé sur le pont inférieur d'un ancien cargo fluvial amarré près de la Voltaplatz, réaménagé selon un principe de salle dans la salle pour l'acoustique, avec un système son signé L-Acoustics et WSDG. Il programme techno et house chaque week-end, et un second espace, le Club Futura, accueille les soirées plus petites.",
+    "descEn": "Nordstern is a Basel club set on the lower deck of a converted cargo ship moored near Voltaplatz, rebuilt on a room in a room principle for its acoustics, with a sound system designed with L-Acoustics and WSDG. It books techno and house every weekend, and a second space, Club Futura, hosts the smaller nights.",
+    "site": "https://nordstern.com/",
+    "instagram": "https://www.instagram.com/nordsternbasel",
+    "match": [
+      "nordstern"
+    ],
+    "venues": [
+      "Nordstern"
+    ],
+    "verified": "Site officiel nordstern.com : cargo reamenage, pont inferieur, concept « room in a room », cooperation L-Acoustics et WSDG, second espace Club Futura, agenda hebdomadaire, lien Instagram. `since` omis volontairement : Wikipedia donne 2000 alors que le site parle de 24 ans a un endroit et de 20 a un autre, donc aucune annee n'est tranchee. Match `nordstern` : 7 lignes, toutes des soirees du club. Salle `Nordstern` revendiquee : ses 8 lignes au catalogue sont sa programmation. Avertissement attendu de l'ingest : tout tient dans une seule salle, donc pas de page tant qu'une date hors les murs n'arrive pas.",
+    "sources": [
+      "https://nordstern.com/",
+      "https://en.wikipedia.org/wiki/Nordstern_(club)"
+    ]
+  },
+  {
+    "slug": "culture-box",
+    "name": "Culture Box",
+    "kind": "club",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "since": 2005,
+    "desc": "Culture Box est un club de Copenhague ouvert en 2005, que sa propre présentation décrit comme la plaque tournante de la scène électronique danoise. Il ouvre les vendredis et samedis de 22 h à 8 h et programme chaque semaine des artistes locaux et internationaux sur deux salles, la Black Box et la Red Box. Il porte aussi sa propre série de soirées, un podcast et un code de conduite affiché.",
+    "descEn": "Culture Box is a Copenhagen club that opened in 2005 and describes itself as the central hub of the Danish electronic music scene. It opens Fridays and Saturdays from 10pm to 8am and books local and international artists every week across two rooms, the Black Box and the Red Box. It also runs its own party series, a podcast and a published attitude code.",
+    "site": "https://www.culture-box.com/",
+    "instagram": "https://www.instagram.com/cultureboxdk",
+    "match": [
+      "culture box"
+    ],
+    "venues": [
+      "Culture Box"
+    ],
+    "verified": "Site officiel, page About : « Culture Box is a central hub for the electronic music scene in Denmark. Ever since the venue opened in 2005... », ouverture vendredi et samedi de 22 h a 8 h, salles Black Box et Red Box citees dans la section acces, attitude code et podcast dans le menu. Instagram pris sur le lien du site. Match `culture box` : 5 lignes, toutes des soirees maison. Salle `Culture Box` revendiquee : ses 7 lignes sont sa programmation, y compris les deux soirees de collectifs invites. Avertissement attendu de l'ingest : une seule salle, donc pas de page tant qu'une date hors les murs n'arrive pas.",
+    "sources": [
+      "https://www.culture-box.com/about",
+      "https://www.culture-box.com/"
+    ]
+  },
+  {
+    "slug": "kaiku",
+    "name": "Kaiku",
+    "kind": "club",
+    "city": "Helsinki",
+    "country": "Finland",
+    "desc": "Kaiku est un club de musique électronique d'Helsinki, ouvert les vendredis et samedis, qui programme sa propre série Kaiku Presents à côté de soirées portées par des collectifs invités. Les affiches associent un nom international en tête de nuit et des DJ finlandais, sur deux espaces, avec une entrée gratuite avant 23 h.",
+    "descEn": "Kaiku is an electronic music club in Helsinki, open Fridays and Saturdays, running its own Kaiku Presents series alongside nights put on by guest collectives. Line-ups pair an international headliner with Finnish DJs across two rooms, with free entry before 11pm.",
+    "site": "https://clubkaiku.fi/",
+    "match": [
+      "kaiku"
+    ],
+    "venues": [
+      "Kaiku"
+    ],
+    "verified": "Site officiel clubkaiku.fi : programme du vendredi et du samedi, serie « Kaiku Presents », soirees de collectifs invites (Rakata, ELSE, Bassment, DWSC), deux timetables par nuit, tarif « 16/0 EUR BEFORE 23:00 ». `since` omis : aucune source officielle ne donne l'annee d'ouverture, les sources secondaires disent 2013 sans etre verifiables depuis le conteneur. Instagram non repris pour la meme raison, le site ne porte aucun lien social dans le HTML servi. Match `kaiku` : 5 lignes, toutes au club. Salle `Kaiku` revendiquee : ses 6 lignes sont sa programmation. Avertissement attendu de l'ingest : une seule salle, donc pas de page tant qu'une date hors les murs n'arrive pas.",
+    "sources": [
+      "https://clubkaiku.fi/"
+    ]
+  },
+  {
+    "slug": "jaeger",
+    "name": "Jæger",
+    "kind": "club",
+    "city": "Oslo",
+    "country": "Norway",
+    "desc": "Jæger est un club d'Oslo situé Grensen 9, sur deux étages plus une cour ouverte tard, avec des DJ tous les soirs de la semaine. Chaque soir porte son propre concept et son équipe de résidents, dont Frædag le vendredi, Mandagsklubben le lundi et M.A.D le mardi. Le club revendique une politique d'entrée ouverte, sans sélection à la porte.",
+    "descEn": "Jæger is a club in Oslo at Grensen 9, with two floors plus a late licence courtyard and DJs every night of the week. Each night has its own concept and resident crew, among them Frædag on Fridays, Mandagsklubben on Mondays and M.A.D on Tuesdays. The club states an open door policy, with no selection at the entrance.",
+    "site": "https://jaegeroslo.no/",
+    "instagram": "https://www.instagram.com/jaegeroslo",
+    "match": [
+      "frædag",
+      "fraedag",
+      "jaeger"
+    ],
+    "venues": [
+      "Jaeger"
+    ],
+    "verified": "Site officiel : adresse Grensen 9 a Oslo et horaires en pied de page, agenda ou chaque soir porte son concept (Frædag le vendredi, Mandagsklubben, M.A.D, Nightflight, Helt Texas), page About « Every night of the week has her own slant... each night has her own dedicated crew » et « an open attitude to our guests, one that negates exclusivity ». Instagram pris sur le lien du site. Match `frædag` plus `jaeger` : 6 lignes, les 5 soirees Frædag et « Kevin Saunderson au Jaeger », aucune autre ligne du catalogue ne contient ces mots. Salle `Jaeger` revendiquee : ses 8 lignes sont la programmation du club. Avertissement attendu de l'ingest : une seule salle, donc pas de page tant qu'une date hors les murs n'arrive pas.",
+    "sources": [
+      "https://jaegeroslo.no/",
+      "https://jaegeroslo.no/we-are-jaeger/"
+    ]
+  }
+]

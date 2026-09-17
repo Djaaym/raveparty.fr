@@ -5,6 +5,7 @@ import type { Lang } from "@/lib/types";
 import { countryLabel, genreSlug, isPast, slugify, todayISO, venueLabelL, cardEvent } from "@/lib/data";
 import { VENUES, venueBySlug, eventsForVenue, venueGenres, venueKind, venueRegulars } from "@/lib/venues";
 import { showsForVenue } from "@/lib/shows";
+import { promotersForEvent } from "@/lib/promoters";
 import { PLACES } from "@/lib/places";
 import { getDict, langPrefix } from "@/lib/i18n";
 import { sameAs, venueSocials } from "@/lib/socials";
@@ -37,6 +38,9 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
   const regulars = venueRegulars(venue, 6).map((r) => r.name);
   // Every artist who has played or will play here, the venue↔artist mesh.
   const artists = [...new Map(showsForVenue(slug).map((s) => [s.artistSlug, s])).values()].slice(0, 30);
+  /* Les marques qui programment cette salle : l'arête salle vers organisateur, que le
+     site n'avait pas. Dédupliquée par slug, une marque revenant sur dix dates. */
+  const promoters = [...new Map(events.flatMap((e) => promotersForEvent(e)).map((x) => [x.slug, x])).values()];
   const sameCity = VENUES.filter((v) => v.slug !== venue.slug && v.city === venue.city);
   const place = PLACES.find((x) =>
     (x.match ?? [x.label]).some(
@@ -95,6 +99,17 @@ export default function VenuePage({ lang, slug }: { lang: Lang; slug: string }) 
               </Link>
             ))}
           </div>
+
+          {promoters.length > 0 && (
+            <div className="linkfarm" style={{ marginTop: 12 }}>
+              <em style={{ alignSelf: "center", opacity: 0.7 }}>{t("venue.promoters")}</em>
+              {promoters.map((x) => (
+                <Link key={x.slug} href={`${p}/organisateurs/${x.slug}`}>
+                  🎛 {x.name}
+                </Link>
+              ))}
+            </div>
+          )}
 
           {social && (
             <div style={{ marginTop: 28 }}>
