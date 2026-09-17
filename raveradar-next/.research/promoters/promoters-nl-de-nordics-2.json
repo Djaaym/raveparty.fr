@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "loveland",
+    "name": "Loveland",
+    "kind": "organisateur",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "since": 1995,
+    "desc": "Loveland organise des événements house et techno à Amsterdam depuis 1995, mention portée en toutes lettres par son propre site. Sa date principale est le Loveland Festival, deux jours au Sloterpark début août, complétée par le 909 Festival à l'Amsterdamse Bos, la journée BURST au Meerpark et une série de soirées pendant l'Amsterdam Dance Event. Chaque marque a son propre compte Instagram.",
+    "descEn": "Loveland has been putting on house and techno events in Amsterdam since 1995, a date its own site states in full. Its main event is Loveland Festival, two days in the Sloterpark in early August, alongside 909 Festival in the Amsterdamse Bos, the BURST day at Meerpark and a run of shows during Amsterdam Dance Event.",
+    "site": "https://www.loveland.nl/",
+    "instagram": "https://www.instagram.com/lovelandnl",
+    "match": ["loveland"],
+    "countries": ["Netherlands"],
+    "venues": [],
+    "verified": "Site officiel loveland.nl : « Loveland Events Since 1995 » en tete de page, et l'agenda liste BURST au Meerpark, 909 Festival a l'Amsterdamse Bos, Loveland Festival les 7 et 8 aout 2027 au Sloterpark d'Amsterdam et « Loveland ADE shows, October 2026 », soit exactement les deux lieux du catalogue. Instagram @lovelandnl pris sur le lien du site (les marques 909 et BURST ont le leur, non repris ici). Match `loveland` : 3 lignes, les deux editions du festival au Sloterpark et « Boris Brejcha pres. FCKNG SERIOUS x Loveland » au Theater Amsterdam, qui est une des shows ADE annonces par le site. `countries` limite aux Pays-Bas, le mot etant assez commun pour attraper autre chose le jour ou le catalogue s'elargit. Aucune salle revendiquee : le Sloterpark et le Theater Amsterdam accueillent d'autres programmes.",
+    "sources": [
+      "https://www.loveland.nl/",
+      "https://www.loveland.nl/about/"
+    ]
+  },
+  {
+    "slug": "basis",
+    "name": "BASIS",
+    "kind": "club",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "desc": "BASIS est un club techno du centre d'Utrecht, installé dans une cave voisine du vieux canal, qui se présente sous le mot d'ordre « Back to the BASIS » et revendique plus de dix ans d'activité. La cabine est montée à 360 degrés, au même niveau que le public, et le système son est un VOID. Le club sort de ses murs pour son BASIS Outdoor, monté au Beton-T.",
+    "descEn": "BASIS is a techno club in the centre of Utrecht, in a basement next to the old canal, running under the motto \"Back to the BASIS\" and claiming more than ten years of activity. The booth is a 360 degree setup on the same level as the crowd, with a VOID sound system. The club steps outside its walls for BASIS Outdoor, held at Beton-T.",
+    "site": "https://clubbasis.nl/",
+    "instagram": "https://www.instagram.com/clubbasis",
+    "match": ["basis"],
+    "countries": ["Netherlands"],
+    "venues": ["BASIS, Oudegracht aan de Werf 97"],
+    "verified": "Site officiel, page About Us : « the techno club in the heart of downtown Utrecht », cave a cote du vieux canal, « For over ten years », cabine a 360 degres au meme niveau que le public, systeme VOID. L'agenda du site porte les memes soirees que le catalogue, sous la forme « BASIS/ … ». Instagram @clubbasis pris sur le lien du site. `since` omis : le site dit « plus de dix ans » et ne donne aucune annee, la deduire serait une invention. Match `basis` : 5 lignes, toutes des soirees BASIS, dont « BASIS Outdoor » au Beton-T. `countries` limite aux Pays-Bas, « basis » etant un mot courant en neerlandais comme en allemand. Salle revendiquee : les 4 lignes de « BASIS, Oudegracht aan de Werf 97 » sont sa programmation.",
+    "sources": [
+      "https://clubbasis.nl/about-us/",
+      "https://clubbasis.nl/"
+    ]
+  },
+  {
+    "slug": "q-dance",
+    "name": "Q-dance",
+    "kind": "organisateur",
+    "city": "Landsmeer",
+    "country": "Netherlands",
+    "since": 1999,
+    "desc": "Q-dance est la société néerlandaise qui organise les grands rendez-vous des styles durs, hardstyle, hardcore et hard trance, dont Defqon.1, Qlimax et Dominator. Elle a été fondée en 1999 sous le nom Qlass Elite par un groupe d'amis de Landsmeer, au nord d'Amsterdam, avec Wouter Tavecchio parmi les fondateurs. Ses événements se reconnaissent au Q de leur nom, pour quality.",
+    "descEn": "Q-dance is the Dutch company behind the big harder styles events, hardstyle, hardcore and hard trance, among them Defqon.1, Qlimax and Dominator. It was founded in 1999 as Qlass Elite by a group of friends in Landsmeer, north of Amsterdam, with Wouter Tavecchio among the founders. Its events are recognisable by the Q in their name, which stands for quality.",
+    "site": "https://www.q-dance.com/",
+    "match": ["defqon", "dominator"],
+    "countries": ["Netherlands"],
+    "venues": [],
+    "verified": "Wikipedia (article Q-dance) : societe neerlandaise des styles durs, « Popular events and festivals organized by Q-dance are Defqon.1 Festival, Qlimax and Dominator », fondation en 1999 sous le nom Qlass Elite a Landsmeer, banlieue nord d'Amsterdam, Wouter Tavecchio cite comme fondateur, le Q pour quality. C'est cette source qui tranche « nom du festival ou nom de la societe » : la page porte la societe, ses festivals gardent leurs fiches. Site officiel q-dance.com rendu en JavaScript, donc aucun lien social verifiable, Instagram non repris. Match `defqon` plus `dominator` : 4 lignes, les deux Defqon.1 a Biddinghuizen et les deux Dominator Festival a Eersel, aucune autre ligne du catalogue ne porte ces mots. `countries` limite aux Pays-Bas.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Q-dance",
+      "https://www.q-dance.com/"
+    ]
+  }
+]

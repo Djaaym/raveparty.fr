@@ -16,11 +16,14 @@
     "venues": [
       "Depot Mayfield"
     ],
-    "verified": "Wikipedia donne l'année (2006), les fondateurs et l'installation à Depot Mayfield en 2019 ; DJ Mag confirme la salle. Instagram relevé sur le site officiel (lien sortant vers instagram.com/whp_mcr). Le match touche 21 lignes du catalogue, toutes à Depot Mayfield, Manchester, et les 21 dates de cette salle sont des dates The Warehouse Project, d'où le venue.",
+    "verified": "Wikipedia donne l'année (2006), les fondateurs et l'installation à Depot Mayfield en 2019 ; DJ Mag confirme la salle. Instagram relevé sur le site officiel (lien sortant vers instagram.com/whp_mcr). Le match touche 21 lignes du catalogue, toutes à Depot Mayfield, Manchester, et les 21 dates de cette salle sont des dates The Warehouse Project, d'où le venue. Restreint au Royaume-Uni : « Shelter ADE: 20 Years of The Warehouse Project » est la soirée ADE du Shelter à Amsterdam, pas une date de la saison WHP.",
     "sources": [
       "https://en.wikipedia.org/wiki/The_Warehouse_Project",
       "https://djmag.com/top100clubs/2024/6/Warehouse-Project-Depot-Mayfield",
       "https://www.thewarehouseproject.com/"
+    ],
+    "countries": [
+      "UK"
     ]
   },
   {
