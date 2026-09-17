@@ -1,0 +1,124 @@
+[
+  {
+    "slug": "bloom",
+    "name": "Bloom",
+    "kind": "organisateur",
+    "city": "Porto",
+    "country": "Portugal",
+    "desc": "Bloom est l'organisateur portuense qui tient le Bloom Festival sur la piste de l'aérodrome de Maia, les 18 et 19 septembre. Sous la même marque, il programme aussi hors du festival, avec Bloom & Maz pour Halloween à Porto et une nuit avec le collectif Monkey Project au Pátio da Galé, à Lisbonne. Sa programmation va de la house au tech house.",
+    "descEn": "Bloom is the Porto promoter behind Bloom Festival, held on the runway of the Maia aerodrome on 18 and 19 September. Under the same name it also programmes outside the festival, with Bloom & Maz for Halloween in Porto and a night with the Monkey Project collective at Pátio da Galé in Lisbon. Its bill runs from house to tech house.",
+    "site": "https://bloomfest.pt/",
+    "instagram": "https://www.instagram.com/bloomfest.pt",
+    "match": [
+      "bloom"
+    ],
+    "countries": [
+      "Portugal"
+    ],
+    "venues": [],
+    "verified": "bloomfest.pt (le site de la marque, distinct de bloomfestival.pt qui ne porte que le festival) liste les trois mêmes dates que le catalogue : Bloom Festival à l'aérodrome de Maia, Bloom & Maz Halloween, et la nuit Monkey Project au Pátio da Galé. Dates et lieu du festival confirmés par bloomfestival.pt (« 18 e 19 Setembro // Aeródromo da Maia, Porto ») et par la presse portugaise. Instagram relevé dans le HTML de bloomfest.pt. since omis, aucune source ne donne l'année de création. `countries` limité au Portugal : « bloom » est un mot courant, la restriction empêche la marque d'attraper un titre homonyme ailleurs au catalogue. 3 dates, 3 salles, 2 villes.",
+    "sources": [
+      "https://bloomfest.pt/",
+      "https://www.bloomfestival.pt/",
+      "https://www.jn.pt/cultura/artigo/bloom-festival-uma-pista-de-aterragem-transformada-em-espaco-de-danca/18125682",
+      "https://ra.co/events/2414715"
+    ]
+  },
+  {
+    "slug": "nameless",
+    "name": "Nameless",
+    "kind": "organisateur",
+    "city": "Lecco",
+    "country": "Italy",
+    "since": 2013,
+    "desc": "Nameless est le festival lombard créé en 2013 par une équipe menée par Alberto Fumagalli, d'abord au centre sportif du Bione, à Lecco. Il a grandi à Barzio, en Valsassina, entre 2015 et 2019, avant de passer par Annone. Il revient au bord du lac de Côme pour son édition d'été et tient une Winter Edition à Barzio en février.",
+    "descEn": "Nameless is the Lombard festival created in 2013 by a team led by Alberto Fumagalli, first at the Bione sports centre in Lecco. It grew in Barzio, in Valsassina, between 2015 and 2019, before a spell in Annone. It is back by Lake Como for its summer edition and holds a Winter Edition in Barzio in February.",
+    "site": "https://www.namelessfestival.it/en",
+    "instagram": "https://www.instagram.com/namelessfestival",
+    "match": [
+      "nameless"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "venues": [],
+    "verified": "Wikipedia italien (Nameless Festival) : festival annuel à Lecco depuis 2013, débuts au centre sportif du Bione. Il Giorno : retour à Lecco et Winter Edition en Valsassina, Barzio comme maison du festival de 2015 à 2019, Alberto Fumagalli fondateur. Le site officiel affiche les deux rendez-vous aux dates exactes du catalogue, Nameless Winter les 13 et 14 février 2027 à Barzio et Nameless Festival du 4 au 6 juin 2027 à Lecco. Instagram relevé dans le HTML du site. 2 dates, 2 salles, 2 villes, 2 titres.",
+    "sources": [
+      "https://it.wikipedia.org/wiki/Nameless_Festival",
+      "https://www.ilgiorno.it/lecco/cultura/nameless-festival-611eaf3c",
+      "https://www.namelessfestival.it/en"
+    ]
+  },
+  {
+    "slug": "fury",
+    "name": "Fury",
+    "kind": "organisateur",
+    "city": "Barcelona",
+    "country": "Spain",
+    "desc": "Fury est la marque barcelonaise de hard techno, annoncée sous le mot d'ordre « Rave is Not a Crime » et produite par GMC Worldwide Productions. Elle tient son festival en plein air au Parc del Fòrum et des éditions en salle à Razzmatazz. La programmation est du hard techno et du hardcore, sans autre genre.",
+    "descEn": "Fury is Barcelona's hard techno brand, billed under the slogan \"Rave is Not a Crime\" and produced by GMC Worldwide Productions. It holds its open-air festival at Parc del Fòrum and indoor editions at Razzmatazz. The programme is hard techno and hardcore, and nothing else.",
+    "site": "https://parcdelforum.barcelona/es/agenda/fury-festival",
+    "match": [
+      "fury"
+    ],
+    "countries": [
+      "Spain"
+    ],
+    "venues": [],
+    "verified": "Site officiel du Parc del Fòrum : « El nuevo evento 'Fury, Rave is Not a Crime' de 'Hard Techno' llega a Barcelona », organisateur « GMC WORLDWIDE PRODUCTIONS », et une page d'édition antérieure qui annonce « FURY is turning 2 and returning to Parc del Forum ». Les éditions à Razzmatazz sont annoncées à l'agenda de la salle. `countries` limité à l'Espagne, et c'est la raison d'être du champ ici : sans lui, « fury » attrape deux soirées Fury de l'Ääniwalli à Helsinki, qui ne sont pas cette marque. Reste 2 dates, 2 salles, 2 titres à Barcelone. site pointe sur la page du Parc del Fòrum faute de domaine officiel joignable (furyfestival.es ne répond pas depuis le conteneur), instagram omis pour la même raison.",
+    "sources": [
+      "https://parcdelforum.barcelona/es/agenda/fury-festival",
+      "https://parcdelforum.barcelona/en/calendar/fury-hard-techno-festival-2025",
+      "https://www.salarazzmatazz.com/agenda/11-01-2026-fury-festival-pres-warehouse-indoor-rave"
+    ]
+  },
+  {
+    "slug": "vision-milano",
+    "name": "Vision",
+    "kind": "organisateur",
+    "city": "Milan",
+    "country": "Italy",
+    "desc": "Vision est la série milanaise de plein air tenue à l'ex Macello, viale Molise 62, l'ancien abattoir de la ville. La saison 2026 court du 1er mai au 5 septembre, de 17 h à minuit, et c'est la troisième et dernière sur ce site, dont la requalification urbaine reprend après l'été. La billetterie et les aftershows passent par l'Amnesia Milano, et quelques dates se tiennent à la Fabrique.",
+    "descEn": "Vision is the Milanese open-air series held at the ex Macello, viale Molise 62, the city's former slaughterhouse. The 2026 season runs from 1 May to 5 September, 5pm to midnight, and is the third and last on that site, whose urban redevelopment resumes after the summer. Ticketing and aftershows go through Amnesia Milano, and a few dates are held at Fabrique.",
+    "site": "https://amnesiamilano.com/",
+    "match": [
+      "vision"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "venues": [],
+    "verified": "discobar.it : « Quella del 2026 sara la terza e ultima stagione di Vision Open Air all'Ex Macello », horaires « dalle 17 a mezzanotte », aftershows à l'Amnesia Milano. wumagazine : saison du 1er mai au 5 septembre à l'ex Macello, viale Molise 62. amnesiamilano.com vend les dates Vision et les range sous trois lieux, Amnesia Milano, Ex Macello et Fabrique, ce qui recoupe exactement les trois salles du catalogue. Aucune source ne nomme la société qui édite la marque, donc la fiche ne l'affirme pas. `countries` limité à l'Italie, et c'est ce qui rend la marque publiable : sans lui, « vision » attrape « 13 Ans Des Vision Room » en Belgique et « Vision: Spor » aux Pays-Bas, deux marques sans rapport. Reste 5 dates, 3 salles, 5 titres à Milan.",
+    "sources": [
+      "https://www.discobar.it/altro/2026/04/28/vision-open-air-ritorna-allex-macello-di-milano/",
+      "https://wumagazine.com/2026/04/28/vision-open-air-ex-macello-eventi-milano-2026/",
+      "https://amnesiamilano.com/",
+      "https://fabriquemilano.it/it/eventi/vision-open-air-w-pawsa-and-more/"
+    ]
+  },
+  {
+    "slug": "quarto-escuro",
+    "name": "1/4 Escuro",
+    "kind": "collectif",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "desc": "1/4 Escuro est une marque de soirées techno de Lisbonne, qui tient une série au Ministerium Club et sort régulièrement dans d'autres lieux de la ville. Ses deux dates du catalogue sont coproduites avec Vault Sessions, marque amstellodamoise dont elle avait accueilli la première date portugaise à l'Armazém 8 Marvila en novembre 2024.",
+    "descEn": "1/4 Escuro is a Lisbon techno party brand, running a series at Ministerium Club and regularly stepping out to other venues in the city. Its two catalogue dates are co-produced with Vault Sessions, the Amsterdam brand whose first Portuguese date it hosted at Armazém 8 Marvila in November 2024.",
+    "site": "https://linktr.ee/umquartoescuro",
+    "instagram": "https://www.instagram.com/umquartoescuromusic",
+    "match": [
+      "1/4 escuro"
+    ],
+    "countries": [
+      "Portugal"
+    ],
+    "venues": [],
+    "verified": "Fiches d'événement RA au même nom : « 1/4 Escuro Club Series with Yanamaste at Ministerium Club », « 1/4 Escuro Club Series with Hitam at Ministerium Club », « 1/4 Escuro x Adroit with Yant at Ministerium Club » (série récurrente au Ministerium), « 1/4 Escuro x Vault Sessions » à l'Armazém 8 Marvila en novembre 2024 (première date portugaise de Vault Sessions) et la date du catalogue au Ministerium. Le linktree umquartoescuro et le SoundCloud um-quarto-escuro portent le même nom et confirment le compte Instagram. Aucune source ne donne d'année de création, `since` est omis. 2 dates, 2 salles à Lisbonne, 2 titres.",
+    "sources": [
+      "https://ra.co/events/2523636",
+      "https://ra.co/events/2274640",
+      "https://es.ra.co/events/1975759",
+      "https://linktr.ee/umquartoescuro"
+    ]
+  }
+]

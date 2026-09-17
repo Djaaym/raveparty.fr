@@ -102,8 +102,8 @@
     "city": "Lille",
     "country": "France",
     "since": 2014,
-    "desc": "Créé en 2014 au Jardin des plantes de Lille, Le Jardin Électronique est devenu le plus gros festival de musiques électroniques du Nord et s'est installé en 2024 dans les 30 hectares du Parc naturel urbain de Lomme. Deux jours en plein air, quatre scènes (Tech, Hard, Bass, Psy) et plus de 40 000 visiteurs, prolongés par un after en club.",
-    "descEn": "Created in 2014 at Lille's Jardin des Plantes, Le Jardin Électronique has become northern France's biggest electronic music festival and moved in 2024 to the 30 hectares of the Parc Naturel Urbain in Lomme. Two days outdoors, four stages (Tech, Hard, Bass, Psy) and more than 40,000 visitors, followed by an afterparty in a club.",
+    "desc": "Créé en 2014 au Jardin des plantes de Lille, Le Jardin Électronique est devenu le plus gros festival de musiques électroniques du Nord et s'est installé en 2024 dans les 30 hectares du Parc naturel urbain de Lomme. Deux jours en plein air, une affiche répartie en tribus (Tech, Hard, Bass, Psy, et Mélodique depuis 2026), prolongés par un after en club.",
+    "descEn": "Created in 2014 at Lille's Jardin des Plantes, Le Jardin Électronique has become northern France's biggest electronic music festival and moved in 2024 to the 30 hectares of the Parc Naturel Urbain in Lomme. Two outdoor days, a line-up split into tribes (Tech, Hard, Bass, Psy, and Mélodique since 2026), followed by an afterparty in a club.",
     "site": "https://www.jardinelectronique.com/",
     "instagram": "https://www.instagram.com/lejardinelectronique",
     "match": [
@@ -113,11 +113,12 @@
       "France"
     ],
     "venues": [],
-    "verified": "Création en 2014 au Jardin des plantes de Lille, installation à Lomme en 2024, 30 hectares, quatre scènes (Tech, Hard, Bass, Psy), plus de 40 000 visiteurs et douzième édition les 12 et 13 septembre 2026 : festivalenfrance, Lille Addict et la page du festival sur le site de la ville de Lomme. Instagram relevé sur jardinelectronique.com. Le match touche 2 dates, 2 salles, 1 ville et 2 titres : le festival au Parc naturel urbain et son after « All Stars » au Slalom, deux programmes distincts que la seule fiche du parc ne dirait pas.",
+    "verified": "Création en 2014 au Jardin des plantes de Lille, installation à Lomme en 2024 et 30 hectares : festivalenfrance et Lille Addict. Douzième édition les 12 et 13 septembre 2026 et arrivée de la tribu Mélodique : Guettapen. Page du festival sur le site de la ville de Lomme. Instagram relevé sur jardinelectronique.com. La fréquentation annoncée (« plus de 40 000 visiteurs ») n'est pas reprise : une seule source secondaire la donne. Le match touche 2 dates, 2 salles, 1 ville et 2 titres : le festival au Parc naturel urbain et son after « All Stars » au Slalom, deux programmes distincts que la seule fiche du parc ne dirait pas.",
     "sources": [
       "https://www.jardinelectronique.com/",
       "https://www.ville-lomme.fr/Culture-et-loisirs/Les-grands-evenements/Le-Jardin-Electronique",
-      "https://lilleaddict.fr/actus-lille/le-jardin-electronique-a-lille.html"
+      "https://lilleaddict.fr/actus-lille/le-jardin-electronique-a-lille.html",
+      "https://www.guettapen.com/2026/09/03/le-jardin-electronique-prepare-une-belle-edition-2026/"
     ]
   },
   {
@@ -143,6 +144,148 @@
       "https://hysta.dj/wolf-city/",
       "https://valliue.com/2024/09/01/wolf-city-le-nouveau-show-signe-hysta-qui-debarque-au-warehouse-nantes/",
       "https://www.warehouse-nantes.fr/event/rave-in-da-club-x-wolf-city-hysta-lekkerfaces-ophidian-rdo-more-warehouse-nantes"
+    ]
+  },
+  {
+    "slug": "the-holy-rave",
+    "name": "The Holy Rave",
+    "kind": "collectif",
+    "city": "Dijon",
+    "country": "France",
+    "desc": "The Holy Rave est un collectif qui numérote ses soirées et les fait tourner de club en club, du Bal'tazar de Dijon au Ground de Luxembourg, au Teasing Club de Besançon et à Metz. Le principe est d'inviter des clubs et des labels locaux à porter une nuit dans une salle underground, plutôt que de réimporter la même affiche partout.",
+    "descEn": "The Holy Rave is a collective that numbers its nights and moves them from club to club, from Bal'tazar in Dijon to Ground in Luxembourg, Le Teasing Club in Besançon and on to Metz. The idea is to invite local clubs and labels to host a night in an underground room, rather than shipping the same line-up everywhere.",
+    "instagram": "https://www.instagram.com/theholyrave",
+    "match": [
+      "the holy rave"
+    ],
+    "countries": [
+      "France",
+      "Luxembourg"
+    ],
+    "venues": [],
+    "verified": "Concept (inviter clubs et labels locaux à porter une nuit intime dans une salle underground) : description de l'édition The Holy Rave #12 à Lyon sur Resident Advisor. Série numérotée et villes : les fiches d'événement Shotgun (#13 Dijon) et les quatre lignes du catalogue, qui portent les numéros 32, 33, 34 et 36 dans quatre salles et quatre villes différentes. Instagram @theholyrave. La ville d'attache est Dijon, la seule où la marque revient et celle de sa première édition annoncée (The Holy Rave #1, Beverly Club, Dijon). Aucune source ne donne l'année de création de façon sûre, `since` est donc omis. Pas de site officiel joignable, le champ est omis. `countries` couvre France et Luxembourg, la marque programmant dans les deux. Le match touche 4 dates, 4 salles, 4 villes et 4 titres.",
+    "sources": [
+      "https://ra.co/events/2359297",
+      "https://shotgun.live/en/events/the-holy-rave-13-dijon",
+      "https://www.instagram.com/theholyrave/"
+    ]
+  },
+  {
+    "slug": "illusion-lorient",
+    "name": "Illusion",
+    "kind": "organisateur",
+    "city": "Lorient",
+    "country": "France",
+    "desc": "Illusion est la grande nuit hard music du pays de Lorient, présentée par Pandemic Events et Le Périscope au Parc des expositions de Lorient Bretagne Sud, à Lanester. L'affiche mélange techno, trance et hard music autour d'un décor à thème, et l'édition 2026 passe à deux scènes.",
+    "descEn": "Illusion is the big hard music night of the Lorient area, presented by Pandemic Events and Le Périscope at the Parc des Expositions Lorient Bretagne Sud in Lanester. The line-up mixes techno, trance and hard music around a themed set design, and the 2026 edition moves up to two stages.",
+    "site": "https://www.pandemic-events.com/illusion",
+    "match": [
+      "illusion"
+    ],
+    "countries": [
+      "France"
+    ],
+    "exclude": [
+      "illusion saison"
+    ],
+    "venues": [],
+    "verified": "Organisateurs (« Pandemic Events et Le Périscope présentent : ILLUSION « Lorient » »), styles (« TECHNO - TRANCE - HARD MUSIC »), lieu et décor à thème : page de l'événement sur lorient-evenements.bzh. Programmation 2026 au Parc des expositions Lorient Bretagne Sud et passage à deux scènes : page Illusion de pandemic-events.com et fiches Shotgun / Xceed. Aucune source ne donne l'année de création, `since` est omis. `countries` est limité à la France et `exclude` écarte « Illusion Saison II Invite Lixon », une soirée parisienne sans rapport, ainsi que l'Illusion at the Beach belge, homonyme d'un autre organisateur. Le match touche alors 2 dates, 2 salles, 1 ville et 2 titres, à Lanester.",
+    "sources": [
+      "https://lorient-evenements.bzh/agenda/illusion-bzh-edition/",
+      "https://www.pandemic-events.com/illusion",
+      "https://xceed.me/en/lanester/event/illusion-lorient-bzh-edition-1--170881"
+    ]
+  },
+  {
+    "slug": "magie-noire",
+    "name": "Magie Noire",
+    "kind": "collectif",
+    "city": "Montpellier",
+    "country": "France",
+    "desc": "Magie Noire est un collectif montpelliérain qui a fêté ses dix ans en 2026 et promène ses soirées électroniques dans toute la ville, de L'Antirouille au Tropisme, du Jardin des plantes au rooftop du Corum. Ses résidents, Luca Ruiz, Dask et Vincent Attalin, invitent régulièrement des noms de la scène internationale.",
+    "descEn": "Magie Noire is a Montpellier collective that celebrated ten years in 2026 and moves its electronic nights around the whole city, from L'Antirouille to Tropisme, from the Jardin des Plantes to the Corum rooftop. Its residents, Luca Ruiz, Dask and Vincent Attalin, regularly invite names from the international scene.",
+    "match": [
+      "magie noire"
+    ],
+    "countries": [
+      "France"
+    ],
+    "venues": [],
+    "verified": "Dix ans du collectif fêtés en septembre 2026, ville, résidents (Luca Ruiz, Dask, Vincent Attalin) et lieux investis (Jardin des plantes, PZ City Club, Tropisme, Dieze Warehouse) : article de Claap du 17 septembre 2026. Soirées à L'Antirouille et résidence estivale sur le rooftop du Corum : fiches Resident Advisor et Halle Tropisme. L'année de création n'est jamais écrite en clair (l'article ne donne que l'anniversaire), `since` est donc omis. Aucun compte Instagram n'est repris : la recherche rend trois comptes au nom du collectif (@magienoire_, @magie.noire.official, @noire.magie) et aucune source officielle ne tranche, or un lien faux envoie nos lecteurs ailleurs. Le match touche 2 dates, 2 salles, 1 ville et 2 titres, à Montpellier.",
+    "sources": [
+      "https://claap.fr/montpellier-pour-ses-10-ans-le-collectif-magie-noire-va-vous-ensorceler/",
+      "https://www.tropisme.coop/agenda/magienoire-xxl-summer-opening-festival-tropisme",
+      "https://ra.co/events/1707585"
+    ]
+  },
+  {
+    "slug": "under-events",
+    "name": "UNDER",
+    "kind": "collectif",
+    "city": "La Teste-de-Buch",
+    "country": "France",
+    "desc": "UNDER n'est pas tout à fait bordelais : Enzo et Antoine ont lancé le projet sur le bassin d'Arcachon, où il mêle soirées techno et marque de vêtements. Parti des bars du territoire, notamment à La Teste-de-Buch, le collectif invite depuis des références de la scène techno bordelaise, dont Marée Basse, et monte des formats entrepôt.",
+    "descEn": "UNDER is not quite a Bordeaux outfit: Enzo and Antoine started the project on the Arcachon basin, where it combines techno parties with a clothing label. Having begun in local bars, notably in La Teste-de-Buch, the collective now invites names from the Bordeaux techno scene, among them Marée Basse, and puts on warehouse-format nights.",
+    "instagram": "https://www.instagram.com/under__events",
+    "match": [
+      "under events"
+    ],
+    "countries": [
+      "France"
+    ],
+    "venues": [],
+    "verified": "Origine sur le bassin d'Arcachon, fondateurs (Enzo et Antoine), double activité soirées techno et textile, premiers événements dans les bars du territoire dont La Teste-de-Buch, et invitation de Marée Basse : article du Type du 27 novembre 2024 consacré à onze collectifs électro de la région. Instagram @under__events, lien donné par ce même article. L'année de création n'y est pas écrite, `since` est omis. Le match touche 2 dates, 2 salles, 2 villes et 2 titres, dont l'open air bordelais coproduit avec Marée Basse que l'article cite nommément.",
+    "sources": [
+      "https://letype.fr/11-jeunes-collectifs-musiques-electroniques-bordelais-a-decouvrir/",
+      "https://www.instagram.com/under__events/"
+    ]
+  },
+  {
+    "slug": "pulsar-system",
+    "name": "Pulsar System",
+    "kind": "collectif",
+    "city": "Bordeaux",
+    "country": "France",
+    "since": 2024,
+    "desc": "Pulsar System est né en juillet 2024 à Bordeaux, monté par deux cousins, Kévin (Bertrance) et Paul (Wolverave), avec l'idée de rendre la techno accessible. Le collectif mélange house, trance, acid et techno sous l'intitulé Pulsar Mission, et se distingue autant par ses choix de lieux, de la Cour Mably au Hangar DS, que par ses affiches.",
+    "descEn": "Pulsar System started in July 2024 in Bordeaux, run by two cousins, Kévin (Bertrance) and Paul (Wolverave), with the idea of making techno approachable. The collective mixes house, trance, acid and techno under the Pulsar Mission banner, and stands out as much for its choice of venues, from the Cour Mably to Hangar DS, as for its line-ups.",
+    "instagram": "https://www.instagram.com/pulsar.system",
+    "match": [
+      "pulsar mission",
+      "pulsar system"
+    ],
+    "countries": [
+      "France"
+    ],
+    "venues": [],
+    "verified": "Lancement en juillet 2024 (« lancer en juillet dernier leur collectif », article daté du 27 novembre 2024), fondateurs Kévin (Bertrance) et Paul (Wolverave), intention (« rendre accessible à tous et toutes ce style musical »), mélange house / trance / acid / techno et choix de lieux dont la Cour Mably : article du Type. Instagram @pulsar.system, lien donné par le même article. Le match touche 2 dates, 2 salles, 1 ville et 2 titres, à Bordeaux : la soirée au Hangar DS et l'open air qui la précède au Block'Out.",
+    "sources": [
+      "https://letype.fr/11-jeunes-collectifs-musiques-electroniques-bordelais-a-decouvrir/",
+      "https://www.instagram.com/pulsar.system/"
+    ]
+  },
+  {
+    "slug": "organik",
+    "name": "Organïk",
+    "kind": "collectif",
+    "city": "Paris",
+    "country": "France",
+    "since": 2018,
+    "desc": "Organïk est un collectif parisien lancé en 2018 avec une soirée d'ouverture en hangar au Blanc-Mesnil, qui réunit techno et micro house et revendique une organisation éco-responsable. Le format entrepôt reste son terrain de jeu, à Paris comme en tournée, du Warehouse de Nantes à la Halle de la Machine de Toulouse.",
+    "descEn": "Organïk is a Paris collective launched in 2018 with an opening night in a warehouse at Blanc-Mesnil, bringing techno and micro house together and claiming an eco-responsible way of putting on events. The warehouse format remains its home ground, in Paris and on tour, from Warehouse Nantes to the Halle de la Machine in Toulouse.",
+    "instagram": "https://www.instagram.com/organikparis",
+    "match": [
+      "organik"
+    ],
+    "countries": [
+      "France"
+    ],
+    "venues": [],
+    "verified": "Naissance du collectif en 2018 : l'article d'electro-news, publié le 30 mai 2018 et intitulé « le nouveau collectif éco-responsable qui réunit techno et micro house dans un hangar », annonce la soirée d'ouverture du 8 juin au Blanc-Mesnil. Venue au Warehouse de Nantes : page d'événement du Warehouse (« le collectif parisien : Organïk »). Date toulousaine : la page officielle de Mecanik Paradize crédite la soirée « Takeover Collectif ORGANiK ». Instagram @organikparis, le handle que reprennent aussi la page Facebook et le SoundCloud du collectif ; @organikevent existe aussi, c'est pourquoi le choix est justifié ici plutôt que deviné. Le match touche 2 dates, 2 salles, 2 villes et 2 titres (Nantes et Toulouse).",
+    "sources": [
+      "https://electro-news.eu/paris-organik-le-nouveau-collectif-eco-responsable-qui-reunit-techno-et-micro-house-dans-un-hangar/",
+      "https://www.warehouse-nantes.fr/event/nantes-rave-techno-w-lessss-maison-orange-x-organik",
+      "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/"
     ]
   }
 ]
