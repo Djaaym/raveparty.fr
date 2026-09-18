@@ -1,0 +1,6 @@
+[    2702ms] [INFO] KBF: Running in standalone mode (not embedded) @ https://bookings.kaboodle.com/BnsGyaDi.js:0
+[    4580ms] [WARNING] Hotjar not launching due to suspicious userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.0.0 Safari/537.36 @ https://bookings.kaboodle.com/BnsGyaDi.js:0
+[    7048ms] [WARNING] [TikTok Pixel] - Missing 'content_id' paramter
+Issue: The 'content_id' parameter isn't being received. This is required for Video Shopping Ads (VSA).
+Suggestion: Include the 'content_id' parameter in your source code. This is required for Video Shopping Ads (VSA). See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information. @ https://bookings.kaboodle.com/BnsGyaDi.js:0
+[    7911ms] [WARNING] [Meta Pixel] - Duplicate Pixel ID: 131503012259396. @ https://bookings.kaboodle.com/BnsGyaDi.js:0

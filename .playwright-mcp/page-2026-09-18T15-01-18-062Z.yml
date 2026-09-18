@@ -1,0 +1,173 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - link [ref=f1e24] [cursor=pointer]:
+      - /url: https://www.city-splash.com/
+    - main [ref=f1e6]:
+      - navigation "Skip links":
+        - generic [ref=f1e25]: Use up and down arrow keys to navigate between skip links. Press Enter to activate a link. Press Escape to close the menu.
+        - menu "Skip navigation" [ref=f1e26]:
+          - menuitem "Skip to Navigation" [ref=f1e27] [cursor=pointer]
+          - menuitem "Skip to Main Content" [ref=f1e28] [cursor=pointer]
+          - menuitem "Skip to Footer" [ref=f1e29] [cursor=pointer]
+      - navigation "Booking progress" [ref=f1e32]:
+        - list [ref=f1e33]:
+          - listitem [ref=f1e34]:
+            - link "Step 1 of 3, Tickets (current step)" [ref=f1e35] [cursor=pointer]:
+              - /url: /tickets?t=kaboodle-9y4i4&c=89&p=27303&k=5273d6eb79a7d857b76d172539b947cc38c07ddd
+              - text: Tickets
+          - listitem [ref=f1e36]:
+            - link "Step 2 of 3, Customer" [disabled] [ref=f1e37]:
+              - /url: /customer-details?t=kaboodle-9y4i4&c=89&p=27303&k=5273d6eb79a7d857b76d172539b947cc38c07ddd
+              - text: "2"
+          - listitem [ref=f1e38]:
+            - link "Step 3 of 3, Payment" [disabled] [ref=f1e39]:
+              - /url: /payment?t=kaboodle-9y4i4&c=89&p=27303&k=5273d6eb79a7d857b76d172539b947cc38c07ddd
+              - text: "3"
+      - generic [ref=f1e40]:
+        - heading "Tickets" [level=1] [ref=f1e41]
+        - generic [ref=f1e44]:
+          - article [ref=f1e45]:
+            - heading "City Splash 2027" [level=3] [ref=f1e46]
+            - generic [ref=f1e47]:
+              - generic [ref=f1e48]: Product description available. Activate Read More to hear it.
+              - generic [ref=f1e50]:
+                - heading [level=4] [ref=f1e51]: THE HOME OF CULTURE
+                - paragraph [ref=f1e52]: "Date: Monday 31st May 2027"
+                - paragraph [ref=f1e53]: "Time: 12:00 - 22:00 (Last Entry 18:00)"
+                - paragraph [ref=f1e54]:
+                  - generic [ref=f1e55]: "Location: Brockwell Park, Brixton"
+                - paragraph [ref=f1e56]: London’s biggest celebration of Caribbean & African culture is back for one day filled with all things Black music, food, dance and style.
+                - paragraph [ref=f1e57]: "VIP tickets include:"
+                - paragraph [ref=f1e58]: • Fast track entry to the festival • Luxury toilets (not portaloo's) • Main stage viewing platform • Bespoke bar • Bespoke food concessions • Seating
+                - generic [ref=f1e59]: "*Subject to planning"
+              - button "Read more" [ref=f1e60] [cursor=pointer]
+          - generic [ref=f1e64]:
+            - region "General Admission - Early Bird, £49.50, + £45.00 face value + £4.50 booking fee Booking Fee, Product status Sold out" [ref=f1e65]:
+              - generic [ref=f1e67]:
+                - generic [ref=f1e68]:
+                  - paragraph [ref=f1e70]: General Admission - Early Bird
+                  - generic [ref=f1e71]:
+                    - paragraph [ref=f1e73]: £49.50
+                    - generic "£45.00 face value + £4.50 booking fee" [ref=f1e74]
+                - generic [ref=f1e75]: Sold out
+              - alert [ref=f1e77]: Sold out
+            - region "General Admission - Tier 1, £59.50, + £54.09 face value + £5.41 booking fee Booking Fee, Product status Sold out" [ref=f1e78]:
+              - generic [ref=f1e80]:
+                - generic [ref=f1e81]:
+                  - paragraph [ref=f1e83]: General Admission - Tier 1
+                  - generic [ref=f1e84]:
+                    - paragraph [ref=f1e86]: £59.50
+                    - generic "£54.09 face value + £5.41 booking fee" [ref=f1e87]
+                - generic [ref=f1e88]: Sold out
+              - alert [ref=f1e90]: Sold out
+            - region "General Admission - Tier 2, £69.50, + £63.18 face value + £6.32 booking fee Booking Fee, No quantity selected" [ref=f1e91]:
+              - generic [ref=f1e93]:
+                - generic [ref=f1e94]:
+                  - paragraph [ref=f1e96]: General Admission - Tier 2
+                  - generic [ref=f1e97]:
+                    - paragraph [ref=f1e99]: £69.50
+                    - generic "£63.18 face value + £6.32 booking fee" [ref=f1e100]
+                - spinbutton "Item spinner" [ref=f1e102]:
+                  - button "Decrease quantity" [disabled] [ref=f1e103]
+                  - generic [ref=f1e106]: "0"
+                  - generic [ref=f1e107]: Current value is 0
+                  - button "Increase quantity" [ref=f1e108] [cursor=pointer]
+              - alert [ref=f1e111]
+            - region "VIP - Early Bird, £79.95, + £72.68 face value + £7.27 booking fee Booking Fee, Product status Sold out" [ref=f1e112]:
+              - generic [ref=f1e114]:
+                - generic [ref=f1e115]:
+                  - paragraph [ref=f1e117]: VIP - Early Bird
+                  - generic [ref=f1e118]:
+                    - paragraph [ref=f1e120]: £79.95
+                    - generic "£72.68 face value + £7.27 booking fee" [ref=f1e121]
+                - generic [ref=f1e122]: Sold out
+              - alert [ref=f1e124]: Sold out
+            - region "VIP - Tier 1, £94.95, + £86.32 face value + £8.63 booking fee Booking Fee, Product status Sold out" [ref=f1e125]:
+              - generic [ref=f1e127]:
+                - generic [ref=f1e128]:
+                  - paragraph [ref=f1e130]: VIP - Tier 1
+                  - generic [ref=f1e131]:
+                    - paragraph [ref=f1e133]: £94.95
+                    - generic "£86.32 face value + £8.63 booking fee" [ref=f1e134]
+                - generic [ref=f1e135]: Sold out
+              - alert [ref=f1e137]: Sold out
+            - region "VIP - Tier 2, £109.95, + £99.95 face value + £10.00 booking fee Booking Fee, Product status Sold out" [ref=f1e138]:
+              - generic [ref=f1e140]:
+                - generic [ref=f1e141]:
+                  - paragraph [ref=f1e143]: VIP - Tier 2
+                  - generic [ref=f1e144]:
+                    - paragraph [ref=f1e146]: £109.95
+                    - generic "£99.95 face value + £10.00 booking fee" [ref=f1e147]
+                - generic [ref=f1e148]: Sold out
+              - alert [ref=f1e150]: Sold out
+            - region "VIP - Tier 3, £124.95, + £113.59 face value + £11.36 booking fee Booking Fee, Product status Sold out" [ref=f1e151]:
+              - generic [ref=f1e153]:
+                - generic [ref=f1e154]:
+                  - paragraph [ref=f1e156]: VIP - Tier 3
+                  - generic [ref=f1e157]:
+                    - paragraph [ref=f1e159]: £124.95
+                    - generic "£113.59 face value + £11.36 booking fee" [ref=f1e160]
+                - generic [ref=f1e161]: Sold out
+              - alert [ref=f1e163]: Sold out
+            - region "VIP - Tier 4, £139.95, + £125.96 face value + £13.99 booking fee Booking Fee, Product status Sold out" [ref=f1e164]:
+              - generic [ref=f1e166]:
+                - generic [ref=f1e167]:
+                  - paragraph [ref=f1e169]: VIP - Tier 4
+                  - generic [ref=f1e170]:
+                    - paragraph [ref=f1e172]: £139.95
+                    - generic "£125.96 face value + £13.99 booking fee" [ref=f1e173]
+                - generic [ref=f1e174]: Sold out
+              - alert [ref=f1e176]: Sold out
+            - region "VIP - Tier 5, £158.00, + £142.36 face value + £15.64 booking fee Booking Fee, No quantity selected" [ref=f1e177]:
+              - generic [ref=f1e179]:
+                - generic [ref=f1e180]:
+                  - paragraph [ref=f1e182]: VIP - Tier 5
+                  - generic [ref=f1e183]:
+                    - paragraph [ref=f1e185]: £158.00
+                    - generic "£142.36 face value + £15.64 booking fee" [ref=f1e186]
+                - spinbutton "Item spinner" [ref=f1e188]:
+                  - button "Decrease quantity" [disabled] [ref=f1e189]
+                  - generic [ref=f1e192]: "0"
+                  - generic [ref=f1e193]: Current value is 0
+                  - button "Increase quantity" [ref=f1e194] [cursor=pointer]
+              - alert [ref=f1e197]
+        - generic [ref=f1e202]:
+          - generic "Basket, Total, £0.00" [ref=f1e205]:
+            - generic [ref=f1e206]:
+              - button "Toggle basket view" [disabled] [ref=f1e208]
+              - generic [ref=f1e212]:
+                - generic [ref=f1e213]: Total
+                - paragraph [ref=f1e214]: £0.00
+          - button "Continue" [disabled] [ref=f1e217] [cursor=pointer]
+    - contentinfo [ref=f1e10]:
+      - generic [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - generic [ref=f1e13]: Powered By
+          - img "Powered By" [ref=f1e14]
+        - navigation [ref=f1e15]:
+          - list [ref=f1e16]:
+            - listitem [ref=f1e17]:
+              - link "Kaboodle Terms and Conditions" [ref=f1e18] [cursor=pointer]:
+                - /url: https://dye1vg6h1p5m0.cloudfront.net/KB/terms/terms_and_conditions.pdf
+            - listitem [ref=f1e19]:
+              - link "Privacy & Cookies Statement" [ref=f1e20] [cursor=pointer]:
+                - /url: https://kaboodle.com/privacy-cookies
+            - listitem [ref=f1e21]:
+              - link "FAQs" [ref=f1e22] [cursor=pointer]:
+                - /url: https://intercom.help/kaboodle-aa007ade71ac/en
+        - img "Secure Tickets from Authorised Retailers" [ref=f1e23]
+  - dialog "Cookie consent dialog" [ref=f1e219]:
+    - generic [ref=f1e220]:
+      - button "Close" [ref=f1e223] [cursor=pointer]: ×
+      - generic [ref=f1e224]:
+        - generic [ref=f1e225]:
+          - generic [ref=f1e226]: This website uses cookies
+          - generic [ref=f1e227]:
+            - text: This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.
+            - link "Read more, opens a new window" [ref=f1e228] [cursor=pointer]:
+              - /url: https://kaboodle.com/privacy-cookies
+              - text: Read more
+          - button "Show details" [ref=f1e229]
+        - generic [ref=f1e235]:
+          - button "Accept all" [ref=f1e236] [cursor=pointer]
+          - button "Decline all" [ref=f1e237] [cursor=pointer]
