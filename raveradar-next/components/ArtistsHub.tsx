@@ -76,8 +76,13 @@ export default function ArtistsHub({ lang }: { lang: Lang }) {
   /* A CC BY photo may be reused *provided* the author and licence travel with it,
      that is the condition, not a footnote. A 42 px avatar has no room for a credit
      line, so the page carries them all here, once, for the portraits it shows. */
+  /* A logo is not in that list: it carries no reuse licence to honour, it identifies
+     its own owner, and the owner's name sits right next to the thumbnail. Listing it
+     here would print "name, name," with an empty licence. Its credit belongs on the
+     artist page, where it is shown large. */
   const credits = ARTISTS.map((a) => ARTIST_PHOTOS[a.slug] && { name: a.name, ...ARTIST_PHOTOS[a.slug]! })
-    .filter((c): c is { name: string; file: string; author: string; license: string; page: string } => Boolean(c))
+    .filter((c): c is { name: string; file: string; author: string; license: string; page: string } =>
+      Boolean(c) && !c!.logo)
     .sort((x, y) => x.name.localeCompare(y.name));
 
   const intro =
