@@ -5038,7 +5038,7 @@ const TICKETS: Record<number, string> = {
   1460: "https://www.skiddle.com/whats-on/London/Basing-House/dnb-family-Winter-Session/42700736/?sktag=15816",
   1461: "https://www.skiddle.com/whats-on/Liverpool/Invisible-Wind-Factory/Modern-Funktion-Liverpool----Locklead-Mella-Dee-Reeshy--More/42703590/?sktag=15816",
   1464: "https://www.skiddle.com/whats-on/Aberdeen/Unit-51/FLY--sim0ne---Aberdeen/42517639/?sktag=15816",
-  1466: "https://www.skiddle.com/whats-on/London/Brockwell-Park/TEST-City-Splash-Festival-2023/36368167/?sktag=15816",
+  1466: "https://bookings.kaboodle.com/tickets?t=kaboodle-9y4i4&c=89&p=27303&k=5273d6eb79a7d857b76d172539b947cc38c07ddd",
   1467: "https://www.skiddle.com/whats-on/Liverpool/Camp-And-Furnace/All-Day-Classic-House/42641065/?sktag=15816",
   1468: "https://shotgun.live/en/events/core-w-hrtz-void-0b5kr",
   1469: "https://shotgun.live/en/events/brse-28-10-120",
