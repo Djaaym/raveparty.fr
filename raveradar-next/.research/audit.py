@@ -17,6 +17,11 @@ Sort en 1 dès qu'une anomalie est trouvée.
 """
 import os, re, sys, unicodedata
 
+# Même règle que dans `merge.py` : les motifs d'annonce de test vivent dans le module
+# partagé des collecteurs, pas recopiés ici.
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "sources"))
+from common import is_test_listing
+
 # Un artiste du catalogue s'appelle littéralement « [IVY] ». Un `\[(.*?)\]` non gourmand
 # s'arrête donc sur SON crochet et tronque le line-up : les noms qui suivent
 # disparaissent de l'index, sans erreur ni message. On ne reconnaît que des chaînes
@@ -121,6 +126,12 @@ for e in ev:
     # seconde, le laisser aller au build en coûte dix minutes.
     if not slugify(e.get("title", "")):
         bad.append(f'{tag}: titre sans une seule lettre, slug impossible')
+    # Une annonce de test laissée en ligne par un promoteur : `merge.py` la refuse
+    # désormais à l'entrée, mais le catalogue en porte une entrée par le temps où il ne
+    # le faisait pas (« TEST City Splash Festival »), et un lot déjà fusionné ne repasse
+    # pas par la porte. Le dire ici, c'est la retrouver sans relire 2 300 titres à l'œil.
+    if is_test_listing(e.get("title", "")):
+        bad.append(f'{tag}: titre d\'annonce de test, fiche à reprendre ou à retirer')
     if c == "France" and not e.get("region"):
         bad.append(f'{tag}: événement FR sans region (département)')
     s = slugify(e.get("title", ""))

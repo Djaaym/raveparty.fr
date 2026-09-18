@@ -209,6 +209,56 @@ def tidy_title(name: str) -> str:
     return re.sub(r"\s{2,}", " ", t).strip(" -–|")
 
 
+# Un promoteur laisse traîner sur sa billetterie l'annonce qui lui a servi à tester sa
+# caisse, et le collecteur la prend pour une date. C'est arrivé avec « TEST City Splash
+# Festival 2023 », publiée sur Skiddle puis fusionnée telle quelle : elle est entrée au
+# catalogue avec le 1er janvier 2027 pour date, 1 £ pour tarif et « Drum & Bass » pour
+# genre, sur un line-up de 89 noms de reggae et de dancehall. Chacun de ces champs est
+# un bouchon de test, et **aucun n'est invraisemblable pris isolément**, donc ni la
+# validation de `merge.py` ni `audit.py` n'avaient de prise : une date au 1er janvier
+# est une date, 1 £ est un prix. Ce qui trahit la fiche, c'est son titre, et lui seul.
+#
+# Les motifs se testent donc sur des **mots entiers**, même règle qu'`isMultiVenueLabel()`
+# côté site : « test » est une sous-chaîne de « Contest », « Protest » et « Greatest », et
+# le Protest Festival existe. `\btest\b` seul reste trop large pour un titre de soirée
+# (un « Sound Test » est un nom de fête plausible), d'où l'ancrage en tête de titre, là où
+# une billetterie préfixe son annonce de test, plus les formules qui ne peuvent rien
+# désigner d'autre.
+# Le premier jet ancrait « test » en tête de titre sans regarder la casse, et il a
+# immédiatement écarté « Test Dept + Bruise Blood », groupe industriel britannique bien
+# réel et bien programmé. La casse est ce qui sépare les deux : une billetterie préfixe
+# son annonce de test en capitales (« TEST City Splash Festival »), un nom de groupe
+# s'écrit en casse de titre. Le motif de tête est donc **sensible à la casse**, et les
+# formules qui ne peuvent rien désigner d'autre restent insensibles.
+TEST_LISTING = [
+    re.compile(r"^\s*TEST\b"),                              # « TEST City Splash Festival »
+    re.compile(r"\btest\s+(event|booking|product|ticket)", re.I),
+    re.compile(r"\bdo\s*not\s+(book|use|buy)\b", re.I),
+    re.compile(r"\b(dummy|placeholder)\s+(event|listing)\b", re.I),
+    re.compile(r"\bplease\s+ignore\b", re.I),
+]
+
+# Un vrai nom qui contient le mot, et qu'aucune forme du motif ne doit emporter. Se
+# complète au cas par cas, comme `CITY_FIX` ou `COUNTRY_FIX` : écarter un événement réel
+# coûte plus cher que laisser passer une annonce de test, que l'audit signale de toute
+# façon. « Test Dept » est un groupe industriel écossais, programmé au catalogue.
+NOT_TEST = re.compile(r"^\s*test\s+dept\b", re.I)
+
+
+def is_test_listing(title: str) -> bool:
+    """Le titre est-il celui d'une annonce de test laissée en ligne par un promoteur ?
+
+    Rendre True, c'est écarter la fiche : une annonce de test n'a ni date ni tarif réels,
+    et la publier, c'est envoyer un lecteur sur une caisse qui ne vend rien. Comme partout
+    ailleurs dans le dépôt, on écarte sur une preuve dans la donnée et jamais sur une
+    impression, et le rapport de fusion nomme ce qui a été refusé.
+    """
+    t = unicodedata.normalize("NFKC", title or "")
+    if NOT_TEST.search(t):
+        return False
+    return any(p.search(t) for p in TEST_LISTING)
+
+
 def drop_edition_year(title: str, date: str) -> str:
     """Retire du titre l'année qui n'est qu'un **marqueur d'édition**.
 

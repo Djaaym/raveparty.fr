@@ -3,6 +3,7 @@
 
   python3 .research/merge.py --dry     report only
   python3 .research/merge.py           write
+  python3 .research/merge.py --rejects liste tous les refus, pas les 15 premiers
 
 Dedupes on (normalised title, year) against what's already in data.ts and
 across the input files. `note` containing "indicatif"/"non vérifié" becomes
@@ -13,6 +14,11 @@ from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "lib", "data.ts")
+# `is_test_listing()` vit dans le module que les collecteurs partagent déjà : une seconde
+# copie de la liste de motifs divergerait de la première à la premiere correction, et
+# c'est ici qu'elle doit mordre, au point de passage obligé de tous les lots.
+sys.path.insert(0, os.path.join(HERE, "sources"))
+from common import is_test_listing
 DRY = "--dry" in sys.argv
 
 def norm(s):
@@ -139,6 +145,8 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
         e["type"] = TYPE_FIX.get(e["type"], e["type"])
         if e["type"] not in TYPES:
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
+        if is_test_listing(e["title"]):
+            rejected.append((fn, e["title"], "annonce de test d'un promoteur")); continue
         if (e.get("endDate") or e["date"]) < "2026-09-10":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
@@ -210,6 +218,11 @@ print("countries:", dict(Counter(e["country"] for e in rows).most_common()))
 print("months:", dict(sorted(Counter(e["date"][:7] for e in rows).items())))
 print(f"duplicates skipped: {len(skipped)} | rejected: {len(rejected)}")
 for r in rejected[:15]: print("   REJECT", r)
+# Le rapport ne montre que les quinze premiers refus, ce qui suffit à voir qu'un lot part
+# de travers mais pas à retrouver une fiche précise : c'est en cherchant « TEST City
+# Splash » dans 267 refus qu'il a manqué. `--rejects` les déroule tous.
+if "--rejects" in sys.argv:
+    for r in rejected: print("   REJECT", r)
 
 if DRY or not rows:
     print("\n(dry run, data.ts untouched)" if DRY else "\nnothing to merge")
