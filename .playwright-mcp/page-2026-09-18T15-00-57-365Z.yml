@@ -1,0 +1,24 @@
+- generic [ref=f1e2]:
+  - img "Client logo" [ref=f1e5]
+  - main [ref=f1e6]:
+    - img "Loading..." [ref=f1e8]
+    - generic [ref=f1e9]:
+      - generic:
+        - paragraph
+  - contentinfo [ref=f1e10]:
+    - generic [ref=f1e11]:
+      - generic [ref=f1e12]:
+        - generic [ref=f1e13]: Powered By
+        - img "Powered By" [ref=f1e14]
+      - navigation [ref=f1e15]:
+        - list [ref=f1e16]:
+          - listitem [ref=f1e17]:
+            - link "Kaboodle Terms and Conditions" [ref=f1e18] [cursor=pointer]:
+              - /url: https://dye1vg6h1p5m0.cloudfront.net/KB/terms/terms_and_conditions.pdf
+          - listitem [ref=f1e19]:
+            - link "Privacy & Cookies Statement" [ref=f1e20] [cursor=pointer]:
+              - /url: https://kaboodle.com/privacy-cookies
+          - listitem [ref=f1e21]:
+            - link "FAQs" [ref=f1e22] [cursor=pointer]:
+              - /url: https://intercom.help/kaboodle-aa007ade71ac/en
+      - img "Secure Tickets from Authorised Retailers" [ref=f1e23]
