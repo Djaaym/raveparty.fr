@@ -76,6 +76,12 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
   // Le titre était tronqué à « … Bellaire & Dimitri », l'affiche du Warehouse de
   // Nantes porte « Dimitri from Paris ». Corriger le titre déplace le slug.
   "club-de-jour-invite-bellaire-dimitri": { base: "event", slug: "club-de-jour-invite-bellaire-dimitri-from-paris" },
+  /* « TEST City Splash Festival » était l'annonce de test que l'organisateur avait
+     laissée en ligne sur Skiddle, prise pour une vraie date par le collecteur : elle a
+     apporté le 1er janvier 2027, 1 £ et l'affiche 2023. La fiche est reprise sur
+     l'édition 2027 réelle (lundi 31 mai, Brockwell Park), donc le titre perd son
+     préfixe et le slug bouge. L'URL était indexée, d'où le 301. */
+  "test-city-splash-festival": { base: "festival", slug: "city-splash" },
 };
 
 /**
@@ -167,4 +173,101 @@ export const RENAMED_ARTIST_SLUGS: Record<string, string | null> = {
   "paul-van-dyk-b2b-aly-fila": null, // Paul van Dyk b2b Aly & Fila
   "saoirse-b2b-leon-vynehall": null, // Saoirse b2b Leon Vynehall
   "schwesta-p-b2b-olivia-lensen": null, // Schwesta P B2B Olivia Lensen
+
+  /* Les 86 noms ci-dessous étaient l'affiche de **City Splash 2023**, recopiée par
+     l'organisateur dans l'annonce de test que le collecteur a prise pour une date (voir
+     `is_test_listing()` dans `.research/sources/common.py`). La fiche est reprise sur
+     l'édition 2027 réelle, dont l'affiche n'est pas annoncée : republier celle de 2023
+     serait l'affiche périmée que la règle de rafraîchissement interdit. Ces artistes
+     n'ont aucune autre date au catalogue, donc leur fiche disparaît avec le line-up.
+     `null` et non une cible : aucun d'eux ne succède à un autre, et l'annuaire est
+     moins précis qu'une fiche mais infiniment mieux qu'un 404. Les trois qui restent
+     (General Levy, Nia Archives, Tash LC) jouent ailleurs et gardent la leur, et ce
+     sont précisément les noms jungle / drum & bass. */
+  "aaa": null, // AAA
+  "akabu": null, // Akabu
+  "ayra-starr": null, // Ayra Starr
+  "baile-funk-culture": null, // Baile Funk Culture
+  "big-zeeks": null, // Big Zeeks
+  "binghidan": null, // Binghidan
+  "blvk-h3ro": null, // Blvk H3ro
+  "bucky-jo": null, // Bucky Jo
+  "buzzrock": null, // Buzzrock
+  "carisoul-vibes-band": null, // Carisoul Vibes Band
+  "carla-genus": null, // Carla Genus
+  "cashh": null, // Cashh
+  "channel-one": null, // Channel One
+  "chronixx": null, // Chronixx
+  "dankie-sounds": null, // Dankie Sounds
+  "dj-english-fire": null, // DJ English Fire
+  "dj-bad-anju-dnd": null, // DJ Bad Anju (DnD)
+  "dj-densen": null, // DJ Densen
+  "dj-larni": null, // DJ Larni
+  "dj-nate": null, // DJ Nate
+  "dj-pioneer": null, // DJ Pioneer
+  "donae": null, // Donae
+  "donovan-kingjay": null, // Donovan Kingjay
+  "droop-lion": null, // Droop Lion
+  "dubwise-jamaica": null, // Dubwise Jamaica
+  "elladhc": null, // ELLADHC
+  "footsie": null, // Footsie
+  "gyakie": null, // Gyakie
+  "iration-steppas": null, // Iration Steppas
+  "izco": null, // IZCO
+  "izzy-bossy": null, // IZZY BOSSY
+  "jah-model": null, // Jah Model
+  "jah-revelation-muzik": null, // Jah Revelation Muzik
+  "jah-youth": null, // Jah Youth
+  "jah9": null, // Jah9
+  "janelle-wynter": null, // Janelle Wynter
+  "jordss": null, // Jordss
+  "juls": null, // Juls
+  "king-original-sound": null, // King Original Sound
+  "koffee": null, // Koffee
+  "kyla": null, // Kyla
+  "london-the-plug": null, // London The Plug
+  "lutan-fyah": null, // Lutan Fyah
+  "m2k": null, // M2K
+  "max-romeo": null, // Max Romeo
+  "maxwell-d": null, // Maxwell D
+  "mercedes-benson": null, // Mercedes Benson
+  "mixmaster-j": null, // Mixmaster J
+  "monikah-lee": null, // Monikah Lee
+  "more-fire-crew": null, // More Fire Crew
+  "mothaland": null, // Mothaland
+  "naomi-cowan": null, // Naomi Cowan
+  "nassen": null, // Nassen
+  "navy": null, // Navy
+  "neptizzle": null, // Neptizzle
+  "outernational-coxone": null, // Outernational Coxone
+  "p-honey": null, // P Honey
+  "rachel-anson": null, // Rachel Anson
+  "ramon-judah": null, // RAMON JUDAH
+  "rampage-sound": null, // Rampage Sound
+  "ras-kwame": null, // Ras Kwame
+  "rebel-clash": null, // Rebel Clash
+  "rompas-reggae-shack": null, // Rompas Reggae Shack
+  "runkus": null, // Runkus
+  "sattamann": null, // Sattamann
+  "saxon-sound": null, // Saxon Sound
+  "seani-b": null, // Seani B
+  "sese-foster": null, // Sese Foster
+  "set-good": null, // Set Good
+  "shabba-djs": null, // Shabba DJs
+  "shayna-marie": null, // Shayna Marie
+  "shenseea": null, // Shenseea
+  "sir-dj-corey": null, // Sir DJ Corey
+  "sir-spyro": null, // Sir Spyro
+  "sisters-in-dub": null, // Sisters In Dub
+  "skillibeng": null, // Skillibeng
+  "skylaa-tylaa": null, // Skylaa Tylaa
+  "snb-sound": null, // SNB Sound
+  "stylo-g": null, // Stylo G
+  "suns-of-dub": null, // Suns Of Dub
+  "supa-d": null, // SUPA D
+  "the-twinkle-brothers": null, // The Twinkle Brothers
+  "toddla-t": null, // Toddla T
+  "tuggzy": null, // Tuggzy
+  "uncle-waffles": null, // Uncle Waffles
+  "vivian-jones": null, // Vivian Jones
 };

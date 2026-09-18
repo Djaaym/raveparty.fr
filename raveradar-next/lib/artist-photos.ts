@@ -112,7 +112,6 @@ export const ARTIST_PHOTOS: Record<string, ArtistPhoto> = {
   "axwell": { file: "axwell.webp", author: "Jazmin Million", license: "CC BY-SA 2.0", page: "https://commons.wikimedia.org/wiki/File:DJ_Axwell_-_Melbourn_Central_2007.jpg" },
   "ayah-marar": { file: "ayah-marar.webp", author: "Photographer.JuliaMustard", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Ayah_Marar_at_SXSW_London_2026.jpg" },
   "b-front": { file: "b-front.webp", author: "Q-Dance", license: "CC BY 3.0", page: "https://commons.wikimedia.org/wiki/File:B-Front_at_Defqon.1_2016.png" },
-  "baile-funk-culture": { file: "baile-funk-culture.webp", author: "Baile Funk Culture", license: "", page: "", logo: true },
   "basement-jaxx": { file: "basement-jaxx.webp", author: "Tore Sætre", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Basement_Jaxx_(205218).jpg" },
   "benga": { file: "benga.webp", author: "Stuart Sevastos", license: "CC BY 2.0", page: "https://commons.wikimedia.org/wiki/File:Benga_%40_Wellington_Square.jpg" },
   "benny-benassi": { file: "benny-benassi.webp", author: "Benny Benassi", license: "CC BY-SA 4.0", page: "https://commons.wikimedia.org/wiki/File:Bennyvegas.jpg" },
