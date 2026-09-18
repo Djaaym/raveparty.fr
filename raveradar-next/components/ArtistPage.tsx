@@ -113,7 +113,10 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                       /* eslint-disable-next-line @next/next/no-img-element */
                       <img
                         src={`/artists/${photo.file}`}
-                        alt={t("artist.photoalt").replace("{name}", artist.name)}
+                        alt={t(photo.logo ? "artist.logoalt" : "artist.photoalt").replace(
+                          "{name}",
+                          artist.name,
+                        )}
                         width={400}
                         height={400}
                         loading="eager"
@@ -221,7 +224,19 @@ export default function ArtistPage({ lang, slug }: { lang: Lang; slug: string })
                     disparaissait avec elles). */}
                 {photo && (
                   <p className="artist-credits">
-                    {t(source ? "artist.photocredit" : "artist.photocreditnolink")
+                    {/* Un logo n'a pas de licence de réutilisation à citer : il identifie
+                        son propriétaire, et c'est lui qu'on nomme. Écrire « portrait par »
+                        sous une marque serait le crédit faux que `photoSource()` existe
+                        déjà pour éviter. */}
+                    {t(
+                      photo.logo
+                        ? source
+                          ? "artist.logocredit"
+                          : "artist.logocreditnolink"
+                        : source
+                          ? "artist.photocredit"
+                          : "artist.photocreditnolink",
+                    )
                       .replace("{author}", photo.author)
                       .replace("{license}", photo.license)}
                     {source && (

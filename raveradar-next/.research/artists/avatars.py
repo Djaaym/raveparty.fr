@@ -16,6 +16,11 @@ Trois façons d'apporter un portrait, toutes vers Commons et nulle part ailleurs
   ceux qui n'ont pas de bio. C'est ce qui débloque le plus de portraits : le lien est
   fait par l'identifiant MusicBrainz, donc sans risque d'homonyme.
 
+`.research/artists/local/` est la quatrième route, la seule qui sorte de Commons, et la
+seule qui accepte autre chose qu'un portrait : une entrée `"kind": "logo"` y publie la
+marque d'un artiste, posée entière dans le carré au lieu d'être recadrée sur un visage
+qu'elle n'a pas. Voir le README de ce répertoire.
+
 Seules les licences libres passent : CC0, domaine public, CC BY, CC BY-SA. Un « NC »
 ou un « ND » est refusé, un annuaire est un usage qu'elles n'autorisent pas.
 
@@ -66,6 +71,21 @@ ELECTRONIC = re.compile(
 GROUP_DESC = re.compile(r"\b(band|duo|trio|quartet|group|collective|project)\b", re.I)
 
 SIZE = 400          # affiché en 160-200 px, donc net en écran 2×
+# Un logo n'est pas un portrait, et le pipeline entier suppose un portrait : il cadre
+# sur un visage, refuse une source trop petite et mesure une netteté. Appliqué à une
+# marque, chacun de ces gestes est faux - le carré coupe un mot (« BAILE » perd son B
+# et son E), la netteté d'un aplat ne veut rien dire, et une image vectorielle rendue
+# en 255 px n'est pas « trop petite », elle est plate. Un logo se pose donc **entier**
+# dans le carré (contain), sur le fond du site, au lieu d'être recadré (cover).
+# Toutes les vignettes du site sont **rondes** (`border-radius: 50%` sur `.aphero-ring`,
+# `.artcard-photo`, `.lf-av`, `.artist-tile .av`) : un carré de côté c ne tient dans son
+# cercle inscrit qu'à c/√2 ≈ 0,71. En dessous de cette part, les angles du logo sont
+# rognés par le cercle - d'où la marge, prise en dessous.
+LOGO_FIT = 0.66     # part du côté qu'occupe le logo, cercle inscrit compris
+# Le fond du carré est peint en noir, pas dans une couleur du site : duotone() le
+# ramène alors exactement sur l'ombre que reçoit le point le plus sombre de n'importe
+# quel portrait, donc le logo s'assoit sur le même fond que ses voisins de grille.
+LOGO_BG = (0, 0, 0)
 MIN_SRC = 320       # en dessous, l'upscale se voit
 CROP_BIAS = 0.34    # repli quand aucun visage n'est détecté (le visage n'est pas au centre)
 # Le détecteur de visages. Il vivait dans un répertoire temporaire de session - donc
@@ -526,6 +546,27 @@ def box_around(img: Image.Image, faces: list, room: float):
     return [left, top, side]
 
 
+def logo_square(img: Image.Image) -> Image.Image:
+    """Le logo entier, centré dans le carré, sur le fond du site.
+
+    On part de la **boîte englobante des pixels opaques** et non du fichier : un logo
+    exporté avec des marges dissymétriques se retrouverait décentré dans un rond où
+    tout se voit. Le fond est peint, pas laissé transparent, parce que la vignette est
+    servie en WebP opaque comme les portraits et qu'`object-fit: cover` n'a alors rien
+    à compléter.
+    """
+    img = img.convert("RGBA")
+    box = img.split()[3].getbbox() or (0, 0, *img.size)
+    mark = img.crop(box)
+    side = int(SIZE * LOGO_FIT)
+    scale = min(side / mark.width, side / mark.height)
+    mark = mark.resize((max(1, round(mark.width * scale)), max(1, round(mark.height * scale))),
+                       Image.LANCZOS)
+    out = Image.new("RGBA", (SIZE, SIZE), (*LOGO_BG, 255))
+    out.alpha_composite(mark, ((SIZE - mark.width) // 2, (SIZE - mark.height) // 2))
+    return out.convert("RGB")
+
+
 def square(img: Image.Image, box=None) -> Image.Image:
     w, h = img.size
     if box:
@@ -549,7 +590,9 @@ def write_module(out_map: dict) -> None:
 
     lines = [
         f'  "{k}": {{ file: "{esc(v["file"])}", author: "{esc(v["author"])}", '
-        f'license: "{esc(v["license"])}", page: "{esc(v["page"])}" }},'
+        f'license: "{esc(v["license"])}", page: "{esc(v["page"])}"'
+        + (", logo: true" if v.get("logo") else "")
+        + ' },'
         for k, v in sorted(out_map.items())
     ]
     block = "export const ARTIST_PHOTOS: Record<string, ArtistPhoto> = {\n" + "\n".join(lines) + "\n};"
@@ -717,20 +760,33 @@ def try_candidate(slug: str, c: dict, groups: set, seen_hash: dict, args):
     """
     url, author, lic, page = c["url"], c["author"], c["license"], c["page"]
     local = c.get("via") == "fourni"
+    # Un logo ne peut venir que du dépôt manuel : personne ne décide à la place du
+    # déposant qu'une marque trouvée en ligne est réutilisable.
+    logo = local and c.get("kind") == "logo"
     if not local and not url.startswith("https://upload.wikimedia.org/"):
         return None, "hors Wikimedia Commons"
-    if not (author and lic and page):
+    # Une photo se publie sous une licence, et la licence se vérifie sur une page :
+    # les trois champs sont la condition d'affichage. Un logo ne se publie pas sous
+    # licence, il identifie son propriétaire, et c'est **lui** qu'il faut nommer : on
+    # exige donc l'auteur, et rien de plus.
+    if logo:
+        if not author:
+            return None, "logo sans propriétaire nommé → crédit impossible"
+    elif not (author and lic and page):
         return None, "auteur ou licence manquant → réutilisation non conforme"
     try:
         raw = (LOCAL / url).read_bytes() if local else source_bytes(url, args.force)
-        img = ImageOps.exif_transpose(Image.open(io.BytesIO(raw))).convert("RGB")
+        img = ImageOps.exif_transpose(Image.open(io.BytesIO(raw)))
+        img = img if logo else img.convert("RGB")
     except Exception as e:
         return None, f"{'lecture' if local else 'téléchargement'}/décodage : {str(e)[:60]}"
-    if min(img.size) < MIN_SRC:
+    # `MIN_SRC` dit « en dessous, l'upscale se voit ». C'est vrai d'une photo, pas d'un
+    # aplat à deux couleurs, qui n'a pas de grain à étirer.
+    if not logo and min(img.size) < MIN_SRC:
         return None, f"trop petite ({img.size[0]}×{img.size[1]})"
 
     box = None
-    if cv2 is not None and slug not in MASKED:
+    if cv2 is not None and not logo and slug not in MASKED:
         # Sur un fichier **fourni**, la question « qui est sur la photo » est déjà
         # tranchée par celui qui l'a déposé : les garde-fous d'identité (deux visages
         # comparables, aucun visage) n'ont plus rien à arbitrer, et refuser la photo de
@@ -744,18 +800,27 @@ def try_candidate(slug: str, c: dict, groups: set, seen_hash: dict, args):
     if h in seen_hash and seen_hash[h] != slug:
         return None, f"même image que {seen_hash[h]}, probable erreur d'identification"
 
-    src, box = upscale_source(img, box, c, args.force)
-    crop = square(src, box)
-    sharp = sharpness(crop)
-    if cv2 is not None and not local and sharp < MIN_SHARP:
-        return None, f"carré final trop flou (netteté {sharp:.0f} < {MIN_SHARP})"
+    if logo:
+        src, crop, sharp = img, logo_square(img), 0.0
+    else:
+        src, box = upscale_source(img, box, c, args.force)
+        crop = square(src, box)
+        sharp = sharpness(crop)
+        # La netteté mesure la variance d'un laplacien : sur un aplat elle vaut zéro,
+        # et un logo net serait refusé par la mesure qui protège les photos floues.
+        if cv2 is not None and not local and sharp < MIN_SHARP:
+            return None, f"carré final trop flou (netteté {sharp:.0f} < {MIN_SHARP})"
     seen_hash[h] = slug
 
     if not args.dry:
         duotone(crop).save(OUT / f"{slug}.webp", "WEBP", quality=86, method=6)
-    print(f"  ✓ {c['name']:30} {src.size[0]}×{src.size[1]} carré {box[2] if box else '-'} "
-          f"netteté {sharp:.0f} [{c.get('via', '?')}] → {slug}.webp")
-    return {"file": f"{slug}.webp", "author": author, "license": lic, "page": page}, None
+    print(f"  ✓ {c['name']:30} {src.size[0]}×{src.size[1]} "
+          f"{'logo' if logo else f'carré {box[2] if box else chr(45)} netteté {sharp:.0f}'} "
+          f"[{c.get('via', '?')}] → {slug}.webp")
+    out = {"file": f"{slug}.webp", "author": author, "license": lic, "page": page}
+    if logo:
+        out["logo"] = True
+    return out, None
 
 
 def main() -> int:
@@ -830,6 +895,7 @@ def main() -> int:
                 continue
             add(slug, {"name": r.get("name") or slug, "url": f, "orig": "", "bytes": 0,
                        "w": 0, "cats": [], "via": "fourni",
+                       "kind": (r.get("kind") or "").strip(),
                        "author": (r.get("author") or "").strip(),
                        "license": (r.get("license") or "").strip(),
                        "page": (r.get("page") or r.get("source") or "").strip()})
