@@ -6,6 +6,7 @@ import { EVENTS, eventPath } from "@/lib/data";
 import { editPatch, type EventEdit } from "@/lib/event-edits";
 import { deleteEdit, listEdits } from "@/lib/event-edits-store";
 import { geocode } from "@/lib/geocode";
+import { countsAll, dropInterest } from "@/lib/interest-store";
 import { publicAccount, type AccountStatus } from "@/lib/accounts";
 import {
   deleteAccount, deleteSubmission, getAccount, getSubmission,
@@ -41,8 +42,9 @@ export async function GET(req: Request) {
   if (no) return no;
 
   try {
-    const [accounts, submissions, store, edits] = await Promise.all([
+    const [accounts, submissions, store, edits, interest] = await Promise.all([
       listAccounts(), listAllSubmissions(), ping(), listEdits().catch(() => [] as EventEdit[]),
+      countsAll().catch(() => ({}) as Record<number, number>),
     ]);
     // Le nombre de dépôts par compte est affiché à côté du bouton de suppression : on le
     // compte ici plutôt que dans la page, la suppression étant en cascade.
@@ -67,6 +69,26 @@ export async function GET(req: Request) {
           path: EVENTS.find((x) => x.id === e.id) ? eventPath(EVENTS.find((x) => x.id === e.id)!) : null,
           patch: editPatch(e),
         })),
+        /* Le classement par intérêt, la seule vue qui réponde à « qu'est-ce que les gens
+           veulent voir ». Les libellés sont résolus ici pour la même raison que le chemin
+           d'une correction : la console est un composant client et n'a pas le droit
+           d'importer le catalogue. Un id que `lib/data.ts` ne porte plus est **gardé** et
+           montré sans titre, c'est celui-là qu'il faut voir pour l'élaguer, exactement la
+           règle des maps indexées par id. */
+        interest: Object.entries(interest)
+          .map(([id, n]) => {
+            const e = EVENTS.find((x) => x.id === Number(id));
+            return {
+              id: Number(id),
+              n,
+              title: e?.title ?? null,
+              city: e?.city ?? null,
+              date: e?.date ?? null,
+              path: e ? eventPath(e) : null,
+            };
+          })
+          .sort((a, b) => b.n - a.n || a.id - b.id)
+          .slice(0, 200),
       },
       { headers: { "cache-control": "no-store" } },
     );
@@ -182,6 +204,18 @@ export async function POST(req: Request) {
       await deleteEdit(id);
       const e = EVENTS.find((x) => x.id === id);
       if (e) for (const path of [eventPath(e), `/en${eventPath(e)}`]) revalidatePath(path);
+      return NextResponse.json({ ok: true });
+    }
+
+    if (body.kind === "interest" && action === "delete") {
+      /* L'élagage d'un événement disparu du catalogue : les fanions posés dessus restent
+         sinon dans le magasin et dans le classement, à pointer sur un id mort. C'est la
+         règle des maps `IMAGES` / `PHOTOS` / `TICKETS`, appliquée ici, et le seul geste
+         destructeur que la console ait sur cette donnée, un fanion se retire depuis la
+         fiche par son propriétaire. */
+      const id = Number(body.id);
+      if (!Number.isInteger(id) || id <= 0) return NextResponse.json({ error: "invalid" }, { status: 400 });
+      await dropInterest(id);
       return NextResponse.json({ ok: true });
     }
 

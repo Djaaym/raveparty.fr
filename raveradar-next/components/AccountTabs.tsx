@@ -50,6 +50,29 @@ export default function AccountTabs({ lang, events }: { lang: Lang; events: Card
     return () => window.removeEventListener("favs", sync);
   }, []);
 
+  /* Les fanions du compte, tous appareils confondus. Ils s'**ajoutent** à ceux du
+     navigateur, ils ne les remplacent pas : quelqu'un qui a marqué des dates avant de se
+     connecter ne doit pas les voir disparaître en ouvrant sa page de compte, et un fanion
+     posé sur un autre appareil doit apparaître ici. L'appel n'a lieu qu'une fois la
+     session connue, donc jamais pour un visiteur anonyme, qui a déjà toute sa liste. */
+  useEffect(() => {
+    if (!account) return;
+    let alive = true;
+    void fetch("/api/interest?mine=1")
+      .then((r) => (r.ok ? r.json() : { ids: [] }))
+      .then((j: { ids?: number[] }) => {
+        if (alive && Array.isArray(j.ids) && j.ids.length) {
+          setFavIds((cur) => [...new Set([...cur, ...j.ids!])]);
+        }
+      })
+      .catch(() => {
+        /* Le magasin qui ne répond pas ne doit pas vider la page : la liste locale reste. */
+      });
+    return () => {
+      alive = false;
+    };
+  }, [account]);
+
   const favs = events.filter((e) => favIds.includes(e.id));
   /* Les onglets dépendent de la session, donc l'onglet actif aussi : un promoteur
      connecté arrive sur ses dépôts, un visiteur sur ses favoris. `tab` reste `null`
