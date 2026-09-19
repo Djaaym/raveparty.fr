@@ -72,22 +72,48 @@ effacer la mesure le lendemain reviendrait à jeter la seule donnée que la fonc
 produit. L'élagage d'un id que le catalogue ne porte plus est un geste d'entretien,
 depuis `/admin`, comme pour les maps `IMAGES` / `PHOTOS` / `TICKETS`.
 
-## Où le chiffre s'affiche, et où il ne s'affiche pas
+## Où le chiffre s'affiche
 
-Sur la **fiche événement**, à côté du fanion. Il y arrive **en props, lu au rendu**, et
-la lecture est mise en cache par tag (`countsAll()`) : le build génère plus de mille
-fiches d'affilée et n'y fait qu'un seul aller-retour Redis, exactement le motif
-d'`allEdits()`.
+**Partout où il y a un fanion**, donc sur chaque carte de chaque grille comme sur la
+fiche : la home, `/explore`, `/map`, les pages ville, genre, lieu, artiste, pays et
+organisateur.
 
-**Pas sur les cartes des grilles.** Le fanion est monté sur chaque carte de chaque grille
-du site : un appel au compteur par carte ferait des dizaines de requêtes sur la page
-d'accueil, et les faire côté serveur voudrait dire passer le chiffre à travers
-`cardEvent()`, donc toucher une vingtaine de pages pour un nombre décoratif.
+**Une seule lecture par page, et aucune requête navigateur.** La table est lue **au rendu
+du layout racine** (`countsForPages()`) et distribuée par contexte React
+(`components/InterestCounts.tsx`). La lecture est mise en cache par tag (`countsAll()`),
+donc un build de vingt et un mille pages fait **un seul** aller-retour Redis, exactement
+le motif d'`allEdits()`.
+
+C'est ce qui rend l'affichage possible partout. Un appel par carte aurait fait des
+dizaines de requêtes sur la page d'accueil ; passer le chiffre en prop aurait voulu dire
+le faire traverser `cardEvent()` et une vingtaine de pages, et n'aurait de toute façon
+pas marché pour `/explore` et `/map`, qui rendent leurs cartes côté client.
+
+**Le fournisseur est un vrai composant, jamais `Ctx.Provider` ré-exporté.** Un layout est
+un composant serveur : ce qu'il importe d'un module `"use client"` traverse la frontière
+sous forme de référence client, et un objet `Context.Provider` n'en est pas une. React
+reçoit alors une promesse au lieu d'un composant et l'hydratation meurt sur « Element type
+is invalid », **après** avoir rendu un HTML parfaitement correct. La page arrive complète
+puis se vide : `curl` la voit juste, et seul un navigateur poussé jusqu'à l'hydratation
+l'attrape. Défaut payé ici.
+
+**Un compteur à zéro n'affiche rien**, pas un « 0 ». Une pastille à zéro sur toutes les
+cartes d'une grille n'informe personne, elle annonce juste que personne ne veut y aller :
+c'est la pilule de ville qui promet une date inexistante, prise par l'autre bout.
+Corollaire à connaître : **au premier déploiement, aucun chiffre n'apparaît**, et c'est
+normal, la table est vide tant que personne n'a cliqué.
+
+**La table est bornée** (`CAP`, 1 500 lignes). Elle voyage dans la charge utile de chaque
+page et ne porte que les événements ayant au moins un fanion, donc elle est vide au départ
+et grandit avec l'usage réel. Sans borne, le jour où tout le catalogue serait marqué, on
+ajouterait une vingtaine de kilo-octets à la page dont le LCP compte le plus. Les plus
+petits compteurs sont coupés en premier, ce sont ceux qui apportent le moins.
 
 **Le cache n'est pas invalidé à chaque clic**, contrairement à une correction de fiche.
 Invalider ferait régénérer une page statique pour faire passer un nombre de 11 à 12. Les
 cinq minutes de `revalidate` suffisent, et la fenêtre réelle est de toute façon celle du
-`revalidate = 3600` des layouts.
+`revalidate = 3600` des layouts. Le compteur de la carte qu'on vient de cliquer, lui,
+bouge tout de suite : la route renvoie le compte exact avec sa réponse.
 
 ## Le rappel J-7
 
@@ -159,8 +185,9 @@ n'est pas publique.
 - **Le panneau ne se rouvre pas** une fois une adresse connue de ce navigateur. Un
   formulaire qui revient à chaque clic est un formulaire qu'on apprend à fermer sans
   lire.
-- **Le compteur ne s'affiche pas là où il faudrait une requête pour l'obtenir.** Une
-  grille en rend jusqu'à vingt-quatre.
+- **Le compteur ne se lit qu'au rendu, jamais par une requête du navigateur.** Une grille
+  en rend jusqu'à vingt-quatre.
 - **Le compteur global se réécrit, il ne s'incrémente pas.**
+- **Zéro ne s'affiche pas.**
 - **La route de rappel reste fermée sans `CRON_SECRET`.** Pas de repli permissif : il
   s'oublierait.
