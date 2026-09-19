@@ -8,12 +8,12 @@ import type { CardEvent, Lang } from "@/lib/types";
 import { countryLabel, isPast, lastDay } from "@/lib/display";
 import { fmtDate, imageAlt, priceLabel } from "@/lib/format";
 import { getDict, langPrefix } from "@/lib/i18n";
-import FavButton from "./FavButton";
+import InterestFlag from "./InterestFlag";
 
 /**
  * Deliberately not a client component: a listing renders 24+ of these, and shipping
  * framer-motion plus a router hook per card was the bulk of the JS on every hub page.
- * The hover lift lives in CSS (`.card:hover`) and only the heart stays interactive.
+ * The hover lift lives in CSS (`.card:hover`) and only the interest flag stays interactive.
  *
  * The card used to be a `<div onClick={router.push}>`, which meant no crawler ever saw
  * the link, and neither did a keyboard or a middle click. The title now carries a real
@@ -42,11 +42,11 @@ export default function EventCard({
   return (
     <article className={`card${done ? " is-past" : ""}`}>
       <span className="card-genre-bar" />
-      {/* The heart is a sibling of the link, never a descendant: an interactive element
-          inside an <a> is invalid and swallows the click. */}
+      {/* Le fanion est un frère du lien, jamais un descendant : un élément interactif
+          dans une ancre est invalide et avale le clic. */}
       <div className="card-top">
         <span className={`tag ${done ? "past" : "type"}`}>{done ? t("event.pastbadge") : e.type}</span>
-        <FavButton id={e.id} />
+        <InterestFlag id={e.id} lang={lang} />
       </div>
       <Link className="card-link" href={to}>
         <div className="card-media">

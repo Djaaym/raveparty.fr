@@ -1,6 +1,7 @@
 import { alternates, eventMetaDesc, pageMeta } from "@/lib/seo";
 import { applyEdit } from "@/lib/event-edits";
 import { editFor } from "@/lib/event-edits-store";
+import { countFor } from "@/lib/interest-store";
 
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -35,5 +36,5 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function Page({ params }: { params: { slug: string } }) {
   const base = EVENTS.find((x) => eventSlug(x) === params.slug);
   if (!base) return notFound();
-  return <EventDetail e={applyEdit(base, await editFor(base.id))} lang="fr" />;
+  return <EventDetail e={applyEdit(base, await editFor(base.id))} lang="fr" interest={await countFor(base.id)} />;
 }

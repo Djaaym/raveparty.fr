@@ -24,7 +24,7 @@ import { editedFields, type EventEdit } from "@/lib/event-edits";
  * l'endroit où un clic de trop coûte cher.
  */
 
-type Tab = "accounts" | "submissions" | "edits";
+type Tab = "accounts" | "submissions" | "edits" | "interest";
 
 interface Data {
   store: { configured: boolean; ok: boolean; detail: string };
@@ -35,6 +35,9 @@ interface Data {
    *  coller dans `lib/data.ts`. `path` est nul quand l'événement a quitté le catalogue,
    *  c'est le signe qu'il n'y a plus qu'à retirer la correction. */
   edits: (EventEdit & { path: string | null; patch: string })[];
+  /** Le classement par fanions « ça m'intéresse », le plus demandé d'abord. `title` est
+   *  nul quand l'id a quitté le catalogue : c'est la ligne à élaguer. */
+  interest: { id: number; n: number; title: string | null; city: string | null; date: string | null; path: string | null }[];
 }
 
 /* « Validé » laissait croire qu'un dépôt était en ligne, alors qu'il entre au catalogue
@@ -175,6 +178,7 @@ export default function AdminConsole() {
   const accounts = data?.accounts ?? [];
   const submissions = data?.submissions ?? [];
   const edits = data?.edits ?? [];
+  const interest = data?.interest ?? [];
   const pendingAccounts = accounts.filter((a) => a.status === "pending").length;
   const pendingSubs = submissions.filter((s) => s.status === "pending").length;
 
@@ -255,6 +259,10 @@ export default function AdminConsole() {
           className={`tab ${tab === "submissions" ? "on" : ""}`} onClick={() => setTab("submissions")}>
           Dépôts{pendingSubs ? ` (${pendingSubs} à relire)` : ""}
         </button>
+        <button type="button" role="tab" aria-selected={tab === "interest"}
+          className={`tab ${tab === "interest" ? "on" : ""}`} onClick={() => setTab("interest")}>
+          Intérêt{interest.length ? ` (${interest.length})` : ""}
+        </button>
         <button type="button" role="tab" aria-selected={tab === "edits"}
           className={`tab ${tab === "edits" ? "on" : ""}`} onClick={() => setTab("edits")}>
           Fiches corrigées{edits.length ? ` (${edits.length})` : ""}
@@ -325,6 +333,65 @@ export default function AdminConsole() {
             </li>
           ))}
         </ul>
+      )}
+
+      {tab === "interest" && (
+        <>
+          <div className="adm-pipeline">
+            <p className="adm-note">
+              Le nombre de personnes qui ont posé un fanion <b>« ça m&apos;intéresse »</b> sur
+              chaque date, tous navigateurs et comptes confondus, dédoublonné. C&apos;est la
+              seule mesure du site qui dise <b>ce que les gens veulent voir</b> plutôt que ce
+              qu&apos;ils ont vu : à lire avant de décider quoi mettre en avant, quelle
+              billetterie confirmer en priorité, et quelles dates valent un visuel soigné.
+              Ceux qui ont laissé une adresse reçoivent un rappel sept jours avant, envoyé
+              par <code>/api/interest/remind</code>, une fois par jour.
+            </p>
+          </div>
+          <ul className="adm-list">
+            {interest.length === 0 && (
+              <li className="adm-note">Aucun fanion posé pour l&apos;instant.</li>
+            )}
+            {interest.map((row) => (
+              <li className="adm-row" key={row.id}>
+                <div className="adm-main">
+                  <b>
+                    {row.n} · {row.title ?? `(id ${row.id}, hors catalogue)`}
+                  </b>
+                  {!row.title && <span className="adm-state s-rejected">hors catalogue</span>}
+                  <span className="adm-meta">
+                    id {row.id}
+                    {row.city ? ` · ${row.city}` : ""}
+                    {row.date ? ` · ${row.date}` : ""}
+                    {row.path && (
+                      <>
+                        {" · "}
+                        <a href={row.path} style={{ color: "var(--cyan)" }}>
+                          voir la fiche
+                        </a>
+                      </>
+                    )}
+                  </span>
+                </div>
+                {/* Élaguer n'est proposé que sur un id que le catalogue ne porte plus :
+                    effacer les fanions d'une date en ligne détruirait la mesure et les
+                    rappels promis, sans que personne ne l'ait demandé. */}
+                {!row.title && (
+                  <div className="adm-actions">
+                    <button
+                      type="button"
+                      className="btn btn-danger btn-sm"
+                      disabled={busy === `i${row.id}`}
+                      onClick={() => act({ kind: "interest", action: "delete", id: row.id }, `i${row.id}`)}
+                    >
+                      Élaguer
+                    </button>
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
       )}
 
       {tab === "edits" && (

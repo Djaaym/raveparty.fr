@@ -245,13 +245,27 @@ export async function sendMailDetailed(
   subject: string,
   text: string,
   attachments: MailAttachment[] = [],
+  /**
+   * Version HTML facultative, envoyée **en plus** du texte et jamais à sa place.
+   *
+   * Elle n'existe que pour le rappel J-7 (`lib/interest-mail.ts`), le seul message du
+   * site qui aille à un lecteur plutôt qu'au propriétaire : un mail tout en texte brut
+   * envoyé à quelqu'un qui a cliqué un fanion sur un site soigné passe pour un envoi
+   * automatique cassé. Les notifications internes, elles, restent en texte, il n'y a
+   * rien à habiller.
+   *
+   * Les trois transports acceptent un corps multipart, donc la version texte part
+   * toujours : c'est ce que lisent les clients en mode texte, les lecteurs d'écran et
+   * les filtres anti-spam, et un message qui n'a qu'une partie HTML se note mal.
+   */
+  html?: string,
 ): Promise<MailResult> {
   const from = senderAddress();
   if (!to) return { ok: false, detail: "aucun destinataire (ALERTS_NOTIFY_TO)" };
   if (!from) return { ok: false, detail: "aucun expéditeur (ALERTS_NOTIFY_FROM)" };
 
   try {
-    if (mailProvider() === "smtp") return await sendSmtp(from, to, subject, text, attachments);
+    if (mailProvider() === "smtp") return await sendSmtp(from, to, subject, text, attachments, html);
 
     if (process.env.RESEND_API_KEY) {
       const res = await fetch("https://api.resend.com/emails", {
@@ -259,6 +273,7 @@ export async function sendMailDetailed(
         headers: { authorization: `Bearer ${process.env.RESEND_API_KEY}`, "content-type": "application/json" },
         body: JSON.stringify({
           from, to: [to], subject, text,
+          ...(html ? { html } : {}),
           ...(attachments.length ? { attachments: attachments.map((a) => ({ filename: a.filename, content: a.content })) } : {}),
         }),
       });
@@ -271,6 +286,7 @@ export async function sendMailDetailed(
         headers: { "api-key": process.env.BREVO_API_KEY, "content-type": "application/json" },
         body: JSON.stringify({
           sender: { email: from }, to: [{ email: to }], subject, textContent: text,
+          ...(html ? { htmlContent: html } : {}),
           ...(attachments.length ? { attachment: attachments.map((a) => ({ name: a.filename, content: a.content })) } : {}),
         }),
       });
@@ -296,8 +312,9 @@ export async function sendMail(
   subject: string,
   text: string,
   attachments: MailAttachment[] = [],
+  html?: string,
 ): Promise<boolean> {
-  const res = await sendMailDetailed(to, subject, text, attachments);
+  const res = await sendMailDetailed(to, subject, text, attachments, html);
   if (!res.ok) console.error(`[mail] échec vers ${to} : ${res.detail}`);
   return res.ok;
 }
@@ -350,6 +367,7 @@ async function sendSmtp(
   subject: string,
   text: string,
   attachments: MailAttachment[],
+  html?: string,
 ): Promise<MailResult> {
   // Import dynamique : `nodemailer` est la seule dépendance serveur du projet, et rien
   // ne doit la charger quand le transport configuré est une API REST.
@@ -374,6 +392,7 @@ async function sendSmtp(
       to,
       subject,
       text,
+      ...(html ? { html } : {}),
       attachments: attachments.map((a) => ({ filename: a.filename, content: a.content, encoding: "base64" })),
     });
     // Un serveur peut accepter le message pour certains destinataires et pas pour

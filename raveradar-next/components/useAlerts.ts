@@ -62,6 +62,11 @@ export function useHasAlert(kind: AlertKind, value: string) {
   return on;
 }
 
-/** Remembers the address so a second alert doesn't mean typing it again. */
-export const readEmail = () => (typeof window === "undefined" ? "" : localStorage.getItem("raveradar:email") || "");
-export const rememberEmail = (email: string) => localStorage.setItem("raveradar:email", email);
+/**
+ * L'adresse retenue, pour qu'une seconde alerte ne demande pas de la retaper.
+ *
+ * Ré-exportée depuis `useFavorites`, pas recopiée : le fanion « ça m'intéresse » lit et
+ * écrit la même clé, et deux copies de la même règle divergent toujours. C'est là qu'est
+ * le garde-fou contre un stockage refusé (navigation privée), écrit une fois.
+ */
+export { readEmail, rememberEmail } from "./useFavorites";
