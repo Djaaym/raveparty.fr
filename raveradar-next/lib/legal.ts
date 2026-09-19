@@ -28,8 +28,15 @@ import type { Lang } from "./types";
 export type L = { fr: string; en: string };
 export const pickL = (v: L, lang: Lang) => (lang === "en" ? v.en : v.fr);
 
-/** Un bloc de page institutionnelle : un titre, puis des paragraphes. */
-export type LegalBlock = { h: L; p: L[] };
+/**
+ * Un bloc de page institutionnelle : un titre, puis des paragraphes.
+ *
+ * `id` pose une ancre sur la section, pour qu'une page du site puisse renvoyer
+ * exactement au paragraphe qui l'explique plutôt qu'en haut de la page : c'est ce que
+ * fait la mention « Lien partenaire » du bloc hôtel, qui tient en deux mots parce que
+ * l'explication complète est ici, à un clic et à l'ancre près.
+ */
+export type LegalBlock = { h: L; p: L[]; id?: string };
 
 /**
  * L'éditeur du site. Les valeurs par défaut sont celles qu'on peut affirmer sans
@@ -84,11 +91,16 @@ export function aboutBlocks(stats: { events: number; countries: number; cities: 
       ],
     },
     {
+      id: "affiliation",
       h: { fr: "Comment le site gagne de l'argent", en: "How the site makes money" },
       p: [
         {
-          fr: "Certains liens vers les billetteries sont des liens affiliés : si un billet est acheté après un clic depuis le site, nous touchons une commission, sans que le prix change pour l'acheteur. Ces liens portent l'attribut « sponsored » et le bloc hôtel affiche sa mention d'affiliation avant le clic, jamais en pied de page.",
-          en: "Some ticket links are affiliate links: if a ticket is bought after a click from the site we earn a commission, at no extra cost to the buyer. Those links carry the \"sponsored\" attribute, and the hotel block shows its affiliate disclosure before the click, never buried in the footer.",
+          fr: "Certains liens sortants sont des liens partenaires : si un billet est acheté ou une chambre réservée après un clic depuis le site, nous touchons une commission, sans que le prix change pour l'acheteur. C'est le cas de la recherche d'hôtels proposée sous la carte d'une fiche, signalée par la mention « Lien partenaire », et d'une partie des liens vers les billetteries.",
+          en: "Some outbound links are partner links: if a ticket is bought or a room booked after a click from the site we earn a commission, at no extra cost to the buyer. That covers the hotel search offered under the map on an event page, marked \"Partner link\", and some of the ticket links.",
+        },
+        {
+          fr: "Ces liens portent l'attribut « sponsored », comme les règles de Google sur les liens l'imposent, et la mention est posée au contact du lien, avant le clic, jamais seulement en pied de page. Aucun hôtel n'est sélectionné ni recommandé : le lien ouvre une recherche aux dates de l'événement, centrée sur la salle, classée par distance.",
+          en: "Those links carry the \"sponsored\" attribute, as Google's link policy requires, and the disclosure sits next to the link, before the click, never in the footer alone. No hotel is picked or recommended: the link opens a search for the dates of the event, centred on the venue, sorted by distance.",
         },
         {
           fr: "Le référencement d'un événement est gratuit et ne s'achète pas. Aucun organisateur ne paie pour figurer au catalogue, ni pour y figurer plus haut.",

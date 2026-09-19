@@ -2,7 +2,7 @@ import type { Lang, RaveEvent } from "@/lib/types";
 import { outboundRel } from "@/lib/display";
 import { fmtDate } from "@/lib/format";
 import { hotelStay } from "@/lib/hotels";
-import { getDict } from "@/lib/i18n";
+import { getDict, langPrefix } from "@/lib/i18n";
 
 /**
  * Le bloc « où dormir » d'une fiche événement.
@@ -22,8 +22,16 @@ import { getDict } from "@/lib/i18n";
  * - `rel="sponsored"`, comme le lien billetterie affilié. C'est un lien rémunéré,
  *   et un lien rémunéré non déclaré est une infraction aux règles de Google sur les
  *   liens, ce qu'un site dont toute la valeur est le SEO ne peut pas se permettre.
- * - la mention d'affiliation est **visible**, pas en pied de page : le lecteur doit
- *   savoir avant de cliquer que la réservation nous rapporte.
+ * - la mention d'affiliation est **au contact du lien**, pas en pied de page : le
+ *   lecteur doit savoir avant de cliquer que la réservation nous rapporte. Elle tient
+ *   en deux mots (« Lien partenaire ») et renvoie au paragraphe de `/a-propos` qui
+ *   l'explique en entier. La phrase complète a été posée sous le bouton pendant un
+ *   temps, elle disait « si tu réserves, Booking.com nous verse une commission » : elle
+ *   est honnête mais elle occupe quatre lignes sur chacune des deux mille fiches, juste
+ *   sous la seule action de la carte, et une explication de rémunération à cet endroit
+ *   se lit comme un avertissement. L'obligation porte sur le fait que le lecteur soit
+ *   informé avant le clic, pas sur la longueur : un libellé explicite, visible, cliquable
+ *   et suivi de l'explication complète la remplit, c'est la forme courante.
  * - `data-goal` en fait un objectif compté sur /suivi, à côté de « billetterie »,
  *   sinon la deuxième source de revenus du site n'a aucune ligne à elle.
  *
@@ -81,7 +89,9 @@ export default function HotelsCard({ e, lang, today }: { e: RaveEvent; lang: Lan
         {fill(key("cta"))}
       </a>
       <p className="hotel-note">
-        {t("hotel.disclosure").replace("{brand}", stay.brand || t("hotel.partner"))}
+        <a href={`${langPrefix(lang)}${lang === "en" ? "/about" : "/a-propos"}#affiliation`}>
+          {t("hotel.partnerlink")}
+        </a>
       </p>
     </div>
   );

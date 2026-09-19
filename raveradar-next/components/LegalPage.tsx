@@ -64,7 +64,7 @@ export default function LegalPage({
 
         <div className="prose" style={{ maxWidth: 760, marginTop: 40 }}>
           {blocks.map((b) => (
-            <section key={pickL(b.h, lang)} style={{ marginBottom: 36 }}>
+            <section key={pickL(b.h, lang)} id={b.id} style={{ marginBottom: 36, scrollMarginTop: 90 }}>
               <h2 className="h-md" style={{ fontSize: "1.25rem", marginBottom: 12 }}>
                 {pickL(b.h, lang)}
               </h2>
