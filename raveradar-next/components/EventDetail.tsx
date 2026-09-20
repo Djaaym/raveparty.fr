@@ -51,24 +51,7 @@ function placeFor(e: RaveEvent) {
   );
 }
 
-export default function EventDetail({
-  e,
-  lang,
-  interest,
-}: {
-  e: RaveEvent;
-  lang: Lang;
-  /**
-   * Combien de personnes ont posé un fanion sur cette date, lu **au rendu** par la route.
-   *
-   * Il arrive en props et jamais par un appel du navigateur : une fiche est une page
-   * statique, et il y en a des milliers. La lecture est mise en cache par tag
-   * (`countsAll()`), donc le build ne fait qu'un aller-retour Redis pour toutes.
-   * `undefined` quand le magasin n'est pas configuré ou n'a pas répondu, et le bouton
-   * n'affiche alors aucun chiffre : un compteur absent vaut mieux qu'un compteur faux.
-   */
-  interest?: number;
-}) {
+export default function EventDetail({ e, lang }: { e: RaveEvent; lang: Lang }) {
   const t = getDict(lang);
   const p = langPrefix(lang);
   const done = isPast(e);
@@ -395,7 +378,7 @@ export default function EventDetail({
               <div className="ticket-box">
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                   <span className="eyebrow">{t("event.tickets")}</span>
-                  <InterestFlag id={e.id} lang={lang} count={interest} />
+                  <InterestFlag id={e.id} lang={lang} />
                 </div>
                 <div className="h-lg" style={{ margin: "14px 0 4px" }}>
                   {priceLabel(e, lang)}

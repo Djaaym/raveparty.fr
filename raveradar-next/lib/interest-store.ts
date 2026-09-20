@@ -263,9 +263,24 @@ export async function countsAll(): Promise<Record<number, number>> {
   }
 }
 
-/** Le compte d'un seul événement, tiré de la même lecture mise en cache. */
-export async function countFor(id: number): Promise<number> {
-  return (await countsAll())[id] ?? 0;
+/**
+ * Le plafond de lignes servies aux pages. Voir l'en-tête de `components/InterestCounts.tsx` :
+ * la table voyage dans la charge utile de chaque page, et sans borne elle grandirait avec
+ * le catalogue entier. Les plus petits compteurs partent en premier, ce sont ceux qui
+ * apportent le moins comme preuve sociale.
+ */
+const CAP = 1500;
+
+/**
+ * Les compteurs tels que le layout les passe au contexte : les mêmes, bornés et triés.
+ *
+ * Le tri décroissant n'est pas cosmétique, c'est lui qui décide **qui** survit au plafond.
+ */
+export async function countsForPages(): Promise<Record<number, number>> {
+  const all = await countsAll();
+  const rows = Object.entries(all);
+  if (rows.length <= CAP) return all;
+  return Object.fromEntries(rows.sort((a, b) => b[1] - a[1]).slice(0, CAP));
 }
 
 /**

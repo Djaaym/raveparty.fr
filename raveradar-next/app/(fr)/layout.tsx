@@ -5,6 +5,8 @@ import Analytics from "@/components/Analytics";
 import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
 import ConsentBanner from "@/components/ConsentBanner";
+import { InterestCountsProvider } from "@/components/InterestCounts";
+import { countsForPages } from "@/lib/interest-store";
 import "../globals.css";
 
 /**
@@ -53,7 +55,17 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+/**
+ * Asynchrone pour une seule raison : lire les compteurs de fanions une fois par page.
+ *
+ * C'est le bon endroit et le seul. Le chiffre doit s'afficher sur chaque carte de chaque
+ * grille du site, y compris celles que `/explore` et `/map` rendent côté client, et
+ * `countsAll()` est mis en cache par tag, donc un build entier ne fait qu'un aller-retour
+ * Redis. Le mettre plus bas voudrait dire le faire traverser `cardEvent()` et une
+ * vingtaine de pages ; le laisser au navigateur ferait une requête par carte.
+ */
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const interest = await countsForPages();
   return (
     <html lang="fr" className={`${syne.variable} ${inter.variable} ${spaceMono.variable}`}>
       <head>
@@ -66,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <ImpactAffiliate />
-        {children}
+        <InterestCountsProvider value={interest}>{children}</InterestCountsProvider>
         <Analytics />
         {/* First-party collector feeding /suivi. Independent of GA4 above: GA counts,
             this one records what happened, see components/Tracker.tsx. */}

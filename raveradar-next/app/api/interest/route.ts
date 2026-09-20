@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { parseInterest } from "@/lib/interest";
-import { countFor, isConfigured, memoryOnlyAllowed, ownedBy, setInterest } from "@/lib/interest-store";
+import { isConfigured, memoryOnlyAllowed, ownedBy, setInterest } from "@/lib/interest-store";
 import { currentAccount } from "@/lib/promoter-session";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 
@@ -71,13 +71,13 @@ export async function POST(req: Request) {
 }
 
 /**
- * Le compte d'un événement, pour un bouton monté sur une page qui n'a pas reçu le
- * chiffre au rendu.
+ * Les fanions du compte connecté.
  *
- * Les fiches événement, elles, le reçoivent en props : elles sont statiques et le
- * chiffre y est lu une fois par régénération via `countsAll()`, jamais par un
- * aller-retour de navigateur. Ce GET est le repli, et il est mis en cache trente
- * secondes en amont pour qu'un rechargement insistant ne se paie pas en commandes Redis.
+ * **Il n'y a pas de lecture de compteur ici**, et c'est volontaire : toutes les pages
+ * reçoivent la table entière au rendu de leur layout (`countsForPages()`, distribuée par
+ * `components/InterestCounts.tsx`), donc aucun bouton n'a jamais besoin de demander son
+ * chiffre. Un point d'accès que plus rien n'appelle est un lien mort, même règle que les
+ * maps indexées par id : il a été retiré plutôt que gardé « au cas où ».
  */
 export async function GET(req: Request) {
   const params = new URL(req.url).searchParams;
@@ -98,10 +98,5 @@ export async function GET(req: Request) {
     );
   }
 
-  const id = Number(params.get("id"));
-  if (!Number.isInteger(id) || id <= 0) return NextResponse.json({ error: "invalid" }, { status: 400 });
-  return NextResponse.json(
-    { id, count: await countFor(id).catch(() => 0) },
-    { headers: { "cache-control": "public, s-maxage=30, stale-while-revalidate=300" } },
-  );
+  return NextResponse.json({ error: "invalid" }, { status: 400 });
 }

@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { Lang } from "@/lib/types";
 import { getDict } from "@/lib/i18n";
+import { useInterestCount } from "./InterestCounts";
 import { pushInterest, readEmail, rememberEmail, useFav } from "./useFavorites";
 
 /**
@@ -34,11 +35,12 @@ import { pushInterest, readEmail, rememberEmail, useFav } from "./useFavorites";
  * mesurée du bouton, et il se ferme au défilement plutôt que de suivre : un panneau qui
  * poursuit son bouton pendant qu'on fait défiler une grille est plus gênant qu'utile.
  *
- * **Le composant ne fait aucune requête au chargement.** Il est monté sur chaque carte de
- * chaque grille du site : un appel au compteur par carte ferait des dizaines de requêtes
- * par page d'accueil. Le chiffre arrive en props, lu une fois au rendu du serveur par la
- * page qui en veut un (voir `countsAll()`), et il n'est rafraîchi qu'après un clic, avec
- * la réponse que la route renvoie déjà.
+ * **Le composant ne fait aucune requête au chargement**, et c'est ce qui permet d'afficher
+ * le chiffre partout. Il est monté sur chaque carte de chaque grille du site : un appel au
+ * compteur par carte ferait des dizaines de requêtes sur la page d'accueil. La table est
+ * donc lue **une fois par page, au rendu du layout**, et distribuée par contexte (voir
+ * `components/InterestCounts.tsx`). Le chiffre n'est ensuite rafraîchi qu'après un clic,
+ * avec la réponse que la route renvoie déjà.
  */
 
 /**
@@ -66,17 +68,17 @@ function Pennant({ on }: { on: boolean }) {
 export default function InterestFlag({
   id,
   lang = "fr",
-  /** Le compte connu au rendu, quand la page a pu le lire. `undefined` = on n'affiche rien. */
-  count,
   className = "flag",
 }: {
   id: number;
   lang?: Lang;
-  count?: number;
   className?: string;
 }) {
   const { on, toggle } = useFav(id);
   const t = getDict(lang);
+  /* Le compte lu au rendu du layout, `undefined` quand cet événement n'a pas encore de
+     fanion : le bouton n'affiche alors rien plutôt qu'un « 0 ». */
+  const count = useInterestCount(id);
 
   const [n, setN] = useState<number | undefined>(count);
   const [ask, setAsk] = useState(false);

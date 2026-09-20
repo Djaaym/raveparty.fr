@@ -5,6 +5,8 @@ import Analytics from "@/components/Analytics";
 import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
 import ConsentBanner from "@/components/ConsentBanner";
+import { InterestCountsProvider } from "@/components/InterestCounts";
+import { countsForPages } from "@/lib/interest-store";
 import "../globals.css";
 
 /**
@@ -50,8 +52,12 @@ export const metadata: Metadata = {
  * The English tree gets its own root layout purely so the served HTML carries
  * `lang="en"`. A nested layout can't set the <html> element, and reading the
  * pathname on the server would force every page out of static rendering.
+ *
+ * Asynchrone pour une seule raison : lire les compteurs de fanions une fois par page.
+ * Voir le layout français, la règle et le calcul de coût sont les mêmes.
  */
-export default function EnLayout({ children }: { children: React.ReactNode }) {
+export default async function EnLayout({ children }: { children: React.ReactNode }) {
+  const interest = await countsForPages();
   return (
     <html lang="en" className={`${syne.variable} ${inter.variable} ${spaceMono.variable}`}>
       <head>
@@ -64,7 +70,7 @@ export default function EnLayout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <ImpactAffiliate />
-        {children}
+        <InterestCountsProvider value={interest}>{children}</InterestCountsProvider>
         <Analytics />
         {/* Same collector as the French tree, /suivi reports on both, split by `lang`. */}
         <Tracker />
