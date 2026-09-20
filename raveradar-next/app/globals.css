@@ -2466,6 +2466,15 @@ textarea.input { resize: vertical; min-height: 110px; font-family: inherit; }
 
    Le panneau est ancré haut et non centré : on tape, on lit la liste qui pousse
    vers le bas, et le champ ne bouge pas sous les doigts au clavier mobile.
+
+   `.navsearch` est `fixed` et doit être rendu **hors de `.nav`**, par le portail de
+   `NavSearch`. Un `backdrop-filter` fait de l'élément qui le porte le bloc conteneur
+   de tous ses descendants `fixed`, et `.nav` en porte un : monté dedans, l'`inset: 0`
+   se calait sur la barre (mesuré 1440 x 70 au lieu du viewport), le voile ne floutait
+   que la nav et la boîte, poussée par son `margin-top: 12vh` dans un conteneur flex de
+   70 px, s'effondrait à 2 px de haut, ses deux bordures. Le champ était rendu et
+   inatteignable. C'est la famille de l'`overflow: hidden` de `.hero` qui coupait déjà
+   ce menu : ce qui habille ne doit jamais contraindre ce qu'il habille.
 --------------------------------------------------------------------------- */
 .nav-search-btn {
   display: grid; place-items: center;

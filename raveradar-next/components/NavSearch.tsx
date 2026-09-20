@@ -1,5 +1,6 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import type { Lang, SuggestKind, Suggestion } from "@/lib/types";
 import { getDict, langPrefix } from "@/lib/i18n";
@@ -23,6 +24,19 @@ import { useSuggest } from "./useSuggest";
  * Le panneau est monté à la demande : tant que la loupe n'est pas cliquée, aucun état,
  * aucun écouteur, aucun appel. C'est ce qui rend acceptable de le poser sur toutes les
  * pages, y compris celle dont le LCP compte le plus.
+ *
+ * **Il est rendu dans un portail sur `<body>`, et ce n'est pas un détail de montage.**
+ * `.nav` porte `backdrop-filter`, ce qui en fait le bloc conteneur de tout
+ * `position: fixed` qu'elle contient : la surcouche `inset: 0` se calait donc sur la
+ * barre, mesurée à 1440 x 70 au lieu du viewport. Le voile ne floutait que la nav (ce
+ * qu'on voyait à l'écran), et la boîte, poussée par son `margin-top: 12vh` dans un
+ * conteneur flex de 70 px, s'effondrait à **2 px de haut**, ses deux bordures : le
+ * champ existait, il n'avait plus de boîte, et `elementFromPoint()` en son centre
+ * rendait un `DIV`. Même famille que l'`overflow: hidden` de `.hero` qui coupait ce
+ * menu et que celui de `<body>` qui tuait `sticky`, **ce qui habille ne doit jamais
+ * contraindre ce qu'il habille**, et un `fixed` sous un `backdrop-filter` se relit
+ * systématiquement. Le portail sort la surcouche de la nav sans rien changer au
+ * bouton, qui reste où il doit être.
  */
 const KIND_ICON: Record<SuggestKind, string> = {
   artist: "🎧", festival: "🎪", event: "🔊", city: "📍", venue: "🏛", promoter: "🎛", genre: "🎵", country: "🌍",
@@ -120,81 +134,83 @@ export default function NavSearch({ lang }: { lang: Lang }) {
         ⌕
       </button>
 
-      {open && (
-        <div className="navsearch" role="dialog" aria-modal="true" aria-label={t("omni.label")}>
-          {/* Le fond ferme au clic, comportement attendu d'une surcouche. `aria-hidden`
-              parce qu'il ne porte aucune information : la sortie clavier est Échap. */}
-          <div className="navsearch-veil" onClick={() => setOpen(false)} aria-hidden="true" />
-          <div className="navsearch-box">
-            <form className="navsearch-bar" onSubmit={submit} role="search">
-              <span aria-hidden="true">⌕</span>
-              <input
-                ref={inputRef}
-                value={q}
-                onChange={(e) => setQ(e.target.value)}
-                onKeyDown={onKey}
-                placeholder={t("omni.ph")}
-                aria-label={t("omni.label")}
-                role="combobox"
-                aria-expanded={items.length > 0}
-                aria-controls="navsearch-list"
-                aria-autocomplete="list"
-                aria-activedescendant={active >= 0 ? `navsearch-opt-${active}` : undefined}
-                autoComplete="off"
-                spellCheck={false}
-                enterKeyHint="search"
-              />
-              <button type="button" onClick={() => setOpen(false)} aria-label={t("omni.close")}>
-                ✕
-              </button>
-            </form>
-
-            {q.trim().length >= 2 && (
-              <div className="navsearch-list" id="navsearch-list" role="listbox">
-                {items.length === 0 ? (
-                  <div className="navsearch-empty">{busy ? t("omni.loading") : t("omni.none")}</div>
-                ) : (
-                  groups.map(([kind, rows]) => (
-                    <div key={kind}>
-                      <div className="navsearch-group">{t(`omni.kind.${kind}`)}</div>
-                      {rows.map(({ it, i }) => (
-                        <button
-                          type="button"
-                          key={it.h}
-                          id={`navsearch-opt-${i}`}
-                          role="option"
-                          aria-selected={i === active}
-                          className={`navsearch-row${i === active ? " on" : ""}`}
-                          onMouseEnter={() => setActive(i)}
-                          onClick={() => go(it.h)}
-                        >
-                          <span aria-hidden="true">{KIND_ICON[it.k]}</span>
-                          <span className="navsearch-name">{it.n}</span>
-                          {it.m && <span className="navsearch-hint">{it.m}</span>}
-                          {it.past && <span className="navsearch-past">{t("omni.past")}</span>}
-                        </button>
-                      ))}
-                    </div>
-                  ))
-                )}
-                {/* La sortie large quand aucune suggestion ne convient. Le libellé porte
-                    déjà le terme, via le gabarit `{q}` du dictionnaire. */}
-                <button
-                  type="button"
-                  className="navsearch-all"
-                  onClick={() => {
-                    const term = q.trim();
-                    setOpen(false);
-                    router.push(`${p}/explore${term ? `?q=${encodeURIComponent(term)}` : ""}`);
-                  }}
-                >
-                  {t("omni.all").replace("{q}", q.trim())}
+      {open &&
+        createPortal(
+          <div className="navsearch" role="dialog" aria-modal="true" aria-label={t("omni.label")}>
+            {/* Le fond ferme au clic, comportement attendu d'une surcouche. `aria-hidden`
+                parce qu'il ne porte aucune information : la sortie clavier est Échap. */}
+            <div className="navsearch-veil" onClick={() => setOpen(false)} aria-hidden="true" />
+            <div className="navsearch-box">
+              <form className="navsearch-bar" onSubmit={submit} role="search">
+                <span aria-hidden="true">⌕</span>
+                <input
+                  ref={inputRef}
+                  value={q}
+                  onChange={(e) => setQ(e.target.value)}
+                  onKeyDown={onKey}
+                  placeholder={t("omni.ph")}
+                  aria-label={t("omni.label")}
+                  role="combobox"
+                  aria-expanded={items.length > 0}
+                  aria-controls="navsearch-list"
+                  aria-autocomplete="list"
+                  aria-activedescendant={active >= 0 ? `navsearch-opt-${active}` : undefined}
+                  autoComplete="off"
+                  spellCheck={false}
+                  enterKeyHint="search"
+                />
+                <button type="button" onClick={() => setOpen(false)} aria-label={t("omni.close")}>
+                  ✕
                 </button>
-              </div>
-            )}
-          </div>
-        </div>
-      )}
+              </form>
+
+              {q.trim().length >= 2 && (
+                <div className="navsearch-list" id="navsearch-list" role="listbox">
+                  {items.length === 0 ? (
+                    <div className="navsearch-empty">{busy ? t("omni.loading") : t("omni.none")}</div>
+                  ) : (
+                    groups.map(([kind, rows]) => (
+                      <div key={kind}>
+                        <div className="navsearch-group">{t(`omni.kind.${kind}`)}</div>
+                        {rows.map(({ it, i }) => (
+                          <button
+                            type="button"
+                            key={it.h}
+                            id={`navsearch-opt-${i}`}
+                            role="option"
+                            aria-selected={i === active}
+                            className={`navsearch-row${i === active ? " on" : ""}`}
+                            onMouseEnter={() => setActive(i)}
+                            onClick={() => go(it.h)}
+                          >
+                            <span aria-hidden="true">{KIND_ICON[it.k]}</span>
+                            <span className="navsearch-name">{it.n}</span>
+                            {it.m && <span className="navsearch-hint">{it.m}</span>}
+                            {it.past && <span className="navsearch-past">{t("omni.past")}</span>}
+                          </button>
+                        ))}
+                      </div>
+                    ))
+                  )}
+                  {/* La sortie large quand aucune suggestion ne convient. Le libellé porte
+                      déjà le terme, via le gabarit `{q}` du dictionnaire. */}
+                  <button
+                    type="button"
+                    className="navsearch-all"
+                    onClick={() => {
+                      const term = q.trim();
+                      setOpen(false);
+                      router.push(`${p}/explore${term ? `?q=${encodeURIComponent(term)}` : ""}`);
+                    }}
+                  >
+                    {t("omni.all").replace("{q}", q.trim())}
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>,
+          document.body,
+        )}
     </>
   );
 }
