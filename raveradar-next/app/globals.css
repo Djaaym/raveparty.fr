@@ -960,7 +960,13 @@ select.input option { background: var(--anthracite); }
    dans la colonne de droite et davantage sur un téléphone. Le texte cède, jamais la
    boîte. */
 .hotel-cta { margin-top: 2px; white-space: normal; line-height: 1.25; padding-block: 13px; }
-.hotel-note { margin-top: 12px; font-size: .76rem; color: var(--grey-2); max-width: 62ch; }
+/* La mention d'affiliation, réduite à deux mots au contact du bouton (l'explication
+   complète vit sur /a-propos#affiliation). Discrète mais jamais invisible : un lien
+   souligné en pointillé se lit comme une note, pas comme un avertissement, et reste
+   cliquable, ce qui est la condition pour que la mention courte suffise. */
+.hotel-note { margin-top: 10px; font-size: .72rem; color: var(--grey-2); }
+.hotel-note a { color: inherit; text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 3px; }
+.hotel-note a:hover { color: var(--white); }
 @media (max-width: 520px) { .hotel-facts { grid-template-columns: 1fr; } }
 /* Dans la colonne de droite, le bloc n'est plus une section de contenu mais le second
    appel à l'action, à la largeur de la billetterie : les trois repères passent en lignes

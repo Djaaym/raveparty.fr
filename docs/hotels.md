@@ -168,9 +168,17 @@ n'a rien à faire dans les données structurées lues par Google.
    infraction aux règles de Google sur les liens, ce qu'un site dont toute la valeur
    est le SEO ne peut pas se permettre. Même raison que `ticketRel()` dans
    `lib/data.ts`.
-2. **La mention d'affiliation est visible**, dans le bloc, pas en pied de page. Le
-   lecteur doit savoir **avant** de cliquer que la réservation nous rapporte, et que
-   ça ne change pas son prix.
+2. **La mention d'affiliation est au contact du lien**, pas en pied de page seulement.
+   Le lecteur doit savoir **avant** de cliquer que la réservation nous rapporte. Elle
+   tient en deux mots, « Lien partenaire » (`hotel.partnerlink`), souligné en pointillé
+   sous le bouton, et **c'est un lien** : il ouvre `/a-propos#affiliation`, où le
+   paragraphe « Comment le site gagne de l'argent » dit la commission, le prix inchangé
+   et le fait qu'aucun hôtel n'est sélectionné. La phrase entière était posée là avant,
+   elle prenait quatre lignes juste sous la seule action de la carte et se lisait comme
+   un avertissement. Raccourcir n'est défendable que parce que l'explication est à un
+   clic : **ne jamais retirer le lien, l'ancre ou le paragraphe** sans remettre la
+   phrase. Le rappel J-7, lui, garde la sienne en entier, un mail n'a pas de page à
+   côté de lui.
 3. **`data-goal="hotel"`.** Le clic devient un objectif compté sur `/suivi`, à côté de
    « billetterie ». Sans ça, la deuxième source de revenus du site n'aurait aucune
    ligne à elle et se perdrait au milieu des clics sortants.
