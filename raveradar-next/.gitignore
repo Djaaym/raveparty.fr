@@ -17,3 +17,8 @@ __pycache__/
 # Cache de géocodage de `.research/from-submissions.py` : des coordonnées déjà
 # publiques, remises à zéro sans conséquence, et un fichier qui grossit tout seul.
 .research/.geocache.json
+
+# Aperçus de `npm run mail:preview` : rendus à la demande depuis les gabarits, avec le
+# catalogue du jour. Les versionner ferait vieillir dans le dépôt une copie d'un message
+# que le code rend déjà, la règle des maps indexées par un id qui n'existe plus.
+.mail-preview/

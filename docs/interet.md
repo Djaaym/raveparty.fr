@@ -160,6 +160,12 @@ Les trois transports du site (SMTP, Resend, Brevo) acceptent une partie HTML ; e
 mal chez les filtres, et la version texte est ce que lisent les clients en mode texte et
 les lecteurs d'écran.
 
+La mise en page ne vit pas ici : le rappel décrit ses blocs et `lib/mail-template.ts` en
+rend les deux versions, comme les messages du circuit promoteur (**`docs/mails.md`**). Il
+avait son propre HTML au départ, donc sa propre en-tête et son propre pied de page : un
+lecteur qui recevait un rappel puis une validation voyait deux expéditeurs différents.
+`npm run mail:preview j7` le rend sur un vrai événement du catalogue, sans rien envoyer.
+
 ## Mise en route
 
 | Variable | Rôle | Sans elle |

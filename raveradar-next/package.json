@@ -13,7 +13,8 @@
     "check:titles": "node scripts/check-titles.mjs",
     "check:rel": "node scripts/check-rel.mjs",
     "gen:version": "node scripts/catalog-version.mjs",
-    "check:hotels": "node scripts/check-hotels.mjs"
+    "check:hotels": "node scripts/check-hotels.mjs",
+    "mail:preview": "node scripts/mail-preview.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.24.0",

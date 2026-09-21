@@ -1,6 +1,7 @@
 import { getAccount, getSubmission, saveAccount, saveSubmission } from "@/lib/accounts-store";
 import { actionTokenOk } from "@/lib/promoter-auth";
 import { sendMail } from "@/lib/subscribers";
+import { accountDecisionMail, submissionDecisionMail } from "@/lib/promoter-mail";
 import { geocode } from "@/lib/geocode";
 import { SITE_URL } from "@/lib/site";
 
@@ -56,20 +57,8 @@ async function decideAccount(email: string, action: "approve" | "reject", token:
     return page("Échec de l'écriture", "Le magasin n'a pas répondu, réessaie dans un instant.", false);
   }
 
-  const fr = account.lang !== "en";
-  const told = await sendMail(
-    account.email,
-    action === "approve"
-      ? fr ? "Ton compte promoteur RaveRadar est validé" : "Your RaveRadar promoter account is approved"
-      : fr ? "Ta demande de compte promoteur RaveRadar" : "Your RaveRadar promoter account request",
-    action === "approve"
-      ? fr
-        ? `Bonjour ${account.contact},\n\nLe compte de ${account.name} est validé. Tu peux déposer tes événements ici :\n${SITE_URL}/organizer\n\nChaque dépôt est relu avant publication : dates, line-up, lieu et tarif sont vérifiés, c'est la règle du catalogue et elle vaut pour tout le monde.\n\nÀ bientôt,\nRaveRadar`
-        : `Hi ${account.contact},\n\n${account.name} is approved. You can submit your events here:\n${SITE_URL}/en/organizer\n\nEvery submission is reviewed before publication: dates, line-up, venue and price are checked. That rule applies to everyone.\n\nSee you,\nRaveRadar`
-      : fr
-        ? `Bonjour ${account.contact},\n\nOn ne peut pas valider le compte de ${account.name} pour le moment. Si tu penses que c'est une erreur, réponds à ce message avec un lien vers vos événements passés.\n\nRaveRadar`
-        : `Hi ${account.contact},\n\nWe can't approve ${account.name} at the moment. If you think that's a mistake, reply to this message with a link to your past events.\n\nRaveRadar`,
-  ).catch(() => false);
+  const mail = accountDecisionMail(account, action);
+  const told = await sendMail(account.email, mail.subject, mail.text, [], mail.html).catch(() => false);
 
   return page(
     action === "approve" ? "Compte approuvé" : "Compte refusé",
@@ -113,19 +102,12 @@ async function decideSubmission(id: string, action: "publish" | "reject", token:
     return page("Échec de l'écriture", "Le magasin n'a pas répondu, réessaie dans un instant.", false);
   }
 
-  const fr = sub.lang !== "en";
-  const to = sub.contactEmail || sub.owner;
-  const told = await sendMail(
-    to,
-    fr ? `RaveRadar, ${sub.title}` : `RaveRadar, ${sub.title}`,
-    action === "publish"
-      ? fr
-        ? `Bonne nouvelle : « ${sub.title} » est en ligne sur RaveRadar.\n\n${SITE_URL}/explore?q=${encodeURIComponent(sub.title)}\n\nUn détail à corriger ? Réponds à ce message.\n\nRaveRadar`
-        : `Good news: "${sub.title}" is live on RaveRadar.\n\n${SITE_URL}/en/explore?q=${encodeURIComponent(sub.title)}\n\nSomething to fix? Just reply.\n\nRaveRadar`
-      : fr
-        ? `« ${sub.title} » n'a pas pu être publié en l'état. Il manque le plus souvent une source vérifiable (page officielle, billetterie) ou une information confirmée. Réponds à ce message avec le lien et on reprend le dossier.\n\nRaveRadar`
-        : `"${sub.title}" couldn't be published as is. Usually a verifiable source (official page, ticketing) or a confirmed detail is missing. Reply with the link and we'll pick it up again.\n\nRaveRadar`,
-  ).catch(() => false);
+  const mail = submissionDecisionMail(sub, action);
+  // Le contact de la fiche d'abord : c'est l'adresse que le promoteur a désignée pour
+  // cet événement. À défaut, celle du compte, qui existe toujours.
+  const told = await sendMail(sub.contactEmail || sub.owner, mail.subject, mail.text, [], mail.html).catch(
+    () => false,
+  );
 
   // Le dépôt marqué « publié » ne met rien en ligne tout seul : le catalogue est un
   // fichier TypeScript, et la fiche y entre par `.research/merge.py` comme les autres.
@@ -152,21 +134,51 @@ const label = (s: string) =>
 const escapeHtml = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string);
 
+/**
+ * La page qu'on voit après avoir cliqué dans le mail.
+ *
+ * Elle est la suite du message, pas une réponse technique : un lien de décision pris
+ * depuis un téléphone rend une page, donc elle porte la même marque que le mail qui l'a
+ * envoyée (barre dégradée, carte anthracite, accent vert ou magenta selon l'issue).
+ * Styles en ligne dans un `<style>` à elle, cette route ne passe pas par le layout du
+ * site et n'a donc pas `globals.css` : les valeurs sont recopiées, comme dans
+ * `lib/mail-template.ts` et pour la même raison.
+ */
 function page(title: string, detail: string, ok: boolean) {
+  const accent = ok ? "#C6FF3D" : "#FF2D9B";
   const html = `<!doctype html><html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
+<meta name="color-scheme" content="dark">
 <title>${escapeHtml(title)} - RaveRadar</title>
 <style>
+ :root{--line:#23252F;--grey:#A7A9B8}
+ *{box-sizing:border-box}
  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#050608;color:#F3F3F8;
-      font:16px/1.55 system-ui,sans-serif;padding:24px}
- .box{max-width:520px;border:1px solid #23252F;border-radius:24px;padding:32px;background:#12131B}
- h1{font-size:1.4rem;margin:0 0 12px;color:${ok ? "#C6FF3D" : "#FF2D9B"}}
- p{color:#A7A9B8;margin:0 0 20px}
- a{color:#19E7FF}
-</style></head><body><div class="box">
- <h1>${escapeHtml(title)}</h1><p>${detail}</p>
- <a href="${SITE_URL}/">Retour sur RaveRadar</a>
+      font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;padding:24px}
+ .wrap{width:100%;max-width:520px}
+ .brand{display:flex;align-items:center;gap:10px;margin:0 0 16px;padding-left:4px}
+ .brand img{width:30px;height:30px;border-radius:8px;display:block}
+ .brand span{font-size:19px;font-weight:700;letter-spacing:-.01em}
+ .bar{height:4px;border-radius:4px 4px 0 0;
+      background:linear-gradient(90deg,#2F7BFF 0%,#8B5CFF 50%,#FF2D9B 100%)}
+ .box{border:1px solid var(--line);border-top:none;border-radius:0 0 20px 20px;padding:30px 26px;background:#12131B}
+ .kicker{margin:0 0 8px;font:11px/1 ui-monospace,'Courier New',monospace;letter-spacing:.16em;
+         text-transform:uppercase;color:${accent}}
+ h1{font-size:1.45rem;line-height:1.25;margin:0 0 12px}
+ p{color:var(--grey);margin:0 0 22px}
+ a.cta{display:inline-block;padding:12px 22px;border-radius:999px;border:1px solid var(--line);
+       background:#181A24;color:#F3F3F8;text-decoration:none;font-weight:700;font-size:.95rem}
+ .foot{margin:18px 4px 0;font-size:.78rem;color:#7D7F8E}
+</style></head><body><div class="wrap">
+ <div class="brand"><img src="${SITE_URL}/icon-96.png" alt="" width="30" height="30"><span>RaveRadar</span></div>
+ <div class="bar"></div>
+ <div class="box">
+  <p class="kicker">${ok ? "C'est fait" : "Rien n'a changé"}</p>
+  <h1>${escapeHtml(title)}</h1><p>${detail}</p>
+  <a class="cta" href="${SITE_URL}/admin">Ouvrir la console</a>
+ </div>
+ <p class="foot">Page privée, atteinte depuis un lien signé. Elle n'est indexée nulle part.</p>
 </div></body></html>`;
   return new Response(html, {
     status: ok ? 200 : 400,

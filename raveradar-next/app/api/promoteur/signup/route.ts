@@ -4,6 +4,7 @@ import { createAccount, isConfigured, memoryOnlyAllowed, saveAccount } from "@/l
 import { actionToken, hashPassword, issueSession, SESSION_SECONDS } from "@/lib/promoter-auth";
 import { sessionCookies, withCookies } from "@/lib/promoter-session";
 import { notifyOwner, ownerAddress } from "@/lib/subscribers";
+import { signupRequestMail } from "@/lib/promoter-mail";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 import { SITE_URL } from "@/lib/site";
 
@@ -86,33 +87,15 @@ async function sendReviewRequest(a: PromoterAccount): Promise<boolean> {
   const link = (action: "approve" | "reject") =>
     `${SITE_URL}/api/promoteur/approve?e=${encodeURIComponent(a.email)}&a=${action}&t=${actionToken(a.email, action)}`;
 
-  const lines = [
-    "Nouvelle demande de compte promoteur.",
-    "",
-    `Structure   : ${a.name} (${a.kind})`,
-    `Contact     : ${a.contact} <${a.email}>`,
-    `Téléphone   : ${a.phone || "non renseigné"}`,
-    `Basé à      : ${a.city}, ${a.country}`,
-    `Site        : ${a.website || "non renseigné"}`,
-    `Instagram   : ${a.instagram ? "@" + a.instagram : "non renseigné"}`,
-    `SoundCloud  : ${a.soundcloud ? "@" + a.soundcloud : "non renseigné"}`,
-    `Identifiant : ${a.legalId || "non renseigné"}`,
-    "",
-    "Présentation :",
-    a.about,
-    "",
-    "----",
-    `Approuver : ${link("approve")}`,
-    `Refuser   : ${link("reject")}`,
-  ];
+  const mail = signupRequestMail(a, { yes: link("approve"), no: link("reject") });
 
-  const sent = await notifyOwner(`RaveRadar, demande de compte : ${a.name}`, lines.join("\n"));
+  const sent = await notifyOwner(mail.subject, mail.text, [], mail.html);
   if (!sent) {
     // Le compte existe quand même, il attend simplement une décision prise à la main.
-    // Le journal serveur est alors la seule trace, autant qu'elle soit complète.
+    // Le journal serveur est alors la seule trace, autant qu'elle soit complète : c'est
+    // la version texte qu'on y écrit, elle porte les deux liens signés.
     console.error(
-      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), demande en attente :\n` +
-        lines.join("\n"),
+      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), demande en attente :\n` + mail.text,
     );
   }
   return sent;

@@ -3,6 +3,7 @@ import { eventPath, ticketUrl } from "./data";
 import { countryLabel, eventVenueL, lastDay } from "./display";
 import { fmtDate, priceLabel } from "./format";
 import { hotelStay } from "./hotels";
+import { escapeMail, renderMail, type MailBlock } from "./mail-template";
 import { SITE_URL } from "./site";
 
 /**
@@ -44,6 +45,7 @@ export interface ReminderMail {
 const T = {
   fr: {
     subj: (title: string) => `J-7 : ${title}`,
+    kicker: "Dans une semaine",
     hello: "Tu avais marqué cet événement comme intéressant sur RaveRadar. Il a lieu dans une semaine.",
     when: "Quand",
     where: "Où",
@@ -62,6 +64,7 @@ const T = {
   },
   en: {
     subj: (title: string) => `One week to go: ${title}`,
+    kicker: "One week to go",
     hello: "You flagged this event as interesting on RaveRadar. It happens in a week.",
     when: "When",
     where: "Where",
@@ -80,9 +83,6 @@ const T = {
   },
 } as const;
 
-const esc = (s: string) =>
-  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-
 /** Le lien de la fiche, absolu et marqué, dans la langue du fanion. */
 function pageUrl(e: RaveEvent, lang: Lang): string {
   const prefix = lang === "en" ? "/en" : "";
@@ -93,6 +93,12 @@ function pageUrl(e: RaveEvent, lang: Lang): string {
  * Construit le message. `today` est un paramètre pour la même raison que partout
  * ailleurs dans le dépôt : l'appelant fixe son jour de référence une fois et tous ses
  * calculs s'accordent, ici la recherche d'hôtels comme la date affichée.
+ *
+ * La mise en page vient de `lib/mail-template.ts`, comme les messages du circuit
+ * promoteur : ce mail avait son propre HTML, donc sa propre en-tête et son propre pied
+ * de page, et un lecteur qui recevait un rappel puis une validation voyait deux
+ * expéditeurs différents. La version texte sort de la même structure, elle ne peut plus
+ * vieillir à part.
  */
 export function reminderMail(e: RaveEvent, lang: Lang, today: string): ReminderMail {
   const t = T[lang];
@@ -103,59 +109,54 @@ export function reminderMail(e: RaveEvent, lang: Lang, today: string): ReminderM
   const tickets = ticketUrl(e);
   const stay = hotelStay(e, lang, today);
 
-  /* Le deux-points prend une espace avant en français et rien en anglais. Écrire
-     « When : Saturday » dans la version anglaise est la même faute que la virgule après
-     le jour de semaine en en-GB, déjà payée dans `lib/pagecopy.ts` : elle ne se voit que
-     sur le texte rendu, jamais dans le gabarit. */
-  const c = lang === "fr" ? " : " : ": ";
-
-  const lines = [
-    t.hello,
-    "",
-    `${t.when}${c}${when}${multiDay ? "" : ` · ${e.time}`}`,
-    `${t.where}${c}${where}`,
-    `${t.price}${c}${priceLabel(e, lang)}`,
-    "",
-    `${t.seeEvent}${c}${page}`,
+  const blocks: MailBlock[] = [
+    { kind: "text", text: escapeMail(t.hello), muted: true },
+    {
+      kind: "rows",
+      rows: [
+        { k: t.when, v: `${when}${multiDay ? "" : ` · ${e.time}`}` },
+        { k: t.where, v: where },
+        { k: t.price, v: priceLabel(e, lang) },
+      ],
+    },
+    {
+      kind: "actions",
+      actions: [
+        { href: page, label: t.seeEvent, tone: "primary" },
+        ...(tickets ? ([{ href: tickets, label: t.tickets, tone: "ghost" }] as const) : []),
+      ],
+    },
+    ...(stay
+      ? ([
+          {
+            kind: "panel",
+            title: t.sleepTitle,
+            blocks: [
+              { kind: "text", text: escapeMail(t.sleep(stay.near, stay.nights, stay.brand)), muted: true },
+              { kind: "actions", actions: [{ href: stay.url, label: t.sleepCta, tone: "ghost" }] },
+              // La mention d'affiliation reste dans le corps du message et non en pied de
+              // page : le lecteur doit le savoir avant de cliquer, pas après. Et ici elle
+              // garde sa phrase entière, contrairement à la carte de la fiche, un mail
+              // n'a pas de page à côté de lui vers laquelle renvoyer.
+              { kind: "note", text: t.aff },
+            ],
+          },
+        ] as MailBlock[])
+      : []),
+    { kind: "text", text: escapeMail(t.outro), muted: true },
   ];
-  if (tickets) lines.push(`${t.tickets}${c}${tickets}`);
-  if (stay) {
-    lines.push("", `${t.sleepTitle}${c}${t.sleep(stay.near, stay.nights, stay.brand)}`, stay.url, t.aff);
-  }
-  lines.push("", t.outro, "", t.unsub);
 
-  /* Le HTML reste volontairement rudimentaire : tableaux implicites, styles en ligne,
-     aucune image de fond. Un client mail n'est pas un navigateur, et une mise en page
-     ambitieuse s'y casse sans qu'on le voie jamais. La version texte porte la même
-     information, ce n'est pas un repli dégradé. */
-  const btn = (href: string, label: string, bg: string) =>
-    `<a href="${esc(href)}" style="display:inline-block;padding:12px 22px;border-radius:99px;background:${bg};color:#fff;text-decoration:none;font-weight:700;font-family:Helvetica,Arial,sans-serif;font-size:15px">${esc(label)}</a>`;
+  const { html, text } = renderMail(
+    {
+      lang,
+      kicker: t.kicker,
+      title: e.title,
+      preheader: `${when} · ${where}`,
+      blocks,
+      footnote: t.unsub,
+    },
+    SITE_URL,
+  );
 
-  const html = `<!doctype html><html lang="${lang}"><body style="margin:0;padding:24px;background:#050608;color:#e8e8ef;font-family:Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6">
-<div style="max-width:560px;margin:0 auto">
-<p style="font-family:'Courier New',monospace;letter-spacing:.14em;text-transform:uppercase;font-size:11px;color:#31d0e0;margin:0 0 6px">RaveRadar</p>
-<h1 style="font-size:24px;line-height:1.15;margin:0 0 14px;color:#fff">${esc(e.title)}</h1>
-<p style="color:#a5a5b8;margin:0 0 20px">${esc(t.hello)}</p>
-<table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;margin:0 0 22px">
-<tr><td style="padding:8px 0;border-bottom:1px solid #22232c;color:#a5a5b8">${esc(t.when)}</td><td style="padding:8px 0;border-bottom:1px solid #22232c;text-align:right;color:#fff"><b>${esc(when)}${multiDay ? "" : ` · ${esc(e.time)}`}</b></td></tr>
-<tr><td style="padding:8px 0;border-bottom:1px solid #22232c;color:#a5a5b8">${esc(t.where)}</td><td style="padding:8px 0;border-bottom:1px solid #22232c;text-align:right;color:#fff"><b>${esc(where)}</b></td></tr>
-<tr><td style="padding:8px 0;border-bottom:1px solid #22232c;color:#a5a5b8">${esc(t.price)}</td><td style="padding:8px 0;border-bottom:1px solid #22232c;text-align:right;color:#fff"><b>${esc(priceLabel(e, lang))}</b></td></tr>
-</table>
-<p style="margin:0 0 12px">${btn(page, t.seeEvent, "#e6208c")}</p>
-${tickets ? `<p style="margin:0 0 22px">${btn(tickets, t.tickets, "#1c1d26")}</p>` : ""}
-${
-  stay
-    ? `<div style="border:1px solid #22232c;border-radius:16px;padding:18px;margin:0 0 22px">
-<p style="margin:0 0 8px;color:#fff;font-weight:700">${esc(t.sleepTitle)}</p>
-<p style="margin:0 0 14px;color:#a5a5b8">${esc(t.sleep(stay.near, stay.nights, stay.brand))}</p>
-<p style="margin:0 0 10px">${btn(stay.url, t.sleepCta, "#1c1d26")}</p>
-<p style="margin:0;color:#75758a;font-size:12px">${esc(t.aff)}</p>
-</div>`
-    : ""
-}
-<p style="color:#a5a5b8;margin:0 0 20px">${esc(t.outro)}</p>
-<p style="color:#75758a;font-size:12px;margin:0">${esc(t.unsub)}</p>
-</div></body></html>`;
-
-  return { subject: t.subj(e.title), text: lines.join("\n"), html };
+  return { subject: t.subj(e.title), text, html };
 }

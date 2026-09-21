@@ -4,8 +4,8 @@ import { countRecentSubmissions, createSubmission, listSubmissions, saveSubmissi
 import { actionToken, newId } from "@/lib/promoter-auth";
 import { currentAccount } from "@/lib/promoter-session";
 import { parseSubmission } from "@/lib/submissions";
-import { plainRich } from "@/lib/richtext";
 import { MAX_ATTACHMENT_BYTES, notifyOwner, ownerAddress, type MailAttachment } from "@/lib/subscribers";
+import { submissionRequestMail } from "@/lib/promoter-mail";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 import { SITE_URL } from "@/lib/site";
 
@@ -112,44 +112,15 @@ async function sendToOwner(s: EventSubmission, promoter: string, file: MailAttac
   const link = (action: "publish" | "reject") =>
     `${SITE_URL}/api/promoteur/approve?s=${encodeURIComponent(s.id)}&a=${action}&t=${actionToken(s.id, action)}`;
 
-  const price = s.price
-    ? `${s.price} ${s.currency}${s.priceNote === "estimated" ? " (estimé, à confirmer)" : ""}`
-    : "non communiqué";
+  const mail = submissionRequestMail(s, promoter, file ? file.filename : null, {
+    yes: link("publish"),
+    no: link("reject"),
+  });
 
-  const lines = [
-    `Dépôt d'événement par ${promoter} <${s.owner}>.`,
-    "",
-    `Titre      : ${s.title}`,
-    `Type       : ${s.type}`,
-    `Genre      : ${s.genre}${s.subgenres.length ? ` (${s.subgenres.join(", ")})` : ""}`,
-    `Date       : ${s.date}${s.endDate ? ` → ${s.endDate}` : ""} ${s.time}${s.endTime ? `-${s.endTime}` : ""}`,
-    `Lieu       : ${s.venue}, ${s.city}, ${s.country}`,
-    `Adresse    : ${s.address || "non renseignée"}`,
-    `Tarif      : ${price}`,
-    `Billetterie: ${s.ticketUrl || "aucune"}`,
-    `Affiche    : ${file ? `en pièce jointe (${file.filename})` : s.posterUrl || s.posterFile || "aucune"}`,
-    `Line-up    : ${s.lineup.join(", ") || "à venir"}`,
-    `Contact    : ${s.contactEmail}`,
-    "",
-    "Description (FR) :",
-    plainRich(s.desc),
-    ...(s.descEn ? ["", "Description (EN) :", plainRich(s.descEn)] : []),
-    "",
-    "----",
-    "À vérifier avant saisie : page officielle, billetterie, jour de la semaine de la date.",
-    `Valider : ${link("publish")}`,
-    `Écarter : ${link("reject")}`,
-  ];
-
-  const sent = await notifyOwner(
-    `RaveRadar, dépôt : ${s.title} (${s.city})`,
-    lines.join("\n"),
-    file ? [file] : [],
-  );
+  const sent = await notifyOwner(mail.subject, mail.text, file ? [file] : [], mail.html);
   if (!sent) {
     console.error(
-      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), dépôt enregistré :\n` +
-        lines.join("\n"),
+      `[promoteur] mail non parti (destinataire ${ownerAddress() || "vide"}), dépôt enregistré :\n` + mail.text,
     );
   }
   return sent;
