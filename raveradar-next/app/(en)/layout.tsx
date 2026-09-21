@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Syne, Inter, Space_Mono } from "next/font/google";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, ADSENSE_CLIENT } from "@/lib/site";
 import Analytics from "@/components/Analytics";
+import AdSense from "@/components/AdSense";
 import Tracker from "@/components/Tracker";
 import ImpactAffiliate from "@/components/ImpactAffiliate";
 import ConsentBanner from "@/components/ConsentBanner";
@@ -46,6 +47,11 @@ export const metadata: Metadata = {
     apple: { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
   },
   manifest: "/site.webmanifest",
+  /* La balise meta de validation AdSense, en plus du script du `<head>`. Elle ne
+     diffuse rien et ne coûte aucune requête, elle prouve seulement la propriété du
+     site : c'est le filet si le script est bloqué ou n'est pas vu. Voir
+     `components/AdSense.tsx` pour le choix entre les deux méthodes. */
+  ...(ADSENSE_CLIENT ? { other: { "google-adsense-account": ADSENSE_CLIENT } } : {}),
 };
 
 /**
@@ -67,6 +73,9 @@ export default async function EnLayout({ children }: { children: React.ReactNode
         <noscript>
           <style>{`.reveal{animation:none}`}</style>
         </noscript>
+        {/* Le tag AdSense : rendu au serveur pour être lisible sans exécuter la page,
+            en `async` et `fetchpriority="low"` pour laisser passer l'image LCP. */}
+        <AdSense />
       </head>
       <body>
         <ImpactAffiliate />
