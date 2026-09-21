@@ -86,3 +86,17 @@ export const HOTEL_BRAND =
  * réseaux sociaux.
  */
 export const OG_DEFAULT = `${SITE_URL}/hero/rave-707891b510-1280.webp`;
+
+/**
+ * Identifiant d'éditeur AdSense (« ca-pub-… »), lu par `components/AdSense.tsx`.
+ *
+ * Pas de préfixe `NEXT_PUBLIC_` : le tag est rendu par un composant serveur, dans le
+ * `<head>` des deux layouts racines. C'est la règle des variables d'affiliation
+ * ci-dessus, avec une différence à connaître, l'identifiant finit de toute façon en
+ * clair dans le HTML (c'est ce que le robot d'AdSense vient y lire), donc il n'a rien
+ * d'un secret : ce que le préfixe absent protège ici, c'est seulement le fait de ne
+ * jamais le lire depuis un composant client, où il vaudrait la chaîne vide.
+ *
+ * Vide = ni script ni balise meta, donc aucune requête vers Google sur aucune page.
+ */
+export const ADSENSE_CLIENT = process.env.ADSENSE_CLIENT ?? "ca-pub-3982091483284662";
