@@ -13,6 +13,7 @@ import {
   isConfigured, listAccounts, listAllSubmissions, ping, saveAccount, saveSubmission,
 } from "@/lib/accounts-store";
 import { mailStatus, ownerAddress, sendMailDetailed } from "@/lib/subscribers";
+import { renderMail } from "@/lib/mail-template";
 import { clientKey, tooManyRequests } from "@/lib/ratelimit";
 import { SITE_URL } from "@/lib/site";
 
@@ -224,11 +225,37 @@ export async function POST(req: Request) {
          fournisseur en retour. C'est la seule façon de distinguer « clé invalide » de
          « domaine non vérifié », et donc la seule façon de finir la configuration sans
          lire les journaux de Vercel. */
-      const res = await sendMailDetailed(
-        ownerAddress(),
-        "RaveRadar, test d'envoi",
-        `Si tu lis ce message, les alertes du site arrivent bien à cette adresse.\n\n${SITE_URL}/admin`,
+      /* Le test part avec le même gabarit que les vrais messages, et pas avec deux
+         lignes de texte : ce qu'on vérifie ici, ce n'est pas seulement que le transport
+         répond, c'est aussi à quoi ressemble ce qui arrive dans la boîte. Un test qui ne
+         ressemble pas au message qu'il teste ne teste que la moitié du chemin. */
+      const mail = renderMail(
+        {
+          kicker: "Test d'envoi",
+          title: "Le transport fonctionne",
+          preheader: "Si tu lis ce message, les mails du site arrivent bien ici.",
+          blocks: [
+            {
+              kind: "text",
+              text: "Si tu lis ce message, les demandes de compte, les dépôts d'événement et les alertes arrivent bien à cette adresse.",
+            },
+            {
+              kind: "rows",
+              rows: [
+                { k: "Destinataire", v: ownerAddress() },
+                { k: "Envoyé le", v: new Date().toLocaleString("fr-FR", { timeZone: "Europe/Paris" }) },
+              ],
+            },
+            {
+              kind: "actions",
+              actions: [{ href: `${SITE_URL}/admin`, label: "Ouvrir la console", tone: "primary" }],
+            },
+          ],
+          footnote: "Message de test envoyé depuis la console d'administration.",
+        },
+        SITE_URL,
       );
+      const res = await sendMailDetailed(ownerAddress(), "RaveRadar, test d'envoi", mail.text, [], mail.html);
       return NextResponse.json({ ok: res.ok, detail: res.detail, to: ownerAddress() });
     }
 

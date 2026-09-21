@@ -207,7 +207,14 @@ session ni retrouver un mot de passe. Ce qui tient la porte est le HMAC, un jeto
 devinable **lié à la cible et à l'action**, donc le lien « approuver » d'un compte n'ouvre
 rien d'autre, et un lien rejoué ne fait qu'annoncer l'état courant.
 
-Corollaire : ces liens valent le secret qui les signe. Ne pas les transférer.
+Corollaire : ces liens valent le secret qui les signe. Ne pas les transférer, et le mail
+le rappelle à chaque envoi.
+
+Les quatre messages de ce circuit (demande de compte, dépôt, validation, refus) sont
+construits par `lib/promoter-mail.ts` et mis en page par le gabarit commun du site, voir
+**`docs/mails.md`** : une structure de blocs, deux rendus (HTML et texte). La page qui
+s'affiche après le clic porte la même marque, elle est la suite du message et pas une
+réponse technique. Pour relire un message sans rien envoyer, `npm run mail:preview`.
 
 ## Ce qui a été mis dans le formulaire, et pourquoi
 

@@ -1,5 +1,7 @@
 import type { AlertInput } from "./alerts";
 import { alertSummary } from "./alerts";
+import { renderMail } from "./mail-template";
+import { SITE_URL } from "./site";
 
 /**
  * Where a subscription actually goes.
@@ -88,9 +90,31 @@ async function resend(a: AlertInput): Promise<SubscribeResult> {
   // A Resend audience stores an address and nothing else, so the only place the
   // subscription's subject can live is a mail to the owner. Best-effort on purpose:
   // the contact is already saved, and failing the request here would be a lie.
-  await notifyOwner(`Alerte, ${alertSummary(a)}`, `${a.email}\n${alertSummary(a)}\nLangue : ${a.lang}`).catch(
-    () => undefined,
+  const mail = renderMail(
+    {
+      kicker: "Nouvelle alerte",
+      title: alertSummary(a),
+      preheader: `${a.email} suit ${a.label}.`,
+      blocks: [
+        {
+          kind: "text",
+          text: "Une audience Resend ne stocke qu'une adresse, donc le sujet surveillé n'existe que dans ce message.",
+          muted: true,
+        },
+        {
+          kind: "rows",
+          rows: [
+            { k: "Adresse", v: a.email, href: `mailto:${a.email}` },
+            { k: "Surveille", v: alertSummary(a) },
+            { k: "Langue", v: a.lang.toUpperCase() },
+          ],
+        },
+      ],
+      footnote: "Message automatique du formulaire d'alerte.",
+    },
+    SITE_URL,
   );
+  await notifyOwner(`RaveRadar, alerte : ${alertSummary(a)}`, mail.text, [], mail.html).catch(() => undefined);
   return { ok: true, alreadyKnown: false };
 }
 
@@ -319,9 +343,17 @@ export async function sendMail(
   return res.ok;
 }
 
-/** Le mail au propriétaire, cas particulier de `sendMail` avec son destinataire. */
-export const notifyOwner = (subject: string, text: string, attachments: MailAttachment[] = []): Promise<boolean> =>
-  sendMail(ownerAddress(), subject, text, attachments);
+/** Le mail au propriétaire, cas particulier de `sendMail` avec son destinataire.
+ *
+ *  `html` est facultatif et part **en plus** du texte, jamais à sa place : les messages
+ *  du circuit promoteur passent par `lib/promoter-mail.ts`, qui rend les deux versions
+ *  d'un coup, mais un appelant qui n'a qu'une ligne à dire n'a rien à habiller. */
+export const notifyOwner = (
+  subject: string,
+  text: string,
+  attachments: MailAttachment[] = [],
+  html?: string,
+): Promise<boolean> => sendMail(ownerAddress(), subject, text, attachments, html);
 
 /* ---------------------------------------------------------------------------
    SMTP
