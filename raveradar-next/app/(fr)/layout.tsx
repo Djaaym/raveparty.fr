@@ -81,11 +81,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <noscript>
           <style>{`.reveal{animation:none}`}</style>
         </noscript>
-        {/* Le tag AdSense : rendu au serveur pour être lisible sans exécuter la page,
-            en `async` et `fetchpriority="low"` pour laisser passer l'image LCP. */}
-        <AdSense />
       </head>
       <body>
+        {/* Le tag AdSense. Il est rendu ici et non dans le `<head>` : React ne rend pas
+            un `<script>` écrit dans le `<head>` d'un composant serveur, alors qu'il hisse
+            celui-ci dans le `<head>` du HTML servi. Voir components/AdSense.tsx. */}
+        <AdSense />
         <ImpactAffiliate />
         <InterestCountsProvider value={interest}>{children}</InterestCountsProvider>
         <Analytics />
