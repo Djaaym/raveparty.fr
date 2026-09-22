@@ -1,0 +1,24 @@
+[
+ {
+  "id": 221,
+  "title": "Lunchmeat Festival",
+  "desc": "Le gros du festival se joue dans les sous-sols de béton du Veletržní palác, joyau fonctionnaliste bâti de 1925 à 1928 et siège de la Galerie nationale depuis 1976. Chaque nuit ouvre deux plateaux, la grande salle de concert et un club stage, sans tête d'affiche : l'essentiel du programme est fait de créations audiovisuelles commandées, jouées en première mondiale. Un dôme LED 360 degrés complète l'affiche les 26 et 27 septembre.",
+  "descEn": "The bulk of the festival happens in the concrete basement of the Veletržní palác, a functionalist landmark built between 1925 and 1928 and home to the National Gallery since 1976. Each night opens two rooms, the main concert hall and a club stage, with no headliners: most of the programme is commissioned audiovisual work played as a world premiere. A 360 degree LED dome adds to the bill on 26 and 27 September.",
+  "source": "https://lunchmeatfestival.cz/2026/venues/"
+ },
+ {
+  "id": 241,
+  "title": "MAYDAY Poland",
+  "desc": "MAYDAY occupe le Spodek de Katowice depuis 2000 et se présente comme la première vraie rave polonaise en grande salle. La 27e édition, sous le mot d'ordre ICONIC, tient en une seule nuit : seize heures de musique de 17 h à 9 h, vingt artistes sur deux scènes, Sven Väth en tête d'affiche. Son, scénographie et lasers sont redessinés pour chaque édition.",
+  "descEn": "MAYDAY has taken over Katowice's Spodek arena since 2000 and bills itself as Poland's first real big-hall rave. The 27th edition, under the motto ICONIC, runs in a single night: sixteen hours of music from 5pm to 9am, twenty artists across two stages, Sven Väth topping the bill. Sound, staging and lasers are redesigned for every edition.",
+  "source": "https://mayday.pl/"
+ },
+ {
+  "id": 246,
+  "title": "Taksirat Festival",
+  "desc": "Créé en 1999, Taksirat se présente comme le seul festival d'hiver du sud-est de l'Europe et le plus gros de Macédoine du Nord, avec environ 15 000 spectateurs. Il ne se tient pas d'une traite : la 28e édition étale ses soirées sur près de deux semaines, dans plusieurs salles de Skopje, et chaque concert se vend à l'unité plutôt qu'au pass. L'affiche croise punk, metal, rock, hip-hop, reggae et musique électronique.",
+  "descEn": "Founded in 1999, Taksirat bills itself as south-eastern Europe's only winter festival and the biggest in North Macedonia, drawing around 15,000 people. It does not run in one block: the 28th edition spreads its nights over nearly two weeks across several Skopje venues, and each concert is sold on its own rather than as a pass. The bill mixes punk, metal, rock, hip-hop, reggae and electronic music.",
+  "source": "https://taksirat.mk/taksirat-english/",
+  "note": "Faits stables du festival, pas la programmation 2026, qui n'est pas publiee. Le format sur deux semaines et la vente a la soiree viennent de https://ekran.mk/dobredojdovte-na-festivalot-taksirat-2026-vo-skopje/ (article date du 18/09/2026). Attention, le site officiel ecrit 1999 (« Taksirat 1 » le 27 novembre 1999) la ou le catalogue disait 1998."
+ }
+]

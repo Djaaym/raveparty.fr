@@ -1,0 +1,37 @@
+[
+  {
+    "id": 222,
+    "title": "AVA London",
+    "desc": "Le volet londonien d'AVA tient ses deux journées de conférences à la British Library, avec plus de trente sessions et soixante-dix intervenants, puis bascule le soir sur d'autres salles de la ville : Round Chapel le jeudi, Outernet et FOLD le vendredi, EartH à Dalston le samedi pour la carte blanche de Skin On Skin. Le pass journée ne couvre que la conférence, les soirées se billettent séparément.",
+    "descEn": "AVA's London strand holds its two conference days at the British Library, with more than thirty sessions and seventy speakers, then moves across the city at night: Round Chapel on Thursday, Outernet and FOLD on Friday, EartH in Dalston on Saturday for the Skin On Skin takeover. The day pass covers the conference only, the club nights are ticketed separately.",
+    "source": "https://avafestival.com/london/tickets/"
+  },
+  {
+    "id": 466,
+    "title": "Steppers at Drumsheds",
+    "desc": "Le label britannique Steppers fait ses débuts au Drumsheds, l'ancien entrepôt industriel de Glover Drive au nord de Londres, dans la salle X et de 17 h à 1 h. Soirée réservée aux 18 ans et plus, présentée par l'équipe comme le plus gros plateau monté par la marque. L'affiche n'était toujours pas publiée à quelques jours de la date et la billetterie est passée en liste d'attente.",
+    "descEn": "British imprint Steppers makes its Drumsheds debut, in the Glover Drive warehouse in north London, using Room X and running from 5pm to 1am. The night is 18+ and is billed by the team as the brand's biggest showcase yet. The line-up was still unpublished days before the date and ticket sales have moved to a waiting list.",
+    "source": "https://drumshedslondon.com/event/steppers/"
+  },
+  {
+    "id": 475,
+    "title": "Bugged Out! 2001 On",
+    "desc": "Bugged Out rejoue l'année 2001 sur les trois salles du Drumsheds, X, Y et Z, de 13 h à 22 h 30. 2manydjs, The Avalanches, Erol Alkan, Kittin & The Hacker et Felix Da Housecat tiennent les platines, Friendly Fires et New Young Pony Club jouent en live, et la french touch est représentée par Étienne de Crécy, Braxe + Falcon, Myd et SebastiAn. Entrée réservée aux 18 ans et plus.",
+    "descEn": "Bugged Out replays the year 2001 across all three Drumsheds rooms, X, Y and Z, from 1pm to 10.30pm. 2manydjs, The Avalanches, Erol Alkan, Kittin & The Hacker and Felix Da Housecat take the decks, Friendly Fires and New Young Pony Club play live, and the French touch is carried by Étienne de Crécy, Braxe + Falcon, Myd and SebastiAn. Entry is 18+.",
+    "source": "https://drumshedslondon.com/event/bugged-out-2001/"
+  },
+  {
+    "id": 473,
+    "title": "Don't Let Daddy Know London",
+    "desc": "Après sept éditions britanniques, la franchise EDM Don't Let Daddy Know, née à Ibiza, fait ses débuts londoniens dans la salle X du Drumsheds, de 19 h à 3 h et à partir de 18 ans. Ben Nicky et Dimitri Vegas mènent l'affiche, avec le supergroupe HALŌ, Krewella, Nicky Romero et R3HAB, tandis qu'Amy Wiles et P.O.U assurent l'ouverture.",
+    "descEn": "After seven UK editions, the Ibiza-born EDM franchise Don't Let Daddy Know makes its London debut in Drumsheds' Room X, from 7pm to 3am and 18+. Ben Nicky and Dimitri Vegas lead the bill alongside supergroup HALŌ, Krewella, Nicky Romero and R3HAB, with Amy Wiles and P.O.U on support.",
+    "source": "https://drumshedslondon.com/event/dldk/"
+  },
+  {
+    "id": 558,
+    "title": "Tomorrowland Symphony of Unity",
+    "desc": "Né en 2019 au Tomorrowland pour les quinze ans du festival, puis joué au Sphere de Las Vegas, Symphony of Unity fait sa première italienne à l'Arène de Vérone. Une cinquantaine de musiciens dirigés par Kevin Houben, de l'Orchestre national de Belgique, relisent pendant plus de deux heures des hymnes signés Faithless, Energy 52, David Guetta ou Swedish House Mafia. L'aftershow officiel se tient ensuite à la Gran Guardia.",
+    "descEn": "Created in 2019 at Tomorrowland for the festival's fifteenth birthday and since played at the Sphere in Las Vegas, Symphony of Unity makes its Italian debut at the Verona Arena. Around fifty musicians conducted by Kevin Houben, of the Belgian National Orchestra, spend more than two hours reworking anthems by Faithless, Energy 52, David Guetta and Swedish House Mafia. The official aftershow follows at the Gran Guardia.",
+    "source": "https://zedlive.com/evento/arena-di-verona-vr-symphony-of-unity-tomorrowland/"
+  }
+]

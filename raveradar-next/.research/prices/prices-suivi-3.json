@@ -1,0 +1,22 @@
+[
+ {
+  "id": 221,
+  "title": "Lunchmeat Festival",
+  "price": 650,
+  "currency": "Kč",
+  "priceNote": null,
+  "ticketUrl": "https://ra.co/events/2314919",
+  "source": "https://lunchmeatfestival.cz/2026/tickets/",
+  "note": "Plus bas tarif general encore en vente sur la plage 24-27 septembre au Trade Fair Palace : billet du jeudi 650 CZK (vendredi et samedi 750 CZK, dimanche SOLD OUT, pass 4 nuits SOLD OUT). Le billet 300 CZK du mercredi 23 n'est pas retenu, il ouvre l'Ankali, autre salle, hors plage de la fiche. Les 450/520 CZK sont un tarif etudiant ISIC, pas un tarif d'entree general. La page officielle vend via RA."
+ },
+ {
+  "id": 241,
+  "title": "MAYDAY Poland",
+  "price": 349,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://sklep.mayday.pl/pl/53-tickets",
+  "source": "https://sklep.mayday.pl/pl/mayday-poland/519-e-ticket-mayday-poland-2026.html",
+  "note": "Boutique officielle, e-Ticket MAYDAY Poland 2026 a 349 zl, JSON-LD en schema.org/InStock. Confirme par la page de la salle (spodekkatowice.pl, « Bilety od: 349 zl »). Le catalogue portait 339 zl, palier precedent. Le « NEW GENERATION e-Ticket » a 289 zl n'est pas retenu : il est reserve aux 16-19 ans avec verification d'age a l'entree, c'est un tarif reduit et non une entree generale. Le billet VIP collector est a 799 zl. Biletomat affiche « od 369 zl », revendeur, plus cher que le guichet officiel."
+ }
+]
