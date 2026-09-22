@@ -807,7 +807,7 @@ export function countriesHubCopy(
           live.length
             ? `Nous référençons ${live.length} date${s(live.length)} à venir dans ${open.length} pays, dont ${fests} festival${s(fests)} et ${clubs} soirée${s(clubs)} en club ou en entrepôt.`
             : "Aucune date à venir n'est référencée pour le moment.",
-          leaders.length ? `Les calendriers les mieux fournis en ce moment sont ${join(leaders, lang)}.` : "",
+          leaders.length ? `Les pays les mieux fournis en ce moment : ${join(leaders, lang)}.` : "",
           season.length ? `La charge se concentre sur ${join(season, lang)}.` : "",
           "Une page pays réunit ses dates à venir, les villes et les salles qui les portent, les styles qu'on y programme et ses éditions passées, qui restent en ligne avec le line-up et le tarif tels qu'ils avaient été annoncés.",
         ]
@@ -817,7 +817,7 @@ export function countriesHubCopy(
           live.length
             ? `We list ${live.length} upcoming date${s(live.length)} across ${open.length} countries, of which ${fests} festival${s(fests)} and ${clubs} club or warehouse night${s(clubs)}.`
             : "No upcoming date is listed right now.",
-          leaders.length ? `The busiest calendars at the moment are ${join(leaders, lang)}.` : "",
+          leaders.length ? `The busiest calendars right now: ${join(leaders, lang)}.` : "",
           season.length ? `Activity concentrates on ${join(season, lang)}.` : "",
           "A country page gathers its upcoming dates, the cities and rooms carrying them, the styles programmed there and its past editions, which stay online with the line-up and price exactly as they were announced.",
         ]
@@ -845,11 +845,11 @@ export function countriesHubCopy(
       lang === "fr"
         ? [
             "Dans quel pays sortir selon la saison ?",
-            `Mois par mois, sur les dates annoncées : ${byMonth.join(" ; ")}.${farFest ? ` Au-delà de trois mois, ${farFest} % des dates référencées sont des festivals, ceux qui ouvrent leur billetterie très tôt ; les soirées en club s'ajoutent au fil des annonces, souvent à cinq ou six semaines.` : ""}`,
+            `Mois par mois, sur les dates annoncées : ${byMonth.join(" ; ")}.${farFest ? ` Au-delà de trois mois, ${farFest} % des dates référencées sont des festivals, ceux qui ouvrent leur billetterie le plus tôt ; les soirées en club s'ajoutent au fil des annonces.` : ""}`,
           ]
         : [
             "Which country should I go to, season by season?",
-            `Month by month, across announced dates: ${byMonth.join("; ")}.${farFest ? ` Beyond three months out, ${farFest}% of the dates we list are festivals, the ones opening ticketing far ahead; club nights land later, often five or six weeks before the door.` : ""}`,
+            `Month by month, across announced dates: ${byMonth.join("; ")}.${farFest ? ` Beyond three months out, ${farFest}% of the dates we list are festivals, the ones opening ticketing earliest; club nights are added as they get announced.` : ""}`,
           ],
     );
   }
@@ -886,11 +886,11 @@ export function countriesHubCopy(
     lang === "fr"
       ? [
           "Quelle différence entre une page pays et une page ville ?",
-          `Une page pays sert à choisir une destination : elle couvre tout un calendrier national, ses villes, ses salles et les styles qu'on y programme. Une page ville répond à « rave party {ville} » et ne montre que ce qui se passe sur place, avec les clubs du coin. Nous tenons ${open.length} pays qui ont au moins une date à venir et ${places} lieux (villes et départements) avec leur page.`,
+          `Une page pays sert à choisir une destination : elle couvre tout un calendrier national, ses villes, ses salles et les styles qu'on y programme. Une page ville répond à la recherche « rave party » suivie d'un nom de ville, et ne montre que ce qui se passe sur place, avec les clubs du coin. Nous tenons ${open.length} pays qui ont au moins une date à venir et ${places} lieux (villes et départements) avec leur page.`,
         ]
       : [
           "What's the difference between a country page and a city page?",
-          `A country page is for picking a destination: it covers a whole national calendar, its cities, its rooms and the styles programmed there. A city page answers "raves in {city}" and only shows what happens locally, with the clubs around the corner. We keep ${open.length} countries with at least one upcoming date and ${places} places (cities and regions) with a page of their own.`,
+          `A country page is for picking a destination: it covers a whole national calendar, its cities, its rooms and the styles programmed there. A city page answers a search for raves in a named city, and only shows what happens locally, with the clubs around the corner. We keep ${open.length} countries with at least one upcoming date and ${places} places (cities and regions) with a page of their own.`,
         ],
   );
 
