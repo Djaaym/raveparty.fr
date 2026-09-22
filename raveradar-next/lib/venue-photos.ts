@@ -61,7 +61,6 @@ export const VENUE_SHOTS: ReadonlySet<string> = new Set([
   "la-belle-electrique-62367d2bd3.jpg",
   "la-cabane-les-halles-de-la-cartoucherie-1d41c9587c.jpg",
   "la-cartonnerie-2f541005d4.jpg",
-  "la-cartonnerie-551d7e0a64.jpg",
   "la-cigale-1e9a0a1ec8.jpg",
   "la-gaite-lyrique-d6d9983a7e.jpg",
   "la-laiterie-7eb958e5ce.jpg",

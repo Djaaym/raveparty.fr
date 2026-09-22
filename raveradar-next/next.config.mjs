@@ -97,6 +97,16 @@ const nextConfig = {
       { source: "/en/festival/decibel-open-air", destination: "/en/pays/italie", permanent: true },
       { source: "/lieux/parco-delle-cascine", destination: "/pays/italie", permanent: true },
       { source: "/en/lieux/parco-delle-cascine", destination: "/en/pays/italie", permanent: true },
+
+      /* Elektricity (Reims) n'existe plus depuis 2015 : la salle l'a remplacé en 2017 par
+         La Magnifique Society, au printemps et au Parc de Champagne. La fiche annonçait
+         pourtant une édition « du 23 au 28 septembre 2026 » et recevait du trafic, d'où le
+         détail du dossier dans `REMOVED` de `merge.py`. Son URL était indexée : elle part
+         sur le département, faute de successeur au catalogue (La Magnifique Society n'y
+         est pas, ce n'est pas un festival de musique électronique) et faute de page ville
+         pour Reims, `PLACES` ne portant que la Marne. Jamais une 404. */
+      { source: "/festival/elektricity", destination: "/rave-party/marne", permanent: true },
+      { source: "/en/festival/elektricity", destination: "/en/rave-party/marne", permanent: true },
       { source: "/genres/free-party", destination: "/genres", permanent: true },
       { source: "/en/genres/free-party", destination: "/en/genres", permanent: true },
 
