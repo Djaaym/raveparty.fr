@@ -56,22 +56,34 @@ export function imageAlt(e: RaveEvent, lang: Lang, src: ImageSource): string {
     : `Illustrative key visual for ${e.title} (${where}, ${when})`;
 }
 
+/**
+ * Un montant et son symbole, sans conversion.
+ *
+ * Extrait de `priceLabel()` parce qu'un second appelant en a besoin : la FAQ de
+ * `/pays` annonce une médiane de tarifs par pays, qui n'est le prix d'aucun
+ * événement et n'a donc pas de `RaveEvent` derrière elle. Recopier la règle de
+ * placement du symbole ailleurs la ferait diverger le jour où une devise s'ajoute,
+ * c'est la règle de `placeTally()` / `eventsForPlace()` appliquée à la monnaie.
+ */
+export function moneyLabel(amount: number, currency: string, lang: Lang): string {
+  // `currency` is a symbol ("€"/"£"/"$"), not an ISO code, so Intl's style:"currency"
+  // (which requires ISO codes like "EUR") can't place it for us, format the number in
+  // decimal style and place the symbol by hand per locale: "41,80 €" in fr, "€41.80" in en.
+  const hasCents = amount % 1 !== 0;
+  const n = new Intl.NumberFormat(DICT[lang].locale, {
+    minimumFractionDigits: hasCents ? 2 : 0,
+    maximumFractionDigits: 2,
+  }).format(amount);
+  // Prague et Varsovie sont arrivées avec l'expansion à l'est, et elles ne
+  // facturent pas en euros. Seules les trois devises que l'anglais écrit avant le
+  // nombre sont préfixées : « Kč490 » ou « zł120 » n'est la convention de personne,
+  // et aucune des deux langues ne les écrit ainsi.
+  const prefixed = lang === "en" && ["€", "£", "$"].includes(currency);
+  return prefixed ? `${currency}${n}` : `${n} ${currency}`;
+}
+
 export function priceLabel(e: RaveEvent, lang: Lang): string {
   if (e.priceNote === "unknown") return DICT[lang]["dyn.priceunknown"];
   if (e.price === 0) return DICT[lang]["dyn.free"];
-  // e.currency is a symbol ("€"/"£"/"$"), not an ISO code, so Intl's style:"currency"
-  // (which requires ISO codes like "EUR") can't place it for us, format the number in
-  // decimal style and place the symbol by hand per locale: "41,80 €" in fr, "€41.80" in en.
-  const hasCents = e.price % 1 !== 0;
-  const amount = new Intl.NumberFormat(DICT[lang].locale, {
-    minimumFractionDigits: hasCents ? 2 : 0,
-    maximumFractionDigits: 2,
-  }).format(e.price);
-  // Prague et Varsovie sont arrivées avec l'expansion à l'est, et elles ne
-  // facturent pas en euros. Seules les trois devises que l'anglais écrit avant le
-  // nombre sont préfixées : « Kč490 » ou « zł120 » n'est la convention de personne,
-  // et aucune des deux langues ne les écrit ainsi.
-  const prefixed = lang === "en" && ["€", "£", "$"].includes(e.currency);
-  const formatted = prefixed ? `${e.currency}${amount}` : `${amount} ${e.currency}`;
-  return `${e.priceNote === "estimated" ? "≈ " : ""}${formatted}`;
+  return `${e.priceNote === "estimated" ? "≈ " : ""}${moneyLabel(e.price, e.currency, lang)}`;
 }

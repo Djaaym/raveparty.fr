@@ -20,5 +20,20 @@
   "descEn": "Founded in 1999, Taksirat bills itself as south-eastern Europe's only winter festival and the biggest in North Macedonia, drawing around 15,000 people. It does not run in one block: the 28th edition spreads its nights over nearly two weeks across several Skopje venues, and each concert is sold on its own rather than as a pass. The bill mixes punk, metal, rock, hip-hop, reggae and electronic music.",
   "source": "https://taksirat.mk/taksirat-english/",
   "note": "Faits stables du festival, pas la programmation 2026, qui n'est pas publiee. Le format sur deux semaines et la vente a la soiree viennent de https://ekran.mk/dobredojdovte-na-festivalot-taksirat-2026-vo-skopje/ (article date du 18/09/2026). Attention, le site officiel ecrit 1999 (« Taksirat 1 » le 27 novembre 1999) la ou le catalogue disait 1998."
+ },
+ {
+  "id": 435,
+  "title": "Dystopia Festival",
+  "desc": "Dystopia est une tournée de parcs des expositions, quatre villes par saison, dont Saint-Étienne est l'étape d'ouverture. Deux nuits de 18 h à 4 h, deux scènes, l'une hard music l'autre techno, quarante artistes et vingt heures de son. L'édition 2026 annonce un set de DJ The Prophet exclusif en France et un live de Vertile. L'entrée est réservée aux 16 ans et plus.",
+  "descEn": "Dystopia is a touring exhibition-centre festival, four cities a season, and Saint-Étienne opens the run. Two nights from 6pm to 4am, two stages, one hard music and one techno, forty artists and twenty hours of sound. The 2026 edition announces a DJ The Prophet set exclusive to France and a Vertile live show. Entry is restricted to ages 16 and over.",
+  "source": "https://dystopia-festival.com/saint-etienne/",
+  "note": "Deux scenes / 40 artistes / 20 h de son et l'adresse viennent de la page officielle. Les horaires 18 h - 4 h et la limite d'age de la billetterie Billetweb. Les quatre etapes de la saison sont listees sur https://www.billetweb.fr/multi_event.php?multi=42370 (Saint-Etienne 12/2026, Rennes 02/2027, Lille-Douai 04/2027, Mulhouse). L'exclusivite DJ The Prophet est ecrite sur l'affiche officielle."
+ },
+ {
+  "id": 430,
+  "title": "Overmono à l'Olympia",
+  "desc": "Tom et Ed Russell montent à l'Olympia avec le live de Pure Devotion, leur deuxième album : onze titres bâtis sur des synthétiseurs des années 70 et 80, un vieux haut-parleur d'annonces de gare et une cymbale passée au four, avec des voix de John Joseph Holt, Kindora et Ruthven. Ce live, refondu en 2024, leur a déjà valu la tête d'affiche du West Holts de Glastonbury et un Alexandra Palace complet. Soirée présentée par Super !",
+  "descEn": "Tom and Ed Russell bring the Pure Devotion live show to the Olympia, built on their second album: eleven tracks made with 1970s and 1980s synths, an old railway announcement speaker and a cymbal baked in an oven, with vocals from John Joseph Holt, Kindora and Ruthven. Rebuilt in 2024, the show has already headlined Glastonbury's West Holts and sold out Alexandra Palace. Presented by Super!",
+  "source": "https://www.olympiahall.com/agenda/overmono/"
  }
 ]
