@@ -42,6 +42,14 @@ export const RENAMED_EVENT_SLUGS: Record<string, { base: "event" | "festival"; s
      lieu de servir de clé. Les deux URLs étaient indexées, d'où le 301. */
   "positivus-2026-calvin-harris": { base: "festival", slug: "positivus-calvin-harris" },
   "mayday-poland-2026-iconic": { base: "festival", slug: "mayday-poland" },
+  /* Le festival du Théâtre Antique d'Orange s'appelle « POSITIV Festival » sur son propre
+     site, mais « POSITIV Electronic Festival » chez à peu près tout le monde d'autre :
+     Resident Advisor, Fnac Spectacles, Eventim, jds.fr et la ville d'Orange elle-même.
+     Le catalogue a retenu le nom officiel, donc l'autre forme tombait en 404, et le
+     tableau de bord d'audience la montre à 7 vues sur 90 jours : ce n'est pas une URL
+     théorique, des lecteurs y arrivent. Une URL qui reçoit du trafic ne reste pas en
+     404, même quand elle n'a jamais été servie par nous. */
+  "positiv-electronic-festival": { base: "festival", slug: "positiv-festival" },
   // « Tiësto » décrivait la date du 01/10 à la MEO Arena comme un concert ordinaire. C'est
   // en fait INFINITY Lisbon, la soirée de clôture du SBC Summit, réservée aux détenteurs
   // d'un pass du salon : le titre le dit maintenant, et l'ancien slug pointe ici.

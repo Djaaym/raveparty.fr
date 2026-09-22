@@ -67,7 +67,7 @@ export const EDITIONS: Record<string, EditionRef[]> = {
   "loveland-festival": [{ y: "2026", end: "2026-08-09", base: "festival" }, { y: "2027", end: "2027-08-08", base: "festival" }],
   "monegros-desert-festival": [{ y: "2026", end: "2026-07-25", base: "festival" }, { y: "2027", end: "2027-07-31", base: "festival" }],
   "nature-one": [{ y: "2026", end: "2026-08-02", base: "festival" }, { y: "2027", end: "2027-08-01", base: "festival" }],
-  "neopop-festival": [{ y: "2026", end: "2026-08-08", base: "festival" }, { y: "2027", end: "2027-08-05", base: "festival" }],
+  "neopop-festival": [{ y: "2026", end: "2026-08-08", base: "festival" }, { y: "2027", end: "2027-08-07", base: "festival" }],
   "nuits-sonores": [{ y: "2026", end: "2026-05-13", base: "festival" }, { y: "2027", end: "2027-05-09", base: "festival" }],
   "ozora-festival": [{ y: "2026", end: "2026-07-27", base: "festival" }, { y: "2027", end: "2027-08-03", base: "festival" }],
   parookaville: [{ y: "2026", end: "2026-07-17", base: "festival" }, { y: "2027", end: "2027-07-18", base: "festival" }],

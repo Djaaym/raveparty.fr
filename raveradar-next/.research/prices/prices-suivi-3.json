@@ -1,0 +1,42 @@
+[
+ {
+  "id": 221,
+  "title": "Lunchmeat Festival",
+  "price": 650,
+  "currency": "Kč",
+  "priceNote": null,
+  "ticketUrl": "https://ra.co/events/2314919",
+  "source": "https://lunchmeatfestival.cz/2026/tickets/",
+  "note": "Plus bas tarif general encore en vente sur la plage 24-27 septembre au Trade Fair Palace : billet du jeudi 650 CZK (vendredi et samedi 750 CZK, dimanche SOLD OUT, pass 4 nuits SOLD OUT). Le billet 300 CZK du mercredi 23 n'est pas retenu, il ouvre l'Ankali, autre salle, hors plage de la fiche. Les 450/520 CZK sont un tarif etudiant ISIC, pas un tarif d'entree general. La page officielle vend via RA."
+ },
+ {
+  "id": 241,
+  "title": "MAYDAY Poland",
+  "price": 349,
+  "currency": "zł",
+  "priceNote": null,
+  "ticketUrl": "https://sklep.mayday.pl/pl/53-tickets",
+  "source": "https://sklep.mayday.pl/pl/mayday-poland/519-e-ticket-mayday-poland-2026.html",
+  "note": "Boutique officielle, e-Ticket MAYDAY Poland 2026 a 349 zl, JSON-LD en schema.org/InStock. Confirme par la page de la salle (spodekkatowice.pl, « Bilety od: 349 zl »). Le catalogue portait 339 zl, palier precedent. Le « NEW GENERATION e-Ticket » a 289 zl n'est pas retenu : il est reserve aux 16-19 ans avec verification d'age a l'entree, c'est un tarif reduit et non une entree generale. Le billet VIP collector est a 799 zl. Biletomat affiche « od 369 zl », revendeur, plus cher que le guichet officiel."
+ },
+ {
+  "id": 435,
+  "title": "Dystopia Festival",
+  "price": 50.99,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://www.billetweb.fr/shop.php?event=dystopia-2026-saint-etienne",
+  "source": "https://www.billetweb.fr/shop.php?event=dystopia-2026-saint-etienne",
+  "note": "Billetterie officielle Billetweb, lue le 22/09/2026. Trois categories : pass 2 jours (Early Bird 74,99 EPUISE, Advance 84,99 EPUISE, Late 94,99, Last Chance 105,99), pass 1 jour vendredi (Early-bird 40,99 EPUISE, Advance 45,99 EPUISE, Late 50,99, Last Chance 55,99) et pass 1 jour samedi (memes paliers, Last Chance a 54,99). Le plus bas tarif encore en vente est donc le Late pass 1 jour a 50,99 EUR, pas les 40,99 d'origine, epuises. Le catalogue portait 49 EUR estime."
+ },
+ {
+  "id": 430,
+  "title": "Overmono à l'Olympia",
+  "price": 44.19,
+  "currency": "€",
+  "priceNote": null,
+  "ticketUrl": "https://billetterie.olympiahall.com/overmono-concert-l-olympia-paris-14-novembre-2026-css5-olympiahall-pg101-ri11763341.html",
+  "source": "https://www.olympiahall.com/agenda/overmono/",
+  "note": "Page officielle de la salle, « 14 nov. 2026 a 20h00, De 44,19 EUR a 49,86 EUR », bouton Reserver actif (une date epuisee affiche « Pas de billets disponibles actuellement », ce qui n'est pas le cas ici). Trois categories a la billetterie : 1 mezzanine et balcon assis numerote, 2 balcon assis numerote, 3 orchestre debout placement libre. DICE affiche le meme plancher a 44,19 EUR. Le catalogue portait 44 EUR, arrondi."
+ }
+]

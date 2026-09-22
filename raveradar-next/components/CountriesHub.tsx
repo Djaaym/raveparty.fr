@@ -1,10 +1,11 @@
 import Link from "next/link";
 import type { Lang } from "@/lib/types";
-import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, todayISO, cardEvent } from "@/lib/data";
+import { ALL_GENRES, COUNTRY_FLAG, genreSlug, isPast, nextUp, todayISO, cardEvent } from "@/lib/data";
 import { COUNTRIES_INDEX, countryName, eventsForCountry } from "@/lib/countries";
 import { PLACES } from "@/lib/places";
+import { countriesHubCopy } from "@/lib/pagecopy";
 import { getDict, langPrefix } from "@/lib/i18n";
-import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, faqJsonLd, itemListJsonLd } from "@/lib/seo";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import EventCard from "./EventCard";
@@ -22,20 +23,30 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
     return { ...c, live: all.filter((e) => !isPast(e, today)), all };
   }).sort((a, b) => b.live.length - a.live.length || a.name.localeCompare(b.name));
 
-  const liveTotal = rows.reduce((n, r) => n + r.live.length, 0);
   const next = rows.flatMap((r) => r.live).sort((a, b) => a.date.localeCompare(b.date));
 
-  const intro =
-    lang === "fr"
-      ? `${liveTotal} événements à venir dans ${rows.filter((r) => r.live.length).length} pays. Choisis ta destination : chaque page pays réunit les festivals, clubs et warehouses du moment, avec les dates, les line-ups et la billetterie officielle.`
-      : `${liveTotal} upcoming events across ${rows.filter((r) => r.live.length).length} countries. Pick a destination: each country page gathers the festivals, clubs and warehouses currently on, with dates, line-ups and official ticketing.`;
+  /* Le hub était un sommaire : un compteur de pays, une grille de drapeaux, et rien
+     qui réponde aux questions qu'on se pose devant une liste de pays. Mesuré sur le
+     tableau de bord privé, 4,2 secondes d'attention moyenne, la pire du site, et
+     c'était le seul hub sans FAQ. Le contexte et les questions sortent tous les deux
+     du calendrier (lib/pagecopy.ts) : rien n'est écrit à la main pour un pays, donc
+     rien ne peut se périmer sans qu'on s'en aperçoive. */
+  const copy = countriesHubCopy(lang, {
+    rows: rows.map((r) => ({ name: r.name, live: r.live })),
+    places: PLACES.length,
+    today,
+  });
 
   const trail: [string, string][] = [[t("nav.countries"), "/pays"]];
 
   return (
     <>
       <JsonLd
-        data={[breadcrumbJsonLd(trail, lang), itemListJsonLd(next.slice(0, 30), lang, t("countries.title"), today)]}
+        data={[
+          breadcrumbJsonLd(trail, lang),
+          itemListJsonLd(next.slice(0, 30), lang, t("countries.title"), today),
+          faqJsonLd(copy.faq),
+        ]}
       />
       <div className="blob b1" />
       <div className="blob b2" />
@@ -49,7 +60,7 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
           <h1 className="h-lg" style={{ margin: "14px 0 8px" }}>
             {t("countries.title")}
           </h1>
-          <p className="lead">{intro}</p>
+          <p className="lead">{copy.context}</p>
 
           <div className="linkfarm" style={{ marginTop: 20 }}>
             <Link href={`${p}/rave-party/ce-week-end`}>📅 {t("soon.crumb")}</Link>
@@ -80,8 +91,12 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
           <h2 className="h-md" style={{ margin: "48px 0 18px" }}>
             {t("hub.next")}
           </h2>
+          {/* Douze et non huit : la grille est en `auto-fill`, donc son nombre de
+              colonnes suit la fenêtre (1, 2, 4, 6). Douze se divise par 6, 4, 3, 2 et
+              1, elle tombe donc juste à toutes les largeurs produites, là où huit
+              laissait une rangée orpheline de deux cartes à 1 920 px. */}
           <div className="grid grid-4">
-            {next.slice(0, 8).map((e) => (
+            {nextUp(12, undefined, today).map((e) => (
               <EventCard key={e.id} e={cardEvent(e)} lang={lang} today={today} />
             ))}
           </div>
@@ -102,6 +117,21 @@ export default function CountriesHub({ lang }: { lang: Lang }) {
                 <Link key={g} href={`${p}/genres/${genreSlug(g)}`}>
                   {g}
                 </Link>
+              ))}
+            </div>
+          </Fold>
+
+          <Fold title={<>{t("countries.faq")}</>}>
+            <div className="grid grid-2">
+              {copy.faq.map(([q, a]) => (
+                <div className="info-card" key={q}>
+                  <h3 className="h-md" style={{ fontSize: "1.1rem", marginBottom: 10 }}>
+                    {q}
+                  </h3>
+                  <p className="lead" style={{ fontSize: ".95rem" }}>
+                    {a}
+                  </p>
+                </div>
               ))}
             </div>
           </Fold>

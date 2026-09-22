@@ -89,6 +89,19 @@ COUNTRY_FIX = {"United Kingdom": "UK", "Great Britain": "UK", "England": "UK",
 # Une suppression est une décision éditoriale : elle se consigne ici, pas seulement
 # dans l'absence d'une ligne. Format : (titre normalisé, année) -> raison.
 REMOVED = {("timewarpspain", "2026"): "annulé (communiqué sur time-warp.de)",
+           # Fiche fantôme, et la plus coûteuse du catalogue : elle annonçait un festival
+           # « du 23 au 28 septembre 2026 » à La Cartonnerie, c'est-à-dire demain au moment
+           # où on la retire. Elektricity s'est arrêté après 13 éditions, l'édition 2016 a
+           # été annulée et la salle l'a remplacé en 2017 par La Magnifique Society, au
+           # printemps et au Parc de Champagne (France Bleu et France 3 Grand Est,
+           # « Elektricity n'est plus : vive La Magnifique Society »). La Cartonnerie n'en
+           # dit pas un mot sur sa page d'accueil la veille de l'ouverture supposée, son
+           # agenda n'a rien sur la période, et elektricityfestival.fr ne répond plus.
+           # Ce qui a permis à la fiche de survivre est le piège à retenir : interrogés sur
+           # « Elektricity 2026 », les moteurs rendent NOTRE page en premier et recopient
+           # notre propre « tarif indicatif 25 € ». Une fiche non vérifiée finit par se
+           # citer elle-même, et la boucle ressemble alors à une confirmation.
+           ("elektricity", "2026"): "festival arrêté après 2015, remplacé par La Magnifique Society en 2017",
            ("jackieslisboahousemusicfestivalchrisstassy", "2026"): "doublon d'id 701, même soirée au Pavilhão Carlos Lopes ; les deux fiches coexistaient parce que « Lisboa » et « Lisbon » étaient deux villes pour la clé (ville, salle, jour)",
            # Doublon de « ZAMNA × PRIMER Athens » (mêmes 4-5/09, même enceinte olympique) :
            # deux périphrases pour la même salle, donc la clé `booked` ne l'a pas vu.

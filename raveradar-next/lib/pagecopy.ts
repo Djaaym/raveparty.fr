@@ -2,7 +2,7 @@ import type { Lang, RaveEvent } from "./types";
 import type { Artist } from "./artists";
 import type { Venue } from "./venues";
 import { countryLabel, eventVenueL, isPast, lastDay, slugify, upcoming } from "./data";
-import { priceLabel } from "./format";
+import { moneyLabel, priceLabel } from "./format";
 import { genreProfile, pickL } from "./genres";
 import { guideFor } from "./guides";
 import { isMultiVenueLabel } from "./venues";
@@ -663,6 +663,248 @@ export function countryCopy(
           ],
     );
   }
+
+  return { context, faq };
+}
+
+/* ------------------------------------------------- hub des pays (`/pays`) */
+
+export interface CountriesCopy {
+  context: string;
+  faq: QA[];
+}
+
+/** Une médiane de tarifs, dans la devise du pays, sans conversion. */
+interface Fare {
+  label: string;
+  median: number;
+  currency: string;
+  n: number;
+}
+
+/** La médiane d'une série, la mesure qui résiste au pass à 300 € perdu au milieu des entrées à 20. */
+function median(xs: number[]): number {
+  const v = [...xs].sort((a, b) => a - b);
+  const mid = v.length >> 1;
+  return v.length % 2 ? v[mid] : (v[mid - 1] + v[mid]) / 2;
+}
+
+/** Il faut un échantillon pour qu'une médiane veuille dire quelque chose. */
+const FARE_MIN = 8;
+
+/**
+ * Le texte du hub `/pays`, le seul qui n'en avait pas.
+ *
+ * Mesuré sur le tableau de bord privé : 4,2 secondes d'attention moyenne, la pire du
+ * site, et c'était le seul hub sans FAQ quand `/genres`, `/artistes`, `/lieux`,
+ * `/villes` et `/organisateurs` en ont toutes une. Le diagnostic tient en une phrase,
+ * la page était un sommaire, elle n'expliquait rien et ne répondait à aucune des
+ * questions qu'on se pose devant une liste de pays : où sortir à cette saison, quel
+ * pays porte le plus de dates, ce que coûte une entrée ailleurs, quelles villes font
+ * la scène, et en quoi une page pays diffère d'une page ville.
+ *
+ * Comme partout dans ce module, **rien n'est écrit à la main pour un pays** : tout se
+ * calcule sur le calendrier, donc rien ne peut se périmer en silence, et la question
+ * disparaît de la FAQ quand la donnée manque. Il y a 38 pays, écrire leurs réponses à
+ * la main ferait 38 affirmations qu'on ne re-vérifierait jamais.
+ *
+ * Deux précautions valent d'être rappelées ici, parce qu'elles décident de la forme
+ * des réponses :
+ *
+ * - **Le classement décrit notre catalogue, pas la taille des scènes.** Le Royaume-Uni
+ *   est en tête parce qu'un guichet britannique publie ses fiches en clair, pas parce
+ *   que la scène y serait deux fois celle de l'Allemagne. La réponse le dit.
+ * - **On ne convertit pas les devises** (règle du catalogue) : une médiane de tarifs
+ *   s'annonce dans la monnaie qu'on paie à l'entrée, et les pass de festival sont hors
+ *   du calcul, un pass de trois jours n'est pas un prix d'entrée.
+ */
+export function countriesHubCopy(
+  lang: Lang,
+  ctx: { rows: { name: string; live: RaveEvent[] }[]; places: number; today: string },
+): CountriesCopy {
+  const { rows, places, today } = ctx;
+  const open = rows.filter((r) => r.live.length > 0);
+  const live = open.flatMap((r) => r.live);
+  const fests = live.filter((e) => e.type === "Festival").length;
+  const clubs = live.length - fests;
+  const label = (name: string) => countryLabel(name, lang);
+
+  /* Les pays les mieux fournis, avec leur compte : une liste de pays sans chiffre ne
+     dit pas où il se passe quelque chose, c'est la règle du compteur des pilules. */
+  const leaders = open.slice(0, 5).map((r) => `${label(r.name)} (${r.live.length})`);
+
+  /* La saison, calculée sur les dates à venir seulement. Une saison déduite de
+     l'archive décrirait l'an dernier. */
+  const months = new Map<string, RaveEvent[]>();
+  for (const e of live) {
+    const k = e.date.slice(0, 7);
+    const at = months.get(k);
+    if (at) at.push(e);
+    else months.set(k, [e]);
+  }
+  const busiest = [...months.entries()]
+    .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+    .slice(0, 3);
+  const season = busiest.map(([m, xs]) => `${monthYear(`${m}-01`, lang)} (${xs.length})`);
+
+  /* Mois par mois, qui porte ces dates : c'est ce qui répond vraiment à « où sortir
+     en octobre », là où une liste de mois ne répond qu'à « quand ». */
+  const byMonth = busiest.map(([m, xs]) => {
+    const tally = new Map<string, number>();
+    for (const e of xs) tally.set(e.country, (tally.get(e.country) ?? 0) + 1);
+    const top = [...tally.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 2)
+      .map(([c, n]) => `${label(c)} (${n})`);
+    return `${monthYear(`${m}-01`, lang)}, ${join(top, lang)}`;
+  });
+
+  /* La part des festivals au-delà de trois mois. Ce n'est pas une impression sur les
+     usages du secteur, c'est une mesure sur nos propres fiches : les mois lointains ne
+     portent encore que ce qui s'annonce longtemps à l'avance. */
+  const horizon = new Date(`${today}T00:00:00`);
+  horizon.setDate(horizon.getDate() + 90);
+  const far = live.filter((e) => e.date > horizon.toISOString().slice(0, 10));
+  const farFest = far.length >= 20 ? Math.round((far.filter((e) => e.type === "Festival").length / far.length) * 100) : 0;
+
+  /* Le tarif d'entrée type, par pays, dans sa devise. On ne garde que les tarifs
+     confirmés (un `priceNote` veut dire « non vérifié », il n'a rien à faire dans une
+     médiane) et que les soirées en club ou en entrepôt : un pass de festival de trois
+     jours n'est pas un prix d'entrée, et le mélanger tirerait la mesure vers le haut
+     sans que personne puisse s'en apercevoir. */
+  const fares: Fare[] = [];
+  for (const r of open) {
+    const paid = r.live.filter((e) => e.type !== "Festival" && !e.priceNote && e.price > 0);
+    const cur = new Map<string, number>();
+    for (const e of paid) cur.set(e.currency, (cur.get(e.currency) ?? 0) + 1);
+    /* Un pays peut porter deux devises (une date suisse facturée en euros) : on prend
+       la dominante et on ne mélange que ce qui se compare. */
+    const dominant = [...cur.entries()].sort((a, b) => b[1] - a[1])[0];
+    if (!dominant) continue;
+    const vals = paid.filter((e) => e.currency === dominant[0]).map((e) => e.price);
+    if (vals.length < FARE_MIN) continue;
+    fares.push({ label: label(r.name), median: median(vals), currency: dominant[0], n: vals.length });
+  }
+  fares.sort((a, b) => b.n - a.n);
+  const fareList = fares.slice(0, 6).map((f) => `${f.label} ${moneyLabel(f.median, f.currency, lang)}`);
+
+  /* Les villes qui portent chaque gros calendrier. Comptées sur `city`, ce que la page
+     pays affiche elle-même, et pas sur `PLACES` : toutes les villes du catalogue n'ont
+     pas de page, et un compteur doit annoncer ce que la destination montrera. */
+  const cityLines = open.slice(0, 3).map((r) => {
+    const tally = new Map<string, number>();
+    for (const e of r.live) tally.set(e.city, (tally.get(e.city) ?? 0) + 1);
+    const top = [...tally.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, 3)
+      .map(([c, n]) => `${c} (${n})`);
+    return `${label(r.name)}, ${join(top, lang)}`;
+  });
+
+  const context =
+    lang === "fr"
+      ? [
+          live.length
+            ? `Nous référençons ${live.length} date${s(live.length)} à venir dans ${open.length} pays, dont ${fests} festival${s(fests)} et ${clubs} soirée${s(clubs)} en club ou en entrepôt.`
+            : "Aucune date à venir n'est référencée pour le moment.",
+          leaders.length ? `Les pays les mieux fournis en ce moment : ${join(leaders, lang)}.` : "",
+          season.length ? `La charge se concentre sur ${join(season, lang)}.` : "",
+          "Une page pays réunit ses dates à venir, les villes et les salles qui les portent, les styles qu'on y programme et ses éditions passées, qui restent en ligne avec le line-up et le tarif tels qu'ils avaient été annoncés.",
+        ]
+          .filter(Boolean)
+          .join(" ")
+      : [
+          live.length
+            ? `We list ${live.length} upcoming date${s(live.length)} across ${open.length} countries, of which ${fests} festival${s(fests)} and ${clubs} club or warehouse night${s(clubs)}.`
+            : "No upcoming date is listed right now.",
+          leaders.length ? `The busiest calendars right now: ${join(leaders, lang)}.` : "",
+          season.length ? `Activity concentrates on ${join(season, lang)}.` : "",
+          "A country page gathers its upcoming dates, the cities and rooms carrying them, the styles programmed there and its past editions, which stay online with the line-up and price exactly as they were announced.",
+        ]
+          .filter(Boolean)
+          .join(" ");
+
+  const faq: QA[] = [];
+
+  if (leaders.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            "Quel pays compte le plus de dates en ce moment ?",
+            `Sur les ${live.length} date${s(live.length)} à venir que nous référençons, l'ordre est ${join(leaders, lang)}. Ce classement décrit notre catalogue et les guichets qu'il sait lire, pas la taille réelle de chaque scène : un pays dont la billetterie principale publie ses fiches en clair y monte plus vite qu'un autre.`,
+          ]
+        : [
+            "Which country has the most dates right now?",
+            `Across the ${live.length} upcoming date${s(live.length)} we list, the order is ${join(leaders, lang)}. That ranking describes our catalogue and the ticketing sites it can read, not the real size of each scene: a country whose main box office publishes its listings in plain HTML climbs faster than the rest.`,
+          ],
+    );
+  }
+
+  if (byMonth.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            "Dans quel pays sortir selon la saison ?",
+            `Mois par mois, sur les dates annoncées : ${byMonth.join(" ; ")}.${farFest ? ` Au-delà de trois mois, ${farFest} % des dates référencées sont des festivals, ceux qui ouvrent leur billetterie le plus tôt ; les soirées en club s'ajoutent au fil des annonces.` : ""}`,
+          ]
+        : [
+            "Which country should I go to, season by season?",
+            `Month by month, across announced dates: ${byMonth.join("; ")}.${farFest ? ` Beyond three months out, ${farFest}% of the dates we list are festivals, the ones opening ticketing earliest; club nights are added as they get announced.` : ""}`,
+          ],
+    );
+  }
+
+  if (fareList.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            "Combien coûte une entrée selon le pays ?",
+            `Médiane des tarifs confirmés des soirées en club et en entrepôt que nous référençons : ${join(fareList, lang)}. Les montants sont dans la devise locale et ne sont pas convertis, c'est ce qu'on paie à l'entrée. Un tarif seulement estimé n'entre pas dans le calcul, ni les pass de festival, un pass de plusieurs jours n'étant pas un prix d'entrée.`,
+          ]
+        : [
+            "How much does a ticket cost, country by country?",
+            `Median of the confirmed door prices we list for club and warehouse nights: ${join(fareList, lang)}. Amounts are in the local currency and are not converted, this is what you pay at the door. Estimated prices are left out of the calculation, and so are festival passes, a multi-day pass not being a door price.`,
+          ],
+    );
+  }
+
+  if (cityLines.length > 0) {
+    faq.push(
+      lang === "fr"
+        ? [
+            "Quelles villes portent la scène d'un pays ?",
+            `Dans les calendriers les mieux fournis : ${cityLines.join(" ; ")}. Chaque page pays liste ses villes, et celles qui ont leur propre page y renvoient, avec l'agenda complet et les salles qui programment sur place.`,
+          ]
+        : [
+            "Which cities carry a country's scene?",
+            `In the busiest calendars: ${cityLines.join("; ")}. Every country page lists its cities, and those with a page of their own link straight to it, with the full agenda and the rooms programming there.`,
+          ],
+    );
+  }
+
+  faq.push(
+    lang === "fr"
+      ? [
+          "Quelle différence entre une page pays et une page ville ?",
+          `Une page pays sert à choisir une destination : elle couvre tout un calendrier national, ses villes, ses salles et les styles qu'on y programme. Une page ville répond à la recherche « rave party » suivie d'un nom de ville, et ne montre que ce qui se passe sur place, avec les clubs du coin. Nous tenons ${open.length} pays qui ont au moins une date à venir et ${places} lieux (villes et départements) avec leur page.`,
+        ]
+      : [
+          "What's the difference between a country page and a city page?",
+          `A country page is for picking a destination: it covers a whole national calendar, its cities, its rooms and the styles programmed there. A city page answers a search for raves in a named city, and only shows what happens locally, with the clubs around the corner. We keep ${open.length} countries with at least one upcoming date and ${places} places (cities and regions) with a page of their own.`,
+        ],
+  );
+
+  faq.push(
+    lang === "fr"
+      ? [
+          "Qu'est-ce qu'on trouve sur une page pays ?",
+          "Les dates à venir, la prochaine en tête, les villes qui les portent, les salles, les styles programmés et des questions propres au pays. Les éditions passées y restent en ligne, sous leur propre titre, avec le line-up et le tarif tels qu'ils avaient été annoncés : une fiche terminée reste une source, elle n'est simplement jamais mise en avant.",
+        ]
+      : [
+          "What's on a country page?",
+          "The upcoming dates, soonest first, the cities carrying them, the venues, the styles programmed and questions specific to that country. Past editions stay online under their own heading, with the line-up and price exactly as announced: a finished date is still a source, it is simply never put forward.",
+        ],
+  );
 
   return { context, faq };
 }
