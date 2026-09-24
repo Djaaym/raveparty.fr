@@ -75,6 +75,17 @@ artwork que derrière un rendu JS. Une URL simplement pas encore cherchée n'en 
 - **Sites de salles** connus pour être server-rendered et accessibles :
   `bootshaus.tv/events/`, `thewarehouseproject.com`, `drumshedslondon.com`, `thuishaven.nl`.
 - Autres agendas exploitables : `touslesfestivals.com`, `songkick.com`, `skiddle.com`, `jds.fr`.
+- **Le lien de billetterie déjà au catalogue (`TICKETS`) est la meilleure source, et de loin** :
+  la passe de septembre 2026 en a tiré 356 visuels sur 487 fiches. Sur Shotgun, l'`og:image`
+  est l'artwork de l'organisateur recadré en 1200×630 ; réécrire la transformation Cloudinary
+  en `c_limit,w_1600/f_jpg/q_auto` rend le fichier au **format d'origine** (souvent carré ou
+  portrait, donc bien meilleur au crop 4:5). Skiddle : l'`_eflyer.jpg` de la page, `curl` avec
+  l'agent `ClaudeBot/1.0`. Xceed, Paylogic, ticket.io, weeztix : `og:image` directe.
+- **Une image de partage n'est pas toujours l'affiche.** `tickets.nordstern.com` sert une
+  carte générée (vignette minuscule posée sur un aplat bordeaux) : valide au sens du
+  content-type et de la largeur, illisible sur une carte. Même chose pour les billetteries qui
+  retombent sur le logo de la salle ou de l'organisateur quand l'événement n'a pas de visuel.
+  D'où la planche-contact avant l'ingest, aucune mesure ne les distingue d'une vraie affiche.
 
 **Bloqué par le proxy (403/429), ne pas insister** : Resident Advisor (`ra.co`), Shotgun,
 `agendaculturel.fr`, infoconcert. Chromium/Playwright n'a aucun accès réseau : les sites rendus
