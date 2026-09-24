@@ -1,0 +1,227 @@
+[
+ {
+  "id": 1285,
+  "image": "https://joshuabrooks.co.uk/wp-content/uploads/2024/10/JB_BG_49.jpg",
+  "sourcePage": "https://joshuabrooks.co.uk/about/",
+  "credit": "Joshua Brooks Manchester",
+  "kind": "venue",
+  "width": 2560,
+  "note": "photo de la salle publiee par le lieu (facade - a remplacer si une photo de club apparait)"
+ },
+ {
+  "id": 1429,
+  "image": "https://wp3-fatsomasites.imgix.net/uploads/sites/1496/2025/07/image-1-1.jpg",
+  "sourcePage": "https://www.theleedswarehouse.com/",
+  "credit": "The Warehouse Leeds",
+  "kind": "venue",
+  "width": 2048,
+  "note": "dancefloor du Warehouse Leeds sous les lumieres rouges, photo d'accueil du club"
+ },
+ {
+  "id": 2206,
+  "image": "https://culture-box.com/wp-content/uploads/2025/04/CB_Mantas-Hesthaven-59-kopi-3.jpg",
+  "sourcePage": "https://culture-box.com/gallery-2/",
+  "credit": "Culture Box / Mantas Hesthaven",
+  "kind": "venue",
+  "width": 1000,
+  "note": "DJ booth et foule dans le club Culture Box (galerie officielle)"
+ },
+ {
+  "id": 2226,
+  "image": "https://www.salabut.es/wp-content/uploads/2025/12/895d1149d45d4ef18b179df6c63557922e4b3e0b.jpg",
+  "sourcePage": "https://www.salabut.es/",
+  "credit": "Sala But",
+  "kind": "venue",
+  "width": 1080,
+  "note": "photo officielle de la salle (scene et logo oeil)"
+ },
+ {
+  "id": 2238,
+  "image": "https://i.ytimg.com/vi/FTOceOVyfuo/maxresdefault.jpg",
+  "sourcePage": "https://www.youtube.com/watch?v=FTOceOVyfuo",
+  "credit": "Boiler Room - \"Telephones | Boiler Room Oslo: Jaeger X Fraedag\"",
+  "kind": "venue",
+  "width": 1280,
+  "note": "interieur du Jaeger (sous-sol lambrisse) pendant une soiree Fraedag, filmee par Boiler Room - exactement le concept de cet evenement. Chaine officielle Boiler Room verifiee via oEmbed. Le site jaegeroslo.no ne publie que des affiches (mediatheque WordPress passee en revue)."
+ },
+ {
+  "id": 2257,
+  "image": "https://www.salabut.es/wp-content/uploads/2025/12/895d1149d45d4ef18b179df6c63557922e4b3e0b.jpg",
+  "sourcePage": "https://www.salabut.es/",
+  "credit": "Sala But",
+  "kind": "venue",
+  "width": 1080,
+  "note": "photo officielle de la salle (scene et logo oeil)"
+ },
+ {
+  "id": 2266,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Graz_Postgarage_L1090514.jpg/1920px-Graz_Postgarage_L1090514.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg",
+  "credit": "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Postgarage de Graz (ancienne ecole d'equitation d'artillerie), vue depuis l'Elisabethinergasse. Licence libre."
+ },
+ {
+  "id": 2276,
+  "image": "https://www.salabut.es/wp-content/uploads/2025/12/895d1149d45d4ef18b179df6c63557922e4b3e0b.jpg",
+  "sourcePage": "https://www.salabut.es/",
+  "credit": "Sala But",
+  "kind": "venue",
+  "width": 1080,
+  "note": "photo officielle de la salle (scene et logo oeil)"
+ },
+ {
+  "id": 2282,
+  "image": "https://images.squarespace-cdn.com/content/v1/67e3124c88393f0267cecf4a/c95a3162-e657-4609-8c9a-5ba891b5d30d/WW+BASEMENT.jpg",
+  "sourcePage": "https://www.wigwamdublin.com/venue",
+  "credit": "Wigwam Dublin",
+  "kind": "venue",
+  "width": 2500,
+  "note": "photo du basement de Wigwam (la salle de club), publiee par le lieu"
+ },
+ {
+  "id": 2294,
+  "image": "https://full-circle.be/ghent/wp-content/uploads/sites/7/2025/01/DSC04172.jpg",
+  "sourcePage": "https://full-circle.be/ghent/venue/kompass/",
+  "credit": "Full Circle Ghent",
+  "kind": "venue",
+  "width": 2000,
+  "note": "photo de la salle du Kompass Klub publiée par Full Circle (l'organisateur de la soirée) ; kompassklub.be est inaccessible depuis le conteneur"
+ },
+ {
+  "id": 2317,
+  "image": "https://www.salabut.es/wp-content/uploads/2025/12/895d1149d45d4ef18b179df6c63557922e4b3e0b.jpg",
+  "sourcePage": "https://www.salabut.es/",
+  "credit": "Sala But",
+  "kind": "venue",
+  "width": 1080,
+  "note": "photo officielle de la salle (scene et logo oeil)"
+ },
+ {
+  "id": 2330,
+  "image": "https://culture-box.com/wp-content/uploads/2025/04/CB_Mantas-Hesthaven-59-kopi-3.jpg",
+  "sourcePage": "https://culture-box.com/gallery-2/",
+  "credit": "Culture Box / Mantas Hesthaven",
+  "kind": "venue",
+  "width": 1000,
+  "note": "DJ booth et foule dans le club Culture Box (galerie officielle)"
+ },
+ {
+  "id": 2334,
+  "image": "https://thuishaven.nl/wp-content/uploads/2024/10/12-November-23_ThuishavenSIZMA-DSC08917-scaled.jpg",
+  "sourcePage": "https://thuishaven.nl/",
+  "credit": "Thuishaven",
+  "kind": "venue",
+  "width": 2560,
+  "note": "photo de la grande salle du Thuishaven publiée par le lieu ; l'agenda officiel ne va pas encore jusqu'au 12 décembre"
+ },
+ {
+  "id": 2343,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/page/5606895933992173301156364_5398661976278037014305082.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "note": "interieur du Bootshaus, mainfloor bonde avec jets de CO2",
+  "width": 1500
+ },
+ {
+  "id": 2348,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Graz_Postgarage_L1090514.jpg/1920px-Graz_Postgarage_L1090514.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg",
+  "credit": "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Postgarage de Graz (ancienne ecole d'equitation d'artillerie), vue depuis l'Elisabethinergasse. Licence libre."
+ },
+ {
+  "id": 2350,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/page/5606895933992173301156364_5398661976278037014305082.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "note": "interieur du Bootshaus, mainfloor bonde avec jets de CO2",
+  "width": 1500
+ },
+ {
+  "id": 2362,
+  "image": "https://full-circle.be/ghent/wp-content/uploads/sites/7/2025/01/DSC04172.jpg",
+  "sourcePage": "https://full-circle.be/ghent/venue/kompass/",
+  "credit": "Full Circle Ghent",
+  "kind": "venue",
+  "width": 2000,
+  "note": "photo de la salle du Kompass Klub publiée par Full Circle (l'organisateur de la soirée) ; kompassklub.be est inaccessible depuis le conteneur"
+ },
+ {
+  "id": 2363,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg/1920px-Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Budapest%2C_Akv%C3%A1rium_Klub%2C_Wannabe_Party%2C_2022.10.30%2C_20.jpg",
+  "credit": "Random photos 1989 / Wikimedia Commons, CC0",
+  "kind": "venue",
+  "width": 1920,
+  "note": "DJ et lasers sur la grande scene de l'Akvarium Klub, Budapest"
+ },
+ {
+  "id": 2365,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Graz_Postgarage_L1090514.jpg/1920px-Graz_Postgarage_L1090514.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg",
+  "credit": "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Postgarage de Graz (ancienne ecole d'equitation d'artillerie), vue depuis l'Elisabethinergasse. Licence libre."
+ },
+ {
+  "id": 2371,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Graz_Postgarage_L1090514.jpg/1920px-Graz_Postgarage_L1090514.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Graz_Postgarage_L1090514.jpg",
+  "credit": "E.mil.mil, CC BY-SA 3.0 AT via Wikimedia Commons",
+  "kind": "venue",
+  "width": 1920,
+  "note": "la Postgarage de Graz (ancienne ecole d'equitation d'artillerie), vue depuis l'Elisabethinergasse. Licence libre."
+ },
+ {
+  "id": 2372,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/page/5606895933992173301156364_5398661976278037014305082.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "note": "interieur du Bootshaus, mainfloor bonde avec jets de CO2",
+  "width": 1500
+ },
+ {
+  "id": 2373,
+  "image": "https://s3.eu-central-1.amazonaws.com/cdn.pixend.de/CQYDNRZ9Q8QSS8D/page/5606895933992173301156364_5398661976278037014305082.jpeg",
+  "sourcePage": "https://www.bootshaus.tv/events/",
+  "credit": "Bootshaus",
+  "kind": "venue",
+  "note": "interieur du Bootshaus, mainfloor bonde avec jets de CO2",
+  "width": 1500
+ },
+ {
+  "id": 2383,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Fuse_blaasstraat.jpg/1920px-Fuse_blaasstraat.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Fuse_blaasstraat.jpg",
+  "credit": "karmakolle / Wikimedia Commons (CC BY-SA 4.0)",
+  "kind": "venue",
+  "width": 1920,
+  "note": "facade du club Fuse, Blaesstraat 208 a Bruxelles"
+ },
+ {
+  "id": 2387,
+  "image": "https://thuishaven.nl/wp-content/uploads/2024/10/12-November-23_ThuishavenSIZMA-DSC08917-scaled.jpg",
+  "sourcePage": "https://thuishaven.nl/",
+  "credit": "Thuishaven",
+  "kind": "venue",
+  "width": 2560,
+  "note": "photo de la grande salle du Thuishaven publiée par le lieu ; l'agenda officiel ne va pas encore jusqu'au 12 décembre"
+ },
+ {
+  "id": 2398,
+  "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Dominator_Festival_2018.jpg/1920px-Dominator_Festival_2018.jpg",
+  "sourcePage": "https://commons.wikimedia.org/wiki/File:Dominator_Festival_2018.jpg",
+  "credit": "W. Swinkels / Wikimedia Commons (CC BY 4.0)",
+  "kind": "festival",
+  "width": 1920,
+  "note": "vue aerienne du site du Dominator sur le E3 Strand a Eersel (repris de l'édition id 73, même festival)"
+ }
+]

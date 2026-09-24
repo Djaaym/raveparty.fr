@@ -1,0 +1,47 @@
+[
+ {
+  "id": 2399,
+  "image": "https://cdn.prod.website-files.com/6909ced38011d56e0c9067d8/6a68b0f495f2111e8d6abce4_FF27_ogimage.jpg",
+  "sourcePage": "https://www.feel-festival.de/",
+  "credit": "Feel Festival",
+  "kind": "festival",
+  "width": 1200,
+  "note": "photo du site du festival (image de partage officielle)"
+ },
+ {
+  "id": 2405,
+  "image": "https://electrisize.de/wp-content/uploads/2025/08/ESIZE25_250809_013047_janheesen_JHS08609-Verbessert-RR-min-min_11zon-scaled.jpg",
+  "sourcePage": "https://www.electrisize.de/",
+  "credit": "Electrisize / Jan Heesen",
+  "kind": "festival",
+  "width": 2560,
+  "note": "photo de la mainstage, édition 2025"
+ },
+ {
+  "id": 2393,
+  "image": "https://freeyourmindfestival.nl/preview/wp-content/uploads/2023/01/share-image-fym.jpg",
+  "sourcePage": "https://www.freeyourmindfestival.nl/",
+  "credit": "Free Your Mind Festival",
+  "kind": "festival",
+  "width": 1920,
+  "note": "photo de la scène, image de partage officielle"
+ },
+ {
+  "id": 2396,
+  "image": "https://www.dreamfields.nl/wp-content/uploads/20260711_235835_Dreamfields_MNO_Photo-1024x640.jpg",
+  "sourcePage": "https://www.dreamfields.nl/",
+  "credit": "Dreamfields",
+  "kind": "festival",
+  "width": 1024,
+  "note": "photo de la mainstage, édition 2026"
+ },
+ {
+  "id": 2390,
+  "image": "https://www.7thsunday.nl/wp-content/uploads/sites/2/2024/11/7TH25_TICKETPAGINA_regular.jpg",
+  "sourcePage": "https://www.7thsunday.nl/tickets/",
+  "credit": "7th Sunday Festival",
+  "kind": "festival",
+  "width": 1920,
+  "note": "photo de la mainstage, visuel de billetterie officiel"
+ }
+]

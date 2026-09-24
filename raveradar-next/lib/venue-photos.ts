@@ -1,8 +1,8 @@
 /* GÉNÉRÉ, ne pas éditer à la main : `python3 .research/photos/venue-shots.py`.
  *
  * Les fichiers de `PHOTOS` (lib/data.ts) qui montrent la SALLE et pas l'événement.
- * `PHOTOS` mélange trois choses par construction (photo de mainstage, photo de
- * salle, affiche officielle de l'organisateur) et les trois illustrent
+ * `PHOTOS` mélange trois choses par construction, photo de mainstage, photo de
+ * salle, affiche officielle de l'organisateur, et les trois illustrent
  * légitimement un événement. Une seule illustre le lieu : mettre le flyer d'une
  * soirée sur la carte d'un club montre autre chose que ce que la carte annonce.
  * Les lots de `.research/photos/` portaient déjà l'information (`kind: "venue"`),
@@ -121,7 +121,7 @@ export const VENUE_SHOTS: ReadonlySet<string> = new Set([
   "warehouse-90cea0944a.jpg",
   "warehouse-bd50ad6455.jpg",
   "warehouse-ff1c526c7c.jpg",
-  "wigwam-3ae33b1329.jpg",
+  "wigwam-53b0129727.jpg",
   "wilde-renate-154c8292c0.jpg",
   "wilde-renate-d7a55418ef.jpg",
   "zenith-paris-la-villette-51408d6d03.jpg",
