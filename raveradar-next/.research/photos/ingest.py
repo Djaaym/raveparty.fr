@@ -164,16 +164,21 @@ def quality_check(raw: bytes):
     return im, None
 
 
-def derivatives(im: Image.Image, slug: str, dry: bool):
+def derivatives(im: Image.Image, slug: str, dry: bool, crop_x=None):
     full = im.copy()
     full.thumbnail((FULL_MAX, FULL_MAX), Image.LANCZOS)
 
-    # crop 4:5 centré, en gardant le haut de l'image (une scène est rarement au sol)
+    # crop 4:5 centré, en gardant le haut de l'image (une scène est rarement au sol).
+    # `cropX` (0 = bord gauche, 1 = bord droit) déplace la fenêtre d'une image paysage :
+    # une affiche typographique 16:9 coupée au centre tombe entre deux blocs de texte
+    # et ne montre que des moitiés de mots. Le fichier pleine taille n'est pas recadré.
     w, h = im.size
     target = THUMB_W / THUMB_H
     if w / h > target:
         nw = int(h * target)
-        box = ((w - nw) // 2, 0, (w - nw) // 2 + nw, h)
+        fx = 0.5 if crop_x is None else min(max(float(crop_x), 0.0), 1.0)
+        left = int((w - nw) * fx)
+        box = (left, 0, left + nw, h)
     else:
         nh = int(w / target)
         top = int((h - nh) * 0.35)
@@ -322,7 +327,7 @@ def main():
                 dupes += 1
                 continue
             seen_ids.add(eid)
-            entries.append(dict(id=eid, url=url, src=f.name, kind=row.get("kind"), credit=row.get("credit"),
+            entries.append(dict(id=eid, url=url, src=f.name, kind=row.get("kind"), credit=row.get("credit"), cropX=row.get("cropX"),
                                 sourcePage=row.get("sourcePage")))
 
     print(f"{len(entries)} événements proposés ({dupes} doublons ignorés), sur {len(events)} au total")
@@ -389,7 +394,7 @@ def main():
             ev = events[base["id"]]
             label = ev["venue"] if base.get("kind") == "venue" else ev["title"]
             slug = f"{slugify(label)}-{digest}"
-            size = derivatives(im, slug, args.dry)
+            size = derivatives(im, slug, args.dry, base.get("cropX"))
             by_hash[digest] = slug
             print(f"  [{i}/{len(by_url)}] ✓ {slug}.jpg {size[0]}×{size[1]} → {len(group)} event(s)")
         for g in group:

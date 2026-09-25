@@ -2,7 +2,10 @@
   {
     "title": "Unfaced au C12",
     "type": "Club",
-    "genres": ["Trance", "Acid Techno"],
+    "genres": [
+      "Trance",
+      "Acid Techno"
+    ],
     "city": "Bruxelles",
     "country": "Belgique",
     "lat": 50.848202,
@@ -13,14 +16,59 @@
     "currency": "€",
     "venue": "C12",
     "trending": false,
-    "lineup": ["Eczodia", "Jacidorex", "Heavora", "Protokseed", "Vilain", "Mixsaj"],
+    "lineup": [
+      "Eczodia",
+      "Jacidorex",
+      "Heavora",
+      "Protokseed",
+      "Vilain",
+      "Mixsaj"
+    ],
     "desc": "Le label bruxellois Unfaced, fondé par Jacidorex en 2022, revient au C12 après trois ans d'absence, le vendredi 25 septembre. Au line-up : Eczodia, Jacidorex en B2B avec Heavora, Protokseed, Vilain et Mixsaj, dans les sous-sols de la galerie Horta, sous la gare Centrale. Consignes, bouchons d'oreilles et eau à disposition, chill zone, stand de prévention et une care team en gilet bleu (safe zone) : l'organisation annonce une tolérance zéro sur les violences et le harcèlement.",
     "descEn": "Brussels label Unfaced, founded by Jacidorex in 2022, returns to C12 after three years away, on Friday 25 September. On the bill: Eczodia, Jacidorex B2B Heavora, Protokseed, Vilain and Mixsaj, in the basements of the Horta gallery under Brussels Central Station. Lockers, earplugs and water available, plus a chill zone, a prevention stand and a care team in blue vests running the safe zone; the organisers state a zero-tolerance policy on violence and harassment.",
     "note": "tarif indicatif, à confirmer sur la billetterie",
     "ticketUrl": "https://shotgun.live/fr/events/unfaced-w-eczodia-jacidorex-b-2-b-heavora-protokseed",
     "_source": "dépôt 0bc40392 par djaym.info@gmail.com, recoupé sur le JSON-LD Event de unfacedbxl.com/events (25/09/2026, C12 Brussels, line-up et billetterie identiques)",
-    "_subgenres": ["Acid Techno", "Tech Trance"],
+    "_subgenres": [
+      "Acid Techno",
+      "Tech Trance"
+    ],
     "_geocode": "C12, Rue du Marché aux Herbes 116, Bruxelles, Belgique",
     "_poster": "https://unfacedbxl.com/Events/unfaced_c12_brussels_2026.png"
+  },
+  {
+    "title": "Sound Enforcers à La Cité Fertile",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Pantin",
+    "country": "France",
+    "region": "Seine-Saint-Denis",
+    "lat": 48.898464,
+    "lng": 2.398827,
+    "date": "2026-10-10",
+    "time": "15:00",
+    "price": 11,
+    "currency": "€",
+    "venue": "La Cité Fertile",
+    "trending": false,
+    "lineup": [
+      "Gilb'R",
+      "DJ Volta",
+      "DJ Jee",
+      "Oxyd"
+    ],
+    "desc": "Le label parisien Sound Enforcers investit La Cité Fertile, à Pantin, pour une journée entière de drum & bass, de breaks et de UK bass, de 15 h à minuit. Dans cette ancienne gare de marchandises SNCF, la soirée occupe une salle rarement ouverte au public, aux airs de salle de classe à l'ancienne, avec une jauge volontairement limitée à 300 personnes. Aux platines, deux figures de Radio Nova dans les années 90, qui ont fait entendre la jungle et la drum & bass sur les ondes parisiennes : DJ Volta (More Breaks) et Gilb'R (Rollin'), en sélections 100 % vinyle. À leurs côtés, DJ Jee, à la tête du label, pour une drum & bass deep et ruff, et Oxyd, pionnier de la UK bass française, membre du label Intramuros et ancien résident de Rinse FM. Billets de 11 € (early bird) à 16,50 €, bar et restauration sur place, pas de vestiaire. Accès par le RER E (gare de Pantin, à 4 minutes à pied), le métro 7 (Quatre Chemins) ou le tram T3b (Ella Fitzgerald).",
+    "descEn": "Paris label Sound Enforcers takes over La Cité Fertile in Pantin for a full day of drum & bass, breaks and UK bass, from 3pm to midnight. Inside this former SNCF freight station, the party uses a room rarely open to the public, styled like an old-school classroom, with capacity deliberately capped at 300. Behind the decks, two Radio Nova figures from the 90s who brought jungle and drum & bass to the Paris airwaves: DJ Volta (More Breaks) and Gilb'R (Rollin'), both playing all-vinyl selections. Alongside them, label boss DJ Jee with deep and rough drum & bass, and Oxyd, a pioneer of the French UK bass scene, member of the Intramuros label and former Rinse FM resident. Tickets from €11 (early bird) to €16.50, bar and food on site, no cloakroom. Getting there: RER E (Pantin station, 4 minutes on foot), metro line 7 (Quatre Chemins) or tram T3b (Ella Fitzgerald).",
+    "ticketUrl": "https://shotgun.live/fr/events/sound-enforcers-x-la-cite-fertile",
+    "_source": "dépôt 03db2fe0 par claire.4promo@gmail.com, recoupé sur le JSON-LD MusicEvent de shotgun.live/en/events/sound-enforcers-x-la-cite-fertile (10/10/2026 15:00-00:00, La Cité Fertile, line-up identique, offres Early 11 €, Regular 13,20 €, Late 16,50 €, toutes InStock le 25/09/2026)",
+    "_subgenres": [
+      "UK Bass",
+      "Breakbeat",
+      "Jungle"
+    ],
+    "_geocode": "coordonnées location.geo du JSON-LD Shotgun (celles de l'autre fiche du lieu), le géocodage du dépôt tombait à ~100 m",
+    "_poster": "https://res.cloudinary.com/shotgun/image/upload/f_jpg/q_auto/v1789114658/dev/artworks/SE_261010-cite-fertile-social_SG_1920_x_1080_xqd49m"
   }
 ]

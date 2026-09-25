@@ -635,6 +635,7 @@ export const FLYERS: ReadonlySet<string> = new Set([
   "slalom-xxl-popof-techno-to-hardtechno-088d2fc1d0.jpg",
   "snowall-2-0-mauvais-garcon-17d3c0f862.jpg",
   "solarium-vol-3-electro-house-dance-002c3256ba.jpg",
+  "sound-enforcers-a-la-cite-fertile-93cc1fe30d.jpg",
   "sound-of-bassline-daytime-rave-sheffield-619649b941.jpg",
   "source-season-2-ranger-trucco-266fda4b47.jpg",
   "space-odyssey-worakls-rodriguez-jr-ce80ad1450.jpg",

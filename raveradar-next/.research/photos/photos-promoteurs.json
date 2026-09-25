@@ -7,5 +7,15 @@
     "kind": "event",
     "width": 1024,
     "note": "affiche officielle de la soirée publiée par l'organisateur (JPEG servi sous une extension .png) : elle porte le nom, la date 25.09.2026, C12 Brussels et le line-up complet"
+  },
+  {
+    "id": 2464,
+    "image": "https://res.cloudinary.com/shotgun/image/upload/f_jpg/q_auto/v1789114658/dev/artworks/SE_261010-cite-fertile-social_SG_1920_x_1080_xqd49m",
+    "sourcePage": "https://shotgun.live/en/events/sound-enforcers-x-la-cite-fertile",
+    "credit": "Sound Enforcers",
+    "kind": "event",
+    "width": 3840,
+    "cropX": 0.05,
+    "note": "affiche officielle de la soirée versée par l'organisateur sur sa billetterie (16:9) : nom du label, line-up, lieu, date 10.10.26 et horaires 15H-00H. La vignette 4:5 est calée à gauche sur le logotype, le fichier pleine taille garde toute l'affiche"
   }
 ]
