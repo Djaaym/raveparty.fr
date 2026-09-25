@@ -371,9 +371,10 @@
   "sources": [
    "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
    "https://secure.tickster.com/no/65k43ekbmbma7a7/products",
-   "https://www.sentralen.no/"
+   "https://www.sentralen.no/",
+   "https://no.wikipedia.org/wiki/Sentralen"
   ],
-  "note": "Adresse Øvre Slottsgate 3, 0157 Oslo (site de Sentralen). Coordonnées : Nominatim sur l'adresse (59.911002, 10.74017). Horaire : l'organisateur écrit 22:00 - 03:00, tickster affiche « Starter 21:00 ». Prix : Standard Final Release 699 kr en vente (« Få igjen »), Stage 999 kr « Utsolgt ». Vendredi 06/11/2026 vérifié. « Ancienne banque » : Sentralen occupe l'ancien siège de la Christiania Sparebank, fait connu mais non relu dans une source pendant cette recherche, à retirer si doute.",
+  "note": "Adresse Øvre Slottsgate 3, 0157 Oslo (site de Sentralen). Coordonnées : Nominatim sur l'adresse (59.911002, 10.74017). Horaire : l'organisateur écrit 22:00 - 03:00, tickster affiche « Starter 21:00 ». Prix : Standard Final Release 699 kr en vente (« Få igjen »), Stage 999 kr « Utsolgt ». Vendredi 06/11/2026 vérifié. « Ancienne banque » : anciens locaux de la Christiania Sparebank (Wikipédia norvégien).",
   "_image": {
    "image": "https://static.tickster.com/ee/8ddad5bc854dc73b70c2a3f7327570e8515561",
    "sourcePage": "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
@@ -419,6 +420,82 @@
    "kind": "event",
    "width": 2000,
    "note": "affiche officielle (og:image tickster, original), 2000x1125"
+  }
+ },
+ {
+  "title": "X by Pipapo à De Gudde Wëllen",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Luxembourg",
+  "country": "Luxembourg",
+  "lat": 49.60928,
+  "lng": 6.13347,
+  "date": "2026-10-10",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "De Gudde Wëllen",
+  "trending": false,
+  "lineup": [
+   "Gebeess Houeren",
+   "Chainsmokerz"
+  ],
+  "desc": "Pipapo, le projet luxembourgeois de réduction des risques en milieu festif, fête ses dix ans. Après une journée d'ateliers et une conférence aux Rotondes, la nuit passe à De Gudde Wëllen, le club de la rue du Saint-Esprit dans la Ville-Haute : à partir de 23 h, Gebeess Houeren et Chainsmokerz y jouent drum & bass et electronica, pendant que la fête se poursuit aux Rotondes et au Rocas, cinq dancefloors au total. Entrée libre, programme complet encore à venir.",
+  "descEn": "Pipapo, Luxembourg's nightlife harm reduction project, turns ten. After a day of workshops and a talk at Rotondes, the night moves to De Gudde Wëllen, the club on rue du Saint-Esprit in the Ville-Haute: from 11pm, Gebeess Houeren and Chainsmokerz play drum and bass and electronica there, while the party carries on at Rotondes and Rocas, five dancefloors in all. Free entry, full programme still to be announced.",
+  "ticketUrl": "https://www.deguddewellen.lu/events/x-by-pipapo",
+  "sources": [
+   "https://www.deguddewellen.lu/events/x-by-pipapo",
+   "https://www.deguddewellen.lu/agenda",
+   "https://pipapo.lu/"
+  ],
+  "note": "Adresse De Gudde Wëllen, 17 rue du Saint-Esprit, Luxembourg. Coordonnées : nœud OSM De Gudde Wëllen (Nominatim 49.609283, 6.1334744). Samedi 10/10/2026 vérifié. Prix : « The event is FREE » sur la page du club, donc price 0 = vraiment gratuit. DOUTE : l'événement se tient sur trois lieux (Rotondes, De Gudde Wëllen, Rocas) ; la fiche retient De Gudde Wëllen parce que c'est la source lue et le seul plateau dont le line-up est publié. Line-up complet de la nuit « TBA ».",
+  "_image": {
+   "image": "https://cdn.prod.website-files.com/687ea5a502a25a60cc879e12/6aacf4e753c97c47bdab29d3_Pipapo%20X%20program%20DGW.png",
+   "sourcePage": "https://www.deguddewellen.lu/events/x-by-pipapo",
+   "credit": "De Gudde Wëllen / Pipapo",
+   "kind": "event",
+   "width": 480,
+   "note": "affiche officielle du programme, 480x640 seulement (portrait), faute de mieux"
+  }
+ },
+ {
+  "title": "Trentemøller au Den Atelier",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Luxembourg",
+  "country": "Luxembourg",
+  "lat": 49.59876,
+  "lng": 6.1261,
+  "date": "2027-03-07",
+  "time": "19:00",
+  "price": 39.5,
+  "currency": "EUR",
+  "venue": "Den Atelier",
+  "trending": false,
+  "lineup": [
+   "Trentemøller"
+  ],
+  "desc": "Le Danois Anders Trentemøller, passé de la techno minimale de ses débuts à une électronique sombre jouée avec un groupe sur scène, fait étape au Den Atelier le dimanche 7 mars 2027, entre Bruxelles et Amsterdam dans sa tournée européenne. La salle de la rue de Hollerich, dans le quartier de la Gare, occupe un ancien garage de camions Renault et accueille jusqu'à 1 200 personnes depuis 1995. Billets autour de 39,50 €.",
+  "descEn": "Denmark's Anders Trentemøller, who moved from the minimal techno of his early records to a dark electronic sound played with a live band, stops at Den Atelier on Sunday 7 March 2027, between Brussels and Amsterdam on his European tour. The rue de Hollerich venue in the Gare district fills a former Renault truck garage and has held up to 1,200 people since 1995. Tickets around 39.50 euros.",
+  "ticketUrl": "https://www.atelier.lu/shows/trentemoller-4/",
+  "sources": [
+   "https://tix.to/trentemoller",
+   "https://agendaza.fr/salle/den-atelier-luxembourg",
+   "https://concerts50.com/artists/trentem-ller-tour-dates",
+   "https://en.wikipedia.org/wiki/Den_Atelier"
+  ],
+  "note": "Date confirmée par la page de tournée officielle (tix.to, lien vers atelier.lu/shows/trentemoller-4/). atelier.lu répond 403 depuis le conteneur, page de la salle non lue. Adresse 54 rue de Hollerich : coordonnées Nominatim sur l'adresse (49.5987577, 6.1261009) ; agendaza donne 49.59880, 6.12481 (~90 m), à trancher. Horaire : 19:00 selon concerts50 (JSON-LD), 20:00 selon un résumé de recherche, donc indicatif. Prix : 39,50 € d'après agendaza (offre Fnac Spectacles via Awin), indicatif, non vérifié sur la billetterie de la salle. Dimanche 07/03/2027 vérifié. DOUTE de périmètre : concert live électronique plutôt que soirée de club ; genre « Techno » faute de case plus juste.",
+  "_image": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Den_Atelier%2C_rue_de_Hollerich-101.jpg/1280px-Den_Atelier%2C_rue_de_Hollerich-101.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Den_Atelier,_rue_de_Hollerich-101.jpg",
+   "credit": "Jwh, Wikimedia Commons, CC BY-SA 3.0 lu",
+   "kind": "venue",
+   "width": 1280,
+   "note": "façade de la salle (février 2015), paysage 1280x854"
   }
  }
 ]
