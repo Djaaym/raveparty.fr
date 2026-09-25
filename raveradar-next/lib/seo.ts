@@ -146,7 +146,14 @@ export function eventMetaDesc(e: RaveEvent, lang: Lang, text?: string): string {
 const ISO_CURRENCY: Record<string, string> = {
   "€": "EUR", "£": "GBP", "$": "USD", "CHF": "CHF", "Kč": "CZK",
   "zł": "PLN", "kr": "NOK", "Ft": "HUF", "RSD": "RSD", "lei": "RON",
+  "GEL": "GEL", "KM": "BAM", "MKD": "MKD", "Lek": "ALL", "BGN": "BGN",
 };
+/* « kr » est la couronne de quatre pays : la carte ci-dessus la publiait en NOK partout,
+   donc une soirée à Stockholm annonçait son tarif en couronnes norvégiennes dans le
+   JSON-LD. Le symbole reste celui qu'on paie à l'entrée, c'est le pays qui départage. */
+const KRONA: Record<string, string> = { Sweden: "SEK", Denmark: "DKK", Norway: "NOK", Iceland: "ISK" };
+const isoCurrency = (e: RaveEvent) =>
+  (e.currency === "kr" ? KRONA[e.country] : undefined) ?? ISO_CURRENCY[e.currency] ?? "EUR";
 
 const abs = (lang: Lang, path: string) => `${SITE_URL}${lang === "en" ? "/en" : ""}${path}`;
 
@@ -229,7 +236,7 @@ export function eventJsonLd(
       "@type": "Offer",
       // An unconfirmed gate price is left out rather than published as fact.
       ...(e.priceNote === "unknown" ? {} : { price: e.price }),
-      priceCurrency: ISO_CURRENCY[e.currency] ?? "EUR",
+      priceCurrency: isoCurrency(e),
       availability: isPast(e) ? "https://schema.org/SoldOut" : "https://schema.org/InStock",
       url: tickets ?? abs(lang, eventPath(e)),
       validFrom: `${e.date}T00:00:00`,

@@ -53,7 +53,11 @@ CURRENCY_FIX = {"EUR": "€", "GBP": "£", "USD": "$",
                "CZK": "Kč", "PLN": "zł", "CHF": "CHF", "HUF": "Ft", "RON": "lei",
                "DKK": "kr", "SEK": "kr", "NOK": "kr", "ISK": "kr",
                 # "дин" en cyrillique sur un site FR/EN ne dit rien à personne.
-               "дин": "RSD", "RSD": "RSD", "BGN": "BGN", "лв": "BGN"}
+               "дин": "RSD", "RSD": "RSD", "BGN": "BGN", "лв": "BGN",
+                # Même logique que RSD : le symbole local tel que l'affichent les salles
+                # (« 30 KM » à Sarajevo, « 2 140 Lek » à Tirana), un code lisible quand le
+                # symbole est en cyrillique (ден) ou peu connu hors du pays (₾).
+                "BAM": "KM", "ALL": "Lek", "MKD": "MKD", "ден": "MKD", "GEL": "GEL", "₾": "GEL"}
 
 # Le libellé de pays est une clé, pas un affichage : COUNTRY_FR / COUNTRY_FLAG sont
 # indexés dessus et `/pays/{slug}` en dérive. Un agent qui rend "United Kingdom" là où
@@ -160,7 +164,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "events-*.json"))):
             rejected.append((fn, e["title"], f'bad type {e["type"]!r}')); continue
         if is_test_listing(e["title"]):
             rejected.append((fn, e["title"], "annonce de test d'un promoteur")); continue
-        if (e.get("endDate") or e["date"]) < "2026-09-10":
+        if (e.get("endDate") or e["date"]) < "2026-09-25":
             rejected.append((fn, e["title"], "already over")); continue
         # Normalise BEFORE the dedup key: a title carrying its edition year
         # ("Sziget Festival 2026") must match the stored "Sziget Festival",

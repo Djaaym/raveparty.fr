@@ -1,0 +1,524 @@
+[
+  {
+    "title": "Bassiani 12",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.72277,
+    "lng": 44.79082,
+    "date": "2026-10-09",
+    "endDate": "2026-10-12",
+    "time": "12:00",
+    "price": 112,
+    "currency": "GEL",
+    "venue": "Bassiani",
+    "trending": true,
+    "lineup": [
+      "Rødhåd",
+      "µ-Ziq",
+      "Cassy",
+      "Lawrence",
+      "Ryan Elliott",
+      "Jason Kendig",
+      "Spekki Webu",
+      "Olivia Mendez",
+      "Truncate",
+      "Fadi Mohem",
+      "Don Williams",
+      "Erika",
+      "DJ Sodeyama",
+      "Zitto",
+      "HVL",
+      "MARRØN",
+      "Loidis",
+      "Lowtec",
+      "Kassem Mosse",
+      "Yossi Amoyal",
+      "Haruka",
+      "DJ Yazi",
+      "Ndrx",
+      "Newa",
+      "Zesknel",
+      "Kancheli",
+      "Ness",
+      "Boyá",
+      "Resom",
+      "Dr Banana",
+      "Hamatsuki",
+      "Skyra",
+      "Kvanchi",
+      "Dito",
+      "Mancho",
+      "Nicole",
+      "Troy Vladislavovich",
+      "Shvili",
+      "Sophie Phare",
+      "Valley Dolly"
+    ],
+    "desc": "Bassiani fête ses 12 ans par un marathon qui démarre le vendredi 9 octobre à midi et ne s'arrête que le lundi 12. Le club occupe l'ancienne piscine olympique creusée sous le stade Dinamo Arena de Tbilissi, avec la salle principale Bassiani et la plus petite Horoom. Rødhåd, µ-Ziq en live, Cassy, Lawrence, Ryan Elliott, Jason Kendig et Spekki Webu rejoignent les résidents HVL, Zitto, Ndrx et Newa. Entrée à 112 GEL pour l'ensemble du marathon.",
+    "descEn": "Bassiani celebrates twelve years with a marathon that starts on Friday 9 October at noon and runs until Monday 12 October. The club sits in the former Olympic swimming pool dug beneath Tbilisi's Dinamo Arena stadium, with the main Bassiani room and the smaller Horoom. Rødhåd, µ-Ziq live, Cassy, Lawrence, Ryan Elliott, Jason Kendig and Spekki Webu join residents HVL, Zitto, Ndrx and Newa. Entry is 112 GEL for the whole marathon.",
+    "ticketUrl": "https://bassiani.com/light/nights/1108",
+    "sources": [
+      "https://bassiani.com/api/?app=WebNight&resource=row&id=1108",
+      "https://bassiani.com/api/?app=WebNight&resource=list&page=1",
+      "https://nominatim.openstreetmap.org/search?q=Bassiani,+Tbilisi&format=json"
+    ],
+    "note": "Bassiani, 2 avenue Akaki Tsereteli, sous le Dinamo Arena (Didube). Coordonnées : noeud OSM 'nightclub' Bassiani (41.7227728, 44.7908222). Date, horaire (9 oct 12:00 jusqu'au 12 oct) et line-up lus dans l'API officielle du club (texte 'On October 9, 2026, at 12:00, the anniversary marathon begins and lasts until October 12th'). Prix 112 GEL = champ price de l'API de billetterie du club, en vente (selling=1). Entrée soumise à inscription et face control. endDate posé car marathon de trois jours annoncé comme tel. Line-up : B2B éclatés en noms individuels (Haruka B2B DJ Yazi, Kancheli B2B Ness, Ndrx B2B Newa, Boyá B2B Resom, Sophie Phare B2B Valley Dolly, Lowtec & Kassem Mosse, Hamatsuki & Skyra live, Kvanchi & Dito, Nicole & Troy Vladislavovich).",
+    "_image": {
+      "image": "https://bassiani.com/uploads/2026/07/1784200255.png",
+      "sourcePage": "https://bassiani.com/light/nights/1108",
+      "credit": "Bassiani",
+      "kind": "event",
+      "width": 2480,
+      "note": "affiche officielle de BASSIANII2 (JPEG servi avec extension .png, 2480x3508)"
+    }
+  },
+  {
+    "title": "The Advent at Bassiani",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.72277,
+    "lng": 44.79082,
+    "date": "2026-10-23",
+    "time": "23:59",
+    "price": 32,
+    "currency": "GEL",
+    "venue": "Bassiani",
+    "trending": false,
+    "lineup": [
+      "The Advent",
+      "Samuel Kerridge",
+      "Josey Rebelle",
+      "HVL",
+      "Cypher",
+      "Ulf Eriksson",
+      "Mesh",
+      "Dito",
+      "Vakho"
+    ],
+    "desc": "Le Britannique The Advent, pionnier du live techno sur machines passé par Tresor et Kanzleramt, joue dans la grande salle de Bassiani, l'ancienne piscine olympique sous le stade Dinamo Arena de Tbilissi. Samuel Kerridge y donne un live, avec Josey Rebelle (Open Ground), HVL et Cypher. Dans la salle Horoom, Ulf Eriksson, Mesh, Dito et Vakho. Entrée à 32 GEL, ouverture à minuit.",
+    "descEn": "British artist The Advent, a pioneer of machine-driven live techno with releases on Tresor and Kanzleramt, plays the main room of Bassiani, the former Olympic swimming pool beneath Tbilisi's Dinamo Arena stadium. Samuel Kerridge performs live alongside Josey Rebelle (Open Ground), HVL and Cypher. In the Horoom, Ulf Eriksson, Mesh, Dito and Vakho. Entry is 32 GEL, doors at midnight.",
+    "ticketUrl": "https://bassiani.com/light/nights/1122",
+    "sources": [
+      "https://bassiani.com/api/?app=WebNight&resource=row&id=1122",
+      "https://bassiani.com/api/?app=WebNight&resource=list&page=1"
+    ],
+    "note": "Bassiani, 2 avenue Akaki Tsereteli, sous le Dinamo Arena. Coordonnées : noeud OSM 'nightclub' Bassiani. Date 23/10/2026 (vendredi), event_start 23:59, line-up et prix 32 GEL lus dans l'API officielle du club (selling=1). Inscription et face control à l'entrée.",
+    "_image": {
+      "image": "https://bassiani.com/uploads/2026/09/1790088069.png",
+      "sourcePage": "https://bassiani.com/light/nights/1122",
+      "credit": "Bassiani",
+      "kind": "event",
+      "width": 2480,
+      "note": "affiche officielle de la soirée (JPEG 2480x3508)"
+    }
+  },
+  {
+    "title": "Ancient Methods au KHIDI",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.724898,
+    "lng": 44.781074,
+    "date": "2026-10-16",
+    "time": "00:00",
+    "price": 40,
+    "currency": "GEL",
+    "venue": "KHIDI",
+    "trending": false,
+    "lineup": [
+      "Ancient Methods",
+      "Demuja",
+      "Sevda",
+      "Alexandra"
+    ],
+    "desc": "Ancient Methods, résident du KHIDI et fondateur du label Persephonic Sirens, joue toute la nuit dans la salle principale du club, installé sous le pont Vakhushti Bagrationi au bord de la Koura, à Tbilissi. Dans la salle G2, l'Autrichien Demuja (house et techno teintées de dub, label MUJA), Sevda, projet progressive trance du résident Ladouka Ninua, et Alexandra. Prévente à partir de 40 GEL.",
+    "descEn": "Ancient Methods, a KHIDI resident and founder of the Persephonic Sirens label, plays all night long in the main room of the club, set beneath the Vakhushti Bagrationi bridge on the Mtkvari river in Tbilisi. In the G2 room, Austrian Demuja (dub-tinged house and techno, MUJA label), Sevda, the progressive trance project of resident Ladouka Ninua, and Alexandra. Pre-sale from 40 GEL.",
+    "ticketUrl": "https://khidi.ge/event/161026/",
+    "sources": [
+      "https://khidi.ge/event/161026/",
+      "https://khidi.ge/",
+      "https://khidi.ge/contact/"
+    ],
+    "note": "Coordonnées publiées sur la page contact officielle du club (41.724898, 44.781074). Date 16/10 lue sur la fiche (FRIDAY OCTOBER 16, vérifié vendredi en 2026, image du lot de septembre 2026). Prix : paliers de prévente I 40 / II 50 / III 60 / IV 80 GEL affichés, palier en cours non indiqué, donc 40 GEL indicatif. Heure d'ouverture non publiée sur la fiche : 00:00 indicatif.",
+    "_image": {
+      "image": "https://khidi.ge/wp-content/uploads/2026/09/16.10.2026.webp",
+      "sourcePage": "https://khidi.ge/event/161026/",
+      "credit": "KHIDI",
+      "kind": "event",
+      "width": 1000,
+      "note": "affiche officielle (og:image), 1000x1000"
+    }
+  },
+  {
+    "title": "Sunwaves Golden Sands",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Golden Sands",
+    "country": "Bulgaria",
+    "lat": 43.28277,
+    "lng": 28.04408,
+    "date": "2027-04-29",
+    "endDate": "2027-05-05",
+    "time": "22:00",
+    "price": 89,
+    "currency": "EUR",
+    "venue": "PR Beach",
+    "trending": true,
+    "lineup": [],
+    "desc": "Sunwaves, le festival roumain né à Mamaia et connu pour tourner jour et nuit sans interruption sur la house et la techno minimale, fête ses 20 ans avec son édition de printemps SW39 au PR Beach, un club de plage de Golden Sands (Zlatni Pyasatsi), la station balnéaire au nord de Varna, face à la mer Noire. Accès à partir du jeudi 29 avril 2027 à 22 h, jusqu'au 5 mai au matin. Line-up pas encore annoncé. Pass early bird à 89 €.",
+    "descEn": "Sunwaves, the Romanian festival born in Mamaia and known for running day and night without a break on house and minimal techno, turns 20 with its SW39 spring edition at PR Beach, a beach club in Golden Sands (Zlatni Pyasatsi), the resort north of Varna on the Black Sea. Gates open on Thursday 29 April 2027 at 10pm and it runs until the morning of 5 May. Line-up not yet announced. Early bird pass at €89.",
+    "ticketUrl": "https://bilet.bg/bg/events/sunwaves-festival-sw39-spring-edition-golden-sands-8203",
+    "sources": [
+      "https://sunwaves-fest.ro/edition/sunwaves-festival-sw39-spring-edition-golden-sands/",
+      "https://bilet.bg/bg/events/sunwaves-festival-sw39-spring-edition-golden-sands-8203-8203",
+      "https://www.livetickets.ro/bilete/sunwaves-festival-sw39-spring-edition-golden-sands",
+      "https://photon.komoot.io/api/?q=PR+Beach+Varna"
+    ],
+    "note": "PR Beach (PR Club), Golden Sands, Varna. Coordonnées : noeud OSM 'Pr. Beach' (bar de plage) via Photon, 43.2827705, 28.0440799 ; le lien Google Maps du billetteur ne pointe que sur la plage de Golden Sands. Date : JSON-LD bilet.bg startDate 2027-04-29T22:00 ; livetickets.ro : 'Access starting 29.04.2027 from 22:00, online ticket validation until 05.05.2027, 06:00' (fin de musique non précisée, endDate 05/05 retenu). Prix : Early Bird Dance Floor Festival Pass 89 EUR, plus bas tarif en vente (VIP 129, Backstage 189). Line-up non publié. Titre : le catalogue a déjà 'Sunwaves SW38' (Espagne) ; celui-ci est l'édition bulgare, d'où la ville dans le titre et pas le numéro d'édition. Bulgarie en euro depuis 2026.",
+    "_image": {
+      "image": "https://sunwaves-fest.ro/wp-content/uploads/2026/05/39-post_.png",
+      "sourcePage": "https://sunwaves-fest.ro/edition/sunwaves-festival-sw39-spring-edition-golden-sands/",
+      "credit": "Sunwaves Festival",
+      "kind": "event",
+      "width": 1080,
+      "note": "visuel officiel SW39 Spring Edition, 1080x1350"
+    }
+  },
+  {
+    "title": "Verknipt Bulgaria",
+    "type": "Warehouse",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "lat": 42.64913,
+    "lng": 23.39564,
+    "date": "2026-10-16",
+    "time": "22:00 - 07:00",
+    "price": 45,
+    "currency": "EUR",
+    "venue": "Inter Expo Center",
+    "trending": false,
+    "lineup": [
+      "Fantasm",
+      "Klofama",
+      "Lieks",
+      "Vorick",
+      "Teuton"
+    ],
+    "desc": "Le label néerlandais Verknipt pose pour la première fois sa soirée à Sofia, dans le hall 4 de l'Inter Expo Center, le parc d'expositions du boulevard Tsarigradsko Shose, à l'invitation de l'organisateur bulgare EXE. Fantasm et Klofama y font leurs débuts en Bulgarie, avec Lieks, Vorick et Teuton, sur une hard techno rapide. Le lendemain, la même salle accueille FACE2FACE avec Reinier Zonneveld. Billet autour de 45 €, formule deux soirs disponible.",
+    "descEn": "Dutch label Verknipt brings its night to Sofia for the first time, in Hall 4 of the Inter Expo Center, the exhibition grounds on Tsarigradsko Shose boulevard, hosted by Bulgarian promoter EXE. Fantasm and Klofama make their Bulgarian debuts alongside Lieks, Vorick and Teuton, on fast hard techno. The next night the same hall hosts FACE2FACE with Reinier Zonneveld. Tickets around €45, with a two-night combo available.",
+    "ticketUrl": "https://www.exegroup.org/events/verknipt-f2f",
+    "sources": [
+      "https://www.exegroup.org/events/verknipt-f2f",
+      "https://www.go-sofia.com/Events/Details/2364",
+      "https://allevents.in/sofia/exe-pres-verknipt-and-f2f-at-inter-expo-sofia/200030556559706",
+      "https://photon.komoot.io/api/?q=Inter+Expo+Center+Sofia"
+    ],
+    "note": "Inter Expo Center, bd Tsarigradsko Shose 147, 1784 Sofia, hall 4. Coordonnées : bâtiment OSM 'Интер Експо Център' (exhibition_centre, n°147) via Photon, 42.6491291, 23.3956404 (point du bâtiment, entrée précise du hall 4 non trouvée ; la bouche de métro Inter Expo Center est à 42.64981, 23.39390). Line-up du 16/10 lu sur exegroup.org et go-sofia. Horaire 22:00 - 07:00 d'après le résumé de la page verknipt.org/bulgaria (bloquée par Cloudflare en direct), 22:00 confirmé par go-sofia. Prix 45 € (combo 70 €) : INDICATIF, non lu directement sur la billetterie (kupibileti et fourvenues en 403)."
+  },
+  {
+    "title": "Darkbeat Invites au KUPE",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno",
+      "Hardcore"
+    ],
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "lat": 42.69322,
+    "lng": 23.32801,
+    "date": "2026-10-17",
+    "time": "23:00",
+    "price": 5.5,
+    "currency": "EUR",
+    "venue": "KUPE",
+    "trending": false,
+    "lineup": [
+      "Human",
+      "Sinner",
+      "Jakkar",
+      "Arlecin"
+    ],
+    "desc": "Le collectif Darkbeat Invites s'installe au KUPE, petit club en sous-sol du 8 rue Slavyanska, en plein centre de Sofia, pour une nuit de techno industrielle, de hard techno et de hardcore industriel. Au programme, le Géorgien Human, le Canadien Sinner, le Grec Jakkar et le Bulgare Arlecin. Ouverture à 23 h, billets super early bird à 5,50 € tant qu'il en reste.",
+    "descEn": "The Darkbeat Invites crew takes over KUPE, a small basement club at 8 Slavyanska Street in central Sofia, for a night of industrial techno, hard techno and industrial hardcore. On the bill: Georgia's Human, Canada's Sinner, Greece's Jakkar and Bulgaria's Arlecin. Doors at 11pm, super early bird tickets at €5.50 while they last.",
+    "ticketUrl": "https://bilet.bg/bg/events/darkbeat-invites-human-sinner-jakkar-arlecin-8738",
+    "sources": [
+      "https://bilet.bg/bg/events/darkbeat-invites-human-sinner-jakkar-arlecin-8738",
+      "https://www.go-sofia.com/Events/Details/2890"
+    ],
+    "note": "KUPE, Slavyanska 8, 1000 Sofia (JSON-LD bilet.bg). L'annonce parle d'un passage souterrain 'Underpass at 8 Slavyanska St., Corner of 6th September St.' ; coordonnées = adresse Slavyanska 8 (noeud OSM Théâtre 199, 42.6932346, 23.3280077), entrée exacte du club non vérifiée, à relire. Prix : SUPER EARLY BIRD 5,50 EUR, 46 billets restants au 25/09 ; paliers suivants non affichés. Date 17/10/2026 (samedi), 23:00 d'après le JSON-LD.",
+    "_image": {
+      "image": "https://panel.bilet.bg/media/events/03d4fb9b9962f84a8a49badc37a498ac.png",
+      "sourcePage": "https://bilet.bg/bg/events/darkbeat-invites-human-sinner-jakkar-arlecin-8738",
+      "credit": "Darkbeat Invites / KEVA",
+      "kind": "event",
+      "width": 500,
+      "note": "affiche officielle (og:image bilet.bg), 500x700, sous les 800 px conseillés"
+    }
+  },
+  {
+    "title": "Worakls au FORM Space",
+    "type": "Club",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Cluj-Napoca",
+    "country": "Romania",
+    "lat": 46.76765,
+    "lng": 23.57288,
+    "date": "2026-10-17",
+    "time": "23:59",
+    "price": 53.03,
+    "currency": "RON",
+    "venue": "FORM Space",
+    "trending": false,
+    "lineup": [
+      "Worakls"
+    ],
+    "desc": "Le FORM Space, club et salle de concert de l'allée Stadionului, au pied de la Cluj Arena, fête ses dix ans avec le compositeur et producteur français Worakls, figure de la musique électronique orchestrale, qui mêle pianos, cordes et mélodies house à la puissance des machines. Accès à partir de minuit le samedi 17 octobre, réservé aux plus de 18 ans. Entrée générale à 53,03 lei, pass backstage à 106,05 lei.",
+    "descEn": "FORM Space, the club and concert hall on Aleea Stadionului at the foot of Cluj Arena, celebrates ten years with French composer and producer Worakls, a leading name in orchestral electronic music who blends piano, strings and house melodies with the drive of machines. Doors at midnight on Saturday 17 October, strictly 18+. General access at 53.03 lei, backstage pass at 106.05 lei.",
+    "ticketUrl": "https://www.iabilet.ro/bilete-10-years-of-form-space-with-worakls-131792/",
+    "sources": [
+      "https://www.iabilet.ro/bilete-10-years-of-form-space-with-worakls-131792/",
+      "https://www.iabilet.ro/bilete-form-space-venue-1907/",
+      "https://photon.komoot.io/api/?q=Form+Space+Cluj"
+    ],
+    "note": "FORM Space, Aleea Stadionului 2, Cluj-Napoca (adresse du JSON-LD iabilet). Coordonnées : noeud OSM 'Form Space' (nightclub) via Photon, 46.7676481, 23.5728756. Date samedi 17/10/2026, accès 23:59. Prix : General Access 53,03 lei, plus bas tarif en vente (Backstage 106,05). Line-up : seul Worakls annoncé, programme final publié 3 jours avant selon la billetterie.",
+    "_image": {
+      "image": "https://static3.iabilet.ro/img/db/event/02/02/d0/00000429359-9ab7.png",
+      "sourcePage": "https://www.iabilet.ro/bilete-10-years-of-form-space-with-worakls-131792/",
+      "credit": "FORM Space",
+      "kind": "event",
+      "width": 4000,
+      "note": "visuel officiel de la soirée (paysage 4000x2250)"
+    }
+  },
+  {
+    "title": "Quite Lucky au Palatul Bragadiru",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.42155,
+    "lng": 26.0871,
+    "date": "2026-10-24",
+    "time": "22:00",
+    "price": 94.38,
+    "currency": "RON",
+    "venue": "Palatul Bragadiru",
+    "trending": false,
+    "lineup": [
+      "Bou"
+    ],
+    "desc": "Le promoteur roumain de drum & bass Quite Lucky tient sa 24e soirée au Palatul Bragadiru, palais de la fin du XIXe siècle construit pour le brasseur Dumitru Marinescu Bragadiru sur Calea Rahovei, dans le sud de Bucarest. En tête d'affiche, l'Anglais Bou, coproducteur et coauteur du tube « Baddadan », d'autres noms à venir. Ouverture à 22 h le samedi 24 octobre, réservé aux plus de 18 ans, billet phase 2 à 94,38 lei.",
+    "descEn": "Romanian drum & bass promoter Quite Lucky holds its 24th night at Palatul Bragadiru, a late 19th-century palace built for brewer Dumitru Marinescu Bragadiru on Calea Rahovei in southern Bucharest. Headlining is British producer Bou, co-producer and co-writer of the hit \"Baddadan\", with more names to come. Doors at 10pm on Saturday 24 October, strictly 18+, phase 2 tickets at 94.38 lei.",
+    "ticketUrl": "https://www.iabilet.ro/bilete-quite-lucky-024-with-bou-at-palatul-bragadiru-bucharest-130867/",
+    "sources": [
+      "https://www.iabilet.ro/bilete-quite-lucky-024-with-bou-at-palatul-bragadiru-bucharest-130867/",
+      "https://photon.komoot.io/api/?q=Palatul+Bragadiru"
+    ],
+    "note": "Palatul Bragadiru, Calea Rahovei 147-153, Bucarest (adresse de l'annonce). Coordonnées : bâtiment OSM 'Palatul Bragadiru' via Photon (44.4215504, 26.0871016), point du bâtiment, entrée sur Calea Rahovei. Date samedi 24/10/2026, 22:00. Prix : Blind Ticket épuisé, General Access Phase 2 94,38 lei = plus bas tarif en vente. Line-up : seul Bou annoncé ('More artists TBA'). L'histoire du palais (brasseur Bragadiru) est un fait connu, non tiré de l'annonce.",
+    "_image": {
+      "image": "https://static3.iabilet.ro/img/db/event/01/ff/33/00000425662-0a17.jpg",
+      "sourcePage": "https://www.iabilet.ro/bilete-quite-lucky-024-with-bou-at-palatul-bragadiru-bucharest-130867/",
+      "credit": "Quite Lucky",
+      "kind": "event",
+      "width": 1920,
+      "note": "visuel officiel QL024 (paysage 1920x1080)"
+    }
+  },
+  {
+    "title": "Kevin de Vries à l'ETKO",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Limassol",
+    "country": "Cyprus",
+    "lat": 34.66126,
+    "lng": 33.02072,
+    "date": "2026-11-21",
+    "time": "19:00 - 23:59",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "ETKO",
+    "trending": false,
+    "lineup": [
+      "Kevin de Vries",
+      "Key M",
+      "Damen"
+    ],
+    "desc": "L'Allemand Kevin de Vries, artiste du label Afterlife depuis 2018 et l'un des noms de la techno mélodique (« Dance With Me », « Metro »), joue dans le Hangar de l'ETKO, ancien site de la maison viticole ETKO reconverti en lieu d'événements au 31 Tsiflikoudia, dans la zone portuaire industrielle de Limassol. Key M et Damen complètent l'affiche. De 19 h à minuit le samedi 21 novembre. Tarif non communiqué sur la page du lieu, billetterie en ligne.",
+    "descEn": "Germany's Kevin de Vries, an Afterlife artist since 2018 and a leading name in melodic techno (\"Dance With Me\", \"Metro\"), plays the Hangar at ETKO, the former ETKO winery site turned events venue at 31 Tsiflikoudia in Limassol's industrial port area. Key M and Damen complete the bill. From 7pm to midnight on Saturday 21 November. Price not shown on the venue page, tickets sold online.",
+    "ticketUrl": "https://etkocyprus.com/events/kevindevries",
+    "sources": [
+      "https://etkocyprus.com/events/kevindevries",
+      "https://etkocyprus.com/events",
+      "https://www.bandsintown.com/v/10211451-etko-winery"
+    ],
+    "note": "ETKO, 31 Tsiflikoudia, 3010 Limassol, salle Hangar. Coordonnées publiées par le site officiel du lieu (données de la page : 34.6612551, 33.0207235). Date, horaire 19:00 - 23:59 et line-up lus sur la page officielle (JSON-LD). Prix : billetterie en widget JS ticketcrm, non lisible depuis le conteneur, donc price 0 = non communiqué, ne signifie pas gratuit. 'Ancien site viticole ETKO' : Bandsintown référence le lieu comme 'Etko Winery'.",
+    "_image": {
+      "image": "https://www.back.etkocyprus.com/attachments/X0I95cCdWEt065ra9oRaNdNeD5PyZjpFYqQ5LpAL.jpg",
+      "sourcePage": "https://etkocyprus.com/events/kevindevries",
+      "credit": "ETKO",
+      "kind": "event",
+      "width": 1200,
+      "note": "visuel officiel (og:image), paysage 1200x630"
+    }
+  },
+  {
+    "title": "DJ Tennis b2b Mano Le Tough au Warehouse by IT Quarter",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Limassol",
+    "country": "Cyprus",
+    "lat": 34.66261,
+    "lng": 33.02621,
+    "date": "2026-11-07",
+    "time": "21:00 - 04:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "The Warehouse by IT Quarter",
+    "trending": false,
+    "lineup": [
+      "DJ Tennis",
+      "Mano Le Tough",
+      "Echonomist",
+      "Pazzi",
+      "Pan."
+    ],
+    "desc": "L'Américain DJ Tennis, fondateur du label Life and Death, joue en b2b avec l'Irlandais Mano Le Tough au Warehouse by IT Quarter, entrepôt reconverti en salle d'événements au 20 rue Synergatismou, près du port de Limassol. Le Turc Echonomist complète la tête d'affiche, Pazzi et Pan. assurent le soutien, sur une house mélodique. Date reportée d'avril, ouverture à 21 h le samedi 7 novembre jusqu'à 4 h, billets à partir d'environ 20 €.",
+    "descEn": "American DJ Tennis, founder of the Life and Death label, goes back to back with Ireland's Mano Le Tough at The Warehouse by IT Quarter, a converted warehouse events space at 20 Synergatismou Street near Limassol port. Turkey's Echonomist completes the headline bill, with Pazzi and Pan. in support, on melodic house. Rescheduled from April, doors at 9pm on Saturday 7 November until 4am, tickets from around €20.",
+    "ticketUrl": "https://ra.co/events/2508473",
+    "sources": [
+      "https://cyprus.bz/event/3305/dj-tennis-b2b-mano-le-tough-echonomist-2026",
+      "https://rave-pulse.com/events/limassol/dj-tennis-x-mano-le-tough/",
+      "https://technocyprus.club/events/dj-tennis-mano-le-tough-echonomist",
+      "https://maps.apple.com/place?place-id=IB371FC3E88F55864"
+    ],
+    "note": "The Warehouse by IT Quarter, Synergatismou 20, 3010 Limassol. Coordonnées : fiche Apple Maps du lieu (34.662613, 33.026214), identiques au point de technocyprus pour la même salle. Attention, rave-pulse et technocyprus indiquent 'Carob Mill' dans le champ salle (reliquat de la date d'avril, reportée, qui avait lieu au Carob Mill) mais leur texte, le JSON-LD de cyprus.bz et l'affiche disent 'The Warehouse'. Date 07/11/2026 samedi, 21:00 - 04:00 (JSON-LD cyprus.bz en UTC+0 19:00 = 21:00 local). Prix 'from €20' (rave-pulse, technocyprus), INDICATIF : la billetterie RA n'est pas lisible depuis le conteneur. Billetterie officielle = RA (lien de l'offre JSON-LD).",
+    "_image": {
+      "image": "https://cyprus.bz/img/images/events/074864fa-efea-4197-b5ff-872e0f8fea7d/1786244587914.png",
+      "sourcePage": "https://cyprus.bz/event/3305/dj-tennis-b2b-mano-le-tough-echonomist-2026",
+      "credit": "The Warehouse by IT Quarter",
+      "kind": "event",
+      "width": 941,
+      "note": "affiche officielle de la soirée (WebP servi sous extension .png, 941x1672), copie hébergée par l'agenda cyprus.bz"
+    }
+  },
+  {
+    "title": "Anthony Rother at Bassiani",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.72277,
+    "lng": 44.79082,
+    "date": "2026-10-16",
+    "time": "23:59",
+    "price": 32,
+    "currency": "GEL",
+    "venue": "Bassiani",
+    "trending": false,
+    "lineup": [
+      "Anthony Rother",
+      "Hasvat Informant",
+      "Nikala",
+      "3AM",
+      "Beka Wu",
+      "Ina Kacz",
+      "Thomas Hessler",
+      "Gonno",
+      "Virginia",
+      "Tomma",
+      "Edge"
+    ],
+    "desc": "L'Allemand Anthony Rother, pionnier de l'electro et fondateur du label Psi49Net en 1998, joue un set hybride dans la grande salle de Bassiani, le club installé dans l'ancienne piscine olympique sous le stade Dinamo Arena de Tbilissi. Beka Wu en live, Hasvat Informant, Nikala, 3AM et le b2b Ina Kacz et Thomas Hessler complètent la salle. Dans la Horoom, le Japonais Gonno, Virginia (résidente du Panorama Bar), Tomma et Edge. Entrée à 32 GEL.",
+    "descEn": "Germany's Anthony Rother, an electro pioneer who founded the Psi49Net label in 1998, plays a hybrid set in the main room of Bassiani, the club set in the former Olympic swimming pool beneath Tbilisi's Dinamo Arena stadium. Beka Wu live, Hasvat Informant, Nikala, 3AM and a b2b from Ina Kacz and Thomas Hessler complete the room. In the Horoom, Japan's Gonno, Panorama Bar resident Virginia, Tomma and Edge. Entry is 32 GEL.",
+    "ticketUrl": "https://bassiani.com/light/nights/1120",
+    "sources": [
+      "https://bassiani.com/api/?app=WebNight&resource=row&id=1120",
+      "https://bassiani.com/api/?app=WebNight&resource=list&page=1"
+    ],
+    "note": "Bassiani, 2 avenue Akaki Tsereteli, sous le Dinamo Arena. Coordonnées : noeud OSM 'nightclub' Bassiani. Date 16/10/2026 (vendredi), event_start 23:59, line-up et prix 32 GEL lus dans l'API officielle du club (selling=1). Même soir que 'Ancient Methods au KHIDI', autre club de Tbilissi, pas un doublon.",
+    "_image": {
+      "image": "https://bassiani.com/uploads/2026/09/1789633552.png",
+      "sourcePage": "https://bassiani.com/light/nights/1120",
+      "credit": "Bassiani",
+      "kind": "event",
+      "width": 2480,
+      "note": "affiche officielle de la soirée (JPEG 2480x3508)"
+    }
+  },
+  {
+    "title": "Therapy Sessions à l'Expirat",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.41546,
+    "lng": 26.09313,
+    "date": "2026-10-08",
+    "time": "23:00",
+    "price": 60,
+    "currency": "RON",
+    "venue": "Expirat Halele Carol",
+    "trending": false,
+    "lineup": [
+      "The Panacea",
+      "Current Value",
+      "Robyn Chaos",
+      "Freqax",
+      "Tremour"
+    ],
+    "desc": "La série Therapy Sessions, référence de la drum & bass la plus sombre et la plus rapide, revient à Bucarest à l'Expirat, club installé dans les halles industrielles Halele Carol, rue Doctor Constantin Istrati, avec le collectif local Bucharestpressure (B:pressure). À l'affiche, l'Allemand The Panacea, Current Value, Robyn Chaos, Freqax et Tremour, avec les visuels du VJ Le Pimpage. Jeudi 8 octobre à 23 h, réservé aux plus de 18 ans, prévente à 60 lei.",
+    "descEn": "Therapy Sessions, the series devoted to the darkest and fastest end of drum & bass, returns to Bucharest at Expirat, a club set in the Halele Carol industrial halls on Doctor Constantin Istrati Street, hosted by local crew Bucharestpressure (B:pressure). On the bill: Germany's The Panacea, Current Value, Robyn Chaos, Freqax and Tremour, with visuals by VJ Le Pimpage. Thursday 8 October at 11pm, strictly 18+, presale at 60 lei.",
+    "ticketUrl": "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+    "sources": [
+      "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+      "https://www.iabilet.ro/bilete-expirat-halele-carol-venue-1845/",
+      "https://photon.komoot.io/api/?q=Expirat%20Halele%20Carol"
+    ],
+    "note": "Expirat Halele Carol, Strada Doctor Constantin Istrati 1, Bucarest 040542 (iabilet). Coordonnées : noeud OSM 'Expirat' (bar/club, n°1) via Photon, 44.4154632, 26.0931311. Date jeudi 08/10/2026 (JSON-LD startDate 2026-10-08), 'ora 23:00' (la page indique aussi 'acces de la 20:00', incohérent, 23:00 retenu comme dans le titre de la billetterie). Prix : Early Bird 50 lei épuisé, Presale 60 lei = plus bas tarif en vente (abonnement 3 soirées à 120 lei).",
+    "_image": {
+      "image": "https://static3.iabilet.ro/img/db/event/01/f6/db/00000424908-78c0.png",
+      "sourcePage": "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+      "credit": "B:pressure",
+      "kind": "event",
+      "width": 1920,
+      "note": "visuel officiel (paysage 1920x1080)"
+    }
+  }
+]

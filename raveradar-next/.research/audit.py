@@ -92,7 +92,7 @@ for e in ev:
     if c not in CFR: bad.append(f'{tag}: country « {c} » absent de COUNTRY_FR')
     if c not in CFLAG: bad.append(f'{tag}: country « {c} » absent de COUNTRY_FLAG')
     cur = e.get("currency", "")
-    if re.fullmatch(r"[A-Z]{3}", cur) and cur not in ("CHF", "RSD", "BGN"):
+    if re.fullmatch(r"[A-Z]{3}", cur) and cur not in ("CHF", "RSD", "BGN", "MKD", "GEL"):
         bad.append(f'{tag}: devise en code ISO « {cur} » (attendu : symbole)')
     if not cur: bad.append(f'{tag}: devise vide')
     # Une devise que `ISO_CURRENCY` (lib/seo.ts) ne connaît pas retombe sur "EUR" dans

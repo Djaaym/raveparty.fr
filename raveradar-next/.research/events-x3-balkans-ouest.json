@@ -1,0 +1,502 @@
+[
+  {
+    "title": "Autechre au MKC",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Skopje",
+    "country": "North Macedonia",
+    "lat": 41.99642,
+    "lng": 21.44277,
+    "date": "2026-10-02",
+    "time": "22:00",
+    "price": 1500,
+    "currency": "MKD",
+    "venue": "MKC",
+    "trending": false,
+    "lineup": [
+      "Autechre",
+      "MDX",
+      "Aleksandar Ordev"
+    ],
+    "desc": "Première venue d'Autechre à Skopje, présentée par ROTKO books&music au Centre culturel des jeunes (MKC), sur le quai Dimitar Vlahov au bord du Vardar. Le duo de Sean Booth et Rob Brown, pilier de Warp depuis les années 1990, joue dans le noir complet, sans aucun effet de scène. En première partie, MDX (Andy Medlock, fondateur de Skam Records) et le producteur local Aleksandar Ordev. Billet à 1 500 denars.",
+    "descEn": "Autechre's first ever show in Skopje, presented by ROTKO books&music at the Youth Cultural Centre (MKC) on the Dimitar Vlahov quay by the Vardar river. Sean Booth and Rob Brown, Warp mainstays since the 1990s, play in total darkness with no stage effects at all. Support comes from MDX (Andy Medlock, founder of Skam Records) and local producer Aleksandar Ordev. Tickets cost 1,500 denars.",
+    "ticketUrl": "https://mktickets.mk/event/autechre/",
+    "sources": [
+      "https://mktickets.mk/event/autechre/",
+      "https://trn.mk/autechre-vo-skopje-koncert-vo-temnica-mkc/",
+      "https://www.songkick.com/concerts/42917394-autechre-at-mkc-youth-cultural-center-mkts"
+    ],
+    "note": "MKC (Младински Културен Центар), Kej Dimitar Vlahov 13, Skopje. Coordonnées Nominatim (way OSM 34321470). Prix 1 500 MKD lu sur mktickets.mk. Heure 22:00 d'après l'agenda allevents (non confirmée par la billetterie, indicative). Vendredi 2 octobre 2026 vérifié.",
+    "_image": {
+      "image": "https://trn.mk/wp-content/uploads/2026/09/fb-eventpost-copy.jpg",
+      "sourcePage": "https://trn.mk/autechre-vo-skopje-koncert-vo-temnica-mkc/",
+      "credit": "ROTKO books&music",
+      "kind": "event",
+      "width": 1920,
+      "note": "visuel officiel de l'événement repris par trn.mk (paysage 1920x1010)"
+    }
+  },
+  {
+    "title": "Verknipt Albania",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Tirana",
+    "country": "Albania",
+    "lat": 41.31272,
+    "lng": 19.80935,
+    "date": "2026-11-29",
+    "time": "21:00",
+    "price": 2140,
+    "currency": "ALL",
+    "venue": "Tirana Olympic Park",
+    "trending": false,
+    "lineup": [
+      "Ben Techy",
+      "Kuko",
+      "Loren",
+      "Negitiv",
+      "Santøs",
+      "Sopik",
+      "Rorganic",
+      "Trypdø",
+      "Debbie"
+    ],
+    "desc": "Première de la marque néerlandaise Verknipt en Albanie, organisée par Plipki Records au parc olympique Feti Borova, l'arène couverte de 1 200 places inaugurée en 2017 sur l'ancien complexe Dinamo, près du Grand Parc de Tirana. Au programme, la hard techno rapide de Ben Techy, Kuko, Loren, Negitiv et Santøs, avec Sopik b2b Rorganic et Trypdø b2b Debbie. Ouverture à 21 h, billet à 2 140 leks (troisième palier, les précédents sont épuisés).",
+    "descEn": "Dutch brand Verknipt lands in Albania for the first time, promoted by Plipki Records at the Feti Borova Olympic Park, the 1,200-capacity indoor arena opened in 2017 on the former Dinamo complex near Tirana's Grand Park. Expect fast hard techno from Ben Techy, Kuko, Loren, Negitiv and Santøs, plus Sopik b2b Rorganic and Trypdø b2b Debbie. Doors at 21:00, tickets at 2,140 lek (third tier, earlier tiers are sold out).",
+    "ticketUrl": "https://gowild.al/en/event/verknipt-albania",
+    "sources": [
+      "https://gowild.al/en/event/verknipt-albania",
+      "https://en.wikipedia.org/wiki/Tirana_Olympic_Park"
+    ],
+    "note": "Parku Olimpik Feti Borova, Rruga Liman Kaba, Tirana. Coordonnées Nominatim (Parku Olimpik), recoupées par le plus code 8R75+4G8 (41.3128, 19.8088). Prix : TIER 3 à 2 140 lekë, seul palier en vente (Verknipt Lovers 1 200, Tier 1 1 500 et Tier 2 1 870 épuisés). Dimanche 29 novembre 2026 vérifié.",
+    "_image": {
+      "image": "https://gowild.al/storage/events/September2026/f3zxKQZK1m3KDNdyLW9i.jpg",
+      "sourcePage": "https://gowild.al/en/event/verknipt-albania",
+      "credit": "Plipki Records / Verknipt",
+      "kind": "event",
+      "width": 1000,
+      "note": "affiche officielle (1000x1208)"
+    }
+  },
+  {
+    "title": "Chris Liebing au Tirana Olympic Park",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Tirana",
+    "country": "Albania",
+    "lat": 41.31272,
+    "lng": 19.80935,
+    "date": "2027-03-05",
+    "time": "22:00",
+    "price": 1000,
+    "currency": "ALL",
+    "venue": "Tirana Olympic Park",
+    "trending": false,
+    "lineup": [
+      "Chris Liebing"
+    ],
+    "desc": "Folie Electronic fait venir Chris Liebing à Tirana, dans l'arène du parc olympique Feti Borova, salle de 1 200 places ouverte en 2017 sur l'ancien complexe sportif Dinamo, à deux pas du Grand Parc. Le DJ allemand, fondateur du label CLR et figure de la techno depuis les années 1990, y joue une nuit entière annoncée avec une grosse production. Ouverture à 22 h, billets early bird à 1 000 leks en quantité limitée.",
+    "descEn": "Folie Electronic brings Chris Liebing to Tirana, in the arena of the Feti Borova Olympic Park, a 1,200-capacity hall opened in 2017 on the former Dinamo sports complex next to the Grand Park. The German DJ, founder of the CLR label and a techno figure since the 1990s, plays a full night announced with a large-scale production. Doors at 22:00, limited early bird tickets at 1,000 lek.",
+    "ticketUrl": "https://gowild.al/en/event/folie-electronic-presents-chris-liebing",
+    "sources": [
+      "https://gowild.al/en/event/folie-electronic-presents-chris-liebing",
+      "https://en.wikipedia.org/wiki/Tirana_Olympic_Park"
+    ],
+    "note": "Parku Olimpik Feti Borova, Tirana. Coordonnées Nominatim + plus code 8R75+4G8. Prix : Early Bird 1 000 lekë, seul tarif en vente au 25/09/2026. Vendredi 5 mars 2027 vérifié.",
+    "_image": {
+      "image": "https://gowild.al/storage/events/September2026/NZwYSfyx4kJzrbrUENkW.jpg",
+      "sourcePage": "https://gowild.al/en/event/folie-electronic-presents-chris-liebing",
+      "credit": "Folie Electronic / Gowild",
+      "kind": "event",
+      "width": 1000,
+      "note": "affiche officielle (1000x1250)"
+    }
+  },
+  {
+    "title": "Refresh x Hrup au Channel Zero",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "lat": 46.05708,
+    "lng": 14.51666,
+    "date": "2026-10-09",
+    "time": "23:00",
+    "price": 6,
+    "currency": "EUR",
+    "venue": "Channel Zero",
+    "trending": false,
+    "lineup": [
+      "Poor J'Darr",
+      "Adryan",
+      "Do Ga",
+      "DVS",
+      "Raketa",
+      "TLR8"
+    ],
+    "desc": "Refresh, la soirée maison du Channel Zero consacrée aux rythmes de club (jungle, breaks, grime, UK garage), s'associe pour la première fois à Hrup, série audiovisuelle de Maribor, pour ouvrir la saison d'automne. Le club occupe une ancienne caserne de Metelkova, le centre autonome squatté depuis 1993 au nord de la gare de Ljubljana. Tête d'affiche, le Grec Poor J'Darr (labels Kaizen et Not Now), entouré d'Adryan, Do Ga, TLR8 et du duo DVS b2b Raketa. Entrée dès 6 € en prévente.",
+    "descEn": "Refresh, Channel Zero's house night for club rhythms (jungle, breaks, grime, UK garage), teams up for the first time with Hrup, an audiovisual series from Maribor, to open the autumn season. The club sits in a former barracks inside Metelkova, the autonomous centre squatted since 1993 north of Ljubljana station. Headlining is Greek producer Poor J'Darr (Kaizen, Not Now Records), alongside Adryan, Do Ga, TLR8 and DVS b2b Raketa. Entry from 6 € in presale.",
+    "ticketUrl": "https://olaii.com/event/11420/refresh-x-hrup-w-poor-j-darr-gr/",
+    "sources": [
+      "https://www.ch0.org/refresh-x-hrup-w-poor-jdarr-gr/",
+      "https://olaii.com/event/11420/refresh-x-hrup-w-poor-j-darr-gr/"
+    ],
+    "note": "Channel Zero, Metelkova ulica 4 / Masarykova cesta 24 (Metelkova mesto), Ljubljana. Coordonnées OSM via Photon (nœud nightclub « Channel Zero »), l'API olaii donne 46.05721, 14.51685. Prix : 6 € (1. val, en vente au 25/09 d'après l'API olaii, lowest_price = 6.00), puis 8 €, 10 € avant minuit et 12 € sur place. Vendredi 9 octobre 2026 vérifié.",
+    "_image": {
+      "image": "https://www.ch0.org/wp-content/uploads/2026/09/web-fb-banner.jpg",
+      "sourcePage": "https://www.ch0.org/refresh-x-hrup-w-poor-jdarr-gr/",
+      "credit": "KUD Channel Zero / Hrup",
+      "kind": "event",
+      "width": 1920,
+      "note": "visuel officiel de la soirée (1920x1080, paysage)"
+    }
+  },
+  {
+    "title": "Bart Skils au Dom mladih",
+    "type": "Club",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "lat": 43.85529,
+    "lng": 18.4147,
+    "date": "2026-10-03",
+    "time": "22:00 - 06:00",
+    "price": 30,
+    "currency": "BAM",
+    "venue": "Dom mladih",
+    "trending": false,
+    "lineup": [
+      "Bart Skils",
+      "Edib D.",
+      "Maheer",
+      "Worda",
+      "Mike Oak",
+      "Rewave"
+    ],
+    "desc": "Le collectif BPM Sarajevo invite le Néerlandais Bart Skils, figure de la génération Drumcode, dans l'amphithéâtre du Dom mladih, la maison des jeunes du centre Skenderija construit pour les Jeux olympiques d'hiver de 1984, au bord de la Miljacka. Autour de lui, Edib D. b2b Maheer, Worda et Mike Oak b2b Rewave, de la scène locale et régionale. Nuit de 22 h à 6 h, billet à 30 KM (le palier early bird est épuisé).",
+    "descEn": "The BPM Sarajevo collective brings Dutch DJ Bart Skils, a mainstay of the Drumcode generation, to the amphitheatre of Dom mladih, the youth centre of the Skenderija complex built for the 1984 Winter Olympics on the Miljacka river. Support comes from Edib D. b2b Maheer, Worda and Mike Oak b2b Rewave, drawn from the local and regional scene. The night runs from 22:00 to 06:00, tickets cost 30 KM (the early bird tier is sold out).",
+    "ticketUrl": "https://ulaznica.org/beyond/tickets/407/bpm-presents-bart-skils",
+    "sources": [
+      "https://ulaznica.org/beyond/tickets/407/bpm-presents-bart-skils",
+      "https://ulaznica.org/events?country=ba"
+    ],
+    "note": "Dom mladih, Centar Skenderija, Terezija bb, Sarajevo. Coordonnées OSM via Photon (« Dom mladih Skenderija »). Prix : REGULAR 30 KM (+3 KM de frais), EARLY BIRD 25 KM épuisé. Horaire 22:00-06:00 lu sur l'affiche. Samedi 3 octobre 2026 vérifié.",
+    "_image": {
+      "image": "https://ulaznica.org/uploads/event/0/lg/407.png",
+      "sourcePage": "https://ulaznica.org/beyond/tickets/407/bpm-presents-bart-skils",
+      "credit": "BPM Sarajevo",
+      "kind": "event",
+      "width": 1280,
+      "note": "bannière officielle 1280x425 (format très large, la photo de l'artiste est au centre)"
+    }
+  },
+  {
+    "title": "Garden of Dreams Rooftop Session",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "lat": 43.85834,
+    "lng": 18.42364,
+    "date": "2026-10-10",
+    "time": "17:00 - 23:00",
+    "price": 20,
+    "currency": "BAM",
+    "venue": "Svjetlost Rooftop",
+    "trending": false,
+    "lineup": [
+      "Metodi Hristov",
+      "Megahertz",
+      "More Than You"
+    ],
+    "desc": "Dernière session en plein air de l'année pour Garden of Dreams, le collectif qui organise depuis 2016 le festival du même nom à Sarajevo. Rendez-vous sur le toit de l'immeuble Svjetlost, rue Muhameda Kantardžića près de Ferhadija, avec vue sur la vieille ville et les collines, pour six heures au coucher du soleil. Aux platines, le Bulgare Metodi Hristov, puis Megahertz et More Than You. Jauge du toit limitée, billets promo à 20 KM.",
+    "descEn": "Garden of Dreams, the collective behind Sarajevo's festival of the same name since 2016, holds its last open-air session of the year. The party takes over the roof of the Svjetlost building on Muhameda Kantardžića street near Ferhadija, overlooking the old town and the hills, for six hours around sunset. Bulgarian DJ Metodi Hristov headlines, with Megahertz and More Than You. Rooftop capacity is limited, promo tickets cost 20 KM.",
+    "ticketUrl": "https://ulaznica.org/dream/tickets/421/garden-of-dreams-rooftop-session",
+    "sources": [
+      "https://ulaznica.org/dream/tickets/421/garden-of-dreams-rooftop-session",
+      "https://gardenofdreams.ba/en/2025-en/locations/svjetlost-rooftop/",
+      "https://en.wikipedia.org/wiki/Garden_of_Dreams_(Sarajevo)"
+    ],
+    "note": "Krov zgrade Svjetlosti, Muhameda Kantardžića 3, Sarajevo. Coordonnées de l'adresse (hypehou.se, recoupées par Photon sur Muhameda Kantardžića 3 : 43.85855, 18.42349). Prix : PROMO 20 KM (+2 KM de frais), ON STAGE 30 KM. Samedi 10 octobre 2026, 17:00-23:00, lus sur la billetterie.",
+    "_image": {
+      "image": "https://media.gardenofdreams.ba/2025/05/svjetlost-rooftop-2.jpg",
+      "sourcePage": "https://gardenofdreams.ba/en/2025-en/locations/svjetlost-rooftop/",
+      "credit": "Garden of Dreams",
+      "kind": "venue",
+      "width": 1506,
+      "note": "photo du toit Svjetlost pendant une session Garden of Dreams (1506x1080)"
+    }
+  },
+  {
+    "title": "REACT Festival",
+    "type": "Festival",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Belgrade",
+    "country": "Serbia",
+    "lat": 44.82649,
+    "lng": 20.47448,
+    "date": "2026-10-02",
+    "endDate": "2026-10-03",
+    "time": "22:00 - 06:00",
+    "price": 27,
+    "currency": "EUR",
+    "venue": "New Hangar, Port of Belgrade",
+    "trending": false,
+    "lineup": [
+      "I Hate Models",
+      "Kobosil",
+      "Aerea",
+      "Kloud",
+      "Øtta",
+      "Triptykh",
+      "Ueberrest",
+      "Yanamaste",
+      "Alycia Bezgo",
+      "Boston 168",
+      "Lammer",
+      "Roüge",
+      "Überkikz",
+      "Yasmin Gardezi",
+      "Acor",
+      "Asarri",
+      "Karina Oksa",
+      "Moraitov",
+      "Nobena",
+      "Rar",
+      "Stameni",
+      "Razzor",
+      "Suzana",
+      "Laccotti",
+      "Vrag",
+      "Femur"
+    ],
+    "desc": "Le festival d'automne de Music Reactions, collectif belgradois de techno dure, tient deux nuits dans le Hangar du port de Belgrade, entrepôt de la rue Žorža Klemansoa au bord du Danube. L'affiche aligne I Hate Models, Kobosil, Aerea, Kloud, Øtta, Triptykh, Boston 168 (live) et Yasmin Gardezi, avec la scène régionale (Razzor, Suzana b2b Laccotti, Vrag). De 22 h à 6 h chaque nuit, billet d'un jour dès 27 € (entrée avant 23 h), 34 € sinon.",
+    "descEn": "The autumn festival of Music Reactions, Belgrade's hard techno collective, runs for two nights in the Hangar at the Port of Belgrade, a warehouse on Žorža Klemansoa street by the Danube. The bill lines up I Hate Models, Kobosil, Aerea, Kloud, Øtta, Triptykh, Boston 168 (live) and Yasmin Gardezi, plus the regional scene (Razzor, Suzana b2b Laccotti, Vrag). 22:00 to 06:00 each night, day tickets from 27 € (entry before 23:00), 34 € otherwise.",
+    "ticketUrl": "https://musicreactions.com/events/react-festival-2026/tickets",
+    "sources": [
+      "https://musicreactions.com/events/react-festival-2026/tickets",
+      "https://musicreactions.com/",
+      "https://hypehou.se/events/kqu3sjglzabnwib/"
+    ],
+    "note": "Hangar, Žorža Klemansoa 37, Luka Beograd. Coordonnées du lieu d'après hypehou.se (44.82626, 20.47471), cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue (44.82649, 20.47448) : à vérifier s'il s'agit du même bâtiment pour unifier le libellé de salle. Prix : EARLY ENTRY jour 1 ou 2 à 27 € (entrée avant 23 h), DAY REGULAR 34 €, pass 2 jours 59 € ; les phases early bird à 45-56 € (pass) sont épuisées. Ven. 2 et sam. 3 octobre 2026. Salle unifiée à la fusion avec « New Hangar, Port of Belgrade » déjà au catalogue (même bâtiment, 30 m).",
+    "_image": {
+      "image": "https://images-files-musicreaction-api-production-eu-central-1.s3.eu-central-1.amazonaws.com/images/1788454889_REACT26-inst.jpg",
+      "sourcePage": "https://musicreactions.com/events/react-festival-2026/tickets",
+      "credit": "Music Reactions",
+      "kind": "event",
+      "width": 1080,
+      "note": "affiche officielle format Instagram (1080x1350)"
+    }
+  },
+  {
+    "title": "Illusions 5 Years Beyond Reality : Adam Beyer & Pan-Pot",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Belgrade",
+    "country": "Serbia",
+    "lat": 44.82649,
+    "lng": 20.47448,
+    "date": "2026-10-17",
+    "time": "22:00 - 06:00",
+    "price": 2690,
+    "currency": "RSD",
+    "venue": "New Hangar, Port of Belgrade",
+    "trending": false,
+    "lineup": [
+      "Adam Beyer",
+      "Pan-Pot",
+      "Volkoder",
+      "Nexie"
+    ],
+    "desc": "Pour ses cinq ans, le promoteur belgradois Illusions, qui tient aussi des éditions au Monténégro, à Sarajevo et en Croatie, organise son plus gros week-end dans le Hangar du port de Belgrade, entrepôt de la rue Žorža Klemansoa au bord du Danube. La nuit du samedi réunit le fondateur de Drumcode Adam Beyer et le duo berlinois Pan-Pot, avec Volkoder et Nexie, fondatrice d'Illusions. De 22 h à 6 h, billet de la soirée à 2 690 dinars.",
+    "descEn": "For its fifth anniversary, Belgrade promoter Illusions, which also runs editions in Montenegro, Sarajevo and Croatia, stages its biggest weekend yet in the Hangar at the Port of Belgrade, a warehouse on Žorža Klemansoa street by the Danube. Saturday night brings Drumcode founder Adam Beyer and Berlin duo Pan-Pot, with Volkoder and Illusions founder Nexie. 22:00 to 06:00, single night tickets at 2,690 dinars.",
+    "ticketUrl": "https://new.gigstix.com/event/illusions-5-years-beyond-reality-beograd-oktobar-2026/",
+    "sources": [
+      "https://new.gigstix.com/event/illusions-5-years-beyond-reality-beograd-oktobar-2026/",
+      "https://www.rtv.rs/sr_lat/mladi/gde-otici/illusions-slavi-5-godina-dve-noci-sa-najvecim-imenima-svetske-elektronske-scene_1741388.html",
+      "https://illusions.rs/upcoming-events"
+    ],
+    "note": "Hangar - Stage 1, Žorža Klemansoa 37, Luka Beograd (même lieu que REACT Festival de ce lot). Coordonnées d'après hypehou.se, cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue. Prix : REGULAR 17.10 à 2 690 RSD (Phase I, en vente), pass 2 jours 4 990 RSD. La nuit du vendredi 16 (Mahmut Orhan, Arodes, People Like Us, Anya, 3 290 RSD) n'est pas reprise ici. Samedi 17 octobre 2026 vérifié. RTV annonce 23 h, gigstix 22:00-06:00. Salle unifiée à la fusion avec « New Hangar, Port of Belgrade » déjà au catalogue (même bâtiment, 30 m).",
+    "_image": {
+      "image": "https://new.gigstix.com/wp-content/uploads/2026/08/illusions-5-years-800.jpg",
+      "sourcePage": "https://new.gigstix.com/event/illusions-5-years-beyond-reality-beograd-oktobar-2026/",
+      "credit": "Illusions",
+      "kind": "event",
+      "width": 800,
+      "note": "visuel officiel du week-end (800x600)"
+    }
+  },
+  {
+    "title": "UMEK 5.0 - (Ne)združljivo",
+    "type": "Warehouse",
+    "genres": [
+      "Techno"
+    ],
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "lat": 46.06098,
+    "lng": 14.50851,
+    "date": "2026-10-23",
+    "time": "20:00 - 06:00",
+    "price": 45,
+    "currency": "EUR",
+    "venue": "Gospodarsko razstavišče",
+    "venueEn": "Ljubljana Exhibition and Convention Centre",
+    "trending": false,
+    "lineup": [
+      "UMEK"
+    ],
+    "desc": "UMEK, pionnier de la techno slovène depuis les années 1990, investit deux halls du Gospodarsko razstavišče, le parc des expositions de la Dunajska cesta, pour une soirée en deux temps : un concert où il croise une douzaine de musiciens slovènes venus d'autres genres, puis une nuit techno sur deux scènes. La billetterie ne nomme encore que lui, les invités de la nuit techno restent à confirmer. Billet « DJ Experience » (entrée dès 22 h 30) à 45 €, les formules avec concert sont épuisées.",
+    "descEn": "UMEK, a pioneer of Slovenian techno since the 1990s, takes over two halls of Gospodarsko razstavišče, the exhibition grounds on Dunajska cesta, for a two-part night: a concert where he meets a dozen Slovenian musicians from other genres, then a techno night across two arenas. The ticket office only names UMEK so far, his guests for the techno night are still to be confirmed. The DJ Experience ticket (entry from 22:30) costs 45 €, concert packages are sold out.",
+    "ticketUrl": "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
+    "sources": [
+      "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
+      "https://ticketing.olaii.com/api/v2/events/9675/ticket-types/",
+      "https://allevents.in/ljubljana/umek-50-nezdru%C5%BDljivo/200029786252007",
+      "https://hypehou.se/events/mvroautchqyw2ag/"
+    ],
+    "note": "Gospodarsko razstavišče, Dunajska cesta 18, Ljubljana. Coordonnées OSM via Photon (events_centre), l'API olaii donne 46.06188, 14.50815. Horaires de l'API olaii : 20:00-06:00 heure locale. Prix : DJ EXPERIENCE 5.0 à 45 € (12 billets restants au 25/09), DJ Experience 4.0 à 40 € et Full Experience 70 € épuisés. Line-up DJ : la billetterie ne nomme que UMEK ; DJ Rush, Cristian Varela b2b Marco Bailey, Valentino Kanzyani et Estora viennent de hypehou.se (Marco Bailey recoupé par un post Instagram de l'organisateur vu en résultat de recherche). À relire. Vendredi 23 octobre 2026 vérifié. Line-up réduit à UMEK à la fusion : le reste ne vient que d'un agrégateur.",
+    "_image": {
+      "image": "https://olaii-static.s3.amazonaws.com/media/public/olai-03-03.jpg",
+      "sourcePage": "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
+      "credit": "FM Agencija / Futuristing",
+      "kind": "event",
+      "width": 1024,
+      "note": "visuel officiel (1024x710)"
+    }
+  },
+  {
+    "title": "Music Reactions Indoor Rave Zagreb",
+    "type": "Club",
+    "genres": [
+      "Hard Techno",
+      "Techno"
+    ],
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.80213,
+    "lng": 15.98129,
+    "date": "2026-11-20",
+    "time": "22:00 - 06:00",
+    "price": 12,
+    "currency": "EUR",
+    "venue": "Peti Kupe",
+    "trending": false,
+    "lineup": [
+      "Alex Farell",
+      "Laccotti",
+      "Pusmus",
+      "Razzor",
+      "Suzana"
+    ],
+    "desc": "Troisième étape de la tournée régionale de Music Reactions, le collectif hard techno de Belgrade, au Peti Kupe, club de la Trnjanska cesta dans le quartier de Trnje. En tête d'affiche, le jeune Britannique Alex Farell, passé par Boiler Room à 16 ans et par Creamfields, Parklife et Terminal V, avec des sorties sur HEKATE et Teletech. Autour de lui, Laccotti, Pusmus, Razzor et Suzana, entre hard groove, schranz et hard trance. De 22 h à 6 h, billet à 12 €.",
+    "descEn": "Third stop on the regional tour by Music Reactions, Belgrade's hard techno collective, at Peti Kupe, the club on Trnjanska cesta in the Trnje district. Headlining is young British DJ Alex Farell, who played Boiler Room at 16 and has since appeared at Creamfields, Parklife and Terminal V, with releases on HEKATE and Teletech. Support from Laccotti, Pusmus, Razzor and Suzana, across hard groove, schranz and hard trance. 22:00 to 06:00, tickets at 12 €.",
+    "ticketUrl": "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
+    "sources": [
+      "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
+      "https://musicreactions.com/"
+    ],
+    "note": "Peti Kupe, Trnjanska cesta 5, Zagreb. Coordonnées du bâtiment Trnjanska cesta 5 via Photon (OSM), cohérentes avec hypehou.se (45.80226, 15.98109). Prix : REGULAR 12 € (early bird en cours), ONSTAGE 21 €. Vendredi 20 novembre 2026 vérifié.",
+    "_image": {
+      "image": "https://images-files-musicreaction-api-production-eu-central-1.s3.eu-central-1.amazonaws.com/images/1790243177_MRIR-Zagreb-poster.jpg",
+      "sourcePage": "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
+      "credit": "Music Reactions",
+      "kind": "event",
+      "width": 1080,
+      "note": "affiche officielle (1080x1350)"
+    }
+  },
+  {
+    "title": "Kala Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Dhërmi",
+    "country": "Albania",
+    "lat": 40.13993,
+    "lng": 19.64209,
+    "date": "2027-06-02",
+    "endDate": "2027-06-09",
+    "time": "12:00",
+    "price": 390,
+    "currency": "EUR",
+    "venue": "Plage de Dhërmi",
+    "venueEn": "Dhërmi Beach",
+    "trending": false,
+    "lineup": [],
+    "desc": "Festival boutique d'une semaine sur la Riviera albanaise, Kala installe six scènes en plein air à planchers de bois sur la plage de Dhërmi, village côtier entre Vlorë et Himarë, avec des fêtes de jour sur la crique voisine de Gjipe. La formule tient du séjour : chaque billet international inclut l'hôtel, à partir de 390 € la semaine en chambre partagée, et des billets résidents sans hébergement sont proposés aux habitants d'Albanie, du Kosovo, de Macédoine du Nord et du Monténégro. Programmation 2027 à venir.",
+    "descEn": "A week-long boutique festival on the Albanian Riviera, Kala sets up six open-air stages with wooden dancefloors on the beach at Dhërmi, a coastal village between Vlorë and Himarë, plus daytime parties in the nearby Gjipe cove. It works like a holiday: every international ticket includes a hotel, from 390 € for the week in a shared room, and resident tickets without accommodation are offered to people living in Albania, Kosovo, North Macedonia and Montenegro. The 2027 line-up is still to come.",
+    "ticketUrl": "https://www.kala.al/tickets",
+    "sources": [
+      "https://www.kala.al/",
+      "https://www.kala.al/tickets",
+      "https://www.kala.al/tickets-for-locals"
+    ],
+    "note": "Plage de Dhërmi, commune de Himarë. Coordonnées du point OSM « Plazhi i Dhërmiut » via Photon : le festival s'étale sur la plage, pas d'entrée unique publiée. Prix indicatif : 390 € (ou 340 £) = prix d'appel annoncé du forfait semaine + hôtel 3*, pas un billet sec ; Super Early Bird épuisé, Early Bird en vente le 6-7 octobre 2026 ; billets résidents sans hôtel non encore publiés. Du mercredi 2 au mercredi 9 juin 2027. Line-up non annoncé. Horaire non publié : « 12:00 » est un bouchon indicatif (champ obligatoire), à ne pas afficher comme confirmé.",
+    "_image": {
+      "image": "https://cdn.prod.website-files.com/68c07bb3e5660f1971796324/68c30a870d725c13ab6c05ba_quote%20bg.jpg",
+      "sourcePage": "https://www.kala.al/",
+      "credit": "Kala Festival",
+      "kind": "festival",
+      "width": 1726,
+      "note": "photo du festival (piscine d'hôtel face à la mer, 1726x1009) ; pas de photo de scène isolée disponible sur le site"
+    }
+  },
+  {
+    "title": "Anjunadeep Explorations",
+    "type": "Festival",
+    "genres": [
+      "House"
+    ],
+    "city": "Dhërmi",
+    "country": "Albania",
+    "lat": 40.13993,
+    "lng": 19.64209,
+    "date": "2027-06-10",
+    "endDate": "2027-06-15",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Plage de Dhërmi",
+    "venueEn": "Dhërmi Beach",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le label londonien Anjunadeep, maison de la deep house mélodique, revient à Dhërmi sur la Riviera albanaise pour la septième édition de son festival-séjour : six nuits de sets par les artistes du label au bord de la mer Ionienne, des b2b inédits, des fêtes de jour sur la plage de Gjipe, des sets au lever du soleil et un programme de bien-être. Les forfaits incluent l'hébergement ; les Super Early Bird 2027 sont épuisés et une nouvelle vente est annoncée pour l'automne. Programmation à venir.",
+    "descEn": "London label Anjunadeep, home of melodic deep house, returns to Dhërmi on the Albanian Riviera for the seventh edition of its festival holiday: six nights of sets from the label's artists by the Ionian Sea, one-off b2bs, daytime parties on Gjipe Beach, sunrise sets and a wellness programme. Packages include accommodation; 2027 Super Early Bird packages are sold out and another sale is announced for the autumn. Line-up to be announced.",
+    "ticketUrl": "https://anjunadeep.com/events/explorations",
+    "sources": [
+      "https://anjunadeep.com/events/explorations",
+      "https://hypehou.se/events/albania/"
+    ],
+    "note": "Dhërmi, commune de Himarë. Coordonnées du point OSM « Plazhi i Dhërmiut » via Photon (lieu éclaté sur la plage et les hôtels, pas d'entrée unique). Prix non communiqué, ne signifie pas gratuit : forfaits avec hébergement, acompte de 75 £ d'après la FAQ citée en recherche, prochaine vente « dans quelques mois ». Du jeudi 10 au mardi 15 juin 2027. Line-up non annoncé. Horaire non publié : « 12:00 » est un bouchon indicatif (champ obligatoire), à ne pas afficher comme confirmé.",
+    "_image": {
+      "image": "https://api.anjunadeep.com/assets/5287ca21-ba56-4611-9867-27dc95de026e?fit=cover&withoutEnlargement=true&format=jpg&width=1200&height=630&quality=75",
+      "sourcePage": "https://anjunadeep.com/events/explorations",
+      "credit": "Anjunadeep",
+      "kind": "festival",
+      "width": 1200,
+      "note": "visuel officiel 2027 (côte de Dhërmi avec logo, 1200x630)"
+    }
+  }
+]

@@ -1,0 +1,501 @@
+[
+ {
+  "title": "Depo invites Klint au Radosť",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "lat": 48.14788,
+  "lng": 17.11134,
+  "date": "2026-10-02",
+  "time": "23:00",
+  "price": 10,
+  "currency": "EUR",
+  "venue": "Radosť Music Club",
+  "trending": false,
+  "lineup": [
+   "Klint",
+   "Leia Drex",
+   "Hasky",
+   "Michks & Dunik",
+   "Majsko"
+  ],
+  "desc": "Le collectif Depo ouvre la huitième saison du Radosť Music Club, installé au 48 de la rue Obchodná, la grande artère commerçante du centre de Bratislava. Tête d'affiche, le producteur Klint, dont les morceaux de techno brute et hypnotique tournent déjà dans les sets d'Alarico, Yanamaste ou SHDW, joue ici ses propres titres. Leia Drex, Hasky, Michks & Dunik et Majsko complètent l'affiche. Ouverture à 23 h, billets de 10 à 15 €.",
+  "descEn": "The Depo crew opens the eighth season of Radosť Music Club, at 48 Obchodná, the main shopping street of central Bratislava. Headliner Klint, whose raw, hypnotic techno tracks already turn up in sets by Alarico, Yanamaste and SHDW, plays his own material. Leia Drex, Hasky, Michks & Dunik and Majsko complete the bill. Doors at 11pm, tickets from 10 to 15 euros.",
+  "ticketUrl": "https://goout.net/en/depo-invites-klint-8th-anniversary-of-the-club/szsbvmy/",
+  "sources": [
+   "https://goout.net/en/depo-invites-klint-8th-anniversary-of-the-club/szsbvmy/",
+   "https://goout.net/en/bratislava/events/lezxefnnne/?genres=party_techno"
+  ],
+  "note": "Adresse Obchodná 48, Bratislava. Coordonnées : nœud OSM « Radosť » à Obchodná 48 (Nominatim). Heure : 23:00 locale (JSON-LD GoOut en UTC, 21:00Z). Prix : fourchette 10-15 € publiée par GoOut (JSON-LD offers, InStock) ; le palier à 10 € n'a pas pu être vérifié individuellement.",
+  "_image": {
+   "image": "https://goout.net/i/140/1405451-383.jpg",
+   "sourcePage": "https://goout.net/en/depo-invites-klint-8th-anniversary-of-the-club/szsbvmy/",
+   "credit": "Depo / Radosť Music Club",
+   "kind": "event",
+   "width": 1500,
+   "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  }
+ },
+ {
+  "title": "Moodyverse à l'Aldea Club",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "lat": 48.14427,
+  "lng": 17.10841,
+  "date": "2026-10-16",
+  "time": "22:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Aldea Club",
+  "trending": false,
+  "lineup": [
+   "Sezer Uysal",
+   "Baime",
+   "Denes Toth",
+   "Koník",
+   "Enyta",
+   "Zana"
+  ],
+  "desc": "Dernier showcase de l'année du label Moodyverse à l'Aldea Club, sur la place Františkánske de la vieille ville de Bratislava. La soirée fête les 13 ans des nuits Moody et les 3 ans du label, passé cette année par l'Amsterdam Dance Event, Budapest et Copenhague. Le Turc Sezer Uysal joue pour la première fois en Slovaquie, avec le Danois Baime, le fondateur Denes Toth en b2b avec Koník, puis Enyta & Zana en ouverture. Entrée 12 €, 18 ans et plus.",
+  "descEn": "Last showcase of the year for the Moodyverse label at Aldea Club, on Františkánske square in Bratislava's old town. The night marks 13 years of the Moody parties and 3 years of the label, which has also hosted showcases at Amsterdam Dance Event, Budapest and Copenhagen this year. Turkish DJ Sezer Uysal plays Slovakia for the first time, joined by Danish producer Baime, founder Denes Toth b2b Koník, and Enyta & Zana opening. Entry 12 euros, 18+.",
+  "ticketUrl": "https://goout.net/en/3-years-of-moodyverse-sezer-uysal+denes-toth+dalsi/szmjwmy/",
+  "sources": [
+   "https://goout.net/en/3-years-of-moodyverse-sezer-uysal+denes-toth+dalsi/szmjwmy/"
+  ],
+  "note": "Adresse Františkánske námestie 408/3, Bratislava. Coordonnées : Nominatim sur l'adresse (408/3). Heure 22:00 locale (titre GoOut). Prix : offre unique 12 € (JSON-LD GoOut, InStock).",
+  "_image": {
+   "image": "https://goout.net/i/140/1405874-383.jpg",
+   "sourcePage": "https://goout.net/en/3-years-of-moodyverse-sezer-uysal+denes-toth+dalsi/szmjwmy/",
+   "credit": "Moodyverse / Aldea Club",
+   "kind": "event",
+   "width": 1500,
+   "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  }
+ },
+ {
+  "title": "Junglequeen - B-Complex Halloween",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "lat": 48.16134,
+  "lng": 17.13081,
+  "date": "2026-10-30",
+  "time": "21:00",
+  "price": 10,
+  "currency": "EUR",
+  "venue": "Stredisko kultúry Vajnorská",
+  "venueEn": "Vajnorská Cultural Centre",
+  "trending": false,
+  "lineup": [
+   "Bugwell",
+   "B-Complex",
+   "Shix",
+   "Zak Meow",
+   "Muzaman",
+   "Eli",
+   "Macaque"
+  ],
+  "desc": "Junglequeen est la soirée d'Halloween organisée chaque année par B-Complex, figure slovaque de la drum & bass. Déguisements bienvenus, dress code rave. Le Britannique Bugwell, producteur, chanteur et DJ, joue en live pendant son set ; Zak Meow et Shix viennent d'Atlanta, les Polonais Muzaman et DJ Eli représentent la neurofunk, et Macaque (Olis Bakulu et Slight) complète l'affiche. Dans la salle du centre culturel de la rue Vajnorská, à Nové Mesto. Entrée 10 €.",
+  "descEn": "Junglequeen is the yearly Halloween party run by Slovak drum and bass figure B-Complex. Costumes welcome, rave dress code. British producer, singer and DJ Bugwell performs live within his set, Zak Meow and Shix fly in from Atlanta, Poland's Muzaman and DJ Eli bring the neurofunk, and Macaque (Olis Bakulu and Slight) completes the bill. Held in the hall of the Vajnorská cultural centre in Nové Mesto. Entry 10 euros.",
+  "ticketUrl": "https://goout.net/en/junglequeen-b-complex+bugwell+dalsi/szkvkmy/",
+  "sources": [
+   "https://goout.net/en/junglequeen-b-complex+bugwell+dalsi/szkvkmy/"
+  ],
+  "note": "Lieu : Stredisko kultúry Bratislava - Nové Mesto, Vajnorská 21. Coordonnées : Nominatim sur l'adresse Vajnorská 21 (bâtiment). Heure 21:00 locale (titre GoOut). Prix : offre unique 10 € (JSON-LD GoOut, InStock). Le nom de salle est le libellé local, venueEn fourni.",
+  "_image": {
+   "image": "https://goout.net/i/136/1366479-383.jpg",
+   "sourcePage": "https://goout.net/en/junglequeen-b-complex+bugwell+dalsi/szkvkmy/",
+   "credit": "B-Complex / Junglequeen",
+   "kind": "event",
+   "width": 1500,
+   "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  }
+ },
+ {
+  "title": "Bassizm Festival - Winter Edition",
+  "type": "Warehouse",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Bratislava",
+  "country": "Slovakia",
+  "lat": 48.12744,
+  "lng": 17.18022,
+  "date": "2026-11-07",
+  "time": "20:00",
+  "price": 13,
+  "currency": "EUR",
+  "venue": "Refinery Gallery",
+  "trending": false,
+  "lineup": [],
+  "desc": "Bassizm revient pour une édition d'hiver dans les halles industrielles de la Refinery Gallery, ancien site de raffinerie reconverti en lieu d'art et d'événements dans la zone de Vlčie hrdlo, à l'est de Bratislava. Une nuit entière de drum & bass avec un spectacle audiovisuel annoncé comme le plus ambitieux du genre en Slovaquie. Line-up pas encore publié. Billets à partir de 13 €, jusqu'à 59,90 € pour les formules haut de gamme.",
+  "descEn": "Bassizm returns for a winter edition in the industrial halls of Refinery Gallery, a former refinery site turned art and events space in the Vlčie hrdlo area east of Bratislava. A full night of drum and bass with an audiovisual show billed as the most ambitious of its kind in Slovakia. Line-up not yet announced. Tickets from 13 euros, up to 59.90 for premium options.",
+  "ticketUrl": "https://goout.net/en/bassizm-festival-winter-edition/szemely/",
+  "sources": [
+   "https://goout.net/en/bassizm-festival-winter-edition/szemely/",
+   "https://goout.net/en/bratislava/events/lezxefnnne/?genres=party_drum_and_bass"
+  ],
+  "note": "Adresse Vlčie hrdlo, Bratislava. Coordonnées : objet OSM « Refinery Gallery » (Nominatim), centroïde, pas forcément l'entrée exacte. Heure 20:00 locale (JSON-LD 19:00:01Z, heure d'hiver). Une seule soirée, donc pas d'endDate malgré le nom de festival. Prix : fourchette 13-59,90 € (JSON-LD GoOut, InStock), palier à 13 € non vérifié individuellement. Line-up non annoncé.",
+  "_image": {
+   "image": "https://goout.net/i/139/1398673-383.jpg",
+   "sourcePage": "https://goout.net/en/bassizm-festival-winter-edition/szemely/",
+   "credit": "Bassizm",
+   "kind": "event",
+   "width": 1500,
+   "note": "visuel officiel de l'événement (og:image GoOut), 1500x1000"
+  }
+ },
+ {
+  "title": "Bladerunnaz : Kanine à l'A38",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Budapest",
+  "country": "Hungary",
+  "lat": 47.47653,
+  "lng": 19.06294,
+  "date": "2026-11-27",
+  "time": "23:30",
+  "price": 0,
+  "currency": "HUF",
+  "venue": "A38 Hajó",
+  "venueEn": "A38 Ship",
+  "trending": false,
+  "lineup": [
+   "Kanine"
+  ],
+  "desc": "Le collectif budapestois Bladerunnaz reçoit le Britannique Kanine, l'un des noms les plus inventifs de la drum & bass de dancefloor, pour la tournée de son album « Reflections ». Rendez-vous dans la salle de concert de l'A38, ancien cargo ukrainien amarré au pied du pont Petőfi, côté Buda, et transformé en salle. Ouverture à 23 h 30, 18 ans et plus. Tarif pas encore publié, la billetterie de l'A38 n'affiche aucun billet pour l'instant.",
+  "descEn": "Budapest crew Bladerunnaz host UK producer Kanine, one of the most inventive names in dancefloor drum and bass, on the tour for his album 'Reflections'. It happens in the concert hall of A38, a former Ukrainian cargo ship moored at the Buda end of Petőfi bridge and converted into a venue. Doors at 11:30pm, 18+. Price not yet published, the A38 box office lists no tickets so far.",
+  "ticketUrl": "https://www.a38.hu/en/program/bladerunnaz-kanine-uk-reflections-ukeu-tour",
+  "sources": [
+   "https://www.a38.hu/en/program/bladerunnaz-kanine-uk-reflections-ukeu-tour",
+   "https://www.a38.hu/en/programs"
+  ],
+  "note": "Adresse Petőfi híd, budai hídfő, 1117 Budapest (JSON-LD A38). Coordonnées reprises de la fiche A38 Hajó déjà au catalogue (point corrigé au quai). Prix : non communiqué, ne signifie pas gratuit (tickets: [] dans les données de la page). Vendredi 27/11/2026 vérifié.",
+  "_image": {
+   "image": "https://www.a38.hu/storage/app/uploads/public/6aa/bf7/e33/thumb_197634_2048_0_0_0_auto.jpg",
+   "sourcePage": "https://www.a38.hu/en/program/bladerunnaz-kanine-uk-reflections-ukeu-tour",
+   "credit": "A38 / Bladerunnaz",
+   "kind": "event",
+   "width": 2048,
+   "note": "visuel officiel de la soirée (image JSON-LD A38), 2048x1152"
+  }
+ },
+ {
+  "title": "IAM Productions : Marie Vaunt à l'Akvárium",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Budapest",
+  "country": "Hungary",
+  "lat": 47.49853,
+  "lng": 19.05416,
+  "date": "2026-12-04",
+  "time": "23:30",
+  "price": 8000,
+  "currency": "HUF",
+  "venue": "Akvárium Klub",
+  "trending": false,
+  "lineup": [
+   "Marie Vaunt",
+   "Polar",
+   "Joris Turenhout"
+  ],
+  "desc": "IAM Productions invite la productrice britannique Marie Vaunt dans la KisHall de l'Akvárium Klub, la salle d'environ 700 places sans limiteur de son aménagée sous la place Erzsébet, au centre de Budapest. Polar et Joris Turenhout complètent l'affiche. Ouverture des portes à 23 h 30, 18 ans et plus. Le premier palier est épuisé, les billets partent à 8 000 Ft puis montent jusqu'à 11 000 Ft, vestiaire obligatoire à 600 Ft en sus.",
+  "descEn": "IAM Productions bring British producer Marie Vaunt to the KisHall of Akvárium Klub, the roughly 700-capacity room with no sound limiter built under Erzsébet square in central Budapest. Polar and Joris Turenhout complete the bill. Doors at 11:30pm, 18+. The first tier is sold out, tickets now start at 8,000 Ft and rise to 11,000 Ft, with a mandatory 600 Ft cloakroom on top.",
+  "ticketUrl": "https://iamproductions.hu/marie-vaunt-tickets/",
+  "sources": [
+   "https://akvariumklub.hu/programok/iam-productions-presents-marie-vaunt/",
+   "https://iamproductions.hu/marie-vaunt-tickets/"
+  ],
+  "note": "Adresse Erzsébet tér 12, 1051 Budapest. Coordonnées : JSON-LD cooltix (47.4985273, 19.0541608). Prix : Early Bird 7 000 Ft SOLD_OUT, Normal I 8 000 Ft ON_SALE (données cooltix), donc 8 000 retenu. Vendredi 04/12/2026 vérifié.",
+  "_image": {
+   "image": "https://images.cdn.cooltix.com/837424da167344cbb1f420d822062d87.png",
+   "sourcePage": "https://iamproductions.hu/marie-vaunt-tickets/",
+   "credit": "IAM Productions",
+   "kind": "event",
+   "width": 1200,
+   "note": "visuel officiel de la soirée (image JSON-LD cooltix), 1200x629"
+  }
+ },
+ {
+  "title": "Boris Brejcha at The Terminal x Technostate",
+  "type": "Warehouse",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Stockholm",
+  "country": "Sweden",
+  "lat": 59.34553,
+  "lng": 18.13039,
+  "date": "2026-10-03",
+  "time": "15:00 - 03:00",
+  "price": 650,
+  "currency": "SEK",
+  "venue": "Magasin 9",
+  "trending": true,
+  "lineup": [
+   "Boris Brejcha",
+   "Layer J",
+   "Drakenberg",
+   "Evertwo"
+  ],
+  "desc": "Les organisateurs de The Terminal et de Technostate s'associent pour le retour de l'Allemand Boris Brejcha à Stockholm, dans un nouveau lieu : le Magasin 9, grand hangar portuaire de Frihamnen, au nord-est de la ville. Portes à 15 h, set de Boris Brejcha de 19 h à 21 h, puis afterparty de 21 h à 3 h dans la même salle, comprise dans le billet. Layer J, Drakenberg et Evertwo complètent l'affiche. Entrée générale à 650 kr, 18 ans minimum.",
+  "descEn": "The Terminal and Technostate join forces for German producer Boris Brejcha's return to Stockholm, in a new home: Magasin 9, a large harbour warehouse in Frihamnen, north-east of the city centre. Doors at 3pm, Brejcha plays 7pm to 9pm, followed by an afterparty from 9pm to 3am in the same venue, included in the ticket. Layer J, Drakenberg and Evertwo complete the bill. General admission 650 kr, 18+.",
+  "ticketUrl": "https://www.tickster.com/se/sv/events/t0ebajzyzhgr3xy/2026-10-03/boris-brejcha-at-the-terminal-x-technostate",
+  "sources": [
+   "https://www.tickster.com/se/sv/events/t0ebajzyzhgr3xy/2026-10-03/boris-brejcha-at-the-terminal-x-technostate",
+   "https://secure.tickster.com/sv/t0ebajzyzhgr3xy/products"
+  ],
+  "note": "Adresse Magasin 9, Frihamnsgatan 66, Stockholm (page tickster). Coordonnées : Nominatim « Stockholm Cruise Center - Magasin 9 » (59.3455328, 18.1303896), cohérent avec le lien carte de tickster (59.3455, 18.1305). Prix : General Admission Phase 3 à 650 kr en vente ; paliers 595 et 645 kr épuisés (« Slutsålt »), le 645 kr fauteuil + accompagnant écarté. Samedi 03/10/2026 vérifié. Le même soir, Brejcha joue aussi à Göteborg (Kajskjul 105, set 01-03), deux événements distincts.",
+  "_image": {
+   "image": "https://static.tickster.com/35/1b414d86309135c3a62e3847bf309c72d17d18",
+   "sourcePage": "https://www.tickster.com/se/sv/events/t0ebajzyzhgr3xy/2026-10-03/boris-brejcha-at-the-terminal-x-technostate",
+   "credit": "Framkant Event / The Terminal",
+   "kind": "event",
+   "width": 1079,
+   "note": "visuel officiel (og:image tickster, original), 1079x607, pas d'extension dans l'URL (image/jpeg)"
+  }
+ },
+ {
+  "title": "Harder Halloween - Don Woezik à Nöjesfabriken",
+  "type": "Club",
+  "genres": [
+   "Hard Techno"
+  ],
+  "city": "Karlstad",
+  "country": "Sweden",
+  "lat": 59.37917,
+  "lng": 13.51378,
+  "date": "2026-10-24",
+  "time": "22:00 - 03:00",
+  "price": 195,
+  "currency": "SEK",
+  "venue": "Nöjesfabriken",
+  "trending": false,
+  "lineup": [
+   "Don Woezik",
+   "Aranea",
+   "Theodor Stratos",
+   "Elevany"
+  ],
+  "desc": "Nöjesfabriken, le grand lieu de nuit de Karlstad installé sur la presqu'île de Bryggudden, au bord de la Klarälven, transforme sa grande scène en rave de hard techno pour Halloween. Le Néerlandais Don Woezik est en tête d'affiche, avec Aranea, Theodor Stratos et Elevany. Ouverture de 22 h à 3 h, 18 ans et plus. Billets early bird à 195 kr tant qu'il en reste, puis 350 kr en dernière vague.",
+  "descEn": "Nöjesfabriken, Karlstad's big nightlife venue on the Bryggudden peninsula by the Klarälven river, turns its main stage into a hard techno Halloween rave. Dutch DJ Don Woezik headlines, with Aranea, Theodor Stratos and Elevany. Open from 10pm to 3am, 18+. Early bird tickets at 195 kr while they last, then 350 kr for the final wave.",
+  "ticketUrl": "https://www.tickster.com/se/sv/events/rk27nl23811tw0p/2026-10-24/harder-halloween-w-don-woezik",
+  "sources": [
+   "https://www.tickster.com/se/sv/events/rk27nl23811tw0p/2026-10-24/harder-halloween-w-don-woezik",
+   "https://secure.tickster.com/sv/rk27nl23811tw0p/products"
+  ],
+  "note": "Lieu : Mainstage Nöjesfabriken, Karlstad. Coordonnées : Nominatim « Nöjesfabriken, Karlagatan » (59.3791687, 13.5137782), cohérent avec le lien carte tickster (59.3794, 13.5135). Prix : Early Bird 195 kr en vente (« Fåtal kvar », peu de places), Regular Final Wave 350 kr. Samedi 24/10/2026 vérifié. Karlstad est probablement une nouvelle ville pour PLACES.",
+  "_image": {
+   "image": "https://static.tickster.com/0e/37db0cb4f38597b466f1cbb79f4d1c636f52d4",
+   "sourcePage": "https://www.tickster.com/se/sv/events/rk27nl23811tw0p/2026-10-24/harder-halloween-w-don-woezik",
+   "credit": "Nöjesfabriken",
+   "kind": "event",
+   "width": 1920,
+   "note": "affiche officielle (og:image tickster, original), 1920x1080"
+  }
+ },
+ {
+  "title": "Nico Moreno à Trädgår'n",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Techno"
+  ],
+  "city": "Gothenburg",
+  "country": "Sweden",
+  "lat": 57.70444,
+  "lng": 11.97573,
+  "date": "2026-11-28",
+  "time": "23:00 - 04:00",
+  "price": 399,
+  "currency": "SEK",
+  "venue": "Trädgår'n",
+  "trending": false,
+  "lineup": [
+   "Nico Moreno"
+  ],
+  "desc": "Le Français Nico Moreno, l'un des noms qui portent la hard techno sur les grandes scènes de festival, joue à Trädgår'n, le club et salle de concert posé dans le parc de Nya Allén, au centre de Göteborg. Son son industriel et sans répit remplit les salles un peu partout en Europe. De 23 h à 4 h, 18 ans et plus. Billets standard à 399 kr en première vague, balcon à 499 kr et accès scène à 699 kr.",
+  "descEn": "French DJ Nico Moreno, one of the names carrying hard techno onto the big festival stages, plays Trädgår'n, the club and concert venue set in the Nya Allén park in central Gothenburg. His relentless, industrial sound has been selling out rooms across Europe. From 11pm to 4am, 18+. Standard first-release tickets at 399 kr, balcony 499 kr and stage access 699 kr.",
+  "ticketUrl": "https://www.tickster.com/se/sv/events/27vxtfj7lanljz3/2026-11-28/nico-moreno-gothenburg-saturday-nov-28",
+  "sources": [
+   "https://www.tickster.com/se/sv/events/27vxtfj7lanljz3/2026-11-28/nico-moreno-gothenburg-saturday-nov-28",
+   "https://secure.tickster.com/sv/27vxtfj7lanljz3/products"
+  ],
+  "note": "Adresse Nya Allén 11, Göteborg. Coordonnées : nœud OSM Trädgår'n (Nominatim 57.7044491, 11.9757305), identique au lien carte tickster (57.7044, 11.9758). ATTENTION : les fiches Trädgår'n déjà au catalogue (KREAM, STVW) portent 57.7013, 11.977, soit ~350 m au sud, à revérifier. Prix : Standard First Release 399 kr en vente (« Fåtal kvar »). Samedi 28/11/2026 vérifié.",
+  "_image": {
+   "image": "https://static.tickster.com/37/77adefdad2b4bd1e386baa8fce7b58319f70c0",
+   "sourcePage": "https://www.tickster.com/se/sv/events/27vxtfj7lanljz3/2026-11-28/nico-moreno-gothenburg-saturday-nov-28",
+   "credit": "All Things Live",
+   "kind": "event",
+   "width": 1787,
+   "note": "visuel officiel (og:image tickster, original), 1787x1005"
+  }
+ },
+ {
+  "title": "Jan Blomqvist à Sentralen",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.911,
+  "lng": 10.74017,
+  "date": "2026-11-06",
+  "time": "22:00 - 03:00",
+  "price": 699,
+  "currency": "NOK",
+  "venue": "Sentralen",
+  "trending": false,
+  "lineup": [
+   "Jan Blomqvist"
+  ],
+  "desc": "L'Allemand Jan Blomqvist, qui chante en direct sur une house et une techno mélodiques jouées aux synthétiseurs plutôt que mixées, se produit à Sentralen, centre culturel installé dans une ancienne banque du quartier de Kvadraturen, au cœur d'Oslo. La jauge est limitée à 1 000 personnes pour garder un format de club. De 22 h à 3 h, 20 ans minimum. Billet standard à 699 kr en dernière vague, l'accès scène à 999 kr est épuisé.",
+  "descEn": "German artist Jan Blomqvist, who sings live over melodic house and techno played on synthesizers rather than mixed, performs at Sentralen, a cultural centre housed in a former bank in Oslo's Kvadraturen district. Capacity is capped at 1,000 to keep a club format. From 10pm to 3am, 20+. Standard tickets at 699 kr in the final release, the 999 kr stage tickets are sold out.",
+  "ticketUrl": "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
+  "sources": [
+   "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
+   "https://secure.tickster.com/no/65k43ekbmbma7a7/products",
+   "https://www.sentralen.no/",
+   "https://no.wikipedia.org/wiki/Sentralen"
+  ],
+  "note": "Adresse Øvre Slottsgate 3, 0157 Oslo (site de Sentralen). Coordonnées : Nominatim sur l'adresse (59.911002, 10.74017). Horaire : l'organisateur écrit 22:00 - 03:00, tickster affiche « Starter 21:00 ». Prix : Standard Final Release 699 kr en vente (« Få igjen »), Stage 999 kr « Utsolgt ». Vendredi 06/11/2026 vérifié. « Ancienne banque » : anciens locaux de la Christiania Sparebank (Wikipédia norvégien).",
+  "_image": {
+   "image": "https://static.tickster.com/ee/8ddad5bc854dc73b70c2a3f7327570e8515561",
+   "sourcePage": "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
+   "credit": "Delselius & You",
+   "kind": "event",
+   "width": 1787,
+   "note": "visuel officiel (og:image tickster, original), 1787x1005"
+  }
+ },
+ {
+  "title": "Klubb 37+ : Grant Nelson à Trekanten",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Oslo",
+  "country": "Norway",
+  "lat": 59.91751,
+  "lng": 10.7394,
+  "date": "2026-11-14",
+  "time": "15:00",
+  "price": 350,
+  "currency": "NOK",
+  "venue": "Trekanten",
+  "trending": false,
+  "lineup": [
+   "Grant Nelson",
+   "FUN:KEY",
+   "KAYV"
+  ],
+  "desc": "Klubb 37+, qui se présente comme le plus grand club house pour adultes de Norvège, danse de jour : on commence à 15 h pour ne pas avoir à tenir jusqu'à 4 h du matin. Invité, le Londonien Grant Nelson, figure de la house et du UK garage depuis le début des années 90 avec les labels Nice 'N' Ripe et Swing City Records. FUN:KEY et KAYV complètent l'affiche, à Trekanten, salle avec grand dancefloor et lounge sur Universitetsgata, à Hammersborg. Billet à 350 kr.",
+  "descEn": "Klubb 37+, which bills itself as Norway's biggest house club for grown-ups, dances in daylight: it starts at 3pm so nobody has to last until 4am. The guest is London's Grant Nelson, a house and UK garage figure since the early 90s through the Nice 'N' Ripe and Swing City Records labels. FUN:KEY and KAYV complete the bill at Trekanten, a room with a big dancefloor and a lounge on Universitetsgata in Hammersborg. Tickets 350 kr.",
+  "ticketUrl": "https://www.tickster.com/no/nb/events/aen9vxd8l8rt6kv/2026-11-14/klubb-37-pres-grant-nelson-uk",
+  "sources": [
+   "https://www.tickster.com/no/nb/events/aen9vxd8l8rt6kv/2026-11-14/klubb-37-pres-grant-nelson-uk",
+   "https://secure.tickster.com/no/aen9vxd8l8rt6kv/products"
+  ],
+  "note": "Lieu : Trekanten, Universitetsgata, Oslo. Coordonnées : Nominatim (59.9175124, 10.7393976), identique au lien carte tickster (59.9175, 10.7394). Heure de début 15:00 (tickster), heure de fin non publiée. Prix : billet unique « Vanlig billett » 350 kr. Samedi 14/11/2026 vérifié. Public 37 ans et plus (concept de la soirée).",
+  "_image": {
+   "image": "https://static.tickster.com/08/4aabf8c0e2420b021fb0bfa713b7f813599890",
+   "sourcePage": "https://www.tickster.com/no/nb/events/aen9vxd8l8rt6kv/2026-11-14/klubb-37-pres-grant-nelson-uk",
+   "credit": "Discotheque AS / Klubb 37+",
+   "kind": "event",
+   "width": 2000,
+   "note": "affiche officielle (og:image tickster, original), 2000x1125"
+  }
+ },
+ {
+  "title": "X by Pipapo à De Gudde Wëllen",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Luxembourg",
+  "country": "Luxembourg",
+  "lat": 49.60928,
+  "lng": 6.13347,
+  "date": "2026-10-10",
+  "time": "23:00",
+  "price": 0,
+  "currency": "EUR",
+  "venue": "De Gudde Wëllen",
+  "trending": false,
+  "lineup": [
+   "Gebeess Houeren",
+   "Chainsmokerz"
+  ],
+  "desc": "Pipapo, le projet luxembourgeois de réduction des risques en milieu festif, fête ses dix ans. Après une journée d'ateliers et une conférence aux Rotondes, la nuit passe à De Gudde Wëllen, le club de la rue du Saint-Esprit dans la Ville-Haute : à partir de 23 h, Gebeess Houeren et Chainsmokerz y jouent drum & bass et electronica, pendant que la fête se poursuit aux Rotondes et au Rocas, cinq dancefloors au total. Entrée libre, programme complet encore à venir.",
+  "descEn": "Pipapo, Luxembourg's nightlife harm reduction project, turns ten. After a day of workshops and a talk at Rotondes, the night moves to De Gudde Wëllen, the club on rue du Saint-Esprit in the Ville-Haute: from 11pm, Gebeess Houeren and Chainsmokerz play drum and bass and electronica there, while the party carries on at Rotondes and Rocas, five dancefloors in all. Free entry, full programme still to be announced.",
+  "ticketUrl": "https://www.deguddewellen.lu/events/x-by-pipapo",
+  "sources": [
+   "https://www.deguddewellen.lu/events/x-by-pipapo",
+   "https://www.deguddewellen.lu/agenda",
+   "https://pipapo.lu/"
+  ],
+  "note": "Adresse De Gudde Wëllen, 17 rue du Saint-Esprit, Luxembourg. Coordonnées : nœud OSM De Gudde Wëllen (Nominatim 49.609283, 6.1334744). Samedi 10/10/2026 vérifié. Prix : « The event is FREE » sur la page du club, donc price 0 = vraiment gratuit. DOUTE : l'événement se tient sur trois lieux (Rotondes, De Gudde Wëllen, Rocas) ; la fiche retient De Gudde Wëllen parce que c'est la source lue et le seul plateau dont le line-up est publié. Line-up complet de la nuit « TBA ».",
+  "_image": {
+   "image": "https://cdn.prod.website-files.com/687ea5a502a25a60cc879e12/6aacf4e753c97c47bdab29d3_Pipapo%20X%20program%20DGW.png",
+   "sourcePage": "https://www.deguddewellen.lu/events/x-by-pipapo",
+   "credit": "De Gudde Wëllen / Pipapo",
+   "kind": "event",
+   "width": 480,
+   "note": "affiche officielle du programme, 480x640 seulement (portrait), faute de mieux"
+  }
+ },
+ {
+  "title": "Trentemøller au Den Atelier",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Luxembourg",
+  "country": "Luxembourg",
+  "lat": 49.59876,
+  "lng": 6.1261,
+  "date": "2027-03-07",
+  "time": "19:00",
+  "price": 39.5,
+  "currency": "EUR",
+  "venue": "Den Atelier",
+  "trending": false,
+  "lineup": [
+   "Trentemøller"
+  ],
+  "desc": "Le Danois Anders Trentemøller, passé de la techno minimale de ses débuts à une électronique sombre jouée avec un groupe sur scène, fait étape au Den Atelier le dimanche 7 mars 2027, entre Bruxelles et Amsterdam dans sa tournée européenne. La salle de la rue de Hollerich, dans le quartier de la Gare, occupe un ancien garage de camions Renault et accueille jusqu'à 1 200 personnes depuis 1995. Billets autour de 39,50 €.",
+  "descEn": "Denmark's Anders Trentemøller, who moved from the minimal techno of his early records to a dark electronic sound played with a live band, stops at Den Atelier on Sunday 7 March 2027, between Brussels and Amsterdam on his European tour. The rue de Hollerich venue in the Gare district fills a former Renault truck garage and has held up to 1,200 people since 1995. Tickets around 39.50 euros.",
+  "ticketUrl": "https://www.atelier.lu/shows/trentemoller-4/",
+  "sources": [
+   "https://tix.to/trentemoller",
+   "https://agendaza.fr/salle/den-atelier-luxembourg",
+   "https://concerts50.com/artists/trentem-ller-tour-dates",
+   "https://en.wikipedia.org/wiki/Den_Atelier"
+  ],
+  "note": "Date confirmée par la page de tournée officielle (tix.to, lien vers atelier.lu/shows/trentemoller-4/). atelier.lu répond 403 depuis le conteneur, page de la salle non lue. Adresse 54 rue de Hollerich : coordonnées Nominatim sur l'adresse (49.5987577, 6.1261009) ; agendaza donne 49.59880, 6.12481 (~90 m), à trancher. Horaire : 19:00 selon concerts50 (JSON-LD), 20:00 selon un résumé de recherche, donc indicatif. Prix : 39,50 € d'après agendaza (offre Fnac Spectacles via Awin), indicatif, non vérifié sur la billetterie de la salle. Dimanche 07/03/2027 vérifié. DOUTE de périmètre : concert live électronique plutôt que soirée de club ; genre « Techno » faute de case plus juste.",
+  "_image": {
+   "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Den_Atelier%2C_rue_de_Hollerich-101.jpg/1280px-Den_Atelier%2C_rue_de_Hollerich-101.jpg",
+   "sourcePage": "https://commons.wikimedia.org/wiki/File:Den_Atelier,_rue_de_Hollerich-101.jpg",
+   "credit": "Jwh, Wikimedia Commons, CC BY-SA 3.0 lu",
+   "kind": "venue",
+   "width": 1280,
+   "note": "façade de la salle (février 2015), paysage 1280x854"
+  }
+ }
+]
