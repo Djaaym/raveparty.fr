@@ -246,6 +246,18 @@ export const PLACES: Place[] = [
   { slug: "belgrade", label: "Belgrade", kind: "ville", vol: 480, match: ["Belgrade", "Vrnjacka Banja"] },
   { slug: "sofia", label: "Sofia", kind: "ville", vol: 320, match: ["Sofia"] },
   { slug: "tbilissi", label: "Tbilissi", kind: "ville", vol: 590, match: ["Tbilisi"] },
+  /* Ouvertes par le lot de septembre 2026 sur les pays les moins couverts. Chacune porte
+     au moins deux dates à venir, en deçà la page ville ne ferait que répéter la fiche.
+     `vol: 0` pour la même raison que plus haut : l'export SEMrush ne les couvre pas. */
+  { slug: "bratislava", label: "Bratislava", kind: "ville", vol: 0, match: ["Bratislava"] },
+  { slug: "ljubljana", label: "Ljubljana", kind: "ville", vol: 0, match: ["Ljubljana"] },
+  { slug: "sarajevo", label: "Sarajevo", kind: "ville", vol: 0, match: ["Sarajevo"] },
+  { slug: "skopje", label: "Skopje", kind: "ville", vol: 0, match: ["Skopje"] },
+  { slug: "tirana", label: "Tirana", kind: "ville", vol: 0, match: ["Tirana"] },
+  { slug: "cluj-napoca", label: "Cluj-Napoca", kind: "ville", vol: 0, match: ["Cluj-Napoca"] },
+  { slug: "limassol", label: "Limassol", kind: "ville", vol: 0, match: ["Limassol"] },
+  { slug: "goteborg", label: "Göteborg", kind: "ville", vol: 0, match: ["Gothenburg"] },
+  { slug: "malmo", label: "Malmö", kind: "ville", vol: 0, match: ["Malmö"] },
 ];
 
 export const placeBySlug = (slug: string): Place | undefined => PLACES.find((p) => p.slug === slug);

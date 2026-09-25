@@ -1,0 +1,434 @@
+[
+  {
+    "id": 2415,
+    "image": "https://trn.mk/wp-content/uploads/2026/09/fb-eventpost-copy.jpg",
+    "sourcePage": "https://trn.mk/autechre-vo-skopje-koncert-vo-temnica-mkc/",
+    "credit": "ROTKO books&music",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de l'événement repris par trn.mk (paysage 1920x1010)"
+  },
+  {
+    "id": 2457,
+    "image": "https://gowild.al/storage/events/September2026/f3zxKQZK1m3KDNdyLW9i.jpg",
+    "sourcePage": "https://gowild.al/en/event/verknipt-albania",
+    "credit": "Plipki Records / Verknipt",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle (1000x1208)"
+  },
+  {
+    "id": 2459,
+    "image": "https://gowild.al/storage/events/September2026/NZwYSfyx4kJzrbrUENkW.jpg",
+    "sourcePage": "https://gowild.al/en/event/folie-electronic-presents-chris-liebing",
+    "credit": "Folie Electronic / Gowild",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle (1000x1250)"
+  },
+  {
+    "id": 2424,
+    "image": "https://www.ch0.org/wp-content/uploads/2026/09/web-fb-banner.jpg",
+    "sourcePage": "https://www.ch0.org/refresh-x-hrup-w-poor-jdarr-gr/",
+    "credit": "KUD Channel Zero / Hrup",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la soirée (1920x1080, paysage)"
+  },
+  {
+    "id": 2421,
+    "image": "https://ulaznica.org/uploads/event/0/lg/407.png",
+    "sourcePage": "https://ulaznica.org/beyond/tickets/407/bpm-presents-bart-skils",
+    "credit": "BPM Sarajevo",
+    "kind": "event",
+    "width": 1280,
+    "note": "bannière officielle 1280x425 (format très large, la photo de l'artiste est au centre)"
+  },
+  {
+    "id": 2427,
+    "image": "https://media.gardenofdreams.ba/2025/05/svjetlost-rooftop-2.jpg",
+    "sourcePage": "https://gardenofdreams.ba/en/2025-en/locations/svjetlost-rooftop/",
+    "credit": "Garden of Dreams",
+    "kind": "venue",
+    "width": 1506,
+    "note": "photo du toit Svjetlost pendant une session Garden of Dreams (1506x1080)"
+  },
+  {
+    "id": 2416,
+    "image": "https://images-files-musicreaction-api-production-eu-central-1.s3.eu-central-1.amazonaws.com/images/1788454889_REACT26-inst.jpg",
+    "sourcePage": "https://musicreactions.com/events/react-festival-2026/tickets",
+    "credit": "Music Reactions",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle format Instagram (1080x1350)"
+  },
+  {
+    "id": 2435,
+    "image": "https://new.gigstix.com/wp-content/uploads/2026/08/illusions-5-years-800.jpg",
+    "sourcePage": "https://new.gigstix.com/event/illusions-5-years-beyond-reality-beograd-oktobar-2026/",
+    "credit": "Illusions",
+    "kind": "event",
+    "width": 800,
+    "note": "visuel officiel du week-end (800x600)"
+  },
+  {
+    "id": 2439,
+    "image": "https://olaii-static.s3.amazonaws.com/media/public/olai-03-03.jpg",
+    "sourcePage": "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
+    "credit": "FM Agencija / Futuristing",
+    "kind": "event",
+    "width": 1024,
+    "note": "visuel officiel (1024x710)"
+  },
+  {
+    "id": 2450,
+    "image": "https://images-files-musicreaction-api-production-eu-central-1.s3.eu-central-1.amazonaws.com/images/1790243177_MRIR-Zagreb-poster.jpg",
+    "sourcePage": "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
+    "credit": "Music Reactions",
+    "kind": "event",
+    "width": 1080,
+    "note": "affiche officielle (1080x1350)"
+  },
+  {
+    "id": 2462,
+    "image": "https://cdn.prod.website-files.com/68c07bb3e5660f1971796324/68c30a870d725c13ab6c05ba_quote%20bg.jpg",
+    "sourcePage": "https://www.kala.al/",
+    "credit": "Kala Festival",
+    "kind": "festival",
+    "width": 1726,
+    "note": "photo du festival (piscine d'hôtel face à la mer, 1726x1009) ; pas de photo de scène isolée disponible sur le site"
+  },
+  {
+    "id": 2463,
+    "image": "https://api.anjunadeep.com/assets/5287ca21-ba56-4611-9867-27dc95de026e?fit=cover&withoutEnlargement=true&format=jpg&width=1200&height=630&quality=75",
+    "sourcePage": "https://anjunadeep.com/events/explorations",
+    "credit": "Anjunadeep",
+    "kind": "festival",
+    "width": 1200,
+    "note": "visuel officiel 2027 (côte de Dhërmi avec logo, 1200x630)"
+  },
+  {
+    "id": 2425,
+    "image": "https://www.palladium.lv/files/images/2026/8/1/Palladium_joyhauser_mha_iri_16x9_no_text-xl.png",
+    "sourcePage": "https://www.palladium.lv/lv/kalendars/joyhauser-mha-iri-crave-night/",
+    "credit": "Palladium Rīga / Crave Night",
+    "kind": "event",
+    "width": 990,
+    "note": "visuel officiel de la soirée (variante -xl de l'og:image Palladium), 990x556"
+  },
+  {
+    "id": 2417,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/42854/mpAaRxf9NLQkHY1.png",
+    "sourcePage": "https://fienta.com/night-shift-3-mihai-popoviciu-ro",
+    "credit": "Night Shift / B2 Riga",
+    "kind": "event",
+    "width": 1070,
+    "note": "affiche officielle (image Fienta), 1070x601"
+  },
+  {
+    "id": 2418,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/42897/mRb2GEzQbk5mXMV.jpg",
+    "sourcePage": "https://fienta.com/splced-out-dnb-riga-invasion",
+    "credit": "Spaced Out DnB",
+    "kind": "event",
+    "width": 1070,
+    "note": "affiche officielle carrée (image Fienta), 1070x1070"
+  },
+  {
+    "id": 2419,
+    "image": "https://tickets.paysera.com/public/images/cmrxl1i5f00063b77qq4iabhc/elastica-ellen-allien-2727-blitzton-jogaila_lt__1787322195_83656ca9.jpeg",
+    "sourcePage": "https://tickets.paysera.com/lt-LT/event/elastica-ellen-allien-2727-blitzton-jogaila",
+    "credit": "Elastica",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel de la soirée (og:image Paysera), 1920x960"
+  },
+  {
+    "id": 2430,
+    "image": "https://vnb.lt/wp-content/uploads/2026/08/Elastica-Kittin-1016-FB-Event-Cover-1920x1005-1.jpg",
+    "sourcePage": "https://vnb.lt/renginys/elastica-kittin-%e2%9d%9a-homemade-explosives-%e2%9d%9a-interiors-%e2%9d%9a-marijus-klimaitis/",
+    "credit": "Elastica",
+    "kind": "event",
+    "width": 1600,
+    "note": "visuel officiel de la soirée (couverture d'événement), 1600x838"
+  },
+  {
+    "id": 2444,
+    "image": "https://vnb.lt/wp-content/uploads/2026/09/event_cover-deers_club55.jpg",
+    "sourcePage": "https://vnb.lt/renginys/deers-club-michael-mayer-chloe-more/",
+    "credit": "Deers Club / gallery 1986",
+    "kind": "event",
+    "width": 1600,
+    "note": "visuel officiel de la soirée (image JSON-LD VNB), 1600x838"
+  },
+  {
+    "id": 2452,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/26637/XHPx5OX48Mr82r9.jpg",
+    "sourcePage": "https://fienta.com/lane8",
+    "credit": "Momentum",
+    "kind": "event",
+    "width": 1070,
+    "note": "visuel officiel de la date (image Fienta), 1070x601"
+  },
+  {
+    "id": 2451,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/31716/cyn89oDRQtszLQw.png",
+    "sourcePage": "https://fienta.com/overdrive-techno-dnb-raw-rave-imhappy-oryma-erabreak-peygan-more",
+    "credit": "White Noise Events",
+    "kind": "event",
+    "width": 1070,
+    "note": "affiche officielle (image Fienta), 1070x560"
+  },
+  {
+    "id": 2455,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/31716/5vYhO9rs4t14Ed9.png",
+    "sourcePage": "https://fienta.com/pulsation-estonia-2026-metrik-subsonic",
+    "credit": "White Noise Events / Pulsation",
+    "kind": "event",
+    "width": 1070,
+    "note": "affiche officielle (image Fienta), 1070x601"
+  },
+  {
+    "id": 2428,
+    "image": "https://aaniwalli.fi/_astro/testpressing_61_4x5.DfR08Pj4_Z1u3dW9.jpg",
+    "sourcePage": "https://aaniwalli.fi/events/2026-09-15-test_pressing__61_speedy_j__hybrid_djlive_nl_om_unit_uk",
+    "credit": "Ääniwalli / Test Pressing",
+    "kind": "event",
+    "width": 600,
+    "note": "affiche officielle au format 4:5 (600x750), préférée au visuel 1200x628 qui se coupait au recadrage"
+  },
+  {
+    "id": 2436,
+    "image": "https://www.postbar.fi/media/pages/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa/9262fb2772-1790321972/image1-1-kopie-2.jpeg",
+    "sourcePage": "https://www.postbar.fi/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa",
+    "credit": "Post Bar",
+    "kind": "event",
+    "width": 1365,
+    "note": "visuel officiel carré de la soirée (og:image Post Bar), 1365x1365"
+  },
+  {
+    "id": 2440,
+    "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/18188/9m00xGGZjK10mdk.jpg",
+    "sourcePage": "https://fienta.com/whomadewho",
+    "credit": "Momentum",
+    "kind": "event",
+    "width": 1070,
+    "note": "affiche officielle (image Fienta), 1070x601"
+  },
+  {
+    "id": 2420,
+    "image": "https://goout.net/i/140/1405451-383.jpg",
+    "sourcePage": "https://goout.net/en/depo-invites-klint-8th-anniversary-of-the-club/szsbvmy/",
+    "credit": "Depo / Radosť Music Club",
+    "kind": "event",
+    "width": 1500,
+    "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  },
+  {
+    "id": 2431,
+    "image": "https://goout.net/i/140/1405874-383.jpg",
+    "sourcePage": "https://goout.net/en/3-years-of-moodyverse-sezer-uysal+denes-toth+dalsi/szmjwmy/",
+    "credit": "Moodyverse / Aldea Club",
+    "kind": "event",
+    "width": 1500,
+    "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  },
+  {
+    "id": 2445,
+    "image": "https://goout.net/i/136/1366479-383.jpg",
+    "sourcePage": "https://goout.net/en/junglequeen-b-complex+bugwell+dalsi/szkvkmy/",
+    "credit": "B-Complex / Junglequeen",
+    "kind": "event",
+    "width": 1500,
+    "note": "visuel officiel de la soirée (og:image GoOut), 1500x1000"
+  },
+  {
+    "id": 2447,
+    "image": "https://goout.net/i/139/1398673-383.jpg",
+    "sourcePage": "https://goout.net/en/bassizm-festival-winter-edition/szemely/",
+    "credit": "Bassizm",
+    "kind": "event",
+    "width": 1500,
+    "note": "visuel officiel de l'événement (og:image GoOut), 1500x1000"
+  },
+  {
+    "id": 2454,
+    "image": "https://www.a38.hu/storage/app/uploads/public/6aa/bf7/e33/thumb_197634_2048_0_0_0_auto.jpg",
+    "sourcePage": "https://www.a38.hu/en/program/bladerunnaz-kanine-uk-reflections-ukeu-tour",
+    "credit": "A38 / Bladerunnaz",
+    "kind": "event",
+    "width": 2048,
+    "note": "visuel officiel de la soirée (image JSON-LD A38), 2048x1152"
+  },
+  {
+    "id": 2458,
+    "image": "https://images.cdn.cooltix.com/837424da167344cbb1f420d822062d87.png",
+    "sourcePage": "https://iamproductions.hu/marie-vaunt-tickets/",
+    "credit": "IAM Productions",
+    "kind": "event",
+    "width": 1200,
+    "note": "visuel officiel de la soirée (image JSON-LD cooltix), 1200x629"
+  },
+  {
+    "id": 2422,
+    "image": "https://static.tickster.com/35/1b414d86309135c3a62e3847bf309c72d17d18",
+    "sourcePage": "https://www.tickster.com/se/sv/events/t0ebajzyzhgr3xy/2026-10-03/boris-brejcha-at-the-terminal-x-technostate",
+    "credit": "Framkant Event / The Terminal",
+    "kind": "event",
+    "width": 1079,
+    "note": "visuel officiel (og:image tickster, original), 1079x607, pas d'extension dans l'URL (image/jpeg)"
+  },
+  {
+    "id": 2442,
+    "image": "https://static.tickster.com/0e/37db0cb4f38597b466f1cbb79f4d1c636f52d4",
+    "sourcePage": "https://www.tickster.com/se/sv/events/rk27nl23811tw0p/2026-10-24/harder-halloween-w-don-woezik",
+    "credit": "Nöjesfabriken",
+    "kind": "event",
+    "width": 1920,
+    "note": "affiche officielle (og:image tickster, original), 1920x1080"
+  },
+  {
+    "id": 2456,
+    "image": "https://static.tickster.com/37/77adefdad2b4bd1e386baa8fce7b58319f70c0",
+    "sourcePage": "https://www.tickster.com/se/sv/events/27vxtfj7lanljz3/2026-11-28/nico-moreno-gothenburg-saturday-nov-28",
+    "credit": "All Things Live",
+    "kind": "event",
+    "width": 1787,
+    "note": "visuel officiel (og:image tickster, original), 1787x1005"
+  },
+  {
+    "id": 2446,
+    "image": "https://static.tickster.com/ee/8ddad5bc854dc73b70c2a3f7327570e8515561",
+    "sourcePage": "https://www.tickster.com/no/nb/events/65k43ekbmbma7a7/2026-11-06/jan-blomqvist-oslo-friday-nov-6th",
+    "credit": "Delselius & You",
+    "kind": "event",
+    "width": 1787,
+    "note": "visuel officiel (og:image tickster, original), 1787x1005"
+  },
+  {
+    "id": 2449,
+    "image": "https://static.tickster.com/08/4aabf8c0e2420b021fb0bfa713b7f813599890",
+    "sourcePage": "https://www.tickster.com/no/nb/events/aen9vxd8l8rt6kv/2026-11-14/klubb-37-pres-grant-nelson-uk",
+    "credit": "Discotheque AS / Klubb 37+",
+    "kind": "event",
+    "width": 2000,
+    "note": "affiche officielle (og:image tickster, original), 2000x1125"
+  },
+  {
+    "id": 2429,
+    "image": "https://cdn.prod.website-files.com/687ea5a502a25a60cc879e12/6aacf4e753c97c47bdab29d3_Pipapo%20X%20program%20DGW.png",
+    "sourcePage": "https://www.deguddewellen.lu/events/x-by-pipapo",
+    "credit": "De Gudde Wëllen / Pipapo",
+    "kind": "event",
+    "width": 480,
+    "note": "affiche officielle du programme, 480x640 seulement (portrait), faute de mieux"
+  },
+  {
+    "id": 2460,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Den_Atelier%2C_rue_de_Hollerich-101.jpg/1280px-Den_Atelier%2C_rue_de_Hollerich-101.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Den_Atelier,_rue_de_Hollerich-101.jpg",
+    "credit": "Jwh, Wikimedia Commons, CC BY-SA 3.0 lu",
+    "kind": "venue",
+    "width": 1280,
+    "note": "façade de la salle (février 2015), paysage 1280x854"
+  },
+  {
+    "id": 2426,
+    "image": "https://bassiani.com/uploads/2026/07/1784200255.png",
+    "sourcePage": "https://bassiani.com/light/nights/1108",
+    "credit": "Bassiani",
+    "kind": "event",
+    "width": 2480,
+    "note": "affiche officielle de BASSIANII2 (JPEG servi avec extension .png, 2480x3508)"
+  },
+  {
+    "id": 2441,
+    "image": "https://bassiani.com/uploads/2026/09/1790088069.png",
+    "sourcePage": "https://bassiani.com/light/nights/1122",
+    "credit": "Bassiani",
+    "kind": "event",
+    "width": 2480,
+    "note": "affiche officielle de la soirée (JPEG 2480x3508)"
+  },
+  {
+    "id": 2432,
+    "image": "https://khidi.ge/wp-content/uploads/2026/09/16.10.2026.webp",
+    "sourcePage": "https://khidi.ge/event/161026/",
+    "credit": "KHIDI",
+    "kind": "event",
+    "width": 1000,
+    "note": "affiche officielle (og:image), 1000x1000"
+  },
+  {
+    "id": 2461,
+    "image": "https://sunwaves-fest.ro/wp-content/uploads/2026/05/39-post_.png",
+    "sourcePage": "https://sunwaves-fest.ro/edition/sunwaves-festival-sw39-spring-edition-golden-sands/",
+    "credit": "Sunwaves Festival",
+    "kind": "event",
+    "width": 1080,
+    "note": "visuel officiel SW39 Spring Edition, 1080x1350"
+  },
+  {
+    "id": 2437,
+    "image": "https://panel.bilet.bg/media/events/03d4fb9b9962f84a8a49badc37a498ac.png",
+    "sourcePage": "https://bilet.bg/bg/events/darkbeat-invites-human-sinner-jakkar-arlecin-8738",
+    "credit": "Darkbeat Invites / KEVA",
+    "kind": "event",
+    "width": 500,
+    "note": "affiche officielle (og:image bilet.bg), 500x700, sous les 800 px conseillés"
+  },
+  {
+    "id": 2438,
+    "image": "https://static3.iabilet.ro/img/db/event/02/02/d0/00000429359-9ab7.png",
+    "sourcePage": "https://www.iabilet.ro/bilete-10-years-of-form-space-with-worakls-131792/",
+    "credit": "FORM Space",
+    "kind": "event",
+    "width": 4000,
+    "note": "visuel officiel de la soirée (paysage 4000x2250)"
+  },
+  {
+    "id": 2443,
+    "image": "https://static3.iabilet.ro/img/db/event/01/ff/33/00000425662-0a17.jpg",
+    "sourcePage": "https://www.iabilet.ro/bilete-quite-lucky-024-with-bou-at-palatul-bragadiru-bucharest-130867/",
+    "credit": "Quite Lucky",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel QL024 (paysage 1920x1080)"
+  },
+  {
+    "id": 2453,
+    "image": "https://www.back.etkocyprus.com/attachments/X0I95cCdWEt065ra9oRaNdNeD5PyZjpFYqQ5LpAL.jpg",
+    "sourcePage": "https://etkocyprus.com/events/kevindevries",
+    "credit": "ETKO",
+    "kind": "event",
+    "width": 1200,
+    "note": "visuel officiel (og:image), paysage 1200x630"
+  },
+  {
+    "id": 2448,
+    "image": "https://cyprus.bz/img/images/events/074864fa-efea-4197-b5ff-872e0f8fea7d/1786244587914.png",
+    "sourcePage": "https://cyprus.bz/event/3305/dj-tennis-b2b-mano-le-tough-echonomist-2026",
+    "credit": "The Warehouse by IT Quarter",
+    "kind": "event",
+    "width": 941,
+    "note": "affiche officielle de la soirée (WebP servi sous extension .png, 941x1672), copie hébergée par l'agenda cyprus.bz"
+  },
+  {
+    "id": 2434,
+    "image": "https://bassiani.com/uploads/2026/09/1789633552.png",
+    "sourcePage": "https://bassiani.com/light/nights/1120",
+    "credit": "Bassiani",
+    "kind": "event",
+    "width": 2480,
+    "note": "affiche officielle de la soirée (JPEG 2480x3508)"
+  },
+  {
+    "id": 2423,
+    "image": "https://static3.iabilet.ro/img/db/event/01/f6/db/00000424908-78c0.png",
+    "sourcePage": "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+    "credit": "B:pressure",
+    "kind": "event",
+    "width": 1920,
+    "note": "visuel officiel (paysage 1920x1080)"
+  }
+]

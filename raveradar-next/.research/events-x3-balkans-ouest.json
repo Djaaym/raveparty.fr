@@ -250,14 +250,14 @@
     ],
     "city": "Belgrade",
     "country": "Serbia",
-    "lat": 44.82626,
-    "lng": 20.47471,
+    "lat": 44.82649,
+    "lng": 20.47448,
     "date": "2026-10-02",
     "endDate": "2026-10-03",
     "time": "22:00 - 06:00",
     "price": 27,
     "currency": "EUR",
-    "venue": "Hangar, Port of Belgrade",
+    "venue": "New Hangar, Port of Belgrade",
     "trending": false,
     "lineup": [
       "I Hate Models",
@@ -295,7 +295,7 @@
       "https://musicreactions.com/",
       "https://hypehou.se/events/kqu3sjglzabnwib/"
     ],
-    "note": "Hangar, Žorža Klemansoa 37, Luka Beograd. Coordonnées du lieu d'après hypehou.se (44.82626, 20.47471), cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue (44.82649, 20.47448) : à vérifier s'il s'agit du même bâtiment pour unifier le libellé de salle. Prix : EARLY ENTRY jour 1 ou 2 à 27 € (entrée avant 23 h), DAY REGULAR 34 €, pass 2 jours 59 € ; les phases early bird à 45-56 € (pass) sont épuisées. Ven. 2 et sam. 3 octobre 2026.",
+    "note": "Hangar, Žorža Klemansoa 37, Luka Beograd. Coordonnées du lieu d'après hypehou.se (44.82626, 20.47471), cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue (44.82649, 20.47448) : à vérifier s'il s'agit du même bâtiment pour unifier le libellé de salle. Prix : EARLY ENTRY jour 1 ou 2 à 27 € (entrée avant 23 h), DAY REGULAR 34 €, pass 2 jours 59 € ; les phases early bird à 45-56 € (pass) sont épuisées. Ven. 2 et sam. 3 octobre 2026. Salle unifiée à la fusion avec « New Hangar, Port of Belgrade » déjà au catalogue (même bâtiment, 30 m).",
     "_image": {
       "image": "https://images-files-musicreaction-api-production-eu-central-1.s3.eu-central-1.amazonaws.com/images/1788454889_REACT26-inst.jpg",
       "sourcePage": "https://musicreactions.com/events/react-festival-2026/tickets",
@@ -313,13 +313,13 @@
     ],
     "city": "Belgrade",
     "country": "Serbia",
-    "lat": 44.82626,
-    "lng": 20.47471,
+    "lat": 44.82649,
+    "lng": 20.47448,
     "date": "2026-10-17",
     "time": "22:00 - 06:00",
     "price": 2690,
     "currency": "RSD",
-    "venue": "Hangar, Port of Belgrade",
+    "venue": "New Hangar, Port of Belgrade",
     "trending": false,
     "lineup": [
       "Adam Beyer",
@@ -335,7 +335,7 @@
       "https://www.rtv.rs/sr_lat/mladi/gde-otici/illusions-slavi-5-godina-dve-noci-sa-najvecim-imenima-svetske-elektronske-scene_1741388.html",
       "https://illusions.rs/upcoming-events"
     ],
-    "note": "Hangar - Stage 1, Žorža Klemansoa 37, Luka Beograd (même lieu que REACT Festival de ce lot). Coordonnées d'après hypehou.se, cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue. Prix : REGULAR 17.10 à 2 690 RSD (Phase I, en vente), pass 2 jours 4 990 RSD. La nuit du vendredi 16 (Mahmut Orhan, Arodes, People Like Us, Anya, 3 290 RSD) n'est pas reprise ici. Samedi 17 octobre 2026 vérifié. RTV annonce 23 h, gigstix 22:00-06:00.",
+    "note": "Hangar - Stage 1, Žorža Klemansoa 37, Luka Beograd (même lieu que REACT Festival de ce lot). Coordonnées d'après hypehou.se, cohérentes avec la fiche « New Hangar, Port of Belgrade » du catalogue. Prix : REGULAR 17.10 à 2 690 RSD (Phase I, en vente), pass 2 jours 4 990 RSD. La nuit du vendredi 16 (Mahmut Orhan, Arodes, People Like Us, Anya, 3 290 RSD) n'est pas reprise ici. Samedi 17 octobre 2026 vérifié. RTV annonce 23 h, gigstix 22:00-06:00. Salle unifiée à la fusion avec « New Hangar, Port of Belgrade » déjà au catalogue (même bâtiment, 30 m).",
     "_image": {
       "image": "https://new.gigstix.com/wp-content/uploads/2026/08/illusions-5-years-800.jpg",
       "sourcePage": "https://new.gigstix.com/event/illusions-5-years-beyond-reality-beograd-oktobar-2026/",
@@ -363,15 +363,10 @@
     "venueEn": "Ljubljana Exhibition and Convention Centre",
     "trending": false,
     "lineup": [
-      "UMEK",
-      "DJ Rush",
-      "Cristian Varela",
-      "Marco Bailey",
-      "Valentino Kanzyani",
-      "Estora"
+      "UMEK"
     ],
-    "desc": "UMEK, pionnier de la techno slovène depuis les années 1990, investit deux halls du Gospodarsko razstavišče, le parc des expositions de la Dunajska cesta, pour une soirée en deux temps : un concert où il croise une douzaine de musiciens slovènes venus d'autres genres, puis une nuit techno sur deux scènes. Aux platines avec lui, DJ Rush, Cristian Varela b2b Marco Bailey, Valentino Kanzyani et Estora. Billet « DJ Experience » (entrée dès 22 h 30) à 45 €, les formules avec concert sont épuisées.",
-    "descEn": "UMEK, a pioneer of Slovenian techno since the 1990s, takes over two halls of Gospodarsko razstavišče, the exhibition grounds on Dunajska cesta, for a two-part night: a concert where he meets a dozen Slovenian musicians from other genres, then a techno night across two arenas. Joining him on the decks are DJ Rush, Cristian Varela b2b Marco Bailey, Valentino Kanzyani and Estora. The DJ Experience ticket (entry from 22:30) costs 45 €, concert packages are sold out.",
+    "desc": "UMEK, pionnier de la techno slovène depuis les années 1990, investit deux halls du Gospodarsko razstavišče, le parc des expositions de la Dunajska cesta, pour une soirée en deux temps : un concert où il croise une douzaine de musiciens slovènes venus d'autres genres, puis une nuit techno sur deux scènes. La billetterie ne nomme encore que lui, les invités de la nuit techno restent à confirmer. Billet « DJ Experience » (entrée dès 22 h 30) à 45 €, les formules avec concert sont épuisées.",
+    "descEn": "UMEK, a pioneer of Slovenian techno since the 1990s, takes over two halls of Gospodarsko razstavišče, the exhibition grounds on Dunajska cesta, for a two-part night: a concert where he meets a dozen Slovenian musicians from other genres, then a techno night across two arenas. The ticket office only names UMEK so far, his guests for the techno night are still to be confirmed. The DJ Experience ticket (entry from 22:30) costs 45 €, concert packages are sold out.",
     "ticketUrl": "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
     "sources": [
       "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",
@@ -379,7 +374,7 @@
       "https://allevents.in/ljubljana/umek-50-nezdru%C5%BDljivo/200029786252007",
       "https://hypehou.se/events/mvroautchqyw2ag/"
     ],
-    "note": "Gospodarsko razstavišče, Dunajska cesta 18, Ljubljana. Coordonnées OSM via Photon (events_centre), l'API olaii donne 46.06188, 14.50815. Horaires de l'API olaii : 20:00-06:00 heure locale. Prix : DJ EXPERIENCE 5.0 à 45 € (12 billets restants au 25/09), DJ Experience 4.0 à 40 € et Full Experience 70 € épuisés. Line-up DJ : la billetterie ne nomme que UMEK ; DJ Rush, Cristian Varela b2b Marco Bailey, Valentino Kanzyani et Estora viennent de hypehou.se (Marco Bailey recoupé par un post Instagram de l'organisateur vu en résultat de recherche). À relire. Vendredi 23 octobre 2026 vérifié.",
+    "note": "Gospodarsko razstavišče, Dunajska cesta 18, Ljubljana. Coordonnées OSM via Photon (events_centre), l'API olaii donne 46.06188, 14.50815. Horaires de l'API olaii : 20:00-06:00 heure locale. Prix : DJ EXPERIENCE 5.0 à 45 € (12 billets restants au 25/09), DJ Experience 4.0 à 40 € et Full Experience 70 € épuisés. Line-up DJ : la billetterie ne nomme que UMEK ; DJ Rush, Cristian Varela b2b Marco Bailey, Valentino Kanzyani et Estora viennent de hypehou.se (Marco Bailey recoupé par un post Instagram de l'organisateur vu en résultat de recherche). À relire. Vendredi 23 octobre 2026 vérifié. Line-up réduit à UMEK à la fusion : le reste ne vient que d'un agrégateur.",
     "_image": {
       "image": "https://olaii-static.s3.amazonaws.com/media/public/olai-03-03.jpg",
       "sourcePage": "https://olaii.com/event/9675/umek-5-0-ne-zdruzljivo/",

@@ -432,5 +432,93 @@
       "width": 941,
       "note": "affiche officielle de la soirée (WebP servi sous extension .png, 941x1672), copie hébergée par l'agenda cyprus.bz"
     }
+  },
+  {
+    "title": "Anthony Rother at Bassiani",
+    "type": "Club",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "lat": 41.72277,
+    "lng": 44.79082,
+    "date": "2026-10-16",
+    "time": "23:59",
+    "price": 32,
+    "currency": "GEL",
+    "venue": "Bassiani",
+    "trending": false,
+    "lineup": [
+      "Anthony Rother",
+      "Hasvat Informant",
+      "Nikala",
+      "3AM",
+      "Beka Wu",
+      "Ina Kacz",
+      "Thomas Hessler",
+      "Gonno",
+      "Virginia",
+      "Tomma",
+      "Edge"
+    ],
+    "desc": "L'Allemand Anthony Rother, pionnier de l'electro et fondateur du label Psi49Net en 1998, joue un set hybride dans la grande salle de Bassiani, le club installé dans l'ancienne piscine olympique sous le stade Dinamo Arena de Tbilissi. Beka Wu en live, Hasvat Informant, Nikala, 3AM et le b2b Ina Kacz et Thomas Hessler complètent la salle. Dans la Horoom, le Japonais Gonno, Virginia (résidente du Panorama Bar), Tomma et Edge. Entrée à 32 GEL.",
+    "descEn": "Germany's Anthony Rother, an electro pioneer who founded the Psi49Net label in 1998, plays a hybrid set in the main room of Bassiani, the club set in the former Olympic swimming pool beneath Tbilisi's Dinamo Arena stadium. Beka Wu live, Hasvat Informant, Nikala, 3AM and a b2b from Ina Kacz and Thomas Hessler complete the room. In the Horoom, Japan's Gonno, Panorama Bar resident Virginia, Tomma and Edge. Entry is 32 GEL.",
+    "ticketUrl": "https://bassiani.com/light/nights/1120",
+    "sources": [
+      "https://bassiani.com/api/?app=WebNight&resource=row&id=1120",
+      "https://bassiani.com/api/?app=WebNight&resource=list&page=1"
+    ],
+    "note": "Bassiani, 2 avenue Akaki Tsereteli, sous le Dinamo Arena. Coordonnées : noeud OSM 'nightclub' Bassiani. Date 16/10/2026 (vendredi), event_start 23:59, line-up et prix 32 GEL lus dans l'API officielle du club (selling=1). Même soir que 'Ancient Methods au KHIDI', autre club de Tbilissi, pas un doublon.",
+    "_image": {
+      "image": "https://bassiani.com/uploads/2026/09/1789633552.png",
+      "sourcePage": "https://bassiani.com/light/nights/1120",
+      "credit": "Bassiani",
+      "kind": "event",
+      "width": 2480,
+      "note": "affiche officielle de la soirée (JPEG 2480x3508)"
+    }
+  },
+  {
+    "title": "Therapy Sessions à l'Expirat",
+    "type": "Club",
+    "genres": [
+      "Drum & Bass"
+    ],
+    "city": "Bucharest",
+    "country": "Romania",
+    "lat": 44.41546,
+    "lng": 26.09313,
+    "date": "2026-10-08",
+    "time": "23:00",
+    "price": 60,
+    "currency": "RON",
+    "venue": "Expirat Halele Carol",
+    "trending": false,
+    "lineup": [
+      "The Panacea",
+      "Current Value",
+      "Robyn Chaos",
+      "Freqax",
+      "Tremour"
+    ],
+    "desc": "La série Therapy Sessions, référence de la drum & bass la plus sombre et la plus rapide, revient à Bucarest à l'Expirat, club installé dans les halles industrielles Halele Carol, rue Doctor Constantin Istrati, avec le collectif local Bucharestpressure (B:pressure). À l'affiche, l'Allemand The Panacea, Current Value, Robyn Chaos, Freqax et Tremour, avec les visuels du VJ Le Pimpage. Jeudi 8 octobre à 23 h, réservé aux plus de 18 ans, prévente à 60 lei.",
+    "descEn": "Therapy Sessions, the series devoted to the darkest and fastest end of drum & bass, returns to Bucharest at Expirat, a club set in the Halele Carol industrial halls on Doctor Constantin Istrati Street, hosted by local crew Bucharestpressure (B:pressure). On the bill: Germany's The Panacea, Current Value, Robyn Chaos, Freqax and Tremour, with visuals by VJ Le Pimpage. Thursday 8 October at 11pm, strictly 18+, presale at 60 lei.",
+    "ticketUrl": "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+    "sources": [
+      "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+      "https://www.iabilet.ro/bilete-expirat-halele-carol-venue-1845/",
+      "https://photon.komoot.io/api/?q=Expirat%20Halele%20Carol"
+    ],
+    "note": "Expirat Halele Carol, Strada Doctor Constantin Istrati 1, Bucarest 040542 (iabilet). Coordonnées : noeud OSM 'Expirat' (bar/club, n°1) via Photon, 44.4154632, 26.0931311. Date jeudi 08/10/2026 (JSON-LD startDate 2026-10-08), 'ora 23:00' (la page indique aussi 'acces de la 20:00', incohérent, 23:00 retenu comme dans le titre de la billetterie). Prix : Early Bird 50 lei épuisé, Presale 60 lei = plus bas tarif en vente (abonnement 3 soirées à 120 lei).",
+    "_image": {
+      "image": "https://static3.iabilet.ro/img/db/event/01/f6/db/00000424908-78c0.png",
+      "sourcePage": "https://www.iabilet.ro/bilete-therapy-sessions-bucharest-128731/",
+      "credit": "B:pressure",
+      "kind": "event",
+      "width": 1920,
+      "note": "visuel officiel (paysage 1920x1080)"
+    }
   }
 ]
