@@ -1,0 +1,480 @@
+[
+ {
+  "title": "Joyhauser & Mha Iri au Palladium",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "Hard Techno"
+  ],
+  "city": "Riga",
+  "country": "Latvia",
+  "lat": 56.950813,
+  "lng": 24.125512,
+  "date": "2026-10-09",
+  "time": "22:00 - 02:00",
+  "price": 22,
+  "currency": "EUR",
+  "venue": "Palladium",
+  "trending": false,
+  "lineup": [
+   "Joyhauser",
+   "Mha Iri"
+  ],
+  "desc": "La soirée Crave Night revient au Palladium, salle de concert du 21 rue Marijas, en plein centre de Riga, qui accueille jusqu'à 2 000 personnes. Le duo belge Joyhauser, révélé par l'album « Memoro » en 2023, y partage l'affiche avec l'Écossaise Mha Iri, passée par Drumcode et Filth on Acid, entre techno de peak time, acid et accents trance. Ouverture à 22 h, réservé aux plus de 18 ans, billets à partir d'environ 22 €.",
+  "descEn": "Crave Night returns to Palladium, the concert hall at 21 Marijas iela in central Riga, which holds up to 2,000 people. Belgian duo Joyhauser, known for their 2023 album \"Memoro\", share the bill with Scottish DJ and producer Mha Iri, who has released on Drumcode and Filth on Acid, mixing peak-time techno, acid and trance touches. Doors at 10pm, over-18s only, tickets from around 22 euros.",
+  "ticketUrl": "https://www.bilesuserviss.lv/biletes/PPGBTHMMIJ/joyhauser-mha-iri-crave-night-palladium",
+  "sources": [
+   "https://www.palladium.lv/lv/kalendars/joyhauser-mha-iri-crave-night/",
+   "https://www.bilesuserviss.lv/biletes/PPGBTHMMIJ/joyhauser-mha-iri-crave-night-palladium",
+   "https://nra.lv/izklaide/muzika/527212-riga-uzstasies-belgu-tehno-duets-joyhauser.htm"
+  ],
+  "note": "Adresse Marijas iela 21, Riga (entrée côté Pērses iela). Coordonnées : fiche salle de Biļešu Serviss (venue.latitude/longitude). Horaire 22:00-02:00 (Biļešu Serviss, eventStartAt 19:00Z). Prix indicatif : les tarifs ne sont pas dans le HTML serveur de la billetterie ; 22,36-44,30 € relevés via l'extrait de recherche de ticketservice.lv, plus 2,50 € de frais Palladium. Organisateur : BDG Concerts / Koncertaģentūra FBI.",
+  "_image": {
+   "image": "https://www.palladium.lv/files/images/2026/8/1/Palladium_joyhauser_mha_iri_16x9_no_text-xl.png",
+   "sourcePage": "https://www.palladium.lv/lv/kalendars/joyhauser-mha-iri-crave-night/",
+   "credit": "Palladium Rīga / Crave Night",
+   "kind": "event",
+   "width": 990,
+   "note": "visuel officiel de la soirée (variante -xl de l'og:image Palladium), 990x556"
+  }
+ },
+ {
+  "title": "Night Shift : Mihai Popoviciu au B2",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Riga",
+  "country": "Latvia",
+  "lat": 56.961,
+  "lng": 24.1225,
+  "date": "2026-10-02",
+  "time": "23:00 - 06:00",
+  "price": 10,
+  "currency": "EUR",
+  "venue": "B2",
+  "trending": false,
+  "lineup": [
+   "Mihai Popoviciu"
+  ],
+  "desc": "Troisième édition de la série Night Shift au B2, club du 2 de la rue Bruņinieku, au nord du centre de Riga. L'invité est le Roumain Mihai Popoviciu, producteur de house et de techno minimale depuis près de vingt ans, passé par International Deejay Gigolo, Poker Flat et Bondage Music avant de fonder son propre label, Cyclic. Soirée de 23 h à 6 h, entrée à 10 €.",
+  "descEn": "The third edition of the Night Shift series at B2, the club at 2 Bruņinieku iela, just north of central Riga. The guest is Romanian producer Mihai Popoviciu, who has made deep, minimal house and techno for almost two decades, with records on International Deejay Gigolo, Poker Flat and Bondage Music before launching his own Cyclic label. Party from 11pm to 6am, entry 10 euros.",
+  "ticketUrl": "https://fienta.com/night-shift-3-mihai-popoviciu-ro",
+  "sources": [
+   "https://fienta.com/night-shift-3-mihai-popoviciu-ro",
+   "https://fienta.com/api/v1/public/events?country=LV&category=music"
+  ],
+  "note": "Adresse Bruņinieku iela 2, 1010 Rīga (Fienta). Coordonnées : point d'adresse Bruņinieku iela 2 (Photon/OSM, plusieurs bars partagent la cour ; entrée exacte du B2 non confirmée, précision ~50 m). Prix : billet unique 10 € (JSON-LD Fienta, InStock). Line-up : seul Mihai Popoviciu est nommé. Le lien d'achat Fienta renvoie vers RA.",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/42854/mpAaRxf9NLQkHY1.png",
+   "sourcePage": "https://fienta.com/night-shift-3-mihai-popoviciu-ro",
+   "credit": "Night Shift / B2 Riga",
+   "kind": "event",
+   "width": 1070,
+   "note": "affiche officielle (image Fienta), 1070x601"
+  }
+ },
+ {
+  "title": "Spaced Out DnB : Riga Invasion au Poseidons",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Riga",
+  "country": "Latvia",
+  "lat": 56.94586,
+  "lng": 24.1076,
+  "date": "2026-10-02",
+  "time": "23:00 - 05:00",
+  "price": 7,
+  "currency": "EUR",
+  "venue": "Poseidons",
+  "trending": false,
+  "lineup": [
+   "Krüptoniit",
+   "Woozie",
+   "K&M",
+   "Xen",
+   "Pats Toms"
+  ],
+  "desc": "Le collectif estonien Spaced Out DnB pose pour la première fois ses valises à Riga, sur la scène du sous-sol du club Poseidons, rue Peldu, dans la vieille ville. Trois DJ de Tallinn (Krüptoniit, Woozie et K&M) croisent deux figures locales de la drum & bass, Xen et Pats Toms. Une nuit de 23 h à 5 h, avec une entrée à 7 €, l'un des tarifs les plus doux de l'automne dans la capitale lettone.",
+  "descEn": "Estonian crew Spaced Out DnB makes its Riga debut on the downstairs stage of Poseidons club, on Peldu iela in the Old Town. Three Tallinn DJs (Krüptoniit, Woozie and K&M) meet two local drum & bass names, Xen and Pats Toms. The night runs from 11pm to 5am, with entry at 7 euros, one of the cheapest club tickets of the autumn in the Latvian capital.",
+  "ticketUrl": "https://fienta.com/splced-out-dnb-riga-invasion",
+  "sources": [
+   "https://fienta.com/splced-out-dnb-riga-invasion"
+  ],
+  "note": "Adresse Peldu iela 26, 1050 Rīga (Fienta). Coordonnées : point d'adresse Peldu iela 26/28 (Nominatim), bâtiment partagé avec d'autres bars. Prix : Regular Ticket 7 € InStock (JSON-LD Fienta), un « Support Ticket » à 20 € existe aussi. Le titre officiel écrit « SPΛCED OUT DNB » avec un lambda, normalisé ici.",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/42897/mRb2GEzQbk5mXMV.jpg",
+   "sourcePage": "https://fienta.com/splced-out-dnb-riga-invasion",
+   "credit": "Spaced Out DnB",
+   "kind": "event",
+   "width": 1070,
+   "note": "affiche officielle carrée (image Fienta), 1070x1070"
+  }
+ },
+ {
+  "title": "Ellen Allien à l'Elastica",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "lat": 54.669793,
+  "lng": 25.283401,
+  "date": "2026-10-02",
+  "time": "23:00 - 07:00",
+  "price": 23,
+  "currency": "EUR",
+  "venue": "Elastica",
+  "trending": false,
+  "lineup": [
+   "Ellen Allien",
+   "2727",
+   "Blitzton",
+   "Jogaila"
+  ],
+  "desc": "Ellen Allien, fondatrice du label berlinois BPitch Control et figure de la techno depuis plus de trente ans, joue dans le sous-sol de l'Elastica, rue Geležinkelio, à deux pas de la gare de Vilnius. Ouvert à l'hiver 2022, le club se présente comme le seul de la ville entièrement consacré à la techno. 2727, Blitzton et Jogaila assurent le soutien local. Portes à 23 h, réservé aux plus de 18 ans, billets à partir de 23 €.",
+  "descEn": "Ellen Allien, founder of the Berlin label BPitch Control and a techno figure for more than three decades, plays the basement of Elastica on Geležinkelio street, a short walk from Vilnius railway station. Opened in winter 2022, the club describes itself as the only venue in the city fully dedicated to techno. 2727, Blitzton and Jogaila provide local support. Doors at 11pm, over-18s only, tickets from 23 euros.",
+  "ticketUrl": "https://tickets.paysera.com/lt-LT/event/elastica-ellen-allien-2727-blitzton-jogaila",
+  "sources": [
+   "https://vnb.lt/renginys/elastica-ellen-allien-%e2%9d%9a-2727-%e2%9d%9a-blitzton-%e2%9d%9a-jogaila/",
+   "https://tickets.paysera.com/lt-LT/event/elastica-ellen-allien-2727-blitzton-jogaila"
+  ],
+  "note": "Adresse Geležinkelio g. 6, Vilnius. Coordonnées : JSON-LD geo de la billetterie Paysera (54.669793, 25.283401), cohérent avec celui de VNB (54.66982, 25.28254). Prix : VNB (agenda nocturne de la ville) annonce « Kaina nuo €23 » ; le JSON-LD Paysera liste aussi des paliers à 17 et 20 €, probablement écoulés, non vérifiables sans JS.",
+  "_image": {
+   "image": "https://tickets.paysera.com/public/images/cmrxl1i5f00063b77qq4iabhc/elastica-ellen-allien-2727-blitzton-jogaila_lt__1787322195_83656ca9.jpeg",
+   "sourcePage": "https://tickets.paysera.com/lt-LT/event/elastica-ellen-allien-2727-blitzton-jogaila",
+   "credit": "Elastica",
+   "kind": "event",
+   "width": 1920,
+   "note": "visuel officiel de la soirée (og:image Paysera), 1920x960"
+  }
+ },
+ {
+  "title": "Kittin à l'Elastica",
+  "type": "Club",
+  "genres": [
+   "Techno"
+  ],
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "lat": 54.669793,
+  "lng": 25.283401,
+  "date": "2026-10-16",
+  "time": "23:00 - 07:00",
+  "price": 22,
+  "currency": "EUR",
+  "venue": "Elastica",
+  "trending": false,
+  "lineup": [
+   "Kittin",
+   "Homemade Explosives",
+   "Interiors",
+   "Marijus Klimaitis"
+  ],
+  "desc": "Kittin, pionnière française de l'electroclash dont toute une génération a chanté « Being famous is so nice », revient à Vilnius pour la première fois depuis plus de dix ans, dans le sous-sol de l'Elastica, club techno ouvert en 2022 rue Geležinkelio, près de la gare. Elle y joue une électronique froide et dansante, entre techno et electro. Homemade Explosives, Interiors et Marijus Klimaitis complètent la nuit. Portes à 23 h, plus de 18 ans, billets à partir de 22 €.",
+  "descEn": "Kittin, the French electroclash pioneer whose line \"Being famous is so nice\" a whole generation sang along to, returns to Vilnius for the first time in more than a decade, in the basement of Elastica, the techno club opened in 2022 on Geležinkelio street near the railway station. Expect cold, danceable electronics between techno and electro. Homemade Explosives, Interiors and Marijus Klimaitis complete the night. Doors at 11pm, over-18s, tickets from 22 euros.",
+  "ticketUrl": "https://tickets.paysera.com/lt-LT/event/elastica-kittin-homemade-explosives-interiors-marijus-klimaitis",
+  "sources": [
+   "https://vnb.lt/renginys/elastica-kittin-%e2%9d%9a-homemade-explosives-%e2%9d%9a-interiors-%e2%9d%9a-marijus-klimaitis/",
+   "https://tickets.paysera.com/lt-LT/event/elastica-kittin-homemade-explosives-interiors-marijus-klimaitis"
+  ],
+  "note": "Adresse Geležinkelio g. 6, Vilnius. Coordonnées : JSON-LD geo Paysera. Prix : « Kaina nuo €22 » sur VNB ; le JSON-LD Paysera liste 17 et 22 €, le palier à 17 € probablement écoulé. « Plus de dix ans » d'absence : d'après le texte de l'organisateur.",
+  "_image": {
+   "image": "https://vnb.lt/wp-content/uploads/2026/08/Elastica-Kittin-1016-FB-Event-Cover-1920x1005-1.jpg",
+   "sourcePage": "https://vnb.lt/renginys/elastica-kittin-%e2%9d%9a-homemade-explosives-%e2%9d%9a-interiors-%e2%9d%9a-marijus-klimaitis/",
+   "credit": "Elastica",
+   "kind": "event",
+   "width": 1600,
+   "note": "visuel officiel de la soirée (couverture d'événement), 1600x838"
+  }
+ },
+ {
+  "title": "Deers Club : Michael Mayer & Chloé à la gallery 1986",
+  "type": "Club",
+  "genres": [
+   "Techno",
+   "House"
+  ],
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "lat": 54.67034,
+  "lng": 25.26461,
+  "date": "2026-10-30",
+  "time": "23:00 - 08:00",
+  "price": 15,
+  "currency": "EUR",
+  "venue": "gallery 1986",
+  "trending": false,
+  "lineup": [
+   "Chloé",
+   "Michael Mayer",
+   "Clicklounge",
+   "Roe Deers",
+   "Tumosa"
+  ],
+  "desc": "Roe Deers ramène sa série Deers Club à la gallery 1986, centre culturel installé dans une ancienne usine de radios du quartier de Naujamiestis, rue Kauno. À l'affiche, Michael Mayer, cofondateur du label Kompakt de Cologne, et la Parisienne Chloé, fondatrice de Lumière Noire, pour sa première venue à Vilnius depuis longtemps. Clicklounge, Roe Deers et Tumosa complètent. De 23 h à 8 h, billets dès 15 €, aussi en vente à l'entrée.",
+  "descEn": "Roe Deers bring the Deers Club series back to gallery 1986, a cultural centre in a former radio factory in the Naujamiestis district, on Kauno street. Headliners are Michael Mayer, co-founder of Cologne's Kompakt label, and Paris-based Chloé, founder of Lumière Noire, back in Vilnius after a long absence. Clicklounge, Roe Deers and Tumosa complete the bill. From 11pm to 8am, tickets from 15 euros, also sold at the door.",
+  "ticketUrl": "https://tickets.paysera.com/lt/event/deers-club-michael-mayer-chloe-more",
+  "sources": [
+   "https://vnb.lt/renginys/deers-club-michael-mayer-chloe-more/",
+   "https://tickets.paysera.com/lt/event/deers-club-michael-mayer-chloe-more"
+  ],
+  "note": "Adresse Kauno g. 32, Vilnius. Coordonnées : JSON-LD geo Paysera (54.670340, 25.264610) ; VNB donne 54.67031, 25.26509 pour le même bâtiment. Prix : 15 € (VNB « Kaina nuo €15 », JSON-LD Paysera 15 et 20 €). Âge minimum 19 ans selon l'organisateur. Nom de salle écrit en minuscules par le lieu lui-même.",
+  "_image": {
+   "image": "https://vnb.lt/wp-content/uploads/2026/09/event_cover-deers_club55.jpg",
+   "sourcePage": "https://vnb.lt/renginys/deers-club-michael-mayer-chloe-more/",
+   "credit": "Deers Club / gallery 1986",
+   "kind": "event",
+   "width": 1600,
+   "note": "visuel officiel de la soirée (image JSON-LD VNB), 1600x838"
+  }
+ },
+ {
+  "title": "Lane 8 à la Noblessneri Valukoda",
+  "type": "Warehouse",
+  "genres": [
+   "House"
+  ],
+  "city": "Tallinn",
+  "country": "Estonia",
+  "lat": 59.4513675,
+  "lng": 24.7309176,
+  "date": "2026-11-21",
+  "time": "22:00 - 05:00",
+  "price": 35,
+  "currency": "EUR",
+  "venue": "Noblessneri Valukoda",
+  "trending": false,
+  "lineup": [
+   "Lane 8"
+  ],
+  "desc": "L'Américain Lane 8, figure de la house mélodique et fondateur du label This Never Happened, passe par Tallinn pour la tournée européenne des dix ans de son label. Rendez-vous à la Noblessneri Valukoda, l'ancienne fonderie du chantier naval de Noblessner, reconvertie en salle d'événements. Règle maison : les téléphones sont neutralisés à l'entrée, pas de photo ni de vidéo. De 22 h à 5 h, billets à partir de 35 €.",
+  "descEn": "American producer Lane 8, a leading name in melodic house and founder of the This Never Happened label, stops in Tallinn on the European tour marking the label's tenth year. The venue is Noblessneri Valukoda, the former foundry of the Noblessner shipyard, now an event hall. House rule: phones are secured at the door, no photos or video. From 10pm to 5am, tickets from 35 euros.",
+  "ticketUrl": "https://fienta.com/lane8momentum",
+  "sources": [
+   "https://fienta.com/lane8momentum",
+   "https://fienta.com/lane8"
+  ],
+  "note": "Adresse Peetri 10, Tallinn. Coordonnées : nœud OSM « Noblessneri valukoda » (Nominatim). Deux pages Fienta pour la même date (Events Momentum et Movements Events OÜ, même promoteur Momentum) : early bird 35 € InStock sur /lane8momentum, SoldOut sur /lane8 ; tarif normal 40 €. « Ancienne fonderie » d'après le nom du lieu (valukoda = fonderie).",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/26637/XHPx5OX48Mr82r9.jpg",
+   "sourcePage": "https://fienta.com/lane8",
+   "credit": "Momentum",
+   "kind": "event",
+   "width": 1070,
+   "note": "visuel officiel de la date (image Fienta), 1070x601"
+  }
+ },
+ {
+  "title": "Overdrive au HALL",
+  "type": "Club",
+  "genres": [
+   "Hard Techno",
+   "Hardstyle",
+   "Drum & Bass"
+  ],
+  "city": "Tallinn",
+  "country": "Estonia",
+  "lat": 59.4507225,
+  "lng": 24.7288949,
+  "date": "2026-11-20",
+  "time": "23:00 - 06:00",
+  "price": 15,
+  "currency": "EUR",
+  "venue": "HALL",
+  "trending": false,
+  "lineup": [
+   "IMHAPPY",
+   "Erabreak",
+   "Oryma",
+   "Peygan",
+   "Merimell",
+   "Neoondreed",
+   "Sound in Noise",
+   "Hüpnoos",
+   "Chulo",
+   "MIQ",
+   "Pulse Crew"
+  ],
+  "desc": "White Noise Events investit le HALL, club techno du quartier portuaire de Noblessner à Tallinn, pour une nuit hard techno, rawstyle et drum & bass sur deux scènes. En tête d'affiche, l'Espagnol masqué IMHAPPY pour sa première en Estonie, le Néerlandais Erabreak (Scantraxx), l'Italien Oryma, installé à Vienne, et l'Australien Peygan, venu de l'uptempo. Une seconde salle est réservée à la drum & bass locale. De 23 h à 6 h, billets à partir de 15 €.",
+  "descEn": "White Noise Events takes over HALL, the techno club in Tallinn's Noblessner harbour district, for a night of hard techno, rawstyle and drum & bass on two stages. Headliners are masked Spanish act IMHAPPY on his Estonian debut, Dutch rawstyle producer Erabreak (Scantraxx), Vienna-based Italian Oryma and Australian uptempo DJ Peygan. A second room is given over to local drum & bass. From 11pm to 6am, tickets from 15 euros.",
+  "ticketUrl": "https://fienta.com/overdrive-techno-dnb-raw-rave-imhappy-oryma-erabreak-peygan-more",
+  "sources": [
+   "https://fienta.com/overdrive-techno-dnb-raw-rave-imhappy-oryma-erabreak-peygan-more",
+   "https://noblessner.ee/en/technoclub-hall/"
+  ],
+  "note": "Adresse Peetri 6, Tallinn. Coordonnées : nœud OSM « Hall » (nightclub) à Peetri 6 (Nominatim). Prix : Super Early Bird 10 € SoldOut, Early Bird 15 € InStock (JSON-LD Fienta).",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/31716/cyn89oDRQtszLQw.png",
+   "sourcePage": "https://fienta.com/overdrive-techno-dnb-raw-rave-imhappy-oryma-erabreak-peygan-more",
+   "credit": "White Noise Events",
+   "kind": "event",
+   "width": 1070,
+   "note": "affiche officielle (image Fienta), 1070x560"
+  }
+ },
+ {
+  "title": "Pulsation Estonia au Helitehas",
+  "type": "Club",
+  "genres": [
+   "Drum & Bass"
+  ],
+  "city": "Tallinn",
+  "country": "Estonia",
+  "lat": 59.4308696,
+  "lng": 24.7212409,
+  "date": "2026-11-28",
+  "time": "22:00 - 06:00",
+  "price": 13,
+  "currency": "EUR",
+  "venue": "Helitehas",
+  "trending": false,
+  "lineup": [
+   "Metrik",
+   "Subsonic",
+   "PMDR",
+   "Siimi",
+   "K&M",
+   "Chulo",
+   "Pulse Crew"
+  ],
+  "desc": "La marque slovaque Pulsation, référence de la drum & bass en Europe centrale, s'associe à White Noise Events pour une nuit au Helitehas, salle de la rue Madara à Tallinn pouvant accueillir 1 500 personnes. Tête d'affiche, Metrik, pilier du label Hospital Records venu défendre son quatrième album « Awake », suivi du Britannique Subsonic, de PMDR pour Pulsation et de l'Estonien Siimi. De 22 h à 6 h, billets à partir de 13 €.",
+  "descEn": "Slovak brand Pulsation, a drum & bass reference in Central Europe, teams up with White Noise Events for a night at Helitehas, the Madara street venue in Tallinn with room for 1,500 people. Headliner is Metrik, a long-time Hospital Records artist touring his fourth album \"Awake\", followed by UK producer Subsonic, PMDR for Pulsation and Estonia's Siimi. From 10pm to 6am, tickets from 13 euros.",
+  "ticketUrl": "https://fienta.com/pulsation-estonia-2026-metrik-subsonic",
+  "sources": [
+   "https://fienta.com/pulsation-estonia-2026-metrik-subsonic"
+  ],
+  "note": "Adresse Madara 22a, Tallinn. Coordonnées : nœud OSM « Helitehas » (nightclub) (Nominatim). Jauge 1 500 : texte de l'organisateur. Prix : Super Early Bird 10 € SoldOut, Early Bird 13 € InStock, Early VIP 29 € (JSON-LD Fienta). Titre Fienta « Pulsation Estonia 2026 », année retirée.",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/31716/5vYhO9rs4t14Ed9.png",
+   "sourcePage": "https://fienta.com/pulsation-estonia-2026-metrik-subsonic",
+   "credit": "White Noise Events / Pulsation",
+   "kind": "event",
+   "width": 1070,
+   "note": "affiche officielle (image Fienta), 1070x601"
+  }
+ },
+ {
+  "title": "Test Pressing : Speedy J à l'Ääniwalli",
+  "type": "Warehouse",
+  "genres": [
+   "Techno",
+   "Drum & Bass"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.1952946,
+  "lng": 24.9497129,
+  "date": "2026-10-10",
+  "time": "23:00",
+  "price": 18,
+  "currency": "EUR",
+  "venue": "Ääniwalli",
+  "trending": false,
+  "lineup": [
+   "Speedy J",
+   "Om Unit",
+   "Lil Tony",
+   "Carlina Carpelan",
+   "Juhani Oivo",
+   "Koala",
+   "Needy V"
+  ],
+  "desc": "La série Test Pressing ouvre sa saison d'automne dans tout l'Ääniwalli, l'ancienne usine de Vallila à Helsinki. Le Néerlandais Speedy J, pionnier de la techno passé par Warp et qui n'avait pas joué en club en Finlande depuis les années 1990, y donne un set hybride DJ et live. Dans la seconde salle, la soirée London Zoo reçoit Om Unit, producteur de Bristol entre breaks, jungle et dubstep. Ouverture à 23 h, billets à partir de 18 €.",
+  "descEn": "The Test Pressing series opens its autumn season across the whole of Ääniwalli, the former factory in Helsinki's Vallila district. Dutch techno pioneer Speedy J, a Warp Records alumnus who has not played a club in Finland since the 1990s, delivers a hybrid DJ and live set. In the second room, the London Zoo night hosts Om Unit, the Bristol producer mixing breaks, jungle and dubstep. Doors at 11pm, tickets from 18 euros.",
+  "ticketUrl": "https://www.eventu.al/en/event/9284",
+  "sources": [
+   "https://aaniwalli.fi/events/2026-09-15-test_pressing__61_speedy_j__hybrid_djlive_nl_om_unit_uk",
+   "https://aaniwalli.fi/"
+  ],
+  "note": "Adresse Pälkäneentie 13 B, Vallila, Helsinki. Coordonnées : nœud OSM « Ääniwalli » (Nominatim) 60.19529, 24.94971. ATTENTION : les fiches Ääniwalli déjà au catalogue portent 60.1873, 24.981 (Suvilahti, ~2 km à l'est) et une desc qui parle de Suvilahti ; le club est à Vallila. Prix indicatif : Early Bird 15 € puis prévente 18 € (+3,90 € de frais sécurité) ; disponibilité de l'early bird non vérifiable (billetterie eventu.al bloquée par Cloudflare). Âge minimum 20 ans.",
+  "_image": {
+   "image": "https://aaniwalli.fi/_astro/TESTPRESSIN61AWWWW.B88wqSqn_Z1JlTn1.jpg",
+   "sourcePage": "https://aaniwalli.fi/events/2026-09-15-test_pressing__61_speedy_j__hybrid_djlive_nl_om_unit_uk",
+   "credit": "Ääniwalli / Test Pressing",
+   "kind": "event",
+   "width": 1200,
+   "note": "visuel officiel de la soirée, 1200x628 (une variante portrait 4:5 existe en 600x750 : /_astro/testpressing_61_4x5.DfR08Pj4_Z1u3dW9.jpg)"
+  }
+ },
+ {
+  "title": "Post Bar Club Night : Ogazón",
+  "type": "Club",
+  "genres": [
+   "House",
+   "Techno"
+  ],
+  "city": "Helsinki",
+  "country": "Finland",
+  "lat": 60.1831931,
+  "lng": 24.9591026,
+  "date": "2026-10-17",
+  "time": "22:00 - 06:00",
+  "price": 12,
+  "currency": "EUR",
+  "venue": "Post Bar",
+  "trending": false,
+  "lineup": [
+   "Ogazón",
+   "Katerina",
+   "Sagwa"
+  ],
+  "desc": "Le Post Bar, petit club installé dans une cour du 2 rue Kaikukatu, dans le quartier de Sörnäinen à Helsinki, reçoit Ogazón pour l'une de ses Club Nights. Katerina et Sagwa complètent l'affiche d'une nuit qui court de 22 h à 6 h. Entrée libre avant 23 h, puis 16 € sur place ou 12 € en prévente, avec 3,90 € de frais de sécurité. Réservé aux plus de 20 ans le week-end, pièce d'identité exigée.",
+  "descEn": "Post Bar, a small club tucked into a courtyard at 2 Kaikukatu in Helsinki's Sörnäinen district, welcomes Ogazón for one of its Club Nights. Katerina and Sagwa complete the bill for a night running from 10pm to 6am. Free entry before 11pm, then 16 euros at the door or 12 euros in advance, plus a 3.90 euro security fee. Over-20s only at weekends, ID required.",
+  "ticketUrl": "https://www.postbar.fi/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa",
+  "sources": [
+   "https://www.postbar.fi/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa",
+   "https://www.postbar.fi/"
+  ],
+  "note": "Adresse Kaikukatu 2 (cour intérieure), Helsinki. Coordonnées : nœud OSM « Post Bar » à Kaikukatu 2 (Photon). Prix : prévente 12 € (la prévente est vendue via RA, non consultable) ; entrée libre avant 23 h, 16 € ensuite. Genres : la page ne les précise pas ; House/Techno d'après la ligne du club, à relire. Timetable TBA.",
+  "_image": {
+   "image": "https://www.postbar.fi/media/pages/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa/9262fb2772-1790321972/image1-1-kopie-2.jpeg",
+   "sourcePage": "https://www.postbar.fi/program/2026-10-17-post-bar-club-night-ogazon-katerina-sagwa",
+   "credit": "Post Bar",
+   "kind": "event",
+   "width": 1365,
+   "note": "visuel officiel carré de la soirée (og:image Post Bar), 1365x1365"
+  }
+ },
+ {
+  "title": "WhoMadeWho au Tallinn Cruise Terminal",
+  "type": "Club",
+  "genres": [
+   "House"
+  ],
+  "city": "Tallinn",
+  "country": "Estonia",
+  "lat": 59.4480252,
+  "lng": 24.7644846,
+  "date": "2026-10-23",
+  "time": "23:00 - 05:00",
+  "price": 35,
+  "currency": "EUR",
+  "venue": "Tallinn Cruise Terminal",
+  "trending": false,
+  "lineup": [
+   "WhoMadeWho",
+   "Bombossa Brothers",
+   "Pyfel"
+  ],
+  "desc": "Le promoteur Momentum fête ses cinq ans dans le terminal de croisière de Tallinn, rue Logi, sur le port à deux pas de la vieille ville. Le trio danois WhoMadeWho, passé par Burning Man, Tomorrowland et Sónar, y présente son set hybride, entre DJ set, parties jouées en direct et improvisation, dans la veine house mélodique de « Abu Simbel » et « Miracle ». Bombossa Brothers et Pyfel ouvrent. De 23 h à 5 h, billets à partir de 35 €.",
+  "descEn": "Promoter Momentum celebrates its fifth anniversary inside the Tallinn Cruise Terminal on Logi street, in the harbour a short walk from the Old Town. Danish trio WhoMadeWho, who have played Burning Man, Tomorrowland and Sónar, bring their hybrid set, mixing DJing, live parts and improvisation in the melodic house vein of \"Abu Simbel\" and \"Miracle\". Bombossa Brothers and Pyfel open. From 11pm to 5am, tickets from 35 euros.",
+  "ticketUrl": "https://fienta.com/whomadewho",
+  "sources": [
+   "https://fienta.com/whomadewho"
+  ],
+  "note": "Adresse Logi 4/2, 10111 Tallinn. Coordonnées : JSON-LD geo Fienta (59.44803, 24.76448), à vérifier sur l'entrée du hall (le terminal est un grand bâtiment). Prix : Early bird 35 € InStock, Regular 40 €, VIP 75 € (JSON-LD Fienta). Titres cités : ceux que donne l'organisateur.",
+  "_image": {
+   "image": "https://fienta.com/cf/img/?width=1070&format=jpeg&gcs=true&file=/org/18188/9m00xGGZjK10mdk.jpg",
+   "sourcePage": "https://fienta.com/whomadewho",
+   "credit": "Momentum",
+   "kind": "event",
+   "width": 1070,
+   "note": "affiche officielle (image Fienta), 1070x601"
+  }
+ }
+]
