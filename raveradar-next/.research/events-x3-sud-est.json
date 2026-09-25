@@ -349,5 +349,88 @@
       "width": 1920,
       "note": "visuel officiel QL024 (paysage 1920x1080)"
     }
+  },
+  {
+    "title": "Kevin de Vries à l'ETKO",
+    "type": "Warehouse",
+    "genres": [
+      "Techno",
+      "House"
+    ],
+    "city": "Limassol",
+    "country": "Cyprus",
+    "lat": 34.66126,
+    "lng": 33.02072,
+    "date": "2026-11-21",
+    "time": "19:00 - 23:59",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "ETKO",
+    "trending": false,
+    "lineup": [
+      "Kevin de Vries",
+      "Key M",
+      "Damen"
+    ],
+    "desc": "L'Allemand Kevin de Vries, artiste du label Afterlife depuis 2018 et l'un des noms de la techno mélodique (« Dance With Me », « Metro »), joue dans le Hangar de l'ETKO, ancien site de la maison viticole ETKO reconverti en lieu d'événements au 31 Tsiflikoudia, dans la zone portuaire industrielle de Limassol. Key M et Damen complètent l'affiche. De 19 h à minuit le samedi 21 novembre. Tarif non communiqué sur la page du lieu, billetterie en ligne.",
+    "descEn": "Germany's Kevin de Vries, an Afterlife artist since 2018 and a leading name in melodic techno (\"Dance With Me\", \"Metro\"), plays the Hangar at ETKO, the former ETKO winery site turned events venue at 31 Tsiflikoudia in Limassol's industrial port area. Key M and Damen complete the bill. From 7pm to midnight on Saturday 21 November. Price not shown on the venue page, tickets sold online.",
+    "ticketUrl": "https://etkocyprus.com/events/kevindevries",
+    "sources": [
+      "https://etkocyprus.com/events/kevindevries",
+      "https://etkocyprus.com/events",
+      "https://www.bandsintown.com/v/10211451-etko-winery"
+    ],
+    "note": "ETKO, 31 Tsiflikoudia, 3010 Limassol, salle Hangar. Coordonnées publiées par le site officiel du lieu (données de la page : 34.6612551, 33.0207235). Date, horaire 19:00 - 23:59 et line-up lus sur la page officielle (JSON-LD). Prix : billetterie en widget JS ticketcrm, non lisible depuis le conteneur, donc price 0 = non communiqué, ne signifie pas gratuit. 'Ancien site viticole ETKO' : Bandsintown référence le lieu comme 'Etko Winery'.",
+    "_image": {
+      "image": "https://www.back.etkocyprus.com/attachments/X0I95cCdWEt065ra9oRaNdNeD5PyZjpFYqQ5LpAL.jpg",
+      "sourcePage": "https://etkocyprus.com/events/kevindevries",
+      "credit": "ETKO",
+      "kind": "event",
+      "width": 1200,
+      "note": "visuel officiel (og:image), paysage 1200x630"
+    }
+  },
+  {
+    "title": "DJ Tennis b2b Mano Le Tough au Warehouse by IT Quarter",
+    "type": "Warehouse",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Limassol",
+    "country": "Cyprus",
+    "lat": 34.66261,
+    "lng": 33.02621,
+    "date": "2026-11-07",
+    "time": "21:00 - 04:00",
+    "price": 20,
+    "currency": "EUR",
+    "venue": "The Warehouse by IT Quarter",
+    "trending": false,
+    "lineup": [
+      "DJ Tennis",
+      "Mano Le Tough",
+      "Echonomist",
+      "Pazzi",
+      "Pan."
+    ],
+    "desc": "L'Américain DJ Tennis, fondateur du label Life and Death, joue en b2b avec l'Irlandais Mano Le Tough au Warehouse by IT Quarter, entrepôt reconverti en salle d'événements au 20 rue Synergatismou, près du port de Limassol. Le Turc Echonomist complète la tête d'affiche, Pazzi et Pan. assurent le soutien, sur une house mélodique. Date reportée d'avril, ouverture à 21 h le samedi 7 novembre jusqu'à 4 h, billets à partir d'environ 20 €.",
+    "descEn": "American DJ Tennis, founder of the Life and Death label, goes back to back with Ireland's Mano Le Tough at The Warehouse by IT Quarter, a converted warehouse events space at 20 Synergatismou Street near Limassol port. Turkey's Echonomist completes the headline bill, with Pazzi and Pan. in support, on melodic house. Rescheduled from April, doors at 9pm on Saturday 7 November until 4am, tickets from around €20.",
+    "ticketUrl": "https://ra.co/events/2508473",
+    "sources": [
+      "https://cyprus.bz/event/3305/dj-tennis-b2b-mano-le-tough-echonomist-2026",
+      "https://rave-pulse.com/events/limassol/dj-tennis-x-mano-le-tough/",
+      "https://technocyprus.club/events/dj-tennis-mano-le-tough-echonomist",
+      "https://maps.apple.com/place?place-id=IB371FC3E88F55864"
+    ],
+    "note": "The Warehouse by IT Quarter, Synergatismou 20, 3010 Limassol. Coordonnées : fiche Apple Maps du lieu (34.662613, 33.026214), identiques au point de technocyprus pour la même salle. Attention, rave-pulse et technocyprus indiquent 'Carob Mill' dans le champ salle (reliquat de la date d'avril, reportée, qui avait lieu au Carob Mill) mais leur texte, le JSON-LD de cyprus.bz et l'affiche disent 'The Warehouse'. Date 07/11/2026 samedi, 21:00 - 04:00 (JSON-LD cyprus.bz en UTC+0 19:00 = 21:00 local). Prix 'from €20' (rave-pulse, technocyprus), INDICATIF : la billetterie RA n'est pas lisible depuis le conteneur. Billetterie officielle = RA (lien de l'offre JSON-LD).",
+    "_image": {
+      "image": "https://cyprus.bz/img/images/events/074864fa-efea-4197-b5ff-872e0f8fea7d/1786244587914.png",
+      "sourcePage": "https://cyprus.bz/event/3305/dj-tennis-b2b-mano-le-tough-echonomist-2026",
+      "credit": "The Warehouse by IT Quarter",
+      "kind": "event",
+      "width": 941,
+      "note": "affiche officielle de la soirée (WebP servi sous extension .png, 941x1672), copie hébergée par l'agenda cyprus.bz"
+    }
   }
 ]

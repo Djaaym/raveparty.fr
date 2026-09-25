@@ -150,7 +150,7 @@
       "https://www.ch0.org/refresh-x-hrup-w-poor-jdarr-gr/",
       "https://olaii.com/event/11420/refresh-x-hrup-w-poor-j-darr-gr/"
     ],
-    "note": "Channel Zero, Masarykova cesta 24 (Metelkova mesto), Ljubljana. Coordonnées OSM via Photon (nœud nightclub « Channel Zero »). Prix indicatif : 6 € premier palier en ligne (quantité limitée, disponibilité non vérifiée), puis 8 €, 10 € avant minuit et 12 € sur place. Vendredi 9 octobre 2026 vérifié.",
+    "note": "Channel Zero, Metelkova ulica 4 / Masarykova cesta 24 (Metelkova mesto), Ljubljana. Coordonnées OSM via Photon (nœud nightclub « Channel Zero »), l'API olaii donne 46.05721, 14.51685. Prix : 6 € (1. val, en vente au 25/09 d'après l'API olaii, lowest_price = 6.00), puis 8 €, 10 € avant minuit et 12 € sur place. Vendredi 9 octobre 2026 vérifié.",
     "_image": {
       "image": "https://www.ch0.org/wp-content/uploads/2026/09/web-fb-banner.jpg",
       "sourcePage": "https://www.ch0.org/refresh-x-hrup-w-poor-jdarr-gr/",
@@ -413,8 +413,8 @@
       "Razzor",
       "Suzana"
     ],
-    "desc": "Troisième date zagréboise de la tournée régionale de Music Reactions, le collectif hard techno de Belgrade, au Peti Kupe, club de la Trnjanska cesta dans le quartier de Trnje. En tête d'affiche, le jeune Britannique Alex Farell, passé par Boiler Room à 16 ans et par Creamfields, Parklife et Terminal V, avec des sorties sur HEKATE et Teletech. Autour de lui, Laccotti, Pusmus, Razzor et Suzana, entre hard groove, schranz et hard trance. De 22 h à 6 h, billet à 12 €.",
-    "descEn": "Third Zagreb date of the regional tour by Music Reactions, Belgrade's hard techno collective, at Peti Kupe, the club on Trnjanska cesta in the Trnje district. Headlining is young British DJ Alex Farell, who played Boiler Room at 16 and has since appeared at Creamfields, Parklife and Terminal V, with releases on HEKATE and Teletech. Support from Laccotti, Pusmus, Razzor and Suzana, across hard groove, schranz and hard trance. 22:00 to 06:00, tickets at 12 €.",
+    "desc": "Troisième étape de la tournée régionale de Music Reactions, le collectif hard techno de Belgrade, au Peti Kupe, club de la Trnjanska cesta dans le quartier de Trnje. En tête d'affiche, le jeune Britannique Alex Farell, passé par Boiler Room à 16 ans et par Creamfields, Parklife et Terminal V, avec des sorties sur HEKATE et Teletech. Autour de lui, Laccotti, Pusmus, Razzor et Suzana, entre hard groove, schranz et hard trance. De 22 h à 6 h, billet à 12 €.",
+    "descEn": "Third stop on the regional tour by Music Reactions, Belgrade's hard techno collective, at Peti Kupe, the club on Trnjanska cesta in the Trnje district. Headlining is young British DJ Alex Farell, who played Boiler Room at 16 and has since appeared at Creamfields, Parklife and Terminal V, with releases on HEKATE and Teletech. Support from Laccotti, Pusmus, Razzor and Suzana, across hard groove, schranz and hard trance. 22:00 to 06:00, tickets at 12 €.",
     "ticketUrl": "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
     "sources": [
       "https://musicreactions.com/events/music-reactions-indoor-rave-zagreb-nov-2026/tickets",
@@ -428,6 +428,80 @@
       "kind": "event",
       "width": 1080,
       "note": "affiche officielle (1080x1350)"
+    }
+  },
+  {
+    "title": "Kala Festival",
+    "type": "Festival",
+    "genres": [
+      "House",
+      "Techno"
+    ],
+    "city": "Dhërmi",
+    "country": "Albania",
+    "lat": 40.13993,
+    "lng": 19.64209,
+    "date": "2027-06-02",
+    "endDate": "2027-06-09",
+    "time": "12:00",
+    "price": 390,
+    "currency": "EUR",
+    "venue": "Plage de Dhërmi",
+    "venueEn": "Dhërmi Beach",
+    "trending": false,
+    "lineup": [],
+    "desc": "Festival boutique d'une semaine sur la Riviera albanaise, Kala installe six scènes en plein air à planchers de bois sur la plage de Dhërmi, village côtier entre Vlorë et Himarë, avec des fêtes de jour sur la crique voisine de Gjipe. La formule tient du séjour : chaque billet international inclut l'hôtel, à partir de 390 € la semaine en chambre partagée, et des billets résidents sans hébergement sont proposés aux habitants d'Albanie, du Kosovo, de Macédoine du Nord et du Monténégro. Programmation 2027 à venir.",
+    "descEn": "A week-long boutique festival on the Albanian Riviera, Kala sets up six open-air stages with wooden dancefloors on the beach at Dhërmi, a coastal village between Vlorë and Himarë, plus daytime parties in the nearby Gjipe cove. It works like a holiday: every international ticket includes a hotel, from 390 € for the week in a shared room, and resident tickets without accommodation are offered to people living in Albania, Kosovo, North Macedonia and Montenegro. The 2027 line-up is still to come.",
+    "ticketUrl": "https://www.kala.al/tickets",
+    "sources": [
+      "https://www.kala.al/",
+      "https://www.kala.al/tickets",
+      "https://www.kala.al/tickets-for-locals"
+    ],
+    "note": "Plage de Dhërmi, commune de Himarë. Coordonnées du point OSM « Plazhi i Dhërmiut » via Photon : le festival s'étale sur la plage, pas d'entrée unique publiée. Prix indicatif : 390 € (ou 340 £) = prix d'appel annoncé du forfait semaine + hôtel 3*, pas un billet sec ; Super Early Bird épuisé, Early Bird en vente le 6-7 octobre 2026 ; billets résidents sans hôtel non encore publiés. Du mercredi 2 au mercredi 9 juin 2027. Line-up non annoncé. Horaire non publié : « 12:00 » est un bouchon indicatif (champ obligatoire), à ne pas afficher comme confirmé.",
+    "_image": {
+      "image": "https://cdn.prod.website-files.com/68c07bb3e5660f1971796324/68c30a870d725c13ab6c05ba_quote%20bg.jpg",
+      "sourcePage": "https://www.kala.al/",
+      "credit": "Kala Festival",
+      "kind": "festival",
+      "width": 1726,
+      "note": "photo du festival (piscine d'hôtel face à la mer, 1726x1009) ; pas de photo de scène isolée disponible sur le site"
+    }
+  },
+  {
+    "title": "Anjunadeep Explorations",
+    "type": "Festival",
+    "genres": [
+      "House"
+    ],
+    "city": "Dhërmi",
+    "country": "Albania",
+    "lat": 40.13993,
+    "lng": 19.64209,
+    "date": "2027-06-10",
+    "endDate": "2027-06-15",
+    "time": "12:00",
+    "price": 0,
+    "currency": "EUR",
+    "venue": "Plage de Dhërmi",
+    "venueEn": "Dhërmi Beach",
+    "trending": false,
+    "lineup": [],
+    "desc": "Le label londonien Anjunadeep, maison de la deep house mélodique, revient à Dhërmi sur la Riviera albanaise pour la septième édition de son festival-séjour : six nuits de sets par les artistes du label au bord de la mer Ionienne, des b2b inédits, des fêtes de jour sur la plage de Gjipe, des sets au lever du soleil et un programme de bien-être. Les forfaits incluent l'hébergement ; les Super Early Bird 2027 sont épuisés et une nouvelle vente est annoncée pour l'automne. Programmation à venir.",
+    "descEn": "London label Anjunadeep, home of melodic deep house, returns to Dhërmi on the Albanian Riviera for the seventh edition of its festival holiday: six nights of sets from the label's artists by the Ionian Sea, one-off b2bs, daytime parties on Gjipe Beach, sunrise sets and a wellness programme. Packages include accommodation; 2027 Super Early Bird packages are sold out and another sale is announced for the autumn. Line-up to be announced.",
+    "ticketUrl": "https://anjunadeep.com/events/explorations",
+    "sources": [
+      "https://anjunadeep.com/events/explorations",
+      "https://hypehou.se/events/albania/"
+    ],
+    "note": "Dhërmi, commune de Himarë. Coordonnées du point OSM « Plazhi i Dhërmiut » via Photon (lieu éclaté sur la plage et les hôtels, pas d'entrée unique). Prix non communiqué, ne signifie pas gratuit : forfaits avec hébergement, acompte de 75 £ d'après la FAQ citée en recherche, prochaine vente « dans quelques mois ». Du jeudi 10 au mardi 15 juin 2027. Line-up non annoncé. Horaire non publié : « 12:00 » est un bouchon indicatif (champ obligatoire), à ne pas afficher comme confirmé.",
+    "_image": {
+      "image": "https://api.anjunadeep.com/assets/5287ca21-ba56-4611-9867-27dc95de026e?fit=cover&withoutEnlargement=true&format=jpg&width=1200&height=630&quality=75",
+      "sourcePage": "https://anjunadeep.com/events/explorations",
+      "credit": "Anjunadeep",
+      "kind": "festival",
+      "width": 1200,
+      "note": "visuel officiel 2027 (côte de Dhërmi avec logo, 1200x630)"
     }
   }
 ]
